@@ -1,14 +1,14 @@
 ---
 title: LastVerbExecutionTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含日期和时间以 UTC 表示在此期间 PidTagLastVerbExecuted 属性第 2.758 节中表示的操作发生 区域历史属性 规范名称PidTagLastVerbExecutionTime 替代名称PR_LAST_VERB_EXECUTION_TIME ptagLastVerbExecutionTime
+description: 包含日期和时间以 UTC 表示在此期间PidTagLastVerbExecuted 属性第 2.758 节中表示的操作发生 区域历史属性 规范名称PidTagLastVerbExecutionTime 替代名称PR_LAST_VERB_EXECUTION_TIMEptagLastVerbExecutionTime
 type: docs
 weight: 12070
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastverbexecutiontime/
 ---
 ## KnownPropertyList.LastVerbExecutionTime field
 
-包含日期和时间，以 UTC 表示，在此期间 PidTagLastVerbExecuted 属性（第 2.758 节）中表示的操作发生。 区域:历史属性 规范名称:PidTagLastVerbExecutionTime 替代名称:PR_LAST_VERB_EXECUTION_TIME, ptagLastVerbExecutionTime
+包含日期和时间，以 UTC 表示，在此期间，PidTagLastVerbExecuted 属性（第 2.758 节）中表示的操作发生。 区域：历史属性 规范名称：PidTagLastVerbExecutionTime 替代名称：PR_LAST_VERB_EXECUTION_TIME、ptagLastVerbExecutionTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastVerbExecutionTime;

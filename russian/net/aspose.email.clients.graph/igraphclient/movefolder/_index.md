@@ -1,14 +1,14 @@
 ---
 title: MoveFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Переместите почтовую папку и ее содержимое в другую почтовую папку.
+description: Переместить почтовую папку и ее содержимое в другую почтовую папку.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.clients.graph/igraphclient/movefolder/
 ---
 ## IGraphClient.MoveFolder method
 
-Переместите почтовую папку и ее содержимое в другую почтовую папку.
+Переместить почтовую папку и ее содержимое в другую почтовую папку.
 
 ```csharp
 public FolderInfo MoveFolder(string newParentId, string itemId)
@@ -17,7 +17,7 @@ public FolderInfo MoveFolder(string newParentId, string itemId)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentId | String | Идентификатор новой родительской папки |
-| itemId | String | Идентификатор элемента для быть перемещенным |
+| itemId | String | Идентификатор предмета, который нужно переместить |
 
 ### Возвращаемое значение
 

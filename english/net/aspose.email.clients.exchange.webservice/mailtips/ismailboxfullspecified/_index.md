@@ -1,7 +1,7 @@
 ---
 title: IsMailboxFullSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the MailboxFullaspose.email.clients.exchange.webservice/mailtips/mailboxfull is specified
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified/

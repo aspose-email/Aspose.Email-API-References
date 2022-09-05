@@ -1,14 +1,14 @@
 ---
 title: ResourceAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует участников ресурса для встречи или собрания. ОбластьВстречи Каноническое имяPidLidResourceAttendees Альтернативные именаLID_RESOURCE_ATTENDEES
+description: Идентифицирует участников ресурса для встречи или собрания. Область Meetings Каноническое имя PidLidResourceAttendees Альтернативные имена LID_RESOURCE_ATTENDEES
 type: docs
 weight: 16140
 url: /ru/net/aspose.email.mapi/knownpropertylist/resourceattendees/
 ---
 ## KnownPropertyList.ResourceAttendees field
 
-Идентифицирует участников ресурса для встречи или собрания. Область:Встречи Каноническое имя:PidLidResourceAttendees Альтернативные имена:LID_RESOURCE_ATTENDEES
+Идентифицирует участников ресурса для встречи или собрания. Область: Meetings Каноническое имя: PidLidResourceAttendees Альтернативные имена: LID_RESOURCE_ATTENDEES
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ResourceAttendees;

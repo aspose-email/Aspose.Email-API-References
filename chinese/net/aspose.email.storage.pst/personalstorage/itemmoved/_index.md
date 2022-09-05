@@ -1,14 +1,14 @@
 ---
 title: ItemMoved
 second_title: Aspose.Email for .NET API 参考
-description: 当项目移动到另一个文件夹时发生
+description: 将项目移动到另一个文件夹时发生
 type: docs
 weight: 100
 url: /zh/net/aspose.email.storage.pst/personalstorage/itemmoved/
 ---
 ## PersonalStorage.ItemMoved event
 
-当项目移动到另一个文件夹时发生。
+将项目移动到另一个文件夹时发生。
 
 ```csharp
 public event ItemMovedEventHandler ItemMoved;

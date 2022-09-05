@@ -1,7 +1,7 @@
 ---
 title: ChildValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Child category
 type: docs
 weight: 240
 url: /net/aspose.email.personalinfo/associatedpersoncategory/childvalue/

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API 参考
-description: 获取事件类别的字符串表示
+description: 获取事件类别的字符串表示形式
 type: docs
 weight: 60
 url: /zh/net/aspose.email.personalinfo/eventcategory/value/
 ---
 ## EventCategory.Value property
 
-获取事件类别的字符串表示
+获取事件类别的字符串表示形式
 
 ```csharp
 public string Value { get; }

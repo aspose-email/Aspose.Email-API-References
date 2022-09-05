@@ -1,7 +1,7 @@
 ---
 title: FetchAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch the specified appointment from server.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchappointmentasync/

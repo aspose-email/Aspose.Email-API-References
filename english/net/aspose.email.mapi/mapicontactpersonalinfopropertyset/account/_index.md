@@ -1,7 +1,7 @@
 ---
 title: Account
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the account name of the contact
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/account/

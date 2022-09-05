@@ -1,14 +1,14 @@
 ---
 title: CommitDeletesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление
+description: Подтвердить удаление
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.pop3/iasyncpop3client/commitdeletesasync/
 ---
 ## IAsyncPop3Client.CommitDeletesAsync method
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(int sleep = -1, IConnection connection = null, 
@@ -18,7 +18,7 @@ public Task CommitDeletesAsync(int sleep = -1, IConnection connection = null,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sleep | Int32 | Время ожидания в миллисекундах |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: TaskMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус назначения внедренного объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskMode Альтернативные именаdispidTaskMode
+description: Указывает статус назначения встроенного объекта Task. Область Tasks Каноническое имя PidLidTaskMode Альтернативные имена dispidTaskMode
 type: docs
 weight: 18720
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskmode/
 ---
 ## KnownPropertyList.TaskMode field
 
-Указывает статус назначения внедренного объекта Task. Область:Задачи Каноническое имя:PidLidTaskMode Альтернативные имена:dispidTaskMode
+Указывает статус назначения встроенного объекта Task. Область: Tasks Каноническое имя: PidLidTaskMode Альтернативные имена: dispidTaskMode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskMode;

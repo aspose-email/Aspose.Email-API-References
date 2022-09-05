@@ -16,11 +16,11 @@ public static CalendarRecurrence FromRecurrence(string xmlString)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlString | String | XML 字符串String模式。 |
+| xmlString | String | XML 字符串String的图案。 |
 
 ### 返回值
 
-重复模式[`CalendarRecurrence`](../../calendarrecurrence)。
+重复模式[`CalendarRecurrence`](../../calendarrecurrence).
 
 ### 也可以看看
 
@@ -40,11 +40,11 @@ public static CalendarRecurrence FromRecurrence(XmlElement xmlElement)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlElement | XmlElement | XmlElementXmlElement模式。 |
+| xmlElement | XmlElement | Xml元素XmlElement的图案。 |
 
 ### 返回值
 
-重复模式[`CalendarRecurrence`](../../calendarrecurrence)。
+重复模式[`CalendarRecurrence`](../../calendarrecurrence).
 
 ### 也可以看看
 

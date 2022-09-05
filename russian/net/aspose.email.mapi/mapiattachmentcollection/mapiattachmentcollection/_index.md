@@ -1,14 +1,14 @@
 ---
 title: MapiAttachmentCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiAttachmentCollectionaspose.email.mapi/mapiattachmentcollection.
+description: Инициализирует новый экземплярMapiAttachmentCollectionaspose.email.mapi/mapiattachmentcollection класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapiattachmentcollection/mapiattachmentcollection/
 ---
 ## MapiAttachmentCollection() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiAttachmentCollection`](../../mapiattachmentcollection).
+Инициализирует новый экземпляр[`MapiAttachmentCollection`](../../mapiattachmentcollection) класс.
 
 ```csharp
 public MapiAttachmentCollection()

@@ -1,14 +1,14 @@
 ---
 title: ItemSent
 second_title: Aspose.Email for .NET API 参考
-description: 发送项目并保存在已发送项目文件夹中时引发
+description: 在发送项目并保存在已发送项目文件夹时引发
 type: docs
 weight: 280
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/itemsent/
 ---
 ## IEWSClient.ItemSent event
 
-发送项目并保存在已发送项目文件夹中时引发。
+在发送项目并保存在已发送项目文件夹时引发。
 
 ```csharp
 public event EventHandler<SentItemEventArgs> ItemSent;

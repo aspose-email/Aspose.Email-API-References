@@ -1,7 +1,7 @@
 ---
 title: FetchConversationMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified conversation messages
 type: docs
 weight: 730
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchconversationmessages/

@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptSmtpAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含收到已读回执的用户的 SMTP 电子邮件地址 区域邮件 规范名称PidTagReadReceiptSmtpAddress 备用名称ptagRecipientReadReceiptSmtpAddress
+description: 包含接收已读回执的用户的 SMTP 电子邮件地址 区域Mail 规范名称PidTagReadReceiptSmtpAddress 替代名称ptagRecipientReadReceiptSmtpAddress
 type: docs
 weight: 15250
 url: /zh/net/aspose.email.mapi/knownpropertylist/readreceiptsmtpaddress/
 ---
 ## KnownPropertyList.ReadReceiptSmtpAddress field
 
-包含收到已读回执的用户的 SMTP 电子邮件地址。 区域:邮件 规范名称:PidTagReadReceiptSmtpAddress 备用名称:ptagRecipientReadReceiptSmtpAddress
+包含接收已读回执的用户的 SMTP 电子邮件地址。 区域：Mail 规范名称：PidTagReadReceiptSmtpAddress 替代名称：ptagRecipientReadReceiptSmtpAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptSmtpAddress;

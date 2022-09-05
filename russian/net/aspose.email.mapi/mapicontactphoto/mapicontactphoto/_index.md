@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiContactPhotoaspose.email.mapi/mapicontactphotoclass
+description: Инициализирует новый экземплярMapiContactPhotoaspose.email.mapi/mapicontactphoto класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactphoto/mapicontactphoto/
 ---
 ## MapiContactPhoto constructor
 
-Инициализирует новый экземпляр[`MapiContactPhoto`](../../mapicontactphoto)class
+Инициализирует новый экземпляр[`MapiContactPhoto`](../../mapicontactphoto) класс
 
 ```csharp
 public MapiContactPhoto(byte[] data, MapiContactPhotoImageFormat photoImageFormat)

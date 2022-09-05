@@ -1,9 +1,9 @@
 ---
 title: DeliveryNotificationOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies delivery notifications.
 type: docs
-weight: 17080
+weight: 17250
 url: /net/aspose.email/deliverynotificationoptions/
 ---
 ## DeliveryNotificationOptions enumeration

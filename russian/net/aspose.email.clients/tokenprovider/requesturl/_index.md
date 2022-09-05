@@ -1,14 +1,14 @@
 ---
 title: RequestUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: URL-адрес для получения маркера доступа.
+description: URL-адрес для получения токена доступа.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients/tokenprovider/requesturl/
 ---
 ## TokenProvider.RequestUrl property
 
-URL-адрес для получения маркера доступа.
+URL-адрес для получения токена доступа.
 
 ```csharp
 public virtual string RequestUrl { get; }

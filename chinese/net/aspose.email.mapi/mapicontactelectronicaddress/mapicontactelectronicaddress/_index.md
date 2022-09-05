@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress类的新实例
+description: 初始化MapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddress/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress() {#constructor}
 
-初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类的新实例。
+初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类.
 
 ```csharp
 public MapiContactElectronicAddress()
@@ -24,7 +24,7 @@ public MapiContactElectronicAddress()
 
 ## MapiContactElectronicAddress(string, string, string) {#constructor_3}
 
-初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类的新实例。
+初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类.
 
 ```csharp
 public MapiContactElectronicAddress(string displayName, string addressType, string emailAddress)
@@ -33,7 +33,7 @@ public MapiContactElectronicAddress(string displayName, string addressType, stri
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | displayName | String | 显示名称。 |
-| addressType | String | 地址类型。 |
+| addressType | String | 地址的类型。 |
 | emailAddress | String | 电子邮件地址。 |
 
 ### 也可以看看
@@ -46,7 +46,7 @@ public MapiContactElectronicAddress(string displayName, string addressType, stri
 
 ## MapiContactElectronicAddress(string) {#constructor_1}
 
-初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类的新实例。
+初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类.
 
 ```csharp
 public MapiContactElectronicAddress(string emailAddress)
@@ -66,7 +66,7 @@ public MapiContactElectronicAddress(string emailAddress)
 
 ## MapiContactElectronicAddress(string, string) {#constructor_2}
 
-初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类的新实例。
+初始化[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress)类.
 
 ```csharp
 public MapiContactElectronicAddress(string faxNumber, string emailAddress)

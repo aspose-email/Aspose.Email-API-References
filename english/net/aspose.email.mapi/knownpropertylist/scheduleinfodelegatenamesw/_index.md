@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoDelegateNamesW
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the names of the delegates in Unicode. Area Free/Busy Properties Canonical name PidTagScheduleInfoDelegateNamesW Alternate names PR_SCHDINFO_DELEGATE_NAMES_W ptagDelegateNames
 type: docs
 weight: 16750
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatenamesw/

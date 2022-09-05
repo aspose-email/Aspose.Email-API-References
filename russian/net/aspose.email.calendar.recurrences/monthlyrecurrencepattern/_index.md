@@ -1,14 +1,14 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет шаблон повторения ежемесячного типа.
+description: Представляет шаблон повторения ежемесячного типа повторения.
 type: docs
 weight: 750
 url: /ru/net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern class
 
-Представляет шаблон повторения ежемесячного типа.
+Представляет шаблон повторения ежемесячного типа повторения.
 
 ```csharp
 public class MonthlyRecurrencePattern : RecurrencePattern
@@ -18,9 +18,9 @@ public class MonthlyRecurrencePattern : RecurrencePattern
 
 | Имя | Описание |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor)() | Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern). |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_2)(int, int) | Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern). |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_1)(DayPosition, CalendarDay, int) | Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern). |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor)() | Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) класс. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_2)(int, int) | Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) класс. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_1)(DayPosition, CalendarDay, int) | Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) класс. |
 
 ## Характеристики
 
@@ -32,7 +32,7 @@ public class MonthlyRecurrencePattern : RecurrencePattern
 | [StartDay](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startday) { get; set; } | Получает или задает день начала. |
 | [StartOffset](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startoffset) { get; set; } | Получает или задает начальное смещение. |
 | [StartPosition](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startposition) { get; set; } | Получает или задает начальную позицию. |
-| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или устанавливает начало недели. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или задает начало недели. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: StopMonitoringAsync
 second_title: Aspose.Email for .NET API 参考
-description: 停止监视指定文件夹的消息更改如果 folderName 为空则停止监视所有文件夹
+description: 停止监视指定文件夹的消息更改如果文件夹名称为空则停止监视所有文件夹
 type: docs
 weight: 380
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/stopmonitoringasync/
 ---
 ## IAsyncImapClient.StopMonitoringAsync method
 
-停止监视指定文件夹的消息更改。如果 folderName 为空，则停止监视所有文件夹。
+停止监视指定文件夹的消息更改。如果文件夹名称为空，则停止监视所有文件夹。
 
 ```csharp
 public Task StopMonitoringAsync(string folderName = null, CancellationToken token = default)
@@ -16,7 +16,7 @@ public Task StopMonitoringAsync(string folderName = null, CancellationToken toke
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 指定文件夹进行监控操作。 |
+| folderName | String | 监视操作的指定文件夹。 |
 | token | CancellationToken | 取消令牌。 |
 
 ### 也可以看看

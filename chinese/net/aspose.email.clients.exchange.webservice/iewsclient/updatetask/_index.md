@@ -1,14 +1,14 @@
 ---
 title: UpdateTask
 second_title: Aspose.Email for .NET API 参考
-description: 更新指定任务
+description: 更新指定的任务
 type: docs
 weight: 1520
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/updatetask/
 ---
 ## UpdateTask(MapiTask) {#updatetask}
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public string UpdateTask(MapiTask task)
@@ -33,7 +33,7 @@ public string UpdateTask(MapiTask task)
 
 ## UpdateTask(string, MapiTask) {#updatetask_1}
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public string UpdateTask(string uri, MapiTask task)
@@ -42,7 +42,7 @@ public string UpdateTask(string uri, MapiTask task)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uri | String | 任务标识符 |
-| task | MapiTask | An[`ExchangeTask`](../../exchangetask)包含任务信息。 |
+| task | MapiTask | 一个[`ExchangeTask`](../../exchangetask)包含任务信息。 |
 
 ### 返回值
 
@@ -59,7 +59,7 @@ public string UpdateTask(string uri, MapiTask task)
 
 ## UpdateTask(string, MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) {#updatetask_2}
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public string UpdateTask(string uri, MapiTask task, 
@@ -69,7 +69,7 @@ public string UpdateTask(string uri, MapiTask task,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uri | String | 任务标识符 |
-| task | MapiTask | An[`ExchangeTask`](../../exchangetask)包含任务信息。 |
+| task | MapiTask | 一个[`ExchangeTask`](../../exchangetask)包含任务信息。 |
 | additionalProperties | IEnumerable`1 | 可在 MAPI 对象中使用的附加 MAPI 属性。 |
 
 ### 返回值
@@ -88,7 +88,7 @@ public string UpdateTask(string uri, MapiTask task,
 
 ## UpdateTask(ExchangeTask) {#updatetask_3}
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public void UpdateTask(ExchangeTask task)
@@ -102,8 +102,8 @@ public void UpdateTask(ExchangeTask task)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *task*的 UniqueUri 属性是` null` 或` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 的 UniqueUri 属性*task*是`无效的`或者`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是`无效的`. |
 
 ### 也可以看看
 
@@ -116,7 +116,7 @@ public void UpdateTask(ExchangeTask task)
 
 ## UpdateTask(ExchangeTask, UpdateTaskOptions) {#updatetask_4}
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public void UpdateTask(ExchangeTask task, UpdateTaskOptions options)
@@ -131,8 +131,8 @@ public void UpdateTask(ExchangeTask task, UpdateTaskOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *task*的 UniqueUri 属性是` null` 或` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 的 UniqueUri 属性*task*是`无效的`或者`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是`无效的`. |
 
 ### 也可以看看
 

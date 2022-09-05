@@ -16,15 +16,15 @@ public void UpdateDelegates(ExchangeDelegateUserCollection delegateUsers, string
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateUsers | ExchangeDelegateUserCollection | A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)包含新的代表的设置。 |
-| mailbox | String | 授权用户访问的邮箱。 |
+| delegateUsers | ExchangeDelegateUserCollection | 一个[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)包含代表的新设置。 |
+| mailbox | String | 授权委托用户访问的邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

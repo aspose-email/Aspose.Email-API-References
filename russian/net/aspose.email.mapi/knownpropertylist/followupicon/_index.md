@@ -1,14 +1,14 @@
 ---
 title: FollowupIcon
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает цвет флага объекта Message. ОбластьRenMessageFolder Каноническое имяPidTagFollowupIcon Альтернативные именаPR_FOLLOWUP_ICON ptagFollowupIcon
+description: Определяет цвет флага объекта Message. Область RenMessageFolder Каноническое имя PidTagFollowupIcon Альтернативные имена PR_FOLLOWUP_ICON ptagFollowupIcon
 type: docs
 weight: 10460
 url: /ru/net/aspose.email.mapi/knownpropertylist/followupicon/
 ---
 ## KnownPropertyList.FollowupIcon field
 
-Указывает цвет флага объекта Message. Область:RenMessageFolder Каноническое имя:PidTagFollowupIcon Альтернативные имена:PR_FOLLOWUP_ICON, ptagFollowupIcon
+Определяет цвет флага объекта Message. Область: RenMessageFolder Каноническое имя: PidTagFollowupIcon Альтернативные имена: PR_FOLLOWUP_ICON, ptagFollowupIcon
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FollowupIcon;

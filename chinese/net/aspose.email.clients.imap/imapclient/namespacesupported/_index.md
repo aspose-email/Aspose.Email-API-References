@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/namespacesupported/
 ---
 ## ImapClient.NamespaceSupported property
 
-获取是否支持 NAMESPACE 扩展的信息 查看更多:https://tools.ietf.org/html/rfc2342
+获取是否支持 NAMESPACE 扩展的信息 查看更多：https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public bool NamespaceSupported { get; set; }

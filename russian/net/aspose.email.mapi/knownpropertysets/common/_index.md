@@ -1,14 +1,14 @@
 ---
 title: Common
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиCommon Имя набора свойствPSETID_Common
+description: Имя области Common Имя набора свойств PSETID_Common
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/knownpropertysets/common/
 ---
 ## KnownPropertySets.Common field
 
-Имя области:Common Имя набора свойств:PSETID_Common
+Имя области: Common Имя набора свойств: PSETID_Common
 
 ```csharp
 public static readonly Guid Common;

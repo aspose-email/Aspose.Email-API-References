@@ -1,14 +1,14 @@
 ---
 title: EventType
 second_title: Aspose.Email for .NET API 参考
-description: 发生的进度事件的类型
+description: 发生的进度事件类型
 type: docs
 weight: 20
 url: /zh/net/aspose.email/progresseventhandlerinfo/eventtype/
 ---
 ## ProgressEventHandlerInfo.EventType property
 
-发生的进度事件的类型。
+发生的进度事件类型。
 
 ```csharp
 public ProgressEventType EventType { get; set; }

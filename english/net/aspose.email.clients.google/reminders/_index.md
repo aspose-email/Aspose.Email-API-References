@@ -1,7 +1,7 @@
 ---
 title: Reminders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Information about the events reminders for the authenticated user.
 type: docs
 weight: 15840
 url: /net/aspose.email.clients.google/reminders/

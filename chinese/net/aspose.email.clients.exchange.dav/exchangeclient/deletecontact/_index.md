@@ -16,7 +16,7 @@ public void DeleteContact(Contact contact)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | Contact | 联系人 |
+| contact | Contact | 接触 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void DeleteContact(MapiContact contact)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | MapiContact | 联系人 |
+| contact | MapiContact | 接触 |
 
 ### 也可以看看
 

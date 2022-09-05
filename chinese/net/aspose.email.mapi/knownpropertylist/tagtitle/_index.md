@@ -1,14 +1,14 @@
 ---
 title: TagTitle
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的职位 区域MapiMailUser 规范名称PidTagTitle 备用名称PR_TITLEPR_TITLE_APR_TITLE_Wurnschemascontactstitle
+description: 包含邮件用户的职位 区域MapiMailUser 规范名称PidTagTitle 替代名称PR_TITLEPR_TITLE_APR_TITLE_Wurnschemascontactstitle
 type: docs
 weight: 18510
 url: /zh/net/aspose.email.mapi/knownpropertylist/tagtitle/
 ---
 ## KnownPropertyList.TagTitle field
 
-包含邮件用户的职位。 区域：MapiMailUser 规范名称：PidTagTitle 备用名称：PR_TITLE、PR_TITLE_A、PR_TITLE_W、urn:schemas:contacts:title
+包含邮件用户的职位。 区域：MapiMailUser 规范名称：PidTagTitle 替代名称：PR_TITLE、PR_TITLE_A、PR_TITLE_W、urn:schemas:contacts:title
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagTitle;

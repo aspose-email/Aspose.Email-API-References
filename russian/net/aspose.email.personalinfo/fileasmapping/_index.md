@@ -1,14 +1,14 @@
 ---
 title: FileAsMapping
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает как генерировать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с MS-OXPROPS версии 16.2 от 31.07.2014
+description: Указывает как создавать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с версией MS-OXPROPS 16.2 от 31.07.2014
 type: docs
-weight: 19380
+weight: 19410
 url: /ru/net/aspose.email.personalinfo/fileasmapping/
 ---
 ## FileAsMapping enumeration
 
-Указывает, как генерировать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с MS-OXPROPS версии 16.2 от 31.07.2014
+Указывает, как создавать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с версией MS-OXPROPS 16.2 от 31.07.2014
 
 ```csharp
 public enum FileAsMapping : long
@@ -20,24 +20,24 @@ public enum FileAsMapping : long
 | --- | --- | --- |
 | Empty | `0` | Пустое значение. |
 | DisplayName | `12289` | DisplayName |
-| FirstName | `14854` | GivenName |
+| FirstName | `14854` | ИмяИмени |
 | LastName | `14865` | Фамилия |
-| Organization | `14870` | CompanyName |
-| FirstMiddleLastGen | `32823` | GivenName Отчество Генерация фамилии |
-| LastFirstMiddle | `32791` | Фамилия, Имя Отчество |
+| Organization | `14870` | Название компании |
+| FirstMiddleLastGen | `32823` | GivenName Отчество Фамилия Generation |
+| LastFirstMiddle | `32791` | Фамилия, ИмяОтчество |
 | LastFirstMiddle2 | `32816` | ФамилияИмяОтчество |
 | LastFirstMiddle3 | `32817` | Фамилия Имя Отчество |
-| OrgLastFirstMiddle | `32792` | Название компании\r\nФамилия, Имя Отчество |
+| OrgLastFirstMiddle | `32792` | CompanyName\r\nФамилия, GivenName MiddleName |
 | OrgLastFirstMiddle2 | `32818` | CompanyName\r\nФамилияИмяОтчество |
-| OrgLastFirstMiddle3 | `32819` | Название компании\r\nФамилия Имя Отчество |
-| LastFirstMiddleOrg | `32793` | Фамилия, Имя Отчество\r\nCompanyName |
+| OrgLastFirstMiddle3 | `32819` | CompanyName\r\nФамилия GivenName MiddleName |
+| LastFirstMiddleOrg | `32793` | Фамилия, ИмяОтчество\r\nCompanyName |
 | LastFirstMiddleOrg2 | `32820` | ФамилияИмяОтчество\r\nCompanyName |
 | LastFirstMiddleOrg3 | `32821` | Фамилия GivenName PidTagMiddleName\r\nCompanyName |
-| LastFirstMiddleGen | `32822` | Фамилия Имя Отчество Поколение |
+| LastFirstMiddleGen | `32822` | Фамилия GivenName Отчество Generation |
 | LastFirstMiddleGen2 | `32824` | SurnameGivenName MiddleName Generation |
-| BestMatch | `4294967293` | Указывает, что при отображении контакта приложение должно пытаться использовать текущее значение dispidFileUnder и других свойств контакта чтобы найти «наилучшее совпадение» для dispidFileUnderId с одним из предыдущих значений в этой таблице. |
-| AccordingToLocale | `4294967294` | Указывает, что при отображении контакта приложение должно выбрать соответствующие значения по умолчанию (согласно локали языка) для dispidFileUnderId и обновить dispidFileUnder в соответствии с выбором. |
-| None | `4294967295` | Указывает, что FileUnder предоставляется пользователем и не должен изменяться при изменении другого свойства имени контакта. Т.е. значение FileUnder не строится из других свойств. |
+| BestMatch | `4294967293` | Указывает, что при отображении контакта приложение должно попытаться использовать текущее значение dispidFileUnder и другие свойства контакта , чтобы найти «наилучшее совпадение» для dispidFileUnderId с одним из предыдущих значений в этой таблице. |
+| AccordingToLocale | `4294967294` | Указывает, что при отображении контакта приложение должно выбрать соответствующие значения по умолчанию (в соответствии с региональными настройками языка) для dispidFileUnderId и обновить dispidFileUnder в соответствии с выбором. |
+| None | `4294967295` | Указывает, что FileUnder предоставляется пользователем и не должен изменяться при изменении другого свойства имени контакта. Т.е. значение FileUnder не создается из других свойств. |
 
 ### Смотрите также
 

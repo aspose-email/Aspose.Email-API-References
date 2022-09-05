@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoAppointmentTombstone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of tombstones where each tombstone represents a Meeting object that has been declined. Area Free/Busy Properties Canonical name PidTagScheduleInfoAppointmentTombstone Alternate names PR_SCHDINFO_APPT_TOMBSTONE
 type: docs
 weight: 16710
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfoappointmenttombstone/

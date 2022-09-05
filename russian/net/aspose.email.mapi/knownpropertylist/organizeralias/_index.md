@@ -1,14 +1,14 @@
 ---
 title: OrganizerAlias
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес электронной почты организатора. ОбластьКонференц-связь Каноническое имяPidLidOrganizerAlias Альтернативные именаdispidOrgAlias
+description: Указывает адрес электронной почты организатора. Область Conferencing Каноническое имя PidLidOrganizerAlias Альтернативные имена dispidOrgAlias
 type: docs
 weight: 13460
 url: /ru/net/aspose.email.mapi/knownpropertylist/organizeralias/
 ---
 ## KnownPropertyList.OrganizerAlias field
 
-Указывает адрес электронной почты организатора. Область:Конференц-связь Каноническое имя:PidLidOrganizerAlias Альтернативные имена:dispidOrgAlias
+Указывает адрес электронной почты организатора. Область: Conferencing Каноническое имя: PidLidOrganizerAlias Альтернативные имена: dispidOrgAlias
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OrganizerAlias;

@@ -1,7 +1,7 @@
 ---
 title: AllowedConferenceSolutions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which defines what types of conferences are allowed
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/conferenceproperties/allowedconferencesolutions/

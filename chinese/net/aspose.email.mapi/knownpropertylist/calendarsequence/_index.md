@@ -1,14 +1,14 @@
 ---
 title: CalendarSequence
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会版本的序列号 区域通用 规范名称PidNameCalendarSequence 替代名称urnschemascalendarsequence
+description: 指定约会版本的序列号 区域Common 规范名称PidNameCalendarSequence 备用名称urnschemascalendarsequence
 type: docs
 weight: 2400
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarsequence/
 ---
 ## KnownPropertyList.CalendarSequence field
 
-指定约会版本的序列号。 区域:通用 规范名称:PidNameCalendarSequence 替代名称:urn:schemas:calendar:sequence
+指定约会版本的序列号。 区域：Common 规范名称：PidNameCalendarSequence 备用名称：urn:schemas:calendar:sequence
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarSequence;

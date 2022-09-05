@@ -1,7 +1,7 @@
 ---
 title: ContainsSubjectStrings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the strings that appear in the subject of incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/rulepredicates/containssubjectstrings/

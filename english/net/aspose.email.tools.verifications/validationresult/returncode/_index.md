@@ -1,7 +1,7 @@
 ---
 title: ReturnCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or ses the response code of the validating process.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.verifications/validationresult/returncode/

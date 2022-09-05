@@ -1,14 +1,14 @@
 ---
 title: RestoreConnection
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение определяющее нужно ли восстанавливать соединение в случае если сервер принудительно закрывает соединение Эта опция должна использоваться вместе с NumberOfAttemptsToRrepeat вариант.
+description: Получает или задает значение определяющее нужно ли восстанавливать соединение в случае если сервер принудительно закрывает соединение. Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.imap/backupsettings/restoreconnection/
 ---
 ## BackupSettings.RestoreConnection property
 
-Получает или задает значение, определяющее, нужно ли восстанавливать соединение в случае, если сервер принудительно закрывает соединение Эта опция должна использоваться вместе с NumberOfAttemptsToRrepeat вариант.
+Получает или задает значение, определяющее, нужно ли восстанавливать соединение в случае, если сервер принудительно закрывает соединение. Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat.
 
 ```csharp
 public bool RestoreConnection { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EventsRootFolderEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EVENTS_ROOT_FOLDER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EVENTS_ROOT_FOLDER_ENTRYID
 type: docs
 weight: 9770
 url: /ru/net/aspose.email.mapi/knownpropertylist/eventsrootfolderentryid/
 ---
 ## KnownPropertyList.EventsRootFolderEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EVENTS_ROOT_FOLDER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EVENTS_ROOT_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EventsRootFolderEntryid;

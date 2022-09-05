@@ -1,14 +1,14 @@
 ---
 title: ConflictEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含冲突解决消息的 EntryID 区域ICS 规范名称PidTagConflictEntryId 替代名称PR_CONFLICT_ENTRYID ptagConflictEntryId
+description: 包含冲突解决消息的 EntryID 区域ICS 规范名称PidTagConflictEntryId 备用名称PR_CONFLICT_ENTRYIDptagConflictEntryId
 type: docs
 weight: 2880
 url: /zh/net/aspose.email.mapi/knownpropertylist/conflictentryid/
 ---
 ## KnownPropertyList.ConflictEntryId field
 
-包含冲突解决消息的 EntryID。 区域:ICS 规范名称:PidTagConflictEntryId 替代名称:PR_CONFLICT_ENTRYID, ptagConflictEntryId
+包含冲突解决消息的 EntryID。 区域：ICS 规范名称：PidTagConflictEntryId 备用名称：PR_CONFLICT_ENTRYID、ptagConflictEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConflictEntryId;

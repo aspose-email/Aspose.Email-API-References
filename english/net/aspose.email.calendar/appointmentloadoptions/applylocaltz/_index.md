@@ -1,7 +1,7 @@
 ---
 title: ApplyLocalTZ
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Convert time to local timezone
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/appointmentloadoptions/applylocaltz/

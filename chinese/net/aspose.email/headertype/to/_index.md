@@ -8,7 +8,7 @@ url: /zh/net/aspose.email/headertype/to/
 ---
 ## HeaderType.To property
 
-主要收件人。 示例: 收件人:someone@somedomain.com
+主要收件人。 示例： 收件人：someone@somedomain.com
 
 ```csharp
 public static HeaderType To { get; }

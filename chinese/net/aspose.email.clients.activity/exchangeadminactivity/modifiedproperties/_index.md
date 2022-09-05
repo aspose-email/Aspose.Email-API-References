@@ -1,14 +1,14 @@
 ---
 title: ModifiedProperties
 second_title: Aspose.Email for .NET API 参考
-description: 该属性包含在管理事件中 属性包括被修改的属性名称被修改属性的新值和被修改对象的先前值
+description: 该属性包含在管理事件中 属性包括被修改的属性的名称被修改的属性的新值被修改对象的先前值
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activity/exchangeadminactivity/modifiedproperties/
 ---
 ## ExchangeAdminActivity.ModifiedProperties property
 
-该属性包含在管理事件中。 属性包括被修改的属性名称、被修改属性的新值和被修改对象的先前值。
+该属性包含在管理事件中。 属性包括被修改的属性的名称、被修改的属性的新值、被修改对象的先前值。
 
 ```csharp
 public ModifiedProperty[] ModifiedProperties { get; set; }

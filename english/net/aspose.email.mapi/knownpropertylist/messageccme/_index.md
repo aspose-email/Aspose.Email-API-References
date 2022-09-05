@@ -1,7 +1,7 @@
 ---
 title: MessageCcMe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area General Message Properties Canonical name PidTagMessageCcMe Alternate names PR_MESSAGE_CC_ME ptagMessageCcMe
 type: docs
 weight: 12460
 url: /net/aspose.email.mapi/knownpropertylist/messageccme/

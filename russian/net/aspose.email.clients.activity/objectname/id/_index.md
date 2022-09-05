@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает идентификатор имени объекта
+description: Получает или задает идентификатор имени объекта
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/objectname/id/
 ---
 ## ObjectName.Id property
 
-Получает или устанавливает идентификатор имени объекта
+Получает или задает идентификатор имени объекта
 
 ```csharp
 public string Id { get; set; }

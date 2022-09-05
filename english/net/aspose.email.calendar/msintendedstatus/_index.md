@@ -1,7 +1,7 @@
 ---
 title: MSIntendedStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the INTENDED status of an appointment.
 type: docs
 weight: 630
 url: /net/aspose.email.calendar/msintendedstatus/

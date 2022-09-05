@@ -1,12 +1,12 @@
 ---
 title: ActiveSyncException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ActiveSyncExceptionaspose.email/activesyncexception class with a specified error message.
 type: docs
 weight: 10
 url: /net/aspose.email/activesyncexception/activesyncexception/
 ---
-## ActiveSyncException constructor (1 of 4)
+## ActiveSyncException(string) {#constructor_2}
 
 Initializes a new instance of the [`ActiveSyncException`](../../activesyncexception) class with a specified error message.
 
@@ -26,7 +26,7 @@ public ActiveSyncException(string message)
 
 ---
 
-## ActiveSyncException constructor (2 of 4)
+## ActiveSyncException() {#constructor}
 
 Initializes a new instance of the [`ActiveSyncException`](../../activesyncexception) class.
 
@@ -42,7 +42,7 @@ public ActiveSyncException()
 
 ---
 
-## ActiveSyncException constructor (3 of 4)
+## ActiveSyncException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`ActiveSyncException`](../../activesyncexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -63,7 +63,7 @@ public ActiveSyncException(string message, Exception innerException)
 
 ---
 
-## ActiveSyncException constructor (4 of 4)
+## ActiveSyncException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`ActiveSyncException`](../../activesyncexception) class with a reference to the inner exception that is the cause of this exception.
 

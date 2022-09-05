@@ -1,7 +1,7 @@
 ---
 title: ReferredByValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for ReferredBy category
 type: docs
 weight: 330
 url: /net/aspose.email.personalinfo/associatedpersoncategory/referredbyvalue/

@@ -1,7 +1,7 @@
 ---
 title: Draft
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether Flags property contains the Draft flag.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapmessageinfo/draft/

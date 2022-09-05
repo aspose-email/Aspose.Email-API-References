@@ -1,9 +1,9 @@
 ---
 title: MapiAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the attachment in the Email message.
 type: docs
-weight: 17710
+weight: 17890
 url: /net/aspose.email.mapi/mapiattachment/
 ---
 ## MapiAttachment class
@@ -48,10 +48,10 @@ public class MapiAttachment : MapiPropertyContainer
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapiattachment/removeproperty)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapiattachment/save)(Stream) | Save attachment content. |
-| [Save](../../aspose.email.mapi/mapiattachment/save)(string) | Save attachment content. |
-| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty)(MapiProperty) | Sets the property. |
-| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty)(PropertyDescriptor, object) | Sets MAPI property. |
+| [Save](../../aspose.email.mapi/mapiattachment/save#save)(Stream) | Save attachment content. |
+| [Save](../../aspose.email.mapi/mapiattachment/save#save_1)(string) | Save attachment content. |
+| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty)(MapiProperty) | Sets the property. |
+| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty_1)(PropertyDescriptor, object) | Sets MAPI property. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | Try to get the property data with specified tag key. |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded. |

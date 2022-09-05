@@ -1,14 +1,14 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FollowUpOptionsaspose.email.mapi/followupoptions类的新实例
+description: 初始化FollowUpOptionsaspose.email.mapi/followupoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/followupoptions/followupoptions/
 ---
 ## FollowUpOptions() {#constructor}
 
-初始化[`FollowUpOptions`](../../followupoptions)类的新实例。
+初始化[`FollowUpOptions`](../../followupoptions)类.
 
 ```csharp
 public FollowUpOptions()
@@ -24,7 +24,7 @@ public FollowUpOptions()
 
 ## FollowUpOptions(string) {#constructor_1}
 
-初始化[`FollowUpOptions`](../../followupoptions)类的新实例。
+初始化[`FollowUpOptions`](../../followupoptions)类.
 
 ```csharp
 public FollowUpOptions(string flagRequest)
@@ -44,7 +44,7 @@ public FollowUpOptions(string flagRequest)
 
 ## FollowUpOptions(string, DateTime, DateTime) {#constructor_2}
 
-初始化[`FollowUpOptions`](../../followupoptions)类的新实例。
+初始化[`FollowUpOptions`](../../followupoptions)类.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
@@ -54,7 +54,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 | --- | --- | --- |
 | flagRequest | String | 标志请求。 |
 | startDate | DateTime | 开始日期。 |
-| dueDate | DateTime | 到期日。 |
+| dueDate | DateTime | 截止日期。 |
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 
 ## FollowUpOptions(string, DateTime, DateTime, DateTime) {#constructor_3}
 
-初始化[`FollowUpOptions`](../../followupoptions)类的新实例。
+初始化[`FollowUpOptions`](../../followupoptions)类.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate, 

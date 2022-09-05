@@ -1,7 +1,7 @@
 ---
 title: Sensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the sensitivity.
 type: docs
 weight: 230
 url: /net/aspose.email/headertype/sensitivity/

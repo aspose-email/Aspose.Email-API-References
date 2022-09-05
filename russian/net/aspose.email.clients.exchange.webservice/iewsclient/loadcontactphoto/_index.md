@@ -1,14 +1,14 @@
 ---
 title: LoadContactPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Загружает бинарные данные фото контакта
+description: Загружает бинарные данные фотографии контакта
 type: docs
 weight: 1210
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/loadcontactphoto/
 ---
 ## IEWSClient.LoadContactPhoto method
 
-Загружает бинарные данные фото контакта
+Загружает бинарные данные фотографии контакта
 
 ```csharp
 public void LoadContactPhoto(ContactPhoto photo)

@@ -1,12 +1,12 @@
 ---
 title: SelectFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Selects the specified folder
 type: docs
 weight: 1120
 url: /net/aspose.email.clients.imap/imapclient/selectfolderasync/
 ---
-## ImapClient.SelectFolderAsync method (1 of 8)
+## SelectFolderAsync(IConnection, string) {#selectfolderasync}
 
 Selects the specified folder
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (2 of 8)
+## SelectFolderAsync(IConnection, string, bool?) {#selectfolderasync_1}
 
 Selects the specified folder
 
@@ -59,7 +59,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (3 of 8)
+## SelectFolderAsync(string) {#selectfolderasync_4}
 
 Selects the specified folder
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (4 of 8)
+## SelectFolderAsync(string, bool?) {#selectfolderasync_5}
 
 Selects the specified folder
 
@@ -108,7 +108,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (5 of 8)
+## SelectFolderAsync(IConnection, string, CancellationToken) {#selectfolderasync_3}
 
 Selects the specified folder
 
@@ -135,7 +135,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (6 of 8)
+## SelectFolderAsync(IConnection, string, bool?, CancellationToken) {#selectfolderasync_2}
 
 Selects the specified folder
 
@@ -164,7 +164,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (7 of 8)
+## SelectFolderAsync(string, CancellationToken) {#selectfolderasync_7}
 
 Selects the specified folder
 
@@ -189,7 +189,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (8 of 8)
+## SelectFolderAsync(string, bool?, CancellationToken) {#selectfolderasync_6}
 
 Selects the specified folder
 

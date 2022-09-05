@@ -3,7 +3,7 @@ title: Aspose.Email.DKIM
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Mail.DKIM namespace provides classes for work with DKIM signature.
 type: docs
-weight: 260
+weight: 290
 url: /net/aspose.email.dkim/
 ---
 The **Aspose.Email.Mail.DKIM** namespace provides classes for work with DKIM signature.

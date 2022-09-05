@@ -1,14 +1,14 @@
 ---
 title: TaskDueDate
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户期望完成任务的日期 区域任务 规范名称PidLidTaskDueDate 替代名称dispidTaskDueDate
+description: 指定用户希望完成任务的日期 区域Tasks 规范名称PidLidTaskDueDate 替代名称dispidTaskDueDate
 type: docs
 weight: 18620
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskduedate/
 ---
 ## KnownPropertyList.TaskDueDate field
 
-指定用户期望完成任务的日期。 区域:任务 规范名称:PidLidTaskDueDate 替代名称:dispidTaskDueDate
+指定用户希望完成任务的日期。 区域：Tasks 规范名称：PidLidTaskDueDate 替代名称：dispidTaskDueDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDueDate;

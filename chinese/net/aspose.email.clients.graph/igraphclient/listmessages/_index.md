@@ -16,11 +16,11 @@ public MessageInfoCollection ListMessages(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 父文件夹 id |
+| id | String | 父文件夹 ID |
 
 ### 返回值
 
-返回的 MessageInfo 列表文件夹
+返回文件夹的 MessageInfo 列表
 
 ### 也可以看看
 
@@ -41,13 +41,13 @@ public GraphMessagePageInfo ListMessages(string id, PageInfo page, MailQuery que
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 父文件夹 id |
-| page | PageInfo | 页面信息 |
+| id | String | 父文件夹 ID |
+| page | PageInfo | 一页信息 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询 |
 
 ### 返回值
 
-返回文件夹
+返回文件夹的 MessageInfo 列表
 
 ### 也可以看看
 

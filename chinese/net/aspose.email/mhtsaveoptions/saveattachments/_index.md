@@ -16,7 +16,7 @@ public bool SaveAttachments { get; set; }
 
 ### 适当的价值
 
-` true` 如果应保存附件；否则，` false` 。
+`真的`是否应保存附件；否则，`错误的`.
 
 ### 也可以看看
 

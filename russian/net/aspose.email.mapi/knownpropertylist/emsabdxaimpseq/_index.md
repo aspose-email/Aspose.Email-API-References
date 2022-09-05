@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaImpSeq
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_IMP_SEQ
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_IMP_SEQ
 type: docs
 weight: 5720
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaimpseq/
 ---
 ## KnownPropertyList.EmsAbDxaImpSeq field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_IMP_SEQ
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_IMP_SEQ
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaImpSeq;

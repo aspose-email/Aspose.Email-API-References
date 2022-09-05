@@ -1,7 +1,7 @@
 ---
 title: PermissionType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the permission type.
 type: docs
 weight: 20
 url: /net/aspose.email/referenceattachment/permissiontype/

@@ -1,7 +1,7 @@
 ---
 title: ImAddress1
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ImAddress1 messenger kind
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/instantmessengercategory/imaddress1/

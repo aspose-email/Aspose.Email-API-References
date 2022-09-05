@@ -1,12 +1,12 @@
 ---
 title: PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PidNamePropertyDescriptoraspose.email.mapi/pidnamepropertydescriptor class Properties identified by a string name along with a property set.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/pidnamepropertydescriptor/
 ---
-## PidNamePropertyDescriptor constructor (1 of 2)
+## PidNamePropertyDescriptor(string, PropertyDataType, Guid) {#constructor}
 
 Initializes a new instance of the [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class Properties identified by a string name along with a property set.
 
@@ -29,7 +29,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 
 ---
 
-## PidNamePropertyDescriptor constructor (2 of 2)
+## PidNamePropertyDescriptor(string, string, PropertyDataType, Guid) {#constructor_1}
 
 Initializes a new instance of the [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class Properties identified by a string name along with a property set.
 

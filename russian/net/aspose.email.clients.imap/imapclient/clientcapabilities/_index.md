@@ -1,14 +1,14 @@
 ---
 title: ClientCapabilities
 second_title: Справочник по Aspose.Email для .NET API
-description: Уведомляет сервер о том какие расширения поддерживает клиент. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
+description: Уведомляет сервер какие расширения поддерживаются клиентом. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
 type: docs
 weight: 440
 url: /ru/net/aspose.email.clients.imap/imapclient/clientcapabilities/
 ---
 ## ClientCapabilities(params string[]) {#clientcapabilities_1}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public string[] ClientCapabilities(params string[] capabilityNames)
@@ -20,7 +20,7 @@ public string[] ClientCapabilities(params string[] capabilityNames)
 
 ### Возвращаемое значение
 
-Возвращает массив возможностей, поддерживаемых клиентом сервер.
+Возвращает массив с возможностями, поддерживаемыми сервером.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public string[] ClientCapabilities(params string[] capabilityNames)
 
 ## ClientCapabilities(IConnection, params string[]) {#clientcapabilities}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public string[] ClientCapabilities(IConnection connection, params string[] capabilityNames)
@@ -40,7 +40,7 @@ public string[] ClientCapabilities(IConnection connection, params string[] capab
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | capabilityNames | String[] | Массив возможностей, поддерживаемых клиентом |
 
 ### Возвращаемое значение

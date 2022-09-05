@@ -20,7 +20,7 @@ public MailQuery Since(DateTime value)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public MailQuery Since(DateTime value, DateComparisonType comparisonType)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

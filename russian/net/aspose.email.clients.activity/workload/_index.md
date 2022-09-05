@@ -19,12 +19,12 @@ public enum Workload
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено |
-| Exchange | `1` | Exchange |
+| Exchange | `1` | Обмен |
 | SharePoint | `2` | SharePoint |
 | OneDrive | `3` | OneDrive |
 | AzureActiveDirectory | `4` | Активный каталог Azure |
 | SecurityComplianceCenter | `5` | Центр соответствия требованиям безопасности |
-| Sway | `6` | Sway |
+| Sway | `6` | Свей |
 | ThreatIntelligence | `7` | Информация об угрозах |
 
 ### Смотрите также

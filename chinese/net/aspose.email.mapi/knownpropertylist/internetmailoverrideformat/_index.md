@@ -1,14 +1,14 @@
 ---
 title: InternetMailOverrideFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示附件的编码方法和 HTML 包含 区域MIME 属性 规范名称PidTagInternetMailOverrideFormat 替代名称PR_INETMAIL_OVERRIDE_FORMAT ptagInetMailOverrideFormat
+description: 表示附件的编码方法和 HTML 包含 区域MIME 属性 规范名称PidTagInternetMailOverrideFormat 替代名称PR_INETMAIL_OVERRIDE_FORMATptagInetMailOverrideFormat
 type: docs
 weight: 11510
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetmailoverrideformat/
 ---
 ## KnownPropertyList.InternetMailOverrideFormat field
 
-表示附件的编码方法和 HTML 包含。 区域:MIME 属性 规范名称:PidTagInternetMailOverrideFormat 替代名称:PR_INETMAIL_OVERRIDE_FORMAT, ptagInetMailOverrideFormat
+表示附件的编码方法和 HTML 包含。 区域：MIME 属性 规范名称：PidTagInternetMailOverrideFormat 替代名称：PR_INETMAIL_OVERRIDE_FORMAT、ptagInetMailOverrideFormat
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetMailOverrideFormat;

@@ -1,14 +1,14 @@
 ---
 title: SetReadFlagAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Отмечает указанное сообщение как прочитанное.
+description: Помечает указанное сообщение как прочитанное.
 type: docs
 weight: 630
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/setreadflagasync/
 ---
 ## IAsyncEwsClient.SetReadFlagAsync method
 
-Отмечает указанное сообщение как прочитанное.
+Помечает указанное сообщение как прочитанное.
 
 ```csharp
 public Task SetReadFlagAsync(string messageUri, bool isRead = true, 
@@ -17,15 +17,15 @@ public Task SetReadFlagAsync(string messageUri, bool isRead = true,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | URI сообщения. |
+| messageUri | String | Ури сообщения. |
 | isRead | Boolean | Значение, указывающее, было ли сообщение прочитано |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

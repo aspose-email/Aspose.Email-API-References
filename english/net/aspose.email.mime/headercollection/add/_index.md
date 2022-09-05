@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a header to collection.
 type: docs
 weight: 70
 url: /net/aspose.email.mime/headercollection/add/
 ---
-## HeaderCollection.Add method (1 of 3)
+## Add(HeaderCollection) {#add}
 
 Adds a header to collection.
 
@@ -26,7 +26,7 @@ public void Add(HeaderCollection c)
 
 ---
 
-## HeaderCollection.Add method (2 of 3)
+## Add(string, string) {#add_2}
 
 Adds the header.
 
@@ -47,7 +47,7 @@ public void Add(string name, string value)
 
 ---
 
-## HeaderCollection.Add method (3 of 3)
+## Add(string) {#add_1}
 
 Adds the header without value
 

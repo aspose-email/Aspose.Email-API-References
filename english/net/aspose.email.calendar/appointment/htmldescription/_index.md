@@ -1,9 +1,9 @@
 ---
 title: HtmlDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets html representation of description.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.calendar/appointment/htmldescription/
 ---
 ## Appointment.HtmlDescription property

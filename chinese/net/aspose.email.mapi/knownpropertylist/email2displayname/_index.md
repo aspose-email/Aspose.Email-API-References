@@ -1,14 +1,14 @@
 ---
 title: Email2DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 指定电子邮件地址的用户可读显示名称 区域联系人属性 规范名称PidLidEmail2DisplayName 替代名称dispidEmail2DisplayName
+description: 指定电子邮件地址的用户可读显示名称 区域联系人属性 规范名称PidLidEmail2DisplayName 备用名称dispidEmail2DisplayName
 type: docs
 weight: 4380
 url: /zh/net/aspose.email.mapi/knownpropertylist/email2displayname/
 ---
 ## KnownPropertyList.Email2DisplayName field
 
-指定电子邮件地址的用户可读显示名称。 区域:联系人属性 规范名称:PidLidEmail2DisplayName 替代名称:dispidEmail2DisplayName
+指定电子邮件地址的用户可读显示名称。 区域：联系人属性 规范名称：PidLidEmail2DisplayName 备用名称：dispidEmail2DisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2DisplayName;

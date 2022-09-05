@@ -18,7 +18,7 @@ public class ReminderDuration
 
 | Имя | Описание |
 | --- | --- |
-| [ReminderDuration](reminderduration)(TimeSpan) | Инициализировать новый экземпляр класса[`ReminderDuration`](../reminderduration). |
+| [ReminderDuration](reminderduration)(TimeSpan) | Инициализировать новый экземпляр[`ReminderDuration`](../reminderduration) класс. |
 
 ## Характеристики
 

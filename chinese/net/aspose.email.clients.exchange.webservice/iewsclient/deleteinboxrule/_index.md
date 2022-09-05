@@ -1,14 +1,14 @@
 ---
 title: DeleteInboxRule
 second_title: Aspose.Email for .NET API 参考
-description: 删除指定收件箱规则
+description: 删除指定的收件箱规则
 type: docs
 weight: 630
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule/
 ---
 ## DeleteInboxRule(string) {#deleteinboxrule}
 
-删除指定收件箱规则
+删除指定的收件箱规则
 
 ```csharp
 public void DeleteInboxRule(string ruleId)
@@ -16,13 +16,13 @@ public void DeleteInboxRule(string ruleId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ruleId | String | 收件箱规则id删除 |
+| ruleId | String | 要删除的收件箱规则的 id |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | throws when*ruleId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 抛出时*ruleId*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public void DeleteInboxRule(string ruleId)
 
 ## DeleteInboxRule(string, string) {#deleteinboxrule_1}
 
-删除指定收件箱规则
+删除指定的收件箱规则
 
 ```csharp
 public void DeleteInboxRule(string ruleId, string mailbox)
@@ -42,14 +42,14 @@ public void DeleteInboxRule(string ruleId, string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ruleId | String | 收件箱规则id删除 |
-| mailbox | String | 规则所在的邮箱。注意:如果设置为` null` 或` empty` ，将在默认邮箱 |
+| ruleId | String | 要删除的收件箱规则的 id |
+| mailbox | String | 规则所在的邮箱。注意：如果设置为`无效的`或者`空的`规则会在默认邮箱中搜索 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | throws when*ruleId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 抛出时*ruleId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

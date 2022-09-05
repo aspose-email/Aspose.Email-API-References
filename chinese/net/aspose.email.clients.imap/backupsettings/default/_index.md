@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API 参考
-description: 获取BackupSettingsaspose.email.clients.imap/backupsettings类默认设置为
+description: 获取BackupSettingsaspose.email.clients.imap/backupsettings默认设置的类
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/backupsettings/default/
 ---
 ## BackupSettings.Default property
 
-获取[`BackupSettings`](../../backupsettings)类，默认设置为
+获取[`BackupSettings`](../../backupsettings)默认设置的类
 
 ```csharp
 public static BackupSettings Default { get; }

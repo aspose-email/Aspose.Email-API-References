@@ -16,7 +16,7 @@ public MimeHeader Clone()
 
 ### 返回值
 
-返回克隆的[`MimeHeader`](../../mimeheader)类的新实例。
+返回克隆的新实例[`MimeHeader`](../../mimeheader)班级。
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: Organizer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Organizer header.
 type: docs
 weight: 110
 url: /net/aspose.email/mhttemplatename/organizer/

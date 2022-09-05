@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.amp/amptimeago/
 ---
 ## AmpTimeago class
 
-Предоставляет нечеткие метки времени, форматируя даты как "X раз назад"
+Предоставляет нечеткие метки времени, форматируя даты как «X раз назад»
 
 ```csharp
 public class AmpTimeago : AmpComponent
@@ -26,19 +26,19 @@ public class AmpTimeago : AmpComponent
 | Имя | Описание |
 | --- | --- |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
-| [Cutoff](../../aspose.email.amp/amptimeago/cutoff) { get; set; } | Отображение исходной даты, если интервал времени старше отсечки (в секундах). |
+| [Cutoff](../../aspose.email.amp/amptimeago/cutoff) { get; set; } | Отображение исходной даты, если временной интервал старше отсечки (в секундах). |
 | [DateTime](../../aspose.email.amp/amptimeago/datetime) { get; set; } | Дата и время. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
-| [Locale](../../aspose.email.amp/amptimeago/locale) { get; set; } | По умолчанию для локального значения задано значение en; однако вы можете указать другие локали. См. полный список поддерживаемых локалей https://amp.dev/documentation/components/amp-timeago/?format=email |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Locale](../../aspose.email.amp/amptimeago/locale) { get; set; } | По умолчанию локальным является en; однако вы можете указать другие локали. См. полный список поддерживаемых локалей https://amp.dev/documentation/components/amp-timeago/?format=email |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| override [RequiredScript](../../aspose.email.amp/amptimeago/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
+| override [RequiredScript](../../aspose.email.amp/amptimeago/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/amptimeago/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| override [ToHtml](../../aspose.email.amp/amptimeago/tohtml)() | Представляет html-версию компонента. |
+| override [ToAmpHtml](../../aspose.email.amp/amptimeago/toamphtml)() | Представляет HTML-версию компонента amp. |
+| override [ToHtml](../../aspose.email.amp/amptimeago/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

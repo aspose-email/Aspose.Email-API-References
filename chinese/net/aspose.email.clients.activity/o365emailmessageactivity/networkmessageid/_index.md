@@ -1,14 +1,14 @@
 ---
 title: NetworkMessageId
 second_title: Aspose.Email for .NET API 参考
-description: Exchange Online 网络消息 ID 强制是
+description: Exchange Online 网络消息 ID. 强制是
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/networkmessageid/
 ---
 ## O365EmailMessageActivity.NetworkMessageId property
 
-Exchange Online 网络消息 ID。 强制:是
+Exchange Online 网络消息 ID. 强制：是
 
 ```csharp
 public string NetworkMessageId { get; set; }

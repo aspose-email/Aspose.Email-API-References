@@ -1,14 +1,14 @@
 ---
 title: Mht
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает на сообщение в формате Mht .
+description: Указывает на сообщение в Mht формат.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/messageformat/mht/
 ---
 ## MessageFormat.Mht property
 
-Указывает на сообщение в формате **Mht** .
+Указывает на сообщение в **Mht** формат.
 
 ```csharp
 public static MessageFormat Mht { get; }

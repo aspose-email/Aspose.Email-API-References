@@ -16,8 +16,8 @@ public void CreateFolder(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
-| имя_папки | String | Создаваемая папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, которую нужно создать |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public void CreateFolder(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая будет создано |
+| folderName | String | Папка, которую нужно создать |
 
 ### Смотрите также
 

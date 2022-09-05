@@ -16,17 +16,17 @@ public Attachment FetchAttachment(string attachmentUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| attachmentUri | String | 附件 uri。 （附件 uri 可以使用 ListMessages(folder, ExchangeListMessagesOptions.FetchAttachmentInformation) 方法检索） |
+| attachmentUri | String | 附件uri. （可以使用ListMessages（文件夹，ExchangeListMessagesOptions.FetchAttachmentInformation）方法检索附件uri） |
 
 ### 返回值
 
-[`Attachment`](../../../aspose.email/attachment)那表示获取的附件
+[`Attachment`](../../../aspose.email/attachment)表示获取的附件
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| Email。AsposeArgumentException | *attachmentUri*为空或为空 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *attachmentUri*为空或为空 |
 
 ### 也可以看看
 

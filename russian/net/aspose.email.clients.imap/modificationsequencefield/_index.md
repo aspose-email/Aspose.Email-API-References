@@ -18,14 +18,14 @@ public class ModificationSequenceField : QueryField
 
 | Имя | Описание |
 | --- | --- |
-| [ModificationSequence](../../aspose.email.clients.imap/modificationsequencefield/modificationsequence) { get; } | Получает значения для поиска |
+| [ModificationSequence](../../aspose.email.clients.imap/modificationsequencefield/modificationsequence) { get; } | Получает значения для search |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CreateQuery](../../aspose.email.clients.imap/modificationsequencefield/createquery)() | Создает ключ поиска. |
-| [GreaterOrEqualTo](../../aspose.email.clients.imap/modificationsequencefield/greaterorequalto)(long) | Задает значение для поиска сообщений, последовательность модификации которых больше или равна этому значению. |
+| [GreaterOrEqualTo](../../aspose.email.clients.imap/modificationsequencefield/greaterorequalto)(long) | Устанавливает значение для поиска сообщений, последовательность изменений которых больше или равна этому значению. |
 | override [ToString](../../aspose.email.clients.imap/modificationsequencefield/tostring)() | Возвращает строку, представляющую экземпляр объекта. |
 
 ### Смотрите также

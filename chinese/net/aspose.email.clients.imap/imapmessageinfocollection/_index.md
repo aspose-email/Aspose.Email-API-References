@@ -1,14 +1,14 @@
 ---
 title: ImapMessageInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 为ImapMessageInfo./imapmessageinfoobjects 的集合提供容器
+description: 为集合提供一个容器ImapMessageInfo./imapmessageinfo对象
 type: docs
 weight: 16380
 url: /zh/net/aspose.email.clients.imap/imapmessageinfocollection/
 ---
 ## ImapMessageInfoCollection class
 
-为[`ImapMessageInfo`](../imapmessageinfo)objects 的集合提供容器
+为集合提供一个容器[`ImapMessageInfo`](../imapmessageinfo)对象
 
 ```csharp
 public sealed class ImapMessageInfoCollection : Collection<ImapMessageInfo>
@@ -37,7 +37,7 @@ public sealed class ImapMessageInfoCollection : Collection<ImapMessageInfo>
 | [Insert](../../aspose.email.clients.imap/imapmessageinfocollection/insert#insert)(int, ImapMessageInfo) | 在指定索引处插入指定的 ImapMessagInfo 对象。 |
 | [Remove](../../aspose.email.clients.imap/imapmessageinfocollection/remove#remove)(ImapMessageInfo) | 从此集合中删除指定的 ImapMessageInfo 对象。 |
 | [RemoveAt](../../aspose.email.clients.imap/imapmessageinfocollection/removeat#removeat)(int) | 从此集合中删除指定索引中的 ImapMessageInfo。 |
-| [implicit operator](../../aspose.email.clients.imap/imapmessageinfocollection/op_implicit#op_implicit_2) | 将 ImapMessageInfo 集合转换为数组 (4 operators) |
+| [implicit operator](../../aspose.email.clients.imap/imapmessageinfocollection/op_implicit#op_implicit_2) | 将 ImapMessageInfo 的集合转换为 array (4 operators) |
 
 ### 也可以看看
 

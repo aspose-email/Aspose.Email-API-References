@@ -1,14 +1,14 @@
 ---
 title: Importance
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уровень важности присвоенный конечным пользователем объекту Message. ОбластьОбщие свойства сообщения Каноническое имяPidTagImportance Альтернативные именаPR_IMPORTANCE ptagImportance urnschemashttpmailimportance
+description: Указывает уровень важности присвоенный конечным пользователем объекту сообщения. Область Общие свойства сообщения Каноническое имя PidTagImportance Альтернативные имена PR_IMPORTANCE ptagImportance urnschemashttpmailimportance
 type: docs
 weight: 11270
 url: /ru/net/aspose.email.mapi/knownpropertylist/importance/
 ---
 ## KnownPropertyList.Importance field
 
-Указывает уровень важности, присвоенный конечным пользователем объекту Message. Область:Общие свойства сообщения Каноническое имя:PidTagImportance Альтернативные имена:PR_IMPORTANCE, ptagImportance, urn:schemas:httpmail:importance,
+Указывает уровень важности, присвоенный конечным пользователем объекту сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagImportance Альтернативные имена: PR_IMPORTANCE, ptagImportance, urn:schemas:httpmail:importance,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Importance;

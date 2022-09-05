@@ -1,14 +1,14 @@
 ---
 title: OfflineMessageEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OFFLINE_MESSAGE_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OFFLINE_MESSAGE_ENTRYID
 type: docs
 weight: 13310
 url: /ru/net/aspose.email.mapi/knownpropertylist/offlinemessageentryid/
 ---
 ## KnownPropertyList.OfflineMessageEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OFFLINE_MESSAGE_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OFFLINE_MESSAGE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineMessageEntryid;

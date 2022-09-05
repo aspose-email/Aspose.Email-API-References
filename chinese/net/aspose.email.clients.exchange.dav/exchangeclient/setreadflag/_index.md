@@ -16,13 +16,13 @@ public void SetReadFlag(string messageUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageUri | String | 消息 uri。 |
+| messageUri | String | 一条消息 uri。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -42,14 +42,14 @@ public void SetReadFlag(string messageUri, bool suppressReceipt)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageUri | String | 消息 uri。 |
+| messageUri | String | 一条消息 uri。 |
 | suppressReceipt | Boolean | 指示是否应禁止发送已读回执的值。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

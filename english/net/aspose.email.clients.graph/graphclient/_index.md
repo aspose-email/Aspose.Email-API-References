@@ -1,7 +1,7 @@
 ---
 title: GraphClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides access to MS Exchange Server Office365 by using REST API.
 type: docs
 weight: 15920
 url: /net/aspose.email.clients.graph/graphclient/
@@ -31,8 +31,8 @@ public abstract class GraphClient : IDisposable
 | Name | Description |
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients.graph/graphclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient)(ITokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient_1)(ITokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
 
 ### See Also
 

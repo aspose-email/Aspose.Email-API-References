@@ -22,7 +22,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream out
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -71,12 +71,12 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -98,12 +98,12 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 消息的文件名 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -124,12 +124,12 @@ public Task SaveMessageAsync(string uniqueId, Stream outputStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息 ID |
+| uniqueId | String | 消息的唯一 ID |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -149,12 +149,12 @@ public Task SaveMessageAsync(string uniqueId, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息 ID |
-| fileName | String | 消息文件名 |
+| uniqueId | String | 消息的唯一 ID |
+| fileName | String | 消息的文件名 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -174,12 +174,12 @@ public Task SaveMessageAsync(int sequenceNumber, Stream outputStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息的编号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -199,12 +199,12 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息编号 |
-| fileName | String | 消息文件名 |
+| sequenceNumber | Int32 | 消息的序号 |
+| fileName | String | 消息的文件名 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -232,7 +232,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream out
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -257,11 +257,11 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的唯一 ID |
 | fileName | String | 消息的文件名 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -284,13 +284,13 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | outputStream | Stream | 将保存消息的流 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -313,13 +313,13 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 消息的文件名 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -340,13 +340,13 @@ public Task SaveMessageAsync(string uniqueId, Stream outputStream, CancellationT
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息 ID |
+| uniqueId | String | 消息的唯一 ID |
 | outputStream | Stream | 将保存消息的流 |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -366,13 +366,13 @@ public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息的 ID |
+| uniqueId | String | 消息的唯一 ID |
 | fileName | String | 消息的文件名 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -392,13 +392,13 @@ public Task SaveMessageAsync(int sequenceNumber, Stream outputStream, Cancellati
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息编号 |
-| outputStream | Stream | 消息将被保存的流 |
-| token | CancellationToken | 传播操作的通知应该取消。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| outputStream | Stream | 将保存消息的流 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -418,13 +418,13 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationTo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息编号 |
-| fileName | String | 消息文件名 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| fileName | String | 消息的文件名 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

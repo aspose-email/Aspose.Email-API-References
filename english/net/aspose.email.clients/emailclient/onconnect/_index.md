@@ -1,7 +1,7 @@
 ---
 title: OnConnect
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The OnConnect event occurs when the clent establishes connection.
 type: docs
 weight: 270
 url: /net/aspose.email.clients/emailclient/onconnect/

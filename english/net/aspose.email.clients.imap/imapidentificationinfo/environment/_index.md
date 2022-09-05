@@ -1,7 +1,7 @@
 ---
 title: Environment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Description of environment i.e. UNIX environment variables or Windows registry settings
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapidentificationinfo/environment/

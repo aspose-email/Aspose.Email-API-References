@@ -1,14 +1,14 @@
 ---
 title: ExpandSingleSection
 second_title: Aspose.Email for .NET API 参考
-description: 在 amp-accordion 上设置此属性一次只允许展开一个部分
+description: 在 amp-accordion 上设置此属性以便一次只允许展开一个部分
 type: docs
 weight: 30
 url: /zh/net/aspose.email.amp/ampaccordion/expandsinglesection/
 ---
 ## AmpAccordion.ExpandSingleSection property
 
-在 amp-accordion 上设置此属性，一次只允许展开一个部分。
+在 amp-accordion 上设置此属性，以便一次只允许展开一个部分。
 
 ```csharp
 public bool ExpandSingleSection { get; set; }

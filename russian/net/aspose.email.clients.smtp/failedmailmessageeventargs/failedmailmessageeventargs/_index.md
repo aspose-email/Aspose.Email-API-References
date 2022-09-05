@@ -1,14 +1,14 @@
 ---
 title: FailedMailMessageEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFailedMailMessageEventArgsaspose.email.clients.smtp/failedmailmessageeventargs.
+description: Инициализирует новый экземплярFailedMailMessageEventArgsaspose.email.clients.smtp/failedmailmessageeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp/failedmailmessageeventargs/failedmailmessageeventargs/
 ---
 ## FailedMailMessageEventArgs constructor
 
-Инициализирует новый экземпляр класса[`FailedMailMessageEventArgs`](../../failedmailmessageeventargs).
+Инициализирует новый экземпляр[`FailedMailMessageEventArgs`](../../failedmailmessageeventargs) класс.
 
 ```csharp
 public FailedMailMessageEventArgs(MailMessage message, Exception ex)

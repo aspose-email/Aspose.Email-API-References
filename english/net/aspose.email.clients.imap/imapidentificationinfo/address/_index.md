@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Postal address of contact/vendor
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapidentificationinfo/address/

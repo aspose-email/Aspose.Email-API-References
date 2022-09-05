@@ -1,14 +1,14 @@
 ---
 title: ResourceMethods
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RESOURCE_METHODS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RESOURCE_METHODS
 type: docs
 weight: 16160
 url: /ru/net/aspose.email.mapi/knownpropertylist/resourcemethods/
 ---
 ## KnownPropertyList.ResourceMethods field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RESOURCE_METHODS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RESOURCE_METHODS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResourceMethods;

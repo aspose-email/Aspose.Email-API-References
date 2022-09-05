@@ -1,7 +1,7 @@
 ---
 title: DisplayType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an integer value that indicates how to display an Address Book object in a table or as an addressee on a message. Area MapiAddressBook Canonical name PidTagDisplayType Alternate names PR_DISPLAY_TYPE ptagDisplayType
 type: docs
 weight: 4170
 url: /net/aspose.email.mapi/knownpropertylist/displaytype/

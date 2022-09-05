@@ -1,7 +1,7 @@
 ---
 title: GetExchangeType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the information about the current version of MS Exchange.
 type: docs
 weight: 920
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getexchangetype/

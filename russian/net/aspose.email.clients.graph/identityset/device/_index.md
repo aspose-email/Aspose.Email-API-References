@@ -1,14 +1,14 @@
 ---
 title: Device
 second_title: Справочник по Aspose.Email для .NET API
-description: Необязательный. Устройство связанное с этим действием.
+description: Необязательно. Устройство связанное с этим действием.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.graph/identityset/device/
 ---
 ## IdentitySet.Device property
 
-Необязательный. Устройство, связанное с этим действием.
+Необязательно. Устройство, связанное с этим действием.
 
 ```csharp
 public Identity Device { get; set; }

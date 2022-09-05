@@ -3,7 +3,7 @@ title: Organization
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置组织信息
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/organization/
 ---
 ## VCardContact.Organization property

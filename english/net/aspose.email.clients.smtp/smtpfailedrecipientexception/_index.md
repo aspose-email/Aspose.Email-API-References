@@ -1,9 +1,9 @@
 ---
 title: SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception which arises when the specified recipient is wrong
 type: docs
-weight: 16880
+weight: 17050
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientexception/
 ---
 ## SmtpFailedRecipientException class
@@ -18,12 +18,12 @@ public class SmtpFailedRecipientException : SmtpException
 
 | Name | Description |
 | --- | --- |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)() | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)(string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)(SmtpStatusCode, string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)(string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)(SmtpStatusCode, string, string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception)(string, string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor)() | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_3)(string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_1)(SmtpStatusCode, string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_4)(string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_2)(SmtpStatusCode, string, string) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_5)(string, string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
 
 ## Properties
 

@@ -1,14 +1,14 @@
 ---
 title: GetUMConfiguration
 second_title: Справочник по Aspose.Email для .NET API
-description: Извлекает конфигурацию единой системы обмена сообщениями
+description: Получает конфигурацию единой системы обмена сообщениями
 type: docs
 weight: 1030
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/getumconfiguration/
 ---
 ## IEWSClient.GetUMConfiguration method
 
-Извлекает конфигурацию единой системы обмена сообщениями
+Получает конфигурацию единой системы обмена сообщениями
 
 ```csharp
 public UnifiedMessagingConfiguration GetUMConfiguration()

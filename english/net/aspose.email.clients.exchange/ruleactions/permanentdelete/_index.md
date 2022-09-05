@@ -1,7 +1,7 @@
 ---
 title: PermanentDelete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether messages are to be permanently deleted and not saved to the Deleted Items folder.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange/ruleactions/permanentdelete/

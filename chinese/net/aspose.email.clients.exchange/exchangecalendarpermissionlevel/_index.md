@@ -26,9 +26,9 @@ public enum ExchangeCalendarPermissionLevel
 | Author | `47` | 用户可以创建和读取文件夹中的所有项目，并且只能编辑和删除用户创建的项目。 |
 | NoneditingAuthor | `15` | 用户可以创建和读取文件夹中的所有项目，并且只删除用户创建的项目。 |
 | Reviewer | `3` | 用户可以读取文件夹中的所有项目。 |
-| Contributor | `5` | 用户可以在文件夹中创建项目。文件夹的内容不会出现。 |
+| Contributor | `5` | 用户可以在文件夹中创建项目。文件夹的内容没有出现。 |
 | FreeBusyTimeOnly | `1024` | 用户只能查看日历中的空闲/忙碌时间。 |
-| FreeBusyTimeAndSubjectAndLocation | `2048` | 用户可以查看日历中的空闲/忙碌时间以及约会的主题和位置。 |
+| FreeBusyTimeAndSubjectAndLocation | `2048` | 用户可以查看日历中的空闲/忙碌时间以及约会的主题和地点。 |
 | Custom | `1073741824` | 用户对文件夹具有自定义访问权限。 |
 
 ### 也可以看看

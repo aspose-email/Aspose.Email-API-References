@@ -16,12 +16,12 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, PageSettings settings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Количество элементов в страница |
+| itemsPerPage | Int32 | Количество элементов на странице |
 | settings | PageSettings | Настройки. |
 
 ### Возвращаемое значение
 
-IAsyncResultкоторый представляет состояние асинхронной операции.
+IAsyncResult который представляет состояние асинхронной операции.
 
 ### Смотрите также
 
@@ -43,13 +43,13 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, int pageOffset, PageSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Количество элементов в page |
+| itemsPerPage | Int32 | Количество элементов на странице |
 | pageOffset | Int32 | Смещение следующей страницы в поле зрения |
 | settings | PageSettings | Настройки. |
 
 ### Возвращаемое значение
 
-IAsyncResultкоторый представляет состояние асинхронной операции.
+IAsyncResult который представляет состояние асинхронной операции.
 
 ### Смотрите также
 
@@ -71,12 +71,12 @@ public ImapPageInfo ListMessagesByPage(PageInfo pageInfo, PageSettings settings)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageInfo | PageInfo | Следующая страница для получения . |
+| pageInfo | PageInfo | Следующая страница для извлечения. |
 | settings | PageSettings | Настройки. |
 
 ### Возвращаемое значение
 
-IAsyncResultкоторый представляет состояние асинхронной операции.
+IAsyncResult который представляет состояние асинхронной операции.
 
 ### Смотрите также
 
@@ -99,13 +99,13 @@ public ImapPageInfo ListMessagesByPage(MailQuery query, PageInfo pageInfo, PageS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | pageInfo | PageInfo | Следующая страница для извлечения. |
 | settings | PageSettings | Настройки. |
 
 ### Возвращаемое значение
 
-IAsyncResultкоторый представляет состояние асинхронной операции.
+IAsyncResult который представляет состояние асинхронной операции.
 
 ### Смотрите также
 

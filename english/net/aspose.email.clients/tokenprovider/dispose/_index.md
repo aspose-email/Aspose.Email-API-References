@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs releasing resources.
 type: docs
 weight: 100
 url: /net/aspose.email.clients/tokenprovider/dispose/

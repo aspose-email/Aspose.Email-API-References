@@ -1,7 +1,7 @@
 ---
 title: IgnoreExceptionsLogHandler
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides possibility to handle Ignored Exceptions Log.
 type: docs
 weight: 30
 url: /net/aspose.email.exceptions/exceptionmanager/ignoreexceptionsloghandler/

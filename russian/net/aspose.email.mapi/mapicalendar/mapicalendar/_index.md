@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiCalendaraspose.email.mapi/mapicalendarclass
+description: Инициализирует новый экземплярMapiCalendaraspose.email.mapi/mapicalendar класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicalendar/mapicalendar/
 ---
 ## MapiCalendar() {#constructor}
 
-Инициализирует новый экземпляр[`MapiCalendar`](../../mapicalendar)class
+Инициализирует новый экземпляр[`MapiCalendar`](../../mapicalendar) класс
 
 ```csharp
 public MapiCalendar()
@@ -24,7 +24,7 @@ public MapiCalendar()
 
 ## MapiCalendar(string, string, string, DateTime, DateTime) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiCalendar`](../../mapicalendar).
+Инициализирует новый экземпляр[`MapiCalendar`](../../mapicalendar) класс.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -34,7 +34,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | location | String | Место встречи. |
-| summary | String | Сводка встречи. |
+| summary | String | Итог встречи. |
 | description | String | Описание встречи. |
 | startDate | DateTime | Дата начала. |
 | endDate | DateTime | Дата окончания. |
@@ -49,7 +49,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MapiCalendar`](../../mapicalendar).
+Инициализирует новый экземпляр[`MapiCalendar`](../../mapicalendar) класс.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -64,7 +64,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | startDate | DateTime | Дата начала. |
 | endDate | DateTime | Дата окончания. |
 | organizer | String | Адрес организатора встречи. |
-| посетители | MapiRecipientCollection | Участники собрания. |
+| attendees | MapiRecipientCollection | Участники встречи. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiCalendar`](../../mapicalendar).
+Инициализирует новый экземпляр[`MapiCalendar`](../../mapicalendar) класс.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -92,7 +92,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | startDate | DateTime | Дата начала. |
 | endDate | DateTime | Дата окончания. |
 | organizer | MapiElectronicAddress | Организатор встречи. |
-| посетители | MapiRecipientCollection | Участники собрания. |
+| attendees | MapiRecipientCollection | Участники встречи. |
 
 ### Смотрите также
 

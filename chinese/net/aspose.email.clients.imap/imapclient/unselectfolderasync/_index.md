@@ -20,7 +20,7 @@ public Task UnselectFolderAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public Task UnselectFolderAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -53,7 +53,7 @@ public Task UnselectFolderAsync()
 
 ## UnselectFolderAsync(IConnection, bool) {#unselectfolderasync_2}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
@@ -66,7 +66,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -79,7 +79,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
 
 ## UnselectFolderAsync(bool) {#unselectfolderasync_5}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(bool doNotExpunge)
@@ -91,7 +91,7 @@ public Task UnselectFolderAsync(bool doNotExpunge)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -112,11 +112,11 @@ public Task UnselectFolderAsync(IConnection connection, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -141,7 +141,7 @@ public Task UnselectFolderAsync(CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -153,7 +153,7 @@ public Task UnselectFolderAsync(CancellationToken token)
 
 ## UnselectFolderAsync(IConnection, bool, CancellationToken) {#unselectfolderasync_3}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, CancellationToken token)
@@ -167,7 +167,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, Cance
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -180,7 +180,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, Cance
 
 ## UnselectFolderAsync(bool, CancellationToken) {#unselectfolderasync_6}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(bool doNotExpunge, CancellationToken token)
@@ -193,7 +193,7 @@ public Task UnselectFolderAsync(bool doNotExpunge, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

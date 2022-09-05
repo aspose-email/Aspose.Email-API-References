@@ -1,14 +1,14 @@
 ---
 title: InfoPathFormName
 second_title: Aspose.Email for .NET API 参考
-description: 包含与此消息关联的表单的名称 区域通用 规范名称PidLidInfoPathFormName 备用名称
+description: 包含与此消息关联的表单的名称 区域Common 规范名称PidLidInfoPathFormName 备用名称
 type: docs
 weight: 11320
 url: /zh/net/aspose.email.mapi/knownpropertylist/infopathformname/
 ---
 ## KnownPropertyList.InfoPathFormName field
 
-包含与此消息关联的表单的名称。 区域:通用 规范名称:PidLidInfoPathFormName 备用名称:
+包含与此消息关联的表单的名称。 区域：Common 规范名称：PidLidInfoPathFormName 备用名称：
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InfoPathFormName;

@@ -16,7 +16,7 @@ public BoolComparisonField OnlyFoldersCreatedByUser { get; }
 
 ### Стоимость имущества
 
-[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield)представляет поле поиска.
+[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield) который представляет поле поиска.
 
 ### Смотрите также
 

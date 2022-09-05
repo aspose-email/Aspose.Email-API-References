@@ -16,13 +16,13 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | MapiProperty | Свойство, для которого нужно добавить сопоставление. |
+| property | MapiProperty | Свойство для добавления сопоставления. |
 | nameId | Int64 | Идентификатор имени. |
 | guid | Guid | Набор свойств, идентифицирующих GUID. |
 
 ### Примечания
 
-*property*должен иметь допустимый идентификатор для именованного свойства,[`GetNextAvailablePropertyId`](../getnextavailablepropertyid)может использоваться для его создания. В противном случае будет выдано исключение.
+*property* должен иметь действительный идентификатор для именованного свойства,[`GetNextAvailablePropertyId`](../getnextavailablepropertyid) может использоваться для создания одного. В противном случае будет выдано исключение.
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 
 ## AddNamedPropertyMapping(MapiProperty, string, Guid) {#addnamedpropertymapping_1}
 
-Добавляет отображение именованного свойства для строкового именованного свойства.
+Добавляет сопоставление именованного свойства для строки с именованным свойством.
 
 ```csharp
 public void AddNamedPropertyMapping(MapiProperty property, string nameId, Guid guid)
@@ -43,13 +43,13 @@ public void AddNamedPropertyMapping(MapiProperty property, string nameId, Guid g
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | MapiProperty | Свойство, для которого нужно добавить сопоставление. |
+| property | MapiProperty | Свойство для добавления сопоставления. |
 | nameId | String | Идентификатор имени. |
 | guid | Guid | Набор свойств, идентифицирующих GUID. |
 
 ### Примечания
 
-*property*должен иметь допустимый идентификатор для именованного свойства,[`GetNextAvailablePropertyId`](../getnextavailablepropertyid)может использоваться для его создания. В противном случае будет выдано исключение.
+*property* должен иметь действительный идентификатор для именованного свойства,[`GetNextAvailablePropertyId`](../getnextavailablepropertyid) может использоваться для создания одного. В противном случае будет выдано исключение.
 
 ### Смотрите также
 

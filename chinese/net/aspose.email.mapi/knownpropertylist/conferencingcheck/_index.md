@@ -1,14 +1,14 @@
 ---
 title: ConferencingCheck
 second_title: Aspose.Email for .NET API 参考
-description: 区域会议 规范名称PidLidConferencingCheck 备用名称dispidConfCheck
+description: 区域Conferencing 规范名称PidLidConferencingCheck 替代名称dispidConfCheck
 type: docs
 weight: 2860
 url: /zh/net/aspose.email.mapi/knownpropertylist/conferencingcheck/
 ---
 ## KnownPropertyList.ConferencingCheck field
 
-区域:会议 规范名称:PidLidConferencingCheck 备用名称:dispidConfCheck
+区域：Conferencing 规范名称：PidLidConferencingCheck 替代名称：dispidConfCheck
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConferencingCheck;

@@ -1,14 +1,14 @@
 ---
 title: InstanceNum
 second_title: Aspose.Email for .NET API 参考
-description: 包含表中行的单个实例的标识符 区域ProviderDefinedNonTransmittable 规范名称PidTagInstanceNum 备用名称ptagInstanceNum
+description: 包含表中行的单个实例的标识符 区域ProviderDefinedNonTransmittable 规范名称PidTagInstanceNum 替代名称ptagInstanceNum
 type: docs
 weight: 11370
 url: /zh/net/aspose.email.mapi/knownpropertylist/instancenum/
 ---
 ## KnownPropertyList.InstanceNum field
 
-包含表中行的单个实例的标识符。 区域:ProviderDefinedNonTransmittable 规范名称:PidTagInstanceNum 备用名称:ptagInstanceNum
+包含表中行的单个实例的标识符。 区域：ProviderDefinedNonTransmittable 规范名称：PidTagInstanceNum 替代名称：ptagInstanceNum
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstanceNum;

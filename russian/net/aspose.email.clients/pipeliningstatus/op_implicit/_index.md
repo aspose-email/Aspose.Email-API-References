@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует логическое значение вPipeliningStatusaspose.email.clients/pipeliningstatusobject
+description: Преобразует логическое значение вPipeliningStatusaspose.email.clients/pipeliningstatus объект
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients/pipeliningstatus/op_implicit/
 ---
 ## implicit operator {#op_implicit_2}
 
-Преобразует логическое значение в[`PipeliningStatus`](../../pipeliningstatus)object
+Преобразует логическое значение в[`PipeliningStatus`](../../pipeliningstatus) объект
 
 ```csharp
 public static implicit operator PipeliningStatus(bool mode)
@@ -16,11 +16,11 @@ public static implicit operator PipeliningStatus(bool mode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mode | Boolean | true, если необходимо использовать конвейерную обработку, иначе false |
+| mode | Boolean | Значение true, если необходимо использовать конвейерную обработку, в противном случае — значение false. |
 
 ### Возвращаемое значение
 
-Возвращает[`PipeliningStatus`](../../pipeliningstatus)объект
+Возвращает[`PipeliningStatus`](../../pipeliningstatus) объект
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public static implicit operator PipeliningStatus(bool mode)
 
 ## implicit operator {#op_implicit_1}
 
-Преобразует значение[`PipeliningMode`](../../pipeliningmode)в значение[`PipeliningStatus`](../../pipeliningstatus)объект
+Преобразует[`PipeliningMode`](../../pipeliningmode) ценность для[`PipeliningStatus`](../../pipeliningstatus) объект
 
 ```csharp
 public static implicit operator PipeliningStatus(PipeliningMode mode)
@@ -40,11 +40,11 @@ public static implicit operator PipeliningStatus(PipeliningMode mode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mode | PipeliningMode | [`PipeliningMode`](../../pipeliningmode)значение для преобразования |
+| mode | PipeliningMode | [`PipeliningMode`](../../pipeliningmode) ценность для конверсии |
 
 ### Возвращаемое значение
 
-Возвращает[`PipeliningStatus`](../../pipeliningstatus)объект
+Возвращает[`PipeliningStatus`](../../pipeliningstatus) объект
 
 ### Смотрите также
 
@@ -57,7 +57,7 @@ public static implicit operator PipeliningStatus(PipeliningMode mode)
 
 ## implicit operator {#op_implicit_3}
 
-Преобразует объект[`PipeliningStatus`](../../pipeliningstatus)в логическое значение
+Преобразует[`PipeliningStatus`](../../pipeliningstatus) объект для логического значения
 
 ```csharp
 public static implicit operator bool(PipeliningStatus status)
@@ -65,11 +65,11 @@ public static implicit operator bool(PipeliningStatus status)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| status | PipeliningStatus | [`PipeliningStatus`](../../pipeliningstatus)объект для преобразования |
+| status | PipeliningStatus | [`PipeliningStatus`](../../pipeliningstatus) объект для конвертации |
 
 ### Возвращаемое значение
 
-Возвращает true если используется конвейерная обработка, в противном случае возвращает false.
+Возвращает true, если используется конвейерная обработка, иначе возвращает false.
 
 ### Смотрите также
 
@@ -81,7 +81,7 @@ public static implicit operator bool(PipeliningStatus status)
 
 ## implicit operator {#op_implicit}
 
-Преобразует[`PipeliningStatus`](../../pipeliningstatus)объект
+Преобразует[`PipeliningStatus`](../../pipeliningstatus) объект
 
 ```csharp
 public static implicit operator PipeliningMode(PipeliningStatus status)

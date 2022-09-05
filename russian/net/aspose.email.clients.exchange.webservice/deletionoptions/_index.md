@@ -18,16 +18,16 @@ public class DeletionOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DeletionOptions](deletionoptions#constructor)() | Инициализирует новый экземпляр класса[`DeletionOptions`](../deletionoptions). |
-| [DeletionOptions](deletionoptions#constructor_1)(DeletionType) | Инициализирует новый экземпляр класса[`DeletionOptions`](../deletionoptions). |
+| [DeletionOptions](deletionoptions#constructor)() | Инициализирует новый экземпляр[`DeletionOptions`](../deletionoptions) класс. |
+| [DeletionOptions](deletionoptions#constructor_1)(DeletionType) | Инициализирует новый экземпляр[`DeletionOptions`](../deletionoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.email.clients.exchange.webservice/deletionoptions/default) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками, используемыми по умолчанию |
-| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками для безвозвратного удаления |
-| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками для перехода к удаленным элементам |
+| static [Default](../../aspose.email.clients.exchange.webservice/deletionoptions/default) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками использует по умолчанию |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками для постоянного удаления |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками перехода к удаленным элементам |
 | [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | Тип удаления |
 
 ### Смотрите также

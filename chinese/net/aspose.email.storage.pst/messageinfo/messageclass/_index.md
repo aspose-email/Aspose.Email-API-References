@@ -16,7 +16,7 @@ public string MessageClass { get; }
 
 ### 适当的价值
 
-消息类。
+消息类.
 
 ### 也可以看看
 

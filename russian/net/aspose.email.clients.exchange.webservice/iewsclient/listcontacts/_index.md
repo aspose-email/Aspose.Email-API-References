@@ -1,14 +1,14 @@
 ---
 title: ListContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Список контактов расположенных в указанной папке на сервере
+description: Список контактов расположенных в указанной папке на server
 type: docs
 weight: 1090
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/listcontacts/
 ---
 ## ListContacts(string) {#listcontacts}
 
-Список контактов, расположенных в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public MapiContact[] ListContacts(string folderUri)
@@ -20,7 +20,7 @@ public MapiContact[] ListContacts(string folderUri)
 
 ### Возвращаемое значение
 
-Массив read[`MapiContact`](../../../aspose.email.mapi/mapicontact)который представляет контактную информацию
+Массив чтения[`MapiContact`](../../../aspose.email.mapi/mapicontact) который представляет контактную информацию
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public MapiContact[] ListContacts(string folderUri)
 
 ## ListContacts(string, IEnumerable&lt;PropertyDescriptor&gt;) {#listcontacts_1}
 
-Список контактов, расположенных в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public MapiContact[] ListContacts(string folderUri, IEnumerable<PropertyDescriptor> mapiProperties)
@@ -41,12 +41,12 @@ public MapiContact[] ListContacts(string folderUri, IEnumerable<PropertyDescript
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | A папка для поиска контактов в |
+| folderUri | String | Папка для поиска контактов |
 | mapiProperties | IEnumerable`1 | Требуемые дополнительные свойства mapi |
 
 ### Возвращаемое значение
 
-Массив чтения[`MapiContact`](../../../aspose.email.mapi/mapicontact)который представляет контактную информацию
+Массив чтения[`MapiContact`](../../../aspose.email.mapi/mapicontact) который представляет контактную информацию
 
 ### Смотрите также
 

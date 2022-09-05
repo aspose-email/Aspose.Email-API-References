@@ -1,7 +1,7 @@
 ---
 title: ContentClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets items with an specified content class.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/contentclass/

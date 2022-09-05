@@ -1,12 +1,12 @@
 ---
 title: ReadLinesTimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ReadLinesTimeoutExceptionaspose.email.clients.imap/readlinestimeoutexception class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/readlinestimeoutexception/readlinestimeoutexception/
 ---
-## ReadLinesTimeoutException constructor (1 of 3)
+## ReadLinesTimeoutException() {#constructor}
 
 Initializes a new instance of the [`ReadLinesTimeoutException`](../../readlinestimeoutexception) class.
 
@@ -22,7 +22,7 @@ public ReadLinesTimeoutException()
 
 ---
 
-## ReadLinesTimeoutException constructor (2 of 3)
+## ReadLinesTimeoutException(string) {#constructor_1}
 
 Initializes a new instance of the [`ReadLinesTimeoutException`](../../readlinestimeoutexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public ReadLinesTimeoutException(string message)
 
 ---
 
-## ReadLinesTimeoutException constructor (3 of 3)
+## ReadLinesTimeoutException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`ReadLinesTimeoutException`](../../readlinestimeoutexception) class with a specified error message.
 

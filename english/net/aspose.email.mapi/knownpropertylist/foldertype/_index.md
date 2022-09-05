@@ -1,7 +1,7 @@
 ---
 title: FolderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of a folder that includes the Root folder Generic folder and Search folder. Area MapiContainer Canonical name PidTagFolderType Alternate names PR_FOLDER_TYPE ptagFolderType
 type: docs
 weight: 10450
 url: /net/aspose.email.mapi/knownpropertylist/foldertype/

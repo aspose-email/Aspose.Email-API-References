@@ -1,7 +1,7 @@
 ---
 title: RecipientFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a recipient address to use with the specified report.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/recipientfilter/

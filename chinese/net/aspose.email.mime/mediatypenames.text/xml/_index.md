@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: Aspose.Email for .NET API 参考
-description: 指定文本/xml媒体类型
+description: 指定文本/xml 媒体类型
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mime/mediatypenames.text/xml/
 ---
 ## MediaTypeNames.Text.Xml field
 
-指定文本/xml媒体类型
+指定文本/xml 媒体类型
 
 ```csharp
 public const string Xml;

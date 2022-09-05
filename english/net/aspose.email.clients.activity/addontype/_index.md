@@ -1,7 +1,7 @@
 ---
 title: AddOnType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Types of addon that generated event.
 type: docs
 weight: 2370
 url: /net/aspose.email.clients.activity/addontype/

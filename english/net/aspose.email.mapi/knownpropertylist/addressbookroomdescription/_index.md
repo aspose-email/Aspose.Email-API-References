@@ -1,7 +1,7 @@
 ---
 title: AddressBookRoomDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a description of the Resource object. Area Address Book Canonical name PidTagAddressBookRoomDescription Alternate names PR_EMS_AB_ROOM_DESCRIPTION PR_EMS_AB_ROOM_DESCRIPTION_A PR_EMS_AB_ROOM_DESCRIPTION_W
 type: docs
 weight: 950
 url: /net/aspose.email.mapi/knownpropertylist/addressbookroomdescription/

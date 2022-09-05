@@ -1,9 +1,9 @@
 ---
 title: Pop3MessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the information of a mail message from Pop3 server.
 type: docs
-weight: 16790
+weight: 16930
 url: /net/aspose.email.clients.pop3/pop3messageinfocollection/
 ---
 ## Pop3MessageInfoCollection class
@@ -24,8 +24,8 @@ public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
 
 | Name | Description |
 | --- | --- |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage)(int) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage)(string) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage)(int) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage_1)(string) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
 
 ### See Also
 

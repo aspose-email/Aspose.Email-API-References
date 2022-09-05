@@ -1,12 +1,12 @@
 ---
 title: ColorsInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ColorsInfo class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/colorsinfo/colorsinfo/
 ---
-## ColorsInfo constructor (1 of 2)
+## ColorsInfo() {#constructor}
 
 Initializes a new instance of the ColorsInfo class.
 
@@ -22,7 +22,7 @@ public ColorsInfo()
 
 ---
 
-## ColorsInfo constructor (2 of 2)
+## ColorsInfo(DateTime, Dictionary&lt;string, Colors&gt;, Dictionary&lt;string, Colors&gt;) {#constructor_1}
 
 Initializes a new instance of the ColorsInfo class.
 

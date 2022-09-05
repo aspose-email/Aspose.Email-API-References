@@ -1,14 +1,14 @@
 ---
 title: LastModificationTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC последней модификации объекта. ОбластьСвойства времени сообщения Каноническое имяPidTagLastModificationTime Альтернативные именаPR_LAST_MODIFICATION_TIME ptagLastModificationTime
+description: Содержит время последнего изменения объекта в формате UTC. Область Message Time Properties Каноническое имя PidTagLastModificationTime Альтернативные имена PR_LAST_MODIFICATION_TIME ptagLastModificationTime
 type: docs
 weight: 12010
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastmodificationtime/
 ---
 ## KnownPropertyList.LastModificationTime field
 
-Содержит время в формате UTC последней модификации объекта. Область:Свойства времени сообщения Каноническое имя:PidTagLastModificationTime Альтернативные имена:PR_LAST_MODIFICATION_TIME, ptagLastModificationTime,
+Содержит время последнего изменения объекта в формате UTC. Область: Message Time Properties Каноническое имя: PidTagLastModificationTime Альтернативные имена: PR_LAST_MODIFICATION_TIME, ptagLastModificationTime,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastModificationTime;

@@ -16,7 +16,7 @@ public RecurrenceRuleCollection RRules { get; }
 
 ### Стоимость имущества
 
-Правила R.
+Правила Р.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Attachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAttachmentaspose.email/attachment.
+description: Инициализирует новый экземплярAttachmentaspose.email/attachment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/attachment/attachment/
 ---
 ## Attachment(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(string fileName)
@@ -28,7 +28,7 @@ public Attachment(string fileName)
 
 ## Attachment(string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(string fileName, string mediaType)
@@ -49,7 +49,7 @@ public Attachment(string fileName, string mediaType)
 
 ## Attachment(string, ContentType) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(string fileName, ContentType contentType)
@@ -58,7 +58,7 @@ public Attachment(string fileName, ContentType contentType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| contentType | ContentType | The[`ContentType`](../../../aspose.email.mime/contenttype). |
+| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public Attachment(string fileName, ContentType contentType)
 
 ## Attachment(Stream, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(Stream contentStream, string name)
@@ -92,7 +92,7 @@ public Attachment(Stream contentStream, string name)
 
 ## Attachment(Stream, string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(Stream contentStream, string name, string mediaType)
@@ -114,7 +114,7 @@ public Attachment(Stream contentStream, string name, string mediaType)
 
 ## Attachment(Stream, ContentType) {#constructor}
 
-Инициализирует новый экземпляр класса[`Attachment`](../../attachment).
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
 ```csharp
 public Attachment(Stream contentStream, ContentType contentType)
@@ -123,7 +123,7 @@ public Attachment(Stream contentStream, ContentType contentType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentStream | Stream | Поток содержимого вложения. |
-| contentType | ContentType | The[`ContentType`](../../../aspose.email.mime/contenttype). |
+| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### Смотрите также
 

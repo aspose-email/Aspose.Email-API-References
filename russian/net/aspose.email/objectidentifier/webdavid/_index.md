@@ -1,14 +1,14 @@
 ---
 title: WebDavId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор службы WebDav
+description: службы WebDav id
 type: docs
 weight: 40
 url: /ru/net/aspose.email/objectidentifier/webdavid/
 ---
 ## ObjectIdentifier.WebDavId property
 
-Идентификатор службы WebDav
+службы WebDav id
 
 ```csharp
 public string WebDavId { get; }

@@ -17,7 +17,7 @@ public void SaveAs(string fileName, FileFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя сохраняемого файла. |
-| format | FileFormat | Формат[`FileFormat`](../../fileformat)должен использоваться при сохранении файла. |
+| format | FileFormat | [`FileFormat`](../../fileformat) будет использоваться при сохранении файла. |
 
 ### Смотрите также
 
@@ -38,8 +38,8 @@ public void SaveAs(Stream stream, FileFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Сохраняемый поток. |
-| format | FileFormat | Следует использовать формат[`FileFormat`](../../fileformat). |
+| stream | Stream | Поток, который необходимо сохранить. |
+| format | FileFormat | [`FileFormat`](../../fileformat) должен быть использован. |
 
 ### Смотрите также
 

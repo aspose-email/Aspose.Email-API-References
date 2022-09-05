@@ -1,7 +1,7 @@
 ---
 title: JunkIncludeContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether email addresses of the contacts in the Contacts folder are treated in a special way with respect to the spam filter. Area Spam Canonical name PidTagJunkIncludeContacts Alternate names PR_JUNK_INCLUDE_CONTACTS
 type: docs
 weight: 11880
 url: /net/aspose.email.mapi/knownpropertylist/junkincludecontacts/

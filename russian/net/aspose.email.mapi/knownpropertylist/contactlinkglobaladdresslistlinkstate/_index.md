@@ -1,14 +1,14 @@
 ---
 title: ContactLinkGlobalAddressListLinkState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает состояние связи между контактом глобального списка адресов и дубликатом контакта. ОбластьСвойства контакта Каноническое имяPidLidContactLinkGlobalAddressListLinkState Альтернативные именаdispidContactLinkGALLinkState
+description: Указывает состояние связи между контактом GAL и дубликатом контакта. Область Свойства контакта Каноническое имя PidLidContactLinkGlobalAddressListLinkState Альтернативные имена dispidContactLinkGALLLinkState
 type: docs
 weight: 2990
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinkglobaladdresslistlinkstate/
 ---
 ## KnownPropertyList.ContactLinkGlobalAddressListLinkState field
 
-Указывает состояние связи между контактом глобального списка адресов и дубликатом контакта. Область:Свойства контакта Каноническое имя:PidLidContactLinkGlobalAddressListLinkState Альтернативные имена:dispidContactLinkGALLinkState
+Указывает состояние связи между контактом GAL и дубликатом контакта. Область: Свойства контакта Каноническое имя: PidLidContactLinkGlobalAddressListLinkState Альтернативные имена: dispidContactLinkGALLLinkState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkGlobalAddressListLinkState;

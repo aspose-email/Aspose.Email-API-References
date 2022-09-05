@@ -1,14 +1,14 @@
 ---
 title: Named
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее является ли этоMessageObjectPropertyaspose.email.mapi.msg/messageobjectpropertyименованным свойством.
+description: Получает значение указывающее является ли этоMessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty является именованным свойством.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/named/
 ---
 ## MessageObjectProperty.Named property
 
-Получает значение, указывающее, является ли это[`MessageObjectProperty`](../../messageobjectproperty)именованным свойством.
+Получает значение, указывающее, является ли это[`MessageObjectProperty`](../../messageobjectproperty) является именованным свойством.
 
 ```csharp
 public bool Named { get; }
@@ -16,11 +16,11 @@ public bool Named { get; }
 
 ### Стоимость имущества
 
-` true` если указано имя; в противном случае` false` .
+`истинный` если имя; в противном случае,`ЛОЖЬ`.
 
 ### Примечания
 
-Именованное свойство определяется своим идентификатором, диапазон таких идентификаторов составляет [0x8000,0xfffe].
+Именованное свойство определяется своим идентификатором, диапазон таких идентификаторов — [0x8000,0xfffe].
 
 ### Смотрите также
 

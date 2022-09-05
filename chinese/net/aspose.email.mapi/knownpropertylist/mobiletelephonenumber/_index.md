@@ -1,14 +1,14 @@
 ---
 title: MobileTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的手机号码 区域地址属性 规范名称PidTagMobileTelephoneNumber 替代名称PR_MOBILE_TELEPHONE_NUMBER PR_MOBILE_TELEPHONE_NUMBER_A
+description: 包含邮件用户的手机号码 区域地址属性 规范名称PidTagMobileTelephoneNumber 备用名称PR_MOBILE_TELEPHONE_NUMBERPR_MOBILE_TELEPHONE_NUMBER_A
 type: docs
 weight: 12720
 url: /zh/net/aspose.email.mapi/knownpropertylist/mobiletelephonenumber/
 ---
 ## KnownPropertyList.MobileTelephoneNumber field
 
-包含邮件用户的手机号码。 区域:地址属性 规范名称:PidTagMobileTelephoneNumber 替代名称:PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A,
+包含邮件用户的手机号码。 区域：地址属性 规范名称：PidTagMobileTelephoneNumber 备用名称：PR_MOBILE_TELEPHONE_NUMBER、PR_MOBILE_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MobileTelephoneNumber;

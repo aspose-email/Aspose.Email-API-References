@@ -18,14 +18,14 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pst | PersonalStorage | 包含备份交换文件夹的个人存储。 |
-| settings | RestoreSettings | 恢复设置。 |
+| settings | RestoreSettings | 还原设置。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*is` null` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*是`无效的`. |
 
 ### 也可以看看
 

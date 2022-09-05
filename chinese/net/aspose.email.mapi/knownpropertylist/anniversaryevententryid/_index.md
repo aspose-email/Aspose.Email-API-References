@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/anniversaryevententryid/
 ---
 ## KnownPropertyList.AnniversaryEventEntryId field
 
-指定代表联系人周年纪念日的约会对象的 EntryID。 区域:联系人属性 规范名称:PidLidAnniversaryEventEntryId 替代名称:dispidAnniversaryEventEID
+指定代表联系人周年纪念日的约会对象的 EntryID。 区域：联系人属性 规范名称：PidLidAnniversaryEventEntryId 替代名称：dispidAnniversaryEventEID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AnniversaryEventEntryId;

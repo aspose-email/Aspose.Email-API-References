@@ -1,12 +1,12 @@
 ---
 title: MarkAllItemsAsUnread
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks all items in inbox folder as unread.
 type: docs
 weight: 1260
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/markallitemsasunread/
 ---
-## IEWSClient.MarkAllItemsAsUnread method (1 of 3)
+## MarkAllItemsAsUnread() {#markallitemsasunread}
 
 Marks all items in inbox folder as unread.
 
@@ -22,7 +22,7 @@ public void MarkAllItemsAsUnread()
 
 ---
 
-## IEWSClient.MarkAllItemsAsUnread method (2 of 3)
+## MarkAllItemsAsUnread(params string[]) {#markallitemsasunread_2}
 
 Marks all items in specified folders as unread.
 
@@ -42,7 +42,7 @@ public void MarkAllItemsAsUnread(params string[] folderIds)
 
 ---
 
-## IEWSClient.MarkAllItemsAsUnread method (3 of 3)
+## MarkAllItemsAsUnread(IEnumerable&lt;string&gt;) {#markallitemsasunread_1}
 
 Marks all items in specified folders as unread.
 

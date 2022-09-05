@@ -1,14 +1,14 @@
 ---
 title: ContactsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取合约 uri
+description: 获取合约 uri.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/contactsuri/
 ---
 ## ExchangeMailboxInfo.ContactsUri property
 
-获取合约 uri。
+获取合约 uri.
 
 ```csharp
 public abstract string ContactsUri { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: Aspose.Email for .NET API 参考
-description: RequiredAttendees 标头
+description: 必需的与会者标头
 type: docs
 weight: 150
 url: /zh/net/aspose.email/mhttemplatename/requiredattendees/
 ---
 ## MhtTemplateName.RequiredAttendees field
 
-RequiredAttendees 标头。
+必需的与会者标头。
 
 ```csharp
 public const string RequiredAttendees;

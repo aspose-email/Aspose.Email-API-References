@@ -24,7 +24,7 @@ public class OOFReqParametrs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BodyType](../../aspose.email.clients.activesync.transportlayer/oofreqparametrs/bodytype) { get; set; } | 指定项目正文内容的格式类型。 以下是 BodyType 元素的允许值: - Text - HTML |
+| [BodyType](../../aspose.email.clients.activesync.transportlayer/oofreqparametrs/bodytype) { get; set; } | 指定项目正文内容的格式类型。 以下是 BodyType 元素的允许值： - Text - HTML |
 
 ### 也可以看看
 

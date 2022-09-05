@@ -1,7 +1,7 @@
 ---
 title: MessageTrackingReportTemplate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the types of report to display.
 type: docs
 weight: 4030
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreporttemplate/

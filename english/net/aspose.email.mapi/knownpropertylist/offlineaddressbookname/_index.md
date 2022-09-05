@@ -1,7 +1,7 @@
 ---
 title: OfflineAddressBookName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the display name of the address list. Area Offline Address Book Properties Canonical name PidTagOfflineAddressBookName Alternate names PR_OAB_NAME PR_OAB_NAME_W
 type: docs
 weight: 13270
 url: /net/aspose.email.mapi/knownpropertylist/offlineaddressbookname/

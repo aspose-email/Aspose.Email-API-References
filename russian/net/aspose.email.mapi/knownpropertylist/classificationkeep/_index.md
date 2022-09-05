@@ -1,14 +1,14 @@
 ---
 title: ClassificationKeep
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает использует ли сообщение какие-либо категории классификации. ОбластьОбщие свойства сообщения Каноническое имяPidLidClassificationKeep Альтернативные именаdispidClassKeep
+description: Указывает используются ли в сообщении какие-либо категории классификации. Область Общие свойства сообщения Каноническое имя PidLidClassificationKeep Альтернативные имена dispidClassKeep
 type: docs
 weight: 2650
 url: /ru/net/aspose.email.mapi/knownpropertylist/classificationkeep/
 ---
 ## KnownPropertyList.ClassificationKeep field
 
-Указывает, использует ли сообщение какие-либо категории классификации. Область:Общие свойства сообщения Каноническое имя:PidLidClassificationKeep Альтернативные имена:dispidClassKeep
+Указывает, используются ли в сообщении какие-либо категории классификации. Область: Общие свойства сообщения Каноническое имя: PidLidClassificationKeep Альтернативные имена: dispidClassKeep
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationKeep;

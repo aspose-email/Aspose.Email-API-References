@@ -1,14 +1,14 @@
 ---
 title: DisplayType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит целочисленное значение указывающее как отображать объект адресной книги в таблице или в качестве адресата в сообщении. ОбластьMapiAddressBook Каноническое имяPidTagDisplayType Альтернативные именаPR_DISPLAY_TYPE ptagDisplayType
+description: Содержит целочисленное значение указывающее как отображать объект адресной книги в таблице или как адресата в сообщении. Область MapiAddressBook Каноническое имя PidTagDisplayType Альтернативные имена PR_DISPLAY_TYPE ptagDisplayType
 type: docs
 weight: 4170
 url: /ru/net/aspose.email.mapi/knownpropertylist/displaytype/
 ---
 ## KnownPropertyList.DisplayType field
 
-Содержит целочисленное значение, указывающее, как отображать объект адресной книги в таблице или в качестве адресата в сообщении. Область:MapiAddressBook Каноническое имя:PidTagDisplayType Альтернативные имена:PR_DISPLAY_TYPE, ptagDisplayType
+Содержит целочисленное значение, указывающее, как отображать объект адресной книги в таблице или как адресата в сообщении. Область: MapiAddressBook Каноническое имя: PidTagDisplayType Альтернативные имена: PR_DISPLAY_TYPE, ptagDisplayType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayType;

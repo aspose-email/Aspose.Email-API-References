@@ -3,7 +3,7 @@ title: PostalAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет почтовый адрес.
 type: docs
-weight: 19460
+weight: 19490
 url: /ru/net/aspose.email.personalinfo/postaladdress/
 ---
 ## PostalAddress class
@@ -26,21 +26,21 @@ public class PostalAddress : IComparable<PostalAddress>, IEquatable<PostalAddres
 | --- | --- |
 | [Address](../../aspose.email.personalinfo/postaladdress/address) { get; set; } | Получает или устанавливает адрес |
 | [Category](../../aspose.email.personalinfo/postaladdress/category) { get; set; } | Получает или задает категорию объекта |
-| [City](../../aspose.email.personalinfo/postaladdress/city) { get; set; } | Получает или устанавливает город |
-| [Country](../../aspose.email.personalinfo/postaladdress/country) { get; set; } | Получает или устанавливает страну |
-| [CountryCode](../../aspose.email.personalinfo/postaladdress/countrycode) { get; set; } | Получает или устанавливает код страны |
+| [City](../../aspose.email.personalinfo/postaladdress/city) { get; set; } | Получает или задает город |
+| [Country](../../aspose.email.personalinfo/postaladdress/country) { get; set; } | Получает или задает страну |
+| [CountryCode](../../aspose.email.personalinfo/postaladdress/countrycode) { get; set; } | Получает или задает код страны |
 | [IsMailingAddress](../../aspose.email.personalinfo/postaladdress/ismailingaddress) { get; set; } | Получает или задает значение, определяющее, можно ли использовать адрес для рассылки. |
 | [PostalCode](../../aspose.email.personalinfo/postaladdress/postalcode) { get; set; } | Получает или устанавливает почтовый индекс |
-| [PostOfficeBox](../../aspose.email.personalinfo/postaladdress/postofficebox) { get; set; } | Получает или устанавливает почтовый ящик |
+| [PostOfficeBox](../../aspose.email.personalinfo/postaladdress/postofficebox) { get; set; } | Получает или задает почтовый ящик box |
 | [Prefered](../../aspose.email.personalinfo/postaladdress/prefered) { get; set; } | Получает или задает значение, определяющее, является ли предпочтительным почтовый адрес. |
-| [StateOrProvince](../../aspose.email.personalinfo/postaladdress/stateorprovince) { get; set; } | Получает или устанавливает регион |
+| [StateOrProvince](../../aspose.email.personalinfo/postaladdress/stateorprovince) { get; set; } | Получает или задает регион |
 | [Street](../../aspose.email.personalinfo/postaladdress/street) { get; set; } | Получает или устанавливает улицу |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/postaladdress/compareto)(PostalAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| virtual [CompareTo](../../aspose.email.personalinfo/postaladdress/compareto)(PostalAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | override [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_2)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals)(PostalAddress) |  |
 | [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_1)(PostalAddress, PostalAddress) | Определяет, считаются ли указанные экземпляры объектов равными. |

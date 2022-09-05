@@ -1,7 +1,7 @@
 ---
 title: Locality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users locality such as the town or city. Area Address Properties Canonical name PidTagLocality Alternate names PR_LOCALITY PR_LOCALITY_A PR_LOCALITY_W PR_BUSINESS_ADDRESS_LOCALITY PR_BUSINESS_ADDRESS_LOCALITY_A
 type: docs
 weight: 12180
 url: /net/aspose.email.mapi/knownpropertylist/locality/

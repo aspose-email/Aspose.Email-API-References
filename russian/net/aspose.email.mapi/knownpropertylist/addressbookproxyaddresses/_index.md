@@ -1,14 +1,14 @@
 ---
 title: AddressBookProxyAddresses
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит альтернативные адреса электронной почты для объекта адресной книги. ОбластьАдресная книга Каноническое имяPidTagAddressBookProxyAddresses Альтернативные именаPR_EMS_AB_PROXY_ADDRESSES PR_EMS_AB_PROXY_ADDRESSES_A PR_EMS_AB_PROXY_ADDRESSES_W
+description: Содержит альтернативные адреса электронной почты для объекта адресной книги. Область Address Book Каноническое имя PidTagAddressBookProxyAddresses Альтернативные имена PR_EMS_AB_PROXY_ADDRESSES PR_EMS_AB_PROXY_ADDRESSES_A PR_EMS_AB_PROXY_ADDRESSES_W
 type: docs
 weight: 900
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookproxyaddresses/
 ---
 ## KnownPropertyList.AddressBookProxyAddresses field
 
-Содержит альтернативные адреса электронной почты для объекта адресной книги. Область:Адресная книга Каноническое имя:PidTagAddressBookProxyAddresses Альтернативные имена:PR_EMS_AB_PROXY_ADDRESSES, PR_EMS_AB_PROXY_ADDRESSES_A, PR_EMS_AB_PROXY_ADDRESSES_W
+Содержит альтернативные адреса электронной почты для объекта адресной книги. Область: Address Book Каноническое имя: PidTagAddressBookProxyAddresses Альтернативные имена: PR_EMS_AB_PROXY_ADDRESSES, PR_EMS_AB_PROXY_ADDRESSES_A, PR_EMS_AB_PROXY_ADDRESSES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookProxyAddresses;

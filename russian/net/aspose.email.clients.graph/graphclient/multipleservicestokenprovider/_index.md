@@ -1,14 +1,14 @@
 ---
 title: MultipleServicesTokenProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает объект позволяющий получить маркер доступа OAuth.
+description: Получает или задает объект позволяющий получить токен доступа OAuth.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.graph/graphclient/multipleservicestokenprovider/
 ---
 ## GraphClient.MultipleServicesTokenProvider property
 
-Получает или задает объект, позволяющий получить маркер доступа OAuth.
+Получает или задает объект, позволяющий получить токен доступа OAuth.
 
 ```csharp
 public virtual IMultipleServicesTokenProvider MultipleServicesTokenProvider { get; set; }

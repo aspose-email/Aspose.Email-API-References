@@ -1,7 +1,7 @@
 ---
 title: ClientMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that defines how mail client supports the pipelining
 type: docs
 weight: 10
 url: /net/aspose.email.clients/pipeliningstatus/clientmode/

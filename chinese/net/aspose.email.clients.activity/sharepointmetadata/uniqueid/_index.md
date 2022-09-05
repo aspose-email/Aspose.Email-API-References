@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/sharepointmetadata/uniqueid/
 ---
 ## SharePointMetadata.UniqueId property
 
-标识文件的 guid。 强制:是
+标识文件的 guid。 强制：是
 
 ```csharp
 public string UniqueId { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: StartMonth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start month.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/startmonth/

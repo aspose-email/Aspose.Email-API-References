@@ -1,7 +1,7 @@
 ---
 title: RuleMessageName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the rule. Set on the FAI message. Area ExchangeNonTransmittableReserved Canonical name PidTagRuleMessageName Alternate names ptagRuleMsgName
 type: docs
 weight: 16530
 url: /net/aspose.email.mapi/knownpropertylist/rulemessagename/

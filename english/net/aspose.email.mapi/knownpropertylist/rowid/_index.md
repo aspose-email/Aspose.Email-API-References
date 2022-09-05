@@ -1,7 +1,7 @@
 ---
 title: Rowid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique identifier for a recipient in a messages recipient table. Area MapiCommon Canonical name PidTagRowid Alternate names PR_ROWID ptagRowId
 type: docs
 weight: 16340
 url: /net/aspose.email.mapi/knownpropertylist/rowid/

@@ -1,14 +1,14 @@
 ---
 title: Template
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает шаблон файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameTemplate Альтернативные именаurnschemas-microsoft-comofficeofficeTemplate
+description: Указывает шаблон файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameTemplate Альтернативные имена urnschemas-microsoft-comofficeofficeTemplate
 type: docs
 weight: 18900
 url: /ru/net/aspose.email.mapi/knownpropertylist/template/
 ---
 ## KnownPropertyList.Template field
 
-Указывает шаблон файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameTemplate Альтернативные имена:urn:schemas-microsoft-com:office:office#Template
+Указывает шаблон файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameTemplate Альтернативные имена: urn:schemas-microsoft-com:office:office#Template
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Template;

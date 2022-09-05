@@ -1,14 +1,14 @@
 ---
 title: RangeSeqSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаRangeSeqSetaspose.email.clients.imap/rangeseqset.
+description: Инициализирует новый экземплярRangeSeqSetaspose.email.clients.imap/rangeseqset класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/rangeseqset/rangeseqset/
 ---
 ## RangeSeqSet() {#constructor}
 
-Инициализирует новый экземпляр класса[`RangeSeqSet`](../../rangeseqset).
+Инициализирует новый экземпляр[`RangeSeqSet`](../../rangeseqset) класс.
 
 ```csharp
 public RangeSeqSet()
@@ -24,7 +24,7 @@ public RangeSeqSet()
 
 ## RangeSeqSet(SimpleSeqSet) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`RangeSeqSet`](../../rangeseqset).
+Инициализирует новый экземпляр[`RangeSeqSet`](../../rangeseqset) класс.
 
 ```csharp
 public RangeSeqSet(SimpleSeqSet startRange)
@@ -45,7 +45,7 @@ public RangeSeqSet(SimpleSeqSet startRange)
 
 ## RangeSeqSet(SimpleSeqSet, SimpleSeqSet) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`RangeSeqSet`](../../rangeseqset).
+Инициализирует новый экземпляр[`RangeSeqSet`](../../rangeseqset) класс.
 
 ```csharp
 public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
@@ -53,7 +53,7 @@ public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startRange | SimpleSeqSet | Начальная граница диапазона поиска |
+| startRange | SimpleSeqSet | Начальная граница диапазона для поиска |
 | endRange | SimpleSeqSet | Конечная граница диапазона для поиска |
 
 ### Смотрите также
@@ -67,7 +67,7 @@ public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
 
 ## RangeSeqSet(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`RangeSeqSet`](../../rangeseqset).
+Инициализирует новый экземпляр[`RangeSeqSet`](../../rangeseqset) класс.
 
 ```csharp
 public RangeSeqSet(string startRange)
@@ -87,7 +87,7 @@ public RangeSeqSet(string startRange)
 
 ## RangeSeqSet(string, string) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`RangeSeqSet`](../../rangeseqset).
+Инициализирует новый экземпляр[`RangeSeqSet`](../../rangeseqset) класс.
 
 ```csharp
 public RangeSeqSet(string startRange, string endRange)

@@ -16,18 +16,18 @@ public string ReplyTo { get; set; }
 
 ### 适当的价值
 
-对姓名的回复。
+对名字的回复。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果对地址的回复为空，则抛出 。 |
+| ArgumentNullException | 如果对地址的回复为空，则抛出。 |
 | ArgumentException | 如果对地址的回复不是可识别的格式，则抛出。 |
 
 ### 评论
 
-获取或设置以分号分隔的回复地址列表。
+获取或设置以分号分隔的ReplyTo地址列表。
 
 ### 也可以看看
 

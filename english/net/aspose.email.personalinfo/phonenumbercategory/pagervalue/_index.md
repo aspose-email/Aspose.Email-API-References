@@ -1,7 +1,7 @@
 ---
 title: PagerValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Pager category
 type: docs
 weight: 360
 url: /net/aspose.email.personalinfo/phonenumbercategory/pagervalue/

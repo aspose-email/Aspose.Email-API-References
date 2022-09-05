@@ -1,14 +1,14 @@
 ---
 title: AddMessage
 second_title: Aspose.Email for .NET API 参考
-description: 添加要附加的邮件消息
+description: 添加邮件消息以追加
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage/
 ---
 ## AddMessage(MailMessage) {#addmessage}
 
-添加要附加的邮件消息。
+添加邮件消息以追加。
 
 ```csharp
 public EwsAppendMessage AddMessage(MailMessage message)
@@ -25,7 +25,7 @@ public EwsAppendMessage AddMessage(MailMessage message)
 
 ## AddMessage(MapiMessage) {#addmessage_1}
 
-添加要附加的 MAPI 消息。
+将 MAPI 消息添加到 append.
 
 ```csharp
 public EwsAppendMessage AddMessage(MapiMessage message)

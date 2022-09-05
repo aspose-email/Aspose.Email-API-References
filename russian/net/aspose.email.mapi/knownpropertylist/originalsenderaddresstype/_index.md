@@ -1,14 +1,14 @@
 ---
 title: OriginalSenderAddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagSenderAddressType отправителя исходного сообщения раздел 2.991. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSenderAddressType Альтернативные именаPR_ORIGINAL_SENDER_ADDRTYPE PR_ORIGINAL_SENDER_ADDRTYPE_A ptagOriginalSenderAddrType PR_ORIGINAL_SENDER_ADDRTYPE_W
+description: Содержит значение свойства PidTagSenderAddressType отправителя исходного сообщения раздел 2.991. Область Общие свойства сообщения Каноническое имя PidTagOriginalSenderAddressType Альтернативные имена PR_ORIGINAL_SENDER_ADDRTYPE PR_ORIGINAL_SENDER_ADDRTYPE_A ptagOriginalSenderAddrType PR_ORIGINAL_SENDER_ADDRTYPE_W
 type: docs
 weight: 13660
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsenderaddresstype/
 ---
 ## KnownPropertyList.OriginalSenderAddressType field
 
-Содержит значение свойства PidTagSenderAddressType отправителя исходного сообщения (раздел 2.991). Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSenderAddressType Альтернативные имена:PR_ORIGINAL_SENDER_ADDRTYPE, PR_ORIGINAL_SENDER_ADDRTYPE_A, ptagOriginalSenderAddrType, PR_ORIGINAL_SENDER_ADDRTYPE_W
+Содержит значение свойства PidTagSenderAddressType отправителя исходного сообщения (раздел 2.991). Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSenderAddressType Альтернативные имена: PR_ORIGINAL_SENDER_ADDRTYPE, PR_ORIGINAL_SENDER_ADDRTYPE_A, ptagOriginalSenderAddrType, PR_ORIGINAL_SENDER_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSenderAddressType;

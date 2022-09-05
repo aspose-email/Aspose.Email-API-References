@@ -1,7 +1,7 @@
 ---
 title: ParagraphCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of paragraphs in the file attached to the Document object. Area Common Canonical name PidNameParagraphCount Alternate names urnschemasmicrosoftcomofficeofficeParagraphs
 type: docs
 weight: 14170
 url: /net/aspose.email.mapi/knownpropertylist/paragraphcount/

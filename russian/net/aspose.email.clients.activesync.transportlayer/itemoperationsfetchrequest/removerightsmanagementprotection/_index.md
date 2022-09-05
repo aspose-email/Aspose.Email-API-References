@@ -1,14 +1,14 @@
 ---
 title: RemoveRightsManagementProtection
 second_title: Справочник по Aspose.Email для .NET API
-description: Если присутствует или имеет значение true это указывает на то что клиент снимает защиту IRM с электронной почты. Защита IRM может быть удалена из сообщений электронной почты только в том случае если для элемента ExportAllowed установлено значение TRUE.
+description: Если он присутствует или имеет значение true это означает что клиент удаляет защиту IRM из электронной почты. Защита IRM может быть удалена из сообщений электронной почты только если для элемента ExportAllowed установлено значение TRUE.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/removerightsmanagementprotection/
 ---
 ## ItemOperationsFetchRequest.RemoveRightsManagementProtection property
 
-Если присутствует или имеет значение true, это указывает на то, что клиент снимает защиту IRM с электронной почты. Защита IRM может быть удалена из сообщений электронной почты только в том случае, если для элемента ExportAllowed установлено значение TRUE.
+Если он присутствует или имеет значение true, это означает, что клиент удаляет защиту IRM из электронной почты. Защита IRM может быть удалена из сообщений электронной почты, только если для элемента ExportAllowed установлено значение TRUE.
 
 ```csharp
 public bool? RemoveRightsManagementProtection { get; set; }

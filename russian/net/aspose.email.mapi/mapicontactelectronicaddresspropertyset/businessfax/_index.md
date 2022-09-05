@@ -1,14 +1,14 @@
 ---
 title: BusinessFax
 second_title: Справочник по Aspose.Email для .NET API
-description: Относится к группе свойств  которые определяют рабочий адрес факса для контакта.
+description: Относится к группе свойств  определяющих служебный адрес факса для контакта.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax/
 ---
 ## MapiContactElectronicAddressPropertySet.BusinessFax property
 
-Относится к группе свойств , которые определяют рабочий адрес факса для контакта.
+Относится к группе свойств , определяющих служебный адрес факса для контакта.
 
 ```csharp
 public MapiContactElectronicAddress BusinessFax { get; set; }

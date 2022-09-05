@@ -1,14 +1,14 @@
 ---
 title: PreventMsgCreate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PREVENT_MSG_CREATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PREVENT_MSG_CREATE
 type: docs
 weight: 14540
 url: /ru/net/aspose.email.mapi/knownpropertylist/preventmsgcreate/
 ---
 ## KnownPropertyList.PreventMsgCreate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PREVENT_MSG_CREATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PREVENT_MSG_CREATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PreventMsgCreate;

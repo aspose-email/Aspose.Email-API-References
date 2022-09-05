@@ -1,14 +1,14 @@
 ---
 title: CalendarDescriptionUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес ресурса который содержит описание встречи или встречи. ОбластьОбщие Каноническое имяPidNameCalendarDescriptionUrl Альтернативные именаurnschemascalendardescriptionurl
+description: Указывает URL-адрес ресурса который содержит описание встречи или собрания. Область Common Каноническое имя PidNameCalendarDescriptionUrl Альтернативные имена urnschemascalendardescriptionurl
 type: docs
 weight: 2230
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendardescriptionurl/
 ---
 ## KnownPropertyList.CalendarDescriptionUrl field
 
-Указывает URL-адрес ресурса, который содержит описание встречи или встречи. Область:Общие Каноническое имя:PidNameCalendarDescriptionUrl Альтернативные имена:urn:schemas:calendar:descriptionurl
+Указывает URL-адрес ресурса, который содержит описание встречи или собрания. Область: Common Каноническое имя: PidNameCalendarDescriptionUrl Альтернативные имена: urn:schemas:calendar:descriptionurl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarDescriptionUrl;

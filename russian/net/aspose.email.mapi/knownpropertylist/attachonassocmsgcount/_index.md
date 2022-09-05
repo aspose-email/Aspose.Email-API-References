@@ -1,14 +1,14 @@
 ---
 title: AttachOnAssocMsgCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ATTACH_ON_ASSOC_MSG_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ATTACH_ON_ASSOC_MSG_COUNT
 type: docs
 weight: 1730
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachonassocmsgcount/
 ---
 ## KnownPropertyList.AttachOnAssocMsgCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ATTACH_ON_ASSOC_MSG_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ATTACH_ON_ASSOC_MSG_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachOnAssocMsgCount;

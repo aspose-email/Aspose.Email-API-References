@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactPhysicalAddressPropertySetaspose.email.mapi/mapicontactphysicaladdresspropertysetclass
+description: Инициализирует новый экземплярMapiContactPhysicalAddressPropertySetaspose.email.mapi/mapicontactphysicaladdresspropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset)class
+Инициализирует новый экземпляр[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) класс
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet()
@@ -24,7 +24,7 @@ public MapiContactPhysicalAddressPropertySet()
 
 ## MapiContactPhysicalAddressPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset)class
+Инициализирует новый экземпляр[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) класс
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A[`MapiPropertyCollection`](../../mapipropertycollection)содержит свойства физических адресов контактов |
+| properties | MapiPropertyCollection | А[`MapiPropertyCollection`](../../mapipropertycollection) содержащие свойства контактных физических адресов |
 
 ### Смотрите также
 

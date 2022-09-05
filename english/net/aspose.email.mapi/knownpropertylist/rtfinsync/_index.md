@@ -1,7 +1,7 @@
 ---
 title: RtfInSync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the PidTagBody property section 2.609 and the PidTagRtfCompressed property section 2.932 contain the same text ignoring formatting. Area Email Canonical name PidTagRtfInSync Alternate names PR_RTF_IN_SYNC ptagRTFInSync
 type: docs
 weight: 16370
 url: /net/aspose.email.mapi/knownpropertylist/rtfinsync/

@@ -1,7 +1,7 @@
 ---
 title: SectionHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialaze new instans of SectionHeader.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/sectionheader/sectionheader/

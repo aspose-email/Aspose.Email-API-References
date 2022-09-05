@@ -18,8 +18,8 @@ public class ReminderTrigger
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReminderTrigger](remindertrigger#constructor_1)(DateTime) | 初始化[`ReminderTrigger`](../remindertrigger)类的新实例。 |
-| [ReminderTrigger](remindertrigger#constructor)(ReminderDuration, ReminderRelated) | 初始化[`ReminderTrigger`](../remindertrigger)类的新实例。 |
+| [ReminderTrigger](remindertrigger#constructor_1)(DateTime) | 初始化一个新的实例[`ReminderTrigger`](../remindertrigger)类. |
+| [ReminderTrigger](remindertrigger#constructor)(ReminderDuration, ReminderRelated) | 初始化一个新的实例[`ReminderTrigger`](../remindertrigger)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public class ReminderTrigger
 | --- | --- |
 | [DateTime](../../aspose.email.calendar/remindertrigger/datetime) { get; set; } | 触发器设置为绝对日期/时间。 |
 | [Duration](../../aspose.email.calendar/remindertrigger/duration) { get; set; } | 指定触发警报的相对时间。 |
-| [Related](../../aspose.email.calendar/remindertrigger/related) { get; set; } | 指定警报触发器与事件开始或结束的关系。 |
+| [Related](../../aspose.email.calendar/remindertrigger/related) { get; set; } | 指定警报触发相对于事件开始或结束的关系。 |
 
 ### 也可以看看
 

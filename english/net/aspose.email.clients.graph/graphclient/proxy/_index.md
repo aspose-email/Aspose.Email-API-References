@@ -1,7 +1,7 @@
 ---
 title: Proxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets data to proxy access to Exchange server.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/graphclient/proxy/

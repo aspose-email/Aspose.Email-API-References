@@ -1,7 +1,7 @@
 ---
 title: ListPublicFoldersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of public folders from root public folder
 type: docs
 weight: 470
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listpublicfoldersasync/

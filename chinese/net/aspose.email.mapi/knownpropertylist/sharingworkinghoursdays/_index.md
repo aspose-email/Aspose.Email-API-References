@@ -1,14 +1,14 @@
 ---
 title: SharingWorkingHoursDays
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingWorkingHoursDays 别名dispidSharingWorkingHoursDays
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingWorkingHoursDays 别名dispidSharingWorkingHoursDays
 type: docs
 weight: 18000
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingworkinghoursdays/
 ---
 ## KnownPropertyList.SharingWorkingHoursDays field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingWorkingHoursDays 别名:dispidSharingWorkingHoursDays
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingWorkingHoursDays 别名：dispidSharingWorkingHoursDays
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingWorkingHoursDays;

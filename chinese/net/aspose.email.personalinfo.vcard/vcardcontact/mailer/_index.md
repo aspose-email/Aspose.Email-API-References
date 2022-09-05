@@ -3,7 +3,7 @@ title: Mailer
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置邮件程序
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/mailer/
 ---
 ## VCardContact.Mailer property

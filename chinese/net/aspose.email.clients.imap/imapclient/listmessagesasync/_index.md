@@ -1,14 +1,47 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定文件夹中的消息列表
+description: 获取当前文件夹中的邮件列表
 type: docs
 weight: 880
 url: /zh/net/aspose.email.clients.imap/imapclient/listmessagesasync/
 ---
+## ListMessagesAsync(int, CancellationToken) {#listmessagesasync_28}
+
+获取当前文件夹中的邮件列表。
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| maxNumberOfMessages | Int32 | 最大消息数。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
+
+### 也可以看看
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## ListMessagesAsync(IConnection, string, long, bool, IEnumerable&lt;string&gt;) {#listmessagesasync_17}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
@@ -17,15 +50,15 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
-| modificationSequence | Int64 | 修改序列 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
+| modificationSequence | Int64 | 修改顺序 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -39,7 +72,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection) {#listmessagesasync_1}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection)
@@ -47,11 +80,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -65,7 +98,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 ## ListMessagesAsync(IConnection, string) {#listmessagesasync_12}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName)
@@ -73,12 +106,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -92,7 +125,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, bool) {#listmessagesasync_6}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -101,12 +134,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -129,12 +162,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| modificationSequence | Int64 | 修改序列 |
+| connection | IConnection | 连接到服务器 |
+| modificationSequence | Int64 | 修改顺序 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -148,7 +181,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, string, bool) {#listmessagesasync_15}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
@@ -157,13 +190,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -177,7 +210,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync() {#listmessagesasync}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync()
@@ -185,7 +218,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -198,7 +231,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync()
 
 ## ListMessagesAsync(IEnumerable&lt;string&gt;) {#listmessagesasync_31}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> messageExtraFields)
@@ -206,11 +239,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -223,7 +256,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 ## ListMessagesAsync(bool) {#listmessagesasync_25}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursively)
@@ -231,11 +264,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | 表示，如果必须递归检索消息。 |
+| retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -256,11 +289,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -282,12 +315,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -309,13 +342,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -336,11 +369,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modificationSequence | Int64 | 修改序列 |
+| modificationSequence | Int64 | 修改顺序 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -393,7 +426,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 
 ### 返回值
 
@@ -422,7 +455,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
@@ -478,7 +511,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderName | String | 消息位置 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
@@ -534,17 +567,17 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| maxNumberOfMessages | Int32 | 最大数量消息。 |
+| maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
 
 ### 也可以看看
 
@@ -570,13 +603,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
 
 ### 也可以看看
 
@@ -589,7 +622,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 
 ## ListMessagesAsync(IConnection, string, long, bool, IEnumerable&lt;string&gt;, CancellationToken) {#listmessagesasync_18}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
@@ -599,16 +632,16 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
-| modificationSequence | Int64 | 修改序列 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
+| modificationSequence | Int64 | 修改顺序 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -622,7 +655,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, CancellationToken) {#listmessagesasync_20}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -631,12 +664,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| connection | IConnection | 连接到服务器 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -650,7 +683,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, string, CancellationToken) {#listmessagesasync_19}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
@@ -659,13 +692,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -679,7 +712,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, bool, CancellationToken) {#listmessagesasync_7}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -688,13 +721,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -717,13 +750,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| modificationSequence | Int64 | 修改序列 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| connection | IConnection | 连接到服务器 |
+| modificationSequence | Int64 | 修改顺序 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -737,7 +770,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, string, bool, CancellationToken) {#listmessagesasync_16}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
@@ -746,14 +779,14 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -767,7 +800,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(CancellationToken) {#listmessagesasync_41}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(CancellationToken token)
@@ -775,11 +808,11 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -792,7 +825,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 ## ListMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#listmessagesasync_32}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> messageExtraFields, 
@@ -801,12 +834,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -819,7 +852,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 ## ListMessagesAsync(bool, CancellationToken) {#listmessagesasync_26}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursively, 
@@ -828,12 +861,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | 表示，如果必须递归检索消息。 |
+| retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -854,12 +887,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Canc
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -881,13 +914,13 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -909,14 +942,14 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -938,12 +971,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modificationSequence | Int64 | 修改序列 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| modificationSequence | Int64 | 修改顺序 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -998,7 +1031,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
@@ -1028,7 +1061,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
@@ -1086,7 +1119,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderName | String | 消息位置 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
@@ -1145,56 +1178,23 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| maxNumberOfMessages | Int32 | 最大数量消息。 |
-| token | CancellationToken | 传播应取消操作的通知。 |
-
-### 返回值
-
-任务对象，带有此操作的委托
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
-
-### 也可以看看
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(int, CancellationToken) {#listmessagesasync_28}
-
-获取当前文件夹中的邮件列表。
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages, 
-    CancellationToken token)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
 
 ### 也可以看看
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

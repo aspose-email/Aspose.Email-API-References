@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages that contain the specified string in the body of the message.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/mailquerybuilder/body/

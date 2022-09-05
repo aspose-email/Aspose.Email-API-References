@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Compares the level to the other LogLevelaspose.email.tools.logging/loglevel object.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.logging/loglevel/compareto/

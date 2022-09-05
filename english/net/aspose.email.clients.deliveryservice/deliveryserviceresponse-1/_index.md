@@ -1,7 +1,7 @@
 ---
 title: DeliveryServiceResponseT
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the DeliveryService client response
 type: docs
 weight: 2950
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/

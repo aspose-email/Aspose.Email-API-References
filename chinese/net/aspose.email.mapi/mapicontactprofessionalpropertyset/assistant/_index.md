@@ -1,14 +1,14 @@
 ---
 title: Assistant
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人助手的名称
+description: 获取或设置联系人助手的名字
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicontactprofessionalpropertyset/assistant/
 ---
 ## MapiContactProfessionalPropertySet.Assistant property
 
-获取或设置联系人助手的名称
+获取或设置联系人助手的名字
 
 ```csharp
 public string Assistant { get; set; }

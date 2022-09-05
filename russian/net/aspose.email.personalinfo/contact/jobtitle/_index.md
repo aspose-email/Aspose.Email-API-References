@@ -1,14 +1,14 @@
 ---
 title: JobTitle
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает название должности.
+description: Получает или задает должность.
 type: docs
 weight: 230
 url: /ru/net/aspose.email.personalinfo/contact/jobtitle/
 ---
 ## Contact.JobTitle property
 
-Получает или задает название должности.
+Получает или задает должность.
 
 ```csharp
 public string JobTitle { get; set; }

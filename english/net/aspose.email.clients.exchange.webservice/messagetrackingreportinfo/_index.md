@@ -1,7 +1,7 @@
 ---
 title: MessageTrackingReportInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an information about the message that was found by using the FindMessageTrackingReport
 type: docs
 weight: 4020
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/

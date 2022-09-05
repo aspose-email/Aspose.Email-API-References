@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/googletalkvalue/
 ---
 ## InstantMessengerCategory.GoogleTalkValue field
 
-Строковое значение для категории 'GoogleTalk'
+Строковое значение для категории "GoogleTalk"
 
 ```csharp
 public const string GoogleTalkValue;

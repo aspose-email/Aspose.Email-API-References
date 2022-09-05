@@ -1,9 +1,9 @@
 ---
 title: ContactFieldsSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the groups of Contact fields that will be included in resultant mhtml file.
 type: docs
-weight: 17010
+weight: 17180
 url: /net/aspose.email/contactfieldsset/
 ---
 ## ContactFieldsSet enumeration

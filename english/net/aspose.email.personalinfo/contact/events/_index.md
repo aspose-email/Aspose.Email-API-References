@@ -1,7 +1,7 @@
 ---
 title: Events
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of events
 type: docs
 weight: 120
 url: /net/aspose.email.personalinfo/contact/events/

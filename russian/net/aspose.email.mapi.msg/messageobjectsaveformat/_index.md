@@ -1,14 +1,14 @@
 ---
 title: MessageObjectSaveFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет доступные форматыMessageObject./messageobjectмогут быть сохранены.
+description: Представляет доступные форматыMessageObject./messageobject можно сохранить в .
 type: docs
-weight: 18880
+weight: 18910
 url: /ru/net/aspose.email.mapi.msg/messageobjectsaveformat/
 ---
 ## MessageObjectSaveFormat enumeration
 
-Представляет доступные форматы[`MessageObject`](../messageobject)могут быть сохранены.
+Представляет доступные форматы[`MessageObject`](../messageobject) можно сохранить в .
 
 ```csharp
 public enum MessageObjectSaveFormat

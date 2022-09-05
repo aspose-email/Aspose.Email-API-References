@@ -1,14 +1,14 @@
 ---
 title: XGMThreadSearchConditions
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением IMAP X-GM-EXT-1 описанным на странице https//developers.google.com/gmail/imap/imap-extensionschecking_for_the_presence_of_extensions.
+description: Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением IMAP X-GM-EXT-1 описанным в https//developers.google.com/gmail/imap/imap-extensionschecking_for_the_presence_of_extensions.
 type: docs
 weight: 16750
 url: /ru/net/aspose.email.clients.imap/xgmthreadsearchconditions/
 ---
 ## XGMThreadSearchConditions class
 
-Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением IMAP X-GM-EXT-1, описанным на странице https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions.
+Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением IMAP X-GM-EXT-1, описанным в https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions.
 
 ```csharp
 public sealed class XGMThreadSearchConditions : BaseSearchConditions
@@ -25,10 +25,10 @@ public sealed class XGMThreadSearchConditions : BaseSearchConditions
 | Имя | Описание |
 | --- | --- |
 | [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | Получает или устанавливает кодировку. Указывает кодировку строк, которые появляются в критериях поиска. |
-| [ConversationId](../../aspose.email.clients.imap/xgmthreadsearchconditions/conversationid) { get; set; } | Получает или задает идентификатор беседы, который Gmail предоставляет для связывания групп сообщений. |
-| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения с , которой соответствуют критерии поиска. |
+| [ConversationId](../../aspose.email.clients.imap/xgmthreadsearchconditions/conversationid) { get; set; } | Получает или задает идентификатор цепочки сообщений, который Gmail предоставляет для связывания групп сообщений. |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения начиная с , которая соответствует критериям поиска. |
 | [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | Получает или задает текст темы. |
-| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод порядковые номера или UID сообщений. |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод поиска порядковые номера или UID сообщений. |
 
 ### Смотрите также
 

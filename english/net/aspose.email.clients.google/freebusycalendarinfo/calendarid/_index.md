@@ -1,7 +1,7 @@
 ---
 title: CalendarId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Calendar Id
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/freebusycalendarinfo/calendarid/

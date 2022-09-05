@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets string representation of an event category
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/eventcategory/value/

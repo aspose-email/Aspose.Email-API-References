@@ -1,14 +1,14 @@
 ---
 title: AddressBookSeniorityIndex
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит целое число со знаком указывающее порядок старшинства объектов адресной книги входящих в группу с большими значениями указывающими более старшие элементы. ОбластьАдресная книга Каноническое имяPidTagAddressBookSeniorityIndex Альтернативные имена
+description: Содержит целое число со знаком указывающее порядок старшинства объектов адресной книги входящих в группу причем большие значения указывают более старшие элементы. Область Адресная книга Каноническое имя PidTagAddressBookSeniorityIndex Альтернативные имена
 type: docs
 weight: 970
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookseniorityindex/
 ---
 ## KnownPropertyList.AddressBookSeniorityIndex field
 
-Содержит целое число со знаком, указывающее порядок старшинства объектов адресной книги, входящих в группу, с большими значениями, указывающими более старшие элементы. Область:Адресная книга Каноническое имя:PidTagAddressBookSeniorityIndex Альтернативные имена:
+Содержит целое число со знаком, указывающее порядок старшинства объектов адресной книги, входящих в группу, причем большие значения указывают более старшие элементы. Область: Адресная книга Каноническое имя: PidTagAddressBookSeniorityIndex Альтернативные имена:
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookSeniorityIndex;

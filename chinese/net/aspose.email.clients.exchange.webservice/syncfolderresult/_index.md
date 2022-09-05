@@ -21,7 +21,7 @@ public class SyncFolderResult
 | [ChangedFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/changedfolders) { get; } | 指定文件夹中已更改子文件夹的集合。 |
 | [ChangedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/changeditems) { get; } | 指定文件夹中更改项目的集合。 |
 | [DeletedFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/deletedfolders) { get; } | 指定文件夹中已删除的子文件夹数组。 |
-| [DeletedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems) { get; } | 已删除项目的数组。 |
+| [DeletedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems) { get; } | 已删除的项目数组。 |
 | [NewFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/newfolders) { get; } | 指定文件夹中新子文件夹的集合。 |
 | [NewItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/newitems) { get; } | 指定文件夹中新项目的集合。 |
 | [ReadFlagChanged](../../aspose.email.clients.exchange.webservice/syncfolderresult/readflagchanged) { get; } | 对“读取”标志已更改的项目的项目 uri 和读取标志的集合。 |

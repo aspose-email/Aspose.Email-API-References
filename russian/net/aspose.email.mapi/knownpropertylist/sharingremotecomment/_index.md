@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteComment
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteComment Альтернативные именаdispidSharingRemoteComment
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRemoteComment Альтернативные имена dispidSharingRemoteComment
 type: docs
 weight: 17780
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremotecomment/
 ---
 ## KnownPropertyList.SharingRemoteComment field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingRemoteComment Альтернативные имена:dispidSharingRemoteComment
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRemoteComment Альтернативные имена: dispidSharingRemoteComment
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteComment;

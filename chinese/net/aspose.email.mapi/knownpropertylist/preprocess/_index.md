@@ -1,14 +1,14 @@
 ---
 title: Preprocess
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PREPROCESS
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PREPROCESS
 type: docs
 weight: 14520
 url: /zh/net/aspose.email.mapi/knownpropertylist/preprocess/
 ---
 ## KnownPropertyList.Preprocess field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PREPROCESS
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PREPROCESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Preprocess;

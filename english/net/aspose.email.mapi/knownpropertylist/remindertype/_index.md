@@ -1,7 +1,7 @@
 ---
 title: ReminderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is not set and if set is ignored. Area Reminders Canonical name PidLidReminderType Alternate names dispidReminderType http//schemas.microsoft.com/mapi/remindertype
 type: docs
 weight: 15770
 url: /net/aspose.email.mapi/knownpropertylist/remindertype/

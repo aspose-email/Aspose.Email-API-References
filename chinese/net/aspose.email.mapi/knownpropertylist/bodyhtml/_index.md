@@ -1,14 +1,14 @@
 ---
 title: BodyHtml
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Message 对象的 HTML 正文 区域常规消息属性 规范名称PidTagBodyHtml 替代名称PR_BODY_HTMLPR_BODY_HTML_AptagBodyHtmlPR_BODY_HTML_W
+description: 包含消息对象的 HTML 正文 区域常规消息属性 规范名称PidTagBodyHtml 替代名称PR_BODY_HTMLPR_BODY_HTML_AptagBodyHtmlPR_BODY_HTML_W
 type: docs
 weight: 2070
 url: /zh/net/aspose.email.mapi/knownpropertylist/bodyhtml/
 ---
 ## KnownPropertyList.BodyHtml field
 
-包含 Message 对象的 HTML 正文。 区域:常规消息属性 规范名称:PidTagBodyHtml 替代名称:PR_BODY_HTML、PR_BODY_HTML_A、ptagBodyHtml、PR_BODY_HTML_W
+包含消息对象的 HTML 正文。 区域：常规消息属性 规范名称：PidTagBodyHtml 替代名称：PR_BODY_HTML、PR_BODY_HTML_A、ptagBodyHtml、PR_BODY_HTML_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyHtml;

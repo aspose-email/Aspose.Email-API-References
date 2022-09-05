@@ -1,14 +1,14 @@
 ---
 title: IpmJournalEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Journal 文件夹的 EntryID 区域文件夹属性 规范名称PidTagIpmJournalEntryId 备用名称PR_IPM_JOURNAL_ENTRYID
+description: 包含日记文件夹的条目 ID 区域文件夹属性 规范名称PidTagIpmJournalEntryId 替代名称PR_IPM_JOURNAL_ENTRYID
 type: docs
 weight: 11670
 url: /zh/net/aspose.email.mapi/knownpropertylist/ipmjournalentryid/
 ---
 ## KnownPropertyList.IpmJournalEntryId field
 
-包含 Journal 文件夹的 EntryID。 区域:文件夹属性 规范名称:PidTagIpmJournalEntryId 备用名称:PR_IPM_JOURNAL_ENTRYID
+包含日记文件夹的条目 ID。 区域：文件夹属性 规范名称：PidTagIpmJournalEntryId 替代名称：PR_IPM_JOURNAL_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmJournalEntryId;

@@ -1,14 +1,14 @@
 ---
 title: StoreOffline
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STORE_OFFLINE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STORE_OFFLINE
 type: docs
 weight: 18260
 url: /ru/net/aspose.email.mapi/knownpropertylist/storeoffline/
 ---
 ## KnownPropertyList.StoreOffline field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STORE_OFFLINE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STORE_OFFLINE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreOffline;

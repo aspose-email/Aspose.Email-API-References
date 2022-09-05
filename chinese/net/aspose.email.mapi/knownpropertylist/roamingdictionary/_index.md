@@ -1,14 +1,14 @@
 ---
 title: RoamingDictionary
 second_title: Aspose.Email for .NET API 参考
-description: 包含字典流如 MS-OXOCFG 第 2.2.5.1 节中所述 区域配置 规范名称PidTagRoamingDictionary 替代名称PR_ROAMING_DICTIONARY
+description: 包含字典流如 MS-OXOCFG 第 2.2.5.1 节中所述 区域Configuration 规范名称PidTagRoamingDictionary 替代名称PR_ROAMING_DICTIONARY
 type: docs
 weight: 16320
 url: /zh/net/aspose.email.mapi/knownpropertylist/roamingdictionary/
 ---
 ## KnownPropertyList.RoamingDictionary field
 
-包含字典流，如 [MS-OXOCFG] 第 2.2.5.1 节中所述。 区域:配置 规范名称:PidTagRoamingDictionary 替代名称:PR_ROAMING_DICTIONARY
+包含字典流，如 [MS-OXOCFG] 第 2.2.5.1 节中所述。 区域：Configuration 规范名称：PidTagRoamingDictionary 替代名称：PR_ROAMING_DICTIONARY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingDictionary;

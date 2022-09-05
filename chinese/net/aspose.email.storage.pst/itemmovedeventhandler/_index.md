@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventHandler
 second_title: Aspose.Email for .NET API 参考
-description: 表示将处理ItemMoved./folderinfo/itemmoved事件的方法
+description: 表示将处理ItemMoved./folderinfo/itemmoved事件.
 type: docs
-weight: 20150
+weight: 20200
 url: /zh/net/aspose.email.storage.pst/itemmovedeventhandler/
 ---
 ## ItemMovedEventHandler delegate
 
-表示将处理[`ItemMoved`](../folderinfo/itemmoved)事件的方法。
+表示将处理[`ItemMoved`](../folderinfo/itemmoved)事件.
 
 ```csharp
 public delegate void ItemMovedEventHandler(object sender, ItemMovedEventArgs e);

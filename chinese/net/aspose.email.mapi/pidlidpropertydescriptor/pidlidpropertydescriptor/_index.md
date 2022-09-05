@@ -1,14 +1,14 @@
 ---
 title: PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API 参考
-description: 初始化PidLidPropertyDescriptoraspose.email.mapi/pidlidpropertydescriptor类 属性的新实例无符号 32 位数量以及属性集
+description: 初始化PidLidPropertyDescriptoraspose.email.mapi/pidlidpropertydescriptor class 由无符号 32 位数量以及属性集标识的属性
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/pidlidpropertydescriptor/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor(long, PropertyDataType, Guid) {#constructor}
 
-初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。
+初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。
 
 ```csharp
 public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propertySet)
@@ -16,9 +16,9 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| longId | Int64 | long ID (LID):与 GUID 结合定义命名属性的无符号 32 位量。 |
+| longId | Int64 | 长 ID (LID)：一个无符号的 32 位量，与 GUID 结合定义命名属性。 |
 | type | PropertyDataType | 指定属性允许的值类型。 |
-| propertySet | Guid | 标识一组具有类似用途的属性的 GUID。 |
+| propertySet | Guid | 标识具有相似用途的一组属性的 GUID。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 ## PidLidPropertyDescriptor(string, long, PropertyDataType, Guid) {#constructor_1}
 
-初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。
+初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataType type, 
@@ -41,9 +41,9 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | canonicalName | String | 用于在文档中引用属性的名称。 |
-| longId | Int64 | long ID (LID):与 GUID 结合定义命名属性的无符号 32 位量。 |
+| longId | Int64 | 长 ID (LID)：一个无符号的 32 位量，与 GUID 结合定义命名属性。 |
 | type | PropertyDataType | 指定属性允许的值类型。 |
-| propertySet | Guid | 标识一组具有类似用途的属性的 GUID。 |
+| propertySet | Guid | 标识具有相似用途的一组属性的 GUID。 |
 
 ### 也可以看看
 
@@ -56,7 +56,7 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 
 ## PidLidPropertyDescriptor(string, string, long, PropertyDataType, Guid) {#constructor_2}
 
-初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。
+初始化[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, string name, long longId, 
@@ -67,9 +67,9 @@ public PidLidPropertyDescriptor(string canonicalName, string name, long longId,
 | --- | --- | --- |
 | canonicalName | String | 用于在文档中引用属性的名称。 |
 | name | String | 用于引用文档中的属性的 MAPI 名称。 |
-| longId | Int64 | long ID (LID):与 GUID 结合定义命名属性的无符号 32 位量。 |
+| longId | Int64 | 长 ID (LID)：一个无符号的 32 位量，与 GUID 结合定义命名属性。 |
 | type | PropertyDataType | 指定属性允许的值类型。 |
-| propertySet | Guid | 标识一组具有类似用途的属性的 GUID。 |
+| propertySet | Guid | 标识具有相似用途的一组属性的 GUID。 |
 
 ### 也可以看看
 

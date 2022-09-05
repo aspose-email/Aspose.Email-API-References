@@ -1,7 +1,7 @@
 ---
 title: Email1
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default email1 address.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/emailaddresslist/email1/

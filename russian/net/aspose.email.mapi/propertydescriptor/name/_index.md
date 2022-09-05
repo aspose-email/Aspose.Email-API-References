@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает строку которая идентифицирует свойство.
+description: Получает строку идентифицирующую свойство.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/propertydescriptor/name/
 ---
 ## PropertyDescriptor.Name property
 
-Получает строку, которая идентифицирует свойство.
+Получает строку, идентифицирующую свойство.
 
 ```csharp
 public string Name { get; }

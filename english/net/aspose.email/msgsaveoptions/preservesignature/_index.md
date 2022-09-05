@@ -1,7 +1,7 @@
 ---
 title: PreserveSignature
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set to true if signature is to be preserved.
 type: docs
 weight: 30
 url: /net/aspose.email/msgsaveoptions/preservesignature/

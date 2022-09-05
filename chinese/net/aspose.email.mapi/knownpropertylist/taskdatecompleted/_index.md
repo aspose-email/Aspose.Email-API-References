@@ -1,14 +1,14 @@
 ---
 title: TaskDateCompleted
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户完成任务工作的日期 区域任务 规范名称PidLidTaskDateCompleted 备用名称dispidTaskDateCompleted
+description: 指定用户完成任务工作的日期 区域Tasks 规范名称PidLidTaskDateCompleted 替代名称dispidTaskDateCompleted
 type: docs
 weight: 18600
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskdatecompleted/
 ---
 ## KnownPropertyList.TaskDateCompleted field
 
-指定用户完成任务工作的日期。 区域:任务 规范名称:PidLidTaskDateCompleted 备用名称:dispidTaskDateCompleted
+指定用户完成任务工作的日期。 区域：Tasks 规范名称：PidLidTaskDateCompleted 替代名称：dispidTaskDateCompleted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDateCompleted;

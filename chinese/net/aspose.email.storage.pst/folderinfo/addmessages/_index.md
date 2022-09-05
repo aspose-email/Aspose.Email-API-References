@@ -16,7 +16,7 @@ public void AddMessages(IEnumerable<MapiMessage> messages)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | IEnumerable`1 | 一个IEnumerator 枚举器，它支持对[`MapiMessage`](../../../aspose.email.mapi/mapimessage)集合的迭代。 |
+| messages | IEnumerable`1 | 一个IEnumerator 代表枚举器，它支持对一个集合的迭代[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
 ### 也可以看看
 

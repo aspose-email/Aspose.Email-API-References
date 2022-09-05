@@ -1,9 +1,9 @@
 ---
 title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the named property mapping
 type: docs
-weight: 18320
+weight: 18530
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/
 ---
 ## MapiNamedPropertyMappingStorage class
@@ -33,8 +33,8 @@ public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
 
 | Name | Description |
 | --- | --- |
-| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping)(MapiProperty, long, Guid) | Adds the named property mapping for numeric named property. |
-| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping)(MapiProperty, string, Guid) | Adds the named property mapping for string named property. |
+| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping#addnamedpropertymapping)(MapiProperty, long, Guid) | Adds the named property mapping for numeric named property. |
+| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping#addnamedpropertymapping_1)(MapiProperty, string, Guid) | Adds the named property mapping for string named property. |
 | [GetNextAvailablePropertyId](../../aspose.email.mapi/mapinamedpropertymappingstorage/getnextavailablepropertyid)(MapiPropertyType) | Gets the next available property id in entries stream based on property datatype. |
 | virtual [GetProperty](../../aspose.email.mapi/mapipropertycontainer/getproperty)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Gets the value of the property specified by tag as Boolean type. |

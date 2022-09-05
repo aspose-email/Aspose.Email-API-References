@@ -1,14 +1,14 @@
 ---
 title: EmsAbRunsOn
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_RUNS_ON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_RUNS_ON
 type: docs
 weight: 8640
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabrunson/
 ---
 ## KnownPropertyList.EmsAbRunsOn field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_RUNS_ON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_RUNS_ON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRunsOn;

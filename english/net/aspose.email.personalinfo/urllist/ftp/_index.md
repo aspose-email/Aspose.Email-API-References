@@ -1,7 +1,7 @@
 ---
 title: Ftp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default ftp page
 type: docs
 weight: 50
 url: /net/aspose.email.personalinfo/urllist/ftp/

@@ -1,7 +1,7 @@
 ---
 title: Host
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the host name.
 type: docs
 weight: 110
 url: /net/aspose.email.clients/emailclient/host/

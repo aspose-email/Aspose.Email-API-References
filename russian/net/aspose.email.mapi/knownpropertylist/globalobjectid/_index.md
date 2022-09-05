@@ -1,14 +1,14 @@
 ---
 title: GlobalObjectId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор объекта который представляет собой исключение из повторяющейся серии. ОбластьВстречи Каноническое имяPidLidGlobalObjectId Альтернативные именаLID_GLOBAL_OBJID
+description: Содержит идентификатор объекта представляющего исключение из повторяющейся серии. Область Meetings Каноническое имя PidLidGlobalObjectId Альтернативные имена LID_GLOBAL_OBJID
 type: docs
 weight: 10790
 url: /ru/net/aspose.email.mapi/knownpropertylist/globalobjectid/
 ---
 ## KnownPropertyList.GlobalObjectId field
 
-Содержит идентификатор объекта, который представляет собой исключение из повторяющейся серии. Область:Встречи Каноническое имя:PidLidGlobalObjectId Альтернативные имена:LID_GLOBAL_OBJID
+Содержит идентификатор объекта, представляющего исключение из повторяющейся серии. Область: Meetings Каноническое имя: PidLidGlobalObjectId Альтернативные имена: LID_GLOBAL_OBJID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor GlobalObjectId;

@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает свойства объектаMessageObjectaspose.email.mapi.msg/messageobject.
+description: Получает свойстваMessageObjectaspose.email.mapi.msg/messageobject .
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi.msg/messageobject/properties/
 ---
 ## MessageObject.Properties property
 
-Получает свойства объекта[`MessageObject`](../../messageobject).
+Получает свойства[`MessageObject`](../../messageobject) .
 
 ```csharp
 public MessageObjectPropertiesCollection Properties { get; }

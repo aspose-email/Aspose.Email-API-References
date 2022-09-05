@@ -18,19 +18,19 @@ public class LinkedResource : AttachmentBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LinkedResource](linkedresource#constructor)(Stream) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
-| [LinkedResource](linkedresource#constructor_3)(string) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
-| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
-| [LinkedResource](linkedresource#constructor_2)(Stream, string) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
-| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
-| [LinkedResource](linkedresource#constructor_5)(string, string) | 初始化[`LinkedResource`](../linkedresource)类的新实例。 |
+| [LinkedResource](linkedresource#constructor)(Stream) | 初始化[`LinkedResource`](../linkedresource)类. |
+| [LinkedResource](linkedresource#constructor_3)(string) | 初始化[`LinkedResource`](../linkedresource)类. |
+| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | 初始化[`LinkedResource`](../linkedresource)类. |
+| [LinkedResource](linkedresource#constructor_2)(Stream, string) | 初始化[`LinkedResource`](../linkedresource)类. |
+| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | 初始化[`LinkedResource`](../linkedresource)类. |
+| [LinkedResource](linkedresource#constructor_5)(string, string) | 初始化[`LinkedResource`](../linkedresource)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/linkedresource/contentdisposition) { get; } | 获取 Content-Disposition 标头 |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容ID。 |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容id。 |
 | [ContentLink](../../aspose.email/linkedresource/contentlink) { get; set; } | 获取或设置资源必须匹配的 URI。 |
 | [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | 获取或设置内容流。 |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | 获取或设置内容的类型。 |

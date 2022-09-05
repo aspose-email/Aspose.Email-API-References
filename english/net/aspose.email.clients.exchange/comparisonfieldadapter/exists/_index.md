@@ -1,7 +1,7 @@
 ---
 title: Exists
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get a search expression that returns true if the supplied property exists.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/exists/

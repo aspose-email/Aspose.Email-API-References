@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookphoneticdepartmentna
 ---
 ## KnownPropertyList.AddressBookPhoneticDepartmentName field
 
-包含 PidTagDepartmentName 属性的语音表示（第 2.663 节）。 区域:地址簿 规范名称:PidTagAddressBookPhoneticDepartmentName 备用名称:PR_EMS_AB_PHONETIC_DEPARTMENT_NAME、PR_EMS_AB_PHONETIC_DEPARTMENT_NAME_A、PR_EMS_AB_PHONETIC_DEPARTMENT_NAME_W
+包含 PidTagDepartmentName 属性的语音表示（第 2.663 节）。 区域：地址簿 规范名称：PidTagAddressBookPhoneticDepartmentName 备用名称：PR_EMS_AB_PHONETIC_DEPARTMENT_NAME、PR_EMS_AB_PHONETIC_DEPARTMENT_NAME_A、PR_EMS_AB_PHONETIC_DEPARTMENT_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticDepartmentName;

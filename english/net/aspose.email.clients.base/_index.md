@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Base
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Clients.Base namespace contains the basic types used by email client implementations.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.base/
 ---
-
+The **Aspose.Email.Clients.Base** namespace contains the basic types used by email client implementations.
 
 ## Enumeration
 

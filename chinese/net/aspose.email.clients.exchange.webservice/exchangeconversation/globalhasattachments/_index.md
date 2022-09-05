@@ -1,14 +1,14 @@
 ---
 title: GlobalHasAttachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示邮箱中的至少一个对话项目是否具有附件
+description: 获取一个值该值指示邮箱中的至少一个对话项目是否有附件
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/globalhasattachments/
 ---
 ## ExchangeConversation.GlobalHasAttachments property
 
-获取一个值，该值指示邮箱中的至少一个对话项目是否具有附件。
+获取一个值，该值指示邮箱中的至少一个对话项目是否有附件。
 
 ```csharp
 public bool GlobalHasAttachments { get; }

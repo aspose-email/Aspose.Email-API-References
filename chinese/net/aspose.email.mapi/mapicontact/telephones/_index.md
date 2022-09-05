@@ -1,14 +1,14 @@
 ---
 title: Telephones
 second_title: Aspose.Email for .NET API 参考
-description: 为联系人指定电话号码
+description: 指定联系人的电话号码
 type: docs
 weight: 120
 url: /zh/net/aspose.email.mapi/mapicontact/telephones/
 ---
 ## MapiContact.Telephones property
 
-为联系人指定电话号码
+指定联系人的电话号码
 
 ```csharp
 public MapiContactTelephonePropertySet Telephones { get; set; }

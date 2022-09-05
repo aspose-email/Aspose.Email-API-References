@@ -1,7 +1,7 @@
 ---
 title: InstanceNum
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an identifier for a single instance of a row in the table. Area ProviderDefinedNonTransmittable Canonical name PidTagInstanceNum Alternate names ptagInstanceNum
 type: docs
 weight: 11370
 url: /net/aspose.email.mapi/knownpropertylist/instancenum/

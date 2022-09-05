@@ -1,14 +1,14 @@
 ---
 title: TaskAcceptanceState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает состояние принятия задачи. ОбластьЗадачи Каноническое имяPidLidTaskAcceptanceState Альтернативные именаdispidTaskDelegValue
+description: Указывает состояние принятия задачи. Область Tasks Каноническое имя PidLidTaskAcceptanceState Альтернативные имена dispidTaskDelegValue
 type: docs
 weight: 18530
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskacceptancestate/
 ---
 ## KnownPropertyList.TaskAcceptanceState field
 
-Указывает состояние принятия задачи. Область:Задачи Каноническое имя:PidLidTaskAcceptanceState Альтернативные имена:dispidTaskDelegValue
+Указывает состояние принятия задачи. Область: Tasks Каноническое имя: PidLidTaskAcceptanceState Альтернативные имена: dispidTaskDelegValue
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAcceptanceState;

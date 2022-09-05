@@ -1,14 +1,14 @@
 ---
 title: ForwardNotificationRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список структур RecipientRow как описано в разделе 2.8.3 MS-OXCDATA которые указывают получателей встречи вперед. ОбластьВстречи Каноническое имяPidLidForwardNotificationRecipients Альтернативные именаdispidForwardNotificationRecipients
+description: Содержит список структур RecipientRow как описано в разделе 2.8.3 MS-OXCDATA которые указывают получателей переадресации собрания. Область Meetings Каноническое имя PidLidForwardNotificationRecipients Альтернативные имена dispidForwardNotificationRecipients
 type: docs
 weight: 10610
 url: /ru/net/aspose.email.mapi/knownpropertylist/forwardnotificationrecipients/
 ---
 ## KnownPropertyList.ForwardNotificationRecipients field
 
-Содержит список структур RecipientRow, как описано в разделе 2.8.3 [MS-OXCDATA], которые указывают получателей встречи вперед. Область:Встречи Каноническое имя:PidLidForwardNotificationRecipients Альтернативные имена:dispidForwardNotificationRecipients
+Содержит список структур RecipientRow, как описано в разделе 2.8.3 [MS-OXCDATA], которые указывают получателей переадресации собрания. Область: Meetings Каноническое имя: PidLidForwardNotificationRecipients Альтернативные имена: dispidForwardNotificationRecipients
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ForwardNotificationRecipients;

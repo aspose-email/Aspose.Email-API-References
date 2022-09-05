@@ -16,7 +16,7 @@ public DKIMSignatureInfo(string publicKeyDnsSelector, string publicKeyDnsDomain)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| publicKeyDnsSelector | String | Селектор домена открытого ключа DNS. |
+| publicKeyDnsSelector | String | Селектор домена с открытым ключом DNS. |
 | publicKeyDnsDomain | String | Домен открытого ключа DNS. |
 
 ### Смотрите также

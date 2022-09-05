@@ -1,9 +1,9 @@
 ---
 title: ImapMonitoringEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains monitoring event data.
 type: docs
-weight: 16380
+weight: 16410
 url: /net/aspose.email.clients.imap/imapmonitoringeventargs/
 ---
 ## ImapMonitoringEventArgs class
@@ -18,7 +18,7 @@ public class ImapMonitoringEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ImapMonitoringEventArgs](imapmonitoringeventargs)(string, ImapMessageInfo[], ImapMessageInfo[]) | Initializes a new instance of the [`ImapMonitoringEventArgs`](../imapmonitoringeventargs) class |
+| [ImapMonitoringEventArgs](imapmonitoringeventargs#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | Initializes a new instance of the [`ImapMonitoringEventArgs`](../imapmonitoringeventargs) class |
 
 ## Properties
 

@@ -17,7 +17,7 @@ public static bool operator ==(EventCategory a, EventCategory b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | EventCategory | Первый объект для сравнения |
-| b | EventCategory | Второй объект для сравнения compare |
+| b | EventCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

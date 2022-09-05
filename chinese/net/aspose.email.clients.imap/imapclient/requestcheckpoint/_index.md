@@ -6,22 +6,6 @@ type: docs
 weight: 1030
 url: /zh/net/aspose.email.clients.imap/imapclient/requestcheckpoint/
 ---
-## RequestCheckpoint() {#requestcheckpoint}
-
-请求当前选定邮箱的检查点。
-
-```csharp
-public void RequestCheckpoint()
-```
-
-### 也可以看看
-
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
 ## RequestCheckpoint(IConnection) {#requestcheckpoint_1}
 
 请求当前选定邮箱的检查点。
@@ -37,6 +21,22 @@ public void RequestCheckpoint(IConnection connection)
 ### 也可以看看
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## RequestCheckpoint() {#requestcheckpoint}
+
+请求当前选定邮箱的检查点。
+
+```csharp
+public void RequestCheckpoint()
+```
+
+### 也可以看看
+
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

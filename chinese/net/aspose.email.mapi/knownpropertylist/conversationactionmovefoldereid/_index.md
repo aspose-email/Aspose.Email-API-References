@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/conversationactionmovefoldereid
 ---
 ## KnownPropertyList.ConversationActionMoveFolderEid field
 
-包含目标文件夹的 EntryID。 区域:对话操作 规范名称:PidLidConversationActionMoveFolderEid 备用名称:dispidConvActionMoveFolderEid
+包含目标文件夹的 EntryID。 区域：对话操作 规范名称：PidLidConversationActionMoveFolderEid 备用名称：dispidConvActionMoveFolderEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionMoveFolderEid;

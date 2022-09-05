@@ -17,13 +17,13 @@ public void Add(string name, MapiMessage msg)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя вложения. |
-| msg | MapiMessage | Объект[`MapiMessage`](../../mapimessage), представляющий прикрепленное сообщение. |
+| msg | MapiMessage | [`MapiMessage`](../../mapimessage)который представляет прикрепленное сообщение. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если сообщение пустое. |
+| ArgumentNullException | бросает, если сообщение равно null. |
 
 ### Смотрите также
 
@@ -51,8 +51,8 @@ public void Add(string name, byte[] data)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если имя вложения равно null или пусто. |
-| ArgumentNullException | выбрасывает, если данные вложения пусты. |
+| ArgumentNullException | бросает, если имя вложения равно null или пусто. |
+| ArgumentNullException | бросает, если данные вложения пусты. |
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public void Add(string name, byte[] data)
 
 ## Add(MapiAttachment) {#add}
 
-Добавляет объект в конецCollection.
+Добавляет объект в конецCollection .
 
 ```csharp
 public void Add(MapiAttachment item)
@@ -72,7 +72,7 @@ public void Add(MapiAttachment item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | MapiAttachment | Объект, добавляемый в конецCollection. Значение может быть нулевым для ссылочных типов. |
+| item | MapiAttachment | Объект, который нужно добавить в конецCollection. Значение может быть нулевым для ссылочных типов. |
 
 ### Смотрите также
 

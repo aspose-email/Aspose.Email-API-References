@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress
 second_title: Aspose.Email for .NET API 参考
-description: 指的是 定义电子邮件地址或传真地址的属性组
+description: 指 定义电子邮件地址或传真地址的属性组
 type: docs
-weight: 18380
+weight: 18410
 url: /zh/net/aspose.email.mapi/mapielectronicaddress/
 ---
 ## MapiElectronicAddress class
 
-指的是 定义电子邮件地址或传真地址的属性组。
+指 定义电子邮件地址或传真地址的属性组。
 
 ```csharp
 public sealed class MapiElectronicAddress
@@ -18,10 +18,10 @@ public sealed class MapiElectronicAddress
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiElectronicAddress](mapielectronicaddress#constructor)() | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类的新实例。 |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_1)(string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类的新实例。 |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_2)(string, string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类的新实例。 |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_3)(string, string, string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类的新实例。 |
+| [MapiElectronicAddress](mapielectronicaddress#constructor)() | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_1)(string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_2)(string, string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_3)(string, string, string) | 初始化[`MapiElectronicAddress`](../mapielectronicaddress)类. |
 
 ## 特性
 
@@ -32,13 +32,13 @@ public sealed class MapiElectronicAddress
 | [EmailAddress](../../aspose.email.mapi/mapielectronicaddress/emailaddress) { get; set; } | 获取或设置电子邮件地址。 |
 | [FaxNumber](../../aspose.email.mapi/mapielectronicaddress/faxnumber) { get; set; } | 获取或设置邮件用户的主要传真机的电话号码 。 |
 | [IsEmpty](../../aspose.email.mapi/mapielectronicaddress/isempty) { get; } | 显示 MapiElectronicAddress 是否为空 |
-| [OriginalDisplayName](../../aspose.email.mapi/mapielectronicaddress/originaldisplayname) { get; set; } | 获取或设置邮件地址 对应的 SMTP 邮件地址。 |
+| [OriginalDisplayName](../../aspose.email.mapi/mapielectronicaddress/originaldisplayname) { get; set; } | 获取或设置 与电子邮件地址 . 对应的 SMTP 电子邮件地址 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [implicit operator](../../aspose.email.mapi/mapielectronicaddress/op_implicit) | 执行从String到[`MapiElectronicAddress`](../mapielectronicaddress) 的隐式转换. |
+| [implicit operator](../../aspose.email.mapi/mapielectronicaddress/op_implicit) | 从String至[`MapiElectronicAddress`](../mapielectronicaddress). |
 
 ### 也可以看看
 

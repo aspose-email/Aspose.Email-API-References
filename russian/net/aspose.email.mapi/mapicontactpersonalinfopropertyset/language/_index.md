@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает язык который использует контакт
+description: Указывает язык  который использует контакт
 type: docs
 weight: 140
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/language/
 ---
 ## MapiContactPersonalInfoPropertySet.Language property
 
-Указывает язык который использует контакт
+Указывает язык , который использует контакт
 
 ```csharp
 public string Language { get; set; }

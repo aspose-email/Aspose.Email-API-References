@@ -36,11 +36,11 @@ public IEnumerable<FolderInfo> EnumerateFolders(FolderKind kind)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| kind | FolderKind | [`FolderKind`](../../folderkind)代表文件夹的种类。 |
+| kind | FolderKind | 的[`FolderKind`](../../folderkind)代表文件夹的种类。 |
 
 ### 返回值
 
-IEnumerable, 表示遍历文件夹中子文件夹的枚举器。
+IEnumerable , 表示遍历文件夹中子文件夹的枚举器。
 
 ### 也可以看看
 

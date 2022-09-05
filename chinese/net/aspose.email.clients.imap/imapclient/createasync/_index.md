@@ -1,14 +1,14 @@
 ---
 title: CreateAsync
 second_title: Aspose.Email for .NET API 参考
-description: 创建 ImapClientaspose.email.clients.imap/imapclient 类的新实例
+description: 创建一个新的实例ImapClientaspose.email.clients.imap/imapclient class
 type: docs
 weight: 1320
 url: /zh/net/aspose.email.clients.imap/imapclient/createasync/
 ---
 ## ImapClient.CreateAsync method
 
-创建 [`ImapClient`](../../imapclient) 类的新实例
+创建一个新的实例[`ImapClient`](../../imapclient) class
 
 ```csharp
 public static Task<IAsyncImapClient> CreateAsync(string host, string username, 

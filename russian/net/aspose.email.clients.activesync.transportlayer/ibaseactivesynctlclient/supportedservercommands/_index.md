@@ -1,14 +1,14 @@
 ---
 title: SupportedServerCommands
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поддерживаемые сервером версии команд ActiveSync
+description: Получает версии команд ActiveSync поддерживаемые сервером
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/supportedservercommands/
 ---
 ## IBaseActiveSyncTLClient.SupportedServerCommands property
 
-Получает поддерживаемые сервером версии команд ActiveSync
+Получает версии команд ActiveSync, поддерживаемые сервером
 
 ```csharp
 public string[] SupportedServerCommands { get; }

@@ -36,7 +36,7 @@ public virtual MailMessage Decrypt(X509Certificate2 certificate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| certificate | X509Certificate2 | System.Security.Cryptography.X509Certificates .X509Certificate2 |
+| certificate | X509Certificate2 | Система.Безопасность.Криптография.X509Certificates.X509Certificate2 |
 
 ### Возвращаемое значение
 

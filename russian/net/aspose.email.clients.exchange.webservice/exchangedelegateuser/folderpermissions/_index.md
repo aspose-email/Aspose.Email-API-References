@@ -1,14 +1,14 @@
 ---
 title: FolderPermissions
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает права доступа к папке для пользователя-делегата
+description: Получает или задает права доступа к папке для делегата user
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegateuser/folderpermissions/
 ---
 ## ExchangeDelegateUser.FolderPermissions property
 
-Получает или устанавливает права доступа к папке для пользователя-делегата
+Получает или задает права доступа к папке для делегата user
 
 ```csharp
 public ExchangeDelegatePermissions FolderPermissions { get; set; }

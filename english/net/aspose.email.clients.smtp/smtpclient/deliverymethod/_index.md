@@ -1,7 +1,7 @@
 ---
 title: DeliveryMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the delivery method.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.smtp/smtpclient/deliverymethod/

@@ -1,14 +1,14 @@
 ---
 title: AttachMethod
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет способ доступа к содержимому вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachMethod Альтернативные именаPR_ATTACH_METHOD ptagAttachMethod
+description: Представляет способ доступа к содержимому вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachMethod Альтернативные имена PR_ATTACH_METHOD ptagAttachMethod
 type: docs
 weight: 1700
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmethod/
 ---
 ## KnownPropertyList.AttachMethod field
 
-Представляет способ доступа к содержимому вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachMethod Альтернативные имена:PR_ATTACH_METHOD, ptagAttachMethod
+Представляет способ доступа к содержимому вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachMethod Альтернативные имена: PR_ATTACH_METHOD, ptagAttachMethod
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachMethod;

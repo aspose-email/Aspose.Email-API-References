@@ -1,14 +1,14 @@
 ---
 title: PreserveEmbeddedMessageFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее необходимо ли сохранять преобразование вложения .eml в вложение .msg.
+description: Получает или задает значение указывающее необходимо ли сохранять вложение преобразования .eml в вложение .msg.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat/
 ---
 ## MapiConversionOptions.PreserveEmbeddedMessageFormat property
 
-Получает или задает значение, указывающее, необходимо ли сохранять преобразование вложения .eml в вложение .msg.
+Получает или задает значение, указывающее, необходимо ли сохранять вложение преобразования .eml в вложение .msg.
 
 ```csharp
 public bool PreserveEmbeddedMessageFormat { get; set; }

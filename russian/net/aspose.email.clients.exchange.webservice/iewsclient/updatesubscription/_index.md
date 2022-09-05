@@ -1,14 +1,14 @@
 ---
 title: UpdateSubscription
 second_title: Справочник по Aspose.Email для .NET API
-description: Обновляет подписки
+description: Обновления подписок
 type: docs
 weight: 1510
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/updatesubscription/
 ---
 ## IEWSClient.UpdateSubscription method
 
-Обновляет подписки
+Обновления подписок
 
 ```csharp
 public void UpdateSubscription()

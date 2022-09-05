@@ -1,7 +1,7 @@
 ---
 title: ProviderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the provider type.
 type: docs
 weight: 30
 url: /net/aspose.email/referenceattachment/providertype/

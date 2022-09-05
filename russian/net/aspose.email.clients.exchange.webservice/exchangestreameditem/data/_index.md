@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает данные элемента
+description: Получает или задает элемент data
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangestreameditem/data/
 ---
 ## ExchangeStreamedItem.Data property
 
-Получает или устанавливает данные элемента
+Получает или задает элемент data
 
 ```csharp
 public byte[] Data { get; set; }
@@ -18,7 +18,7 @@ public byte[] Data { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *value*is` null` |
+| ArgumentNullException | *value* является`нулевой` |
 
 ### Смотрите также
 

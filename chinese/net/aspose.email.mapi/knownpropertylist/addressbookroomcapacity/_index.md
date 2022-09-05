@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookroomcapacity/
 ---
 ## KnownPropertyList.AddressBookRoomCapacity field
 
-包含房间的最大入住人数。 区域:地址簿 规范名称:PidTagAddressBookRoomCapacity 备用名称:PR_EMS_AB_ROOM_CAPACITY
+包含房间的最大入住人数。 区域：地址簿 规范名称：PidTagAddressBookRoomCapacity 备用名称：PR_EMS_AB_ROOM_CAPACITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomCapacity;

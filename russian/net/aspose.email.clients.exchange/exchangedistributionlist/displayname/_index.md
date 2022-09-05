@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Показать имя списка
+description: Отображаемое имя list
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/exchangedistributionlist/displayname/
 ---
 ## ExchangeDistributionList.DisplayName property
 
-Показать имя списка
+Отображаемое имя list
 
 ```csharp
 public string DisplayName { get; set; }

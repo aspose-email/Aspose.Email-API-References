@@ -1,7 +1,7 @@
 ---
 title: ReminderTimeDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the time and date of the reminder for the appointment or meeting. Area Reminders Canonical name PidLidReminderTimeDate Alternate names dispidReminderTimeDate
 type: docs
 weight: 15750
 url: /net/aspose.email.mapi/knownpropertylist/remindertimedate/

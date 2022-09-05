@@ -1,14 +1,14 @@
 ---
 title: Sensitivity
 second_title: Aspose.Email for .NET API 参考
-description: 表示发送者对Message对象敏感度的评估 区域常规消息属性 规范名称PidTagSensitivity 替代名称PR_SENSITIVITY ptagSensitivity
+description: 表示发件人对消息对象敏感度的评估 区域一般消息属性 规范名称PidTagSensitivity 替代名称PR_SENSITIVITYptagSensitivity
 type: docs
 weight: 17190
 url: /zh/net/aspose.email.mapi/knownpropertylist/sensitivity/
 ---
 ## KnownPropertyList.Sensitivity field
 
-表示发送者对Message对象敏感度的评估。 区域:常规消息属性 规范名称:PidTagSensitivity 替代名称:PR_SENSITIVITY, ptagSensitivity,
+表示发件人对消息对象敏感度的评估。 区域：一般消息属性 规范名称：PidTagSensitivity 替代名称：PR_SENSITIVITY、ptagSensitivity、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Sensitivity;

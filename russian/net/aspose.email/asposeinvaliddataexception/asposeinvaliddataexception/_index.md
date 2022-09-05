@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidDataException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeInvalidDataExceptionaspose.email/asposeinvaliddataexception.
+description: Инициализирует новый экземплярAsposeInvalidDataExceptionaspose.email/asposeinvaliddataexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeinvaliddataexception/asposeinvaliddataexception/
 ---
 ## AsposeInvalidDataException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../../asposeinvaliddataexception).
+Инициализирует новый экземпляр[`AsposeInvalidDataException`](../../asposeinvaliddataexception) класс.
 
 ```csharp
 public AsposeInvalidDataException()
@@ -24,7 +24,7 @@ public AsposeInvalidDataException()
 
 ## AsposeInvalidDataException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../../asposeinvaliddataexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidDataException`](../../asposeinvaliddataexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidDataException(string message)
@@ -44,7 +44,7 @@ public AsposeInvalidDataException(string message)
 
 ## AsposeInvalidDataException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../../asposeinvaliddataexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidDataException`](../../asposeinvaliddataexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidDataException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public AsposeInvalidDataException(string format, params object[] parameters)
 
 ## AsposeInvalidDataException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../../asposeinvaliddataexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeInvalidDataException`](../../asposeinvaliddataexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeInvalidDataException(string message, Exception innerException)
@@ -74,7 +74,7 @@ public AsposeInvalidDataException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -86,7 +86,7 @@ public AsposeInvalidDataException(string message, Exception innerException)
 
 ## AsposeInvalidDataException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../../asposeinvaliddataexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeInvalidDataException`](../../asposeinvaliddataexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeInvalidDataException(Exception innerException)
@@ -94,7 +94,7 @@ public AsposeInvalidDataException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

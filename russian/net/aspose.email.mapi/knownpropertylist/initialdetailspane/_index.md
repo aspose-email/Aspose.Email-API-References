@@ -1,14 +1,14 @@
 ---
 title: InitialDetailsPane
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какая страница шаблона отображения должна отображаться первой. ОбластьТаблицы отображения MAPI Каноническое имяPidTagInitialDetailsPane Альтернативные именаPR_INITIAL_DETAILS_PANE
+description: Указывает какая страница шаблона отображения должна отображаться первой. Область Таблицы отображения MAPI Каноническое имя PidTagInitialDetailsPane Альтернативные имена PR_INITIAL_DETAILS_PANE
 type: docs
 weight: 11330
 url: /ru/net/aspose.email.mapi/knownpropertylist/initialdetailspane/
 ---
 ## KnownPropertyList.InitialDetailsPane field
 
-Указывает, какая страница шаблона отображения должна отображаться первой. Область:Таблицы отображения MAPI Каноническое имя:PidTagInitialDetailsPane Альтернативные имена:PR_INITIAL_DETAILS_PANE
+Указывает, какая страница шаблона отображения должна отображаться первой. Область: Таблицы отображения MAPI Каноническое имя: PidTagInitialDetailsPane Альтернативные имена: PR_INITIAL_DETAILS_PANE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InitialDetailsPane;

@@ -1,7 +1,7 @@
 ---
 title: SendAsUserMailboxGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Exchange GUID of the mailbox that was accessed to send email as.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/exchangemailboxauditactivity/sendasusermailboxguid/

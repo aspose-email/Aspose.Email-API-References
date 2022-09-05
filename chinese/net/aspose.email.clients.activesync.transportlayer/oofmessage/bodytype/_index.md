@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activesync.transportlayer/oofmessage/bodytype/
 ---
 ## OOFMessage.BodyType property
 
-指定 OOF 消息的格式。 以下是 BodyType 元素的允许值: - Text - HTML
+指定 OOF 消息的格式。 以下是 BodyType 元素的允许值： - Text - HTML
 
 ```csharp
 public BodyType? BodyType { get; set; }

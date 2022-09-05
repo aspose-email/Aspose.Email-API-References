@@ -1,7 +1,7 @@
 ---
 title: ItemType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit item types
 type: docs
 weight: 2590
 url: /net/aspose.email.clients.activity/itemtype/

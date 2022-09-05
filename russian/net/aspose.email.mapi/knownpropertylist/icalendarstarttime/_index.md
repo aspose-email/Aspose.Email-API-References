@@ -1,14 +1,14 @@
 ---
 title: ICalendarStartTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время в формате UTC когда начинается встреча или собрание. ОбластьКалендарь Набор свойств Каноническое имяPidTagICalendarStartTime Альтернативные именаurnschemascalendardtstart
+description: Содержит дату и время в формате UTC когда начинается встреча или собрание. Область Свойство календаря set Каноническое имя PidTagICalendarStartTime Альтернативные имена urnschemascalendardtstart
 type: docs
 weight: 11190
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendarstarttime/
 ---
 ## KnownPropertyList.ICalendarStartTime field
 
-Содержит дату и время в формате UTC, когда начинается встреча или собрание. Область:Календарь Набор свойств Каноническое имя:PidTagICalendarStartTime Альтернативные имена:urn:schemas:calendar:dtstart
+Содержит дату и время в формате UTC, когда начинается встреча или собрание. Область: Свойство календаря set Каноническое имя: PidTagICalendarStartTime Альтернативные имена: urn:schemas:calendar:dtstart
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ICalendarStartTime;

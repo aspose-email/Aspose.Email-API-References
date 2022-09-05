@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/haspicture/
 ---
 ## KnownPropertyList.HasPicture field
 
-指定附件是否有图片。 区域:联系人属性 规范名称:PidLidHasPicture 替代名称:dispidHasPicture
+指定附件是否有图片。 区域：联系人属性 规范名称：PidLidHasPicture 替代名称：dispidHasPicture
 
 ```csharp
 public static readonly PidLidPropertyDescriptor HasPicture;

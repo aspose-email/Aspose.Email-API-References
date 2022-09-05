@@ -1,7 +1,7 @@
 ---
 title: TaskOwner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the owner of the task. Area Tasks Canonical name PidLidTaskOwner Alternate names dispidTaskOwner
 type: docs
 weight: 18760
 url: /net/aspose.email.mapi/knownpropertylist/taskowner/

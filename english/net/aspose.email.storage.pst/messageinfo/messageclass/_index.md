@@ -1,7 +1,7 @@
 ---
 title: MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Message class.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.pst/messageinfo/messageclass/

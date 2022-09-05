@@ -1,186 +1,12 @@
 ---
 title: DeleteMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 580
 url: /net/aspose.email.clients.imap/imapclient/deletemessages/
 ---
-## ImapClient.DeleteMessages method (1 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (2 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (3 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (4 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (5 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (6 of 32)
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (7 of 32)
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (8 of 32)
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.DeleteMessages method (9 of 32)
+## DeleteMessages(IEnumerable&lt;string&gt;, bool) {#deletemessages_25}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -201,7 +27,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, bool commitNow)
 
 ---
 
-## ImapClient.DeleteMessages method (10 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, bool) {#deletemessages_9}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -224,7 +50,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, b
 
 ---
 
-## ImapClient.DeleteMessages method (11 of 32)
+## DeleteMessages(IEnumerable&lt;string&gt;, long, bool) {#deletemessages_27}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -246,7 +72,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 
 ---
 
-## ImapClient.DeleteMessages method (12 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, long, bool) {#deletemessages_11}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -271,7 +97,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 
 ---
 
-## ImapClient.DeleteMessages method (13 of 32)
+## DeleteMessages(IConnection, int, int) {#deletemessages}
 
 Marks a message with the specified sequence number as deleted
 
@@ -294,7 +120,7 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 ---
 
-## ImapClient.DeleteMessages method (14 of 32)
+## DeleteMessages(IConnection, string, string) {#deletemessages_12}
 
 Marks a message with the specified sequence number as deleted
 
@@ -317,7 +143,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 
 ---
 
-## ImapClient.DeleteMessages method (15 of 32)
+## DeleteMessages(int, int) {#deletemessages_16}
 
 Marks a message with the specified sequence number as deleted
 
@@ -338,7 +164,7 @@ public void DeleteMessages(int startSequence, int endSequence)
 
 ---
 
-## ImapClient.DeleteMessages method (16 of 32)
+## DeleteMessages(string, string) {#deletemessages_28}
 
 Marks a message with the specified sequence number as deleted
 
@@ -359,7 +185,7 @@ public void DeleteMessages(string startUid, string endUid)
 
 ---
 
-## ImapClient.DeleteMessages method (17 of 32)
+## DeleteMessages(IConnection, int, int, long) {#deletemessages_1}
 
 Marks a message with the specified sequence number as deleted
 
@@ -384,7 +210,7 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 ---
 
-## ImapClient.DeleteMessages method (18 of 32)
+## DeleteMessages(IConnection, string, string, long) {#deletemessages_14}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -409,7 +235,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 
 ---
 
-## ImapClient.DeleteMessages method (19 of 32)
+## DeleteMessages(int, int, long) {#deletemessages_17}
 
 Marks a message with the specified sequence number as deleted
 
@@ -431,7 +257,7 @@ public void DeleteMessages(int startSequence, int endSequence, long modification
 
 ---
 
-## ImapClient.DeleteMessages method (20 of 32)
+## DeleteMessages(string, string, long) {#deletemessages_30}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -453,7 +279,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 
 ---
 
-## ImapClient.DeleteMessages method (21 of 32)
+## DeleteMessages(string, string, bool) {#deletemessages_29}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -475,7 +301,7 @@ public void DeleteMessages(string startUid, string endUid, bool commitNow)
 
 ---
 
-## ImapClient.DeleteMessages method (22 of 32)
+## DeleteMessages(IConnection, string, string, bool) {#deletemessages_13}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -499,7 +325,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 
 ---
 
-## ImapClient.DeleteMessages method (23 of 32)
+## DeleteMessages(string, string, long, bool) {#deletemessages_31}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -523,7 +349,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 
 ---
 
-## ImapClient.DeleteMessages method (24 of 32)
+## DeleteMessages(IConnection, string, string, long, bool) {#deletemessages_15}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -549,7 +375,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 
 ---
 
-## ImapClient.DeleteMessages method (25 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;) {#deletemessages_2}
 
 Marks a message with the specified sequence number as deleted
 
@@ -572,7 +398,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 ---
 
-## ImapClient.DeleteMessages method (26 of 32)
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;) {#deletemessages_18}
 
 Marks a message with the specified sequence number as deleted
 
@@ -593,7 +419,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet)
 
 ---
 
-## ImapClient.DeleteMessages method (27 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_4}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -618,7 +444,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 ---
 
-## ImapClient.DeleteMessages method (28 of 32)
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_20}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -640,7 +466,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 ---
 
-## ImapClient.DeleteMessages method (29 of 32)
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -662,7 +488,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool com
 
 ---
 
-## ImapClient.DeleteMessages method (30 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -687,7 +513,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 ---
 
-## ImapClient.DeleteMessages method (31 of 32)
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -711,7 +537,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 ---
 
-## ImapClient.DeleteMessages method (32 of 32)
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -731,6 +557,180 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapMessageInfo](../../imapmessageinfo)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;int&gt;) {#deletemessages_22}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;string&gt;) {#deletemessages_24}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;, long) {#deletemessages_7}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, long) {#deletemessages_10}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;int&gt;, long) {#deletemessages_23}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;string&gt;, long) {#deletemessages_26}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

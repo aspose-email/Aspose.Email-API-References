@@ -1,12 +1,12 @@
 ---
 title: ExtractAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extracts the attachments.
 type: docs
 weight: 170
 url: /net/aspose.email.storage.pst/personalstorage/extractattachments/
 ---
-## PersonalStorage.ExtractAttachments method (1 of 2)
+## ExtractAttachments(MessageInfo) {#extractattachments}
 
 Extracts the attachments.
 
@@ -32,7 +32,7 @@ The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollec
 
 ---
 
-## PersonalStorage.ExtractAttachments method (2 of 2)
+## ExtractAttachments(string) {#extractattachments_1}
 
 Extracts the attachments.
 

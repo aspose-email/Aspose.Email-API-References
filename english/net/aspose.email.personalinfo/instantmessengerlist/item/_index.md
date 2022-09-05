@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default instant messenger address for specified category
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/instantmessengerlist/item/

@@ -17,12 +17,12 @@ public Task<ExchangeMailboxInfo> GetMailboxInfoAsync(string mailbox = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailbox | String | почтовый ящик для чтения. Примечание:если для почтового ящика установлено значение` null` или` empty` по умолчанию почтовый ящик будет использоваться |
+| mailbox | String | Почтовый ящик для чтения. Примечание: если почтовый ящик установлен на`нулевой`или же`пустой` почтовый ящик default будет использоваться |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)который представляет информацию о почтовом ящике
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) который представляет информацию о почтовом ящике
 
 ### Исключения
 

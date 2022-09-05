@@ -16,7 +16,7 @@ public static SaveOptions CreateSaveOptions(MailMessageSaveType saveType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveType | MailMessageSaveType | [`тип сохранения`](../mailmessagesavetype) , для которого создается объект параметров сохранения. |
+| saveType | MailMessageSaveType | [`тип сохранения`](../mailmessagesavetype) для которого создать объект параметров сохранения. |
 
 ### Возвращаемое значение
 

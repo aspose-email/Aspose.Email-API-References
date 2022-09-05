@@ -16,8 +16,8 @@ public bool TryGetSettingValue<T>(UserSettingName setting, out T value)
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 用户设置类型。 |
-| setting | 设置。 |
+| T | 用户设置的类型。 |
+| setting | 那个设定。 |
 | value | 设定值。 |
 
 ### 返回值

@@ -1,12 +1,12 @@
 ---
 title: FetchItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the item as MapiMessageaspose.email.mapi/mapimessage.
 type: docs
 weight: 750
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchitem/
 ---
-## IEWSClient.FetchItem method (1 of 2)
+## FetchItem(string) {#fetchitem}
 
 Retrieves the item as [`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 
@@ -35,7 +35,7 @@ Note this method doesn't fetch message attachments.
 
 ---
 
-## IEWSClient.FetchItem method (2 of 2)
+## FetchItem(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchitem_1}
 
 Retrieves the item as [`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 

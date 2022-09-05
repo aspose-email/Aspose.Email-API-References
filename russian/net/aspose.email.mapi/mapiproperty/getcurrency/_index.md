@@ -1,14 +1,14 @@
 ---
 title: GetCurrency
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает валюту в виде строки используя указанную кодовую страницу.
+description: Получает валюту в виде строки с использованием указанной кодовой страницы.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.mapi/mapiproperty/getcurrency/
 ---
 ## MapiProperty.GetCurrency method
 
-Получает валюту в виде строки, используя указанную кодовую страницу.
+Получает валюту в виде строки с использованием указанной кодовой страницы.
 
 ```csharp
 public virtual decimal GetCurrency()

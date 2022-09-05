@@ -1,14 +1,14 @@
 ---
 title: UseMultiConnection
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示客户端是否必须使用多个连接进行重负载操作的值 请注意使用此模式不一定会导致性能提升
+description: 获取或设置指示客户端是否必须为重负载操作使用多个连接的值 请注意使用此模式不一定会导致性能提升
 type: docs
 weight: 230
 url: /zh/net/aspose.email.clients/emailclient/usemulticonnection/
 ---
 ## EmailClient.UseMultiConnection property
 
-获取或设置指示客户端是否必须使用多个连接进行重负载操作的值。 请注意，使用此模式不一定会导致性能提升。
+获取或设置指示客户端是否必须为重负载操作使用多个连接的值。 请注意，使用此模式不一定会导致性能提升。
 
 ```csharp
 public virtual MultiConnectionMode UseMultiConnection { get; set; }

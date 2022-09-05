@@ -1,7 +1,7 @@
 ---
 title: NotesFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Notes folder.
 type: docs
 weight: 300
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/notesfolderservernotifications/

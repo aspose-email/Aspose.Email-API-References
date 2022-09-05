@@ -1,14 +1,14 @@
 ---
 title: PhysicalForwardingAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PHYSICAL_FORWARDING_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PHYSICAL_FORWARDING_ADDRESS
 type: docs
 weight: 14300
 url: /ru/net/aspose.email.mapi/knownpropertylist/physicalforwardingaddress/
 ---
 ## KnownPropertyList.PhysicalForwardingAddress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PHYSICAL_FORWARDING_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PHYSICAL_FORWARDING_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PhysicalForwardingAddress;

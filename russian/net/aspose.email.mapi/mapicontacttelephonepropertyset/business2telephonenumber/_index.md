@@ -1,14 +1,14 @@
 ---
 title: Business2TelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает второй рабочий телефонный номер
+description: Получает или устанавливает второй рабочий номер телефона
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber/
 ---
 ## MapiContactTelephonePropertySet.Business2TelephoneNumber property
 
-Получает или устанавливает второй рабочий телефонный номер
+Получает или устанавливает второй рабочий номер телефона
 
 ```csharp
 public string Business2TelephoneNumber { get; set; }

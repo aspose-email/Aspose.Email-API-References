@@ -1,14 +1,14 @@
 ---
 title: ReminderFileParameter
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя файла звука который клиент должен воспроизводить когда напоминание для этого объекта просрочено. ОбластьНапоминания Каноническое имяPidLidReminderFileParameter Альтернативные именаdispidReminderFileParam
+description: Указывает имя файла звука который клиент должен воспроизводить когда напоминание для этого объекта просрочено. Область Reminders Каноническое имя PidLidReminderFileParameter Альтернативные имена dispidReminderFileParam
 type: docs
 weight: 15680
 url: /ru/net/aspose.email.mapi/knownpropertylist/reminderfileparameter/
 ---
 ## KnownPropertyList.ReminderFileParameter field
 
-Указывает имя файла звука, который клиент должен воспроизводить, когда напоминание для этого объекта просрочено. Область:Напоминания Каноническое имя:PidLidReminderFileParameter Альтернативные имена:dispidReminderFileParam
+Указывает имя файла звука, который клиент должен воспроизводить, когда напоминание для этого объекта просрочено. Область: Reminders Каноническое имя: PidLidReminderFileParameter Альтернативные имена: dispidReminderFileParam
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderFileParameter;

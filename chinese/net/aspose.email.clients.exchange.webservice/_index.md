@@ -1,41 +1,41 @@
 ---
 title: Aspose.Email.Clients.Exchange.WebService
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Clients.Exchange.WebService 命名空间通过使用提供对 MS Exchange Server 的访问交换网络服务 EWS
+description: 的 Aspose.Email.Clients.Exchange.WebService命名空间通过使用 Exchange Web 服务 EWS 提供对 MS Exchange Server 的访问
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.exchange.webservice/
 ---
-**Aspose.Email.Clients.Exchange.WebService** 命名空间通过使用提供对 MS Exchange Server 的访问交换网络服务 (EWS)。
+的 **Aspose.Email.Clients.Exchange.WebService**命名空间通过使用 Exchange Web 服务 (EWS) 提供对 MS Exchange Server 的访问。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [CalendarDeletionOptions](./calendardeletionoptions) | 定义项目删除参数 |
+| [CalendarDeletionOptions](./calendardeletionoptions) | 定义项目删除的参数 |
 | [CallInformation](./callinformation) | 电话信息 |
 | [DateRange](./daterange) | 表示日期范围 |
-| [DeletionOptions](./deletionoptions) | 定义项目删除参数 |
+| [DeletionOptions](./deletionoptions) | 定义项目删除的参数 |
 | [EWSClient](./ewsclient) | 使用 Exchange Web 服务 (EWS) 提供对 MS Exchange Server 的访问。 |
 | [ExchangeCalendarEvent](./exchangecalendarevent) | 表示用户日历中的事件 |
-| [ExchangeCalendarEventCollection](./exchangecalendareventcollection) | 表示[`ExchangeCalendarEvent`](../aspose.email.clients.exchange.webservice/exchangecalendarevent) |
+| [ExchangeCalendarEventCollection](./exchangecalendareventcollection) | 代表集合[`ExchangeCalendarEvent`](../aspose.email.clients.exchange.webservice/exchangecalendarevent) |
 | [ExchangeConversation](./exchangeconversation) | 表示单个对话。 |
 | [ExchangeDelegatePermissions](./exchangedelegatepermissions) | 代表委托用户的文件夹权限 |
-| [ExchangeDelegateUser](./exchangedelegateuser) | 表示被授予访问主邮箱 |
-| [ExchangeDelegateUserCollection](./exchangedelegateusercollection) | 表示[`ExchangeDelegateUser`](../aspose.email.clients.exchange.webservice/exchangedelegateuser) |
-| [ExchangeStreamedItem](./exchangestreameditem) | 表示在 ExportItems 响应中收到的项目 |
-| [ExchangeTask](./exchangetask) | 表示交换任务信息。 |
+| [ExchangeDelegateUser](./exchangedelegateuser) | 表示被授予访问主体邮箱的用户 |
+| [ExchangeDelegateUserCollection](./exchangedelegateusercollection) | 代表集合[`ExchangeDelegateUser`](../aspose.email.clients.exchange.webservice/exchangedelegateuser) |
+| [ExchangeStreamedItem](./exchangestreameditem) | 表示在 ExportItems response 中收到的项目 |
+| [ExchangeTask](./exchangetask) | 代表交换任务信息。 |
 | [ExchangeUploadItemResult](./exchangeuploaditemresult) | 表示更新或创建流式项的结果 |
-| [ExchangeUserAvailability](./exchangeuseravailability) | 表示用户可用性信息 |
-| [ExchangeUserAvailabilityCollection](./exchangeuseravailabilitycollection) | 表示[`ExchangeUserAvailability`](../aspose.email.clients.exchange.webservice/exchangeuseravailability) |
+| [ExchangeUserAvailability](./exchangeuseravailability) | 代表用户可用性信息 |
+| [ExchangeUserAvailabilityCollection](./exchangeuseravailabilitycollection) | 代表集合[`ExchangeUserAvailability`](../aspose.email.clients.exchange.webservice/exchangeuseravailability) |
 | [ExchangeUserWorkingHours](./exchangeuserworkinghours) | 代表用户工作时间。 |
-| [ExchangeUserWorkingHoursCollection](./exchangeuserworkinghourscollection) | 表示[`ExchangeUserWorkingHours`](../aspose.email.clients.exchange.webservice/exchangeuserworkinghours) |
+| [ExchangeUserWorkingHoursCollection](./exchangeuserworkinghourscollection) | 代表集合[`ExchangeUserWorkingHours`](../aspose.email.clients.exchange.webservice/exchangeuserworkinghours) |
 | [FindMessageTrackingReportOptions](./findmessagetrackingreportoptions) | 表示 FindMessageTrackingReport 操作的选项 |
 | [GetMailTipsOptions](./getmailtipsoptions) | 表示 GetMailTips 的选项 |
 | [GetMessageTrackingReportOptions](./getmessagetrackingreportoptions) | 表示 GetMessageTrackingReport 操作的选项 |
 | [MailTips](./mailtips) | 表示邮件提示的值 |
 | [MessageTrackingReport](./messagetrackingreport) | 表示要包含在报告中的信息。 |
-| [MessageTrackingReportInfo](./messagetrackingreportinfo) | 表示有关使用 FindMessageTrackingReport |
+| [MessageTrackingReportInfo](./messagetrackingreportinfo) | 表示有关使用 FindMessageTrackingReport 找到的消息的信息 |
 | [OutOfOfficeMailTip](./outofofficemailtip) | 代表OOF邮件提示 |
 | [RecipientTrackingEvent](./recipienttrackingevent) | 表示跟踪报告中特定事件的详细信息。 |
 | [ReplyBody](./replybody) | 表示OOF消息响应。 |
@@ -44,7 +44,7 @@ url: /zh/net/aspose.email.clients.exchange.webservice/
 | [ServerNotificationEventArgs](./servernotificationeventargs) | 包含服务器通知的事件数据。 |
 | [SyncFolderResult](./syncfolderresult) | SyncFolder 操作的结果 |
 | [SyncState](./syncstate) | 文件夹同步操作的同步对象。 |
-| [TaskRegeneratingPattern](./taskregeneratingpattern) | 表示重新生成的重复模式，指定当前任务完成后的天数、周数、月数或年数 下一次发生将是到期的。 |
+| [TaskRegeneratingPattern](./taskregeneratingpattern) | 表示重新生成的重复模式，该模式指定在当前任务完成后的天数、周数、月数或年数 下一次将到期。 |
 | [UnifiedMessagingConfiguration](./unifiedmessagingconfiguration) | 统一消息配置 |
 | [UserConfiguration](./userconfiguration) | 代表用户配置 |
 | [UserConfigurationName](./userconfigurationname) | 代表用户配置名称 |
@@ -64,7 +64,7 @@ url: /zh/net/aspose.email.clients.exchange.webservice/
 | [EmptyFolderOptions](./emptyfolderoptions) | 枚举空文件夹选项 |
 | [EventTypes](./eventtypes) | 指定事件类型 |
 | [ExchangeConversationFlagStatus](./exchangeconversationflagstatus) | 枚举对话的标志状态。 |
-| [ExchangeDelegateFolderPermissionLevel](./exchangedelegatefolderpermissionlevel) | 枚举委托用户对文件夹 |
+| [ExchangeDelegateFolderPermissionLevel](./exchangedelegatefolderpermissionlevel) | 枚举委托用户对文件夹的权限级别 |
 | [ExchangeDelegateOptions](./exchangedelegateoptions) | 枚举委托选项 |
 | [ExchangeListContactsOptions](./exchangelistcontactsoptions) | 枚举列表联系人选项 |
 | [ExchangeTaskStatus](./exchangetaskstatus) | 枚举任务状态。 |
@@ -74,9 +74,9 @@ url: /zh/net/aspose.email.clients.exchange.webservice/
 | [KnownFolders](./knownfolders) | 指定已知的 Exchange 服务器文件夹。 |
 | [MailTipsType](./mailtipstype) | 枚举邮件提示的类型 |
 | [MessageTrackingReportTemplate](./messagetrackingreporttemplate) | 枚举要显示的报告类型。 |
-| [PhoneCallState](./phonecallstate) | 电话状态。 |
+| [PhoneCallState](./phonecallstate) | 电话通话状态。 |
 | [SyncFolderType](./syncfoldertype) | 文件夹同步类型 |
-| [TaskRegeneratingType](./taskregeneratingtype) | 枚举重新生成模式的类型。 |
+| [TaskRegeneratingType](./taskregeneratingtype) | 枚举再生模式的类型。 |
 | [UpdateTaskOptions](./updatetaskoptions) | 枚举更新任务选项。 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

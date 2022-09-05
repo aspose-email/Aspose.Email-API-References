@@ -1,7 +1,7 @@
 ---
 title: ContactLinkLinkRejectHistory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of GAL contacts that were previously rejected for linking with the duplicate contact. Area Contact Properties Canonical name PidLidContactLinkLinkRejectHistory Alternate names dispidContactLinkLinkRejectHistory
 type: docs
 weight: 3000
 url: /net/aspose.email.mapi/knownpropertylist/contactlinklinkrejecthistory/

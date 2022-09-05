@@ -1,7 +1,7 @@
 ---
 title: Test
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Analyses the message and returns the probability of the message being spam.
 type: docs
 weight: 50
 url: /net/aspose.email.antispam/spamanalyzer/test/

@@ -1,14 +1,14 @@
 ---
 title: FormHidden
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_HIDDEN
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_HIDDEN
 type: docs
 weight: 10560
 url: /ru/net/aspose.email.mapi/knownpropertylist/formhidden/
 ---
 ## KnownPropertyList.FormHidden field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_HIDDEN
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_HIDDEN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormHidden;

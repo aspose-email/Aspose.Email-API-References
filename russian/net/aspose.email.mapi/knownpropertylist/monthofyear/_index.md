@@ -1,14 +1,14 @@
 ---
 title: MonthOfYear
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает месяц года в котором происходит встреча или встреча. ОбластьКалендарь Каноническое имяPidLidMonthOfYear Альтернативные имена
+description: Указывает месяц года в котором происходит встреча или встреча. Область Calendar Каноническое имя PidLidMonthOfYear Альтернативные имена
 type: docs
 weight: 12750
 url: /ru/net/aspose.email.mapi/knownpropertylist/monthofyear/
 ---
 ## KnownPropertyList.MonthOfYear field
 
-Указывает месяц года, в котором происходит встреча или встреча. Область:Календарь Каноническое имя:PidLidMonthOfYear Альтернативные имена:
+Указывает месяц года, в котором происходит встреча или встреча. Область: Calendar Каноническое имя: PidLidMonthOfYear Альтернативные имена:
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthOfYear;

@@ -1,14 +1,14 @@
 ---
 title: StoreEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный EntryID хранилища сообщений в котором находится объект. ОбластьСвойства идентификатора Каноническое имяPidTagStoreEntryId Альтернативные именаPR_STORE_ENTRYID ptagStoreEntryId
+description: Содержит уникальный EntryID хранилища сообщений в котором находится объект. Область ID Properties Каноническое имя PidTagStoreEntryId Альтернативные имена PR_STORE_ENTRYID ptagStoreEntryId
 type: docs
 weight: 18250
 url: /ru/net/aspose.email.mapi/knownpropertylist/storeentryid/
 ---
 ## KnownPropertyList.StoreEntryId field
 
-Содержит уникальный EntryID хранилища сообщений, в котором находится объект. Область:Свойства идентификатора Каноническое имя:PidTagStoreEntryId Альтернативные имена:PR_STORE_ENTRYID, ptagStoreEntryId
+Содержит уникальный EntryID хранилища сообщений, в котором находится объект. Область: ID Properties Каноническое имя: PidTagStoreEntryId Альтернативные имена: PR_STORE_ENTRYID, ptagStoreEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreEntryId;

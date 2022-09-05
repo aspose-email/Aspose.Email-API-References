@@ -1,14 +1,14 @@
 ---
 title: ValidFlagStringProof
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagMessageDeliveryTime раздел 2.780 при изменении свойства PidLidFlagRequest раздел 2.136. ОбластьЗадачи Каноническое имяPidLidValidFlagStringProof Альтернативные именаdispidValidFlagStringProof
+description: Содержит значение свойства PidTagMessageDeliveryTime раздел 2.780 при изменении свойства PidLidFlagRequest раздел 2.136. Область Tasks Каноническое имя PidLidValidFlagStringProof Альтернативные имена dispidValidFlagStringProof
 type: docs
 weight: 19210
 url: /ru/net/aspose.email.mapi/knownpropertylist/validflagstringproof/
 ---
 ## KnownPropertyList.ValidFlagStringProof field
 
-Содержит значение свойства PidTagMessageDeliveryTime (раздел 2.780) при изменении свойства PidLidFlagRequest (раздел 2.136). Область:Задачи Каноническое имя:PidLidValidFlagStringProof Альтернативные имена:dispidValidFlagStringProof
+Содержит значение свойства PidTagMessageDeliveryTime (раздел 2.780) при изменении свойства PidLidFlagRequest (раздел 2.136). Область: Tasks Каноническое имя: PidLidValidFlagStringProof Альтернативные имена: dispidValidFlagStringProof
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ValidFlagStringProof;

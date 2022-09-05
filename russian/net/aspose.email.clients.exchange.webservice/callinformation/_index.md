@@ -1,14 +1,14 @@
 ---
 title: CallInformation
 second_title: Справочник по Aspose.Email для .NET API
-description: Информация о телефонных звонках
+description: Информация о телефонном звонке
 type: docs
 weight: 3630
 url: /ru/net/aspose.email.clients.exchange.webservice/callinformation/
 ---
 ## CallInformation class
 
-Информация о телефонных звонках
+Информация о телефонном звонке
 
 ```csharp
 public class CallInformation
@@ -20,8 +20,8 @@ public class CallInformation
 | --- | --- |
 | [CallState](../../aspose.email.clients.exchange.webservice/callinformation/callstate) { get; } | Статусы телефонных звонков. |
 | [FailureCause](../../aspose.email.clients.exchange.webservice/callinformation/failurecause) { get; } | Причина сбоя соединения |
-| [SIPResponse](../../aspose.email.clients.exchange.webservice/callinformation/sipresponse) { get; } | Ответ SIP |
-| [SIPResponseCode](../../aspose.email.clients.exchange.webservice/callinformation/sipresponsecode) { get; } | Код ответа SIP В этом списке указаны все коды ответа SIP, определенные в RFC IETF и зарегистрированные в IANA по состоянию на 18 апреля 2013 года. Он также включает коды ответов SIP, определенные в устаревших RFC SIP (в частности, RFC 2543), которые поэтому не зарегистрированы в IANA; они явно отмечены как таковые. 1xx — предварительные ответы 2xx — успешные ответы 3xx — ответы перенаправления 4xx — ответы клиента о сбое 5xx — ответы серверов на сбои 6xx — ответы на глобальные сбои |
+| [SIPResponse](../../aspose.email.clients.exchange.webservice/callinformation/sipresponse) { get; } | SIP-ответ |
+| [SIPResponseCode](../../aspose.email.clients.exchange.webservice/callinformation/sipresponsecode) { get; } | Код ответа SIP В этом списке указаны все коды ответов SIP, определенные в RFC IETF и зарегистрированные в IANA по состоянию на 18 апреля 2013 г. Он также включает коды ответов SIP, определенные в устаревших RFC SIP (в частности, RFC 2543), не зарегистрированы в IANA; они явно отмечены как таковые. |
 
 ### Смотрите также
 

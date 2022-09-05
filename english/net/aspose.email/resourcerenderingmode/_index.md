@@ -1,9 +1,9 @@
 ---
 title: ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides set various modes of rendering resources in html.
 type: docs
-weight: 19730
+weight: 19960
 url: /net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration

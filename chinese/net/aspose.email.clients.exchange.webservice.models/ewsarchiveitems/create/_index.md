@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建ArchiveItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync方法参数集
+description: 创建ArchiveItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync方法参数集.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create/
 ---
 ## EwsArchiveItems.Create method
 
-创建[`ArchiveItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数集。
+创建[`ArchiveItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数集.
 
 ```csharp
 public static EwsArchiveItems Create(string sourceFolderUri)

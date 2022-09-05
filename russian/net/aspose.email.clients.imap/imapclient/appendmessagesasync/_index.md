@@ -17,9 +17,9 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка, в которую будет поступать почтовое сообщение |
-| messages | IEnumerable`1 | Перечисление сообщений электронной почты для быть загруженным |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
@@ -46,11 +46,11 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | Перечень сообщений электронной почты для загрузки |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
-Объект задачи , с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -73,12 +73,12 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит сообщение электронной почты |
-| messages | IEnumerable`1 | Перечень сообщений электронной почты для загрузки |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегат для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -101,8 +101,8 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | Перечисление электронной почты сообщения для загрузки |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -131,9 +131,9 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка, в которую будет поступать почтовое сообщение |
-| messages | IEnumerable`1 | Перечисление сообщений электронной почты для be upload |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -162,7 +162,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | Перечень сообщений электронной почты для загрузки |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -190,9 +190,9 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
-| token | CancellationToken | Распространяет уведомление что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -219,8 +219,8 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | Перечисление электронной почты сообщения для загрузки |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 

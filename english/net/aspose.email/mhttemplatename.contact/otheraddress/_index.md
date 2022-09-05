@@ -1,7 +1,7 @@
 ---
 title: OtherAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Other Address header.
 type: docs
 weight: 250
 url: /net/aspose.email/mhttemplatename.contact/otheraddress/

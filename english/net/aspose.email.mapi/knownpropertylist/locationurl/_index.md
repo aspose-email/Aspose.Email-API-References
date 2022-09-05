@@ -1,7 +1,7 @@
 ---
 title: LocationUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area Calendar Canonical name PidNameLocationUrl Alternate names urnschemascalendarlocationurl LocationUrl
 type: docs
 weight: 12200
 url: /net/aspose.email.mapi/knownpropertylist/locationurl/

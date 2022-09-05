@@ -1,9 +1,9 @@
 ---
 title: ThumbnailSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: https//docs.microsoft.com/enus/graph/api/resources/thumbnailsetviewgraphrest1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem.
 type: docs
-weight: 16060
+weight: 16080
 url: /net/aspose.email.clients.graph/thumbnailset/
 ---
 ## ThumbnailSet class

@@ -18,8 +18,8 @@ public enum SocksVersion : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SocksV4 | `4` | SOCKS4 和 SOCKS4a 版本 SOCKS4a 扩展了 SOCKS4 协议，允许客户端指定目标域名而不是 IPv4 地址； 当客户端本身无法将目标主机的域名解析为 IP 地址时，这很有用。 |
-| SocksV5 | `5` | SOCKS5 版本 SOCKS5 协议在 RFC 1928 中定义，是 SOCKS4 协议的扩展； 它提供了更多的身份验证选择，并增加了对 IPv6 和 UDP 的支持，后者可用于 DNS 查找。 |
+| SocksV4 | `4` | SOCKS4 和 SOCKS4a 版本 SOCKS4a 扩展了 SOCKS4 协议，允许客户端指定目标域名而不是 IPv4 地址； 这在客户端本身无法将目标主机的域名解析为 IP 地址时很有用。 |
+| SocksV5 | `5` | SOCKS5 版本 SOCKS5 协议在 RFC 1928 中定义。它是 SOCKS4 协议的扩展； 它提供了更多的身份验证选择，并增加了对 IPv6 和 UDP 的支持，后者可用于 DNS 查找。 |
 
 ### 也可以看看
 

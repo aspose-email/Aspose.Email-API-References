@@ -1,7 +1,7 @@
 ---
 title: TimeStamp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Date and time of the log entry message.
 type: docs
 weight: 150
 url: /net/aspose.email.tools.logging/logentry/timestamp/

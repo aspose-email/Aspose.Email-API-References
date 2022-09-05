@@ -1,14 +1,14 @@
 ---
 title: AnniversaryEventEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает EntryID объекта Appointment представляющего годовщину контакта. ОбластьСвойства контакта Каноническое имяPidLidAnniversaryEventEntryId Альтернативные именаdispidAnniversaryEventEID
+description: Указывает EntryID объекта Appointment представляющего годовщину контакта. Область Свойства контакта Каноническое имя PidLidAnniversaryEventEntryId Альтернативные имена dispidAnniversaryEventEID
 type: docs
 weight: 1080
 url: /ru/net/aspose.email.mapi/knownpropertylist/anniversaryevententryid/
 ---
 ## KnownPropertyList.AnniversaryEventEntryId field
 
-Указывает EntryID объекта Appointment, представляющего годовщину контакта. Область:Свойства контакта Каноническое имя:PidLidAnniversaryEventEntryId Альтернативные имена:dispidAnniversaryEventEID
+Указывает EntryID объекта Appointment, представляющего годовщину контакта. Область: Свойства контакта Каноническое имя: PidLidAnniversaryEventEntryId Альтернативные имена: dispidAnniversaryEventEID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AnniversaryEventEntryId;

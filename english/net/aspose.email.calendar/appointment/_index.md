@@ -1,7 +1,7 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a calendar to an email.
 type: docs
 weight: 430
 url: /net/aspose.email.calendar/appointment/
@@ -18,11 +18,11 @@ public class Appointment
 
 | Name | Description |
 | --- | --- |
-| [Appointment](appointment)(string, DateTime, DateTime, MailAddress, MailAddressCollection) | Initialize a new instance of the [`Appointment`](../appointment) class. |
-| [Appointment](appointment)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) | Initialize a new instance of the [`Appointment`](../appointment) class. |
-| [Appointment](appointment)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) | Initialize a new instance of the [`Appointment`](../appointment) class. |
-| [Appointment](appointment)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) | Initialize a new instance of the [`Appointment`](../appointment) class. |
-| [Appointment](appointment)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) | Initialize a new instance of the [`Appointment`](../appointment) class. |
+| [Appointment](appointment#constructor)(string, DateTime, DateTime, MailAddress, MailAddressCollection) | Initialize a new instance of the [`Appointment`](../appointment) class. |
+| [Appointment](appointment#constructor_1)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) | Initialize a new instance of the [`Appointment`](../appointment) class. |
+| [Appointment](appointment#constructor_2)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) | Initialize a new instance of the [`Appointment`](../appointment) class. |
+| [Appointment](appointment#constructor_3)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) | Initialize a new instance of the [`Appointment`](../appointment) class. |
+| [Appointment](appointment#constructor_4)(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) | Initialize a new instance of the [`Appointment`](../appointment) class. |
 
 ## Properties
 
@@ -32,6 +32,7 @@ public class Appointment
 | [Attendees](../../aspose.email.calendar/appointment/attendees) { get; set; } | Gets or sets the attendees. |
 | [Class](../../aspose.email.calendar/appointment/class) { get; set; } | Specifies the access classification for the appointment. |
 | [CreatedDate](../../aspose.email.calendar/appointment/createddate) { get; set; } | Gets or sets the date and time that calendar information was created. |
+| [DateTimeStamp](../../aspose.email.calendar/appointment/datetimestamp) { get; set; } | Gets or sets date/time that the instance of the iCalendar object was created.. |
 | [Description](../../aspose.email.calendar/appointment/description) { get; set; } | Gets or sets the description. |
 | [EndDate](../../aspose.email.calendar/appointment/enddate) { get; set; } | Gets or sets the end date. |
 | [EndTimeZone](../../aspose.email.calendar/appointment/endtimezone) { get; set; } | End time zone |
@@ -59,28 +60,28 @@ public class Appointment
 
 | Name | Description |
 | --- | --- |
-| static [Load](../../aspose.email.calendar/appointment/load)(Stream) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](../../aspose.email.calendar/appointment/load)(string) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar |
-| static [Load](../../aspose.email.calendar/appointment/load)(Stream, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](../../aspose.email.calendar/appointment/load)(Stream, bool) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](../../aspose.email.calendar/appointment/load)(string, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../appointmentloadoptions).A read [`Appointment`](../appointment). |
-| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment)() | Cancels the appointment. |
-| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment)(int) | Cancels the appointment. |
+| static [Load](../../aspose.email.calendar/appointment/load#load)(Stream) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load#load_3)(string) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar |
+| static [Load](../../aspose.email.calendar/appointment/load#load_1)(Stream, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load#load_2)(Stream, bool) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load#load_4)(string, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../appointmentloadoptions).A read [`Appointment`](../appointment). |
+| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment#cancelappointment)() | Cancels the appointment. |
+| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment#cancelappointment_1)(int) | Cancels the appointment. |
 | [GetAppointmentHtml](../../aspose.email.calendar/appointment/getappointmenthtml)() | Gets the calendar HTML. |
-| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext)() | Gets the calendar text. |
-| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext)(AppointmentFormattingOptions) | Gets the calendar text. |
-| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment)() | Requests the apointment. |
-| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment)(int) | Requests the apointment. |
+| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext#getappointmenttext)() | Gets the calendar text. |
+| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext#getappointmenttext_1)(AppointmentFormattingOptions) | Gets the calendar text. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment#requestapointment)() | Requests the apointment. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment#requestapointment_1)(int) | Requests the apointment. |
 | [ResetTimeZone](../../aspose.email.calendar/appointment/resettimezone)() | Set local time zone |
-| [Save](../../aspose.email.calendar/appointment/save)(Stream) | Saves appointment to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.calendar/appointment/save)(string) | Saves appointment to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.calendar/appointment/save)(Stream, AppointmentSaveFormat) | Saves appointment to the stream with specified format using te default save options |
-| [Save](../../aspose.email.calendar/appointment/save)(Stream, AppointmentSaveOptions) | Saves appointment to the stream with specified save options |
-| [Save](../../aspose.email.calendar/appointment/save)(string, AppointmentSaveFormat) | Saves appointment to the file with specified format using te default save options |
-| [Save](../../aspose.email.calendar/appointment/save)(string, AppointmentSaveOptions) | Saves appointment to the file with specified save options |
+| [Save](../../aspose.email.calendar/appointment/save#save)(Stream) | Saves appointment to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save#save_3)(string) | Saves appointment to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save#save_1)(Stream, AppointmentSaveFormat) | Saves appointment to the stream with specified format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save#save_2)(Stream, AppointmentSaveOptions) | Saves appointment to the stream with specified save options |
+| [Save](../../aspose.email.calendar/appointment/save#save_4)(string, AppointmentSaveFormat) | Saves appointment to the file with specified format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save#save_5)(string, AppointmentSaveOptions) | Saves appointment to the file with specified save options |
 | [SetTimeZone](../../aspose.email.calendar/appointment/settimezone)(string) | Set time zone |
-| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment)() | Updates the appointment. |
-| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment)(int) | Updates the appointment. |
+| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment#updateappointment)() | Updates the appointment. |
+| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment#updateappointment_1)(int) | Updates the appointment. |
 
 ### Examples
 

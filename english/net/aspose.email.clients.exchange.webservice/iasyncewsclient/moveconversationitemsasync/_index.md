@@ -1,7 +1,7 @@
 ---
 title: MoveConversationItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the conversation items which are located in the specified folder into the specified target folder
 type: docs
 weight: 560
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/moveconversationitemsasync/

@@ -1,14 +1,14 @@
 ---
 title: MapiMessageParseException
 second_title: Aspose.Email for .NET API 参考
-description: 解析 MapiMessage 出错时会抛出此异常
+description: 解析 MapiMessage 发生错误时抛出此异常
 type: docs
-weight: 18450
+weight: 18480
 url: /zh/net/aspose.email.mapi/mapimessageparseexception/
 ---
 ## MapiMessageParseException class
 
-解析 MapiMessage 出错时会抛出此异常。
+解析 MapiMessage 发生错误时抛出此异常。
 
 ```csharp
 public class MapiMessageParseException : Exception

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.activesync.transportlayer/querytype/lessthan/
 ---
 ## QueryType.LessThan property
 
-Указывает свойство и значение, которые сравниваются для условия "Меньше чем" во время поиска.
+Указывает свойство и значение, которые сравниваются для условия «Меньше чем» во время поиска.
 
 ```csharp
 public SearchCondition LessThan { get; set; }

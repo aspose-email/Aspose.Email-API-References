@@ -1,7 +1,7 @@
 ---
 title: ReturnReceiptTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A sender can request a returnreceipt by including this header field. The returnreceipt is sent to the ReturnPath address of the email and not to the address specified in the ReturnReceiptTo header field. This header is nonstandard and mostly not supported. Use DispositionNotificationTo instead. Even if supported there is no guarantee of a receipt being sent.
 type: docs
 weight: 210
 url: /net/aspose.email/headertype/returnreceiptto/

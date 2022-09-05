@@ -16,11 +16,11 @@ public int IndexOf(PostalAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | PostalAddress | Object在列表中定位。 |
+| value | PostalAddress | 这Object在列表中定位。 |
 
 ### 返回值
 
-*value*的索引（如果在列表中找到）；否则，-1。
+指数*value*如果在列表中找到；否则，-1。
 
 ### 也可以看看
 

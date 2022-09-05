@@ -1,7 +1,7 @@
 ---
 title: RecipientClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the type of recipent.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapirecipient/recipientclass/

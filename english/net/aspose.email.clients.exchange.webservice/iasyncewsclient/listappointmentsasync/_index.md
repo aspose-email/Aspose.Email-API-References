@@ -1,7 +1,7 @@
 ---
 title: ListAppointmentsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves list of appointments for specified calendar folder
 type: docs
 weight: 400
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listappointmentsasync/

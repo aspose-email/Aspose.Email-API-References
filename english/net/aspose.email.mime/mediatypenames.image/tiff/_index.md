@@ -1,7 +1,7 @@
 ---
 title: Tiff
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies image/tiff media type
 type: docs
 weight: 50
 url: /net/aspose.email.mime/mediatypenames.image/tiff/

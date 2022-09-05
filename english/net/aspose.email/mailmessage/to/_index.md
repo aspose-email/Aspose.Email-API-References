@@ -1,9 +1,9 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the address collection that contains the recipients of message
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.email/mailmessage/to/
 ---
 ## MailMessage.To property

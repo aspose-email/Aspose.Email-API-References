@@ -18,7 +18,7 @@ public string Scope { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *value*是` null` 或` 空` |
+| ArgumentException | *value*是`无效的`或者`空的` |
 
 ### 也可以看看
 

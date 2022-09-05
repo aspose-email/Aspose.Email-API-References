@@ -3,7 +3,7 @@ title: Transparency
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает должна ли эта встреча отображаться при поиске доступности.
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.email.calendar/appointment/transparency/
 ---
 ## Appointment.Transparency property

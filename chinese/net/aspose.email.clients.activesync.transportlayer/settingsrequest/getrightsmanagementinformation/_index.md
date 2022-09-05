@@ -1,14 +1,14 @@
 ---
 title: GetRightsManagementInformation
 second_title: Aspose.Email for .NET API 参考
-description: 向服务器请求权限管理信息
+description: 从服务器请求权限管理信息
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/settingsrequest/getrightsmanagementinformation/
 ---
 ## SettingsRequest.GetRightsManagementInformation property
 
-向服务器请求权限管理信息。
+从服务器请求权限管理信息。
 
 ```csharp
 public bool? GetRightsManagementInformation { get; set; }

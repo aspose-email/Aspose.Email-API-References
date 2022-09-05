@@ -1,9 +1,9 @@
 ---
 title: ImapSpecialFolderTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents enumeration of specialuse mailboxes More details see in RFC6154 http//tools.ietf.org/html/rfc6154
 type: docs
-weight: 16460
+weight: 16490
 url: /net/aspose.email.clients.imap/imapspecialfoldertypes/
 ---
 ## ImapSpecialFolderTypes enumeration

@@ -1,14 +1,14 @@
 ---
 title: ObjectIdentifier
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаObjectIdentifieraspose.email/objectidentifier.
+description: Инициализировать новый экземплярObjectIdentifieraspose.email/objectidentifier класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/objectidentifier/objectidentifier/
 ---
 ## ObjectIdentifier constructor
 
-Инициализировать новый экземпляр класса[`ObjectIdentifier`](../../objectidentifier).
+Инициализировать новый экземпляр[`ObjectIdentifier`](../../objectidentifier) класс.
 
 ```csharp
 public ObjectIdentifier()

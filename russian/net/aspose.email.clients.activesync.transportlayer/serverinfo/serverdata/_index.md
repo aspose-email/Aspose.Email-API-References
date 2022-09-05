@@ -1,14 +1,14 @@
 ---
 title: ServerData
 second_title: Справочник по Aspose.Email для .NET API
-description: ServerData указывает имя шаблона для клиентского сертификата. По желанию.
+description: ServerData указывает имя шаблона для клиентского сертификата. Дополнительно.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/serverinfo/serverdata/
 ---
 ## ServerInfo.ServerData property
 
-ServerData указывает имя шаблона для клиентского сертификата. По желанию.
+ServerData указывает имя шаблона для клиентского сертификата. Дополнительно.
 
 ```csharp
 public string ServerData { get; }

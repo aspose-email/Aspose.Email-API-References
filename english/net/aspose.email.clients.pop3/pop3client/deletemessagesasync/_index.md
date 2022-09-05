@@ -1,12 +1,12 @@
 ---
 title: DeleteMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes all messages
 type: docs
 weight: 100
 url: /net/aspose.email.clients.pop3/pop3client/deletemessagesasync/
 ---
-## Pop3Client.DeleteMessagesAsync method (1 of 4)
+## DeleteMessagesAsync(IConnection) {#deletemessagesasync_1}
 
 Deletes all messages
 
@@ -35,7 +35,7 @@ The POP3 server marks the message as deleted. The POP3 server does not actually 
 
 ---
 
-## Pop3Client.DeleteMessagesAsync method (2 of 4)
+## DeleteMessagesAsync() {#deletemessagesasync}
 
 Deletes all messages
 
@@ -59,7 +59,7 @@ The POP3 server marks the message as deleted. The POP3 server does not actually 
 
 ---
 
-## Pop3Client.DeleteMessagesAsync method (3 of 4)
+## DeleteMessagesAsync(IConnection, CancellationToken) {#deletemessagesasync_2}
 
 Deletes all messages
 
@@ -89,7 +89,7 @@ The POP3 server marks the message as deleted. The POP3 server does not actually 
 
 ---
 
-## Pop3Client.DeleteMessagesAsync method (4 of 4)
+## DeleteMessagesAsync(CancellationToken) {#deletemessagesasync_3}
 
 Deletes all messages
 

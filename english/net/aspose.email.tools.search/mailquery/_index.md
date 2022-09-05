@@ -1,9 +1,9 @@
 ---
 title: MailQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
-weight: 20520
+weight: 20750
 url: /net/aspose.email.tools.search/mailquery/
 ---
 ## MailQuery class
@@ -18,8 +18,8 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 
 | Name | Description |
 | --- | --- |
-| [MailQuery](mailquery)(string) | Initializes a new instance of the [`MailQuery`](../mailquery) class. |
-| [MailQuery](mailquery)(string, string) | Initializes a new instance of the [`MailQuery`](../mailquery) class. |
+| [MailQuery](mailquery#constructor)(string) | Initializes a new instance of the [`MailQuery`](../mailquery) class. |
+| [MailQuery](mailquery#constructor_1)(string, string) | Initializes a new instance of the [`MailQuery`](../mailquery) class. |
 
 ## Properties
 
@@ -31,8 +31,8 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/mailquery/equals)(MailQuery) | Indicates whether the current object is equal to another object of the same type. |
-| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.email.tools.search/mailquery/equals#equals)(MailQuery) | Indicates whether the current object is equal to another object of the same type. |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals#equals_1)(object) | Determines whether the specified Object, is equal to this instance. |
 | override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | Returns a hash code for this instance. |
 | [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class. |
 | virtual [ReadXml](../../aspose.email.tools.search/mailquery/readxml)(XmlReader) | Generates an object from its XML representation. |

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Graph
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Clients.Graph namespace provides classes for access to access to Microsoft 365 services by using REST API.
 type: docs
 weight: 210
 url: /net/aspose.email.clients.graph/
 ---
-
+The **Aspose.Email.Clients.Graph** namespace provides classes for access to access to Microsoft 365 services by using REST API.
 
 ## Classes
 
@@ -18,6 +18,8 @@ url: /net/aspose.email.clients.graph/
 | [FolderInfo](./folderinfo) | Represents information about personal folder. |
 | [FolderInfoCollection](./folderinfocollection) | Represents collection of GraphFolderInfo. |
 | [GraphClient](./graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
+| [GraphMessagePageInfo](./graphmessagepageinfo) | Contains information about retrieved page when paging methods are used. |
+| [GraphQueryBuilder](./graphquerybuilder) | Represents the builder of search expression based on search filters that used by MS Graph protocol. |
 | [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application. |
 | [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by. |
 | [KnownFolders](./knownfolders) | Well-known folders |

@@ -1,14 +1,14 @@
 ---
 title: AppointmentEndWhole
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время окончания события. ОбластьКалендарь Каноническое имяPidLidAppointmentEndWhole Альтернативные именаdispidApptEndWhole
+description: Указывает дату и время окончания события. Область Calendar Каноническое имя PidLidAppointmentEndWhole Альтернативные имена dispidApptEndWhole
 type: docs
 weight: 1170
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentendwhole/
 ---
 ## KnownPropertyList.AppointmentEndWhole field
 
-Указывает дату и время окончания события. Область:Календарь Каноническое имя:PidLidAppointmentEndWhole Альтернативные имена:dispidApptEndWhole
+Указывает дату и время окончания события. Область: Calendar Каноническое имя: PidLidAppointmentEndWhole Альтернативные имена: dispidApptEndWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentEndWhole;

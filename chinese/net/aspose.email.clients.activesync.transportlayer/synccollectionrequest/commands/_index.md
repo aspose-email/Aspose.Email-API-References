@@ -1,14 +1,14 @@
 ---
 title: Commands
 second_title: Aspose.Email for .NET API 参考
-description: 包含适用于集合的操作 可用的操作有 AddDeleteChangeFetch 和 SoftDelete
+description: 包含适用于集合的操作 可用的操作是添加删除更改获取和软删除
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/commands/
 ---
 ## SyncCollectionRequest.Commands property
 
-包含适用于集合的操作。 可用的操作有 Add、Delete、Change、Fetch 和 SoftDelete。
+包含适用于集合的操作。 可用的操作是添加、删除、更改、获取和软删除。
 
 ```csharp
 public SyncCommandsRequest Commands { get; set; }

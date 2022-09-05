@@ -1,7 +1,7 @@
 ---
 title: RuleLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains 0x00000000. This property is not used. Area ServerSide Rules Properties Canonical name PidTagRuleLevel Alternate names PR_RULE_LEVEL ptagRuleLevel
 type: docs
 weight: 16510
 url: /net/aspose.email.mapi/knownpropertylist/rulelevel/

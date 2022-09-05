@@ -17,15 +17,15 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | ImapFolderInfoCollection | Connection to a服务器 |
+| connection | ImapFolderInfoCollection | 连接到服务器 |
 | folders | Stream | 要备份的文件夹 |
 | stream | BackupSettings | 要写入的流 |
-| options | IConnection | A 备份选项 |
+| options | IConnection | 备份选项 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,15 +49,15 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | ImapFolderInfoCollection | Connection to a服务器 |
+| connection | ImapFolderInfoCollection | 连接到服务器 |
 | folders | String | 要备份的文件夹 |
 | fileName | BackupSettings | 个人存储文件的路径 |
 | options | IConnection | 备份选项 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

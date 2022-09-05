@@ -1,14 +1,14 @@
 ---
 title: OriginatorNonDeliveryReportRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивает ли отправитель электронной почты подавление уведомлений о недоставке. ОбластьСвойства MIME Каноническое имяPidTagOriginatorNonDeliveryReportRequested Альтернативные именаPR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
+description: Указывает запрашивает ли отправитель электронной почты подавление уведомлений о недоставке. Область свойства MIME Каноническое имя PidTagOriginatorNonDeliveryReportRequested Альтернативные имена PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
 type: docs
 weight: 13880
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatornondeliveryreportrequested/
 ---
 ## KnownPropertyList.OriginatorNonDeliveryReportRequested field
 
-Указывает, запрашивает ли отправитель электронной почты подавление уведомлений о недоставке. Область:Свойства MIME Каноническое имя:PidTagOriginatorNonDeliveryReportRequested Альтернативные имена:PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
+Указывает, запрашивает ли отправитель электронной почты подавление уведомлений о недоставке. Область: свойства MIME Каноническое имя: PidTagOriginatorNonDeliveryReportRequested Альтернативные имена: PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorNonDeliveryReportRequested;

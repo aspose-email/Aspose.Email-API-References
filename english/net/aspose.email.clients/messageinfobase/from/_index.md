@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of authors of this message.
 type: docs
 weight: 50
 url: /net/aspose.email.clients/messageinfobase/from/

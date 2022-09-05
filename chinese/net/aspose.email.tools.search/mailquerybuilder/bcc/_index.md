@@ -16,7 +16,7 @@ public StringComparisonField Bcc { get; }
 
 ### 适当的价值
 
-[`DateComparisonField`](../../datecomparisonfield)表示密件抄送搜索字段。
+这[`DateComparisonField`](../../datecomparisonfield)表示密件抄送搜索字段。
 
 ### 也可以看看
 

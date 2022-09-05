@@ -1,14 +1,14 @@
 ---
 title: ContentsSynchronizer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENTS_SYNCHRONIZER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENTS_SYNCHRONIZER
 type: docs
 weight: 3270
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentssynchronizer/
 ---
 ## KnownPropertyList.ContentsSynchronizer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENTS_SYNCHRONIZER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENTS_SYNCHRONIZER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentsSynchronizer;

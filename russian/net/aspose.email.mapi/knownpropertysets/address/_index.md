@@ -1,14 +1,14 @@
 ---
 title: Address
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиКонтакт Имя набора свойствPSETID_Address
+description: Имя области Контакт Имя набора свойств PSETID_Address
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/knownpropertysets/address/
 ---
 ## KnownPropertySets.Address field
 
-Имя области:Контакт Имя набора свойств:PSETID_Address
+Имя области: Контакт Имя набора свойств: PSETID_Address
 
 ```csharp
 public static readonly Guid Address;

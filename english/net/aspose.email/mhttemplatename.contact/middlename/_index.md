@@ -1,7 +1,7 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Middle Name header.
 type: docs
 weight: 230
 url: /net/aspose.email/mhttemplatename.contact/middlename/

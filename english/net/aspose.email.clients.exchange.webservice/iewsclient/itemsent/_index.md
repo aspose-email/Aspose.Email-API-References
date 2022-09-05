@@ -1,7 +1,7 @@
 ---
 title: ItemSent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Raised when an item is sent and save in Sent Items folder.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/itemsent/

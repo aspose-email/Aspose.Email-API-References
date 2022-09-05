@@ -1,14 +1,14 @@
 ---
 title: OutboxUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取发件箱 uri
+description: 获取发件箱 uri.
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/outboxuri/
 ---
 ## ExchangeMailboxInfo.OutboxUri property
 
-获取发件箱 uri。
+获取发件箱 uri.
 
 ```csharp
 public abstract string OutboxUri { get; set; }

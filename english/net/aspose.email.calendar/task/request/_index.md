@@ -1,7 +1,7 @@
 ---
 title: Request
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests the object.
 type: docs
 weight: 160
 url: /net/aspose.email.calendar/task/request/

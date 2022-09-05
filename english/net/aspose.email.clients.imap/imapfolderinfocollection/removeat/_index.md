@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Remove a folder info at specified index.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapfolderinfocollection/removeat/

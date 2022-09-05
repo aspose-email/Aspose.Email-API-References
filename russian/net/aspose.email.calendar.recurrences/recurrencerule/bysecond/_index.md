@@ -16,7 +16,7 @@ public ByNumberCollection BySecond { get; }
 
 ### Стоимость имущества
 
-Посекундно.
+По секундам.
 
 ### Смотрите также
 

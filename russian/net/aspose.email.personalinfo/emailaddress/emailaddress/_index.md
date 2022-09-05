@@ -1,14 +1,14 @@
 ---
 title: EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаEmailAddressaspose.email.personalinfo/emailaddress.
+description: Инициализирует новый экземплярEmailAddressaspose.email.personalinfo/emailaddress класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/emailaddress/emailaddress/
 ---
 ## EmailAddress() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmailAddress`](../../emailaddress).
+Инициализирует новый экземпляр[`EmailAddress`](../../emailaddress) класс.
 
 ```csharp
 public EmailAddress()
@@ -24,7 +24,7 @@ public EmailAddress()
 
 ## EmailAddress(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmailAddress`](../../emailaddress).
+Инициализирует новый экземпляр[`EmailAddress`](../../emailaddress) класс.
 
 ```csharp
 public EmailAddress(string address)
@@ -44,7 +44,7 @@ public EmailAddress(string address)
 
 ## EmailAddress(string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`EmailAddress`](../../emailaddress).
+Инициализирует новый экземпляр[`EmailAddress`](../../emailaddress) класс.
 
 ```csharp
 public EmailAddress(string address, string displayName)

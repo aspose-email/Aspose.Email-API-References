@@ -18,13 +18,13 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | String | 消息的序列号 |
+| sequenceNumber | String | 消息的序号 |
 | folderName | IConnection | 要复制消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多https://tools.ietf.org/html/rfc4315
+如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
 
 ### 也可以看看
 

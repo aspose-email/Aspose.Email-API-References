@@ -1,14 +1,14 @@
 ---
 title: CalendarContactUrl
 second_title: Aspose.Email for .NET API 参考
-description: 标识可以访问 HTML 格式的联系信息的 URL 区域通用 规范名称PidNameCalendarContactUrl 备用名称urnschemascalendarcontacturl
+description: 标识您可以访问 HTML 格式的联系信息的 URL 区域Common 规范名称PidNameCalendarContactUrl 替代名称urnschemascalendarcontacturl
 type: docs
 weight: 2210
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarcontacturl/
 ---
 ## KnownPropertyList.CalendarContactUrl field
 
-标识可以访问 HTML 格式的联系信息的 URL。 区域:通用 规范名称:PidNameCalendarContactUrl 备用名称:urn:schemas:calendar:contacturl
+标识您可以访问 HTML 格式的联系信息的 URL。 区域：Common 规范名称：PidNameCalendarContactUrl 替代名称：urn:schemas:calendar:contacturl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarContactUrl;

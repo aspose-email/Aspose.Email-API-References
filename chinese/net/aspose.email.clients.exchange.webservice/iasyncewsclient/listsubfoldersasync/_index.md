@@ -1,14 +1,14 @@
 ---
 title: ListSubFoldersAsync
 second_title: Aspose.Email for .NET API 参考
-description: 从父级
+description: 从 parent 获取子文件夹的集合
 type: docs
 weight: 480
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersasync/
 ---
 ## IAsyncEwsClient.ListSubFoldersAsync method
 
-从父级
+从 parent 获取子文件夹的集合
 
 ```csharp
 public Task<ExchangeFolderInfoCollection> ListSubFoldersAsync(string mailbox, 
@@ -17,7 +17,7 @@ public Task<ExchangeFolderInfoCollection> ListSubFoldersAsync(string mailbox,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 获取子文件夹的集合用于初始化文件夹id类。 |
+| mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
 | parentFolderUri | String | 父文件夹 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 

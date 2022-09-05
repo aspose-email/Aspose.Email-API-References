@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are equal.
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/emailaddresscategory/op_equality/

@@ -1,12 +1,12 @@
 ---
 title: ClassificationOverride
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initalizes static members of class ClassificationOverrideaspose.email.clients.graph/classificationoverride.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.graph/classificationoverride/classificationoverride/
 ---
-## ClassificationOverride constructor (1 of 3)
+## ClassificationOverride() {#constructor}
 
 Initalizes static members of class [`ClassificationOverride`](../../classificationoverride).
 
@@ -22,7 +22,7 @@ public ClassificationOverride()
 
 ---
 
-## ClassificationOverride constructor (2 of 3)
+## ClassificationOverride(MailAddress, ClassificationType) {#constructor_1}
 
 Initalizes static members of class [`ClassificationOverride`](../../classificationoverride).
 
@@ -45,7 +45,7 @@ public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
 
 ---
 
-## ClassificationOverride constructor (3 of 3)
+## ClassificationOverride(string, MailAddress, ClassificationType) {#constructor_2}
 
 Initalizes static members of class [`ClassificationOverride`](../../classificationoverride).
 

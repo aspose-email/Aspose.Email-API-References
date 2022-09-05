@@ -1,7 +1,7 @@
 ---
 title: WorkFax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Work fax number
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/phonenumbercategory/workfax/

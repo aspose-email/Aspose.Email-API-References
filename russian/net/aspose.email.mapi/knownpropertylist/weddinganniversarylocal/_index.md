@@ -1,14 +1,14 @@
 ---
 title: WeddingAnniversaryLocal
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает годовщину свадьбы контакта в полночь по местному часовому поясу клиента и сохраняется без каких-либо преобразований часовых поясов. ОбластьСвойства контакта Каноническое имяPidLidWeddingAnniversaryLocal Альтернативные именаdispidApptAnniversaryLocal
+description: Указывает годовщину свадьбы контакта в полночь по местному часовому поясу клиента и сохраняется без каких-либо преобразований часовых поясов. Область Свойства контакта Каноническое имя PidLidWeddingAnniversaryLocal Альтернативные имена dispidApptAnniversaryLocal
 type: docs
 weight: 19340
 url: /ru/net/aspose.email.mapi/knownpropertylist/weddinganniversarylocal/
 ---
 ## KnownPropertyList.WeddingAnniversaryLocal field
 
-Указывает годовщину свадьбы контакта в полночь по местному часовому поясу клиента и сохраняется без каких-либо преобразований часовых поясов. Область:Свойства контакта Каноническое имя:PidLidWeddingAnniversaryLocal Альтернативные имена:dispidApptAnniversaryLocal
+Указывает годовщину свадьбы контакта в полночь по местному часовому поясу клиента и сохраняется без каких-либо преобразований часовых поясов. Область: Свойства контакта Каноническое имя: PidLidWeddingAnniversaryLocal Альтернативные имена: dispidApptAnniversaryLocal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WeddingAnniversaryLocal;

@@ -19,12 +19,12 @@ public enum UserCreatedFolderTypes
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | UserCreatedFolder | `1` | Созданная пользователем папка (общая) |
-| UserCreatedMailFolder | `12` | Созданная пользователем почтовая папка |
+| UserCreatedMailFolder | `12` | Почтовая папка, созданная пользователем |
 | UserCreatedCalendarFolder | `13` | Созданная пользователем папка календаря |
-| UserCreatedContactsFolder | `14` | Пользовательская папка контактов |
-| UserCreatedTasksFolder | `15` | Созданная пользователем папка задач |
+| UserCreatedContactsFolder | `14` | Папка контактов, созданная пользователем |
+| UserCreatedTasksFolder | `15` | Папка задач, созданная пользователем |
 | UserCreatedJournalFolder | `16` | Созданная пользователем папка журнала |
-| UserCreatedNoteFolder | `17` | Пользовательская папка Notes |
+| UserCreatedNoteFolder | `17` | Созданная пользователем папка Notes |
 
 ### Смотрите также
 

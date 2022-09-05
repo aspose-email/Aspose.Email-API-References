@@ -1,12 +1,12 @@
 ---
 title: AutodiscoverService
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/autodiscoverservice/autodiscoverservice/
 ---
-## AutodiscoverService constructor (1 of 6)
+## AutodiscoverService() {#constructor}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 
@@ -22,7 +22,7 @@ public AutodiscoverService()
 
 ---
 
-## AutodiscoverService constructor (2 of 6)
+## AutodiscoverService(ExchangeVersion) {#constructor_1}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 
@@ -43,7 +43,7 @@ public AutodiscoverService(ExchangeVersion requestedServerVersion)
 
 ---
 
-## AutodiscoverService constructor (3 of 6)
+## AutodiscoverService(string) {#constructor_2}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 
@@ -63,7 +63,7 @@ public AutodiscoverService(string domain)
 
 ---
 
-## AutodiscoverService constructor (4 of 6)
+## AutodiscoverService(string, ExchangeVersion) {#constructor_3}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 
@@ -85,7 +85,7 @@ public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion
 
 ---
 
-## AutodiscoverService constructor (5 of 6)
+## AutodiscoverService(Uri) {#constructor_4}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 
@@ -105,7 +105,7 @@ public AutodiscoverService(Uri url)
 
 ---
 
-## AutodiscoverService constructor (6 of 6)
+## AutodiscoverService(Uri, ExchangeVersion) {#constructor_5}
 
 Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
 

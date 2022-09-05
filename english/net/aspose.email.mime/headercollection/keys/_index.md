@@ -1,7 +1,7 @@
 ---
 title: Keys
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a ReadOnlyCollection containing all header keys in collections
 type: docs
 weight: 60
 url: /net/aspose.email.mime/headercollection/keys/

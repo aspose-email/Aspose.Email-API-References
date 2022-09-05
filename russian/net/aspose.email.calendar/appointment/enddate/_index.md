@@ -3,7 +3,7 @@ title: EndDate
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает дату окончания.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.email.calendar/appointment/enddate/
 ---
 ## Appointment.EndDate property

@@ -1,14 +1,14 @@
 ---
 title: ValidFolderMask
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_VALID_FOLDER_MASK
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_VALID_FOLDER_MASK
 type: docs
 weight: 19220
 url: /ru/net/aspose.email.mapi/knownpropertylist/validfoldermask/
 ---
 ## KnownPropertyList.ValidFolderMask field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_VALID_FOLDER_MASK
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_VALID_FOLDER_MASK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ValidFolderMask;

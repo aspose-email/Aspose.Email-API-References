@@ -1,14 +1,14 @@
 ---
 title: MessageSizeExtended
 second_title: Aspose.Email for .NET API 参考
-description: 指定 PidTagMessageSize 属性的 64 位版本第 2.787 节 区域常规消息属性 规范名称PidTagMessageSizeExtended 替代名称PR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
+description: 指定 PidTagMessageSize 属性的 64 位版本第 2.787 节 区域常规消息属性 规范名称PidTagMessageSizeExtended 备用名称PR_MESSAGE_SIZE_EXTENDEDptagMessageSizeExtended
 type: docs
 weight: 12620
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagesizeextended/
 ---
 ## KnownPropertyList.MessageSizeExtended field
 
-指定 PidTagMessageSize 属性的 64 位版本（第 2.787 节）。 区域:常规消息属性 规范名称:PidTagMessageSizeExtended 替代名称:PR_MESSAGE_SIZE_EXTENDED, ptagMessageSizeExtended
+指定 PidTagMessageSize 属性的 64 位版本（第 2.787 节）。 区域：常规消息属性 规范名称：PidTagMessageSizeExtended 备用名称：PR_MESSAGE_SIZE_EXTENDED、ptagMessageSizeExtended
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSizeExtended;

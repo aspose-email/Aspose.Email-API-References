@@ -1,14 +1,14 @@
 ---
 title: FreebusyResponse
 second_title: Aspose.Email for .NET API 参考
-description: 忙时响应
+description: 闲忙响应
 type: docs
 weight: 15740
 url: /zh/net/aspose.email.clients.google/freebusyresponse/
 ---
 ## FreebusyResponse class
 
-忙时响应
+闲忙响应
 
 ```csharp
 public class FreebusyResponse
@@ -27,7 +27,7 @@ public class FreebusyResponse
 | 姓名 | 描述 |
 | --- | --- |
 | [Calendars](../../aspose.email.clients.google/freebusyresponse/calendars) { get; } | 日历的忙/闲信息列表。 |
-| [Groups](../../aspose.email.clients.google/freebusyresponse/groups) { get; } | 扩展组。 |
+| [Groups](../../aspose.email.clients.google/freebusyresponse/groups) { get; } | 组的扩展。 |
 | [TimeMax](../../aspose.email.clients.google/freebusyresponse/timemax) { get; set; } | 查询间隔的结束。 |
 | [TimeMin](../../aspose.email.clients.google/freebusyresponse/timemin) { get; set; } | 查询间隔的开始。 |
 

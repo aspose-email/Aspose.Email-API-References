@@ -1,14 +1,14 @@
 ---
 title: PlayOnPhoneEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 表示是否启用手机播放
+description: 表示是否启用在手机上播放
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled/
 ---
 ## UnifiedMessagingConfiguration.PlayOnPhoneEnabled property
 
-表示是否启用手机播放
+表示是否启用在手机上播放
 
 ```csharp
 public bool PlayOnPhoneEnabled { get; }

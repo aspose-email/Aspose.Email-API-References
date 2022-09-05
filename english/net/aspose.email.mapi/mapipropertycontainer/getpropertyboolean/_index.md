@@ -1,7 +1,7 @@
 ---
 title: GetPropertyBoolean
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the property specified by tag as Boolean type.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertyboolean/

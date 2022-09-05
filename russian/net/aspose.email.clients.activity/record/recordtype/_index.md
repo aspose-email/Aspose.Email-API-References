@@ -1,14 +1,14 @@
 ---
 title: RecordType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип операции указанный в записи. ОбязательноДа
+description: Получает или задает тип операции указанный в записи. Обязательно Да
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.activity/record/recordtype/
 ---
 ## Record.RecordType property
 
-Получает или задает тип операции, указанный в записи. Обязательно:Да
+Получает или задает тип операции, указанный в записи. Обязательно: Да
 
 ```csharp
 public RecordType RecordType { get; set; }

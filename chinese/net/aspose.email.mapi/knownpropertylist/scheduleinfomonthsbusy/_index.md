@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsBusy
 second_title: Aspose.Email for .NET API 参考
-description: 指定忙/忙消息中出现忙/闲数据的月份 区域忙/闲属性 规范名称PidTagScheduleInfoMonthsBusy 备用名称PR_SCHDINFO_MONTHS_BUSY
+description: 指定忙/忙消息中出现忙/闲数据的月份 区域空闲/忙碌属性 规范名称PidTagScheduleInfoMonthsBusy 备用名称PR_SCHDINFO_MONTHS_BUSY
 type: docs
 weight: 16870
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsbusy/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsBusy field
 
-指定忙/忙消息中出现忙/闲数据的月份。 区域:忙/闲属性 规范名称:PidTagScheduleInfoMonthsBusy 备用名称:PR_SCHDINFO_MONTHS_BUSY
+指定忙/忙消息中出现忙/闲数据的月份。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoMonthsBusy 备用名称：PR_SCHDINFO_MONTHS_BUSY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsBusy;

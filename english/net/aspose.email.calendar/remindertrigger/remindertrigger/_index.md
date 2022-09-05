@@ -1,12 +1,12 @@
 ---
 title: ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of ReminderTriggeraspose.email.calendar/remindertrigger class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/remindertrigger/remindertrigger/
 ---
-## ReminderTrigger constructor (1 of 2)
+## ReminderTrigger(DateTime) {#constructor_1}
 
 Initialize a new instance of [`ReminderTrigger`](../../remindertrigger) class.
 
@@ -26,7 +26,7 @@ public ReminderTrigger(DateTime dateTime)
 
 ---
 
-## ReminderTrigger constructor (2 of 2)
+## ReminderTrigger(ReminderDuration, ReminderRelated) {#constructor}
 
 Initialize a new instance of [`ReminderTrigger`](../../remindertrigger) class.
 

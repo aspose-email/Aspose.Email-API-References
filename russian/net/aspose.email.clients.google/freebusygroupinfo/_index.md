@@ -28,7 +28,7 @@ public class FreebusyGroupInfo
 | Имя | Описание |
 | --- | --- |
 | [Calendars](../../aspose.email.clients.google/freebusygroupinfo/calendars) { get; } | Список идентификаторов календарей в группе. |
-| [Errors](../../aspose.email.clients.google/freebusygroupinfo/errors) { get; } | Необязательные ошибки (если вычисление для группы не удалось). |
+| [Errors](../../aspose.email.clients.google/freebusygroupinfo/errors) { get; } | Дополнительные ошибки (если вычисление для группы не удалось). |
 | [GroupId](../../aspose.email.clients.google/freebusygroupinfo/groupid) { get; set; } | Идентификатор группы |
 
 ### Смотрите также

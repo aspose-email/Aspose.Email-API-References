@@ -1,7 +1,7 @@
 ---
 title: UpdateContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates contact
 type: docs
 weight: 330
 url: /net/aspose.email.clients.google/igmailclient/updatecontact/

@@ -1,7 +1,7 @@
 ---
 title: ListAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List Attachments from the parent message.
 type: docs
 weight: 270
 url: /net/aspose.email.clients.graph/igraphclient/listattachments/

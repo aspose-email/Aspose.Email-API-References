@@ -3,7 +3,7 @@ title: DebugFormatter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет класс для форматирования сообщений записей журнала.
 type: docs
-weight: 20420
+weight: 20470
 url: /ru/net/aspose.email.tools.logging/debugformatter/
 ---
 ## DebugFormatter class
@@ -24,9 +24,9 @@ public class DebugFormatter : Formatter
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или устанавливает нижний колонтитул. |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или задает заголовок. |
-| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или устанавливает заголовок журнала |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или задает нижний колонтитул. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или устанавливает заголовок. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или задает заголовок журнала |
 
 ## Методы
 

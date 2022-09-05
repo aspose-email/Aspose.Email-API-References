@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorStrings
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит определения представлений в строковом формате. ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagViewDescriptorStrings Альтернативные именаPR_VD_STRINGS PR_VD_STRINGS_W
+description: Содержит определения представлений в строковом формате. Область MessageClassDefinedTransmittable Каноническое имя PidTagViewDescriptorStrings Альтернативные имена PR_VD_STRINGS PR_VD_STRINGS_W
 type: docs
 weight: 19270
 url: /ru/net/aspose.email.mapi/knownpropertylist/viewdescriptorstrings/
 ---
 ## KnownPropertyList.ViewDescriptorStrings field
 
-Содержит определения представлений в строковом формате. Область:MessageClassDefinedTransmittable Каноническое имя:PidTagViewDescriptorStrings Альтернативные имена:PR_VD_STRINGS, PR_VD_STRINGS_W
+Содержит определения представлений в строковом формате. Область: MessageClassDefinedTransmittable Каноническое имя: PidTagViewDescriptorStrings Альтернативные имена: PR_VD_STRINGS, PR_VD_STRINGS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorStrings;

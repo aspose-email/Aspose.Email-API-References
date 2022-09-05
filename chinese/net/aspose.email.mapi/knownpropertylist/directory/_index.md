@@ -1,14 +1,14 @@
 ---
 title: Directory
 second_title: Aspose.Email for .NET API 参考
-description: 指定要使用的目录服务器 区域会议 规范名称PidLidDirectory 替代名称dispidDirectory
+description: 指定要使用的目录服务器 区域会议 规范名称PidLidDirectory 备用名称dispidDirectory
 type: docs
 weight: 4040
 url: /zh/net/aspose.email.mapi/knownpropertylist/directory/
 ---
 ## KnownPropertyList.Directory field
 
-指定要使用的目录服务器。 区域:会议 规范名称:PidLidDirectory 替代名称:dispidDirectory
+指定要使用的目录服务器。 区域：会议 规范名称：PidLidDirectory 备用名称：dispidDirectory
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Directory;

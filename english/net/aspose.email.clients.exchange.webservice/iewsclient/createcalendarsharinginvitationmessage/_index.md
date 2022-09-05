@@ -1,7 +1,7 @@
 ---
 title: CreateCalendarSharingInvitationMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create calendar sharing invitation message.
 type: docs
 weight: 470
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createcalendarsharinginvitationmessage/

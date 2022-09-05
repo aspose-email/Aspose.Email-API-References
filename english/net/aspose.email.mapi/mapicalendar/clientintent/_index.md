@@ -1,7 +1,7 @@
 ---
 title: ClientIntent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the actions the user has taken on this Meeting object.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendar/clientintent/

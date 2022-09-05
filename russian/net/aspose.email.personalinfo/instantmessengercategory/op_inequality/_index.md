@@ -17,7 +17,7 @@ public static bool operator !=(InstantMessengerCategory a, InstantMessengerCateg
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | InstantMessengerCategory | Первый объект для сравнения |
-| b | InstantMessengerCategory | Второй объект для сравнения compare |
+| b | InstantMessengerCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

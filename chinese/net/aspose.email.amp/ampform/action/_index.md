@@ -1,14 +1,14 @@
 ---
 title: Action
 second_title: Aspose.Email for .NET API 参考
-description: 指定一个服务器端点来处理表单输入该值必须是 https URL绝对或相对并且不能是指向 CDN
+description: 指定一个服务器端点来处理表单输入该值必须是 https URL绝对或相对并且不能是指向 CDN 的链接
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/ampform/action/
 ---
 ## AmpForm.Action property
 
-指定一个服务器端点来处理表单输入。该值必须是 https URL（绝对或相对），并且不能是指向 CDN
+指定一个服务器端点来处理表单输入。该值必须是 https URL（绝对或相对），并且不能是指向 CDN 的链接
 
 ```csharp
 public string Action { get; set; }

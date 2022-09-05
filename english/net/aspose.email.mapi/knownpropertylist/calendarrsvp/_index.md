@@ -1,7 +1,7 @@
 ---
 title: CalendarRsvp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the organizer of an appointment or meeting requested a response. Area Common Canonical name PidNameCalendarRsvp Alternate names urnschemascalendarrsvp
 type: docs
 weight: 2390
 url: /net/aspose.email.mapi/knownpropertylist/calendarrsvp/

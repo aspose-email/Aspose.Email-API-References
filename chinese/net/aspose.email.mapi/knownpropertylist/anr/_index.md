@@ -1,14 +1,14 @@
 ---
 title: Anr
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于模糊名称解析的过滤器值 区域地址簿 规范名称PidTagAnr 别名PR_ANR PR_ANR_A PR_ANR_W
+description: 包含用于模糊名称解析的过滤器值 区域地址簿 规范名称PidTagAnr 替代名称PR_ANRPR_ANR_APR_ANR_W
 type: docs
 weight: 1090
 url: /zh/net/aspose.email.mapi/knownpropertylist/anr/
 ---
 ## KnownPropertyList.Anr field
 
-包含用于模糊名称解析的过滤器值。 区域:地址簿 规范名称:PidTagAnr 别名:PR_ANR, PR_ANR_A, PR_ANR_W
+包含用于模糊名称解析的过滤器值。 区域：地址簿 规范名称：PidTagAnr 替代名称：PR_ANR、PR_ANR_A、PR_ANR_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Anr;

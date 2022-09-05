@@ -1,14 +1,14 @@
 ---
 title: CertificateRetrieval
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器是否应该为每个已解析的收件人返回 S/MIME 证书
+description: 指定服务器是否应为每个已解析的收件人返回 S/MIME 证书
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/certificateretrieval/
 ---
 ## ResolveRecipientsOptions.CertificateRetrieval property
 
-指定服务器是否应该为每个已解析的收件人返回 S/MIME 证书。
+指定服务器是否应为每个已解析的收件人返回 S/MIME 证书。
 
 ```csharp
 public CertificateRetrieval? CertificateRetrieval { get; set; }

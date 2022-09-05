@@ -1,14 +1,14 @@
 ---
 title: VCardEmail
 second_title: Aspose.Email for .NET API 参考
-description: 表示 vCard 电子邮件
+description: 代表电子名片电子邮件
 type: docs
-weight: 19580
+weight: 19610
 url: /zh/net/aspose.email.personalinfo.vcard/vcardemail/
 ---
 ## VCardEmail class
 
-表示 vCard 电子邮件
+代表电子名片电子邮件
 
 ```csharp
 public sealed class VCardEmail
@@ -18,7 +18,7 @@ public sealed class VCardEmail
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardEmail](vcardemail)() | 初始化 [`VCardEmail`](../vcardemail) 类的新实例 |
+| [VCardEmail](vcardemail)() | 初始化[`VCardEmail`](../vcardemail) class |
 
 ## 特性
 

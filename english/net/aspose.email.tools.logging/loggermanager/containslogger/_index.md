@@ -1,7 +1,7 @@
 ---
 title: ContainsLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the logger cache contains an object with the specified logger name.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.logging/loggermanager/containslogger/

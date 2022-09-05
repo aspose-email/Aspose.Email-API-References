@@ -1,14 +1,14 @@
 ---
 title: SubmitFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SUBMIT_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SUBMIT_FLAGS
 type: docs
 weight: 18380
 url: /ru/net/aspose.email.mapi/knownpropertylist/submitflags/
 ---
 ## KnownPropertyList.SubmitFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SUBMIT_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SUBMIT_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SubmitFlags;

@@ -1,14 +1,14 @@
 ---
 title: VCardVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет версию vCard
+description: Перечисляет vCard version
 type: docs
-weight: 19790
+weight: 19840
 url: /ru/net/aspose.email.personalinfo.vcard/vcardversion/
 ---
 ## VCardVersion enumeration
 
-Перечисляет версию vCard
+Перечисляет vCard version
 
 ```csharp
 public enum VCardVersion
@@ -18,8 +18,8 @@ public enum VCardVersion
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| V21 | `0` | vCard версии 2.1 (по умолчанию) |
-| V30 | `1` | vCard версии 3.0 |
+| V21 | `0` | визитная карточка версии 2.1 (по умолчанию) |
+| V30 | `1` | визитная карточка версии 3.0 |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: CreateLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a logger with specified name and appender.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/loggermanager/createlogger/
 ---
-## LoggerManager.CreateLogger method (1 of 4)
+## CreateLogger(string, Appender) {#createlogger}
 
 Creates a logger with specified name and appender.
 
@@ -33,7 +33,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (2 of 4)
+## CreateLogger(string, params Appender[]) {#createlogger_1}
 
 Creates a logger with specified name and appender.
 
@@ -60,7 +60,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (3 of 4)
+## CreateLogger(string, LogLevel, Appender) {#createlogger_2}
 
 Creates a logger with specified name and appender.
 
@@ -89,7 +89,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (4 of 4)
+## CreateLogger(string, LogLevel, params Appender[]) {#createlogger_3}
 
 Creates a logger with specified name and appender.
 

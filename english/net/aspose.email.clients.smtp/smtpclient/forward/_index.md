@@ -1,12 +1,12 @@
 ---
 title: Forward
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Forwards specified message to recipient
 type: docs
 weight: 130
 url: /net/aspose.email.clients.smtp/smtpclient/forward/
 ---
-## SmtpClient.Forward method (1 of 6)
+## Forward(IConnection, string, string, MailMessage) {#forward_2}
 
 Forwards specified message to recipient
 
@@ -31,7 +31,7 @@ public void Forward(IConnection connection, string sender, string recipient, Mai
 
 ---
 
-## SmtpClient.Forward method (2 of 6)
+## Forward(IConnection, string, MailAddressCollection, MailMessage) {#forward}
 
 Forwards specified message to recipient
 
@@ -58,7 +58,7 @@ public void Forward(IConnection connection, string sender, MailAddressCollection
 
 ---
 
-## SmtpClient.Forward method (3 of 6)
+## Forward(string, string, MailMessage) {#forward_5}
 
 Forwards specified message to recipient
 
@@ -81,7 +81,7 @@ public void Forward(string sender, string recipient, MailMessage message)
 
 ---
 
-## SmtpClient.Forward method (4 of 6)
+## Forward(string, MailAddressCollection, MailMessage) {#forward_3}
 
 Forwards specified message to recipient
 
@@ -105,7 +105,7 @@ public void Forward(string sender, MailAddressCollection recipients, MailMessage
 
 ---
 
-## SmtpClient.Forward method (5 of 6)
+## Forward(IConnection, string, MailAddressCollection, Stream) {#forward_1}
 
 Forwards specified message to recipient
 
@@ -131,7 +131,7 @@ public void Forward(IConnection connection, string sender, MailAddressCollection
 
 ---
 
-## SmtpClient.Forward method (6 of 6)
+## Forward(string, MailAddressCollection, Stream) {#forward_4}
 
 Forwards specified message to recipient
 

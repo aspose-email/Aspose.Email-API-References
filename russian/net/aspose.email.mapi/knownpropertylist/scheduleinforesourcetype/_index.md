@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoResourceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливается в 0x00000000 при отправке и игнорируется при получении. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoResourceType Альтернативные именаPR_SCHDINFO_RESOURCE_TYPE
+description: Устанавливается в 0x00000000 при отправке и игнорируется при получении. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoResourceType Альтернативные имена PR_SCHDINFO_RESOURCE_TYPE
 type: docs
 weight: 16900
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinforesourcetype/
 ---
 ## KnownPropertyList.ScheduleInfoResourceType field
 
-Устанавливается в 0x00000000 при отправке и игнорируется при получении. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoResourceType Альтернативные имена:PR_SCHDINFO_RESOURCE_TYPE
+Устанавливается в 0x00000000 при отправке и игнорируется при получении. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoResourceType Альтернативные имена: PR_SCHDINFO_RESOURCE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoResourceType;

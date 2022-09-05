@@ -18,7 +18,7 @@ public abstract class BaseRestObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BaseRestObject](baserestobject)(MapiPropertyCollection, PropertyDescriptor[]) | 初始化[`FolderInfo`](../folderinfo)类的新实例。 |
+| [BaseRestObject](baserestobject)(MapiPropertyCollection, PropertyDescriptor[]) | 初始化[`FolderInfo`](../folderinfo)类. |
 
 ## 特性
 

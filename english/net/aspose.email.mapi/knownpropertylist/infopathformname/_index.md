@@ -1,7 +1,7 @@
 ---
 title: InfoPathFormName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the form associated with this message. Area Common Canonical name PidLidInfoPathFormName Alternate names
 type: docs
 weight: 11320
 url: /net/aspose.email.mapi/knownpropertylist/infopathformname/

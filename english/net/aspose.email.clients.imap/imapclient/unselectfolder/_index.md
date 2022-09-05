@@ -1,12 +1,12 @@
 ---
 title: UnselectFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Permanently removes all messages marked as deleted for currently selected folder and removes selectedstate for this folder.
 type: docs
 weight: 1250
 url: /net/aspose.email.clients.imap/imapclient/unselectfolder/
 ---
-## ImapClient.UnselectFolder method (1 of 4)
+## UnselectFolder(IConnection) {#unselectfolder_1}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -27,7 +27,7 @@ public void UnselectFolder(IConnection connection)
 
 ---
 
-## ImapClient.UnselectFolder method (2 of 4)
+## UnselectFolder() {#unselectfolder}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -43,7 +43,7 @@ public void UnselectFolder()
 
 ---
 
-## ImapClient.UnselectFolder method (3 of 4)
+## UnselectFolder(IConnection, bool) {#unselectfolder_2}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 
@@ -65,7 +65,7 @@ public void UnselectFolder(IConnection connection, bool doNotExpunge)
 
 ---
 
-## ImapClient.UnselectFolder method (4 of 4)
+## UnselectFolder(bool) {#unselectfolder_3}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 

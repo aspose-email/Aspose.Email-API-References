@@ -1,14 +1,14 @@
 ---
 title: HomeAddressCity
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的家乡名称例如城镇或城市 区域MapiMailUser 规范名称PidTagHomeAddressCity 备用名称PR_HOME_ADDRESS_CITY PR_HOME_ADDRESS_CITY_A
+description: 包含邮件用户的本地名称例如城镇或城市 区域MapiMailUser 规范名称PidTagHomeAddressCity 替代名称PR_HOME_ADDRESS_CITYPR_HOME_ADDRESS_CITY_A
 type: docs
 weight: 11010
 url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddresscity/
 ---
 ## KnownPropertyList.HomeAddressCity field
 
-包含邮件用户的家乡名称，例如城镇或城市。 区域:MapiMailUser 规范名称:PidTagHomeAddressCity 备用名称:PR_HOME_ADDRESS_CITY, PR_HOME_ADDRESS_CITY_A,
+包含邮件用户的本地名称，例如城镇或城市。 区域：MapiMailUser 规范名称：PidTagHomeAddressCity 替代名称：PR_HOME_ADDRESS_CITY、PR_HOME_ADDRESS_CITY_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressCity;

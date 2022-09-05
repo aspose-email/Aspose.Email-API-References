@@ -1,7 +1,7 @@
 ---
 title: SharePointAuditOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SharePoint audit operations
 type: docs
 weight: 2760
 url: /net/aspose.email.clients.activity/sharepointauditoperation/

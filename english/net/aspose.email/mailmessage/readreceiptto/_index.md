@@ -1,9 +1,9 @@
 ---
 title: ReadReceiptTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the read receipt address.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.email/mailmessage/readreceiptto/
 ---
 ## MailMessage.ReadReceiptTo property

@@ -16,10 +16,10 @@ url: /ru/net/aspose.email.windows.forms/
 | [FileDataObjectCollection](./filedataobjectcollection) | Представляет коллекцию для FileDataObject. |
 | [FileDragEventArgs](./filedrageventargs) |  |
 | [FileDragEventHandler](./filedrageventhandler) |  |
-| [FileDropTargetManager](./filedroptargetmanager) | Представляет класс менеджера для цели перетаскивания файлов. |
+| [FileDropTargetManager](./filedroptargetmanager) | Представляет класс менеджера для цели перетаскивания файла. |
 | [FileDropTargetPanel](./filedroptargetpanel) | Представляет цель перетаскивания файла. |
 | [MailClientAgent](./mailclientagent) | Представляет агент почтового клиента. |
-| [Recipient](./recipient) | Представляет получателя для MapiMailMessage. |
+| [Recipient](./recipient) | Представляет получателя MapiMailMessage. |
 | [RecipientCollection](./recipientcollection) | Представляет группу получателей почтового сообщения. |
 ## Интерфейсы
 

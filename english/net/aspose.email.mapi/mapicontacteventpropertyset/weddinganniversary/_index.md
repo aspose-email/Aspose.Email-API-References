@@ -1,7 +1,7 @@
 ---
 title: WeddingAnniversary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the wedding anniversary of the contact
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary/

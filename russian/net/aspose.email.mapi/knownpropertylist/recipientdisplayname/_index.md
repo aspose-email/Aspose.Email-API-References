@@ -1,14 +1,14 @@
 ---
 title: RecipientDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает отображаемое имя получателя. ОбластьTransportRecipient Каноническое имяPidTagRecipientDisplayName Альтернативные именаPR_RECIPIENT_DISPLAY_NAME PR_RECIPIENT_DISPLAY_NAME_W
+description: Указывает отображаемое имя получателя. Область TransportRecipient Каноническое имя PidTagRecipientDisplayName Альтернативные имена PR_RECIPIENT_DISPLAY_NAME PR_RECIPIENT_DISPLAY_NAME_W
 type: docs
 weight: 15410
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientdisplayname/
 ---
 ## KnownPropertyList.RecipientDisplayName field
 
-Задает отображаемое имя получателя. Область:TransportRecipient Каноническое имя:PidTagRecipientDisplayName Альтернативные имена:PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_W
+Указывает отображаемое имя получателя. Область: TransportRecipient Каноническое имя: PidTagRecipientDisplayName Альтернативные имена: PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientDisplayName;

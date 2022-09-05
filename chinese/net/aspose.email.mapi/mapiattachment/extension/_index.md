@@ -16,7 +16,7 @@ public string Extension { get; }
 
 ### 适当的价值
 
-扩展名。
+扩展名.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Email для .NET API
-description: Операция Equel определена
+description: Определена операция Equel
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.imap/esearchoptions/op_equality/
 ---
 ## ESearchOptions Equality operator
 
-Операция Equel определена
+Определена операция Equel
 
 ```csharp
 public static bool operator ==(ESearchOptions val1, ESearchOptions val2)

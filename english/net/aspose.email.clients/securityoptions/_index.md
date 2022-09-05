@@ -1,9 +1,9 @@
 ---
 title: SecurityOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Security mode for a mail client
 type: docs
-weight: 16810
+weight: 16950
 url: /net/aspose.email.clients/securityoptions/
 ---
 ## SecurityOptions enumeration

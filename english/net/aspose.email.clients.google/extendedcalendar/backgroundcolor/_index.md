@@ -1,7 +1,7 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The main color of the calendar in the format 0088aa. This property supersedes the indexbased colorId property.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/extendedcalendar/backgroundcolor/

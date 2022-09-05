@@ -1,7 +1,7 @@
 ---
 title: HttpHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a collection of HTTP headers that will be sent with each request to EWS.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/httpheaders/

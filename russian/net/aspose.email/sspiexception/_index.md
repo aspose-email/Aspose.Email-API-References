@@ -3,7 +3,7 @@ title: SSPIException
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет ошибки возникающие во время выполнения SSPI.
 type: docs
-weight: 19910
+weight: 19960
 url: /ru/net/aspose.email/sspiexception/
 ---
 ## SSPIException class
@@ -18,11 +18,11 @@ public class SSPIException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [SSPIException](sspiexception#constructor)() | Инициализирует новый экземпляр класса[`SSPIException`](../sspiexception). |
-| [SSPIException](sspiexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`SSPIException`](../sspiexception)класса со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [SSPIException](sspiexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`SSPIException`](../sspiexception)с указанным сообщением об ошибке. |
-| [SSPIException](sspiexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`SSPIException`](../sspiexception)class с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [SSPIException](sspiexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`SSPIException`](../sspiexception)с указанным сообщением об ошибке. |
+| [SSPIException](sspiexception#constructor)() | Инициализирует новый экземпляр[`SSPIException`](../sspiexception) класс. |
+| [SSPIException](sspiexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`SSPIException`](../sspiexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [SSPIException](sspiexception#constructor_2)(string) | Инициализирует новый экземпляр[`SSPIException`](../sspiexception) класс с указанным сообщением об ошибке. |
+| [SSPIException](sspiexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`SSPIException`](../sspiexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [SSPIException](sspiexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`SSPIException`](../sspiexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

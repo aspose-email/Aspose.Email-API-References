@@ -16,7 +16,7 @@ public void DeleteItem(string itemUri, DeletionOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemUri | String | Элемент uri |
+| itemUri | String | URI элемента |
 | options | DeletionOptions | Определяет параметры для удаления элемента |
 
 ### Смотрите также

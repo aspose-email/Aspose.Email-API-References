@@ -1,14 +1,14 @@
 ---
 title: ToDoSubOrdinal
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит числа от 0 до 9 которые используются для разрыва связи когда свойство PidLidToDoOrdinalDate раздел 2.344 используется для выполнения сортировки объектов. ОбластьЗадачи Каноническое имяPidLidToDoSubOrdinal Альтернативные именаdispidToDoSubOrdinal
+description: Содержит цифры от 0 до 9 которые используются для разрыва связи когда свойство PidLidToDoOrdinalDate раздел 2.344 используется для выполнения сортировки объектов. Область Tasks Каноническое имя PidLidToDoSubOrdinal Альтернативные имена dispidToDoSubOrdinal
 type: docs
 weight: 19050
 url: /ru/net/aspose.email.mapi/knownpropertylist/todosubordinal/
 ---
 ## KnownPropertyList.ToDoSubOrdinal field
 
-Содержит числа от 0 до 9, которые используются для разрыва связи, когда свойство PidLidToDoOrdinalDate (раздел 2.344) используется для выполнения сортировки объектов. Область:Задачи Каноническое имя:PidLidToDoSubOrdinal Альтернативные имена:dispidToDoSubOrdinal
+Содержит цифры от 0 до 9, которые используются для разрыва связи, когда свойство PidLidToDoOrdinalDate (раздел 2.344) используется для выполнения сортировки объектов. Область: Tasks Каноническое имя: PidLidToDoSubOrdinal Альтернативные имена: dispidToDoSubOrdinal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoSubOrdinal;

@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取MessageObjectaspose.email.mapi.msg/messageobject的附件
+description: 获取附件MessageObjectaspose.email.mapi.msg/messageobject.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi.msg/messageobject/attachments/
 ---
 ## MessageObject.Attachments property
 
-获取[`MessageObject`](../../messageobject)的附件。
+获取附件[`MessageObject`](../../messageobject).
 
 ```csharp
 public MessageObjectAttachmentsCollection Attachments { get; }

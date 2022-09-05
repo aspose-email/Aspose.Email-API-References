@@ -1,14 +1,14 @@
 ---
 title: ItemId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает идентификатор элемента
+description: Получает элемент с идентификатором
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid/
 ---
 ## ExchangeUploadItemResult.ItemId property
 
-Получает идентификатор элемента
+Получает элемент с идентификатором
 
 ```csharp
 public string ItemId { get; }

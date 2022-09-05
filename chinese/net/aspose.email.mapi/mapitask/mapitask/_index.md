@@ -1,14 +1,14 @@
 ---
 title: MapiTask
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiTaskaspose.email.mapi/mapitask类的新实例
+description: 初始化MapiTaskaspose.email.mapi/mapitask类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapitask/mapitask/
 ---
 ## MapiTask() {#constructor}
 
-初始化[`MapiTask`](../../mapitask)类的新实例。
+初始化[`MapiTask`](../../mapitask)类.
 
 ```csharp
 public MapiTask()
@@ -24,7 +24,7 @@ public MapiTask()
 
 ## MapiTask(string, string, DateTime, DateTime) {#constructor_1}
 
-初始化[`MapiTask`](../../mapitask)类的新实例。
+初始化[`MapiTask`](../../mapitask)类.
 
 ```csharp
 public MapiTask(string subject, string body, DateTime startDate, DateTime dueDate)
@@ -33,7 +33,7 @@ public MapiTask(string subject, string body, DateTime startDate, DateTime dueDat
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subject | String | 主题。 |
-| body | String | 消息体。 |
+| body | String | 消息正文。 |
 | startDate | DateTime | 开始日期。 |
 | dueDate | DateTime | 截止日期。 |
 

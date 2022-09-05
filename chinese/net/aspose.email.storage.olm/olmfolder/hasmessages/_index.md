@@ -1,14 +1,14 @@
 ---
 title: HasMessages
 second_title: Aspose.Email for .NET API 参考
-description: 获取当前文件夹是否有消息的值
+description: 获取一个值表示当前文件夹是否有消息
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.olm/olmfolder/hasmessages/
 ---
 ## OlmFolder.HasMessages property
 
-获取当前文件夹是否有消息的值。
+获取一个值，表示当前文件夹是否有消息。
 
 ```csharp
 public bool HasMessages { get; }
@@ -16,7 +16,7 @@ public bool HasMessages { get; }
 
 ### 返回值
 
-如果当前文件夹有消息则为真；否则为假。
+如果当前文件夹有消息，则为 true；否则为假。
 
 ### 也可以看看
 

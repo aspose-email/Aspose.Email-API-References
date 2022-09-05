@@ -16,7 +16,7 @@ public IEnumerator<string> GetEnumerator()
 
 ### 返回值
 
-AnIEnumerator可用于遍历集合的对象。
+一个IEnumerator可用于遍历集合的对象。
 
 ### 也可以看看
 

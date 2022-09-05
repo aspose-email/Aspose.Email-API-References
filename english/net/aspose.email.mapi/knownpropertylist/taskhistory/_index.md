@@ -1,7 +1,7 @@
 ---
 title: TaskHistory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of change that was last made to the Task object. Area Tasks Canonical name PidLidTaskHistory Alternate names dispidTaskHistory
 type: docs
 weight: 18680
 url: /net/aspose.email.mapi/knownpropertylist/taskhistory/

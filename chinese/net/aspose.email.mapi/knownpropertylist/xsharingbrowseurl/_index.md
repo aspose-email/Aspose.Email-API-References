@@ -1,14 +1,14 @@
 ---
 title: XSharingBrowseUrl
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidNameXSharingBrowseUrl 备用名称
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidNameXSharingBrowseUrl 替代名称
 type: docs
 weight: 19710
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharingbrowseurl/
 ---
 ## KnownPropertyList.XSharingBrowseUrl field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidNameXSharingBrowseUrl 备用名称:
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidNameXSharingBrowseUrl 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingBrowseUrl;

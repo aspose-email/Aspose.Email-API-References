@@ -17,7 +17,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 
 ### 也可以看看
 
@@ -101,8 +101,8 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber, long mod
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -124,8 +124,8 @@ public void UndeleteMessage(IConnection connection, string uniqueId, long modifi
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的唯一 ID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -146,8 +146,8 @@ public void UndeleteMessage(int sequenceNumber, long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -168,7 +168,7 @@ public void UndeleteMessage(string uniqueId, long modificationSequence)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 

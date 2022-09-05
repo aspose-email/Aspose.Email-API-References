@@ -1,14 +1,14 @@
 ---
 title: VCardExplanatoryInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardExplanatoryInfoaspose.email.personalinfo.vcard/vcardexplanatoryinfoclass
+description: Инициализирует новый экземплярVCardExplanatoryInfoaspose.email.personalinfo.vcard/vcardexplanatoryinfo класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/vcardexplanatoryinfo/
 ---
 ## VCardExplanatoryInfo constructor
 
-Инициализирует новый экземпляр класса[`VCardExplanatoryInfo`](../../vcardexplanatoryinfo)class
+Инициализирует новый экземпляр[`VCardExplanatoryInfo`](../../vcardexplanatoryinfo) класс
 
 ```csharp
 public VCardExplanatoryInfo()

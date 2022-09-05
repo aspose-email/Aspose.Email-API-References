@@ -1,14 +1,14 @@
 ---
 title: XVoiceMessageAttachmentOrder
 second_title: Aspose.Email for .NET API 参考
-description: 包含要作为消息的一部分以相反顺序播放的音频文件附件的名称列表 区域统一消息 规范名称PidNameXVoiceMessageAttachmentOrder 备用名称
+description: 包含要作为消息的一部分播放的音频文件附件的名称列表顺序相反 区域统一消息 规范名称PidNameXVoiceMessageAttachmentOrder 备用名称
 type: docs
 weight: 19860
 url: /zh/net/aspose.email.mapi/knownpropertylist/xvoicemessageattachmentorder/
 ---
 ## KnownPropertyList.XVoiceMessageAttachmentOrder field
 
-包含要作为消息的一部分以相反顺序播放的音频文件附件的名称列表。 区域:统一消息 规范名称:PidNameXVoiceMessageAttachmentOrder 备用名称:
+包含要作为消息的一部分播放的音频文件附件的名称列表，顺序相反。 区域：统一消息 规范名称：PidNameXVoiceMessageAttachmentOrder 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XVoiceMessageAttachmentOrder;

@@ -1,14 +1,14 @@
 ---
 title: PresentationFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает формат представления файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNamePresentationFormat Альтернативные именаurnschemas-microsoft-comofficeofficePresentationFormat
+description: Указывает формат представления файла вложенного в объект Document. Область Common Каноническое имя PidNamePresentationFormat Альтернативные имена urnschemas-microsoft-comofficeofficePresentationFormat
 type: docs
 weight: 14530
 url: /ru/net/aspose.email.mapi/knownpropertylist/presentationformat/
 ---
 ## KnownPropertyList.PresentationFormat field
 
-Задает формат представления файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNamePresentationFormat Альтернативные имена:urn:schemas-microsoft-com:office:office#PresentationFormat
+Указывает формат представления файла, вложенного в объект Document. Область: Common Каноническое имя: PidNamePresentationFormat Альтернативные имена: urn:schemas-microsoft-com:office:office#PresentationFormat
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PresentationFormat;

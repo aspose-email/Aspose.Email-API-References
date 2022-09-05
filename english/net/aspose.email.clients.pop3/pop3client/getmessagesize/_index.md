@@ -1,12 +1,12 @@
 ---
 title: GetMessageSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the message
 type: docs
 weight: 250
 url: /net/aspose.email.clients.pop3/pop3client/getmessagesize/
 ---
-## Pop3Client.GetMessageSize method (1 of 4)
+## GetMessageSize(IConnection, string) {#getmessagesize_1}
 
 Gets the size of the message
 
@@ -32,7 +32,7 @@ size of the message in bytes
 
 ---
 
-## Pop3Client.GetMessageSize method (2 of 4)
+## GetMessageSize(string) {#getmessagesize_3}
 
 Gets the size of the message
 
@@ -56,7 +56,7 @@ size of the message in bytes
 
 ---
 
-## Pop3Client.GetMessageSize method (3 of 4)
+## GetMessageSize(IConnection, int) {#getmessagesize}
 
 Gets the size of the message
 
@@ -82,7 +82,7 @@ size of the message in bytes
 
 ---
 
-## Pop3Client.GetMessageSize method (4 of 4)
+## GetMessageSize(int) {#getmessagesize_2}
 
 Gets the size of the message
 

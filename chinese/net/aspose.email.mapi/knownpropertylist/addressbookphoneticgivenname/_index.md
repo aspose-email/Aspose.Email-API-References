@@ -1,14 +1,14 @@
 ---
 title: AddressBookPhoneticGivenName
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidTagGivenName 属性的语音表示第 2.705 节 区域地址簿 规范名称PidTagAddressBookPhoneticGivenName 别名PR_EMS_AB_PHONETIC_GIVEN_NAME PR_EMS_AB_PHONETIC_GIVEN_NAME_A PR_EMS_AB_PHONETIC_GIVEN_NAME_W
+description: 包含 PidTagGivenName 属性的语音表示第 2.705 节 区域地址簿 规范名称PidTagAddressBookPhoneticGivenName 替代名称PR_EMS_AB_PHONETIC_GIVEN_NAMEPR_EMS_AB_PHONETIC_GIVEN_NAME_APR_EMS_AB_PHONETIC_GIVEN_NAME_W
 type: docs
 weight: 860
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookphoneticgivenname/
 ---
 ## KnownPropertyList.AddressBookPhoneticGivenName field
 
-包含 PidTagGivenName 属性的语音表示（第 2.705 节）。 区域:地址簿 规范名称:PidTagAddressBookPhoneticGivenName 别名:PR_EMS_AB_PHONETIC_GIVEN_NAME, PR_EMS_AB_PHONETIC_GIVEN_NAME_A, PR_EMS_AB_PHONETIC_GIVEN_NAME_W
+包含 PidTagGivenName 属性的语音表示（第 2.705 节）。 区域：地址簿 规范名称：PidTagAddressBookPhoneticGivenName 替代名称：PR_EMS_AB_PHONETIC_GIVEN_NAME、PR_EMS_AB_PHONETIC_GIVEN_NAME_A、PR_EMS_AB_PHONETIC_GIVEN_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticGivenName;

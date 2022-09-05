@@ -18,14 +18,14 @@ public void DelegateAccess(string delegateSmtpAddress,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | delegateSmtpAddress | String | Основной smtp-адрес пользователя. |
-| permissionLevel | ExchangeDelegateFolderPermissionLevel | Уровень разрешений, который предоставляется пользователю для всех папок. |
+| permissionLevel | ExchangeDelegateFolderPermissionLevel | Уровень разрешений, предоставляемый пользователю для всех папок. |
 | mailbox | String | Почтовый ящик для предоставления доступа. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*или*mailbox*is` null` или` пустой` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*или же*mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -46,15 +46,15 @@ public void DelegateAccess(ExchangeDelegateUser delegateUser, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateUser | ExchangeDelegateUser | A[`ExchangeDelegateUser`](../../exchangedelegateuser)содержащий информацию о пользователе и настройки делегирования. |
+| delegateUser | ExchangeDelegateUser | А[`ExchangeDelegateUser`](../../exchangedelegateuser) содержащий информацию о пользователе и параметры делегирования. |
 | mailbox | String | Почтовый ящик для предоставления доступа. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*равно null. |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser* нулевой. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -75,15 +75,15 @@ public void DelegateAccess(ExchangeDelegateUserCollection delegateUsers, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateUsers | ExchangeDelegateUserCollection | A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)содержащий пользователей информация и настройки делегирования. |
+| delegateUsers | ExchangeDelegateUserCollection | А[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection) содержащий информацию о пользователях и настройки делегирования. |
 | mailbox | String | Почтовый ящик для предоставления доступа. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Nickname
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人昵称
+description: 获取或设置联系人的昵称
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi/mapicontactnamepropertyset/nickname/
 ---
 ## MapiContactNamePropertySet.Nickname property
 
-获取或设置联系人昵称
+获取或设置联系人的昵称
 
 ```csharp
 public string Nickname { get; set; }

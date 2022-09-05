@@ -1,14 +1,14 @@
 ---
 title: ItOpEmpFldCntOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит параметры операции ItemOperations.EmptyFolderContents
+description: Содержит параметры для операции ItemOperations.EmptyFolderContents
 type: docs
 weight: 1330
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/
 ---
 ## ItOpEmpFldCntOptions class
 
-Содержит параметры операции ItemOperations.EmptyFolderContents
+Содержит параметры для операции ItemOperations.EmptyFolderContents
 
 ```csharp
 public class ItOpEmpFldCntOptions
@@ -24,7 +24,7 @@ public class ItOpEmpFldCntOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DeleteSubFolders](../../aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders) { get; set; } | Указывает, следует ли удалять подпапки указанной папки. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются. |
+| [DeleteSubFolders](../../aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders) { get; set; } | Указывает, следует ли удалять вложенные папки указанной папки. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются. |
 
 ### Смотрите также
 

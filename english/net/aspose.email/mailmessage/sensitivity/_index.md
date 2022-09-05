@@ -1,9 +1,9 @@
 ---
 title: Sensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the sensitivity of message
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.email/mailmessage/sensitivity/
 ---
 ## MailMessage.Sensitivity property

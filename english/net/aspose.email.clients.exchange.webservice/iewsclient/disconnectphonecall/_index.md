@@ -1,7 +1,7 @@
 ---
 title: DisconnectPhoneCall
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Disconnects a phone call specified by id.
 type: docs
 weight: 670
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/disconnectphonecall/

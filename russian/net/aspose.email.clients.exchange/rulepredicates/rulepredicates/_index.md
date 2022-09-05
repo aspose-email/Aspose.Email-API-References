@@ -1,14 +1,14 @@
 ---
 title: RulePredicates
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаRulePredicatesaspose.email.clients.exchange/rulepredicates
+description: Инициализирует новый экземплярRulePredicatesaspose.email.clients.exchange/rulepredicates класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/rulepredicates/
 ---
 ## RulePredicates constructor
 
-Инициализирует новый экземпляр класса[`RulePredicates`](../../rulepredicates)
+Инициализирует новый экземпляр[`RulePredicates`](../../rulepredicates) класс
 
 ```csharp
 public RulePredicates()

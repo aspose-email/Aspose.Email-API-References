@@ -1,7 +1,7 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the clients request for the priority with which the message is to be sent by the messaging system. Area Email Canonical name PidTagPriority Alternate names PR_PRIORITY ptagPriority urnschemashttpmailpriority
 type: docs
 weight: 14610
 url: /net/aspose.email.mapi/knownpropertylist/priority/

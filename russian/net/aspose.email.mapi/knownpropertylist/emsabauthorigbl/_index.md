@@ -1,14 +1,14 @@
 ---
 title: EmsAbAuthOrigBl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_AUTH_ORIG_BL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_AUTH_ORIG_BL
 type: docs
 weight: 4760
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabauthorigbl/
 ---
 ## KnownPropertyList.EmsAbAuthOrigBl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_AUTH_ORIG_BL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_AUTH_ORIG_BL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAuthOrigBl;

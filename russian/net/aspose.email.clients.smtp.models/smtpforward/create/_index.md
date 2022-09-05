@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает файлSmtpForwardaspose.email.clients.smtp.models/smtpforwardinstacne.
+description: СоздаетSmtpForwardaspose.email.clients.smtp.models/smtpforward instacne.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp.models/smtpforward/create/
 ---
 ## SmtpForward.Create method
 
-Создает файл[`SmtpForward`](../../smtpforward)instacne.
+Создает[`SmtpForward`](../../smtpforward) instacne.
 
 ```csharp
 public static SmtpForward Create()

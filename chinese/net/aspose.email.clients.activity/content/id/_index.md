@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/content/id/
 ---
 ## Content.Id property
 
-审计记录的唯一标识符。 强制:是
+审计记录的唯一标识符。 强制：是
 
 ```csharp
 public Guid Id { get; set; }

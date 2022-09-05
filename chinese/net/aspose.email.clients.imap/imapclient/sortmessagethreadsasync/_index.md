@@ -22,7 +22,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -78,7 +78,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -107,7 +107,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

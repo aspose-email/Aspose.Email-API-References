@@ -1,7 +1,7 @@
 ---
 title: RemoveLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes a logger with the specified name.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.logging/loggermanager/removelogger/

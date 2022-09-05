@@ -1,7 +1,7 @@
 ---
 title: ReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the folder is readonly.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/imapfolderinfo/readonly/

@@ -16,7 +16,7 @@ public MessageFormattingFlags FormattingFlags { get; set; }
 
 ### Стоимость имущества
 
-Опции принтера.
+Параметры принтера.
 
 ### Смотрите также
 

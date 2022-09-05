@@ -1,14 +1,14 @@
 ---
 title: Scope
 second_title: Aspose.Email for .NET API 参考
-description: 此事件是由托管的 O365 服务还是本地服务器创建的 可能的值是 online 和 onprem请注意SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载 强制否
+description: 此事件是由托管的 O365 服务还是本地服务器创建的 可能的值是 online 和 onprem请注意SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载 强制No
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activity/content/scope/
 ---
 ## Content.Scope property
 
-此事件是由托管的 O365 服务还是本地服务器创建的？ 可能的值是 online 和 onprem。请注意，SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载。 强制:否
+此事件是由托管的 O365 服务还是本地服务器创建的？ 可能的值是 online 和 onprem。请注意，SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载。 强制：No
 
 ```csharp
 public Scope Scope { get; set; }

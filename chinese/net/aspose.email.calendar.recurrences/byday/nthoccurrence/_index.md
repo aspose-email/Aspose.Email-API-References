@@ -20,9 +20,9 @@ public int NthOccurrence { get; set; }
 
 正值表示从周期开始的第 N 次出现，例如 NthOccurrence = 1, 表示一周中的第一次出现。
 
-负值表示周期结束后第 N 次出现，例如 NthOccurrence = -1, 表示最后一次出现星期。
+负值表示周期结束后第 N 次出现，例如 NthOccurrence = -1, 表示一周中最后一次出现。
 
-当 NthOccurrence 为零时，它表示一周中指定日期的所有出现。 例如，BYDAY=MO 的 NthOccurrence 为零，表示集合中的所有星期一。
+当 NthOccurrence 为零时，表示指定星期几的所有出现次数。 例如，BYDAY=MO 的 NthOccurrence 为零，表示集合中的所有星期一。
 
 ### 也可以看看
 

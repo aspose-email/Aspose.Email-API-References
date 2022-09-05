@@ -1,14 +1,14 @@
 ---
 title: InternetApproved
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_INTERNET_APPROVED
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_INTERNET_APPROVED
 type: docs
 weight: 11430
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetapproved/
 ---
 ## KnownPropertyList.InternetApproved field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_INTERNET_APPROVED
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_INTERNET_APPROVED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetApproved;

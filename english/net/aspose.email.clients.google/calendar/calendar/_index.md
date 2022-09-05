@@ -1,12 +1,12 @@
 ---
 title: Calendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Calendar class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/calendar/calendar/
 ---
-## Calendar constructor (1 of 6)
+## Calendar() {#constructor}
 
 Initializes a new instance of the Calendar class.
 
@@ -22,7 +22,7 @@ public Calendar()
 
 ---
 
-## Calendar constructor (2 of 6)
+## Calendar(string) {#constructor_1}
 
 Initializes a new instance of the Calendar class.
 
@@ -42,7 +42,7 @@ public Calendar(string summary)
 
 ---
 
-## Calendar constructor (3 of 6)
+## Calendar(string, string) {#constructor_2}
 
 Initializes a new instance of the Calendar class.
 
@@ -63,7 +63,7 @@ public Calendar(string id, string summary)
 
 ---
 
-## Calendar constructor (4 of 6)
+## Calendar(string, string, string, string) {#constructor_3}
 
 Initializes a new instance of the Calendar class.
 
@@ -86,7 +86,7 @@ public Calendar(string summary, string description, string location, string time
 
 ---
 
-## Calendar constructor (5 of 6)
+## Calendar(string, string, string, string, string) {#constructor_4}
 
 Initializes a new instance of the Calendar class.
 
@@ -110,7 +110,7 @@ public Calendar(string id, string summary, string description, string location, 
 
 ---
 
-## Calendar constructor (6 of 6)
+## Calendar(string, string, string, string, string, string) {#constructor_5}
 
 Initializes a new instance of the Calendar class.
 

@@ -1,14 +1,14 @@
 ---
 title: FetchMapiCalendar
 second_title: Aspose.Email for .NET API 参考
-description: 获取MapiCalendaraspose.email.mapi/mapicalendar对象的数组
+description: 获取数组MapiCalendaraspose.email.mapi/mapicalendar对象.
 type: docs
 weight: 770
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar/
 ---
 ## FetchMapiCalendar(IEnumerable&lt;string&gt;) {#fetchmapicalendar}
 
-获取[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象的数组。
+获取数组[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象.
 
 ```csharp
 public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
@@ -20,7 +20,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
 
 ### 返回值
 
-获取[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象的数组。
+获取数组[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
 
 ## FetchMapiCalendar(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapicalendar_1}
 
-获取[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象的数组。
+获取数组[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象.
 
 ```csharp
 public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris, 
@@ -47,7 +47,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris,
 
 ### 返回值
 
-获取[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象的数组。
+获取数组[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar)对象。
 
 ### 也可以看看
 

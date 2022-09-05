@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListExternalMemberCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит количество внешних получателей в списке рассылки. ОбластьАдресная книга Каноническое имяPidTagAddressBookDistributionListExternalMemberCount Альтернативные именаPR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
+description: Содержит количество внешних получателей в списке рассылки. Область Адресная книга Каноническое имя PidTagAddressBookDistributionListExternalMemberCount Альтернативные имена PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
 type: docs
 weight: 390
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistexternalmembercount/
 ---
 ## KnownPropertyList.AddressBookDistributionListExternalMemberCount field
 
-Содержит количество внешних получателей в списке рассылки. Область:Адресная книга Каноническое имя:PidTagAddressBookDistributionListExternalMemberCount Альтернативные имена:PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
+Содержит количество внешних получателей в списке рассылки. Область: Адресная книга Каноническое имя: PidTagAddressBookDistributionListExternalMemberCount Альтернативные имена: PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDistributionListExternalMemberCount;

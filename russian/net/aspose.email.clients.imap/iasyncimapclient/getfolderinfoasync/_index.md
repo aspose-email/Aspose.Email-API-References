@@ -17,13 +17,13 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, IConnection co
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Connection на сервер |
+| connection | String | Подключение к серверу |
 | folderName | IConnection | Папка для получения информации о |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Указанная информация о папке
+Информация об указанной папке
 
 ### Смотрите также
 

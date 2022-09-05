@@ -3,7 +3,7 @@ title: SmtpException
 second_title: Aspose.Email for .NET API 参考
 description: 表示 SmtpClient 无法完成操作时抛出的异常
 type: docs
-weight: 19930
+weight: 19980
 url: /zh/net/aspose.email/smtpexception/
 ---
 ## SmtpException class
@@ -18,14 +18,14 @@ public class SmtpException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SmtpException](smtpexception#constructor)() | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
-| [SmtpException](smtpexception#constructor_1)(SmtpStatusCode) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
-| [SmtpException](smtpexception#constructor_3)(string) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
-| [SmtpException](smtpexception#constructor_2)(SmtpStatusCode, string) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
-| [SmtpException](smtpexception#constructor_6)(string, Exception) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
+| [SmtpException](smtpexception#constructor)() | 初始化[`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_1)(SmtpStatusCode) | 初始化[`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_3)(string) | 初始化[`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_2)(SmtpStatusCode, string) | 初始化[`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_6)(string, Exception) | 初始化[`SmtpException`](../smtpexception) class |
 | [SmtpException](smtpexception#constructor_5)(string, MailMessage) |  |
-| [SmtpException](smtpexception#constructor_4)(string, SendMessagesResult) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
-| [SmtpException](smtpexception#constructor_7)(string, Exception, MailMessage) | 初始化 [`SmtpException`](../smtpexception) 类的新实例 |
+| [SmtpException](smtpexception#constructor_4)(string, SendMessagesResult) | 初始化[`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_7)(string, Exception, MailMessage) | 初始化[`SmtpException`](../smtpexception) class |
 
 ## 特性
 

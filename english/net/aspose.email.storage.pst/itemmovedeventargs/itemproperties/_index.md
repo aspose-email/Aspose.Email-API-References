@@ -1,7 +1,7 @@
 ---
 title: ItemProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the item properties that has been moved.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/itemmovedeventargs/itemproperties/

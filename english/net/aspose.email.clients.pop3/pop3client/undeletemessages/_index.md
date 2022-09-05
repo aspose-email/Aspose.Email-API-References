@@ -1,12 +1,12 @@
 ---
 title: UndeleteMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Undeletes the messages. If any messages have been marked as deleted by the POP3 server they are unmarked.
 type: docs
 weight: 370
 url: /net/aspose.email.clients.pop3/pop3client/undeletemessages/
 ---
-## Pop3Client.UndeleteMessages method (1 of 2)
+## UndeleteMessages(IConnection) {#undeletemessages_1}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -27,7 +27,7 @@ public void UndeleteMessages(IConnection connection)
 
 ---
 
-## Pop3Client.UndeleteMessages method (2 of 2)
+## UndeleteMessages() {#undeletemessages}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 

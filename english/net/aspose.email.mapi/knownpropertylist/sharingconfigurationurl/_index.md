@@ -1,7 +1,7 @@
 ---
 title: SharingConfigurationUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a zerolength string. Area Sharing Canonical name PidLidSharingConfigurationUrl Alternate names dispidSharingConfigUrl
 type: docs
 weight: 17430
 url: /net/aspose.email.mapi/knownpropertylist/sharingconfigurationurl/

@@ -1,7 +1,7 @@
 ---
 title: ReportSearchKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an address book search key representing the entity usually a server agent that generated the report message. Area MapiEnvelope Canonical name PidTagReportSearchKey Alternate names PR_REPORT_SEARCH_KEY ptagReportSearchKey
 type: docs
 weight: 16070
 url: /net/aspose.email.mapi/knownpropertylist/reportsearchkey/

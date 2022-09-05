@@ -1,14 +1,14 @@
 ---
 title: SharingParentBindingEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingParentBindingEntryId Альтернативные именаdispidSharingParentBindingEid
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingParentBindingEntryId Альтернативные имена dispidSharingParentBindingEid
 type: docs
 weight: 17670
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingparentbindingentryid/
 ---
 ## KnownPropertyList.SharingParentBindingEntryId field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingParentBindingEntryId Альтернативные имена:dispidSharingParentBindingEid
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingParentBindingEntryId Альтернативные имена: dispidSharingParentBindingEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingParentBindingEntryId;

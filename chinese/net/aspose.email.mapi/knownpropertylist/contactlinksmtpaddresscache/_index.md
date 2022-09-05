@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinksmtpaddresscache/
 ---
 ## KnownPropertyList.ContactLinkSMTPAddressCache field
 
-包含联系人使用的 SMTP 地址列表。 区域:联系人属性 规范名称:PidLidContactLinkSMTPAddressCache 备用名称:dispidContactLinkSMTPAddressCache
+包含联系人使用的 SMTP 地址列表。 区域：联系人属性 规范名称：PidLidContactLinkSMTPAddressCache 备用名称：dispidContactLinkSMTPAddressCache
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkSMTPAddressCache;

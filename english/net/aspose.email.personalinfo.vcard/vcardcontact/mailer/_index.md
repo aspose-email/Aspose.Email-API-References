@@ -1,9 +1,9 @@
 ---
 title: Mailer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a mailer
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/mailer/
 ---
 ## VCardContact.Mailer property

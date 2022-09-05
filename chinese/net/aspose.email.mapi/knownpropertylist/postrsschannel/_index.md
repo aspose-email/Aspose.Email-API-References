@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrsschannel/
 ---
 ## KnownPropertyList.PostRssChannel field
 
-包含来自 Atom 提要或 RSS 频道的 XML 的标题字段的内容。 区域:RSS 规范名称:PidLidPostRssChannel 替代名称:dispidPostRssChannel
+包含来自 Atom 提要或 RSS 频道的 XML 的标题字段的内容。 区域：RSS 规范名称：PidLidPostRssChannel 替代名称：dispidPostRssChannel
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssChannel;

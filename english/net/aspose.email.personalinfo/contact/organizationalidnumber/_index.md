@@ -1,7 +1,7 @@
 ---
 title: OrganizationalIdNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an identifier for the mail user used within the mail users organization.
 type: docs
 weight: 310
 url: /net/aspose.email.personalinfo/contact/organizationalidnumber/

@@ -1,7 +1,7 @@
 ---
 title: AddressBookExtensionAttribute3
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains custom values defined and populated by the organization that modified the display templates. Area Address Book Canonical name PidTagAddressBookExtensionAttribute3 Alternate names PR_EMS_AB_EXTENSION_ATTRIBUTE_3 PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
 type: docs
 weight: 530
 url: /net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute3/

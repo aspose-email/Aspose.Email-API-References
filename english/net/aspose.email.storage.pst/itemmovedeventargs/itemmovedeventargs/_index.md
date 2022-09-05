@@ -1,12 +1,12 @@
 ---
 title: ItemMovedEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ItemMovedEventArgsaspose.email.storage.pst/itemmovedeventargs class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/itemmovedeventargs/itemmovedeventargs/
 ---
-## ItemMovedEventArgs constructor (1 of 3)
+## ItemMovedEventArgs(MessageInfo) {#constructor_1}
 
 Initializes a new instance of the [`ItemMovedEventArgs`](../../itemmovedeventargs) class.
 
@@ -27,7 +27,7 @@ public ItemMovedEventArgs(MessageInfo message)
 
 ---
 
-## ItemMovedEventArgs constructor (2 of 3)
+## ItemMovedEventArgs(FolderInfo) {#constructor}
 
 Initializes a new instance of the [`ItemMovedEventArgs`](../../itemmovedeventargs) class.
 
@@ -48,7 +48,7 @@ public ItemMovedEventArgs(FolderInfo folder)
 
 ---
 
-## ItemMovedEventArgs constructor (3 of 3)
+## ItemMovedEventArgs(string, MapiPropertyCollection) {#constructor_2}
 
 Initializes a new instance of the [`ItemMovedEventArgs`](../../itemmovedeventargs) class.
 

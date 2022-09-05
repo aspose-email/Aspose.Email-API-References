@@ -26,10 +26,10 @@ public class EmlSaveOptions : SaveOptions
 | --- | --- |
 | [CheckBodyContentEncoding](../../aspose.email/emlsaveoptions/checkbodycontentencoding) { get; set; } | Определяет, нужно ли проверять кодировку содержимого тела сообщения при сохранении. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Представляет метод, который обычно предоставляется вызывающей стороной и обрабатывает события выполнения. |
-| [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode) { get; set; } | Определяет внутренние преобразования, которые обязательно нужно делать при сохранении сообщения. Значение по умолчанию — FileCompatibilityMode.None. |
+| [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode) { get; set; } | Определяет внутренние преобразования, которые обязательно должны выполняться при сохранении сообщения. Значение по умолчанию — FileCompatibilityMode.None. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Представляет тип сохранения почтового сообщения. Он может быть в формате eml, msg (ASCII или Unicode), mhtml или html. Значение по умолчанию — Eml. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при преобразовании в MailMessage. |
-| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять подписанное сообщение без изменений содержимого для корректной структуры цифрового знака. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при преобразовании в MailMessage. |
+| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять подписанное сообщение без изменения содержимого для корректной структуры цифрового знака. |
 
 ### Смотрите также
 

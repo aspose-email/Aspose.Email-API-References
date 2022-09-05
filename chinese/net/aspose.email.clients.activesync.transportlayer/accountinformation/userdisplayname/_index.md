@@ -1,14 +1,14 @@
 ---
 title: UserDisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 指定与给定帐户关联的用户的显示名称 UserDisplayName 值最长可达 512 个字符 协议版本为 12.1 或 14.0 时不支持 UserDisplayName
+description: 指定与给定帐户关联的用户的显示名称 UserDisplayName 值最长可达 512 个字符 当协议版本为 12.1 或 14.0 时不支持 UserDisplayName
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname/
 ---
 ## AccountInformation.UserDisplayName property
 
-指定与给定帐户关联的用户的显示名称。 UserDisplayName 值最长可达 512 个字符。 协议版本为 12.1 或 14.0 时不支持 UserDisplayName。
+指定与给定帐户关联的用户的显示名称。 UserDisplayName 值最长可达 512 个字符。 当协议版本为 12.1 或 14.0 时，不支持 UserDisplayName。
 
 ```csharp
 public string UserDisplayName { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: ItemMoved
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when an item is moved to the another folder.
 type: docs
 weight: 110
 url: /net/aspose.email.storage.pst/folderinfo/itemmoved/

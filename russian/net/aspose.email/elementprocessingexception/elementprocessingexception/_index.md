@@ -1,14 +1,14 @@
 ---
 title: ElementProcessingException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаElementProcessingExceptionaspose.email/elementprocessingexceptionс указанным индексом элемента.
+description: Инициализирует новый экземплярElementProcessingExceptionaspose.email/elementprocessingexception класс с указанным индексом элемента.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/elementprocessingexception/elementprocessingexception/
 ---
 ## ElementProcessingException constructor
 
-Инициализирует новый экземпляр класса[`ElementProcessingException`](../../elementprocessingexception)с указанным индексом элемента.
+Инициализирует новый экземпляр[`ElementProcessingException`](../../elementprocessingexception) класс с указанным индексом элемента.
 
 ```csharp
 public ElementProcessingException(int elementIndex, Exception innerException)
@@ -17,7 +17,7 @@ public ElementProcessingException(int elementIndex, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | elementIndex | Int32 | Индекс обрабатываемого элемента. |
-| innerException | Exception | Исключение, которое является причиной текущего исключения. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения. |
 
 ### Смотрите также
 

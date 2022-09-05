@@ -1,7 +1,7 @@
 ---
 title: Mht
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates message in Mht format.
 type: docs
 weight: 40
 url: /net/aspose.email/messageformat/mht/

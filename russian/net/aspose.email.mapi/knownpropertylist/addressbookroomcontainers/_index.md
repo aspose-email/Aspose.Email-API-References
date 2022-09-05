@@ -1,14 +1,14 @@
 ---
 title: AddressBookRoomContainers
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список DN которые представляют контейнеры адресной книги содержащие объекты ресурсов такие как конференц-залы и оборудование. ОбластьАдресная книга Каноническое имяPidTagAddressBookRoomContainers Альтернативные именаPR_EMS_AB_ROOM_CONTAINERS PR_EMS_AB_ROOM_CONTAINERS_A PR_EMS_AB_ROOM_CONTAINERS_W
+description: Содержит список DN которые представляют контейнеры адресной книги содержащие объекты ресурсов такие как конференц-залы и оборудование. Область Адресная книга Каноническое имя PidTagAddressBookRoomContainers Альтернативные имена PR_EMS_AB_ROOM_CONTAINERS PR_EMS_AB_ROOM_CONTAINERS_A PR_EMS_AB_ROOM_CONTAINERS_W
 type: docs
 weight: 940
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookroomcontainers/
 ---
 ## KnownPropertyList.AddressBookRoomContainers field
 
-Содержит список DN, которые представляют контейнеры адресной книги, содержащие объекты ресурсов, такие как конференц-залы и оборудование. Область:Адресная книга Каноническое имя:PidTagAddressBookRoomContainers Альтернативные имена:PR_EMS_AB_ROOM_CONTAINERS, PR_EMS_AB_ROOM_CONTAINERS_A, PR_EMS_AB_ROOM_CONTAINERS_W
+Содержит список DN, которые представляют контейнеры адресной книги, содержащие объекты ресурсов, такие как конференц-залы и оборудование. Область: Адресная книга Каноническое имя: PidTagAddressBookRoomContainers Альтернативные имена: PR_EMS_AB_ROOM_CONTAINERS, PR_EMS_AB_ROOM_CONTAINERS_A, PR_EMS_AB_ROOM_CONTAINERS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomContainers;

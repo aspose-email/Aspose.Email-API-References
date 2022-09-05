@@ -1,14 +1,14 @@
 ---
 title: GetValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение как объект
+description: Получает значение как object
 type: docs
 weight: 260
 url: /ru/net/aspose.email.mapi/mapiproperty/getvalue/
 ---
 ## MapiProperty.GetValue method
 
-Получает значение как объект
+Получает значение как object
 
 ```csharp
 public object GetValue()
@@ -16,7 +16,7 @@ public object GetValue()
 
 ### Возвращаемое значение
 
-значение свойства
+стоимость имущества
 
 ### Смотрите также
 

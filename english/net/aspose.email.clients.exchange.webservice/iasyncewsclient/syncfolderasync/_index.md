@@ -1,7 +1,7 @@
 ---
 title: SyncFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves changes of the items in a specified folder.
 type: docs
 weight: 650
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/syncfolderasync/

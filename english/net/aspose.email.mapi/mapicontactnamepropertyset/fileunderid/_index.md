@@ -1,7 +1,7 @@
 ---
 title: FileUnderID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value specifying how to generate and recompute the  property when other properties are changed
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/fileunderid/

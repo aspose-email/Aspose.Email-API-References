@@ -16,7 +16,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderId | String | Идентификатор папки в котором искать |
+| folderId | String | id папки, в которой искать |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: WriteXml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts an object into its XML representation.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.search/mailquery/writexml/

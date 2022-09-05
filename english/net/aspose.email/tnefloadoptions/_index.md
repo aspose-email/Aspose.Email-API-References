@@ -1,9 +1,9 @@
 ---
 title: TnefLoadOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when loading MailMessage from Tnef format.
 type: docs
-weight: 20180
+weight: 20410
 url: /net/aspose.email/tnefloadoptions/
 ---
 ## TnefLoadOptions class

@@ -20,7 +20,7 @@ public short? GetPropertyShort(long tag)
 
 ### 返回值
 
-属性的值。如果属性不存在，返回NULL； 否则，返回值。
+财产的价值。如果属性不存在，返回NULL； 否则，返回值。
 
 ### 也可以看看
 

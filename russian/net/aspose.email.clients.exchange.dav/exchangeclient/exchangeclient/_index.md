@@ -16,7 +16,7 @@ public ExchangeClient(string mailboxUri, string username, string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailboxUri | String | URL почтового ящика |
+| mailboxUri | String | URL-адрес почтового ящика |
 | username | String | Имя пользователя почтового ящика |
 | password | String | Пароль почтового ящика |
 
@@ -38,7 +38,7 @@ public ExchangeClient(string mailboxUri, string username, string password, strin
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailboxUri | String | URL почтового ящика |
+| mailboxUri | String | URL-адрес почтового ящика |
 | username | String | Имя пользователя почтового ящика |
 | password | String | Пароль почтового ящика |
 | domain | String | Домен пользователя |
@@ -62,7 +62,7 @@ public ExchangeClient(string mailboxUri, ICredentials credentials)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mailboxUri | String | URL-адрес почтового ящика |
-| credentials | ICredentials | Учетные данные, используемые для входа в систему |
+| credentials | ICredentials | Учетные данные, используемые для входа |
 
 ### Смотрите также
 

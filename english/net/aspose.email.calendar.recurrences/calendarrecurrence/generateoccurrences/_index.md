@@ -1,12 +1,12 @@
 ---
 title: GenerateOccurrences
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Generates the occurrences.
 type: docs
 weight: 110
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences/
 ---
-## CalendarRecurrence.GenerateOccurrences method (1 of 4)
+## GenerateOccurrences() {#generateoccurrences}
 
 Generates the occurrences.
 
@@ -33,7 +33,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (2 of 4)
+## GenerateOccurrences(int) {#generateoccurrences_1}
 
 Generates n next occurrences.
 
@@ -65,7 +65,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (3 of 4)
+## GenerateOccurrences(DateTime, DateTime) {#generateoccurrences_2}
 
 Generates the occurrences.
 
@@ -97,7 +97,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (4 of 4)
+## GenerateOccurrences(DateTime, DateTime, int) {#generateoccurrences_3}
 
 Generates n next occurrences.
 

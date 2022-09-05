@@ -1,7 +1,7 @@
 ---
 title: User
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the user smtp address.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/exchangeuseravailability/user/

@@ -1,14 +1,14 @@
 ---
 title: DeferredSendUnits
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает единицу времени используемую в качестве множителя со значением свойства PidTagDeferredSendNumber раздел 2.654. ОбластьMapiStatus Каноническое имяPidTagDeferredSendUnits Альтернативные именаPR_DEFERRED_SEND_UNITS
+description: Указывает единицу времени используемую в качестве множителя со значением свойства PidTagDeferredSendNumber раздел 2.654. Область MapiStatus Каноническое имя PidTagDeferredSendUnits Альтернативные имена PR_DEFERRED_SEND_UNITS
 type: docs
 weight: 3810
 url: /ru/net/aspose.email.mapi/knownpropertylist/deferredsendunits/
 ---
 ## KnownPropertyList.DeferredSendUnits field
 
-Указывает единицу времени, используемую в качестве множителя со значением свойства PidTagDeferredSendNumber (раздел 2.654). Область:MapiStatus Каноническое имя:PidTagDeferredSendUnits Альтернативные имена:PR_DEFERRED_SEND_UNITS
+Указывает единицу времени, используемую в качестве множителя со значением свойства PidTagDeferredSendNumber (раздел 2.654). Область: MapiStatus Каноническое имя: PidTagDeferredSendUnits Альтернативные имена: PR_DEFERRED_SEND_UNITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredSendUnits;

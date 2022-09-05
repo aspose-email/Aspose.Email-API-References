@@ -1,14 +1,14 @@
 ---
 title: Flagged
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 Flags 属性是否包含 Flagged 标志
+description: 获取一个值该值指示 Flags 属性是否包含Flagged 标志
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.imap/imapmessageinfo/flagged/
 ---
 ## ImapMessageInfo.Flagged property
 
-获取一个值，该值指示 Flags 属性是否包含 Flagged 标志。
+获取一个值，该值指示 Flags 属性是否包含Flagged 标志。
 
 ```csharp
 public bool Flagged { get; }

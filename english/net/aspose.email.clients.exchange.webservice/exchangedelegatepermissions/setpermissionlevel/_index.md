@@ -1,7 +1,7 @@
 ---
 title: SetPermissionLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the permission level on all folders to the specified value
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/setpermissionlevel/

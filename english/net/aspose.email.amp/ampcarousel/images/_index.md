@@ -1,7 +1,7 @@
 ---
 title: Images
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set of images for displaying.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampcarousel/images/

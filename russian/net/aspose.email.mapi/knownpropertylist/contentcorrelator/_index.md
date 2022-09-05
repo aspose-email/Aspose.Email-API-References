@@ -1,14 +1,14 @@
 ---
 title: ContentCorrelator
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_CORRELATOR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_CORRELATOR
 type: docs
 weight: 3180
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentcorrelator/
 ---
 ## KnownPropertyList.ContentCorrelator field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_CORRELATOR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_CORRELATOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentCorrelator;

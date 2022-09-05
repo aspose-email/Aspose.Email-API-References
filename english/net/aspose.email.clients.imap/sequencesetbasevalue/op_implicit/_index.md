@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implicit conversion operation from SequenceSetBaseValueaspose.email.clients.imap/sequencesetbasevalue to String
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/sequencesetbasevalue/op_implicit/

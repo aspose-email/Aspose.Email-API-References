@@ -47,7 +47,7 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -75,7 +75,7 @@ public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootN
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -98,11 +98,11 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName, CancellationToken t
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | quotaRootName | String | 配额根名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

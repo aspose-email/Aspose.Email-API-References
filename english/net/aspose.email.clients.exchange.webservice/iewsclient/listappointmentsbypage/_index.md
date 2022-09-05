@@ -1,12 +1,12 @@
 ---
 title: ListAppointmentsByPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves page with appointments for calendar folder
 type: docs
 weight: 1080
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage/
 ---
-## IEWSClient.ListAppointmentsByPage method (1 of 8)
+## ListAppointmentsByPage(int) {#listappointmentsbypage_2}
 
 Retrieves page with appointments for calendar folder
 
@@ -31,7 +31,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (2 of 8)
+## ListAppointmentsByPage(string, int) {#listappointmentsbypage_6}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -57,7 +57,7 @@ Returns collection of appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (3 of 8)
+## ListAppointmentsByPage(MailQuery, int) {#listappointmentsbypage}
 
 Retrieves page with appointments for calendar folder
 
@@ -84,7 +84,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (4 of 8)
+## ListAppointmentsByPage(string, MailQuery, int) {#listappointmentsbypage_4}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -113,7 +113,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (5 of 8)
+## ListAppointmentsByPage(int, int) {#listappointmentsbypage_3}
 
 Retrieves page with appointments for calendar folder
 
@@ -139,7 +139,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (6 of 8)
+## ListAppointmentsByPage(string, int, int) {#listappointmentsbypage_7}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -167,7 +167,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (7 of 8)
+## ListAppointmentsByPage(MailQuery, int, int) {#listappointmentsbypage_1}
 
 Retrieves page with appointments for calendar folder
 
@@ -195,7 +195,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (8 of 8)
+## ListAppointmentsByPage(string, MailQuery, int, int) {#listappointmentsbypage_5}
 
 Retrieves page with appointments for specified calendar folder
 

@@ -1,7 +1,7 @@
 ---
 title: RuleSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value used to determine the order in which rules are evaluated and executed. Area ServerSide Rules Properties Canonical name PidTagRuleSequence Alternate names PR_RULE_SEQUENCE ptagRuleSequence
 type: docs
 weight: 16630
 url: /net/aspose.email.mapi/knownpropertylist/rulesequence/

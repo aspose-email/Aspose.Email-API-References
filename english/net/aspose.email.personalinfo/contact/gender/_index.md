@@ -1,7 +1,7 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets gender of a person.
 type: docs
 weight: 160
 url: /net/aspose.email.personalinfo/contact/gender/

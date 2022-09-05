@@ -16,7 +16,7 @@ public void UpdateContact(MapiContact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | MapiContact | Элемент контакта |
+| contact | MapiContact | Контактный элемент |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void UpdateContact(Contact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | Contact | Элемент контакта |
+| contact | Contact | Контактный элемент |
 
 ### Смотрите также
 

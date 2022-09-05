@@ -16,8 +16,8 @@ public void MarkAllItems(bool read, params string[] folderIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| read | Boolean | 将指定文件夹中的消息设置为已读/未读状态。 True 将文件夹中的消息标记为已读。 False 将消息标记为未读。 |
-| folderIds | String[] | 待处理的文件夹 uri 列表。 |
+| read | Boolean | 将指定文件夹中的邮件设置为已读/未读状态。 True 将文件夹中的邮件标记为已读。 False 将消息标记为未读。 |
+| folderIds | String[] | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 
@@ -37,9 +37,9 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, params string[] f
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| read | Boolean | 将指定文件夹中的消息设置为已读/未读状态。 True 将文件夹中的消息标记为已读。 False 将消息标记为未读。 |
+| read | Boolean | 将指定文件夹中的邮件设置为已读/未读状态。 True 将文件夹中的邮件标记为已读。 False 将消息标记为未读。 |
 | suppressReadReceipts | Boolean | True 禁止发送消息的已读回执；否则为假。 |
-| folderIds | String[] | 待处理的文件夹 uri 列表。 |
+| folderIds | String[] | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 
@@ -59,9 +59,9 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, IEnumerable<strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| read | Boolean | 将指定文件夹中的消息设置为已读/未读状态。 True 将文件夹中的消息标记为已读。 False 将消息标记为未读。 |
+| read | Boolean | 将指定文件夹中的邮件设置为已读/未读状态。 True 将文件夹中的邮件标记为已读。 False 将消息标记为未读。 |
 | suppressReadReceipts | Boolean | True 禁止发送消息的已读回执；否则为假。 |
-| folderIds | IEnumerable`1 | 待处理的文件夹 uri 列表。 |
+| folderIds | IEnumerable`1 | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 

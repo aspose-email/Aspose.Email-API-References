@@ -1,7 +1,7 @@
 ---
 title: LastException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The last error met in the validating process.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.verifications/validationresult/lastexception/

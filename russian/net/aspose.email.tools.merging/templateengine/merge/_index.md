@@ -1,14 +1,14 @@
 ---
 title: Merge
 second_title: Справочник по Aspose.Email для .NET API
-description: Объединить исходное MailMessage с шаблоном
+description: Объединить исходное MailMessage с template
 type: docs
 weight: 40
 url: /ru/net/aspose.email.tools.merging/templateengine/merge/
 ---
 ## Merge(MailMessage) {#merge}
 
-Объединить исходное MailMessage с шаблоном
+Объединить исходное MailMessage с template
 
 ```csharp
 public MailMessage Merge(MailMessage source)
@@ -16,7 +16,7 @@ public MailMessage Merge(MailMessage source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | MailMessage | Исходное MailMessage |
+| source | MailMessage | Исходный MailMessage |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ MailMessage объединен с шаблоном
 
 ## Merge(DataRow) {#merge_1}
 
-Объедините исходную строку данных с шаблоном.
+Объединить исходную строку данных с шаблоном.
 
 ```csharp
 public MailMessage Merge(DataRow row)
@@ -45,7 +45,7 @@ public MailMessage Merge(DataRow row)
 
 ### Возвращаемое значение
 
-Сообщение MailMessage объединено с шаблоном.
+MailMessage объединен с шаблоном.
 
 ### Смотрите также
 

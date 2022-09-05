@@ -1,14 +1,14 @@
 ---
 title: VCardIdentificationInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardIdentificationInfoaspose.email.personalinfo.vcard/vcardidentificationinfo 类的新实例
+description: 初始化VCardIdentificationInfoaspose.email.personalinfo.vcard/vcardidentificationinfo class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardidentificationinfo/vcardidentificationinfo/
 ---
 ## VCardIdentificationInfo constructor
 
-初始化 [`VCardIdentificationInfo`](../../vcardidentificationinfo) 类的新实例
+初始化[`VCardIdentificationInfo`](../../vcardidentificationinfo) class
 
 ```csharp
 public VCardIdentificationInfo()

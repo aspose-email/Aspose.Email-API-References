@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名 |
+| fileName | String | 一个文件名 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-将消息保存到指定流
+将消息保存到指定的流
 
 ```csharp
 public void Save(Stream stream)
@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存的流到 |
+| stream | Stream | 要保存到的流 |
 
 ### 也可以看看
 

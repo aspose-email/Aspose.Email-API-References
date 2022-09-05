@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrssitemxml/
 ---
 ## KnownPropertyList.PostRssItemXml field
 
-包含来自 RSS 提要的 item 元素及其所有子元素，或来自 Atom 提要的 entry 元素及其所有子元素。 区域:RSS 规范名称:PidLidPostRssItemXml 替代名称:dispidPostRssItemXml
+包含来自 RSS 提要的 item 元素及其所有子元素，或来自 Atom 提要的 entry 元素及其所有子元素。 区域：RSS 规范名称：PidLidPostRssItemXml 替代名称：dispidPostRssItemXml
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemXml;

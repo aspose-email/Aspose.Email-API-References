@@ -1,12 +1,12 @@
 ---
 title: GetMailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox status info
 type: docs
 weight: 150
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxinfo/
 ---
-## Pop3Client.GetMailboxInfo method (1 of 4)
+## GetMailboxInfo(IConnection) {#getmailboxinfo_1}
 
 Gets the mailbox status info
 
@@ -32,7 +32,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (2 of 4)
+## GetMailboxInfo(IConnection, bool) {#getmailboxinfo_2}
 
 Gets the mailbox status info
 
@@ -59,7 +59,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (3 of 4)
+## GetMailboxInfo(bool) {#getmailboxinfo_3}
 
 Gets the mailbox status info
 
@@ -84,7 +84,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (4 of 4)
+## GetMailboxInfo() {#getmailboxinfo}
 
 Gets the mailbox status info
 

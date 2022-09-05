@@ -1,7 +1,7 @@
 ---
 title: MessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the total number of conversation items in the current folder.
 type: docs
 weight: 230
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/messagecount/

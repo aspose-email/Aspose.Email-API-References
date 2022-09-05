@@ -1,7 +1,7 @@
 ---
 title: OnSerializeCustomSoapHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides an event that applications can implement to emit custom SOAP headers in requests that are sent to Exchange.
 type: docs
 weight: 200
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/onserializecustomsoapheaders/

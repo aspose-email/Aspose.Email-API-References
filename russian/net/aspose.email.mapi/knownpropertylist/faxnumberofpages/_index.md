@@ -1,14 +1,14 @@
 ---
 title: FaxNumberOfPages
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит количество страниц в объекте факса. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagFaxNumberOfPages Альтернативные именаInternalSchemaFaxNumberOfPages
+description: Содержит количество страниц в объекте факса. Область Единая система обмена сообщениями Каноническое имя PidTagFaxNumberOfPages Альтернативные имена InternalSchemaFaxNumberOfPages
 type: docs
 weight: 10250
 url: /ru/net/aspose.email.mapi/knownpropertylist/faxnumberofpages/
 ---
 ## KnownPropertyList.FaxNumberOfPages field
 
-Содержит количество страниц в объекте факса. Область:Единая система обмена сообщениями Каноническое имя:PidTagFaxNumberOfPages Альтернативные имена:InternalSchemaFaxNumberOfPages
+Содержит количество страниц в объекте факса. Область: Единая система обмена сообщениями Каноническое имя: PidTagFaxNumberOfPages Альтернативные имена: InternalSchemaFaxNumberOfPages
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FaxNumberOfPages;

@@ -1,14 +1,14 @@
 ---
 title: AppointmentEndWhole
 second_title: Aspose.Email for .NET API 参考
-description: 指定事件的结束日期和时间 区域日历 规范名称PidLidAppointmentEndWhole 替代名称dispidApptEndWhole
+description: 指定事件的结束日期和时间 区域Calendar 规范名称PidLidAppointmentEndWhole 替代名称dispidApptEndWhole
 type: docs
 weight: 1170
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentendwhole/
 ---
 ## KnownPropertyList.AppointmentEndWhole field
 
-指定事件的结束日期和时间。 区域:日历 规范名称:PidLidAppointmentEndWhole 替代名称:dispidApptEndWhole
+指定事件的结束日期和时间。 区域：Calendar 规范名称：PidLidAppointmentEndWhole 替代名称：dispidApptEndWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentEndWhole;

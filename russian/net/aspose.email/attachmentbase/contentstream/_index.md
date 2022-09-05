@@ -1,14 +1,14 @@
 ---
 title: ContentStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает поток содержимого.
+description: Получает или задает поток контента.
 type: docs
 weight: 20
 url: /ru/net/aspose.email/attachmentbase/contentstream/
 ---
 ## AttachmentBase.ContentStream property
 
-Получает или задает поток содержимого.
+Получает или задает поток контента.
 
 ```csharp
 public Stream ContentStream { get; set; }

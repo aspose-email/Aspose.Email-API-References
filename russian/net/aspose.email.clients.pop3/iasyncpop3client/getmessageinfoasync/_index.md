@@ -18,7 +18,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | uniqueId | Pop3ListFields | Уникальный идентификатор сообщения |
 | fields | IConnection | Поля, которые мы хотим получить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -50,7 +50,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | Pop3ListFields | Порядковый номер сообщения |
 | fields | IConnection | Поля, которые мы хотим получить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |

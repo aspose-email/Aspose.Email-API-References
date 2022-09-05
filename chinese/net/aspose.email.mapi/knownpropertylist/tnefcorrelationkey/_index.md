@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/tnefcorrelationkey/
 ---
 ## KnownPropertyList.TnefCorrelationKey field
 
-包含将传输中性封装格式 (TNEF) 附件与邮件相关联的值。 区域:MapiEnvelope 规范名称:PidTagTnefCorrelationKey 替代名称:PR_TNEF_CORRELATION_KEY
+包含将传输中性封装格式 (TNEF) 附件与邮件相关联的值。 区域：MapiEnvelope 规范名称：PidTagTnefCorrelationKey 替代名称：PR_TNEF_CORRELATION_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TnefCorrelationKey;

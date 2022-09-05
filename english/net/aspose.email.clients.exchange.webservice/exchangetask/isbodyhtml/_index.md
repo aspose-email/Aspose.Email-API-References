@@ -1,7 +1,7 @@
 ---
 title: IsBodyHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the task body is htmlformatted.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/isbodyhtml/

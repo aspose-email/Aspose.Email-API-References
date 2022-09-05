@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the element at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/eventlist/item/

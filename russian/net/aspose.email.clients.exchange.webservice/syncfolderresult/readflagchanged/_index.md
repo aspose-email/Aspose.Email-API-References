@@ -1,14 +1,14 @@
 ---
 title: ReadFlagChanged
 second_title: Справочник по Aspose.Email для .NET API
-description: Коллекция пар элементов uri и read-flag для элементов чей флаг read был изменен.
+description: Коллекция пар uri элемента и флага чтения для элементов чей флаг чтения был изменен.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange.webservice/syncfolderresult/readflagchanged/
 ---
 ## SyncFolderResult.ReadFlagChanged property
 
-Коллекция пар элементов uri и read-flag для элементов, чей флаг 'read' был изменен.
+Коллекция пар uri элемента и флага чтения для элементов, чей флаг «чтения» был изменен.
 
 ```csharp
 public Dictionary<string, bool> ReadFlagChanged { get; }

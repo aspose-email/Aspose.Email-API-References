@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/airsync/
 ---
 ## KnownPropertySets.AirSync field
 
-区域名称:Sync 属性集名称:PSETID_AirSync
+区域名称：Sync 属性集名称：PSETID_AirSync
 
 ```csharp
 public static readonly Guid AirSync;

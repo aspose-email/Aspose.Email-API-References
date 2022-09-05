@@ -1,7 +1,7 @@
 ---
 title: ConnectionAsgmtType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines algorithm of connection allocation in multiple threads environment
 type: docs
 weight: 2910
 url: /net/aspose.email.clients/connectionasgmttype/

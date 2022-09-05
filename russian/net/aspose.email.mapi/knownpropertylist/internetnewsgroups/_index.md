@@ -1,14 +1,14 @@
 ---
 title: InternetNewsgroups
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_NEWSGROUPS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_NEWSGROUPS
 type: docs
 weight: 11540
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetnewsgroups/
 ---
 ## KnownPropertyList.InternetNewsgroups field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_NEWSGROUPS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_NEWSGROUPS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetNewsgroups;

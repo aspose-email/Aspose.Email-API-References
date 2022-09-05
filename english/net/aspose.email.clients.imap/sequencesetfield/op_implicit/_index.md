@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the search key.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/sequencesetfield/op_implicit/

@@ -17,8 +17,8 @@ public Task<string> AppendMessageAsync(MailMessage message, string folderName = 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | MailMessage | Подключение к сервер |
-| folderName | String | Папка, которая будет получать почтовое сообщение |
+| connection | MailMessage | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | IConnection | Почтовое сообщение для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

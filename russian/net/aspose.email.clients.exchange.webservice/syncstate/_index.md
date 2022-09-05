@@ -18,8 +18,8 @@ public class SyncState
 
 | Имя | Описание |
 | --- | --- |
-| [SyncState](syncstate#constructor)() | Инициализирует новый экземпляр класса[`SyncState`](../syncstate) |
-| [SyncState](syncstate#constructor_1)(string) | Инициализирует новый экземпляр класса[`SyncState`](../syncstate) |
+| [SyncState](syncstate#constructor)() | Инициализирует новый экземпляр[`SyncState`](../syncstate) класс |
+| [SyncState](syncstate#constructor_1)(string) | Инициализирует новый экземпляр[`SyncState`](../syncstate) класс |
 
 ## Характеристики
 

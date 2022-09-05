@@ -1,7 +1,7 @@
 ---
 title: Small
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A 48x48 cropped thumbnail.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.graph/thumbnailset/small/

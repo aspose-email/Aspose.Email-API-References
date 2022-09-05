@@ -1,12 +1,12 @@
 ---
 title: Decrypt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Decrypts this message
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.email/mailmessage/decrypt/
 ---
-## MailMessage.Decrypt method (1 of 2)
+## Decrypt() {#decrypt}
 
 Decrypts this message
 
@@ -26,7 +26,7 @@ E-mail message
 
 ---
 
-## MailMessage.Decrypt method (2 of 2)
+## Decrypt(X509Certificate2) {#decrypt_1}
 
 Decrypts this message
 

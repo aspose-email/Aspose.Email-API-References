@@ -1,12 +1,12 @@
 ---
 title: Backup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Backups the content of the specified folders
 type: docs
 weight: 400
 url: /net/aspose.email.clients.imap/imapclient/backup/
 ---
-## ImapClient.Backup method (1 of 4)
+## Backup(IConnection, ImapFolderInfoCollection, string, BackupSettings) {#backup_1}
 
 Backups the content of the specified folders
 
@@ -33,7 +33,7 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, str
 
 ---
 
-## ImapClient.Backup method (2 of 4)
+## Backup(IConnection, ImapFolderInfoCollection, Stream, BackupSettings) {#backup}
 
 Backups the content of the specified folders
 
@@ -60,7 +60,7 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, Str
 
 ---
 
-## ImapClient.Backup method (3 of 4)
+## Backup(ImapFolderInfoCollection, string, BackupSettings) {#backup_3}
 
 Backups the content of the specified folders
 
@@ -84,7 +84,7 @@ public void Backup(ImapFolderInfoCollection folders, string fileName, BackupSett
 
 ---
 
-## ImapClient.Backup method (4 of 4)
+## Backup(ImapFolderInfoCollection, Stream, BackupSettings) {#backup_2}
 
 Backups the content of the specified folders
 

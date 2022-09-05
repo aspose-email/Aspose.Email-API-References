@@ -1,14 +1,14 @@
 ---
 title: XRequireProtectedPlayOnPhone
 second_title: Aspose.Email for .NET API 参考
-description: 表示客户端只在手机上呈现消息 区域统一消息 规范名称PidNameXRequireProtectedPlayOnPhone 备用名称
+description: 表示客户端仅在电话上呈现消息 区域统一消息 规范名称PidNameXRequireProtectedPlayOnPhone 备用名称
 type: docs
 weight: 19690
 url: /zh/net/aspose.email.mapi/knownpropertylist/xrequireprotectedplayonphone/
 ---
 ## KnownPropertyList.XRequireProtectedPlayOnPhone field
 
-表示客户端只在手机上呈现消息。 区域:统一消息 规范名称:PidNameXRequireProtectedPlayOnPhone 备用名称:
+表示客户端仅在电话上呈现消息。 区域：统一消息 规范名称：PidNameXRequireProtectedPlayOnPhone 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XRequireProtectedPlayOnPhone;

@@ -1,9 +1,9 @@
 ---
 title: MapiPropertyCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collection of MapiProperty items.
 type: docs
-weight: 18370
+weight: 18580
 url: /net/aspose.email.mapi/mapipropertycollection/
 ---
 ## MapiPropertyCollection class
@@ -34,18 +34,18 @@ public class MapiPropertyCollection : IDictionary<long, MapiProperty>, INamedPro
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapipropertycollection/add)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
-| virtual [Add](../../aspose.email.mapi/mapipropertycollection/add)(MapiProperty) | Adds a MapiProperty item with specified tag. |
-| virtual [Add](../../aspose.email.mapi/mapipropertycollection/add)(long, MapiProperty) | Adds a MapiProperty item with specified tag. |
+| [Add](../../aspose.email.mapi/mapipropertycollection/add#add_2)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
+| virtual [Add](../../aspose.email.mapi/mapipropertycollection/add#add)(MapiProperty) | Adds a MapiProperty item with specified tag. |
+| virtual [Add](../../aspose.email.mapi/mapipropertycollection/add#add_1)(long, MapiProperty) | Adds a MapiProperty item with specified tag. |
 | [Clear](../../aspose.email.mapi/mapipropertycollection/clear)() | Removes all of the elements from the collection. |
 | [Contains](../../aspose.email.mapi/mapipropertycollection/contains)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
 | [ContainsKey](../../aspose.email.mapi/mapipropertycollection/containskey)(long) | Determines whether the collection contains a property with the specified tag. |
 | [CopyTo](../../aspose.email.mapi/mapipropertycollection/copyto)(KeyValuePair&lt;long, MapiProperty&gt;[], int) |  |
 | [GetEnumerator](../../aspose.email.mapi/mapipropertycollection/getenumerator)() |  |
 | virtual [GetProperty](../../aspose.email.mapi/mapipropertycollection/getproperty)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
-| [Remove](../../aspose.email.mapi/mapipropertycollection/remove)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
-| [Remove](../../aspose.email.mapi/mapipropertycollection/remove)(long) | Removes the property with the specified tag from the collection. |
-| [Remove](../../aspose.email.mapi/mapipropertycollection/remove)(PropertyDescriptor) | Removes the property with the specified property descriptor from the collection. |
+| [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove_2)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
+| [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove_1)(long) | Removes the property with the specified tag from the collection. |
+| [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove)(PropertyDescriptor) | Removes the property with the specified property descriptor from the collection. |
 | [TryGetValue](../../aspose.email.mapi/mapipropertycollection/trygetvalue)(long, out MapiProperty) | Gets the property associated with the specified tag. |
 
 ### See Also

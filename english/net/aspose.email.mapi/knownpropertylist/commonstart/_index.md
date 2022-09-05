@@ -1,7 +1,7 @@
 ---
 title: CommonStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the start time for the Message object. Area General Message Properties Canonical name PidLidCommonStart Alternate names dispidCommonStart
 type: docs
 weight: 2790
 url: /net/aspose.email.mapi/knownpropertylist/commonstart/

@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets additional options when saving in HTML format. Default value is HtmlFormatOptions.None.
 type: docs
 weight: 30
 url: /net/aspose.email/htmlsaveoptions/htmlformatoptions/

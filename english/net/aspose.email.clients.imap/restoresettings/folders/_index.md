@@ -1,7 +1,7 @@
 ---
 title: Folders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A folders to be restored.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/restoresettings/folders/

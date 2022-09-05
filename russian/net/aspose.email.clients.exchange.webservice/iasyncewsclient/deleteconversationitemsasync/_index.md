@@ -17,15 +17,15 @@ public Task DeleteConversationItemsAsync(string conversationId, string contextFo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор удаляемой беседы |
-| contextFolderId | String | Идентификатор папки, в которой удаляются элементы беседы. Примечание. Если установлено значение null (или пусто), все элементы беседы будут удалены |
+| conversationId | String | ID разговора, который нужно удалить |
+| contextFolderId | String | Идентификатор папки, в которой удаляются элементы беседы. Примечание. Если для него установлено значение null (или пусто), все элементы беседы будут удалены. |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

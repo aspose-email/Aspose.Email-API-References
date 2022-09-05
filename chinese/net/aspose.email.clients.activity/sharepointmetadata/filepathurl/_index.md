@@ -1,14 +1,14 @@
 ---
 title: FilePathUrl
 second_title: Aspose.Email for .NET API 参考
-description: 文档的 URL 强制是
+description: 文档的 URL 必填是
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/sharepointmetadata/filepathurl/
 ---
 ## SharePointMetadata.FilePathUrl property
 
-文档的 URL 强制:是
+文档的 URL 必填：是
 
 ```csharp
 public string FilePathUrl { get; set; }

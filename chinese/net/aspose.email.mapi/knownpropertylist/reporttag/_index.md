@@ -1,14 +1,14 @@
 ---
 title: ReportTag
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于关联报告和原始消息的数据 区域MapiEnvelope 规范名称PidTagReportTag 替代名称PR_REPORT_TAG ptagReportTag
+description: 包含用于关联报告和原始消息的数据 区域MapiEnvelope 规范名称PidTagReportTag 替代名称PR_REPORT_TAGptagReportTag
 type: docs
 weight: 16080
 url: /zh/net/aspose.email.mapi/knownpropertylist/reporttag/
 ---
 ## KnownPropertyList.ReportTag field
 
-包含用于关联报告和原始消息的数据。 区域:MapiEnvelope 规范名称:PidTagReportTag 替代名称:PR_REPORT_TAG, ptagReportTag
+包含用于关联报告和原始消息的数据。 区域：MapiEnvelope 规范名称：PidTagReportTag 替代名称：PR_REPORT_TAG、ptagReportTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportTag;

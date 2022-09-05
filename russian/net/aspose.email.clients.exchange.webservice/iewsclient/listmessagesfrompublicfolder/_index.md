@@ -16,11 +16,11 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderU
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | uri папка |
+| folderUri | String | URI папки |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащая сообщения из указанной папки
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения из указанной папки
 
 ### Смотрите также
 
@@ -41,11 +41,11 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(ExchangeFolder
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | ExchangeFolderInfo | [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)который представляет информацию о папке |
+| folder | ExchangeFolderInfo | [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) который представляет информацию о папке |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection), который содержит сообщения из указанной папки
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения из указанной папки
 
 ### Смотрите также
 

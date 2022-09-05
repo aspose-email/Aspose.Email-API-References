@@ -1,7 +1,7 @@
 ---
 title: AsBoolean
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns current ComparisonFieldaspose.email.tools.search/comparisonfield as BoolComparisonFieldaspose.email.tools.search/boolcomparisonfield
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/asboolean/

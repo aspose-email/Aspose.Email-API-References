@@ -3,7 +3,7 @@ title: Location
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает местоположение.
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.email.calendar/appointment/location/
 ---
 ## Appointment.Location property

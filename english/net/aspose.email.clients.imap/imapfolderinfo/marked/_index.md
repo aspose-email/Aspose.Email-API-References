@@ -1,7 +1,7 @@
 ---
 title: Marked
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether it is marked this folder.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapfolderinfo/marked/

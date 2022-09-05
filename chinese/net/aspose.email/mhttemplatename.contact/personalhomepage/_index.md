@@ -1,14 +1,14 @@
 ---
 title: PersonalHomePage
 second_title: Aspose.Email for .NET API 参考
-description: PersonalHomePage 标头
+description: PersonalHomePage 标题
 type: docs
 weight: 260
 url: /zh/net/aspose.email/mhttemplatename.contact/personalhomepage/
 ---
 ## MhtTemplateName.Contact.PersonalHomePage field
 
-PersonalHomePage 标头。
+PersonalHomePage 标题。
 
 ```csharp
 public const string PersonalHomePage;

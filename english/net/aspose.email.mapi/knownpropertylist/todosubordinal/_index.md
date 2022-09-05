@@ -1,7 +1,7 @@
 ---
 title: ToDoSubOrdinal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the numerals 0 through 9 that are used to break a tie when the PidLidToDoOrdinalDate property section 2.344 is used to perform a sort of objects. Area Tasks Canonical name PidLidToDoSubOrdinal Alternate names dispidToDoSubOrdinal
 type: docs
 weight: 19050
 url: /net/aspose.email.mapi/knownpropertylist/todosubordinal/

@@ -1,14 +1,14 @@
 ---
 title: AppointmentTimeZoneDefinitionStartDisplay
 second_title: Aspose.Email for .NET API 参考
-description: 指定指示 PidLidAppointmentStartWhole 属性的时区的时区信息第 2.29 节 区域日历 规范名称PidLidAppointmentTimeZoneDefinitionStartDisplay 替代名称dispidApptTZDefStartDisplay
+description: 指定指示 PidLidAppointmentStartWhole 属性的时区的时区信息第 2.29 节 区域Calendar 规范名称PidLidAppointmentTimeZoneDefinitionStartDisplay 替代名称dispidApptTZDefStartDisplay
 type: docs
 weight: 1370
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmenttimezonedefinitionstartdisplay/
 ---
 ## KnownPropertyList.AppointmentTimeZoneDefinitionStartDisplay field
 
-指定指示 PidLidAppointmentStartWhole 属性的时区的时区信息（第 2.29 节）。 区域:日历 规范名称:PidLidAppointmentTimeZoneDefinitionStartDisplay 替代名称:dispidApptTZDefStartDisplay
+指定指示 PidLidAppointmentStartWhole 属性的时区的时区信息（第 2.29 节）。 区域：Calendar 规范名称：PidLidAppointmentTimeZoneDefinitionStartDisplay 替代名称：dispidApptTZDefStartDisplay
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentTimeZoneDefinitionStartDisplay;

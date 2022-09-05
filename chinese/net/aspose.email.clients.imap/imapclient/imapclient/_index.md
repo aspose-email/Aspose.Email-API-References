@@ -1,14 +1,14 @@
 ---
 title: ImapClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 ImapClientaspose.email.clients.imap/imapclient 类的新实例
+description: 初始化ImapClientaspose.email.clients.imap/imapclient class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/imapclient/imapclient/
 ---
 ## ImapClient() {#constructor}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient()
@@ -24,7 +24,7 @@ public ImapClient()
 
 ## ImapClient(string) {#constructor_1}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host)
@@ -44,7 +44,7 @@ public ImapClient(string host)
 
 ## ImapClient(string, SecurityOptions) {#constructor_2}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, SecurityOptions securityOptions)
@@ -66,7 +66,7 @@ public ImapClient(string host, SecurityOptions securityOptions)
 
 ## ImapClient(string, int) {#constructor_3}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port)
@@ -87,7 +87,7 @@ public ImapClient(string host, int port)
 
 ## ImapClient(string, int, SecurityOptions) {#constructor_4}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, SecurityOptions securityOptions)
@@ -110,7 +110,7 @@ public ImapClient(string host, int port, SecurityOptions securityOptions)
 
 ## ImapClient(string, string, string) {#constructor_15}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, string password)
@@ -132,7 +132,7 @@ public ImapClient(string host, string username, string password)
 
 ## ImapClient(string, string, string, SecurityOptions) {#constructor_16}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, string password, SecurityOptions securityOptions)
@@ -156,7 +156,7 @@ public ImapClient(string host, string username, string password, SecurityOptions
 
 ## ImapClient(string, int, string, string) {#constructor_7}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string password)
@@ -179,7 +179,7 @@ public ImapClient(string host, int port, string username, string password)
 
 ## ImapClient(string, int, string, string, SecurityOptions) {#constructor_8}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string password, 
@@ -205,7 +205,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ## ImapClient(string, int, string, string, RemoteCertificateValidationCallback) {#constructor_11}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string password, 
@@ -230,7 +230,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ## ImapClient(string, int, string, string, RemoteCertificateValidationCallback, SecurityOptions) {#constructor_12}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string password, 
@@ -258,7 +258,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ## ImapClient(string, string, string, bool) {#constructor_17}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, string authInfo, bool useOAuth)
@@ -268,8 +268,8 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth)
 | --- | --- | --- |
 | host | String | 主机名 |
 | username | String | 用户名 |
-| authInfo | String | 用户密码或XOAUTH2访问令牌 |
-| useOAuth | Boolean | 定义是否使用SASL XOAUTH2机制登录服务器 |
+| authInfo | String | 用户密码或 XOAUTH2 访问令牌 |
+| useOAuth | Boolean | 定义是否使用 SASL XOAUTH2 机制登录服务器 |
 
 ### 也可以看看
 
@@ -281,7 +281,7 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth)
 
 ## ImapClient(string, string, string, bool, SecurityOptions) {#constructor_18}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, string authInfo, bool useOAuth, 
@@ -292,7 +292,7 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth,
 | --- | --- | --- |
 | host | String | 主机名 |
 | username | String | 用户名 |
-| authInfo | String | 用户密码或XOAUTH2访问令牌 |
+| authInfo | String | 用户密码或 XOAUTH2 访问令牌 |
 | useOAuth | Boolean | 定义是否使用 SASL XOAUTH2 机制登录服务器 |
 | securityOptions | SecurityOptions | 邮件客户端的安全模式 |
 
@@ -307,7 +307,7 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth,
 
 ## ImapClient(string, int, string, string, bool) {#constructor_9}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string authInfo, bool useOAuth)
@@ -318,8 +318,8 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 | host | String | 主机名 |
 | port | Int32 | 端口号 |
 | username | String | 用户名 |
-| authInfo | String | 用户密码或XOAUTH2访问令牌 |
-| useOAuth | Boolean | 定义是否使用SASL XOAUTH2机制登录服务器 |
+| authInfo | String | 用户密码或 XOAUTH2 访问令牌 |
+| useOAuth | Boolean | 定义是否使用 SASL XOAUTH2 机制登录服务器 |
 
 ### 也可以看看
 
@@ -331,7 +331,7 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 
 ## ImapClient(string, int, string, string, bool, SecurityOptions) {#constructor_10}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, string authInfo, bool useOAuth, 
@@ -343,8 +343,8 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 | host | String | 主机名 |
 | port | Int32 | 端口号 |
 | username | String | 用户名 |
-| authInfo | String | 用户密码或XOAUTH2访问令牌 |
-| useOAuth | Boolean | 定义是否使用SASL XOAUTH2机制登录服务器 |
+| authInfo | String | 用户密码或 XOAUTH2 访问令牌 |
+| useOAuth | Boolean | 定义是否使用 SASL XOAUTH2 机制登录服务器 |
 | securityOptions | SecurityOptions | 邮件客户端的安全模式 |
 
 ### 也可以看看
@@ -358,7 +358,7 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 
 ## ImapClient(string, string, ITokenProvider) {#constructor_13}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, ITokenProvider tokenProvider)
@@ -381,7 +381,7 @@ public ImapClient(string host, string username, ITokenProvider tokenProvider)
 
 ## ImapClient(string, string, ITokenProvider, SecurityOptions) {#constructor_14}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, string username, ITokenProvider tokenProvider, 
@@ -407,7 +407,7 @@ public ImapClient(string host, string username, ITokenProvider tokenProvider,
 
 ## ImapClient(string, int, string, ITokenProvider) {#constructor_5}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, ITokenProvider tokenProvider)
@@ -431,7 +431,7 @@ public ImapClient(string host, int port, string username, ITokenProvider tokenPr
 
 ## ImapClient(string, int, string, ITokenProvider, SecurityOptions) {#constructor_6}
 
-初始化 [`ImapClient`](../../imapclient) 类的新实例
+初始化[`ImapClient`](../../imapclient) class
 
 ```csharp
 public ImapClient(string host, int port, string username, ITokenProvider tokenProvider, 

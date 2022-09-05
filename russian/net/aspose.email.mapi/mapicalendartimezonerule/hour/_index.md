@@ -1,14 +1,14 @@
 ---
 title: Hour
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает час
+description: Получает или задает час
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicalendartimezonerule/hour/
 ---
 ## MapiCalendarTimeZoneRule.Hour property
 
-Получает или устанавливает час
+Получает или задает час
 
 ```csharp
 public ushort Hour { get; set; }

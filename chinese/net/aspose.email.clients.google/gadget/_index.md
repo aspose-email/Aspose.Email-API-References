@@ -24,7 +24,7 @@ public class Gadget
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Display](../../aspose.email.clients.google/gadget/display) { get; set; } | 小工具的显示模式。可选的。可能的值有: "icon" - 小工具显示在日历视图中的事件标题旁边。 "chip" - 点击事件时显示小工具。 |
+| [Display](../../aspose.email.clients.google/gadget/display) { get; set; } | 小工具的显示模式。可选的。可能的值为： "icon" - 小工具显示在日历视图中的事件标题旁边。 "chip" - 单击事件时显示小工具。 |
 | [Height](../../aspose.email.clients.google/gadget/height) { get; set; } | 小工具的高度（以像素为单位）。 |
 | [IconLink](../../aspose.email.clients.google/gadget/iconlink) { get; set; } | 小工具的图标 URL。 |
 | [Link](../../aspose.email.clients.google/gadget/link) { get; set; } | 小工具的 URL。 |

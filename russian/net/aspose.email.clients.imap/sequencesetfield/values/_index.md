@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значения для поиска
+description: Получает значения для search
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/sequencesetfield/values/
 ---
 ## SequenceSetField.Values property
 
-Получает значения для поиска
+Получает значения для search
 
 ```csharp
 public SequenceSetBaseValue[] Values { get; }

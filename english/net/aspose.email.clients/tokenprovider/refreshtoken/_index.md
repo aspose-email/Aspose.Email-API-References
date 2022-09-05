@@ -1,7 +1,7 @@
 ---
 title: RefreshToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: OAuth 2.0 refresh token
 type: docs
 weight: 70
 url: /net/aspose.email.clients/tokenprovider/refreshtoken/

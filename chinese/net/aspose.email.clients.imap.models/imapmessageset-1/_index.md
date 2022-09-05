@@ -21,7 +21,7 @@ public abstract class ImapMessageSet<T> : ImapMethodParametersGeneral<T>
 | --- | --- |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
-| [SetMessage](../../aspose.email.clients.imap.models/imapmessageset`1/setmessage#setmessage)(int) | 设置消息序号。 |
+| [SetMessage](../../aspose.email.clients.imap.models/imapmessageset`1/setmessage#setmessage)(int) | 设置消息序号 |
 | [SetMessage](../../aspose.email.clients.imap.models/imapmessageset`1/setmessage#setmessage_1)(string) | 设置消息唯一标识符。 |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_1)(IEnumerable&lt;ImapMessageInfo&gt;) | 设置消息唯一标识符。 |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_2)(IEnumerable&lt;int&gt;) | 设置消息序号。 |

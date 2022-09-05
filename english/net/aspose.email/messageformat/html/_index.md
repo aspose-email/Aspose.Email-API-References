@@ -1,7 +1,7 @@
 ---
 title: Html
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates message in Html format.
 type: docs
 weight: 30
 url: /net/aspose.email/messageformat/html/

@@ -17,18 +17,18 @@ public static InboxRule CreateRuleMoveContaining(string[] filter, string destina
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filter | String[] | 要搜索的字符串 |
-| destinationFolderId | String | 将在其中移动消息的文件夹 ID |
+| destinationFolderId | String | 将在其中移动消息的文件夹的 ID |
 
 ### 返回值
 
-创建[`InboxRule`](../../inboxrule)
+一个创建的[`InboxRule`](../../inboxrule)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

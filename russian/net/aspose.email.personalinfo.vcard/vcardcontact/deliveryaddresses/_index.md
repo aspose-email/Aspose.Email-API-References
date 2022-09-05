@@ -1,14 +1,14 @@
 ---
 title: DeliveryAddresses
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает адреса доставки
+description: Получает или задает адреса доставки
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/deliveryaddresses/
 ---
 ## VCardContact.DeliveryAddresses property
 
-Получает или устанавливает адреса доставки
+Получает или задает адреса доставки
 
 ```csharp
 public VCardDeliveryAddressCollection DeliveryAddresses { get; set; }

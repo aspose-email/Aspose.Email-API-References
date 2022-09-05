@@ -16,7 +16,7 @@ public void SaveMessageToStream(string entryId, Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | String | 条目 ID。 |
+| entryId | String | 入口标识。 |
 | stream | Stream | 用于写入的流。 |
 
 ### 也可以看看

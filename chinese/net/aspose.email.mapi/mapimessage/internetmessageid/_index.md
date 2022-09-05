@@ -16,7 +16,7 @@ public string InternetMessageId { get; }
 
 ### 适当的价值
 
-表示 Internet 消息 ID 的字符串。
+表示互联网消息 ID 的字符串。
 
 ### 也可以看看
 

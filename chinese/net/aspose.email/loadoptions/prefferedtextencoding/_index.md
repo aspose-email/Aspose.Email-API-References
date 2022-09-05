@@ -1,14 +1,14 @@
 ---
 title: PrefferedTextEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息的首选编码 强制设置消息主题和正文的首选编码 默认值为空
+description: 获取或设置消息的首选编码 强制设置消息主题和正文的首选编码 默认值为null
 type: docs
 weight: 20
 url: /zh/net/aspose.email/loadoptions/prefferedtextencoding/
 ---
 ## LoadOptions.PrefferedTextEncoding property
 
-获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为空。
+获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为null。
 
 ```csharp
 public Encoding PrefferedTextEncoding { get; set; }

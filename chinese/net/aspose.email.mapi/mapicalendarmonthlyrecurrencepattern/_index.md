@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 表示mapi日历的每月循环模式
+description: 表示mapi日历的每月重复模式
 type: docs
-weight: 18000
+weight: 18010
 url: /zh/net/aspose.email.mapi/mapicalendarmonthlyrecurrencepattern/
 ---
 ## MapiCalendarMonthlyRecurrencePattern class
 
-表示mapi日历的每月循环模式
+表示mapi日历的每月重复模式
 
 ```csharp
 public class MapiCalendarMonthlyRecurrencePattern : MapiCalendarYearlyAndMonthlyRecurrencePattern
@@ -25,12 +25,12 @@ public class MapiCalendarMonthlyRecurrencePattern : MapiCalendarYearlyAndMonthly
 | 姓名 | 描述 |
 | --- | --- |
 | [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype) { get; set; } | 获取或设置使用的日历类型 |
-| [Day](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day) { get; set; } | 获取或设置重复周期所在月份的日期。 |
+| [Day](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day) { get; set; } | 获取或设置重复周期所在的月份中的哪一天。 |
 | [DayOfWeek](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek) { get; set; } | 获取或设置事件发生的星期几 |
-| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | 日期数组，每个日期都是 删除实例或修改实例的原始实例日期。 |
-| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | 获取或设置 定义项目重复模式的结束日期。 |
-| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | 获取或设置循环的结束类型。 |
-| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | 异常指定对重复系列实例的更改。 |
+| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | 一个日期数组，每个日期都是 已删除实例或此重复的修改实例的原始实例日期。 |
+| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | 获取或设置定义项目重复模式的结束日期。 |
+| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | 获取或设置重复的结束类型。 |
+| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | 一个异常指定对重复系列实例的更改。 |
 | override [Frequency](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/frequency) { get; } | 获取或设置循环序列的频率。 |
 | [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates) { get; } | 日期数组，每个日期都是修改实例的日期。 |
 | [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount) { get; set; } | 获取或设置重复出现的次数。 |

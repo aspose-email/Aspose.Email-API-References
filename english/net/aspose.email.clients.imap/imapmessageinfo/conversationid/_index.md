@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating conversation id.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/imapmessageinfo/conversationid/

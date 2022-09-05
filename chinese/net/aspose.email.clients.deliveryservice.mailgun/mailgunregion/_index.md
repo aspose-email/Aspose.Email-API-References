@@ -1,14 +1,14 @@
 ---
 title: MailgunRegion
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Mailgun 区域
+description: 代表 Mailgun 区域
 type: docs
 weight: 2990
 url: /zh/net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/
 ---
 ## MailgunRegion enumeration
 
-表示 Mailgun 区域
+代表 Mailgun 区域
 
 ```csharp
 public enum MailgunRegion

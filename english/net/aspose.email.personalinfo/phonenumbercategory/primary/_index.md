@@ -1,7 +1,7 @@
 ---
 title: Primary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Primary phone number
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/phonenumbercategory/primary/

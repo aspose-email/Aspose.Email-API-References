@@ -1,14 +1,14 @@
 ---
 title: GDataContactVersion
 second_title: Aspose.Email for .NET API 参考
-description: 包含 GData 联系人版本 ETag https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1 ResourceVersioning 此属性不通过传输协议传输 区域用户定义 Aspose 指定属性
+description: 包含 GData 联系人版本 ETag https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1ResourceVersioning 此属性不通过传输协议传输 区域 用户自定义Aspose指定properties
 type: docs
 weight: 10740
 url: /zh/net/aspose.email.mapi/knownpropertylist/gdatacontactversion/
 ---
 ## KnownPropertyList.GDataContactVersion field
 
-包含 GData 联系人版本 (ETag)。 https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1# ResourceVersioning 此属性不通过传输协议传输。 区域:用户定义 Aspose 指定属性
+包含 GData 联系人版本 (ETag)。 https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning 此属性不通过传输协议传输。 区域: 用户自定义Aspose指定properties
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GDataContactVersion;

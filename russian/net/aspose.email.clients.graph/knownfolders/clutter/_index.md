@@ -1,14 +1,14 @@
 ---
 title: Clutter
 second_title: Справочник по Aspose.Email для .NET API
-description: При использовании функции Несрочные сообщения с низким приоритетом перемещаются в папку Несрочные.
+description: Сообщения с низким приоритетом перемещаются в папку Несрочные при использовании функции Несрочные.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.graph/knownfolders/clutter/
 ---
 ## KnownFolders.Clutter field
 
-При использовании функции "Несрочные" сообщения с низким приоритетом перемещаются в папку "Несрочные".
+Сообщения с низким приоритетом перемещаются в папку "Несрочные" при использовании функции "Несрочные".
 
 ```csharp
 public static readonly string Clutter;

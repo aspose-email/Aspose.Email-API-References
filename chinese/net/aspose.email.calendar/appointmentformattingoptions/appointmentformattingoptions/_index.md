@@ -1,14 +1,14 @@
 ---
 title: AppointmentFormattingOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AppointmentFormattingOptionsaspose.email.calendar/appointmentformattingoptions类的新实例  默认情况下模板将以纯文本格式创建
+description: 初始化AppointmentFormattingOptionsaspose.email.calendar/appointmentformattingoptions类. 默认情况下模板将以纯文本格式创建
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/appointmentformattingoptions/appointmentformattingoptions/
 ---
 ## AppointmentFormattingOptions constructor
 
-初始化[`AppointmentFormattingOptions`](../../appointmentformattingoptions)类的新实例。  默认情况下，模板将以纯文本格式创建。
+初始化[`AppointmentFormattingOptions`](../../appointmentformattingoptions)类. 默认情况下，模板将以纯文本格式创建。
 
 ```csharp
 public AppointmentFormattingOptions()

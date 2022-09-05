@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the subject.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/subject/

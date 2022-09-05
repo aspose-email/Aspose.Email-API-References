@@ -1,7 +1,7 @@
 ---
 title: FirstName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: First Name header.
 type: docs
 weight: 150
 url: /net/aspose.email/mhttemplatename.contact/firstname/

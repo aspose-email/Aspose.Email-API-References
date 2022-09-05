@@ -1,9 +1,9 @@
 ---
 title: MicrosoftBusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the BUSY status of an appointment.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.calendar/appointment/microsoftbusystatus/
 ---
 ## Appointment.MicrosoftBusyStatus property

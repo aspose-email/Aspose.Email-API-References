@@ -1,14 +1,14 @@
 ---
 title: EmsAbInsadmin
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_INSADMIN
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_INSADMIN
 type: docs
 weight: 6860
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabinsadmin/
 ---
 ## KnownPropertyList.EmsAbInsadmin field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_INSADMIN
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_INSADMIN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbInsadmin;

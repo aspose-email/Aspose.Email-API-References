@@ -1,7 +1,7 @@
 ---
 title: DnsServers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the Dns server list to use in the email validation.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.verifications/emailvalidator/dnsservers/

@@ -1,7 +1,7 @@
 ---
 title: ReportTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the last time that the contact list that is controlled by the PidTagJunkIncludeContacts property section 2.749 was updated. Area MapiEnvelope Property set Canonical name PidTagReportTime Alternate names PR_REPORT_TIME ptagReportTime
 type: docs
 weight: 16100
 url: /net/aspose.email.mapi/knownpropertylist/reporttime/

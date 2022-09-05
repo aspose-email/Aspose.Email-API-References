@@ -17,7 +17,7 @@ public void EndValidate(out ValidationResult validationResult, IAsyncResult asyn
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | validationResult | ValidationResult& | Результат процесса проверки. |
-| asyncResult | IAsyncResult | Объект IAsyncResult, в котором хранится информация о состоянии и любые определенные пользователем данные для этой асинхронной операции. |
+| asyncResult | IAsyncResult | Объект IAsyncResult, в котором хранятся сведения о состоянии и любые пользовательские данные для этой асинхронной операции. |
 
 ### Смотрите также
 

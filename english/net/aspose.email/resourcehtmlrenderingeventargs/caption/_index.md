@@ -1,7 +1,7 @@
 ---
 title: Caption
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Caprion for resource.
 type: docs
 weight: 20
 url: /net/aspose.email/resourcehtmlrenderingeventargs/caption/

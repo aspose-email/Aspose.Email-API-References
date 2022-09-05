@@ -1,14 +1,14 @@
 ---
 title: EmsAbHttpPubGalLimit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HTTP_PUB_GAL_LIMIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HTTP_PUB_GAL_LIMIT
 type: docs
 weight: 6690
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhttppubgallimit/
 ---
 ## KnownPropertyList.EmsAbHttpPubGalLimit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HTTP_PUB_GAL_LIMIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HTTP_PUB_GAL_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHttpPubGalLimit;

@@ -3,7 +3,7 @@ title: AssociatedPersonsList
 second_title: Aspose.Email for .NET API 参考
 description: 联系人的关联人员列表
 type: docs
-weight: 19280
+weight: 19310
 url: /zh/net/aspose.email.personalinfo/associatedpersonslist/
 ---
 ## AssociatedPersonsList class
@@ -27,22 +27,22 @@ public class AssociatedPersonsList : IList<AssociatedPerson>
 | [Assistant](../../aspose.email.personalinfo/associatedpersonslist/assistant) { get; set; } | 默认助手 |
 | [Brother](../../aspose.email.personalinfo/associatedpersonslist/brother) { get; set; } | 兄弟 |
 | [Child](../../aspose.email.personalinfo/associatedpersonslist/child) { get; set; } | 孩子 |
-| [Count](../../aspose.email.personalinfo/associatedpersonslist/count) { get; } | 获取ICollection中包含的元素数。 |
+| [Count](../../aspose.email.personalinfo/associatedpersonslist/count) { get; } | 获取包含在ICollection. |
 | [DomesticPartner](../../aspose.email.personalinfo/associatedpersonslist/domesticpartner) { get; set; } | 默认国内合作伙伴 |
 | [Father](../../aspose.email.personalinfo/associatedpersonslist/father) { get; set; } | 父亲 |
 | [Friend](../../aspose.email.personalinfo/associatedpersonslist/friend) { get; set; } | 默认好友 |
-| [IsReadOnly](../../aspose.email.personalinfo/associatedpersonslist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
-| [IsSynchronized](../../aspose.email.personalinfo/associatedpersonslist/issynchronized) { get; } | 获取一个值，该值指示对ICollection的访问是否同步（线程安全）。 |
+| [IsReadOnly](../../aspose.email.personalinfo/associatedpersonslist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
+| [IsSynchronized](../../aspose.email.personalinfo/associatedpersonslist/issynchronized) { get; } | 获取一个值，表示是否访问ICollection已同步（线程安全）。 |
 | [Item](../../aspose.email.personalinfo/associatedpersonslist/item) { get; set; } | 获取或设置指定索引处的元素。 |
 | [Manager](../../aspose.email.personalinfo/associatedpersonslist/manager) { get; set; } | 默认管理器 |
 | [Mother](../../aspose.email.personalinfo/associatedpersonslist/mother) { get; set; } | 母亲 |
-| [Parent](../../aspose.email.personalinfo/associatedpersonslist/parent) { get; set; } | 父 |
+| [Parent](../../aspose.email.personalinfo/associatedpersonslist/parent) { get; set; } | 父级 |
 | [Partner](../../aspose.email.personalinfo/associatedpersonslist/partner) { get; set; } | 默认伙伴 |
-| [ReferredBy](../../aspose.email.personalinfo/associatedpersonslist/referredby) { get; set; } | 默认引用 |
+| [ReferredBy](../../aspose.email.personalinfo/associatedpersonslist/referredby) { get; set; } | 默认引用者 |
 | [Relative](../../aspose.email.personalinfo/associatedpersonslist/relative) { get; set; } | 相对 |
 | [Sister](../../aspose.email.personalinfo/associatedpersonslist/sister) { get; set; } | 姐姐 |
 | [Spouse](../../aspose.email.personalinfo/associatedpersonslist/spouse) { get; set; } | 配偶 |
-| [SyncRoot](../../aspose.email.personalinfo/associatedpersonslist/syncroot) { get; } | 获取可用于同步访问ICollection的对象。 |
+| [SyncRoot](../../aspose.email.personalinfo/associatedpersonslist/syncroot) { get; } | 获取可用于同步访问的对象ICollection. |
 
 ## 方法
 
@@ -54,7 +54,7 @@ public class AssociatedPersonsList : IList<AssociatedPerson>
 | [CopyTo](../../aspose.email.personalinfo/associatedpersonslist/copyto)(AssociatedPerson[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/associatedpersonslist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/associatedpersonslist/indexof)(AssociatedPerson) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/associatedpersonslist/insert)(int, AssociatedPerson) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/associatedpersonslist/insert)(int, AssociatedPerson) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/associatedpersonslist/remove)(AssociatedPerson) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/associatedpersonslist/removeat)(int) | 删除指定索引处的列表项。 |
 

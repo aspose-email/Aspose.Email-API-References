@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя конечного пользователя представленного владельцем принимающего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagReceivedRepresentingName Альтернативные именаPR_RCVD_REPRESENTING_NAME PR_RCVD_REPRESENTING_NAME_A ptagRcvdRepresentingName PR_RCVD_REPRESENTING_NAME_W
+description: Содержит отображаемое имя конечного пользователя представленного владельцем почтового ящика-получателя. Область Address Properties Каноническое имя PidTagReceivedRepresentingName Альтернативные имена PR_RCVD_REPRESENTING_NAME PR_RCVD_REPRESENTING_NAME_A ptagRcvdRepresentingName PR_RCVd_REPRESENTING_x0NAME_NAME
 type: docs
 weight: 15360
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedrepresentingname/
 ---
 ## KnownPropertyList.ReceivedRepresentingName field
 
-Содержит отображаемое имя конечного пользователя, представленного владельцем принимающего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagReceivedRepresentingName Альтернативные имена:PR_RCVD_REPRESENTING_NAME, PR_RCVD_REPRESENTING_NAME_A, ptagRcvdRepresentingName, PR_RCVD_REPRESENTING_NAME_W
+Содержит отображаемое имя конечного пользователя, представленного владельцем почтового ящика-получателя. Область: Address Properties Каноническое имя: PidTagReceivedRepresentingName Альтернативные имена: PR_RCVD_REPRESENTING_NAME, PR_RCVD_REPRESENTING_NAME_A, ptagRcvdRepresentingName, PR_RCVd_REPRESENTING_x0NAME_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingName;

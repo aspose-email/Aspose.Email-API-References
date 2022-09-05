@@ -1,14 +1,14 @@
 ---
 title: AppointmentSequence
 second_title: Aspose.Email for .NET API 参考
-description: 指定会议对象的序列号 区域会议 规范名称PidLidAppointmentSequence 替代名称dispidApptSequence
+description: 指定会议对象的序列号 区域Meetings 规范名称PidLidAppointmentSequence 替代名称dispidApptSequence
 type: docs
 weight: 1280
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentsequence/
 ---
 ## KnownPropertyList.AppointmentSequence field
 
-指定会议对象的序列号。 区域:会议 规范名称:PidLidAppointmentSequence 替代名称:dispidApptSequence
+指定会议对象的序列号。 区域：Meetings 规范名称：PidLidAppointmentSequence 替代名称：dispidApptSequence
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSequence;

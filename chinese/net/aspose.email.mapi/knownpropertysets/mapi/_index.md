@@ -1,14 +1,14 @@
 ---
 title: Mapi
 second_title: Aspose.Email for .NET API 参考
-description: 区域名称通用 属性集名称PS_MAPI
+description: 区域名称Common 属性集名称PS_MAPI
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi/knownpropertysets/mapi/
 ---
 ## KnownPropertySets.Mapi field
 
-区域名称:通用 属性集名称:PS_MAPI
+区域名称：Common 属性集名称：PS_MAPI
 
 ```csharp
 public static readonly Guid Mapi;

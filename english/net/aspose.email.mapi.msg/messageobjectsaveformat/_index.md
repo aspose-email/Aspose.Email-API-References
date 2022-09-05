@@ -1,9 +1,9 @@
 ---
 title: MessageObjectSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents available formats MessageObject./messageobject could be saved to.
 type: docs
-weight: 18710
+weight: 18920
 url: /net/aspose.email.mapi.msg/messageobjectsaveformat/
 ---
 ## MessageObjectSaveFormat enumeration

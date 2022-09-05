@@ -1,14 +1,14 @@
 ---
 title: ManagerName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人经理的名称
+description: 获取或设置联系人的经理姓名
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicontactprofessionalpropertyset/managername/
 ---
 ## MapiContactProfessionalPropertySet.ManagerName property
 
-获取或设置联系人经理的名称
+获取或设置联系人的经理姓名
 
 ```csharp
 public string ManagerName { get; set; }

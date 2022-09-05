@@ -1,14 +1,14 @@
 ---
 title: MailboxOwnerName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮箱所有者的显示名称 区域消息存储属性 规范名称PidTagMailboxOwnerName 备用名称PR_MAILBOX_OWNER_NAMEPR_MAILBOX_OWNER_NAME_AptagMailboxOwnerNamePR_MAILBOX_OWNER_NAME_W
+description: 包含邮箱所有者的显示名称 区域邮件存储属性 规范名称PidTagMailboxOwnerName 备用名称PR_MAILBOX_OWNER_NAMEPR_MAILBOX_OWNER_NAME_AptagMailboxOwnerNamePR_MAILBOX_OWNER_NAME_W
 type: docs
 weight: 12330
 url: /zh/net/aspose.email.mapi/knownpropertylist/mailboxownername/
 ---
 ## KnownPropertyList.MailboxOwnerName field
 
-包含邮箱所有者的显示名称。 区域:消息存储属性 规范名称:PidTagMailboxOwnerName 备用名称:PR_MAILBOX_OWNER_NAME、PR_MAILBOX_OWNER_NAME_A、ptagMailboxOwnerName、PR_MAILBOX_OWNER_NAME_W
+包含邮箱所有者的显示名称。 区域：邮件存储属性 规范名称：PidTagMailboxOwnerName 备用名称：PR_MAILBOX_OWNER_NAME、PR_MAILBOX_OWNER_NAME_A、ptagMailboxOwnerName、PR_MAILBOX_OWNER_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MailboxOwnerName;

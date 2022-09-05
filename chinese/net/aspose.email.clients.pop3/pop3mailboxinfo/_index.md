@@ -1,14 +1,14 @@
 ---
 title: Pop3MailboxInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮箱的状态
+description: 代表邮箱的状态
 type: docs
 weight: 16910
 url: /zh/net/aspose.email.clients.pop3/pop3mailboxinfo/
 ---
 ## Pop3MailboxInfo class
 
-表示邮箱的状态。
+代表邮箱的状态。
 
 ```csharp
 public class Pop3MailboxInfo
@@ -18,7 +18,7 @@ public class Pop3MailboxInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Pop3MailboxInfo](pop3mailboxinfo)(int, long) | 初始化[`Pop3MailboxInfo`](../pop3mailboxinfo)类的新实例。 |
+| [Pop3MailboxInfo](pop3mailboxinfo)(int, long) | 初始化[`Pop3MailboxInfo`](../pop3mailboxinfo)类. |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public class Pop3MailboxInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.email.clients.pop3/pop3mailboxinfo/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.email.clients.pop3/pop3mailboxinfo/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

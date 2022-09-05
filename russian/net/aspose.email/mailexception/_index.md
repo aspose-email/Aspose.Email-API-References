@@ -18,8 +18,8 @@ public class MailException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [MailException](mailexception#constructor)() | Инициализирует новый экземпляр класса[`MailException`](../mailexception). |
-| [MailException](mailexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`MailException`](../mailexception). |
+| [MailException](mailexception#constructor)() | Инициализирует новый экземпляр[`MailException`](../mailexception) класс. |
+| [MailException](mailexception#constructor_1)(string) | Инициализирует новый экземпляр[`MailException`](../mailexception) класс. |
 | [MailException](mailexception#constructor_2)(string, Exception) |  |
 
 ### Смотрите также

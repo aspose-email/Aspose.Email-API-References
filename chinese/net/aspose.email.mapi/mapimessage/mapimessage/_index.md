@@ -1,14 +1,14 @@
 ---
 title: MapiMessage
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiMessageaspose.email.mapi/mapimessage类的新实例
+description: 初始化MapiMessageaspose.email.mapi/mapimessage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapimessage/mapimessage/
 ---
 ## MapiMessage() {#constructor}
 
-初始化[`MapiMessage`](../../mapimessage)类的新实例。
+初始化[`MapiMessage`](../../mapimessage)类.
 
 ```csharp
 public MapiMessage()
@@ -24,7 +24,7 @@ public MapiMessage()
 
 ## MapiMessage(OutlookMessageFormat) {#constructor_1}
 
-初始化[`MapiMessage`](../../mapimessage)类的新实例。
+初始化[`MapiMessage`](../../mapimessage)类.
 
 ```csharp
 public MapiMessage(OutlookMessageFormat format)
@@ -32,7 +32,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | OutlookMessageFormat | 定义此消息是使用 Unicode 还是 ASCII 编码。 |
+| format | OutlookMessageFormat | 定义是否对此消息使用 Unicode 或 ASCII 编码。 |
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 ## MapiMessage(string, string, string, string, OutlookMessageFormat) {#constructor_3}
 
-初始化[`MapiMessage`](../../mapimessage)类的新实例。
+初始化[`MapiMessage`](../../mapimessage)类.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body, OutlookMessageFormat format)
@@ -54,18 +54,18 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | from | String | 发件人地址。 |
-| to | String | 收件人地址。请注意，地址用分号分隔。 |
+| to | String | 收件人的地址。请注意，地址用分号分隔。 |
 | subject | String | 邮件主题。 |
-| body | String | 消息体。 |
-| format | OutlookMessageFormat | 定义此消息是使用 Unicode 还是 ASCII 编码。 |
+| body | String | 消息正文。 |
+| format | OutlookMessageFormat | 定义是否对此消息使用 Unicode 或 ASCII 编码。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果收件人地址为空或空则被抛出。 |
+| ArgumentNullException | 如果收件人的地址为空或为空，则被抛出。 |
 | ArgumentException | 如果发件人或收件人地址不是可识别的格式，则会被抛出。 |
-| InvalidEnumArgumentException | 如果*format*参数不是有效的枚举成员，则会被抛出。 |
+| InvalidEnumArgumentException | 如果被抛出*format*参数不是有效的枚举成员。 |
 
 ### 也可以看看
 
@@ -78,7 +78,7 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 
 ## MapiMessage(string, string, string, string) {#constructor_2}
 
-初始化[`MapiMessage`](../../mapimessage)类的新实例。
+初始化[`MapiMessage`](../../mapimessage)类.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body)
@@ -87,15 +87,15 @@ public MapiMessage(string from, string to, string subject, string body)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | from | String | 发件人地址。 |
-| to | String | 收件人地址。请注意，地址用分号分隔。 |
+| to | String | 收件人的地址。请注意，地址用分号分隔。 |
 | subject | String | 邮件主题。 |
-| body | String | 消息体。 |
+| body | String | 消息正文。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果收件人地址为空或空则抛出。 |
+| ArgumentNullException | 如果收件人的地址为空或为空，则抛出。 |
 | ArgumentException | 如果发件人或收件人地址不是可识别的格式，则抛出。 |
 
 ### 也可以看看

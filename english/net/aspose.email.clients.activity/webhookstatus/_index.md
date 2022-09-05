@@ -1,7 +1,7 @@
 ---
 title: WebhookStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Webhook status
 type: docs
 weight: 2830
 url: /net/aspose.email.clients.activity/webhookstatus/

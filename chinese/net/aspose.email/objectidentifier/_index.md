@@ -1,14 +1,14 @@
 ---
 title: ObjectIdentifier
 second_title: Aspose.Email for .NET API 参考
-description: 包含对象标识信息
+description: 包含对象识别信息
 type: docs
-weight: 19240
+weight: 19270
 url: /zh/net/aspose.email/objectidentifier/
 ---
 ## ObjectIdentifier class
 
-包含对象标识信息
+包含对象识别信息
 
 ```csharp
 public class ObjectIdentifier
@@ -18,15 +18,15 @@ public class ObjectIdentifier
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ObjectIdentifier](objectidentifier)() | 初始化[`ObjectIdentifier`](../objectidentifier)类的新实例。 |
+| [ObjectIdentifier](objectidentifier)() | 初始化一个新的实例[`ObjectIdentifier`](../objectidentifier)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EWSId](../../aspose.email/objectidentifier/ewsid) { get; } | 交换网络服务 ID |
+| [EWSId](../../aspose.email/objectidentifier/ewsid) { get; } | 交换网络服务 id |
 | [GoogleId](../../aspose.email/objectidentifier/googleid) { get; } | Google 服务 ID |
-| [WebDavId](../../aspose.email/objectidentifier/webdavid) { get; } | WebDav 服务 ID |
+| [WebDavId](../../aspose.email/objectidentifier/webdavid) { get; } | WebDav 服务 id |
 
 ### 也可以看看
 

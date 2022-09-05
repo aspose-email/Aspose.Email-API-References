@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение представляющее класс содержимого urncontent-classestask.
+description: Получает значение представляющее класс контента urncontent-classestask.
 type: docs
 weight: 210
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/task/
 ---
 ## ContentClassType.Task property
 
-Получает значение, представляющее класс содержимого urn:content-classes:task.
+Получает значение, представляющее класс контента urn:content-classes:task.
 
 ```csharp
 public static ContentClassType Task { get; }

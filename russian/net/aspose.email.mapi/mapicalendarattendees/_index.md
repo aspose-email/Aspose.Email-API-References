@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет участников календаря mapi
+description: Представляет участникам календаря mapi
 type: docs
 weight: 17920
 url: /ru/net/aspose.email.mapi/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees class
 
-Представляет участников календаря mapi
+Представляет участникам календаря mapi
 
 ```csharp
 public sealed class MapiCalendarAttendees
@@ -18,7 +18,7 @@ public sealed class MapiCalendarAttendees
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarAttendees](mapicalendarattendees)() | Инициализирует новый экземпляр класса[`MapiCalendarAttendees`](../mapicalendarattendees) |
+| [MapiCalendarAttendees](mapicalendarattendees)() | Инициализирует новый экземпляр[`MapiCalendarAttendees`](../mapicalendarattendees) класс |
 
 ## Характеристики
 

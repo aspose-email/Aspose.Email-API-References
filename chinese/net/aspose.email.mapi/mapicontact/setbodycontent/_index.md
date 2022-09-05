@@ -23,11 +23,11 @@ public override void SetBodyContent(string content, BodyContentType contentType)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果指定的内容字符串为 null 或空，则抛出 。 |
+| ArgumentNullException | 如果指定的内容字符串为 null 或为空，则抛出。 |
 
 ### 评论
 
-用于设置 RTF、HTML 或纯文本格式的正文消息内容. 设置值时，PR_RTF_COMPRESSED、PR_RTF_DECOMPRESSES、PR_BODY 属性 的值也会更新。 注意，HTML 格式的值设置后，BodyRtf 属性返回 RTF 编码的值。
+用于设置 RTF、HTML 或纯文本格式的正文消息的内容。 设置值时，PR_RTF_COMPRESSED、PR_RTF_DECOMPRESSES、PR_BODY 属性 的值也会更新。 注意，HTML 格式的值设置后，BodyRtf 属性返回 RTF 编码的值。
 
 ### 也可以看看
 

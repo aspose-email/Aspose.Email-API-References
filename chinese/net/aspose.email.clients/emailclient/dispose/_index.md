@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API 参考
-description: 完成与服务器的所有操作
+description: 使用服务器完成所有操作
 type: docs
 weight: 290
 url: /zh/net/aspose.email.clients/emailclient/dispose/
 ---
 ## EmailClient.Dispose method
 
-完成与服务器的所有操作。
+使用服务器完成所有操作。
 
 ```csharp
 public virtual void Dispose()

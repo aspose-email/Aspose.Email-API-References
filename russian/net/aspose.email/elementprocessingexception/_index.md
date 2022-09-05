@@ -1,14 +1,14 @@
 ---
 title: ElementProcessingException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение которое выдается когда один из многих элементов завершается с ошибкой.
+description: Исключение возникающее при сбое одного из множества элементов с исключением.
 type: docs
 weight: 17260
 url: /ru/net/aspose.email/elementprocessingexception/
 ---
 ## ElementProcessingException class
 
-Исключение, которое выдается, когда один из многих элементов завершается с ошибкой.
+Исключение, возникающее при сбое одного из множества элементов с исключением.
 
 ```csharp
 public class ElementProcessingException : AsposeException
@@ -18,7 +18,7 @@ public class ElementProcessingException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ElementProcessingException](elementprocessingexception)(int, Exception) | Инициализирует новый экземпляр класса[`ElementProcessingException`](../elementprocessingexception)с указанным индексом элемента. |
+| [ElementProcessingException](elementprocessingexception)(int, Exception) | Инициализирует новый экземпляр[`ElementProcessingException`](../elementprocessingexception) класс с указанным индексом элемента. |
 
 ## Характеристики
 

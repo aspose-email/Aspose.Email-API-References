@@ -1,14 +1,14 @@
 ---
 title: StopProcessingRules
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее следует ли оценивать последующие правила.
+description: Получает или задает значение указывающее должны ли оцениваться последующие правила.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.exchange/ruleactions/stopprocessingrules/
 ---
 ## RuleActions.StopProcessingRules property
 
-Получает или задает значение, указывающее, следует ли оценивать последующие правила.
+Получает или задает значение, указывающее, должны ли оцениваться последующие правила.
 
 ```csharp
 public bool StopProcessingRules { get; set; }

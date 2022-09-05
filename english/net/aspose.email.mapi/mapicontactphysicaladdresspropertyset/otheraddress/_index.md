@@ -1,7 +1,7 @@
 ---
 title: OtherAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the other contacts address
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress/

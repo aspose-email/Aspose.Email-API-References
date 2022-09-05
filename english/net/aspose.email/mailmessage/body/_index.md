@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the plain text representation of messages body. If the text/plain part is present in a message the propery returns its text data. Otherwise property returns the text content of the HtmlBody property without html markup.
 type: docs
 weight: 60
 url: /net/aspose.email/mailmessage/body/

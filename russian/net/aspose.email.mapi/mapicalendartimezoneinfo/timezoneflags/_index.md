@@ -1,14 +1,14 @@
 ---
 title: TimeZoneFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает отдельные битовые флаги которые определяют информацию об этом TimeZoneRule
+description: Получает или устанавливает отдельные битовые флаги указывающие информацию об этом TimeZoneRule
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags/
 ---
 ## MapiCalendarTimeZoneInfo.TimeZoneFlags property
 
-Получает или устанавливает отдельные битовые флаги, которые определяют информацию об этом TimeZoneRule
+Получает или устанавливает отдельные битовые флаги, указывающие информацию об этом TimeZoneRule
 
 ```csharp
 public MapiCalendarTimeZoneFlags TimeZoneFlags { get; set; }

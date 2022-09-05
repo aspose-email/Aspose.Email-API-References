@@ -1,14 +1,14 @@
 ---
 title: AppointmentSubType
 second_title: Aspose.Email for .NET API 参考
-description: 指定事件是否为全天事件 区域日历 规范名称PidLidAppointmentSubType 替代名称dispidApptSubType
+description: 指定事件是否为全天事件 区域Calendar 规范名称PidLidAppointmentSubType 替代名称dispidApptSubType
 type: docs
 weight: 1340
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentsubtype/
 ---
 ## KnownPropertyList.AppointmentSubType field
 
-指定事件是否为全天事件。 区域:日历 规范名称:PidLidAppointmentSubType 替代名称:dispidApptSubType
+指定事件是否为全天事件。 区域：Calendar 规范名称：PidLidAppointmentSubType 替代名称：dispidApptSubType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSubType;

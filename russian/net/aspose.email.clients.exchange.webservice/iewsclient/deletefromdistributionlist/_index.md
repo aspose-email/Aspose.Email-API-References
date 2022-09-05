@@ -17,8 +17,8 @@ public void DeleteFromDistributionList(ExchangeDistributionList distributionList
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)содержащий информацию о списке рассылки обновить. |
-| members | MailAddressCollection | A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)содержащий почтовые адреса для удаления. MailAddress должен содержать идентификатор. |
+| distributionList | ExchangeDistributionList | А[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) содержащий информацию о списке рассылки для обновления. |
+| members | MailAddressCollection | А[`MailAddressCollection`](../../../aspose.email/mailaddresscollection) содержащий почтовые адреса для удаления. MailAddress должен содержать идентификатор. |
 
 ### Смотрите также
 

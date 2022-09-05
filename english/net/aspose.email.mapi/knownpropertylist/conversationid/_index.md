@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a computed value derived from other conversationrelated properties. Area Conversations Canonical name PidTagConversationId Alternate names PR_CONVERSATION_ID
 type: docs
 weight: 3390
 url: /net/aspose.email.mapi/knownpropertylist/conversationid/

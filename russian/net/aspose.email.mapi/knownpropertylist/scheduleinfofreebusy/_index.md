@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusy
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство устарело и не должно использоваться. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoFreeBusy Альтернативные именаPR_SCHDINFO_FREEBUSY
+description: Это свойство устарело и не должно использоваться. Область Свойства о занятости Каноническое имя PidTagScheduleInfoFreeBusy Альтернативные имена PR_SCHDINFO_FREEBUSY
 type: docs
 weight: 16810
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusy/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusy field
 
-Это свойство устарело и не должно использоваться. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoFreeBusy Альтернативные имена:PR_SCHDINFO_FREEBUSY
+Это свойство устарело и не должно использоваться. Область: Свойства о занятости Каноническое имя: PidTagScheduleInfoFreeBusy Альтернативные имена: PR_SCHDINFO_FREEBUSY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusy;

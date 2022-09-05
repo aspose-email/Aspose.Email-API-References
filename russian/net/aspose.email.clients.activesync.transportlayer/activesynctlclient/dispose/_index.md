@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Справочник по Aspose.Email для .NET API
-description: Выполняет задачи связанные с освобождением освобождением или сбросом неуправляемых ресурсов.
+description: Выполняет задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.activesync.transportlayer/activesynctlclient/dispose/
 ---
 ## ActiveSyncTLClient.Dispose method
 
-Выполняет задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()

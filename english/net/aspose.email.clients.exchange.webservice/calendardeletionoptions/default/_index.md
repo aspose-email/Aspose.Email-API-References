@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets instance of the DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions object with settings uses by default
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/default/

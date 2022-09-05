@@ -1,14 +1,14 @@
 ---
 title: CalendarExpansionMax
 second_title: Aspose.Email for .NET API 参考
-description: 为其提供 FreeBusy 信息的日历的最大数量可选的
+description: 为其提供 FreeBusy 信息的日历的最大数量可选的.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.google/freebusyquery/calendarexpansionmax/
 ---
 ## FreebusyQuery.CalendarExpansionMax property
 
-为其提供 FreeBusy 信息的日历的最大数量。可选的。
+为其提供 FreeBusy 信息的日历的最大数量。可选的.
 
 ```csharp
 public int? CalendarExpansionMax { get; set; }

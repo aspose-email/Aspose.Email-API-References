@@ -1,14 +1,14 @@
 ---
 title: DestroyAttachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Уничтожает вложения в указанных файлах сообщений Outlook. DestroyAttachments игнорирует разбор вложений.
+description: Уничтожает вложения в указанных файлах сообщений Outlook. DestroyAttachments будет игнорировать разбор вложения.
 type: docs
 weight: 410
 url: /ru/net/aspose.email.mapi/mapimessage/destroyattachments/
 ---
 ## MapiMessage.DestroyAttachments method
 
-Уничтожает вложения в указанных файлах сообщений Outlook. DestroyAttachments игнорирует разбор вложений.
+Уничтожает вложения в указанных файлах сообщений Outlook. DestroyAttachments будет игнорировать разбор вложения.
 
 ```csharp
 public static void DestroyAttachments(string path)
@@ -16,20 +16,20 @@ public static void DestroyAttachments(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Имя файла сообщений Outlook. |
+| path | String | Имя файла сообщения Outlook. |
 
 ### Примеры
 
 В следующем примере показано, как уничтожить вложения в файлах сообщений Outlook.
 
-[C#]
-
-```csharp
-//Уничтожить вложения из сообщений Outlook files
-apiMessage.DestroyAttachment(@"c:\outlookmessage.msg");
-```
+[С#]
 
 [Visual Basic]
+
+```csharp
+//Уничтожить вложения из файлов сообщений Outlook
+MapiMessage.DestroyAttachment(@"c:\outlookmessage.msg");
+```
 
 ```csharp
 'Уничтожить вложения из файлов сообщений Outlook

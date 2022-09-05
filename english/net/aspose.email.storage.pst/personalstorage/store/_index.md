@@ -1,7 +1,7 @@
 ---
 title: Store
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the PST message store.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/personalstorage/store/

@@ -1,14 +1,14 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API 参考
-description: 项目ID与服务器一起使用
+description: 项目 ID与服务器一起使用
 type: docs
 weight: 90
 url: /zh/net/aspose.email.mapi/mapimessageitembase/itemid/
 ---
 ## MapiMessageItemBase.ItemId property
 
-项目ID，与服务器一起使用
+项目 ID，与服务器一起使用
 
 ```csharp
 public virtual string ItemId { get; }

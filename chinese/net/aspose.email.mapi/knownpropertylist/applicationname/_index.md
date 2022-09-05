@@ -1,14 +1,14 @@
 ---
 title: ApplicationName
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于打开附加到 Document 对象的文件的应用程序 区域普通 规范名称PidNameApplicationName 备用名称urnschemas-microsoft-comofficeofficeNameOfApplication
+description: 指定用于打开附加到文档对象的文件的应用程序 区域Common 规范名称PidNameApplicationName 备用名称urnschemas-microsoft-comofficeofficeNameOfApplication
 type: docs
 weight: 1100
 url: /zh/net/aspose.email.mapi/knownpropertylist/applicationname/
 ---
 ## KnownPropertyList.ApplicationName field
 
-指定用于打开附加到 Document 对象的文件的应用程序。 区域：普通 规范名称：PidNameApplicationName 备用名称：urn:schemas-microsoft-com:office:office#NameOfApplication
+指定用于打开附加到文档对象的文件的应用程序。 区域：Common 规范名称：PidNameApplicationName 备用名称：urn:schemas-microsoft-com:office:office#NameOfApplication
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ApplicationName;

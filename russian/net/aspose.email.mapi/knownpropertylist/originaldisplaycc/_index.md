@@ -1,14 +1,14 @@
 ---
 title: OriginalDisplayCc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagDisplayCc раздел 2.666 из исходного сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalDisplayCc Альтернативные именаPR_ORIGINAL_DISPLAY_CC PR_ORIGINAL_DISPLAY_CC_A ptagOriginalDisplayCc PR_ORIGINAL_DISPLAY_CC_W 
+description: Содержит значение свойства PidTagDisplayCc раздел 2.666 из исходного сообщения. Область Общие свойства сообщения Каноническое имя PidTagOriginalDisplayCc Альтернативные имена PR_ORIGINAL_DISPLAY_CC PR_ORIGINAL_DISPLAY_CC_A ptagOriginalDisplayCc PR_ORIGINAL_DISPLAY_CC_W
 type: docs
 weight: 13540
 url: /ru/net/aspose.email.mapi/knownpropertylist/originaldisplaycc/
 ---
 ## KnownPropertyList.OriginalDisplayCc field
 
-Содержит значение свойства PidTagDisplayCc (раздел 2.666) из исходного сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalDisplayCc Альтернативные имена:PR_ORIGINAL_DISPLAY_CC, PR_ORIGINAL_DISPLAY_CC_A, ptagOriginalDisplayCc, PR_ORIGINAL_DISPLAY_CC_W, :
+Содержит значение свойства PidTagDisplayCc (раздел 2.666) из исходного сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalDisplayCc Альтернативные имена: PR_ORIGINAL_DISPLAY_CC, PR_ORIGINAL_DISPLAY_CC_A, ptagOriginalDisplayCc, PR_ORIGINAL_DISPLAY_CC_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalDisplayCc;

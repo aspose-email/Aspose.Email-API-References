@@ -18,15 +18,15 @@ public sealed class AppointmentIcsSaveOptions : AppointmentSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor)() | Инициализирует новый экземпляр класса[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor_1)(AppointmentAction) | Инициализирует новый экземпляр класса[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor)() | Инициализирует новый экземпляр[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) класс |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor_1)(AppointmentAction) | Инициализирует новый экземпляр[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | static [Default](../../aspose.email.calendar/appointmenticssaveoptions/default) { get; } | Получает параметры сохранения Ics по умолчанию |
-| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action) { get; set; } | Получает или устанавливает назначение Action |
+| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action) { get; set; } | Получает или устанавливает встречу Action |
 | [CreateNew](../../aspose.email.calendar/appointmenticssaveoptions/createnew) { get; set; } | Получает или задает значение, указывающее, нужно ли создавать новый календарь или добавлять события в существующий календарь. Значение по умолчанию — true. |
 | [EndTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/endtimezone) { get; set; } | Получает или задает конечный часовой пояс. |
 | [MethodType](../../aspose.email.calendar/appointmenticssaveoptions/methodtype) { get; set; } | Получает или задает тип метода объекта iCalendar, связанный с объектом календаря. |

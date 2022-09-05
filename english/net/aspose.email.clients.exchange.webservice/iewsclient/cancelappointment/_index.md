@@ -1,12 +1,12 @@
 ---
 title: CancelAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Cancels an exiting meeting on an organizers calendar
 type: docs
 weight: 410
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/cancelappointment/
 ---
-## IEWSClient.CancelAppointment method (1 of 6)
+## CancelAppointment(string, string) {#cancelappointment_5}
 
 Cancels an exiting meeting on an organizers calendar
 
@@ -27,7 +27,7 @@ public void CancelAppointment(string uniqueId, string folderUri)
 
 ---
 
-## IEWSClient.CancelAppointment method (2 of 6)
+## CancelAppointment(MapiCalendar) {#cancelappointment_2}
 
 Cancels appointment.
 
@@ -48,7 +48,7 @@ public void CancelAppointment(MapiCalendar appointment)
 
 ---
 
-## IEWSClient.CancelAppointment method (3 of 6)
+## CancelAppointment(MapiCalendar, string) {#cancelappointment_3}
 
 Cancels appointment.
 
@@ -70,7 +70,7 @@ public void CancelAppointment(MapiCalendar appointment, string folderUri)
 
 ---
 
-## IEWSClient.CancelAppointment method (4 of 6)
+## CancelAppointment(Appointment) {#cancelappointment}
 
 Cancels appointment.
 
@@ -91,7 +91,7 @@ public void CancelAppointment(Appointment appointment)
 
 ---
 
-## IEWSClient.CancelAppointment method (5 of 6)
+## CancelAppointment(Appointment, string) {#cancelappointment_1}
 
 Cancels appointment.
 
@@ -113,7 +113,7 @@ public void CancelAppointment(Appointment appointment, string folderUri)
 
 ---
 
-## IEWSClient.CancelAppointment method (6 of 6)
+## CancelAppointment(string) {#cancelappointment_4}
 
 Cancels an exiting meeting on an organizers calendar
 

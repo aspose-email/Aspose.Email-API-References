@@ -18,13 +18,13 @@ public class AppointmentFormattingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AppointmentFormattingOptions](appointmentformattingoptions)() | Инициализирует новый экземпляр класса[`AppointmentFormattingOptions`](../appointmentformattingoptions).  По умолчанию шаблон будет создан в текстовом формате. |
+| [AppointmentFormattingOptions](appointmentformattingoptions)() | Инициализирует новый экземпляр[`AppointmentFormattingOptions`](../appointmentformattingoptions) класс. По умолчанию шаблон будет создан в текстовом формате. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CssStyles](../../aspose.email.calendar/appointmentformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили css для средства форматирования. |
+| [CssStyles](../../aspose.email.calendar/appointmentformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили CSS для средства форматирования. |
 | [DescriptionFormat](../../aspose.email.calendar/appointmentformattingoptions/descriptionformat) { get; set; } | Получает или задает формат описания. |
 | [EndDateFormat](../../aspose.email.calendar/appointmentformattingoptions/enddateformat) { get; set; } | Получает или задает формат конечной даты. |
 | [IsTextFormat](../../aspose.email.calendar/appointmentformattingoptions/istextformat) { get; } | Получает значение, указывающее, имеет ли шаблон текстовый формат. |

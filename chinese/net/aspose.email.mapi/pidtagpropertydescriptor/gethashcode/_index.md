@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API 参考
-description: 用作类型的散列函数
+description: 用作类型的哈希函数
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/pidtagpropertydescriptor/gethashcode/
 ---
 ## PidTagPropertyDescriptor.GetHashCode method
 
-用作类型的散列函数。
+用作类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()

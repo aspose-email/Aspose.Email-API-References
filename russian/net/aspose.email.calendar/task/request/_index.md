@@ -16,7 +16,7 @@ public AlternateView Request()
 
 ### Возвращаемое значение
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview), который представляет формат для просмотра сообщения электронной почты.
+Альтернативный вид[`AlternateView`](../../../aspose.email/alternateview) который представляет формат для просмотра сообщения электронной почты.
 
 ### Смотрите также
 

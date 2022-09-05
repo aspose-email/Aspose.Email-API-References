@@ -1,14 +1,14 @@
 ---
 title: SubjectTraceInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SUBJECT_TRACE_INFO
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SUBJECT_TRACE_INFO
 type: docs
 weight: 18370
 url: /ru/net/aspose.email.mapi/knownpropertylist/subjecttraceinfo/
 ---
 ## KnownPropertyList.SubjectTraceInfo field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SUBJECT_TRACE_INFO
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SUBJECT_TRACE_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SubjectTraceInfo;

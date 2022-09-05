@@ -1,14 +1,14 @@
 ---
 title: HasChildren
 second_title: Aspose.Email for .NET API 参考
-description: 获取指示文件夹是否包含子文件夹的值 只有在服务器支持 IMAP4 LIST 命令扩展 rfc5258 的情况下才能访问此选项查看更多http//tools.ietf.org/html/rfc5258 如果值为 true 则表示该文件夹有当前认证用户可访问的子子文件夹否则为 false
+description: 获取指示文件夹是否包含子文件夹的值 仅当服务器支持 IMAP4 LIST 命令扩展 rfc5258 查看更多信息http//tools.ietf.org/html/rfc5258 如果值为真的 表示该文件夹有当前认证用户可以访问的子子文件夹否则为false.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/haschildren/
 ---
 ## ImapFolderInfo.HasChildren property
 
-获取指示文件夹是否包含子文件夹的值。 只有在服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 的情况下才能访问此选项:查看更多:http://tools.ietf.org/html/rfc5258 如果值为` true` ，则表示该文件夹有当前认证用户可访问的子子文件夹，否则为 false。
+获取指示文件夹是否包含子文件夹的值。 仅当服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 查看更多信息：http://tools.ietf.org/html/rfc5258 如果值为`真的` 表示该文件夹有当前认证用户可以访问的子子文件夹，否则为false.
 
 ```csharp
 public bool HasChildren { get; }

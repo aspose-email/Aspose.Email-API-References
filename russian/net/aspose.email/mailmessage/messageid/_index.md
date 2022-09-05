@@ -1,14 +1,14 @@
 ---
 title: MessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает идентификатор сообщения
+description: Получает или задает сообщение id
 type: docs
 weight: 220
 url: /ru/net/aspose.email/mailmessage/messageid/
 ---
 ## MailMessage.MessageId property
 
-Получает или устанавливает идентификатор сообщения
+Получает или задает сообщение id
 
 ```csharp
 public virtual string MessageId { get; set; }

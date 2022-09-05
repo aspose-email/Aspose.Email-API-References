@@ -1,12 +1,12 @@
 ---
 title: CreateItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the given item in the default item folder.
 type: docs
 weight: 520
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createitem/
 ---
-## IEWSClient.CreateItem method (1 of 2)
+## CreateItem(MapiMessageItemBase) {#createitem}
 
 Creates the given item in the default item folder.
 
@@ -31,7 +31,7 @@ The item Uri
 
 ---
 
-## IEWSClient.CreateItem method (2 of 2)
+## CreateItem(string, MapiMessageItemBase) {#createitem_1}
 
 Creates the given item in the specified folder.
 

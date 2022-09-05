@@ -1,14 +1,14 @@
 ---
 title: ClientMachineName
 second_title: Aspose.Email for .NET API 参考
-description: 承载 Outlook 客户端的计算机名称
+description: 托管 Outlook 客户端的计算机名称
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activity/exchangemailboxactivity/clientmachinename/
 ---
 ## ExchangeMailboxActivity.ClientMachineName property
 
-承载 Outlook 客户端的计算机名称。
+托管 Outlook 客户端的计算机名称。
 
 ```csharp
 public string ClientMachineName { get; set; }

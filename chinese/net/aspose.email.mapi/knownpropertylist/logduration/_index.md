@@ -1,14 +1,14 @@
 ---
 title: LogDuration
 second_title: Aspose.Email for .NET API 参考
-description: 包含活动的持续时间以分钟为单位 区域日记 规范名称PidLidLogDuration 替代名称dispidLogDuration
+description: 包含活动的持续时间以分钟为单位 区域Journal 规范名称PidLidLogDuration 替代名称dispidLogDuration
 type: docs
 weight: 12250
 url: /zh/net/aspose.email.mapi/knownpropertylist/logduration/
 ---
 ## KnownPropertyList.LogDuration field
 
-包含活动的持续时间（以分钟为单位）。 区域:日记 规范名称:PidLidLogDuration 替代名称:dispidLogDuration
+包含活动的持续时间（以分钟为单位）。 区域：Journal 规范名称：PidLidLogDuration 替代名称：dispidLogDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDuration;

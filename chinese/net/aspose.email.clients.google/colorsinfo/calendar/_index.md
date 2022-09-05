@@ -1,14 +1,14 @@
 ---
 title: Calendar
 second_title: Aspose.Email for .NET API 参考
-description: 日历颜色调色板从颜色 ID 映射到其定义 calendarListEntry 资源在其color 字段中引用这些颜色ID 之一
+description: 日历颜色调色板从颜色 ID 映射到其定义 calendarListEntry资源在其颜色字段中引用这些颜色 ID 之一
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.google/colorsinfo/calendar/
 ---
 ## ColorsInfo.Calendar property
 
-日历颜色调色板，从颜色 ID 映射到其定义。 'calendarListEntry' 资源在其'color' 字段中引用这些颜色ID 之一。
+日历颜色调色板，从颜色 ID 映射到其定义。 “calendarListEntry”资源在其“颜色”字段中引用这些颜色 ID 之一。
 
 ```csharp
 public Dictionary<string, Colors> Calendar { get; }

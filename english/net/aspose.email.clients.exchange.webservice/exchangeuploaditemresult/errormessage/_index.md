@@ -1,7 +1,7 @@
 ---
 title: ErrorMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the error message if the uploading item failed
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/errormessage/

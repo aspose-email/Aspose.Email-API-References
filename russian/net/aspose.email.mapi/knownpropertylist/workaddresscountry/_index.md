@@ -1,14 +1,14 @@
 ---
 title: WorkAddressCountry
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает часть рабочего адреса контакта для страны или региона. ОбластьСвойства контакта Каноническое имяPidLidWorkAddressCountry Альтернативные именаdispidWorkAddressCountry
+description: Указывает часть рабочего адреса контакта для страны или региона. Область свойства контакта Каноническое имя PidLidWorkAddressCountry Альтернативные имена dispidWorkAddressCountry
 type: docs
 weight: 19570
 url: /ru/net/aspose.email.mapi/knownpropertylist/workaddresscountry/
 ---
 ## KnownPropertyList.WorkAddressCountry field
 
-Указывает часть рабочего адреса контакта для страны или региона. Область:Свойства контакта Каноническое имя:PidLidWorkAddressCountry Альтернативные имена:dispidWorkAddressCountry
+Указывает часть рабочего адреса контакта для страны или региона. Область: свойства контакта Каноническое имя: PidLidWorkAddressCountry Альтернативные имена: dispidWorkAddressCountry
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressCountry;

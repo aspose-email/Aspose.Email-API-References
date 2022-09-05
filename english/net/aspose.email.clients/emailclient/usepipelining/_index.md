@@ -1,7 +1,7 @@
 ---
 title: UsePipelining
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets object which indicates whether the pipelining mode is enabled.
 type: docs
 weight: 240
 url: /net/aspose.email.clients/emailclient/usepipelining/

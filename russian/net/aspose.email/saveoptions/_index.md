@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Это абстрактный базовый класс для классов которые позволяют пользователю указывать дополнительные параметры при сохранении MailMessage в определенном формате.
 type: docs
-weight: 19920
+weight: 19970
 url: /ru/net/aspose.email/saveoptions/
 ---
 ## SaveOptions class
@@ -20,10 +20,10 @@ public abstract class SaveOptions
 | --- | --- |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Представляет метод, который обычно предоставляется вызывающей стороной и обрабатывает события выполнения. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Представляет тип сохранения почтового сообщения. Он может быть в формате eml, msg (ASCII или Unicode), mhtml или html. Значение по умолчанию — Eml. |
-| static [DefaultEml](../../aspose.email/saveoptions/defaulteml) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате Eml. |
-| static [DefaultHtml](../../aspose.email/saveoptions/defaulthtml) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате Html. |
+| static [DefaultEml](../../aspose.email/saveoptions/defaulteml) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате EML. |
+| static [DefaultHtml](../../aspose.email/saveoptions/defaulthtml) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате HTML. |
 | static [DefaultMhtml](../../aspose.email/saveoptions/defaultmhtml) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате Mhtml. |
-| static [DefaultMsg](../../aspose.email/saveoptions/defaultmsg) { get; } | Получает опции со значениями по умолчанию для сохранения сообщения в формате Msg(ASCII). |
+| static [DefaultMsg](../../aspose.email/saveoptions/defaultmsg) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате Msg(ASCII). |
 | static [DefaultMsgUnicode](../../aspose.email/saveoptions/defaultmsgunicode) { get; } | Получает параметры со значениями по умолчанию для сохранения сообщения в формате Msg (Unicode). |
 
 ## Методы

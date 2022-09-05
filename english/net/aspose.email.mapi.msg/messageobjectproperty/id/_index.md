@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the id of the property.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi.msg/messageobjectproperty/id/

@@ -1,7 +1,7 @@
 ---
 title: IgnoreList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of exceptions to be ignored.
 type: docs
 weight: 40
 url: /net/aspose.email.exceptions/exceptionmanager/ignorelist/

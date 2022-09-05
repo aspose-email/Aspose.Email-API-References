@@ -1,14 +1,14 @@
 ---
 title: EmsAbMtaLocalDesig
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MTA_LOCAL_DESIG
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MTA_LOCAL_DESIG
 type: docs
 weight: 7590
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmtalocaldesig/
 ---
 ## KnownPropertyList.EmsAbMtaLocalDesig field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MTA_LOCAL_DESIG
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MTA_LOCAL_DESIG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMtaLocalDesig;

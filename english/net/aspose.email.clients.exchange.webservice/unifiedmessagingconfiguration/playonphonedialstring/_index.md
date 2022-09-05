@@ -1,7 +1,7 @@
 ---
 title: PlayOnPhoneDialString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Play On Phone dial string
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring/

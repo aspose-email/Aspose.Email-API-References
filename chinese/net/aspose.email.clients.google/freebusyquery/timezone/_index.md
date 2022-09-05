@@ -1,14 +1,14 @@
 ---
 title: TimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 响应中使用的时区可选的默认值为 UTC
+description: 响应中使用的时区可选的默认为 UTC.
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.google/freebusyquery/timezone/
 ---
 ## FreebusyQuery.TimeZone property
 
-响应中使用的时区。可选的。默认值为 UTC。
+响应中使用的时区。可选的。默认为 UTC.
 
 ```csharp
 public string TimeZone { get; set; }

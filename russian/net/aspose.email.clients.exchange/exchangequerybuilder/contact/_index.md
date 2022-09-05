@@ -1,14 +1,14 @@
 ---
 title: Contact
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объект со свойствами контакта для создания запроса
+description: Получает объект со свойствами контакта для создания query
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/exchangequerybuilder/contact/
 ---
 ## ExchangeQueryBuilder.Contact property
 
-Получает объект со свойствами контакта для создания запроса
+Получает объект со свойствами контакта для создания query
 
 ```csharp
 public ContactQueryBuilder Contact { get; }

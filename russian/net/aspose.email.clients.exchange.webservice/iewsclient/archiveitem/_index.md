@@ -17,7 +17,7 @@ public void ArchiveItem(string sourceFolderUri, MapiMessageItemBase item)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| item | MapiMessageItemBase | Элемент, который будет архивирован |
+| item | MapiMessageItemBase | Элемент, который будет заархивирован |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public void ArchiveItem(string sourceFolderUri, Appointment appointment)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| appointment | Appointment | Элемент, который будет архивирован |
+| appointment | Appointment | Элемент, который будет заархивирован |
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ public void ArchiveItem(string sourceFolderUri, ExchangeTask task)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| task | ExchangeTask | Элемент, который будет архивирован |
+| task | ExchangeTask | Элемент, который будет заархивирован |
 
 ### Смотрите также
 

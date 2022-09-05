@@ -1,14 +1,14 @@
 ---
 title: ForeignReportId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FOREIGN_REPORT_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FOREIGN_REPORT_ID
 type: docs
 weight: 10480
 url: /ru/net/aspose.email.mapi/knownpropertylist/foreignreportid/
 ---
 ## KnownPropertyList.ForeignReportId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FOREIGN_REPORT_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FOREIGN_REPORT_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ForeignReportId;

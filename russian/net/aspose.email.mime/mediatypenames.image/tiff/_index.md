@@ -1,14 +1,14 @@
 ---
 title: Tiff
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип носителя изображения/tiff
+description: Определяет тип носителя изображения/tiff
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mime/mediatypenames.image/tiff/
 ---
 ## MediaTypeNames.Image.Tiff field
 
-Указывает тип носителя изображения/tiff
+Определяет тип носителя изображения/tiff
 
 ```csharp
 public const string Tiff;

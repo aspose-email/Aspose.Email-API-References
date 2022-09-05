@@ -1,14 +1,14 @@
 ---
 title: EmsAbDiagnosticRegKey
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DIAGNOSTIC_REG_KEY
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DIAGNOSTIC_REG_KEY
 type: docs
 weight: 5450
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdiagnosticregkey/
 ---
 ## KnownPropertyList.EmsAbDiagnosticRegKey field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DIAGNOSTIC_REG_KEY
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DIAGNOSTIC_REG_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDiagnosticRegKey;

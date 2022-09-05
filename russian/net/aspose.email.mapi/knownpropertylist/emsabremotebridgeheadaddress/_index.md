@@ -1,14 +1,14 @@
 ---
 title: EmsAbRemoteBridgeHeadAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS
 type: docs
 weight: 8390
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabremotebridgeheadaddress/
 ---
 ## KnownPropertyList.EmsAbRemoteBridgeHeadAddress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRemoteBridgeHeadAddress;

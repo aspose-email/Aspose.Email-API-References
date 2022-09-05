@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API 参考
-description: Equel 操作定义
+description: Equel 操作已定义
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.imap/esearchoptions/op_equality/
 ---
 ## ESearchOptions Equality operator
 
-Equel 操作定义
+Equel 操作已定义
 
 ```csharp
 public static bool operator ==(ESearchOptions val1, ESearchOptions val2)

@@ -1,7 +1,7 @@
 ---
 title: PostOfficeBox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the post office box
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/postofficebox/

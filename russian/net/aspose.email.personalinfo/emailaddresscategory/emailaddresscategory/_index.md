@@ -1,14 +1,14 @@
 ---
 title: EmailAddressCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаEmailAddressCategoryaspose.email.personalinfo/emailaddresscategoryс категорией Custom.
+description: Инициализирует новый экземплярEmailAddressCategoryaspose.email.personalinfo/emailaddresscategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/emailaddresscategory/emailaddresscategory/
 ---
 ## EmailAddressCategory constructor
 
-Инициализирует новый экземпляр класса[`EmailAddressCategory`](../../emailaddresscategory)с категорией Custom.
+Инициализирует новый экземпляр[`EmailAddressCategory`](../../emailaddresscategory) класс с категорией «Пользовательский».
 
 ```csharp
 public EmailAddressCategory(string description)
@@ -16,7 +16,7 @@ public EmailAddressCategory(string description)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| description | String | Описание для категории адресов электронной почты |
+| description | String | Описание категории адреса электронной почты |
 
 ### Смотрите также
 

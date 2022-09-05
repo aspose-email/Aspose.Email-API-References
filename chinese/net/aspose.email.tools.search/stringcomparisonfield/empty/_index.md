@@ -16,7 +16,7 @@ public MailQuery Empty()
 
 ### 返回值
 
-[`MailQuery`](../../mailquery)表示搜索查询（一个搜索条件）。
+[`MailQuery`](../../mailquery)表示搜索查询（一种搜索标准）。
 
 ### 也可以看看
 

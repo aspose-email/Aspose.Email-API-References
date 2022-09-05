@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/phonenumbercategory/telexvalue/
 ---
 ## PhoneNumberCategory.TelexValue field
 
-Строковое значение для категории «Телекс»
+Строковое значение для категории "Телекс"
 
 ```csharp
 public const string TelexValue;

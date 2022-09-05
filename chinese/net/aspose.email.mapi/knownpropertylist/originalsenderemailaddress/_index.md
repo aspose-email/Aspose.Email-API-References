@@ -1,14 +1,14 @@
 ---
 title: OriginalSenderEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始消息发送者的 PidTagSenderEmailAddress 属性的值第 2.992 节 区域常规消息属性 规范名称PidTagOriginalSenderEmailAddress 备用名称PR_ORIGINAL_SENDER_EMAIL_ADDRESS PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W
+description: 包含原始邮件发件人的 PidTagSenderEmailAddress 属性的值第 2.992 节 区域常规邮件属性 规范名称PidTagOriginalSenderEmailAddress 备用名称PR_ORIGINAL_SENDER_EMAIL_ADDRESSPR_ORIGINAL_SENDER_EMAIL_ADDRESS_APR_ORIGINAL_SENDER_EMAIL_ADDRESS_W
 type: docs
 weight: 13670
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsenderemailaddress/
 ---
 ## KnownPropertyList.OriginalSenderEmailAddress field
 
-包含原始消息发送者的 PidTagSenderEmailAddress 属性的值（第 2.992 节）。 区域:常规消息属性 规范名称:PidTagOriginalSenderEmailAddress 备用名称:PR_ORIGINAL_SENDER_EMAIL_ADDRESS, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W
+包含原始邮件发件人的 PidTagSenderEmailAddress 属性的值（第 2.992 节）。 区域：常规邮件属性 规范名称：PidTagOriginalSenderEmailAddress 备用名称：PR_ORIGINAL_SENDER_EMAIL_ADDRESS、PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A、PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSenderEmailAddress;

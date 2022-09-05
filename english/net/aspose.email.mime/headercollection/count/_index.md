@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a count of headers
 type: docs
 weight: 30
 url: /net/aspose.email.mime/headercollection/count/

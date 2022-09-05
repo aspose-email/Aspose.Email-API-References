@@ -47,7 +47,7 @@ public ExchangeFolderInfo CreatePublicFolder(string parentFolderUri, string name
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹的 URI |
 | name | String | 新文件夹的名称 |
-| permissions | ExchangeFolderPermissionCollection | 新文件夹的权限文件夹 |
+| permissions | ExchangeFolderPermissionCollection | 新文件夹的权限 |
 
 ### 返回值
 

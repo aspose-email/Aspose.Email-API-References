@@ -1,12 +1,12 @@
 ---
 title: SetReadFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the read flag.
 type: docs
 weight: 1420
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/setreadflag/
 ---
-## IEWSClient.SetReadFlag method (1 of 2)
+## SetReadFlag(string) {#setreadflag}
 
 Sets the read flag.
 
@@ -26,7 +26,7 @@ public void SetReadFlag(string messageUri)
 
 ---
 
-## IEWSClient.SetReadFlag method (2 of 2)
+## SetReadFlag(string, bool) {#setreadflag_1}
 
 Marks the specifeid message as read.
 

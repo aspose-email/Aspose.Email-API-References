@@ -1,14 +1,14 @@
 ---
 title: ContentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает идентификатор содержимого.
+description: Получает или задает идентификатор контента.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/attachmentbase/contentid/
 ---
 ## AttachmentBase.ContentId property
 
-Получает или задает идентификатор содержимого.
+Получает или задает идентификатор контента.
 
 ```csharp
 public string ContentId { get; set; }

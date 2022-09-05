@@ -1,14 +1,14 @@
 ---
 title: IncompleteCopy
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INCOMPLETE_COPY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INCOMPLETE_COPY
 type: docs
 weight: 11300
 url: /ru/net/aspose.email.mapi/knownpropertylist/incompletecopy/
 ---
 ## KnownPropertyList.IncompleteCopy field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INCOMPLETE_COPY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INCOMPLETE_COPY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IncompleteCopy;

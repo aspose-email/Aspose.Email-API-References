@@ -1,14 +1,14 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 AppointmentIcsSaveOptionsaspose.email.calendar/appointmenticssaveoptions 班级
+description: 初始化AppointmentIcsSaveOptionsaspose.email.calendar/appointmenticssaveoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/appointmenticssaveoptions/
 ---
 ## AppointmentIcsSaveOptions() {#constructor}
 
-初始化一个新的实例 [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) 班级
+初始化[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) class
 
 ```csharp
 public AppointmentIcsSaveOptions()
@@ -24,7 +24,7 @@ public AppointmentIcsSaveOptions()
 
 ## AppointmentIcsSaveOptions(AppointmentAction) {#constructor_1}
 
-初始化一个新的实例 [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) 班级
+初始化[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) class
 
 ```csharp
 public AppointmentIcsSaveOptions(AppointmentAction method)

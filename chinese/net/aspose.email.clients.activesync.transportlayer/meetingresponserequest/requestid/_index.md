@@ -1,14 +1,14 @@
 ---
 title: RequestId
 second_title: Aspose.Email for .NET API 参考
-description: 指定会议请求消息项的服务器 ID 如果包含 LongId则可选 RequestId 值最长可达 64 个字符
+description: 指定会议请求消息项的服务器 ID 如果包含 LongId则为可选 RequestId 值最长可达 64 个字符
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/requestid/
 ---
 ## MeetingResponseRequest.RequestId property
 
-指定会议请求消息项的服务器 ID。 如果包含 LongId，则可选。 RequestId 值最长可达 64 个字符。
+指定会议请求消息项的服务器 ID。 如果包含 LongId，则为可选。 RequestId 值最长可达 64 个字符。
 
 ```csharp
 public string RequestId { get; set; }

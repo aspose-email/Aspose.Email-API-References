@@ -1,7 +1,7 @@
 ---
 title: TaskDateCompleted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the date when the user completed work on the task. Area Tasks Canonical name PidLidTaskDateCompleted Alternate names dispidTaskDateCompleted
 type: docs
 weight: 18600
 url: /net/aspose.email.mapi/knownpropertylist/taskdatecompleted/

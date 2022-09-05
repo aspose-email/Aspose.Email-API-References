@@ -1,14 +1,14 @@
 ---
 title: AppointmentLoadOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 AppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions 班级
+description: 初始化AppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/appointmentloadoptions/appointmentloadoptions/
 ---
 ## AppointmentLoadOptions constructor
 
-初始化一个新的实例 [`AppointmentLoadOptions`](../../appointmentloadoptions) 班级
+初始化[`AppointmentLoadOptions`](../../appointmentloadoptions) class
 
 ```csharp
 public AppointmentLoadOptions()

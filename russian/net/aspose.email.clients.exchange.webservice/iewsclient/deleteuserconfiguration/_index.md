@@ -16,13 +16,13 @@ public void DeleteUserConfiguration(UserConfigurationName userConfigurationName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| userConfigurationName | UserConfigurationName | Указывает конфигурацию пользователя для удалить |
+| userConfigurationName | UserConfigurationName | Указывает пользовательскую конфигурацию для удаления |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*userConfigurationName*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*userConfigurationName* является`нулевой` |
 
 ### Смотрите также
 

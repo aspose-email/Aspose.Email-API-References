@@ -1,14 +1,14 @@
 ---
 title: GetMailboxSize
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱大小
+description: 获取邮箱的大小
 type: docs
 weight: 240
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/getmailboxsize/
 ---
 ## GetMailboxSize() {#getmailboxsize}
 
-获取邮箱大小
+获取邮箱的大小
 
 ```csharp
 public long GetMailboxSize()
@@ -28,7 +28,7 @@ public long GetMailboxSize()
 
 ## GetMailboxSize(string) {#getmailboxsize_1}
 
-获取邮箱大小
+获取邮箱的大小
 
 ```csharp
 public long GetMailboxSize(string mailbox)
@@ -36,7 +36,7 @@ public long GetMailboxSize(string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 邮箱。注意:如果设置为` null` 或` 空` 将使用默认邮箱 |
+| mailbox | String | 一个邮箱。注意：如果设置为`无效的`或者`空的`将使用默认邮箱 |
 
 ### 返回值
 

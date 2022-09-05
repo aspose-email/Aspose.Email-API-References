@@ -1,14 +1,14 @@
 ---
 title: ImpersonateUser
 second_title: Aspose.Email for .NET API 参考
-description: 模拟用户
+description: 冒充用户
 type: docs
 weight: 1060
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/impersonateuser/
 ---
 ## IEWSClient.ImpersonateUser method
 
-模拟用户。
+冒充用户。
 
 ```csharp
 public void ImpersonateUser(ItemChoice valueType, string value)

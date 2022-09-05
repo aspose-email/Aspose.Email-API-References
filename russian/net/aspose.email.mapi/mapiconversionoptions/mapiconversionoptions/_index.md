@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiConversionOptionsaspose.email.mapi/mapiconversionoptions.
+description: Инициализирует новый экземплярMapiConversionOptionsaspose.email.mapi/mapiconversionoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapiconversionoptions/mapiconversionoptions/
 ---
 ## MapiConversionOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiConversionOptions`](../../mapiconversionoptions).
+Инициализирует новый экземпляр[`MapiConversionOptions`](../../mapiconversionoptions) класс.
 
 ```csharp
 public MapiConversionOptions()
@@ -24,7 +24,7 @@ public MapiConversionOptions()
 
 ## MapiConversionOptions(OutlookMessageFormat) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiConversionOptions`](../../mapiconversionoptions)с указанным OutlookMessageFormat.
+Инициализирует новый экземпляр[`MapiConversionOptions`](../../mapiconversionoptions) класс с указанным OutlookMessageFormat.
 
 ```csharp
 public MapiConversionOptions(OutlookMessageFormat format)

@@ -1,14 +1,14 @@
 ---
 title: Recipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет получателя для MapiMailMessage.
+description: Представляет получателя MapiMailMessage.
 type: docs
-weight: 20910
+weight: 20960
 url: /ru/net/aspose.email.windows.forms/recipient/
 ---
 ## Recipient class
 
-Представляет получателя для MapiMailMessage.
+Представляет получателя MapiMailMessage.
 
 ```csharp
 public class Recipient

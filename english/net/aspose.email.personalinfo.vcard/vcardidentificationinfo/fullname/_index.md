@@ -1,7 +1,7 @@
 ---
 title: FullName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a contacts full name
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/fullname/

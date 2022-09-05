@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取约会附件集合
+description: 获取约会的附件集合
 type: docs
 weight: 30
 url: /zh/net/aspose.email.calendar/appointment/attachments/
 ---
 ## Appointment.Attachments property
 
-获取约会附件集合。
+获取约会的附件集合。
 
 ```csharp
 public AttachmentCollection Attachments { get; }

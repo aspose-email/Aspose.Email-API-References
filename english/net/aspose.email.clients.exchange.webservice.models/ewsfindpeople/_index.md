@@ -1,7 +1,7 @@
 ---
 title: EwsFindPeople
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the FindPeopleAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync parameters.
 type: docs
 weight: 4070
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/

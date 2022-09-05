@@ -1,14 +1,14 @@
 ---
 title: AmpAccordion
 second_title: Aspose.Email for .NET API 参考
-description: 便于显示/隐藏不同部分的 UI 元素
+description: 有助于显示/隐藏不同部分的 UI 元素
 type: docs
 weight: 60
 url: /zh/net/aspose.email.amp/ampaccordion/
 ---
 ## AmpAccordion class
 
-便于显示/隐藏不同部分的 UI 元素。
+有助于显示/隐藏不同部分的 UI 元素。
 
 ```csharp
 public class AmpAccordion : AmpComponent
@@ -26,9 +26,9 @@ public class AmpAccordion : AmpComponent
 | --- | --- |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP 提供了一组通用属性，这些属性扩展到许多 AMP 组件。 |
 | [DisableSessionStates](../../aspose.email.amp/ampaccordion/disablesessionstates) { get; set; } | 在 amp-accordion 上设置此属性以选择不保留手风琴的折叠/展开状态。 |
-| [ExpandSingleSection](../../aspose.email.amp/ampaccordion/expandsinglesection) { get; set; } | 在 amp-accordion 上设置此属性，一次只允许展开一个部分。 |
+| [ExpandSingleSection](../../aspose.email.amp/ampaccordion/expandsinglesection) { get; set; } | 在 amp-accordion 上设置此属性，以便一次只允许展开一个部分。 |
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/ampaccordion/requiredscript) { get; } | 必须添加到头部的脚本。 |
 | [Sections](../../aspose.email.amp/ampaccordion/sections) { get; } | 部分列表。 |
 
@@ -36,7 +36,7 @@ public class AmpAccordion : AmpComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampaccordion/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/ampaccordion/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/ampaccordion/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

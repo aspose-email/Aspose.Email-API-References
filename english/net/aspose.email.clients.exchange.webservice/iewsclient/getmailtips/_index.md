@@ -1,7 +1,7 @@
 ---
 title: GetMailTips
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets mail tips
 type: docs
 weight: 1000
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getmailtips/

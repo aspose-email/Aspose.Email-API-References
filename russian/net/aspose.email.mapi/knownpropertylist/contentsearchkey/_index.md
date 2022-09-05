@@ -1,14 +1,14 @@
 ---
 title: ContentSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_SEARCH_KEY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_SEARCH_KEY
 type: docs
 weight: 3250
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentsearchkey/
 ---
 ## KnownPropertyList.ContentSearchKey field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_SEARCH_KEY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_SEARCH_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentSearchKey;

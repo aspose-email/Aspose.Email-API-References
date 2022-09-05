@@ -1,14 +1,14 @@
 ---
 title: Duration
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает период задержки после которого повторится тревога.
+description: Определяет период задержки после которого повторится тревога.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.calendar/appointmentreminder/duration/
 ---
 ## AppointmentReminder.Duration property
 
-Задает период задержки, после которого повторится тревога.
+Определяет период задержки, после которого повторится тревога.
 
 ```csharp
 public ReminderDuration Duration { get; set; }

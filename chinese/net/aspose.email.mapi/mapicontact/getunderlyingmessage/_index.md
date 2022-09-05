@@ -16,7 +16,7 @@ public MapiMessage GetUnderlyingMessage()
 
 ### 返回值
 
-[`MapiMessage`](../../mapimessage)对象。
+这[`MapiMessage`](../../mapimessage)目的。
 
 ### 也可以看看
 

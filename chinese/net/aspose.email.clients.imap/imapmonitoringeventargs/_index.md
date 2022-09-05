@@ -18,7 +18,7 @@ public class ImapMonitoringEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImapMonitoringEventArgs](imapmonitoringeventargs#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | 初始化 [`ImapMonitoringEventArgs`](../imapmonitoringeventargs) 类的新实例 |
+| [ImapMonitoringEventArgs](imapmonitoringeventargs#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | 初始化[`ImapMonitoringEventArgs`](../imapmonitoringeventargs) class |
 
 ## 特性
 

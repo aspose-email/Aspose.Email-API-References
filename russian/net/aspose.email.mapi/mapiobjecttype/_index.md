@@ -3,7 +3,7 @@ title: MapiObjectType
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет тип объекта mapi.
 type: docs
-weight: 18520
+weight: 18550
 url: /ru/net/aspose.email.mapi/mapiobjecttype/
 ---
 ## MapiObjectType enumeration

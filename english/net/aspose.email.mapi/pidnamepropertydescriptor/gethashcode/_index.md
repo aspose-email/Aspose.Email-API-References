@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Serves as a hash function for a type.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/gethashcode/

@@ -1,14 +1,14 @@
 ---
 title: LastUser
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置最近用户的名称 成为任务所有者
+description: 获取或设置最近的用户 的名称使其成为任务所有者
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/mapitaskusers/lastuser/
 ---
 ## MapiTaskUsers.LastUser property
 
-获取或设置最近用户的名称 成为任务所有者。
+获取或设置最近的用户 的名称，使其成为任务所有者。
 
 ```csharp
 public string LastUser { get; set; }

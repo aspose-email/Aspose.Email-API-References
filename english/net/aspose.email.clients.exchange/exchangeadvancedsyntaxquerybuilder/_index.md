@@ -1,7 +1,7 @@
 ---
 title: ExchangeAdvancedSyntaxQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the builder of search expression based on the Advanced Query Syntax AQS that used by Exchange protocol. AQS is an alternative to search filters for expressing search criteria.
 type: docs
 weight: 3170
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/
@@ -48,8 +48,8 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [GetQuery](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/getquery)() | Gets the query. (2 methods) |
-| [Or](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or)(MailQuery, MailQuery) | Search messages that match either search key. Provides disjunction between two expressions (OR). (2 methods) |
+| [GetQuery](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/getquery#getquery)() | Gets the query. (2 methods) |
+| [Or](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or#or)(MailQuery, MailQuery) | Search messages that match either search key. Provides disjunction between two expressions (OR). (2 methods) |
 
 ### See Also
 

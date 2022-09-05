@@ -1,7 +1,7 @@
 ---
 title: Email3DisplayAs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Email3 Display As header.
 type: docs
 weight: 130
 url: /net/aspose.email/mhttemplatename.contact/email3displayas/

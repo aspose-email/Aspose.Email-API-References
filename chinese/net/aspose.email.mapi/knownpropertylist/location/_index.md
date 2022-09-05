@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API 参考
-description: 指定事件的位置 区域日历 规范名称PidLidLocation 替代名称dispidLocation
+description: 指定事件的位置 区域Calendar 规范名称PidLidLocation 替代名称dispidLocation
 type: docs
 weight: 12190
 url: /zh/net/aspose.email.mapi/knownpropertylist/location/
 ---
 ## KnownPropertyList.Location field
 
-指定事件的位置。 区域:日历 规范名称:PidLidLocation 替代名称:dispidLocation
+指定事件的位置。 区域：Calendar 规范名称：PidLidLocation 替代名称：dispidLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Location;

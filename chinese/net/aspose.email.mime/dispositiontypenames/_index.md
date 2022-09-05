@@ -3,7 +3,7 @@ title: DispositionTypeNames
 second_title: Aspose.Email for .NET API 参考
 description: 表示处置类型名称
 type: docs
-weight: 19120
+weight: 19150
 url: /zh/net/aspose.email.mime/dispositiontypenames/
 ---
 ## DispositionTypeNames class

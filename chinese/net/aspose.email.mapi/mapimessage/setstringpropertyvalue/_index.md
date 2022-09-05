@@ -17,7 +17,7 @@ public void SetStringPropertyValue(long tag, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | 属性标记。 |
-| value | String | 属性值。 |
+| value | String | 财产价值。 |
 
 ### 也可以看看
 

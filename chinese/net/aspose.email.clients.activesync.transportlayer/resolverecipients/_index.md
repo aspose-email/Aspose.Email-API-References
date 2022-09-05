@@ -1,14 +1,14 @@
 ---
 title: ResolveRecipients
 second_title: Aspose.Email for .NET API 参考
-description: ResolveRecipients ActiveSync 协议的命名空间
+description: ActiveSync 协议的 ResolveRecipients 命名空间
 type: docs
 weight: 1810
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipients/
 ---
 ## ResolveRecipients enumeration
 
-ResolveRecipients ActiveSync 协议的命名空间
+ActiveSync 协议的 ResolveRecipients 命名空间
 
 ```csharp
 public enum ResolveRecipients
@@ -30,10 +30,10 @@ public enum ResolveRecipients
 | MiniCertificate | `14` | 包含使用 base64 编码的迷你证书 BLOB。 |
 | Options | `15` | 包含用于解析收件人列表的选项。 |
 | To | `16` | 指定要解析的一个或多个收件人。 |
-| CertificateRetrieval | `17` | 指定服务器是否应该为每个已解析的收件人返回 S/MIME 证书。 |
-| RecipientCount | `18` | 指定在 ResolveRecipients 命令响应中返回的收件人数量。 |
+| CertificateRetrieval | `17` | 指定服务器是否应为每个已解析的收件人返回 S/MIME 证书。 |
+| RecipientCount | `18` | 指定在 ResolveRecipients 命令响应中返回的收件人数。 |
 | MaxCertificates | `19` | 限制服务器返回的证书总数。 |
-| MaxAmbiguousRecipients | `20` | 限制为响应中每个不明确的接收节点返回的建议数量。 |
+| MaxAmbiguousRecipients | `20` | 限制为响应中每个不明确的接收节点返回的建议数。 |
 | CertificateCount | `21` | 指定为收件人找到的有效证书的数量。 |
 | Availability | `22` | 向服务器指示客户端正在请求空闲/忙碌数据，并标识要检索的空闲/忙碌数据的开始时间和结束时间。 |
 | StartTime | `23` | 标识客户端请求的空闲/忙碌时间跨度的开始。 |

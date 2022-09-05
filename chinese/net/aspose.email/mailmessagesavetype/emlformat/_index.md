@@ -1,14 +1,14 @@
 ---
 title: EmlFormat
 second_title: Aspose.Email for .NET API 参考
-description: 获取 eml
+description: 获取 eml.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mailmessagesavetype/emlformat/
 ---
 ## MailMessageSaveType.EmlFormat property
 
-获取 eml。
+获取 eml.
 
 ```csharp
 public static MailMessageSaveType EmlFormat { get; }

@@ -1,14 +1,14 @@
 ---
 title: CalendarDuration
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议的持续时间以秒为单位 区域通用 规范名称PidNameCalendarDuration 替代名称urnschemascalendarduration
+description: 标识约会或会议的持续时间以秒为单位 区域Common 规范名称PidNameCalendarDuration 替代名称urnschemascalendarduration
 type: docs
 weight: 2240
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarduration/
 ---
 ## KnownPropertyList.CalendarDuration field
 
-标识约会或会议的持续时间（以秒为单位）。 区域:通用 规范名称:PidNameCalendarDuration 替代名称:urn:schemas:calendar:duration
+标识约会或会议的持续时间（以秒为单位）。 区域：Common 规范名称：PidNameCalendarDuration 替代名称：urn:schemas:calendar:duration
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarDuration;

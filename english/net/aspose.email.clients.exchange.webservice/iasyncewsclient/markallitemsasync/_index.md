@@ -1,7 +1,7 @@
 ---
 title: MarkAllItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks all items in specified folders.
 type: docs
 weight: 540
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/markallitemsasync/

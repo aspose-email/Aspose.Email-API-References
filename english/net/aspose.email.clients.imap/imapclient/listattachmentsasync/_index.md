@@ -1,12 +1,12 @@
 ---
 title: ListAttachmentsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message attachments list. Gets an information for each attachment in message.
 type: docs
 weight: 820
 url: /net/aspose.email.clients.imap/imapclient/listattachmentsasync/
 ---
-## ImapClient.ListAttachmentsAsync method (1 of 2)
+## ListAttachmentsAsync(int, CancellationToken) {#listattachmentsasync_1}
 
 Gets the message attachments list. Gets an information for each attachment in message.
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListAttachmentsAsync method (2 of 2)
+## ListAttachmentsAsync(int) {#listattachmentsasync}
 
 Gets the message attachments list. Gets an information for each attachment in message.
 

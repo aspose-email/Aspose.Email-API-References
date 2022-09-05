@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The file name of the attachment. Mandatory Yes
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/attachmentdata/filename/

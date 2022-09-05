@@ -3,7 +3,7 @@ title: FileDropTargetPanel
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет цель перетаскивания файла.
 type: docs
-weight: 20880
+weight: 20930
 url: /ru/net/aspose.email.windows.forms/filedroptargetpanel/
 ---
 ## FileDropTargetPanel class
@@ -18,7 +18,7 @@ public class FileDropTargetPanel : Panel, IFileDropTargetControl
 
 | Имя | Описание |
 | --- | --- |
-| [FileDropTargetPanel](filedroptargetpanel)() | Инициализирует новый экземпляр класса[`FileDropTargetPanel`](../filedroptargetpanel). |
+| [FileDropTargetPanel](filedroptargetpanel)() | Инициализирует новый экземпляр[`FileDropTargetPanel`](../filedroptargetpanel) класс. |
 
 ## Характеристики
 

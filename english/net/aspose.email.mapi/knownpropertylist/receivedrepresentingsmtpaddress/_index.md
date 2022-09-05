@@ -1,7 +1,7 @@
 ---
 title: ReceivedRepresentingSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP email address of the user represented by the receiving mailbox owner. Area Mail Canonical name PidTagReceivedRepresentingSmtpAddress Alternate names ptagRecipientRcvdRepresentingSmtpAddress
 type: docs
 weight: 15380
 url: /net/aspose.email.mapi/knownpropertylist/receivedrepresentingsmtpaddress/

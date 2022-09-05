@@ -1,14 +1,14 @@
 ---
 title: SharingProviderUrl
 second_title: Aspose.Email for .NET API 参考
-description: 包含与由 PidLidSharingProviderGuid 属性标识的共享提供者相关的 URL第 2.266 节 区域共享 规范名称PidLidSharingProviderUrl 替代名称dispidSharingProviderUrl
+description: 包含与由 PidLidSharingProviderGuid 属性标识的共享提供者相关的 URL第 2.266 节 区域Sharing 规范名称PidLidSharingProviderUrl 替代名称dispidSharingProviderUrl
 type: docs
 weight: 17730
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingproviderurl/
 ---
 ## KnownPropertyList.SharingProviderUrl field
 
-包含与由 PidLidSharingProviderGuid 属性标识的共享提供者相关的 URL（第 2.266 节）。 区域:共享 规范名称:PidLidSharingProviderUrl 替代名称:dispidSharingProviderUrl
+包含与由 PidLidSharingProviderGuid 属性标识的共享提供者相关的 URL（第 2.266 节）。 区域：Sharing 规范名称：PidLidSharingProviderUrl 替代名称：dispidSharingProviderUrl
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderUrl;

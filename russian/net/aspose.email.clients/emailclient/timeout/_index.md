@@ -1,14 +1,14 @@
 ---
 title: Timeout
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает время ожидания для почтовых операций
+description: Получает или задает время ожидания для почтовых операций
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients/emailclient/timeout/
 ---
 ## EmailClient.Timeout property
 
-Получает или устанавливает время ожидания для почтовых операций
+Получает или задает время ожидания для почтовых операций
 
 ```csharp
 public int Timeout { get; set; }
@@ -16,7 +16,7 @@ public int Timeout { get; set; }
 
 ### Стоимость имущества
 
-Время ожидания в миллисекундах
+Тайм-аут в миллисекундах
 
 ### Смотрите также
 

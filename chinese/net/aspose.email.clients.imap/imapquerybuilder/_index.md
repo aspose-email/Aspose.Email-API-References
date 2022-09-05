@@ -18,8 +18,8 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImapQueryBuilder](imapquerybuilder#constructor)() | 初始化[`ImapQueryBuilder`](../imapquerybuilder)类的新实例。 |
-| [ImapQueryBuilder](imapquerybuilder#constructor_1)(Encoding) | 初始化[`ImapQueryBuilder`](../imapquerybuilder)类的新实例。 |
+| [ImapQueryBuilder](imapquerybuilder#constructor)() | 初始化[`ImapQueryBuilder`](../imapquerybuilder)类. |
+| [ImapQueryBuilder](imapquerybuilder#constructor_1)(Encoding) | 初始化[`ImapQueryBuilder`](../imapquerybuilder)类. |
 
 ## 特性
 
@@ -27,8 +27,8 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 | --- | --- |
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | 获取允许在信封结构的密件抄送字段中查找包含指定字符串的消息的字段。 |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | 获取允许在消息正文中查找包含指定字符串的消息的字段。 |
-| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。 |
-| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询生成器的默认编码（字符集） |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。 |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询 builder 的默认编码（字符集） |
 | [ESearchParameters](../../aspose.email.clients.imap/imapquerybuilder/esearchparameters) { get; set; } | 获取或设置 ESEARCH 参数 此方法仅在服务器支持 ESEARCH 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | 获取允许在信封结构的 FROM 字段中查找包含指定字符串的消息的字段。 |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | 获取允许按内部日期查找消息的字段。 |
@@ -36,7 +36,7 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 | [ModSeq](../../aspose.email.clients.imap/imapquerybuilder/modseq) { get; } | 修改序列 |
 | [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | 获取允许按发送日期查找消息的字段。 |
 | [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | 获取允许在信封结构的 SUBJECT 字段中查找包含指定字符串的消息的字段。 |
-| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | 获取允许在信封结构的 TO 字段中查找包含指定字符串的消息的字段。 |
 | [UniqueId](../../aspose.email.clients.imap/imapquerybuilder/uniqueid) { get; } | 唯一标识符 |
 
@@ -47,9 +47,9 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 | [CustomSearch](../../aspose.email.clients.imap/imapquerybuilder/customsearch)(string) | 根据扩展的服务器搜索语法搜索消息。 |
 | [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | 获取查询。 |
 | [HasFlags](../../aspose.email.clients.imap/imapquerybuilder/hasflags)(ImapMessageFlags) | 搜索带有指定标志的消息。 |
-| [HasHeader](../../aspose.email.clients.imap/imapquerybuilder/hasheader)(string, string) | 搜索具有指定字段名称 并且在文本中包含指定字符串 的消息标题（冒号之后的内容）。如果要搜索的 字符串长度为零，这将匹配所有 具有带有指定字段名称的标题行的消息，而不管 内容如何. |
-| [HasNoFlags](../../aspose.email.clients.imap/imapquerybuilder/hasnoflags)(ImapMessageFlags) | 搜索带有未指定标志的消息。 |
-| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。 |
+| [HasHeader](../../aspose.email.clients.imap/imapquerybuilder/hasheader)(string, string) | 搜索具有指定字段名称 的标头并在标头文本中包含指定字符串 的邮件（冒号后的内容）。如果要搜索的 字符串长度为零，则匹配所有 具有带有指定字段名称的标题行的消息，而不管 内容如何。 |
+| [HasNoFlags](../../aspose.email.clients.imap/imapquerybuilder/hasnoflags)(ImapMessageFlags) | 搜索带有未指定标志的邮件。 |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR). |
 
 ### 也可以看看
 

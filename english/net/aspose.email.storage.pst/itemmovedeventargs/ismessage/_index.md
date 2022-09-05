@@ -1,7 +1,7 @@
 ---
 title: IsMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Return true if entry refers to a Message
 type: docs
 weight: 50
 url: /net/aspose.email.storage.pst/itemmovedeventargs/ismessage/

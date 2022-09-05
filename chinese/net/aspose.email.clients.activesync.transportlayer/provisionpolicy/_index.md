@@ -25,7 +25,7 @@ public class ProvisionPolicy
 | 姓名 | 描述 |
 | --- | --- |
 | [Data](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/data) { get; set; } | 指定策略的设置。仅在策略响应中使用。 它不存在于对确认请求的响应中。 |
-| [PolicyKey](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/policykey) { get; set; } | PolicyKey 被服务器用于在 Provision 命令的设置下载阶段标记客户端上策略设置的状态。 PolicyKey 是字符串类型的元素，最多 64 个字符。 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示。 |
+| [PolicyKey](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/policykey) { get; set; } | PolicyKey 用于服务器在 Provision 命令的设置下载阶段标记客户端上策略设置的状态。 PolicyKey 是一个最多 64 个字符的字符串类型元素。 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示形式。 |
 | [PolicyType](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/policytype) { get; set; } | 指定向客户端设备提供策略设置的格式。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/status) { get; set; } | 表示操作的结果。 |
 

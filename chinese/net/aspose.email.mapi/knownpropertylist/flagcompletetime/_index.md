@@ -1,14 +1,14 @@
 ---
 title: FlagCompleteTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象被标记为完成的日期和时间以 UTC 表示 区域杂项属性 规范名称PidTagFlagCompleteTime 替代名称PR_FLAG_COMPLETE_TIME ptagFlagCompleteTime
+description: 以 UTC 格式指定消息对象被标记为完成的日期和时间 区域杂项属性 规范名称PidTagFlagCompleteTime 替代名称PR_FLAG_COMPLETE_TIMEptagFlagCompleteTime
 type: docs
 weight: 10340
 url: /zh/net/aspose.email.mapi/knownpropertylist/flagcompletetime/
 ---
 ## KnownPropertyList.FlagCompleteTime field
 
-指定消息对象被标记为完成的日期和时间（以 UTC 表示）。 区域:杂项属性 规范名称:PidTagFlagCompleteTime 替代名称:PR_FLAG_COMPLETE_TIME, ptagFlagCompleteTime,
+以 UTC 格式指定消息对象被标记为完成的日期和时间。 区域：杂项属性 规范名称：PidTagFlagCompleteTime 替代名称：PR_FLAG_COMPLETE_TIME、ptagFlagCompleteTime、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FlagCompleteTime;

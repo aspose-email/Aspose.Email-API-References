@@ -1,14 +1,14 @@
 ---
 title: ArchiveDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату в формате UTC после которой объект Message архивируется сервером. ОбластьАрхив Каноническое имяPidTagArchiveDate Альтернативные именаPR_ARCHIVE_DATE ptagArchiveDate
+description: Определяет дату в формате UTC после которой объект Message архивируется сервером.
 type: docs
 weight: 1400
 url: /ru/net/aspose.email.mapi/knownpropertylist/archivedate/
 ---
 ## KnownPropertyList.ArchiveDate field
 
-Указывает дату в формате UTC, после которой объект Message архивируется сервером. Область:Архив Каноническое имя:PidTagArchiveDate Альтернативные имена:PR_ARCHIVE_DATE, ptagArchiveDate
+Определяет дату в формате UTC, после которой объект Message архивируется сервером.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchiveDate;

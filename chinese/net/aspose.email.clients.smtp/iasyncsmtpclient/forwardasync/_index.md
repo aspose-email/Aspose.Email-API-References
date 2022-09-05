@@ -1,14 +1,14 @@
 ---
 title: ForwardAsync
 second_title: Aspose.Email for .NET API 参考
-description: 将指定的消息转发给收件人
+description: 将指定的邮件转发给收件人
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp/iasyncsmtpclient/forwardasync/
 ---
 ## IAsyncSmtpClient.ForwardAsync method
 
-将指定的消息转发给收件人。
+将指定的邮件转发给收件人。
 
 ```csharp
 public Task ForwardAsync(SmtpForward parameters)

@@ -1,9 +1,9 @@
 ---
 title: VCardSecurity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a vCard security properties
 type: docs
-weight: 19520
+weight: 19750
 url: /net/aspose.email.personalinfo.vcard/vcardsecurity/
 ---
 ## VCardSecurity class
@@ -32,8 +32,8 @@ public sealed class VCardSecurity
 
 | Name | Description |
 | --- | --- |
-| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem)(Stream) | Saves base64 key in PEM format to the stream. |
-| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem)(string) | Saves base64 key to PEM format. |
+| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem#savetopem)(Stream) | Saves base64 key in PEM format to the stream. |
+| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem#savetopem_1)(string) | Saves base64 key to PEM format. |
 
 ### See Also
 

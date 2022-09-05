@@ -1,9 +1,9 @@
 ---
 title: ItemMovedEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides data for the ItemMoved./folderinfo/itemmoved event
 type: docs
-weight: 19970
+weight: 20200
 url: /net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs class
@@ -18,9 +18,9 @@ public class ItemMovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ItemMovedEventArgs](itemmovedeventargs)(FolderInfo) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
-| [ItemMovedEventArgs](itemmovedeventargs)(MessageInfo) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
-| [ItemMovedEventArgs](itemmovedeventargs)(string, MapiPropertyCollection) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor)(FolderInfo) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_1)(MessageInfo) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_2)(string, MapiPropertyCollection) | Initializes a new instance of the [`ItemMovedEventArgs`](../itemmovedeventargs) class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: RadioTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users radio telephone number. Area MapiMailUser Canonical name PidTagRadioTelephoneNumber Alternate names PR_RADIO_TELEPHONE_NUMBER PR_RADIO_TELEPHONE_NUMBER_A PR_RADIO_TELEPHONE_NUMBER_W
 type: docs
 weight: 15170
 url: /net/aspose.email.mapi/knownpropertylist/radiotelephonenumber/

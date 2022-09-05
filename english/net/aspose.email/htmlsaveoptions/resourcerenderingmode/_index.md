@@ -1,7 +1,7 @@
 ---
 title: ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides set various modes of rendering resources in html. Default value EmbedIntoHtml.
 type: docs
 weight: 40
 url: /net/aspose.email/htmlsaveoptions/resourcerenderingmode/

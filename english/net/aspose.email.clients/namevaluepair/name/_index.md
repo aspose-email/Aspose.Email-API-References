@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Value of the property
 type: docs
 weight: 20
 url: /net/aspose.email.clients/namevaluepair/name/

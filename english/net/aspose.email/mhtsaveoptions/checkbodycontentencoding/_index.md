@@ -1,7 +1,7 @@
 ---
 title: CheckBodyContentEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether need check message body content encoding when saving.
 type: docs
 weight: 20
 url: /net/aspose.email/mhtsaveoptions/checkbodycontentencoding/

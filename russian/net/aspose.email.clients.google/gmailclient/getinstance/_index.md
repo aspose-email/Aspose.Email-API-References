@@ -70,7 +70,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| clientId | String | Идентификатор клиента, полученный из Google Cloud Console во время регистрации приложения. |
+| clientId | String | Идентификатор клиента, полученный из Google Cloud Console при регистрации приложения. |
 | clientSecret | String | Секрет клиента, полученный при регистрации приложения. |
 | refreshToken | String | Токен обновления OAuth 2.0 |
 | defaultEmail | String | Адрес электронной почты по умолчанию |
@@ -99,7 +99,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| clientId | String | Идентификатор клиента, полученный из Google Cloud Console во время регистрации приложения. |
+| clientId | String | Идентификатор клиента, полученный из Google Cloud Console при регистрации приложения. |
 | clientSecret | String | Секрет клиента, полученный при регистрации приложения. |
 | refreshToken | String | Токен обновления OAuth 2.0 |
 | proxy | IWebProxy | IWebProxy для клиента Gmail |

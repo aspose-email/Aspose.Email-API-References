@@ -1,14 +1,14 @@
 ---
 title: ListFoldersReturnOptions
 second_title: Aspose.Email for .NET API 参考
-description: ListFolders 操作的返回选项 请注意如果服务器支持 RFC 5258 IMAP LIST Command Extensions 则支持此选项 在 https//tools.ietf.org/html/rfc5258
+description: ListFolders 操作的返回选项 请注意如果服务器支持 RFC 5258IMAP LIST 命令扩展则支持此选项 请参阅 https//tools.ietf.org/html/rfc5258 中的更多详细信息
 type: docs
 weight: 16520
 url: /zh/net/aspose.email.clients.imap/listfoldersreturnoptions/
 ---
 ## ListFoldersReturnOptions enumeration
 
-ListFolders 操作的返回选项 请注意，如果服务器支持 RFC 5258 "IMAP LIST Command Extensions" 则支持此选项 在 https://tools.ietf.org/html/rfc5258
+ListFolders 操作的返回选项 请注意，如果服务器支持 RFC 5258“IMAP LIST 命令扩展”，则支持此选项 请参阅 https://tools.ietf.org/html/rfc5258 中的更多详细信息
 
 ```csharp
 [Flags]
@@ -20,7 +20,7 @@ public enum ListFoldersReturnOptions
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未定义 |
-| Subscribed | `1` | SUBSCRIBED - 导致 LIST 命令返回所有匹配邮箱名称的订阅状态。 必须支持“\Subscribed”属性，并且必须在指定 SUBSCRIBED 返回选项时准确计算。 此外，必须准确计算所有邮箱标志（这与 LSUB 命令的行为不同）。 |
+| Subscribed | `1` | SUBSCRIBED - 使 LIST 命令返回所有匹配邮箱名称的订阅状态。 必须支持“\Subscribed”属性，并且必须在指定 SUBSCRIBED 返回选项时准确计算。 此外，必须准确计算所有邮箱标志（这与 LSUB 命令的行为不同）。 |
 | Children | `2` | CHILDREN - 请求邮箱子信息。所有服务器都必须支持此选项。 |
 
 ### 也可以看看

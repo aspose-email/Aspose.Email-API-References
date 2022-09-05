@@ -1,14 +1,14 @@
 ---
 title: ContentCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定标题行下的行数 区域文件夹属性 规范名称PidTagContentCount 备用名称PR_CONTENT_COUNT ptagContentCount DAVvisiblecount
+description: 指定标题行下的行数 区域文件夹属性 规范名称PidTagContentCount 备用名称PR_CONTENT_COUNTptagContentCountDAVvisiblecount
 type: docs
 weight: 3190
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentcount/
 ---
 ## KnownPropertyList.ContentCount field
 
-指定标题行下的行数。 区域:文件夹属性 规范名称:PidTagContentCount 备用名称:PR_CONTENT_COUNT, ptagContentCount, DAV:visiblecount
+指定标题行下的行数。 区域：文件夹属性 规范名称：PidTagContentCount 备用名称：PR_CONTENT_COUNT、ptagContentCount、DAV:visiblecount
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentCount;

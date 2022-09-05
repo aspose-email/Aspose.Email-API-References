@@ -1,7 +1,7 @@
 ---
 title: SentMailSvrEID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an EntryID that represents the Sent Items folder for the message. Area ProviderDefinedNonTransmittable Canonical name PidTagSentMailSvrEID Alternate names ptagSentMailSvrEID
 type: docs
 weight: 17210
 url: /net/aspose.email.mapi/knownpropertylist/sentmailsvreid/

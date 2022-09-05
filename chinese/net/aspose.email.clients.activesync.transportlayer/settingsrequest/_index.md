@@ -1,14 +1,14 @@
 ---
 title: SettingsRequest
 second_title: Aspose.Email for .NET API 参考
-description: Settings 命令支持对全局属性和用户外出 OOF 设置的获取和设置操作 Settings 命令还将设备信息发送到服务器实现设备密码/个人识别码 PIN 恢复并检索用户电子邮件地址列表
+description: 设置命令支持对全局属性和用户外出 OOF 设置的获取和设置操作 Settings 命令还将设备信息发送到服务器实现设备密码/个人识别码 PIN 恢复并检索用户的电子邮件地址列表
 type: docs
 weight: 2060
 url: /zh/net/aspose.email.clients.activesync.transportlayer/settingsrequest/
 ---
 ## SettingsRequest class
 
-Settings 命令支持对全局属性和用户外出 (OOF) 设置的获取和设置操作。 Settings 命令还将设备信息发送到服务器，实现设备密码/个人识别码 (PIN) 恢复，并检索用户电子邮件地址列表。
+设置命令支持对全局属性和用户外出 (OOF) 设置的获取和设置操作。 Settings 命令还将设备信息发送到服务器，实现设备密码/个人识别码 (PIN) 恢复，并检索用户的电子邮件地址列表。
 
 ```csharp
 public class SettingsRequest
@@ -26,7 +26,7 @@ public class SettingsRequest
 | --- | --- |
 | [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/deviceinformation) { get; set; } | 用于将客户端设备的属性发送到服务器的请求。 |
 | [DevicePassword](../../aspose.email.clients.activesync.transportlayer/settingsrequest/devicepassword) { get; set; } | 指定服务器设置客户端设备恢复密码的请求。 要清除现有的恢复密码，客户端必须发送一个空密码。 |
-| [GetRightsManagementInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/getrightsmanagementinformation) { get; set; } | 向服务器请求权限管理信息。 |
+| [GetRightsManagementInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/getrightsmanagementinformation) { get; set; } | 从服务器请求权限管理信息。 |
 | [GetUserInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/getuserinformation) { get; set; } | 从服务器请求用户的电子邮件地址列表。 |
 | [Oof](../../aspose.email.clients.activesync.transportlayer/settingsrequest/oof) { get; set; } | 指定检索和设置外出 (OOF) 信息的请求。 |
 

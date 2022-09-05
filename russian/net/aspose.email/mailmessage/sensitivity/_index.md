@@ -1,14 +1,14 @@
 ---
 title: Sensitivity
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает чувствительность сообщения
+description: Получает или задает чувствительность сообщения
 type: docs
 weight: 310
 url: /ru/net/aspose.email/mailmessage/sensitivity/
 ---
 ## MailMessage.Sensitivity property
 
-Получает или устанавливает чувствительность сообщения
+Получает или задает чувствительность сообщения
 
 ```csharp
 public virtual MailSensitivity Sensitivity { get; set; }

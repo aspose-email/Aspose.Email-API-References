@@ -1,14 +1,14 @@
 ---
 title: ReminderTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает начальное время сигнала для объектов не являющихся объектами календаря. ОбластьНапоминания Каноническое имяPidLidReminderTime Альтернативные именаdispidReminderTime
+description: Указывает начальное время сигнала для объектов не являющихся объектами календаря. Область Reminders Каноническое имя PidLidReminderTime Альтернативные имена dispidReminderTime
 type: docs
 weight: 15740
 url: /ru/net/aspose.email.mapi/knownpropertylist/remindertime/
 ---
 ## KnownPropertyList.ReminderTime field
 
-Задает начальное время сигнала для объектов, не являющихся объектами календаря. Область:Напоминания Каноническое имя:PidLidReminderTime Альтернативные имена:dispidReminderTime
+Указывает начальное время сигнала для объектов, не являющихся объектами календаря. Область: Reminders Каноническое имя: PidLidReminderTime Альтернативные имена: dispidReminderTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderTime;

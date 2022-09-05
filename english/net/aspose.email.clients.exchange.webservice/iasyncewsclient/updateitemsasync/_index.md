@@ -1,7 +1,7 @@
 ---
 title: UpdateItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified items in to a mailbox.
 type: docs
 weight: 690
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemsasync/

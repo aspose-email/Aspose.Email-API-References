@@ -1,12 +1,12 @@
 ---
 title: TrainFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Learns from the specified messages as from spam or nonspam source.
 type: docs
 weight: 60
 url: /net/aspose.email.antispam/spamanalyzer/trainfilter/
 ---
-## SpamAnalyzer.TrainFilter method (1 of 3)
+## TrainFilter(MailMessage[], MailMessage[]) {#trainfilter_1}
 
 Learns from the specified messages as from spam or non-spam source.
 
@@ -34,7 +34,7 @@ public void TrainFilter(MailMessage[] ham, MailMessage[] spam)
 
 ---
 
-## SpamAnalyzer.TrainFilter method (2 of 3)
+## TrainFilter(MailMessage, bool) {#trainfilter}
 
 Learns from the specified message as from spam or non-spam source.
 
@@ -62,7 +62,7 @@ public void TrainFilter(MailMessage message, bool isSpam)
 
 ---
 
-## SpamAnalyzer.TrainFilter method (3 of 3)
+## TrainFilter(string, bool) {#trainfilter_2}
 
 Learns from the specified string as from spam or non-spam source.
 

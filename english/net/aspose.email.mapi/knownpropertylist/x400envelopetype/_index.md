@@ -1,7 +1,7 @@
 ---
 title: X400EnvelopeType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_X400_ENVELOPE_TYPE
 type: docs
 weight: 19650
 url: /net/aspose.email.mapi/knownpropertylist/x400envelopetype/

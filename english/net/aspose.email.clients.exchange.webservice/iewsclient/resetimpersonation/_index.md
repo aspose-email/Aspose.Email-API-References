@@ -1,7 +1,7 @@
 ---
 title: ResetImpersonation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Makes the impersonation reset.
 type: docs
 weight: 1340
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/resetimpersonation/

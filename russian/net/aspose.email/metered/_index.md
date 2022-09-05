@@ -3,7 +3,7 @@ title: Metered
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет методы для установки измеренного ключа.
 type: docs
-weight: 19030
+weight: 19060
 url: /ru/net/aspose.email/metered/
 ---
 ## Metered class
@@ -24,18 +24,18 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.email/metered/setmeteredkey)(string, string) | Устанавливает измеренный открытый и закрытый ключ |
-| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit)() | Получает кредит потребления |
+| [SetMeteredKey](../../aspose.email/metered/setmeteredkey)(string, string) | Устанавливает лимитированный открытый и закрытый ключ |
+| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit)() | Получает потребительский кредит |
 | static [GetConsumptionQuantity](../../aspose.email/metered/getconsumptionquantity)() | Получает размер файла потребления |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить дозированные открытый и закрытый ключ
+В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
 
 ```csharp
 [C#]
 
-Metered matered = new Metered ();
+Metered matered = new Metered();
 matered.SetMeteredKey("PublicKey", "PrivateKey");
 
 
@@ -45,7 +45,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-jar-файл компонента:
+файл jar компонента:
 
 ```csharp
 Metered matered = new Metered();

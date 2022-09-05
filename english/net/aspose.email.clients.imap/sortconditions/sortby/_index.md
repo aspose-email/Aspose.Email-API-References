@@ -1,7 +1,7 @@
 ---
 title: SortBy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets sort criteria
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/sortconditions/sortby/

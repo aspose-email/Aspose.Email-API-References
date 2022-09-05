@@ -1,7 +1,7 @@
 ---
 title: DeletedItemsFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for DeletedItems folder.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteditemsfolderservernotifications/

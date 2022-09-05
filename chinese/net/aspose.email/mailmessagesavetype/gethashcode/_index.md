@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前Object的哈希码。
+当前的哈希码Object.
 
 ### 也可以看看
 

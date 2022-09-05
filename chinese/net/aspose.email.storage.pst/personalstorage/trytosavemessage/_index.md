@@ -16,12 +16,12 @@ public SaveResult TryToSaveMessage(string entryId, Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | String | 条目 ID。 |
+| entryId | String | 入口标识。 |
 | stream | Stream | 用于写入的流。 |
 
 ### 返回值
 
-[`SaveResult`](../../saveresult)表示项目保存的结果。
+这[`SaveResult`](../../saveresult)表示项目保存的结果。
 
 ### 也可以看看
 

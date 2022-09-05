@@ -1,14 +1,14 @@
 ---
 title: SenderSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 标识地址簿搜索关键字 区域地址属性 规范名称PidTagSenderSearchKey 替代名称PR_SENDER_SEARCH_KEY ptagSenderSearchKey
+description: 标识地址簿搜索键 区域地址属性 规范名称PidTagSenderSearchKey 备用名称PR_SENDER_SEARCH_KEYptagSenderSearchKey
 type: docs
 weight: 17140
 url: /zh/net/aspose.email.mapi/knownpropertylist/sendersearchkey/
 ---
 ## KnownPropertyList.SenderSearchKey field
 
-标识地址簿搜索关键字。 区域:地址属性 规范名称:PidTagSenderSearchKey 替代名称:PR_SENDER_SEARCH_KEY, ptagSenderSearchKey
+标识地址簿搜索键。 区域：地址属性 规范名称：PidTagSenderSearchKey 备用名称：PR_SENDER_SEARCH_KEY、ptagSenderSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderSearchKey;

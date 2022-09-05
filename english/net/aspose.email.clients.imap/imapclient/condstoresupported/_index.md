@@ -1,7 +1,7 @@
 ---
 title: CondstoreSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether CONDSTORE extension is supported See more https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 80
 url: /net/aspose.email.clients.imap/imapclient/condstoresupported/

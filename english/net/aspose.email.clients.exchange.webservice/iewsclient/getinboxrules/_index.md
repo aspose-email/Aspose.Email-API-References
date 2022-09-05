@@ -1,12 +1,12 @@
 ---
 title: GetInboxRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets inbox rules
 type: docs
 weight: 950
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getinboxrules/
 ---
-## IEWSClient.GetInboxRules method (1 of 2)
+## GetInboxRules() {#getinboxrules}
 
 Gets inbox rules
 
@@ -27,7 +27,7 @@ An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
 ---
 
-## IEWSClient.GetInboxRules method (2 of 2)
+## GetInboxRules(string) {#getinboxrules_1}
 
 Gets inbox rules
 

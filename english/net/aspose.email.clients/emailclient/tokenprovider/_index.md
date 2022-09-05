@@ -1,7 +1,7 @@
 ---
 title: TokenProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets TokenProvider allowing to retrieve access token.
 type: docs
 weight: 190
 url: /net/aspose.email.clients/emailclient/tokenprovider/

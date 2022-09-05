@@ -1,14 +1,14 @@
 ---
 title: ResumeMonitoringAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring он найдет все отсутствующие изменения почтового ящика и вызовет для них обратный вызов .
+description: Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring он найдет все отсутствующие изменения почтового ящика и вызовет обратный вызов для них.
 type: docs
 weight: 330
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/resumemonitoringasync/
 ---
 ## IAsyncImapClient.ResumeMonitoringAsync method
 
-Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring, он найдет все отсутствующие изменения почтового ящика и вызовет для них обратный вызов .
+Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring, он найдет все отсутствующие изменения почтового ящика и вызовет обратный вызов для них.
 
 ```csharp
 public Task ResumeMonitoringAsync(ImapMonitoringEventHandler callback, 
@@ -18,9 +18,9 @@ public Task ResumeMonitoringAsync(ImapMonitoringEventHandler callback,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| callback | ImapMonitoringEventHandler | Функция обратного вызова для мониторинга работы. |
-| errorCallback | ImapMonitoringErrorEventHandler | Функция обратного вызова для мониторинга обработки ошибок. Мониторинг указанной папки останавливается при вызове этого обратного вызова. Обратный вызов также предоставляет держатель состояния, чтобы можно было возобновить мониторинг папки с помощью[`ResumeMonitoringAsync`](../../imapclient/resumemonitoringasync)метод. |
-| monitoringState | IImapMonitoringState | Состояние мониторинга, из которого возобновляется мониторинг папки. Можно получить из[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate). |
+| callback | ImapMonitoringEventHandler | Функция обратного вызова для контроля работы. |
+| errorCallback | ImapMonitoringErrorEventHandler | Функция обратного вызова для мониторинга обработки ошибок. Мониторинг указанной папки останавливается при вызове этого обратного вызова. Обратный вызов также предоставляет держатель состояния, чтобы можно было возобновить мониторинг папки с помощью[`ResumeMonitoringAsync`](../../imapclient/resumemonitoringasync) метод. |
+| monitoringState | IImapMonitoringState | Состояние мониторинга для возобновления мониторинга папки. Можно получить из[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate) . |
 | token | CancellationToken | Токен отмены. |
 
 ### Смотрите также

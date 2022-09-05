@@ -1,14 +1,14 @@
 ---
 title: DetailsTable
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DETAILS_TABLE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DETAILS_TABLE
 type: docs
 weight: 4030
 url: /ru/net/aspose.email.mapi/knownpropertylist/detailstable/
 ---
 ## KnownPropertyList.DetailsTable field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DETAILS_TABLE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DETAILS_TABLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DetailsTable;

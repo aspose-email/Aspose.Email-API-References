@@ -1,14 +1,14 @@
 ---
 title: CanonicalName
 second_title: Aspose.Email for .NET API 参考
-description: 用于在文档中引用属性的名称 规范名称的前缀向实现者标识属性的基本特征 规范命名结构使用三个类别由规范属性名称的以下前缀表示  PidLid 前缀由无符号 32 位数量和属性集  PidName 前缀由字符串名称和属性集标识的属性  PidTag 前缀由无符号 16 位数量标识的属性
+description: 用于在文档中引用属性的名称 规范名称的前缀向实现者标识属性的基本特征 规范命名结构使用三个类别由规范属性名称的以下前缀表示  PidLid 前缀由无符号 32 位数量和属性集标识的属性  PidName 前缀由字符串名称和属性集标识的属性  PidTag 前缀由无符号 16 位数量标识的属性
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/propertydescriptor/canonicalname/
 ---
 ## PropertyDescriptor.CanonicalName property
 
-用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示: * PidLid 前缀:由无符号 32 位数量和属性集。 * PidName 前缀:由字符串名称和属性集标识的属性。 * PidTag 前缀:由无符号 16 位数量标识的属性。
+用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示： * PidLid 前缀：由无符号 32 位数量和属性集标识的属性。 * PidName 前缀：由字符串名称和属性集标识的属性。 * PidTag 前缀：由无符号 16 位数量标识的属性。
 
 ```csharp
 public string CanonicalName { get; }

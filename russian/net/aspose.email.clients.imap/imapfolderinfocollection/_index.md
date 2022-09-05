@@ -31,8 +31,8 @@ public sealed class ImapFolderInfoCollection : Collection<ImapFolderInfo>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.clients.imap/imapfolderinfocollection/add#add)(ImapFolderInfo) | Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection. |
-| [AddRange](../../aspose.email.clients.imap/imapfolderinfocollection/addrange)(IEnumerable&lt;ImapFolderInfo&gt;) | Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection. |
+| [Add](../../aspose.email.clients.imap/imapfolderinfocollection/add#add)(ImapFolderInfo) | Добавляет ImapFolderInfo в ImapFolderInfoCollection. |
+| [AddRange](../../aspose.email.clients.imap/imapfolderinfocollection/addrange)(IEnumerable&lt;ImapFolderInfo&gt;) | Добавляет ImapFolderInfo в ImapFolderInfoCollection. |
 | [RemoveAt](../../aspose.email.clients.imap/imapfolderinfocollection/removeat#removeat)(int) | Удалить информацию о папке по указанному индексу. |
 
 ### Смотрите также

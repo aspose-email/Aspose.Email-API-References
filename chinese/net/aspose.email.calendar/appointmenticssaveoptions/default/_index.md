@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API 参考
-description: 获取默认 Ics 保存选项
+description: 获取默认的 Ics 保存选项
 type: docs
 weight: 20
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/default/
 ---
 ## AppointmentIcsSaveOptions.Default property
 
-获取默认 Ics 保存选项
+获取默认的 Ics 保存选项
 
 ```csharp
 public static AppointmentIcsSaveOptions Default { get; }

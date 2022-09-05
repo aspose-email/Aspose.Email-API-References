@@ -1,14 +1,14 @@
 ---
 title: NetworkException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаNetworkExceptionaspose.email.clients/networkexception.
+description: Инициализирует новый экземплярNetworkExceptionaspose.email.clients/networkexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/networkexception/networkexception/
 ---
 ## NetworkException() {#constructor}
 
-Инициализирует новый экземпляр класса[`NetworkException`](../../networkexception).
+Инициализирует новый экземпляр[`NetworkException`](../../networkexception) класс.
 
 ```csharp
 public NetworkException()
@@ -24,7 +24,7 @@ public NetworkException()
 
 ## NetworkException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`NetworkException`](../../networkexception).
+Инициализирует новый экземпляр[`NetworkException`](../../networkexception) класс.
 
 ```csharp
 public NetworkException(string message)
@@ -44,7 +44,7 @@ public NetworkException(string message)
 
 ## NetworkException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`NetworkException`](../../networkexception).
+Инициализирует новый экземпляр[`NetworkException`](../../networkexception) класс.
 
 ```csharp
 public NetworkException(string message, Exception inner)

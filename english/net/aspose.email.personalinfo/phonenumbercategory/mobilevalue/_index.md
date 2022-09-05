@@ -1,7 +1,7 @@
 ---
 title: MobileValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Mobile category
 type: docs
 weight: 340
 url: /net/aspose.email.personalinfo/phonenumbercategory/mobilevalue/

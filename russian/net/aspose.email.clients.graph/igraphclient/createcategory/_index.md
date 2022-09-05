@@ -1,14 +1,14 @@
 ---
 title: CreateCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает объектOutlookCategoryaspose.email.clients.graph/outlookcategoryв основном списке категорий пользователя.
+description: СоздаетOutlookCategoryaspose.email.clients.graph/outlookcategory объект в основном списке категорий пользователя.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.graph/igraphclient/createcategory/
 ---
 ## IGraphClient.CreateCategory method
 
-Создает объект[`OutlookCategory`](../../outlookcategory)в основном списке категорий пользователя.
+Создает[`OutlookCategory`](../../outlookcategory) объект в основном списке категорий пользователя.
 
 ```csharp
 public OutlookCategory CreateCategory(string displayName, CategoryPreset preset)
@@ -16,12 +16,12 @@ public OutlookCategory CreateCategory(string displayName, CategoryPreset preset)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| displayName | String | Уникальное имя, определяющее категорию в почтовом ящике пользователя. |
-| preset | CategoryPreset | предустановленная цветовая константа, которая характеризует категорию и соответствует одному из 25 предопределенных цветов |
+| displayName | String | Уникальное имя, идентифицирующее категорию в почтовом ящике пользователя. |
+| preset | CategoryPreset | предустановленная цветовая константа, характеризующая категорию и сопоставленная с одним из 25 предопределенных цветов |
 
 ### Возвращаемое значение
 
-Категория, по которой пользователь может группировать элементы Outlook, такие как сообщения и события
+Категория, по которой пользователь может группировать элементы Outlook, такие как сообщения и события.
 
 ### Смотрите также
 

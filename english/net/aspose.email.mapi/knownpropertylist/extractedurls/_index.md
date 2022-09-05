@@ -1,7 +1,7 @@
 ---
 title: ExtractedUrls
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an XML document with a single UrlSet element. Area Extracted Entities Canonical name PidNameExtractedUrls Alternate names dispidXmlExtractedUrls
 type: docs
 weight: 10100
 url: /net/aspose.email.mapi/knownpropertylist/extractedurls/

@@ -1,7 +1,7 @@
 ---
 title: CreateSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a save options object of a class suitable for the specified save type.
 type: docs
 weight: 10
 url: /net/aspose.email/saveoptions/createsaveoptions/

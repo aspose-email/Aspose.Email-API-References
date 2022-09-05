@@ -1,7 +1,7 @@
 ---
 title: Business
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Business phone header.
 type: docs
 weight: 30
 url: /net/aspose.email/mhttemplatename.contact/business/

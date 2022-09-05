@@ -24,7 +24,7 @@ public class Recipient
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Availability](../../aspose.email.clients.activesync.transportlayer/recipient/availability) { get; set; } | 标识在由 StartTime 和 EndTime 标识的时间的请求中标识的用户或分发列表的状态和忙/闲数据。 当 ResolveRecipients 请求中包含可用性时，服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息. |
+| [Availability](../../aspose.email.clients.activesync.transportlayer/recipient/availability) { get; set; } | 标识请求中标识的用户或分发列表在 StartTime 和 EndTime 标识的时间的状态和忙/闲数据。 当可用性包含在 ResolveRecipients 请求中时，服务器检索标识的用户的忙/闲信息在请求中包含的 To 元素中，并在响应中的 MergedFreeBusy 中返回忙/闲信息。 |
 | [Certificates](../../aspose.email.clients.activesync.transportlayer/recipient/certificates) { get; set; } | 包含有关收件人证书的信息。 |
 | [DisplayName](../../aspose.email.clients.activesync.transportlayer/recipient/displayname) { get; set; } | 包含收件人的显示名称。 |
 | [EmailAddress](../../aspose.email.clients.activesync.transportlayer/recipient/emailaddress) { get; set; } | 包含收件人的电子邮件地址，采用 SMTP 格式。 |

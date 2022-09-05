@@ -1,7 +1,7 @@
 ---
 title: OnDragOver
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Raises the DragOver event.
 type: docs
 weight: 60
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/ondragover/

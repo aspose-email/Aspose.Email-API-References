@@ -1,7 +1,7 @@
 ---
 title: TotalCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the total count of items.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/totalcount/

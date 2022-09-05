@@ -37,7 +37,7 @@ public BaseDataObject(string kind, string id)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | kind | String | Тип ресурса |
-| id | String | Идентификатор ресурса ресурс. |
+| id | String | Идентификатор ресурса. |
 
 ### Смотрите также
 
@@ -58,8 +58,8 @@ public BaseDataObject(string kind, string id, string eTag)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | kind | String | Тип ресурса |
-| id | String | Идентификатор ресурса ресурс. |
-| eTag | String | Тег сущности |
+| id | String | Идентификатор ресурса. |
+| eTag | String | Тег объекта |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: EventData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets data that is associated with the processing step for the event.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdata/

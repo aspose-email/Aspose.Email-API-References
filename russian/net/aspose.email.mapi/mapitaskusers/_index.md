@@ -3,7 +3,7 @@ title: MapiTaskUsers
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет информацию о пользователях задачи.
 type: docs
-weight: 18730
+weight: 18760
 url: /ru/net/aspose.email.mapi/mapitaskusers/
 ---
 ## MapiTaskUsers class
@@ -18,20 +18,20 @@ public sealed class MapiTaskUsers
 
 | Имя | Описание |
 | --- | --- |
-| [MapiTaskUsers](mapitaskusers)() | Инициализирует новый экземпляр класса[`MapiTaskUsers`](../mapitaskusers). |
+| [MapiTaskUsers](mapitaskusers)() | Инициализирует новый экземпляр[`MapiTaskUsers`](../mapitaskusers) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Assigner](../../aspose.email.mapi/mapitaskusers/assigner) { get; set; } | Задает группу свойств, которая определяет отображаемое имя и адрес электронной почты пользователя, создавшего задачу. |
+| [Assigner](../../aspose.email.mapi/mapitaskusers/assigner) { get; set; } | Указывает группу свойств, которая определяет отображаемое имя и адрес электронной почты пользователя, создавшего задачу. |
 | [Attendees](../../aspose.email.mapi/mapitaskusers/attendees) { get; } | Получает участников. |
 | [Delegator](../../aspose.email.mapi/mapitaskusers/delegator) { get; set; } | Получает или задает делегатор задачи. |
 | [LastAssigner](../../aspose.email.mapi/mapitaskusers/lastassigner) { get; set; } | Получает или задает имя пользователя , который последним назначил задачу. |
-| [LastDelegate](../../aspose.email.mapi/mapitaskusers/lastdelegate) { get; set; } | Получает или задает имя делегата почтового ящика, который чаще всего недавно назначал задачу, или пустая строка, если делегата нет. |
+| [LastDelegate](../../aspose.email.mapi/mapitaskusers/lastdelegate) { get; set; } | Получает или задает имя делегата почтового ящика, который чаще всего недавно назначал задачу, или пустую строку, если делегата нет. |
 | [LastUser](../../aspose.email.mapi/mapitaskusers/lastuser) { get; set; } | Получает или задает имя самого последнего пользователя , который был владельцем задачи. |
 | [Owner](../../aspose.email.mapi/mapitaskusers/owner) { get; set; } | Получает или задает имя владельца задачи. |
-| [Ownership](../../aspose.email.mapi/mapitaskusers/ownership) { get; set; } | Получает или устанавливает роль текущего пользователя относительно объекта Task. |
+| [Ownership](../../aspose.email.mapi/mapitaskusers/ownership) { get; set; } | Получает или задает роль текущего пользователя относительно объекта Task. |
 
 ### Смотрите также
 

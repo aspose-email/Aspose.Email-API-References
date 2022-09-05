@@ -1,14 +1,14 @@
 ---
 title: Work
 second_title: Справочник по Aspose.Email для .NET API
-description: Номер рабочего телефона по умолчанию
+description: Рабочий номер телефона по умолчанию
 type: docs
 weight: 200
 url: /ru/net/aspose.email.personalinfo/phonenumberlist/work/
 ---
 ## PhoneNumberList.Work property
 
-Номер рабочего телефона по умолчанию
+Рабочий номер телефона по умолчанию
 
 ```csharp
 public string Work { get; set; }

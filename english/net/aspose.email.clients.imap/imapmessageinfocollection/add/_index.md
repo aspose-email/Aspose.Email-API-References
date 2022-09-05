@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the ImapMessageInfo to the ImapMessageCollection.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/add/

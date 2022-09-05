@@ -16,7 +16,7 @@ public void Add(Url value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Url | Object添加到列表中。 |
+| value | Url | 这Object添加到列表中。 |
 
 ### 返回值
 

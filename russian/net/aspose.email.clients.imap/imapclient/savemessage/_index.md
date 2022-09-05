@@ -16,9 +16,9 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream resul
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| resultStream | Stream | Поток, который получит сообщение |
+| resultStream | Stream | Поток, который будет получать сообщение |
 
 ### Смотрите также
 
@@ -39,9 +39,9 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream resultSt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| resultStream | Stream | Поток, который получит сообщение |
+| resultStream | Stream | Поток, который будет получать сообщение |
 
 ### Смотрите также
 
@@ -62,7 +62,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 
@@ -85,7 +85,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 

@@ -1,9 +1,9 @@
 ---
 title: MessageAcceptanceCallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Callback function which is being called during the conversion process.
 type: docs
-weight: 18840
+weight: 19050
 url: /net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate

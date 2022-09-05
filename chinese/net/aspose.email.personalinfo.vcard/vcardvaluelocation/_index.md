@@ -1,14 +1,14 @@
 ---
 title: VCardValueLocation
 second_title: Aspose.Email for .NET API 参考
-description: 枚举 vCard 属性参数 ValueLocation
+description: 枚举 vCard 属性参数 ValueLocation.
 type: docs
-weight: 19780
+weight: 19830
 url: /zh/net/aspose.email.personalinfo.vcard/vcardvaluelocation/
 ---
 ## VCardValueLocation enumeration
 
-枚举 vCard 属性参数 ValueLocation。
+枚举 vCard 属性参数 ValueLocation.
 
 ```csharp
 public enum VCardValueLocation

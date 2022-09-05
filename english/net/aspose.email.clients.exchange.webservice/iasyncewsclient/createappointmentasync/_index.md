@@ -1,7 +1,7 @@
 ---
 title: CreateAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates appointment.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createappointmentasync/

@@ -1,14 +1,14 @@
 ---
 title: MapiContactCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiContactCollectionaspose.email.mapi/mapicontactcollection类的新实例
+description: 初始化MapiContactCollectionaspose.email.mapi/mapicontactcollection类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactcollection/mapicontactcollection/
 ---
 ## MapiContactCollection() {#constructor}
 
-初始化[`MapiContactCollection`](../../mapicontactcollection)类的新实例。
+初始化[`MapiContactCollection`](../../mapicontactcollection)类.
 
 ```csharp
 public MapiContactCollection()
@@ -24,7 +24,7 @@ public MapiContactCollection()
 
 ## MapiContactCollection(IEnumerable&lt;MapiContact&gt;) {#constructor_1}
 
-初始化[`MapiContactCollection`](../../mapicontactcollection)类的新实例。
+初始化[`MapiContactCollection`](../../mapicontactcollection)类.
 
 ```csharp
 public MapiContactCollection(IEnumerable<MapiContact> collection)
@@ -32,7 +32,7 @@ public MapiContactCollection(IEnumerable<MapiContact> collection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| collection | IEnumerable`1 | 收集的初始项目 |
+| collection | IEnumerable`1 | 最初的收藏品 |
 
 ### 也可以看看
 

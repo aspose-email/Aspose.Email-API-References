@@ -1,9 +1,9 @@
 ---
 title: MailMessageCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of MailMessage./mailmessage objects.
 type: docs
-weight: 17550
+weight: 17720
 url: /net/aspose.email/mailmessagecollection/
 ---
 ## MailMessageCollection class

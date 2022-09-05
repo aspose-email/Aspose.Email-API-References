@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает адрес из
+description: Получает или задает от address
 type: docs
 weight: 70
 url: /ru/net/aspose.email/imessage/from/
 ---
 ## IMessage.From property
 
-Получает или устанавливает адрес из
+Получает или задает от address
 
 ```csharp
 public IMailAddress From { get; set; }

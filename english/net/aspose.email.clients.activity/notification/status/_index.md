@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets status of notification.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/notification/status/

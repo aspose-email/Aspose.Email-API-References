@@ -1,14 +1,14 @@
 ---
 title: OtherAddressCity
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的其他地区的名称例如城镇或城市 区域地址属性 规范名称PidTagOtherAddressCity 替代名称PR_OTHER_ADDRESS_CITY PR_OTHER_ADDRESS_CITY_A
+description: 包含邮件用户的其他地区的名称例如城镇或城市 区域地址属性 规范名称PidTagOtherAddressCity 替代名称PR_OTHER_ADDRESS_CITYPR_OTHER_ADDRESS_CITY_A
 type: docs
 weight: 13950
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddresscity/
 ---
 ## KnownPropertyList.OtherAddressCity field
 
-包含邮件用户的其他地区的名称，例如城镇或城市。 区域:地址属性 规范名称:PidTagOtherAddressCity 替代名称:PR_OTHER_ADDRESS_CITY, PR_OTHER_ADDRESS_CITY_A,
+包含邮件用户的其他地区的名称，例如城镇或城市。 区域：地址属性 规范名称：PidTagOtherAddressCity 替代名称：PR_OTHER_ADDRESS_CITY、PR_OTHER_ADDRESS_CITY_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressCity;

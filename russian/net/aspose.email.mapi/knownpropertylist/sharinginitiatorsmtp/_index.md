@@ -1,14 +1,14 @@
 ---
 title: SharingInitiatorSmtp
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagSmtpAddress раздел 2.1010 из объекта адресной книги определяемого свойством PidLidSharingInitiatorEntryId раздел 2.248. ОбластьСовместное использование Каноническое имяPidLidSharingInitiatorSmtp Альтернативные именаdispidSharingInitiatorSmtp
+description: Содержит значение свойства PidTagSmtpAddress раздел 2.1010 из объекта адресной книги определенного свойством PidLidSharingInitiatorEntryId раздел 2.248. Область Sharing Каноническое имя PidLidSharingInitiatorSmtp Альтернативные имена dispidSharingInitiatorSmtp
 type: docs
 weight: 17550
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinginitiatorsmtp/
 ---
 ## KnownPropertyList.SharingInitiatorSmtp field
 
-Содержит значение свойства PidTagSmtpAddress (раздел 2.1010) из объекта адресной книги, определяемого свойством PidLidSharingInitiatorEntryId (раздел 2.248). Область:Совместное использование Каноническое имя:PidLidSharingInitiatorSmtp Альтернативные имена:dispidSharingInitiatorSmtp
+Содержит значение свойства PidTagSmtpAddress (раздел 2.1010) из объекта адресной книги, определенного свойством PidLidSharingInitiatorEntryId (раздел 2.248). Область: Sharing Каноническое имя: PidLidSharingInitiatorSmtp Альтернативные имена: dispidSharingInitiatorSmtp
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingInitiatorSmtp;

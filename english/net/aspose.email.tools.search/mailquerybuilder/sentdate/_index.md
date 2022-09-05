@@ -1,7 +1,7 @@
 ---
 title: SentDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages by sent date.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.search/mailquerybuilder/sentdate/

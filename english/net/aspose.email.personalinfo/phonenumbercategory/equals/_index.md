@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 220
 url: /net/aspose.email.personalinfo/phonenumbercategory/equals/
 ---
-## PhoneNumberCategory.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -30,7 +30,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## PhoneNumberCategory.Equals method (2 of 2)
+## Equals(PhoneNumberCategory) {#equals}
 
 Determines whether the specified object is equal to the current object.
 

@@ -1,14 +1,14 @@
 ---
 title: CalendarTransparent
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议是否对忙碌时间搜索可见 区域通用 规范名称PidNameCalendarTransparent 替代名称urnschemascalendartransparent
+description: 指定约会或会议是否对忙碌时间搜索可见 区域Common 规范名称PidNameCalendarTransparent 备用名称urnschemascalendartransparent
 type: docs
 weight: 2430
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendartransparent/
 ---
 ## KnownPropertyList.CalendarTransparent field
 
-指定约会或会议是否对忙碌时间搜索可见。 区域:通用 规范名称:PidNameCalendarTransparent 替代名称:urn:schemas:calendar:transparent
+指定约会或会议是否对忙碌时间搜索可见。 区域：Common 规范名称：PidNameCalendarTransparent 备用名称：urn:schemas:calendar:transparent
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarTransparent;

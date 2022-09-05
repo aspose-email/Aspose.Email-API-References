@@ -36,7 +36,7 @@ public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRender
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| hyperlinkRenderingCallback | HyperlinkRenderingCallback | 对用于处理超链接呈现的自定义方法的引用。 |
+| hyperlinkRenderingCallback | HyperlinkRenderingCallback | 参考用于处理超链接呈现的自定义方法。 |
 
 ### 返回值
 

@@ -1,12 +1,12 @@
 ---
 title: MapiJournal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiJournalaspose.email.mapi/mapijournal class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapijournal/mapijournal/
 ---
-## MapiJournal constructor (1 of 2)
+## MapiJournal() {#constructor}
 
 Initializes a new instance of the [`MapiJournal`](../../mapijournal) class.
 
@@ -22,7 +22,7 @@ public MapiJournal()
 
 ---
 
-## MapiJournal constructor (2 of 2)
+## MapiJournal(string, string, string, string) {#constructor_1}
 
 Initializes a new instance of the [`MapiJournal`](../../mapijournal) class.
 

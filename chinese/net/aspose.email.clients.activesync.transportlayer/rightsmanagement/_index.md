@@ -22,11 +22,11 @@ public enum RightsManagement
 | RightsManagementTemplates | `6` | 包含客户端可用的权限策略模板。 |
 | RightsManagementTemplate | `7` | 包含客户端上可用的权限策略模板的模板标识符、名称和描述。 |
 | RightsManagementLicense | `8` | 包含应用于正在同步的电子邮件的模板的权限策略模板设置。 |
-| EditAllowed | `9` | 指定用户在转发、回复或全部回复电子邮件时是否可以修改原始电子邮件的内容。 |
+| EditAllowed | `9` | 指定当用户转发、回复或全部回复电子邮件时，用户是否可以修改原始电子邮件的内容。 |
 | ReplyAllowed | `10` | 指定是否允许用户回复电子邮件。 |
 | ReplyAllAllowed | `11` | 指定用户是否可以回复原始电子邮件的所有收件人。 |
-| ForwardAllowed | `12` | 指定用户是否可以转发电子邮件。 |
-| ModifyRecipientsAllowed | `13` | 指定用户转发或回复电子邮件时是否可以修改收件人 (1) 列表。 |
+| ForwardAllowed | `12` | 指定用户是否可以转发电子邮件消息。 |
+| ModifyRecipientsAllowed | `13` | 指定用户是否可以在用户转发或回复电子邮件消息时修改收件人 (1) 列表。 |
 | ExtractAllowed | `14` | 指定用户是否可以从电子邮件消息中复制内容。 |
 | PrintAllowed | `15` | 指定用户是否可以打印电子邮件。 |
 | ExportAllowed | `16` | 指定用户是否可以删除电子邮件的 IRM 保护。 |

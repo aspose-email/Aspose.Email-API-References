@@ -18,14 +18,14 @@ public class ReminderAttachment
 
 | Имя | Описание |
 | --- | --- |
-| [ReminderAttachment](reminderattachment#constructor)(byte[]) | Инициализировать новый экземпляр класса[`ReminderAttachment`](../reminderattachment). |
-| [ReminderAttachment](reminderattachment#constructor_1)(Uri) | Инициализировать новый экземпляр класса[`ReminderAttachment`](../reminderattachment). |
+| [ReminderAttachment](reminderattachment#constructor)(byte[]) | Инициализировать новый экземпляр[`ReminderAttachment`](../reminderattachment) класс. |
+| [ReminderAttachment](reminderattachment#constructor_1)(Uri) | Инициализировать новый экземпляр[`ReminderAttachment`](../reminderattachment) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.email.calendar/reminderattachment/binarydata) { get; set; } | Содержат кодировку символов встроенных двоичных данных. |
+| [BinaryData](../../aspose.email.calendar/reminderattachment/binarydata) { get; set; } | Содержит кодировку символов встроенных двоичных данных. |
 | [Uri](../../aspose.email.calendar/reminderattachment/uri) { get; set; } | Тип URI ссылки на данные. |
 
 ### Смотрите также

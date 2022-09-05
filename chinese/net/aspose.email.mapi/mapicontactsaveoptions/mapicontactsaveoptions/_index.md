@@ -1,14 +1,14 @@
 ---
 title: MapiContactSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiContactSaveOptionsaspose.email.mapi/mapicontactsaveoptions类的新实例
+description: 初始化MapiContactSaveOptionsaspose.email.mapi/mapicontactsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactsaveoptions/mapicontactsaveoptions/
 ---
 ## MapiContactSaveOptions constructor
 
-初始化[`MapiContactSaveOptions`](../../mapicontactsaveoptions)类的新实例。
+初始化[`MapiContactSaveOptions`](../../mapicontactsaveoptions)类.
 
 ```csharp
 public MapiContactSaveOptions()

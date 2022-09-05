@@ -1,14 +1,14 @@
 ---
 title: StreetAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит почтовый адрес пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagStreetAddress Альтернативные именаPR_STREET_ADDRESS PR_STREET_ADDRESS_A PR_STREET_ADDRESS_W PR_BUSINESS_ADDRESS_STREET PR_BUSINESS_ADDRESS_STREET_A
+description: Содержит почтовый адрес почтового пользователя. Область MapiMailUser Каноническое имя PidTagStreetAddress Альтернативные имена PR_STREET_ADDRESS PR_STREET_ADDRESS_A PR_STREET_ADDRESS_W PR_BUSINESS_ADDRESS_STREET PR_BUSINESS_ADDRESS_0_0 _0STREET_ADDRESS_0
 type: docs
 weight: 18320
 url: /ru/net/aspose.email.mapi/knownpropertylist/streetaddress/
 ---
 ## KnownPropertyList.StreetAddress field
 
-Содержит почтовый адрес пользователя почты. Область:MapiMailUser Каноническое имя:PidTagStreetAddress Альтернативные имена:PR_STREET_ADDRESS, PR_STREET_ADDRESS_A, PR_STREET_ADDRESS_W, PR_BUSINESS_ADDRESS_STREET, PR_BUSINESS_ADDRESS_STREET_A,
+Содержит почтовый адрес почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagStreetAddress Альтернативные имена: PR_STREET_ADDRESS, PR_STREET_ADDRESS_A, PR_STREET_ADDRESS_W, PR_BUSINESS_ADDRESS_STREET, PR_BUSINESS_ADDRESS_0,_0, _0STREET_ADDRESS_0
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StreetAddress;

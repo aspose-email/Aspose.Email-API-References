@@ -1,14 +1,14 @@
 ---
 title: CalendarRsvp
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивал ли организатор встречи или собрания ответ. ОбластьОбщие Каноническое имяPidNameCalendarRsvp Альтернативные именаurnschemascalendarrsvp
+description: Указывает запрашивал ли организатор встречи или собрания ответ. Область Common Каноническое имя PidNameCalendarRsvp Альтернативные имена urnschemascalendarrsvp
 type: docs
 weight: 2390
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarrsvp/
 ---
 ## KnownPropertyList.CalendarRsvp field
 
-Указывает, запрашивал ли организатор встречи или собрания ответ. Область:Общие Каноническое имя:PidNameCalendarRsvp Альтернативные имена:urn:schemas:calendar:rsvp
+Указывает, запрашивал ли организатор встречи или собрания ответ. Область: Common Каноническое имя: PidNameCalendarRsvp Альтернативные имена: urn:schemas:calendar:rsvp
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarRsvp;

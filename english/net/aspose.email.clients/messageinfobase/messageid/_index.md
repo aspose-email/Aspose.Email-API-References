@@ -1,7 +1,7 @@
 ---
 title: MessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message ID.
 type: docs
 weight: 80
 url: /net/aspose.email.clients/messageinfobase/messageid/

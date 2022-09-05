@@ -1,7 +1,7 @@
 ---
 title: NotIn
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field vlaue in message must not be in list of specified values.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.search/enumcomparisonfield/notin/

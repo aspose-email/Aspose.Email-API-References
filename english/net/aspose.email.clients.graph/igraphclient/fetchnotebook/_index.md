@@ -1,7 +1,7 @@
 ---
 title: FetchNotebook
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieve the properties and relationships of a notebook object. Permissions One of the following permissions is required to call this API. Delegated work or school account Notes.Create Notes.Read Notes.ReadWrite Notes.Read.All Notes.ReadWrite.All Delegated personal Microsoft account Notes.Create Notes.Read Notes.ReadWrite Application Notes.Read.All Notes.ReadWrite.All
 type: docs
 weight: 230
 url: /net/aspose.email.clients.graph/igraphclient/fetchnotebook/

@@ -42,7 +42,7 @@ public string AppendMessage(MapiMessage mapiMessage, bool markAsSent)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mapiMessage | MapiMessage | Сообщение для загрузки |
-| markAsSent | Boolean | Значение, указывающее, должно ли сообщение быть добавлено как отправленное сообщение или черновик. |
+| markAsSent | Boolean | Значение, указывающее, должно ли сообщение быть добавлено как отправленное сообщение или как черновик. |
 
 ### Возвращаемое значение
 
@@ -67,20 +67,20 @@ public string AppendMessage(string folderUri, MapiMessage mapiMessage, bool mark
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка URI, на который загружается сообщение. |
+| folderUri | String | URI папки, в которую загружается сообщение. |
 | mapiMessage | MapiMessage | Сообщение для загрузки |
-| markAsSent | Boolean | Значение, указывающее, должно ли сообщение быть добавлено как отправленное сообщение или черновик. |
+| markAsSent | Boolean | Значение, указывающее, должно ли сообщение быть добавлено как отправленное сообщение или как черновик. |
 
 ### Возвращаемое значение
 
-URI созданного сообщение
+URI созданного сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Папка не указана |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *mapiMessage*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *mapiMessage* является`нулевой` |
 
 ### Смотрите также
 
@@ -93,7 +93,7 @@ URI созданного сообщение
 
 ## AppendMessage(MailMessage) {#appendmessage}
 
-Загружает почтовое сообщение в папку "Входящие"
+Загружает почтовое сообщение в папку «Входящие»
 
 ```csharp
 public string AppendMessage(MailMessage message)
@@ -126,7 +126,7 @@ public string AppendMessage(string folderUri, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка URI, на который загружается сообщение. |
+| folderUri | String | URI папки, в которую загружается сообщение. |
 | message | MailMessage | Сообщение для загрузки |
 
 ### Возвращаемое значение

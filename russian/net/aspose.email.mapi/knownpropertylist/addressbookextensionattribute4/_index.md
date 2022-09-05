@@ -1,14 +1,14 @@
 ---
 title: AddressBookExtensionAttribute4
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. ОбластьАдресная книга Каноническое имяPidTagAddressBookExtensionAttribute4 Альтернативные именаPR_EMS_AB_EXTENSION_ATTRIBUTE_4 PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W
+description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. Область Адресная книга Каноническое имя PidTagAddressBookExtensionAttribute4 Альтернативные имена PR_EMS_AB_EXTENSION_ATTRIBUTE_4 PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W
 type: docs
 weight: 540
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute4/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute4 field
 
-Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область:Адресная книга Каноническое имя:PidTagAddressBookExtensionAttribute4 Альтернативные имена:PR_EMS_AB_EXTENSION_ATTRIBUTE_4, PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W
+Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область: Адресная книга Каноническое имя: PidTagAddressBookExtensionAttribute4 Альтернативные имена: PR_EMS_AB_EXTENSION_ATTRIBUTE_4, PR_EMS_AB_EXTENSION_ATTRIBUTE_4_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_4_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute4;

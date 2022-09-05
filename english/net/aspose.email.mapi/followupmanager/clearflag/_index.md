@@ -1,7 +1,7 @@
 ---
 title: ClearFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Clears the followup flag and reminder.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/followupmanager/clearflag/

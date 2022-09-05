@@ -1,7 +1,7 @@
 ---
 title: MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a string representing the class for the message. The property corresponds to the PidTagMessageClass MAPI property.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/exchangemessageinfo/messageclass/

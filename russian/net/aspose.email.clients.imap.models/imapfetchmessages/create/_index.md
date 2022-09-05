@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создать новый экземплярImapFetchMessagesaspose.email.clients.imap.models/imapfetchmessages.
+description: Создать новыйImapFetchMessagesaspose.email.clients.imap.models/imapfetchmessages экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapfetchmessages/create/
 ---
 ## ImapFetchMessages.Create method
 
-Создать новый экземпляр[`ImapFetchMessages`](../../imapfetchmessages).
+Создать новый[`ImapFetchMessages`](../../imapfetchmessages) экземпляр.
 
 ```csharp
 public static ImapFetchMessages Create()

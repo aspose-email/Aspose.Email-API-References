@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Save message as a stream
 type: docs
 weight: 40
 url: /net/aspose.email.amp/ampmessage/save/

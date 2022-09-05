@@ -1,14 +1,14 @@
 ---
 title: ListContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Список контактов расположенных в указанной папке на сервере
+description: Список контактов расположенных в указанной папке на server
 type: docs
 weight: 260
 url: /ru/net/aspose.email.clients.exchange.dav/exchangeclient/listcontacts/
 ---
 ## ExchangeClient.ListContacts method
 
-Список контактов, расположенных в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public MapiContact[] ListContacts(string folderUri)
@@ -20,7 +20,7 @@ public MapiContact[] ListContacts(string folderUri)
 
 ### Возвращаемое значение
 
-Массив read[`MapiContact`](../../../aspose.email.mapi/mapicontact)который представляет контактную информацию
+Массив чтения[`MapiContact`](../../../aspose.email.mapi/mapicontact) который представляет контактную информацию
 
 ### Смотрите также
 

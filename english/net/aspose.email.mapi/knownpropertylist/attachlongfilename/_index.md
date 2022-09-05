@@ -1,7 +1,7 @@
 ---
 title: AttachLongFilename
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the full filename and extension of the Attachment object. Area Message Attachment Properties Canonical name PidTagAttachLongFilename Alternate names PR_ATTACH_LONG_FILENAME PR_ATTACH_LONG_FILENAME_A
 type: docs
 weight: 1610
 url: /net/aspose.email.mapi/knownpropertylist/attachlongfilename/

@@ -1,14 +1,14 @@
 ---
 title: MapiContactNamePropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiContactNamePropertySetaspose.email.mapi/mapicontactnamepropertysetclass
+description: Инициализирует новый экземплярMapiContactNamePropertySetaspose.email.mapi/mapicontactnamepropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/mapicontactnamepropertyset/
 ---
 ## MapiContactNamePropertySet() {#constructor}
 
-Инициализирует новый экземпляр[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset)class
+Инициализирует новый экземпляр[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset) класс
 
 ```csharp
 public MapiContactNamePropertySet()
@@ -24,7 +24,7 @@ public MapiContactNamePropertySet()
 
 ## MapiContactNamePropertySet(string, string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset).
+Инициализирует новый экземпляр[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset) класс.
 
 ```csharp
 public MapiContactNamePropertySet(string givenName, string middleName, string surname)

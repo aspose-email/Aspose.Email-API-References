@@ -1,14 +1,14 @@
 ---
 title: BodyEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает кодировку тела
+description: Получает или задает кодировку body
 type: docs
 weight: 70
 url: /ru/net/aspose.email/mailmessage/bodyencoding/
 ---
 ## MailMessage.BodyEncoding property
 
-Получает или устанавливает кодировку тела
+Получает или задает кодировку body
 
 ```csharp
 public virtual Encoding BodyEncoding { get; set; }

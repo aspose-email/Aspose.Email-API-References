@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение указывающее язык на котором пользователь обмена сообщениями пишет сообщения. ОбластьСвойства адреса Каноническое имяPidTagLanguage Альтернативные именаPR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
+description: Содержит значение указывающее язык на котором пользователь обмена сообщениями пишет сообщения. Область Свойства адреса Каноническое имя PidTagLanguage Альтернативные имена PR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
 type: docs
 weight: 11940
 url: /ru/net/aspose.email.mapi/knownpropertylist/language/
 ---
 ## KnownPropertyList.Language field
 
-Содержит значение, указывающее язык, на котором пользователь обмена сообщениями пишет сообщения. Область:Свойства адреса Каноническое имя:PidTagLanguage Альтернативные имена:PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W,
+Содержит значение, указывающее язык, на котором пользователь обмена сообщениями пишет сообщения. Область: Свойства адреса Каноническое имя: PidTagLanguage Альтернативные имена: PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Language;

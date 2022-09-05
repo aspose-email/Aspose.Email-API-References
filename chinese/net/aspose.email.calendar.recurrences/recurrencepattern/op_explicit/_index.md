@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Aspose.Email for .NET API 参考
-description: 将 ICalendar 格式的重复模式的字符串表示转换为对象
+description: 将 ICalendar 格式的重复模式的字符串表示形式转换为 object
 type: docs
 weight: 60
 url: /zh/net/aspose.email.calendar.recurrences/recurrencepattern/op_explicit/
 ---
 ## RecurrencePattern Explicit operator
 
-将 ICalendar 格式的重复模式的字符串表示转换为对象
+将 ICalendar 格式的重复模式的字符串表示形式转换为 object
 
 ```csharp
 public static explicit operator RecurrencePattern(string value)

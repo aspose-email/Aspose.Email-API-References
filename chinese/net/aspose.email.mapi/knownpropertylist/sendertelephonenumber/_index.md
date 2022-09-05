@@ -1,14 +1,14 @@
 ---
 title: SenderTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含与语音邮件消息关联的呼叫者的电话号码 区域统一消息 规范名称PidTagSenderTelephoneNumber 备用名称InternalSchemaSenderTelephoneNumber
+description: 包含与语音邮件消息关联的呼叫者的电话号码 区域统一消息 规范名称PidTagSenderTelephoneNumber 替代名称InternalSchemaSenderTelephoneNumber
 type: docs
 weight: 17160
 url: /zh/net/aspose.email.mapi/knownpropertylist/sendertelephonenumber/
 ---
 ## KnownPropertyList.SenderTelephoneNumber field
 
-包含与语音邮件消息关联的呼叫者的电话号码。 区域:统一消息 规范名称:PidTagSenderTelephoneNumber 备用名称:InternalSchemaSenderTelephoneNumber
+包含与语音邮件消息关联的呼叫者的电话号码。 区域：统一消息 规范名称：PidTagSenderTelephoneNumber 替代名称：InternalSchemaSenderTelephoneNumber
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderTelephoneNumber;

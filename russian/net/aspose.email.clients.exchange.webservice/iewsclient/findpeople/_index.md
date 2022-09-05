@@ -1,14 +1,14 @@
 ---
 title: FindPeople
 second_title: Справочник по Aspose.Email для .NET API
-description: Поиск контактов расположенных в глобальном списке адресов GAL на сервере.
+description: Найти контакты расположенные в глобальном списке адресов GAL на сервере.
 type: docs
 weight: 860
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/findpeople/
 ---
 ## FindPeople(string, int) {#findpeople_1}
 
-Поиск контактов, расположенных в глобальном списке адресов (GAL) на сервере.
+Найти контакты, расположенные в глобальном списке адресов (GAL) на сервере.
 
 ```csharp
 public Contact[] FindPeople(string queryString, int maxNumberOfItems)
@@ -17,11 +17,11 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | queryString | String | Представляет критерии поиска контактов. |
-| maxNumberOfItems | Int32 | Максимальное количество элементов. |
+| maxNumberOfItems | Int32 | Максимальное количество предметов. |
 
 ### Возвращаемое значение
 
-Массив[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 
 ## FindPeople(string, MailQuery, int) {#findpeople}
 
-Найти контакты, расположенные в личном ящике указанного пользователя на сервере.
+Найти контакты, расположенные в личном почтовом ящике указанного пользователя на сервере.
 
 ```csharp
 public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfItems)
@@ -43,12 +43,12 @@ public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfIt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderUri | String | URI папки. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска контактов. |
-| maxNumberOfItems | Int32 | Максимальное количество элементов. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска контактов. |
+| maxNumberOfItems | Int32 | Максимальное количество предметов. |
 
 ### Возвращаемое значение
 
-Массив[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 

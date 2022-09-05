@@ -1,7 +1,7 @@
 ---
 title: ToHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Html representation of section.
 type: docs
 weight: 60
 url: /net/aspose.email.amp/section/tohtml/

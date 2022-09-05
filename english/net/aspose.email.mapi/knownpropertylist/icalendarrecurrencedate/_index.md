@@ -1,7 +1,7 @@
 ---
 title: ICalendarRecurrenceDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies an array of instances of a recurring appointment. Area Common Canonical name PidNameICalendarRecurrenceDate Alternate names urnschemascalendarrdate
 type: docs
 weight: 11160
 url: /net/aspose.email.mapi/knownpropertylist/icalendarrecurrencedate/

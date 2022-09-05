@@ -1,7 +1,7 @@
 ---
 title: RecipientOrder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the location of the current recipient in the recipient table. Area TransportRecipient Canonical name PidTagRecipientOrder Alternate names PR_RECIPIENT_ORDER ptagRecipientOrder
 type: docs
 weight: 15480
 url: /net/aspose.email.mapi/knownpropertylist/recipientorder/

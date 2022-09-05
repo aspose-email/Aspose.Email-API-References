@@ -19,7 +19,7 @@ public Task<string> MoveItemAsync(string itemUri, string destinationFolderUri,
 | --- | --- | --- |
 | itemUri | String | URI элемента |
 | destinationFolderUri | String | URI папки назначения |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

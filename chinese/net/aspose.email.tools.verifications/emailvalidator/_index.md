@@ -3,7 +3,7 @@ title: EmailValidator
 second_title: Aspose.Email for .NET API 参考
 description: EmailValidator 类提供验证电子邮件地址的能力
 type: docs
-weight: 20750
+weight: 20800
 url: /zh/net/aspose.email.tools.verifications/emailvalidator/
 ---
 ## EmailValidator class

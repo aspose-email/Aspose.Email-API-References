@@ -1,7 +1,7 @@
 ---
 title: HasFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages with the specified flags.
 type: docs
 weight: 120
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/hasflags/

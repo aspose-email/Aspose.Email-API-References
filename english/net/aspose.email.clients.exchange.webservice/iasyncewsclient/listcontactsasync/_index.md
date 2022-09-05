@@ -1,7 +1,7 @@
 ---
 title: ListContactsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists contacts located in the specified folder on server.
 type: docs
 weight: 420
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listcontactsasync/

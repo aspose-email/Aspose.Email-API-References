@@ -1,7 +1,7 @@
 ---
 title: TryGetPropertyLong
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertylong/

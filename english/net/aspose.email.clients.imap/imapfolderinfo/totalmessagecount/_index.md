@@ -1,7 +1,7 @@
 ---
 title: TotalMessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of messages in the folder.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.imap/imapfolderinfo/totalmessagecount/

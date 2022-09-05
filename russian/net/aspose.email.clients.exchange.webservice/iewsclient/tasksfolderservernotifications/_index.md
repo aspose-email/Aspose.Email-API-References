@@ -1,14 +1,14 @@
 ---
 title: TasksFolderServerNotifications
 second_title: Справочник по Aspose.Email для .NET API
-description: Происходит при возникновении указанного типа события для папки Задачи.
+description: Происходит при возникновении указанного типа события для папки Tasks.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/tasksfolderservernotifications/
 ---
 ## IEWSClient.TasksFolderServerNotifications event
 
-Происходит при возникновении указанного типа события для папки Задачи.
+Происходит при возникновении указанного типа события для папки Tasks.
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> TasksFolderServerNotifications;

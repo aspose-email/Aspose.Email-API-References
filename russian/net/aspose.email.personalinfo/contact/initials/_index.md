@@ -1,14 +1,14 @@
 ---
 title: Initials
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает инициалы
+description: Получает или задает инициалы
 type: docs
 weight: 210
 url: /ru/net/aspose.email.personalinfo/contact/initials/
 ---
 ## Contact.Initials property
 
-Получает или устанавливает инициалы
+Получает или задает инициалы
 
 ```csharp
 public string Initials { get; set; }

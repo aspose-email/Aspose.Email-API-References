@@ -1,14 +1,14 @@
 ---
 title: RtfSyncBodyTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RTF_SYNC_BODY_TAG
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RTF_SYNC_BODY_TAG
 type: docs
 weight: 16400
 url: /ru/net/aspose.email.mapi/knownpropertylist/rtfsyncbodytag/
 ---
 ## KnownPropertyList.RtfSyncBodyTag field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RTF_SYNC_BODY_TAG
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RTF_SYNC_BODY_TAG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfSyncBodyTag;

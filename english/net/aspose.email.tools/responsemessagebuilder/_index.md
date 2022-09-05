@@ -1,9 +1,9 @@
 ---
 title: ResponseMessageBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides creation and formatting the forwarding and replying messages.
 type: docs
-weight: 20420
+weight: 20650
 url: /net/aspose.email.tools/responsemessagebuilder/
 ---
 ## ResponseMessageBuilder class
@@ -26,8 +26,8 @@ public abstract class ResponseMessageBuilder
 
 | Name | Description |
 | --- | --- |
-| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse)(MailMessage) | Builds the forwarding and replying messages. |
-| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse)(MapiMessage) | Builds the forwarding and replying messages. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse)(MailMessage) | Builds the forwarding and replying messages. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Builds the forwarding and replying messages. |
 
 ### See Also
 

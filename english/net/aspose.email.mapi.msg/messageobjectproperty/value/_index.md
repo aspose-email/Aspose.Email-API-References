@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the value of the property.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi.msg/messageobjectproperty/value/

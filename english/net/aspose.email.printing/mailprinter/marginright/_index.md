@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the right margin.
 type: docs
 weight: 80
 url: /net/aspose.email.printing/mailprinter/marginright/

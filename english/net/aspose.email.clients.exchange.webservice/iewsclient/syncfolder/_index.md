@@ -1,12 +1,12 @@
 ---
 title: SyncFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves changes of the items and subfolders in a specified folder.
 type: docs
 weight: 1430
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/syncfolder/
 ---
-## IEWSClient.SyncFolder method (1 of 5)
+## SyncFolder(string) {#syncfolder_1}
 
 Retrieves changes of the items and subfolders in a specified folder.
 
@@ -31,7 +31,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (2 of 5)
+## SyncFolder(string, SyncFolderType) {#syncfolder_2}
 
 Retrieves changes of the items and subfolders in a specified folder.
 
@@ -58,7 +58,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (3 of 5)
+## SyncFolder(SyncState) {#syncfolder}
 
 Retrieves changes of the items in a specified folder.
 
@@ -84,7 +84,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (4 of 5)
+## SyncFolder(string, string) {#syncfolder_3}
 
 Retrieves changes of the items in a specified folder.
 
@@ -110,7 +110,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (5 of 5)
+## SyncFolder(string, string, IEnumerable&lt;string&gt;) {#syncfolder_4}
 
 Retrieves changes of the items in a specified folder.
 

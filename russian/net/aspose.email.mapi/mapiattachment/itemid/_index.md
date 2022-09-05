@@ -1,14 +1,14 @@
 ---
 title: ItemId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор элемента используется с сервером
+description: Идентификатор элемента используется с server
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapiattachment/itemid/
 ---
 ## MapiAttachment.ItemId property
 
-Идентификатор элемента, используется с сервером
+Идентификатор элемента, используется с server
 
 ```csharp
 public virtual string ItemId { get; }

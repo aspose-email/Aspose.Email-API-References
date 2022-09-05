@@ -16,7 +16,7 @@ public int MessageCount { get; }
 
 ### 适当的价值
 
-消息计数。
+消息数。
 
 ### 也可以看看
 

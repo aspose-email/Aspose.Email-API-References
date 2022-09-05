@@ -1,14 +1,14 @@
 ---
 title: UserEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: EntryID адресной книги пользователя выполнившего вход в общие папки. ОбластьExchangeMessageStore Каноническое имяPidTagUserEntryId Альтернативные именаPR_USER_ENTRYID ptagUserEntryId
+description: EntryID адресной книги пользователя выполнившего вход в общие папки. Область ExchangeMessageStore Каноническое имя PidTagUserEntryId Альтернативные имена PR_USER_ENTRYID ptagUserEntryId
 type: docs
 weight: 19170
 url: /ru/net/aspose.email.mapi/knownpropertylist/userentryid/
 ---
 ## KnownPropertyList.UserEntryId field
 
-EntryID адресной книги пользователя, выполнившего вход в общие папки. Область:ExchangeMessageStore Каноническое имя:PidTagUserEntryId Альтернативные имена:PR_USER_ENTRYID, ptagUserEntryId
+EntryID адресной книги пользователя, выполнившего вход в общие папки. Область: ExchangeMessageStore Каноническое имя: PidTagUserEntryId Альтернативные имена: PR_USER_ENTRYID, ptagUserEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor UserEntryId;

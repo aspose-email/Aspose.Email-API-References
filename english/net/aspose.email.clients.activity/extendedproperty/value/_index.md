@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extended properties value
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/extendedproperty/value/

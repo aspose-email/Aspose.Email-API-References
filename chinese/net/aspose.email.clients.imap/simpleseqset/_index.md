@@ -18,21 +18,21 @@ public class SimpleSeqSet : SequenceSetBaseValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SimpleSeqSet](simpleseqset#constructor)() | 初始化[`SimpleSeqSet`](../simpleseqset)类的新实例。 |
-| [SimpleSeqSet](simpleseqset#constructor_1)(string) | 初始化[`SimpleSeqSet`](../simpleseqset)类的新实例。 |
+| [SimpleSeqSet](simpleseqset#constructor)() | 初始化[`SimpleSeqSet`](../simpleseqset)类. |
+| [SimpleSeqSet](simpleseqset#constructor_1)(string) | 初始化[`SimpleSeqSet`](../simpleseqset)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value](../../aspose.email.clients.imap/simpleseqset/value) { get; set; } | 获取或设置要搜索的值 |
+| [Value](../../aspose.email.clients.imap/simpleseqset/value) { get; set; } | 获取或设置值到 search |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/simpleseqset/tostring)() | 返回代表当前对象的字符串。 |
-| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit#op_implicit) | 从String到SimpleSeqSet的隐式转换操作 (2 operators) |
+| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit#op_implicit) | 隐式转换操作来自String至[`SimpleSeqSet`](../simpleseqset) (2 operators) |
 
 ### 也可以看看
 

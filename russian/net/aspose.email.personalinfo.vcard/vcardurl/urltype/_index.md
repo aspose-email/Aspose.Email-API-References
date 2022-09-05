@@ -1,14 +1,14 @@
 ---
 title: UrlType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип URL-адреса
+description: Получает или задает тип URL
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardurl/urltype/
 ---
 ## VCardUrl.UrlType property
 
-Получает или задает тип URL-адреса
+Получает или задает тип URL
 
 ```csharp
 public VCardUrlType UrlType { get; set; }

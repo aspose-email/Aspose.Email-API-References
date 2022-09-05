@@ -1,7 +1,7 @@
 ---
 title: AttachNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the Attachment object within its Message object. Area Message Attachment Properties Canonical name PidTagAttachNumber Alternate names PR_ATTACH_NUM ptagAttachNum
 type: docs
 weight: 1720
 url: /net/aspose.email.mapi/knownpropertylist/attachnumber/

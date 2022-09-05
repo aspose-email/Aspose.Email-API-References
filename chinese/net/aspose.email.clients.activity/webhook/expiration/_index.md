@@ -1,14 +1,14 @@
 ---
 title: Expiration
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置到期日期
+description: 获取或设置过期日期
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activity/webhook/expiration/
 ---
 ## Webhook.Expiration property
 
-获取或设置到期日期
+获取或设置过期日期
 
 ```csharp
 public DateTime? Expiration { get; set; }

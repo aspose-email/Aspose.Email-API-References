@@ -1,14 +1,14 @@
 ---
 title: AppointmentProposedDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает предлагаемое значение свойства PidLidAppointmentDuration раздел 2.11 для встречного предложения. ОбластьВстречи Каноническое имяPidLidAppointmentProposedDuration Альтернативные именаdispidApptProposedDuration
+description: Указывает предлагаемое значение свойства PidLidAppointmentDuration раздел 2.11 для встречного предложения. Область Meetings Каноническое имя PidLidAppointmentProposedDuration Альтернативные имена dispidApptProposedDuration
 type: docs
 weight: 1220
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentproposedduration/
 ---
 ## KnownPropertyList.AppointmentProposedDuration field
 
-Указывает предлагаемое значение свойства PidLidAppointmentDuration (раздел 2.11) для встречного предложения. Область:Встречи Каноническое имя:PidLidAppointmentProposedDuration Альтернативные имена:dispidApptProposedDuration
+Указывает предлагаемое значение свойства PidLidAppointmentDuration (раздел 2.11) для встречного предложения. Область: Meetings Каноническое имя: PidLidAppointmentProposedDuration Альтернативные имена: dispidApptProposedDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentProposedDuration;

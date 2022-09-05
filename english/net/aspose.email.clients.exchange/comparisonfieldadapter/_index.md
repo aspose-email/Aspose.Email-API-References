@@ -1,7 +1,7 @@
 ---
 title: ComparisonFieldAdapter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements adapter for using ComparisonField../aspose.email.tools.search/comparisonfield according to their type
 type: docs
 weight: 3120
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/

@@ -1,14 +1,14 @@
 ---
 title: Fetch
 second_title: Aspose.Email for .NET API 参考
-description: 获取对象列表
+description: 获取的对象列表
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch/
 ---
 ## SyncOperationsResponse.Fetch property
 
-获取对象列表
+获取的对象列表
 
 ```csharp
 public List<SyncFetchResponse> Fetch { get; }

@@ -1,14 +1,14 @@
 ---
 title: AutoStartCheck
 second_title: Aspose.Email for .NET API 参考
-description: 指定在执行会议开始提醒时是否自动启动会议应用程序 区域会议 规范名称PidLidAutoStartCheck 替代名称dispidAutoStartCheck
+description: 指定在执行会议开始提醒时是否自动启动会议应用程序 区域Conferencing 规范名称PidLidAutoStartCheck 替代名称dispidAutoStartCheck
 type: docs
 weight: 1960
 url: /zh/net/aspose.email.mapi/knownpropertylist/autostartcheck/
 ---
 ## KnownPropertyList.AutoStartCheck field
 
-指定在执行会议开始提醒时是否自动启动会议应用程序。 区域:会议 规范名称:PidLidAutoStartCheck 替代名称:dispidAutoStartCheck
+指定在执行会议开始提醒时是否自动启动会议应用程序。 区域：Conferencing 规范名称：PidLidAutoStartCheck 替代名称：dispidAutoStartCheck
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoStartCheck;

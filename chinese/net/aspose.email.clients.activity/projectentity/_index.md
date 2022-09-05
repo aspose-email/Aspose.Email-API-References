@@ -18,19 +18,19 @@ public enum ProjectEntity
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| CustomField | `0` | 表示企业自定义字段。 |
+| CustomField | `0` | 代表企业自定义字段。 |
 | Driver | `1` | 表示投资组合驱动程序。 |
 | DriverPrioritization | `2` | 表示投资组合优先级。 |
 | Engagement | `3` | 表示资源参与。 |
 | EnterpriseCalendar | `4` | 表示企业资源日历。 |
-| EnterpriseProjectType | `5` | 表示企业项目类型。 |
+| EnterpriseProjectType | `5` | 代表企业项目类型。 |
 | FiscalPeriod | `6` | 表示一个会计期间。 |
 | GanttChartFormat | `7` | 表示甘特图格式。 |
 | GroupingFormat | `8` | 表示视图分组格式。 |
 | LineClassification | `9` | 表示时间表行分类。 |
 | LookupTable | `10` | 表示企业查找表。 |
 | PermissionTemplate | `11` | 表示安全权限模板。 |
-| PortfolioAnalysis | `12` | 表示投资组合分析。 |
+| PortfolioAnalysis | `12` | 代表投资组合分析。 |
 | Project | `13` | 代表一个项目。 |
 | QueueJob | `14` | 表示队列作业。 |
 | QuickLaunch | `15` | 表示快速启动项。 |
@@ -38,11 +38,11 @@ public enum ProjectEntity
 | Resource | `17` | 表示企业资源。 |
 | ResourcePlan | `18` | 表示与 A 项目关联的资源计划。 |
 | SecurityCategory | `19` | 表示安全类别。 |
-| SecurityGroup | `20` | 表示安全组。 |
+| SecurityGroup | `20` | 代表一个安全组。 |
 | Setting | `21` | 表示 Project Web App 设置 |
 | Statusing | `22` | 表示任务状态更新。 |
 | StatusReport | `23` | 表示状态报告。 |
-| TimeReportingPeriod | `24` | 表示时间表的一段时间 |
+| TimeReportingPeriod | `24` | 表示一个时间表的一段时间 |
 | Timesheet | `25` | 表示时间表实体。 |
 | TimesheetAuditLog | `26` | 表示时间表审核日志。 |
 | TimesheetManager | `27` | 代表一个timehseet的管理者。 |

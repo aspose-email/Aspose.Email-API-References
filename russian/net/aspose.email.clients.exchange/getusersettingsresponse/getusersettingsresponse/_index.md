@@ -1,14 +1,14 @@
 ---
 title: GetUserSettingsResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGetUserSettingsResponseaspose.email.clients.exchange/getusersettingsresponse.
+description: Инициализирует новый экземплярGetUserSettingsResponseaspose.email.clients.exchange/getusersettingsresponse класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/getusersettingsresponse/getusersettingsresponse/
 ---
 ## GetUserSettingsResponse constructor
 
-Инициализирует новый экземпляр класса[`GetUserSettingsResponse`](../../getusersettingsresponse).
+Инициализирует новый экземпляр[`GetUserSettingsResponse`](../../getusersettingsresponse) класс.
 
 ```csharp
 public GetUserSettingsResponse()

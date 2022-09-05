@@ -1,12 +1,12 @@
 ---
 title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MboxrdStorageWriteraspose.email.storage.mbox/mboxrdstoragewriter class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/mboxrdstoragewriter/
 ---
-## MboxrdStorageWriter constructor (1 of 2)
+## MboxrdStorageWriter(Stream, bool) {#constructor}
 
 Initializes a new instance of the [`MboxrdStorageWriter`](../../mboxrdstoragewriter) class.
 
@@ -33,7 +33,7 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 
 ---
 
-## MboxrdStorageWriter constructor (2 of 2)
+## MboxrdStorageWriter(string, bool) {#constructor_1}
 
 Initializes a new instance of the [`MboxrdStorageWriter`](../../mboxrdstoragewriter) class.
 

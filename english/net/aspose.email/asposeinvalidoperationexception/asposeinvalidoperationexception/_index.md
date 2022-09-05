@@ -1,12 +1,12 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeInvalidOperationExceptionaspose.email/asposeinvalidoperationexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeinvalidoperationexception/asposeinvalidoperationexception/
 ---
-## AsposeInvalidOperationException constructor (1 of 5)
+## AsposeInvalidOperationException() {#constructor}
 
 Initializes a new instance of the [`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) class.
 
@@ -22,7 +22,7 @@ public AsposeInvalidOperationException()
 
 ---
 
-## AsposeInvalidOperationException constructor (2 of 5)
+## AsposeInvalidOperationException(string) {#constructor_1}
 
 Initializes a new instance of the [`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeInvalidOperationException(string message)
 
 ---
 
-## AsposeInvalidOperationException constructor (3 of 5)
+## AsposeInvalidOperationException(string, string) {#constructor_4}
 
 ```csharp
 public AsposeInvalidOperationException(string format, string parameter)
@@ -56,7 +56,7 @@ public AsposeInvalidOperationException(string format, string parameter)
 
 ---
 
-## AsposeInvalidOperationException constructor (4 of 5)
+## AsposeInvalidOperationException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the [`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) class with a specified error message.
 
@@ -77,7 +77,7 @@ public AsposeInvalidOperationException(string format, params object[] parameters
 
 ---
 
-## AsposeInvalidOperationException constructor (5 of 5)
+## AsposeInvalidOperationException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) class with a specified error message.
 

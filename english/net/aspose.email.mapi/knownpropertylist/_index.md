@@ -1,9 +1,9 @@
 ---
 title: KnownPropertyList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The readonly Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation MSOXPROPS. Coincides MSOXPROPS revision 16.2 from 7/31/2014
 type: docs
-weight: 17680
+weight: 17860
 url: /net/aspose.email.mapi/knownpropertylist/
 ---
 ## KnownPropertyList class
@@ -32,19 +32,19 @@ public sealed class KnownPropertyList : IList<PropertyDescriptor>
 | [Clear](../../aspose.email.mapi/knownpropertylist/clear)() | List is read-only. Operation is not supported. |
 | [Contains](../../aspose.email.mapi/knownpropertylist/contains)(PropertyDescriptor) | Determines whether the System.Collections.Generic.ICollection contains a specific value. |
 | [CopyTo](../../aspose.email.mapi/knownpropertylist/copyto)(PropertyDescriptor[], int) | List is read-only. Operation is not supported. |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(params Guid[]) | Finds properties in list according to its PropertySet |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(int) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) properties in list |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(long) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) property in list |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(string) | Finds property in list with specified name |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(int, PropertyDataType) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) property in list |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(long, Guid) | Finds [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison. |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(string, Guid) | Finds [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison. |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(long, PropertyDataType, Guid) | Finds [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) property in list according to required parameters |
-| [Find](../../aspose.email.mapi/knownpropertylist/find)(string, PropertyDataType, Guid) | Finds [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) property in list according to required parameters |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_8)(params Guid[]) | Finds properties in list according to its PropertySet |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_6)(int) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) properties in list |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_5)(long) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) property in list |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_7)(string) | Finds property in list with specified name |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_4)(int, PropertyDataType) | Finds [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) property in list |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_1)(long, Guid) | Finds [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison. |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_3)(string, Guid) | Finds [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison. |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find)(long, PropertyDataType, Guid) | Finds [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) property in list according to required parameters |
+| [Find](../../aspose.email.mapi/knownpropertylist/find#find_2)(string, PropertyDataType, Guid) | Finds [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) property in list according to required parameters |
 | [FindOrGetCurrent](../../aspose.email.mapi/knownpropertylist/findorgetcurrent)(PropertyDescriptor) | Finds property in list with canonical name |
 | [GetEnumerator](../../aspose.email.mapi/knownpropertylist/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](../../aspose.email.mapi/knownpropertylist/indexof)(PropertyDescriptor) | Determines the index of a specific item in the System.Collections.Generic.IList. |
-| [IndexOf](../../aspose.email.mapi/knownpropertylist/indexof)(string) | Determines the index of a specific item in the System.Collections.Generic.IList. |
+| [IndexOf](../../aspose.email.mapi/knownpropertylist/indexof#indexof)(PropertyDescriptor) | Determines the index of a specific item in the System.Collections.Generic.IList. |
+| [IndexOf](../../aspose.email.mapi/knownpropertylist/indexof#indexof_1)(string) | Determines the index of a specific item in the System.Collections.Generic.IList. |
 | [Insert](../../aspose.email.mapi/knownpropertylist/insert)(int, PropertyDescriptor) | List is read-only. Operation is not supported. |
 | [Remove](../../aspose.email.mapi/knownpropertylist/remove)(PropertyDescriptor) | List is read-only. Operation is not supported. |
 | [RemoveAt](../../aspose.email.mapi/knownpropertylist/removeat)(int) | List is read-only. Operation is not supported. |

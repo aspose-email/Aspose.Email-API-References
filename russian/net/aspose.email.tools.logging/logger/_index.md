@@ -3,7 +3,7 @@ title: Logger
 second_title: Справочник по Aspose.Email для .NET API
 description: Обеспечивает ведение журнала.
 type: docs
-weight: 20490
+weight: 20540
 url: /ru/net/aspose.email.tools.logging/logger/
 ---
 ## Logger class
@@ -27,21 +27,21 @@ public sealed class Logger : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.tools.logging/logger/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.tools.logging/logger/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [IsEnabled](../../aspose.email.tools.logging/logger/isenabled)(LogLevel) | Определяет, включено ли ведение журнала для указанного уровня. |
-| [Write](../../aspose.email.tools.logging/logger/write#write)(object) | Записывает указанное сообщение в аппендеры. |
-| [Write](../../aspose.email.tools.logging/logger/write#write_1)(string) | Записывает указанное сообщение в аппендеры. |
-| [Write](../../aspose.email.tools.logging/logger/write#write_2)(string, Exception) | Записывает указанное сообщение и исключение в приложения. |
-| [Write](../../aspose.email.tools.logging/logger/write#write_3)(string, Exception, LogLevel) | Записывает указанное сообщение и исключение в приложения. |
-| [WriteFormat](../../aspose.email.tools.logging/logger/writeformat)(string, params object[]) | Записывает сообщение в указанном формате в приложения. |
-| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_2)(bool, object) | Записывает указанное сообщение в аппендеры, если условие истинно. |
-| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_4)(bool, string) | Записывает указанное сообщение в аппендеры, если условие истинно. |
-| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif)(LogLevel, string) | Записывает указанное сообщение, если включен уровень журнала. |
+| [Write](../../aspose.email.tools.logging/logger/write#write)(object) | Записывает указанное сообщение в appenders. |
+| [Write](../../aspose.email.tools.logging/logger/write#write_1)(string) | Записывает указанное сообщение в appenders. |
+| [Write](../../aspose.email.tools.logging/logger/write#write_2)(string, Exception) | Записывает указанное сообщение и исключение в appenders. |
+| [Write](../../aspose.email.tools.logging/logger/write#write_3)(string, Exception, LogLevel) | Записывает указанное сообщение и исключение в appenders. |
+| [WriteFormat](../../aspose.email.tools.logging/logger/writeformat)(string, params object[]) | Записывает сообщение указанного формата в appenders. |
+| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_2)(bool, object) | Записывает указанное сообщение в приложения, если условие истинно. |
+| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_4)(bool, string) | Записывает указанное сообщение в приложения, если условие истинно. |
+| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif)(LogLevel, string) | Записывает указанное сообщение, если включен уровень ведения журнала. |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_3)(bool, object, Exception) | Записывает указанное сообщение и исключение в приложения, если условие истинно. |
-| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_1)(LogLevel, string, Exception) | Записывает указанное сообщение и исключение, если включен уровень журнала. |
-| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline)() | Записывает пустую строку в добавление. |
-| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_1)(object) | Записывает указанное сообщение в аппендеры. |
-| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_2)(string) | Записывает указанное сообщение в аппендеры. |
+| [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_1)(LogLevel, string, Exception) | Записывает указанное сообщение и исключение, если включен уровень ведения журнала. |
+| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline)() | Записывает пустую строку в appenders. |
+| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_1)(object) | Записывает указанное сообщение в appenders. |
+| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_2)(string) | Записывает указанное сообщение в appenders. |
 
 ### Смотрите также
 

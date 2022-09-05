@@ -1,12 +1,12 @@
 ---
 title: GetMessageCountAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message count
 type: docs
 weight: 200
 url: /net/aspose.email.clients.pop3/pop3client/getmessagecountasync/
 ---
-## Pop3Client.GetMessageCountAsync method (1 of 8)
+## GetMessageCountAsync(IConnection) {#getmessagecountasync_1}
 
 Gets the message count
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (2 of 8)
+## GetMessageCountAsync(IConnection, bool) {#getmessagecountasync_2}
 
 Gets the message count
 
@@ -57,7 +57,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (3 of 8)
+## GetMessageCountAsync() {#getmessagecountasync}
 
 Gets the message count
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (4 of 8)
+## GetMessageCountAsync(bool) {#getmessagecountasync_5}
 
 Gets the message count
 
@@ -101,7 +101,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (5 of 8)
+## GetMessageCountAsync(IConnection, CancellationToken) {#getmessagecountasync_4}
 
 Gets the message count
 
@@ -127,7 +127,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (6 of 8)
+## GetMessageCountAsync(IConnection, bool, CancellationToken) {#getmessagecountasync_3}
 
 Gets the message count
 
@@ -155,7 +155,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (7 of 8)
+## GetMessageCountAsync(CancellationToken) {#getmessagecountasync_7}
 
 Gets the message count
 
@@ -179,7 +179,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageCountAsync method (8 of 8)
+## GetMessageCountAsync(bool, CancellationToken) {#getmessagecountasync_6}
 
 Gets the message count
 

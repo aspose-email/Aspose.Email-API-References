@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Aspose.Email for .NET API 参考
-description: 标有 placeholder 属性的元素充当父 AMP 元素的占位符如果指定占位符元素必须是 AMP 元素的直接子元素
+description: 标记有 placeholder 属性的元素充当父 AMP 元素的占位符如果指定占位符元素必须是 AMP 元素的直接子元素
 type: docs
 weight: 30
 url: /zh/net/aspose.email.amp/ampcomponent/placeholder/
 ---
 ## AmpComponent.Placeholder property
 
-标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。
+标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。
 
 ```csharp
 public AmpComponent Placeholder { get; set; }

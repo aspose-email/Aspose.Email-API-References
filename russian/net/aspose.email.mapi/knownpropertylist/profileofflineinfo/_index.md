@@ -1,14 +1,14 @@
 ---
 title: ProfileOfflineInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_OFFLINE_INFO
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_OFFLINE_INFO
 type: docs
 weight: 14830
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileofflineinfo/
 ---
 ## KnownPropertyList.ProfileOfflineInfo field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_OFFLINE_INFO
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_OFFLINE_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileOfflineInfo;

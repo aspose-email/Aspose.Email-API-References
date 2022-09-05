@@ -1,7 +1,7 @@
 ---
 title: ListPublicFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of public folders from root public folder
 type: docs
 weight: 1170
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listpublicfolders/

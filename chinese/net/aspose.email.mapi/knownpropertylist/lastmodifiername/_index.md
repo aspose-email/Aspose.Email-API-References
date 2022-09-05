@@ -1,14 +1,14 @@
 ---
 title: LastModifierName
 second_title: Aspose.Email for .NET API 参考
-description: 包含要更改 Message 对象的最后一个邮件用户的名称 区域历史属性 规范名称PidTagLastModifierName 替代名称PR_LAST_MODIFIER_NAME PR_LAST_MODIFIER_NAME_A ptagLastModifierName PR_LAST_MODIFIER_NAME_W
+description: 包含最后一个更改消息对象的邮件用户的名称 区域历史属性 规范名称PidTagLastModifierName 替代名称PR_LAST_MODIFIER_NAMEPR_LAST_MODIFIER_NAME_AptagLastModifierNamePR_LAST_MODIFIER_NAME_W
 type: docs
 weight: 12030
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastmodifiername/
 ---
 ## KnownPropertyList.LastModifierName field
 
-包含要更改 Message 对象的最后一个邮件用户的名称。 区域:历史属性 规范名称:PidTagLastModifierName 替代名称:PR_LAST_MODIFIER_NAME, PR_LAST_MODIFIER_NAME_A, ptagLastModifierName, PR_LAST_MODIFIER_NAME_W
+包含最后一个更改消息对象的邮件用户的名称。 区域：历史属性 规范名称：PidTagLastModifierName 替代名称：PR_LAST_MODIFIER_NAME、PR_LAST_MODIFIER_NAME_A、ptagLastModifierName、PR_LAST_MODIFIER_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastModifierName;

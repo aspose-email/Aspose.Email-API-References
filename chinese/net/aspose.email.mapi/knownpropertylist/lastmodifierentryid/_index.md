@@ -1,14 +1,14 @@
 ---
 title: LastModifierEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定最后一个修改邮件内容的用户的通讯录EntryID 区域历史属性 规范名称PidTagLastModifierEntryId 替代名称PR_LAST_MODIFIER_ENTRYID ptagLastModifierEntryId
+description: 指定最后一个用户修改邮件内容的通讯簿条目ID 区域历史属性 规范名称PidTagLastModifierEntryId 替代名称PR_LAST_MODIFIER_ENTRYIDptagLastModifierEntryId
 type: docs
 weight: 12020
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastmodifierentryid/
 ---
 ## KnownPropertyList.LastModifierEntryId field
 
-指定最后一个修改邮件内容的用户的通讯录EntryID。 区域:历史属性 规范名称:PidTagLastModifierEntryId 替代名称:PR_LAST_MODIFIER_ENTRYID, ptagLastModifierEntryId
+指定最后一个用户修改邮件内容的通讯簿条目ID。 区域：历史属性 规范名称：PidTagLastModifierEntryId 替代名称：PR_LAST_MODIFIER_ENTRYID、ptagLastModifierEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastModifierEntryId;

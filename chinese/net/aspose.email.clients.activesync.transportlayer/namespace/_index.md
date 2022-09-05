@@ -21,28 +21,28 @@ public enum Namespace
 | AirSync | `0` | AirSync 代码页 |
 | Contacts | `1` | 联系人代码页 |
 | Email | `2` | 电子邮件代码页 |
-| AirNotify | `3` | AirNotify 代码页 不再使用！！！ |
+| AirNotify | `3` | AirNotify 代码页 不再使用!!! |
 | Calendar | `4` | 日历代码页 |
 | Move | `5` | 移动代码页 |
 | GetItemEstimate | `6` | GetItemEstimate 代码页 |
-| FolderHierarchy | `7` | FolderHierarchy 代码页 |
-| MeetingResponse | `8` | MeetingResponse 代码页 |
+| FolderHierarchy | `7` | 文件夹层次结构代码页 |
+| MeetingResponse | `8` | 会议响应代码页 |
 | Tasks | `9` | 任务代码页 |
 | ResolveRecipients | `10` | ResolveRecipients 代码页 |
 | ValidateCert | `11` | ValidateCert 代码页 |
 | Contacts2 | `12` | Contacts2 代码页 |
 | Ping | `13` | Ping 代码页 |
-| Provision | `14` | 提供代码页 |
+| Provision | `14` | 供应代码页 |
 | Search | `15` | 搜索代码页 |
 | Gal | `16` | Gal 代码页 |
 | AirSyncBase | `17` | AirSyncBase 代码页 |
 | Settings | `18` | 设置代码页 |
-| DocumentLibrary | `19` | DocumentLibrary 代码页 |
+| DocumentLibrary | `19` | 文档库代码页 |
 | ItemOperations | `20` | ItemOperations 代码页 |
 | ComposeMail | `21` | ComposeMail 代码页 |
 | Email2 | `22` | Email2 代码页 |
 | Notes | `23` | 注释代码页 |
-| RightsManagement | `24` | RightsManagement 代码页 |
+| RightsManagement | `24` | 权限管理代码页 |
 
 ### 也可以看看
 

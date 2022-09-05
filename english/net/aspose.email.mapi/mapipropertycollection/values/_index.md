@@ -1,7 +1,7 @@
 ---
 title: Values
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an System.Collections.Generic.ICollectionltMapiPropertygt containing the values in the collection.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapipropertycollection/values/

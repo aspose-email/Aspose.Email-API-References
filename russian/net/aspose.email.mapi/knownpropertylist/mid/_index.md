@@ -1,14 +1,14 @@
 ---
 title: Mid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение содержащее MID синхронизируемого в данный момент сообщения. ОбластьСвойства идентификатора Каноническое имяPidTagMid Альтернативные именаptagMID http//schemas.microsoft.com/exchange/mid
+description: Содержит значение содержащее MID синхронизируемого сообщения. Область ID Properties Каноническое имя PidTagMid Альтернативные имена ptagMID http//schemas.microsoft.com/exchange/mid
 type: docs
 weight: 12670
 url: /ru/net/aspose.email.mapi/knownpropertylist/mid/
 ---
 ## KnownPropertyList.Mid field
 
-Содержит значение, содержащее MID синхронизируемого в данный момент сообщения. Область:Свойства идентификатора Каноническое имя:PidTagMid Альтернативные имена:ptagMID, http://schemas.microsoft.com/exchange/mid
+Содержит значение, содержащее MID синхронизируемого сообщения. Область: ID Properties Каноническое имя: PidTagMid Альтернативные имена: ptagMID, http://schemas.microsoft.com/exchange/mid
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Mid;

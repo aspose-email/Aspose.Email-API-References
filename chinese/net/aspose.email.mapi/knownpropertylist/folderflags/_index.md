@@ -1,14 +1,14 @@
 ---
 title: FolderFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个计算值以指定文件夹的类型或状态 区域ExchangeAdministrative 规范名称PidTagFolderFlags 备用名称PR_FOLDER_FLAGS
+description: 包含用于指定文件夹类型或状态的计算值 区域ExchangeAdministrative 规范名称PidTagFolderFlags 替代名称PR_FOLDER_FLAGS
 type: docs
 weight: 10420
 url: /zh/net/aspose.email.mapi/knownpropertylist/folderflags/
 ---
 ## KnownPropertyList.FolderFlags field
 
-包含一个计算值以指定文件夹的类型或状态。 区域:ExchangeAdministrative 规范名称:PidTagFolderFlags 备用名称:PR_FOLDER_FLAGS
+包含用于指定文件夹类型或状态的计算值。 区域：ExchangeAdministrative 规范名称：PidTagFolderFlags 替代名称：PR_FOLDER_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderFlags;

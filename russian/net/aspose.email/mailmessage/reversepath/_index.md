@@ -1,14 +1,14 @@
 ---
 title: ReversePath
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает адрес ReversePath
+description: Получает или задает адрес обратного пути
 type: docs
 weight: 290
 url: /ru/net/aspose.email/mailmessage/reversepath/
 ---
 ## MailMessage.ReversePath property
 
-Получает или устанавливает адрес ReversePath
+Получает или задает адрес обратного пути
 
 ```csharp
 public virtual MailAddress ReversePath { get; set; }

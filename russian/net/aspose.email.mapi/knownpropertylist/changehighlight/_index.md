@@ -1,14 +1,14 @@
 ---
 title: ChangeHighlight
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает битовое поле указывающее как изменился объект Meeting. ОбластьВстречи Каноническое имяPidLidChangeHighlight Альтернативные именаdispidChangeHighlight
+description: Указывает битовое поле указывающее как изменился объект Meeting. Область Meetings Каноническое имя PidLidChangeHighlight Альтернативные имена dispidChangeHighlight
 type: docs
 weight: 2560
 url: /ru/net/aspose.email.mapi/knownpropertylist/changehighlight/
 ---
 ## KnownPropertyList.ChangeHighlight field
 
-Задает битовое поле, указывающее, как изменился объект Meeting. Область:Встречи Каноническое имя:PidLidChangeHighlight Альтернативные имена:dispidChangeHighlight
+Указывает битовое поле, указывающее, как изменился объект Meeting. Область: Meetings Каноническое имя: PidLidChangeHighlight Альтернативные имена: dispidChangeHighlight
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ChangeHighlight;

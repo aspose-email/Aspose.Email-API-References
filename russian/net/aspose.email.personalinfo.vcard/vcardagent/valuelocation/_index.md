@@ -1,14 +1,14 @@
 ---
 title: ValueLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает местоположение значения
+description: Получает или задает значение location
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcardagent/valuelocation/
 ---
 ## VCardAgent.ValueLocation property
 
-Получает или задает местоположение значения
+Получает или задает значение location
 
 ```csharp
 public VCardValueLocation ValueLocation { get; set; }

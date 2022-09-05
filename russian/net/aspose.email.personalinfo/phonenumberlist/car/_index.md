@@ -1,14 +1,14 @@
 ---
 title: Car
 second_title: Справочник по Aspose.Email для .NET API
-description: Телефон автомобиля по умолчанию
+description: Автомобильный номер телефона по умолчанию
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo/phonenumberlist/car/
 ---
 ## PhoneNumberList.Car property
 
-Телефон автомобиля по умолчанию
+Автомобильный номер телефона по умолчанию
 
 ```csharp
 public string Car { get; set; }

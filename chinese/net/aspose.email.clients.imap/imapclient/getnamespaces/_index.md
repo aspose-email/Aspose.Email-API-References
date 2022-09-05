@@ -41,7 +41,7 @@ public ImapNamespace[] GetNamespaces(IConnection connection)
 
 ### 返回值
 
-返回可用的命名空间在服务器上。
+返回服务器上可用的命名空间。
 
 ### 也可以看看
 

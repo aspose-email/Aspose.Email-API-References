@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置重复模式
+description: 获取或设置循环模式
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern/
 ---
 ## MapiCalendarEventRecurrence.RecurrencePattern property
 
-获取或设置重复模式
+获取或设置循环模式
 
 ```csharp
 public MapiCalendarRecurrencePattern RecurrencePattern { get; set; }

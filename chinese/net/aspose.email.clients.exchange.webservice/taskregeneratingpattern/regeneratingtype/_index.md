@@ -1,14 +1,14 @@
 ---
 title: RegeneratingType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置重新生成模式的类型
+description: 获取或设置一种再生模式
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype/
 ---
 ## TaskRegeneratingPattern.RegeneratingType property
 
-获取或设置重新生成模式的类型。
+获取或设置一种再生模式。
 
 ```csharp
 public TaskRegeneratingType RegeneratingType { get; set; }

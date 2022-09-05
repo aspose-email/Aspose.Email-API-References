@@ -1,14 +1,14 @@
 ---
 title: ShouldAddPlainTextView
 second_title: Aspose.Email for .NET API 参考
-description: 指定是否添加正文的文本表示 默认值为假
+description: 指定是否添加正文的文本表示 默认值为 false
 type: docs
 weight: 30
 url: /zh/net/aspose.email/htmlloadoptions/shouldaddplaintextview/
 ---
 ## HtmlLoadOptions.ShouldAddPlainTextView property
 
-指定是否添加正文的文本表示。 默认值为假。
+指定是否添加正文的文本表示。 默认值为 false。
 
 ```csharp
 public bool ShouldAddPlainTextView { get; set; }

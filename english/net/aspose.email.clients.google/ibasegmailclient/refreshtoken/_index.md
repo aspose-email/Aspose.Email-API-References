@@ -1,7 +1,7 @@
 ---
 title: RefreshToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refresh access token
 type: docs
 weight: 50
 url: /net/aspose.email.clients.google/ibasegmailclient/refreshtoken/

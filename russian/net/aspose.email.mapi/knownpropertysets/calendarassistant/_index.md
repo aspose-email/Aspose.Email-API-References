@@ -1,14 +1,14 @@
 ---
 title: CalendarAssistant
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиКалендарь Имя набора свойствPSETID_CalendarAssistant
+description: Имя области Calendar Имя набора свойств PSETID_CalendarAssistant
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/knownpropertysets/calendarassistant/
 ---
 ## KnownPropertySets.CalendarAssistant field
 
-Имя области:Календарь Имя набора свойств:PSETID_CalendarAssistant
+Имя области: Calendar Имя набора свойств: PSETID_CalendarAssistant
 
 ```csharp
 public static readonly Guid CalendarAssistant;

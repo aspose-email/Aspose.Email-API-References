@@ -1,14 +1,14 @@
 ---
 title: RequestCheckpointAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Запрашивает контрольную точку текущего выбранного почтового ящика.
+description: Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 type: docs
 weight: 310
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/requestcheckpointasync/
 ---
 ## IAsyncImapClient.RequestCheckpointAsync method
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public Task RequestCheckpointAsync(IConnection connection = null, CancellationToken token = default)
@@ -16,7 +16,7 @@ public Task RequestCheckpointAsync(IConnection connection = null, CancellationTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

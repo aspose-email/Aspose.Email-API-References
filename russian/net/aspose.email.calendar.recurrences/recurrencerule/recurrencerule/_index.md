@@ -1,14 +1,14 @@
 ---
 title: RecurrenceRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаRecurrenceRuleaspose.email.calendar.recurrences/recurrencerule.
+description: Инициализирует новый экземплярRecurrenceRuleaspose.email.calendar.recurrences/recurrencerule класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerule/recurrencerule/
 ---
 ## RecurrenceRule constructor
 
-Инициализирует новый экземпляр класса[`RecurrenceRule`](../../recurrencerule).
+Инициализирует новый экземпляр[`RecurrenceRule`](../../recurrencerule) класс.
 
 ```csharp
 public RecurrenceRule()

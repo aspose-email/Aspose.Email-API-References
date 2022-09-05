@@ -1,14 +1,14 @@
 ---
 title: InstantMessengerCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаInstantMessengerCategoryaspose.email.personalinfo/instantmessengercategoryс категорией Custom.
+description: Инициализирует новый экземплярInstantMessengerCategoryaspose.email.personalinfo/instantmessengercategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/instantmessengercategory/
 ---
 ## InstantMessengerCategory constructor
 
-Инициализирует новый экземпляр класса[`InstantMessengerCategory`](../../instantmessengercategory)с категорией Custom.
+Инициализирует новый экземпляр[`InstantMessengerCategory`](../../instantmessengercategory) класс с категорией «Пользовательский».
 
 ```csharp
 public InstantMessengerCategory(string description)

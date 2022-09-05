@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/xfaxnumberofpages/
 ---
 ## KnownPropertyList.XFaxNumberOfPages field
 
-指定代表传真消息的附件中包含多少离散页面。 区域:统一消息 规范名称:PidNameXFaxNumberOfPages 备用名称:
+指定代表传真消息的附件中包含多少离散页面。 区域：统一消息 规范名称：PidNameXFaxNumberOfPages 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XFaxNumberOfPages;

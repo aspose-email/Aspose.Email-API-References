@@ -1,7 +1,7 @@
 ---
 title: SharingFlavor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of Sharing Message object. Area Sharing Canonical name PidLidSharingFlavor Alternate names dispidSharingFlavor
 type: docs
 weight: 17500
 url: /net/aspose.email.mapi/knownpropertylist/sharingflavor/

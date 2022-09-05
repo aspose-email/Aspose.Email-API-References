@@ -1,7 +1,7 @@
 ---
 title: InboxFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Inbox folder
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/inboxfoldereventfilter/

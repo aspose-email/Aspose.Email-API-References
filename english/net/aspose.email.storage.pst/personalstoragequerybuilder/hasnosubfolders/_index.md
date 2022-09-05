@@ -1,7 +1,7 @@
 ---
 title: HasNoSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search folders which does not contains subfolders.
 type: docs
 weight: 140
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/hasnosubfolders/

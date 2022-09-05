@@ -1,14 +1,14 @@
 ---
 title: PasswordRecoveryEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器是否支持存储由客户端使用设置命令发送的恢复密码 恢复密码是由客户端创建的特殊密码它赋予管理员或用户一次登录设备的能力 之后用户需要创建新密码然后客户端创建一个新的恢复密码 如果 PasswordRecoveryEnabled 设置为 TRUE则服务器支持存储设备发送的恢复密码 如果该属性设置为 FALSE则设备不应发送恢复密码因为服务器不支持存储密码 如果 PasswordRecoveryEnabled 为空客户端应该将此值视为 FALSE 如果 DevicePasswordEnabled 的值为 FALSE客户端应该忽略这个属性 如果客户端不支持恢复密码则应忽略此属性
+description: 指定服务器是否支持存储由客户端使用设置命令发送的恢复密码 恢复密码是由客户端创建的特殊密码使管理员或用户能够一次性登录设备 之后用户需要创建一个新密码然后客户端创建一个新的恢复密码 如果 PasswordRecoveryEnabled 设置为 TRUE则服务器支持存储设备发送的恢复密码 如果该属性设置为 FALSE则设备不应发送恢复密码因为服务器不支持存储密码 如果 PasswordRecoveryEnabled 为空客户端应该将此值视为 FALSE 如果 DevicePasswordEnabled 的值为 FALSE客户端应忽略此属性 如果客户端不支持恢复密码则应忽略此属性
 type: docs
 weight: 350
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/passwordrecoveryenabled/
 ---
 ## EASProvisionDoc.PasswordRecoveryEnabled property
 
-指定服务器是否支持存储由客户端使用设置命令发送的恢复密码。 恢复密码是由客户端创建的特殊密码，它赋予管理员或用户一次登录设备的能力， 之后用户需要创建新密码。然后客户端创建一个新的恢复密码。 如果 PasswordRecoveryEnabled 设置为 TRUE，则服务器支持存储设备发送的恢复密码。 如果该属性设置为 FALSE，则设备不应发送恢复密码，因为服务器不支持存储密码。 如果 PasswordRecoveryEnabled 为空，客户端应该将此值视为 FALSE。 如果 DevicePasswordEnabled 的值为 FALSE，客户端应该忽略这个属性。 如果客户端不支持恢复密码，则应忽略此属性。
+指定服务器是否支持存储由客户端使用设置命令发送的恢复密码。 恢复密码是由客户端创建的特殊密码，使管理员或用户能够一次性登录设备, 之后，用户需要创建一个新密码。然后客户端创建一个新的恢复密码。 如果 PasswordRecoveryEnabled 设置为 TRUE，则服务器支持存储设备发送的恢复密码。 如果该属性设置为 FALSE，则设备不应发送恢复密码，因为服务器不支持存储密码。 如果 PasswordRecoveryEnabled 为空，客户端应该将此值视为 FALSE。 如果 DevicePasswordEnabled 的值为 FALSE，客户端应忽略此属性。 如果客户端不支持恢复密码，则应忽略此属性。
 
 ```csharp
 public bool? PasswordRecoveryEnabled { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит комментарий о назначении или содержании объекта адресной книги. ОбластьОбщие Каноническое имяPidTagComment Альтернативные именаPR_COMMENT PR_COMMENT_A ptagComment PR_COMMENT_W DAVcomment
+description: Содержит комментарий о назначении или содержании объекта адресной книги. Область Common Каноническое имя PidTagComment Альтернативные имена PR_COMMENT PR_COMMENT_A ptagComment PR_COMMENT_W DAVcomment
 type: docs
 weight: 2760
 url: /ru/net/aspose.email.mapi/knownpropertylist/comment/
 ---
 ## KnownPropertyList.Comment field
 
-Содержит комментарий о назначении или содержании объекта адресной книги. Область:Общие Каноническое имя:PidTagComment Альтернативные имена:PR_COMMENT, PR_COMMENT_A, ptagComment, PR_COMMENT_W, DAV:comment,
+Содержит комментарий о назначении или содержании объекта адресной книги. Область: Common Каноническое имя: PidTagComment Альтернативные имена: PR_COMMENT, PR_COMMENT_A, ptagComment, PR_COMMENT_W, DAV:comment,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Comment;

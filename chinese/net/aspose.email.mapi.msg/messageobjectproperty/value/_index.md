@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### 适当的价值
 
-值。
+价值。
 
 ### 例外
 

@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建ImapDeleteMessagesaspose.email.clients.imap.models/imapdeletemessages实例
+description: 创建ImapDeleteMessagesaspose.email.clients.imap.models/imapdeletemessages实例.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapdeletemessages/create/
 ---
 ## ImapDeleteMessages.Create method
 
-创建[`ImapDeleteMessages`](../../imapdeletemessages)实例。
+创建[`ImapDeleteMessages`](../../imapdeletemessages)实例.
 
 ```csharp
 public static ImapDeleteMessages Create()

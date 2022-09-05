@@ -1,14 +1,14 @@
 ---
 title: SettingsResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает ответ с параметрами Нет на месте OOF и списком учетных записей пользователя.
+description: Задает ответ с настройками Нет на месте OOF и списком учетных записей пользователя.
 type: docs
 weight: 2070
 url: /ru/net/aspose.email.clients.activesync.transportlayer/settingsresponse/
 ---
 ## SettingsResponse class
 
-Задает ответ с параметрами "Нет на месте" (OOF) и списком учетных записей пользователя.
+Задает ответ с настройками «Нет на месте» (OOF) и списком учетных записей пользователя.
 
 ```csharp
 public class SettingsResponse
@@ -26,7 +26,7 @@ public class SettingsResponse
 | --- | --- |
 | [DeviceInformationStatus](../../aspose.email.clients.activesync.transportlayer/settingsresponse/deviceinformationstatus) { get; set; } | Указывает результат запроса установки DeviceInformation |
 | [DevicePasswordStatus](../../aspose.email.clients.activesync.transportlayer/settingsresponse/devicepasswordstatus) { get; set; } | Указывает результат запроса установки DevicePassword |
-| [Oof](../../aspose.email.clients.activesync.transportlayer/settingsresponse/oof) { get; set; } | Указывает класс для получения и установки информации об отсутствии на работе (OOF). |
+| [Oof](../../aspose.email.clients.activesync.transportlayer/settingsresponse/oof) { get; set; } | Задает класс для получения и установки информации об отсутствии на работе (OOF). |
 | [RightsManagementInformation](../../aspose.email.clients.activesync.transportlayer/settingsresponse/rightsmanagementinformation) { get; set; } | Содержит настройки информации об управлении правами, полученные с сервера. |
 | [UserInformation](../../aspose.email.clients.activesync.transportlayer/settingsresponse/userinformation) { get; set; } | Содержит статус запроса и список информации об учетной записи пользователя (адреса электронной почты). |
 

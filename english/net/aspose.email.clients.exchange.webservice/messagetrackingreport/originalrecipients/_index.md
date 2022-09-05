@@ -1,7 +1,7 @@
 ---
 title: OriginalRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the email addresses of the message recipients.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreport/originalrecipients/

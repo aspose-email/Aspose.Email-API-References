@@ -1,12 +1,12 @@
 ---
 title: CreateReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the instance of reader.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxstoragereader/createreader/
 ---
-## MboxStorageReader.CreateReader method (1 of 4)
+## CreateReader(string, MboxLoadOptions, CancellationToken) {#createreader_4}
 
 Creates the instance of reader.
 
@@ -36,7 +36,7 @@ public static MboxStorageReader CreateReader(string fileName, MboxLoadOptions op
 
 ---
 
-## MboxStorageReader.CreateReader method (2 of 4)
+## CreateReader(Stream, MboxLoadOptions, CancellationToken) {#createreader_1}
 
 Creates the instance of reader.
 
@@ -66,7 +66,7 @@ public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions opti
 
 ---
 
-## MboxStorageReader.CreateReader method (3 of 4)
+## CreateReader(Stream, MboxLoadOptions) {#createreader}
 
 Creates the instance of reader.
 
@@ -94,7 +94,7 @@ public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions opti
 
 ---
 
-## MboxStorageReader.CreateReader method (4 of 4)
+## CreateReader(string, MboxLoadOptions) {#createreader_3}
 
 Creates the instance of reader.
 

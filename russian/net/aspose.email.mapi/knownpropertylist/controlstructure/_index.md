@@ -1,14 +1,14 @@
 ---
 title: ControlStructure
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTROL_STRUCTURE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTROL_STRUCTURE
 type: docs
 weight: 3320
 url: /ru/net/aspose.email.mapi/knownpropertylist/controlstructure/
 ---
 ## KnownPropertyList.ControlStructure field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTROL_STRUCTURE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTROL_STRUCTURE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ControlStructure;

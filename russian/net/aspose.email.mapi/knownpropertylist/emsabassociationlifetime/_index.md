@@ -1,14 +1,14 @@
 ---
 title: EmsAbAssociationLifetime
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ASSOCIATION_LIFETIME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ASSOCIATION_LIFETIME
 type: docs
 weight: 4680
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabassociationlifetime/
 ---
 ## KnownPropertyList.EmsAbAssociationLifetime field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ASSOCIATION_LIFETIME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ASSOCIATION_LIFETIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAssociationLifetime;

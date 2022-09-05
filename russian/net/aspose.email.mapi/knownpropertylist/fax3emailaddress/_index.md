@@ -1,14 +1,14 @@
 ---
 title: Fax3EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит удобочитаемое отображаемое имя за которым следует символ  и номер факса. ОбластьСвойства контакта Каноническое имяPidLidFax3EmailAddress Альтернативные именаdispidFax3EmailAddress
+description: Содержит удобочитаемое отображаемое имя за которым следует символ  и номер факса. Область Свойства контакта Каноническое имя PidLidFax3EmailAddress Альтернативные имена dispidFax3EmailAddress
 type: docs
 weight: 10220
 url: /ru/net/aspose.email.mapi/knownpropertylist/fax3emailaddress/
 ---
 ## KnownPropertyList.Fax3EmailAddress field
 
-Содержит удобочитаемое отображаемое имя, за которым следует символ "@" и номер факса. Область:Свойства контакта Каноническое имя:PidLidFax3EmailAddress Альтернативные имена:dispidFax3EmailAddress
+Содержит удобочитаемое отображаемое имя, за которым следует символ "@" и номер факса. Область: Свойства контакта Каноническое имя: PidLidFax3EmailAddress Альтернативные имена: dispidFax3EmailAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax3EmailAddress;

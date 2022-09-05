@@ -1,14 +1,14 @@
 ---
 title: AppointmentMessageClass
 second_title: Aspose.Email for .NET API 参考
-description: 表示从会议请求对象生成的会议对象的消息类 区域会议 规范名称PidLidAppointmentMessageClass 别名dispidApptMessageClass
+description: 表示要从会议请求对象生成的会议对象的消息类别 区域Meetings 规范名称PidLidAppointmentMessageClass 替代名称dispidApptMessageClass
 type: docs
 weight: 1190
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentmessageclass/
 ---
 ## KnownPropertyList.AppointmentMessageClass field
 
-表示从会议请求对象生成的会议对象的消息类。 区域:会议 规范名称:PidLidAppointmentMessageClass 别名:dispidApptMessageClass
+表示要从会议请求对象生成的会议对象的消息类别。 区域：Meetings 规范名称：PidLidAppointmentMessageClass 替代名称：dispidApptMessageClass
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentMessageClass;

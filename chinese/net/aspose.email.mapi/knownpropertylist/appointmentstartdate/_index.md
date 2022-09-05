@@ -1,14 +1,14 @@
 ---
 title: AppointmentStartDate
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会开始的日期 区域日历 规范名称PidLidAppointmentStartDate 替代名称dispidApptStartDate
+description: 标识约会开始的日期 区域Calendar 规范名称PidLidAppointmentStartDate 替代名称dispidApptStartDate
 type: docs
 weight: 1300
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentstartdate/
 ---
 ## KnownPropertyList.AppointmentStartDate field
 
-标识约会开始的日期。 区域:日历 规范名称:PidLidAppointmentStartDate 替代名称:dispidApptStartDate
+标识约会开始的日期。 区域：Calendar 规范名称：PidLidAppointmentStartDate 替代名称：dispidApptStartDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentStartDate;

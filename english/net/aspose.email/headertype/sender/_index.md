@@ -1,7 +1,7 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The person or agent submitting the message to the network if other than shown by the From header field. Should be authenticated according to RFC 822 but what kind of authentication is not clear.
 type: docs
 weight: 220
 url: /net/aspose.email/headertype/sender/

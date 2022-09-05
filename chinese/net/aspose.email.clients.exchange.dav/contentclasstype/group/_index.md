@@ -1,14 +1,14 @@
 ---
 title: Group
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示内容类 urncontent-classesgroup 的值
+description: 获取表示内容类 urncontent-classesgroup. 的值
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/group/
 ---
 ## ContentClassType.Group property
 
-获取表示内容类 urn:content-classes:group 的值。
+获取表示内容类 urn:content-classes:group. 的值
 
 ```csharp
 public static ContentClassType Group { get; }

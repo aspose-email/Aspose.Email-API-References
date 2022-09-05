@@ -1,7 +1,7 @@
 ---
 title: Meeting
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Calendar Property set name PSETID_Meeting
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/knownpropertysets/meeting/

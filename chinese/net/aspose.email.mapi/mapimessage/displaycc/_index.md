@@ -1,14 +1,14 @@
 ---
 title: DisplayCc
 second_title: Aspose.Email for .NET API 参考
-description: 获取所有抄送 CC 邮件收件人的显示名称列表以分号  分隔
+description: 获取所有抄送 CC 消息收件人的显示名称列表以分号  分隔
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mapi/mapimessage/displaycc/
 ---
 ## MapiMessage.DisplayCc property
 
-获取所有抄送 (CC) 邮件收件人的显示名称列表，以分号 (;) 分隔。
+获取所有抄送 (CC) 消息收件人的显示名称列表，以分号 (;) 分隔。
 
 ```csharp
 public string DisplayCc { get; }

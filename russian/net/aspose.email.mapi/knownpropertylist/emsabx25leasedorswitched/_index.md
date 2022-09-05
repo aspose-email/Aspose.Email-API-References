@@ -1,14 +1,14 @@
 ---
 title: EmsAbX25LeasedOrSwitched
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X25_LEASED_OR_SWITCHED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X25_LEASED_OR_SWITCHED
 type: docs
 weight: 9630
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx25leasedorswitched/
 ---
 ## KnownPropertyList.EmsAbX25LeasedOrSwitched field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X25_LEASED_OR_SWITCHED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X25_LEASED_OR_SWITCHED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX25LeasedOrSwitched;

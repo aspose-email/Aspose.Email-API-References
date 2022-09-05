@@ -18,7 +18,7 @@ public sealed class RuleActions
 
 | Имя | Описание |
 | --- | --- |
-| [RuleActions](ruleactions)() | Инициализирует новый экземпляр класса[`RuleActions`](../ruleactions) |
+| [RuleActions](ruleactions)() | Инициализирует новый экземпляр[`RuleActions`](../ruleactions) класс |
 
 ## Характеристики
 
@@ -32,11 +32,11 @@ public sealed class RuleActions
 | [MarkAsRead](../../aspose.email.clients.exchange/ruleactions/markasread) { get; set; } | Получает или задает значение, указывающее, следует ли помечать сообщения как прочитанные. |
 | [MarkImportance](../../aspose.email.clients.exchange/ruleactions/markimportance) { get; set; } | Получает или задает важность, которая должна быть отмечена в сообщениях. |
 | [MoveToFolder](../../aspose.email.clients.exchange/ruleactions/movetofolder) { get; set; } | Получает или задает идентификатор папки, в которую будут перемещены элементы электронной почты. |
-| [PermanentDelete](../../aspose.email.clients.exchange/ruleactions/permanentdelete) { get; set; } | Получает или задает значение, указывающее, следует ли удалять сообщения без возможности восстановления, а не сохранять их в папку "Удаленные". |
+| [PermanentDelete](../../aspose.email.clients.exchange/ruleactions/permanentdelete) { get; set; } | Получает или задает значение, указывающее, должны ли сообщения удаляться навсегда и не сохраняться в папке «Удаленные». |
 | [RedirectToRecipients](../../aspose.email.clients.exchange/ruleactions/redirecttorecipients) { get; set; } | Получает или задает адреса электронной почты, на которые должны перенаправляться сообщения. |
 | [SendSMSAlertToRecipients](../../aspose.email.clients.exchange/ruleactions/sendsmsalerttorecipients) { get; set; } | Получает или задает номера мобильных телефонов, на которые должно быть отправлено оповещение службы коротких сообщений (SMS). |
 | [ServerReplyWithMessage](../../aspose.email.clients.exchange/ruleactions/serverreplywithmessage) { get; set; } | Получает или задает идентификатор шаблонного сообщения, которое должно быть отправлено в качестве ответа на входящие сообщения. |
-| [StopProcessingRules](../../aspose.email.clients.exchange/ruleactions/stopprocessingrules) { get; set; } | Получает или задает значение, указывающее, следует ли оценивать последующие правила. |
+| [StopProcessingRules](../../aspose.email.clients.exchange/ruleactions/stopprocessingrules) { get; set; } | Получает или задает значение, указывающее, должны ли оцениваться последующие правила. |
 
 ### Смотрите также
 

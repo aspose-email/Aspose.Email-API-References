@@ -1,7 +1,7 @@
 ---
 title: MultimediaClipCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of multimedia clips in the file attached to the Document object. Area Common Canonical name PidNameMultimediaClipCount Alternate names urnschemasmicrosoftcomofficeofficeMultimediaClips
 type: docs
 weight: 12810
 url: /net/aspose.email.mapi/knownpropertylist/multimediaclipcount/

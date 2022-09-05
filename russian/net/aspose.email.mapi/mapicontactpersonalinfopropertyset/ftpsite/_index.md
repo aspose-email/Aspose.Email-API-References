@@ -1,14 +1,14 @@
 ---
 title: FtpSite
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес контакта File Transfer Protocol FTP
+description: Указывает адрес протокола передачи файлов FTP контакта
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite/
 ---
 ## MapiContactPersonalInfoPropertySet.FtpSite property
 
-Указывает адрес контакта File Transfer Protocol (FTP)
+Указывает адрес протокола передачи файлов (FTP) контакта
 
 ```csharp
 public string FtpSite { get; set; }

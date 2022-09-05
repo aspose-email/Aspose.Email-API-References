@@ -1,14 +1,73 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 使用默认保存选项将日历对象保存到具有 iCalendar 格式的文件
+description: 使用默认保存选项将日历对象保存到指定格式的文件中
 type: docs
 weight: 220
 url: /zh/net/aspose.email.mapi/mapicalendar/save/
 ---
-## Save(string) {#save_2}
+## Save(string, MapiCalendarSaveOptions) {#save_5}
 
-使用默认保存选项将日历对象保存到具有 iCalendar 格式的文件
+使用默认保存选项将日历对象保存到指定格式的文件中
+
+```csharp
+public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| filePath | String | 一个文件路径 |
+| saveOptions | MapiCalendarSaveOptions | 保存选项 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
+| NotSupportedException | 不支持指定的保存选项 |
+
+### 也可以看看
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* 命名空间 [Aspose.Email.Mapi](../../mapicalendar)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, MapiCalendarSaveOptions) {#save_2}
+
+使用指定的保存选项将日历保存到流中
+
+```csharp
+public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 要保存到的流 |
+| saveOptions | MapiCalendarSaveOptions | 保存选项 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | *saveOptions*或者*stream*是`无效的` |
+| NotSupportedException | 不支持指定的保存选项 |
+| NotSupportedException | 流不支持写入 |
+
+### 也可以看看
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* 命名空间 [Aspose.Email.Mapi](../../mapicalendar)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
+
+使用默认保存选项将日历对象保存到 iCalendar 格式的文件中
 
 ```csharp
 public void Save(string filePath)
@@ -16,13 +75,13 @@ public void Save(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件路径 |
+| filePath | String | 一个文件路径 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*is` null` 或` 空` |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -32,9 +91,9 @@ public void Save(string filePath)
 
 ---
 
-## Save(string, AppointmentSaveFormat) {#save_3}
+## Save(string, AppointmentSaveFormat) {#save_4}
 
-使用默认保存选项将日历对象保存到具有指定格式的文件
+使用默认保存选项将日历对象保存到指定格式的文件中
 
 ```csharp
 public void Save(string filePath, AppointmentSaveFormat saveFormat)
@@ -42,15 +101,15 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件路径 |
-| saveFormat | AppointmentSaveFormat | 保存格式 |
+| filePath | String | 一个文件路径 |
+| saveFormat | AppointmentSaveFormat | 一种保存格式 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*是` null` 或` 空` |
-| NotSupportedException | 不支持指定的*saveFormat* |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
+| NotSupportedException | 指定的*saveFormat*不支持 |
 
 ### 也可以看看
 
@@ -63,7 +122,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 ## Save(Stream) {#save}
 
-使用默认保存选项将日历对象保存到具有 iCalendar 格式的文件
+使用默认保存选项将日历对象保存到 iCalendar 格式的文件中
 
 ```csharp
 public void Save(Stream stream)
@@ -71,13 +130,13 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存到 |
+| stream | Stream | 要保存到的流 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null 的流` |
+| ArgumentNullException | *stream*是`无效的` |
 | NotSupportedException | 流不支持写入 |
 
 ### 也可以看看
@@ -98,14 +157,14 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存到 |
-| saveFormat | AppointmentSaveFormat | 保存格式 |
+| stream | Stream | 要保存到的流 |
+| saveFormat | AppointmentSaveFormat | 一种保存格式 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` |
+| ArgumentNullException | *stream*是`无效的` |
 | NotSupportedException | 指定的*saveFormat*不支持 |
 | NotSupportedException | 流不支持写入 |
 

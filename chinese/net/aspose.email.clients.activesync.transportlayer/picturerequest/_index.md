@@ -24,7 +24,7 @@ public class PictureRequest
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MaxPictures](../../aspose.email.clients.activesync.transportlayer/picturerequest/maxpictures) { get; set; } | 限制服务器响应中返回的联系人照片数量。 协议版本为 12.1 或 14.0 时不支持 MaxPictures。 服务器返回前 N 个有联系人照片的结果，其中 N 是 MaxPictures 的值。 达到MaxPictures限制后，如果联系人没有照片，服务器返回状态值173（NoPicture），如果联系人的照片太大，服务器返回状态值174（PictureTooLarge），或者状态值175（PictureLimitReached ) 如果联系人有照片但已达到 MaxPictures 限制。 请注意，MaxPictures 标识每次查询返回的联系人照片数量。 因此，如果客户端包含三个需要解析的收件人，并在ResolveRecipients命令请求中将MaxPictures值设置为3，则最多可以返回9张联系人照片。 |
+| [MaxPictures](../../aspose.email.clients.activesync.transportlayer/picturerequest/maxpictures) { get; set; } | 限制服务器响应中返回的联系人照片数量。 协议版本为 12.1 或 14.0 时不支持 MaxPictures。 服务器返回前 N 个有联系人照片的结果，其中 N 是 MaxPictures 的值。 达到MaxPictures限制后，如果联系人没有照片，服务器返回状态值173（NoPicture），如果联系人的照片太大，服务器返回状态值174（PictureTooLarge），如果联系人有照片，服务器返回状态值175（PictureLimitReached）照片但已达到 MaxPictures 限制。 请注意，MaxPictures 标识每个查询返回的联系人照片数量。 因此，如果客户端包含三个要解析的收件人，并在 ResolveRecipients 命令请求中将 MaxPictures 值设置为 3，则最多可以返回 9 个联系人照片。 |
 | [MaxSize](../../aspose.email.clients.activesync.transportlayer/picturerequest/maxsize) { get; set; } | 指定响应中返回的单个联系人照片的最大大小，以字节为单位。 协议版本为 12.1 或 14.0 时不支持 MaxSize。 MaxSize 的最大值为 100 KB 或 102400 字节。 |
 
 ### 也可以看看

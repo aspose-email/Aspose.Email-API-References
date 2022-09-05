@@ -36,7 +36,7 @@ public string[] GetServerTimeZoneIds(params string[] timeZoneIds)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timeZoneIds | String[] | Идентификаторы часовых поясов для проверки существования на сервере. |
+| timeZoneIds | String[] | Идентификаторы часовых поясов для проверки наличия на сервере. |
 
 ### Возвращаемое значение
 
@@ -60,7 +60,7 @@ public string[] GetServerTimeZoneIds(IEnumerable<string> timeZoneIds)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timeZoneIds | IEnumerable`1 | Идентификаторы часовых поясов для проверки существования на сервере. |
+| timeZoneIds | IEnumerable`1 | Идентификаторы часовых поясов для проверки наличия на сервере. |
 
 ### Возвращаемое значение
 

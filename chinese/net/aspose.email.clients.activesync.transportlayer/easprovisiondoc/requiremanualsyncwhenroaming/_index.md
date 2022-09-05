@@ -1,14 +1,14 @@
 ---
 title: RequireManualSyncWhenRoaming
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备漫游时是否需要手动同步
+description: 指定设备在漫游时是否需要手动同步
 type: docs
 weight: 390
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requiremanualsyncwhenroaming/
 ---
 ## EASProvisionDoc.RequireManualSyncWhenRoaming property
 
-指定设备漫游时是否需要手动同步。
+指定设备在漫游时是否需要手动同步。
 
 ```csharp
 public bool? RequireManualSyncWhenRoaming { get; set; }

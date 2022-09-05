@@ -1,14 +1,14 @@
 ---
 title: SubItems
 second_title: Aspose.Email for .NET API 参考
-description: 将 ApplicationData 的子元素复制到新列表
+description: 将 ApplicationData 的子元素复制到新的列表中
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/datacontainer/subitems/
 ---
 ## DataContainer.SubItems property
 
-将 ApplicationData 的子元素复制到新列表。
+将 ApplicationData 的子元素复制到新的列表中。
 
 ```csharp
 public List<DataContainer> SubItems { get; }

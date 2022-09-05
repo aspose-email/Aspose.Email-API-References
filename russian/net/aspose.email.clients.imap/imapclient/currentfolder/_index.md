@@ -16,7 +16,7 @@ public ImapFolderInfo CurrentFolder { get; set; }
 
 ### Стоимость имущества
 
-ImapFolderInfo, которая представляет текущую папку
+ImapFolderInfo, который представляет текущую папку
 
 ### Смотрите также
 

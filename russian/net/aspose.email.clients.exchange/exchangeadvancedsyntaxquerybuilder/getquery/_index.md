@@ -16,7 +16,7 @@ public MailQuery GetQuery()
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос.
+[`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос.
 
 ### Смотрите также
 

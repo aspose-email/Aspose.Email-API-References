@@ -1,14 +1,14 @@
 ---
 title: HomeFax
 second_title: Aspose.Email for .NET API 参考
-description: 指属性组 定义联系人的家庭传真地址
+description: 是指一组属性 用于定义联系人的家庭传真地址
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/homefax/
 ---
 ## MapiContactElectronicAddressPropertySet.HomeFax property
 
-指属性组 定义联系人的家庭传真地址。
+是指一组属性 ，用于定义联系人的家庭传真地址。
 
 ```csharp
 public MapiContactElectronicAddress HomeFax { get; set; }

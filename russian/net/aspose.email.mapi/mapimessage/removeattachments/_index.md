@@ -16,7 +16,7 @@ public static MapiAttachmentCollection RemoveAttachments(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Имя файла сообщений Outlook. |
+| path | String | Имя файла сообщения Outlook. |
 
 ### Возвращаемое значение
 
@@ -26,30 +26,30 @@ public static MapiAttachmentCollection RemoveAttachments(string path)
 
 В следующем примере показано, как уничтожить вложения в файлах сообщений Outlook.
 
-[C#]
-
-```csharp
-//Удалить вложения из сообщений Outlook files
-apiAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\outlookmessage.msg");
-
-//Вложения
-oreach(MapiAttachment att in attachments)
-
-  Console.WriteLine("Attachment Name:"+att.FileName);
-  att.Save(att.FileName);
-
-```
+[С#]
 
 [Visual Basic]
+
+```csharp
+//Удалить вложения из файлов сообщений Outlook
+MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\outlookmessage.msg");
+
+//Вложения
+foreach(MapiAttachment att in attachments)
+{
+   Console.WriteLine("Attachment Name:"+att.FileName);
+   att.Save(att.FileName);
+}
+```
 
 ```csharp
 'Удалить вложения из файлов сообщений Outlook
 MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments("c:\outlookmessage.msg");
 
-'Вложения
-For Each att As MapiAttachment In msg.Attachments
-Console.WriteLine("Attachment Name:" + att.FileName)
-att.Save(att.FileName)
+'Вложения 
+For Each att As MapiAttachment In msg.Attachments 
+     Console.WriteLine("Attachment Name:" + att.FileName) 
+     att.Save(att.FileName) 
 Next
 ```
 

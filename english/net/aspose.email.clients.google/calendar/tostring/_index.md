@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a string which represents the object instance.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.google/calendar/tostring/

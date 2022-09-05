@@ -1,14 +1,14 @@
 ---
 title: CalendarRecurrence
 second_title: Aspose.Email for .NET API 参考
-description: 初始化CalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence类的新实例
+description: 初始化CalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/calendarrecurrence/calendarrecurrence/
 ---
 ## CalendarRecurrence() {#constructor}
 
-初始化[`CalendarRecurrence`](../../calendarrecurrence)类的新实例。
+初始化[`CalendarRecurrence`](../../calendarrecurrence)类.
 
 ```csharp
 public CalendarRecurrence()
@@ -24,7 +24,7 @@ public CalendarRecurrence()
 
 ## CalendarRecurrence(string) {#constructor_1}
 
-初始化[`CalendarRecurrence`](../../calendarrecurrence)类的新实例。
+初始化[`CalendarRecurrence`](../../calendarrecurrence)类.
 
 ```csharp
 public CalendarRecurrence(string pattern)
@@ -32,7 +32,7 @@ public CalendarRecurrence(string pattern)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | String | 模式。 |
+| pattern | String | 图案。 |
 
 ### 也可以看看
 

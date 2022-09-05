@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarBusyStatus
 second_title: Aspose.Email for .NET API 参考
-description: 枚举 mapi 日历可能的忙碌状态
+description: 枚举 mapi 日历可能的繁忙状态
 type: docs
 weight: 17930
 url: /zh/net/aspose.email.mapi/mapicalendarbusystatus/
 ---
 ## MapiCalendarBusyStatus enumeration
 
-枚举 mapi 日历可能的忙碌状态
+枚举 mapi 日历可能的繁忙状态
 
 ```csharp
 public enum MapiCalendarBusyStatus

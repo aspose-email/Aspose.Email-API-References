@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingEventArgs
 second_title: Aspose.Email for .NET API 参考
 description: 表示 ResourceHtmlRendering 事件的附加参数
 type: docs
-weight: 19890
+weight: 19940
 url: /zh/net/aspose.email/resourcehtmlrenderingeventargs/
 ---
 ## ResourceHtmlRenderingEventArgs class
@@ -24,7 +24,7 @@ public class ResourceHtmlRenderingEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Caption](../../aspose.email/resourcehtmlrenderingeventargs/caption) { get; set; } | Caprion 用于资源。 |
+| [Caption](../../aspose.email/resourcehtmlrenderingeventargs/caption) { get; set; } | 资源的 Caprion。 |
 | [PathToResourceFile](../../aspose.email/resourcehtmlrenderingeventargs/pathtoresourcefile) { get; set; } | 资源文件的路径。 |
 
 ### 也可以看看

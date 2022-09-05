@@ -1,14 +1,14 @@
 ---
 title: DispositionNotificationTo
 second_title: Aspose.Email for .NET API 参考
-description: 当设置了 DispositionNotificationTo 字段时将请求 MDN消息传递通知 收件人的电子邮件软件OutlookEudora 等可能会默默地忽略该请求也可能会提示用户允许发送 MDN 不保证退货收据 DispositionNotificationTo 字段是请求回执即 MDN或消息传递通知的事实标准
+description: 设置 DispositionNotificationTo 字段时将请求 MDN消息传递通知 收件人的电子邮件软件OutlookEudora 等可能会默默地忽略该请求也可能会提示用户允许发送 MDN 不保证退货收据 DispositionNotificationTo 字段是请求回执即 MDN或消息传递通知的事实标准
 type: docs
 weight: 90
 url: /zh/net/aspose.email/headertype/dispositionnotificationto/
 ---
 ## HeaderType.DispositionNotificationTo property
 
-当设置了 DispositionNotificationTo 字段时，将请求 MDN（消息传递通知）。 收件人的电子邮件软件（Outlook、Eudora 等）可能会默默地忽略该请求，也可能会提示用户允许发送 MDN。 不保证“退货收据”。 DispositionNotificationTo 字段是请求回执（即 MDN，或消息传递通知）的事实标准。
+设置 DispositionNotificationTo 字段时，将请求 MDN（消息传递通知）。 收件人的电子邮件软件（Outlook、Eudora 等）可能会默默地忽略该请求，也可能会提示用户允许发送 MDN。 不保证“退货收据”。 DispositionNotificationTo 字段是请求回执（即 MDN，或消息传递通知）的事实标准。
 
 ```csharp
 public static HeaderType DispositionNotificationTo { get; }

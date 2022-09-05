@@ -1,7 +1,7 @@
 ---
 title: SensitivityChoices
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the sensitivity level types that are available for an item.
 type: docs
 weight: 3570
 url: /net/aspose.email.clients.exchange/sensitivitychoices/

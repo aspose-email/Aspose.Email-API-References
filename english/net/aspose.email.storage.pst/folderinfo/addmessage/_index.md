@@ -1,7 +1,7 @@
 ---
 title: AddMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a new message into folder.
 type: docs
 weight: 150
 url: /net/aspose.email.storage.pst/folderinfo/addmessage/

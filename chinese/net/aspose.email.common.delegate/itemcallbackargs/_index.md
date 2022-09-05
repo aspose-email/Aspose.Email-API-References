@@ -18,7 +18,7 @@ public class ItemCallbackArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ItemCallbackArgs](itemcallbackargs)(object) | 使用指定项初始化 ItemCallbackArgs 类的新实例。 |
+| [ItemCallbackArgs](itemcallbackargs)(object) | 使用指定的项目初始化 ItemCallbackArgs 类的新实例。 |
 
 ## 特性
 

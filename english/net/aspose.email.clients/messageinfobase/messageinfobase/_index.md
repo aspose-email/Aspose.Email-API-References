@@ -1,7 +1,7 @@
 ---
 title: MessageInfoBase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MessageInfoBaseaspose.email.clients/messageinfobase class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/messageinfobase/messageinfobase/

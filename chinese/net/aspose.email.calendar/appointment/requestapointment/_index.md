@@ -1,14 +1,14 @@
 ---
 title: RequestApointment
 second_title: Aspose.Email for .NET API 参考
-description: 请求指定
+description: 请求预约
 type: docs
-weight: 320
+weight: 330
 url: /zh/net/aspose.email.calendar/appointment/requestapointment/
 ---
 ## RequestApointment() {#requestapointment}
 
-请求指定。
+请求预约。
 
 ```csharp
 public AlternateView RequestApointment()
@@ -16,7 +16,7 @@ public AlternateView RequestApointment()
 
 ### 返回值
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
+备用视图[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看�
 
 ## RequestApointment(int) {#requestapointment_1}
 
-请求指定。
+请求预约。
 
 ```csharp
 public AlternateView RequestApointment(int seqId)
@@ -37,11 +37,11 @@ public AlternateView RequestApointment(int seqId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| seqId | Int32 | 序列 ID。 |
+| seqId | Int32 | 序列号。 |
 
 ### 返回值
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件消息的格式。
+备用视图[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
 
 ### 也可以看看
 

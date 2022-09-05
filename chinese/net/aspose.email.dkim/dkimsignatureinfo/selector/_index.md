@@ -1,14 +1,14 @@
 ---
 title: Selector
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置公钥 DNS 选择器 s
+description: 获取或设置公钥 DNS 选择器 s.
 type: docs
 weight: 70
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/selector/
 ---
 ## DKIMSignatureInfo.Selector property
 
-获取或设置公钥 DNS 选择器 (s=)。
+获取或设置公钥 DNS 选择器 (s=).
 
 ```csharp
 public string Selector { get; set; }

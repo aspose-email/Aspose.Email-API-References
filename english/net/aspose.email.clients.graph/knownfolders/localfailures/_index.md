@@ -1,7 +1,7 @@
 ---
 title: LocalFailures
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains items that exist on the local client but could not be uploaded to the server.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.graph/knownfolders/localfailures/

@@ -1,14 +1,14 @@
 ---
 title: ClientCertificates
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит коллекцию клиентских сертификатов
+description: Содержит коллекцию сертификатов клиентов
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients/emailclient/clientcertificates/
 ---
 ## EmailClient.ClientCertificates property
 
-Содержит коллекцию клиентских сертификатов
+Содержит коллекцию сертификатов клиентов
 
 ```csharp
 public virtual X509CertificateCollection ClientCertificates { get; }

@@ -1,14 +1,14 @@
 ---
 title: SharingFolderEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingFolderEntryId 备用名称dispidSharingFolderEid
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingFolderEntryId 替代名称dispidSharingFolderEid
 type: docs
 weight: 17510
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingfolderentryid/
 ---
 ## KnownPropertyList.SharingFolderEntryId field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingFolderEntryId 备用名称:dispidSharingFolderEid
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingFolderEntryId 替代名称：dispidSharingFolderEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFolderEntryId;

@@ -32,8 +32,8 @@ public FreebusyGroupInfo(string groupId, IEnumerable<ErrorDetails> errors)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupId | String | 组 ID |
-| errors | IEnumerable`1 | 可选错误（如果该组的计算失败）。 |
+| groupId | String | 组号 |
+| errors | IEnumerable`1 | 可选错误（如果组的计算失败）。 |
 
 ### 也可以看看
 
@@ -54,8 +54,8 @@ public FreebusyGroupInfo(string groupId, IEnumerable<string> calendars)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupId | String | 组 ID |
-| calendars | IEnumerable`1 | 日历标识符列表一个组内。 |
+| groupId | String | 组号 |
+| calendars | IEnumerable`1 | 组内日历标识符的列表。 |
 
 ### 也可以看看
 
@@ -76,8 +76,8 @@ public FreebusyGroupInfo(string groupId, IEnumerable<ErrorDetails> errors,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupId | String | 组 ID |
-| errors | IEnumerable`1 | 可选错误（如果该组的计算失败）。 |
+| groupId | String | 组号 |
+| errors | IEnumerable`1 | 可选错误（如果组的计算失败）。 |
 | calendars | IEnumerable`1 | 组内日历标识符的列表。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ItemCallbackArgs
 second_title: Aspose.Email for .NET API 参考
-description: 使用指定项初始化 ItemCallbackArgs 类的新实例
+description: 使用指定的项目初始化 ItemCallbackArgs 类的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.common.delegate/itemcallbackargs/itemcallbackargs/
 ---
 ## ItemCallbackArgs constructor
 
-使用指定项初始化 ItemCallbackArgs 类的新实例。
+使用指定的项目初始化 ItemCallbackArgs 类的新实例。
 
 ```csharp
 public ItemCallbackArgs(object item)

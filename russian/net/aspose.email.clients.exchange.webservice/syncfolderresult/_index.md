@@ -21,10 +21,10 @@ public class SyncFolderResult
 | [ChangedFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/changedfolders) { get; } | Коллекция измененных подпапок в указанной папке. |
 | [ChangedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/changeditems) { get; } | Сбор измененных элементов в указанной папке. |
 | [DeletedFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/deletedfolders) { get; } | Массив подпапок в указанной папке, которые были удалены. |
-| [DeletedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems) { get; } | Массив элементов, которые были удалены. |
+| [DeletedItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems) { get; } | Массив удаленных элементов. |
 | [NewFolders](../../aspose.email.clients.exchange.webservice/syncfolderresult/newfolders) { get; } | Коллекция новых подпапок в указанной папке. |
-| [NewItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/newitems) { get; } | Сбор новинок в указанной папке. |
-| [ReadFlagChanged](../../aspose.email.clients.exchange.webservice/syncfolderresult/readflagchanged) { get; } | Коллекция пар элементов uri и read-flag для элементов, чей флаг 'read' был изменен. |
+| [NewItems](../../aspose.email.clients.exchange.webservice/syncfolderresult/newitems) { get; } | Сбор новых элементов в указанной папке. |
+| [ReadFlagChanged](../../aspose.email.clients.exchange.webservice/syncfolderresult/readflagchanged) { get; } | Коллекция пар uri элемента и флага чтения для элементов, чей флаг «чтения» был изменен. |
 | [SyncObject](../../aspose.email.clients.exchange.webservice/syncfolderresult/syncobject) { get; } | Объект синхронизации для следующей операции синхронизации. |
 
 ### Смотрите также

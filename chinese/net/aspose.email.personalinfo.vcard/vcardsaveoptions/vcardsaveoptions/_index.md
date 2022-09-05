@@ -1,14 +1,14 @@
 ---
 title: VCardSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptions 类的新实例
+description: 初始化VCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsaveoptions/vcardsaveoptions/
 ---
 ## VCardSaveOptions() {#constructor}
 
-初始化 [`VCardSaveOptions`](../../vcardsaveoptions) 类的新实例
+初始化[`VCardSaveOptions`](../../vcardsaveoptions) class
 
 ```csharp
 public VCardSaveOptions()
@@ -24,7 +24,7 @@ public VCardSaveOptions()
 
 ## VCardSaveOptions(VCardVersion, bool) {#constructor_2}
 
-初始化 [`VCardSaveOptions`](../../vcardsaveoptions) 类的新实例
+初始化[`VCardSaveOptions`](../../vcardsaveoptions) class
 
 ```csharp
 public VCardSaveOptions(VCardVersion version, bool useExtensions)
@@ -33,13 +33,13 @@ public VCardSaveOptions(VCardVersion version, bool useExtensions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | version | VCardVersion | vCard 版本 |
-| useExtensions | Boolean | 表示是否可以使用扩展类型。 |
+| useExtensions | Boolean | 指示是否可以使用扩展类型。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *version* 未在 [`VCardVersion`](../../vcardversion) 中定义 |
+| ArgumentException | 一个*version*没有定义在[`VCardVersion`](../../vcardversion) |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public VCardSaveOptions(VCardVersion version, bool useExtensions)
 
 ## VCardSaveOptions(VCardVersion) {#constructor_1}
 
-初始化 [`VCardSaveOptions`](../../vcardsaveoptions) 类的新实例
+初始化[`VCardSaveOptions`](../../vcardsaveoptions) class
 
 ```csharp
 public VCardSaveOptions(VCardVersion version)
@@ -66,7 +66,7 @@ public VCardSaveOptions(VCardVersion version)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 版本未在VCardVersion |
+| ArgumentException | 版本未定义[`VCardVersion`](../../vcardversion) |
 
 ### 也可以看看
 

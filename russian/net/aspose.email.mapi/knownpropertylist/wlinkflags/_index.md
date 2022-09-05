@@ -1,14 +1,14 @@
 ---
 title: WlinkFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает условия связанные с ярлыком. ОбластьКонфигурация Каноническое имяPidTagWlinkFlags Альтернативные именаPR_WLINK_FLAGS
+description: Указывает условия связанные с ярлыком. Область Configuration Каноническое имя PidTagWlinkFlags Альтернативные имена PR_WLINK_FLAGS
 type: docs
 weight: 19420
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkflags/
 ---
 ## KnownPropertyList.WlinkFlags field
 
-Указывает условия, связанные с ярлыком. Область:Конфигурация Каноническое имя:PidTagWlinkFlags Альтернативные имена:PR_WLINK_FLAGS
+Указывает условия, связанные с ярлыком. Область: Configuration Каноническое имя: PidTagWlinkFlags Альтернативные имена: PR_WLINK_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkFlags;

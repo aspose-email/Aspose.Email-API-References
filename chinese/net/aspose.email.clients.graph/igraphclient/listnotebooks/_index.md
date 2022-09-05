@@ -1,14 +1,14 @@
 ---
 title: ListNotebooks
 second_title: Aspose.Email for .NET API 参考
-description: 检索笔记本对象列表 权限 调用此 API 需要以下权限之一 Delegated工作或学校帐户 Notes.CreateNotes.ReadNotes.ReadWriteNotes.Read.AllNotes.ReadWrite.All Delegated个人 Microsoft 帐户 Notes.CreateNotes.ReadNotes.ReadWrite 应用程序 Notes.Read.AllNotes.ReadWrite.All
+description: 检索笔记本对象列表 Permissions 调用此 API 需要以下权限之一 委托工作或学校帐户Notes.CreateNotes.ReadNotes.ReadWriteNotes.Read.AllNotes ReadWrite.All 委托个人 Microsoft 帐户 Notes.CreateNotes.ReadNotes.ReadWrite 应用程序 Notes.Read.AllNotes.ReadWrite.All
 type: docs
 weight: 310
 url: /zh/net/aspose.email.clients.graph/igraphclient/listnotebooks/
 ---
 ## IGraphClient.ListNotebooks method
 
-检索笔记本对象列表。 权限 调用此 API 需要以下权限之一。 Delegated（工作或学校帐户） Notes.Create、Notes.Read、Notes.ReadWrite、Notes.Read.All、Notes.ReadWrite.All Delegated（个人 Microsoft 帐户） Notes.Create、Notes.Read、Notes.ReadWrite 应用程序 Notes.Read.All、Notes.ReadWrite.All
+检索笔记本对象列表。 Permissions 调用此 API 需要以下权限之一。 委托（工作或学校帐户）Notes.Create、Notes.Read、Notes.ReadWrite、Notes.Read.All、Notes。 ReadWrite.All 委托（个人 Microsoft 帐户） Notes.Create、Notes.Read、Notes.ReadWrite 应用程序 Notes.Read.All、Notes.ReadWrite.All
 
 ```csharp
 public NotebookCollection ListNotebooks()

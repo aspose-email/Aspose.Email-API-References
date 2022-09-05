@@ -1,14 +1,14 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 初始化EmailAddressaspose.email.personalinfo/emailaddress类的新实例
+description: 初始化EmailAddressaspose.email.personalinfo/emailaddress类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/emailaddress/emailaddress/
 ---
 ## EmailAddress() {#constructor}
 
-初始化[`EmailAddress`](../../emailaddress)类的新实例。
+初始化[`EmailAddress`](../../emailaddress)类.
 
 ```csharp
 public EmailAddress()
@@ -24,7 +24,7 @@ public EmailAddress()
 
 ## EmailAddress(string) {#constructor_1}
 
-初始化[`EmailAddress`](../../emailaddress)类的新实例。
+初始化[`EmailAddress`](../../emailaddress)类.
 
 ```csharp
 public EmailAddress(string address)
@@ -44,7 +44,7 @@ public EmailAddress(string address)
 
 ## EmailAddress(string, string) {#constructor_2}
 
-初始化[`EmailAddress`](../../emailaddress)类的新实例。
+初始化[`EmailAddress`](../../emailaddress)类.
 
 ```csharp
 public EmailAddress(string address, string displayName)

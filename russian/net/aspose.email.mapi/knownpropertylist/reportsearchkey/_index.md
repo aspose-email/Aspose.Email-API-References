@@ -1,14 +1,14 @@
 ---
 title: ReportSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит ключ поиска в адресной книге представляющий объект обычно агент сервера создавший отчетное сообщение. ОбластьMapiEnvelope Каноническое имяPidTagReportSearchKey Альтернативные именаPR_REPORT_SEARCH_KEY ptagReportSearchKey
+description: Содержит ключ поиска в адресной книге представляющий объект обычно агент сервера создавший отчетное сообщение. Область MapiEnvelope Каноническое имя PidTagReportSearchKey Альтернативные имена PR_REPORT_SEARCH_KEY ptagReportSearchKey
 type: docs
 weight: 16070
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportsearchkey/
 ---
 ## KnownPropertyList.ReportSearchKey field
 
-Содержит ключ поиска в адресной книге, представляющий объект (обычно агент сервера), создавший отчетное сообщение. Область:MapiEnvelope Каноническое имя:PidTagReportSearchKey Альтернативные имена:PR_REPORT_SEARCH_KEY, ptagReportSearchKey
+Содержит ключ поиска в адресной книге, представляющий объект (обычно агент сервера), создавший отчетное сообщение. Область: MapiEnvelope Каноническое имя: PidTagReportSearchKey Альтернативные имена: PR_REPORT_SEARCH_KEY, ptagReportSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportSearchKey;

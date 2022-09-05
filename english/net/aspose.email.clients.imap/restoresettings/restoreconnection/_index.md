@@ -1,7 +1,7 @@
 ---
 title: RestoreConnection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/restoresettings/restoreconnection/

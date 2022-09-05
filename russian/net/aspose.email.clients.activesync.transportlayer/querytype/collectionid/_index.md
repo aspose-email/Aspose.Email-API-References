@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает папку для поиска. Если DeepTraversal присутствует он применяется ко всем папкам под каждым CollectionId. Если CollectionId включен в качестве дочернего элемента любого элемента кроме And сервер отвечает значением состояния 8 SearchTooComplex.
+description: Указывает папку для поиска. Если DeepTraversal присутствует он применяется ко всем папкам под каждым CollectionId. Если CollectionId включен в качестве дочернего элемента любого элемента кроме And сервер отвечает значением состояния 8 SearchTooComplex.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/querytype/collectionid/
 ---
 ## QueryType.CollectionId property
 
-Задает папку для поиска. Если DeepTraversal присутствует, он применяется ко всем папкам под каждым CollectionId. Если CollectionId включен в качестве дочернего элемента любого элемента, кроме And, сервер отвечает значением состояния 8 (SearchTooComplex).
+Указывает папку для поиска. Если DeepTraversal присутствует, он применяется ко всем папкам под каждым CollectionId. Если CollectionId включен в качестве дочернего элемента любого элемента, кроме And, сервер отвечает значением состояния 8 (SearchTooComplex).
 
 ```csharp
 public List<string> CollectionId { get; }

@@ -18,7 +18,7 @@ public sealed class GetMailTipsOptions
 
 | Имя | Описание |
 | --- | --- |
-| [GetMailTipsOptions](getmailtipsoptions)(MailAddress, MailAddressCollection, MailTipsType) | Инициализирует новый экземпляр класса[`GetMailTipsOptions`](../getmailtipsoptions) |
+| [GetMailTipsOptions](getmailtipsoptions)(MailAddress, MailAddressCollection, MailTipsType) | Инициализирует новый экземпляр[`GetMailTipsOptions`](../getmailtipsoptions) класс |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public sealed class GetMailTipsOptions
 | --- | --- |
 | [MailTipsRequested](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/mailtipsrequested) { get; set; } | Получает или задает типы почтовых подсказок, запрашиваемых у службы. |
 | [Recipients](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/recipients) { get; set; } | Получает или задает список получателей для проверки почтовых подсказок. |
-| [SendingAs](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/sendingas) { get; set; } | Получает или задает адрес электронной почты, который пользователь пытается отправить. |
+| [SendingAs](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/sendingas) { get; set; } | Получает или задает адрес электронной почты, который пользователь пытается отправить как. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ReportDisposition
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строку указывающую было ли исходное сообщение показано пользователю или удалено только отчетные сообщения. ОбластьЭлектронная почта Каноническое имяPidTagReportDisposition Альтернативные именаPR_REPORT_DISPOSITION_W
+description: Содержит строку указывающую было ли исходное сообщение показано пользователю или удалено только отчетные сообщения. Область Email Каноническое имя PidTagReportDisposition Альтернативные имена PR_REPORT_DISPOSITION_W
 type: docs
 weight: 16000
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportdisposition/
 ---
 ## KnownPropertyList.ReportDisposition field
 
-Содержит строку, указывающую, было ли исходное сообщение показано пользователю или удалено (только отчетные сообщения). Область:Электронная почта Каноническое имя:PidTagReportDisposition Альтернативные имена:PR_REPORT_DISPOSITION_W
+Содержит строку, указывающую, было ли исходное сообщение показано пользователю или удалено (только отчетные сообщения). Область: Email Каноническое имя: PidTagReportDisposition Альтернативные имена: PR_REPORT_DISPOSITION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDisposition;

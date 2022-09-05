@@ -1,14 +1,14 @@
 ---
 title: MessageFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет формат почтового сообщения. Может быть в формате eml msg или mhtml. Значение по умолчанию  Eml.
+description: Представляет формат почтового сообщения. Может быть в формате eml msg или mhtml. Значение по умолчанию Eml.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/loadoptions/messageformat/
 ---
 ## LoadOptions.MessageFormat property
 
-Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию — Eml.
+Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию: Eml.
 
 ```csharp
 public MessageFormat MessageFormat { get; }

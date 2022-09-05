@@ -1,14 +1,14 @@
 ---
 title: Responsibility
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает обеспечил ли другой почтовый агент доставку сообщения. ОбластьMapiNonTransmittable Каноническое имяPidTagResponsibility Альтернативные именаPR_RESPONSIBILITY ptagResponsibility
+description: Указывает гарантировал ли другой почтовый агент доставку сообщения.
 type: docs
 weight: 16210
 url: /ru/net/aspose.email.mapi/knownpropertylist/responsibility/
 ---
 ## KnownPropertyList.Responsibility field
 
-Указывает, обеспечил ли другой почтовый агент доставку сообщения. Область:MapiNonTransmittable Каноническое имя:PidTagResponsibility Альтернативные имена:PR_RESPONSIBILITY, ptagResponsibility
+Указывает, гарантировал ли другой почтовый агент доставку сообщения.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Responsibility;

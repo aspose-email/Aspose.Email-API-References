@@ -26,7 +26,7 @@ public class Subscription
 | --- | --- |
 | [ContentType](../../aspose.email.clients.activity/subscription/contenttype) { get; set; } | Тип содержимого подписки |
 | [Status](../../aspose.email.clients.activity/subscription/status) { get; set; } | Статус подписки |
-| [Webhook](../../aspose.email.clients.activity/subscription/webhook) { get; set; } | Связанные вебхуки |
+| [Webhook](../../aspose.email.clients.activity/subscription/webhook) { get; set; } | Связанные веб-перехватчики |
 
 ### Смотрите также
 

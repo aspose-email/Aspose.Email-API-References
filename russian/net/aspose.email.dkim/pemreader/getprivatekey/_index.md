@@ -32,7 +32,7 @@ public static RSACryptoServiceProvider GetPrivateKey(Stream pem)
 
 ## GetPrivateKey(string) {#getprivatekey_1}
 
-Читает закрытый ключ из PEM-файла.
+Читает закрытый ключ из файла PEM.
 
 ```csharp
 public static RSACryptoServiceProvider GetPrivateKey(string path)

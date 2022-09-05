@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет этоMapiNoteaspose.email.mapi/mapinoteв указанный поток используя указанный формат.
+description: Сохраняет этоMapiNoteaspose.email.mapi/mapinote в данный поток используя указанный формат.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapinote/save/
 ---
 ## Save(Stream, NoteSaveFormat) {#save}
 
-Сохраняет это[`MapiNote`](../../mapinote)в указанный поток, используя указанный формат.
+Сохраняет это[`MapiNote`](../../mapinote) в данный поток, используя указанный формат.
 
 ```csharp
 public void Save(Stream stream, NoteSaveFormat saveFormat)
@@ -23,8 +23,8 @@ public void Save(Stream stream, NoteSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` . |
-| NotSupportedException | *stream*не поддерживает запись. |
+| ArgumentNullException | *stream* является`нулевой` . |
+| NotSupportedException | *stream* не поддерживает запись. |
 | NotSupportedException | Указанный формат не поддерживается. |
 
 ### Смотрите также
@@ -38,7 +38,7 @@ public void Save(Stream stream, NoteSaveFormat saveFormat)
 
 ## Save(string, NoteSaveFormat) {#save_1}
 
-Сохраняет это[`MapiNote`](../../mapinote)в файл с использованием указанного формата.
+Сохраняет это[`MapiNote`](../../mapinote) в файл, используя указанный формат.
 
 ```csharp
 public void Save(string filePath, NoteSaveFormat saveFormat)
@@ -53,8 +53,8 @@ public void Save(string filePath, NoteSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пусто` . |
-| NotSupportedException | некоторые параметры сохранения не поддерживаются |
+| ArgumentException | *filePath* является`нулевой`или же`пустой`. |
+| NotSupportedException | некоторые опции сохранения не поддерживаются |
 
 ### Смотрите также
 

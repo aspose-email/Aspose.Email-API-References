@@ -1,7 +1,7 @@
 ---
 title: LogTypeDesc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an expanded description of the journal activity that is being recorded. Area Journal Canonical name PidLidLogTypeDesc Alternate names dispidLogTypeDesc
 type: docs
 weight: 12300
 url: /net/aspose.email.mapi/knownpropertylist/logtypedesc/

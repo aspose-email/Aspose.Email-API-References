@@ -20,7 +20,7 @@ public abstract bool Equals(PropertyDescriptor other)
 
 ### 返回值
 
-如果当前对象等于另一个参数则为真；否则为假。
+如果当前对象等于另一个参数，则为 true；否则为假。
 
 ### 也可以看看
 

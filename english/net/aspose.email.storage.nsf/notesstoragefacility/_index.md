@@ -1,9 +1,9 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Notes Storage Facility NSF database file is used by IBM Lotus Notes and Domino to store different kind of objects like email appointments and documents but also application forms and views.
 type: docs
-weight: 19860
+weight: 20090
 url: /net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 ## NotesStorageFacility class
@@ -18,14 +18,14 @@ public class NotesStorageFacility : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [NotesStorageFacility](notesstoragefacility)(Stream) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(string) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(Stream, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(Stream, NsfLoadOptions) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(string, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(string, NsfLoadOptions) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(Stream, NsfLoadOptions, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
-| [NotesStorageFacility](notesstoragefacility)(string, NsfLoadOptions, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor)(Stream) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_4)(string) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_3)(Stream, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_1)(Stream, NsfLoadOptions) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_7)(string, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_5)(string, NsfLoadOptions) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_2)(Stream, NsfLoadOptions, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
+| [NotesStorageFacility](notesstoragefacility#constructor_6)(string, NsfLoadOptions, CancellationToken) | Initializes a new instance of the [`NotesStorageFacility`](../notesstoragefacility) class. |
 
 ## Methods
 

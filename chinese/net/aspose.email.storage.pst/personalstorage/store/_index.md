@@ -16,7 +16,7 @@ public MessageStore Store { get; }
 
 ### 适当的价值
 
-[`MessageStore`](../../messagestore)其中 大致相当于邮箱的顶部。
+的[`MessageStore`](../../messagestore)其中 大致相当于邮箱的顶部。
 
 ### 也可以看看
 

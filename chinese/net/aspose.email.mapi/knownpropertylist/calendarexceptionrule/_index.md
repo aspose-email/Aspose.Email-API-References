@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionRule
 second_title: Aspose.Email for .NET API 参考
-description: 指定定期约会的例外规则 区域通用 规范名称PidNameCalendarExceptionRule 备用名称urnschemascalendarexrule
+description: 为定期约会指定例外规则 区域Common 规范名称PidNameCalendarExceptionRule 备用名称urnschemascalendarexrule
 type: docs
 weight: 2260
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarexceptionrule/
 ---
 ## KnownPropertyList.CalendarExceptionRule field
 
-指定定期约会的例外规则。 区域:通用 规范名称:PidNameCalendarExceptionRule 备用名称:urn:schemas:calendar:exrule
+为定期约会指定例外规则。 区域：Common 规范名称：PidNameCalendarExceptionRule 备用名称：urn:schemas:calendar:exrule
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarExceptionRule;

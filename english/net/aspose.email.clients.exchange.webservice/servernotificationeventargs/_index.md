@@ -1,7 +1,7 @@
 ---
 title: ServerNotificationEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains event data for server notification.
 type: docs
 weight: 15480
 url: /net/aspose.email.clients.exchange.webservice/servernotificationeventargs/

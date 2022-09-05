@@ -1,14 +1,14 @@
 ---
 title: RecipientCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество получателей которое возвращается в ответе на команду ResolveRecipients.
+description: Указывает количество получателей возвращаемых в ответе команды ResolveRecipients.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipientcount/
 ---
 ## ResolveRecipientsResponse.RecipientCount property
 
-Указывает количество получателей, которое возвращается в ответе на команду ResolveRecipients.
+Указывает количество получателей, возвращаемых в ответе команды ResolveRecipients.
 
 ```csharp
 public int RecipientCount { get; set; }

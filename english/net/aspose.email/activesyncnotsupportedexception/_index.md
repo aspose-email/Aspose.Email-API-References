@@ -1,7 +1,7 @@
 ---
 title: ActiveSyncNotSupportedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur during ActiveSync protocol execution.
 type: docs
 weight: 20
 url: /net/aspose.email/activesyncnotsupportedexception/
@@ -18,10 +18,10 @@ public class ActiveSyncNotSupportedException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception)() | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class. |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception)(Exception) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a reference to the inner exception that is the cause of this exception. |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception)(string) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a specified error message. |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception)(string, Exception) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor)() | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_1)(Exception) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a reference to the inner exception that is the cause of this exception. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_2)(string) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a specified error message. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_3)(string, Exception) | Initializes a new instance of the [`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Properties
 

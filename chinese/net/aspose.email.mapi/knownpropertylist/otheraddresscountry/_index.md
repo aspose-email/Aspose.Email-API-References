@@ -1,14 +1,14 @@
 ---
 title: OtherAddressCountry
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的其他国家/地区的名称 区域地址属性 规范名称PidTagOtherAddressCountry 别名PR_OTHER_ADDRESS_COUNTRY PR_OTHER_ADDRESS_COUNTRY_A
+description: 包含邮件用户的其他国家/地区的名称 区域地址属性 规范名称PidTagOtherAddressCountry 备用名称PR_OTHER_ADDRESS_COUNTRYPR_OTHER_ADDRESS_COUNTRY_A
 type: docs
 weight: 13960
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddresscountry/
 ---
 ## KnownPropertyList.OtherAddressCountry field
 
-包含邮件用户的其他国家/地区的名称。 区域:地址属性 规范名称:PidTagOtherAddressCountry 别名:PR_OTHER_ADDRESS_COUNTRY, PR_OTHER_ADDRESS_COUNTRY_A,
+包含邮件用户的其他国家/地区的名称。 区域：地址属性 规范名称：PidTagOtherAddressCountry 备用名称：PR_OTHER_ADDRESS_COUNTRY、PR_OTHER_ADDRESS_COUNTRY_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressCountry;

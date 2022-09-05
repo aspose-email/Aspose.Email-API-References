@@ -16,11 +16,11 @@ public Contact[] GetContacts(string folder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | A用于在 |
+| folder | String | 用于搜索联系人的文件夹 |
 
 ### 返回值
 
-中搜索联系人的文件夹:读取数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
+读取的数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 
@@ -41,12 +41,12 @@ public Contact[] GetContacts(string folder, ExchangeListContactsOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | A用于在 |
+| folder | String | 用于搜索联系人的文件夹 |
 | options | ExchangeListContactsOptions | 枚举列表联系人选项 |
 
 ### 返回值
 
-一个 read[`Contact`](../../../aspose.email.personalinfo/contact)数组，代表联系信息
+读取的数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 

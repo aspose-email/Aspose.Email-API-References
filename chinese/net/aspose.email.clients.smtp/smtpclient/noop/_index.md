@@ -1,14 +1,14 @@
 ---
 title: Noop
 second_title: Aspose.Email for .NET API 参考
-description: No operation 命令
+description: 无操作 命令
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.smtp/smtpclient/noop/
 ---
 ## Noop(IConnection) {#noop_1}
 
-'No operation' 命令
+'无操作' 命令
 
 ```csharp
 public override void Noop(IConnection connection)
@@ -29,7 +29,7 @@ public override void Noop(IConnection connection)
 
 ## Noop() {#noop}
 
-'无操作'命令
+'无操作' 命令
 
 ```csharp
 public override void Noop()

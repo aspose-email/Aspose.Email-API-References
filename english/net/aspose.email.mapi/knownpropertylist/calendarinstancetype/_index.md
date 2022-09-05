@@ -1,7 +1,7 @@
 ---
 title: CalendarInstanceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of an appointment. Area Common Canonical name PidNameCalendarInstanceType Alternate names urnschemascalendarinstancetype
 type: docs
 weight: 2290
 url: /net/aspose.email.mapi/knownpropertylist/calendarinstancetype/

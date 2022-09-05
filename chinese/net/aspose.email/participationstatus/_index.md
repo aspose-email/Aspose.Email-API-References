@@ -3,7 +3,7 @@ title: ParticipationStatus
 second_title: Aspose.Email for .NET API 参考
 description: 标识日历用户的参与状态
 type: docs
-weight: 19250
+weight: 19280
 url: /zh/net/aspose.email/participationstatus/
 ---
 ## ParticipationStatus enumeration
@@ -18,8 +18,8 @@ public enum ParticipationStatus
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NeedsAction | `0` | 事件需要操作 |
-| Accepted | `1` | 接受事件 |
+| NeedsAction | `0` | 事件需要行动 |
+| Accepted | `1` | 事件接受 |
 | Declined | `2` | 事件被拒绝 |
 | Tentative | `3` | 暂时接受事件 |
 | Delegated | `4` | 事件委托 |

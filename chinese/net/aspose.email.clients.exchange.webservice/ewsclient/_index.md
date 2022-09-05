@@ -20,9 +20,9 @@ public abstract class EWSClient : ExchangeClientBase
 | --- | --- |
 | virtual [Credentials](../../aspose.email.clients.exchange/exchangeclientbase/credentials) { get; set; } | 获取或设置凭证 |
 | [LogFileName](../../aspose.email.clients.exchange/exchangeclientbase/logfilename) { get; set; } | 获取或设置日志文件名 |
-| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱的uri |
+| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱uri |
 | virtual [Proxy](../../aspose.email.clients.exchange/exchangeclientbase/proxy) { get; set; } | 获取或设置代理。 |
-| virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | [UseDateInLogFileName](../../aspose.email.clients.exchange/exchangeclientbase/usedateinlogfilename) { get; set; } | 获取或设置指示是否必须在日志文件名中使用日期的值。 |
 
 ## 方法
@@ -30,15 +30,15 @@ public abstract class EWSClient : ExchangeClientBase
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.email.clients.exchange/exchangeclientbase/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_2)(string, ICredentials) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_3)(string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_4)(string, string, string) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_1)(ExchangeVersion, string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_6)(string, string, string, string) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_5)(string, string, string, WebProxy) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_7)(string, string, string, string, WebProxy) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient)(ExchangeVersion, bool, string, string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
-| static [GetEwsClientAsync](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync)(string, ICredentials, WebProxy, CancellationToken) | 初始化[`EWSClient`](../ewsclient)基础类 的新实例 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_2)(string, ICredentials) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_3)(string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_4)(string, string, string) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_1)(ExchangeVersion, string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_6)(string, string, string, string) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_5)(string, string, string, WebProxy) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient_7)(string, string, string, string, WebProxy) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient#getewsclient)(ExchangeVersion, bool, string, string, ICredentials, WebProxy) | 初始化[`EWSClient`](../ewsclient)基于类 |
+| static [GetEwsClientAsync](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync)(string, ICredentials, WebProxy, CancellationToken) | 初始化[`EWSClient`](../ewsclient)基于类 |
 
 ### 也可以看看
 

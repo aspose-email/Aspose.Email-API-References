@@ -1,14 +1,14 @@
 ---
 title: MonthOfYear
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议发生的月份 区域日历 规范名称PidLidMonthOfYear 别名
+description: 表示约会或会议发生的月份 区域Calendar 规范名称PidLidMonthOfYear 别名
 type: docs
 weight: 12750
 url: /zh/net/aspose.email.mapi/knownpropertylist/monthofyear/
 ---
 ## KnownPropertyList.MonthOfYear field
 
-表示约会或会议发生的月份。 区域:日历 规范名称:PidLidMonthOfYear 别名:
+表示约会或会议发生的月份。 区域：Calendar 规范名称：PidLidMonthOfYear 别名：
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthOfYear;

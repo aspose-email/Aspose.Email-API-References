@@ -20,7 +20,7 @@ public FolderInfo GetParentFolder(string entryIdString)
 
 ### Возвращаемое значение
 
-Родительская папка[`FolderInfo`](../../folderinfo)сообщения.
+Родительская папка[`FolderInfo`](../../folderinfo) сообщения.
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public FolderInfo GetParentFolder(byte[] entryId)
 
 ### Возвращаемое значение
 
-Родительская папка[`FolderInfo`](../../folderinfo)сообщения.
+Родительская папка[`FolderInfo`](../../folderinfo) сообщения.
 
 ### Смотрите также
 

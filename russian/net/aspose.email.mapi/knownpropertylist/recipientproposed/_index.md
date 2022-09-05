@@ -1,14 +1,14 @@
 ---
 title: RecipientProposed
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что участник предложил новую дату и/или время. ОбластьTransportRecipient Каноническое имяPidTagRecipientProposed Альтернативные именаPR_RECIPIENT_PROPOSED ptagRecipientProposed
+description: Указывает что участник предложил новую дату и/или время. Область TransportRecipient Каноническое имя PidTagRecipientProposed Альтернативные имена PR_RECIPIENT_PROPOSED ptagRecipientProposed
 type: docs
 weight: 15490
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientproposed/
 ---
 ## KnownPropertyList.RecipientProposed field
 
-Указывает, что участник предложил новую дату и/или время. Область:TransportRecipient Каноническое имя:PidTagRecipientProposed Альтернативные имена:PR_RECIPIENT_PROPOSED, ptagRecipientProposed
+Указывает, что участник предложил новую дату и/или время. Область: TransportRecipient Каноническое имя: PidTagRecipientProposed Альтернативные имена: PR_RECIPIENT_PROPOSED, ptagRecipientProposed
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposed;

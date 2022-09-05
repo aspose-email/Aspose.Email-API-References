@@ -18,8 +18,8 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [ImapQueryBuilder](imapquerybuilder#constructor)() | Инициализирует новый экземпляр класса[`ImapQueryBuilder`](../imapquerybuilder). |
-| [ImapQueryBuilder](imapquerybuilder#constructor_1)(Encoding) | Инициализирует новый экземпляр класса[`ImapQueryBuilder`](../imapquerybuilder). |
+| [ImapQueryBuilder](imapquerybuilder#constructor)() | Инициализирует новый экземпляр[`ImapQueryBuilder`](../imapquerybuilder) класс. |
+| [ImapQueryBuilder](imapquerybuilder#constructor_1)(Encoding) | Инициализирует новый экземпляр[`ImapQueryBuilder`](../imapquerybuilder) класс. |
 
 ## Характеристики
 
@@ -29,13 +29,13 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в теле сообщения. |
 | [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле CC структуры конверта. |
 | [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Получает кодировку (набор символов) по умолчанию для построителя запросов |
-| [ESearchParameters](../../aspose.email.clients.imap/imapquerybuilder/esearchparameters) { get; set; } | Получает или устанавливает параметры ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Подробнее https://tools.ietf.org/html/rfc4315 |
+| [ESearchParameters](../../aspose.email.clients.imap/imapquerybuilder/esearchparameters) { get; set; } | Получает или устанавливает параметры ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле FROM структуры конверта. |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Получает поле, позволяющее находить сообщения по внутренней дате. |
 | [MessageSize](../../aspose.email.clients.imap/imapquerybuilder/messagesize) { get; } | Получает сообщения указанного размера. |
-| [ModSeq](../../aspose.email.clients.imap/imapquerybuilder/modseq) { get; } | Последовательность модификаций |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [ModSeq](../../aspose.email.clients.imap/imapquerybuilder/modseq) { get; } | Последовательность модификации |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
 | [UniqueId](../../aspose.email.clients.imap/imapquerybuilder/uniqueid) { get; } | Уникальный идентификатор |
@@ -47,7 +47,7 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 | [CustomSearch](../../aspose.email.clients.imap/imapquerybuilder/customsearch)(string) | Поиск сообщений в соответствии с расширенным синтаксисом поиска сервера. |
 | [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | Получает запрос. |
 | [HasFlags](../../aspose.email.clients.imap/imapquerybuilder/hasflags)(ImapMessageFlags) | Поиск сообщений с указанными флагами. |
-| [HasHeader](../../aspose.email.clients.imap/imapquerybuilder/hasheader)(string, string) | Поиск сообщений, имеющих заголовок с указанным именем поля и содержащих указанную строку в тексте заголовка (то, что следует после двоеточия). Если строка для поиска имеет нулевую длину, это соответствует всем сообщениям, которые имеют строку заголовка с указанным именем поля, независимо от содержимого . |
+| [HasHeader](../../aspose.email.clients.imap/imapquerybuilder/hasheader)(string, string) | Поиск сообщений, имеющих заголовок с указанным именем поля и содержащих указанную строку в тексте заголовка (то, что следует после двоеточия). Если строка для поиска имеет нулевую длину, это соответствует всем сообщениям, которые имеют строку заголовка с указанным именем поля, независимо от содержимого. |
 | [HasNoFlags](../../aspose.email.clients.imap/imapquerybuilder/hasnoflags)(ImapMessageFlags) | Поиск сообщений с неопределенными флагами. |
 | [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | Поиск сообщений, соответствующих любому ключу поиска. Обеспечивает дизъюнкт между двумя выражениями (ИЛИ). |
 

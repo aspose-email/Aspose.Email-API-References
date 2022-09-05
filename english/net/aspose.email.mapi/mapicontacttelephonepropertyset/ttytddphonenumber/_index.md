@@ -1,7 +1,7 @@
 ---
 title: TtyTddPhoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the telephone number for the contacts text telephone TTY or telecommunication device for the deaf TDD
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber/

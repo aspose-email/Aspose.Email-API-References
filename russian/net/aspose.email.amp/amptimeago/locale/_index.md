@@ -1,14 +1,14 @@
 ---
 title: Locale
 second_title: Справочник по Aspose.Email для .NET API
-description: По умолчанию для локального значения задано значение en однако вы можете указать другие локали. См. полный список поддерживаемых локалей https//amp.dev/documentation/components/amp-timeago/formatemail
+description: По умолчанию локальным является en однако вы можете указать другие локали. См. полный список поддерживаемых локалей https//amp.dev/documentation/components/amp-timeago/formatemail
 type: docs
 weight: 40
 url: /ru/net/aspose.email.amp/amptimeago/locale/
 ---
 ## AmpTimeago.Locale property
 
-По умолчанию для локального значения задано значение en; однако вы можете указать другие локали. См. полный список поддерживаемых локалей https://amp.dev/documentation/components/amp-timeago/?format=email
+По умолчанию локальным является en; однако вы можете указать другие локали. См. полный список поддерживаемых локалей https://amp.dev/documentation/components/amp-timeago/?format=email
 
 ```csharp
 public string Locale { get; set; }

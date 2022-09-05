@@ -1,14 +1,14 @@
 ---
 title: EmsAbVoiceMailUserId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_VOICE_MAIL_USER_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_VOICE_MAIL_USER_ID
 type: docs
 weight: 9540
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabvoicemailuserid/
 ---
 ## KnownPropertyList.EmsAbVoiceMailUserId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_VOICE_MAIL_USER_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_VOICE_MAIL_USER_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbVoiceMailUserId;

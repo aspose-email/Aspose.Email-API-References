@@ -16,7 +16,7 @@ public MailQuery HasFlags(MapiMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| flags | MapiMessageFlags | 标志。 |
+| flags | MapiMessageFlags | 旗帜. |
 
 ### 返回值
 

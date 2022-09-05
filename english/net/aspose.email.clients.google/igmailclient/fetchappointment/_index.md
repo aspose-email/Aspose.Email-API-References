@@ -1,7 +1,7 @@
 ---
 title: FetchAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches appointment by identifier.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.google/igmailclient/fetchappointment/

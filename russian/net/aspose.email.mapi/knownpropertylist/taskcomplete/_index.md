@@ -1,14 +1,14 @@
 ---
 title: TaskComplete
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что задача выполнена. ОбластьЗадачи Каноническое имяPidLidTaskComplete Альтернативные именаdispidTaskComplete
+description: Указывает что задача завершена. Область Tasks Каноническое имя PidLidTaskComplete Альтернативные имена dispidTaskComplete
 type: docs
 weight: 18580
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskcomplete/
 ---
 ## KnownPropertyList.TaskComplete field
 
-Указывает, что задача выполнена. Область:Задачи Каноническое имя:PidLidTaskComplete Альтернативные имена:dispidTaskComplete
+Указывает, что задача завершена. Область: Tasks Каноническое имя: PidLidTaskComplete Альтернативные имена: dispidTaskComplete
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskComplete;

@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Insert the specified ImapMessagInfo object at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/insert/

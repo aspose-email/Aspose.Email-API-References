@@ -1,14 +1,14 @@
 ---
 title: ImpersonateUser
 second_title: Справочник по Aspose.Email для .NET API
-description: Олицетворяет пользователя.
+description: Выдает себя за пользователя.
 type: docs
 weight: 1060
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/impersonateuser/
 ---
 ## IEWSClient.ImpersonateUser method
 
-Олицетворяет пользователя.
+Выдает себя за пользователя.
 
 ```csharp
 public void ImpersonateUser(ItemChoice valueType, string value)
@@ -17,7 +17,7 @@ public void ImpersonateUser(ItemChoice valueType, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | valueType | ItemChoice | Значение перечисления ItemChoiceType, используемое для олицетворения. |
-| value | String | Имя элемента. |
+| value | String | Название элемента. |
 
 ### Смотрите также
 

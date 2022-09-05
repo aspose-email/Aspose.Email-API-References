@@ -1,7 +1,7 @@
 ---
 title: HighestModSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value of all messages in the mailbox. See more https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapfolderinfo/highestmodsequence/

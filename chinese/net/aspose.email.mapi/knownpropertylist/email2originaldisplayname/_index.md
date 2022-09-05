@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/email2originaldisplayname/
 ---
 ## KnownPropertyList.Email2OriginalDisplayName field
 
-指定与联系人对象的电子邮件地址对应的 SMTP 电子邮件地址。 区域:联系人属性 规范名称:PidLidEmail2OriginalDisplayName 备用名称:dispidEmail2OriginalDisplayName
+指定与联系人对象的电子邮件地址对应的 SMTP 电子邮件地址。 区域：联系人属性 规范名称：PidLidEmail2OriginalDisplayName 备用名称：dispidEmail2OriginalDisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2OriginalDisplayName;

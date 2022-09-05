@@ -1,14 +1,14 @@
 ---
 title: Links
 second_title: Справочник по Aspose.Email для .NET API
-description: Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает записную книжку в собственном клиенте OneNote если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете.
+description: Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает блокнот в собственном клиенте OneNote если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.graph/notebook/links/
 ---
 ## Notebook.Links property
 
-Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает записную книжку в собственном клиенте OneNote, если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете.
+Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает блокнот в собственном клиенте OneNote, если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете.
 
 ```csharp
 public NotebookLinks Links { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DisplayBcc
 second_title: Aspose.Email for .NET API 参考
-description: 包含密件抄送 Bcc 收件人显示名称的列表 区域消息属性 规范名称PidTagDisplayBcc 替代名称PR_DISPLAY_BCC PR_DISPLAY_BCC_A ptagDisplayBcc PR_DISPLAY_BCC_W
+description: 包含密件抄送 Bcc 收件人显示名称的列表 区域消息属性 规范名称PidTagDisplayBcc 备用名称PR_DISPLAY_BCCPR_DISPLAY_BCC_AptagDisplayBccPR_DISPLAY_BCC_W
 type: docs
 weight: 4120
 url: /zh/net/aspose.email.mapi/knownpropertylist/displaybcc/
 ---
 ## KnownPropertyList.DisplayBcc field
 
-包含密件抄送 (Bcc) 收件人显示名称的列表。 区域:消息属性 规范名称:PidTagDisplayBcc 替代名称:PR_DISPLAY_BCC, PR_DISPLAY_BCC_A, ptagDisplayBcc, PR_DISPLAY_BCC_W,
+包含密件抄送 (Bcc) 收件人显示名称的列表。 区域：消息属性 规范名称：PidTagDisplayBcc 备用名称：PR_DISPLAY_BCC、PR_DISPLAY_BCC_A、ptagDisplayBcc、PR_DISPLAY_BCC_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayBcc;

@@ -1,7 +1,7 @@
 ---
 title: Pdf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies application/pdf media type
 type: docs
 weight: 20
 url: /net/aspose.email.mime/mediatypenames.application/pdf/

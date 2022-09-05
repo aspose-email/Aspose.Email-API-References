@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets string representation of entry ID.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.graph/folderinfo/itemid/

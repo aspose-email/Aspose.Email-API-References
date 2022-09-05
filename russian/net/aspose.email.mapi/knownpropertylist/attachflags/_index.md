@@ -1,14 +1,14 @@
 ---
 title: AttachFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какие форматы тела могут ссылаться на это вложение при отображении данных. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachFlags Альтернативные именаPR_ATTACH_FLAGS
+description: Указывает какие форматы тела могут ссылаться на это вложение при отображении данных. Область Свойства вложения сообщения Каноническое имя PidTagAttachFlags Альтернативные имена PR_ATTACH_FLAGS
 type: docs
 weight: 1600
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachflags/
 ---
 ## KnownPropertyList.AttachFlags field
 
-Указывает, какие форматы тела могут ссылаться на это вложение при отображении данных. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachFlags Альтернативные имена:PR_ATTACH_FLAGS
+Указывает, какие форматы тела могут ссылаться на это вложение при отображении данных. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachFlags Альтернативные имена: PR_ATTACH_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachFlags;

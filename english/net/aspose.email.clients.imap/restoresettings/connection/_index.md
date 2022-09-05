@@ -1,7 +1,7 @@
 ---
 title: Connection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Connection to a server.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/restoresettings/connection/

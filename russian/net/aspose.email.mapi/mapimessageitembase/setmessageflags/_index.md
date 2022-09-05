@@ -16,7 +16,7 @@ public void SetMessageFlags(MapiMessageFlags flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| flags | MapiMessageFlags | Флаги сообщения. |
+| flags | MapiMessageFlags | Сообщение помечается. |
 
 ### Смотрите также
 

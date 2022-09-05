@@ -1,7 +1,7 @@
 ---
 title: Inline
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that determines the disposition type.
 type: docs
 weight: 50
 url: /net/aspose.email.mime/contentdisposition/inline/

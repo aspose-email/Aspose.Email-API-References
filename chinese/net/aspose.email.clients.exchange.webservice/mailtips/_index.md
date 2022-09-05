@@ -22,15 +22,15 @@ public sealed class MailTips
 | [DeliveryRestricted](../../aspose.email.clients.exchange.webservice/mailtips/deliveryrestricted) { get; } | 获取一个值，该值指示传递限制是否会阻止发件人的邮件到达收件人。 |
 | [ExternalMemberCnt](../../aspose.email.clients.exchange.webservice/mailtips/externalmembercnt) { get; } | 获取组中外部成员的数量。 |
 | [InvalidRecipient](../../aspose.email.clients.exchange.webservice/mailtips/invalidrecipient) { get; } | 获取一个值，表示接收者是否无效。 |
-| [IsDeliveryRestrictedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified) { get; } | 获取一个值，该值指示是否指定[`DeliveryRestricted`](./deliveryrestricted) |
-| [IsInvalidRecipientSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified) { get; } | 获取一个值，该值指示是否指定[`InvalidRecipient`](./invalidrecipient) |
-| [IsMailboxFullSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified) { get; } | 获取一个值，该值指示是否指定[`MailboxFull`](./mailboxfull) |
+| [IsDeliveryRestrictedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified) { get; } | 获取一个值，指示是否[`DeliveryRestricted`](./deliveryrestricted)被指定 |
+| [IsInvalidRecipientSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified) { get; } | 获取一个值，指示是否[`InvalidRecipient`](./invalidrecipient)被指定 |
+| [IsMailboxFullSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified) { get; } | 获取一个值，该值指示是否[`MailboxFull`](./mailboxfull)被指定 |
 | [IsModerated](../../aspose.email.clients.exchange.webservice/mailtips/ismoderated) { get; } | 获取一个值，该值指示收件人的邮箱是否正在被审核。 |
-| [IsModeratedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified) { get; } | 获取一个值，指示是否指定[`IsModerated`](./ismoderated) |
+| [IsModeratedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified) { get; } | 获取一个值，该值指示是否[`IsModerated`](./ismoderated)被指定 |
 | [MailboxFull](../../aspose.email.clients.exchange.webservice/mailtips/mailboxfull) { get; } | 获取一个值，该值指示收件人的邮箱是否已满。 |
 | [MaxMsgSize](../../aspose.email.clients.exchange.webservice/mailtips/maxmsgsize) { get; } | 获取收件人可以接受的最大邮件大小 |
-| [OutOfOffice](../../aspose.email.clients.exchange.webservice/mailtips/outofoffice) { get; } | 获取 OOF 的响应消息和发送该消息的持续时间。 |
-| [PendingMailTips](../../aspose.email.clients.exchange.webservice/mailtips/pendingmailtips) { get; } | 获取一个值，该值指示在服务器处理超时到期之前是否无法评估此元素中的邮件提示。 |
+| [OutOfOffice](../../aspose.email.clients.exchange.webservice/mailtips/outofoffice) { get; } | 获取 OOF 的响应消息和发送此消息的持续时间。 |
+| [PendingMailTips](../../aspose.email.clients.exchange.webservice/mailtips/pendingmailtips) { get; } | 获取一个值，该值指示在服务器的处理超时到期之前是否无法评估此元素中的邮件提示。 |
 | [RecipientAddress](../../aspose.email.clients.exchange.webservice/mailtips/recipientaddress) { get; } | 获取收件人的邮箱。 |
 | [TotalMemberCnt](../../aspose.email.clients.exchange.webservice/mailtips/totalmembercnt) { get; } | 获取组中的成员总数。 |
 

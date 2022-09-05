@@ -1,14 +1,14 @@
 ---
 title: CalendarLastModified
 second_title: Aspose.Email for .NET API 参考
-description: 指定上次修改约会的日期和时间UTC 格式 区域通用 规范名称PidNameCalendarLastModified 备用名称urnschemascalendarlastmodified
+description: 以 UTC 格式指定上次修改约会的日期和时间 区域Common 规范名称PidNameCalendarLastModified 备用名称urnschemascalendarlastmodified
 type: docs
 weight: 2310
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarlastmodified/
 ---
 ## KnownPropertyList.CalendarLastModified field
 
-指定上次修改约会的日期和时间（UTC 格式）。 区域:通用 规范名称:PidNameCalendarLastModified 备用名称:urn:schemas:calendar:lastmodified
+以 UTC 格式指定上次修改约会的日期和时间。 区域：Common 规范名称：PidNameCalendarLastModified 备用名称：urn:schemas:calendar:lastmodified
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarLastModified;

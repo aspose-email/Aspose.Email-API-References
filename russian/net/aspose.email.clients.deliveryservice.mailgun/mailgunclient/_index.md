@@ -18,15 +18,15 @@ public class MailgunClient : IDeliveryServiceClient
 
 | Имя | Описание |
 | --- | --- |
-| [MailgunClient](mailgunclient)(string, string, MailgunRegion) | Инициализирует новый экземпляр класса[`MailgunClient`](../mailgunclient) |
+| [MailgunClient](mailgunclient)(string, string, MailgunRegion) | Инициализирует новый экземпляр[`MailgunClient`](../mailgunclient) класс |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Send](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Синхронно отправляет электронную почту |
-| [SendAsync](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Асинхронно отправляет электронную почту |
+| virtual [Dispose](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Send](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Отправляет электронную почту синхронно |
+| [SendAsync](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Отправляет электронную почту асинхронно |
 
 ### Смотрите также
 

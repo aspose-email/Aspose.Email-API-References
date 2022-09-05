@@ -1,7 +1,7 @@
 ---
 title: KnownFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the known Exchange server folders.
 type: docs
 weight: 3980
 url: /net/aspose.email.clients.exchange.webservice/knownfolders/

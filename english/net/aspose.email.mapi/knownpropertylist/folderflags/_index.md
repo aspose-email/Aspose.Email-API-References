@@ -1,7 +1,7 @@
 ---
 title: FolderFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a computed value to specify the type or state of a folder. Area ExchangeAdministrative Canonical name PidTagFolderFlags Alternate names PR_FOLDER_FLAGS
 type: docs
 weight: 10420
 url: /net/aspose.email.mapi/knownpropertylist/folderflags/

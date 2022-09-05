@@ -1,14 +1,14 @@
 ---
 title: Nickname
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает псевдоним человека.
+description: Получает или задает псевдоним человека.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.personalinfo/contact/nickname/
 ---
 ## Contact.Nickname property
 
-Получает или устанавливает псевдоним человека.
+Получает или задает псевдоним человека.
 
 ```csharp
 public string Nickname { get; set; }

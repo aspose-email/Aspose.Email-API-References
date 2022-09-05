@@ -1,7 +1,7 @@
 ---
 title: ESearchParameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets ESEARCH Parameters This method works only if server supports ESEARCH extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/imapquerybuilder/esearchparameters/

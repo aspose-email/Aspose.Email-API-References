@@ -1,7 +1,7 @@
 ---
 title: ExchangeDelegateUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a user who is granted access to the principal mailbox
 type: docs
 weight: 3790
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateuser/
@@ -18,8 +18,8 @@ public sealed class ExchangeDelegateUser
 
 | Name | Description |
 | --- | --- |
-| [ExchangeDelegateUser](exchangedelegateuser)() | Initializes a new instance of the [`ExchangeDelegateUser`](../exchangedelegateuser) class |
-| [ExchangeDelegateUser](exchangedelegateuser)(string, ExchangeDelegateFolderPermissionLevel) | Initializes a new instance of the [`ExchangeDelegateUser`](../exchangedelegateuser) class for the specified user and sets the specified permission level on all folders |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor)() | Initializes a new instance of the [`ExchangeDelegateUser`](../exchangedelegateuser) class |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor_1)(string, ExchangeDelegateFolderPermissionLevel) | Initializes a new instance of the [`ExchangeDelegateUser`](../exchangedelegateuser) class for the specified user and sets the specified permission level on all folders |
 
 ## Properties
 

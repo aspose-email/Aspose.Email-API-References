@@ -1,14 +1,14 @@
 ---
 title: ProfileConfigFlags
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_CONFIG_FLAGS
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROFILE_CONFIG_FLAGS
 type: docs
 weight: 14700
 url: /zh/net/aspose.email.mapi/knownpropertylist/profileconfigflags/
 ---
 ## KnownPropertyList.ProfileConfigFlags field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_CONFIG_FLAGS
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROFILE_CONFIG_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileConfigFlags;

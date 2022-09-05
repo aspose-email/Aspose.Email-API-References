@@ -28,7 +28,7 @@ public abstract class RecurrencePattern
 | 姓名 | 描述 |
 | --- | --- |
 | override [ToString](../../aspose.email.calendar.recurrences/recurrencepattern/tostring)() | 返回代表当前对象的字符串。 |
-| [explicit operator](../../aspose.email.calendar.recurrences/recurrencepattern/op_explicit) | 将 ICalendar 格式的重复模式的字符串表示转换为对象 |
+| [explicit operator](../../aspose.email.calendar.recurrences/recurrencepattern/op_explicit) | 将 ICalendar 格式的重复模式的字符串表示形式转换为 object |
 
 ### 也可以看看
 

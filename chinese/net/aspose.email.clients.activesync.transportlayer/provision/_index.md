@@ -18,40 +18,40 @@ public enum Provision
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Provision | `5` | 设备的能力和权限。 |
+| Provision | `5` | 设备的功能和权限。 |
 | Policies | `6` | 安全策略的集合。 |
 | Policy | `7` | 安全策略。 |
 | PolicyType | `8` | 指定提供策略设置的格式。 |
-| PolicyKey | `9` | 服务器用来标记客户端策略设置的状态。 |
+| PolicyKey | `9` | 由服务器用来标记客户端上策略设置的状态。 |
 | Data | `10` | 策略设置。 |
 | Status | `11` | 指示命令特定部分的成功或失败。 |
 | RemoteWipe | `12` | 指定来自服务器的远程擦除指令或客户端对远程擦除指令的确认。 |
 | EASProvisionDoc | `13` | 设备配置的安全设置集合。 |
 | DevicePasswordEnabled | `14` | 指示客户端设备是否需要密码。 |
 | AlphanumericDevicePasswordRequired | `15` | 指示客户端设备是否需要字母数字密码。 |
-| RequireStorageCardEncryption | `16` | 指示设备是否必须对存储卡上存储的内容进行加密。 |
-| PasswordRecoveryEnabled | `17` | 表示是否通过设置命令启用恢复密码发送到服务器。 |
+| RequireStorageCardEncryption | `16` | 指示设备是否必须加密存储在存储卡上的内容。 |
+| PasswordRecoveryEnabled | `17` | 表示是否启用使用设置命令将恢复密码发送到服务器。 |
 | AttachmentsEnabled | `19` | 指示是否启用电子邮件附件。 |
 | MinDevicePasswordLength | `20` | 用户可以输入的最小设备密码长度 |
-| MaxInactivityTimeDeviceLock | `21` | 设备锁定自身之前不活动的秒数。 |
+| MaxInactivityTimeDeviceLock | `21` | 设备锁定自身之前的不活动秒数。 |
 | MaxDevicePasswordFailedAttempts | `22` | 擦除设备之前允许的密码失败次数。 |
 | MaxAttachmentSize | `23` | 最大附件大小，由安全策略确定。 |
 | AllowSimpleDevicePassword | `24` | 设备是否允许使用简单密码。 |
 | DevicePasswordExpiration | `25` | 密码是否在指定天数后过期，由策略确定。 |
-| DevicePasswordHistory | `26` | 客户端设备为防止重复使用而存储的先前使用的密码的最小数量。 |
-| AllowStorageCard | `27` | 设备是否允许使用存储卡。 |
+| DevicePasswordHistory | `26` | 客户端设备存储以防止重复使用的先前使用密码的最小数量。 |
+| AllowStorageCard | `27` | 设备是否允许使用存储卡 |
 | AllowCamera | `28` | 设备是否允许使用内置摄像头。 |
 | RequireDeviceEncryption | `29` | 设备是否使用加密。 |
-| AllowUnsignedApplications | `30` | 设备是否允许未签名的应用程序执行。 |
-| AllowUnsignedInstallationPackages | `31` | 设备是否允许安装未签名的cabinet（.cab）文件。 |
+| AllowUnsignedApplications | `30` | 设备是否允许执行未签名的应用程序。 |
+| AllowUnsignedInstallationPackages | `31` | 设备是否允许安装未签名的cabinet (.cab) 文件。 |
 | MinDevicePasswordComplexCharacters | `32` | 密码中包含的最小复杂字符（数字和符号）数。 |
 | AllowWiFi | `33` | 设备是否允许使用 Wi-Fi 连接。 |
 | AllowTextMessaging | `34` | 设备是否允许短信服务（SMS）/短信。 |
 | AllowPOPIMAPEmail | `35` | 设备是否允许访问 POP/IMAP 电子邮件。 |
 | AllowBluetooth | `36` | 设备上是否允许蓝牙和免提配置文件。 |
 | AllowIrDA | `37` | 设备是否允许使用 IrDA（红外线）连接。 |
-| RequireManualSyncWhenRoaming | `38` | 设备漫游时是否需要手动同步。 |
-| AllowDesktopSync | `39` | 设备是否允许与 Desktop ActiveSync 同步。 |
+| RequireManualSyncWhenRoaming | `38` | 设备漫游时是否需要手动同步 |
+| AllowDesktopSync | `39` | 设备是否允许与桌面 ActiveSync 同步。 |
 | MaxCalendarAgeFilter | `40` | 可以同步的最大日历天数。 |
 | AllowHTMLEmail | `41` | 设备是否使用 HTML 格式的电子邮件。 |
 | MaxEmailAgeFilter | `42` | 同步的电子邮件年龄限制。 |
@@ -64,13 +64,13 @@ public enum Provision
 | AllowSMIMEEncryptionAlgorithmNegotiation | `49` | 设备是否可以协商用于签名的加密算法。 |
 | AllowSMIMESoftCerts | `50` | 设备是否使用软证书对传出消息进行签名。 |
 | AllowBrowser | `51` | 设备是否允许使用网络浏览器。 |
-| AllowConsumerEmail | `52` | 设备是否允许使用个人电子邮件。 |
+| AllowConsumerEmail | `52` | 设备是否允许使用个人邮箱。 |
 | AllowRemoteDesktop | `53` | 设备是否允许使用远程桌面。 |
 | AllowInternetSharing | `54` | 设备是否允许使用 Internet 共享。 |
 | UnapprovedInROMApplicationList | `55` | 未获准执行的 in-ROM 应用程序列表。 |
-| ApplicationName | `56` | 未被批准执行的 in-ROM 应用程序（.exe 文件）的名称。 |
+| ApplicationName | `56` | 未获准执行的 in-ROM 应用程序（.exe 文件）的名称。 |
 | ApprovedApplicationList | `57` | 获准执行的内存应用程序列表。 |
-| Hash | `58` | 获准执行的内存应用程序的 SHA-1 哈希。 |
+| Hash | `58` | 获准执行的内存应用程序的 SHA-1 哈希值。 |
 
 ### 也可以看看
 

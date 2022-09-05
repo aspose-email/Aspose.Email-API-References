@@ -1,14 +1,14 @@
 ---
 title: MapiTaskMode
 second_title: Aspose.Email for .NET API 参考
-description: 表示任务对象的赋值 状态
+description: 表示任务对象的分配 状态
 type: docs
-weight: 18680
+weight: 18710
 url: /zh/net/aspose.email.mapi/mapitaskmode/
 ---
 ## MapiTaskMode enumeration
 
-表示任务对象的赋值 状态。
+表示任务对象的分配 状态。
 
 ```csharp
 public enum MapiTaskMode
@@ -19,11 +19,11 @@ public enum MapiTaskMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotAssigned | `0` | 未分配任务对象。 |
-| RequestEmbedded | `1` | Task 对象被嵌入 任务请求中。 |
+| RequestEmbedded | `1` | 任务对象嵌入 在任务请求中。 |
 | Accepted | `2` | 任务对象已被任务受让人接受 。 |
 | Rejected | `3` | 任务对象被任务分配者拒绝 。 |
-| UpdateEmbedded | `4` | 任务对象嵌入 任务更新中。 |
-| Assigned | `5` | 任务对象被分配 给任务分配者（自我委托）。 |
+| UpdateEmbedded | `4` | 任务对象嵌入 在任务更新中。 |
+| Assigned | `5` | 任务对象已分配 给任务分配者（自我委托）。 |
 
 ### 也可以看看
 

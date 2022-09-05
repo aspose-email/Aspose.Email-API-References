@@ -3,7 +3,7 @@ title: IFormatter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет интерфейс для форматирования сообщений журнала.
 type: docs
-weight: 20460
+weight: 20510
 url: /ru/net/aspose.email.tools.logging/iformatter/
 ---
 ## IFormatter interface

@@ -1,14 +1,14 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 列出指定文件夹中的消息
+description: 列出指定文件夹中的邮件
 type: docs
 weight: 450
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync/
 ---
 ## ListMessagesAsync(string, string, int, MailQuery, bool, IEnumerable&lt;PropertyDescriptor&gt;, CancellationToken) {#listmessagesasync_1}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, string mailbox = null, 
@@ -19,17 +19,17 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
+| folder | String | 用于搜索邮件的文件夹。 |
 | mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示消息搜索条件。 |
-| recursive | Boolean | 表示是否递归列出。 |
+| recursive | Boolean | 指示是否递归列表。 |
 | extendedProperties | IEnumerable`1 | 检索到的消息的扩展属性 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 
 ## ListMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#listmessagesasync}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public Task<ExchangeMessageInfoCollection> ListMessagesAsync(IEnumerable<string> ids, 
@@ -53,8 +53,8 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(IEnumerable<string>
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ids | IEnumerable`1 | 消息 ID 枚举 |
-| cancellationToken | CancellationToken | 取消令牌. |
+| ids | IEnumerable`1 | 消息 ID 的枚举 |
+| cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 

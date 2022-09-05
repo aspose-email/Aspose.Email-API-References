@@ -1,7 +1,7 @@
 ---
 title: FreeBusyPublishEnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the end time in UTC of the publishing range. Area Free/Busy Properties Canonical name PidTagFreeBusyPublishEnd Alternate names PR_FREEBUSY_PUBLISH_END
 type: docs
 weight: 10680
 url: /net/aspose.email.mapi/knownpropertylist/freebusypublishend/

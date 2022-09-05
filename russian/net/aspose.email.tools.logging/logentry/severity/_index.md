@@ -1,14 +1,14 @@
 ---
 title: Severity
 second_title: Справочник по Aspose.Email для .NET API
-description: Серьезность записи журнала в виде перечисленияSeverityaspose.email.tools.logging/logentry/severity. Не указано Информация Предупреждение или Ошибка.
+description: Серьезность записи журнала какSeverityaspose.email.tools.logging/logentry/severity перечисление. Не указано Информация Предупреждение или Ошибка.
 type: docs
 weight: 130
 url: /ru/net/aspose.email.tools.logging/logentry/severity/
 ---
 ## LogEntry.Severity property
 
-Серьезность записи журнала в виде перечисления`Severity`. (Не указано, Информация, Предупреждение или Ошибка).
+Серьезность записи журнала как`Severity` перечисление. (Не указано, Информация, Предупреждение или Ошибка).
 
 ```csharp
 public LogLevel Severity { get; set; }

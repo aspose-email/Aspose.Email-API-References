@@ -1,14 +1,14 @@
 ---
 title: DelegatedByRule
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息是否由于代理转发规则的触发而被转发 区域MapiStatus 规范名称PidTagDelegatedByRule 备用名称PR_DELEGATED_BY_RULE
+description: 指定消息是否由于代理转发规则的触发而被转发 区域MapiStatus 规范名称PidTagDelegatedByRule 替代名称PR_DELEGATED_BY_RULE
 type: docs
 weight: 3820
 url: /zh/net/aspose.email.mapi/knownpropertylist/delegatedbyrule/
 ---
 ## KnownPropertyList.DelegatedByRule field
 
-指定消息是否由于代理转发规则的触发而被转发。 区域:MapiStatus 规范名称:PidTagDelegatedByRule 备用名称:PR_DELEGATED_BY_RULE
+指定消息是否由于代理转发规则的触发而被转发。 区域：MapiStatus 规范名称：PidTagDelegatedByRule 替代名称：PR_DELEGATED_BY_RULE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DelegatedByRule;

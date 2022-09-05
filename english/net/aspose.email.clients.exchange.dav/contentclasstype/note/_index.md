@@ -1,7 +1,7 @@
 ---
 title: Note
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value that represents the content class urncontentclassesnote.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/note/

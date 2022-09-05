@@ -22,11 +22,11 @@ public class AttachmentData
 
 | Имя | Описание |
 | --- | --- |
-| [FileName](../../aspose.email.clients.activity/attachmentdata/filename) { get; set; } | Имя файла вложения. Обязательно:Да |
-| [FileType](../../aspose.email.clients.activity/attachmentdata/filetype) { get; set; } | Тип файла вложения. Обязательно:Да |
-| [FileVerdict](../../aspose.email.clients.activity/attachmentdata/fileverdict) { get; set; } | Вердикт файловой вредоносной программе. Обязательно:Да |
-| [MalwareFamily](../../aspose.email.clients.activity/attachmentdata/malwarefamily) { get; set; } | Файл семейства вредоносных программ. Обязательно:Нет |
-| [SHA256](../../aspose.email.clients.activity/attachmentdata/sha256) { get; set; } | Хэш файла SHA256. Обязательно:Да |
+| [FileName](../../aspose.email.clients.activity/attachmentdata/filename) { get; set; } | Имя файла вложения. Обязательно: Да |
+| [FileType](../../aspose.email.clients.activity/attachmentdata/filetype) { get; set; } | Тип файла вложения. Обязательно: Да |
+| [FileVerdict](../../aspose.email.clients.activity/attachmentdata/fileverdict) { get; set; } | Вердикт о вредоносном ПО для файла. Обязательно: Да |
+| [MalwareFamily](../../aspose.email.clients.activity/attachmentdata/malwarefamily) { get; set; } | Файл семейства вредоносных программ. Обязательно: No |
+| [SHA256](../../aspose.email.clients.activity/attachmentdata/sha256) { get; set; } | Хэш файла SHA256. Обязательно: Yes |
 
 ### Смотрите также
 

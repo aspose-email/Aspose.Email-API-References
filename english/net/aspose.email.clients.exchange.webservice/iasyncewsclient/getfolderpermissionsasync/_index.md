@@ -1,7 +1,7 @@
 ---
 title: GetFolderPermissionsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder permissions.
 type: docs
 weight: 350
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderpermissionsasync/

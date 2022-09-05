@@ -1,7 +1,7 @@
 ---
 title: JunkeMailsUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the junke mails uri.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/junkemailsuri/

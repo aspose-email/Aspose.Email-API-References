@@ -1,7 +1,7 @@
 ---
 title: Kind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: gets named property kind
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapinamedproperty/kind/

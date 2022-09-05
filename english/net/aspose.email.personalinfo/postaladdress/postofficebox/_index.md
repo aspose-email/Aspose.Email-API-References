@@ -1,7 +1,7 @@
 ---
 title: PostOfficeBox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a post Office box
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/postaladdress/postofficebox/

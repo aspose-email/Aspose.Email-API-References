@@ -17,8 +17,8 @@ public string CreateDistributionList(ExchangeDistributionList distributionList,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)содержащий информацию о списке рассылки создавать. |
-| members | MailAddressCollection | A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)содержащий почтовые адреса списка рассылки для создания. |
+| distributionList | ExchangeDistributionList | А[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) содержащий информацию о списке рассылки для создания. |
+| members | MailAddressCollection | А[`MailAddressCollection`](../../../aspose.email/mailaddresscollection) содержащий почтовые адреса списка рассылки для создания. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: Jpeg
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет тип мультимедиа image/jpeg
+description: Определяет тип носителя изображения/jpeg
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mime/mediatypenames.image/jpeg/
 ---
 ## MediaTypeNames.Image.Jpeg field
 
-Определяет тип мультимедиа image/jpeg
+Определяет тип носителя изображения/jpeg
 
 ```csharp
 public const string Jpeg;

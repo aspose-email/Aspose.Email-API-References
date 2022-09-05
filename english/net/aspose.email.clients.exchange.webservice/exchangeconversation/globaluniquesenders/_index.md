@@ -1,7 +1,7 @@
 ---
 title: GlobalUniqueSenders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of all the senders of conversation items in the mailbox.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquesenders/

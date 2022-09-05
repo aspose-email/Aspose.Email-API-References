@@ -1,14 +1,14 @@
 ---
 title: NewsgroupRootFolderEntryid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
 type: docs
 weight: 12870
 url: /zh/net/aspose.email.mapi/knownpropertylist/newsgrouprootfolderentryid/
 ---
 ## KnownPropertyList.NewsgroupRootFolderEntryid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NewsgroupRootFolderEntryid;

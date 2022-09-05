@@ -1,7 +1,7 @@
 ---
 title: ItemClasses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of item classes that represents all the item classes of the conversation items in the current folder
 type: docs
 weight: 200
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/itemclasses/

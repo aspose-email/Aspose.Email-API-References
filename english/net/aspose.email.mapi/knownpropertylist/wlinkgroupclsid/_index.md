@@ -1,7 +1,7 @@
 ---
 title: WlinkGroupClsid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the value of the PidTagWlinkGroupHeaderID property section 2.1060 of the group header associated with the shortcut. Area Configuration Canonical name PidTagWlinkGroupClsid Alternate names PR_WLINK_GROUP_CLSID
 type: docs
 weight: 19440
 url: /net/aspose.email.mapi/knownpropertylist/wlinkgroupclsid/

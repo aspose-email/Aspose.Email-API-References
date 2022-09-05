@@ -1,14 +1,14 @@
 ---
 title: XSharingProviderName
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 PidLidSharingProviderName 属性相同的值第 2.267 节 区域共享 规范名称PidNameXSharingProviderName 备用名称
+description: 包含与 PidLidSharingProviderName 属性相同的值第 2.267 节 区域Sharing 规范名称PidNameXSharingProviderName 替代名称
 type: docs
 weight: 19790
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharingprovidername/
 ---
 ## KnownPropertyList.XSharingProviderName field
 
-包含与 PidLidSharingProviderName 属性相同的值（第 2.267 节）。 区域:共享 规范名称:PidNameXSharingProviderName 备用名称:
+包含与 PidLidSharingProviderName 属性相同的值（第 2.267 节）。 区域：Sharing 规范名称：PidNameXSharingProviderName 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingProviderName;

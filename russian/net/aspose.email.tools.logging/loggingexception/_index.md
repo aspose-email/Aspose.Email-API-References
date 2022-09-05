@@ -3,7 +3,7 @@ title: LoggingException
 second_title: Справочник по Aspose.Email для .NET API
 description: Исключение возникающее при обнаружении ошибки в журнале.
 type: docs
-weight: 20510
+weight: 20560
 url: /ru/net/aspose.email.tools.logging/loggingexception/
 ---
 ## LoggingException class

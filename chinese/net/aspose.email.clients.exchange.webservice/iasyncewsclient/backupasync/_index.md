@@ -26,8 +26,8 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, string fileName,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | A*fileName*is` null` 或` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 一个*fileName*是`无效的`或者`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是`无效的`. |
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, Stream stream, Bac
 | 例外 | （健康）状况 |
 | --- | --- |
 | NotSupportedException | 给定的流不支持写入。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*或*stream*是` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*或者*stream*是`无效的`. |
 
 ### 也可以看看
 

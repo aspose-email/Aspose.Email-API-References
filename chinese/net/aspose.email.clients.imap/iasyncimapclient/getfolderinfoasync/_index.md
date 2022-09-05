@@ -17,9 +17,9 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, IConnection co
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | String | Connection到服务器 |
-| folderName | IConnection | 文件夹以检索有关 |
-| token | CancellationToken | 的信息取消。 |
+| connection | String | 连接到服务器 |
+| folderName | IConnection | 用于检索有关信息的文件夹 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

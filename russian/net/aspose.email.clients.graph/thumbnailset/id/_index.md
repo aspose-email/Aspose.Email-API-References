@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор внутри элемента. Только для чтения.
+description: Идентификатор в элементе. Только для чтения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.graph/thumbnailset/id/
 ---
 ## ThumbnailSet.Id property
 
-Идентификатор внутри элемента. Только для чтения.
+Идентификатор в элементе. Только для чтения.
 
 ```csharp
 public string Id { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: MboxToPst
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts an mboxrd message store to PST.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.storage/mailstorageconverter/mboxtopst/
 ---
-## MailStorageConverter.MboxToPst method (1 of 4)
+## MboxToPst(string, string) {#mboxtopst_2}
 
 Converts an mboxrd message store to PST.
 
@@ -42,7 +42,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MailStorageConverter.MboxToPst method (2 of 4)
+## MboxToPst(string, string, MailHandler) {#mboxtopst_3}
 
 Converts an mboxrd message store to PST.
 
@@ -81,7 +81,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MailStorageConverter.MboxToPst method (3 of 4)
+## MboxToPst(Stream, string) {#mboxtopst}
 
 Converts an mboxrd message store to PST.
 
@@ -114,7 +114,7 @@ Personal storage object that represents the converted storage.
 
 ---
 
-## MailStorageConverter.MboxToPst method (4 of 4)
+## MboxToPst(Stream, string, MailHandler) {#mboxtopst_1}
 
 Converts an mboxrd message store to PST.
 

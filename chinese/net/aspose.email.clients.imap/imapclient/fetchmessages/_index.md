@@ -16,11 +16,11 @@ public IList<MailMessage> FetchMessages(IEnumerable<int> sequenceNumbers)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)对象列表
+清单[`MailMessage`](../../../aspose.email/mailmessage)对象
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public IList<MailMessage> FetchMessages(IEnumerable<string> uids)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uids | IEnumerable`1 | 消息的序列号 |
+| uids | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)对象列表
+清单[`MailMessage`](../../../aspose.email/mailmessage)对象
 
 ### 也可以看看
 
@@ -67,11 +67,11 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<int>
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-Email的列表。MailMessage对象
+清单[`MailMessage`](../../../aspose.email/mailmessage)对象
 
 ### 也可以看看
 
@@ -94,11 +94,11 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<stri
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uids | IEnumerable`1 | 消息的序列号 |
+| uids | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-Email的列表。MailMessage对象
+清单[`MailMessage`](../../../aspose.email/mailmessage)对象
 
 ### 也可以看看
 

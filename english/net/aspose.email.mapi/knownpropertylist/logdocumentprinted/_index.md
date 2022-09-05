@@ -1,7 +1,7 @@
 ---
 title: LogDocumentPrinted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the document was printed during journaling. Area Journal Canonical name PidLidLogDocumentPrinted Alternate names dispidLogDocPrinted
 type: docs
 weight: 12220
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentprinted/

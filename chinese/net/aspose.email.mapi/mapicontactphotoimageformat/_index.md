@@ -3,7 +3,7 @@ title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 MapiContact 照片图像格式
 type: docs
-weight: 18260
+weight: 18290
 url: /zh/net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 ## MapiContactPhotoImageFormat enumeration
@@ -18,12 +18,12 @@ public enum MapiContactPhotoImageFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 未定义格式。 |
+| Undefined | `-1` | 未定义的格式。 |
 | Jpeg | `0` | Jpeg 格式 |
 | Gif | `1` | 图形交换格式。 |
 | Wmf | `2` | MS Windows 元文件。 |
 | Bmp | `3` | MS windows 位图。 |
-| Tiff | `4` | 标记图像文件格式。 |
+| Tiff | `4` | 标记的图像文件格式。 |
 
 ### 也可以看看
 

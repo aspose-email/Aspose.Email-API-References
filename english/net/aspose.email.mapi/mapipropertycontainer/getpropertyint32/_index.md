@@ -1,7 +1,7 @@
 ---
 title: GetPropertyInt32
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the int32 value of the property specified by tag.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertyint32/

@@ -16,7 +16,7 @@ public void AddHeader(string name, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя заголовка |
+| name | String | Название заголовка |
 | value | String | Значение заголовка |
 
 ### Смотрите также

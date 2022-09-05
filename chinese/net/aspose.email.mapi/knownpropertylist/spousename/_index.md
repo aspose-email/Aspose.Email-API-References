@@ -1,14 +1,14 @@
 ---
 title: SpouseName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的配偶/伴侣的姓名 区域MapiMailUser 规范名称PidTagSpouseName 别名PR_SPOUSE_NAME PR_SPOUSE_NAME_A PR_SPOUSE_NAME_W
+description: 包含邮件用户的配偶/伴侣的名称 区域MapiMailUser 规范名称PidTagSpouseName 别名PR_SPOUSE_NAMEPR_SPOUSE_NAME_APR_SPOUSE_NAME_W
 type: docs
 weight: 18140
 url: /zh/net/aspose.email.mapi/knownpropertylist/spousename/
 ---
 ## KnownPropertyList.SpouseName field
 
-包含邮件用户的配偶/伴侣的姓名。 区域:MapiMailUser 规范名称:PidTagSpouseName 别名:PR_SPOUSE_NAME, PR_SPOUSE_NAME_A, PR_SPOUSE_NAME_W,
+包含邮件用户的配偶/伴侣的名称。 区域：MapiMailUser 规范名称：PidTagSpouseName 别名：PR_SPOUSE_NAME、PR_SPOUSE_NAME_A、PR_SPOUSE_NAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SpouseName;

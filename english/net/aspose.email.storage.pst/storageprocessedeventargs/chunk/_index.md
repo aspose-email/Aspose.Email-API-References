@@ -1,7 +1,7 @@
 ---
 title: Chunk
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the pst that represents the chunk.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/storageprocessedeventargs/chunk/

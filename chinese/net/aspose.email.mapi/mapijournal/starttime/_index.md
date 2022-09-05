@@ -22,7 +22,7 @@ public DateTime StartTime { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当开始时间小于结束时间时出现。 |
+| ArgumentException | 当开始时间小于结束时间时触发。 |
 
 ### 也可以看看
 

@@ -20,7 +20,7 @@ public sealed class MailMessageSaveType
 | --- | --- |
 | static [EmlFormat](../../aspose.email/mailmessagesavetype/emlformat) { get; } | Получает eml. |
 | static [EmlxFormat](../../aspose.email/mailmessagesavetype/emlxformat) { get; } | Получает emlx. |
-| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat) { get; } | Получает Html. |
+| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat) { get; } | Получает HTML. |
 | static [MHtmlFormat](../../aspose.email/mailmessagesavetype/mhtmlformat) { get; } | Получает MHT. |
 | static [OutlookMessageFormat](../../aspose.email/mailmessagesavetype/outlookmessageformat) { get; } | Получает MSG. |
 | static [OutlookMessageFormatUnicode](../../aspose.email/mailmessagesavetype/outlookmessageformatunicode) { get; } | Получает MSG. |
@@ -30,8 +30,8 @@ public sealed class MailMessageSaveType
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.email/mailmessagesavetype/equals)(object) | Равен указанному o. |
-| override [GetHashCode](../../aspose.email/mailmessagesavetype/gethashcode)() | Служит хэш-функцией для определенного типа. |
-| override [ToString](../../aspose.email/mailmessagesavetype/tostring)() | ВозвращаетString, который представляет текущийObject. |
+| override [GetHashCode](../../aspose.email/mailmessagesavetype/gethashcode)() | Служит хеш-функцией для определенного типа. |
+| override [ToString](../../aspose.email/mailmessagesavetype/tostring)() | ВозвращаетString который представляет текущийObject . |
 
 ### Смотрите также
 

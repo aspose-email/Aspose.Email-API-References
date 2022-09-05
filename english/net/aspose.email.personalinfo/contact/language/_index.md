@@ -1,7 +1,7 @@
 ---
 title: Language
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a language
 type: docs
 weight: 240
 url: /net/aspose.email.personalinfo/contact/language/

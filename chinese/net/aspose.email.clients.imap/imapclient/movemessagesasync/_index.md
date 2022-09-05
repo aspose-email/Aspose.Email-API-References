@@ -21,11 +21,11 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -47,14 +47,14 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -82,7 +82,7 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -103,13 +103,13 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -131,13 +131,13 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -160,11 +160,11 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName, b
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应该删除坚定的。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -186,12 +186,12 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -213,11 +213,11 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
-| folderName | String | 要将消息移动到的文件夹名称 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有委托操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -239,14 +239,14 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -270,12 +270,12 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -297,13 +297,13 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -326,11 +326,11 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -358,7 +358,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -381,11 +381,11 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -411,7 +411,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -437,7 +437,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -459,13 +459,13 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -488,13 +488,13 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定 是否应提交删除。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -517,12 +517,12 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -544,12 +544,12 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，委托为 这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -575,12 +575,12 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -602,15 +602,15 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -635,11 +635,11 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -661,14 +661,14 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称将被移动 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -690,14 +690,14 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -721,12 +721,12 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应该删除坚定的。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -748,13 +748,13 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -777,12 +777,12 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
-| folderName | String | 要将消息移动到的文件夹名称 |
-| token | CancellationToken | 传播操作应该的通知被取消。 |
+| folderName | String | 要移动消息的文件夹名称 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -804,15 +804,15 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -836,13 +836,13 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -864,14 +864,14 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | folderName | String | 要移动消息的文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -895,12 +895,12 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| folderName | String | 要移动消息的文件夹名称 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -929,7 +929,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -953,12 +953,12 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -982,11 +982,11 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1010,11 +1010,11 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1036,14 +1036,14 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1066,14 +1066,14 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定 是否应提交删除。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1096,13 +1096,13 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1125,13 +1125,13 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播 应取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

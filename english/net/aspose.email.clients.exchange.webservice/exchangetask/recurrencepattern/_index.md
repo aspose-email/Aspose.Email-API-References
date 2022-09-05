@@ -1,7 +1,7 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a recurrence information for a recurring task.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/recurrencepattern/

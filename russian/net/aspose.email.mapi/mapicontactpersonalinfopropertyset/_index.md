@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите другую дополнительную контактную информацию
+description: Указать другую дополнительную контактную информацию
 type: docs
-weight: 18240
+weight: 18270
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/
 ---
 ## MapiContactPersonalInfoPropertySet class
 
-Укажите другую дополнительную контактную информацию
+Указать другую дополнительную контактную информацию
 
 ```csharp
 public sealed class MapiContactPersonalInfoPropertySet
@@ -18,31 +18,31 @@ public sealed class MapiContactPersonalInfoPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset)class |
-| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset)class |
+| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) класс |
+| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Account](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/account) { get; set; } | Указывает имя учетной записи контакта |
-| [BusinessHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage) { get; set; } | Указывает URL-адрес корпоративной веб-страницы контакта |
+| [BusinessHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage) { get; set; } | Указывает URL-адрес бизнес-веб-страницы контакта |
 | [Children](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/children) { get; set; } | Содержит список имен детей. |
-| [ComputerNetworkName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname) { get; set; } | Указывает имя сети к которой подключен компьютер контакта |
-| [CustomerId](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid) { get; set; } | Указывает идентификатор контакта ID клиента |
+| [ComputerNetworkName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname) { get; set; } | Указывает имя сети , к которой подключен компьютер контакта |
+| [CustomerId](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid) { get; set; } | Указывает идентификатор клиента контакта |
 | [FreeBusyLocation](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/freebusylocation) { get; set; } | Указывает URL-адрес, по которому клиент может получить информацию о занятости для контакта в виде файла iCal |
-| [FtpSite](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite) { get; set; } | Указывает адрес контакта File Transfer Protocol (FTP) |
+| [FtpSite](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite) { get; set; } | Указывает адрес протокола передачи файлов (FTP) контакта |
 | [Gender](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/gender) { get; set; } | Указывает пол контакта |
-| [GovernmentIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber) { get; set; } | Определяет контактный правительственный идентификационный номер |
+| [GovernmentIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber) { get; set; } | Указывает государственный идентификационный номер контакта |
 | [Hobbies](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/hobbies) { get; set; } | Указывает увлечения контакта |
-| [Html](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/html) { get; set; } | Указывает URL-адрес деловой веб-страницы контакта |
+| [Html](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/html) { get; set; } | Указывает корпоративную веб-страницу контакта URL |
 | [InstantMessagingAddress](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/instantmessagingaddress) { get; set; } | Указывает адрес контакта для обмена мгновенными сообщениями |
-| [Language](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/language) { get; set; } | Указывает язык который использует контакт |
+| [Language](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/language) { get; set; } | Указывает язык , который использует контакт |
 | [Location](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/location) { get; set; } | Указывает расположение контакта |
 | [Notes](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/notes) { get; set; } | Указывает дополнительные примечания |
 | [OrganizationalIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber) { get; set; } | Указывает идентификационный номер организации для контакта |
-| [PersonalHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage) { get; set; } | Указывает URL личной веб-страницы контакта |
-| [ReferredByName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname) { get; set; } | Указывает имя человека, который направил этот контакт пользователю |
+| [PersonalHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage) { get; set; } | Указывает личную веб-страницу контакта URL |
+| [ReferredByName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname) { get; set; } | Указывает имя человека , который направил этот контакт пользователю |
 | [SpouseName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/spousename) { get; set; } | Указывает имя супруга/партнера контакта |
 
 ### Смотрите также

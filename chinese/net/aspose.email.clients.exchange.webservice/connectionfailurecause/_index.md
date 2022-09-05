@@ -18,9 +18,9 @@ public enum ConnectionFailureCause
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 故障原因不存在 |
-| UserBusy | `1` | 收件人忙 |
-| NoAnswer | `2` | 无应答 |
+| None | `0` | 不存在故障原因 |
+| UserBusy | `1` | 收件人很忙 |
+| NoAnswer | `2` | 没有答案 |
 | Unavailable | `3` | 收件人不可用。 |
 | Other | `4` | 其他原因 |
 

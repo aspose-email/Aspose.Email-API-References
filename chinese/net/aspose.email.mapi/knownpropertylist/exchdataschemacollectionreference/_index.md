@@ -1,14 +1,14 @@
 ---
 title: ExchDataSchemaCollectionReference
 second_title: Aspose.Email for .NET API 参考
-description: 指定名称数组指示文件夹中项目的预期内容类别 区域通用 规范名称PidNameExchDataSchemaCollectionReference 备用名称urnschemas-microsoft-comexch-dataschema-collection-ref
+description: 指定名称数组指示文件夹中项目的预期内容类别 区域Common 规范名称PidNameExchDataSchemaCollectionReference 备用名称urnschemas-microsoft-comexch-dataschema-collection-ref
 type: docs
 weight: 9920
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchdataschemacollectionreference/
 ---
 ## KnownPropertyList.ExchDataSchemaCollectionReference field
 
-指定名称数组，指示文件夹中项目的预期内容类别。 区域:通用 规范名称:PidNameExchDataSchemaCollectionReference 备用名称:urn:schemas-microsoft-com:exch-data:schema-collection-ref
+指定名称数组，指示文件夹中项目的预期内容类别。 区域：Common 规范名称：PidNameExchDataSchemaCollectionReference 备用名称：urn:schemas-microsoft-com:exch-data:schema-collection-ref
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchDataSchemaCollectionReference;

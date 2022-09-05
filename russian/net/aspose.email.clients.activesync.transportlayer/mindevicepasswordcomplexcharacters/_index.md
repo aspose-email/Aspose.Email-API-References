@@ -1,14 +1,14 @@
 ---
 title: MinDevicePasswordComplexCharacters
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает требуемый уровень сложности пароля клиента. Например Если значение MinDevicePasswordComplexCharacters равно 2 будет достаточно пароля состоящего как из букв верхнего так и из нижнего регистра как и пароль с буквами нижнего регистра и цифрами.
+description: Указывает требуемый уровень сложности пароля клиента. Например Если значение MinDevicePasswordComplexCharacters равно 2 будет достаточно пароля состоящего как из букв верхнего так и из нижнего регистра  как и пароля из букв нижнего регистра. и цифры.
 type: docs
 weight: 1550
 url: /ru/net/aspose.email.clients.activesync.transportlayer/mindevicepasswordcomplexcharacters/
 ---
 ## MinDevicePasswordComplexCharacters enumeration
 
-Задает требуемый уровень сложности пароля клиента. Например: Если значение MinDevicePasswordComplexCharacters равно 2, будет достаточно пароля, состоящего как из букв верхнего, так и из нижнего регистра, как и пароль с буквами нижнего регистра и цифрами.
+Указывает требуемый уровень сложности пароля клиента. Например: Если значение MinDevicePasswordComplexCharacters равно 2, будет достаточно пароля, состоящего как из букв верхнего, так и из нижнего регистра, , как и пароля из букв нижнего регистра. и цифры.
 
 ```csharp
 public enum MinDevicePasswordComplexCharacters
@@ -20,7 +20,7 @@ public enum MinDevicePasswordComplexCharacters
 | --- | --- | --- |
 | LowerCase | `1` | Строчные буквы алфавита |
 | LowerUpperCase | `2` | Строчные и прописные буквы алфавита |
-| LowerUpperCaseNumbers | `3` | Нижний регистр, Прописные буквы и цифры |
+| LowerUpperCaseNumbers | `3` | Нижний регистр, буквы верхнего регистра и цифры |
 | LowerUpperCaseNumbersNonAlphanumeric | `4` | Строчные и прописные буквы алфавита, цифры и небуквенно-цифровые символы |
 
 ### Смотрите также

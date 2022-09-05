@@ -1,7 +1,7 @@
 ---
 title: ExchangeUserBusyness
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the user free/busy statuses
 type: docs
 weight: 3880
 url: /net/aspose.email.clients.exchange.webservice/exchangeuserbusyness/

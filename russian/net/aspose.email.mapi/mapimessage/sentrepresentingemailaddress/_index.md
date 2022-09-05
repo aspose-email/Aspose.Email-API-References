@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает адрес электронной почты пользователя обмена сообщениями представленного отправителем.
+description: Получает или задает адрес электронной почты для пользователя обмена сообщениями представленного отправителем.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.mapi/mapimessage/sentrepresentingemailaddress/
 ---
 ## MapiMessage.SentRepresentingEmailAddress property
 
-Получает или задает адрес электронной почты пользователя обмена сообщениями, представленного отправителем.
+Получает или задает адрес электронной почты для пользователя обмена сообщениями, представленного отправителем.
 
 ```csharp
 public string SentRepresentingEmailAddress { get; set; }
@@ -22,11 +22,11 @@ public string SentRepresentingEmailAddress { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | выдает ошибку, если адрес электронной почты не находится в распознаваемом формате. |
+| ArgumentException | бросает, если адрес электронной почты не находится в распознанном формате. |
 
 ### Примечания
 
-При установке значения значения свойств PR_SENT_REPRESENTING_SEARCH_KEY и PR_SENT_REPRESENTING_ENTRYID также обновился. При установке нулевого значения или пустой строки значения свойства устанавливаются нулевыми.
+При установке значения также обновляются значения свойств PR_SENT_REPRESENTING_SEARCH_KEY и PR_SENT_REPRESENTING_ENTRYID. При установке нулевого значения или пустой строки значения свойства устанавливаются нулевыми.
 
 ### Смотрите также
 

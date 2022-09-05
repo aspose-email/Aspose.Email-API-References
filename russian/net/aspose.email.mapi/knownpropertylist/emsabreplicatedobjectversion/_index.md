@@ -1,14 +1,14 @@
 ---
 title: EmsAbReplicatedObjectVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REPLICATED_OBJECT_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REPLICATED_OBJECT_VERSION
 type: docs
 weight: 8440
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabreplicatedobjectversion/
 ---
 ## KnownPropertyList.EmsAbReplicatedObjectVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REPLICATED_OBJECT_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REPLICATED_OBJECT_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReplicatedObjectVersion;

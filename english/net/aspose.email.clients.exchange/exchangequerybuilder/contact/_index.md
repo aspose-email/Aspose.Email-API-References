@@ -1,7 +1,7 @@
 ---
 title: Contact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets object with contact properties to create query
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/contact/

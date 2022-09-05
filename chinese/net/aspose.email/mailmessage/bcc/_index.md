@@ -1,14 +1,14 @@
 ---
 title: Bcc
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置地址集合 包含消息的密件抄送收件人
+description: 获取或设置地址集合 其中包含message 的密件抄送收件人
 type: docs
 weight: 50
 url: /zh/net/aspose.email/mailmessage/bcc/
 ---
 ## MailMessage.Bcc property
 
-获取或设置地址集合 包含消息的密件抄送收件人
+获取或设置地址集合 ，其中包含message 的密件抄送收件人
 
 ```csharp
 public virtual MailAddressCollection Bcc { get; set; }

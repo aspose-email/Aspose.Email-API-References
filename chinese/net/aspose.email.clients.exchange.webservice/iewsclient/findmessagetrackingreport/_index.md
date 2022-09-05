@@ -21,13 +21,13 @@ public MessageTrackingReportInfo[] FindMessageTrackingReport(
 
 ### 返回值
 
-一个数组 [`MessageTrackingReportInfo`](../../messagetrackingreportinfo) 表示消息跟踪报告信息
+一个数组[`MessageTrackingReportInfo`](../../messagetrackingreportinfo)表示消息跟踪报告信息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时 *options* 是 `null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*options*是`无效的` |
 
 ### 也可以看看
 

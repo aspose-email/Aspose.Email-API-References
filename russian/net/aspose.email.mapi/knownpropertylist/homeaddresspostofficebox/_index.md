@@ -1,14 +1,14 @@
 ---
 title: HomeAddressPostOfficeBox
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер или идентификатор домашнего почтового ящика пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressPostOfficeBox Альтернативные именаPR_HOME_ADDRESS_POST_OFFICE_BOX PR_HOME_ADDRESS_POST_OFFICE_BOX_A PR_HOME_ADDRESS_POST_OFFICE_BOX_W
+description: Содержит номер или идентификатор домашнего почтового ящика почтового пользователя. Область MapiMailUser Каноническое имя PidTagHomeAddressPostOfficeBox Альтернативные имена PR_HOME_ADDRESS_POST_OFFICE_BOX PR_HOME_ADDRESS_POST_OFFICE_BOX_A PR_HOME_ADDRESS_POST_OFF PR_HOME_ADDRESS_POST_OFF
 type: docs
 weight: 11050
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddresspostofficebox/
 ---
 ## KnownPropertyList.HomeAddressPostOfficeBox field
 
-Содержит номер или идентификатор домашнего почтового ящика пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeAddressPostOfficeBox Альтернативные имена:PR_HOME_ADDRESS_POST_OFFICE_BOX, PR_HOME_ADDRESS_POST_OFFICE_BOX_A, PR_HOME_ADDRESS_POST_OFFICE_BOX_W,
+Содержит номер или идентификатор домашнего почтового ящика почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagHomeAddressPostOfficeBox Альтернативные имена: PR_HOME_ADDRESS_POST_OFFICE_BOX, PR_HOME_ADDRESS_POST_OFFICE_BOX_A, PR_HOME_ADDRESS_POST_OFF, PR_HOME_ADDRESS_POST_OFF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressPostOfficeBox;

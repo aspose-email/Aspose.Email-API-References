@@ -1,14 +1,14 @@
 ---
 title: MboxrdStorageWriter
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет собой средство записи в хранилище формата mboxrd этот формат используется Thunderbird и другими почтовыми клиентами.
+description: Представляет модуль записи хранилища формата mboxrd этот формат используется Thunderbird и другими почтовыми клиентами.
 type: docs
-weight: 20020
+weight: 20070
 url: /ru/net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class
 
-Представляет собой средство записи в хранилище формата mboxrd, этот формат используется Thunderbird и другими почтовыми клиентами.
+Представляет модуль записи хранилища формата mboxrd, этот формат используется Thunderbird и другими почтовыми клиентами.
 
 ```csharp
 public sealed class MboxrdStorageWriter : MboxStorageWriter
@@ -18,8 +18,8 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 
 | Имя | Описание |
 | --- | --- |
-| [MboxrdStorageWriter](mboxrdstoragewriter#constructor)(Stream, bool) | Инициализирует новый экземпляр класса[`MboxrdStorageWriter`](../mboxrdstoragewriter). |
-| [MboxrdStorageWriter](mboxrdstoragewriter#constructor_1)(string, bool) | Инициализирует новый экземпляр класса[`MboxrdStorageWriter`](../mboxrdstoragewriter). |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor)(Stream, bool) | Инициализирует новый экземпляр[`MboxrdStorageWriter`](../mboxrdstoragewriter) учебный класс. |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor_1)(string, bool) | Инициализирует новый экземпляр[`MboxrdStorageWriter`](../mboxrdstoragewriter) класс. |
 
 ## Характеристики
 
@@ -31,7 +31,7 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage#writemessage)(MailMessage) | Записывает сообщение в базовый поток хранения. |
 | override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage#writemessage_1)(MailMessage, out string) | Записывает сообщение в базовый поток хранения. |
 

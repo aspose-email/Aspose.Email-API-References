@@ -1,14 +1,14 @@
 ---
 title: PlayOnPhoneDialString
 second_title: Справочник по Aspose.Email для .NET API
-description: Воспроизвести строку набора номера телефона
+description: Воспроизвести на телефоне строку набора номера
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring/
 ---
 ## UnifiedMessagingConfiguration.PlayOnPhoneDialString property
 
-Воспроизвести строку набора номера телефона
+Воспроизвести на телефоне строку набора номера
 
 ```csharp
 public string PlayOnPhoneDialString { get; }

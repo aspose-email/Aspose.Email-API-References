@@ -1,7 +1,7 @@
 ---
 title: MoveFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Move a mailfolder and its contents to another mailfolder.
 type: docs
 weight: 340
 url: /net/aspose.email.clients.graph/igraphclient/movefolder/

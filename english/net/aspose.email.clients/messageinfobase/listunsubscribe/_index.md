@@ -1,7 +1,7 @@
 ---
 title: ListUnsubscribe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ListUnsubscribe field describes the command preferably using mail to directly unsubscribe the userremoving them from the list. For more details please see https//tools.ietf.org/html/rfc2369
 type: docs
 weight: 70
 url: /net/aspose.email.clients/messageinfobase/listunsubscribe/

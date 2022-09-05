@@ -1,7 +1,7 @@
 ---
 title: ConferenceProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Conferencing properties for this calendar.
 type: docs
 weight: 15670
 url: /net/aspose.email.clients.google/conferenceproperties/

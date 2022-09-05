@@ -1,14 +1,14 @@
 ---
 title: HeaderCanonicalization
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置标头规范化 c
+description: 获取或设置标头规范化 c.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/headercanonicalization/
 ---
 ## DKIMSignatureInfo.HeaderCanonicalization property
 
-获取或设置标头规范化 (c=)。
+获取或设置标头规范化 (c=).
 
 ```csharp
 public CanonicalizationType HeaderCanonicalization { get; set; }

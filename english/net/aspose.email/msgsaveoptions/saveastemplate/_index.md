@@ -1,7 +1,7 @@
 ---
 title: SaveAsTemplate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set to true if need to be saved as Outlook File TemplateOFT format.
 type: docs
 weight: 40
 url: /net/aspose.email/msgsaveoptions/saveastemplate/

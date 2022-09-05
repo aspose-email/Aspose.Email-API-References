@@ -1,9 +1,9 @@
 ---
 title: MapiContactCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collection of MapiContact./mapicontact
 type: docs
-weight: 18000
+weight: 18210
 url: /net/aspose.email.mapi/mapicontactcollection/
 ---
 ## MapiContactCollection class
@@ -18,8 +18,8 @@ public sealed class MapiContactCollection : List<MapiContact>
 
 | Name | Description |
 | --- | --- |
-| [MapiContactCollection](mapicontactcollection)() | Initializes a new instance of the [`MapiContactCollection`](../mapicontactcollection) class. |
-| [MapiContactCollection](mapicontactcollection)(IEnumerable&lt;MapiContact&gt;) | Initializes a new instance of the [`MapiContactCollection`](../mapicontactcollection) class. |
+| [MapiContactCollection](mapicontactcollection#constructor)() | Initializes a new instance of the [`MapiContactCollection`](../mapicontactcollection) class. |
+| [MapiContactCollection](mapicontactcollection#constructor_1)(IEnumerable&lt;MapiContact&gt;) | Initializes a new instance of the [`MapiContactCollection`](../mapicontactcollection) class. |
 
 ## Methods
 

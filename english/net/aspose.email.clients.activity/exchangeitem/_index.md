@@ -1,7 +1,7 @@
 ---
 title: ExchangeItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exchange item
 type: docs
 weight: 2500
 url: /net/aspose.email.clients.activity/exchangeitem/

@@ -1,7 +1,7 @@
 ---
 title: ManagerName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the contacts manager
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/managername/

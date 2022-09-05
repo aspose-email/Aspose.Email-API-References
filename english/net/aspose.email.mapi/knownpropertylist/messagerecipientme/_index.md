@@ -1,7 +1,7 @@
 ---
 title: MessageRecipientMe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the receiving mailbox owner is a primary or a carbon copy Cc recipient of this email message. Area General Message Properties Canonical name PidTagMessageRecipientMe Alternate names PR_MESSAGE_RECIP_ME ptagMessageRecipMe
 type: docs
 weight: 12570
 url: /net/aspose.email.mapi/knownpropertylist/messagerecipientme/

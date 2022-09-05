@@ -1,14 +1,14 @@
 ---
 title: UnsubscribeFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 发送了 UNSUBSCRIBE 命令从服务器的活动邮箱集中删除指定的邮箱名称
+description: 发送了从服务器的活动邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 type: docs
 weight: 420
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/unsubscribefolderasync/
 ---
 ## IAsyncImapClient.UnsubscribeFolderAsync method
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public Task UnsubscribeFolderAsync(string folderName, IConnection connection = null, 
@@ -23,7 +23,7 @@ public Task UnsubscribeFolderAsync(string folderName, IConnection connection = n
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

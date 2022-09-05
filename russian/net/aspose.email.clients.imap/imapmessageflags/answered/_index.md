@@ -1,14 +1,14 @@
 ---
 title: Answered
 second_title: Справочник по Aspose.Email для .NET API
-description: Ответ на сообщение получен.
+description: На сообщение был дан ответ.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapmessageflags/answered/
 ---
 ## ImapMessageFlags.Answered property
 
-Ответ на сообщение получен.
+На сообщение был дан ответ.
 
 ```csharp
 public static ImapMessageFlags Answered { get; }

@@ -1,14 +1,14 @@
 ---
 title: PreviousHopServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает предыдущее имя сервера если оно доступно которое отправило сообщение.
+description: Получает предыдущее имя сервера если оно доступно с которого было отправлено сообщение.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/previoushopserver/
 ---
 ## MessageTrackingReportInfo.PreviousHopServer property
 
-Получает предыдущее имя сервера, если оно доступно, которое отправило сообщение.
+Получает предыдущее имя сервера, если оно доступно, с которого было отправлено сообщение.
 
 ```csharp
 public string PreviousHopServer { get; }

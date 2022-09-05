@@ -1,7 +1,7 @@
 ---
 title: MailMessageSaveType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mail message save type.It can be in emlmsgASCII or Unicodemhtml or html format. The default value is Eml.
 type: docs
 weight: 30
 url: /net/aspose.email/saveoptions/mailmessagesavetype/

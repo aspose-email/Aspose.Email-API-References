@@ -1,7 +1,7 @@
 ---
 title: DayPosition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Day positions typically found in a month.
 type: docs
 weight: 720
 url: /net/aspose.email.calendar.recurrences/dayposition/

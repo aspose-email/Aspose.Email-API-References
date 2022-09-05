@@ -3,7 +3,7 @@ title: OleDocumentFormat
 second_title: Aspose.Email for .NET API 参考
 description: 表示 OLE 文档的格式
 type: docs
-weight: 18920
+weight: 18950
 url: /zh/net/aspose.email.mapi/oledocumentformat/
 ---
 ## OleDocumentFormat class
@@ -29,7 +29,7 @@ public sealed class OleDocumentFormat
 | static [MicrosoftOfficeWordDocument](../../aspose.email.mapi/oledocumentformat/microsoftofficeworddocument) { get; } | Microsoft office word 格式。 |
 | static [MicrosoftOutlookMessage](../../aspose.email.mapi/oledocumentformat/microsoftoutlookmessage) { get; } | Microsoft Outlook 消息格式。 |
 | static [MicrosoftPhotoEditor](../../aspose.email.mapi/oledocumentformat/microsoftphotoeditor) { get; } | Microsoft 照片编辑器类型。 |
-| static [MicrosoftPowerPointPresentation](../../aspose.email.mapi/oledocumentformat/microsoftpowerpointpresentation) { get; } | Microsoft power point 格式。 |
+| static [MicrosoftPowerPointPresentation](../../aspose.email.mapi/oledocumentformat/microsoftpowerpointpresentation) { get; } | 微软power point格式。 |
 | static [Paintbrush](../../aspose.email.mapi/oledocumentformat/paintbrush) { get; } | 画笔类型。 |
 | static [PictureMetafile](../../aspose.email.mapi/oledocumentformat/picturemetafile) { get; } | 图片（元文件）类型。 |
 | static [Unknown](../../aspose.email.mapi/oledocumentformat/unknown) { get; } | 未知类型。 |

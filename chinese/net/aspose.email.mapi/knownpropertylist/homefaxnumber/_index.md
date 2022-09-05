@@ -1,14 +1,14 @@
 ---
 title: HomeFaxNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户家庭传真机的电话号码 区域MapiMailUser 规范名称PidTagHomeFaxNumber 别名PR_HOME_FAX_NUMBER PR_HOME_FAX_NUMBER_A
+description: 包含邮件用户家庭传真机的电话号码 区域MapiMailUser 规范名称PidTagHomeFaxNumber 别名PR_HOME_FAX_NUMBERPR_HOME_FAX_NUMBER_A
 type: docs
 weight: 11080
 url: /zh/net/aspose.email.mapi/knownpropertylist/homefaxnumber/
 ---
 ## KnownPropertyList.HomeFaxNumber field
 
-包含邮件用户家庭传真机的电话号码。 区域:MapiMailUser 规范名称:PidTagHomeFaxNumber 别名:PR_HOME_FAX_NUMBER, PR_HOME_FAX_NUMBER_A,
+包含邮件用户家庭传真机的电话号码。 区域：MapiMailUser 规范名称：PidTagHomeFaxNumber 别名：PR_HOME_FAX_NUMBER、PR_HOME_FAX_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeFaxNumber;

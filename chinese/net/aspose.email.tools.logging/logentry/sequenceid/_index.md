@@ -1,14 +1,14 @@
 ---
 title: SequenceId
 second_title: Aspose.Email for .NET API 参考
-description: 自动生成的日志事件唯一标识 单调递增
+description: 日志事件的唯一标识自动生成 单调递增
 type: docs
 weight: 120
 url: /zh/net/aspose.email.tools.logging/logentry/sequenceid/
 ---
 ## LogEntry.SequenceId property
 
-自动生成的日志事件唯一标识 单调递增。
+日志事件的唯一标识，自动生成 ，单调递增
 
 ```csharp
 public int SequenceId { get; }

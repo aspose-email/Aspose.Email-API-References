@@ -1,14 +1,14 @@
 ---
 title: MapiJournal
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiJournalaspose.email.mapi/mapijournal类的新实例
+description: 初始化MapiJournalaspose.email.mapi/mapijournal类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapijournal/mapijournal/
 ---
 ## MapiJournal() {#constructor}
 
-初始化[`MapiJournal`](../../mapijournal)类的新实例。
+初始化[`MapiJournal`](../../mapijournal)类.
 
 ```csharp
 public MapiJournal()
@@ -24,7 +24,7 @@ public MapiJournal()
 
 ## MapiJournal(string, string, string, string) {#constructor_1}
 
-初始化[`MapiJournal`](../../mapijournal)类的新实例。
+初始化[`MapiJournal`](../../mapijournal)类.
 
 ```csharp
 public MapiJournal(string subject, string body, string description, string briefDescription)
@@ -33,8 +33,8 @@ public MapiJournal(string subject, string body, string description, string brief
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subject | String | 主题。 |
-| body | String | 消息体。 |
-| description | String | 描述。 |
+| body | String | 消息正文。 |
+| description | String | 说明。 |
 | briefDescription | String | 简要说明。 |
 
 ### 也可以看看

@@ -17,14 +17,14 @@ public ImapQuota[] SetQuota(IConnection connection, string quotaRootName, string
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | quotaRootName | String | имя корня квоты |
 | resourceName | String | имя ресурса |
 | resourceLimit | Int32 | лимит ресурсов |
 
 ### Возвращаемое значение
 
-Информация о квотах
+Информация о квоте
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: SpousePartner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Spouse/Partner header.
 type: docs
 weight: 280
 url: /net/aspose.email/mhttemplatename.contact/spousepartner/

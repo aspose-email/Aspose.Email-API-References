@@ -3,7 +3,7 @@ title: LastModifiedDate
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置上次修改日历信息的日期和时间
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/aspose.email.calendar/appointment/lastmodifieddate/
 ---
 ## Appointment.LastModifiedDate property
@@ -16,7 +16,7 @@ public DateTime LastModifiedDate { get; set; }
 
 ### 适当的价值
 
-DateTime表示修改日期和时间.
+的DateTime表示修改日期和时间。
 
 ### 也可以看看
 

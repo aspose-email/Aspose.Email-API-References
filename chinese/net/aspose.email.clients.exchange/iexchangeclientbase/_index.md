@@ -20,9 +20,9 @@ public interface IExchangeClientBase : IDisposable
 | --- | --- |
 | [Credentials](../../aspose.email.clients.exchange/iexchangeclientbase/credentials) { get; set; } | 获取或设置凭据。 |
 | [LogFileName](../../aspose.email.clients.exchange/iexchangeclientbase/logfilename) { get; set; } | 获取或设置日志文件名 |
-| [MailboxUri](../../aspose.email.clients.exchange/iexchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱 uri。 |
+| [MailboxUri](../../aspose.email.clients.exchange/iexchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱uri. |
 | [Proxy](../../aspose.email.clients.exchange/iexchangeclientbase/proxy) { get; set; } | 获取或设置代理。 |
-| [Timeout](../../aspose.email.clients.exchange/iexchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| [Timeout](../../aspose.email.clients.exchange/iexchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | [UseDateInLogFileName](../../aspose.email.clients.exchange/iexchangeclientbase/usedateinlogfilename) { get; set; } | 获取或设置指示是否必须在日志文件名中使用日期的值。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ElectronicAddresses
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите свойства до трех разных адресов электронной почты и трех разных адресов факса
+description: Укажите свойства для трех разных адресов электронной почты и трех разных адресов факса
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicontact/electronicaddresses/
 ---
 ## MapiContact.ElectronicAddresses property
 
-Укажите свойства до трех разных адресов электронной почты и трех разных адресов факса
+Укажите свойства для трех разных адресов электронной почты и трех разных адресов факса
 
 ```csharp
 public MapiContactElectronicAddressPropertySet ElectronicAddresses { get; set; }

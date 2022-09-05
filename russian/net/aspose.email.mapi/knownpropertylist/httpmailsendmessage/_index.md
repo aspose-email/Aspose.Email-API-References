@@ -1,14 +1,14 @@
 ---
 title: HttpmailSendMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URI отправки электронной почты на который отправляется исходящая электронная почта. ОбластьОбщие Каноническое имяPidNameHttpmailSendMessage Альтернативные именаurnschemashttpmailsendmsg
+description: Указывает URI отправки электронной почты на который отправляется исходящая электронная почта.
 type: docs
 weight: 11130
 url: /ru/net/aspose.email.mapi/knownpropertylist/httpmailsendmessage/
 ---
 ## KnownPropertyList.HttpmailSendMessage field
 
-Указывает URI отправки электронной почты, на который отправляется исходящая электронная почта. Область:Общие Каноническое имя:PidNameHttpmailSendMessage Альтернативные имена:urn:schemas:httpmail:sendmsg
+Указывает URI отправки электронной почты, на который отправляется исходящая электронная почта.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailSendMessage;

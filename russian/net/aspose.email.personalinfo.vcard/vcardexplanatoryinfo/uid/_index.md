@@ -3,7 +3,7 @@ title: Uid
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает уникальный идентификатор
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid/
 ---
 ## VCardExplanatoryInfo.Uid property

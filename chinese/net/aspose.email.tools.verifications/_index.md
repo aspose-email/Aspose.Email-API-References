@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Verifications
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Tools.Verifications 命名空间包含表示消息验证功能的类
+description: 的 Aspose.Email.Tools.Verifications命名空间包含表示消息验证功能的类
 type: docs
 weight: 470
 url: /zh/net/aspose.email.tools.verifications/
 ---
-**Aspose.Email.Tools.Verifications** 命名空间包含表示消息验证功能的类。
+的 **Aspose.Email.Tools.Verifications**命名空间包含表示消息验证功能的类。
 
 ## 课程
 

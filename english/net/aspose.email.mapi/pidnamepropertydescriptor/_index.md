@@ -1,9 +1,9 @@
 ---
 title: PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains property description information.
 type: docs
-weight: 18780
+weight: 18990
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor class
@@ -18,8 +18,8 @@ public class PidNamePropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| [PidNamePropertyDescriptor](pidnamepropertydescriptor)(string, PropertyDataType, Guid) | Initializes a new instance of the [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) class Properties identified by a string name along with a property set. |
-| [PidNamePropertyDescriptor](pidnamepropertydescriptor)(string, string, PropertyDataType, Guid) | Initializes a new instance of the [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) class Properties identified by a string name along with a property set. |
+| [PidNamePropertyDescriptor](pidnamepropertydescriptor#constructor)(string, PropertyDataType, Guid) | Initializes a new instance of the [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) class Properties identified by a string name along with a property set. |
+| [PidNamePropertyDescriptor](pidnamepropertydescriptor#constructor_1)(string, string, PropertyDataType, Guid) | Initializes a new instance of the [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) class Properties identified by a string name along with a property set. |
 
 ## Properties
 
@@ -35,8 +35,8 @@ public class PidNamePropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.mapi/pidnamepropertydescriptor/equals)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
-| override [Equals](../../aspose.email.mapi/pidnamepropertydescriptor/equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
+| override [Equals](../../aspose.email.mapi/pidnamepropertydescriptor/equals#equals_1)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
+| override [Equals](../../aspose.email.mapi/pidnamepropertydescriptor/equals#equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
 | override [GetHashCode](../../aspose.email.mapi/pidnamepropertydescriptor/gethashcode)() | Serves as a hash function for a type. |
 | override [ToString](../../aspose.email.mapi/pidnamepropertydescriptor/tostring)() | Returns a string that represents the property description. |
 | [operator ==](../../aspose.email.mapi/pidnamepropertydescriptor/op_equality) | Determines whether the specified objects are equal to each another. |

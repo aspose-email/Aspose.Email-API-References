@@ -1,7 +1,7 @@
 ---
 title: HiddenCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the hidden value of the file attached to the Document object. Area Common Canonical name PidNameHiddenCount Alternate names urnschemasmicrosoftcomofficeofficeHiddenSlides
 type: docs
 weight: 10920
 url: /net/aspose.email.mapi/knownpropertylist/hiddencount/

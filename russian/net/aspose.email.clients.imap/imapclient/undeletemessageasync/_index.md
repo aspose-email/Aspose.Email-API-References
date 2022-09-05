@@ -1,14 +1,41 @@
 ---
 title: UndeleteMessageAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Помечает сообщение с указанным порядковым номером как неудаляемое
+description: Помечает сообщение с указанным порядковым номером как неудаленное.
 type: docs
 weight: 1240
 url: /ru/net/aspose.email.clients.imap/imapclient/undeletemessageasync/
 ---
+## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
+
+Помечает сообщение с указанным порядковым номером как неудаленное.
+
+```csharp
+public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
+    CancellationToken token)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
+
+### Возвращаемое значение
+
+Объект задачи с делегатом для этой операции
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## UndeleteMessageAsync(IConnection, int) {#undeletemessageasync}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
@@ -16,7 +43,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -34,7 +61,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
 
 ## UndeleteMessageAsync(IConnection, string) {#undeletemessageasync_4}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
@@ -42,7 +69,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -60,7 +87,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
 
 ## UndeleteMessageAsync(int) {#undeletemessageasync_8}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(int sequenceNumber)
@@ -84,7 +111,7 @@ public Task UndeleteMessageAsync(int sequenceNumber)
 
 ## UndeleteMessageAsync(string) {#undeletemessageasync_12}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(string uniqueId)
@@ -96,7 +123,7 @@ public Task UndeleteMessageAsync(string uniqueId)
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -108,7 +135,7 @@ public Task UndeleteMessageAsync(string uniqueId)
 
 ## UndeleteMessageAsync(IConnection, int, long) {#undeletemessageasync_1}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber, 
@@ -117,13 +144,13 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -136,7 +163,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 ## UndeleteMessageAsync(IConnection, string, long) {#undeletemessageasync_5}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long modificationSequence)
@@ -144,13 +171,13 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long m
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -163,7 +190,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long m
 
 ## UndeleteMessageAsync(int, long) {#undeletemessageasync_9}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
@@ -172,11 +199,11 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -188,7 +215,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
 
 ## UndeleteMessageAsync(string, long) {#undeletemessageasync_13}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
@@ -197,11 +224,11 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Модификация последовательность. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -213,7 +240,7 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
 
 ## UndeleteMessageAsync(IConnection, int, CancellationToken) {#undeletemessageasync_3}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber, 
@@ -222,7 +249,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -241,7 +268,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 ## UndeleteMessageAsync(IConnection, string, CancellationToken) {#undeletemessageasync_7}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, string uniqueId, CancellationToken token)
@@ -249,7 +276,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, Cancel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -268,7 +295,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, Cancel
 
 ## UndeleteMessageAsync(int, CancellationToken) {#undeletemessageasync_11}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(int sequenceNumber, CancellationToken token)
@@ -293,7 +320,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, CancellationToken token)
 
 ## UndeleteMessageAsync(string, CancellationToken) {#undeletemessageasync_15}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
@@ -302,7 +329,7 @@ public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| token | CancellationToken | Распространяется уведомление о том, что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -318,7 +345,7 @@ public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
 
 ## UndeleteMessageAsync(IConnection, int, long, CancellationToken) {#undeletemessageasync_2}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber, 
@@ -327,9 +354,9 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -347,7 +374,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 ## UndeleteMessageAsync(IConnection, string, long, CancellationToken) {#undeletemessageasync_6}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(IConnection connection, string uniqueId, 
@@ -356,9 +383,9 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -376,7 +403,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId,
 
 ## UndeleteMessageAsync(int, long, CancellationToken) {#undeletemessageasync_10}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence, 
@@ -386,34 +413,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
-
-### Возвращаемое значение
-
-Объект задачи с делегатом для этой операции
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
-
-Помечает сообщение с указанным порядковым номером как неудаляемое.
-
-```csharp
-public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
-    CancellationToken token)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Модификация последовательность. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

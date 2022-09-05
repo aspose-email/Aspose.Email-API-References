@@ -1,7 +1,7 @@
 ---
 title: ReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which indicates if changes to the permanent state of the mailbox including peruser state are permitted.
 type: docs
 weight: 230
 url: /net/aspose.email.clients.imap/imapclient/readonly/

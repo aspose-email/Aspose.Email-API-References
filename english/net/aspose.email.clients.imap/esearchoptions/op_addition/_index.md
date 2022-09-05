@@ -1,7 +1,7 @@
 ---
 title: op_Addition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Plus operation is defined
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/esearchoptions/op_addition/

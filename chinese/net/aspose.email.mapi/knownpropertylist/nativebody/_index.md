@@ -1,14 +1,14 @@
 ---
 title: NativeBody
 second_title: Aspose.Email for .NET API 参考
-description: 表示存储消息正文的最佳可用格式 区域BestBody 规范名称PidTagNativeBody 替代名称PR_NATIVE_BODY_INFO ptagNativeBodyInfo
+description: 表示存储消息正文的最佳可用格式 区域BestBody 规范名称PidTagNativeBody 替代名称PR_NATIVE_BODY_INFOptagNativeBodyInfo
 type: docs
 weight: 12820
 url: /zh/net/aspose.email.mapi/knownpropertylist/nativebody/
 ---
 ## KnownPropertyList.NativeBody field
 
-表示存储消息正文的最佳可用格式。 区域:BestBody 规范名称:PidTagNativeBody 替代名称:PR_NATIVE_BODY_INFO, ptagNativeBodyInfo
+表示存储消息正文的最佳可用格式。 区域：BestBody 规范名称：PidTagNativeBody 替代名称：PR_NATIVE_BODY_INFO、ptagNativeBodyInfo
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NativeBody;

@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет этоMapiContactaspose.email.mapi/mapicontactв файл vCard с параметрами по умолчанию. Поддерживаемая версия vCard2.1
+description: Сохраняет этоMapiContactaspose.email.mapi/mapicontact в файл vCard с параметрами по умолчанию. Поддерживаемая версия vCard 2.1
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/save/
 ---
 ## Save(string) {#save_3}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в файл vCard с параметрами по умолчанию. Поддерживаемая версия vCard:2.1
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact) в файл vCard с параметрами по умолчанию. Поддерживаемая версия vCard: 2.1
 
 ```csharp
 public void Save(string filePath)
@@ -22,7 +22,7 @@ public void Save(string filePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public void Save(string filePath)
 
 ## Save(string, ContactSaveFormat) {#save_4}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в указанный файл в формате с параметрами по умолчанию. Поддерживаемый формат сохранения - vCard.
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в указанный файл в формате, использующем параметры по умолчанию. Поддерживаемый формат сохранения: vCard.
 
 ```csharp
 public void Save(string filePath, ContactSaveFormat saveFormat)
@@ -49,7 +49,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` empty` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 | NotSupportedException | указанный формат не поддерживается |
 
 ### Смотрите также
@@ -63,7 +63,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ## Save(string, ContactSaveOptions) {#save_5}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в файл, используя указанные параметры сохранения. Поддерживаемые параметры сохранения:[`VCardSaveOptions`](../../vcardsaveoptions)
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact) в файл, используя указанные параметры сохранения. Поддерживаемые параметры сохранения:[`VCardSaveOptions`](../../vcardsaveoptions)
 
 ```csharp
 public void Save(string filePath, ContactSaveOptions saveOptions)
@@ -71,15 +71,15 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | A Имя файла vCard |
+| filePath | String | Имя файла vCard |
 | saveOptions | ContactSaveOptions | Параметры сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
-| ArgumentNullException | *saveOptions*is` null` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
+| ArgumentNullException | *saveOptions* является`нулевой` |
 | NotSupportedException | некоторые опции сохранения не поддерживаются |
 
 ### Смотрите также
@@ -93,7 +93,7 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ## Save(Stream) {#save}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в указанный поток с форматом vCard. Поддерживаемая версия vCard:2.1
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact) в заданный поток с форматом vCard. Поддерживаемая версия vCard: 2.1
 
 ```csharp
 public void Save(Stream stream)
@@ -101,14 +101,14 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает запись |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает запись |
 
 ### Смотрите также
 
@@ -120,7 +120,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, ContactSaveFormat) {#save_1}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в указанный поток с форматом, использующим параметры по умолчанию. Поддерживаемый формат сохранения:vCard
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact) в заданный поток в формате, использующем параметры по умолчанию. Поддерживаемый формат сохранения: vCard
 
 ```csharp
 public void Save(Stream stream, ContactSaveFormat saveFormat)
@@ -128,15 +128,15 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 | saveFormat | ContactSaveFormat | Формат сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает запись |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает запись |
 | NotSupportedException | Указанный формат не поддерживается |
 
 ### Смотрите также
@@ -150,7 +150,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ## Save(Stream, ContactSaveOptions) {#save_2}
 
-Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact)в указанный поток, используя указанные параметры сохранения. Поддерживаемые параметры сохранения:[`VCardSaveOptions`](../../vcardsaveoptions)
+Сохраняет это[`MapiContact`](../../../aspose.email.mapi/mapicontact) в данный поток, используя указанные параметры сохранения. Поддерживаемые параметры сохранения:[`VCardSaveOptions`](../../vcardsaveoptions)
 
 ```csharp
 public void Save(Stream stream, ContactSaveOptions saveOptions)
@@ -158,16 +158,16 @@ public void Save(Stream stream, ContactSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | A поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 | saveOptions | ContactSaveOptions | Параметры сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*или*saveOptions*is` null` |
-| NotSupportedException | *stream*не поддерживает запись |
-| ArgumentException | неверно*saveOptions* |
+| ArgumentNullException | *stream*или же*saveOptions* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает запись |
+| ArgumentException | неправильный*saveOptions* |
 | NotSupportedException | некоторые опции сохранения не поддерживаются |
 
 ### Смотрите также

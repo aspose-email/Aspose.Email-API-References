@@ -1,14 +1,14 @@
 ---
 title: CleanGlobalObjectId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidLidGlobalObjectId раздел 2.142 для объекта состоящего из нуля. ОбластьВстречи Каноническое имяPidLidCleanGlobalObjectId Альтернативные именаdispidCleanGlobalObjId
+description: Содержит значение свойства PidLidGlobalObjectId раздел 2.142 для объекта со всеми нулями. Область Meetings Каноническое имя PidLidCleanGlobalObjectId Альтернативные имена dispidCleanGlobalObjId
 type: docs
 weight: 2670
 url: /ru/net/aspose.email.mapi/knownpropertylist/cleanglobalobjectid/
 ---
 ## KnownPropertyList.CleanGlobalObjectId field
 
-Содержит значение свойства PidLidGlobalObjectId (раздел 2.142) для объекта, состоящего из нуля. Область:Встречи Каноническое имя:PidLidCleanGlobalObjectId Альтернативные имена:dispidCleanGlobalObjId
+Содержит значение свойства PidLidGlobalObjectId (раздел 2.142) для объекта со всеми нулями. Область: Meetings Каноническое имя: PidLidCleanGlobalObjectId Альтернативные имена: dispidCleanGlobalObjId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CleanGlobalObjectId;

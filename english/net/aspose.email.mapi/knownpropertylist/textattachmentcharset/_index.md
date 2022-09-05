@@ -1,7 +1,7 @@
 ---
 title: TextAttachmentCharset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the character set of an attachment received via MIME with the contenttype of text. Area Message Attachment Properties Canonical name PidTagTextAttachmentCharset Alternate names ptagTextAttachmentCharset
 type: docs
 weight: 18940
 url: /net/aspose.email.mapi/knownpropertylist/textattachmentcharset/

@@ -3,7 +3,7 @@ title: EndTimeZone
 second_title: Aspose.Email for .NET API 参考
 description: 结束时区
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.email.calendar/appointment/endtimezone/
 ---
 ## Appointment.EndTimeZone property

@@ -1,14 +1,14 @@
 ---
 title: SecureInSite
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SECURE_IN_SITE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SECURE_IN_SITE
 type: docs
 weight: 17040
 url: /ru/net/aspose.email.mapi/knownpropertylist/secureinsite/
 ---
 ## KnownPropertyList.SecureInSite field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SECURE_IN_SITE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SECURE_IN_SITE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SecureInSite;

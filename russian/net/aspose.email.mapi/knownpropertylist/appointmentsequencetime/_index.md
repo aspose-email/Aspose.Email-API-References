@@ -1,14 +1,14 @@
 ---
 title: AppointmentSequenceTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время последнего изменения свойства PidLidAppointmentSequence раздел 2.25. ОбластьВстречи Каноническое имяPidLidAppointmentSequenceTime Альтернативные именаdispidApptSeqTime
+description: Указывает дату и время последнего изменения свойства PidLidAppointmentSequence раздел 2.25. Область Meetings Каноническое имя PidLidAppointmentSequenceTime Альтернативные имена dispidApptSeqTime
 type: docs
 weight: 1290
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentsequencetime/
 ---
 ## KnownPropertyList.AppointmentSequenceTime field
 
-Указывает дату и время последнего изменения свойства PidLidAppointmentSequence (раздел 2.25). Область:Встречи Каноническое имя:PidLidAppointmentSequenceTime Альтернативные имена:dispidApptSeqTime
+Указывает дату и время последнего изменения свойства PidLidAppointmentSequence (раздел 2.25). Область: Meetings Каноническое имя: PidLidAppointmentSequenceTime Альтернативные имена: dispidApptSeqTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSequenceTime;

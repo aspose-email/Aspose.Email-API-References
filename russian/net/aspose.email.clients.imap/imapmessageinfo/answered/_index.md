@@ -1,14 +1,14 @@
 ---
 title: Answered
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее содержит ли свойство Flags флаг Answered.
+description: Получает значение указывающее содержит ли свойство Flags флаг ответа.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapmessageinfo/answered/
 ---
 ## ImapMessageInfo.Answered property
 
-Получает значение, указывающее, содержит ли свойство Flags флаг Answered.
+Получает значение, указывающее, содержит ли свойство Flags флаг ответа.
 
 ```csharp
 public bool Answered { get; }

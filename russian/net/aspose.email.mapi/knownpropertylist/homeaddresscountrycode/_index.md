@@ -1,14 +1,14 @@
 ---
 title: HomeAddressCountryCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает часть кода страны домашнего адреса контакта. ОбластьСвойства контакта Каноническое имяPidLidHomeAddressCountryCode Альтернативные именаdispidHomeAddressCountryCode
+description: Указывает часть кода страны домашнего адреса контакта. Область Свойства контакта Каноническое имя PidLidHomeAddressCountryCode Альтернативные имена dispidHomeAddressCountryCode
 type: docs
 weight: 11030
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddresscountrycode/
 ---
 ## KnownPropertyList.HomeAddressCountryCode field
 
-Указывает часть кода страны домашнего адреса контакта. Область:Свойства контакта Каноническое имя:PidLidHomeAddressCountryCode Альтернативные имена:dispidHomeAddressCountryCode
+Указывает часть кода страны домашнего адреса контакта. Область: Свойства контакта Каноническое имя: PidLidHomeAddressCountryCode Альтернативные имена: dispidHomeAddressCountryCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor HomeAddressCountryCode;

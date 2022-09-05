@@ -1,14 +1,14 @@
 ---
 title: MapiTaskOwnership
 second_title: Aspose.Email for .NET API 参考
-description: 表示当前用户 相对于 Task 对象的角色
+description: 表示当前用户 相对于Task对象的角色
 type: docs
-weight: 18690
+weight: 18720
 url: /zh/net/aspose.email.mapi/mapitaskownership/
 ---
 ## MapiTaskOwnership enumeration
 
-表示当前用户 相对于 Task 对象的角色。
+表示当前用户 相对于Task对象的角色。
 
 ```csharp
 public enum MapiTaskOwnership
@@ -19,8 +19,8 @@ public enum MapiTaskOwnership
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotAssigned | `0` | 未分配任务对象。 |
-| AssignersCopy | `1` | Task 对象是任务分配者的 Task 对象的副本。 |
-| AssigneesCopy | `2` | 任务对象是任务受让人的 任务对象的副本。 |
+| AssignersCopy | `1` | 任务对象是任务分配者的任务对象的 副本。 |
+| AssigneesCopy | `2` | 任务对象是任务受让人的 任务对象副本。 |
 
 ### 也可以看看
 

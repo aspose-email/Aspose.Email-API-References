@@ -1,12 +1,12 @@
 ---
 title: On
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the date in message must be within the specified date.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.search/datecomparisonfield/on/
 ---
-## DateComparisonField.On method (1 of 2)
+## On(DateTime) {#on}
 
 Indicates that the date in message must be within the specified date.
 
@@ -31,7 +31,7 @@ public MailQuery On(DateTime value)
 
 ---
 
-## DateComparisonField.On method (2 of 2)
+## On(DateTime, DateComparisonType) {#on_1}
 
 Indicates that the date in message must be within the specified date.
 

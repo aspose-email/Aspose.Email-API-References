@@ -1,14 +1,14 @@
 ---
 title: CommandCodes
 second_title: Aspose.Email for .NET API 参考
-description: 下表提供了对应于 ActiveSync 命令的数字代码 数字代码用于 base64 编码 URI 的命令代码字段中以指定命令
+description: 下表提供了对应于 ActiveSync 命令的数字代码 base64 编码 URI 的命令代码字段中使用数字代码来指定命令
 type: docs
 weight: 1100
 url: /zh/net/aspose.email.clients.activesync.transportlayer/commandcodes/
 ---
 ## CommandCodes enumeration
 
-下表提供了对应于 ActiveSync 命令的数字代码。 数字代码用于 base64 编码 URI 的命令代码字段中以指定命令。
+下表提供了对应于 ActiveSync 命令的数字代码。 base64 编码 URI 的命令代码字段中使用数字代码来指定命令。
 
 ```csharp
 public enum CommandCodes
@@ -20,7 +20,7 @@ public enum CommandCodes
 | --- | --- | --- |
 | Undefined | `-3` | 命令代码未定义。 |
 | Options | `-2` | OPTIONS 命令，用于发现支持哪些协议版本，以及服务器支持哪些协议命令。 |
-| Autodiscover | `-1` | Autodiscover 命令通过使用用户的简单邮件传输协议 (SMTP) 地址作为主要输入，有助于发现核心帐户配置信息 。 |
+| Autodiscover | `-1` | Autodiscover 命令通过使用用户的简单邮件传输协议 (SMTP) 地址作为主要输入来促进核心帐户配置信息 的发现。 |
 | Sync | `0` | 在客户端和服务器之间同步文件夹中的更改。 |
 | SendMail | `1` | 向服务器发送邮件。 此命令在 HTTP POST 命令的 URI 中发出，不包含 XML 正文。 正文将包含 MIME 消息。 |
 | SmartForward | `2` | 转发消息对象而不从服务器检索完整的消息对象。 |
@@ -29,13 +29,13 @@ public enum CommandCodes
 | FolderSync | `9` | 同步文件夹层次结构，但不同步文件夹中的项目。 |
 | FolderCreate | `10` | 在服务器上创建电子邮件、日历或联系人文件夹。 |
 | FolderDelete | `11` | 从服务器中删除一个文件夹。 |
-| FolderUpdate | `12` | 将文件夹从服务器上的一个位置移动到另一个位置，用于重命名文件夹。 |
+| FolderUpdate | `12` | 将文件夹从服务器上的一个位置移动到另一个位置，并用于重命名文件夹。 |
 | MoveItems | `13` | 将项目从一个文件夹移动到另一个文件夹。 |
-| GetItemEstimate | `14` | 获取同步的文件夹中项目数的估计值。 |
+| GetItemEstimate | `14` | 获取已同步文件夹中项目数的估计值。 |
 | MeetingResponse | `15` | 用于接受、暂时接受或拒绝用户收件箱文件夹中的会议请求。 |
 | Search | `16` | 在全局地址列表中查找和检索有关联系人和收件人的信息。 |
 | Settings | `17` | 支持获取和设置全局属性，例如外出 (OOF) 和设备信息。 |
-| Ping | `18` | 请求服务器监视指定文件夹以查找需要客户端重新同步的更改。 |
+| Ping | `18` | 请求服务器监视指定文件夹中需要客户端重新同步的更改。 |
 | ItemOperations | `19` | 将请求或响应的主体标识为包含一组对项目进行操作的命令。 |
 | Provision | `20` | 获取服务器管理员设置的安全策略设置，例如用户的最小密码长度要求。 |
 | ResolveRecipients | `21` | 解析提供的收件人列表，并可选择获取他们的 S/MIME 证书，以便客户端可以发送加密消息。 |

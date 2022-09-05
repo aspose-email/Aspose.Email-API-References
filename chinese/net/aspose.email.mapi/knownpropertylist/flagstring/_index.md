@@ -1,14 +1,14 @@
 ---
 title: FlagString
 second_title: Aspose.Email for .NET API 参考
-description: 包含标识要与标志关联的一组预定义文本字符串中的一个的索引 区域任务 规范名称PidLidFlagString 替代名称dispidFlagStringEnum
+description: 包含标识要与标志关联的一组预定义文本字符串中的一个的索引 区域Tasks 规范名称PidLidFlagString 备用名称dispidFlagStringEnum
 type: docs
 weight: 10370
 url: /zh/net/aspose.email.mapi/knownpropertylist/flagstring/
 ---
 ## KnownPropertyList.FlagString field
 
-包含标识要与标志关联的一组预定义文本字符串中的一个的索引。 区域:任务 规范名称:PidLidFlagString 替代名称:dispidFlagStringEnum
+包含标识要与标志关联的一组预定义文本字符串中的一个的索引。 区域：Tasks 规范名称：PidLidFlagString 备用名称：dispidFlagStringEnum
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FlagString;

@@ -1,14 +1,14 @@
 ---
 title: RoamingXmlStream
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个 XML 流如 MS-OXOCFG 第 2.2.5.2 节中所述 区域配置 规范名称PidTagRoamingXmlStream 替代名称PR_ROAMING_XMLSTREAM
+description: 包含一个 XML 流如 MS-OXOCFG 部分 2.2.5.2. 区域Configuration 规范名称PidTagRoamingXmlStream 替代名称PR_ROAMING_XMLSTREAM
 type: docs
 weight: 16330
 url: /zh/net/aspose.email.mapi/knownpropertylist/roamingxmlstream/
 ---
 ## KnownPropertyList.RoamingXmlStream field
 
-包含一个 XML 流，如 [MS-OXOCFG] 第 2.2.5.2 节中所述。 区域:配置 规范名称:PidTagRoamingXmlStream 替代名称:PR_ROAMING_XMLSTREAM
+包含一个 XML 流，如 [MS-OXOCFG] 部分 2.2.5.2. 区域：Configuration 规范名称：PidTagRoamingXmlStream 替代名称：PR_ROAMING_XMLSTREAM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingXmlStream;

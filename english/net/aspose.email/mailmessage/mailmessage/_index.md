@@ -1,12 +1,12 @@
 ---
 title: MailMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailMessageaspose.email/mailmessage class
 type: docs
 weight: 10
 url: /net/aspose.email/mailmessage/mailmessage/
 ---
-## MailMessage constructor (1 of 5)
+## MailMessage(string, string) {#constructor_3}
 
 Initializes a new instance of the [`MailMessage`](../../mailmessage) class
 
@@ -27,7 +27,7 @@ public MailMessage(string from, string to)
 
 ---
 
-## MailMessage constructor (2 of 5)
+## MailMessage() {#constructor}
 
 Initializes a new instance of the [`MailMessage`](../../mailmessage) class
 
@@ -43,7 +43,7 @@ public MailMessage()
 
 ---
 
-## MailMessage constructor (3 of 5)
+## MailMessage(bool) {#constructor_2}
 
 Initializes a new instance of the [`MailMessage`](../../mailmessage) class
 
@@ -59,7 +59,7 @@ public MailMessage(bool increaseCredit)
 
 ---
 
-## MailMessage constructor (4 of 5)
+## MailMessage(string, string, string, string) {#constructor_4}
 
 Initializes a new instance of the [`MailMessage`](../../mailmessage) class
 
@@ -82,7 +82,7 @@ public MailMessage(string from, string to, string subject, string body)
 
 ---
 
-## MailMessage constructor (5 of 5)
+## MailMessage(MailAddress, MailAddress) {#constructor_1}
 
 Initializes a new instance of the [`MailMessage`](../../mailmessage) class
 

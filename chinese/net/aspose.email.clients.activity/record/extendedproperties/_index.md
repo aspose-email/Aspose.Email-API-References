@@ -1,14 +1,14 @@
 ---
 title: ExtendedProperties
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置正在更改的设置的扩展属性列表每个属性都有一个名称和值 强制否
+description: 获取或设置正在更改的设置的扩展属性列表每个属性都有一个名称和值 强制No
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/record/extendedproperties/
 ---
 ## Record.ExtendedProperties property
 
-获取或设置正在更改的设置的扩展属性列表。每个属性都有一个名称和值。 强制:否
+获取或设置正在更改的设置的扩展属性列表。每个属性都有一个名称和值。 强制：No
 
 ```csharp
 public ExtendedProperty[] ExtendedProperties { get; set; }

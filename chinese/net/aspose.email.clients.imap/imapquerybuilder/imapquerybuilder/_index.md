@@ -1,14 +1,14 @@
 ---
 title: ImapQueryBuilder
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ImapQueryBuilderaspose.email.clients.imap/imapquerybuilder类的新实例
+description: 初始化ImapQueryBuilderaspose.email.clients.imap/imapquerybuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/imapquerybuilder/imapquerybuilder/
 ---
 ## ImapQueryBuilder(Encoding) {#constructor_1}
 
-初始化[`ImapQueryBuilder`](../../imapquerybuilder)类的新实例。
+初始化[`ImapQueryBuilder`](../../imapquerybuilder)类.
 
 ```csharp
 public ImapQueryBuilder(Encoding defaultEncoding)
@@ -28,7 +28,7 @@ public ImapQueryBuilder(Encoding defaultEncoding)
 
 ## ImapQueryBuilder() {#constructor}
 
-初始化[`ImapQueryBuilder`](../../imapquerybuilder)类的新实例。
+初始化[`ImapQueryBuilder`](../../imapquerybuilder)类.
 
 ```csharp
 public ImapQueryBuilder()

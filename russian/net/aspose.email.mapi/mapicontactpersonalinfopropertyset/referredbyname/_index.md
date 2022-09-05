@@ -1,14 +1,14 @@
 ---
 title: ReferredByName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя человека который направил этот контакт пользователю
+description: Указывает имя человека  который направил этот контакт пользователю
 type: docs
 weight: 190
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname/
 ---
 ## MapiContactPersonalInfoPropertySet.ReferredByName property
 
-Указывает имя человека, который направил этот контакт пользователю
+Указывает имя человека , который направил этот контакт пользователю
 
 ```csharp
 public string ReferredByName { get; set; }

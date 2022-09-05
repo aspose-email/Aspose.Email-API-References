@@ -1,14 +1,14 @@
 ---
 title: Assistant
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的管理助理的姓名 区域地址属性 规范名称PidTagAssistant 替代名称PR_ASSISTANT PR_ASSISTANT_A PR_ASSISTANT_W
+description: 包含邮件用户的管理助理的名称 区域地址属性 规范名称PidTagAssistant 替代名称PR_ASSISTANTPR_ASSISTANT_APR_ASSISTANT_W
 type: docs
 weight: 1440
 url: /zh/net/aspose.email.mapi/knownpropertylist/assistant/
 ---
 ## KnownPropertyList.Assistant field
 
-包含邮件用户的管理助理的姓名。 区域:地址属性 规范名称:PidTagAssistant 替代名称:PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W,
+包含邮件用户的管理助理的名称。 区域：地址属性 规范名称：PidTagAssistant 替代名称：PR_ASSISTANT、PR_ASSISTANT_A、PR_ASSISTANT_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Assistant;

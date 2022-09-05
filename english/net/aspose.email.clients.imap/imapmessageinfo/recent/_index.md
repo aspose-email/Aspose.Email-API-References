@@ -1,7 +1,7 @@
 ---
 title: Recent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether Flags property contains the Recent flag.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.imap/imapmessageinfo/recent/

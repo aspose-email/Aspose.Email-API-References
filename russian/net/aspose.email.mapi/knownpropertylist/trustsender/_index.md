@@ -1,14 +1,14 @@
 ---
 title: TrustSender
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает было ли соответствующее сообщение доставлено через доверенный транспортный канал. ОбластьMapiNonTransmittable Каноническое имяPidTagTrustSender Альтернативные именаPR_TRUST_SENDER ptagTrustSender
+description: Указывает было ли соответствующее сообщение доставлено через доверенный транспортный канал. Область MapiNonTransmittable Каноническое имя PidTagTrustSender Альтернативные имена PR_TRUST_SENDER ptagTrustSender
 type: docs
 weight: 19140
 url: /ru/net/aspose.email.mapi/knownpropertylist/trustsender/
 ---
 ## KnownPropertyList.TrustSender field
 
-Указывает, было ли соответствующее сообщение доставлено через доверенный транспортный канал. Область:MapiNonTransmittable Каноническое имя:PidTagTrustSender Альтернативные имена:PR_TRUST_SENDER, ptagTrustSender
+Указывает, было ли соответствующее сообщение доставлено через доверенный транспортный канал. Область: MapiNonTransmittable Каноническое имя: PidTagTrustSender Альтернативные имена: PR_TRUST_SENDER, ptagTrustSender
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TrustSender;

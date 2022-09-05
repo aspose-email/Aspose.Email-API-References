@@ -53,7 +53,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | --- | --- | --- |
 | name | String | 新文件夹的名称 |
 | permissions | ExchangeFolderPermissionCollection | 新文件夹的权限 |
-| parentFolderUri | String | 父级的 URI文件夹 |
+| parentFolderUri | String | 父文件夹的 URI |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值

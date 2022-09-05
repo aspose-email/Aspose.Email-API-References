@@ -1,14 +1,14 @@
 ---
 title: CallbackTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона для связи с почтовым пользователем. ОбластьСвойства контакта Каноническое имяPidTagCallbackTelephoneNumber Альтернативные именаPR_CALLBACK_TELEPHONE_NUMBER PR_CALLBACK_TELEPHONE_NUMBER_A
+description: Содержит номер телефона для связи с пользователем почты. Область Свойства контакта Каноническое имя PidTagCallbackTelephoneNumber Альтернативные имена PR_CALLBACK_TELEPHONE_NUMBER PR_CALLBACK_TELEPHONE_NUMBER_A
 type: docs
 weight: 2470
 url: /ru/net/aspose.email.mapi/knownpropertylist/callbacktelephonenumber/
 ---
 ## KnownPropertyList.CallbackTelephoneNumber field
 
-Содержит номер телефона для связи с почтовым пользователем. Область:Свойства контакта Каноническое имя:PidTagCallbackTelephoneNumber Альтернативные имена:PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A,
+Содержит номер телефона для связи с пользователем почты. Область: Свойства контакта Каноническое имя: PidTagCallbackTelephoneNumber Альтернативные имена: PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CallbackTelephoneNumber;

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/purportedsenderdomain/
 ---
 ## KnownPropertyList.PurportedSenderDomain field
 
-包含负责传输当前消息的域。 区域:TransportEnvelope 规范名称:PidTagPurportedSenderDomain 备用名称:PR_PURPORTED_SENDER_DOMAIN
+包含负责传输当前消息的域。 区域：TransportEnvelope 规范名称：PidTagPurportedSenderDomain 备用名称：PR_PURPORTED_SENDER_DOMAIN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PurportedSenderDomain;

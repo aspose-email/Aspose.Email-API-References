@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API 参考
-description: 为组条目获取人类可读的标题
+description: 获取组条目 的可读标题
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.google/googlecontactgroup/title/
 ---
 ## GoogleContactGroup.Title property
 
-为组条目获取人类可读的标题
+获取组条目 的可读标题
 
 ```csharp
 public string Title { get; }
@@ -16,7 +16,7 @@ public string Title { get; }
 
 ### 适当的价值
 
-代表标题的字符串 用于组条目
+代表组条目标题 的字符串
 
 ### 也可以看看
 

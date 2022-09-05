@@ -1,14 +1,14 @@
 ---
 title: RoamingDatatypes
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个位掩码指示消息中存在哪些流属性 区域配置 规范名称PidTagRoamingDatatypes 备用名称PR_ROAMING_DATATYPES
+description: 包含一个位掩码指示消息中存在哪些流属性 区域Configuration 规范名称PidTagRoamingDatatypes 替代名称PR_ROAMING_DATATYPES
 type: docs
 weight: 16310
 url: /zh/net/aspose.email.mapi/knownpropertylist/roamingdatatypes/
 ---
 ## KnownPropertyList.RoamingDatatypes field
 
-包含一个位掩码，指示消息中存在哪些流属性。 区域:配置 规范名称:PidTagRoamingDatatypes 备用名称:PR_ROAMING_DATATYPES
+包含一个位掩码，指示消息中存在哪些流属性。 区域：Configuration 规范名称：PidTagRoamingDatatypes 替代名称：PR_ROAMING_DATATYPES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingDatatypes;

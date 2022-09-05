@@ -1,14 +1,14 @@
 ---
 title: ValueLocation
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置值位置
+description: 获取或设置一个值 location
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo.vcard/vcardagent/valuelocation/
 ---
 ## VCardAgent.ValueLocation property
 
-获取或设置值位置
+获取或设置一个值 location
 
 ```csharp
 public VCardValueLocation ValueLocation { get; set; }

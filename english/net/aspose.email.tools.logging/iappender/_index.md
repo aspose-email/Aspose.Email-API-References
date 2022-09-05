@@ -1,9 +1,9 @@
 ---
 title: IAppender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implement this interface for your own strategies for printing log entries.
 type: docs
-weight: 20280
+weight: 20510
 url: /net/aspose.email.tools.logging/iappender/
 ---
 ## IAppender interface

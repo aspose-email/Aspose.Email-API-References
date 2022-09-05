@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default email address for specified category.
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/emailaddresslist/item/

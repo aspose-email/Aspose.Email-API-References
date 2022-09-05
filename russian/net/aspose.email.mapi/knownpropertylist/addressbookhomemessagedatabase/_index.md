@@ -1,14 +1,14 @@
 ---
 title: AddressBookHomeMessageDatabase
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит DN выраженное в формате X500 DN. Это свойство возвращается из PtypString8. ОбластьАдресная книга Каноническое имяPidTagAddressBookHomeMessageDatabase Альтернативные именаPR_EMS_AB_HOME_MDB PR_EMS_AB_HOME_MDB_A PR_EMS_AB_HOME_MDB_W
+description: Содержит DN выраженное в формате X500 DN. Это свойство возвращается из PtypString8. Область Адресная книга Каноническое имя PidTagAddressBookHomeMessageDatabase Альтернативные имена PR_EMS_AB_HOME_MDB PR_EMS_AB_HOME_MDB_A PR_EMS_AB_HOME_MDB_W
 type: docs
 weight: 670
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookhomemessagedatabase/
 ---
 ## KnownPropertyList.AddressBookHomeMessageDatabase field
 
-Содержит DN, выраженное в формате X500 DN. Это свойство возвращается из PtypString8. Область:Адресная книга Каноническое имя:PidTagAddressBookHomeMessageDatabase Альтернативные имена:PR_EMS_AB_HOME_MDB, PR_EMS_AB_HOME_MDB_A, PR_EMS_AB_HOME_MDB_W
+Содержит DN, выраженное в формате X500 DN. Это свойство возвращается из PtypString8. Область: Адресная книга Каноническое имя: PidTagAddressBookHomeMessageDatabase Альтернативные имена: PR_EMS_AB_HOME_MDB, PR_EMS_AB_HOME_MDB_A, PR_EMS_AB_HOME_MDB_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHomeMessageDatabase;

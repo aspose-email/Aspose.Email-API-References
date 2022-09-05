@@ -17,7 +17,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
@@ -46,7 +46,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -73,7 +73,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
@@ -98,12 +98,12 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, Pop3ListFields
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение
 
-Объект Task, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -126,7 +126,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
@@ -155,7 +155,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -182,7 +182,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
@@ -207,12 +207,12 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Pop3ListFie
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение
 
-Объект Task, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -235,7 +235,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -266,7 +266,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -294,7 +294,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, CancellationTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -321,9 +321,9 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, Pop3ListFields
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -350,7 +350,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -381,7 +381,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -409,7 +409,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Cancellatio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -436,9 +436,9 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Pop3ListFie
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

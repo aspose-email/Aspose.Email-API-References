@@ -16,7 +16,7 @@ public static HeaderType Importance { get; }
 
 ### 适当的价值
 
-重要性。
+的重要性。
 
 ### 也可以看看
 

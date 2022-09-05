@@ -1,7 +1,7 @@
 ---
 title: OnDragEnter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Raises the DragEnter event.
 type: docs
 weight: 40
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/ondragenter/

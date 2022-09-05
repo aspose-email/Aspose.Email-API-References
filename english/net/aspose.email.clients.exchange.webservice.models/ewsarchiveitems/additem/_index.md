@@ -1,12 +1,12 @@
 ---
 title: AddItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add item to archive.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem/
 ---
-## EwsArchiveItems.AddItem method (1 of 3)
+## AddItem(ExchangeTask) {#additem_1}
 
 Add item to archive.
 
@@ -27,7 +27,7 @@ public EwsArchiveItems AddItem(ExchangeTask task)
 
 ---
 
-## EwsArchiveItems.AddItem method (2 of 3)
+## AddItem(Appointment) {#additem}
 
 Add item to archive.
 
@@ -48,7 +48,7 @@ public EwsArchiveItems AddItem(Appointment appointment)
 
 ---
 
-## EwsArchiveItems.AddItem method (3 of 3)
+## AddItem(MapiMessageItemBase) {#additem_2}
 
 Add item to archive.
 

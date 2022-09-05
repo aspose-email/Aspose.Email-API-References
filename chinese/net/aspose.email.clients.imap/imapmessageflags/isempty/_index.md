@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Email for .NET API 参考
-description: 确定此实例是否为空
+description: 判断此实例是否为空
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/isempty/
 ---
 ## ImapMessageFlags.IsEmpty method
 
-确定此实例是否为空。
+判断此实例是否为空。
 
 ```csharp
 public bool IsEmpty()
@@ -16,7 +16,7 @@ public bool IsEmpty()
 
 ### 返回值
 
-` true` 如果此实例为空；否则，` false` 。
+`真的`如果此实例为空；否则，`错误的`.
 
 ### 也可以看看
 

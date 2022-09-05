@@ -1,14 +1,14 @@
 ---
 title: LogEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC когда закончилось действие. ОбластьЖурнал Каноническое имяPidLidLogEnd Альтернативные именаdispidLogEnd
+description: Содержит время окончания действия в формате UTC. Область Journal Каноническое имя PidLidLogEnd Альтернативные имена dispidLogEnd
 type: docs
 weight: 12260
 url: /ru/net/aspose.email.mapi/knownpropertylist/logend/
 ---
 ## KnownPropertyList.LogEnd field
 
-Содержит время в формате UTC, когда закончилось действие. Область:Журнал Каноническое имя:PidLidLogEnd Альтернативные имена:dispidLogEnd
+Содержит время окончания действия в формате UTC. Область: Journal Каноническое имя: PidLidLogEnd Альтернативные имена: dispidLogEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogEnd;

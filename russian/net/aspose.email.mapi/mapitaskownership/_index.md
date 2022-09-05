@@ -3,7 +3,7 @@ title: MapiTaskOwnership
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает роль текущего пользователя относительно объекта Task.
 type: docs
-weight: 18690
+weight: 18720
 url: /ru/net/aspose.email.mapi/mapitaskownership/
 ---
 ## MapiTaskOwnership enumeration
@@ -19,8 +19,8 @@ public enum MapiTaskOwnership
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotAssigned | `0` | Объект Задача не назначен. |
-| AssignersCopy | `1` | Объект Task является копией объекта Task для лица, назначающего задачу, . |
-| AssigneesCopy | `2` | Объект Task является копией объекта Task исполнителем . |
+| AssignersCopy | `1` | Объект Task — это копия объекта Task, назначенная назначающим задачу. |
+| AssigneesCopy | `2` | Объект Task является копией объекта Task исполнителем задачи. |
 
 ### Смотрите также
 

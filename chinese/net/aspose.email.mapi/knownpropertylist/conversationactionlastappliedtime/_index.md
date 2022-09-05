@@ -1,14 +1,14 @@
 ---
 title: ConversationActionLastAppliedTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含在 UTC 中最后一次在对话中接收到电子邮件对象的时间或用户最后一次修改对话操作的时间以较晚发生者为准 区域对话操作 规范名称PidLidConversationActionLastAppliedTime 替代名称dispidConvActionLastAppliedTime
+description: 包含在 UTC 中最后一次在对话中收到电子邮件对象的时间或用户最后一次修改对话操作的时间以较晚发生的为准 区域对话 Actions 规范名称PidLidConversationActionLastAppliedTime 替代名称dispidConvActionLastAppliedTime
 type: docs
 weight: 3340
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationactionlastappliedtime/
 ---
 ## KnownPropertyList.ConversationActionLastAppliedTime field
 
-包含在 UTC 中最后一次在对话中接收到电子邮件对象的时间，或用户最后一次修改对话操作的时间，以较晚发生者为准。 区域:对话操作 规范名称:PidLidConversationActionLastAppliedTime 替代名称:dispidConvActionLastAppliedTime
+包含在 UTC 中最后一次在对话中收到电子邮件对象的时间，或用户最后一次修改对话操作的时间，以较晚发生的为准。 区域：对话 Actions 规范名称：PidLidConversationActionLastAppliedTime 替代名称：dispidConvActionLastAppliedTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionLastAppliedTime;

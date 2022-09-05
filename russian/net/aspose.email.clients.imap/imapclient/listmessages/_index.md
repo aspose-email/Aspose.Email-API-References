@@ -1,14 +1,14 @@
 ---
 title: ListMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Список сообщений. Получает информацию для поискового сообщения
+description: Список сообщений. Получает информацию для поиска message
 type: docs
 weight: 870
 url: /ru/net/aspose.email.clients.imap/imapclient/listmessages/
 ---
 ## ListMessages(string, ImapListFields, int) {#listmessages_21}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
@@ -23,11 +23,11 @@ public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields 
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, ImapListFields, int) {#listmessages_8}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -50,18 +50,18 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | fieldsList | ImapListFields | Поля, которые могут быть получены с сервера. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -76,7 +76,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(string, IEnumerable&lt;string&gt;) {#listmessages_26}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<string> uniqueIdLst)
@@ -85,15 +85,15 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<str
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderName | String | Папка для получения сообщений. |
-| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`ImapMessageInfo`](../../imapmessageinfo)для получения с сервера. |
+| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`ImapMessageInfo`](../../imapmessageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -106,7 +106,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(string, IEnumerable&lt;int&gt;) {#listmessages_25}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<int> sequenceNumberLst)
@@ -115,15 +115,15 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<int
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderName | String | Папка для получения сообщений. |
-| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`ImapMessageInfo`](../../imapmessageinfo)для получения с сервера. |
+| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`ImapMessageInfo`](../../imapmessageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -136,7 +136,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, IEnumerable&lt;string&gt;) {#listmessages_13}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -145,17 +145,17 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
-| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`ImapMessageInfo`](../../imapmessageinfo)для получения с сервера. |
+| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`ImapMessageInfo`](../../imapmessageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -169,7 +169,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, IEnumerable&lt;int&gt;) {#listmessages_12}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -178,17 +178,17 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
-| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`ImapMessageInfo`](../../imapmessageinfo)для получения с сервера. |
+| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`ImapMessageInfo`](../../imapmessageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
-ImapMessageInfoCollection
+Имапмессажеинфоколлекшн
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -211,7 +211,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | modificationSequence | Int64 | Последовательность модификации |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
@@ -241,7 +241,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -267,7 +267,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 
 ### Возвращаемое значение
@@ -294,7 +294,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, bool retri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
 ### Возвращаемое значение
@@ -313,7 +313,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, bool retri
 
 ## ListMessages(IConnection, long) {#listmessages_6}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, long modificationSequence)
@@ -321,12 +321,12 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, long modif
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
-| modificationSequence | Int64 | Последовательность модификаций |
+| connection | IConnection | Подключение к серверу |
+| modificationSequence | Int64 | Последовательность модификации |
 
 ### Возвращаемое значение
 
-Коллекция[`ImapMessageInfo`](../../imapmessageinfo)представляет информацию о сообщениях.
+Коллекция[`ImapMessageInfo`](../../imapmessageinfo) представление информации о сообщениях.
 
 ### Смотрите также
 
@@ -349,7 +349,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
@@ -377,7 +377,7 @@ public ImapMessageInfoCollection ListMessages()
 
 ### Возвращаемое значение
 
-Коллекция ImapMessageInfo объекты
+Коллекция объектов ImapMessageInfo
 
 ### Смотрите также
 
@@ -398,7 +398,7 @@ public ImapMessageInfoCollection ListMessages(IEnumerable<string> messageExtraFi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List дополнительных параметров для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
@@ -423,7 +423,7 @@ public ImapMessageInfoCollection ListMessages(bool retrieveRecursively)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | Указывает , если сообщения должны извлекаться рекурсивно. |
+| retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
 ### Возвращаемое значение
 
@@ -519,7 +519,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, bool retrieveRe
 
 ## ListMessages(long) {#listmessages_18}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(long modificationSequence)
@@ -527,11 +527,11 @@ public ImapMessageInfoCollection ListMessages(long modificationSequence)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| modificationSequence | Int64 | Модификация sequence |
+| modificationSequence | Int64 | Последовательность модификации |
 
 ### Возвращаемое значение
 
-Коллекция[`ImapMessageInfo`](../../imapmessageinfo), представляющая информацию о сообщениях.
+Коллекция[`ImapMessageInfo`](../../imapmessageinfo) представление информации о сообщениях.
 
 ### Смотрите также
 
@@ -553,9 +553,9 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Расположение сообщений |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -583,8 +583,8 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
@@ -612,8 +612,8 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -641,7 +641,7 @@ public ImapMessageInfoCollection ListMessages(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
@@ -668,8 +668,8 @@ public ImapMessageInfoCollection ListMessages(string folderName, MailQuery query
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имяпапки | String | Расположение сообщений |
-| запрос | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| folderName | String | Расположение сообщений |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -696,7 +696,7 @@ public ImapMessageInfoCollection ListMessages(MailQuery query, int maxNumberOfMe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -723,18 +723,18 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, int maxNum
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| maxNumberOfMessages | Int32 | Максимальное количество Сообщения. |
+| connection | IConnection | Подключение к серверу |
+| maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
 
-Коллекция[`ImapMessageInfo`](../../imapmessageinfo)представляющая информацию о сообщениях.
+Коллекция[`ImapMessageInfo`](../../imapmessageinfo) представление информации о сообщениях.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
 
 ### Смотрите также
 
@@ -760,13 +760,13 @@ public ImapMessageInfoCollection ListMessages(int maxNumberOfMessages)
 
 ### Возвращаемое значение
 
-Коллекция[`ImapMessageInfo`](../../imapmessageinfo)представляющая информацию о сообщениях.
+Коллекция[`ImapMessageInfo`](../../imapmessageinfo) представление информации о сообщениях.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
 
 ### Смотрите также
 

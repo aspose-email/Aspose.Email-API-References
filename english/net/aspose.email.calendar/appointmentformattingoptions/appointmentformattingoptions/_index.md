@@ -1,7 +1,7 @@
 ---
 title: AppointmentFormattingOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AppointmentFormattingOptionsaspose.email.calendar/appointmentformattingoptions class. By default template will be created in the plain text format.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmentformattingoptions/appointmentformattingoptions/

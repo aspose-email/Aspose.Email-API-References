@@ -1,14 +1,14 @@
 ---
 title: MessageInfoBase
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageInfoBaseaspose.email.clients/messageinfobase.
+description: Инициализирует новый экземплярMessageInfoBaseaspose.email.clients/messageinfobase класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/messageinfobase/messageinfobase/
 ---
 ## MessageInfoBase constructor
 
-Инициализирует новый экземпляр класса[`MessageInfoBase`](../../messageinfobase).
+Инициализирует новый экземпляр[`MessageInfoBase`](../../messageinfobase) класс.
 
 ```csharp
 public MessageInfoBase()

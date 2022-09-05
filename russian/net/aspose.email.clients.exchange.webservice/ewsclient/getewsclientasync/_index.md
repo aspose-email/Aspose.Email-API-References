@@ -1,14 +1,14 @@
 ---
 title: GetEwsClientAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаEWSClientaspose.email.clients.exchange.webservice/ewsclientна основе
+description: Инициализирует новый экземплярEWSClientaspose.email.clients.exchange.webservice/ewsclient на основе class
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/
 ---
 ## EWSClient.GetEwsClientAsync method
 
-Инициализирует новый экземпляр класса[`EWSClient`](../../ewsclient)на основе
+Инициализирует новый экземпляр[`EWSClient`](../../ewsclient) на основе class
 
 ```csharp
 public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICredentials credentials, 
@@ -24,7 +24,7 @@ public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICreden
 
 ### Возвращаемое значение
 
-Экземпляр класса на основе класса[`EWSClient`](../../ewsclient).
+Экземпляр класса на основе[`EWSClient`](../../ewsclient) учебный класс.
 
 ### Смотрите также
 

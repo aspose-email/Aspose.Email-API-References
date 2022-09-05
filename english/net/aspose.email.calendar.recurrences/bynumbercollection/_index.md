@@ -1,7 +1,7 @@
 ---
 title: ByNumberCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a set of months weeks days hours minutes or seconds in a recurrence rule.
 type: docs
 weight: 660
 url: /net/aspose.email.calendar.recurrences/bynumbercollection/
@@ -18,8 +18,8 @@ public class ByNumberCollection : List<int>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add)(int) | Adds a month, week, day, hour, minute or second to the collection. |
-| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add)(int[]) | Adds an array of month, week, day, hour, minute or second to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add#add)(int) | Adds a month, week, day, hour, minute or second to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add#add_2)(int[]) | Adds an array of month, week, day, hour, minute or second to the collection. |
 
 ### Remarks
 

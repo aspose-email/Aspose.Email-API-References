@@ -1,14 +1,14 @@
 ---
 title: UserId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置执行导致记录被记录的操作在 Operation 属性中指定的用户的 UPN用户主体名称 例如my_namemy_domain_name 请注意系统帐户例如 SHAREPOINTsystem 或 NT AUTHORITYSYSTEM执行的活动记录也包括在内 强制是
+description: 获取或设置执行导致记录被记录的操作在操作属性中指定的用户的 UPN用户主体名称 例如my_namemy_domain_name 请注意系统帐户例如 SHAREPOINTsystem 或 NT AUTHORITYSYSTEM执行的活动记录也包括在内 强制是
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.activity/record/userid/
 ---
 ## Record.UserId property
 
-获取或设置执行导致记录被记录的操作（在 Operation 属性中指定）的用户的 UPN（用户主体名称）； 例如，my_name@my_domain_name。 请注意，系统帐户（例如 SHAREPOINT\system 或 NT AUTHORITY\SYSTEM）执行的活动记录也包括在内。 强制:是
+获取或设置执行导致记录被记录的操作（在操作属性中指定）的用户的 UPN（用户主体名称）； 例如，my_name@my_domain_name。 请注意，系统帐户（例如 SHAREPOINT\system 或 NT AUTHORITY\SYSTEM）执行的活动记录也包括在内。 强制：是
 
 ```csharp
 public string UserId { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CreationTime
 second_title: Aspose.Email for .NET API 参考
-description: 用户执行活动时的协调世界时 UTC 日期和时间 强制是
+description: 用户执行活动时的协调世界时 UTC 日期和时间 必填是
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/content/creationtime/
 ---
 ## Content.CreationTime property
 
-用户执行活动时的协调世界时 (UTC) 日期和时间。 强制:是
+用户执行活动时的协调世界时 (UTC) 日期和时间。 必填：是
 
 ```csharp
 public DateTime CreationTime { get; set; }

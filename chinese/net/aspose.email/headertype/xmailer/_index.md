@@ -1,14 +1,14 @@
 ---
 title: XMailer
 second_title: Aspose.Email for .NET API 参考
-description: 关于发起者客户端软件的信息 示例 X-MailerAspose.Email
+description: 发起者的客户端软件信息 示例 X-MailerAspose.Email
 type: docs
 weight: 270
 url: /zh/net/aspose.email/headertype/xmailer/
 ---
 ## HeaderType.XMailer property
 
-关于发起者客户端软件的信息。 示例: X-Mailer:Aspose.Email
+发起者的客户端软件信息。 示例： X-Mailer：Aspose.Email
 
 ```csharp
 public static HeaderType XMailer { get; }

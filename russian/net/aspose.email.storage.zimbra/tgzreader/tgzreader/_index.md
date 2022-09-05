@@ -1,14 +1,14 @@
 ---
 title: TgzReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаTgzReaderaspose.email.storage.zimbra/tgzreader.
+description: Инициализирует новый экземплярTgzReaderaspose.email.storage.zimbra/tgzreader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.zimbra/tgzreader/tgzreader/
 ---
 ## TgzReader constructor
 
-Инициализирует новый экземпляр класса[`TgzReader`](../../tgzreader).
+Инициализирует новый экземпляр[`TgzReader`](../../tgzreader) класс.
 
 ```csharp
 public TgzReader(string fileName)
@@ -22,7 +22,7 @@ public TgzReader(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Смотрите также
 

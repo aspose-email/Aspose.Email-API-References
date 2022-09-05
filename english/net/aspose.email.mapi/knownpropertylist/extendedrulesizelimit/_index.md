@@ -1,7 +1,7 @@
 ---
 title: ExtendedRuleSizeLimit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the maximum size in bytes that the user is allowed to accumulate for a single extended rule. Area Rules Canonical name PidTagExtendedRuleSizeLimit Alternate names PR_EXTENDED_RULE_SIZE_LIMIT
 type: docs
 weight: 10030
 url: /net/aspose.email.mapi/knownpropertylist/extendedrulesizelimit/

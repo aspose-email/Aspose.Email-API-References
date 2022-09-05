@@ -1,14 +1,14 @@
 ---
 title: LogDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит продолжительность действия в минутах. ОбластьЖурнал Каноническое имяPidLidLogDuration Альтернативные именаdispidLogDuration
+description: Содержит продолжительность активности в минутах. Область Journal Каноническое имя PidLidLogDuration Альтернативные имена dispidLogDuration
 type: docs
 weight: 12250
 url: /ru/net/aspose.email.mapi/knownpropertylist/logduration/
 ---
 ## KnownPropertyList.LogDuration field
 
-Содержит продолжительность действия в минутах. Область:Журнал Каноническое имя:PidLidLogDuration Альтернативные имена:dispidLogDuration
+Содержит продолжительность активности в минутах. Область: Journal Каноническое имя: PidLidLogDuration Альтернативные имена: dispidLogDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDuration;

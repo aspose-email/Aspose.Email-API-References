@@ -1,14 +1,14 @@
 ---
 title: WorkAddressPostalCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает часть почтового индекса ZIP code рабочего адреса контакта. ОбластьСвойства контакта Каноническое имяPidLidWorkAddressPostalCode Альтернативные именаdispidWorkAddressPostalCode
+description: Указывает часть почтового индекса ZIP-код рабочего адреса контакта. Область Свойства контакта Каноническое имя PidLidWorkAddressPostalCode Альтернативные имена dispidWorkAddressPostalCode
 type: docs
 weight: 19590
 url: /ru/net/aspose.email.mapi/knownpropertylist/workaddresspostalcode/
 ---
 ## KnownPropertyList.WorkAddressPostalCode field
 
-Указывает часть почтового индекса (ZIP code) рабочего адреса контакта. Область:Свойства контакта Каноническое имя:PidLidWorkAddressPostalCode Альтернативные имена:dispidWorkAddressPostalCode
+Указывает часть почтового индекса (ZIP-код) рабочего адреса контакта. Область: Свойства контакта Каноническое имя: PidLidWorkAddressPostalCode Альтернативные имена: dispidWorkAddressPostalCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressPostalCode;

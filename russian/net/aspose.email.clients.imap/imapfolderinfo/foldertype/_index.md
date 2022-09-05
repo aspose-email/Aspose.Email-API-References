@@ -1,14 +1,14 @@
 ---
 title: FolderType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о назначении папки в случае если она используется как специальная папка. Эта опция доступна только в том случае если сервер поддерживает IMAP LISTSpecial-Use Mailboxes rfc6154 Подробнееhttp//tools.ietf.org/html/rfc6154
+description: Получает информацию о назначении папки в случае если она используется как специальная папка. Эта опция доступна только в том случае если сервер поддерживает IMAP LIST Special-Use Mailboxes rfc6154 Подробнее http//tools.ietf.org /html/rfc6154
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/foldertype/
 ---
 ## ImapFolderInfo.FolderType property
 
-Получает информацию о назначении папки в случае, если она используется как специальная папка. Эта опция доступна только в том случае, если сервер поддерживает IMAP LIST:Special-Use Mailboxes (rfc6154) Подробнее:http://tools.ietf.org/html/rfc6154
+Получает информацию о назначении папки в случае, если она используется как специальная папка. Эта опция доступна только в том случае, если сервер поддерживает IMAP LIST: Special-Use Mailboxes (rfc6154) Подробнее: http://tools.ietf.org /html/rfc6154
 
 ```csharp
 public ImapSpecialFolderTypes FolderType { get; }

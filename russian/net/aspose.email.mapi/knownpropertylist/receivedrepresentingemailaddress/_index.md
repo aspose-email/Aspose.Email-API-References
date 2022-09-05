@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты конечного пользователя представленного принимающим владельцем почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagReceivedRepresentingEmailAddress Альтернативные именаPR_RCVD_REPRESENTING_EMAIL_ADDRESS PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W
+description: Содержит адрес электронной почты конечного пользователя представленного принимающим владельцем почтового ящика. Область Свойства адреса Каноническое имя PidTagReceivedRepresentingEmailAddress Альтернативные имена PR_RCVD_REPRESENTING_EMAIL_ADDRESS PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W
 type: docs
 weight: 15340
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedrepresentingemailaddress/
 ---
 ## KnownPropertyList.ReceivedRepresentingEmailAddress field
 
-Содержит адрес электронной почты конечного пользователя, представленного принимающим владельцем почтового ящика. Область:Свойства адреса Каноническое имя:PidTagReceivedRepresentingEmailAddress Альтернативные имена:PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W
+Содержит адрес электронной почты конечного пользователя, представленного принимающим владельцем почтового ящика. Область: Свойства адреса Каноническое имя: PidTagReceivedRepresentingEmailAddress Альтернативные имена: PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingEmailAddress;

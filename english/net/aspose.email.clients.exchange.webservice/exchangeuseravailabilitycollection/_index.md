@@ -1,7 +1,7 @@
 ---
 title: ExchangeUserAvailabilityCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collection of ExchangeUserAvailability./exchangeuseravailability
 type: docs
 weight: 3870
 url: /net/aspose.email.clients.exchange.webservice/exchangeuseravailabilitycollection/

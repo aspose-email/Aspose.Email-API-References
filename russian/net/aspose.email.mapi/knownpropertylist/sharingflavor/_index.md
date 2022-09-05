@@ -1,14 +1,14 @@
 ---
 title: SharingFlavor
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип объекта Sharing Message. ОбластьСовместное использование Каноническое имяPidLidSharingFlavor Альтернативные именаdispidSharingFlavor
+description: Указывает тип объекта Sharing Message. Область Sharing Каноническое имя PidLidSharingFlavor Альтернативные имена dispidSharingFlavor
 type: docs
 weight: 17500
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingflavor/
 ---
 ## KnownPropertyList.SharingFlavor field
 
-Указывает тип объекта Sharing Message. Область:Совместное использование Каноническое имя:PidLidSharingFlavor Альтернативные имена:dispidSharingFlavor
+Указывает тип объекта Sharing Message. Область: Sharing Каноническое имя: PidLidSharingFlavor Альтернативные имена: dispidSharingFlavor
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFlavor;

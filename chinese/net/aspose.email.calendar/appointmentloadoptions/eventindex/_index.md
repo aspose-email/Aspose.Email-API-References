@@ -1,14 +1,14 @@
 ---
 title: EventIndex
 second_title: Aspose.Email for .NET API 参考
-description: 在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引 在 CalendarReaderCalendarReaderaspose.email.calendar/calendarreader读取多个事件时的起始 VEVENT
+description: 在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引 在 CalendarReader 读取多个事件的情况下的起始 VEVENTCalendarReaderaspose.email.calendar/calendarreader.
 type: docs
 weight: 40
 url: /zh/net/aspose.email.calendar/appointmentloadoptions/eventindex/
 ---
 ## AppointmentLoadOptions.EventIndex property
 
-在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引。 在 CalendarReader[`CalendarReader`](../../calendarreader)读取多个事件时的起始 VEVENT。
+在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引。 在 CalendarReader 读取多个事件的情况下的起始 VEVENT[`CalendarReader`](../../calendarreader).
 
 ```csharp
 public int EventIndex { get; set; }

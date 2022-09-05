@@ -3,7 +3,7 @@ title: MapiTaskAcceptanceState
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает состояние принятия задачи.
 type: docs
-weight: 18650
+weight: 18680
 url: /ru/net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 ## MapiTaskAcceptanceState enumeration
@@ -20,7 +20,7 @@ public enum MapiTaskAcceptanceState
 | --- | --- | --- |
 | NotAssigned | `0` | Объект Задача не назначен. |
 | Unknown | `1` | Статус принятия объекта "Задача" неизвестен. |
-| Accepted | `2` | Ответственный за задачу принял объект Задачи. |
+| Accepted | `2` | Ответственный за задачу принял объект задачи. |
 | Rejected | `3` | Ответственный за задачу отклонил объект задачи. |
 
 ### Смотрите также

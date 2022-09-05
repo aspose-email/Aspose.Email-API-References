@@ -1,14 +1,14 @@
 ---
 title: PersonalHomePage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL личной веб-страницы контакта
+description: Указывает личную веб-страницу контакта URL
 type: docs
 weight: 180
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage/
 ---
 ## MapiContactPersonalInfoPropertySet.PersonalHomePage property
 
-Указывает URL личной веб-страницы контакта
+Указывает личную веб-страницу контакта URL
 
 ```csharp
 public string PersonalHomePage { get; set; }

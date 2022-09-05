@@ -1,7 +1,7 @@
 ---
 title: Language
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the language that the OOF message was written in.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/replybody/language/

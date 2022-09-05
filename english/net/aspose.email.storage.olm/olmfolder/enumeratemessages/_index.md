@@ -1,12 +1,12 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exposes the enumerator which supports an iteration of messages in folder.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.olm/olmfolder/enumeratemessages/
 ---
-## OlmFolder.EnumerateMessages method (1 of 3)
+## EnumerateMessages() {#enumeratemessages}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -27,7 +27,7 @@ IEnumerable, that represents an enumerator that iterates through a messages in f
 
 ---
 
-## OlmFolder.EnumerateMessages method (2 of 3)
+## EnumerateMessages(int, int) {#enumeratemessages_2}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -64,7 +64,7 @@ If "count" param is less than 0 or more than remained message count then remaine
 
 ---
 
-## OlmFolder.EnumerateMessages method (3 of 3)
+## EnumerateMessages(MailQuery) {#enumeratemessages_1}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 

@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 商店 ID
+description: 商店 ID.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/exchangeitem/id/
 ---
 ## ExchangeItem.Id property
 
-商店 ID。
+商店 ID.
 
 ```csharp
 public string Id { get; set; }

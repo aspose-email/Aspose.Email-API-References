@@ -3,7 +3,7 @@ title: MapiContactOtherPropertySet
 second_title: Aspose.Email for .NET API 参考
 description: 属性用于指定接触的附加属性
 type: docs
-weight: 18230
+weight: 18260
 url: /zh/net/aspose.email.mapi/mapicontactotherpropertyset/
 ---
 ## MapiContactOtherPropertySet class
@@ -18,7 +18,7 @@ public sealed class MapiContactOtherPropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactOtherPropertySet](mapicontactotherpropertyset)() | 初始化 [`MapiContactOtherPropertySet`](../mapicontactotherpropertyset) 类的新实例 |
+| [MapiContactOtherPropertySet](mapicontactotherpropertyset)() | 初始化一个新的实例[`MapiContactOtherPropertySet`](../mapicontactotherpropertyset) class |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: ComparisonField
 second_title: Aspose.Email for .NET API 参考
-description: 表示一个搜索字段的基类
+description: 代表一个搜索字段的基类
 type: docs
-weight: 20620
+weight: 20670
 url: /zh/net/aspose.email.tools.search/comparisonfield/
 ---
 ## ComparisonField class
 
-表示一个搜索字段的基类。
+代表一个搜索字段的基类。
 
 ```csharp
 public abstract class ComparisonField : QueryField

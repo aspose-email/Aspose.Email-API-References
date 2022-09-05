@@ -1,14 +1,14 @@
 ---
 title: ServerProcessed
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否已处理会议请求对象或会议更新对象 区域日历 规范名称PidLidServerProcessed 备用名称dispidExchangeProcessed
+description: 指示是否已处理会议请求对象或会议更新对象 区域Calendar 规范名称PidLidServerProcessed 备用名称dispidExchangeProcessed
 type: docs
 weight: 17290
 url: /zh/net/aspose.email.mapi/knownpropertylist/serverprocessed/
 ---
 ## KnownPropertyList.ServerProcessed field
 
-指示是否已处理会议请求对象或会议更新对象。 区域:日历 规范名称:PidLidServerProcessed 备用名称:dispidExchangeProcessed
+指示是否已处理会议请求对象或会议更新对象。 区域：Calendar 规范名称：PidLidServerProcessed 备用名称：dispidExchangeProcessed
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ServerProcessed;

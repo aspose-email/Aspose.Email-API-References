@@ -1,9 +1,9 @@
 ---
 title: ResourceHtmlRenderingEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents additional parameters for ResourceHtmlRendering event.
 type: docs
-weight: 19720
+weight: 19950
 url: /net/aspose.email/resourcehtmlrenderingeventargs/
 ---
 ## ResourceHtmlRenderingEventArgs class

@@ -1,7 +1,7 @@
 ---
 title: TaskVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates which copy is the latest update of a Task object. Area Tasks Canonical name PidLidTaskVersion Alternate names dispidTaskVersion
 type: docs
 weight: 18860
 url: /net/aspose.email.mapi/knownpropertylist/taskversion/

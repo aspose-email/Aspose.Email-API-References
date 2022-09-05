@@ -3,7 +3,7 @@ title: MapiContactEventPropertySet
 second_title: Aspose.Email for .NET API 参考
 description: 指定与联系人关联的事件
 type: docs
-weight: 18200
+weight: 18230
 url: /zh/net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactEventPropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor)() | 初始化 [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) 类的新实例 |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor_1)(MapiPropertyCollection) | 初始化 [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) 类的新实例 |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor)() | 初始化[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor_1)(MapiPropertyCollection) | 初始化[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: XSharingFlavor
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidLidSharingFlavor 属性值的十六进制字符串表示形式第 2.245 节 区域共享 规范名称PidNameXSharingFlavor 别名
+description: 包含 PidLidSharingFlavor 属性值的十六进制字符串表示形式第 2.245 节 区域Sharing 规范名称PidNameXSharingFlavor 替代名称
 type: docs
 weight: 19750
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharingflavor/
 ---
 ## KnownPropertyList.XSharingFlavor field
 
-包含 PidLidSharingFlavor 属性值的十六进制字符串表示形式（第 2.245 节）。 区域:共享 规范名称:PidNameXSharingFlavor 别名:
+包含 PidLidSharingFlavor 属性值的十六进制字符串表示形式（第 2.245 节）。 区域：Sharing 规范名称：PidNameXSharingFlavor 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingFlavor;

@@ -1,14 +1,14 @@
 ---
 title: Folder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classesfolder  который определяет набор свойств для папки в хранилище Exchange.
+description: Получает класс содержимого urncontent-classesfolder  определяющий набор свойств для папки в хранилище Exchange.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/folder/
 ---
 ## ContentClassType.Folder property
 
-Получает класс содержимого urn:content-classes:folder , который определяет набор свойств для папки в хранилище Exchange.
+Получает класс содержимого urn:content-classes:folder , определяющий набор свойств для папки в хранилище Exchange.
 
 ```csharp
 public static ContentClassType Folder { get; }

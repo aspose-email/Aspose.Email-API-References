@@ -1,7 +1,7 @@
 ---
 title: FileDropEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FileDropEventArgsaspose.email.windows.wpf/filedropeventargs class.
 type: docs
 weight: 10
 url: /net/aspose.email.windows.wpf/filedropeventargs/filedropeventargs/

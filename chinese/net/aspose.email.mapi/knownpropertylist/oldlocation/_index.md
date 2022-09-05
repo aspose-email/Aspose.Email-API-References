@@ -1,14 +1,14 @@
 ---
 title: OldLocation
 second_title: Aspose.Email for .NET API 参考
-description: 表示会议更新前 PidLidLocation 属性第 2.159 节的原始值 区域会议 规范名称PidLidOldLocation 别名dispidOldLocation
+description: 表示 PidLidLocation 属性第 2.159 节在会议更新之前的原始值 区域Meetings 规范名称PidLidOldLocation 替代名称dispidOldLocation
 type: docs
 weight: 13330
 url: /zh/net/aspose.email.mapi/knownpropertylist/oldlocation/
 ---
 ## KnownPropertyList.OldLocation field
 
-表示会议更新前 PidLidLocation 属性（第 2.159 节）的原始值。 区域:会议 规范名称:PidLidOldLocation 别名:dispidOldLocation
+表示 PidLidLocation 属性（第 2.159 节）在会议更新之前的原始值。 区域：Meetings 规范名称：PidLidOldLocation 替代名称：dispidOldLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldLocation;

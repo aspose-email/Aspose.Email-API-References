@@ -1,7 +1,7 @@
 ---
 title: ConversationActionMoveStoreEid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID for a move to a folder in a different message store. Area Conversation Actions Canonical name PidLidConversationActionMoveStoreEid Alternate names dispidConvActionMoveStoreEid
 type: docs
 weight: 3370
 url: /net/aspose.email.mapi/knownpropertylist/conversationactionmovestoreeid/

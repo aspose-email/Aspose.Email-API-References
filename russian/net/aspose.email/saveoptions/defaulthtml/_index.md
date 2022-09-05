@@ -1,14 +1,14 @@
 ---
 title: DefaultHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает параметры со значениями по умолчанию для сохранения сообщения в формате Html.
+description: Получает параметры со значениями по умолчанию для сохранения сообщения в формате HTML.
 type: docs
 weight: 50
 url: /ru/net/aspose.email/saveoptions/defaulthtml/
 ---
 ## SaveOptions.DefaultHtml property
 
-Получает параметры со значениями по умолчанию для сохранения сообщения в формате Html.
+Получает параметры со значениями по умолчанию для сохранения сообщения в формате HTML.
 
 ```csharp
 public static HtmlSaveOptions DefaultHtml { get; }

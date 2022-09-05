@@ -1,14 +1,14 @@
 ---
 title: Owner
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户是否是电子邮件的所有者 如果用户是电子邮件的所有者则值为 TRUE否则错误 TRUE 值表示经过身份验证的用户对此消息具有所有者权限 此元素仅用于信息展示目的 Allowed 元素EditAllowedReplyAllowed 等用于评估是否允许或限制特定操作
+description: 指定用户是否是电子邮件的所有者 如果用户是电子邮件的所有者则值为 TRUE否则该值为 TRUE否则错误 TRUE 值表示经过身份验证的用户对此消息具有所有者权限 此元素仅用于信息呈现目的 允许的元素EditAllowedReplyAllowed 等用于评估是否允许或限制特定操作
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/owner/
 ---
 ## RightsManagementLicense.Owner property
 
-指定用户是否是电子邮件的所有者。 如果用户是电子邮件的所有者，则值为 TRUE；否则，错误。 TRUE 值表示经过身份验证的用户对此消息具有所有者权限。 此元素仅用于信息展示目的。 Allowed 元素（EditAllowed、ReplyAllowed 等）用于评估是否允许或限制特定操作。
+指定用户是否是电子邮件的所有者。 如果用户是电子邮件的所有者，则值为 TRUE；否则，该值为 TRUE。否则，错误。 TRUE 值表示经过身份验证的用户对此消息具有所有者权限。 此元素仅用于信息呈现目的。 允许的元素（EditAllowed、ReplyAllowed 等）用于评估是否允许或限制特定操作。
 
 ```csharp
 public bool Owner { get; set; }

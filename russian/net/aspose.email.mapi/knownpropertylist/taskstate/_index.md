@@ -1,14 +1,14 @@
 ---
 title: TaskState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает текущее состояние назначения объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskState Альтернативные именаdispidTaskState
+description: Указывает текущее состояние назначения объекта Task. Область Tasks Каноническое имя PidLidTaskState Альтернативные имена dispidTaskState
 type: docs
 weight: 18820
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskstate/
 ---
 ## KnownPropertyList.TaskState field
 
-Указывает текущее состояние назначения объекта Task. Область:Задачи Каноническое имя:PidLidTaskState Альтернативные имена:dispidTaskState
+Указывает текущее состояние назначения объекта Task. Область: Tasks Каноническое имя: PidLidTaskState Альтернативные имена: dispidTaskState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskState;

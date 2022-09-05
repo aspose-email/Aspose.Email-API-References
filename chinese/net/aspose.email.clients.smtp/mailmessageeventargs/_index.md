@@ -18,7 +18,7 @@ public class MailMessageEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailMessageEventArgs](mailmessageeventargs)(MailMessage) | 初始化[`MailMessageEventArgs`](../mailmessageeventargs)类的新实例。 |
+| [MailMessageEventArgs](mailmessageeventargs)(MailMessage) | 初始化[`MailMessageEventArgs`](../mailmessageeventargs)类. |
 
 ## 特性
 

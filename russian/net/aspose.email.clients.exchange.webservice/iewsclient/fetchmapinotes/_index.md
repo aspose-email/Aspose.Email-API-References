@@ -1,14 +1,14 @@
 ---
 title: FetchMapiNotes
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить массив объектовMapiNoteaspose.email.mapi/mapinote.
+description: Получить массивMapiNoteaspose.email.mapi/mapinote объекты.
 type: docs
 weight: 790
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes/
 ---
 ## FetchMapiNotes(IEnumerable&lt;string&gt;) {#fetchmapinotes}
 
-Получить массив объектов[`MapiNote`](../../../aspose.email.mapi/mapinote).
+Получить массив[`MapiNote`](../../../aspose.email.mapi/mapinote) объекты.
 
 ```csharp
 public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
@@ -16,11 +16,11 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| noteUris | IEnumerable`1 | Список Uris заметок, которые необходимо извлечь. |
+| noteUris | IEnumerable`1 | Список кодов заметок, которые необходимо получить. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiNote`](../../../aspose.email.mapi/mapinote).
+Получить массив[`MapiNote`](../../../aspose.email.mapi/mapinote) объекты.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
 
 ## FetchMapiNotes(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapinotes_1}
 
-Получить массив объектов[`MapiNote`](../../../aspose.email.mapi/mapinote).
+Получить массив[`MapiNote`](../../../aspose.email.mapi/mapinote) объекты.
 
 ```csharp
 public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris, 
@@ -42,12 +42,12 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| noteUris | IEnumerable`1 | Список Uris заметок, которые необходимо извлечь. |
-| customProperties | IEnumerable`1 | Пользовательские свойства карты для получения. |
+| noteUris | IEnumerable`1 | Список кодов заметок, которые необходимо получить. |
+| customProperties | IEnumerable`1 | Пользовательские свойства mapi для извлечения. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiNote`](../../../aspose.email.mapi/mapinote).
+Получить массив[`MapiNote`](../../../aspose.email.mapi/mapinote) объекты.
 
 ### Смотрите также
 

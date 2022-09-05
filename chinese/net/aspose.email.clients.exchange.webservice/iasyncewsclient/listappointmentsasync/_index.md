@@ -17,9 +17,9 @@ public Task<Appointment[]> ListAppointmentsAsync(string folderUri, MailQuery que
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| recursive | Boolean | 表示是否递归列出。 |
+| recursive | Boolean | 指示是否递归列表。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值

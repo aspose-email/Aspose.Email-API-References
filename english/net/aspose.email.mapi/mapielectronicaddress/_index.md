@@ -1,9 +1,9 @@
 ---
 title: MapiElectronicAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refers to the group of properties that define the email address or fax address.
 type: docs
-weight: 18210
+weight: 18420
 url: /net/aspose.email.mapi/mapielectronicaddress/
 ---
 ## MapiElectronicAddress class
@@ -18,10 +18,10 @@ public sealed class MapiElectronicAddress
 
 | Name | Description |
 | --- | --- |
-| [MapiElectronicAddress](mapielectronicaddress)() | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
-| [MapiElectronicAddress](mapielectronicaddress)(string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
-| [MapiElectronicAddress](mapielectronicaddress)(string, string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
-| [MapiElectronicAddress](mapielectronicaddress)(string, string, string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor)() | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_1)(string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_2)(string, string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_3)(string, string, string) | Initializes a new instance of the [`MapiElectronicAddress`](../mapielectronicaddress) class. |
 
 ## Properties
 

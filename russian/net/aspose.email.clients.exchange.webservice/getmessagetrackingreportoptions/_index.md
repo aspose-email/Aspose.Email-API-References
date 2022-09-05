@@ -18,13 +18,13 @@ public sealed class GetMessageTrackingReportOptions
 
 | Имя | Описание |
 | --- | --- |
-| [GetMessageTrackingReportOptions](getmessagetrackingreportoptions)(string, string) | Инициализирует новый экземпляр класса[`GetMessageTrackingReportOptions`](../getmessagetrackingreportoptions) |
+| [GetMessageTrackingReportOptions](getmessagetrackingreportoptions)(string, string) | Инициализирует новый экземпляр[`GetMessageTrackingReportOptions`](../getmessagetrackingreportoptions) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Получает или задает сведения о времени и производительности, которые будут использоваться для получения отчета. |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Получает или задает время и информацию о производительности, которая будет использоваться для получения отчета. |
 | [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/messagetrackingreportid) { get; set; } | Получает или задает строку идентификатора, полученную из операции FindMessageTrackingReport (непустая строка) |
 | [RecipientFilter](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/recipientfilter) { get; set; } | Получает или задает адрес получателя для использования с указанным отчетом. |
 | [ReportTemplate](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/reporttemplate) { get; set; } | Получает или задает тип получаемого отчета. |

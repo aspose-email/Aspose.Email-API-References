@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Позволяет указать дополнительные параметры при сохранении MailMessage в формате Mhtml.
 type: docs
-weight: 19050
+weight: 19080
 url: /ru/net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class
@@ -27,7 +27,7 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [AfterHeadersFormat](../../aspose.email/headersformattingoptions/afterheadersformat) { get; set; } | После формата заголовков. |
 | [BeforeHeadersFormat](../../aspose.email/headersformattingoptions/beforeheadersformat) { get; set; } | Перед форматом заголовков. |
 | [CheckBodyContentEncoding](../../aspose.email/mhtsaveoptions/checkbodycontentencoding) { get; set; } | Определяет, нужно ли проверять кодировку содержимого тела сообщения при сохранении. |
-| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили css для средства форматирования. |
+| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили CSS для средства форматирования. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Представляет метод, который обычно предоставляется вызывающей стороной и обрабатывает события выполнения. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | Формат строки заголовка по умолчанию. |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat) { get; set; } | Формат заголовка страницы по умолчанию. |
@@ -35,12 +35,12 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Представляет тип сохранения почтового сообщения. Он может быть в формате eml, msg (ASCII или Unicode), mhtml или html. Значение по умолчанию — Eml. |
 | [MhtFormatOptions](../../aspose.email/mhtsaveoptions/mhtformatoptions) { get; set; } | Определяет дополнительные параметры при сохранении в формате MHTML. Значение по умолчанию — MhtFormatOptions.WriteHeader &#x7C; MhtFormatOptions.WriteOutlineAttachments. |
 | [PreserveOriginalBoundaries](../../aspose.email/mhtsaveoptions/preserveoriginalboundaries) { get; set; } | Определяет, нужно ли сохранять исходные границы в почтовом сообщении при сохранении или нет. |
-| [PreserveOriginalDate](../../aspose.email/mhtsaveoptions/preserveoriginaldate) { get; set; } | Определяет, нужно ли сохранять исходную дату в почтовом сообщении при сохранении или нет. Значение по умолчанию — true. |
-| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы контактных полей, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
+| [PreserveOriginalDate](../../aspose.email/mhtsaveoptions/preserveoriginaldate) { get; set; } | Определяет, нужно ли сохранять исходную дату в почтовом сообщении при сохранении. Значение по умолчанию — true. |
+| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы полей контактов, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders) { get; } | Получает список заголовков для рендеринга. |
 | [SaveAttachments](../../aspose.email/mhtsaveoptions/saveattachments) { get; set; } | Получает или задает значение, указывающее, следует ли сохранять вложения. |
 | [SkipInlineImages](../../aspose.email/mhtsaveoptions/skipinlineimages) { get; set; } | Определяет, пропускать ли ссылки на изображения при сохранении в mhtml или нет. Значение по умолчанию — false. |
-| [Timeout](../../aspose.email/mhtsaveoptions/timeout) { get; set; } | Ограничивает время форматирования сообщения в миллисекундах при сохранении в Mht. Значение по умолчанию 3 сек. |
+| [Timeout](../../aspose.email/mhtsaveoptions/timeout) { get; set; } | Ограничивает время в миллисекундах форматирования сообщения при сохранении в Mht. Значение по умолчанию 3 сек. |
 
 ### Смотрите также
 

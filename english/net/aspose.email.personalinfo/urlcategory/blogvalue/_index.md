@@ -1,7 +1,7 @@
 ---
 title: BlogValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Blog category
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/urlcategory/blogvalue/

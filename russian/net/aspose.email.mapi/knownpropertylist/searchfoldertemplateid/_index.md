@@ -1,14 +1,14 @@
 ---
 title: SearchFolderTemplateId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор шаблона который используется для поиска. ОбластьПоиск Каноническое имяPidTagSearchFolderTemplateId Альтернативные именаPR_WB_SF_TEMPLATE_ID
+description: Содержит идентификатор шаблона который используется для поиска. Область Search Каноническое имя PidTagSearchFolderTemplateId Альтернативные имена PR_WB_SF_TEMPLATE_ID
 type: docs
 weight: 17020
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfoldertemplateid/
 ---
 ## KnownPropertyList.SearchFolderTemplateId field
 
-Содержит идентификатор шаблона, который используется для поиска. Область:Поиск Каноническое имя:PidTagSearchFolderTemplateId Альтернативные имена:PR_WB_SF_TEMPLATE_ID
+Содержит идентификатор шаблона, который используется для поиска. Область: Search Каноническое имя: PidTagSearchFolderTemplateId Альтернативные имена: PR_WB_SF_TEMPLATE_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderTemplateId;

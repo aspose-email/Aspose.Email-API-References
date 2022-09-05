@@ -3,7 +3,7 @@ title: SetTimeZone
 second_title: Aspose.Email for .NET API 参考
 description: 设置时区
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/aspose.email.calendar/appointment/settimezone/
 ---
 ## Appointment.SetTimeZone method
@@ -16,7 +16,7 @@ public void SetTimeZone(string tzName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tzName | String | 时区名称，示例“美国/纽约” |
+| tzName | String | 时区名称，示例“America/New_York” |
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: CalendarTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time zone of an appointment or meeting. Area Common Canonical name PidNameCalendarTimeZone Alternate names urnschemascalendartimezone
 type: docs
 weight: 2410
 url: /net/aspose.email.mapi/knownpropertylist/calendartimezone/

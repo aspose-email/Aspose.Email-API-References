@@ -1,14 +1,14 @@
 ---
 title: EmsAbTelephonePersonalPager
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_TELEPHONE_PERSONAL_PAGER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_TELEPHONE_PERSONAL_PAGER
 type: docs
 weight: 9100
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtelephonepersonalpager/
 ---
 ## KnownPropertyList.EmsAbTelephonePersonalPager field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_TELEPHONE_PERSONAL_PAGER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_TELEPHONE_PERSONAL_PAGER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTelephonePersonalPager;

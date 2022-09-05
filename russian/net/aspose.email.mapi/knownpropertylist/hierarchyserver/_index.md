@@ -1,14 +1,14 @@
 ---
 title: HierarchyServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_HIERARCHY_SERVER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_HIERARCHY_SERVER
 type: docs
 weight: 10940
 url: /ru/net/aspose.email.mapi/knownpropertylist/hierarchyserver/
 ---
 ## KnownPropertyList.HierarchyServer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_HIERARCHY_SERVER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_HIERARCHY_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HierarchyServer;

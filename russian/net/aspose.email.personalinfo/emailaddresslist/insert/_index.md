@@ -16,8 +16,8 @@ public void Insert(int index, EmailAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | EmailAddress | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | EmailAddress | Object вставить в список. |
 
 ### Смотрите также
 

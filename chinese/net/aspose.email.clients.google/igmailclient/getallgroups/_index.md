@@ -22,7 +22,7 @@ public ContactGroupCollection GetAllGroups()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| WebException | 当操作失败 |
+| WebException | 当操作失败时 |
 
 ### 也可以看看
 

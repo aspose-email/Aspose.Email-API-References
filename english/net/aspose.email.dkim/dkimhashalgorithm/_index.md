@@ -1,9 +1,9 @@
 ---
 title: DKIMHashAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents DKIM hash algorithm.
 type: docs
-weight: 17040
+weight: 17210
 url: /net/aspose.email.dkim/dkimhashalgorithm/
 ---
 ## DKIMHashAlgorithm enumeration

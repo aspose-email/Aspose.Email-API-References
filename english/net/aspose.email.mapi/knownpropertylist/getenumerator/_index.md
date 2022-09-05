@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through the collection.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/knownpropertylist/getenumerator/

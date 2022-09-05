@@ -1,14 +1,14 @@
 ---
 title: ResumeMonitoring
 second_title: Aspose.Email for .NET API 参考
-description: 恢复监视指定文件夹的消息更改 与 StartMonitoring 方法不同它会找到所有丢失的邮箱更改并为它们调用 回调
+description: 恢复监视指定文件夹的消息更改 与 StartMonitoring 方法不同它将查找所有丢失的邮箱更改并为它们调用 回调
 type: docs
 weight: 1070
 url: /zh/net/aspose.email.clients.imap/imapclient/resumemonitoring/
 ---
 ## ImapClient.ResumeMonitoring method
 
-恢复监视指定文件夹的消息更改。 与 StartMonitoring 方法不同，它会找到所有丢失的邮箱更改并为它们调用 回调。
+恢复监视指定文件夹的消息更改。 与 StartMonitoring 方法不同，它将查找所有丢失的邮箱更改并为它们调用 回调。
 
 ```csharp
 public void ResumeMonitoring(ImapMonitoringEventHandler callback, 
@@ -17,9 +17,9 @@ public void ResumeMonitoring(ImapMonitoringEventHandler callback,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| callback | ImapMonitoringEventHandler | 监听操作的回调函数。 |
-| errorCallback | ImapMonitoringErrorEventHandler | 监控错误处理的回调函数。 调用此回调时停止监视指定文件夹。 |
-| monitoringState | IImapMonitoringState | 恢复文件夹监控的监控状态。 可以从[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate)中检索。 |
+| callback | ImapMonitoringEventHandler | 监控操作的回调函数。 |
+| errorCallback | ImapMonitoringErrorEventHandler | 监控错误处理的回调函数。 调用此回调时停止对指定文件夹的监控。 |
+| monitoringState | IImapMonitoringState | 恢复文件夹监视的监视状态。 可以从中检索[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate). |
 
 ### 也可以看看
 

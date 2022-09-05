@@ -1,14 +1,14 @@
 ---
 title: DiscreteValues
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DISCRETE_VALUES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DISCRETE_VALUES
 type: docs
 weight: 4100
 url: /ru/net/aspose.email.mapi/knownpropertylist/discretevalues/
 ---
 ## KnownPropertyList.DiscreteValues field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DISCRETE_VALUES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DISCRETE_VALUES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DiscreteValues;

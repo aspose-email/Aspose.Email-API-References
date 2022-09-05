@@ -1,9 +1,9 @@
 ---
 title: MapiRecipient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the recipient information in the Microsoft Outlook Message.
 type: docs
-weight: 18420
+weight: 18630
 url: /net/aspose.email.mapi/mapirecipient/
 ---
 ## MapiRecipient class

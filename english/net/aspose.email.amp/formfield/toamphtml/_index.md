@@ -1,7 +1,7 @@
 ---
 title: ToAmpHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents amp html version of field.
 type: docs
 weight: 90
 url: /net/aspose.email.amp/formfield/toamphtml/

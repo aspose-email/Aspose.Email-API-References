@@ -1,12 +1,12 @@
 ---
 title: SetFlagForRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the flag for a draft message to remind recipients to followup.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/followupmanager/setflagforrecipients/
 ---
-## FollowUpManager.SetFlagForRecipients method (1 of 2)
+## SetFlagForRecipients(MapiMessage, string) {#setflagforrecipients}
 
 Sets the flag for a draft message to remind recipients to follow-up.
 
@@ -36,7 +36,7 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest)
 
 ---
 
-## FollowUpManager.SetFlagForRecipients method (2 of 2)
+## SetFlagForRecipients(MapiMessage, string, DateTime) {#setflagforrecipients_1}
 
 Sets the flag for a draft message to remind recipients to follow-up.
 

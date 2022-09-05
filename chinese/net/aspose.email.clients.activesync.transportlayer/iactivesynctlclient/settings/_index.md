@@ -1,14 +1,14 @@
 ---
 title: Settings
 second_title: Aspose.Email for .NET API 参考
-description: 设置支持对全局属性和用户外出 OOF 设置的获取和设置操作 设置还向服务器发送设备信息实现设备密码/个人识别码 PIN 恢复并检索用户电子邮件地址列表
+description: 设置支持对全局属性和用户外出 OOF 设置的获取和设置操作 设置还将设备信息发送到服务器实现设备密码/个人识别码 PIN 恢复并检索用户的电子邮件地址列表
 type: docs
 weight: 210
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/settings/
 ---
 ## IActiveSyncTLClient.Settings method
 
-设置支持对全局属性和用户外出 (OOF) 设置的获取和设置操作。 设置还向服务器发送设备信息，实现设备密码/个人识别码 (PIN) 恢复，并检索用户电子邮件地址列表。
+设置支持对全局属性和用户外出 (OOF) 设置的获取和设置操作。 设置还将设备信息发送到服务器，实现设备密码/个人识别码 (PIN) 恢复，并检索用户的电子邮件地址列表。
 
 ```csharp
 public SettingsResponse Settings(SettingsRequest request)
@@ -16,7 +16,7 @@ public SettingsResponse Settings(SettingsRequest request)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| request | SettingsRequest | 设置操作参数 |
+| request | SettingsRequest | 设置运行参数 |
 
 ### 返回值
 

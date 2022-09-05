@@ -1,7 +1,7 @@
 ---
 title: TimezoneId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets timezone id
 type: docs
 weight: 210
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/timezoneid/

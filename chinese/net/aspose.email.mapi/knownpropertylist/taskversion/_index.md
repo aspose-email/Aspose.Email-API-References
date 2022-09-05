@@ -1,14 +1,14 @@
 ---
 title: TaskVersion
 second_title: Aspose.Email for .NET API 参考
-description: 指示哪个副本是任务对象的最新更新 区域任务 规范名称PidLidTaskVersion 替代名称dispidTaskVersion
+description: 指示哪个副本是任务对象的最新更新 区域Tasks 规范名称PidLidTaskVersion 备用名称dispidTaskVersion
 type: docs
 weight: 18860
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskversion/
 ---
 ## KnownPropertyList.TaskVersion field
 
-指示哪个副本是任务对象的最新更新。 区域:任务 规范名称:PidLidTaskVersion 替代名称:dispidTaskVersion
+指示哪个副本是任务对象的最新更新。 区域：Tasks 规范名称：PidLidTaskVersion 备用名称：dispidTaskVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskVersion;

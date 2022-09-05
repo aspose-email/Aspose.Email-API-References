@@ -1,14 +1,14 @@
 ---
 title: Colors
 second_title: Справочник по Aspose.Email для .NET API
-description: Набор цветов для объекта календаря
+description: Набор цветов для календаря object
 type: docs
 weight: 15650
 url: /ru/net/aspose.email.clients.google/colors/
 ---
 ## Colors class
 
-Набор цветов для объекта календаря
+Набор цветов для календаря object
 
 ```csharp
 public class Colors
@@ -26,7 +26,7 @@ public class Colors
 | Имя | Описание |
 | --- | --- |
 | [Background](../../aspose.email.clients.google/colors/background) { get; set; } | Цвет фона, связанный с этим определением цвета. |
-| [Foreground](../../aspose.email.clients.google/colors/foreground) { get; set; } | Цвет переднего плана, который можно использовать для письма поверх фона с фоновым цветом. |
+| [Foreground](../../aspose.email.clients.google/colors/foreground) { get; set; } | Цвет переднего плана, который можно использовать для письма поверх фона с «фоновым» цветом. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: SkipAttachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должны ли вложения игнорироваться при обновлении
+description: Указывает следует ли игнорировать вложения в операции обновления
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.graph/updatesettings/skipattachments/
 ---
 ## UpdateSettings.SkipAttachments property
 
-Указывает, должны ли вложения игнорироваться при обновлении
+Указывает, следует ли игнорировать вложения в операции обновления
 
 ```csharp
 public bool SkipAttachments { get; set; }

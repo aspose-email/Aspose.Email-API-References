@@ -1,7 +1,7 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Timestamp in UTC for when doc was last modified. Mandatory Yes
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime/

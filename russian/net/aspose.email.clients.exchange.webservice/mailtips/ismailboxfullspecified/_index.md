@@ -1,14 +1,14 @@
 ---
 title: IsMailboxFullSpecified
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее указан лиMailboxFullaspose.email.clients.exchange.webservice/mailtips/mailboxfull
+description: Получает значение указывающееMailboxFullaspose.email.clients.exchange.webservice/mailtips/mailboxfull указан
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified/
 ---
 ## MailTips.IsMailboxFullSpecified property
 
-Получает значение, указывающее, указан ли[`MailboxFull`](../mailboxfull)
+Получает значение, указывающее,[`MailboxFull`](../mailboxfull) указан
 
 ```csharp
 public bool IsMailboxFullSpecified { get; }

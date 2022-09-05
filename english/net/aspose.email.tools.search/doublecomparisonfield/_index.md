@@ -1,9 +1,9 @@
 ---
 title: DoubleComparisonField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the double search field.
 type: docs
-weight: 20480
+weight: 20710
 url: /net/aspose.email.tools.search/doublecomparisonfield/
 ---
 ## DoubleComparisonField class
@@ -18,7 +18,7 @@ public sealed class DoubleComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/doublecomparisonfield/equals)(double) | Indicates that field must be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/doublecomparisonfield/equals#equals)(double) | Indicates that field must be equal to the specified value. |
 | [Greater](../../aspose.email.tools.search/doublecomparisonfield/greater)(double) | Indicates that field must be greater than the specified value. |
 | [GreaterOrEqual](../../aspose.email.tools.search/doublecomparisonfield/greaterorequal)(double) | Indicates that field must be greater or equal to the specified value. |
 | [Less](../../aspose.email.tools.search/doublecomparisonfield/less)(double) | Indicates that field must be less than the specified value. |

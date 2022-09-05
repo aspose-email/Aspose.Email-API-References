@@ -1,14 +1,14 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаYearlyRecurrencePatternaspose.email.calendar.recurrences/yearlyrecurrencepattern.
+description: Инициализирует новый экземплярYearlyRecurrencePatternaspose.email.calendar.recurrences/yearlyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern() {#constructor}
 
-Инициализирует новый экземпляр класса[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern).
+Инициализирует новый экземпляр[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern) класс.
 
 ```csharp
 public YearlyRecurrencePattern()
@@ -24,7 +24,7 @@ public YearlyRecurrencePattern()
 
 ## YearlyRecurrencePattern(int, CalendarMonth) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern).
+Инициализирует новый экземпляр[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern) класс.
 
 ```csharp
 public YearlyRecurrencePattern(int startOffset, CalendarMonth startMonth)
@@ -33,7 +33,7 @@ public YearlyRecurrencePattern(int startOffset, CalendarMonth startMonth)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startOffset | Int32 | Начальное смещение. |
-| startMonth | CalendarMonth | Начальный месяц. |
+| startMonth | CalendarMonth | Месяц старта. |
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public YearlyRecurrencePattern(int startOffset, CalendarMonth startMonth)
 
 ## YearlyRecurrencePattern(CalendarDay, CalendarMonth, DayPosition) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern).
+Инициализирует новый экземпляр[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern) класс.
 
 ```csharp
 public YearlyRecurrencePattern(CalendarDay startDay, CalendarMonth startMonth, 
@@ -55,9 +55,9 @@ public YearlyRecurrencePattern(CalendarDay startDay, CalendarMonth startMonth,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startDay | CalendarDay | Начальный день. |
-| startMonth | CalendarMonth | Начальный месяц. |
-| startPosition | DayPosition | Начальная позиция. |
+| startDay | CalendarDay | Стартовый день. |
+| startMonth | CalendarMonth | Месяц старта. |
+| startPosition | DayPosition | Начальное положение. |
 
 ### Смотрите также
 

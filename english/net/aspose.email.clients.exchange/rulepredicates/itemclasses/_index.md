@@ -1,7 +1,7 @@
 ---
 title: ItemClasses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the item classes that must be stamped on incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange/rulepredicates/itemclasses/

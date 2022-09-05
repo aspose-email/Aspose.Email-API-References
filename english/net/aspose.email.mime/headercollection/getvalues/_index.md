@@ -1,7 +1,7 @@
 ---
 title: GetValues
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the header values.
 type: docs
 weight: 160
 url: /net/aspose.email.mime/headercollection/getvalues/

@@ -1,11 +1,41 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет встречу в файл формата iCalendar используя параметры сохранения по умолчанию
+description: Сохраняет встречу в поток с указанными параметрами сохранения
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.email.calendar/appointment/save/
 ---
+## Save(Stream, AppointmentSaveOptions) {#save_2}
+
+Сохраняет встречу в поток с указанными параметрами сохранения
+
+```csharp
+public void Save(Stream stream, AppointmentSaveOptions saveOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| stream | Stream | Поток для сохранения |
+| saveOptions | AppointmentSaveOptions | Параметры сохранения |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | *saveOptions*или же*stream* является`нулевой` |
+| NotSupportedException | указанные параметры сохранения не поддерживаются |
+| NotSupportedException | поток не поддерживает запись |
+
+### Смотрите также
+
+* class [AppointmentSaveOptions](../../appointmentsaveoptions)
+* class [Appointment](../../appointment)
+* пространство имен [Aspose.Email.Calendar](../../appointment)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## Save(string) {#save_3}
 
 Сохраняет встречу в файл формата iCalendar, используя параметры сохранения по умолчанию
@@ -22,7 +52,7 @@ public void Save(string filePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*is` null` или` пусто` |
+| ArgumentOutOfRangeException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -49,7 +79,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*is` null` или` пустой` |
+| ArgumentOutOfRangeException | *filePath* является`нулевой`или же`пустой` |
 | NotSupportedException | Указанные параметры сохранения не поддерживаются |
 
 ### Смотрите также
@@ -71,15 +101,15 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | A путь к файлу |
+| filePath | String | Путь к файлу |
 | saveOptions | AppointmentSaveOptions | Параметры сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*is` null` или` пустой` |
-| ArgumentNullException | *saveOptions*is` null` |
+| ArgumentOutOfRangeException | *filePath* является`нулевой`или же`пустой` |
+| ArgumentNullException | *saveOptions* является`нулевой` |
 | NotSupportedException | Указанные параметры сохранения не поддерживаются |
 
 ### Смотрите также
@@ -101,13 +131,13 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
+| ArgumentNullException | *stream* является`нулевой` |
 | NotSupportedException | поток не поддерживает запись |
 
 ### Смотрите также
@@ -128,50 +158,20 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 | saveFormat | AppointmentSaveFormat | Формат сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
+| ArgumentNullException | *stream* является`нулевой` |
 | NotSupportedException | Указанные параметры сохранения не поддерживаются |
 | NotSupportedException | поток не поддерживает запись |
 
 ### Смотрите также
 
 * enum [AppointmentSaveFormat](../../appointmentsaveformat)
-* class [Appointment](../../appointment)
-* пространство имен [Aspose.Email.Calendar](../../appointment)
-* сборка [Aspose.Email](../../../)
-
----
-
-## Save(Stream, AppointmentSaveOptions) {#save_2}
-
-Сохраняет встречу в потоке с указанными параметрами сохранения
-
-```csharp
-public void Save(Stream stream, AppointmentSaveOptions saveOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| stream | Stream | A поток для сохранения в |
-| saveOptions | AppointmentSaveOptions | Параметры сохранения |
-
-### Исключения
-
-| исключение | условие |
-| --- | --- |
-| ArgumentNullException | *saveOptions*or*stream*is` null` |
-| NotSupportedException | указанные параметры сохранения не поддерживаются |
-| NotSupportedException | поток не поддерживает запись |
-
-### Смотрите также
-
-* class [AppointmentSaveOptions](../../appointmentsaveoptions)
 * class [Appointment](../../appointment)
 * пространство имен [Aspose.Email.Calendar](../../appointment)
 * сборка [Aspose.Email](../../../)

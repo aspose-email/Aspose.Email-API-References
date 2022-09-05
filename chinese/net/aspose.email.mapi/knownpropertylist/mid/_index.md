@@ -1,14 +1,14 @@
 ---
 title: Mid
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值该值包含当前正在同步的消息的 MID 区域ID 属性 规范名称PidTagMid 替代名称ptagMIDhttp//schemas.microsoft.com/exchange/mid
+description: 包含一个值该值包含当前正在同步的消息的 MID 区域ID Properties 规范名称PidTagMid 备用名称ptagMIDhttp//schemas.microsoft.com/exchange/mid
 type: docs
 weight: 12670
 url: /zh/net/aspose.email.mapi/knownpropertylist/mid/
 ---
 ## KnownPropertyList.Mid field
 
-包含一个值，该值包含当前正在同步的消息的 MID。 区域:ID 属性 规范名称:PidTagMid 替代名称:ptagMID，http://schemas.microsoft.com/exchange/mid
+包含一个值，该值包含当前正在同步的消息的 MID。 区域：ID Properties 规范名称：PidTagMid 备用名称：ptagMID，http://schemas.microsoft.com/exchange/mid
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Mid;

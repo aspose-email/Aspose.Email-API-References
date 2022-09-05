@@ -1,14 +1,14 @@
 ---
 title: MsgFolderRoot
 second_title: Aspose.Email for .NET API 参考
-description: 信息存储顶部文件夹此文件夹是显示在普通邮件客户端例如收件箱中的文件夹的父文件夹
+description: 信息存储顶部文件夹此文件夹是普通邮件客户端中显示的文件夹的父文件夹例如收件箱.
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.graph/knownfolders/msgfolderroot/
 ---
 ## KnownFolders.MsgFolderRoot field
 
-“信息存储顶部”文件夹。此文件夹是显示在普通邮件客户端（例如收件箱）中的文件夹的父文件夹。
+“信息存储顶部”文件夹。此文件夹是普通邮件客户端中显示的文件夹的父文件夹，例如收件箱.
 
 ```csharp
 public static readonly string MsgFolderRoot;

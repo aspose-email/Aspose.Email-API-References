@@ -1,14 +1,14 @@
 ---
 title: DeletedItemsFolderServerNotifications
 second_title: Aspose.Email for .NET API 参考
-description: 出现 DeletedItems 文件夹的指定事件类型时发生
+description: 在 DeletedItems 文件夹出现指定事件类型时发生
 type: docs
 weight: 250
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/deleteditemsfolderservernotifications/
 ---
 ## IEWSClient.DeletedItemsFolderServerNotifications event
 
-出现 DeletedItems 文件夹的指定事件类型时发生。
+在 DeletedItems 文件夹出现指定事件类型时发生。
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> DeletedItemsFolderServerNotifications;

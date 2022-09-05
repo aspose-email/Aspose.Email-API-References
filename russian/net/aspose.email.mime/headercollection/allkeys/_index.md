@@ -1,14 +1,14 @@
 ---
 title: AllKeys
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает массив строк содержащих все ключи заголовков в коллекциях
+description: Получает массив строк содержащих все ключи заголовков в collections
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mime/headercollection/allkeys/
 ---
 ## HeaderCollection.AllKeys property
 
-Получает массив строк, содержащих все ключи заголовков в коллекциях
+Получает массив строк, содержащих все ключи заголовков в collections
 
 ```csharp
 public virtual string[] AllKeys { get; }

@@ -1,14 +1,14 @@
 ---
 title: ConvertPersonalStorageToMbox
 second_title: Aspose.Email for .NET API 参考
-description: 使用给定路径将PersonalStorageaspose.email.storage.pst/personalstorage转换为 mbox 格式
+description: 转换PersonalStorageaspose.email.storage.pst/personalstorage使用给定路径转换为 mbox 格式
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage/mailboxconverter/convertpersonalstoragetombox/
 ---
 ## ConvertPersonalStorageToMbox(PersonalStorage, string, MessageAcceptanceCallback) {#convertpersonalstoragetombox_1}
 
-使用给定路径将[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)转换为 mbox 格式。
+转换[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)使用给定路径转换为 mbox 格式。
 
 ```csharp
 public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage, 
@@ -18,19 +18,19 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | personalStorage | PersonalStorage | 个人存储。 |
-| storagePath | String | 保存*personalStorage*结构的路径。 |
+| storagePath | String | 保存路径*personalStorage*结构到。 |
 | acceptanceCallback | MessageAcceptanceCallback | 接受回调，可以为空。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*personalStorage*为空。 |
-| ArgumentNullException | 如果*storagePath*为空。 |
+| ArgumentNullException | 如果*personalStorage*一片空白。 |
+| ArgumentNullException | 如果*storagePath*一片空白。 |
 
 ### 评论
 
-结果文件夹将包含*personalStorage*的精确副本，例如将在磁盘上重新创建目录树。
+生成的文件夹将包含*personalStorage*例如，目录树将在磁盘上重新创建。
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 
 ## ConvertPersonalStorageToMbox(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) {#convertpersonalstoragetombox}
 
-使用给定的Aspose将[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) 转换为 mbox 格式。电子邮件.Storage.Mbox.MboxStorageWriter。
+转换[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)使用给定的 mbox 格式[`MboxStorageWriter`](../../../aspose.email.storage.mbox/mboxstoragewriter).
 
 ```csharp
 public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage, 
@@ -54,19 +54,19 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | personalStorage | PersonalStorage | 个人存储。 |
-| mboxStorageWriter | MboxStorageWriter | mbox 存储写入器。 |
+| mboxStorageWriter | MboxStorageWriter | mbox 存储写入程序。 |
 | acceptanceCallback | MessageAcceptanceCallback | 接受回调，可以为空。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*personalStorage*为空。 |
-| ArgumentNullException | 如果*mboxStorageWriter*为空。 |
+| ArgumentNullException | 如果*personalStorage*一片空白。 |
+| ArgumentNullException | 如果*mboxStorageWriter*一片空白。 |
 
 ### 评论
 
-生成的 mbox 存储将仅包含一个包含所有消息的普通收件箱文件夹，如果您必须保留存储的原始结构，请使用XXX_method 代替。
+生成的 mbox 存储将仅包含一个包含所有邮件的普通收件箱文件夹，如果您必须保留存储的原始结构，请改用 XXX_method。
 
 ### 也可以看看
 

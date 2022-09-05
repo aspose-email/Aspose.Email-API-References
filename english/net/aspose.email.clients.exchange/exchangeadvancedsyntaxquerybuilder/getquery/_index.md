@@ -1,7 +1,7 @@
 ---
 title: GetQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the query.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/getquery/

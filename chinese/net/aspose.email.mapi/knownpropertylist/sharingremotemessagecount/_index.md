@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteMessageCount
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingRemoteMessageCount 替代名称dispidSharingRemoteMsgCount
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingRemoteMessageCount 替代名称dispidSharingRemoteMsgCount
 type: docs
 weight: 17810
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremotemessagecount/
 ---
 ## KnownPropertyList.SharingRemoteMessageCount field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingRemoteMessageCount 替代名称:dispidSharingRemoteMsgCount
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingRemoteMessageCount 替代名称：dispidSharingRemoteMsgCount
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteMessageCount;

@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitoringAvailabilityStyle
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITORING_AVAILABILITY_STYLE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITORING_AVAILABILITY_STYLE
 type: docs
 weight: 7350
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitoringavailabilitystyle/
 ---
 ## KnownPropertyList.EmsAbMonitoringAvailabilityStyle field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITORING_AVAILABILITY_STYLE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITORING_AVAILABILITY_STYLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoringAvailabilityStyle;

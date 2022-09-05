@@ -1,14 +1,14 @@
 ---
 title: DavId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уникальный идентификатор элемента календаря. ОбластьОбщие Каноническое имяPidNameDavId Альтернативные именаDAVid
+description: Указывает уникальный идентификатор элемента календаря. Область Common Каноническое имя PidNameDavId Альтернативные имена DAVid
 type: docs
 weight: 3640
 url: /ru/net/aspose.email.mapi/knownpropertylist/david/
 ---
 ## KnownPropertyList.DavId field
 
-Указывает уникальный идентификатор элемента календаря. Область:Общие Каноническое имя:PidNameDavId Альтернативные имена:DAV:id
+Указывает уникальный идентификатор элемента календаря. Область: Common Каноническое имя: PidNameDavId Альтернативные имена: DAV:id
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavId;

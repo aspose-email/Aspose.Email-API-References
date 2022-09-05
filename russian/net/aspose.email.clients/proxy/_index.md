@@ -18,16 +18,16 @@ public abstract class Proxy : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Имя домена или IP-адрес прокси-сервера |
+| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Доменное имя или IP-адрес прокси-сервера |
 | [Password](../../aspose.email.clients/proxy/password) { get; set; } | Пароль для аутентификации прокси |
 | [Port](../../aspose.email.clients/proxy/port) { get; set; } | Номер порта прокси-сервера |
-| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для аутентификации прокси |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для прокси-аутентификации |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового TCP-соединения. |
+| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового соединения TCP. |
 | [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | Возвращает настроенный сетевой поток для передачи данных на требуемый узел через прокси-сервер. |
 | abstract [SetUpStream](../../aspose.email.clients/proxy/setupstream)(Stream, string, int) | Настраивает прокси-сервер для передачи данных на целевой хост. |
 

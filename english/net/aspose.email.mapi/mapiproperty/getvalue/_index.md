@@ -1,7 +1,7 @@
 ---
 title: GetValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value as object
 type: docs
 weight: 260
 url: /net/aspose.email.mapi/mapiproperty/getvalue/

@@ -1,14 +1,14 @@
 ---
 title: VCardSecurity
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardSecurityaspose.email.personalinfo.vcard/vcardsecurity 类的新实例
+description: 初始化VCardSecurityaspose.email.personalinfo.vcard/vcardsecurity class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsecurity/vcardsecurity/
 ---
 ## VCardSecurity constructor
 
-初始化 [`VCardSecurity`](../../vcardsecurity) 类的新实例
+初始化[`VCardSecurity`](../../vcardsecurity) class
 
 ```csharp
 public VCardSecurity()

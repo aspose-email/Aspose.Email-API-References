@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An exception specifies changes to an instance of a recurring series.
 type: docs
-weight: 17810
+weight: 17990
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/
 ---
 ## MapiCalendarExceptionInfo class

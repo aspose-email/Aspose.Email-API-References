@@ -1,7 +1,7 @@
 ---
 title: PrimarySendAccount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the first server that a client is to use to send the email with. Area MapiNonTransmittable Canonical name PidTagPrimarySendAccount Alternate names PR_PRIMARY_SEND_ACCT
 type: docs
 weight: 14590
 url: /net/aspose.email.mapi/knownpropertylist/primarysendaccount/

@@ -1,7 +1,7 @@
 ---
 title: UpdateTaskOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates update task options.
 type: docs
 weight: 15550
 url: /net/aspose.email.clients.exchange.webservice/updatetaskoptions/

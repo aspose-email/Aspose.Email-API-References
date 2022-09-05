@@ -1,9 +1,9 @@
 ---
 title: OAuthNetworkCredential
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the NetworkCredential for OAuth authentication.
 type: docs
-weight: 16690
+weight: 16800
 url: /net/aspose.email.clients/oauthnetworkcredential/
 ---
 ## OAuthNetworkCredential class
@@ -18,11 +18,11 @@ public class OAuthNetworkCredential : NetworkCredential
 
 | Name | Description |
 | --- | --- |
-| [OAuthNetworkCredential](oauthnetworkcredential)(IAsyncTokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
-| [OAuthNetworkCredential](oauthnetworkcredential)(ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
-| [OAuthNetworkCredential](oauthnetworkcredential)(string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
-| [OAuthNetworkCredential](oauthnetworkcredential)(string, ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
-| [OAuthNetworkCredential](oauthnetworkcredential)(string, string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_1)(ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_2)(string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor)(IAsyncTokenProvider, string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_3)(string, ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_4)(string, string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: RecordType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit record types
 type: docs
 weight: 2730
 url: /net/aspose.email.clients.activity/recordtype/

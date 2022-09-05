@@ -1,14 +1,14 @@
 ---
 title: ByHour
 second_title: Aspose.Email for .NET API 参考
-description: 获取小时
+description: 按小时获取
 type: docs
 weight: 30
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/byhour/
 ---
 ## RecurrenceRule.ByHour property
 
-获取小时。
+按小时获取。
 
 ```csharp
 public ByNumberCollection ByHour { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection ByHour { get; }
 
 ### 适当的价值
 
-按小时计算。
+按小时。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToDoOrdinalDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит текущее время в формате UTC которое используется для определения порядка сортировки объектов в сводном списке дел. ОбластьЗадачи Каноническое имяPidLidToDoOrdinalDate Альтернативные именаdispidToDoOrdinalDate
+description: Содержит текущее время в формате UTC которое используется для определения порядка сортировки объектов в сводном списке дел. Область Tasks Каноническое имя PidLidToDoOrdinalDate Альтернативные имена dispidToDoOrdinalDate
 type: docs
 weight: 19040
 url: /ru/net/aspose.email.mapi/knownpropertylist/todoordinaldate/
 ---
 ## KnownPropertyList.ToDoOrdinalDate field
 
-Содержит текущее время в формате UTC, которое используется для определения порядка сортировки объектов в сводном списке дел. Область:Задачи Каноническое имя:PidLidToDoOrdinalDate Альтернативные имена:dispidToDoOrdinalDate
+Содержит текущее время в формате UTC, которое используется для определения порядка сортировки объектов в сводном списке дел. Область: Tasks Каноническое имя: PidLidToDoOrdinalDate Альтернативные имена: dispidToDoOrdinalDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoOrdinalDate;

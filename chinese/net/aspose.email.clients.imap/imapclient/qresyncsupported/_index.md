@@ -1,14 +1,14 @@
 ---
 title: QresyncSupported
 second_title: Aspose.Email for .NET API 参考
-description: 获取是否支持 QRESYNC 扩展的信息 查看更多https//tools.ietf.org/html/rfc7162
+description: 获取是否支持QRESYNC扩展的信息 查看更多https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 210
 url: /zh/net/aspose.email.clients.imap/imapclient/qresyncsupported/
 ---
 ## ImapClient.QresyncSupported property
 
-获取是否支持 QRESYNC 扩展的信息 查看更多:https://tools.ietf.org/html/rfc7162
+获取是否支持QRESYNC扩展的信息 查看更多：https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public bool QresyncSupported { get; set; }

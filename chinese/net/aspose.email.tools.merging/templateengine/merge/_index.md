@@ -16,7 +16,7 @@ public MailMessage Merge(MailMessage source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | MailMessage | 源 MailMessage |
+| source | MailMessage | 源邮件消息 |
 
 ### 返回值
 

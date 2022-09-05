@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Nsf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Storage.Nsf namespace contains classes for work with NSF format.
 type: docs
-weight: 360
+weight: 390
 url: /net/aspose.email.storage.nsf/
 ---
-
+The **Aspose.Email.Storage.Nsf** namespace contains classes for work with NSF format.
 
 ## Classes
 

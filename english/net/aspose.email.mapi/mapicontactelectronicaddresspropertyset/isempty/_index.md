@@ -1,7 +1,7 @@
 ---
 title: IsEmpty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Shows if MapiContactElectronicAddressPropertySet is empty
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/isempty/

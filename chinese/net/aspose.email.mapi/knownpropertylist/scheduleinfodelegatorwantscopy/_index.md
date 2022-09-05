@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatorwantscopy/
 ---
 ## KnownPropertyList.ScheduleInfoDelegatorWantsCopy field
 
-指示委托人是否想要接收发送给委托人的会议相关对象的副本。 区域:忙/闲属性 规范名称:PidTagScheduleInfoDelegatorWantsCopy 备用名称:PR_SCHDINFO_BOSS_WANTS_COPY
+指示委托人是否想要接收发送给委托人的会议相关对象的副本。 区域：忙/闲属性 规范名称：PidTagScheduleInfoDelegatorWantsCopy 备用名称：PR_SCHDINFO_BOSS_WANTS_COPY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegatorWantsCopy;

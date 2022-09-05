@@ -1,7 +1,7 @@
 ---
 title: ExceptionStartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the start date and time of the exception in the local time zone of the computer when the exception is created. Area MessageClassDefinedNonTransmittable Canonical name PidTagExceptionStartTime Alternate names PR_EXCEPTION_STARTTIME ptagExceptionStartTime
 type: docs
 weight: 9800
 url: /net/aspose.email.mapi/knownpropertylist/exceptionstarttime/

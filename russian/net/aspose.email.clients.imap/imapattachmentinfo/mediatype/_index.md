@@ -1,14 +1,14 @@
 ---
 title: MediaType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает MIME-тип вложения.
+description: Получает вложение MIME-типа.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapattachmentinfo/mediatype/
 ---
 ## ImapAttachmentInfo.MediaType property
 
-Получает MIME-тип вложения.
+Получает вложение MIME-типа.
 
 ```csharp
 public string MediaType { get; }

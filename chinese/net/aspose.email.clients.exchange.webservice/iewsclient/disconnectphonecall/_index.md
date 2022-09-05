@@ -1,14 +1,14 @@
 ---
 title: DisconnectPhoneCall
 second_title: Aspose.Email for .NET API 参考
-description: 断开 id 指定的电话
+description: 断开 id 指定的电话呼叫
 type: docs
 weight: 670
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/disconnectphonecall/
 ---
 ## IEWSClient.DisconnectPhoneCall method
 
-断开 id 指定的电话。
+断开 id 指定的电话呼叫。
 
 ```csharp
 public void DisconnectPhoneCall(string callId)

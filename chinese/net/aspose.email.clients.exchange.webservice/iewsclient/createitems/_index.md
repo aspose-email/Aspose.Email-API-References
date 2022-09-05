@@ -16,20 +16,20 @@ public ExchangeUploadItemResult[] CreateItems(ExchangeStreamedItem[] items, stri
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| items | ExchangeStreamedItem[] | 一个项目要上传 |
+| items | ExchangeStreamedItem[] | 要上传的项目 |
 | parentFolderUri | String | 指定放置项目的文件夹 |
 
 ### 返回值
 
-数组[`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
+一个数组[`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*是` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*是` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*是` null` 或` 空` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*是`无效的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*是`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

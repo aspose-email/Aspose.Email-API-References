@@ -1,9 +1,9 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.email/mailmessage/equals/
 ---
 ## MailMessage.Equals method

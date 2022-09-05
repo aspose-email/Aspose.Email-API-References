@@ -1,14 +1,14 @@
 ---
 title: SelectFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 选择指定文件夹
+description: 选择指定的文件夹
 type: docs
 weight: 1120
 url: /zh/net/aspose.email.clients.imap/imapclient/selectfolderasync/
 ---
 ## SelectFolderAsync(IConnection, string) {#selectfolderasync}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(IConnection connection, string folderName)
@@ -21,7 +21,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName)
 
 ## SelectFolderAsync(IConnection, string, bool?) {#selectfolderasync_1}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(IConnection connection, string folderName, bool? readOnly)
@@ -44,11 +44,11 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 要选择的文件夹 |
-| readOnly | Nullable`1 | 指定文件夹是否要选择为只读 |
+| readOnly | Nullable`1 | 指定文件夹是否被选为只读 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 
 ## SelectFolderAsync(string) {#selectfolderasync_4}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(string folderName)
@@ -73,7 +73,7 @@ public Task SelectFolderAsync(string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public Task SelectFolderAsync(string folderName)
 
 ## SelectFolderAsync(string, bool?) {#selectfolderasync_5}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(string folderName, bool? readOnly)
@@ -98,7 +98,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly)
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -110,7 +110,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly)
 
 ## SelectFolderAsync(IConnection, string, CancellationToken) {#selectfolderasync_3}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -124,7 +124,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, Cancell
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -137,7 +137,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, Cancell
 
 ## SelectFolderAsync(IConnection, string, bool?, CancellationToken) {#selectfolderasync_2}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(IConnection connection, string folderName, bool? readOnly, 
@@ -148,12 +148,12 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 要选择的文件夹 |
-| readOnly | Nullable`1 | 指定文件夹是否要选择为只读 |
+| readOnly | Nullable`1 | 指定文件夹是否被选为只读 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -166,7 +166,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 
 ## SelectFolderAsync(string, CancellationToken) {#selectfolderasync_7}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(string folderName, CancellationToken token)
@@ -175,11 +175,11 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderName | String | 要选择的文件夹 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -191,7 +191,7 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 
 ## SelectFolderAsync(string, bool?, CancellationToken) {#selectfolderasync_6}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationToken token)
@@ -201,11 +201,11 @@ public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationTok
 | --- | --- | --- |
 | folderName | String | 要选择的文件夹 |
 | readOnly | Nullable`1 | 指定文件夹是否被选为只读 |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

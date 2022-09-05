@@ -1,9 +1,9 @@
 ---
 title: SmtpClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 16860
+weight: 17030
 url: /net/aspose.email.clients.smtp/smtpclient/
 ---
 ## SmtpClient class
@@ -11,31 +11,31 @@ url: /net/aspose.email.clients.smtp/smtpclient/
 Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP).
 
 ```csharp
-public sealed class SmtpClient : EmailClient, IMailTransferAgent
+public sealed class SmtpClient : EmailClient, IAsyncSmtpClient, IMailTransferAgent
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [SmtpClient](smtpclient)() | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(Configuration) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class by using configuration file settings. |
-| [SmtpClient](smtpclient)(string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, ITokenProvider) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, ITokenProvider) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, string, bool) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, string, bool) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, string, string, bool, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
-| [SmtpClient](smtpclient)(string, int, string, string, bool, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor)() | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_1)(Configuration) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class by using configuration file settings. |
+| [SmtpClient](smtpclient#constructor_2)(string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_4)(string, int) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_3)(string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_5)(string, int, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_12)(string, string, ITokenProvider) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_14)(string, string, string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_6)(string, int, string, ITokenProvider) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_8)(string, int, string, string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_13)(string, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_16)(string, string, string, bool) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_15)(string, string, string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_7)(string, int, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_10)(string, int, string, string, bool) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_9)(string, int, string, string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_17)(string, string, string, bool, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient#constructor_11)(string, int, string, string, bool, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
 
 ## Properties
 
@@ -81,74 +81,77 @@ public sealed class SmtpClient : EmailClient, IMailTransferAgent
 | virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection)() | Creates new independent connection for operations not linked to threads (not default connection). Invocation of this method is similar to invocation of CreateConnection(createAsDefaultConnection = false) Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
 | virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection)(bool) | Creates new (default or independent) connection for operations. Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
 | virtual [Dispose](../../aspose.email.clients/emailclient/dispose)() | Finalizes all operations with a server. |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(string, MailAddressCollection, Stream) | Forwards specified message to recipient |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(string, string, MailMessage) | Forwards specified message to recipient |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
-| [Forward](../../aspose.email.clients.smtp/smtpclient/forward)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, MailAddressCollection, Stream) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, string, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
-| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync)(IConnection, string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward_3)(string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward_4)(string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward_5)(string, string, MailMessage) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward_1)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [Forward](../../aspose.email.clients.smtp/smtpclient/forward#forward_2)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_6)(string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_8)(string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_10)(string, string, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_2)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_4)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_7)(string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_9)(string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_11)(string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_1)(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_3)(IConnection, string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](../../aspose.email.clients.smtp/smtpclient/forwardasync#forwardasync_5)(IConnection, string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
 | virtual [GetCapabilities](../../aspose.email.clients/emailclient/getcapabilities)() |  |
-| override [Noop](../../aspose.email.clients.smtp/smtpclient/noop)() | 'No operation' command |
-| override [Noop](../../aspose.email.clients.smtp/smtpclient/noop)(IConnection) | 'No operation' command |
-| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync)() | 'No operation' command |
-| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync)(CancellationToken) | 'No operation' command |
-| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync)(IConnection) | 'No operation' command |
-| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync)(IConnection, CancellationToken) | 'No operation' command |
+| override [Noop](../../aspose.email.clients.smtp/smtpclient/noop#noop)() | 'No operation' command |
+| override [Noop](../../aspose.email.clients.smtp/smtpclient/noop#noop_1)(IConnection) | 'No operation' command |
+| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync#noopasync)() | 'No operation' command |
+| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync#noopasync_3)(CancellationToken) | 'No operation' command |
+| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync#noopasync_1)(IConnection) | 'No operation' command |
+| [NoopAsync](../../aspose.email.clients.smtp/smtpclient/noopasync#noopasync_2)(IConnection, CancellationToken) | 'No operation' command |
 | [ResetLogSettings](../../aspose.email.clients/emailclient/resetlogsettings)() | Resets logging settings to default. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(MailMessage) | Send the specified message. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(MailMessageCollection) | Send the specified message collection. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(params MailMessage[]) | Send the specified message. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IConnection, IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IConnection, MailMessage) | Send the specified message. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IConnection, MailMessageCollection) | Send the specified message collection. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IConnection, params MailMessage[]) | Send the specified message. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(string, string, string, string) | Creates and sends the specified message. |
-| [Send](../../aspose.email.clients.smtp/smtpclient/send)(IConnection, string, string, string, string) | Creates and sends the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(MailMessage) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(MailMessageCollection) | Send the specified message collection. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(params MailMessage[]) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(CancellationToken, params MailMessage[]) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, MailMessage) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, MailMessageCollection) | Send the specified message collection. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, params MailMessage[]) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(MailMessage, CancellationToken) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(MailMessageCollection, CancellationToken) | Send the specified message collection. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, CancellationToken, params MailMessage[]) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, MailMessage, CancellationToken) | Send the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, MailMessageCollection, CancellationToken) | Send the specified message collection. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(string, string, string, string) | Creates and sends the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, string, string, string, string) | Creates and sends the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(string, string, string, string, CancellationToken) | Creates and sends the specified message. |
-| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync)(IConnection, string, string, string, string, CancellationToken) | Creates and sends the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_8)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_5)(MailMessage) | Send the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_6)(MailMessageCollection) | Send the specified message collection. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_7)(params MailMessage[]) | Send the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_3)(IConnection, IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send)(IConnection, MailMessage) | Send the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_1)(IConnection, MailMessageCollection) | Send the specified message collection. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_2)(IConnection, params MailMessage[]) | Send the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_9)(string, string, string, string) | Creates and sends the specified message. |
+| [Send](../../aspose.email.clients.smtp/smtpclient/send#send_4)(IConnection, string, string, string, string) | Creates and sends the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_16)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_11)(MailMessage) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_13)(MailMessageCollection) | Send the specified message collection. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_15)(params MailMessage[]) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_10)(SmtpSend) |  |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_20)(CancellationToken, params MailMessage[]) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_5)(IConnection, IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync)(IConnection, MailMessage) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_2)(IConnection, MailMessageCollection) | Send the specified message collection. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_4)(IConnection, params MailMessage[]) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_17)(IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_12)(MailMessage, CancellationToken) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_14)(MailMessageCollection, CancellationToken) | Send the specified message collection. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_9)(IConnection, CancellationToken, params MailMessage[]) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_6)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_1)(IConnection, MailMessage, CancellationToken) | Send the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_3)(IConnection, MailMessageCollection, CancellationToken) | Send the specified message collection. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_18)(string, string, string, string) | Creates and sends the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_7)(IConnection, string, string, string, string) | Creates and sends the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_19)(string, string, string, string, CancellationToken) | Creates and sends the specified message. |
+| [SendAsync](../../aspose.email.clients.smtp/smtpclient/sendasync#sendasync_8)(IConnection, string, string, string, string, CancellationToken) | Creates and sends the specified message. |
 | [SendToQueue](../../aspose.email.clients.smtp/smtpclient/sendtoqueue)(IEnumerable&lt;MailMessage&gt;) | Append messages to queue |
 | [SetSupportedEncryptionUnsafe](../../aspose.email.clients/emailclient/setsupportedencryptionunsafe)(EncryptionProtocols) | Defines the versions of SSL/TLS encryption protocols to be used. This method is not safe and sets the encryption protocols without any compatibility checks. Use [`SupportedEncryption`](../../aspose.email.clients/emailclient/supportedencryption) property to safely set only protocols that definitely supported by .net framework. Please note, if your current .net framework does not support this level of security, an exception will be thrown when trying to establish a connection to the server. |
-| override [ValidateCredentials](../../aspose.email.clients.smtp/smtpclient/validatecredentials)() | Executes credentials validation |
-| [ValidateCredentials](../../aspose.email.clients.smtp/smtpclient/validatecredentials)(IConnection) | Executes credentials validation |
-| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)() | Executes credentials validation |
-| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)(CancellationToken) | Executes credentials validation |
-| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)(IConnection) | Executes credentials validation |
-| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)(IConnection, CancellationToken) | Executes credentials validation |
+| override [ValidateCredentials](../../aspose.email.clients.smtp/smtpclient/validatecredentials#validatecredentials)() | Executes credentials validation |
+| [ValidateCredentials](../../aspose.email.clients.smtp/smtpclient/validatecredentials#validatecredentials_1)(IConnection) | Executes credentials validation |
+| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync#validatecredentialsasync)() | Executes credentials validation |
+| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync#validatecredentialsasync_3)(CancellationToken) | Executes credentials validation |
+| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync#validatecredentialsasync_1)(IConnection) | Executes credentials validation |
+| [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync#validatecredentialsasync_2)(IConnection, CancellationToken) | Executes credentials validation |
+| static [CreateAsync](../../aspose.email.clients.smtp/smtpclient/createasync)(string, string, IAsyncTokenProvider, int, SecurityOptions, CancellationToken) | Creates a new instance of the [`SmtpClient`](../smtpclient) class |
 
 ### See Also
 
 * class [EmailClient](../../aspose.email.clients/emailclient)
+* interface [IAsyncSmtpClient](../iasyncsmtpclient)
 * interface [IMailTransferAgent](../imailtransferagent)
 * namespace [Aspose.Email.Clients.Smtp](../../aspose.email.clients.smtp)
 * assembly [Aspose.Email](../../)

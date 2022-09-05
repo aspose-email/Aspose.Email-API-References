@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/azureactivedirectoryeventtype/
 ---
 ## Record.AzureActiveDirectoryEventType property
 
-获取或设置 Azure AD 事件的类型。 强制:是
+获取或设置 Azure AD 事件的类型。 强制：是
 
 ```csharp
 public ActivityAzureActiveDirectoryEventType AzureActiveDirectoryEventType { get; set; }

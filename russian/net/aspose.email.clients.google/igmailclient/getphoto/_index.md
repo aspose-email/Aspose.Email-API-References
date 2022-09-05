@@ -41,7 +41,7 @@ public ContactPhoto GetPhoto(string photoUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| photoUri | String | Uri изображения. |
+| photoUri | String | Ури изображения. |
 
 ### Возвращаемое значение
 

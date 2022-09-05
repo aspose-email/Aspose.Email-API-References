@@ -1,7 +1,7 @@
 ---
 title: AdditionMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the format of response message.
 type: docs
 weight: 10
 url: /net/aspose.email.tools/responsemessagebuilder/additionmode/

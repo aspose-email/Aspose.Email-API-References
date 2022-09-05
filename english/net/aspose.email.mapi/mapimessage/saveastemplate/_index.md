@@ -1,12 +1,12 @@
 ---
 title: SaveAsTemplate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves to the specified file as Outlook File TemplateOFT format.
 type: docs
 weight: 360
 url: /net/aspose.email.mapi/mapimessage/saveastemplate/
 ---
-## MapiMessage.SaveAsTemplate method (1 of 2)
+## SaveAsTemplate(string) {#saveastemplate_1}
 
 Saves to the specified file as Outlook File Template(OFT format).
 
@@ -26,7 +26,7 @@ public void SaveAsTemplate(string fileName)
 
 ---
 
-## MapiMessage.SaveAsTemplate method (2 of 2)
+## SaveAsTemplate(Stream) {#saveastemplate}
 
 Saves to the specified stream as Outlook File Template(OFT format).
 

@@ -1,9 +1,9 @@
 ---
 title: UserRole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: OneNote user role
 type: docs
-weight: 16080
+weight: 16100
 url: /net/aspose.email.clients.graph/userrole/
 ---
 ## UserRole enumeration

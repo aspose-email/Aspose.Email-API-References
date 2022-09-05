@@ -1,7 +1,7 @@
 ---
 title: CanExecuteChanged
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when changes occur that affect whether or not the command should execute.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/icommand/canexecutechanged/

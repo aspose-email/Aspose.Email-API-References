@@ -1,14 +1,14 @@
 ---
 title: AppDomainName
 second_title: Справочник по Aspose.Email для .NET API
-description: AppDomain в котором мы работаем
+description: Домен приложения в котором мы работаем
 type: docs
 weight: 20
 url: /ru/net/aspose.email.tools.logging/logentry/appdomainname/
 ---
 ## LogEntry.AppDomainName property
 
-AppDomain, в котором мы работаем
+Домен приложения, в котором мы работаем
 
 ```csharp
 public string AppDomainName { get; set; }

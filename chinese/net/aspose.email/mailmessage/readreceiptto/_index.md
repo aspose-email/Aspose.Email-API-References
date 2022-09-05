@@ -16,7 +16,7 @@ public MailAddressCollection ReadReceiptTo { get; set; }
 
 ### 适当的价值
 
-[`MailAddressCollection`](../../mailaddresscollection)代表
+的[`MailAddressCollection`](../../mailaddresscollection)代表
 
 ### 也可以看看
 

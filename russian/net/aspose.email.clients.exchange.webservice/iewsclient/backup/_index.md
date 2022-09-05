@@ -16,7 +16,7 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Папки в backup |
+| folders | ExchangeFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupOptions | Параметры резервного копирования |
 
@@ -40,8 +40,8 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Папки в backup |
-| stream | Stream | Поток для записи в |
+| folders | ExchangeFolderInfoCollection | Папки для резервного копирования |
+| stream | Stream | Поток для записи |
 | options | BackupOptions | Параметры резервного копирования |
 
 ### Смотрите также

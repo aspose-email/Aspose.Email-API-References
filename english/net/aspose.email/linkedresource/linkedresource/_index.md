@@ -1,12 +1,12 @@
 ---
 title: LinkedResource
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the LinkedResourceaspose.email/linkedresource class.
 type: docs
 weight: 10
 url: /net/aspose.email/linkedresource/linkedresource/
 ---
-## LinkedResource constructor (1 of 6)
+## LinkedResource(string) {#constructor_3}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 
@@ -26,7 +26,7 @@ public LinkedResource(string fileName)
 
 ---
 
-## LinkedResource constructor (2 of 6)
+## LinkedResource(string, string) {#constructor_5}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 
@@ -47,7 +47,7 @@ public LinkedResource(string fileName, string mediaType)
 
 ---
 
-## LinkedResource constructor (3 of 6)
+## LinkedResource(string, ContentType) {#constructor_4}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 
@@ -69,7 +69,7 @@ public LinkedResource(string fileName, ContentType contentType)
 
 ---
 
-## LinkedResource constructor (4 of 6)
+## LinkedResource(Stream) {#constructor}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 
@@ -89,7 +89,7 @@ public LinkedResource(Stream contentStream)
 
 ---
 
-## LinkedResource constructor (5 of 6)
+## LinkedResource(Stream, string) {#constructor_2}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 
@@ -110,7 +110,7 @@ public LinkedResource(Stream contentStream, string mediaType)
 
 ---
 
-## LinkedResource constructor (6 of 6)
+## LinkedResource(Stream, ContentType) {#constructor_1}
 
 Initializes a new instance of the [`LinkedResource`](../../linkedresource) class.
 

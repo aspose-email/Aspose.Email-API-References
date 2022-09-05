@@ -1,14 +1,14 @@
 ---
 title: ContainerModifyVersion
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_CONTAINER_MODIFY_VERSION
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONTAINER_MODIFY_VERSION
 type: docs
 weight: 3140
 url: /zh/net/aspose.email.mapi/knownpropertylist/containermodifyversion/
 ---
 ## KnownPropertyList.ContainerModifyVersion field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_CONTAINER_MODIFY_VERSION
+Microsoft? Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONTAINER_MODIFY_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerModifyVersion;

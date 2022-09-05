@@ -1,14 +1,14 @@
 ---
 title: Href
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 URL
+description: 获取或设置一个 URL
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo/url/href/
 ---
 ## Url.Href property
 
-获取或设置 URL
+获取或设置一个 URL
 
 ```csharp
 public string Href { get; set; }

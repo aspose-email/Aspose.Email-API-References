@@ -1,14 +1,14 @@
 ---
 title: IsException
 second_title: Aspose.Email for .NET API 参考
-description: 表示对象是否代表异常包括孤立实例 区域会议 规范名称PidLidIsException 别名LID_IS_EXCEPTION
+description: 指示对象是否表示异常包括孤立实例 区域Meetings 规范名称PidLidIsException 替代名称LID_IS_EXCEPTION
 type: docs
 weight: 11820
 url: /zh/net/aspose.email.mapi/knownpropertylist/isexception/
 ---
 ## KnownPropertyList.IsException field
 
-表示对象是否代表异常（包括孤立实例）。 区域:会议 规范名称:PidLidIsException 别名:LID_IS_EXCEPTION
+指示对象是否表示异常（包括孤立实例）。 区域：Meetings 规范名称：PidLidIsException 替代名称：LID_IS_EXCEPTION
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsException;

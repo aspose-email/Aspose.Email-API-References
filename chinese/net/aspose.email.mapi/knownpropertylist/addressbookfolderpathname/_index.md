@@ -1,14 +1,14 @@
 ---
 title: AddressBookFolderPathname
 second_title: Aspose.Email for .NET API 参考
-description: 此属性已弃用应被忽略 区域地址簿 规范名称PidTagAddressBookFolderPathname 备用名称PR_EMS_AB_FOLDER_PATHNAME PR_EMS_AB_FOLDER_PATHNAME_A PR_EMS_AB_FOLDER_PATHNAME_W
+description: 此属性已弃用将被忽略 区域地址簿 规范名称PidTagAddressBookFolderPathname 备用名称PR_EMS_AB_FOLDER_PATHNAMEPR_EMS_AB_FOLDER_PATHNAME_APR_EMS_AB_FOLDER_PATHNAME_W
 type: docs
 weight: 600
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookfolderpathname/
 ---
 ## KnownPropertyList.AddressBookFolderPathname field
 
-此属性已弃用，应被忽略。 区域:地址簿 规范名称:PidTagAddressBookFolderPathname 备用名称:PR_EMS_AB_FOLDER_PATHNAME, PR_EMS_AB_FOLDER_PATHNAME_A, PR_EMS_AB_FOLDER_PATHNAME_W
+此属性已弃用，将被忽略。 区域：地址簿 规范名称：PidTagAddressBookFolderPathname 备用名称：PR_EMS_AB_FOLDER_PATHNAME、PR_EMS_AB_FOLDER_PATHNAME_A、PR_EMS_AB_FOLDER_PATHNAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookFolderPathname;

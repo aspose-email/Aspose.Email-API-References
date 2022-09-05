@@ -1,14 +1,14 @@
 ---
 title: PostRssItemXml
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит элемент item и все его подэлементы из RSS-канала или элемент entry и все его подэлементы из Atom-канала. ОбластьRSS Каноническое имяPidLidPostRssItemXml Альтернативные именаdispidPostRssItemXml
+description: Содержит элемент item и все его подэлементы из RSS-канала или элемент entry и все его подэлементы из Atom-канала. Область RSS Каноническое имя PidLidPostRssItemXml Альтернативные имена dispidPostRssItemXml
 type: docs
 weight: 14490
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrssitemxml/
 ---
 ## KnownPropertyList.PostRssItemXml field
 
-Содержит элемент item и все его подэлементы из RSS-канала или элемент entry и все его подэлементы из Atom-канала. Область:RSS Каноническое имя:PidLidPostRssItemXml Альтернативные имена:dispidPostRssItemXml
+Содержит элемент item и все его подэлементы из RSS-канала или элемент entry и все его подэлементы из Atom-канала. Область: RSS Каноническое имя: PidLidPostRssItemXml Альтернативные имена: dispidPostRssItemXml
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemXml;

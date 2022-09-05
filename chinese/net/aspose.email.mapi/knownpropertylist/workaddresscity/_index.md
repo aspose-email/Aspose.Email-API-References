@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddresscity/
 ---
 ## KnownPropertyList.WorkAddressCity field
 
-指定联系人工作地址的城市或地区部分。 区域:联系人属性 规范名称:PidLidWorkAddressCity 替代名称:dispidWorkAddressCity
+指定联系人工作地址的城市或地区部分。 区域：联系人属性 规范名称：PidLidWorkAddressCity 替代名称：dispidWorkAddressCity
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressCity;

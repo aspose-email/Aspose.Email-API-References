@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListRejectMessagesFromDLMembers
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что для получателя существуют ограничения на доставку. ОбластьАдресная книга Каноническое имяPidTagAddressBookDistributionListRejectMessagesFromDLMembers Альтернативные именаPR_EMS_AB_DL_MEM_REJECT_PERMS
+description: Указывает что для получателя существуют ограничения на доставку. Область Адресная книга Каноническое имя PidTagAddressBookDistributionListRejectMessagesFromDLMembers Альтернативные имена PR_EMS_AB_DL_MEM_REJECT_PERMS
 type: docs
 weight: 430
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistrejectmessagesfromdlmembers/
 ---
 ## KnownPropertyList.AddressBookDistributionListRejectMessagesFromDLMembers field
 
-Указывает, что для получателя существуют ограничения на доставку. Область:Адресная книга Каноническое имя:PidTagAddressBookDistributionListRejectMessagesFromDLMembers Альтернативные имена:PR_EMS_AB_DL_MEM_REJECT_PERMS
+Указывает, что для получателя существуют ограничения на доставку. Область: Адресная книга Каноническое имя: PidTagAddressBookDistributionListRejectMessagesFromDLMembers Альтернативные имена: PR_EMS_AB_DL_MEM_REJECT_PERMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor 

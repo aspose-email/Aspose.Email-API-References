@@ -1,7 +1,7 @@
 ---
 title: Parameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the dictionary that contains the parameters.
 type: docs
 weight: 60
 url: /net/aspose.email.mime/contenttype/parameters/

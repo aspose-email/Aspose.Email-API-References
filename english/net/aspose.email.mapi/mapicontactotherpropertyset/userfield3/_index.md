@@ -1,7 +1,7 @@
 ---
 title: UserField3
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the third field on the contact that is intended for miscellaneous use for the contact.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/userfield3/

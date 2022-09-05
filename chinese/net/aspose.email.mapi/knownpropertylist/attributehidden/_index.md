@@ -1,14 +1,14 @@
 ---
 title: AttributeHidden
 second_title: Aspose.Email for .NET API 参考
-description: 指定文件夹的隐藏或显示状态 区域访问控制属性 规范名称PidTagAttributeHidden 替代名称PR_ATTR_HIDDEN ptagAttrHidden DAVishidden
+description: 指定文件夹的隐藏或显示状态 区域访问控制属性 规范名称PidTagAttributeHidden 备用名称PR_ATTR_HIDDENptagAttrHiddenDAVishidden
 type: docs
 weight: 1830
 url: /zh/net/aspose.email.mapi/knownpropertylist/attributehidden/
 ---
 ## KnownPropertyList.AttributeHidden field
 
-指定文件夹的隐藏或显示状态。 区域:访问控制属性 规范名称:PidTagAttributeHidden 替代名称:PR_ATTR_HIDDEN, ptagAttrHidden, DAV:ishidden
+指定文件夹的隐藏或显示状态。 区域：访问控制属性 规范名称：PidTagAttributeHidden 备用名称：PR_ATTR_HIDDEN、ptagAttrHidden、DAV:ishidden
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttributeHidden;

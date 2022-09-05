@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/sharing/
 ---
 ## KnownPropertySets.Sharing field
 
-区域名称:共享 属性集名称:PSETID_Sharing
+区域名称：共享 属性集名称：PSETID_Sharing
 
 ```csharp
 public static readonly Guid Sharing;

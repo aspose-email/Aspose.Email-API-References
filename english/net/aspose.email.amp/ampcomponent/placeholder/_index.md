@@ -1,7 +1,7 @@
 ---
 title: Placeholder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified a placeholder element must be a direct child of the AMP element.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampcomponent/placeholder/

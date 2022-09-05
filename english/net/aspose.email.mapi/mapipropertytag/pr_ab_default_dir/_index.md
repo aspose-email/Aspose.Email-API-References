@@ -1,7 +1,7 @@
 ---
 title: PR_AB_DEFAULT_DIR
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The PR_AB_DEFAULT_DIR property contains the entry identifier of the address book container that is to be shown to the user first.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapipropertytag/pr_ab_default_dir/

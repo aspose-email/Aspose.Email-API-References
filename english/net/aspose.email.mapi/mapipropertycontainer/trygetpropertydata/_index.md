@@ -1,7 +1,7 @@
 ---
 title: TryGetPropertyData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Try to get the property data with specified tag key.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertydata/

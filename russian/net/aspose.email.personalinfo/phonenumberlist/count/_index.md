@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает количество элементов содержащихся в коллекцииICollection.
+description: Получает количество элементов содержащихся вICollection .
 type: docs
 weight: 60
 url: /ru/net/aspose.email.personalinfo/phonenumberlist/count/
 ---
 ## PhoneNumberList.Count property
 
-Получает количество элементов, содержащихся в коллекцииICollection.
+Получает количество элементов, содержащихся вICollection .
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Возвращаемое значение
 
-Количество элементов, содержащихся в коллекцииICollection.
+Количество элементов, содержащихся вICollection .
 
 ### Смотрите также
 

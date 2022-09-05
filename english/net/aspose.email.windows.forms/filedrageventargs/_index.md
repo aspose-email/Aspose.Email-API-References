@@ -3,7 +3,7 @@ title: FileDragEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 20680
+weight: 20910
 url: /net/aspose.email.windows.forms/filedrageventargs/
 ---
 ## FileDragEventArgs class

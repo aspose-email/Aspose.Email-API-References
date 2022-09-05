@@ -1,14 +1,14 @@
 ---
 title: SendRichInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает может ли объект с поддержкой электронной почты представленный объектом адресной книги получать все содержимое сообщения включая формат RTF и другие встроенные объекты. ОбластьСвойства адреса Каноническое имяPidTagSendRichInfo Альтернативные именаPR_SEND_RICH_INFO ptagSendRichInfo
+description: Указывает может ли объект с поддержкой электронной почты представленный объектом адресной книги получать все содержимое сообщения включая форматированный текст RTF и другие встроенные объекты. Область Свойства адреса Каноническое имя PidTagSendRichInfo Альтернативные имена PR_SEND_RICH_INFO ptagSendRichInfo
 type: docs
 weight: 17180
 url: /ru/net/aspose.email.mapi/knownpropertylist/sendrichinfo/
 ---
 ## KnownPropertyList.SendRichInfo field
 
-Указывает, может ли объект с поддержкой электронной почты, представленный объектом адресной книги, получать все содержимое сообщения, включая формат RTF и другие встроенные объекты. Область:Свойства адреса Каноническое имя:PidTagSendRichInfo Альтернативные имена:PR_SEND_RICH_INFO, ptagSendRichInfo
+Указывает, может ли объект с поддержкой электронной почты, представленный объектом адресной книги, получать все содержимое сообщения, включая форматированный текст (RTF) и другие встроенные объекты. Область: Свойства адреса Каноническое имя: PidTagSendRichInfo Альтернативные имена: PR_SEND_RICH_INFO, ptagSendRichInfo
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SendRichInfo;

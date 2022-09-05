@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Уникальный идентификатор записи аудита. ОбязательноДа
+description: Уникальный идентификатор записи аудита. Обязательно Да
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/content/id/
 ---
 ## Content.Id property
 
-Уникальный идентификатор записи аудита. Обязательно:Да
+Уникальный идентификатор записи аудита. Обязательно: Да
 
 ```csharp
 public Guid Id { get; set; }

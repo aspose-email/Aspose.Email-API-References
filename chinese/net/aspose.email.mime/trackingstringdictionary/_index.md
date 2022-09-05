@@ -3,7 +3,7 @@ title: TrackingStringDictionary
 second_title: Aspose.Email for .NET API 参考
 description: 
 type: docs
-weight: 19200
+weight: 19230
 url: /zh/net/aspose.email.mime/trackingstringdictionary/
 ---
 ## TrackingStringDictionary class

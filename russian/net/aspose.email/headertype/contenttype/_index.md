@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Справочник по Aspose.Email для .NET API
-description: Content-Type определяет формат содержимого набор символов и т. д. Обратите внимание что значения для этого заголовка определяются по-разному в RFC1049 и в MIME  RFC2045. Найдите заголовок MIME-version чтобы понять следует ли интерпретировать Content-Type в соответствии с RFC1049 или в соответствии с MIME RFC2045. Определение MIME следует использовать при создании почты. Исторически поле Content-Type было предложено в RFC1049. В нем Content-Type не различает тип и подтип как это делает RFC2045. Пример Content-Typetext/plain charsetus-ascii Content-typetext/plain charsetUS-ASCII Content-Typetext/plain charsetiso-8859-1 Content-Typetext/plain charsetkoi8-r Content-Typetext/plain кодировканеизвестно-8бит
+description: Content-Type определяет формат содержимого набор символов и т. д.. Обратите внимание что значения для этого заголовка определяются по-разному в RFC1049 и MIME RFC2045. Найдите заголовок MIME-version чтобы понять следует ли интерпретировать Content-Type в соответствии с RFC1049 или в соответствии с MIME RFC2045. Определение MIME следует использовать при создании почты. Исторически поле Content-Type было предложено в RFC1049. В нем Content-Type не различает тип и подтип как это делает RFC2045. Пример Content-Type text/plain charsetus-ascii Тип контента текстовый/обычный charsetUS-ASCII Content-Type text/plain charsetiso-8859-1 Content-Type text/plain charsetkoi8-r Content-Type text/plain кодировка  неизвестно-8bit
 type: docs
 weight: 70
 url: /ru/net/aspose.email/headertype/contenttype/
 ---
 ## HeaderType.ContentType property
 
-«Content-Type» определяет формат содержимого (набор символов и т. д.) Обратите внимание, что значения для этого заголовка определяются по-разному в RFC1049 и в MIME ( RFC2045). Найдите заголовок MIME-version:, чтобы понять, следует ли интерпретировать Content-Type в соответствии с RFC1049 или в соответствии с MIME (RFC2045). Определение MIME следует использовать при создании почты. Исторически поле Content-Type было предложено в RFC1049. В нем Content-Type не различает тип и подтип, как это делает RFC2045. Пример: Content-Type:text/plain; charset="us-ascii" Content-type:text/plain; charset=US-ASCII Content-Type:text/plain; charset="iso-8859-1" Content-Type:text/plain; charset=koi8-r Content-Type:text/plain; кодировка=неизвестно-8бит
+«Content-Type» определяет формат содержимого (набор символов и т. д.). Обратите внимание, что значения для этого заголовка определяются по-разному в RFC1049 и MIME (RFC2045). Найдите заголовок MIME-version:, чтобы понять, следует ли интерпретировать Content-Type в соответствии с RFC1049 или в соответствии с MIME (RFC2045). Определение MIME следует использовать при создании почты. Исторически поле Content-Type было предложено в RFC1049. В нем Content-Type не различает тип и подтип, как это делает RFC2045. Пример: Content-Type: text/plain; charset="us-ascii" Тип контента: текстовый/обычный; charset=US-ASCII Content-Type: text/plain; charset="iso-8859-1" Content-Type: text/plain; charset=koi8-r Content-Type: text/plain; кодировка = неизвестно-8bit
 
 ```csharp
 public static HeaderType ContentType { get; }

@@ -1,14 +1,14 @@
 ---
 title: FromVCard
 second_title: Aspose.Email for .NET API 参考
-description: 从指定的 vCard 文件中读取MapiContactaspose.email.mapi/mapicontact 支持的 vCard 版本为2.1 和 3.0
+description: 读取MapiContactaspose.email.mapi/mapicontact从指定的 vCard 文件 支持的 vCard 版本为 2.1 和 3.0
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicontact/fromvcard/
 ---
 ## FromVCard(string) {#fromvcard_2}
 
-从指定的 vCard 文件中读取[`MapiContact`](../../mapicontact) 支持的 vCard 版本为2.1 和 3.0
+读取[`MapiContact`](../../mapicontact)从指定的 vCard 文件 支持的 vCard 版本为 2.1 和 3.0
 
 ```csharp
 public static MapiContact FromVCard(string filePath)
@@ -16,17 +16,17 @@ public static MapiContact FromVCard(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 要从 |
+| filePath | String | 要读取的文件名 |
 
 ### 返回值
 
-读取的文件名读取[`MapiContact`](../../mapicontact)
+一读[`MapiContact`](../../mapicontact)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*是` null` 或` 空` |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public static MapiContact FromVCard(string filePath)
 
 ## FromVCard(string, Encoding) {#fromvcard_3}
 
-从指定的 vCard 文件中读取 [`MapiContact`](../../mapicontact) 支持的 vCard 版本为 2.1 和 3.0
+读取[`MapiContact`](../../mapicontact)从指定的 vCard 文件 支持的 vCard 版本为 2.1 和 3.0
 
 ```csharp
 public static MapiContact FromVCard(string filePath, Encoding encoding)
@@ -51,13 +51,13 @@ public static MapiContact FromVCard(string filePath, Encoding encoding)
 
 ### 返回值
 
-读取MapiContact
+一读[`MapiContact`](../../mapicontact)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath* 为 `null` 或 `empty` |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -69,7 +69,7 @@ public static MapiContact FromVCard(string filePath, Encoding encoding)
 
 ## FromVCard(Stream) {#fromvcard}
 
-从包含 vCard 的指定流中读取 [`MapiContact`](../../mapicontact)。 支持的 vCard 版本为 2.1 和 3.0
+读取[`MapiContact`](../../mapicontact)来自包含 vCard 的指定流。 支持的 vCard 版本为 2.1 和 3.0
 
 ```csharp
 public static MapiContact FromVCard(Stream stream)
@@ -81,14 +81,14 @@ public static MapiContact FromVCard(Stream stream)
 
 ### 返回值
 
-读取 [`MapiContact`](../../mapicontact)
+一读[`MapiContact`](../../mapicontact)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream* 为 `null` |
-| NotSupportedException | *stream* 不支持阅读 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 
@@ -100,7 +100,7 @@ public static MapiContact FromVCard(Stream stream)
 
 ## FromVCard(Stream, Encoding) {#fromvcard_1}
 
-从包含 vCard 的指定流中读取 [`MapiContact`](../../mapicontact)。 支持的 vCard 版本为 2.1 和 3.0
+读取[`MapiContact`](../../mapicontact)来自包含 vCard 的指定流。 支持的 vCard 版本为 2.1 和 3.0
 
 ```csharp
 public static MapiContact FromVCard(Stream stream, Encoding encoding)
@@ -113,14 +113,14 @@ public static MapiContact FromVCard(Stream stream, Encoding encoding)
 
 ### 返回值
 
-读取MapiContact
+一读[`MapiContact`](../../mapicontact)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream* 是 `null` |
-| NotSupportedException | *stream* 不支持读取 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 

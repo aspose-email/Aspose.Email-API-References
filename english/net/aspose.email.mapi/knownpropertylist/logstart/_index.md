@@ -1,7 +1,7 @@
 ---
 title: LogStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time in UTC at which the activity began. Area Journal Canonical name PidLidLogStart Alternate names dispidLogStart
 type: docs
 weight: 12280
 url: /net/aspose.email.mapi/knownpropertylist/logstart/

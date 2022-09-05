@@ -1,14 +1,14 @@
 ---
 title: NullAppender
 second_title: Aspose.Email for .NET API 参考
-description: 表示无操作的附加程序
+description: 表示一个无所事事的附加程序
 type: docs
-weight: 20520
+weight: 20570
 url: /zh/net/aspose.email.tools.logging/nullappender/
 ---
 ## NullAppender class
 
-表示无操作的附加程序。
+表示一个无所事事的附加程序。
 
 ```csharp
 public sealed class NullAppender : Appender
@@ -30,7 +30,7 @@ public sealed class NullAppender : Appender
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/nullappender/append)(LogEntry) | 将日志条目附加到 NullAppender。 |
+| override [Append](../../aspose.email.tools.logging/nullappender/append)(LogEntry) | 将日志条目附加到 NullAppender. |
 | virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | 以特定标题启动日志文件。 |
 | virtual [Close](../../aspose.email.tools.logging/appender/close)() | 关闭附加程序。 |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | 释放 Appender 使用的非托管资源。 |

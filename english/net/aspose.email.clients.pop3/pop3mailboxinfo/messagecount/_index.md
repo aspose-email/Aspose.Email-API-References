@@ -1,7 +1,7 @@
 ---
 title: MessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the count of messages in the mailbox.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.pop3/pop3mailboxinfo/messagecount/

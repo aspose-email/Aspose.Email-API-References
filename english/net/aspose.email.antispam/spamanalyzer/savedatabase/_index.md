@@ -1,12 +1,12 @@
 ---
 title: SaveDatabase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the Bayesian database to file.
 type: docs
 weight: 40
 url: /net/aspose.email.antispam/spamanalyzer/savedatabase/
 ---
-## SpamAnalyzer.SaveDatabase method (1 of 2)
+## SaveDatabase(string) {#savedatabase_1}
 
 Saves the Bayesian database to file.
 
@@ -32,7 +32,7 @@ public void SaveDatabase(string filePath)
 
 ---
 
-## SpamAnalyzer.SaveDatabase method (2 of 2)
+## SaveDatabase(Stream) {#savedatabase}
 
 Saves the Bayesian database to stream.
 

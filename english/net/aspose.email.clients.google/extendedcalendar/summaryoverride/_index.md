@@ -1,7 +1,7 @@
 ---
 title: SummaryOverride
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The summary that the authenticated user has set for this calendar.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.google/extendedcalendar/summaryoverride/

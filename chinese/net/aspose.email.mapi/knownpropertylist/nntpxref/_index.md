@@ -1,14 +1,14 @@
 ---
 title: NntpXref
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_NNTP_XREF
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_NNTP_XREF
 type: docs
 weight: 12930
 url: /zh/net/aspose.email.mapi/knownpropertylist/nntpxref/
 ---
 ## KnownPropertyList.NntpXref field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_NNTP_XREF
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_NNTP_XREF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NntpXref;

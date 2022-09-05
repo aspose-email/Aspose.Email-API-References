@@ -24,7 +24,7 @@ public class ItemOperationsRequest
 
 | Имя | Описание |
 | --- | --- |
-| [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/emptyfoldercontents) { get; } | Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options, DeleteSubFolders, который определяет, удаляются ли вложенные папки, содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются. |
+| [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/emptyfoldercontents) { get; } | Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options, DeleteSubFolders, который определяет, удаляются ли вложенные папки, содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос, подпапки указанного CollectionId не удаляются. |
 | [Fetch](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/fetch) { get; } | Содержит запросы на получение элементов с сервера. |
 | [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/move) { get; } | Содержит запросы на перемещение разговоров в определенные папки. |
 

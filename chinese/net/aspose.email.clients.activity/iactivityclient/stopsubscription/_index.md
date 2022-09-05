@@ -1,14 +1,14 @@
 ---
 title: StopSubscription
 second_title: Aspose.Email for .NET API 参考
-description: 此操作停止对指定内容类型的订阅 订阅停止后您将不再收到通知并且您将无法检索可用内容 如果订阅稍后重新启动您将可以从那时起访问新内容 您将无法检索在订阅停止和重新启动之间可用的内容
+description: 此操作会停止对指定内容类型的订阅 订阅停止后您将不再收到通知并且您将无法检索可用内容 如果稍后重新启动订阅您将可以访问新的从那时起的内容 您将无法检索在订阅停止和重新启动之间可用的内容
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.activity/iactivityclient/stopsubscription/
 ---
 ## IActivityClient.StopSubscription method
 
-此操作停止对指定内容类型的订阅。 订阅停止后，您将不再收到通知，并且您将无法检索可用内容。 如果订阅稍后重新启动，您将可以从那时起访问新内容。 您将无法检索在订阅停止和重新启动之间可用的内容。
+此操作会停止对指定内容类型的订阅。 订阅停止后，您将不再收到通知，并且您将无法检索可用内容。 如果稍后重新启动订阅，您将可以访问新的从那时起的内容。 您将无法检索在订阅停止和重新启动之间可用的内容。
 
 ```csharp
 public void StopSubscription(string contentType)

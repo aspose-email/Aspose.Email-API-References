@@ -1,14 +1,14 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示有关 PST 中个人文件夹的信息 
+description: 代表关于 PST 中个人文件夹的信息 
 type: docs
-weight: 20110
+weight: 20160
 url: /zh/net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
 
-表示有关 PST 中个人文件夹的信息 。
+代表关于 PST 中个人文件夹的信息 。
 
 ```csharp
 public sealed class FolderInfo
@@ -18,7 +18,7 @@ public sealed class FolderInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderInfo](folderinfo)() | 初始化[`FolderInfo`](../folderinfo)类的新实例。 |
+| [FolderInfo](folderinfo)() | 初始化[`FolderInfo`](../folderinfo)类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public sealed class FolderInfo
 | [DisplayName](../../aspose.email.storage.pst/folderinfo/displayname) { get; } | 获取文件夹的显示名称。 |
 | [EntryId](../../aspose.email.storage.pst/folderinfo/entryid) { get; } | 获取条目 ID。 |
 | [EntryIdString](../../aspose.email.storage.pst/folderinfo/entryidstring) { get; } | 获取条目 ID 的字符串表示形式。 |
-| [HasSubFolders](../../aspose.email.storage.pst/folderinfo/hassubfolders) { get; } | 获取一个值，该值指示 Folder 对象是否有任何子文件夹。 |
+| [HasSubFolders](../../aspose.email.storage.pst/folderinfo/hassubfolders) { get; } | 获取一个值，该值指示文件夹对象是否有任何子文件夹。 |
 | [LastModificationTime](../../aspose.email.storage.pst/folderinfo/lastmodificationtime) { get; } | 获取最后修改时间。 |
 | [Properties](../../aspose.email.storage.pst/folderinfo/properties) { get; } | 获取文件夹属性。 |
 
@@ -47,7 +47,7 @@ public sealed class FolderInfo
 | [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder#addsubfolder_2)(string, string) | 添加新的子文件夹。 |
 | [ChangeContainerClass](../../aspose.email.storage.pst/folderinfo/changecontainerclass)(string) | 更改容器类。 |
 | [ChangeDisplayName](../../aspose.email.storage.pst/folderinfo/changedisplayname)(string) | 更改显示名称。 |
-| [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages#changemessages)(MapiPropertyCollection) | 更改文件夹中的所有消息。 |
+| [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages#changemessages)(MapiPropertyCollection) | 更改文件夹中的所有邮件。 |
 | [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages#changemessages_1)(IEnumerable&lt;string&gt;, MapiPropertyCollection) | 更改文件夹中的消息。 |
 | [DeleteChildItem](../../aspose.email.storage.pst/folderinfo/deletechilditem)(byte[]) | 按其 entryId 删除项目（文件夹或消息）。 |
 | [DeleteChildItems](../../aspose.email.storage.pst/folderinfo/deletechilditems)(IEnumerable&lt;string&gt;) | 删除子消息。 |
@@ -61,7 +61,7 @@ public sealed class FolderInfo
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_3)(bool) | 获取消息集合。 |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_2)(MailQuery) | 获取消息集合。 |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_1)(MessageKind) | 获取消息集合。 |
-| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_4)(int, int) | 获取消息集合。 |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_4)(int, int) | 获取消息的集合。 |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder)(string) | 获取子文件夹。 |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder_1)(string, bool) | 获取子文件夹。 |
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders)() | 获取子文件夹的集合。 |

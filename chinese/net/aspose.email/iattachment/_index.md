@@ -1,14 +1,14 @@
 ---
 title: IAttachment
 second_title: Aspose.Email for .NET API 参考
-description: 表示通用附件接口
+description: 代表一个普通的附件接口
 type: docs
 weight: 17570
 url: /zh/net/aspose.email/iattachment/
 ---
 ## IAttachment interface
 
-表示通用附件接口
+代表一个普通的附件接口
 
 ```csharp
 public interface IAttachment

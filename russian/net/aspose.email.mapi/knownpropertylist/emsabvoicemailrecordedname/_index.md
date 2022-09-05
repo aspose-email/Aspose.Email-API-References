@@ -1,14 +1,14 @@
 ---
 title: EmsAbVoiceMailRecordedName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_VOICE_MAIL_RECORDED_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_VOICE_MAIL_RECORDED_NAME
 type: docs
 weight: 9500
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabvoicemailrecordedname/
 ---
 ## KnownPropertyList.EmsAbVoiceMailRecordedName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_VOICE_MAIL_RECORDED_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_VOICE_MAIL_RECORDED_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbVoiceMailRecordedName;

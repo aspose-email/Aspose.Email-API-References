@@ -16,14 +16,14 @@ public void DeleteMessage(string messageUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | uri сообщения. |
+| messageUri | String | Сообщение uri. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` empty` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri* является`нулевой`. |
 
 ### Смотрите также
 
@@ -43,15 +43,15 @@ public void DeleteMessage(string messageUri, bool suppressReceipt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | uri сообщения. |
+| messageUri | String | Сообщение uri. |
 | suppressReceipt | Boolean | Значение, указывающее, следует ли подавлять отправку непрочитанного отчета. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` empty` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri* является`нулевой`. |
 
 ### Смотрите также
 

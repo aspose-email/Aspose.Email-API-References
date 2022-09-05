@@ -3,7 +3,7 @@ title: MapiContactSaveOptions
 second_title: Aspose.Email for .NET API 参考
 description: 指定联系人保存选项
 type: docs
-weight: 18300
+weight: 18330
 url: /zh/net/aspose.email.mapi/mapicontactsaveoptions/
 ---
 ## MapiContactSaveOptions class
@@ -18,7 +18,7 @@ public sealed class MapiContactSaveOptions : ContactSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactSaveOptions](mapicontactsaveoptions)() | 初始化[`MapiContactSaveOptions`](../mapicontactsaveoptions)类的新实例。 |
+| [MapiContactSaveOptions](mapicontactsaveoptions)() | 初始化[`MapiContactSaveOptions`](../mapicontactsaveoptions)类. |
 
 ## 特性
 

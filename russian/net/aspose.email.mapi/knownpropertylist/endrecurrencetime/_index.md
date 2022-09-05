@@ -1,14 +1,14 @@
 ---
 title: EndRecurrenceTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует конечное время диапазона повторения. ОбластьВстречи Каноническое имяPidLidEndRecurrenceTime Альтернативные именаLID_END_RECUR_TIME
+description: Определяет время окончания диапазона повторения. Область Meetings Каноническое имя PidLidEndRecurrenceTime Альтернативные имена LID_END_RECUR_TIME
 type: docs
 weight: 9750
 url: /ru/net/aspose.email.mapi/knownpropertylist/endrecurrencetime/
 ---
 ## KnownPropertyList.EndRecurrenceTime field
 
-Идентифицирует конечное время диапазона повторения. Область:Встречи Каноническое имя:PidLidEndRecurrenceTime Альтернативные имена:LID_END_RECUR_TIME
+Определяет время окончания диапазона повторения. Область: Meetings Каноническое имя: PidLidEndRecurrenceTime Альтернативные имена: LID_END_RECUR_TIME
 
 ```csharp
 public static readonly PidLidPropertyDescriptor EndRecurrenceTime;

@@ -6,6 +6,58 @@ type: docs
 weight: 940
 url: /zh/net/aspose.email.clients.imap/imapclient/movemessageasync/
 ---
+## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
+
+移动消息
+
+```csharp
+public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool commitDeletions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumber | Int32 | 消息的序号 |
+| folderName | String | 要移动消息的文件夹名称 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
+
+移动消息
+
+```csharp
+public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool commitDeletions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uniqueId | String | 消息的uid |
+| folderName | String | 要移动消息的文件夹名称 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## MoveMessageAsync(IConnection, int, string) {#movemessageasync}
 
 移动消息
@@ -17,12 +69,12 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,7 +101,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -70,12 +122,12 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -100,7 +152,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -122,14 +174,14 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -159,7 +211,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -181,14 +233,14 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -216,7 +268,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -238,13 +290,13 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -269,11 +321,11 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -294,13 +346,13 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, Canc
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -322,11 +374,11 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, Cancell
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -348,13 +400,13 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -383,63 +435,11 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
-
-移动消息
-
-```csharp
-public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool commitDeletions)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
-
-### 返回值
-
-任务对象，带有此操作的委托
-
-### 也可以看看
-
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
-
-移动消息
-
-```csharp
-public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool commitDeletions)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| uniqueId | String | 消息的uid |
-| folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除。 |
-
-### 返回值
-
-任务对象，带有此操作的委托
-
-### 也可以看看
-
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

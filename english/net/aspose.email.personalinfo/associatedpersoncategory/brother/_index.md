@@ -1,7 +1,7 @@
 ---
 title: Brother
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Brother
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/associatedpersoncategory/brother/

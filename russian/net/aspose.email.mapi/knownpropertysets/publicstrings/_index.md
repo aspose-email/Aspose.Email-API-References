@@ -1,14 +1,14 @@
 ---
 title: PublicStrings
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиCommon Имя набора свойствPS_PUBLIC_STRINGS
+description: Имя области Common Имя набора свойств PS_PUBLIC_STRINGS
 type: docs
 weight: 150
 url: /ru/net/aspose.email.mapi/knownpropertysets/publicstrings/
 ---
 ## KnownPropertySets.PublicStrings field
 
-Имя области:Common Имя набора свойств:PS_PUBLIC_STRINGS
+Имя области: Common Имя набора свойств: PS_PUBLIC_STRINGS
 
 ```csharp
 public static readonly Guid PublicStrings;

@@ -16,14 +16,14 @@ public static MapiMessage Load(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 源文件路径String。 |
+| fileName | String | 源文件路径String. |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentNullException | 文件名不应为空或为空。 |
-| NotSupportedException | 流不支持读取。 |
+| NotSupportedException | Stream 不支持阅读。 |
 | [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception) | 不支持传递的消息格式。 |
 
 ### 也可以看看
@@ -44,7 +44,7 @@ public static MapiMessage Load(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 源流Stream。 |
+| stream | Stream | 源流Stream. |
 
 ### 例外
 
@@ -52,7 +52,7 @@ public static MapiMessage Load(Stream stream)
 | --- | --- |
 | [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception) | 不支持传递的消息格式。 |
 | ArgumentNullException | 流不应为空或为空。 |
-| NotSupportedException | 流不支持读取。 |
+| NotSupportedException | Stream 不支持阅读。 |
 
 ### 也可以看看
 
@@ -72,8 +72,8 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 源流Stream。 |
-| options | LoadOptions | 附加选项[`LoadOptions`](../../../aspose.email/loadoptions)。 |
+| stream | Stream | 源流Stream. |
+| options | LoadOptions | 附加选项[`LoadOptions`](../../../aspose.email/loadoptions). |
 
 ### 例外
 
@@ -81,7 +81,7 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 | --- | --- |
 | [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception) | 不支持传递的消息格式。 |
 | ArgumentNullException | 流不应为空或为空。 |
-| NotSupportedException | 流不支持读取。 |
+| NotSupportedException | Stream 不支持阅读。 |
 
 ### 也可以看看
 
@@ -102,15 +102,15 @@ public static MapiMessage Load(string fileName, LoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 源文件路径String。 |
-| options | LoadOptions | 附加选项[`LoadOptions`](../../../aspose.email/loadoptions)。 |
+| fileName | String | 源文件路径String. |
+| options | LoadOptions | 附加选项[`LoadOptions`](../../../aspose.email/loadoptions). |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentNullException | 文件名不应为空或为空。 |
-| NotSupportedException | 流不支持读取。 |
+| NotSupportedException | Stream 不支持阅读。 |
 | [FormatNotSupportedException](../../../aspose.email/formatnotsupportedexception) | 不支持传递的消息格式。 |
 
 ### 也可以看看

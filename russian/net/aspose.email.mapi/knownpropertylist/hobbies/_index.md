@@ -1,14 +1,14 @@
 ---
 title: Hobbies
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит названия увлечений пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHobbies Альтернативные названияPR_HOBBIES PR_HOBBIES_A PR_HOBBIES_W urnschemascontactshobbies
+description: Содержит названия увлечений пользователя почты. Область MapiMailUser Каноническое имя PidTagHobbies Альтернативные имена PR_HOBBIES PR_HOBBIES_A PR_HOBBIES_W urnschemascontactshobbies
 type: docs
 weight: 10970
 url: /ru/net/aspose.email.mapi/knownpropertylist/hobbies/
 ---
 ## KnownPropertyList.Hobbies field
 
-Содержит названия увлечений пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHobbies Альтернативные названия:PR_HOBBIES, PR_HOBBIES_A, PR_HOBBIES_W, urn:schemas:contacts:hobbies
+Содержит названия увлечений пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHobbies Альтернативные имена: PR_HOBBIES, PR_HOBBIES_A, PR_HOBBIES_W, urn:schemas:contacts:hobbies
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Hobbies;

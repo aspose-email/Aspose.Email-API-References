@@ -1,7 +1,7 @@
 ---
 title: SiteCollectionUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name of the SharePoint site. Mandatory Yes
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activity/sharepointmetadata/sitecollectionurl/

@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает файлFindPeopleAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasyncнабор параметров.
+description: СоздаетFindPeopleAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync набор параметров.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/create/
 ---
 ## EwsFindPeople.Create method
 
-Создает файл[`FindPeopleAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync)набор параметров.
+Создает[`FindPeopleAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) набор параметров.
 
 ```csharp
 public static EwsFindPeople Create()

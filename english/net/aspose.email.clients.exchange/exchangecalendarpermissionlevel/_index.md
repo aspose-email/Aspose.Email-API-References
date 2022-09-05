@@ -1,7 +1,7 @@
 ---
 title: ExchangeCalendarPermissionLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the permission level that a user has on a calendar folder.
 type: docs
 weight: 3220
 url: /net/aspose.email.clients.exchange/exchangecalendarpermissionlevel/

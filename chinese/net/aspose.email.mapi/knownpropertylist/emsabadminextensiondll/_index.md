@@ -1,14 +1,14 @@
 ---
 title: EmsAbAdminExtensionDll
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_ADMIN_EXTENSION_DLL
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_ADMIN_EXTENSION_DLL
 type: docs
 weight: 4580
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabadminextensiondll/
 ---
 ## KnownPropertyList.EmsAbAdminExtensionDll field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_ADMIN_EXTENSION_DLL
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_ADMIN_EXTENSION_DLL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAdminExtensionDll;

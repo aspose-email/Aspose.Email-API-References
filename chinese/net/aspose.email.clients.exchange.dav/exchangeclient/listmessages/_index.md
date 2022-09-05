@@ -20,7 +20,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 
 ### 返回值
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+一个[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### 也可以看看
 
@@ -46,7 +46,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### 返回值
 
-AExchangeMessageInfoCollection
+一个[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### 也可以看看
 
@@ -70,7 +70,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string messageC
 | --- | --- | --- |
 | folder | String | 文件夹。 |
 | messageClass | String | 消息类。 |
-| recursive | Boolean | 如果设置为` true` [递归]。 |
+| recursive | Boolean | 如果设置为`真的`[递归]。 |
 
 ### 也可以看看
 
@@ -83,7 +83,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string messageC
 
 ## ListMessages(string, bool) {#listmessages_3}
 
-列出指定文件夹中的消息
+列出指定文件夹中的邮件
 
 ```csharp
 public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
@@ -92,11 +92,11 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folder | String | 文件夹 Uri |
-| recursive | Boolean | 表示是否递归列出。 |
+| recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
 
-消息信息集合
+消息信息的集合
 
 ### 也可以看看
 
@@ -140,8 +140,8 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folder | String | 包含消息的文件夹的 Uri。 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索条件。 |
-| recursive | Boolean | 表示是否递归列出。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索条件。 |
+| recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
 
@@ -168,12 +168,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 文件夹 URL |
-| options | ExchangeListMessagesOptions | 指定列表 |
+| folder | String | 文件夹网址 |
+| options | ExchangeListMessagesOptions | 指定列表的设置 |
 
 ### 返回值
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)集合。
+一个[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)收藏。
 
 ### 也可以看看
 
@@ -187,7 +187,7 @@ A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchan
 
 ## ListMessages(string, int, ExchangeListMessagesOptions) {#listmessages_5}
 
-列出指定文件夹中的消息
+列出指定文件夹中的邮件
 
 ```csharp
 public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOfMessages, 
@@ -198,11 +198,11 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | --- | --- | --- |
 | folder | String | 文件夹 Uri |
 | maxNumberOfMessages | Int32 | 最大消息数 |
-| options | ExchangeListMessagesOptions | 指定列表设置 |
+| options | ExchangeListMessagesOptions | 指定列表的设置 |
 
 ### 返回值
 
-消息信息集合
+消息信息的集合
 
 ### 也可以看看
 

@@ -16,15 +16,15 @@ public void Replace(int index, string name, MapiMessage msg)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该被替换的从零开始的索引。 |
-| name | String | 附件名称。 |
-| msg | MapiMessage | [`MapiMessage`](../../mapimessage)表示附加消息。 |
+| index | Int32 | 应替换的从零开始的索引。 |
+| name | String | 附件的名称。 |
+| msg | MapiMessage | 这[`MapiMessage`](../../mapimessage)表示附加的消息。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果消息为空，则抛出 。 |
+| ArgumentNullException | 如果消息为空则抛出。 |
 
 ### 也可以看看
 

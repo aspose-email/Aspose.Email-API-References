@@ -1,9 +1,9 @@
 ---
 title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 19850
+weight: 20080
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class
@@ -18,8 +18,8 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 
 | Name | Description |
 | --- | --- |
-| [MboxrdStorageWriter](mboxrdstoragewriter)(Stream, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
-| [MboxrdStorageWriter](mboxrdstoragewriter)(string, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor)(Stream, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor_1)(string, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
 
 ## Properties
 
@@ -32,8 +32,8 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage)(MailMessage) | Writes the message to underlying storage stream. |
-| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
+| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage#writemessage)(MailMessage) | Writes the message to underlying storage stream. |
+| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage#writemessage_1)(MailMessage, out string) | Writes the message to underlying storage stream. |
 
 ### See Also
 

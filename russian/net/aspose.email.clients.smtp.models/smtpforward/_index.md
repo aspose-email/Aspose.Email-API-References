@@ -1,14 +1,14 @@
 ---
 title: SmtpForward
 second_title: Справочник по Aspose.Email для .NET API
-description: TheForwardAsync../aspose.email.clients.smtp/iasyncsmtpclient/forwardasyncаргументы.
+description: ForwardAsync../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync аргументы.
 type: docs
 weight: 17000
 url: /ru/net/aspose.email.clients.smtp.models/smtpforward/
 ---
 ## SmtpForward class
 
-The[`ForwardAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync)аргументы.
+[`ForwardAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync) аргументы.
 
 ```csharp
 public class SmtpForward
@@ -18,16 +18,16 @@ public class SmtpForward
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.smtp.models/smtpforward/create)() | Создает файл[`SmtpForward`](../smtpforward)instacne. |
-| [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient)(MailAddress) | Добавить получателя пересылаемого сообщения. |
-| [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient_1)(string) | Добавить получателя пересылаемого сообщения. |
+| static [Create](../../aspose.email.clients.smtp.models/smtpforward/create)() | Создает[`SmtpForward`](../smtpforward) instacne. |
+| [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient)(MailAddress) | Добавить получателя переадресованного сообщения. |
+| [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient_1)(string) | Добавить получателя переадресованного сообщения. |
 | [AddRecipients](../../aspose.email.clients.smtp.models/smtpforward/addrecipients#addrecipients_1)(IEnumerable&lt;string&gt;) | Добавить получателей пересылаемого сообщения. |
 | [AddRecipients](../../aspose.email.clients.smtp.models/smtpforward/addrecipients#addrecipients)(MailAddressCollection) | Добавить получателей пересылаемого сообщения. |
 | [SetCancellationToken](../../aspose.email.clients.smtp.models/smtpforward/setcancellationtoken)(CancellationToken) | Установите токен отмены (необязательно). |
-| [SetConnection](../../aspose.email.clients.smtp.models/smtpforward/setconnection)(IConnection) | Подключение к серверу (опционально). |
+| [SetConnection](../../aspose.email.clients.smtp.models/smtpforward/setconnection)(IConnection) | Подключение к серверу (необязательно). |
 | [SetMessage](../../aspose.email.clients.smtp.models/smtpforward/setmessage#setmessage)(MailMessage) | Сообщение для пересылки. |
 | [SetMessage](../../aspose.email.clients.smtp.models/smtpforward/setmessage#setmessage_1)(Stream) | Сообщение для пересылки. |
-| [SetSender](../../aspose.email.clients.smtp.models/smtpforward/setsender)(string) | Отправитель пересылаемого сообщения. |
+| [SetSender](../../aspose.email.clients.smtp.models/smtpforward/setsender)(string) | Отправитель переадресованного сообщения. |
 
 ### Смотрите также
 

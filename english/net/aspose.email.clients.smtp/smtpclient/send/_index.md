@@ -1,12 +1,12 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates and sends the specified message.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.smtp/smtpclient/send/
 ---
-## SmtpClient.Send method (1 of 10)
+## Send(string, string, string, string) {#send_9}
 
 Creates and sends the specified message.
 
@@ -29,7 +29,7 @@ public void Send(string from, string recipients, string subject, string body)
 
 ---
 
-## SmtpClient.Send method (2 of 10)
+## Send(MailMessage) {#send_5}
 
 Send the specified message.
 
@@ -50,7 +50,7 @@ public void Send(MailMessage message)
 
 ---
 
-## SmtpClient.Send method (3 of 10)
+## Send(params MailMessage[]) {#send_7}
 
 Send the specified message.
 
@@ -71,7 +71,7 @@ public void Send(params MailMessage[] messages)
 
 ---
 
-## SmtpClient.Send method (4 of 10)
+## Send(MailMessageCollection) {#send_6}
 
 Send the specified message collection.
 
@@ -92,7 +92,7 @@ public void Send(MailMessageCollection messages)
 
 ---
 
-## SmtpClient.Send method (5 of 10)
+## Send(IEnumerable&lt;MailMessage&gt;) {#send_8}
 
 Send the specified messages.
 
@@ -113,7 +113,7 @@ public void Send(IEnumerable<MailMessage> messages)
 
 ---
 
-## SmtpClient.Send method (6 of 10)
+## Send(IConnection, string, string, string, string) {#send_4}
 
 Creates and sends the specified message.
 
@@ -139,7 +139,7 @@ public void Send(IConnection connection, string from, string recipients, string 
 
 ---
 
-## SmtpClient.Send method (7 of 10)
+## Send(IConnection, MailMessage) {#send}
 
 Send the specified message.
 
@@ -162,7 +162,7 @@ public void Send(IConnection connection, MailMessage message)
 
 ---
 
-## SmtpClient.Send method (8 of 10)
+## Send(IConnection, params MailMessage[]) {#send_2}
 
 Send the specified message.
 
@@ -185,7 +185,7 @@ public void Send(IConnection connection, params MailMessage[] messages)
 
 ---
 
-## SmtpClient.Send method (9 of 10)
+## Send(IConnection, MailMessageCollection) {#send_1}
 
 Send the specified message collection.
 
@@ -208,7 +208,7 @@ public void Send(IConnection connection, MailMessageCollection messages)
 
 ---
 
-## SmtpClient.Send method (10 of 10)
+## Send(IConnection, IEnumerable&lt;MailMessage&gt;) {#send_3}
 
 Send the specified messages.
 

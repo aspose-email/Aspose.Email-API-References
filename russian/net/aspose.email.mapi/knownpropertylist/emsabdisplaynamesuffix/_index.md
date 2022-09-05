@@ -1,14 +1,14 @@
 ---
 title: EmsAbDisplayNameSuffix
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DISPLAY_NAME_SUFFIX
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DISPLAY_NAME_SUFFIX
 type: docs
 weight: 5490
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdisplaynamesuffix/
 ---
 ## KnownPropertyList.EmsAbDisplayNameSuffix field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DISPLAY_NAME_SUFFIX
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DISPLAY_NAME_SUFFIX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisplayNameSuffix;

@@ -3,7 +3,7 @@ title: OriginalMessageAdditionMode
 second_title: Aspose.Email for .NET API 参考
 description: 在响应消息中包含原始消息的方式
 type: docs
-weight: 20570
+weight: 20620
 url: /zh/net/aspose.email.tools/originalmessageadditionmode/
 ---
 ## OriginalMessageAdditionMode enumeration

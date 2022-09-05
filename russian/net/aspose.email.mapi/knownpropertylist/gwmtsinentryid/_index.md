@@ -1,14 +1,14 @@
 ---
 title: GwMtsinEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_GW_MTSIN_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_GW_MTSIN_ENTRYID
 type: docs
 weight: 10820
 url: /ru/net/aspose.email.mapi/knownpropertylist/gwmtsinentryid/
 ---
 ## KnownPropertyList.GwMtsinEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_GW_MTSIN_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_GW_MTSIN_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GwMtsinEntryid;

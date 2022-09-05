@@ -1,9 +1,9 @@
 ---
 title: SequenceSetField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines set of values for selected field to search.
 type: docs
-weight: 16590
+weight: 16700
 url: /net/aspose.email.clients.imap/sequencesetfield/
 ---
 ## SequenceSetField class

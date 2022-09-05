@@ -1,14 +1,14 @@
 ---
 title: MaxItems
 second_title: Aspose.Email for .NET API 参考
-description: 指定从收件人信息缓存中保持同步的收件人即最常用的前 N 个收件人的最大数量 只有当 CollectionId 元素第 2.2.3.30.5 节的值映射到接收者信息缓存时该元素才必须包含在请求中 MaxItems 元素的值没有指定对收件人信息缓存进行的添加和删除的最大估计 它只指定要保持同步的收件人数量 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍因为每个收件人更新都需要删除和添加
+description: 指定要在收件人信息缓存中保持同步的最大收件人数即最常用的前 N 个收件人 只有当 CollectionId 元素第 2.2.3.30.5 节的值映射到收件人信息缓存时该元素才必须包含在请求中 MaxItems 元素的值不指定对收件人信息缓存进行的添加和删除的最大估计值 它仅指定要保持同步的收件人数量 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍因为每个收件人更新都需要删除和添加
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncoptions/maxitems/
 ---
 ## SyncOptions.MaxItems property
 
-指定从收件人信息缓存中保持同步的收件人（即最常用的前 N 个收件人）的最大数量。 只有当 CollectionId 元素（第 2.2.3.30.5 节）的值映射到接收者信息缓存时，该元素才必须包含在请求中。 MaxItems 元素的值没有指定对收件人信息缓存进行的添加和删除的最大估计， 它只指定要保持同步的收件人数量。 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍，因为每个收件人更新都需要删除和添加。
+指定要在收件人信息缓存中保持同步的最大收件人数（即最常用的前 N 个收件人）。 只有当 CollectionId 元素（第 2.2.3.30.5 节）的值映射到收件人信息缓存时，该元素才必须包含在请求中。 MaxItems 元素的值不指定对收件人信息缓存进行的添加和删除的最大估计值， 它仅指定要保持同步的收件人数量。 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍，因为每个收件人更新都需要删除和添加。
 
 ```csharp
 public int? MaxItems { get; set; }

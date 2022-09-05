@@ -1,14 +1,14 @@
 ---
 title: StartRecurrenceDate
 second_title: Aspose.Email for .NET API 参考
-description: 标识重复模式的开始日期 区域会议 规范名称PidLidStartRecurrenceDate 别名LID_START_RECUR_DATE
+description: 标识重复模式的开始日期 区域Meetings 规范名称PidLidStartRecurrenceDate 替代名称LID_START_RECUR_DATE
 type: docs
 weight: 18170
 url: /zh/net/aspose.email.mapi/knownpropertylist/startrecurrencedate/
 ---
 ## KnownPropertyList.StartRecurrenceDate field
 
-标识重复模式的开始日期。 区域:会议 规范名称:PidLidStartRecurrenceDate 别名:LID_START_RECUR_DATE
+标识重复模式的开始日期。 区域：Meetings 规范名称：PidLidStartRecurrenceDate 替代名称：LID_START_RECUR_DATE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor StartRecurrenceDate;

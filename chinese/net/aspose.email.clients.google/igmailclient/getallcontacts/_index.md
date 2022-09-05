@@ -22,7 +22,7 @@ public Contact[] GetAllContacts()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| WebException | when操作失败 |
+| WebException | 当操作失败时 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个二进制可比密钥代表由发送邮箱所有者代表的最终用户 区域地址属性 规范名称PidTagSentRepresentingSearchKey 替代名称PR_SENT_REPRESENTING_SEARCH_KEY ptagSentRepresentingSearchKey
+description: 包含一个二进制可比密钥代表由发送邮箱所有者代表的最终用户 区域地址 Properties 规范名称PidTagSentRepresentingSearchKey 替代名称PR_SENT_REPRESENTING_SEARCH_KEYptagSentRepresentingSearchKey
 type: docs
 weight: 17270
 url: /zh/net/aspose.email.mapi/knownpropertylist/sentrepresentingsearchkey/
 ---
 ## KnownPropertyList.SentRepresentingSearchKey field
 
-包含一个二进制可比密钥，代表由发送邮箱所有者代表的最终用户。 区域:地址属性 规范名称:PidTagSentRepresentingSearchKey 替代名称:PR_SENT_REPRESENTING_SEARCH_KEY, ptagSentRepresentingSearchKey
+包含一个二进制可比密钥，代表由发送邮箱所有者代表的最终用户。 区域：地址 Properties 规范名称：PidTagSentRepresentingSearchKey 替代名称：PR_SENT_REPRESENTING_SEARCH_KEY、ptagSentRepresentingSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingSearchKey;

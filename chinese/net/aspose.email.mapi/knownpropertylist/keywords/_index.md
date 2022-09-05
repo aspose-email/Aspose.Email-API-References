@@ -1,14 +1,14 @@
 ---
 title: Keywords
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Message 对象的关键字或类别 区域常规消息属性 规范名称PidNameKeywords 备用名称urnschemas-microsoft-comofficeofficeKeywords
+description: 包含消息对象的关键字或类别 区域常规消息属性 规范名称PidNameKeywords 备用名称urnschemas-microsoft-comofficeofficeKeywords
 type: docs
 weight: 11930
 url: /zh/net/aspose.email.mapi/knownpropertylist/keywords/
 ---
 ## KnownPropertyList.Keywords field
 
-包含 Message 对象的关键字或类别。 区域:常规消息属性 规范名称:PidNameKeywords 备用名称:urn:schemas-microsoft-com:office:office#Keywords,
+包含消息对象的关键字或类别。 区域：常规消息属性 规范名称：PidNameKeywords 备用名称：urn:schemas-microsoft-com:office:office#Keywords,
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Keywords;

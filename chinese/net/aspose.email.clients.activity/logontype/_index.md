@@ -23,7 +23,7 @@ public enum LogonType
 | Admin | `1` | 对某人的邮箱具有管理权限的人。 |
 | Delegated | `2` | 对某人的邮箱具有代理权限的人。 |
 | Transport | `3` | Microsoft 数据中心的传输服务。 |
-| SystemService | `4` | Microsoft 数据中心中的服务帐户 |
+| SystemService | `4` | Microsoft 数据中心的服务帐户 |
 | BestAccess | `5` | 保留供内部使用。 |
 | DelegatedAdmin | `6` | 委托管理员。 |
 

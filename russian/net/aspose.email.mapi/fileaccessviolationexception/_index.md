@@ -1,14 +1,14 @@
 ---
 title: FileAccessViolationException
 second_title: Справочник по Aspose.Email для .NET API
-description: Это исключение будет генерироваться когда файл открывается и блокируется другим вызывающим.
+description: Это исключение будет вызвано когда файл будет открыт и заблокирован другим вызывающим абонентом.
 type: docs
 weight: 17790
 url: /ru/net/aspose.email.mapi/fileaccessviolationexception/
 ---
 ## FileAccessViolationException class
 
-Это исключение будет генерироваться, когда файл открывается и блокируется другим вызывающим.
+Это исключение будет вызвано, когда файл будет открыт и заблокирован другим вызывающим абонентом.
 
 ```csharp
 public class FileAccessViolationException : IOException
@@ -20,7 +20,7 @@ public class FileAccessViolationException : IOException
 | --- | --- |
 | [FileAccessViolationException](fileaccessviolationexception#constructor)() | Инициализирует новый экземпляр класса с сообщением об ошибке по умолчанию. |
 | [FileAccessViolationException](fileaccessviolationexception#constructor_1)(string) | Инициализирует новый экземпляр класса с указанным сообщением об ошибке. |
-| [FileAccessViolationException](fileaccessviolationexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса Exception с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [FileAccessViolationException](fileaccessviolationexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса Exception с указанным сообщением об ошибке и ссылкой на исключение inner , которое является причиной этого исключения. |
 
 ### Смотрите также
 

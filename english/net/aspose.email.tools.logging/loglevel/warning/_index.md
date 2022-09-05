@@ -1,7 +1,7 @@
 ---
 title: Warning
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Warn level.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/loglevel/warning/

@@ -1,7 +1,7 @@
 ---
 title: EmailClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the client that creates server connection by using the host credentials.
 type: docs
 weight: 3020
 url: /net/aspose.email.clients/emailclient/
@@ -48,12 +48,12 @@ public abstract class EmailClient : IDisposable
 
 | Name | Description |
 | --- | --- |
-| virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection)() | Creates new independent connection for operations not linked to threads (not default connection). Invocation of this method is similar to invocation of CreateConnection(createAsDefaultConnection = false) Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
-| virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection)(bool) | Creates new (default or independent) connection for operations. Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
+| virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection#createconnection)() | Creates new independent connection for operations not linked to threads (not default connection). Invocation of this method is similar to invocation of CreateConnection(createAsDefaultConnection = false) Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
+| virtual [CreateConnection](../../aspose.email.clients/emailclient/createconnection#createconnection_1)(bool) | Creates new (default or independent) connection for operations. Please see more in documentation for EmailClient.ConnectionAsgmtMode property. |
 | virtual [Dispose](../../aspose.email.clients/emailclient/dispose)() | Finalizes all operations with a server. |
 | virtual [GetCapabilities](../../aspose.email.clients/emailclient/getcapabilities)() |  |
-| abstract [Noop](../../aspose.email.clients/emailclient/noop)() | 'No operation' command |
-| abstract [Noop](../../aspose.email.clients/emailclient/noop)(IConnection) | 'No operation' command |
+| abstract [Noop](../../aspose.email.clients/emailclient/noop#noop)() | 'No operation' command |
+| abstract [Noop](../../aspose.email.clients/emailclient/noop#noop_1)(IConnection) | 'No operation' command |
 | [ResetLogSettings](../../aspose.email.clients/emailclient/resetlogsettings)() | Resets logging settings to default. |
 | [SetSupportedEncryptionUnsafe](../../aspose.email.clients/emailclient/setsupportedencryptionunsafe)(EncryptionProtocols) | Defines the versions of SSL/TLS encryption protocols to be used. This method is not safe and sets the encryption protocols without any compatibility checks. Use [`SupportedEncryption`](./supportedencryption) property to safely set only protocols that definitely supported by .net framework. Please note, if your current .net framework does not support this level of security, an exception will be thrown when trying to establish a connection to the server. |
 | abstract [ValidateCredentials](../../aspose.email.clients/emailclient/validatecredentials)() | Checks if the credentials are valid |

@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the additional notes
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/notes/

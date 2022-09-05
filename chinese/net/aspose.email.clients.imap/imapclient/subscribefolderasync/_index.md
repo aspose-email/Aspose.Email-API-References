@@ -1,14 +1,14 @@
 ---
 title: SubscribeFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 发送 SUBSCRIBE 命令将指定的邮箱名称添加到服务器的活动邮箱集
+description: 发送了将指定邮箱名称添加到服务器的活动邮箱集的 SUBSCRIBE 命令
 type: docs
 weight: 1220
 url: /zh/net/aspose.email.clients.imap/imapclient/subscribefolderasync/
 ---
 ## SubscribeFolderAsync(IConnection, string) {#subscribefolderasync}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public Task SubscribeFolderAsync(IConnection connection, string folderName)
@@ -17,11 +17,11 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| folderName | String | 名称文件夹 |
+| folderName | String | 文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName)
 
 ## SubscribeFolderAsync(string) {#subscribefolderasync_2}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public Task SubscribeFolderAsync(string folderName)
@@ -46,7 +46,7 @@ public Task SubscribeFolderAsync(string folderName)
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public Task SubscribeFolderAsync(string folderName)
 
 ## SubscribeFolderAsync(IConnection, string, CancellationToken) {#subscribefolderasync_1}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public Task SubscribeFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -67,12 +67,12 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName, Canc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| folderName | String | 名称文件夹 |
+| folderName | String | 文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName, Canc
 
 ## SubscribeFolderAsync(string, CancellationToken) {#subscribefolderasync_3}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public Task SubscribeFolderAsync(string folderName, CancellationToken token)
@@ -94,11 +94,11 @@ public Task SubscribeFolderAsync(string folderName, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderName | String | 文件夹名称 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

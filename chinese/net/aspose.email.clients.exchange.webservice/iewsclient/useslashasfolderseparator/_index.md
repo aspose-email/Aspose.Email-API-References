@@ -1,14 +1,14 @@
 ---
 title: UseSlashAsFolderSeparator
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置确定斜杠/是否用作文件夹分隔符的值
+description: 获取或设置确定斜线/是否用作文件夹分隔符的值
 type: docs
 weight: 220
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/useslashasfolderseparator/
 ---
 ## IEWSClient.UseSlashAsFolderSeparator property
 
-获取或设置确定斜杠“/”是否用作文件夹分隔符的值。
+获取或设置确定斜线“/”是否用作文件夹分隔符的值。
 
 ```csharp
 public bool UseSlashAsFolderSeparator { get; set; }

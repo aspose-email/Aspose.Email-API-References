@@ -1,14 +1,14 @@
 ---
 title: EmsAbPopCharacterSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_POP_CHARACTER_SET
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_POP_CHARACTER_SET
 type: docs
 weight: 8110
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabpopcharacterset/
 ---
 ## KnownPropertyList.EmsAbPopCharacterSet field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_POP_CHARACTER_SET
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_POP_CHARACTER_SET
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPopCharacterSet;

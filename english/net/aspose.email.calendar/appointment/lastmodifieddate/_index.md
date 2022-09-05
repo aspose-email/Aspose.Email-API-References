@@ -1,9 +1,9 @@
 ---
 title: LastModifiedDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date and time that calendar information was last revised.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.calendar/appointment/lastmodifieddate/
 ---
 ## Appointment.LastModifiedDate property

@@ -3,7 +3,7 @@ title: VCardVersion
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 vCard 版本
 type: docs
-weight: 19790
+weight: 19840
 url: /zh/net/aspose.email.personalinfo.vcard/vcardversion/
 ---
 ## VCardVersion enumeration

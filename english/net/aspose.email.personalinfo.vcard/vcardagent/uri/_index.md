@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a uri of agent card null if ValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation is INLINE
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo.vcard/vcardagent/uri/

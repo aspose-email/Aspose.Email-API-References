@@ -1,7 +1,7 @@
 ---
 title: DetectionMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The method or technology used by Office 365 ATP for the detection. Mandatory Yes
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/detectionmethod/

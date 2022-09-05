@@ -24,24 +24,24 @@ public enum UserSettingName
 | InternalMailboxServer | `3` | Полное доменное имя сервера почтовых ящиков. |
 | InternalRpcClientServer | `4` | Полное доменное имя клиентского сервера RPC. |
 | InternalMailboxServerDN | `5` | Устаревшее различающееся имя сервера почтовых ящиков. |
-| InternalEcpUrl | `6` | Внутренний URL-адрес панели управления Exchange. |
+| InternalEcpUrl | `6` | Внутренний URL панели управления Exchange. |
 | InternalEcpVoicemailUrl | `7` | Внутренний URL-адрес панели управления Exchange для настройки голосовой почты. |
 | InternalEcpEmailSubscriptionsUrl | `8` | Внутренний URL-адрес панели управления Exchange для подписок по электронной почте. |
 | InternalEcpTextMessagingUrl | `9` | Внутренний URL-адрес панели управления Exchange для обмена текстовыми сообщениями. |
-| InternalEcpDeliveryReportUrl | `10` | Внутренний URL-адрес панели управления Exchange для отчетов о доставке. |
+| InternalEcpDeliveryReportUrl | `10` | Внутренний URL панели управления Exchange для отчетов о доставке. |
 | InternalEcpRetentionPolicyTagsUrl | `11` | Внутренний URL-адрес панели управления Exchange для тегов RetentionPolicy. |
 | InternalEcpPublishingUrl | `12` | Внутренний URL-адрес панели управления Exchange для публикации. |
 | InternalEcpPhotoUrl | `13` | Внутренний URL панели управления Exchange для фотографий. |
 | InternalEcpConnectUrl | `14` | Внутренний URL-адрес панели управления Exchange для подписок People Connect. |
 | InternalEcpTeamMailboxUrl | `15` | Внутренний URL-адрес панели управления Exchange для группового почтового ящика. |
-| InternalEcpTeamMailboxCreatingUrl | `16` | Внутренний URL-адрес панели управления Exchange для создания группового почтового ящика. |
+| InternalEcpTeamMailboxCreatingUrl | `16` | Внутренний URL панели управления Exchange для создания группового почтового ящика. |
 | InternalEcpTeamMailboxEditingUrl | `17` | Внутренний URL панели управления Exchange для редактирования группового почтового ящика. |
-| InternalEcpTeamMailboxHidingUrl | `18` | Внутренний URL-адрес панели управления Exchange для скрытия группового почтового ящика. |
+| InternalEcpTeamMailboxHidingUrl | `18` | Внутренний URL панели управления Exchange для скрытия группового почтового ящика. |
 | InternalEcpExtensionInstallationUrl | `19` | Внутренний URL панели управления Exchange для установки расширения. |
 | InternalEwsUrl | `20` | Внутренний URL-адрес веб-служб Exchange. |
 | InternalEmwsUrl | `21` | Внутренний URL-адрес веб-служб управления Exchange. |
 | InternalOABUrl | `22` | Внутренний URL-адрес автономной адресной книги. |
-| InternalPhotosUrl | `23` | Внутренний URL сервиса Photos. |
+| InternalPhotosUrl | `23` | Внутренний URL службы фотографий. |
 | InternalUMUrl | `24` | Внутренний URL-адрес служб единой системы обмена сообщениями. |
 | InternalWebClientUrls | `25` | Внутренние URL-адреса веб-клиента Exchange. |
 | MailboxDN | `26` | Отличительное имя базы данных почтовых ящиков почтового ящика пользователя. |
@@ -51,14 +51,14 @@ public enum UserSettingName
 | ExternalMailboxServerRequiresSSL | `30` | Указывает, требует ли сервер RPC через HTTP SSL. |
 | ExternalMailboxServerAuthenticationMethods | `31` | Методы аутентификации, поддерживаемые сервером RPC через HTTP. |
 | EcpVoicemailUrlFragment | `32` | Фрагмент URL-адреса панели управления Exchange для настройки голосовой почты. |
-| EcpEmailSubscriptionsUrlFragment | `33` | Фрагмент URL-адреса панели управления Exchange для подписок по электронной почте. |
-| EcpTextMessagingUrlFragment | `34` | Фрагмент URL-адреса панели управления Exchange для обмена текстовыми сообщениями. |
+| EcpEmailSubscriptionsUrlFragment | `33` | Фрагмент URL панели управления Exchange для подписок по электронной почте. |
+| EcpTextMessagingUrlFragment | `34` | Фрагмент URL панели управления обменом текстовыми сообщениями. |
 | EcpDeliveryReportUrlFragment | `35` | Фрагмент URL панели управления Exchange для отчетов о доставке. |
-| EcpRetentionPolicyTagsUrlFragment | `36` | Фрагмент URL-адреса панели управления Exchange для тегов RetentionPolicy. |
-| EcpPublishingUrlFragment | `37` | Фрагмент URL-адреса панели управления Exchange для публикации. |
+| EcpRetentionPolicyTagsUrlFragment | `36` | Фрагмент URL панели управления Exchange для тегов RetentionPolicy. |
+| EcpPublishingUrlFragment | `37` | Фрагмент URL панели управления Exchange для публикации. |
 | EcpPhotoUrlFragment | `38` | Фрагмент URL панели управления Exchange для фотографий. |
-| EcpConnectUrlFragment | `39` | Фрагмент URL-адреса панели управления Exchange для People Connect. |
-| EcpTeamMailboxUrlFragment | `40` | Фрагмент URL-адреса панели управления Exchange для группового почтового ящика. |
+| EcpConnectUrlFragment | `39` | Фрагмент URL панели управления Exchange для People Connect. |
+| EcpTeamMailboxUrlFragment | `40` | Фрагмент URL панели управления Exchange для группового почтового ящика. |
 | EcpTeamMailboxCreatingUrlFragment | `41` | Фрагмент URL панели управления Exchange для создания группового почтового ящика. |
 | EcpTeamMailboxEditingUrlFragment | `42` | Фрагмент URL панели управления Exchange для редактирования группового почтового ящика. |
 | EcpExtensionInstallationUrlFragment | `43` | Фрагмент URL панели управления Exchange для установки расширения. |
@@ -66,15 +66,15 @@ public enum UserSettingName
 | ExternalEcpVoicemailUrl | `45` | Внешний URL-адрес панели управления Exchange для настройки голосовой почты. |
 | ExternalEcpEmailSubscriptionsUrl | `46` | Внешний URL-адрес панели управления Exchange для подписок по электронной почте. |
 | ExternalEcpTextMessagingUrl | `47` | Внешний URL-адрес панели управления Exchange для обмена текстовыми сообщениями. |
-| ExternalEcpDeliveryReportUrl | `48` | Внешний URL-адрес панели управления Exchange для отчетов о доставке. |
+| ExternalEcpDeliveryReportUrl | `48` | Внешний URL панели управления Exchange для отчетов о доставке. |
 | ExternalEcpRetentionPolicyTagsUrl | `49` | Внешний URL-адрес панели управления Exchange для тегов RetentionPolicy. |
 | ExternalEcpPublishingUrl | `50` | Внешний URL-адрес панели управления Exchange для публикации. |
 | ExternalEcpPhotoUrl | `51` | Внешний URL панели управления Exchange для фотографий. |
 | ExternalEcpConnectUrl | `52` | Внешний URL-адрес панели управления Exchange для подписок People Connect. |
 | ExternalEcpTeamMailboxUrl | `53` | Внешний URL-адрес панели управления Exchange для группового почтового ящика. |
-| ExternalEcpTeamMailboxCreatingUrl | `54` | Внешний URL-адрес панели управления Exchange для создания группового почтового ящика. |
-| ExternalEcpTeamMailboxEditingUrl | `55` | Внешний URL-адрес панели управления Exchange для редактирования группового почтового ящика. |
-| ExternalEcpTeamMailboxHidingUrl | `56` | Внешний URL-адрес панели управления Exchange для скрытия группового почтового ящика. |
+| ExternalEcpTeamMailboxCreatingUrl | `54` | Внешний URL панели управления Exchange для создания группового почтового ящика. |
+| ExternalEcpTeamMailboxEditingUrl | `55` | Внешний URL панели управления Exchange для редактирования группового почтового ящика. |
+| ExternalEcpTeamMailboxHidingUrl | `56` | Внешний URL панели управления Exchange для скрытия группового почтового ящика. |
 | ExternalEcpExtensionInstallationUrl | `57` | Внешний URL панели управления Exchange для установки расширения. |
 | ExternalEwsUrl | `58` | Внешний URL-адрес веб-служб Exchange. |
 | ExternalEmwsUrl | `59` | Внешний URL-адрес веб-служб управления Exchange. |
@@ -85,42 +85,42 @@ public enum UserSettingName
 | CrossOrganizationSharingEnabled | `64` | Указывает, что совместное использование между организациями включено. |
 | AlternateMailboxes | `65` | Коллекция альтернативных почтовых ящиков. |
 | CasVersion | `66` | Версия сервера клиентского доступа, обслуживающего запрос (например, 14.XX.YYY.ZZZ) |
-| EwsSupportedSchemas | `67` | Разделенный запятыми список версий схемы, поддерживаемых веб-службами Exchange. Значения версии схемы будут такими же, как значения перечисления ExchangeServerVersion. |
+| EwsSupportedSchemas | `67` | Разделенный запятыми список версий схемы, поддерживаемых веб-службами Exchange. Версия схемы values будет такой же, как значения перечисления ExchangeServerVersion. |
 | InternalPop3Connections | `68` | Список настроек внутреннего подключения для поп-протокола |
 | ExternalPop3Connections | `69` | Список настроек внешнего подключения для поп-протокола |
 | InternalImap4Connections | `70` | Список настроек внутреннего подключения для протокола imap4 |
 | ExternalImap4Connections | `71` | Список настроек внешнего подключения для протокола imap4 |
-| InternalSmtpConnections | `72` | Список настроек внутреннего подключения для протокола smtp |
+| InternalSmtpConnections | `72` | Список настроек внутреннего соединения для протокола smtp |
 | ExternalSmtpConnections | `73` | Список настроек внешнего подключения для протокола smtp |
-| InternalServerExclusiveConnect | `74` | Если установлено значение "Выкл", то клиенты не должны подключаться по этому протоколу. Содержание протокола предназначено только для информационных целей. |
+| InternalServerExclusiveConnect | `74` | Если установлено значение "Выкл", клиенты не должны подключаться по этому протоколу. Содержимое протокола предназначено только для информационных целей. |
 | ExternalEwsVersion | `75` | Версия сервера веб-служб Exchange, на которую указывает ExternalEwsUrl. |
 | MobileMailboxPolicy | `76` | Параметры политики мобильного почтового ящика. |
-| DocumentSharingLocations | `77` | Места обмена документами и их настройки. |
+| DocumentSharingLocations | `77` | Места для обмена документами и их настройки. |
 | UserMSOnline | `78` | Является ли учетная запись пользователя учетной записью MSOnline. |
 | InternalMailboxServerAuthenticationMethods | `79` | Методы аутентификации, поддерживаемые клиентским сервером RPC. |
 | MailboxVersion | `80` | Версия сервера, на котором размещен почтовый ящик пользователя. |
-| SPMySiteHostURL | `81` | URL-адрес хоста Sharepoint MySite. |
+| SPMySiteHostURL | `81` | URL-адрес хоста личного сайта Sharepoint. |
 | SiteMailboxCreationURL | `82` | URL-адрес создания почтового ящика сайта в SharePoint. Он используется Outlook для создания почтового ящика сайта напрямую из SharePoint. |
 | InternalRpcHttpServer | `83` | Полное доменное имя сервера, используемого для внутреннего подключения RPC/HTTP. |
 | InternalRpcHttpConnectivityRequiresSsl | `84` | Указывает, требуется ли SSL для внутреннего подключения RPC/HTTP. |
-| InternalRpcHttpAuthenticationMethod | `85` | Метод проверки подлинности, используемый для внутреннего подключения RPC/HTTP. |
-| ExternalServerExclusiveConnect | `86` | Если установлено значение "Вкл", то клиенты должны подключаться только по этому протоколу. |
+| InternalRpcHttpAuthenticationMethod | `85` | Метод аутентификации, используемый для внутреннего подключения RPC/HTTP. |
+| ExternalServerExclusiveConnect | `86` | Если установлено значение «Вкл.», клиенты должны подключаться только по этому протоколу. |
 | ExchangeRpcUrl | `87` | Если установлено, то клиенты могут звонить на сервер через XTC |
-| ShowGalAsDefaultView | `88` | Если установлено значение false, клиенты не должны показывать глобальный список адресов по умолчанию, а отображать список контактов. |
-| AutoDiscoverSMTPAddress | `89` | Автообнаружение основного SMTP-адреса для пользователя. |
-| InteropExternalEwsUrl | `90` | Внешний URL-адрес "взаимодействия" веб-служб Exchange. Под взаимодействием подразумевается URL-адрес сервера E14 (или более поздней версии), который может обслуживать почтовые ящики , размещенные на сервере нижнего уровня (E2K3 и ранее). |
+| ShowGalAsDefaultView | `88` | Если установлено значение false, клиенты не должны показывать GAL по умолчанию, а отображать список контактов. |
+| AutoDiscoverSMTPAddress | `89` | Основной SMTP-адрес автообнаружения для пользователя. |
+| InteropExternalEwsUrl | `90` | Внешний URL-адрес «взаимодействия» веб-служб Exchange. Под взаимодействием понимается URL-адрес сервера E14 (или более поздней версии), который может обслуживать почтовые ящики , размещенные на сервере нижнего уровня (E2K3 и более ранних версиях). |
 | InteropExternalEwsVersion | `91` | Версия сервера, на который указывает InteropExternalEwsUrl. |
-| PublicFolderInformation | `92` | Информация об общих папках (иерархия) |
+| PublicFolderInformation | `92` | Общая папка (иерархия) information |
 | RedirectUrl | `93` | Соответствующий версии URL-адрес службы автообнаружения, которая должна отвечать на этот запрос. |
 | EwsPartnerUrl | `94` | URL-адрес веб-служб Exchange для партнеров Office365. |
 | CertPrincipalName | `95` | Имя сертификата SSL |
 | GroupingInformation | `96` | Подсказка группировки для определенных клиентов. |
-| InternalOutlookServiceUrl | `98` | Внутренний URL-адрес OutlookService |
+| InternalOutlookServiceUrl | `98` | URL-адрес внутренней службы Outlook |
 | ExternalOutlookServiceUrl | `99` | Внешний URL-адрес OutlookService |
 
 ### Примечания
 
-Добавляйте новые значения в конец и синхронизируйтесь с Microsoft.Exchange.Autodiscover.ConfigurationSettings.UserConfigurationSettingName .
+Добавьте новые значения в конец и синхронизируйте с Microsoft.Exchange.Autodiscover.ConfigurationSettings.UserConfigurationSettingName.
 
 ### Смотрите также
 

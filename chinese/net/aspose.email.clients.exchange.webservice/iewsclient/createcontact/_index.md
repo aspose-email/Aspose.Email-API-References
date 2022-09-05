@@ -16,11 +16,11 @@ public string CreateContact(Contact contact)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | Contact | 联系人项目 |
+| contact | Contact | 联系项目 |
 
 ### 返回值
 
-联系人 Uri
+联系方式 Uri
 
 ### 也可以看看
 
@@ -42,11 +42,11 @@ public string CreateContact(string folderUri, Contact contact)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUri | String | 文件夹 uri |
-| contact | Contact | 联系人项目 |
+| contact | Contact | 联系项目 |
 
 ### 返回值
 
-联系人 Uri
+联系方式 Uri
 
 ### 也可以看看
 

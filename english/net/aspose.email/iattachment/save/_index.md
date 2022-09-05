@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves attachment to file
 type: docs
 weight: 20
 url: /net/aspose.email/iattachment/save/
 ---
-## IAttachment.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Saves attachment to file
 
@@ -26,7 +26,7 @@ public void Save(string fileName)
 
 ---
 
-## IAttachment.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Saves an attachment to stream
 

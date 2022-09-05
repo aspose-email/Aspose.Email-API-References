@@ -1,9 +1,9 @@
 ---
 title: ResourceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The resource in Microsoft Graph that youre referencing.
 type: docs
-weight: 16040
+weight: 16060
 url: /net/aspose.email.clients.graph/resourcetype/
 ---
 ## ResourceType enumeration

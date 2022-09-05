@@ -3,7 +3,7 @@ title: FileDataObjectCollection
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет коллекцию для FileDataObject.
 type: docs
-weight: 20840
+weight: 20890
 url: /ru/net/aspose.email.windows.forms/filedataobjectcollection/
 ---
 ## FileDataObjectCollection class
@@ -18,7 +18,7 @@ public sealed class FileDataObjectCollection : Collection<FileDataObject>
 
 | Имя | Описание |
 | --- | --- |
-| [FileDataObjectCollection](filedataobjectcollection)() | Инициализирует новый экземпляр класса[`FileDataObjectCollection`](../filedataobjectcollection). |
+| [FileDataObjectCollection](filedataobjectcollection)() | Инициализирует новый экземпляр[`FileDataObjectCollection`](../filedataobjectcollection) класс. |
 
 ### Смотрите также
 

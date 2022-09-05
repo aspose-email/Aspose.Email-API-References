@@ -20,7 +20,7 @@ public string BodyRtf { get; set; }
 
 ### 评论
 
-设置值时，PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY的值属性已更新。 设置的字符串值必须具有 RTF 格式。 因此，如果需要设置 HTML 格式的值， 该值必须首先在 RTF 中编码， 根据 RTF 扩展规范. 要快速设置 HTML 或纯文本格式的正文消息的内容， 请使用 SetBodyContent 方法。 设置空值或空字符串时， BodyRtf 和 Body 属性的值设置为空。
+设置值时，更新 PR_RTF_COMPRESSED、 PR_RTF_DECOMPRESSES、PR_BODY 属性的值。 设置的字符串值必须具有 RTF 格式。 因此，如果需要设置 HTML 格式的值， 该值必须首先在 RTF 中编码， 根据 RTF 扩展规范。 要快速设置 HTML 或纯文本格式的正文消息的内容， 请使用 SetBodyContent 方法。 设置空值或空字符串时， BodyRtf 和 Body 属性的值设置为空。
 
 ### 也可以看看
 

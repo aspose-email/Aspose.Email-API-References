@@ -1,9 +1,9 @@
 ---
 title: Metered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides methods to set metered key.
 type: docs
-weight: 18860
+weight: 19070
 url: /net/aspose.email/metered/
 ---
 ## Metered class

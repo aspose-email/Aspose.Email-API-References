@@ -16,13 +16,13 @@ public void DeleteConversationItems(string conversationId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conversationId | String | 对话ID删除 |
+| conversationId | String | 要删除的对话 ID |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public void DeleteConversationItems(string conversationId)
 
 ## DeleteConversationItems(string, string) {#deleteconversationitems_1}
 
-删除位于指定文件夹中的对话项目
+删除指定文件夹中的对话项目
 
 ```csharp
 public void DeleteConversationItems(string conversationId, string contextFolderId)
@@ -43,13 +43,13 @@ public void DeleteConversationItems(string conversationId, string contextFolderI
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | conversationId | String | 要删除的对话 ID |
-| contextFolderId | String | 删除对话项目的文件夹 ID。注意:如果设置为 null（或为空），所有对话项目将被删除 |
+| contextFolderId | String | 删除对话项目的文件夹的 ID。注意：如果设置为 null（或为空），将删除所有会话项 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*:是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

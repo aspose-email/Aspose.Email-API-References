@@ -1,14 +1,14 @@
 ---
 title: FOthersAppointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли папка календаря из которой было открыто совещание календарем другого пользователя. ОбластьВстречи Каноническое имяPidLidFOthersAppointment Альтернативные именаdispidFOthersAppt http//schemas.microsoft.com/mapi/fothersappt
+description: Указывает является ли папка календаря из которой было открыто совещание календарем другого пользователя. Область Meetings Каноническое имя PidLidFOthersAppointment Альтернативные имена dispidFOthersAppt http//schemas.microsoft.com/mapi/fothersappt
 type: docs
 weight: 10620
 url: /ru/net/aspose.email.mapi/knownpropertylist/fothersappointment/
 ---
 ## KnownPropertyList.FOthersAppointment field
 
-Указывает, является ли папка календаря, из которой было открыто совещание, календарем другого пользователя. Область:Встречи Каноническое имя:PidLidFOthersAppointment Альтернативные имена:dispidFOthersAppt, http://schemas.microsoft.com/mapi/fothersappt
+Указывает, является ли папка календаря, из которой было открыто совещание, календарем другого пользователя. Область: Meetings Каноническое имя: PidLidFOthersAppointment Альтернативные имена: dispidFOthersAppt, http://schemas.microsoft.com/mapi/fothersappt
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FOthersAppointment;

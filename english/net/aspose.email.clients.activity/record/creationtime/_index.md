@@ -1,7 +1,7 @@
 ---
 title: CreationTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets date and time in Coordinated Universal Time UTC when the user performed the activity. Mandatory Yes
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/record/creationtime/

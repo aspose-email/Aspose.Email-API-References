@@ -1,7 +1,7 @@
 ---
 title: RulePredicateFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets rule predicate flags
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange/rulepredicates/rulepredicateflags/

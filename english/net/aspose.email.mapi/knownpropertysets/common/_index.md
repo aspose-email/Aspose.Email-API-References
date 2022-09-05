@@ -1,7 +1,7 @@
 ---
 title: Common
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Common Property set name PSETID_Common
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/knownpropertysets/common/

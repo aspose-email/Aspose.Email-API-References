@@ -1,12 +1,12 @@
 ---
 title: MapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiMessageaspose.email.mapi/mapimessage class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapimessage/mapimessage/
 ---
-## MapiMessage constructor (1 of 4)
+## MapiMessage() {#constructor}
 
 Initializes a new instance of the [`MapiMessage`](../../mapimessage) class.
 
@@ -22,7 +22,7 @@ public MapiMessage()
 
 ---
 
-## MapiMessage constructor (2 of 4)
+## MapiMessage(OutlookMessageFormat) {#constructor_1}
 
 Initializes a new instance of the [`MapiMessage`](../../mapimessage) class.
 
@@ -43,7 +43,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 ---
 
-## MapiMessage constructor (3 of 4)
+## MapiMessage(string, string, string, string, OutlookMessageFormat) {#constructor_3}
 
 Initializes a new instance of the [`MapiMessage`](../../mapimessage) class.
 
@@ -76,7 +76,7 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 
 ---
 
-## MapiMessage constructor (4 of 4)
+## MapiMessage(string, string, string, string) {#constructor_2}
 
 Initializes a new instance of the [`MapiMessage`](../../mapimessage) class.
 

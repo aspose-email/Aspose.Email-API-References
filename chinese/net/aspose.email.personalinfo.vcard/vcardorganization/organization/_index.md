@@ -1,14 +1,14 @@
 ---
 title: Organization
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置组织
+description: 获取或设置一个组织
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo.vcard/vcardorganization/organization/
 ---
 ## VCardOrganization.Organization property
 
-获取或设置组织
+获取或设置一个组织
 
 ```csharp
 public string Organization { get; set; }

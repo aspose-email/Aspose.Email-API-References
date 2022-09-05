@@ -1,14 +1,14 @@
 ---
 title: IsBypassed
 second_title: Aspose.Email for .NET API 参考
-description: 表示代理不应该用于指定的主机
+description: 表示不应该为指定的主机使用代理
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients/httpproxy/isbypassed/
 ---
 ## HttpProxy.IsBypassed method
 
-表示代理不应该用于指定的主机。
+表示不应该为指定的主机使用代理。
 
 ```csharp
 public virtual bool IsBypassed(Uri host)

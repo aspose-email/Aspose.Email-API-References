@@ -1,7 +1,7 @@
 ---
 title: History
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of change that was last made to the Task object.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapitask/history/

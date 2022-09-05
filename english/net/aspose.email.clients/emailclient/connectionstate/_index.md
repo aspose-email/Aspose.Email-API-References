@@ -1,7 +1,7 @@
 ---
 title: ConnectionState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the current state of the connection.
 type: docs
 weight: 60
 url: /net/aspose.email.clients/emailclient/connectionstate/

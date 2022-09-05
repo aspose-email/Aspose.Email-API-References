@@ -19,9 +19,9 @@ public abstract class BaseSearchConditions
 | Имя | Описание |
 | --- | --- |
 | [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | Получает или устанавливает кодировку. Указывает кодировку строк, которые появляются в критериях поиска. |
-| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения с , которой соответствуют критерии поиска. |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения начиная с , которая соответствует критериям поиска. |
 | [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | Получает или задает текст темы. |
-| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод порядковые номера или UID сообщений. |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод поиска порядковые номера или UID сообщений. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: ListDistributionLists
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List the private Distribution Lists.
 type: docs
 weight: 1110
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listdistributionlists/

@@ -1,14 +1,14 @@
 ---
 title: ContactEmailAddresses
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_CONTACT_EMAIL_ADDRESSES
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_CONTACT_EMAIL_ADDRESSES
 type: docs
 weight: 2930
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactemailaddresses/
 ---
 ## KnownPropertyList.ContactEmailAddresses field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_CONTACT_EMAIL_ADDRESSES
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_CONTACT_EMAIL_ADDRESSES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactEmailAddresses;

@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: Aspose.Email for .NET API 参考
-description: 职业标题
+description: 职业标题.
 type: docs
 weight: 270
 url: /zh/net/aspose.email/mhttemplatename.contact/profession/
 ---
 ## MhtTemplateName.Contact.Profession field
 
-职业标题。
+职业标题.
 
 ```csharp
 public const string Profession;

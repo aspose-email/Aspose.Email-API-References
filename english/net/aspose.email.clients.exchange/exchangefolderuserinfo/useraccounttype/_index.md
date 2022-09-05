@@ -1,7 +1,7 @@
 ---
 title: UserAccountType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that identifies the Anonymous and Default user accounts for delegate access.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype/

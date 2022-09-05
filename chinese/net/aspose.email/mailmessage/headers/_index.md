@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息的标头集合
+description: 获取 message 的标头集合
 type: docs
 weight: 140
 url: /zh/net/aspose.email/mailmessage/headers/
 ---
 ## MailMessage.Headers property
 
-获取消息的标头集合
+获取 message 的标头集合
 
 ```csharp
 public virtual HeaderCollection Headers { get; }

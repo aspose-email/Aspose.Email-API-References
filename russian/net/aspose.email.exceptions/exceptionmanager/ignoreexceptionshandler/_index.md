@@ -1,14 +1,14 @@
 ---
 title: IgnoreExceptionsHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Обеспечивает возможность обработки исключений.
+description: Предоставляет возможность обработки исключений.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.exceptions/exceptionmanager/ignoreexceptionshandler/
 ---
 ## ExceptionManager.IgnoreExceptionsHandler property
 
-Обеспечивает возможность обработки исключений.
+Предоставляет возможность обработки исключений.
 
 ```csharp
 public static IgnoreExceptionsCallback IgnoreExceptionsHandler { get; set; }

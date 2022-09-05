@@ -1,14 +1,14 @@
 ---
 title: StatusString
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_STATUS_STRING
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_STATUS_STRING
 type: docs
 weight: 18220
 url: /zh/net/aspose.email.mapi/knownpropertylist/statusstring/
 ---
 ## KnownPropertyList.StatusString field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_STATUS_STRING
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_STATUS_STRING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StatusString;

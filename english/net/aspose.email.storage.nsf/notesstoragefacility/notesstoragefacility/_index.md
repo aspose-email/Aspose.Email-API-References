@@ -1,12 +1,12 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the NotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.nsf/notesstoragefacility/notesstoragefacility/
 ---
-## NotesStorageFacility constructor (1 of 8)
+## NotesStorageFacility(string, CancellationToken) {#constructor_7}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -33,7 +33,7 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 ---
 
-## NotesStorageFacility constructor (2 of 8)
+## NotesStorageFacility(Stream, CancellationToken) {#constructor_3}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -60,7 +60,7 @@ public NotesStorageFacility(Stream stream, CancellationToken token)
 
 ---
 
-## NotesStorageFacility constructor (3 of 8)
+## NotesStorageFacility(string, NsfLoadOptions, CancellationToken) {#constructor_6}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -89,7 +89,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 
 ---
 
-## NotesStorageFacility constructor (4 of 8)
+## NotesStorageFacility(Stream, NsfLoadOptions, CancellationToken) {#constructor_2}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -118,7 +118,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 
 ---
 
-## NotesStorageFacility constructor (5 of 8)
+## NotesStorageFacility(string) {#constructor_4}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -144,7 +144,7 @@ public NotesStorageFacility(string fileName)
 
 ---
 
-## NotesStorageFacility constructor (6 of 8)
+## NotesStorageFacility(Stream) {#constructor}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -170,7 +170,7 @@ public NotesStorageFacility(Stream stream)
 
 ---
 
-## NotesStorageFacility constructor (7 of 8)
+## NotesStorageFacility(string, NsfLoadOptions) {#constructor_5}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 
@@ -198,7 +198,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 
 ---
 
-## NotesStorageFacility constructor (8 of 8)
+## NotesStorageFacility(Stream, NsfLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
 

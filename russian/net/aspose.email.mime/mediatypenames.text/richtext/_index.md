@@ -1,14 +1,14 @@
 ---
 title: RichText
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет тип носителя text/richtext
+description: Определяет тип носителя текст/форматированный текст
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mime/mediatypenames.text/richtext/
 ---
 ## MediaTypeNames.Text.RichText field
 
-Определяет тип носителя text/richtext
+Определяет тип носителя текст/форматированный текст
 
 ```csharp
 public const string RichText;

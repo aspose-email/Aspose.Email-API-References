@@ -1,7 +1,7 @@
 ---
 title: Fieldset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of fields.
 type: docs
 weight: 40
 url: /net/aspose.email.amp/ampform/fieldset/

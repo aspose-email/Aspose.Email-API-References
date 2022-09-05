@@ -3,7 +3,7 @@ title: MailQuery
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет критерии поиска которые используются для сопоставления нескольких свойств сообщения в почтовом ящике.
 type: docs
-weight: 20690
+weight: 20740
 url: /ru/net/aspose.email.tools.search/mailquery/
 ---
 ## MailQuery class
@@ -18,8 +18,8 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 
 | Имя | Описание |
 | --- | --- |
-| [MailQuery](mailquery#constructor)(string) | Инициализирует новый экземпляр класса[`MailQuery`](../mailquery). |
-| [MailQuery](mailquery#constructor_1)(string, string) | Инициализирует новый экземпляр класса[`MailQuery`](../mailquery). |
+| [MailQuery](mailquery#constructor)(string) | Инициализирует новый экземпляр[`MailQuery`](../mailquery) учебный класс. |
+| [MailQuery](mailquery#constructor_1)(string, string) | Инициализирует новый экземпляр[`MailQuery`](../mailquery) учебный класс. |
 
 ## Характеристики
 
@@ -32,11 +32,11 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 | Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/mailquery/equals#equals)(MailQuery) | Указывает, равен ли текущий объект другому объекту того же типа. |
-| override [Equals](../../aspose.email.tools.search/mailquery/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals#equals_1)(object) | Определяет, является ли указанныйObject равно этому экземпляру. |
 | override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать значение null (Nothing в Visual Basic), а вместо этого, если требуется указание пользовательской схемы, применять атрибутXmlSchemaProviderAttributeк классу. |
+| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать null (ничего в Visual Basic), а вместо этого, если требуется указать пользовательскую схему, применитьXmlSchemaProviderAttribute в класс. |
 | virtual [ReadXml](../../aspose.email.tools.search/mailquery/readxml)(XmlReader) | Генерирует объект из его XML-представления. |
-| override [ToString](../../aspose.email.tools.search/mailquery/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.tools.search/mailquery/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | virtual [WriteXml](../../aspose.email.tools.search/mailquery/writexml)(XmlWriter) | Преобразует объект в его XML-представление. |
 
 ### Смотрите также

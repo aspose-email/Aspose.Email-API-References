@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 从SequenceSetBaseValueaspose.email.clients.imap/sequencesetbasevalue到String的隐式转换操作
+description: 隐式转换操作来自SequenceSetBaseValueaspose.email.clients.imap/sequencesetbasevalue至String
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/sequencesetbasevalue/op_implicit/
 ---
 ## SequenceSetBaseValue Implicit operator
 
-从[`SequenceSetBaseValue`](../../sequencesetbasevalue)到String的隐式转换操作
+隐式转换操作来自[`SequenceSetBaseValue`](../../sequencesetbasevalue)至String
 
 ```csharp
 public static implicit operator string(SequenceSetBaseValue value)
@@ -16,11 +16,11 @@ public static implicit operator string(SequenceSetBaseValue value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | SequenceSetBaseValue | 要转换的值 |
+| value | SequenceSetBaseValue | 转换价值 |
 
 ### 返回值
 
-返回已转换对象的字符串表示形式。
+返回转换对象的字符串表示形式。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: StringComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示字符串搜索字段
 type: docs
-weight: 20720
+weight: 20770
 url: /zh/net/aspose.email.tools.search/stringcomparisonfield/
 ---
 ## StringComparisonField class

@@ -1,14 +1,14 @@
 ---
 title: DavParentName
 second_title: Aspose.Email for .NET API 参考
-description: 指定包含日历对象的文件夹对象的名称 区域通用 规范名称PidNameDavParentName 备用名称DAVparentname
+description: 指定包含日历对象的文件夹对象的名称 区域Common 规范名称PidNameDavParentName 备用名称DAVparentname
 type: docs
 weight: 3670
 url: /zh/net/aspose.email.mapi/knownpropertylist/davparentname/
 ---
 ## KnownPropertyList.DavParentName field
 
-指定包含日历对象的文件夹对象的名称。 区域:通用 规范名称:PidNameDavParentName 备用名称:DAV:parentname
+指定包含日历对象的文件夹对象的名称。 区域：Common 规范名称：PidNameDavParentName 备用名称：DAV:parentname
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavParentName;

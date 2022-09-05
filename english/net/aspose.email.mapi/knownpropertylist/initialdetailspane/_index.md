@@ -1,7 +1,7 @@
 ---
 title: InitialDetailsPane
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates which page of a display template to display first. Area MAPI Display Tables Canonical name PidTagInitialDetailsPane Alternate names PR_INITIAL_DETAILS_PANE
 type: docs
 weight: 11330
 url: /net/aspose.email.mapi/knownpropertylist/initialdetailspane/

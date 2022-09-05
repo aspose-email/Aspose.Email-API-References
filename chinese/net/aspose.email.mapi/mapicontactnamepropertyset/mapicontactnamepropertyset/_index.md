@@ -1,14 +1,14 @@
 ---
 title: MapiContactNamePropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactNamePropertySetaspose.email.mapi/mapicontactnamepropertyset 类的新实例
+description: 初始化一个新的实例MapiContactNamePropertySetaspose.email.mapi/mapicontactnamepropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactnamepropertyset/mapicontactnamepropertyset/
 ---
 ## MapiContactNamePropertySet() {#constructor}
 
-初始化 [`MapiContactNamePropertySet`](../../mapicontactnamepropertyset) 类的新实例
+初始化一个新的实例[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset) class
 
 ```csharp
 public MapiContactNamePropertySet()
@@ -24,7 +24,7 @@ public MapiContactNamePropertySet()
 
 ## MapiContactNamePropertySet(string, string, string) {#constructor_1}
 
-初始化[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset)类的新实例。
+初始化一个新的实例[`MapiContactNamePropertySet`](../../mapicontactnamepropertyset)类.
 
 ```csharp
 public MapiContactNamePropertySet(string givenName, string middleName, string surname)
@@ -33,7 +33,7 @@ public MapiContactNamePropertySet(string givenName, string middleName, string su
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | givenName | String | 表示给定名称的字符串。 |
-| middleName | String | 代表中间名的字符串。 |
+| middleName | String | 表示中间名的字符串。 |
 | surname | String | 代表姓氏的字符串。 |
 
 ### 也可以看看

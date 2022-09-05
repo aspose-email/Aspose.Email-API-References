@@ -1,14 +1,14 @@
 ---
 title: InfoPathFormName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя формы связанной с этим сообщением. ОбластьОбщие Каноническое имяPidLidInfoPathFormName Альтернативные имена
+description: Содержит имя формы связанной с этим сообщением. Область Common Каноническое имя PidLidInfoPathFormName Альтернативные имена
 type: docs
 weight: 11320
 url: /ru/net/aspose.email.mapi/knownpropertylist/infopathformname/
 ---
 ## KnownPropertyList.InfoPathFormName field
 
-Содержит имя формы, связанной с этим сообщением. Область:Общие Каноническое имя:PidLidInfoPathFormName Альтернативные имена:
+Содержит имя формы, связанной с этим сообщением. Область: Common Каноническое имя: PidLidInfoPathFormName Альтернативные имена:
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InfoPathFormName;

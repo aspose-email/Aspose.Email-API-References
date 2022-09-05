@@ -1,7 +1,7 @@
 ---
 title: AddressBookPublicDelegates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of mail users who are allowed to send email on behalf of the mailbox owner. Area Address Book Canonical name PidTagAddressBookPublicDelegates Alternate names PR_EMS_AB_PUBLIC_DELEGATES PR_EMS_AB_PUBLIC_DELEGATES_A PR_EMS_AB_PUBLIC_DELEGATES_W
 type: docs
 weight: 910
 url: /net/aspose.email.mapi/knownpropertylist/addressbookpublicdelegates/

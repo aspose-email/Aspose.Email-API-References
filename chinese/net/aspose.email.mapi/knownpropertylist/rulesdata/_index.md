@@ -1,14 +1,14 @@
 ---
 title: RulesData
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_RULES_DATA
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_RULES_DATA
 type: docs
 weight: 16620
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulesdata/
 ---
 ## KnownPropertyList.RulesData field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_RULES_DATA
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_RULES_DATA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RulesData;

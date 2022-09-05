@@ -1,7 +1,7 @@
 ---
 title: TimezoneFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the timezone format.
 type: docs
 weight: 100
 url: /net/aspose.email.calendar/appointmentformattingoptions/timezoneformat/

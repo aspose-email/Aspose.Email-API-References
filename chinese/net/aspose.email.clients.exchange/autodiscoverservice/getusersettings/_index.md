@@ -22,7 +22,7 @@ public GetUserSettingsResponse GetUserSettings(string userSmtpAddress,
 
 ### 返回值
 
-一个包含指定用户的请求设置的 UserResponse 对象。
+包含指定用户的请求设置的 UserResponse 对象。
 
 ### 评论
 

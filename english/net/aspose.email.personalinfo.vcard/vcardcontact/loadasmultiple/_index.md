@@ -1,12 +1,12 @@
 ---
 title: LoadAsMultiple
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads list of contacts from multi contact stream.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/
 ---
-## VCardContact.LoadAsMultiple method (1 of 4)
+## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_3}
 
 Loads list of contacts from multi contact stream.
 
@@ -33,7 +33,7 @@ List of contacs
 
 ---
 
-## VCardContact.LoadAsMultiple method (2 of 4)
+## LoadAsMultiple(Stream, Encoding, CancellationToken) {#loadasmultiple_1}
 
 Loads list of contacts from multi contact stream.
 
@@ -60,7 +60,7 @@ List of contacs
 
 ---
 
-## VCardContact.LoadAsMultiple method (3 of 4)
+## LoadAsMultiple(Stream, Encoding) {#loadasmultiple}
 
 Loads list of contacts from multi contact stream.
 
@@ -85,7 +85,7 @@ List of contacs
 
 ---
 
-## VCardContact.LoadAsMultiple method (4 of 4)
+## LoadAsMultiple(string, Encoding) {#loadasmultiple_2}
 
 Loads list of contacts from multi contact file.
 

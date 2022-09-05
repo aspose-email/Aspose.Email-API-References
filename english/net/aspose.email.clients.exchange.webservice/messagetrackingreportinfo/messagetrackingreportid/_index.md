@@ -1,7 +1,7 @@
 ---
 title: MessageTrackingReportId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value specifying message by its messageid the organization where the message was found the server on which the message was submitted and an internal ID that uniquely identifies the message.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/messagetrackingreportid/

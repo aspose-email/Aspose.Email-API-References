@@ -18,26 +18,26 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attachment](attachment#constructor_3)(string) | 初始化[`Attachment`](../attachment)类的新实例。 |
-| [Attachment](attachment#constructor)(Stream, ContentType) | 初始化[`Attachment`](../attachment)类的新实例。 |
-| [Attachment](attachment#constructor_1)(Stream, string) | 初始化[`Attachment`](../attachment)类的新实例。 |
-| [Attachment](attachment#constructor_4)(string, ContentType) | 初始化[`Attachment`](../attachment)类的新实例。 |
-| [Attachment](attachment#constructor_5)(string, string) | 初始化[`Attachment`](../attachment)类的新实例。 |
-| [Attachment](attachment#constructor_2)(Stream, string, string) | 初始化[`Attachment`](../attachment)类的新实例。 |
+| [Attachment](attachment#constructor_3)(string) | 初始化[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor)(Stream, ContentType) | 初始化[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_1)(Stream, string) | 初始化[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_4)(string, ContentType) | 初始化[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_5)(string, string) | 初始化[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_2)(Stream, string, string) | 初始化[`Attachment`](../attachment)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/attachment/contentdisposition) { get; } | 获取 Content-Disposition 标头 |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容ID。 |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容id。 |
 | [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | 获取或设置内容流。 |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | 获取或设置内容的类型。 |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | 获取附件的标题集合。 |
 | [IsEmbeddedMessage](../../aspose.email/attachment/isembeddedmessage) { get; } | 获取一个值，该值指示附件是否为嵌入消息。 |
-| [IsUri](../../aspose.email/attachment/isuri) { get; } | 获取一个值，该值指示附件是否为 URI 附件。 |
+| [IsUri](../../aspose.email/attachment/isuri) { get; } | 获取一个值，该值指示附件是否为 URI-attachment。 |
 | [Name](../../aspose.email/attachment/name) { get; set; } | 获取或设置附件名称 |
-| [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | 获取或设置附件名称的编码 |
+| [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | 获取或设置附件名称 的编码 |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding) { get; set; } | 获取或设置首选文本编码 |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | 获取或设置传输编码。 |
 

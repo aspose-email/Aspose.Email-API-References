@@ -1,14 +1,14 @@
 ---
 title: PlayOnPhoneDialString
 second_title: Aspose.Email for .NET API 参考
-description: Play On Phone 拨号字符串
+description: 在电话上播放拨号字符串
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring/
 ---
 ## UnifiedMessagingConfiguration.PlayOnPhoneDialString property
 
-Play On Phone 拨号字符串
+在电话上播放拨号字符串
 
 ```csharp
 public string PlayOnPhoneDialString { get; }

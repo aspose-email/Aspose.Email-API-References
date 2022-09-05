@@ -16,12 +16,12 @@ public string[] MarkAsJunk(bool isJunk, params string[] messageUriEn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
 | messageUriEn | String[] | 消息 uri 数组 |
 
 ### 返回值
 
-返回消息数组移动到垃圾邮件文件夹的 ID。
+返回移动到垃圾邮件文件夹的消息 ID 数组。
 
 ### 也可以看看
 
@@ -41,13 +41,13 @@ public string[] MarkAsJunk(bool isJunk, bool moveItem, params string[] messageUr
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
 | moveItem | Boolean | 指示是否将邮件移动到垃圾邮件文件夹。 |
 | messageUriEn | String[] | 消息 uri 数组 |
 
 ### 返回值
 
-返回移动到垃圾邮件的消息 ID 数组邮件文件夹。
+返回移动到垃圾邮件文件夹的消息 ID 数组。
 
 ### 也可以看看
 
@@ -67,12 +67,12 @@ public string[] MarkAsJunk(bool isJunk, IEnumerable<string> messageUriEn)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
-| messageUriEn | IEnumerable`1 | 消息 uri 的枚举 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
+| messageUriEn | IEnumerable`1 | 消息uri的枚举 |
 
 ### 返回值
 
-返回项目 ID标记为垃圾邮件的邮件。
+返回标记为垃圾邮件的邮件的项目 ID。
 
 ### 也可以看看
 
@@ -92,13 +92,13 @@ public string[] MarkAsJunk(bool isJunk, bool moveItem, IEnumerable<string> messa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
 | moveItem | Boolean | 指示是否将邮件移动到垃圾邮件文件夹。 |
-| messageUriEn | IEnumerable`1 | 消息 uri 枚举 |
+| messageUriEn | IEnumerable`1 | 消息uri的枚举 |
 
 ### 返回值
 
-返回移动到垃圾箱的消息 ID 数组邮件文件夹。
+返回移动到垃圾邮件文件夹的消息 ID 数组。
 
 ### 也可以看看
 
@@ -119,10 +119,10 @@ public void MarkAsJunk(bool isJunk, bool moveItem, IEnumerable<string> messageUr
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
 | moveItem | Boolean | 指示是否将邮件移动到垃圾邮件文件夹。 |
-| messageUriEn | IEnumerable`1 | 消息 uri 枚举 |
-| movedMessageIds | String[]& | 返回移动到的消息 ID 数组垃圾邮件文件夹。 |
+| messageUriEn | IEnumerable`1 | 消息uri的枚举 |
+| movedMessageIds | String[]& | 返回移动到垃圾邮件文件夹的消息 ID 数组。 |
 | failedMessageIds | String[]& | 返回尚未移动到垃圾邮件文件夹的消息 ID 数组。 |
 | errorMessages | String[]& | 失败操作的错误消息 |
 

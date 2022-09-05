@@ -1,7 +1,7 @@
 ---
 title: OfflineAddressBookDistinguishedName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the DN of the address list that is contained in the OAB message. Area Offline Address Book Properties Canonical name PidTagOfflineAddressBookDistinguishedName Alternate names PR_OAB_DN PR_OAB_DN_W
 type: docs
 weight: 13250
 url: /net/aspose.email.mapi/knownpropertylist/offlineaddressbookdistinguishedname/

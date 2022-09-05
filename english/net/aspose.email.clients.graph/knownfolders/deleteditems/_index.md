@@ -1,7 +1,7 @@
 ---
 title: DeletedItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder items are moved to when they are deleted.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.graph/knownfolders/deleteditems/

@@ -1,7 +1,7 @@
 ---
 title: ToMailMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an instance of MailMessage from this MapiMessage.
 type: docs
 weight: 390
 url: /net/aspose.email.mapi/mapimessage/tomailmessage/

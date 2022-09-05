@@ -1,7 +1,7 @@
 ---
 title: ExchDatabaseSchema
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an array of URLs that identifies other folders within the same message store that contain schema definition items. Area Common Canonical name PidNameExchDatabaseSchema Alternate names urnschemasmicrosoftcomexchdatabaseschema
 type: docs
 weight: 9900
 url: /net/aspose.email.mapi/knownpropertylist/exchdatabaseschema/

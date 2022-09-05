@@ -1,7 +1,7 @@
 ---
 title: OriginalDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the SMTP email address that corresponds to the email address for the Contact object.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/originaldisplayname/

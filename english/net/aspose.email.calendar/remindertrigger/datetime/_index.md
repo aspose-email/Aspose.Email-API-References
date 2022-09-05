@@ -1,7 +1,7 @@
 ---
 title: DateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A trigger set to an absolute date/time.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/remindertrigger/datetime/

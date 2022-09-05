@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides information about an MS Exchange folder.
 type: docs
 weight: 3260
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/

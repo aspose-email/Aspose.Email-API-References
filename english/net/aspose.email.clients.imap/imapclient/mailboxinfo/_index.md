@@ -1,7 +1,7 @@
 ---
 title: MailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets set of specialuse mailboxes See more http//tools.ietf.org/html/rfc6154 and https//tools.ietf.org/html/rfc8457
 type: docs
 weight: 180
 url: /net/aspose.email.clients.imap/imapclient/mailboxinfo/

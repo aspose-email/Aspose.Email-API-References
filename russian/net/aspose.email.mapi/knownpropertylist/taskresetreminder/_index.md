@@ -1,14 +1,14 @@
 ---
 title: TaskResetReminder
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает нужны ли будущим экземплярам повторяющихся задач напоминания даже если значение свойства PidLidReminderSet раздел 2.222 равно 0x00. ОбластьЗадачи Каноническое имяPidLidTaskResetReminder Альтернативные именаdispidTaskResetReminder
+description: Указывает нужны ли будущим экземплярам повторяющихся задач напоминания даже если значение свойства PidLidReminderSet раздел 2.222 равно 0x00. Область Tasks Каноническое имя PidLidTaskResetReminder Альтернативные имена dispidTaskResetReminder
 type: docs
 weight: 18790
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskresetreminder/
 ---
 ## KnownPropertyList.TaskResetReminder field
 
-Указывает, нужны ли будущим экземплярам повторяющихся задач напоминания, даже если значение свойства PidLidReminderSet (раздел 2.222) равно 0x00. Область:Задачи Каноническое имя:PidLidTaskResetReminder Альтернативные имена:dispidTaskResetReminder
+Указывает, нужны ли будущим экземплярам повторяющихся задач напоминания, даже если значение свойства PidLidReminderSet (раздел 2.222) равно 0x00. Область: Tasks Каноническое имя: PidLidTaskResetReminder Альтернативные имена: dispidTaskResetReminder
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskResetReminder;

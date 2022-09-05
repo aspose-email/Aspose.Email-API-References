@@ -1,14 +1,14 @@
 ---
 title: MoveConversationItemsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Перемещает элементы беседы находящиеся в указанной папке в указанную целевую папку
+description: Перемещает элементы беседы расположенные в указанной папке в указанную целевую папку
 type: docs
 weight: 560
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/moveconversationitemsasync/
 ---
 ## IAsyncEwsClient.MoveConversationItemsAsync method
 
-Перемещает элементы беседы, находящиеся в указанной папке, в указанную целевую папку
+Перемещает элементы беседы, расположенные в указанной папке, в указанную целевую папку
 
 ```csharp
 public Task MoveConversationItemsAsync(string conversationId, string destinationFolderId, 
@@ -17,17 +17,17 @@ public Task MoveConversationItemsAsync(string conversationId, string destination
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор беседы для перемещения |
+| conversationId | String | Идентификатор разговора для перемещения |
 | destinationFolderId | String | Идентификатор папки, в которую перемещаются элементы |
-| contextFolderId | String | Идентификатор папки, из которой перемещаются элементы беседы. Примечание. Если установлено значение null (или пусто), все элементы беседы будут перемещены |
+| contextFolderId | String | Идентификатор папки, из которой перемещаются элементы беседы. Примечание. Если для него установлено значение null (или пусто), все элементы беседы будут перемещены. |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пусто` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

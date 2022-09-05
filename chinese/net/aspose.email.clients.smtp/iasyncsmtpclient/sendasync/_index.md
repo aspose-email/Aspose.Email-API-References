@@ -1,14 +1,14 @@
 ---
 title: SendAsync
 second_title: Aspose.Email for .NET API 参考
-description: 发送指定消息
+description: 发送指定的消息
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.smtp/iasyncsmtpclient/sendasync/
 ---
 ## IAsyncSmtpClient.SendAsync method
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public Task SendAsync(SmtpSend parameters)

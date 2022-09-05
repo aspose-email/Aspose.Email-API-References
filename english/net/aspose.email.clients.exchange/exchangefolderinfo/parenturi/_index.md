@@ -1,7 +1,7 @@
 ---
 title: ParentUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Parent folder uri
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/parenturi/

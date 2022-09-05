@@ -24,7 +24,7 @@ public class PageSettings
 
 | Имя | Описание |
 | --- | --- |
-| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Получает или задает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию. Установите значение true, если вы хотите использовать сортировку по возрастанию, в противном случае установите значение false. |
+| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Получает или задает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию. Установите значение true, если вы хотите использовать сортировку по возрастанию, иначе установите значение false. |
 | [Connection](../../aspose.email.clients.imap/pagesettings/connection) { get; set; } | Подключение к серверу. |
 | [FolderName](../../aspose.email.clients.imap/pagesettings/foldername) { get; set; } | Папка сообщений |
 | [IgnoreExceptions](../../aspose.email.clients.imap/pagesettings/ignoreexceptions) { get; set; } | Если для свойства установлено значение true, исключения, возникающие во время обработки сообщения, будут перехвачены и помещены в ImapPageInfo.Items.Exceptions. |

@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию свойств.
+description: Получает набор свойств.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapipropertystream/properties/
 ---
 ## MapiPropertyStream.Properties property
 
-Получает коллекцию свойств.
+Получает набор свойств.
 
 ```csharp
 public override MapiPropertyCollection Properties { get; }

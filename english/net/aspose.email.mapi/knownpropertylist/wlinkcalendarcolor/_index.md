@@ -1,7 +1,7 @@
 ---
 title: WlinkCalendarColor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the background color of the calendar. Area Configuration Canonical name PidTagWlinkCalendarColor Alternate names PR_WLINK_CALENDAR_COLOR
 type: docs
 weight: 19390
 url: /net/aspose.email.mapi/knownpropertylist/wlinkcalendarcolor/

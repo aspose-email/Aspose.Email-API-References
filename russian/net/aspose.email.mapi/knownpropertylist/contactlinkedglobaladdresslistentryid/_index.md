@@ -1,14 +1,14 @@
 ---
 title: ContactLinkedGlobalAddressListEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает EntryID контакта GAL с которым связан повторяющийся контакт. ОбластьСвойства контакта Каноническое имяPidLidContactLinkedGlobalAddressListEntryId Альтернативные именаdispidContactLinkedGALEntryID
+description: Указывает EntryID контакта GAL с которым связан повторяющийся контакт.
 type: docs
 weight: 2960
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinkedglobaladdresslistentryid/
 ---
 ## KnownPropertyList.ContactLinkedGlobalAddressListEntryId field
 
-Указывает EntryID контакта GAL, с которым связан повторяющийся контакт. Область:Свойства контакта Каноническое имя:PidLidContactLinkedGlobalAddressListEntryId Альтернативные имена:dispidContactLinkedGALEntryID
+Указывает EntryID контакта GAL, с которым связан повторяющийся контакт.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkedGlobalAddressListEntryId;

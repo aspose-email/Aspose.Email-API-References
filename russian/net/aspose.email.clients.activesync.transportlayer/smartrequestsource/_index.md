@@ -24,10 +24,10 @@ public class SmartRequestSource
 
 | Имя | Описание |
 | --- | --- |
-| [FolderId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid) { get; set; } | Указывает идентификатор папки для исходного сообщения, возвращаемого командой FolderSync. Если FolderId присутствует, ItemId также ДОЛЖЕН присутствовать. Значение FolderId может иметь длину до 64 символов. |
-| [InstanceId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid) { get; set; } | Задает экземпляр повторения для исходного элемента. Если присутствует InstanceId, ДОЛЖНЫ присутствовать и FolderId, и ItemId. |
-| [ItemId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid) { get; set; } | Указывает идентификатор элемента для исходного сообщения, который возвращается командой Sync. Если ItemId присутствует, FolderId также ДОЛЖЕН присутствовать, если пересылаемое сообщение или ответ на него хранится в папке, отличной от папки "Входящие". Значение элемента ItemId может иметь длину до 64 символов. |
-| [LongId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/longid) { get; set; } | Задает длинный идентификатор исходного сообщения, возвращаемый командой поиска. Если присутствует LongId, FolderId, ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов. |
+| [FolderId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid) { get; set; } | Указывает идентификатор папки для исходного сообщения, возвращаемого командой FolderSync. Если присутствует FolderId, ДОЛЖЕН также присутствовать ItemId. Значение FolderId может иметь длину до 64 символов. |
+| [InstanceId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid) { get; set; } | Задает экземпляр повторения исходного элемента. Если присутствует InstanceId, ДОЛЖНЫ присутствовать и FolderId, и ItemId. |
+| [ItemId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid) { get; set; } | Указывает идентификатор элемента для исходного сообщения, который возвращается в команде синхронизации. Если присутствует ItemId, FolderId также ДОЛЖЕН присутствовать, если пересылаемое сообщение или ответ на него хранится в папке, отличной от папки «Входящие». Значение элемента ItemId может иметь длину до 64 символов. |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/longid) { get; set; } | Указывает длинный идентификатор исходного сообщения, который возвращается в команде поиска. Если присутствует LongId, FolderId, ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов. |
 
 ### Смотрите также
 

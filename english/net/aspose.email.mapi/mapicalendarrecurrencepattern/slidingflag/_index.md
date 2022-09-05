@@ -1,7 +1,7 @@
 ---
 title: SlidingFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether pattern is sliding or not.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/

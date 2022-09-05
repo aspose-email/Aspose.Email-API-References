@@ -1,14 +1,14 @@
 ---
 title: AddressBookProxyAddresses
 second_title: Aspose.Email for .NET API 参考
-description: 包含通讯簿对象的备用电子邮件地址 区域地址簿 规范名称PidTagAddressBookProxyAddresses 备用名称PR_EMS_AB_PROXY_ADDRESSESPR_EMS_AB_PROXY_ADDRESSES_APR_EMS_AB_PROXY_ADDRESSES_W
+description: 包含地址簿对象的备用电子邮件地址 区域地址簿 规范名称PidTagAddressBookProxyAddresses 备用名称PR_EMS_AB_PROXY_ADDRESSESPR_EMS_AB_PROXY_ADDRESSES_APR_EMS_AB_PROXY_ADDRESSES_W
 type: docs
 weight: 900
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookproxyaddresses/
 ---
 ## KnownPropertyList.AddressBookProxyAddresses field
 
-包含通讯簿对象的备用电子邮件地址。 区域:地址簿 规范名称:PidTagAddressBookProxyAddresses 备用名称:PR_EMS_AB_PROXY_ADDRESSES、PR_EMS_AB_PROXY_ADDRESSES_A、PR_EMS_AB_PROXY_ADDRESSES_W
+包含地址簿对象的备用电子邮件地址。 区域：地址簿 规范名称：PidTagAddressBookProxyAddresses 备用名称：PR_EMS_AB_PROXY_ADDRESSES、PR_EMS_AB_PROXY_ADDRESSES_A、PR_EMS_AB_PROXY_ADDRESSES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookProxyAddresses;

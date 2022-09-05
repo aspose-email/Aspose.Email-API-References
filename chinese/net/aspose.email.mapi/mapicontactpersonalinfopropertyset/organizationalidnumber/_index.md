@@ -1,14 +1,14 @@
 ---
 title: OrganizationalIdNumber
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人的组织 ID 号
+description: 为联系人 指定组织 ID 号
 type: docs
 weight: 170
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber/
 ---
 ## MapiContactPersonalInfoPropertySet.OrganizationalIdNumber property
 
-指定联系人的组织 ID 号
+为联系人 指定组织 ID 号
 
 ```csharp
 public string OrganizationalIdNumber { get; set; }

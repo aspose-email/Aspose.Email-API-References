@@ -1,14 +1,14 @@
 ---
 title: MarkAllItemsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Отмечает все элементы в указанных папках.
+description: Помечает все элементы в указанных папках.
 type: docs
 weight: 540
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/markallitemsasync/
 ---
 ## IAsyncEwsClient.MarkAllItemsAsync method
 
-Отмечает все элементы в указанных папках.
+Помечает все элементы в указанных папках.
 
 ```csharp
 public Task MarkAllItemsAsync(IEnumerable<string> folderIds = null, bool read = true, 
@@ -17,10 +17,10 @@ public Task MarkAllItemsAsync(IEnumerable<string> folderIds = null, bool read = 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| read | IEnumerable`1 | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. True, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
-| suppressReadReceipts | Boolean | True для подавления отправки уведомлений о прочтении сообщений; в противном случае ложно. |
+| read | IEnumerable`1 | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. Значение true, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
+| suppressReadReceipts | Boolean | Истинно, чтобы запретить отправку уведомлений о прочтении сообщений; в противном случае ложно. |
 | folderIds | Boolean | Список URI папки для обработки. По умолчанию установите URI папки «Входящие». |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

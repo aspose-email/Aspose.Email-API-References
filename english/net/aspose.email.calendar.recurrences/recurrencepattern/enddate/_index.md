@@ -1,7 +1,7 @@
 ---
 title: EndDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the end date.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/enddate/

@@ -1,14 +1,14 @@
 ---
 title: CalendarInstanceType
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会的类型 区域通用 规范名称PidNameCalendarInstanceType 备用名称urnschemascalendarinstancetype
+description: 指定约会的类型 区域Common 规范名称PidNameCalendarInstanceType 备用名称urnschemascalendarinstancetype
 type: docs
 weight: 2290
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarinstancetype/
 ---
 ## KnownPropertyList.CalendarInstanceType field
 
-指定约会的类型。 区域:通用 规范名称:PidNameCalendarInstanceType 备用名称:urn:schemas:calendar:instancetype
+指定约会的类型。 区域：Common 规范名称：PidNameCalendarInstanceType 备用名称：urn:schemas:calendar:instancetype
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarInstanceType;

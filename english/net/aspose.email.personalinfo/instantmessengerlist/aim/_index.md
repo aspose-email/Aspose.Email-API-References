@@ -1,7 +1,7 @@
 ---
 title: AIM
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default AIM id
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/instantmessengerlist/aim/

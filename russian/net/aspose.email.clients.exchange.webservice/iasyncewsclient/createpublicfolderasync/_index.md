@@ -22,7 +22,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | permissions | ExchangeFolderPermissionCollection | Разрешение на новую папку |
 | folderType | ExchangeFolderType | Тип папки |
 | parentFolderUri | String | URI родительской папки |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
@@ -53,8 +53,8 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | --- | --- | --- |
 | name | String | Имя новой папки |
 | permissions | ExchangeFolderPermissionCollection | Разрешение на новую папку |
-| parentFolderUri | String | URI родителя folder |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| parentFolderUri | String | URI родительской папки |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

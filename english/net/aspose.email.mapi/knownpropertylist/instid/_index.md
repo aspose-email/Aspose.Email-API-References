@@ -1,7 +1,7 @@
 ---
 title: InstID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an identifier for all instances of a row in the table. Area ProviderDefinedNonTransmittable Canonical name PidTagInstID Alternate names ptagInstID
 type: docs
 weight: 11390
 url: /net/aspose.email.mapi/knownpropertylist/instid/

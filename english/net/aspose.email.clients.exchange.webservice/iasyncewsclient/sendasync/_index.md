@@ -1,7 +1,7 @@
 ---
 title: SendAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sends the message.
 type: docs
 weight: 610
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/sendasync/

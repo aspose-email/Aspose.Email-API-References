@@ -1,12 +1,12 @@
 ---
 title: MoveFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves specified folder and its subfolders to new location.
 type: docs
 weight: 920
 url: /net/aspose.email.clients.imap/imapclient/movefolderasync/
 ---
-## ImapClient.MoveFolderAsync method (1 of 4)
+## MoveFolderAsync(string, string) {#movefolderasync_2}
 
 Moves specified folder and its subfolders to new location.
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (2 of 4)
+## MoveFolderAsync(IConnection, string, string) {#movefolderasync}
 
 Moves specified folder and its subfolders to new location.
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (3 of 4)
+## MoveFolderAsync(string, string, CancellationToken) {#movefolderasync_3}
 
 Moves specified folder and its subfolders to new location.
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (4 of 4)
+## MoveFolderAsync(IConnection, string, string, CancellationToken) {#movefolderasync_1}
 
 Moves specified folder and its subfolders to new location.
 

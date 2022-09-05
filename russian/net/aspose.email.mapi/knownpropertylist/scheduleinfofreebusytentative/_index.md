@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyTentative
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет блоки времени для которых состояние занятости установлено на предварительное значение. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoFreeBusyTentative Альтернативные именаPR_SCHDINFO_FREEBUSY_TENTATIVE
+description: Определяет блоки времени для которых статус свободен/занят устанавливается на предварительное значение. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoFreeBusyTentative Альтернативные имена PR_SCHDINFO_FREEBUSY_TENTATIVE
 type: docs
 weight: 16850
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusytentative/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyTentative field
 
-Определяет блоки времени, для которых состояние занятости установлено на предварительное значение. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoFreeBusyTentative Альтернативные имена:PR_SCHDINFO_FREEBUSY_TENTATIVE
+Определяет блоки времени, для которых статус свободен/занят устанавливается на предварительное значение. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoFreeBusyTentative Альтернативные имена: PR_SCHDINFO_FREEBUSY_TENTATIVE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyTentative;

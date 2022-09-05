@@ -1,14 +1,14 @@
 ---
 title: ContentUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает URL-адрес для использования при получении содержимого.
+description: Получает или задает URL-адрес для использования при извлечении содержимого.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/contentinfo/contenturi/
 ---
 ## ContentInfo.ContentUri property
 
-Получает или задает URL-адрес для использования при получении содержимого.
+Получает или задает URL-адрес для использования при извлечении содержимого.
 
 ```csharp
 public string ContentUri { get; set; }

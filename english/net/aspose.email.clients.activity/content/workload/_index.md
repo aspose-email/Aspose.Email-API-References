@@ -1,7 +1,7 @@
 ---
 title: Workload
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Office 365 service where the activity occurred in the Workload string. The possible values for this property are Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence Mandatory No
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activity/content/workload/

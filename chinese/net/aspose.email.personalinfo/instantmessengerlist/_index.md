@@ -3,7 +3,7 @@ title: InstantMessengerList
 second_title: Aspose.Email for .NET API 参考
 description: 联系人的即时通讯地址列表
 type: docs
-weight: 19420
+weight: 19450
 url: /zh/net/aspose.email.personalinfo/instantmessengerlist/
 ---
 ## InstantMessengerList class
@@ -25,10 +25,10 @@ public class InstantMessengerList : IList<InstantMessengerAddress>
 | 姓名 | 描述 |
 | --- | --- |
 | [AIM](../../aspose.email.personalinfo/instantmessengerlist/aim) { get; set; } | 默认 AIM id |
-| [Count](../../aspose.email.personalinfo/instantmessengerlist/count) { get; } | 获取ICollection中包含的元素数。 |
+| [Count](../../aspose.email.personalinfo/instantmessengerlist/count) { get; } | 获取包含在ICollection. |
 | [GoogleTalk](../../aspose.email.personalinfo/instantmessengerlist/googletalk) { get; set; } | 默认 Google Talk id |
 | [ICQ](../../aspose.email.personalinfo/instantmessengerlist/icq) { get; set; } | 默认 ICQ id |
-| [IsReadOnly](../../aspose.email.personalinfo/instantmessengerlist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
+| [IsReadOnly](../../aspose.email.personalinfo/instantmessengerlist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
 | [Item](../../aspose.email.personalinfo/instantmessengerlist/item) { get; set; } | 指定类别的默认即时通讯地址 (2 indexers) |
 | [Jabber](../../aspose.email.personalinfo/instantmessengerlist/jabber) { get; set; } | 默认 Jabber id |
 | [MSN](../../aspose.email.personalinfo/instantmessengerlist/msn) { get; set; } | 默认 MSN id |
@@ -46,7 +46,7 @@ public class InstantMessengerList : IList<InstantMessengerAddress>
 | [CopyTo](../../aspose.email.personalinfo/instantmessengerlist/copyto)(InstantMessengerAddress[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/instantmessengerlist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/instantmessengerlist/indexof)(InstantMessengerAddress) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/instantmessengerlist/insert)(int, InstantMessengerAddress) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/instantmessengerlist/insert)(int, InstantMessengerAddress) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/instantmessengerlist/remove)(InstantMessengerAddress) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/instantmessengerlist/removeat)(int) | 删除指定索引处的列表项。 |
 

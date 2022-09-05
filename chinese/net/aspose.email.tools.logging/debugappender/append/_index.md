@@ -1,14 +1,14 @@
 ---
 title: Append
 second_title: Aspose.Email for .NET API 参考
-description: 将指定的日志条目附加到附加程序
+description: 将指定的日志条目附加到 appender
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.logging/debugappender/append/
 ---
 ## DebugAppender.Append method
 
-将指定的日志条目附加到附加程序。
+将指定的日志条目附加到 appender。
 
 ```csharp
 public override void Append(LogEntry entry)

@@ -1,7 +1,7 @@
 ---
 title: SetReadFlagAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks the specified message as read.
 type: docs
 weight: 630
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/setreadflagasync/

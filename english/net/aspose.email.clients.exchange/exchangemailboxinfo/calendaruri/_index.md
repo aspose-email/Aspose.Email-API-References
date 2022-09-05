@@ -1,7 +1,7 @@
 ---
 title: CalendarUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the calendar uri.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/calendaruri/

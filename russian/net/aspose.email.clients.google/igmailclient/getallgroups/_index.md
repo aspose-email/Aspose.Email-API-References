@@ -1,14 +1,14 @@
 ---
 title: GetAllGroups
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает все группы контактов.
+description: Извлекает все группы контактов.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.clients.google/igmailclient/getallgroups/
 ---
 ## IGmailClient.GetAllGroups method
 
-Выбирает все группы контактов.
+Извлекает все группы контактов.
 
 ```csharp
 public ContactGroupCollection GetAllGroups()
@@ -16,13 +16,13 @@ public ContactGroupCollection GetAllGroups()
 
 ### Возвращаемое значение
 
-Коллекция групп контактов
+Коллекция контактных групп
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| WebException | при сбое операции |
+| WebException | когда операция не удалась |
 
 ### Смотрите также
 

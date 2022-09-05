@@ -1,14 +1,14 @@
 ---
 title: OriginatorAndDlExpansionHistory
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINATOR_AND_DL_EXPANSION_HISTORY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY
 type: docs
 weight: 13830
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatoranddlexpansionhistory/
 ---
 ## KnownPropertyList.OriginatorAndDlExpansionHistory field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorAndDlExpansionHistory;

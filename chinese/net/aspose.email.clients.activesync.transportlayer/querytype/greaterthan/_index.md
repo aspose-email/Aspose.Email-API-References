@@ -1,14 +1,14 @@
 ---
 title: GreaterThan
 second_title: Aspose.Email for .NET API 参考
-description: 指定在搜索期间针对大于条件进行比较的属性和值
+description: 指定在搜索期间比较大于条件的属性和值
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/greaterthan/
 ---
 ## QueryType.GreaterThan property
 
-指定在搜索期间针对“大于”条件进行比较的属性和值。
+指定在搜索期间比较“大于”条件的属性和值。
 
 ```csharp
 public SearchCondition GreaterThan { get; set; }

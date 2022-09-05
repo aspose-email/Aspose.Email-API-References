@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Aspose.Email for .NET API 参考
 description: Zimbra tgz storage 的邮箱项目阅读器
 type: docs
-weight: 20330
+weight: 20380
 url: /zh/net/aspose.email.storage.zimbra/tgzreader/
 ---
 ## TgzReader class
@@ -18,7 +18,7 @@ public class TgzReader : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TgzReader](tgzreader)(string) | 初始化[`TgzReader`](../tgzreader)类的新实例。 |
+| [TgzReader](tgzreader)(string) | 初始化[`TgzReader`](../tgzreader)类. |
 
 ## 特性
 

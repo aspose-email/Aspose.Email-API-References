@@ -1,7 +1,7 @@
 ---
 title: Credentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the credentials.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/iexchangeclientbase/credentials/

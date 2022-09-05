@@ -1,14 +1,14 @@
 ---
 title: BySetPos
 second_title: Aspose.Email for .NET API 参考
-description: 获取by set pos
+description: 获取按集 pos.
 type: docs
 weight: 80
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/bysetpos/
 ---
 ## RecurrenceRule.BySetPos property
 
-获取by set pos。
+获取按集 pos.
 
 ```csharp
 public ByNumberCollection BySetPos { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection BySetPos { get; }
 
 ### 适当的价值
 
-by set pos。
+按设置位置。
 
 ### 也可以看看
 

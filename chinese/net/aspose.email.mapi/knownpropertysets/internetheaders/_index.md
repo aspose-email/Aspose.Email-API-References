@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/internetheaders/
 ---
 ## KnownPropertySets.InternetHeaders field
 
-区域名称:电子邮件 属性集名称:PS_INTERNET_HEADERS
+区域名称：电子邮件 属性集名称：PS_INTERNET_HEADERS
 
 ```csharp
 public static readonly Guid InternetHeaders;

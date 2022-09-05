@@ -1,14 +1,14 @@
 ---
 title: EmsAbSendTnef
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SEND_TNEF
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SEND_TNEF
 type: docs
 weight: 8750
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsendtnef/
 ---
 ## KnownPropertyList.EmsAbSendTnef field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SEND_TNEF
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SEND_TNEF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSendTnef;

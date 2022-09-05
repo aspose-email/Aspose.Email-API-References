@@ -1,14 +1,14 @@
 ---
 title: DisplayCc
 second_title: Aspose.Email for .NET API 参考
-description: 包含抄送 Cc 收件人显示名称的列表 区域消息属性 规范名称PidTagDisplayCc 替代名称PR_DISPLAY_CC PR_DISPLAY_CC_A ptagDisplayCc PR_DISPLAY_CC_W
+description: 包含抄送 Cc 收件人显示名称的列表 区域消息属性 规范名称PidTagDisplayCc 备用名称PR_DISPLAY_CCPR_DISPLAY_CC_AptagDisplayCcPR_DISPLAY_CC_W
 type: docs
 weight: 4130
 url: /zh/net/aspose.email.mapi/knownpropertylist/displaycc/
 ---
 ## KnownPropertyList.DisplayCc field
 
-包含抄送 (Cc) 收件人显示名称的列表。 区域:消息属性 规范名称:PidTagDisplayCc 替代名称:PR_DISPLAY_CC, PR_DISPLAY_CC_A, ptagDisplayCc, PR_DISPLAY_CC_W,
+包含抄送 (Cc) 收件人显示名称的列表。 区域：消息属性 规范名称：PidTagDisplayCc 备用名称：PR_DISPLAY_CC、PR_DISPLAY_CC_A、ptagDisplayCc、PR_DISPLAY_CC_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayCc;

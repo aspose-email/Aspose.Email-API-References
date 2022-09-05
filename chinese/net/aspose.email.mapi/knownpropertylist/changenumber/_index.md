@@ -1,14 +1,14 @@
 ---
 title: ChangeNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含标识对当前正在同步的消息或文件夹的最后更改的结构 区域同步 规范名称PidTagChangeNumber 备用名称ptagCn
+description: 包含一个结构该结构标识对当前正在同步的邮件或文件夹的最后一次更改 区域Sync 规范名称PidTagChangeNumber 备用名称ptagCn
 type: docs
 weight: 2590
 url: /zh/net/aspose.email.mapi/knownpropertylist/changenumber/
 ---
 ## KnownPropertyList.ChangeNumber field
 
-包含标识对当前正在同步的消息或文件夹的最后更改的结构。 区域:同步 规范名称:PidTagChangeNumber 备用名称:ptagCn
+包含一个结构，该结构标识对当前正在同步的邮件或文件夹的最后一次更改。 区域：Sync 规范名称：PidTagChangeNumber 备用名称：ptagCn
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeNumber;

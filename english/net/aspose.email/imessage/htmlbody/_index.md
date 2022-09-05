@@ -1,7 +1,7 @@
 ---
 title: HtmlBody
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a html formatted message body
 type: docs
 weight: 80
 url: /net/aspose.email/imessage/htmlbody/

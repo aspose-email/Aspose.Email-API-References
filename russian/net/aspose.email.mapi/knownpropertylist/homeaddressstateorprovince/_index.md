@@ -1,14 +1,14 @@
 ---
 title: HomeAddressStateOrProvince
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название штата или провинции пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressStateOrProvince Альтернативные именаPR_HOME_ADDRESS_STATE_OR_PROVINCE PR_HOME_ADDRESS_STATE_OR_PROVINCE_A PR_HOME_ADDRESS_STATE_OR_PROVINCE_W
+description: Содержит название штата или провинции почтового пользователя. Область MapiMailUser Каноническое имя PidTagHomeAddressStateOrProvince Альтернативные имена PR_HOME_ADDRESS_STATE_OR_PROVINCE PR_HOME_ADDRESS_STATE_OR_PROVINCE_A PR_HOME_ADDRESS_VINCE_0 PR_HOME_ADDRESS_INCE_0
 type: docs
 weight: 11060
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddressstateorprovince/
 ---
 ## KnownPropertyList.HomeAddressStateOrProvince field
 
-Содержит название штата или провинции пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeAddressStateOrProvince Альтернативные имена:PR_HOME_ADDRESS_STATE_OR_PROVINCE, PR_HOME_ADDRESS_STATE_OR_PROVINCE_A, PR_HOME_ADDRESS_STATE_OR_PROVINCE_W,
+Содержит название штата или провинции почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagHomeAddressStateOrProvince Альтернативные имена: PR_HOME_ADDRESS_STATE_OR_PROVINCE, PR_HOME_ADDRESS_STATE_OR_PROVINCE_A, PR_HOME_ADDRESS_VINCE_0, PR_HOME_ADDRESS_INCE_0,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressStateOrProvince;

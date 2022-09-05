@@ -1,14 +1,14 @@
 ---
 title: Log
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиЖурнал Имя набора свойствPSETID_Log
+description: Имя области Журнал Имя набора свойств PSETID_Log
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/knownpropertysets/log/
 ---
 ## KnownPropertySets.Log field
 
-Имя области:Журнал Имя набора свойств:PSETID_Log
+Имя области: Журнал Имя набора свойств: PSETID_Log
 
 ```csharp
 public static readonly Guid Log;

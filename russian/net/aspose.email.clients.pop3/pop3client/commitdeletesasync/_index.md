@@ -1,14 +1,14 @@
 ---
 title: CommitDeletesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление
+description: Подтвердить удаление
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.pop3/pop3client/commitdeletesasync/
 ---
 ## CommitDeletesAsync(int) {#commitdeletesasync_3}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(int sleep)
@@ -32,7 +32,7 @@ public Task CommitDeletesAsync(int sleep)
 
 ## CommitDeletesAsync(IConnection) {#commitdeletesasync_1}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection)
@@ -40,7 +40,7 @@ public Task CommitDeletesAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -57,7 +57,7 @@ public Task CommitDeletesAsync(IConnection connection)
 
 ## CommitDeletesAsync() {#commitdeletesasync}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync()
@@ -77,7 +77,7 @@ public Task CommitDeletesAsync()
 
 ## CommitDeletesAsync(int, CancellationToken) {#commitdeletesasync_4}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(int sleep, CancellationToken token)
@@ -102,7 +102,7 @@ public Task CommitDeletesAsync(int sleep, CancellationToken token)
 
 ## CommitDeletesAsync(IConnection, CancellationToken) {#commitdeletesasync_2}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
@@ -110,7 +110,7 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -128,7 +128,7 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 
 ## CommitDeletesAsync(CancellationToken) {#commitdeletesasync_5}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(CancellationToken token)
@@ -136,7 +136,7 @@ public Task CommitDeletesAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

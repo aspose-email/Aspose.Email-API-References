@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: Aspose.Email for .NET API 参考
-description: 运行状态
+description: 操作状态
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients/asynccommandresulteventargs/result/
 ---
 ## AsyncCommandResultEventArgs.Result property
 
-运行状态
+操作状态
 
 ```csharp
 public AsyncCommandResults Result { get; }

@@ -1,14 +1,14 @@
 ---
 title: SearchFolderDefinition
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает критерии поиска и параметры поиска. ОбластьПоиск Каноническое имяPidTagSearchFolderDefinition Альтернативные именаPR_WB_SF_DEFINITION
+description: Задает критерии и параметры поиска. Область Search Каноническое имя PidTagSearchFolderDefinition Альтернативные имена PR_WB_SF_DEFINITION
 type: docs
 weight: 16940
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderdefinition/
 ---
 ## KnownPropertyList.SearchFolderDefinition field
 
-Задает критерии поиска и параметры поиска. Область:Поиск Каноническое имя:PidTagSearchFolderDefinition Альтернативные имена:PR_WB_SF_DEFINITION
+Задает критерии и параметры поиска. Область: Search Каноническое имя: PidTagSearchFolderDefinition Альтернативные имена: PR_WB_SF_DEFINITION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderDefinition;

@@ -16,7 +16,7 @@ public bool Remove(PhoneNumber value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | PhoneNumber | ОбъектObjectдля удаления из списка. |
+| value | PhoneNumber | Object удалить из списка. |
 
 ### Смотрите также
 

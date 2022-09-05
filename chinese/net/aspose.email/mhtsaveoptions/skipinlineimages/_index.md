@@ -1,14 +1,14 @@
 ---
 title: SkipInlineImages
 second_title: Aspose.Email for .NET API 参考
-description: 定义是否在保存为 mhtml 时跳过对图像的引用 默认值为假
+description: 定义是否在保存为 mhtml 时跳过对图像的引用 默认值为 false
 type: docs
 weight: 70
 url: /zh/net/aspose.email/mhtsaveoptions/skipinlineimages/
 ---
 ## MhtSaveOptions.SkipInlineImages property
 
-定义是否在保存为 mhtml 时跳过对图像的引用。 默认值为假。
+定义是否在保存为 mhtml 时跳过对图像的引用。 默认值为 false。
 
 ```csharp
 public bool SkipInlineImages { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ExtendedRuleSizeLimit
 second_title: Aspose.Email for .NET API 参考
-description: 包含允许用户为单个扩展规则累积的最大大小以字节为单位 区域规则 规范名称PidTagExtendedRuleSizeLimit 替代名称PR_EXTENDED_RULE_SIZE_LIMIT
+description: 包含允许用户为单个扩展规则累积的最大大小以字节为单位 区域Rules 规范名称PidTagExtendedRuleSizeLimit 替代名称PR_EXTENDED_RULE_SIZE_LIMIT
 type: docs
 weight: 10030
 url: /zh/net/aspose.email.mapi/knownpropertylist/extendedrulesizelimit/
 ---
 ## KnownPropertyList.ExtendedRuleSizeLimit field
 
-包含允许用户为单个扩展规则累积的最大大小（以字节为单位）。 区域:规则 规范名称:PidTagExtendedRuleSizeLimit 替代名称:PR_EXTENDED_RULE_SIZE_LIMIT
+包含允许用户为单个扩展规则累积的最大大小（以字节为单位）。 区域：Rules 规范名称：PidTagExtendedRuleSizeLimit 替代名称：PR_EXTENDED_RULE_SIZE_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedRuleSizeLimit;

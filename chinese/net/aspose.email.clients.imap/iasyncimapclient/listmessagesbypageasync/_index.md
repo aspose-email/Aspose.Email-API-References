@@ -17,14 +17,14 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemsPerPage | Int32 | 中的多个项目page |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | pageOffset | Int32 | 视图中下一页的偏移量 |
 | settings | PageSettings | 设置。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -47,14 +47,14 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | pageInfo | PageInfo | 要检索的下一页。 |
 | settings | PageSettings | 设置。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

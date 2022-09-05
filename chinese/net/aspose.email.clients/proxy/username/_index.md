@@ -1,14 +1,14 @@
 ---
 title: Username
 second_title: Aspose.Email for .NET API 参考
-description: 代理认证用户名
+description: 代理身份验证的用户名
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients/proxy/username/
 ---
 ## Proxy.Username property
 
-代理认证用户名
+代理身份验证的用户名
 
 ```csharp
 public string Username { get; set; }

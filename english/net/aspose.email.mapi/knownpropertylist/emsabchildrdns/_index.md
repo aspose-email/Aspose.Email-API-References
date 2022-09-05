@@ -1,7 +1,7 @@
 ---
 title: EmsAbChildRdns
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_CHILD_RDNS
 type: docs
 weight: 5160
 url: /net/aspose.email.mapi/knownpropertylist/emsabchildrdns/

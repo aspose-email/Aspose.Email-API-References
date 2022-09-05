@@ -27,8 +27,8 @@ public class ContentInfo
 | [ContentId](../../aspose.email.clients.activity/contentinfo/contentid) { get; set; } | 获取或设置唯一标识内容的不透明字符串。 |
 | [ContentType](../../aspose.email.clients.activity/contentinfo/contenttype) { get; set; } | 获取或设置内容类型。 |
 | [ContentUri](../../aspose.email.clients.activity/contentinfo/contenturi) { get; set; } | 获取或设置检索内容时使用的 URL。 |
-| [Created](../../aspose.email.clients.activity/contentinfo/created) { get; set; } | 获取或设置内容可用时的日期时间。 |
-| [Expiration](../../aspose.email.clients.activity/contentinfo/expiration) { get; set; } | 获取或设置日期时间，在此之后内容将不再可用于检索。 |
+| [Created](../../aspose.email.clients.activity/contentinfo/created) { get; set; } | 获取或设置内容可用的日期时间。 |
+| [Expiration](../../aspose.email.clients.activity/contentinfo/expiration) { get; set; } | 获取或设置内容将不再可用于检索的日期时间。 |
 
 ### 也可以看看
 

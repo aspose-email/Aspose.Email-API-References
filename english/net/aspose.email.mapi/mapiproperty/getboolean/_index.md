@@ -1,7 +1,7 @@
 ---
 title: GetBoolean
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the first bytes of the binary data as boolean.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapiproperty/getboolean/

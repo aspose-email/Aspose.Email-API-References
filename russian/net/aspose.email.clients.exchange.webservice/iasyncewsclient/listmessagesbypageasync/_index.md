@@ -20,12 +20,12 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 | folder | String | Папка для поиска сообщений. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 | offset | Int32 | Смещение следующей страницы в поле зрения |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -54,7 +54,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, Page
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 

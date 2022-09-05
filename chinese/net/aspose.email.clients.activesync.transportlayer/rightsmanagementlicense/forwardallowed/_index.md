@@ -1,14 +1,14 @@
 ---
 title: ForwardAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户是否可以转发电子邮件 如果用户可以转发电子邮件消息则值为 TRUE否则错误
+description: 指定用户是否可以转发电子邮件消息 如果用户可以转发电子邮件消息则值为 TRUE否则该值为 TRUE否则FALSE.
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/forwardallowed/
 ---
 ## RightsManagementLicense.ForwardAllowed property
 
-指定用户是否可以转发电子邮件。 如果用户可以转发电子邮件消息，则值为 TRUE；否则，错误。
+指定用户是否可以转发电子邮件消息。 如果用户可以转发电子邮件消息，则值为 TRUE；否则，该值为 TRUE。否则，FALSE.
 
 ```csharp
 public bool ForwardAllowed { get; set; }

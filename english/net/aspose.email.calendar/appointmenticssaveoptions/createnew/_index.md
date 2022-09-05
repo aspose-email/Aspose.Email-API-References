@@ -1,7 +1,7 @@
 ---
 title: CreateNew
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/appointmenticssaveoptions/createnew/

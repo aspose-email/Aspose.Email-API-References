@@ -1,12 +1,12 @@
 ---
 title: GetSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get subfolder.
 type: docs
 weight: 290
 url: /net/aspose.email.storage.pst/folderinfo/getsubfolder/
 ---
-## FolderInfo.GetSubFolder method (1 of 2)
+## GetSubFolder(string) {#getsubfolder}
 
 Get subfolder.
 
@@ -30,7 +30,7 @@ A FolderInfo object.
 
 ---
 
-## FolderInfo.GetSubFolder method (2 of 2)
+## GetSubFolder(string, bool) {#getsubfolder_1}
 
 Gets the subfolder.
 

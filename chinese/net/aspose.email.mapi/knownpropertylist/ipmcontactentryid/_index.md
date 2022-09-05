@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/ipmcontactentryid/
 ---
 ## KnownPropertyList.IpmContactEntryId field
 
-包含联系人文件夹的 EntryID。 区域:文件夹属性 规范名称:PidTagIpmContactEntryId 备用名称:PR_IPM_CONTACT_ENTRYID
+包含联系人文件夹的 EntryID。 区域：文件夹属性 规范名称：PidTagIpmContactEntryId 备用名称：PR_IPM_CONTACT_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmContactEntryId;

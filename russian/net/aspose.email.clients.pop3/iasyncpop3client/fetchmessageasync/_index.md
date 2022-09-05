@@ -17,7 +17,7 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId, IConnection connecti
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | uniqueId | IConnection | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -46,7 +46,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, IConnection conne
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | IConnection | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

@@ -1,14 +1,14 @@
 ---
 title: SharingFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingFilter Альтернативные именаdispidSharingFilter
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingFilter Альтернативные имена dispidSharingFilter
 type: docs
 weight: 17480
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingfilter/
 ---
 ## KnownPropertyList.SharingFilter field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingFilter Альтернативные имена:dispidSharingFilter
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingFilter Альтернативные имена: dispidSharingFilter
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFilter;

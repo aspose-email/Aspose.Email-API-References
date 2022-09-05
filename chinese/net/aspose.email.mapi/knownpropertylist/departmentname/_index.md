@@ -1,14 +1,14 @@
 ---
 title: DepartmentName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户所在部门的名称 区域MapiMailUser 规范名称PidTagDepartmentName 别名PR_DEPARTMENT_NAME PR_DEPARTMENT_NAME_A PR_DEPARTMENT_NAME_W
+description: 包含邮件用户所在部门的名称 区域MapiMailUser 规范名称PidTagDepartmentName 替代名称PR_DEPARTMENT_NAMEPR_DEPARTMENT_NAME_APR_DEPARTMENT_NAME_W
 type: docs
 weight: 4000
 url: /zh/net/aspose.email.mapi/knownpropertylist/departmentname/
 ---
 ## KnownPropertyList.DepartmentName field
 
-包含邮件用户所在部门的名称。 区域:MapiMailUser 规范名称:PidTagDepartmentName 别名:PR_DEPARTMENT_NAME, PR_DEPARTMENT_NAME_A, PR_DEPARTMENT_NAME_W,
+包含邮件用户所在部门的名称。 区域：MapiMailUser 规范名称：PidTagDepartmentName 替代名称：PR_DEPARTMENT_NAME、PR_DEPARTMENT_NAME_A、PR_DEPARTMENT_NAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DepartmentName;

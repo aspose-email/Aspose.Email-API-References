@@ -1,14 +1,14 @@
 ---
 title: CreateDateTimeReadOnly
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC когда файл был впервые создан. ОбластьОбщие Каноническое имяPidNameCreateDateTimeReadOnly Альтернативные именаurnschemas-microsoft-comofficeofficeCreated
+description: Указывает время в формате UTC когда файл был впервые создан.
 type: docs
 weight: 3520
 url: /ru/net/aspose.email.mapi/knownpropertylist/createdatetimereadonly/
 ---
 ## KnownPropertyList.CreateDateTimeReadOnly field
 
-Указывает время в формате UTC, когда файл был впервые создан. Область:Общие Каноническое имя:PidNameCreateDateTimeReadOnly Альтернативные имена:urn:schemas-microsoft-com:office:office#Created
+Указывает время в формате UTC, когда файл был впервые создан.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CreateDateTimeReadOnly;

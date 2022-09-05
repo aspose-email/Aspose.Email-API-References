@@ -1,14 +1,14 @@
 ---
 title: OperationResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Типы результата операции
+description: Типы операций result
 type: docs
 weight: 2690
 url: /ru/net/aspose.email.clients.activity/operationresult/
 ---
 ## OperationResult enumeration
 
-Типы результата операции
+Типы операций result
 
 ```csharp
 public enum OperationResult
@@ -19,7 +19,7 @@ public enum OperationResult
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Succeeded | `0` | Событие прошло успешно. |
-| Failed | `1` | Событие не выполнено. |
+| Failed | `1` | Не удалось выполнить событие. |
 
 ### Смотрите также
 

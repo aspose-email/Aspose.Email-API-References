@@ -1,12 +1,12 @@
 ---
 title: ListContent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available but the events and actions within the aggregations are not guaranteed to be sequential. By default when startTime and endTime are omitted then the content available in the last 24 hours is returned.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/iactivityclient/listcontent/
 ---
-## IActivityClient.ListContent method (1 of 2)
+## ListContent(string) {#listcontent}
 
 This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. By default, when startTime and endTime are omitted, then the content available in the last 24 hours is returned.
 
@@ -31,7 +31,7 @@ List of available information about activity
 
 ---
 
-## IActivityClient.ListContent method (2 of 2)
+## ListContent(string, DateTime?, DateTime?) {#listcontent_1}
 
 This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential.
 

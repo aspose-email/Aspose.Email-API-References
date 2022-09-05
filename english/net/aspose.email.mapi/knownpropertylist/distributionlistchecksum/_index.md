@@ -1,7 +1,7 @@
 ---
 title: DistributionListChecksum
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the 32bit cyclic redundancy check CRC polynomial checksum as property section 2.96. Area Contact Properties Canonical name PidLidDistributionListChecksum Alternate names dispidDLChecksum
 type: docs
 weight: 4190
 url: /net/aspose.email.mapi/knownpropertylist/distributionlistchecksum/

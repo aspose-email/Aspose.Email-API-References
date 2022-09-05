@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Message attachment Property set name PSETID_Attachment
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/knownpropertysets/attachment/

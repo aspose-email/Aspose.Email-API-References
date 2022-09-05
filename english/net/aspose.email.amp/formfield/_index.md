@@ -1,7 +1,7 @@
 ---
 title: FormField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Describe one field of form.
 type: docs
 weight: 170
 url: /net/aspose.email.amp/formfield/
@@ -18,9 +18,9 @@ public class FormField
 
 | Name | Description |
 | --- | --- |
-| [FormField](formfield)() | Create instance of form field. |
-| [FormField](formfield)(string) | Create instance of form field. |
-| [FormField](formfield)(string, string) | Create instance of form field. |
+| [FormField](formfield#constructor)() | Create instance of form field. |
+| [FormField](formfield#constructor_1)(string) | Create instance of form field. |
+| [FormField](formfield#constructor_2)(string, string) | Create instance of form field. |
 
 ## Properties
 

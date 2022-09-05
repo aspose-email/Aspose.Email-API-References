@@ -1,7 +1,7 @@
 ---
 title: Frequency
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the frequency of the recurring series.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/frequency/

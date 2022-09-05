@@ -1,7 +1,7 @@
 ---
 title: CreateItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified items in the speciifed folder
 type: docs
 weight: 530
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createitems/

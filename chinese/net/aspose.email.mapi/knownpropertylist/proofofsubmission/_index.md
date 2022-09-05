@@ -1,14 +1,14 @@
 ---
 title: ProofOfSubmission
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROOF_OF_SUBMISSION
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROOF_OF_SUBMISSION
 type: docs
 weight: 15020
 url: /zh/net/aspose.email.mapi/knownpropertylist/proofofsubmission/
 ---
 ## KnownPropertyList.ProofOfSubmission field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROOF_OF_SUBMISSION
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROOF_OF_SUBMISSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProofOfSubmission;

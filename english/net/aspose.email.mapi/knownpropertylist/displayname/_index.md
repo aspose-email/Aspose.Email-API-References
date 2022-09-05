@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the display name of the folder. Area MapiCommon Canonical name PidTagDisplayName Alternate names PR_DISPLAY_NAME PR_DISPLAY_NAME_A ptagDisplayName
 type: docs
 weight: 4140
 url: /net/aspose.email.mapi/knownpropertylist/displayname/

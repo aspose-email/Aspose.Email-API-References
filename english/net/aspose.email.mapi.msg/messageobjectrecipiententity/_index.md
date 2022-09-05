@@ -1,9 +1,9 @@
 ---
 title: MessageObjectRecipientEntity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represens a recipient entry in message object.
 type: docs
-weight: 18690
+weight: 18900
 url: /net/aspose.email.mapi.msg/messageobjectrecipiententity/
 ---
 ## MessageObjectRecipientEntity class

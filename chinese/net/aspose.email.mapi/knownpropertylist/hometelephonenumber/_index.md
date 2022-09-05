@@ -1,14 +1,14 @@
 ---
 title: HomeTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户家的主要电话号码 区域MapiMailUser 规范名称PidTagHomeTelephoneNumber 别名PR_HOME_TELEPHONE_NUMBER PR_HOME_TELEPHONE_NUMBER_A
+description: 包含邮件用户家的主要电话号码 区域MapiMailUser 规范名称PidTagHomeTelephoneNumber 备用名称PR_HOME_TELEPHONE_NUMBERPR_HOME_TELEPHONE_NUMBER_A
 type: docs
 weight: 11090
 url: /zh/net/aspose.email.mapi/knownpropertylist/hometelephonenumber/
 ---
 ## KnownPropertyList.HomeTelephoneNumber field
 
-包含邮件用户家的主要电话号码。 区域:MapiMailUser 规范名称:PidTagHomeTelephoneNumber 别名:PR_HOME_TELEPHONE_NUMBER, PR_HOME_TELEPHONE_NUMBER_A,
+包含邮件用户家的主要电话号码。 区域：MapiMailUser 规范名称：PidTagHomeTelephoneNumber 备用名称：PR_HOME_TELEPHONE_NUMBER、PR_HOME_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeTelephoneNumber;

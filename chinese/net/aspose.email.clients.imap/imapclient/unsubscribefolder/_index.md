@@ -1,14 +1,14 @@
 ---
 title: UnsubscribeFolder
 second_title: Aspose.Email for .NET API 参考
-description: 发送了 UNSUBSCRIBE 命令从服务器的活动邮箱集中删除指定的邮箱名称
+description: 发送了从服务器的活动邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 type: docs
 weight: 1270
 url: /zh/net/aspose.email.clients.imap/imapclient/unsubscribefolder/
 ---
 ## UnsubscribeFolder(IConnection, string) {#unsubscribefolder}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public void UnsubscribeFolder(IConnection connection, string folderName)
@@ -30,7 +30,7 @@ public void UnsubscribeFolder(IConnection connection, string folderName)
 
 ## UnsubscribeFolder(string) {#unsubscribefolder_1}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public void UnsubscribeFolder(string folderName)

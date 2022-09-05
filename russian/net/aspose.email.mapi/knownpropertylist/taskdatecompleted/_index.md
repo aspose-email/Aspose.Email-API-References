@@ -1,14 +1,14 @@
 ---
 title: TaskDateCompleted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату когда пользователь завершил работу над задачей. ОбластьЗадачи Каноническое имяPidLidTaskDateCompleted Альтернативные именаdispidTaskDateCompleted
+description: Указывает дату когда пользователь завершил работу над задачей. Область Tasks Каноническое имя PidLidTaskDateCompleted Альтернативные имена dispidTaskDateCompleted
 type: docs
 weight: 18600
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskdatecompleted/
 ---
 ## KnownPropertyList.TaskDateCompleted field
 
-Указывает дату, когда пользователь завершил работу над задачей. Область:Задачи Каноническое имя:PidLidTaskDateCompleted Альтернативные имена:dispidTaskDateCompleted
+Указывает дату, когда пользователь завершил работу над задачей. Область: Tasks Каноническое имя: PidLidTaskDateCompleted Альтернативные имена: dispidTaskDateCompleted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDateCompleted;

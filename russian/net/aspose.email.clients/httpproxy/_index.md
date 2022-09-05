@@ -18,25 +18,25 @@ public class HttpProxy : Proxy, IWebProxy
 
 | Имя | Описание |
 | --- | --- |
-| [HttpProxy](httpproxy#constructor)(string, int) | Инициализирует новый экземпляр класса[`HttpProxy`](../httpproxy)для подключения к прокси-серверу без аутентификации. |
-| [HttpProxy](httpproxy#constructor_1)(string, int, string, string) | Инициализирует новый экземпляр класса[`HttpProxy`](../httpproxy)для подключения к прокси-серверу с определенным именем пользователя и паролем. |
+| [HttpProxy](httpproxy#constructor)(string, int) | Инициализирует новый экземпляр[`HttpProxy`](../httpproxy) класс для подключения к прокси-серверу без аутентификации. |
+| [HttpProxy](httpproxy#constructor_1)(string, int, string, string) | Инициализирует новый экземпляр[`HttpProxy`](../httpproxy) класс для подключения к прокси-серверу с определенным именем пользователя и паролем. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Имя домена или IP-адрес прокси-сервера |
+| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Доменное имя или IP-адрес прокси-сервера |
 | [Credentials](../../aspose.email.clients/httpproxy/credentials) { get; set; } | Учетные данные для отправки на прокси-сервер для аутентификации. |
 | [Password](../../aspose.email.clients/proxy/password) { get; set; } | Пароль для аутентификации прокси |
 | [Port](../../aspose.email.clients/proxy/port) { get; set; } | Номер порта прокси-сервера |
 | [SupportedAuthenticationMethods](../../aspose.email.clients/httpproxy/supportedauthenticationmethods) { get; set; } | Поддерживаемые методы аутентификации для подключения к HTTP-прокси |
-| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для аутентификации прокси |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для прокси-аутентификации |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового TCP-соединения. |
+| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового соединения TCP. |
 | virtual [GetProxy](../../aspose.email.clients/httpproxy/getproxy)(Uri) | Возвращает URI прокси. |
 | [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | Возвращает настроенный сетевой поток для передачи данных на требуемый узел через прокси-сервер. |
 | virtual [IsBypassed](../../aspose.email.clients/httpproxy/isbypassed)(Uri) | Указывает, что прокси не должен использоваться для указанного хоста. |

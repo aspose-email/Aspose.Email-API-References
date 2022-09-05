@@ -1,14 +1,14 @@
 ---
 title: SharingReciprocation
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingReciprocation 替代名称dispidSharingReciprocation
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingReciprocation 替代名称dispidSharingReciprocation
 type: docs
 weight: 17760
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingreciprocation/
 ---
 ## KnownPropertyList.SharingReciprocation field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingReciprocation 替代名称:dispidSharingReciprocation
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingReciprocation 替代名称：dispidSharingReciprocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingReciprocation;

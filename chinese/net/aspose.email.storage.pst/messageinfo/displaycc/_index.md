@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.storage.pst/messageinfo/displaycc/
 ---
 ## MessageInfo.DisplayCC property
 
-获取 CC:行。
+获取 CC：行。
 
 ```csharp
 public string DisplayCC { get; }
@@ -16,7 +16,7 @@ public string DisplayCC { get; }
 
 ### 适当的价值
 
-显示抄送。
+显示cc.
 
 ### 也可以看看
 

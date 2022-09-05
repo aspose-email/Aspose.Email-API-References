@@ -1,7 +1,7 @@
 ---
 title: AssistantValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Assistant category
 type: docs
 weight: 250
 url: /net/aspose.email.personalinfo/phonenumbercategory/assistantvalue/

@@ -1,7 +1,7 @@
 ---
 title: WlinkGroupHeaderID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the ID of the navigation shortcut that groups other navigation shortcuts. Area Configuration Canonical name PidTagWlinkGroupHeaderID Alternate names
 type: docs
 weight: 19450
 url: /net/aspose.email.mapi/knownpropertylist/wlinkgroupheaderid/

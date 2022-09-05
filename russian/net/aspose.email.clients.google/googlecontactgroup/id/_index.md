@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает уникальный идентификатор для записи группы
+description: Получает уникальный идентификатор для группы entry
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.google/googlecontactgroup/id/
 ---
 ## GoogleContactGroup.Id property
 
-Получает уникальный идентификатор для записи группы
+Получает уникальный идентификатор для группы entry
 
 ```csharp
 public string Id { get; }

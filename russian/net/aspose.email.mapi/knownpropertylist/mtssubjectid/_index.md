@@ -1,14 +1,14 @@
 ---
 title: MtsSubjectId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MTS_SUBJECT_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MTS_SUBJECT_ID
 type: docs
 weight: 12800
 url: /ru/net/aspose.email.mapi/knownpropertylist/mtssubjectid/
 ---
 ## KnownPropertyList.MtsSubjectId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MTS_SUBJECT_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MTS_SUBJECT_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MtsSubjectId;

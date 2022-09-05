@@ -1,12 +1,12 @@
 ---
 title: ImapMessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ImapMessageCollection class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/imapmessageinfocollection/
 ---
-## ImapMessageInfoCollection constructor (1 of 2)
+## ImapMessageInfoCollection() {#constructor}
 
 Initializes a new instance of the ImapMessageCollection class.
 
@@ -22,7 +22,7 @@ public ImapMessageInfoCollection()
 
 ---
 
-## ImapMessageInfoCollection constructor (2 of 2)
+## ImapMessageInfoCollection(IEnumerable&lt;ImapMessageInfo&gt;) {#constructor_1}
 
 Initializes a new instance of the ImapMessageCollection class
 

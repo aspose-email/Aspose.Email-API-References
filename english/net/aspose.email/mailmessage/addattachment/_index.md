@@ -1,9 +1,9 @@
 ---
 title: AddAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add an attachment to message
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.email/mailmessage/addattachment/
 ---
 ## MailMessage.AddAttachment method

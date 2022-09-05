@@ -1,14 +1,14 @@
 ---
 title: MissedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает набор пропущенных свойств.
+description: Получает коллекцию пропущенных свойств.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.storage.pst/saveresult/missedproperties/
 ---
 ## SaveResult.MissedProperties property
 
-Получает набор пропущенных свойств.
+Получает коллекцию пропущенных свойств.
 
 ```csharp
 public List<PropertyDescriptor> MissedProperties { get; }

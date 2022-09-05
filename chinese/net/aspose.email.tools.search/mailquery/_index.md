@@ -3,7 +3,7 @@ title: MailQuery
 second_title: Aspose.Email for .NET API 参考
 description: 表示搜索条件用于匹配邮箱中的多个邮件属性
 type: docs
-weight: 20690
+weight: 20740
 url: /zh/net/aspose.email.tools.search/mailquery/
 ---
 ## MailQuery class
@@ -18,8 +18,8 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailQuery](mailquery#constructor)(string) | 初始化[`MailQuery`](../mailquery)类的新实例。 |
-| [MailQuery](mailquery#constructor_1)(string, string) | 初始化[`MailQuery`](../mailquery)类的新实例。 |
+| [MailQuery](mailquery#constructor)(string) | 初始化[`MailQuery`](../mailquery)班级。 |
+| [MailQuery](mailquery#constructor_1)(string, string) | 初始化[`MailQuery`](../mailquery)班级。 |
 
 ## 特性
 
@@ -32,12 +32,12 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 | 姓名 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/mailquery/equals#equals)(MailQuery) | 表示当前对象是否等于另一个同类型的对象。 |
-| override [Equals](../../aspose.email.tools.search/mailquery/equals#equals_1)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals#equals_1)(object) | 判断是否指定Object 等于这个实例。 |
 | override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | 返回此实例的哈希码。 |
-| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | 此方法保留，不应使用。实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute到班级。 |
-| virtual [ReadXml](../../aspose.email.tools.search/mailquery/readxml)(XmlReader) | 从其 XML 表示生成一个对象。 |
-| override [ToString](../../aspose.email.tools.search/mailquery/tostring)() | 返回代表此实例的String。 |
-| virtual [WriteXml](../../aspose.email.tools.search/mailquery/writexml)(XmlWriter) | 将对象转换为其 XML 表示。 |
+| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | 此方法已保留，不应使用。在实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute上课. |
+| virtual [ReadXml](../../aspose.email.tools.search/mailquery/readxml)(XmlReader) | 从其 XML 表示中生成一个对象。 |
+| override [ToString](../../aspose.email.tools.search/mailquery/tostring)() | 返回一个String代表这个实例。 |
+| virtual [WriteXml](../../aspose.email.tools.search/mailquery/writexml)(XmlWriter) | 将对象转换为其 XML 表示形式。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: UniqueUnreadSenders
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список всех людей отправивших непрочитанные сообщения в этой беседе в текущей папке.
+description: Получает список всех людей которые отправили сообщения которые в данный момент не прочитаны в этой беседе в текущей папке.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/uniqueunreadsenders/
 ---
 ## ExchangeConversation.UniqueUnreadSenders property
 
-Получает список всех людей, отправивших непрочитанные сообщения в этой беседе в текущей папке.
+Получает список всех людей, которые отправили сообщения, которые в данный момент не прочитаны в этой беседе в текущей папке.
 
 ```csharp
 public StringCollection UniqueUnreadSenders { get; }

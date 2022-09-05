@@ -3,7 +3,7 @@ title: MapiJournalDocumentStatus
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает статус документа.
 type: docs
-weight: 18400
+weight: 18430
 url: /ru/net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 ## MapiJournalDocumentStatus enumeration
@@ -20,7 +20,7 @@ public enum MapiJournalDocumentStatus
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Документ не имеет статуса. |
-| Printed | `1` | Указывает, печатался ли документ во время ведения журнала. |
+| Printed | `1` | Указывает, был ли документ распечатан во время ведения журнала. |
 | Saved | `2` | Указывает, был ли документ сохранен во время ведения журнала. |
 | Routed | `4` | Указывает, был ли документ отправлен получателю маршрутизации во время ведения журнала. |
 | Posted | `8` | Указывает, был ли документ отправлен по электронной почте или отправлен в папку сервера во время ведения журнала. |

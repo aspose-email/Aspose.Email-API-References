@@ -1,14 +1,14 @@
 ---
 title: SmtpClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSmtpClientaspose.email.clients.smtp/smtpclient.
+description: Инициализирует новый экземплярSmtpClientaspose.email.clients.smtp/smtpclient класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp/smtpclient/smtpclient/
 ---
 ## SmtpClient() {#constructor}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient()
@@ -24,7 +24,7 @@ public SmtpClient()
 
 ## SmtpClient(Configuration) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient) с помощью настройки конфигурационного файла.
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс с помощью настроек файла конфигурации.
 
 ```csharp
 public SmtpClient(Configuration configuration)
@@ -48,7 +48,7 @@ public SmtpClient(Configuration configuration)
 
 ## SmtpClient(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host)
@@ -68,7 +68,7 @@ public SmtpClient(string host)
 
 ## SmtpClient(string, SecurityOptions) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, SecurityOptions securityOptions)
@@ -90,7 +90,7 @@ public SmtpClient(string host, SecurityOptions securityOptions)
 
 ## SmtpClient(string, int) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port)
@@ -111,7 +111,7 @@ public SmtpClient(string host, int port)
 
 ## SmtpClient(string, int, SecurityOptions) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, SecurityOptions securityOptions)
@@ -134,7 +134,7 @@ public SmtpClient(string host, int port, SecurityOptions securityOptions)
 
 ## SmtpClient(string, string, string) {#constructor_14}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, string password)
@@ -143,8 +143,8 @@ public SmtpClient(string host, string username, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
-| пароль | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
+| username | String | Имя пользователя. |
+| password | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
 
 ### Смотрите также
 
@@ -156,7 +156,7 @@ public SmtpClient(string host, string username, string password)
 
 ## SmtpClient(string, string, string, SecurityOptions) {#constructor_15}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, string password, SecurityOptions securityOptions)
@@ -165,8 +165,8 @@ public SmtpClient(string host, string username, string password, SecurityOptions
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
-| пароль | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
+| username | String | Имя пользователя. |
+| password | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -180,7 +180,7 @@ public SmtpClient(string host, string username, string password, SecurityOptions
 
 ## SmtpClient(string, int, string, string) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string password)
@@ -190,8 +190,8 @@ public SmtpClient(string host, int port, string username, string password)
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
-| пароль | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
+| username | String | Имя пользователя. |
+| password | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
 
 ### Смотрите также
 
@@ -203,7 +203,7 @@ public SmtpClient(string host, int port, string username, string password)
 
 ## SmtpClient(string, int, string, string, SecurityOptions) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string password, 
@@ -214,8 +214,8 @@ public SmtpClient(string host, int port, string username, string password,
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
-| пароль | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
+| username | String | Имя пользователя. |
+| password | String | Пароль. Ограничения пароля определяются реализацией сервера, к которому подключается клиент. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -229,7 +229,7 @@ public SmtpClient(string host, int port, string username, string password,
 
 ## SmtpClient(string, string, string, bool) {#constructor_16}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, string authInfo, bool useOAuth)
@@ -238,9 +238,9 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | authInfo | String | Пароль пользователя или токен доступа XOAUTH2 |
-| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер |
+| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер. |
 
 ### Смотрите также
 
@@ -252,7 +252,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth)
 
 ## SmtpClient(string, string, string, bool, SecurityOptions) {#constructor_17}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, string authInfo, bool useOAuth, 
@@ -262,9 +262,9 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | authInfo | String | Пароль пользователя или токен доступа XOAUTH2 |
-| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер |
+| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -278,7 +278,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth,
 
 ## SmtpClient(string, int, string, string, bool) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string authInfo, bool useOAuth)
@@ -288,9 +288,9 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | authInfo | String | Пароль пользователя или токен доступа XOAUTH2 |
-| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер |
+| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер. |
 
 ### Смотрите также
 
@@ -302,7 +302,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ## SmtpClient(string, int, string, string, bool, SecurityOptions) {#constructor_11}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string authInfo, bool useOAuth, 
@@ -313,9 +313,9 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | authInfo | String | Пароль пользователя или токен доступа XOAUTH2 |
-| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер |
+| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -329,7 +329,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ## SmtpClient(string, string, ITokenProvider) {#constructor_12}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, ITokenProvider tokenProvider)
@@ -338,7 +338,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | tokenProvider | ITokenProvider | TokenProvider, позволяющий получить токен доступа. |
 
 ### Смотрите также
@@ -352,7 +352,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider)
 
 ## SmtpClient(string, string, ITokenProvider, SecurityOptions) {#constructor_13}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, string username, ITokenProvider tokenProvider, 
@@ -362,7 +362,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | tokenProvider | ITokenProvider | TokenProvider, позволяющий получить токен доступа. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
@@ -378,7 +378,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider,
 
 ## SmtpClient(string, int, string, ITokenProvider) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, ITokenProvider tokenProvider)
@@ -388,7 +388,7 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | tokenProvider | ITokenProvider | TokenProvider, позволяющий получить токен доступа. |
 
 ### Смотрите также
@@ -402,7 +402,7 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 
 ## SmtpClient(string, int, string, ITokenProvider, SecurityOptions) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`SmtpClient`](../../smtpclient).
+Инициализирует новый экземпляр[`SmtpClient`](../../smtpclient) класс.
 
 ```csharp
 public SmtpClient(string host, int port, string username, ITokenProvider tokenProvider, 
@@ -413,7 +413,7 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 | --- | --- | --- |
 | host | String | Имя хоста, используемого для SMTP. |
 | port | Int32 | Порт, используемый для SMTP. |
-| имя_пользователя | String | Имя пользователя. |
+| username | String | Имя пользователя. |
 | tokenProvider | ITokenProvider | TokenProvider, позволяющий получить токен доступа. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 

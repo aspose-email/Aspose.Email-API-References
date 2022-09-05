@@ -1,7 +1,7 @@
 ---
 title: IsInError
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the rule is in an error condition.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange/inboxrule/isinerror/

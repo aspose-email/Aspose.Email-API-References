@@ -1,14 +1,14 @@
 ---
 title: AnniversaryValue
 second_title: Aspose.Email for .NET API 参考
-description: Anniversary 类别的字符串值
+description: 周年纪念类别的字符串值
 type: docs
 weight: 100
 url: /zh/net/aspose.email.personalinfo/eventcategory/anniversaryvalue/
 ---
 ## EventCategory.AnniversaryValue field
 
-'Anniversary' 类别的字符串值
+“周年纪念”类别的字符串值
 
 ```csharp
 public const string AnniversaryValue;

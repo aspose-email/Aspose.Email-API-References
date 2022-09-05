@@ -3,7 +3,7 @@ title: DomainValidatingEventHandler
 second_title: Aspose.Email for .NET API 参考
 description: 表示 DomainValidatingEvent 的事件处理程序
 type: docs
-weight: 20740
+weight: 20790
 url: /zh/net/aspose.email.tools.verifications/domainvalidatingeventhandler/
 ---
 ## DomainValidatingEventHandler delegate

@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unique identifier
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapquerybuilder/uniqueid/

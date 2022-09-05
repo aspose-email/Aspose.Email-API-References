@@ -1,7 +1,7 @@
 ---
 title: Folder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the known Exchange server folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/servernotificationeventargs/folder/

@@ -1,14 +1,14 @@
 ---
 title: ComputerNetworkName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户计算机网络的名称 区域联系人属性 规范名称PidTagComputerNetworkName 替代名称PR_COMPUTER_NETWORK_NAME PR_COMPUTER_NETWORK_NAME_A
+description: 包含邮件用户计算机网络的名称 区域联系人属性 规范名称PidTagComputerNetworkName 备用名称PR_COMPUTER_NETWORK_NAMEPR_COMPUTER_NETWORK_NAME_A
 type: docs
 weight: 2850
 url: /zh/net/aspose.email.mapi/knownpropertylist/computernetworkname/
 ---
 ## KnownPropertyList.ComputerNetworkName field
 
-包含邮件用户计算机网络的名称。 区域:联系人属性 规范名称:PidTagComputerNetworkName 替代名称:PR_COMPUTER_NETWORK_NAME, PR_COMPUTER_NETWORK_NAME_A,
+包含邮件用户计算机网络的名称。 区域：联系人属性 规范名称：PidTagComputerNetworkName 备用名称：PR_COMPUTER_NETWORK_NAME、PR_COMPUTER_NETWORK_NAME_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ComputerNetworkName;

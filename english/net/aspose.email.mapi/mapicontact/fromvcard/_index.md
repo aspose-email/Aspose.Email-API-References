@@ -1,12 +1,12 @@
 ---
 title: FromVCard
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads MapiContactaspose.email.mapi/mapicontact from the specified vCard file The supported vCard versions are 2.1 and 3.0
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontact/fromvcard/
 ---
-## MapiContact.FromVCard method (1 of 4)
+## FromVCard(string) {#fromvcard_2}
 
 Reads [`MapiContact`](../../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -36,7 +36,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (2 of 4)
+## FromVCard(string, Encoding) {#fromvcard_3}
 
 Reads [`MapiContact`](../../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -67,7 +67,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (3 of 4)
+## FromVCard(Stream) {#fromvcard}
 
 Reads [`MapiContact`](../../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -98,7 +98,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (4 of 4)
+## FromVCard(Stream, Encoding) {#fromvcard_1}
 
 Reads [`MapiContact`](../../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 

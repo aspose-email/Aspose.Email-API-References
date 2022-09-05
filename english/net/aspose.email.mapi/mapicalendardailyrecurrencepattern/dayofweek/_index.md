@@ -1,7 +1,7 @@
 ---
 title: DayOfWeek
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the days of week at which the event occurs
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendardailyrecurrencepattern/dayofweek/

@@ -1,7 +1,7 @@
 ---
 title: EndTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the End time zone.
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/appointmenticssaveoptions/endtimezone/

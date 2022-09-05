@@ -1,14 +1,14 @@
 ---
 title: End
 second_title: Aspose.Email for .NET API 参考
-description: 结束头
+description: 结束标题
 type: docs
 weight: 60
 url: /zh/net/aspose.email/mhttemplatename/end/
 ---
 ## MhtTemplateName.End field
 
-结束头。
+结束标题。
 
 ```csharp
 public const string End;

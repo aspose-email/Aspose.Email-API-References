@@ -1,14 +1,14 @@
 ---
 title: ModificationSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает последовательность модификации этого сообщения. Подробнееhttps//tools.ietf.org/html/rfc7162
+description: Получает последовательность модификации этого сообщения. Подробнее https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.imap/imapmessageinfo/modificationsequence/
 ---
 ## ImapMessageInfo.ModificationSequence property
 
-Получает последовательность модификации этого сообщения. Подробнее:https://tools.ietf.org/html/rfc7162
+Получает последовательность модификации этого сообщения. Подробнее: https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public long ModificationSequence { get; }

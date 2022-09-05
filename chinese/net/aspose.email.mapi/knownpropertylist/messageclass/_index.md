@@ -1,14 +1,14 @@
 ---
 title: MessageClass
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Message 对象的特定类型 区域公共属性集 规范名称PidTagMessageClass 备用名称PR_MESSAGE_CLASS PR_MESSAGE_CLASS_A ptagMessageClass PR_MESSAGE_CLASS_W
+description: 表示消息对象的特定类型 区域公共属性集 规范名称PidTagMessageClass 替代名称PR_MESSAGE_CLASSPR_MESSAGE_CLASS_AptagMessageClassPR_MESSAGE_CLASS_W
 type: docs
 weight: 12470
 url: /zh/net/aspose.email.mapi/knownpropertylist/messageclass/
 ---
 ## KnownPropertyList.MessageClass field
 
-表示 Message 对象的特定类型。 区域:公共属性集 规范名称:PidTagMessageClass 备用名称:PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, ptagMessageClass, PR_MESSAGE_CLASS_W,
+表示消息对象的特定类型。 区域：公共属性集 规范名称：PidTagMessageClass 替代名称：PR_MESSAGE_CLASS、PR_MESSAGE_CLASS_A、ptagMessageClass、PR_MESSAGE_CLASS_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageClass;

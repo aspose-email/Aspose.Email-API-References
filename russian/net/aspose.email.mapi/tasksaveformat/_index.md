@@ -1,14 +1,14 @@
 ---
 title: TaskSaveFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет TaskSaveFormat
+description: перечисляет TaskSaveFormat
 type: docs
-weight: 18990
+weight: 19020
 url: /ru/net/aspose.email.mapi/tasksaveformat/
 ---
 ## TaskSaveFormat enumeration
 
-Перечисляет TaskSaveFormat
+перечисляет TaskSaveFormat
 
 ```csharp
 public enum TaskSaveFormat

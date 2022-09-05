@@ -20,7 +20,7 @@ public long GetNextAvailablePropertyId(MapiPropertyType dataType)
 
 ### 返回值
 
-最近可用于添加属性映射的 id。
+最近可以用来添加属性映射的id。
 
 ### 也可以看看
 

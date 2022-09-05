@@ -1,9 +1,9 @@
 ---
 title: Preamble
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a preamble text. It is located before the first boundary and generally includes an explanatory note to nonMIME conformant readers.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.email/mailmessage/preamble/
 ---
 ## MailMessage.Preamble property

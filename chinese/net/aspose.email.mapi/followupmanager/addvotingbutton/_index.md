@@ -16,14 +16,14 @@ public static void AddVotingButton(MapiMessage message, string displayName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)添加投票按钮. |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中添加了投票按钮。 |
 | displayName | String | 按钮的显示名称。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 | ArgumentException | 如果*displayName*为空或为空。 |
 
 ### 也可以看看

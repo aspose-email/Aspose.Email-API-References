@@ -1,7 +1,7 @@
 ---
 title: MailDisablePublicFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Maildisable a public folder
 type: docs
 weight: 520
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/maildisablepublicfolderasync/

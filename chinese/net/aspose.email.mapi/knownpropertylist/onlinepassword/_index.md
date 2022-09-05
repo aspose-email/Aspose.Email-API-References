@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/onlinepassword/
 ---
 ## KnownPropertyList.OnlinePassword field
 
-指定 PidLidConferencingType 属性（第 2.66 节）值为 0x00000002 的会议的密码。 区域:会议 规范名称:PidLidOnlinePassword 备用名称:dispidOnlinePassword
+指定 PidLidConferencingType 属性（第 2.66 节）值为 0x00000002 的会议的密码。 区域：会议 规范名称：PidLidOnlinePassword 备用名称：dispidOnlinePassword
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OnlinePassword;

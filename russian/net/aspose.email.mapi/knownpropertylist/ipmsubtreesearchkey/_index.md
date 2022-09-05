@@ -1,14 +1,14 @@
 ---
 title: IpmSubtreeSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_SUBTREE_SEARCH_KEY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_SUBTREE_SEARCH_KEY
 type: docs
 weight: 11760
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmsubtreesearchkey/
 ---
 ## KnownPropertyList.IpmSubtreeSearchKey field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_SUBTREE_SEARCH_KEY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_SUBTREE_SEARCH_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmSubtreeSearchKey;

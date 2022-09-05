@@ -1,7 +1,7 @@
 ---
 title: DataType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the data type.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapiproperty/datatype/

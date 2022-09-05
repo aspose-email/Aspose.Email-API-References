@@ -1,14 +1,14 @@
 ---
 title: NoteWidth
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает ширину видимого окна сообщения в пикселях. ОбластьSticky Notes Каноническое имяPidLidNoteWidth Альтернативные именаdispidNoteWidth
+description: Указывает ширину видимого окна сообщения в пикселях. Область Sticky Notes Каноническое имя PidLidNoteWidth Альтернативные имена dispidNoteWidth
 type: docs
 weight: 13140
 url: /ru/net/aspose.email.mapi/knownpropertylist/notewidth/
 ---
 ## KnownPropertyList.NoteWidth field
 
-Задает ширину видимого окна сообщения в пикселях. Область:Sticky Notes Каноническое имя:PidLidNoteWidth Альтернативные имена:dispidNoteWidth
+Указывает ширину видимого окна сообщения в пикселях. Область: Sticky Notes Каноническое имя: PidLidNoteWidth Альтернативные имена: dispidNoteWidth
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteWidth;

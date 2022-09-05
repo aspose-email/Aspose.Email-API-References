@@ -1,14 +1,14 @@
 ---
 title: ESearchParameters
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает параметры ESEARCH Этот метод работает только если сервер поддерживает расширение ESEARCH. Подробнее https//tools.ietf.org/html/rfc4315
+description: Получает или устанавливает параметры ESEARCH Этот метод работает только если сервер поддерживает расширение ESEARCH. Пожалуйста читайте больше https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/imapquerybuilder/esearchparameters/
 ---
 ## ImapQueryBuilder.ESearchParameters property
 
-Получает или устанавливает параметры ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Подробнее https://tools.ietf.org/html/rfc4315
+Получает или устанавливает параметры ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public ESearchOptions ESearchParameters { get; set; }

@@ -17,7 +17,7 @@ public void DeleteDistributionList(ExchangeDistributionList distributionList,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)содержащий информацию о списке рассылки удалить. |
+| distributionList | ExchangeDistributionList | А[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) содержащий информацию о списке рассылки для удаления. |
 | deletePermanently | Boolean | Указывает, следует ли удалить указанный список навсегда или его следует переместить в папку DeletedItems. |
 
 ### Смотрите также

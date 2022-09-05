@@ -1,7 +1,7 @@
 ---
 title: AddressBookDistributionListExternalMemberCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the number of external recipients in the distribution list. Area Address Book Canonical name PidTagAddressBookDistributionListExternalMemberCount Alternate names PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
 type: docs
 weight: 390
 url: /net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistexternalmembercount/

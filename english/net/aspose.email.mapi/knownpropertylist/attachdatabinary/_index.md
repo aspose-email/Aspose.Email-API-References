@@ -1,7 +1,7 @@
 ---
 title: AttachDataBinary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the contents of the file to be attached. Area Message Attachment Properties Canonical name PidTagAttachDataBinary Alternate names PR_ATTACH_DATA_BIN ptagAttachDataBin
 type: docs
 weight: 1550
 url: /net/aspose.email.mapi/knownpropertylist/attachdatabinary/

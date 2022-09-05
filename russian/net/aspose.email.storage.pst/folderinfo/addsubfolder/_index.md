@@ -17,7 +17,7 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя подпапки. |
-| createHierarchy | Boolean | если установлено значение` true` , можно создать иерархию папок, используя строковую нотацию . Обратная косая черта ('\') используется как разделитель пути. |
+| createHierarchy | Boolean | если установлено`истинный`можно создать иерархию папок, используя строковую нотацию. Обратная косая черта ('\') используется как разделитель пути. |
 
 ### Возвращаемое значение
 
@@ -27,9 +27,9 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
-| ArgumentNullException | выбрасывает, если имя подпапки равно null или пусто. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
+| ArgumentNullException | бросает, если имя подпапки равно null или пусто. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Смотрите также
 
@@ -59,9 +59,9 @@ public FolderInfo AddSubFolder(string name)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
-| ArgumentNullException | выбрасывает, если имя подпапки равно null или пусто. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
+| ArgumentNullException | бросает, если имя подпапки равно null или пусто. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Смотрите также
 
@@ -92,9 +92,9 @@ public FolderInfo AddSubFolder(string name, string containerClass)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
-| ArgumentNullException | выбрасывает, если имя подпапки равно null или пусто. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
+| ArgumentNullException | бросает, если имя подпапки равно null или пусто. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: NoopAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: No operation command
 type: docs
 weight: 160
 url: /net/aspose.email.clients.smtp/smtpclient/noopasync/
 ---
-## SmtpClient.NoopAsync method (1 of 4)
+## NoopAsync(IConnection) {#noopasync_1}
 
 'No operation' command
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.NoopAsync method (2 of 4)
+## NoopAsync() {#noopasync}
 
 'No operation' command
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.NoopAsync method (3 of 4)
+## NoopAsync(IConnection, CancellationToken) {#noopasync_2}
 
 'No operation' command
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.NoopAsync method (4 of 4)
+## NoopAsync(CancellationToken) {#noopasync_3}
 
 'No operation' command
 

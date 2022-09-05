@@ -1,9 +1,9 @@
 ---
 title: InstantMessengerCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for an instant messenger address
 type: docs
-weight: 19240
+weight: 19450
 url: /net/aspose.email.personalinfo/instantmessengercategory/
 ---
 ## InstantMessengerCategory class
@@ -43,8 +43,8 @@ public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals)(InstantMessengerCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals#equals)(InstantMessengerCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
 | override [GetHashCode](../../aspose.email.personalinfo/instantmessengercategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/instantmessengercategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/instantmessengercategory/op_equality) | Determines whether the specified objects are equal. |

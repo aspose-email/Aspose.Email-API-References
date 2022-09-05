@@ -1,14 +1,14 @@
 ---
 title: LogStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC когда началось действие. ОбластьЖурнал Каноническое имяPidLidLogStart Альтернативные именаdispidLogStart
+description: Содержит время начала действия в формате UTC. Область Journal Каноническое имя PidLidLogStart Альтернативные имена dispidLogStart
 type: docs
 weight: 12280
 url: /ru/net/aspose.email.mapi/knownpropertylist/logstart/
 ---
 ## KnownPropertyList.LogStart field
 
-Содержит время в формате UTC, когда началось действие. Область:Журнал Каноническое имя:PidLidLogStart Альтернативные имена:dispidLogStart
+Содержит время начала действия в формате UTC. Область: Journal Каноническое имя: PidLidLogStart Альтернативные имена: dispidLogStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogStart;

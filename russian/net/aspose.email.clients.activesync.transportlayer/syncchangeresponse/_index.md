@@ -1,14 +1,14 @@
 ---
 title: SyncChangeResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Служит для индикации того что объект был изменен.
+description: Служит для указания того что объект был изменен.
 type: docs
 weight: 2170
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncchangeresponse/
 ---
 ## SyncChangeResponse class
 
-Служит для индикации того, что объект был изменен.
+Служит для указания того, что объект был изменен.
 
 ```csharp
 public class SyncChangeResponse : SyncOperationResponse
@@ -25,7 +25,7 @@ public class SyncChangeResponse : SyncOperationResponse
 | Имя | Описание |
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/syncchangeresponse/class) { get; set; } | Идентифицирует класс элемента, добавляемого в коллекцию. |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/status) { get; set; } | Указывает результат операции. Используется только в ответах сервера. |
 
 ### Смотрите также

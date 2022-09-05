@@ -1,7 +1,7 @@
 ---
 title: AttachmentLinkId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the type of Message object to which an attachment is linked. Area Message Attachment Properties Canonical name PidTagAttachmentLinkId Alternate names PR_ATTACHMENT_LINKID ptagAttachmentLinkId
 type: docs
 weight: 1660
 url: /net/aspose.email.mapi/knownpropertylist/attachmentlinkid/

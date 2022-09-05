@@ -3,7 +3,7 @@ title: TemplateEngine
 second_title: Справочник по Aspose.Email для .NET API
 description: Этот класс использует указанный шаблон для создания сообщений электронной почты.
 type: docs
-weight: 20550
+weight: 20600
 url: /ru/net/aspose.email.tools.merging/templateengine/
 ---
 ## TemplateEngine class
@@ -18,8 +18,8 @@ public sealed class TemplateEngine
 
 | Имя | Описание |
 | --- | --- |
-| [TemplateEngine](templateengine#constructor)(MailMessage) | Инициализирует новый экземпляр класса[`TemplateEngine`](../templateengine). |
-| [TemplateEngine](templateengine#constructor_1)(string) | Инициализирует новый экземпляр класса[`TemplateEngine`](../templateengine). |
+| [TemplateEngine](templateengine#constructor)(MailMessage) | Инициализирует новый экземпляр[`TemplateEngine`](../templateengine) класс. |
+| [TemplateEngine](templateengine#constructor_1)(string) | Инициализирует новый экземпляр[`TemplateEngine`](../templateengine) класс. |
 
 ## Методы
 
@@ -31,11 +31,11 @@ public sealed class TemplateEngine
 | [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate#instantiate_1)(DataRowCollection, IColumnMappingCollection) | Создает экземпляр шаблона с DataRowCollection в качестве источника данных. |
 | [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate#instantiate_3)(DataTable, IColumnMappingCollection) | Создает экземпляр шаблона с DataTable в качестве источника данных. |
 | [IsRoutineRegistered](../../aspose.email.tools.merging/templateengine/isroutineregistered)(string) | Определяет, зарегистрировано ли имя подпрограммы шаблона в механизме шаблонов. |
-| [Merge](../../aspose.email.tools.merging/templateengine/merge#merge_1)(DataRow) | Объедините исходную строку данных с шаблоном. |
-| [Merge](../../aspose.email.tools.merging/templateengine/merge#merge)(MailMessage) | Объединить исходное MailMessage с шаблоном |
+| [Merge](../../aspose.email.tools.merging/templateengine/merge#merge_1)(DataRow) | Объединить исходную строку данных с шаблоном. |
+| [Merge](../../aspose.email.tools.merging/templateengine/merge#merge)(MailMessage) | Объединить исходное MailMessage с template |
 | [RegisterRoutine](../../aspose.email.tools.merging/templateengine/registerroutine)(string, TemplateRoutine) | Регистрирует подпрограмму шаблона в механизме шаблонов. |
 | [Reset](../../aspose.email.tools.merging/templateengine/reset)() | Сбрасывает этот экземпляр. |
-| [UnregisterRoutine](../../aspose.email.tools.merging/templateengine/unregisterroutine)(string) | Отмените регистрацию подпрограммы шаблона в механизме шаблонов по имени. |
+| [UnregisterRoutine](../../aspose.email.tools.merging/templateengine/unregisterroutine)(string) | Отменить регистрацию процедуры шаблона в механизме шаблонов по имени. |
 
 ### Смотрите также
 

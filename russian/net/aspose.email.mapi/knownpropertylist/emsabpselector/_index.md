@@ -1,14 +1,14 @@
 ---
 title: EmsAbPSelector
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_P_SELECTOR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_P_SELECTOR
 type: docs
 weight: 8220
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabpselector/
 ---
 ## KnownPropertyList.EmsAbPSelector field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_P_SELECTOR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_P_SELECTOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPSelector;

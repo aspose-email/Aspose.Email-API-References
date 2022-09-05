@@ -16,7 +16,7 @@ public ByNumberCollection ByYearDay { get; }
 
 ### Стоимость имущества
 
-Годовой день.
+День года.
 
 ### Смотрите также
 

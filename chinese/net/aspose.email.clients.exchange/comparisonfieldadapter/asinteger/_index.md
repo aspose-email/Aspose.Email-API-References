@@ -1,14 +1,14 @@
 ---
 title: AsInteger
 second_title: Aspose.Email for .NET API 参考
-description: 返回当前ComparisonFieldaspose.email.tools.search/comparisonfield为LongComparisonField
+description: 返回当前ComparisonFieldaspose.email.tools.search/comparisonfield作为LongComparisonFieldaspose.email.tools.search/longcomparisonfield
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/comparisonfieldadapter/asinteger/
 ---
 ## ComparisonFieldAdapter.AsInteger property
 
-返回当前[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)为LongComparisonField
+返回当前[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)作为[`LongComparisonField`](../../../aspose.email.tools.search/longcomparisonfield)
 
 ```csharp
 public LongComparisonField AsInteger { get; }

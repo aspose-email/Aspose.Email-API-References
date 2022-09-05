@@ -1,14 +1,14 @@
 ---
 title: SentMailSvrEID
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID представляющий папку Отправленные для сообщения. ОбластьProviderDefinedNonTransmittable Каноническое имяPidTagSentMailSvrEID Альтернативные именаptagSentMailSvrEID
+description: Содержит EntryID который представляет папку Отправленные для сообщения.
 type: docs
 weight: 17210
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentmailsvreid/
 ---
 ## KnownPropertyList.SentMailSvrEID field
 
-Содержит EntryID, представляющий папку "Отправленные" для сообщения. Область:ProviderDefinedNonTransmittable Каноническое имя:PidTagSentMailSvrEID Альтернативные имена:ptagSentMailSvrEID
+Содержит EntryID, который представляет папку «Отправленные» для сообщения.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentMailSvrEID;

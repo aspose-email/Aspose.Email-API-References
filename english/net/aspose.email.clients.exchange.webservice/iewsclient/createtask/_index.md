@@ -1,12 +1,12 @@
 ---
 title: CreateTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the given task in the default task folder.
 type: docs
 weight: 550
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createtask/
 ---
-## IEWSClient.CreateTask method (1 of 2)
+## CreateTask(ExchangeTask) {#createtask}
 
 Creates the given task in the default task folder.
 
@@ -37,7 +37,7 @@ A task uri
 
 ---
 
-## IEWSClient.CreateTask method (2 of 2)
+## CreateTask(string, ExchangeTask) {#createtask_2}
 
 Creates the given task in the specified folder.
 

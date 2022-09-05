@@ -1,7 +1,7 @@
 ---
 title: GlobalItemIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the collection of item identifiers for all conversation items in a mailbox.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalitemids/

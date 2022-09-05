@@ -1,14 +1,14 @@
 ---
 title: VCardPhoto
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardPhotoaspose.email.personalinfo.vcard/vcardphoto 类的新实例
+description: 初始化VCardPhotoaspose.email.personalinfo.vcard/vcardphoto class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardphoto/vcardphoto/
 ---
 ## VCardPhoto constructor
 
-初始化 [`VCardPhoto`](../../vcardphoto) 类的新实例
+初始化[`VCardPhoto`](../../vcardphoto) class
 
 ```csharp
 public VCardPhoto()

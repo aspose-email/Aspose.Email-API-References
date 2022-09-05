@@ -1,14 +1,14 @@
 ---
 title: CreateCalendarSharingInvitationMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Создать приглашение на совместное использование календаря.
+description: Создать сообщение с приглашением к совместному использованию календаря.
 type: docs
 weight: 470
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/createcalendarsharinginvitationmessage/
 ---
 ## IEWSClient.CreateCalendarSharingInvitationMessage method
 
-Создать приглашение на совместное использование календаря.
+Создать сообщение с приглашением к совместному использованию календаря.
 
 ```csharp
 public MapiMessage CreateCalendarSharingInvitationMessage(string recipient)
@@ -20,7 +20,7 @@ public MapiMessage CreateCalendarSharingInvitationMessage(string recipient)
 
 ### Возвращаемое значение
 
-A[`MapiMessage`](../../../aspose.email.mapi/mapimessage)которое представляет сообщение с приглашением к совместному использованию.
+А[`MapiMessage`](../../../aspose.email.mapi/mapimessage) который представляет сообщение с приглашением к совместному использованию.
 
 ### Смотрите также
 

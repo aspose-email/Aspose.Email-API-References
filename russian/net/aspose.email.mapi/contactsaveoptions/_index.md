@@ -1,14 +1,14 @@
 ---
 title: ContactSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет параметры сохранения базовых контактов
+description: Представляет базовые параметры сохранения контактов
 type: docs
 weight: 17780
 url: /ru/net/aspose.email.mapi/contactsaveoptions/
 ---
 ## ContactSaveOptions class
 
-Представляет параметры сохранения базовых контактов
+Представляет базовые параметры сохранения контактов
 
 ```csharp
 public abstract class ContactSaveOptions

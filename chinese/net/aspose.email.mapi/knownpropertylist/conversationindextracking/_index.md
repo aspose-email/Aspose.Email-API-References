@@ -1,14 +1,14 @@
 ---
 title: ConversationIndexTracking
 second_title: Aspose.Email for .NET API 参考
-description: 指示 PidTagConversationIndex 属性第 2.641 节的 GUID 部分是否用于计算 PidTagConversationId 属性第 2.640 节 区域对话 规范名称PidTagConversationIndexTracking 替代名称PR_CONVERSATION_INDEX_TRACKING
+description: 指示是否使用 PidTagConversationIndex 属性第 2.641 节的 GUID 部分来计算 PidTagConversationId 属性第 2.640 节 区域Conversations 规范名称PidTagConversationIndexTracking 替代名称PR_CONVERSATION_INDEX_TRACKING
 type: docs
 weight: 3410
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationindextracking/
 ---
 ## KnownPropertyList.ConversationIndexTracking field
 
-指示 PidTagConversationIndex 属性（第 2.641 节）的 GUID 部分是否用于计算 PidTagConversationId 属性（第 2.640 节）。 区域:对话 规范名称:PidTagConversationIndexTracking 替代名称:PR_CONVERSATION_INDEX_TRACKING
+指示是否使用 PidTagConversationIndex 属性（第 2.641 节）的 GUID 部分来计算 PidTagConversationId 属性（第 2.640 节）。 区域：Conversations 规范名称：PidTagConversationIndexTracking 替代名称：PR_CONVERSATION_INDEX_TRACKING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationIndexTracking;

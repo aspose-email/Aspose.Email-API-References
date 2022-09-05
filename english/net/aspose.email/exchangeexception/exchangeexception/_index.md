@@ -1,12 +1,12 @@
 ---
 title: ExchangeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeExceptionaspose.email/exchangeexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/exchangeexception/exchangeexception/
 ---
-## ExchangeException constructor (1 of 4)
+## ExchangeException() {#constructor}
 
 Initializes a new instance of the [`ExchangeException`](../../exchangeexception) class.
 
@@ -22,7 +22,7 @@ public ExchangeException()
 
 ---
 
-## ExchangeException constructor (2 of 4)
+## ExchangeException(string) {#constructor_1}
 
 Initializes a new instance of the [`ExchangeException`](../../exchangeexception) class.
 
@@ -42,7 +42,7 @@ public ExchangeException(string message)
 
 ---
 
-## ExchangeException constructor (3 of 4)
+## ExchangeException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the [`ExchangeException`](../../exchangeexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public ExchangeException(string format, params object[] parameters)
 
 ---
 
-## ExchangeException constructor (4 of 4)
+## ExchangeException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`ExchangeException`](../../exchangeexception) class.
 

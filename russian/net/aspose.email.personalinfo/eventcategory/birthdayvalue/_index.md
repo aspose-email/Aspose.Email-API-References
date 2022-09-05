@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/eventcategory/birthdayvalue/
 ---
 ## EventCategory.BirthdayValue field
 
-Строковое значение для категории "День рождения"
+Строковое значение для категории «День рождения»
 
 ```csharp
 public const string BirthdayValue;

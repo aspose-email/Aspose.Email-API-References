@@ -1,14 +1,14 @@
 ---
 title: SetQueryString
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает строку запроса для поиска контактов в глобальном списке адресов GAL.
+description: Устанавливает строку запроса для поиска контактов в глобальном списке адресов GAL.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setquerystring/
 ---
 ## EwsFindPeople.SetQueryString method
 
-Задает строку запроса для поиска контактов в глобальном списке адресов (GAL).
+Устанавливает строку запроса для поиска контактов в глобальном списке адресов (GAL).
 
 ```csharp
 public EwsFindPeople SetQueryString(string queryString)

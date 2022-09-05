@@ -1,14 +1,14 @@
 ---
 title: SearchFolderTemplateId
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于搜索的模板的 ID 区域搜索 规范名称PidTagSearchFolderTemplateId 替代名称PR_WB_SF_TEMPLATE_ID
+description: 包含用于搜索的模板的 ID 区域Search 规范名称PidTagSearchFolderTemplateId 替代名称PR_WB_SF_TEMPLATE_ID
 type: docs
 weight: 17020
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfoldertemplateid/
 ---
 ## KnownPropertyList.SearchFolderTemplateId field
 
-包含用于搜索的模板的 ID。 区域:搜索 规范名称:PidTagSearchFolderTemplateId 替代名称:PR_WB_SF_TEMPLATE_ID
+包含用于搜索的模板的 ID。 区域：Search 规范名称：PidTagSearchFolderTemplateId 替代名称：PR_WB_SF_TEMPLATE_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderTemplateId;

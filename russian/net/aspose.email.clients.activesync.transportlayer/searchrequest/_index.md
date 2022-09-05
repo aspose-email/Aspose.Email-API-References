@@ -1,14 +1,14 @@
 ---
 title: SearchRequest
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию поискового запроса
+description: Содержит информацию о поисковом запросе
 type: docs
 weight: 1970
 url: /ru/net/aspose.email.clients.activesync.transportlayer/searchrequest/
 ---
 ## SearchRequest class
 
-Содержит информацию поискового запроса
+Содержит информацию о поисковом запросе
 
 ```csharp
 public class SearchRequest

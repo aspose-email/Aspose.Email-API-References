@@ -1,14 +1,14 @@
 ---
 title: InstantMessengerCategory
 second_title: Aspose.Email for .NET API 参考
-description: 表示即时通讯地址的类别
+description: 代表即时通讯地址的类别
 type: docs
-weight: 19410
+weight: 19440
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/
 ---
 ## InstantMessengerCategory class
 
-表示即时通讯地址的类别
+代表即时通讯地址的类别
 
 ```csharp
 public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
@@ -18,20 +18,20 @@ public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InstantMessengerCategory](instantmessengercategory)(string) | 使用“自定义”类别初始化[`InstantMessengerCategory`](../instantmessengercategory)类的新实例。 |
+| [InstantMessengerCategory](instantmessengercategory)(string) | 初始化[`InstantMessengerCategory`](../instantmessengercategory)具有“自定义”类别的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | static [AIM](../../aspose.email.personalinfo/instantmessengercategory/aim) { get; } | AIM |
-| static [Custom](../../aspose.email.personalinfo/instantmessengercategory/custom) { get; } | 自定义信使种类 |
-| static [GoogleTalk](../../aspose.email.personalinfo/instantmessengercategory/googletalk) { get; } | Google Talk |
+| static [Custom](../../aspose.email.personalinfo/instantmessengercategory/custom) { get; } | 自定义信使 kind |
+| static [GoogleTalk](../../aspose.email.personalinfo/instantmessengercategory/googletalk) { get; } | 谷歌谈话 |
 | static [ICQ](../../aspose.email.personalinfo/instantmessengercategory/icq) { get; } | ICQ |
-| static [ImAddress1](../../aspose.email.personalinfo/instantmessengercategory/imaddress1) { get; } | ImAddress1 信使种类 |
-| static [ImAddress2](../../aspose.email.personalinfo/instantmessengercategory/imaddress2) { get; } | ImAddress2 信使种类 |
-| static [ImAddress3](../../aspose.email.personalinfo/instantmessengercategory/imaddress3) { get; } | ImAddress3 信使种类 |
-| static [Jabber](../../aspose.email.personalinfo/instantmessengercategory/jabber) { get; } | Jabber |
+| static [ImAddress1](../../aspose.email.personalinfo/instantmessengercategory/imaddress1) { get; } | ImAddress1 信使 kind |
+| static [ImAddress2](../../aspose.email.personalinfo/instantmessengercategory/imaddress2) { get; } | ImAddress2 信使 kind |
+| static [ImAddress3](../../aspose.email.personalinfo/instantmessengercategory/imaddress3) { get; } | ImAddress3 信使 kind |
+| static [Jabber](../../aspose.email.personalinfo/instantmessengercategory/jabber) { get; } | 胡言乱语 |
 | static [MSN](../../aspose.email.personalinfo/instantmessengercategory/msn) { get; } | MSN |
 | static [QQ](../../aspose.email.personalinfo/instantmessengercategory/qq) { get; } | QQ |
 | static [Skype](../../aspose.email.personalinfo/instantmessengercategory/skype) { get; } | Skype |
@@ -43,29 +43,29 @@ public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals#equals)(InstantMessengerCategory) | 判断指定对象是否等于当前对象。 |
+| virtual [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals#equals)(InstantMessengerCategory) | 判断指定对象是否等于当前对象 |
 | override [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals#equals_1)(object) | 判断指定Object是否等于当前Object。 |
 | override [GetHashCode](../../aspose.email.personalinfo/instantmessengercategory/gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/instantmessengercategory/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/instantmessengercategory/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/instantmessengercategory/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/instantmessengercategory/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/instantmessengercategory/op_inequality) | 判断指定的对象是否不相等。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [AIMValue](../../aspose.email.personalinfo/instantmessengercategory/aimvalue) | 'AIM' 类别的字符串值 |
+| const [AIMValue](../../aspose.email.personalinfo/instantmessengercategory/aimvalue) | “AIM”类别的字符串值 |
 | const [CustomValue](../../aspose.email.personalinfo/instantmessengercategory/customvalue) | “自定义”类别的字符串值 |
-| const [GoogleTalkValue](../../aspose.email.personalinfo/instantmessengercategory/googletalkvalue) | 'GoogleTalk' 类别的字符串值 |
-| const [ICQValue](../../aspose.email.personalinfo/instantmessengercategory/icqvalue) | 'MSN' 类别的字符串值 |
-| const [ImAddress1Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress1value) | 'ImAddress1' 类别的字符串值 |
-| const [ImAddress2Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress2value) | 'ImAddress2' 类别的字符串值 |
-| const [ImAddress3Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress3value) | 'ImAddress3' 类别的字符串值 |
-| const [JabberValue](../../aspose.email.personalinfo/instantmessengercategory/jabbervalue) | 'Jabber' 类别的字符串值 |
+| const [GoogleTalkValue](../../aspose.email.personalinfo/instantmessengercategory/googletalkvalue) | “GoogleTalk”类别的字符串值 |
+| const [ICQValue](../../aspose.email.personalinfo/instantmessengercategory/icqvalue) | “MSN”类别的字符串值 |
+| const [ImAddress1Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress1value) | “ImAddress1”类别的字符串值 |
+| const [ImAddress2Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress2value) | “ImAddress2”类别的字符串值 |
+| const [ImAddress3Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress3value) | “ImAddress3”类别的字符串值 |
+| const [JabberValue](../../aspose.email.personalinfo/instantmessengercategory/jabbervalue) | “Jabber”类别的字符串值 |
 | const [MSNValue](../../aspose.email.personalinfo/instantmessengercategory/msnvalue) | '' 类别的字符串值 |
 | const [QQValue](../../aspose.email.personalinfo/instantmessengercategory/qqvalue) | 'QQ' 类别的字符串值 |
-| const [SkypeValue](../../aspose.email.personalinfo/instantmessengercategory/skypevalue) | 'Skype' 类别的字符串值 |
-| const [YahooValue](../../aspose.email.personalinfo/instantmessengercategory/yahoovalue) | 'Yahoo' 类别的字符串值 |
+| const [SkypeValue](../../aspose.email.personalinfo/instantmessengercategory/skypevalue) | “Skype”类别的字符串值 |
+| const [YahooValue](../../aspose.email.personalinfo/instantmessengercategory/yahoovalue) | “雅虎”类别的字符串值 |
 
 ### 也可以看看
 

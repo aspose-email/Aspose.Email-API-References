@@ -1,14 +1,14 @@
 ---
 title: CorrelateMtsid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CORRELATE_MTSID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CORRELATE_MTSID
 type: docs
 weight: 3500
 url: /ru/net/aspose.email.mapi/knownpropertylist/correlatemtsid/
 ---
 ## KnownPropertyList.CorrelateMtsid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CORRELATE_MTSID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CORRELATE_MTSID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CorrelateMtsid;

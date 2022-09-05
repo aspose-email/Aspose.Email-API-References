@@ -1,14 +1,14 @@
 ---
 title: DefaultEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 获取查询生成器的默认编码字符集
+description: 获取查询 builder 的默认编码字符集
 type: docs
 weight: 50
 url: /zh/net/aspose.email.tools.search/mailquerybuilder/defaultencoding/
 ---
 ## MailQueryBuilder.DefaultEncoding property
 
-获取查询生成器的默认编码（字符集）
+获取查询 builder 的默认编码（字符集）
 
 ```csharp
 public Encoding DefaultEncoding { get; }

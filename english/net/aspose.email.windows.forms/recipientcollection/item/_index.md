@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns the recipient stored in this collection at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/recipientcollection/item/

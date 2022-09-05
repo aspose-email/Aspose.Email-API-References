@@ -1,14 +1,14 @@
 ---
 title: AppointmentMsgSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 MsgSaveOptionsaspose.email/msgsaveoptions 班级
+description: 初始化MsgSaveOptionsaspose.email/msgsaveoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/appointmentmsgsaveoptions/appointmentmsgsaveoptions/
 ---
 ## AppointmentMsgSaveOptions constructor
 
-初始化一个新的实例 [`MsgSaveOptions`](../../../aspose.email/msgsaveoptions) 班级
+初始化[`MsgSaveOptions`](../../../aspose.email/msgsaveoptions) class
 
 ```csharp
 public AppointmentMsgSaveOptions()

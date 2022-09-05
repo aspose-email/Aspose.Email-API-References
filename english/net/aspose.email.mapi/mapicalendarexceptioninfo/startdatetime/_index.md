@@ -1,7 +1,7 @@
 ---
 title: StartDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start date.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/startdatetime/

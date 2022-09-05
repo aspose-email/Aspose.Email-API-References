@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AsposeInvalidOperationExceptionaspose.email/asposeinvalidoperationexception类的新实例
+description: 初始化AsposeInvalidOperationExceptionaspose.email/asposeinvalidoperationexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/asposeinvalidoperationexception/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException() {#constructor}
 
-初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)类的新实例。
+初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)类.
 
 ```csharp
 public AsposeInvalidOperationException()
@@ -24,7 +24,7 @@ public AsposeInvalidOperationException()
 
 ## AsposeInvalidOperationException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)类的新实例。
+初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeInvalidOperationException(string message)
@@ -58,7 +58,7 @@ public AsposeInvalidOperationException(string format, string parameter)
 
 ## AsposeInvalidOperationException(string, params object[]) {#constructor_3}
 
-使用指定的错误消息初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)类的新实例。
+初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeInvalidOperationException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeInvalidOperationException(string format, params object[] parameters
 
 ## AsposeInvalidOperationException(string, Exception) {#constructor_2}
 
-使用指定的错误消息初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)类的新实例。
+初始化[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeInvalidOperationException(string message, Exception inner)

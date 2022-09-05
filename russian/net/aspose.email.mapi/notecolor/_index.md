@@ -3,7 +3,7 @@ title: NoteColor
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет предлагаемый цвет фона объекта Note
 type: docs
-weight: 18900
+weight: 18930
 url: /ru/net/aspose.email.mapi/notecolor/
 ---
 ## NoteColor enumeration

@@ -1,14 +1,14 @@
 ---
 title: GetSettings
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает словарь настроек
+description: Получить словарь настроек
 type: docs
 weight: 230
 url: /ru/net/aspose.email.clients.google/igmailclient/getsettings/
 ---
 ## IGmailClient.GetSettings method
 
-Получает словарь настроек
+Получить словарь настроек
 
 ```csharp
 public Dictionary<string, string> GetSettings()

@@ -1,14 +1,14 @@
 ---
 title: LongId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает длинный идентификатор исходного сообщения возвращаемый командой поиска. Если присутствует LongId FolderId ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов.
+description: Указывает длинный идентификатор исходного сообщения который возвращается в команде поиска. Если присутствует LongId FolderId ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/smartrequestsource/longid/
 ---
 ## SmartRequestSource.LongId property
 
-Задает длинный идентификатор исходного сообщения, возвращаемый командой поиска. Если присутствует LongId, FolderId, ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов.
+Указывает длинный идентификатор исходного сообщения, который возвращается в команде поиска. Если присутствует LongId, FolderId, ItemId и InstanceId отсутствуют. Значение LongId может иметь длину до 256 символов.
 
 ```csharp
 public string LongId { get; set; }

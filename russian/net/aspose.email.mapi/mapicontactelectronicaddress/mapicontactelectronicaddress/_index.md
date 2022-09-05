@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress.
+description: Инициализирует новый экземплярMapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
+Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) класс.
 
 ```csharp
 public MapiContactElectronicAddress()
@@ -24,7 +24,7 @@ public MapiContactElectronicAddress()
 
 ## MapiContactElectronicAddress(string, string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
+Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) класс.
 
 ```csharp
 public MapiContactElectronicAddress(string displayName, string addressType, string emailAddress)
@@ -46,7 +46,7 @@ public MapiContactElectronicAddress(string displayName, string addressType, stri
 
 ## MapiContactElectronicAddress(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
+Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) класс.
 
 ```csharp
 public MapiContactElectronicAddress(string emailAddress)
@@ -66,7 +66,7 @@ public MapiContactElectronicAddress(string emailAddress)
 
 ## MapiContactElectronicAddress(string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
+Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) класс.
 
 ```csharp
 public MapiContactElectronicAddress(string faxNumber, string emailAddress)

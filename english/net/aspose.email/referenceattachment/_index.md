@@ -1,9 +1,9 @@
 ---
 title: ReferenceAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This class represents a reference attachment
 type: docs
-weight: 19710
+weight: 19940
 url: /net/aspose.email/referenceattachment/
 ---
 ## ReferenceAttachment class
@@ -18,9 +18,9 @@ public class ReferenceAttachment : Attachment
 
 | Name | Description |
 | --- | --- |
-| [ReferenceAttachment](referenceattachment)() | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
-| [ReferenceAttachment](referenceattachment)(string) | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
-| [ReferenceAttachment](referenceattachment)(Uri) | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor)() | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor_1)(string) | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor_2)(Uri) | Initializes a new instance of [`ReferenceAttachment`](../referenceattachment). |
 
 ## Properties
 

@@ -16,7 +16,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -44,9 +44,9 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, вложения не должны загружаться. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 
 ### Возвращаемое значение
 
@@ -64,7 +64,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 ## FetchMessageAsync(int) {#fetchmessageasync_6}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
@@ -89,7 +89,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
 
 ## FetchMessageAsync(int, bool) {#fetchmessageasync_7}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment)
@@ -98,7 +98,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 
 ### Возвращаемое значение
 
@@ -123,7 +123,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -176,7 +176,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -205,9 +205,9 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, вложения не должны загружаться. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -226,7 +226,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 
 ## FetchMessageAsync(int, CancellationToken) {#fetchmessageasync_9}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken token)
@@ -252,7 +252,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 
 ## FetchMessageAsync(int, bool, CancellationToken) {#fetchmessageasync_8}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment, 
@@ -262,7 +262,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -289,7 +289,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

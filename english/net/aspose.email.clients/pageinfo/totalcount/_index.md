@@ -1,7 +1,7 @@
 ---
 title: TotalCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets total count of items in view
 type: docs
 weight: 70
 url: /net/aspose.email.clients/pageinfo/totalcount/

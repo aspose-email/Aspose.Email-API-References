@@ -1,7 +1,7 @@
 ---
 title: GetUsersSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the specified settings for a set of users.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/autodiscoverservice/getuserssettings/

@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя конечного пользователя который представлен владельцем отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSentRepresentingName Альтернативные именаPR_SENT_REPRESENTING_NAME PR_SENT_REPRESENTING_NAME_A
+description: Содержит отображаемое имя конечного пользователя представленного владельцем отправляющего почтового ящика. Область Свойства адреса Каноническое имя PidTagSentRepresentingName Альтернативные имена PR_SENT_REPRESENTING_NAME PR_SENT_REPRESENTING_NAME_A
 type: docs
 weight: 17260
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingname/
 ---
 ## KnownPropertyList.SentRepresentingName field
 
-Содержит отображаемое имя конечного пользователя, который представлен владельцем отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSentRepresentingName Альтернативные имена:PR_SENT_REPRESENTING_NAME, PR_SENT_REPRESENTING_NAME_A,
+Содержит отображаемое имя конечного пользователя, представленного владельцем отправляющего почтового ящика. Область: Свойства адреса Каноническое имя: PidTagSentRepresentingName Альтернативные имена: PR_SENT_REPRESENTING_NAME, PR_SENT_REPRESENTING_NAME_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingName;

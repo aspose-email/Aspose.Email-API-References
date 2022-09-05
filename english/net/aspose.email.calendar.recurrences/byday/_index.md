@@ -1,7 +1,7 @@
 ---
 title: ByDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents Nth occurrence or all occurrences of the specified day of the week.
 type: docs
 weight: 640
 url: /net/aspose.email.calendar.recurrences/byday/
@@ -18,8 +18,8 @@ public class ByDay
 
 | Name | Description |
 | --- | --- |
-| [ByDay](byday)(DayOfWeek) | Initializes a new instance of ByDay class. |
-| [ByDay](byday)(int, DayOfWeek) | Initializes a new instance of ByDay class. |
+| [ByDay](byday#constructor_1)(DayOfWeek) | Initializes a new instance of ByDay class. |
+| [ByDay](byday#constructor)(int, DayOfWeek) | Initializes a new instance of ByDay class. |
 
 ## Properties
 

@@ -1,14 +1,14 @@
 ---
 title: ContainsHeaderStrings
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает строки которые появляются в заголовках входящих сообщений чтобы применить условие или исключение.
+description: Получает или задает строки которые появляются в заголовках входящих сообщений для применения условия или исключения.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/containsheaderstrings/
 ---
 ## RulePredicates.ContainsHeaderStrings property
 
-Получает или задает строки, которые появляются в заголовках входящих сообщений, чтобы применить условие или исключение.
+Получает или задает строки, которые появляются в заголовках входящих сообщений для применения условия или исключения.
 
 ```csharp
 public StringCollection ContainsHeaderStrings { get; set; }

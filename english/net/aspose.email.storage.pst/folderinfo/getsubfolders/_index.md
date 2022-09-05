@@ -1,12 +1,12 @@
 ---
 title: GetSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of subfolders.
 type: docs
 weight: 300
 url: /net/aspose.email.storage.pst/folderinfo/getsubfolders/
 ---
-## FolderInfo.GetSubFolders method (1 of 3)
+## GetSubFolders() {#getsubfolders}
 
 Gets collection of subfolders.
 
@@ -27,7 +27,7 @@ The FolderInfo collection.
 
 ---
 
-## FolderInfo.GetSubFolders method (2 of 3)
+## GetSubFolders(FolderKind) {#getsubfolders_1}
 
 Gets collection of subfolders.
 
@@ -53,7 +53,7 @@ The FolderInfo collection.
 
 ---
 
-## FolderInfo.GetSubFolders method (3 of 3)
+## GetSubFolders(MailQuery) {#getsubfolders_2}
 
 Gets collection of subfolders.
 

@@ -16,8 +16,8 @@ public PingParameter(string serverId, FolderClass fClass)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| serverId | String | Id 元素是 Ping 命令请求 中 Folder 元素的必需子元素，它指定要监控的文件夹的服务器ID。 |
-| fClass | FolderClass | Class 元素是 Ping 命令请求 中 Folder 元素的必需子元素，它指定要监视的文件夹的内容类。 |
+| serverId | String | Id 元素是 Ping 命令请求 中的 Folder 元素的必需子元素，它指定要监视的文件夹的服务器 ID。 |
+| fClass | FolderClass | Class 元素是Ping 命令请求 中Folder 元素的必需子元素，它指定要监视的文件夹的内容类。 |
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public sealed class ExchangeUserWorkingHours
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeUserWorkingHours](exchangeuserworkinghours)() | 初始化[`ExchangeUserWorkingHours`](../exchangeuserworkinghours)类的新实例。 |
+| [ExchangeUserWorkingHours](exchangeuserworkinghours)() | 初始化[`ExchangeUserWorkingHours`](../exchangeuserworkinghours)类. |
 
 ## 特性
 

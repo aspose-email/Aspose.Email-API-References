@@ -3,7 +3,7 @@ title: OriginalMessageAdditionMode
 second_title: Справочник по Aspose.Email для .NET API
 description: Способ включения исходного сообщения в ответное сообщение.
 type: docs
-weight: 20570
+weight: 20620
 url: /ru/net/aspose.email.tools/originalmessageadditionmode/
 ---
 ## OriginalMessageAdditionMode enumeration
@@ -19,7 +19,7 @@ public enum OriginalMessageAdditionMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Исходное сообщение не включается в ответное сообщение. |
-| Attachment | `1` | Исходное сообщение включается как вложение в ответное сообщение. |
+| Attachment | `1` | Исходное сообщение включено в качестве вложения в ответное сообщение. |
 | Textpart | `2` | Исходное сообщение включается как текст в тело ответного сообщения. |
 
 ### Смотрите также

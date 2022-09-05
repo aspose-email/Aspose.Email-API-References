@@ -1,14 +1,14 @@
 ---
 title: Webhook
 second_title: Справочник по Aspose.Email для .NET API
-description: Объект содержит информацию о вебхуке
+description: Объект содержит информацию о webhook
 type: docs
 weight: 2820
 url: /ru/net/aspose.email.clients.activity/webhook/
 ---
 ## Webhook class
 
-Объект содержит информацию о вебхуке
+Объект содержит информацию о webhook
 
 ```csharp
 public class Webhook
@@ -25,8 +25,8 @@ public class Webhook
 | Имя | Описание |
 | --- | --- |
 | [Address](../../aspose.email.clients.activity/webhook/address) { get; set; } | Получает или устанавливает адрес веб-перехватчика |
-| [AuthId](../../aspose.email.clients.activity/webhook/authid) { get; set; } | Получает или устанавливает идентификатор аутентификации |
-| [Expiration](../../aspose.email.clients.activity/webhook/expiration) { get; set; } | Получает или устанавливает срок действия |
+| [AuthId](../../aspose.email.clients.activity/webhook/authid) { get; set; } | Получает или задает идентификатор проверки подлинности |
+| [Expiration](../../aspose.email.clients.activity/webhook/expiration) { get; set; } | Получает или задает дату истечения срока действия |
 | [Status](../../aspose.email.clients.activity/webhook/status) { get; set; } | Получает или устанавливает статус веб-перехватчика |
 
 ### Смотрите также

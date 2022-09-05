@@ -1,12 +1,12 @@
 ---
 title: IntroduceClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Introduces client information to a server.
 type: docs
 weight: 790
 url: /net/aspose.email.clients.imap/imapclient/introduceclient/
 ---
-## ImapClient.IntroduceClient method (1 of 4)
+## IntroduceClient() {#introduceclient}
 
 Introduces client information to a server.
 
@@ -27,7 +27,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (2 of 4)
+## IntroduceClient(IConnection) {#introduceclient_1}
 
 Introduces client information to a server.
 
@@ -53,7 +53,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (3 of 4)
+## IntroduceClient(ImapIdentificationInfo) {#introduceclient_3}
 
 Introduces client information to a server.
 
@@ -78,7 +78,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (4 of 4)
+## IntroduceClient(IConnection, ImapIdentificationInfo) {#introduceclient_2}
 
 Introduces client information to a server.
 

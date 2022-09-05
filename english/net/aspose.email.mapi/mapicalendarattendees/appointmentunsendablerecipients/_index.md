@@ -1,7 +1,7 @@
 ---
 title: AppointmentUnsendableRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a list of unsendable attendees.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendarattendees/appointmentunsendablerecipients/

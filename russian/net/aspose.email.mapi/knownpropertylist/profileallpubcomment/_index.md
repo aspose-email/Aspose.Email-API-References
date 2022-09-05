@@ -1,14 +1,14 @@
 ---
 title: ProfileAllpubComment
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_ALLPUB_COMMENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_ALLPUB_COMMENT
 type: docs
 weight: 14670
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileallpubcomment/
 ---
 ## KnownPropertyList.ProfileAllpubComment field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_ALLPUB_COMMENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_ALLPUB_COMMENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileAllpubComment;

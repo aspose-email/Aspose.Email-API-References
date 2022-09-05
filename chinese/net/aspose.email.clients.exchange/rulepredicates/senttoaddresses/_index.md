@@ -1,14 +1,14 @@
 ---
 title: SentToAddresses
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置传入消息必须发送到的电子邮件地址以便条件或例外适用
+description: 获取或设置传入消息必须发送到的电子邮件地址以便条件或异常适用
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/senttoaddresses/
 ---
 ## RulePredicates.SentToAddresses property
 
-获取或设置传入消息必须发送到的电子邮件地址，以便条件或例外适用。
+获取或设置传入消息必须发送到的电子邮件地址，以便条件或异常适用。
 
 ```csharp
 public MailAddressCollection SentToAddresses { get; set; }

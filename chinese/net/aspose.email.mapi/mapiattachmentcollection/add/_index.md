@@ -16,14 +16,14 @@ public void Add(string name, MapiMessage msg)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 附件名称。 |
-| msg | MapiMessage | [`MapiMessage`](../../mapimessage)表示附加消息。 |
+| name | String | 附件的名称。 |
+| msg | MapiMessage | 这[`MapiMessage`](../../mapimessage)表示附加的消息。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果消息为空，则抛出 。 |
+| ArgumentNullException | 如果消息为空则抛出。 |
 
 ### 也可以看看
 
@@ -44,15 +44,15 @@ public void Add(string name, byte[] data)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 附件名称。 |
+| name | String | 附件的名称。 |
 | data | Byte[] | 附件数据。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果附件名称为空或为空，则抛出 。 |
-| ArgumentNullException | 如果附件数据为空，则抛出 。 |
+| ArgumentNullException | 如果附件名称为空或为空，则抛出。 |
+| ArgumentNullException | 如果附件数据为空，则抛出。 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public void Add(string name, byte[] data)
 
 ## Add(MapiAttachment) {#add}
 
-将对象添加到Collection的末尾。
+在末尾添加一个对象Collection.
 
 ```csharp
 public void Add(MapiAttachment item)
@@ -72,7 +72,7 @@ public void Add(MapiAttachment item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | MapiAttachment | 要添加到Collection末尾的对象。对于引用类型，该值可以为 null。 |
+| item | MapiAttachment | 要添加到末尾的对象Collection.对于引用类型，该值可以为 null。 |
 
 ### 也可以看看
 

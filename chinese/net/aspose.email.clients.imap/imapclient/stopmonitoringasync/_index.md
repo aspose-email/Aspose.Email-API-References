@@ -16,11 +16,11 @@ public Task StopMonitoringAsync(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 指定文件夹用于监控操作 |
+| folderName | String | 监控操作的指定文件夹 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -40,7 +40,7 @@ public Task StopMonitoringAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GoogleTalk
 second_title: Aspose.Email for .NET API 参考
-description: Google Talk
+description: 谷歌谈话
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/googletalk/
 ---
 ## InstantMessengerCategory.GoogleTalk property
 
-Google Talk
+谷歌谈话
 
 ```csharp
 public static InstantMessengerCategory GoogleTalk { get; }

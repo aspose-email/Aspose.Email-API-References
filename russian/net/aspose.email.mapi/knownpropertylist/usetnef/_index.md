@@ -1,14 +1,14 @@
 ---
 title: UseTnef
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли включать в сообщение транспортно-нейтральный формат инкапсуляции TNEF при преобразовании сообщения из TNEF в формат MIME или SMTP. ОбластьКонфигурация во время выполнения Каноническое имяPidLidUseTnef Альтернативные именаdispidUseTNEF
+description: Указывает следует ли включать в сообщение транспортно-нейтральный формат инкапсуляции TNEF при преобразовании сообщения из TNEF в формат MIME или SMTP. Область Конфигурация во время выполнения Каноническое имя PidLidUseTnef Альтернативные имена dispidUseTNEF
 type: docs
 weight: 19200
 url: /ru/net/aspose.email.mapi/knownpropertylist/usetnef/
 ---
 ## KnownPropertyList.UseTnef field
 
-Указывает, следует ли включать в сообщение транспортно-нейтральный формат инкапсуляции (TNEF) при преобразовании сообщения из TNEF в формат MIME или SMTP. Область:Конфигурация во время выполнения Каноническое имя:PidLidUseTnef Альтернативные имена:dispidUseTNEF
+Указывает, следует ли включать в сообщение транспортно-нейтральный формат инкапсуляции (TNEF) при преобразовании сообщения из TNEF в формат MIME или SMTP. Область: Конфигурация во время выполнения Каноническое имя: PidLidUseTnef Альтернативные имена: dispidUseTNEF
 
 ```csharp
 public static readonly PidLidPropertyDescriptor UseTnef;

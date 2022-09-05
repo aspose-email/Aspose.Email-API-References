@@ -1,14 +1,14 @@
 ---
 title: DpiX
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает горизонтальное значение DPI.
+description: Получает или задает горизонтальный DPI.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.printing/iprintsettingsprovider/dpix/
 ---
 ## IPrintSettingsProvider.DpiX property
 
-Получает или задает горизонтальное значение DPI.
+Получает или задает горизонтальный DPI.
 
 ```csharp
 public double DpiX { get; set; }
@@ -26,7 +26,7 @@ public double DpiX { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:96.
+Значение по умолчанию — 96.
 
 ### Смотрите также
 

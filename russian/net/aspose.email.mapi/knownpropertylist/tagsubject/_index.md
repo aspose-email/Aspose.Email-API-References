@@ -1,14 +1,14 @@
 ---
 title: TagSubject
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тему сообщения электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidTagSubject Альтернативные именаPR_SUBJECT PR_SUBJECT_A ptagSubject PR_SUBJECT_W
+description: Содержит тему сообщения электронной почты. Область Общие свойства сообщения Каноническое имя PidTagSubject Альтернативные имена PR_SUBJECT PR_SUBJECT_A ptagSubject PR_SUBJECT_W
 type: docs
 weight: 18500
 url: /ru/net/aspose.email.mapi/knownpropertylist/tagsubject/
 ---
 ## KnownPropertyList.TagSubject field
 
-Содержит тему сообщения электронной почты. Область:Общие свойства сообщения Каноническое имя:PidTagSubject Альтернативные имена:PR_SUBJECT, PR_SUBJECT_A, ptagSubject, PR_SUBJECT_W,
+Содержит тему сообщения электронной почты. Область: Общие свойства сообщения Каноническое имя: PidTagSubject Альтернативные имена: PR_SUBJECT, PR_SUBJECT_A, ptagSubject, PR_SUBJECT_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagSubject;

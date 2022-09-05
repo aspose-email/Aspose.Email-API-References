@@ -3,7 +3,7 @@ title: EmailAddressCategory
 second_title: Aspose.Email for .NET API 参考
 description: 表示电子邮件地址的类别
 type: docs
-weight: 19340
+weight: 19370
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/
 ---
 ## EmailAddressCategory class
@@ -18,7 +18,7 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailAddressCategory](emailaddresscategory)(string) | 使用“自定义”类别初始化[`EmailAddressCategory`](../emailaddresscategory)类的新实例。 |
+| [EmailAddressCategory](emailaddresscategory)(string) | 初始化[`EmailAddressCategory`](../emailaddresscategory)具有“自定义”类别的类。 |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | static [Email1](../../aspose.email.personalinfo/emailaddresscategory/email1) { get; } | Email1 类别。由 MS Exchange 服务器使用。 |
 | static [Email2](../../aspose.email.personalinfo/emailaddresscategory/email2) { get; } | Email2 类别。由 MS Exchange 服务器使用。 |
 | static [Email3](../../aspose.email.personalinfo/emailaddresscategory/email3) { get; } | Email3 类别。由 MS Exchange 服务器使用。 |
-| static [Home](../../aspose.email.personalinfo/emailaddresscategory/home) { get; } | 主页类别 |
+| static [Home](../../aspose.email.personalinfo/emailaddresscategory/home) { get; } | 首页分类 |
 | static [Work](../../aspose.email.personalinfo/emailaddresscategory/work) { get; } | 工作类别 |
 | [Description](../../aspose.email.personalinfo/emailaddresscategory/description) { get; } | 获取电子邮件地址的“自定义”类别的描述 |
 | [Value](../../aspose.email.personalinfo/emailaddresscategory/value) { get; } | 获取电子邮件地址的类别 |
@@ -41,18 +41,18 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | override [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals#equals_1)(object) | 判断指定Object是否等于当前Object。 |
 | override [GetHashCode](../../aspose.email.personalinfo/emailaddresscategory/gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/emailaddresscategory/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/emailaddresscategory/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/emailaddresscategory/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/emailaddresscategory/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/emailaddresscategory/op_inequality) | 判断指定的对象是否不相等。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
 | const [CustomValue](../../aspose.email.personalinfo/emailaddresscategory/customvalue) | “自定义”类别的字符串值 |
-| const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value) | 'Email1' 类别的字符串值 |
-| const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value) | 'Email2' 类别的字符串值 |
-| const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value) | 'Email3' 类别的字符串值 |
-| const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue) | 'Home' 类别的字符串值 |
+| const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value) | “Email1”类别的字符串值 |
+| const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value) | “Email2”类别的字符串值 |
+| const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value) | “Email3”类别的字符串值 |
+| const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue) | “家”类别的字符串值 |
 | const [WorkValue](../../aspose.email.personalinfo/emailaddresscategory/workvalue) | “工作”类别的字符串值 |
 
 ### 也可以看看

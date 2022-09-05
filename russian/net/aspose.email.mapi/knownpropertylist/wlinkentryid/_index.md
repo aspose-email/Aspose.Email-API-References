@@ -1,14 +1,14 @@
 ---
 title: WlinkEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает EntryID папки на которую указывает ярлык. ОбластьКонфигурация Каноническое имяPidTagWlinkEntryId Альтернативные именаPR_WLINK_ENTRYID
+description: Указывает EntryID папки на которую указывает ярлык. Область Configuration Каноническое имя PidTagWlinkEntryId Альтернативные имена PR_WLINK_ENTRYID
 type: docs
 weight: 19410
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkentryid/
 ---
 ## KnownPropertyList.WlinkEntryId field
 
-Указывает EntryID папки, на которую указывает ярлык. Область:Конфигурация Каноническое имя:PidTagWlinkEntryId Альтернативные имена:PR_WLINK_ENTRYID
+Указывает EntryID папки, на которую указывает ярлык. Область: Configuration Каноническое имя: PidTagWlinkEntryId Альтернативные имена: PR_WLINK_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkEntryId;

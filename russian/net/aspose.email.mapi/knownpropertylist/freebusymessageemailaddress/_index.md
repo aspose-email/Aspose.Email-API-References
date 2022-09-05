@@ -1,14 +1,14 @@
 ---
 title: FreeBusyMessageEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес электронной почты пользователя или ресурса к которому относится это сообщение о занятости. ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagFreeBusyMessageEmailAddress Альтернативные именаPR_FREEBUSY_EMA
+description: Указывает адрес электронной почты пользователя или ресурса к которому относится это сообщение о занятости. Область MessageClassDefinedTransmittable Каноническое имя PidTagFreeBusyMessageEmailAddress Альтернативные имена PR_FREEBUSY_EMA
 type: docs
 weight: 10670
 url: /ru/net/aspose.email.mapi/knownpropertylist/freebusymessageemailaddress/
 ---
 ## KnownPropertyList.FreeBusyMessageEmailAddress field
 
-Указывает адрес электронной почты пользователя или ресурса, к которому относится это сообщение о занятости. Область:MessageClassDefinedTransmittable Каноническое имя:PidTagFreeBusyMessageEmailAddress Альтернативные имена:PR_FREEBUSY_EMA
+Указывает адрес электронной почты пользователя или ресурса, к которому относится это сообщение о занятости. Область: MessageClassDefinedTransmittable Каноническое имя: PidTagFreeBusyMessageEmailAddress Альтернативные имена: PR_FREEBUSY_EMA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyMessageEmailAddress;

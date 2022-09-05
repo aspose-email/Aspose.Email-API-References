@@ -1,14 +1,14 @@
 ---
 title: FollowupIcon
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象的标志颜色 区域RenMessageFolder 规范名称PidTagFollowupIcon 替代名称PR_FOLLOWUP_ICON ptagFollowupIcon
+description: 指定消息对象的标志颜色 区域RenMessageFolder 规范名称PidTagFollowupIcon 替代名称PR_FOLLOWUP_ICONptagFollowupIcon
 type: docs
 weight: 10460
 url: /zh/net/aspose.email.mapi/knownpropertylist/followupicon/
 ---
 ## KnownPropertyList.FollowupIcon field
 
-指定消息对象的标志颜色。 区域:RenMessageFolder 规范名称:PidTagFollowupIcon 替代名称:PR_FOLLOWUP_ICON, ptagFollowupIcon
+指定消息对象的标志颜色。 区域：RenMessageFolder 规范名称：PidTagFollowupIcon 替代名称：PR_FOLLOWUP_ICON、ptagFollowupIcon
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FollowupIcon;

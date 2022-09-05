@@ -1,7 +1,7 @@
 ---
 title: FolderClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder class for a given folder.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/folderclass/

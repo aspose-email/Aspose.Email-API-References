@@ -1,14 +1,14 @@
 ---
 title: ImapMoveMessages
 second_title: Aspose.Email for .NET API 参考
-description: MoveMessagesAsync../aspose.email.clients.imap/iasyncimapclient/movemessagesasync方法参数集
+description: MoveMessagesAsync../aspose.email.clients.imap/iasyncimapclient/movemessagesasync方法参数集.
 type: docs
 weight: 16600
 url: /zh/net/aspose.email.clients.imap.models/imapmovemessages/
 ---
 ## ImapMoveMessages class
 
-[`MoveMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/movemessagesasync)方法参数集。
+[`MoveMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/movemessagesasync)方法参数集.
 
 ```csharp
 public class ImapMoveMessages : ImapMessageSet<ImapMoveMessages>
@@ -18,7 +18,7 @@ public class ImapMoveMessages : ImapMessageSet<ImapMoveMessages>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapmovemessages/create)() | 创建新的[`ImapMoveMessages`](../imapmovemessages)实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapmovemessages/create)() | 新建[`ImapMoveMessages`](../imapmovemessages)实例. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetCommitDeletions](../../aspose.email.clients.imap.models/imapmovemessages/setcommitdeletions)(bool) | 指定是否应提交删除。 |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |

@@ -1,14 +1,14 @@
 ---
 title: XCallId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор связанный с телефонным звонком. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXCallId Альтернативные имена
+description: Содержит уникальный идентификатор связанный с телефонным звонком. Область Единая система обмена сообщениями Каноническое имя PidNameXCallId Альтернативные имена
 type: docs
 weight: 19660
 url: /ru/net/aspose.email.mapi/knownpropertylist/xcallid/
 ---
 ## KnownPropertyList.XCallId field
 
-Содержит уникальный идентификатор, связанный с телефонным звонком. Область:Единая система обмена сообщениями Каноническое имя:PidNameXCallId Альтернативные имена:
+Содержит уникальный идентификатор, связанный с телефонным звонком. Область: Единая система обмена сообщениями Каноническое имя: PidNameXCallId Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XCallId;

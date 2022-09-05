@@ -1,14 +1,14 @@
 ---
 title: FlagStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象的标志状态 区域杂项属性 规范名称PidTagFlagStatus 替代名称PR_FLAG_STATUS ptagFlagStatus
+description: 指定消息对象的标志状态 区域杂项属性 规范名称PidTagFlagStatus 替代名称PR_FLAG_STATUSptagFlagStatus
 type: docs
 weight: 10360
 url: /zh/net/aspose.email.mapi/knownpropertylist/flagstatus/
 ---
 ## KnownPropertyList.FlagStatus field
 
-指定消息对象的标志状态。 区域:杂项属性 规范名称:PidTagFlagStatus 替代名称:PR_FLAG_STATUS, ptagFlagStatus
+指定消息对象的标志状态。 区域：杂项属性 规范名称：PidTagFlagStatus 替代名称：PR_FLAG_STATUS、ptagFlagStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FlagStatus;

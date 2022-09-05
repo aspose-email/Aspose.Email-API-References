@@ -1,9 +1,9 @@
 ---
 title: MailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the address of a message.
 type: docs
-weight: 17510
+weight: 17680
 url: /net/aspose.email/mailaddress/
 ---
 ## MailAddress class
@@ -18,12 +18,12 @@ public class MailAddress : IMailAddress
 
 | Name | Description |
 | --- | --- |
-| [MailAddress](mailaddress)(string) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
-| [MailAddress](mailaddress)(string, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
-| [MailAddress](mailaddress)(string, string) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
-| [MailAddress](mailaddress)(string, string, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
-| [MailAddress](mailaddress)(string, string, Encoding) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
-| [MailAddress](mailaddress)(string, string, Encoding, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor)(string) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor_1)(string, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor_2)(string, string) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor_3)(string, string, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor_4)(string, string, Encoding) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
+| [MailAddress](mailaddress#constructor_5)(string, string, Encoding, bool) | Initializes a new instance of the [`MailAddress`](../mailaddress) class. |
 
 ## Properties
 
@@ -46,7 +46,7 @@ public class MailAddress : IMailAddress
 | override [Equals](../../aspose.email/mailaddress/equals)(object) | Determines whether the specified Object is equal to this instance. |
 | override [GetHashCode](../../aspose.email/mailaddress/gethashcode)() | Returns a hash code for this instance. |
 | override [ToString](../../aspose.email/mailaddress/tostring)() | Returns a String that represents this instance. |
-| [implicit operator](../../aspose.email/mailaddress/op_implicit) | Performs an implicit conversion from String to [`MailAddress`](../mailaddress). (2 operators) |
+| [implicit operator](../../aspose.email/mailaddress/op_implicit#op_implicit_1) | Performs an implicit conversion from String to [`MailAddress`](../mailaddress). (2 operators) |
 
 ### See Also
 

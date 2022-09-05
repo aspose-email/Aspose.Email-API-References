@@ -1,9 +1,9 @@
 ---
 title: MessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the message id
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.email/mailmessage/messageid/
 ---
 ## MailMessage.MessageId property

@@ -1,14 +1,14 @@
 ---
 title: StorageProcessed
 second_title: Aspose.Email for .NET API 参考
-description: 在创建新的 pst 块或处理下一个文件并要合并时发生在拆分和合并操作中
+description: 在创建新的 pst 块或处理下一个文件并将被合并时发生在拆分和合并操作中
 type: docs
 weight: 110
 url: /zh/net/aspose.email.storage.pst/personalstorage/storageprocessed/
 ---
 ## PersonalStorage.StorageProcessed event
 
-在创建新的 pst 块或处理下一个文件并要合并时发生在拆分和合并操作中。
+在创建新的 pst 块或处理下一个文件并将被合并时发生在拆分和合并操作中。
 
 ```csharp
 public event StorageProcessedEventHandler StorageProcessed;

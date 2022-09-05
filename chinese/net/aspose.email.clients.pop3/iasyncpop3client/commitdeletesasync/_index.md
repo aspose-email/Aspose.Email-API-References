@@ -17,9 +17,9 @@ public Task CommitDeletesAsync(int sleep = -1, IConnection connection = null,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sleep | Int32 | 超时以毫秒为单位 |
+| sleep | Int32 | 以毫秒为单位的超时 |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 也可以看看
 

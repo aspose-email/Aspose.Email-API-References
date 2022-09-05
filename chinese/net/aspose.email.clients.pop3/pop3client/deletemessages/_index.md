@@ -1,14 +1,14 @@
 ---
 title: DeleteMessages
 second_title: Aspose.Email for .NET API 参考
-description: 删除所有邮件
+description: 删除所有消息
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.pop3/pop3client/deletemessages/
 ---
 ## DeleteMessages(IConnection) {#deletemessages_1}
 
-删除所有邮件
+删除所有消息
 
 ```csharp
 public void DeleteMessages(IConnection connection)
@@ -33,7 +33,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessages() {#deletemessages}
 
-删除所有邮件
+删除所有消息
 
 ```csharp
 public void DeleteMessages()

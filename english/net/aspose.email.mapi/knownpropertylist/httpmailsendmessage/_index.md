@@ -1,7 +1,7 @@
 ---
 title: HttpmailSendMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the email submission URI to which outgoing email is submitted. Area Common Canonical name PidNameHttpmailSendMessage Alternate names urnschemashttpmailsendmsg
 type: docs
 weight: 11130
 url: /net/aspose.email.mapi/knownpropertylist/httpmailsendmessage/

@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyMerged
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет блоки для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoFreeBusyMerged Альтернативные именаPR_SCHDINFO_FREEBUSY_MERGED
+description: Определяет блоки для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Область Свойства о занятости Каноническое имя PidTagScheduleInfoFreeBusyMerged Альтернативные имена PR_SCHDINFO_FREEBUSY_MERGED
 type: docs
 weight: 16840
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusymerged/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyMerged field
 
-Определяет блоки, для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoFreeBusyMerged Альтернативные имена:PR_SCHDINFO_FREEBUSY_MERGED
+Определяет блоки, для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Область: Свойства о занятости Каноническое имя: PidTagScheduleInfoFreeBusyMerged Альтернативные имена: PR_SCHDINFO_FREEBUSY_MERGED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyMerged;

@@ -1,14 +1,14 @@
 ---
 title: MessageThreadResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageThreadResultaspose.email.clients.imap/messagethreadresult.
+description: Инициализирует новый экземплярMessageThreadResultaspose.email.clients.imap/messagethreadresult класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/messagethreadresult/messagethreadresult/
 ---
 ## MessageThreadResult constructor
 
-Инициализирует новый экземпляр класса[`MessageThreadResult`](../../messagethreadresult).
+Инициализирует новый экземпляр[`MessageThreadResult`](../../messagethreadresult) класс.
 
 ```csharp
 public MessageThreadResult()

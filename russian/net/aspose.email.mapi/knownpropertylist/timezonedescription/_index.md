@@ -1,14 +1,14 @@
 ---
 title: TimeZoneDescription
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает удобочитаемое описание часового пояса которое представлено данными в свойстве PidLidTimeZoneStruct раздел 2.342. ОбластьКалендарь Каноническое имяPidLidTimeZoneDescription Альтернативные именаdispidTimeZoneDesc
+description: Указывает удобочитаемое описание часового пояса которое представлено данными в свойстве PidLidTimeZoneStruct раздел 2.342. Область Calendar Каноническое имя PidLidTimeZoneDescription Альтернативные имена dispidTimeZoneDesc
 type: docs
 weight: 18980
 url: /ru/net/aspose.email.mapi/knownpropertylist/timezonedescription/
 ---
 ## KnownPropertyList.TimeZoneDescription field
 
-Указывает удобочитаемое описание часового пояса, которое представлено данными в свойстве PidLidTimeZoneStruct (раздел 2.342). Область:Календарь Каноническое имя:PidLidTimeZoneDescription Альтернативные имена:dispidTimeZoneDesc
+Указывает удобочитаемое описание часового пояса, которое представлено данными в свойстве PidLidTimeZoneStruct (раздел 2.342). Область: Calendar Каноническое имя: PidLidTimeZoneDescription Альтернативные имена: dispidTimeZoneDesc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TimeZoneDescription;

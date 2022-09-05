@@ -18,10 +18,10 @@ public class PageInfo
 
 | Имя | Описание |
 | --- | --- |
-| [PageInfo](pageinfo#constructor)(int) | Инициализирует новый экземпляр класса[`PageInfo`](../pageinfo)class |
-| [PageInfo](pageinfo#constructor_1)(int, int) | Инициализирует новый экземпляр класса[`PageInfo`](../pageinfo)class |
-| [PageInfo](pageinfo#constructor_2)(int, int, int, bool) | Инициализирует новый экземпляр класса[`PageInfo`](../pageinfo)class |
-| [PageInfo](pageinfo#constructor_3)(int, int, int, int, bool) | Инициализирует новый экземпляр класса[`PageInfo`](../pageinfo)class |
+| [PageInfo](pageinfo#constructor)(int) | Инициализирует новый экземпляр[`PageInfo`](../pageinfo) класс |
+| [PageInfo](pageinfo#constructor_1)(int, int) | Инициализирует новый экземпляр[`PageInfo`](../pageinfo) класс |
+| [PageInfo](pageinfo#constructor_2)(int, int, int, bool) | Инициализирует новый экземпляр[`PageInfo`](../pageinfo) класс |
+| [PageInfo](pageinfo#constructor_3)(int, int, int, int, bool) | Инициализирует новый экземпляр[`PageInfo`](../pageinfo) класс |
 
 ## Характеристики
 
@@ -29,10 +29,10 @@ public class PageInfo
 | --- | --- |
 | [AbsoluteOffset](../../aspose.email.clients/pageinfo/absoluteoffset) { get; set; } | Получает дополнительное смещение, добавляемое к начальному индексу страницы |
 | [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | Количество элементов на странице |
-| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Указывает, является ли текущая страница последней просматриваемой. |
+| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Указывает, является ли текущая страница последней просматриваемой страницей. |
 | virtual [NextPage](../../aspose.email.clients/pageinfo/nextpage) { get; } | Информация о следующей странице или null, если текущая страница последняя |
 | [PageOffset](../../aspose.email.clients/pageinfo/pageoffset) { get; set; } | Получает смещение страницы |
-| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Получает общее количество элементов в поле зрения |
+| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Получает общее количество элементов в view |
 
 ### Смотрите также
 

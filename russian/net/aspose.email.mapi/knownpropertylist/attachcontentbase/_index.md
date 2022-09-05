@@ -1,14 +1,14 @@
 ---
 title: AttachContentBase
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит основу относительного URI. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachContentBase Альтернативные имена
+description: Содержит основу относительного URI. Область Свойства вложения сообщения Каноническое имя PidTagAttachContentBase Альтернативные имена
 type: docs
 weight: 1520
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachcontentbase/
 ---
 ## KnownPropertyList.AttachContentBase field
 
-Содержит основу относительного URI. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachContentBase Альтернативные имена:
+Содержит основу относительного URI. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachContentBase Альтернативные имена:
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentBase;

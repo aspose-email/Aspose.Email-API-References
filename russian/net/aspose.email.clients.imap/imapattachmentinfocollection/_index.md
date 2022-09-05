@@ -18,7 +18,7 @@ public sealed class ImapAttachmentInfoCollection : Collection<ImapAttachmentInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ImapAttachmentInfoCollection](imapattachmentinfocollection)() | Инициализирует новый экземпляр класса[`ImapAttachmentInfoCollection`](../imapattachmentinfocollection) |
+| [ImapAttachmentInfoCollection](imapattachmentinfocollection)() | Инициализирует новый экземпляр[`ImapAttachmentInfoCollection`](../imapattachmentinfocollection) класс |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: NoteSaveFormat
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 NoteSaveFormat
 type: docs
-weight: 18910
+weight: 18940
 url: /zh/net/aspose.email.mapi/notesaveformat/
 ---
 ## NoteSaveFormat enumeration
@@ -18,7 +18,7 @@ public enum NoteSaveFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Msg | `0` | 味精格式。 |
+| Msg | `0` | 味精格式. |
 
 ### 也可以看看
 

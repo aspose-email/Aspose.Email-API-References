@@ -1,7 +1,7 @@
 ---
 title: Delimiter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets delimiter of folders hierarhy.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.imap/imapclient/delimiter/

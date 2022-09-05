@@ -1,14 +1,14 @@
 ---
 title: DavUid
 second_title: Aspose.Email for .NET API 参考
-description: 指定项目的唯一标识符 区域通用 规范名称PidNameDavUid 替代名称DAVuid
+description: 指定项目的唯一标识符 区域Common 规范名称PidNameDavUid 替代名称DAVuid
 type: docs
 weight: 3680
 url: /zh/net/aspose.email.mapi/knownpropertylist/davuid/
 ---
 ## KnownPropertyList.DavUid field
 
-指定项目的唯一标识符。 区域:通用 规范名称:PidNameDavUid 替代名称:DAV:uid
+指定项目的唯一标识符。 区域：Common 规范名称：PidNameDavUid 替代名称：DAV:uid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavUid;

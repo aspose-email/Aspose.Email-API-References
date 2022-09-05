@@ -1,9 +1,9 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents options for using followup flags and reminders in a message.
 type: docs
-weight: 17640
+weight: 17820
 url: /net/aspose.email.mapi/followupoptions/
 ---
 ## FollowUpOptions class
@@ -18,10 +18,10 @@ public sealed class FollowUpOptions
 
 | Name | Description |
 | --- | --- |
-| [FollowUpOptions](followupoptions)() | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
-| [FollowUpOptions](followupoptions)(string) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
-| [FollowUpOptions](followupoptions)(string, DateTime, DateTime) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
-| [FollowUpOptions](followupoptions)(string, DateTime, DateTime, DateTime) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
+| [FollowUpOptions](followupoptions#constructor)() | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
+| [FollowUpOptions](followupoptions#constructor_1)(string) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
+| [FollowUpOptions](followupoptions#constructor_2)(string, DateTime, DateTime) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
+| [FollowUpOptions](followupoptions#constructor_3)(string, DateTime, DateTime, DateTime) | Initializes a new instance of the [`FollowUpOptions`](../followupoptions) class. |
 
 ## Properties
 

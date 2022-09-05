@@ -1,7 +1,7 @@
 ---
 title: ClientId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The client ID obtained during application registration.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/tokenprovider/clientid/

@@ -1,14 +1,14 @@
 ---
 title: HttpmailHtmlDescription
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息的 HTML 内容 区域通用 规范名称PidNameHttpmailHtmlDescription 备用名称urnschemashttpmailhtmldescription
+description: 指定消息的 HTML 内容 区域Common 规范名称PidNameHttpmailHtmlDescription 备用名称urnschemashttpmailhtmldescription
 type: docs
 weight: 11120
 url: /zh/net/aspose.email.mapi/knownpropertylist/httpmailhtmldescription/
 ---
 ## KnownPropertyList.HttpmailHtmlDescription field
 
-指定消息的 HTML 内容。 区域:通用 规范名称:PidNameHttpmailHtmlDescription 备用名称:urn:schemas:httpmail:htmldescription
+指定消息的 HTML 内容。 区域：Common 规范名称：PidNameHttpmailHtmlDescription 备用名称：urn:schemas:httpmail:htmldescription
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailHtmlDescription;

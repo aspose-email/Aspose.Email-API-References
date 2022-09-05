@@ -1,14 +1,14 @@
 ---
 title: HttpProxy
 second_title: Aspose.Email for .NET API 参考
-description: 初始化HttpProxyaspose.email.clients/httpproxy类的新实例以连接到代理服务器而无需身份验证
+description: 初始化HttpProxyaspose.email.clients/httpproxy无需身份验证即可连接到代理服务器的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/httpproxy/httpproxy/
 ---
 ## HttpProxy(string, int) {#constructor}
 
-初始化[`HttpProxy`](../../httpproxy)类的新实例以连接到代理服务器而无需身份验证。
+初始化[`HttpProxy`](../../httpproxy)无需身份验证即可连接到代理服务器的类。
 
 ```csharp
 public HttpProxy(string address, int port)
@@ -29,7 +29,7 @@ public HttpProxy(string address, int port)
 
 ## HttpProxy(string, int, string, string) {#constructor_1}
 
-初始化[`HttpProxy`](../../httpproxy)类的新实例以使用定义的用户名和密码连接到代理服务器。
+初始化[`HttpProxy`](../../httpproxy)使用定义的用户名和密码连接到代理服务器的类。
 
 ```csharp
 public HttpProxy(string address, int port, string username, string password)
@@ -38,9 +38,9 @@ public HttpProxy(string address, int port, string username, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | address | String | 代理的域名或IP地址 |
-| port | Int32 | 代理端口号 |
-| username | String | 认证用户名 |
-| password | String | 认证密码 |
+| port | Int32 | 代理的端口号 |
+| username | String | 用于身份验证的用户名 |
+| password | String | 验证密码 |
 
 ### 也可以看看
 

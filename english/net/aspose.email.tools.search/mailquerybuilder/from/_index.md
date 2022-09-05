@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages that contain the specified string in the envelope structures FROM field.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.search/mailquerybuilder/from/

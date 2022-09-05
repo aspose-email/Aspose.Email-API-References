@@ -1,14 +1,14 @@
 ---
 title: ExtractedMeetings
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит XML-документ с одним элементом MeetingSet. ОбластьИзвлеченные объекты Каноническое имяPidNameExtractedMeetings Альтернативные именаdispidXmlExtractedMeetings
+description: Содержит XML-документ с одним элементом MeetingSet. Область Извлеченные сущности Каноническое имя PidNameExtractedMeetings Альтернативные имена dispidXmlExtractedMeetings
 type: docs
 weight: 10070
 url: /ru/net/aspose.email.mapi/knownpropertylist/extractedmeetings/
 ---
 ## KnownPropertyList.ExtractedMeetings field
 
-Содержит XML-документ с одним элементом MeetingSet. Область:Извлеченные объекты Каноническое имя:PidNameExtractedMeetings Альтернативные имена:dispidXmlExtractedMeetings
+Содержит XML-документ с одним элементом MeetingSet. Область: Извлеченные сущности Каноническое имя: PidNameExtractedMeetings Альтернативные имена: dispidXmlExtractedMeetings
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedMeetings;

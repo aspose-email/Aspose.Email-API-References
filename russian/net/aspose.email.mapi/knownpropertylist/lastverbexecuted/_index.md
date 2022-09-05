@@ -1,14 +1,14 @@
 ---
 title: LastVerbExecuted
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет последнюю команду выполненную для элемента сообщения с которым она связана. ОбластьСвойства истории Каноническое имяPidTagLastVerbExecuted Альтернативные именаPR_LAST_VERB_EXECUTED ptagLastVerbExecuted
+description: Определяет последнюю команду выполненную для элемента сообщения с которым он связан. Область Свойства истории Каноническое имя PidTagLastVerbExecuted Альтернативные имена PR_LAST_VERB_EXECUTED ptagLastVerbExecuted
 type: docs
 weight: 12060
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastverbexecuted/
 ---
 ## KnownPropertyList.LastVerbExecuted field
 
-Определяет последнюю команду, выполненную для элемента сообщения, с которым она связана. Область:Свойства истории Каноническое имя:PidTagLastVerbExecuted Альтернативные имена:PR_LAST_VERB_EXECUTED, ptagLastVerbExecuted
+Определяет последнюю команду, выполненную для элемента сообщения, с которым он связан. Область: Свойства истории Каноническое имя: PidTagLastVerbExecuted Альтернативные имена: PR_LAST_VERB_EXECUTED, ptagLastVerbExecuted
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastVerbExecuted;

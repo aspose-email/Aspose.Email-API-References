@@ -1,12 +1,12 @@
 ---
 title: FolderExists
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks whether the specified folder exists.
 type: docs
 weight: 870
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/folderexists/
 ---
-## IEWSClient.FolderExists method (1 of 2)
+## FolderExists(string, string) {#folderexists}
 
 Checks whether the specified folder exists.
 
@@ -37,7 +37,7 @@ public bool FolderExists(string parentFolderUri, string folderName)
 
 ---
 
-## IEWSClient.FolderExists method (2 of 2)
+## FolderExists(string, string, out ExchangeFolderInfo) {#folderexists_1}
 
 Checks whether the specified folder exists.
 

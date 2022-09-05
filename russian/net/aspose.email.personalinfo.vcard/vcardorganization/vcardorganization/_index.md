@@ -1,14 +1,14 @@
 ---
 title: VCardOrganization
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardOrganizationaspose.email.personalinfo.vcard/vcardorganization
+description: Инициализирует новый экземплярVCardOrganizationaspose.email.personalinfo.vcard/vcardorganization класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardorganization/vcardorganization/
 ---
 ## VCardOrganization constructor
 
-Инициализирует новый экземпляр класса[`VCardOrganization`](../../vcardorganization)
+Инициализирует новый экземпляр[`VCardOrganization`](../../vcardorganization) класс
 
 ```csharp
 public VCardOrganization()

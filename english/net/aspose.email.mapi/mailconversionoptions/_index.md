@@ -1,9 +1,9 @@
 ---
 title: MailConversionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify additional options when converting from MapiMessage to MailMessage.
 type: docs
-weight: 17700
+weight: 17880
 url: /net/aspose.email.mapi/mailconversionoptions/
 ---
 ## MailConversionOptions class

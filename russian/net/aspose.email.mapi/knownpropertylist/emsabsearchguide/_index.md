@@ -1,14 +1,14 @@
 ---
 title: EmsAbSearchGuide
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SEARCH_GUIDE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SEARCH_GUIDE
 type: docs
 weight: 8690
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsearchguide/
 ---
 ## KnownPropertyList.EmsAbSearchGuide field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SEARCH_GUIDE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SEARCH_GUIDE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSearchGuide;

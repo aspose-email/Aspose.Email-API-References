@@ -17,7 +17,7 @@ public Task DeleteMessageAsync(int sequenceNumber, IConnection connection = null
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | IConnection | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -45,7 +45,7 @@ public Task DeleteMessageAsync(string uniqueId, IConnection connection = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | uniqueId | IConnection | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

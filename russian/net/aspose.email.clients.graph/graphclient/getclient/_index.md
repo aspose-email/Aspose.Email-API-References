@@ -1,14 +1,14 @@
 ---
 title: GetClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGraphClientaspose.email.clients.graph/graphclientна основе
+description: Инициализирует новый экземплярGraphClientaspose.email.clients.graph/graphclient на основе class
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.graph/graphclient/getclient/
 ---
 ## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
-Инициализирует новый экземпляр класса[`GraphClient`](../../graphclient)на основе
+Инициализирует новый экземпляр[`GraphClient`](../../graphclient) на основе class
 
 ```csharp
 public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvider, string tenantId)
@@ -17,11 +17,11 @@ public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvide
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tokenProvider | IMultipleServicesTokenProvider | Поставщик токенов позволяет получить токен доступа OAuth |
-| tenantId | String | Арендатор является представителем организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения, создает отношения с Microsoft, такие как регистрация в Azure, Microsoft Intune или Microsoft 365. |
+| tenantId | String | Арендатор — представитель организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения создает отношения с Microsoft, например регистрируется в Azure, Microsoft Intune или Microsoft 365. |
 
 ### Возвращаемое значение
 
-Возвращает объект IGraphClient
+Возвращает объект IGraphClient.
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvide
 
 ## GetClient(ITokenProvider, string) {#getclient_1}
 
-Инициализирует новый экземпляр класса[`GraphClient`](../../graphclient)на основе
+Инициализирует новый экземпляр[`GraphClient`](../../graphclient) на основе class
 
 ```csharp
 public static IGraphClient GetClient(ITokenProvider tokenProvider, string tenantId)
@@ -44,11 +44,11 @@ public static IGraphClient GetClient(ITokenProvider tokenProvider, string tenant
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tokenProvider | ITokenProvider | Поставщик токенов позволяет получить токен доступа OAuth |
-| tenantId | String | Арендатор является представителем организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения, создает отношения с Microsoft, такие как регистрация в Azure, Microsoft Intune или Microsoft 365. |
+| tenantId | String | Арендатор — представитель организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения создает отношения с Microsoft, например регистрируется в Azure, Microsoft Intune или Microsoft 365. |
 
 ### Возвращаемое значение
 
-Возвращает объект IGraphClient
+Возвращает объект IGraphClient.
 
 ### Смотрите также
 

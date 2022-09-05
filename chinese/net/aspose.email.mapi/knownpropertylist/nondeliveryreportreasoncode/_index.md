@@ -1,14 +1,14 @@
 ---
 title: NonDeliveryReportReasonCode
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个整数值指示传递失败的原因 区域电子邮件 规范名称PidTagNonDeliveryReportReasonCode 别名PR_NDR_REASON_CODE ptagNDRReasonCode
+description: 包含指示传递失败原因的整数值 区域Email 规范名称PidTagNonDeliveryReportReasonCode 替代名称PR_NDR_REASON_CODEptagNDRReasonCode
 type: docs
 weight: 12960
 url: /zh/net/aspose.email.mapi/knownpropertylist/nondeliveryreportreasoncode/
 ---
 ## KnownPropertyList.NonDeliveryReportReasonCode field
 
-包含一个整数值，指示传递失败的原因。 区域:电子邮件 规范名称:PidTagNonDeliveryReportReasonCode 别名:PR_NDR_REASON_CODE, ptagNDRReasonCode
+包含指示传递失败原因的整数值。 区域：Email 规范名称：PidTagNonDeliveryReportReasonCode 替代名称：PR_NDR_REASON_CODE、ptagNDRReasonCode
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonDeliveryReportReasonCode;

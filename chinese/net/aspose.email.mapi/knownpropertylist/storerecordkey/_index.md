@@ -1,14 +1,14 @@
 ---
 title: StoreRecordKey
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_STORE_RECORD_KEY
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_STORE_RECORD_KEY
 type: docs
 weight: 18280
 url: /zh/net/aspose.email.mapi/knownpropertylist/storerecordkey/
 ---
 ## KnownPropertyList.StoreRecordKey field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_STORE_RECORD_KEY
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_STORE_RECORD_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreRecordKey;

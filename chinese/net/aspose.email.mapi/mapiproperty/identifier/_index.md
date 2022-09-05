@@ -1,14 +1,14 @@
 ---
 title: Identifier
 second_title: Aspose.Email for .NET API 参考
-description: 获取指示符
+description: 获取标识符
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapiproperty/identifier/
 ---
 ## MapiProperty.Identifier property
 
-获取指示符。
+获取标识符。
 
 ```csharp
 public virtual long Identifier { get; }

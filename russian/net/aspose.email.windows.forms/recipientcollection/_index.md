@@ -3,7 +3,7 @@ title: RecipientCollection
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет группу получателей почтового сообщения.
 type: docs
-weight: 20920
+weight: 20970
 url: /ru/net/aspose.email.windows.forms/recipientcollection/
 ---
 ## RecipientCollection class

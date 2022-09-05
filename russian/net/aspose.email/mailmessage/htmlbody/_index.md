@@ -1,14 +1,14 @@
 ---
 title: HtmlBody
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает тело html
+description: Получает или задает html body
 type: docs
 weight: 150
 url: /ru/net/aspose.email/mailmessage/htmlbody/
 ---
 ## MailMessage.HtmlBody property
 
-Получает или устанавливает тело html
+Получает или задает html body
 
 ```csharp
 public virtual string HtmlBody { get; set; }

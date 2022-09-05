@@ -1,14 +1,14 @@
 ---
 title: FailedMailMessageEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FailedMailMessageEventArgsaspose.email.clients.smtp/failedmailmessageeventargs类的新实例
+description: 初始化FailedMailMessageEventArgsaspose.email.clients.smtp/failedmailmessageeventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp/failedmailmessageeventargs/failedmailmessageeventargs/
 ---
 ## FailedMailMessageEventArgs constructor
 
-初始化[`FailedMailMessageEventArgs`](../../failedmailmessageeventargs)类的新实例。
+初始化[`FailedMailMessageEventArgs`](../../failedmailmessageeventargs)类.
 
 ```csharp
 public FailedMailMessageEventArgs(MailMessage message, Exception ex)

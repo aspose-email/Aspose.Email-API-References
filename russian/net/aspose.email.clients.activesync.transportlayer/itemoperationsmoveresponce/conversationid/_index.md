@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает диалог который необходимо переместить.
+description: Указывает разговор который необходимо переместить.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid/
 ---
 ## ItemOperationsMoveResponce.ConversationId property
 
-Указывает диалог, который необходимо переместить.
+Указывает разговор, который необходимо переместить.
 
 ```csharp
 public string ConversationId { get; set; }

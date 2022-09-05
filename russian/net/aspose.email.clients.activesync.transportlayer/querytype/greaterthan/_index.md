@@ -1,14 +1,14 @@
 ---
 title: GreaterThan
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает свойство и значение которые сравниваются для условия Больше чем во время поиска.
+description: Определяет свойство и значение которые сравниваются для условия Больше чем во время поиска.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activesync.transportlayer/querytype/greaterthan/
 ---
 ## QueryType.GreaterThan property
 
-Указывает свойство и значение, которые сравниваются для условия "Больше чем" во время поиска.
+Определяет свойство и значение, которые сравниваются для условия «Больше чем» во время поиска.
 
 ```csharp
 public SearchCondition GreaterThan { get; set; }

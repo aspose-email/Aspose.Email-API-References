@@ -1,14 +1,14 @@
 ---
 title: AppointmentAuxiliaryFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает битовое поле описывающее вспомогательное состояние объекта. ОбластьВстречи Каноническое имяPidLidAppointmentAuxiliaryFlags Альтернативные именаdispidApptAuxFlags
+description: Указывает битовое поле описывающее вспомогательное состояние объекта. Область Meetings Каноническое имя PidLidAppointmentAuxiliaryFlags Альтернативные имена dispidApptAuxFlags
 type: docs
 weight: 1110
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentauxiliaryflags/
 ---
 ## KnownPropertyList.AppointmentAuxiliaryFlags field
 
-Задает битовое поле, описывающее вспомогательное состояние объекта. Область:Встречи Каноническое имя:PidLidAppointmentAuxiliaryFlags Альтернативные имена:dispidApptAuxFlags
+Указывает битовое поле, описывающее вспомогательное состояние объекта. Область: Meetings Каноническое имя: PidLidAppointmentAuxiliaryFlags Альтернативные имена: dispidApptAuxFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentAuxiliaryFlags;

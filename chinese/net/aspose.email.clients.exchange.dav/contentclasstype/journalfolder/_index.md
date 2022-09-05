@@ -1,14 +1,14 @@
 ---
 title: JournalFolder
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesjournalfolder 内容类 为主要包含日记项目的文件夹定义一组属性
+description: 获取 urncontent-classesjournalfolder 内容类 它为主要包含日记项目的文件夹定义一组属性
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/journalfolder/
 ---
 ## ContentClassType.JournalFolder property
 
-获取 urn:content-classes:journalfolder 内容类 为主要包含日记项目的文件夹定义一组属性。
+获取 urn:content-classes:journalfolder 内容类 ，它为主要包含日记项目的文件夹定义一组属性。
 
 ```csharp
 public static ContentClassType JournalFolder { get; }

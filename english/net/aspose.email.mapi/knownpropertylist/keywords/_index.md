@@ -1,7 +1,7 @@
 ---
 title: Keywords
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains keywords or categories for the Message object. Area General Message Properties Canonical name PidNameKeywords Alternate names urnschemasmicrosoftcomofficeofficeKeywords
 type: docs
 weight: 11930
 url: /net/aspose.email.mapi/knownpropertylist/keywords/

@@ -1,14 +1,14 @@
 ---
 title: ClipStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время начала события в формате UTC. ОбластьКалендарь Каноническое имяPidLidClipStart Альтернативные именаdispidClipStart
+description: Указывает дату и время начала события в формате UTC. Область Calendar Каноническое имя PidLidClipStart Альтернативные имена dispidClipStart
 type: docs
 weight: 2720
 url: /ru/net/aspose.email.mapi/knownpropertylist/clipstart/
 ---
 ## KnownPropertyList.ClipStart field
 
-Указывает дату и время начала события в формате UTC. Область:Календарь Каноническое имя:PidLidClipStart Альтернативные имена:dispidClipStart
+Указывает дату и время начала события в формате UTC. Область: Calendar Каноническое имя: PidLidClipStart Альтернативные имена: dispidClipStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClipStart;

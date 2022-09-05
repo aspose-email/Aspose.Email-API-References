@@ -1,14 +1,14 @@
 ---
 title: UserField4
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает четвертое поле контакта которое предназначено для различных целей контакта.
+description: Определяет четвертое поле контакта которое предназначено для разных целей контакта.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/userfield4/
 ---
 ## MapiContactOtherPropertySet.UserField4 property
 
-Задает четвертое поле контакта, которое предназначено для различных целей контакта.
+Определяет четвертое поле контакта, которое предназначено для разных целей контакта.
 
 ```csharp
 public string UserField4 { get; set; }

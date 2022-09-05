@@ -3,7 +3,7 @@ title: InstantMessengerList
 second_title: Справочник по Aspose.Email для .NET API
 description: Список адресов мессенджеров для контакта.
 type: docs
-weight: 19420
+weight: 19450
 url: /ru/net/aspose.email.personalinfo/instantmessengerlist/
 ---
 ## InstantMessengerList class
@@ -25,15 +25,15 @@ public class InstantMessengerList : IList<InstantMessengerAddress>
 | Имя | Описание |
 | --- | --- |
 | [AIM](../../aspose.email.personalinfo/instantmessengerlist/aim) { get; set; } | Идентификатор AIM по умолчанию |
-| [Count](../../aspose.email.personalinfo/instantmessengerlist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/instantmessengerlist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [GoogleTalk](../../aspose.email.personalinfo/instantmessengerlist/googletalk) { get; set; } | Идентификатор Google Talk по умолчанию |
 | [ICQ](../../aspose.email.personalinfo/instantmessengerlist/icq) { get; set; } | Идентификатор ICQ по умолчанию |
 | [IsReadOnly](../../aspose.email.personalinfo/instantmessengerlist/isreadonly) { get; } | Получает значение, указывающее, доступен ли список только для чтения. |
 | [Item](../../aspose.email.personalinfo/instantmessengerlist/item) { get; set; } | Адрес мессенджера по умолчанию для указанной категории (2 indexers) |
 | [Jabber](../../aspose.email.personalinfo/instantmessengerlist/jabber) { get; set; } | Идентификатор Jabber по умолчанию |
 | [MSN](../../aspose.email.personalinfo/instantmessengerlist/msn) { get; set; } | Идентификатор MSN по умолчанию |
-| [QQ](../../aspose.email.personalinfo/instantmessengerlist/qq) { get; set; } | Идентификатор QQ по умолчанию |
-| [Skype](../../aspose.email.personalinfo/instantmessengerlist/skype) { get; set; } | Скайп по умолчанию: |
+| [QQ](../../aspose.email.personalinfo/instantmessengerlist/qq) { get; set; } | QQ по умолчанию id |
+| [Skype](../../aspose.email.personalinfo/instantmessengerlist/skype) { get; set; } | Скайп по умолчанию is |
 | [Yahoo](../../aspose.email.personalinfo/instantmessengerlist/yahoo) { get; set; } | Идентификатор Yahoo по умолчанию |
 
 ## Методы

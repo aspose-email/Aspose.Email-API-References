@@ -1,7 +1,7 @@
 ---
 title: GlobalObjectId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an ID for an object that represents an exception to a recurring series. Area Meetings Canonical name PidLidGlobalObjectId Alternate names LID_GLOBAL_OBJID
 type: docs
 weight: 10790
 url: /net/aspose.email.mapi/knownpropertylist/globalobjectid/

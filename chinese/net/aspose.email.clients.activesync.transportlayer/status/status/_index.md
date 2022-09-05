@@ -28,7 +28,7 @@ public Status(Status status)
 
 ## Status(string) {#constructor_2}
 
-初始化 Status 类的新实例。 状态码初始化为 0 值。
+初始化状态类的新实例。 状态代码初始化为 0 值。
 
 ```csharp
 public Status(string description)
@@ -56,7 +56,7 @@ public Status(int statusCode, string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| statusCode | Int32 | 包含状态代码 |
+| statusCode | Int32 | 包含状态码 |
 | description | String | 包含状态描述 |
 
 ### 也可以看看

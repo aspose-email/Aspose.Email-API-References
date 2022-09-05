@@ -1,14 +1,14 @@
 ---
 title: References
 second_title: Aspose.Email for .NET API 参考
-description: 引用其他相关消息
+description: 参考其他相关消息
 type: docs
 weight: 180
 url: /zh/net/aspose.email/headertype/references/
 ---
 ## HeaderType.References property
 
-引用其他相关消息。
+参考其他相关消息。
 
 ```csharp
 public static HeaderType References { get; }

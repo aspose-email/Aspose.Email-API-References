@@ -1,7 +1,7 @@
 ---
 title: Path
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the mailbox folder where the message that was accessed is located.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/exchangefolder/path/

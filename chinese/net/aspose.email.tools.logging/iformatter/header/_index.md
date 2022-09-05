@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Aspose.Email for .NET API 参考
-description: 获取标题字符串
+description: 获取标头字符串
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.logging/iformatter/header/
 ---
 ## IFormatter.Header property
 
-获取标题字符串。
+获取标头字符串。
 
 ```csharp
 public string Header { get; }

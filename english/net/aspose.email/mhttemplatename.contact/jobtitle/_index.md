@@ -1,7 +1,7 @@
 ---
 title: JobTitle
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Job Title header.
 type: docs
 weight: 210
 url: /net/aspose.email/mhttemplatename.contact/jobtitle/

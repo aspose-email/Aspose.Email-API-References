@@ -3,7 +3,7 @@ title: PersonalStorageQueryBuilder
 second_title: Aspose.Email for .NET API 参考
 description: 表示 pst 使用的搜索表达式 的构建器
 type: docs
-weight: 20260
+weight: 20310
 url: /zh/net/aspose.email.storage.pst/personalstoragequerybuilder/
 ---
 ## PersonalStorageQueryBuilder class
@@ -18,7 +18,7 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PersonalStorageQueryBuilder](personalstoragequerybuilder)() | 初始化[`PersonalStorageQueryBuilder`](../personalstoragequerybuilder)类的新实例。 |
+| [PersonalStorageQueryBuilder](personalstoragequerybuilder)() | 初始化[`PersonalStorageQueryBuilder`](../personalstoragequerybuilder)类. |
 
 ## 特性
 
@@ -26,10 +26,10 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 | --- | --- |
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | 获取允许在信封结构的密件抄送字段中查找包含指定字符串的消息的字段。 |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | 获取允许在消息正文中查找包含指定字符串的消息的字段。 |
-| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。 |
-| [ContainerClass](../../aspose.email.storage.pst/personalstoragequerybuilder/containerclass) { get; } | 获取具有指定消息类别的文件夹。 |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。 |
+| [ContainerClass](../../aspose.email.storage.pst/personalstoragequerybuilder/containerclass) { get; } | 获取具有指定邮件类别的文件夹。 |
 | [ContentsCount](../../aspose.email.storage.pst/personalstoragequerybuilder/contentscount) { get; } | 搜索具有指定内容计数的文件夹。 |
-| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询生成器的默认编码（字符集） |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询 builder 的默认编码（字符集） |
 | [FolderName](../../aspose.email.storage.pst/personalstoragequerybuilder/foldername) { get; } | 搜索具有指定显示名称的文件夹。 |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | 获取允许在信封结构的 FROM 字段中查找包含指定字符串的消息的字段。 |
 | [Importance](../../aspose.email.storage.pst/personalstoragequerybuilder/importance) { get; } | 搜索具有指定重要性的消息。 |
@@ -40,7 +40,7 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 | [OnlyFoldersCreatedByUser](../../aspose.email.storage.pst/personalstoragequerybuilder/onlyfolderscreatedbyuser) { get; } | 获取用户创建的文件夹，即排除所有标准 IPM 文件夹。 |
 | [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | 获取允许按发送日期查找消息的字段。 |
 | [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | 获取允许在信封结构的 SUBJECT 字段中查找包含指定字符串的消息的字段。 |
-| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | 获取允许在信封结构的 TO 字段中查找包含指定字符串的消息的字段。 |
 | [UnreadContentsCount](../../aspose.email.storage.pst/personalstoragequerybuilder/unreadcontentscount) { get; } | 搜索具有指定未读内容计数的文件夹。 |
 
@@ -51,10 +51,10 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 | [FindConversationThread](../../aspose.email.storage.pst/personalstoragequerybuilder/findconversationthread)(MessageInfo) | 查找对话线程。 |
 | [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | 获取查询。 |
 | [HasFlags](../../aspose.email.storage.pst/personalstoragequerybuilder/hasflags)(MapiMessageFlags) | 搜索带有指定标志的消息。 |
-| [HasNoFlags](../../aspose.email.storage.pst/personalstoragequerybuilder/hasnoflags)(MapiMessageFlags) | 搜索带有未指定标志的消息。 |
+| [HasNoFlags](../../aspose.email.storage.pst/personalstoragequerybuilder/hasnoflags)(MapiMessageFlags) | 搜索带有未指定标志的邮件。 |
 | [HasNoSubfolders](../../aspose.email.storage.pst/personalstoragequerybuilder/hasnosubfolders)() | 搜索不包含子文件夹的文件夹。 |
 | [HasSubfolders](../../aspose.email.storage.pst/personalstoragequerybuilder/hassubfolders)() | 搜索包含子文件夹的文件夹。 |
-| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。 |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SenderSmtpAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含发送邮箱所有者的电子邮件地址的 SMTP 电子邮件地址格式 区域邮件 规范名称PidTagSenderSmtpAddress 别名SenderSmtpAddress ptagSenderSmtpAddress
+description: 包含发送邮箱所有者的电子邮件地址的 SMTP 电子邮件地址格式 区域Mail 规范名称PidTagSenderSmtpAddress 替代名称SenderSmtpAddressptagSenderSmtpAddress
 type: docs
 weight: 17150
 url: /zh/net/aspose.email.mapi/knownpropertylist/sendersmtpaddress/
 ---
 ## KnownPropertyList.SenderSmtpAddress field
 
-包含发送邮箱所有者的电子邮件地址的 SMTP 电子邮件地址格式。 区域:邮件 规范名称:PidTagSenderSmtpAddress 别名:SenderSmtpAddress, ptagSenderSmtpAddress
+包含发送邮箱所有者的电子邮件地址的 SMTP 电子邮件地址格式。 区域：Mail 规范名称：PidTagSenderSmtpAddress 替代名称：SenderSmtpAddress、ptagSenderSmtpAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderSmtpAddress;

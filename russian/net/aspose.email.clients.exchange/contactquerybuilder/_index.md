@@ -1,14 +1,14 @@
 ---
 title: ContactQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет построитель поискового выражения используемого протоколом Exchange.
+description: Представляет построитель выражения поиска используемого протоколом Exchange.
 type: docs
 weight: 3130
 url: /ru/net/aspose.email.clients.exchange/contactquerybuilder/
 ---
 ## ContactQueryBuilder class
 
-Представляет построитель поискового выражения, используемого протоколом Exchange.
+Представляет построитель выражения поиска, используемого протоколом Exchange.
 
 ```csharp
 public sealed class ContactQueryBuilder

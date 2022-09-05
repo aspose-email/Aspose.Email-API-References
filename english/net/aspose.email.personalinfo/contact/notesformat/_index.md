@@ -1,7 +1,7 @@
 ---
 title: NotesFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a format of a notes field.
 type: docs
 weight: 290
 url: /net/aspose.email.personalinfo/contact/notesformat/

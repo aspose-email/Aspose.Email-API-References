@@ -1,14 +1,14 @@
 ---
 title: Department
 second_title: Aspose.Email for .NET API 参考
-description: 该属性被服务器忽略并被客户端设置为空字符串 区域联系人属性 规范名称PidLidDepartment 别名dispidDepartment
+description: 该属性被服务器忽略并被客户端设置为空字符串 区域联系人 Properties 规范名称PidLidDepartment 备用名称dispidDepartment
 type: docs
 weight: 3990
 url: /zh/net/aspose.email.mapi/knownpropertylist/department/
 ---
 ## KnownPropertyList.Department field
 
-该属性被服务器忽略并被客户端设置为空字符串。 区域:联系人属性 规范名称:PidLidDepartment 别名:dispidDepartment
+该属性被服务器忽略并被客户端设置为空字符串。 区域：联系人 Properties 规范名称：PidLidDepartment 备用名称：dispidDepartment
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Department;

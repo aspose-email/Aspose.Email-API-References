@@ -22,7 +22,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,12 +43,12 @@ public Task RenameFolderAsync(string folderName, string newFolderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹为重命名 |
+| folderName | String | 要重命名的文件夹 |
 | newFolderName | String | 新文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -76,7 +76,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -97,13 +97,13 @@ public Task RenameFolderAsync(string folderName, string newFolderName, Cancellat
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹为重命名 |
+| folderName | String | 要重命名的文件夹 |
 | newFolderName | String | 新文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

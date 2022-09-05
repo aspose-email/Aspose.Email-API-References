@@ -1,14 +1,14 @@
 ---
 title: NotHandled
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает необработанные почтовые сообщения
+description: Получает почтовые сообщения которые не были обработаны
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/appendmessagesresult/nothandled/
 ---
 ## AppendMessagesResult.NotHandled property
 
-Получает необработанные почтовые сообщения
+Получает почтовые сообщения, которые не были обработаны
 
 ```csharp
 public List<MailMessage> NotHandled { get; }

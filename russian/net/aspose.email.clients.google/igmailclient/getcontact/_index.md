@@ -1,14 +1,14 @@
 ---
 title: GetContact
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает контакт
+description: Получает контакт
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients.google/igmailclient/getcontact/
 ---
 ## GetContact(string) {#getcontact_1}
 
-Выбирает контакт
+Получает контакт
 
 ```csharp
 public Contact GetContact(string contactUri)
@@ -20,13 +20,13 @@ public Contact GetContact(string contactUri)
 
 ### Возвращаемое значение
 
-[`Contact`](../../../aspose.email.personalinfo/contact)объект, представляющий контакт gmail
+[`Contact`](../../../aspose.email.personalinfo/contact) объект, представляющий контакт gmail
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| WebException | при сбое операции |
+| WebException | когда операция не удалась |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public Contact GetContact(string contactUri)
 
 ## GetContact(Contact) {#getcontact}
 
-Контакт для обновления[`Contact`](../../../aspose.email.personalinfo/contact)объект, представляющий контакт gmail при сбое операции
+Свяжитесь, чтобы обновить[`Contact`](../../../aspose.email.personalinfo/contact) объект, представляющий контакт gmail когда операция не удалась
 
 ```csharp
 public Contact GetContact(Contact contact)

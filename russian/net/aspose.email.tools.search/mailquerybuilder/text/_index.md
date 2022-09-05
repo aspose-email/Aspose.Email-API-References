@@ -16,7 +16,7 @@ public StringComparisonField Text { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield), представляющий текстовый заголовок или основной поиск поля.
+[`DateComparisonField`](../../datecomparisonfield) который представляет текстовый заголовок или поля основного поиска.
 
 ### Смотрите также
 

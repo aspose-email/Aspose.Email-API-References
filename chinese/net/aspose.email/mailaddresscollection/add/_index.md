@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API 参考
-description: 将MailAddressaspose.email/mailaddress添加到集合中
+description: 添加一个MailAddressaspose.email/mailaddress收藏.
 type: docs
 weight: 20
 url: /zh/net/aspose.email/mailaddresscollection/add/
 ---
 ## Add(MailAddress) {#add}
 
-将[`MailAddress`](../../mailaddress)添加到集合中。
+添加一个[`MailAddress`](../../mailaddress)收藏.
 
 ```csharp
 public void Add(MailAddress address)
@@ -16,7 +16,7 @@ public void Add(MailAddress address)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| address | MailAddress | [`MailAddress`](../../mailaddress) |
+| address | MailAddress | 这[`MailAddress`](../../mailaddress) |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void Add(string addresses)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| addresses | String | 地址列表。 地址必须用逗号分隔。 |
+| addresses | String | 一个地址列表。 地址必须用逗号分隔。 |
 
 ### 也可以看看
 

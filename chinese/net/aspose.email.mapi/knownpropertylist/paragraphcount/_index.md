@@ -1,14 +1,14 @@
 ---
 title: ParagraphCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件中的段落数 区域普通 规范名称PidNameParagraphCount 替代名称urnschemas-microsoft-comofficeofficeParagraphs
+description: 指定附加到文档对象的文件中的段落数 区域Common 规范名称PidNameParagraphCount 替代名称urnschemas-microsoft-comofficeofficeParagraphs
 type: docs
 weight: 14170
 url: /zh/net/aspose.email.mapi/knownpropertylist/paragraphcount/
 ---
 ## KnownPropertyList.ParagraphCount field
 
-指定附加到 Document 对象的文件中的段落数。 区域：普通 规范名称：PidNameParagraphCount 替代名称：urn:schemas-microsoft-com:office:office#Paragraphs
+指定附加到文档对象的文件中的段落数。 区域：Common 规范名称：PidNameParagraphCount 替代名称：urn:schemas-microsoft-com:office:office#Paragraphs
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ParagraphCount;

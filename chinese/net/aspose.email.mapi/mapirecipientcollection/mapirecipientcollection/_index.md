@@ -1,14 +1,14 @@
 ---
 title: MapiRecipientCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiRecipientCollectionaspose.email.mapi/mapirecipientcollection类的新实例
+description: 初始化MapiRecipientCollectionaspose.email.mapi/mapirecipientcollection类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapirecipientcollection/mapirecipientcollection/
 ---
 ## MapiRecipientCollection constructor
 
-初始化[`MapiRecipientCollection`](../../mapirecipientcollection)类的新实例。
+初始化[`MapiRecipientCollection`](../../mapirecipientcollection)类.
 
 ```csharp
 public MapiRecipientCollection()

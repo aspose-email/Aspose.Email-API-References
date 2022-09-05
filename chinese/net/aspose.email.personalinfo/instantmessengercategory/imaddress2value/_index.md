@@ -1,14 +1,14 @@
 ---
 title: ImAddress2Value
 second_title: Aspose.Email for .NET API 参考
-description: ImAddress2 类别的字符串值
+description: ImAddress2类别的字符串值
 type: docs
 weight: 240
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/imaddress2value/
 ---
 ## InstantMessengerCategory.ImAddress2Value field
 
-'ImAddress2' 类别的字符串值
+“ImAddress2”类别的字符串值
 
 ```csharp
 public const string ImAddress2Value;

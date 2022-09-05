@@ -1,7 +1,7 @@
 ---
 title: OfficeLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users office location. Area Address Properties Canonical name PidTagOfficeLocation Alternate names PR_OFFICE_LOCATION PR_OFFICE_LOCATION_A PR_OFFICE_LOCATION_W
 type: docs
 weight: 13220
 url: /net/aspose.email.mapi/knownpropertylist/officelocation/

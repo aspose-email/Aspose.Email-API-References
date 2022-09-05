@@ -1,7 +1,7 @@
 ---
 title: Work
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default work phone number
 type: docs
 weight: 200
 url: /net/aspose.email.personalinfo/phonenumberlist/work/

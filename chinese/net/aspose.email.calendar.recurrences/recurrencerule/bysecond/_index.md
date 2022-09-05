@@ -1,14 +1,14 @@
 ---
 title: BySecond
 second_title: Aspose.Email for .NET API 参考
-description: 获取秒数
+description: 按秒获取
 type: docs
 weight: 70
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/bysecond/
 ---
 ## RecurrenceRule.BySecond property
 
-获取秒数。
+按秒获取。
 
 ```csharp
 public ByNumberCollection BySecond { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection BySecond { get; }
 
 ### 适当的价值
 
-秒。
+次之。
 
 ### 也可以看看
 

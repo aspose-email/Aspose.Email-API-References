@@ -1,14 +1,14 @@
 ---
 title: ResetImpersonation
 second_title: Справочник по Aspose.Email для .NET API
-description: Сбрасывает олицетворение.
+description: Выполняет сброс олицетворения.
 type: docs
 weight: 1340
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/resetimpersonation/
 ---
 ## IEWSClient.ResetImpersonation method
 
-Сбрасывает олицетворение.
+Выполняет сброс олицетворения.
 
 ```csharp
 public void ResetImpersonation()

@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time at which the activity began.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapijournal/starttime/

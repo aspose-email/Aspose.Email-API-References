@@ -1,14 +1,14 @@
 ---
 title: PreserveOriginalDate
 second_title: Aspose.Email for .NET API 参考
-description: 定义保存时是否需要保留邮件消息中的原始日期 默认值为真
+description: 定义保存时是否需要在邮件消息中保留原始日期 默认值为true
 type: docs
 weight: 50
 url: /zh/net/aspose.email/mhtsaveoptions/preserveoriginaldate/
 ---
 ## MhtSaveOptions.PreserveOriginalDate property
 
-定义保存时是否需要保留邮件消息中的原始日期。 默认值为真。
+定义保存时是否需要在邮件消息中保留原始日期。 默认值为true。
 
 ```csharp
 public bool PreserveOriginalDate { get; set; }

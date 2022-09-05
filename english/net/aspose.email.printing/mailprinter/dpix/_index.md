@@ -1,7 +1,7 @@
 ---
 title: DpiX
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the horizontal DPI.
 type: docs
 weight: 30
 url: /net/aspose.email.printing/mailprinter/dpix/

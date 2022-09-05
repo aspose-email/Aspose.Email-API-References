@@ -1,14 +1,14 @@
 ---
 title: DeleteMessageAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除邮件
+description: 删除消息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.pop3/iasyncpop3client/deletemessageasync/
 ---
 ## DeleteMessageAsync(int, IConnection, CancellationToken) {#deletemessageasync}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(int sequenceNumber, IConnection connection = null, 
@@ -18,8 +18,8 @@ public Task DeleteMessageAsync(int sequenceNumber, IConnection connection = null
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | IConnection | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | IConnection | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 评论
 
@@ -36,7 +36,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(string, IConnection, CancellationToken) {#deletemessageasync_1}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, IConnection connection = null, 
@@ -46,8 +46,8 @@ public Task DeleteMessageAsync(string uniqueId, IConnection connection = null,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
-| uniqueId | IConnection | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | IConnection | 消息的唯一标识 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 评论
 

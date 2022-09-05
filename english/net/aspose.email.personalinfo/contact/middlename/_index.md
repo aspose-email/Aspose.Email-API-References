@@ -1,7 +1,7 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a middle name that is a part of a persons full name. In some countries people have an additional middle name.
 type: docs
 weight: 260
 url: /net/aspose.email.personalinfo/contact/middlename/

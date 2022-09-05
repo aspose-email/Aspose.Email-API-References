@@ -1,14 +1,14 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API 参考
-description: 获取 邮件接收者或发送者的地址类型
+description: 获取 消息接收者或发送者的地址类型
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapirecipient/addresstype/
 ---
 ## MapiRecipient.AddressType property
 
-获取 邮件接收者或发送者的地址类型。
+获取 消息接收者或发送者的地址类型。
 
 ```csharp
 public string AddressType { get; }

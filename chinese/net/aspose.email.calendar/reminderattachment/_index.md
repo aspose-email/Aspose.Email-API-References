@@ -18,8 +18,8 @@ public class ReminderAttachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReminderAttachment](reminderattachment#constructor)(byte[]) | 初始化[`ReminderAttachment`](../reminderattachment)类的新实例。 |
-| [ReminderAttachment](reminderattachment#constructor_1)(Uri) | 初始化[`ReminderAttachment`](../reminderattachment)类的新实例。 |
+| [ReminderAttachment](reminderattachment#constructor)(byte[]) | 初始化一个新的实例[`ReminderAttachment`](../reminderattachment)类. |
+| [ReminderAttachment](reminderattachment#constructor_1)(Uri) | 初始化一个新的实例[`ReminderAttachment`](../reminderattachment)类. |
 
 ## 特性
 

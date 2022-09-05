@@ -1,14 +1,14 @@
 ---
 title: SharingProviderGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46. ОбластьСовместное использование Каноническое имяPidLidSharingProviderGuid Альтернативные именаdispidSharingProviderGuid
+description: Содержит значение xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46. Область Sharing Каноническое имя PidLidSharingProviderGuid Альтернативные имена dispidSharingProviderGuid
 type: docs
 weight: 17710
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingproviderguid/
 ---
 ## KnownPropertyList.SharingProviderGuid field
 
-Содержит значение "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46". Область:Совместное использование Каноническое имя:PidLidSharingProviderGuid Альтернативные имена:dispidSharingProviderGuid
+Содержит значение "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46". Область: Sharing Каноническое имя: PidLidSharingProviderGuid Альтернативные имена: dispidSharingProviderGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderGuid;

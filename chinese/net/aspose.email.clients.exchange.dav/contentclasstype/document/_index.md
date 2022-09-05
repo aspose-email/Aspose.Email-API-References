@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesdocument 内容类该类 为作为文档的项目例如 Microsoft  Word 文件
+description: 获取 urncontent-classesdocument 内容类 为作为文档的项目例如 Microsoft Word 文件定义一组属性
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/document/
 ---
 ## ContentClassType.Document property
 
-获取 urn:content-classes:document 内容类，该类 为作为文档的项目（例如 Microsoft � Word 文件。
+获取 urn:content-classes:document 内容类， 为作为文档的项目（例如 Microsoft Word 文件）定义一组属性。
 
 ```csharp
 public static ContentClassType Document { get; }

@@ -1,14 +1,14 @@
 ---
 title: SaveStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет состояние сохранения извлеченного сообщения.
+description: Представляет статус сохранения извлеченного сообщения.
 type: docs
-weight: 20290
+weight: 20340
 url: /ru/net/aspose.email.storage.pst/savestatus/
 ---
 ## SaveStatus enumeration
 
-Представляет состояние сохранения извлеченного сообщения.
+Представляет статус сохранения извлеченного сообщения.
 
 ```csharp
 public enum SaveStatus

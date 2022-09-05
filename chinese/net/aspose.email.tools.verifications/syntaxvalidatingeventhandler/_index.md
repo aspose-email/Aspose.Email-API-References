@@ -3,7 +3,7 @@ title: SyntaxValidatingEventHandler
 second_title: Aspose.Email for .NET API 参考
 description: 表示 SyntaxValidatingEvent 的事件处理程序
 type: docs
-weight: 20790
+weight: 20840
 url: /zh/net/aspose.email.tools.verifications/syntaxvalidatingeventhandler/
 ---
 ## SyntaxValidatingEventHandler delegate

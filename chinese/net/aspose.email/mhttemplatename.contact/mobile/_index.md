@@ -1,14 +1,14 @@
 ---
 title: Mobile
 second_title: Aspose.Email for .NET API 参考
-description: 手机头
+description: 手机头.
 type: docs
 weight: 240
 url: /zh/net/aspose.email/mhttemplatename.contact/mobile/
 ---
 ## MhtTemplateName.Contact.Mobile field
 
-手机头。
+手机头.
 
 ```csharp
 public const string Mobile;

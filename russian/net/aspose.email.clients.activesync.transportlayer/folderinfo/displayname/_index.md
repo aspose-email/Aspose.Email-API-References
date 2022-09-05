@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает удобное для пользователя имя папки.
+description: Указывает понятное имя папки.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/folderinfo/displayname/
 ---
 ## FolderInfo.DisplayName property
 
-Задает удобное для пользователя имя папки.
+Указывает понятное имя папки.
 
 ```csharp
 public string DisplayName { get; }

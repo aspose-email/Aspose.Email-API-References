@@ -1,14 +1,14 @@
 ---
 title: BeforeHeadersFormat
 second_title: Aspose.Email for .NET API 参考
-description: BeforeHeadersFormat 用于 HeadersFormattingOptions 实例如果未设置 BeforeHeadersFormat
+description: 如果未设置 BeforeHeadersFormat则为 HeadersFormattingOptions 实例的 BeforeHeadersFormat
 type: docs
 weight: 20
 url: /zh/net/aspose.email/globalformattingoptions/beforeheadersformat/
 ---
 ## GlobalFormattingOptions.BeforeHeadersFormat property
 
-BeforeHeadersFormat 用于 HeadersFormattingOptions 实例（如果未设置 BeforeHeadersFormat）。
+如果未设置 BeforeHeadersFormat，则为 HeadersFormattingOptions 实例的 BeforeHeadersFormat。
 
 ```csharp
 public static string BeforeHeadersFormat { get; set; }

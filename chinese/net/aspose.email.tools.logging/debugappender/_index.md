@@ -1,14 +1,14 @@
 ---
 title: DebugAppender
 second_title: Aspose.Email for .NET API 参考
-description: 表示仅在调试时启用appender
+description: 表示只有在调试时才启用一个appender
 type: docs
-weight: 20410
+weight: 20460
 url: /zh/net/aspose.email.tools.logging/debugappender/
 ---
 ## DebugAppender class
 
-表示仅在调试时启用appender。
+表示只有在调试时才启用一个appender。
 
 ```csharp
 public class DebugAppender : Appender
@@ -18,7 +18,7 @@ public class DebugAppender : Appender
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DebugAppender](debugappender)() | 初始化[`DebugAppender`](../debugappender)类的新实例。 |
+| [DebugAppender](debugappender)() | 初始化[`DebugAppender`](../debugappender)类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class DebugAppender : Appender
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/debugappender/append)(LogEntry) | 将指定的日志条目附加到附加程序。 |
+| override [Append](../../aspose.email.tools.logging/debugappender/append)(LogEntry) | 将指定的日志条目附加到 appender。 |
 | virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | 以特定标题启动日志文件。 |
 | virtual [Close](../../aspose.email.tools.logging/appender/close)() | 关闭附加程序。 |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | 释放 Appender 使用的非托管资源。 |

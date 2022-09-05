@@ -1,7 +1,7 @@
 ---
 title: ConversationTopic
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the topic of the first message in a conversation thread.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapimessage/conversationtopic/

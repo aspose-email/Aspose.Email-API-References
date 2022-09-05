@@ -21,7 +21,7 @@ public class ImapQuota
 | [Limit](../../aspose.email.clients.imap/imapquota/limit) { get; } | 获取资源限制 |
 | [QuotaRootName](../../aspose.email.clients.imap/imapquota/quotarootname) { get; } | 获取 qupta 根名称 |
 | [ResourceName](../../aspose.email.clients.imap/imapquota/resourcename) { get; } | 获取资源名称 |
-| [Used](../../aspose.email.clients.imap/imapquota/used) { get; } | 获取资源使用情况 |
+| [Used](../../aspose.email.clients.imap/imapquota/used) { get; } | 获取资源的使用情况 |
 
 ### 也可以看看
 

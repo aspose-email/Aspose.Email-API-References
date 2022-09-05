@@ -1,14 +1,14 @@
 ---
 title: OriginalIsTnef
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示 原始 EML 消息是否为 TNEF 格式的值
+description: 获取一个值指示 原始EML消息是否为TNEF格式
 type: docs
 weight: 230
 url: /zh/net/aspose.email/mailmessage/originalistnef/
 ---
 ## MailMessage.OriginalIsTnef property
 
-获取表示 原始 EML 消息是否为 TNEF 格式的值。
+获取一个值，指示 原始EML消息是否为TNEF格式。
 
 ```csharp
 public virtual bool OriginalIsTnef { get; }

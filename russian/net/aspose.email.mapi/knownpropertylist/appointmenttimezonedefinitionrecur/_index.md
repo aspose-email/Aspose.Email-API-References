@@ -1,14 +1,14 @@
 ---
 title: AppointmentTimeZoneDefinitionRecur
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает информацию о часовом поясе которая описывает как преобразовать дату и время собрания в повторяющемся ряду в формат UTC и обратно. ОбластьКалендарь Каноническое имяPidLidAppointmentTimeZoneDefinitionRecur Альтернативные именаdispidApptTZDefRecur
+description: Указывает информацию о часовом поясе описывающую как преобразовать дату и время собрания в повторяющемся ряду в формат UTC и обратно. Область Calendar Каноническое имя PidLidAppointmentTimeZoneDefinitionRecur Альтернативные имена dispidApptTZDefRecur
 type: docs
 weight: 1360
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmenttimezonedefinitionrecur/
 ---
 ## KnownPropertyList.AppointmentTimeZoneDefinitionRecur field
 
-Указывает информацию о часовом поясе, которая описывает, как преобразовать дату и время собрания в повторяющемся ряду в формат UTC и обратно. Область:Календарь Каноническое имя:PidLidAppointmentTimeZoneDefinitionRecur Альтернативные имена:dispidApptTZDefRecur
+Указывает информацию о часовом поясе, описывающую, как преобразовать дату и время собрания в повторяющемся ряду в формат UTC и обратно. Область: Calendar Каноническое имя: PidLidAppointmentTimeZoneDefinitionRecur Альтернативные имена: dispidApptTZDefRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentTimeZoneDefinitionRecur;

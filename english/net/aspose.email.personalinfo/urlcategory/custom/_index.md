@@ -1,7 +1,7 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Custom page URL
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/urlcategory/custom/

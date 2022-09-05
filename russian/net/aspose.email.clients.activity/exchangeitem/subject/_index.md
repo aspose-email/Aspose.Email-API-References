@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Строка темы сообщения к которому был осуществлен доступ.
+description: Строка темы сообщения к которому был получен доступ.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activity/exchangeitem/subject/
 ---
 ## ExchangeItem.Subject property
 
-Строка темы сообщения, к которому был осуществлен доступ.
+Строка темы сообщения, к которому был получен доступ.
 
 ```csharp
 public string Subject { get; set; }

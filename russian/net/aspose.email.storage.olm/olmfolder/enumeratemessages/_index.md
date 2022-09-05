@@ -1,14 +1,14 @@
 ---
 title: EnumerateMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет перечислитель который поддерживает итерацию сообщений в папке.
+description: Предоставляет перечислитель поддерживающий итерацию сообщений в папке.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.storage.olm/olmfolder/enumeratemessages/
 ---
 ## EnumerateMessages() {#enumeratemessages}
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<OlmMessageInfo> EnumerateMessages()
@@ -16,7 +16,7 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages()
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ IEnumerable, который представляет перечислитель,
 
 ## EnumerateMessages(int, int) {#enumeratemessages_2}
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count)
@@ -37,23 +37,23 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс стартового сообщения. |
-| count | Int32 | Количество сообщений, которые будут извлечены. |
+| startIndex | Int32 | Индекс начального сообщения. |
+| count | Int32 | Количество сообщений, которые будут получены. |
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | выдает, если startIndex меньше 0. |
-| ArgumentOutOfRangeException | выдает, если startIndex больше или равен общему количеству сообщений, содержащихся в этой папке. |
+| ArgumentOutOfRangeException | бросает, если startIndex меньше 0. |
+| ArgumentOutOfRangeException | бросает, если startIndex больше или равен общему количеству сообщений, содержащихся в этой папке. |
 
 ### Примечания
 
-Если параметр "count" меньше 0 или больше количества оставшихся сообщений, то будет возвращено количество оставшихся сообщений.
+Если параметр count меньше 0 или больше количества оставшихся сообщений, то будет возвращено количество оставшихся сообщений.
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ IEnumerable, который представляет перечислитель,
 
 ## EnumerateMessages(MailQuery) {#enumeratemessages_1}
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<OlmMessageInfo> EnumerateMessages(MailQuery query)
@@ -74,11 +74,11 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 

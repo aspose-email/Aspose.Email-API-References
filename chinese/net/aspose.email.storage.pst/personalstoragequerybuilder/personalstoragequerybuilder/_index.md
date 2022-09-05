@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder
 second_title: Aspose.Email for .NET API 参考
-description: 初始化PersonalStorageQueryBuilderaspose.email.storage.pst/personalstoragequerybuilder类的新实例
+description: 初始化PersonalStorageQueryBuilderaspose.email.storage.pst/personalstoragequerybuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.pst/personalstoragequerybuilder/personalstoragequerybuilder/
 ---
 ## PersonalStorageQueryBuilder constructor
 
-初始化[`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder)类的新实例。
+初始化[`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder)类.
 
 ```csharp
 public PersonalStorageQueryBuilder()

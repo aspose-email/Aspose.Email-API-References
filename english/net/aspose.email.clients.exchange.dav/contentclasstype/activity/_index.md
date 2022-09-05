@@ -1,7 +1,7 @@
 ---
 title: Activity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesactivity content class that defines a set of properties for an item that is a Journal. This maps to IPM.Activity.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/activity/

@@ -1,7 +1,7 @@
 ---
 title: Bias
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time zones offset in minutes from UTC.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/bias/

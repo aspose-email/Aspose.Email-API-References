@@ -1,7 +1,7 @@
 ---
 title: RecordType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of operation indicated by the record. Mandatory Yes
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/content/recordtype/

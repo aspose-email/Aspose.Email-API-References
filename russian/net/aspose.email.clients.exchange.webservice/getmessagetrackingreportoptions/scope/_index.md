@@ -18,7 +18,7 @@ public string Scope { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *value*is` null` или` пусто` |
+| ArgumentException | *value* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

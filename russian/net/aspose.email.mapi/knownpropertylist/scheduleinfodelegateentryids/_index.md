@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDelegateEntryIds
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает EntryID делегатов. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoDelegateEntryIds Альтернативные именаPR_SCHDINFO_DELEGATE_ENTRYIDS
+description: Указывает EntryID делегатов. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoDelegateEntryIds Альтернативные имена PR_SCHDINFO_DELEGATE_ENTRYIDS
 type: docs
 weight: 16730
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegateentryids/
 ---
 ## KnownPropertyList.ScheduleInfoDelegateEntryIds field
 
-Указывает EntryID делегатов. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoDelegateEntryIds Альтернативные имена:PR_SCHDINFO_DELEGATE_ENTRYIDS
+Указывает EntryID делегатов. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoDelegateEntryIds Альтернативные имена: PR_SCHDINFO_DELEGATE_ENTRYIDS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegateEntryIds;

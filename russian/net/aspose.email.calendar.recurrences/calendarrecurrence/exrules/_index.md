@@ -1,14 +1,14 @@
 ---
 title: ExRules
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает правила ex.
+description: Получает бывшие правила.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.calendar.recurrences/calendarrecurrence/exrules/
 ---
 ## CalendarRecurrence.ExRules property
 
-Получает правила ex.
+Получает бывшие правила.
 
 ```csharp
 public RecurrenceRuleCollection ExRules { get; }
@@ -16,7 +16,7 @@ public RecurrenceRuleCollection ExRules { get; }
 
 ### Стоимость имущества
 
-Экс правила.
+Экс рулит.
 
 ### Смотрите также
 

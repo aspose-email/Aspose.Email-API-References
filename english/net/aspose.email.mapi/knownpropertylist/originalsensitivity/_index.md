@@ -1,7 +1,7 @@
 ---
 title: OriginalSensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the sensitivity value of the original email message. Area General Message Properties Canonical name PidTagOriginalSensitivity Alternate names PR_ORIGINAL_SENSITIVITY ptagOriginalSensitivity
 type: docs
 weight: 13710
 url: /net/aspose.email.mapi/knownpropertylist/originalsensitivity/

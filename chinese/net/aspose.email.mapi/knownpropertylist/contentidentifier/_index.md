@@ -1,14 +1,14 @@
 ---
 title: ContentIdentifier
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_CONTENT_IDENTIFIER
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONTENT_IDENTIFIER
 type: docs
 weight: 3210
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentidentifier/
 ---
 ## KnownPropertyList.ContentIdentifier field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_CONTENT_IDENTIFIER
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONTENT_IDENTIFIER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentIdentifier;

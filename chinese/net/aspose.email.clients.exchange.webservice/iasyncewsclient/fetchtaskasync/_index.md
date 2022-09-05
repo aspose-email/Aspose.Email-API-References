@@ -1,14 +1,14 @@
 ---
 title: FetchTaskAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定任务
+description: 获取指定的任务
 type: docs
 weight: 280
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchtaskasync/
 ---
 ## IAsyncEwsClient.FetchTaskAsync method
 
-获取指定任务。
+获取指定的任务。
 
 ```csharp
 public Task<ExchangeTask> FetchTaskAsync(string taskUri, 
@@ -17,18 +17,18 @@ public Task<ExchangeTask> FetchTaskAsync(string taskUri,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| taskUri | String | 任务 uri。 |
+| taskUri | String | 一个任务 uri。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-获取的[`ExchangeTask`](../../exchangetask)
+一个取来的[`ExchangeTask`](../../exchangetask)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *taskUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *taskUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

@@ -1,12 +1,12 @@
 ---
 title: ListSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of child folders from parent
 type: docs
 weight: 1180
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listsubfolders/
 ---
-## IEWSClient.ListSubFolders method (1 of 3)
+## ListSubFolders(string, string) {#listsubfolders_2}
 
 Gets collection of child folders from parent
 
@@ -32,7 +32,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string mailbox, string parent
 
 ---
 
-## IEWSClient.ListSubFolders method (2 of 3)
+## ListSubFolders(string) {#listsubfolders_1}
 
 Gets collection of child folders from parent
 
@@ -57,7 +57,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
 
 ---
 
-## IEWSClient.ListSubFolders method (3 of 3)
+## ListSubFolders(ExchangeFolderInfo) {#listsubfolders}
 
 Gets collection of child public folders from parent
 

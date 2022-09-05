@@ -1,14 +1,14 @@
 ---
 title: SharingTimeToLiveAuto
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingTimeToLiveAuto 替代名称dispidSharingTimeToLiveAuto
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingTimeToLiveAuto 替代名称dispidSharingTimeToLiveAuto
 type: docs
 weight: 17990
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingtimetoliveauto/
 ---
 ## KnownPropertyList.SharingTimeToLiveAuto field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingTimeToLiveAuto 替代名称:dispidSharingTimeToLiveAuto
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingTimeToLiveAuto 替代名称：dispidSharingTimeToLiveAuto
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingTimeToLiveAuto;

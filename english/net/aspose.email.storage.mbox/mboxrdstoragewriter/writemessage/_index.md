@@ -1,12 +1,12 @@
 ---
 title: WriteMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes the message to underlying storage stream.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/writemessage/
 ---
-## MboxrdStorageWriter.WriteMessage method (1 of 2)
+## WriteMessage(MailMessage, out string) {#writemessage_1}
 
 Writes the message to underlying storage stream.
 
@@ -28,7 +28,7 @@ public override void WriteMessage(MailMessage message, out string fromMarker)
 
 ---
 
-## MboxrdStorageWriter.WriteMessage method (2 of 2)
+## WriteMessage(MailMessage) {#writemessage}
 
 Writes the message to underlying storage stream.
 

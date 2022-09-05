@@ -1,14 +1,14 @@
 ---
 title: CancelAppointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Отменяет выход из собрания в календаре организатора
+description: Отменяет выходную встречу в календаре организаторов
 type: docs
 weight: 410
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/cancelappointment/
 ---
 ## CancelAppointment(string, string) {#cancelappointment_5}
 
-Отменяет выход из собрания в календаре организатора
+Отменяет выходную встречу в календаре организаторов
 
 ```csharp
 public void CancelAppointment(string uniqueId, string folderUri)
@@ -37,7 +37,7 @@ public void CancelAppointment(MapiCalendar appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | MapiCalendar | Календарная встреча. |
+| appointment | MapiCalendar | Календарное назначение. |
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ public void CancelAppointment(MapiCalendar appointment, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | MapiCalendar | Календарная встреча. |
+| appointment | MapiCalendar | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Смотрите также
@@ -80,7 +80,7 @@ public void CancelAppointment(Appointment appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 
 ### Смотрите также
 
@@ -101,7 +101,7 @@ public void CancelAppointment(Appointment appointment, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Смотрите также
@@ -115,7 +115,7 @@ public void CancelAppointment(Appointment appointment, string folderUri)
 
 ## CancelAppointment(string) {#cancelappointment_4}
 
-Отменяет выход из собрания в календаре организатора
+Отменяет выходную встречу в календаре организаторов
 
 ```csharp
 public void CancelAppointment(string uniqueId)

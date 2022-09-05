@@ -1,14 +1,14 @@
 ---
 title: DeferredSendNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит число используемое при расчете времени задержки отправки сообщения. ОбластьMapiStatus Каноническое имяPidTagDeferredSendNumber Альтернативные именаPR_DEFERRED_SEND_NUMBER
+description: Содержит число используемое для расчета времени задержки отправки сообщения. Область MapiStatus Каноническое имя PidTagDeferredSendNumber Альтернативные имена PR_DEFERRED_SEND_NUMBER
 type: docs
 weight: 3790
 url: /ru/net/aspose.email.mapi/knownpropertylist/deferredsendnumber/
 ---
 ## KnownPropertyList.DeferredSendNumber field
 
-Содержит число, используемое при расчете времени задержки отправки сообщения. Область:MapiStatus Каноническое имя:PidTagDeferredSendNumber Альтернативные имена:PR_DEFERRED_SEND_NUMBER
+Содержит число, используемое для расчета времени задержки отправки сообщения. Область: MapiStatus Каноническое имя: PidTagDeferredSendNumber Альтернативные имена: PR_DEFERRED_SEND_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredSendNumber;

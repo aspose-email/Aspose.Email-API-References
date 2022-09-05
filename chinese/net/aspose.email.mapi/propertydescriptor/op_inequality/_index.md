@@ -17,7 +17,7 @@ public static bool operator !=(PropertyDescriptor pd1, PropertyDescriptor pd2)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pd1 | PropertyDescriptor | 要与另一个对象进行比较的对象。 |
-| pd2 | PropertyDescriptor | 与另一个对象比较的对象。 |
+| pd2 | PropertyDescriptor | 要与另一个对象进行比较的对象。 |
 
 ### 返回值
 

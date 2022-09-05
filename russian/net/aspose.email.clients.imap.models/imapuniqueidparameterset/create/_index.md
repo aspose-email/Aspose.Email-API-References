@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создать экземплярImapUniqueIdParameterSetaspose.email.clients.imap.models/imapuniqueidparameterset.
+description: СоздатьImapUniqueIdParameterSetaspose.email.clients.imap.models/imapuniqueidparameterset экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapuniqueidparameterset/create/
 ---
 ## ImapUniqueIdParameterSet.Create method
 
-Создать экземпляр[`ImapUniqueIdParameterSet`](../../imapuniqueidparameterset).
+Создать[`ImapUniqueIdParameterSet`](../../imapuniqueidparameterset) экземпляр.
 
 ```csharp
 public static ImapUniqueIdParameterSet Create()

@@ -1,7 +1,7 @@
 ---
 title: ListItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieve list of item URIes in specified folder
 type: docs
 weight: 430
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listitemsasync/

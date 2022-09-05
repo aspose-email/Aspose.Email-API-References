@@ -16,11 +16,11 @@ public string[] ClientCapabilities(params string[] capabilityNames)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| capabilityNames | String[] | 客户端支持的功能数组 |
+| capabilityNames | String[] | 客户端支持的一系列功能 |
 
 ### 返回值
 
-返回具有 a 支持的功能的数组服务器。
+返回具有服务器支持的功能的数组。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public string[] ClientCapabilities(IConnection connection, params string[] capab
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| capabilityNames | String[] | 客户端支持的功能数组 |
+| capabilityNames | String[] | 客户端支持的一系列功能 |
 
 ### 返回值
 

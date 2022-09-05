@@ -19,7 +19,7 @@ public Task<string> CopyItemAsync(string itemUri, string destinationFolderUri,
 | --- | --- | --- |
 | itemUri | String | URI элемента |
 | destinationFolderUri | String | URI папки назначения |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
@@ -29,8 +29,8 @@ URI скопированного сообщения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri*is` null` или` пусто` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

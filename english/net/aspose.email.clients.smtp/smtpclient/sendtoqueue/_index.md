@@ -1,7 +1,7 @@
 ---
 title: SendToQueue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Append messages to queue
 type: docs
 weight: 190
 url: /net/aspose.email.clients.smtp/smtpclient/sendtoqueue/

@@ -1,7 +1,7 @@
 ---
 title: Groups
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Expansion of groups.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/freebusyresponse/groups/

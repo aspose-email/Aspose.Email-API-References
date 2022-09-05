@@ -1,7 +1,7 @@
 ---
 title: Subfolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether a folder has subfolders. Area MapiContainer Canonical name PidTagSubfolders Alternate names PR_SUBFOLDERS ptagSubFolders DAVhassubs
 type: docs
 weight: 18330
 url: /net/aspose.email.mapi/knownpropertylist/subfolders/

@@ -1,14 +1,14 @@
 ---
 title: ContentClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строку определяющую тип содержимого объекта Message. ОбластьЭлектронная почта Каноническое имяPidNameContentClass Альтернативные именаDAVcontentclass urnschemasmailheadercontent-class
+description: Содержит строку определяющую тип содержимого объекта Message. Область Email Каноническое имя PidNameContentClass Альтернативные имена DAVcontentclass urnschemasmailheadercontent-class
 type: docs
 weight: 3160
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentclass/
 ---
 ## KnownPropertyList.ContentClass field
 
-Содержит строку, определяющую тип содержимого объекта Message. Область:Электронная почта Каноническое имя:PidNameContentClass Альтернативные имена:DAV:contentclass, urn:schemas:mailheader:content-class
+Содержит строку, определяющую тип содержимого объекта Message. Область: Email Каноническое имя: PidNameContentClass Альтернативные имена: DAV:contentclass, urn:schemas:mailheader:content-class
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentClass;

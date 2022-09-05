@@ -1,14 +1,14 @@
 ---
 title: Rowid
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件收件人表中收件人的唯一标识符 区域MapiCommon 规范名称PidTagRowid 替代名称PR_ROWID ptagRowId
+description: 包含邮件收件人表中收件人的唯一标识符 区域MapiCommon 规范名称PidTagRowid 备用名称PR_ROWIDptagRowId
 type: docs
 weight: 16340
 url: /zh/net/aspose.email.mapi/knownpropertylist/rowid/
 ---
 ## KnownPropertyList.Rowid field
 
-包含邮件收件人表中收件人的唯一标识符。 区域:MapiCommon 规范名称:PidTagRowid 替代名称:PR_ROWID, ptagRowId
+包含邮件收件人表中收件人的唯一标识符。 区域：MapiCommon 规范名称：PidTagRowid 备用名称：PR_ROWID、ptagRowId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Rowid;

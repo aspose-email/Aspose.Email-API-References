@@ -1,14 +1,14 @@
 ---
 title: DKIMSignatureInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示 DKIM 签名信息
+description: 代表 DKIM 签名信息
 type: docs
 weight: 17220
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/
 ---
 ## DKIMSignatureInfo class
 
-表示 DKIM 签名信息。
+代表 DKIM 签名信息。
 
 ```csharp
 public class DKIMSignatureInfo
@@ -24,13 +24,13 @@ public class DKIMSignatureInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BodyCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/bodycanonicalization) { get; set; } | 获取或设置主体规范化 (c=)。 |
-| [Domain](../../aspose.email.dkim/dkimsignatureinfo/domain) { get; set; } | 获取或设置公钥 DNS 域 (d=)。 |
-| [HashAlgorithm](../../aspose.email.dkim/dkimsignatureinfo/hashalgorithm) { get; set; } | 获取或设置哈希算法 (a=)。 |
-| [HeaderCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/headercanonicalization) { get; set; } | 获取或设置标头规范化 (c=)。 |
+| [BodyCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/bodycanonicalization) { get; set; } | 获取或设置主体规范化 (c=). |
+| [Domain](../../aspose.email.dkim/dkimsignatureinfo/domain) { get; set; } | 获取或设置公钥 DNS 域 (d=). |
+| [HashAlgorithm](../../aspose.email.dkim/dkimsignatureinfo/hashalgorithm) { get; set; } | 获取或设置哈希算法 (a=). |
+| [HeaderCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/headercanonicalization) { get; set; } | 获取或设置标头规范化 (c=). |
 | [Headers](../../aspose.email.dkim/dkimsignatureinfo/headers) { get; } | 包含在签名 (h=) 中的标头。 |
-| [Selector](../../aspose.email.dkim/dkimsignatureinfo/selector) { get; set; } | 获取或设置公钥 DNS 选择器 (s=)。 |
-| [Time](../../aspose.email.dkim/dkimsignatureinfo/time) { get; set; } | 获取或设置签名时间戳 - 创建此签名的时间 (t=)。默认 (null) 是未知的创建时间。 |
+| [Selector](../../aspose.email.dkim/dkimsignatureinfo/selector) { get; set; } | 获取或设置公钥 DNS 选择器 (s=). |
+| [Time](../../aspose.email.dkim/dkimsignatureinfo/time) { get; set; } | 获取或设置签名时间戳 - 创建此签名的时间 (t=)。默认（null）是一个未知的创建时间。 |
 
 ### 也可以看看
 

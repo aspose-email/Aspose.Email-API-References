@@ -29,7 +29,7 @@ public class FreebusyCalendarInfo
 | --- | --- |
 | [Busy](../../aspose.email.clients.google/freebusycalendarinfo/busy) { get; } | Список диапазонов времени, в течение которых этот календарь следует считать занятым. |
 | [CalendarId](../../aspose.email.clients.google/freebusycalendarinfo/calendarid) { get; set; } | Идентификатор календаря |
-| [Errors](../../aspose.email.clients.google/freebusycalendarinfo/errors) { get; } | Необязательные ошибки (если вычисление для календаря не удалось). |
+| [Errors](../../aspose.email.clients.google/freebusycalendarinfo/errors) { get; } | Дополнительные ошибки (если вычисление календаря не удалось). |
 
 ### Смотрите также
 

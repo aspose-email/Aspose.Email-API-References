@@ -1,14 +1,14 @@
 ---
 title: TargetEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор сообщения объекта Message отправляемого на оптимизацию MS-OXOMSG раздел 3.2.4.4. ОбластьСвойства идентификатора Каноническое имяPidTagTargetEntryId Альтернативные именаPR_TARGET_ENTRYID ptagTargetEntryId
+description: Содержит идентификатор сообщения объекта Message отправляемого на оптимизацию MS-OXOMSG раздел 3.2.4.4. Область ID Properties Каноническое имя PidTagTargetEntryId Альтернативные имена PR_TARGET_ENTRYID ptagTargetEntryId
 type: docs
 weight: 18520
 url: /ru/net/aspose.email.mapi/knownpropertylist/targetentryid/
 ---
 ## KnownPropertyList.TargetEntryId field
 
-Содержит идентификатор сообщения объекта Message, отправляемого на оптимизацию ([MS-OXOMSG], раздел 3.2.4.4). Область:Свойства идентификатора Каноническое имя:PidTagTargetEntryId Альтернативные имена:PR_TARGET_ENTRYID, ptagTargetEntryId
+Содержит идентификатор сообщения объекта Message, отправляемого на оптимизацию ([MS-OXOMSG], раздел 3.2.4.4). Область: ID Properties Каноническое имя: PidTagTargetEntryId Альтернативные имена: PR_TARGET_ENTRYID, ptagTargetEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TargetEntryId;

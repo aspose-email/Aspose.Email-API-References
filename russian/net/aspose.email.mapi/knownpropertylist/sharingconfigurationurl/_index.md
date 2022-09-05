@@ -1,14 +1,14 @@
 ---
 title: SharingConfigurationUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строку нулевой длины. ОбластьСовместное использование Каноническое имяPidLidSharingConfigurationUrl Альтернативные именаdispidSharingConfigUrl
+description: Содержит строку нулевой длины. Область Sharing Каноническое имя PidLidSharingConfigurationUrl Альтернативные имена dispidSharingConfigUrl
 type: docs
 weight: 17430
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingconfigurationurl/
 ---
 ## KnownPropertyList.SharingConfigurationUrl field
 
-Содержит строку нулевой длины. Область:Совместное использование Каноническое имя:PidLidSharingConfigurationUrl Альтернативные имена:dispidSharingConfigUrl
+Содержит строку нулевой длины. Область: Sharing Каноническое имя: PidLidSharingConfigurationUrl Альтернативные имена: dispidSharingConfigUrl
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingConfigurationUrl;

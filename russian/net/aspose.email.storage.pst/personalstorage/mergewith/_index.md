@@ -1,14 +1,14 @@
 ---
 title: MergeWith
 second_title: Справочник по Aspose.Email для .NET API
-description: Объединяет хранилище pst с одним или несколькими другими файлами pst. Таким образом объединенные файлы являются исходниками.
+description: Объединяет хранилище pst с одним или несколькими другими файлами pst. Таким образом объединенные файлы являются исходными файлами.
 type: docs
 weight: 260
 url: /ru/net/aspose.email.storage.pst/personalstorage/mergewith/
 ---
 ## MergeWith(string[]) {#mergewith_1}
 
-Объединяет хранилище pst с одним или несколькими другими файлами pst. Таким образом, объединенные файлы являются исходниками.
+Объединяет хранилище pst с одним или несколькими другими файлами pst. Таким образом, объединенные файлы являются исходными файлами.
 
 ```csharp
 public void MergeWith(string[] sourceFileNames)
@@ -22,8 +22,8 @@ public void MergeWith(string[] sourceFileNames)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | "Выдает, когда коллекция имен файлов пуста." |
-| ArgumentException | "Выдает, когда имя файла в коллекции равно null или пусто." |
+| ArgumentNullException | «Выдает, когда коллекция имен файлов пуста». |
+| ArgumentException | «Выдает, когда имя файла в коллекции равно null или пусто». |
 
 ### Смотрите также
 
@@ -49,8 +49,8 @@ public void MergeWith(Stream[] sourceStreams)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | "Выдает, когда коллекция потоков равна нулю." |
-| ArgumentException | "Выдает, когда поток в коллекции равен нулю." |
+| ArgumentNullException | «Выдает, когда коллекция потоков равна нулю». |
+| ArgumentException | «Выдает, когда поток в коллекции равен нулю». |
 
 ### Смотрите также
 

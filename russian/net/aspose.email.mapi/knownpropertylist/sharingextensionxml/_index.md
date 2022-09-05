@@ -1,14 +1,14 @@
 ---
 title: SharingExtensionXml
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingExtensionXml Альтернативные именаdispidSharingExtXml
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingExtensionXml Альтернативные имена dispidSharingExtXml
 type: docs
 weight: 17470
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingextensionxml/
 ---
 ## KnownPropertyList.SharingExtensionXml field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingExtensionXml Альтернативные имена:dispidSharingExtXml
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingExtensionXml Альтернативные имена: dispidSharingExtXml
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingExtensionXml;

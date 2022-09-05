@@ -1,7 +1,7 @@
 ---
 title: RuleError
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the error code that indicates the cause of an error encountered during the execution of the rule. Area ExchangeMessageReadOnly Canonical name PidTagRuleError Alternate names PR_RULE_ERROR ptagRuleError
 type: docs
 weight: 16470
 url: /net/aspose.email.mapi/knownpropertylist/ruleerror/

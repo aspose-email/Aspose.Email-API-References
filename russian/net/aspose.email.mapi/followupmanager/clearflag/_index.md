@@ -16,13 +16,13 @@ public static void ClearFlag(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Объект[`MapiMessage`](../../mapimessage), в котором установлен флаг. |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором установлен флаг. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

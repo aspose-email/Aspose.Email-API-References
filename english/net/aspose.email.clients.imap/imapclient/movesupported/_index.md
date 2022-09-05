@@ -1,7 +1,7 @@
 ---
 title: MoveSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether MOVE extension is supported See more https//tools.ietf.org/html/rfc6851
 type: docs
 weight: 190
 url: /net/aspose.email.clients.imap/imapclient/movesupported/

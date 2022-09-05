@@ -1,7 +1,7 @@
 ---
 title: AttachmentMacContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the ContentType of the Mac attachment. Area Message Attachment Properties Canonical name PidNameAttachmentMacContentType Alternate names
 type: docs
 weight: 1670
 url: /net/aspose.email.mapi/knownpropertylist/attachmentmaccontenttype/

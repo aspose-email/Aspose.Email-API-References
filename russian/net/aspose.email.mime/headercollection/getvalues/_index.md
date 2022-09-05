@@ -1,14 +1,14 @@
 ---
 title: GetValues
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значения заголовков.
+description: Получает значения заголовка.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.mime/headercollection/getvalues/
 ---
 ## HeaderCollection.GetValues method
 
-Получает значения заголовков.
+Получает значения заголовка.
 
 ```csharp
 public string[] GetValues(string name)

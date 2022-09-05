@@ -1,14 +1,14 @@
 ---
 title: NotesUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取笔记 uri
+description: 获取笔记 uri.
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/notesuri/
 ---
 ## ExchangeMailboxInfo.NotesUri property
 
-获取笔记 uri。
+获取笔记 uri.
 
 ```csharp
 public abstract string NotesUri { get; set; }

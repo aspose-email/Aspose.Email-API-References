@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionDate
 second_title: Aspose.Email for .NET API 参考
-description: 标识定期约会例外的日期列表 区域通用 规范名称PidNameCalendarExceptionDate 替代名称urnschemascalendarexdate
+description: 标识定期约会例外的日期列表 区域Common 规范名称PidNameCalendarExceptionDate 替代名称urnschemascalendarexdate
 type: docs
 weight: 2250
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarexceptiondate/
 ---
 ## KnownPropertyList.CalendarExceptionDate field
 
-标识定期约会例外的日期列表。 区域:通用 规范名称:PidNameCalendarExceptionDate 替代名称:urn:schemas:calendar:exdate
+标识定期约会例外的日期列表。 区域：Common 规范名称：PidNameCalendarExceptionDate 替代名称：urn:schemas:calendar:exdate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarExceptionDate;

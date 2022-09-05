@@ -1,14 +1,14 @@
 ---
 title: FolderChildCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FOLDER_CHILD_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FOLDER_CHILD_COUNT
 type: docs
 weight: 10400
 url: /ru/net/aspose.email.mapi/knownpropertylist/folderchildcount/
 ---
 ## KnownPropertyList.FolderChildCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FOLDER_CHILD_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FOLDER_CHILD_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderChildCount;

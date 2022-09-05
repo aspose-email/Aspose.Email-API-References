@@ -3,7 +3,7 @@ title: TransferEncoding
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает информацию заголовка Content-Transfer-Encoding.
 type: docs
-weight: 19210
+weight: 19240
 url: /ru/net/aspose.email.mime/transferencoding/
 ---
 ## TransferEncoding enumeration

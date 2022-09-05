@@ -1,7 +1,7 @@
 ---
 title: AppointmentQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the builder of search expression that used by Exchange protocol.
 type: docs
 weight: 3040
 url: /net/aspose.email.clients.exchange/appointmentquerybuilder/

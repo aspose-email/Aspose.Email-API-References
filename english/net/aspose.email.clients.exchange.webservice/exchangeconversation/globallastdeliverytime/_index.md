@@ -1,7 +1,7 @@
 ---
 title: GlobalLastDeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the delivery time of the message that was last received in this conversation across all folders in the mailbox.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globallastdeliverytime/

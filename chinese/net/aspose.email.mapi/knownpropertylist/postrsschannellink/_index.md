@@ -1,14 +1,14 @@
 ---
 title: PostRssChannelLink
 second_title: Aspose.Email for .NET API 参考
-description: 包含 XML 文件来自的 RSS 或 Atom 提要的 URL 区域RSS 规范名称PidLidPostRssChannelLink 备用名称dispidPostRssChannelLink
+description: 包含 XML 文件来自的 RSS 或 Atom 提要的 URL 区域RSS 规范名称PidLidPostRssChannelLink 替代名称dispidPostRssChannelLink
 type: docs
 weight: 14450
 url: /zh/net/aspose.email.mapi/knownpropertylist/postrsschannellink/
 ---
 ## KnownPropertyList.PostRssChannelLink field
 
-包含 XML 文件来自的 RSS 或 Atom 提要的 URL。 区域:RSS 规范名称:PidLidPostRssChannelLink 备用名称:dispidPostRssChannelLink
+包含 XML 文件来自的 RSS 或 Atom 提要的 URL。 区域：RSS 规范名称：PidLidPostRssChannelLink 替代名称：dispidPostRssChannelLink
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssChannelLink;

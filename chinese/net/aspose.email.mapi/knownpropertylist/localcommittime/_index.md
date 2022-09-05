@@ -1,14 +1,14 @@
 ---
 title: LocalCommitTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象或文件夹对象上次更改的时间以 UTC 为单位 区域服务器 规范名称PidTagLocalCommitTime 备用名称PR_LOCAL_COMMIT_TIME ptagLocalCommitTime
+description: 指定消息对象或文件夹对象上次更改的时间以 UTC 为单位 区域Server 规范名称PidTagLocalCommitTime 替代名称PR_LOCAL_COMMIT_TIMEptagLocalCommitTime
 type: docs
 weight: 12150
 url: /zh/net/aspose.email.mapi/knownpropertylist/localcommittime/
 ---
 ## KnownPropertyList.LocalCommitTime field
 
-指定消息对象或文件夹对象上次更改的时间（以 UTC 为单位）。 区域:服务器 规范名称:PidTagLocalCommitTime 备用名称:PR_LOCAL_COMMIT_TIME, ptagLocalCommitTime
+指定消息对象或文件夹对象上次更改的时间（以 UTC 为单位）。 区域：Server 规范名称：PidTagLocalCommitTime 替代名称：PR_LOCAL_COMMIT_TIME、ptagLocalCommitTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LocalCommitTime;

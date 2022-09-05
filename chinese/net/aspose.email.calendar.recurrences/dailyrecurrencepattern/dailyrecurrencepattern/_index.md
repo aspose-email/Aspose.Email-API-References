@@ -1,14 +1,14 @@
 ---
 title: DailyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化DailyRecurrencePatternaspose.email.calendar.recurrences/dailyrecurrencepattern类的新实例
+description: 初始化DailyRecurrencePatternaspose.email.calendar.recurrences/dailyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/dailyrecurrencepattern/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern(DateTime) {#constructor_2}
 
-初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类的新实例。
+初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类.
 
 ```csharp
 public DailyRecurrencePattern(DateTime endDate)
@@ -28,7 +28,7 @@ public DailyRecurrencePattern(DateTime endDate)
 
 ## DailyRecurrencePattern(int) {#constructor}
 
-初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类的新实例。
+初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类.
 
 ```csharp
 public DailyRecurrencePattern(int occurs)
@@ -48,7 +48,7 @@ public DailyRecurrencePattern(int occurs)
 
 ## DailyRecurrencePattern(DateTime, int) {#constructor_3}
 
-初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类的新实例。
+初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类.
 
 ```csharp
 public DailyRecurrencePattern(DateTime endDate, int interval)
@@ -69,7 +69,7 @@ public DailyRecurrencePattern(DateTime endDate, int interval)
 
 ## DailyRecurrencePattern(int, int) {#constructor_1}
 
-初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类的新实例。
+初始化[`DailyRecurrencePattern`](../../dailyrecurrencepattern)类.
 
 ```csharp
 public DailyRecurrencePattern(int occurs, int interval)

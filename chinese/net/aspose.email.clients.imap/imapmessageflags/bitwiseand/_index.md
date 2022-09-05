@@ -1,14 +1,14 @@
 ---
 title: BitwiseAnd
 second_title: Aspose.Email for .NET API 参考
-description: 实现运算符 amp
+description: 实现运算符 amp.
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/bitwiseand/
 ---
 ## ImapMessageFlags.BitwiseAnd method
 
-实现运算符 &amp;。
+实现运算符 &amp;.
 
 ```csharp
 public static ImapMessageFlags BitwiseAnd(ImapMessageFlags a, ImapMessageFlags b)

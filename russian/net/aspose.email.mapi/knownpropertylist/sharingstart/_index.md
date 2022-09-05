@@ -1,14 +1,14 @@
 ---
 title: SharingStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingStart Альтернативные именаdispidSharingStart
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingStart Альтернативные имена dispidSharingStart
 type: docs
 weight: 17930
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingstart/
 ---
 ## KnownPropertyList.SharingStart field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingStart Альтернативные имена:dispidSharingStart
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingStart Альтернативные имена: dispidSharingStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingStart;

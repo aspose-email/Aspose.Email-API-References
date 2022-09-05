@@ -1,14 +1,14 @@
 ---
 title: EmsAbServiceRestartDelay
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SERVICE_RESTART_DELAY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SERVICE_RESTART_DELAY
 type: docs
 weight: 8810
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabservicerestartdelay/
 ---
 ## KnownPropertyList.EmsAbServiceRestartDelay field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SERVICE_RESTART_DELAY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SERVICE_RESTART_DELAY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbServiceRestartDelay;

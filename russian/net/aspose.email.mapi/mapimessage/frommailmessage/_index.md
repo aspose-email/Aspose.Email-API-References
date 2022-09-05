@@ -66,11 +66,11 @@ public static MapiMessage FromMailMessage(MailMessage message, MapiConversionOpt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MailMessage | Почтовое сообщение. |
-| options | MapiConversionOptions | MapiFromMailMessageOptions[`MapiConversionOptions`](../../mapiconversionoptions) |
+| options | MapiConversionOptions | Мапифроммаилмессажеоптионс[`MapiConversionOptions`](../../mapiconversionoptions) |
 
 ### Возвращаемое значение
 
-[`MapiMessage`](../../mapimessage)который представляет сообщение Outlook.
+[`MapiMessage`](../../mapimessage) который представляет сообщение Outlook.
 
 ### Смотрите также
 

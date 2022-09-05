@@ -17,7 +17,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
@@ -44,7 +44,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -70,7 +70,7 @@ public MailMessage FetchMessage(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
@@ -95,7 +95,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 

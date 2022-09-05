@@ -1,14 +1,14 @@
 ---
 title: CalendarDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет продолжительность встречи или собрания в секундах. ОбластьОбщие Каноническое имяPidNameCalendarDuration Альтернативные именаurnschemascalendarduration
+description: Определяет продолжительность встречи или встречи в секундах. Область Common Каноническое имя PidNameCalendarDuration Альтернативные имена urnschemascalendarduration
 type: docs
 weight: 2240
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarduration/
 ---
 ## KnownPropertyList.CalendarDuration field
 
-Определяет продолжительность встречи или собрания в секундах. Область:Общие Каноническое имя:PidNameCalendarDuration Альтернативные имена:urn:schemas:calendar:duration
+Определяет продолжительность встречи или встречи в секундах. Область: Common Каноническое имя: PidNameCalendarDuration Альтернативные имена: urn:schemas:calendar:duration
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarDuration;

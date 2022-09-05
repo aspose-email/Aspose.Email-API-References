@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует класс предмета. Допустимые значения элемента Class - Электронная почта - Контакты - Календарь - Задачи
+description: Идентифицирует класс элемента. Допустимые значения элемента класса - Email - Contacts - Calendar - Tasks
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class/
 ---
 ## ItemOperationsFetchResponce.Class property
 
-Идентифицирует класс предмета. Допустимые значения элемента Class: - Электронная почта - Контакты - Календарь - Задачи
+Идентифицирует класс элемента. Допустимые значения элемента класса: - Email - Contacts - Calendar - Tasks
 
 ```csharp
 public AirsyncClass? Class { get; set; }

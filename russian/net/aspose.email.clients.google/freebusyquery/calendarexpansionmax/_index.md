@@ -1,14 +1,14 @@
 ---
 title: CalendarExpansionMax
 second_title: Справочник по Aspose.Email для .NET API
-description: Максимальное количество календарей для которых должна предоставляться информация FreeBusy. По желанию.
+description: Максимальное количество календарей для которых должна предоставляться информация FreeBusy. Дополнительно.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.google/freebusyquery/calendarexpansionmax/
 ---
 ## FreebusyQuery.CalendarExpansionMax property
 
-Максимальное количество календарей, для которых должна предоставляться информация FreeBusy. По желанию.
+Максимальное количество календарей, для которых должна предоставляться информация FreeBusy. Дополнительно.
 
 ```csharp
 public int? CalendarExpansionMax { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RightsManagementLicense
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于缓存权限管理电子邮件的使用许可的值 区域安全消息属性 规范名称PidNameRightsManagementLicense 备用名称
+description: 指定用于缓存权限管理电子邮件的使用许可的值 区域安全消息传递属性 规范名称PidNameRightsManagementLicense 备用名称
 type: docs
 weight: 16300
 url: /zh/net/aspose.email.mapi/knownpropertylist/rightsmanagementlicense/
 ---
 ## KnownPropertyList.RightsManagementLicense field
 
-指定用于缓存权限管理电子邮件的使用许可的值。 区域:安全消息属性 规范名称:PidNameRightsManagementLicense 备用名称:
+指定用于缓存权限管理电子邮件的使用许可的值。 区域：安全消息传递属性 规范名称：PidNameRightsManagementLicense 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor RightsManagementLicense;

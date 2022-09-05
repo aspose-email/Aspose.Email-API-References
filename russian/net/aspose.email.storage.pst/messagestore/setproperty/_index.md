@@ -1,14 +1,14 @@
 ---
 title: SetProperty
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает свойство.
+description: Задает свойство.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.storage.pst/messagestore/setproperty/
 ---
 ## MessageStore.SetProperty method
 
-Устанавливает свойство.
+Задает свойство.
 
 ```csharp
 public void SetProperty(MapiProperty property)
@@ -16,7 +16,7 @@ public void SetProperty(MapiProperty property)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | MapiProperty | Свойство. |
+| property | MapiProperty | Недвижимость. |
 
 ### Смотрите также
 

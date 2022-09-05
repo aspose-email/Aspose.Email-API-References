@@ -1,14 +1,14 @@
 ---
 title: Successful
 second_title: Справочник по Aspose.Email для .NET API
-description: Успешно
+description: успешно
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/successful/
 ---
 ## DeliveryServiceResponse&lt;T&gt;.Successful property
 
-Успешно
+успешно
 
 ```csharp
 public bool Successful { get; }

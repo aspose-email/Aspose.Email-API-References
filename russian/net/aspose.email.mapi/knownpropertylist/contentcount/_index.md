@@ -1,14 +1,14 @@
 ---
 title: ContentCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество строк под строкой заголовка. ОбластьСвойства папки Каноническое имяPidTagContentCount Альтернативные именаPR_CONTENT_COUNT ptagContentCount DAVvisiblecount
+description: Указывает количество строк в строке заголовка. Область Свойства папки Каноническое имя PidTagContentCount Альтернативные имена PR_CONTENT_COUNT ptagContentCount DAVvisiblecount
 type: docs
 weight: 3190
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentcount/
 ---
 ## KnownPropertyList.ContentCount field
 
-Указывает количество строк под строкой заголовка. Область:Свойства папки Каноническое имя:PidTagContentCount Альтернативные имена:PR_CONTENT_COUNT, ptagContentCount, DAV:visiblecount
+Указывает количество строк в строке заголовка. Область: Свойства папки Каноническое имя: PidTagContentCount Альтернативные имена: PR_CONTENT_COUNT, ptagContentCount, DAV:visiblecount
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentCount;

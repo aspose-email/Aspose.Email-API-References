@@ -1,9 +1,9 @@
 ---
 title: VCardSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents vCard save options
 type: docs
-weight: 19510
+weight: 19740
 url: /net/aspose.email.personalinfo.vcard/vcardsaveoptions/
 ---
 ## VCardSaveOptions class
@@ -18,9 +18,9 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [VCardSaveOptions](vcardsaveoptions)() | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
-| [VCardSaveOptions](vcardsaveoptions)(VCardVersion) | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
-| [VCardSaveOptions](vcardsaveoptions)(VCardVersion, bool) | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
+| [VCardSaveOptions](vcardsaveoptions#constructor)() | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
+| [VCardSaveOptions](vcardsaveoptions#constructor_1)(VCardVersion) | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
+| [VCardSaveOptions](vcardsaveoptions#constructor_2)(VCardVersion, bool) | Initializes a new instance of the [`VCardSaveOptions`](../vcardsaveoptions) class |
 
 ## Properties
 

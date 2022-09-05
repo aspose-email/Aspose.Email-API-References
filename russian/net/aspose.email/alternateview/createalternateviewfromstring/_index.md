@@ -42,8 +42,8 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | content | String | Строка, содержащая содержимое. |
-| contentEncoding | Encoding | Кодировка содержимого. |
-| mediaType | String | Тип интернет-носителя. |
+| contentEncoding | Encoding | Кодировка контента. |
+| mediaType | String | Тип интернет-СМИ. |
 
 ### Возвращаемое значение
 

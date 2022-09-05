@@ -1,14 +1,14 @@
 ---
 title: SendToQueue
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавить сообщения в очередь
+description: Добавлять сообщения в очередь
 type: docs
 weight: 190
 url: /ru/net/aspose.email.clients.smtp/smtpclient/sendtoqueue/
 ---
 ## SmtpClient.SendToQueue method
 
-Добавить сообщения в очередь
+Добавлять сообщения в очередь
 
 ```csharp
 public void SendToQueue(IEnumerable<MailMessage> messages)
@@ -16,7 +16,7 @@ public void SendToQueue(IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | MailMessages для отправки |
+| messages | IEnumerable`1 | MailСообщения для отправки |
 
 ### Смотрите также
 

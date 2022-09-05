@@ -1,7 +1,7 @@
 ---
 title: GetSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets settings dictionary
 type: docs
 weight: 230
 url: /net/aspose.email.clients.google/igmailclient/getsettings/

@@ -1,14 +1,14 @@
 ---
 title: EwsArchiveItems
 second_title: Aspose.Email for .NET API 参考
-description: ArchiveItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync方法参数
+description: ArchiveItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync方法参数.
 type: docs
 weight: 4050
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/
 ---
 ## EwsArchiveItems class
 
-[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数。
+[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数.
 
 ```csharp
 public class EwsArchiveItems
@@ -18,7 +18,7 @@ public class EwsArchiveItems
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create)(string) | 创建[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数集。 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create)(string) | 创建[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)方法参数集. |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem)(Appointment) | 将项目添加到存档。 |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem_1)(ExchangeTask) | 将项目添加到存档。 |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem_2)(MapiMessageItemBase) | 将项目添加到存档。 |

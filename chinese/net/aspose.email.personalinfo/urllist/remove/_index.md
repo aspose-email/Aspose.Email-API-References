@@ -16,7 +16,7 @@ public bool Remove(Url value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Url | Object要从列表中删除。 |
+| value | Url | 这Object从列表中删除。 |
 
 ### 也可以看看
 

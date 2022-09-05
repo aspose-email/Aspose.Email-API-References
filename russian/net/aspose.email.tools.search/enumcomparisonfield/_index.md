@@ -1,14 +1,14 @@
 ---
 title: EnumComparisonField
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет поле поиска перечисления.
+description: Представляет поле поиска enum.
 type: docs
-weight: 20660
+weight: 20710
 url: /ru/net/aspose.email.tools.search/enumcomparisonfield/
 ---
 ## EnumComparisonField class
 
-Представляет поле поиска перечисления.
+Представляет поле поиска enum.
 
 ```csharp
 public sealed class EnumComparisonField : ComparisonField
@@ -19,9 +19,9 @@ public sealed class EnumComparisonField : ComparisonField
 | Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/enumcomparisonfield/equals#equals)(Enum) | Указывает, что поле в сообщении должно быть равно указанному значению. |
-| [In](../../aspose.email.tools.search/enumcomparisonfield/in)(IEnumerable) | Указывает, что поле vlaue в сообщении должно быть в списке указанных значений. |
+| [In](../../aspose.email.tools.search/enumcomparisonfield/in)(IEnumerable) | Указывает, что значение поля в сообщении должно быть в списке указанных значений. |
 | [NotEquals](../../aspose.email.tools.search/enumcomparisonfield/notequals)(Enum) | Указывает, что поле в сообщении не должно быть равно указанному значению. |
-| [NotIn](../../aspose.email.tools.search/enumcomparisonfield/notin)(IEnumerable) | Указывает, что поле vlaue в сообщении не должно быть в списке указанных значений. |
+| [NotIn](../../aspose.email.tools.search/enumcomparisonfield/notin)(IEnumerable) | Указывает, что значение поля в сообщении не должно быть в списке указанных значений. |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Устанавливает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию в поле. |
 
 ### Смотрите также

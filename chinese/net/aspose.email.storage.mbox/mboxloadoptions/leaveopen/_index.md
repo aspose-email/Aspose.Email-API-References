@@ -1,14 +1,14 @@
 ---
 title: LeaveOpen
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示在处理后是否保持底层流打开 默认值为假
+description: 获取或设置一个值该值指示是否在处理后保持底层流打开 默认值为 false
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.mbox/mboxloadoptions/leaveopen/
 ---
 ## MboxLoadOptions.LeaveOpen property
 
-获取或设置一个值，该值指示在处理后是否保持底层流打开。 默认值为假。
+获取或设置一个值，该值指示是否在处理后保持底层流打开。 默认值为 false。
 
 ```csharp
 public bool LeaveOpen { get; set; }

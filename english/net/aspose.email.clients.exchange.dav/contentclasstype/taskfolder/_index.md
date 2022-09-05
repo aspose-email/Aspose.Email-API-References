@@ -1,7 +1,7 @@
 ---
 title: TaskFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassestaskfolder content class that defines a set of properties for a folder that primarily contains task items.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/taskfolder/

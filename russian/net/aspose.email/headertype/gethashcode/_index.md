@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Служит хэш-функцией для определенного типа.
+description: Служит хеш-функцией для определенного типа.
 type: docs
 weight: 290
 url: /ru/net/aspose.email/headertype/gethashcode/
 ---
 ## HeaderType.GetHashCode method
 
-Служит хэш-функцией для определенного типа.
+Служит хеш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш-код для текущегоObject.
+Хэш-код текущегоObject .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LastVerbExecuted
 second_title: Aspose.Email for .NET API 参考
-description: 指定为与其相关的消息项执行的最后一个动词 区域历史属性 规范名称PidTagLastVerbExecuted 替代名称PR_LAST_VERB_EXECUTED ptagLastVerbExecuted
+description: 指定为与其相关的消息项执行的最后一个动词 区域历史属性 规范名称PidTagLastVerbExecuted 替代名称PR_LAST_VERB_EXECUTEDptagLastVerbExecuted
 type: docs
 weight: 12060
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastverbexecuted/
 ---
 ## KnownPropertyList.LastVerbExecuted field
 
-指定为与其相关的消息项执行的最后一个动词。 区域:历史属性 规范名称:PidTagLastVerbExecuted 替代名称:PR_LAST_VERB_EXECUTED, ptagLastVerbExecuted
+指定为与其相关的消息项执行的最后一个动词。 区域：历史属性 规范名称：PidTagLastVerbExecuted 替代名称：PR_LAST_VERB_EXECUTED、ptagLastVerbExecuted
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastVerbExecuted;

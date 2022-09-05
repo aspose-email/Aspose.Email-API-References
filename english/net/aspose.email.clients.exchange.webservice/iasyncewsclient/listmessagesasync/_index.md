@@ -1,12 +1,12 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List the messages in the specified folder.
 type: docs
 weight: 450
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync/
 ---
-## IAsyncEwsClient.ListMessagesAsync method (1 of 2)
+## ListMessagesAsync(string, string, int, MailQuery, bool, IEnumerable&lt;PropertyDescriptor&gt;, CancellationToken) {#listmessagesasync_1}
 
 List the messages in the specified folder.
 
@@ -42,7 +42,7 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 
 ---
 
-## IAsyncEwsClient.ListMessagesAsync method (2 of 2)
+## ListMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#listmessagesasync}
 
 List the messages in the specified folder.
 

@@ -1,14 +1,14 @@
 ---
 title: AddressBookDisplayNamePrintable
 second_title: Aspose.Email for .NET API 参考
-description: 包含显示名称的可打印字符串版本 区域地址簿 规范名称PidTagAddressBookDisplayNamePrintable 备用名称PR_EMS_AB_DISPLAY_NAME_PRINTABLE ptagSimpleDisplayName
+description: 包含显示名称的可打印字符串版本 区域地址簿 规范名称PidTagAddressBookDisplayNamePrintable 替代名称PR_EMS_AB_DISPLAY_NAME_PRINTABLEptagSimpleDisplayName
 type: docs
 weight: 370
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdisplaynameprintable/
 ---
 ## KnownPropertyList.AddressBookDisplayNamePrintable field
 
-包含显示名称的可打印字符串版本。 区域:地址簿 规范名称:PidTagAddressBookDisplayNamePrintable 备用名称:PR_EMS_AB_DISPLAY_NAME_PRINTABLE, ptagSimpleDisplayName
+包含显示名称的可打印字符串版本。 区域：地址簿 规范名称：PidTagAddressBookDisplayNamePrintable 替代名称：PR_EMS_AB_DISPLAY_NAME_PRINTABLE、ptagSimpleDisplayName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDisplayNamePrintable;

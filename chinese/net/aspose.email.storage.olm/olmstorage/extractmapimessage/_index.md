@@ -16,7 +16,7 @@ public MapiMessage ExtractMapiMessage(OlmMessageInfo messageInfo)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfo | OlmMessageInfo | 表示有关消息的信息的 OlmMessageInfo 对象。 |
+| messageInfo | OlmMessageInfo | 一个 OlmMessageInfo 对象， 表示有关消息的信息。 |
 
 ### 返回值
 

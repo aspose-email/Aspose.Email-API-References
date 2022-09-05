@@ -1,14 +1,14 @@
 ---
 title: BodyPreference
 second_title: Aspose.Email for .NET API 参考
-description: 包含与搜索同步或获取返回的信息的类型和大小相关的首选项信息
+description: 包含与从搜索同步或获取返回的信息的类型和大小相关的首选项信息
 type: docs
 weight: 1050
 url: /zh/net/aspose.email.clients.activesync.transportlayer/bodypreference/
 ---
 ## BodyPreference class
 
-包含与搜索、同步或获取返回的信息的类型和大小相关的首选项信息。
+包含与从搜索、同步或获取返回的信息的类型和大小相关的首选项信息。
 
 ```csharp
 public class BodyPreference
@@ -24,9 +24,9 @@ public class BodyPreference
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllOrNone](../../aspose.email.clients.activesync.transportlayer/bodypreference/allornone) { get; set; } | 客户端可以在命令请求中包含多个 BodyPreference 元素，其中 Type 元素具有不同的值（第 2.2.2.22.4 节）。 默认情况下，服务器返回的数据被截断为 TruncationSize 请求的与项目的 Body 元素的本机存储格式匹配的 Type 元素的大小。 但是，如果客户端还包括值为 TRUE 的 AllOrNone 元素以及 TruncationSize 元素，则它指示服务器在大小（以字节为单位）为可用数据超过 TruncationSize 元素的值。 例如，客户端可以使用这两个元素来表示它不能处理部分富文本格式 (RTF) 数据（Type 元素值为 3）。 在这种情况下，如果客户端指定了多个 BodyPreference 元素，则服务器选择下一个 BodyPreference 元素，它将向客户端返回最大数量的正文文本。 假设客户端指定了两个 BodyPreference 元素。 如果未定义 AllOrNone 元素，则搜索、同步或检索截断或未截断的内容，就像值设置为 FALSE 一样。 |
+| [AllOrNone](../../aspose.email.clients.activesync.transportlayer/bodypreference/allornone) { get; set; } | 客户端可以在命令请求中包含多个 BodyPreference 元素，其中 Type 元素具有不同的值（第 2.2.2.22.4 节）。 默认情况下，服务器返回的数据被截断为 TruncationSize 请求的与项目的 Body 元素的本机存储格式匹配的 Type 元素的大小。 但是，如果客户端还包括值为 TRUE 的 AllOrNone 元素以及 TruncationSize 元素，则它指示服务器在可用数据的大小（以字节为单位）超过该值时不要返回该类型的截断响应TruncationSize 元素。 例如，客户端可以使用这两个元素来表示它不能处理部分富文本格式 (RTF) 数据（Type 元素值为 3）。 在这种情况下，如果客户端指定了多个 BodyPreference 元素，则服务器选择下一个 BodyPreference 元素，它将向客户端返回最大数量的正文文本。 假设客户端指定了两个 BodyPreference 元素。 如果未定义 AllOrNone 元素，则搜索、同步或检索截断或未截断的内容，就像值设置为 FALSE 一样。 |
 | [Preview](../../aspose.email.clients.activesync.transportlayer/bodypreference/preview) { get; set; } | 指定要返回给客户端的 Unicode 纯文本消息或消息部分预览的最大长度。 此属性的值必须设置为 0 到 255，包括 0 到 255。 |
-| [TruncationSize](../../aspose.email.clients.activesync.transportlayer/bodypreference/truncationsize) { get; set; } | 指定服务器用来截断返回数据的大小。 TruncationSize 的最大值为 4,294,967,295。 如果未定义 TruncationSize 元素，则将整个内容用于请求。 |
+| [TruncationSize](../../aspose.email.clients.activesync.transportlayer/bodypreference/truncationsize) { get; set; } | 指定服务器用于截断返回数据的大小。 TruncationSize 的最大值为 4,294,967,295。 如果没有定义 TruncationSize 元素，则整个内容都用于请求。 |
 | [Type](../../aspose.email.clients.activesync.transportlayer/bodypreference/type) { get; set; } | 指定项目正文内容的格式类型。 |
 
 ### 也可以看看

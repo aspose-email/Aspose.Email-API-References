@@ -1,14 +1,14 @@
 ---
 title: SenderEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует EntryID адресной книги который содержит EntryID адресной книги владельца отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSenderEntryId Альтернативные именаPR_SENDER_ENTRYID ptagSenderEntryId
+description: Идентифицирует EntryID адресной книги который содержит EntryID адресной книги владельца отправляющего почтового ящика. Область Свойства адреса Каноническое имя PidTagSenderEntryId Альтернативные имена PR_SENDER_ENTRYID ptagSenderEntryId
 type: docs
 weight: 17110
 url: /ru/net/aspose.email.mapi/knownpropertylist/senderentryid/
 ---
 ## KnownPropertyList.SenderEntryId field
 
-Идентифицирует EntryID адресной книги, который содержит EntryID адресной книги владельца отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSenderEntryId Альтернативные имена:PR_SENDER_ENTRYID, ptagSenderEntryId
+Идентифицирует EntryID адресной книги, который содержит EntryID адресной книги владельца отправляющего почтового ящика. Область: Свойства адреса Каноническое имя: PidTagSenderEntryId Альтернативные имена: PR_SENDER_ENTRYID, ptagSenderEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderEntryId;

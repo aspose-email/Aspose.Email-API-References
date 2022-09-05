@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find the messages that contain the specified string in the headers subject from to cc and body of the message.
 type: docs
 weight: 100
 url: /net/aspose.email.tools.search/mailquerybuilder/text/

@@ -1,14 +1,14 @@
 ---
 title: AppointmentCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектов Appointment.
+description: Представляет коллекцию объектов Appointment.
 type: docs
 weight: 460
 url: /ru/net/aspose.email.calendar/appointmentcollection/
 ---
 ## AppointmentCollection class
 
-Представляет набор объектов Appointment.
+Представляет коллекцию объектов Appointment.
 
 ```csharp
 public class AppointmentCollection : List<Appointment>
@@ -25,7 +25,7 @@ public class AppointmentCollection : List<Appointment>
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.calendar/appointmentcollection/op_implicit) | Преобразует массив встреч в коллекцию |
+| [implicit operator](../../aspose.email.calendar/appointmentcollection/op_implicit) | Преобразует массив встреч в collection |
 
 ### Смотрите также
 

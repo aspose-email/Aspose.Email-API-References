@@ -1,9 +1,9 @@
 ---
 title: AssociatedPersonCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for a persons
 type: docs
-weight: 19100
+weight: 19310
 url: /net/aspose.email.personalinfo/associatedpersoncategory/
 ---
 ## AssociatedPersonCategory class
@@ -46,8 +46,8 @@ public class AssociatedPersonCategory : IEquatable<AssociatedPersonCategory>
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals)(AssociatedPersonCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals#equals)(AssociatedPersonCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
 | override [GetHashCode](../../aspose.email.personalinfo/associatedpersoncategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/associatedpersoncategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/associatedpersoncategory/op_equality) | Determines whether the specified objects are equal. |

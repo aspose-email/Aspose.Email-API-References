@@ -1,7 +1,7 @@
 ---
 title: SupportedEncryption
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the versions of SSL/TLS encryption protocols to be used. PLEASE PAY YOUR ATTENTION you may set only those versions of protocol which are supported by .net framework. IF SOME VERSIONS OF PROTOCOL ARE NOT SUPPORTED BY YOUR CURRENT VERSION OF .NET FRAMEWORK THEY WILL BE IGNORED AND SKIPPED. IT MAY LEAD TO DOWNGRADE TLS SECURITY LEVEL. IN THIS CASE EXCEPTION WONT BE GENERATED Please see EncryptionProtocolsaspose.email.clients.base/encryptionprotocols documentation for more details. Please use SetSupportedEncryptionUnsafeaspose.email.clients/emailclient/setsupportedencryptionunsafe method if you want to set the encryption protocols without any compatibility checks. Default value is Tls x7C Tls11 x7C Tls12 x7C Tls13 in case if your current version of .net framework supports these versions of TLS
 type: docs
 weight: 170
 url: /net/aspose.email.clients/emailclient/supportedencryption/

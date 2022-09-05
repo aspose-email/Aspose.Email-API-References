@@ -1,14 +1,14 @@
 ---
 title: MoveToDeletedItems
 second_title: Aspose.Email for .NET API 参考
-description: 获取DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions对象的实例其中包含用于移动到已删除项目的设置
+description: 获取实例DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions具有移动到已删除项目的设置的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems/
 ---
 ## DeletionOptions.MoveToDeletedItems property
 
-获取[`DeletionOptions`](../../deletionoptions)对象的实例，其中包含用于移动到已删除项目的设置
+获取实例[`DeletionOptions`](../../deletionoptions)具有移动到已删除项目的设置的对象
 
 ```csharp
 public static DeletionOptions MoveToDeletedItems { get; }

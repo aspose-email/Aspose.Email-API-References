@@ -1,14 +1,14 @@
 ---
 title: AttachContentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор контента уникальный для объекта Message который соответствует соответствующей ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachContentId Альтернативные именаPR_ATTACH_CONTENT_ID PR_ATTACH_CONTENT_ID_A PR_ATTACH_CONTENT_ID_W
+description: Содержит идентификатор контента уникальный для объекта Message который соответствует соответствующей области  Свойства вложения сообщения Каноническое имя PidTagAttachContentId Альтернативные имена PR_ATTACH_CONTENT_ID PR_ATTACH_CONTENT_ID_A PR_ATTACH_CONTENT_ID_W
 type: docs
 weight: 1530
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachcontentid/
 ---
 ## KnownPropertyList.AttachContentId field
 
-Содержит идентификатор контента, уникальный для объекта Message, который соответствует соответствующей Область:Свойства вложения сообщения Каноническое имя:PidTagAttachContentId Альтернативные имена:PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W
+Содержит идентификатор контента, уникальный для объекта Message, который соответствует соответствующей области : Свойства вложения сообщения Каноническое имя: PidTagAttachContentId Альтернативные имена: PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentId;

@@ -1,14 +1,14 @@
 ---
 title: BodyContentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор GUID соответствующий текущему тексту сообщения. ОбластьExchange Каноническое имяPidTagBodyContentId Альтернативные именаPR_BODY_CONTENT_ID PR_BODY_CONTENT_ID_A PR_BODY_CONTENT_ID_W
+description: Содержит GUID соответствующий текущему телу сообщения. Область Exchange Каноническое имя PidTagBodyContentId Альтернативные имена PR_BODY_CONTENT_ID PR_BODY_CONTENT_ID_A PR_BODY_CONTENT_ID_W
 type: docs
 weight: 2040
 url: /ru/net/aspose.email.mapi/knownpropertylist/bodycontentid/
 ---
 ## KnownPropertyList.BodyContentId field
 
-Содержит идентификатор GUID, соответствующий текущему тексту сообщения. Область:Exchange Каноническое имя:PidTagBodyContentId Альтернативные имена:PR_BODY_CONTENT_ID, PR_BODY_CONTENT_ID_A, PR_BODY_CONTENT_ID_W
+Содержит GUID, соответствующий текущему телу сообщения. Область: Exchange Каноническое имя: PidTagBodyContentId Альтернативные имена: PR_BODY_CONTENT_ID, PR_BODY_CONTENT_ID_A, PR_BODY_CONTENT_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyContentId;

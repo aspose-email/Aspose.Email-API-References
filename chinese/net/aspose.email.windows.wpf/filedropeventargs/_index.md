@@ -1,14 +1,14 @@
 ---
 title: FileDropEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: EventArgs的专用版本用于FileDropPanel./filedroppanel.
+description: 专业版EventArgs为了FileDropPanel./filedroppanel.
 type: docs
-weight: 20940
+weight: 20990
 url: /zh/net/aspose.email.windows.wpf/filedropeventargs/
 ---
 ## FileDropEventArgs class
 
-EventArgs的专用版本用于[`FileDropPanel`](../filedroppanel).
+专业版EventArgs为了[`FileDropPanel`](../filedroppanel).
 
 ```csharp
 public sealed class FileDropEventArgs : EventArgs
@@ -18,7 +18,7 @@ public sealed class FileDropEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileDropEventArgs](filedropeventargs)(FileDataObjectCollection) | 初始化[`FileDropEventArgs`](../filedropeventargs)类的新实例。 |
+| [FileDropEventArgs](filedropeventargs)(FileDataObjectCollection) | 初始化[`FileDropEventArgs`](../filedropeventargs)类. |
 
 ## 特性
 

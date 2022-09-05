@@ -1,14 +1,14 @@
 ---
 title: GetMessageUniqueIdAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息唯一 ID
+description: 获取消息唯一id
 type: docs
 weight: 280
 url: /zh/net/aspose.email.clients.pop3/pop3client/getmessageuniqueidasync/
 ---
 ## GetMessageUniqueIdAsync(IConnection, int) {#getmessageuniqueidasync}
 
-获取消息唯一 ID
+获取消息唯一id
 
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequenceNumber)
@@ -17,11 +17,11 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -42,11 +42,11 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 
 ## GetMessageUniqueIdAsync(IConnection, int, CancellationToken) {#getmessageuniqueidasync_1}
 
-获取消息唯一 ID
+获取消息唯一id
 
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequenceNumber, 
@@ -68,12 +68,12 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -94,12 +94,12 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, CancellationToke
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号message |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

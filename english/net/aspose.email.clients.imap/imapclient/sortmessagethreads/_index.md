@@ -1,12 +1,12 @@
 ---
 title: SortMessageThreads
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get message threads.
 type: docs
 weight: 1150
 url: /net/aspose.email.clients.imap/imapclient/sortmessagethreads/
 ---
-## ImapClient.SortMessageThreads method (1 of 2)
+## SortMessageThreads(SortConditions) {#sortmessagethreads_1}
 
 Get message threads.
 
@@ -32,7 +32,7 @@ Message threads
 
 ---
 
-## ImapClient.SortMessageThreads method (2 of 2)
+## SortMessageThreads(IConnection, SortConditions) {#sortmessagethreads}
 
 Get message threads.
 

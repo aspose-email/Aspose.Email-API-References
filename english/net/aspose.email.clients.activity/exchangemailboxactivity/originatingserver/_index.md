@@ -1,7 +1,7 @@
 ---
 title: OriginatingServer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is from where the operation originated.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/originatingserver/

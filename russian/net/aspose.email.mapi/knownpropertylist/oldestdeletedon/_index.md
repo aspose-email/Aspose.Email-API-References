@@ -1,14 +1,14 @@
 ---
 title: OldestDeletedOn
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OLDEST_DELETED_ON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OLDEST_DELETED_ON
 type: docs
 weight: 13320
 url: /ru/net/aspose.email.mapi/knownpropertylist/oldestdeletedon/
 ---
 ## KnownPropertyList.OldestDeletedOn field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OLDEST_DELETED_ON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OLDEST_DELETED_ON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OldestDeletedOn;

@@ -1,14 +1,14 @@
 ---
 title: EmailAddressCategory
 second_title: Aspose.Email for .NET API 参考
-description: 使用自定义类别初始化EmailAddressCategoryaspose.email.personalinfo/emailaddresscategory类的新实例
+description: 初始化EmailAddressCategoryaspose.email.personalinfo/emailaddresscategory具有自定义类别的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/emailaddresscategory/
 ---
 ## EmailAddressCategory constructor
 
-使用“自定义”类别初始化[`EmailAddressCategory`](../../emailaddresscategory)类的新实例。
+初始化[`EmailAddressCategory`](../../emailaddresscategory)具有“自定义”类别的类。
 
 ```csharp
 public EmailAddressCategory(string description)
@@ -16,7 +16,7 @@ public EmailAddressCategory(string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | String | 电子邮件地址类别的描述 |
+| description | String | 电子邮件地址类别的说明 |
 
 ### 也可以看看
 

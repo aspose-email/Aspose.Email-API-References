@@ -1,14 +1,14 @@
 ---
 title: ResponseRequested
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示是否向 Message 对象请求响应
+description: 获取或设置一个值该值指示是否向消息对象请求响应
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicalendarattendees/responserequested/
 ---
 ## MapiCalendarAttendees.ResponseRequested property
 
-获取或设置一个值，该值指示是否向 Message 对象请求响应。
+获取或设置一个值，该值指示是否向消息对象请求响应。
 
 ```csharp
 public bool ResponseRequested { get; set; }

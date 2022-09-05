@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activesync.transportlayer/oofreqparametrs/body
 ---
 ## OOFReqParametrs.BodyType property
 
-指定项目正文内容的格式类型。 以下是 BodyType 元素的允许值: - Text - HTML
+指定项目正文内容的格式类型。 以下是 BodyType 元素的允许值： - Text - HTML
 
 ```csharp
 public BodyType BodyType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Business2TelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дополнительный номер телефона в офисе пользователя почты. ОбластьСвойства контакта Каноническое имяPidTagBusiness2TelephoneNumber Альтернативные именаPR_BUSINESS2_TELEPHONE_NUMBER PR_BUSINESS2_TELEPHONE_NUMBER_A PR_BUSINESS2_TELEPHONE_NUMBER_W PR_OFFICE2_TELEPHONE_NUMBER
+description: содержит вторичный номер телефона в месте бизнеса по почте.
 type: docs
 weight: 2080
 url: /ru/net/aspose.email.mapi/knownpropertylist/business2telephonenumber/
 ---
 ## KnownPropertyList.Business2TelephoneNumber field
 
-Содержит дополнительный номер телефона в офисе пользователя почты. Область:Свойства контакта Каноническое имя:PidTagBusiness2TelephoneNumber Альтернативные имена:"PR_BUSINESS2_TELEPHONE_NUMBER, PR_BUSINESS2_TELEPHONE_NUMBER_A, PR_BUSINESS2_TELEPHONE_NUMBER_W, PR_OFFICE2_TELEPHONE_NUMBER,
+содержит вторичный номер телефона в месте бизнеса по почте.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Business2TelephoneNumber;

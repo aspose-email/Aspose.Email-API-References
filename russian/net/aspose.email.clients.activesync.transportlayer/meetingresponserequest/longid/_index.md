@@ -1,14 +1,14 @@
 ---
 title: LongId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает длинный идентификатор исходного приглашения на собрание который возвращается в ответном сообщении на команду поиска. Если присутствует LongId то CollectionId InstanceId и RequestId отсутствуют. Значение LongId может иметь длину до 256 символов.
+description: Указывает длинный идентификатор исходного приглашения на собрание который возвращается в ответном сообщении на команду поиска. Если LongId присутствует то CollectionId InstanceId и RequestId отсутствуют. Значение LongId может иметь длину до 256 символов.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/longid/
 ---
 ## MeetingResponseRequest.LongId property
 
-Указывает длинный идентификатор исходного приглашения на собрание, который возвращается в ответном сообщении на команду поиска. Если присутствует LongId, то CollectionId, InstanceId и RequestId отсутствуют. Значение LongId может иметь длину до 256 символов.
+Указывает длинный идентификатор исходного приглашения на собрание, который возвращается в ответном сообщении на команду поиска. Если LongId присутствует, то CollectionId, InstanceId и RequestId отсутствуют. Значение LongId может иметь длину до 256 символов.
 
 ```csharp
 public string LongId { get; set; }

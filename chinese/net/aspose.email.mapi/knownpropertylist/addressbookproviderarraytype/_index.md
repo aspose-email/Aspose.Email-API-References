@@ -1,14 +1,14 @@
 ---
 title: AddressBookProviderArrayType
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人电子地址的状态并表示一组位标志 区域联系人属性 规范名称PidLidAddressBookProviderArrayType 备用名称dispidABPArrayType
+description: 指定触点电子地址的状态并表示一组位标志 区域联系人属性 规范名称PidLidAddressBookProviderArrayType 替代名称dispidABPArrayType
 type: docs
 weight: 880
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookproviderarraytype/
 ---
 ## KnownPropertyList.AddressBookProviderArrayType field
 
-指定联系人电子地址的状态并表示一组位标志。 区域:联系人属性 规范名称:PidLidAddressBookProviderArrayType 备用名称:dispidABPArrayType
+指定触点电子地址的状态并表示一组位标志。 区域：联系人属性 规范名称：PidLidAddressBookProviderArrayType 替代名称：dispidABPArrayType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AddressBookProviderArrayType;

@@ -1,14 +1,14 @@
 ---
 title: FavoritesDefaultName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FAVORITES_DEFAULT_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FAVORITES_DEFAULT_NAME
 type: docs
 weight: 10120
 url: /ru/net/aspose.email.mapi/knownpropertylist/favoritesdefaultname/
 ---
 ## KnownPropertyList.FavoritesDefaultName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FAVORITES_DEFAULT_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FAVORITES_DEFAULT_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FavoritesDefaultName;

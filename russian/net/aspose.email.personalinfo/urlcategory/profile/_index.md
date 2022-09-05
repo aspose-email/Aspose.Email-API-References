@@ -1,14 +1,14 @@
 ---
 title: Profile
 second_title: Справочник по Aspose.Email для .NET API
-description: URL профиля
+description: URL-адрес профиля
 type: docs
 weight: 70
 url: /ru/net/aspose.email.personalinfo/urlcategory/profile/
 ---
 ## UrlCategory.Profile property
 
-URL профиля
+URL-адрес профиля
 
 ```csharp
 public static UrlCategory Profile { get; }

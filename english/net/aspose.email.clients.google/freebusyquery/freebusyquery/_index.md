@@ -1,12 +1,12 @@
 ---
 title: FreebusyQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FreebusyQuery class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/freebusyquery/freebusyquery/
 ---
-## FreebusyQuery constructor (1 of 7)
+## FreebusyQuery() {#constructor}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -22,7 +22,7 @@ public FreebusyQuery()
 
 ---
 
-## FreebusyQuery constructor (2 of 7)
+## FreebusyQuery(DateTime, DateTime, IEnumerable&lt;string&gt;) {#constructor_1}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -44,7 +44,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, IEnumerable<string> ite
 
 ---
 
-## FreebusyQuery constructor (3 of 7)
+## FreebusyQuery(DateTime, DateTime, string, IEnumerable&lt;string&gt;) {#constructor_2}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -67,7 +67,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, IEnume
 
 ---
 
-## FreebusyQuery constructor (4 of 7)
+## FreebusyQuery(DateTime, DateTime, string, int?, int?, IEnumerable&lt;string&gt;) {#constructor_3}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -93,7 +93,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, int? g
 
 ---
 
-## FreebusyQuery constructor (5 of 7)
+## FreebusyQuery(DateTime, DateTime, params string[]) {#constructor_6}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -115,7 +115,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, params string[] items)
 
 ---
 
-## FreebusyQuery constructor (6 of 7)
+## FreebusyQuery(DateTime, DateTime, string, params string[]) {#constructor_5}
 
 Initializes a new instance of the FreebusyQuery class.
 
@@ -138,7 +138,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, params
 
 ---
 
-## FreebusyQuery constructor (7 of 7)
+## FreebusyQuery(DateTime, DateTime, string, int?, int?, params string[]) {#constructor_4}
 
 Initializes a new instance of the FreebusyQuery class.
 

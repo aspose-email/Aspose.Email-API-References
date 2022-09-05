@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Exchange.Dav
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Clients.Exchange.Dav предоставляет классы для доступа с помощью WebDav Exchange Протокол магазина.
+description: Aspose.Email.Clients.Exchange.Dav namespace предоставляет классы для доступа с помощью протокола WebDav Exchange Store.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.exchange.dav/
 ---
-Пространство имен **Aspose.Email.Clients.Exchange.Dav** предоставляет классы для доступа с помощью WebDav Exchange Протокол магазина.
+**Aspose.Email.Clients.Exchange.Dav** namespace предоставляет классы для доступа с помощью протокола WebDav Exchange Store.
 
 ## Классы
 

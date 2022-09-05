@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API 参考
-description: 获取包含 消息收件人的地址集合
+description: 获取包含 邮件收件人的地址集合
 type: docs
 weight: 70
 url: /zh/net/aspose.email.storage.olm/olmmessageinfo/to/
 ---
 ## OlmMessageInfo.To property
 
-获取包含 消息收件人的地址集合。
+获取包含 邮件收件人的地址集合。
 
 ```csharp
 public List<MapiElectronicAddress> To { get; }

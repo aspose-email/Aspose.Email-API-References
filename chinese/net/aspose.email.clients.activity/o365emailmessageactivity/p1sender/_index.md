@@ -1,14 +1,14 @@
 ---
 title: P1Sender
 second_title: Aspose.Email for .NET API 参考
-description: 邮件发件人的返回路径 强制是
+description: 邮件发件人的返回路径 必填是
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/p1sender/
 ---
 ## O365EmailMessageActivity.P1Sender property
 
-邮件发件人的返回路径。 强制:是
+邮件发件人的返回路径。 必填：是
 
 ```csharp
 public string P1Sender { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: CharacterCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the character count of the file attached to the Document object. Area Common Canonical name PidNameCharacterCount Alternate names urnschemasmicrosoftcomofficeofficeCharacters
 type: docs
 weight: 2600
 url: /net/aspose.email.mapi/knownpropertylist/charactercount/

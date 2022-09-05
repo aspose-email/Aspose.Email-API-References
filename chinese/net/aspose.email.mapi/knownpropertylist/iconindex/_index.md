@@ -1,14 +1,14 @@
 ---
 title: IconIndex
 second_title: Aspose.Email for .NET API 参考
-description: 指定在显示一组消息对象时用户界面将使用哪个图标 区域常规消息属性 规范名称PidTagIconIndex 替代名称PR_ICON_INDEX ptagIconIndex
+description: 指定在显示一组消息对象时用户界面将使用哪个图标 区域常规消息属性 规范名称PidTagIconIndex 替代名称PR_ICON_INDEXptagIconIndex
 type: docs
 weight: 11210
 url: /zh/net/aspose.email.mapi/knownpropertylist/iconindex/
 ---
 ## KnownPropertyList.IconIndex field
 
-指定在显示一组消息对象时用户界面将使用哪个图标。 区域:常规消息属性 规范名称:PidTagIconIndex 替代名称:PR_ICON_INDEX, ptagIconIndex
+指定在显示一组消息对象时用户界面将使用哪个图标。 区域：常规消息属性 规范名称：PidTagIconIndex 替代名称：PR_ICON_INDEX、ptagIconIndex
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IconIndex;

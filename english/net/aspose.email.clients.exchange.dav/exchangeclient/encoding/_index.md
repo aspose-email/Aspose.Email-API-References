@@ -1,7 +1,7 @@
 ---
 title: Encoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the encoding.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/encoding/

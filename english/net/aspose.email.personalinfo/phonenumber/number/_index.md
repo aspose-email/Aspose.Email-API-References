@@ -1,7 +1,7 @@
 ---
 title: Number
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a phone number
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/phonenumber/number/

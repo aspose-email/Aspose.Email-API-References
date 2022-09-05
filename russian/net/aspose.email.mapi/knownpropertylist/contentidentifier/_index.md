@@ -1,14 +1,14 @@
 ---
 title: ContentIdentifier
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_IDENTIFIER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_IDENTIFIER
 type: docs
 weight: 3210
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentidentifier/
 ---
 ## KnownPropertyList.ContentIdentifier field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_IDENTIFIER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_IDENTIFIER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentIdentifier;

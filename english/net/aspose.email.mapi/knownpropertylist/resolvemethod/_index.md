@@ -1,7 +1,7 @@
 ---
 title: ResolveMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how to resolve any conflicts with the message. Area MapiStatus Canonical name PidTagResolveMethod Alternate names PR_RESOLVE_METHOD ptagResolveMethod
 type: docs
 weight: 16130
 url: /net/aspose.email.mapi/knownpropertylist/resolvemethod/

@@ -1,14 +1,14 @@
 ---
 title: GetPropertyShort
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение свойства указанного тегом типа Short.
+description: Получает значение свойства указанного тегом как тип Short.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapipropertycontainer/getpropertyshort/
 ---
 ## MapiPropertyContainer.GetPropertyShort method
 
-Получает значение свойства, указанного тегом, типа Short.
+Получает значение свойства, указанного тегом, как тип Short.
 
 ```csharp
 public short? GetPropertyShort(long tag)
@@ -20,7 +20,7 @@ public short? GetPropertyShort(long tag)
 
 ### Возвращаемое значение
 
-Значение свойства. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
+Стоимость имущества. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbRootNewsgroupsFolderId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID
 type: docs
 weight: 8590
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabrootnewsgroupsfolderid/
 ---
 ## KnownPropertyList.EmsAbRootNewsgroupsFolderId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ROOT_NEWSGROUPS_FOLDER_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRootNewsgroupsFolderId;

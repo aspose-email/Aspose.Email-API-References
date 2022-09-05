@@ -1,7 +1,7 @@
 ---
 title: MapiPropertyCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new instance of class MapiProperty.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapipropertycollection/mapipropertycollection/

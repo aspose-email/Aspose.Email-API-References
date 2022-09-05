@@ -16,7 +16,7 @@ public string Location { get; set; }
 
 ### 适当的价值
 
-位置。
+那个地点。
 
 ### 也可以看看
 

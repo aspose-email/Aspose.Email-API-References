@@ -1,7 +1,7 @@
 ---
 title: Actions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the actions to be taken on a message when the conditions are fulfilled.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/inboxrule/actions/

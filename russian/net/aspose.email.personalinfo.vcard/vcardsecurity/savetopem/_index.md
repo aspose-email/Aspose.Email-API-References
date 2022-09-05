@@ -36,7 +36,7 @@ public void SaveToPEM(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения. |
+| stream | Stream | Стрим, чтобы сохранить. |
 
 ### Смотрите также
 

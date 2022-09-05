@@ -1,14 +1,14 @@
 ---
 title: PolicyTag
 second_title: Aspose.Email for .NET API 参考
-description: 指定保留标记的 GUID 区域存档 规范名称PidTagPolicyTag 替代名称PR_POLICY_TAG ptagPolicyTag
+description: 指定保留标记的 GUID 区域Archive 规范名称PidTagPolicyTag 备用名称PR_POLICY_TAGptagPolicyTag
 type: docs
 weight: 14340
 url: /zh/net/aspose.email.mapi/knownpropertylist/policytag/
 ---
 ## KnownPropertyList.PolicyTag field
 
-指定保留标记的 GUID。 区域:存档 规范名称:PidTagPolicyTag 替代名称:PR_POLICY_TAG, ptagPolicyTag
+指定保留标记的 GUID。 区域：Archive 规范名称：PidTagPolicyTag 备用名称：PR_POLICY_TAG、ptagPolicyTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PolicyTag;

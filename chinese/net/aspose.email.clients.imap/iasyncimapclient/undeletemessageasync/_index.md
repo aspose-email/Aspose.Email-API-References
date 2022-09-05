@@ -18,8 +18,8 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence =
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | Int64 | 消息的序列号 |
-| modificationSequence | IConnection | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int64 | 消息的序号 |
+| modificationSequence | IConnection | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 也可以看看
@@ -43,8 +43,8 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence = 0,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
-| uniqueId | Int64 | 唯一 ID消息的 |
-| modificationSequence | IConnection | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | Int64 | 消息的唯一 ID |
+| modificationSequence | IConnection | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 也可以看看

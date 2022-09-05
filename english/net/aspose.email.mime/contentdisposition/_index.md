@@ -1,9 +1,9 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a ContentDisposition header.
 type: docs
-weight: 18930
+weight: 19140
 url: /net/aspose.email.mime/contentdisposition/
 ---
 ## ContentDisposition class
@@ -18,8 +18,8 @@ public class ContentDisposition
 
 | Name | Description |
 | --- | --- |
-| [ContentDisposition](contentdisposition)() | Initializes a new instance of the [`ContentDisposition`](../contentdisposition) class. |
-| [ContentDisposition](contentdisposition)(string) | Initializes a new instance of the [`ContentDisposition`](../contentdisposition) class. |
+| [ContentDisposition](contentdisposition#constructor)() | Initializes a new instance of the [`ContentDisposition`](../contentdisposition) class. |
+| [ContentDisposition](contentdisposition#constructor_1)(string) | Initializes a new instance of the [`ContentDisposition`](../contentdisposition) class. |
 
 ## Properties
 

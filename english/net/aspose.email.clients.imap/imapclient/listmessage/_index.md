@@ -1,12 +1,12 @@
 ---
 title: ListMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information about a message.
 type: docs
 weight: 850
 url: /net/aspose.email.clients.imap/imapclient/listmessage/
 ---
-## ImapClient.ListMessage method (1 of 8)
+## ListMessage(IConnection, int, IEnumerable&lt;string&gt;) {#listmessage_1}
 
 Gets information about a message.
 
@@ -35,7 +35,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (2 of 8)
+## ListMessage(IConnection, int) {#listmessage}
 
 Gets information about a message.
 
@@ -62,7 +62,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (3 of 8)
+## ListMessage(int, IEnumerable&lt;string&gt;) {#listmessage_5}
 
 Gets information about a message.
 
@@ -88,7 +88,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (4 of 8)
+## ListMessage(int) {#listmessage_4}
 
 Gets information about a message.
 
@@ -113,7 +113,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (5 of 8)
+## ListMessage(IConnection, string, IEnumerable&lt;string&gt;) {#listmessage_3}
 
 Gets information about a message.
 
@@ -142,7 +142,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (6 of 8)
+## ListMessage(IConnection, string) {#listmessage_2}
 
 Gets information about a message.
 
@@ -169,7 +169,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (7 of 8)
+## ListMessage(string) {#listmessage_6}
 
 Gets information about a message.
 
@@ -194,7 +194,7 @@ Returns ImapMessageInfo objects
 
 ---
 
-## ImapClient.ListMessage method (8 of 8)
+## ListMessage(string, IEnumerable&lt;string&gt;) {#listmessage_7}
 
 Gets information about a message.
 

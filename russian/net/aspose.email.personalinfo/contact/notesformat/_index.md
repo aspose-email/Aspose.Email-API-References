@@ -1,14 +1,14 @@
 ---
 title: NotesFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает формат поля заметок.
+description: Получает или задает формат поля примечаний.
 type: docs
 weight: 290
 url: /ru/net/aspose.email.personalinfo/contact/notesformat/
 ---
 ## Contact.NotesFormat property
 
-Получает или задает формат поля заметок.
+Получает или задает формат поля примечаний.
 
 ```csharp
 public TextFormat NotesFormat { get; set; }

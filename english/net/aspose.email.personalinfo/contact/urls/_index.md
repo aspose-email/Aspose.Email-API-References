@@ -1,7 +1,7 @@
 ---
 title: Urls
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of urls
 type: docs
 weight: 400
 url: /net/aspose.email.personalinfo/contact/urls/

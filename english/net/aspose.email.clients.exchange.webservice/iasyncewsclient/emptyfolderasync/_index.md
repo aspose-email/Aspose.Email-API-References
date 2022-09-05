@@ -1,7 +1,7 @@
 ---
 title: EmptyFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Empties the specified folder
 type: docs
 weight: 200
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/emptyfolderasync/

@@ -1,7 +1,7 @@
 ---
 title: Selectable
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is not set and if set is ignored. Area AB Container Canonical name PidTagSelectable Alternate names PR_SELECTABLE
 type: docs
 weight: 17080
 url: /net/aspose.email.mapi/knownpropertylist/selectable/

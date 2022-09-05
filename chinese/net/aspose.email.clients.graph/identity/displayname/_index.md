@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 身份的显示名称 请注意这可能并不总是可用或最新的 例如如果用户更改了他们的显示名称API 可能会在未来的响应中显示新值 但与用户关联的项目不会显示为使用 delta 时发生了变化
+description: 身份的显示名称 请注意这可能并不总是可用或最新的 例如如果用户更改了他们的显示名称API 可能会在未来的响应中显示新值 但与用户关联的项目在使用 delta 时不会显示为已更改
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/identity/displayname/
 ---
 ## Identity.DisplayName property
 
-身份的显示名称。 请注意，这可能并不总是可用或最新的。 例如，如果用户更改了他们的显示名称，API 可能会在未来的响应中显示新值 但与用户关联的项目不会显示为使用 delta 时发生了变化。
+身份的显示名称。 请注意，这可能并不总是可用或最新的。 例如，如果用户更改了他们的显示名称，API 可能会在未来的响应中显示新值， 但与用户关联的项目在使用 delta 时不会显示为已更改。
 
 ```csharp
 public string DisplayName { get; set; }

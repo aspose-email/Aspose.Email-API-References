@@ -1,14 +1,14 @@
 ---
 title: TtyTddPhoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人的文本电话 TTY 或聋人电信设备的电话号码  TDD
+description: 获取或设置联系人的文本电话 TTY 或聋人电信设备 TDD 的电话号码
 type: docs
 weight: 190
 url: /zh/net/aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber/
 ---
 ## MapiContactTelephonePropertySet.TtyTddPhoneNumber property
 
-获取或设置联系人的文本电话 (TTY) 或聋人电信设备的电话号码 ( TDD)
+获取或设置联系人的文本电话 (TTY) 或聋人电信设备 (TDD) 的电话号码
 
 ```csharp
 public string TtyTddPhoneNumber { get; set; }

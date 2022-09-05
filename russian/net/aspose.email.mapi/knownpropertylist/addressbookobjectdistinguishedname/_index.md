@@ -1,14 +1,14 @@
 ---
 title: AddressBookObjectDistinguishedName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит DN объекта адресной книги. ОбластьАдресная книга Каноническое имяPidTagAddressBookObjectDistinguishedName Альтернативные именаPR_EMS_AB_OBJ_DIST_NAME PR_EMS_AB_OBJ_DIST_NAME_A PR_EMS_AB_OBJ_DIST_NAME_W
+description: Содержит DN объекта адресной книги. Область Address Book Каноническое имя PidTagAddressBookObjectDistinguishedName Альтернативные имена PR_EMS_AB_OBJ_DIST_NAME PR_EMS_AB_OBJ_DIST_NAME_A PR_EMS_AB_OBJ_DIST_NAME_W
 type: docs
 weight: 770
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookobjectdistinguishedname/
 ---
 ## KnownPropertyList.AddressBookObjectDistinguishedName field
 
-Содержит DN объекта адресной книги. Область:Адресная книга Каноническое имя:PidTagAddressBookObjectDistinguishedName Альтернативные имена:PR_EMS_AB_OBJ_DIST_NAME, PR_EMS_AB_OBJ_DIST_NAME_A, PR_EMS_AB_OBJ_DIST_NAME_W
+Содержит DN объекта адресной книги. Область: Address Book Каноническое имя: PidTagAddressBookObjectDistinguishedName Альтернативные имена: PR_EMS_AB_OBJ_DIST_NAME, PR_EMS_AB_OBJ_DIST_NAME_A, PR_EMS_AB_OBJ_DIST_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookObjectDistinguishedName;

@@ -1,14 +1,14 @@
 ---
 title: PhoneNumberCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPhoneNumberCategoryaspose.email.personalinfo/phonenumbercategoryс категорией Custom.
+description: Инициализирует новый экземплярPhoneNumberCategoryaspose.email.personalinfo/phonenumbercategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/phonenumbercategory/
 ---
 ## PhoneNumberCategory constructor
 
-Инициализирует новый экземпляр класса[`PhoneNumberCategory`](../../phonenumbercategory)с категорией Custom.
+Инициализирует новый экземпляр[`PhoneNumberCategory`](../../phonenumbercategory) класс с категорией «Пользовательский».
 
 ```csharp
 public PhoneNumberCategory(string description)
@@ -16,7 +16,7 @@ public PhoneNumberCategory(string description)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| description | String | Описание для категории «Пользовательский» телефонного номера |
+| description | String | Описание категории «Пользовательский» номера телефона |
 
 ### Смотрите также
 

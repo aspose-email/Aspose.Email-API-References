@@ -1,7 +1,7 @@
 ---
 title: UserInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a user or a delegate user who has folder access permissions
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/exchangebasepermission/userinfo/

@@ -1,14 +1,14 @@
 ---
 title: DavIsStructuredDocument
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли объект календаря структурированным документом. ОбластьОбщие Каноническое имяPidNameDavIsStructuredDocument Альтернативные именаDAVisstructureddocument
+description: Указывает является ли объект календаря структурированным документом. Область Common Каноническое имя PidNameDavIsStructuredDocument Альтернативные имена DAVisstructureddocument
 type: docs
 weight: 3660
 url: /ru/net/aspose.email.mapi/knownpropertylist/davisstructureddocument/
 ---
 ## KnownPropertyList.DavIsStructuredDocument field
 
-Указывает, является ли объект календаря структурированным документом. Область:Общие Каноническое имя:PidNameDavIsStructuredDocument Альтернативные имена:DAV:isstructureddocument
+Указывает, является ли объект календаря структурированным документом. Область: Common Каноническое имя: PidNameDavIsStructuredDocument Альтернативные имена: DAV:isstructureddocument
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavIsStructuredDocument;

@@ -1,14 +1,14 @@
 ---
 title: CurrentVersionName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя клиентского приложения отправившего сообщение. ОбластьОбщие свойства сообщения Каноническое имяPidLidCurrentVersionName Альтернативные именаdispidCurrentVersionName
+description: Задает имя клиентского приложения отправившего сообщение. Область Общие свойства сообщения Каноническое имя PidLidCurrentVersionName Альтернативные имена dispidCurrentVersionName
 type: docs
 weight: 3600
 url: /ru/net/aspose.email.mapi/knownpropertylist/currentversionname/
 ---
 ## KnownPropertyList.CurrentVersionName field
 
-Указывает имя клиентского приложения, отправившего сообщение. Область:Общие свойства сообщения Каноническое имя:PidLidCurrentVersionName Альтернативные имена:dispidCurrentVersionName
+Задает имя клиентского приложения, отправившего сообщение. Область: Общие свойства сообщения Каноническое имя: PidLidCurrentVersionName Альтернативные имена: dispidCurrentVersionName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CurrentVersionName;

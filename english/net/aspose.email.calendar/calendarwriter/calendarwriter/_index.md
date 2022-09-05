@@ -1,12 +1,12 @@
 ---
 title: CalendarWriter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/calendarwriter/calendarwriter/
 ---
-## CalendarWriter constructor (1 of 4)
+## CalendarWriter(string) {#constructor_2}
 
 Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions.
 
@@ -26,7 +26,7 @@ public CalendarWriter(string path)
 
 ---
 
-## CalendarWriter constructor (2 of 4)
+## CalendarWriter(Stream) {#constructor}
 
 Initializes a new instance of CalendarReader with source stream and default AppointmentIcsSaveOptions.
 
@@ -46,7 +46,7 @@ public CalendarWriter(Stream stream)
 
 ---
 
-## CalendarWriter constructor (3 of 4)
+## CalendarWriter(string, AppointmentIcsSaveOptions) {#constructor_3}
 
 Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions.
 
@@ -68,7 +68,7 @@ public CalendarWriter(string path, AppointmentIcsSaveOptions icsSaveOptions)
 
 ---
 
-## CalendarWriter constructor (4 of 4)
+## CalendarWriter(Stream, AppointmentIcsSaveOptions) {#constructor_1}
 
 Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions.
 

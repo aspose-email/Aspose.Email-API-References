@@ -1,14 +1,14 @@
 ---
 title: PostalAddressCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPostalAddressCategoryaspose.email.personalinfo/postaladdresscategoryс категорией Custom.
+description: Инициализирует новый экземплярPostalAddressCategoryaspose.email.personalinfo/postaladdresscategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/postaladdresscategory/postaladdresscategory/
 ---
 ## PostalAddressCategory constructor
 
-Инициализирует новый экземпляр класса[`PostalAddressCategory`](../../postaladdresscategory)с категорией Custom.
+Инициализирует новый экземпляр[`PostalAddressCategory`](../../postaladdresscategory) класс с категорией «Пользовательский».
 
 ```csharp
 public PostalAddressCategory(string description)

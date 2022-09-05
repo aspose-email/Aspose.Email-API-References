@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: Aspose.Email for .NET API 参考
-description: 附件的文件类型 强制是
+description: 附件的文件类型 必填是
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/attachmentdata/filetype/
 ---
 ## AttachmentData.FileType property
 
-附件的文件类型。 强制:是
+附件的文件类型。 必填：是
 
 ```csharp
 public string FileType { get; set; }

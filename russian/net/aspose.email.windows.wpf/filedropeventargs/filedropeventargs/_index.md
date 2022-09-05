@@ -1,14 +1,14 @@
 ---
 title: FileDropEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileDropEventArgsaspose.email.windows.wpf/filedropeventargs.
+description: Инициализирует новый экземплярFileDropEventArgsaspose.email.windows.wpf/filedropeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.wpf/filedropeventargs/filedropeventargs/
 ---
 ## FileDropEventArgs constructor
 
-Инициализирует новый экземпляр класса[`FileDropEventArgs`](../../filedropeventargs).
+Инициализирует новый экземпляр[`FileDropEventArgs`](../../filedropeventargs) класс.
 
 ```csharp
 public FileDropEventArgs(FileDataObjectCollection files)

@@ -1,14 +1,14 @@
 ---
 title: GlobalUniqueUnreadSenders
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список всех людей которые отправили непрочитанные сообщения в этой беседе во всех папках почтового ящика.
+description: Получает список всех людей отправивших непрочитанные сообщения в этой беседе во всех папках почтового ящика.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniqueunreadsenders/
 ---
 ## ExchangeConversation.GlobalUniqueUnreadSenders property
 
-Получает список всех людей, которые отправили непрочитанные сообщения в этой беседе во всех папках почтового ящика.
+Получает список всех людей, отправивших непрочитанные сообщения в этой беседе во всех папках почтового ящика.
 
 ```csharp
 public StringCollection GlobalUniqueUnreadSenders { get; }

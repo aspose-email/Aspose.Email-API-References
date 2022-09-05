@@ -1,14 +1,14 @@
 ---
 title: StatusCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STATUS_CODE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STATUS_CODE
 type: docs
 weight: 18210
 url: /ru/net/aspose.email.mapi/knownpropertylist/statuscode/
 ---
 ## KnownPropertyList.StatusCode field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STATUS_CODE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STATUS_CODE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StatusCode;

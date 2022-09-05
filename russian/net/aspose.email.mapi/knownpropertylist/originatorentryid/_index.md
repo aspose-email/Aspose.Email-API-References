@@ -1,14 +1,14 @@
 ---
 title: OriginatorEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINATOR_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINATOR_ENTRYID
 type: docs
 weight: 13860
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatorentryid/
 ---
 ## KnownPropertyList.OriginatorEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINATOR_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINATOR_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorEntryid;

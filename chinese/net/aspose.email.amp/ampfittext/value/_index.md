@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API 参考
-description: Text 组件的值
+description: 组件的文本值
 type: docs
 weight: 50
 url: /zh/net/aspose.email.amp/ampfittext/value/
 ---
 ## AmpFitText.Value property
 
-Text 组件的值。
+组件的文本值。
 
 ```csharp
 public string Value { get; set; }

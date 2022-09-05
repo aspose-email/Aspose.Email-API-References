@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/notey/
 ---
 ## KnownPropertyList.NoteY field
 
-指定用户界面显示 Note 对象与屏幕顶部边缘的距离（以像素为单位）。 区域:便笺 规范名称:PidLidNoteY 替代名称:dispidNoteY
+指定用户界面显示 Note 对象与屏幕顶部边缘的距离（以像素为单位）。 区域：便笺 规范名称：PidLidNoteY 替代名称：dispidNoteY
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteY;

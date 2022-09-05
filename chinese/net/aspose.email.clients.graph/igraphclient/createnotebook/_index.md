@@ -1,14 +1,14 @@
 ---
 title: CreateNotebook
 second_title: Aspose.Email for .NET API 参考
-description: 创建一个新的 OneNote 笔记本 权限 调用此 API 需要以下权限之一 委托工作或学校帐户Notes.CreateNotes.ReadWriteNotes.ReadWrite.All 委托个人 Microsoft 帐户Notes.CreateNotes.ReadWrite Application Notes.ReadWrite.All
+description: 创建一个新的 OneNote 笔记本 Permissions 调用此 API 需要以下权限之一 委托工作或学校帐户Notes.CreateNotes.ReadWriteNotes.ReadWrite.All 委托个人 Microsoft 帐户Notes创建Notes.ReadWrite 应用程序 Notes.ReadWrite.All
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.graph/igraphclient/createnotebook/
 ---
 ## IGraphClient.CreateNotebook method
 
-创建一个新的 OneNote 笔记本。 权限 调用此 API 需要以下权限之一。 委托（工作或学校帐户）Notes.Create、Notes.ReadWrite、Notes.ReadWrite.All 委托（个人 Microsoft 帐户）Notes.Create、Notes.ReadWrite Application Notes.ReadWrite.All
+创建一个新的 OneNote 笔记本。 Permissions 调用此 API 需要以下权限之一。 委托（工作或学校帐户）Notes.Create、Notes.ReadWrite、Notes.ReadWrite.All 委托（个人 Microsoft 帐户）Notes。创建，Notes.ReadWrite 应用程序 Notes.ReadWrite.All
 
 ```csharp
 public Notebook CreateNotebook(Notebook notebook)
@@ -16,7 +16,7 @@ public Notebook CreateNotebook(Notebook notebook)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| notebook | Notebook | 待创建的笔记本 |
+| notebook | Notebook | 要创建的笔记本 |
 
 ### 返回值
 

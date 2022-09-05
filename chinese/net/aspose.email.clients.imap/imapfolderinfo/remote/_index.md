@@ -1,14 +1,14 @@
 ---
 title: Remote
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示文件夹是远程邮箱的值 只有在服务器支持 IMAP4 LIST 命令扩展 rfc5258 的情况下才能访问此选项查看更多http//tools.ietf.org/html/rfc5258
+description: 获取指示文件夹是远程邮箱的值 仅当服务器支持 IMAP4 LIST 命令扩展 rfc5258 查看更多信息http//tools.ietf.org/html/rfc5258 时才可访问此选项
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/remote/
 ---
 ## ImapFolderInfo.Remote property
 
-获取表示文件夹是远程邮箱的值。 只有在服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 的情况下才能访问此选项:查看更多:http://tools.ietf.org/html/rfc5258
+获取指示文件夹是远程邮箱的值。 仅当服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 查看更多信息：http://tools.ietf.org/html/rfc5258 时才可访问此选项
 
 ```csharp
 public bool Remote { get; }

@@ -1,14 +1,14 @@
 ---
 title: TaskCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示Task对象的集合
+description: 表示任务对象的集合
 type: docs
 weight: 910
 url: /zh/net/aspose.email.calendar/taskcollection/
 ---
 ## TaskCollection class
 
-表示Task对象的集合。
+表示任务对象的集合。
 
 ```csharp
 public class TaskCollection : Collection<Task>

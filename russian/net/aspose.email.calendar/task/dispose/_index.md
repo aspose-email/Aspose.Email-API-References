@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Справочник по Aspose.Email для .NET API
-description: Освободите все ресурсы.
+description: Освободить все ресурсы.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.calendar/task/dispose/
 ---
 ## Task.Dispose method
 
-Освободите все ресурсы.
+Освободить все ресурсы.
 
 ```csharp
 public void Dispose()

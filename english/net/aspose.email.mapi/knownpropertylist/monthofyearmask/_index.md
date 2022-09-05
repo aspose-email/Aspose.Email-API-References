@@ -1,7 +1,7 @@
 ---
 title: MonthOfYearMask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the calculated month of the year in which the appointment or meeting occurs. Area Meetings Canonical name PidLidMonthOfYearMask Alternate names LID_MOY_MASK
 type: docs
 weight: 12760
 url: /net/aspose.email.mapi/knownpropertylist/monthofyearmask/

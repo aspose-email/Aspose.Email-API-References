@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: Aspose.Email for .NET API 参考
-description: 指定 MS windows 图元文件图像/x-wmf
+description: 指定 MS windows 图元文件 image/x-wmf
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mime/mediatypenames.image/wmf/
 ---
 ## MediaTypeNames.Image.Wmf field
 
-指定 MS windows 图元文件图像/x-wmf
+指定 MS windows 图元文件 image/x-wmf
 
 ```csharp
 public const string Wmf;

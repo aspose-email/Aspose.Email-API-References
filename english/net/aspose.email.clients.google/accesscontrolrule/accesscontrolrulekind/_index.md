@@ -1,7 +1,7 @@
 ---
 title: AccessControlRuleKind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of the resource calendarcalendar.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.google/accesscontrolrule/accesscontrolrulekind/

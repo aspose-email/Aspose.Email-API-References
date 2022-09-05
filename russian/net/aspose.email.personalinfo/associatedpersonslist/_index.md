@@ -3,7 +3,7 @@ title: AssociatedPersonsList
 second_title: Справочник по Aspose.Email для .NET API
 description: Список связанных лиц для контакта
 type: docs
-weight: 19280
+weight: 19310
 url: /ru/net/aspose.email.personalinfo/associatedpersonslist/
 ---
 ## AssociatedPersonsList class
@@ -27,22 +27,22 @@ public class AssociatedPersonsList : IList<AssociatedPerson>
 | [Assistant](../../aspose.email.personalinfo/associatedpersonslist/assistant) { get; set; } | Помощник по умолчанию |
 | [Brother](../../aspose.email.personalinfo/associatedpersonslist/brother) { get; set; } | Брат |
 | [Child](../../aspose.email.personalinfo/associatedpersonslist/child) { get; set; } | Ребенок |
-| [Count](../../aspose.email.personalinfo/associatedpersonslist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/associatedpersonslist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [DomesticPartner](../../aspose.email.personalinfo/associatedpersonslist/domesticpartner) { get; set; } | Домашний партнер по умолчанию |
 | [Father](../../aspose.email.personalinfo/associatedpersonslist/father) { get; set; } | Отец |
 | [Friend](../../aspose.email.personalinfo/associatedpersonslist/friend) { get; set; } | Друг по умолчанию |
 | [IsReadOnly](../../aspose.email.personalinfo/associatedpersonslist/isreadonly) { get; } | Получает значение, указывающее, доступен ли список только для чтения. |
-| [IsSynchronized](../../aspose.email.personalinfo/associatedpersonslist/issynchronized) { get; } | Получает значение, указывающее, является ли доступ кICollectionсинхронизированным (потокобезопасным). |
+| [IsSynchronized](../../aspose.email.personalinfo/associatedpersonslist/issynchronized) { get; } | Получает значение, указывающее, доступен ли доступ кICollection синхронизирован (потокобезопасный). |
 | [Item](../../aspose.email.personalinfo/associatedpersonslist/item) { get; set; } | Получает или задает элемент по указанному индексу. |
 | [Manager](../../aspose.email.personalinfo/associatedpersonslist/manager) { get; set; } | Менеджер по умолчанию |
 | [Mother](../../aspose.email.personalinfo/associatedpersonslist/mother) { get; set; } | Мать |
 | [Parent](../../aspose.email.personalinfo/associatedpersonslist/parent) { get; set; } | Родитель |
 | [Partner](../../aspose.email.personalinfo/associatedpersonslist/partner) { get; set; } | Партнер по умолчанию |
-| [ReferredBy](../../aspose.email.personalinfo/associatedpersonslist/referredby) { get; set; } | По умолчанию указано |
+| [ReferredBy](../../aspose.email.personalinfo/associatedpersonslist/referredby) { get; set; } | По умолчанию ссылается на |
 | [Relative](../../aspose.email.personalinfo/associatedpersonslist/relative) { get; set; } | Относительный |
 | [Sister](../../aspose.email.personalinfo/associatedpersonslist/sister) { get; set; } | Сестра |
 | [Spouse](../../aspose.email.personalinfo/associatedpersonslist/spouse) { get; set; } | Супруга |
-| [SyncRoot](../../aspose.email.personalinfo/associatedpersonslist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection. |
+| [SyncRoot](../../aspose.email.personalinfo/associatedpersonslist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection . |
 
 ## Методы
 

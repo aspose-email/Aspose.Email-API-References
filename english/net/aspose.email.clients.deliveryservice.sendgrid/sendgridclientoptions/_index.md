@@ -1,7 +1,7 @@
 ---
 title: SendGridClientOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Options to set the SendGridClient parameters.
 type: docs
 weight: 3010
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/

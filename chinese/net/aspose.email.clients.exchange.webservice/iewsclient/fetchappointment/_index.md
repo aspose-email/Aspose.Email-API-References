@@ -20,13 +20,13 @@ public Appointment FetchAppointment(string appointmentUri)
 
 ### 返回值
 
-A fetched[`Appointment`](../../../aspose.email.calendar/appointment)。
+一个取来的[`Appointment`](../../../aspose.email.calendar/appointment).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -52,13 +52,13 @@ public Appointment FetchAppointment(string appointmentUri, string folderUri)
 
 ### 返回值
 
-A fetched[`Appointment`](../../../aspose.email.calendar/appointment)。
+一个取来的[`Appointment`](../../../aspose.email.calendar/appointment).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

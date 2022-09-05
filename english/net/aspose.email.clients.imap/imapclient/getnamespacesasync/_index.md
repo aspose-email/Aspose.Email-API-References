@@ -1,12 +1,12 @@
 ---
 title: GetNamespacesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets namespaces that are available on a server.
 type: docs
 weight: 740
 url: /net/aspose.email.clients.imap/imapclient/getnamespacesasync/
 ---
-## ImapClient.GetNamespacesAsync method (1 of 4)
+## GetNamespacesAsync() {#getnamespacesasync}
 
 Gets namespaces that are available on a server.
 
@@ -27,7 +27,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetNamespacesAsync method (2 of 4)
+## GetNamespacesAsync(IConnection) {#getnamespacesasync_1}
 
 Gets namespaces that are available on a server.
 
@@ -53,7 +53,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetNamespacesAsync method (3 of 4)
+## GetNamespacesAsync(CancellationToken) {#getnamespacesasync_3}
 
 Gets namespaces that are available on a server.
 
@@ -78,7 +78,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetNamespacesAsync method (4 of 4)
+## GetNamespacesAsync(IConnection, CancellationToken) {#getnamespacesasync_2}
 
 Gets namespaces that are available on a server.
 

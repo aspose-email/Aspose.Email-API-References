@@ -3,7 +3,7 @@ title: CustomerEvent
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет событие.
 type: docs
-weight: 19320
+weight: 19350
 url: /ru/net/aspose.email.personalinfo/customerevent/
 ---
 ## CustomerEvent class
@@ -25,13 +25,13 @@ public class CustomerEvent : IComparable<CustomerEvent>, IEquatable<CustomerEven
 | Имя | Описание |
 | --- | --- |
 | [Category](../../aspose.email.personalinfo/customerevent/category) { get; set; } | Получает или задает категорию объекта |
-| [Date](../../aspose.email.personalinfo/customerevent/date) { get; set; } | Получает или задает дату и время события. |
+| [Date](../../aspose.email.personalinfo/customerevent/date) { get; set; } | Получает или задает дату и время для события. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/customerevent/compareto)(CustomerEvent) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| virtual [CompareTo](../../aspose.email.personalinfo/customerevent/compareto)(CustomerEvent) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | [Equals](../../aspose.email.personalinfo/customerevent/equals#equals)(CustomerEvent) | Определяет, равен ли указанный объект текущему объекту. |
 | override [Equals](../../aspose.email.personalinfo/customerevent/equals#equals_2)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/customerevent/equals#equals_1)(CustomerEvent, CustomerEvent) | Определяет, считаются ли указанные экземпляры объектов равными. |

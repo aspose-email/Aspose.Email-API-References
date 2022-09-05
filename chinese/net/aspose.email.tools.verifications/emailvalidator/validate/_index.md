@@ -16,7 +16,7 @@ public void Validate(string mailAddress, ValidationPolicy policy, out Validation
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailAddress | String | 要验证的邮件地址. |
+| mailAddress | String | 要验证的邮件地址。 |
 | policy | ValidationPolicy | 验证过程的策略。 |
 | result | ValidationResult& | 验证过程的结果。 |
 
@@ -41,7 +41,7 @@ public void Validate(string mailAddress, out ValidationResult result)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailAddress | String | 要验证的电子邮件地址。 |
-| result | ValidationResult& | 验证结果。 |
+| result | ValidationResult& | 验证的结果。 |
 
 ### 也可以看看
 

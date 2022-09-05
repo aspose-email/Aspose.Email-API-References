@@ -1,7 +1,7 @@
 ---
 title: MarkAsCompleted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks the flagged message as completed.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/followupmanager/markascompleted/

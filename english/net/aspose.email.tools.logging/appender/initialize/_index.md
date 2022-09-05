@@ -1,7 +1,7 @@
 ---
 title: Initialize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes the appender instance.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/appender/initialize/

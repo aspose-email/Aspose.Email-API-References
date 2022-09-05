@@ -1,14 +1,14 @@
 ---
 title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MessageObjectAttachmentEntityaspose.email.mapi.msg/messageobjectattachmententity类的新实例
+description: 初始化MessageObjectAttachmentEntityaspose.email.mapi.msg/messageobjectattachmententity类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi.msg/messageobjectattachmententity/messageobjectattachmententity/
 ---
 ## MessageObjectAttachmentEntity constructor
 
-初始化[`MessageObjectAttachmentEntity`](../../messageobjectattachmententity)类的新实例。
+初始化[`MessageObjectAttachmentEntity`](../../messageobjectattachmententity)类.
 
 ```csharp
 public MessageObjectAttachmentEntity()

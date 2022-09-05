@@ -1,14 +1,14 @@
 ---
 title: DeferredActionMessageOriginalEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含 DAM 的服务器 EntryID 区域服务器端规则属性 规范名称PidTagDeferredActionMessageOriginalEntryId 备用名称PR_DAM_ORIG_MSG_SVREID ptagDamOrgMsgSvrEID
+description: 包含 DAM 的服务器 EntryID 区域服务器端规则 Properties 规范名称PidTagDeferredActionMessageOriginalEntryId 备用名称PR_DAM_ORIG_MSG_SVREIDptagDamOrgMsgSvrEID
 type: docs
 weight: 3770
 url: /zh/net/aspose.email.mapi/knownpropertylist/deferredactionmessageoriginalentryid/
 ---
 ## KnownPropertyList.DeferredActionMessageOriginalEntryId field
 
-包含 DAM 的服务器 EntryID。 区域:服务器端规则属性 规范名称:PidTagDeferredActionMessageOriginalEntryId 备用名称:PR_DAM_ORIG_MSG_SVREID, ptagDamOrgMsgSvrEID
+包含 DAM 的服务器 EntryID。 区域：服务器端规则 Properties 规范名称：PidTagDeferredActionMessageOriginalEntryId 备用名称：PR_DAM_ORIG_MSG_SVREID、ptagDamOrgMsgSvrEID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredActionMessageOriginalEntryId;

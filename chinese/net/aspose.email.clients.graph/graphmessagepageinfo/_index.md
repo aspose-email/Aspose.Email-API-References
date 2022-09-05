@@ -20,9 +20,9 @@ public class GraphMessagePageInfo : PageInfo
 | --- | --- |
 | [AbsoluteOffset](../../aspose.email.clients/pageinfo/absoluteoffset) { get; set; } | 获取添加到页面起始索引的附加偏移量 |
 | [Items](../../aspose.email.clients.graph/graphmessagepageinfo/items) { get; } | 获取 MessageInfoCollection 对象的集合 |
-| [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | 页面中的项目数量 |
-| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | 指示当前页面是否是最后一页。 |
-| override [NextPage](../../aspose.email.clients.graph/graphmessagepageinfo/nextpage) { get; } | 下一页的信息，如果当前页是最后一页，则为 null |
+| [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | 页面中的项目数 |
+| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | 指示当前页面是否是视图中的最后一页。 |
+| override [NextPage](../../aspose.email.clients.graph/graphmessagepageinfo/nextpage) { get; } | 下一页的信息，如果当前页是最后一页，则为null |
 | [PageOffset](../../aspose.email.clients/pageinfo/pageoffset) { get; set; } | 获取页面的偏移量 |
 | [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | 获取视图中的项目总数 |
 

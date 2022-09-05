@@ -1,7 +1,7 @@
 ---
 title: MessageStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the status of a message in a contents table. Area General Message Properties Canonical name PidTagMessageStatus Alternate names PR_MSG_STATUS ptagMsgStatus
 type: docs
 weight: 12630
 url: /net/aspose.email.mapi/knownpropertylist/messagestatus/

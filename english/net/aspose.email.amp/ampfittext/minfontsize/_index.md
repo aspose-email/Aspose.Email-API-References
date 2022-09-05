@@ -1,7 +1,7 @@
 ---
 title: MinFontSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the minimum font size as an integer that the ampfittext can use.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampfittext/minfontsize/

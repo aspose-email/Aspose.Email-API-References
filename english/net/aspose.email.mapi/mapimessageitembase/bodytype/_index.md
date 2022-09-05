@@ -1,7 +1,7 @@
 ---
 title: BodyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the type of the body.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapimessageitembase/bodytype/

@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建ImapCopyMessagesaspose.email.clients.imap.models/imapcopymessages类的实例
+description: 创建一个实例ImapCopyMessagesaspose.email.clients.imap.models/imapcopymessages类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapcopymessages/create/
 ---
 ## ImapCopyMessages.Create method
 
-创建[`ImapCopyMessages`](../../imapcopymessages)类的实例。
+创建一个实例[`ImapCopyMessages`](../../imapcopymessages)类.
 
 ```csharp
 public static ImapCopyMessages Create()

@@ -1,14 +1,14 @@
 ---
 title: ImapChangeMessageFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: AddMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasyncChangeMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync RemoveMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasyncнабор параметров методов.
+description: AddMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync ChangeMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync  RemoveMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync набор параметров методов.
 type: docs
 weight: 16540
 url: /ru/net/aspose.email.clients.imap.models/imapchangemessageflags/
 ---
 ## ImapChangeMessageFlags class
 
-[`AddMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync),[`ChangeMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync), [`RemoveMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync)набор параметров методов.
+[`AddMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync) ,[`ChangeMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync) , [`RemoveMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync) набор параметров методов.
 
 ```csharp
 public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
@@ -18,7 +18,7 @@ public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapchangemessageflags/create)() | Создать[`ImapChangeMessageFlags`](../imapchangemessageflags)instance. |
+| static [Create](../../aspose.email.clients.imap.models/imapchangemessageflags/create)() | Создать[`ImapChangeMessageFlags`](../imapchangemessageflags) экземпляр. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetFlags](../../aspose.email.clients.imap.models/imapchangemessageflags/setflags)(ImapMessageFlags) | Установите флаги для изменения. |
@@ -29,7 +29,7 @@ public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(IEnumerable&lt;string&gt;) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(int, int) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(string, string) |  |
-| [SetModificationSequence](../../aspose.email.clients.imap.models/imapchangemessageflags/setmodificationsequence)(long) | Установите последовательность модификации. |
+| [SetModificationSequence](../../aspose.email.clients.imap.models/imapchangemessageflags/setmodificationsequence)(long) | Установить последовательность модификации. |
 
 ### Смотрите также
 

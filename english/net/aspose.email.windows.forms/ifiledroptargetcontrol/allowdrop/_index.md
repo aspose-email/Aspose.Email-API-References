@@ -1,7 +1,7 @@
 ---
 title: AllowDrop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the control can accept data that the user drags onto it.
 type: docs
 weight: 10
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/allowdrop/

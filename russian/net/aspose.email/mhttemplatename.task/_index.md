@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Task
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет общеизвестные названия заголовков Task для форматирования Mhtml.
+description: Определяет общеизвестные имена заголовков Задачи для форматирования Mhtml.
 type: docs
-weight: 19080
+weight: 19110
 url: /ru/net/aspose.email/mhttemplatename.task/
 ---
 ## MhtTemplateName.Task class
 
-Определяет общеизвестные названия заголовков Task для форматирования Mhtml.
+Определяет общеизвестные имена заголовков Задачи для форматирования Mhtml.
 
 ```csharp
 public static class Task
@@ -18,19 +18,19 @@ public static class Task
 
 | Имя | Описание |
 | --- | --- |
-| const [ActualWork](../../aspose.email/task/actualwork) | Заголовок Actual Work. |
-| const [BillingInformation](../../aspose.email/task/billinginformation) | Заголовок Billing Information. |
+| const [ActualWork](../../aspose.email/task/actualwork) | Заголовок фактической работы. |
+| const [BillingInformation](../../aspose.email/task/billinginformation) | Заголовок платежной информации. |
 | const [Categories](../../aspose.email/task/categories) | Заголовок категорий. |
 | const [Company](../../aspose.email/task/company) | Заголовок компании. |
 | const [Complete](../../aspose.email/task/complete) | % Полный заголовок. |
-| const [DueDate](../../aspose.email/task/duedate) | Заголовок Срок выполнения. |
+| const [DueDate](../../aspose.email/task/duedate) | Заголовок срока выполнения. |
 | const [Mileage](../../aspose.email/task/mileage) | Заголовок пробега. |
 | const [Owner](../../aspose.email/task/owner) | Заголовок владельца. |
 | const [Priority](../../aspose.email/task/priority) | Приоритетный заголовок. |
 | const [StartDate](../../aspose.email/task/startdate) | Заголовок даты начала. |
 | const [Status](../../aspose.email/task/status) | Заголовок состояния. |
 | const [Subject](../../aspose.email/task/subject) | Заголовок темы. |
-| const [TotalWork](../../aspose.email/task/totalwork) | Заголовок Total Work. |
+| const [TotalWork](../../aspose.email/task/totalwork) | Заголовок "Общая работа". |
 
 ### Смотрите также
 

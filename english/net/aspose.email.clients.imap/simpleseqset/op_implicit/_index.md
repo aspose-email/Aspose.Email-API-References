@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implicit conversion operation from String to SimpleSeqSetaspose.email.clients.imap/simpleseqset
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/simpleseqset/op_implicit/
 ---
-## SimpleSeqSet Implicit operator (1 of 2)
+## implicit operator {#op_implicit}
 
 Implicit conversion operation from String to [`SimpleSeqSet`](../../simpleseqset)
 
@@ -30,7 +30,7 @@ Returns object with search value.
 
 ---
 
-## SimpleSeqSet Implicit operator (2 of 2)
+## implicit operator {#op_implicit_1}
 
 Implicit conversion operation from [`SimpleSeqSet`](../../simpleseqset) to String
 

@@ -1,14 +1,14 @@
 ---
 title: SaveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет почтовое сообщение указанное uri в локальной файловой системе. Файл почтового сообщения имеет формат совместимый с RFC 822 EML.  если вы хотите проанализировать файлы почтовых сообщений используйтеMailMessageaspose.email/mailmessage.
+description: Сохраняет почтовое сообщение указанное в uri в локальной файловой системе. Файл почтового сообщения имеет формат совместимый с RFC 822 EML.  если вы хотите проанализировать файлы почтовых сообщений используйтеMailMessageaspose.email/mailmessage.
 type: docs
 weight: 360
 url: /ru/net/aspose.email.clients.exchange.dav/exchangeclient/savemessage/
 ---
 ## SaveMessage(string, string) {#savemessage_1}
 
-Сохраняет почтовое сообщение, указанное uri, в локальной файловой системе. Файл почтового сообщения имеет формат, совместимый с RFC 822 (EML).  если вы хотите проанализировать файлы почтовых сообщений, используйте[`MailMessage`](../../../aspose.email/mailmessage).
+Сохраняет почтовое сообщение, указанное в uri, в локальной файловой системе. Файл почтового сообщения имеет формат, совместимый с RFC 822 (EML).  если вы хотите проанализировать файлы почтовых сообщений, используйте[`MailMessage`](../../../aspose.email/mailmessage).
 
 ```csharp
 public void SaveMessage(string messageUri, string path)

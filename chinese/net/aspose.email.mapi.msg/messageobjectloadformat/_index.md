@@ -1,14 +1,14 @@
 ---
 title: MessageObjectLoadFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示可用格式MessageObject./messageobject可以从中加载
+description: 表示可用格式MessageObject./messageobject可以从. 加载
 type: docs
-weight: 18820
+weight: 18850
 url: /zh/net/aspose.email.mapi.msg/messageobjectloadformat/
 ---
 ## MessageObjectLoadFormat enumeration
 
-表示可用格式[`MessageObject`](../messageobject)可以从中加载。
+表示可用格式[`MessageObject`](../messageobject)可以从. 加载
 
 ```csharp
 public enum MessageObjectLoadFormat
@@ -18,7 +18,7 @@ public enum MessageObjectLoadFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Msg | `0` | 味精格式。 |
+| Msg | `0` | 味精格式. |
 
 ### 也可以看看
 

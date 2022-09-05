@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API 参考
-description: 将元素插入Collection中指定索引处
+description: 插入一个元素到Collection在指定的索引处
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapirecipientcollection/insert/
 ---
 ## MapiRecipientCollection.Insert method
 
-将元素插入Collection中指定索引处。
+插入一个元素到Collection在指定的索引处。
 
 ```csharp
 public void Insert(int index, MapiRecipient item)
@@ -16,7 +16,7 @@ public void Insert(int index, MapiRecipient item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入*item*的从零开始的索引。 |
+| index | Int32 | 从零开始的索引*item*应该插入。 |
 | item | MapiRecipient | 要插入的对象。对于引用类型，该值可以为 null。 |
 
 ### 例外

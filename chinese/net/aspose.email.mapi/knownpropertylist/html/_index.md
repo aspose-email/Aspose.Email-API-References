@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/html/
 ---
 ## KnownPropertyList.Html field
 
-指定联系人的业务网页 URL。 区域:联系人属性 规范名称:PidLidHtml 替代名称:dispidHTML
+指定联系人的业务网页 URL。 区域：联系人属性 规范名称：PidLidHtml 替代名称：dispidHTML
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Html;

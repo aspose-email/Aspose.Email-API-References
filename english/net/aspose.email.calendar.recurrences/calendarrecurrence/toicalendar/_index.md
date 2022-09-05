@@ -1,7 +1,7 @@
 ---
 title: ToiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: To iCalendar string.
 type: docs
 weight: 130
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/toicalendar/

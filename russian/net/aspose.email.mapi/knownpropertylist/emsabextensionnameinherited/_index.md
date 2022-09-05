@@ -1,14 +1,14 @@
 ---
 title: EmsAbExtensionNameInherited
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_EXTENSION_NAME_INHERITED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_EXTENSION_NAME_INHERITED
 type: docs
 weight: 6270
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabextensionnameinherited/
 ---
 ## KnownPropertyList.EmsAbExtensionNameInherited field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_EXTENSION_NAME_INHERITED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_EXTENSION_NAME_INHERITED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbExtensionNameInherited;

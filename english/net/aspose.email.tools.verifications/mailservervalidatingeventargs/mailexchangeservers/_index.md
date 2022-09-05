@@ -1,7 +1,7 @@
 ---
 title: MailExchangeServers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mail exchange server list.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.verifications/mailservervalidatingeventargs/mailexchangeservers/

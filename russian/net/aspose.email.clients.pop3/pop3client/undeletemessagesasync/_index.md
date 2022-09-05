@@ -16,7 +16,7 @@ public Task UndeleteMessagesAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -61,7 +61,7 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

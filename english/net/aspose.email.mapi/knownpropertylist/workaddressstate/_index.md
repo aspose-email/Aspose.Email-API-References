@@ -1,7 +1,7 @@
 ---
 title: WorkAddressState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the state or province portion of the work address of the contact. Area Contact Properties Canonical name PidLidWorkAddressState Alternate names dispidWorkAddressState
 type: docs
 weight: 19610
 url: /net/aspose.email.mapi/knownpropertylist/workaddressstate/

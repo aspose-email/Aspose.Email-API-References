@@ -3,7 +3,7 @@ title: StandardFormatter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет класс для форматирования сообщений журнала.
 type: docs
-weight: 20540
+weight: 20590
 url: /ru/net/aspose.email.tools.logging/standardformatter/
 ---
 ## StandardFormatter class
@@ -18,9 +18,9 @@ public class StandardFormatter : Formatter
 
 | Имя | Описание |
 | --- | --- |
-| [StandardFormatter](standardformatter#constructor)() | Инициализирует новый экземпляр класса[`StandardFormatter`](../standardformatter). |
-| [StandardFormatter](standardformatter#constructor_1)(string) | Инициализирует новый экземпляр класса[`StandardFormatter`](../standardformatter). |
-| [StandardFormatter](standardformatter#constructor_2)(StringBuilder) | Инициализирует новый экземпляр класса[`StandardFormatter`](../standardformatter). |
+| [StandardFormatter](standardformatter#constructor)() | Инициализирует новый экземпляр[`StandardFormatter`](../standardformatter) класс. |
+| [StandardFormatter](standardformatter#constructor_1)(string) | Инициализирует новый экземпляр[`StandardFormatter`](../standardformatter) класс. |
+| [StandardFormatter](standardformatter#constructor_2)(StringBuilder) | Инициализирует новый экземпляр[`StandardFormatter`](../standardformatter) класс. |
 
 ## Характеристики
 
@@ -28,7 +28,7 @@ public class StandardFormatter : Formatter
 | --- | --- |
 | override [Footer](../../aspose.email.tools.logging/standardformatter/footer) { get; } | Получить строку нижнего колонтитула. |
 | override [Header](../../aspose.email.tools.logging/standardformatter/header) { get; } | Получает заголовок журнала. |
-| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или устанавливает заголовок журнала |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или задает заголовок журнала |
 
 ## Методы
 

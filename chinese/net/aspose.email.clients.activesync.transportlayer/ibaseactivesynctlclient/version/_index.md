@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API 参考
-description: 获取 ActiveSync 客户端中使用的协议版本
+description: 获取 ActiveSync 客户端使用的协议版本
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/version/
 ---
 ## IBaseActiveSyncTLClient.Version property
 
-获取 ActiveSync 客户端中使用的协议版本。
+获取 ActiveSync 客户端使用的协议版本。
 
 ```csharp
 public ASProtocolVersions Version { get; }

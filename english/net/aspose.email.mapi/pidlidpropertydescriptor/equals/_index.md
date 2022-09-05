@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified System.Object is equal to the current System.Object.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/equals/
 ---
-## PidLidPropertyDescriptor.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified System.Object is equal to the current System.Object.
 
@@ -30,7 +30,7 @@ true if the specified System.Object is equal to the current System.Object; other
 
 ---
 
-## PidLidPropertyDescriptor.Equals method (2 of 2)
+## Equals(PropertyDescriptor) {#equals}
 
 Indicates whether the current object is equal to another object of the same type.
 

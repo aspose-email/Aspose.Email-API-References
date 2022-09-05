@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date on which the user expects work on the task to begin.
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapitask/startdate/

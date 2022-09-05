@@ -1,7 +1,7 @@
 ---
 title: GmailClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base class for Gmail client
 type: docs
 weight: 15760
 url: /net/aspose.email.clients.google/gmailclient/
@@ -30,10 +30,10 @@ public abstract class GmailClient : IBaseGmailClient
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients.google/gmailclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [RefreshToken](../../aspose.email.clients.google/gmailclient/refreshtoken)() | Refresh access token |
-| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string) | Gets instance of Gmail client |
-| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, IWebProxy, string) | Gets instance of Gmail client |
-| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string, string, string) | Gets instance of Gmail client |
-| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string, string, IWebProxy, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance_1)(string, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance)(string, IWebProxy, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance_3)(string, string, string, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance_2)(string, string, string, IWebProxy, string) | Gets instance of Gmail client |
 
 ### See Also
 

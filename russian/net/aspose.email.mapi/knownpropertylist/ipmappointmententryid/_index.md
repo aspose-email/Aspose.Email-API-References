@@ -1,14 +1,14 @@
 ---
 title: IpmAppointmentEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки календаря. ОбластьСвойства папки Каноническое имяPidTagIpmAppointmentEntryId Альтернативные именаPR_IPM_APPOINTMENT_ENTRYID
+description: Содержит EntryID папки календаря. Область Свойства папки Каноническое имя PidTagIpmAppointmentEntryId Альтернативные имена PR_IPM_APPOINTMENT_ENTRYID
 type: docs
 weight: 11610
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmappointmententryid/
 ---
 ## KnownPropertyList.IpmAppointmentEntryId field
 
-Содержит EntryID папки календаря. Область:Свойства папки Каноническое имя:PidTagIpmAppointmentEntryId Альтернативные имена:PR_IPM_APPOINTMENT_ENTRYID
+Содержит EntryID папки календаря. Область: Свойства папки Каноническое имя: PidTagIpmAppointmentEntryId Альтернативные имена: PR_IPM_APPOINTMENT_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmAppointmentEntryId;

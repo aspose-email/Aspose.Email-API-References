@@ -16,7 +16,7 @@ public Task UpdateContactAsync(Contact contact, CancellationToken cancellationTo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | Contact | 联系人项目。 |
+| contact | Contact | 联系项目。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 也可以看看

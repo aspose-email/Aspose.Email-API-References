@@ -1,14 +1,14 @@
 ---
 title: TaskUpdates
 second_title: Aspose.Email for .NET API 参考
-description: 指示当分配的任务对象发生变化时是否已请求任务受理人发送任务更新 区域任务 规范名称PidLidTaskUpdates 替代名称dispidTaskUpdates
+description: 指示在分配的任务对象更改时是否已请求任务受让人发送任务更新 区域Tasks 规范名称PidLidTaskUpdates 替代名称dispidTaskUpdates
 type: docs
 weight: 18850
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskupdates/
 ---
 ## KnownPropertyList.TaskUpdates field
 
-指示当分配的任务对象发生变化时，是否已请求任务受理人发送任务更新。 区域:任务 规范名称:PidLidTaskUpdates 替代名称:dispidTaskUpdates
+指示在分配的任务对象更改时是否已请求任务受让人发送任务更新。 区域：Tasks 规范名称：PidLidTaskUpdates 替代名称：dispidTaskUpdates
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskUpdates;

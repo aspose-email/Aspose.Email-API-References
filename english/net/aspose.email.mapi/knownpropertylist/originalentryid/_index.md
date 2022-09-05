@@ -1,7 +1,7 @@
 ---
 title: OriginalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the original EntryID of an object. Area General Message Properties Canonical name PidTagOriginalEntryId Alternate names PR_ORIGINAL_ENTRYID ptagOriginalEntryId
 type: docs
 weight: 13580
 url: /net/aspose.email.mapi/knownpropertylist/originalentryid/

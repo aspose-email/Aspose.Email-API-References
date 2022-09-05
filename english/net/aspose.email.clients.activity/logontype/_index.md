@@ -1,7 +1,7 @@
 ---
 title: LogonType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit logon types
 type: docs
 weight: 2610
 url: /net/aspose.email.clients.activity/logontype/

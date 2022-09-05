@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API 参考
-description: 获取在 EWS 请求中添加到 WebHeaderCollection 的名称值对数组
+description: 获取名称值对的数组它们被添加到 EWS 请求中的 WebHeaderCollection
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/headers/
 ---
 ## IEWSClient.Headers property
 
-获取在 EWS 请求中添加到 WebHeaderCollection 的名称值对数组。
+获取名称值对的数组，它们被添加到 EWS 请求中的 WebHeaderCollection。
 
 ```csharp
 public KeyValuePair<string, string>[] Headers { get; }

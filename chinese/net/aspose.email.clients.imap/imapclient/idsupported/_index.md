@@ -1,14 +1,14 @@
 ---
 title: IdSupported
 second_title: Aspose.Email for .NET API 参考
-description: 获取是否支持 ID 扩展的信息 查看更多https//tools.ietf.org/html/rfc2971
+description: 获取是否支持ID扩展的信息 查看更多https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.imap/imapclient/idsupported/
 ---
 ## ImapClient.IdSupported property
 
-获取是否支持 ID 扩展的信息 查看更多:https://tools.ietf.org/html/rfc2971
+获取是否支持ID扩展的信息 查看更多：https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public bool IdSupported { get; set; }

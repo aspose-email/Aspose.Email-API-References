@@ -18,12 +18,12 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 文件夹的名称。 |
-| defaultFolder | StandardIpmFolder | [`StandardIpmFolder`](../../standardipmfolder)枚举的值。 |
-| createHierarchy | Boolean | 如果设置为` true` ，则可以使用字符串表示法创建文件夹层次结构. 反斜杠 ('\') 用作路径分隔符。 |
+| defaultFolder | StandardIpmFolder | 的价值[`StandardIpmFolder`](../../standardipmfolder)枚举。 |
+| createHierarchy | Boolean | 如果设置为`真的`，可以使用字符串表示法创建文件夹层次结构。 反斜杠 ('\') 用作路径分隔符。 |
 
 ### 返回值
 
-A[`FolderInfo`](../../folderinfo)表示标准 IPM 文件夹的对象。
+一个[`FolderInfo`](../../folderinfo)表示标准 IPM 文件夹的对象。
 
 ### 也可以看看
 
@@ -46,11 +46,11 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 文件夹的名称。 |
-| defaultFolder | StandardIpmFolder | [`StandardIpmFolder`](../../standardipmfolder)枚举的值。 |
+| defaultFolder | StandardIpmFolder | 的价值[`StandardIpmFolder`](../../standardipmfolder)枚举。 |
 
 ### 返回值
 
-A[`FolderInfo`](../../folderinfo)表示标准 IPM 文件夹的对象。
+一个[`FolderInfo`](../../folderinfo)表示标准 IPM 文件夹的对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Pop3MessageInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示来自Pop3服务器的邮件信息
+description: 表示来自 Pop3 服务器的邮件信息
 type: docs
 weight: 16930
 url: /zh/net/aspose.email.clients.pop3/pop3messageinfocollection/
 ---
 ## Pop3MessageInfoCollection class
 
-表示来自Pop3服务器的邮件信息。
+表示来自 Pop3 服务器的邮件信息。
 
 ```csharp
 public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
@@ -24,8 +24,8 @@ public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage)(int) | 获取电子邮件消息的[`Pop3MessageInfo`](../pop3messageinfo)。 |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage_1)(string) | 获取电子邮件消息的[`Pop3MessageInfo`](../pop3messageinfo)。 |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage)(int) | 获取[`Pop3MessageInfo`](../pop3messageinfo)电子邮件消息。 |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage_1)(string) | 获取[`Pop3MessageInfo`](../pop3messageinfo)电子邮件消息。 |
 
 ### 也可以看看
 

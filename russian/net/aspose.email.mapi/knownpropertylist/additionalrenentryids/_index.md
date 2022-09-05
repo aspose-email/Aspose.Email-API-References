@@ -1,14 +1,14 @@
 ---
 title: AdditionalRenEntryIds
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификаторы проиндексированных записей для нескольких специальных папок связанных с конфликтами проблемами синхронизации локальными сбоями сбоями сервера нежелательной почтой и спамом. ОбластьПриложение Outlook Каноническое имяPidTagAdditionalRenEntryIds Альтернативные именаPR_ADDITIONAL_REN_ENTRYIDS ptagAdditionalRenEntryIds
+description: Содержит идентификаторы проиндексированных записей для нескольких специальных папок связанных с конфликтами проблемами синхронизации локальными сбоями сбоями сервера нежелательной почтой и спамом. Область Outlook Application Каноническое имя PidTagAdditionalRenEntryIds Альтернативные имена PR_ADDITIONAL_REN_ENTRYIDS ptagAdditionalRenEntryIds
 type: docs
 weight: 300
 url: /ru/net/aspose.email.mapi/knownpropertylist/additionalrenentryids/
 ---
 ## KnownPropertyList.AdditionalRenEntryIds field
 
-Содержит идентификаторы проиндексированных записей для нескольких специальных папок, связанных с конфликтами, проблемами синхронизации, локальными сбоями, сбоями сервера, нежелательной почтой и спамом. Область:Приложение Outlook Каноническое имя:PidTagAdditionalRenEntryIds Альтернативные имена:PR_ADDITIONAL_REN_ENTRYIDS, ptagAdditionalRenEntryIds
+Содержит идентификаторы проиндексированных записей для нескольких специальных папок, связанных с конфликтами, проблемами синхронизации, локальными сбоями, сбоями сервера, нежелательной почтой и спамом. Область: Outlook Application Каноническое имя: PidTagAdditionalRenEntryIds Альтернативные имена: PR_ADDITIONAL_REN_ENTRYIDS, ptagAdditionalRenEntryIds
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AdditionalRenEntryIds;

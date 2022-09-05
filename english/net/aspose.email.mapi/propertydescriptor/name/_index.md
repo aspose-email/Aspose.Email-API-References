@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets string that identifies a property.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/propertydescriptor/name/

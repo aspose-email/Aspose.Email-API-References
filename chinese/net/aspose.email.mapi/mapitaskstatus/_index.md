@@ -3,7 +3,7 @@ title: MapiTaskStatus
 second_title: Aspose.Email for .NET API 参考
 description: 表示用户在任务上的进度状态
 type: docs
-weight: 18720
+weight: 18750
 url: /zh/net/aspose.email.mapi/mapitaskstatus/
 ---
 ## MapiTaskStatus enumeration
@@ -19,7 +19,7 @@ public enum MapiTaskStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotStarted | `0` | 用户尚未开始处理任务对象。 |
-| InProgress | `1` | 用户正在处理此任务对象。 |
+| InProgress | `1` | 用户对此任务对象的工作正在进行中。 |
 | Complete | `2` | 用户在此任务对象上的工作已完成。 |
 | Waiting | `3` | 用户正在等待其他人。 |
 | Deferred | `4` | 用户推迟了任务对象的工作。 |

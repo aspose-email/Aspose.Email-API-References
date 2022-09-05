@@ -28,7 +28,7 @@ public class ItemEstimateRequest
 | --- | --- |
 | [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/collectionid) { get; set; } | 指定从中获取项目估计值的集合的服务器 ID。 |
 | [ConversationMode](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode) { get; set; } | 指定是否在 GetItemEstimate 命令响应的结果中包含对话模式中包含的项目。 |
-| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/filtertype) { get; set; } | 指定对象的可选时间窗口 |
+| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/filtertype) { get; set; } | 指定对象 的可选时间窗口 |
 | [Options](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/options) { get; set; } | 包含过滤 GetItemEstimate 操作结果的元素数组。 |
 | [SyncKey](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/synckey) { get; set; } | 表示集合的当前状态。 |
 

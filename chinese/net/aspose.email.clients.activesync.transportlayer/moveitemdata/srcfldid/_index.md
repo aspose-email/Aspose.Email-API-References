@@ -1,14 +1,14 @@
 ---
 title: SrcFldId
 second_title: Aspose.Email for .NET API 参考
-description: 指定源文件夹即包含要移动的项目的文件夹的服务器 ID SrcFldId 元素值最长可达 64 个字符
+description: 指定源文件夹即包含要移动的项目的文件夹的服务器 ID SrcFldId 元素值的长度最多为 64 个字符
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid/
 ---
 ## MoveItemData.SrcFldId property
 
-指定源文件夹（即包含要移动的项目的文件夹）的服务器 ID。 SrcFldId 元素值最长可达 64 个字符。
+指定源文件夹（即包含要移动的项目的文件夹）的服务器 ID。 SrcFldId 元素值的长度最多为 64 个字符。
 
 ```csharp
 public string SrcFldId { get; set; }

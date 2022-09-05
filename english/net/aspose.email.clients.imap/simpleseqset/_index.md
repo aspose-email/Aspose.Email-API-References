@@ -1,9 +1,9 @@
 ---
 title: SimpleSeqSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Simple container for value to search.
 type: docs
-weight: 16600
+weight: 16710
 url: /net/aspose.email.clients.imap/simpleseqset/
 ---
 ## SimpleSeqSet class
@@ -18,8 +18,8 @@ public class SimpleSeqSet : SequenceSetBaseValue
 
 | Name | Description |
 | --- | --- |
-| [SimpleSeqSet](simpleseqset)() | Initializes a new instance of the [`SimpleSeqSet`](../simpleseqset) class. |
-| [SimpleSeqSet](simpleseqset)(string) | Initializes a new instance of the [`SimpleSeqSet`](../simpleseqset) class. |
+| [SimpleSeqSet](simpleseqset#constructor)() | Initializes a new instance of the [`SimpleSeqSet`](../simpleseqset) class. |
+| [SimpleSeqSet](simpleseqset#constructor_1)(string) | Initializes a new instance of the [`SimpleSeqSet`](../simpleseqset) class. |
 
 ## Properties
 
@@ -32,7 +32,7 @@ public class SimpleSeqSet : SequenceSetBaseValue
 | Name | Description |
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/simpleseqset/tostring)() | Returns a string that represents the current object. |
-| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit) | Implicit conversion operation from String to [`SimpleSeqSet`](../simpleseqset) (2 operators) |
+| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit#op_implicit) | Implicit conversion operation from String to [`SimpleSeqSet`](../simpleseqset) (2 operators) |
 
 ### See Also
 

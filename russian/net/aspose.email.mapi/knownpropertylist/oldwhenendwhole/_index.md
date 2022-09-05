@@ -1,14 +1,14 @@
 ---
 title: OldWhenEndWhole
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает исходное значение свойства PidLidAppointmentEndWhole раздел 2.14 перед обновлением собрания. ОбластьВстречи Каноническое имяPidLidOldWhenEndWhole Альтернативные именаdispidOldWhenEndWhole
+description: Указывает исходное значение свойства PidLidAppointmentEndWhole раздел 2.14 перед обновлением собрания. Область Meetings Каноническое имя PidLidOldWhenEndWhole Альтернативные имена dispidOldWhenEndWhole
 type: docs
 weight: 13350
 url: /ru/net/aspose.email.mapi/knownpropertylist/oldwhenendwhole/
 ---
 ## KnownPropertyList.OldWhenEndWhole field
 
-Указывает исходное значение свойства PidLidAppointmentEndWhole (раздел 2.14) перед обновлением собрания. Область:Встречи Каноническое имя:PidLidOldWhenEndWhole Альтернативные имена:dispidOldWhenEndWhole
+Указывает исходное значение свойства PidLidAppointmentEndWhole (раздел 2.14) перед обновлением собрания. Область: Meetings Каноническое имя: PidLidOldWhenEndWhole Альтернативные имена: dispidOldWhenEndWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldWhenEndWhole;

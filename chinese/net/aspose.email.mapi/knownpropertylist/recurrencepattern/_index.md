@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 指定日历对象的重复模式的描述 区域日历 规范名称PidLidRecurrencePattern 替代名称dispidRecurPattern
+description: 指定日历对象的重复模式的描述 区域Calendar 规范名称PidLidRecurrencePattern 替代名称dispidRecurPattern
 type: docs
 weight: 15590
 url: /zh/net/aspose.email.mapi/knownpropertylist/recurrencepattern/
 ---
 ## KnownPropertyList.RecurrencePattern field
 
-指定日历对象的重复模式的描述。 区域:日历 规范名称:PidLidRecurrencePattern 替代名称:dispidRecurPattern
+指定日历对象的重复模式的描述。 区域：Calendar 规范名称：PidLidRecurrencePattern 替代名称：dispidRecurPattern
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrencePattern;

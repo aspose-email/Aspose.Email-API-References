@@ -1,14 +1,14 @@
 ---
 title: SpamAnalyzer
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SpamAnalyzeraspose.email.antispam/spamanalyzer类的新实例
+description: 初始化一个新的实例SpamAnalyzeraspose.email.antispam/spamanalyzer类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.antispam/spamanalyzer/spamanalyzer/
 ---
 ## SpamAnalyzer() {#constructor}
 
-初始化[`SpamAnalyzer`](../../spamanalyzer)类的新实例。
+初始化一个新的实例[`SpamAnalyzer`](../../spamanalyzer)类.
 
 ```csharp
 public SpamAnalyzer()
@@ -24,7 +24,7 @@ public SpamAnalyzer()
 
 ## SpamAnalyzer(Stream) {#constructor_1}
 
-初始化[`SpamAnalyzer`](../../spamanalyzer)类的新实例。
+初始化一个新的实例[`SpamAnalyzer`](../../spamanalyzer)类.
 
 ```csharp
 public SpamAnalyzer(Stream stream)
@@ -38,7 +38,7 @@ public SpamAnalyzer(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public SpamAnalyzer(Stream stream)
 
 ## SpamAnalyzer(string) {#constructor_2}
 
-初始化[`SpamAnalyzer`](../../spamanalyzer)类的新实例。
+初始化一个新的实例[`SpamAnalyzer`](../../spamanalyzer)类.
 
 ```csharp
 public SpamAnalyzer(string filePath)

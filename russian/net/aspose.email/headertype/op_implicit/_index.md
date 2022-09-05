@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Выполняет неявное преобразование изHeaderTypeaspose.email/headertypeвString.
+description: Выполняет неявное преобразование изHeaderTypeaspose.email/headertype кString .
 type: docs
 weight: 310
 url: /ru/net/aspose.email/headertype/op_implicit/
 ---
 ## HeaderType Implicit operator
 
-Выполняет неявное преобразование из[`HeaderType`](../../headertype)вString.
+Выполняет неявное преобразование из[`HeaderType`](../../headertype) кString .
 
 ```csharp
 public static implicit operator string(HeaderType type)

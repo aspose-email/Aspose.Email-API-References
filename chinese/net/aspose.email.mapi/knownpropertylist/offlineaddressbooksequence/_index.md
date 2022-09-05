@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookSequence
 second_title: Aspose.Email for .NET API 参考
-description: 包含 OAB 的序列号 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookSequence 替代名称PR_OAB_SEQUENCE
+description: 包含 OAB 的序列号 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookSequence 备用名称PR_OAB_SEQUENCE
 type: docs
 weight: 13280
 url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbooksequence/
 ---
 ## KnownPropertyList.OfflineAddressBookSequence field
 
-包含 OAB 的序列号。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookSequence 替代名称:PR_OAB_SEQUENCE
+包含 OAB 的序列号。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookSequence 备用名称：PR_OAB_SEQUENCE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookSequence;

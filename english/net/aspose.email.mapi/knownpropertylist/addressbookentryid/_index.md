@@ -1,7 +1,7 @@
 ---
 title: AddressBookEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the nameservice EntryID of a directory object that refers to a public folder. Area Address Book Canonical name PidTagAddressBookEntryId Alternate names PR_ADDRESS_BOOK_ENTRYID ptagAddressBookEntryId
 type: docs
 weight: 440
 url: /net/aspose.email.mapi/knownpropertylist/addressbookentryid/

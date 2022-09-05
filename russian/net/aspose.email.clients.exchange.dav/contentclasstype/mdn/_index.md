@@ -1,14 +1,14 @@
 ---
 title: MDN
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс контента urncontent-classesmdn который определяет набор свойств для элемента который представляет собой сообщение уведомления о доставке почты MDN.
+description: Получает класс содержимого urncontent-classesmdn  который определяет набор свойств для элемента  являющегося сообщением уведомления о доставке почты MDN.
 type: docs
 weight: 130
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/mdn/
 ---
 ## ContentClassType.MDN property
 
-Получает класс контента urn:content-classes:mdn который определяет набор свойств для элемента который представляет собой сообщение уведомления о доставке почты (MDN).
+Получает класс содержимого urn:content-classes:mdn , который определяет набор свойств для элемента , являющегося сообщением уведомления о доставке почты (MDN).
 
 ```csharp
 public static ContentClassType MDN { get; }

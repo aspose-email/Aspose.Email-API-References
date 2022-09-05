@@ -1,14 +1,14 @@
 ---
 title: UserConfiguration
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаUserConfigurationaspose.email.clients.exchange.webservice/userconfiguration
+description: Инициализирует новый экземплярUserConfigurationaspose.email.clients.exchange.webservice/userconfiguration класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/userconfiguration/userconfiguration/
 ---
 ## UserConfiguration constructor
 
-Инициализирует новый экземпляр класса[`UserConfiguration`](../../userconfiguration)
+Инициализирует новый экземпляр[`UserConfiguration`](../../userconfiguration) класс
 
 ```csharp
 public UserConfiguration(UserConfigurationName userConfigurationName)
@@ -22,7 +22,7 @@ public UserConfiguration(UserConfigurationName userConfigurationName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *userConfigurationName*is` null` |
+| ArgumentNullException | *userConfigurationName* является`нулевой` |
 
 ### Смотрите также
 

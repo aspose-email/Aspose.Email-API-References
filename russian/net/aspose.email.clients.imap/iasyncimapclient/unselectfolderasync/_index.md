@@ -1,14 +1,14 @@
 ---
 title: UnselectFolderAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Отменяет выбор папки которая выбрана в данный момент. если свойство doNotExpunge равно true все сообщения помеченные как удаленные удаляются иначе удаление отменяется. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC3691 Подробнее https//tools.ietf.org/html/rfc3691
+description: Отменяет выбор папки которая выбрана в данный момент. если свойство doNotExpunge равно true все сообщения помечаются как удаленные удаляются в противном случае удаление отменяется. ietf.org/html/rfc3691
 type: docs
 weight: 410
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/unselectfolderasync/
 ---
 ## IAsyncImapClient.UnselectFolderAsync method
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(bool doNotExpunge = false, IConnection connection = null, 
@@ -17,7 +17,7 @@ public Task UnselectFolderAsync(bool doNotExpunge = false, IConnection connectio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Boolean | Соединение с сервером |
+| connection | Boolean | Подключение к серверу |
 | doNotExpunge | IConnection | Указывает, следует ли удалять сообщения, помеченные как удаленные. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

@@ -1,7 +1,7 @@
 ---
 title: NoteFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesnotesfolder content class that defines a set of properties for a folder that primarily contains note items.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/notefolder/

@@ -1,12 +1,145 @@
 ---
 title: SaveMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches and save the message as a stream
 type: docs
 weight: 360
 url: /net/aspose.email.clients.pop3/pop3client/savemessageasync/
 ---
-## Pop3Client.SaveMessageAsync method (1 of 16)
+## SaveMessageAsync(IConnection, string, Stream) {#savemessageasync_4}
+
+Fetches and save the message as a stream
+
+```csharp
+public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream outputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The unique Id of the message |
+| outputStream | Stream | Stream where message will be saved |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(IConnection, string, string) {#savemessageasync_6}
+
+Fetches and save the message into a file
+
+```csharp
+public Task SaveMessageAsync(IConnection connection, string uniqueId, string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The unique Id of the message |
+| fileName | String | File name for message |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(IConnection, int, Stream) {#savemessageasync}
+
+Fetches and save the message as a stream
+
+```csharp
+public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream outputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| outputStream | Stream | Stream where message will be saved |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(IConnection, int, string) {#savemessageasync_2}
+
+Fetches and save the message into a file
+
+```csharp
+public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| fileName | String | File name for message |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(string, Stream) {#savemessageasync_12}
+
+Fetches and save the message as a stream
+
+```csharp
+public Task SaveMessageAsync(string uniqueId, Stream outputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| outputStream | Stream | Stream where message will be saved |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(string, string) {#savemessageasync_14}
 
 Fetches and save the message into a file
 
@@ -31,7 +164,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (2 of 16)
+## SaveMessageAsync(int, Stream) {#savemessageasync_8}
 
 Fetches and save the message as a stream
 
@@ -56,7 +189,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (3 of 16)
+## SaveMessageAsync(int, string) {#savemessageasync_10}
 
 Fetches and save the message into a file
 
@@ -81,7 +214,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (4 of 16)
+## SaveMessageAsync(IConnection, string, Stream, CancellationToken) {#savemessageasync_5}
 
 Fetches and save the message as a stream
 
@@ -110,7 +243,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (5 of 16)
+## SaveMessageAsync(IConnection, string, string, CancellationToken) {#savemessageasync_7}
 
 Fetches and save the message into a file
 
@@ -139,7 +272,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (6 of 16)
+## SaveMessageAsync(IConnection, int, Stream, CancellationToken) {#savemessageasync_1}
 
 Fetches and save the message as a stream
 
@@ -168,7 +301,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (7 of 16)
+## SaveMessageAsync(IConnection, int, string, CancellationToken) {#savemessageasync_3}
 
 Fetches and save the message into a file
 
@@ -197,7 +330,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (8 of 16)
+## SaveMessageAsync(string, Stream, CancellationToken) {#savemessageasync_13}
 
 Fetches and save the message as a stream
 
@@ -223,7 +356,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (9 of 16)
+## SaveMessageAsync(string, string, CancellationToken) {#savemessageasync_15}
 
 Fetches and save the message into a file
 
@@ -249,7 +382,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (10 of 16)
+## SaveMessageAsync(int, Stream, CancellationToken) {#savemessageasync_9}
 
 Fetches and save the message as a stream
 
@@ -275,7 +408,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.SaveMessageAsync method (11 of 16)
+## SaveMessageAsync(int, string, CancellationToken) {#savemessageasync_11}
 
 Fetches and save the message into a file
 
@@ -288,139 +421,6 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationTo
 | sequenceNumber | Int32 | The sequence number of the message |
 | fileName | String | File name for message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.SaveMessageAsync method (12 of 16)
-
-Fetches and save the message as a stream
-
-```csharp
-public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream outputStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The unique Id of the message |
-| outputStream | Stream | Stream where message will be saved |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.SaveMessageAsync method (13 of 16)
-
-Fetches and save the message into a file
-
-```csharp
-public Task SaveMessageAsync(IConnection connection, string uniqueId, string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The unique Id of the message |
-| fileName | String | File name for message |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.SaveMessageAsync method (14 of 16)
-
-Fetches and save the message as a stream
-
-```csharp
-public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream outputStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | The sequence number of the message |
-| outputStream | Stream | Stream where message will be saved |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.SaveMessageAsync method (15 of 16)
-
-Fetches and save the message into a file
-
-```csharp
-public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | The sequence number of the message |
-| fileName | String | File name for message |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.SaveMessageAsync method (16 of 16)
-
-Fetches and save the message as a stream
-
-```csharp
-public Task SaveMessageAsync(string uniqueId, Stream outputStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| outputStream | Stream | Stream where message will be saved |
 
 ### Return Value
 

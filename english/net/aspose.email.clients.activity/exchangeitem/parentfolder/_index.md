@@ -1,7 +1,7 @@
 ---
 title: ParentFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the folder where the item is located.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/exchangeitem/parentfolder/

@@ -22,14 +22,14 @@ public Task<IEnumerable<ExchangeUploadItemResult>> UpdateItemsAsync(
 
 ### 返回值
 
-数组[`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
+一个数组[`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*is` 空` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*是`无效的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*是`空的` |
 
 ### 也可以看看
 

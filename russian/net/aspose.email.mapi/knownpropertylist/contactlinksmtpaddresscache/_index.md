@@ -1,14 +1,14 @@
 ---
 title: ContactLinkSMTPAddressCache
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список SMTP-адресов используемых контактом. ОбластьСвойства контакта Каноническое имяPidLidContactLinkSMTPAddressCache Альтернативные именаdispidContactLinkSMTPAddressCache
+description: Содержит список SMTP-адресов используемых контактом. Область Свойства контакта Каноническое имя PidLidContactLinkSMTPAddressCache Альтернативные имена dispidContactLinkSMTPAddressCache
 type: docs
 weight: 3030
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinksmtpaddresscache/
 ---
 ## KnownPropertyList.ContactLinkSMTPAddressCache field
 
-Содержит список SMTP-адресов, используемых контактом. Область:Свойства контакта Каноническое имя:PidLidContactLinkSMTPAddressCache Альтернативные имена:dispidContactLinkSMTPAddressCache
+Содержит список SMTP-адресов, используемых контактом. Область: Свойства контакта Каноническое имя: PidLidContactLinkSMTPAddressCache Альтернативные имена: dispidContactLinkSMTPAddressCache
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkSMTPAddressCache;

@@ -1,12 +1,12 @@
 ---
 title: StopMonitoringAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Stops monitoring of message changes for specified folder.
 type: docs
 weight: 1200
 url: /net/aspose.email.clients.imap/imapclient/stopmonitoringasync/
 ---
-## ImapClient.StopMonitoringAsync method (1 of 2)
+## StopMonitoringAsync(string) {#stopmonitoringasync_1}
 
 Stops monitoring of message changes for specified folder.
 
@@ -30,7 +30,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.StopMonitoringAsync method (2 of 2)
+## StopMonitoringAsync() {#stopmonitoringasync}
 
 Stops any monitoring of changes.
 

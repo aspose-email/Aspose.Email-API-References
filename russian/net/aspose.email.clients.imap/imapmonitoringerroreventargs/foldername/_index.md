@@ -1,14 +1,14 @@
 ---
 title: FolderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указана папка для наблюдения за работой.
+description: Указана папка для мониторинга операции.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/imapmonitoringerroreventargs/foldername/
 ---
 ## ImapMonitoringErrorEventArgs.FolderName property
 
-Указана папка для наблюдения за работой.
+Указана папка для мониторинга операции.
 
 ```csharp
 public string FolderName { get; }

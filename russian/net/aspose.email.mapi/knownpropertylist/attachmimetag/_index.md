@@ -1,14 +1,14 @@
 ---
 title: AttachMimeTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит заголовок MIME типа содержимого. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachMimeTag Альтернативные именаPR_ATTACH_MIME_TAG PR_ATTACH_MIME_TAG_A PR_ATTACH_MIME_TAG_W
+description: Содержит заголовок MIME типа содержимого. Область Свойства вложения сообщения Каноническое имя PidTagAttachMimeTag Альтернативные имена PR_ATTACH_MIME_TAG PR_ATTACH_MIME_TAG_A PR_ATTACH_MIME_TAG_W
 type: docs
 weight: 1710
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmimetag/
 ---
 ## KnownPropertyList.AttachMimeTag field
 
-Содержит заголовок MIME типа содержимого. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachMimeTag Альтернативные имена:PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W
+Содержит заголовок MIME типа содержимого. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachMimeTag Альтернативные имена: PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachMimeTag;

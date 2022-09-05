@@ -16,11 +16,11 @@ public MailAddressCollection ExpandDistributionList(MailAddress mailAddress)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailAddress | MailAddress | 一个公共[`MailAddress`](../../../aspose.email/mailaddress)以展开。 |
+| mailAddress | MailAddress | 公众[`MailAddress`](../../../aspose.email/mailaddress)扩大。 |
 
 ### 返回值
 
-A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含来自指定公共分发列表的成员。
+一个[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含来自指定公共分发列表的成员。
 
 ### 也可以看看
 

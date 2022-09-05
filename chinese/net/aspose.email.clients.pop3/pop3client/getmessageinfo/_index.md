@@ -18,8 +18,8 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一ID |
-| fields | Pop3ListFields | 我们要获取的字段 |
+| uniqueId | String | 消息的唯一标识 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 
@@ -73,7 +73,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的唯一 ID消息 |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
@@ -98,8 +98,8 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId, Pop3ListFields fields)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的唯一 ID消息 |
-| fields | Pop3ListFields | 我们想要获取的字段 |
+| uniqueId | String | 消息的唯一标识 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 
@@ -127,8 +127,8 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| fields | Pop3ListFields | 我们要获取的字段 |
+| sequenceNumber | Int32 | 消息的序号 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 
@@ -156,7 +156,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -182,7 +182,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -207,8 +207,8 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber, Pop3ListFields fields)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
-| fields | Pop3ListFields | 我们想要获取的字段 |
+| sequenceNumber | Int32 | 消息的序号 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 

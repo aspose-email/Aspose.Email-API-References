@@ -1,14 +1,14 @@
 ---
 title: ConversationIndexTracking
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли использовать часть GUID свойства PidTagConversationIndex раздел 2.641 для вычисления свойства PidTagConversationId раздел 2.640. ОбластьБеседы Каноническое имяPidTagConversationIndexTracking Альтернативные именаPR_CONVERSATION_INDEX_TRACKING
+description: Указывает следует ли использовать часть GUID свойства PidTagConversationIndex раздел 2.641 для вычисления свойства PidTagConversationId раздел 2.640. Область Conversations Каноническое имя PidTagConversationIndexTracking Альтернативные имена PR_CONVERSATION_INDEX_TRACKING
 type: docs
 weight: 3410
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationindextracking/
 ---
 ## KnownPropertyList.ConversationIndexTracking field
 
-Указывает, следует ли использовать часть GUID свойства PidTagConversationIndex (раздел 2.641) для вычисления свойства PidTagConversationId (раздел 2.640). Область:Беседы Каноническое имя:PidTagConversationIndexTracking Альтернативные имена:PR_CONVERSATION_INDEX_TRACKING
+Указывает, следует ли использовать часть GUID свойства PidTagConversationIndex (раздел 2.641) для вычисления свойства PidTagConversationId (раздел 2.640). Область: Conversations Каноническое имя: PidTagConversationIndexTracking Альтернативные имена: PR_CONVERSATION_INDEX_TRACKING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationIndexTracking;

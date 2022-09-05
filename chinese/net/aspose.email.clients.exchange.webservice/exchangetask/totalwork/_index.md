@@ -1,14 +1,14 @@
 ---
 title: TotalWork
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户期望完成一项任务的总工作量
+description: 获取或设置用户期望完成任务的总工作量
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangetask/totalwork/
 ---
 ## ExchangeTask.TotalWork property
 
-获取或设置用户期望完成一项任务的总工作量。
+获取或设置用户期望完成任务的总工作量。
 
 ```csharp
 public int TotalWork { get; set; }

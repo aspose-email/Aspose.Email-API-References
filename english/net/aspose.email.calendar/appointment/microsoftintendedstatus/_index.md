@@ -1,9 +1,9 @@
 ---
 title: MicrosoftIntendedStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the INTENDED status of an appointment.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.email.calendar/appointment/microsoftintendedstatus/
 ---
 ## Appointment.MicrosoftIntendedStatus property

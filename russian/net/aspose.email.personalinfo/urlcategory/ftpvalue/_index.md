@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/urlcategory/ftpvalue/
 ---
 ## UrlCategory.FtpValue field
 
-Строковое значение для категории 'Ftp'
+Строковое значение для категории "Ftp"
 
 ```csharp
 public const string FtpValue;

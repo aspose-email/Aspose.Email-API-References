@@ -1,7 +1,7 @@
 ---
 title: AttendeeCriticalChange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the date and time at which the meetingrelated object was sent. Area Meetings Canonical name PidLidAttendeeCriticalChange Alternate names LID_ATTENDEE_CRITICAL_CHANGE
 type: docs
 weight: 1820
 url: /net/aspose.email.mapi/knownpropertylist/attendeecriticalchange/

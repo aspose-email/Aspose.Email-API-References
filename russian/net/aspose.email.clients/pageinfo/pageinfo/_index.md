@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPageInfoaspose.email.clients/pageinfoclass
+description: Инициализирует новый экземплярPageInfoaspose.email.clients/pageinfo класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/pageinfo/pageinfo/
 ---
 ## PageInfo(int) {#constructor}
 
-Инициализирует новый экземпляр класса[`PageInfo`](../../pageinfo)class
+Инициализирует новый экземпляр[`PageInfo`](../../pageinfo) класс
 
 ```csharp
 public PageInfo(int itemsPerPage)
@@ -28,7 +28,7 @@ public PageInfo(int itemsPerPage)
 
 ## PageInfo(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PageInfo`](../../pageinfo)class
+Инициализирует новый экземпляр[`PageInfo`](../../pageinfo) класс
 
 ```csharp
 public PageInfo(int itemsPerPage, int offset)
@@ -49,7 +49,7 @@ public PageInfo(int itemsPerPage, int offset)
 
 ## PageInfo(int, int, int, bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`PageInfo`](../../pageinfo)class
+Инициализирует новый экземпляр[`PageInfo`](../../pageinfo) класс
 
 ```csharp
 public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
@@ -57,7 +57,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| totalCount | Int32 | общее количество элементов в представлении |
+| totalCount | Int32 | общее количество элементов в поле зрения |
 | itemsPerPage | Int32 | Количество элементов на странице |
 | offset | Int32 | смещение относительно страницы |
 | lastPage | Boolean | Указывает, является ли текущая страница последней просматриваемой страницей |
@@ -72,7 +72,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
 
 ## PageInfo(int, int, int, int, bool) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`PageInfo`](../../pageinfo)class
+Инициализирует новый экземпляр[`PageInfo`](../../pageinfo) класс
 
 ```csharp
 public PageInfo(int totalCount, int itemsPerPage, int offset, int absoluteOffset, bool lastPage)
@@ -81,9 +81,9 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, int absoluteOffset
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | totalCount | Int32 | общее количество элементов в поле зрения |
-| offset | Int32 | смещение в представлении страницы |
+| offset | Int32 | смещение относительно страницы |
 | absoluteOffset | Int32 | добавлено дополнительное смещение к начальному индексу страницы |
-| lastPage | Int32 | Указывает является ли текущая страница последней просматриваемой страницей |
+| lastPage | Int32 | Указывает, является ли текущая страница последней просматриваемой страницей |
 | itemsPerPage | Boolean | Количество элементов на странице |
 
 ### Смотрите также

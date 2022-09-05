@@ -1,14 +1,14 @@
 ---
 title: MessageTrackingReportId
 second_title: Aspose.Email for .NET API 参考
-description: 通过 message-id找到消息的组织提交消息的服务器以及唯一标识的内部 ID 获取指定消息的值消息
+description: 通过消息 ID找到消息的组织提交消息的服务器以及唯一标识消息的内部 ID 获取指定消息的值
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/messagetrackingreportid/
 ---
 ## MessageTrackingReportInfo.MessageTrackingReportId property
 
-通过 message-id、找到消息的组织、提交消息的服务器以及唯一标识的内部 ID 获取指定消息的值消息。
+通过消息 ID、找到消息的组织、提交消息的服务器以及唯一标识消息的内部 ID 获取指定消息的值。
 
 ```csharp
 public string MessageTrackingReportId { get; }

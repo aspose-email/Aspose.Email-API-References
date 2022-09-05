@@ -1,14 +1,14 @@
 ---
 title: WlinkEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定快捷方式指向的文件夹的EntryID 区域配置 规范名称PidTagWlinkEntryId 备用名称PR_WLINK_ENTRYID
+description: 指定快捷方式指向的文件夹的 EntryID 区域Configuration 规范名称PidTagWlinkEntryId 备用名称PR_WLINK_ENTRYID
 type: docs
 weight: 19410
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkentryid/
 ---
 ## KnownPropertyList.WlinkEntryId field
 
-指定快捷方式指向的文件夹的EntryID。 区域:配置 规范名称:PidTagWlinkEntryId 备用名称:PR_WLINK_ENTRYID
+指定快捷方式指向的文件夹的 EntryID。 区域：Configuration 规范名称：PidTagWlinkEntryId 备用名称：PR_WLINK_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkEntryId;

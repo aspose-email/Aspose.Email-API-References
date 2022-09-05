@@ -16,11 +16,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
+| connection | IConnection | 连接到服务器 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -42,7 +42,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
 
 ### 返回值
@@ -69,12 +69,12 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
-| loadFullInfo | Boolean | 如果为 true 则表示应从服务器完整检索文件夹信息，否则仅检索文件夹名称。 |
+| connection | IConnection | 连接到服务器 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -96,7 +96,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -117,7 +117,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹 |
+| parentFolder | String | 文件夹名称 |
 
 ### 返回值
 
@@ -146,7 +146,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(bool loadFullInfo)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -167,12 +167,12 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -194,13 +194,13 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
 | loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -223,10 +223,10 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 
 ### 返回值
 
@@ -254,11 +254,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
-| loadFullInfo | Boolean | 如果为 true 表示文件夹信息应该完全从服务器检索，否则只检索文件夹名称。 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 
 ### 返回值
 
@@ -287,12 +287,12 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| connection | IConnection | 连接到服务器 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -315,13 +315,13 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
-| token | CancellationToken | 传播应取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -344,13 +344,13 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
-| loadFullInfo | Boolean | 如果为 true 则表示应从服务器完整检索文件夹信息，否则仅检索文件夹名称。 |
+| connection | IConnection | 连接到服务器 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -372,11 +372,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播通知该操作应该被取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -397,12 +397,12 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, Canc
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
+| parentFolder | String | 文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -428,7 +428,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(bool loadFullInfo, Cancel
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -450,13 +450,13 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -478,14 +478,14 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
 | loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -508,15 +508,15 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -541,16 +541,16 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
-| loadFullInfo | Boolean | 如果为 true 表示文件夹信息应该完全从服务器检索，否则只检索文件夹名称。 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

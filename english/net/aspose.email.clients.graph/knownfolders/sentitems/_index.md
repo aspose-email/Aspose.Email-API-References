@@ -1,7 +1,7 @@
 ---
 title: SentItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The sent items folder.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.graph/knownfolders/sentitems/

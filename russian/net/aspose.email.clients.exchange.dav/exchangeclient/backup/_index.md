@@ -16,7 +16,7 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Папки в backup |
+| folders | ExchangeFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupOptions | Параметры резервного копирования |
 
@@ -24,8 +24,8 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | A*fileName*is` null` или` empty` |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*это` null` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | А*fileName* является`нулевой`или же`пустой` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* является`нулевой` |
 
 ### Смотрите также
 
@@ -47,8 +47,8 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Папки в backup |
-| stream | Stream | Поток для записи в |
+| folders | ExchangeFolderInfoCollection | Папки для резервного копирования |
+| stream | Stream | Поток для записи |
 | options | BackupOptions | Параметры резервного копирования |
 
 ### Исключения
@@ -56,7 +56,7 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 | исключение | условие |
 | --- | --- |
 | NotSupportedException | Данный поток не поддерживает запись |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*or*stream*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*или же*stream* является`нулевой` |
 
 ### Смотрите также
 

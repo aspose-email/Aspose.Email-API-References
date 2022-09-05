@@ -1,14 +1,14 @@
 ---
 title: ReminderSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее установлено ли напоминание для объекта
+description: Получает или задает значение указывающее установлено ли напоминание для object
 type: docs
 weight: 160
 url: /ru/net/aspose.email.mapi/mapitask/reminderset/
 ---
 ## MapiTask.ReminderSet property
 
-Получает или задает значение, указывающее, установлено ли напоминание для объекта
+Получает или задает значение, указывающее, установлено ли напоминание для object
 
 ```csharp
 public bool ReminderSet { get; set; }

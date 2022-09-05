@@ -42,7 +42,7 @@ public int GetMessageCount(IConnection connection, bool closeTransaction)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
@@ -67,7 +67,7 @@ public int GetMessageCount()
 
 ### 返回值
 
-消息计数
+消息数
 
 ### 也可以看看
 
@@ -87,7 +87,7 @@ public int GetMessageCount(bool closeTransaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 

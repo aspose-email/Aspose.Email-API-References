@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddresspostalcode/
 ---
 ## KnownPropertyList.WorkAddressPostalCode field
 
-指定联系人工作地址的邮政编码（邮政编码）部分。 区域:联系人属性 规范名称:PidLidWorkAddressPostalCode 替代名称:dispidWorkAddressPostalCode
+指定联系人工作地址的邮政编码（邮政编码）部分。 区域：联系人属性 规范名称：PidLidWorkAddressPostalCode 替代名称：dispidWorkAddressPostalCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressPostalCode;

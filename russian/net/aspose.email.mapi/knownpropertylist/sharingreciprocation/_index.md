@@ -1,14 +1,14 @@
 ---
 title: SharingReciprocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingReciprocation Альтернативные именаdispidSharingReciprocation
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingReciprocation Альтернативные имена dispidSharingReciprocation
 type: docs
 weight: 17760
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingreciprocation/
 ---
 ## KnownPropertyList.SharingReciprocation field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingReciprocation Альтернативные имена:dispidSharingReciprocation
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingReciprocation Альтернативные имена: dispidSharingReciprocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingReciprocation;

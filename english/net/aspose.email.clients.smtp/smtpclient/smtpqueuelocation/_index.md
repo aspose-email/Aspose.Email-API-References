@@ -1,7 +1,7 @@
 ---
 title: SmtpQueueLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the directory where applications save mail messages to be processed by sending in SMTP queue. Please note only absolute path is allowed.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.smtp/smtpclient/smtpqueuelocation/

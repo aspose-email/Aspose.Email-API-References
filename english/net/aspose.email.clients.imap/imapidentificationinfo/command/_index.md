@@ -1,7 +1,7 @@
 ---
 title: Command
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Command used to start the program
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapidentificationinfo/command/

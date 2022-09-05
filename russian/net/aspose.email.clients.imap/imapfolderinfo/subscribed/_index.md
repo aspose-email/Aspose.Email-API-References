@@ -1,14 +1,14 @@
 ---
 title: Subscribed
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее что на имя папки подписано. Подробнееhttp//tools.ietf.org/html/rfc5258
+description: Получает значение указывающее что имя папки подписано.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/subscribed/
 ---
 ## ImapFolderInfo.Subscribed property
 
-Получает значение, указывающее, что на имя папки подписано. Подробнее:http://tools.ietf.org/html/rfc5258
+Получает значение, указывающее, что имя папки подписано.
 
 ```csharp
 public bool Subscribed { get; }

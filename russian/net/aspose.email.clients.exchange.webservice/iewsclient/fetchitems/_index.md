@@ -16,11 +16,11 @@ public IEnumerable<MapiMessage> FetchItems(EwsFetchItems options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | EwsFetchItems | Параметры[`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems)позволяет настроить поведение метода выборки. |
+| options | EwsFetchItems | [`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems) параметры, позволяющие настроить поведение метода выборки. |
 
 ### Возвращаемое значение
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)объект.
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) объект.
 
 ### Исключения
 

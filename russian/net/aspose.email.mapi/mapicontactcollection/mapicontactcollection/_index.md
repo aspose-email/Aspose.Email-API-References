@@ -1,14 +1,14 @@
 ---
 title: MapiContactCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactCollectionaspose.email.mapi/mapicontactcollection.
+description: Инициализирует новый экземплярMapiContactCollectionaspose.email.mapi/mapicontactcollection класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactcollection/mapicontactcollection/
 ---
 ## MapiContactCollection() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactCollection`](../../mapicontactcollection).
+Инициализирует новый экземпляр[`MapiContactCollection`](../../mapicontactcollection) класс.
 
 ```csharp
 public MapiContactCollection()
@@ -24,7 +24,7 @@ public MapiContactCollection()
 
 ## MapiContactCollection(IEnumerable&lt;MapiContact&gt;) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactCollection`](../../mapicontactcollection).
+Инициализирует новый экземпляр[`MapiContactCollection`](../../mapicontactcollection) класс.
 
 ```csharp
 public MapiContactCollection(IEnumerable<MapiContact> collection)
@@ -32,7 +32,7 @@ public MapiContactCollection(IEnumerable<MapiContact> collection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| коллекция | IEnumerable`1 | Исходные предметы коллекции |
+| collection | IEnumerable`1 | Начальные предметы коллекции |
 
 ### Смотрите также
 

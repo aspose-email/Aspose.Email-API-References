@@ -1,14 +1,14 @@
 ---
 title: BounceResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет результат проверки сообщения как рикошет.
+description: Представляет результат проверки сообщения в виде рикошета.
 type: docs
 weight: 400
 url: /ru/net/aspose.email.bounce/bounceresult/
 ---
 ## BounceResult class
 
-Представляет результат проверки сообщения как рикошет.
+Представляет результат проверки сообщения в виде рикошета.
 
 ```csharp
 public class BounceResult

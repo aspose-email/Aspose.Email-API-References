@@ -1,14 +1,14 @@
 ---
 title: ByDayCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектовByDay./byday.
+description: Представляет наборByDay./byday объекты.
 type: docs
 weight: 650
 url: /ru/net/aspose.email.calendar.recurrences/bydaycollection/
 ---
 ## ByDayCollection class
 
-Представляет набор объектов[`ByDay`](../byday).
+Представляет набор[`ByDay`](../byday) объекты.
 
 ```csharp
 public class ByDayCollection : Collection<ByDay>
@@ -18,16 +18,16 @@ public class ByDayCollection : Collection<ByDay>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add)(ByDay) | Добавляет в коллекцию элемент[`ByDay`](../byday). |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_2)(DayOfWeek) | Создает и добавляет элемент[`ByDay`](../byday), который представляет все вхождения дня недели в коллекция. |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_1)(int, DayOfWeek) | Создает и добавляет в коллекцию объект[`ByDay`](../byday). |
-| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains#contains_1)(DayOfWeek) | Возвращает значение, указывающее, присутствует ли в коллекции указанный день недели. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add)(ByDay) | Добавляет[`ByDay`](../byday) в коллекцию. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_2)(DayOfWeek) | Создает и добавляет[`ByDay`](../byday) который представляет все вхождения дня недели в коллекцию. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_1)(int, DayOfWeek) | Создает и добавляет[`ByDay`](../byday) в коллекцию. |
+| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains#contains_1)(DayOfWeek) | Возвращает значение, указывающее, присутствует ли указанный день недели в коллекции. |
 
 ### Примечания
 
 Соответствует части BYDAY правила повторения.
 
-Правило BYDAY задает список дней недели для ежемесячного или ежегодного правила повторения.
+Правило BYDAY определяет список дней недели для ежемесячного или ежегодного правила повторения.
 
 Для каждого дня недели можно указать конкретное N-е вхождение или все вхождения.
 

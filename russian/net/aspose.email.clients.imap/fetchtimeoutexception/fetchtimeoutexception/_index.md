@@ -1,14 +1,14 @@
 ---
 title: FetchTimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFetchTimeoutExceptionaspose.email.clients.imap/fetchtimeoutexception.
+description: Инициализирует новый экземплярFetchTimeoutExceptionaspose.email.clients.imap/fetchtimeoutexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/fetchtimeoutexception/fetchtimeoutexception/
 ---
 ## FetchTimeoutException() {#constructor}
 
-Инициализирует новый экземпляр класса[`FetchTimeoutException`](../../fetchtimeoutexception).
+Инициализирует новый экземпляр[`FetchTimeoutException`](../../fetchtimeoutexception) класс.
 
 ```csharp
 public FetchTimeoutException()
@@ -24,7 +24,7 @@ public FetchTimeoutException()
 
 ## FetchTimeoutException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FetchTimeoutException`](../../fetchtimeoutexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FetchTimeoutException`](../../fetchtimeoutexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FetchTimeoutException(string message)
@@ -44,7 +44,7 @@ public FetchTimeoutException(string message)
 
 ## FetchTimeoutException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`FetchTimeoutException`](../../fetchtimeoutexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FetchTimeoutException`](../../fetchtimeoutexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FetchTimeoutException(string message, Exception inner)

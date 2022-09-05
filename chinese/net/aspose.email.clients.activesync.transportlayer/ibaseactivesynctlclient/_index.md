@@ -21,16 +21,16 @@ public interface IBaseActiveSyncTLClient : IDisposable
 | [AuthenticationType](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/authenticationtype) { get; set; } | 获取或设置 ActiveSync 客户端使用的身份验证类型。 |
 | [AutodiscoverUri](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/autodiscoveruri) { get; set; } | 获取自动发现 uri |
 | [Credentials](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/credentials) { get; } | Exchange 服务器的用户凭据 |
-| [DeviceID](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/deviceid) { get; set; } | 标识设备的 GUID。 设备 ID 由明文查询值的 device-id-spec ABNF 规则部分指定。 由 device-id ABNF 规则表示的值是一个指定设备的字符串。 每个设备必须有一个唯一的设备 ID 字符串。 来自设备的每个请求都必须包含相同的设备 ID 字符串。 |
-| [DeviceType](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/devicetype) { get; set; } | 设备类型由纯文本查询值的 device-type-spec ABNF 规则部分指定。 由设备类型 ABNF 规则表示的值是指定设备类型的任何字符串。 “SP”指定智能手机，“PPC”指定PocketPC。 其他客户端设备针对其特定设备类型发送唯一字符串。 来自客户端设备的每个请求必须包含相同的设备类型字符串。 |
-| [PolicyState](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/policystate) { get; set; } | 一个无符号整数，指示客户端设备上的策略设置状态， 在 [MS-ASPROV] 部分 2.2.2.41 中指定。 |
+| [DeviceID](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/deviceid) { get; set; } | 标识设备的 GUID。 设备 ID 由纯文本查询值的 device-id-spec ABNF 规则部分指定。 由 device-id ABNF 规则表示的值是一个指定设备的字符串。 每个设备必须有一个唯一的设备 ID 字符串。 来自设备的每个请求都必须包含相同的设备 ID 字符串。 |
+| [DeviceType](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/devicetype) { get; set; } | 设备类型由纯文本查询值的 device-type-spec ABNF 规则部分指定。 由设备类型 ABNF 规则表示的值是指定设备类型的任何字符串。 “SP”指定智能手机，“PPC”指定PocketPC。 其他客户端设备发送其特定设备类型的唯一字符串。 来自客户端设备的每个请求必须包含相同的设备类型字符串。 |
+| [PolicyState](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/policystate) { get; set; } | 一个无符号整数，指示客户端设备上的策略设置状态， 如 [MS-ASPROV] 部分 2.2.2.41. 中指定的 |
 | [Proxy](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/proxy) { get; set; } | 获取或设置代理。 |
 | [SupportedServerCommands](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/supportedservercommands) { get; } | 获取服务器支持的 ActiveSync 命令的版本 |
-| [SupportedServerProtocols](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/supportedserverprotocols) { get; } | 获取服务器支持的 ActiveSync 协议版本 |
-| [Timeout](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
-| [Uri](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/uri) { get; } | 获取服务器 uri |
-| [UserAgent](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/useragent) { get; set; } | User-Agent request-header 字段包含有关发起请求的用户代理的信息。 这是出于统计目的、跟踪协议违规和用户代理的自动识别 以便定制响应以避免特定的用户代理限制。 用户代理应该在请求中包含这个字段。 该字段可以包含多个产品标记（第 3.8 节）和注释 标识代理和构成用户代理重要部分的任何子产品。 按照惯例，产品标记是按照它们在识别应用程序时的重要性顺序列出的。 示例: User-Agent:CERN-LineMode/2.15 libwww/2.17b3 |
-| [Version](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/version) { get; } | 获取 ActiveSync 客户端中使用的协议版本。 |
+| [SupportedServerProtocols](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/supportedserverprotocols) { get; } | 获取服务器支持的 ActiveSync 协议的版本 |
+| [Timeout](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
+| [Uri](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/uri) { get; } | 获取服务器uri |
+| [UserAgent](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/useragent) { get; set; } | User-Agent request-header 字段包含有关发起请求的用户代理的信息。 这是出于统计目的、跟踪协议违规和自动识别用户代理 以便定制响应以避免特定用户代理限制。 用户代理应该在请求中包含这个字段。 该字段可以包含多个产品标记（第 3.8 节）和注释 标识代理和构成用户代理重要部分的任何子产品。 按照惯例，产品令牌按其识别应用程序的重要性顺序列出。 示例： 用户代理：CERN-LineMode/2.15 libwww/2.17b3 |
+| [Version](../../aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/version) { get; } | 获取 ActiveSync 客户端使用的协议版本。 |
 
 ## 方法
 

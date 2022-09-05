@@ -1,14 +1,14 @@
 ---
 title: ClassificationOverride
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует статические члены классаClassificationOverrideaspose.email.clients.graph/classificationoverride.
+description: Инициализирует статические члены классаClassificationOverrideaspose.email.clients.graph/classificationoverride .
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.graph/classificationoverride/classificationoverride/
 ---
 ## ClassificationOverride() {#constructor}
 
-Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride).
+Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride) .
 
 ```csharp
 public ClassificationOverride()
@@ -24,7 +24,7 @@ public ClassificationOverride()
 
 ## ClassificationOverride(MailAddress, ClassificationType) {#constructor_1}
 
-Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride).
+Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride) .
 
 ```csharp
 public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
@@ -47,7 +47,7 @@ public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
 
 ## ClassificationOverride(string, MailAddress, ClassificationType) {#constructor_2}
 
-Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride).
+Инициализирует статические члены класса[`ClassificationOverride`](../../classificationoverride) .
 
 ```csharp
 public ClassificationOverride(string id, MailAddress sender, ClassificationType classifyAs)

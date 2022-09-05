@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddresscountrycode/
 ---
 ## KnownPropertyList.WorkAddressCountryCode field
 
-指定联系人工作地址的国家代码部分。 区域:联系人属性 规范名称:PidLidWorkAddressCountryCode 替代名称:dispidWorkAddressCountryCode
+指定联系人工作地址的国家代码部分。 区域：联系人属性 规范名称：PidLidWorkAddressCountryCode 替代名称：dispidWorkAddressCountryCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressCountryCode;

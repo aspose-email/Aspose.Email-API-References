@@ -1,14 +1,14 @@
 ---
 title: YearInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает годовой интервал встречи или встречи. ОбластьВстречи Каноническое имяPidLidYearInterval Альтернативные именаLID_YEAR_INTERVAL
+description: Указывает годовой интервал встречи или встречи. Область Meetings Каноническое имя PidLidYearInterval Альтернативные имена LID_YEAR_INTERVAL
 type: docs
 weight: 19890
 url: /ru/net/aspose.email.mapi/knownpropertylist/yearinterval/
 ---
 ## KnownPropertyList.YearInterval field
 
-Указывает годовой интервал встречи или встречи. Область:Встречи Каноническое имя:PidLidYearInterval Альтернативные имена:LID_YEAR_INTERVAL
+Указывает годовой интервал встречи или встречи. Область: Meetings Каноническое имя: PidLidYearInterval Альтернативные имена: LID_YEAR_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor YearInterval;

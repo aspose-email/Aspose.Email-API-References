@@ -16,7 +16,7 @@ public bool Remove(CustomerEvent value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | CustomerEvent | Object要从列表中删除。 |
+| value | CustomerEvent | 这Object从列表中删除。 |
 
 ### 也可以看看
 

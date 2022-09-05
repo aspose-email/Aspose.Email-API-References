@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List is readonly. Operation is not supported.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/knownpropertylist/copyto/

@@ -16,7 +16,7 @@ public IntComparisonField MessageSize { get; }
 
 ### Стоимость имущества
 
-The[`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield)который представляет размер сообщения.
+[`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield) который представляет размер сообщения.
 
 ### Смотрите также
 

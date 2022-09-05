@@ -1,14 +1,14 @@
 ---
 title: GetIdForNamedProperty
 second_title: Aspose.Email for .NET API 参考
-description: 获取用于命名属性的 id 命名属性是特殊属性其 id 应在 0x80000xfffe 范围内对齐依次从 0x8000 开始 使用此方法查找可用的 id因为它可能很难自己计算
+description: 获取用于命名属性的 id 命名属性是特殊属性它们的 id 应在 0x80000xfffe 范围内从 0x8000 开始依次对齐 使用此方法查找可用的 id因为它可能很难找到自己计算
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi.msg/messageobject/getidfornamedproperty/
 ---
 ## MessageObject.GetIdForNamedProperty method
 
-获取用于命名属性的 id， 命名属性是特殊属性，其 id 应在 [0x8000,0xfffe] 范围内对齐依次从 0x8000 开始。 使用此方法查找可用的 id，因为它可能很难自己计算。
+获取用于命名属性的 id， 命名属性是特殊属性，它们的 id 应在 [0x8000,0xfffe] 范围内从 0x8000 开始依次对齐。 使用此方法查找可用的 id，因为它可能很难找到自己计算。
 
 ```csharp
 public int GetIdForNamedProperty()

@@ -1,14 +1,14 @@
 ---
 title: AttachNumber
 second_title: Aspose.Email for .NET API 参考
-description: 标识其消息对象中的附件对象 区域消息附件属性 规范名称PidTagAttachNumber 备用名称PR_ATTACH_NUM ptagAttachNum
+description: 标识其消息对象中的附件对象 区域消息附件属性 规范名称PidTagAttachNumber 替代名称PR_ATTACH_NUMptagAttachNum
 type: docs
 weight: 1720
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachnumber/
 ---
 ## KnownPropertyList.AttachNumber field
 
-标识其消息对象中的附件对象。 区域:消息附件属性 规范名称:PidTagAttachNumber 备用名称:PR_ATTACH_NUM, ptagAttachNum
+标识其消息对象中的附件对象。 区域：消息附件属性 规范名称：PidTagAttachNumber 替代名称：PR_ATTACH_NUM、ptagAttachNum
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachNumber;

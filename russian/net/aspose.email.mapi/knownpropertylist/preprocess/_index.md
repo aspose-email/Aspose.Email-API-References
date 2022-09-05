@@ -1,14 +1,14 @@
 ---
 title: Preprocess
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PREPROCESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PREPROCESS
 type: docs
 weight: 14520
 url: /ru/net/aspose.email.mapi/knownpropertylist/preprocess/
 ---
 ## KnownPropertyList.Preprocess field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PREPROCESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PREPROCESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Preprocess;

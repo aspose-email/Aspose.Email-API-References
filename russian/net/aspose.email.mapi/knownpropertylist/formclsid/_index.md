@@ -1,14 +1,14 @@
 ---
 title: FormClsid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_CLSID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_CLSID
 type: docs
 weight: 10520
 url: /ru/net/aspose.email.mapi/knownpropertylist/formclsid/
 ---
 ## KnownPropertyList.FormClsid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_CLSID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_CLSID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormClsid;

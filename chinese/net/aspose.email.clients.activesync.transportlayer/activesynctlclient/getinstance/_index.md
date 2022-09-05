@@ -1,14 +1,14 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API 参考
-description: 获取 ActiveSync 客户端实例 根据服务器响应自动选择 ActiveSync 协议的版本
+description: 获取ActiveSync客户端实例 根据服务器响应自动选择ActiveSync协议的版本
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance/
 ---
 ## GetInstance(string, NetworkCredential) {#getinstance}
 
-获取 ActiveSync 客户端实例 根据服务器响应自动选择 ActiveSync 协议的版本。
+获取ActiveSync客户端实例 根据服务器响应自动选择ActiveSync协议的版本
 
 ```csharp
 public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential credentials)
@@ -34,7 +34,7 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 
 ## GetInstance(string, NetworkCredential, ASProtocolVersions) {#getinstance_1}
 
-获取 ActiveSync 客户端实例
+获取 ActiveSync 客户端的实例
 
 ```csharp
 public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential credentials, 

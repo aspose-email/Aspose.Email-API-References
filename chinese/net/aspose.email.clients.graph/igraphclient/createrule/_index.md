@@ -1,14 +1,14 @@
 ---
 title: CreateRule
 second_title: Aspose.Email for .NET API 参考
-description: 通过指定一组条件和操作来创建消息规则 如果用户收件箱中的传入邮件满足指定条件Outlook 将执行这些操作 权限 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委托工作或学校帐户MailboxSettings.ReadWrite 委派个人 Microsoft 帐户MailboxSettings.ReadWrite 应用程序邮箱设置.ReadWrite
+description: 通过指定一组条件和操作来创建邮件规则 如果用户收件箱中的传入邮件满足指定条件Outlook 将执行这些操作 权限 调用此 API 需要以下权限之一了解更多信息包括如何选择权限请参阅 Permissions. Delegated工作或学校帐户MailboxSettings.ReadWrite Delegated个人 Microsoft 帐户MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.graph/igraphclient/createrule/
 ---
 ## IGraphClient.CreateRule method
 
-通过指定一组条件和操作来创建消息规则。 如果用户收件箱中的传入邮件满足指定条件，Outlook 将执行这些操作。 权限： 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委托（工作或学校帐户）MailboxSettings.ReadWrite 委派（个人 Microsoft 帐户）MailboxSettings.ReadWrite 应用程序邮箱设置.ReadWrite
+通过指定一组条件和操作来创建邮件规则。 如果用户收件箱中的传入邮件满足指定条件，Outlook 将执行这些操作。 权限： 调用此 API 需要以下权限之一。了解更多信息，包括如何选择权限，请参阅 Permissions. Delegated（工作或学校帐户）MailboxSettings.ReadWrite Delegated（个人 Microsoft 帐户）MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 
 ```csharp
 public InboxRule CreateRule(InboxRule rule)
@@ -20,7 +20,7 @@ public InboxRule CreateRule(InboxRule rule)
 
 ### 返回值
 
-创建的规则
+创建规则
 
 ### 也可以看看
 

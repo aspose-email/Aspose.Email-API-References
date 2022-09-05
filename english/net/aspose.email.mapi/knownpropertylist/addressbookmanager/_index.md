@@ -1,7 +1,7 @@
 ---
 title: AddressBookManager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains one row that references the mail users manager. Area Address Book Canonical name PidTagAddressBookManager Alternate names PR_EMS_AB_MANAGER PR_EMS_AB_MANAGER_A PR_EMS_AB_MANAGER_W
 type: docs
 weight: 710
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmanager/

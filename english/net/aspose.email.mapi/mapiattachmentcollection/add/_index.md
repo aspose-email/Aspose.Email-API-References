@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the new attachment as embedded message.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiattachmentcollection/add/
 ---
-## MapiAttachmentCollection.Add method (1 of 3)
+## Add(string, MapiMessage) {#add_2}
 
 Adds the new attachment as embedded message.
 
@@ -34,7 +34,7 @@ public void Add(string name, MapiMessage msg)
 
 ---
 
-## MapiAttachmentCollection.Add method (2 of 3)
+## Add(string, byte[]) {#add_3}
 
 Adds the new attachment.
 
@@ -62,7 +62,7 @@ public void Add(string name, byte[] data)
 
 ---
 
-## MapiAttachmentCollection.Add method (3 of 3)
+## Add(MapiAttachment) {#add}
 
 Adds an object to the end of the Collection.
 

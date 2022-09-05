@@ -1,7 +1,7 @@
 ---
 title: UniqueSenders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of all the senders of conversation items in the current folder.
 type: docs
 weight: 260
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/uniquesenders/

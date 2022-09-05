@@ -1,14 +1,14 @@
 ---
 title: DayPosition
 second_title: Aspose.Email for .NET API 参考
-description: 日位置通常在一个月内找到
+description: 日头寸通常在一个月内找到
 type: docs
 weight: 720
 url: /zh/net/aspose.email.calendar.recurrences/dayposition/
 ---
 ## DayPosition enumeration
 
-日位置，通常在一个月内找到。
+日头寸，通常在一个月内找到。
 
 ```csharp
 public enum DayPosition
@@ -19,11 +19,11 @@ public enum DayPosition
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| First | `1` | 在给定时间间隔内首次出现。 |
-| Second | `2` | 在给定间隔内发现第二次出现。 |
-| Third | `3` | 在给定间隔内发现第三次出现。 |
+| First | `1` | 在给定时间间隔内找到的第一个匹配项。 |
+| Second | `2` | 在给定的时间间隔内发现第二次出现。 |
+| Third | `3` | 在给定的时间间隔内发现第三次出现。 |
 | Fourth | `4` | 在给定间隔内发现第四次出现。 |
-| Last | `5` | 在给定时间间隔内最后一次出现。 |
+| Last | `5` | 在给定时间间隔内找到的最后一次出现。 |
 
 ### 也可以看看
 

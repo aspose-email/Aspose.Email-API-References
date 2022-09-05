@@ -1,14 +1,14 @@
 ---
 title: ReportDisposition
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个字符串指示原始消息是显示给用户还是被删除仅报告消息 区域电子邮件 规范名称PidTagReportDisposition 别名PR_REPORT_DISPOSITION_W
+description: 包含一个字符串指示原始消息是显示给用户还是被删除仅报告消息 区域Email 规范名称PidTagReportDisposition 替代名称PR_REPORT_DISPOSITION_W
 type: docs
 weight: 16000
 url: /zh/net/aspose.email.mapi/knownpropertylist/reportdisposition/
 ---
 ## KnownPropertyList.ReportDisposition field
 
-包含一个字符串，指示原始消息是显示给用户还是被删除（仅报告消息）。 区域:电子邮件 规范名称:PidTagReportDisposition 别名:PR_REPORT_DISPOSITION_W
+包含一个字符串，指示原始消息是显示给用户还是被删除（仅报告消息）。 区域：Email 规范名称：PidTagReportDisposition 替代名称：PR_REPORT_DISPOSITION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDisposition;

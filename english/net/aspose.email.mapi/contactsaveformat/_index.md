@@ -1,9 +1,9 @@
 ---
 title: ContactSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates contact save formats
 type: docs
-weight: 17600
+weight: 17780
 url: /net/aspose.email.mapi/contactsaveformat/
 ---
 ## ContactSaveFormat enumeration

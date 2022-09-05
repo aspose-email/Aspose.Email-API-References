@@ -53,7 +53,7 @@ public FileAppender(string fileName, bool useDate)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 文件名。 |
-| useDate | Boolean | 指示文件名中是否使用日期 |
+| useDate | Boolean | 指示是否在文件名中使用日期 |
 
 ### 也可以看看
 
@@ -74,7 +74,7 @@ public FileAppender(string fileName, IFormatter formatter)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 文件名。 |
-| formatter | IFormatter | 日志格式化器 |
+| formatter | IFormatter | 日志格式化程序 |
 
 ### 也可以看看
 
@@ -96,7 +96,7 @@ public FileAppender(string fileName, bool useDate, IFormatter formatter)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 文件名。 |
-| useDate | Boolean | 指示文件名中是否使用日期 |
+| useDate | Boolean | 指示是否在文件名中使用日期 |
 | formatter | IFormatter | 日志格式化程序 |
 
 ### 也可以看看

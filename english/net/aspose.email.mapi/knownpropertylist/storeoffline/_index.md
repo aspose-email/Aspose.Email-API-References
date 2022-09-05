@@ -1,7 +1,7 @@
 ---
 title: StoreOffline
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_STORE_OFFLINE
 type: docs
 weight: 18260
 url: /net/aspose.email.mapi/knownpropertylist/storeoffline/

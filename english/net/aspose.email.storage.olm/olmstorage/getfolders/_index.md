@@ -1,7 +1,7 @@
 ---
 title: GetFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of folders.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.olm/olmstorage/getfolders/

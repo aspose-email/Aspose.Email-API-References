@@ -1,14 +1,14 @@
 ---
 title: WorkAddressState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает штат или провинцию в рабочем адресе контакта. ОбластьСвойства контакта Каноническое имяPidLidWorkAddressState Альтернативные именаdispidWorkAddressState
+description: Указывает часть рабочего адреса контакта относящуюся к штату или провинции. Область свойства контакта Каноническое имя PidLidWorkAddressState Альтернативные имена dispidWorkAddressState
 type: docs
 weight: 19610
 url: /ru/net/aspose.email.mapi/knownpropertylist/workaddressstate/
 ---
 ## KnownPropertyList.WorkAddressState field
 
-Указывает штат или провинцию в рабочем адресе контакта. Область:Свойства контакта Каноническое имя:PidLidWorkAddressState Альтернативные имена:dispidWorkAddressState
+Указывает часть рабочего адреса контакта, относящуюся к штату или провинции. Область: свойства контакта Каноническое имя: PidLidWorkAddressState Альтернативные имена: dispidWorkAddressState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressState;

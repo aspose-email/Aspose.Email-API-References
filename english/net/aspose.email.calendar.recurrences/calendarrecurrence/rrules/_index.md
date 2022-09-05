@@ -1,7 +1,7 @@
 ---
 title: RRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the R rules.
 type: docs
 weight: 80
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/rrules/

@@ -1,14 +1,14 @@
 ---
 title: IMessageObjectPropertyContainer
 second_title: Aspose.Email for .NET API 参考
-description: 为包含MessageObjectProperty./messageobjectproperty条目的容器定义一个接口
+description: 为容器定义一个接口其中包含MessageObjectProperty./messageobjectproperty条目.
 type: docs
-weight: 18750
+weight: 18780
 url: /zh/net/aspose.email.mapi.msg/imessageobjectpropertycontainer/
 ---
 ## IMessageObjectPropertyContainer interface
 
-为包含[`MessageObjectProperty`](../messageobjectproperty)条目的容器定义一个接口。
+为容器定义一个接口，其中包含[`MessageObjectProperty`](../messageobjectproperty)条目.
 
 ```csharp
 public interface IMessageObjectPropertyContainer

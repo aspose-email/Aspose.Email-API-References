@@ -1,7 +1,7 @@
 ---
 title: SmartNoAttach
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the Message object has no enduser visible attachments. Area Runtime configuration Canonical name PidLidSmartNoAttach Alternate names dispidSmartNoAttach
 type: docs
 weight: 18070
 url: /net/aspose.email.mapi/knownpropertylist/smartnoattach/

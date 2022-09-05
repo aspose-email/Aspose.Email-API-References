@@ -1,7 +1,7 @@
 ---
 title: Colors
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set of colors for calendar object
 type: docs
 weight: 15650
 url: /net/aspose.email.clients.google/colors/
@@ -18,8 +18,8 @@ public class Colors
 
 | Name | Description |
 | --- | --- |
-| [Colors](colors)() | Initializes a new instance of the Colors class. |
-| [Colors](colors)(string, string) | Initializes a new instance of the Colors class. |
+| [Colors](colors#constructor)() | Initializes a new instance of the Colors class. |
+| [Colors](colors#constructor_1)(string, string) | Initializes a new instance of the Colors class. |
 
 ## Properties
 

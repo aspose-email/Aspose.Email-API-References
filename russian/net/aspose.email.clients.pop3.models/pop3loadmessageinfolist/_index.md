@@ -1,14 +1,14 @@
 ---
 title: Pop3LoadMessageInfoList
 second_title: Справочник по Aspose.Email для .NET API
-description: LoadMessageInfoListAsync../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasyncнабор параметров метода.
+description: LoadMessageInfoListAsync../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync набор параметров метода.
 type: docs
 weight: 16860
 url: /ru/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/
 ---
 ## Pop3LoadMessageInfoList class
 
-[`LoadMessageInfoListAsync`](../../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync)набор параметров метода.
+[`LoadMessageInfoListAsync`](../../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync) набор параметров метода.
 
 ```csharp
 public class Pop3LoadMessageInfoList
@@ -18,13 +18,13 @@ public class Pop3LoadMessageInfoList
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/create)() | Создать[`Pop3LoadMessageInfoList`](../pop3loadmessageinfolist). |
+| static [Create](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/create)() | Создать[`Pop3LoadMessageInfoList`](../pop3loadmessageinfolist) . |
 | [AddMessageInfo](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addmessageinfo)(Pop3MessageInfo) | Добавить информацию о сообщении для загрузки. |
 | [AddMessageInfoList](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addmessageinfolist)(IEnumerable&lt;Pop3MessageInfo&gt;) | Добавить список сообщений для загрузки. |
 | [AddSequenceNumber](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequencenumber)(int) | Добавьте порядковый номер сообщения. |
 | [AddSequenceNumbers](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequencenumbers)(IEnumerable&lt;int&gt;) | Добавить порядковые номера сообщений. |
 | [SetCancellationToken](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/setcancellationtoken)(CancellationToken) | Установите токен отмены (необязательно). |
-| [SetConnection](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/setconnection)(IConnection) | Подключение к серверу (опционально). |
+| [SetConnection](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/setconnection)(IConnection) | Подключение к серверу (необязательно). |
 
 ### Смотрите также
 

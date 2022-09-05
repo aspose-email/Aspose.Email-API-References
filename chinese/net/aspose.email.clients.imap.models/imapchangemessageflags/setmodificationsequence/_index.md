@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap.models/imapchangemessageflags/setmodifica
 ---
 ## ImapChangeMessageFlags.SetModificationSequence method
 
-设置修改顺序。
+设置修改顺序
 
 ```csharp
 public ImapChangeMessageFlags SetModificationSequence(long modificationSequence)

@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_JOURNAL_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Journal folder.
 type: docs
 weight: 13150
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_journal_entryid/

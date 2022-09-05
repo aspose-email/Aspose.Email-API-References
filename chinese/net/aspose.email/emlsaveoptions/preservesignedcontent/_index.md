@@ -1,14 +1,14 @@
 ---
 title: PreserveSignedContent
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示是否需要在不更改内容的情况下保存签名消息 以提供正确的数字签名结构
+description: 获取或设置一个值该值指示是否需要在不更改内容的情况下保存已签名的消息 以提供正确的数字签名结构
 type: docs
 weight: 50
 url: /zh/net/aspose.email/emlsaveoptions/preservesignedcontent/
 ---
 ## EmlSaveOptions.PreserveSignedContent property
 
-获取或设置一个值，该值指示是否需要在不更改内容的情况下保存签名消息 以提供正确的数字签名结构。
+获取或设置一个值，该值指示是否需要在不更改内容的情况下保存已签名的消息 以提供正确的数字签名结构。
 
 ```csharp
 public bool PreserveSignedContent { get; set; }

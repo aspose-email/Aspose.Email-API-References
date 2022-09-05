@@ -1,7 +1,7 @@
 ---
 title: WlinkFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies conditions associated with the shortcut. Area Configuration Canonical name PidTagWlinkFlags Alternate names PR_WLINK_FLAGS
 type: docs
 weight: 19420
 url: /net/aspose.email.mapi/knownpropertylist/wlinkflags/

@@ -1,14 +1,14 @@
 ---
 title: PostReplyDenied
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_POST_REPLY_DENIED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_POST_REPLY_DENIED
 type: docs
 weight: 14410
 url: /ru/net/aspose.email.mapi/knownpropertylist/postreplydenied/
 ---
 ## KnownPropertyList.PostReplyDenied field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_POST_REPLY_DENIED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_POST_REPLY_DENIED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostReplyDenied;

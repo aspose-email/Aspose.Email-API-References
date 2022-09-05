@@ -1,7 +1,7 @@
 ---
 title: AllowedConferenceSolutionTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The types of conference solutions that are supported for this calendar.
 type: docs
 weight: 15620
 url: /net/aspose.email.clients.google/allowedconferencesolutiontypes/

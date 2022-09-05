@@ -1,7 +1,7 @@
 ---
 title: DSN
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the the urncontentclassesdsn content class that defines a set of properties for an item that is a Delivery Status Notification DSN message.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/dsn/

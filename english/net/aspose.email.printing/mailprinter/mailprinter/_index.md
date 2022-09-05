@@ -1,12 +1,12 @@
 ---
 title: MailPrinter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailPrinteraspose.email.printing/mailprinter class with A4 paper setting for page size and 0.5in margin for all sides.
 type: docs
 weight: 10
 url: /net/aspose.email.printing/mailprinter/mailprinter/
 ---
-## MailPrinter constructor (1 of 2)
+## MailPrinter() {#constructor}
 
 Initializes a new instance of the [`MailPrinter`](../../mailprinter) class with A4 paper setting for page size and 0.5in margin for all sides.
 
@@ -22,7 +22,7 @@ public MailPrinter()
 
 ---
 
-## MailPrinter constructor (2 of 2)
+## MailPrinter(IPrintSettingsProvider) {#constructor_1}
 
 Initializes a new instance of the [`MailPrinter`](../../mailprinter) class using given settings provider.
 

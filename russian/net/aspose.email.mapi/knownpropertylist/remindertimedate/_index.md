@@ -1,14 +1,14 @@
 ---
 title: ReminderTimeDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время и дату напоминания о встрече или собрании. ОбластьНапоминания Каноническое имяPidLidReminderTimeDate Альтернативные именаdispidReminderTimeDate
+description: Указывает время и дату напоминания о встрече или собрании. Область Reminders Каноническое имя PidLidReminderTimeDate Альтернативные имена dispidReminderTimeDate
 type: docs
 weight: 15750
 url: /ru/net/aspose.email.mapi/knownpropertylist/remindertimedate/
 ---
 ## KnownPropertyList.ReminderTimeDate field
 
-Указывает время и дату напоминания о встрече или собрании. Область:Напоминания Каноническое имя:PidLidReminderTimeDate Альтернативные имена:dispidReminderTimeDate
+Указывает время и дату напоминания о встрече или собрании. Область: Reminders Каноническое имя: PidLidReminderTimeDate Альтернативные имена: dispidReminderTimeDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderTimeDate;

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает имя человека
+description: Получает или задает имя человека
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/associatedperson/name/
 ---
 ## AssociatedPerson.Name property
 
-Получает или устанавливает имя человека
+Получает или задает имя человека
 
 ```csharp
 public string Name { get; set; }

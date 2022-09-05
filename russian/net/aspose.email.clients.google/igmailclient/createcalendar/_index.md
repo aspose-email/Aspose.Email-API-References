@@ -42,7 +42,7 @@ public string CreateCalendar(Calendar calendar, bool useColorRgbFormat)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendar | Calendar | Экземпляр объекта календаря для создания. |
-| useColorRgbFormat | Boolean | Указывает, используется ли цветовой формат rgb. |
+| useColorRgbFormat | Boolean | Указывает, используется ли цветовой формат RGB. |
 
 ### Возвращаемое значение
 

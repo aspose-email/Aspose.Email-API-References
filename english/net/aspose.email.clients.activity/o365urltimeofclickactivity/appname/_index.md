@@ -1,7 +1,7 @@
 ---
 title: AppName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Office 365 service from which the URL was clicked e.g. Mail. Mandatory Yes
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/appname/

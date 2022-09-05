@@ -3,7 +3,7 @@ title: MimeException
 second_title: Aspose.Email for .NET API 参考
 description: 提供有关 MIME 错误的信息
 type: docs
-weight: 19180
+weight: 19210
 url: /zh/net/aspose.email.mime/mimeexception/
 ---
 ## MimeException class
@@ -18,9 +18,9 @@ public class MimeException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MimeException](mimeexception#constructor)() | 初始化[`MimeException`](../mimeexception)类的新实例。 |
-| [MimeException](mimeexception#constructor_1)(string) | 初始化[`MimeException`](../mimeexception)类的新实例。 |
-| [MimeException](mimeexception#constructor_2)(string, Exception) | 初始化[`MimeException`](../mimeexception)类的新实例。 |
+| [MimeException](mimeexception#constructor)() | 初始化[`MimeException`](../mimeexception)类. |
+| [MimeException](mimeexception#constructor_1)(string) | 初始化[`MimeException`](../mimeexception)类. |
+| [MimeException](mimeexception#constructor_2)(string, Exception) | 初始化[`MimeException`](../mimeexception)类. |
 
 ### 也可以看看
 

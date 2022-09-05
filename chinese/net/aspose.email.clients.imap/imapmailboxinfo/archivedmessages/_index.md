@@ -1,14 +1,14 @@
 ---
 title: ArchivedMessages
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱用于归档邮件 请注意如果服务器不支持 rfc6154 或未创建文件夹此值可能为空
+description: 获取邮箱用于归档邮件 请注意如果服务器不支持 rfc6154 或尚未创建文件夹此值可能为空
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/imapmailboxinfo/archivedmessages/
 ---
 ## ImapMailboxInfo.ArchivedMessages property
 
-获取邮箱用于归档邮件。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。
+获取邮箱用于归档邮件。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。
 
 ```csharp
 public ImapFolderInfo ArchivedMessages { get; }

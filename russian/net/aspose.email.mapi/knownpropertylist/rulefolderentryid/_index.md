@@ -1,14 +1,14 @@
 ---
 title: RuleFolderEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки в которой хранится правило инициировавшее создание DAM. ОбластьExchangeMessageReadOnly Каноническое имяPidTagRuleFolderEntryId Альтернативные именаPR_RULE_FOLDER_ENTRYID ptagRuleFolderEntryId
+description: Содержит EntryID папки в которой хранится правило инициировавшее создание DAM. Область ExchangeMessageReadOnly Каноническое имя PidTagRuleFolderEntryId Альтернативные имена PR_RULE_FOLDER_ENTRYID ptagRuleFolderEntryId
 type: docs
 weight: 16480
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulefolderentryid/
 ---
 ## KnownPropertyList.RuleFolderEntryId field
 
-Содержит EntryID папки, в которой хранится правило, инициировавшее создание DAM. Область:ExchangeMessageReadOnly Каноническое имя:PidTagRuleFolderEntryId Альтернативные имена:PR_RULE_FOLDER_ENTRYID, ptagRuleFolderEntryId
+Содержит EntryID папки, в которой хранится правило, инициировавшее создание DAM. Область: ExchangeMessageReadOnly Каноническое имя: PidTagRuleFolderEntryId Альтернативные имена: PR_RULE_FOLDER_ENTRYID, ptagRuleFolderEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleFolderEntryId;

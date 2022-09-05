@@ -1,14 +1,14 @@
 ---
 title: IdentitySet
 second_title: Справочник по Aspose.Email для .NET API
-description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов идентификации с ключом. Он используется для представления набора идентификаторов связанных с различными событиями для элемента такими как создание или последнее изменение.
+description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов удостоверений с ключами. Используется для представления набора идентификаторов связанных с различными событиями для элемента например созданным или последним измененным.
 type: docs
 weight: 15970
 url: /ru/net/aspose.email.clients.graph/identityset/
 ---
 ## IdentitySet class
 
-https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов идентификации с ключом. Он используется для представления набора идентификаторов, связанных с различными событиями для элемента, такими как создание или последнее изменение.
+https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов удостоверений с ключами. Используется для представления набора идентификаторов, связанных с различными событиями для элемента, например, созданным или последним измененным.
 
 ```csharp
 public class IdentitySet
@@ -25,8 +25,8 @@ public class IdentitySet
 | Имя | Описание |
 | --- | --- |
 | [Application](../../aspose.email.clients.graph/identityset/application) { get; set; } | Необязательно. Приложение, связанное с этим действием. |
-| [Device](../../aspose.email.clients.graph/identityset/device) { get; set; } | Необязательный. Устройство, связанное с этим действием. |
-| [User](../../aspose.email.clients.graph/identityset/user) { get; set; } | Необязательный. Пользователь, связанный с этим действием. |
+| [Device](../../aspose.email.clients.graph/identityset/device) { get; set; } | Необязательно. Устройство, связанное с этим действием. |
+| [User](../../aspose.email.clients.graph/identityset/user) { get; set; } | Необязательно. Пользователь, связанный с этим действием. |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: DailyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the DailyRecurrencePatternaspose.email.calendar.recurrences/dailyrecurrencepattern class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/dailyrecurrencepattern/dailyrecurrencepattern/
 ---
-## DailyRecurrencePattern constructor (1 of 4)
+## DailyRecurrencePattern(DateTime) {#constructor_2}
 
 Initializes a new instance of the [`DailyRecurrencePattern`](../../dailyrecurrencepattern) class.
 
@@ -26,7 +26,7 @@ public DailyRecurrencePattern(DateTime endDate)
 
 ---
 
-## DailyRecurrencePattern constructor (2 of 4)
+## DailyRecurrencePattern(int) {#constructor}
 
 Initializes a new instance of the [`DailyRecurrencePattern`](../../dailyrecurrencepattern) class.
 
@@ -46,7 +46,7 @@ public DailyRecurrencePattern(int occurs)
 
 ---
 
-## DailyRecurrencePattern constructor (3 of 4)
+## DailyRecurrencePattern(DateTime, int) {#constructor_3}
 
 Initializes a new instance of the [`DailyRecurrencePattern`](../../dailyrecurrencepattern) class.
 
@@ -67,7 +67,7 @@ public DailyRecurrencePattern(DateTime endDate, int interval)
 
 ---
 
-## DailyRecurrencePattern constructor (4 of 4)
+## DailyRecurrencePattern(int, int) {#constructor_1}
 
 Initializes a new instance of the [`DailyRecurrencePattern`](../../dailyrecurrencepattern) class.
 

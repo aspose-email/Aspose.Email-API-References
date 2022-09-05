@@ -1,14 +1,14 @@
 ---
 title: EmsAbDomainDefAltRecip
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DOMAIN_DEF_ALT_RECIP
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
 type: docs
 weight: 5540
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdomaindefaltrecip/
 ---
 ## KnownPropertyList.EmsAbDomainDefAltRecip field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDomainDefAltRecip;

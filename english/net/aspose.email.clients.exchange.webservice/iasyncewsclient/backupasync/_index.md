@@ -1,12 +1,12 @@
 ---
 title: BackupAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Backups the content of the specified folders.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync/
 ---
-## IAsyncEwsClient.BackupAsync method (1 of 2)
+## BackupAsync(ExchangeFolderInfoCollection, string, BackupOptions, CancellationToken) {#backupasync_1}
 
 Backups the content of the specified folders.
 
@@ -39,7 +39,7 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, string fileName,
 
 ---
 
-## IAsyncEwsClient.BackupAsync method (2 of 2)
+## BackupAsync(ExchangeFolderInfoCollection, Stream, BackupOptions, CancellationToken) {#backupasync}
 
 Backups the content of the specified folders.
 

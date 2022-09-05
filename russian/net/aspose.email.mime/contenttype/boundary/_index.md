@@ -1,14 +1,14 @@
 ---
 title: Boundary
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение параметра границы  включенного в заголовок Content-Type.
+description: Получает или задает значение граничного параметра  включенного в заголовок Content-Type.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mime/contenttype/boundary/
 ---
 ## ContentType.Boundary property
 
-Получает или задает значение параметра границы , включенного в заголовок Content-Type.
+Получает или задает значение граничного параметра , включенного в заголовок Content-Type.
 
 ```csharp
 public string Boundary { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API 参考
-description: 实现运算符 
+description: 实现运算符 .
 type: docs
 weight: 140
 url: /zh/net/aspose.email.calendar.recurrences/calendarrecurrence/op_equality/
 ---
 ## CalendarRecurrence Equality operator
 
-实现运算符 ==。
+实现运算符 ==.
 
 ```csharp
 public static bool operator ==(CalendarRecurrence left, CalendarRecurrence right)
@@ -17,7 +17,7 @@ public static bool operator ==(CalendarRecurrence left, CalendarRecurrence right
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | left | CalendarRecurrence | 左边。 |
-| right | CalendarRecurrence | 右边。 |
+| right | CalendarRecurrence | 正确的。 |
 
 ### 返回值
 

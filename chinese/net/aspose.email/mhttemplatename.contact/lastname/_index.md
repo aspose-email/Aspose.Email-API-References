@@ -1,14 +1,14 @@
 ---
 title: LastName
 second_title: Aspose.Email for .NET API 参考
-description: 姓氏标头
+description: 姓氏标题
 type: docs
 weight: 220
 url: /zh/net/aspose.email/mhttemplatename.contact/lastname/
 ---
 ## MhtTemplateName.Contact.LastName field
 
-姓氏标头。
+姓氏标题。
 
 ```csharp
 public const string LastName;

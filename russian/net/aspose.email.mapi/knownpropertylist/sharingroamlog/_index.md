@@ -1,14 +1,14 @@
 ---
 title: SharingRoamLog
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingRoamLog Альтернативные именаdispidSharingRoamLog
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRoamLog Альтернативные имена dispidSharingRoamLog
 type: docs
 weight: 17920
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingroamlog/
 ---
 ## KnownPropertyList.SharingRoamLog field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingRoamLog Альтернативные имена:dispidSharingRoamLog
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRoamLog Альтернативные имена: dispidSharingRoamLog
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRoamLog;

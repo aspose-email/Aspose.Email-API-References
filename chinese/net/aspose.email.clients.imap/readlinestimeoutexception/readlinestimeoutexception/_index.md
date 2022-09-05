@@ -1,14 +1,14 @@
 ---
 title: ReadLinesTimeoutException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ReadLinesTimeoutExceptionaspose.email.clients.imap/readlinestimeoutexception类的新实例
+description: 初始化ReadLinesTimeoutExceptionaspose.email.clients.imap/readlinestimeoutexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/readlinestimeoutexception/readlinestimeoutexception/
 ---
 ## ReadLinesTimeoutException() {#constructor}
 
-初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)类的新实例。
+初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)类.
 
 ```csharp
 public ReadLinesTimeoutException()
@@ -24,7 +24,7 @@ public ReadLinesTimeoutException()
 
 ## ReadLinesTimeoutException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)类的新实例。
+初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)具有指定错误消息的类。
 
 ```csharp
 public ReadLinesTimeoutException(string message)
@@ -44,7 +44,7 @@ public ReadLinesTimeoutException(string message)
 
 ## ReadLinesTimeoutException(string, Exception) {#constructor_2}
 
-使用指定的错误消息初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)类的新实例。
+初始化[`ReadLinesTimeoutException`](../../readlinestimeoutexception)具有指定错误消息的类。
 
 ```csharp
 public ReadLinesTimeoutException(string message, Exception inner)

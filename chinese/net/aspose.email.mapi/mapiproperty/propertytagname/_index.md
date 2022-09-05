@@ -1,14 +1,14 @@
 ---
 title: PropertyTagName
 second_title: Aspose.Email for .NET API 参考
-description: 获取 PropertyName
+description: 获取属性名称
 type: docs
 weight: 130
 url: /zh/net/aspose.email.mapi/mapiproperty/propertytagname/
 ---
 ## MapiProperty.PropertyTagName property
 
-获取 PropertyName。
+获取属性名称。
 
 ```csharp
 public virtual string PropertyTagName { get; }

@@ -1,14 +1,14 @@
 ---
 title: ItemClasses
 second_title: Aspose.Email for .NET API 参考
-description: 获取项目类别列表表示当前文件夹中对话项目的所有项目类别
+description: 获取表示当前文件夹中会话项目的所有项目类别的项目类别列表
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/itemclasses/
 ---
 ## ExchangeConversation.ItemClasses property
 
-获取项目类别列表，表示当前文件夹中对话项目的所有项目类别
+获取表示当前文件夹中会话项目的所有项目类别的项目类别列表
 
 ```csharp
 public StringCollection ItemClasses { get; }

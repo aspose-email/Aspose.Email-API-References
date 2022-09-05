@@ -1,7 +1,7 @@
 ---
 title: IsEmpty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether this instance is empty.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.imap/imapmessageflags/isempty/

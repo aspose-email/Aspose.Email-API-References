@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/private/
 ---
 ## KnownPropertyList.Private field
 
-指示最终用户是否希望对有权访问该消息对象的其他用户隐藏此消息对象。 区域:常规消息属性 规范名称:PidLidPrivate 替代名称:dispidPrivate
+指示最终用户是否希望对有权访问该消息对象的其他用户隐藏此消息对象。 区域：常规消息属性 规范名称：PidLidPrivate 替代名称：dispidPrivate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Private;

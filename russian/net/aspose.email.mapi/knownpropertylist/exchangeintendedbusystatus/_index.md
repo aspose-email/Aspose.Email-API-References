@@ -1,14 +1,14 @@
 ---
 title: ExchangeIntendedBusyStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает предполагаемый статус занятости собрания в приглашении на собрание. ОбластьОбщие Каноническое имяPidNameExchangeIntendedBusyStatus Альтернативные именаhttp//schemas.microsoft.com/exchange/intendedbusystatus
+description: Указывает предполагаемое состояние занятости собрания в приглашении на собрание. Область Common Каноническое имя PidNameExchangeIntendedBusyStatus Альтернативные имена http//schemas.microsoft.com/exchange/intendedbusystatus
 type: docs
 weight: 9820
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangeintendedbusystatus/
 ---
 ## KnownPropertyList.ExchangeIntendedBusyStatus field
 
-Указывает предполагаемый статус занятости собрания в приглашении на собрание. Область:Общие Каноническое имя:PidNameExchangeIntendedBusyStatus Альтернативные имена:http://schemas.microsoft.com/exchange/intendedbusystatus
+Указывает предполагаемое состояние занятости собрания в приглашении на собрание. Область: Common Каноническое имя: PidNameExchangeIntendedBusyStatus Альтернативные имена: http://schemas.microsoft.com/exchange/intendedbusystatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeIntendedBusyStatus;

@@ -16,7 +16,7 @@ public MailQuery Equals(long value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Int64 | 值。 |
+| value | Int64 | 价值。 |
 
 ### 返回值
 

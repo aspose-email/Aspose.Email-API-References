@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets unique identifier
 type: docs
 weight: 140
 url: /net/aspose.email.calendar/task/uniqueid/

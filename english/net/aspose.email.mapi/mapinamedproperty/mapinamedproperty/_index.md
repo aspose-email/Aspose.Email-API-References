@@ -1,12 +1,12 @@
 ---
 title: MapiNamedProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiNamedPropertyaspose.email.mapi/mapinamedproperty class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapinamedproperty/mapinamedproperty/
 ---
-## MapiNamedProperty constructor (1 of 5)
+## MapiNamedProperty() {#constructor}
 
 Initializes a new instance of the [`MapiNamedProperty`](../../mapinamedproperty) class.
 
@@ -22,7 +22,7 @@ public MapiNamedProperty()
 
 ---
 
-## MapiNamedProperty constructor (2 of 5)
+## MapiNamedProperty(long, string, Guid, byte[]) {#constructor_4}
 
 Initializes a new instance of the [`MapiNamedProperty`](../../mapinamedproperty) class.
 
@@ -46,7 +46,7 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 ---
 
-## MapiNamedProperty constructor (3 of 5)
+## MapiNamedProperty(long, long, Guid, byte[]) {#constructor_3}
 
 Initializes a new instance of the [`MapiNamedProperty`](../../mapinamedproperty) class.
 
@@ -70,7 +70,7 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 ---
 
-## MapiNamedProperty constructor (4 of 5)
+## MapiNamedProperty(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) {#constructor_1}
 
 Initializes a new instance of the [`MapiNamedProperty`](../../mapinamedproperty) class.
 
@@ -95,7 +95,7 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 ---
 
-## MapiNamedProperty constructor (5 of 5)
+## MapiNamedProperty(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) {#constructor_2}
 
 Initializes a new instance of the [`MapiNamedProperty`](../../mapinamedproperty) class.
 

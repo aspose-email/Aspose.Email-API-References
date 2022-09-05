@@ -3,7 +3,7 @@ title: Status
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置对象的整体状态或确认
 type: docs
-weight: 250
+weight: 260
 url: /zh/net/aspose.email.calendar/appointment/status/
 ---
 ## Appointment.Status property

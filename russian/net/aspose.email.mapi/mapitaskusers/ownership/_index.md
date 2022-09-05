@@ -1,14 +1,14 @@
 ---
 title: Ownership
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает роль текущего пользователя относительно объекта Task.
+description: Получает или задает роль текущего пользователя относительно объекта Task.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapitaskusers/ownership/
 ---
 ## MapiTaskUsers.Ownership property
 
-Получает или устанавливает роль текущего пользователя относительно объекта Task.
+Получает или задает роль текущего пользователя относительно объекта Task.
 
 ```csharp
 public MapiTaskOwnership Ownership { get; set; }

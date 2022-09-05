@@ -1,14 +1,14 @@
 ---
 title: MessageThreadResult
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MessageThreadResultaspose.email.clients.imap/messagethreadresult类的新实例
+description: 初始化MessageThreadResultaspose.email.clients.imap/messagethreadresult类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/messagethreadresult/messagethreadresult/
 ---
 ## MessageThreadResult constructor
 
-初始化[`MessageThreadResult`](../../messagethreadresult)类的新实例。
+初始化[`MessageThreadResult`](../../messagethreadresult)类.
 
 ```csharp
 public MessageThreadResult()

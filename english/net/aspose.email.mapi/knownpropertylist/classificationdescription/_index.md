@@ -1,7 +1,7 @@
 ---
 title: ClassificationDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a humanreadable summary of each of the classification categories included in the PidLidClassification property section 2.53. Area General Message Properties Canonical name PidLidClassificationDescription Alternate names dispidClassDesc
 type: docs
 weight: 2630
 url: /net/aspose.email.mapi/knownpropertylist/classificationdescription/

@@ -1,14 +1,14 @@
 ---
 title: CarTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер мобильного телефона почтового пользователя. ОбластьСвойства контакта Каноническое имяPidTagCarTelephoneNumber Альтернативные именаPR_CAR_TELEPHONE_NUMBER PR_CAR_TELEPHONE_NUMBER_A
+description: Содержит номер мобильного телефона почтового пользователя. Область Свойства контакта Каноническое имя PidTagCarTelephoneNumber Альтернативные имена PR_CAR_TELEPHONE_NUMBER PR_CAR_TELEPHONE_NUMBER_A
 type: docs
 weight: 2490
 url: /ru/net/aspose.email.mapi/knownpropertylist/cartelephonenumber/
 ---
 ## KnownPropertyList.CarTelephoneNumber field
 
-Содержит номер мобильного телефона почтового пользователя. Область:Свойства контакта Каноническое имя:PidTagCarTelephoneNumber Альтернативные имена:PR_CAR_TELEPHONE_NUMBER, PR_CAR_TELEPHONE_NUMBER_A,
+Содержит номер мобильного телефона почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagCarTelephoneNumber Альтернативные имена: PR_CAR_TELEPHONE_NUMBER, PR_CAR_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CarTelephoneNumber;

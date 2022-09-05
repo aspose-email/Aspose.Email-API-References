@@ -1,12 +1,12 @@
 ---
 title: ListMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information about a message.
 type: docs
 weight: 860
 url: /net/aspose.email.clients.imap/imapclient/listmessageasync/
 ---
-## ImapClient.ListMessageAsync method (1 of 16)
+## ListMessageAsync(IConnection, int, IEnumerable&lt;string&gt;) {#listmessageasync_1}
 
 Gets information about a message.
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (2 of 16)
+## ListMessageAsync(IConnection, int) {#listmessageasync}
 
 Gets information about a message.
 
@@ -62,7 +62,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (3 of 16)
+## ListMessageAsync(int, IEnumerable&lt;string&gt;) {#listmessageasync_9}
 
 Gets information about a message.
 
@@ -89,7 +89,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (4 of 16)
+## ListMessageAsync(int) {#listmessageasync_8}
 
 Gets information about a message.
 
@@ -114,7 +114,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (5 of 16)
+## ListMessageAsync(IConnection, string, IEnumerable&lt;string&gt;) {#listmessageasync_5}
 
 Gets information about a message.
 
@@ -143,7 +143,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (6 of 16)
+## ListMessageAsync(IConnection, string) {#listmessageasync_4}
 
 Gets information about a message.
 
@@ -170,7 +170,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (7 of 16)
+## ListMessageAsync(string) {#listmessageasync_12}
 
 Gets information about a message.
 
@@ -195,7 +195,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (8 of 16)
+## ListMessageAsync(string, IEnumerable&lt;string&gt;) {#listmessageasync_13}
 
 Gets information about a message.
 
@@ -222,7 +222,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (9 of 16)
+## ListMessageAsync(IConnection, int, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_2}
 
 Gets information about a message.
 
@@ -252,7 +252,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (10 of 16)
+## ListMessageAsync(IConnection, int, CancellationToken) {#listmessageasync_3}
 
 Gets information about a message.
 
@@ -281,7 +281,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (11 of 16)
+## ListMessageAsync(int, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_10}
 
 Gets information about a message.
 
@@ -309,7 +309,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (12 of 16)
+## ListMessageAsync(int, CancellationToken) {#listmessageasync_11}
 
 Gets information about a message.
 
@@ -335,7 +335,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (13 of 16)
+## ListMessageAsync(IConnection, string, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_6}
 
 Gets information about a message.
 
@@ -365,7 +365,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (14 of 16)
+## ListMessageAsync(IConnection, string, CancellationToken) {#listmessageasync_7}
 
 Gets information about a message.
 
@@ -394,7 +394,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (15 of 16)
+## ListMessageAsync(string, CancellationToken) {#listmessageasync_15}
 
 Gets information about a message.
 
@@ -420,7 +420,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessageAsync method (16 of 16)
+## ListMessageAsync(string, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_14}
 
 Gets information about a message.
 

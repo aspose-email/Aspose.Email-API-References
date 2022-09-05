@@ -1,14 +1,14 @@
 ---
 title: PR_EXCEPTION_REPLACETIME
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 表示原始日期和时间如果不是异常重复模式中的实例将在该日期和时间发生
+description: 以 UTC 表示的原始日期和时间如果不是异常重复模式中的实例将在该日期和时间发生
 type: docs
 weight: 11390
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_exception_replacetime/
 ---
 ## MapiPropertyTag.PR_EXCEPTION_REPLACETIME field
 
-以 UTC 表示原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。
+以 UTC 表示的原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。
 
 ```csharp
 public static readonly long PR_EXCEPTION_REPLACETIME;

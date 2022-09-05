@@ -1,14 +1,14 @@
 ---
 title: FlatUrlName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор элемента в хранилище сообщений. ОбластьExchangeAdministrative Каноническое имяPidTagFlatUrlName Альтернативные именаPR_FLAT_URL_NAME PR_FLAT_URL_NAME_A PR_FLAT_URL_NAME_W
+description: Содержит уникальный идентификатор элемента в хранилище сообщений. Область ExchangeAdministrative Каноническое имя PidTagFlatUrlName Альтернативные имена PR_FLAT_URL_NAME PR_FLAT_URL_NAME_A PR_FLAT_URL_NAME_W
 type: docs
 weight: 10380
 url: /ru/net/aspose.email.mapi/knownpropertylist/flaturlname/
 ---
 ## KnownPropertyList.FlatUrlName field
 
-Содержит уникальный идентификатор элемента в хранилище сообщений. Область:ExchangeAdministrative Каноническое имя:PidTagFlatUrlName Альтернативные имена:PR_FLAT_URL_NAME, PR_FLAT_URL_NAME_A, PR_FLAT_URL_NAME_W,
+Содержит уникальный идентификатор элемента в хранилище сообщений. Область: ExchangeAdministrative Каноническое имя: PidTagFlatUrlName Альтернативные имена: PR_FLAT_URL_NAME, PR_FLAT_URL_NAME_A, PR_FLAT_URL_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FlatUrlName;

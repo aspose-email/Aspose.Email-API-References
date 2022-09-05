@@ -1,14 +1,14 @@
 ---
 title: QuarantineOriginalSender
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает исходного отправителя сообщения. ОбластьОбщие Каноническое имяPidNameQuarantineOriginalSender Альтернативные имена
+description: Указывает исходного отправителя сообщения. Область Common Каноническое имя PidNameQuarantineOriginalSender Альтернативные имена
 type: docs
 weight: 15160
 url: /ru/net/aspose.email.mapi/knownpropertylist/quarantineoriginalsender/
 ---
 ## KnownPropertyList.QuarantineOriginalSender field
 
-Указывает исходного отправителя сообщения. Область:Общие Каноническое имя:PidNameQuarantineOriginalSender Альтернативные имена:
+Указывает исходного отправителя сообщения. Область: Common Каноническое имя: PidNameQuarantineOriginalSender Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor QuarantineOriginalSender;

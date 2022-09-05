@@ -27,7 +27,7 @@ public class PageSettings
 | [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | 获取或设置指示客户端是使用升序还是降序排序的值。 如果要使用升序排序，则设置为 true，否则设置为 false。 |
 | [Connection](../../aspose.email.clients.imap/pagesettings/connection) { get; set; } | 连接到服务器。 |
 | [FolderName](../../aspose.email.clients.imap/pagesettings/foldername) { get; set; } | 消息文件夹 |
-| [IgnoreExceptions](../../aspose.email.clients.imap/pagesettings/ignoreexceptions) { get; set; } | 如果该属性设置为true，则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions中。 |
+| [IgnoreExceptions](../../aspose.email.clients.imap/pagesettings/ignoreexceptions) { get; set; } | 如果该属性设置为true，则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions. 中 |
 
 ### 也可以看看
 

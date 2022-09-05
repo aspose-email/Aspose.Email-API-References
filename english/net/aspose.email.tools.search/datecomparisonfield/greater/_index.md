@@ -1,12 +1,12 @@
 ---
 title: Greater
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that date in message must be later than the specified date.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/datecomparisonfield/greater/
 ---
-## DateComparisonField.Greater method (1 of 2)
+## Greater(DateTime) {#greater}
 
 Indicates that date in message must be later than the specified date.
 
@@ -31,7 +31,7 @@ public MailQuery Greater(DateTime value)
 
 ---
 
-## DateComparisonField.Greater method (2 of 2)
+## Greater(DateTime, DateComparisonType) {#greater_1}
 
 Indicates that date in message must be later than the specified date.
 

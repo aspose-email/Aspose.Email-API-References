@@ -1,14 +1,14 @@
 ---
 title: LastSaveDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定上次保存文件的时间以 UTC 为单位 区域普通 规范名称PidNameLastSaveDateTime 备用名称urnschemas-microsoft-comofficeofficeLastSaved
+description: 指定上次保存文件的时间以 UTC 为单位 区域Common 规范名称PidNameLastSaveDateTime 备用名称urnschemas-microsoft-comofficeofficeLastSaved
 type: docs
 weight: 12050
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastsavedatetime/
 ---
 ## KnownPropertyList.LastSaveDateTime field
 
-指定上次保存文件的时间（以 UTC 为单位）。 区域：普通 规范名称：PidNameLastSaveDateTime 备用名称：urn:schemas-microsoft-com:office:office#LastSaved
+指定上次保存文件的时间（以 UTC 为单位）。 区域：Common 规范名称：PidNameLastSaveDateTime 备用名称：urn:schemas-microsoft-com:office:office#LastSaved
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastSaveDateTime;

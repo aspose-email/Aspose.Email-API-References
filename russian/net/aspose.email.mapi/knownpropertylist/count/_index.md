@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает количество элементов содержащихся в коллекции System.Collections.Generic.ICollection.
+description: Получает количество элементов содержащихся в System.Collections.Generic.ICollection.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/knownpropertylist/count/
 ---
 ## KnownPropertyList.Count property
 
-Получает количество элементов, содержащихся в коллекции System.Collections.Generic.ICollection.
+Получает количество элементов, содержащихся в System.Collections.Generic.ICollection.
 
 ```csharp
 public int Count { get; }

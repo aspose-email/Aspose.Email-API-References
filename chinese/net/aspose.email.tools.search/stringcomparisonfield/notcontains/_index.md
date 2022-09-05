@@ -16,7 +16,7 @@ public MailQuery NotContains(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public MailQuery NotContains(string value, bool ignoreCase)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 | ignoreCase | Boolean | true 在比较期间忽略大小写；否则为假。 |
 
 ### 返回值

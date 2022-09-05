@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/friendvalue/
 ---
 ## AssociatedPersonCategory.FriendValue field
 
-Строковое значение для категории "Друг"
+Строковое значение для категории «Друг»
 
 ```csharp
 public const string FriendValue;

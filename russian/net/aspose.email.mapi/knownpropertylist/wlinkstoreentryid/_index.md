@@ -1,14 +1,14 @@
 ---
 title: WlinkStoreEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение свойства PidTagStoreEntryId раздел 2.1018 папки на которую указывает ярлык. ОбластьКонфигурация Каноническое имяPidTagWlinkStoreEntryId Альтернативные именаPR_WLINK_STORE_ENTRYID
+description: Указывает значение свойства PidTagStoreEntryId раздел 2.1018 папки на которую указывает ярлык. Область Configuration Каноническое имя PidTagWlinkStoreEntryId Альтернативные имена PR_WLINK_STORE_ENTRYID
 type: docs
 weight: 19520
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkstoreentryid/
 ---
 ## KnownPropertyList.WlinkStoreEntryId field
 
-Указывает значение свойства PidTagStoreEntryId (раздел 2.1018) папки, на которую указывает ярлык. Область:Конфигурация Каноническое имя:PidTagWlinkStoreEntryId Альтернативные имена:PR_WLINK_STORE_ENTRYID
+Указывает значение свойства PidTagStoreEntryId (раздел 2.1018) папки, на которую указывает ярлык. Область: Configuration Каноническое имя: PidTagWlinkStoreEntryId Альтернативные имена: PR_WLINK_STORE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkStoreEntryId;

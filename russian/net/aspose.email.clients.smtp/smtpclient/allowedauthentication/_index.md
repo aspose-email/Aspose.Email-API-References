@@ -1,14 +1,14 @@
 ---
 title: AllowedAuthentication
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает перечисление разрешенных пользователем типов аутентификации
+description: Получает или задает перечисление разрешенных типов аутентификации пользователя
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.smtp/smtpclient/allowedauthentication/
 ---
 ## SmtpClient.AllowedAuthentication property
 
-Получает или задает перечисление разрешенных пользователем типов аутентификации
+Получает или задает перечисление разрешенных типов аутентификации пользователя
 
 ```csharp
 public SmtpKnownAuthenticationType AllowedAuthentication { get; set; }

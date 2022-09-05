@@ -1,12 +1,12 @@
 ---
 title: GoogleClientException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the GoogleClientExceptionaspose.email/googleclientexception class with a specified error message.
 type: docs
 weight: 10
 url: /net/aspose.email/googleclientexception/googleclientexception/
 ---
-## GoogleClientException constructor (1 of 4)
+## GoogleClientException(string) {#constructor_2}
 
 Initializes a new instance of the [`GoogleClientException`](../../googleclientexception) class with a specified error message.
 
@@ -26,7 +26,7 @@ public GoogleClientException(string message)
 
 ---
 
-## GoogleClientException constructor (2 of 4)
+## GoogleClientException() {#constructor}
 
 Initializes a new instance of the [`GoogleClientException`](../../googleclientexception) class.
 
@@ -42,7 +42,7 @@ public GoogleClientException()
 
 ---
 
-## GoogleClientException constructor (3 of 4)
+## GoogleClientException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`GoogleClientException`](../../googleclientexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -63,7 +63,7 @@ public GoogleClientException(string message, Exception innerException)
 
 ---
 
-## GoogleClientException constructor (4 of 4)
+## GoogleClientException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`GoogleClientException`](../../googleclientexception) class with a reference to the inner exception that is the cause of this exception.
 

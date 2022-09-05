@@ -1,7 +1,7 @@
 ---
 title: ReceivedByEmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email message receivers email address. Area Address Properties Canonical name PidTagReceivedByEmailAddress Alternate names PR_RECEIVED_BY_EMAIL_ADDRESS PR_RECEIVED_BY_EMAIL_ADDRESS_A PR_RECEIVED_BY_EMAIL_ADDRESS_W
 type: docs
 weight: 15280
 url: /net/aspose.email.mapi/knownpropertylist/receivedbyemailaddress/

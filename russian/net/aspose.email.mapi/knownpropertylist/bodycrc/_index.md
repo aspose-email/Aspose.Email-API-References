@@ -1,14 +1,14 @@
 ---
 title: BodyCrc
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_BODY_CRC
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_BODY_CRC
 type: docs
 weight: 2060
 url: /ru/net/aspose.email.mapi/knownpropertylist/bodycrc/
 ---
 ## KnownPropertyList.BodyCrc field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_BODY_CRC
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_BODY_CRC
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyCrc;

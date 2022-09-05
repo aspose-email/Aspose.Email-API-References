@@ -1,14 +1,14 @@
 ---
 title: InboxUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取收件箱 uri
+description: 获取收件箱 uri.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/inboxuri/
 ---
 ## ExchangeMailboxInfo.InboxUri property
 
-获取收件箱 uri。
+获取收件箱 uri.
 
 ```csharp
 public abstract string InboxUri { get; set; }

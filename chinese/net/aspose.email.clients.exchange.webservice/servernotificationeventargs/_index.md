@@ -18,7 +18,7 @@ public class ServerNotificationEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ServerNotificationEventArgs](servernotificationeventargs)(KnownFolders, EventTypes) | 初始化[`ServerNotificationEventArgs`](../servernotificationeventargs)类 的新实例 |
+| [ServerNotificationEventArgs](servernotificationeventargs)(KnownFolders, EventTypes) | 初始化[`ServerNotificationEventArgs`](../servernotificationeventargs) class |
 
 ## 特性
 

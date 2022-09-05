@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定文件名的新 PST 文件
+description: 使用指定的文件名创建新的 PST 文件
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.pst/personalstorage/create/
 ---
 ## Create(string, FileFormatVersion, CancellationToken) {#create_5}
 
-创建具有指定文件名的新 PST 文件。
+使用指定的文件名创建新的 PST 文件。
 
 ```csharp
 public static PersonalStorage Create(string fileName, FileFormatVersion version, 
@@ -29,12 +29,12 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 
@@ -56,7 +56,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 在其中创建 PST 的流。 |
+| stream | Stream | 创建 PST 的流。 |
 | version | FileFormatVersion | PST 文件版本。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
@@ -68,12 +68,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 
@@ -95,7 +95,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 在其中创建 PST 的流。 |
+| stream | Stream | 创建 PST 的流。 |
 | version | FileFormatVersion | PST 文件版本。 |
 | leaveStreamOpen | Boolean | 释放 PersonalStorage 时保持流打开。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
@@ -108,12 +108,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 
@@ -126,7 +126,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 ## Create(string, FileFormatVersion) {#create_4}
 
-创建具有指定文件名的新 PST 文件。
+使用指定的文件名创建新的 PST 文件。
 
 ```csharp
 public static PersonalStorage Create(string fileName, FileFormatVersion version)
@@ -145,12 +145,12 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 
@@ -171,7 +171,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 在其中创建 PST 的流。 |
+| stream | Stream | 创建 PST 的流。 |
 | version | FileFormatVersion | PST 文件版本。 |
 
 ### 返回值
@@ -182,12 +182,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果流为空则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 
@@ -208,7 +208,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version, b
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 在其中创建 PST 的流。 |
+| stream | Stream | 创建 PST 的流。 |
 | version | FileFormatVersion | PST 文件版本。 |
 | leaveStreamOpen | Boolean | 释放 PersonalStorage 时保持流打开。 |
 
@@ -220,12 +220,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version, b
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| NotImplementedException | 如果创建了 ANSI 文件版本，则抛出 |
 | ArgumentNullException | 如果流为空则抛出 |
 
 ### 评论
 
-注意，现在只支持创建 Unicode 文件版本。
+请注意，现在仅支持创建 Unicode 文件版本。
 
 ### 也可以看看
 

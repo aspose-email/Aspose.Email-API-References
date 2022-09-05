@@ -1,7 +1,7 @@
 ---
 title: SenderEmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email address of the sending mailbox owner. Area Address Properties Canonical name PidTagSenderEmailAddress Alternate names PR_SENDER_EMAIL_ADDRESS PR_SENDER_EMAIL_ADDRESS_A PR_SENDER_EMAIL_ADDRESS_W
 type: docs
 weight: 17100
 url: /net/aspose.email.mapi/knownpropertylist/senderemailaddress/

@@ -1,14 +1,14 @@
 ---
 title: WlinkCalendarColor
 second_title: Aspose.Email for .NET API 参考
-description: 指定日历的背景颜色 区域配置 规范名称PidTagWlinkCalendarColor 替代名称PR_WLINK_CALENDAR_COLOR
+description: 指定日历的背景颜色 区域Configuration 规范名称PidTagWlinkCalendarColor 替代名称PR_WLINK_CALENDAR_COLOR
 type: docs
 weight: 19390
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkcalendarcolor/
 ---
 ## KnownPropertyList.WlinkCalendarColor field
 
-指定日历的背景颜色。 区域:配置 规范名称:PidTagWlinkCalendarColor 替代名称:PR_WLINK_CALENDAR_COLOR
+指定日历的背景颜色。 区域：Configuration 规范名称：PidTagWlinkCalendarColor 替代名称：PR_WLINK_CALENDAR_COLOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkCalendarColor;

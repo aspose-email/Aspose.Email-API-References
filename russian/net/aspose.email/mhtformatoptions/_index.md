@@ -3,7 +3,7 @@ title: MhtFormatOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет параметры формата Mht
 type: docs
-weight: 19040
+weight: 19070
 url: /ru/net/aspose.email/mhtformatoptions/
 ---
 ## MhtFormatOptions enumeration
@@ -25,15 +25,15 @@ public enum MhtFormatOptions
 | WriteCompleteEmailAddress | `4` | Указывает, что полный адрес электронной почты должен быть указан во всех заголовках электронной почты. |
 | NoEncodeCharacters | `8` | Указывает, что не следует использовать кодировку передачи символов. |
 | HideExtraPrintHeader | `10` | Указывает, что PageHeader будет невидимым. |
-| WriteCompleteToEmailAddress | `20` | Указывает, что в заголовке "Кому" должен быть указан полный адрес электронной почты. |
+| WriteCompleteToEmailAddress | `20` | Указывает, что полный адрес электронной почты должен быть указан в заголовке «Кому». |
 | WriteCompleteFromEmailAddress | `40` | Указывает, что полный адрес электронной почты должен быть указан в заголовке From. |
-| WriteCompleteCcEmailAddress | `80` | Указывает, что полный адрес электронной почты должен быть указан в заголовке 'Копия'. |
+| WriteCompleteCcEmailAddress | `80` | Указывает, что полный адрес электронной почты должен быть указан в заголовке «Копия». |
 | WriteCompleteBccEmailAddress | `100` | Указывает, что полный адрес электронной почты должен быть указан в заголовке 'Bcc'. |
-| RenderCalendarEvent | `200` | Указывает, что текст из события календаря должен быть записан в выходной mhtml. |
+| RenderCalendarEvent | `200` | Указывает, что текст события календаря должен быть записан в вывод mhtml. |
 | SkipByteOrderMarkInBody | `400` | Указывает, что байты метки порядка следования байтов (BOM) должны быть записаны в тело. |
 | RenderVCardInfo | `800` | Указывает, что текст из VCard AlternativeView должен быть записан в вывод mhtml. |
 | DisplayAsOutlook | `1000` | Указывает, что заголовок From будет отображаться как в Outlook. |
-| RenderTaskFields | `2000` | Указывает, что определенные поля Задачи должны быть записаны в выходной mhtml. |
+| RenderTaskFields | `2000` | Указывает, что определенные поля Задачи должны быть записаны в вывод mhtml. |
 
 ### Смотрите также
 

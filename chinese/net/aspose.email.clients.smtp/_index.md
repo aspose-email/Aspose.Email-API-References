@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Smtp
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Clients.Smtp 命名空间提供了使用简单邮件发送消息的类传输协议 SMTP
+description: 的 Aspose.Email.Clients.Smtp命名空间提供了使用简单邮件传输协议 SMTP 发送消息的类
 type: docs
 weight: 260
 url: /zh/net/aspose.email.clients.smtp/
 ---
-**Aspose.Email.Clients.Smtp** 命名空间提供了使用简单邮件发送消息的类传输协议 (SMTP)。
+的 **Aspose.Email.Clients.Smtp**命名空间提供了使用简单邮件传输协议 (SMTP) 发送消息的类。
 
 ## 课程
 
@@ -14,10 +14,10 @@ url: /zh/net/aspose.email.clients.smtp/
 | --- | --- |
 | [FailedMailMessageEventArgs](./failedmailmessageeventargs) | 为 MessageSending 和 MessageSent 事件提供数据。 |
 | [MailMessageEventArgs](./mailmessageeventargs) | 为 MessageSending 和 MessageSent 事件提供数据。 |
-| [SendMessagesResult](./sendmessagesresult) | 包含带有消息的操作结果 |
+| [SendMessagesResult](./sendmessagesresult) | 包含消息操作的结果 |
 | [SmtpClient](./smtpclient) | 允许应用程序使用简单邮件传输协议 (SMTP) 发送消息。 |
 | [SmtpFailedRecipientException](./smtpfailedrecipientexception) | 表示指定收件人错误时出现的异常 |
-| [SmtpFailedRecipientsException](./smtpfailedrecipientsexception) | SmtpFailedRecipientsException 的摘要描述。 |
+| [SmtpFailedRecipientsException](./smtpfailedrecipientsexception) | SmtpFailedRecipientsException. 的摘要描述 |
 ## 接口
 
 | 界面 | 描述 |
@@ -28,7 +28,7 @@ url: /zh/net/aspose.email.clients.smtp/
 
 | 枚举 | 描述 |
 | --- | --- |
-| [SmtpDeliveryMethod](./smtpdeliverymethod) | Smtp 发送方式 |
+| [SmtpDeliveryMethod](./smtpdeliverymethod) | smtp投递方式 |
 | [SmtpKnownAuthenticationType](./smtpknownauthenticationtype) |  |
 | [SmtpStatusCode](./smtpstatuscode) | Smtp 状态码 |
 

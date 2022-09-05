@@ -1,14 +1,14 @@
 ---
 title: HeadingPairs
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какая группа заголовков имеет отступ в документе. ОбластьОбщие Каноническое имяPidNameHeadingPairs Альтернативные именаurnschemas-microsoft-comofficeofficeHeadingPairs
+description: Указывает какая группа заголовков имеет отступ в документе. Область Common Каноническое имя PidNameHeadingPairs Альтернативные имена urnschemas-microsoft-comofficeofficeHeadingPairs
 type: docs
 weight: 10910
 url: /ru/net/aspose.email.mapi/knownpropertylist/headingpairs/
 ---
 ## KnownPropertyList.HeadingPairs field
 
-Указывает, какая группа заголовков имеет отступ в документе. Область:Общие Каноническое имя:PidNameHeadingPairs Альтернативные имена:urn:schemas-microsoft-com:office:office#HeadingPairs
+Указывает, какая группа заголовков имеет отступ в документе. Область: Common Каноническое имя: PidNameHeadingPairs Альтернативные имена: urn:schemas-microsoft-com:office:office#HeadingPairs
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HeadingPairs;

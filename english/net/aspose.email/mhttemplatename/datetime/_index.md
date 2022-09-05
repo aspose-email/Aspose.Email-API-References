@@ -1,7 +1,7 @@
 ---
 title: DateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: DateTime header.
 type: docs
 weight: 50
 url: /net/aspose.email/mhttemplatename/datetime/

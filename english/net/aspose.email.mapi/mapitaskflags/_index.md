@@ -1,9 +1,9 @@
 ---
 title: MapiTaskFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains indication flags of the Task object.
 type: docs
-weight: 18490
+weight: 18700
 url: /net/aspose.email.mapi/mapitaskflags/
 ---
 ## MapiTaskFlags enumeration

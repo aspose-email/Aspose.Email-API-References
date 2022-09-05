@@ -1,14 +1,14 @@
 ---
 title: AcceptLanguage
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение заголовка MIME Accept-Language. ОбластьЭлектронная почта Каноническое имяPidNameAcceptLanguage Альтернативные именаAcceptLanguage
+description: Содержит значение заголовка MIME Accept-Language. Область Email Каноническое имя PidNameAcceptLanguage Альтернативные имена AcceptLanguage
 type: docs
 weight: 240
 url: /ru/net/aspose.email.mapi/knownpropertylist/acceptlanguage/
 ---
 ## KnownPropertyList.AcceptLanguage field
 
-Содержит значение заголовка MIME Accept-Language. Область:Электронная почта Каноническое имя:PidNameAcceptLanguage Альтернативные имена:AcceptLanguage
+Содержит значение заголовка MIME Accept-Language. Область: Email Каноническое имя: PidNameAcceptLanguage Альтернативные имена: AcceptLanguage
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AcceptLanguage;

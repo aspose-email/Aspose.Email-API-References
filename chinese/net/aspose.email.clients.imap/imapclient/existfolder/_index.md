@@ -1,14 +1,14 @@
 ---
 title: ExistFolder
 second_title: Aspose.Email for .NET API 参考
-description: 检查此文件夹是否存在
+description: 检查这个文件夹是否存在
 type: docs
 weight: 610
 url: /zh/net/aspose.email.clients.imap/imapclient/existfolder/
 ---
 ## ExistFolder(string) {#existfolder_2}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public bool ExistFolder(string folderName)
@@ -45,7 +45,7 @@ public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
 
 ### 返回值
 
-如果文件夹存在，则返回 true，否则返回返回错误
+如果文件夹存在则返回真，否则返回假
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
 
 ## ExistFolder(IConnection, string) {#existfolder}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public bool ExistFolder(IConnection connection, string folderName)
@@ -71,7 +71,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 
 ### 返回值
 
-如果文件夹存在则返回 true，否则返回 false
+如果文件夹存在则返回真，否则返回假
 
 ### 也可以看看
 
@@ -84,7 +84,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 
 ## ExistFolder(IConnection, string, out ImapFolderInfo) {#existfolder_1}
 
-检查此文件夹是否存在，如果存在则提取文件夹信息
+检查该文件夹是否存在，如果存在则提取文件夹信息
 
 ```csharp
 public bool ExistFolder(IConnection connection, string folderName, out ImapFolderInfo folderInfo)

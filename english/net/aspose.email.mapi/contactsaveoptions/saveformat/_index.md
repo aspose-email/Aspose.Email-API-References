@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a save format
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/contactsaveoptions/saveformat/

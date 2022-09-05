@@ -1,14 +1,14 @@
 ---
 title: AppendMessagesResult
 second_title: Aspose.Email for .NET API 参考
-description: 包含带有消息的操作结果
+description: 包含消息操作的结果
 type: docs
 weight: 16190
 url: /zh/net/aspose.email.clients.imap/appendmessagesresult/
 ---
 ## AppendMessagesResult class
 
-包含带有消息的操作结果
+包含消息操作的结果
 
 ```csharp
 public class AppendMessagesResult

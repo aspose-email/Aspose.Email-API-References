@@ -1,7 +1,7 @@
 ---
 title: UnifiedMessaging
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Unified messaging Property set name PSETID_UnifiedMessaging
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/knownpropertysets/unifiedmessaging/

@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A guid that identifies the file. Mandatory Yes
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activity/sharepointmetadata/uniqueid/

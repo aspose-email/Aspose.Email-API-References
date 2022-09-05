@@ -1,12 +1,12 @@
 ---
 title: UnselectFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Permanently removes all messages marked as deleted for currently selected folder and removes selectedstate for this folder.
 type: docs
 weight: 1260
 url: /net/aspose.email.clients.imap/imapclient/unselectfolderasync/
 ---
-## ImapClient.UnselectFolderAsync method (1 of 8)
+## UnselectFolderAsync(IConnection) {#unselectfolderasync_1}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (2 of 8)
+## UnselectFolderAsync() {#unselectfolderasync}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (3 of 8)
+## UnselectFolderAsync(IConnection, bool) {#unselectfolderasync_2}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (4 of 8)
+## UnselectFolderAsync(bool) {#unselectfolderasync_5}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 
@@ -101,7 +101,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (5 of 8)
+## UnselectFolderAsync(IConnection, CancellationToken) {#unselectfolderasync_4}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -127,7 +127,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (6 of 8)
+## UnselectFolderAsync(CancellationToken) {#unselectfolderasync_7}
 
 Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder.
 
@@ -151,7 +151,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (7 of 8)
+## UnselectFolderAsync(IConnection, bool, CancellationToken) {#unselectfolderasync_3}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 
@@ -178,7 +178,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnselectFolderAsync method (8 of 8)
+## UnselectFolderAsync(bool, CancellationToken) {#unselectfolderasync_6}
 
 Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691
 

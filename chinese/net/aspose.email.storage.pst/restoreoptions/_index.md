@@ -1,14 +1,14 @@
 ---
 title: RestoreOptions
 second_title: Aspose.Email for .NET API 参考
-description: 枚举恢复选项
+description: 枚举还原选项
 type: docs
-weight: 20270
+weight: 20320
 url: /zh/net/aspose.email.storage.pst/restoreoptions/
 ---
 ## RestoreOptions enumeration
 
-枚举恢复选项
+枚举还原选项
 
 ```csharp
 [Flags]
@@ -19,10 +19,10 @@ public enum RestoreOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示没有指定具体选项 |
+| None | `0` | 表示未指定特定选项 |
 | Recursive | `1` | 表示嵌套文件夹也应该恢复 |
 | RemoveNonexistentFolders | `2` | 表示应该删除个人存储中没有相同文件夹的邮件文件夹 |
-| RemoveNonexistentItems | `4` | 表示应删除个人存储中没有相等项目的邮件项目 |
+| RemoveNonexistentItems | `4` | 表示应该删除个人存储中不相等的邮件项目 |
 
 ### 也可以看看
 

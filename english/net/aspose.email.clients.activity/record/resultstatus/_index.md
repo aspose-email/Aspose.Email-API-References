@@ -1,7 +1,7 @@
 ---
 title: ResultStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which indicates whether the action specified in the Operation property was successful or not. Mandatory No
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activity/record/resultstatus/

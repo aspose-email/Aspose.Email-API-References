@@ -1,7 +1,7 @@
 ---
 title: UpdateItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified items in to a mailbox
 type: docs
 weight: 1490
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updateitems/

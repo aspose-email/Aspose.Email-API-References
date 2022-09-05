@@ -1,7 +1,7 @@
 ---
 title: LinksDirty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the links in the document are uptodate. Area Common Canonical name PidNameLinksDirty Alternate names urnschemasmicrosoftcomofficeofficeLinksUpToDate
 type: docs
 weight: 12110
 url: /net/aspose.email.mapi/knownpropertylist/linksdirty/

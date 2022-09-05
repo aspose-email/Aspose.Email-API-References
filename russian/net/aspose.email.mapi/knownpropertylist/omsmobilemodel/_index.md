@@ -1,14 +1,14 @@
 ---
 title: OMSMobileModel
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает модель мобильного устройства используемого для отправки SMS или MMS-сообщения. ОбластьSMS Каноническое имяPidNameOMSMobileModel Альтернативные имена
+description: Указывает модель мобильного устройства используемого для отправки SMS или MMS-сообщения. Область SMS Каноническое имя PidNameOMSMobileModel Альтернативные имена
 type: docs
 weight: 13380
 url: /ru/net/aspose.email.mapi/knownpropertylist/omsmobilemodel/
 ---
 ## KnownPropertyList.OMSMobileModel field
 
-Указывает модель мобильного устройства, используемого для отправки SMS или MMS-сообщения. Область:SMS Каноническое имя:PidNameOMSMobileModel Альтернативные имена:
+Указывает модель мобильного устройства, используемого для отправки SMS или MMS-сообщения. Область: SMS Каноническое имя: PidNameOMSMobileModel Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSMobileModel;

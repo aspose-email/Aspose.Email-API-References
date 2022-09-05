@@ -1,12 +1,12 @@
 ---
 title: MoveMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the messaeg
 type: docs
 weight: 940
 url: /net/aspose.email.clients.imap/imapclient/movemessageasync/
 ---
-## ImapClient.MoveMessageAsync method (1 of 16)
+## MoveMessageAsync(IConnection, int, string, bool) {#movemessageasync_1}
 
 Moves the messaeg
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (2 of 16)
+## MoveMessageAsync(IConnection, string, string, bool) {#movemessageasync_5}
 
 Moves the message
 
@@ -64,7 +64,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (3 of 16)
+## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
 
 Moves the message
 
@@ -90,7 +90,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (4 of 16)
+## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
 
 Moves the message
 
@@ -116,7 +116,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (5 of 16)
+## MoveMessageAsync(IConnection, int, string) {#movemessageasync}
 
 Moves the messaeg
 
@@ -143,7 +143,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (6 of 16)
+## MoveMessageAsync(IConnection, string, string) {#movemessageasync_4}
 
 Moves the message
 
@@ -170,7 +170,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (7 of 16)
+## MoveMessageAsync(int, string) {#movemessageasync_8}
 
 Moves the message
 
@@ -195,7 +195,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (8 of 16)
+## MoveMessageAsync(string, string) {#movemessageasync_12}
 
 Moves the message
 
@@ -220,7 +220,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (9 of 16)
+## MoveMessageAsync(IConnection, int, string, bool, CancellationToken) {#movemessageasync_2}
 
 Moves the messaeg
 
@@ -250,7 +250,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (10 of 16)
+## MoveMessageAsync(IConnection, string, string, bool, CancellationToken) {#movemessageasync_6}
 
 Moves the message
 
@@ -280,7 +280,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (11 of 16)
+## MoveMessageAsync(int, string, bool, CancellationToken) {#movemessageasync_10}
 
 Moves the message
 
@@ -308,7 +308,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (12 of 16)
+## MoveMessageAsync(string, string, bool, CancellationToken) {#movemessageasync_14}
 
 Moves the message
 
@@ -336,7 +336,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (13 of 16)
+## MoveMessageAsync(IConnection, int, string, CancellationToken) {#movemessageasync_3}
 
 Moves the messaeg
 
@@ -365,7 +365,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (14 of 16)
+## MoveMessageAsync(IConnection, string, string, CancellationToken) {#movemessageasync_7}
 
 Moves the message
 
@@ -394,7 +394,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (15 of 16)
+## MoveMessageAsync(int, string, CancellationToken) {#movemessageasync_11}
 
 Moves the message
 
@@ -420,7 +420,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (16 of 16)
+## MoveMessageAsync(string, string, CancellationToken) {#movemessageasync_15}
 
 Moves the message
 

@@ -1,14 +1,14 @@
 ---
 title: FileUnderID
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее как создавать и повторно вычислять свойство когда другие свойства изменены
+description: Получает или задает значение определяющее способ создания и повторного вычисления свойство при изменении других свойств
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/fileunderid/
 ---
 ## MapiContactNamePropertySet.FileUnderID property
 
-Получает или задает значение, указывающее, как создавать и повторно вычислять свойство, когда другие свойства изменены
+Получает или задает значение, определяющее способ создания и повторного вычисления свойство при изменении других свойств
 
 ```csharp
 public uint FileUnderID { get; set; }

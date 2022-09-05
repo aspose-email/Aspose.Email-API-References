@@ -1,14 +1,14 @@
 ---
 title: EmlValidationError
 second_title: Aspose.Email for .NET API 参考
-description: 表示eml校验错误信息
+description: 代表eml校验错误信息
 type: docs
 weight: 17290
 url: /zh/net/aspose.email/emlvalidationerror/
 ---
 ## EmlValidationError class
 
-表示eml校验错误信息。
+代表eml校验错误信息。
 
 ```csharp
 public sealed class EmlValidationError

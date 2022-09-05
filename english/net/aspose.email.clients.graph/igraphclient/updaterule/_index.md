@@ -1,9 +1,9 @@
 ---
 title: UpdateRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Change writable properties on a messageRule object and save the changes. Permissions One of the following permissions is required to call this API.To learn more including how to choose permissions see Permissions. Delegated work or school account MailboxSettings.ReadWrite Delegated personal Microsoft account MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.email.clients.graph/igraphclient/updaterule/
 ---
 ## IGraphClient.UpdateRule method

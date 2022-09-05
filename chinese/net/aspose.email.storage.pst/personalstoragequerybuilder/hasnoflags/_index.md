@@ -1,14 +1,14 @@
 ---
 title: HasNoFlags
 second_title: Aspose.Email for .NET API 参考
-description: 搜索带有未指定标志的消息
+description: 搜索带有未指定标志的邮件
 type: docs
 weight: 130
 url: /zh/net/aspose.email.storage.pst/personalstoragequerybuilder/hasnoflags/
 ---
 ## PersonalStorageQueryBuilder.HasNoFlags method
 
-搜索带有未指定标志的消息。
+搜索带有未指定标志的邮件。
 
 ```csharp
 public MailQuery HasNoFlags(MapiMessageFlags flags)
@@ -16,7 +16,7 @@ public MailQuery HasNoFlags(MapiMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| flags | MapiMessageFlags | 标志。 |
+| flags | MapiMessageFlags | 旗帜. |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: Access
 second_title: Aspose.Email for .NET API 参考
-description: 表示客户端对对象可用的操作 区域访问控制属性 规范名称PidTagAccess 备用名称PR_ACCESS ptagAccess
+description: 指示客户端对对象可用的操作 区域访问控制属性 规范名称PidTagAccess 替代名称PR_ACCESSptagAccess
 type: docs
 weight: 250
 url: /zh/net/aspose.email.mapi/knownpropertylist/access/
 ---
 ## KnownPropertyList.Access field
 
-表示客户端对对象可用的操作。 区域:访问控制属性 规范名称:PidTagAccess 备用名称:PR_ACCESS, ptagAccess
+指示客户端对对象可用的操作。 区域：访问控制属性 规范名称：PidTagAccess 替代名称：PR_ACCESS、ptagAccess
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Access;

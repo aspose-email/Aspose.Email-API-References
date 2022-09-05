@@ -1,14 +1,14 @@
 ---
 title: SwayAuditOperation
 second_title: Aspose.Email for .NET API 参考
-description: Sway 审计操作
+description: 摇摆审计操作
 type: docs
 weight: 2800
 url: /zh/net/aspose.email.clients.activity/swayauditoperation/
 ---
 ## SwayAuditOperation enumeration
 
-Sway 审计操作
+摇摆审计操作
 
 ```csharp
 public enum SwayAuditOperation
@@ -19,16 +19,16 @@ public enum SwayAuditOperation
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Create | `1` | 用户创建 Sway。 |
-| Delete | `2` | 用户删除 Sway。 |
+| Delete | `2` | 用户删除了一个 Sway。 |
 | View | `3` | 用户查看 Sway。 |
 | Edit | `4` | 用户编辑 Sway。 |
-| Duplicate | `5` | 用户复制 Sway。 |
+| Duplicate | `5` | 用户复制了一个 Sway。 |
 | Share | `7` | 用户发起共享 Sway。 此事件捕获单击 Sway 共享菜单中特定共享目标的用户操作。 该事件并不表示用户是否真的跟进并完成了分享动作。 |
 | ChangeShareLevel | `8` | 用户更改 Sway 的共享级别。 此事件捕获用户更改与 Sway 关联的共享范围。 例如，与组织内部相比，公开。 |
-| RevokeShare | `9` | 用户通过撤销访问权限来停止共享 Sway。撤消访问权限会更改与 Sway 关联的链接。 |
-| EnableDuplication | `10` | 用户启用 Sway 的复制（默认情况下启用）。 |
+| RevokeShare | `9` | 用户通过撤消访问权限来停止共享 Sway。撤销访问会更改与 Sway 关联的链接。 |
+| EnableDuplication | `10` | 用户启用 Sway 的复制（默认开启）。 |
 | DisableDuplication | `11` | 用户禁用 Sway 的复制（默认关闭）。 |
-| ServiceOn | `12` | 用户通过 Office 365 管理中心为整个组织启用 Sway（默认情况下启用）。 |
+| ServiceOn | `12` | 用户通过 Office 365 管理中心（默认开启）为整个组织启用 Sway。 |
 | ServiceOff | `13` | 用户通过 Office 365 管理中心为整个组织禁用 Sway（默认关闭）。 |
 | ExternalSharingOn | `14` | 用户通过 Office 365 管理中心为整个组织启用外部共享。 |
 | ExternalSharingOff | `15` | 用户通过 Office 365 管理中心禁用整个组织的外部共享。 |

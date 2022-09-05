@@ -1,14 +1,14 @@
 ---
 title: CalendarReminderOffset
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет количество секунд до начала встречи за которое должно отображаться напоминание. ОбластьОбщие Каноническое имяPidNameCalendarReminderOffset Альтернативные именаurnschemascalendarreminderoffset
+description: Определяет количество секунд до начала встречи за которое должно отображаться напоминание. Область Common Каноническое имя PidNameCalendarReminderOffset Альтернативные имена urnschemascalendarreminderoffset
 type: docs
 weight: 2370
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarreminderoffset/
 ---
 ## KnownPropertyList.CalendarReminderOffset field
 
-Определяет количество секунд до начала встречи, за которое должно отображаться напоминание. Область:Общие Каноническое имя:PidNameCalendarReminderOffset Альтернативные имена:urn:schemas:calendar:reminderoffset
+Определяет количество секунд до начала встречи, за которое должно отображаться напоминание. Область: Common Каноническое имя: PidNameCalendarReminderOffset Альтернативные имена: urn:schemas:calendar:reminderoffset
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarReminderOffset;

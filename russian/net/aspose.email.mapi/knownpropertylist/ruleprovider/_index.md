@@ -1,14 +1,14 @@
 ---
 title: RuleProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Строка идентифицирующая клиентское приложение которому принадлежит правило. ОбластьСвойства серверных правил Каноническое имяPidTagRuleProvider Альтернативные именаPR_RULE_PROVIDER ptagRuleProvider PR_RULE_PROVIDER_W
+description: Строка идентифицирующая клиентское приложение которому принадлежит правило. Область Свойства серверных правил Каноническое имя PidTagRuleProvider Альтернативные имена PR_RULE_PROVIDER ptagRuleProvider PR_RULE_PROVIDER_W
 type: docs
 weight: 16600
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleprovider/
 ---
 ## KnownPropertyList.RuleProvider field
 
-Строка, идентифицирующая клиентское приложение, которому принадлежит правило. Область:Свойства серверных правил Каноническое имя:PidTagRuleProvider Альтернативные имена:PR_RULE_PROVIDER, ptagRuleProvider, PR_RULE_PROVIDER_W
+Строка, идентифицирующая клиентское приложение, которому принадлежит правило. Область: Свойства серверных правил Каноническое имя: PidTagRuleProvider Альтернативные имена: PR_RULE_PROVIDER, ptagRuleProvider, PR_RULE_PROVIDER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleProvider;

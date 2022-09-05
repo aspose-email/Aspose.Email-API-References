@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set label of field.
 type: docs
 weight: 50
 url: /net/aspose.email.amp/formfield/label/

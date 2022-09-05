@@ -3,7 +3,7 @@ title: VCardAgent
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет свойство vCard Agent
 type: docs
-weight: 19530
+weight: 19560
 url: /ru/net/aspose.email.personalinfo.vcard/vcardagent/
 ---
 ## VCardAgent class
@@ -18,15 +18,15 @@ public sealed class VCardAgent
 
 | Имя | Описание |
 | --- | --- |
-| [VCardAgent](vcardagent)() | Инициализирует новый экземпляр класса[`VCardAgent`](../vcardagent) |
+| [VCardAgent](vcardagent)() | Инициализирует новый экземпляр[`VCardAgent`](../vcardagent) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AgentCard](../../aspose.email.personalinfo.vcard/vcardagent/agentcard) { get; set; } | Получает или устанавливает карточку агента (` null` if[`ValueLocation`](./valuelocation)is not` INLINE` ) |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardagent/uri) { get; set; } | Получает или устанавливает uri карты агента (` null` if[`ValueLocation`](./valuelocation)is` INLINE` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardagent/valuelocation) { get; set; } | Получает или задает местоположение значения |
+| [AgentCard](../../aspose.email.personalinfo.vcard/vcardagent/agentcard) { get; set; } | Получает или задает карточку агента (`нулевой` если[`ValueLocation`](./valuelocation) не является`В СООТВЕТСТВИИ`) |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardagent/uri) { get; set; } | Получает или задает uri карты агента (`нулевой` если[`ValueLocation`](./valuelocation) является`В СООТВЕТСТВИИ`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardagent/valuelocation) { get; set; } | Получает или задает значение location |
 
 ### Смотрите также
 

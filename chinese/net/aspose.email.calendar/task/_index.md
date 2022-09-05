@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Aspose.Email for .NET API 参考
-description: 表示交换任务信息
+description: 代表交换任务信息
 type: docs
 weight: 900
 url: /zh/net/aspose.email.calendar/task/
 ---
 ## Task class
 
-表示交换任务信息。
+代表交换任务信息。
 
 ```csharp
 public class Task : IDisposable
@@ -46,7 +46,7 @@ public class Task : IDisposable
 | [Request](../../aspose.email.calendar/task/request)() | 请求对象。 |
 | virtual [Save](../../aspose.email.calendar/task/save#save)(Stream) | 使用 MSG 格式将当前对象保存到给定的流中。 |
 | virtual [Save](../../aspose.email.calendar/task/save#save_2)(string) | 使用 MSG 格式将当前对象保存到文件中。 |
-| virtual [Save](../../aspose.email.calendar/task/save#save_1)(Stream, TaskSaveFormat) | 使用指定格式将当前对象保存到给定流。 |
+| virtual [Save](../../aspose.email.calendar/task/save#save_1)(Stream, TaskSaveFormat) | 使用指定格式将当前对象保存到给定流中。 |
 | virtual [Save](../../aspose.email.calendar/task/save#save_3)(string, TaskSaveFormat) | 使用指定格式将当前对象保存到文件中。 |
 
 ### 也可以看看

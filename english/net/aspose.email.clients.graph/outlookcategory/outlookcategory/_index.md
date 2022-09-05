@@ -1,12 +1,12 @@
 ---
 title: OutlookCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the OutlookCategoryaspose.email.clients.graph/outlookcategory class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.graph/outlookcategory/outlookcategory/
 ---
-## OutlookCategory constructor (1 of 3)
+## OutlookCategory() {#constructor}
 
 Initializes a new instance of the [`OutlookCategory`](../../outlookcategory) class.
 
@@ -22,7 +22,7 @@ public OutlookCategory()
 
 ---
 
-## OutlookCategory constructor (2 of 3)
+## OutlookCategory(string, CategoryPreset) {#constructor_1}
 
 Initializes a new instance of the [`OutlookCategory`](../../outlookcategory) class.
 
@@ -44,7 +44,7 @@ public OutlookCategory(string displayName, CategoryPreset preset)
 
 ---
 
-## OutlookCategory constructor (3 of 3)
+## OutlookCategory(string, string, CategoryPreset) {#constructor_2}
 
 Initializes a new instance of the [`OutlookCategory`](../../outlookcategory) class.
 

@@ -1,14 +1,14 @@
 ---
 title: XSharingCapabilities
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строковое представление значения свойства PidLidSharingCapabilities раздел 2.237. ОбластьСовместное использование Каноническое имяPidNameXSharingCapabilities Альтернативные имена
+description: Содержит строковое представление значения свойства PidLidSharingCapabilities раздел 2.237. Область Sharing Каноническое имя PidNameXSharingCapabilities Альтернативные имена
 type: docs
 weight: 19720
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingcapabilities/
 ---
 ## KnownPropertyList.XSharingCapabilities field
 
-Содержит строковое представление значения свойства PidLidSharingCapabilities (раздел 2.237). Область:Совместное использование Каноническое имя:PidNameXSharingCapabilities Альтернативные имена:
+Содержит строковое представление значения свойства PidLidSharingCapabilities (раздел 2.237). Область: Sharing Каноническое имя: PidNameXSharingCapabilities Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingCapabilities;

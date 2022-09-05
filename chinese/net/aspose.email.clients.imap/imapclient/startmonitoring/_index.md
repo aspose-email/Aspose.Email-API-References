@@ -17,8 +17,8 @@ public void StartMonitoring(ImapMonitoringEventHandler callback,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| callback | ImapMonitoringEventHandler | 监听操作的回调函数。 |
-| errorCallback | ImapMonitoringErrorEventHandler | 监控错误处理的回调函数。 调用此回调时停止监视指定文件夹。 回调还提供了一个状态持有者，因此可以恢复文件夹监视 使用[`ResumeMonitoring`](../resumemonitoring)方法。 |
+| callback | ImapMonitoringEventHandler | 监控操作的回调函数。 |
+| errorCallback | ImapMonitoringErrorEventHandler | 用于监控错误处理的回调函数。 调用此回调时停止对指定文件夹的监控。 回调还提供了一个状态持有者，因此可以恢复文件夹监控 使用[`ResumeMonitoring`](../resumemonitoring)方法。 |
 | folderName | String | 监控操作的文件夹。 |
 
 ### 也可以看看

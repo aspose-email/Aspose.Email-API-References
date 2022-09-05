@@ -1,14 +1,14 @@
 ---
 title: UserField3
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает третье поле контакта которое предназначено для различных целей контакта.
+description: Определяет третье поле контакта предназначенное для различных целей контакта.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/userfield3/
 ---
 ## MapiContactOtherPropertySet.UserField3 property
 
-Указывает третье поле контакта, которое предназначено для различных целей контакта.
+Определяет третье поле контакта, предназначенное для различных целей контакта.
 
 ```csharp
 public string UserField3 { get; set; }

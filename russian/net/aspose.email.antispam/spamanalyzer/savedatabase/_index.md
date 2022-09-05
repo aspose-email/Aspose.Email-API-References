@@ -22,7 +22,7 @@ public void SaveDatabase(string filePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Если*filePath*имеет значение null или пустую строку. |
+| ArgumentException | Если*filePath* является нулевым или пустой строкой. |
 
 ### Смотрите также
 
@@ -48,7 +48,7 @@ public void SaveDatabase(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*stream*равно null. |
+| ArgumentNullException | Если*stream* нулевой. |
 
 ### Смотрите также
 

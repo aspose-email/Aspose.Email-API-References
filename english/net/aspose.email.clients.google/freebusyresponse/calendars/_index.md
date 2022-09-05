@@ -1,7 +1,7 @@
 ---
 title: Calendars
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of free/busy information for calendars.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/freebusyresponse/calendars/

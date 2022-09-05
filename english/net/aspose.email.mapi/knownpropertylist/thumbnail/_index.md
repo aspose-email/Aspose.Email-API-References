@@ -1,7 +1,7 @@
 ---
 title: Thumbnail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the data representing the thumbnail image of the document. Area Common Canonical name PidNameThumbnail Alternate names urnschemasmicrosoftcomofficeofficeThumbNail
 type: docs
 weight: 18950
 url: /net/aspose.email.mapi/knownpropertylist/thumbnail/

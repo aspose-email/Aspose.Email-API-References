@@ -1,7 +1,7 @@
 ---
 title: SetOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the additional followup options for a message.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/followupmanager/setoptions/

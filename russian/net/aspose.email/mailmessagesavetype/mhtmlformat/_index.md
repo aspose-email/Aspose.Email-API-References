@@ -16,7 +16,7 @@ public static MailMessageSaveType MHtmlFormat { get; }
 
 ### Стоимость имущества
 
-MHT.
+МХТ.
 
 ### Смотрите также
 

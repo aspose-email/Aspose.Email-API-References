@@ -1,14 +1,14 @@
 ---
 title: MapiCalendar
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiCalendaraspose.email.mapi/mapicalendar 类的新实例
+description: 初始化MapiCalendaraspose.email.mapi/mapicalendar class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendar/mapicalendar/
 ---
 ## MapiCalendar() {#constructor}
 
-初始化 [`MapiCalendar`](../../mapicalendar) 类的新实例
+初始化[`MapiCalendar`](../../mapicalendar) class
 
 ```csharp
 public MapiCalendar()
@@ -24,7 +24,7 @@ public MapiCalendar()
 
 ## MapiCalendar(string, string, string, DateTime, DateTime) {#constructor_1}
 
-初始化[`MapiCalendar`](../../mapicalendar)类的新实例。
+初始化[`MapiCalendar`](../../mapicalendar)类.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -34,8 +34,8 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | location | String | 约会地点。 |
-| summary | String | 约会摘要。 |
-| description | String | 约会描述。 |
+| summary | String | 约会总结。 |
+| description | String | 约会说明。 |
 | startDate | DateTime | 开始日期。 |
 | endDate | DateTime | 结束日期。 |
 
@@ -49,7 +49,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) {#constructor_3}
 
-初始化[`MapiCalendar`](../../mapicalendar)类的新实例。
+初始化[`MapiCalendar`](../../mapicalendar)类.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -59,8 +59,8 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | location | String | 会议地点。 |
-| summary | String | 会议摘要。 |
-| description | String | 会议描述。 |
+| summary | String | 会议总结。 |
+| description | String | 会议说明。 |
 | startDate | DateTime | 开始日期。 |
 | endDate | DateTime | 结束日期。 |
 | organizer | String | 会议组织者地址。 |
@@ -77,7 +77,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ## MapiCalendar(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) {#constructor_2}
 
-初始化[`MapiCalendar`](../../mapicalendar)类的新实例。
+初始化[`MapiCalendar`](../../mapicalendar)类.
 
 ```csharp
 public MapiCalendar(string location, string summary, string description, DateTime startDate, 
@@ -87,8 +87,8 @@ public MapiCalendar(string location, string summary, string description, DateTim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | location | String | 会议地点。 |
-| summary | String | 会议摘要。 |
-| description | String | 会议描述。 |
+| summary | String | 会议总结。 |
+| description | String | 会议说明。 |
 | startDate | DateTime | 开始日期。 |
 | endDate | DateTime | 结束日期。 |
 | organizer | MapiElectronicAddress | 会议组织者。 |

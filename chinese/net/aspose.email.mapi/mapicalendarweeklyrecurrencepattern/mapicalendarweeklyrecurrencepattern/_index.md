@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarWeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiCalendarWeeklyRecurrencePatternaspose.email.mapi/mapicalendarweeklyrecurrencepattern 类的新实例
+description: 初始化MapiCalendarWeeklyRecurrencePatternaspose.email.mapi/mapicalendarweeklyrecurrencepattern class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/mapicalendarweeklyrecurrencepattern/
 ---
 ## MapiCalendarWeeklyRecurrencePattern constructor
 
-初始化 [`MapiCalendarWeeklyRecurrencePattern`](../../mapicalendarweeklyrecurrencepattern) 类的新实例
+初始化[`MapiCalendarWeeklyRecurrencePattern`](../../mapicalendarweeklyrecurrencepattern) class
 
 ```csharp
 public MapiCalendarWeeklyRecurrencePattern()

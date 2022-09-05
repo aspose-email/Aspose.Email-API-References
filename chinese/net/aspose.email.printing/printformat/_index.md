@@ -1,14 +1,14 @@
 ---
 title: PrintFormat
 second_title: Aspose.Email for .NET API 参考
-description: 描述MailPrinter./mailprinter的可能打印格式
+description: 描述可能的打印格式MailPrinter./mailprinter.
 type: docs
-weight: 19840
+weight: 19890
 url: /zh/net/aspose.email.printing/printformat/
 ---
 ## PrintFormat enumeration
 
-描述[`MailPrinter`](../mailprinter)的可能打印格式。
+描述可能的打印格式[`MailPrinter`](../mailprinter).
 
 ```csharp
 public enum PrintFormat

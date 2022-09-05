@@ -1,14 +1,14 @@
 ---
 title: AttachAdditionalInformation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о кодировке вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachAdditionalInformation Альтернативные именаPR_ATTACH_ADDITIONAL_INFO
+description: Содержит информацию о кодировке вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachAdditionalInformation Альтернативные имена PR_ATTACH_ADDITIONAL_INFO
 type: docs
 weight: 1510
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachadditionalinformation/
 ---
 ## KnownPropertyList.AttachAdditionalInformation field
 
-Содержит информацию о кодировке вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachAdditionalInformation Альтернативные имена:PR_ATTACH_ADDITIONAL_INFO
+Содержит информацию о кодировке вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachAdditionalInformation Альтернативные имена: PR_ATTACH_ADDITIONAL_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachAdditionalInformation;

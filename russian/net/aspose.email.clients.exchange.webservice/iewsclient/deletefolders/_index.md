@@ -16,13 +16,13 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | A[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)содержит информацию об удаляемых папках |
+| folders | ExchangeFolderInfoCollection | А[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) содержащий информацию о папках для удаления |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* является`нулевой` |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public void DeleteFolders(StringCollection folderUris)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris* является`нулевой` |
 
 ### Смотрите также
 
@@ -69,14 +69,14 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders, bool deletePerma
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | A[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)содержит информацию о папках для удаления |
-| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems |
+| folders | ExchangeFolderInfoCollection | А[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) содержащий информацию о папках для удаления |
+| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* является`нулевой` |
 
 ### Смотрите также
 
@@ -97,14 +97,14 @@ public void DeleteFolders(StringCollection folderUris, bool deletePermanently)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUris | StringCollection | Папка Uri |
-| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems |
+| folderUris | StringCollection | Папка Ури |
+| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris* является`нулевой` |
 
 ### Смотрите также
 

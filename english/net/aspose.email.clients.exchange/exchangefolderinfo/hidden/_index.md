@@ -1,7 +1,7 @@
 ---
 title: Hidden
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value which indicates if folder is hidden
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/hidden/

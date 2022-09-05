@@ -1,7 +1,7 @@
 ---
 title: IpmDraftsEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Drafts folder. Area Folder Properties Canonical name PidTagIpmDraftsEntryId Alternate names PR_IPM_DRAFTS_ENTRYID
 type: docs
 weight: 11640
 url: /net/aspose.email.mapi/knownpropertylist/ipmdraftsentryid/

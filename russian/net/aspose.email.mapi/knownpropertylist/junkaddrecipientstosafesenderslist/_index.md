@@ -1,14 +1,14 @@
 ---
 title: JunkAddRecipientsToSafeSendersList
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли добавлять получателей электронной почты в список надежных отправителей. ОбластьСпам Каноническое имяPidTagJunkAddRecipientsToSafeSendersList Альтернативные именаPR_JUNK_ADD_RECIPS_TO_SSL
+description: Указывает следует ли добавлять получателей электронной почты в список надежных отправителей. Область Spam Каноническое имя PidTagJunkAddRecipientsToSafeSendersList Альтернативные имена PR_JUNK_ADD_RECIPS_TO_SSL
 type: docs
 weight: 11870
 url: /ru/net/aspose.email.mapi/knownpropertylist/junkaddrecipientstosafesenderslist/
 ---
 ## KnownPropertyList.JunkAddRecipientsToSafeSendersList field
 
-Указывает, следует ли добавлять получателей электронной почты в список надежных отправителей. Область:Спам Каноническое имя:PidTagJunkAddRecipientsToSafeSendersList Альтернативные имена:PR_JUNK_ADD_RECIPS_TO_SSL
+Указывает, следует ли добавлять получателей электронной почты в список надежных отправителей. Область: Spam Каноническое имя: PidTagJunkAddRecipientsToSafeSendersList Альтернативные имена: PR_JUNK_ADD_RECIPS_TO_SSL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkAddRecipientsToSafeSendersList;

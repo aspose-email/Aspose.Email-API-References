@@ -20,13 +20,13 @@ public static InboxRule CreateRuleDeleteContaining(string[] filter)
 
 ### 返回值
 
-已创建[`InboxRule`](../../inboxrule)
+一个创建的[`InboxRule`](../../inboxrule)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*是`无效的`或者`空的` |
 
 ### 也可以看看
 

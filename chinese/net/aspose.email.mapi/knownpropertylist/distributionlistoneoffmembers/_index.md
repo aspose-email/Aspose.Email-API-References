@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/distributionlistoneoffmembers/
 ---
 ## KnownPropertyList.DistributionListOneOffMembers field
 
-指定与个人分发列表的成员相对应的一次性 EntryID 列表。 区域:联系人属性 规范名称:PidLidDistributionListOneOffMembers 替代名称:dispidDLOneOffMembers
+指定与个人分发列表的成员相对应的一次性 EntryID 列表。 区域：联系人属性 规范名称：PidLidDistributionListOneOffMembers 替代名称：dispidDLOneOffMembers
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListOneOffMembers;

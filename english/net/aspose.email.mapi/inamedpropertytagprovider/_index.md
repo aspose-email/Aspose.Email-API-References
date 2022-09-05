@@ -1,9 +1,9 @@
 ---
 title: INamedPropertyTagProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Interface of named mapi property tag provider.
 type: docs
-weight: 17660
+weight: 17840
 url: /net/aspose.email.mapi/inamedpropertytagprovider/
 ---
 ## INamedPropertyTagProvider interface
@@ -18,11 +18,11 @@ public interface INamedPropertyTagProvider
 
 | Name | Description |
 | --- | --- |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(long) | Generates named property tag |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(MapiPropertyType) | Generates named property tag |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(PropertyDataType) | Generates named property tag |
-| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty)(long) | Gets the tag from named property. |
-| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty)(string) | Gets the tag from named property. |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_2)(long) | Generates named property tag |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag)(MapiPropertyType) | Generates named property tag |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_1)(PropertyDataType) | Generates named property tag |
+| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty#gettagfromnamedproperty)(long) | Gets the tag from named property. |
+| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty#gettagfromnamedproperty_1)(string) | Gets the tag from named property. |
 
 ### See Also
 

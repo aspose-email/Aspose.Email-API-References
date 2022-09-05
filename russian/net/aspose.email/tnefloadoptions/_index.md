@@ -3,7 +3,7 @@ title: TnefLoadOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Позволяет указать дополнительные параметры при загрузке MailMessage из формата Tnef.
 type: docs
-weight: 20350
+weight: 20400
 url: /ru/net/aspose.email/tnefloadoptions/
 ---
 ## TnefLoadOptions class
@@ -24,9 +24,9 @@ public class TnefLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию — Eml. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию: Eml. |
 | [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | Получает или устанавливает предпочтительную кодировку для сообщения. Принудительно устанавливает предпочтительную кодировку для темы и тела сообщения. Значение по умолчанию равно null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
 
 ### Смотрите также
 

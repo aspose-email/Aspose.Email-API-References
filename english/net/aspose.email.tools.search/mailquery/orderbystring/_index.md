@@ -1,7 +1,7 @@
 ---
 title: OrderByString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The sort query string.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/mailquery/orderbystring/

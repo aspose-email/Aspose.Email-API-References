@@ -1,12 +1,12 @@
 ---
 title: DeleteMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the mail message.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/deletemessage/
 ---
-## ExchangeClient.DeleteMessage method (1 of 2)
+## DeleteMessage(string) {#deletemessage}
 
 Deletes the mail message.
 
@@ -33,7 +33,7 @@ public void DeleteMessage(string messageUri)
 
 ---
 
-## ExchangeClient.DeleteMessage method (2 of 2)
+## DeleteMessage(string, bool) {#deletemessage_1}
 
 Deletes the mail message.
 

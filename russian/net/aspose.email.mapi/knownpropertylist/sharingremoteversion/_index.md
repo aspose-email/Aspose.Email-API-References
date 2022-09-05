@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingRemoteVersion Альтернативные именаdispidSharingRemoteVersion
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRemoteVersion Альтернативные имена dispidSharingRemoteVersion
 type: docs
 weight: 17890
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremoteversion/
 ---
 ## KnownPropertyList.SharingRemoteVersion field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingRemoteVersion Альтернативные имена:dispidSharingRemoteVersion
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRemoteVersion Альтернативные имена: dispidSharingRemoteVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteVersion;

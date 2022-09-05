@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 初始化UpdateItemAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync方法的参数设置为 MapiTask item
+description: 初始化UpdateItemAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync使用 MapiTask item. 设置方法的参数
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/create/
 ---
 ## Create(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) {#create_3}
 
-初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiTask item。
+初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiTask item. 设置方法的参数
 
 ```csharp
 public static EwsUpdateItem Create(MapiTask item, 
@@ -18,7 +18,7 @@ public static EwsUpdateItem Create(MapiTask item,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | MapiTask | 要更新的项目 |
-| additionalProperties | IEnumerable`1 | 附加属性描述符. |
+| additionalProperties | IEnumerable`1 | 附加属性描述符。 |
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static EwsUpdateItem Create(MapiTask item,
 
 ## Create(MapiContact) {#create_1}
 
-初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiContact item。
+初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiContact item. 设置方法的参数
 
 ```csharp
 public static EwsUpdateItem Create(MapiContact item)
@@ -53,7 +53,7 @@ public static EwsUpdateItem Create(MapiContact item)
 
 ## Create(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) {#create_2}
 
-初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiNote item。
+初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiNote item. 设置方法的参数
 
 ```csharp
 public static EwsUpdateItem Create(MapiNote item, 
@@ -63,7 +63,7 @@ public static EwsUpdateItem Create(MapiNote item,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | MapiNote | 要更新的项目 |
-| additionalProperties | IEnumerable`1 | 附加属性描述符. |
+| additionalProperties | IEnumerable`1 | 附加属性描述符。 |
 
 ### 也可以看看
 
@@ -77,7 +77,7 @@ public static EwsUpdateItem Create(MapiNote item,
 
 ## Create(MapiCalendar, string) {#create}
 
-初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiCalendar item。
+初始化[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiCalendar item. 设置方法的参数
 
 ```csharp
 public static EwsUpdateItem Create(MapiCalendar item, string folderUri = null)
@@ -86,7 +86,7 @@ public static EwsUpdateItem Create(MapiCalendar item, string folderUri = null)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | MapiCalendar | 要更新的项目 |
-| folderUri | String | 的 URI父文件夹。 |
+| folderUri | String | 父文件夹的 URI。 |
 
 ### 也可以看看
 

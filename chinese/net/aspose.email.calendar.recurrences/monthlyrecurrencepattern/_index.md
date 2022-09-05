@@ -18,9 +18,9 @@ public class MonthlyRecurrencePattern : RecurrencePattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor)() | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类的新实例。 |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_2)(int, int) | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类的新实例。 |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_1)(DayPosition, CalendarDay, int) | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类的新实例。 |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor)() | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_2)(int, int) | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_1)(DayPosition, CalendarDay, int) | 初始化[`MonthlyRecurrencePattern`](../monthlyrecurrencepattern)类. |
 
 ## 特性
 

@@ -1,12 +1,12 @@
 ---
 title: GetMessageInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the information for that message
 type: docs
 weight: 240
 url: /net/aspose.email.clients.pop3/pop3client/getmessageinfoasync/
 ---
-## Pop3Client.GetMessageInfoAsync method (1 of 16)
+## GetMessageInfoAsync(IConnection, string, Pop3ListFields) {#getmessageinfoasync_5}
 
 Gets the information for that message
 
@@ -36,7 +36,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (2 of 16)
+## GetMessageInfoAsync(IConnection, string) {#getmessageinfoasync_4}
 
 Gets the information for that message
 
@@ -63,7 +63,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (3 of 16)
+## GetMessageInfoAsync(string) {#getmessageinfoasync_12}
 
 Gets the information for that message
 
@@ -88,7 +88,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (4 of 16)
+## GetMessageInfoAsync(string, Pop3ListFields) {#getmessageinfoasync_13}
 
 Gets the information for that message
 
@@ -115,7 +115,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (5 of 16)
+## GetMessageInfoAsync(IConnection, int, Pop3ListFields) {#getmessageinfoasync_1}
 
 Gets the information for that message
 
@@ -145,7 +145,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (6 of 16)
+## GetMessageInfoAsync(IConnection, int) {#getmessageinfoasync}
 
 Gets the information for that message
 
@@ -172,7 +172,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (7 of 16)
+## GetMessageInfoAsync(int) {#getmessageinfoasync_8}
 
 Gets the information for that message
 
@@ -197,7 +197,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (8 of 16)
+## GetMessageInfoAsync(int, Pop3ListFields) {#getmessageinfoasync_9}
 
 Gets the information for that message
 
@@ -224,7 +224,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (9 of 16)
+## GetMessageInfoAsync(IConnection, string, Pop3ListFields, CancellationToken) {#getmessageinfoasync_6}
 
 Gets the information for that message
 
@@ -255,7 +255,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (10 of 16)
+## GetMessageInfoAsync(IConnection, string, CancellationToken) {#getmessageinfoasync_7}
 
 Gets the information for that message
 
@@ -284,7 +284,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (11 of 16)
+## GetMessageInfoAsync(string, CancellationToken) {#getmessageinfoasync_15}
 
 Gets the information for that message
 
@@ -310,7 +310,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (12 of 16)
+## GetMessageInfoAsync(string, Pop3ListFields, CancellationToken) {#getmessageinfoasync_14}
 
 Gets the information for that message
 
@@ -339,7 +339,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (13 of 16)
+## GetMessageInfoAsync(IConnection, int, Pop3ListFields, CancellationToken) {#getmessageinfoasync_2}
 
 Gets the information for that message
 
@@ -370,7 +370,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (14 of 16)
+## GetMessageInfoAsync(IConnection, int, CancellationToken) {#getmessageinfoasync_3}
 
 Gets the information for that message
 
@@ -399,7 +399,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (15 of 16)
+## GetMessageInfoAsync(int, CancellationToken) {#getmessageinfoasync_11}
 
 Gets the information for that message
 
@@ -425,7 +425,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageInfoAsync method (16 of 16)
+## GetMessageInfoAsync(int, Pop3ListFields, CancellationToken) {#getmessageinfoasync_10}
 
 Gets the information for that message
 

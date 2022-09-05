@@ -1,14 +1,14 @@
 ---
 title: ConvertedEits
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_CONVERTED_EITS
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONVERTED_EITS
 type: docs
 weight: 3480
 url: /zh/net/aspose.email.mapi/knownpropertylist/convertedeits/
 ---
 ## KnownPropertyList.ConvertedEits field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_CONVERTED_EITS
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONVERTED_EITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConvertedEits;

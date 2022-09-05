@@ -1,14 +1,14 @@
 ---
 title: Home2TelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户家中的辅助电话号码 区域MapiMailUser 规范名称PidTagHome2TelephoneNumber 备用名称PR_HOME2_TELEPHONE_NUMBER PR_HOME2_TELEPHONE_NUMBER_A
+description: 包含邮件用户家中的辅助电话号码 区域MapiMailUser 规范名称PidTagHome2TelephoneNumber 别名PR_HOME2_TELEPHONE_NUMBERPR_HOME2_TELEPHONE_NUMBER_A
 type: docs
 weight: 10980
 url: /zh/net/aspose.email.mapi/knownpropertylist/home2telephonenumber/
 ---
 ## KnownPropertyList.Home2TelephoneNumber field
 
-包含邮件用户家中的辅助电话号码。 区域:MapiMailUser 规范名称:PidTagHome2TelephoneNumber 备用名称:PR_HOME2_TELEPHONE_NUMBER, PR_HOME2_TELEPHONE_NUMBER_A,
+包含邮件用户家中的辅助电话号码。 区域：MapiMailUser 规范名称：PidTagHome2TelephoneNumber 别名：PR_HOME2_TELEPHONE_NUMBER、PR_HOME2_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Home2TelephoneNumber;

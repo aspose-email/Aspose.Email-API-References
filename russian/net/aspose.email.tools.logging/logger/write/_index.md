@@ -1,14 +1,14 @@
 ---
 title: Write
 second_title: Справочник по Aspose.Email для .NET API
-description: Записывает указанное сообщение в аппендеры.
+description: Записывает указанное сообщение в appenders.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.tools.logging/logger/write/
 ---
 ## Write(string) {#write_1}
 
-Записывает указанное сообщение в аппендеры.
+Записывает указанное сообщение в appenders.
 
 ```csharp
 public void Write(string message)
@@ -28,7 +28,7 @@ public void Write(string message)
 
 ## Write(string, Exception) {#write_2}
 
-Записывает указанное сообщение и исключение в приложения.
+Записывает указанное сообщение и исключение в appenders.
 
 ```csharp
 public void Write(string message, Exception exception)
@@ -37,7 +37,7 @@ public void Write(string message, Exception exception)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение для записи. |
-| exception | Exception | Исключение для записи. |
+| exception | Exception | Исключение написать. |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public void Write(string message, Exception exception)
 
 ## Write(string, Exception, LogLevel) {#write_3}
 
-Записывает указанное сообщение и исключение в приложения.
+Записывает указанное сообщение и исключение в appenders.
 
 ```csharp
 public void Write(string message, Exception ex, LogLevel level)
@@ -58,7 +58,7 @@ public void Write(string message, Exception ex, LogLevel level)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение для записи. |
-| ex | Exception | Исключение для записи. |
+| ex | Exception | Исключение написать. |
 | level | LogLevel | Уровень журнала. |
 
 ### Смотрите также
@@ -72,7 +72,7 @@ public void Write(string message, Exception ex, LogLevel level)
 
 ## Write(object) {#write}
 
-Записывает указанное сообщение в аппендеры.
+Записывает указанное сообщение в appenders.
 
 ```csharp
 public void Write(object message)

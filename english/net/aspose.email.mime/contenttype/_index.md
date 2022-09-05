@@ -1,9 +1,9 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a ContentType header.
 type: docs
-weight: 18940
+weight: 19150
 url: /net/aspose.email.mime/contenttype/
 ---
 ## ContentType class
@@ -18,8 +18,8 @@ public class ContentType
 
 | Name | Description |
 | --- | --- |
-| [ContentType](contenttype)() | Initializes a new instance of the [`ContentType`](../contenttype) class. |
-| [ContentType](contenttype)(string) | Initializes a new instance of the [`ContentType`](../contenttype) class. |
+| [ContentType](contenttype#constructor)() | Initializes a new instance of the [`ContentType`](../contenttype) class. |
+| [ContentType](contenttype#constructor_1)(string) | Initializes a new instance of the [`ContentType`](../contenttype) class. |
 
 ## Properties
 

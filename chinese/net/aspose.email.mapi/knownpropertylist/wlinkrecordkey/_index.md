@@ -1,14 +1,14 @@
 ---
 title: WlinkRecordKey
 second_title: Aspose.Email for .NET API 参考
-description: 指定快捷方式指向的文件夹的 PidTagRecordKey 属性第 2.901 节的值 区域配置 规范名称PidTagWlinkRecordKey 备用名称PR_WLINK_RECKEY
+description: 指定快捷方式指向的文件夹的 PidTagRecordKey 属性第 2.901 节的值 区域Configuration 规范名称PidTagWlinkRecordKey 替代名称PR_WLINK_RECKEY
 type: docs
 weight: 19480
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkrecordkey/
 ---
 ## KnownPropertyList.WlinkRecordKey field
 
-指定快捷方式指向的文件夹的 PidTagRecordKey 属性（第 2.901 节）的值。 区域:配置 规范名称:PidTagWlinkRecordKey 备用名称:PR_WLINK_RECKEY
+指定快捷方式指向的文件夹的 PidTagRecordKey 属性（第 2.901 节）的值。 区域：Configuration 规范名称：PidTagWlinkRecordKey 替代名称：PR_WLINK_RECKEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkRecordKey;

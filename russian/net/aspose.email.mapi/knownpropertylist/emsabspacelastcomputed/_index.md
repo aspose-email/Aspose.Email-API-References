@@ -1,14 +1,14 @@
 ---
 title: EmsAbSpaceLastComputed
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SPACE_LAST_COMPUTED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SPACE_LAST_COMPUTED
 type: docs
 weight: 8930
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabspacelastcomputed/
 ---
 ## KnownPropertyList.EmsAbSpaceLastComputed field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SPACE_LAST_COMPUTED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SPACE_LAST_COMPUTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSpaceLastComputed;

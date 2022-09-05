@@ -1,14 +1,14 @@
 ---
 title: ToDoItemFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含与对象关联的标志 区域MapiNonTransmittable 规范名称PidTagToDoItemFlags 替代名称PR_TODO_ITEM_FLAGS ptagToDoItemFlags
+description: 包含与对象关联的标志 区域MapiNonTransmittable 规范名称PidTagToDoItemFlags 备用名称PR_TODO_ITEM_FLAGSptagToDoItemFlags
 type: docs
 weight: 19030
 url: /zh/net/aspose.email.mapi/knownpropertylist/todoitemflags/
 ---
 ## KnownPropertyList.ToDoItemFlags field
 
-包含与对象关联的标志。 区域:MapiNonTransmittable 规范名称:PidTagToDoItemFlags 替代名称:PR_TODO_ITEM_FLAGS, ptagToDoItemFlags
+包含与对象关联的标志。 区域：MapiNonTransmittable 规范名称：PidTagToDoItemFlags 备用名称：PR_TODO_ITEM_FLAGS、ptagToDoItemFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ToDoItemFlags;

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает категорию лица
+description: Получает категорию человека
 type: docs
 weight: 180
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/value/
 ---
 ## AssociatedPersonCategory.Value property
 
-Получает категорию лица
+Получает категорию человека
 
 ```csharp
 public string Value { get; }

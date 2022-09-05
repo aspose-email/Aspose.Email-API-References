@@ -1,14 +1,14 @@
 ---
 title: DeferredSendUnits
 second_title: Aspose.Email for .NET API 参考
-description: 使用 PidTagDeferredSendNumber 属性第 2.654 节值指定用作乘数的时间单位 区域MapiStatus 规范名称PidTagDeferredSendUnits 备用名称PR_DEFERRED_SEND_UNITS
+description: 使用 PidTagDeferredSendNumber 属性第 2.654 节值指定用作乘数的时间单位 区域MapiStatus 规范名称PidTagDeferredSendUnits 替代名称PR_DEFERRED_SEND_UNITS
 type: docs
 weight: 3810
 url: /zh/net/aspose.email.mapi/knownpropertylist/deferredsendunits/
 ---
 ## KnownPropertyList.DeferredSendUnits field
 
-使用 PidTagDeferredSendNumber 属性（第 2.654 节）值指定用作乘数的时间单位。 区域:MapiStatus 规范名称:PidTagDeferredSendUnits 备用名称:PR_DEFERRED_SEND_UNITS
+使用 PidTagDeferredSendNumber 属性（第 2.654 节）值指定用作乘数的时间单位。 区域：MapiStatus 规范名称：PidTagDeferredSendUnits 替代名称：PR_DEFERRED_SEND_UNITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredSendUnits;

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the conversation calculated from the size of all conversation items in the current folder.
 type: docs
 weight: 240
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/size/

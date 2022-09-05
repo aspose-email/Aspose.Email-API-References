@@ -18,10 +18,10 @@ public enum Endpoint
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SwayWeb | `0` | 该事件是使用 Sway 的 Web 客户端触发的。 |
-| SwayIOS | `1` | 该事件是使用 Sway 的 iOS 客户端触发的。 |
+| SwayWeb | `0` | 事件是使用 Sway 的 Web 客户端触发的。 |
+| SwayIOS | `1` | 该事件是使用Sway的iOS客户端触发的。 |
 | SwayWindows | `2` | 该事件是使用 Sway 的 Windows 客户端触发的。 |
-| SwayAndroid | `3` | 该事件是使用 Sway 的 Android 客户端触发的。 |
+| SwayAndroid | `3` | 该事件是使用Sway的Android客户端触发的。 |
 
 ### 也可以看看
 

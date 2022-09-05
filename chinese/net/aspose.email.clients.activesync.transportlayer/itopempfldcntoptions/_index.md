@@ -24,7 +24,7 @@ public class ItOpEmpFldCntOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeleteSubFolders](../../aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders) { get; set; } | 表示是否删除指定文件夹的子文件夹。 如果请求中不包含 DeleteSubFolders 选项，则不会删除指定 CollectionId 的子文件夹。 |
+| [DeleteSubFolders](../../aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders) { get; set; } | 表示是否删除指定文件夹的子文件夹。 如果请求中不包含DeleteSubFolders选项，则不删除指定CollectionId的子文件夹。 |
 
 ### 也可以看看
 

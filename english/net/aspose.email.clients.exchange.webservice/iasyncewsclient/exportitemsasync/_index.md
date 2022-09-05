@@ -1,7 +1,7 @@
 ---
 title: ExportItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exports the specified items from mailbox
 type: docs
 weight: 210
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/exportitemsasync/

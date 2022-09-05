@@ -1,14 +1,14 @@
 ---
 title: IsDefault
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли этот блокнот пользователя по умолчанию. Только для чтения.
+description: Указывает является ли это записной книжкой пользователя по умолчанию. Только для чтения.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.graph/notebook/isdefault/
 ---
 ## Notebook.IsDefault property
 
-Указывает, является ли этот блокнот пользователя по умолчанию. Только для чтения.
+Указывает, является ли это записной книжкой пользователя по умолчанию. Только для чтения.
 
 ```csharp
 public bool IsDefault { get; }

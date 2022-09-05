@@ -1,7 +1,7 @@
 ---
 title: TaskAcceptanceState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the acceptance state of the task. Area Tasks Canonical name PidLidTaskAcceptanceState Alternate names dispidTaskDelegValue
 type: docs
 weight: 18530
 url: /net/aspose.email.mapi/knownpropertylist/taskacceptancestate/

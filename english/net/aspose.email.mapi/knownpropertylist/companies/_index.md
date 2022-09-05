@@ -1,7 +1,7 @@
 ---
 title: Companies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of company names each of which is associated with a contact that is specified in the PidLidContacts property MSOXCMSG section 2.2.1.57.2. Area General Message Properties Canonical name PidLidCompanies Alternate names dispidCompanies http//schemas.microsoft.com/exchange/companies
 type: docs
 weight: 2810
 url: /net/aspose.email.mapi/knownpropertylist/companies/

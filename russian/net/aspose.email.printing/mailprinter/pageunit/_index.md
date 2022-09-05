@@ -1,14 +1,14 @@
 ---
 title: PageUnit
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает единицу страницы.
+description: Получает или задает единицу измерения страницы.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.printing/mailprinter/pageunit/
 ---
 ## MailPrinter.PageUnit property
 
-Получает или задает единицу страницы.
+Получает или задает единицу измерения страницы.
 
 ```csharp
 public PrinterUnit PageUnit { get; set; }

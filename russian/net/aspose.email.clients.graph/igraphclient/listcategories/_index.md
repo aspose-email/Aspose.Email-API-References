@@ -1,14 +1,14 @@
 ---
 title: ListCategories
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить все категории определенные для пользователя.
+description: Получить все категории которые были определены для пользователя.
 type: docs
 weight: 280
 url: /ru/net/aspose.email.clients.graph/igraphclient/listcategories/
 ---
 ## IGraphClient.ListCategories method
 
-Получить все категории, определенные для пользователя.
+Получить все категории, которые были определены для пользователя.
 
 ```csharp
 public List<OutlookCategory> ListCategories()

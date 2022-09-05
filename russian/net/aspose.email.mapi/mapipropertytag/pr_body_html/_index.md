@@ -1,14 +1,14 @@
 ---
 title: PR_BODY_HTML
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тело текста в кодировке языка гипертекстовой разметки HTML.
+description: Содержит тело текста в кодировке языка разметки гипертекста HTML.
 type: docs
 weight: 1020
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_body_html/
 ---
 ## MapiPropertyTag.PR_BODY_HTML field
 
-Содержит тело текста в кодировке языка гипертекстовой разметки (HTML).
+Содержит тело текста в кодировке языка разметки гипертекста (HTML).
 
 ```csharp
 public static readonly long PR_BODY_HTML;

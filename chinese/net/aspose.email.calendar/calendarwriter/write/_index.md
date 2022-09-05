@@ -16,7 +16,7 @@ public void Write(Appointment appointment)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| appointment | Appointment | 源预约 |
+| appointment | Appointment | 来源预约 |
 
 ### 也可以看看
 

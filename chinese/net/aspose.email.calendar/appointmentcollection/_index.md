@@ -18,7 +18,7 @@ public class AppointmentCollection : List<Appointment>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentCollection](appointmentcollection#constructor)() | 初始化一个空的 AppointmentCollection 类的新实例。 |
+| [AppointmentCollection](appointmentcollection#constructor)() | 初始化 AppointmentCollection 类的新实例，该实例为空。 |
 | [AppointmentCollection](appointmentcollection#constructor_1)(IEnumerable&lt;Appointment&gt;) | 初始化 AppointmentCollection 类的新实例 |
 
 ## 方法

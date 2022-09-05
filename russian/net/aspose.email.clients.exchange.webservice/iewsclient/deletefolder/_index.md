@@ -16,7 +16,7 @@ public void DeleteFolder(string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка Uri |
+| folderUri | String | Папка Ури |
 
 ### Смотрите также
 
@@ -36,8 +36,8 @@ public void DeleteFolder(string folderUri, bool deletePermanently)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка Uri |
-| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems |
+| folderUri | String | Папка Ури |
+| deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems. |
 
 ### Смотрите также
 

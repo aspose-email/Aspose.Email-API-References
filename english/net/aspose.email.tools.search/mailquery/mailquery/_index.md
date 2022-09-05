@@ -1,12 +1,12 @@
 ---
 title: MailQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailQueryaspose.email.tools.search/mailquery class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/mailquery/mailquery/
 ---
-## MailQuery constructor (1 of 2)
+## MailQuery(string) {#constructor}
 
 Initializes a new instance of the [`MailQuery`](../../mailquery) class.
 
@@ -64,7 +64,7 @@ MailQuery mailQuery = new MailQuery("(('From' Contains 'test@test.com' | 'Seen' 
 
 ---
 
-## MailQuery constructor (2 of 2)
+## MailQuery(string, string) {#constructor_1}
 
 Initializes a new instance of the [`MailQuery`](../../mailquery) class.
 

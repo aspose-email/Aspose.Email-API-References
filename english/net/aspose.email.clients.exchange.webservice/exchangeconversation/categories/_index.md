@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the category list for conversation items in the current folder.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/categories/

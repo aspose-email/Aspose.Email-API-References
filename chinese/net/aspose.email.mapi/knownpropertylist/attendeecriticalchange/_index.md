@@ -1,14 +1,14 @@
 ---
 title: AttendeeCriticalChange
 second_title: Aspose.Email for .NET API 参考
-description: 指定发送会议相关对象的日期和时间 区域会议 规范名称PidLidAttendeeCriticalChange 别名LID_ATTENDEE_CRITICAL_CHANGE
+description: 指定发送会议相关对象的日期和时间 区域Meetings 规范名称PidLidAttendeeCriticalChange 替代名称LID_ATTENDEE_CRITICAL_CHANGE
 type: docs
 weight: 1820
 url: /zh/net/aspose.email.mapi/knownpropertylist/attendeecriticalchange/
 ---
 ## KnownPropertyList.AttendeeCriticalChange field
 
-指定发送会议相关对象的日期和时间。 区域:会议 规范名称:PidLidAttendeeCriticalChange 别名:LID_ATTENDEE_CRITICAL_CHANGE
+指定发送会议相关对象的日期和时间。 区域：Meetings 规范名称：PidLidAttendeeCriticalChange 替代名称：LID_ATTENDEE_CRITICAL_CHANGE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AttendeeCriticalChange;

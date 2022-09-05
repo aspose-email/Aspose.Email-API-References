@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the collection of properties.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapipropertystream/properties/

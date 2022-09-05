@@ -1,14 +1,14 @@
 ---
 title: EmsAbDeliverAndRedirect
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DELIVER_AND_REDIRECT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DELIVER_AND_REDIRECT
 type: docs
 weight: 5390
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdeliverandredirect/
 ---
 ## KnownPropertyList.EmsAbDeliverAndRedirect field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DELIVER_AND_REDIRECT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DELIVER_AND_REDIRECT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDeliverAndRedirect;

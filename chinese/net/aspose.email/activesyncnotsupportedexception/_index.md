@@ -18,10 +18,10 @@ public class ActiveSyncNotSupportedException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor)() | 初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类的新实例。 |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_1)(Exception) | 使用对内部的引用初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类 的新实例异常是导致此异常的原因。 |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_2)(string) | 使用指定的错误消息初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类的新实例。 |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类 的新实例和对导致此异常的内部异常的引用。 |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor)() | 初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_1)(Exception) | 初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类 引用了导致此异常的内部异常。 |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_2)(string) | 初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)具有指定错误消息的类。 |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_3)(string, Exception) | 初始化[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
 
 ## 特性
 

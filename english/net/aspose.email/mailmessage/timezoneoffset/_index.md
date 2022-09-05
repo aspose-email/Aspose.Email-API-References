@@ -1,9 +1,9 @@
 ---
 title: TimeZoneOffset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the Coordinated Universal Time UTC offset for the message dates. This property defines the time zone difference between the local time and UTC.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.email/mailmessage/timezoneoffset/
 ---
 ## MailMessage.TimeZoneOffset property

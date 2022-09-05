@@ -1,7 +1,7 @@
 ---
 title: FromiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a recurrence pattern from iCalendar string.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/fromicalendar/

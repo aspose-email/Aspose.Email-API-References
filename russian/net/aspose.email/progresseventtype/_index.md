@@ -1,14 +1,14 @@
 ---
 title: ProgressEventType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип произошедшего события прогресса.
+description: Тип произошедшего события выполнения.
 type: docs
-weight: 19870
+weight: 19920
 url: /ru/net/aspose.email/progresseventtype/
 ---
 ## ProgressEventType enumeration
 
-Тип произошедшего события прогресса.
+Тип произошедшего события выполнения.
 
 ```csharp
 public enum ProgressEventType
@@ -20,7 +20,7 @@ public enum ProgressEventType
 | --- | --- | --- |
 | MimeStructureCreated | `0` | Означает, что произошедшее событие информирует о создании mime-структуры. |
 | MimePartSaved | `1` | Означает, что произошедшее событие информирует о завершении сохранения одной mime-части. |
-| SavedToStream | `2` | Означает, что произошедшее событие информирует о том, что все mime-части сохраняются в поток. |
+| SavedToStream | `2` | Означает, что произошедшее событие информирует о том, что все MIME-части сохраняются в поток. |
 
 ### Смотрите также
 

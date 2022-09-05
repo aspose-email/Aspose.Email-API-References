@@ -1,7 +1,7 @@
 ---
 title: ReadXml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Generates an object from its XML representation.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.search/mailquery/readxml/

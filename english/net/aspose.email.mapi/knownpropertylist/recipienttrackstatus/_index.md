@@ -1,7 +1,7 @@
 ---
 title: RecipientTrackStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the response status that is returned by the attendee. Area TransportRecipient Canonical name PidTagRecipientTrackStatus Alternate names PR_RECIPIENT_TRACKSTATUS ptagRecipientTrackStatus
 type: docs
 weight: 15540
 url: /net/aspose.email.mapi/knownpropertylist/recipienttrackstatus/

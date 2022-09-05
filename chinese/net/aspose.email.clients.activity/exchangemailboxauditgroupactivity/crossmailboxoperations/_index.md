@@ -1,14 +1,14 @@
 ---
 title: CrossMailboxOperations
 second_title: Aspose.Email for .NET API 参考
-description: 指示操作是否涉及多个邮箱
+description: 表示操作是否涉及多个邮箱
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/crossmailboxoperations/
 ---
 ## ExchangeMailboxAuditGroupActivity.CrossMailboxOperations property
 
-指示操作是否涉及多个邮箱。
+表示操作是否涉及多个邮箱。
 
 ```csharp
 public string CrossMailboxOperations { get; set; }

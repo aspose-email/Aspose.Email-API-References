@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит параметры операции ItemOperations.EmptyFolderContents
+description: Содержит параметры для операции ItemOperations.EmptyFolderContents
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/options/
 ---
 ## EmptyFolderContentsRequest.Options property
 
-Содержит параметры операции ItemOperations.EmptyFolderContents
+Содержит параметры для операции ItemOperations.EmptyFolderContents
 
 ```csharp
 public ItOpEmpFldCntOptions Options { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsRecurring
 second_title: Aspose.Email for .NET API 参考
-description: 指定对象是否与循环系列相关联 区域会议 规范名称PidLidIsRecurring 别名LID_IS_RECURRING
+description: 指定对象是否与重复系列相关联 区域Meetings 规范名称PidLidIsRecurring 替代名称LID_IS_RECURRING
 type: docs
 weight: 11850
 url: /zh/net/aspose.email.mapi/knownpropertylist/isrecurring/
 ---
 ## KnownPropertyList.IsRecurring field
 
-指定对象是否与循环系列相关联。 区域:会议 规范名称:PidLidIsRecurring 别名:LID_IS_RECURRING
+指定对象是否与重复系列相关联。 区域：Meetings 规范名称：PidLidIsRecurring 替代名称：LID_IS_RECURRING
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsRecurring;

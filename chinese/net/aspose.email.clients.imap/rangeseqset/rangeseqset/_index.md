@@ -1,14 +1,14 @@
 ---
 title: RangeSeqSet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化RangeSeqSetaspose.email.clients.imap/rangeseqset类的新实例
+description: 初始化RangeSeqSetaspose.email.clients.imap/rangeseqset类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/rangeseqset/rangeseqset/
 ---
 ## RangeSeqSet() {#constructor}
 
-初始化[`RangeSeqSet`](../../rangeseqset)类的新实例。
+初始化[`RangeSeqSet`](../../rangeseqset)类.
 
 ```csharp
 public RangeSeqSet()
@@ -24,7 +24,7 @@ public RangeSeqSet()
 
 ## RangeSeqSet(SimpleSeqSet) {#constructor_1}
 
-初始化[`RangeSeqSet`](../../rangeseqset)类的新实例。
+初始化[`RangeSeqSet`](../../rangeseqset)类.
 
 ```csharp
 public RangeSeqSet(SimpleSeqSet startRange)
@@ -45,7 +45,7 @@ public RangeSeqSet(SimpleSeqSet startRange)
 
 ## RangeSeqSet(SimpleSeqSet, SimpleSeqSet) {#constructor_2}
 
-初始化[`RangeSeqSet`](../../rangeseqset)类的新实例。
+初始化[`RangeSeqSet`](../../rangeseqset)类.
 
 ```csharp
 public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
@@ -67,7 +67,7 @@ public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
 
 ## RangeSeqSet(string) {#constructor_3}
 
-初始化[`RangeSeqSet`](../../rangeseqset)类的新实例。
+初始化[`RangeSeqSet`](../../rangeseqset)类.
 
 ```csharp
 public RangeSeqSet(string startRange)
@@ -87,7 +87,7 @@ public RangeSeqSet(string startRange)
 
 ## RangeSeqSet(string, string) {#constructor_4}
 
-初始化[`RangeSeqSet`](../../rangeseqset)类的新实例。
+初始化[`RangeSeqSet`](../../rangeseqset)类.
 
 ```csharp
 public RangeSeqSet(string startRange, string endRange)
@@ -96,7 +96,7 @@ public RangeSeqSet(string startRange, string endRange)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | startRange | String | 要搜索的范围的起始边界值 |
-| endRange | String | 要搜索的范围的结束边界值 |
+| endRange | String | 要搜索的范围的结束边界的值 |
 
 ### 也可以看看
 

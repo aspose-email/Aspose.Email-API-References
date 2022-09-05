@@ -1,7 +1,7 @@
 ---
 title: AmpHtmlBody
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the AmpHtml representation of messages body.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampmessage/amphtmlbody/

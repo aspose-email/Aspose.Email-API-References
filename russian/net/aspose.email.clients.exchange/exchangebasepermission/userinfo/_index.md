@@ -1,14 +1,14 @@
 ---
 title: UserInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает пользователя или пользователя-делегата имеющего права доступа к папке
+description: Получает или задает пользователя или делегированного пользователя у которого есть права доступа к папке
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.exchange/exchangebasepermission/userinfo/
 ---
 ## ExchangeBasePermission.UserInfo property
 
-Получает или задает пользователя или пользователя-делегата, имеющего права доступа к папке
+Получает или задает пользователя или делегированного пользователя, у которого есть права доступа к папке
 
 ```csharp
 public ExchangeFolderUserInfo UserInfo { get; set; }
@@ -18,7 +18,7 @@ public ExchangeFolderUserInfo UserInfo { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *value*is` null` |
+| ArgumentNullException | *value* является`нулевой` |
 
 ### Смотрите также
 

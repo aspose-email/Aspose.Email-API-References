@@ -1,14 +1,14 @@
 ---
 title: FolderId
 second_title: Aspose.Email for .NET API 参考
-description: 包含文件夹的文件夹 ID FIDMS-OXCDATA 第 2.2.1.1 节 区域ID 属性 规范名称PidTagFolderId 替代名称ptagFID
+description: 包含文件夹的文件夹 ID FIDMS-OXCDATA 第 2.2.1.1 节 区域ID Properties 规范名称PidTagFolderId 备用名称ptagFID
 type: docs
 weight: 10430
 url: /zh/net/aspose.email.mapi/knownpropertylist/folderid/
 ---
 ## KnownPropertyList.FolderId field
 
-包含文件夹的文件夹 ID (FID)（[MS-OXCDATA] 第 2.2.1.1 节）。 区域:ID 属性 规范名称:PidTagFolderId 替代名称:ptagFID
+包含文件夹的文件夹 ID (FID)（[MS-OXCDATA] 第 2.2.1.1 节）。 区域：ID Properties 规范名称：PidTagFolderId 备用名称：ptagFID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderId;

@@ -1,14 +1,14 @@
 ---
 title: AddressBookReports
 second_title: Aspose.Email for .NET API 参考
-description: 列出所有邮件用户的直接下属 区域地址簿 规范名称PidTagAddressBookReports 替代名称PR_EMS_AB_REPORTSPR_EMS_AB_REPORTS_APR_EMS_AB_REPORTS_W
+description: 列出所有邮件用户的直接报告 区域地址簿 规范名称PidTagAddressBookReports 备用名称PR_EMS_AB_REPORTSPR_EMS_AB_REPORTS_APR_EMS_AB_REPORTS_W
 type: docs
 weight: 920
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookreports/
 ---
 ## KnownPropertyList.AddressBookReports field
 
-列出所有邮件用户的直接下属。 区域:地址簿 规范名称:PidTagAddressBookReports 替代名称:PR_EMS_AB_REPORTS、PR_EMS_AB_REPORTS_A、PR_EMS_AB_REPORTS_W
+列出所有邮件用户的直接报告。 区域：地址簿 规范名称：PidTagAddressBookReports 备用名称：PR_EMS_AB_REPORTS、PR_EMS_AB_REPORTS_A、PR_EMS_AB_REPORTS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookReports;

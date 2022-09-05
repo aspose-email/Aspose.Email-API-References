@@ -16,8 +16,8 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery q
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| папка | String | Папка задач |
-| maxNumberOfItems | Int32 | Максимальное количество элементов |
+| folder | String | Папка задач |
+| maxNumberOfItems | Int32 | Максимальное количество предметов |
 | query | MailQuery | Почтовый запрос |
 
 ### Возвращаемое значение
@@ -45,10 +45,10 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery q
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| папка | String | Папка задач |
-| maxNumberOfItems | Int32 | Максимальное количество элементов |
+| folder | String | Папка задач |
+| maxNumberOfItems | Int32 | Максимальное количество предметов |
 | query | MailQuery | Почтовый запрос |
-| recursive | Boolean | Рекурсивное получение задач |
+| recursive | Boolean | Получать задачи рекурсивно |
 
 ### Возвращаемое значение
 
@@ -120,7 +120,7 @@ public TaskCollection ListTasks(string folder, MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| папка | String | Папка задач |
+| folder | String | Папка задач |
 | query | MailQuery | Почтовый запрос |
 
 ### Возвращаемое значение
@@ -147,8 +147,8 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| папка | String | Папка задач |
-| maxNumberOfItems | Int32 | Максимальное количество элементов |
+| folder | String | Папка задач |
+| maxNumberOfItems | Int32 | Максимальное количество предметов |
 
 ### Возвращаемое значение
 

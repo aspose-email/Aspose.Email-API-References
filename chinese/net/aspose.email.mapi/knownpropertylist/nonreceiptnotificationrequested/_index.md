@@ -1,14 +1,14 @@
 ---
 title: NonReceiptNotificationRequested
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是否发送未读回执 区域电子邮件 规范名称PidTagNonReceiptNotificationRequested 替代名称PR_NON_RECEIPT_NOTIFICATION_REQUESTED
+description: 指定客户端是否发送未读回执 区域Email 规范名称PidTagNonReceiptNotificationRequested 替代名称PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 type: docs
 weight: 12990
 url: /zh/net/aspose.email.mapi/knownpropertylist/nonreceiptnotificationrequested/
 ---
 ## KnownPropertyList.NonReceiptNotificationRequested field
 
-指定客户端是否发送未读回执。 区域:电子邮件 规范名称:PidTagNonReceiptNotificationRequested 替代名称:PR_NON_RECEIPT_NOTIFICATION_REQUESTED
+指定客户端是否发送未读回执。 区域：Email 规范名称：PidTagNonReceiptNotificationRequested 替代名称：PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonReceiptNotificationRequested;

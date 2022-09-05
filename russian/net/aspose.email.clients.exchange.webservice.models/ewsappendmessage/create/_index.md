@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздаетEwsAppendMessageнабор параметров метода.
+description: СоздаетAppendMessagesAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync набор параметров метода.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/create/
 ---
 ## EwsAppendMessage.Create method
 
-СоздаетEwsAppendMessageнабор параметров метода.
+Создает[`AppendMessagesAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) набор параметров метода.
 
 ```csharp
 public static EwsAppendMessage Create()

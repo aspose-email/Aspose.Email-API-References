@@ -1,14 +1,14 @@
 ---
 title: Heigths
 second_title: Справочник по Aspose.Email для .NET API
-description: Значение этого атрибута представляет собой выражение размеров основанное на выражениях мультимедиа.
+description: Значением этого атрибута является выражение размеров основанное на выражениях мультимедиа.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.amp/ampattributes/heigths/
 ---
 ## AmpAttributes.Heigths property
 
-Значение этого атрибута представляет собой выражение размеров, основанное на выражениях мультимедиа.
+Значением этого атрибута является выражение размеров, основанное на выражениях мультимедиа.
 
 ```csharp
 public string Heigths { get; set; }

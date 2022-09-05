@@ -20,14 +20,14 @@ public Contact[] GetContactsFromGroup(string groupId)
 
 ### Возвращаемое значение
 
-Контакты массив
+Массив контактов
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *groupId*is` null` или` пусто` . |
-| WebException | при сбое операции |
+| ArgumentNullException | *groupId* является`нулевой`или же`пустой`. |
+| WebException | когда операция не удалась |
 
 ### Смотрите также
 

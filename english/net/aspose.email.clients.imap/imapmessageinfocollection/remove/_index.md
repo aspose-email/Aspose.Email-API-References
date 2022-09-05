@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Remove specifed ImapMessageInfo object from this collection.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/remove/

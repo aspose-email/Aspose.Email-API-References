@@ -16,8 +16,8 @@ public MoveItemResponse MoveItem(string srcMsgId, string srcFldId, string dstFld
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| srcMsgId | String | 指定被移动项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。 |
-| srcFldId | String | 指定源文件夹（即包含项目的文件夹）的服务器 ID被移动）。 SrcFldId 元素值最长可达 64 个字符 |
+| srcMsgId | String | 指定已移动项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。 |
+| srcFldId | String | 指定源文件夹（即包含要移动的项目的文件夹）的服务器 ID。 SrcFldId 元素值的长度最长为 64 个字符 |
 | dstFldId | String | 指定目标文件夹（即项目移动到的文件夹）的服务器 ID。 DstFldId 属性值最长可达 64 个字符。 |
 
 ### 返回值

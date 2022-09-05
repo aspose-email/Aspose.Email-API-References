@@ -1,14 +1,14 @@
 ---
 title: DebugAppender
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаDebugAppenderaspose.email.tools.logging/debugappender.
+description: Инициализирует новый экземплярDebugAppenderaspose.email.tools.logging/debugappender класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.logging/debugappender/debugappender/
 ---
 ## DebugAppender constructor
 
-Инициализирует новый экземпляр класса[`DebugAppender`](../../debugappender).
+Инициализирует новый экземпляр[`DebugAppender`](../../debugappender) класс.
 
 ```csharp
 public DebugAppender()

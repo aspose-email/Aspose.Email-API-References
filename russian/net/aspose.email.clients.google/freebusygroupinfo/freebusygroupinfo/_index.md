@@ -33,7 +33,7 @@ public FreebusyGroupInfo(string groupId, IEnumerable<ErrorDetails> errors)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | groupId | String | Идентификатор группы |
-| errors | IEnumerable`1 | Дополнительные ошибки (если вычисление для группы не удалось). |
+| errors | IEnumerable`1 | Необязательная(ые) ошибка(и) (если вычисление для группы не удалось). |
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public FreebusyGroupInfo(string groupId, IEnumerable<string> calendars)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | groupId | String | Идентификатор группы |
-| calendars | IEnumerable`1 | Список идентификаторов календарей внутри группы. |
+| calendars | IEnumerable`1 | Список идентификаторов календарей в группе. |
 
 ### Смотрите также
 
@@ -77,8 +77,8 @@ public FreebusyGroupInfo(string groupId, IEnumerable<ErrorDetails> errors,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | groupId | String | Идентификатор группы |
-| errors | IEnumerable`1 | Дополнительные ошибки (если вычисление для группы не удалось). |
-| calendars | IEnumerable`1 | Список идентификаторов календарей внутри группы. |
+| errors | IEnumerable`1 | Необязательная(ые) ошибка(и) (если вычисление для группы не удалось). |
+| calendars | IEnumerable`1 | Список идентификаторов календарей в группе. |
 
 ### Смотрите также
 

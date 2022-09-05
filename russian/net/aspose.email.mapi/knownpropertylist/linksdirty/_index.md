@@ -1,14 +1,14 @@
 ---
 title: LinksDirty
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает актуальны ли ссылки в документе. ОбластьОбщие Каноническое имяPidNameLinksDirty Альтернативные именаurnschemas-microsoft-comofficeofficeLinksUpToDate
+description: Указывает являются ли ссылки в документе актуальными. Область Common Каноническое имя PidNameLinksDirty Альтернативные имена urnschemas-microsoft-comofficeofficeLinksUpToDate
 type: docs
 weight: 12110
 url: /ru/net/aspose.email.mapi/knownpropertylist/linksdirty/
 ---
 ## KnownPropertyList.LinksDirty field
 
-Указывает, актуальны ли ссылки в документе. Область:Общие Каноническое имя:PidNameLinksDirty Альтернативные имена:urn:schemas-microsoft-com:office:office#LinksUpToDate
+Указывает, являются ли ссылки в документе актуальными. Область: Common Каноническое имя: PidNameLinksDirty Альтернативные имена: urn:schemas-microsoft-com:office:office#LinksUpToDate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LinksDirty;

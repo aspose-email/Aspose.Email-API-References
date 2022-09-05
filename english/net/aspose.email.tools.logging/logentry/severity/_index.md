@@ -1,7 +1,7 @@
 ---
 title: Severity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Log entry severity as a Severityaspose.email.tools.logging/logentry/severity enumeration. Unspecified Information Warning or Error.
 type: docs
 weight: 130
 url: /net/aspose.email.tools.logging/logentry/severity/

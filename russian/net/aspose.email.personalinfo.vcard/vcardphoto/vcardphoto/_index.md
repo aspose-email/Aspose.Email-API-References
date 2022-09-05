@@ -1,14 +1,14 @@
 ---
 title: VCardPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardPhotoaspose.email.personalinfo.vcard/vcardphotoclass
+description: Инициализирует новый экземплярVCardPhotoaspose.email.personalinfo.vcard/vcardphoto класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardphoto/vcardphoto/
 ---
 ## VCardPhoto constructor
 
-Инициализирует новый экземпляр класса[`VCardPhoto`](../../vcardphoto)class
+Инициализирует новый экземпляр[`VCardPhoto`](../../vcardphoto) класс
 
 ```csharp
 public VCardPhoto()

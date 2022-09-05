@@ -1,14 +1,14 @@
 ---
 title: Bcc
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает получателей скрытой копии
+description: Получает получателей BCC
 type: docs
 weight: 20
 url: /ru/net/aspose.email/imessage/bcc/
 ---
 ## IMessage.Bcc property
 
-Получает получателей скрытой копии
+Получает получателей BCC
 
 ```csharp
 public ICollection<MailAddress> Bcc { get; }

@@ -1,7 +1,7 @@
 ---
 title: SkipAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Do not fetch attachment contents.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/skipattachments/

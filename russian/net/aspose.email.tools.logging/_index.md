@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Logging
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Tools.Logging содержит классы представляющие функциональность ведения журналов.
+description: Aspose.Email.Tools.Logging namespace содержит классы представляющие функциональность ведения журнала.
 type: docs
 weight: 440
 url: /ru/net/aspose.email.tools.logging/
 ---
-Пространство имен **Aspose.Email.Tools.Logging** содержит классы, представляющие функциональность ведения журналов.
+**Aspose.Email.Tools.Logging** namespace содержит классы, представляющие функциональность ведения журнала.
 
 ## Классы
 
@@ -14,17 +14,17 @@ url: /ru/net/aspose.email.tools.logging/
 | --- | --- |
 | [Appender](./appender) | Представляет базовый класс для Appender. |
 | [AppenderCollection](./appendercollection) | Представляет коллекцию для объектов Appender. |
-| [ConsoleAppender](./consoleappender) | Представляет приложение для вывода на консоль. |
-| [DebugAppender](./debugappender) | Представляет, что добавление включено только при отладке. |
+| [ConsoleAppender](./consoleappender) | Представляет приложение для вывода консоли. |
+| [DebugAppender](./debugappender) | Представляет, что приложение включено только при отладке. |
 | [DebugFormatter](./debugformatter) | Представляет класс для форматирования сообщений записей журнала. |
-| [FileAppender](./fileappender) | Представляет добавление файла. |
+| [FileAppender](./fileappender) | Представляет файл appender. |
 | [Formatter](./formatter) | Представляет интерфейс для форматирования сообщений журнала. |
 | [LogEntry](./logentry) | Представляет сообщение журнала. Содержит общие свойства, необходимые для всех сообщений журнала. |
 | [Logger](./logger) | Обеспечивает ведение журнала. |
 | [LoggerManager](./loggermanager) | Статический менеджер, управляющий созданием логгеров. |
 | [LoggingException](./loggingexception) | Исключение, возникающее при обнаружении ошибки в журнале. |
 | [LogLevel](./loglevel) | Определяет доступные уровни журнала. |
-| [NullAppender](./nullappender) | Представляет ничего не делающий присоединитель. |
+| [NullAppender](./nullappender) | Представляет приложение-дополнитель. |
 | [SimpleFormatter](./simpleformatter) | Представляет реализацию интерфейса IFormatter по умолчанию. |
 | [StandardFormatter](./standardformatter) | Представляет класс для форматирования сообщений журнала. |
 ## Интерфейсы

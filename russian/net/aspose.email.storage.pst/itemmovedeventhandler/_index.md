@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет метод который будет обрабатывать событиеItemMoved./folderinfo/itemmoved.
+description: Представляет метод который будет обрабатыватьItemMoved./folderinfo/itemmoved событие.
 type: docs
-weight: 20150
+weight: 20200
 url: /ru/net/aspose.email.storage.pst/itemmovedeventhandler/
 ---
 ## ItemMovedEventHandler delegate
 
-Представляет метод, который будет обрабатывать событие[`ItemMoved`](../folderinfo/itemmoved).
+Представляет метод, который будет обрабатывать[`ItemMoved`](../folderinfo/itemmoved) событие.
 
 ```csharp
 public delegate void ItemMovedEventHandler(object sender, ItemMovedEventArgs e);

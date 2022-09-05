@@ -1,14 +1,14 @@
 ---
 title: EmsAbAdmd
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_ADMD
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_ADMD
 type: docs
 weight: 4550
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabadmd/
 ---
 ## KnownPropertyList.EmsAbAdmd field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_ADMD
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_ADMD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAdmd;

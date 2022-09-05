@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the failure type.
 type: docs
 weight: 20
 url: /net/aspose.email.exceptions/traversalfailurekind/type/

@@ -1,14 +1,14 @@
 ---
 title: ContactFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Корень почтовых папок
+description: Почтовые папки root
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.graph/knownfolders/contactfolders/
 ---
 ## KnownFolders.ContactFolders field
 
-Корень почтовых папок
+Почтовые папки root
 
 ```csharp
 public static readonly string ContactFolders;

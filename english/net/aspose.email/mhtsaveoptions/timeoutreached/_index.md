@@ -1,7 +1,7 @@
 ---
 title: TimeoutReached
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Raised if timed out while saving to Mhtml.
 type: docs
 weight: 90
 url: /net/aspose.email/mhtsaveoptions/timeoutreached/

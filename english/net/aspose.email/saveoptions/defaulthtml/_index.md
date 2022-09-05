@@ -1,7 +1,7 @@
 ---
 title: DefaultHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets options with default values for saving message to Html format.
 type: docs
 weight: 50
 url: /net/aspose.email/saveoptions/defaulthtml/

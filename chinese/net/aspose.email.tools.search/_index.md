@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Search
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Tools.Search 命名空间包含表示按条件搜索消息的基类
+description: 的 Aspose.Email.Tools.Search命名空间包含表示按条件搜索消息的基类
 type: docs
 weight: 460
 url: /zh/net/aspose.email.tools.search/
 ---
-**Aspose.Email.Tools.Search** 命名空间包含表示按条件搜索消息的基类。
+的 **Aspose.Email.Tools.Search**命名空间包含表示按条件搜索消息的基类。
 
 ## 课程
 
@@ -14,7 +14,7 @@ url: /zh/net/aspose.email.tools.search/
 | --- | --- |
 | [BinaryComparisonField](./binarycomparisonfield) | 表示二分查找字段。 |
 | [BoolComparisonField](./boolcomparisonfield) | 表示布尔搜索字段。 |
-| [ComparisonField](./comparisonfield) | 表示一个搜索字段的基类。 |
+| [ComparisonField](./comparisonfield) | 代表一个搜索字段的基类。 |
 | [DateComparisonField](./datecomparisonfield) | 表示日期搜索字段。 |
 | [DoubleComparisonField](./doublecomparisonfield) | 表示双重搜索字段。 |
 | [EnumComparisonField](./enumcomparisonfield) | 表示枚举搜索字段。 |

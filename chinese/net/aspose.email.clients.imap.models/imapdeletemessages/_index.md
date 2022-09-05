@@ -1,14 +1,14 @@
 ---
 title: ImapDeleteMessages
 second_title: Aspose.Email for .NET API 参考
-description: DeleteMessagesAsync../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync参数集
+description: DeleteMessagesAsync../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync参数集.
 type: docs
 weight: 16560
 url: /zh/net/aspose.email.clients.imap.models/imapdeletemessages/
 ---
 ## ImapDeleteMessages class
 
-[`DeleteMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync)参数集。
+[`DeleteMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync)参数集.
 
 ```csharp
 public class ImapDeleteMessages : ImapMessageSet<ImapDeleteMessages>
@@ -18,7 +18,7 @@ public class ImapDeleteMessages : ImapMessageSet<ImapDeleteMessages>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapdeletemessages/create)() | 创建[`ImapDeleteMessages`](../imapdeletemessages)实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapdeletemessages/create)() | 创建[`ImapDeleteMessages`](../imapdeletemessages)实例. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetCommitNow](../../aspose.email.clients.imap.models/imapdeletemessages/setcommitnow)(bool) | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |

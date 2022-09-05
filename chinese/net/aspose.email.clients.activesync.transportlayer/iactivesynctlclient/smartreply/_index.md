@@ -1,14 +1,14 @@
 ---
 title: SmartReply
 second_title: Aspose.Email for .NET API 参考
-description: SmartReply 命令被客户端用来回复消息而无需从服务器检索完整的原始消息
+description: 客户端使用 SmartReply 命令回复消息而无需从服务器检索完整的原始消息
 type: docs
 weight: 230
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/smartreply/
 ---
 ## IActiveSyncTLClient.SmartReply method
 
-SmartReply 命令被客户端用来回复消息，而无需从服务器检索完整的原始消息。
+客户端使用 SmartReply 命令回复消息，而无需从服务器检索完整的原始消息。
 
 ```csharp
 public void SmartReply(SmartRequest request)

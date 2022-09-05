@@ -16,7 +16,7 @@ public MapiCalendarState MeetingType { get; set; }
 
 ### Стоимость имущества
 
-Тип собрания.
+Тип встречи.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ItemOperationsMoveResponce
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует тело ответа как содержащее операцию перемещающую данный диалог.
+description: Идентифицирует тело ответа как содержащее операцию которая перемещает данный диалог.
 type: docs
 weight: 1450
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/
 ---
 ## ItemOperationsMoveResponce class
 
-Идентифицирует тело ответа как содержащее операцию, перемещающую данный диалог.
+Идентифицирует тело ответа как содержащее операцию, которая перемещает данный диалог.
 
 ```csharp
 public class ItemOperationsMoveResponce
@@ -24,7 +24,7 @@ public class ItemOperationsMoveResponce
 
 | Имя | Описание |
 | --- | --- |
-| [ConversationId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid) { get; set; } | Указывает диалог, который необходимо переместить. |
+| [ConversationId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid) { get; set; } | Указывает разговор, который необходимо переместить. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/status) { get; set; } | Содержит код и описание, указывающее на успех или неудачу операции ItemOperations |
 
 ### Смотрите также

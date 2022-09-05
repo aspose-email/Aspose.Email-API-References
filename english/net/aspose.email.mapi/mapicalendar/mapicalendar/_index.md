@@ -1,12 +1,12 @@
 ---
 title: MapiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiCalendaraspose.email.mapi/mapicalendar class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendar/mapicalendar/
 ---
-## MapiCalendar constructor (1 of 4)
+## MapiCalendar() {#constructor}
 
 Initializes a new instance of the [`MapiCalendar`](../../mapicalendar) class
 
@@ -22,7 +22,7 @@ public MapiCalendar()
 
 ---
 
-## MapiCalendar constructor (2 of 4)
+## MapiCalendar(string, string, string, DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the [`MapiCalendar`](../../mapicalendar) class.
 
@@ -47,7 +47,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ---
 
-## MapiCalendar constructor (3 of 4)
+## MapiCalendar(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) {#constructor_3}
 
 Initializes a new instance of the [`MapiCalendar`](../../mapicalendar) class.
 
@@ -75,7 +75,7 @@ public MapiCalendar(string location, string summary, string description, DateTim
 
 ---
 
-## MapiCalendar constructor (4 of 4)
+## MapiCalendar(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) {#constructor_2}
 
 Initializes a new instance of the [`MapiCalendar`](../../mapicalendar) class.
 

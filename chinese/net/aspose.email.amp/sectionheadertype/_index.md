@@ -24,7 +24,7 @@ public enum SectionHeaderType
 | h4 | `3` | 标题元素 h4 |
 | h5 | `4` | 标题元素 h5 |
 | h6 | `5` | 标题元素 h6 |
-| header | `6` | 标题元素标题 |
+| header | `6` | 标题元素 header |
 
 ### 也可以看看
 

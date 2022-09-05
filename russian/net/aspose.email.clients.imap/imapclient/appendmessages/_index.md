@@ -17,8 +17,8 @@ public AppendMessagesResult AppendMessages(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | Перечисление электронной почты сообщения для загрузки |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
@@ -46,9 +46,9 @@ public AppendMessagesResult AppendMessages(IConnection connection, string folder
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка, в которую будет поступать почтовое сообщение |
-| messages | IEnumerable`1 | Перечисление сообщений электронной почты для быть загруженным |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
@@ -75,7 +75,7 @@ public AppendMessagesResult AppendMessages(IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | Перечень сообщений электронной почты для загрузки |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
@@ -101,12 +101,12 @@ public AppendMessagesResult AppendMessages(string folderName, IEnumerable<MailMe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит сообщение электронной почты |
-| messages | IEnumerable`1 | Перечень сообщений электронной почты для загрузки |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
+| messages | IEnumerable`1 | Перечисление сообщений электронной почты для загрузки |
 
 ### Возвращаемое значение
 
-Уникальный идентификатор добавленное сообщение
+Уникальный идентификатор добавленного сообщения
 
 ### Смотрите также
 

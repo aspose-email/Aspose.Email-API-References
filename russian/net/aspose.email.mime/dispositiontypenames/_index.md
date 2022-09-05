@@ -1,14 +1,14 @@
 ---
 title: DispositionTypeNames
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет имена типов расположения.
+description: Представляет имена типов размещения.
 type: docs
-weight: 19120
+weight: 19150
 url: /ru/net/aspose.email.mime/dispositiontypenames/
 ---
 ## DispositionTypeNames class
 
-Представляет имена типов расположения.
+Представляет имена типов размещения.
 
 ```csharp
 public static class DispositionTypeNames
@@ -19,7 +19,7 @@ public static class DispositionTypeNames
 | Имя | Описание |
 | --- | --- |
 | const [Attachment](../../aspose.email.mime/dispositiontypenames/attachment) | Имя для типа размещения вложения. |
-| const [Inline](../../aspose.email.mime/dispositiontypenames/inline) | Имя встроенного типа размещения. |
+| const [Inline](../../aspose.email.mime/dispositiontypenames/inline) | Имя встроенного типа расположения. |
 
 ### Смотрите также
 

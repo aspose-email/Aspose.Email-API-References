@@ -1,7 +1,7 @@
 ---
 title: RequestedServerVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the requested server version.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/requestedserverversion/

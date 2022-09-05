@@ -1,12 +1,12 @@
 ---
 title: FreebusyGroupInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FreebusyGroupInfo class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/freebusygroupinfo/freebusygroupinfo/
 ---
-## FreebusyGroupInfo constructor (1 of 4)
+## FreebusyGroupInfo() {#constructor}
 
 Initializes a new instance of the FreebusyGroupInfo class.
 
@@ -22,7 +22,7 @@ public FreebusyGroupInfo()
 
 ---
 
-## FreebusyGroupInfo constructor (2 of 4)
+## FreebusyGroupInfo(string, IEnumerable&lt;ErrorDetails&gt;) {#constructor_1}
 
 Initializes a new instance of the FreebusyGroupInfo class.
 
@@ -44,7 +44,7 @@ public FreebusyGroupInfo(string groupId, IEnumerable<ErrorDetails> errors)
 
 ---
 
-## FreebusyGroupInfo constructor (3 of 4)
+## FreebusyGroupInfo(string, IEnumerable&lt;string&gt;) {#constructor_3}
 
 Initializes a new instance of the FreebusyGroupInfo class.
 
@@ -65,7 +65,7 @@ public FreebusyGroupInfo(string groupId, IEnumerable<string> calendars)
 
 ---
 
-## FreebusyGroupInfo constructor (4 of 4)
+## FreebusyGroupInfo(string, IEnumerable&lt;ErrorDetails&gt;, IEnumerable&lt;string&gt;) {#constructor_2}
 
 Initializes a new instance of the FreebusyGroupInfo class.
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveNonexistentItems
 second_title: Aspose.Email for .NET API 参考
-description: 表示应删除个人存储中没有相等项目的邮件项目
+description: 表示应该删除个人存储中不相等的邮件项目
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.imap/restoresettings/removenonexistentitems/
 ---
 ## RestoreSettings.RemoveNonexistentItems property
 
-表示应删除个人存储中没有相等项目的邮件项目
+表示应该删除个人存储中不相等的邮件项目
 
 ```csharp
 public bool RemoveNonexistentItems { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Supersedes
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SUPERSEDES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SUPERSEDES
 type: docs
 weight: 18390
 url: /ru/net/aspose.email.mapi/knownpropertylist/supersedes/
 ---
 ## KnownPropertyList.Supersedes field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SUPERSEDES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SUPERSEDES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Supersedes;

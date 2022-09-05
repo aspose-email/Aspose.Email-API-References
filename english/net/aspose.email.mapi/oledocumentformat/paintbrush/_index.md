@@ -1,7 +1,7 @@
 ---
 title: Paintbrush
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Paintbrush type.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/oledocumentformat/paintbrush/

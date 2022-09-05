@@ -1,7 +1,7 @@
 ---
 title: Bcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Bcc header.
 type: docs
 weight: 20
 url: /net/aspose.email/mhttemplatename/bcc/

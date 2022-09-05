@@ -1,7 +1,7 @@
 ---
 title: TasksFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Tasks folder.
 type: docs
 weight: 340
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/tasksfolderservernotifications/

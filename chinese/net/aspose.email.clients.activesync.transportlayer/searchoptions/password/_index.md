@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API 参考
-description: 指定给定用户名的密码 Password 值的最大长度为 100 个字符
+description: 指定给定用户名的密码 密码的最大长度为 100 个字符
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activesync.transportlayer/searchoptions/password/
 ---
 ## SearchOptions.Password property
 
-指定给定用户名的密码。 Password 值的最大长度为 100 个字符。
+指定给定用户名的密码。 密码的最大长度为 100 个字符。
 
 ```csharp
 public string Password { get; set; }

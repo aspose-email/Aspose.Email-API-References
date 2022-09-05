@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Olm
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Storage.Olm содержит классы для работы с форматом файлов Microsoft Outlook OLM .
+description: Aspose.Email.Storage.Olm namespace содержит классы для работы с файловым форматом Microsoft Outlook OLM.
 type: docs
 weight: 400
 url: /ru/net/aspose.email.storage.olm/
 ---
-Пространство имен **Aspose.Email.Storage.Olm** содержит классы для работы с форматом файлов Microsoft Outlook OLM .
+**Aspose.Email.Storage.Olm** namespace содержит классы для работы с файловым форматом Microsoft Outlook OLM.
 
 ## Классы
 

@@ -1,7 +1,7 @@
 ---
 title: GlobalFlagStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the aggregated flag status for all conversation items in a mailbox.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalflagstatus/

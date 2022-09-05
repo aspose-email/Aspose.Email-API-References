@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/businesstelephonenumber/
 ---
 ## KnownPropertyList.BusinessTelephoneNumber field
 
-包含邮件用户营业地点的主要电话号码。 区域:联系人属性 规范名称:PidTagBusinessTelephoneNumber 别名:PR_BUSINESS_TELEPHONE_NUMBER，PR_BUSINESS_TELEPHONE_NUMBER_A，PR_BUSINESS_TELEPHONE_NUMBER_W，PR_OFFICE_TELEPHONE_NUMBER，
+包含邮件用户营业地点的主要电话号码。 区域：联系人属性 规范名称：PidTagBusinessTelephoneNumber 别名：PR_BUSINESS_TELEPHONE_NUMBER、PR_BUSINESS_TELEPHONE_NUMBER_A、PR_BUSINESS_TELEPHONE_NUMBER_W、PR_OFFICE_TELEPHONE_NUMBER、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BusinessTelephoneNumber;

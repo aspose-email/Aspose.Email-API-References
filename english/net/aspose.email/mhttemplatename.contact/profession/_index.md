@@ -1,7 +1,7 @@
 ---
 title: Profession
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Profession header.
 type: docs
 weight: 270
 url: /net/aspose.email/mhttemplatename.contact/profession/

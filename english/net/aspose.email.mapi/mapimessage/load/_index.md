@@ -1,12 +1,12 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads message from file.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessage/load/
 ---
-## MapiMessage.Load method (1 of 4)
+## Load(string) {#load_2}
 
 Loads message from file.
 
@@ -34,7 +34,7 @@ public static MapiMessage Load(string fileName)
 
 ---
 
-## MapiMessage.Load method (2 of 4)
+## Load(Stream) {#load}
 
 Loads message from stream.
 
@@ -62,7 +62,7 @@ public static MapiMessage Load(Stream stream)
 
 ---
 
-## MapiMessage.Load method (3 of 4)
+## Load(Stream, LoadOptions) {#load_1}
 
 Loads message from stream with additional options.
 
@@ -92,7 +92,7 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 
 ---
 
-## MapiMessage.Load method (4 of 4)
+## Load(string, LoadOptions) {#load_3}
 
 Loads message from file with additional options.
 

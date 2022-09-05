@@ -3,7 +3,7 @@ title: DateComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет поле поиска по дате.
 type: docs
-weight: 20630
+weight: 20680
 url: /ru/net/aspose.email.tools.search/datecomparisonfield/
 ---
 ## DateComparisonField class
@@ -20,8 +20,8 @@ public sealed class DateComparisonField : ComparisonField
 | --- | --- |
 | [Before](../../aspose.email.tools.search/datecomparisonfield/before#before)(DateTime) | Указывает, что дата в сообщении должна быть раньше указанной даты. |
 | [Before](../../aspose.email.tools.search/datecomparisonfield/before#before_1)(DateTime, DateComparisonType) | Указывает, что дата в сообщении должна быть раньше указанной даты. |
-| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal)(DateTime) | Указывает, что дата в сообщении должна быть раньше или равна указанной дате. |
-| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal_1)(DateTime, DateComparisonType) | Указывает, что дата в сообщении должна быть раньше или равна указанной дате. |
+| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal)(DateTime) | Указывает, что дата в сообщении должна быть более ранней или равной указанной дате. |
+| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal_1)(DateTime, DateComparisonType) | Указывает, что дата в сообщении должна быть более ранней или равной указанной дате. |
 | [Greater](../../aspose.email.tools.search/datecomparisonfield/greater#greater)(DateTime) | Указывает, что дата в сообщении должна быть позже указанной даты. |
 | [Greater](../../aspose.email.tools.search/datecomparisonfield/greater#greater_1)(DateTime, DateComparisonType) | Указывает, что дата в сообщении должна быть позже указанной даты. |
 | [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton#noton)(DateTime) | Указывает, что дата в сообщении не должна совпадать с указанной датой. |

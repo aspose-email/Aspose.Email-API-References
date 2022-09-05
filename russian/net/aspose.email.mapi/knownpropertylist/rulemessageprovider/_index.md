@@ -1,14 +1,14 @@
 ---
 title: RuleMessageProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует клиентское приложение которому принадлежит правило. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageProvider Альтернативные именаptagRuleMsgProvider
+description: Идентифицирует клиентское приложение которому принадлежит правило. Установите в сообщении FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageProvider Альтернативные имена ptagRuleMsgProvider
 type: docs
 weight: 16540
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessageprovider/
 ---
 ## KnownPropertyList.RuleMessageProvider field
 
-Идентифицирует клиентское приложение, которому принадлежит правило. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageProvider Альтернативные имена:ptagRuleMsgProvider
+Идентифицирует клиентское приложение, которому принадлежит правило. Установите в сообщении FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageProvider Альтернативные имена: ptagRuleMsgProvider
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageProvider;

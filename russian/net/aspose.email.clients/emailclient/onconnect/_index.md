@@ -1,14 +1,14 @@
 ---
 title: OnConnect
 second_title: Справочник по Aspose.Email для .NET API
-description: Событие OnConnect происходит когда клиент устанавливает соединение.
+description: Событие OnConnect возникает когда клиент устанавливает соединение.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.clients/emailclient/onconnect/
 ---
 ## EmailClient.OnConnect event
 
-Событие OnConnect происходит, когда клиент устанавливает соединение.
+Событие OnConnect возникает, когда клиент устанавливает соединение.
 
 ```csharp
 public event EventHandler OnConnect;

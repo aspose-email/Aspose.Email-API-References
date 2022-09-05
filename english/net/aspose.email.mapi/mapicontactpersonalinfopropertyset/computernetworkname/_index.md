@@ -1,7 +1,7 @@
 ---
 title: ComputerNetworkName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the network to which the contacts computer is connected
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname/

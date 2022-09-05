@@ -3,7 +3,7 @@ title: BoolComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示布尔搜索字段
 type: docs
-weight: 20610
+weight: 20660
 url: /zh/net/aspose.email.tools.search/boolcomparisonfield/
 ---
 ## BoolComparisonField class
@@ -19,7 +19,7 @@ public sealed class BoolComparisonField : ComparisonField
 | 姓名 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/boolcomparisonfield/equals#equals)(bool) | 表示该字段必须是 等于指定值。 |
-| [NotEquals](../../aspose.email.tools.search/boolcomparisonfield/notequals)(bool) | 表示该字段不能是 等于指定值。 |
+| [NotEquals](../../aspose.email.tools.search/boolcomparisonfield/notequals)(bool) | 表示该字段不能 等于指定值。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 
 ### 也可以看看

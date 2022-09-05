@@ -1,14 +1,14 @@
 ---
 title: ResolveContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечаниемаксимальное количество возвращенных контактов равно 100. Это ограничение используемой команды обмена.
+description: Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание максимальное количество возвращаемых контактов равно 100. Это ограничение используемой команды обмена.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.clients.exchange.dav/exchangeclient/resolvecontacts/
 ---
 ## ExchangeClient.ResolveContacts method
 
-Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание:максимальное количество возвращенных контактов равно 100. Это ограничение используемой команды обмена.
+Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание: максимальное количество возвращаемых контактов равно 100. Это ограничение используемой команды обмена.
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry)
@@ -20,7 +20,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ### Возвращаемое значение
 
-Массив объектов[`Contact`](../../../aspose.email.personalinfo/contact).
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) объекты.
 
 ### Смотрите также
 

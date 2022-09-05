@@ -1,14 +1,14 @@
 ---
 title: CustomValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Пользовательский
+description: Строковое значение для категории Пользовательская
 type: docs
 weight: 250
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/customvalue/
 ---
 ## AssociatedPersonCategory.CustomValue field
 
-Строковое значение для категории "Пользовательский"
+Строковое значение для категории «Пользовательская»
 
 ```csharp
 public const string CustomValue;

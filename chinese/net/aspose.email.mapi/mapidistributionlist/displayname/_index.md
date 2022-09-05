@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置个人分发列表的用户可见名称
+description: 获取或设置个人通讯组列表的用户可见名称
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapidistributionlist/displayname/
 ---
 ## MapiDistributionList.DisplayName property
 
-获取或设置个人分发列表的用户可见名称。
+获取或设置个人通讯组列表的用户可见名称。
 
 ```csharp
 public string DisplayName { get; set; }

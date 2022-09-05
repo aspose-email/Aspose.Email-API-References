@@ -21,7 +21,7 @@ public enum ResourceType
 | NotSpecified | `0` | 未指定 |
 | Me | `0` | 表示当前签名用户的 Azure AD 用户帐户。 默认使用此资源。 |
 | Users | `1` | 表示 Azure AD 用户帐户。 |
-| Groups | `2` | 表示 Azure Active Directory (Azure AD) 组，可以是 Office 365 组或安全组。 |
+| Groups | `2` | 表示 Azure Active Directory (Azure AD) 组，可以是 Office 365 组，也可以是安全组。 |
 
 ### 也可以看看
 

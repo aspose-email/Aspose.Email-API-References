@@ -1,9 +1,9 @@
 ---
 title: IAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a common attachment interface
 type: docs
-weight: 17400
+weight: 17570
 url: /net/aspose.email/iattachment/
 ---
 ## IAttachment interface
@@ -24,8 +24,8 @@ public interface IAttachment
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.email/iattachment/save)(Stream) | Saves an attachment to stream |
-| [Save](../../aspose.email/iattachment/save)(string) | Saves attachment to file |
+| [Save](../../aspose.email/iattachment/save#save)(Stream) | Saves an attachment to stream |
+| [Save](../../aspose.email/iattachment/save#save_1)(string) | Saves attachment to file |
 
 ### See Also
 

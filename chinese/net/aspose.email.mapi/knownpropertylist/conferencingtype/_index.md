@@ -1,14 +1,14 @@
 ---
 title: ConferencingType
 second_title: Aspose.Email for .NET API 参考
-description: 指定会议类型 区域会议 规范名称PidLidConferencingType 替代名称dispidConfType
+description: 指定会议类型 区域Conferencing 规范名称PidLidConferencingType 备用名称dispidConfType
 type: docs
 weight: 2870
 url: /zh/net/aspose.email.mapi/knownpropertylist/conferencingtype/
 ---
 ## KnownPropertyList.ConferencingType field
 
-指定会议类型。 区域:会议 规范名称:PidLidConferencingType 替代名称:dispidConfType
+指定会议类型。 区域：Conferencing 规范名称：PidLidConferencingType 备用名称：dispidConfType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConferencingType;

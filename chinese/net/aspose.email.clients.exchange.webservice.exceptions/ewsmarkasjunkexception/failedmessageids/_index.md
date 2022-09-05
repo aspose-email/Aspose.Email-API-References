@@ -1,14 +1,14 @@
 ---
 title: FailedMessageIds
 second_title: Aspose.Email for .NET API 参考
-description: 尚未移动到垃圾邮件文件夹的消息 ID 数组
+description: 尚未移动到垃圾邮件文件夹的邮件 ID 数组
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/failedmessageids/
 ---
 ## EwsMarkAsJunkException.FailedMessageIds property
 
-尚未移动到垃圾邮件文件夹的消息 ID 数组。
+尚未移动到垃圾邮件文件夹的邮件 ID 数组。
 
 ```csharp
 public IEnumerable<string> FailedMessageIds { get; }

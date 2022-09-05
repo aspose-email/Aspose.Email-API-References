@@ -1,9 +1,9 @@
 ---
 title: MapiMessageItemBase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
 type: docs
-weight: 18270
+weight: 18480
 url: /net/aspose.email.mapi/mapimessageitembase/
 ---
 ## MapiMessageItemBase class
@@ -56,12 +56,12 @@ public abstract class MapiMessageItemBase : MapiPropertyContainer, IDisposable, 
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
-| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType) | Sets the content of the body. |
-| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType, bool) | Sets the content of the body. |
+| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent#setbodycontent)(string, BodyContentType) | Sets the content of the body. |
+| virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent#setbodycontent_1)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf)(string, bool) | Gets or sets the RTF formatted message text. |
 | [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags)(MapiMessageFlags) | Sets the message flags. |
 | virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty)(MapiProperty) | Sets the property. |
-| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty)(PropertyDescriptor, object) | Sets MAPI property. |
+| override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty#setproperty_1)(PropertyDescriptor, object) | Sets MAPI property. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | Try to get the property data with specified tag key. |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded. |

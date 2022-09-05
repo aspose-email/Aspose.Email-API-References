@@ -1,7 +1,7 @@
 ---
 title: KIND
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of the resource calendarfreeBusy.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.google/freebusyresponse/kind/

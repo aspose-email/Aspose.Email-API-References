@@ -1,14 +1,14 @@
 ---
 title: ContactItemData
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает видимые поля в пользовательском интерфейсе приложения которые используются для отображения контактной информации. ОбластьСвойства контакта Каноническое имяPidLidContactItemData Альтернативные именаdispidContactItemData
+description: Определяет видимые поля в пользовательском интерфейсе приложения которые используются для отображения контактной информации. Область Свойства контакта Каноническое имя PidLidContactItemData Альтернативные имена dispidContactItemData
 type: docs
 weight: 2950
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactitemdata/
 ---
 ## KnownPropertyList.ContactItemData field
 
-Задает видимые поля в пользовательском интерфейсе приложения, которые используются для отображения контактной информации. Область:Свойства контакта Каноническое имя:PidLidContactItemData Альтернативные имена:dispidContactItemData
+Определяет видимые поля в пользовательском интерфейсе приложения, которые используются для отображения контактной информации. Область: Свойства контакта Каноническое имя: PidLidContactItemData Альтернативные имена: dispidContactItemData
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactItemData;

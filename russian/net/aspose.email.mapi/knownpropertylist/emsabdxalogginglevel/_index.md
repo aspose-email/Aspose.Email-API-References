@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaLoggingLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_LOGGING_LEVEL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_LOGGING_LEVEL
 type: docs
 weight: 5780
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxalogginglevel/
 ---
 ## KnownPropertyList.EmsAbDxaLoggingLevel field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_LOGGING_LEVEL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_LOGGING_LEVEL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaLoggingLevel;

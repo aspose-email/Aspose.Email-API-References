@@ -1,14 +1,14 @@
 ---
 title: Meeting
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиКалендарь Имя набора свойствPSETID_Meeting
+description: Имя области Календарь Имя набора свойств PSETID_Meeting
 type: docs
 weight: 110
 url: /ru/net/aspose.email.mapi/knownpropertysets/meeting/
 ---
 ## KnownPropertySets.Meeting field
 
-Имя области:Календарь Имя набора свойств:PSETID_Meeting
+Имя области: Календарь Имя набора свойств: PSETID_Meeting
 
 ```csharp
 public static readonly Guid Meeting;

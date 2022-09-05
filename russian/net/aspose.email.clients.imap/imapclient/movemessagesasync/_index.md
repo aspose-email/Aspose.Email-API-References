@@ -1,14 +1,14 @@
 ---
 title: MoveMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Перемещает сообщение
+description: Перемещает сообщениеeg
 type: docs
 weight: 960
 url: /ru/net/aspose.email.clients.imap/imapclient/movemessagesasync/
 ---
 ## MoveMessagesAsync(IConnection, int, int, string, bool) {#movemessagesasync_1}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -17,11 +17,11 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
 
@@ -47,9 +47,9 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение должен быть перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -66,7 +66,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 ## MoveMessagesAsync(IConnection, int, int, string) {#movemessagesasync}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -75,10 +75,10 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -103,9 +103,9 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение должен быть перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -121,7 +121,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 ## MoveMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string, bool) {#movemessagesasync_9}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -130,9 +130,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -159,8 +159,8 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName, b
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, должны ли быть удалены преданный идее. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
 
@@ -176,7 +176,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName, b
 
 ## MoveMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string) {#movemessagesasync_8}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -185,9 +185,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -213,11 +213,11 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для этого операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -238,10 +238,10 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -270,7 +270,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -296,10 +296,10 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -326,7 +326,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -351,9 +351,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -380,8 +380,8 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
 
@@ -405,9 +405,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -433,7 +433,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -458,9 +458,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -489,7 +489,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -516,9 +516,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -545,7 +545,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -562,7 +562,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 ## MoveMessagesAsync(IConnection, int, int, string, bool, CancellationToken) {#movemessagesasync_2}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -571,11 +571,11 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -602,9 +602,9 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение должен быть перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -622,7 +622,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 ## MoveMessagesAsync(IConnection, int, int, string, CancellationToken) {#movemessagesasync_3}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -631,11 +631,11 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -661,9 +661,9 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение должен быть перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -680,7 +680,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 
 ## MoveMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string, bool, CancellationToken) {#movemessagesasync_10}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -689,9 +689,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -720,8 +720,8 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, должны ли быть удалены преданный идее. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -738,7 +738,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 
 ## MoveMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) {#movemessagesasync_11}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -747,9 +747,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -777,8 +777,8 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -803,10 +803,10 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -836,7 +836,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -863,10 +863,10 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -895,7 +895,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -921,9 +921,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -952,8 +952,8 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -979,9 +979,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1009,8 +1009,8 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -1035,9 +1035,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1067,7 +1067,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1095,9 +1095,9 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1126,7 +1126,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

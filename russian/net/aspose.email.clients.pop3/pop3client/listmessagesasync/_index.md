@@ -1,14 +1,14 @@
 ---
 title: ListMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Список сообщений. Получает информацию для поискового сообщения
+description: Список сообщений. Получает информацию для поиска message
 type: docs
 weight: 300
 url: /ru/net/aspose.email.clients.pop3/pop3client/listmessagesasync/
 ---
 ## ListMessagesAsync(IConnection) {#listmessagesasync_1}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
@@ -16,7 +16,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -24,7 +24,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 ## ListMessagesAsync(IConnection, bool) {#listmessagesasync_8}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -47,8 +47,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -56,7 +56,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -78,8 +78,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)объект. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -107,16 +107,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для эта операция
+Объект задачи с делегатом для этой операции
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не перечислены
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -140,10 +140,10 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -163,7 +163,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync() {#listmessagesasync}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync()
@@ -175,7 +175,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -188,7 +188,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 
 ## ListMessagesAsync(bool) {#listmessagesasync_17}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
@@ -196,7 +196,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -204,7 +204,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -225,7 +225,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -259,7 +259,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 
 ### Примечания
 
-Обратите внимание, что сообщения помечены как удаленные не перечислены
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -283,8 +283,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает если текущая транзакция должна быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -303,7 +303,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 ## ListMessagesAsync(IConnection, CancellationToken) {#listmessagesasync_10}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -312,7 +312,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -321,7 +321,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не указаны в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -335,7 +335,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, bool, CancellationToken) {#listmessagesasync_9}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -344,8 +344,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -354,7 +354,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -377,8 +377,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)объект. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -407,7 +407,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -417,7 +417,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не указаны в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -441,10 +441,10 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -465,7 +465,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(CancellationToken) {#listmessagesasync_19}
 
-Список сообщений. Получает информацию для сообщения поиска
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token)
@@ -481,7 +481,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не указаны в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -494,7 +494,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 ## ListMessagesAsync(bool, CancellationToken) {#listmessagesasync_18}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction, 
@@ -503,7 +503,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -512,7 +512,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -533,7 +533,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -562,7 +562,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| token | CancellationToken | Распространение уведомление о том, что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -570,7 +570,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не указаны в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -594,8 +594,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает если текущая транзакция должна быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

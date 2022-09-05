@@ -1,14 +1,14 @@
 ---
 title: AppointmentProposedDuration
 second_title: Aspose.Email for .NET API 参考
-description: 指示计数器提议的 PidLidAppointmentDuration 属性第 2.11 节的建议值 区域会议 规范名称PidLidAppointmentProposedDuration 替代名称dispidApptProposedDuration
+description: 指示计数器提议的 PidLidAppointmentDuration 属性第 2.11 节的提议值 区域Meetings 规范名称PidLidAppointmentProposedDuration 替代名称dispidApptProposedDuration
 type: docs
 weight: 1220
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentproposedduration/
 ---
 ## KnownPropertyList.AppointmentProposedDuration field
 
-指示计数器提议的 PidLidAppointmentDuration 属性（第 2.11 节）的建议值。 区域:会议 规范名称:PidLidAppointmentProposedDuration 替代名称:dispidApptProposedDuration
+指示计数器提议的 PidLidAppointmentDuration 属性（第 2.11 节）的提议值。 区域：Meetings 规范名称：PidLidAppointmentProposedDuration 替代名称：dispidApptProposedDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentProposedDuration;

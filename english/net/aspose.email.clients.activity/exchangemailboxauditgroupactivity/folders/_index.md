@@ -1,7 +1,7 @@
 ---
 title: Folders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Information about the source folders involved in an operation for example if folders are selected and then deleted.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/folders/

@@ -1,14 +1,14 @@
 ---
 title: FindMessageTrackingReportOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FindMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/findmessagetrackingreportoptions类 的新实例
+description: 初始化FindMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/findmessagetrackingreportoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/findmessagetrackingreportoptions/
 ---
 ## FindMessageTrackingReportOptions constructor
 
-初始化[`FindMessageTrackingReportOptions`](../../findmessagetrackingreportoptions)类 的新实例
+初始化[`FindMessageTrackingReportOptions`](../../findmessagetrackingreportoptions) class
 
 ```csharp
 public FindMessageTrackingReportOptions(string scope, string domain)
@@ -23,8 +23,8 @@ public FindMessageTrackingReportOptions(string scope, string domain)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *scope*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *domain*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *scope*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *domain*是`无效的`或者`空的` |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: MapiTaskState
 second_title: Aspose.Email for .NET API 参考
 description: 表示Task对象的赋值状态
 type: docs
-weight: 18710
+weight: 18740
 url: /zh/net/aspose.email.mapi/mapitaskstate/
 ---
 ## MapiTaskState enumeration
@@ -19,10 +19,10 @@ public enum MapiTaskState
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotAssigned | `1` | 未分配任务对象。 |
-| AssigneesCopyOfAssignedTask | `2` | 任务对象是任务受让人的 分配的任务对象的副本。 |
-| AssignersCopyOfAssignedTask | `3` | Task 对象是任务分配者的 分配的 Task 对象的副本。 |
-| AssignersCopyOfRejectedTask | `4` | Task 对象是任务分配者的 被拒绝的 Task 对象的副本。 |
-| EmbeddedInTaskRejection | `0` | 创建此任务对象是为了将 与嵌入在任务 拒绝但不能在当地可以找到。 |
+| AssigneesCopyOfAssignedTask | `2` | 任务对象是任务受让人的 已分配任务对象的副本。 |
+| AssignersCopyOfAssignedTask | `3` | 任务对象是任务分配者的 已分配任务对象的副本。 |
+| AssignersCopyOfRejectedTask | `4` | 任务对象是任务分配者的 被拒绝任务对象的副本。 |
+| EmbeddedInTaskRejection | `0` | 创建此任务对象是为了将 与嵌入在任务 拒绝但在本地找不到的任务对象相对应。 |
 
 ### 也可以看看
 

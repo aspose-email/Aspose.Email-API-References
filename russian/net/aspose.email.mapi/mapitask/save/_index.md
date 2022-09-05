@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет этоMapiTaskaspose.email.mapi/mapitaskв указанный поток используя указанный формат.
+description: Сохраняет этоMapiTaskaspose.email.mapi/mapitask в данный поток используя указанный формат.
 type: docs
 weight: 220
 url: /ru/net/aspose.email.mapi/mapitask/save/
 ---
 ## Save(Stream, TaskSaveFormat) {#save}
 
-Сохраняет это[`MapiTask`](../../mapitask)в указанный поток, используя указанный формат.
+Сохраняет это[`MapiTask`](../../mapitask) в данный поток, используя указанный формат.
 
 ```csharp
 public void Save(Stream stream, TaskSaveFormat saveFormat)
@@ -23,8 +23,8 @@ public void Save(Stream stream, TaskSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` . |
-| NotSupportedException | *stream*не поддерживает запись. |
+| ArgumentNullException | *stream* является`нулевой` . |
+| NotSupportedException | *stream* не поддерживает запись. |
 | NotSupportedException | Указанный формат не поддерживается. |
 
 ### Смотрите также
@@ -38,7 +38,7 @@ public void Save(Stream stream, TaskSaveFormat saveFormat)
 
 ## Save(string, TaskSaveFormat) {#save_1}
 
-Сохраняет это[`MapiTask`](../../mapitask)в файл с использованием указанного формата.
+Сохраняет это[`MapiTask`](../../mapitask) в файл, используя указанный формат.
 
 ```csharp
 public void Save(string filePath, TaskSaveFormat saveFormat)
@@ -53,8 +53,8 @@ public void Save(string filePath, TaskSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пусто` . |
-| NotSupportedException | некоторые параметры сохранения не поддерживаются |
+| ArgumentException | *filePath* является`нулевой`или же`пустой`. |
+| NotSupportedException | некоторые опции сохранения не поддерживаются |
 
 ### Смотрите также
 

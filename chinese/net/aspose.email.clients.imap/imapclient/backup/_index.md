@@ -17,7 +17,7 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to a服务器 |
+| connection | IConnection | 连接到服务器 |
 | folders | ImapFolderInfoCollection | 要备份的文件夹 |
 | fileName | String | 个人存储文件的路径 |
 | options | BackupSettings | 备份选项 |
@@ -44,7 +44,7 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, Str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to a服务器 |
+| connection | IConnection | 连接到服务器 |
 | folders | ImapFolderInfoCollection | 要备份的文件夹 |
 | stream | Stream | 要写入的流 |
 | options | BackupSettings | 备份选项 |
@@ -70,7 +70,7 @@ public void Backup(ImapFolderInfoCollection folders, string fileName, BackupSett
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | 一个文件夹到备份 |
+| folders | ImapFolderInfoCollection | 要备份的文件夹 |
 | fileName | String | 个人存储文件的路径 |
 | options | BackupSettings | 备份选项 |
 
@@ -94,7 +94,7 @@ public void Backup(ImapFolderInfoCollection folders, Stream stream, BackupSettin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | 一个文件夹到备份 |
+| folders | ImapFolderInfoCollection | 要备份的文件夹 |
 | stream | Stream | 要写入的流 |
 | options | BackupSettings | 备份选项 |
 

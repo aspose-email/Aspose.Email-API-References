@@ -17,7 +17,7 @@ public void MoveFolder(string newParentFolder, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentFolder | String | Новое место для перемещенной папки |
-| folderName | String | Папка для двигаться |
+| folderName | String | Папка для перемещения |
 
 ### Смотрите также
 
@@ -37,8 +37,8 @@ public void MoveFolder(IConnection connection, string newParentFolder, string fo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| newParentFolder | String | Новое место для перемещенная папка |
+| connection | IConnection | Подключение к серверу |
+| newParentFolder | String | Новое место для перемещенной папки |
 | folderName | String | Папка для перемещения |
 
 ### Смотрите также

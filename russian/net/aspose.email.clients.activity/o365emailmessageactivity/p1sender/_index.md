@@ -1,14 +1,14 @@
 ---
 title: P1Sender
 second_title: Справочник по Aspose.Email для .NET API
-description: Обратный путь отправителя сообщения электронной почты. ОбязательноДа
+description: Обратный путь отправителя сообщения электронной почты. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/p1sender/
 ---
 ## O365EmailMessageActivity.P1Sender property
 
-Обратный путь отправителя сообщения электронной почты. Обязательно:Да
+Обратный путь отправителя сообщения электронной почты. Обязательно: Yes
 
 ```csharp
 public string P1Sender { get; set; }

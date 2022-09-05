@@ -1,14 +1,14 @@
 ---
 title: AttachSignature
 second_title: Aspose.Email for .NET API 参考
-description: 创建签名消息 创建指定 MailMessage 的只读副本并为其添加数字签名
+description: 创建签名邮件 创建指定 MailMessage 的只读副本并为其添加数字签名
 type: docs
 weight: 390
 url: /zh/net/aspose.email/mailmessage/attachsignature/
 ---
 ## AttachSignature(X509Certificate2, bool) {#attachsignature_3}
 
-创建签名消息。 创建指定 MailMessage 的只读副本并为其添加数字签名。
+创建签名邮件。 创建指定 MailMessage 的只读副本并为其添加数字签名。
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool detached)
@@ -17,7 +17,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | certificate | X509Certificate2 | X.509 证书。 |
-| detached | Boolean | 。如果 detached 为 true，则签名分离。如果 detached 为 false（默认），则不分离签名。 |
+| detached | Boolean | . 如果 detached 为 true，签名被分离。如果 detached 为 false（默认），签名不被分离。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 ## AttachSignature(CmsSigner, bool) {#attachsignature_1}
 
-创建签名消息。 创建指定 MailMessage 的只读副本并为其添加数字签名。
+创建签名邮件。 创建指定 MailMessage 的只读副本并为其添加数字签名。
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
@@ -38,7 +38,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner。 |
-| detached | Boolean | 。如果 detached 为 true，则签名分离。如果 detached 为 false（默认），则不分离签名。 |
+| detached | Boolean | . 如果 detached 为 true，签名被分离。如果 detached 为 false（默认），签名不被分离。 |
 
 ### 返回值
 
@@ -54,7 +54,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 
 ## AttachSignature(X509Certificate2) {#attachsignature_2}
 
-创建签名消息。 创建指定 MailMessage 的只读副本并为其添加数字签名。
+创建签名邮件。 创建指定 MailMessage 的只读副本并为其添加数字签名。
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate)
@@ -78,7 +78,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 
 ## AttachSignature(CmsSigner) {#attachsignature}
 
-创建签名消息。 创建指定 MailMessage 的只读副本并为其添加数字签名。
+创建签名邮件。 创建指定 MailMessage 的只读副本并为其添加数字签名。
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer)

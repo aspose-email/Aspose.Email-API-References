@@ -1,7 +1,7 @@
 ---
 title: RadioTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the radio telephone number
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/radiotelephonenumber/

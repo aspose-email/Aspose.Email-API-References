@@ -1,14 +1,14 @@
 ---
 title: HtmlBody
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 html 正文
+description: 获取或设置 html body
 type: docs
 weight: 150
 url: /zh/net/aspose.email/mailmessage/htmlbody/
 ---
 ## MailMessage.HtmlBody property
 
-获取或设置 html 正文
+获取或设置 html body
 
 ```csharp
 public virtual string HtmlBody { get; set; }

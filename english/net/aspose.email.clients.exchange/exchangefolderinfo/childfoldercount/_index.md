@@ -1,7 +1,7 @@
 ---
 title: ChildFolderCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Count of child folders
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/childfoldercount/

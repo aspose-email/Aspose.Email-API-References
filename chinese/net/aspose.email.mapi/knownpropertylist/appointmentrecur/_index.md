@@ -1,14 +1,14 @@
 ---
 title: AppointmentRecur
 second_title: Aspose.Email for .NET API 参考
-description: 指定重复系列发生的日期和时间 区域日历 规范名称PidLidAppointmentRecur 替代名称dispidApptRecur
+description: 指定重复系列发生的日期和时间 区域Calendar 规范名称PidLidAppointmentRecur 替代名称dispidApptRecur
 type: docs
 weight: 1250
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentrecur/
 ---
 ## KnownPropertyList.AppointmentRecur field
 
-指定重复系列发生的日期和时间。 区域:日历 规范名称:PidLidAppointmentRecur 替代名称:dispidApptRecur
+指定重复系列发生的日期和时间。 区域：Calendar 规范名称：PidLidAppointmentRecur 替代名称：dispidApptRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentRecur;

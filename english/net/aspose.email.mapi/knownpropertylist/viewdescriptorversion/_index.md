@@ -1,7 +1,7 @@
 ---
 title: ViewDescriptorVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the View Descriptor version. Area Miscellaneous Properties Canonical name PidTagViewDescriptorVersion Alternate names PR_VD_VERSION
 type: docs
 weight: 19280
 url: /net/aspose.email.mapi/knownpropertylist/viewdescriptorversion/

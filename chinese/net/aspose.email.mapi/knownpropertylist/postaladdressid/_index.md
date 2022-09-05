@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postaladdressid/
 ---
 ## KnownPropertyList.PostalAddressId field
 
-指定哪个物理地址是此联系人的邮寄地址。 区域:联系人属性 规范名称:PidLidPostalAddressId 替代名称:dispidPostalAddressId
+指定哪个物理地址是此联系人的邮寄地址。 区域：联系人属性 规范名称：PidLidPostalAddressId 替代名称：dispidPostalAddressId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostalAddressId;

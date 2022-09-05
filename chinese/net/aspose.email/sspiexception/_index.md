@@ -1,14 +1,14 @@
 ---
 title: SSPIException
 second_title: Aspose.Email for .NET API 参考
-description: 表示在 SSPI 执行期间发生的错误
+description: 表示 SSPI 执行期间发生的错误
 type: docs
-weight: 19910
+weight: 19960
 url: /zh/net/aspose.email/sspiexception/
 ---
 ## SSPIException class
 
-表示在 SSPI 执行期间发生的错误。
+表示 SSPI 执行期间发生的错误。
 
 ```csharp
 public class SSPIException : AsposeException
@@ -18,11 +18,11 @@ public class SSPIException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SSPIException](sspiexception#constructor)() | 初始化[`SSPIException`](../sspiexception)类的新实例。 |
-| [SSPIException](sspiexception#constructor_1)(Exception) | 使用对内部的引用初始化[`SSPIException`](../sspiexception)类 的新实例异常是导致此异常的原因。 |
-| [SSPIException](sspiexception#constructor_2)(string) | 使用指定的错误消息初始化[`SSPIException`](../sspiexception)类的新实例。 |
-| [SSPIException](sspiexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`SSPIException`](../sspiexception)类 的新实例和对导致此异常的内部异常的引用。 |
-| [SSPIException](sspiexception#constructor_4)(string, params object[]) | 使用指定的错误消息初始化[`SSPIException`](../sspiexception)类的新实例。 |
+| [SSPIException](sspiexception#constructor)() | 初始化[`SSPIException`](../sspiexception)类. |
+| [SSPIException](sspiexception#constructor_1)(Exception) | 初始化[`SSPIException`](../sspiexception)类 引用了导致此异常的内部异常。 |
+| [SSPIException](sspiexception#constructor_2)(string) | 初始化[`SSPIException`](../sspiexception)具有指定错误消息的类。 |
+| [SSPIException](sspiexception#constructor_3)(string, Exception) | 初始化[`SSPIException`](../sspiexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [SSPIException](sspiexception#constructor_4)(string, params object[]) | 初始化[`SSPIException`](../sspiexception)具有指定错误消息的类。 |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: TaskDueDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату к которой пользователь ожидает завершения работы над задачей. ОбластьЗадачи Каноническое имяPidLidTaskDueDate Альтернативные именаdispidTaskDueDate
+description: Указывает дату к которой пользователь ожидает завершения работы над задачей. Область Tasks Каноническое имя PidLidTaskDueDate Альтернативные имена dispidTaskDueDate
 type: docs
 weight: 18620
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskduedate/
 ---
 ## KnownPropertyList.TaskDueDate field
 
-Указывает дату, к которой пользователь ожидает завершения работы над задачей. Область:Задачи Каноническое имя:PidLidTaskDueDate Альтернативные имена:dispidTaskDueDate
+Указывает дату, к которой пользователь ожидает завершения работы над задачей. Область: Tasks Каноническое имя: PidLidTaskDueDate Альтернативные имена: dispidTaskDueDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDueDate;

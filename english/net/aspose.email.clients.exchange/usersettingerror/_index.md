@@ -1,7 +1,7 @@
 ---
 title: UserSettingError
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an error from a GetUserSettings request.
 type: docs
 weight: 3590
 url: /net/aspose.email.clients.exchange/usersettingerror/

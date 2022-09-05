@@ -1,14 +1,14 @@
 ---
 title: ReplyRecipientNames
 second_title: Aspose.Email for .NET API 参考
-description: 包含要接收回复的收件人的显示名称列表 区域MapiEnvelope 规范名称PidTagReplyRecipientNames 备用名称PR_REPLY_RECIPIENT_NAMES PR_REPLY_RECIPIENT_NAMES_A ptagReplyRecipientNames PR_REPLY_RECIPIENT_NAMES_W
+description: 包含要接收回复的收件人的显示名称列表 区域MapiEnvelope 规范名称PidTagReplyRecipientNames 替代名称PR_REPLY_RECIPIENT_NAMESPR_REPLY_RECIPIENT_NAMES_AptagReplyRecipientNamesPR_REPLY_000 _RECIPIENT_NAMES_W
 type: docs
 weight: 15930
 url: /zh/net/aspose.email.mapi/knownpropertylist/replyrecipientnames/
 ---
 ## KnownPropertyList.ReplyRecipientNames field
 
-包含要接收回复的收件人的显示名称列表。 区域:MapiEnvelope 规范名称:PidTagReplyRecipientNames 备用名称:PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, ptagReplyRecipientNames, PR_REPLY_RECIPIENT_NAMES_W
+包含要接收回复的收件人的显示名称列表。 区域：MapiEnvelope 规范名称：PidTagReplyRecipientNames 替代名称：PR_REPLY_RECIPIENT_NAMES、PR_REPLY_RECIPIENT_NAMES_A、ptagReplyRecipientNames、PR_REPLY_000 _RECIPIENT_NAMES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRecipientNames;

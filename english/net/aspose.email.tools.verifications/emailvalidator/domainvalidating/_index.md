@@ -1,7 +1,7 @@
 ---
 title: DomainValidating
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This event occurs when validating the domain of an email addresss.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.verifications/emailvalidator/domainvalidating/

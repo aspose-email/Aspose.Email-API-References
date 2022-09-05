@@ -3,7 +3,7 @@ title: VCardOrganization
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 组织属性
 type: docs
-weight: 19650
+weight: 19700
 url: /zh/net/aspose.email.personalinfo.vcard/vcardorganization/
 ---
 ## VCardOrganization class
@@ -18,16 +18,16 @@ public sealed class VCardOrganization
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardOrganization](vcardorganization)() | 初始化 [`VCardOrganization`](../vcardorganization) 类的新实例 |
+| [VCardOrganization](vcardorganization)() | 初始化[`VCardOrganization`](../vcardorganization) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Agent](../../aspose.email.personalinfo.vcard/vcardorganization/agent) { get; set; } | 获取或设置代理 |
-| [Departments](../../aspose.email.personalinfo.vcard/vcardorganization/departments) { get; set; } | 获取或设置部门 |
-| [Logo](../../aspose.email.personalinfo.vcard/vcardorganization/logo) { get; set; } | 获取或设置标志 |
-| [Organization](../../aspose.email.personalinfo.vcard/vcardorganization/organization) { get; set; } | 获取或设置组织 |
+| [Departments](../../aspose.email.personalinfo.vcard/vcardorganization/departments) { get; set; } | 获取或设置一个部门 |
+| [Logo](../../aspose.email.personalinfo.vcard/vcardorganization/logo) { get; set; } | 获取或设置一个 logo |
+| [Organization](../../aspose.email.personalinfo.vcard/vcardorganization/organization) { get; set; } | 获取或设置一个组织 |
 | [Role](../../aspose.email.personalinfo.vcard/vcardorganization/role) { get; set; } | 获取或设置角色 |
 | [Title](../../aspose.email.personalinfo.vcard/vcardorganization/title) { get; set; } | 获取或设置职位 |
 

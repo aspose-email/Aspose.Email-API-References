@@ -1,14 +1,14 @@
 ---
 title: FindMessageTrackingReportOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFindMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/findmessagetrackingreportoptions
+description: Инициализирует новый экземплярFindMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/findmessagetrackingreportoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/findmessagetrackingreportoptions/
 ---
 ## FindMessageTrackingReportOptions constructor
 
-Инициализирует новый экземпляр класса[`FindMessageTrackingReportOptions`](../../findmessagetrackingreportoptions)
+Инициализирует новый экземпляр[`FindMessageTrackingReportOptions`](../../findmessagetrackingreportoptions) класс
 
 ```csharp
 public FindMessageTrackingReportOptions(string scope, string domain)
@@ -17,14 +17,14 @@ public FindMessageTrackingReportOptions(string scope, string domain)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scope | String | Указывает, где выполнять поиск. |
-| domain | String | Указывает домен для поиска. |
+| domain | String | Указан домен для поиска. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *scope*is` null` или` пусто` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *domain*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *scope* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *domain* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

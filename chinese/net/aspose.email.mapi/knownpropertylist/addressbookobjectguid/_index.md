@@ -1,14 +1,14 @@
 ---
 title: AddressBookObjectGuid
 second_title: Aspose.Email for .NET API 参考
-description: 包含标识通讯簿对象的 GUID 区域地址簿 规范名称PidTagAddressBookObjectGuid 替代名称PR_EMS_AB_OBJECT_GUID
+description: 包含标识通讯簿对象的 GUID 区域通讯簿 规范名称PidTagAddressBookObjectGuid 备用名称PR_EMS_AB_OBJECT_GUID
 type: docs
 weight: 780
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookobjectguid/
 ---
 ## KnownPropertyList.AddressBookObjectGuid field
 
-包含标识通讯簿对象的 GUID。 区域:地址簿 规范名称:PidTagAddressBookObjectGuid 替代名称:PR_EMS_AB_OBJECT_GUID
+包含标识通讯簿对象的 GUID。 区域：通讯簿 规范名称：PidTagAddressBookObjectGuid 备用名称：PR_EMS_AB_OBJECT_GUID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookObjectGuid;

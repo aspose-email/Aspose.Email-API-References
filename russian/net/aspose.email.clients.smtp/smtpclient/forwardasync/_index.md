@@ -17,9 +17,9 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipient | String | Получатель перенаправленного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Возвращаемое значение
@@ -47,9 +47,9 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Возвращаемое значение
@@ -77,8 +77,8 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipient | String | Получатель перенаправленного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Возвращаемое значение
@@ -104,8 +104,8 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Возвращаемое значение
@@ -133,9 +133,9 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 
 ### Возвращаемое значение
@@ -162,8 +162,8 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 
 ### Возвращаемое значение
@@ -190,9 +190,9 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipient | String | Получатель перенаправленного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -221,9 +221,9 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -253,8 +253,8 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipient | String | Получатель перенаправленного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -282,8 +282,8 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -312,9 +312,9 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -343,8 +343,8 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

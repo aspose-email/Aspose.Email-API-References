@@ -1,14 +1,14 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MonthlyRecurrencePatternaspose.email.calendar.recurrences/monthlyrecurrencepattern类的新实例
+description: 初始化MonthlyRecurrencePatternaspose.email.calendar.recurrences/monthlyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern() {#constructor}
 
-初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类的新实例。
+初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类.
 
 ```csharp
 public MonthlyRecurrencePattern()
@@ -24,7 +24,7 @@ public MonthlyRecurrencePattern()
 
 ## MonthlyRecurrencePattern(int, int) {#constructor_2}
 
-初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类的新实例。
+初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类.
 
 ```csharp
 public MonthlyRecurrencePattern(int startOffset, int interval)
@@ -45,7 +45,7 @@ public MonthlyRecurrencePattern(int startOffset, int interval)
 
 ## MonthlyRecurrencePattern(DayPosition, CalendarDay, int) {#constructor_1}
 
-初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类的新实例。
+初始化[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern)类.
 
 ```csharp
 public MonthlyRecurrencePattern(DayPosition startPosition, CalendarDay startDay, int interval)

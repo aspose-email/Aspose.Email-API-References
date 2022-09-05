@@ -1,14 +1,14 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API 参考
-description: 类别标题
+description: 类别标题.
 type: docs
 weight: 30
 url: /zh/net/aspose.email/mhttemplatename.task/categories/
 ---
 ## MhtTemplateName.Task.Categories field
 
-类别标题。
+类别标题.
 
 ```csharp
 public const string Categories;

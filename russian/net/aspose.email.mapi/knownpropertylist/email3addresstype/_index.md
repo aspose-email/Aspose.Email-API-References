@@ -1,14 +1,14 @@
 ---
 title: Email3AddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает тип электронного адреса. ОбластьСвойства контакта Каноническое имяPidLidEmail3AddressType Альтернативные именаdispidEmail3AddrType
+description: Определяет тип адреса электронного адреса. Область Свойства контакта Каноническое имя PidLidEmail3AddressType Альтернативные имена dispidEmail3AddrType
 type: docs
 weight: 4420
 url: /ru/net/aspose.email.mapi/knownpropertylist/email3addresstype/
 ---
 ## KnownPropertyList.Email3AddressType field
 
-Задает тип электронного адреса. Область:Свойства контакта Каноническое имя:PidLidEmail3AddressType Альтернативные имена:dispidEmail3AddrType
+Определяет тип адреса электронного адреса. Область: Свойства контакта Каноническое имя: PidLidEmail3AddressType Альтернативные имена: dispidEmail3AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3AddressType;

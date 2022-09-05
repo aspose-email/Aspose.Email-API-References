@@ -1,14 +1,14 @@
 ---
 title: IsException
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值指示对象是否表示异常
+description: 获取或设置一个表示对象是否代表异常的值
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicalendareventrecurrence/isexception/
 ---
 ## MapiCalendarEventRecurrence.IsException property
 
-获取或设置一个值，指示对象是否表示异常
+获取或设置一个表示对象是否代表异常的值
 
 ```csharp
 public bool IsException { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PR_LTP_ROW_ID
 second_title: Aspose.Email for .NET API 参考
-description: LTP 行 ID
+description: LTP 行 ID.
 type: docs
 weight: 13620
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_ltp_row_id/
 ---
 ## MapiPropertyTag.PR_LTP_ROW_ID field
 
-LTP 行 ID。
+LTP 行 ID.
 
 ```csharp
 public static readonly long PR_LTP_ROW_ID;

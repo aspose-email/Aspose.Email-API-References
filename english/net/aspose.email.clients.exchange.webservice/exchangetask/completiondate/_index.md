@@ -1,7 +1,7 @@
 ---
 title: CompletionDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date when the user completed work on the task.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/completiondate/

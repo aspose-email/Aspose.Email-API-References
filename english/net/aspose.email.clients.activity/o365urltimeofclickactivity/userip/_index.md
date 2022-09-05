@@ -1,7 +1,7 @@
 ---
 title: UserIp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The IP address for the user who clicked the URL. The IP address is displayed in either an IPv4 or IPv6 address format. Mandatory Yes
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/userip/

@@ -1,7 +1,7 @@
 ---
 title: ExchangePatternStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the absolute minimum time when an instance of a recurring appointment starts. Area Common Canonical name PidNameExchangePatternStart Alternate names http//schemas.microsoft.com/exchange/patternstart
 type: docs
 weight: 9880
 url: /net/aspose.email.mapi/knownpropertylist/exchangepatternstart/

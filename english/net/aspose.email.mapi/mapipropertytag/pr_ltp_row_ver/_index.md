@@ -1,7 +1,7 @@
 ---
 title: PR_LTP_ROW_VER
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: LTP Row Ver.
 type: docs
 weight: 13630
 url: /net/aspose.email.mapi/mapipropertytag/pr_ltp_row_ver/

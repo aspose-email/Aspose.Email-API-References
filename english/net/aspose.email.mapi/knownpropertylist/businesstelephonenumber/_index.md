@@ -1,7 +1,7 @@
 ---
 title: BusinessTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the primary telephone number of the mail users place of business. Area Contact Properties Canonical name PidTagBusinessTelephoneNumber Alternate names PR_BUSINESS_TELEPHONE_NUMBER PR_BUSINESS_TELEPHONE_NUMBER_A PR_BUSINESS_TELEPHONE_NUMBER_W PR_OFFICE_TELEPHONE_NUMBER
 type: docs
 weight: 2140
 url: /net/aspose.email.mapi/knownpropertylist/businesstelephonenumber/

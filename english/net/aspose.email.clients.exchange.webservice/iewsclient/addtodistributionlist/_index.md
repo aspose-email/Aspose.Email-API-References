@@ -1,7 +1,7 @@
 ---
 title: AddToDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Appends the members to Distribution List.
 type: docs
 weight: 360
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/addtodistributionlist/

@@ -1,7 +1,7 @@
 ---
 title: Associated
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the message being synchronized is an FAI message. Area Sync Canonical name PidTagAssociated Alternate names ptagAssociated
 type: docs
 weight: 1470
 url: /net/aspose.email.mapi/knownpropertylist/associated/

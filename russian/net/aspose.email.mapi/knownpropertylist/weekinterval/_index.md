@@ -1,14 +1,14 @@
 ---
 title: WeekInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет количество недель которые проходят между каждым собранием. ОбластьВстречи Каноническое имяPidLidWeekInterval Альтернативные названияLID_WEEK_INTERVAL
+description: Определяет количество недель которые проходят между каждым собранием. Область Meetings Каноническое имя PidLidWeekInterval Альтернативные имена LID_WEEK_INTERVAL
 type: docs
 weight: 19350
 url: /ru/net/aspose.email.mapi/knownpropertylist/weekinterval/
 ---
 ## KnownPropertyList.WeekInterval field
 
-Определяет количество недель, которые проходят между каждым собранием. Область:Встречи Каноническое имя:PidLidWeekInterval Альтернативные названия:LID_WEEK_INTERVAL
+Определяет количество недель, которые проходят между каждым собранием. Область: Meetings Каноническое имя: PidLidWeekInterval Альтернативные имена: LID_WEEK_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WeekInterval;

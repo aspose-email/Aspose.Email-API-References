@@ -1,14 +1,14 @@
 ---
 title: ProfileVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_VERSION
 type: docs
 weight: 14960
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileversion/
 ---
 ## KnownPropertyList.ProfileVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileVersion;

@@ -1,9 +1,9 @@
 ---
 title: MessageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MessageInfo represents the server item info fetched from the Graph service.
 type: docs
-weight: 15970
+weight: 15990
 url: /net/aspose.email.clients.graph/messageinfo/
 ---
 ## MessageInfo class

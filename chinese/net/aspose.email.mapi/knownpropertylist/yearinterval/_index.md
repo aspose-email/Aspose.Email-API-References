@@ -1,14 +1,14 @@
 ---
 title: YearInterval
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议的年度间隔 区域会议 规范名称PidLidYearInterval 别名LID_YEAR_INTERVAL
+description: 表示约会或会议的年度间隔 区域Meetings 规范名称PidLidYearInterval 替代名称LID_YEAR_INTERVAL
 type: docs
 weight: 19890
 url: /zh/net/aspose.email.mapi/knownpropertylist/yearinterval/
 ---
 ## KnownPropertyList.YearInterval field
 
-表示约会或会议的年度间隔。 区域:会议 规范名称:PidLidYearInterval 别名:LID_YEAR_INTERVAL
+表示约会或会议的年度间隔。 区域：Meetings 规范名称：PidLidYearInterval 替代名称：LID_YEAR_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor YearInterval;

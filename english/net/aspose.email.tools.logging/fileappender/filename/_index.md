@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets file name.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/fileappender/filename/

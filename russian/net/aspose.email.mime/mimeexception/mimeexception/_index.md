@@ -1,14 +1,14 @@
 ---
 title: MimeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMimeExceptionaspose.email.mime/mimeexception.
+description: Инициализирует новый экземплярMimeExceptionaspose.email.mime/mimeexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/mimeexception/mimeexception/
 ---
 ## MimeException() {#constructor}
 
-Инициализирует новый экземпляр класса[`MimeException`](../../mimeexception).
+Инициализирует новый экземпляр[`MimeException`](../../mimeexception) класс.
 
 ```csharp
 public MimeException()
@@ -24,7 +24,7 @@ public MimeException()
 
 ## MimeException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MimeException`](../../mimeexception).
+Инициализирует новый экземпляр[`MimeException`](../../mimeexception) класс.
 
 ```csharp
 public MimeException(string message)
@@ -44,7 +44,7 @@ public MimeException(string message)
 
 ## MimeException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MimeException`](../../mimeexception).
+Инициализирует новый экземпляр[`MimeException`](../../mimeexception) класс.
 
 ```csharp
 public MimeException(string message, Exception innerException)

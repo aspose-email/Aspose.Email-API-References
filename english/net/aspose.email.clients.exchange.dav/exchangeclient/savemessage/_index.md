@@ -1,12 +1,12 @@
 ---
 title: SaveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves mail message specified by the uri to local file system. The mail message file is RFC 822 compliant format EML. if you want to parse the mail message files use MailMessageaspose.email/mailmessage.
 type: docs
 weight: 360
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/savemessage/
 ---
-## ExchangeClient.SaveMessage method (1 of 2)
+## SaveMessage(string, string) {#savemessage_1}
 
 Saves mail message specified by the uri to local file system. The mail message file is RFC 822 compliant format (EML). if you want to parse the mail message files, use [`MailMessage`](../../../aspose.email/mailmessage).
 
@@ -27,7 +27,7 @@ public void SaveMessage(string messageUri, string path)
 
 ---
 
-## ExchangeClient.SaveMessage method (2 of 2)
+## SaveMessage(string, Stream) {#savemessage}
 
 Saves the message.
 

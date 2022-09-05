@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/imaddress3value/
 ---
 ## InstantMessengerCategory.ImAddress3Value field
 
-Строковое значение для категории 'ImAddress3'
+Строковое значение для категории «ImAddress3»
 
 ```csharp
 public const string ImAddress3Value;

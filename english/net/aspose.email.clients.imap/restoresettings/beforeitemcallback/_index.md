@@ -1,7 +1,7 @@
 ---
 title: BeforeItemCallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The callback called when the next item message or folder is processed.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/restoresettings/beforeitemcallback/

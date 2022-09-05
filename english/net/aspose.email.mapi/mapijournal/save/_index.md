@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the specified file name.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapijournal/save/
 ---
-## MapiJournal.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Saves the specified file name.
 
@@ -26,7 +26,7 @@ public void Save(string fileName)
 
 ---
 
-## MapiJournal.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Saves the specified stream.
 

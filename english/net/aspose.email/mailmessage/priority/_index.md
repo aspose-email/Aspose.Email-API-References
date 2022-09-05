@@ -1,9 +1,9 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the priority of message
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.email/mailmessage/priority/
 ---
 ## MailMessage.Priority property

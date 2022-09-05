@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets ComparisonFieldAdapteraspose.email.clients.exchange/comparisonfieldadapter for PropertyDescriptoraspose.email.mapi/propertydescriptor
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/extendedpropertiescomparisonfield/item/

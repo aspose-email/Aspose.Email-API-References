@@ -1,14 +1,14 @@
 ---
 title: Emlx
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Emlx 格式的消息由 Apple Mail 使用
+description: 表示消息在 埃米克斯格式由 Apple Mail 使用
 type: docs
 weight: 20
 url: /zh/net/aspose.email/messageformat/emlx/
 ---
 ## MessageFormat.Emlx property
 
-表示 **Emlx** 格式的消息，由 Apple Mail 使用。
+表示消息在 **埃米克斯**格式，由 Apple Mail 使用。
 
 ```csharp
 public static MessageFormat Emlx { get; }

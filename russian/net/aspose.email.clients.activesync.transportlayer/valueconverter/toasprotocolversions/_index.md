@@ -1,14 +1,14 @@
 ---
 title: ToASProtocolVersions
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует версию протокола ActiveSync из строкового представления в перечисление.
+description: Преобразует версию протокола ActiveSync из строкового представления в enum.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions/
 ---
 ## ValueConverter.ToASProtocolVersions method
 
-Преобразует версию протокола ActiveSync из строкового представления в перечисление.
+Преобразует версию протокола ActiveSync из строкового представления в enum.
 
 ```csharp
 public static ASProtocolVersions ToASProtocolVersions(string version)
@@ -20,7 +20,7 @@ public static ASProtocolVersions ToASProtocolVersions(string version)
 
 ### Возвращаемое значение
 
-Возвращает протокол ActiveSync версия.
+Возвращает версию протокола ActiveSync.
 
 ### Смотрите также
 

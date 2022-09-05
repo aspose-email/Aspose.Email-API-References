@@ -18,13 +18,13 @@ public class SequenceSetField : QueryField
 
 | Имя | Описание |
 | --- | --- |
-| [Values](../../aspose.email.clients.imap/sequencesetfield/values) { get; } | Получает значения для поиска |
+| [Values](../../aspose.email.clients.imap/sequencesetfield/values) { get; } | Получает значения для search |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.clients.imap/sequencesetfield/add)(SequenceSetBaseValue) | Добавляет значение для поиска. |
+| [Add](../../aspose.email.clients.imap/sequencesetfield/add)(SequenceSetBaseValue) | Добавляет ценность для поиска. |
 | [CreateQuery](../../aspose.email.clients.imap/sequencesetfield/createquery)() | Создает ключ поиска. |
 | override [ToString](../../aspose.email.clients.imap/sequencesetfield/tostring)() | Возвращает строку, представляющую экземпляр объекта. |
 | [implicit operator](../../aspose.email.clients.imap/sequencesetfield/op_implicit) | Создает ключ поиска. |

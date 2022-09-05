@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/birthdaylocal/
 ---
 ## KnownPropertyList.BirthdayLocal field
 
-指定联系人的生日。 区域:联系人属性 规范名称:PidLidBirthdayLocal 替代名称:dispidApptBirthdayLocal
+指定联系人的生日。 区域：联系人属性 规范名称：PidLidBirthdayLocal 替代名称：dispidApptBirthdayLocal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BirthdayLocal;

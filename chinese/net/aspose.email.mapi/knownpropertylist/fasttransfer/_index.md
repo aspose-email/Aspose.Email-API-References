@@ -1,14 +1,14 @@
 ---
 title: FastTransfer
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_FAST_TRANSFER
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_FAST_TRANSFER
 type: docs
 weight: 10110
 url: /zh/net/aspose.email.mapi/knownpropertylist/fasttransfer/
 ---
 ## KnownPropertyList.FastTransfer field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_FAST_TRANSFER
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_FAST_TRANSFER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FastTransfer;

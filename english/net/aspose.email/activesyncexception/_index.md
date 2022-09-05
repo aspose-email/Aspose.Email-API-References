@@ -1,7 +1,7 @@
 ---
 title: ActiveSyncException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur during ActiveSync protocol execution.
 type: docs
 weight: 10
 url: /net/aspose.email/activesyncexception/
@@ -18,10 +18,10 @@ public class ActiveSyncException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ActiveSyncException](activesyncexception)() | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class. |
-| [ActiveSyncException](activesyncexception)(Exception) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a reference to the inner exception that is the cause of this exception. |
-| [ActiveSyncException](activesyncexception)(string) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a specified error message. |
-| [ActiveSyncException](activesyncexception)(string, Exception) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [ActiveSyncException](activesyncexception#constructor)() | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class. |
+| [ActiveSyncException](activesyncexception#constructor_1)(Exception) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a reference to the inner exception that is the cause of this exception. |
+| [ActiveSyncException](activesyncexception#constructor_2)(string) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a specified error message. |
+| [ActiveSyncException](activesyncexception#constructor_3)(string, Exception) | Initializes a new instance of the [`ActiveSyncException`](../activesyncexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Properties
 

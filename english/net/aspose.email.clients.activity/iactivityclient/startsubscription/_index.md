@@ -1,7 +1,7 @@
 ---
 title: StartSubscription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Starts a subscription to the specified content type. If a subscription to the specified content type already exists this operation is used to  update the properties of an active webhook  enable a webhook that was disabled because of excessive failed notifications  reenable an expired webhook by specifying a later or null expiration date  remove a webhook
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activity/iactivityclient/startsubscription/

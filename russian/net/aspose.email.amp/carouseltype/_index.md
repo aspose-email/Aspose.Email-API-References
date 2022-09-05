@@ -1,14 +1,14 @@
 ---
 title: CarouselType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип отображения элементов карусели.
+description: Определяет тип отображения элементов карусели.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.amp/carouseltype/
 ---
 ## CarouselType enumeration
 
-Указывает тип отображения элементов карусели.
+Определяет тип отображения элементов карусели.
 
 ```csharp
 public enum CarouselType

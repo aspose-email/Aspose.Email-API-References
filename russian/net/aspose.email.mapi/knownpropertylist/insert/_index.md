@@ -16,7 +16,7 @@ public void Insert(int index, PropertyDescriptor item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен элемент. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен элемент. |
 | item | PropertyDescriptor | Объект для вставки в System.Collections.Generic.IList. |
 
 ### Смотрите также

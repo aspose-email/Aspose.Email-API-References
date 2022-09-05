@@ -1,14 +1,14 @@
 ---
 title: RuleName
 second_title: Aspose.Email for .NET API 参考
-description: 指定规则的名称 区域服务器端规则属性 规范名称PidTagRuleName 替代名称PR_RULE_NAME PR_RULE_NAME_A ptagRuleName PR_RULE_NAME_W
+description: 指定规则的名称 区域服务器端规则属性 规范名称PidTagRuleName 备用名称PR_RULE_NAMEPR_RULE_NAME_AptagRuleNamePR_RULE_NAME_W
 type: docs
 weight: 16590
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulename/
 ---
 ## KnownPropertyList.RuleName field
 
-指定规则的名称。 区域:服务器端规则属性 规范名称:PidTagRuleName 替代名称:PR_RULE_NAME, PR_RULE_NAME_A, ptagRuleName, PR_RULE_NAME_W
+指定规则的名称。 区域：服务器端规则属性 规范名称：PidTagRuleName 备用名称：PR_RULE_NAME、PR_RULE_NAME_A、ptagRuleName、PR_RULE_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleName;

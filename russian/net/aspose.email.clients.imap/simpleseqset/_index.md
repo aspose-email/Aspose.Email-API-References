@@ -18,21 +18,21 @@ public class SimpleSeqSet : SequenceSetBaseValue
 
 | Имя | Описание |
 | --- | --- |
-| [SimpleSeqSet](simpleseqset#constructor)() | Инициализирует новый экземпляр класса[`SimpleSeqSet`](../simpleseqset). |
-| [SimpleSeqSet](simpleseqset#constructor_1)(string) | Инициализирует новый экземпляр класса[`SimpleSeqSet`](../simpleseqset). |
+| [SimpleSeqSet](simpleseqset#constructor)() | Инициализирует новый экземпляр[`SimpleSeqSet`](../simpleseqset) класс. |
+| [SimpleSeqSet](simpleseqset#constructor_1)(string) | Инициализирует новый экземпляр[`SimpleSeqSet`](../simpleseqset) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Value](../../aspose.email.clients.imap/simpleseqset/value) { get; set; } | Получает или задает значение для поиска |
+| [Value](../../aspose.email.clients.imap/simpleseqset/value) { get; set; } | Получает или задает значение search |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/simpleseqset/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit#op_implicit) | Неявная операция преобразования изStringв[`SimpleSeqSet`](../simpleseqset) (2 operators) |
+| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit#op_implicit) | Неявная операция преобразования изString к[`SimpleSeqSet`](../simpleseqset) (2 operators) |
 
 ### Смотрите также
 

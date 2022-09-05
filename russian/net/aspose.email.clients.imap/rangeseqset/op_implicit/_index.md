@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Неявная операция преобразования изRangeSeqSetaspose.email.clients.imap/rangeseqsetвString
+description: Неявная операция преобразования изRangeSeqSetaspose.email.clients.imap/rangeseqset кString
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.imap/rangeseqset/op_implicit/
 ---
 ## RangeSeqSet Implicit operator
 
-Неявная операция преобразования из[`RangeSeqSet`](../../rangeseqset)вString
+Неявная операция преобразования из[`RangeSeqSet`](../../rangeseqset) кString
 
 ```csharp
 public static implicit operator string(RangeSeqSet range)

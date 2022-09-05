@@ -1,14 +1,14 @@
 ---
 title: IsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示附件是否为 URI 附件
+description: 获取一个值该值指示附件是否为 URI-attachment
 type: docs
 weight: 50
 url: /zh/net/aspose.email/attachment/isuri/
 ---
 ## Attachment.IsUri property
 
-获取一个值，该值指示附件是否为 URI 附件。
+获取一个值，该值指示附件是否为 URI-attachment。
 
 ```csharp
 public bool IsUri { get; }

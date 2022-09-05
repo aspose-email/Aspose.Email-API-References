@@ -1,14 +1,14 @@
 ---
 title: RtfInSync
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает содержат ли свойство PidTagBody раздел 2.609 и свойство PidTagRtfCompressed раздел 2.932 один и тот же текст без учета форматирования. ОбластьЭлектронная почта Каноническое имяPidTagRtfInSync Альтернативные именаPR_RTF_IN_SYNC ptagRTFInSync
+description: Указывает содержат ли свойство PidTagBody раздел 2.609 и свойство PidTagRtfCompressed раздел 2.932 один и тот же текст без учета форматирования. Область Email Каноническое имя PidTagRtfInSync Альтернативные имена PR_RTF_IN_SYNC ptagRTFInSync
 type: docs
 weight: 16370
 url: /ru/net/aspose.email.mapi/knownpropertylist/rtfinsync/
 ---
 ## KnownPropertyList.RtfInSync field
 
-Указывает, содержат ли свойство PidTagBody (раздел 2.609) и свойство PidTagRtfCompressed (раздел 2.932) один и тот же текст (без учета форматирования). Область:Электронная почта Каноническое имя:PidTagRtfInSync Альтернативные имена:PR_RTF_IN_SYNC, ptagRTFInSync
+Указывает, содержат ли свойство PidTagBody (раздел 2.609) и свойство PidTagRtfCompressed (раздел 2.932) один и тот же текст (без учета форматирования). Область: Email Каноническое имя: PidTagRtfInSync Альтернативные имена: PR_RTF_IN_SYNC, ptagRTFInSync
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfInSync;

@@ -1,12 +1,12 @@
 ---
 title: CopyMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the message
 type: docs
 weight: 480
 url: /net/aspose.email.clients.imap/imapclient/copymessage/
 ---
-## ImapClient.CopyMessage method (1 of 4)
+## CopyMessage(IConnection, int, string) {#copymessage}
 
 Copies the message
 
@@ -33,7 +33,7 @@ If server supports UIDPLUS extension returns unique id of the copied message, ot
 
 ---
 
-## ImapClient.CopyMessage method (2 of 4)
+## CopyMessage(IConnection, string, string) {#copymessage_1}
 
 Copies the message
 
@@ -60,7 +60,7 @@ If server supports UIDPLUS extension returns unique id of the copied message, ot
 
 ---
 
-## ImapClient.CopyMessage method (3 of 4)
+## CopyMessage(int, string) {#copymessage_2}
 
 Copies the message
 
@@ -85,7 +85,7 @@ If server supports UIDPLUS extension returns unique id of the copied message, ot
 
 ---
 
-## ImapClient.CopyMessage method (4 of 4)
+## CopyMessage(string, string) {#copymessage_3}
 
 Copies the message
 

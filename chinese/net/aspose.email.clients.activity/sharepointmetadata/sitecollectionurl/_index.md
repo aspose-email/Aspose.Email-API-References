@@ -1,14 +1,14 @@
 ---
 title: SiteCollectionUrl
 second_title: Aspose.Email for .NET API 参考
-description: SharePoint 网站的名称 强制是
+description: SharePoint 网站的名称 必填是
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.activity/sharepointmetadata/sitecollectionurl/
 ---
 ## SharePointMetadata.SiteCollectionUrl property
 
-SharePoint 网站的名称。 强制:是
+SharePoint 网站的名称。 必填：是
 
 ```csharp
 public string SiteCollectionUrl { get; set; }

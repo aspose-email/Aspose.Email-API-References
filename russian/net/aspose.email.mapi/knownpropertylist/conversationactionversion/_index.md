@@ -1,14 +1,14 @@
 ---
 title: ConversationActionVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит версию сообщения FAI действия диалога. ОбластьДействия диалога Каноническое имяPidLidConversationActionVersion Альтернативные именаdispidConvActionVersion
+description: Содержит версию сообщения FAI действия диалога. Область Действия диалога Каноническое имя PidLidConversationActionVersion Альтернативные имена dispidConvActionVersion
 type: docs
 weight: 3380
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationactionversion/
 ---
 ## KnownPropertyList.ConversationActionVersion field
 
-Содержит версию сообщения FAI действия диалога. Область:Действия диалога Каноническое имя:PidLidConversationActionVersion Альтернативные имена:dispidConvActionVersion
+Содержит версию сообщения FAI действия диалога. Область: Действия диалога Каноническое имя: PidLidConversationActionVersion Альтернативные имена: dispidConvActionVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionVersion;

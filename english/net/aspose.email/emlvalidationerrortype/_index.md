@@ -1,9 +1,9 @@
 ---
 title: EmlValidationErrorType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the types of the eml validation errors.
 type: docs
-weight: 17140
+weight: 17310
 url: /net/aspose.email/emlvalidationerrortype/
 ---
 ## EmlValidationErrorType enumeration

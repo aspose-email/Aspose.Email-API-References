@@ -1,14 +1,14 @@
 ---
 title: MethodType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置与日历对象关联 的 iCalendar 对象方法类型
+description: 获取或设置与日历对象 关联的iCalendar 对象方法类型
 type: docs
 weight: 60
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/methodtype/
 ---
 ## AppointmentIcsSaveOptions.MethodType property
 
-获取或设置与日历对象关联 的 iCalendar 对象方法类型。
+获取或设置与日历对象 关联的iCalendar 对象方法类型。
 
 ```csharp
 public AppointmentMethodType MethodType { get; set; }

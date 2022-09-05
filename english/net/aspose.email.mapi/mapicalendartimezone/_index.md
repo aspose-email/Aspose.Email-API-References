@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mapi calendar time zone information
 type: docs
-weight: 17920
+weight: 18130
 url: /net/aspose.email.mapi/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone class
@@ -18,8 +18,8 @@ public sealed class MapiCalendarTimeZone
 
 | Name | Description |
 | --- | --- |
-| [MapiCalendarTimeZone](mapicalendartimezone)() | Initializes a new instance of the [`MapiCalendarTimeZone`](../mapicalendartimezone) class. |
-| [MapiCalendarTimeZone](mapicalendartimezone)(TimeZoneInfo) | Creates a new instance of the [`MapiCalendarTimeZone`](../mapicalendartimezone) class from a Standard Timezone. |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor)() | Initializes a new instance of the [`MapiCalendarTimeZone`](../mapicalendartimezone) class. |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor_1)(TimeZoneInfo) | Creates a new instance of the [`MapiCalendarTimeZone`](../mapicalendartimezone) class from a Standard Timezone. |
 
 ## Properties
 

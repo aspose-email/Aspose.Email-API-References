@@ -1,14 +1,14 @@
 ---
 title: AccessToken
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает токен носителя OAuth 2.0
+description: Получает или задает токен носителя OAuth 2.0
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.google/ibasegmailclient/accesstoken/
 ---
 ## IBaseGmailClient.AccessToken property
 
-Получает или устанавливает токен носителя OAuth 2.0
+Получает или задает токен носителя OAuth 2.0
 
 ```csharp
 public string AccessToken { get; set; }

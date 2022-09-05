@@ -1,14 +1,14 @@
 ---
 title: MoveSubfolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Перемещает вложенные папки в новую родительскую папку.
+description: Перемещает подпапки в новую родительскую папку.
 type: docs
 weight: 330
 url: /ru/net/aspose.email.storage.pst/folderinfo/movesubfolders/
 ---
 ## FolderInfo.MoveSubfolders method
 
-Перемещает вложенные папки в новую родительскую папку.
+Перемещает подпапки в новую родительскую папку.
 
 ```csharp
 public void MoveSubfolders(FolderInfo newFolder)

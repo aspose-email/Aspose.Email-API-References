@@ -22,9 +22,9 @@ public void DeleteChildItems(IEnumerable<string> entryIdCollection)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | ANSI文件版本编辑未实现。 |
-| InvalidOperationException | PST 以只读方式打开。 或 要删除的项目不属于此文件夹。 或 无法删除搜索文件夹。 或 无法删除 \Deleted Items\ 文件夹。 或 entryId 不正确。 |
-| ArgumentNullException | entryId;entryId不能为空。 |
+| NotImplementedException | 未实现 ANSI 文件版本编辑。 |
+| InvalidOperationException | PST 以只读方式打开。 或 要删除的项目不属于此文件夹。 或 无法删除搜索文件夹。 或 无法删除\Deleted Items\ 文件夹。 or entryId 不正确。 |
+| ArgumentNullException | entryId;entryId 不能为空。 |
 
 ### 也可以看看
 

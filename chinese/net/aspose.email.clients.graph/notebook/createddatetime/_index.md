@@ -1,14 +1,14 @@
 ---
 title: CreatedDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 笔记本创建的日期和时间 时间戳表示使用 ISO 8601 格式的日期和时间信息并且始终采用 UTC 时间 例如2014 年 1 月 1 日午夜 UTC 将如下所示2014-01-01T000000Z 只读
+description: 笔记本创建的日期和时间 时间戳表示使用 ISO 8601 格式的日期和时间信息并且始终采用 UTC 时间 例如2014 年 1 月 1 日午夜 UTC 将如下所示2014-01 -01T000000Z 只读
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.graph/notebook/createddatetime/
 ---
 ## Notebook.CreatedDateTime property
 
-笔记本创建的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示:'2014-01-01T00:00:00Z'。 只读。
+笔记本创建的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示：'2014-01 -01T00:00:00Z'。 只读。
 
 ```csharp
 public DateTimeOffset CreatedDateTime { get; }

@@ -1,7 +1,7 @@
 ---
 title: TaskCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of Task objects.
 type: docs
 weight: 910
 url: /net/aspose.email.calendar/taskcollection/

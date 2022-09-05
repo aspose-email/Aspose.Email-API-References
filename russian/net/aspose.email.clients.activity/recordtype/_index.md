@@ -19,34 +19,34 @@ public enum RecordType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | ExchangeAdmin | `1` | События из журнала аудита администратора Exchange. |
-| ExchangeItem | `2` | События из журнала аудита почтовых ящиков Exchange для действий, которые выполняются с одним элементом, например создание или получение сообщения электронной почты. |
-| ExchangeItemGroup | `3` | События из журнала аудита почтовых ящиков Exchange для действий, которые можно выполнять над несколькими элементами, например перемещение или удаление одного или нескольких сообщений электронной почты. |
+| ExchangeItem | `2` | События из журнала аудита почтовых ящиков Exchange для действий, выполняемых с одним элементом, например создание или получение сообщения электронной почты. |
+| ExchangeItemGroup | `3` | События из журнала аудита почтовых ящиков Exchange для действий, которые могут быть выполнены с несколькими элементами, например перемещение или удаление одного или нескольких сообщений электронной почты. |
 | SharePoint | `4` | События SharePoint. |
 | SharePointFileOperation | `6` | События файловых операций SharePoint. |
 | AzureActiveDirectory | `8` | События Azure Active Directory. |
 | AzureActiveDirectoryAccountLogon | `9` | События входа в систему Azure Active Directory OrgId (устарело). |
-| DataCenterSecurityCmdlet | `10` | События командлета безопасности Data Center. |
+| DataCenterSecurityCmdlet | `10` | События командлета безопасности центра обработки данных. |
 | ComplianceDLPSharePoint | `11` | События защиты от потери данных (DLP) в SharePoint и OneDrive для бизнеса. |
 | Sway | `12` | События службы Sway и клиентов. |
-| ComplianceDLPExchange | `13` | События защиты от потери данных (DLP) в Exchange при настройке с помощью единой политики DLP. События DLP, основанные на правилах транспорта Exchange, не поддерживаются. |
+| ComplianceDLPExchange | `13` | События защиты от потери данных (DLP) в Exchange при настройке с помощью единой политики защиты от потери данных. События DLP, основанные на правилах транспорта Exchange, не поддерживаются. |
 | SharePointSharingOperation | `14` | События обмена SharePoint. |
-| AzureActiveDirectoryStsLogon | `15` | События входа в службу маркеров безопасности (STS) в Azure Active Directory. |
+| AzureActiveDirectoryStsLogon | `15` | События входа в службу Secure Token Service (STS) в Azure Active Directory. |
 | SecurityComplianceCenterEOPCmdlet | `18` |  |
 | PowerBIAudit | `20` | События Power BI. |
 | CRM | `21` | События Microsoft CRM. |
 | Yammer | `22` | События Yammer. |
-| SkypeForBusinessCmdlets | `23` | События Skype для бизнеса. |
+| SkypeForBusinessCmdlets | `23` | Мероприятия Skype для бизнеса. |
 | Discovery | `24` |  |
 | MicrosoftTeams | `25` | События из Microsoft Teams. |
 | MicrosoftTeamsAddOns | `26` | События из надстроек Microsoft Teams. |
 | MicrosoftTeamsSettingsOperation | `27` | Изменения настроек из Microsoft Teams. |
-| ThreatIntelligence | `28` | События фишинга и вредоносного ПО из Exchange Online Protection и Office 365 Advanced Threat Protection. |
+| ThreatIntelligence | `28` | События фишинга и вредоносных программ от Exchange Online Protection и Office 365 Advanced Threat Protection. |
 | MicrosoftFlow | `30` | События Microsoft Flow. |
 | MicrosoftStream | `32` | События Microsoft Stream. |
 | Project | `35` | События Microsoft Project. |
 | SharepointListOperation | `36` | События списка Sharepoint. |
 | SecurityComplianceAlerts | `40` | Предупреждающие сигналы безопасности и соответствия требованиям. |
-| ThreatIntelligenceUrl | `41` | Безопасные ссылки времени блокировки и события переопределения блокировки из Office 365 Advanced Threat Protection. |
+| ThreatIntelligenceUrl | `41` | Безопасные ссылки на время блокировки и события переопределения блокировки из Office 365 Advanced Threat Protection. |
 | ThreatIntelligenceAtpContent | `47` | События фишинга и вредоносных программ для файлов в SharePoint, OneDrive для бизнеса и Microsoft Teams из Office 365 Advanced Threat Protection. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: ReceivedByEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты получателя сообщения электронной почты. ОбластьСвойства адреса Каноническое имяPidTagReceivedByEmailAddress Альтернативные именаPR_RECEIVED_BY_EMAIL_ADDRESS PR_RECEIVED_BY_EMAIL_ADDRESS_A PR_RECEIVED_BY_EMAIL_ADDRESS_W
+description: Содержит адрес электронной почты получателя сообщения электронной почты. Область Address Properties Каноническое имя PidTagReceivedByEmailAddress Альтернативные имена PR_RECEIVED_BY_EMAIL_ADDRESS PR_RECEIVED_BY_EMAIL_ADDRESS_A PR_RECEIVED_BY_EMAIL_ADDRESS_W
 type: docs
 weight: 15280
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedbyemailaddress/
 ---
 ## KnownPropertyList.ReceivedByEmailAddress field
 
-Содержит адрес электронной почты получателя сообщения электронной почты. Область:Свойства адреса Каноническое имя:PidTagReceivedByEmailAddress Альтернативные имена:PR_RECEIVED_BY_EMAIL_ADDRESS, PR_RECEIVED_BY_EMAIL_ADDRESS_A, PR_RECEIVED_BY_EMAIL_ADDRESS_W
+Содержит адрес электронной почты получателя сообщения электронной почты. Область: Address Properties Каноническое имя: PidTagReceivedByEmailAddress Альтернативные имена: PR_RECEIVED_BY_EMAIL_ADDRESS, PR_RECEIVED_BY_EMAIL_ADDRESS_A, PR_RECEIVED_BY_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByEmailAddress;

@@ -1,14 +1,14 @@
 ---
 title: LastPrinted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC когда файл был распечатан в последний раз. ОбластьОбщие Каноническое имяPidNameLastPrinted Альтернативные именаurnschemas-microsoft-comofficeofficeLastPrinted
+description: Указывает время в формате UTC когда файл был в последний раз напечатан.
 type: docs
 weight: 12040
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastprinted/
 ---
 ## KnownPropertyList.LastPrinted field
 
-Указывает время в формате UTC, когда файл был распечатан в последний раз. Область:Общие Каноническое имя:PidNameLastPrinted Альтернативные имена:urn:schemas-microsoft-com:office:office#LastPrinted
+Указывает время в формате UTC, когда файл был в последний раз напечатан.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastPrinted;

@@ -1,14 +1,14 @@
 ---
 title: EndDateTimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示 EndDate 属性时区的时区信息
+description: 获取或设置表示EndDate属性时区的时区信息
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapicalendar/enddatetimezone/
 ---
 ## MapiCalendar.EndDateTimeZone property
 
-获取或设置指示 EndDate 属性时区的时区信息
+获取或设置表示EndDate属性时区的时区信息
 
 ```csharp
 public MapiCalendarTimeZone EndDateTimeZone { get; set; }

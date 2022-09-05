@@ -1,14 +1,14 @@
 ---
 title: AddressBookNetworkAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个名称列表通过这些名称服务器可以为网络使用的各种传输方式所知 区域地址簿 规范名称PidTagAddressBookNetworkAddress 别名PR_EMS_AB_NETWORK_ADDRESS PR_EMS_AB_NETWORK_ADDRESS_A PR_EMS_AB_NETWORK_ADDRESS_W
+description: 包含一个名称列表通过这些名称服务器可以为网络使用的各种传输方式所知 区域地址簿 规范名称PidTagAddressBookNetworkAddress 备用名称PR_EMS_AB_NETWORK_ADDRESSPR_EMS_AB_NETWORK_ADDRESS_APR_EMS_AB_NETWORK_ADDRESS_W
 type: docs
 weight: 760
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbooknetworkaddress/
 ---
 ## KnownPropertyList.AddressBookNetworkAddress field
 
-包含一个名称列表，通过这些名称，服务器可以为网络使用的各种传输方式所知。 区域:地址簿 规范名称:PidTagAddressBookNetworkAddress 别名:PR_EMS_AB_NETWORK_ADDRESS, PR_EMS_AB_NETWORK_ADDRESS_A, PR_EMS_AB_NETWORK_ADDRESS_W
+包含一个名称列表，通过这些名称，服务器可以为网络使用的各种传输方式所知。 区域：地址簿 规范名称：PidTagAddressBookNetworkAddress 备用名称：PR_EMS_AB_NETWORK_ADDRESS、PR_EMS_AB_NETWORK_ADDRESS_A、PR_EMS_AB_NETWORK_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookNetworkAddress;

@@ -1,14 +1,14 @@
 ---
 title: Created
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置内容可用时的日期时间
+description: 获取或设置内容可用的日期时间
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/contentinfo/created/
 ---
 ## ContentInfo.Created property
 
-获取或设置内容可用时的日期时间。
+获取或设置内容可用的日期时间。
 
 ```csharp
 public DateTime Created { get; set; }

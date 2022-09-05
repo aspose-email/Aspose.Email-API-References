@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/partnervalue/
 ---
 ## AssociatedPersonCategory.PartnerValue field
 
-'合作伙伴'类别的字符串值
+“合作伙伴”类别的字符串值
 
 ```csharp
 public const string PartnerValue;

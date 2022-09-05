@@ -1,14 +1,14 @@
 ---
 title: PageSettingsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Настройки асинхронного метода ImapClient.BeginListMessagesByPage.
+description: Параметры асинхронного метода ImapClient.BeginListMessagesByPage.
 type: docs
 weight: 16640
 url: /ru/net/aspose.email.clients.imap/pagesettingsasync/
 ---
 ## PageSettingsAsync class
 
-Настройки асинхронного метода ImapClient.BeginListMessagesByPage.
+Параметры асинхронного метода ImapClient.BeginListMessagesByPage.
 
 ```csharp
 public class PageSettingsAsync : PageSettings
@@ -24,7 +24,7 @@ public class PageSettingsAsync : PageSettings
 
 | Имя | Описание |
 | --- | --- |
-| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Получает или задает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию. Установите значение true, если вы хотите использовать сортировку по возрастанию, в противном случае установите значение false. |
+| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Получает или задает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию. Установите значение true, если вы хотите использовать сортировку по возрастанию, иначе установите значение false. |
 | [Callback](../../aspose.email.clients.imap/pagesettingsasync/callback) { get; set; } | Ссылается на метод, который будет вызываться после завершения соответствующей асинхронной операции. |
 | [Connection](../../aspose.email.clients.imap/pagesettings/connection) { get; set; } | Подключение к серверу. |
 | [FolderName](../../aspose.email.clients.imap/pagesettings/foldername) { get; set; } | Папка сообщений |

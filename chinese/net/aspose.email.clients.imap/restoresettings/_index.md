@@ -27,19 +27,19 @@ public class RestoreSettings
 | [BeforeItemCallback](../../aspose.email.clients.imap/restoresettings/beforeitemcallback) { get; set; } | 处理下一个项目（消息或文件夹）时调用的回调。 |
 | [Connection](../../aspose.email.clients.imap/restoresettings/connection) { get; set; } | 连接到服务器。 |
 | [Folders](../../aspose.email.clients.imap/restoresettings/folders) { get; set; } | 要恢复的文件夹。 |
-| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/restoresettings/numberofattemptstorrepeat) { get; set; } | 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端尝试根据定义的次数再次重复此操作。 例如如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。 |
+| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/restoresettings/numberofattemptstorrepeat) { get; set; } | 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端会根据定义的次数尝试再次重复此操作。 例如，如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。 |
 | [Options](../../aspose.email.clients.imap/restoresettings/options) { get; set; } | 恢复选项。 |
 | [Recursive](../../aspose.email.clients.imap/restoresettings/recursive) { get; set; } | 表示嵌套文件夹也应该恢复 |
 | [RemoveNonexistentFolders](../../aspose.email.clients.imap/restoresettings/removenonexistentfolders) { get; set; } | 表示应该删除个人存储中没有相同文件夹的邮件文件夹 |
-| [RemoveNonexistentItems](../../aspose.email.clients.imap/restoresettings/removenonexistentitems) { get; set; } | 表示应删除个人存储中没有相等项目的邮件项目 |
-| [RestoreConnection](../../aspose.email.clients.imap/restoresettings/restoreconnection) { get; set; } | 获取或设置值，该值定义在服务器强制关闭连接时是否必须恢复连接 此选项必须与 NumberOfAttemptsToRrepeat 一起使用选项。 |
+| [RemoveNonexistentItems](../../aspose.email.clients.imap/restoresettings/removenonexistentitems) { get; set; } | 表示应该删除个人存储中不相等的邮件项目 |
+| [RestoreConnection](../../aspose.email.clients.imap/restoresettings/restoreconnection) { get; set; } | 获取或设置定义在服务器强制关闭连接时是否必须恢复连接的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用。 |
 | [TimeoutBetweenAttempts](../../aspose.email.clients.imap/restoresettings/timeoutbetweenattempts) { get; set; } | 获取或设置定义尝试再次执行操作之间的超时（以毫秒为单位）的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.imap/restoresettings/op_implicit) | 将可枚举选项转换为类 |
+| [implicit operator](../../aspose.email.clients.imap/restoresettings/op_implicit) | 将可枚举选项转换为 class |
 
 ### 也可以看看
 

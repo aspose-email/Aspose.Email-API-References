@@ -1,14 +1,14 @@
 ---
 title: ViewsEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_VIEWS_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_VIEWS_ENTRYID
 type: docs
 weight: 19290
 url: /ru/net/aspose.email.mapi/knownpropertylist/viewsentryid/
 ---
 ## KnownPropertyList.ViewsEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_VIEWS_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_VIEWS_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewsEntryid;

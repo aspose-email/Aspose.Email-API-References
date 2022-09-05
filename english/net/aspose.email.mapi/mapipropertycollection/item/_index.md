@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the value associated with the specified key.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapipropertycollection/item/

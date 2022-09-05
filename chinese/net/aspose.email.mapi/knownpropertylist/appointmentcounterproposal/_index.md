@@ -1,14 +1,14 @@
 ---
 title: AppointmentCounterProposal
 second_title: Aspose.Email for .NET API 参考
-description: 指示会议响应对象是否为反提议 区域会议 规范名称PidLidAppointmentCounterProposal 替代名称dispidApptCounterProposal
+description: 指示会议响应对象是否为计数器提案 区域Meetings 规范名称PidLidAppointmentCounterProposal 替代名称dispidApptCounterProposal
 type: docs
 weight: 1130
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentcounterproposal/
 ---
 ## KnownPropertyList.AppointmentCounterProposal field
 
-指示会议响应对象是否为反提议。 区域:会议 规范名称:PidLidAppointmentCounterProposal 替代名称:dispidApptCounterProposal
+指示会议响应对象是否为计数器提案。 区域：Meetings 规范名称：PidLidAppointmentCounterProposal 替代名称：dispidApptCounterProposal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentCounterProposal;

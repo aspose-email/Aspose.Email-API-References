@@ -24,9 +24,9 @@ public class ResolveRecipientsOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Availability](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability) { get; set; } | 向服务器指示客户端正在请求空闲/忙碌数据，并标识要检索的空闲/忙碌数据的开始时间和结束时间。 当 ResolveRecipients 请求中包含可用性时，服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息. 如果可用性元素包含在 ResolveRecipients 请求中，则请求还必须包含有效的 StartTime 值和 EndTime 值。 服务器解析请求时，首先解析To元素标识的接收者，然后判断指定时间段内的用户忙/闲信息，然后返回合并空闲忙碌。 |
-| [CertificateRetrieval](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/certificateretrieval) { get; set; } | 指定服务器是否应该为每个已解析的收件人返回 S/MIME 证书。 |
-| [MaxAmbiguousRecipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxambiguousrecipients) { get; set; } | 限制为响应中每个不明确的接收节点返回的建议数量。 MaxAmbiguousRecipients 的值限制在 0–9999 的范围内。 每个模棱两可的接收者节点只收到这么多建议，没有更多。 在 RecipientCount 中返回的收件人计数可以被客户端用来确定该收件人可用的建议总数。 |
+| [Availability](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability) { get; set; } | 向服务器指示客户端正在请求空闲/忙碌数据，并标识要检索的空闲/忙碌数据的开始时间和结束时间。 当可用性包含在 ResolveRecipients 请求中时，服务器会检索空闲/忙碌数据请求中包含的 To 元素中标识的用户的信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息。 如果可用性元素包含在 ResolveRecipients 请求中，则请求还必须包含有效的 StartTime 值和 EndTime 值。 服务器解析请求时，首先解析To元素标识的接收者，然后判断指定时间段内的用户忙/闲信息，然后在MergedFreeBusy中返回忙/闲数据。 |
+| [CertificateRetrieval](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/certificateretrieval) { get; set; } | 指定服务器是否应为每个已解析的收件人返回 S/MIME 证书。 |
+| [MaxAmbiguousRecipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxambiguousrecipients) { get; set; } | 限制为响应中每个不明确的收件人节点返回的建议数。 MaxAmbiguousRecipients 的值限制在 0–9999 的范围内。 每个模棱两可的接收者节点只收到这么多建议，没有更多。 在 RecipientCount 中返回的收件人计数可以被客户端用来确定该收件人可用的建议总数。 |
 | [MaxCertificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxcertificates) { get; set; } | 限制服务器返回的证书总数。 MaxCertificates 的值限制在 0–9999 的范围内。 此限制确保没有单个收件人收到不完整的证书集。 如果在枚举地址列表的证书时达到 MaxCertificates 限制，则该地址列表将不会取回任何证书并返回状态值 8。 |
 | [Picture](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/picture) { get; set; } | 表示客户端请求在服务器响应中返回联系人照片。 协议版本为12.1或14.0时不支持图片。 包含与联系人照片相关的数据。 |
 

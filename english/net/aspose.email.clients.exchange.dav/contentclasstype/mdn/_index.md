@@ -1,7 +1,7 @@
 ---
 title: MDN
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesmdn content class that defines a set of properties for an item that is a Mail Delivery Notification MDN message.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/mdn/

@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The display name of this recipient.
 type: docs
 weight: 30
 url: /net/aspose.email.windows.forms/recipient/displayname/

@@ -1,7 +1,7 @@
 ---
 title: LinkedResources
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the set of embedded resources referred to by this alternate view.
 type: docs
 weight: 40
 url: /net/aspose.email/alternateview/linkedresources/

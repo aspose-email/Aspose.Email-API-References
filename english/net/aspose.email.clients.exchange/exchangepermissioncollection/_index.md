@@ -1,7 +1,7 @@
 ---
 title: ExchangePermissionCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collection of ExchangeBasePermission./exchangebasepermission
 type: docs
 weight: 3430
 url: /net/aspose.email.clients.exchange/exchangepermissioncollection/

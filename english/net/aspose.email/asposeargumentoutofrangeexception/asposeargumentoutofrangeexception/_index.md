@@ -1,12 +1,12 @@
 ---
 title: AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeArgumentOutOfRangeExceptionaspose.email/asposeargumentoutofrangeexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentoutofrangeexception/asposeargumentoutofrangeexception/
 ---
-## AsposeArgumentOutOfRangeException constructor (1 of 7)
+## AsposeArgumentOutOfRangeException() {#constructor}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class.
 
@@ -22,7 +22,7 @@ public AsposeArgumentOutOfRangeException()
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (2 of 7)
+## AsposeArgumentOutOfRangeException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeArgumentOutOfRangeException(string message)
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (3 of 7)
+## AsposeArgumentOutOfRangeException(string, params object[]) {#constructor_5}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeArgumentOutOfRangeException(string format, params object[] paramete
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (4 of 7)
+## AsposeArgumentOutOfRangeException(string, int) {#constructor_3}
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string format, int parameter)
@@ -77,7 +77,7 @@ public AsposeArgumentOutOfRangeException(string format, int parameter)
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (5 of 7)
+## AsposeArgumentOutOfRangeException(string, Exception) {#constructor_4}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -98,7 +98,7 @@ public AsposeArgumentOutOfRangeException(string message, Exception innerExceptio
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (6 of 7)
+## AsposeArgumentOutOfRangeException(string, string) {#constructor_6}
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string message, string paramName)
@@ -117,7 +117,7 @@ public AsposeArgumentOutOfRangeException(string message, string paramName)
 
 ---
 
-## AsposeArgumentOutOfRangeException constructor (7 of 7)
+## AsposeArgumentOutOfRangeException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception.
 

@@ -1,14 +1,14 @@
 ---
 title: AmpAccordion
 second_title: Справочник по Aspose.Email для .NET API
-description: Элемент пользовательского интерфейса облегчающий отображение/скрытие различных разделов.
+description: Элемент пользовательского интерфейса упрощающий отображение/скрытие различных разделов.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.amp/ampaccordion/
 ---
 ## AmpAccordion class
 
-Элемент пользовательского интерфейса, облегчающий отображение/скрытие различных разделов.
+Элемент пользовательского интерфейса, упрощающий отображение/скрытие различных разделов.
 
 ```csharp
 public class AmpAccordion : AmpComponent
@@ -27,17 +27,17 @@ public class AmpAccordion : AmpComponent
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
 | [DisableSessionStates](../../aspose.email.amp/ampaccordion/disablesessionstates) { get; set; } | Установите этот атрибут на аккордеоне усилителя, чтобы отказаться от сохранения свернутого/развернутого состояния аккордеона. |
 | [ExpandSingleSection](../../aspose.email.amp/ampaccordion/expandsinglesection) { get; set; } | Установите этот атрибут на аккордеоне усилителя, чтобы разрешить расширение только одной секции за раз. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| override [RequiredScript](../../aspose.email.amp/ampaccordion/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
+| override [RequiredScript](../../aspose.email.amp/ampaccordion/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
 | [Sections](../../aspose.email.amp/ampaccordion/sections) { get; } | Список разделов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampaccordion/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| override [ToHtml](../../aspose.email.amp/ampaccordion/tohtml)() | Представляет html-версию компонента. |
+| override [ToAmpHtml](../../aspose.email.amp/ampaccordion/toamphtml)() | Представляет HTML-версию компонента amp. |
+| override [ToHtml](../../aspose.email.amp/ampaccordion/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public sealed class FindMessageTrackingReportOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindMessageTrackingReportOptions](findmessagetrackingreportoptions)(string, string) | 初始化[`FindMessageTrackingReportOptions`](../findmessagetrackingreportoptions)类 的新实例 |
+| [FindMessageTrackingReportOptions](findmessagetrackingreportoptions)(string, string) | 初始化[`FindMessageTrackingReportOptions`](../findmessagetrackingreportoptions) class |
 
 ## 特性
 
@@ -26,13 +26,13 @@ public sealed class FindMessageTrackingReportOptions
 | --- | --- |
 | [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/diagnosticslevel) { get; set; } | 获取或设置诊断级别，指定跟踪报告的详细程度。 |
 | [Domain](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/domain) { get; set; } | 获取或设置要搜索的域。 |
-| [EndDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime) { get; set; } | 获取或设置搜索时间段，表示在此值之前发送消息。 |
+| [EndDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime) { get; set; } | 获取或设置搜索时间段，表示该消息是在这个值之前发送的。 |
 | [FederatedDeliveryMailbox](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/federateddeliverymailbox) { get; set; } | 获取或设置跨界消息发送到的邮箱。 |
 | [MessageId](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/messageid) { get; set; } | 获取或设置要搜索的消息标识。 |
 | [Recipient](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/recipient) { get; set; } | 获取或设置接收邮件的人的电子邮件地址。 |
 | [Scope](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/scope) { get; set; } | 获取或设置搜索范围（非空字符串） |
 | [Sender](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/sender) { get; set; } | 获取或设置发送邮件的人的电子邮件地址。 |
-| [StartDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime) { get; set; } | 获取或设置搜索时间段，表示在该值之后发送消息。 |
+| [StartDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime) { get; set; } | 获取或设置搜索时间段，表示消息是在这个值之后发送的。 |
 | [Subject](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject) { get; set; } | 获取或设置要搜索的主题过滤器。 |
 
 ### 也可以看看

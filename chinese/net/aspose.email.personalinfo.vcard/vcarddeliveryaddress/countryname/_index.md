@@ -1,14 +1,14 @@
 ---
 title: CountryName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置国家
+description: 获取或设置一个国家
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname/
 ---
 ## VCardDeliveryAddress.CountryName property
 
-获取或设置国家
+获取或设置一个国家
 
 ```csharp
 public string CountryName { get; set; }

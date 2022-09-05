@@ -16,7 +16,7 @@ public StringComparisonField MessageClass { get; }
 
 ### 适当的价值
 
-[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)表示消息类。
+的[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)表示消息类。
 
 ### 也可以看看
 

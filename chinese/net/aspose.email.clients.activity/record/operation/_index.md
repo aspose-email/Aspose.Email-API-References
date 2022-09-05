@@ -1,14 +1,14 @@
 ---
 title: Operation
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户或管理员活动的名称 有关最常见操作/活动的描述请参阅在 Office 365 保护中心搜索审核日志 对于 Exchange 管理员活动此属性标识已运行的 cmdlet 的名称 对于 Dlp 事件这可以是DlpRuleMatchDlpRuleUndo或DlpInfo它们在下面的DLP 架构下进行了描述 强制是
+description: 获取或设置用户或管理员活动的名称 有关最常见操作/活动的描述请参阅在 Office 365 保护中心搜索审核日志 对于 Exchange 管理员活动此属性标识已运行的 cmdlet 的名称 对于 Dlp 事件这可以是DlpRuleMatchDlpRuleUndo或DlpInfo在下面的DLP 架构下进行了描述 强制是
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activity/record/operation/
 ---
 ## Record.Operation property
 
-获取或设置用户或管理员活动的名称。 有关最常见操作/活动的描述，请参阅在 Office 365 保护中心搜索审核日志。 对于 Exchange 管理员活动，此属性标识已运行的 cmdlet 的名称。 对于 Dlp 事件，这可以是“DlpRuleMatch”、“DlpRuleUndo”或“DlpInfo”，它们在下面的“DLP 架构”下进行了描述。 强制:是
+获取或设置用户或管理员活动的名称。 有关最常见操作/活动的描述，请参阅在 Office 365 保护中心搜索审核日志。 对于 Exchange 管理员活动，此属性标识已运行的 cmdlet 的名称。 对于 Dlp 事件，这可以是“DlpRuleMatch”、“DlpRuleUndo”或“DlpInfo”，在下面的“DLP 架构”下进行了描述。 强制：是
 
 ```csharp
 public string Operation { get; set; }

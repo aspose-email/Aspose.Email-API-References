@@ -1,14 +1,14 @@
 ---
 title: SupplementaryInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дополнительную информацию об уведомлении о состоянии доставки как указано в RFC3464. ОбластьЭлектронная почта Каноническое имяPidTagSupplementaryInfo Альтернативные именаPR_SUPPLEMENTARY_INFO ptagSupplementaryInfo
+description: Содержит дополнительную информацию об уведомлении о состоянии доставки как указано в RFC3464. Область Email Каноническое имя PidTagSupplementaryInfo Альтернативные имена PR_SUPPLEMENTARY_INFO ptagSupplementaryInfo
 type: docs
 weight: 18400
 url: /ru/net/aspose.email.mapi/knownpropertylist/supplementaryinfo/
 ---
 ## KnownPropertyList.SupplementaryInfo field
 
-Содержит дополнительную информацию об уведомлении о состоянии доставки, как указано в [RFC3464]. Область:Электронная почта Каноническое имя:PidTagSupplementaryInfo Альтернативные имена:PR_SUPPLEMENTARY_INFO, ptagSupplementaryInfo
+Содержит дополнительную информацию об уведомлении о состоянии доставки, как указано в [RFC3464]. Область: Email Каноническое имя: PidTagSupplementaryInfo Альтернативные имена: PR_SUPPLEMENTARY_INFO, ptagSupplementaryInfo
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SupplementaryInfo;

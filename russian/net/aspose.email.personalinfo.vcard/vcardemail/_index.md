@@ -3,7 +3,7 @@ title: VCardEmail
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет электронную почту vCard
 type: docs
-weight: 19580
+weight: 19610
 url: /ru/net/aspose.email.personalinfo.vcard/vcardemail/
 ---
 ## VCardEmail class
@@ -18,14 +18,14 @@ public sealed class VCardEmail
 
 | Имя | Описание |
 | --- | --- |
-| [VCardEmail](vcardemail)() | Инициализирует новый экземпляр класса[`VCardEmail`](../vcardemail) |
+| [VCardEmail](vcardemail)() | Инициализирует новый экземпляр[`VCardEmail`](../vcardemail) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [EmailAddress](../../aspose.email.personalinfo.vcard/vcardemail/emailaddress) { get; set; } | Получает или устанавливает адрес электронной почты |
-| [EmailType](../../aspose.email.personalinfo.vcard/vcardemail/emailtype) { get; set; } | Получает или задает тип адреса электронной почты |
+| [EmailType](../../aspose.email.personalinfo.vcard/vcardemail/emailtype) { get; set; } | Получает или задает адрес электронной почты type |
 
 ### Смотрите также
 

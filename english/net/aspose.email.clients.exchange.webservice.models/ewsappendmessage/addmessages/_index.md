@@ -1,12 +1,12 @@
 ---
 title: AddMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add a list of the mail messages to append.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages/
 ---
-## EwsAppendMessage.AddMessages method (1 of 2)
+## AddMessages(IEnumerable&lt;MailMessage&gt;) {#addmessages}
 
 Add a list of the mail messages to append.
 
@@ -23,7 +23,7 @@ public EwsAppendMessage AddMessages(IEnumerable<MailMessage> messages)
 
 ---
 
-## EwsAppendMessage.AddMessages method (2 of 2)
+## AddMessages(IEnumerable&lt;MapiMessage&gt;) {#addmessages_1}
 
 Add a list of the MAPI messages to append.
 

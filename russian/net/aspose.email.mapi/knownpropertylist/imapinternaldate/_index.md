@@ -1,14 +1,14 @@
 ---
 title: ImapInternalDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IMAP_INTERNAL_DATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IMAP_INTERNAL_DATE
 type: docs
 weight: 11250
 url: /ru/net/aspose.email.mapi/knownpropertylist/imapinternaldate/
 ---
 ## KnownPropertyList.ImapInternalDate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IMAP_INTERNAL_DATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IMAP_INTERNAL_DATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ImapInternalDate;

@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the transport message headers
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapimessage/headers/

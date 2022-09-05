@@ -3,7 +3,7 @@ title: EndTimeZone
 second_title: Справочник по Aspose.Email для .NET API
 description: Конечный часовой пояс
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.email.calendar/appointment/endtimezone/
 ---
 ## Appointment.EndTimeZone property

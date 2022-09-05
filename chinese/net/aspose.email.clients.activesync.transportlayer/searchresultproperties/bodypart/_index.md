@@ -1,14 +1,14 @@
 ---
 title: BodyPart
 second_title: Aspose.Email for .NET API 参考
-description: 指定响应中电子邮件消息部分的详细信息
+description: 指定有关回复中电子邮件消息部分的详细信息
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/searchresultproperties/bodypart/
 ---
 ## SearchResultProperties.BodyPart property
 
-指定响应中电子邮件消息部分的详细信息。
+指定有关回复中电子邮件消息部分的详细信息。
 
 ```csharp
 public List<BodyPart> BodyPart { get; }

@@ -17,7 +17,7 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
@@ -44,10 +44,10 @@ public void Backup(IConnection connection, ImapFolderInfoCollection folders, Str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | stream | Stream | Поток для записи |
-| параметры | BackupSettings | Параметры резервного копирования |
+| options | BackupSettings | Параметры резервного копирования |
 
 ### Смотрите также
 
@@ -70,7 +70,7 @@ public void Backup(ImapFolderInfoCollection folders, string fileName, BackupSett
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
 
@@ -94,8 +94,8 @@ public void Backup(ImapFolderInfoCollection folders, Stream stream, BackupSettin
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
-| stream | Stream | Поток для записи в |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
+| stream | Stream | Поток для записи |
 | options | BackupSettings | Параметры резервного копирования |
 
 ### Смотрите также

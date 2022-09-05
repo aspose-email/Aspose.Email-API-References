@@ -27,9 +27,9 @@ public class EmlSaveOptions : SaveOptions
 | [CheckBodyContentEncoding](../../aspose.email/emlsaveoptions/checkbodycontentencoding) { get; set; } | 定义保存时是否需要检查消息体内容编码。 |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | 表示通常由调用方提供并处理进度事件的方法。 |
 | [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode) { get; set; } | 定义内部转换，在保存消息时必须完成。 默认值为 FileCompatibilityMode.None。 |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件信息的保存类型，可以是eml,msg(ASCII or Unicode),mhtml或者html格式。 默认值为 Eml。 |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件消息保存类型。可以是eml,msg(ASCII or Unicode),mhtml 或html 格式。 默认值为Eml。 |
 | [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat) { get; set; } | 获取或设置一个值，该值指示在转换为 MailMessage 时是否需要保留 嵌入消息的格式。 |
-| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | 获取或设置一个值，该值指示是否需要在不更改内容的情况下保存签名消息 以提供正确的数字签名结构。 |
+| [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | 获取或设置一个值，该值指示是否需要在不更改内容的情况下保存已签名的消息 以提供正确的数字签名结构。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CalendarRecurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаCalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence.
+description: Инициализирует новый экземплярCalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/calendarrecurrence/calendarrecurrence/
 ---
 ## CalendarRecurrence() {#constructor}
 
-Инициализирует новый экземпляр класса[`CalendarRecurrence`](../../calendarrecurrence).
+Инициализирует новый экземпляр[`CalendarRecurrence`](../../calendarrecurrence) класс.
 
 ```csharp
 public CalendarRecurrence()
@@ -24,7 +24,7 @@ public CalendarRecurrence()
 
 ## CalendarRecurrence(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CalendarRecurrence`](../../calendarrecurrence).
+Инициализирует новый экземпляр[`CalendarRecurrence`](../../calendarrecurrence) класс.
 
 ```csharp
 public CalendarRecurrence(string pattern)

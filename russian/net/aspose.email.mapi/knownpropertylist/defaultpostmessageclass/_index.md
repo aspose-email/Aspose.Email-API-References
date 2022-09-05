@@ -1,14 +1,14 @@
 ---
 title: DefaultPostMessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит класс сообщения объекта. ОбластьMapiContainer Каноническое имяPidTagDefaultPostMessageClass Альтернативные именаPR_DEF_POST_MSGCLASS
+description: Содержит класс сообщения объекта. Область MapiContainer Каноническое имя PidTagDefaultPostMessageClass Альтернативные имена PR_DEF_POST_MSGCLASS
 type: docs
 weight: 3710
 url: /ru/net/aspose.email.mapi/knownpropertylist/defaultpostmessageclass/
 ---
 ## KnownPropertyList.DefaultPostMessageClass field
 
-Содержит класс сообщения объекта. Область:MapiContainer Каноническое имя:PidTagDefaultPostMessageClass Альтернативные имена:PR_DEF_POST_MSGCLASS
+Содержит класс сообщения объекта. Область: MapiContainer Каноническое имя: PidTagDefaultPostMessageClass Альтернативные имена: PR_DEF_POST_MSGCLASS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DefaultPostMessageClass;

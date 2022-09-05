@@ -1,9 +1,9 @@
 ---
 title: MapiContactEventPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify events associated with a contact
 type: docs
-weight: 18030
+weight: 18240
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactEventPropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset)() | Initializes a new instance of the [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor)() | Initializes a new instance of the [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactEventPropertySet`](../mapicontacteventpropertyset) class |
 
 ## Properties
 

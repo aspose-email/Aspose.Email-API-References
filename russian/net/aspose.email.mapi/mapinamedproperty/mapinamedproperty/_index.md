@@ -1,14 +1,14 @@
 ---
 title: MapiNamedProperty
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiNamedPropertyaspose.email.mapi/mapinamedproperty.
+description: Инициализирует новый экземплярMapiNamedPropertyaspose.email.mapi/mapinamedproperty класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapinamedproperty/mapinamedproperty/
 ---
 ## MapiNamedProperty() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiNamedProperty`](../../mapinamedproperty).
+Инициализирует новый экземпляр[`MapiNamedProperty`](../../mapinamedproperty) класс.
 
 ```csharp
 public MapiNamedProperty()
@@ -24,7 +24,7 @@ public MapiNamedProperty()
 
 ## MapiNamedProperty(long, string, Guid, byte[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`MapiNamedProperty`](../../mapinamedproperty).
+Инициализирует новый экземпляр[`MapiNamedProperty`](../../mapinamedproperty) класс.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyGuid, 
@@ -33,7 +33,7 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyTag | Int64 | Тег свойства представляет собой 32-битное значение, которое содержит тип свойства и идентификатор свойства. Младшие 16 бит представляют тип свойства. Старшие 16 бит представляют идентификатор свойства. |
+| propertyTag | Int64 | Тег свойства представлял собой 32-битное значение, содержащее тип свойства и идентификатор свойства. Младшие 16 бит представляют тип свойства. Старшие 16 бит представляют идентификатор свойства. |
 | nameIdentifier | String | Идентификатор имени, который используется для ссылки на именованное свойство. |
 | propertyGuid | Guid | Уникальный идентификатор свойства. |
 | propertyValue | Byte[] | Значение свойства. |
@@ -48,7 +48,7 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 ## MapiNamedProperty(long, long, Guid, byte[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MapiNamedProperty`](../../mapinamedproperty).
+Инициализирует новый экземпляр[`MapiNamedProperty`](../../mapinamedproperty) класс.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGuid, 
@@ -57,7 +57,7 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyTag | Int64 | Тег свойства представляет собой 32-битное значение, которое содержит тип свойства и идентификатор свойства. Младшие 16 бит представляют тип свойства. Старшие 16 бит представляют идентификатор свойства. |
+| propertyTag | Int64 | Тег свойства представлял собой 32-битное значение, содержащее тип свойства и идентификатор свойства. Младшие 16 бит представляют тип свойства. Старшие 16 бит представляют идентификатор свойства. |
 | nameIdentifier | Int64 | Идентификатор имени, который используется для ссылки на именованное свойство. |
 | propertyGuid | Guid | Уникальный идентификатор свойства. |
 | propertyValue | Byte[] | Значение свойства. |
@@ -72,7 +72,7 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiNamedProperty`](../../mapinamedproperty).
+Инициализирует новый экземпляр[`MapiNamedProperty`](../../mapinamedproperty) класс.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, 
@@ -97,7 +97,7 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiNamedProperty`](../../mapinamedproperty).
+Инициализирует новый экземпляр[`MapiNamedProperty`](../../mapinamedproperty) класс.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, 

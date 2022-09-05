@@ -1,14 +1,14 @@
 ---
 title: NextPage
 second_title: Aspose.Email for .NET API 参考
-description: 下一页的信息如果当前页是最后一页则为 null
+description: 下一页的信息如果当前页是最后一页则为null
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/graphmessagepageinfo/nextpage/
 ---
 ## GraphMessagePageInfo.NextPage property
 
-下一页的信息，如果当前页是最后一页，则为 null
+下一页的信息，如果当前页是最后一页，则为null
 
 ```csharp
 public override PageInfo NextPage { get; }

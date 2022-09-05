@@ -1,9 +1,9 @@
 ---
 title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an attachment entity.
 type: docs
-weight: 18630
+weight: 18840
 url: /net/aspose.email.mapi.msg/messageobjectattachmententity/
 ---
 ## MessageObjectAttachmentEntity class

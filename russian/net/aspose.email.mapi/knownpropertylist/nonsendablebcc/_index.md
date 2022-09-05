@@ -1,14 +1,14 @@
 ---
 title: NonSendableBcc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список всех неотправляемых участников которые также являются ресурсами. ОбластьВстречи Каноническое имяPidLidNonSendableBcc Альтернативные именаdispidNonSendableBCC
+description: Содержит список всех неотправляемых участников которые также являются ресурсами. Область Meetings Каноническое имя PidLidNonSendableBcc Альтернативные имена dispidNonSendableBCC
 type: docs
 weight: 13010
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonsendablebcc/
 ---
 ## KnownPropertyList.NonSendableBcc field
 
-Содержит список всех неотправляемых участников, которые также являются ресурсами. Область:Встречи Каноническое имя:PidLidNonSendableBcc Альтернативные имена:dispidNonSendableBCC
+Содержит список всех неотправляемых участников, которые также являются ресурсами. Область: Meetings Каноническое имя: PidLidNonSendableBcc Альтернативные имена: dispidNonSendableBCC
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendableBcc;

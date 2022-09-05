@@ -1,14 +1,14 @@
 ---
 title: CreateCategory
 second_title: Aspose.Email for .NET API 参考
-description: 在用户的主类别列表中创建OutlookCategoryaspose.email.clients.graph/outlookcategory对象
+description: 创建一个OutlookCategoryaspose.email.clients.graph/outlookcategory用户主类别列表中的对象
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.graph/igraphclient/createcategory/
 ---
 ## IGraphClient.CreateCategory method
 
-在用户的主类别列表中创建[`OutlookCategory`](../../outlookcategory)对象。
+创建一个[`OutlookCategory`](../../outlookcategory)用户主类别列表中的对象。
 
 ```csharp
 public OutlookCategory CreateCategory(string displayName, CategoryPreset preset)
@@ -21,7 +21,7 @@ public OutlookCategory CreateCategory(string displayName, CategoryPreset preset)
 
 ### 返回值
 
-用户可以用来对 Outlook 项目（例如消息和事件）进行分组的类别
+用户可以根据其对 Outlook 项目（例如邮件和事件）进行分组的类别
 
 ### 也可以看看
 

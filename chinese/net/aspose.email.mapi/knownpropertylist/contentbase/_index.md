@@ -1,14 +1,14 @@
 ---
 title: ContentBase
 second_title: Aspose.Email for .NET API 参考
-description: 指定 MIME Content-Base 标头的值它定义了用于解析包含在消息正文中的相对 URL 的基本 URI 区域电子邮件 规范名称PidNameContentBase 备用名称BodyContentBase
+description: 指定 MIME Content-Base 标头的值它定义了用于解析包含在消息正文中的相对 URL 的基本 URI 区域Email 规范名称PidNameContentBase 别名BodyContentBase
 type: docs
 weight: 3150
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentbase/
 ---
 ## KnownPropertyList.ContentBase field
 
-指定 MIME Content-Base 标头的值，它定义了用于解析包含在消息正文中的相对 URL 的基本 URI。 区域:电子邮件 规范名称:PidNameContentBase 备用名称:BodyContentBase
+指定 MIME Content-Base 标头的值，它定义了用于解析包含在消息正文中的相对 URL 的基本 URI。 区域：Email 规范名称：PidNameContentBase 别名：BodyContentBase
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentBase;

@@ -1,12 +1,12 @@
 ---
 title: SaveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches and save the message as a stream
 type: docs
 weight: 350
 url: /net/aspose.email.clients.pop3/pop3client/savemessage/
 ---
-## Pop3Client.SaveMessage method (1 of 8)
+## SaveMessage(IConnection, string, Stream) {#savemessage_2}
 
 Fetches and save the message as a stream
 
@@ -29,7 +29,7 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream outputSt
 
 ---
 
-## Pop3Client.SaveMessage method (2 of 8)
+## SaveMessage(IConnection, string, string) {#savemessage_3}
 
 Fetches and save the message into a file
 
@@ -52,7 +52,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 ---
 
-## Pop3Client.SaveMessage method (3 of 8)
+## SaveMessage(IConnection, int, Stream) {#savemessage}
 
 Fetches and save the message as a stream
 
@@ -75,7 +75,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream outpu
 
 ---
 
-## Pop3Client.SaveMessage method (4 of 8)
+## SaveMessage(IConnection, int, string) {#savemessage_1}
 
 Fetches and save the message into a file
 
@@ -98,7 +98,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 
 ---
 
-## Pop3Client.SaveMessage method (5 of 8)
+## SaveMessage(string, Stream) {#savemessage_6}
 
 Fetches and save the message as a stream
 
@@ -119,7 +119,7 @@ public void SaveMessage(string uniqueId, Stream outputStream)
 
 ---
 
-## Pop3Client.SaveMessage method (6 of 8)
+## SaveMessage(string, string) {#savemessage_7}
 
 Fetches and save the message into a file
 
@@ -140,7 +140,7 @@ public void SaveMessage(string uniqueId, string fileName)
 
 ---
 
-## Pop3Client.SaveMessage method (7 of 8)
+## SaveMessage(int, Stream) {#savemessage_4}
 
 Fetches and save the message as a stream
 
@@ -161,7 +161,7 @@ public void SaveMessage(int sequenceNumber, Stream outputStream)
 
 ---
 
-## Pop3Client.SaveMessage method (8 of 8)
+## SaveMessage(int, string) {#savemessage_5}
 
 Fetches and save the message into a file
 

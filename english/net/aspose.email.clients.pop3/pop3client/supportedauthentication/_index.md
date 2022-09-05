@@ -1,7 +1,7 @@
 ---
 title: SupportedAuthentication
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets enumeration of supported by server authentication types
 type: docs
 weight: 40
 url: /net/aspose.email.clients.pop3/pop3client/supportedauthentication/

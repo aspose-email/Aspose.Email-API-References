@@ -1,7 +1,7 @@
 ---
 title: AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base exceptioon type for Aspose.Email Represents errors that occur during application execution.
 type: docs
 weight: 320
 url: /net/aspose.email/asposeinvalidenumargumentexception/
@@ -18,11 +18,11 @@ public class AsposeInvalidEnumArgumentException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception)() | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception)(Exception) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a reference to the inner exception that is the cause of this exception. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception)(string) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception)(string, Exception) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception)(string, params object[]) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor)() | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_1)(Exception) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_2)(string) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) class with a specified error message. |
 
 ## Properties
 

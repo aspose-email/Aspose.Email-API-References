@@ -1,14 +1,14 @@
 ---
 title: SendAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Асинхронно отправляет электронную почту
+description: Отправляет электронную почту асинхронно
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.deliveryservice/ideliveryserviceclient/sendasync/
 ---
 ## IDeliveryServiceClient.SendAsync method
 
-Асинхронно отправляет электронную почту
+Отправляет электронную почту асинхронно
 
 ```csharp
 public Task<DeliveryServiceResponse<MailMessage>> SendAsync(MailMessage message, 
@@ -17,9 +17,9 @@ public Task<DeliveryServiceResponse<MailMessage>> SendAsync(MailMessage message,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | Сообщение MailMessage, которое представляет электронную почту. сообщение. |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 | tags | List`1 |  |
-| токен | Nullable`1 |  |
+| token | Nullable`1 |  |
 
 ### Смотрите также
 

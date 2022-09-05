@@ -1,14 +1,14 @@
 ---
 title: MailQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailQueryBuilderaspose.email.tools.search/mailquerybuilder.
+description: Инициализирует новый экземплярMailQueryBuilderaspose.email.tools.search/mailquerybuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.search/mailquerybuilder/mailquerybuilder/
 ---
 ## MailQueryBuilder() {#constructor}
 
-Инициализирует новый экземпляр класса[`MailQueryBuilder`](../../mailquerybuilder).
+Инициализирует новый экземпляр[`MailQueryBuilder`](../../mailquerybuilder) класс.
 
 ```csharp
 public MailQueryBuilder()
@@ -24,7 +24,7 @@ public MailQueryBuilder()
 
 ## MailQueryBuilder(Encoding) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MailQueryBuilder`](../../mailquerybuilder).
+Инициализирует новый экземпляр[`MailQueryBuilder`](../../mailquerybuilder) класс.
 
 ```csharp
 public MailQueryBuilder(Encoding defaultEncoding)

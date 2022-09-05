@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/originatornondeliveryreportrequ
 ---
 ## KnownPropertyList.OriginatorNonDeliveryReportRequested field
 
-指定电子邮件发件人是否请求禁止未送达回执。 区域:MIME 属性 规范名称:PidTagOriginatorNonDeliveryReportRequested 替代名称:PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
+指定电子邮件发件人是否请求禁止未送达回执。 区域：MIME 属性 规范名称：PidTagOriginatorNonDeliveryReportRequested 替代名称：PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorNonDeliveryReportRequested;

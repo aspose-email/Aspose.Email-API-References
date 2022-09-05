@@ -24,7 +24,7 @@ public T SetMessages(int startSequenceNumber, int endSequenceNumber)
 
 ## SetMessages(string, string) {#setmessages_4}
 
-Установите диапазон уникальных идентификаторов сообщений.
+Установить диапазон уникальных идентификаторов сообщений.
 
 ```csharp
 public T SetMessages(string startUniqueId, string endUniqueId)

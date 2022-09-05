@@ -1,7 +1,7 @@
 ---
 title: ResultStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates statuses of logged operation.
 type: docs
 weight: 2740
 url: /net/aspose.email.clients.activity/resultstatus/

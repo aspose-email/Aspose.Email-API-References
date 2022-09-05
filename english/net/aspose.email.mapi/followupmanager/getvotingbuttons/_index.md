@@ -1,7 +1,7 @@
 ---
 title: GetVotingButtons
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the available message voting buttons.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/followupmanager/getvotingbuttons/

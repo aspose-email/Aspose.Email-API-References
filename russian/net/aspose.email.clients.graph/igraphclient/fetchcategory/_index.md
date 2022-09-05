@@ -1,14 +1,14 @@
 ---
 title: FetchCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить свойства и отношения указанного объекта outlookCategory.
+description: Получить свойства и взаимосвязи указанного объекта outlookCategory.
 type: docs
 weight: 210
 url: /ru/net/aspose.email.clients.graph/igraphclient/fetchcategory/
 ---
 ## IGraphClient.FetchCategory method
 
-Получить свойства и отношения указанного объекта outlookCategory.
+Получить свойства и взаимосвязи указанного объекта outlookCategory.
 
 ```csharp
 public OutlookCategory FetchCategory(string itemId)
@@ -16,11 +16,11 @@ public OutlookCategory FetchCategory(string itemId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemId | String | Идентификатор извлекаемого элемента |
+| itemId | String | Идентификатор элемента, который необходимо получить |
 
 ### Возвращаемое значение
 
-Категория, указанная идентификатором
+Категория указана по идентификатору
 
 ### Смотрите также
 

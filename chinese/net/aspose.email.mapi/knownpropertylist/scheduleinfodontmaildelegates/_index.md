@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDontMailDelegates
 second_title: Aspose.Email for .NET API 参考
-description: 包含客户端设置为 TRUE 的值无论用户输入如何 区域忙/闲属性 规范名称PidTagScheduleInfoDontMailDelegates 备用名称PR_SCHDINFO_DONT_MAIL_DELEGATES
+description: 包含由客户端设置为 TRUE 的值无论用户输入如何 区域空闲/忙碌属性 规范名称PidTagScheduleInfoDontMailDelegates 替代名称PR_SCHDINFO_DONT_MAIL_DELEGATES
 type: docs
 weight: 16800
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfodontmaildelegates/
 ---
 ## KnownPropertyList.ScheduleInfoDontMailDelegates field
 
-包含客户端设置为 TRUE 的值，无论用户输入如何。 区域:忙/闲属性 规范名称:PidTagScheduleInfoDontMailDelegates 备用名称:PR_SCHDINFO_DONT_MAIL_DELEGATES
+包含由客户端设置为 TRUE 的值，无论用户输入如何。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoDontMailDelegates 替代名称：PR_SCHDINFO_DONT_MAIL_DELEGATES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDontMailDelegates;

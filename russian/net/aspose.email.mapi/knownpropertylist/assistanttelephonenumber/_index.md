@@ -1,14 +1,14 @@
 ---
 title: AssistantTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона административного помощника пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagAssistantTelephoneNumber Альтернативные именаPR_ASSISTANT_TELEPHONE_NUMBER PR_ASSISTANT_TELEPHONE_NUMBER_A
+description: Содержит номер телефона административного помощника пользователя почты. Область Address Properties Каноническое имя PidTagAssistantTelephoneNumber Альтернативные имена PR_ASSISTANT_TELEPHONE_NUMBER PR_ASSISTANT_TELEPHONE_NUMBER_A
 type: docs
 weight: 1450
 url: /ru/net/aspose.email.mapi/knownpropertylist/assistanttelephonenumber/
 ---
 ## KnownPropertyList.AssistantTelephoneNumber field
 
-Содержит номер телефона административного помощника пользователя почты. Область:Свойства адреса Каноническое имя:PidTagAssistantTelephoneNumber Альтернативные имена:PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A,
+Содержит номер телефона административного помощника пользователя почты. Область: Address Properties Каноническое имя: PidTagAssistantTelephoneNumber Альтернативные имена: PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AssistantTelephoneNumber;

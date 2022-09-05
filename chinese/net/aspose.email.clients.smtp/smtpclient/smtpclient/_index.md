@@ -1,14 +1,14 @@
 ---
 title: SmtpClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SmtpClientaspose.email.clients.smtp/smtpclient类的新实例
+description: 初始化SmtpClientaspose.email.clients.smtp/smtpclient类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp/smtpclient/smtpclient/
 ---
 ## SmtpClient() {#constructor}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient()
@@ -24,7 +24,7 @@ public SmtpClient()
 
 ## SmtpClient(Configuration) {#constructor_1}
 
-通过使用初始化[`SmtpClient`](../../smtpclient)类 的新实例配置文件设置。
+初始化[`SmtpClient`](../../smtpclient)使用配置文件设置类 。
 
 ```csharp
 public SmtpClient(Configuration configuration)
@@ -32,7 +32,7 @@ public SmtpClient(Configuration configuration)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| configuration | Configuration | 配置。 |
+| configuration | Configuration | 配置. |
 
 ### 评论
 
@@ -48,7 +48,7 @@ public SmtpClient(Configuration configuration)
 
 ## SmtpClient(string) {#constructor_2}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host)
@@ -68,7 +68,7 @@ public SmtpClient(string host)
 
 ## SmtpClient(string, SecurityOptions) {#constructor_3}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, SecurityOptions securityOptions)
@@ -90,7 +90,7 @@ public SmtpClient(string host, SecurityOptions securityOptions)
 
 ## SmtpClient(string, int) {#constructor_4}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port)
@@ -111,7 +111,7 @@ public SmtpClient(string host, int port)
 
 ## SmtpClient(string, int, SecurityOptions) {#constructor_5}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, SecurityOptions securityOptions)
@@ -134,7 +134,7 @@ public SmtpClient(string host, int port, SecurityOptions securityOptions)
 
 ## SmtpClient(string, string, string) {#constructor_14}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, string password)
@@ -156,7 +156,7 @@ public SmtpClient(string host, string username, string password)
 
 ## SmtpClient(string, string, string, SecurityOptions) {#constructor_15}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, string password, SecurityOptions securityOptions)
@@ -180,7 +180,7 @@ public SmtpClient(string host, string username, string password, SecurityOptions
 
 ## SmtpClient(string, int, string, string) {#constructor_8}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string password)
@@ -203,7 +203,7 @@ public SmtpClient(string host, int port, string username, string password)
 
 ## SmtpClient(string, int, string, string, SecurityOptions) {#constructor_9}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string password, 
@@ -229,7 +229,7 @@ public SmtpClient(string host, int port, string username, string password,
 
 ## SmtpClient(string, string, string, bool) {#constructor_16}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, string authInfo, bool useOAuth)
@@ -252,7 +252,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth)
 
 ## SmtpClient(string, string, string, bool, SecurityOptions) {#constructor_17}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, string authInfo, bool useOAuth, 
@@ -278,7 +278,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth,
 
 ## SmtpClient(string, int, string, string, bool) {#constructor_10}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string authInfo, bool useOAuth)
@@ -302,7 +302,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ## SmtpClient(string, int, string, string, bool, SecurityOptions) {#constructor_11}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, string authInfo, bool useOAuth, 
@@ -329,7 +329,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ## SmtpClient(string, string, ITokenProvider) {#constructor_12}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, ITokenProvider tokenProvider)
@@ -352,7 +352,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider)
 
 ## SmtpClient(string, string, ITokenProvider, SecurityOptions) {#constructor_13}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, string username, ITokenProvider tokenProvider, 
@@ -378,7 +378,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider,
 
 ## SmtpClient(string, int, string, ITokenProvider) {#constructor_6}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, ITokenProvider tokenProvider)
@@ -402,7 +402,7 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 
 ## SmtpClient(string, int, string, ITokenProvider, SecurityOptions) {#constructor_7}
 
-初始化[`SmtpClient`](../../smtpclient)类的新实例。
+初始化[`SmtpClient`](../../smtpclient)类.
 
 ```csharp
 public SmtpClient(string host, int port, string username, ITokenProvider tokenProvider, 

@@ -1,14 +1,14 @@
 ---
 title: IdentityDisplay
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IDENTITY_DISPLAY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IDENTITY_DISPLAY
 type: docs
 weight: 11220
 url: /ru/net/aspose.email.mapi/knownpropertylist/identitydisplay/
 ---
 ## KnownPropertyList.IdentityDisplay field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IDENTITY_DISPLAY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IDENTITY_DISPLAY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IdentityDisplay;

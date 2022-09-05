@@ -1,7 +1,7 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email address type of a Message object. Area Address Properties Canonical name PidTagAddressType Alternate names PR_ADDRTYPE PR_ADDRTYPE_A ptagAddrType PR_ADDRTYPE_W
 type: docs
 weight: 1020
 url: /net/aspose.email.mapi/knownpropertylist/addresstype/

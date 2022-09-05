@@ -18,9 +18,9 @@ public static ASProtocolVersions GetOptions(string uri, NetworkCredential creden
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | URL службы ActiveSync |
-| credentials | NetworkCredential | Учетные данные для подключение к серверу. |
-| supportedServerCommands | String[]& | Выходной параметр, возвращает поддерживаемые команды протокола |
-| supportedServerProtocols | String[]& | Выходной параметр, возвращает поддерживаемые версии протокол |
+| credentials | NetworkCredential | Учетные данные для подключения к серверу. |
+| supportedServerCommands | String[]& | Параметр Out, возвращает поддерживаемые команды протокола |
+| supportedServerProtocols | String[]& | Параметр Out, возвращает поддерживаемые версии протокола |
 
 ### Возвращаемое значение
 

@@ -1,7 +1,7 @@
 ---
 title: Profile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default profile page
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/urllist/profile/

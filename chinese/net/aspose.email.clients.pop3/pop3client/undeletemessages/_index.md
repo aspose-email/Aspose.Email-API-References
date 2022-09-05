@@ -1,14 +1,14 @@
 ---
 title: UndeleteMessages
 second_title: Aspose.Email for .NET API 参考
-description: 取消删除消息 如果任何消息已被 POP3 服务器标记为已删除则它们将被取消标记
+description: 取消删除邮件 如果任何邮件已被 POP3 服务器标记为已删除它们将被取消标记
 type: docs
 weight: 370
 url: /zh/net/aspose.email.clients.pop3/pop3client/undeletemessages/
 ---
 ## UndeleteMessages(IConnection) {#undeletemessages_1}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public void UndeleteMessages(IConnection connection)
@@ -29,7 +29,7 @@ public void UndeleteMessages(IConnection connection)
 
 ## UndeleteMessages() {#undeletemessages}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public void UndeleteMessages()

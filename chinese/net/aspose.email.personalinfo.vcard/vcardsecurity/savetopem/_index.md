@@ -36,7 +36,7 @@ public void SaveToPEM(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存的流。 |
+| stream | Stream | 流式保存。 |
 
 ### 也可以看看
 

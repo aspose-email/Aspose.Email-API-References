@@ -1,7 +1,7 @@
 ---
 title: CalendarExceptionDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies a list of dates that are exceptions to a recurring appointment. Area Common Canonical name PidNameCalendarExceptionDate Alternate names urnschemascalendarexdate
 type: docs
 weight: 2250
 url: /net/aspose.email.mapi/knownpropertylist/calendarexceptiondate/

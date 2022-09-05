@@ -16,12 +16,12 @@ public MapiProperty ExtractProperty(byte[] entryId, long tag)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | Byte[] | 项目的条目ID。 |
+| entryId | Byte[] | 项目的条目 id。 |
 | tag | Int64 | 属性标记。 |
 
 ### 返回值
 
-MapiProperty。
+Mapi 属性。
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: op_GreaterThan
 second_title: Aspose.Email for .NET API 参考
-description: 比较两个LogLevelaspose.email.tools.logging/loglevel对象 并返回一个值指示是否 第一个大于第二个
+description: 比较两个LogLevelaspose.email.tools.logging/loglevel对象 并返回一个值该值指示 第一个是否大于第二个
 type: docs
 weight: 90
 url: /zh/net/aspose.email.tools.logging/loglevel/op_greaterthan/
 ---
 ## LogLevel GreaterThan operator
 
-比较两个[`LogLevel`](../../loglevel)对象 并返回一个值指示是否 第一个大于第二个。
+比较两个[`LogLevel`](../../loglevel)对象 并返回一个值，该值指示 第一个是否大于第二个。
 
 ```csharp
 public static bool operator >(LogLevel l1, LogLevel l2)
@@ -17,11 +17,11 @@ public static bool operator >(LogLevel l1, LogLevel l2)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | l1 | LogLevel | 第一级。 |
-| l2 | LogLevel | 第二级。 |
+| l2 | LogLevel | 第二层。 |
 
 ### 返回值
 
-` l1.Ordinal 的值 > l2.Ordinal`
+的价值`l1.Ordinal > l2.Ordinal`
 
 ### 也可以看看
 

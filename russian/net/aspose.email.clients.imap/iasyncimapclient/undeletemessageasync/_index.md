@@ -1,14 +1,14 @@
 ---
 title: UndeleteMessageAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Помечает сообщение с указанным порядковым номером как неудаляемое
+description: Помечает сообщение с указанным порядковым номером как не удаленное
 type: docs
 weight: 400
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/undeletemessageasync/
 ---
 ## UndeleteMessageAsync(int, long, IConnection, CancellationToken) {#undeletemessageasync}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence = 0, 
@@ -17,9 +17,9 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence =
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | Int64 | Порядковый номер сообщения |
-| modificationSequence | IConnection | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | IConnection | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также
@@ -33,7 +33,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence =
 
 ## UndeleteMessageAsync(string, long, IConnection, CancellationToken) {#undeletemessageasync_1}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как не удаленное.
 
 ```csharp
 public Task UndeleteMessageAsync(string uniqueId, long modificationSequence = 0, 
@@ -42,9 +42,9 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence = 0,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | uniqueId | Int64 | Уникальный идентификатор сообщения |
-| modificationSequence | IConnection | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | IConnection | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

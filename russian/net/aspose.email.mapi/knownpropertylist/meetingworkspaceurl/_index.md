@@ -1,14 +1,14 @@
 ---
 title: MeetingWorkspaceUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес рабочей области для собраний связанной с объектом календаря. ОбластьВстречи Каноническое имяPidLidMeetingWorkspaceUrl Альтернативные именаdispidMWSURL
+description: Указывает URL-адрес рабочей области для собраний связанной с объектом календаря. Область Meetings Каноническое имя PidLidMeetingWorkspaceUrl Альтернативные имена dispidMWSURL
 type: docs
 weight: 12410
 url: /ru/net/aspose.email.mapi/knownpropertylist/meetingworkspaceurl/
 ---
 ## KnownPropertyList.MeetingWorkspaceUrl field
 
-Указывает URL-адрес рабочей области для собраний, связанной с объектом календаря. Область:Встречи Каноническое имя:PidLidMeetingWorkspaceUrl Альтернативные имена:dispidMWSURL
+Указывает URL-адрес рабочей области для собраний, связанной с объектом календаря. Область: Meetings Каноническое имя: PidLidMeetingWorkspaceUrl Альтернативные имена: dispidMWSURL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MeetingWorkspaceUrl;

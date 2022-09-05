@@ -1,7 +1,7 @@
 ---
 title: ChildMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Child messages.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/messagethreadresult/childmessages/

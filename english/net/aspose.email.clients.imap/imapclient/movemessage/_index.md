@@ -1,12 +1,12 @@
 ---
 title: MoveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the messaeg
 type: docs
 weight: 930
 url: /net/aspose.email.clients.imap/imapclient/movemessage/
 ---
-## ImapClient.MoveMessage method (1 of 8)
+## MoveMessage(IConnection, int, string, bool) {#movemessage_1}
 
 Moves the messaeg
 
@@ -31,7 +31,7 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 
 ---
 
-## ImapClient.MoveMessage method (2 of 8)
+## MoveMessage(IConnection, string, string, bool) {#movemessage_3}
 
 Moves the message
 
@@ -56,7 +56,7 @@ public string MoveMessage(IConnection connection, string uniqueId, string folder
 
 ---
 
-## ImapClient.MoveMessage method (3 of 8)
+## MoveMessage(int, string, bool) {#movemessage_5}
 
 Moves the message
 
@@ -78,7 +78,7 @@ public string MoveMessage(int sequenceNumber, string folderName, bool commitDele
 
 ---
 
-## ImapClient.MoveMessage method (4 of 8)
+## MoveMessage(string, string, bool) {#movemessage_7}
 
 Moves the message
 
@@ -100,7 +100,7 @@ public string MoveMessage(string uniqueId, string folderName, bool commitDeletio
 
 ---
 
-## ImapClient.MoveMessage method (5 of 8)
+## MoveMessage(IConnection, int, string) {#movemessage}
 
 Moves the messaeg
 
@@ -123,7 +123,7 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 
 ---
 
-## ImapClient.MoveMessage method (6 of 8)
+## MoveMessage(IConnection, string, string) {#movemessage_2}
 
 Moves the message
 
@@ -146,7 +146,7 @@ public string MoveMessage(IConnection connection, string uniqueId, string folder
 
 ---
 
-## ImapClient.MoveMessage method (7 of 8)
+## MoveMessage(int, string) {#movemessage_4}
 
 Moves the message
 
@@ -167,7 +167,7 @@ public string MoveMessage(int sequenceNumber, string folderName)
 
 ---
 
-## ImapClient.MoveMessage method (8 of 8)
+## MoveMessage(string, string) {#movemessage_6}
 
 Moves the message
 

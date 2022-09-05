@@ -1,14 +1,14 @@
 ---
 title: ReminderFileParameter
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает полный путь звука который ДОЛЖЕН воспроизводить клиент когда напоминание просрочено.
+description: Указывает полный путь к звуку который клиент ДОЛЖЕН воспроизводить когда напоминание просрочено.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.mapi/mapicalendar/reminderfileparameter/
 ---
 ## MapiCalendar.ReminderFileParameter property
 
-Указывает полный путь звука, который ДОЛЖЕН воспроизводить клиент, когда напоминание просрочено.
+Указывает полный путь к звуку, который клиент ДОЛЖЕН воспроизводить, когда напоминание просрочено.
 
 ```csharp
 public string ReminderFileParameter { get; set; }

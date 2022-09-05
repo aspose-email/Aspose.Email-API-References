@@ -16,7 +16,7 @@ public bool Remove(CustomerEvent value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | CustomerEvent | ОбъектObjectдля удаления из списка. |
+| value | CustomerEvent | Object удалить из списка. |
 
 ### Смотрите также
 

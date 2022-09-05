@@ -1,7 +1,7 @@
 ---
 title: Greater
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be greater than the specified value.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/intcomparisonfield/greater/

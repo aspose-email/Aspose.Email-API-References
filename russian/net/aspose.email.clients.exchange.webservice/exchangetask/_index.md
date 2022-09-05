@@ -18,7 +18,7 @@ public sealed class ExchangeTask : Task
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeTask](exchangetask)() | Инициализирует новый экземпляр класса[`ExchangeTask`](../exchangetask). |
+| [ExchangeTask](exchangetask)() | Инициализирует новый экземпляр[`ExchangeTask`](../exchangetask) класс. |
 
 ## Характеристики
 
@@ -39,26 +39,26 @@ public sealed class ExchangeTask : Task
 | [PercentComplete](../../aspose.email.calendar/task/percentcomplete) { get; set; } | Получает или задает процент выполнения задачи. |
 | [Priority](../../aspose.email.calendar/task/priority) { get; set; } | Получает или устанавливает приоритет задачи. |
 | [RecurrencePattern](../../aspose.email.clients.exchange.webservice/exchangetask/recurrencepattern) { get; set; } | Получает или задает информацию о повторении для повторяющейся задачи. |
-| [RelatedTo](../../aspose.email.calendar/task/relatedto) { get; set; } | Получает или устанавливает связанный UID |
-| [ReminderDate](../../aspose.email.clients.exchange.webservice/exchangetask/reminderdate) { get; set; } | Получает или задает дату напоминания о задаче. |
+| [RelatedTo](../../aspose.email.calendar/task/relatedto) { get; set; } | Получает или задает связанный UID |
+| [ReminderDate](../../aspose.email.clients.exchange.webservice/exchangetask/reminderdate) { get; set; } | Получает или устанавливает дату напоминания о задаче. |
 | [SequenceId](../../aspose.email.calendar/task/sequenceid) { get; set; } | Получает или задает идентификатор последовательности. |
 | [StartDate](../../aspose.email.calendar/task/startdate) { get; set; } | Получает или задает дату начала задачи. |
-| [Status](../../aspose.email.clients.exchange.webservice/exchangetask/status) { get; set; } | Получает или задает статус задачи. |
+| [Status](../../aspose.email.clients.exchange.webservice/exchangetask/status) { get; set; } | Получает или устанавливает статус задачи. |
 | [Subject](../../aspose.email.calendar/task/subject) { get; set; } | Получает или задает тему задачи. |
-| [TotalWork](../../aspose.email.clients.exchange.webservice/exchangetask/totalwork) { get; set; } | Получает или задает общий объем работы, которую пользователь ожидает от работы над задачей. |
-| [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | Получает или устанавливает уникальный идентификатор |
+| [TotalWork](../../aspose.email.clients.exchange.webservice/exchangetask/totalwork) { get; set; } | Получает или задает общий объем работы, которую пользователь ожидает выполнить над задачей. |
+| [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | Получает или задает уникальный идентификатор |
 | [UniqueUri](../../aspose.email.clients.exchange.webservice/exchangetask/uniqueuri) { get; set; } | Получает или задает уникальный uri задачи. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.calendar/task/dispose)() | Освободите все ресурсы. |
+| [Dispose](../../aspose.email.calendar/task/dispose)() | Освободить все ресурсы. |
 | [Request](../../aspose.email.calendar/task/request)() | Запрашивает объект. |
 | virtual [Save](../../aspose.email.calendar/task/save)(Stream) | Сохраняет текущий объект в заданный поток, используя формат MSG. |
 | virtual [Save](../../aspose.email.calendar/task/save)(string) | Сохраняет текущий объект в файл в формате MSG. |
 | override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_1)(Stream, TaskSaveFormat) | Сохраняет текущий объект в указанный поток, используя указанный формат. |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_3)(string, TaskSaveFormat) | Сохраняет текущий объект в файл с использованием указанного формата. |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_3)(string, TaskSaveFormat) | Сохраняет текущий объект в файл в указанном формате. |
 
 ### Смотрите также
 

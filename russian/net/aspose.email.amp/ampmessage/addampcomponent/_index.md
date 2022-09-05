@@ -1,14 +1,14 @@
 ---
 title: AddAmpComponent
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавить компонент усилителя в это сообщение.
+description: Добавьте в это сообщение компонент усилителя.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.amp/ampmessage/addampcomponent/
 ---
 ## AmpMessage.AddAmpComponent method
 
-Добавить компонент усилителя в это сообщение.
+Добавьте в это сообщение компонент усилителя.
 
 ```csharp
 public void AddAmpComponent(AmpComponent component)

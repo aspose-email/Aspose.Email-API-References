@@ -1,7 +1,7 @@
 ---
 title: SequenceNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Sequence Number of the EMail message.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.pop3/pop3messageinfo/sequencenumber/

@@ -16,7 +16,7 @@ public string CreateAppointment(Appointment appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public string CreateAppointment(Appointment appointment, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Возвращаемое значение
@@ -68,13 +68,13 @@ public string CreateAppointment(MapiCalendar appointment, string folderUri,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | MapiCalendar | Календарная встреча. |
+| appointment | MapiCalendar | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
-| suppressInvitations | Boolean | Если true, приглашения не будут рассылаться участникам. |
+| suppressInvitations | Boolean | Если true, приглашения не будут отправлены участникам. |
 
 ### Возвращаемое значение
 
-Возвращает PidLidGlobalObjectId в виде строки base64
+Возвращает PidLidGlobalObjectId в виде строки base64.
 
 ### Смотрите также
 

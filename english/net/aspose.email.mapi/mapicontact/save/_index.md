@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves this MapiContactaspose.email.mapi/mapicontact to the vCard file with a default options. The supported vCard version is 2.1
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicontact/save/
 ---
-## MapiContact.Save method (1 of 6)
+## Save(string) {#save_3}
 
 Saves this [`MapiContact`](../../mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
 
@@ -32,7 +32,7 @@ public void Save(string filePath)
 
 ---
 
-## MapiContact.Save method (2 of 6)
+## Save(string, ContactSaveFormat) {#save_4}
 
 Saves this [`MapiContact`](../../mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
 
@@ -61,7 +61,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ---
 
-## MapiContact.Save method (3 of 6)
+## Save(string, ContactSaveOptions) {#save_5}
 
 Saves this [`MapiContact`](../../mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
 
@@ -91,7 +91,7 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ---
 
-## MapiContact.Save method (4 of 6)
+## Save(Stream) {#save}
 
 Saves this [`MapiContact`](../../mapicontact) into the given stream with vCard format. The supported vCard version is 2.1
 
@@ -118,7 +118,7 @@ public void Save(Stream stream)
 
 ---
 
-## MapiContact.Save method (5 of 6)
+## Save(Stream, ContactSaveFormat) {#save_1}
 
 Saves this [`MapiContact`](../../mapicontact) to the given stream with a format using the default options. The supported save format is vCard
 
@@ -148,7 +148,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ---
 
-## MapiContact.Save method (6 of 6)
+## Save(Stream, ContactSaveOptions) {#save_2}
 
 Saves this [`MapiContact`](../../mapicontact) to the given stream using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
 

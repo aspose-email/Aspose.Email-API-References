@@ -1,14 +1,14 @@
 ---
 title: Task
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示内容类 urncontent-classestask 的值
+description: 获取表示内容类 urncontent-classestask. 的值
 type: docs
 weight: 210
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/task/
 ---
 ## ContentClassType.Task property
 
-获取表示内容类 urn:content-classes:task 的值。
+获取表示内容类 urn:content-classes:task. 的值
 
 ```csharp
 public static ContentClassType Task { get; }

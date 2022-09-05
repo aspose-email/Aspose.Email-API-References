@@ -1,7 +1,7 @@
 ---
 title: RecipientTrackingEvent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents details for a specific event in the tracking report.
 type: docs
 weight: 4110
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/

@@ -1,7 +1,7 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the names of the mail users hobbies. Area MapiMailUser Canonical name PidTagHobbies Alternate names PR_HOBBIES PR_HOBBIES_A PR_HOBBIES_W urnschemascontactshobbies
 type: docs
 weight: 10970
 url: /net/aspose.email.mapi/knownpropertylist/hobbies/

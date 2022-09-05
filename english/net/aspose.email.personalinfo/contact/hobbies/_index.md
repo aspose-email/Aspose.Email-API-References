@@ -1,7 +1,7 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a hobbies
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/contact/hobbies/

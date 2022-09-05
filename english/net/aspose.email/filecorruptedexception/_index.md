@@ -1,9 +1,9 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exception that is thrown during file reading when the file appears to be corrupted and impossible to read.
 type: docs
-weight: 17280
+weight: 17450
 url: /net/aspose.email/filecorruptedexception/
 ---
 ## FileCorruptedException class
@@ -18,9 +18,9 @@ public class FileCorruptedException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [FileCorruptedException](filecorruptedexception)() | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class. |
-| [FileCorruptedException](filecorruptedexception)(string) | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class with a specified error message. |
-| [FileCorruptedException](filecorruptedexception)(string, Exception) | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class with a specified error message. |
+| [FileCorruptedException](filecorruptedexception#constructor)() | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class. |
+| [FileCorruptedException](filecorruptedexception#constructor_1)(string) | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class with a specified error message. |
+| [FileCorruptedException](filecorruptedexception#constructor_2)(string, Exception) | Initializes a new instance of the [`FileCorruptedException`](../filecorruptedexception) class with a specified error message. |
 
 ## Properties
 

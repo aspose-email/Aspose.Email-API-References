@@ -16,7 +16,7 @@ public MapiMessage ToMapiMessage()
 
 ### Возвращаемое значение
 
-Результат[`MapiMessage`](../../mapimessage).
+Результирующий[`MapiMessage`](../../mapimessage).
 
 ### Исключения
 

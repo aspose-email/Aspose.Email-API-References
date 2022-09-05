@@ -16,7 +16,7 @@ public void MoveItems(string destinationFolderUri, params string[] itemsUriArray
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destinationFolderUri | String | 项目的新目的地。 |
+| destinationFolderUri | String | 物品的新目的地。 |
 | itemsUriArray | String[] | 项目 uri 数组 |
 
 ### 也可以看看
@@ -37,7 +37,7 @@ public void MoveItems(string destinationFolderUri, bool overwrite, params string
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destinationFolderUri | String | 项目的新目的地。 |
+| destinationFolderUri | String | 物品的新目的地。 |
 | overwrite | Boolean | 指定服务器在处理 MOVE 操作时是否应覆盖现有消息。 |
 | itemsUriArray | String[] | 项目 uri 数组 |
 

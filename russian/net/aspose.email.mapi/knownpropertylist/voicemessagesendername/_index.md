@@ -1,14 +1,14 @@
 ---
 title: VoiceMessageSenderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя вызывающего абонента оставившего вложенное голосовое сообщение согласно системе идентификации вызывающего абонента голосовой сети. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagVoiceMessageSenderName Альтернативные именаInternalSchemaVoiceMessageSenderName
+description: Указывает имя вызывающего абонента оставившего вложенное голосовое сообщение согласно системе идентификации вызывающего абонента голосовой сети. Область Единая система обмена сообщениями Каноническое имя PidTagVoiceMessageSenderName Альтернативные имена InternalSchemaVoiceMessageSenderName
 type: docs
 weight: 19320
 url: /ru/net/aspose.email.mapi/knownpropertylist/voicemessagesendername/
 ---
 ## KnownPropertyList.VoiceMessageSenderName field
 
-Указывает имя вызывающего абонента, оставившего вложенное голосовое сообщение, согласно системе идентификации вызывающего абонента голосовой сети. Область:Единая система обмена сообщениями Каноническое имя:PidTagVoiceMessageSenderName Альтернативные имена:InternalSchemaVoiceMessageSenderName
+Указывает имя вызывающего абонента, оставившего вложенное голосовое сообщение, согласно системе идентификации вызывающего абонента голосовой сети. Область: Единая система обмена сообщениями Каноническое имя: PidTagVoiceMessageSenderName Альтернативные имена: InternalSchemaVoiceMessageSenderName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor VoiceMessageSenderName;

@@ -18,9 +18,9 @@ public class YearlyRecurrencePattern : RecurrencePattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor)() | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类的新实例。 |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_2)(int, CalendarMonth) | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类的新实例。 |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_1)(CalendarDay, CalendarMonth, DayPosition) | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类的新实例。 |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor)() | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类. |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_2)(int, CalendarMonth) | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类. |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_1)(CalendarDay, CalendarMonth, DayPosition) | 初始化[`YearlyRecurrencePattern`](../yearlyrecurrencepattern)类. |
 
 ## 特性
 

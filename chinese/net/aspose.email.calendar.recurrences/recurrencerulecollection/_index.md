@@ -1,14 +1,14 @@
 ---
 title: RecurrenceRuleCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示RecurrenceRule./recurrencerule对象的集合
+description: 代表一个集合RecurrenceRule./recurrencerule对象.
 type: docs
 weight: 780
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerulecollection/
 ---
 ## RecurrenceRuleCollection class
 
-表示[`RecurrenceRule`](../recurrencerule)对象的集合。
+代表一个集合[`RecurrenceRule`](../recurrencerule)对象.
 
 ```csharp
 public class RecurrenceRuleCollection : Collection<RecurrenceRule>
@@ -18,12 +18,12 @@ public class RecurrenceRuleCollection : Collection<RecurrenceRule>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add)() | 将[`RecurrenceRule`](../recurrencerule)添加到集合中。 |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add_1)(RecurrenceRule) | 将[`RecurrenceRule`](../recurrencerule)添加到集合中。 |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add)() | 添加一个[`RecurrenceRule`](../recurrencerule)收藏. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add_1)(RecurrenceRule) | 添加一个[`RecurrenceRule`](../recurrencerule)收藏. |
 
 ### 评论
 
-对应于循环模式的 RRULE 或 EXRULE 部分的集合。
+对应于重复模式的 RRULE 或 EXRULE 部分的集合。
 
 ### 也可以看看
 

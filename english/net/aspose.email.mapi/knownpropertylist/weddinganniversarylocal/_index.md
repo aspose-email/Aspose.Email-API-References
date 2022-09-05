@@ -1,7 +1,7 @@
 ---
 title: WeddingAnniversaryLocal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the wedding anniversary of the contact at midnight in the clients local time zone and is saved without any time zone conversions. Area Contact Properties Canonical name PidLidWeddingAnniversaryLocal Alternate names dispidApptAnniversaryLocal
 type: docs
 weight: 19340
 url: /net/aspose.email.mapi/knownpropertylist/weddinganniversarylocal/

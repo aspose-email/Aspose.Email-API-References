@@ -1,14 +1,14 @@
 ---
 title: ExtractedAddresses
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит XML-документ с одним элементом AddressSet. ОбластьИзвлеченные объекты Каноническое имяPidNameExtractedAddresses Альтернативные именаdispidXmlExtractedAddresses
+description: Содержит XML-документ с одним элементом AddressSet. Область Извлеченные сущности Каноническое имя PidNameExtractedAddresses Альтернативные имена dispidXmlExtractedAddresses
 type: docs
 weight: 10040
 url: /ru/net/aspose.email.mapi/knownpropertylist/extractedaddresses/
 ---
 ## KnownPropertyList.ExtractedAddresses field
 
-Содержит XML-документ с одним элементом AddressSet. Область:Извлеченные объекты Каноническое имя:PidNameExtractedAddresses Альтернативные имена:dispidXmlExtractedAddresses
+Содержит XML-документ с одним элементом AddressSet. Область: Извлеченные сущности Каноническое имя: PidNameExtractedAddresses Альтернативные имена: dispidXmlExtractedAddresses
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedAddresses;

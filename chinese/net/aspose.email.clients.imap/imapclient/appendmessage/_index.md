@@ -1,14 +1,14 @@
 ---
 title: AppendMessage
 second_title: Aspose.Email for .NET API 参考
-description: 将邮件信息上传到当前文件夹 如果当前文件夹尚未指定则使用默认文件夹
+description: 将邮件信息上传到当前文件夹 如果未指定当前文件夹则使用默认文件夹
 type: docs
 weight: 360
 url: /zh/net/aspose.email.clients.imap/imapclient/appendmessage/
 ---
 ## AppendMessage(IConnection, MailMessage) {#appendmessage}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public string AppendMessage(IConnection connection, MailMessage message)
@@ -17,11 +17,11 @@ public string AppendMessage(IConnection connection, MailMessage message)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| message | MailMessage | 邮件到上传 |
+| message | MailMessage | 要上传的邮件 |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public string AppendMessage(IConnection connection, string folderName, MailMessa
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -63,7 +63,7 @@ public string AppendMessage(IConnection connection, string folderName, MailMessa
 
 ## AppendMessage(IConnection, string) {#appendmessage_1}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public string AppendMessage(IConnection connection, string fileName)
@@ -72,11 +72,11 @@ public string AppendMessage(IConnection connection, string fileName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| fileName | String | 文件名 ( *.eml) 将上传的邮件消息 |
+| fileName | String | 将要上传的邮件的文件名 (*.eml) |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -98,12 +98,12 @@ public string AppendMessage(IConnection connection, string folderName, string fi
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| folderName | String | 将接收邮件消息的文件夹 |
-| fileName | String | 文件名 (*. eml) 将上传的邮件消息 |
+| folderName | String | 将接收邮件的文件夹 |
+| fileName | String | 将要上传的邮件的文件名 (*.eml) |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -116,7 +116,7 @@ public string AppendMessage(IConnection connection, string folderName, string fi
 
 ## AppendMessage(MailMessage) {#appendmessage_4}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public string AppendMessage(MailMessage message)
@@ -128,7 +128,7 @@ public string AppendMessage(MailMessage message)
 
 ### 返回值
 
-的唯一 ID附加消息
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -149,12 +149,12 @@ public string AppendMessage(string folderName, MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹将收到邮件 |
+| folderName | String | 将接收邮件的文件夹 |
 | message | MailMessage | 要上传的邮件 |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -167,7 +167,7 @@ public string AppendMessage(string folderName, MailMessage message)
 
 ## AppendMessage(string) {#appendmessage_5}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public string AppendMessage(string fileName)
@@ -175,11 +175,11 @@ public string AppendMessage(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 将上传的邮件的文件名 (*.eml) |
+| fileName | String | 将要上传的邮件的文件名 (*.eml) |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 
@@ -199,12 +199,12 @@ public string AppendMessage(string folderName, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹将收到邮件 |
+| folderName | String | 将接收邮件的文件夹 |
 | fileName | String | 将要上传的邮件的文件名 (*.eml) |
 
 ### 返回值
 
-附加消息的唯一 ID
+附加消息的唯一 id
 
 ### 也可以看看
 

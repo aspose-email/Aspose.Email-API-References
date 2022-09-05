@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classesdocument который определяет набор свойств для элемента являющегося документом например Microsoft Файл Word.
+description: Получает класс содержимого urncontent-classesdocument который определяет набор свойств для элемента являющегося документом например файлом Microsoft Word.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/document/
 ---
 ## ContentClassType.Document property
 
-Получает класс содержимого urn:content-classes:document, который определяет набор свойств для элемента, являющегося документом, например Microsoft Файл Word.
+Получает класс содержимого urn:content-classes:document, который определяет набор свойств для элемента, являющегося документом, например файлом Microsoft® Word.
 
 ```csharp
 public static ContentClassType Document { get; }

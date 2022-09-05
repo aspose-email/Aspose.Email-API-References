@@ -1,9 +1,9 @@
 ---
 title: BackupSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains options for backup operation
 type: docs
-weight: 16180
+weight: 16200
 url: /net/aspose.email.clients.imap/backupsettings/
 ---
 ## BackupSettings class
@@ -18,9 +18,9 @@ public class BackupSettings
 
 | Name | Description |
 | --- | --- |
-| [BackupSettings](backupsettings)() | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
-| [BackupSettings](backupsettings)(BackupOptions) | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
-| [BackupSettings](backupsettings)(bool, bool, int, int) | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
+| [BackupSettings](backupsettings#constructor)() | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
+| [BackupSettings](backupsettings#constructor_1)(BackupOptions) | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
+| [BackupSettings](backupsettings#constructor_2)(bool, bool, int, int) | Initializes a new instance of the [`BackupSettings`](../backupsettings) class |
 
 ## Properties
 

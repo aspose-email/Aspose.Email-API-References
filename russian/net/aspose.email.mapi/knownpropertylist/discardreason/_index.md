@@ -1,14 +1,14 @@
 ---
 title: DiscardReason
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DISCARD_REASON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DISCARD_REASON
 type: docs
 weight: 4070
 url: /ru/net/aspose.email.mapi/knownpropertylist/discardreason/
 ---
 ## KnownPropertyList.DiscardReason field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DISCARD_REASON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DISCARD_REASON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DiscardReason;

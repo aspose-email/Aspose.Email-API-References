@@ -1,14 +1,14 @@
 ---
 title: TaskCustomFlags
 second_title: Aspose.Email for .NET API 参考
-description: 客户端可以设置该属性但对任务相关对象协议没有影响被服务器忽略 区域任务 规范名称PidLidTaskCustomFlags 替代名称dispidTaskCustomFlags
+description: 客户端可以设置这个属性但是对Task-Related Objects Protocol没有影响被服务器忽略 区域Tasks 规范名称PidLidTaskCustomFlags 替代名称dispidTaskCustomFlags
 type: docs
 weight: 18590
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskcustomflags/
 ---
 ## KnownPropertyList.TaskCustomFlags field
 
-客户端可以设置该属性，但对任务相关对象协议没有影响，被服务器忽略。 区域:任务 规范名称:PidLidTaskCustomFlags 替代名称:dispidTaskCustomFlags
+客户端可以设置这个属性，但是对Task-Related Objects Protocol没有影响，被服务器忽略。 区域：Tasks 规范名称：PidLidTaskCustomFlags 替代名称：dispidTaskCustomFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskCustomFlags;

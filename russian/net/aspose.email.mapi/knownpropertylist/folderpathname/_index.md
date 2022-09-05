@@ -1,14 +1,14 @@
 ---
 title: FolderPathname
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FOLDER_PATHNAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FOLDER_PATHNAME
 type: docs
 weight: 10440
 url: /ru/net/aspose.email.mapi/knownpropertylist/folderpathname/
 ---
 ## KnownPropertyList.FolderPathname field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FOLDER_PATHNAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FOLDER_PATHNAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderPathname;

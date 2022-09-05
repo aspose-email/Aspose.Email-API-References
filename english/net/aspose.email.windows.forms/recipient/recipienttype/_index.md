@@ -1,7 +1,7 @@
 ---
 title: RecipientType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: How the recipient will receive this message To CC BCC.
 type: docs
 weight: 40
 url: /net/aspose.email.windows.forms/recipient/recipienttype/

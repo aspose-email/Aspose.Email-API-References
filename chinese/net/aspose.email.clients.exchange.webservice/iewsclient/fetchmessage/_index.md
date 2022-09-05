@@ -20,7 +20,7 @@ public MailMessage FetchMessage(string messageUri)
 
 ### 返回值
 
-返回消息
+返回一条消息
 
 ### 也可以看看
 
@@ -47,14 +47,14 @@ public MailMessage FetchMessage(string messageUri,
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息，如果已找到并设置自定义属性，您可以使用[`Headers`](../../../aspose.email/mailmessage/headers)集合访问它们。
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息，如果已找到并设置自定义属性，您可以使用[`Headers`](../../../aspose.email/mailmessage/headers)收藏。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是` null` 或` 空` |
-| [ExchangeException](../../../aspose.email/exchangeexception) | 无法获取邮件 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`无效的`或者`空的` |
+| [ExchangeException](../../../aspose.email/exchangeexception) | 无法获取消息 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MessageObject
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageObjectaspose.email.mapi.msg/messageobject.
+description: Инициализирует новый экземплярMessageObjectaspose.email.mapi.msg/messageobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi.msg/messageobject/messageobject/
 ---
 ## MessageObject(Stream, MessageObjectLoadFormat) {#constructor}
 
-Инициализирует новый экземпляр класса[`MessageObject`](../../messageobject).
+Инициализирует новый экземпляр[`MessageObject`](../../messageobject) класс.
 
 ```csharp
 public MessageObject(Stream stream, MessageObjectLoadFormat loadFormat)
@@ -17,14 +17,14 @@ public MessageObject(Stream stream, MessageObjectLoadFormat loadFormat)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, из которого инициализируется этот объект. |
-| loadFormat | MessageObjectLoadFormat | Сохраняется объект сообщения исходного формата. |
+| loadFormat | MessageObjectLoadFormat | Объект сообщения исходного формата хранится с. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Если данный поток равен нулю. |
-| ArgumentOutOfRangeException | Если указано*loadFormat*не поддерживается. |
+| ArgumentOutOfRangeException | Если указано*loadFormat* не поддерживается. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public MessageObject(Stream stream, MessageObjectLoadFormat loadFormat)
 
 ## MessageObject(string, MessageObjectLoadFormat) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MessageObject`](../../messageobject).
+Инициализирует новый экземпляр[`MessageObject`](../../messageobject) класс.
 
 ```csharp
 public MessageObject(string fileName, MessageObjectLoadFormat loadFormat)
@@ -46,17 +46,17 @@ public MessageObject(string fileName, MessageObjectLoadFormat loadFormat)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла для чтения. |
-| loadFormat | MessageObjectLoadFormat | Сохраняется объект сообщения исходного формата. |
+| loadFormat | MessageObjectLoadFormat | Объект сообщения исходного формата хранится с. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если указано*loadFormat*не поддерживается. |
+| ArgumentOutOfRangeException | Если указано*loadFormat* не поддерживается. |
 
 ### Примечания
 
-Кроме того, может быть выброшен тот же набор исключений, что и дляFileMode)call.
+Кроме того, может быть выдан тот же набор исключений, что и дляFileMode) звонок.
 
 ### Смотрите также
 

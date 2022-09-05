@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.google/extendedcalendar/colorid/
 ---
 ## ExtendedCalendar.ColorId property
 
-Цвет календаря. Это идентификатор, относящийся к записи в разделе "календарь" определения цветов (см. конечную точку "цвета").
+Цвет календаря. Это идентификатор, относящийся к записи в разделе «календарь» определения цветов (см. конечную точку «цвета»).
 
 ```csharp
 public virtual string ColorId { get; set; }

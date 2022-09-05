@@ -1,14 +1,14 @@
 ---
 title: XMailer
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 X-Mailer 软件 创建电子邮件
+description: 获取或设置 X-Mailer 软件 创建电子邮件消息
 type: docs
 weight: 360
 url: /zh/net/aspose.email/mailmessage/xmailer/
 ---
 ## MailMessage.XMailer property
 
-获取或设置 X-Mailer 软件 创建电子邮件
+获取或设置 X-Mailer 软件 创建电子邮件消息
 
 ```csharp
 public virtual string XMailer { get; set; }

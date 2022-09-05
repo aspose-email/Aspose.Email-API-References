@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Height of element.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampattributes/height/

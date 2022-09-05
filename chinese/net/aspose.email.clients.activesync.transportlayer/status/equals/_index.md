@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activesync.transportlayer/status/equals/
 ---
 ## Equals(Status) {#equals}
 
-判断指定对象是否等于当前对象。
+判断指定对象是否等于当前对象
 
 ```csharp
 public virtual bool Equals(Status other)
@@ -16,11 +16,11 @@ public virtual bool Equals(Status other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Status | 与当前对象比较的对象。 |
+| other | Status | 要与当前对象进行比较的对象。 |
 
 ### 返回值
 
-如果指定对象等于当前对象则为真；否则为假。
+如果指定对象等于当前对象，则为 true；否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public virtual bool Equals(Status other)
 
 ## Equals(object) {#equals_1}
 
-判断指定对象是否等于当前对象。
+判断指定对象是否等于当前对象
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,11 +40,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 与当前对象比较的对象。 |
+| obj | Object | 要与当前对象进行比较的对象。 |
 
 ### 返回值
 
-如果指定对象等于当前对象则为真；否则为假。
+如果指定对象等于当前对象，则为 true；否则为假。
 
 ### 也可以看看
 

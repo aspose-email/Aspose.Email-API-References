@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息的显示名称 收件人或发件人
+description: 获取或设置消息 收件人或发件人的显示名称
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapirecipient/displayname/
 ---
 ## MapiRecipient.DisplayName property
 
-获取或设置消息的显示名称 收件人或发件人。
+获取或设置消息 收件人或发件人的显示名称。
 
 ```csharp
 public string DisplayName { get; set; }
@@ -20,7 +20,7 @@ public string DisplayName { get; set; }
 
 ### 评论
 
-设置值时，MapiMessage.DisplayTo 的值 或MapiMessage.DisplayBcc 或 MapiMessage.DisplayCC 也会根据接收者的类型进行更新。
+设置值时，MapiMessage.DisplayTo 或 MapiMessage.DisplayBcc 或 MapiMessage.DisplayCC 的值 也会根据接收者的类型进行更新。
 
 ### 也可以看看
 

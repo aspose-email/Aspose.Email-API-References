@@ -1,14 +1,14 @@
 ---
 title: UndeleteMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 取消删除消息 如果任何消息已被 POP3 服务器标记为已删除则它们将被取消标记
+description: 取消删除邮件 如果任何邮件已被 POP3 服务器标记为已删除它们将被取消标记
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.pop3/iasyncpop3client/undeletemessagesasync/
 ---
 ## IAsyncPop3Client.UndeleteMessagesAsync method
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public Task UndeleteMessagesAsync(IConnection connection = null, CancellationToken token = default)
@@ -17,7 +17,7 @@ public Task UndeleteMessagesAsync(IConnection connection = null, CancellationTok
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ReminderSignalTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает момент времени когда напоминание переходит из состояния ожидания в состояние просрочено. ОбластьНапоминания Каноническое имяPidLidReminderSignalTime Альтернативные именаdispidReminderNextTime
+description: Определяет момент времени когда напоминание переходит из состояния ожидания в состояние просрочено. Область Reminders Каноническое имя PidLidReminderSignalTime Альтернативные имена dispidReminderNextTime
 type: docs
 weight: 15720
 url: /ru/net/aspose.email.mapi/knownpropertylist/remindersignaltime/
 ---
 ## KnownPropertyList.ReminderSignalTime field
 
-Указывает момент времени, когда напоминание переходит из состояния ожидания в состояние просрочено. Область:Напоминания Каноническое имя:PidLidReminderSignalTime Альтернативные имена:dispidReminderNextTime
+Определяет момент времени, когда напоминание переходит из состояния ожидания в состояние просрочено. Область: Reminders Каноническое имя: PidLidReminderSignalTime Альтернативные имена: dispidReminderNextTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderSignalTime;

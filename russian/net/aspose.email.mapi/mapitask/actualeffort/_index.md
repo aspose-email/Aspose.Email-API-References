@@ -1,14 +1,14 @@
 ---
 title: ActualEffort
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает количество минут которые пользователь фактически потратил на работу над задачей.
+description: Получает или задает количество минут которые пользователь действительно потратил на работу над задачей.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapitask/actualeffort/
 ---
 ## MapiTask.ActualEffort property
 
-Получает или задает количество минут, которые пользователь фактически потратил на работу над задачей.
+Получает или задает количество минут, которые пользователь действительно потратил на работу над задачей.
 
 ```csharp
 public int ActualEffort { get; set; }

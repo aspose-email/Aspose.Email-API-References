@@ -1,7 +1,7 @@
 ---
 title: Classification
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of the classification categories to which the associated Message object has been assigned. Area General Message Properties Canonical name PidLidClassification Alternate names dispidClassification
 type: docs
 weight: 2620
 url: /net/aspose.email.mapi/knownpropertylist/classification/

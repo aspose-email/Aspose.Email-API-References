@@ -26,13 +26,13 @@ url: /zh/net/aspose.email.clients.activity/
 | [ExtendedProperty](./extendedproperty) | 正在更改的设置的扩展属性。 每个属性都有一个名称和值。 |
 | [ModifiedProperty](./modifiedproperty) | 修改属性 |
 | [Notification](./notification) | 对象包含从跨多个数据中心的多个服务器收集的操作和事件的聚合。 |
-| [O365EmailMessageActivity](./o365emailmessageactivity) | 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户。 ATP 和威胁情报源中的每个事件对应于 组织中的用户发送或接收的电子邮件消息，并在传递时从零开始对消息进行检测小时自动清除。 |
-| [O365URLTimeOfClickActivity](./o365urltimeofclickactivity) | 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户。 ATP 和威胁情报源中的每个事件对应于组织中的用户单击的 URL，这些 URL 在基于 Office 365 ATP 的单击时被检测为恶意安全链接保护。 |
-| [ObjectName](./objectname) | 包含由 guid 标识的数据馈送中的对象名称。 |
+| [O365EmailMessageActivity](./o365emailmessageactivity) | 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户. ATP 和威胁情报源中的每个事件对应于 组织中的用户发送或接收的电子邮件，并在传递时和零小时自动清除时对邮件进行检测。 |
+| [O365URLTimeOfClickActivity](./o365urltimeofclickactivity) | 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户. ATP 和威胁情报源中的每个事件对应于组织中用户单击的 URL，这些 URL 在单击时根据 Office 365 ATP 安全链接保护被检测为恶意。 |
+| [ObjectName](./objectname) | 包含由 guids 标识的数据馈送中的对象名称。 |
 | [Record](./record) | 审核日志记录 |
 | [SharePointMetadata](./sharepointmetadata) | 描述有关 SharePoint 或 OneDrive for Business 中包含敏感信息的文档的元数据。 |
-| [Subscription](./subscription) | 对象包含有关订阅的信息以及相关联的 webhook。 |
-| [Webhook](./webhook) | 对象包含有关 webhook |
+| [Subscription](./subscription) | 对象包含有关订阅的信息以及关联的 webhook。 |
+| [Webhook](./webhook) | 对象包含有关 webhook 的信息 |
 ## 接口
 
 | 界面 | 描述 |
@@ -50,7 +50,7 @@ url: /zh/net/aspose.email.clients.activity/
 | [DetectionType](./detectiontype) | 检测类型。 |
 | [DeviceType](./devicetype) | 用于访问 Sway 以触发事件的设备类型。 |
 | [Endpoint](./endpoint) | 触发事件的 Sway 客户端端点类型。 |
-| [EventSource](./eventsource) | 审计事件源 |
+| [EventSource](./eventsource) | 审核事件源 |
 | [FileVerdict](./fileverdict) | 文件恶意软件判决。 |
 | [IdentityType](./identitytype) | 身份类型 |
 | [ItemType](./itemtype) | 审核项目类型 |
@@ -61,12 +61,12 @@ url: /zh/net/aspose.email.clients.activity/
 | [OperationResult](./operationresult) | 运算结果类型 |
 | [ProjectAction](./projectaction) | 项目行动 |
 | [ProjectEntity](./projectentity) | 项目实体 |
-| [RecordType](./recordtype) | 审计记录类型 |
+| [RecordType](./recordtype) | 审核记录类型 |
 | [ResultStatus](./resultstatus) | 表示记录操作的状态。 |
 | [Scope](./scope) | 审核范围 |
 | [SharePointAuditOperation](./sharepointauditoperation) | SharePoint 审计操作 |
 | [SubscriptionStatus](./subscriptionstatus) | 订阅状态 |
-| [SwayAuditOperation](./swayauditoperation) | Sway 审计操作 |
+| [SwayAuditOperation](./swayauditoperation) | 摇摆审计操作 |
 | [UserType](./usertype) | 用户类型 |
 | [WebhookStatus](./webhookstatus) | Webhook 状态 |
 | [Workload](./workload) | 发生活动的 Office 365 服务。 |

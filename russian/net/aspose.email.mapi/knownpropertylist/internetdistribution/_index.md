@@ -1,14 +1,14 @@
 ---
 title: InternetDistribution
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_DISTRIBUTION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_DISTRIBUTION
 type: docs
 weight: 11480
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetdistribution/
 ---
 ## KnownPropertyList.InternetDistribution field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_DISTRIBUTION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_DISTRIBUTION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetDistribution;

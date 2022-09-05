@@ -1,14 +1,14 @@
 ---
 title: ListSubscriptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Эта операция возвращает набор текущих подписок вместе со связанными веб-перехватчиками.
+description: Эта операция возвращает коллекцию текущих подписок вместе со связанными веб-перехватчиками.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.activity/iactivityclient/listsubscriptions/
 ---
 ## IActivityClient.ListSubscriptions method
 
-Эта операция возвращает набор текущих подписок вместе со связанными веб-перехватчиками.
+Эта операция возвращает коллекцию текущих подписок вместе со связанными веб-перехватчиками.
 
 ```csharp
 public Subscription[] ListSubscriptions()

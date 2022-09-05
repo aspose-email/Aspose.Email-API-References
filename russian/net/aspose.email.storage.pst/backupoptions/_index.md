@@ -3,7 +3,7 @@ title: BackupOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет параметры резервного копирования
 type: docs
-weight: 20080
+weight: 20130
 url: /ru/net/aspose.email.storage.pst/backupoptions/
 ---
 ## BackupOptions enumeration
@@ -20,7 +20,7 @@ public enum BackupOptions
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Указывает, что никакие конкретные параметры не указаны |
-| Recursive | `1` | Указывает, что вложенные папки также должны быть скопированы |
+| Recursive | `1` | Указывает, что вложенные папки также должны быть зарезервированы |
 
 ### Смотрите также
 

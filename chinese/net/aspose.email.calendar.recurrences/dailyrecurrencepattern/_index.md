@@ -18,10 +18,10 @@ public class DailyRecurrencePattern : RecurrencePattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_2)(DateTime) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类的新实例。 |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor)(int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类的新实例。 |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_3)(DateTime, int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类的新实例。 |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_1)(int, int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类的新实例。 |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_2)(DateTime) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor)(int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_3)(DateTime, int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_1)(int, int) | 初始化[`DailyRecurrencePattern`](../dailyrecurrencepattern)类. |
 
 ## 特性
 

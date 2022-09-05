@@ -1,7 +1,7 @@
 ---
 title: Gif
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies image/gif media type
 type: docs
 weight: 20
 url: /net/aspose.email.mime/mediatypenames.image/gif/

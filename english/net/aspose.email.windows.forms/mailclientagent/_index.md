@@ -1,9 +1,9 @@
 ---
 title: MailClientAgent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an email client agent.
 type: docs
-weight: 20730
+weight: 20960
 url: /net/aspose.email.windows.forms/mailclientagent/
 ---
 ## MailClientAgent class
@@ -24,8 +24,8 @@ public class MailClientAgent
 
 | Name | Description |
 | --- | --- |
-| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch)(string, string, RecipientCollection) | Launches the agent. |
-| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch)(string, string, RecipientCollection, string[]) | Launches the agent. |
+| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch#launch)(string, string, RecipientCollection) | Launches the agent. |
+| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch#launch_1)(string, string, RecipientCollection, string[]) | Launches the agent. |
 
 ### See Also
 

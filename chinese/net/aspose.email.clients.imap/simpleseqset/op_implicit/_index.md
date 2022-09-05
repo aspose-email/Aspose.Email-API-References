@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 从String到SimpleSeqSet的隐式转换操作
+description: 隐式转换操作来自String至SimpleSeqSetaspose.email.clients.imap/simpleseqset
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/simpleseqset/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-从String到SimpleSeqSet的隐式转换操作
+隐式转换操作来自String至[`SimpleSeqSet`](../../simpleseqset)
 
 ```csharp
 public static implicit operator SimpleSeqSet(string simple)
@@ -20,7 +20,7 @@ public static implicit operator SimpleSeqSet(string simple)
 
 ### 返回值
 
-返回带有搜索值的对象。
+返回具有搜索值的对象。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static implicit operator SimpleSeqSet(string simple)
 
 ## implicit operator {#op_implicit_1}
 
-从[`SimpleSeqSet`](../../simpleseqset)到String的隐式转换操作
+隐式转换操作来自[`SimpleSeqSet`](../../simpleseqset)至String
 
 ```csharp
 public static implicit operator string(SimpleSeqSet simple)

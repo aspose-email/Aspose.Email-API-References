@@ -1,7 +1,7 @@
 ---
 title: AppointmentCounterProposal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a Meeting Response object is a counter proposal.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendar/appointmentcounterproposal/

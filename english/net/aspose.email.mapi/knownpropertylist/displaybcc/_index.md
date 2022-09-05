@@ -1,7 +1,7 @@
 ---
 title: DisplayBcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of blind carbon copy Bcc recipient display names. Area Message Properties Canonical name PidTagDisplayBcc Alternate names PR_DISPLAY_BCC PR_DISPLAY_BCC_A ptagDisplayBcc PR_DISPLAY_BCC_W
 type: docs
 weight: 4120
 url: /net/aspose.email.mapi/knownpropertylist/displaybcc/

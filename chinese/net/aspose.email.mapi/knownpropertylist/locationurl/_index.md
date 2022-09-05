@@ -1,14 +1,14 @@
 ---
 title: LocationUrl
 second_title: Aspose.Email for .NET API 参考
-description: 区域日历 规范名称PidNameLocationUrl 备用名称urnschemas日历locationurl LocationUrl
+description: 区域Calendar 规范名称PidNameLocationUrl 备用名称urnschemascalendarlocationurl LocationUrl
 type: docs
 weight: 12200
 url: /zh/net/aspose.email.mapi/knownpropertylist/locationurl/
 ---
 ## KnownPropertyList.LocationUrl field
 
-区域:日历 规范名称:PidNameLocationUrl 备用名称:urn:schemas:日历:locationurl, LocationUrl
+区域：Calendar 规范名称：PidNameLocationUrl 备用名称：urn:schemas:calendar:locationurl, LocationUrl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LocationUrl;

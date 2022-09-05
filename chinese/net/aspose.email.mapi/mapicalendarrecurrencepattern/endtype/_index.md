@@ -1,14 +1,14 @@
 ---
 title: EndType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置循环的结束类型
+description: 获取或设置重复的结束类型
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencepattern/endtype/
 ---
 ## MapiCalendarRecurrencePattern.EndType property
 
-获取或设置循环的结束类型。
+获取或设置重复的结束类型。
 
 ```csharp
 public MapiCalendarRecurrenceEndType EndType { get; set; }

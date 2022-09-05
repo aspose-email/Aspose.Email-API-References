@@ -1,14 +1,14 @@
 ---
 title: AddressBookProviderEmailList
 second_title: Aspose.Email for .NET API 参考
-description: 指定在联系人对象上设置哪些电子地址属性 区域联系人属性 规范名称PidLidAddressBookProviderEmailList 替代名称dispidABPEmailList
+description: 指定在联系人对象上设置哪些电子地址属性 区域联系人属性 规范名称PidLidAddressBookProviderEmailList 备用名称dispidABPEmailList
 type: docs
 weight: 890
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookprovideremaillist/
 ---
 ## KnownPropertyList.AddressBookProviderEmailList field
 
-指定在联系人对象上设置哪些电子地址属性。 区域:联系人属性 规范名称:PidLidAddressBookProviderEmailList 替代名称:dispidABPEmailList
+指定在联系人对象上设置哪些电子地址属性。 区域：联系人属性 规范名称：PidLidAddressBookProviderEmailList 备用名称：dispidABPEmailList
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AddressBookProviderEmailList;

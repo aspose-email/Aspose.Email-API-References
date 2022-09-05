@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API 参考
-description: 获取 System.Collections.Generic.ICollection 中包含的元素数
+description: 获取 System.Collections.Generic.ICollection. 中包含的元素数
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/knownpropertylist/count/
 ---
 ## KnownPropertyList.Count property
 
-获取 System.Collections.Generic.ICollection 中包含的元素数。
+获取 System.Collections.Generic.ICollection. 中包含的元素数
 
 ```csharp
 public int Count { get; }

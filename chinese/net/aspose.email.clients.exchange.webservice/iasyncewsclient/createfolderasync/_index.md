@@ -21,7 +21,7 @@ public Task<ExchangeFolderInfo> CreateFolderAsync(string parentFolderUri, string
 | parentFolderUri | String | 父文件夹的 URI |
 | name | String | 新文件夹的名称 |
 | permissions | ExchangeFolderPermissionCollection | 新文件夹的权限 |
-| folderClass | String | 新文件夹的类 |
+| folderClass | String | 新建文件夹的类 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值

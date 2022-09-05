@@ -1,7 +1,7 @@
 ---
 title: UnselectSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether UNSELECT extension is supported See more https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 330
 url: /net/aspose.email.clients.imap/imapclient/unselectsupported/

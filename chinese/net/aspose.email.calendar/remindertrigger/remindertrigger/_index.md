@@ -1,14 +1,14 @@
 ---
 title: ReminderTrigger
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ReminderTriggeraspose.email.calendar/remindertrigger类的新实例
+description: 初始化一个新的实例ReminderTriggeraspose.email.calendar/remindertrigger类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/remindertrigger/remindertrigger/
 ---
 ## ReminderTrigger(DateTime) {#constructor_1}
 
-初始化[`ReminderTrigger`](../../remindertrigger)类的新实例。
+初始化一个新的实例[`ReminderTrigger`](../../remindertrigger)类.
 
 ```csharp
 public ReminderTrigger(DateTime dateTime)
@@ -28,7 +28,7 @@ public ReminderTrigger(DateTime dateTime)
 
 ## ReminderTrigger(ReminderDuration, ReminderRelated) {#constructor}
 
-初始化[`ReminderTrigger`](../../remindertrigger)类的新实例。
+初始化一个新的实例[`ReminderTrigger`](../../remindertrigger)类.
 
 ```csharp
 public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
@@ -37,7 +37,7 @@ public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | duration | ReminderDuration | 指定触发警报的相对时间。 |
-| related | ReminderRelated | 指定警报触发器相对于事件开始或结束的关系。 |
+| related | ReminderRelated | 指定警报触发器与事件开始或结束的关系。 |
 
 ### 也可以看看
 

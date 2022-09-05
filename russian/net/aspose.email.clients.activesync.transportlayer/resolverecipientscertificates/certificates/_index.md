@@ -1,14 +1,14 @@
 ---
 title: Certificates
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список сертификатов X509 в виде больших двоичных объектов BLOB. Этот элемент возвращается сервером только если клиент указывает значение 2 в CertificateRetrieval в командном запросе ResolveRecipients.
+description: Содержит список сертификатов X509 в виде большого двоичного объекта BLOB. Этот элемент возвращается сервером только если клиент указывает значение 2 в CertificateRetrieval в запросе команды ResolveRecipients.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates/
 ---
 ## ResolveRecipientsCertificates.Certificates property
 
-Содержит список сертификатов X509 в виде больших двоичных объектов (BLOB). Этот элемент возвращается сервером, только если клиент указывает значение 2 в CertificateRetrieval в командном запросе ResolveRecipients.
+Содержит список сертификатов X509 в виде большого двоичного объекта (BLOB). Этот элемент возвращается сервером, только если клиент указывает значение 2 в CertificateRetrieval в запросе команды ResolveRecipients.
 
 ```csharp
 public List<byte[]> Certificates { get; }

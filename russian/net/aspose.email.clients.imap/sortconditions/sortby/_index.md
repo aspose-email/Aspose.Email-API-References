@@ -1,14 +1,14 @@
 ---
 title: SortBy
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает критерии сортировки
+description: Получает или задает критерий сортировки
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/sortconditions/sortby/
 ---
 ## SortConditions.SortBy property
 
-Получает или задает критерии сортировки
+Получает или задает критерий сортировки
 
 ```csharp
 public SortingKey SortBy { get; set; }

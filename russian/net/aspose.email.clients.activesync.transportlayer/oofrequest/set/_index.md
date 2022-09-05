@@ -1,14 +1,14 @@
 ---
 title: Set
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает настройки информации об отсутствии на сервере.
+description: Задает настройки информации об отсутствии на сервере.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/oofrequest/set/
 ---
 ## OOFRequest.Set property
 
-Устанавливает настройки информации об отсутствии на сервере.
+Задает настройки информации об отсутствии на сервере.
 
 ```csharp
 public OOFSettings Set { get; set; }

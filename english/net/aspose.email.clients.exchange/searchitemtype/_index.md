@@ -1,7 +1,7 @@
 ---
 title: SearchItemType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the item type values to limit search results to only a specific type of item.
 type: docs
 weight: 3560
 url: /net/aspose.email.clients.exchange/searchitemtype/

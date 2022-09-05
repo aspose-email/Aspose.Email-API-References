@@ -3,7 +3,7 @@ title: MailQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет построитель поискового выражения.
 type: docs
-weight: 20700
+weight: 20750
 url: /ru/net/aspose.email.tools.search/mailquerybuilder/
 ---
 ## MailQueryBuilder class
@@ -18,8 +18,8 @@ public class MailQueryBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [MailQueryBuilder](mailquerybuilder#constructor)() | Инициализирует новый экземпляр класса[`MailQueryBuilder`](../mailquerybuilder). |
-| [MailQueryBuilder](mailquerybuilder#constructor_1)(Encoding) | Инициализирует новый экземпляр класса[`MailQueryBuilder`](../mailquerybuilder). |
+| [MailQueryBuilder](mailquerybuilder#constructor)() | Инициализирует новый экземпляр[`MailQueryBuilder`](../mailquerybuilder) класс. |
+| [MailQueryBuilder](mailquerybuilder#constructor_1)(Encoding) | Инициализирует новый экземпляр[`MailQueryBuilder`](../mailquerybuilder) класс. |
 
 ## Характеристики
 
@@ -31,8 +31,8 @@ public class MailQueryBuilder
 | [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Получает кодировку (набор символов) по умолчанию для построителя запросов |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле FROM структуры конверта. |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Получает поле, позволяющее находить сообщения по внутренней дате. |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
 
@@ -45,7 +45,7 @@ public class MailQueryBuilder
 
 ### Примечания
 
-Примечание. По умолчанию результатом является пересечение (функция И) всех совпадающих сообщений эти ключи. Для соединения ключей по ИЛИ используйте метод Or() этого класса
+Примечание. По умолчанию результатом является пересечение (функция И) всех сообщений, соответствующих этим ключам. Для соединения ключей по ИЛИ используйте метод Or() этого класса
 
 ### Смотрите также
 

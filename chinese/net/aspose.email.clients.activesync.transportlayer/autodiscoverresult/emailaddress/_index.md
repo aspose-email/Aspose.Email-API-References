@@ -1,14 +1,14 @@
 ---
 title: EMailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含用户的 SMTP 电子邮件地址用于标识用户在网络中的邮箱
+description: 包含用户的 SMTP 电子邮件地址用于识别用户在网络中的邮箱
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/emailaddress/
 ---
 ## AutodiscoverResult.EMailAddress property
 
-包含用户的 SMTP 电子邮件地址，用于标识用户在网络中的邮箱。
+包含用户的 SMTP 电子邮件地址，用于识别用户在网络中的邮箱。
 
 ```csharp
 public string EMailAddress { get; }

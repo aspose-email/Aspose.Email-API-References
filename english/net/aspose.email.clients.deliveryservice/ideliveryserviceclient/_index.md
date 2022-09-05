@@ -1,7 +1,7 @@
 ---
 title: IDeliveryServiceClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents contract for DeliveryServiceClient
 type: docs
 weight: 2960
 url: /net/aspose.email.clients.deliveryservice/ideliveryserviceclient/

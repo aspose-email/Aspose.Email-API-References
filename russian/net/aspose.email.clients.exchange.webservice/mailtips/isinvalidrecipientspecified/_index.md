@@ -1,14 +1,14 @@
 ---
 title: IsInvalidRecipientSpecified
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее указан лиInvalidRecipientaspose.email.clients.exchange.webservice/mailtips/invalidrecipient
+description: Получает значение указывающееInvalidRecipientaspose.email.clients.exchange.webservice/mailtips/invalidrecipient указан
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified/
 ---
 ## MailTips.IsInvalidRecipientSpecified property
 
-Получает значение, указывающее, указан ли[`InvalidRecipient`](../invalidrecipient)
+Получает значение, указывающее,[`InvalidRecipient`](../invalidrecipient) указан
 
 ```csharp
 public bool IsInvalidRecipientSpecified { get; }

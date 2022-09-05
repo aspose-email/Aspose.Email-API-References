@@ -17,7 +17,7 @@ public static bool operator ==(EmailAddressCategory a, EmailAddressCategory b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | EmailAddressCategory | Первый объект для сравнения |
-| b | EmailAddressCategory | Второй объект для сравнения compare |
+| b | EmailAddressCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

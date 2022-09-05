@@ -1,12 +1,12 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the EmailAddressaspose.email.personalinfo/emailaddress class.
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo/emailaddress/emailaddress/
 ---
-## EmailAddress constructor (1 of 3)
+## EmailAddress() {#constructor}
 
 Initializes a new instance of the [`EmailAddress`](../../emailaddress) class.
 
@@ -22,7 +22,7 @@ public EmailAddress()
 
 ---
 
-## EmailAddress constructor (2 of 3)
+## EmailAddress(string) {#constructor_1}
 
 Initializes a new instance of the [`EmailAddress`](../../emailaddress) class.
 
@@ -42,7 +42,7 @@ public EmailAddress(string address)
 
 ---
 
-## EmailAddress constructor (3 of 3)
+## EmailAddress(string, string) {#constructor_2}
 
 Initializes a new instance of the [`EmailAddress`](../../emailaddress) class.
 

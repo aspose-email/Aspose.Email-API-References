@@ -1,14 +1,14 @@
 ---
 title: RefreshToken
 second_title: Справочник по Aspose.Email для .NET API
-description: Обновить маркер доступа
+description: Обновить токен доступа
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.google/ibasegmailclient/refreshtoken/
 ---
 ## IBaseGmailClient.RefreshToken method
 
-Обновить маркер доступа
+Обновить токен доступа
 
 ```csharp
 public void RefreshToken()

@@ -1,7 +1,7 @@
 ---
 title: OperationResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Types of operation result
 type: docs
 weight: 2690
 url: /net/aspose.email.clients.activity/operationresult/

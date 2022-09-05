@@ -1,7 +1,7 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates AppendMessagesAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync methods parameter set.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/create/

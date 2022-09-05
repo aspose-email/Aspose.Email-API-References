@@ -1,14 +1,14 @@
 ---
 title: RecipientProposedStartTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время начала собрания запрошенное участником во встречном предложении. ОбластьTransportRecipient Каноническое имяPidTagRecipientProposedStartTime Альтернативные именаPR_RECIPIENT_PROPOSEDSTARTTIME ptagRecipientProposedStartTime
+description: Указывает время начала собрания запрошенное участником во встречном предложении. Область TransportRecipient Каноническое имя PidTagRecipientProposedStartTime Альтернативные имена PR_RECIPIENT_PROPOSEDSTARTTIME ptagRecipientProposedStartTime
 type: docs
 weight: 15510
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientproposedstarttime/
 ---
 ## KnownPropertyList.RecipientProposedStartTime field
 
-Указывает время начала собрания, запрошенное участником во встречном предложении. Область:TransportRecipient Каноническое имя:PidTagRecipientProposedStartTime Альтернативные имена:PR_RECIPIENT_PROPOSEDSTARTTIME, ptagRecipientProposedStartTime
+Указывает время начала собрания, запрошенное участником во встречном предложении. Область: TransportRecipient Каноническое имя: PidTagRecipientProposedStartTime Альтернативные имена: PR_RECIPIENT_PROPOSEDSTARTTIME, ptagRecipientProposedStartTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposedStartTime;

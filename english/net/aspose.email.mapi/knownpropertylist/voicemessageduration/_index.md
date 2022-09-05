@@ -1,7 +1,7 @@
 ---
 title: VoiceMessageDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the length of the attached audio message in seconds. Area Unified Messaging Canonical name PidTagVoiceMessageDuration Alternate names InternalSchemaVoiceMessageDuration
 type: docs
 weight: 19310
 url: /net/aspose.email.mapi/knownpropertylist/voicemessageduration/

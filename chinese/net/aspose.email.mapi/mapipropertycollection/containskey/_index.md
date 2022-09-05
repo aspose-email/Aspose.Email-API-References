@@ -20,7 +20,7 @@ public bool ContainsKey(long key)
 
 ### 返回值
 
-如果集合包含带有标签的属性，则为 true；否则，假
+如果集合包含带有标签的属性，则为 true；否则为假
 
 ### 也可以看看
 

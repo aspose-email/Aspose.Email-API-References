@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/inreplytoid/
 ---
 ## KnownPropertyList.InReplyToId field
 
-包含原始消息的 PidTagInternetMessageId 属性（第 2.739 节）值的值。 区域:常规消息属性 规范名称:PidTagInReplyToId 替代名称:PR_IN_REPLY_TO_ID、PR_IN_REPLY_TO_ID_A、PR_IN_REPLY_TO_ID_W
+包含原始消息的 PidTagInternetMessageId 属性（第 2.739 节）值的值。 区域：常规消息属性 规范名称：PidTagInReplyToId 替代名称：PR_IN_REPLY_TO_ID、PR_IN_REPLY_TO_ID_A、PR_IN_REPLY_TO_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InReplyToId;

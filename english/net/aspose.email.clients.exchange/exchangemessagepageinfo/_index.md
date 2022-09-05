@@ -1,7 +1,7 @@
 ---
 title: ExchangeMessagePageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about retrieved page when paging methods are used.
 type: docs
 weight: 3420
 url: /net/aspose.email.clients.exchange/exchangemessagepageinfo/

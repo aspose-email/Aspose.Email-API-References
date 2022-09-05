@@ -1,7 +1,7 @@
 ---
 title: XSharingProviderGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the hexadecimal string representation of the value of the PidLidSharingProviderGuid property section 2.266. Area Sharing Canonical name PidNameXSharingProviderGuid Alternate names
 type: docs
 weight: 19780
 url: /net/aspose.email.mapi/knownpropertylist/xsharingproviderguid/

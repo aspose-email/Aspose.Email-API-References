@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a vCard version
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcardsaveoptions/version/

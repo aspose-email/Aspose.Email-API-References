@@ -1,14 +1,14 @@
 ---
 title: BitwiseOr
 second_title: Aspose.Email for .NET API 参考
-description: 实现运算符 x7C
+description: 实现运算符 x7C.
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/bitwiseor/
 ---
 ## BitwiseOr(ImapMessageFlags, ImapMessageFlags) {#bitwiseor}
 
-实现运算符 &#x7C;。
+实现运算符 &#x7C;.
 
 ```csharp
 public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, ImapMessageFlags b)
@@ -33,7 +33,7 @@ public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, ImapMessageFlags b)
 
 ## BitwiseOr(ImapMessageFlags, string) {#bitwiseor_1}
 
-实现运算符 &#x7C;。
+实现运算符 &#x7C;.
 
 ```csharp
 public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, string b)
@@ -58,7 +58,7 @@ public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, string b)
 
 ## BitwiseOr(string, ImapMessageFlags) {#bitwiseor_2}
 
-实现运算符 &#x7C;。
+实现运算符 &#x7C;.
 
 ```csharp
 public static ImapMessageFlags BitwiseOr(string a, ImapMessageFlags b)

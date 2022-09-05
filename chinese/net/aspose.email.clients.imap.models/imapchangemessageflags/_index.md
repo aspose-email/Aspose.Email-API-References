@@ -1,14 +1,14 @@
 ---
 title: ImapChangeMessageFlags
 second_title: Aspose.Email for .NET API 参考
-description: AddMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasyncChangeMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync ImapChangeMessageFlags方法参数集
+description: AddMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync ChangeMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync  RemoveMessageFlagsAsync../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync方法参数集.
 type: docs
 weight: 16540
 url: /zh/net/aspose.email.clients.imap.models/imapchangemessageflags/
 ---
 ## ImapChangeMessageFlags class
 
-[`AddMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync),[`ChangeMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync), ImapChangeMessageFlags)方法参数集。
+[`AddMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync) ,[`ChangeMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/changemessageflagsasync) , [`RemoveMessageFlagsAsync`](../../aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync)方法参数集.
 
 ```csharp
 public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
@@ -18,7 +18,7 @@ public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapchangemessageflags/create)() | 创建[`ImapChangeMessageFlags`](../imapchangemessageflags)实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapchangemessageflags/create)() | 创建[`ImapChangeMessageFlags`](../imapchangemessageflags)实例. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetFlags](../../aspose.email.clients.imap.models/imapchangemessageflags/setflags)(ImapMessageFlags) | 设置要更改的标志。 |
@@ -29,7 +29,7 @@ public class ImapChangeMessageFlags : ImapMessageSet<ImapChangeMessageFlags>
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(IEnumerable&lt;string&gt;) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(int, int) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(string, string) |  |
-| [SetModificationSequence](../../aspose.email.clients.imap.models/imapchangemessageflags/setmodificationsequence)(long) | 设置修改顺序。 |
+| [SetModificationSequence](../../aspose.email.clients.imap.models/imapchangemessageflags/setmodificationsequence)(long) | 设置修改顺序 |
 
 ### 也可以看看
 

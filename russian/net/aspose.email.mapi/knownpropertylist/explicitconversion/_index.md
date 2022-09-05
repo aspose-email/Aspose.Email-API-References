@@ -1,14 +1,14 @@
 ---
 title: ExplicitConversion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EXPLICIT_CONVERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EXPLICIT_CONVERSION
 type: docs
 weight: 9970
 url: /ru/net/aspose.email.mapi/knownpropertylist/explicitconversion/
 ---
 ## KnownPropertyList.ExplicitConversion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EXPLICIT_CONVERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EXPLICIT_CONVERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExplicitConversion;

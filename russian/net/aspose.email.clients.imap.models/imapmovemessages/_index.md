@@ -1,14 +1,14 @@
 ---
 title: ImapMoveMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: MoveMessagesAsync../aspose.email.clients.imap/iasyncimapclient/movemessagesasyncнабор параметров метода.
+description: MoveMessagesAsync../aspose.email.clients.imap/iasyncimapclient/movemessagesasync набор параметров метода.
 type: docs
 weight: 16600
 url: /ru/net/aspose.email.clients.imap.models/imapmovemessages/
 ---
 ## ImapMoveMessages class
 
-[`MoveMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/movemessagesasync)набор параметров метода.
+[`MoveMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/movemessagesasync) набор параметров метода.
 
 ```csharp
 public class ImapMoveMessages : ImapMessageSet<ImapMoveMessages>
@@ -18,9 +18,9 @@ public class ImapMoveMessages : ImapMessageSet<ImapMoveMessages>
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapmovemessages/create)() | Создать новый экземпляр[`ImapMoveMessages`](../imapmovemessages). |
+| static [Create](../../aspose.email.clients.imap.models/imapmovemessages/create)() | Создать новый[`ImapMoveMessages`](../imapmovemessages) экземпляр. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
-| [SetCommitDeletions](../../aspose.email.clients.imap.models/imapmovemessages/setcommitdeletions)(bool) | Указывает, следует ли выполнять удаление. |
+| [SetCommitDeletions](../../aspose.email.clients.imap.models/imapmovemessages/setcommitdeletions)(bool) | Указывает, должны ли быть зафиксированы удаления. |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetFolder](../../aspose.email.clients.imap.models/imapmovemessages/setfolder)(string) | Имя папки, куда должно быть перемещено сообщение. |
 | [SetMessage](../../aspose.email.clients.imap.models/imapmessageset`1/setmessage)(int) |  |

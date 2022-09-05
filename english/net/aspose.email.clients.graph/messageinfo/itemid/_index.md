@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message URI.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.graph/messageinfo/itemid/

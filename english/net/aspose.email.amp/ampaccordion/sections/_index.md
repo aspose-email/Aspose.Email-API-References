@@ -1,7 +1,7 @@
 ---
 title: Sections
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of sections.
 type: docs
 weight: 50
 url: /net/aspose.email.amp/ampaccordion/sections/

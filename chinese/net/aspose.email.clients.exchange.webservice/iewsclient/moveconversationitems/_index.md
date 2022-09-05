@@ -16,15 +16,15 @@ public void MoveConversationItems(string conversationId, string destinationFolde
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conversationId | String | Id要删除的对话 |
-| destinationFolderId | String | 将项目移动到其中的文件夹 ID |
+| conversationId | String | 要删除的对话 ID |
+| destinationFolderId | String | 将项目移动到的文件夹的 ID |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void MoveConversationItems(string conversationId, string destinationFolde
 
 ## MoveConversationItems(string, string, string) {#moveconversationitems_1}
 
-将位于指定文件夹中的对话项移动到指定目标文件夹
+将位于指定文件夹中的对话项移动到指定的目标文件夹
 
 ```csharp
 public void MoveConversationItems(string conversationId, string contextFolderId, 
@@ -46,15 +46,15 @@ public void MoveConversationItems(string conversationId, string contextFolderId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | conversationId | String | 要移动的对话 ID |
-| contextFolderId | String | 从中移动对话项目的文件夹 ID。注意:如果设置为 null（或为空），所有对话项目将被移动 |
-| destinationFolderId | String | 移动项目的文件夹 ID |
+| contextFolderId | String | 从中移动对话项目的文件夹的 ID。注意：如果设置为 null（或为空），则所有会话项都将被移动 |
+| destinationFolderId | String | 将项目移动到的文件夹的 ID |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

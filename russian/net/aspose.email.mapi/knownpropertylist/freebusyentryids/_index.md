@@ -1,14 +1,14 @@
 ---
 title: FreeBusyEntryIds
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID объекта Delegate Information сообщение о занятости Freebusy Data. ОбластьMapiContainer Каноническое имяPidTagFreeBusyEntryIds Альтернативные именаPR_FREEBUSY_ENTRYIDS ptagFreeBusyEntryIds
+description: Содержит EntryID объекта Delegate Information сообщения о занятости Freebusy Data. Область MapiContainer Каноническое имя PidTagFreeBusyEntryIds Альтернативные имена PR_FREEBUSY_ENTRYIDS ptagFreeBusyEntryIds
 type: docs
 weight: 10640
 url: /ru/net/aspose.email.mapi/knownpropertylist/freebusyentryids/
 ---
 ## KnownPropertyList.FreeBusyEntryIds field
 
-Содержит EntryID объекта Delegate Information, сообщение о занятости "Freebusy Data". Область:MapiContainer Каноническое имя:PidTagFreeBusyEntryIds Альтернативные имена:PR_FREEBUSY_ENTRYIDS, ptagFreeBusyEntryIds
+Содержит EntryID объекта Delegate Information, сообщения о занятости "Freebusy Data". Область: MapiContainer Каноническое имя: PidTagFreeBusyEntryIds Альтернативные имена: PR_FREEBUSY_ENTRYIDS, ptagFreeBusyEntryIds
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyEntryIds;

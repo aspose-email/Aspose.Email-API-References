@@ -1,14 +1,14 @@
 ---
 title: SharingOriginalMessageEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingOriginalMessageEntryId Альтернативные именаdispidSharingOriginalMessageEid
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingOriginalMessageEntryId Альтернативные имена dispidSharingOriginalMessageEid
 type: docs
 weight: 17660
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingoriginalmessageentryid/
 ---
 ## KnownPropertyList.SharingOriginalMessageEntryId field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingOriginalMessageEntryId Альтернативные имена:dispidSharingOriginalMessageEid
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingOriginalMessageEntryId Альтернативные имена: dispidSharingOriginalMessageEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingOriginalMessageEntryId;

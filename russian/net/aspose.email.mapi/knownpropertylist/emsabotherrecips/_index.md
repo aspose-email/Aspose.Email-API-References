@@ -1,14 +1,14 @@
 ---
 title: EmsAbOtherRecips
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_OTHER_RECIPS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_OTHER_RECIPS
 type: docs
 weight: 7950
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabotherrecips/
 ---
 ## KnownPropertyList.EmsAbOtherRecips field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_OTHER_RECIPS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_OTHER_RECIPS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOtherRecips;

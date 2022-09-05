@@ -1,9 +1,9 @@
 ---
 title: Pop3MailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the status of the mailbox.
 type: docs
-weight: 16770
+weight: 16910
 url: /net/aspose.email.clients.pop3/pop3mailboxinfo/
 ---
 ## Pop3MailboxInfo class

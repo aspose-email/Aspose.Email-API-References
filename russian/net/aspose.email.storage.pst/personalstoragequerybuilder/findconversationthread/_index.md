@@ -16,7 +16,7 @@ public MailQuery FindConversationThread(MessageInfo relatedMessage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| relatedMessage | MessageInfo | Связанное сообщение. |
+| relatedMessage | MessageInfo | Соответствующее сообщение. |
 
 ### Смотрите также
 

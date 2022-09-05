@@ -3,7 +3,7 @@ title: ValidationPolicy
 second_title: Aspose.Email for .NET API 参考
 description: 提出验证电子邮件地址的策略
 type: docs
-weight: 20800
+weight: 20850
 url: /zh/net/aspose.email.tools.verifications/validationpolicy/
 ---
 ## ValidationPolicy enumeration
@@ -19,7 +19,7 @@ public enum ValidationPolicy
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SyntaxOnly | `0` | 验证电子邮件地址的语法。 |
-| SyntaxAndDomain | `1` | 先验证邮箱地址的语法，再验证邮箱的域名。 |
+| SyntaxAndDomain | `1` | 先验证邮箱地址的语法，再验证邮箱的域。 |
 
 ### 也可以看看
 

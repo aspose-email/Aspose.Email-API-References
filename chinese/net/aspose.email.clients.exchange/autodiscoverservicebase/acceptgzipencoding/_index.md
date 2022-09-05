@@ -16,7 +16,7 @@ public bool AcceptGzipEncoding { get; set; }
 
 ### 评论
 
-该值将告诉服务器客户端能够处理 GZip 压缩编码。服务器 将仅发送 Gzip 压缩的内容，如果它已被配置为这样做。
+这个值将告诉服务器客户端能够处理 GZip 压缩编码。 server 仅在已配置为发送 Gzip 压缩内容时才会发送。
 
 ### 也可以看看
 

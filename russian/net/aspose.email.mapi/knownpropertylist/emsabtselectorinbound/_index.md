@@ -1,14 +1,14 @@
 ---
 title: EmsAbTSelectorInbound
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_T_SELECTOR_INBOUND
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_T_SELECTOR_INBOUND
 type: docs
 weight: 9250
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtselectorinbound/
 ---
 ## KnownPropertyList.EmsAbTSelectorInbound field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_T_SELECTOR_INBOUND
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_T_SELECTOR_INBOUND
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTSelectorInbound;

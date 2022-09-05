@@ -1,12 +1,12 @@
 ---
 title: DeleteMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes all messages
 type: docs
 weight: 90
 url: /net/aspose.email.clients.pop3/pop3client/deletemessages/
 ---
-## Pop3Client.DeleteMessages method (1 of 2)
+## DeleteMessages(IConnection) {#deletemessages_1}
 
 Deletes all messages
 
@@ -31,7 +31,7 @@ The POP3 server marks the message as deleted. The POP3 server does not actually 
 
 ---
 
-## Pop3Client.DeleteMessages method (2 of 2)
+## DeleteMessages() {#deletemessages}
 
 Deletes all messages
 

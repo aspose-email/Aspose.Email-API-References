@@ -1,7 +1,7 @@
 ---
 title: AutoFillLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the value of the PidLidLocation property section 2.159 is set to the PidTagDisplayName property section 2.667. Area Meetings Canonical name PidLidAutoFillLocation Alternate names dispidAutoFillLocation
 type: docs
 weight: 1890
 url: /net/aspose.email.mapi/knownpropertylist/autofilllocation/

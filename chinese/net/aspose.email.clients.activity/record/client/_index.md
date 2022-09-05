@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/client/
 ---
 ## Record.Client property
 
-获取或设置有关用于帐户登录事件的客户端设备、设备操作系统和设备浏览器的详细信息。 强制:否
+获取或设置有关用于帐户登录事件的客户端设备、设备操作系统和设备浏览器的详细信息。 强制：否
 
 ```csharp
 public string Client { get; set; }

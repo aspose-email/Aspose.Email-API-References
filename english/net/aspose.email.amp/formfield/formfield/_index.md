@@ -1,12 +1,12 @@
 ---
 title: FormField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create instance of form field.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/formfield/formfield/
 ---
-## FormField constructor (1 of 3)
+## FormField() {#constructor}
 
 Create instance of form field.
 
@@ -22,7 +22,7 @@ public FormField()
 
 ---
 
-## FormField constructor (2 of 3)
+## FormField(string) {#constructor_1}
 
 Create instance of form field.
 
@@ -42,7 +42,7 @@ public FormField(string label)
 
 ---
 
-## FormField constructor (3 of 3)
+## FormField(string, string) {#constructor_2}
 
 Create instance of form field.
 

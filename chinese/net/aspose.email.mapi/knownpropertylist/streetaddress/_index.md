@@ -1,14 +1,14 @@
 ---
 title: StreetAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的街道地址 区域MapiMailUser 规范名称PidTagStreetAddress 替代名称PR_STREET_ADDRESS PR_STREET_ADDRESS_A PR_STREET_ADDRESS_W PR_BUSINESS_ADDRESS_STREET PR_BUSINESS_ADDRESS_STREET_A
+description: 包含邮件用户的街道地址 区域MapiMailUser 规范名称PidTagStreetAddress 替代名称PR_STREET_ADDRESSPR_STREET_ADDRESS_APR_STREET_ADDRESS_WPR_BUSINESS_ADDRESS_STREETPR_BUSINESS_ADDRESS_STREET_Ad_x000
 type: docs
 weight: 18320
 url: /zh/net/aspose.email.mapi/knownpropertylist/streetaddress/
 ---
 ## KnownPropertyList.StreetAddress field
 
-包含邮件用户的街道地址。 区域:MapiMailUser 规范名称:PidTagStreetAddress 替代名称:PR_STREET_ADDRESS, PR_STREET_ADDRESS_A, PR_STREET_ADDRESS_W, PR_BUSINESS_ADDRESS_STREET, PR_BUSINESS_ADDRESS_STREET_A,
+包含邮件用户的街道地址。 区域：MapiMailUser 规范名称：PidTagStreetAddress 替代名称：PR_STREET_ADDRESS、PR_STREET_ADDRESS_A、PR_STREET_ADDRESS_W、PR_BUSINESS_ADDRESS_STREET、PR_BUSINESS_ADDRESS_STREET_A、d_x000
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StreetAddress;

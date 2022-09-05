@@ -1,14 +1,14 @@
 ---
 title: WriteIf
 second_title: Справочник по Aspose.Email для .NET API
-description: Записывает указанное сообщение в аппендеры если условие истинно.
+description: Записывает указанное сообщение в приложения если условие истинно.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.tools.logging/logger/writeif/
 ---
 ## WriteIf(bool, string) {#writeif_4}
 
-Записывает указанное сообщение в аппендеры, если условие истинно.
+Записывает указанное сообщение в приложения, если условие истинно.
 
 ```csharp
 public void WriteIf(bool condition, string message)
@@ -16,7 +16,7 @@ public void WriteIf(bool condition, string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| condition | Boolean | Проверяемое условие. |
+| condition | Boolean | Условие для проверки. |
 | message | String | Сообщение для записи. |
 
 ### Смотрите также
@@ -29,7 +29,7 @@ public void WriteIf(bool condition, string message)
 
 ## WriteIf(bool, object) {#writeif_2}
 
-Записывает указанное сообщение в аппендеры, если условие истинно.
+Записывает указанное сообщение в приложения, если условие истинно.
 
 ```csharp
 public void WriteIf(bool condition, object message)
@@ -37,7 +37,7 @@ public void WriteIf(bool condition, object message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| condition | Boolean | Проверяемое условие. |
+| condition | Boolean | Условие для проверки. |
 | message | Object | Сообщение для записи. |
 
 ### Смотрите также
@@ -58,9 +58,9 @@ public void WriteIf(bool condition, object message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| condition | Boolean | Проверяемое условие. |
+| condition | Boolean | Условие для проверки. |
 | message | Object | Сообщение для записи. |
-| exception | Exception | Исключение для записи. |
+| exception | Exception | Исключение написать. |
 
 ### Смотрите также
 
@@ -72,7 +72,7 @@ public void WriteIf(bool condition, object message, Exception exception)
 
 ## WriteIf(LogLevel, string) {#writeif}
 
-Записывает указанное сообщение, если включен уровень журнала.
+Записывает указанное сообщение, если включен уровень ведения журнала.
 
 ```csharp
 public void WriteIf(LogLevel condition, string message)
@@ -81,7 +81,7 @@ public void WriteIf(LogLevel condition, string message)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | condition | LogLevel | Уровень журнала. |
-| message | String | Сообщение для журнала. |
+| message | String | Сообщение для регистрации. |
 
 ### Смотрите также
 
@@ -94,7 +94,7 @@ public void WriteIf(LogLevel condition, string message)
 
 ## WriteIf(LogLevel, string, Exception) {#writeif_1}
 
-Записывает указанное сообщение и исключение, если включен уровень журнала.
+Записывает указанное сообщение и исключение, если включен уровень ведения журнала.
 
 ```csharp
 public void WriteIf(LogLevel condition, string message, Exception exception)
@@ -103,7 +103,7 @@ public void WriteIf(LogLevel condition, string message, Exception exception)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | condition | LogLevel | Уровень журнала. |
-| message | String | Сообщение для журнала. |
+| message | String | Сообщение для регистрации. |
 | exception | Exception | Исключение для журнала. |
 
 ### Смотрите также

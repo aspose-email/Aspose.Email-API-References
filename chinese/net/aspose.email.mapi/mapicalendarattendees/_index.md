@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarAttendees
 second_title: Aspose.Email for .NET API 参考
-description: 代表mapi日历参加者
+description: 代表 mapi 日历参加者
 type: docs
 weight: 17920
 url: /zh/net/aspose.email.mapi/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees class
 
-代表mapi日历参加者
+代表 mapi 日历参加者
 
 ```csharp
 public sealed class MapiCalendarAttendees
@@ -18,7 +18,7 @@ public sealed class MapiCalendarAttendees
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarAttendees](mapicalendarattendees)() | 初始化 [`MapiCalendarAttendees`](../mapicalendarattendees) 类的新实例 |
+| [MapiCalendarAttendees](mapicalendarattendees)() | 初始化[`MapiCalendarAttendees`](../mapicalendarattendees) class |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class MapiCalendarAttendees
 | [AppointmentRecipients](../../aspose.email.mapi/mapicalendarattendees/appointmentrecipients) { get; set; } | 获取或设置与会者列表。 |
 | [AppointmentUnsendableRecipients](../../aspose.email.mapi/mapicalendarattendees/appointmentunsendablerecipients) { get; set; } | 获取或设置无法发送的与会者列表。 |
 | [NotAllowPropose](../../aspose.email.mapi/mapicalendarattendees/notallowpropose) { get; set; } | 获取或设置一个值，该值指示是否不允许与会者提出新的会议日期和/或时间。 |
-| [ResponseRequested](../../aspose.email.mapi/mapicalendarattendees/responserequested) { get; set; } | 获取或设置一个值，该值指示是否向 Message 对象请求响应。 |
+| [ResponseRequested](../../aspose.email.mapi/mapicalendarattendees/responserequested) { get; set; } | 获取或设置一个值，该值指示是否向消息对象请求响应。 |
 
 ### 也可以看看
 

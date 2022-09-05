@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户配置对象项标识符
+description: 获取或设置用户配置对象项标识
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.webservice/userconfiguration/id/
 ---
 ## UserConfiguration.Id property
 
-获取或设置用户配置对象项标识符。
+获取或设置用户配置对象项标识。
 
 ```csharp
 public string Id { get; set; }

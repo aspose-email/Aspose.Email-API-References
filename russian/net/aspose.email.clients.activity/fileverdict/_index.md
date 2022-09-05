@@ -1,14 +1,14 @@
 ---
 title: FileVerdict
 second_title: Справочник по Aspose.Email для .NET API
-description: Вердикт файловой вредоносной программе.
+description: Вердикт файла вредоносного ПО.
 type: docs
 weight: 2560
 url: /ru/net/aspose.email.clients.activity/fileverdict/
 ---
 ## FileVerdict enumeration
 
-Вердикт файловой вредоносной программе.
+Вердикт файла вредоносного ПО.
 
 ```csharp
 public enum FileVerdict
@@ -18,7 +18,7 @@ public enum FileVerdict
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Good | `0` | Угроз не обнаружено. |
+| Good | `0` | Угрозы не обнаружены. |
 | Bad | `1` | Во вложении обнаружено вредоносное ПО. |
 | Error | `-1` | Ошибка сканирования/анализа. |
 | Timeout | `-2` | Тайм-аут сканирования/анализа. |

@@ -3,7 +3,7 @@ title: Flags
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置约会标志
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.email.calendar/appointment/flags/
 ---
 ## Appointment.Flags property

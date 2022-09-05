@@ -1,7 +1,7 @@
 ---
 title: OriginalAuthorEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an address book EntryID structure MSOXCDATA section 2.2.5.2 and is defined in report messages to identify the user who sent the original message. Area Email Canonical name PidTagOriginalAuthorEntryId Alternate names PR_ORIGINAL_AUTHOR_ENTRYID
 type: docs
 weight: 13490
 url: /net/aspose.email.mapi/knownpropertylist/originalauthorentryid/

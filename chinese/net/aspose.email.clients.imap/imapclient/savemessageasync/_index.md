@@ -17,7 +17,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 
 ### 返回值
@@ -35,7 +35,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 
 ## SaveMessageAsync(IConnection, string, Stream) {#savemessageasync_4}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream resultStream)
@@ -62,7 +62,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 
 ## SaveMessageAsync(IConnection, string, string) {#savemessageasync_6}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, string uniqueId, string fileName)
@@ -89,7 +89,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 
 ## SaveMessageAsync(IConnection, int, string) {#savemessageasync_2}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string fileName)
@@ -98,7 +98,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
 
 ### 返回值
@@ -124,12 +124,12 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -141,7 +141,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream)
 
 ## SaveMessageAsync(string, Stream) {#savemessageasync_12}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public Task SaveMessageAsync(string uniqueId, Stream resultStream)
@@ -166,7 +166,7 @@ public Task SaveMessageAsync(string uniqueId, Stream resultStream)
 
 ## SaveMessageAsync(string, string) {#savemessageasync_14}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(string uniqueId, string fileName)
@@ -191,7 +191,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName)
 
 ## SaveMessageAsync(int, string) {#savemessageasync_10}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(int sequenceNumber, string fileName)
@@ -199,7 +199,7 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
 
 ### 返回值
@@ -226,13 +226,13 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -245,7 +245,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 
 ## SaveMessageAsync(IConnection, string, Stream, CancellationToken) {#savemessageasync_5}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream resultStream, 
@@ -261,7 +261,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -274,7 +274,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 
 ## SaveMessageAsync(IConnection, string, string, CancellationToken) {#savemessageasync_7}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, string uniqueId, string fileName, 
@@ -286,11 +286,11 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的唯一 ID |
 | fileName | String | 本地文件的路径。这不能是目录 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -303,7 +303,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 
 ## SaveMessageAsync(IConnection, int, string, CancellationToken) {#savemessageasync_3}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string fileName, 
@@ -313,13 +313,13 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -340,13 +340,13 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream, Cancellati
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -358,7 +358,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream, Cancellati
 
 ## SaveMessageAsync(string, Stream, CancellationToken) {#savemessageasync_13}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationToken token)
@@ -372,7 +372,7 @@ public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationT
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -384,7 +384,7 @@ public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationT
 
 ## SaveMessageAsync(string, string, CancellationToken) {#savemessageasync_15}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken token)
@@ -394,11 +394,11 @@ public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
 | fileName | String | 本地文件的路径。这不能是目录 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -410,7 +410,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken
 
 ## SaveMessageAsync(int, string, CancellationToken) {#savemessageasync_11}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationToken token)
@@ -418,13 +418,13 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationTo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

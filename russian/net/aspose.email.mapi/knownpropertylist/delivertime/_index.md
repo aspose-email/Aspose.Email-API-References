@@ -1,14 +1,14 @@
 ---
 title: DeliverTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время доставки уведомления о состоянии доставки как указано в RFC3464 или уведомления о доставке сообщения как указано в RFC3798. ОбластьЭлектронная почта Каноническое имяPidTagDeliverTime Альтернативные именаPR_DELIVER_TIME ptagDeliverTime
+description: Содержит время доставки уведомления о состоянии доставки как указано в RFC3464 или уведомления о доставке сообщения как указано в RFC3798. Область Email Каноническое имя PidTagDeliverTime Альтернативные имена PR_DELIVER_TIME ptagDeliverTime
 type: docs
 weight: 3950
 url: /ru/net/aspose.email.mapi/knownpropertylist/delivertime/
 ---
 ## KnownPropertyList.DeliverTime field
 
-Содержит время доставки уведомления о состоянии доставки, как указано в [RFC3464], или уведомления о доставке сообщения, как указано в [RFC3798]. Область:Электронная почта Каноническое имя:PidTagDeliverTime Альтернативные имена:PR_DELIVER_TIME, ptagDeliverTime
+Содержит время доставки уведомления о состоянии доставки, как указано в [RFC3464], или уведомления о доставке сообщения, как указано в [RFC3798]. Область: Email Каноническое имя: PidTagDeliverTime Альтернативные имена: PR_DELIVER_TIME, ptagDeliverTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeliverTime;

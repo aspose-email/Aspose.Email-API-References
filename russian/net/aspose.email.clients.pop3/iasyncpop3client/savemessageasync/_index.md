@@ -1,14 +1,14 @@
 ---
 title: SaveMessageAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает и сохраняет сообщение как поток
+description: Извлекает и сохраняет сообщение как поток
 type: docs
 weight: 160
 url: /ru/net/aspose.email.clients.pop3/iasyncpop3client/savemessageasync/
 ---
 ## IAsyncPop3Client.SaveMessageAsync method
 
-Выбирает и сохраняет сообщение как поток
+Извлекает и сохраняет сообщение как поток
 
 ```csharp
 public Task SaveMessageAsync(Pop3SaveMessage parameters)
@@ -16,7 +16,7 @@ public Task SaveMessageAsync(Pop3SaveMessage parameters)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parameters | Pop3SaveMessage | Параметр установлен. |
+| parameters | Pop3SaveMessage | Набор параметров. |
 
 ### Смотрите также
 

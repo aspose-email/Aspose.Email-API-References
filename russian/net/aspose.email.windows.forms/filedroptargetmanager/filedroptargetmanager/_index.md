@@ -1,14 +1,14 @@
 ---
 title: FileDropTargetManager
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileDropTargetManageraspose.email.windows.forms/filedroptargetmanager.
+description: Инициализирует новый экземплярFileDropTargetManageraspose.email.windows.forms/filedroptargetmanager класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.forms/filedroptargetmanager/filedroptargetmanager/
 ---
 ## FileDropTargetManager constructor
 
-Инициализирует новый экземпляр класса[`FileDropTargetManager`](../../filedroptargetmanager).
+Инициализирует новый экземпляр[`FileDropTargetManager`](../../filedroptargetmanager) класс.
 
 ```csharp
 public FileDropTargetManager(Control owner)

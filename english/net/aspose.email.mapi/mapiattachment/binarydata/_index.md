@@ -1,7 +1,7 @@
 ---
 title: BinaryData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets binary attachment data.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapiattachment/binarydata/

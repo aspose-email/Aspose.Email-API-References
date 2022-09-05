@@ -20,7 +20,7 @@ public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 
 ### Возвращаемое значение
 
-Массив[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 

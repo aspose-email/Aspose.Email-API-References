@@ -1,7 +1,7 @@
 ---
 title: Recurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Recurrence header.
 type: docs
 weight: 130
 url: /net/aspose.email/mhttemplatename/recurrence/

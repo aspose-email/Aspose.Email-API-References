@@ -16,18 +16,18 @@ public ExchangeFolderInfo GetFolderInfo(string folderUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹 uri。 |
+| folderUri | String | 一个文件夹 uri。 |
 
 ### 返回值
 
-A[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示文件夹信息。
+一个[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示文件夹信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` 或` 空` 。 |
-| [ExchangeException](../../../aspose.email/exchangeexception) | 服务器响应错误消息。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或者`空的`. |
+| [ExchangeException](../../../aspose.email/exchangeexception) | 服务器响应了一条错误消息。 |
 
 ### 也可以看看
 

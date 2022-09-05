@@ -1,14 +1,14 @@
 ---
 title: EmsAbNewsgroup
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_NEWSGROUP
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_NEWSGROUP
 type: docs
 weight: 7630
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabnewsgroup/
 ---
 ## KnownPropertyList.EmsAbNewsgroup field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_NEWSGROUP
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_NEWSGROUP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbNewsgroup;

@@ -1,14 +1,14 @@
 ---
 title: ResultStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指示操作在 Operation 属性中指定是否成功 可能的值为 SucceededPartiallySucceded 或 Failed 对于 Exchange 管理员活动该值为 True 或 False 强制否
+description: 指示操作在操作属性中指定是否成功 可能的值为 SucceededPartiallySucceded 或 Failed 对于 Exchange 管理员活动该值为 True 或 False 强制No
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activity/content/resultstatus/
 ---
 ## Content.ResultStatus property
 
-指示操作（在 Operation 属性中指定）是否成功。 可能的值为 Succeeded、PartiallySucceded 或 Failed。 对于 Exchange 管理员活动，该值为 True 或 False。 强制:否
+指示操作（在操作属性中指定）是否成功。 可能的值为 Succeeded、PartiallySucceded 或 Failed。 对于 Exchange 管理员活动，该值为 True 或 False。 强制：No
 
 ```csharp
 public ResultStatus ResultStatus { get; set; }

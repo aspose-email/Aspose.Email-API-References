@@ -1,14 +1,14 @@
 ---
 title: ApplicationName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает приложение используемое для открытия файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameApplicationName Альтернативные именаurnschemas-microsoft-comofficeofficeNameOfApplication
+description: Указывает приложение используемое для открытия файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameApplicationName Альтернативные имена urnschemas-microsoft-comofficeofficeNameOfApplication
 type: docs
 weight: 1100
 url: /ru/net/aspose.email.mapi/knownpropertylist/applicationname/
 ---
 ## KnownPropertyList.ApplicationName field
 
-Указывает приложение, используемое для открытия файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameApplicationName Альтернативные имена:urn:schemas-microsoft-com:office:office#NameOfApplication
+Указывает приложение, используемое для открытия файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameApplicationName Альтернативные имена: urn:schemas-microsoft-com:office:office#NameOfApplication
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ApplicationName;

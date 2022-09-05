@@ -1,14 +1,14 @@
 ---
 title: MonthInterval
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议的每月间隔 区域会议 规范名称PidLidMonthInterval 别名LID_MONTH_INTERVAL
+description: 表示约会或会议的每月间隔 区域Meetings 规范名称PidLidMonthInterval 别名LID_MONTH_INTERVAL
 type: docs
 weight: 12740
 url: /zh/net/aspose.email.mapi/knownpropertylist/monthinterval/
 ---
 ## KnownPropertyList.MonthInterval field
 
-表示约会或会议的每月间隔。 区域:会议 规范名称:PidLidMonthInterval 别名:LID_MONTH_INTERVAL
+表示约会或会议的每月间隔。 区域：Meetings 规范名称：PidLidMonthInterval 别名：LID_MONTH_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthInterval;

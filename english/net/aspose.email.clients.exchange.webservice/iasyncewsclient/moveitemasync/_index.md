@@ -1,7 +1,7 @@
 ---
 title: MoveItemAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the item to specified folder
 type: docs
 weight: 570
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/moveitemasync/

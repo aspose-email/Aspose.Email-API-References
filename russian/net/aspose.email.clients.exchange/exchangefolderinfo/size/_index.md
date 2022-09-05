@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит размер в байтах используемый объектом Message на сервере.
+description: Содержит размер в байтах используемый объектом сообщения на сервере.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.exchange/exchangefolderinfo/size/
 ---
 ## ExchangeFolderInfo.Size property
 
-Содержит размер в байтах, используемый объектом Message на сервере.
+Содержит размер в байтах, используемый объектом сообщения на сервере.
 
 ```csharp
 public int Size { get; }

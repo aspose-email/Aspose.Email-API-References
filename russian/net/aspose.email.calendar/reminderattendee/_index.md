@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.calendar/reminderattendee/
 ---
 ## ReminderAttendee class
 
-Определяет "Посетителя" в тревоге.
+Определяет «Посетителя» в тревоге.
 
 ```csharp
 public class ReminderAttendee
@@ -18,7 +18,7 @@ public class ReminderAttendee
 
 | Имя | Описание |
 | --- | --- |
-| [ReminderAttendee](reminderattendee)(string) | Инициализировать новый экземпляр класса[`ReminderAttendee`](../reminderattendee). |
+| [ReminderAttendee](reminderattendee)(string) | Инициализировать новый экземпляр[`ReminderAttendee`](../reminderattendee) класс. |
 
 ## Характеристики
 

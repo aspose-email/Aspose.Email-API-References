@@ -1,14 +1,14 @@
 ---
 title: SetConnection
 second_title: Справочник по Aspose.Email для .NET API
-description: Подключение к серверу опционально.
+description: Подключение к серверу необязательно.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/setconnection/
 ---
 ## Pop3LoadMessageInfoList.SetConnection method
 
-Подключение к серверу (опционально).
+Подключение к серверу (необязательно).
 
 ```csharp
 public Pop3LoadMessageInfoList SetConnection(IConnection connection)

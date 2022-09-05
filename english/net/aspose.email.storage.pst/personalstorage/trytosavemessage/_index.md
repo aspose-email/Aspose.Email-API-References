@@ -1,7 +1,7 @@
 ---
 title: TryToSaveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the message with specified entryID to a stream.
 type: docs
 weight: 320
 url: /net/aspose.email.storage.pst/personalstorage/trytosavemessage/

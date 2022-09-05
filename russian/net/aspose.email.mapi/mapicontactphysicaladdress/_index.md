@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Относится к группе свойств которые определяют физический адрес контакта.
+description: Относится к группе свойств которые определяют физический адрес для контакта.
 type: docs
-weight: 18270
+weight: 18300
 url: /ru/net/aspose.email.mapi/mapicontactphysicaladdress/
 ---
 ## MapiContactPhysicalAddress class
 
-Относится к группе свойств, которые определяют физический адрес контакта.
+Относится к группе свойств, которые определяют физический адрес для контакта.
 
 ```csharp
 public sealed class MapiContactPhysicalAddress
@@ -18,7 +18,7 @@ public sealed class MapiContactPhysicalAddress
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactPhysicalAddress](mapicontactphysicaladdress)() | Инициализирует новый экземпляр класса[`MapiContactPhysicalAddress`](../mapicontactphysicaladdress). |
+| [MapiContactPhysicalAddress](mapicontactphysicaladdress)() | Инициализирует новый экземпляр[`MapiContactPhysicalAddress`](../mapicontactphysicaladdress) класс. |
 
 ## Характеристики
 
@@ -28,9 +28,9 @@ public sealed class MapiContactPhysicalAddress
 | [City](../../aspose.email.mapi/mapicontactphysicaladdress/city) { get; set; } | Указывает часть города или населенного пункта адреса контакта |
 | [Country](../../aspose.email.mapi/mapicontactphysicaladdress/country) { get; set; } | Указывает часть страны или региона адреса контакта |
 | [CountryCode](../../aspose.email.mapi/mapicontactphysicaladdress/countrycode) { get; set; } | Указывает часть кода страны адреса контакта |
-| [IsMailingAddress](../../aspose.email.mapi/mapicontactphysicaladdress/ismailingaddress) { get; set; } | Получает или задает значение, указывающее, является ли этот адрес почтовым адресом |
+| [IsMailingAddress](../../aspose.email.mapi/mapicontactphysicaladdress/ismailingaddress) { get; set; } | Получает или задает значение, указывающее, является ли этот адрес почтовым адресом address |
 | [PostalCode](../../aspose.email.mapi/mapicontactphysicaladdress/postalcode) { get; set; } | Указывает часть почтового индекса (ZIP code) адреса контакта |
-| [PostOfficeBox](../../aspose.email.mapi/mapicontactphysicaladdress/postofficebox) { get; set; } | Получает или устанавливает почтовый ящик |
+| [PostOfficeBox](../../aspose.email.mapi/mapicontactphysicaladdress/postofficebox) { get; set; } | Получает или задает почтовый ящик |
 | [StateOrProvince](../../aspose.email.mapi/mapicontactphysicaladdress/stateorprovince) { get; set; } | Указывает часть штата или провинции адреса контакта |
 | [Street](../../aspose.email.mapi/mapicontactphysicaladdress/street) { get; set; } | Указывает часть улицы адреса контакта |
 

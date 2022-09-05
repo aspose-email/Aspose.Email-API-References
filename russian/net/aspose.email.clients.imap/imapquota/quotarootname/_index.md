@@ -1,14 +1,14 @@
 ---
 title: QuotaRootName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает имя корня qupta
+description: Получает имя корня квапты
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/imapquota/quotarootname/
 ---
 ## ImapQuota.QuotaRootName property
 
-Получает имя корня qupta
+Получает имя корня квапты
 
 ```csharp
 public string QuotaRootName { get; }

@@ -1,14 +1,14 @@
 ---
 title: RuleActionNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит индекс неудавшегося действия правила. ОбластьExchangeMessageReadOnly Каноническое имяPidTagRuleActionNumber Альтернативные именаPR_RULE_ACTION_NUMBER ptagRuleActionNumber
+description: Содержит индекс неудавшегося действия правила. Область ExchangeMessageReadOnly Каноническое имя PidTagRuleActionNumber Альтернативные имена PR_RULE_ACTION_NUMBER ptagRuleActionNumber
 type: docs
 weight: 16430
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleactionnumber/
 ---
 ## KnownPropertyList.RuleActionNumber field
 
-Содержит индекс неудавшегося действия правила. Область:ExchangeMessageReadOnly Каноническое имя:PidTagRuleActionNumber Альтернативные имена:PR_RULE_ACTION_NUMBER, ptagRuleActionNumber
+Содержит индекс неудавшегося действия правила. Область: ExchangeMessageReadOnly Каноническое имя: PidTagRuleActionNumber Альтернативные имена: PR_RULE_ACTION_NUMBER, ptagRuleActionNumber
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleActionNumber;

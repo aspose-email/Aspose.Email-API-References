@@ -1,14 +1,14 @@
 ---
 title: SearchFolderDefinition
 second_title: Aspose.Email for .NET API 参考
-description: 指定搜索条件和搜索选项 区域搜索 规范名称PidTagSearchFolderDefinition 替代名称PR_WB_SF_DEFINITION
+description: 指定搜索条件和搜索选项 区域Search 规范名称PidTagSearchFolderDefinition 替代名称PR_WB_SF_DEFINITION
 type: docs
 weight: 16940
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderdefinition/
 ---
 ## KnownPropertyList.SearchFolderDefinition field
 
-指定搜索条件和搜索选项。 区域:搜索 规范名称:PidTagSearchFolderDefinition 替代名称:PR_WB_SF_DEFINITION
+指定搜索条件和搜索选项。 区域：Search 规范名称：PidTagSearchFolderDefinition 替代名称：PR_WB_SF_DEFINITION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderDefinition;

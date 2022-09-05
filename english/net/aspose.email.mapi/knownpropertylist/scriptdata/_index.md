@@ -1,7 +1,7 @@
 ---
 title: ScriptData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a series of instructions that can be executed to format an address and the data that is needed to execute those instructions. Area Address Book Canonical name PidTagScriptData Alternate names PR_EMS_SCRIPT_BLOB
 type: docs
 weight: 16920
 url: /net/aspose.email.mapi/knownpropertylist/scriptdata/

@@ -1,7 +1,7 @@
 ---
 title: CreateAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates new attachment for specified item
 type: docs
 weight: 110
 url: /net/aspose.email.clients.graph/igraphclient/createattachment/

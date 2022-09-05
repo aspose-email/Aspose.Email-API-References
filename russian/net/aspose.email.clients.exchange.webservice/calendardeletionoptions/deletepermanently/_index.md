@@ -1,14 +1,14 @@
 ---
 title: DeletePermanently
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает экземпляр объектаDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptionsс настройками для безвозвратного удаления
+description: Получает экземплярDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions объект с настройками для постоянного удаления
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently/
 ---
 ## CalendarDeletionOptions.DeletePermanently property
 
-Получает экземпляр объекта[`DeletionOptions`](../../deletionoptions)с настройками для безвозвратного удаления
+Получает экземпляр[`DeletionOptions`](../../deletionoptions) объект с настройками для постоянного удаления
 
 ```csharp
 public static CalendarDeletionOptions DeletePermanently { get; }

@@ -1,14 +1,14 @@
 ---
 title: SwappedToDoData
 second_title: Aspose.Email for .NET API 参考
-description: 当支持发件人标志或发件人提醒时包含标志的辅助存储位置 区域MapiNonTransmittable 规范名称PidTagSwappedToDoData 替代名称PR_SWAPPED_TODO_DATA ptagSwappedTodoData
+description: 当支持发件人标志或发件人提醒时包含标志的辅助存储位置 区域MapiNonTransmittable 规范名称PidTagSwappedToDoData 替代名称PR_SWAPPED_TODO_DATAptagSwappedTodoData
 type: docs
 weight: 18430
 url: /zh/net/aspose.email.mapi/knownpropertylist/swappedtododata/
 ---
 ## KnownPropertyList.SwappedToDoData field
 
-当支持发件人标志或发件人提醒时，包含标志的辅助存储位置。 区域:MapiNonTransmittable 规范名称:PidTagSwappedToDoData 替代名称:PR_SWAPPED_TODO_DATA, ptagSwappedTodoData
+当支持发件人标志或发件人提醒时，包含标志的辅助存储位置。 区域：MapiNonTransmittable 规范名称：PidTagSwappedToDoData 替代名称：PR_SWAPPED_TODO_DATA、ptagSwappedTodoData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SwappedToDoData;

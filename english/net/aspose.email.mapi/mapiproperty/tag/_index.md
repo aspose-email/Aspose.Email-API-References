@@ -1,7 +1,7 @@
 ---
 title: Tag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the tag.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapiproperty/tag/

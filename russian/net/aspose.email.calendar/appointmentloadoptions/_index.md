@@ -18,7 +18,7 @@ public class AppointmentLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AppointmentLoadOptions](appointmentloadoptions)() | Инициализирует новый экземпляр класса[`AppointmentLoadOptions`](../appointmentloadoptions) |
+| [AppointmentLoadOptions](appointmentloadoptions)() | Инициализирует новый экземпляр[`AppointmentLoadOptions`](../appointmentloadoptions) класс |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public class AppointmentLoadOptions
 | --- | --- |
 | [ApplyLocalTZ](../../aspose.email.calendar/appointmentloadoptions/applylocaltz) { get; set; } | Преобразование времени в местный часовой пояс |
 | [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding) { get; set; } | Определяет кодировку данных, анализируя метку порядка следования байтов (BOM) |
-| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex) { get; set; } | Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReader[`CalendarReader`](../calendarreader). |
+| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex) { get; set; } | Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReader[`CalendarReader`](../calendarreader) . |
 | [IgnoreSmtpAddressCheck](../../aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck) { get; set; } | Определяет, пропускается ли проверка адреса SMTP. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: PR_SWAPPED_TODO_DATA
 second_title: Aspose.Email for .NET API 参考
-description: 维护第二组不影响消息对象的标记状态的属性值
+description: 维护不影响消息对象的标记状态的第二组属性值
 type: docs
 weight: 19950
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_swapped_todo_data/
 ---
 ## MapiPropertyTag.PR_SWAPPED_TODO_DATA field
 
-维护第二组不影响消息对象的标记状态的属性值。
+维护不影响消息对象的标记状态的第二组属性值。
 
 ```csharp
 public static readonly long PR_SWAPPED_TODO_DATA;

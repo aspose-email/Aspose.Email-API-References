@@ -1,14 +1,14 @@
 ---
 title: MIMESupport
 second_title: Справочник по Aspose.Email для .NET API
-description: Включает поддержку MIME для элементов электронной почты отправляемых с сервера клиенту. Если для элемента airsyncMIMESupport установлено значение SendForSecureMIMEonly 1 или SendForAll 2 в поисковом запросе  свойство airsyncbaseBodyPreference Тип СЛЕДУЕТ включать в поисковый запрос  содержащий значение MIME 4 чтобы сообщить серверу что устройство может читать MIME BLOB. - Ответ от сервера ДОЛЖЕН включать airsyncbaseBody который является дочерним элементом свойств. airsyncbaseBody ДОЛЖНО содержать следующие свойства в ответе поиска S/MIME - airsyncbaseType со значением MIME 4 для информирования устройства что данные представляют собой MIME BLOB. - AirsyncbaseEstimatedDataSize для указания примерного общего размера данных. - AirsyncbaseTruncated чтобы указать усекается ли MIME BLOB. - База данных airsyncbaseData содержащая полный MIME BLOB.
+description: Включает поддержку MIME для элементов электронной почты отправляемых с сервера клиенту. airsyncbaseBodyPreference тип ДОЛЖЕН быть включен в запрос поиска содержащий значение MIME 4 чтобы сообщить серверу что устройство может прочитать MIME BLOB.  ответ от сервера ДОЛЖЕН включать airsyncbaseBody который является дочерним элементом свойств. airsyncbaseBody ДОЛЖЕН содержать следующие свойства в ответе поиска S/MIME EstimatedDataSize чтобы указать приблизительный общий размер данных. - AirsyncbaseTruncated чтобы указать усечен ли MIME BLOB. - airsyncbaseДанные содержащие полный MIME BLOB.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/searchoptions/mimesupport/
 ---
 ## SearchOptions.MIMESupport property
 
-Включает поддержку MIME для элементов электронной почты, отправляемых с сервера клиенту. Если для элемента airsync:MIMESupport установлено значение «SendForSecureMIMEonly» (1) или «SendForAll» (2) в поисковом запросе: — свойство airsyncbase:BodyPreference, Тип, СЛЕДУЕТ включать в поисковый запрос, , содержащий значение 'MIME' (4), чтобы сообщить серверу, что устройство может читать MIME BLOB. - Ответ от сервера ДОЛЖЕН включать airsyncbase:Body, который является дочерним элементом свойств. airsyncbase:Body ДОЛЖНО содержать следующие свойства в ответе поиска S/MIME: - airsyncbase:Type со значением 'MIME' (4) для информирования устройства что данные представляют собой MIME BLOB. - Airsyncbase:EstimatedDataSize для указания примерного общего размера данных. - Airsyncbase:Truncated, чтобы указать, усекается ли MIME BLOB. - База данных airsyncbase:Data, содержащая полный MIME BLOB.
+Включает поддержку MIME для элементов электронной почты, отправляемых с сервера клиенту. airsyncbase:BodyPreference, тип, ДОЛЖЕН быть включен в запрос поиска, содержащий значение «MIME» (4), чтобы сообщить серверу, что устройство может прочитать MIME BLOB. — ответ от сервера ДОЛЖЕН включать airsyncbase:Body, который является дочерним элементом свойств. airsyncbase:Body ДОЛЖЕН содержать следующие свойства в ответе поиска S/MIME: :EstimatedDataSize, чтобы указать приблизительный общий размер данных. - Airsyncbase:Truncated, чтобы указать, усечен ли MIME BLOB. - airsyncbase:Данные, содержащие полный MIME BLOB.
 
 ```csharp
 public MIMESupport? MIMESupport { get; set; }

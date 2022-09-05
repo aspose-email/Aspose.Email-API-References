@@ -1,9 +1,9 @@
 ---
 title: FileFormatInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains data returned by FileFormatUtil file format detection methods.
 type: docs
-weight: 17290
+weight: 17460
 url: /net/aspose.email/fileformatinfo/
 ---
 ## FileFormatInfo class

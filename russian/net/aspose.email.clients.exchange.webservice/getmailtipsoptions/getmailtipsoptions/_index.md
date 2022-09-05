@@ -1,14 +1,14 @@
 ---
 title: GetMailTipsOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGetMailTipsOptionsaspose.email.clients.exchange.webservice/getmailtipsoptions
+description: Инициализирует новый экземплярGetMailTipsOptionsaspose.email.clients.exchange.webservice/getmailtipsoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/getmailtipsoptions/getmailtipsoptions/
 ---
 ## GetMailTipsOptions constructor
 
-Инициализирует новый экземпляр класса[`GetMailTipsOptions`](../../getmailtipsoptions)
+Инициализирует новый экземпляр[`GetMailTipsOptions`](../../getmailtipsoptions) класс
 
 ```csharp
 public GetMailTipsOptions(MailAddress sendingAs, MailAddressCollection recipients, 
@@ -18,8 +18,8 @@ public GetMailTipsOptions(MailAddress sendingAs, MailAddressCollection recipient
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sendingAs | MailAddress | Указывает адрес электронной почты, который пользователь пытается отправить. |
-| recipients | MailAddressCollection | Задает список получателей для проверки почтовых подсказок. |
-| mailTipsRequested | MailTipsType | Задает типы почтовых подсказок, запрашиваемых у службы. |
+| recipients | MailAddressCollection | Указывает список получателей для проверки почтовых подсказок. |
+| mailTipsRequested | MailTipsType | Указывает типы почтовых подсказок, запрашиваемых службой. |
 
 ### Смотрите также
 

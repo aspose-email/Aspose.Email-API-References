@@ -1,14 +1,14 @@
 ---
 title: PermanentDelete
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示是否要永久删除邮件而不将其保存到已删除邮件文件夹
+description: 获取或设置一个值该值指示是否要永久删除邮件而不将其保存到已删除邮件文件夹中
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.exchange/ruleactions/permanentdelete/
 ---
 ## RuleActions.PermanentDelete property
 
-获取或设置一个值，该值指示是否要永久删除邮件而不将其保存到“已删除邮件”文件夹。
+获取或设置一个值，该值指示是否要永久删除邮件而不将其保存到已删除邮件文件夹中。
 
 ```csharp
 public bool PermanentDelete { get; set; }

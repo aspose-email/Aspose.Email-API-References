@@ -27,9 +27,9 @@ public ExchangeUploadItemResult[] UpdateItems(ExchangeStreamedItem[] items, stri
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*is` empty` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*is` null` или` пустой` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items* является`нулевой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items* является`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

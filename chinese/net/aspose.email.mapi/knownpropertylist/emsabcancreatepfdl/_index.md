@@ -1,14 +1,14 @@
 ---
 title: EmsAbCanCreatePfDl
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_CAN_CREATE_PF_DL
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_CAN_CREATE_PF_DL
 type: docs
 weight: 4960
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabcancreatepfdl/
 ---
 ## KnownPropertyList.EmsAbCanCreatePfDl field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_CAN_CREATE_PF_DL
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_CAN_CREATE_PF_DL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCanCreatePfDl;

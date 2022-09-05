@@ -1,14 +1,14 @@
 ---
 title: NonSendableTo
 second_title: Aspose.Email for .NET API 参考
-description: 包含所有不可发送的与会者的列表这些与会者也是必需的与会者 区域会议 规范名称PidLidNonSendableTo 替代名称dispidNonSendableTo
+description: 包含所有不可发送的与会者的列表这些与会者也是必需的与会者 区域Meetings 规范名称PidLidNonSendableTo 替代名称dispidNonSendableTo
 type: docs
 weight: 13030
 url: /zh/net/aspose.email.mapi/knownpropertylist/nonsendableto/
 ---
 ## KnownPropertyList.NonSendableTo field
 
-包含所有不可发送的与会者的列表，这些与会者也是必需的与会者。 区域:会议 规范名称:PidLidNonSendableTo 替代名称:dispidNonSendableTo
+包含所有不可发送的与会者的列表，这些与会者也是必需的与会者。 区域：Meetings 规范名称：PidLidNonSendableTo 替代名称：dispidNonSendableTo
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendableTo;

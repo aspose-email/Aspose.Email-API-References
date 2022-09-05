@@ -1,14 +1,14 @@
 ---
 title: Email3
 second_title: Aspose.Email for .NET API 参考
-description: Email3 标头
+description: Email3 标头.
 type: docs
 weight: 120
 url: /zh/net/aspose.email/mhttemplatename.contact/email3/
 ---
 ## MhtTemplateName.Contact.Email3 field
 
-Email3 标头。
+Email3 标头.
 
 ```csharp
 public const string Email3;

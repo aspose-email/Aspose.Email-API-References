@@ -1,14 +1,14 @@
 ---
 title: PstPath
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PST_PATH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PST_PATH
 type: docs
 weight: 15100
 url: /ru/net/aspose.email.mapi/knownpropertylist/pstpath/
 ---
 ## KnownPropertyList.PstPath field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PST_PATH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PST_PATH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PstPath;

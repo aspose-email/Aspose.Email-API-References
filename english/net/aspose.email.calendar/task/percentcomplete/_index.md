@@ -1,7 +1,7 @@
 ---
 title: PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a pecent of task completion.
 type: docs
 weight: 80
 url: /net/aspose.email.calendar/task/percentcomplete/

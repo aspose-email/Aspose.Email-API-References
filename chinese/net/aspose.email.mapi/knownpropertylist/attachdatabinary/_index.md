@@ -1,14 +1,14 @@
 ---
 title: AttachDataBinary
 second_title: Aspose.Email for .NET API 参考
-description: 包含要附加的文件的内容 区域消息附件属性 规范名称PidTagAttachDataBinary 备用名称PR_ATTACH_DATA_BIN ptagAttachDataBin
+description: 包含要附加的文件的内容 区域消息附件属性 规范名称PidTagAttachDataBinary 替代名称PR_ATTACH_DATA_BINptagAttachDataBin
 type: docs
 weight: 1550
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachdatabinary/
 ---
 ## KnownPropertyList.AttachDataBinary field
 
-包含要附加的文件的内容。 区域:消息附件属性 规范名称:PidTagAttachDataBinary 备用名称:PR_ATTACH_DATA_BIN, ptagAttachDataBin
+包含要附加的文件的内容。 区域：消息附件属性 规范名称：PidTagAttachDataBinary 替代名称：PR_ATTACH_DATA_BIN、ptagAttachDataBin
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachDataBinary;

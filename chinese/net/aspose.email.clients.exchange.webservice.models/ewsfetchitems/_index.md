@@ -1,14 +1,14 @@
 ---
 title: EwsFetchItems
 second_title: Aspose.Email for .NET API 参考
-description: 表示EwsFetchItems参数
+description: 代表FetchItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync参数.
 type: docs
 weight: 4060
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/
 ---
 ## EwsFetchItems class
 
-表示EwsFetchItems）参数。
+代表[`FetchItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync)参数.
 
 ```csharp
 public class EwsFetchItems
@@ -18,7 +18,7 @@ public class EwsFetchItems
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/create)() | 创建[`FetchItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync)方法的参数集。 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/create)() | 创建[`FetchItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync)方法的参数集. |
 | [AddExtendedProperties](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperties)(IEnumerable&lt;PropertyDescriptor&gt;) | 添加扩展属性以检索。 |
 | [AddExtendedProperty](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperty)(PropertyDescriptor) | 添加扩展属性以检索。 |
 | [AddUri](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduri)(string) | 添加要获取的消息 URI。 |

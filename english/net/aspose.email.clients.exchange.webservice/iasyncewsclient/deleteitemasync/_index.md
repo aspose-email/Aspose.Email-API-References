@@ -1,7 +1,7 @@
 ---
 title: DeleteItemAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes specified item
 type: docs
 weight: 180
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/deleteitemasync/

@@ -1,14 +1,14 @@
 ---
 title: ConversationTopic
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит неизменную копию исходного объекта. ОбластьОбщие свойства сообщения Каноническое имяPidTagConversationTopic Альтернативные именаPR_CONVERSATION_TOPIC PR_CONVERSATION_TOPIC_A
+description: Содержит неизменную копию исходной темы. Область Общие свойства сообщения Каноническое имя PidTagConversationTopic Альтернативные имена PR_CONVERSATION_TOPIC PR_CONVERSATION_TOPIC_A
 type: docs
 weight: 3440
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationtopic/
 ---
 ## KnownPropertyList.ConversationTopic field
 
-Содержит неизменную копию исходного объекта. Область:Общие свойства сообщения Каноническое имя:PidTagConversationTopic Альтернативные имена:PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A,
+Содержит неизменную копию исходной темы. Область: Общие свойства сообщения Каноническое имя: PidTagConversationTopic Альтернативные имена: PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationTopic;

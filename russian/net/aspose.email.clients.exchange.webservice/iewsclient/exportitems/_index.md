@@ -16,7 +16,7 @@ public ExchangeStreamedItem[] ExportItems(params string[] itemIds)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemIds | String[] | Идентификаторы предметов в быть экспортированным |
+| itemIds | String[] | Идентификаторы товаров для экспорта |
 
 ### Возвращаемое значение
 
@@ -26,8 +26,8 @@ public ExchangeStreamedItem[] ExportItems(params string[] itemIds)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds*is` empty` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds* является`нулевой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds* является`пустой` |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: ThreadName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the .NET thread.
 type: docs
 weight: 140
 url: /net/aspose.email.tools.logging/logentry/threadname/

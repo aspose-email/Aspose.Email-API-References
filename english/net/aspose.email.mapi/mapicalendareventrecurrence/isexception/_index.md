@@ -1,7 +1,7 @@
 ---
 title: IsException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the object represents an exception
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/isexception/

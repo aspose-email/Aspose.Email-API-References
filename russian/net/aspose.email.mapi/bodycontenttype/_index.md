@@ -19,7 +19,7 @@ public enum BodyContentType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | PlainText | `0` | Простой текст. |
-| Html | `1` | Тип html. |
+| Html | `1` | Тип HTML. |
 | Rtf | `2` | Тип rtf. |
 
 ### Смотрите также

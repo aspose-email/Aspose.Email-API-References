@@ -1,7 +1,7 @@
 ---
 title: DocumentSharer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The user who last modiifed sharing of the document. Mandatory Yes
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/sharepointmetadata/documentsharer/

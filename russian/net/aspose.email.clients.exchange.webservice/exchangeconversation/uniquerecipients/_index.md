@@ -1,14 +1,14 @@
 ---
 title: UniqueRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список всех людей которые получили сообщения в этом разговоре для сообщений в текущей папке.
+description: Получает список всех людей получивших сообщения в этой беседе для сообщений в текущей папке.
 type: docs
 weight: 250
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/uniquerecipients/
 ---
 ## ExchangeConversation.UniqueRecipients property
 
-Получает список всех людей, которые получили сообщения в этом разговоре для сообщений в текущей папке.
+Получает список всех людей, получивших сообщения в этой беседе, для сообщений в текущей папке.
 
 ```csharp
 public StringCollection UniqueRecipients { get; }

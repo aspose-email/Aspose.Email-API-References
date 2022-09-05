@@ -1,9 +1,9 @@
 ---
 title: TelephoneNumbers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a contacts telephone numbers
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/telephonenumbers/
 ---
 ## VCardContact.TelephoneNumbers property

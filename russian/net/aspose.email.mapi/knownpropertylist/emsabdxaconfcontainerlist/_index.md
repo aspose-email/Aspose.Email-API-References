@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaConfContainerList
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_CONF_CONTAINER_LIST
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_CONF_CONTAINER_LIST
 type: docs
 weight: 5630
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaconfcontainerlist/
 ---
 ## KnownPropertyList.EmsAbDxaConfContainerList field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_CONF_CONTAINER_LIST
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_CONF_CONTAINER_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaConfContainerList;

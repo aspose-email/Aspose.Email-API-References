@@ -24,7 +24,7 @@ public Task<IEnumerable<MapiContact>> ListContactsAsync(string folderUri,
 
 ### 返回值
 
-表示联系信息的读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)。
+读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)代表联系信息。
 
 ### 也可以看看
 

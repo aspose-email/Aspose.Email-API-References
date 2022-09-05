@@ -1,14 +1,14 @@
 ---
 title: HomeAddressCity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название домашнего населенного пункта пользователя почты например города. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressCity Альтернативные именаPR_HOME_ADDRESS_CITY PR_HOME_ADDRESS_CITY_A
+description: Содержит название домашнего местоположения почтового пользователя например города.
 type: docs
 weight: 11010
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddresscity/
 ---
 ## KnownPropertyList.HomeAddressCity field
 
-Содержит название домашнего населенного пункта пользователя почты, например города. Область:MapiMailUser Каноническое имя:PidTagHomeAddressCity Альтернативные имена:PR_HOME_ADDRESS_CITY, PR_HOME_ADDRESS_CITY_A,
+Содержит название домашнего местоположения почтового пользователя, например города.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressCity;

@@ -16,15 +16,15 @@ public static void AddVotingButton(MapiMessage message, string displayName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение[`MapiMessage`](../../mapimessage)в котором добавлена кнопка голосования . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором добавлена кнопка голосования. |
 | displayName | String | Отображаемое имя кнопки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentException | Если*displayName*равно null или пусто. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentException | Если*displayName* является нулевым или пустым. |
 
 ### Смотрите также
 

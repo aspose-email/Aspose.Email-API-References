@@ -1,14 +1,14 @@
 ---
 title: EmsAbHasMasterNcsO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HAS_MASTER_NCS_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HAS_MASTER_NCS_O
 type: docs
 weight: 6520
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhasmasterncso/
 ---
 ## KnownPropertyList.EmsAbHasMasterNcsO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HAS_MASTER_NCS_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HAS_MASTER_NCS_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHasMasterNcsO;

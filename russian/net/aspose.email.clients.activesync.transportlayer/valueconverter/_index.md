@@ -18,7 +18,7 @@ public static class ValueConverter
 
 | Имя | Описание |
 | --- | --- |
-| static [ToASProtocolVersions](../../aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions)(string) | Преобразует версию протокола ActiveSync из строкового представления в перечисление. |
+| static [ToASProtocolVersions](../../aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions)(string) | Преобразует версию протокола ActiveSync из строкового представления в enum. |
 | static [ToString](../../aspose.email.clients.activesync.transportlayer/valueconverter/tostring)(ASProtocolVersions) | Преобразует версию протокола ActiveSync из перечисления в строковое представление. |
 
 ### Смотрите также

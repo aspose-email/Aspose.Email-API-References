@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains message body text in plain text format. Area General Message Properties Canonical name PidTagBody Alternate names PR_BODY PR_BODY_A ptagBody PR_BODY_W
 type: docs
 weight: 2030
 url: /net/aspose.email.mapi/knownpropertylist/body/

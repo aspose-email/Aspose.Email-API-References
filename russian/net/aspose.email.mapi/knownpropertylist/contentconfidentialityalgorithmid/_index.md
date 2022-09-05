@@ -1,14 +1,14 @@
 ---
 title: ContentConfidentialityAlgorithmId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
 type: docs
 weight: 3170
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentconfidentialityalgorithmid/
 ---
 ## KnownPropertyList.ContentConfidentialityAlgorithmId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentConfidentialityAlgorithmId;

@@ -25,12 +25,12 @@ public class ItOpFetchOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BodyPartPreference](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/bodypartpreference) { get; set; } | 包含与从搜索、同步或获取消息部分返回的信息的类型和大小相关的首选项信息。 |
-| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/bodypreference) { get; set; } | 包含与搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
+| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/bodypreference) { get; set; } | 包含与从搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
 | [MIMESupport](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/mimesupport) { get; set; } | 为从服务器发送到客户端的电子邮件项目启用 MIME 支持。 |
-| [Password](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/password) { get; set; } | 指定给定用户名的密码。 服务器接受长度不超过 256 个字符的密码值。 |
-| [Range](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/range) { get; set; } | 指定客户端在响应文档库项目的 Fetch 操作时可以接收的字节范围。 Range 元素是一个可选字段。 Range 元素包含格式为 MN 的字符串值，其中 M 小于 N，M 为最小值，N 为最大值。 字节范围是零索引的；第一个字节由 0（零）表示。 如果在 Fetch 请求中省略 Range，则获取整个项目。 如果请求中存在 FileReference，则 Range 元素是 Options 元素的唯一有效子元素。 |
-| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述。 如果值为 FALSE (0)，服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
-| [Schema](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/schema) { get; } | 指定要获取的项目的架构。 PIM Fetch（第 2.2.3.63.1 节）请求的选项中支持架构。 客户端从文档库中检索项目或检索附件时不支持。 如果未指定 Schema 元素，则服务器允许检索所有属性。 |
+| [Password](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/password) { get; set; } | 指定给定 UserName 的密码。 服务器接受最长 256 个字符的密码值。 |
+| [Range](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/range) { get; set; } | 指定客户端响应文档库项目的 Fetch 操作可以接收的字节范围。 Range 元素是可选字段。 Range 元素包含格式为 MN 的字符串值，其中 M 小于 N，M 是最小值，N 是最大值。 字节范围是零索引的；第一个字节由 0（零）表示。 如果在 Fetch 请求中省略 Range，则获取整个项目。 如果请求中存在 FileReference，则 Range 元素是唯一有效的子元素选项元素. |
+| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送给客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述. 如果值为 FALSE (0)，则服务器在将权限管理的电子邮件发送到客户端之前不会对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
+| [Schema](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/schema) { get; } | 指定要获取的项目的架构。 PIM 获取（第 2.2.3.63.1 节）请求的选项中支持该架构。 客户端从文档库中检索项目或检索附件时不支持。 如果未指定架构元素，则服务器允许检索所有属性。 |
 | [UserName](../../aspose.email.clients.activesync.transportlayer/itopfetchoptions/username) { get; set; } | 指定用于获取所需项目的帐户的用户名。 UserName 值最长可达 100 个字符。 |
 
 ### 也可以看看

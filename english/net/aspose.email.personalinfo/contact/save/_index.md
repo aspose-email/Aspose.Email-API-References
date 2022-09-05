@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves this MapiContactaspose.email.mapi/mapicontact into the given stream with vCard format. The supported vCard version is 2.1
 type: docs
 weight: 410
 url: /net/aspose.email.personalinfo/contact/save/
 ---
-## Contact.Save method (1 of 6)
+## Save(Stream) {#save}
 
 Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) into the given stream with vCard format. The supported vCard version is 2.1
 
@@ -33,7 +33,7 @@ public void Save(Stream stream)
 
 ---
 
-## Contact.Save method (2 of 6)
+## Save(string) {#save_3}
 
 Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
 
@@ -59,7 +59,7 @@ public void Save(string filePath)
 
 ---
 
-## Contact.Save method (3 of 6)
+## Save(string, ContactSaveOptions) {#save_5}
 
 Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
 
@@ -89,7 +89,7 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ---
 
-## Contact.Save method (4 of 6)
+## Save(string, ContactSaveFormat) {#save_4}
 
 Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
 
@@ -111,7 +111,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ---
 
-## Contact.Save method (5 of 6)
+## Save(Stream, ContactSaveFormat) {#save_1}
 
 Saves this [`Contact`](../../contact) to the given stream with a format using the default options.
 
@@ -133,7 +133,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ---
 
-## Contact.Save method (6 of 6)
+## Save(Stream, ContactSaveOptions) {#save_2}
 
 Saves this [`Contact`](../../contact) to the given stream using specified save options.
 

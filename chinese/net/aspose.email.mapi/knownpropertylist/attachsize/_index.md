@@ -1,14 +1,14 @@
 ---
 title: AttachSize
 second_title: Aspose.Email for .NET API 参考
-description: 包含服务器上附件对象使用的大小以字节为单位 区域消息附件属性 规范名称PidTagAttachSize 替代名称PR_ATTACH_SIZE ptagAttachSize
+description: 包含服务器上附件对象使用的大小以字节为单位 区域消息附件属性 规范名称PidTagAttachSize 替代名称PR_ATTACH_SIZEptagAttachSize
 type: docs
 weight: 1790
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachsize/
 ---
 ## KnownPropertyList.AttachSize field
 
-包含服务器上附件对象使用的大小（以字节为单位）。 区域:消息附件属性 规范名称:PidTagAttachSize 替代名称:PR_ATTACH_SIZE, ptagAttachSize
+包含服务器上附件对象使用的大小（以字节为单位）。 区域：消息附件属性 规范名称：PidTagAttachSize 替代名称：PR_ATTACH_SIZE、ptagAttachSize
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachSize;

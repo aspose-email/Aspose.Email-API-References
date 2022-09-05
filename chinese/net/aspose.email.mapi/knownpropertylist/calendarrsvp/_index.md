@@ -1,14 +1,14 @@
 ---
 title: CalendarRsvp
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议的组织者是否请求响应 区域通用 规范名称PidNameCalendarRsvp 替代名称urnschemascalendarrsvp
+description: 指定约会或会议的组织者是否请求响应 区域Common 规范名称PidNameCalendarRsvp 备用名称urnschemascalendarrsvp
 type: docs
 weight: 2390
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarrsvp/
 ---
 ## KnownPropertyList.CalendarRsvp field
 
-指定约会或会议的组织者是否请求响应。 区域:通用 规范名称:PidNameCalendarRsvp 替代名称:urn:schemas:calendar:rsvp
+指定约会或会议的组织者是否请求响应。 区域：Common 规范名称：PidNameCalendarRsvp 备用名称：urn:schemas:calendar:rsvp
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarRsvp;

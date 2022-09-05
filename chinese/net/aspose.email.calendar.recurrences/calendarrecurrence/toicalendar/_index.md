@@ -16,7 +16,7 @@ public string ToiCalendar()
 
 ### 返回值
 
-StringStringRecurrencePattern 的表示。
+细绳String RecurrencePattern 的表示。
 
 ### 也可以看看
 

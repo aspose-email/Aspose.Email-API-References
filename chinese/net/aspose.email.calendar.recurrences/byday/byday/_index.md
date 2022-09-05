@@ -36,7 +36,7 @@ public ByDay(int nthOccurrence, DayOfWeek dayOfWeek)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nthOccurrence | Int32 | 一周中第 n 次出现。 |
+| nthOccurrence | Int32 | 一周中的第 n 次出现。 |
 | dayOfWeek | DayOfWeek | 一周中的一天。 |
 
 ### 也可以看看

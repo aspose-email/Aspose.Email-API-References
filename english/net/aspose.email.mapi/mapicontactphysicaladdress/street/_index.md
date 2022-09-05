@@ -1,7 +1,7 @@
 ---
 title: Street
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the street portion of the contacts address
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/street/

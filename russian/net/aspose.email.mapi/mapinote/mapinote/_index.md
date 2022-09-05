@@ -1,14 +1,14 @@
 ---
 title: MapiNote
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiNoteaspose.email.mapi/mapinote.
+description: Инициализирует новый экземплярMapiNoteaspose.email.mapi/mapinote класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapinote/mapinote/
 ---
 ## MapiNote() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiNote`](../../mapinote).
+Инициализирует новый экземпляр[`MapiNote`](../../mapinote) класс.
 
 ```csharp
 public MapiNote()
@@ -24,7 +24,7 @@ public MapiNote()
 
 ## MapiNote(string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiNote`](../../mapinote).
+Инициализирует новый экземпляр[`MapiNote`](../../mapinote) класс.
 
 ```csharp
 public MapiNote(string subject, string body)

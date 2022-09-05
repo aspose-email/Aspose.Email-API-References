@@ -1,14 +1,14 @@
 ---
 title: TagLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит местоположение почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagLocation Альтернативные именаPR_LOCATION PR_LOCATION_A PR_LOCATION_W
+description: Содержит местоположение почтового пользователя. Область Address Properties Каноническое имя PidTagLocation Альтернативные имена PR_LOCATION PR_LOCATION_A PR_LOCATION_W
 type: docs
 weight: 18490
 url: /ru/net/aspose.email.mapi/knownpropertylist/taglocation/
 ---
 ## KnownPropertyList.TagLocation field
 
-Содержит местоположение почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagLocation Альтернативные имена:PR_LOCATION, PR_LOCATION_A, PR_LOCATION_W,
+Содержит местоположение почтового пользователя. Область: Address Properties Каноническое имя: PidTagLocation Альтернативные имена: PR_LOCATION, PR_LOCATION_A, PR_LOCATION_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagLocation;

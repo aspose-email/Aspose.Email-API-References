@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает предлагаемый цвет фона объекта Note
+description: Получает или задает предлагаемый цвет фона примечания object
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapinote/color/
 ---
 ## MapiNote.Color property
 
-Получает или задает предлагаемый цвет фона объекта Note
+Получает или задает предлагаемый цвет фона примечания object
 
 ```csharp
 public NoteColor Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiTaskUsers
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiTaskUsersaspose.email.mapi/mapitaskusers.
+description: Инициализирует новый экземплярMapiTaskUsersaspose.email.mapi/mapitaskusers класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapitaskusers/mapitaskusers/
 ---
 ## MapiTaskUsers constructor
 
-Инициализирует новый экземпляр класса[`MapiTaskUsers`](../../mapitaskusers).
+Инициализирует новый экземпляр[`MapiTaskUsers`](../../mapitaskusers) класс.
 
 ```csharp
 public MapiTaskUsers()

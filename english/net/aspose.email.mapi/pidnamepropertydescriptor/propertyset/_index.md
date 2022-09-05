@@ -1,7 +1,7 @@
 ---
 title: PropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A GUID that identifies a group of properties with a similar purpose.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/propertyset/

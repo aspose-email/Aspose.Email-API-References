@@ -1,9 +1,9 @@
 ---
 title: NetworkException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Thrown if there is a network connection failure.
 type: docs
-weight: 16680
+weight: 16790
 url: /net/aspose.email.clients/networkexception/
 ---
 ## NetworkException class
@@ -18,9 +18,9 @@ public class NetworkException : Exception
 
 | Name | Description |
 | --- | --- |
-| [NetworkException](networkexception)() | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
-| [NetworkException](networkexception)(string) | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
-| [NetworkException](networkexception)(string, Exception) | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
+| [NetworkException](networkexception#constructor)() | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
+| [NetworkException](networkexception#constructor_1)(string) | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
+| [NetworkException](networkexception#constructor_2)(string, Exception) | Initializes a new instance of the [`NetworkException`](../networkexception) class. |
 
 ### See Also
 

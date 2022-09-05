@@ -1,7 +1,7 @@
 ---
 title: DateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A datetime.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/amptimeago/datetime/

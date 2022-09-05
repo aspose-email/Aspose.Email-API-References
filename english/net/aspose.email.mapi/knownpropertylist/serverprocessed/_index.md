@@ -1,7 +1,7 @@
 ---
 title: ServerProcessed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the Meeting Request object or Meeting Update object has been processed. Area Calendar Canonical name PidLidServerProcessed Alternate names dispidExchangeProcessed
 type: docs
 weight: 17290
 url: /net/aspose.email.mapi/knownpropertylist/serverprocessed/

@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts collection of ImapMessageInfo to array
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/op_implicit/
 ---
-## ImapMessageInfoCollection Implicit operator (1 of 4)
+## implicit operator {#op_implicit_2}
 
 Converts collection of ImapMessageInfo to array
 
@@ -31,7 +31,7 @@ Array of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (2 of 4)
+## implicit operator {#op_implicit}
 
 Converts array of ImapMessageInfo to collection
 
@@ -56,7 +56,7 @@ Collection of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (3 of 4)
+## implicit operator {#op_implicit_3}
 
 Converts collection of ImapMessageInfo to list
 
@@ -81,7 +81,7 @@ List of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (4 of 4)
+## implicit operator {#op_implicit_1}
 
 Converts list of ImapMessageInfo to collection
 

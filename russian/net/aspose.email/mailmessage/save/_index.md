@@ -16,7 +16,7 @@ public virtual void Save(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла для сохранить сообщение. |
+| fileName | String | Имя файла для сохранения сообщения. |
 
 ### Смотрите также
 
@@ -36,8 +36,8 @@ public virtual void Save(string fileName, SaveOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Поток, в котором сохраняется сообщение. |
-| options | SaveOptions | Дополнительные параметры сохранения[`SaveOptions`](../../saveoptions). |
+| fileName | String | Поток, в который сохраняется сообщение. |
+| options | SaveOptions | Дополнительные возможности для сохранения[`SaveOptions`](../../saveoptions). |
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public virtual void Save(Stream stream, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняется сообщение. |
-| options | SaveOptions | Дополнительные параметры сохранения[`SaveOptions`](../../saveoptions). |
+| options | SaveOptions | Дополнительные возможности для сохранения[`SaveOptions`](../../saveoptions). |
 
 ### Смотрите также
 
@@ -80,7 +80,7 @@ public virtual void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который помещается сообщение сохранено |
+| stream | Stream | Поток, в который сохраняется сообщение |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: AppointmentEndDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the date that the appointment ends. Area Calendar Canonical name PidLidAppointmentEndDate Alternate names dispidApptEndDate
 type: docs
 weight: 1150
 url: /net/aspose.email.mapi/knownpropertylist/appointmentenddate/

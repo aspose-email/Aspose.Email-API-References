@@ -1,7 +1,7 @@
 ---
 title: VCardIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardIdentificationInfoaspose.email.personalinfo.vcard/vcardidentificationinfo class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/vcardidentificationinfo/

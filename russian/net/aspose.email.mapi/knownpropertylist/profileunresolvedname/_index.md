@@ -1,14 +1,14 @@
 ---
 title: ProfileUnresolvedName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_UNRESOLVED_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_UNRESOLVED_NAME
 type: docs
 weight: 14930
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileunresolvedname/
 ---
 ## KnownPropertyList.ProfileUnresolvedName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_UNRESOLVED_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_UNRESOLVED_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileUnresolvedName;

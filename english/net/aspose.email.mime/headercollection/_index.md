@@ -1,9 +1,9 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the collection of header fields
 type: docs
-weight: 18960
+weight: 19170
 url: /net/aspose.email.mime/headercollection/
 ---
 ## HeaderCollection class
@@ -18,8 +18,8 @@ public class HeaderCollection : ICollection<string>
 
 | Name | Description |
 | --- | --- |
-| [HeaderCollection](headercollection)() | Initializes a new instance of the [`HeaderCollection`](../headercollection) class. |
-| [HeaderCollection](headercollection)(HeaderCollection) | Initializes a new instance of the [`HeaderCollection`](../headercollection) class. |
+| [HeaderCollection](headercollection#constructor)() | Initializes a new instance of the [`HeaderCollection`](../headercollection) class. |
+| [HeaderCollection](headercollection#constructor_1)(HeaderCollection) | Initializes a new instance of the [`HeaderCollection`](../headercollection) class. |
 
 ## Properties
 
@@ -36,15 +36,15 @@ public class HeaderCollection : ICollection<string>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.mime/headercollection/add)(HeaderCollection) | Adds a header to collection. |
-| [Add](../../aspose.email.mime/headercollection/add)(string) | Adds the header without value |
-| [Add](../../aspose.email.mime/headercollection/add)(string, string) | Adds the header. |
+| [Add](../../aspose.email.mime/headercollection/add#add)(HeaderCollection) | Adds a header to collection. |
+| [Add](../../aspose.email.mime/headercollection/add#add_1)(string) | Adds the header without value |
+| [Add](../../aspose.email.mime/headercollection/add#add_2)(string, string) | Adds the header. |
 | virtual [Add_](../../aspose.email.mime/headercollection/add_)(string, string) | Adds the header. |
 | virtual [Clear](../../aspose.email.mime/headercollection/clear)() | Clears all headers. |
 | [Contains](../../aspose.email.mime/headercollection/contains)(string) | Gets a value indicating whether the specified header is contained in the collection |
 | [CopyTo](../../aspose.email.mime/headercollection/copyto)(string[], int) | Copies all the elements of the current collection to the specified string array starting at the specified destination index. |
-| virtual [Get](../../aspose.email.mime/headercollection/get)(int) | Gets the value at the specified index. |
-| [Get](../../aspose.email.mime/headercollection/get)(string) | Gets the header value by a given header name. |
+| virtual [Get](../../aspose.email.mime/headercollection/get#get)(int) | Gets the value at the specified index. |
+| [Get](../../aspose.email.mime/headercollection/get#get_1)(string) | Gets the header value by a given header name. |
 | [GetDecodedValue](../../aspose.email.mime/headercollection/getdecodedvalue)(string) | Gets the header value. |
 | [GetEnumerator](../../aspose.email.mime/headercollection/getenumerator)() | Returns an enumerator that iterates through a collection. |
 | virtual [GetKey](../../aspose.email.mime/headercollection/getkey)(int) | Gets the key at the specified index of the collection. |

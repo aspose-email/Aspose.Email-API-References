@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API 参考
-description: 将项目插入到列表中指定索引处
+description: 在指定索引处将项目插入列表
 type: docs
 weight: 160
 url: /zh/net/aspose.email.personalinfo/urllist/insert/
 ---
 ## UrlList.Insert method
 
-将项目插入到列表中指定索引处。
+在指定索引处将项目插入列表。
 
 ```csharp
 public void Insert(int index, Url value)
@@ -16,8 +16,8 @@ public void Insert(int index, Url value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入*value*的从零开始的索引。 |
-| value | Url | Object插入到列表中。 |
+| index | Int32 | 从零开始的索引*value*应该插入。 |
+| value | Url | 这Object插入到列表中。 |
 
 ### 也可以看看
 

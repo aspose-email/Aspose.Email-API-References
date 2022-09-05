@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds an item to the list.
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/instantmessengerlist/add/

@@ -1,7 +1,7 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the recipients of the message.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapimessageitembase/recipients/

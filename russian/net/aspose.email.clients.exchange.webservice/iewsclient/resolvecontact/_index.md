@@ -20,7 +20,7 @@ public MapiContactCollection ResolveContact(string unresolvedEntry)
 
 ### Возвращаемое значение
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)которая представляет контактную информацию.
+А[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) который представляет контактную информацию.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OldLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает исходное значение свойства PidLidLocation раздел 2.159 перед обновлением собрания. ОбластьВстречи Каноническое имяPidLidOldLocation Альтернативные именаdispidOldLocation
+description: Указывает исходное значение свойства PidLidLocation раздел 2.159 перед обновлением собрания. Область Meetings Каноническое имя PidLidOldLocation Альтернативные имена dispidOldLocation
 type: docs
 weight: 13330
 url: /ru/net/aspose.email.mapi/knownpropertylist/oldlocation/
 ---
 ## KnownPropertyList.OldLocation field
 
-Указывает исходное значение свойства PidLidLocation (раздел 2.159) перед обновлением собрания. Область:Встречи Каноническое имя:PidLidOldLocation Альтернативные имена:dispidOldLocation
+Указывает исходное значение свойства PidLidLocation (раздел 2.159) перед обновлением собрания. Область: Meetings Каноническое имя: PidLidOldLocation Альтернативные имена: dispidOldLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldLocation;

@@ -1,7 +1,7 @@
 ---
 title: CleanGlobalObjectId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidLidGlobalObjectId property section 2.142 for an object all zero. Area Meetings Canonical name PidLidCleanGlobalObjectId Alternate names dispidCleanGlobalObjId
 type: docs
 weight: 2670
 url: /net/aspose.email.mapi/knownpropertylist/cleanglobalobjectid/

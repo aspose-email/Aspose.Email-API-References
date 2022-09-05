@@ -1,7 +1,7 @@
 ---
 title: ForegroundColor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The foreground color of the calendar in the format ffffff. This property supersedes the indexbased colorId property.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.google/extendedcalendar/foregroundcolor/

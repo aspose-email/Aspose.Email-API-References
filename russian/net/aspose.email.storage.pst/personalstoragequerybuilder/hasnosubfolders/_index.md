@@ -16,7 +16,7 @@ public MailQuery HasNoSubfolders()
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет поисковый запрос (один критерий поиска).
+[`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

@@ -26,7 +26,7 @@ public class SyncOperationsResponse
 | --- | --- |
 | [Add](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/add) { get; } | 表示必须在集合中创建新对象的对象列表。 |
 | [Change](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change) { get; } | 表示必须在集合中修改对象的对象列表。 |
-| [Fetch](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch) { get; } | 获取对象列表 |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch) { get; } | 获取的对象列表 |
 
 ### 也可以看看
 

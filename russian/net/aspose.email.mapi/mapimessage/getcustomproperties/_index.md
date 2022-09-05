@@ -1,14 +1,14 @@
 ---
 title: GetCustomProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает набор пользовательских MapiProperties.
+description: Получает коллекцию пользовательских свойств MapiProperties.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.mapi/mapimessage/getcustomproperties/
 ---
 ## MapiMessage.GetCustomProperties method
 
-Получает набор пользовательских MapiProperties.
+Получает коллекцию пользовательских свойств MapiProperties.
 
 ```csharp
 public MapiPropertyCollection GetCustomProperties()
@@ -16,7 +16,7 @@ public MapiPropertyCollection GetCustomProperties()
 
 ### Возвращаемое значение
 
-Коллекция пользовательских свойств MapiProperties[`MapiPropertyCollection`](../../mapipropertycollection).
+Коллекция пользовательских MapiProperties[`MapiPropertyCollection`](../../mapipropertycollection).
 
 ### Смотрите также
 

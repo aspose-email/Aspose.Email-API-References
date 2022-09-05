@@ -1,14 +1,14 @@
 ---
 title: Remote
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее что папка является удаленным почтовым ящиком. Эта опция доступна только в том случае если сервер поддерживает IMAP4 LIST Command Extensions rfc5258 Подробнееhttp//tools.ietf.org/html/rfc5258
+description: Получает значение указывающее что папка является удаленным почтовым ящиком. Эта опция доступна только в том случае если сервер поддерживает расширения команд IMAP4 LIST rfc5258 Подробнее http//tools.ietf.org/html/rfc5258
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/remote/
 ---
 ## ImapFolderInfo.Remote property
 
-Получает значение, указывающее, что папка является удаленным почтовым ящиком. Эта опция доступна только в том случае, если сервер поддерживает IMAP4 LIST Command Extensions (rfc5258) Подробнее:http://tools.ietf.org/html/rfc5258
+Получает значение, указывающее, что папка является удаленным почтовым ящиком. Эта опция доступна только в том случае, если сервер поддерживает расширения команд IMAP4 LIST (rfc5258) Подробнее: http://tools.ietf.org/html/rfc5258
 
 ```csharp
 public bool Remote { get; }

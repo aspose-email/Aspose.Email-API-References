@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the property with the specified tag from the collection.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapipropertycollection/remove/
 ---
-## MapiPropertyCollection.Remove method (1 of 3)
+## Remove(long) {#remove_1}
 
 Removes the property with the specified tag from the collection.
 
@@ -30,7 +30,7 @@ true if the property is successfully removed; otherwise, false.
 
 ---
 
-## MapiPropertyCollection.Remove method (2 of 3)
+## Remove(PropertyDescriptor) {#remove}
 
 Removes the property with the specified property descriptor from the collection.
 
@@ -55,7 +55,7 @@ true if the property is successfully removed; otherwise, false.
 
 ---
 
-## MapiPropertyCollection.Remove method (3 of 3)
+## Remove(KeyValuePair&lt;long, MapiProperty&gt;) {#remove_2}
 
 ```csharp
 public bool Remove(KeyValuePair<long, MapiProperty> item)

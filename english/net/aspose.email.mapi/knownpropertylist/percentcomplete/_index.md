@@ -1,7 +1,7 @@
 ---
 title: PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a timeflagged Message object is complete. Area Tasks Canonical name PidLidPercentComplete Alternate names dispidPercentComplete
 type: docs
 weight: 14240
 url: /net/aspose.email.mapi/knownpropertylist/percentcomplete/

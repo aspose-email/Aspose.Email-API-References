@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsAway
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет месяцы для которых данные о занятости типа OOF присутствуют в сообщении о занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoMonthsAway Альтернативные именаPR_SCHDINFO_MONTHS_OOF
+description: Определяет месяцы для которых данные о занятости типа OOF присутствуют в сообщении о занятости. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoMonthsAway Альтернативные имена PR_SCHDINFO_MONTHS_OOF
 type: docs
 weight: 16860
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsaway/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsAway field
 
-Определяет месяцы, для которых данные о занятости типа OOF присутствуют в сообщении о занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoMonthsAway Альтернативные имена:PR_SCHDINFO_MONTHS_OOF
+Определяет месяцы, для которых данные о занятости типа OOF присутствуют в сообщении о занятости. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoMonthsAway Альтернативные имена: PR_SCHDINFO_MONTHS_OOF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsAway;

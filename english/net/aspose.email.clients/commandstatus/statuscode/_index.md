@@ -1,7 +1,7 @@
 ---
 title: StatusCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains status code
 type: docs
 weight: 30
 url: /net/aspose.email.clients/commandstatus/statuscode/

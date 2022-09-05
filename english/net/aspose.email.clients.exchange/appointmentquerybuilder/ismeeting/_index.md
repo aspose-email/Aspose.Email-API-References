@@ -1,7 +1,7 @@
 ---
 title: IsMeeting
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find Meeting items.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/appointmentquerybuilder/ismeeting/

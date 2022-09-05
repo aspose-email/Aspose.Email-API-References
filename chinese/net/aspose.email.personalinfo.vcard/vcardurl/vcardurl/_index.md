@@ -1,14 +1,14 @@
 ---
 title: VCardUrl
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardUrlaspose.email.personalinfo.vcard/vcardurl 类的新实例
+description: 初始化VCardUrlaspose.email.personalinfo.vcard/vcardurl class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardurl/vcardurl/
 ---
 ## VCardUrl constructor
 
-初始化 [`VCardUrl`](../../vcardurl) 类的新实例
+初始化[`VCardUrl`](../../vcardurl) class
 
 ```csharp
 public VCardUrl()

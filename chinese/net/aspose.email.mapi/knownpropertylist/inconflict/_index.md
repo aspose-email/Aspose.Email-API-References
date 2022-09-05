@@ -1,14 +1,14 @@
 ---
 title: InConflict
 second_title: Aspose.Email for .NET API 参考
-description: 指定附件是否代表备用副本 区域冲突注意 规范名称PidTagInConflict 替代名称PR_IN_CONFLICT ptagInConflict
+description: 指定附件是否代表备用副本 区域冲突注释 规范名称PidTagInConflict 备用名称PR_IN_CONFLICTptagInConflict
 type: docs
 weight: 11310
 url: /zh/net/aspose.email.mapi/knownpropertylist/inconflict/
 ---
 ## KnownPropertyList.InConflict field
 
-指定附件是否代表备用副本。 区域:冲突注意 规范名称:PidTagInConflict 替代名称:PR_IN_CONFLICT, ptagInConflict
+指定附件是否代表备用副本。 区域：冲突注释 规范名称：PidTagInConflict 备用名称：PR_IN_CONFLICT、ptagInConflict
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InConflict;

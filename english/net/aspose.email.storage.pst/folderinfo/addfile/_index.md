@@ -1,7 +1,7 @@
 ---
 title: AddFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a file into pst folder.
 type: docs
 weight: 130
 url: /net/aspose.email.storage.pst/folderinfo/addfile/

@@ -1,14 +1,14 @@
 ---
 title: RemoteValidateOk
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REMOTE_VALIDATE_OK
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REMOTE_VALIDATE_OK
 type: docs
 weight: 15820
 url: /ru/net/aspose.email.mapi/knownpropertylist/remotevalidateok/
 ---
 ## KnownPropertyList.RemoteValidateOk field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REMOTE_VALIDATE_OK
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REMOTE_VALIDATE_OK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemoteValidateOk;

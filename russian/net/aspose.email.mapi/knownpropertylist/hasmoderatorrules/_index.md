@@ -1,14 +1,14 @@
 ---
 title: HasModeratorRules
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_HAS_MODERATOR_RULES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_HAS_MODERATOR_RULES
 type: docs
 weight: 10860
 url: /ru/net/aspose.email.mapi/knownpropertylist/hasmoderatorrules/
 ---
 ## KnownPropertyList.HasModeratorRules field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_HAS_MODERATOR_RULES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_HAS_MODERATOR_RULES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasModeratorRules;

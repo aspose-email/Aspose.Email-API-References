@@ -1,14 +1,14 @@
 ---
 title: IpmDraftsEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки Черновики. ОбластьСвойства папки Каноническое имяPidTagIpmDraftsEntryId Альтернативные именаPR_IPM_DRAFTS_ENTRYID
+description: Содержит EntryID папки Drafts. Область Свойства папки Каноническое имя PidTagIpmDraftsEntryId Альтернативные имена PR_IPM_DRAFTS_ENTRYID
 type: docs
 weight: 11640
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmdraftsentryid/
 ---
 ## KnownPropertyList.IpmDraftsEntryId field
 
-Содержит EntryID папки Черновики. Область:Свойства папки Каноническое имя:PidTagIpmDraftsEntryId Альтернативные имена:PR_IPM_DRAFTS_ENTRYID
+Содержит EntryID папки Drafts. Область: Свойства папки Каноническое имя: PidTagIpmDraftsEntryId Альтернативные имена: PR_IPM_DRAFTS_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmDraftsEntryId;

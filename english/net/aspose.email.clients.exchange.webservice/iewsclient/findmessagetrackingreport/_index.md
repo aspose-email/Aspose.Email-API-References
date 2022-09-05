@@ -1,7 +1,7 @@
 ---
 title: FindMessageTrackingReport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds messages that meet the specified criteria.
 type: docs
 weight: 850
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/findmessagetrackingreport/

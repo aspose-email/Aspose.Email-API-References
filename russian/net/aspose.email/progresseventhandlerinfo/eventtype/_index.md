@@ -1,14 +1,14 @@
 ---
 title: EventType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип произошедшего события прогресса.
+description: Тип произошедшего события выполнения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email/progresseventhandlerinfo/eventtype/
 ---
 ## ProgressEventHandlerInfo.EventType property
 
-Тип произошедшего события прогресса.
+Тип произошедшего события выполнения.
 
 ```csharp
 public ProgressEventType EventType { get; set; }

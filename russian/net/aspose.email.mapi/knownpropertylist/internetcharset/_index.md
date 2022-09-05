@@ -1,14 +1,14 @@
 ---
 title: InternetCharset
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_CHARSET
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_CHARSET
 type: docs
 weight: 11450
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetcharset/
 ---
 ## KnownPropertyList.InternetCharset field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_CHARSET
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_CHARSET
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetCharset;

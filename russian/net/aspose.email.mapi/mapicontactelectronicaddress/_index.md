@@ -3,7 +3,7 @@ title: MapiContactElectronicAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Относится к группе свойств которые определяют адрес электронной почты или адрес факса для контакта.
 type: docs
-weight: 18180
+weight: 18210
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress class
@@ -18,21 +18,21 @@ public sealed class MapiContactElectronicAddress
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor)() | Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_1)(string) | Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_2)(string, string) | Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_3)(string, string, string) | Инициализирует новый экземпляр класса[`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor)() | Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../mapicontactelectronicaddress) класс. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_1)(string) | Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../mapicontactelectronicaddress) класс. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_2)(string, string) | Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../mapicontactelectronicaddress) класс. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_3)(string, string, string) | Инициализирует новый экземпляр[`MapiContactElectronicAddress`](../mapicontactelectronicaddress) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AddressType](../../aspose.email.mapi/mapicontactelectronicaddress/addresstype) { get; set; } | Получает или устанавливает тип адреса электронного адреса |
-| [DisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/displayname) { get; set; } | Получает или задает удобочитаемое для пользователя отображаемое имя для адреса электронной почты |
-| [EmailAddress](../../aspose.email.mapi/mapicontactelectronicaddress/emailaddress) { get; set; } | Получает или устанавливает адрес электронной почты контакта |
-| [FaxNumber](../../aspose.email.mapi/mapicontactelectronicaddress/faxnumber) { get; set; } | Получает или устанавливает телефонный номер основного факсимильного аппарата пользователя почты |
-| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddress/isempty) { get; } | Показывает, если MapiContactElectronicAddress пуст |
-| [OriginalDisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/originaldisplayname) { get; set; } | Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты объекта Contact. |
+| [AddressType](../../aspose.email.mapi/mapicontactelectronicaddress/addresstype) { get; set; } | Получает или задает тип адреса электронного адреса |
+| [DisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/displayname) { get; set; } | Получает или задает удобочитаемое отображаемое имя для адреса электронной почты |
+| [EmailAddress](../../aspose.email.mapi/mapicontactelectronicaddress/emailaddress) { get; set; } | Получает или задает адрес электронной почты контакта |
+| [FaxNumber](../../aspose.email.mapi/mapicontactelectronicaddress/faxnumber) { get; set; } | Получает или задает номер телефона основного факсимильного аппарата пользователя почты |
+| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddress/isempty) { get; } | Показывает, является ли MapiContactElectronicAddress пустым |
+| [OriginalDisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/originaldisplayname) { get; set; } | Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты для объекта Contact. |
 
 ## Методы
 
@@ -41,7 +41,7 @@ public sealed class MapiContactElectronicAddress
 | override [Equals](../../aspose.email.mapi/mapicontactelectronicaddress/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | override [GetHashCode](../../aspose.email.mapi/mapicontactelectronicaddress/gethashcode)() |  |
 | override [ToString](../../aspose.email.mapi/mapicontactelectronicaddress/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [implicit operator](../../aspose.email.mapi/mapicontactelectronicaddress/op_implicit) | Выполняет неявное преобразование изStringв[`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
+| [implicit operator](../../aspose.email.mapi/mapicontactelectronicaddress/op_implicit) | Выполняет неявное преобразование изString к[`MapiContactElectronicAddress`](../mapicontactelectronicaddress) . |
 
 ### Смотрите также
 

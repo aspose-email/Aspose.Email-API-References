@@ -1,7 +1,7 @@
 ---
 title: GlobalItemClasses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of item classes that represents all the item classes of the conversation items in a mailbox.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalitemclasses/

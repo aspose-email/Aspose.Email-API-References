@@ -1,7 +1,7 @@
 ---
 title: RuleActionType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the ActionType field MSOXORULE section 2.2.5.1 of a rule that failed. Area ExchangeMessageReadOnly Canonical name PidTagRuleActionType Alternate names PR_RULE_ACTION_TYPE ptagRuleActionType
 type: docs
 weight: 16450
 url: /net/aspose.email.mapi/knownpropertylist/ruleactiontype/

@@ -1,14 +1,14 @@
 ---
 title: MessageObjectRecipientsCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MessageObjectRecipientEntity./messageobjectrecipiententity对象的集合
+description: 代表一个集合MessageObjectRecipientEntity./messageobjectrecipiententity对象.
 type: docs
-weight: 18870
+weight: 18900
 url: /zh/net/aspose.email.mapi.msg/messageobjectrecipientscollection/
 ---
 ## MessageObjectRecipientsCollection class
 
-表示[`MessageObjectRecipientEntity`](../messageobjectrecipiententity)对象的集合。
+代表一个集合[`MessageObjectRecipientEntity`](../messageobjectrecipiententity)对象.
 
 ```csharp
 public sealed class MessageObjectRecipientsCollection : List<MessageObjectRecipientEntity>

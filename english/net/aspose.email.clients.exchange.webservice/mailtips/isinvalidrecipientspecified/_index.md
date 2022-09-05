@@ -1,7 +1,7 @@
 ---
 title: IsInvalidRecipientSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether InvalidRecipientaspose.email.clients.exchange.webservice/mailtips/invalidrecipient is specified
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified/

@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID общей папки. ОбластьСовместное использование Каноническое имяPidLidSharingRemoteUid Альтернативные именаdispidSharingRemoteUid
+description: Содержит EntryID общей папки. Область Sharing Каноническое имя PidLidSharingRemoteUid Альтернативные имена dispidSharingRemoteUid
 type: docs
 weight: 17870
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremoteuid/
 ---
 ## KnownPropertyList.SharingRemoteUid field
 
-Содержит EntryID общей папки. Область:Совместное использование Каноническое имя:PidLidSharingRemoteUid Альтернативные имена:dispidSharingRemoteUid
+Содержит EntryID общей папки. Область: Sharing Каноническое имя: PidLidSharingRemoteUid Альтернативные имена: dispidSharingRemoteUid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteUid;

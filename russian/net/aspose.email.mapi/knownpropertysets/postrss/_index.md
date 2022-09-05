@@ -1,14 +1,14 @@
 ---
 title: PostRss
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиRSS-канал Имя набора свойствPSETID_PostRss
+description: Имя области RSS-канал Имя набора свойств PSETID_PostRss
 type: docs
 weight: 140
 url: /ru/net/aspose.email.mapi/knownpropertysets/postrss/
 ---
 ## KnownPropertySets.PostRss field
 
-Имя области:RSS-канал Имя набора свойств:PSETID_PostRss
+Имя области: RSS-канал Имя набора свойств: PSETID_PostRss
 
 ```csharp
 public static readonly Guid PostRss;

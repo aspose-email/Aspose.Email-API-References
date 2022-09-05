@@ -1,14 +1,14 @@
 ---
 title: GetShort
 second_title: Aspose.Email for .NET API 参考
-description: 获取二进制数据的前 2 个字节作为短字节
+description: 获取二进制数据的前 2 个字节为 short.
 type: docs
 weight: 240
 url: /zh/net/aspose.email.mapi/mapiproperty/getshort/
 ---
 ## MapiProperty.GetShort method
 
-获取二进制数据的前 2 个字节作为短字节。
+获取二进制数据的前 2 个字节为 short.
 
 ```csharp
 public virtual short GetShort()

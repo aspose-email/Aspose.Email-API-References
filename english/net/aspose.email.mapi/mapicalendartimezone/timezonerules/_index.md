@@ -1,7 +1,7 @@
 ---
 title: TimeZoneRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time zone rules
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendartimezone/timezonerules/

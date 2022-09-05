@@ -1,14 +1,14 @@
 ---
 title: DeleteMessage
 second_title: Aspose.Email for .NET API 参考
-description: 删除邮件信息
+description: 删除邮件消息
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/deletemessage/
 ---
 ## DeleteMessage(string) {#deletemessage}
 
-删除邮件信息。
+删除邮件消息。
 
 ```csharp
 public void DeleteMessage(string messageUri)
@@ -22,8 +22,8 @@ public void DeleteMessage(string messageUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*是`无效的`. |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public void DeleteMessage(string messageUri)
 
 ## DeleteMessage(string, bool) {#deletemessage_1}
 
-删除邮件信息。
+删除邮件消息。
 
 ```csharp
 public void DeleteMessage(string messageUri, bool suppressReceipt)
@@ -50,8 +50,8 @@ public void DeleteMessage(string messageUri, bool suppressReceipt)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*是`无效的`. |
 
 ### 也可以看看
 

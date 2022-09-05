@@ -16,11 +16,11 @@ public EmailAddress this[EmailAddressCategory category] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| category | 电子邮件地址类别 |
+| category | 电子邮件地址的类别 |
 
 ### 返回值
 
-指定的默认电子邮件地址类别。
+指定类别的默认电子邮件地址。
 
 ### 也可以看看
 

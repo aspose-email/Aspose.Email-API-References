@@ -1,14 +1,14 @@
 ---
 title: CancelAppointmentAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Отменяет выход из собрания в календаре организатора
+description: Отменяет выходную встречу в календаре организаторов
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/cancelappointmentasync/
 ---
 ## IAsyncEwsClient.CancelAppointmentAsync method
 
-Отменяет выход из собрания в календаре организатора
+Отменяет выходную встречу в календаре организаторов
 
 ```csharp
 public Task CancelAppointmentAsync(string uniqueId, string folderUri = null, 
@@ -19,7 +19,7 @@ public Task CancelAppointmentAsync(string uniqueId, string folderUri = null,
 | --- | --- | --- |
 | uniqueId | String | Уникальный идентификатор |
 | folderUri | String | URI родительской папки встреч. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

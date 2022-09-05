@@ -16,17 +16,17 @@ public IEnumerable<MapiMessage> FetchItems(EwsFetchItems options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | EwsFetchItems | [`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems)选项允许自定义 fetch 方法的行为。 |
+| options | EwsFetchItems | 这[`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems)允许自定义 fetch 方法行为的选项。 |
 
 ### 返回值
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象。
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage)目的。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 项目 URI 为空或为空。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 项目 URI 为 null 或为空。 |
 
 ### 也可以看看
 

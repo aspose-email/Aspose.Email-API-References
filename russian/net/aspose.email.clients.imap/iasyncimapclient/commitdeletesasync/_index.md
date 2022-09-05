@@ -1,14 +1,14 @@
 ---
 title: CommitDeletesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление
+description: Подтвердить удаление
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/commitdeletesasync/
 ---
 ## IAsyncImapClient.CommitDeletesAsync method
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(ImapUniqueIdParameterSet parameters)

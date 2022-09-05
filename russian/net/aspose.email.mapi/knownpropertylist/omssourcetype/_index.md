@@ -1,14 +1,14 @@
 ---
 title: OMSSourceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит источник сообщения SMS или MMS. ОбластьSMS Каноническое имяPidNameOMSSourceType Альтернативные имена
+description: Содержит источник сообщения SMS или MMS. Область SMS Каноническое имя PidNameOMSSourceType Альтернативные имена
 type: docs
 weight: 13410
 url: /ru/net/aspose.email.mapi/knownpropertylist/omssourcetype/
 ---
 ## KnownPropertyList.OMSSourceType field
 
-Содержит источник сообщения SMS или MMS. Область:SMS Каноническое имя:PidNameOMSSourceType Альтернативные имена:
+Содержит источник сообщения SMS или MMS. Область: SMS Каноническое имя: PidNameOMSSourceType Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSSourceType;

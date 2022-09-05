@@ -1,7 +1,7 @@
 ---
 title: ListAppointmentInstances
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of an appointment instances for calendar.
 type: docs
 weight: 260
 url: /net/aspose.email.clients.google/igmailclient/listappointmentinstances/

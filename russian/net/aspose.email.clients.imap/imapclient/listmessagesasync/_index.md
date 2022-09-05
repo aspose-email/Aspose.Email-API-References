@@ -1,11 +1,44 @@
 ---
 title: ListMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список сообщений в указанной папке
+description: Получает список сообщений в текущей папке.
 type: docs
 weight: 880
 url: /ru/net/aspose.email.clients.imap/imapclient/listmessagesasync/
 ---
+## ListMessagesAsync(int, CancellationToken) {#listmessagesasync_28}
+
+Получает список сообщений в текущей папке.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages, 
+    CancellationToken token)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
+
+### Возвращаемое значение
+
+Объект задачи с делегатом для этой операции
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
+
+### Смотрите также
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## ListMessagesAsync(IConnection, string, long, bool, IEnumerable&lt;string&gt;) {#listmessagesasync_17}
 
 Получает список сообщений в указанной папке
@@ -17,7 +50,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | modificationSequence | Int64 | Последовательность модификации |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
@@ -47,7 +80,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -73,7 +106,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 
 ### Возвращаемое значение
@@ -101,7 +134,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
 ### Возвращаемое значение
@@ -120,7 +153,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, long) {#listmessagesasync_10}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -129,7 +162,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | modificationSequence | Int64 | Последовательность модификации |
 
 ### Возвращаемое значение
@@ -157,7 +190,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
@@ -185,7 +218,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync()
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -206,7 +239,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List дополнительных параметров для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
@@ -231,7 +264,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | Указывает , если сообщения должны извлекаться рекурсивно. |
+| retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 
 ### Возвращаемое значение
 
@@ -328,7 +361,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 ## ListMessagesAsync(long) {#listmessagesasync_29}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequence)
@@ -336,7 +369,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| modificationSequence | Int64 | Модификация последовательность |
+| modificationSequence | Int64 | Последовательность модификации |
 
 ### Возвращаемое значение
 
@@ -362,9 +395,9 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Расположение сообщений |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -392,8 +425,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
@@ -421,8 +454,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -450,7 +483,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
@@ -477,8 +510,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имяпапки | String | Расположение сообщений |
-| запрос | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| folderName | String | Расположение сообщений |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -505,7 +538,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int ma
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
@@ -533,8 +566,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| maxNumberOfMessages | Int32 | Максимальное количество Сообщения. |
+| connection | IConnection | Подключение к серверу |
+| maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 
 ### Возвращаемое значение
 
@@ -544,7 +577,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
 
 ### Смотрите также
 
@@ -576,7 +609,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
 
 ### Смотрите также
 
@@ -599,7 +632,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | modificationSequence | Int64 | Последовательность модификации |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
@@ -631,7 +664,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -659,7 +692,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -688,7 +721,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -708,7 +741,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, long, CancellationToken) {#listmessagesasync_11}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -717,7 +750,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | modificationSequence | Int64 | Последовательность модификации |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -746,7 +779,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения сообщений. |
 | retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -801,7 +834,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List дополнительных параметров для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -828,7 +861,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | Указывает , если сообщения должны извлекаться рекурсивно. |
+| retrieveRecursively | Boolean | Указывает, должны ли сообщения извлекаться рекурсивно. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -929,7 +962,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 
 ## ListMessagesAsync(long, CancellationToken) {#listmessagesasync_30}
 
-Получает список сообщений в текущей папке, которые имеют последовательность модификации больше указанного значения. Подробнее https://tools.ietf.org/html/rfc7162
+Получает список сообщений в текущей папке, у которых последовательность модификации больше указанного значения. Подробнее см. https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequence, 
@@ -938,7 +971,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| modificationSequence | Int64 | Модификация sequence |
+| modificationSequence | Int64 | Последовательность модификации |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -965,9 +998,9 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Расположение сообщений |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -997,8 +1030,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1027,8 +1060,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1057,7 +1090,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1085,8 +1118,8 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имяпапки | String | Расположение сообщений |
-| запрос | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| folderName | String | Расположение сообщений |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1115,7 +1148,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int ma
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1144,41 +1177,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| maxNumberOfMessages | Int32 | Максимальное количество Сообщения. |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
-
-### Возвращаемое значение
-
-Объект задачи с делегатом для этой операции
-
-### Исключения
-
-| исключение | условие |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
-
-### Смотрите также
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(int, CancellationToken) {#listmessagesasync_28}
-
-Получает список сообщений в текущей папке.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages, 
-    CancellationToken token)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
+| connection | IConnection | Подключение к серверу |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -1190,11 +1189,12 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*имеет отрицательное значение. |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* отрицательно. |
 
 ### Смотрите также
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

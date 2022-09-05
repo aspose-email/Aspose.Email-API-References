@@ -3,7 +3,7 @@ title: Summary
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает сводку.
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.email.calendar/appointment/summary/
 ---
 ## Appointment.Summary property

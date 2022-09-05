@@ -1,14 +1,14 @@
 ---
 title: OnConnect
 second_title: Aspose.Email for .NET API 参考
-description: OnConnect 事件发生在 clent 建立连接时
+description: 当客户端建立连接时发生 OnConnect 事件
 type: docs
 weight: 270
 url: /zh/net/aspose.email.clients/emailclient/onconnect/
 ---
 ## EmailClient.OnConnect event
 
-OnConnect 事件发生在 clent 建立连接时。
+当客户端建立连接时发生 OnConnect 事件。
 
 ```csharp
 public event EventHandler OnConnect;

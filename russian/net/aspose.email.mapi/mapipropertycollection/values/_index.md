@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объект System.Collections.Generic.ICollectionltMapiPropertygt содержащие значения в коллекции.
+description: Получает System.Collections.Generic.ICollectionltMapiPropertygt содержащий значения в коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapipropertycollection/values/
 ---
 ## MapiPropertyCollection.Values property
 
-Получает объект System.Collections.Generic.ICollection&lt;MapiProperty&gt; содержащие значения в коллекции.
+Получает System.Collections.Generic.ICollection&lt;MapiProperty&gt;, содержащий значения в коллекции.
 
 ```csharp
 public ICollection<MapiProperty> Values { get; }

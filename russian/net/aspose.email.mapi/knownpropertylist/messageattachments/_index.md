@@ -1,14 +1,14 @@
 ---
 title: MessageAttachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует все вложения к текущему сообщению. ОбластьСвойства вложения сообщения Каноническое имяPidTagMessageAttachments Альтернативные именаPR_MESSAGE_ATTACHMENTS ptagMessageAttachments
+description: Идентифицирует все вложения к текущему сообщению. Область Свойства вложения сообщения Каноническое имя PidTagMessageAttachments Альтернативные имена PR_MESSAGE_ATTACHMENTS ptagMessageAttachments
 type: docs
 weight: 12450
 url: /ru/net/aspose.email.mapi/knownpropertylist/messageattachments/
 ---
 ## KnownPropertyList.MessageAttachments field
 
-Идентифицирует все вложения к текущему сообщению. Область:Свойства вложения сообщения Каноническое имя:PidTagMessageAttachments Альтернативные имена:PR_MESSAGE_ATTACHMENTS, ptagMessageAttachments
+Идентифицирует все вложения к текущему сообщению. Область: Свойства вложения сообщения Каноническое имя: PidTagMessageAttachments Альтернативные имена: PR_MESSAGE_ATTACHMENTS, ptagMessageAttachments
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageAttachments;

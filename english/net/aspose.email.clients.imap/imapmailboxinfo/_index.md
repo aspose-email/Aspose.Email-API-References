@@ -1,9 +1,9 @@
 ---
 title: ImapMailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains set of specialuse mailboxes
 type: docs
-weight: 16320
+weight: 16350
 url: /net/aspose.email.clients.imap/imapmailboxinfo/
 ---
 ## ImapMailboxInfo class

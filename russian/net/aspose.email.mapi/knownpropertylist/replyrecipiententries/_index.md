@@ -1,14 +1,14 @@
 ---
 title: ReplyRecipientEntries
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует структуру FlatEntryList MS-OXCDATA раздел 2.3.3 идентификаторов EntryID адресной книги для получателей которые должны получить ответ. ОбластьMapiEnvelope Каноническое имяPidTagReplyRecipientEntries Альтернативные именаPR_REPLY_RECIPIENT_ENTRIES ptagReplyRecipientEntries
+description: Идентифицирует структуру FlatEntryList MS-OXCDATA раздел 2.3.3 EntryID адресной книги для получателей которые должны получить ответ. Область MapiEnvelope Каноническое имя PidTagReplyRecipientEntries Альтернативные имена PR_REPLY_RECIPIENT_ENTRIES ptagReplyRecipientEntries
 type: docs
 weight: 15920
 url: /ru/net/aspose.email.mapi/knownpropertylist/replyrecipiententries/
 ---
 ## KnownPropertyList.ReplyRecipientEntries field
 
-Идентифицирует структуру FlatEntryList ([MS-OXCDATA] раздел 2.3.3) идентификаторов EntryID адресной книги для получателей, которые должны получить ответ. Область:MapiEnvelope Каноническое имя:PidTagReplyRecipientEntries Альтернативные имена:PR_REPLY_RECIPIENT_ENTRIES, ptagReplyRecipientEntries,
+Идентифицирует структуру FlatEntryList ([MS-OXCDATA] раздел 2.3.3) EntryID адресной книги для получателей, которые должны получить ответ. Область: MapiEnvelope Каноническое имя: PidTagReplyRecipientEntries Альтернативные имена: PR_REPLY_RECIPIENT_ENTRIES, ptagReplyRecipientEntries,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRecipientEntries;

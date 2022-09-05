@@ -1,14 +1,14 @@
 ---
 title: TaskFRecurring
 second_title: Aspose.Email for .NET API 参考
-description: 指示任务是否包含重复模式 区域任务 规范名称PidLidTaskFRecurring 替代名称dispidTaskFRecur
+description: 指示任务是否包含重复模式 区域Tasks 规范名称PidLidTaskFRecurring 替代名称dispidTaskFRecur
 type: docs
 weight: 18660
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskfrecurring/
 ---
 ## KnownPropertyList.TaskFRecurring field
 
-指示任务是否包含重复模式。 区域:任务 规范名称:PidLidTaskFRecurring 替代名称:dispidTaskFRecur
+指示任务是否包含重复模式。 区域：Tasks 规范名称：PidLidTaskFRecurring 替代名称：dispidTaskFRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFRecurring;

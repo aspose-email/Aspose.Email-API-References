@@ -1,14 +1,14 @@
 ---
 title: ClientSubmitTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含提交电子邮件的当前时间UTC 时间 区域消息时间属性 规范名称PidTagClientSubmitTime 替代名称PR_CLIENT_SUBMIT_TIME urnschemashttpmaildate
+description: 包含提交电子邮件的当前时间以 UTC 表示 区域消息时间 Properties 规范名称PidTagClientSubmitTime 替代名称PR_CLIENT_SUBMIT_TIMEurnschemashttpmaildate
 type: docs
 weight: 2700
 url: /zh/net/aspose.email.mapi/knownpropertylist/clientsubmittime/
 ---
 ## KnownPropertyList.ClientSubmitTime field
 
-包含提交电子邮件的当前时间（UTC 时间）。 区域:消息时间属性 规范名称:PidTagClientSubmitTime 替代名称:PR_CLIENT_SUBMIT_TIME, urn:schemas:httpmail:date,
+包含提交电子邮件的当前时间（以 UTC 表示）。 区域：消息时间 Properties 规范名称：PidTagClientSubmitTime 替代名称：PR_CLIENT_SUBMIT_TIME，urn:schemas:httpmail:date,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ClientSubmitTime;

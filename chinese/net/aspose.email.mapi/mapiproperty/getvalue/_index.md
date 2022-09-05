@@ -16,7 +16,7 @@ public object GetValue()
 
 ### 返回值
 
-属性值
+财产的价值
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BinaryData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержат кодировку символов встроенных двоичных данных.
+description: Содержит кодировку символов встроенных двоичных данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.calendar/reminderattachment/binarydata/
 ---
 ## ReminderAttachment.BinaryData property
 
-Содержат кодировку символов встроенных двоичных данных.
+Содержит кодировку символов встроенных двоичных данных.
 
 ```csharp
 public byte[] BinaryData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Selected
 second_title: Aspose.Email for .NET API 参考
-description: 日历内容是否显示在日历 UI 中 默认为假
+description: 日历内容是否显示在日历 UI 中 默认为 False
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.google/extendedcalendar/selected/
 ---
 ## ExtendedCalendar.Selected property
 
-日历内容是否显示在日历 UI 中。 默认为假。
+日历内容是否显示在日历 UI 中。 默认为 False。
 
 ```csharp
 public virtual bool Selected { get; set; }

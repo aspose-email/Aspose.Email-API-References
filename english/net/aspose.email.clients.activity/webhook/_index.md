@@ -1,7 +1,7 @@
 ---
 title: Webhook
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Object contains information about webhook
 type: docs
 weight: 2820
 url: /net/aspose.email.clients.activity/webhook/

@@ -1,14 +1,14 @@
 ---
 title: ItemSent
 second_title: Справочник по Aspose.Email для .NET API
-description: Возникает при отправке элемента и сохранении в папке Отправленные.
+description: Возникает когда элемент отправляется и сохраняется в папке Отправленные.
 type: docs
 weight: 280
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/itemsent/
 ---
 ## IEWSClient.ItemSent event
 
-Возникает при отправке элемента и сохранении в папке "Отправленные".
+Возникает, когда элемент отправляется и сохраняется в папке "Отправленные".
 
 ```csharp
 public event EventHandler<SentItemEventArgs> ItemSent;

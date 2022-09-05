@@ -1,14 +1,14 @@
 ---
 title: ProfileServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_SERVER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_SERVER
 type: docs
 weight: 14880
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileserver/
 ---
 ## KnownPropertyList.ProfileServer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_SERVER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileServer;

@@ -1,14 +1,14 @@
 ---
 title: MailTips
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет значения для почтовых подсказок
+description: Представляет значения для почтовых советов
 type: docs
 weight: 3990
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/
 ---
 ## MailTips class
 
-Представляет значения для почтовых подсказок
+Представляет значения для почтовых советов
 
 ```csharp
 public sealed class MailTips
@@ -18,19 +18,19 @@ public sealed class MailTips
 
 | Имя | Описание |
 | --- | --- |
-| [CustomMailTip](../../aspose.email.clients.exchange.webservice/mailtips/custommailtip) { get; } | Получает пользовательскую почтовую подсказку. |
+| [CustomMailTip](../../aspose.email.clients.exchange.webservice/mailtips/custommailtip) { get; } | Получает пользовательскую подсказку по почте. |
 | [DeliveryRestricted](../../aspose.email.clients.exchange.webservice/mailtips/deliveryrestricted) { get; } | Получает значение, указывающее, будут ли ограничения доставки препятствовать тому, чтобы сообщение отправителя достигло получателя. |
 | [ExternalMemberCnt](../../aspose.email.clients.exchange.webservice/mailtips/externalmembercnt) { get; } | Получает количество внешних участников в группе. |
-| [InvalidRecipient](../../aspose.email.clients.exchange.webservice/mailtips/invalidrecipient) { get; } | Получает значение, указывающее, является ли получатель недопустимым. |
-| [IsDeliveryRestrictedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified) { get; } | Получает значение, указывающее, указан ли[`DeliveryRestricted`](./deliveryrestricted) |
-| [IsInvalidRecipientSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified) { get; } | Получает значение, указывающее, указан ли[`InvalidRecipient`](./invalidrecipient) |
-| [IsMailboxFullSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified) { get; } | Получает значение, указывающее, указан ли[`MailboxFull`](./mailboxfull) |
+| [InvalidRecipient](../../aspose.email.clients.exchange.webservice/mailtips/invalidrecipient) { get; } | Получает значение, указывающее, является ли получатель недействительным. |
+| [IsDeliveryRestrictedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified) { get; } | Получает значение, указывающее,[`DeliveryRestricted`](./deliveryrestricted) указан |
+| [IsInvalidRecipientSpecified](../../aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified) { get; } | Получает значение, указывающее,[`InvalidRecipient`](./invalidrecipient) указан |
+| [IsMailboxFullSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified) { get; } | Получает значение, указывающее,[`MailboxFull`](./mailboxfull) указан |
 | [IsModerated](../../aspose.email.clients.exchange.webservice/mailtips/ismoderated) { get; } | Получает значение, указывающее, находится ли почтовый ящик получателя на модерации. |
-| [IsModeratedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified) { get; } | Получает значение, указывающее, указан ли[`IsModerated`](./ismoderated) |
+| [IsModeratedSpecified](../../aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified) { get; } | Получает значение, указывающее,[`IsModerated`](./ismoderated) указан |
 | [MailboxFull](../../aspose.email.clients.exchange.webservice/mailtips/mailboxfull) { get; } | Получает значение, указывающее, заполнен ли почтовый ящик получателя. |
 | [MaxMsgSize](../../aspose.email.clients.exchange.webservice/mailtips/maxmsgsize) { get; } | Получает максимальный размер сообщения, который может принять получатель |
 | [OutOfOffice](../../aspose.email.clients.exchange.webservice/mailtips/outofoffice) { get; } | Получает ответное сообщение для OOF и длительность отправки этого сообщения. |
-| [PendingMailTips](../../aspose.email.clients.exchange.webservice/mailtips/pendingmailtips) { get; } | Получает значение, указывающее, нельзя ли было оценить почтовые подсказки в этом элементе до истечения времени ожидания обработки сервера. |
+| [PendingMailTips](../../aspose.email.clients.exchange.webservice/mailtips/pendingmailtips) { get; } | Получает значение, указывающее, не удалось ли оценить почтовые подсказки в этом элементе до истечения времени ожидания обработки сервера. |
 | [RecipientAddress](../../aspose.email.clients.exchange.webservice/mailtips/recipientaddress) { get; } | Получает почтовый ящик получателя. |
 | [TotalMemberCnt](../../aspose.email.clients.exchange.webservice/mailtips/totalmembercnt) { get; } | Получает общее количество участников в группе. |
 

@@ -1,7 +1,7 @@
 ---
 title: DeletedFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The array of subfolders in the specified folder that have been deleted.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/syncfolderresult/deletedfolders/

@@ -1,7 +1,7 @@
 ---
 title: CreateContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a contact item in the Exchange store.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/createcontact/

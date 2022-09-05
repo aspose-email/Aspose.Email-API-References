@@ -1,7 +1,7 @@
 ---
 title: OtherAddressStreet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users other street address. Area Address Properties Canonical name PidTagOtherAddressStreet Alternate names PR_OTHER_ADDRESS_STREET PR_OTHER_ADDRESS_STREET_A
 type: docs
 weight: 14010
 url: /net/aspose.email.mapi/knownpropertylist/otheraddressstreet/

@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteMessageCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteMessageCount Альтернативные именаdispidSharingRemoteMsgCount
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRemoteMessageCount Альтернативные имена dispidSharingRemoteMsgCount
 type: docs
 weight: 17810
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremotemessagecount/
 ---
 ## KnownPropertyList.SharingRemoteMessageCount field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingRemoteMessageCount Альтернативные имена:dispidSharingRemoteMsgCount
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRemoteMessageCount Альтернативные имена: dispidSharingRemoteMsgCount
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteMessageCount;

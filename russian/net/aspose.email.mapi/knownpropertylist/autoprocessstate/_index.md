@@ -1,14 +1,14 @@
 ---
 title: AutoProcessState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает параметры используемые при автоматической обработке сообщений электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidLidAutoProcessState Альтернативные именаdispidSniffState
+description: Указывает параметры используемые при автоматической обработке сообщений электронной почты. Область Общие свойства сообщения Каноническое имя PidLidAutoProcessState Альтернативные имена dispidSniffState
 type: docs
 weight: 1940
 url: /ru/net/aspose.email.mapi/knownpropertylist/autoprocessstate/
 ---
 ## KnownPropertyList.AutoProcessState field
 
-Указывает параметры, используемые при автоматической обработке сообщений электронной почты. Область:Общие свойства сообщения Каноническое имя:PidLidAutoProcessState Альтернативные имена:dispidSniffState
+Указывает параметры, используемые при автоматической обработке сообщений электронной почты. Область: Общие свойства сообщения Каноническое имя: PidLidAutoProcessState Альтернативные имена: dispidSniffState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoProcessState;

@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поле позволяющее находить сообщения содержащие указанную строку в поле SUBJECT структуры конверта.
+description: Получает поле позволяющее найти сообщения содержащие указанную строку в поле SUBJECT структуры конверта.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.tools.search/mailquerybuilder/subject/
 ---
 ## MailQueryBuilder.Subject property
 
-Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта.
+Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта.
 
 ```csharp
 public StringComparisonField Subject { get; }
@@ -16,7 +16,7 @@ public StringComparisonField Subject { get; }
 
 ### Стоимость имущества
 
-Поле[`DateComparisonField`](../../datecomparisonfield), представляющее поле поиска темы.
+[`DateComparisonField`](../../datecomparisonfield) который представляет поле поиска темы.
 
 ### Смотрите также
 

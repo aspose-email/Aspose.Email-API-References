@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.mapi/mapipropertycontainer/getpropertydatetime/
 ---
 ## MapiPropertyContainer.GetPropertyDateTime method
 
-Получает значение свойства, указанного тегом, как тип DateTime.
+Получает значение свойства, указанного тегом как тип DateTime.
 
 ```csharp
 public DateTime? GetPropertyDateTime(long key)
@@ -20,7 +20,7 @@ public DateTime? GetPropertyDateTime(long key)
 
 ### Возвращаемое значение
 
-Значение свойства. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
+Стоимость имущества. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
 
 ### Смотрите также
 

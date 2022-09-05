@@ -3,7 +3,7 @@ title: VCardFullName
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 联系人全名N 属性
 type: docs
-weight: 19620
+weight: 19650
 url: /zh/net/aspose.email.personalinfo.vcard/vcardfullname/
 ---
 ## VCardFullName class
@@ -18,7 +18,7 @@ public sealed class VCardFullName
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardFullName](vcardfullname)() | 初始化 [`VCardFullName`](../vcardfullname) 类的新实例 |
+| [VCardFullName](vcardfullname)() | 初始化[`VCardFullName`](../vcardfullname) class |
 
 ## 特性
 

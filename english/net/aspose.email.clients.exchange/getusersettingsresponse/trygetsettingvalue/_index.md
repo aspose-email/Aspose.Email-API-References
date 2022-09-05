@@ -1,7 +1,7 @@
 ---
 title: TryGetSettingValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Tries the get the user setting value.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/getusersettingsresponse/trygetsettingvalue/

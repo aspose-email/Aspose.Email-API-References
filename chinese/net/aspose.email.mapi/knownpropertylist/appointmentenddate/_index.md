@@ -1,14 +1,14 @@
 ---
 title: AppointmentEndDate
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会结束的日期 区域日历 规范名称PidLidAppointmentEndDate 替代名称dispidApptEndDate
+description: 表示约会结束的日期 区域Calendar 规范名称PidLidAppointmentEndDate 备用名称dispidApptEndDate
 type: docs
 weight: 1150
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentenddate/
 ---
 ## KnownPropertyList.AppointmentEndDate field
 
-表示约会结束的日期。 区域:日历 规范名称:PidLidAppointmentEndDate 替代名称:dispidApptEndDate
+表示约会结束的日期。 区域：Calendar 规范名称：PidLidAppointmentEndDate 备用名称：dispidApptEndDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentEndDate;

@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 
 ### Смотрите также
 

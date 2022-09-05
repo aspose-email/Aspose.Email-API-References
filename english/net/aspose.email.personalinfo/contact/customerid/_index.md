@@ -1,7 +1,7 @@
 ---
 title: CustomerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a customer id
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/contact/customerid/

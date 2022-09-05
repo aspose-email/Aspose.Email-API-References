@@ -1,14 +1,14 @@
 ---
 title: ChangeKey
 second_title: Aspose.Email for .NET API 参考
-description: 更改列表键
+description: 更改列表的键
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/exchangedistributionlist/changekey/
 ---
 ## ExchangeDistributionList.ChangeKey property
 
-更改列表键
+更改列表的键
 
 ```csharp
 public string ChangeKey { get; set; }

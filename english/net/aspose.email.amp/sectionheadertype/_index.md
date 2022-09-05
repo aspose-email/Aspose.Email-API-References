@@ -1,7 +1,7 @@
 ---
 title: SectionHeaderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the type of heading for the section.
 type: docs
 weight: 230
 url: /net/aspose.email.amp/sectionheadertype/

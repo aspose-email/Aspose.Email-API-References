@@ -1,14 +1,14 @@
 ---
 title: GraphQueryBuilder
 second_title: Aspose.Email for .NET API 参考
-description: 初始化GraphQueryBuilderaspose.email.clients.graph/graphquerybuilder类的新实例
+description: 初始化GraphQueryBuilderaspose.email.clients.graph/graphquerybuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.graph/graphquerybuilder/graphquerybuilder/
 ---
 ## GraphQueryBuilder constructor
 
-初始化[`GraphQueryBuilder`](../../graphquerybuilder)类的新实例。
+初始化[`GraphQueryBuilder`](../../graphquerybuilder)类.
 
 ```csharp
 public GraphQueryBuilder()

@@ -1,12 +1,12 @@
 ---
 title: BuildResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Builds the replying messages.
 type: docs
 weight: 30
 url: /net/aspose.email.tools/replymessagebuilder/buildresponse/
 ---
-## ReplyMessageBuilder.BuildResponse method (1 of 2)
+## BuildResponse(MailMessage) {#buildresponse}
 
 Builds the replying messages.
 
@@ -31,7 +31,7 @@ Resultant message [`MailMessage`](../../../aspose.email/mailmessage).
 
 ---
 
-## ReplyMessageBuilder.BuildResponse method (2 of 2)
+## BuildResponse(MapiMessage) {#buildresponse_1}
 
 Builds the replying messages.
 

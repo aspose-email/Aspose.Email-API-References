@@ -1,14 +1,14 @@
 ---
 title: GoogleId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор сервисов Google
+description: Сервисы Google id
 type: docs
 weight: 30
 url: /ru/net/aspose.email/objectidentifier/googleid/
 ---
 ## ObjectIdentifier.GoogleId property
 
-Идентификатор сервисов Google
+Сервисы Google id
 
 ```csharp
 public string GoogleId { get; }

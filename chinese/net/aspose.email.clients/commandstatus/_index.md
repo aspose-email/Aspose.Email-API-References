@@ -31,7 +31,7 @@ public class CommandStatus
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email.clients/commandstatus/equals)(object) | 判断指定对象是否等于当前对象。 |
+| override [Equals](../../aspose.email.clients/commandstatus/equals)(object) | 判断指定对象是否等于当前对象 |
 | override [GetHashCode](../../aspose.email.clients/commandstatus/gethashcode)() | 用作特定类型的哈希函数。 |
 | override [ToString](../../aspose.email.clients/commandstatus/tostring)() | 返回代表当前对象的字符串。 |
 

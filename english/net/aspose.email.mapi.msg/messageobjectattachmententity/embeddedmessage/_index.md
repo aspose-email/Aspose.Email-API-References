@@ -1,7 +1,7 @@
 ---
 title: EmbeddedMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the Embedded Message Object storage if present.Can be null.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage/

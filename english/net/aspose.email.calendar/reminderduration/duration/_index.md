@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Duration of time.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/reminderduration/duration/

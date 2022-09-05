@@ -1,7 +1,7 @@
 ---
 title: Media
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The value of media is a media query. If the query does not match the element is not rendered and its resources and potentially its child resources will not be fetched. If the browser window changes size or orientation the media queries are reevaluated and elements are hidden and shown based on the new results.
 type: docs
 weight: 80
 url: /net/aspose.email.amp/ampattributes/media/

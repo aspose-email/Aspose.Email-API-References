@@ -1,14 +1,14 @@
 ---
 title: MapiTask
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiTaskaspose.email.mapi/mapitask.
+description: Инициализирует новый экземплярMapiTaskaspose.email.mapi/mapitask класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapitask/mapitask/
 ---
 ## MapiTask() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiTask`](../../mapitask).
+Инициализирует новый экземпляр[`MapiTask`](../../mapitask) класс.
 
 ```csharp
 public MapiTask()
@@ -24,7 +24,7 @@ public MapiTask()
 
 ## MapiTask(string, string, DateTime, DateTime) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiTask`](../../mapitask).
+Инициализирует новый экземпляр[`MapiTask`](../../mapitask) класс.
 
 ```csharp
 public MapiTask(string subject, string body, DateTime startDate, DateTime dueDate)
@@ -35,7 +35,7 @@ public MapiTask(string subject, string body, DateTime startDate, DateTime dueDat
 | subject | String | Тема. |
 | body | String | Тело сообщения. |
 | startDate | DateTime | Дата начала. |
-| dueDate | DateTime | Срок выполнения. |
+| dueDate | DateTime | Срок исполнения. |
 
 ### Смотрите также
 

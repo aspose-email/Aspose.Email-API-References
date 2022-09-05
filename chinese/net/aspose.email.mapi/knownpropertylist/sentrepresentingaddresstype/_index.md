@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含电子邮件地址类型 区域地址属性 规范名称PidTagSentRepresentingAddressType 替代名称PR_SENT_REPRESENTING_ADDRTYPE PR_SENT_REPRESENTING_ADDRTYPE_A ptagSentRepresentingAddrType PR_SENT_REPRESENTING_ADDRTYPE_W
+description: 包含电子邮件地址类型 区域地址属性 规范名称PidTagSentRepresentingAddressType 备用名称PR_SENT_REPRESENTING_ADDRTYPEPR_SENT_REPRESENTING_ADDRTYPE_AptagSentRepresentingAddrTypePR_SENT_REPRESENTING_ADDRTYPE_W
 type: docs
 weight: 17220
 url: /zh/net/aspose.email.mapi/knownpropertylist/sentrepresentingaddresstype/
 ---
 ## KnownPropertyList.SentRepresentingAddressType field
 
-包含电子邮件地址类型。 区域:地址属性 规范名称:PidTagSentRepresentingAddressType 替代名称:PR_SENT_REPRESENTING_ADDRTYPE, PR_SENT_REPRESENTING_ADDRTYPE_A, ptagSentRepresentingAddrType, PR_SENT_REPRESENTING_ADDRTYPE_W
+包含电子邮件地址类型。 区域：地址属性 规范名称：PidTagSentRepresentingAddressType 备用名称：PR_SENT_REPRESENTING_ADDRTYPE、PR_SENT_REPRESENTING_ADDRTYPE_A、ptagSentRepresentingAddrType、PR_SENT_REPRESENTING_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingAddressType;

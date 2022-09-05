@@ -1,12 +1,12 @@
 ---
 title: FetchMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the speciifed messages
 type: docs
 weight: 820
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessages/
 ---
-## IEWSClient.FetchMessages method (1 of 4)
+## FetchMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessages_2}
 
 Fetches the speciifed messages
 
@@ -40,7 +40,7 @@ A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) contain
 
 ---
 
-## IEWSClient.FetchMessages method (2 of 4)
+## FetchMessages(IEnumerable&lt;string&gt;) {#fetchmessages_1}
 
 Fetches the speciifed messages
 
@@ -71,7 +71,7 @@ A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) contain
 
 ---
 
-## IEWSClient.FetchMessages method (3 of 4)
+## FetchMessages(IEnumerable&lt;ExchangeMessageInfo&gt;) {#fetchmessages}
 
 Fetches the speciifed messages
 
@@ -103,7 +103,7 @@ A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) contain
 
 ---
 
-## IEWSClient.FetchMessages method (4 of 4)
+## FetchMessages(StringCollection) {#fetchmessages_3}
 
 Fetches the speciifed messages
 

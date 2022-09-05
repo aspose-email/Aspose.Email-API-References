@@ -1,14 +1,14 @@
 ---
 title: TaskCustomFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. ОбластьЗадачи Каноническое имяPidLidTaskCustomFlags Альтернативные именаdispidTaskCustomFlags
+description: Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область Tasks Каноническое имя PidLidTaskCustomFlags Альтернативные имена dispidTaskCustomFlags
 type: docs
 weight: 18590
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskcustomflags/
 ---
 ## KnownPropertyList.TaskCustomFlags field
 
-Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область:Задачи Каноническое имя:PidLidTaskCustomFlags Альтернативные имена:dispidTaskCustomFlags
+Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область: Tasks Каноническое имя: PidLidTaskCustomFlags Альтернативные имена: dispidTaskCustomFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskCustomFlags;

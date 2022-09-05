@@ -1,14 +1,14 @@
 ---
 title: TasksFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает типы событий для папки Tasks
+description: Определяет типы событий для папки Tasks
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/tasksfoldereventfilter/
 ---
 ## IEWSClient.TasksFolderEventFilter property
 
-Указывает типы событий для папки Tasks
+Определяет типы событий для папки Tasks
 
 ```csharp
 public EventTypes TasksFolderEventFilter { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: SetFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A folder to which messages are uploaded.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder/

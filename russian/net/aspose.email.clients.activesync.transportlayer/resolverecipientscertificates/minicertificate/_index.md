@@ -1,14 +1,14 @@
 ---
 title: MiniCertificate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит мини-сертификат BLOB. Этот элемент возвращается только если клиент указывает значение 3 в CertificateRetrieval в командном запросе ResolveRecipients а разрешенный получатель имеет действительный сертификат S/MIME.
+description: Содержит BLOB мини-сертификата. Этот элемент возвращается только если клиент указывает значение 3 в CertificateRetrieval в командном запросе ResolveRecipients а разрешенный получатель имеет действительный сертификат S/MIME.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/minicertificate/
 ---
 ## ResolveRecipientsCertificates.MiniCertificate property
 
-Содержит мини-сертификат BLOB. Этот элемент возвращается, только если клиент указывает значение 3 в CertificateRetrieval в командном запросе ResolveRecipients, а разрешенный получатель имеет действительный сертификат S/MIME.
+Содержит BLOB мини-сертификата. Этот элемент возвращается, только если клиент указывает значение 3 в CertificateRetrieval в командном запросе ResolveRecipients, а разрешенный получатель имеет действительный сертификат S/MIME.
 
 ```csharp
 public byte[] MiniCertificate { get; set; }

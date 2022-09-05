@@ -3,7 +3,7 @@ title: GetAppointmentHtml
 second_title: Aspose.Email for .NET API 参考
 description: 获取日历 HTML
 type: docs
-weight: 300
+weight: 310
 url: /zh/net/aspose.email.calendar/appointment/getappointmenthtml/
 ---
 ## Appointment.GetAppointmentHtml method
@@ -16,7 +16,7 @@ public string GetAppointmentHtml()
 
 ### 返回值
 
-HTML 格式的日历字符串值。
+日历的字符串值作为 HTML。
 
 ### 也可以看看
 

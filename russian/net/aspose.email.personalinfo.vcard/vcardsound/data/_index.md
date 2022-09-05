@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает звуковые данные  null ifvalueLocationis not inline 
+description: Получает или устанавливает звуковые данные нулевой еслиvalueLocation не являетсяв соответствии
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsound/data/
 ---
 ## VCardSound.Data property
 
-Получает или устанавливает звуковые данные (` null` ifvalueLocationis not` inline` )
+Получает или устанавливает звуковые данные (`нулевой` еслиvalueLocation не является`в соответствии`)
 
 ```csharp
 public byte[] Data { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ChangeKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит структуру определяющую последнее изменение объекта. ОбластьСвойства истории Каноническое имяPidTagChangeKey Альтернативные именаPR_CHANGE_KEY
+description: Содержит структуру идентифицирующую последнее изменение объекта. Область Свойства истории Каноническое имя PidTagChangeKey Альтернативные имена PR_CHANGE_KEY
 type: docs
 weight: 2570
 url: /ru/net/aspose.email.mapi/knownpropertylist/changekey/
 ---
 ## KnownPropertyList.ChangeKey field
 
-Содержит структуру, определяющую последнее изменение объекта. Область:Свойства истории Каноническое имя:PidTagChangeKey Альтернативные имена:PR_CHANGE_KEY
+Содержит структуру, идентифицирующую последнее изменение объекта. Область: Свойства истории Каноническое имя: PidTagChangeKey Альтернативные имена: PR_CHANGE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeKey;

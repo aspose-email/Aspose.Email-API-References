@@ -1,12 +1,12 @@
 ---
 title: ExchangeDelegateUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeDelegateUseraspose.email.clients.exchange.webservice/exchangedelegateuser class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateuser/exchangedelegateuser/
 ---
-## ExchangeDelegateUser constructor (1 of 2)
+## ExchangeDelegateUser() {#constructor}
 
 Initializes a new instance of the [`ExchangeDelegateUser`](../../exchangedelegateuser) class
 
@@ -22,7 +22,7 @@ public ExchangeDelegateUser()
 
 ---
 
-## ExchangeDelegateUser constructor (2 of 2)
+## ExchangeDelegateUser(string, ExchangeDelegateFolderPermissionLevel) {#constructor_1}
 
 Initializes a new instance of the [`ExchangeDelegateUser`](../../exchangedelegateuser) class for the specified user and sets the specified permission level on all folders
 

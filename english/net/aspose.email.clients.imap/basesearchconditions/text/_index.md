@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets subject text.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/basesearchconditions/text/

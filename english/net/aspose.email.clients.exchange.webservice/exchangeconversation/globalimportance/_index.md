@@ -1,7 +1,7 @@
 ---
 title: GlobalImportance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the aggregated importance for all conversation items in a mailbox.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalimportance/

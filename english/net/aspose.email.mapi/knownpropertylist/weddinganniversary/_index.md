@@ -1,7 +1,7 @@
 ---
 title: WeddingAnniversary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the date of the mail users wedding anniversary. Area MapiMailUser Canonical name PidTagWeddingAnniversary Alternate names PR_WEDDING_ANNIVERSARY urnschemascontactsweddinganniversary
 type: docs
 weight: 19330
 url: /net/aspose.email.mapi/knownpropertylist/weddinganniversary/

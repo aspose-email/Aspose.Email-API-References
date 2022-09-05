@@ -1,14 +1,14 @@
 ---
 title: Surname
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит фамилию пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagSurname Альтернативные именаPR_SURNAME PR_SURNAME_A PR_SURNAME_W urnschemascontactssn
+description: Содержит фамилию почтового пользователя. Область MapiMailUser Каноническое имя PidTagSurname Альтернативные имена PR_SURNAME PR_SURNAME_A PR_SURNAME_W urnschemascontactssn
 type: docs
 weight: 18410
 url: /ru/net/aspose.email.mapi/knownpropertylist/surname/
 ---
 ## KnownPropertyList.Surname field
 
-Содержит фамилию пользователя почты. Область:MapiMailUser Каноническое имя:PidTagSurname Альтернативные имена:PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W, urn:schemas:contacts:sn
+Содержит фамилию почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagSurname Альтернативные имена: PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W, urn:schemas:contacts:sn
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Surname;

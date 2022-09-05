@@ -1,7 +1,7 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a middle name
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo.vcard/vcardfullname/middlename/

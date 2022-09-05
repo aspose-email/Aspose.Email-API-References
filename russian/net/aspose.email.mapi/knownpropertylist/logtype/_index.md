@@ -1,14 +1,14 @@
 ---
 title: LogType
 second_title: Справочник по Aspose.Email для .NET API
-description: Краткое описание записываемой активности журнала. ОбластьЖурнал Каноническое имяPidLidLogType Альтернативные именаdispidLogType
+description: Краткое описание записываемой активности журнала. Область Journal Каноническое имя PidLidLogType Альтернативные имена dispidLogType
 type: docs
 weight: 12290
 url: /ru/net/aspose.email.mapi/knownpropertylist/logtype/
 ---
 ## KnownPropertyList.LogType field
 
-Краткое описание записываемой активности журнала. Область:Журнал Каноническое имя:PidLidLogType Альтернативные имена:dispidLogType
+Краткое описание записываемой активности журнала. Область: Journal Каноническое имя: PidLidLogType Альтернативные имена: dispidLogType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogType;

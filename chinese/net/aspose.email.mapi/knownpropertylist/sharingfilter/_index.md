@@ -1,14 +1,14 @@
 ---
 title: SharingFilter
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingFilter 替代名称dispidSharingFilter
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingFilter 替代名称dispidSharingFilter
 type: docs
 weight: 17480
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingfilter/
 ---
 ## KnownPropertyList.SharingFilter field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingFilter 替代名称:dispidSharingFilter
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingFilter 替代名称：dispidSharingFilter
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFilter;

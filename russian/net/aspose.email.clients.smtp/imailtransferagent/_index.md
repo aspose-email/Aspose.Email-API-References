@@ -1,14 +1,14 @@
 ---
 title: IMailTransferAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Обеспечивает базовый интерфейс для агентов пересылки почты.
+description: Предоставляет базовый интерфейс для агентов пересылки почты.
 type: docs
 weight: 16980
 url: /ru/net/aspose.email.clients.smtp/imailtransferagent/
 ---
 ## IMailTransferAgent interface
 
-Обеспечивает базовый интерфейс для агентов пересылки почты.
+Предоставляет базовый интерфейс для агентов пересылки почты.
 
 ```csharp
 public interface IMailTransferAgent : IDisposable
@@ -18,7 +18,7 @@ public interface IMailTransferAgent : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Send](../../aspose.email.clients.smtp/imailtransferagent/send)(MailMessage) | Отправить сообщение электронной почты. |
+| [Send](../../aspose.email.clients.smtp/imailtransferagent/send)(MailMessage) | Отправить сообщение по электронной почте. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: AddressBookObjectDistinguishedName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the DN of the Address Book object. Area Address Book Canonical name PidTagAddressBookObjectDistinguishedName Alternate names PR_EMS_AB_OBJ_DIST_NAME PR_EMS_AB_OBJ_DIST_NAME_A PR_EMS_AB_OBJ_DIST_NAME_W
 type: docs
 weight: 770
 url: /net/aspose.email.mapi/knownpropertylist/addressbookobjectdistinguishedname/

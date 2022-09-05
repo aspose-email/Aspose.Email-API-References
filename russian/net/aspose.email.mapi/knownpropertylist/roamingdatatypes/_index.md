@@ -1,14 +1,14 @@
 ---
 title: RoamingDatatypes
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит битовую маску указывающую какие свойства потока существуют в сообщении. ОбластьКонфигурация Каноническое имяPidTagRoamingDatatypes Альтернативные именаPR_ROAMING_DATATYPES
+description: Содержит битовую маску указывающую какие свойства потока существуют в сообщении. Область Configuration Каноническое имя PidTagRoamingDatatypes Альтернативные имена PR_ROAMING_DATATYPES
 type: docs
 weight: 16310
 url: /ru/net/aspose.email.mapi/knownpropertylist/roamingdatatypes/
 ---
 ## KnownPropertyList.RoamingDatatypes field
 
-Содержит битовую маску, указывающую, какие свойства потока существуют в сообщении. Область:Конфигурация Каноническое имя:PidTagRoamingDatatypes Альтернативные имена:PR_ROAMING_DATATYPES
+Содержит битовую маску, указывающую, какие свойства потока существуют в сообщении. Область: Configuration Каноническое имя: PidTagRoamingDatatypes Альтернативные имена: PR_ROAMING_DATATYPES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingDatatypes;

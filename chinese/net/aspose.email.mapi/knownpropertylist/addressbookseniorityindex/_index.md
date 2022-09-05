@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookseniorityindex/
 ---
 ## KnownPropertyList.AddressBookSeniorityIndex field
 
-包含一个有符号整数，指定分组的通讯簿对象的资历顺序，较大的值指定资历更高的成员。 区域:地址簿 规范名称:PidTagAddressBookSeniorityIndex 别名:
+包含一个有符号整数，指定分组的通讯簿对象的资历顺序，较大的值指定资历更高的成员。 区域：地址簿 规范名称：PidTagAddressBookSeniorityIndex 别名：
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookSeniorityIndex;

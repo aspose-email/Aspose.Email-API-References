@@ -1,14 +1,14 @@
 ---
 title: UrlList
 second_title: Aspose.Email for .NET API 参考
-description: 联系人网址列表
+description: contact 的url列表
 type: docs
-weight: 19520
+weight: 19550
 url: /zh/net/aspose.email.personalinfo/urllist/
 ---
 ## UrlList class
 
-联系人网址列表
+contact 的url列表
 
 ```csharp
 public class UrlList : IList<Url>
@@ -26,7 +26,7 @@ public class UrlList : IList<Url>
 | --- | --- |
 | [Blog](../../aspose.email.personalinfo/urllist/blog) { get; set; } | 默认博客页面 |
 | [BusinessHomePage](../../aspose.email.personalinfo/urllist/businesshomepage) { get; set; } | 默认工作页面 |
-| [Count](../../aspose.email.personalinfo/urllist/count) { get; } | 获取ICollection中包含的元素数。 |
+| [Count](../../aspose.email.personalinfo/urllist/count) { get; } | 获取包含在ICollection. |
 | [Ftp](../../aspose.email.personalinfo/urllist/ftp) { get; set; } | 默认 ftp 页面 |
 | [HomePage](../../aspose.email.personalinfo/urllist/homepage) { get; set; } | 默认主页 |
 | [IsReadOnly](../../aspose.email.personalinfo/urllist/isreadonly) { get; } |  |
@@ -43,7 +43,7 @@ public class UrlList : IList<Url>
 | [CopyTo](../../aspose.email.personalinfo/urllist/copyto)(Url[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/urllist/getenumerator)() |  |
 | [IndexOf](../../aspose.email.personalinfo/urllist/indexof)(Url) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/urllist/insert)(int, Url) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/urllist/insert)(int, Url) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/urllist/remove)(Url) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/urllist/removeat)(int) | 删除指定索引处的列表项。 |
 

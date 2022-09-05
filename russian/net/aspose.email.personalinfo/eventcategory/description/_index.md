@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает описание для категории Пользовательский события
+description: Получает описание для категории Пользовательская события
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo/eventcategory/description/
 ---
 ## EventCategory.Description property
 
-Получает описание для категории "Пользовательский" события
+Получает описание для категории «Пользовательская» события
 
 ```csharp
 public string Description { get; }

@@ -1,7 +1,7 @@
 ---
 title: ThumbnailPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users photo in .jpg format. Area Address Book Canonical name PidTagThumbnailPhoto Alternate names PR_EMS_AB_THUMBNAIL_PHOTO
 type: docs
 weight: 18960
 url: /net/aspose.email.mapi/knownpropertylist/thumbnailphoto/

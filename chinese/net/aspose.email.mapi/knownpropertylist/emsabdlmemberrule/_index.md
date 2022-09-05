@@ -1,14 +1,14 @@
 ---
 title: EmsAbDlMemberRule
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DL_MEMBER_RULE
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DL_MEMBER_RULE
 type: docs
 weight: 5500
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdlmemberrule/
 ---
 ## KnownPropertyList.EmsAbDlMemberRule field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DL_MEMBER_RULE
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DL_MEMBER_RULE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDlMemberRule;

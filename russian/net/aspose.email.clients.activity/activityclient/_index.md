@@ -18,18 +18,18 @@ public abstract class ActivityClient : IActivityClient
 
 | Имя | Описание |
 | --- | --- |
-| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.activity/activityclient/multipleservicestokenprovider) { get; set; } | Получает или задает объект, позволяющий получить маркер доступа OAuth. |
-| virtual [Proxy](../../aspose.email.clients.activity/activityclient/proxy) { get; set; } | Получает или устанавливает данные для прокси-доступа к серверу Exchange. |
-| virtual [ResourceId](../../aspose.email.clients.activity/activityclient/resourceid) { get; set; } | Получает или устанавливает идентификатор ресурса. Например, для пользователей это может быть основное имя пользователя (UPN) или идентификатор пользователя |
+| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.activity/activityclient/multipleservicestokenprovider) { get; set; } | Получает или задает объект, позволяющий получить токен доступа OAuth. |
+| virtual [Proxy](../../aspose.email.clients.activity/activityclient/proxy) { get; set; } | Получает или задает данные для прокси-доступа к серверу Exchange. |
+| virtual [ResourceId](../../aspose.email.clients.activity/activityclient/resourceid) { get; set; } | Получает или устанавливает идентификатор ресурса. Например, для пользователей это может быть имя участника-пользователя (UPN) или идентификатор пользователя |
 | virtual [TenantId](../../aspose.email.clients.activity/activityclient/tenantid) { get; set; } | Получает или задает идентификатор арендатора |
 | virtual [Timeout](../../aspose.email.clients.activity/activityclient/timeout) { get; set; } | Получает или задает количество миллисекунд ожидания до истечения времени ожидания операции. Значение по умолчанию — 100 000 миллисекунд (100 секунд). |
-| virtual [TokenProvider](../../aspose.email.clients.activity/activityclient/tokenprovider) { get; set; } | Получает или задает объект, позволяющий получить маркер доступа OAuth. |
+| virtual [TokenProvider](../../aspose.email.clients.activity/activityclient/tokenprovider) { get; set; } | Получает или задает объект, позволяющий получить токен доступа OAuth. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients.activity/activityclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| virtual [Dispose](../../aspose.email.clients.activity/activityclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [FetchContent](../../aspose.email.clients.activity/activityclient/fetchcontent)(string) |  |
 | [ListContent](../../aspose.email.clients.activity/activityclient/listcontent#listcontent)(string) |  |
 | [ListContent](../../aspose.email.clients.activity/activityclient/listcontent#listcontent_1)(string, DateTime?, DateTime?) |  |
@@ -37,8 +37,8 @@ public abstract class ActivityClient : IActivityClient
 | [ListSubscriptions](../../aspose.email.clients.activity/activityclient/listsubscriptions)() |  |
 | [StartSubscription](../../aspose.email.clients.activity/activityclient/startsubscription)(string, Webhook) |  |
 | [StopSubscription](../../aspose.email.clients.activity/activityclient/stopsubscription)(string) |  |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Инициализирует новый экземпляр класса[`ActivityClient`](../activityclient)на основе |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient_1)(ITokenProvider, string) | Инициализирует новый экземпляр класса[`ActivityClient`](../activityclient)на основе |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Инициализирует новый экземпляр[`ActivityClient`](../activityclient) на основе class |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient_1)(ITokenProvider, string) | Инициализирует новый экземпляр[`ActivityClient`](../activityclient) на основе class |
 
 ### Смотрите также
 

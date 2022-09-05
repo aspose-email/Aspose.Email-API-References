@@ -18,7 +18,7 @@ public class ExchangeFolderInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeFolderInfo](exchangefolderinfo)() | 初始化一个新的实例 [`ExchangeFolderInfo`](../exchangefolderinfo) 班级 |
+| [ExchangeFolderInfo](exchangefolderinfo)() | 初始化[`ExchangeFolderInfo`](../exchangefolderinfo) class |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public class ExchangeFolderInfo
 | [Hidden](../../aspose.email.clients.exchange/exchangefolderinfo/hidden) { get; } | 获取指示文件夹是否隐藏的值 |
 | [ParentUri](../../aspose.email.clients.exchange/exchangefolderinfo/parenturi) { get; } | 父文件夹 uri |
 | [Size](../../aspose.email.clients.exchange/exchangefolderinfo/size) { get; } | 包含服务器上 Message 对象使用的大小（以字节为单位）。 |
-| [TotalCount](../../aspose.email.clients.exchange/exchangefolderinfo/totalcount) { get; } | 获取项目总数。 |
+| [TotalCount](../../aspose.email.clients.exchange/exchangefolderinfo/totalcount) { get; } | 获取项目的总数。 |
 | [UnreadCount](../../aspose.email.clients.exchange/exchangefolderinfo/unreadcount) { get; } | 获取未读项目的计数。 |
 | [Uri](../../aspose.email.clients.exchange/exchangefolderinfo/uri) { get; } | 文件夹 Uri |
 
@@ -39,7 +39,7 @@ public class ExchangeFolderInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.email.clients.exchange/exchangefolderinfo/tostring)() | 返回代表对象实例的字符串。 |
+| override [ToString](../../aspose.email.clients.exchange/exchangefolderinfo/tostring)() | 返回一个表示对象实例的字符串。 |
 
 ### 也可以看看
 

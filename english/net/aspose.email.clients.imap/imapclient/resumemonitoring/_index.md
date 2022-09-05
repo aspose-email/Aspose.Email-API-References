@@ -1,7 +1,7 @@
 ---
 title: ResumeMonitoring
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resumes monitoring of message changes for specified folder. Unlike the StartMonitoring method it will find all missing mailbox changes and call the callback for them.
 type: docs
 weight: 1070
 url: /net/aspose.email.clients.imap/imapclient/resumemonitoring/

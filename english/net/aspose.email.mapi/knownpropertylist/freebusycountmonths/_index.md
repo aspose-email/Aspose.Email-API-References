@@ -1,7 +1,7 @@
 ---
 title: FreeBusyCountMonths
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an integer value used to calculate the start and end dates of the range of free/busy data to be published to the public folders. Area MessageClassDefinedTransmittable Canonical name PidTagFreeBusyCountMonths Alternate names PR_FREEBUSY_COUNT_MONTHS
 type: docs
 weight: 10630
 url: /net/aspose.email.mapi/knownpropertylist/freebusycountmonths/

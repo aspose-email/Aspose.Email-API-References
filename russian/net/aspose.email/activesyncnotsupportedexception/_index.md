@@ -18,10 +18,10 @@ public class ActiveSyncNotSupportedException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor)() | Инициализирует новый экземпляр класса[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception). |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception)с указанным сообщением об ошибке. |
-| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor)() | Инициализирует новый экземпляр[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) класс. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_2)(string) | Инициализирует новый экземпляр[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) класс с указанным сообщением об ошибке. |
+| [ActiveSyncNotSupportedException](activesyncnotsupportedexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`ActiveSyncNotSupportedException`](../activesyncnotsupportedexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
 ## Характеристики
 

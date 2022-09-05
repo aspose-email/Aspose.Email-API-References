@@ -1,7 +1,7 @@
 ---
 title: ResponseRequested
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a response is requested to a Message object. Area MapiEnvelope Property set Canonical name PidTagResponseRequested Alternate names PR_RESPONSE_REQUESTED urnschemascalendarresponserequested
 type: docs
 weight: 16190
 url: /net/aspose.email.mapi/knownpropertylist/responserequested/

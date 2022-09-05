@@ -1,14 +1,14 @@
 ---
 title: UseUId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示 搜索方法是否返回消息的序列号或 UID
+description: 获取或设置一个值该值指示 搜索方法是否返回消息的序列号或UID
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/basesearchconditions/useuid/
 ---
 ## BaseSearchConditions.UseUId property
 
-获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或 UID。
+获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或UID。
 
 ```csharp
 public bool UseUId { get; set; }

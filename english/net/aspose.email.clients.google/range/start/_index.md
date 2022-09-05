@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The start of the time period.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/range/start/

@@ -19,36 +19,36 @@ public enum RulePredicateFlags
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未指定标志 |
+| None | `0` | 没有指定标志 |
 | ApprovalRequest | `1` | 传入消息必须是批准请求才能应用条件或例外。 |
-| NotApprovalRequest | `2` | 传入消息不得是批准请求，以便条件或例外适用。 |
+| NotApprovalRequest | `2` | 传入的消息不能是批准请求才能应用条件或例外。 |
 | AutomaticForward | `4` | 传入消息必须自动转发才能应用条件或异常。 |
-| NotAutomaticForward | `8` | 传入消息不得自动转发，以便条件或例外适用。 |
+| NotAutomaticForward | `8` | 传入的消息不得自动转发，以应用条件或异常。 |
 | AutomaticReply | `10` | 传入消息必须是自动回复才能应用条件或例外。 |
-| NotAutomaticReply | `20` | 传入消息不能是自动回复，以便条件或例外适用。 |
-| Encrypted | `40` | 传入消息必须经过 S/MIME 加密才能应用条件或例外。 |
-| NotEncrypted | `80` | 传入消息不得进行 S/MIME 加密以适用条件或例外。 |
+| NotAutomaticReply | `20` | 传入的消息不能是自动回复，以便条件或例外适用。 |
+| Encrypted | `40` | 传入的消息必须经过 S/MIME 加密才能应用条件或例外。 |
+| NotEncrypted | `80` | 传入消息不得进行 S/MIME 加密，以适用条件或例外情况。 |
 | MeetingRequest | `100` | 传入消息必须满足请求才能应用条件或例外。 |
-| NotMeetingRequest | `200` | 传入消息不得满足请求才能应用条件或例外。 |
+| NotMeetingRequest | `200` | 传入的消息不得满足要求才能应用条件或例外。 |
 | MeetingResponse | `400` | 传入消息必须满足响应才能应用条件或例外。 |
-| NotMeetingResponse | `800` | 传入消息不得满足响应，以便条件或例外适用。 |
+| NotMeetingResponse | `800` | 传入的消息不得满足响应才能应用条件或例外。 |
 | Ndr | `1000` | 传入邮件必须是未送达报告 (NDR) 才能应用条件或例外。 |
-| NotNdr | `2000` | 传入消息不得是未送达报告 (NDR) 才能应用条件或例外。 |
-| PermissionControlled | `4000` | 传入消息必须受到权限控制（受 RMS 保护）才能应用条件或例外。 |
-| NotPermissionControlled | `8000` | 传入消息不得进行权限控制（受 RMS 保护）才能应用条件或例外。 |
-| HasAttachment | `10000` | 传入消息必须具有附件才能应用条件或异常 |
-| HasNotAttachment | `20000` | 传入消息必须没有附件才能应用条件或异常 |
-| ReadReceipt | `40000` | 传入消息必须是已读回执才能应用条件或异常 |
-| NotReadReceipt | `80000` | 传入消息不得为已读回执，以便条件或例外适用 |
+| NotNdr | `2000` | 传入的邮件不得为未送达报告 (NDR) 才能应用条件或例外。 |
+| PermissionControlled | `4000` | 传入消息必须受权限控制（受 RMS 保护）才能应用条件或异常。 |
+| NotPermissionControlled | `8000` | 传入的消息不得进行权限控制（受 RMS 保护），以便条件或例外适用。 |
+| HasAttachment | `10000` | 传入的消息必须有附件才能应用条件或例外 |
+| HasNotAttachment | `20000` | 传入的消息必须没有附件才能应用条件或例外 |
+| ReadReceipt | `40000` | 传入消息必须是已读回执，才能应用条件或异常 |
+| NotReadReceipt | `80000` | 传入的消息不能是已读回执，以便条件或例外适用 |
 | Signed | `100000` | 传入消息必须经过 S/MIME 签名才能应用条件或例外。 |
-| NotSigned | `200000` | 传入的消息不得进行 S/MIME 签名以适用条件或例外。 |
-| Voicemail | `400000` | 传入消息必须是语音邮件才能适用条件或例外。 |
+| NotSigned | `200000` | 传入的消息不得进行 S/MIME 签名，以便条件或例外适用。 |
+| Voicemail | `400000` | 传入消息必须是语音邮件才能应用条件或例外。 |
 | NotVoicemail | `800000` | 传入消息不能是语音邮件，以便条件或例外适用。 |
-| SentToMe | `1000000` | 邮箱的所有者必须在传入邮件的 ToRecipients 属性中，才能应用条件或例外。 |
-| NotSentToMe | `2000000` | 邮箱的所有者不能在传入邮件的 ToRecipients 属性中，以便应用条件或例外。 |
-| SentCcMe | `4000000` | 邮箱的所有者必须在传入邮件的 CcRecipients 属性中才能应用条件或例外。 |
-| NotSentCcMe | `8000000` | 邮箱的所有者不能在传入邮件的 CcRecipients 属性中，以便应用条件或例外。 |
-| SentOnlyToMe | `10000000` | 邮箱的所有者必须是传入邮件的 ToRecipients 属性中的唯一一个，才能应用条件或例外。 |
+| SentToMe | `1000000` | 邮箱的所有者必须在传入邮件的 ToRecipients 属性中才能应用条件或异常。 |
+| NotSentToMe | `2000000` | 邮箱的所有者不能在传入邮件的 ToRecipients 属性中才能应用条件或异常。 |
+| SentCcMe | `4000000` | 邮箱的所有者必须在传入邮件的 CcRecipients 属性中才能应用条件或异常。 |
+| NotSentCcMe | `8000000` | 邮箱的所有者不能在传入邮件的 CcRecipients 属性中才能应用条件或例外。 |
+| SentOnlyToMe | `10000000` | 邮箱的所有者必须是传入邮件的 ToRecipients 属性中的唯一一个，才能应用条件或异常。 |
 | NotSentOnlyToMe | `20000000` | 邮箱的所有者不能是传入邮件的 ToRecipients 属性中的唯一一个，以便条件或例外适用。 |
 | SentToOrCcMe | `40000000` | 邮箱的所有者必须在传入邮件的 ToRecipients 或 CcRecipients 属性中，以便条件或例外适用 |
 

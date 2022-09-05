@@ -3,7 +3,7 @@ title: MailStorageConverter
 second_title: Справочник по Aspose.Email для .NET API
 description: Преобразователь хранилища почты предоставляет услуги для операций преобразования хранилища.
 type: docs
-weight: 19940
+weight: 19990
 url: /ru/net/aspose.email.storage/mailstorageconverter/
 ---
 ## MailStorageConverter class

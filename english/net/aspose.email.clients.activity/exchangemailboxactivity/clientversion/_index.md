@@ -1,7 +1,7 @@
 ---
 title: ClientVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The version of the email client.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/clientversion/

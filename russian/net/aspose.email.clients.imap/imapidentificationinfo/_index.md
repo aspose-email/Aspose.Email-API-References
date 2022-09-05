@@ -1,14 +1,14 @@
 ---
 title: ImapIdentificationInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет класс-контейнер с идентификационной информацией для обмена между почтовым клиентом и сервером. Пожалуйста прочитайте больше rfc2971 https//tools.ietf.org/html/rfc2971
+description: Представляет собой класс-контейнер с идентификационной информацией для обмена между почтовым клиентом и сервером. Подробнее rfc2971 https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 16320
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/
 ---
 ## ImapIdentificationInfo class
 
-Представляет класс-контейнер с идентификационной информацией для обмена между почтовым клиентом и сервером. Пожалуйста, прочитайте больше rfc2971 https://tools.ietf.org/html/rfc2971
+Представляет собой класс-контейнер с идентификационной информацией для обмена между почтовым клиентом и сервером. Подробнее rfc2971 https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public class ImapIdentificationInfo
@@ -25,15 +25,15 @@ public class ImapIdentificationInfo
 | Имя | Описание |
 | --- | --- |
 | static [DefaultValue](../../aspose.email.clients.imap/imapidentificationinfo/defaultvalue) { get; } | Значение по умолчанию |
-| [Address](../../aspose.email.clients.imap/imapidentificationinfo/address) { get; set; } | Почтовый адрес контактного лица/продавца |
-| [Arguments](../../aspose.email.clients.imap/imapidentificationinfo/arguments) { get; set; } | Аргументы, передаваемые в командной строке, если они есть. |
-| [Command](../../aspose.email.clients.imap/imapidentificationinfo/command) { get; set; } | Команда запуска программы |
+| [Address](../../aspose.email.clients.imap/imapidentificationinfo/address) { get; set; } | Почтовый адрес контактного лица/поставщика |
+| [Arguments](../../aspose.email.clients.imap/imapidentificationinfo/arguments) { get; set; } | Аргументы, указанные в командной строке, если таковые имеются. |
+| [Command](../../aspose.email.clients.imap/imapidentificationinfo/command) { get; set; } | Команда, используемая для запуска программы |
 | [Date](../../aspose.email.clients.imap/imapidentificationinfo/date) { get; set; } | Дата выпуска программы, указанная как дата-время в IMAP4rev1 |
 | [Environment](../../aspose.email.clients.imap/imapidentificationinfo/environment) { get; set; } | Описание среды, т. е. переменные среды UNIX или параметры реестра Windows |
-| [Name](../../aspose.email.clients.imap/imapidentificationinfo/name) { get; set; } | Имя программы |
+| [Name](../../aspose.email.clients.imap/imapidentificationinfo/name) { get; set; } | Название программы |
 | [Os](../../aspose.email.clients.imap/imapidentificationinfo/os) { get; set; } | Название операционной системы |
 | [OsVersion](../../aspose.email.clients.imap/imapidentificationinfo/osversion) { get; set; } | Версия операционной системы |
-| [SupportUrl](../../aspose.email.clients.imap/imapidentificationinfo/supporturl) { get; set; } | URL для связи со службой поддержки |
+| [SupportUrl](../../aspose.email.clients.imap/imapidentificationinfo/supporturl) { get; set; } | URL-адрес для связи со службой поддержки |
 | [Vendor](../../aspose.email.clients.imap/imapidentificationinfo/vendor) { get; set; } | Поставщик клиентского сервера |
 | [Version](../../aspose.email.clients.imap/imapidentificationinfo/version) { get; set; } | Номер версии программы |
 

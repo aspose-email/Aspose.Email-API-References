@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含已读回执指向的最终用户的地址类型 区域传输信封 规范名称PidTagReadReceiptAddressType 替代名称ptagReadReceiptAddrType ReadReceiptAddrType
+description: 包含接收已读回执的最终用户的地址类型 区域传输信封 规范名称PidTagReadReceiptAddressType 替代名称ptagReadReceiptAddrTypeReadReceiptAddrType
 type: docs
 weight: 15190
 url: /zh/net/aspose.email.mapi/knownpropertylist/readreceiptaddresstype/
 ---
 ## KnownPropertyList.ReadReceiptAddressType field
 
-包含已读回执指向的最终用户的地址类型。 区域:传输信封 规范名称:PidTagReadReceiptAddressType 替代名称:ptagReadReceiptAddrType, ReadReceiptAddrType
+包含接收已读回执的最终用户的地址类型。 区域：传输信封 规范名称：PidTagReadReceiptAddressType 替代名称：ptagReadReceiptAddrType、ReadReceiptAddrType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptAddressType;

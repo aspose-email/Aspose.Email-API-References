@@ -1,14 +1,14 @@
 ---
 title: EmsAbXmitTimeoutUrgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_XMIT_TIMEOUT_URGENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_XMIT_TIMEOUT_URGENT
 type: docs
 weight: 9720
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabxmittimeouturgent/
 ---
 ## KnownPropertyList.EmsAbXmitTimeoutUrgent field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_XMIT_TIMEOUT_URGENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_XMIT_TIMEOUT_URGENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbXmitTimeoutUrgent;

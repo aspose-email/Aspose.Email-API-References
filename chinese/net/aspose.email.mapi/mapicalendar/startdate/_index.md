@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置事件的开始日期和时间 如果未设置日期则返回DateTime的默认值
+description: 获取或设置事件的开始日期和时间 如果未设置日期则为DateTime被退回
 type: docs
 weight: 180
 url: /zh/net/aspose.email.mapi/mapicalendar/startdate/
 ---
 ## MapiCalendar.StartDate property
 
-获取或设置事件的开始日期和时间。 如果未设置日期，则返回DateTime的默认值。
+获取或设置事件的开始日期和时间。 如果未设置日期，则为DateTime被退回。
 
 ```csharp
 public DateTime StartDate { get; set; }

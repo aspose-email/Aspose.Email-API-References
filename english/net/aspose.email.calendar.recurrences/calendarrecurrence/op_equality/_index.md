@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator .
 type: docs
 weight: 140
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/op_equality/

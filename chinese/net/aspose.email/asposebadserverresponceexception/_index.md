@@ -1,14 +1,14 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Aspose.Email for .NET API 参考
-description: 表示服务器操作执行过程中发生的错误
+description: 表示服务器操作执行期间发生的错误
 type: docs
 weight: 290
 url: /zh/net/aspose.email/asposebadserverresponceexception/
 ---
 ## AsposeBadServerResponceException class
 
-表示服务器操作执行过程中发生的错误。
+表示服务器操作执行期间发生的错误。
 
 ```csharp
 public class AsposeBadServerResponceException : AsposeException
@@ -18,10 +18,10 @@ public class AsposeBadServerResponceException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor)() | 初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类的新实例。 |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_1)(Exception) | 使用对内部的引用初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类 的新实例异常是导致此异常的原因。 |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_2)(string) | 使用指定的错误消息初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类的新实例。 |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类 的新实例和对导致此异常的内部异常的引用。 |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor)() | 初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类. |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_1)(Exception) | 初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类 引用了导致此异常的内部异常。 |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_2)(string) | 初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)具有指定错误消息的类。 |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_3)(string, Exception) | 初始化[`AsposeBadServerResponceException`](../asposebadserverresponceexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
 
 ## 特性
 

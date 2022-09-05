@@ -3,7 +3,7 @@ title: SaveResult
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет результат сохранения извлеченного элемента.
 type: docs
-weight: 20280
+weight: 20330
 url: /ru/net/aspose.email.storage.pst/saveresult/
 ---
 ## SaveResult class
@@ -19,7 +19,7 @@ public class SaveResult
 | Имя | Описание |
 | --- | --- |
 | [Attachments](../../aspose.email.storage.pst/saveresult/attachments) { get; } | Получает результаты сохранения вложений. |
-| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties) { get; } | Получает набор пропущенных свойств. |
+| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties) { get; } | Получает коллекцию пропущенных свойств. |
 | [Status](../../aspose.email.storage.pst/saveresult/status) { get; } | Получает статус сохранения. |
 
 ### Смотрите также

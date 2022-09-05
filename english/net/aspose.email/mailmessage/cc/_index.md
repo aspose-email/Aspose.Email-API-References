@@ -1,7 +1,7 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the address collection that contains the CC recipients
 type: docs
 weight: 90
 url: /net/aspose.email/mailmessage/cc/

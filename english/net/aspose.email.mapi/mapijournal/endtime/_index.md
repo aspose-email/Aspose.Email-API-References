@@ -1,7 +1,7 @@
 ---
 title: EndTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time at which the activity ended.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapijournal/endtime/

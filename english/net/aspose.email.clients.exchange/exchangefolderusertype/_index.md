@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderUserType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the distinguished user accounts
 type: docs
 weight: 3360
 url: /net/aspose.email.clients.exchange/exchangefolderusertype/

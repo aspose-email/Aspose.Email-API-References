@@ -1,14 +1,14 @@
 ---
 title: SendGridClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSendGridClientaspose.email.clients.deliveryservice.sendgrid/sendgridclient
+description: Инициализирует новый экземплярSendGridClientaspose.email.clients.deliveryservice.sendgrid/sendgridclient класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/sendgridclient/
 ---
 ## SendGridClient constructor
 
-Инициализирует новый экземпляр класса[`SendGridClient`](../../sendgridclient)
+Инициализирует новый экземпляр[`SendGridClient`](../../sendgridclient) класс
 
 ```csharp
 public SendGridClient(string apiKey, bool sandBoxMode = false)

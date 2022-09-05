@@ -1,9 +1,9 @@
 ---
 title: MailMessageEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides data for the MessageSending and MessageSent events.
 type: docs
-weight: 16840
+weight: 16990
 url: /net/aspose.email.clients.smtp/mailmessageeventargs/
 ---
 ## MailMessageEventArgs class

@@ -3,7 +3,7 @@ title: MapiTaskFlags
 second_title: Aspose.Email for .NET API 参考
 description: 包含任务对象的指示标志
 type: docs
-weight: 18660
+weight: 18690
 url: /zh/net/aspose.email.mapi/mapitaskflags/
 ---
 ## MapiTaskFlags enumeration
@@ -21,11 +21,11 @@ public enum MapiTaskFlags
 | --- | --- | --- |
 | Complete | `1` | 表示任务是否已经完成。 |
 | Accepted | `2` | 指示任务受让人是否已回复 对此任务对象的任务请求。 |
-| Updates | `4` | 指示是否已请求任务受理人 在分配的任务对象更改时发送任务更新。 |
+| Updates | `4` | 指示任务分配者是否已被请求 在分配的任务对象更改时发送任务更新。 |
 | Recurring | `8` | 指示任务是否包含重复模式。 |
-| StatusOnComplete | `10` | 指示是否已请求任务受理人 在任务受理人完成分配的任务时发送电子邮件消息更新。 |
-| DeadOccurrence | `20` | 指示是否有新的匹配项 仍有待生成。 |
-| ResetReminder | `40` | 指示循环任务的未来实例 是否需要提醒。 |
+| StatusOnComplete | `10` | 指示是否已请求任务受理人在任务受理人完成分配的任务时 发送电子邮件消息更新。 |
+| DeadOccurrence | `20` | 表示是否有新的 待生成。 |
+| ResetReminder | `40` | 指示重复任务的未来实例 是否需要提醒。 |
 
 ### 也可以看看
 

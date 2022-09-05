@@ -1,14 +1,14 @@
 ---
 title: FolderId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор папки для исходного сообщения возвращаемого командой FolderSync. Если FolderId присутствует ItemId также ДОЛЖЕН присутствовать. Значение FolderId может иметь длину до 64 символов.
+description: Указывает идентификатор папки для исходного сообщения возвращаемого командой FolderSync. Если присутствует FolderId ДОЛЖЕН также присутствовать ItemId. Значение FolderId может иметь длину до 64 символов.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid/
 ---
 ## SmartRequestSource.FolderId property
 
-Указывает идентификатор папки для исходного сообщения, возвращаемого командой FolderSync. Если FolderId присутствует, ItemId также ДОЛЖЕН присутствовать. Значение FolderId может иметь длину до 64 символов.
+Указывает идентификатор папки для исходного сообщения, возвращаемого командой FolderSync. Если присутствует FolderId, ДОЛЖЕН также присутствовать ItemId. Значение FolderId может иметь длину до 64 символов.
 
 ```csharp
 public string FolderId { get; set; }

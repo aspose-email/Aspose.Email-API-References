@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the collection is read only.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapipropertycollection/isreadonly/

@@ -1,14 +1,14 @@
 ---
 title: InstanceId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает экземпляр повторения для исходного элемента. Если присутствует InstanceId ДОЛЖНЫ присутствовать и FolderId и ItemId.
+description: Задает экземпляр повторения исходного элемента. Если присутствует InstanceId ДОЛЖНЫ присутствовать и FolderId и ItemId.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid/
 ---
 ## SmartRequestSource.InstanceId property
 
-Задает экземпляр повторения для исходного элемента. Если присутствует InstanceId, ДОЛЖНЫ присутствовать и FolderId, и ItemId.
+Задает экземпляр повторения исходного элемента. Если присутствует InstanceId, ДОЛЖНЫ присутствовать и FolderId, и ItemId.
 
 ```csharp
 public DateTime? InstanceId { get; set; }

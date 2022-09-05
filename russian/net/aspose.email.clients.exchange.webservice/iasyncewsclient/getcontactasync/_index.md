@@ -1,14 +1,14 @@
 ---
 title: GetContactAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает контактную информацию по указанному идентификатору.
+description: Извлекает контактную информацию в соответствии с указанным идентификатором.
 type: docs
 weight: 320
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactasync/
 ---
 ## IAsyncEwsClient.GetContactAsync method
 
-Получает контактную информацию по указанному идентификатору.
+Извлекает контактную информацию в соответствии с указанным идентификатором.
 
 ```csharp
 public Task<Contact> GetContactAsync(string contactId, 
@@ -20,11 +20,11 @@ public Task<Contact> GetContactAsync(string contactId,
 | --- | --- | --- |
 | contactId | String | Идентификатор контакта. |
 | options | ExchangeListContactsOptions | Настройки для получения контакта. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-Контактная информация
+Контакты
 
 ### Смотрите также
 

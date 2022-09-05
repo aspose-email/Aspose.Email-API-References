@@ -1,14 +1,14 @@
 ---
 title: Actions
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает действия выполняемые над сообщением при выполнении условий.
+description: Получает или задает действия которые необходимо выполнить над сообщением при выполнении условий.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange/inboxrule/actions/
 ---
 ## InboxRule.Actions property
 
-Получает или задает действия, выполняемые над сообщением при выполнении условий.
+Получает или задает действия, которые необходимо выполнить над сообщением при выполнении условий.
 
 ```csharp
 public RuleActions Actions { get; set; }

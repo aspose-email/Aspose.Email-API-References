@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarEventRecurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойства повторяемости объекта календаря
+description: Представляет свойства повторения календаря object
 type: docs
 weight: 17970
 url: /ru/net/aspose.email.mapi/mapicalendareventrecurrence/
 ---
 ## MapiCalendarEventRecurrence class
 
-Представляет свойства повторяемости объекта календаря
+Представляет свойства повторения календаря object
 
 ```csharp
 public sealed class MapiCalendarEventRecurrence
@@ -18,7 +18,7 @@ public sealed class MapiCalendarEventRecurrence
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarEventRecurrence](mapicalendareventrecurrence)() | Инициализирует новый экземпляр класса[`MapiCalendarEventRecurrence`](../mapicalendareventrecurrence) |
+| [MapiCalendarEventRecurrence](mapicalendareventrecurrence)() | Инициализирует новый экземпляр[`MapiCalendarEventRecurrence`](../mapicalendareventrecurrence) класс |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public sealed class MapiCalendarEventRecurrence
 | --- | --- |
 | [AppointmentTimeZoneDefinitionRecur](../../aspose.email.mapi/mapicalendareventrecurrence/appointmenttimezonedefinitionrecur) { get; set; } | Получает или задает информацию о часовом поясе, описывающую, как преобразовать дату и время собрания в повторяющемся ряду в UTC и обратно. |
 | [ClipEnd](../../aspose.email.mapi/mapicalendareventrecurrence/clipend) { get; set; } | Получает или устанавливает дату последнего экземпляра |
-| [ClipStart](../../aspose.email.mapi/mapicalendareventrecurrence/clipstart) { get; set; } | Получает или устанавливает дату первого экземпляра |
+| [ClipStart](../../aspose.email.mapi/mapicalendareventrecurrence/clipstart) { get; set; } | Получает или задает дату первого экземпляра |
 | [IsException](../../aspose.email.mapi/mapicalendareventrecurrence/isexception) { get; set; } | Получает или задает значение, указывающее, представляет ли объект исключение |
 | [RecurrencePattern](../../aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern) { get; set; } | Получает или задает шаблон повторения |
 | [TimeZoneStruct](../../aspose.email.mapi/mapicalendareventrecurrence/timezonestruct) { get; set; } | Получает или задает информацию о часовом поясе для повторяющегося собрания. |

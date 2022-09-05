@@ -1,7 +1,7 @@
 ---
 title: MicrosoftPhotoEditor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Photo Editor type.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/oledocumentformat/microsoftphotoeditor/

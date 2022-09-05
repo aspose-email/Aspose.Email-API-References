@@ -1,12 +1,12 @@
 ---
 title: ChangeMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the messages in folder.
 type: docs
 weight: 200
 url: /net/aspose.email.storage.pst/folderinfo/changemessages/
 ---
-## FolderInfo.ChangeMessages method (1 of 2)
+## ChangeMessages(IEnumerable&lt;string&gt;, MapiPropertyCollection) {#changemessages_1}
 
 Changes the messages in folder.
 
@@ -37,7 +37,7 @@ public void ChangeMessages(IEnumerable<string> entryIdCollection,
 
 ---
 
-## FolderInfo.ChangeMessages method (2 of 2)
+## ChangeMessages(MapiPropertyCollection) {#changemessages}
 
 Changes all messages in folder.
 

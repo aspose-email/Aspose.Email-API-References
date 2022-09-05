@@ -1,7 +1,7 @@
 ---
 title: ListCategories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get all the categories that have been defined for the user.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.graph/igraphclient/listcategories/

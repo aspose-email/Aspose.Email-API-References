@@ -1,7 +1,7 @@
 ---
 title: DeleteAccessRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes access rule
 type: docs
 weight: 70
 url: /net/aspose.email.clients.google/igmailclient/deleteaccessrule/

@@ -16,11 +16,11 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemsPerPage | Int32 | 一些页面中的项目 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -41,8 +41,8 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
-| itemsPerPage | Int32 | 页面中的许多项目 |
+| folderUri | String | 用于搜索约会的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
@@ -68,11 +68,11 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -95,13 +95,13 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -123,12 +123,12 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage, int itemOffs
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemsPerPage | Int32 | 一些页面中的项目 |
-| itemOffset | Int32 | 视图中下一个项目的偏移量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| itemOffset | Int32 | 视图中下一项的偏移量 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -150,13 +150,13 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹搜索约会。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
-| itemOffset | Int32 | 偏移量视图中的下一项 |
+| folderUri | String | 用于搜索约会的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| itemOffset | Int32 | 视图中下一项的偏移量 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -178,12 +178,12 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
-| itemOffset | Int32 | 视图中下一个项目的偏移量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| itemOffset | Int32 | 视图中下一项的偏移量 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 
@@ -206,14 +206,14 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
-| itemOffset | Int32 | 视图中下一个项目的偏移量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| itemOffset | Int32 | 视图中下一项的偏移量 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 

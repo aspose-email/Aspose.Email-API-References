@@ -1,14 +1,14 @@
 ---
 title: ContainsSenderStrings
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置出现在传入消息的 From 属性中的字符串以便应用条件或异常
+description: 获取或设置出现在传入消息的 From 属性中的字符串以便条件或异常适用
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/containssenderstrings/
 ---
 ## RulePredicates.ContainsSenderStrings property
 
-获取或设置出现在传入消息的 From 属性中的字符串，以便应用条件或异常
+获取或设置出现在传入消息的 From 属性中的字符串，以便条件或异常适用
 
 ```csharp
 public StringCollection ContainsSenderStrings { get; set; }

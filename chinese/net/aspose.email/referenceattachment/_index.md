@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachment
 second_title: Aspose.Email for .NET API 参考
-description: 此类表示参考附件
+description: 这个类代表一个参考附件
 type: docs
-weight: 19880
+weight: 19930
 url: /zh/net/aspose.email/referenceattachment/
 ---
 ## ReferenceAttachment class
 
-此类表示参考附件
+这个类代表一个参考附件
 
 ```csharp
 public class ReferenceAttachment : Attachment
@@ -18,23 +18,23 @@ public class ReferenceAttachment : Attachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReferenceAttachment](referenceattachment#constructor)() | 初始化[`ReferenceAttachment`](../referenceattachment)的新实例。 |
-| [ReferenceAttachment](referenceattachment#constructor_1)(string) | 初始化[`ReferenceAttachment`](../referenceattachment)的新实例。 |
-| [ReferenceAttachment](referenceattachment#constructor_2)(Uri) | 初始化[`ReferenceAttachment`](../referenceattachment)的新实例。 |
+| [ReferenceAttachment](referenceattachment#constructor)() | 初始化一个新的实例[`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor_1)(string) | 初始化一个新的实例[`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor_2)(Uri) | 初始化一个新的实例[`ReferenceAttachment`](../referenceattachment). |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/attachment/contentdisposition) { get; } | 获取 Content-Disposition 标头 |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容ID。 |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容id。 |
 | [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | 获取或设置内容流。 |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | 获取或设置内容的类型。 |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | 获取附件的标题集合。 |
 | [IsEmbeddedMessage](../../aspose.email/attachment/isembeddedmessage) { get; } | 获取一个值，该值指示附件是否为嵌入消息。 |
-| [IsUri](../../aspose.email/attachment/isuri) { get; } | 获取一个值，该值指示附件是否为 URI 附件。 |
+| [IsUri](../../aspose.email/attachment/isuri) { get; } | 获取一个值，该值指示附件是否为 URI-attachment。 |
 | [Name](../../aspose.email/attachment/name) { get; set; } | 获取或设置附件名称 |
-| [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | 获取或设置附件名称的编码 |
+| [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | 获取或设置附件名称 的编码 |
 | [PermissionType](../../aspose.email/referenceattachment/permissiontype) { get; set; } | 指定权限类型。 |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding) { get; set; } | 获取或设置首选文本编码 |
 | [ProviderType](../../aspose.email/referenceattachment/providertype) { get; set; } | 指定提供程序类型。 |

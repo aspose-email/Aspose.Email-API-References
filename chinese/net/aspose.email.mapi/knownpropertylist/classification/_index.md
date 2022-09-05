@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/classification/
 ---
 ## KnownPropertyList.Classification field
 
-包含已分配相关消息对象的分类类别列表。 区域:常规消息属性 规范名称:PidLidClassification 替代名称:dispidClassification
+包含已分配相关消息对象的分类类别列表。 区域：常规消息属性 规范名称：PidLidClassification 替代名称：dispidClassification
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Classification;

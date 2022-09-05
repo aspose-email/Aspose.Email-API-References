@@ -16,11 +16,11 @@ public bool Remove(MapiAttachment item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | MapiAttachment | 要从 MapiAttachmentCollection 中删除的对象。 |
+| item | MapiAttachment | 要从 MapiAttachmentCollection 中移除的对象。 |
 
 ### 返回值
 
-如果项目成功移除，则为 true；否则为假。
+如果项目已成功删除，则为 true；否则为假。
 
 ### 也可以看看
 

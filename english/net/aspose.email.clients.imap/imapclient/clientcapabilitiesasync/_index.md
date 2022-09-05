@@ -1,12 +1,12 @@
 ---
 title: ClientCapabilitiesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Notifies server which extensions are supported by client. Please note this operation works only in case if server supports RFC5161 See more https//tools.ietf.org/html/rfc5161
 type: docs
 weight: 450
 url: /net/aspose.email.clients.imap/imapclient/clientcapabilitiesasync/
 ---
-## ImapClient.ClientCapabilitiesAsync method (1 of 4)
+## ClientCapabilitiesAsync(params string[]) {#clientcapabilitiesasync_2}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 
@@ -30,7 +30,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ClientCapabilitiesAsync method (2 of 4)
+## ClientCapabilitiesAsync(IConnection, params string[]) {#clientcapabilitiesasync}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 
@@ -57,7 +57,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ClientCapabilitiesAsync method (3 of 4)
+## ClientCapabilitiesAsync(CancellationToken, params string[]) {#clientcapabilitiesasync_3}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ClientCapabilitiesAsync method (4 of 4)
+## ClientCapabilitiesAsync(IConnection, CancellationToken, params string[]) {#clientcapabilitiesasync_1}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 

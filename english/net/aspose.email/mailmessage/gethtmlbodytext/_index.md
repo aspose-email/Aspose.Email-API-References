@@ -1,12 +1,12 @@
 ---
 title: GetHtmlBodyText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.email/mailmessage/gethtmlbodytext/
 ---
-## MailMessage.GetHtmlBodyText method (1 of 2)
+## GetHtmlBodyText(bool) {#gethtmlbodytext_1}
 
 Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup.
 
@@ -26,7 +26,7 @@ public virtual string GetHtmlBodyText(bool showUrl)
 
 ---
 
-## MailMessage.GetHtmlBodyText method (2 of 2)
+## GetHtmlBodyText(HyperlinkRenderingCallback) {#gethtmlbodytext}
 
 Gets the message htmlbody as plain text.
 

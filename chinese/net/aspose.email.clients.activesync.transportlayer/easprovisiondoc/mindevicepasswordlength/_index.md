@@ -1,14 +1,14 @@
 ---
 title: MinDevicePasswordLength
 second_title: Aspose.Email for .NET API 参考
-description: 指定最小客户端密码长度 MinDevicePasswordLength 可以为空也可以是不小于 1 且不大于 16 的值 如果该属性为 null 或该属性的值为 1则没有设备密码的最小长度 如果 DevicePasswordEnabled 的值为 FALSE客户端应该忽略这个属性
+description: 指定最小客户端密码长度 MinDevicePasswordLength 可以为空或具有不小于 1 且不大于 16 的值 如果该属性为空或该属性的值为 1则没有最小长度设备密码 如果 DevicePasswordEnabled 的值为 FALSE客户端应忽略此属性
 type: docs
 weight: 340
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/mindevicepasswordlength/
 ---
 ## EASProvisionDoc.MinDevicePasswordLength property
 
-指定最小客户端密码长度。 MinDevicePasswordLength 可以为空，也可以是不小于 1 且不大于 16 的值。 如果该属性为 null 或该属性的值为 1，则没有设备密码的最小长度。 如果 DevicePasswordEnabled 的值为 FALSE，客户端应该忽略这个属性。
+指定最小客户端密码长度。 MinDevicePasswordLength 可以为空或具有不小于 1 且不大于 16 的值。 如果该属性为空或该属性的值为 1，则没有最小长度设备密码。 如果 DevicePasswordEnabled 的值为 FALSE，客户端应忽略此属性。
 
 ```csharp
 public int? MinDevicePasswordLength { get; set; }

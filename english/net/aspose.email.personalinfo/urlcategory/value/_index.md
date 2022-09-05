@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets category of a URL
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/urlcategory/value/

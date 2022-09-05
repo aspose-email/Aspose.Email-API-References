@@ -1,14 +1,14 @@
 ---
 title: AcceptLanguage
 second_title: Aspose.Email for .NET API 参考
-description: 包含 MIME Accept-Language 标头的值 区域电子邮件 规范名称PidNameAcceptLanguage 别名AcceptLanguage
+description: 包含 MIME Accept-Language 标头的值 区域Email 规范名称PidNameAcceptLanguage 备用名称AcceptLanguage
 type: docs
 weight: 240
 url: /zh/net/aspose.email.mapi/knownpropertylist/acceptlanguage/
 ---
 ## KnownPropertyList.AcceptLanguage field
 
-包含 MIME Accept-Language 标头的值。 区域:电子邮件 规范名称:PidNameAcceptLanguage 别名:AcceptLanguage
+包含 MIME Accept-Language 标头的值。 区域：Email 规范名称：PidNameAcceptLanguage 备用名称：AcceptLanguage
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AcceptLanguage;

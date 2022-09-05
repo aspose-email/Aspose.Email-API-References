@@ -1,14 +1,14 @@
 ---
 title: PostOfficeBox
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает почтовый ящик
+description: Получает или задает почтовый ящик box
 type: docs
 weight: 90
 url: /ru/net/aspose.email.personalinfo/postaladdress/postofficebox/
 ---
 ## PostalAddress.PostOfficeBox property
 
-Получает или устанавливает почтовый ящик
+Получает или задает почтовый ящик box
 
 ```csharp
 public string PostOfficeBox { get; set; }

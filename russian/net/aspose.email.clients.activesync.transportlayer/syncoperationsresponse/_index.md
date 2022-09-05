@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.activesync.transportlayer/syncoperationsrespon
 ---
 ## SyncOperationsResponse class
 
-Содержит ответы на такие операции, как Add, Fetch, Change, которые обрабатываются сервером. Ответ содержит код состояния и другую информацию, в зависимости от операции.
+Содержит ответы на такие операции, как Add, Fetch, Change, которые обрабатываются сервером. Ответ содержит код состояния и другую информацию в зависимости от операции.
 
 ```csharp
 public class SyncOperationsResponse
@@ -25,8 +25,8 @@ public class SyncOperationsResponse
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/add) { get; } | Список объектов, указывающий, что в коллекции должен быть создан новый объект. |
-| [Change](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change) { get; } | Список объектов, указывающий, что объект в коллекции должен быть изменен. |
-| [Fetch](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch) { get; } | Список выбранных объектов |
+| [Change](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change) { get; } | Список объектов, указывающий, что объект должен быть изменен в коллекции. |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch) { get; } | Список извлеченных объектов |
 
 ### Смотрите также
 

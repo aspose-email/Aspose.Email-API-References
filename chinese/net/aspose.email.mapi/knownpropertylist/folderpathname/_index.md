@@ -1,14 +1,14 @@
 ---
 title: FolderPathname
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_FOLDER_PATHNAME
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_FOLDER_PATHNAME
 type: docs
 weight: 10440
 url: /zh/net/aspose.email.mapi/knownpropertylist/folderpathname/
 ---
 ## KnownPropertyList.FolderPathname field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_FOLDER_PATHNAME
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_FOLDER_PATHNAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderPathname;

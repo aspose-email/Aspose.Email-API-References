@@ -1,7 +1,7 @@
 ---
 title: AppointmentStartWhole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the start date and time of the appointment. Area Calendar Canonical name PidLidAppointmentStartWhole Alternate names dispidApptStartWhole
 type: docs
 weight: 1320
 url: /net/aspose.email.mapi/knownpropertylist/appointmentstartwhole/

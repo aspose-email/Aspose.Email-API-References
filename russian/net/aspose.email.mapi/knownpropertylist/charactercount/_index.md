@@ -1,14 +1,14 @@
 ---
 title: CharacterCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество символов в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameCharacterCount Альтернативные именаurnschemas-microsoft-comofficeofficeCharacters
+description: Указывает количество символов в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameCharacterCount Альтернативные имена urnschemas-microsoft-comofficeofficeCharacters
 type: docs
 weight: 2600
 url: /ru/net/aspose.email.mapi/knownpropertylist/charactercount/
 ---
 ## KnownPropertyList.CharacterCount field
 
-Указывает количество символов в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameCharacterCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Characters
+Указывает количество символов в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameCharacterCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Characters
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CharacterCount;

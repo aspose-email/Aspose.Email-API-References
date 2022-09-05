@@ -1,7 +1,7 @@
 ---
 title: Drafts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains unsent messages.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.graph/knownfolders/drafts/

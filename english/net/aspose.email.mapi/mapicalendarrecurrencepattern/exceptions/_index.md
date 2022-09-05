@@ -1,7 +1,7 @@
 ---
 title: Exceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An exception specifies changes to an instance of a recurring series.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/exceptions/

@@ -1,9 +1,9 @@
 ---
 title: Revision
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a revision time
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision/
 ---
 ## VCardExplanatoryInfo.Revision property

@@ -1,7 +1,7 @@
 ---
 title: Mobile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mobile phone header.
 type: docs
 weight: 240
 url: /net/aspose.email/mhttemplatename.contact/mobile/

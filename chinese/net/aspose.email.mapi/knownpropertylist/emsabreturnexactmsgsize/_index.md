@@ -1,14 +1,14 @@
 ---
 title: EmsAbReturnExactMsgSize
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_RETURN_EXACT_MSG_SIZE
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_RETURN_EXACT_MSG_SIZE
 type: docs
 weight: 8540
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabreturnexactmsgsize/
 ---
 ## KnownPropertyList.EmsAbReturnExactMsgSize field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_RETURN_EXACT_MSG_SIZE
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_RETURN_EXACT_MSG_SIZE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReturnExactMsgSize;

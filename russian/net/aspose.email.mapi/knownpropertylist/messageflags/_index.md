@@ -1,14 +1,14 @@
 ---
 title: MessageFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет статус объекта сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageFlags Альтернативные именаPR_MESSAGE_FLAGS ptagMessageFlags
+description: Указывает статус объекта сообщения. Область Общие свойства сообщения Каноническое имя PidTagMessageFlags Альтернативные имена PR_MESSAGE_FLAGS ptagMessageFlags
 type: docs
 weight: 12530
 url: /ru/net/aspose.email.mapi/knownpropertylist/messageflags/
 ---
 ## KnownPropertyList.MessageFlags field
 
-Определяет статус объекта сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagMessageFlags Альтернативные имена:PR_MESSAGE_FLAGS, ptagMessageFlags
+Указывает статус объекта сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagMessageFlags Альтернативные имена: PR_MESSAGE_FLAGS, ptagMessageFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageFlags;

@@ -6,6 +6,52 @@ type: docs
 weight: 950
 url: /ru/net/aspose.email.clients.imap/imapclient/movemessages/
 ---
+## MoveMessages(IConnection, string, string, string) {#movemessages_8}
+
+Перемещает сообщение
+
+```csharp
+public void MoveMessages(IConnection connection, string startUid, string endUid, string folderName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| connection | IConnection | Подключение к серверу |
+| startUid | String | Начальный UID списка сообщений |
+| endUid | String | Конечный UID списка сообщений |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+
+### Смотрите также
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(string, string, string) {#movemessages_18}
+
+Перемещает сообщение
+
+```csharp
+public void MoveMessages(string startUid, string endUid, string folderName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| startUid | String | Начальный UID списка сообщений |
+| endUid | String | Конечный UID списка сообщений |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## MoveMessages(IConnection, IEnumerable&lt;string&gt;, string, bool) {#movemessages_7}
 
 Перемещает сообщение
@@ -17,9 +63,9 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -42,8 +88,8 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName, bool com
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -63,9 +109,9 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -87,7 +133,7 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -108,9 +154,9 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -135,7 +181,7 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -158,9 +204,9 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -183,7 +229,7 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -196,7 +242,7 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 ## MoveMessages(IConnection, int, int, string, bool) {#movemessages_1}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
@@ -205,11 +251,11 @@ public void MoveMessages(IConnection connection, int startSequence, int endSeque
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -231,9 +277,9 @@ public void MoveMessages(int startSequence, int endSequence, string folderName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение должен быть перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -246,7 +292,7 @@ public void MoveMessages(int startSequence, int endSequence, string folderName,
 
 ## MoveMessages(IConnection, int, int, string) {#movemessages}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
@@ -255,10 +301,10 @@ public void MoveMessages(IConnection connection, int startSequence, int endSeque
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -279,9 +325,9 @@ public void MoveMessages(int startSequence, int endSequence, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startSequence | Int32 | Начальный порядковый номер сообщения list |
+| startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение нужно переместить |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -293,7 +339,7 @@ public void MoveMessages(int startSequence, int endSequence, string folderName)
 
 ## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string, bool) {#movemessages_5}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName, 
@@ -302,9 +348,9 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -327,8 +373,8 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, должны ли быть удалены преданный идее. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -340,7 +386,7 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string) {#movemessages_4}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName)
@@ -348,9 +394,9 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -372,7 +418,7 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -393,10 +439,10 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -420,54 +466,8 @@ public void MoveMessages(string startUid, string endUid, string folderName, bool
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## MoveMessages(IConnection, string, string, string) {#movemessages_8}
-
-Перемещает сообщение
-
-```csharp
-public void MoveMessages(IConnection connection, string startUid, string endUid, string folderName)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| startUid | String | Начальный UID списка сообщений |
-| endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-
-### Смотрите также
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## MoveMessages(string, string, string) {#movemessages_18}
-
-Перемещает сообщение
-
-```csharp
-public void MoveMessages(string startUid, string endUid, string folderName)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| startUid | String | Начальный UID списка сообщений |
-| endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение быть перемещенным |
 
 ### Смотрите также
 

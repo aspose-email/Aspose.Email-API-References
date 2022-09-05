@@ -1,14 +1,14 @@
 ---
 title: DefaultTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Значение электронного адреса по умолчанию Используется когда пользователь не задает никакого электронного адреса если свойство UseAutocomplete установлено как истина
+description: Значение электронного адреса по умолчанию Используется когда пользователь не задает электронный адрес если для свойства UseAutocomplete установлено значение true
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber/
 ---
 ## MapiContactTelephonePropertySet.DefaultTelephoneNumber property
 
-Значение электронного адреса по умолчанию Используется, когда пользователь не задает никакого электронного адреса, если свойство UseAutocomplete установлено как «истина»
+Значение электронного адреса по умолчанию Используется, когда пользователь не задает электронный адрес, если для свойства UseAutocomplete установлено значение «true»
 
 ```csharp
 public string DefaultTelephoneNumber { get; set; }

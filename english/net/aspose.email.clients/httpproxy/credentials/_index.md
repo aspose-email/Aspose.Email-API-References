@@ -1,7 +1,7 @@
 ---
 title: Credentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The credentials to submit to the proxy server for authentication.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/httpproxy/credentials/

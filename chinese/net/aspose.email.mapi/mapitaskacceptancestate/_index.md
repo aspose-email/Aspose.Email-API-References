@@ -3,7 +3,7 @@ title: MapiTaskAcceptanceState
 second_title: Aspose.Email for .NET API 参考
 description: 表示任务的接受状态
 type: docs
-weight: 18650
+weight: 18680
 url: /zh/net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 ## MapiTaskAcceptanceState enumeration
@@ -20,7 +20,7 @@ public enum MapiTaskAcceptanceState
 | --- | --- | --- |
 | NotAssigned | `0` | 未分配任务对象。 |
 | Unknown | `1` | 任务对象的接受状态未知。 |
-| Accepted | `2` | 任务受让人已接受任务对象。 |
+| Accepted | `2` | 任务受理人已接受任务对象。 |
 | Rejected | `3` | 任务受让人拒绝了任务对象。 |
 
 ### 也可以看看

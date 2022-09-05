@@ -1,14 +1,14 @@
 ---
 title: YahooValue
 second_title: Aspose.Email for .NET API 参考
-description: Yahoo 类别的字符串值
+description: 雅虎类别的字符串值
 type: docs
 weight: 300
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/yahoovalue/
 ---
 ## InstantMessengerCategory.YahooValue field
 
-'Yahoo' 类别的字符串值
+“雅虎”类别的字符串值
 
 ```csharp
 public const string YahooValue;

@@ -1,14 +1,14 @@
 ---
 title: CalendarIsOrganizer
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли участник организатором встречи или собрания. ОбластьОбщие Каноническое имяPidNameCalendarIsOrganizer Альтернативные именаurnschemascalendarisorganizer
+description: Указывает является ли участник организатором встречи или собрания. Область Common Каноническое имя PidNameCalendarIsOrganizer Альтернативные имена urnschemascalendarisorganizer
 type: docs
 weight: 2300
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarisorganizer/
 ---
 ## KnownPropertyList.CalendarIsOrganizer field
 
-Указывает, является ли участник организатором встречи или собрания. Область:Общие Каноническое имя:PidNameCalendarIsOrganizer Альтернативные имена:urn:schemas:calendar:isorganizer
+Указывает, является ли участник организатором встречи или собрания. Область: Common Каноническое имя: PidNameCalendarIsOrganizer Альтернативные имена: urn:schemas:calendar:isorganizer
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarIsOrganizer;

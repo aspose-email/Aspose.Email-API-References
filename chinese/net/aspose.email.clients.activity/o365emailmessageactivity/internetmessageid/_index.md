@@ -1,14 +1,14 @@
 ---
 title: InternetMessageId
 second_title: Aspose.Email for .NET API 参考
-description: Internet 消息 ID 强制是
+description: Internet 消息 ID. 强制是
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/internetmessageid/
 ---
 ## O365EmailMessageActivity.InternetMessageId property
 
-Internet 消息 ID。 强制:是
+Internet 消息 ID. 强制：是
 
 ```csharp
 public string InternetMessageId { get; set; }

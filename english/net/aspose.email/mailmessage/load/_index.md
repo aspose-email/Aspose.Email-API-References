@@ -1,12 +1,12 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load message from file
 type: docs
 weight: 20
 url: /net/aspose.email/mailmessage/load/
 ---
-## MailMessage.Load method (1 of 4)
+## Load(string) {#load_2}
 
 Load message from file
 
@@ -30,7 +30,7 @@ E-mail message
 
 ---
 
-## MailMessage.Load method (2 of 4)
+## Load(Stream) {#load}
 
 Load message from stream
 
@@ -54,7 +54,7 @@ E-mail message
 
 ---
 
-## MailMessage.Load method (3 of 4)
+## Load(string, LoadOptions) {#load_3}
 
 Load message from file with additional options.
 
@@ -86,7 +86,7 @@ Mail message[`MailMessage`](../../mailmessage).
 
 ---
 
-## MailMessage.Load method (4 of 4)
+## Load(Stream, LoadOptions) {#load_1}
 
 Load message from stream with additional options.
 

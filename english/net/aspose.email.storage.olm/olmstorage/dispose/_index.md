@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources.
 type: docs
 weight: 50
 url: /net/aspose.email.storage.olm/olmstorage/dispose/

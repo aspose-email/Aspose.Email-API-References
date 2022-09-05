@@ -1,14 +1,14 @@
 ---
 title: UsePipelining
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает объект указывающий включен ли режим конвейерной обработки.
+description: Получает или задает объект указывающий включен ли конвейерный режим.
 type: docs
 weight: 240
 url: /ru/net/aspose.email.clients/emailclient/usepipelining/
 ---
 ## EmailClient.UsePipelining property
 
-Получает или задает объект, указывающий, включен ли режим конвейерной обработки.
+Получает или задает объект, указывающий, включен ли конвейерный режим.
 
 ```csharp
 public virtual PipeliningStatus UsePipelining { get; set; }

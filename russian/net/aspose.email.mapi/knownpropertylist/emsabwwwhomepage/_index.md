@@ -1,14 +1,14 @@
 ---
 title: EmsAbWwwHomePage
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_WWW_HOME_PAGE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_WWW_HOME_PAGE
 type: docs
 weight: 9560
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabwwwhomepage/
 ---
 ## KnownPropertyList.EmsAbWwwHomePage field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_WWW_HOME_PAGE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_WWW_HOME_PAGE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbWwwHomePage;

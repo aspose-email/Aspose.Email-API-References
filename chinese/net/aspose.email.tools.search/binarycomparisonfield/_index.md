@@ -3,7 +3,7 @@ title: BinaryComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示二分查找字段
 type: docs
-weight: 20600
+weight: 20650
 url: /zh/net/aspose.email.tools.search/binarycomparisonfield/
 ---
 ## BinaryComparisonField class
@@ -20,8 +20,8 @@ public sealed class BinaryComparisonField : ComparisonField
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/binarycomparisonfield/equals#equals)(byte[]) | 表示该字段必须等于指定的值。 |
 | [Equals](../../aspose.email.tools.search/binarycomparisonfield/equals#equals_1)(string) | 表示该字段必须等于指定的值。 |
-| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals#notequals)(byte[]) | 表示该字段不能等于指定值。 |
-| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals#notequals_1)(string) | 表示该字段不能等于指定值。 |
+| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals#notequals)(byte[]) | 表示该字段不能等于指定的值。 |
+| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals#notequals_1)(string) | 表示该字段不能等于指定的值。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 
 ### 也可以看看

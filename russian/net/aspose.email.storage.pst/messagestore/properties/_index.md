@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает свойства MAPI объекта хранилища сообщений. Хранилище сообщений содержит параметры PST верхнего уровня и метаданные необходимые для доступа и управления содержимым PST.
+description: Получает свойства MAPI объекта хранилища сообщений. Хранилище сообщений содержит параметры PST верхнего уровня и метаданные  необходимые для доступа и управления содержимым PST.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.storage.pst/messagestore/properties/
 ---
 ## MessageStore.Properties property
 
-Получает свойства MAPI объекта хранилища сообщений. Хранилище сообщений содержит параметры PST верхнего уровня и метаданные, необходимые для доступа и управления содержимым PST.
+Получает свойства MAPI объекта хранилища сообщений. Хранилище сообщений содержит параметры PST верхнего уровня и метаданные , необходимые для доступа и управления содержимым PST.
 
 ```csharp
 public MapiPropertyCollection Properties { get; }
@@ -16,7 +16,7 @@ public MapiPropertyCollection Properties { get; }
 
 ### Стоимость имущества
 
-Коллекция[`MapiProperty`](../../../aspose.email.mapi/mapiproperty).
+[`MapiProperty`](../../../aspose.email.mapi/mapiproperty) коллекция.
 
 ### Смотрите также
 

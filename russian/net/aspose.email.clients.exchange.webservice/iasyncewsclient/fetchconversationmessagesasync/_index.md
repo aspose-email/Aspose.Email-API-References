@@ -1,14 +1,14 @@
 ---
 title: FetchConversationMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанные сообщения беседы
+description: Извлекает указанные сообщения беседы
 type: docs
 weight: 240
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchconversationmessagesasync/
 ---
 ## IAsyncEwsClient.FetchConversationMessagesAsync method
 
-Выбирает указанные сообщения беседы
+Извлекает указанные сообщения беседы
 
 ```csharp
 public Task<MailMessageCollection> FetchConversationMessagesAsync(string conversationId, 
@@ -17,14 +17,14 @@ public Task<MailMessageCollection> FetchConversationMessagesAsync(string convers
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор беседы |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| conversationId | String | Идентификатор разговора |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

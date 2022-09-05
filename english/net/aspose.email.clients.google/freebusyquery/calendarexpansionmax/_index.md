@@ -1,7 +1,7 @@
 ---
 title: CalendarExpansionMax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Maximal number of calendars for which FreeBusy information is to be provided. Optional.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/freebusyquery/calendarexpansionmax/

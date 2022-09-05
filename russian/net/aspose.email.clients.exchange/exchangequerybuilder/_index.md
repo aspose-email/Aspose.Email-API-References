@@ -18,17 +18,17 @@ public sealed class ExchangeQueryBuilder : MailQueryBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeQueryBuilder](exchangequerybuilder)() | Инициализирует новый экземпляр класса[`ExchangeQueryBuilder`](../exchangequerybuilder). |
+| [ExchangeQueryBuilder](exchangequerybuilder)() | Инициализирует новый экземпляр[`ExchangeQueryBuilder`](../exchangequerybuilder) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Appointment](../../aspose.email.clients.exchange/exchangequerybuilder/appointment) { get; } | Получает объект со свойствами встречи для создания запроса |
+| [Appointment](../../aspose.email.clients.exchange/exchangequerybuilder/appointment) { get; } | Получает объект со свойствами встречи для создания query |
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле BCC структуры конверта. |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в теле сообщения. |
 | [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле CC структуры конверта. |
-| [Contact](../../aspose.email.clients.exchange/exchangequerybuilder/contact) { get; } | Получает объект со свойствами контакта для создания запроса |
+| [Contact](../../aspose.email.clients.exchange/exchangequerybuilder/contact) { get; } | Получает объект со свойствами контакта для создания query |
 | [ContentClass](../../aspose.email.clients.exchange/exchangequerybuilder/contentclass) { get; } | Получает элементы с указанным классом содержимого. |
 | [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Получает кодировку (набор символов) по умолчанию для построителя запросов |
 | [ExtendedProperties](../../aspose.email.clients.exchange/exchangequerybuilder/extendedproperties) { get; } | Получает словарь с парами дескрипторов свойств и полем сравнения для поиска по расширенным свойствам. |
@@ -36,9 +36,9 @@ public sealed class ExchangeQueryBuilder : MailQueryBuilder
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Получает поле, позволяющее находить сообщения по внутренней дате. |
 | [ItemSize](../../aspose.email.clients.exchange/exchangequerybuilder/itemsize) { get; } | Получает поле, позволяющее найти элементы заданного размера. |
 | [MessageId](../../aspose.email.clients.exchange/exchangequerybuilder/messageid) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле MessageId структуры конверта. |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
-| [TaskStatus](../../aspose.email.clients.exchange/exchangequerybuilder/taskstatus) { get; } | Получает поле, позволяющее найти задачи, содержащие указанный статус. Совместимость с серверами:Exchange 2010 и выше |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [TaskStatus](../../aspose.email.clients.exchange/exchangequerybuilder/taskstatus) { get; } | Получает поле, позволяющее найти задачи, содержащие указанный статус. Совместимость с сервером: Exchange 2010 и выше |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
 

@@ -1,7 +1,7 @@
 ---
 title: EntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the entry ID.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/folderinfo/entryid/

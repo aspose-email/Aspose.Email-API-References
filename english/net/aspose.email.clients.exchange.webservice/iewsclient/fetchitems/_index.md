@@ -1,7 +1,7 @@
 ---
 title: FetchItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the items.
 type: docs
 weight: 760
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchitems/

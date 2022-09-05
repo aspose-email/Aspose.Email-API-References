@@ -1,14 +1,14 @@
 ---
 title: UpdateTaskAsync
 second_title: Aspose.Email for .NET API 参考
-description: 更新指定任务
+description: 更新指定的任务
 type: docs
 weight: 700
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/updatetaskasync/
 ---
 ## IAsyncEwsClient.UpdateTaskAsync method
 
-更新指定任务。
+更新指定的任务。
 
 ```csharp
 public Task UpdateTaskAsync(ExchangeTask task, CancellationToken cancellationToken = default)

@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The id within the item.Readonly.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/thumbnailset/id/

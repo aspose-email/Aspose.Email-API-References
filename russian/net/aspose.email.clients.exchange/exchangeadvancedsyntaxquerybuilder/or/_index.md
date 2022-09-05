@@ -21,13 +21,13 @@ public MailQuery Or(MailQuery query1, MailQuery query2)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | query1 или запрос2 |
+| ArgumentNullException | запрос1 или запрос2 |
 
 ### Смотрите также
 

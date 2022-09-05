@@ -1,7 +1,7 @@
 ---
 title: RemoteMessageTransferAgent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the RemoteMTA field for a delivery status notification as specified in RFC3464. Area Email Canonical name PidTagRemoteMessageTransferAgent Alternate names PR_DSN_REMOTE_MTA ptagDsnRemoteMta
 type: docs
 weight: 15780
 url: /net/aspose.email.mapi/knownpropertylist/remotemessagetransferagent/

@@ -1,14 +1,14 @@
 ---
 title: EmsAbSecurityPolicy
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SECURITY_POLICY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SECURITY_POLICY
 type: docs
 weight: 8700
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsecuritypolicy/
 ---
 ## KnownPropertyList.EmsAbSecurityPolicy field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SECURITY_POLICY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SECURITY_POLICY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSecurityPolicy;

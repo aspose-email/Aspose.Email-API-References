@@ -1,7 +1,7 @@
 ---
 title: SendSMSAlertToRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the mobile phone numbers to which a Short Message Service SMS alert is to be sent.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange/ruleactions/sendsmsalerttorecipients/

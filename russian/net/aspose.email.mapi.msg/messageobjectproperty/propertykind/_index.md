@@ -16,7 +16,7 @@ public NamedPropertyKind PropertyKind { get; set; }
 
 ### Стоимость имущества
 
-Тип свойства.
+Тип собственности.
 
 ### Смотрите также
 

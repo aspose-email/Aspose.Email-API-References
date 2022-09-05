@@ -26,11 +26,11 @@ public string AddMapiMessageItem(IMapiMessageItem item)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
-| ArgumentNullException | выбрасывает, если добавляемый элемент имеет значение null. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
-| NotSupportedException | Вызывается, когда MessageClass не принадлежит IPM.Note, IPM.StickyNote, МПС.Контакт, МПС.Деятельность, МПС.Назначение, МПС.Расписание.встречи, МПС.Задача. |
-| InvalidOperationException | Вызывается, когда MessageClass не соответствует ContainerClass папки. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
+| ArgumentNullException | бросает, если добавляемый элемент имеет значение null. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
+| NotSupportedException | Возникает, когда MessageClass не принадлежит IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. |
+| InvalidOperationException | Выдается, когда MessageClass не соответствует ContainerClass папки. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Webhook
 second_title: Справочник по Aspose.Email для .NET API
-description: Связанные вебхуки
+description: Связанные веб-перехватчики
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/subscription/webhook/
 ---
 ## Subscription.Webhook property
 
-Связанные вебхуки
+Связанные веб-перехватчики
 
 ```csharp
 public Webhook Webhook { get; set; }

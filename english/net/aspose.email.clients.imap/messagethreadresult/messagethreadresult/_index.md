@@ -1,7 +1,7 @@
 ---
 title: MessageThreadResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MessageThreadResultaspose.email.clients.imap/messagethreadresult class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/messagethreadresult/messagethreadresult/

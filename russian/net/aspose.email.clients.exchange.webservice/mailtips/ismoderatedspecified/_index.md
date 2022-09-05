@@ -1,14 +1,14 @@
 ---
 title: IsModeratedSpecified
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее указан лиIsModeratedaspose.email.clients.exchange.webservice/mailtips/ismoderated
+description: Получает значение указывающееIsModeratedaspose.email.clients.exchange.webservice/mailtips/ismoderated указан
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified/
 ---
 ## MailTips.IsModeratedSpecified property
 
-Получает значение, указывающее, указан ли[`IsModerated`](../ismoderated)
+Получает значение, указывающее,[`IsModerated`](../ismoderated) указан
 
 ```csharp
 public bool IsModeratedSpecified { get; }

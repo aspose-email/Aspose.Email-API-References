@@ -6,6 +6,52 @@ type: docs
 weight: 950
 url: /zh/net/aspose.email.clients.imap/imapclient/movemessages/
 ---
+## MoveMessages(IConnection, string, string, string) {#movemessages_8}
+
+移动消息
+
+```csharp
+public void MoveMessages(IConnection connection, string startUid, string endUid, string folderName)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
+| folderName | String | 要移动消息的文件夹名称 |
+
+### 也可以看看
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(string, string, string) {#movemessages_18}
+
+移动消息
+
+```csharp
+public void MoveMessages(string startUid, string endUid, string folderName)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
+| folderName | String | 要移动消息的文件夹名称 |
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## MoveMessages(IConnection, IEnumerable&lt;string&gt;, string, bool) {#movemessages_7}
 
 移动消息
@@ -43,7 +89,7 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName, bool com
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -109,7 +155,7 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
@@ -134,9 +180,9 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定 是否应该提交删除。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -159,7 +205,7 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -182,7 +228,7 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -209,7 +255,7 @@ public void MoveMessages(IConnection connection, int startSequence, int endSeque
 | startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -231,9 +277,9 @@ public void MoveMessages(int startSequence, int endSequence, string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
@@ -279,9 +325,9 @@ public void MoveMessages(int startSequence, int endSequence, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息的起始序列号list |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称将被移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
 
@@ -303,7 +349,7 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
@@ -328,7 +374,7 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应该删除坚定的。 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -349,7 +395,7 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -394,8 +440,8 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
@@ -420,54 +466,8 @@ public void MoveMessages(string startUid, string endUid, string folderName, bool
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
-| commitDeletions | Boolean | 指定是否应提交删除。 |
-
-### 也可以看看
-
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## MoveMessages(IConnection, string, string, string) {#movemessages_8}
-
-移动消息
-
-```csharp
-public void MoveMessages(IConnection connection, string startUid, string endUid, string folderName)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| connection | IConnection | 连接到服务器 |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
 | folderName | String | 要移动消息的文件夹名称 |
-
-### 也可以看看
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## MoveMessages(string, string, string) {#movemessages_18}
-
-移动消息
-
-```csharp
-public void MoveMessages(string startUid, string endUid, string folderName)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| startUid | String | 消息列表的起始 UID |
-| endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称被移动 |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 

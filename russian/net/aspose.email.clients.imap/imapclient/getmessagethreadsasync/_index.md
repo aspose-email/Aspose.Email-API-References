@@ -17,7 +17,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | conditions | BaseSearchConditions | Условия потока. |
 
 ### Возвращаемое значение
@@ -72,7 +72,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | conditions | BaseSearchConditions | Условия потока. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

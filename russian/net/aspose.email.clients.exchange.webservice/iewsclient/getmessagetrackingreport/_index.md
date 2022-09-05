@@ -20,13 +20,13 @@ public MessageTrackingReport GetMessageTrackingReport(GetMessageTrackingReportOp
 
 ### Возвращаемое значение
 
-Найдено[`MessageTrackingReport`](../../messagetrackingreport)или` null` , если отчет об отслеживании сообщений не найден
+А найдено[`MessageTrackingReport`](../../messagetrackingreport)или же`нулевой` если отчет об отслеживании сообщений не найден
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*options*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*options* является`нулевой` |
 
 ### Смотрите также
 

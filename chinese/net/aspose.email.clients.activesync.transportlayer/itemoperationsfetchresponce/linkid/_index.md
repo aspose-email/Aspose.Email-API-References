@@ -1,14 +1,14 @@
 ---
 title: LinkId
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器分配给某些资源如 Windows SharePoint Services 或 UNC 文档的统一资源标识符 URI Fetch 元素可以使用它来引用项目的位置
+description: 指定由服务器分配给某些资源例如 Windows SharePoint Services 或 UNC 文档的统一资源标识符 URI Fetch 元素可以使用它来引用项目的位置
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid/
 ---
 ## ItemOperationsFetchResponce.LinkId property
 
-指定服务器分配给某些资源（如 Windows SharePoint Services 或 UNC 文档）的统一资源标识符 (URI)。 Fetch 元素可以使用它来引用项目的位置。
+指定由服务器分配给某些资源（例如 Windows SharePoint Services 或 UNC 文档）的统一资源标识符 (URI)。 Fetch 元素可以使用它来引用项目的位置。
 
 ```csharp
 public string LinkId { get; set; }

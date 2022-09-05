@@ -1,14 +1,14 @@
 ---
 title: LogTypeDesc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит расширенное описание записываемой активности журнала. ОбластьЖурнал Каноническое имяPidLidLogTypeDesc Альтернативные именаdispidLogTypeDesc
+description: Содержит расширенное описание записываемой активности журнала. Область Journal Каноническое имя PidLidLogTypeDesc Альтернативные имена dispidLogTypeDesc
 type: docs
 weight: 12300
 url: /ru/net/aspose.email.mapi/knownpropertylist/logtypedesc/
 ---
 ## KnownPropertyList.LogTypeDesc field
 
-Содержит расширенное описание записываемой активности журнала. Область:Журнал Каноническое имя:PidLidLogTypeDesc Альтернативные имена:dispidLogTypeDesc
+Содержит расширенное описание записываемой активности журнала. Область: Journal Каноническое имя: PidLidLogTypeDesc Альтернативные имена: dispidLogTypeDesc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogTypeDesc;

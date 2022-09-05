@@ -1,7 +1,7 @@
 ---
 title: CallbackValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Callback category
 type: docs
 weight: 260
 url: /net/aspose.email.personalinfo/phonenumbercategory/callbackvalue/

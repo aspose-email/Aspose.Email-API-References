@@ -1,14 +1,14 @@
 ---
 title: Email2
 second_title: Aspose.Email for .NET API 参考
-description: Email2 标头
+description: Email2 标头.
 type: docs
 weight: 100
 url: /zh/net/aspose.email/mhttemplatename.contact/email2/
 ---
 ## MhtTemplateName.Contact.Email2 field
 
-Email2 标头。
+Email2 标头.
 
 ```csharp
 public const string Email2;

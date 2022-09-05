@@ -1,14 +1,14 @@
 ---
 title: ConversationProcessed
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает порядковый номер который будет использоваться при обработке действия диалога. ОбластьДействия диалога Каноническое имяPidLidConversationProcessed Альтернативные именаdispidConvExLegacyProcessedRand
+description: Указывает порядковый номер который будет использоваться при обработке действия диалога. Область Действия диалога Каноническое имя PidLidConversationProcessed Альтернативные имена dispidConvExLegacyProcessedRand
 type: docs
 weight: 3430
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationprocessed/
 ---
 ## KnownPropertyList.ConversationProcessed field
 
-Указывает порядковый номер, который будет использоваться при обработке действия диалога. Область:Действия диалога Каноническое имя:PidLidConversationProcessed Альтернативные имена:dispidConvExLegacyProcessedRand
+Указывает порядковый номер, который будет использоваться при обработке действия диалога. Область: Действия диалога Каноническое имя: PidLidConversationProcessed Альтернативные имена: dispidConvExLegacyProcessedRand
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationProcessed;

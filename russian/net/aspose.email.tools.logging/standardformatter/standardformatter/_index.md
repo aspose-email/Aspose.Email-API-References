@@ -1,14 +1,14 @@
 ---
 title: StandardFormatter
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаStandardFormatteraspose.email.tools.logging/standardformatter.
+description: Инициализирует новый экземплярStandardFormatteraspose.email.tools.logging/standardformatter класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.logging/standardformatter/standardformatter/
 ---
 ## StandardFormatter() {#constructor}
 
-Инициализирует новый экземпляр класса[`StandardFormatter`](../../standardformatter).
+Инициализирует новый экземпляр[`StandardFormatter`](../../standardformatter) класс.
 
 ```csharp
 public StandardFormatter()
@@ -24,7 +24,7 @@ public StandardFormatter()
 
 ## StandardFormatter(StringBuilder) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`StandardFormatter`](../../standardformatter).
+Инициализирует новый экземпляр[`StandardFormatter`](../../standardformatter) класс.
 
 ```csharp
 public StandardFormatter(StringBuilder headerText)
@@ -44,7 +44,7 @@ public StandardFormatter(StringBuilder headerText)
 
 ## StandardFormatter(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`StandardFormatter`](../../standardformatter).
+Инициализирует новый экземпляр[`StandardFormatter`](../../standardformatter) класс.
 
 ```csharp
 public StandardFormatter(string headerText)

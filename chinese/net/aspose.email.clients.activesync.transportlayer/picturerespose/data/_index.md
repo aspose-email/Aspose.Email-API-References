@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API 参考
-description: 包含联系人照片的二进制数据 协议版本为 12.1 或 14.0 时不支持数据
+description: 包含联系人照片的二进制数据 协议版本为12.1或14.0时不支持数据
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/picturerespose/data/
 ---
 ## PictureRespose.Data property
 
-包含联系人照片的二进制数据。 协议版本为 12.1 或 14.0 时不支持数据。
+包含联系人照片的二进制数据。 协议版本为12.1或14.0时不支持数据。
 
 ```csharp
 public byte[] Data { get; set; }

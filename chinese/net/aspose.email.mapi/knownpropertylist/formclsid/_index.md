@@ -1,14 +1,14 @@
 ---
 title: FormClsid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_FORM_CLSID
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_FORM_CLSID
 type: docs
 weight: 10520
 url: /zh/net/aspose.email.mapi/knownpropertylist/formclsid/
 ---
 ## KnownPropertyList.FormClsid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_FORM_CLSID
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_FORM_CLSID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormClsid;

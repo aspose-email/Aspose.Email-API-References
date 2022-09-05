@@ -1,14 +1,14 @@
 ---
 title: TaskOrdinal
 second_title: Справочник по Aspose.Email для .NET API
-description: Упрощает пользовательскую сортировку объектов Task. ОбластьЗадачи Каноническое имяPidLidTaskOrdinal Альтернативные именаdispidTaskOrdinal
+description: Предоставляет помощь в пользовательской сортировке объектов Task. Область Tasks Каноническое имя PidLidTaskOrdinal Альтернативные имена dispidTaskOrdinal
 type: docs
 weight: 18750
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskordinal/
 ---
 ## KnownPropertyList.TaskOrdinal field
 
-Упрощает пользовательскую сортировку объектов Task. Область:Задачи Каноническое имя:PidLidTaskOrdinal Альтернативные имена:dispidTaskOrdinal
+Предоставляет помощь в пользовательской сортировке объектов Task. Область: Tasks Каноническое имя: PidLidTaskOrdinal Альтернативные имена: dispidTaskOrdinal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskOrdinal;

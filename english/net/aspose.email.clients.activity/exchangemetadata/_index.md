@@ -1,7 +1,7 @@
 ---
 title: ExchangeMetadata
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exchange metadata in DLP events
 type: docs
 weight: 2540
 url: /net/aspose.email.clients.activity/exchangemetadata/

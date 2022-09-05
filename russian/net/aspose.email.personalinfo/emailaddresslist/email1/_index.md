@@ -1,14 +1,14 @@
 ---
 title: Email1
 second_title: Справочник по Aspose.Email для .NET API
-description: Адрес электронной почты по умолчанию.
+description: Адрес электронной почты1 по умолчанию.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/emailaddresslist/email1/
 ---
 ## EmailAddressList.Email1 property
 
-Адрес электронной почты по умолчанию.
+Адрес электронной почты1 по умолчанию.
 
 ```csharp
 public EmailAddress Email1 { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: NameInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The properties are used to specify the name of the person represented by the contact
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicontact/nameinfo/

@@ -1,12 +1,12 @@
 ---
 title: GetContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists contacts located in the specified folder on server
 type: docs
 weight: 910
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getcontacts/
 ---
-## IEWSClient.GetContacts method (1 of 2)
+## GetContacts(string) {#getcontacts}
 
 Lists contacts located in the specified folder on server
 
@@ -31,7 +31,7 @@ An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that re
 
 ---
 
-## IEWSClient.GetContacts method (2 of 2)
+## GetContacts(string, ExchangeListContactsOptions) {#getcontacts_1}
 
 Lists contacts located in the specified folder on server
 

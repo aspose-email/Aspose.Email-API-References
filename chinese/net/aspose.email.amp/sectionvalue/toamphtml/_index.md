@@ -1,14 +1,14 @@
 ---
 title: ToAmpHtml
 second_title: Aspose.Email for .NET API 参考
-description: AmpHtml 表示部分值
+description: 部分值的 AmpHtml 表示
 type: docs
 weight: 30
 url: /zh/net/aspose.email.amp/sectionvalue/toamphtml/
 ---
 ## SectionValue.ToAmpHtml method
 
-AmpHtml 表示部分值。
+部分值的 AmpHtml 表示。
 
 ```csharp
 public string ToAmpHtml()

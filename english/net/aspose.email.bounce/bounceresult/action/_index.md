@@ -1,7 +1,7 @@
 ---
 title: Action
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the action performed as a result of attempt to deliver the message.
 type: docs
 weight: 20
 url: /net/aspose.email.bounce/bounceresult/action/

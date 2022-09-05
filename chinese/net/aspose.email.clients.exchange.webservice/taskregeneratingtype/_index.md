@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingType
 second_title: Aspose.Email for .NET API 参考
-description: 枚举重新生成模式的类型
+description: 枚举再生模式的类型
 type: docs
 weight: 15530
 url: /zh/net/aspose.email.clients.exchange.webservice/taskregeneratingtype/
 ---
 ## TaskRegeneratingType enumeration
 
-枚举重新生成模式的类型。
+枚举再生模式的类型。
 
 ```csharp
 public enum TaskRegeneratingType
@@ -19,8 +19,8 @@ public enum TaskRegeneratingType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Daily | `0` | 表示每日再生模式。 |
-| Weekly | `1` | 表示每周重新生成模式。 |
-| Monthly | `2` | 表示每月重新生成模式。 |
+| Weekly | `1` | 表示每周再生模式。 |
+| Monthly | `2` | 表示每月再生模式。 |
 | Yearly | `3` | 表示每年的再生模式。 |
 
 ### 也可以看看

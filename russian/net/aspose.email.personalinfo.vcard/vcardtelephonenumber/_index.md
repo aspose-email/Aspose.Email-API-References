@@ -3,7 +3,7 @@ title: VCardTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет номер телефона vCard
 type: docs
-weight: 19720
+weight: 19770
 url: /ru/net/aspose.email.personalinfo.vcard/vcardtelephonenumber/
 ---
 ## VCardTelephoneNumber class
@@ -18,14 +18,14 @@ public sealed class VCardTelephoneNumber
 
 | Имя | Описание |
 | --- | --- |
-| [VCardTelephoneNumber](vcardtelephonenumber)() | Инициализирует новый экземпляр класса[`VCardTelephoneNumber`](../vcardtelephonenumber)class |
+| [VCardTelephoneNumber](vcardtelephonenumber)() | Инициализирует новый экземпляр[`VCardTelephoneNumber`](../vcardtelephonenumber) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [TelephoneNumber](../../aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonenumber) { get; set; } | Получает или устанавливает номер телефона |
-| [TelephoneType](../../aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonetype) { get; set; } | Получает или задает тип телефонного номера |
+| [TelephoneType](../../aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonetype) { get; set; } | Получает или задает номер телефона type |
 
 ### Смотрите также
 

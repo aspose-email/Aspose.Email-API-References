@@ -1,14 +1,14 @@
 ---
 title: EmsAbAliasedObjectName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ALIASED_OBJECT_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ALIASED_OBJECT_NAME
 type: docs
 weight: 4590
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabaliasedobjectname/
 ---
 ## KnownPropertyList.EmsAbAliasedObjectName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ALIASED_OBJECT_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ALIASED_OBJECT_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAliasedObjectName;

@@ -16,8 +16,8 @@ public Task<string> AppendMessageAsync(IConnection connection, MailMessage messa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Отправить сообщение быть загруженным |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
 
@@ -44,8 +44,8 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| folderName | String | Папка, которая будет получать почтовое сообщение |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
@@ -72,8 +72,8 @@ public Task<string> AppendMessageAsync(IConnection connection, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| fileName | String | Имя файла ( *.eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение
 
@@ -98,9 +98,9 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| имя_папки | String | Папка, которая будет получать почтовое сообщение |
-| fileName | String | Имя файла (*. eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение
 
@@ -129,7 +129,7 @@ public Task<string> AppendMessageAsync(MailMessage message)
 
 ### Возвращаемое значение
 
-Объект задачи, с делегат для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -150,12 +150,12 @@ public Task<string> AppendMessageAsync(string folderName, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для эта операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -200,7 +200,7 @@ public Task<string> AppendMessageAsync(string folderName, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение
@@ -226,8 +226,8 @@ public Task<string> AppendMessageAsync(IConnection connection, MailMessage messa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Отправить сообщение be upload |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Почтовое сообщение для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -255,8 +255,8 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| folderName | String | Папка, которая будет получать почтовое сообщение |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -285,8 +285,8 @@ public Task<string> AppendMessageAsync(IConnection connection, string fileName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| fileName | String | Имя файла ( *.eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -313,9 +313,9 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| имя_папки | String | Папка, которая будет получать почтовое сообщение |
-| fileName | String | Имя файла (*. eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -342,7 +342,7 @@ public Task<string> AppendMessageAsync(MailMessage message, CancellationToken to
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MailMessage | Почтовое сообщение для загрузки |
-| token | CancellationToken | Распространяет уведомление что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -368,9 +368,9 @@ public Task<string> AppendMessageAsync(string folderName, MailMessage message,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
-| token | CancellationToken | Распространяет уведомление о том, что операции следует отменить. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -420,7 +420,7 @@ public Task<string> AppendMessageAsync(string folderName, string fileName, Cance
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

@@ -28,7 +28,7 @@ public virtual void Save(Stream stream)
 
 ## Save(Stream, TaskSaveFormat) {#save_1}
 
-使用指定格式将当前对象保存到给定流。
+使用指定格式将当前对象保存到给定流中。
 
 ```csharp
 public virtual void Save(Stream stream, TaskSaveFormat saveFormat)
@@ -58,7 +58,7 @@ public virtual void Save(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件名。 |
+| filePath | String | 一个文件名。 |
 
 ### 也可以看看
 
@@ -78,7 +78,7 @@ public virtual void Save(string filePath, TaskSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件名。 |
+| filePath | String | 一个文件名。 |
 | saveFormat | TaskSaveFormat | 一种保存格式。 |
 
 ### 也可以看看

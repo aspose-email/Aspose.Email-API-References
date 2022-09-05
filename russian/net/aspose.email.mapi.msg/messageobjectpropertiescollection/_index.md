@@ -1,14 +1,14 @@
 ---
 title: MessageObjectPropertiesCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор ключей для объектовMessageObjectProperty./messageobjectproperty.
+description: Представляет набор ключей дляMessageObjectProperty./messageobjectproperty объекты.
 type: docs
-weight: 18830
+weight: 18860
 url: /ru/net/aspose.email.mapi.msg/messageobjectpropertiescollection/
 ---
 ## MessageObjectPropertiesCollection class
 
-Представляет набор ключей для объектов[`MessageObjectProperty`](../messageobjectproperty).
+Представляет набор ключей для[`MessageObjectProperty`](../messageobjectproperty) объекты.
 
 ```csharp
 public sealed class MessageObjectPropertiesCollection : KeyedCollection<long, MessageObjectProperty>

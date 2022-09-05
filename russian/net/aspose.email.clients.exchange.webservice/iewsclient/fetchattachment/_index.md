@@ -20,7 +20,7 @@ public Attachment FetchAttachment(string attachmentUri)
 
 ### Возвращаемое значение
 
-[`Attachment`](../../../aspose.email/attachment)который представляет загруженное вложение
+[`Attachment`](../../../aspose.email/attachment) который представляет полученное вложение
 
 ### Смотрите также
 

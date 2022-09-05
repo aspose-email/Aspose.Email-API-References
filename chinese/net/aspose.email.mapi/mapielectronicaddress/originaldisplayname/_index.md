@@ -1,14 +1,14 @@
 ---
 title: OriginalDisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置邮件地址 对应的 SMTP 邮件地址
+description: 获取或设置 与电子邮件地址 . 对应的 SMTP 电子邮件地址
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/mapielectronicaddress/originaldisplayname/
 ---
 ## MapiElectronicAddress.OriginalDisplayName property
 
-获取或设置邮件地址 对应的 SMTP 邮件地址。
+获取或设置 与电子邮件地址 . 对应的 SMTP 电子邮件地址
 
 ```csharp
 public string OriginalDisplayName { get; set; }

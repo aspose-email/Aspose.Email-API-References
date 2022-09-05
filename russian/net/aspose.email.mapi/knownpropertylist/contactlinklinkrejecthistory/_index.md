@@ -1,14 +1,14 @@
 ---
 title: ContactLinkLinkRejectHistory
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список контактов глобального списка адресов которые ранее были отклонены из-за связи с повторяющимся контактом. ОбластьСвойства контакта Каноническое имяPidLidContactLinkLinkRejectHistory Альтернативные именаdispidContactLinkLinkRejectHistory
+description: Содержит список контактов глобального списка адресов которые ранее были отклонены из-за связи с повторяющимся контактом. Область Свойства контакта Каноническое имя PidLidContactLinkLinkRejectHistory Альтернативные имена dispidContactLinkLinkRejectHistory
 type: docs
 weight: 3000
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinklinkrejecthistory/
 ---
 ## KnownPropertyList.ContactLinkLinkRejectHistory field
 
-Содержит список контактов глобального списка адресов, которые ранее были отклонены из-за связи с повторяющимся контактом. Область:Свойства контакта Каноническое имя:PidLidContactLinkLinkRejectHistory Альтернативные имена:dispidContactLinkLinkRejectHistory
+Содержит список контактов глобального списка адресов, которые ранее были отклонены из-за связи с повторяющимся контактом. Область: Свойства контакта Каноническое имя: PidLidContactLinkLinkRejectHistory Альтернативные имена: dispidContactLinkLinkRejectHistory
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkLinkRejectHistory;

@@ -1,7 +1,7 @@
 ---
 title: CommonEnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the end time for the Message object. Area General Message Properties Canonical name PidLidCommonEnd Alternate names dispidCommonEnd
 type: docs
 weight: 2780
 url: /net/aspose.email.mapi/knownpropertylist/commonend/

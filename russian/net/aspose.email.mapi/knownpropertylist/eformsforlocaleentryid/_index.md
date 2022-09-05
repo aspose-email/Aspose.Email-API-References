@@ -1,14 +1,14 @@
 ---
 title: EformsForLocaleEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EFORMS_FOR_LOCALE_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EFORMS_FOR_LOCALE_ENTRYID
 type: docs
 weight: 4290
 url: /ru/net/aspose.email.mapi/knownpropertylist/eformsforlocaleentryid/
 ---
 ## KnownPropertyList.EformsForLocaleEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EFORMS_FOR_LOCALE_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EFORMS_FOR_LOCALE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EformsForLocaleEntryid;

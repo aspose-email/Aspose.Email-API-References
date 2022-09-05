@@ -1,14 +1,14 @@
 ---
 title: UnifiedMessaging
 second_title: Aspose.Email for .NET API 参考
-description: 区域名称统一消息 属性集名称PSETID_UnifiedMessaging
+description: 区域名称统一消息传递 属性集名称PSETID_UnifiedMessaging
 type: docs
 weight: 180
 url: /zh/net/aspose.email.mapi/knownpropertysets/unifiedmessaging/
 ---
 ## KnownPropertySets.UnifiedMessaging field
 
-区域名称:统一消息 属性集名称:PSETID_UnifiedMessaging
+区域名称：统一消息传递 属性集名称：PSETID_UnifiedMessaging
 
 ```csharp
 public static readonly Guid UnifiedMessaging;

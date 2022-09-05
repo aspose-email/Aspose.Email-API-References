@@ -1,7 +1,7 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesappointment content class that defines properties for items that are appointments.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/appointment/

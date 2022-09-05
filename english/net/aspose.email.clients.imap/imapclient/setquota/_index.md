@@ -1,12 +1,12 @@
 ---
 title: SetQuota
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets quota information
 type: docs
 weight: 1130
 url: /net/aspose.email.clients.imap/imapclient/setquota/
 ---
-## ImapClient.SetQuota method (1 of 2)
+## SetQuota(IConnection, string, string, int) {#setquota}
 
 Sets quota information
 
@@ -36,7 +36,7 @@ Quota information
 
 ---
 
-## ImapClient.SetQuota method (2 of 2)
+## SetQuota(string, string, int) {#setquota_1}
 
 Sets quota information
 

@@ -1,7 +1,7 @@
 ---
 title: Flags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the flags set on a property.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi.msg/messageobjectproperty/flags/

@@ -1,14 +1,14 @@
 ---
 title: Cc
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Cc.
+description: Копия заголовка.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/mhttemplatename/cc/
 ---
 ## MhtTemplateName.Cc field
 
-Заголовок Cc.
+Копия заголовка.
 
 ```csharp
 public const string Cc;

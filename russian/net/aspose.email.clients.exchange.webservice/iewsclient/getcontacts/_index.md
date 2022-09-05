@@ -1,14 +1,14 @@
 ---
 title: GetContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Список контактов находящихся в указанной папке на сервере
+description: Список контактов расположенных в указанной папке на server
 type: docs
 weight: 910
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/getcontacts/
 ---
 ## GetContacts(string) {#getcontacts}
 
-Список контактов, находящихся в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public Contact[] GetContacts(string folder)
@@ -16,11 +16,11 @@ public Contact[] GetContacts(string folder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | A папка для поиска контактов в |
+| folder | String | Папка для поиска контактов |
 
 ### Возвращаемое значение
 
-Массив чтения[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив прочитанных[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public Contact[] GetContacts(string folder)
 
 ## GetContacts(string, ExchangeListContactsOptions) {#getcontacts_1}
 
-Список контактов, находящихся в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public Contact[] GetContacts(string folder, ExchangeListContactsOptions options)
@@ -41,12 +41,12 @@ public Contact[] GetContacts(string folder, ExchangeListContactsOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | A папка для поиска контактов в |
+| folder | String | Папка для поиска контактов |
 | options | ExchangeListContactsOptions | Перечисляет параметры списка контактов |
 
 ### Возвращаемое значение
 
-Массив read[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив прочитанных[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 

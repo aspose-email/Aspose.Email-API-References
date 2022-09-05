@@ -3,7 +3,7 @@ title: LastModifiedDate
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает дату и время последнего изменения данных календаря.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.email.calendar/appointment/lastmodifieddate/
 ---
 ## Appointment.LastModifiedDate property
@@ -16,7 +16,7 @@ public DateTime LastModifiedDate { get; set; }
 
 ### Стоимость имущества
 
-ОбъектDateTime, представляющий дату и время модификации .
+DateTime который представляет дату и время модификации.
 
 ### Смотрите также
 

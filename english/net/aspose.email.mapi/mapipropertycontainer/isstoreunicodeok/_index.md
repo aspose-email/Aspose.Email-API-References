@@ -1,7 +1,7 @@
 ---
 title: IsStoreUnicodeOk
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines if string properties are Unicode encoded or not.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/

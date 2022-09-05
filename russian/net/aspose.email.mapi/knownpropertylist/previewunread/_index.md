@@ -1,14 +1,14 @@
 ---
 title: PreviewUnread
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PREVIEW_UNREAD
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PREVIEW_UNREAD
 type: docs
 weight: 14560
 url: /ru/net/aspose.email.mapi/knownpropertylist/previewunread/
 ---
 ## KnownPropertyList.PreviewUnread field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PREVIEW_UNREAD
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PREVIEW_UNREAD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PreviewUnread;

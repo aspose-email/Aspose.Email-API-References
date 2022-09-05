@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the name of the pst file that represents the chunk.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/storageprocessedeventargs/filename/

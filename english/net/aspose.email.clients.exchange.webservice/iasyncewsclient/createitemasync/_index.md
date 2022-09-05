@@ -1,7 +1,7 @@
 ---
 title: CreateItemAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the given item in the specified folder.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createitemasync/

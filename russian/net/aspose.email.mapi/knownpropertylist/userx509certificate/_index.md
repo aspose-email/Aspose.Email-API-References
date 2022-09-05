@@ -1,14 +1,14 @@
 ---
 title: UserX509Certificate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список сертификатов для почтового пользователя. ОбластьMapiMailUser Каноническое имяPidTagUserX509Certificate Альтернативные именаPR_USER_X509_CERTIFICATE
+description: Содержит список сертификатов для почтового пользователя. Область MapiMailUser Каноническое имя PidTagUserX509Certificate Альтернативные имена PR_USER_X509_CERTIFICATE
 type: docs
 weight: 19190
 url: /ru/net/aspose.email.mapi/knownpropertylist/userx509certificate/
 ---
 ## KnownPropertyList.UserX509Certificate field
 
-Содержит список сертификатов для почтового пользователя. Область:MapiMailUser Каноническое имя:PidTagUserX509Certificate Альтернативные имена:PR_USER_X509_CERTIFICATE
+Содержит список сертификатов для почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagUserX509Certificate Альтернативные имена: PR_USER_X509_CERTIFICATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor UserX509Certificate;

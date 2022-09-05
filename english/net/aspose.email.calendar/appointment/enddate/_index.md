@@ -1,9 +1,9 @@
 ---
 title: EndDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the end date.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.calendar/appointment/enddate/
 ---
 ## Appointment.EndDate property

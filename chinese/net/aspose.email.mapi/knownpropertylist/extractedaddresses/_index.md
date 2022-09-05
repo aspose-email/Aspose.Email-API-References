@@ -1,14 +1,14 @@
 ---
 title: ExtractedAddresses
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 AddressSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedAddresses 备用名称dispidXmlExtractedAddresses
+description: 包含具有单个 AddressSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedAddresses 备用名称dispidXmlExtractedAddresses
 type: docs
 weight: 10040
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedaddresses/
 ---
 ## KnownPropertyList.ExtractedAddresses field
 
-包含一个带有单个 AddressSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedAddresses 备用名称:dispidXmlExtractedAddresses
+包含具有单个 AddressSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedAddresses 备用名称：dispidXmlExtractedAddresses
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedAddresses;

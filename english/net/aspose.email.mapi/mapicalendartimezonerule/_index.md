@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents time zone rule that indicate when to begin using the Standard/Daylight time.
 type: docs
-weight: 17960
+weight: 18170
 url: /net/aspose.email.mapi/mapicalendartimezonerule/
 ---
 ## MapiCalendarTimeZoneRule class

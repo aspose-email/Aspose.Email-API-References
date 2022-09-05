@@ -1,14 +1,14 @@
 ---
 title: CalendarReader
 second_title: Aspose.Email for .NET API 参考
-description: 使用源文件和默认约会加载选项初始化 CalendarReader 的新实例
+description: 使用源文件和默认约会 LoadOptions 初始化 CalendarReader 的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/calendarreader/calendarreader/
 ---
 ## CalendarReader(string) {#constructor_2}
 
-使用源文件和默认约会加载选项初始化 CalendarReader 的新实例。
+使用源文件和默认约会 LoadOptions 初始化 CalendarReader 的新实例。
 
 ```csharp
 public CalendarReader(string path)
@@ -28,7 +28,7 @@ public CalendarReader(string path)
 
 ## CalendarReader(string, AppointmentLoadOptions) {#constructor_3}
 
-使用源文件和 Appointment LoadOptions 初始化 CalendarReader 的新实例。
+使用源文件和约会 LoadOptions 初始化 CalendarReader 的新实例。
 
 ```csharp
 public CalendarReader(string path, AppointmentLoadOptions options)
@@ -50,7 +50,7 @@ public CalendarReader(string path, AppointmentLoadOptions options)
 
 ## CalendarReader(Stream) {#constructor}
 
-使用源流和默认约会加载选项初始化 CalendarReader 的新实例。
+使用源流和默认约会 LoadOptions 初始化 CalendarReader 的新实例。
 
 ```csharp
 public CalendarReader(Stream stream)
@@ -70,7 +70,7 @@ public CalendarReader(Stream stream)
 
 ## CalendarReader(Stream, AppointmentLoadOptions) {#constructor_1}
 
-使用源流和 Appointment LoadOptions 初始化 CalendarReader 的新实例。
+使用源流和约会 LoadOptions 初始化 CalendarReader 的新实例。
 
 ```csharp
 public CalendarReader(Stream stream, AppointmentLoadOptions options)

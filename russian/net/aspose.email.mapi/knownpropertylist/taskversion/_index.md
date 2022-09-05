@@ -1,14 +1,14 @@
 ---
 title: TaskVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какая копия является последним обновлением объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskVersion Альтернативные именаdispidTaskVersion
+description: Указывает какая копия является последним обновлением объекта Task. Область Tasks Каноническое имя PidLidTaskVersion Альтернативные имена dispidTaskVersion
 type: docs
 weight: 18860
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskversion/
 ---
 ## KnownPropertyList.TaskVersion field
 
-Указывает, какая копия является последним обновлением объекта Task. Область:Задачи Каноническое имя:PidLidTaskVersion Альтернативные имена:dispidTaskVersion
+Указывает, какая копия является последним обновлением объекта Task. Область: Tasks Каноническое имя: PidLidTaskVersion Альтернативные имена: dispidTaskVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskVersion;

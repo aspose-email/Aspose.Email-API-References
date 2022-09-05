@@ -1,14 +1,14 @@
 ---
 title: MailMessage
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailMessageaspose.email/mailmessage类的新实例
+description: 初始化MailMessageaspose.email/mailmessage class
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mailmessage/mailmessage/
 ---
 ## MailMessage(string, string) {#constructor_3}
 
-初始化[`MailMessage`](../../mailmessage)类的新实例
+初始化[`MailMessage`](../../mailmessage) class
 
 ```csharp
 public MailMessage(string from, string to)
@@ -29,7 +29,7 @@ public MailMessage(string from, string to)
 
 ## MailMessage() {#constructor}
 
-初始化[`MailMessage`](../../mailmessage)类的新实例
+初始化[`MailMessage`](../../mailmessage) class
 
 ```csharp
 public MailMessage()
@@ -45,7 +45,7 @@ public MailMessage()
 
 ## MailMessage(bool) {#constructor_2}
 
-初始化[`MailMessage`](../../mailmessage)类的新实例
+初始化[`MailMessage`](../../mailmessage) class
 
 ```csharp
 public MailMessage(bool increaseCredit)
@@ -61,7 +61,7 @@ public MailMessage(bool increaseCredit)
 
 ## MailMessage(string, string, string, string) {#constructor_4}
 
-初始化[`MailMessage`](../../mailmessage)类的新实例
+初始化[`MailMessage`](../../mailmessage) class
 
 ```csharp
 public MailMessage(string from, string to, string subject, string body)
@@ -71,8 +71,8 @@ public MailMessage(string from, string to, string subject, string body)
 | --- | --- | --- |
 | from | String | 发件人地址 |
 | to | String | 收件人地址 |
-| subject | String | 消息主题 |
-| body | String | 消息正文 |
+| subject | String | 信息主题 |
+| body | String | 邮件正文 |
 
 ### 也可以看看
 
@@ -84,7 +84,7 @@ public MailMessage(string from, string to, string subject, string body)
 
 ## MailMessage(MailAddress, MailAddress) {#constructor_1}
 
-初始化[`MailMessage`](../../mailmessage)类的新实例
+初始化[`MailMessage`](../../mailmessage) class
 
 ```csharp
 public MailMessage(MailAddress from, MailAddress to)

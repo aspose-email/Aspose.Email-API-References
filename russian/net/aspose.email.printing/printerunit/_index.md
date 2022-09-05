@@ -1,14 +1,14 @@
 ---
 title: PrinterUnit
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет поддерживаемые единицы дляPageUnit./mailprinter/pageunit.
+description: Представляет поддерживаемые единицы дляPageUnit./mailprinter/pageunit .
 type: docs
-weight: 19850
+weight: 19900
 url: /ru/net/aspose.email.printing/printerunit/
 ---
 ## PrinterUnit enumeration
 
-Представляет поддерживаемые единицы для[`PageUnit`](../mailprinter/pageunit).
+Представляет поддерживаемые единицы для[`PageUnit`](../mailprinter/pageunit) .
 
 ```csharp
 public enum PrinterUnit
@@ -18,11 +18,11 @@ public enum PrinterUnit
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Inch | `0` | Определяет дюйм как единицу измерения. |
-| Pixel | `1` | Задает пиксель устройства в качестве единицы измерения. |
-| Point | `2` | Указывает точку принтера в качестве единицы измерения. |
+| Inch | `0` | Указывает дюйм в качестве единицы измерения. |
+| Pixel | `1` | Указывает пиксель устройства в качестве единицы измерения. |
+| Point | `2` | Определяет точку принтера в качестве единицы измерения. |
 | Cm | `3` | Указывает см в качестве единицы измерения. |
-| Millimeter | `4` | Определяет миллиметр как единицу измерения. |
+| Millimeter | `4` | Определяет миллиметр в качестве единицы измерения. |
 
 ### Смотрите также
 

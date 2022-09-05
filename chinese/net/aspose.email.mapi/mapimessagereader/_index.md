@@ -1,14 +1,14 @@
 ---
 title: MapiMessageReader
 second_title: Aspose.Email for .NET API 参考
-description: 表示可以阅读 Microsoft Outlook Message 格式文档的阅读器
+description: 表示可以阅读 Microsoft Outlook 邮件格式文档的阅读器
 type: docs
-weight: 18470
+weight: 18500
 url: /zh/net/aspose.email.mapi/mapimessagereader/
 ---
 ## MapiMessageReader class
 
-表示可以阅读 Microsoft Outlook Message 格式文档的阅读器。
+表示可以阅读 Microsoft Outlook 邮件格式文档的阅读器。
 
 ```csharp
 public sealed class MapiMessageReader : IDisposable
@@ -19,7 +19,7 @@ public sealed class MapiMessageReader : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [MapiMessageReader](mapimessagereader#constructor)(Stream) | 为指定的流初始化 MapiMessageReader 类的新实例。 |
-| [MapiMessageReader](mapimessagereader#constructor_1)(string) | 为指定文件名初始化 MapiMessageReader 类的新实例。 |
+| [MapiMessageReader](mapimessagereader#constructor_1)(string) | 为指定的文件名初始化 MapiMessageReader 类的新实例。 |
 
 ## 方法
 

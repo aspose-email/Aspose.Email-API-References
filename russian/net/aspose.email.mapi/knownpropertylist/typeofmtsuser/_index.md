@@ -1,14 +1,14 @@
 ---
 title: TypeOfMtsUser
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_TYPE_OF_MTS_USER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_TYPE_OF_MTS_USER
 type: docs
 weight: 19150
 url: /ru/net/aspose.email.mapi/knownpropertylist/typeofmtsuser/
 ---
 ## KnownPropertyList.TypeOfMtsUser field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_TYPE_OF_MTS_USER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_TYPE_OF_MTS_USER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TypeOfMtsUser;

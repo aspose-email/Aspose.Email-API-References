@@ -1,14 +1,14 @@
 ---
 title: Template
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的模板 区域普通 规范名称PidNameTemplate 备用名称urnschemas-microsoft-comofficeofficeTemplate
+description: 指定附加到文档对象的文件模板 区域Common 规范名称PidNameTemplate 替代名称urnschemas-microsoft-comofficeofficeTemplate
 type: docs
 weight: 18900
 url: /zh/net/aspose.email.mapi/knownpropertylist/template/
 ---
 ## KnownPropertyList.Template field
 
-指定附加到 Document 对象的文件的模板。 区域：普通 规范名称：PidNameTemplate 备用名称：urn:schemas-microsoft-com:office:office#Template
+指定附加到文档对象的文件模板。 区域：Common 规范名称：PidNameTemplate 替代名称：urn:schemas-microsoft-com:office:office#Template
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Template;

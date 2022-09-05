@@ -1,7 +1,7 @@
 ---
 title: ClientMachineName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The machine name that hosts the Outlook client.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/clientmachinename/

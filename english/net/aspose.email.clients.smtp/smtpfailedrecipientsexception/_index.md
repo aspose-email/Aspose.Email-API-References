@@ -1,9 +1,9 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Summary description for SmtpFailedRecipientsException.
 type: docs
-weight: 16890
+weight: 17060
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientsexception/
 ---
 ## SmtpFailedRecipientsException class
@@ -18,10 +18,10 @@ public class SmtpFailedRecipientsException : SmtpFailedRecipientException
 
 | Name | Description |
 | --- | --- |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception)() | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception)(string) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception)(string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception)(string, SmtpFailedRecipientException[]) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor)() | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_1)(string) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_3)(string, Exception) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_2)(string, SmtpFailedRecipientException[]) | Initializes a new instance of the [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
 
 ## Properties
 

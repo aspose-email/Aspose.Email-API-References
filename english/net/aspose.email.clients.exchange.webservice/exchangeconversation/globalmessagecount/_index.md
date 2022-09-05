@@ -1,7 +1,7 @@
 ---
 title: GlobalMessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the total number of conversation items in the mailbox.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalmessagecount/

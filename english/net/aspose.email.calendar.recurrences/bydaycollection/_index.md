@@ -1,7 +1,7 @@
 ---
 title: ByDayCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of ByDay./byday objects.
 type: docs
 weight: 650
 url: /net/aspose.email.calendar.recurrences/bydaycollection/
@@ -18,10 +18,10 @@ public class ByDayCollection : Collection<ByDay>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(ByDay) | Adds a [`ByDay`](../byday) to the collection. |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(DayOfWeek) | Creates and adds a [`ByDay`](../byday) that represents all occurrences of the day of the week to the collection. |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(int, DayOfWeek) | Creates and adds a [`ByDay`](../byday) to the collection. |
-| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains)(DayOfWeek) | Returns a value indicating whether a specified day of week is present in the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add)(ByDay) | Adds a [`ByDay`](../byday) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_2)(DayOfWeek) | Creates and adds a [`ByDay`](../byday) that represents all occurrences of the day of the week to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_1)(int, DayOfWeek) | Creates and adds a [`ByDay`](../byday) to the collection. |
+| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains#contains_1)(DayOfWeek) | Returns a value indicating whether a specified day of week is present in the collection. |
 
 ### Remarks
 

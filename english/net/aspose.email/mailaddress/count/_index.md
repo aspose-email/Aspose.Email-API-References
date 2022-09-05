@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains count of mail addresses.
 type: docs
 weight: 30
 url: /net/aspose.email/mailaddress/count/

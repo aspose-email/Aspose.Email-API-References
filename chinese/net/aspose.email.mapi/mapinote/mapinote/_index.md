@@ -1,14 +1,14 @@
 ---
 title: MapiNote
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiNoteaspose.email.mapi/mapinote类的新实例
+description: 初始化MapiNoteaspose.email.mapi/mapinote类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapinote/mapinote/
 ---
 ## MapiNote() {#constructor}
 
-初始化[`MapiNote`](../../mapinote)类的新实例。
+初始化[`MapiNote`](../../mapinote)类.
 
 ```csharp
 public MapiNote()
@@ -24,7 +24,7 @@ public MapiNote()
 
 ## MapiNote(string, string) {#constructor_1}
 
-初始化[`MapiNote`](../../mapinote)类的新实例。
+初始化[`MapiNote`](../../mapinote)类.
 
 ```csharp
 public MapiNote(string subject, string body)
@@ -33,7 +33,7 @@ public MapiNote(string subject, string body)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subject | String | 邮件主题。 |
-| body | String | 消息体。 |
+| body | String | 消息正文。 |
 
 ### 也可以看看
 

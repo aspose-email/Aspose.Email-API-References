@@ -1,7 +1,7 @@
 ---
 title: FileType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The file type of the attachment. Mandatory Yes
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/attachmentdata/filetype/

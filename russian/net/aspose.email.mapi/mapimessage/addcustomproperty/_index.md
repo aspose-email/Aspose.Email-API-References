@@ -16,14 +16,14 @@ public void AddCustomProperty(MapiProperty property, string stringNameId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | MapiProperty | Свойство[`MapiProperty`](../../mapiproperty). |
-| stringNameId | String | Имя свойстваString. |
+| property | MapiProperty | Недвижимость[`MapiProperty`](../../mapiproperty). |
+| stringNameId | String | Название собственностиString. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*property*равно null. |
+| ArgumentNullException | Если*property* нулевой. |
 | ArgumentException | Если данные свойства пусты. |
 | NotSupportedException | Если тип данных еще не поддерживается. |
 
@@ -48,7 +48,7 @@ public void AddCustomProperty(MapiPropertyType type, byte[] data, string stringN
 | --- | --- | --- |
 | type | MapiPropertyType | Тип MapiProperty[`MapiPropertyType`](../../mapipropertytype) |
 | data | Byte[] | Данные MapiProperty.Byte |
-| stringNameId | String | Имя свойстваString. |
+| stringNameId | String | Название собственностиString. |
 
 ### Исключения
 

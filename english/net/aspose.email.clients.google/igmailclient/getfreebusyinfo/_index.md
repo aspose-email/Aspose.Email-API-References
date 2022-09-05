@@ -1,7 +1,7 @@
 ---
 title: GetFreebusyInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets free/busy information
 type: docs
 weight: 200
 url: /net/aspose.email.clients.google/igmailclient/getfreebusyinfo/

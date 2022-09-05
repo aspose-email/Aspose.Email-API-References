@@ -1,14 +1,14 @@
 ---
 title: O365URLTimeOfClickActivity
 second_title: Aspose.Email for .NET API 参考
-description: 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构 Office 365 高级威胁防护 ATP 和威胁情报事件适用于拥有 ATP威胁情报或 E5 订阅的 Office 365 客户 ATP 和威胁情报源中的每个事件对应于组织中的用户单击的 URL这些 URL 在基于 Office 365 ATP 的单击时被检测为恶意安全链接保护
+description: 使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构 Office 365 高级威胁防护 ATP 和威胁情报事件适用于拥有 ATP威胁情报或 E5 订阅的 Office 365 客户. ATP 和威胁情报源中的每个事件对应于组织中用户单击的 URL这些 URL 在单击时根据 Office 365 ATP 安全链接保护被检测为恶意
 type: docs
 weight: 2670
 url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/
 ---
 ## O365URLTimeOfClickActivity class
 
-使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户。 ATP 和威胁情报源中的每个事件对应于组织中的用户单击的 URL，这些 URL 在基于 Office 365 ATP 的单击时被检测为恶意安全链接保护。
+使用特定于 Office 365 高级威胁防护和威胁情报数据的属性扩展通用架构。 Office 365 高级威胁防护 (ATP) 和威胁情报事件适用于拥有 ATP、威胁情报或 E5 订阅的 Office 365 客户. ATP 和威胁情报源中的每个事件对应于组织中用户单击的 URL，这些 URL 在单击时根据 Office 365 ATP 安全链接保护被检测为恶意。
 
 ```csharp
 public class O365URLTimeOfClickActivity : Content
@@ -24,26 +24,26 @@ public class O365URLTimeOfClickActivity : Content
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppName](../../aspose.email.clients.activity/o365urltimeofclickactivity/appname) { get; set; } | 单击 URL 的 Office 365 服务（例如邮件）。 强制:是 |
-| [Blocked](../../aspose.email.clients.activity/o365urltimeofclickactivity/blocked) { get; set; } | 如果 URL 单击被 Office 365 ATP 安全链接保护阻止，则为 true。 强制:是 |
-| [ClickedThrough](../../aspose.email.clients.activity/o365urltimeofclickactivity/clickedthrough) { get; set; } | 如果用户根据组织的策略单击（覆盖） URL 块，则为 true 用于 Office 365 ATP 安全链接保护. 强制:是 |
-| [ClientIP](../../aspose.email.clients.activity/content/clientip) { get; set; } | 记录活动时使用的设备的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制:是 |
-| [CreationTime](../../aspose.email.clients.activity/content/creationtime) { get; set; } | 用户执行活动时的协调世界时 (UTC) 日期和时间。 强制:是 |
-| [Id](../../aspose.email.clients.activity/content/id) { get; set; } | 审计记录的唯一标识符。 强制:是 |
-| [ObjectId](../../aspose.email.clients.activity/content/objectid) { get; set; } | 对于 SharePoint 和 OneDrive for Business 活动，用户访问的文件或文件夹的完整路径名。 对于 Exchange 管理员审核日志记录，由 cmdlet 修改的对象的名称。 强制:否 |
-| [Operation](../../aspose.email.clients.activity/content/operation) { get; set; } | 用户或管理员活动的名称。 有关最常见操作/活动的描述，请参阅在 Office 365 保护中心搜索审核日志。 对于 Exchange 管理员活动，此属性标识已运行的 cmdlet 的名称。 对于 Dlp 事件，这可以是“DlpRuleMatch”、“DlpRuleUndo”或“DlpInfo”，它们在下面的“DLP 架构”下进行了描述。 强制:是 |
-| [OrganizationId](../../aspose.email.clients.activity/content/organizationid) { get; set; } | 组织的 Office 365 租户的 GUID。 对于您的组织，此值将始终相同，无论它发生在哪个 Office 365 服务中。 强制:是 |
-| [RecordType](../../aspose.email.clients.activity/content/recordtype) { get; set; } | 记录指示的操作类型。 强制:是 |
-| [ResultStatus](../../aspose.email.clients.activity/content/resultstatus) { get; set; } | 指示操作（在 Operation 属性中指定）是否成功。 可能的值为 Succeeded、PartiallySucceded 或 Failed。 对于 Exchange 管理员活动，该值为 True 或 False。 强制:否 |
-| [Scope](../../aspose.email.clients.activity/content/scope) { get; set; } | 此事件是由托管的 O365 服务还是本地服务器创建的？ 可能的值是 online 和 onprem。请注意，SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载。 强制:否 |
-| [SourceId](../../aspose.email.clients.activity/o365urltimeofclickactivity/sourceid) { get; set; } | 从其单击 URL 的 Office 365 服务的标识符（例如，对于邮件，这是 Exchange Online 网络消息 ID）。 强制:是 |
-| [TimeOfClick](../../aspose.email.clients.activity/o365urltimeofclickactivity/timeofclick) { get; set; } | 用户单击 URL 时采用协调世界时 (UTC) 的日期和时间。 强制:是 |
-| [URL](../../aspose.email.clients.activity/o365urltimeofclickactivity/url) { get; set; } | 用户点击的 URL。 强制:是 |
-| [UserId](../../aspose.email.clients.activity/content/userid) { get; set; } | 执行导致记录被记录的操作（在 Operation 属性中指定）的用户的 UPN（用户主体名称）； 例如，my_name@my_domain_name。 请注意，系统帐户（例如 SHAREPOINT\system 或 NT AUTHORITY\SYSTEM）执行的活动记录也包括在内。 强制:是 |
-| [UserIp](../../aspose.email.clients.activity/o365urltimeofclickactivity/userip) { get; set; } | 单击 URL 的用户的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制:是 |
-| [UserKey](../../aspose.email.clients.activity/content/userkey) { get; set; } | UserId 属性中标识的用户的替代 ID。 例如，此属性填充了用户在 SharePoint、OneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID (PUID)。 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值。 强制:是 |
-| [UserType](../../aspose.email.clients.activity/content/usertype) { get; set; } | 执行操作的用户类型。 强制:是 |
-| [Workload](../../aspose.email.clients.activity/content/workload) { get; set; } | 工作负载字符串中发生活动的 Office 365 服务。此属性的可能值为: Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence 强制:否 |
+| [AppName](../../aspose.email.clients.activity/o365urltimeofclickactivity/appname) { get; set; } | 单击 URL 的 Office 365 服务（例如邮件）。 强制：是 |
+| [Blocked](../../aspose.email.clients.activity/o365urltimeofclickactivity/blocked) { get; set; } | 如果 URL 单击被 Office 365 ATP 安全链接保护阻止，则为 true。 强制：是 |
+| [ClickedThrough](../../aspose.email.clients.activity/o365urltimeofclickactivity/clickedthrough) { get; set; } | 如果用户根据组织的策略单击（覆盖） URL 块，则为 true 用于 Office 365 ATP 安全链接保护。 强制：是 |
+| [ClientIP](../../aspose.email.clients.activity/content/clientip) { get; set; } | 记录活动时使用的设备的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制：是 |
+| [CreationTime](../../aspose.email.clients.activity/content/creationtime) { get; set; } | 用户执行活动时的协调世界时 (UTC) 日期和时间。 必填：是 |
+| [Id](../../aspose.email.clients.activity/content/id) { get; set; } | 审计记录的唯一标识符。 强制：是 |
+| [ObjectId](../../aspose.email.clients.activity/content/objectid) { get; set; } | 对于 SharePoint 和 OneDrive for Business 活动，用户访问的文件或文件夹的完整路径名。 对于 Exchange 管理员审核日志记录，由 cmdlet 修改的对象的名称。 强制：否 |
+| [Operation](../../aspose.email.clients.activity/content/operation) { get; set; } | 用户或管理员活动的名称。 有关最常见操作/活动的描述，请参阅在 Office 365 保护中心搜索审核日志。 对于 Exchange 管理员活动，此属性标识已运行的 cmdlet 的名称。 对于 Dlp 事件，这可以是“DlpRuleMatch”、“DlpRuleUndo”或“DlpInfo”，在下面的“DLP 架构”下进行了描述。 强制：是 |
+| [OrganizationId](../../aspose.email.clients.activity/content/organizationid) { get; set; } | 组织的 Office 365 租户的 GUID。 无论在哪个 Office 365 服务中出现，此值对于您的组织始终是相同的。 强制：是 |
+| [RecordType](../../aspose.email.clients.activity/content/recordtype) { get; set; } | 记录指示的操作类型。 强制：是 |
+| [ResultStatus](../../aspose.email.clients.activity/content/resultstatus) { get; set; } | 指示操作（在操作属性中指定）是否成功。 可能的值为 Succeeded、PartiallySucceded 或 Failed。 对于 Exchange 管理员活动，该值为 True 或 False。 强制：No |
+| [Scope](../../aspose.email.clients.activity/content/scope) { get; set; } | 此事件是由托管的 O365 服务还是本地服务器创建的？ 可能的值是 online 和 onprem。请注意，SharePoint 是当前将事件从本地发送到 O365 的唯一工作负载。 强制：No |
+| [SourceId](../../aspose.email.clients.activity/o365urltimeofclickactivity/sourceid) { get; set; } | 从中单击 URL 的 Office 365 服务的标识符（例如，对于邮件，这是 Exchange Online 网络消息 ID）。 强制：是 |
+| [TimeOfClick](../../aspose.email.clients.activity/o365urltimeofclickactivity/timeofclick) { get; set; } | 用户单击 URL 时采用协调世界时 (UTC) 的日期和时间。 必填：是 |
+| [URL](../../aspose.email.clients.activity/o365urltimeofclickactivity/url) { get; set; } | 用户点击的 URL。 必填：是 |
+| [UserId](../../aspose.email.clients.activity/content/userid) { get; set; } | 执行导致记录被记录的操作（在操作属性中指定）的用户的 UPN（用户主体名称）； 例如，my_name@my_domain_name。 请注意，系统帐户（例如 SHAREPOINT\system 或 NT AUTHORITY\SYSTEM）执行的活动记录也包括在内。 强制：是 |
+| [UserIp](../../aspose.email.clients.activity/o365urltimeofclickactivity/userip) { get; set; } | 单击 URL 的用户的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制：是 |
+| [UserKey](../../aspose.email.clients.activity/content/userkey) { get; set; } | UserId 属性中标识的用户的备用 ID。 例如，此属性由用户在 SharePoint、OneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID (PUID) 填充。 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值。 强制：是 |
+| [UserType](../../aspose.email.clients.activity/content/usertype) { get; set; } | 执行操作的用户类型。 强制：是 |
+| [Workload](../../aspose.email.clients.activity/content/workload) { get; set; } | 工作负载字符串中发生活动的 Office 365 服务。此属性的可能值为： Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence 强制：No |
 
 ### 也可以看看
 

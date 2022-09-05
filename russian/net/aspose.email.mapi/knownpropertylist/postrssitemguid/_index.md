@@ -1,14 +1,14 @@
 ---
 title: PostRssItemGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор объекта RSS. ОбластьRSS Каноническое имяPidLidPostRssItemGuid Альтернативные именаdispidPostRssItemGuid
+description: Содержит уникальный идентификатор объекта RSS. Область RSS Каноническое имя PidLidPostRssItemGuid Альтернативные имена dispidPostRssItemGuid
 type: docs
 weight: 14460
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrssitemguid/
 ---
 ## KnownPropertyList.PostRssItemGuid field
 
-Содержит уникальный идентификатор объекта RSS. Область:RSS Каноническое имя:PidLidPostRssItemGuid Альтернативные имена:dispidPostRssItemGuid
+Содержит уникальный идентификатор объекта RSS. Область: RSS Каноническое имя: PidLidPostRssItemGuid Альтернативные имена: dispidPostRssItemGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemGuid;

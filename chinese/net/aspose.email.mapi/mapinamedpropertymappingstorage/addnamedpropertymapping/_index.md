@@ -17,12 +17,12 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | property | MapiProperty | 要为其添加映射的属性。 |
-| nameId | Int64 | 名称 ID。 |
-| guid | Guid | GUID 标识属性集。 |
+| nameId | Int64 | 名字id. |
+| guid | Guid | 标识属性集的 GUID。 |
 
 ### 评论
 
-*property*应该有一个有效的命名属性 ID，MapiPropertyType)可以用来生成一个。 否则会抛出异常。
+*property*命名属性应该有一个有效的ID，[`GetNextAvailablePropertyId`](../getnextavailablepropertyid)可以用来生成一个。 否则会抛出异常。
 
 ### 也可以看看
 
@@ -44,12 +44,12 @@ public void AddNamedPropertyMapping(MapiProperty property, string nameId, Guid g
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | property | MapiProperty | 要为其添加映射的属性。 |
-| nameId | String | 名称 ID。 |
-| guid | Guid | GUID 标识属性集。 |
+| nameId | String | 名字id. |
+| guid | Guid | 标识属性集的 GUID。 |
 
 ### 评论
 
-*property*应该有一个有效的命名属性 ID，MapiPropertyType)可以用来生成一个。 否则会抛出异常。
+*property*命名属性应该有一个有效的ID，[`GetNextAvailablePropertyId`](../getnextavailablepropertyid)可以用来生成一个。 否则会抛出异常。
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Importance.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/messageinfo/importance/

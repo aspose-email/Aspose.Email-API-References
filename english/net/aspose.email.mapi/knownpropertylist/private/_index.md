@@ -1,7 +1,7 @@
 ---
 title: Private
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the end user wishes for this Message object to be hidden from other users who have access to the Message object. Area General Message Properties Canonical name PidLidPrivate Alternate names dispidPrivate
 type: docs
 weight: 14620
 url: /net/aspose.email.mapi/knownpropertylist/private/

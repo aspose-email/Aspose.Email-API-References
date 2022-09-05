@@ -1,14 +1,14 @@
 ---
 title: DocumentParts
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает название каждой части документа. ОбластьОбщие Каноническое имяPidNameDocumentParts Альтернативные именаurnschemas-microsoft-comofficeofficePartTitles
+description: Определяет заголовок каждой части документа. Область Common Каноническое имя PidNameDocumentParts Альтернативные имена urnschemas-microsoft-comofficeofficePartTitles
 type: docs
 weight: 4270
 url: /ru/net/aspose.email.mapi/knownpropertylist/documentparts/
 ---
 ## KnownPropertyList.DocumentParts field
 
-Указывает название каждой части документа. Область:Общие Каноническое имя:PidNameDocumentParts Альтернативные имена:urn:schemas-microsoft-com:office:office#PartTitles
+Определяет заголовок каждой части документа. Область: Common Каноническое имя: PidNameDocumentParts Альтернативные имена: urn:schemas-microsoft-com:office:office#PartTitles
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DocumentParts;

@@ -16,7 +16,7 @@ public MailMessage CurrentMessage { get; }
 
 ### 适当的价值
 
-[`MailMessage`](../../../aspose.email/mailmessage)。
+的[`MailMessage`](../../../aspose.email/mailmessage).
 
 ### 也可以看看
 

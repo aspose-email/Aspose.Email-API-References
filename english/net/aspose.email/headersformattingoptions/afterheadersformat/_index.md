@@ -1,7 +1,7 @@
 ---
 title: AfterHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: After headers format.
 type: docs
 weight: 20
 url: /net/aspose.email/headersformattingoptions/afterheadersformat/

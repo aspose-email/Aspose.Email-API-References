@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает фильтр темы для поиска.
+description: Получает или задает тематический фильтр для поиска.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject/
 ---
 ## FindMessageTrackingReportOptions.Subject property
 
-Получает или задает фильтр темы для поиска.
+Получает или задает тематический фильтр для поиска.
 
 ```csharp
 public string Subject { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: MessageObjectProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a property on a MessageObject./messageobject.
 type: docs
-weight: 18670
+weight: 18880
 url: /net/aspose.email.mapi.msg/messageobjectproperty/
 ---
 ## MessageObjectProperty class
@@ -18,8 +18,8 @@ public sealed class MessageObjectProperty
 
 | Name | Description |
 | --- | --- |
-| [MessageObjectProperty](messageobjectproperty)(long, MapiPropertyFlags, object) | Initializes a new instance of the [`MessageObjectProperty`](../messageobjectproperty) class. |
-| [MessageObjectProperty](messageobjectproperty)(int, MapiType, MapiPropertyFlags, object) | Initializes a new instance of the [`MessageObjectProperty`](../messageobjectproperty) class. |
+| [MessageObjectProperty](messageobjectproperty#constructor_1)(long, MapiPropertyFlags, object) | Initializes a new instance of the [`MessageObjectProperty`](../messageobjectproperty) class. |
+| [MessageObjectProperty](messageobjectproperty#constructor)(int, MapiType, MapiPropertyFlags, object) | Initializes a new instance of the [`MessageObjectProperty`](../messageobjectproperty) class. |
 
 ## Properties
 

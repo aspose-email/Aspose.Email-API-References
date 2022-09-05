@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoAutoAcceptAppointments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a client or server is to automatically respond to all meeting requests for the attendee or resource. Area Free/Busy Properties Canonical name PidTagScheduleInfoAutoAcceptAppointments Alternate names PR_SCHDINFO_AUTO_ACCEPT_APPTS
 type: docs
 weight: 16720
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfoautoacceptappointments/

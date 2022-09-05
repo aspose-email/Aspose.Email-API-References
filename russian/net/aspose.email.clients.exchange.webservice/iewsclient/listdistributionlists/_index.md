@@ -16,7 +16,7 @@ public ExchangeDistributionList[] ListDistributionLists()
 
 ### Возвращаемое значение
 
-Массив[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist), который представляет информацию списка рассылки .
+Массив[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) который представляет информацию списка рассылки.
 
 ### Смотрите также
 

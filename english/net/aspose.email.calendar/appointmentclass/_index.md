@@ -1,7 +1,7 @@
 ---
 title: AppointmentClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the access classification for the appointment.
 type: docs
 weight: 450
 url: /net/aspose.email.calendar/appointmentclass/

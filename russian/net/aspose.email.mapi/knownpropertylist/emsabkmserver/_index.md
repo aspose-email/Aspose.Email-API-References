@@ -1,14 +1,14 @@
 ---
 title: EmsAbKmServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_KM_SERVER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_KM_SERVER
 type: docs
 weight: 6940
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabkmserver/
 ---
 ## KnownPropertyList.EmsAbKmServer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_KM_SERVER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_KM_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbKmServer;

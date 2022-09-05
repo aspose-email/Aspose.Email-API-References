@@ -3,7 +3,7 @@ title: MapiPropertyTag
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MAPI 属性标记定义
 type: docs
-weight: 18570
+weight: 18600
 url: /zh/net/aspose.email.mapi/mapipropertytag/
 ---
 ## MapiPropertyTag class
@@ -26,12 +26,12 @@ public static class MapiPropertyTag
 | --- | --- |
 | static readonly [PidTagUrlName](../../aspose.email.mapi/mapipropertytag/pidtagurlname) |  |
 | static readonly [PR_7BIT_DISPLAY_NAME](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name) | PR_7BIT_DISPLAY_NAME 属性包含消息传递用户名的 7 位 ASCII 版本。 |
-| static readonly [PR_7BIT_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_a) | PR_7BIT_DISPLAY_NAME 的 ASCII 对等体。 |
-| static readonly [PR_7BIT_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_w) | PR_7BIT_DISPLAY_NAME 的 Unicode 对等体。 |
+| static readonly [PR_7BIT_DISPLAY_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_a) | PR_7BIT_DISPLAY_NAME. 的 ASCII 对等体 |
+| static readonly [PR_7BIT_DISPLAY_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_7bit_display_name_w) | PR_7BIT_DISPLAY_NAME. 的 Unicode 对等体 |
 | static readonly [PR_ABSTRACT](../../aspose.email.mapi/mapipropertytag/pr_abstract) |  |
 | static readonly [PR_ABSTRACT_A](../../aspose.email.mapi/mapipropertytag/pr_abstract_a) |  |
 | static readonly [PR_ABSTRACT_W](../../aspose.email.mapi/mapipropertytag/pr_abstract_w) |  |
-| static readonly [PR_AB_DEFAULT_DIR](../../aspose.email.mapi/mapipropertytag/pr_ab_default_dir) | PR_AB_DEFAULT_DIR 属性包含要首先显示给用户的地址簿容器的条目标识符。 |
+| static readonly [PR_AB_DEFAULT_DIR](../../aspose.email.mapi/mapipropertytag/pr_ab_default_dir) | PR_AB_DEFAULT_DIR 属性包含首先向用户显示的地址簿容器的条目标识符。 |
 | static readonly [PR_AB_DEFAULT_PAB](../../aspose.email.mapi/mapipropertytag/pr_ab_default_pab) | PR_AB_DEFAULT_PAB 属性包含将用作个人通讯簿的通讯簿容器的条目标识符。 |
 | static readonly [PR_AB_PROVIDERS](../../aspose.email.mapi/mapipropertytag/pr_ab_providers) | PR_AB_PROVIDERS 属性包含当前配置文件中地址簿提供程序的标识符列表。 |
 | static readonly [PR_AB_PROVIDER_ID](../../aspose.email.mapi/mapipropertytag/pr_ab_provider_id) | PR_AB_DEFAULT_PAB 属性包含将用作个人通讯簿的通讯簿容器的条目标识符。 |
@@ -75,9 +75,9 @@ public static class MapiPropertyTag
 | static readonly [PR_ATTACHMENT_HIDDEN](../../aspose.email.mapi/mapipropertytag/pr_attachment_hidden) |  |
 | static readonly [PR_ATTACHMENT_X400_PARAMETERS](../../aspose.email.mapi/mapipropertytag/pr_attachment_x400_parameters) |  |
 | static readonly [PR_ATTACH_ADDITIONAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_attach_additional_info) |  |
-| static readonly [PR_ATTACH_CONTENT_ID](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id) | 包含 MIME 邮件附件的内容标识头。 此属性用于 MHTML 支持。 |
-| static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a) | 包含 MIME 邮件附件的内容标识头。 此属性用于 MHTML 支持。 非 UNICODE 编译。 |
-| static readonly [PR_ATTACH_CONTENT_ID_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_w) | 包含 MIME 邮件附件的内容标识头。 此属性用于 MHTML 支持。 UNICODE 编译。 |
+| static readonly [PR_ATTACH_CONTENT_ID](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id) | 包含 MIME 邮件附件的内容标识标头。 此属性用于 MHTML 支持。 |
+| static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a) | 包含 MIME 邮件附件的内容标识标头。 此属性用于 MHTML 支持。 非 UNICODE 编译。 |
+| static readonly [PR_ATTACH_CONTENT_ID_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_w) | 包含 MIME 邮件附件的内容标识标头。 此属性用于 MHTML 支持。 UNICODE 编译。 |
 | static readonly [PR_ATTACH_DATA_BIN](../../aspose.email.mapi/mapipropertytag/pr_attach_data_bin) |  |
 | static readonly [PR_ATTACH_DATA_OBJ](../../aspose.email.mapi/mapipropertytag/pr_attach_data_obj) |  |
 | static readonly [PR_ATTACH_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_attach_encoding) |  |
@@ -126,8 +126,8 @@ public static class MapiPropertyTag
 | static readonly [PR_BODY_A](../../aspose.email.mapi/mapipropertytag/pr_body_a) |  |
 | static readonly [PR_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_body_crc) |  |
 | static readonly [PR_BODY_HTML](../../aspose.email.mapi/mapipropertytag/pr_body_html) | 包含超文本标记语言 (HTML) 编码的文本正文。 |
-| static readonly [PR_BODY_HTML_A](../../aspose.email.mapi/mapipropertytag/pr_body_html_a) | 包含 HTML 编码的文本主体。非 UNICODE 编译。 |
-| static readonly [PR_BODY_HTML_W](../../aspose.email.mapi/mapipropertytag/pr_body_html_w) | 包含 HTML 编码的文本主体。 UNICODE 编译。 |
+| static readonly [PR_BODY_HTML_A](../../aspose.email.mapi/mapipropertytag/pr_body_html_a) | 包含 HTML 编码的文本正文。非 UNICODE 编译。 |
+| static readonly [PR_BODY_HTML_W](../../aspose.email.mapi/mapipropertytag/pr_body_html_w) | 包含 HTML 编码的文本正文。 UNICODE 编译. |
 | static readonly [PR_BODY_W](../../aspose.email.mapi/mapipropertytag/pr_body_w) |  |
 | static readonly [PR_BUSINESS2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number) |  |
 | static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_a) |  |
@@ -1162,7 +1162,7 @@ public static class MapiPropertyTag
 | static readonly [PR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_entryid) |  |
 | static readonly [PR_EVENTS_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_events_root_folder_entryid) |  |
 | static readonly [PR_EXCEPTION_ENDTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_endtime) | 包含创建异常时计算机本地时区中异常的结束日期和时间。 |
-| static readonly [PR_EXCEPTION_REPLACETIME](../../aspose.email.mapi/mapipropertytag/pr_exception_replacetime) | 以 UTC 表示原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。 |
+| static readonly [PR_EXCEPTION_REPLACETIME](../../aspose.email.mapi/mapipropertytag/pr_exception_replacetime) | 以 UTC 表示的原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。 |
 | static readonly [PR_EXCEPTION_STARTTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_starttime) | 包含创建异常时计算机本地时区中异常的开始日期和时间。 |
 | static readonly [PR_EXCESS_STORAGE_USED](../../aspose.email.mapi/mapipropertytag/pr_excess_storage_used) |  |
 | static readonly [PR_EXPIRY_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_expiry_number) |  |
@@ -1338,7 +1338,7 @@ public static class MapiPropertyTag
 | static readonly [PR_IPM_DRAFTS_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_drafts_entryid) | 包含 Outlook 草稿文件夹的 EntryID。 |
 | static readonly [PR_IPM_FAVORITES_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_favorites_entryid) |  |
 | static readonly [PR_IPM_ID](../../aspose.email.mapi/mapipropertytag/pr_ipm_id) |  |
-| static readonly [PR_IPM_JOURNAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_journal_entryid) | 包含 Outlook Journal 文件夹的 EntryID。 |
+| static readonly [PR_IPM_JOURNAL_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_journal_entryid) | 包含 Outlook 日记文件夹的 EntryID。 |
 | static readonly [PR_IPM_NOTE_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_note_entryid) | 包含 Outlook Notes 文件夹的 EntryID。 |
 | static readonly [PR_IPM_OUTBOX_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_entryid) |  |
 | static readonly [PR_IPM_OUTBOX_SEARCH_KEY](../../aspose.email.mapi/mapipropertytag/pr_ipm_outbox_search_key) |  |
@@ -1385,8 +1385,8 @@ public static class MapiPropertyTag
 | static readonly [PR_LOCATION_A](../../aspose.email.mapi/mapipropertytag/pr_location_a) |  |
 | static readonly [PR_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_location_w) |  |
 | static readonly [PR_LONGTERM_ENTRYID_FROM_TABLE](../../aspose.email.mapi/mapipropertytag/pr_longterm_entryid_from_table) |  |
-| static readonly [PR_LTP_ROW_ID](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_id) | LTP 行 ID。 |
-| static readonly [PR_LTP_ROW_VER](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_ver) | LTP Row Ver. |
+| static readonly [PR_LTP_ROW_ID](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_id) | LTP 行 ID. |
+| static readonly [PR_LTP_ROW_VER](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_ver) | LTP 行版本 |
 | static readonly [PR_MAILBOX_OWNER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_entryid) |  |
 | static readonly [PR_MAILBOX_OWNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name) |  |
 | static readonly [PR_MAILBOX_OWNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_a) |  |
@@ -1804,7 +1804,7 @@ public static class MapiPropertyTag
 | static readonly [PR_RECEIVE_FOLDER_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_receive_folder_settings) |  |
 | static readonly [PR_RECIPIENT_AUTORESPONSE_PROP_RESPONSE](../../aspose.email.mapi/mapipropertytag/pr_recipient_autoresponse_prop_response) |  |
 | static readonly [PR_RECIPIENT_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_recipient_certificate) |  |
-| static readonly [PR_RECIPIENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_recipient_flags) | 指定描述接收者状态的位域。 |
+| static readonly [PR_RECIPIENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_recipient_flags) | 指定描述收件人状态的位字段。 |
 | static readonly [PR_RECIPIENT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_recipient_number) |  |
 | static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice) |  |
 | static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_A](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_a) |  |
@@ -1814,9 +1814,9 @@ public static class MapiPropertyTag
 | static readonly [PR_RECIPIENT_REASSIGNMENT_PROHIBITED](../../aspose.email.mapi/mapipropertytag/pr_recipient_reassignment_prohibited) |  |
 | static readonly [PR_RECIPIENT_STATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_status) |  |
 | static readonly [PR_RECIPIENT_TRACKSTATUS](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus) |  |
-| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time) | 表示与会者响应的日期和时间。该值以 UTC 指定。 |
-| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_delivery) | 表示传递消息的日期和时间。该值以 UTC 指定。 |
-| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_READ](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_read) | 表示收件人阅读邮件的日期和时间。该值以 UTC 指定。 |
+| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time) | 表示与会者响应的日期和时间。该值以 UTC. 指定 |
+| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_delivery) | 指示传递消息的日期和时间。该值以 UTC. 指定 |
+| static readonly [PR_RECIPIENT_TRACKSTATUS_TIME_READ](../../aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_read) | 表示收件人阅读邮件的日期和时间。该值以 UTC. 指定 |
 | static readonly [PR_RECIPIENT_TYPE](../../aspose.email.mapi/mapipropertytag/pr_recipient_type) |  |
 | static readonly [PR_RECORD_KEY](../../aspose.email.mapi/mapipropertytag/pr_record_key) |  |
 | static readonly [PR_REDIRECTION_HISTORY](../../aspose.email.mapi/mapipropertytag/pr_redirection_history) |  |
@@ -2018,7 +2018,7 @@ public static class MapiPropertyTag
 | static readonly [PR_SVR_GENERATING_QUOTA_MSG](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg) |  |
 | static readonly [PR_SVR_GENERATING_QUOTA_MSG_A](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_a) |  |
 | static readonly [PR_SVR_GENERATING_QUOTA_MSG_W](../../aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_w) |  |
-| static readonly [PR_SWAPPED_TODO_DATA](../../aspose.email.mapi/mapipropertytag/pr_swapped_todo_data) | 维护第二组不影响消息对象的标记状态的属性值。 |
+| static readonly [PR_SWAPPED_TODO_DATA](../../aspose.email.mapi/mapipropertytag/pr_swapped_todo_data) | 维护不影响消息对象的标记状态的第二组属性值。 |
 | static readonly [PR_SYNCHRONIZE_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_synchronize_flags) |  |
 | static readonly [PR_SYS_CONFIG_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_sys_config_folder_entryid) |  |
 | static readonly [PR_TELEX_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_telex_number) |  |

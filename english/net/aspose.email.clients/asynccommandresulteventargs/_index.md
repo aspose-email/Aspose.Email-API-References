@@ -1,7 +1,7 @@
 ---
 title: AsyncCommandResultEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: AsyncCommandResultEventArgs./asynccommandresulteventargs is containing event data.
 type: docs
 weight: 2850
 url: /net/aspose.email.clients/asynccommandresulteventargs/
@@ -18,9 +18,9 @@ public class AsyncCommandResultEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs)() | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs)(AsyncCommandResults) | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs)(AsyncCommandResults, Exception) | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor)() | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_1)(AsyncCommandResults) | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_2)(AsyncCommandResults, Exception) | Initializes a new instance of the [`AsyncCommandResultEventArgs`](../asynccommandresulteventargs) class. |
 
 ## Properties
 

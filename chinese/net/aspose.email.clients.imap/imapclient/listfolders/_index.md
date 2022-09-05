@@ -16,11 +16,11 @@ public ImapFolderInfoCollection ListFolders(IConnection connection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
+| connection | IConnection | 连接到服务器 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -42,12 +42,12 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -69,12 +69,12 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, bool loadFul
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection to服务器 |
-| loadFullInfo | Boolean | 如果为 true 则表示应从服务器完整检索文件夹信息，否则仅检索文件夹名称。 |
+| connection | IConnection | 连接到服务器 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -117,11 +117,11 @@ public ImapFolderInfoCollection ListFolders(string parentFolder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹 |
+| parentFolder | String | 文件夹名称 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -146,7 +146,7 @@ public ImapFolderInfoCollection ListFolders(bool loadFullInfo)
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -167,12 +167,12 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -194,13 +194,13 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
 | loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -223,14 +223,14 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果为 true，则应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 
@@ -254,15 +254,15 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | parentFolder | String | 文件夹名称 |
-| loadFullInfo | Boolean | 如果为 true 表示文件夹信息应该完全从服务器检索，否则只检索文件夹名称。 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息，否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 
 ### 返回值
 
-ImapFolderInfo 对象集合
+ImapFolderInfo 对象的集合
 
 ### 也可以看看
 

@@ -1,9 +1,9 @@
 ---
 title: FetchTimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when a message can not be read within the specified time.
 type: docs
-weight: 16210
+weight: 16230
 url: /net/aspose.email.clients.imap/fetchtimeoutexception/
 ---
 ## FetchTimeoutException class
@@ -18,9 +18,9 @@ public class FetchTimeoutException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [FetchTimeoutException](fetchtimeoutexception)() | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class. |
-| [FetchTimeoutException](fetchtimeoutexception)(string) | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class with a specified error message. |
-| [FetchTimeoutException](fetchtimeoutexception)(string, Exception) | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class with a specified error message. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor)() | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_1)(string) | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class with a specified error message. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_2)(string, Exception) | Initializes a new instance of the [`FetchTimeoutException`](../fetchtimeoutexception) class with a specified error message. |
 
 ## Properties
 

@@ -18,12 +18,12 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -46,7 +46,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -73,12 +73,12 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息序列号 |
-| messageExtraFields | IEnumerable`1 | 列表将要求消息的额外参数。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -99,11 +99,11 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -126,12 +126,12 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -154,11 +154,11 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -184,7 +184,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -207,11 +207,11 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| messageExtraFields | IEnumerable`1 | 列表将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -234,13 +234,13 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -264,12 +264,12 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -292,13 +292,13 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息序列号 |
-| messageExtraFields | IEnumerable`1 | 列表将要求消息的额外参数。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -319,12 +319,12 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber, CancellationTo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播通知该操作应该被取消。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -347,13 +347,13 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -377,12 +377,12 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一 ID |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -405,11 +405,11 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, CancellationToken
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -432,12 +432,12 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| messageExtraFields | IEnumerable`1 | 列表将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

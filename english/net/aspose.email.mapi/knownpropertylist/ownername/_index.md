@@ -1,7 +1,7 @@
 ---
 title: OwnerName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the name of the owner of the mailbox. Area Meetings Canonical name PidLidOwnerName Alternate names dispidOwnerName
 type: docs
 weight: 14110
 url: /net/aspose.email.mapi/knownpropertylist/ownername/

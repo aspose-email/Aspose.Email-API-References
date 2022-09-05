@@ -16,18 +16,18 @@ public static MapiMessage LoadFromTnef(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, представляющий данные сообщения в формате TNEF |
+| stream | Stream | Поток, представляющий данные сообщения в формате TNEF. |
 
 ### Возвращаемое значение
 
-Прочитано[`MapiMessage`](../../mapimessage)
+чтение[`MapiMessage`](../../mapimessage)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -51,13 +51,13 @@ public static MapiMessage LoadFromTnef(string fileName)
 
 ### Возвращаемое значение
 
-Чтение[`MapiMessage`](../../mapimessage)
+чтение[`MapiMessage`](../../mapimessage)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *fileName*is` null` или` пусто` |
+| ArgumentException | *fileName* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ExchangeModifyExceptionStructure
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает структуру которая изменяет исключение повторения. ОбластьОбщие Каноническое имяPidNameExchangeModifyExceptionStructure Альтернативные именаhttp//schemas.microsoft.com/exchange/modifyexceptionstruct
+description: Указывает структуру которая изменяет исключение повторения. Область Common Каноническое имя PidNameExchangeModifyExceptionStructure Альтернативные имена http//schemas.microsoft.com/exchange/modifyexceptionstruct
 type: docs
 weight: 9840
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangemodifyexceptionstructure/
 ---
 ## KnownPropertyList.ExchangeModifyExceptionStructure field
 
-Указывает структуру, которая изменяет исключение повторения. Область:Общие Каноническое имя:PidNameExchangeModifyExceptionStructure Альтернативные имена:http://schemas.microsoft.com/exchange/modifyexceptionstruct
+Указывает структуру, которая изменяет исключение повторения. Область: Common Каноническое имя: PidNameExchangeModifyExceptionStructure Альтернативные имена: http://schemas.microsoft.com/exchange/modifyexceptionstruct
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeModifyExceptionStructure;

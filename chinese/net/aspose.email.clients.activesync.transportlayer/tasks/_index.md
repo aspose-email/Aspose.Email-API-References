@@ -20,20 +20,20 @@ public enum Tasks
 | --- | --- | --- |
 | Categories | `8` | 分配给任务的用户选择标签的集合。 |
 | Category | `9` | 已应用于任务项的用户选择标签之一。 |
-| Complete | `10` | 任务是否完成。 |
-| DateCompleted | `11` | 任务项完成的日期。 |
+| Complete | `10` | 任务是否已经完成 |
+| DateCompleted | `11` | 任务项目完成的日期。 |
 | DueDate | `12` | 任务项的本地截止日期。 |
 | UtcDueDate | `13` | 任务项的 UTC 截止日期。 |
 | Importance | `14` | 任务项的重要性或优先级。 |
-| Recurrence | `15` | 此任务何时以及多久重复一次。 |
+| Recurrence | `15` | 此任务重复的时间和频率。 |
 | Type | `16` | 重复类型。 |
 | Start | `17` | 一系列重复项的开始时间。 |
 | Until | `18` | 一系列重复项的结束时间。 |
 | Occurrences | `19` | 系列结束前出现的次数。 |
-| Interval | `20` | 重复间隔。 |
+| Interval | `20` | 重复的间隔。 |
 | DayOfMonth | `21` | 每月的重复日期。 |
 | DayOfWeek | `22` | 一周中的重复日期。 |
-| WeekOfMonth | `23` | 每月的周数。 |
+| WeekOfMonth | `23` | 每月的第几周重复。 |
 | MonthOfYear | `24` | 一年中重复的月份。 |
 | Regenerate | `25` | 每个任务实例完成后是否重新生成任务项。 |
 | DeadOccur | `26` | 任务是否为循环实例。 |
@@ -41,11 +41,11 @@ public enum Tasks
 | ReminderTime | `28` | 任务项提醒出现的时间和日期。 |
 | Sensitivity | `29` | 任务项的敏感度。 |
 | StartDate | `30` | 任务项的本地开始日期。 |
-| UtcStartDate | `31` | 任务项的协调世界时 (UTC) 开始日期。 |
+| UtcStartDate | `31` | 任务项目的协调世界时 (UTC) 开始日期。 |
 | Subject | `32` | 任务项目的主题。 |
 | OrdinalDate | `34` | 客户端设置标志的时间。 |
 | SubOrdinalDate | `35` | 可用于排序的值。 |
-| CalendarType | `36` | 此循环使用的日历系统。 |
+| CalendarType | `36` | 本次重复使用的日历系统。 |
 | IsLeapMonth | `37` | 此重复是否发生在闰月。 |
 | FirstDayOfWeek | `38` | 指定将哪一天视为此重复周期的日历周的第一天。 |
 

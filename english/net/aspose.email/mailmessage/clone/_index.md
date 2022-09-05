@@ -1,9 +1,9 @@
 ---
 title: Clone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Clones this instance
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.email/mailmessage/clone/
 ---
 ## MailMessage.Clone method

@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID адресной книги который идентифицирует конечного пользователя представленного принимающим почтовым ящиком. ОбластьСвойства адреса Каноническое имяPidTagReceivedRepresentingEntryId Альтернативные именаPR_RCVD_REPRESENTING_ENTRYID ptagRcvdRepresentingEntryId
+description: Содержит EntryID адресной книги который идентифицирует конечного пользователя представленного принимающим почтовым ящиком. Область Свойства адреса Каноническое имя PidTagReceivedRepresentingEntryId Альтернативные имена PR_RCVD_REPRESENTING_ENTRYID ptagRcvdRepresentingEntryId
 type: docs
 weight: 15350
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedrepresentingentryid/
 ---
 ## KnownPropertyList.ReceivedRepresentingEntryId field
 
-Содержит EntryID адресной книги, который идентифицирует конечного пользователя, представленного принимающим почтовым ящиком. Область:Свойства адреса Каноническое имя:PidTagReceivedRepresentingEntryId Альтернативные имена:PR_RCVD_REPRESENTING_ENTRYID, ptagRcvdRepresentingEntryId
+Содержит EntryID адресной книги, который идентифицирует конечного пользователя, представленного принимающим почтовым ящиком. Область: Свойства адреса Каноническое имя: PidTagReceivedRepresentingEntryId Альтернативные имена: PR_RCVD_REPRESENTING_ENTRYID, ptagRcvdRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingEntryId;

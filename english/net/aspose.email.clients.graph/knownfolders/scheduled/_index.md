@@ -1,7 +1,7 @@
 ---
 title: Scheduled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains messages that are scheduled to reappear in the inbox using the Schedule feature in Outlook for iOS.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.graph/knownfolders/scheduled/

@@ -1,14 +1,14 @@
 ---
 title: DeliveryMethod
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает метод доставки.
+description: Получает или задает способ доставки.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.smtp/smtpclient/deliverymethod/
 ---
 ## SmtpClient.DeliveryMethod property
 
-Получает или задает метод доставки.
+Получает или задает способ доставки.
 
 ```csharp
 public SmtpDeliveryMethod DeliveryMethod { get; set; }

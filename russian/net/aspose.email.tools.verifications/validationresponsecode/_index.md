@@ -1,14 +1,14 @@
 ---
 title: ValidationResponseCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет состояние ответа процесса проверки почты.
+description: Представляет статус ответа процесса проверки почты.
 type: docs
-weight: 20810
+weight: 20860
 url: /ru/net/aspose.email.tools.verifications/validationresponsecode/
 ---
 ## ValidationResponseCode enumeration
 
-Представляет состояние ответа процесса проверки почты.
+Представляет статус ответа процесса проверки почты.
 
 ```csharp
 public enum ValidationResponseCode
@@ -19,7 +19,7 @@ public enum ValidationResponseCode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | ValidationSuccess | `0` | Проверка почтового адреса прошла успешно. |
-| SyntaxValidationFailed | `-1` | Ошибка процесса проверки почтового адреса при проверке синтаксиса. |
+| SyntaxValidationFailed | `-1` | Сбой процесса проверки почтового адреса при проверке синтаксиса. |
 | DomainValidationFailed | `-2` | Сбой процесса проверки почтового адреса при проверке домена. |
 | MailServerValidationError | `-3` | Сбой процесса проверки почтового адреса при проверке почтового сервера. |
 

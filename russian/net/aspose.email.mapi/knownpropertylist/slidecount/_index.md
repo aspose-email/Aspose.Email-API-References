@@ -1,14 +1,14 @@
 ---
 title: SlideCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество слайдов в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameSlideCount Альтернативные именаurnschemas-microsoft-comofficeofficeSlides
+description: Указывает количество слайдов в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameSlideCount Альтернативные имена urnschemas-microsoft-comofficeofficeSlides
 type: docs
 weight: 18060
 url: /ru/net/aspose.email.mapi/knownpropertylist/slidecount/
 ---
 ## KnownPropertyList.SlideCount field
 
-Указывает количество слайдов в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameSlideCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Slides
+Указывает количество слайдов в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameSlideCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Slides
 
 ```csharp
 public static readonly PidNamePropertyDescriptor SlideCount;

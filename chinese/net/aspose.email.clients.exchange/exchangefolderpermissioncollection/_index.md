@@ -1,14 +1,14 @@
 ---
 title: ExchangeFolderPermissionCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ExchangeFolderPermission./exchangefolderpermission
+description: 代表集合ExchangeFolderPermission./exchangefolderpermission
 type: docs
 weight: 3310
 url: /zh/net/aspose.email.clients.exchange/exchangefolderpermissioncollection/
 ---
 ## ExchangeFolderPermissionCollection class
 
-表示[`ExchangeFolderPermission`](../exchangefolderpermission)
+代表集合[`ExchangeFolderPermission`](../exchangefolderpermission)
 
 ```csharp
 public sealed class ExchangeFolderPermissionCollection : Collection<ExchangeFolderPermission>

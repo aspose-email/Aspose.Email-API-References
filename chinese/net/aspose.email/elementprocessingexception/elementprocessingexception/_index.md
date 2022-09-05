@@ -1,14 +1,14 @@
 ---
 title: ElementProcessingException
 second_title: Aspose.Email for .NET API 参考
-description: 使用指定的元素索引初始化ElementProcessingExceptionaspose.email/elementprocessingexception类的新实例
+description: 初始化ElementProcessingExceptionaspose.email/elementprocessingexception具有指定元素索引的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email/elementprocessingexception/elementprocessingexception/
 ---
 ## ElementProcessingException constructor
 
-使用指定的元素索引初始化[`ElementProcessingException`](../../elementprocessingexception)类的新实例。
+初始化[`ElementProcessingException`](../../elementprocessingexception)具有指定元素索引的类。
 
 ```csharp
 public ElementProcessingException(int elementIndex, Exception innerException)

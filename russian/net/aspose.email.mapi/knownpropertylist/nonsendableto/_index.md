@@ -1,14 +1,14 @@
 ---
 title: NonSendableTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список всех неотправляемых участников которые также являются обязательными участниками. ОбластьВстречи Каноническое имяPidLidNonSendableTo Альтернативные именаdispidNonSendableTo
+description: Содержит список всех неотправляемых участников которые также являются обязательными участниками. Область Meetings Каноническое имя PidLidNonSendableTo Альтернативные имена dispidNonSendableTo
 type: docs
 weight: 13030
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonsendableto/
 ---
 ## KnownPropertyList.NonSendableTo field
 
-Содержит список всех неотправляемых участников, которые также являются обязательными участниками. Область:Встречи Каноническое имя:PidLidNonSendableTo Альтернативные имена:dispidNonSendableTo
+Содержит список всех неотправляемых участников, которые также являются обязательными участниками. Область: Meetings Каноническое имя: PidLidNonSendableTo Альтернативные имена: dispidNonSendableTo
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendableTo;

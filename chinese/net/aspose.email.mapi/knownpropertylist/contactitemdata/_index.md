@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contactitemdata/
 ---
 ## KnownPropertyList.ContactItemData field
 
-指定应用程序用户界面中用于帮助显示联系信息的可见字段。 区域:联系人属性 规范名称:PidLidContactItemData 替代名称:dispidContactItemData
+指定应用程序用户界面中用于帮助显示联系信息的可见字段。 区域：联系人属性 规范名称：PidLidContactItemData 替代名称：dispidContactItemData
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactItemData;

@@ -1,7 +1,7 @@
 ---
 title: TaskLastDelegate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the user who most recently assigned the task or the user to whom it was most recently assigned. Area Tasks Canonical name PidLidTaskLastDelegate Alternate names dispidTaskLastDelegate
 type: docs
 weight: 18690
 url: /net/aspose.email.mapi/knownpropertylist/tasklastdelegate/

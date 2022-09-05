@@ -1,14 +1,14 @@
 ---
 title: ChangeDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Изменяет отображаемое имя pst.
+description: Изменяет отображаемое имя файла pst.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.storage.pst/messagestore/changedisplayname/
 ---
 ## MessageStore.ChangeDisplayName method
 
-Изменяет отображаемое имя pst.
+Изменяет отображаемое имя файла pst.
 
 ```csharp
 public void ChangeDisplayName(string newName)

@@ -1,7 +1,7 @@
 ---
 title: NotesFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Notes folder
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/notesfoldereventfilter/

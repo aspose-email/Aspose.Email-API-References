@@ -1,7 +1,7 @@
 ---
 title: SenderSearchKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies an address book search key. Area Address Properties Canonical name PidTagSenderSearchKey Alternate names PR_SENDER_SEARCH_KEY ptagSenderSearchKey
 type: docs
 weight: 17140
 url: /net/aspose.email.mapi/knownpropertylist/sendersearchkey/

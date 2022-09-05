@@ -1,14 +1,14 @@
 ---
 title: IsDefault
 second_title: Aspose.Email for .NET API 参考
-description: 表示这是否是用户的默认笔记本 只读
+description: 指示这是否是用户的默认笔记本 只读
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.graph/notebook/isdefault/
 ---
 ## Notebook.IsDefault property
 
-表示这是否是用户的默认笔记本。 只读。
+指示这是否是用户的默认笔记本。 只读。
 
 ```csharp
 public bool IsDefault { get; }

@@ -1,14 +1,14 @@
 ---
 title: DeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дату и время сообщение было доставлено.
+description: Получает или устанавливает дату и время сообщения было доставлено.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapimessage/deliverytime/
 ---
 ## MapiMessage.DeliveryTime property
 
-Получает или устанавливает дату и время сообщение было доставлено.
+Получает или устанавливает дату и время сообщения было доставлено.
 
 ```csharp
 public DateTime DeliveryTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime DeliveryTime { get; set; }
 
 ### Стоимость имущества
 
-DateTime, представляющее время доставки.
+DateTime, представляющий время доставки.
 
 ### Примечания
 

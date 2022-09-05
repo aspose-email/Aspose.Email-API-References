@@ -1,14 +1,14 @@
 ---
 title: CalendarTimeZoneId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор часового пояса встречи или собрания. ОбластьОбщие Каноническое имяPidNameCalendarTimeZoneId Альтернативные именаurnschemascalendartimezoneid
+description: Указывает идентификатор часового пояса встречи или встречи. Область Common Каноническое имя PidNameCalendarTimeZoneId Альтернативные имена urnschemascalendartimezoneid
 type: docs
 weight: 2420
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendartimezoneid/
 ---
 ## KnownPropertyList.CalendarTimeZoneId field
 
-Указывает идентификатор часового пояса встречи или собрания. Область:Общие Каноническое имя:PidNameCalendarTimeZoneId Альтернативные имена:urn:schemas:calendar:timezoneid
+Указывает идентификатор часового пояса встречи или встречи. Область: Common Каноническое имя: PidNameCalendarTimeZoneId Альтернативные имена: urn:schemas:calendar:timezoneid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarTimeZoneId;

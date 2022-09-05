@@ -3,7 +3,7 @@ title: EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет адрес электронной почты
 type: docs
-weight: 19330
+weight: 19360
 url: /ru/net/aspose.email.personalinfo/emailaddress/
 ---
 ## EmailAddress class
@@ -18,9 +18,9 @@ public class EmailAddress : MailAddress, IComparable<EmailAddress>, IEquatable<E
 
 | Имя | Описание |
 | --- | --- |
-| [EmailAddress](emailaddress#constructor)() | Инициализирует новый экземпляр класса[`EmailAddress`](../emailaddress). |
-| [EmailAddress](emailaddress#constructor_1)(string) | Инициализирует новый экземпляр класса[`EmailAddress`](../emailaddress). |
-| [EmailAddress](emailaddress#constructor_2)(string, string) | Инициализирует новый экземпляр класса[`EmailAddress`](../emailaddress). |
+| [EmailAddress](emailaddress#constructor)() | Инициализирует новый экземпляр[`EmailAddress`](../emailaddress) класс. |
+| [EmailAddress](emailaddress#constructor_1)(string) | Инициализирует новый экземпляр[`EmailAddress`](../emailaddress) класс. |
+| [EmailAddress](emailaddress#constructor_2)(string, string) | Инициализирует новый экземпляр[`EmailAddress`](../emailaddress) класс. |
 
 ## Характеристики
 
@@ -31,11 +31,11 @@ public class EmailAddress : MailAddress, IComparable<EmailAddress>, IEquatable<E
 | [Count](../../aspose.email/mailaddress/count) { get; } | Содержит количество почтовых адресов. |
 | [DisplayName](../../aspose.email/mailaddress/displayname) { get; set; } | Получает или задает отображаемое имя. |
 | [Host](../../aspose.email/mailaddress/host) { get; } | Получает часть адреса, относящуюся к хосту. |
-| [Id](../../aspose.email/mailaddress/id) { get; } | Получает идентификационную информацию об объекте |
+| [Id](../../aspose.email/mailaddress/id) { get; } | Получает информацию об идентификации объекта |
 | [Item](../../aspose.email/mailaddress/item) { get; } | Получает элемент по указанному индексу. |
 | [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring) { get; } | Получает или задает исходную строку адреса электронной почты. |
 | [ParticipationStatus](../../aspose.email/mailaddress/participationstatus) { get; set; } | Получает или задает статус участия для пользователя календаря. |
-| [Prefered](../../aspose.email.personalinfo/emailaddress/prefered) { get; set; } | Получает или задает значение, определяющее, является ли предпочтительным адрес электронной почты. |
+| [Prefered](../../aspose.email.personalinfo/emailaddress/prefered) { get; set; } | Получает или задает значение, определяющее, является ли адрес электронной почты предпочтительным. |
 | [RoutingType](../../aspose.email.personalinfo/emailaddress/routingtype) { get; set; } | Получает или задает тип маршрутизации для электронной почты |
 | [User](../../aspose.email/mailaddress/user) { get; } | Получает имя пользователя. |
 
@@ -43,7 +43,7 @@ public class EmailAddress : MailAddress, IComparable<EmailAddress>, IEquatable<E
 
 | Имя | Описание |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/emailaddress/compareto)(EmailAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| virtual [CompareTo](../../aspose.email.personalinfo/emailaddress/compareto)(EmailAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | [Equals](../../aspose.email.personalinfo/emailaddress/equals#equals)(EmailAddress) | Определяет, равен ли указанный объект текущему объекту. |
 | override [Equals](../../aspose.email.personalinfo/emailaddress/equals#equals_2)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/emailaddress/equals#equals_1)(EmailAddress, EmailAddress) | Определяет, считаются ли указанные экземпляры объектов равными. |

@@ -1,14 +1,14 @@
 ---
 title: StorageQuotaLimit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STORAGE_QUOTA_LIMIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STORAGE_QUOTA_LIMIT
 type: docs
 weight: 18240
 url: /ru/net/aspose.email.mapi/knownpropertylist/storagequotalimit/
 ---
 ## KnownPropertyList.StorageQuotaLimit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STORAGE_QUOTA_LIMIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STORAGE_QUOTA_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StorageQuotaLimit;

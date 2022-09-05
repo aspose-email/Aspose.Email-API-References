@@ -1,14 +1,14 @@
 ---
 title: RightsManagementLicense
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение используемое для кэширования лицензии на использование для сообщения электронной почты с управлением правами. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidNameRightsManagementLicense Альтернативные имена
+description: Указывает значение используемое для кэширования лицензии на использование для сообщения электронной почты с управлением правами. Область Свойства безопасного обмена сообщениями Каноническое имя PidNameRightsManagementLicense Альтернативные имена
 type: docs
 weight: 16300
 url: /ru/net/aspose.email.mapi/knownpropertylist/rightsmanagementlicense/
 ---
 ## KnownPropertyList.RightsManagementLicense field
 
-Указывает значение, используемое для кэширования лицензии на использование для сообщения электронной почты с управлением правами. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidNameRightsManagementLicense Альтернативные имена:
+Указывает значение, используемое для кэширования лицензии на использование для сообщения электронной почты с управлением правами. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidNameRightsManagementLicense Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor RightsManagementLicense;

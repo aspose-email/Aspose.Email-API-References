@@ -1,9 +1,9 @@
 ---
 title: IMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a common message interface
 type: docs
-weight: 17420
+weight: 17590
 url: /net/aspose.email/imessage/
 ---
 ## IMessage interface
@@ -33,8 +33,8 @@ public interface IMessage
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.email/imessage/save)(Stream) | Saves message to the specified stream |
-| [Save](../../aspose.email/imessage/save)(string) | Saves message to the specified file |
+| [Save](../../aspose.email/imessage/save#save)(Stream) | Saves message to the specified stream |
+| [Save](../../aspose.email/imessage/save#save_1)(string) | Saves message to the specified file |
 
 ### See Also
 

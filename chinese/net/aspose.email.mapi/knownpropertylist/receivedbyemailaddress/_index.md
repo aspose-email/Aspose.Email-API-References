@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/receivedbyemailaddress/
 ---
 ## KnownPropertyList.ReceivedByEmailAddress field
 
-包含电子邮件消息接收者的电子邮件地址。 区域:地址属性 规范名称:PidTagReceivedByEmailAddress 备用名称:PR_RECEIVED_BY_EMAIL_ADDRESS、PR_RECEIVED_BY_EMAIL_ADDRESS_A、PR_RECEIVED_BY_EMAIL_ADDRESS_W
+包含电子邮件消息接收者的电子邮件地址。 区域：地址属性 规范名称：PidTagReceivedByEmailAddress 备用名称：PR_RECEIVED_BY_EMAIL_ADDRESS、PR_RECEIVED_BY_EMAIL_ADDRESS_A、PR_RECEIVED_BY_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByEmailAddress;

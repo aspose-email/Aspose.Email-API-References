@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the System.Collections.Generic.ICollection contains a specific value.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/knownpropertylist/contains/

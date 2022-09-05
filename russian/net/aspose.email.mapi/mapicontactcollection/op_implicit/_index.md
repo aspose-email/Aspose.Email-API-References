@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует массив в коллекцию
+description: Преобразует массив в collection
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicontactcollection/op_implicit/
 ---
 ## MapiContactCollection Implicit operator
 
-Преобразует массив в коллекцию
+Преобразует массив в collection
 
 ```csharp
 public static implicit operator MapiContactCollection(MapiContact[] contacts)

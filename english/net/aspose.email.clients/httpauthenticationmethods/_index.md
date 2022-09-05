@@ -1,9 +1,9 @@
 ---
 title: HttpAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The authentication methods supported by the HTTP proxy
 type: docs
-weight: 16090
+weight: 16110
 url: /net/aspose.email.clients/httpauthenticationmethods/
 ---
 ## HttpAuthenticationMethods enumeration

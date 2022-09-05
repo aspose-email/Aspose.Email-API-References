@@ -3,7 +3,7 @@ title: MapiContactOtherPropertySet
 second_title: Справочник по Aspose.Email для .NET API
 description: Свойства используются для указания дополнительных свойств контакта.
 type: docs
-weight: 18230
+weight: 18260
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/
 ---
 ## MapiContactOtherPropertySet class
@@ -18,20 +18,20 @@ public sealed class MapiContactOtherPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactOtherPropertySet](mapicontactotherpropertyset)() | Инициализирует новый экземпляр[`MapiContactOtherPropertySet`](../mapicontactotherpropertyset)class |
+| [MapiContactOtherPropertySet](mapicontactotherpropertyset)() | Инициализирует новый экземпляр[`MapiContactOtherPropertySet`](../mapicontactotherpropertyset) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Journal](../../aspose.email.mapi/mapicontactotherpropertyset/journal) { get; set; } | Указывает, создавать ли журнал для каждого действия, связанного с этим контактом. |
-| [Private](../../aspose.email.mapi/mapicontactotherpropertyset/private) { get; set; } | Указывает, хочет ли конечный пользователь скрыть этот объект сообщения от других пользователей, имеющих доступ к объекту сообщения. |
+| [Private](../../aspose.email.mapi/mapicontactotherpropertyset/private) { get; set; } | Указывает, хочет ли конечный пользователь, чтобы этот объект сообщения был скрыт от других пользователей, имеющих доступ к объекту сообщения. |
 | [ReminderTime](../../aspose.email.mapi/mapicontactotherpropertyset/remindertime) { get; set; } | Определяет начальное время сигнала для напоминания. |
-| [ReminderTopic](../../aspose.email.mapi/mapicontactotherpropertyset/remindertopic) { get; set; } | Представляет состояние приглашения на собрание. |
-| [UserField1](../../aspose.email.mapi/mapicontactotherpropertyset/userfield1) { get; set; } | Определяет первое поле контакта, предназначенное для различных целей контакта. |
-| [UserField2](../../aspose.email.mapi/mapicontactotherpropertyset/userfield2) { get; set; } | Указывает второе поле контакта, которое предназначено для различных целей контакта. |
-| [UserField3](../../aspose.email.mapi/mapicontactotherpropertyset/userfield3) { get; set; } | Указывает третье поле контакта, которое предназначено для различных целей контакта. |
-| [UserField4](../../aspose.email.mapi/mapicontactotherpropertyset/userfield4) { get; set; } | Задает четвертое поле контакта, которое предназначено для различных целей контакта. |
+| [ReminderTopic](../../aspose.email.mapi/mapicontactotherpropertyset/remindertopic) { get; set; } | Представляет статус приглашения на собрание. |
+| [UserField1](../../aspose.email.mapi/mapicontactotherpropertyset/userfield1) { get; set; } | Определяет первое поле в контакте, которое предназначено для различных целей контакта. |
+| [UserField2](../../aspose.email.mapi/mapicontactotherpropertyset/userfield2) { get; set; } | Определяет второе поле контакта, предназначенное для разных целей контакта. |
+| [UserField3](../../aspose.email.mapi/mapicontactotherpropertyset/userfield3) { get; set; } | Определяет третье поле контакта, предназначенное для различных целей контакта. |
+| [UserField4](../../aspose.email.mapi/mapicontactotherpropertyset/userfield4) { get; set; } | Определяет четвертое поле контакта, которое предназначено для разных целей контакта. |
 
 ### Смотрите также
 

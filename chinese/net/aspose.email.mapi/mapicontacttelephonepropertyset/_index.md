@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人的可选电话号码
+description: 为联系人指定可选电话号码
 type: docs
-weight: 18310
+weight: 18340
 url: /zh/net/aspose.email.mapi/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet class
 
-指定联系人的可选电话号码
+为联系人指定可选电话号码
 
 ```csharp
 public sealed class MapiContactTelephonePropertySet
@@ -18,21 +18,21 @@ public sealed class MapiContactTelephonePropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor)() | 初始化 [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) 类的新实例 |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_1)(MapiPropertyCollection) | 初始化 [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) 类的新实例 |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_2)(string) | 初始化[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset)类的新实例。 |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor)() | 初始化[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_1)(MapiPropertyCollection) | 初始化[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_2)(string) | 初始化[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AssistantTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/assistanttelephonenumber) { get; set; } | 获取或设置联系人助手的电话号码 |
-| [Business2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber) { get; set; } | 获取或设置第二个企业电话号码 |
+| [Business2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber) { get; set; } | 获取或设置第二个业务电话号码 |
 | [BusinessTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/businesstelephonenumber) { get; set; } | 获取或设置业务电话号码 |
 | [CallbackTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/callbacktelephonenumber) { get; set; } | 获取或设置回拨电话号码 |
 | [CarTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/cartelephonenumber) { get; set; } | 获取或设置汽车电话号码 |
 | [CompanyMainTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/companymaintelephonenumber) { get; set; } | 获取或设置公司电话号码 |
-| [DefaultTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber) { get; set; } | 电子地址的默认值 如果 UseAutocomplete 属性设置为“true”，则在用户未设置任何电子地址时使用 |
+| [DefaultTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber) { get; set; } | 电子地址的默认值 如果 UseAutocomplete 属性设置为“真”，则在用户未设置任何电子地址时使用 |
 | [Home2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/home2telephonenumber) { get; set; } | 获取或设置第二个家庭电话号码 |
 | [HomeTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/hometelephonenumber) { get; set; } | 获取或设置家庭电话号码 |
 | [IsdnNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/isdnnumber) { get; set; } | 获取或设置综合服务 数字网络（ISDN）号码 |
@@ -43,8 +43,8 @@ public sealed class MapiContactTelephonePropertySet
 | [PrimaryTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/primarytelephonenumber) { get; set; } | 获取或设置主电话号码 |
 | [RadioTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/radiotelephonenumber) { get; set; } | 获取或设置无线电话号码 |
 | [TelexNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/telexnumber) { get; set; } | 获取或设置电传号码 |
-| [TtyTddPhoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber) { get; set; } | 获取或设置联系人的文本电话 (TTY) 或聋人电信设备的电话号码 ( TDD) |
-| [UseAutocomplete](../../aspose.email.mapi/mapicontacttelephonepropertyset/useautocomplete) { get; set; } | 表示如果用户没有设置任何电子地址，则自动完成一个电子地址 |
+| [TtyTddPhoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber) { get; set; } | 获取或设置联系人的文本电话 (TTY) 或聋人电信设备 (TDD) 的电话号码 |
+| [UseAutocomplete](../../aspose.email.mapi/mapicontacttelephonepropertyset/useautocomplete) { get; set; } | 表示如果用户没有设置任何电子地址，则自动填写一个电子地址 |
 
 ### 也可以看看
 

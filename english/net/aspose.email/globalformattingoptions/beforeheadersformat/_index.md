@@ -1,7 +1,7 @@
 ---
 title: BeforeHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set.
 type: docs
 weight: 20
 url: /net/aspose.email/globalformattingoptions/beforeheadersformat/

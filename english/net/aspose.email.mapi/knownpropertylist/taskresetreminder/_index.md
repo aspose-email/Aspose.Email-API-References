@@ -1,7 +1,7 @@
 ---
 title: TaskResetReminder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether future instances of recurring tasks need reminders even though the value of the PidLidReminderSet property section 2.222 is 0x00. Area Tasks Canonical name PidLidTaskResetReminder Alternate names dispidTaskResetReminder
 type: docs
 weight: 18790
 url: /net/aspose.email.mapi/knownpropertylist/taskresetreminder/

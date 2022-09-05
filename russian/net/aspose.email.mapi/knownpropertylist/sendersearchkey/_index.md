@@ -1,14 +1,14 @@
 ---
 title: SenderSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует ключ поиска в адресной книге. ОбластьСвойства адреса Каноническое имяPidTagSenderSearchKey Альтернативные именаPR_SENDER_SEARCH_KEY ptagSenderSearchKey
+description: Идентифицирует ключ поиска в адресной книге. Область Свойства адреса Каноническое имя PidTagSenderSearchKey Альтернативные имена PR_SENDER_SEARCH_KEY ptagSenderSearchKey
 type: docs
 weight: 17140
 url: /ru/net/aspose.email.mapi/knownpropertylist/sendersearchkey/
 ---
 ## KnownPropertyList.SenderSearchKey field
 
-Идентифицирует ключ поиска в адресной книге. Область:Свойства адреса Каноническое имя:PidTagSenderSearchKey Альтернативные имена:PR_SENDER_SEARCH_KEY, ptagSenderSearchKey
+Идентифицирует ключ поиска в адресной книге. Область: Свойства адреса Каноническое имя: PidTagSenderSearchKey Альтернативные имена: PR_SENDER_SEARCH_KEY, ptagSenderSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderSearchKey;

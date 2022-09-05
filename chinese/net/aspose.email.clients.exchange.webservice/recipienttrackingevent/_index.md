@@ -23,11 +23,11 @@ public sealed class RecipientTrackingEvent
 | [DeliveryStatus](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/deliverystatus) { get; } | 获取消息的状态。 |
 | [EventData](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdata) { get; } | 获取与事件处理步骤关联的数据。 |
 | [EventDescription](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdescription) { get; } | 获取事件的处理步骤 |
-| [HiddenRecipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/hiddenrecipient) { get; } | 获取一个值，该值指示收件人是否是由应对非特权用户隐藏的组织策略添加的 |
+| [HiddenRecipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/hiddenrecipient) { get; } | 获取一个值，该值指示收件人是否是由应该对非特权用户隐藏的组织策略添加的 |
 | [InternalIdentifier](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/internalidentifier) { get; } | 获取事件的整数值。 |
 | [Recipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/recipient) { get; } | 获取发生事件的收件人。 |
 | [Server](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/server) { get; } | 获取发生事件的物理服务器。 |
-| [UniquePathId](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/uniquepathid) { get; } | 获取每个路径都不同的字符串。 |
+| [UniquePathId](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/uniquepathid) { get; } | 获取每个路径不同的字符串。 |
 
 ### 也可以看看
 

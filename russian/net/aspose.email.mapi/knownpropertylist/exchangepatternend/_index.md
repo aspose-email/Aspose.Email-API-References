@@ -1,14 +1,14 @@
 ---
 title: ExchangePatternEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет максимальное время окончания экземпляра повторяющейся встречи. ОбластьОбщие Каноническое имяPidNameExchangePatternEnd Альтернативные именаhttp//schemas.microsoft.com/exchange/patternend
+description: Определяет максимальное время окончания экземпляра повторяющейся встречи. Область Common Каноническое имя PidNameExchangePatternEnd Альтернативные имена http//schemas.microsoft.com/exchange/patternend
 type: docs
 weight: 9870
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangepatternend/
 ---
 ## KnownPropertyList.ExchangePatternEnd field
 
-Определяет максимальное время окончания экземпляра повторяющейся встречи. Область:Общие Каноническое имя:PidNameExchangePatternEnd Альтернативные имена:http://schemas.microsoft.com/exchange/patternend
+Определяет максимальное время окончания экземпляра повторяющейся встречи. Область: Common Каноническое имя: PidNameExchangePatternEnd Альтернативные имена: http://schemas.microsoft.com/exchange/patternend
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangePatternEnd;

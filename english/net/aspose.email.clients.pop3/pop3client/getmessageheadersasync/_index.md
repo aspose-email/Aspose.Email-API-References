@@ -1,12 +1,12 @@
 ---
 title: GetMessageHeadersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message headers
 type: docs
 weight: 220
 url: /net/aspose.email.clients.pop3/pop3client/getmessageheadersasync/
 ---
-## Pop3Client.GetMessageHeadersAsync method (1 of 8)
+## GetMessageHeadersAsync(IConnection, int) {#getmessageheadersasync}
 
 Gets the message headers
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (2 of 8)
+## GetMessageHeadersAsync(int) {#getmessageheadersasync_4}
 
 Gets the message headers
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (3 of 8)
+## GetMessageHeadersAsync(IConnection, string) {#getmessageheadersasync_2}
 
 Gets the message headers
 
@@ -85,7 +85,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (4 of 8)
+## GetMessageHeadersAsync(string) {#getmessageheadersasync_6}
 
 Gets the message headers
 
@@ -110,7 +110,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (5 of 8)
+## GetMessageHeadersAsync(IConnection, int, CancellationToken) {#getmessageheadersasync_1}
 
 Gets the message headers
 
@@ -139,7 +139,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (6 of 8)
+## GetMessageHeadersAsync(int, CancellationToken) {#getmessageheadersasync_5}
 
 Gets the message headers
 
@@ -165,7 +165,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (7 of 8)
+## GetMessageHeadersAsync(IConnection, string, CancellationToken) {#getmessageheadersasync_3}
 
 Gets the message headers
 
@@ -194,7 +194,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (8 of 8)
+## GetMessageHeadersAsync(string, CancellationToken) {#getmessageheadersasync_7}
 
 Gets the message headers
 

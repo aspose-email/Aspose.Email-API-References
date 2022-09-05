@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет более полное описание тревоги.
+description: Предоставляет более полное описание сигнала тревоги.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.calendar/appointmentreminder/description/
 ---
 ## AppointmentReminder.Description property
 
-Предоставляет более полное описание тревоги.
+Предоставляет более полное описание сигнала тревоги.
 
 ```csharp
 public string Description { get; set; }

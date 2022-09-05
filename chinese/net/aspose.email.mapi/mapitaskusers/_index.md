@@ -3,7 +3,7 @@ title: MapiTaskUsers
 second_title: Aspose.Email for .NET API 参考
 description: 表示有关任务用户的信息
 type: docs
-weight: 18730
+weight: 18760
 url: /zh/net/aspose.email.mapi/mapitaskusers/
 ---
 ## MapiTaskUsers class
@@ -18,20 +18,20 @@ public sealed class MapiTaskUsers
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiTaskUsers](mapitaskusers)() | 初始化[`MapiTaskUsers`](../mapitaskusers)类的新实例。 |
+| [MapiTaskUsers](mapitaskusers)() | 初始化[`MapiTaskUsers`](../mapitaskusers)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Assigner](../../aspose.email.mapi/mapitaskusers/assigner) { get; set; } | 指定属性组 定义创建任务的用户的显示名称和电子邮件地址。 |
+| [Assigner](../../aspose.email.mapi/mapitaskusers/assigner) { get; set; } | 指定属性组， 定义创建任务的用户的显示名称和电子邮件地址。 |
 | [Attendees](../../aspose.email.mapi/mapitaskusers/attendees) { get; } | 获取与会者。 |
-| [Delegator](../../aspose.email.mapi/mapitaskusers/delegator) { get; set; } | 获取或设置任务委托人。 |
+| [Delegator](../../aspose.email.mapi/mapitaskusers/delegator) { get; set; } | 获取或设置任务委托者。 |
 | [LastAssigner](../../aspose.email.mapi/mapitaskusers/lastassigner) { get; set; } | 获取或设置最后分配任务的用户 的名称。 |
-| [LastDelegate](../../aspose.email.mapi/mapitaskusers/lastdelegate) { get; set; } | 获取或设置最近分配任务最多 的邮箱代表的名称， 或空字符串 if没有代表。 |
-| [LastUser](../../aspose.email.mapi/mapitaskusers/lastuser) { get; set; } | 获取或设置最近用户的名称 成为任务所有者。 |
+| [LastDelegate](../../aspose.email.mapi/mapitaskusers/lastdelegate) { get; set; } | 获取或设置最近 分配任务最多的邮箱代理的名称， 或空字符串，如果没有代理。 |
+| [LastUser](../../aspose.email.mapi/mapitaskusers/lastuser) { get; set; } | 获取或设置最近的用户 的名称，使其成为任务所有者。 |
 | [Owner](../../aspose.email.mapi/mapitaskusers/owner) { get; set; } | 获取或设置任务所有者的名称。 |
-| [Ownership](../../aspose.email.mapi/mapitaskusers/ownership) { get; set; } | 获取或设置当前用户 相对于 Task 对象的角色。 |
+| [Ownership](../../aspose.email.mapi/mapitaskusers/ownership) { get; set; } | 获取或设置当前用户 相对于Task 对象的角色。 |
 
 ### 也可以看看
 

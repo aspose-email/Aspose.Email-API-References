@@ -1,14 +1,14 @@
 ---
 title: TransportKey
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_TRANSPORT_KEY
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_TRANSPORT_KEY
 type: docs
 weight: 19100
 url: /zh/net/aspose.email.mapi/knownpropertylist/transportkey/
 ---
 ## KnownPropertyList.TransportKey field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_TRANSPORT_KEY
+Microsoft? Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_TRANSPORT_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportKey;

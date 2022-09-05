@@ -1,14 +1,14 @@
 ---
 title: IsFolder
 second_title: Aspose.Email for .NET API 参考
-description: 如果条目指向文件夹
+description: 返回真如果条目指向一个文件夹
 type: docs
 weight: 40
 url: /zh/net/aspose.email.storage.pst/itemmovedeventargs/isfolder/
 ---
 ## ItemMovedEventArgs.IsFolder property
 
-如果条目指向文件夹
+返回真，如果条目指向一个文件夹
 
 ```csharp
 public bool IsFolder { get; }

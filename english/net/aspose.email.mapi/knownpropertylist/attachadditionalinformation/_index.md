@@ -1,7 +1,7 @@
 ---
 title: AttachAdditionalInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains attachment encoding information. Area Message Attachment Properties Canonical name PidTagAttachAdditionalInformation Alternate names PR_ATTACH_ADDITIONAL_INFO
 type: docs
 weight: 1510
 url: /net/aspose.email.mapi/knownpropertylist/attachadditionalinformation/

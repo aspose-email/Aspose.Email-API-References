@@ -16,7 +16,7 @@ public void DeleteItems(IEnumerable<string> itemUris, DeletionOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemUris | IEnumerable`1 | Элементы uris |
+| itemUris | IEnumerable`1 | Пункты Uris |
 | options | DeletionOptions | Определяет параметры удаления элементов |
 
 ### Смотрите также

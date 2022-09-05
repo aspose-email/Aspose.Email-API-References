@@ -1,38 +1,12 @@
 ---
 title: ListFoldersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of subfolders in the specified folder
 type: docs
 weight: 840
 url: /net/aspose.email.clients.imap/imapclient/listfoldersasync/
 ---
-## ImapClient.ListFoldersAsync method (1 of 20)
-
-Gets the list of folders in the mailbox
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ListFoldersAsync method (2 of 20)
+## ListFoldersAsync(IConnection, string) {#listfoldersasync_4}
 
 Gets the list of subfolders in the specified folder
 
@@ -59,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (3 of 20)
+## ListFoldersAsync(IConnection, bool) {#listfoldersasync_2}
 
 Gets the list of folders in the mailbox
 
@@ -86,7 +60,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (4 of 20)
+## ListFoldersAsync() {#listfoldersasync}
 
 Gets the list of folders in the mailbox
 
@@ -107,7 +81,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (5 of 20)
+## ListFoldersAsync(string) {#listfoldersasync_13}
 
 Gets the list of subfolders in the specified folder
 
@@ -132,7 +106,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (6 of 20)
+## ListFoldersAsync(bool) {#listfoldersasync_11}
 
 Gets the list of folders in the mailbox
 
@@ -157,7 +131,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (7 of 20)
+## ListFoldersAsync(string, bool) {#listfoldersasync_14}
 
 Gets the list of subfolders in the specified folder
 
@@ -183,7 +157,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (8 of 20)
+## ListFoldersAsync(IConnection, string, bool) {#listfoldersasync_5}
 
 Gets the list of subfolders in the specified folder
 
@@ -212,7 +186,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (9 of 20)
+## ListFoldersAsync(string, bool, ListFoldersOptions, ListFoldersReturnOptions) {#listfoldersasync_15}
 
 Gets the list of subfolders in the specified folder
 
@@ -243,7 +217,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (10 of 20)
+## ListFoldersAsync(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions) {#listfoldersasync_6}
 
 Gets the list of subfolders in the specified folder
 
@@ -276,7 +250,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (11 of 20)
+## ListFoldersAsync(IConnection, CancellationToken) {#listfoldersasync_10}
 
 Gets the list of folders in the mailbox
 
@@ -304,7 +278,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (12 of 20)
+## ListFoldersAsync(IConnection, string, CancellationToken) {#listfoldersasync_9}
 
 Gets the list of subfolders in the specified folder
 
@@ -333,7 +307,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (13 of 20)
+## ListFoldersAsync(IConnection, bool, CancellationToken) {#listfoldersasync_3}
 
 Gets the list of folders in the mailbox
 
@@ -362,7 +336,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (14 of 20)
+## ListFoldersAsync(CancellationToken) {#listfoldersasync_19}
 
 Gets the list of folders in the mailbox
 
@@ -387,7 +361,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (15 of 20)
+## ListFoldersAsync(string, CancellationToken) {#listfoldersasync_18}
 
 Gets the list of subfolders in the specified folder
 
@@ -413,7 +387,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (16 of 20)
+## ListFoldersAsync(bool, CancellationToken) {#listfoldersasync_12}
 
 Gets the list of folders in the mailbox
 
@@ -439,7 +413,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (17 of 20)
+## ListFoldersAsync(string, bool, CancellationToken) {#listfoldersasync_17}
 
 Gets the list of subfolders in the specified folder
 
@@ -467,7 +441,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (18 of 20)
+## ListFoldersAsync(IConnection, string, bool, CancellationToken) {#listfoldersasync_8}
 
 Gets the list of subfolders in the specified folder
 
@@ -497,7 +471,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (19 of 20)
+## ListFoldersAsync(string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) {#listfoldersasync_16}
 
 Gets the list of subfolders in the specified folder
 
@@ -529,7 +503,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListFoldersAsync method (20 of 20)
+## ListFoldersAsync(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) {#listfoldersasync_7}
 
 Gets the list of subfolders in the specified folder
 
@@ -558,6 +532,32 @@ Task object, with delegate for this operation
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * enum [ListFoldersOptions](../../listfoldersoptions)
 * enum [ListFoldersReturnOptions](../../listfoldersreturnoptions)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListFoldersAsync(IConnection) {#listfoldersasync_1}
+
+Gets the list of folders in the mailbox
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

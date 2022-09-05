@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение возникающее когда один из аргументов предоставленных методу недействителен.
+description: Исключение которое возникает когда один из аргументов предоставленных методу недействителен.
 type: docs
 weight: 260
 url: /ru/net/aspose.email/asposeargumentexception/
 ---
 ## AsposeArgumentException class
 
-Исключение, возникающее, когда один из аргументов, предоставленных методу, недействителен.
+Исключение, которое возникает, когда один из аргументов, предоставленных методу, недействителен.
 
 ```csharp
 public class AsposeArgumentException : AsposeException
@@ -18,12 +18,12 @@ public class AsposeArgumentException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeArgumentException](asposeargumentexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception). |
-| [AsposeArgumentException](asposeargumentexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeArgumentException](asposeargumentexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception)с указанным сообщением об ошибке. |
-| [AsposeArgumentException](asposeargumentexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeArgumentException](asposeargumentexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception)с указанным сообщением об ошибке. |
-| [AsposeArgumentException](asposeargumentexception#constructor_5)(string, string) | Инициализирует новый экземпляр класса[`AsposeArgumentException`](../asposeargumentexception)с указанным сообщением об ошибке. |
+| [AsposeArgumentException](asposeargumentexception#constructor)() | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс. |
+| [AsposeArgumentException](asposeargumentexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentException](asposeargumentexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс с указанным сообщением об ошибке. |
+| [AsposeArgumentException](asposeargumentexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentException](asposeargumentexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс с указанным сообщением об ошибке. |
+| [AsposeArgumentException](asposeargumentexception#constructor_5)(string, string) | Инициализирует новый экземпляр[`AsposeArgumentException`](../asposeargumentexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

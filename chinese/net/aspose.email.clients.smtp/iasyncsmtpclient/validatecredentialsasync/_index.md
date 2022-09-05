@@ -18,11 +18,11 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection = null,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-如果认证成功则为真，否则为假。
+如果身份验证成功，则为真，否则为假。
 
 ### 也可以看看
 

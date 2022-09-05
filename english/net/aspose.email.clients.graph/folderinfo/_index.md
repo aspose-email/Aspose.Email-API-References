@@ -1,7 +1,7 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents information about personal folder.
 type: docs
 weight: 15900
 url: /net/aspose.email.clients.graph/folderinfo/

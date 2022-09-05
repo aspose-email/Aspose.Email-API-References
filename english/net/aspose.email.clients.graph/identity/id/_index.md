@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unique identifier for the identity.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/identity/id/

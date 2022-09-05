@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API 参考
-description: 返回一个值该值指示指定的星期几是否存在于集合中
+description: 返回一个值该值指示集合中是否存在指定的星期几
 type: docs
 weight: 20
 url: /zh/net/aspose.email.calendar.recurrences/bydaycollection/contains/
 ---
 ## ByDayCollection.Contains method
 
-返回一个值，该值指示指定的星期几是否存在于集合中。
+返回一个值，该值指示集合中是否存在指定的星期几。
 
 ```csharp
 public bool Contains(DayOfWeek dayOfWeek)
@@ -16,11 +16,11 @@ public bool Contains(DayOfWeek dayOfWeek)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dayOfWeek | DayOfWeek | 星期DayOfWeek。 |
+| dayOfWeek | DayOfWeek | 星期几DayOfWeek. |
 
 ### 返回值
 
-如果 value 参数存在于此集合中，则为真，否则为假。
+如果 value 参数存在于此集合中，则为 true，否则为 false。
 
 ### 也可以看看
 

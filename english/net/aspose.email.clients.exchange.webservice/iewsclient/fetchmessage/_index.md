@@ -1,12 +1,12 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the message.
 type: docs
 weight: 810
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessage/
 ---
-## IEWSClient.FetchMessage method (1 of 2)
+## FetchMessage(string) {#fetchmessage}
 
 Fetches the message.
 
@@ -31,7 +31,7 @@ Returns a message
 
 ---
 
-## IEWSClient.FetchMessage method (2 of 2)
+## FetchMessage(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessage_1}
 
 Fetches the message from server
 

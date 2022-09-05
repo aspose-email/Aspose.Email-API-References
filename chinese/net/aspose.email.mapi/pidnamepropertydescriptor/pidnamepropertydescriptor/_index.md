@@ -1,14 +1,14 @@
 ---
 title: PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API 参考
-description: 初始化PidNamePropertyDescriptoraspose.email.mapi/pidnamepropertydescriptor类 由 a 标识的属性的新实例字符串名称以及属性集
+description: 初始化PidNamePropertyDescriptoraspose.email.mapi/pidnamepropertydescriptor class 由字符串名称和属性集标识的属性
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/pidnamepropertydescriptor/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor(string, PropertyDataType, Guid) {#constructor}
 
-初始化[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)类 由 a 标识的属性的新实例字符串名称以及属性集。
+初始化[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class 由字符串名称和属性集标识的属性。
 
 ```csharp
 public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid propertySet)
@@ -18,7 +18,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 | --- | --- | --- |
 | name | String | 与属性集一起标识命名属性的字符串。 |
 | type | PropertyDataType | 指定属性允许的值类型。 |
-| propertySet | Guid | 标识一组具有类似用途的属性的 GUID。 |
+| propertySet | Guid | 标识具有相似用途的一组属性的 GUID。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 
 ## PidNamePropertyDescriptor(string, string, PropertyDataType, Guid) {#constructor_1}
 
-初始化[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)类 由 a 标识的属性的新实例字符串名称以及属性集。
+初始化[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class 由字符串名称和属性集标识的属性。
 
 ```csharp
 public PidNamePropertyDescriptor(string canonicalName, string name, PropertyDataType type, 
@@ -43,7 +43,7 @@ public PidNamePropertyDescriptor(string canonicalName, string name, PropertyData
 | canonicalName | String | 用于在文档中引用属性的名称。 |
 | name | String | 与属性集一起标识命名属性的字符串。 |
 | type | PropertyDataType | 指定属性允许的值类型。 |
-| propertySet | Guid | 标识一组具有类似用途的属性的 GUID。 |
+| propertySet | Guid | 标识具有相似用途的一组属性的 GUID。 |
 
 ### 也可以看看
 

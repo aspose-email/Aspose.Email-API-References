@@ -16,7 +16,7 @@ public virtual void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名保存消息。 |
+| fileName | String | 要保存消息的文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public virtual void Save(string fileName)
 
 ## Save(string, SaveOptions) {#save_3}
 
-将消息保存为带有附加选项的文件。
+将消息另存为带有附加选项的文件。
 
 ```csharp
 public virtual void Save(string fileName, SaveOptions options)
@@ -37,7 +37,7 @@ public virtual void Save(string fileName, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 保存消息的流。 |
-| options | SaveOptions | 保存的附加选项[`SaveOptions`](../../saveoptions)。 |
+| options | SaveOptions | 其他保存选项[`SaveOptions`](../../saveoptions). |
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public virtual void Save(Stream stream, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 保存消息的流。 |
-| options | SaveOptions | 保存的附加选项[`SaveOptions`](../../saveoptions)。 |
+| options | SaveOptions | 其他保存选项[`SaveOptions`](../../saveoptions). |
 
 ### 也可以看看
 
@@ -80,7 +80,7 @@ public virtual void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流到哪个消息保存 |
+| stream | Stream | 保存消息的流 |
 
 ### 也可以看看
 

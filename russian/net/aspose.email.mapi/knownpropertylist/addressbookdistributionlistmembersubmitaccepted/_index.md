@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListMemberSubmitAccepted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что для получателя существуют ограничения на доставку. ОбластьАдресная книга Каноническое имяPidTagAddressBookDistributionListMemberSubmitAccepted Альтернативные именаPR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
+description: Указывает что для получателя существуют ограничения на доставку. Область Адресная книга Каноническое имя PidTagAddressBookDistributionListMemberSubmitAccepted Альтернативные имена PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
 type: docs
 weight: 410
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistmembersubmitaccepted/
 ---
 ## KnownPropertyList.AddressBookDistributionListMemberSubmitAccepted field
 
-Указывает, что для получателя существуют ограничения на доставку. Область:Адресная книга Каноническое имя:PidTagAddressBookDistributionListMemberSubmitAccepted Альтернативные имена:PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
+Указывает, что для получателя существуют ограничения на доставку. Область: Адресная книга Каноническое имя: PidTagAddressBookDistributionListMemberSubmitAccepted Альтернативные имена: PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDistributionListMemberSubmitAccepted;

@@ -1,14 +1,14 @@
 ---
 title: Fax1OriginalDisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 PidTagNormalizedSubject 属性相同的值第 2.803 节 区域联系人属性 规范名称PidLidFax1OriginalDisplayName 替代名称dispidFax1OriginalDisplayName
+description: 包含与 PidTagNormalizedSubject 属性第 2.803 节相同的值 区域联系人 Properties 规范名称PidLidFax1OriginalDisplayName 备用名称dispidFax1OriginalDisplayName
 type: docs
 weight: 10150
 url: /zh/net/aspose.email.mapi/knownpropertylist/fax1originaldisplayname/
 ---
 ## KnownPropertyList.Fax1OriginalDisplayName field
 
-包含与 PidTagNormalizedSubject 属性相同的值（第 2.803 节）。 区域:联系人属性 规范名称:PidLidFax1OriginalDisplayName 替代名称:dispidFax1OriginalDisplayName
+包含与 PidTagNormalizedSubject 属性（第 2.803 节）相同的值。 区域：联系人 Properties 规范名称：PidLidFax1OriginalDisplayName 备用名称：dispidFax1OriginalDisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax1OriginalDisplayName;

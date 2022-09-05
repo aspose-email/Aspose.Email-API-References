@@ -1,14 +1,14 @@
 ---
 title: ExceptionStartTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время начала исключения в локальном часовом поясе компьютера при создании исключения. ОбластьMessageClassDefinedNonTransmittable Каноническое имяPidTagExceptionStartTime Альтернативные именаPR_EXCEPTION_STARTTIME ptagExceptionStartTime
+description: Содержит дату и время начала исключения в локальном часовом поясе компьютера при создании исключения. Область MessageClassDefinedNonTransmittable Каноническое имя PidTagExceptionStartTime Альтернативные имена PR_EXCEPTION_STARTTIME ptagExceptionStartTime
 type: docs
 weight: 9800
 url: /ru/net/aspose.email.mapi/knownpropertylist/exceptionstarttime/
 ---
 ## KnownPropertyList.ExceptionStartTime field
 
-Содержит дату и время начала исключения в локальном часовом поясе компьютера при создании исключения. Область:MessageClassDefinedNonTransmittable Каноническое имя:PidTagExceptionStartTime Альтернативные имена:PR_EXCEPTION_STARTTIME, ptagExceptionStartTime
+Содержит дату и время начала исключения в локальном часовом поясе компьютера при создании исключения. Область: MessageClassDefinedNonTransmittable Каноническое имя: PidTagExceptionStartTime Альтернативные имена: PR_EXCEPTION_STARTTIME, ptagExceptionStartTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExceptionStartTime;

@@ -1,14 +1,14 @@
 ---
 title: MaxEmailAgeFilter
 second_title: Aspose.Email for .NET API 参考
-description: 指定同步的电子邮件期限 有效值如下所列 同步所有 1 天 3 天 1 周 2 周 1 个月
+description: 指定同步的电子邮件期限 有效值如下所示 同步所有 1 天 3 天 1 周 2 周 1 个月
 type: docs
 weight: 290
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxemailagefilter/
 ---
 ## EASProvisionDoc.MaxEmailAgeFilter property
 
-指定同步的电子邮件期限。 有效值如下所列: 同步所有 1 天 3 天 1 周 2 周 1 个月
+指定同步的电子邮件期限。 有效值如下所示： 同步所有 1 天 3 天 1 周 2 周 1 个月
 
 ```csharp
 public MaxAgeFilter? MaxEmailAgeFilter { get; set; }

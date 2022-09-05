@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个与传输无关的状态代码它指示消息向该收件人的传递状态
+description: 包含一个独立于传输的状态代码它指示邮件向该收件人的传递状态
 type: docs
 weight: 70
 url: /zh/net/aspose.email.bounce/bounceresult/status/
 ---
 ## BounceResult.Status property
 
-包含一个与传输无关的状态代码，它指示消息向该收件人的传递状态。
+包含一个独立于传输的状态代码，它指示邮件向该收件人的传递状态。
 
 ```csharp
 public string Status { get; }

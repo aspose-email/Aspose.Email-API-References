@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteUid
 second_title: Aspose.Email for .NET API 参考
-description: 包含正在共享的文件夹的 EntryID 区域共享 规范名称PidLidSharingRemoteUid 替代名称dispidSharingRemoteUid
+description: 包含正在共享的文件夹的 EntryID 区域Sharing 规范名称PidLidSharingRemoteUid 备用名称dispidSharingRemoteUid
 type: docs
 weight: 17870
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremoteuid/
 ---
 ## KnownPropertyList.SharingRemoteUid field
 
-包含正在共享的文件夹的 EntryID。 区域:共享 规范名称:PidLidSharingRemoteUid 替代名称:dispidSharingRemoteUid
+包含正在共享的文件夹的 EntryID。 区域：Sharing 规范名称：PidLidSharingRemoteUid 备用名称：dispidSharingRemoteUid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteUid;

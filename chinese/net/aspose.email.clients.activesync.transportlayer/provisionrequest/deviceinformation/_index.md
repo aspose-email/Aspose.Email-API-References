@@ -1,14 +1,14 @@
 ---
 title: DeviceInformation
 second_title: Aspose.Email for .NET API 参考
-description: 设备信息 当协议版本为 14.1 时客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容但不会在后续请求中发送
+description: 设备信息 当协议版本为 14.1 时客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容而不是在后续请求中
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation/
 ---
 ## ProvisionRequest.DeviceInformation property
 
-设备信息。 当协议版本为 14.1 时，客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容，但不会在后续请求中发送。
+设备信息。 当协议版本为 14.1 时，客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容，而不是在后续请求中。
 
 ```csharp
 public DeviceInformation DeviceInformation { get; set; }

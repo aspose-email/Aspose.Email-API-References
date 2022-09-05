@@ -1,7 +1,7 @@
 ---
 title: UniquePathId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a string that is different for each path.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/uniquepathid/

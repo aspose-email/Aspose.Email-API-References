@@ -1,7 +1,7 @@
 ---
 title: Sensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Sensitivity.
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapimessageitembase/sensitivity/

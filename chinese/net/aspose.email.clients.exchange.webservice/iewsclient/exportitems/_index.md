@@ -16,18 +16,18 @@ public ExchangeStreamedItem[] ExportItems(params string[] itemIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemIds | String[] | 项目的 Ids 到被导出 |
+| itemIds | String[] | 要导出的项目ID |
 
 ### 返回值
 
-数组[`ExchangeStreamedItem`](../../exchangestreameditem)
+一个数组[`ExchangeStreamedItem`](../../exchangestreameditem)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds*是` 空` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds*是`无效的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds*是`空的` |
 
 ### 也可以看看
 

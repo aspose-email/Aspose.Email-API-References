@@ -1,14 +1,14 @@
 ---
 title: EmsAbX25LeasedLinePort
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_X25_LEASED_LINE_PORT
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_X25_LEASED_LINE_PORT
 type: docs
 weight: 9620
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabx25leasedlineport/
 ---
 ## KnownPropertyList.EmsAbX25LeasedLinePort field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_X25_LEASED_LINE_PORT
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_X25_LEASED_LINE_PORT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX25LeasedLinePort;

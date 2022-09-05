@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiCalendarExceptionInfoaspose.email.mapi/mapicalendarexceptioninfo类的新实例
+description: 初始化MapiCalendarExceptionInfoaspose.email.mapi/mapicalendarexceptioninfo类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendarexceptioninfo/mapicalendarexceptioninfo/
 ---
 ## MapiCalendarExceptionInfo constructor
 
-初始化[`MapiCalendarExceptionInfo`](../../mapicalendarexceptioninfo)类的新实例。
+初始化[`MapiCalendarExceptionInfo`](../../mapicalendarexceptioninfo)类.
 
 ```csharp
 public MapiCalendarExceptionInfo()

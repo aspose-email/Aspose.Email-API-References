@@ -1,14 +1,14 @@
 ---
 title: EntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于识别许多不同类型的消息传递对象的信息 区域ID 属性 规范名称PidTagEntryId 替代名称PR_ENTRYID ptagEntryId
+description: 包含用于识别许多不同类型的消息传递对象的信息 区域ID 属性 规范名称PidTagEntryId 替代名称PR_ENTRYIDptagEntryId
 type: docs
 weight: 9760
 url: /zh/net/aspose.email.mapi/knownpropertylist/entryid/
 ---
 ## KnownPropertyList.EntryId field
 
-包含用于识别许多不同类型的消息传递对象的信息。 区域:ID 属性 规范名称:PidTagEntryId 替代名称:PR_ENTRYID, ptagEntryId
+包含用于识别许多不同类型的消息传递对象的信息。 区域：ID 属性 规范名称：PidTagEntryId 替代名称：PR_ENTRYID、ptagEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EntryId;

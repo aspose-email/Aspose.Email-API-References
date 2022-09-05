@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/changekey/
 ---
 ## KnownPropertyList.ChangeKey field
 
-包含标识对象最后一次更改的结构。 区域:历史属性 规范名称:PidTagChangeKey 替代名称:PR_CHANGE_KEY
+包含标识对象最后一次更改的结构。 区域：历史属性 规范名称：PidTagChangeKey 替代名称：PR_CHANGE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeKey;

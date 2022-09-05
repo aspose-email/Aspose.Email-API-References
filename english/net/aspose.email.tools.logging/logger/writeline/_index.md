@@ -1,12 +1,12 @@
 ---
 title: WriteLine
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes the empty line to appenders.
 type: docs
 weight: 100
 url: /net/aspose.email.tools.logging/logger/writeline/
 ---
-## Logger.WriteLine method (1 of 3)
+## WriteLine() {#writeline}
 
 Writes the empty line to appenders.
 
@@ -22,7 +22,7 @@ public void WriteLine()
 
 ---
 
-## Logger.WriteLine method (2 of 3)
+## WriteLine(string) {#writeline_2}
 
 Writes the specified message to appenders.
 
@@ -42,7 +42,7 @@ public void WriteLine(string message)
 
 ---
 
-## Logger.WriteLine method (3 of 3)
+## WriteLine(object) {#writeline_1}
 
 Writes the specified message to appenders.
 

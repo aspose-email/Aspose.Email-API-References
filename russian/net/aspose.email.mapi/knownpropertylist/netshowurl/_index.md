@@ -1,14 +1,14 @@
 ---
 title: NetShowUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес который будет запущен когда пользователь присоединяется к собранию. ОбластьКонференц-связь Каноническое имяPidLidNetShowUrl Альтернативные именаdispidNetShowURL
+description: Указывает URL-адрес который будет запущен когда пользователь присоединяется к собранию. Область Conferencing Каноническое имя PidLidNetShowUrl Альтернативные имена dispidNetShowURL
 type: docs
 weight: 12830
 url: /ru/net/aspose.email.mapi/knownpropertylist/netshowurl/
 ---
 ## KnownPropertyList.NetShowUrl field
 
-Указывает URL-адрес, который будет запущен, когда пользователь присоединяется к собранию. Область:Конференц-связь Каноническое имя:PidLidNetShowUrl Альтернативные имена:dispidNetShowURL
+Указывает URL-адрес, который будет запущен, когда пользователь присоединяется к собранию. Область: Conferencing Каноническое имя: PidLidNetShowUrl Альтернативные имена: dispidNetShowURL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NetShowUrl;

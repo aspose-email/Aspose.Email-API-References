@@ -1,14 +1,14 @@
 ---
 title: MsgBodyId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MSG_BODY_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MSG_BODY_ID
 type: docs
 weight: 12790
 url: /ru/net/aspose.email.mapi/knownpropertylist/msgbodyid/
 ---
 ## KnownPropertyList.MsgBodyId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MSG_BODY_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MSG_BODY_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MsgBodyId;

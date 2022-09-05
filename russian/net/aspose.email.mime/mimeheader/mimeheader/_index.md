@@ -1,14 +1,14 @@
 ---
 title: MimeHeader
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMimeHeaderaspose.email.mime/mimeheader.
+description: Инициализирует новый экземплярMimeHeaderaspose.email.mime/mimeheader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/mimeheader/mimeheader/
 ---
 ## MimeHeader constructor
 
-Инициализирует новый экземпляр класса[`MimeHeader`](../../mimeheader).
+Инициализирует новый экземпляр[`MimeHeader`](../../mimeheader) класс.
 
 ```csharp
 public MimeHeader(string name, string value)

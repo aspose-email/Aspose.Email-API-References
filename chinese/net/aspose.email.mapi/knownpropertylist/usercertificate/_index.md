@@ -1,14 +1,14 @@
 ---
 title: UserCertificate
 second_title: Aspose.Email for .NET API 参考
-description: 包含消息用户的 ASN.1 身份验证证书 区域MapiMailUser 规范名称PidTagUserCertificate 备用名称PR_USER_CERTIFICATE ptagUserCertificate urnschemascontactsusercertificate
+description: 包含消息传递用户的 ASN.1 身份验证证书 区域MapiMailUser 规范名称PidTagUserCertificate 替代名称PR_USER_CERTIFICATEptagUserCertificateurnschemascontactsusercertificate
 type: docs
 weight: 19160
 url: /zh/net/aspose.email.mapi/knownpropertylist/usercertificate/
 ---
 ## KnownPropertyList.UserCertificate field
 
-包含消息用户的 ASN.1 身份验证证书。 区域:MapiMailUser 规范名称:PidTagUserCertificate 备用名称:PR_USER_CERTIFICATE, ptagUserCertificate, urn:schemas:contacts:usercertificate
+包含消息传递用户的 ASN.1 身份验证证书。 区域：MapiMailUser 规范名称：PidTagUserCertificate 替代名称：PR_USER_CERTIFICATE、ptagUserCertificate、urn:schemas:contacts:usercertificate
 
 ```csharp
 public static readonly PidTagPropertyDescriptor UserCertificate;

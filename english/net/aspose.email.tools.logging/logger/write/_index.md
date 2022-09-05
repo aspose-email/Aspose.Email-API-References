@@ -1,12 +1,12 @@
 ---
 title: Write
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes the specified message to appenders.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.logging/logger/write/
 ---
-## Logger.Write method (1 of 4)
+## Write(string) {#write_1}
 
 Writes the specified message to appenders.
 
@@ -26,7 +26,7 @@ public void Write(string message)
 
 ---
 
-## Logger.Write method (2 of 4)
+## Write(string, Exception) {#write_2}
 
 Writes the specified message and exception to appenders.
 
@@ -47,7 +47,7 @@ public void Write(string message, Exception exception)
 
 ---
 
-## Logger.Write method (3 of 4)
+## Write(string, Exception, LogLevel) {#write_3}
 
 Writes the specified message and exception to appenders.
 
@@ -70,7 +70,7 @@ public void Write(string message, Exception ex, LogLevel level)
 
 ---
 
-## Logger.Write method (4 of 4)
+## Write(object) {#write}
 
 Writes the specified message to appenders.
 

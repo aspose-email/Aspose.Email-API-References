@@ -3,7 +3,7 @@ title: LoadAsMultiple
 second_title: Aspose.Email for .NET API 参考
 description: 从多联系人流中加载联系人列表
 type: docs
-weight: 160
+weight: 170
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/
 ---
 ## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_3}
@@ -17,8 +17,8 @@ public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encodi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 要从 |
-| encoding | Encoding | Stream 读取的文件名数据编码，如果为 null 则使用 UTF8。 |
+| filePath | String | 要读取的文件名 |
+| encoding | Encoding | 流数据编码，如果为 null 则使用 UTF8。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
@@ -45,7 +45,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 源流 |
-| encoding | Encoding | 流数据编码，如果null 则将使用 UTF8。 |
+| encoding | Encoding | 流数据编码，如果为 null 则使用 UTF8。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
@@ -71,7 +71,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 源流 |
-| encoding | Encoding | 流数据编码，如果null 则将使用 UTF8。 |
+| encoding | Encoding | 流数据编码，如果为 null 则使用 UTF8。 |
 
 ### 返回值
 
@@ -96,7 +96,7 @@ public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encodi
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 源文件 |
-| encoding | Encoding | 文件数据编码，如果null 则将使用 UTF8。 |
+| encoding | Encoding | 文件数据编码，如果为 null 则使用 UTF8。 |
 
 ### 也可以看看
 

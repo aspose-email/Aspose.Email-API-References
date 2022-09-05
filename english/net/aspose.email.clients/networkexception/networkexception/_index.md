@@ -1,12 +1,12 @@
 ---
 title: NetworkException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the NetworkExceptionaspose.email.clients/networkexception class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/networkexception/networkexception/
 ---
-## NetworkException constructor (1 of 3)
+## NetworkException() {#constructor}
 
 Initializes a new instance of the [`NetworkException`](../../networkexception) class.
 
@@ -22,7 +22,7 @@ public NetworkException()
 
 ---
 
-## NetworkException constructor (2 of 3)
+## NetworkException(string) {#constructor_1}
 
 Initializes a new instance of the [`NetworkException`](../../networkexception) class.
 
@@ -42,7 +42,7 @@ public NetworkException(string message)
 
 ---
 
-## NetworkException constructor (3 of 3)
+## NetworkException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`NetworkException`](../../networkexception) class.
 

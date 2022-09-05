@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates MapiContact photo image format.
 type: docs
-weight: 18090
+weight: 18300
 url: /net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 ## MapiContactPhotoImageFormat enumeration

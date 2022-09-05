@@ -1,14 +1,14 @@
 ---
 title: MicrosoftPowerPointPresentation
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft power point 格式
+description: 微软power point格式
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/oledocumentformat/microsoftpowerpointpresentation/
 ---
 ## OleDocumentFormat.MicrosoftPowerPointPresentation property
 
-Microsoft power point 格式。
+微软power point格式。
 
 ```csharp
 public static OleDocumentFormat MicrosoftPowerPointPresentation { get; }

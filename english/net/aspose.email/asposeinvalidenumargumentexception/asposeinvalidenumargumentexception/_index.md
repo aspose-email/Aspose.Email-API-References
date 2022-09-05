@@ -1,12 +1,12 @@
 ---
 title: AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeInvalidEnumArgumentExceptionaspose.email/asposeinvalidenumargumentexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeinvalidenumargumentexception/asposeinvalidenumargumentexception/
 ---
-## AsposeInvalidEnumArgumentException constructor (1 of 5)
+## AsposeInvalidEnumArgumentException() {#constructor}
 
 Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class.
 
@@ -22,7 +22,7 @@ public AsposeInvalidEnumArgumentException()
 
 ---
 
-## AsposeInvalidEnumArgumentException constructor (2 of 5)
+## AsposeInvalidEnumArgumentException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeInvalidEnumArgumentException(string message)
 
 ---
 
-## AsposeInvalidEnumArgumentException constructor (3 of 5)
+## AsposeInvalidEnumArgumentException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeInvalidEnumArgumentException(string format, params object[] paramet
 
 ---
 
-## AsposeInvalidEnumArgumentException constructor (4 of 5)
+## AsposeInvalidEnumArgumentException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -84,7 +84,7 @@ public AsposeInvalidEnumArgumentException(string message, Exception innerExcepti
 
 ---
 
-## AsposeInvalidEnumArgumentException constructor (5 of 5)
+## AsposeInvalidEnumArgumentException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a reference to the inner exception that is the cause of this exception.
 

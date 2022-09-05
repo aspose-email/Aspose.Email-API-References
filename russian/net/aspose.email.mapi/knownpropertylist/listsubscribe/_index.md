@@ -1,14 +1,14 @@
 ---
 title: ListSubscribe
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URI который подписывает получателя на список рассылки связанный с сообщением. ОбластьПрочие свойства Каноническое имяPidTagListSubscribe Альтернативные именаPR_LIST_SUBSCRIBE PR_LIST_SUBSCRIBE_A PR_LIST_SUBSCRIBE_W
+description: Содержит URI который подписывает получателя на список рассылки связанный с сообщением. Область Прочие свойства Каноническое имя PidTagListSubscribe Альтернативные имена PR_LIST_SUBSCRIBE PR_LIST_SUBSCRIBE_A PR_LIST_SUBSCRIBE_W
 type: docs
 weight: 12130
 url: /ru/net/aspose.email.mapi/knownpropertylist/listsubscribe/
 ---
 ## KnownPropertyList.ListSubscribe field
 
-Содержит URI, который подписывает получателя на список рассылки, связанный с сообщением. Область:Прочие свойства Каноническое имя:PidTagListSubscribe Альтернативные имена:PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W
+Содержит URI, который подписывает получателя на список рассылки, связанный с сообщением. Область: Прочие свойства Каноническое имя: PidTagListSubscribe Альтернативные имена: PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListSubscribe;

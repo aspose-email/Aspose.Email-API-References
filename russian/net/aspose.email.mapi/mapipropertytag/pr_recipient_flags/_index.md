@@ -1,14 +1,14 @@
 ---
 title: PR_RECIPIENT_FLAGS
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает битовое поле описывающее статус получателя.
+description: Указывает битовое поле описывающее статус получателя.
 type: docs
 weight: 17810
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_recipient_flags/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_FLAGS field
 
-Задает битовое поле, описывающее статус получателя.
+Указывает битовое поле, описывающее статус получателя.
 
 ```csharp
 public static readonly long PR_RECIPIENT_FLAGS;

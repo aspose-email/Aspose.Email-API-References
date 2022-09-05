@@ -1,14 +1,14 @@
 ---
 title: SenderIdStatus
 second_title: Aspose.Email for .NET API 参考
-description: 报告 Sender-ID 检查的结果 区域安全消息传递属性 规范名称PidTagSenderIdStatus 备用名称PR_SENDER_ID_STATUS
+description: 报告发件人 ID 检查的结果 区域安全消息传递属性 规范名称PidTagSenderIdStatus 备用名称PR_SENDER_ID_STATUS
 type: docs
 weight: 17120
 url: /zh/net/aspose.email.mapi/knownpropertylist/senderidstatus/
 ---
 ## KnownPropertyList.SenderIdStatus field
 
-报告 Sender-ID 检查的结果。 区域:安全消息传递属性 规范名称:PidTagSenderIdStatus 备用名称:PR_SENDER_ID_STATUS
+报告发件人 ID 检查的结果。 区域：安全消息传递属性 规范名称：PidTagSenderIdStatus 备用名称：PR_SENDER_ID_STATUS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderIdStatus;

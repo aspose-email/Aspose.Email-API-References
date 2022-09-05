@@ -1,7 +1,7 @@
 ---
 title: StartPosition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start position.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/startposition/

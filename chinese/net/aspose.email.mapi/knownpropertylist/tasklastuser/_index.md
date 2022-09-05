@@ -1,14 +1,14 @@
 ---
 title: TaskLastUser
 second_title: Aspose.Email for .NET API 参考
-description: 包含最近成为任务所有者的用户的名称 区域任务 规范名称PidLidTaskLastUser 替代名称dispidTaskLastUser
+description: 包含最近成为任务所有者的用户的名称 区域Tasks 规范名称PidLidTaskLastUser 替代名称dispidTaskLastUser
 type: docs
 weight: 18710
 url: /zh/net/aspose.email.mapi/knownpropertylist/tasklastuser/
 ---
 ## KnownPropertyList.TaskLastUser field
 
-包含最近成为任务所有者的用户的名称。 区域:任务 规范名称:PidLidTaskLastUser 替代名称:dispidTaskLastUser
+包含最近成为任务所有者的用户的名称。 区域：Tasks 规范名称：PidLidTaskLastUser 替代名称：dispidTaskLastUser
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastUser;

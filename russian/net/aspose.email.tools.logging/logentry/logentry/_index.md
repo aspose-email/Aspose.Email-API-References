@@ -1,14 +1,14 @@
 ---
 title: LogEntry
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаLogEntryaspose.email.tools.logging/logentry.
+description: Инициализировать новый экземплярLogEntryaspose.email.tools.logging/logentry класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.logging/logentry/logentry/
 ---
 ## LogEntry() {#constructor}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry()
@@ -24,7 +24,7 @@ public LogEntry()
 
 ## LogEntry(string) {#constructor_5}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry(string message)
@@ -44,7 +44,7 @@ public LogEntry(string message)
 
 ## LogEntry(string, DateTime) {#constructor_9}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry(string message, DateTime time)
@@ -65,7 +65,7 @@ public LogEntry(string message, DateTime time)
 
 ## LogEntry(string, Exception) {#constructor_10}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry(string message, Exception innerException)
@@ -74,7 +74,7 @@ public LogEntry(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Тело сообщения для регистрации. Значение из метода ToString() из объекта сообщения. |
-| innerException | Exception | Внутреннее исключение для регистрации. |
+| innerException | Exception | Внутреннее исключение для журнала. |
 
 ### Смотрите также
 
@@ -86,7 +86,7 @@ public LogEntry(string message, Exception innerException)
 
 ## LogEntry(string, LogLevel) {#constructor_6}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry(string message, LogLevel severity)
@@ -95,7 +95,7 @@ public LogEntry(string message, LogLevel severity)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Тело сообщения для регистрации. Значение из метода ToString() из объекта сообщения. |
-| severity | LogLevel | Серьезность записи журнала в виде перечисления[`Severity`](../severity). (Не указано, Информация, Предупреждение или Ошибка). |
+| severity | LogLevel | Серьезность записи журнала как[`Severity`](../severity) перечисление. (Не указано, Информация, Предупреждение или Ошибка). |
 
 ### Смотрите также
 
@@ -108,7 +108,7 @@ public LogEntry(string message, LogLevel severity)
 
 ## LogEntry(string, Exception, LogLevel) {#constructor_11}
 
-Инициализировать новый экземпляр класса[`LogEntry`](../../logentry).
+Инициализировать новый экземпляр[`LogEntry`](../../logentry) класс.
 
 ```csharp
 public LogEntry(string message, Exception innerException, LogLevel severity)
@@ -117,8 +117,8 @@ public LogEntry(string message, Exception innerException, LogLevel severity)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Тело сообщения для регистрации. Значение из метода ToString() из объекта сообщения. |
-| innerException | Exception | Внутреннее исключение для регистрации. |
-| severity | LogLevel | Серьезность записи журнала в виде перечисления[`Severity`](../severity). (Не указано, Информация, Предупреждение или Ошибка). |
+| innerException | Exception | Внутреннее исключение для журнала. |
+| severity | LogLevel | Серьезность записи журнала как[`Severity`](../severity) перечисление. (Не указано, Информация, Предупреждение или Ошибка). |
 
 ### Смотрите также
 
@@ -131,7 +131,7 @@ public LogEntry(string message, Exception innerException, LogLevel severity)
 
 ## LogEntry(string, IDictionary&lt;string, string&gt;) {#constructor_8}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(string message, IDictionary<string, string> properties)
@@ -152,7 +152,7 @@ public LogEntry(string message, IDictionary<string, string> properties)
 
 ## LogEntry(byte[]) {#constructor_1}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage)
@@ -160,7 +160,7 @@ public LogEntry(byte[] binaryDataMessage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binaryDataMessage | Byte[] | Тело двоичного сообщения для регистрации. |
+| binaryDataMessage | Byte[] | Двоичное тело сообщения для регистрации. |
 
 ### Смотрите также
 
@@ -172,7 +172,7 @@ public LogEntry(byte[] binaryDataMessage)
 
 ## LogEntry(byte[], Encoding) {#constructor_3}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
@@ -180,8 +180,8 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binaryDataMessage | Byte[] | Тело двоичного сообщения для регистрации. |
-| messageEncoding | Encoding | Кодировка двоичного сообщения |
+| binaryDataMessage | Byte[] | Двоичное тело сообщения для регистрации. |
+| messageEncoding | Encoding | Кодирование двоичного сообщения |
 
 ### Смотрите также
 
@@ -193,7 +193,7 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
 
 ## LogEntry(byte[], IDictionary&lt;string, string&gt;) {#constructor_2}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties)
@@ -201,7 +201,7 @@ public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binaryDataMessage | Byte[] | Тело двоичного сообщения для регистрации. |
+| binaryDataMessage | Byte[] | Двоичное тело сообщения для регистрации. |
 | properties | IDictionary`2 | Словарь пар ключ/значение для записи. |
 
 ### Смотрите также
@@ -214,7 +214,7 @@ public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties
 
 ## LogEntry(byte[], Encoding, IDictionary&lt;string, string&gt;) {#constructor_4}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding, 
@@ -223,8 +223,8 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binaryDataMessage | Byte[] | Тело двоичного сообщения для регистрации. |
-| messageEncoding | Encoding | Кодировка двоичного сообщения |
+| binaryDataMessage | Byte[] | Двоичное тело сообщения для регистрации. |
+| messageEncoding | Encoding | Кодирование двоичного сообщения |
 | properties | IDictionary`2 | Словарь пар ключ/значение для записи. |
 
 ### Смотрите также
@@ -237,7 +237,7 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding,
 
 ## LogEntry(string, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_7}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(string message, LogLevel severity, string category, int eventId, string title, 
@@ -247,9 +247,9 @@ public LogEntry(string message, LogLevel severity, string category, int eventId,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Тело сообщения для регистрации. Значение из метода ToString() из объекта сообщения. |
-| severity | LogLevel | Серьезность записи журнала в виде перечисления[`Severity`](../severity). (Не указано, Информация, Предупреждение или Ошибка). |
+| severity | LogLevel | Серьезность записи журнала как[`Severity`](../severity) перечисление. (Не указано, Информация, Предупреждение или Ошибка). |
 | category | String | Имя категории, используемое для маршрутизации записи журнала к одному или нескольким приемникам. |
-| eventId | Int32 | Номер или идентификатор события. |
+| eventId | Int32 | Номер события или идентификатор. |
 | title | String | Дополнительное описание сообщения записи журнала. |
 | properties | IDictionary`2 | Словарь пар ключ/значение для записи. |
 
@@ -264,7 +264,7 @@ public LogEntry(string message, LogLevel severity, string category, int eventId,
 
 ## LogEntry(string, Exception, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_12}
 
-Создать новый экземпляр[`LogEntry`](../../logentry)с полным набором параметров конструктора
+Создать новый экземпляр[`LogEntry`](../../logentry) с полным набором параметров конструктора
 
 ```csharp
 public LogEntry(string message, Exception innerException, LogLevel severity, string category, 
@@ -274,10 +274,10 @@ public LogEntry(string message, Exception innerException, LogLevel severity, str
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Тело сообщения для регистрации. Значение из метода ToString() из объекта сообщения. |
-| innerException | Exception | Внутреннее исключение для регистрации. |
-| severity | LogLevel | Серьезность записи журнала в виде перечисления[`Severity`](../severity). (Не указано, Информация, Предупреждение или Ошибка). |
+| innerException | Exception | Внутреннее исключение для журнала. |
+| severity | LogLevel | Серьезность записи журнала как[`Severity`](../severity) перечисление. (Не указано, Информация, Предупреждение или Ошибка). |
 | category | String | Имя категории, используемое для маршрутизации записи журнала к одному или нескольким приемникам. |
-| eventId | Int32 | Номер или идентификатор события. |
+| eventId | Int32 | Номер события или идентификатор. |
 | title | String | Дополнительное описание сообщения записи журнала. |
 | properties | IDictionary`2 | Словарь пар ключ/значение для записи. |
 

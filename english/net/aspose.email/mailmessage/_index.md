@@ -1,9 +1,9 @@
 ---
 title: MailMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an email message. It allows to access message properties ex. subject body sender and recipients addreses etc. Also it can be sent and delivered by means of supported mail protocols.
 type: docs
-weight: 17540
+weight: 17710
 url: /net/aspose.email/mailmessage/
 ---
 ## MailMessage class
@@ -19,11 +19,11 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 
 | Name | Description |
 | --- | --- |
-| [MailMessage](mailmessage)() | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
-| [MailMessage](mailmessage)(bool) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
-| [MailMessage](mailmessage)(MailAddress, MailAddress) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
-| [MailMessage](mailmessage)(string, string) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
-| [MailMessage](mailmessage)(string, string, string, string) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
+| [MailMessage](mailmessage#constructor)() | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
+| [MailMessage](mailmessage#constructor_2)(bool) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
+| [MailMessage](mailmessage#constructor_1)(MailAddress, MailAddress) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
+| [MailMessage](mailmessage#constructor_3)(string, string) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
+| [MailMessage](mailmessage#constructor_4)(string, string, string, string) | Initializes a new instance of the [`MailMessage`](../mailmessage) class |
 
 ## Properties
 
@@ -47,6 +47,7 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | virtual [IsEncrypted](../../aspose.email/mailmessage/isencrypted) { get; } | Gets a value indicating whether the message is encrypted. |
 | virtual [IsReadOnly](../../aspose.email/mailmessage/isreadonly) { get; } | Gets a value indicating whether the message is read only |
 | virtual [IsSigned](../../aspose.email/mailmessage/issigned) { get; } | Gets a value indicating whether the message is signed. |
+| virtual [ItemId](../../aspose.email/mailmessage/itemid) { get; } | Represents identification information about message in a mailbox. |
 | virtual [LinkedResources](../../aspose.email/mailmessage/linkedresources) { get; } | Gets the collection of linked resources of message |
 | virtual [MessageId](../../aspose.email/mailmessage/messageid) { get; set; } | Gets or sets the message id |
 | virtual [OriginalIsTnef](../../aspose.email/mailmessage/originalistnef) { get; } | Gets a value indicating whether original EML message is in TNEF format. |
@@ -68,45 +69,45 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 
 | Name | Description |
 | --- | --- |
-| static [Load](../../aspose.email/mailmessage/load)(Stream) | Load message from stream |
-| static [Load](../../aspose.email/mailmessage/load)(string) | Load message from file |
-| static [Load](../../aspose.email/mailmessage/load)(Stream, LoadOptions) | Load message from stream with additional options. |
-| static [Load](../../aspose.email/mailmessage/load)(string, LoadOptions) | Load message from file with additional options. |
+| static [Load](../../aspose.email/mailmessage/load#load)(Stream) | Load message from stream |
+| static [Load](../../aspose.email/mailmessage/load#load_2)(string) | Load message from file |
+| static [Load](../../aspose.email/mailmessage/load#load_1)(Stream, LoadOptions) | Load message from stream with additional options. |
+| static [Load](../../aspose.email/mailmessage/load#load_3)(string, LoadOptions) | Load message from file with additional options. |
 | virtual [AddAlternateView](../../aspose.email/mailmessage/addalternateview)(AlternateView) | Add an alternate view to message |
 | virtual [AddAttachment](../../aspose.email/mailmessage/addattachment)(Attachment) | Add an attachment to message |
-| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature)(CmsSigner) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
-| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature)(X509Certificate2) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
-| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature)(CmsSigner, bool) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
-| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature)(X509Certificate2, bool) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
+| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature#attachsignature)(CmsSigner) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
+| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature#attachsignature_2)(X509Certificate2) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
+| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature#attachsignature_1)(CmsSigner, bool) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
+| virtual [AttachSignature](../../aspose.email/mailmessage/attachsignature#attachsignature_3)(X509Certificate2, bool) | Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it. |
 | virtual [CheckBounced](../../aspose.email/mailmessage/checkbounced)() | Checks whether this message can be treated as a bounce message. |
 | virtual [CheckSignature](../../aspose.email/mailmessage/checksignature)() | Checking signature exsisting MailMessage. |
 | virtual [Clone](../../aspose.email/mailmessage/clone)() | Clones this instance |
 | [CreateReadReceipt](../../aspose.email/mailmessage/createreadreceipt)(string, string) | Creates the read receipt. |
-| virtual [Decrypt](../../aspose.email/mailmessage/decrypt)() | Decrypts this message |
-| virtual [Decrypt](../../aspose.email/mailmessage/decrypt)(X509Certificate2) | Decrypts this message |
+| virtual [Decrypt](../../aspose.email/mailmessage/decrypt#decrypt)() | Decrypts this message |
+| virtual [Decrypt](../../aspose.email/mailmessage/decrypt#decrypt_1)(X509Certificate2) | Decrypts this message |
 | [Dispose](../../aspose.email/mailmessage/dispose)() | Releases all resources used by the MailMessage |
 | virtual [DKIMSign](../../aspose.email/mailmessage/dkimsign)(RSACryptoServiceProvider, DKIMSignatureInfo) | Signs this message using DKIM (DomainKeys Identified Mail) signature. |
-| virtual [Encrypt](../../aspose.email/mailmessage/encrypt)(X509Certificate2) | Encrypts this message |
-| virtual [Encrypt](../../aspose.email/mailmessage/encrypt)(X509Certificate2[]) | Encrypts this message |
+| virtual [Encrypt](../../aspose.email/mailmessage/encrypt#encrypt)(X509Certificate2) | Encrypts this message |
+| virtual [Encrypt](../../aspose.email/mailmessage/encrypt#encrypt_1)(X509Certificate2[]) | Encrypts this message |
 | override [Equals](../../aspose.email/mailmessage/equals)(object) | Determines whether the specified Object is equal to the current Object. |
 | [GetEnumerator](../../aspose.email/mailmessage/getenumerator)() | Returns an enumerator that iterates through a collection. |
 | override [GetHashCode](../../aspose.email/mailmessage/gethashcode)() | Returns a hash code for object |
-| virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |
-| virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext)(HyperlinkRenderingCallback) | Gets the message htmlbody as plain text. |
+| virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext#gethtmlbodytext_1)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |
+| virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext#gethtmlbodytext)(HyperlinkRenderingCallback) | Gets the message htmlbody as plain text. |
 | virtual [GetObjectData](../../aspose.email/mailmessage/getobjectdata)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
 | virtual [Import](../../aspose.email/mailmessage/import)(Stream) | Imports message from stream |
 | [RecomposeTnefContent](../../aspose.email/mailmessage/recomposetnefcontent)() | Composes the TNEF content. Note, that tnef attachment is composed if a message initially contained TNEF and was loaded without FileCompatibilityMode.PreserveTnefAttachments flag, That is this method doesn't create tnef message out of the regular one. |
 | virtual [RemoveSignature](../../aspose.email/mailmessage/removesignature)() | Remove signature |
-| virtual [Save](../../aspose.email/mailmessage/save)(Stream) | Save message as a stream |
-| virtual [Save](../../aspose.email/mailmessage/save)(string) | Save message as a file |
-| virtual [Save](../../aspose.email/mailmessage/save)(Stream, SaveOptions) | Save message as a stream with additional options. |
-| virtual [Save](../../aspose.email/mailmessage/save)(string, SaveOptions) | Save message as a file with additional options. |
+| virtual [Save](../../aspose.email/mailmessage/save#save)(Stream) | Save message as a stream |
+| virtual [Save](../../aspose.email/mailmessage/save#save_2)(string) | Save message as a file |
+| virtual [Save](../../aspose.email/mailmessage/save#save_1)(Stream, SaveOptions) | Save message as a stream with additional options. |
+| virtual [Save](../../aspose.email/mailmessage/save#save_3)(string, SaveOptions) | Save message as a file with additional options. |
 | virtual [SetHtmlBody](../../aspose.email/mailmessage/sethtmlbody)(string, bool) | Sets html body. |
 | override [ToString](../../aspose.email/mailmessage/tostring)() | Returns a string that represents the current object. |
-| static [CheckSignature](../../aspose.email/mailmessage/checksignature)(Stream) | Checks the signature of the specified eml message. |
-| static [CheckSignature](../../aspose.email/mailmessage/checksignature)(string) | Checks the signature of the specified eml file. |
-| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage)(Stream) | Validate eml message for corresponding to mime specification. |
-| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage)(string) | Validate eml message for corresponding to mime specification. |
+| static [CheckSignature](../../aspose.email/mailmessage/checksignature#checksignature)(Stream) | Checks the signature of the specified eml message. |
+| static [CheckSignature](../../aspose.email/mailmessage/checksignature#checksignature_1)(string) | Checks the signature of the specified eml file. |
+| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage#validatemessage)(Stream) | Validate eml message for corresponding to mime specification. |
+| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage#validatemessage_1)(string) | Validate eml message for corresponding to mime specification. |
 
 ### See Also
 

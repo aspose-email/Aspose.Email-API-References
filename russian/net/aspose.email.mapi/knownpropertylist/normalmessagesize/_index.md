@@ -1,14 +1,14 @@
 ---
 title: NormalMessageSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NORMAL_MESSAGE_SIZE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NORMAL_MESSAGE_SIZE
 type: docs
 weight: 13080
 url: /ru/net/aspose.email.mapi/knownpropertylist/normalmessagesize/
 ---
 ## KnownPropertyList.NormalMessageSize field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NORMAL_MESSAGE_SIZE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NORMAL_MESSAGE_SIZE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NormalMessageSize;

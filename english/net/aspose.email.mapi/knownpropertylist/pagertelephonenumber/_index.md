@@ -1,7 +1,7 @@
 ---
 title: PagerTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users pager telephone number. Area Address Properties Canonical name PidTagPagerTelephoneNumber Alternate names PR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14160
 url: /net/aspose.email.mapi/knownpropertylist/pagertelephonenumber/

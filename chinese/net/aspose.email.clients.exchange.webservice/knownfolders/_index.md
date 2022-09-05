@@ -24,7 +24,7 @@ public enum KnownFolders
 | Calendar | `2` | 日历文件夹。 |
 | Contacts | `3` | 联系人文件夹。 |
 | DeletedItems | `4` | DeletedItems 文件夹。 |
-| Drafts | `5` | 草稿文件夹。 |
+| Drafts | `5` | 草稿文件夹. |
 | Inbox | `6` | 收件箱文件夹。 |
 | Journal | `7` | 日记文件夹。 |
 | Notes | `8` | Notes 文件夹。 |

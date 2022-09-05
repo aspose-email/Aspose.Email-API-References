@@ -1,7 +1,7 @@
 ---
 title: OverrideFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the override flags.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/overrideflags/

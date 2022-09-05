@@ -1,14 +1,14 @@
 ---
 title: GlobalUniqueRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱中所有文件夹中在此对话中收到邮件的所有人员的列表
+description: 获取邮箱中所有文件夹中在此对话中收到邮件的所有人的列表
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquerecipients/
 ---
 ## ExchangeConversation.GlobalUniqueRecipients property
 
-获取邮箱中所有文件夹中在此对话中收到邮件的所有人员的列表。
+获取邮箱中所有文件夹中在此对话中收到邮件的所有人的列表。
 
 ```csharp
 public StringCollection GlobalUniqueRecipients { get; }

@@ -1,14 +1,14 @@
 ---
 title: RecipientReassignmentProhibited
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрещено ли добавление дополнительных или разных получателей для сообщения электронной почты при пересылке сообщения электронной почты. ОбластьMapiEnvelope Каноническое имяPidTagRecipientReassignmentProhibited Альтернативные именаPR_RECIPIENT_REASSIGNMENT_PROHIBITED ptagRecipientReassignmentProhibited
+description: Указывает запрещено ли добавление дополнительных или разных получателей для сообщения электронной почты при пересылке сообщения электронной почты. Область MapiEnvelope Каноническое имя PidTagRecipientReassignmentProhibited Альтернативные имена PR_RECIPIENT_REASSIGNMENT_PROHIBITED ptagRecipientReassignmentProhibited
 type: docs
 weight: 15520
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientreassignmentprohibited/
 ---
 ## KnownPropertyList.RecipientReassignmentProhibited field
 
-Указывает, запрещено ли добавление дополнительных или разных получателей для сообщения электронной почты при пересылке сообщения электронной почты. Область:MapiEnvelope Каноническое имя:PidTagRecipientReassignmentProhibited Альтернативные имена:PR_RECIPIENT_REASSIGNMENT_PROHIBITED, ptagRecipientReassignmentProhibited
+Указывает, запрещено ли добавление дополнительных или разных получателей для сообщения электронной почты при пересылке сообщения электронной почты. Область: MapiEnvelope Каноническое имя: PidTagRecipientReassignmentProhibited Альтернативные имена: PR_RECIPIENT_REASSIGNMENT_PROHIBITED, ptagRecipientReassignmentProhibited
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientReassignmentProhibited;

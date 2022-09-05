@@ -1,7 +1,7 @@
 ---
 title: InstantMessagingAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts instant messaging address
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/instantmessagingaddress/

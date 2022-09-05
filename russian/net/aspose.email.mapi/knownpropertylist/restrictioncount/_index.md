@@ -1,14 +1,14 @@
 ---
 title: RestrictionCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RESTRICTION_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RESTRICTION_COUNT
 type: docs
 weight: 16220
 url: /ru/net/aspose.email.mapi/knownpropertylist/restrictioncount/
 ---
 ## KnownPropertyList.RestrictionCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RESTRICTION_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RESTRICTION_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RestrictionCount;

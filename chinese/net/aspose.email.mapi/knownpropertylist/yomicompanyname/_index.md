@@ -1,14 +1,14 @@
 ---
 title: YomiCompanyName
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人公司名称的拼音 区域联系人属性 规范名称PidLidYomiCompanyName 替代名称dispidYomiCompanyName
+description: 指定联系人公司名称的拼音发音 区域联系人属性 规范名称PidLidYomiCompanyName 别名dispidYomiCompanyName
 type: docs
 weight: 19900
 url: /zh/net/aspose.email.mapi/knownpropertylist/yomicompanyname/
 ---
 ## KnownPropertyList.YomiCompanyName field
 
-指定联系人公司名称的拼音。 区域:联系人属性 规范名称:PidLidYomiCompanyName 替代名称:dispidYomiCompanyName
+指定联系人公司名称的拼音发音。 区域：联系人属性 规范名称：PidLidYomiCompanyName 别名：dispidYomiCompanyName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor YomiCompanyName;

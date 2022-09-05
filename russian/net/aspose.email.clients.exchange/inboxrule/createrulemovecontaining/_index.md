@@ -21,14 +21,14 @@ public static InboxRule CreateRuleMoveContaining(string[] filter, string destina
 
 ### Возвращаемое значение
 
-Создано[`InboxRule`](../../inboxrule)
+Созданный[`InboxRule`](../../inboxrule)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*is` null` или` пустой` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

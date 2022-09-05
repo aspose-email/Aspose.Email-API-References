@@ -1,14 +1,14 @@
 ---
 title: UseAutocomplete
 second_title: Aspose.Email for .NET API 参考
-description: 表示如果用户没有设置任何电子地址则自动完成一个电子地址
+description: 表示如果用户没有设置任何电子地址则自动填写一个电子地址
 type: docs
 weight: 200
 url: /zh/net/aspose.email.mapi/mapicontacttelephonepropertyset/useautocomplete/
 ---
 ## MapiContactTelephonePropertySet.UseAutocomplete property
 
-表示如果用户没有设置任何电子地址，则自动完成一个电子地址
+表示如果用户没有设置任何电子地址，则自动填写一个电子地址
 
 ```csharp
 public bool UseAutocomplete { get; set; }

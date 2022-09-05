@@ -1,14 +1,14 @@
 ---
 title: DisclosureOfRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DISCLOSURE_OF_RECIPIENTS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DISCLOSURE_OF_RECIPIENTS
 type: docs
 weight: 4090
 url: /ru/net/aspose.email.mapi/knownpropertylist/disclosureofrecipients/
 ---
 ## KnownPropertyList.DisclosureOfRecipients field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DISCLOSURE_OF_RECIPIENTS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DISCLOSURE_OF_RECIPIENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisclosureOfRecipients;

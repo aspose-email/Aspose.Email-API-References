@@ -1,14 +1,14 @@
 ---
 title: TaskFFixOffline
 second_title: Aspose.Email for .NET API 参考
-description: 表示 PidLidTaskOwner 属性的准确性第 2.328 节 区域任务 规范名称PidLidTaskFFixOffline 替代名称dispidTaskFFixOffline
+description: 表示 PidLidTaskOwner 属性的准确性第 2.328 节 区域Tasks 规范名称PidLidTaskFFixOffline 替代名称dispidTaskFFixOffline
 type: docs
 weight: 18650
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskffixoffline/
 ---
 ## KnownPropertyList.TaskFFixOffline field
 
-表示 PidLidTaskOwner 属性的准确性（第 2.328 节）。 区域:任务 规范名称:PidLidTaskFFixOffline 替代名称:dispidTaskFFixOffline
+表示 PidLidTaskOwner 属性的准确性（第 2.328 节）。 区域：Tasks 规范名称：PidLidTaskFFixOffline 替代名称：dispidTaskFFixOffline
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFFixOffline;

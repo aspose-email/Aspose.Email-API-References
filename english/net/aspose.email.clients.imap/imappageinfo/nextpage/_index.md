@@ -1,7 +1,7 @@
 ---
 title: NextPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Information of the next page or null if current page is last
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/imappageinfo/nextpage/

@@ -1,14 +1,14 @@
 ---
 title: DeletedInstanceDates
 second_title: Aspose.Email for .NET API 参考
-description: 日期数组每个日期都是 删除实例或修改实例的原始实例日期
+description: 一个日期数组每个日期都是 已删除实例或此重复的修改实例的原始实例日期
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/
 ---
 ## MapiCalendarRecurrencePattern.DeletedInstanceDates property
 
-日期数组，每个日期都是 删除实例或修改实例的原始实例日期。
+一个日期数组，每个日期都是 已删除实例或此重复的修改实例的原始实例日期。
 
 ```csharp
 public IList<DateTime> DeletedInstanceDates { get; }

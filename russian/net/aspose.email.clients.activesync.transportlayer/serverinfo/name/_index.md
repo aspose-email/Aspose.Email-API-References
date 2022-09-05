@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес если для элемента Type раздел 2.2.3.170.1 установлено значение MobileSync. Если значение элемента Type равно MobileSync то элемент Name указывает URL-адрес который передает протокол. Если значение элемента Type равно CertEnroll то значение элемента Name равно NULL.
+description: Указывает URL-адрес если значение элемента Type раздел 2.2.3.170.1 установлено на MobileSync. Если значение элемента Type равно MobileSync то элемент Name указывает URL-адрес который передает протокол. Если значение элемента Type равно CertEnroll то значение элемента Name равно NULL.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/serverinfo/name/
 ---
 ## ServerInfo.Name property
 
-Указывает URL-адрес, если для элемента Type (раздел 2.2.3.170.1) установлено значение «MobileSync». Если значение элемента Type равно "MobileSync", то элемент Name указывает URL-адрес, который передает протокол. Если значение элемента Type равно "CertEnroll", то значение элемента Name равно NULL.
+Указывает URL-адрес, если значение элемента Type (раздел 2.2.3.170.1) установлено на «MobileSync». Если значение элемента Type равно «MobileSync», то элемент Name указывает URL-адрес, который передает протокол. Если значение элемента Type равно "CertEnroll", то значение элемента Name равно NULL.
 
 ```csharp
 public string Name { get; }

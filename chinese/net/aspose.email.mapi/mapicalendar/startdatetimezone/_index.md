@@ -1,14 +1,14 @@
 ---
 title: StartDateTimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示 StartDate 属性时区的时区信息
+description: 获取或设置表示StartDate属性时区的时区信息
 type: docs
 weight: 190
 url: /zh/net/aspose.email.mapi/mapicalendar/startdatetimezone/
 ---
 ## MapiCalendar.StartDateTimeZone property
 
-获取或设置指示 StartDate 属性时区的时区信息
+获取或设置表示StartDate属性时区的时区信息
 
 ```csharp
 public MapiCalendarTimeZone StartDateTimeZone { get; set; }

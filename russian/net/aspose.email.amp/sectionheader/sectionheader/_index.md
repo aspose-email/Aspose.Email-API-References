@@ -16,8 +16,8 @@ public SectionHeader(SectionHeaderType type, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| тип | SectionHeaderType |  |
-| значение | String |  |
+| type | SectionHeaderType |  |
+| value | String |  |
 
 ### Смотрите также
 

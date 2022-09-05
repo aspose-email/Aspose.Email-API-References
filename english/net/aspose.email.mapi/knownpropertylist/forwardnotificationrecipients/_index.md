@@ -1,7 +1,7 @@
 ---
 title: ForwardNotificationRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of RecipientRow structures as described in MSOXCDATA section 2.8.3 that indicate the recipients of a meeting forward. Area Meetings Canonical name PidLidForwardNotificationRecipients Alternate names dispidForwardNotificationRecipients
 type: docs
 weight: 10610
 url: /net/aspose.email.mapi/knownpropertylist/forwardnotificationrecipients/

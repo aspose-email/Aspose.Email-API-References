@@ -1,14 +1,14 @@
 ---
 title: AirsyncFilterType
 second_title: Aspose.Email for .NET API 参考
-description: 指定对象的可选时间窗口
+description: 指定对象 的可选时间窗口
 type: docs
 weight: 990
 url: /zh/net/aspose.email.clients.activesync.transportlayer/airsyncfiltertype/
 ---
 ## AirsyncFilterType enumeration
 
-指定对象的可选时间窗口
+指定对象 的可选时间窗口
 
 ```csharp
 public enum AirsyncFilterType
@@ -18,16 +18,16 @@ public enum AirsyncFilterType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoFilter | `0` | 无过滤器 - 同步所有项目 |
+| NoFilter | `0` | 无过滤器- 同步所有项目 |
 | OneDay | `1` | 指定 1 天时间窗口 |
 | ThreeDays | `2` | 指定 3 天时间窗口 |
 | OneWeek | `3` | 指定 1 周时间窗口 |
 | TwoWeeks | `4` | 指定 2 周时间窗口 |
 | OneMonth | `5` | 指定 1 个月的时间窗口 |
 | ThreeMonths | `6` | 指定 3 个月的时间窗口 |
-| SixMonths | `7` | 指定 6 个月时间窗口 |
-| IncompleteTasks | `8` | 按未完成任务过滤 |
-| Any | `9` | 标识任何电子邮件、联系人、日历或任务集合，结果状态元素值为 103。 |
+| SixMonths | `7` | 指定 6 个月的时间窗口 |
+| IncompleteTasks | `8` | 按未完成的任务过滤 |
+| Any | `9` | 标识任何电子邮件、联系人、日历或任务集合，结果的状态元素值为 103. |
 
 ### 也可以看看
 

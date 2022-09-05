@@ -1,14 +1,14 @@
 ---
 title: ToHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет html-версию поля.
+description: Представляет HTML-версию поля.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.amp/formfield/tohtml/
 ---
 ## FormField.ToHtml method
 
-Представляет html-версию поля.
+Представляет HTML-версию поля.
 
 ```csharp
 public virtual string ToHtml()

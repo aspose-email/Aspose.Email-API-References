@@ -3,7 +3,7 @@ title: HtmlDescription
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает HTML-представление описания.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.email.calendar/appointment/htmldescription/
 ---
 ## Appointment.HtmlDescription property

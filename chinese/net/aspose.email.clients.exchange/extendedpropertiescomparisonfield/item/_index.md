@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API 参考
-description: 为PropertyDescriptor获取ComparisonFieldAdapteraspose.email.clients.exchange/comparisonfieldadapter
+description: 获取ComparisonFieldAdapteraspose.email.clients.exchange/comparisonfieldadapter为了PropertyDescriptoraspose.email.mapi/propertydescriptor
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/extendedpropertiescomparisonfield/item/
 ---
 ## ExtendedPropertiesComparisonField indexer
 
-为PropertyDescriptor获取[`ComparisonFieldAdapter`](../../comparisonfieldadapter)
+获取[`ComparisonFieldAdapter`](../../comparisonfieldadapter)为了[`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor)
 
 ```csharp
 public ComparisonFieldAdapter this[PropertyDescriptor pd] { get; }

@@ -1,14 +1,14 @@
 ---
 title: GDataContactVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит версию контакта GData ETag. https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1 ResourceVersioning Это свойство не передается через транспортные протоколы. ОбластьОпределенные пользователем свойства Aspose
+description: Содержит версию контакта GData ETag. https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1ResourceVersioning Это свойство не передается через транспортные протоколы. Область  Определяемые пользователем Aspose указанные properties
 type: docs
 weight: 10740
 url: /ru/net/aspose.email.mapi/knownpropertylist/gdatacontactversion/
 ---
 ## KnownPropertyList.GDataContactVersion field
 
-Содержит версию контакта GData (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1# ResourceVersioning Это свойство не передается через транспортные протоколы. Область:Определенные пользователем свойства Aspose
+Содержит версию контакта GData (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning Это свойство не передается через транспортные протоколы. Область : Определяемые пользователем Aspose указанные properties
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GDataContactVersion;

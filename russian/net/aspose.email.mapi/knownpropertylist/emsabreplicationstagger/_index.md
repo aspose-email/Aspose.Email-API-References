@@ -1,14 +1,14 @@
 ---
 title: EmsAbReplicationStagger
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REPLICATION_STAGGER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REPLICATION_STAGGER
 type: docs
 weight: 8470
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabreplicationstagger/
 ---
 ## KnownPropertyList.EmsAbReplicationStagger field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REPLICATION_STAGGER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REPLICATION_STAGGER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReplicationStagger;

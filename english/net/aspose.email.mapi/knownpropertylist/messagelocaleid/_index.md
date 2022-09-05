@@ -1,7 +1,7 @@
 ---
 title: MessageLocaleId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Windows Locale ID of the enduser who created this message. Area Miscellaneous Properties Canonical name PidTagMessageLocaleId Alternate names PR_MESSAGE_LOCALE_ID
 type: docs
 weight: 12550
 url: /net/aspose.email.mapi/knownpropertylist/messagelocaleid/

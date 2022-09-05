@@ -1,12 +1,12 @@
 ---
 title: ListAppointments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves list of appointments for default calendar folder
 type: docs
 weight: 1070
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointments/
 ---
-## IEWSClient.ListAppointments method (1 of 8)
+## ListAppointments() {#listappointments}
 
 Retrieves list of appointments for default calendar folder
 
@@ -27,7 +27,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (2 of 8)
+## ListAppointments(string) {#listappointments_4}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -52,7 +52,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (3 of 8)
+## ListAppointments(string, bool) {#listappointments_7}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -78,7 +78,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (4 of 8)
+## ListAppointments(bool) {#listappointments_3}
 
 Retrieves list of appointments for default calendar folder
 
@@ -103,7 +103,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (5 of 8)
+## ListAppointments(MailQuery) {#listappointments_1}
 
 Retrieves list of appointments for default calendar folder
 
@@ -129,7 +129,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (6 of 8)
+## ListAppointments(string, MailQuery) {#listappointments_5}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -156,7 +156,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (7 of 8)
+## ListAppointments(MailQuery, bool) {#listappointments_2}
 
 Retrieves list of appointments for default calendar folder
 
@@ -183,7 +183,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (8 of 8)
+## ListAppointments(string, MailQuery, bool) {#listappointments_6}
 
 Retrieves list of appointments for specified calendar folder
 

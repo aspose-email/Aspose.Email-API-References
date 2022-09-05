@@ -1,9 +1,9 @@
 ---
 title: MboxoStorageReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
-weight: 19830
+weight: 20060
 url: /net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class
@@ -18,8 +18,8 @@ public sealed class MboxoStorageReader : MboxStorageReader
 
 | Name | Description |
 | --- | --- |
-| [MboxoStorageReader](mboxostoragereader)(Stream, MboxLoadOptions) | Initializes a new instance of the [`MboxoStorageReader`](../mboxostoragereader) class. |
-| [MboxoStorageReader](mboxostoragereader)(string, MboxLoadOptions) | Initializes a new instance of the [`MboxrdStorageReader`](../mboxrdstoragereader) class. |
+| [MboxoStorageReader](mboxostoragereader#constructor)(Stream, MboxLoadOptions) | Initializes a new instance of the [`MboxoStorageReader`](../mboxostoragereader) class. |
+| [MboxoStorageReader](mboxostoragereader#constructor_2)(string, MboxLoadOptions) | Initializes a new instance of the [`MboxrdStorageReader`](../mboxrdstoragereader) class. |
 
 ## Properties
 
@@ -34,9 +34,12 @@ public sealed class MboxoStorageReader : MboxStorageReader
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)(EmlLoadOptions) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxostoragereader/gettotalitemscount)() | Returns the number of messages in a storage. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage)() | Reads the next message from underlying storage stream. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage)(out string) | Reads the next message from underlying storage stream. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage)() | Reads the next message from underlying storage stream. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_1)(EmlLoadOptions) | Reads the next message from underlying storage stream. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
 
 ### See Also
 

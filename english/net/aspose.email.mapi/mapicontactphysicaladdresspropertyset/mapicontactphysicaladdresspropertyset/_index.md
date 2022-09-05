@@ -1,12 +1,12 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiContactPhysicalAddressPropertySetaspose.email.mapi/mapicontactphysicaladdresspropertyset class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/mapicontactphysicaladdresspropertyset/
 ---
-## MapiContactPhysicalAddressPropertySet constructor (1 of 2)
+## MapiContactPhysicalAddressPropertySet() {#constructor}
 
 Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) class
 
@@ -22,7 +22,7 @@ public MapiContactPhysicalAddressPropertySet()
 
 ---
 
-## MapiContactPhysicalAddressPropertySet constructor (2 of 2)
+## MapiContactPhysicalAddressPropertySet(MapiPropertyCollection) {#constructor_1}
 
 Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) class
 

@@ -16,7 +16,7 @@ public AmpFitText(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | String |  |
+| value | String |  |
 
 ### 也可以看看
 

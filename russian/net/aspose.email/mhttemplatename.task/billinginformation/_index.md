@@ -1,14 +1,14 @@
 ---
 title: BillingInformation
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Billing Information.
+description: Заголовок платежной информации.
 type: docs
 weight: 20
 url: /ru/net/aspose.email/mhttemplatename.task/billinginformation/
 ---
 ## MhtTemplateName.Task.BillingInformation field
 
-Заголовок Billing Information.
+Заголовок платежной информации.
 
 ```csharp
 public const string BillingInformation;

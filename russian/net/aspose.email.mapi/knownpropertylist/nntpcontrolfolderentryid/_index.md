@@ -1,14 +1,14 @@
 ---
 title: NntpControlFolderEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NNTP_CONTROL_FOLDER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NNTP_CONTROL_FOLDER_ENTRYID
 type: docs
 weight: 12920
 url: /ru/net/aspose.email.mapi/knownpropertylist/nntpcontrolfolderentryid/
 ---
 ## KnownPropertyList.NntpControlFolderEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NNTP_CONTROL_FOLDER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NNTP_CONTROL_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NntpControlFolderEntryid;

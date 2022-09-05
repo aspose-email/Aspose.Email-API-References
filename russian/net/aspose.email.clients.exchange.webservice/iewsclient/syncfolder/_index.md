@@ -16,7 +16,7 @@ public SyncFolderResult SyncFolder(string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка uri |
+| folderUri | String | Папка URI |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public SyncFolderResult SyncFolder(string folderUri, SyncFolderType syncType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка uri |
+| folderUri | String | Папка URI |
 | syncType | SyncFolderType | Тип синхронизации папки |
 
 ### Возвращаемое значение
@@ -60,7 +60,7 @@ public SyncFolderResult SyncFolder(string folderUri, SyncFolderType syncType)
 
 ## SyncFolder(SyncState) {#syncfolder}
 
-Получает изменения элементов в указанной папке.
+Извлекает изменения элементов в указанной папке.
 
 ```csharp
 public SyncFolderResult SyncFolder(SyncState syncState)
@@ -86,7 +86,7 @@ public SyncFolderResult SyncFolder(SyncState syncState)
 
 ## SyncFolder(string, string) {#syncfolder_3}
 
-Получает изменения элементов в указанной папке.
+Извлекает изменения элементов в указанной папке.
 
 ```csharp
 public SyncFolderResult SyncFolder(string folderUri, string syncState)
@@ -94,8 +94,8 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка uri |
-| syncState | String | Дополнительное состояние синхронизации . Должен быть нулевым для первой синхронизации. |
+| folderUri | String | Папка URI |
+| syncState | String | Необязательное состояние синхронизации. Должен быть нулевым для первой синхронизации. |
 
 ### Возвращаемое значение
 
@@ -112,7 +112,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState)
 
 ## SyncFolder(string, string, IEnumerable&lt;string&gt;) {#syncfolder_4}
 
-Получает изменения элементов в указанной папке.
+Извлекает изменения элементов в указанной папке.
 
 ```csharp
 public SyncFolderResult SyncFolder(string folderUri, string syncState, 
@@ -121,8 +121,8 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка uri |
-| syncState | String | Дополнительное состояние синхронизации . Должен быть нулевым для первой синхронизации. |
+| folderUri | String | Папка URI |
+| syncState | String | Необязательное состояние синхронизации. Должен быть нулевым для первой синхронизации. |
 | ignoreList | IEnumerable`1 | Необязательный список URI элементов, которые следует игнорировать. |
 
 ### Возвращаемое значение

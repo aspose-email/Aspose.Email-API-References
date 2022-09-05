@@ -3,7 +3,7 @@ title: MediaTypeNames.Application
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает тип данных приложения во вложении к сообщению электронной почты.
 type: docs
-weight: 19150
+weight: 19180
 url: /ru/net/aspose.email.mime/mediatypenames.application/
 ---
 ## MediaTypeNames.Application class

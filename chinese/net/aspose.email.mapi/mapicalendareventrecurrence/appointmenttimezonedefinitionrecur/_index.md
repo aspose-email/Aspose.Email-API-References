@@ -1,14 +1,14 @@
 ---
 title: AppointmentTimeZoneDefinitionRecur
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置时区信息该信息描述如何将重复系列的会议日期和时间与 UTC 相互转换
+description: 获取或设置时区信息该信息描述了如何将循环系列中的会议日期和时间转换为 UTC
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicalendareventrecurrence/appointmenttimezonedefinitionrecur/
 ---
 ## MapiCalendarEventRecurrence.AppointmentTimeZoneDefinitionRecur property
 
-获取或设置时区信息，该信息描述如何将重复系列的会议日期和时间与 UTC 相互转换。
+获取或设置时区信息，该信息描述了如何将循环系列中的会议日期和时间转换为 UTC。
 
 ```csharp
 public MapiCalendarTimeZone AppointmentTimeZoneDefinitionRecur { get; set; }

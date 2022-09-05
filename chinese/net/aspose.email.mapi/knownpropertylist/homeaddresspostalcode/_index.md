@@ -1,14 +1,14 @@
 ---
 title: HomeAddressPostalCode
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户家庭邮政地址的邮政编码 区域MapiMailUser 规范名称PidTagHomeAddressPostalCode 备用名称PR_HOME_ADDRESS_POSTAL_CODE PR_HOME_ADDRESS_POSTAL_CODE_A
+description: 包含邮件用户家庭邮政地址的邮政编码 区域MapiMailUser 规范名称PidTagHomeAddressPostalCode 别名PR_HOME_ADDRESS_POSTAL_CODEPR_HOME_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 11040
 url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddresspostalcode/
 ---
 ## KnownPropertyList.HomeAddressPostalCode field
 
-包含邮件用户家庭邮政地址的邮政编码。 区域:MapiMailUser 规范名称:PidTagHomeAddressPostalCode 备用名称:PR_HOME_ADDRESS_POSTAL_CODE, PR_HOME_ADDRESS_POSTAL_CODE_A,
+包含邮件用户家庭邮政地址的邮政编码。 区域：MapiMailUser 规范名称：PidTagHomeAddressPostalCode 别名：PR_HOME_ADDRESS_POSTAL_CODE、PR_HOME_ADDRESS_POSTAL_CODE_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressPostalCode;

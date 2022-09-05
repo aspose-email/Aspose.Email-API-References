@@ -1,14 +1,14 @@
 ---
 title: AddOnType
 second_title: Справочник по Aspose.Email для .NET API
-description: Типы надстроек генерирующих событие.
+description: Типы надстроек создающих событие.
 type: docs
 weight: 2370
 url: /ru/net/aspose.email.clients.activity/addontype/
 ---
 ## AddOnType enumeration
 
-Типы надстроек, генерирующих событие.
+Типы надстроек, создающих событие.
 
 ```csharp
 public enum AddOnType

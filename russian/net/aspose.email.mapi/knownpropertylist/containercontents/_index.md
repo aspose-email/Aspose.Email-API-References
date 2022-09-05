@@ -1,14 +1,14 @@
 ---
 title: ContainerContents
 second_title: Справочник по Aspose.Email для .NET API
-description: Всегда пусто. Сервер NSPI определяет это значение для списков рассылки и оно отсутствует для других объектов. ОбластьСвойства контейнера Каноническое имяPidTagContainerContents Альтернативные именаPR_CONTAINER_CONTENTS ptagContainerContents
+description: Всегда пустой. Сервер NSPI определяет это значение для списков рассылки и оно отсутствует для других объектов. Область Свойства контейнера Каноническое имя PidTagContainerContents Альтернативные имена PR_CONTAINER_CONTENTS ptagContainerContents
 type: docs
 weight: 3110
 url: /ru/net/aspose.email.mapi/knownpropertylist/containercontents/
 ---
 ## KnownPropertyList.ContainerContents field
 
-Всегда пусто. Сервер NSPI определяет это значение для списков рассылки, и оно отсутствует для других объектов. Область:Свойства контейнера Каноническое имя:PidTagContainerContents Альтернативные имена:PR_CONTAINER_CONTENTS, ptagContainerContents
+Всегда пустой. Сервер NSPI определяет это значение для списков рассылки, и оно отсутствует для других объектов. Область: Свойства контейнера Каноническое имя: PidTagContainerContents Альтернативные имена: PR_CONTAINER_CONTENTS, ptagContainerContents
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerContents;

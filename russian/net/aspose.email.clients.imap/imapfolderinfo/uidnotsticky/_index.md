@@ -1,14 +1,14 @@
 ---
 title: UidNotSticky
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее не поддерживает ли почтовое хранилище постоянные UID Это свойство работает только если сервер поддерживает расширение UIDPLUS. Пожалуйста прочитайте больше https//tools.ietf.org/html/rfc4315
+description: Получает значение указывающее не поддерживает ли почтовое хранилище постоянные UID. Это свойство работает только если сервер поддерживает расширение UIDPLUS. Пожалуйста прочитайте больше https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/uidnotsticky/
 ---
 ## ImapFolderInfo.UidNotSticky property
 
-Получает значение, указывающее, не поддерживает ли почтовое хранилище постоянные UID Это свойство работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Получает значение, указывающее, не поддерживает ли почтовое хранилище постоянные UID. Это свойство работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public bool UidNotSticky { get; }

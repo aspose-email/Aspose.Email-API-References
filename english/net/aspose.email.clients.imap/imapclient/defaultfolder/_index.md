@@ -1,7 +1,7 @@
 ---
 title: DefaultFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default folder for ImapClients
 type: docs
 weight: 1310
 url: /net/aspose.email.clients.imap/imapclient/defaultfolder/

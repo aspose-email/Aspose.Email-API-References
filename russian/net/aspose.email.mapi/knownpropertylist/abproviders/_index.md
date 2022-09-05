@@ -1,14 +1,14 @@
 ---
 title: AbProviders
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_AB_PROVIDERS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_AB_PROVIDERS
 type: docs
 weight: 200
 url: /ru/net/aspose.email.mapi/knownpropertylist/abproviders/
 ---
 ## KnownPropertyList.AbProviders field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_AB_PROVIDERS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_AB_PROVIDERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AbProviders;

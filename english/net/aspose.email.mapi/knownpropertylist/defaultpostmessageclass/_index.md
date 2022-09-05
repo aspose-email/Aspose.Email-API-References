@@ -1,7 +1,7 @@
 ---
 title: DefaultPostMessageClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the message class of the object. Area MapiContainer Canonical name PidTagDefaultPostMessageClass Alternate names PR_DEF_POST_MSGCLASS
 type: docs
 weight: 3710
 url: /net/aspose.email.mapi/knownpropertylist/defaultpostmessageclass/

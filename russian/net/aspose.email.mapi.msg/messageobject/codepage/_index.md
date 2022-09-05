@@ -1,14 +1,14 @@
 ---
 title: Codepage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает кодовую страницу используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8type for их используют.
+description: Получает кодовую страницу используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8 тип для них используется.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi.msg/messageobject/codepage/
 ---
 ## MessageObject.Codepage property
 
-Получает кодовую страницу, используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8type for их используют.
+Получает кодовую страницу, используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8 тип для них используется.
 
 ```csharp
 public int Codepage { get; }

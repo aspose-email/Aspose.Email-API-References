@@ -1,14 +1,14 @@
 ---
 title: Business
 second_title: Aspose.Email for .NET API 参考
-description: 商务电话头
+description: 商务电话标头.
 type: docs
 weight: 30
 url: /zh/net/aspose.email/mhttemplatename.contact/business/
 ---
 ## MhtTemplateName.Contact.Business field
 
-商务电话头。
+商务电话标头.
 
 ```csharp
 public const string Business;

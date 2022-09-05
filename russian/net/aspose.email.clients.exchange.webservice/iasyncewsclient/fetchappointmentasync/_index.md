@@ -17,19 +17,19 @@ public Task<Appointment> FetchAppointmentAsync(string appointmentUri, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| appointmentUri | String | URI назначения, которое необходимо получить. |
+| appointmentUri | String | Ури встречи, которую нужно получить. |
 | folderUri | String | URI родительской папки встреч. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-Получено[`Appointment`](../../../aspose.email.calendar/appointment).
+принесенный[`Appointment`](../../../aspose.email.calendar/appointment).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

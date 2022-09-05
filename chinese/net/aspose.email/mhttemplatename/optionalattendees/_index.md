@@ -1,14 +1,14 @@
 ---
 title: OptionalAttendees
 second_title: Aspose.Email for .NET API 参考
-description: OptionalAttendees 标头
+description: 可选与会者标头
 type: docs
 weight: 100
 url: /zh/net/aspose.email/mhttemplatename/optionalattendees/
 ---
 ## MhtTemplateName.OptionalAttendees field
 
-OptionalAttendees 标头。
+可选与会者标头。
 
 ```csharp
 public const string OptionalAttendees;

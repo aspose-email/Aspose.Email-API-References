@@ -1,14 +1,14 @@
 ---
 title: IAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет общий интерфейс подключения
+description: Представляет общий интерфейс вложений
 type: docs
 weight: 17570
 url: /ru/net/aspose.email/iattachment/
 ---
 ## IAttachment interface
 
-Представляет общий интерфейс подключения
+Представляет общий интерфейс вложений
 
 ```csharp
 public interface IAttachment
@@ -24,7 +24,7 @@ public interface IAttachment
 
 | Имя | Описание |
 | --- | --- |
-| [Save](../../aspose.email/iattachment/save#save)(Stream) | Сохраняет вложение в поток |
+| [Save](../../aspose.email/iattachment/save#save)(Stream) | Сохраняет вложение в stream |
 | [Save](../../aspose.email/iattachment/save#save_1)(string) | Сохраняет вложение в файл |
 
 ### Смотрите также

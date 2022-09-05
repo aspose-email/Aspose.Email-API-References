@@ -1,14 +1,14 @@
 ---
 title: RtfInSync
 second_title: Aspose.Email for .NET API 参考
-description: 指示 PidTagBody 属性第 2.609 节和 PidTagRtfCompressed 属性第 2.932 节是否包含相同的文本忽略格式 区域电子邮件 规范名称PidTagRtfInSync 别名PR_RTF_IN_SYNC ptagRTFInSync
+description: 指示 PidTagBody 属性第 2.609 节和 PidTagRtfCompressed 属性第 2.932 节是否包含相同的文本忽略格式 区域Email 规范名称PidTagRtfInSync 替代名称PR_RTF_IN_SYNCptagRTFInSync
 type: docs
 weight: 16370
 url: /zh/net/aspose.email.mapi/knownpropertylist/rtfinsync/
 ---
 ## KnownPropertyList.RtfInSync field
 
-指示 PidTagBody 属性（第 2.609 节）和 PidTagRtfCompressed 属性（第 2.932 节）是否包含相同的文本（忽略格式）。 区域:电子邮件 规范名称:PidTagRtfInSync 别名:PR_RTF_IN_SYNC, ptagRTFInSync
+指示 PidTagBody 属性（第 2.609 节）和 PidTagRtfCompressed 属性（第 2.932 节）是否包含相同的文本（忽略格式）。 区域：Email 规范名称：PidTagRtfInSync 替代名称：PR_RTF_IN_SYNC、ptagRTFInSync
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfInSync;

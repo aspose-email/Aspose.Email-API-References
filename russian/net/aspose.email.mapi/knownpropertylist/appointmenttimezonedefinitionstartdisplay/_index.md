@@ -1,14 +1,14 @@
 ---
 title: AppointmentTimeZoneDefinitionStartDisplay
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает информацию о часовом поясе указывающую часовой пояс свойства PidLidAppointmentStartWhole раздел 2.29. ОбластьКалендарь Каноническое имяPidLidAppointmentTimeZoneDefinitionStartDisplay Альтернативные именаdispidApptTZDefStartDisplay
+description: Задает информацию о часовом поясе указывающую часовой пояс свойства PidLidAppointmentStartWhole раздел 2.29. Область Calendar Каноническое имя PidLidAppointmentTimeZoneDefinitionStartDisplay Альтернативные имена dispidApptTZDefStartDisplay
 type: docs
 weight: 1370
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmenttimezonedefinitionstartdisplay/
 ---
 ## KnownPropertyList.AppointmentTimeZoneDefinitionStartDisplay field
 
-Задает информацию о часовом поясе, указывающую часовой пояс свойства PidLidAppointmentStartWhole (раздел 2.29). Область:Календарь Каноническое имя:PidLidAppointmentTimeZoneDefinitionStartDisplay Альтернативные имена:dispidApptTZDefStartDisplay
+Задает информацию о часовом поясе, указывающую часовой пояс свойства PidLidAppointmentStartWhole (раздел 2.29). Область: Calendar Каноническое имя: PidLidAppointmentTimeZoneDefinitionStartDisplay Альтернативные имена: dispidApptTZDefStartDisplay
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentTimeZoneDefinitionStartDisplay;

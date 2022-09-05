@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示对ICollection的访问是否同步线程安全
+description: 获取一个值表示是否访问ICollection已同步线程安全
 type: docs
 weight: 100
 url: /zh/net/aspose.email.personalinfo/associatedpersonslist/issynchronized/
 ---
 ## AssociatedPersonsList.IsSynchronized property
 
-获取一个值，该值指示对ICollection的访问是否同步（线程安全）。
+获取一个值，表示是否访问ICollection已同步（线程安全）。
 
 ```csharp
 public bool IsSynchronized { get; }
@@ -16,7 +16,7 @@ public bool IsSynchronized { get; }
 
 ### 返回值
 
-如果访问ICollection则为真是同步的（线程安全的）；否则为假。
+true 如果访问ICollection是同步的（线程安全的）；否则为假。
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: ByHour
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by hour.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar.recurrences/recurrencerule/byhour/

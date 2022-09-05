@@ -1,7 +1,7 @@
 ---
 title: ApplicationName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the application used to open the file attached to the Document object. Area Common Canonical name PidNameApplicationName Alternate names urnschemasmicrosoftcomofficeofficeNameOfApplication
 type: docs
 weight: 1100
 url: /net/aspose.email.mapi/knownpropertylist/applicationname/

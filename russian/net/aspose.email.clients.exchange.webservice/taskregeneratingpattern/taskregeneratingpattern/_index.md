@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаTaskRegeneratingPatternaspose.email.clients.exchange.webservice/taskregeneratingpattern.
+description: Инициализирует новый экземплярTaskRegeneratingPatternaspose.email.clients.exchange.webservice/taskregeneratingpattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern constructor
 
-Инициализирует новый экземпляр класса[`TaskRegeneratingPattern`](../../taskregeneratingpattern).
+Инициализирует новый экземпляр[`TaskRegeneratingPattern`](../../taskregeneratingpattern) класс.
 
 ```csharp
 public TaskRegeneratingPattern(TaskRegeneratingType type, int interval)

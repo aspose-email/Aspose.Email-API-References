@@ -1,7 +1,7 @@
 ---
 title: GetLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a logger by the specified name.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.logging/loggermanager/getlogger/

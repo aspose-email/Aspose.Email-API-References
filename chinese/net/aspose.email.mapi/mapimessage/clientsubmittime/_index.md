@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/mapimessage/clientsubmittime/
 ---
 ## MapiMessage.ClientSubmitTime property
 
-获取或设置日期和时间 消息发送者提交消息。
+获取或设置日期和时间 消息发送者提交消息
 
 ```csharp
 public DateTime ClientSubmitTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime ClientSubmitTime { get; set; }
 
 ### 适当的价值
 
-代表客户端提交时间的日期时间。
+代表客户端提交时间的 DateTime。
 
 ### 评论
 

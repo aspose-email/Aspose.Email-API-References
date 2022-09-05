@@ -17,11 +17,11 @@ public long GetMessageSize(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-消息的字节大小
+消息的大小（以字节为单位）
 
 ### 也可以看看
 
@@ -42,11 +42,11 @@ public long GetMessageSize(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的唯一id消息 |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-消息大小（以字节为单位）
+消息的大小（以字节为单位）
 
 ### 也可以看看
 
@@ -67,11 +67,11 @@ public long GetMessageSize(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-消息的字节大小
+消息的大小（以字节为单位）
 
 ### 也可以看看
 
@@ -92,11 +92,11 @@ public long GetMessageSize(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-消息大小（以字节为单位）
+消息的大小（以字节为单位）
 
 ### 也可以看看
 

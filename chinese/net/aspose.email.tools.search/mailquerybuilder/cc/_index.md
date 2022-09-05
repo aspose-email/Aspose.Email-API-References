@@ -1,14 +1,14 @@
 ---
 title: Cc
 second_title: Aspose.Email for .NET API 参考
-description: 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段
+description: 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段
 type: docs
 weight: 40
 url: /zh/net/aspose.email.tools.search/mailquerybuilder/cc/
 ---
 ## MailQueryBuilder.Cc property
 
-获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。
+获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。
 
 ```csharp
 public StringComparisonField Cc { get; }
@@ -16,7 +16,7 @@ public StringComparisonField Cc { get; }
 
 ### 适当的价值
 
-[`DateComparisonField`](../../datecomparisonfield)表示 cc 搜索字段。
+这[`DateComparisonField`](../../datecomparisonfield)表示 cc 搜索字段。
 
 ### 也可以看看
 

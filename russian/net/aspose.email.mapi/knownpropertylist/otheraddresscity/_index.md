@@ -1,14 +1,14 @@
 ---
 title: OtherAddressCity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название другой местности почтового пользователя например города. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressCity Альтернативные именаPR_OTHER_ADDRESS_CITY PR_OTHER_ADDRESS_CITY_A
+description: Содержит название другой местности почтового пользователя например города. Область Свойства адреса Каноническое имя PidTagOtherAddressCity Альтернативные имена PR_OTHER_ADDRESS_CITY PR_OTHER_ADDRESS_CITY_A
 type: docs
 weight: 13950
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddresscity/
 ---
 ## KnownPropertyList.OtherAddressCity field
 
-Содержит название другой местности почтового пользователя, например города. Область:Свойства адреса Каноническое имя:PidTagOtherAddressCity Альтернативные имена:PR_OTHER_ADDRESS_CITY, PR_OTHER_ADDRESS_CITY_A,
+Содержит название другой местности почтового пользователя, например города. Область: Свойства адреса Каноническое имя: PidTagOtherAddressCity Альтернативные имена: PR_OTHER_ADDRESS_CITY, PR_OTHER_ADDRESS_CITY_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressCity;

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbooksenderhinttranslatio
 ---
 ## KnownPropertyList.AddressBookSenderHintTranslations field
 
-包含默认邮件提示的区域设置 ID 和翻译。 区域:地址簿 规范名称:PidTagAddressBookSenderHintTranslations 替代名称:PR_EMS_AB_DL_SENDER_HINT_TRANSLATIONS_W
+包含默认邮件提示的区域设置 ID 和翻译。 区域：地址簿 规范名称：PidTagAddressBookSenderHintTranslations 替代名称：PR_EMS_AB_DL_SENDER_HINT_TRANSLATIONS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookSenderHintTranslations;

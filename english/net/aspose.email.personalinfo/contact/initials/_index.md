@@ -1,7 +1,7 @@
 ---
 title: Initials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an initials
 type: docs
 weight: 210
 url: /net/aspose.email.personalinfo/contact/initials/

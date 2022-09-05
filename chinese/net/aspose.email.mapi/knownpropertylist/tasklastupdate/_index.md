@@ -1,14 +1,14 @@
 ---
 title: TaskLastUpdate
 second_title: Aspose.Email for .NET API 参考
-description: 包含对 Task 对象进行的最新更改的日期和时间 区域任务 规范名称PidLidTaskLastUpdate 替代名称dispidTaskLastUpdate
+description: 包含对任务对象进行的最新更改的日期和时间 区域Tasks 规范名称PidLidTaskLastUpdate 替代名称dispidTaskLastUpdate
 type: docs
 weight: 18700
 url: /zh/net/aspose.email.mapi/knownpropertylist/tasklastupdate/
 ---
 ## KnownPropertyList.TaskLastUpdate field
 
-包含对 Task 对象进行的最新更改的日期和时间。 区域:任务 规范名称:PidLidTaskLastUpdate 替代名称:dispidTaskLastUpdate
+包含对任务对象进行的最新更改的日期和时间。 区域：Tasks 规范名称：PidLidTaskLastUpdate 替代名称：dispidTaskLastUpdate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastUpdate;

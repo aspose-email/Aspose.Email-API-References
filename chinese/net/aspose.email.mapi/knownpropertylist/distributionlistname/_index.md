@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/distributionlistname/
 ---
 ## KnownPropertyList.DistributionListName field
 
-指定个人分发列表的名称。 区域:联系人属性 规范名称:PidLidDistributionListName 备用名称:dispidDLName
+指定个人分发列表的名称。 区域：联系人属性 规范名称：PidLidDistributionListName 备用名称：dispidDLName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListName;

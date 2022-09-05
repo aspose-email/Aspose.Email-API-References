@@ -1,7 +1,7 @@
 ---
 title: SupportedByServer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value that indicates if pipelining mode is supported by a server.
 type: docs
 weight: 30
 url: /net/aspose.email.clients/pipeliningstatus/supportedbyserver/

@@ -19,7 +19,7 @@ public class Status : CommandStatus, IEquatable<Status>
 | 姓名 | 描述 |
 | --- | --- |
 | [Status](status#constructor)(Status) | 初始化 Status 类的新实例。 |
-| [Status](status#constructor_2)(string) | 初始化 Status 类的新实例。 状态码初始化为 0 值。 |
+| [Status](status#constructor_2)(string) | 初始化状态类的新实例。 状态代码初始化为 0 值。 |
 | [Status](status#constructor_1)(int, string) | 初始化 Status 类的新实例。 |
 
 ## 特性
@@ -38,8 +38,8 @@ public class Status : CommandStatus, IEquatable<Status>
 | static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_2)(CommandCodes, string) | 通过代码获取状态。 |
 | static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_1)(CommandCodes, int, int) | 通过代码获取状态。 |
 | static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_3)(CommandCodes, string, int) | 通过代码获取状态。 |
-| override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
-| virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals)(Status) | 判断指定对象是否等于当前对象。 |
+| override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals_1)(object) | 判断指定对象是否等于当前对象 |
+| virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals)(Status) | 判断指定对象是否等于当前对象 |
 | override [GetHashCode](../../aspose.email.clients.activesync.transportlayer/status/gethashcode)() | 用作特定类型的哈希函数。 |
 | override [ToString](../../aspose.email.clients/commandstatus/tostring)() | 返回代表当前对象的字符串。 |
 | [operator ==](../../aspose.email.clients.activesync.transportlayer/status/op_equality) | 不等式运算符 (==) 如果其操作数相等则返回 true，否则返回 false。 |

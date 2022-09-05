@@ -1,7 +1,7 @@
 ---
 title: GetAllGroups
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches all contact groups.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.google/igmailclient/getallgroups/

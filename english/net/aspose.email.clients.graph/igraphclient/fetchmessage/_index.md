@@ -1,7 +1,7 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets message in specified id
 type: docs
 weight: 220
 url: /net/aspose.email.clients.graph/igraphclient/fetchmessage/

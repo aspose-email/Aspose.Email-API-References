@@ -1,7 +1,7 @@
 ---
 title: ClipEnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the end date and time of the event in UTC. Area Calendar Canonical name PidLidClipEnd Alternate names dispidClipEnd
 type: docs
 weight: 2710
 url: /net/aspose.email.mapi/knownpropertylist/clipend/

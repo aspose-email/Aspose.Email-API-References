@@ -1,14 +1,14 @@
 ---
 title: Pop3Exception
 second_title: Aspose.Email for .NET API 参考
-description: 初始化Pop3Exceptionaspose.email/pop3exception类的新实例
+description: 初始化Pop3Exceptionaspose.email/pop3exception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/pop3exception/pop3exception/
 ---
 ## Pop3Exception() {#constructor}
 
-初始化[`Pop3Exception`](../../pop3exception)类的新实例。
+初始化[`Pop3Exception`](../../pop3exception)类.
 
 ```csharp
 public Pop3Exception()
@@ -24,7 +24,7 @@ public Pop3Exception()
 
 ## Pop3Exception(string) {#constructor_1}
 
-初始化[`Pop3Exception`](../../pop3exception)类的新实例。
+初始化[`Pop3Exception`](../../pop3exception)类.
 
 ```csharp
 public Pop3Exception(string message)
@@ -44,7 +44,7 @@ public Pop3Exception(string message)
 
 ## Pop3Exception(string, params object[]) {#constructor_3}
 
-使用指定的错误消息初始化[`Pop3Exception`](../../pop3exception)类的新实例。
+初始化[`Pop3Exception`](../../pop3exception)具有指定错误消息的类。
 
 ```csharp
 public Pop3Exception(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public Pop3Exception(string format, params object[] parameters)
 
 ## Pop3Exception(string, Exception) {#constructor_2}
 
-初始化[`Pop3Exception`](../../pop3exception)类的新实例。
+初始化[`Pop3Exception`](../../pop3exception)类.
 
 ```csharp
 public Pop3Exception(string message, Exception innerException)
@@ -74,7 +74,7 @@ public Pop3Exception(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

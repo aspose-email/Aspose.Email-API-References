@@ -1,14 +1,14 @@
 ---
 title: Street
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置街道
+description: 获取或设置一条街道
 type: docs
 weight: 120
 url: /zh/net/aspose.email.personalinfo/postaladdress/street/
 ---
 ## PostalAddress.Street property
 
-获取或设置街道
+获取或设置一条街道
 
 ```csharp
 public string Street { get; set; }

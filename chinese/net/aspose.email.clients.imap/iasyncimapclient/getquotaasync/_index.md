@@ -19,7 +19,7 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName, IConnection connect
 | --- | --- | --- |
 | quotaRootName | String | 配额根名称 |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

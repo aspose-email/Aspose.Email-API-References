@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrenceEndType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет тип окончания повторения.
+description: Перечисляет тип окончания для повторения.
 type: docs
-weight: 18030
+weight: 18050
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 ## MapiCalendarRecurrenceEndType enumeration
 
-Перечисляет тип окончания повторения.
+Перечисляет тип окончания для повторения.
 
 ```csharp
 public enum MapiCalendarRecurrenceEndType

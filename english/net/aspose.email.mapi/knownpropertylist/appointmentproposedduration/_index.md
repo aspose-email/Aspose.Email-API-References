@@ -1,7 +1,7 @@
 ---
 title: AppointmentProposedDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the proposed value for the PidLidAppointmentDuration property section 2.11 for a counter proposal. Area Meetings Canonical name PidLidAppointmentProposedDuration Alternate names dispidApptProposedDuration
 type: docs
 weight: 1220
 url: /net/aspose.email.mapi/knownpropertylist/appointmentproposedduration/

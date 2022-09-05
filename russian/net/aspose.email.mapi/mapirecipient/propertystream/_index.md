@@ -16,7 +16,7 @@ public MapiPropertyStream PropertyStream { get; }
 
 ### Стоимость имущества
 
-Поток свойств.
+Поток собственности.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSmtpFailedRecipientsExceptionaspose.email.clients.smtp/smtpfailedrecipientsexception
+description: Инициализирует новый экземплярSmtpFailedRecipientsExceptionaspose.email.clients.smtp/smtpfailedrecipientsexception класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp/smtpfailedrecipientsexception/smtpfailedrecipientsexception/
 ---
 ## SmtpFailedRecipientsException() {#constructor}
 
-Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception)
+Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) класс
 
 ```csharp
 public SmtpFailedRecipientsException()
@@ -24,7 +24,7 @@ public SmtpFailedRecipientsException()
 
 ## SmtpFailedRecipientsException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception)
+Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) класс
 
 ```csharp
 public SmtpFailedRecipientsException(string message)
@@ -32,7 +32,7 @@ public SmtpFailedRecipientsException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | Сообщение об ошибке |
+| message | String | Сообщение об ошибке |
 
 ### Смотрите также
 
@@ -44,7 +44,7 @@ public SmtpFailedRecipientsException(string message)
 
 ## SmtpFailedRecipientsException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception)
+Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) класс
 
 ```csharp
 public SmtpFailedRecipientsException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public SmtpFailedRecipientsException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке |
-| innerException | Exception | Исключение, являющееся причиной текущее исключение или нулевую ссылку (Nothing в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public SmtpFailedRecipientsException(string message, Exception innerException)
 
 ## SmtpFailedRecipientsException(string, SmtpFailedRecipientException[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception)
+Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) класс
 
 ```csharp
 public SmtpFailedRecipientsException(string message, SmtpFailedRecipientException[] innerExceptions)
@@ -74,7 +74,7 @@ public SmtpFailedRecipientsException(string message, SmtpFailedRecipientExceptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке |
-| innerExceptions | SmtpFailedRecipientException[] | Список исключений, являющихся причиной текущего исключения. |
+| innerExceptions | SmtpFailedRecipientException[] | Список исключений, которые являются причиной текущего исключения. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: ExchangeNTSecurityDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the calculated security descriptor for the item. Area Calendar Document Canonical name PidTagExchangeNTSecurityDescriptor Alternate names http//schemas.microsoft.com/exchange/ntsecuritydescriptor
 type: docs
 weight: 9860
 url: /net/aspose.email.mapi/knownpropertylist/exchangentsecuritydescriptor/

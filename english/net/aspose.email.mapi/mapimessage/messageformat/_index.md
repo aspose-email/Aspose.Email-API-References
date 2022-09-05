@@ -1,7 +1,7 @@
 ---
 title: MessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the outlook message format.
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapimessage/messageformat/

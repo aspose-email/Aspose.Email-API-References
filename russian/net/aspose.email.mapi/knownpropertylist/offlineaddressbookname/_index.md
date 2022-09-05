@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя списка адресов. ОбластьСвойства автономной адресной книги Каноническое имяPidTagOfflineAddressBookName Альтернативные именаPR_OAB_NAME PR_OAB_NAME_W
+description: Содержит отображаемое имя списка адресов. Область Свойства автономной адресной книги Каноническое имя PidTagOfflineAddressBookName Альтернативные имена PR_OAB_NAME PR_OAB_NAME_W
 type: docs
 weight: 13270
 url: /ru/net/aspose.email.mapi/knownpropertylist/offlineaddressbookname/
 ---
 ## KnownPropertyList.OfflineAddressBookName field
 
-Содержит отображаемое имя списка адресов. Область:Свойства автономной адресной книги Каноническое имя:PidTagOfflineAddressBookName Альтернативные имена:PR_OAB_NAME, PR_OAB_NAME_W
+Содержит отображаемое имя списка адресов. Область: Свойства автономной адресной книги Каноническое имя: PidTagOfflineAddressBookName Альтернативные имена: PR_OAB_NAME, PR_OAB_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookName;

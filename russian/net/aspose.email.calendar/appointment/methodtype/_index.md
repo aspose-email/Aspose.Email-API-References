@@ -3,7 +3,7 @@ title: MethodType
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает тип метода объекта iCalendar связанный с объектом календаря.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.email.calendar/appointment/methodtype/
 ---
 ## Appointment.MethodType property

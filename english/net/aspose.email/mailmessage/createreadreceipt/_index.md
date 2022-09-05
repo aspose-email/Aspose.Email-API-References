@@ -1,9 +1,9 @@
 ---
 title: CreateReadReceipt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the read receipt.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.email/mailmessage/createreadreceipt/
 ---
 ## MailMessage.CreateReadReceipt method

@@ -1,14 +1,14 @@
 ---
 title: GetCallInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о телефонном звонке по идентификатору вызова
+description: Извлекает информацию о телефонных звонках по идентификатору звонка
 type: docs
 weight: 890
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/getcallinfo/
 ---
 ## IEWSClient.GetCallInfo method
 
-Получает информацию о телефонном звонке по идентификатору вызова
+Извлекает информацию о телефонных звонках по идентификатору звонка
 
 ```csharp
 public CallInformation GetCallInfo(string callId)

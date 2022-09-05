@@ -41,9 +41,9 @@ public void CopyMessages(int startSequence, int endSequence, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称待移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
 
@@ -89,7 +89,7 @@ public void CopyMessages(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
 
@@ -111,7 +111,7 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -132,7 +132,7 @@ public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -221,7 +221,7 @@ public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -236,7 +236,7 @@ public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ## CopyMessages(IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_6}
 
-复制邮件
+复制消息
 
 ```csharp
 public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string folderName)
@@ -244,7 +244,7 @@ public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看

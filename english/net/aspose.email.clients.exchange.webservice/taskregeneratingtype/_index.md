@@ -1,7 +1,7 @@
 ---
 title: TaskRegeneratingType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the types of regenerating pattern.
 type: docs
 weight: 15530
 url: /net/aspose.email.clients.exchange.webservice/taskregeneratingtype/

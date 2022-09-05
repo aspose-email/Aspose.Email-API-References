@@ -26,7 +26,7 @@ public class AclScope
 | 姓名 | 描述 |
 | --- | --- |
 | [Type](../../aspose.email.clients.google/aclscope/type) { get; set; } | ACL 范围的类型。 |
-| [Value](../../aspose.email.clients.google/aclscope/value) { get; set; } | 用户或组的电子邮件地址，或域的名称，具体取决于范围类型。 类型“默认”省略。 |
+| [Value](../../aspose.email.clients.google/aclscope/value) { get; set; } | 用户或组的电子邮件地址，或域的名称，具体取决于范围类型。 “默认”类型省略。 |
 
 ### 也可以看看
 

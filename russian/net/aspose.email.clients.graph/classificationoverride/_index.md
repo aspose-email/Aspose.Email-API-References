@@ -1,14 +1,14 @@
 ---
 title: ClassificationOverride
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет пользовательское переопределение того как всегда должны классифицироваться входящие сообщения от определенного отправителя.
+description: Представляет переопределение пользователем того как входящие сообщения от определенного отправителя всегда должны классифицироваться как.
 type: docs
 weight: 15880
 url: /ru/net/aspose.email.clients.graph/classificationoverride/
 ---
 ## ClassificationOverride class
 
-Представляет пользовательское переопределение того, как всегда должны классифицироваться входящие сообщения от определенного отправителя.
+Представляет переопределение пользователем того, как входящие сообщения от определенного отправителя всегда должны классифицироваться как.
 
 ```csharp
 public class ClassificationOverride
@@ -18,9 +18,9 @@ public class ClassificationOverride
 
 | Имя | Описание |
 | --- | --- |
-| [ClassificationOverride](classificationoverride#constructor)() | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride). |
-| [ClassificationOverride](classificationoverride#constructor_1)(MailAddress, ClassificationType) | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride). |
-| [ClassificationOverride](classificationoverride#constructor_2)(string, MailAddress, ClassificationType) | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor)() | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride) . |
+| [ClassificationOverride](classificationoverride#constructor_1)(MailAddress, ClassificationType) | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride) . |
+| [ClassificationOverride](classificationoverride#constructor_2)(string, MailAddress, ClassificationType) | Инициализирует статические члены класса[`ClassificationOverride`](../classificationoverride) . |
 
 ## Характеристики
 

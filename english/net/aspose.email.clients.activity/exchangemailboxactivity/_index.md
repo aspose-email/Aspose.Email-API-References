@@ -1,7 +1,7 @@
 ---
 title: ExchangeMailboxActivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extends the Common schema with the properties specific to all Exchange mailbox audit data.
 type: docs
 weight: 2510
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/

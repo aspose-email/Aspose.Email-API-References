@@ -1,14 +1,14 @@
 ---
 title: AllowExternalCheck
 second_title: Aspose.Email for .NET API 参考
-description: 此属性设置为 TRUE 区域会议 规范名称PidLidAllowExternalCheck 替代名称dispidAllowExternCheck
+description: 此属性设置为 TRUE 区域Conferencing 规范名称PidLidAllowExternalCheck 替代名称dispidAllowExternCheck
 type: docs
 weight: 1050
 url: /zh/net/aspose.email.mapi/knownpropertylist/allowexternalcheck/
 ---
 ## KnownPropertyList.AllowExternalCheck field
 
-此属性设置为 TRUE。 区域:会议 规范名称:PidLidAllowExternalCheck 替代名称:dispidAllowExternCheck
+此属性设置为 TRUE。 区域：Conferencing 规范名称：PidLidAllowExternalCheck 替代名称：dispidAllowExternCheck
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AllowExternalCheck;

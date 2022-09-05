@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/importance/
 ---
 ## KnownPropertyList.Importance field
 
-表示最终用户分配给消息对象的重要性级别。 区域:常规消息属性 规范名称:PidTagImportance 替代名称:PR_IMPORTANCE、ptagImportance、urn:schemas:httpmail:importance、
+表示最终用户分配给消息对象的重要性级别。 区域：常规消息属性 规范名称：PidTagImportance 替代名称：PR_IMPORTANCE、ptagImportance、urn:schemas:httpmail:importance、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Importance;

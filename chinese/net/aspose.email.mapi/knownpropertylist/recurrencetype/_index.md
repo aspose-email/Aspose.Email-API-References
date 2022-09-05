@@ -1,14 +1,14 @@
 ---
 title: RecurrenceType
 second_title: Aspose.Email for .NET API 参考
-description: 指定循环系列的循环类型 区域日历 规范名称PidLidRecurrenceType 替代名称dispidRecurType
+description: 指定重复系列的重复类型 区域Calendar 规范名称PidLidRecurrenceType 替代名称dispidRecurType
 type: docs
 weight: 15600
 url: /zh/net/aspose.email.mapi/knownpropertylist/recurrencetype/
 ---
 ## KnownPropertyList.RecurrenceType field
 
-指定循环系列的循环类型。 区域:日历 规范名称:PidLidRecurrenceType 替代名称:dispidRecurType
+指定重复系列的重复类型。 区域：Calendar 规范名称：PidLidRecurrenceType 替代名称：dispidRecurType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrenceType;

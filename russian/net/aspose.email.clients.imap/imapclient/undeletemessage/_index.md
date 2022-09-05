@@ -1,14 +1,14 @@
 ---
 title: UndeleteMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Помечает сообщение с указанным порядковым номером как неудаляемое
+description: Помечает сообщение с указанным порядковым номером как не удаленное
 type: docs
 weight: 1230
 url: /ru/net/aspose.email.clients.imap/imapclient/undeletemessage/
 ---
 ## UndeleteMessage(IConnection, int) {#undeletemessage}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public void UndeleteMessage(IConnection connection, int sequenceNumber)
@@ -16,7 +16,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Смотрите также
@@ -30,7 +30,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber)
 
 ## UndeleteMessage(IConnection, string) {#undeletemessage_2}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public void UndeleteMessage(IConnection connection, string uniqueId)
@@ -38,7 +38,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Смотрите также
@@ -52,7 +52,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId)
 
 ## UndeleteMessage(int) {#undeletemessage_4}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public void UndeleteMessage(int sequenceNumber)
@@ -72,7 +72,7 @@ public void UndeleteMessage(int sequenceNumber)
 
 ## UndeleteMessage(string) {#undeletemessage_6}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public void UndeleteMessage(string uniqueId)
@@ -92,7 +92,7 @@ public void UndeleteMessage(string uniqueId)
 
 ## UndeleteMessage(IConnection, int, long) {#undeletemessage_1}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public void UndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
@@ -100,9 +100,9 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber, long mod
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -115,7 +115,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber, long mod
 
 ## UndeleteMessage(IConnection, string, long) {#undeletemessage_3}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public void UndeleteMessage(IConnection connection, string uniqueId, long modificationSequence)
@@ -123,9 +123,9 @@ public void UndeleteMessage(IConnection connection, string uniqueId, long modifi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -138,7 +138,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId, long modifi
 
 ## UndeleteMessage(int, long) {#undeletemessage_5}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое
+Помечает сообщение с указанным порядковым номером как не удаленное
 
 ```csharp
 public void UndeleteMessage(int sequenceNumber, long modificationSequence)
@@ -147,7 +147,7 @@ public void UndeleteMessage(int sequenceNumber, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -159,7 +159,7 @@ public void UndeleteMessage(int sequenceNumber, long modificationSequence)
 
 ## UndeleteMessage(string, long) {#undeletemessage_7}
 
-Помечает сообщение с указанным порядковым номером как неудаляемое.
+Помечает сообщение с указанным порядковым номером как неудаленное.
 
 ```csharp
 public void UndeleteMessage(string uniqueId, long modificationSequence)
@@ -168,7 +168,7 @@ public void UndeleteMessage(string uniqueId, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| modificationSequence | Int64 | Модификация последовательность. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 

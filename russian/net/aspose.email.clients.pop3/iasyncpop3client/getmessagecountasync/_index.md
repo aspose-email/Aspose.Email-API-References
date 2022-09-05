@@ -1,14 +1,14 @@
 ---
 title: GetMessageCountAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает количество сообщений
+description: Получает количество сообщений count
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.pop3/iasyncpop3client/getmessagecountasync/
 ---
 ## IAsyncPop3Client.GetMessageCountAsync method
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(bool closeTransaction = false, IConnection connection = null, 
@@ -17,8 +17,8 @@ public Task<int> GetMessageCountAsync(bool closeTransaction = false, IConnection
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Boolean | Соединение с сервером |
-| closeTransaction | IConnection | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | Boolean | Подключение к серверу |
+| closeTransaction | IConnection | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

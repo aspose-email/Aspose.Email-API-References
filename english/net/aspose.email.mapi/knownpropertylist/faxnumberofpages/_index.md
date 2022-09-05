@@ -1,7 +1,7 @@
 ---
 title: FaxNumberOfPages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the number of pages in a Fax object. Area Unified Messaging Canonical name PidTagFaxNumberOfPages Alternate names InternalSchemaFaxNumberOfPages
 type: docs
 weight: 10250
 url: /net/aspose.email.mapi/knownpropertylist/faxnumberofpages/

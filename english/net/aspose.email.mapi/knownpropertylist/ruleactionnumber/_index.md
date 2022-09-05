@@ -1,7 +1,7 @@
 ---
 title: RuleActionNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the index of a rule action that failed. Area ExchangeMessageReadOnly Canonical name PidTagRuleActionNumber Alternate names PR_RULE_ACTION_NUMBER ptagRuleActionNumber
 type: docs
 weight: 16430
 url: /net/aspose.email.mapi/knownpropertylist/ruleactionnumber/

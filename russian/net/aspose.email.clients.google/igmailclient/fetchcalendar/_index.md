@@ -20,7 +20,7 @@ public ExtendedCalendar FetchCalendar(string calendarId)
 
 ### Возвращаемое значение
 
-Возвращает выбранный календарь.
+Возвращает полученный календарь.
 
 ### Смотрите также
 

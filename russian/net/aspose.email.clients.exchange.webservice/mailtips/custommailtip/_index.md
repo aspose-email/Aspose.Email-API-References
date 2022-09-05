@@ -1,14 +1,14 @@
 ---
 title: CustomMailTip
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает пользовательскую почтовую подсказку.
+description: Получает пользовательскую подсказку по почте.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/custommailtip/
 ---
 ## MailTips.CustomMailTip property
 
-Получает пользовательскую почтовую подсказку.
+Получает пользовательскую подсказку по почте.
 
 ```csharp
 public string CustomMailTip { get; }

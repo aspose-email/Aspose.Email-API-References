@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/serversupportedcompression/
 ---
 ## ImapClient.ServerSupportedCompression property
 
-获取服务器支持哪些压缩类型的信息。 查看更多:https://tools.ietf.org/html/rfc4978
+获取服务器支持哪些压缩类型的信息。 查看更多：https://tools.ietf.org/html/rfc4978
 
 ```csharp
 public CompressionType ServerSupportedCompression { get; }

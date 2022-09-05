@@ -17,7 +17,7 @@ public virtual void Add(long key, MapiProperty value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | key | Int64 | Тег свойства. |
-| value | MapiProperty | Значение свойства. |
+| value | MapiProperty | Стоимость свойства. |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public virtual void Add(MapiProperty value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | MapiProperty | Значение свойства. |
+| value | MapiProperty | Стоимость свойства. |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: Description
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置描述
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.email.calendar/appointment/description/
 ---
 ## Appointment.Description property

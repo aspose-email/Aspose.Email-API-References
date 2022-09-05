@@ -1,14 +1,14 @@
 ---
 title: ExchangeModifyExceptionStructure
 second_title: Aspose.Email for .NET API 参考
-description: 指定修改重复异常的结构 区域普通 规范名称PidNameExchangeModifyExceptionStructure 备用名称http//schemas.microsoft.com/exchange/modifyexceptionstruct
+description: 指定修改重复异常的结构 区域Common 规范名称PidNameExchangeModifyExceptionStructure 替代名称http//schemas.microsoft.com/exchange/modifyexceptionstruct
 type: docs
 weight: 9840
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangemodifyexceptionstructure/
 ---
 ## KnownPropertyList.ExchangeModifyExceptionStructure field
 
-指定修改重复异常的结构。 区域：普通 规范名称：PidNameExchangeModifyExceptionStructure 备用名称：http://schemas.microsoft.com/exchange/modifyexceptionstruct
+指定修改重复异常的结构。 区域：Common 规范名称：PidNameExchangeModifyExceptionStructure 替代名称：http://schemas.microsoft.com/exchange/modifyexceptionstruct
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeModifyExceptionStructure;

@@ -1,14 +1,14 @@
 ---
 title: UserResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает принимается ли собрание предварительно принимается или отклоняется.
+description: Указывает принимается ли совещание предварительно принимается или отклоняется.
 type: docs
 weight: 2320
 url: /ru/net/aspose.email.clients.activesync.transportlayer/userresponse/
 ---
 ## UserResponse enumeration
 
-Указывает, принимается ли собрание, предварительно принимается или отклоняется.
+Указывает, принимается ли совещание, предварительно принимается или отклоняется.
 
 ```csharp
 public enum UserResponse

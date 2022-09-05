@@ -1,7 +1,7 @@
 ---
 title: FindConversationThread
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds the conversation thread.
 type: docs
 weight: 110
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/findconversationthread/

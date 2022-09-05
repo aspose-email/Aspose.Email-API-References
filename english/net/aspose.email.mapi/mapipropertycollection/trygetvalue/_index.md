@@ -1,7 +1,7 @@
 ---
 title: TryGetValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the property associated with the specified tag.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapipropertycollection/trygetvalue/

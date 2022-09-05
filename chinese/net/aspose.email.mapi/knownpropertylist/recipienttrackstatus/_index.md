@@ -1,14 +1,14 @@
 ---
 title: RecipientTrackStatus
 second_title: Aspose.Email for .NET API 参考
-description: 表示与会者返回的响应状态 区域TransportRecipient 规范名称PidTagRecipientTrackStatus 替代名称PR_RECIPIENT_TRACKSTATUS ptagRecipientTrackStatus
+description: 表示与会者返回的响应状态 区域TransportRecipient 规范名称PidTagRecipientTrackStatus 别名PR_RECIPIENT_TRACKSTATUSptagRecipientTrackStatus
 type: docs
 weight: 15540
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipienttrackstatus/
 ---
 ## KnownPropertyList.RecipientTrackStatus field
 
-表示与会者返回的响应状态。 区域:TransportRecipient 规范名称:PidTagRecipientTrackStatus 替代名称:PR_RECIPIENT_TRACKSTATUS, ptagRecipientTrackStatus
+表示与会者返回的响应状态。 区域：TransportRecipient 规范名称：PidTagRecipientTrackStatus 别名：PR_RECIPIENT_TRACKSTATUS、ptagRecipientTrackStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientTrackStatus;

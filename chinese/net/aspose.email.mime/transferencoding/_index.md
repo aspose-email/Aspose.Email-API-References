@@ -3,7 +3,7 @@ title: TransferEncoding
 second_title: Aspose.Email for .NET API 参考
 description: 指定 Content-Transfer-Encoding 头信息
 type: docs
-weight: 19210
+weight: 19240
 url: /zh/net/aspose.email.mime/transferencoding/
 ---
 ## TransferEncoding enumeration
@@ -24,8 +24,8 @@ public enum TransferEncoding
 | Binary | `4` | 二进制编码。 |
 | QuotedPrintable | `0` | Quoted-printable，是一种使用可打印 ASCII 字符的编码。 |
 | Base64 | `1` | Base64 编码，对基于流的数据进行编码。 |
-| UUEncode | `5` | UUEncoding 对二进制数据进行编码以便通过 uucp 邮件系统进行传输。 |
-| BinHex | `6` | 二进制到十六进制编码。 |
+| UUEncode | `5` | UUEncoding 编码二进制数据以通过 uucp 邮件系统传输。 |
+| BinHex | `6` | 二进制转十六进制编码。 |
 
 ### 也可以看看
 

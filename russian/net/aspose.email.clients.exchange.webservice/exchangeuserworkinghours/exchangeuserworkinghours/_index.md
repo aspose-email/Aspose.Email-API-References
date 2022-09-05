@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserWorkingHours
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeUserWorkingHoursaspose.email.clients.exchange.webservice/exchangeuserworkinghours.
+description: Инициализирует новый экземплярExchangeUserWorkingHoursaspose.email.clients.exchange.webservice/exchangeuserworkinghours класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeuserworkinghours/exchangeuserworkinghours/
 ---
 ## ExchangeUserWorkingHours constructor
 
-Инициализирует новый экземпляр класса[`ExchangeUserWorkingHours`](../../exchangeuserworkinghours).
+Инициализирует новый экземпляр[`ExchangeUserWorkingHours`](../../exchangeuserworkinghours) класс.
 
 ```csharp
 public ExchangeUserWorkingHours()

@@ -1,14 +1,14 @@
 ---
 title: ItemId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает идентификатор элемента
+description: Получает или задает идентификатор элемента
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangestreameditem/itemid/
 ---
 ## ExchangeStreamedItem.ItemId property
 
-Получает или устанавливает идентификатор элемента
+Получает или задает идентификатор элемента
 
 ```csharp
 public string ItemId { get; set; }

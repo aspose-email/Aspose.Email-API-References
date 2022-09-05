@@ -1,14 +1,14 @@
 ---
 title: NoModSeq
 second_title: Aspose.Email for .NET API 参考
-description: 获取表明邮箱是否支持 mod-sequences 的值 此属性仅在服务器支持 CONDSTORE 扩展时有效 请阅读更多 https//tools.ietf.org/html/rfc4551section-3.1.2
+description: 获取指示邮箱是否支持 mod-sequences 的值 此属性仅在服务器支持 CONDSTORE 扩展时有效 请阅读更多 https//tools.ietf.org/html/rfc4551section-3.1.2
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/nomodseq/
 ---
 ## ImapFolderInfo.NoModSeq property
 
-获取表明邮箱是否支持 mod-sequences 的值。 此属性仅在服务器支持 CONDSTORE 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4551#section-3.1.2
+获取指示邮箱是否支持 mod-sequences 的值。 此属性仅在服务器支持 CONDSTORE 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4551#section-3.1.2
 
 ```csharp
 public bool NoModSeq { get; }

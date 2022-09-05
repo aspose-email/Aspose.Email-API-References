@@ -1,14 +1,14 @@
 ---
 title: FreeBusyEntryIds
 second_title: Aspose.Email for .NET API 参考
-description: 包含代表信息对象的EntryID即忙/闲数据的忙/闲消息 区域MapiContainer 规范名称PidTagFreeBusyEntryIds 替代名称PR_FREEBUSY_ENTRYIDS ptagFreeBusyEntryIds
+description: 包含代表信息对象的 EntryID即忙/闲数据的忙/闲消息 区域MapiContainer 规范名称PidTagFreeBusyEntryIds 替代名称PR_FREEBUSY_ENTRYIDSptagFreeBusyEntryIds
 type: docs
 weight: 10640
 url: /zh/net/aspose.email.mapi/knownpropertylist/freebusyentryids/
 ---
 ## KnownPropertyList.FreeBusyEntryIds field
 
-包含代表信息对象的EntryID，即“忙/闲数据”的忙/闲消息。 区域:MapiContainer 规范名称:PidTagFreeBusyEntryIds 替代名称:PR_FREEBUSY_ENTRYIDS, ptagFreeBusyEntryIds
+包含代表信息对象的 EntryID，即“忙/闲数据”的忙/闲消息。 区域：MapiContainer 规范名称：PidTagFreeBusyEntryIds 替代名称：PR_FREEBUSY_ENTRYIDS、ptagFreeBusyEntryIds
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyEntryIds;

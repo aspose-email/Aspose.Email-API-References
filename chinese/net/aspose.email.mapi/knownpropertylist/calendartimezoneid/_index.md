@@ -1,14 +1,14 @@
 ---
 title: CalendarTimeZoneId
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议的时区标识符 区域通用 规范名称PidNameCalendarTimeZoneId 备用名称urnschemascalendartimezoneid
+description: 指定约会或会议的时区标识符 区域Common 规范名称PidNameCalendarTimeZoneId 备用名称urnschemascalendartimezoneid
 type: docs
 weight: 2420
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendartimezoneid/
 ---
 ## KnownPropertyList.CalendarTimeZoneId field
 
-指定约会或会议的时区标识符。 区域:通用 规范名称:PidNameCalendarTimeZoneId 备用名称:urn:schemas:calendar:timezoneid
+指定约会或会议的时区标识符。 区域：Common 规范名称：PidNameCalendarTimeZoneId 备用名称：urn:schemas:calendar:timezoneid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarTimeZoneId;

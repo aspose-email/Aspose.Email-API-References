@@ -36,7 +36,7 @@ public Status(string description)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| description | String | Содержит описание состояния |
+| description | String | Содержит описание статуса |
 
 ### Смотрите также
 
@@ -57,7 +57,7 @@ public Status(int statusCode, string description)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | statusCode | Int32 | Содержит код состояния |
-| description | String | Содержит описание состояния |
+| description | String | Содержит описание статуса |
 
 ### Смотрите также
 

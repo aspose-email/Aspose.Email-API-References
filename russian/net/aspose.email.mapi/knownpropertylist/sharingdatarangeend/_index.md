@@ -1,14 +1,14 @@
 ---
 title: SharingDataRangeEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingDataRangeEnd Альтернативные именаdispidSharingDataRangeEnd
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingDataRangeEnd Альтернативные имена dispidSharingDataRangeEnd
 type: docs
 weight: 17440
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingdatarangeend/
 ---
 ## KnownPropertyList.SharingDataRangeEnd field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingDataRangeEnd Альтернативные имена:dispidSharingDataRangeEnd
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingDataRangeEnd Альтернативные имена: dispidSharingDataRangeEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingDataRangeEnd;

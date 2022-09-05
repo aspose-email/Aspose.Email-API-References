@@ -1,7 +1,7 @@
 ---
 title: WeekStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the week start.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/weekstart/

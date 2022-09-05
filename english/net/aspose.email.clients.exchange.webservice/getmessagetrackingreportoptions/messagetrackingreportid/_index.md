@@ -1,7 +1,7 @@
 ---
 title: MessageTrackingReportId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an identity string that was obtained from the FindMessageTrackingReport operation nonempty string
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/messagetrackingreportid/

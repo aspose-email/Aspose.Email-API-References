@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает должность контакта
+description: Получает или задает должность контакта
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicontactprofessionalpropertyset/title/
 ---
 ## MapiContactProfessionalPropertySet.Title property
 
-Получает или устанавливает должность контакта
+Получает или задает должность контакта
 
 ```csharp
 public string Title { get; set; }

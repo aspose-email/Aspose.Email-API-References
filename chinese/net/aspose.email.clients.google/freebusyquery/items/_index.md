@@ -1,14 +1,14 @@
 ---
 title: Items
 second_title: Aspose.Email for .NET API 参考
-description: 要查询的日历和/或组列表 包含日历或组的标识符
+description: 要查询的日历和/或组的列表 包含日历或组的标识符
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.google/freebusyquery/items/
 ---
 ## FreebusyQuery.Items property
 
-要查询的日历和/或组列表。 包含日历或组的标识符。
+要查询的日历和/或组的列表。 包含日历或组的标识符。
 
 ```csharp
 public List<string> Items { get; }

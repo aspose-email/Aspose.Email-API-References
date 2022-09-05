@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API 参考
-description: 将元素插入Collection中指定索引处
+description: 插入一个元素到Collection在指定的索引处
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapiattachmentcollection/insert/
 ---
 ## Insert(int, MapiAttachment) {#insert}
 
-将元素插入Collection中指定索引处。
+插入一个元素到Collection在指定的索引处。
 
 ```csharp
 public void Insert(int index, MapiAttachment item)
@@ -16,7 +16,7 @@ public void Insert(int index, MapiAttachment item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入*item*的从零开始的索引。 |
+| index | Int32 | 从零开始的索引*item*应该插入。 |
 | item | MapiAttachment | 要插入的对象。对于引用类型，该值可以为 null。 |
 
 ### 例外
@@ -36,7 +36,7 @@ public void Insert(int index, MapiAttachment item)
 
 ## Insert(int, string, MapiMessage) {#insert_2}
 
-将消息作为附件插入到[`MapiAttachmentCollection`](../../mapiattachmentcollection)的指定索引处。
+将邮件作为附件插入到[`MapiAttachmentCollection`](../../mapiattachmentcollection)在指定的索引处。
 
 ```csharp
 public void Insert(int index, string name, MapiMessage msg)
@@ -44,15 +44,15 @@ public void Insert(int index, string name, MapiMessage msg)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入的从零开始的索引。 |
-| name | String | 附件名称。 |
-| msg | MapiMessage | [`MapiMessage`](../../mapimessage)表示附加消息。 |
+| index | Int32 | 应插入的从零开始的索引。 |
+| name | String | 附件的名称。 |
+| msg | MapiMessage | 这[`MapiMessage`](../../mapimessage)表示附加的消息。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果消息为空，则抛出 。 |
+| ArgumentNullException | 如果消息为空则抛出。 |
 
 ### 也可以看看
 

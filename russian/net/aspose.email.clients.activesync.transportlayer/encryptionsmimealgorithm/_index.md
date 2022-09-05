@@ -20,7 +20,7 @@ public enum EncryptionSMIMEAlgorithm
 | --- | --- | --- |
 | TripleDES | `0` | Алгоритм тройного DES |
 | DES | `1` | Алгоритм DES |
-| RC2128bit | `2` | RC2 128-битный алгоритм |
+| RC2128bit | `2` | 128-битный алгоритм RC2 |
 | RC264bit | `3` | 64-битный алгоритм RC2 |
 | RC240bit | `4` | 40-битный алгоритм RC2 |
 

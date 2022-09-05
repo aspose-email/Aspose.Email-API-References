@@ -1,7 +1,7 @@
 ---
 title: Fax1OriginalDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the same value as the PidTagNormalizedSubject property section 2.803. Area Contact Properties Canonical name PidLidFax1OriginalDisplayName Alternate names dispidFax1OriginalDisplayName
 type: docs
 weight: 10150
 url: /net/aspose.email.mapi/knownpropertylist/fax1originaldisplayname/

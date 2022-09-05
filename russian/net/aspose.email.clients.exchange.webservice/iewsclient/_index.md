@@ -18,26 +18,26 @@ public interface IEWSClient : IExchangeClientBase
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/calendarfoldereventfilter) { get; set; } | Определяет типы событий для папки календаря |
-| [ContactsFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/contactsfoldereventfilter) { get; set; } | Определяет типы событий для папки Контакты |
-| [CurrentCalendarFolderUri](../../aspose.email.clients.exchange.webservice/iewsclient/currentcalendarfolderuri) { get; set; } | Получает или устанавливает uri текущей папки календаря |
+| [CalendarFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/calendarfoldereventfilter) { get; set; } | Указывает типы событий для папки календаря |
+| [ContactsFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/contactsfoldereventfilter) { get; set; } | Указывает типы событий для папки «Контакты» |
+| [CurrentCalendarFolderUri](../../aspose.email.clients.exchange.webservice/iewsclient/currentcalendarfolderuri) { get; set; } | Получает или задает текущую папку календаря uri |
 | [DeletedItemsFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/deleteditemsfoldereventfilter) { get; set; } | Указывает типы событий для папки DeletedItems |
 | [DraftsFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/draftsfoldereventfilter) { get; set; } | Определяет типы событий для папки Черновики |
 | [EnableDecompression](../../aspose.email.clients.exchange.webservice/iewsclient/enabledecompression) { get; set; } | Получает или задает значение, указывающее, включена ли декомпрессия |
 | [Headers](../../aspose.email.clients.exchange.webservice/iewsclient/headers) { get; } | Получает массив пар "имя-значение", которые добавляются в WebHeaderCollection в запросе EWS. |
 | [InboxFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/inboxfoldereventfilter) { get; set; } | Указывает типы событий для папки "Входящие" |
-| [JournalFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/journalfoldereventfilter) { get; set; } | Определяет типы событий для папки журнала |
+| [JournalFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/journalfoldereventfilter) { get; set; } | Указывает типы событий для папки журнала |
 | [MailboxInfo](../../aspose.email.clients.exchange.webservice/iewsclient/mailboxinfo) { get; } | Получает информацию о почтовом ящике. |
-| [NotesFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/notesfoldereventfilter) { get; set; } | Определяет типы событий для папки Notes |
+| [NotesFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/notesfoldereventfilter) { get; set; } | Указывает типы событий для папки Notes |
 | [NotificationsCheckInterval](../../aspose.email.clients.exchange.webservice/iewsclient/notificationscheckinterval) { get; set; } | Определяет интервал проверки уведомлений |
 | [NotificationTimeout](../../aspose.email.clients.exchange.webservice/iewsclient/notificationtimeout) { get; set; } | Определяет время ожидания для уведомлений сервера |
-| [OutboxFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/outboxfoldereventfilter) { get; set; } | Указывает типы событий для папки Исходящие |
+| [OutboxFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/outboxfoldereventfilter) { get; set; } | Определяет типы событий для папки "Исходящие" |
 | [ReconnectCount](../../aspose.email.clients.exchange.webservice/iewsclient/reconnectcount) { get; set; } | Получает или задает количество попыток повторного подключения при разрыве соединения. |
 | [ReturnClientRequestId](../../aspose.email.clients.exchange.webservice/iewsclient/returnclientrequestid) { get; set; } | Получает или устанавливает флаг, указывающий, требует ли клиент, чтобы сторона сервера возвращала идентификатор запроса. |
 | [RootFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/rootfoldereventfilter) { get; set; } | Указывает типы событий для корневой папки |
 | [SentItemsFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/sentitemsfoldereventfilter) { get; set; } | Указывает типы событий для папки SentItems |
 | [ServerVersion](../../aspose.email.clients.exchange.webservice/iewsclient/serverversion) { get; } | Получает информацию о текущей версии MS Exchange. |
-| [TasksFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/tasksfoldereventfilter) { get; set; } | Указывает типы событий для папки Tasks |
+| [TasksFolderEventFilter](../../aspose.email.clients.exchange.webservice/iewsclient/tasksfoldereventfilter) { get; set; } | Определяет типы событий для папки Tasks |
 | [TimezoneId](../../aspose.email.clients.exchange.webservice/iewsclient/timezoneid) { get; set; } | Получает или устанавливает идентификатор часового пояса |
 | [UseSlashAsFolderSeparator](../../aspose.email.clients.exchange.webservice/iewsclient/useslashasfolderseparator) { get; set; } | Получает или задает значение, определяющее, используется ли косая черта '/' в качестве разделителя папок. |
 
@@ -46,8 +46,8 @@ public interface IEWSClient : IExchangeClientBase
 | Имя | Описание |
 | --- | --- |
 | [AddHeader](../../aspose.email.clients.exchange.webservice/iewsclient/addheader)(string, string) | Добавляет имя и значение в WebHeaderCollection в запросе EWS. |
-| [AddToDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/addtodistributionlist)(ExchangeDistributionList, MailAddressCollection) | Добавляет элементы в список рассылки. |
-| [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage#appendmessage)(MailMessage) | Загружает почтовое сообщение в папку "Входящие" |
+| [AddToDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/addtodistributionlist)(ExchangeDistributionList, MailAddressCollection) | Добавляет участников в список рассылки. |
+| [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage#appendmessage)(MailMessage) | Загружает почтовое сообщение в папку «Входящие» |
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage#appendmessage_1)(MapiMessage) | Загружает почтовое сообщение в указанную папку |
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage#appendmessage_2)(MapiMessage, bool) | Загружает почтовое сообщение в указанную папку |
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage#appendmessage_3)(string, MailMessage) | Загружает почтовое сообщение в указанную папку |
@@ -65,10 +65,10 @@ public interface IEWSClient : IExchangeClientBase
 | [Backup](../../aspose.email.clients.exchange.webservice/iewsclient/backup#backup_1)(ExchangeFolderInfoCollection, string, BackupOptions) | Резервирует содержимое указанных папок |
 | [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment)(Appointment) | Отменяет встречу. |
 | [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_2)(MapiCalendar) | Отменяет встречу. |
-| [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_4)(string) | Отменяет выход из собрания в календаре организатора |
+| [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_4)(string) | Отменяет выходную встречу в календаре организаторов |
 | [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_1)(Appointment, string) | Отменяет встречу. |
 | [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_3)(MapiCalendar, string) | Отменяет встречу. |
-| [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_5)(string, string) | Отменяет выход из собрания в календаре организатора |
+| [CancelAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/cancelappointment#cancelappointment_5)(string, string) | Отменяет выходную встречу в календаре организаторов |
 | [CheckUserAvailability](../../aspose.email.clients.exchange.webservice/iewsclient/checkuseravailability#checkuseravailability)(string, DateRange) | Проверяет доступность пользователя в течение указанного временного окна. |
 | [CheckUserAvailability](../../aspose.email.clients.exchange.webservice/iewsclient/checkuseravailability#checkuseravailability_1)(StringCollection, DateRange) | Проверяет доступность пользователей в течение указанного временного окна. |
 | [CloseAccess](../../aspose.email.clients.exchange.webservice/iewsclient/closeaccess#closeaccess_1)(ExchangeDelegateUser, string) | Закрывает доступ к указанному почтовому ящику для указанного пользователя. |
@@ -81,7 +81,7 @@ public interface IEWSClient : IExchangeClientBase
 | [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment#createappointment)(Appointment) | Создает встречу. |
 | [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment#createappointment_1)(Appointment, string) | Создает встречу. |
 | [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment#createappointment_4)(MapiCalendar, string, bool) | Создает встречу. |
-| [CreateCalendarSharingInvitationMessage](../../aspose.email.clients.exchange.webservice/iewsclient/createcalendarsharinginvitationmessage)(string) | Создать приглашение на совместное использование календаря. |
+| [CreateCalendarSharingInvitationMessage](../../aspose.email.clients.exchange.webservice/iewsclient/createcalendarsharinginvitationmessage)(string) | Создать сообщение с приглашением к совместному использованию календаря. |
 | [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact#createcontact_1)(Contact) | Создает элемент контакта в магазине Exchange. |
 | [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact#createcontact_3)(string, Contact) | Создает элемент контакта в указанной папке. |
 | [CreateDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/createdistributionlist)(ExchangeDistributionList, MailAddressCollection) | Создает частный список рассылки. |
@@ -99,13 +99,13 @@ public interface IEWSClient : IExchangeClientBase
 | [CreatePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder#createpublicfolder)(string, ExchangeFolderPermissionCollection) | Создает указанную общую папку в корневой общей папке |
 | [CreatePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder#createpublicfolder_1)(string, ExchangeFolderPermissionCollection, ExchangeFolderType) | Создает указанную общую папку в корневой общей папке |
 | [CreatePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder#createpublicfolder_2)(string, string, ExchangeFolderPermissionCollection) | Создает указанную общую папку в корневой общей папке |
-| [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask#createtask)(ExchangeTask) | Создает указанную задачу в папке задач по умолчанию. |
+| [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask#createtask)(ExchangeTask) | Создает данную задачу в папке задач по умолчанию. |
 | [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask#createtask_2)(string, ExchangeTask) | Создает заданную задачу в указанной папке. |
-| [CreateUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/createuserconfiguration)(UserConfiguration) | Создает указанную пользовательскую конфигурацию |
+| [CreateUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/createuserconfiguration)(UserConfiguration) | Создает указанную конфигурацию пользователя |
 | [DelegateAccess](../../aspose.email.clients.exchange.webservice/iewsclient/delegateaccess#delegateaccess)(ExchangeDelegateUser, string) | Делегирует доступ к указанному почтовому ящику указанному пользователю. |
 | [DelegateAccess](../../aspose.email.clients.exchange.webservice/iewsclient/delegateaccess#delegateaccess_1)(ExchangeDelegateUserCollection, string) | Делегирует доступ к почтовому ящику указанным пользователям. |
 | [DelegateAccess](../../aspose.email.clients.exchange.webservice/iewsclient/delegateaccess#delegateaccess_2)(string, ExchangeDelegateFolderPermissionLevel, string) | Делегирует доступ к основному почтовому ящику указанному пользователю. |
-| [DeleteConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/deleteconversationitems#deleteconversationitems)(string) | Удаляет все элементы указанной беседы |
+| [DeleteConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/deleteconversationitems#deleteconversationitems)(string) | Удаляет все элементы указанного разговора |
 | [DeleteConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/deleteconversationitems#deleteconversationitems_1)(string, string) | Удаляет элементы беседы, находящиеся в указанной папке |
 | [DeleteDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/deletedistributionlist)(ExchangeDistributionList, bool) | Удаляет список рассылки. |
 | [DeleteFolder](../../aspose.email.clients.exchange.webservice/iewsclient/deletefolder#deletefolder)(string) | Удаляет папку |
@@ -115,72 +115,72 @@ public interface IEWSClient : IExchangeClientBase
 | [DeleteFolders](../../aspose.email.clients.exchange.webservice/iewsclient/deletefolders#deletefolders_1)(ExchangeFolderInfoCollection, bool) | Удаляет указанные папки |
 | [DeleteFolders](../../aspose.email.clients.exchange.webservice/iewsclient/deletefolders#deletefolders_3)(StringCollection, bool) | Удаляет папку |
 | [DeleteFromDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/deletefromdistributionlist)(ExchangeDistributionList, MailAddressCollection) | Удаляет участников из списка рассылки. |
-| [DeleteInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule#deleteinboxrule)(string) | Удаляет указанное правило для папки "Входящие" |
-| [DeleteInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule#deleteinboxrule_1)(string, string) | Удаляет указанное правило для папки "Входящие" |
+| [DeleteInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule#deleteinboxrule)(string) | Удаляет указанное правило папки "Входящие" |
+| [DeleteInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule#deleteinboxrule_1)(string, string) | Удаляет указанное правило папки "Входящие" |
 | [DeleteItem](../../aspose.email.clients.exchange.webservice/iewsclient/deleteitem)(string, DeletionOptions) | Удаляет указанный элемент |
 | [DeleteItems](../../aspose.email.clients.exchange.webservice/iewsclient/deleteitems)(IEnumerable&lt;string&gt;, DeletionOptions) | Удаляет указанные элементы |
 | [DeleteUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/deleteuserconfiguration)(UserConfigurationName) | Удаляет указанную конфигурацию пользователя |
-| [DisconnectPhoneCall](../../aspose.email.clients.exchange.webservice/iewsclient/disconnectphonecall)(string) | Разъединяет телефонный звонок, указанный идентификатором. |
+| [DisconnectPhoneCall](../../aspose.email.clients.exchange.webservice/iewsclient/disconnectphonecall)(string) | Разъединяет телефонный звонок, указанный id. |
 | [EmptyFolder](../../aspose.email.clients.exchange.webservice/iewsclient/emptyfolder#emptyfolder)(string) | Очищает указанную папку. Подпапки не будут удалены; удаленные элементы будут перемещены в папку DeletedItems |
 | [EmptyFolder](../../aspose.email.clients.exchange.webservice/iewsclient/emptyfolder#emptyfolder_1)(string, EmptyFolderOptions) | Очищает указанную папку |
-| [ExpandDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/expanddistributionlist)(MailAddress) | Расширяет список членов общедоступного списка рассылки. |
+| [ExpandDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/expanddistributionlist)(MailAddress) | Расширяет список участников общедоступного списка рассылки. |
 | [ExportItems](../../aspose.email.clients.exchange.webservice/iewsclient/exportitems)(params string[]) | Экспортирует указанные элементы из почтового ящика |
 | [FetchAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/fetchappointment#fetchappointment)(string) | Получить указанную встречу с сервера. |
 | [FetchAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/fetchappointment#fetchappointment_1)(string, string) | Получить указанную встречу с сервера. |
 | [FetchAttachment](../../aspose.email.clients.exchange.webservice/iewsclient/fetchattachment)(string) | Извлекает вложение |
-| [FetchConversationMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchconversationmessages)(string) | Выбирает указанные сообщения беседы |
-| [FetchDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/fetchdistributionlist)(ExchangeDistributionList) | Выбирает членов частного списка рассылки. |
-| [FetchItem](../../aspose.email.clients.exchange.webservice/iewsclient/fetchitem#fetchitem)(string) | Извлекает элемент как[`MapiMessage`](../../aspose.email.mapi/mapimessage). |
-| [FetchItem](../../aspose.email.clients.exchange.webservice/iewsclient/fetchitem#fetchitem_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Извлекает элемент как[`MapiMessage`](../../aspose.email.mapi/mapimessage). |
+| [FetchConversationMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchconversationmessages)(string) | Извлекает указанные сообщения беседы |
+| [FetchDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/fetchdistributionlist)(ExchangeDistributionList) | Извлекает членов частного списка рассылки. |
+| [FetchItem](../../aspose.email.clients.exchange.webservice/iewsclient/fetchitem#fetchitem)(string) | Извлекает элемент как[`MapiMessage`](../../aspose.email.mapi/mapimessage) . |
+| [FetchItem](../../aspose.email.clients.exchange.webservice/iewsclient/fetchitem#fetchitem_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Извлекает элемент как[`MapiMessage`](../../aspose.email.mapi/mapimessage) . |
 | [FetchItems](../../aspose.email.clients.exchange.webservice/iewsclient/fetchitems)(EwsFetchItems) | Извлекает элементы. |
-| [FetchMapiCalendar](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar#fetchmapicalendar)(IEnumerable&lt;string&gt;) | Получить массив объектов[`MapiCalendar`](../../aspose.email.mapi/mapicalendar). |
-| [FetchMapiCalendar](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar#fetchmapicalendar_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив объектов[`MapiCalendar`](../../aspose.email.mapi/mapicalendar). |
-| [FetchMapiMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages#fetchmapimessages)(IEnumerable&lt;string&gt;) | Выбирает указанные сообщения |
-| [FetchMapiMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages#fetchmapimessages_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Выбирает указанные сообщения |
-| [FetchMapiNotes](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes#fetchmapinotes)(IEnumerable&lt;string&gt;) | Получить массив объектов[`MapiNote`](../../aspose.email.mapi/mapinote). |
-| [FetchMapiNotes](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes#fetchmapinotes_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив объектов[`MapiNote`](../../aspose.email.mapi/mapinote). |
-| [FetchMapiTasks](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks#fetchmapitasks)(IEnumerable&lt;string&gt;) | Получить массив объектов[`MapiTask`](../../aspose.email.mapi/mapitask). |
-| [FetchMapiTasks](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks#fetchmapitasks_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив объектов[`MapiTask`](../../aspose.email.mapi/mapitask). |
-| [FetchMessage](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessage#fetchmessage)(string) | Получает сообщение. |
-| [FetchMessage](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessage#fetchmessage_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Получает сообщение с сервера |
-| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages)(IEnumerable&lt;ExchangeMessageInfo&gt;) | Выбирает указанные сообщения |
-| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_1)(IEnumerable&lt;string&gt;) | Выбирает указанные сообщения |
-| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_3)(StringCollection) | Выбирает указанные сообщения |
-| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_2)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Выбирает указанные сообщения |
+| [FetchMapiCalendar](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar#fetchmapicalendar)(IEnumerable&lt;string&gt;) | Получить массив[`MapiCalendar`](../../aspose.email.mapi/mapicalendar) объекты. |
+| [FetchMapiCalendar](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar#fetchmapicalendar_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив[`MapiCalendar`](../../aspose.email.mapi/mapicalendar) объекты. |
+| [FetchMapiMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages#fetchmapimessages)(IEnumerable&lt;string&gt;) | Получает указанные сообщения |
+| [FetchMapiMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages#fetchmapimessages_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получает указанные сообщения |
+| [FetchMapiNotes](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes#fetchmapinotes)(IEnumerable&lt;string&gt;) | Получить массив[`MapiNote`](../../aspose.email.mapi/mapinote) объекты. |
+| [FetchMapiNotes](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes#fetchmapinotes_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив[`MapiNote`](../../aspose.email.mapi/mapinote) объекты. |
+| [FetchMapiTasks](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks#fetchmapitasks)(IEnumerable&lt;string&gt;) | Получить массив[`MapiTask`](../../aspose.email.mapi/mapitask) объекты. |
+| [FetchMapiTasks](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks#fetchmapitasks_1)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получить массив[`MapiTask`](../../aspose.email.mapi/mapitask) объекты. |
+| [FetchMessage](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessage#fetchmessage)(string) | Извлекает сообщение. |
+| [FetchMessage](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessage#fetchmessage_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Получает сообщение с server |
+| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages)(IEnumerable&lt;ExchangeMessageInfo&gt;) | Получает указанные сообщения |
+| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_1)(IEnumerable&lt;string&gt;) | Получает указанные сообщения |
+| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_3)(StringCollection) | Получает указанные сообщения |
+| [FetchMessages](../../aspose.email.clients.exchange.webservice/iewsclient/fetchmessages#fetchmessages_2)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Получает указанные сообщения |
 | [FetchTask](../../aspose.email.clients.exchange.webservice/iewsclient/fetchtask)(string) | Выбирает указанную задачу. |
 | [FindConversations](../../aspose.email.clients.exchange.webservice/iewsclient/findconversations)(string) | Находит разговоры в указанной папке |
 | [FindMessageTrackingReport](../../aspose.email.clients.exchange.webservice/iewsclient/findmessagetrackingreport)(FindMessageTrackingReportOptions) | Находит сообщения, соответствующие указанным критериям. |
-| [FindPeople](../../aspose.email.clients.exchange.webservice/iewsclient/findpeople#findpeople_1)(string, int) | Поиск контактов, расположенных в глобальном списке адресов (GAL) на сервере. |
-| [FindPeople](../../aspose.email.clients.exchange.webservice/iewsclient/findpeople#findpeople)(string, MailQuery, int) | Найти контакты, расположенные в личном ящике указанного пользователя на сервере. |
+| [FindPeople](../../aspose.email.clients.exchange.webservice/iewsclient/findpeople#findpeople_1)(string, int) | Найти контакты, расположенные в глобальном списке адресов (GAL) на сервере. |
+| [FindPeople](../../aspose.email.clients.exchange.webservice/iewsclient/findpeople#findpeople)(string, MailQuery, int) | Найти контакты, расположенные в личном почтовом ящике указанного пользователя на сервере. |
 | [FolderExists](../../aspose.email.clients.exchange.webservice/iewsclient/folderexists#folderexists)(string, string) | Проверяет, существует ли указанная папка. |
 | [FolderExists](../../aspose.email.clients.exchange.webservice/iewsclient/folderexists#folderexists_1)(string, string, out ExchangeFolderInfo) | Проверяет, существует ли указанная папка. |
 | [Forward](../../aspose.email.clients.exchange.webservice/iewsclient/forward)(MailMessage, ExchangeMessageInfo) | Переслать сообщение. |
-| [GetCallInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getcallinfo)(string) | Получает информацию о телефонном звонке по идентификатору вызова |
-| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact)(ObjectIdentifier) | Получает контактную информацию по указанному идентификатору. |
-| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_2)(string) | Получает контактную информацию по указанному идентификатору. |
-| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_1)(ObjectIdentifier, ExchangeListContactsOptions) | Получает контактную информацию по указанному идентификатору. |
-| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_3)(string, ExchangeListContactsOptions) | Получает контактную информацию по указанному идентификатору. |
-| [GetContacts](../../aspose.email.clients.exchange.webservice/iewsclient/getcontacts#getcontacts)(string) | Список контактов, находящихся в указанной папке на сервере |
-| [GetContacts](../../aspose.email.clients.exchange.webservice/iewsclient/getcontacts#getcontacts_1)(string, ExchangeListContactsOptions) | Список контактов, находящихся в указанной папке на сервере |
+| [GetCallInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getcallinfo)(string) | Извлекает информацию о телефонных звонках по идентификатору звонка |
+| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact)(ObjectIdentifier) | Извлекает контактную информацию в соответствии с указанным идентификатором. |
+| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_2)(string) | Извлекает контактную информацию в соответствии с указанным идентификатором. |
+| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_1)(ObjectIdentifier, ExchangeListContactsOptions) | Извлекает контактную информацию в соответствии с указанным идентификатором. |
+| [GetContact](../../aspose.email.clients.exchange.webservice/iewsclient/getcontact#getcontact_3)(string, ExchangeListContactsOptions) | Извлекает контактную информацию в соответствии с указанным идентификатором. |
+| [GetContacts](../../aspose.email.clients.exchange.webservice/iewsclient/getcontacts#getcontacts)(string) | Список контактов, расположенных в указанной папке на server |
+| [GetContacts](../../aspose.email.clients.exchange.webservice/iewsclient/getcontacts#getcontacts_1)(string, ExchangeListContactsOptions) | Список контактов, расположенных в указанной папке на server |
 | [GetExchangeType](../../aspose.email.clients.exchange.webservice/iewsclient/getexchangetype)() | Получает информацию о текущей версии MS Exchange. |
 | [GetFolderInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getfolderinfo)(string) | Получает информацию о папке |
 | [GetFolderPermissions](../../aspose.email.clients.exchange.webservice/iewsclient/getfolderpermissions)(string) | Получает права доступа к папке. |
 | [GetInboxRules](../../aspose.email.clients.exchange.webservice/iewsclient/getinboxrules#getinboxrules)() | Получает правила для папки "Входящие" |
 | [GetInboxRules](../../aspose.email.clients.exchange.webservice/iewsclient/getinboxrules#getinboxrules_1)(string) | Получает правила для папки "Входящие" |
-| [GetMailboxes](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxes)() | Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращаемых контактов – 100. Это ограничение используемой операции EWS. |
+| [GetMailboxes](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxes)() | Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращенных контактов равно 100. Это ограничение используемой операции EWS. |
 | [GetMailboxInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxinfo#getmailboxinfo)() | Получает информацию о почтовом ящике. |
 | [GetMailboxInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxinfo#getmailboxinfo_1)(string) | Получает информацию о почтовом ящике |
-| [GetMailboxSize](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxsize)() | Получает размер почтового ящика. Обратите внимание, что эта операция выполняется рекурсивно для всех подпапок и занимает некоторое время |
-| [GetMailboxSizeEx](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxsizeex)(string) | Получает размер почтового ящика Обратите внимание, что эта операция выполняется рекурсивно для всех подпапок и занимает некоторое время |
-| [GetMailTips](../../aspose.email.clients.exchange.webservice/iewsclient/getmailtips)(GetMailTipsOptions) | Получает почтовые подсказки |
+| [GetMailboxSize](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxsize)() | Получает размер почтового ящика. Обратите внимание, что эта операция выполняется рекурсивно для всех вложенных папок и занимает некоторое время |
+| [GetMailboxSizeEx](../../aspose.email.clients.exchange.webservice/iewsclient/getmailboxsizeex)(string) | Получает размер почтового ящика Обратите внимание, что эта операция выполняется рекурсивно для всех вложенных папок и занимает некоторое время |
+| [GetMailTips](../../aspose.email.clients.exchange.webservice/iewsclient/getmailtips)(GetMailTipsOptions) | Получает советы по почте |
 | [GetMessageTrackingReport](../../aspose.email.clients.exchange.webservice/iewsclient/getmessagetrackingreport)(GetMessageTrackingReportOptions) | Получает отчет об отслеживании сообщений |
 | [GetServerTimeZoneIds](../../aspose.email.clients.exchange.webservice/iewsclient/getservertimezoneids#getservertimezoneids)() | GetServerTimeZoneIds возвращает информацию из идентификатора часового пояса, доступного на сервере Exchange. |
 | [GetServerTimeZoneIds](../../aspose.email.clients.exchange.webservice/iewsclient/getservertimezoneids#getservertimezoneids_1)(IEnumerable&lt;string&gt;) | GetServerTimeZoneIds возвращает информацию из идентификатора часового пояса, доступного на сервере Exchange. |
 | [GetServerTimeZoneIds](../../aspose.email.clients.exchange.webservice/iewsclient/getservertimezoneids#getservertimezoneids_2)(params string[]) | GetServerTimeZoneIds возвращает информацию из идентификатора часового пояса, доступного на сервере Exchange. |
-| [GetUMConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/getumconfiguration)() | Извлекает конфигурацию единой системы обмена сообщениями |
+| [GetUMConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/getumconfiguration)() | Получает конфигурацию единой системы обмена сообщениями |
 | [GetUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/getuserconfiguration)(UserConfigurationName) | Получает указанную конфигурацию пользователя |
 | [GetVersionInfo](../../aspose.email.clients.exchange.webservice/iewsclient/getversioninfo)() | Возвращает информацию о версии сервера обмена |
-| [ImpersonateUser](../../aspose.email.clients.exchange.webservice/iewsclient/impersonateuser)(ItemChoice, string) | Олицетворяет пользователя. |
+| [ImpersonateUser](../../aspose.email.clients.exchange.webservice/iewsclient/impersonateuser)(ItemChoice, string) | Выдает себя за пользователя. |
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments)() | Получает список встреч для папки календаря по умолчанию |
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments_3)(bool) | Получает список встреч для папки календаря по умолчанию |
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments_1)(MailQuery) | Получает список встреч для папки календаря по умолчанию |
@@ -189,16 +189,16 @@ public interface IEWSClient : IExchangeClientBase
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments_7)(string, bool) | Получает список встреч для указанной папки календаря |
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments_5)(string, MailQuery) | Получает список встреч для указанной папки календаря |
 | [ListAppointments](../../aspose.email.clients.exchange.webservice/iewsclient/listappointments#listappointments_6)(string, MailQuery, bool) | Получает список встреч для указанной папки календаря |
-| [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_2)(int) | Получает страницу с встречами для папки календаря |
-| [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_3)(int, int) | Получает страницу с встречами для папки календаря |
+| [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_2)(int) | Извлекает страницу с встречами для папки календаря |
+| [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_3)(int, int) | Извлекает страницу с встречами для папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage)(MailQuery, int) | Извлекает страницу с встречами для папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_6)(string, int) | Извлекает страницу с встречами для указанной папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_1)(MailQuery, int, int) | Извлекает страницу с встречами для папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_7)(string, int, int) | Извлекает страницу с встречами для указанной папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_4)(string, MailQuery, int) | Извлекает страницу с встречами для указанной папки календаря |
 | [ListAppointmentsByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage#listappointmentsbypage_5)(string, MailQuery, int, int) | Извлекает страницу с встречами для указанной папки календаря |
-| [ListContacts](../../aspose.email.clients.exchange.webservice/iewsclient/listcontacts#listcontacts)(string) | Список контактов, расположенных в указанной папке на сервере |
-| [ListContacts](../../aspose.email.clients.exchange.webservice/iewsclient/listcontacts#listcontacts_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Список контактов, расположенных в указанной папке на сервере |
+| [ListContacts](../../aspose.email.clients.exchange.webservice/iewsclient/listcontacts#listcontacts)(string) | Список контактов, расположенных в указанной папке на server |
+| [ListContacts](../../aspose.email.clients.exchange.webservice/iewsclient/listcontacts#listcontacts_1)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Список контактов, расположенных в указанной папке на server |
 | [ListDelegates](../../aspose.email.clients.exchange.webservice/iewsclient/listdelegates)(string) | Список пользователей, которым предоставлен доступ к указанному почтовому ящику. |
 | [ListDistributionLists](../../aspose.email.clients.exchange.webservice/iewsclient/listdistributionlists)() | Список частных списков рассылки. |
 | [ListItems](../../aspose.email.clients.exchange.webservice/iewsclient/listitems#listitems)(string) | Получить список идентификаторов элементов в указанной папке |
@@ -233,25 +233,25 @@ public interface IEWSClient : IExchangeClientBase
 | [ListMessagesFromPublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/listmessagesfrompublicfolder#listmessagesfrompublicfolder)(ExchangeFolderInfo) | Получить коллекцию сообщений из общей папки |
 | [ListMessagesFromPublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/listmessagesfrompublicfolder#listmessagesfrompublicfolder_1)(string) | Получить коллекцию сообщений из общей папки |
 | [ListPublicFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listpublicfolders)() | Получает коллекцию общих папок из корневой общей папки |
-| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders)(ExchangeFolderInfo) | Получает коллекцию дочерних общих папок от родительского |
-| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders_1)(string) | Получает коллекцию дочерних папок от родительской |
-| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders_2)(string, string) | Получает коллекцию дочерних папок от родительской |
-| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage_1)(string, int) | Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг. Вызывается впервые в цикле подкачки. |
-| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage)(string, PageInfo) | Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг. |
-| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage_2)(string, int, int) | Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг. |
+| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders)(ExchangeFolderInfo) | Получает коллекцию дочерних общих папок от parent |
+| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders_1)(string) | Получает коллекцию дочерних папок от parent |
+| [ListSubFolders](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfolders#listsubfolders_2)(string, string) | Получает коллекцию дочерних папок от parent |
+| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage_1)(string, int) | Ищет указанную папку в заданной родительской папке с paging Метод поддерживает пейджинг. Вызывает в первый раз в цикле подкачки. |
+| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage)(string, PageInfo) | Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging. |
+| [ListSubFoldersByPage](../../aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage#listsubfoldersbypage_2)(string, int, int) | Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks)() | Получает списки задач обмена для папки по умолчанию. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks_1)(string) | Получает списки задач обмена. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks_3)(string, int) | Получает списки задач обмена. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks_2)(string, MailQuery) | Получает списки задач обмена. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks_4)(string, int, MailQuery) | Получает списки задач обмена. |
 | [ListTasks](../../aspose.email.clients.exchange.webservice/iewsclient/listtasks#listtasks_5)(string, int, MailQuery, bool) | Получает списки задач обмена. |
-| [LoadContactPhoto](../../aspose.email.clients.exchange.webservice/iewsclient/loadcontactphoto)(ContactPhoto) | Загружает бинарные данные фото контакта |
-| [MailDisablePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/maildisablepublicfolder)(string) | Отключить почту для общей папки |
-| [MailEnablePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/mailenablepublicfolder)(string) | Включить почту для общей папки |
-| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems_2)(bool, params string[]) | Отмечает все элементы в указанных папках. |
-| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems)(bool, bool, IEnumerable&lt;string&gt;) | Отмечает все элементы в указанных папках. |
-| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems_1)(bool, bool, params string[]) | Отмечает все элементы в указанных папках. |
-| [MarkAllItemsAsRead](../../aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread#markallitemsasread)() | Помечает все сообщения в папке "Входящие" как прочитанные без квитанций. |
+| [LoadContactPhoto](../../aspose.email.clients.exchange.webservice/iewsclient/loadcontactphoto)(ContactPhoto) | Загружает бинарные данные фотографии контакта |
+| [MailDisablePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/maildisablepublicfolder)(string) | Почта - отключить общую папку |
+| [MailEnablePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/mailenablepublicfolder)(string) | Включить почту для общедоступной папки |
+| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems_2)(bool, params string[]) | Помечает все элементы в указанных папках. |
+| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems)(bool, bool, IEnumerable&lt;string&gt;) | Помечает все элементы в указанных папках. |
+| [MarkAllItems](../../aspose.email.clients.exchange.webservice/iewsclient/markallitems#markallitems_1)(bool, bool, params string[]) | Помечает все элементы в указанных папках. |
+| [MarkAllItemsAsRead](../../aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread#markallitemsasread)() | Помечает все элементы в папке "Входящие" как прочитанные без квитанций. |
 | [MarkAllItemsAsRead](../../aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread#markallitemsasread_1)(IEnumerable&lt;string&gt;) | Помечает все элементы в указанных папках как прочитанные без квитанций. |
 | [MarkAllItemsAsRead](../../aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread#markallitemsasread_2)(params string[]) | Помечает все элементы в указанных папках как прочитанные без квитанций. |
 | [MarkAllItemsAsUnread](../../aspose.email.clients.exchange.webservice/iewsclient/markallitemsasunread#markallitemsasunread)() | Помечает все элементы в папке "Входящие" как непрочитанные. |
@@ -263,17 +263,17 @@ public interface IEWSClient : IExchangeClientBase
 | [MarkAsJunk](../../aspose.email.clients.exchange.webservice/iewsclient/markasjunk#markasjunk_1)(bool, bool, params string[]) | Метод MarkAsJunk перемещает почтовые сообщения в папку нежелательной почты и блокирует отправителя сообщения. |
 | [MarkAsJunk](../../aspose.email.clients.exchange.webservice/iewsclient/markasjunk#markasjunk_4)(bool, bool, IEnumerable&lt;string&gt;, out string[], out string[], out string[]) | Метод MarkAsJunk перемещает почтовые сообщения в папку нежелательной почты и блокирует отправителя сообщения. |
 | [MoveConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/moveconversationitems#moveconversationitems)(string, string) | Перемещает элементы беседы в указанную целевую папку |
-| [MoveConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/moveconversationitems#moveconversationitems_1)(string, string, string) | Перемещает элементы беседы, находящиеся в указанной папке, в указанную целевую папку |
+| [MoveConversationItems](../../aspose.email.clients.exchange.webservice/iewsclient/moveconversationitems#moveconversationitems_1)(string, string, string) | Перемещает элементы беседы, расположенные в указанной папке, в указанную целевую папку |
 | [MoveItem](../../aspose.email.clients.exchange.webservice/iewsclient/moveitem)(string, string) | Перемещает элемент в указанную папку |
 | [PlayOnPhone](../../aspose.email.clients.exchange.webservice/iewsclient/playonphone)(string, string) | Операция PlayOnPhone инициирует исходящий вызов и воспроизводит сообщение по телефону. |
 | [RemoveHeader](../../aspose.email.clients.exchange.webservice/iewsclient/removeheader)(string) | Удалить WebHeader из WebHeaderCollection в запросе EWS. |
 | [Reply](../../aspose.email.clients.exchange.webservice/iewsclient/reply)(MailMessage, ExchangeMessageInfo) | Ответить на сообщение отправителя. |
 | [ReplyAll](../../aspose.email.clients.exchange.webservice/iewsclient/replyall)(MailMessage, ExchangeMessageInfo) | Ответ отправителю и всем получателям сообщения. |
-| [ResetImpersonation](../../aspose.email.clients.exchange.webservice/iewsclient/resetimpersonation)() | Сбрасывает олицетворение. |
+| [ResetImpersonation](../../aspose.email.clients.exchange.webservice/iewsclient/resetimpersonation)() | Выполняет сброс олицетворения. |
 | [ResetSubscription](../../aspose.email.clients.exchange.webservice/iewsclient/resetsubscription)() | Сбросить все подписки |
 | [ResolveContact](../../aspose.email.clients.exchange.webservice/iewsclient/resolvecontact)(string) | Разрешает неоднозначные имена почтовых ящиков. |
-| [ResolveContacts](../../aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts#resolvecontacts)(string) | Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание:максимальное количество возвращенных контактов равно 100. Это ограничение используемой команды обмена. |
-| [ResolveContacts](../../aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts#resolvecontacts_1)(string, ExchangeListContactsOptions) | Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS. . |
+| [ResolveContacts](../../aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts#resolvecontacts)(string) | Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание: максимальное количество возвращаемых контактов равно 100. Это ограничение используемой команды обмена. |
+| [ResolveContacts](../../aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts#resolvecontacts_1)(string, ExchangeListContactsOptions) | Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS. |
 | [Restore](../../aspose.email.clients.exchange.webservice/iewsclient/restore)(PersonalStorage, RestoreSettings) | Восстанавливает указанные папки обмена из заданного личного хранилища. |
 | [SaveMessage](../../aspose.email.clients.exchange.webservice/iewsclient/savemessage#savemessage)(string, Stream) | Сохраняет сообщение. |
 | [SaveMessage](../../aspose.email.clients.exchange.webservice/iewsclient/savemessage#savemessage_1)(string, string) | Сохраняет сообщение. |
@@ -285,17 +285,17 @@ public interface IEWSClient : IExchangeClientBase
 | [SetReadFlag](../../aspose.email.clients.exchange.webservice/iewsclient/setreadflag#setreadflag)(string) | Устанавливает флаг чтения. |
 | [SetReadFlag](../../aspose.email.clients.exchange.webservice/iewsclient/setreadflag#setreadflag_1)(string, bool) | Помечает указанное сообщение как прочитанное. |
 | [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_1)(string) | Извлекает изменения элементов и подпапок в указанной папке. |
-| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder)(SyncState) | Получает изменения элементов в указанной папке. |
-| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_3)(string, string) | Получает изменения элементов в указанной папке. |
+| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder)(SyncState) | Извлекает изменения элементов в указанной папке. |
+| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_3)(string, string) | Извлекает изменения элементов в указанной папке. |
 | [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_2)(string, SyncFolderType) | Извлекает изменения элементов и подпапок в указанной папке. |
-| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_4)(string, string, IEnumerable&lt;string&gt;) | Получает изменения элементов в указанной папке. |
+| [SyncFolder](../../aspose.email.clients.exchange.webservice/iewsclient/syncfolder#syncfolder_4)(string, string, IEnumerable&lt;string&gt;) | Извлекает изменения элементов в указанной папке. |
 | [UpdateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/updateappointment#updateappointment)(Appointment) | Обновляет встречу. |
 | [UpdateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/updateappointment#updateappointment_2)(MapiCalendar) | Обновляет встречу. |
 | [UpdateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/updateappointment#updateappointment_1)(Appointment, string) | Обновляет встречу. |
 | [UpdateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/updateappointment#updateappointment_3)(MapiCalendar, string) | Обновляет встречу. |
 | [UpdateContact](../../aspose.email.clients.exchange.webservice/iewsclient/updatecontact#updatecontact_1)(Contact) | Обновляет элемент контакта в магазине Exchange. |
 | [UpdateContact](../../aspose.email.clients.exchange.webservice/iewsclient/updatecontact#updatecontact)(MapiContact) | Обновляет элемент контакта в магазине Exchange. |
-| [UpdateDelegate](../../aspose.email.clients.exchange.webservice/iewsclient/updatedelegate)(ExchangeDelegateUser, string) | Обновляет настройки пользователя-делегата, которому предоставлен доступ к указанному почтовому ящику. |
+| [UpdateDelegate](../../aspose.email.clients.exchange.webservice/iewsclient/updatedelegate)(ExchangeDelegateUser, string) | Обновляет настройки делегированного пользователя, которому предоставлен доступ к указанному почтовому ящику. |
 | [UpdateDelegates](../../aspose.email.clients.exchange.webservice/iewsclient/updatedelegates)(ExchangeDelegateUserCollection, string) | Обновляет настройки делегированных пользователей, которым предоставлен доступ к указанному почтовому ящику. |
 | [UpdateInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/updateinboxrule#updateinboxrule)(InboxRule) | Обновляет указанное правило для папки "Входящие" |
 | [UpdateInboxRule](../../aspose.email.clients.exchange.webservice/iewsclient/updateinboxrule#updateinboxrule_1)(InboxRule, string) | Обновляет указанное правило для папки "Входящие" |
@@ -303,7 +303,7 @@ public interface IEWSClient : IExchangeClientBase
 | [UpdateNote](../../aspose.email.clients.exchange.webservice/iewsclient/updatenote#updatenote)(MapiNote) | Обновляет указанную заметку. |
 | [UpdateNote](../../aspose.email.clients.exchange.webservice/iewsclient/updatenote#updatenote_1)(string, MapiNote) | Обновляет указанную заметку. |
 | [UpdateNote](../../aspose.email.clients.exchange.webservice/iewsclient/updatenote#updatenote_2)(string, MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | Обновляет указанную заметку. |
-| [UpdateSubscription](../../aspose.email.clients.exchange.webservice/iewsclient/updatesubscription)() | Обновляет подписки |
+| [UpdateSubscription](../../aspose.email.clients.exchange.webservice/iewsclient/updatesubscription)() | Обновления подписок |
 | [UpdateTask](../../aspose.email.clients.exchange.webservice/iewsclient/updatetask#updatetask_3)(ExchangeTask) | Обновляет указанную задачу. |
 | [UpdateTask](../../aspose.email.clients.exchange.webservice/iewsclient/updatetask#updatetask)(MapiTask) | Обновляет указанную задачу. |
 | [UpdateTask](../../aspose.email.clients.exchange.webservice/iewsclient/updatetask#updatetask_4)(ExchangeTask, UpdateTaskOptions) | Обновляет указанную задачу. |

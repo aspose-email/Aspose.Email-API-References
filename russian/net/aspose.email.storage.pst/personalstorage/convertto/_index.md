@@ -16,7 +16,7 @@ public void ConvertTo(FileFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | FileFormat | Формат файла, в который нужно преобразовать текущий объект. |
+| format | FileFormat | FileFormat, в который нужно преобразовать текущий объект. |
 
 ### Смотрите также
 

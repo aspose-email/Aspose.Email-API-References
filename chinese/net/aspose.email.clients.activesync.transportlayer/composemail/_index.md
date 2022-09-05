@@ -21,7 +21,7 @@ public enum ComposeMail
 | SendMail | `5` | SendMail 元素是 SendMail 命令请求和响应中的必需元素，它将 HTTP POST 的正文标识为包含 SendMail 命令（第 2.2.2.15 节）。 |
 | SmartForward | `6` | SmartForward 元素是 SmartForward 命令请求和响应中的必需元素，它将 HTTP POST 的主体标识为包含 SmartForward 命令（第 2.2.2.17 节）。 |
 | SmartReply | `7` | SmartReply 元素是 SmartReply 命令请求和响应中的必需元素，它将 HTTP POST 的正文标识为包含 SmartReply 命令（第 2.2.2.18 节）。 |
-| SaveInSentItems | `8` | SaveInSentItems 元素指定消息的副本是否将存储在“已发送邮件”文件夹中。 |
+| SaveInSentItems | `8` | SaveInSentItems 元素指定是否将邮件的副本存储在“已发送邮件”文件夹中。 |
 | ReplaceMime | `9` | 指定客户端是否发送整个消息。 |
 | Source | `11` | 包含有关源消息的信息。 |
 | FolderId | `12` | 指定源消息的文件夹 ID，它在 FolderSync 命令响应消息中返回（第 2.2.2.4.2 节）。 |

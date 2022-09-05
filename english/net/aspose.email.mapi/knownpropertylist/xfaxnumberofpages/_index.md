@@ -1,7 +1,7 @@
 ---
 title: XFaxNumberOfPages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how many discrete pages are contained within an attachment representing a facsimile message. Area Unified Messaging Canonical name PidNameXFaxNumberOfPages Alternate names
 type: docs
 weight: 19670
 url: /net/aspose.email.mapi/knownpropertylist/xfaxnumberofpages/

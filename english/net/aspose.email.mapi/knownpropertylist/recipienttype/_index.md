@@ -1,7 +1,7 @@
 ---
 title: RecipientType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the recipient type of a recipient on the message. Area MapiRecipient Canonical name PidTagRecipientType Alternate names PR_RECIPIENT_TYPE ptagRecipientType
 type: docs
 weight: 15560
 url: /net/aspose.email.mapi/knownpropertylist/recipienttype/

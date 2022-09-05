@@ -1,7 +1,7 @@
 ---
 title: UseSlashAsFolderSeparator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value that determines whether the slash / is used as folder separator.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/useslashasfolderseparator/

@@ -1,12 +1,12 @@
 ---
 title: ImapException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ImapExceptionaspose.email/imapexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/imapexception/imapexception/
 ---
-## ImapException constructor (1 of 4)
+## ImapException() {#constructor}
 
 Initializes a new instance of the [`ImapException`](../../imapexception) class.
 
@@ -22,7 +22,7 @@ public ImapException()
 
 ---
 
-## ImapException constructor (2 of 4)
+## ImapException(string) {#constructor_1}
 
 Initializes a new instance of the [`ImapException`](../../imapexception) class.
 
@@ -42,7 +42,7 @@ public ImapException(string message)
 
 ---
 
-## ImapException constructor (3 of 4)
+## ImapException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the [`ImapException`](../../imapexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public ImapException(string format, params object[] parameters)
 
 ---
 
-## ImapException constructor (4 of 4)
+## ImapException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`ImapException`](../../imapexception) class.
 

@@ -1,14 +1,14 @@
 ---
 title: MailQuery
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailQueryaspose.email.tools.search/mailquery类的新实例
+description: 初始化MailQueryaspose.email.tools.search/mailquery班级
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.search/mailquery/mailquery/
 ---
 ## MailQuery(string) {#constructor}
 
-初始化[`MailQuery`](../../mailquery)类的新实例。
+初始化[`MailQuery`](../../mailquery)班级。
 
 ```csharp
 public MailQuery(string queryString)
@@ -22,33 +22,33 @@ public MailQuery(string queryString)
 
 查询字符串应具有以下视图。
 
-简单表达式示例:
+简单表达式示例：
 
 '&lt;字段名&gt;' &lt;比较运算符&gt; '&lt;字段值&gt;',
 
-where &lt;字段名&gt; - 进行过滤的消息字段的名称， &lt;比较运算符&gt; - 比较运算符，顾名思义，允许比较消息字段和指定值， &lt;字段值&gt; - 要与消息字段进行比较的值。
+where &lt;Field Name&gt; - 进行过滤的消息字段的名称， &lt;Comparison operator&gt; - 比较运算符，顾名思义，允许比较消息字段和指定值， &lt;Field value&gt; - 值与消息字段进行比较。
 
-简单表达式的个数可以合成一个，例如: (&lt;简单表达式1&gt; &amp;&lt;简单表达式2&gt;) &#x7C; &lt;简单表达式3&gt;,
+简单表达式的个数可以合成一个，例如： (&lt;简单表达式1&gt; &amp; &lt;简单表达式2&gt;) &#x7C; &lt;简单表达式3&gt;,
 
 where "&amp;" - 逻辑与运算符， "&#x7C;" - 逻辑或运算符
 
-目前允许以下值作为字段名称（&lt;字段名称&gt;）:
+目前允许以下值作为字段名称（&lt;字段名称&gt;）：
 
-"To" - 表示消息的 TO 字段， "Text" - 表示消息头或正文中的字符串, "Bcc" - 表示消息的 BCC 字段， "Body" - 表示消息正文中的字符串， "Cc" -表示消息的抄送字段 "From" - 表示消息的 From 字段, "Subject" - 表示消息主题中的字符串, "InternalDate" - 表示消息的内部日期， "SentDate" - 表示消息的发送日期
+"To" - 表示消息的 TO 字段， "Text" - 表示消息头或正文中的字符串， "Bcc" - 表示消息的 BCC 字段， "Body" - 表示消息中的字符串消息体， “Cc”-表示消息的抄送字段， “From”-表示消息的From字段， “Subject”-表示消息主题中的字符串， “InternalDate”-表示内部消息日期， "SentDate" - 表示消息的发送日期
 
-此外，IMAP 协议允许使用以下字段名称:
+此外，IMAP 协议允许使用以下字段名称：
 
-"Answered" - 表示消息的 /Answered 标志 "Seen" - 表示消息的 /Seen 标志 "Flagged" - 表示消息的 /Flagged 标志ge "Draft" - 表示消息 "Deleted" 的 /Draft 标志 - 表示消息 "Recent" 的已删除/标志 - 表示消息 "MessageSize" 的已删除/标志 - 表示消息
+"Answered" - 表示 message 的 /Answered 标志_ "Seen" - 表示 message 的 /Seen 标志_ "Flagged" - 表示 message 的 /Flagged 标志_ "Draft" - 表示 message 的 /Draft 标志_ "Deleted" - 表示message “Recent”的已删除/标志 - 表示 message 的已删除/标志 “MessageSize” - 表示 message 的大小（以字节为单位）
 
-的大小（以字节为单位）此外， Exchange 允许使用以下字段名称:
+此外，Exchange 允许使用以下字段名称：
 
-"IsRead" - 指示是否已阅读邮件 "HasAttachment " - 表示邮件是否有附件 "IsSubmitted" - 表示邮件是否已提交到发件箱 "ContentClass" - 表示项目的内容类别
+"IsRead" - 表示邮件是否已读 "HasAttachment" - 表示邮件是否有附件 "IsSubmitted" - 表示邮件是否已提交到发件箱 "ContentClass" - 表示item 的内容类别
 
-此外，pst/ost 文件允许使用以下字段名称:
+此外，pst/ost 文件允许使用以下字段名称：
 
-"MessageClass" - 表示消息类 "ContainerClass" - 表示文件夹容器类 "Importance" - 表示消息重要性 "MessageSize" - 代表消息的大小（以字节为单位） "FolderName" - 表示文件夹名称 "ContentsCount" - 表示文件夹中的项目总数 “UnreadContentsCount” - 表示文件夹中未读项目的数量。 "Subfolders" - 指示文件夹是否有子文件夹 "Read" - 邮件被标记为已读 "HasAttachment" -邮件至少有一个附件 "Unsent" - 邮件仍在编写中 "Unmodified" - 邮件自第一次保存后未修改（如果未发送）或它已交付（如果已发送） "FromMe" - 接收消息的用户也是发送消息的用户 "Resend" - 消息包括重新发送请求带有未送达报告的操作 "NotifyRead" - 发送消息的用户在收件人第一次阅读消息时请求通知 "NotifyUnread" - 发送消息的用户当收件人在阅读之前将其删除或消息对象过期时已请求通知 "EverRead" - 消息已至少阅读一次
+"MessageClass" - 表示消息类 "ContainerClass" - 表示文件夹容器 class "Importance" - 表示消息重要性 "MessageSize" - 表示消息的大小（以字节为单位） "FolderName" - 表示文件夹名称 "ContentsCount" - 表示文件夹中的项目总数 “UnreadContentsCount” - 表示文件夹中未读项目的数量。 “子文件夹” - 表示文件夹是否有子文件夹 “已读” - 邮件标记为已读 ” HasAttachment" - 邮件至少有一个附件 "Unsent" - 邮件仍在编写中 "Unmodified" - 邮件自第一次保存（如果未发送）或已交付（如果已发送）后未修改 "FromMe " - 接收消息的用户也是发送消息的用户 “重新发送” - 消息包括一个重新发送操作的请求和未送达报告_x000 d_ "NotifyRead" - 发送消息的用户在收件人第一次阅读时请求通知 "NotifyUnread" - 当收件人在阅读之前删除消息或消息对象过期时发送消息的用户请求通知 "EverRead" -消息至少被阅读过一次
 
-字段值（&lt;字段值&gt;）可以取如下值: 对于文本字段 - 任何字符串， 对于日期类型字段 - “d-MMM-yyy”格式的字符串，例如。 "10-Feb-2009", 用于标志（布尔类型的字段） - “真”或“假”
+字段值（&lt;字段值&gt;）可以取以下值： 对于文本字段-任何字符串， 对于日期类型字段-“d-MMM-yyy”格式的字符串，例如。 “2009 年 2 月 10 日”， 对于标志（布尔类型的字段） - “真”或“假”
 
 ### 例子
 
@@ -66,7 +66,7 @@ MailQuery mailQuery = new MailQuery("(('From' Contains 'test@test.com' | 'Seen' 
 
 ## MailQuery(string, string) {#constructor_1}
 
-初始化[`MailQuery`](../../mailquery)类的新实例。
+初始化[`MailQuery`](../../mailquery)班级。
 
 ```csharp
 public MailQuery(string queryString, string orderByString)
@@ -76,13 +76,13 @@ public MailQuery(string queryString, string orderByString)
 
 排序查询字符串应具有以下视图。
 
-简单表达式示例:
+简单表达式示例：
 
-'&lt;字段名&gt;' OrderBy ['ASC'&#x7C;'DESC'],
+'&lt;字段名称&gt;' OrderBy ['ASC'&#x7C;'DESC'],
 
-where &lt;字段名&gt; - 进行排序的消息字段的名称， ['ASC'&#x7C;'DESC'] - 排序运算符，允许升序或降序排序，
+where &lt;字段名称&gt; - 进行排序的消息字段的名称， ['ASC'&#x7C;'DESC'] - 排序运算符，允许升序或降序排序，
 
-简单表达式的个数可以合成一个，例如: (&lt;简单表达式1&gt; &amp; &lt;简单表达式2&gt;),
+简单表达式的个数可以合成一个，例如： (&lt;简单表达式1&gt; &amp; &lt;简单表达式2&gt;),
 
 ### 例子
 

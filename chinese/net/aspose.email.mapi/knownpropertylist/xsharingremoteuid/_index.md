@@ -1,14 +1,14 @@
 ---
 title: XSharingRemoteUid
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 PidLidSharingRemoteUid 属性相同的值第 2.282 节 区域共享 规范名称PidNameXSharingRemoteUid 备用名称
+description: 包含与 PidLidSharingRemoteUid 属性第 2.282 节相同的值 区域Sharing 规范名称PidNameXSharingRemoteUid 替代名称
 type: docs
 weight: 19850
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharingremoteuid/
 ---
 ## KnownPropertyList.XSharingRemoteUid field
 
-包含与 PidLidSharingRemoteUid 属性相同的值（第 2.282 节）。 区域:共享 规范名称:PidNameXSharingRemoteUid 备用名称:
+包含与 PidLidSharingRemoteUid 属性（第 2.282 节）相同的值。 区域：Sharing 规范名称：PidNameXSharingRemoteUid 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingRemoteUid;

@@ -28,8 +28,8 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | 获取允许在信封结构的密件抄送字段中查找包含指定字符串的消息的字段。 |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | 获取允许在消息正文中查找包含指定字符串的消息的字段。 |
 | [Category](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/category) { get; } |  |
-| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。 |
-| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询生成器的默认编码（字符集） |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。 |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询 builder 的默认编码（字符集） |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | 获取允许在信封结构的 FROM 字段中查找包含指定字符串的消息的字段。 |
 | [HasAttachment](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/hasattachment) { get; } |  |
 | [Importance](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/importance) { get; } |  |
@@ -41,7 +41,7 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 | [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | 获取允许按发送日期查找消息的字段。 |
 | [Size](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/size) { get; } |  |
 | [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | 获取允许在信封结构的 SUBJECT 字段中查找包含指定字符串的消息的字段。 |
-| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | 获取允许在信封结构的 TO 字段中查找包含指定字符串的消息的字段。 |
 
 ## 方法
@@ -49,7 +49,7 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 | 姓名 | 描述 |
 | --- | --- |
 | [GetQuery](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/getquery#getquery)() | 获取查询。 (2 methods) |
-| [Or](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or#or)(MailQuery, MailQuery) | 搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。 (2 methods) |
+| [Or](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or#or)(MailQuery, MailQuery) | 搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR). (2 methods) |
 
 ### 也可以看看
 

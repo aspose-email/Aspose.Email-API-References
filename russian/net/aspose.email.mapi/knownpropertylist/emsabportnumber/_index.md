@@ -1,14 +1,14 @@
 ---
 title: EmsAbPortNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_PORT_NUMBER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_PORT_NUMBER
 type: docs
 weight: 8130
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabportnumber/
 ---
 ## KnownPropertyList.EmsAbPortNumber field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_PORT_NUMBER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_PORT_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPortNumber;

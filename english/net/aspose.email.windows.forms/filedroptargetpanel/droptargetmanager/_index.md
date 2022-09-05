@@ -1,7 +1,7 @@
 ---
 title: DropTargetManager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the drop target manager.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/filedroptargetpanel/droptargetmanager/

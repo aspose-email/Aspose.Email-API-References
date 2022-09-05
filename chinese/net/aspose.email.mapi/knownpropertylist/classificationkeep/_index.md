@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/classificationkeep/
 ---
 ## KnownPropertyList.ClassificationKeep field
 
-指示消息是否使用任何分类类别。 区域:常规消息属性 规范名称:PidLidClassificationKeep 替代名称:dispidClassKeep
+指示消息是否使用任何分类类别。 区域：常规消息属性 规范名称：PidLidClassificationKeep 替代名称：dispidClassKeep
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationKeep;

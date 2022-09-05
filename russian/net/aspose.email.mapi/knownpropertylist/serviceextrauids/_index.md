@@ -1,14 +1,14 @@
 ---
 title: ServiceExtraUids
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SERVICE_EXTRA_UIDS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SERVICE_EXTRA_UIDS
 type: docs
 weight: 17340
 url: /ru/net/aspose.email.mapi/knownpropertylist/serviceextrauids/
 ---
 ## KnownPropertyList.ServiceExtraUids field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SERVICE_EXTRA_UIDS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SERVICE_EXTRA_UIDS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ServiceExtraUids;

@@ -16,7 +16,7 @@ public DateTime CreatedDate { get; set; }
 
 ### 适当的价值
 
-DateTime表示创建日期和时间.
+的DateTime表示创建日期和时间。
 
 ### 也可以看看
 

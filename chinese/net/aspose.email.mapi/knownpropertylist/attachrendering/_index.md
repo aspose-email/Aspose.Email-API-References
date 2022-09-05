@@ -1,14 +1,14 @@
 ---
 title: AttachRendering
 second_title: Aspose.Email for .NET API 参考
-description: 包含附件对象的 Windows 图元文件如 MS-WMF 中所指定 区域消息附件属性 规范名称PidTagAttachRendering 替代名称PR_ATTACH_RENDERING ptagAttachRendering
+description: 包含附件对象的 Windows 元文件如 MS-WMF 中所指定 区域消息附件属性 规范名称PidTagAttachRendering 替代名称PR_ATTACH_RENDERINGptagAttachRendering
 type: docs
 weight: 1780
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachrendering/
 ---
 ## KnownPropertyList.AttachRendering field
 
-包含附件对象的 Windows 图元文件，如 [MS-WMF] 中所指定。 区域:消息附件属性 规范名称:PidTagAttachRendering 替代名称:PR_ATTACH_RENDERING, ptagAttachRendering
+包含附件对象的 Windows 元文件，如 [MS-WMF] 中所指定。 区域：消息附件属性 规范名称：PidTagAttachRendering 替代名称：PR_ATTACH_RENDERING、ptagAttachRendering
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachRendering;

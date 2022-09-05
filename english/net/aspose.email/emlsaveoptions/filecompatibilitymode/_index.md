@@ -1,7 +1,7 @@
 ---
 title: FileCompatibilityMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines inner conversionsthat are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None.
 type: docs
 weight: 30
 url: /net/aspose.email/emlsaveoptions/filecompatibilitymode/

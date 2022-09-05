@@ -1,7 +1,7 @@
 ---
 title: AppointmentStateFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a bit field that describes the state of the object. Area Meetings Canonical name PidLidAppointmentStateFlags Alternate names dispidApptStateFlags
 type: docs
 weight: 1330
 url: /net/aspose.email.mapi/knownpropertylist/appointmentstateflags/

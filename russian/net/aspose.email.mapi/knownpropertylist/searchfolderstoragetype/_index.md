@@ -1,14 +1,14 @@
 ---
 title: SearchFolderStorageType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит флаги указывающие данные больших двоичных объектов BLOB которые отображаются в свойстве PidTagSearchFolderDefinition раздел 2.979. ОбластьПоиск Каноническое имяPidTagSearchFolderStorageType Альтернативные именаPR_WB_SF_STORAGE_TYPE
+description: Содержит флаги определяющие данные больших двоичных объектов BLOB которые отображаются в свойстве PidTagSearchFolderDefinition раздел 2.979. Область Search Каноническое имя PidTagSearchFolderStorageType Альтернативные имена PR_WB_SF_STORAGE_TYPE
 type: docs
 weight: 17000
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderstoragetype/
 ---
 ## KnownPropertyList.SearchFolderStorageType field
 
-Содержит флаги, указывающие данные больших двоичных объектов (BLOB), которые отображаются в свойстве PidTagSearchFolderDefinition (раздел 2.979). Область:Поиск Каноническое имя:PidTagSearchFolderStorageType Альтернативные имена:PR_WB_SF_STORAGE_TYPE
+Содержит флаги, определяющие данные больших двоичных объектов (BLOB), которые отображаются в свойстве PidTagSearchFolderDefinition (раздел 2.979). Область: Search Каноническое имя: PidTagSearchFolderStorageType Альтернативные имена: PR_WB_SF_STORAGE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderStorageType;

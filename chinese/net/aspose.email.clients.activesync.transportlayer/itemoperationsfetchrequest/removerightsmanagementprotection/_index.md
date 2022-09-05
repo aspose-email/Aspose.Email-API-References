@@ -1,14 +1,14 @@
 ---
 title: RemoveRightsManagementProtection
 second_title: Aspose.Email for .NET API 参考
-description: 如果存在或为真则表明客户端正在从电子邮件中删除 IRM 保护 仅当 ExportAllowed 元素设置为 TRUE 时才能从电子邮件中删除 IRM 保护
+description: 如果存在或为真则表示客户端正在从电子邮件中删除 IRM 保护 只有在 ExportAllowed 元素设置为 TRUE 时才能从电子邮件中删除 IRM 保护
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/removerightsmanagementprotection/
 ---
 ## ItemOperationsFetchRequest.RemoveRightsManagementProtection property
 
-如果存在或为真，则表明客户端正在从电子邮件中删除 IRM 保护。 仅当 ExportAllowed 元素设置为 TRUE 时，才能从电子邮件中删除 IRM 保护。
+如果存在或为真，则表示客户端正在从电子邮件中删除 IRM 保护。 只有在 ExportAllowed 元素设置为 TRUE 时，才能从电子邮件中删除 IRM 保护。
 
 ```csharp
 public bool? RemoveRightsManagementProtection { get; set; }

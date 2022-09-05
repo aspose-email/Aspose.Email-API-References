@@ -1,14 +1,14 @@
 ---
 title: GetPropertyInt32
 second_title: Aspose.Email for .NET API 参考
-description: 获取 tag 指定的属性的 int32 值
+description: 获取tag指定的属性的int32值
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/getpropertyint32/
 ---
 ## MapiPropertyContainer.GetPropertyInt32 method
 
-获取 tag 指定的属性的 int32 值。
+获取tag指定的属性的int32值。
 
 ```csharp
 public int? GetPropertyInt32(long tag)
@@ -20,7 +20,7 @@ public int? GetPropertyInt32(long tag)
 
 ### 返回值
 
-属性的值。如果属性不存在，返回NULL； 否则，返回值。
+财产的价值。如果属性不存在，返回NULL； 否则，返回值。
 
 ### 也可以看看
 

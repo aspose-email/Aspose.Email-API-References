@@ -1,7 +1,7 @@
 ---
 title: Port
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The port number for the proxy server
 type: docs
 weight: 30
 url: /net/aspose.email.clients/proxy/port/

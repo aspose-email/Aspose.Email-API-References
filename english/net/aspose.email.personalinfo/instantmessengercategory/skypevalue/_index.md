@@ -1,7 +1,7 @@
 ---
 title: SkypeValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Skype category
 type: docs
 weight: 290
 url: /net/aspose.email.personalinfo/instantmessengercategory/skypevalue/

@@ -1,14 +1,14 @@
 ---
 title: NetworkException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化NetworkExceptionaspose.email.clients/networkexception类的新实例
+description: 初始化NetworkExceptionaspose.email.clients/networkexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/networkexception/networkexception/
 ---
 ## NetworkException() {#constructor}
 
-初始化[`NetworkException`](../../networkexception)类的新实例。
+初始化[`NetworkException`](../../networkexception)类.
 
 ```csharp
 public NetworkException()
@@ -24,7 +24,7 @@ public NetworkException()
 
 ## NetworkException(string) {#constructor_1}
 
-初始化[`NetworkException`](../../networkexception)类的新实例。
+初始化[`NetworkException`](../../networkexception)类.
 
 ```csharp
 public NetworkException(string message)
@@ -44,7 +44,7 @@ public NetworkException(string message)
 
 ## NetworkException(string, Exception) {#constructor_2}
 
-初始化[`NetworkException`](../../networkexception)类的新实例。
+初始化[`NetworkException`](../../networkexception)类.
 
 ```csharp
 public NetworkException(string message, Exception inner)
@@ -53,7 +53,7 @@ public NetworkException(string message, Exception inner)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误消息。 |
-| inner | Exception | 内部异常。 |
+| inner | Exception | 内在异常。 |
 
 ### 也可以看看
 

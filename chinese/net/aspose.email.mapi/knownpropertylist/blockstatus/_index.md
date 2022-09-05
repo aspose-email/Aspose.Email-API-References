@@ -1,14 +1,14 @@
 ---
 title: BlockStatus
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户对查看消息正文中的外部内容例如指向 HTTP 服务器上的图像的链接的偏好 区域安全消息属性 规范名称PidTagBlockStatus 备用名称PR_BLOCK_STATUS ptagBlockStatus
+description: 表示用户对查看消息正文中的外部内容例如指向 HTTP 服务器上的图像的链接的偏好 区域安全消息传递属性 规范名称PidTagBlockStatus 备用名称PR_BLOCK_STATUSptagBlockStatus
 type: docs
 weight: 2020
 url: /zh/net/aspose.email.mapi/knownpropertylist/blockstatus/
 ---
 ## KnownPropertyList.BlockStatus field
 
-表示用户对查看消息正文中的外部内容（例如指向 HTTP 服务器上的图像的链接）的偏好。 区域:安全消息属性 规范名称:PidTagBlockStatus 备用名称:PR_BLOCK_STATUS, ptagBlockStatus
+表示用户对查看消息正文中的外部内容（例如指向 HTTP 服务器上的图像的链接）的偏好。 区域：安全消息传递属性 规范名称：PidTagBlockStatus 备用名称：PR_BLOCK_STATUS、ptagBlockStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BlockStatus;

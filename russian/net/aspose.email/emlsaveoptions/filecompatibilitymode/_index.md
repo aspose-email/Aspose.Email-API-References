@@ -1,14 +1,14 @@
 ---
 title: FileCompatibilityMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет внутренние преобразования которые обязательно нужно делать при сохранении сообщения. Значение по умолчанию  FileCompatibilityMode.None.
+description: Определяет внутренние преобразования которые обязательно должны выполняться при сохранении сообщения. Значение по умолчанию  FileCompatibilityMode.None.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/emlsaveoptions/filecompatibilitymode/
 ---
 ## EmlSaveOptions.FileCompatibilityMode property
 
-Определяет внутренние преобразования, которые обязательно нужно делать при сохранении сообщения. Значение по умолчанию — FileCompatibilityMode.None.
+Определяет внутренние преобразования, которые обязательно должны выполняться при сохранении сообщения. Значение по умолчанию — FileCompatibilityMode.None.
 
 ```csharp
 public FileCompatibilityMode FileCompatibilityMode { get; set; }

@@ -3,7 +3,7 @@ title: PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API 参考
 description: 类包含属性描述信息
 type: docs
-weight: 18940
+weight: 18970
 url: /zh/net/aspose.email.mapi/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor class
@@ -18,15 +18,15 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor)(long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。 |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_1)(string, long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。 |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_2)(string, string, long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)类 属性的新实例无符号 32 位数量以及属性集。 |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor)(long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。 |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_1)(string, long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。 |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_2)(string, string, long, PropertyDataType, Guid) | 初始化[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class 由无符号 32 位数量以及属性集标识的属性。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | 用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示: * PidLid 前缀:由无符号 32 位数量和属性集。 * PidName 前缀:由字符串名称和属性集标识的属性。 * PidTag 前缀:由无符号 16 位数量标识的属性。 |
+| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | 用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示： * PidLid 前缀：由无符号 32 位数量和属性集标识的属性。 * PidName 前缀：由字符串名称和属性集标识的属性。 * PidTag 前缀：由无符号 16 位数量标识的属性。 |
 | [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | 属性值类型，如 [MS-OXCDATA] 中所述，指定属性允许的值类型。 |
 | [LongId](../../aspose.email.mapi/pidlidpropertydescriptor/longid) { get; } | 获取一个无符号的 32 位量，它与属性集一起标识一个命名属性。 |
 | [MultipleValuesDataType](../../aspose.email.mapi/propertydescriptor/multiplevaluesdatatype) { get; } | 指示数据类型是否包含多个值 |
@@ -37,11 +37,11 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals_1)(object) | 确定指定的 System.Object 是否等于当前的 System.Object。 |
+| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals_1)(object) | 判断指定的 System.Object 是否等于当前的 System.Object. |
 | override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals)(PropertyDescriptor) | 表示当前对象是否等于另一个同类型的对象。 |
-| override [GetHashCode](../../aspose.email.mapi/pidlidpropertydescriptor/gethashcode)() | 用作类型的散列函数。 |
-| override [ToString](../../aspose.email.mapi/pidlidpropertydescriptor/tostring)() | 返回表示属性描述的字符串。 |
-| [operator ==](../../aspose.email.mapi/pidlidpropertydescriptor/op_equality) | 判断指定对象是否相等。 |
+| override [GetHashCode](../../aspose.email.mapi/pidlidpropertydescriptor/gethashcode)() | 用作类型的哈希函数。 |
+| override [ToString](../../aspose.email.mapi/pidlidpropertydescriptor/tostring)() | 返回一个表示属性描述的字符串。 |
+| [operator ==](../../aspose.email.mapi/pidlidpropertydescriptor/op_equality) | 判断指定的对象是否相等。 |
 | [operator !=](../../aspose.email.mapi/pidlidpropertydescriptor/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看

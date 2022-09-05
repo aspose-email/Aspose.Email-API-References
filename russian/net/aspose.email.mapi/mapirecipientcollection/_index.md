@@ -1,14 +1,14 @@
 ---
 title: MapiRecipientCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектов MapiRecipient.
+description: Представляет коллекцию объектов MapiRecipient.
 type: docs
-weight: 18600
+weight: 18630
 url: /ru/net/aspose.email.mapi/mapirecipientcollection/
 ---
 ## MapiRecipientCollection class
 
-Представляет набор объектов MapiRecipient.
+Представляет коллекцию объектов MapiRecipient.
 
 ```csharp
 public class MapiRecipientCollection : Collection<MapiRecipient>
@@ -18,16 +18,16 @@ public class MapiRecipientCollection : Collection<MapiRecipient>
 
 | Имя | Описание |
 | --- | --- |
-| [MapiRecipientCollection](mapirecipientcollection)() | Инициализирует новый экземпляр класса[`MapiRecipientCollection`](../mapirecipientcollection). |
+| [MapiRecipientCollection](mapirecipientcollection)() | Инициализирует новый экземпляр[`MapiRecipientCollection`](../mapirecipientcollection) класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add)(MapiRecipient) | Добавляет объект в конецCollection. |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add)(MapiRecipient) | Добавляет объект в конецCollection . |
 | [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_2)(string, string, MapiRecipientType) | Добавляет нового получателя. |
 | [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_3)(string, string, string, MapiRecipientType) | Добавляет нового получателя. |
-| [Insert](../../aspose.email.mapi/mapirecipientcollection/insert#insert)(int, MapiRecipient) | Вставляет элемент вCollectionпо указанному индексу. |
+| [Insert](../../aspose.email.mapi/mapirecipientcollection/insert#insert)(int, MapiRecipient) | Вставляет элемент вCollection по указанному индексу. |
 
 ### Смотрите также
 

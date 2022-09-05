@@ -1,14 +1,14 @@
 ---
 title: TaskFCreator
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что объект Task был первоначально создан действием текущего пользователя или пользовательского агента а не обработкой запроса задачи. ОбластьЗадачи Каноническое имяPidLidTaskFCreator Альтернативные именаdispidTaskFCreator
+description: Указывает что объект Task изначально был создан действием текущего пользователя или пользовательского агента а не обработкой запроса задачи. Область Tasks Каноническое имя PidLidTaskFCreator Альтернативные имена dispidTaskFCreator
 type: docs
 weight: 18640
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskfcreator/
 ---
 ## KnownPropertyList.TaskFCreator field
 
-Указывает, что объект Task был первоначально создан действием текущего пользователя или пользовательского агента, а не обработкой запроса задачи. Область:Задачи Каноническое имя:PidLidTaskFCreator Альтернативные имена:dispidTaskFCreator
+Указывает, что объект Task изначально был создан действием текущего пользователя или пользовательского агента, а не обработкой запроса задачи. Область: Tasks Каноническое имя: PidLidTaskFCreator Альтернативные имена: dispidTaskFCreator
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFCreator;

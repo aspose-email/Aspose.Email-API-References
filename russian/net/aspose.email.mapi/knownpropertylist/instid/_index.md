@@ -1,14 +1,14 @@
 ---
 title: InstID
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор для всех экземпляров строки в таблице. ОбластьProviderDefinedNonTransmittable Каноническое имяPidTagInstID Альтернативные именаptagInstID
+description: Содержит идентификатор для всех экземпляров строки в таблице. Область ProviderDefinedNonTransmittable Каноническое имя PidTagInstID Альтернативные имена ptagInstID
 type: docs
 weight: 11390
 url: /ru/net/aspose.email.mapi/knownpropertylist/instid/
 ---
 ## KnownPropertyList.InstID field
 
-Содержит идентификатор для всех экземпляров строки в таблице. Область:ProviderDefinedNonTransmittable Каноническое имя:PidTagInstID Альтернативные имена:ptagInstID
+Содержит идентификатор для всех экземпляров строки в таблице. Область: ProviderDefinedNonTransmittable Каноническое имя: PidTagInstID Альтернативные имена: ptagInstID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstID;

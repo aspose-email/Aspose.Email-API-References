@@ -18,15 +18,15 @@ public class ImapMailboxInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllMessages](../../aspose.email.clients.imap/imapmailboxinfo/allmessages) { get; } | 获取邮箱呈现用户消息存储中的所有消息。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [ArchivedMessages](../../aspose.email.clients.imap/imapmailboxinfo/archivedmessages) { get; } | 获取邮箱用于归档邮件。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [DraftMessages](../../aspose.email.clients.imap/imapmailboxinfo/draftmessages) { get; } | 获取邮箱通常用于保存草稿消息，即正在编写但尚未发送的消息。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [FlaggedMessages](../../aspose.email.clients.imap/imapmailboxinfo/flaggedmessages) { get; } | 获取邮箱显示所有以某种方式标记为“重要”的邮件。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [Important](../../aspose.email.clients.imap/imapmailboxinfo/important) { get; } | 获取邮箱用于保存已标记为重要的邮件。 请注意，如果服务器不支持 rfc8457 或未创建文件夹，此值可能为空。 |
-| [Inbox](../../aspose.email.clients.imap/imapmailboxinfo/inbox) { get; } | 获取邮箱用于保存传入消息。 |
-| [JunkMessages](../../aspose.email.clients.imap/imapmailboxinfo/junkmessages) { get; } | 获取邮箱是被视为垃圾邮件的邮件所在的位置。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [SentMessages](../../aspose.email.clients.imap/imapmailboxinfo/sentmessages) { get; } | 获取邮箱用于保存已发送邮件的副本。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
-| [Trash](../../aspose.email.clients.imap/imapmailboxinfo/trash) { get; } | 获取邮箱用于保存已删除或标记为删除的邮件。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。 |
+| [AllMessages](../../aspose.email.clients.imap/imapmailboxinfo/allmessages) { get; } | 获取邮箱呈现用户消息存储中的所有消息。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [ArchivedMessages](../../aspose.email.clients.imap/imapmailboxinfo/archivedmessages) { get; } | 获取邮箱用于归档邮件。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [DraftMessages](../../aspose.email.clients.imap/imapmailboxinfo/draftmessages) { get; } | 获取邮箱通常用于保存草稿消息，即正在撰写但尚未发送的消息。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [FlaggedMessages](../../aspose.email.clients.imap/imapmailboxinfo/flaggedmessages) { get; } | 获取邮箱呈现以某种方式标记为“重要”的所有邮件。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [Important](../../aspose.email.clients.imap/imapmailboxinfo/important) { get; } | 获取邮箱用于存放已标记为重要的邮件。 请注意，如果服务器不支持 rfc8457 或尚未创建文件夹，此值可能为空。 |
+| [Inbox](../../aspose.email.clients.imap/imapmailboxinfo/inbox) { get; } | 获取邮箱用于保存传入的消息。 |
+| [JunkMessages](../../aspose.email.clients.imap/imapmailboxinfo/junkmessages) { get; } | 获取邮箱是被视为垃圾邮件的邮件所在的位置。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [SentMessages](../../aspose.email.clients.imap/imapmailboxinfo/sentmessages) { get; } | 获取邮箱用于保存已发送邮件的副本。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
+| [Trash](../../aspose.email.clients.imap/imapmailboxinfo/trash) { get; } | 获取邮箱用于保存已删除或标记为删除的邮件。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。 |
 
 ## 方法
 

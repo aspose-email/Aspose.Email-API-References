@@ -21,14 +21,14 @@ public abstract class RecurrencePattern
 | [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Получает или задает дату окончания. |
 | [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Получает или задает количество единиц повторения. |
 | [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Получает или задает количество вхождений шаблона повторения. |
-| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или устанавливает начало недели. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или задает начало недели. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [ToString](../../aspose.email.calendar.recurrences/recurrencepattern/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [explicit operator](../../aspose.email.calendar.recurrences/recurrencepattern/op_explicit) | Преобразует строковое представление шаблона повторения в формате ICalendar в объект |
+| [explicit operator](../../aspose.email.calendar.recurrences/recurrencepattern/op_explicit) | Преобразует строковое представление шаблона повторения в формате ICalendar в object |
 
 ### Смотрите также
 

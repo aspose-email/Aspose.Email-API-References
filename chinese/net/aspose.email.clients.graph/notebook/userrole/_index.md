@@ -1,14 +1,14 @@
 ---
 title: UserRole
 second_title: Aspose.Email for .NET API 参考
-description: 可能的值为所有者贡献者读者无 Owner 代表对笔记本的所有者级别的访问权限 Contributor 表示对笔记本的读/写访问权限 Reader 代表对笔记本的只读访问 只读
+description: 可能的值有OwnerContributorReaderNone Owner 代表对 notebook 的所有者级访问权限 Contributor 代表对 notebook 的读/写访问权限 Reader 代表对 notebook 的只读访问权限 Read-only .
 type: docs
 weight: 180
 url: /zh/net/aspose.email.clients.graph/notebook/userrole/
 ---
 ## Notebook.UserRole property
 
-可能的值为:所有者、贡献者、读者、无。 Owner 代表对笔记本的所有者级别的访问权限。 Contributor 表示对笔记本的读/写访问权限。 Reader 代表对笔记本的只读访问。 只读。
+可能的值有：Owner、Contributor、Reader、None。 Owner 代表对 notebook 的所有者级访问权限。 Contributor 代表对 notebook 的读/写访问权限。 Reader 代表对 notebook 的只读访问权限。 Read-only .
 
 ```csharp
 public UserRole UserRole { get; }

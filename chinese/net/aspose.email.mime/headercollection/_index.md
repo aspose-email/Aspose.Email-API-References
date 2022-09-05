@@ -1,14 +1,14 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for .NET API 参考
-description: 定义头域集合
+description: 定义头域的集合
 type: docs
-weight: 19130
+weight: 19160
 url: /zh/net/aspose.email.mime/headercollection/
 ---
 ## HeaderCollection class
 
-定义头域集合
+定义头域的集合
 
 ```csharp
 public class HeaderCollection : ICollection<string>
@@ -18,31 +18,31 @@ public class HeaderCollection : ICollection<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HeaderCollection](headercollection#constructor)() | 初始化[`HeaderCollection`](../headercollection)类的新实例。 |
-| [HeaderCollection](headercollection#constructor_1)(HeaderCollection) | 初始化[`HeaderCollection`](../headercollection)类的新实例。 |
+| [HeaderCollection](headercollection#constructor)() | 初始化[`HeaderCollection`](../headercollection)类. |
+| [HeaderCollection](headercollection#constructor_1)(HeaderCollection) | 初始化[`HeaderCollection`](../headercollection)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [AllKeys](../../aspose.email.mime/headercollection/allkeys) { get; } | 获取包含集合中所有标题键的字符串数组 |
-| virtual [Count](../../aspose.email.mime/headercollection/count) { get; } | 获取标题计数 |
+| virtual [Count](../../aspose.email.mime/headercollection/count) { get; } | 获取 headers 的计数 |
 | [IsReadOnly](../../aspose.email.mime/headercollection/isreadonly) { get; } | 是只读集合 |
 | [Item](../../aspose.email.mime/headercollection/item) { get; } | 通过索引从集合中获取一个值。 |
-| [Item](../../aspose.email.mime/headercollection/item) { get; set; } | 按名称从集合中获取值。 |
-| virtual [Keys](../../aspose.email.mime/headercollection/keys) { get; } | 获取ReadOnlyCollection包含集合中的所有标题键 |
+| [Item](../../aspose.email.mime/headercollection/item) { get; set; } | 按名称从集合中获取一个值。 |
+| virtual [Keys](../../aspose.email.mime/headercollection/keys) { get; } | 得到一个ReadOnlyCollection包含 collections 中的所有标题键 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.email.mime/headercollection/add#add)(HeaderCollection) | 向集合添加标头。 |
-| [Add](../../aspose.email.mime/headercollection/add#add_1)(string) | 添加不带值的标头 |
+| [Add](../../aspose.email.mime/headercollection/add#add_1)(string) | 添加没有值的标头 |
 | [Add](../../aspose.email.mime/headercollection/add#add_2)(string, string) | 添加标题。 |
 | virtual [Add_](../../aspose.email.mime/headercollection/add_)(string, string) | 添加标题。 |
 | virtual [Clear](../../aspose.email.mime/headercollection/clear)() | 清除所有标题。 |
-| [Contains](../../aspose.email.mime/headercollection/contains)(string) | 获取指定头是否包含在集合中的值 |
-| [CopyTo](../../aspose.email.mime/headercollection/copyto)(string[], int) | 将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组。 |
+| [Contains](../../aspose.email.mime/headercollection/contains)(string) | 获取一个值，该值指示指定的标头是否包含在集合中 |
+| [CopyTo](../../aspose.email.mime/headercollection/copyto)(string[], int) | 将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组中。 |
 | virtual [Get](../../aspose.email.mime/headercollection/get#get)(int) | 获取指定索引处的值。 |
 | [Get](../../aspose.email.mime/headercollection/get#get_1)(string) | 通过给定的标头名称获取标头值。 |
 | [GetDecodedValue](../../aspose.email.mime/headercollection/getdecodedvalue)(string) | 获取标头值。 |
@@ -50,8 +50,8 @@ public class HeaderCollection : ICollection<string>
 | virtual [GetKey](../../aspose.email.mime/headercollection/getkey)(int) | 获取集合指定索引处的键。 |
 | [GetValues](../../aspose.email.mime/headercollection/getvalues)(string) | 获取标头值。 |
 | [HasKeys](../../aspose.email.mime/headercollection/haskeys)() | 获取表示集合是否包含键的值。 |
-| [Insert](../../aspose.email.mime/headercollection/insert)(string, string) | 在集合中插入标题。 如果集合包含具有相同名称的标头，则此标头将插入到其他具有相同名称的标头之前。 |
-| [Remove](../../aspose.email.mime/headercollection/remove)(string) | 通过给定的标头名称从集合中删除标头。 |
+| [Insert](../../aspose.email.mime/headercollection/insert)(string, string) | 在集合中插入标头。 如果集合包含同名标头，则此标头将插入到其他同名标头之前。 |
+| [Remove](../../aspose.email.mime/headercollection/remove)(string) | 按给定的标头名称从集合中删除标头。 |
 | [Set](../../aspose.email.mime/headercollection/set)(string, string) | 设置标题。 |
 
 ### 也可以看看

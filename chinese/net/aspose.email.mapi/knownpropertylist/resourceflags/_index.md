@@ -1,14 +1,14 @@
 ---
 title: ResourceFlags
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_RESOURCE_FLAGS
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_RESOURCE_FLAGS
 type: docs
 weight: 16150
 url: /zh/net/aspose.email.mapi/knownpropertylist/resourceflags/
 ---
 ## KnownPropertyList.ResourceFlags field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_RESOURCE_FLAGS
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_RESOURCE_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResourceFlags;

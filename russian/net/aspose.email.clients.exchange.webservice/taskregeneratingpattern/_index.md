@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет регенерирующий шаблон повторения который указывает через сколько дней недель месяцев или лет после завершения текущей задачи следующее вхождение будет в связи.
+description: Представляет регенерирующий шаблон повторения который указывает через сколько дней недель месяцев или лет после завершения текущей задачи должно произойти следующее повторение.
 type: docs
 weight: 15520
 url: /ru/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern class
 
-Представляет регенерирующий шаблон повторения, который указывает, через сколько дней, недель, месяцев или лет после завершения текущей задачи следующее вхождение будет в связи.
+Представляет регенерирующий шаблон повторения, который указывает, через сколько дней, недель, месяцев или лет после завершения текущей задачи должно произойти следующее повторение.
 
 ```csharp
 public sealed class TaskRegeneratingPattern : RecurrencePattern
@@ -18,7 +18,7 @@ public sealed class TaskRegeneratingPattern : RecurrencePattern
 
 | Имя | Описание |
 | --- | --- |
-| [TaskRegeneratingPattern](taskregeneratingpattern)(TaskRegeneratingType, int) | Инициализирует новый экземпляр класса[`TaskRegeneratingPattern`](../taskregeneratingpattern). |
+| [TaskRegeneratingPattern](taskregeneratingpattern)(TaskRegeneratingType, int) | Инициализирует новый экземпляр[`TaskRegeneratingPattern`](../taskregeneratingpattern) класс. |
 
 ## Характеристики
 
@@ -27,8 +27,8 @@ public sealed class TaskRegeneratingPattern : RecurrencePattern
 | [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Получает или задает дату окончания. |
 | [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Получает или задает количество единиц повторения. |
 | [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Получает или задает количество вхождений шаблона повторения. |
-| [RegeneratingType](../../aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype) { get; set; } | Получает или задает тип шаблона регенерации. |
-| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или устанавливает начало недели. |
+| [RegeneratingType](../../aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype) { get; set; } | Получает или задает тип регенерирующего шаблона. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или задает начало недели. |
 
 ## Методы
 

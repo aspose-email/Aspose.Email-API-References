@@ -1,14 +1,14 @@
 ---
 title: SyncState
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SyncStateaspose.email.clients.exchange.webservice/syncstate类 的新实例
+description: 初始化SyncStateaspose.email.clients.exchange.webservice/syncstate class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/syncstate/syncstate/
 ---
 ## SyncState() {#constructor}
 
-初始化[`SyncState`](../../syncstate)类 的新实例
+初始化[`SyncState`](../../syncstate) class
 
 ```csharp
 public SyncState()
@@ -24,7 +24,7 @@ public SyncState()
 
 ## SyncState(string) {#constructor_1}
 
-初始化[`SyncState`](../../syncstate)类 的新实例
+初始化[`SyncState`](../../syncstate) class
 
 ```csharp
 public SyncState(string folderUri)

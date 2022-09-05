@@ -1,12 +1,12 @@
 ---
 title: CalendarReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/calendarreader/calendarreader/
 ---
-## CalendarReader constructor (1 of 4)
+## CalendarReader(string) {#constructor_2}
 
 Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions.
 
@@ -26,7 +26,7 @@ public CalendarReader(string path)
 
 ---
 
-## CalendarReader constructor (2 of 4)
+## CalendarReader(string, AppointmentLoadOptions) {#constructor_3}
 
 Initializes a new instance of CalendarReader with source file and Appointment LoadOptions.
 
@@ -48,7 +48,7 @@ public CalendarReader(string path, AppointmentLoadOptions options)
 
 ---
 
-## CalendarReader constructor (3 of 4)
+## CalendarReader(Stream) {#constructor}
 
 Initializes a new instance of CalendarReader with source stream and default Appointment LoadOptions.
 
@@ -68,7 +68,7 @@ public CalendarReader(Stream stream)
 
 ---
 
-## CalendarReader constructor (4 of 4)
+## CalendarReader(Stream, AppointmentLoadOptions) {#constructor_1}
 
 Initializes a new instance of CalendarReader with source stream and Appointment LoadOptions.
 

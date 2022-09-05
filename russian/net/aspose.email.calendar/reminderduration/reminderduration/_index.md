@@ -1,14 +1,14 @@
 ---
 title: ReminderDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаReminderDurationaspose.email.calendar/reminderduration.
+description: Инициализировать новый экземплярReminderDurationaspose.email.calendar/reminderduration класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/reminderduration/reminderduration/
 ---
 ## ReminderDuration constructor
 
-Инициализировать новый экземпляр класса[`ReminderDuration`](../../reminderduration).
+Инициализировать новый экземпляр[`ReminderDuration`](../../reminderduration) класс.
 
 ```csharp
 public ReminderDuration(TimeSpan duration)

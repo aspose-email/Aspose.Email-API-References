@@ -1,14 +1,14 @@
 ---
 title: Plain
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип носителя текст/обычный
+description: Определяет текстовый/обычный тип носителя
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mime/mediatypenames.text/plain/
 ---
 ## MediaTypeNames.Text.Plain field
 
-Указывает тип носителя текст/обычный
+Определяет текстовый/обычный тип носителя
 
 ```csharp
 public const string Plain;

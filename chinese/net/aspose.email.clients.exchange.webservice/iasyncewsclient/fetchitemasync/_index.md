@@ -19,18 +19,18 @@ public Task<MapiMessage> FetchItemAsync(string uri,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uri | String | 项目 URI。 |
-| extendedProperties | IEnumerable`1 | 指定要检索的属性。 |
+| extendedProperties | IEnumerable`1 | 要检索的指定属性。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象。
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 项目 URI 为空或为空。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 项目 URI 为 null 或为空。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API 参考
-description: 用户或组的电子邮件地址或域的名称具体取决于范围类型 类型默认省略
+description: 用户或组的电子邮件地址或域的名称具体取决于范围类型 默认类型省略
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.google/aclscope/value/
 ---
 ## AclScope.Value property
 
-用户或组的电子邮件地址，或域的名称，具体取决于范围类型。 类型“默认”省略。
+用户或组的电子邮件地址，或域的名称，具体取决于范围类型。 “默认”类型省略。
 
 ```csharp
 public string Value { get; set; }

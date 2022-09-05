@@ -1,14 +1,14 @@
 ---
 title: DavIsCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли объект Calendar коллекцией. ОбластьОбщие Каноническое имяPidNameDavIsCollection Альтернативные именаDAViscollection
+description: Указывает является ли объект Calendar коллекцией. Область Common Каноническое имя PidNameDavIsCollection Альтернативные имена DAViscollection
 type: docs
 weight: 3650
 url: /ru/net/aspose.email.mapi/knownpropertylist/daviscollection/
 ---
 ## KnownPropertyList.DavIsCollection field
 
-Указывает, является ли объект Calendar коллекцией. Область:Общие Каноническое имя:PidNameDavIsCollection Альтернативные имена:DAV:iscollection
+Указывает, является ли объект Calendar коллекцией. Область: Common Каноническое имя: PidNameDavIsCollection Альтернативные имена: DAV:iscollection
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavIsCollection;

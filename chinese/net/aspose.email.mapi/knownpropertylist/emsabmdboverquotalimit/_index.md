@@ -1,14 +1,14 @@
 ---
 title: EmsAbMdbOverQuotaLimit
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_MDB_OVER_QUOTA_LIMIT
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_MDB_OVER_QUOTA_LIMIT
 type: docs
 weight: 7190
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabmdboverquotalimit/
 ---
 ## KnownPropertyList.EmsAbMdbOverQuotaLimit field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_MDB_OVER_QUOTA_LIMIT
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_MDB_OVER_QUOTA_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMdbOverQuotaLimit;

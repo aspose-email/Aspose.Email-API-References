@@ -1,14 +1,14 @@
 ---
 title: RemoteStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает удаленный статус элемента календаря. ОбластьКонфигурация времени выполнения Каноническое имяPidLidRemoteStatus Альтернативные именаdispidRemoteStatus
+description: Указывает удаленный статус элемента календаря. Область Конфигурация во время выполнения Каноническое имя PidLidRemoteStatus Альтернативные имена dispidRemoteStatus
 type: docs
 weight: 15810
 url: /ru/net/aspose.email.mapi/knownpropertylist/remotestatus/
 ---
 ## KnownPropertyList.RemoteStatus field
 
-Указывает удаленный статус элемента календаря. Область:Конфигурация времени выполнения Каноническое имя:PidLidRemoteStatus Альтернативные имена:dispidRemoteStatus
+Указывает удаленный статус элемента календаря. Область: Конфигурация во время выполнения Каноническое имя: PidLidRemoteStatus Альтернативные имена: dispidRemoteStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RemoteStatus;

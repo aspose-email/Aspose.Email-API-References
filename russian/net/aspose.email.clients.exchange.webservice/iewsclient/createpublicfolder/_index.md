@@ -47,7 +47,7 @@ public ExchangeFolderInfo CreatePublicFolder(string parentFolderUri, string name
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки |
 | name | String | Имя новой папки |
-| permissions | ExchangeFolderPermissionCollection | Разрешение на новую folder |
+| permissions | ExchangeFolderPermissionCollection | Разрешение на новую папку |
 
 ### Возвращаемое значение
 

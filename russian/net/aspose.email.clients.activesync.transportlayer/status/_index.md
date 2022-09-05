@@ -40,10 +40,10 @@ public class Status : CommandStatus, IEquatable<Status>
 | static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_3)(CommandCodes, string, int) | Получает статус по коду. |
 | override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals)(Status) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.email.clients.activesync.transportlayer/status/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.email.clients.activesync.transportlayer/status/gethashcode)() | Служит хеш-функцией для определенного типа. |
 | override [ToString](../../aspose.email.clients/commandstatus/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [operator ==](../../aspose.email.clients.activesync.transportlayer/status/op_equality) | Оператор неравенства (==) возвращает значение true, если его операнды равны, и значение false в противном случае. |
-| [implicit operator](../../aspose.email.clients.activesync.transportlayer/status/op_implicit) | Преобразует статус в значение int |
+| [operator ==](../../aspose.email.clients.activesync.transportlayer/status/op_equality) | Оператор неравенства (==) возвращает true, если его операнды равны, иначе false. |
+| [implicit operator](../../aspose.email.clients.activesync.transportlayer/status/op_implicit) | Преобразует статус в int value |
 | [operator !=](../../aspose.email.clients.activesync.transportlayer/status/op_inequality) | Оператор неравенства (!=) возвращает false, если его операнды равны, иначе true. |
 
 ### Смотрите также

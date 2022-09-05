@@ -1,7 +1,7 @@
 ---
 title: InnerExceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Array of inner exceptions
 type: docs
 weight: 20
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientsexception/innerexceptions/

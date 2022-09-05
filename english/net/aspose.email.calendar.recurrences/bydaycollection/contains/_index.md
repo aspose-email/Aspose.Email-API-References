@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a value indicating whether a specified day of week is present in the collection.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar.recurrences/bydaycollection/contains/

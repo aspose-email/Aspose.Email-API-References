@@ -1,14 +1,14 @@
 ---
 title: OriginalStoreEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定委托人消息存储的EntryID 区域会议 规范名称PidLidOriginalStoreEntryId 备用名称dispidOrigStoreEidhttp//schemas.microsoft.com/mapi/origstoreeid
+description: 指定委托人消息存储的 EntryID 区域Meetings 规范名称PidLidOriginalStoreEntryId 备用名称dispidOrigStoreEidhttp//schemas.microsoft.com/mapi/origstoreeid
 type: docs
 weight: 13770
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalstoreentryid/
 ---
 ## KnownPropertyList.OriginalStoreEntryId field
 
-指定委托人消息存储的EntryID。 区域:会议 规范名称:PidLidOriginalStoreEntryId 备用名称:dispidOrigStoreEid，http://schemas.microsoft.com/mapi/origstoreeid
+指定委托人消息存储的 EntryID。 区域：Meetings 规范名称：PidLidOriginalStoreEntryId 备用名称：dispidOrigStoreEid，http://schemas.microsoft.com/mapi/origstoreeid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OriginalStoreEntryId;

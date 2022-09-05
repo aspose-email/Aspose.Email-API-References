@@ -1,14 +1,14 @@
 ---
 title: FileDropPanel
 second_title: Aspose.Email for .NET API 参考
-description: FileDropPanel 提供了处理从 Outlook 或其他地方拖动的文件的能力
+description: FileDropPanel 提供处理从 Outlook 或其他地方拖动的文件的能力
 type: docs
-weight: 20950
+weight: 21000
 url: /zh/net/aspose.email.windows.wpf/filedroppanel/
 ---
 ## FileDropPanel class
 
-FileDropPanel 提供了处理从 Outlook 或其他地方拖动的文件的能力。
+FileDropPanel 提供处理从 Outlook 或其他地方拖动的文件的能力。
 
 ```csharp
 public sealed class FileDropPanel : UserControl
@@ -18,7 +18,7 @@ public sealed class FileDropPanel : UserControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileDropPanel](filedroppanel)() | 初始化[`FileDropPanel`](../filedroppanel)类的新实例。 |
+| [FileDropPanel](filedroppanel)() | 初始化[`FileDropPanel`](../filedroppanel)类. |
 
 ### 评论
 

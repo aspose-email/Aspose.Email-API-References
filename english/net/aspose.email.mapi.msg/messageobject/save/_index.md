@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the current message object to the specified file.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi.msg/messageobject/save/
 ---
-## MessageObject.Save method (1 of 2)
+## Save(string, MessageObjectSaveFormat) {#save_1}
 
 Saves the current message object to the specified file.
 
@@ -38,7 +38,7 @@ In addition same set of exceptions could be thrown as for the String) call.
 
 ---
 
-## MessageObject.Save method (2 of 2)
+## Save(Stream, MessageObjectSaveFormat) {#save}
 
 Saves the current message object to the specified stream.
 

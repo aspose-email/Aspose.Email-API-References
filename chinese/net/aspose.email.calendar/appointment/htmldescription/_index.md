@@ -3,7 +3,7 @@ title: HtmlDescription
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置描述的 html 表示
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/aspose.email.calendar/appointment/htmldescription/
 ---
 ## Appointment.HtmlDescription property

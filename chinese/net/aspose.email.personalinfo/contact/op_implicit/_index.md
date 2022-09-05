@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 将Contactaspose.email.personalinfo/contact转换为MapiContactaspose.email.mapi/mapicontactobject
+description: 转换Contactaspose.email.personalinfo/contact至MapiContactaspose.email.mapi/mapicontactobject
 type: docs
 weight: 430
 url: /zh/net/aspose.email.personalinfo/contact/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-将[`Contact`](../../contact)转换为[`MapiContact`](../../../aspose.email.mapi/mapicontact)object
+转换[`Contact`](../../contact)至[`MapiContact`](../../../aspose.email.mapi/mapicontact)object
 
 ```csharp
 public static implicit operator MapiContact(Contact contact)
@@ -20,7 +20,7 @@ public static implicit operator MapiContact(Contact contact)
 
 ### 返回值
 
-[`MapiContact`](../../../aspose.email.mapi/mapicontact)对象
+[`MapiContact`](../../../aspose.email.mapi/mapicontact)目的
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public static implicit operator MapiContact(Contact contact)
 
 ## implicit operator {#op_implicit_1}
 
-将[`MapiContact`](../../../aspose.email.mapi/mapicontact)转换为[`Contact`](../../contact)object
+转换[`MapiContact`](../../../aspose.email.mapi/mapicontact)至[`Contact`](../../contact)object
 
 ```csharp
 public static implicit operator Contact(MapiContact contact)
@@ -45,7 +45,7 @@ public static implicit operator Contact(MapiContact contact)
 
 ### 返回值
 
-[`Contact`](../../contact)对象
+[`Contact`](../../contact)目的
 
 ### 也可以看看
 

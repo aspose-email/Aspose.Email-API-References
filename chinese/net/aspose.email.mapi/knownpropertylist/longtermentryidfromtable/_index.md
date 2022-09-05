@@ -1,14 +1,14 @@
 ---
 title: LongtermEntryidFromTable
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_LONGTERM_ENTRYID_FROM_TABLE
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_LONGTERM_ENTRYID_FROM_TABLE
 type: docs
 weight: 12310
 url: /zh/net/aspose.email.mapi/knownpropertylist/longtermentryidfromtable/
 ---
 ## KnownPropertyList.LongtermEntryidFromTable field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_LONGTERM_ENTRYID_FROM_TABLE
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_LONGTERM_ENTRYID_FROM_TABLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LongtermEntryidFromTable;

@@ -1,7 +1,7 @@
 ---
 title: HttpResponseHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a collection of HTTP headers from the last response.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/httpresponseheaders/

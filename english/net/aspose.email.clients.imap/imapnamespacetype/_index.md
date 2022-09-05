@@ -1,9 +1,9 @@
 ---
 title: ImapNamespaceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents IMAP namespace type More details https//tools.ietf.org/html/rfc2342
 type: docs
-weight: 16410
+weight: 16440
 url: /net/aspose.email.clients.imap/imapnamespacetype/
 ---
 ## ImapNamespaceType enumeration

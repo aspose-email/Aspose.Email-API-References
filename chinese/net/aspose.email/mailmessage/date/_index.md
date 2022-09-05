@@ -1,14 +1,14 @@
 ---
 title: Date
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息日期
+description: 获取或设置消息的日期
 type: docs
 weight: 100
 url: /zh/net/aspose.email/mailmessage/date/
 ---
 ## MailMessage.Date property
 
-获取或设置消息日期
+获取或设置消息的日期
 
 ```csharp
 public virtual DateTime Date { get; set; }

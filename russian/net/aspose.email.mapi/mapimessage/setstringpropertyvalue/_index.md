@@ -1,14 +1,14 @@
 ---
 title: SetStringPropertyValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает значение строкового свойства.
+description: Задает значение свойства строки.
 type: docs
 weight: 380
 url: /ru/net/aspose.email.mapi/mapimessage/setstringpropertyvalue/
 ---
 ## MapiMessage.SetStringPropertyValue method
 
-Устанавливает значение строкового свойства.
+Задает значение свойства строки.
 
 ```csharp
 public void SetStringPropertyValue(long tag, string value)
@@ -17,7 +17,7 @@ public void SetStringPropertyValue(long tag, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tag | Int64 | Тег свойства. |
-| value | String | Значение свойства. |
+| value | String | Стоимость свойства. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a uri of photo null if valueLocation is inline
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcardphoto/uri/

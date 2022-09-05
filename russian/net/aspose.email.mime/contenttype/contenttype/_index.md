@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаContentTypeaspose.email.mime/contenttype.
+description: Инициализирует новый экземплярContentTypeaspose.email.mime/contenttype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/contenttype/contenttype/
 ---
 ## ContentType() {#constructor}
 
-Инициализирует новый экземпляр класса[`ContentType`](../../contenttype).
+Инициализирует новый экземпляр[`ContentType`](../../contenttype) класс.
 
 ```csharp
 public ContentType()
@@ -24,7 +24,7 @@ public ContentType()
 
 ## ContentType(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ContentType`](../../contenttype).
+Инициализирует новый экземпляр[`ContentType`](../../contenttype) класс.
 
 ```csharp
 public ContentType(string contentType)
@@ -32,7 +32,7 @@ public ContentType(string contentType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| contentType | String | Тип содержимого. |
+| contentType | String | Тип контента. |
 
 ### Смотрите также
 

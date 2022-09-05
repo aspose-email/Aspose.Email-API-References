@@ -1,7 +1,7 @@
 ---
 title: AssistantTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the telephone number of the contacts assistant
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/assistanttelephonenumber/

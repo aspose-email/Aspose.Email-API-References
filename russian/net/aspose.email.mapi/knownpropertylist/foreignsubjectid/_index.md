@@ -1,14 +1,14 @@
 ---
 title: ForeignSubjectId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FOREIGN_SUBJECT_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FOREIGN_SUBJECT_ID
 type: docs
 weight: 10490
 url: /ru/net/aspose.email.mapi/knownpropertylist/foreignsubjectid/
 ---
 ## KnownPropertyList.ForeignSubjectId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FOREIGN_SUBJECT_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FOREIGN_SUBJECT_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ForeignSubjectId;

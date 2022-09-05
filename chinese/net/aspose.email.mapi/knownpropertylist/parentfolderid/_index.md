@@ -1,14 +1,14 @@
 ---
 title: ParentFolderId
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值该值包含文件夹 ID FID如 MS-OXCDATA 部分 2.2.1.1 中所指定它标识正在发送的消息对象的父文件夹同步 区域ID 属性 规范名称PidTagParentFolderId 替代名称ptagParentFID
+description: 包含一个包含文件夹 ID FID 的值如 MS-OXCDATA 第 2.2.1.1 节中指定的它标识正在同步的消息传递对象的父文件夹 区域ID 属性 规范名称PidTagParentFolderId 备用名称ptagParentFID
 type: docs
 weight: 14200
 url: /zh/net/aspose.email.mapi/knownpropertylist/parentfolderid/
 ---
 ## KnownPropertyList.ParentFolderId field
 
-包含一个值，该值包含文件夹 ID (FID)，如 [MS-OXCDATA] 部分 2.2.1.1 中所指定，它标识正在发送的消息对象的父文件夹同步。 区域:ID 属性 规范名称:PidTagParentFolderId 替代名称:ptagParentFID
+包含一个包含文件夹 ID (FID) 的值，如 [MS-OXCDATA] 第 2.2.1.1 节中指定的，它标识正在同步的消息传递对象的父文件夹。 区域：ID 属性 规范名称：PidTagParentFolderId 备用名称：ptagParentFID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentFolderId;

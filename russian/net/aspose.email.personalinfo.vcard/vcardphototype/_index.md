@@ -3,7 +3,7 @@ title: VCardPhotoType
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет тип фотографии vCard
 type: docs
-weight: 19670
+weight: 19720
 url: /ru/net/aspose.email.personalinfo.vcard/vcardphototype/
 ---
 ## VCardPhotoType enumeration
@@ -22,18 +22,18 @@ public enum VCardPhotoType
 | CGM | `1` | Метафайл компьютерной графики ISO |
 | WMF | `2` | Метафайл MS Windows |
 | BMP | `3` | Растровое изображение MS Windows |
-| MET | `4` | Метафайл IBM pm |
+| MET | `4` | метафайл IBM pm |
 | PMB | `5` | Растровое изображение IBM pm |
-| DIB | `6` | MS windows dib |
+| DIB | `6` | MS Windows dib |
 | PICT | `7` | Формат изображения Apple |
 | TIFF | `8` | Формат файла изображения с тегами |
-| PS | `9` | Формат Adobe postscript |
+| PS | `9` | Формат Adobe PostScript |
 | PDF | `10` | Формат описания страницы Adobe |
-| JPEG | `11` | Формат Jpeg |
-| MPEG | `12` | Формат Mpeg |
+| JPEG | `11` | Формат JPEG |
+| MPEG | `12` | Формат MPEG |
 | MPEG2 | `13` | Формат MPEG v.2 |
-| AVI | `14` | Формат Intel avi |
-| QTIME | `15` | Формат Apple quickTime |
+| AVI | `14` | Формат Intel AVI |
+| QTIME | `15` | Формат Apple QuickTime |
 
 ### Смотрите также
 

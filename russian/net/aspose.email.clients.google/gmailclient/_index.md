@@ -28,8 +28,8 @@ public abstract class GmailClient : IBaseGmailClient
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients.google/gmailclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| virtual [RefreshToken](../../aspose.email.clients.google/gmailclient/refreshtoken)() | Обновить маркер доступа |
+| virtual [Dispose](../../aspose.email.clients.google/gmailclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| virtual [RefreshToken](../../aspose.email.clients.google/gmailclient/refreshtoken)() | Обновить токен доступа |
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance_1)(string, string) | Получает экземпляр клиента Gmail |
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance)(string, IWebProxy, string) | Получает экземпляр клиента Gmail |
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance#getinstance_3)(string, string, string, string) | Получает экземпляр клиента Gmail |

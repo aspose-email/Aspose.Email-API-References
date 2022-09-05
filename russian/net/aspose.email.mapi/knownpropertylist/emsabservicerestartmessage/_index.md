@@ -1,14 +1,14 @@
 ---
 title: EmsAbServiceRestartMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SERVICE_RESTART_MESSAGE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SERVICE_RESTART_MESSAGE
 type: docs
 weight: 8820
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabservicerestartmessage/
 ---
 ## KnownPropertyList.EmsAbServiceRestartMessage field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SERVICE_RESTART_MESSAGE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SERVICE_RESTART_MESSAGE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbServiceRestartMessage;

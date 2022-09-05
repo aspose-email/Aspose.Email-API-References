@@ -1,12 +1,12 @@
 ---
 title: MapiConversionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiConversionOptionsaspose.email.mapi/mapiconversionoptions class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapiconversionoptions/mapiconversionoptions/
 ---
-## MapiConversionOptions constructor (1 of 2)
+## MapiConversionOptions() {#constructor}
 
 Initializes a new instance of the [`MapiConversionOptions`](../../mapiconversionoptions) class.
 
@@ -22,7 +22,7 @@ public MapiConversionOptions()
 
 ---
 
-## MapiConversionOptions constructor (2 of 2)
+## MapiConversionOptions(OutlookMessageFormat) {#constructor_1}
 
 Initializes a new instance of the [`MapiConversionOptions`](../../mapiconversionoptions) class with specified OutlookMessageFormat.
 

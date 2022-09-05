@@ -16,17 +16,17 @@ public ExchangeTask FetchTask(string taskUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| taskUri | String | URI задачи. |
+| taskUri | String | Ури задачи. |
 
 ### Возвращаемое значение
 
-A извлечено[`ExchangeTask`](../../exchangetask)
+принесенный[`ExchangeTask`](../../exchangetask)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *taskUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *taskUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

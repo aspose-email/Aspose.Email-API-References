@@ -1,14 +1,14 @@
 ---
 title: ConversationActionMoveStoreEid
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于移动到不同消息存储中的文件夹的 EntryID 区域对话操作 规范名称PidLidConversationActionMoveStoreEid 备用名称dispidConvActionMoveStoreEid
+description: 包含移动到不同消息存储中的文件夹的 EntryID 区域对话 Actions 规范名称PidLidConversationActionMoveStoreEid 替代名称dispidConvActionMoveStoreEid
 type: docs
 weight: 3370
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationactionmovestoreeid/
 ---
 ## KnownPropertyList.ConversationActionMoveStoreEid field
 
-包含用于移动到不同消息存储中的文件夹的 EntryID。 区域:对话操作 规范名称:PidLidConversationActionMoveStoreEid 备用名称:dispidConvActionMoveStoreEid
+包含移动到不同消息存储中的文件夹的 EntryID。 区域：对话 Actions 规范名称：PidLidConversationActionMoveStoreEid 替代名称：dispidConvActionMoveStoreEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionMoveStoreEid;

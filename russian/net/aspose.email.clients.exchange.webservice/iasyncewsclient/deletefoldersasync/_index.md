@@ -19,13 +19,13 @@ public Task DeleteFoldersAsync(IEnumerable<string> folderUris, bool deletePerman
 | --- | --- | --- |
 | folderUris | IEnumerable`1 | Список URI папок |
 | deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris* является`нулевой` |
 
 ### Смотрите также
 

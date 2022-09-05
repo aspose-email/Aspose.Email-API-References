@@ -19,9 +19,9 @@ public enum AppointmentStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 值未定义 |
-| Cancelled | `0` | 表示日志已删除。 或 表示待办事项已取消。 或 表示事件被取消。 |
+| Cancelled | `0` | 表示日志已删除。 or 表示待办事项已取消。 or 表示事件已取消。 |
 | Tentative | `1` | 表示事件是暂定的。 |
-| Confirmed | `2` | 表示事件是确定的。 |
+| Confirmed | `2` | 表示事件已确定。 |
 
 ### 也可以看看
 

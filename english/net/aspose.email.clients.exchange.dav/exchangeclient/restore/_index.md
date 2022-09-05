@@ -1,12 +1,12 @@
 ---
 title: Restore
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Restores exchange folders from the specified personal storage file.
 type: docs
 weight: 350
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/restore/
 ---
-## ExchangeClient.Restore method (1 of 6)
+## Restore(string, RestoreOptions) {#restore_5}
 
 Restores exchange folders from the specified personal storage file.
 
@@ -34,7 +34,7 @@ public void Restore(string fileName, RestoreOptions options)
 
 ---
 
-## ExchangeClient.Restore method (2 of 6)
+## Restore(Stream, RestoreOptions) {#restore_3}
 
 Restores exchange folders from the given personal storage.
 
@@ -63,7 +63,7 @@ public void Restore(Stream stream, RestoreOptions options)
 
 ---
 
-## ExchangeClient.Restore method (3 of 6)
+## Restore(PersonalStorage, RestoreOptions) {#restore_1}
 
 Restores exchange folders from the given personal storage.
 
@@ -92,7 +92,7 @@ public void Restore(PersonalStorage pst, RestoreOptions options)
 
 ---
 
-## ExchangeClient.Restore method (4 of 6)
+## Restore(string, ExchangeFolderInfoCollection, RestoreOptions) {#restore_4}
 
 Restores the specified exchange folders from the specified personal storage file.
 
@@ -123,7 +123,7 @@ public void Restore(string fileName, ExchangeFolderInfoCollection folders, Resto
 
 ---
 
-## ExchangeClient.Restore method (5 of 6)
+## Restore(Stream, ExchangeFolderInfoCollection, RestoreOptions) {#restore_2}
 
 Restores the specified exchange folders from the given personal storage.
 
@@ -154,7 +154,7 @@ public void Restore(Stream stream, ExchangeFolderInfoCollection folders, Restore
 
 ---
 
-## ExchangeClient.Restore method (6 of 6)
+## Restore(PersonalStorage, ExchangeFolderInfoCollection, RestoreOptions) {#restore}
 
 Restores the specified exchange folders from the given personal storage.
 

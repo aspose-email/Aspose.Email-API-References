@@ -1,7 +1,7 @@
 ---
 title: TryGetPropertyDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/

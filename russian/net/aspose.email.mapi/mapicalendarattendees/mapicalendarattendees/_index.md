@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiCalendarAttendeesaspose.email.mapi/mapicalendarattendees
+description: Инициализирует новый экземплярMapiCalendarAttendeesaspose.email.mapi/mapicalendarattendees класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicalendarattendees/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees constructor
 
-Инициализирует новый экземпляр класса[`MapiCalendarAttendees`](../../mapicalendarattendees)
+Инициализирует новый экземпляр[`MapiCalendarAttendees`](../../mapicalendarattendees) класс
 
 ```csharp
 public MapiCalendarAttendees()

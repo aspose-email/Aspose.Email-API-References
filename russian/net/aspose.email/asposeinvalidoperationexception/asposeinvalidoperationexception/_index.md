@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeInvalidOperationExceptionaspose.email/asposeinvalidoperationexception.
+description: Инициализирует новый экземплярAsposeInvalidOperationExceptionaspose.email/asposeinvalidoperationexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeinvalidoperationexception/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception).
+Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) класс.
 
 ```csharp
 public AsposeInvalidOperationException()
@@ -24,7 +24,7 @@ public AsposeInvalidOperationException()
 
 ## AsposeInvalidOperationException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidOperationException(string message)
@@ -58,7 +58,7 @@ public AsposeInvalidOperationException(string format, string parameter)
 
 ## AsposeInvalidOperationException(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidOperationException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeInvalidOperationException(string format, params object[] parameters
 
 ## AsposeInvalidOperationException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../../asposeinvalidoperationexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidOperationException(string message, Exception inner)

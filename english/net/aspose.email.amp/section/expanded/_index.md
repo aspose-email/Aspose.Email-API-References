@@ -1,7 +1,7 @@
 ---
 title: Expanded
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Displays the section as expanded on page load.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/section/expanded/

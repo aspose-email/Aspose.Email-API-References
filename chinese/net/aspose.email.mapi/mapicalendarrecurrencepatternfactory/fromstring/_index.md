@@ -16,7 +16,7 @@ public static MapiCalendarRecurrencePattern FromString(string pattern)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | String | iCalendar 格式的重复规则字符串值。 |
+| pattern | String | iCalendar 格式的重复规则的字符串值。 |
 
 ### 也可以看看
 

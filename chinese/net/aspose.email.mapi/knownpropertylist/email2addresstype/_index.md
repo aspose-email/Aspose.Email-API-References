@@ -1,14 +1,14 @@
 ---
 title: Email2AddressType
 second_title: Aspose.Email for .NET API 参考
-description: 指定电子地址的地址类型 区域联系人属性 规范名称PidLidEmail2AddressType 备用名称dispidEmail2AddrType
+description: 指定电子地址的地址类型 区域联系人属性 规范名称PidLidEmail2AddressType 替代名称dispidEmail2AddrType
 type: docs
 weight: 4370
 url: /zh/net/aspose.email.mapi/knownpropertylist/email2addresstype/
 ---
 ## KnownPropertyList.Email2AddressType field
 
-指定电子地址的地址类型。 区域:联系人属性 规范名称:PidLidEmail2AddressType 备用名称:dispidEmail2AddrType
+指定电子地址的地址类型。 区域：联系人属性 规范名称：PidLidEmail2AddressType 替代名称：dispidEmail2AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2AddressType;

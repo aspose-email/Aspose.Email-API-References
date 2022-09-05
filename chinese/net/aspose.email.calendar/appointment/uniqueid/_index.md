@@ -3,7 +3,7 @@ title: UniqueId
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置包含日历项的 GUID 的字符串值 在 MS Exchange 中这是 PidLidGlobalObjectId mapi 属性
 type: docs
-weight: 280
+weight: 290
 url: /zh/net/aspose.email.calendar/appointment/uniqueid/
 ---
 ## Appointment.UniqueId property

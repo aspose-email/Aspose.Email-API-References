@@ -1,14 +1,14 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 表示 iCalendar 保存选项
+description: 代表 iCalendar 保存选项
 type: docs
 weight: 490
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/
 ---
 ## AppointmentIcsSaveOptions class
 
-表示 iCalendar 保存选项
+代表 iCalendar 保存选项
 
 ```csharp
 public sealed class AppointmentIcsSaveOptions : AppointmentSaveOptions
@@ -18,18 +18,18 @@ public sealed class AppointmentIcsSaveOptions : AppointmentSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor)() | 初始化一个新的实例 [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) 班级 |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor_1)(AppointmentAction) | 初始化一个新的实例 [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) 班级 |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor)() | 初始化[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor_1)(AppointmentAction) | 初始化[`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Default](../../aspose.email.calendar/appointmenticssaveoptions/default) { get; } | 获取默认 Ics 保存选项 |
-| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action) { get; set; } | 获取或设置约会操作 |
-| [CreateNew](../../aspose.email.calendar/appointmenticssaveoptions/createnew) { get; set; } | 获取或设置指示是否需要创建新日历或在现有日历中追加事件的值。 默认值为真。 |
+| static [Default](../../aspose.email.calendar/appointmenticssaveoptions/default) { get; } | 获取默认的 Ics 保存选项 |
+| [Action](../../aspose.email.calendar/appointmenticssaveoptions/action) { get; set; } | 获取或设置约会 Action |
+| [CreateNew](../../aspose.email.calendar/appointmenticssaveoptions/createnew) { get; set; } | 获取或设置值，指示是否需要在现有日历中创建新日历或追加事件。 默认值为 true。 |
 | [EndTimeZone](../../aspose.email.calendar/appointmenticssaveoptions/endtimezone) { get; set; } | 获取或设置结束时区。 |
-| [MethodType](../../aspose.email.calendar/appointmenticssaveoptions/methodtype) { get; set; } | 获取或设置与日历对象关联 的 iCalendar 对象方法类型。 |
+| [MethodType](../../aspose.email.calendar/appointmenticssaveoptions/methodtype) { get; set; } | 获取或设置与日历对象 关联的iCalendar 对象方法类型。 |
 | [ProductId](../../aspose.email.calendar/appointmenticssaveoptions/productid) { get; set; } | 获取或设置创建 iCalendar 对象的产品标识符。 |
 | [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat) { get; } | 获取保存格式 |
 | [SequenceId](../../aspose.email.calendar/appointmenticssaveoptions/sequenceid) { get; set; } | 获取或设置序列id。 |

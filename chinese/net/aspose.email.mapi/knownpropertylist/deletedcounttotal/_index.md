@@ -1,14 +1,14 @@
 ---
 title: DeletedCountTotal
 second_title: Aspose.Email for .NET API 参考
-description: 包含已从文件夹中删除的邮件总数不包括在子文件夹中删除的邮件 区域服务器 规范名称PidTagDeletedCountTotal 备用名称PR_DELETED_COUNT_TOTAL ptagDeleteCountTotal
+description: 包含已从文件夹中删除的邮件总数不包括在子文件夹中删除的邮件 区域Server 规范名称PidTagDeletedCountTotal 备用名称PR_DELETED_COUNT_TOTALptagDeleteCountTotal
 type: docs
 weight: 3890
 url: /zh/net/aspose.email.mapi/knownpropertylist/deletedcounttotal/
 ---
 ## KnownPropertyList.DeletedCountTotal field
 
-包含已从文件夹中删除的邮件总数，不包括在子文件夹中删除的邮件。 区域:服务器 规范名称:PidTagDeletedCountTotal 备用名称:PR_DELETED_COUNT_TOTAL, ptagDeleteCountTotal
+包含已从文件夹中删除的邮件总数，不包括在子文件夹中删除的邮件。 区域：Server 规范名称：PidTagDeletedCountTotal 备用名称：PR_DELETED_COUNT_TOTAL、ptagDeleteCountTotal
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeletedCountTotal;

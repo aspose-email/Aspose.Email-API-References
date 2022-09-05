@@ -1,7 +1,7 @@
 ---
 title: Friend
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Friend
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/associatedpersoncategory/friend/

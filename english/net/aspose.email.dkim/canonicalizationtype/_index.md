@@ -1,9 +1,9 @@
 ---
 title: CanonicalizationType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents DKIM canonicalization.
 type: docs
-weight: 17030
+weight: 17200
 url: /net/aspose.email.dkim/canonicalizationtype/
 ---
 ## CanonicalizationType enumeration

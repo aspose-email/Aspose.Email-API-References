@@ -1,7 +1,7 @@
 ---
 title: GetCurrency
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Currency as string using the specified code page.
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapiproperty/getcurrency/

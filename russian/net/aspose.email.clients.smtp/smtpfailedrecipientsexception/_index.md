@@ -1,14 +1,14 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Справочник по Aspose.Email для .NET API
-description: Краткое описание исключения SmtpFailedRecipientsException.
+description: Краткое описание для SmtpFailedRecipientsException.
 type: docs
 weight: 17060
 url: /ru/net/aspose.email.clients.smtp/smtpfailedrecipientsexception/
 ---
 ## SmtpFailedRecipientsException class
 
-Краткое описание исключения SmtpFailedRecipientsException.
+Краткое описание для SmtpFailedRecipientsException.
 
 ```csharp
 public class SmtpFailedRecipientsException : SmtpFailedRecipientException
@@ -18,10 +18,10 @@ public class SmtpFailedRecipientsException : SmtpFailedRecipientException
 
 | Имя | Описание |
 | --- | --- |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor)() | Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_2)(string, SmtpFailedRecipientException[]) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor)() | Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) класс |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_1)(string) | Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) класс |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) класс |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_2)(string, SmtpFailedRecipientException[]) | Инициализирует новый экземпляр[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) класс |
 
 ## Характеристики
 

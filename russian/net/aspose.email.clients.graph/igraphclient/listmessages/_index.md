@@ -20,7 +20,7 @@ public MessageInfoCollection ListMessages(string id)
 
 ### Возвращаемое значение
 
-Возвращает список MessageInfo папка
+Возвращает список MessageInfo папки
 
 ### Смотрите также
 
@@ -43,7 +43,7 @@ public GraphMessagePageInfo ListMessages(string id, PageInfo page, MailQuery que
 | --- | --- | --- |
 | id | String | Идентификатор родительской папки |
 | page | PageInfo | Информация о странице |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет поисковый запрос |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет собой поисковый запрос |
 
 ### Возвращаемое значение
 

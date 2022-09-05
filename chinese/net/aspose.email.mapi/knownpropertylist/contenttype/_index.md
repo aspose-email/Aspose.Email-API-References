@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API 参考
-description: 指定正文部分内容的类型 区域电子邮件 规范名称PidNameContentType 备用名称urnschemasmailheadercontent-type
+description: 指定正文部分内容的类型 区域Email 规范名称PidNameContentType 备用名称urnschemasmailheadercontent-type
 type: docs
 weight: 3280
 url: /zh/net/aspose.email.mapi/knownpropertylist/contenttype/
 ---
 ## KnownPropertyList.ContentType field
 
-指定正文部分内容的类型。 区域:电子邮件 规范名称:PidNameContentType 备用名称:urn:schemas:mailheader:content-type
+指定正文部分内容的类型。 区域：Email 规范名称：PidNameContentType 备用名称：urn:schemas:mailheader:content-type
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentType;

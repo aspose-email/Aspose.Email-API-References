@@ -1,14 +1,14 @@
 ---
 title: EstimatedEffort
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает количество минут  которое пользователь ожидает для работы над задачей.
+description: Получает или задает количество минут  которое пользователь ожидает отработать над задачей.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapitask/estimatedeffort/
 ---
 ## MapiTask.EstimatedEffort property
 
-Получает или задает количество минут , которое пользователь ожидает для работы над задачей.
+Получает или задает количество минут , которое пользователь ожидает отработать над задачей.
 
 ```csharp
 public int EstimatedEffort { get; set; }

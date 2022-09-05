@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/emailaddresscategory/email2value/
 ---
 ## EmailAddressCategory.Email2Value field
 
-Строковое значение для категории 'Email2'
+Строковое значение для категории "Email2"
 
 ```csharp
 public const string Email2Value;

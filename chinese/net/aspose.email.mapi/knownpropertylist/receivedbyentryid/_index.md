@@ -1,14 +1,14 @@
 ---
 title: ReceivedByEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含接收Email对象的邮箱的通讯录EntryID 区域地址属性 规范名称PidTagReceivedByEntryId 备用名称PR_RECEIVED_BY_ENTRYID
+description: 包含接收电子邮件对象的邮箱的通讯簿条目 ID 区域地址属性 规范名称PidTagReceivedByEntryId 备用名称PR_RECEIVED_BY_ENTRYID
 type: docs
 weight: 15290
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivedbyentryid/
 ---
 ## KnownPropertyList.ReceivedByEntryId field
 
-包含接收Email对象的邮箱的通讯录EntryID。 区域:地址属性 规范名称:PidTagReceivedByEntryId 备用名称:PR_RECEIVED_BY_ENTRYID
+包含接收电子邮件对象的邮箱的通讯簿条目 ID。 区域：地址属性 规范名称：PidTagReceivedByEntryId 备用名称：PR_RECEIVED_BY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByEntryId;

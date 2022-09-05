@@ -3,7 +3,7 @@ title: VCardEmailType
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет типы электронной почты vCard
 type: docs
-weight: 19600
+weight: 19630
 url: /ru/net/aspose.email.personalinfo.vcard/vcardemailtype/
 ---
 ## VCardEmailType enumeration
@@ -22,14 +22,14 @@ public enum VCardEmailType
 | None | `0` | Значения не установлены. |
 | INTERNET | `1` | Интернет |
 | PREF | `2` | Предпочтительный адрес |
-| AOL | `4` | Америка On-Line |
+| AOL | `4` | Америка Он-Лайн |
 | ATTMAIL | `8` | Почта AT&amp;T |
 | CIS | `10` | Информационная служба CompuServe |
 | EWORLD | `20` | Тип eWorld |
 | IBMMAIL | `40` | IBM Mail |
 | MCIMAIL | `80` | Почта MCI |
 | POWERSHARE | `100` | PowerShare |
-| PRODIGY | `200` | Чудесная информационная служба |
+| PRODIGY | `200` | Вундеркинд информационная служба |
 | TLX | `400` | Номер телекса |
 | X400 | `800` | Служба X.400 |
 | IM | `1000` | Адрес для обмена мгновенными сообщениями |

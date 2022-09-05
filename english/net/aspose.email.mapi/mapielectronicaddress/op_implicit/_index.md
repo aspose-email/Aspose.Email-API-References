@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs an implicit conversion from String to MapiElectronicAddressaspose.email.mapi/mapielectronicaddress.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapielectronicaddress/op_implicit/

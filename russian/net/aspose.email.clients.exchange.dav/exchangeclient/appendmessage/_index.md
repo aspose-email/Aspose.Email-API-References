@@ -16,7 +16,7 @@ public string AppendMessage(string folder, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка в которое загружается сообщение |
+| folder | String | Папка, в которую загружается сообщение |
 | message | MailMessage | Сообщение для загрузки |
 
 ### Возвращаемое значение
@@ -28,7 +28,7 @@ URI созданного сообщения
 | исключение | условие |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Папка не указана |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message* является`нулевой` |
 
 ### Смотрите также
 
@@ -49,20 +49,20 @@ public string AppendMessage(string folder, MailMessage message, bool markAsSent)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Ури папки, в которую загружается сообщение |
+| folder | String | URI папки, в которую загружается сообщение |
 | message | MailMessage | Сообщение для загрузки |
-| markAsSent | Boolean | Значение, указывающее должно ли сообщение быть добавлено как отправленное сообщение или черновик. |
+| markAsSent | Boolean | Значение, указывающее, должно ли сообщение быть добавлено как отправленное сообщение или как черновик. |
 
 ### Возвращаемое значение
 
-URI созданного сообщение
+URI созданного сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Папка не указана |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message* является`нулевой` |
 
 ### Смотрите также
 

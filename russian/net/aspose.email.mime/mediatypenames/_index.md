@@ -3,7 +3,7 @@ title: MediaTypeNames
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает имена типов мультимедиа для сообщения электронной почты.
 type: docs
-weight: 19140
+weight: 19170
 url: /ru/net/aspose.email.mime/mediatypenames/
 ---
 ## MediaTypeNames class
@@ -18,7 +18,7 @@ public static class MediaTypeNames
 
 | Имя | Описание |
 | --- | --- |
-| static [ParseName](../../aspose.email.mime/mediatypenames/parsename)(string) | Преобразует расширение имени файла в имя типа носителя |
+| static [ParseName](../../aspose.email.mime/mediatypenames/parsename)(string) | Преобразует расширение имени файла в тип носителя name |
 
 ## Другие члены
 
@@ -26,7 +26,7 @@ public static class MediaTypeNames
 | --- | --- |
 | class [Application](mediatypenames.application) | Указывает тип данных приложения во вложении к сообщению электронной почты. |
 | class [Image](mediatypenames.image) | Указывает тип данных изображения во вложении к сообщению электронной почты. |
-| class [Text](mediatypenames.text) | Указывает тип текстовых данных во вложении сообщения электронной почты. |
+| class [Text](mediatypenames.text) | Указывает тип текстовых данных во вложении к сообщению электронной почты. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: SavedMimePartCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Amount of mime parts that were saved.
 type: docs
 weight: 30
 url: /net/aspose.email/progresseventhandlerinfo/savedmimepartcount/

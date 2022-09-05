@@ -1,14 +1,14 @@
 ---
 title: VCardSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptionsclass
+description: Инициализирует новый экземплярVCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsaveoptions/vcardsaveoptions/
 ---
 ## VCardSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`VCardSaveOptions`](../../vcardsaveoptions)class
+Инициализирует новый экземпляр[`VCardSaveOptions`](../../vcardsaveoptions) класс
 
 ```csharp
 public VCardSaveOptions()
@@ -24,7 +24,7 @@ public VCardSaveOptions()
 
 ## VCardSaveOptions(VCardVersion, bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`VCardSaveOptions`](../../vcardsaveoptions)class
+Инициализирует новый экземпляр[`VCardSaveOptions`](../../vcardsaveoptions) класс
 
 ```csharp
 public VCardSaveOptions(VCardVersion version, bool useExtensions)
@@ -32,14 +32,14 @@ public VCardSaveOptions(VCardVersion version, bool useExtensions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| version | VCardVersion | версия vCard |
+| version | VCardVersion | vCard версия |
 | useExtensions | Boolean | указывает, можно ли использовать расширенные типы. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | A*версия*не определена в[`VCardVersion`](../../vcardversion) |
+| ArgumentException | А*version* не определяется в[`VCardVersion`](../../vcardversion) |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public VCardSaveOptions(VCardVersion version, bool useExtensions)
 
 ## VCardSaveOptions(VCardVersion) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`VCardSaveOptions`](../../vcardsaveoptions)class
+Инициализирует новый экземпляр[`VCardSaveOptions`](../../vcardsaveoptions) класс
 
 ```csharp
 public VCardSaveOptions(VCardVersion version)
@@ -60,7 +60,7 @@ public VCardSaveOptions(VCardVersion version)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| version | VCardVersion | версия vCard |
+| version | VCardVersion | vCard версия |
 
 ### Исключения
 

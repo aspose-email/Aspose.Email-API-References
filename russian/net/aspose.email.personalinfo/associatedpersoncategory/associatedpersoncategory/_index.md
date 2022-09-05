@@ -1,14 +1,14 @@
 ---
 title: AssociatedPersonCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAssociatedPersonCategoryaspose.email.personalinfo/associatedpersoncategoryс категорией Custom.
+description: Инициализирует новый экземплярAssociatedPersonCategoryaspose.email.personalinfo/associatedpersoncategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/associatedpersoncategory/
 ---
 ## AssociatedPersonCategory constructor
 
-Инициализирует новый экземпляр класса[`AssociatedPersonCategory`](../../associatedpersoncategory)с категорией Custom.
+Инициализирует новый экземпляр[`AssociatedPersonCategory`](../../associatedpersoncategory) класс с категорией «Пользовательский».
 
 ```csharp
 public AssociatedPersonCategory(string description)
@@ -16,7 +16,7 @@ public AssociatedPersonCategory(string description)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| description | String | Описание для 'Пользовательской' категории человека |
+| description | String | Описание для категории «Пользовательская» персоны |
 
 ### Смотрите также
 

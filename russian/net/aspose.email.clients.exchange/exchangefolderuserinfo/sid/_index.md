@@ -1,14 +1,14 @@
 ---
 title: Sid
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает форму языка определения дескриптора безопасности SSDL идентификатора безопасности SID для пользователя.
+description: Получает или задает форму языка определения дескрипторов безопасности SSDL идентификатора безопасности SID для пользователя.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange/exchangefolderuserinfo/sid/
 ---
 ## ExchangeFolderUserInfo.Sid property
 
-Получает или задает форму языка определения дескриптора безопасности (SSDL) идентификатора безопасности (SID) для пользователя.
+Получает или задает форму языка определения дескрипторов безопасности (SSDL) идентификатора безопасности (SID) для пользователя.
 
 ```csharp
 public string Sid { get; set; }

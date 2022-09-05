@@ -1,14 +1,14 @@
 ---
 title: SmtpForward
 second_title: Aspose.Email for .NET API 参考
-description: ForwardAsync../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync论据
+description: 的ForwardAsync../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync参数.
 type: docs
 weight: 17000
 url: /zh/net/aspose.email.clients.smtp.models/smtpforward/
 ---
 ## SmtpForward class
 
-[`ForwardAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync)论据。
+的[`ForwardAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync)参数.
 
 ```csharp
 public class SmtpForward
@@ -18,7 +18,7 @@ public class SmtpForward
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.smtp.models/smtpforward/create)() | 创建[`SmtpForward`](../smtpforward)实例。 |
+| static [Create](../../aspose.email.clients.smtp.models/smtpforward/create)() | 创建[`SmtpForward`](../smtpforward) instacne. |
 | [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient)(MailAddress) | 添加转发消息的收件人。 |
 | [AddRecipient](../../aspose.email.clients.smtp.models/smtpforward/addrecipient#addrecipient_1)(string) | 添加转发消息的收件人。 |
 | [AddRecipients](../../aspose.email.clients.smtp.models/smtpforward/addrecipients#addrecipients_1)(IEnumerable&lt;string&gt;) | 添加转发邮件的收件人。 |

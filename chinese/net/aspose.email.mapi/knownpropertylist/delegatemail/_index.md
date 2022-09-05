@@ -1,14 +1,14 @@
 ---
 title: DelegateMail
 second_title: Aspose.Email for .NET API 参考
-description: 指示代表是否响应了会议请求 区域会议 规范名称PidLidDelegateMail 别名LID_DELEGATE_MAIL
+description: 指示代表是否响应了会议请求 区域Meetings 规范名称PidLidDelegateMail 备用名称LID_DELEGATE_MAIL
 type: docs
 weight: 3840
 url: /zh/net/aspose.email.mapi/knownpropertylist/delegatemail/
 ---
 ## KnownPropertyList.DelegateMail field
 
-指示代表是否响应了会议请求。 区域:会议 规范名称:PidLidDelegateMail 别名:LID_DELEGATE_MAIL
+指示代表是否响应了会议请求。 区域：Meetings 规范名称：PidLidDelegateMail 备用名称：LID_DELEGATE_MAIL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DelegateMail;

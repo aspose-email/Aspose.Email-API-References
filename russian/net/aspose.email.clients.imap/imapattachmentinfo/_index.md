@@ -18,7 +18,7 @@ public class ImapAttachmentInfo
 
 | Имя | Описание |
 | --- | --- |
-| [MediaType](../../aspose.email.clients.imap/imapattachmentinfo/mediatype) { get; } | Получает MIME-тип вложения. |
+| [MediaType](../../aspose.email.clients.imap/imapattachmentinfo/mediatype) { get; } | Получает вложение MIME-типа. |
 | [Name](../../aspose.email.clients.imap/imapattachmentinfo/name) { get; } | Получает имя вложения. |
 | [Size](../../aspose.email.clients.imap/imapattachmentinfo/size) { get; } | Получает размер вложения. |
 

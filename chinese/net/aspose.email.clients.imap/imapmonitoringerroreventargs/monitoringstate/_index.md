@@ -1,14 +1,14 @@
 ---
 title: MonitoringState
 second_title: Aspose.Email for .NET API 参考
-description: 保持文件夹监视状态此对象可用于从 发生错误时停止的位置恢复文件夹监视 使用ResumeMonitoringaspose.email.clients.imap/imapclient/resumemonitoring方法
+description: 保持文件夹监视状态此对象可用于从 发生错误时停止的位置恢复文件夹监视 使用ResumeMonitoringaspose.email.clients.imap/imapclient/resumemonitoring方法.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate/
 ---
 ## ImapMonitoringErrorEventArgs.MonitoringState property
 
-保持文件夹监视状态。此对象可用于从 发生错误时停止的位置恢复文件夹监视。 使用[`ResumeMonitoring`](../../imapclient/resumemonitoring)方法。
+保持文件夹监视状态。此对象可用于从 发生错误时停止的位置恢复文件夹监视。 使用[`ResumeMonitoring`](../../imapclient/resumemonitoring)方法.
 
 ```csharp
 public IImapMonitoringState MonitoringState { get; }

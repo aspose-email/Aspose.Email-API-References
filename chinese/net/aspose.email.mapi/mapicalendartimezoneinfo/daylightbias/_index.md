@@ -1,14 +1,14 @@
 ---
 title: DaylightBias
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置夏令时从 lBias 的偏移量以分钟为单位
+description: 获取或设置夏令时从 lBias 的分钟偏移量
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapicalendartimezoneinfo/daylightbias/
 ---
 ## MapiCalendarTimeZoneInfo.DaylightBias property
 
-获取或设置夏令时从 lBias 的偏移量（以分钟为单位）。
+获取或设置夏令时从 lBias 的分钟偏移量。
 
 ```csharp
 public int DaylightBias { get; set; }

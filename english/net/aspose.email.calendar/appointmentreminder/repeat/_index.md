@@ -1,7 +1,7 @@
 ---
 title: Repeat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the number of time the alarm should be repeated after the initial trigger.
 type: docs
 weight: 80
 url: /net/aspose.email.calendar/appointmentreminder/repeat/

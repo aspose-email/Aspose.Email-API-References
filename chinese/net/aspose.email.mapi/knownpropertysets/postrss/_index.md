@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/postrss/
 ---
 ## KnownPropertySets.PostRss field
 
-区域名称:RSS 提要 属性集名称:PSETID_PostRss
+区域名称：RSS 提要 属性集名称：PSETID_PostRss
 
 ```csharp
 public static readonly Guid PostRss;

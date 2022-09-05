@@ -1,7 +1,7 @@
 ---
 title: op_BitwiseAnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator amp.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.imap/imapmessageflags/op_bitwiseand/

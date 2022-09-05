@@ -18,7 +18,7 @@ public static AutodiscoverResult Autodiscover(string autodiscoverUri, NetworkCre
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | autodiscoverUri | String | 自动发现服务的 URL |
-| credential | NetworkCredential | 凭据连接到服务器。 |
+| credential | NetworkCredential | 用于连接到服务器的凭据。 |
 | emailAddress | String | 电子邮件地址是自动发现请求的必需子元素 |
 
 ### 返回值

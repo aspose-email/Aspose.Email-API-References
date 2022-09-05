@@ -3,7 +3,7 @@ title: Recurrence
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает шаблон повторения.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.email.calendar/appointment/recurrence/
 ---
 ## Appointment.Recurrence property
@@ -16,7 +16,7 @@ public RecurrencePattern Recurrence { get; set; }
 
 ### Стоимость имущества
 
-Шаблон повторения.
+Схема рецидива.
 
 ### Смотрите также
 

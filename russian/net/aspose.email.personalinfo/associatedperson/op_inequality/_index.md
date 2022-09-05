@@ -17,7 +17,7 @@ public static bool operator !=(AssociatedPerson a, AssociatedPerson b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | AssociatedPerson | Первый объект для сравнения |
-| b | AssociatedPerson | Второй объект для сравнения compare |
+| b | AssociatedPerson | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbCountryName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_COUNTRY_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_COUNTRY_NAME
 type: docs
 weight: 5330
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabcountryname/
 ---
 ## KnownPropertyList.EmsAbCountryName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_COUNTRY_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_COUNTRY_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCountryName;

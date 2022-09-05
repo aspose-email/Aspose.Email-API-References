@@ -1,7 +1,7 @@
 ---
 title: ReminderDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a task reminder date.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/reminderdate/

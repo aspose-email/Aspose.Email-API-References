@@ -1,14 +1,14 @@
 ---
 title: Where
 second_title: Aspose.Email for .NET API 参考
-description: 包含来自关联会议对象的 PidLidLocation 属性第 2.159 节的值 区域会议 规范名称PidLidWhere 别名LID_WHERE
+description: 包含来自关联会议对象的 PidLidLocation 属性第 2.159 节的值 区域Meetings 规范名称PidLidWhere 别名LID_WHERE
 type: docs
 weight: 19360
 url: /zh/net/aspose.email.mapi/knownpropertylist/where/
 ---
 ## KnownPropertyList.Where field
 
-包含来自关联会议对象的 PidLidLocation 属性（第 2.159 节）的值。 区域:会议 规范名称:PidLidWhere 别名:LID_WHERE
+包含来自关联会议对象的 PidLidLocation 属性（第 2.159 节）的值。 区域：Meetings 规范名称：PidLidWhere 别名：LID_WHERE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Where;

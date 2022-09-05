@@ -1,14 +1,14 @@
 ---
 title: ServerId
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет уникальный идентификатор который присваивается сервером каждому синхронизируемому объекту.
+description: Представляет уникальный идентификатор назначаемый сервером каждому объекту который может быть синхронизирован.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/serverid/
 ---
 ## SyncChangeServerOperation.ServerId property
 
-Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту.
+Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован.
 
 ```csharp
 public string ServerId { get; set; }

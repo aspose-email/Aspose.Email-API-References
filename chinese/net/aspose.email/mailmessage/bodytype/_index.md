@@ -1,14 +1,14 @@
 ---
 title: BodyType
 second_title: Aspose.Email for .NET API 参考
-description: 获取正文的类型
+description: 获取 body 的类型
 type: docs
 weight: 80
 url: /zh/net/aspose.email/mailmessage/bodytype/
 ---
 ## MailMessage.BodyType property
 
-获取正文的类型。
+获取 body 的类型。
 
 ```csharp
 public BodyContentType BodyType { get; }

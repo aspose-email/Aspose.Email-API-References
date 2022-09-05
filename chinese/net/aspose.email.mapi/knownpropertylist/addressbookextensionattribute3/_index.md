@@ -1,14 +1,14 @@
 ---
 title: AddressBookExtensionAttribute3
 second_title: Aspose.Email for .NET API 参考
-description: 包含由修改显示模板的组织定义和填充的自定义值 区域地址簿 规范名称PidTagAddressBookExtensionAttribute3 替代名称PR_EMS_AB_EXTENSION_ATTRIBUTE_3 PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
+description: 包含由修改显示模板的组织定义和填充的自定义值 区域地址簿 规范名称PidTagAddressBookExtensionAttribute3 备用名称PR_EMS_AB_EXTENSION_ATTRIBUTE_3PR_EMS_AB_EXTENSION_ATTRIBUTE_3_APR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
 type: docs
 weight: 530
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute3/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute3 field
 
-包含由修改显示模板的组织定义和填充的自定义值。 区域:地址簿 规范名称:PidTagAddressBookExtensionAttribute3 替代名称:PR_EMS_AB_EXTENSION_ATTRIBUTE_3, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
+包含由修改显示模板的组织定义和填充的自定义值。 区域：地址簿 规范名称：PidTagAddressBookExtensionAttribute3 备用名称：PR_EMS_AB_EXTENSION_ATTRIBUTE_3、PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A、PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute3;

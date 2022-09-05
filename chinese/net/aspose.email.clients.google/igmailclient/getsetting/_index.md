@@ -1,14 +1,14 @@
 ---
 title: GetSetting
 second_title: Aspose.Email for .NET API 参考
-description: 通过名称获取设置
+description: 按名称获取设置
 type: docs
 weight: 220
 url: /zh/net/aspose.email.clients.google/igmailclient/getsetting/
 ---
 ## IGmailClient.GetSetting method
 
-通过名称获取设置
+按名称获取设置
 
 ```csharp
 public string GetSetting(string setting)

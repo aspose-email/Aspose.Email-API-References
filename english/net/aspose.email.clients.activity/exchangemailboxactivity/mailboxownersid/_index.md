@@ -1,7 +1,7 @@
 ---
 title: MailboxOwnerSid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The SID of the mailbox owner.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/mailboxownersid/

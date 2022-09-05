@@ -1,14 +1,14 @@
 ---
 title: TaskActualEffort
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户实际用于某项任务的分钟数 区域任务 规范名称PidLidTaskActualEffort 替代名称dispidTaskActualEffort
+description: 表示用户实际花费在某项任务上的分钟数 区域Tasks 规范名称PidLidTaskActualEffort 替代名称dispidTaskActualEffort
 type: docs
 weight: 18550
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskactualeffort/
 ---
 ## KnownPropertyList.TaskActualEffort field
 
-表示用户实际用于某项任务的分钟数。 区域:任务 规范名称:PidLidTaskActualEffort 替代名称:dispidTaskActualEffort
+表示用户实际花费在某项任务上的分钟数。 区域：Tasks 规范名称：PidLidTaskActualEffort 替代名称：dispidTaskActualEffort
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskActualEffort;

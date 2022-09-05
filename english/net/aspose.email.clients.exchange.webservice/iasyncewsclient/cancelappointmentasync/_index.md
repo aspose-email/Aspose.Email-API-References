@@ -1,7 +1,7 @@
 ---
 title: CancelAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Cancels an exiting meeting on an organizers calendar
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/cancelappointmentasync/

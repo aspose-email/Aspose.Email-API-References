@@ -1,14 +1,14 @@
 ---
 title: GovernmentIdNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает идентификационный номер правительства
+description: Получает или задает номер идентификатора правительства
 type: docs
 weight: 180
 url: /ru/net/aspose.email.personalinfo/contact/governmentidnumber/
 ---
 ## Contact.GovernmentIdNumber property
 
-Получает или задает идентификационный номер правительства
+Получает или задает номер идентификатора правительства
 
 ```csharp
 public string GovernmentIdNumber { get; set; }

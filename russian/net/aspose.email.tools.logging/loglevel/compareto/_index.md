@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Сравнивает уровень с другимLogLevelaspose.email.tools.logging/loglevelобъектом.
+description: Сравнивает уровень с другимLogLevelaspose.email.tools.logging/loglevel объект.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.tools.logging/loglevel/compareto/
 ---
 ## LogLevel.CompareTo method
 
-Сравнивает уровень с другим[`LogLevel`](../../loglevel)объектом.
+Сравнивает уровень с другим[`LogLevel`](../../loglevel) объект.
 
 ```csharp
 public int CompareTo(object obj)
@@ -16,11 +16,11 @@ public int CompareTo(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | объект объекта |
+| obj | Object | объект объект |
 
 ### Возвращаемое значение
 
-значение меньше нуля, когда порядковый номер этого регистратораOrdinal меньше, чем порядковый номер другого регистратора, 0, когда они равны, и больше нуля, когда этот порядковый номер больше, чем другой порядковый номер.
+значение меньше нуля, когда этот регистраторOrdinal на меньше порядкового номера другого регистратора, на 0, если они равны, и на больше нуля, если этот порядковый номер больше другого порядкового номера.
 
 ### Смотрите также
 

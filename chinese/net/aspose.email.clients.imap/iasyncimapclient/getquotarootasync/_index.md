@@ -1,14 +1,14 @@
 ---
 title: GetQuotaRootAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱的配额根信息
+description: 获取邮箱 的配额根信息
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/getquotarootasync/
 ---
 ## IAsyncImapClient.GetQuotaRootAsync method
 
-获取邮箱的配额根信息
+获取邮箱 的配额根信息
 
 ```csharp
 public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, IConnection connection = null, 
@@ -19,7 +19,7 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, IConnection c
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
 | mailboxName | IConnection | 邮箱名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

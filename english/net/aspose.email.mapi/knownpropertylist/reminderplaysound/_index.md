@@ -1,7 +1,7 @@
 ---
 title: ReminderPlaySound
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client is to play a sound when the reminder becomes overdue. Area Reminders Canonical name PidLidReminderPlaySound Alternate names dispidReminderPlaySound
 type: docs
 weight: 15700
 url: /net/aspose.email.mapi/knownpropertylist/reminderplaysound/

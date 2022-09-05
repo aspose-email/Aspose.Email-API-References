@@ -20,7 +20,7 @@ public enum ContactSaveFormat
 | --- | --- | --- |
 | VCard | `0` | vCard 格式（默认）。 |
 | WebDav | `1` | WebDav 格式。 |
-| Msg | `2` | 味精格式。 |
+| Msg | `2` | 味精格式. |
 
 ### 也可以看看
 

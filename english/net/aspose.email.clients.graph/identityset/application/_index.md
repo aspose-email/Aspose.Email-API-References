@@ -1,7 +1,7 @@
 ---
 title: Application
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Optional.The application associated with this action.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/identityset/application/

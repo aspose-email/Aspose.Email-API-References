@@ -1,7 +1,7 @@
 ---
 title: AppointmentColor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the color to be used when displaying the Calendar object. Area Calendar Canonical name PidLidAppointmentColor Alternate names dispidApptColor
 type: docs
 weight: 1120
 url: /net/aspose.email.mapi/knownpropertylist/appointmentcolor/

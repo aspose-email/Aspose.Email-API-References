@@ -1,14 +1,14 @@
 ---
 title: InstanceId
 second_title: Aspose.Email for .NET API 参考
-description: 指定要修改的定期会议的实例 协议版本为 12.1 或 14.0 时不支持 InstanceId 如果 InstanceId 元素包含在协议版本为 12.1 或 14.0 的请求中则返回 Status 值 2 InstanceId 包含要修改的约会或会议实例的开始时间 如果 InstanceId 未包含在 MeetingResponse 请求中则将对重复项的每个实例执行操作 InstanceId 可以指定重复约会或会议的异常开始时间 InstanceId 可以与 LongId 一起使用来标识日历项也可以与 CollectionId 和 RequestId 一起使用来标识日历项 InstanceId 值的格式是带有标点分隔符的 dateTime 格式的字符串例如 2010-04-08T181600.000Z 如果指定的 InstanceId 值格式不正确则服务器以 Status 元素值 104 进行响应 如果 InstanceId 值指定非重复会议则服务器响应状态元素值为 146
+description: 指定要修改的定期会议的实例 协议版本为12.1或14.0时不支持InstanceId 如果InstanceId 元素包含在协议版本为12.1 或14.0 的请求中则返回状态值2 InstanceId 包含要修改的约会或会议实例的开始时间 如果 InstanceId 未包含在 MeetingResponse 请求中则将对重复项目的每个实例执行操作 InstanceId 可以指定重复约会或会议异常的开始时间 InstanceId 可以与 LongId 一起使用来标识日历项也可以与 CollectionId 和 RequestId 一起使用来标识日历项 InstanceId 值的格式是带有标点分隔符的 dateTime 格式的字符串例如例如2010-04-08T181600.000Z 如果指定的 InstanceId 值的格式不正确则服务器以状态元素值 104 进行响应 如果 InstanceId 值指定非定期会议则服务器以状态元素值 146 进行响应
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/instanceid/
 ---
 ## MeetingResponseRequest.InstanceId property
 
-指定要修改的定期会议的实例。 协议版本为 12.1 或 14.0 时不支持 InstanceId。 如果 InstanceId 元素包含在协议版本为 12.1 或 14.0 的请求中，则返回 Status 值 2。 InstanceId 包含要修改的约会或会议实例的开始时间。 如果 InstanceId 未包含在 MeetingResponse 请求中，则将对重复项的每个实例执行操作。 InstanceId 可以指定重复约会或会议的异常开始时间。 InstanceId 可以与 LongId 一起使用来标识日历项，也可以与 CollectionId 和 RequestId 一起使用来标识日历项。 InstanceId 值的格式是带有标点分隔符的 dateTime 格式的字符串，例如 2010-04-08T18:16:00.000Z。 如果指定的 InstanceId 值格式不正确，则服务器以 Status 元素值 104 进行响应。 如果 InstanceId 值指定非重复会议，则服务器响应状态元素值为 146。
+指定要修改的定期会议的实例。 协议版本为12.1或14.0时不支持InstanceId。 如果InstanceId 元素包含在协议版本为12.1 或14.0 的请求中，则返回状态值2。 InstanceId 包含要修改的约会或会议实例的开始时间。 如果 InstanceId 未包含在 MeetingResponse 请求中，则将对重复项目的每个实例执行操作。 InstanceId 可以指定重复约会或会议异常的开始时间。 InstanceId 可以与 LongId 一起使用来标识日历项，也可以与 CollectionId 和 RequestId 一起使用来标识日历项。 InstanceId 值的格式是带有标点分隔符的 dateTime 格式的字符串，例如例如，2010-04-08T18:16:00.000Z。 如果指定的 InstanceId 值的格式不正确，则服务器以状态元素值 104 进行响应。 如果 InstanceId 值指定非定期会议，则服务器以状态元素值 146 进行响应。
 
 ```csharp
 public string InstanceId { get; set; }

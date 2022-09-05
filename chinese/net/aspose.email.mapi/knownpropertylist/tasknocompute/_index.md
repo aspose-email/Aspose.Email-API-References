@@ -1,14 +1,14 @@
 ---
 title: TaskNoCompute
 second_title: Aspose.Email for .NET API 参考
-description: 未使用客户端可以设置该属性但对任务相关对象协议没有影响被服务器忽略 区域任务 规范名称PidLidTaskNoCompute 替代名称dispidTaskNoCompute
+description: 未使用客户端可以设置该属性但对任务相关对象协议没有影响被服务器忽略 区域Tasks 规范名称PidLidTaskNoCompute 替代名称dispidTaskNoCompute
 type: docs
 weight: 18740
 url: /zh/net/aspose.email.mapi/knownpropertylist/tasknocompute/
 ---
 ## KnownPropertyList.TaskNoCompute field
 
-未使用。客户端可以设置该属性，但对任务相关对象协议没有影响，被服务器忽略。 区域:任务 规范名称:PidLidTaskNoCompute 替代名称:dispidTaskNoCompute
+未使用。客户端可以设置该属性，但对任务相关对象协议没有影响，被服务器忽略。 区域：Tasks 规范名称：PidLidTaskNoCompute 替代名称：dispidTaskNoCompute
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskNoCompute;

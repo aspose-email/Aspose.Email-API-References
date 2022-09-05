@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the appointment location.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/exchangecalendarevent/location/

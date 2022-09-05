@@ -1,14 +1,14 @@
 ---
 title: AppointmentAuxiliaryFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指定描述对象辅助状态的位域 区域会议 规范名称PidLidAppointmentAuxiliaryFlags 替代名称dispidApptAuxFlags
+description: 指定描述对象辅助状态的位字段 区域Meetings 规范名称PidLidAppointmentAuxiliaryFlags 替代名称dispidApptAuxFlags
 type: docs
 weight: 1110
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentauxiliaryflags/
 ---
 ## KnownPropertyList.AppointmentAuxiliaryFlags field
 
-指定描述对象辅助状态的位域。 区域:会议 规范名称:PidLidAppointmentAuxiliaryFlags 替代名称:dispidApptAuxFlags
+指定描述对象辅助状态的位字段。 区域：Meetings 规范名称：PidLidAppointmentAuxiliaryFlags 替代名称：dispidApptAuxFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentAuxiliaryFlags;

@@ -1,14 +1,14 @@
 ---
 title: MailMessageCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектовMailMessage./mailmessage .
+description: Представляет наборПочтаСообщение./mailmessage объекты.
 type: docs
 weight: 17720
 url: /ru/net/aspose.email/mailmessagecollection/
 ---
 ## MailMessageCollection class
 
-Представляет набор объектов[`MailMessage`](../mailmessage) .
+Представляет набор[`ПочтаСообщение`](../mailmessage) объекты.
 
 ```csharp
 public class MailMessageCollection : Collection<MailMessage>
@@ -22,7 +22,7 @@ public class MailMessageCollection : Collection<MailMessage>
 
 ### Примечания
 
-Предоставляет простой объект коллекции, который может представлять набор[`MailMessage`](../mailmessage) объектов. Класс[`MailMessageCollection`](../mailmessagecollection) предоставляет простой объект коллекции, который можно использовать для хранения набора[`MailMessage`](../mailmessage) объектов.
+Предоставляет простой объект коллекции, который может представлять набор[`ПочтаСообщение`](../mailmessage) объекты. [`MailMessageCollection`](../mailmessagecollection) класс предоставляет простой объект коллекции, который можно использовать для хранения набора[`ПочтаСообщение`](../mailmessage) объекты.
 
 ### Смотрите также
 

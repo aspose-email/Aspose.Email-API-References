@@ -1,7 +1,7 @@
 ---
 title: ReminderSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value for the PidLidReminderSet property.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/reminderset/

@@ -1,14 +1,14 @@
 ---
 title: TaskMultipleRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет подсказки по оптимизации о получателях объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskMultipleRecipients Альтернативные именаdispidTaskMultRecips
+description: Предоставляет подсказки по оптимизации для получателей объекта Task. Область Tasks Каноническое имя PidLidTaskMultipleRecipients Альтернативные имена dispidTaskMultRecips
 type: docs
 weight: 18730
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskmultiplerecipients/
 ---
 ## KnownPropertyList.TaskMultipleRecipients field
 
-Предоставляет подсказки по оптимизации о получателях объекта Task. Область:Задачи Каноническое имя:PidLidTaskMultipleRecipients Альтернативные имена:dispidTaskMultRecips
+Предоставляет подсказки по оптимизации для получателей объекта Task. Область: Tasks Каноническое имя: PidLidTaskMultipleRecipients Альтернативные имена: dispidTaskMultRecips
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskMultipleRecipients;

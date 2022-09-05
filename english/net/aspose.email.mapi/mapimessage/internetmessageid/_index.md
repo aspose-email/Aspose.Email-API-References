@@ -1,7 +1,7 @@
 ---
 title: InternetMessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message id of the message.
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapimessage/internetmessageid/

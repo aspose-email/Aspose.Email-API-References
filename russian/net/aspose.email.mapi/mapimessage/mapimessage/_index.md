@@ -1,14 +1,14 @@
 ---
 title: MapiMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiMessageaspose.email.mapi/mapimessage.
+description: Инициализирует новый экземплярMapiMessageaspose.email.mapi/mapimessage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapimessage/mapimessage/
 ---
 ## MapiMessage() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiMessage`](../../mapimessage).
+Инициализирует новый экземпляр[`MapiMessage`](../../mapimessage) класс.
 
 ```csharp
 public MapiMessage()
@@ -24,7 +24,7 @@ public MapiMessage()
 
 ## MapiMessage(OutlookMessageFormat) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiMessage`](../../mapimessage).
+Инициализирует новый экземпляр[`MapiMessage`](../../mapimessage) класс.
 
 ```csharp
 public MapiMessage(OutlookMessageFormat format)
@@ -45,7 +45,7 @@ public MapiMessage(OutlookMessageFormat format)
 
 ## MapiMessage(string, string, string, string, OutlookMessageFormat) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MapiMessage`](../../mapimessage).
+Инициализирует новый экземпляр[`MapiMessage`](../../mapimessage) класс.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body, OutlookMessageFormat format)
@@ -65,7 +65,7 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 | --- | --- |
 | ArgumentNullException | Генерируется, если адрес получателя нулевой или пустой. |
 | ArgumentException | Генерируется, если адрес отправителя или получателя не находится в распознаваемом формате. |
-| InvalidEnumArgumentException | Выдается, если параметр*format*не является допустимым членом перечисления. |
+| InvalidEnumArgumentException | бросают, если*format*параметр не является допустимым членом перечисления. |
 
 ### Смотрите также
 
@@ -78,7 +78,7 @@ public MapiMessage(string from, string to, string subject, string body, OutlookM
 
 ## MapiMessage(string, string, string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiMessage`](../../mapimessage).
+Инициализирует новый экземпляр[`MapiMessage`](../../mapimessage) класс.
 
 ```csharp
 public MapiMessage(string from, string to, string subject, string body)
@@ -95,8 +95,8 @@ public MapiMessage(string from, string to, string subject, string body)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает исключение, если адрес получателя нулевой или пустой. |
-| ArgumentException | выдает исключение, если адрес отправителя или получателя не находится в распознаваемом формате. |
+| ArgumentNullException | бросает, если адрес получателя нулевой или пустой. |
+| ArgumentException | бросает, если адрес отправителя или получателя не находится в распознанном формате. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DisableWinsock
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_DISABLE_WINSOCK
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_DISABLE_WINSOCK
 type: docs
 weight: 4060
 url: /zh/net/aspose.email.mapi/knownpropertylist/disablewinsock/
 ---
 ## KnownPropertyList.DisableWinsock field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_DISABLE_WINSOCK
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_DISABLE_WINSOCK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisableWinsock;

@@ -1,7 +1,7 @@
 ---
 title: On
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The on attribute is used to install event handlers on elements.
 type: docs
 weight: 90
 url: /net/aspose.email.amp/ampattributes/on/

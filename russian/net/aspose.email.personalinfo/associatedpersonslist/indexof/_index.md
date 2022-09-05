@@ -16,11 +16,11 @@ public int IndexOf(AssociatedPerson value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | AssociatedPerson | ОбъектObjectдля поиска в списке. |
+| value | AssociatedPerson | Object найти в списке. |
 
 ### Возвращаемое значение
 
-Индекс*value*, если он найден в списке; иначе -1.
+Индекс*value* если найдено в списке; иначе -1.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TaskAccepted
 second_title: Aspose.Email for .NET API 参考
-description: 指示任务受让人是否已回复此任务对象的任务请求 区域任务 规范名称PidLidTaskAccepted 替代名称dispidTaskAccepted
+description: 指示任务受让人是否已回复此任务对象的任务请求 区域Tasks 规范名称PidLidTaskAccepted 替代名称dispidTaskAccepted
 type: docs
 weight: 18540
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskaccepted/
 ---
 ## KnownPropertyList.TaskAccepted field
 
-指示任务受让人是否已回复此任务对象的任务请求。 区域:任务 规范名称:PidLidTaskAccepted 替代名称:dispidTaskAccepted
+指示任务受让人是否已回复此任务对象的任务请求。 区域：Tasks 规范名称：PidLidTaskAccepted 替代名称：dispidTaskAccepted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAccepted;

@@ -1,7 +1,7 @@
 ---
 title: NotesFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the permissions which the delegate user has on the default Notes folder
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/notesfolderpermissionlevel/

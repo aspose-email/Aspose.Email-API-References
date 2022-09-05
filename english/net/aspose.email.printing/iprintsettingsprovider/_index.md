@@ -1,9 +1,9 @@
 ---
 title: IPrintSettingsProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a source of printer settings which can be used for MailPrinter./mailprinter initialization.
 type: docs
-weight: 19640
+weight: 19870
 url: /net/aspose.email.printing/iprintsettingsprovider/
 ---
 ## IPrintSettingsProvider interface

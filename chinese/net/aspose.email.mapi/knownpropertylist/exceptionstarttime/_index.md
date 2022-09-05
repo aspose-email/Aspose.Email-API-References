@@ -1,14 +1,14 @@
 ---
 title: ExceptionStartTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含创建异常时计算机本地时区中异常的开始日期和时间 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionStartTime 替代名称PR_EXCEPTION_STARTTIME ptagExceptionStartTime
+description: 包含创建异常时计算机本地时区中异常的开始日期和时间 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionStartTime 替代名称PR_EXCEPTION_STARTTIMEptagExceptionStartTime
 type: docs
 weight: 9800
 url: /zh/net/aspose.email.mapi/knownpropertylist/exceptionstarttime/
 ---
 ## KnownPropertyList.ExceptionStartTime field
 
-包含创建异常时计算机本地时区中异常的开始日期和时间。 区域:MessageClassDefinedNonTransmittable 规范名称:PidTagExceptionStartTime 替代名称:PR_EXCEPTION_STARTTIME, ptagExceptionStartTime
+包含创建异常时计算机本地时区中异常的开始日期和时间。 区域：MessageClassDefinedNonTransmittable 规范名称：PidTagExceptionStartTime 替代名称：PR_EXCEPTION_STARTTIME、ptagExceptionStartTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExceptionStartTime;

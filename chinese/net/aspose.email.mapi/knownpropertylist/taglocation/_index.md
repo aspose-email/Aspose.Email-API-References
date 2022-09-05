@@ -1,14 +1,14 @@
 ---
 title: TagLocation
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的位置 区域地址属性 规范名称PidTagLocation 替代名称PR_LOCATION PR_LOCATION_A PR_LOCATION_W
+description: 包含邮件用户的位置 区域地址属性 规范名称PidTagLocation 替代名称PR_LOCATIONPR_LOCATION_APR_LOCATION_W
 type: docs
 weight: 18490
 url: /zh/net/aspose.email.mapi/knownpropertylist/taglocation/
 ---
 ## KnownPropertyList.TagLocation field
 
-包含邮件用户的位置。 区域:地址属性 规范名称:PidTagLocation 替代名称:PR_LOCATION, PR_LOCATION_A, PR_LOCATION_W,
+包含邮件用户的位置。 区域：地址属性 规范名称：PidTagLocation 替代名称：PR_LOCATION、PR_LOCATION_A、PR_LOCATION_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagLocation;

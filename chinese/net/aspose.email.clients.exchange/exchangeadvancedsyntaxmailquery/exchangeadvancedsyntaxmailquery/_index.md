@@ -1,14 +1,14 @@
 ---
 title: ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ExchangeAdvancedSyntaxMailQueryaspose.email.clients.exchange/exchangeadvancedsyntaxmailquery类的新实例
+description: 初始化ExchangeAdvancedSyntaxMailQueryaspose.email.clients.exchange/exchangeadvancedsyntaxmailquery类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery constructor
 
-初始化[`ExchangeAdvancedSyntaxMailQuery`](../../exchangeadvancedsyntaxmailquery)类的新实例。
+初始化[`ExchangeAdvancedSyntaxMailQuery`](../../exchangeadvancedsyntaxmailquery)类.
 
 ```csharp
 public ExchangeAdvancedSyntaxMailQuery(string advancedSyntaxQueryString)

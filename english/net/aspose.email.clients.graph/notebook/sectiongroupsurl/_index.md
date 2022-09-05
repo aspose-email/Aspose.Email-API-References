@@ -1,7 +1,7 @@
 ---
 title: SectionGroupsUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The URL for the sectionGroups navigation property which returns all the section groups in the notebook. Readonly.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.graph/notebook/sectiongroupsurl/

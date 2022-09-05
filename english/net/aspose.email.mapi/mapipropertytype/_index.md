@@ -1,9 +1,9 @@
 ---
 title: MapiPropertyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the data type of MapiProperty data.
 type: docs
-weight: 18410
+weight: 18620
 url: /net/aspose.email.mapi/mapipropertytype/
 ---
 ## MapiPropertyType enumeration

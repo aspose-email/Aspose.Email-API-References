@@ -1,14 +1,14 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API 参考
-description: 表示该字段不能等于指定值
+description: 表示该字段不能等于指定的值
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.search/binarycomparisonfield/notequals/
 ---
 ## NotEquals(byte[]) {#notequals}
 
-表示该字段不能等于指定值。
+表示该字段不能等于指定的值。
 
 ```csharp
 public MailQuery NotEquals(byte[] value)
@@ -16,7 +16,7 @@ public MailQuery NotEquals(byte[] value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Byte[] | 值。 |
+| value | Byte[] | 价值。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public MailQuery NotEquals(byte[] value)
 
 ## NotEquals(string) {#notequals_1}
 
-表示该字段不能等于指定值。
+表示该字段不能等于指定的值。
 
 ```csharp
 public MailQuery NotEquals(string value)
@@ -41,7 +41,7 @@ public MailQuery NotEquals(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 基数 64 字符串值。 |
+| value | String | 基数为 64 的字符串值。 |
 
 ### 返回值
 

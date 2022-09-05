@@ -1,14 +1,14 @@
 ---
 title: PreserveOriginalDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет нужно ли сохранять исходную дату в почтовом сообщении при сохранении или нет. Значение по умолчанию  true.
+description: Определяет нужно ли сохранять исходную дату в почтовом сообщении при сохранении. Значение по умолчанию  true.
 type: docs
 weight: 50
 url: /ru/net/aspose.email/mhtsaveoptions/preserveoriginaldate/
 ---
 ## MhtSaveOptions.PreserveOriginalDate property
 
-Определяет, нужно ли сохранять исходную дату в почтовом сообщении при сохранении или нет. Значение по умолчанию — true.
+Определяет, нужно ли сохранять исходную дату в почтовом сообщении при сохранении. Значение по умолчанию — true.
 
 ```csharp
 public bool PreserveOriginalDate { get; set; }

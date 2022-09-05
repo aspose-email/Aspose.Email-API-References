@@ -19,7 +19,7 @@ public class TraversalAsposeException : AsposeException
 | Имя | Описание |
 | --- | --- |
 | [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Получает дополнительную информацию об ошибке |
-| [Kind](../../aspose.email.exceptions/traversalasposeexception/kind) { get; set; } | Получает или задает тип ошибки. |
+| [Kind](../../aspose.email.exceptions/traversalasposeexception/kind) { get; set; } | Получает или задает вид ошибки. |
 | override [Message](../../aspose.email/asposeexception/message) { get; } | Получает сообщение, описывающее текущее исключение. |
 
 ## Методы

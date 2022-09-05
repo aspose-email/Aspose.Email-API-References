@@ -1,7 +1,7 @@
 ---
 title: GetAccessTokenAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets oAuth access token.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/iasynctokenprovider/getaccesstokenasync/

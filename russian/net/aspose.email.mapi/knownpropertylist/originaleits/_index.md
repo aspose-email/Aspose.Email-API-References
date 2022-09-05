@@ -1,14 +1,14 @@
 ---
 title: OriginalEits
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINAL_EITS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINAL_EITS
 type: docs
 weight: 13570
 url: /ru/net/aspose.email.mapi/knownpropertylist/originaleits/
 ---
 ## KnownPropertyList.OriginalEits field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINAL_EITS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINAL_EITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalEits;

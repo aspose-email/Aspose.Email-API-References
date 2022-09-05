@@ -20,7 +20,7 @@ public sealed class BuildVersionInfo
 | --- | --- |
 | static readonly [AssemblyVersion](../../aspose.email/buildversioninfo/assemblyversion) | Получает номер версии сборки. |
 | static readonly [FileVersion](../../aspose.email/buildversioninfo/fileversion) | Получает номер версии файла. |
-| static readonly [Product](../../aspose.email/buildversioninfo/product) | Получает имя продукта. |
+| static readonly [Product](../../aspose.email/buildversioninfo/product) | Получает название продукта. |
 | static readonly [ProductMajor](../../aspose.email/buildversioninfo/productmajor) | Получает основную версию продукта. |
 | static readonly [ProductMinor](../../aspose.email/buildversioninfo/productminor) | Получает дополнительную версию продукта. |
 | static readonly [ReleaseDate](../../aspose.email/buildversioninfo/releasedate) | Получает дату выпуска. |

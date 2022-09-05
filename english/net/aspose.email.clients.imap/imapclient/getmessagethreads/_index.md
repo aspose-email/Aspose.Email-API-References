@@ -1,12 +1,12 @@
 ---
 title: GetMessageThreads
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get message threads.
 type: docs
 weight: 710
 url: /net/aspose.email.clients.imap/imapclient/getmessagethreads/
 ---
-## ImapClient.GetMessageThreads method (1 of 2)
+## GetMessageThreads(BaseSearchConditions) {#getmessagethreads_1}
 
 Get message threads.
 
@@ -32,7 +32,7 @@ Message threads
 
 ---
 
-## ImapClient.GetMessageThreads method (2 of 2)
+## GetMessageThreads(IConnection, BaseSearchConditions) {#getmessagethreads}
 
 Get message threads.
 

@@ -1,12 +1,12 @@
 ---
 title: CreatePublicFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified public folder in the root public folder
 type: docs
 weight: 540
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder/
 ---
-## IEWSClient.CreatePublicFolder method (1 of 3)
+## CreatePublicFolder(string, ExchangeFolderPermissionCollection) {#createpublicfolder}
 
 Creates the specified public folder in the root public folder
 
@@ -34,7 +34,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreatePublicFolder method (2 of 3)
+## CreatePublicFolder(string, string, ExchangeFolderPermissionCollection) {#createpublicfolder_2}
 
 Creates the specified public folder in the root public folder
 
@@ -63,7 +63,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreatePublicFolder method (3 of 3)
+## CreatePublicFolder(string, ExchangeFolderPermissionCollection, ExchangeFolderType) {#createpublicfolder_1}
 
 Creates the specified public folder in the root public folder
 

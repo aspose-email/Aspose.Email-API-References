@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API 参考
-description: 电子邮件的主题 强制否
+description: 电子邮件的主题 必填否
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/subject/
 ---
 ## ExchangeMetadata.Subject property
 
-电子邮件的主题。 强制:否
+电子邮件的主题。 必填：否
 
 ```csharp
 public string Subject { get; set; }

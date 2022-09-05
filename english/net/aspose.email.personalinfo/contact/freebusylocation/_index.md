@@ -1,7 +1,7 @@
 ---
 title: FreeBusyLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets URL path from which a client can retrieve free/busy information for the contact as an iCal file
 type: docs
 weight: 150
 url: /net/aspose.email.personalinfo/contact/freebusylocation/

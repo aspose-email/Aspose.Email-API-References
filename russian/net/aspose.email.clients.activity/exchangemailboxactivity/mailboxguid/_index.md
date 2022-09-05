@@ -1,14 +1,14 @@
 ---
 title: MailboxGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID Exchange почтового ящика к которому был осуществлен доступ.
+description: GUID почтового ящика Exchange к которому был осуществлен доступ.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.activity/exchangemailboxactivity/mailboxguid/
 ---
 ## ExchangeMailboxActivity.MailboxGuid property
 
-GUID Exchange почтового ящика, к которому был осуществлен доступ.
+GUID почтового ящика Exchange, к которому был осуществлен доступ.
 
 ```csharp
 public Guid MailboxGuid { get; set; }

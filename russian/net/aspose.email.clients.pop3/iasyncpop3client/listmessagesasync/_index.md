@@ -18,10 +18,10 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Pop3ListFields | Соединение с сервером |
+| connection | Pop3ListFields | Подключение к серверу |
 | fields | Boolean | Поля, которые мы хотим получить |
-| closeTransaction | MailQuery | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
-| query | IConnection | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | MailQuery | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | IConnection | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

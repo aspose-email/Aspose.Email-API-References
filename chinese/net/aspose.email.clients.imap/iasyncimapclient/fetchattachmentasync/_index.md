@@ -24,7 +24,7 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 ### 返回值
 
-[`Attachment`](../../../aspose.email/attachment)表示附件。
+[`Attachment`](../../../aspose.email/attachment)代表附件。
 
 ### 也可以看看
 

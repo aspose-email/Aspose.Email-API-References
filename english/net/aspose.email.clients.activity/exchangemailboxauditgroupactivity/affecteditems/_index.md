@@ -1,7 +1,7 @@
 ---
 title: AffectedItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Information about each item in the group.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/affecteditems/

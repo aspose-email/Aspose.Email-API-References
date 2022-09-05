@@ -1,7 +1,7 @@
 ---
 title: BodyHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the BodyRtfaspose.email.mapi/mapimessageitembase/bodyrtf of the message converted to HTML if present otherwise an empty string.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessageitembase/bodyhtml/

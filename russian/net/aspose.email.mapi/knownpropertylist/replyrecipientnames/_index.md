@@ -1,14 +1,14 @@
 ---
 title: ReplyRecipientNames
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список отображаемых имен для получателей которые должны получить ответ. ОбластьMapiEnvelope Каноническое имяPidTagReplyRecipientNames Альтернативные именаPR_REPLY_RECIPIENT_NAMES PR_REPLY_RECIPIENT_NAMES_A ptagReplyRecipientNames PR_REPLY_RECIPIENT_NAMES_W
+description: Содержит список отображаемых имен получателей которые должны получить ответ. Область MapiEnvelope Каноническое имя PidTagReplyRecipientNames Альтернативные имена PR_REPLY_RECIPIENT_NAMES PR_REPLY_RECIPIENT_NAMES_A ptagReplyRecipientNames PR_REPLY_0SWENT_0NAME_0RECIENT
 type: docs
 weight: 15930
 url: /ru/net/aspose.email.mapi/knownpropertylist/replyrecipientnames/
 ---
 ## KnownPropertyList.ReplyRecipientNames field
 
-Содержит список отображаемых имен для получателей, которые должны получить ответ. Область:MapiEnvelope Каноническое имя:PidTagReplyRecipientNames Альтернативные имена:PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, ptagReplyRecipientNames, PR_REPLY_RECIPIENT_NAMES_W
+Содержит список отображаемых имен получателей, которые должны получить ответ. Область: MapiEnvelope Каноническое имя: PidTagReplyRecipientNames Альтернативные имена: PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, ptagReplyRecipientNames, PR_REPLY_0SWENT_0NAME_0RECIENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRecipientNames;

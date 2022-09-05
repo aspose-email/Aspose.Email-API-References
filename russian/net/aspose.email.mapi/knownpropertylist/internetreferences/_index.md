@@ -1,14 +1,14 @@
 ---
 title: InternetReferences
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список идентификаторов сообщений указывающих сообщения к которым относится этот ответ. ОбластьСвойства MIME Каноническое имяPidTagInternetReferences Альтернативные именаPR_INTERNET_REFERENCES PR_INTERNET_REFERENCES_A PR_INTERNET_REFERENCES_W
+description: Содержит список идентификаторов сообщений указывающих сообщения к которым относится этот ответ. Область свойства MIME Каноническое имя PidTagInternetReferences Альтернативные имена PR_INTERNET_REFERENCES PR_INTERNET_REFERENCES_A PR_INTERNET_REFERENCES_W
 type: docs
 weight: 11580
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetreferences/
 ---
 ## KnownPropertyList.InternetReferences field
 
-Содержит список идентификаторов сообщений, указывающих сообщения, к которым относится этот ответ. Область:Свойства MIME Каноническое имя:PidTagInternetReferences Альтернативные имена:PR_INTERNET_REFERENCES, PR_INTERNET_REFERENCES_A, PR_INTERNET_REFERENCES_W
+Содержит список идентификаторов сообщений, указывающих сообщения, к которым относится этот ответ. Область: свойства MIME Каноническое имя: PidTagInternetReferences Альтернативные имена: PR_INTERNET_REFERENCES, PR_INTERNET_REFERENCES_A, PR_INTERNET_REFERENCES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetReferences;

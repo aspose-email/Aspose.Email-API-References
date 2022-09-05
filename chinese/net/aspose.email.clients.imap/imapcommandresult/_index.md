@@ -22,7 +22,7 @@ public enum ImapCommandResult
 | Success | `1` | 表示命令成功完成。 |
 | Failure | `2` | 表示命令失败。 |
 | Error | `3` | 表示协议错误或命令语法错误。 |
-| ContinuationRequest | `4` | 表示需要命令的下一部分。 |
+| ContinuationRequest | `4` | 表示命令的下一部分是预期的。 |
 
 ### 也可以看看
 

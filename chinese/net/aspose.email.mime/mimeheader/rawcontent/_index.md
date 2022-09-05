@@ -16,7 +16,7 @@ public string RawContent { get; }
 
 ### 适当的价值
 
-原始内容。
+原始的内容。
 
 ### 也可以看看
 

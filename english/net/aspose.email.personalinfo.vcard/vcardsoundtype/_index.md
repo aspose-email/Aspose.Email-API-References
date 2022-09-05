@@ -1,9 +1,9 @@
 ---
 title: VCardSoundType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates a cVard sound types
 type: docs
-weight: 19540
+weight: 19770
 url: /net/aspose.email.personalinfo.vcard/vcardsoundtype/
 ---
 ## VCardSoundType enumeration

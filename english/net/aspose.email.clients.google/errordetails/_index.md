@@ -1,7 +1,7 @@
 ---
 title: ErrorDetails
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Error informnation
 type: docs
 weight: 15690
 url: /net/aspose.email.clients.google/errordetails/
@@ -18,8 +18,8 @@ public class ErrorDetails
 
 | Name | Description |
 | --- | --- |
-| [ErrorDetails](errordetails)() | Initializes a new instance of the ErrorDetails class. |
-| [ErrorDetails](errordetails)(string, string) | Initializes a new instance of the ErrorDetails class. |
+| [ErrorDetails](errordetails#constructor)() | Initializes a new instance of the ErrorDetails class. |
+| [ErrorDetails](errordetails#constructor_1)(string, string) | Initializes a new instance of the ErrorDetails class. |
 
 ## Properties
 

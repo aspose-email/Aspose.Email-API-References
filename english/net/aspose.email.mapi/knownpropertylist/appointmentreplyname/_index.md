@@ -1,7 +1,7 @@
 ---
 title: AppointmentReplyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the user who last replied to the meeting request or meeting update. Area Meetings Canonical name PidLidAppointmentReplyName Alternate names dispidApptReplyName http//schemas.microsoft.com/mapi/apptreplyname
 type: docs
 weight: 1260
 url: /net/aspose.email.mapi/knownpropertylist/appointmentreplyname/

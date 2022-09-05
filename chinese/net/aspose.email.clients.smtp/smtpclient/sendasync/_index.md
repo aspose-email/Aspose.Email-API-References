@@ -16,14 +16,14 @@ public Task SendAsync(string from, string recipients, string subject, string bod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | String | 包含消息发送者地址的字符串。 |
+| from | String | 一个包含消息发送者地址的字符串。 |
 | recipients | String | 包含收件人地址的字符串。 |
 | subject | String | 消息的主题。 |
 | body | String | 消息体。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public Task SendAsync(MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 代表电子邮件消息的 MailMessage。 |
+| message | MailMessage | 表示电子邮件消息的 MailMessage。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -68,11 +68,11 @@ public Task SendAsync(params MailMessage[] messages)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | MailMessage[] | MailMessage 数组，表示要发送的电子邮件消息。 |
+| messages | MailMessage[] | 表示要发送的电子邮件消息的 MailMessage 数组。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -97,7 +97,7 @@ public Task SendAsync(MailMessageCollection messages)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -110,7 +110,7 @@ public Task SendAsync(MailMessageCollection messages)
 
 ## SendAsync(IEnumerable&lt;MailMessage&gt;) {#sendasync_16}
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public Task SendAsync(IEnumerable<MailMessage> messages)
@@ -122,7 +122,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -145,14 +145,14 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| from | String | 一个字符串包含消息发送者的地址。 |
+| from | String | 一个包含消息发送者地址的字符串。 |
 | recipients | String | 包含收件人地址的字符串。 |
 | subject | String | 消息的主题。 |
 | body | String | 消息体。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -174,11 +174,11 @@ public Task SendAsync(IConnection connection, MailMessage message)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| message | MailMessage | MailMessage表示电子邮件消息。 |
+| message | MailMessage | 表示电子邮件消息的 MailMessage。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -201,11 +201,11 @@ public Task SendAsync(IConnection connection, params MailMessage[] messages)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | MailMessage[] | 的数组MailMessage 表示要发送的电子邮件消息。 |
+| messages | MailMessage[] | 表示要发送的电子邮件消息的 MailMessage 数组。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -228,11 +228,11 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | MailMessageCollection | 的集合消息。 |
+| messages | MailMessageCollection | 消息的集合。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -246,7 +246,7 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages)
 
 ## SendAsync(IConnection, IEnumerable&lt;MailMessage&gt;) {#sendasync_5}
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages)
@@ -255,11 +255,11 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | IEnumerable`1 | IEnumerator支持消息迭代。 |
+| messages | IEnumerable`1 | 支持消息迭代的 IEnumerator。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -282,7 +282,7 @@ public Task SendAsync(string from, string recipients, string subject, string bod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | String | 包含消息发送者地址的字符串。 |
+| from | String | 一个包含消息发送者地址的字符串。 |
 | recipients | String | 包含收件人地址的字符串。 |
 | subject | String | 消息的主题。 |
 | body | String | 消息体。 |
@@ -290,7 +290,7 @@ public Task SendAsync(string from, string recipients, string subject, string bod
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -310,12 +310,12 @@ public Task SendAsync(MailMessage message, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 代表电子邮件消息的 MailMessage。 |
+| message | MailMessage | 表示电子邮件消息的 MailMessage。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -337,11 +337,11 @@ public Task SendAsync(CancellationToken token, params MailMessage[] messages)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | token | CancellationToken | 传播应取消操作的通知。 |
-| messages | MailMessage[] | MailMessage 数组，表示要发送的电子邮件消息。 |
+| messages | MailMessage[] | 表示要发送的电子邮件消息的 MailMessage 数组。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -367,7 +367,7 @@ public Task SendAsync(MailMessageCollection messages, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -380,7 +380,7 @@ public Task SendAsync(MailMessageCollection messages, CancellationToken token)
 
 ## SendAsync(IEnumerable&lt;MailMessage&gt;, CancellationToken) {#sendasync_17}
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public Task SendAsync(IEnumerable<MailMessage> messages, CancellationToken token)
@@ -393,7 +393,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages, CancellationToken token
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -416,7 +416,7 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| from | String | 一个字符串包含消息发送者的地址。 |
+| from | String | 一个包含消息发送者地址的字符串。 |
 | recipients | String | 包含收件人地址的字符串。 |
 | subject | String | 消息的主题。 |
 | body | String | 消息体。 |
@@ -424,7 +424,7 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -446,12 +446,12 @@ public Task SendAsync(IConnection connection, MailMessage message, CancellationT
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| message | MailMessage | MailMessage表示电子邮件消息。 |
+| message | MailMessage | 表示电子邮件消息的 MailMessage。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -475,12 +475,12 @@ public Task SendAsync(IConnection connection, CancellationToken token,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
-| messages | MailMessage[] | MailMessage 数组，表示要发送的电子邮件消息。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+| messages | MailMessage[] | 表示要发送的电子邮件消息的 MailMessage 数组。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -504,12 +504,12 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | MailMessageCollection | 的集合消息。 |
+| messages | MailMessageCollection | 消息的集合。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -523,7 +523,7 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages,
 
 ## SendAsync(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) {#sendasync_6}
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages, 
@@ -533,12 +533,12 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | IEnumerable`1 | IEnumerator支持消息迭代。 |
+| messages | IEnumerable`1 | 支持消息迭代的 IEnumerator。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbNntpNewsfeedsO
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_NNTP_NEWSFEEDS_O
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_NNTP_NEWSFEEDS_O
 type: docs
 weight: 7700
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabnntpnewsfeedso/
 ---
 ## KnownPropertyList.EmsAbNntpNewsfeedsO field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_NNTP_NEWSFEEDS_O
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_NNTP_NEWSFEEDS_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbNntpNewsfeedsO;

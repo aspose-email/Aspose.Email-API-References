@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The width of the thumbnail in pixels.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.graph/thumbnail/width/

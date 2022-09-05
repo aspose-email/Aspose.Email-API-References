@@ -1,14 +1,14 @@
 ---
 title: ReadLinesTimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет исключение которое возникает когда ответ от сервера не может быть прочитан в течение заданного времени.
+description: Представляет исключение которое возникает когда ответ сервера не может быть прочитан в течение указанного времени.
 type: docs
 weight: 16660
 url: /ru/net/aspose.email.clients.imap/readlinestimeoutexception/
 ---
 ## ReadLinesTimeoutException class
 
-Представляет исключение, которое возникает, когда ответ от сервера не может быть прочитан в течение заданного времени.
+Представляет исключение, которое возникает, когда ответ сервера не может быть прочитан в течение указанного времени.
 
 ```csharp
 public class ReadLinesTimeoutException : AsposeException
@@ -18,9 +18,9 @@ public class ReadLinesTimeoutException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor)() | Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../readlinestimeoutexception). |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../readlinestimeoutexception)с указанным сообщением об ошибке. |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../readlinestimeoutexception)с указанным сообщением об ошибке. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor)() | Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../readlinestimeoutexception) класс. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_1)(string) | Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../readlinestimeoutexception) класс с указанным сообщением об ошибке. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../readlinestimeoutexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: PreserveEmbeddedMessageFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее нужно ли сохранять формат встроенного сообщения при загрузке в MailMessage.
+description: Получает или задает значение указывающее необходимо ли сохранять формат встроенного сообщения при загрузке в MailMessage.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/loadoptions/preserveembeddedmessageformat/
 ---
 ## LoadOptions.PreserveEmbeddedMessageFormat property
 
-Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при загрузке в MailMessage.
+Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при загрузке в MailMessage.
 
 ```csharp
 public bool PreserveEmbeddedMessageFormat { get; set; }

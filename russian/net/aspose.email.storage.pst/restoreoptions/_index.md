@@ -3,7 +3,7 @@ title: RestoreOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет параметры восстановления
 type: docs
-weight: 20270
+weight: 20320
 url: /ru/net/aspose.email.storage.pst/restoreoptions/
 ---
 ## RestoreOptions enumeration
@@ -21,7 +21,7 @@ public enum RestoreOptions
 | --- | --- | --- |
 | None | `0` | Указывает, что никакие конкретные параметры не указаны |
 | Recursive | `1` | Указывает, что вложенные папки также должны быть восстановлены |
-| RemoveNonexistentFolders | `2` | Указывает, что почтовые папки, не имеющие одинаковых папок в личном хранилище, должны быть удалены |
+| RemoveNonexistentFolders | `2` | Указывает, что почтовые папки, не имеющие аналогов в личном хранилище, должны быть удалены |
 | RemoveNonexistentItems | `4` | Указывает, что почтовые отправления, не имеющие себе равных в личном хранилище, должны быть удалены |
 
 ### Смотрите также

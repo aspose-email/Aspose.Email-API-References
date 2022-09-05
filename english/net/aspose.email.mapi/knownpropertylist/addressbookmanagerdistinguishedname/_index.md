@@ -1,7 +1,7 @@
 ---
 title: AddressBookManagerDistinguishedName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the DN of the mail users manager. Area Address Book Canonical name PidTagAddressBookManagerDistinguishedName Alternate names PR_EMS_AB_MANAGER_T
 type: docs
 weight: 720
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmanagerdistinguishedname/

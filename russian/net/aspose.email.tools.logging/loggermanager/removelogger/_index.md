@@ -1,14 +1,14 @@
 ---
 title: RemoveLogger
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет логгер с указанным именем.
+description: Удаляет регистратор с указанным именем.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.tools.logging/loggermanager/removelogger/
 ---
 ## LoggerManager.RemoveLogger method
 
-Удаляет логгер с указанным именем.
+Удаляет регистратор с указанным именем.
 
 ```csharp
 public static void RemoveLogger(string name)

@@ -3,7 +3,7 @@ title: Organizer
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置组织者
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.email.calendar/appointment/organizer/
 ---
 ## Appointment.Organizer property

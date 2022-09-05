@@ -1,12 +1,12 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GetHashCode returns a hash function for this object.
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/url/gethashcode/
 ---
-## Url.GetHashCode method (1 of 2)
+## GetHashCode() {#gethashcode}
 
 GetHashCode returns a hash function for this object.
 
@@ -26,7 +26,7 @@ Returns a hash function for this object.
 
 ---
 
-## Url.GetHashCode method (2 of 2)
+## GetHashCode(Url) {#gethashcode_1}
 
 GetHashCode returns a hash function for specified object.
 

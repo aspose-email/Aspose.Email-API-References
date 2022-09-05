@@ -1,7 +1,7 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets public key DNS domain d.
 type: docs
 weight: 30
 url: /net/aspose.email.dkim/dkimsignatureinfo/domain/

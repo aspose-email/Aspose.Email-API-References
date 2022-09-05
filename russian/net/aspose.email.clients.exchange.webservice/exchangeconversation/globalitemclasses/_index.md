@@ -1,14 +1,14 @@
 ---
 title: GlobalItemClasses
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список классов элементов который представляет все классы элементов беседы в почтовом ящике.
+description: Получает список классов элементов который представляет все классы элементов элементов беседы в почтовом ящике.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/globalitemclasses/
 ---
 ## ExchangeConversation.GlobalItemClasses property
 
-Получает список классов элементов, который представляет все классы элементов беседы в почтовом ящике.
+Получает список классов элементов, который представляет все классы элементов элементов беседы в почтовом ящике.
 
 ```csharp
 public StringCollection GlobalItemClasses { get; }

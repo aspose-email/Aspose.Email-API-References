@@ -1,14 +1,14 @@
 ---
 title: NoModSeq
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее поддерживает ли почтовый ящик последовательности модов. Это свойство работает только если сервер поддерживает расширение CONDSTORE. Подробнее https//tools.ietf.org/html/rfc4551section-3.1.2
+description: Получает значение указывающее поддерживает ли почтовый ящик последовательности модов. Это свойство работает только если сервер поддерживает расширение CONDSTORE. Пожалуйста прочитайте больше https//tools.ietf.org/html/rfc4551section-3.1.2
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/nomodseq/
 ---
 ## ImapFolderInfo.NoModSeq property
 
-Получает значение, указывающее, поддерживает ли почтовый ящик последовательности модов. Это свойство работает, только если сервер поддерживает расширение CONDSTORE. Подробнее https://tools.ietf.org/html/rfc4551#section-3.1.2
+Получает значение, указывающее, поддерживает ли почтовый ящик последовательности модов. Это свойство работает, только если сервер поддерживает расширение CONDSTORE. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4551#section-3.1.2
 
 ```csharp
 public bool NoModSeq { get; }

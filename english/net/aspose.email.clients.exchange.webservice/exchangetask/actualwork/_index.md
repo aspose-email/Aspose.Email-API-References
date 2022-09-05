@@ -1,7 +1,7 @@
 ---
 title: ActualWork
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an actual amount of time that is spent on a task minutes.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/actualwork/

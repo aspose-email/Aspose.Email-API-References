@@ -1,14 +1,14 @@
 ---
 title: Xpos
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_XPOS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_XPOS
 type: docs
 weight: 19680
 url: /ru/net/aspose.email.mapi/knownpropertylist/xpos/
 ---
 ## KnownPropertyList.Xpos field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_XPOS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_XPOS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Xpos;

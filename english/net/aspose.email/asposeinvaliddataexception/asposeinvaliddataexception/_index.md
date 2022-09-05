@@ -1,12 +1,12 @@
 ---
 title: AsposeInvalidDataException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeInvalidDataExceptionaspose.email/asposeinvaliddataexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeinvaliddataexception/asposeinvaliddataexception/
 ---
-## AsposeInvalidDataException constructor (1 of 5)
+## AsposeInvalidDataException() {#constructor}
 
 Initializes a new instance of the [`AsposeInvalidDataException`](../../asposeinvaliddataexception) class.
 
@@ -22,7 +22,7 @@ public AsposeInvalidDataException()
 
 ---
 
-## AsposeInvalidDataException constructor (2 of 5)
+## AsposeInvalidDataException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeInvalidDataException`](../../asposeinvaliddataexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeInvalidDataException(string message)
 
 ---
 
-## AsposeInvalidDataException constructor (3 of 5)
+## AsposeInvalidDataException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeInvalidDataException`](../../asposeinvaliddataexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeInvalidDataException(string format, params object[] parameters)
 
 ---
 
-## AsposeInvalidDataException constructor (4 of 5)
+## AsposeInvalidDataException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeInvalidDataException`](../../asposeinvaliddataexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -84,7 +84,7 @@ public AsposeInvalidDataException(string message, Exception innerException)
 
 ---
 
-## AsposeInvalidDataException constructor (5 of 5)
+## AsposeInvalidDataException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeInvalidDataException`](../../asposeinvaliddataexception) class with a reference to the inner exception that is the cause of this exception.
 

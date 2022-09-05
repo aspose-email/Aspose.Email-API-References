@@ -16,7 +16,7 @@ public string AppendMessage(MapiMessage mapiMessage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mapiMessage | MapiMessage | 一条信息上传 |
+| mapiMessage | MapiMessage | 要上传的消息 |
 
 ### 返回值
 
@@ -41,8 +41,8 @@ public string AppendMessage(MapiMessage mapiMessage, bool markAsSent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mapiMessage | MapiMessage | 一条信息上传 |
-| markAsSent | Boolean | 一个值，指示消息应附加为已发送消息还是草稿。 |
+| mapiMessage | MapiMessage | 要上传的消息 |
+| markAsSent | Boolean | 一个值，指示应将消息附加为已发送消息还是草稿。 |
 
 ### 返回值
 
@@ -67,20 +67,20 @@ public string AppendMessage(string folderUri, MapiMessage mapiMessage, bool mark
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 一个文件夹上传消息的 URI。 |
+| folderUri | String | 将消息上传到的文件夹 URI。 |
 | mapiMessage | MapiMessage | 要上传的消息 |
-| markAsSent | Boolean | 指示是否应将消息附加为的值已发送的消息或草稿。 |
+| markAsSent | Boolean | 一个值，指示应将消息附加为已发送消息还是草稿。 |
 
 ### 返回值
 
-创建的 uri消息
+创建消息的 uri
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 未指定文件夹 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *mapiMessage*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *mapiMessage*是`无效的` |
 
 ### 也可以看看
 
@@ -101,7 +101,7 @@ public string AppendMessage(MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 一条信息上传 |
+| message | MailMessage | 要上传的消息 |
 
 ### 返回值
 
@@ -126,7 +126,7 @@ public string AppendMessage(string folderUri, MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 一个文件夹上传消息的 URI。 |
+| folderUri | String | 将消息上传到的文件夹 URI。 |
 | message | MailMessage | 要上传的消息 |
 
 ### 返回值

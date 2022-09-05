@@ -1,14 +1,14 @@
 ---
 title: LogHeader
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает заголовок журнала
+description: Получает или задает заголовок журнала
 type: docs
 weight: 30
 url: /ru/net/aspose.email.tools.logging/formatter/logheader/
 ---
 ## Formatter.LogHeader property
 
-Получает или устанавливает заголовок журнала
+Получает или задает заголовок журнала
 
 ```csharp
 public virtual string LogHeader { get; }

@@ -3,7 +3,7 @@ title: MapiCalendarOverrideFlags
 second_title: Aspose.Email for .NET API 参考
 description: 指定 MapiCalendarOverrideFlags 结构中的哪些数据具有与循环序列不同的值
 type: docs
-weight: 18010
+weight: 18030
 url: /zh/net/aspose.email.mapi/mapicalendaroverrideflags/
 ---
 ## MapiCalendarOverrideFlags enumeration

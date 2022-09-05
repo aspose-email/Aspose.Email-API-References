@@ -1,7 +1,7 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An array of recipients of the email message. Mandatory Yes
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/recipients/

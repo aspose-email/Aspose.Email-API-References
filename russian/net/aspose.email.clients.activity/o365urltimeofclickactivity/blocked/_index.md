@@ -1,14 +1,14 @@
 ---
 title: Blocked
 second_title: Справочник по Aspose.Email для .NET API
-description: Это верно если щелчок по URL-адресу заблокирован защитой Office 365 ATP Safe Links. ОбязательноДа
+description: Это верно если щелчок по URL-адресу заблокирован защитой Office 365 ATP Safe Links. Обязательно Yes
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/blocked/
 ---
 ## O365URLTimeOfClickActivity.Blocked property
 
-Это верно, если щелчок по URL-адресу заблокирован защитой Office 365 ATP Safe Links. Обязательно:Да
+Это верно, если щелчок по URL-адресу заблокирован защитой Office 365 ATP Safe Links. Обязательно: Yes
 
 ```csharp
 public bool? Blocked { get; set; }

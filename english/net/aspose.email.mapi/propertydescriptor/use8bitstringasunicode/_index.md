@@ -1,7 +1,7 @@
 ---
 title: Use8BitStringAsUnicode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies if PropertyDataType.String8 has to be interpreted as PropertyDataType.String
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/propertydescriptor/use8bitstringasunicode/

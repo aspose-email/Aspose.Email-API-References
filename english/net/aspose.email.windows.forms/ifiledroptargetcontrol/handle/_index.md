@@ -1,7 +1,7 @@
 ---
 title: Handle
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the window handle HWND of the control.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/handle/

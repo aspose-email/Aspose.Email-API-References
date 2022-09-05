@@ -1,7 +1,7 @@
 ---
 title: NetShowUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the URL to be launched when the user joins the meeting. Area Conferencing Canonical name PidLidNetShowUrl Alternate names dispidNetShowURL
 type: docs
 weight: 12830
 url: /net/aspose.email.mapi/knownpropertylist/netshowurl/

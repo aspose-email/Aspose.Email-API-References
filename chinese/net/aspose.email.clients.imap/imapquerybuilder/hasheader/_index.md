@@ -1,14 +1,14 @@
 ---
 title: HasHeader
 second_title: Aspose.Email for .NET API 参考
-description: 搜索具有指定字段名称 并且在文本中包含指定字符串 的消息标题冒号之后的内容如果要搜索的 字符串长度为零这将匹配所有 具有带有指定字段名称的标题行的消息而不管 内容如何.
+description: 搜索具有指定字段名称 的标头并在标头文本中包含指定字符串 的邮件冒号后的内容如果要搜索的 字符串长度为零则匹配所有 具有带有指定字段名称的标题行的消息而不管 内容如何
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.imap/imapquerybuilder/hasheader/
 ---
 ## ImapQueryBuilder.HasHeader method
 
-搜索具有指定字段名称 并且在文本中包含指定字符串 的消息标题（冒号之后的内容）。如果要搜索的 字符串长度为零，这将匹配所有 具有带有指定字段名称的标题行的消息，而不管 内容如何.
+搜索具有指定字段名称 的标头并在标头文本中包含指定字符串 的邮件（冒号后的内容）。如果要搜索的 字符串长度为零，则匹配所有 具有带有指定字段名称的标题行的消息，而不管 内容如何。
 
 ```csharp
 public MailQuery HasHeader(string fieldName, string fieldValue)

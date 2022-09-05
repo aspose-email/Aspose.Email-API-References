@@ -1,30 +1,14 @@
 ---
 title: RequestCheckpoint
 second_title: Справочник по Aspose.Email для .NET API
-description: Запрашивает контрольную точку текущего выбранного почтового ящика.
+description: Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 type: docs
 weight: 1030
 url: /ru/net/aspose.email.clients.imap/imapclient/requestcheckpoint/
 ---
-## RequestCheckpoint() {#requestcheckpoint}
-
-Запрашивает контрольную точку текущего выбранного почтового ящика.
-
-```csharp
-public void RequestCheckpoint()
-```
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
 ## RequestCheckpoint(IConnection) {#requestcheckpoint_1}
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public void RequestCheckpoint(IConnection connection)
@@ -37,6 +21,22 @@ public void RequestCheckpoint(IConnection connection)
 ### Смотрите также
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## RequestCheckpoint() {#requestcheckpoint}
+
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
+
+```csharp
+public void RequestCheckpoint()
+```
+
+### Смотрите также
+
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

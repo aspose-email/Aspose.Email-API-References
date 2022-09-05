@@ -18,20 +18,20 @@ public class MapiAttachmentCollection : List<MapiAttachment>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiAttachmentCollection](mapiattachmentcollection#constructor)() | 初始化[`MapiAttachmentCollection`](../mapiattachmentcollection)类的新实例。 |
+| [MapiAttachmentCollection](mapiattachmentcollection#constructor)() | 初始化[`MapiAttachmentCollection`](../mapiattachmentcollection)类. |
 | [MapiAttachmentCollection](mapiattachmentcollection#constructor_1)(MapiMessageItemBase) | 初始化 MapiAttachmentCollection 类的新实例。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add)(MapiAttachment) | 将对象添加到Collection的末尾。 |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add)(MapiAttachment) | 在末尾添加一个对象Collection. |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add_3)(string, byte[]) | 添加新附件。 |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add_2)(string, MapiMessage) | 将新附件添加为嵌入消息。 |
-| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert)(int, MapiAttachment) | 将元素插入Collection中指定索引处。 |
-| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert_2)(int, string, MapiMessage) | 将消息作为附件插入到[`MapiAttachmentCollection`](../mapiattachmentcollection)的指定索引处。 |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert)(int, MapiAttachment) | 插入一个元素到Collection在指定的索引处。 |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert_2)(int, string, MapiMessage) | 将邮件作为附件插入到[`MapiAttachmentCollection`](../mapiattachmentcollection)在指定的索引处。 |
 | [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove#remove)(MapiAttachment) | 从 MapiAttachmentCollection 中删除特定对象的第一个匹配项。 |
-| [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat#removeat)(int) | 删除 MapiAttachmentCollection 指定索引处的元素。 |
+| [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat#removeat)(int) | 移除 MapiAttachmentCollection 指定索引处的元素。 |
 | [Replace](../../aspose.email.mapi/mapiattachmentcollection/replace)(int, string, MapiMessage) | 替换指定索引处的元素。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: SupportedServerProtocols
 second_title: Aspose.Email for .NET API 参考
-description: 获取服务器支持的 ActiveSync 协议版本
+description: 获取服务器支持的 ActiveSync 协议的版本
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/supportedserverprotocols/
 ---
 ## IBaseActiveSyncTLClient.SupportedServerProtocols property
 
-获取服务器支持的 ActiveSync 协议版本
+获取服务器支持的 ActiveSync 协议的版本
 
 ```csharp
 public string[] SupportedServerProtocols { get; }

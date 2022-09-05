@@ -1,7 +1,7 @@
 ---
 title: IpmContactEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Contacts folder. Area Folder Properties Canonical name PidTagIpmContactEntryId Alternate names PR_IPM_CONTACT_ENTRYID
 type: docs
 weight: 11620
 url: /net/aspose.email.mapi/knownpropertylist/ipmcontactentryid/

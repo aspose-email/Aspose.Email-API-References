@@ -1,14 +1,14 @@
 ---
 title: ListMessagesByPageAsync
 second_title: Aspose.Email for .NET API 参考
-description: 列出指定文件夹中的消息
+description: 列出指定文件夹中的邮件
 type: docs
 weight: 460
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync/
 ---
 ## ListMessagesByPageAsync(string, int, int, MailQuery, CancellationToken) {#listmessagesbypageasync_1}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int itemsPerPage, 
@@ -17,15 +17,15 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| itemsPerPage | Int32 | 页面中的许多项目 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | offset | Int32 | 视图中下一页的偏移量 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索条件。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 
 ## ListMessagesByPageAsync(string, PageInfo, CancellationToken) {#listmessagesbypageasync}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, PageInfo pageInfo, 
@@ -48,13 +48,13 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, Page
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| pageInfo | PageInfo | 页面信息 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| pageInfo | PageInfo | 一页信息 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 

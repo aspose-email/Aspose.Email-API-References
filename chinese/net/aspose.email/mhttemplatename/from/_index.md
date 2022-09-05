@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API 参考
-description: 来自标题
+description: 来自标头
 type: docs
 weight: 70
 url: /zh/net/aspose.email/mhttemplatename/from/
 ---
 ## MhtTemplateName.From field
 
-来自标题。
+来自标头。
 
 ```csharp
 public const string From;

@@ -1,14 +1,14 @@
 ---
 title: ExchangeQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeQueryBuilderaspose.email.clients.exchange/exchangequerybuilder.
+description: Инициализирует новый экземплярExchangeQueryBuilderaspose.email.clients.exchange/exchangequerybuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/exchangequerybuilder/exchangequerybuilder/
 ---
 ## ExchangeQueryBuilder constructor
 
-Инициализирует новый экземпляр класса[`ExchangeQueryBuilder`](../../exchangequerybuilder).
+Инициализирует новый экземпляр[`ExchangeQueryBuilder`](../../exchangequerybuilder) класс.
 
 ```csharp
 public ExchangeQueryBuilder()

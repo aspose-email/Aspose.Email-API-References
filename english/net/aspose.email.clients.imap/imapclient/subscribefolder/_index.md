@@ -1,12 +1,12 @@
 ---
 title: SubscribeFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sent the SUBSCRIBE command that adds the specified mailbox name to the servers set of active mailboxes.
 type: docs
 weight: 1210
 url: /net/aspose.email.clients.imap/imapclient/subscribefolder/
 ---
-## ImapClient.SubscribeFolder method (1 of 2)
+## SubscribeFolder(IConnection, string) {#subscribefolder}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 
@@ -28,7 +28,7 @@ public void SubscribeFolder(IConnection connection, string folderName)
 
 ---
 
-## ImapClient.SubscribeFolder method (2 of 2)
+## SubscribeFolder(string) {#subscribefolder_1}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 

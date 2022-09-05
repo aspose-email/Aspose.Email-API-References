@@ -1,7 +1,7 @@
 ---
 title: MailboxGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Exchange GUID of the mailbox that was accessed.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/mailboxguid/

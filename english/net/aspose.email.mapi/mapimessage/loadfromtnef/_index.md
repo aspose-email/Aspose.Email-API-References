@@ -1,12 +1,12 @@
 ---
 title: LoadFromTnef
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads message from Transport Neutral Encapsulation Format TNEF data structure
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapimessage/loadfromtnef/
 ---
-## MapiMessage.LoadFromTnef method (1 of 2)
+## LoadFromTnef(Stream) {#loadfromtnef}
 
 Loads message from Transport Neutral Encapsulation Format (TNEF) data structure
 
@@ -37,7 +37,7 @@ A read [`MapiMessage`](../../mapimessage)
 
 ---
 
-## MapiMessage.LoadFromTnef method (2 of 2)
+## LoadFromTnef(string) {#loadfromtnef_1}
 
 Loads message from Transport Neutral Encapsulation Format (TNEF) data structure
 

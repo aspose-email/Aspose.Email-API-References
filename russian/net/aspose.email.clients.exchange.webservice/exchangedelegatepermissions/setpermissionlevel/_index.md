@@ -16,7 +16,7 @@ public void SetPermissionLevel(ExchangeDelegateFolderPermissionLevel permissionL
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| permissionLevel | ExchangeDelegateFolderPermissionLevel | Уровень премиссии на все папки |
+| permissionLevel | ExchangeDelegateFolderPermissionLevel | Предварительный уровень для всех папок |
 
 ### Смотрите также
 

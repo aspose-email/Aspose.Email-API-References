@@ -1,12 +1,12 @@
 ---
 title: FetchMapiMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the speciifed messages
 type: docs
 weight: 780
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages/
 ---
-## IEWSClient.FetchMapiMessages method (1 of 2)
+## FetchMapiMessages(IEnumerable&lt;string&gt;) {#fetchmapimessages}
 
 Fetches the speciifed messages
 
@@ -31,7 +31,7 @@ An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing f
 
 ---
 
-## IEWSClient.FetchMapiMessages method (2 of 2)
+## FetchMapiMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapimessages_1}
 
 Fetches the speciifed messages
 

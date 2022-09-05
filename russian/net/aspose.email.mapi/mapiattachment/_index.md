@@ -24,12 +24,12 @@ public class MapiAttachment : MapiPropertyContainer
 | [DisplayName](../../aspose.email.mapi/mapiattachment/displayname) { get; } | Получает отображаемое имя объекта ole во вложении. |
 | [Extension](../../aspose.email.mapi/mapiattachment/extension) { get; } | Получает расширение имени файла, указывающее тип документа вложения. |
 | [FileName](../../aspose.email.mapi/mapiattachment/filename) { get; } | Получает базовое имя файла и расширение вложения, исключая путь. |
-| virtual [ItemId](../../aspose.email.mapi/mapiattachment/itemid) { get; } | Идентификатор элемента, используется с сервером |
+| virtual [ItemId](../../aspose.email.mapi/mapiattachment/itemid) { get; } | Идентификатор элемента, используется с server |
 | [LongFileName](../../aspose.email.mapi/mapiattachment/longfilename) { get; } | Получает длинное имя файла и расширение вложения, исключая путь. |
-| [MimeTag](../../aspose.email.mapi/mapiattachment/mimetag) { get; } | Получает информацию о форматировании вложения Многоцелевые расширения почты Интернета (MIME). |
+| [MimeTag](../../aspose.email.mapi/mapiattachment/mimetag) { get; } | Получает информацию о форматировании вложения Многоцелевых расширений почты Интернета (MIME). |
 | [NamedProperties](../../aspose.email.mapi/mapiattachment/namedproperties) { get; } | Получает именованные свойства сообщения. |
-| [ObjectData](../../aspose.email.mapi/mapiattachment/objectdata) { get; } | Получает объект вложения, доступ к которому обычно осуществляется через интерфейс OLE IStorage. |
-| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | Получает коллекцию свойств. |
+| [ObjectData](../../aspose.email.mapi/mapiattachment/objectdata) { get; } | Получает объект вложения, обычно доступный через интерфейс OLE IStorage. |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | Получает набор свойств. |
 | [PropertyStream](../../aspose.email.mapi/mapiattachment/propertystream) { get; } | Получает поток свойств. |
 | [SubStorages](../../aspose.email.mapi/mapiattachment/substorages) { get; } | Получает вспомогательные хранилища. |
 
@@ -38,20 +38,20 @@ public class MapiAttachment : MapiPropertyContainer
 | Имя | Описание |
 | --- | --- |
 | override [GetProperty](../../aspose.email.mapi/mapiattachment/getproperty)(PropertyDescriptor) | Получает свойство MAPI по дескриптору свойства. |
-| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Получает значение свойства, указанного тегом, как булев тип. |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Получает значение свойства, указанного тегом, в виде логического типа. |
 | [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes)(long) | Получает строковое значение свойства, указанного тегом. |
-| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | Получает значение свойства, указанного тегом, как тип DateTime. |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | Получает значение свойства, указанного тегом как тип DateTime. |
 | [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32)(long) | Получает значение int32 свойства, указанного тегом. |
 | [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong)(long) | Получает значение свойства, указанного тегом, типа Long (int64). |
-| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | Получает значение свойства, указанного тегом, типа Short. |
+| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | Получает значение свойства, указанного тегом, как тип Short. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long) | Получает строковое значение свойства, указанного тегом. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Получает строковое значение свойства, указанного тегом. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Определяет, закодированы ли строковые свойства в Unicode или нет. |
 | [RemoveProperty](../../aspose.email.mapi/mapiattachment/removeproperty)(long) | Обеспечивает корректное удаление свойства из всех коллекций. |
 | [Save](../../aspose.email.mapi/mapiattachment/save#save)(Stream) | Сохранить содержимое вложения. |
 | [Save](../../aspose.email.mapi/mapiattachment/save#save_1)(string) | Сохранить содержимое вложения. |
-| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty)(MapiProperty) | Устанавливает свойство. |
-| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty_1)(PropertyDescriptor, object) | Устанавливает свойство MAPI. |
+| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty)(MapiProperty) | Задает свойство. |
+| override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty#setproperty_1)(PropertyDescriptor, object) | Задает свойство MAPI. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | Попытаться получить данные свойства с указанным ключом тега. |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | Получает значение указанного свойства как тип DateTime. Возвращаемое значение указывает, успешно ли выполнена операция. |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | Получает значение указанного свойства как тип Int32. Возвращаемое значение указывает, успешно ли выполнена операция. |

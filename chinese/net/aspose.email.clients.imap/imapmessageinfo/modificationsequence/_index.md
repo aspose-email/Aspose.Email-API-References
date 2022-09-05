@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapmessageinfo/modificationsequence/
 ---
 ## ImapMessageInfo.ModificationSequence property
 
-获取此消息的修改顺序。 查看更多:https://tools.ietf.org/html/rfc7162
+获取此消息的修改顺序。 查看更多：https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public long ModificationSequence { get; }

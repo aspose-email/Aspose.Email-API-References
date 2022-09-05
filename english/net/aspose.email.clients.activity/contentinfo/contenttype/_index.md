@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets content type.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/contentinfo/contenttype/

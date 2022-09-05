@@ -1,14 +1,14 @@
 ---
 title: CreateRuleMoveFrom
 second_title: Aspose.Email for .NET API 参考
-description: 创建收件箱规则将来自指定发件人的邮件移动到指定文件夹
+description: 创建将邮件从指定发件人移至指定文件夹的收件箱规则
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/inboxrule/createrulemovefrom/
 ---
 ## InboxRule.CreateRuleMoveFrom method
 
-创建收件箱规则，将来自指定发件人的邮件移动到指定文件夹
+创建将邮件从指定发件人移至指定文件夹的收件箱规则
 
 ```csharp
 public static InboxRule CreateRuleMoveFrom(MailAddress from, string destinationFolderId)
@@ -16,19 +16,19 @@ public static InboxRule CreateRuleMoveFrom(MailAddress from, string destinationF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | MailAddress | A[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)of sender |
-| destinationFolderId | String | 邮件所在文件夹的 id移动 |
+| from | MailAddress | 一个[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)发件人 |
+| destinationFolderId | String | 将在其中移动消息的文件夹的 ID |
 
 ### 返回值
 
-创建[`InboxRule`](../../inboxrule)
+一个创建的[`InboxRule`](../../inboxrule)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*是`无效的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

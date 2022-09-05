@@ -1,7 +1,7 @@
 ---
 title: WlinkType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of navigation shortcut. Area Configuration Canonical name PidTagWlinkType Alternate names PR_WLINK_TYPE
 type: docs
 weight: 19530
 url: /net/aspose.email.mapi/knownpropertylist/wlinktype/

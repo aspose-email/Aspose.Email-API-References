@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneInfo
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет правило часового пояса календаря mapi
 type: docs
-weight: 18110
+weight: 18140
 url: /ru/net/aspose.email.mapi/mapicalendartimezoneinfo/
 ---
 ## MapiCalendarTimeZoneInfo class
@@ -18,18 +18,18 @@ public sealed class MapiCalendarTimeZoneInfo
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarTimeZoneInfo](mapicalendartimezoneinfo)() | Инициализирует новый экземпляр класса[`MapiCalendarTimeZoneInfo`](../mapicalendartimezoneinfo). |
+| [MapiCalendarTimeZoneInfo](mapicalendartimezoneinfo)() | Инициализирует новый экземпляр[`MapiCalendarTimeZoneInfo`](../mapicalendartimezoneinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Bias](../../aspose.email.mapi/mapicalendartimezoneinfo/bias) { get; set; } | Получает или задает смещение часового пояса в минутах от UTC. |
-| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias) { get; set; } | Получает или задает смещение в минутах от lBias в летнее время. |
+| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias) { get; set; } | Получает или задает смещение в минутах от lBias при переходе на летнее время. |
 | [DaylightDate](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightdate) { get; set; } | Получает или задает дату и местное время, которые указывают, когда начинать использовать DaylightBias. |
 | [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias) { get; set; } | Получает или задает смещение в минутах от lBias в течение стандартного времени. |
 | [StandardDate](../../aspose.email.mapi/mapicalendartimezoneinfo/standarddate) { get; set; } | Получает или задает дату и местное время, которые указывают, когда начинать использовать StandardBias. |
-| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags) { get; set; } | Получает или устанавливает отдельные битовые флаги, которые определяют информацию об этом TimeZoneRule |
+| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags) { get; set; } | Получает или устанавливает отдельные битовые флаги, указывающие информацию об этом TimeZoneRule |
 | [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year) { get; set; } | Получает или задает год, в котором это правило должно вступить в силу. |
 
 ### Смотрите также

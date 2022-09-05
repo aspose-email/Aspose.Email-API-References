@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri сервера
+description: Получает сервер uri
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/uri/
 ---
 ## IBaseActiveSyncTLClient.Uri property
 
-Получает uri сервера
+Получает сервер uri
 
 ```csharp
 public string Uri { get; }

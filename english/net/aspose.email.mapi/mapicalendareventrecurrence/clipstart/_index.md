@@ -1,7 +1,7 @@
 ---
 title: ClipStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date of the first instance
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/clipstart/

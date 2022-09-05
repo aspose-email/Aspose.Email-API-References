@@ -1,14 +1,14 @@
 ---
 title: ConversationMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает включать ли элементы включенные в модальность диалога в результаты ответа на команду GetItemEstimate.
+description: Указывает следует ли включать элементы включенные в модальность диалога в результаты ответа на команду GetItemEstimate.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode/
 ---
 ## ItemEstimateRequest.ConversationMode property
 
-Указывает, включать ли элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate.
+Указывает, следует ли включать элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate.
 
 ```csharp
 public bool? ConversationMode { get; set; }

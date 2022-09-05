@@ -16,7 +16,7 @@ public MailQuery HasFlags(ExchangeMessageFlag flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| flags | ExchangeMessageFlag | 标志。 |
+| flags | ExchangeMessageFlag | 旗帜。 |
 
 ### 返回值
 

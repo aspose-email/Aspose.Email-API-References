@@ -1,14 +1,14 @@
 ---
 title: ServerInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию связанную с сервером обработавшим последний запрос. Будет нулевым если ни один запрос не был обработан.
+description: Получает информацию связанную с сервером обработавшим последний запрос. Будет нулевым если запросы не были обработаны.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.exchange/autodiscoverservicebase/serverinfo/
 ---
 ## AutodiscoverServiceBase.ServerInfo property
 
-Получает информацию, связанную с сервером, обработавшим последний запрос. Будет нулевым, если ни один запрос не был обработан.
+Получает информацию, связанную с сервером, обработавшим последний запрос. Будет нулевым, если запросы не были обработаны.
 
 ```csharp
 public ServerVersionInfo ServerInfo { get; }

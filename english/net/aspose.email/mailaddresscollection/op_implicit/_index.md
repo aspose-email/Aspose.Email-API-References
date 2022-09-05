@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs an implicit conversion from MailAddressaspose.email/mailaddress to MailAddressCollectionaspose.email/mailaddresscollection.
 type: docs
 weight: 60
 url: /net/aspose.email/mailaddresscollection/op_implicit/
 ---
-## MailAddressCollection Implicit operator (1 of 2)
+## implicit operator {#op_implicit}
 
 Performs an implicit conversion from [`MailAddress`](../../mailaddress) to [`MailAddressCollection`](../../mailaddresscollection).
 
@@ -31,7 +31,7 @@ The result of the conversion.
 
 ---
 
-## MailAddressCollection Implicit operator (2 of 2)
+## implicit operator {#op_implicit_1}
 
 Performs an implicit conversion from String to [`MailAddressCollection`](../../mailaddresscollection).
 

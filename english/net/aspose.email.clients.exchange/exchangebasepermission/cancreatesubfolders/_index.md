@@ -1,7 +1,7 @@
 ---
 title: CanCreateSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the client can create subfolders.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangebasepermission/cancreatesubfolders/

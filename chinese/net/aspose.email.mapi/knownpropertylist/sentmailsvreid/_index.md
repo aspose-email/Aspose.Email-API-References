@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/sentmailsvreid/
 ---
 ## KnownPropertyList.SentMailSvrEID field
 
-包含一个表示消息的已发送邮件文件夹的 EntryID。 区域:ProviderDefinedNonTransmittable 规范名称:PidTagSentMailSvrEID 备用名称:ptagSentMailSvrEID
+包含一个表示消息的已发送邮件文件夹的 EntryID。 区域：ProviderDefinedNonTransmittable 规范名称：PidTagSentMailSvrEID 备用名称：ptagSentMailSvrEID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentMailSvrEID;

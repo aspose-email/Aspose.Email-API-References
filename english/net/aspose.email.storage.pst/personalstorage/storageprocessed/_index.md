@@ -1,7 +1,7 @@
 ---
 title: StorageProcessed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged.
 type: docs
 weight: 110
 url: /net/aspose.email.storage.pst/personalstorage/storageprocessed/

@@ -1,12 +1,12 @@
 ---
 title: MarkAllItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks all items in specified folders.
 type: docs
 weight: 1240
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/markallitems/
 ---
-## IEWSClient.MarkAllItems method (1 of 3)
+## MarkAllItems(bool, params string[]) {#markallitems_2}
 
 Marks all items in specified folders.
 
@@ -27,7 +27,7 @@ public void MarkAllItems(bool read, params string[] folderIds)
 
 ---
 
-## IEWSClient.MarkAllItems method (2 of 3)
+## MarkAllItems(bool, bool, params string[]) {#markallitems_1}
 
 Marks all items in specified folders.
 
@@ -49,7 +49,7 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, params string[] f
 
 ---
 
-## IEWSClient.MarkAllItems method (3 of 3)
+## MarkAllItems(bool, bool, IEnumerable&lt;string&gt;) {#markallitems}
 
 Marks all items in specified folders.
 

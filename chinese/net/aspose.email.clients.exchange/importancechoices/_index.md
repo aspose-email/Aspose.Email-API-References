@@ -18,7 +18,7 @@ public enum ImportanceChoices
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 重要性未指定 |
+| Undefined | `-1` | 未指定重要性 |
 | Low | `0` | 指定低重要性。 |
 | Normal | `1` | 指定正常重要性。 |
 | High | `2` | 指定高重要性。 |

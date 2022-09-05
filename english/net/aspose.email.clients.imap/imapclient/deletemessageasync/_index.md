@@ -1,12 +1,12 @@
 ---
 title: DeleteMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks a message with the specified sequence number as deleted
 type: docs
 weight: 570
 url: /net/aspose.email.clients.imap/imapclient/deletemessageasync/
 ---
-## ImapClient.DeleteMessageAsync method (1 of 24)
+## DeleteMessageAsync(IConnection, int) {#deletemessageasync}
 
 Marks a message with the specified sequence number as deleted
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (2 of 24)
+## DeleteMessageAsync(IConnection, string) {#deletemessageasync_4}
 
 Marks a message with the specified sequence number as deleted
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (3 of 24)
+## DeleteMessageAsync(int) {#deletemessageasync_12}
 
 Marks a message with the specified sequence number as deleted
 
@@ -82,7 +82,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (4 of 24)
+## DeleteMessageAsync(string) {#deletemessageasync_16}
 
 Marks a message with the specified sequence number as deleted
 
@@ -106,7 +106,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (5 of 24)
+## DeleteMessageAsync(IConnection, int, long) {#deletemessageasync_1}
 
 Marks a message with the specified sequence number as deleted
 
@@ -134,7 +134,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (6 of 24)
+## DeleteMessageAsync(IConnection, string, long) {#deletemessageasync_7}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -161,7 +161,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (7 of 24)
+## DeleteMessageAsync(int, long) {#deletemessageasync_13}
 
 Marks a message with the specified sequence number as deleted
 
@@ -186,7 +186,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (8 of 24)
+## DeleteMessageAsync(string, long) {#deletemessageasync_19}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -211,7 +211,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (9 of 24)
+## DeleteMessageAsync(string, bool) {#deletemessageasync_17}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -236,7 +236,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (10 of 24)
+## DeleteMessageAsync(IConnection, string, bool) {#deletemessageasync_5}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -263,7 +263,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (11 of 24)
+## DeleteMessageAsync(string, long, bool) {#deletemessageasync_20}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -289,7 +289,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (12 of 24)
+## DeleteMessageAsync(IConnection, string, long, bool) {#deletemessageasync_8}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -318,7 +318,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (13 of 24)
+## DeleteMessageAsync(IConnection, int, CancellationToken) {#deletemessageasync_3}
 
 Marks a message with the specified sequence number as deleted
 
@@ -345,7 +345,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (14 of 24)
+## DeleteMessageAsync(IConnection, string, CancellationToken) {#deletemessageasync_11}
 
 Marks a message with the specified sequence number as deleted
 
@@ -372,7 +372,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (15 of 24)
+## DeleteMessageAsync(int, CancellationToken) {#deletemessageasync_15}
 
 Marks a message with the specified sequence number as deleted
 
@@ -397,7 +397,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (16 of 24)
+## DeleteMessageAsync(string, CancellationToken) {#deletemessageasync_23}
 
 Marks a message with the specified sequence number as deleted
 
@@ -422,7 +422,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (17 of 24)
+## DeleteMessageAsync(IConnection, int, long, CancellationToken) {#deletemessageasync_2}
 
 Marks a message with the specified sequence number as deleted
 
@@ -451,7 +451,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (18 of 24)
+## DeleteMessageAsync(IConnection, string, long, CancellationToken) {#deletemessageasync_10}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -480,7 +480,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (19 of 24)
+## DeleteMessageAsync(int, long, CancellationToken) {#deletemessageasync_14}
 
 Marks a message with the specified sequence number as deleted
 
@@ -507,7 +507,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (20 of 24)
+## DeleteMessageAsync(string, long, CancellationToken) {#deletemessageasync_22}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -533,7 +533,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (21 of 24)
+## DeleteMessageAsync(string, bool, CancellationToken) {#deletemessageasync_18}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -559,7 +559,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (22 of 24)
+## DeleteMessageAsync(IConnection, string, bool, CancellationToken) {#deletemessageasync_6}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -588,7 +588,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (23 of 24)
+## DeleteMessageAsync(string, long, bool, CancellationToken) {#deletemessageasync_21}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -616,7 +616,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteMessageAsync method (24 of 24)
+## DeleteMessageAsync(IConnection, string, long, bool, CancellationToken) {#deletemessageasync_9}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 

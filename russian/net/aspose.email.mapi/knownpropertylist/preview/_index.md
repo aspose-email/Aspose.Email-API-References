@@ -1,14 +1,14 @@
 ---
 title: Preview
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PREVIEW
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PREVIEW
 type: docs
 weight: 14550
 url: /ru/net/aspose.email.mapi/knownpropertylist/preview/
 ---
 ## KnownPropertyList.Preview field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PREVIEW
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PREVIEW
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Preview;

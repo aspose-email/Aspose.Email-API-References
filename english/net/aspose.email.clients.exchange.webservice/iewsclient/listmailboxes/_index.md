@@ -1,12 +1,12 @@
 ---
 title: ListMailboxes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists mailboxes.
 type: docs
 weight: 1130
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmailboxes/
 ---
-## IEWSClient.ListMailboxes method (1 of 2)
+## ListMailboxes() {#listmailboxes}
 
 Lists mailboxes.
 
@@ -27,7 +27,7 @@ A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) th
 
 ---
 
-## IEWSClient.ListMailboxes method (2 of 2)
+## ListMailboxes(string) {#listmailboxes_1}
 
 Please pay your attention, this overridden method works with Exchange Server 2013 and higher. Lists mailboxes.
 

@@ -1,7 +1,7 @@
 ---
 title: LogHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents start log header
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/iformatter/logheader/

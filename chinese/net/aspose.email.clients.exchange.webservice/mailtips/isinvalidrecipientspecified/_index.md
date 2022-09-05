@@ -1,14 +1,14 @@
 ---
 title: IsInvalidRecipientSpecified
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示是否指定InvalidRecipientaspose.email.clients.exchange.webservice/mailtips/invalidrecipient
+description: 获取一个值指示是否InvalidRecipientaspose.email.clients.exchange.webservice/mailtips/invalidrecipient被指定
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange.webservice/mailtips/isinvalidrecipientspecified/
 ---
 ## MailTips.IsInvalidRecipientSpecified property
 
-获取一个值，该值指示是否指定[`InvalidRecipient`](../invalidrecipient)
+获取一个值，指示是否[`InvalidRecipient`](../invalidrecipient)被指定
 
 ```csharp
 public bool IsInvalidRecipientSpecified { get; }

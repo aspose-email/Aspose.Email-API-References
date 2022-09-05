@@ -26,8 +26,8 @@ public Task EmptyFolderAsync(string folderUri,
 
 | исключение | условие |
 | --- | --- |
-| [ExchangeException](../../../aspose.email/exchangeexception) | Операция EmptyFolder завершилась неудачно |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пустой` |
+| [ExchangeException](../../../aspose.email/exchangeexception) | Не удалось выполнить операцию EmptyFolder |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

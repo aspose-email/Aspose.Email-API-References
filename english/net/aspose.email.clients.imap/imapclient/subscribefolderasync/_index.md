@@ -1,12 +1,12 @@
 ---
 title: SubscribeFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sent the SUBSCRIBE command that adds the specified mailbox name to the servers set of active mailboxes.
 type: docs
 weight: 1220
 url: /net/aspose.email.clients.imap/imapclient/subscribefolderasync/
 ---
-## ImapClient.SubscribeFolderAsync method (1 of 4)
+## SubscribeFolderAsync(IConnection, string) {#subscribefolderasync}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SubscribeFolderAsync method (2 of 4)
+## SubscribeFolderAsync(string) {#subscribefolderasync_2}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SubscribeFolderAsync method (3 of 4)
+## SubscribeFolderAsync(IConnection, string, CancellationToken) {#subscribefolderasync_1}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SubscribeFolderAsync method (4 of 4)
+## SubscribeFolderAsync(string, CancellationToken) {#subscribefolderasync_3}
 
 Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes.
 

@@ -16,7 +16,7 @@ public void SplitInto(long chunkSize, string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| chunkSize | Int64 | Приблизительный размер фрагмента в байтах. |
+| chunkSize | Int64 | Приблизительный размер чанка в байтах. |
 | path | String | Путь к папке, в которой будут созданы чанки. |
 
 ### Исключения
@@ -36,7 +36,7 @@ public void SplitInto(long chunkSize, string path)
 
 ## SplitInto(IList&lt;MailQuery&gt;, string) {#splitinto_1}
 
-Разделяет хранилище pst на основе критериев.
+Разбивает хранилище pst на основе критериев.
 
 ```csharp
 public void SplitInto(IList<MailQuery> criteria, string path)
@@ -44,7 +44,7 @@ public void SplitInto(IList<MailQuery> criteria, string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| criteria | IList`1 | Коллекция[`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющая критерии pst расщепления. |
+| criteria | IList`1 | Коллекция[`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет собой критерии разделения pst. |
 | path | String | Путь к папке, в которой будут созданы чанки. |
 
 ### Исключения

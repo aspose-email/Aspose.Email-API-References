@@ -1,14 +1,14 @@
 ---
 title: AppointmentReplyName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает пользователя который последним ответил на приглашение на собрание или обновление собрания. ОбластьСобрания Каноническое имяPidLidAppointmentReplyName Альтернативные именаdispidApptReplyName http//schemas.microsoft.com/mapi/apptreplyname
+description: Указывает пользователя который последним ответил на приглашение на собрание или обновление собрания.
 type: docs
 weight: 1260
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentreplyname/
 ---
 ## KnownPropertyList.AppointmentReplyName field
 
-Указывает пользователя, который последним ответил на приглашение на собрание или обновление собрания. Область:Собрания Каноническое имя:PidLidAppointmentReplyName Альтернативные имена:dispidApptReplyName, http://schemas.microsoft.com/mapi/apptreplyname
+Указывает пользователя, который последним ответил на приглашение на собрание или обновление собрания.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentReplyName;

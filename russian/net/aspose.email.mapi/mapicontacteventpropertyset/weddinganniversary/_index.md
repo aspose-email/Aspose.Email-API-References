@@ -1,14 +1,14 @@
 ---
 title: WeddingAnniversary
 second_title: Справочник по Aspose.Email для .NET API
-description: Годовщина свадьбы контакта
+description: Указывает годовщину свадьбы контакта
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary/
 ---
 ## MapiContactEventPropertySet.WeddingAnniversary property
 
-Годовщина свадьбы контакта
+Указывает годовщину свадьбы контакта
 
 ```csharp
 public DateTime WeddingAnniversary { get; set; }

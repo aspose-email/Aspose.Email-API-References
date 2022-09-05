@@ -1,7 +1,7 @@
 ---
 title: AnnotateSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether ANNOTATE extension is supported See more https//tools.ietf.org/html/rfc5257
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapclient/annotatesupported/

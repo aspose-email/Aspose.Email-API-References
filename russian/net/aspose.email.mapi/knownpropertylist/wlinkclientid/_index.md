@@ -1,14 +1,14 @@
 ---
 title: WlinkClientID
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор клиента который позволяет клиенту определить был ли ярлык создан на текущем компьютере/пользователе с помощью проверки на равенство. ОбластьКонфигурация Каноническое имяPidTagWlinkClientID Альтернативные именаPR_WLINK_CLIENTID
+description: Указывает идентификатор клиента который позволяет клиенту определить был ли ярлык создан на текущем компьютере/пользователе с помощью проверки на равенство. Область Configuration Каноническое имя PidTagWlinkClientID Альтернативные имена PR_WLINK_CLIENTID
 type: docs
 weight: 19400
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkclientid/
 ---
 ## KnownPropertyList.WlinkClientID field
 
-Указывает идентификатор клиента, который позволяет клиенту определить, был ли ярлык создан на текущем компьютере/пользователе с помощью проверки на равенство. Область:Конфигурация Каноническое имя:PidTagWlinkClientID Альтернативные имена:PR_WLINK_CLIENTID
+Указывает идентификатор клиента, который позволяет клиенту определить, был ли ярлык создан на текущем компьютере/пользователе с помощью проверки на равенство. Область: Configuration Каноническое имя: PidTagWlinkClientID Альтернативные имена: PR_WLINK_CLIENTID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkClientID;

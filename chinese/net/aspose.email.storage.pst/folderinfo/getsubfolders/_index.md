@@ -37,7 +37,7 @@ public FolderInfoCollection GetSubFolders(FolderKind kind)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| kind | FolderKind | [`FolderKind`](../../folderkind)代表文件夹的种类。 |
+| kind | FolderKind | 的[`FolderKind`](../../folderkind)代表文件夹的种类。 |
 
 ### 返回值
 

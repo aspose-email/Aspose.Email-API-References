@@ -3,7 +3,7 @@ title: HeaderCollection
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет набор полей заголовка
 type: docs
-weight: 19130
+weight: 19160
 url: /ru/net/aspose.email.mime/headercollection/
 ---
 ## HeaderCollection class
@@ -18,19 +18,19 @@ public class HeaderCollection : ICollection<string>
 
 | Имя | Описание |
 | --- | --- |
-| [HeaderCollection](headercollection#constructor)() | Инициализирует новый экземпляр класса[`HeaderCollection`](../headercollection). |
-| [HeaderCollection](headercollection#constructor_1)(HeaderCollection) | Инициализирует новый экземпляр класса[`HeaderCollection`](../headercollection). |
+| [HeaderCollection](headercollection#constructor)() | Инициализирует новый экземпляр[`HeaderCollection`](../headercollection) класс. |
+| [HeaderCollection](headercollection#constructor_1)(HeaderCollection) | Инициализирует новый экземпляр[`HeaderCollection`](../headercollection) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [AllKeys](../../aspose.email.mime/headercollection/allkeys) { get; } | Получает массив строк, содержащих все ключи заголовков в коллекциях |
+| virtual [AllKeys](../../aspose.email.mime/headercollection/allkeys) { get; } | Получает массив строк, содержащих все ключи заголовков в collections |
 | virtual [Count](../../aspose.email.mime/headercollection/count) { get; } | Получает количество заголовков |
 | [IsReadOnly](../../aspose.email.mime/headercollection/isreadonly) { get; } | Коллекция доступна только для чтения |
 | [Item](../../aspose.email.mime/headercollection/item) { get; } | Получает значение из коллекции по индексу. |
 | [Item](../../aspose.email.mime/headercollection/item) { get; set; } | Получает значение из коллекции по имени. |
-| virtual [Keys](../../aspose.email.mime/headercollection/keys) { get; } | Получает объектReadOnlyCollection, содержащий все ключи заголовков в коллекциях |
+| virtual [Keys](../../aspose.email.mime/headercollection/keys) { get; } | ПолучаетReadOnlyCollection содержащий все ключи заголовков в collections |
 
 ## Методы
 
@@ -41,14 +41,14 @@ public class HeaderCollection : ICollection<string>
 | [Add](../../aspose.email.mime/headercollection/add#add_2)(string, string) | Добавляет заголовок. |
 | virtual [Add_](../../aspose.email.mime/headercollection/add_)(string, string) | Добавляет заголовок. |
 | virtual [Clear](../../aspose.email.mime/headercollection/clear)() | Очищает все заголовки. |
-| [Contains](../../aspose.email.mime/headercollection/contains)(string) | Получает значение, указывающее, содержится ли указанный заголовок в коллекции |
+| [Contains](../../aspose.email.mime/headercollection/contains)(string) | Получает значение, указывающее, содержится ли указанный заголовок в collection |
 | [CopyTo](../../aspose.email.mime/headercollection/copyto)(string[], int) | Копирует все элементы текущей коллекции в указанный массив строк, начиная с указанного целевого индекса. |
 | virtual [Get](../../aspose.email.mime/headercollection/get#get)(int) | Получает значение по указанному индексу. |
 | [Get](../../aspose.email.mime/headercollection/get#get_1)(string) | Получает значение заголовка по заданному имени заголовка. |
 | [GetDecodedValue](../../aspose.email.mime/headercollection/getdecodedvalue)(string) | Получает значение заголовка. |
 | [GetEnumerator](../../aspose.email.mime/headercollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | virtual [GetKey](../../aspose.email.mime/headercollection/getkey)(int) | Получает ключ по указанному индексу коллекции. |
-| [GetValues](../../aspose.email.mime/headercollection/getvalues)(string) | Получает значения заголовков. |
+| [GetValues](../../aspose.email.mime/headercollection/getvalues)(string) | Получает значения заголовка. |
 | [HasKeys](../../aspose.email.mime/headercollection/haskeys)() | Получает значение, указывающее, содержит ли коллекция ключи. |
 | [Insert](../../aspose.email.mime/headercollection/insert)(string, string) | Вставляет заголовок в коллекцию. Если коллекция содержит заголовки с таким же именем, этот заголовок будет вставлен перед другими заголовками с тем же именем. |
 | [Remove](../../aspose.email.mime/headercollection/remove)(string) | Удаляет заголовок из коллекции по заданному имени заголовка. |

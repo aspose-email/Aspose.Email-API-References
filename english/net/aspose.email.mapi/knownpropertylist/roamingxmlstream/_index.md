@@ -1,7 +1,7 @@
 ---
 title: RoamingXmlStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an XML stream as specified in MSOXOCFG section 2.2.5.2. Area Configuration Canonical name PidTagRoamingXmlStream Alternate names PR_ROAMING_XMLSTREAM
 type: docs
 weight: 16330
 url: /net/aspose.email.mapi/knownpropertylist/roamingxmlstream/

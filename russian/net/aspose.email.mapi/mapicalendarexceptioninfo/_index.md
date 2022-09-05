@@ -18,7 +18,7 @@ public sealed class MapiCalendarExceptionInfo
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarExceptionInfo](mapicalendarexceptioninfo)() | Инициализирует новый экземпляр класса[`MapiCalendarExceptionInfo`](../mapicalendarexceptioninfo). |
+| [MapiCalendarExceptionInfo](mapicalendarexceptioninfo)() | Инициализирует новый экземпляр[`MapiCalendarExceptionInfo`](../mapicalendarexceptioninfo) класс. |
 
 ## Характеристики
 
@@ -28,14 +28,14 @@ public sealed class MapiCalendarExceptionInfo
 | [Body](../../aspose.email.mapi/mapicalendarexceptioninfo/body) { get; set; } | Получает или задает тело. |
 | [BusyStatus](../../aspose.email.mapi/mapicalendarexceptioninfo/busystatus) { get; set; } | Получает или устанавливает статус занятости. |
 | [EndDateTime](../../aspose.email.mapi/mapicalendarexceptioninfo/enddatetime) { get; set; } | Получает или задает дату окончания. |
-| [HasAttachment](../../aspose.email.mapi/mapicalendarexceptioninfo/hasattachment) { get; } | Получает значение этого поля, определяющее, содержит ли объект Exception Embedded Message вложения |
+| [HasAttachment](../../aspose.email.mapi/mapicalendarexceptioninfo/hasattachment) { get; } | Получает значение этого поля, указывающее, содержит ли объект встроенного сообщения об исключении вложения |
 | [Location](../../aspose.email.mapi/mapicalendarexceptioninfo/location) { get; set; } | Получает или задает местоположение. |
 | [MeetingType](../../aspose.email.mapi/mapicalendarexceptioninfo/meetingtype) { get; set; } | Получает или задает тип собрания. |
 | [OriginalStartDate](../../aspose.email.mapi/mapicalendarexceptioninfo/originalstartdate) { get; set; } | Получает или задает исходную дату начала. |
 | [OverrideFlags](../../aspose.email.mapi/mapicalendarexceptioninfo/overrideflags) { get; } | Получает флаги переопределения. |
 | [ReminderDelta](../../aspose.email.mapi/mapicalendarexceptioninfo/reminderdelta) { get; set; } | Получает или задает дельту напоминания. |
 | [ReminderSet](../../aspose.email.mapi/mapicalendarexceptioninfo/reminderset) { get; set; } | Получает или задает значение свойства PidLidReminderSet. |
-| [StartDateTime](../../aspose.email.mapi/mapicalendarexceptioninfo/startdatetime) { get; set; } | Получает или задает начальную дату. |
+| [StartDateTime](../../aspose.email.mapi/mapicalendarexceptioninfo/startdatetime) { get; set; } | Получает или задает дату начала. |
 | [Subject](../../aspose.email.mapi/mapicalendarexceptioninfo/subject) { get; set; } | Получает или задает тему. |
 | [SubType](../../aspose.email.mapi/mapicalendarexceptioninfo/subtype) { get; set; } | Получает или задает подтип. |
 

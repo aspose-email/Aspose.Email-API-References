@@ -1,9 +1,9 @@
 ---
 title: LinkedResources
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the collection of linked resources of message
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email/mailmessage/linkedresources/
 ---
 ## MailMessage.LinkedResources property

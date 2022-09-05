@@ -3,7 +3,7 @@ title: WebDavContactSaveOptions
 second_title: Aspose.Email for .NET API 参考
 description: 指定联系人保存选项
 type: docs
-weight: 19000
+weight: 19030
 url: /zh/net/aspose.email.mapi/webdavcontactsaveoptions/
 ---
 ## WebDavContactSaveOptions class
@@ -18,7 +18,7 @@ public class WebDavContactSaveOptions : ContactSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WebDavContactSaveOptions](webdavcontactsaveoptions)() | 初始化[`WebDavContactSaveOptions`](../webdavcontactsaveoptions)类的新实例。 |
+| [WebDavContactSaveOptions](webdavcontactsaveoptions)() | 初始化[`WebDavContactSaveOptions`](../webdavcontactsaveoptions)类. |
 
 ## 特性
 

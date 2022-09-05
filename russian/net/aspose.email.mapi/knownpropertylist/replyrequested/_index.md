@@ -1,14 +1,14 @@
 ---
 title: ReplyRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивается ли ответ на объект сообщения. ОбластьMapiRecipient Каноническое имяPidTagReplyRequested Альтернативные именаPR_REPLY_REQUESTED ptagReplyRequested
+description: Указывает запрашивается ли ответ на объект сообщения. Область MapiRecipient Каноническое имя PidTagReplyRequested Альтернативные имена PR_REPLY_REQUESTED ptagReplyRequested
 type: docs
 weight: 15950
 url: /ru/net/aspose.email.mapi/knownpropertylist/replyrequested/
 ---
 ## KnownPropertyList.ReplyRequested field
 
-Указывает, запрашивается ли ответ на объект сообщения. Область:MapiRecipient Каноническое имя:PidTagReplyRequested Альтернативные имена:PR_REPLY_REQUESTED, ptagReplyRequested
+Указывает, запрашивается ли ответ на объект сообщения. Область: MapiRecipient Каноническое имя: PidTagReplyRequested Альтернативные имена: PR_REPLY_REQUESTED, ptagReplyRequested
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRequested;

@@ -18,10 +18,10 @@ public class ObjectDisposedException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ObjectDisposedException](objectdisposedexception#constructor)() | 初始化ObjectDisposedException类的新实例。 |
-| [ObjectDisposedException](objectdisposedexception#constructor_1)(string) | 使用指定的错误消息初始化ObjectDisposedException类的新实例。 |
-| [ObjectDisposedException](objectdisposedexception#constructor_2)(string, Exception) | 初始化ObjectDisposedException类 的新实例，带有指定的错误消息和对导致此异常的内部异常。 |
-| [ObjectDisposedException](objectdisposedexception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化ObjectDisposedException类的新实例。 |
+| [ObjectDisposedException](objectdisposedexception#constructor)() | 初始化ObjectDisposedException类. |
+| [ObjectDisposedException](objectdisposedexception#constructor_1)(string) | 初始化ObjectDisposedException具有指定错误消息的类。 |
+| [ObjectDisposedException](objectdisposedexception#constructor_2)(string, Exception) | 初始化ObjectDisposedException类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [ObjectDisposedException](objectdisposedexception#constructor_3)(string, params object[]) | 初始化ObjectDisposedException具有指定错误消息的类。 |
 
 ## 特性
 

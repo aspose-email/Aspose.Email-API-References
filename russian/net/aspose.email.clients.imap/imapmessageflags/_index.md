@@ -18,8 +18,8 @@ public class ImapMessageFlags : IEquatable<ImapMessageFlags>
 
 | Имя | Описание |
 | --- | --- |
-| static [Answered](../../aspose.email.clients.imap/imapmessageflags/answered) { get; } | Ответ на сообщение получен. |
-| static [Deleted](../../aspose.email.clients.imap/imapmessageflags/deleted) { get; } | Сообщение "удалено" для последующего удаления с помощью EXPUNGE. |
+| static [Answered](../../aspose.email.clients.imap/imapmessageflags/answered) { get; } | На сообщение был дан ответ. |
+| static [Deleted](../../aspose.email.clients.imap/imapmessageflags/deleted) { get; } | Сообщение "удалено" для последующего удаления EXPUNGE. |
 | static [Draft](../../aspose.email.clients.imap/imapmessageflags/draft) { get; } | Сообщение отмечено как черновик. |
 | static [Empty](../../aspose.email.clients.imap/imapmessageflags/empty) { get; } | Флаги не установлены |
 | static [Flagged](../../aspose.email.clients.imap/imapmessageflags/flagged) { get; } | Сообщение "помечено" для срочного/особого внимания. |
@@ -36,16 +36,16 @@ public class ImapMessageFlags : IEquatable<ImapMessageFlags>
 | static [BitwiseOr](../../aspose.email.clients.imap/imapmessageflags/bitwiseor#bitwiseor_2)(string, ImapMessageFlags) | Реализует оператор &#x7C;. |
 | static [Keyword](../../aspose.email.clients.imap/imapmessageflags/keyword)(string) | Сообщение отмечено пользовательским флагом. |
 | virtual [Equals](../../aspose.email.clients.imap/imapmessageflags/equals#equals)(ImapMessageFlags) | Определяет, равен ли указанный объект текущему объекту. |
-| override [Equals](../../aspose.email.clients.imap/imapmessageflags/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email.clients.imap/imapmessageflags/equals#equals_1)(object) | Определяет, является ли указанныйObject равен этому экземпляру. |
 | override [GetHashCode](../../aspose.email.clients.imap/imapmessageflags/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [HasFlag](../../aspose.email.clients.imap/imapmessageflags/hasflag)(ImapMessageFlags) | Возвращает true, если "кто" содержит "флаг" |
+| [HasFlag](../../aspose.email.clients.imap/imapmessageflags/hasflag)(ImapMessageFlags) | Возвращает true, если «кто» содержит «флаг» |
 | [IsEmpty](../../aspose.email.clients.imap/imapmessageflags/isempty)() | Определяет, является ли этот экземпляр пустым. |
 | [Split](../../aspose.email.clients.imap/imapmessageflags/split)() | Разделить на массив. |
-| override [ToString](../../aspose.email.clients.imap/imapmessageflags/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.clients.imap/imapmessageflags/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | [operator &amp;](../../aspose.email.clients.imap/imapmessageflags/op_bitwiseand) | Реализует оператор &amp;. |
 | [operator &#x7C;](../../aspose.email.clients.imap/imapmessageflags/op_bitwiseor#op_bitwiseor) | Реализует оператор &#x7C;. (3 operators) |
 | [operator ==](../../aspose.email.clients.imap/imapmessageflags/op_equality) | Реализует оператор ==. |
-| [implicit operator](../../aspose.email.clients.imap/imapmessageflags/op_implicit) | Выполняет неявное преобразование изInt64в[`ImapMessageFlags`](../imapmessageflags). |
+| [implicit operator](../../aspose.email.clients.imap/imapmessageflags/op_implicit) | Выполняет неявное преобразование изInt64 к[`ImapMessageFlags`](../imapmessageflags) . |
 | [operator !=](../../aspose.email.clients.imap/imapmessageflags/op_inequality) | Реализует оператор !=. |
 
 ### Смотрите также

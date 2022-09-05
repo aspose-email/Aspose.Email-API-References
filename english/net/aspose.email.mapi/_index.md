@@ -3,7 +3,7 @@ title: Aspose.Email.Mapi
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Mapi namespace contains classes that represent Outlook messages contacts appointments and classes for work with Microsoft Outlook PSTOST file format.
 type: docs
-weight: 280
+weight: 310
 url: /net/aspose.email.mapi/
 ---
 The **Aspose.Email.Mapi** namespace contains classes that represent Outlook messages, contacts, appointments and classes for work with Microsoft Outlook PST\OST file format.
@@ -28,10 +28,13 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiCalendarDailyRecurrencePattern](./mapicalendardailyrecurrencepattern) | Represents the daily recurrence pattern of the mapi calendar |
 | [MapiCalendarEventRecurrence](./mapicalendareventrecurrence) | Represents the recurrence properties of calendar object |
 | [MapiCalendarExceptionInfo](./mapicalendarexceptioninfo) | An exception specifies changes to an instance of a recurring series. |
+| [MapiCalendarIcsSaveOptions](./mapicalendaricssaveoptions) |  |
 | [MapiCalendarMonthlyNthRecurrencePattern](./mapicalendarmonthlynthrecurrencepattern) | Represents the monthly nth recurrence pattern of the mapi calendar |
 | [MapiCalendarMonthlyRecurrencePattern](./mapicalendarmonthlyrecurrencepattern) | Represents the monthly recurrence pattern of the mapi calendar |
+| [MapiCalendarMsgSaveOptions](./mapicalendarmsgsaveoptions) |  |
 | [MapiCalendarRecurrencePattern](./mapicalendarrecurrencepattern) | Represents the mapi recurrence pattern |
 | [MapiCalendarRecurrencePatternFactory](./mapicalendarrecurrencepatternfactory) | Represents the factory of MapiCalendarRecurrencePattern |
+| [MapiCalendarSaveOptions](./mapicalendarsaveoptions) |  |
 | [MapiCalendarTimeZone](./mapicalendartimezone) | Represents the mapi calendar time zone information |
 | [MapiCalendarTimeZoneInfo](./mapicalendartimezoneinfo) | Represents the mapi calendar time zone rule |
 | [MapiCalendarTimeZoneInfoCollection](./mapicalendartimezoneinfocollection) | Represents a collection of MapiCalendarTimeZoneInfo |

@@ -1,14 +1,14 @@
 ---
 title: EmsAbVoiceMailVolume
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_VOICE_MAIL_VOLUME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_VOICE_MAIL_VOLUME
 type: docs
 weight: 9550
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabvoicemailvolume/
 ---
 ## KnownPropertyList.EmsAbVoiceMailVolume field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_VOICE_MAIL_VOLUME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_VOICE_MAIL_VOLUME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbVoiceMailVolume;

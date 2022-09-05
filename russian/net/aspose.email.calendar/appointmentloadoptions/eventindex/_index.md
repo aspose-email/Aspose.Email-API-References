@@ -1,14 +1,14 @@
 ---
 title: EventIndex
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReaderCalendarReaderaspose.email.calendar/calendarreader.
+description: Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReaderCalendarReaderaspose.email.calendar/calendarreader .
 type: docs
 weight: 40
 url: /ru/net/aspose.email.calendar/appointmentloadoptions/eventindex/
 ---
 ## AppointmentLoadOptions.EventIndex property
 
-Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReader[`CalendarReader`](../../calendarreader).
+Определяет индекс VEVENT в случае нескольких событий в одном файле ics. Начальный VEVENT в случае чтения нескольких событий с помощью CalendarReader[`CalendarReader`](../../calendarreader) .
 
 ```csharp
 public int EventIndex { get; set; }

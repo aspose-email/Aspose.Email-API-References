@@ -19,7 +19,7 @@ public static class PemReader
 | Имя | Описание |
 | --- | --- |
 | static [GetPrivateKey](../../aspose.email.dkim/pemreader/getprivatekey#getprivatekey)(Stream) | Читает закрытый ключ из потока. |
-| static [GetPrivateKey](../../aspose.email.dkim/pemreader/getprivatekey#getprivatekey_1)(string) | Читает закрытый ключ из PEM-файла. |
+| static [GetPrivateKey](../../aspose.email.dkim/pemreader/getprivatekey#getprivatekey_1)(string) | Читает закрытый ключ из файла PEM. |
 
 ### Смотрите также
 

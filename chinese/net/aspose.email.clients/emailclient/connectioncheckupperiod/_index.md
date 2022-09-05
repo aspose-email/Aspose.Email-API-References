@@ -1,14 +1,14 @@
 ---
 title: ConnectionCheckupPeriod
 second_title: Aspose.Email for .NET API 参考
-description: 连接检查周期以毫秒为单位 默认值为 5 分钟
+description: 以毫秒为单位的连接检查周期 默认值为 5 分钟
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients/emailclient/connectioncheckupperiod/
 ---
 ## EmailClient.ConnectionCheckupPeriod property
 
-连接检查周期（以毫秒为单位）。 默认值为 5 分钟。
+以毫秒为单位的连接检查周期。 默认值为 5 分钟。
 
 ```csharp
 public virtual int ConnectionCheckupPeriod { get; set; }

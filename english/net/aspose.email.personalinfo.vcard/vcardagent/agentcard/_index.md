@@ -1,7 +1,7 @@
 ---
 title: AgentCard
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an agents card null if ValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation is not INLINE
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardagent/agentcard/

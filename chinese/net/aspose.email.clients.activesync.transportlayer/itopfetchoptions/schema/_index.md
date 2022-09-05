@@ -1,14 +1,14 @@
 ---
 title: Schema
 second_title: Aspose.Email for .NET API 参考
-description: 指定要获取的项目的架构 PIM Fetch第 2.2.3.63.1 节请求的选项中支持架构 客户端从文档库中检索项目或检索附件时不支持 如果未指定 Schema 元素则服务器允许检索所有属性
+description: 指定要获取的项目的架构 PIM 获取第 2.2.3.63.1 节请求的选项中支持该架构 客户端从文档库中检索项目或检索附件时不支持 如果未指定架构元素则服务器允许检索所有属性
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/schema/
 ---
 ## ItOpFetchOptions.Schema property
 
-指定要获取的项目的架构。 PIM Fetch（第 2.2.3.63.1 节）请求的选项中支持架构。 客户端从文档库中检索项目或检索附件时不支持。 如果未指定 Schema 元素，则服务器允许检索所有属性。
+指定要获取的项目的架构。 PIM 获取（第 2.2.3.63.1 节）请求的选项中支持该架构。 客户端从文档库中检索项目或检索附件时不支持。 如果未指定架构元素，则服务器允许检索所有属性。
 
 ```csharp
 public List<string> Schema { get; }

@@ -1,7 +1,7 @@
 ---
 title: Email2AddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the address type of the electronic address. Area Contact Properties Canonical name PidLidEmail2AddressType Alternate names dispidEmail2AddrType
 type: docs
 weight: 4370
 url: /net/aspose.email.mapi/knownpropertylist/email2addresstype/

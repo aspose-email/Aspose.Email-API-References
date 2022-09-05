@@ -1,14 +1,14 @@
 ---
 title: TasksUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取任务 uri
+description: 获取任务 uri.
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/tasksuri/
 ---
 ## ExchangeMailboxInfo.TasksUri property
 
-获取任务 uri。
+获取任务 uri.
 
 ```csharp
 public abstract string TasksUri { get; set; }

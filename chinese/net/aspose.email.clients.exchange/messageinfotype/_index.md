@@ -20,8 +20,8 @@ public enum MessageInfoType
 | --- | --- | --- |
 | None | `0` | 未定义类型。 |
 | MailMessage | `1` | 此值表示电子邮件消息类型（IPM.Note 类 ID）。 |
-| Appointment | `2` | 此值表示约会类型（IPM.Appointment 类 ID）。 |
-| Task | `3` | 此值表示任务类型（IPM.Task 类 ID）。 |
+| Appointment | `2` | 此值表示约会类型（IPM.约会类 ID）。 |
+| Task | `3` | 该值表示任务类型（IPM.Task 类 ID）。 |
 | Post | `4` | 此值表示过帐备注类型（IPM.Post 类 ID）。 |
 | Contact | `5` | 此值表示联系人类型（IPM.Contact 类 ID）。 |
 

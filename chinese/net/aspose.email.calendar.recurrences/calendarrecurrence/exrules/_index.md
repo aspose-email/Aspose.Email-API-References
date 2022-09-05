@@ -16,7 +16,7 @@ public RecurrenceRuleCollection ExRules { get; }
 
 ### 适当的价值
 
-前规则。
+前任规则。
 
 ### 也可以看看
 

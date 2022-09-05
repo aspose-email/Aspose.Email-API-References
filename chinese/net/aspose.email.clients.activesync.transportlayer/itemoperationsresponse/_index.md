@@ -26,7 +26,7 @@ public class ItemOperationsResponse
 | --- | --- |
 | [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/emptyfoldercontents) { get; } | 将响应的主体标识为包含删除文件夹内容的操作。 |
 | [Fetch](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/fetch) { get; } | 包含有关从服务器检索项目的响应。 |
-| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move) { get; } | 将响应的主体标识为包含移动给定对话的操作。 协议版本为 12.1 时不支持 Move 元素。 |
+| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move) { get; } | 将响应的主体标识为包含移动给定对话的操作。 当协议版本为 12.1 时，不支持 Move 元素。 |
 
 ### 也可以看看
 

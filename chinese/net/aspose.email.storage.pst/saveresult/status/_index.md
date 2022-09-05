@@ -16,7 +16,7 @@ public SaveStatus Status { get; }
 
 ### 适当的价值
 
-[`SaveStatus`](../../savestatus)。
+这[`SaveStatus`](../../savestatus).
 
 ### 也可以看看
 

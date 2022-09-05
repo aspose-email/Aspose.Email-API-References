@@ -1,7 +1,7 @@
 ---
 title: ReplyBody
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the OOF message response.
 type: docs
 weight: 4120
 url: /net/aspose.email.clients.exchange.webservice/replybody/

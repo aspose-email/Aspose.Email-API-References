@@ -17,9 +17,9 @@ public Task DeleteItemAsync(string itemUri, DeletionOptions options,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemUri | String | 项目uri |
-| options | DeletionOptions | 定义项目删除参数 |
-| cancellationToken | CancellationToken | 取消标记。 |
+| itemUri | String | 项目 uri |
+| options | DeletionOptions | 定义项目删除的参数 |
+| cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 也可以看看
 

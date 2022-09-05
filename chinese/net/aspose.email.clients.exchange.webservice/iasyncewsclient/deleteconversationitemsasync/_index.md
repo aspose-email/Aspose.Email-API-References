@@ -1,14 +1,14 @@
 ---
 title: DeleteConversationItemsAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除位于指定文件夹中的对话项目
+description: 删除指定文件夹中的对话项目
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/deleteconversationitemsasync/
 ---
 ## IAsyncEwsClient.DeleteConversationItemsAsync method
 
-删除位于指定文件夹中的对话项目
+删除指定文件夹中的对话项目
 
 ```csharp
 public Task DeleteConversationItemsAsync(string conversationId, string contextFolderId = null, 
@@ -18,14 +18,14 @@ public Task DeleteConversationItemsAsync(string conversationId, string contextFo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | conversationId | String | 要删除的对话 ID |
-| contextFolderId | String | 删除对话项目的文件夹 ID。注意:如果设置为 null（或为空），将删除所有会话项 |
+| contextFolderId | String | 删除对话项目的文件夹的 ID。注意：如果设置为 null（或为空），将删除所有会话项 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

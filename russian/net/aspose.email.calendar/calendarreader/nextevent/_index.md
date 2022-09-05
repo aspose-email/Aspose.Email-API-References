@@ -1,14 +1,14 @@
 ---
 title: NextEvent
 second_title: Справочник по Aspose.Email для .NET API
-description: Читает следующее событие из источника и сохраняет его в текущее.
+description: Читает следующее событие из источника и сохраняет его в текущий.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.calendar/calendarreader/nextevent/
 ---
 ## CalendarReader.NextEvent method
 
-Читает следующее событие из источника и сохраняет его в текущее.
+Читает следующее событие из источника и сохраняет его в текущий.
 
 ```csharp
 public bool NextEvent()
@@ -16,7 +16,7 @@ public bool NextEvent()
 
 ### Возвращаемое значение
 
-Истина в случае успеха, в противном случае ложь.
+Истина, если успех, в противном случае ложь.
 
 ### Смотрите также
 

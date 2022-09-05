@@ -1,7 +1,7 @@
 ---
 title: AddressBookModerationEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether moderation is enabled for the mail user or distribution list. Area Address Book Canonical name PidTagAddressBookModerationEnabled Alternate names PR_EMS_AB_ENABLE_MODERATION
 type: docs
 weight: 750
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmoderationenabled/

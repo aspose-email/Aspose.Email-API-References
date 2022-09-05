@@ -1,7 +1,7 @@
 ---
 title: RootUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the root uri.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/rooturi/

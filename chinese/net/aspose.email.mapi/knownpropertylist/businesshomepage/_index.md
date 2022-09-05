@@ -1,14 +1,14 @@
 ---
 title: BusinessHomePage
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户业务主页的 URL 区域联系人属性 规范名称PidTagBusinessHomePage 别名PR_BUSINESS_HOME_PAGEPR_BUSINESS_HOME_PAGE_APR_BUSINESS_HOME_PAGE_W
+description: 包含邮件用户的企业主页的 URL 区域联系人属性 规范名称PidTagBusinessHomePage 替代名称PR_BUSINESS_HOME_PAGEPR_BUSINESS_HOME_PAGE_APR_BUSINESS_HOME_PAGE_W
 type: docs
 weight: 2130
 url: /zh/net/aspose.email.mapi/knownpropertylist/businesshomepage/
 ---
 ## KnownPropertyList.BusinessHomePage field
 
-包含邮件用户业务主页的 URL。 区域:联系人属性 规范名称:PidTagBusinessHomePage 别名:PR_BUSINESS_HOME_PAGE、PR_BUSINESS_HOME_PAGE_A、PR_BUSINESS_HOME_PAGE_W、
+包含邮件用户的企业主页的 URL。 区域：联系人属性 规范名称：PidTagBusinessHomePage 替代名称：PR_BUSINESS_HOME_PAGE、PR_BUSINESS_HOME_PAGE_A、PR_BUSINESS_HOME_PAGE_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BusinessHomePage;

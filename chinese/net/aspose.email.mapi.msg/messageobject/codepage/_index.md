@@ -1,14 +1,14 @@
 ---
 title: Codepage
 second_title: Aspose.Email for .NET API 参考
-description: 获取用于编码/解码字符串属性的代码页以防PT_STRING8type for它们被使用
+description: 获取用于编码/解码字符串属性的代码页以防万一PT_STRING8使用它们的类型
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi.msg/messageobject/codepage/
 ---
 ## MessageObject.Codepage property
 
-获取用于编码/解码字符串属性的代码页，以防PT_STRING8type for它们被使用。
+获取用于编码/解码字符串属性的代码页，以防万一PT_STRING8使用它们的类型。
 
 ```csharp
 public int Codepage { get; }

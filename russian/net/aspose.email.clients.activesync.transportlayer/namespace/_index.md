@@ -25,23 +25,23 @@ public enum Namespace
 | Calendar | `4` | Кодовая страница календаря |
 | Move | `5` | Переместить кодовую страницу |
 | GetItemEstimate | `6` | Кодовая страница GetItemEstimate |
-| FolderHierarchy | `7` | Кодовая страница FolderHierarchy |
+| FolderHierarchy | `7` | Кодовая страница иерархии папок |
 | MeetingResponse | `8` | Кодовая страница MeetingResponse |
 | Tasks | `9` | Кодовая страница задач |
 | ResolveRecipients | `10` | Кодовая страница ResolveRecipients |
 | ValidateCert | `11` | Кодовая страница ValidateCert |
 | Contacts2 | `12` | Кодовая страница контактов2 |
-| Ping | `13` | Пинг кодовой страницы |
-| Provision | `14` | Предоставить кодовую страницу |
+| Ping | `13` | Пинг-кодовая страница |
+| Provision | `14` | Кодовая страница предоставления |
 | Search | `15` | Кодовая страница поиска |
-| Gal | `16` | Кодовая страница Gal |
+| Gal | `16` | Гал кодовая страница |
 | AirSyncBase | `17` | Кодовая страница AirSyncBase |
 | Settings | `18` | Кодовая страница настроек |
 | DocumentLibrary | `19` | Кодовая страница DocumentLibrary |
 | ItemOperations | `20` | Кодовая страница ItemOperations |
 | ComposeMail | `21` | Кодовая страница ComposeMail |
-| Email2 | `22` | Кодовая страница Email2 |
-| Notes | `23` | Кодовая страница Notes |
+| Email2 | `22` | Кодовая страница электронной почты2 |
+| Notes | `23` | Кодовая страница заметок |
 | RightsManagement | `24` | Кодовая страница управления правами |
 
 ### Смотрите также

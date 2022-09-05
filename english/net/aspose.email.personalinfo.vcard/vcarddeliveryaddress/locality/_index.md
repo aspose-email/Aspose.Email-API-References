@@ -1,7 +1,7 @@
 ---
 title: Locality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a locality
 type: docs
 weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality/

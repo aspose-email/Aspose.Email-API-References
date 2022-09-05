@@ -1,7 +1,7 @@
 ---
 title: ReadAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extracts the attachment from the Outlook Message files.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapimessagereader/readattachments/

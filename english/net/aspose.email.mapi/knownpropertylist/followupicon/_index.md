@@ -1,7 +1,7 @@
 ---
 title: FollowupIcon
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the flag color of the Message object. Area RenMessageFolder Canonical name PidTagFollowupIcon Alternate names PR_FOLLOWUP_ICON ptagFollowupIcon
 type: docs
 weight: 10460
 url: /net/aspose.email.mapi/knownpropertylist/followupicon/

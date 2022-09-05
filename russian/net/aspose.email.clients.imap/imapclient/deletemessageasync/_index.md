@@ -16,12 +16,12 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для этого операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -42,12 +42,12 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для этого операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -92,7 +92,7 @@ public Task DeleteMessageAsync(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
+| uniqueId | String | UID сообщения |
 
 ### Возвращаемое значение
 
@@ -117,13 +117,13 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -144,13 +144,13 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -172,11 +172,11 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -197,11 +197,11 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | UID сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -213,7 +213,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence)
 
 ## DeleteMessageAsync(string, bool) {#deletemessageasync_17}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, bool commitNow)
@@ -221,8 +221,8 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Возвращаемое значение
 
@@ -238,7 +238,7 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow)
 
 ## DeleteMessageAsync(IConnection, string, bool) {#deletemessageasync_5}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool commitNow)
@@ -248,7 +248,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Возвращаемое значение
 
@@ -265,7 +265,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 
 ## DeleteMessageAsync(string, long, bool) {#deletemessageasync_20}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool commitNow)
@@ -273,9 +273,9 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Возвращаемое значение
 
@@ -291,7 +291,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 ## DeleteMessageAsync(IConnection, string, long, bool) {#deletemessageasync_8}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId, long modificationSequence, 
@@ -301,9 +301,9 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| uniqueId | String | uid сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Возвращаемое значение
 
@@ -328,9 +328,9 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -355,9 +355,9 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -433,9 +433,9 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -462,9 +462,9 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -492,7 +492,7 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -518,7 +518,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, Cance
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | UID сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -535,7 +535,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, Cance
 
 ## DeleteMessageAsync(string, bool, CancellationToken) {#deletemessageasync_18}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, bool commitNow, CancellationToken token)
@@ -543,8 +543,8 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow, CancellationToke
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -561,7 +561,7 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow, CancellationToke
 
 ## DeleteMessageAsync(IConnection, string, bool, CancellationToken) {#deletemessageasync_6}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool commitNow, 
@@ -572,7 +572,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -590,7 +590,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 
 ## DeleteMessageAsync(string, long, bool, CancellationToken) {#deletemessageasync_21}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool commitNow, 
@@ -599,9 +599,9 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -618,7 +618,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 ## DeleteMessageAsync(IConnection, string, long, bool, CancellationToken) {#deletemessageasync_9}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId, long modificationSequence, 
@@ -628,9 +628,9 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| uniqueId | String | uid сообщения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | UID сообщения |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

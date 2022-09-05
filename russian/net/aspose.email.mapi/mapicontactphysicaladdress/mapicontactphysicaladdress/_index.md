@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactPhysicalAddressaspose.email.mapi/mapicontactphysicaladdress.
+description: Инициализирует новый экземплярMapiContactPhysicalAddressaspose.email.mapi/mapicontactphysicaladdress класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactphysicaladdress/mapicontactphysicaladdress/
 ---
 ## MapiContactPhysicalAddress constructor
 
-Инициализирует новый экземпляр класса[`MapiContactPhysicalAddress`](../../mapicontactphysicaladdress).
+Инициализирует новый экземпляр[`MapiContactPhysicalAddress`](../../mapicontactphysicaladdress) класс.
 
 ```csharp
 public MapiContactPhysicalAddress()

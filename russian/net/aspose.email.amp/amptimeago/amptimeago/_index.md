@@ -38,7 +38,7 @@ public AmpTimeago(DateTime dateTime, int width, int height)
 | --- | --- | --- |
 | dateTime | DateTime |  |
 | width | Int32 |  |
-| высота | Int32 |  |
+| height | Int32 |  |
 
 ### Смотрите также
 

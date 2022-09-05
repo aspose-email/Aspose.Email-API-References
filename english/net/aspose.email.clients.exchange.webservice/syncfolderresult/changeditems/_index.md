@@ -1,7 +1,7 @@
 ---
 title: ChangedItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Collection of changed items in the specified folder.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/syncfolderresult/changeditems/

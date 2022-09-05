@@ -1,14 +1,14 @@
 ---
 title: Email3EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес электронной почты контакта. ОбластьСвойства контакта Каноническое имяPidLidEmail3EmailAddress Альтернативные именаdispidEmail3EmailAddress
+description: Указывает адрес электронной почты контакта. Область Свойства контакта Каноническое имя PidLidEmail3EmailAddress Альтернативные имена dispidEmail3EmailAddress
 type: docs
 weight: 4440
 url: /ru/net/aspose.email.mapi/knownpropertylist/email3emailaddress/
 ---
 ## KnownPropertyList.Email3EmailAddress field
 
-Указывает адрес электронной почты контакта. Область:Свойства контакта Каноническое имя:PidLidEmail3EmailAddress Альтернативные имена:dispidEmail3EmailAddress
+Указывает адрес электронной почты контакта. Область: Свойства контакта Каноническое имя: PidLidEmail3EmailAddress Альтернативные имена: dispidEmail3EmailAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3EmailAddress;

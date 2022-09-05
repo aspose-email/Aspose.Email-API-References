@@ -16,13 +16,13 @@ public DateCollection GenerateOccurrences()
 
 ### 返回值
 
-日期集合[`DateCollection`](../../datecollection)。
+日期集合[`DateCollection`](../../datecollection).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| Exception | 如果未设置 StartDate 则抛出。 |
+| Exception | 如果未设置 StartDate，则抛出。 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public DateCollection GenerateOccurrences()
 
 ## GenerateOccurrences(int) {#generateoccurrences_1}
 
-生成 n 次下一次出现。
+生成 n 次下一个事件。
 
 ```csharp
 public DateCollection GenerateOccurrences(int nNextOccurrences)
@@ -43,18 +43,18 @@ public DateCollection GenerateOccurrences(int nNextOccurrences)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nNextOccurrences | Int32 | 需要的出现次数。 |
+| nNextOccurrences | Int32 | 需要发生的次数。 |
 
 ### 返回值
 
-日期集合[`DateCollection`](../../datecollection)。
+日期集合[`DateCollection`](../../datecollection).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| Exception | 如果未设置 StartDate 则抛出。 |
-| ArgumentOutOfRangeException | 如果需要的出现次数小于或等于零，则抛出。 |
+| Exception | 如果未设置 StartDate，则抛出。 |
+| ArgumentOutOfRangeException | 如果所需事件的数量小于或等于零，则抛出。 |
 
 ### 也可以看看
 
@@ -80,7 +80,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 
 ### 返回值
 
-日期集合[`DateCollection`](../../datecollection)。
+日期集合[`DateCollection`](../../datecollection).
 
 ### 例外
 
@@ -99,7 +99,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 
 ## GenerateOccurrences(DateTime, DateTime, int) {#generateoccurrences_3}
 
-生成 n 次下一次出现。
+生成 n 次下一个事件。
 
 ```csharp
 public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd, 
@@ -110,18 +110,18 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 | --- | --- | --- |
 | rangeStart | DateTime | 范围开始。 |
 | rangeEnd | DateTime | 范围结束。 |
-| nNextOccurrences | Int32 | 所需的出现次数。 |
+| nNextOccurrences | Int32 | 需要发生的次数。 |
 
 ### 返回值
 
-日期集合[`DateCollection`](../../datecollection)。
+日期集合[`DateCollection`](../../datecollection).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| Exception | 如果未设置 StartDate 则抛出。 |
-| ArgumentOutOfRangeException | 如果需要的出现次数小于或等于零，则抛出。 |
+| Exception | 如果未设置 StartDate，则抛出。 |
+| ArgumentOutOfRangeException | 如果所需事件的数量小于或等于零，则抛出。 |
 
 ### 也可以看看
 

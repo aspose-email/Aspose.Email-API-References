@@ -1,7 +1,7 @@
 ---
 title: GetFloat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the bytes of the binary data as float.
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapiproperty/getfloat/

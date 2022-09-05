@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/description/
 ---
 ## InstantMessengerCategory.Description property
 
-Получает описание для категории "Пользовательский" адреса мессенджера
+Получает описание для категории «Пользовательский» адреса мессенджера
 
 ```csharp
 public string Description { get; }

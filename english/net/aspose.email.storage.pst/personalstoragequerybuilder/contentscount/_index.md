@@ -1,7 +1,7 @@
 ---
 title: ContentsCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search folders with an specified contents count.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/contentscount/

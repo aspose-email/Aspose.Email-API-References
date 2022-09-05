@@ -1,14 +1,14 @@
 ---
 title: AdditionalRenEntryIds
 second_title: Aspose.Email for .NET API 参考
-description: 包含与冲突同步问题本地故障服务器故障垃圾邮件和垃圾邮件相关的几个特殊文件夹的索引条目 ID 区域Outlook 应用程序 规范名称PidTagAdditionalRenEntryIds 备用名称PR_ADDITIONAL_REN_ENTRYIDS ptagAdditionalRenEntryIds
+description: 包含与冲突同步问题本地故障服务器故障垃圾邮件和垃圾邮件相关的几个特殊文件夹的索引条目 ID 区域Outlook 应用程序 规范名称PidTagAdditionalRenEntryIds 备用名称PR_ADDITIONAL_REN_ENTRYIDSptagAdditionalRenEntryIds
 type: docs
 weight: 300
 url: /zh/net/aspose.email.mapi/knownpropertylist/additionalrenentryids/
 ---
 ## KnownPropertyList.AdditionalRenEntryIds field
 
-包含与冲突、同步问题、本地故障、服务器故障、垃圾邮件和垃圾邮件相关的几个特殊文件夹的索引条目 ID。 区域:Outlook 应用程序 规范名称:PidTagAdditionalRenEntryIds 备用名称:PR_ADDITIONAL_REN_ENTRYIDS, ptagAdditionalRenEntryIds
+包含与冲突、同步问题、本地故障、服务器故障、垃圾邮件和垃圾邮件相关的几个特殊文件夹的索引条目 ID。 区域：Outlook 应用程序 规范名称：PidTagAdditionalRenEntryIds 备用名称：PR_ADDITIONAL_REN_ENTRYIDS、ptagAdditionalRenEntryIds
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AdditionalRenEntryIds;

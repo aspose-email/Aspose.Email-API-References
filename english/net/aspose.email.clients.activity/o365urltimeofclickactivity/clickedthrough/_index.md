@@ -1,7 +1,7 @@
 ---
 title: ClickedThrough
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is true if the URL block is clicked through overridden by the user based on the organizations policies for Office 365 ATP Safe Links protection. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/clickedthrough/

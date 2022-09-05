@@ -1,14 +1,14 @@
 ---
 title: CreateNotebook
 second_title: Справочник по Aspose.Email для .NET API
-description: Создайте новую записную книжку OneNote. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано рабочая или учебная учетная запись Notes.Create Notes.ReadWrite Notes.ReadWrite.All Делегировано личная учетная запись Microsoft Notes.Create Notes.ReadWrite Application Notes.ReadWrite.All
+description: Создать новый блокнот OneNote. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегированные рабочая или учебная учетная запись Notes.Create Notes.ReadWrite Notes.ReadWrite.All Делегированные личная учетная запись Microsoft Notes. Создать Notes.ReadWrite Application Notes.ReadWrite.All
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.graph/igraphclient/createnotebook/
 ---
 ## IGraphClient.CreateNotebook method
 
-Создайте новую записную книжку OneNote. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано (рабочая или учебная учетная запись) Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All Делегировано (личная учетная запись Microsoft) Notes.Create, Notes.ReadWrite Application Notes.ReadWrite.All
+Создать новый блокнот OneNote. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегированные (рабочая или учебная учетная запись) Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All Делегированные (личная учетная запись Microsoft) Notes. Создать, Notes.ReadWrite Application Notes.ReadWrite.All
 
 ```csharp
 public Notebook CreateNotebook(Notebook notebook)
@@ -16,7 +16,7 @@ public Notebook CreateNotebook(Notebook notebook)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| notebook | Notebook | Создаваемый блокнот |
+| notebook | Notebook | Блокнот, который нужно создать |
 
 ### Возвращаемое значение
 

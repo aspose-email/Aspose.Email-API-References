@@ -1,14 +1,14 @@
 ---
 title: SubjectEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置主题的编码
+description: 获取或设置subject 的编码
 type: docs
 weight: 330
 url: /zh/net/aspose.email/mailmessage/subjectencoding/
 ---
 ## MailMessage.SubjectEncoding property
 
-获取或设置主题的编码
+获取或设置subject 的编码
 
 ```csharp
 public virtual Encoding SubjectEncoding { get; set; }

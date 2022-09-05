@@ -1,14 +1,14 @@
 ---
 title: TaskLastUser
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя последнего пользователя который был владельцем задачи. ОбластьЗадачи Каноническое имяPidLidTaskLastUser Альтернативные именаdispidTaskLastUser
+description: Содержит имя последнего пользователя который был владельцем задачи. Область Tasks Каноническое имя PidLidTaskLastUser Альтернативные имена dispidTaskLastUser
 type: docs
 weight: 18710
 url: /ru/net/aspose.email.mapi/knownpropertylist/tasklastuser/
 ---
 ## KnownPropertyList.TaskLastUser field
 
-Содержит имя последнего пользователя, который был владельцем задачи. Область:Задачи Каноническое имя:PidLidTaskLastUser Альтернативные имена:dispidTaskLastUser
+Содержит имя последнего пользователя, который был владельцем задачи. Область: Tasks Каноническое имя: PidLidTaskLastUser Альтернативные имена: dispidTaskLastUser
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastUser;

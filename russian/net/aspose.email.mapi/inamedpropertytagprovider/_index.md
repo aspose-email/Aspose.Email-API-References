@@ -1,14 +1,14 @@
 ---
 title: INamedPropertyTagProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Интерфейс поставщика тегов именованных свойств mapi.
+description: Интерфейс именованного поставщика тегов свойств mapi.
 type: docs
 weight: 17830
 url: /ru/net/aspose.email.mapi/inamedpropertytagprovider/
 ---
 ## INamedPropertyTagProvider interface
 
-Интерфейс поставщика тегов именованных свойств mapi.
+Интерфейс именованного поставщика тегов свойств mapi.
 
 ```csharp
 public interface INamedPropertyTagProvider
@@ -18,9 +18,9 @@ public interface INamedPropertyTagProvider
 
 | Имя | Описание |
 | --- | --- |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_2)(long) | Создает тег именованного свойства |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag)(MapiPropertyType) | Создает тег именованного свойства |
-| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_1)(PropertyDataType) | Создает тег именованного свойства |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_2)(long) | Генерирует именованный тег свойства |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag)(MapiPropertyType) | Генерирует именованный тег свойства |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag#generatenamedpropertytag_1)(PropertyDataType) | Генерирует именованный тег свойства |
 | [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty#gettagfromnamedproperty)(long) | Получает тег из именованного свойства. |
 | [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty#gettagfromnamedproperty_1)(string) | Получает тег из именованного свойства. |
 

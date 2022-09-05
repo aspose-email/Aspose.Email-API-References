@@ -1,7 +1,7 @@
 ---
 title: MicrosoftOfficeExcelWorksheet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft office exccel format.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/oledocumentformat/microsoftofficeexcelworksheet/

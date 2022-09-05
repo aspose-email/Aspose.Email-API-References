@@ -1,12 +1,12 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must not be equal to the specified value.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/binarycomparisonfield/notequals/
 ---
-## BinaryComparisonField.NotEquals method (1 of 2)
+## NotEquals(byte[]) {#notequals}
 
 Indicates that field must not be equal to the specified value.
 
@@ -31,7 +31,7 @@ public MailQuery NotEquals(byte[] value)
 
 ---
 
-## BinaryComparisonField.NotEquals method (2 of 2)
+## NotEquals(string) {#notequals_1}
 
 Indicates that field must not be equal to the specified value.
 

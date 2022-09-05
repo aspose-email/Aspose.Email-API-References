@@ -1,14 +1,14 @@
 ---
 title: Quotas
 second_title: Aspose.Email for .NET API 参考
-description: 获取资源使用情况
+description: 获取资源的使用情况
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.imap/imapquotaroot/quotas/
 ---
 ## ImapQuotaRoot.Quotas property
 
-获取资源使用情况
+获取资源的使用情况
 
 ```csharp
 public List<ImapQuota> Quotas { get; }

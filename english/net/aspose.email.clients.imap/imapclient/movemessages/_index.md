@@ -1,12 +1,12 @@
 ---
 title: MoveMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the messaeg
 type: docs
 weight: 950
 url: /net/aspose.email.clients.imap/imapclient/movemessages/
 ---
-## ImapClient.MoveMessages method (1 of 20)
+## MoveMessages(IConnection, int, int, string, bool) {#movemessages_1}
 
 Moves the messaeg
 
@@ -32,7 +32,7 @@ public void MoveMessages(IConnection connection, int startSequence, int endSeque
 
 ---
 
-## ImapClient.MoveMessages method (2 of 20)
+## MoveMessages(int, int, string, bool) {#movemessages_11}
 
 Moves the message
 
@@ -56,7 +56,7 @@ public void MoveMessages(int startSequence, int endSequence, string folderName,
 
 ---
 
-## ImapClient.MoveMessages method (3 of 20)
+## MoveMessages(IConnection, int, int, string) {#movemessages}
 
 Moves the messaeg
 
@@ -81,7 +81,7 @@ public void MoveMessages(IConnection connection, int startSequence, int endSeque
 
 ---
 
-## ImapClient.MoveMessages method (4 of 20)
+## MoveMessages(int, int, string) {#movemessages_10}
 
 Moves the message
 
@@ -103,7 +103,7 @@ public void MoveMessages(int startSequence, int endSequence, string folderName)
 
 ---
 
-## ImapClient.MoveMessages method (5 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string, bool) {#movemessages_5}
 
 Moves the messaeg
 
@@ -128,7 +128,7 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 ---
 
-## ImapClient.MoveMessages method (6 of 20)
+## MoveMessages(IEnumerable&lt;int&gt;, string, bool) {#movemessages_15}
 
 Moves the message
 
@@ -150,7 +150,7 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ---
 
-## ImapClient.MoveMessages method (7 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string) {#movemessages_4}
 
 Moves the messaeg
 
@@ -173,7 +173,7 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 ---
 
-## ImapClient.MoveMessages method (8 of 20)
+## MoveMessages(IEnumerable&lt;int&gt;, string) {#movemessages_14}
 
 Moves the message
 
@@ -194,7 +194,7 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName)
 
 ---
 
-## ImapClient.MoveMessages method (9 of 20)
+## MoveMessages(IConnection, string, string, string, bool) {#movemessages_9}
 
 Moves the message
 
@@ -220,7 +220,7 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 
 ---
 
-## ImapClient.MoveMessages method (10 of 20)
+## MoveMessages(string, string, string, bool) {#movemessages_19}
 
 Moves the message
 
@@ -243,7 +243,7 @@ public void MoveMessages(string startUid, string endUid, string folderName, bool
 
 ---
 
-## ImapClient.MoveMessages method (11 of 20)
+## MoveMessages(IConnection, string, string, string) {#movemessages_8}
 
 Moves the message
 
@@ -267,7 +267,7 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 
 ---
 
-## ImapClient.MoveMessages method (12 of 20)
+## MoveMessages(string, string, string) {#movemessages_18}
 
 Moves the message
 
@@ -289,7 +289,7 @@ public void MoveMessages(string startUid, string endUid, string folderName)
 
 ---
 
-## ImapClient.MoveMessages method (13 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;string&gt;, string, bool) {#movemessages_7}
 
 Moves the message
 
@@ -314,7 +314,7 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ---
 
-## ImapClient.MoveMessages method (14 of 20)
+## MoveMessages(IEnumerable&lt;string&gt;, string, bool) {#movemessages_17}
 
 Moves the message
 
@@ -336,7 +336,7 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName, bool com
 
 ---
 
-## ImapClient.MoveMessages method (15 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;string&gt;, string) {#movemessages_6}
 
 Moves the message
 
@@ -359,7 +359,7 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ---
 
-## ImapClient.MoveMessages method (16 of 20)
+## MoveMessages(IEnumerable&lt;string&gt;, string) {#movemessages_16}
 
 Moves the message
 
@@ -380,7 +380,7 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName)
 
 ---
 
-## ImapClient.MoveMessages method (17 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, bool) {#movemessages_3}
 
 Moves the message
 
@@ -406,7 +406,7 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ---
 
-## ImapClient.MoveMessages method (18 of 20)
+## MoveMessages(IEnumerable&lt;ImapMessageInfo&gt;, string, bool) {#movemessages_13}
 
 Moves the message
 
@@ -430,7 +430,7 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 ---
 
-## ImapClient.MoveMessages method (19 of 20)
+## MoveMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) {#movemessages_2}
 
 Moves the message
 
@@ -455,7 +455,7 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ---
 
-## ImapClient.MoveMessages method (20 of 20)
+## MoveMessages(IEnumerable&lt;ImapMessageInfo&gt;, string) {#movemessages_12}
 
 Moves the message
 

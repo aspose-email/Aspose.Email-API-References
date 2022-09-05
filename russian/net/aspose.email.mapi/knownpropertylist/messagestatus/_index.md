@@ -1,14 +1,14 @@
 ---
 title: MessageStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус сообщения в таблице содержимого. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageStatus Альтернативные именаPR_MSG_STATUS ptagMsgStatus
+description: Указывает статус сообщения в таблице содержания. Область Общие свойства сообщения Каноническое имя PidTagMessageStatus Альтернативные имена PR_MSG_STATUS ptagMsgStatus
 type: docs
 weight: 12630
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagestatus/
 ---
 ## KnownPropertyList.MessageStatus field
 
-Указывает статус сообщения в таблице содержимого. Область:Общие свойства сообщения Каноническое имя:PidTagMessageStatus Альтернативные имена:PR_MSG_STATUS, ptagMsgStatus
+Указывает статус сообщения в таблице содержания. Область: Общие свойства сообщения Каноническое имя: PidTagMessageStatus Альтернативные имена: PR_MSG_STATUS, ptagMsgStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageStatus;

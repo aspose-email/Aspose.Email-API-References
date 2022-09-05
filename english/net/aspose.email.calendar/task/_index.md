@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exchange task information.
 type: docs
 weight: 900
 url: /net/aspose.email.calendar/task/
@@ -44,10 +44,10 @@ public class Task : IDisposable
 | --- | --- |
 | [Dispose](../../aspose.email.calendar/task/dispose)() | Release all resources. |
 | [Request](../../aspose.email.calendar/task/request)() | Requests the object. |
-| virtual [Save](../../aspose.email.calendar/task/save)(Stream) | Saves current object to the given stream using MSG format. |
-| virtual [Save](../../aspose.email.calendar/task/save)(string) | Saves current object into file using MSG format. |
-| virtual [Save](../../aspose.email.calendar/task/save)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
-| virtual [Save](../../aspose.email.calendar/task/save)(string, TaskSaveFormat) | Saves current object into file using specified format. |
+| virtual [Save](../../aspose.email.calendar/task/save#save)(Stream) | Saves current object to the given stream using MSG format. |
+| virtual [Save](../../aspose.email.calendar/task/save#save_2)(string) | Saves current object into file using MSG format. |
+| virtual [Save](../../aspose.email.calendar/task/save#save_1)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
+| virtual [Save](../../aspose.email.calendar/task/save#save_3)(string, TaskSaveFormat) | Saves current object into file using specified format. |
 
 ### See Also
 

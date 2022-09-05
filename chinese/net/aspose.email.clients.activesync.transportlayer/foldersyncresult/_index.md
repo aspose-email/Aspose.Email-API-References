@@ -24,7 +24,7 @@ public class FolderSyncResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Added](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/added) { get; } | 包含已添加文件夹的数组。 |
+| [Added](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/added) { get; } | 包含添加的文件夹数组。 |
 | [Deleted](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/deleted) { get; } | 包含已删除文件夹的数组。 |
 | [Updated](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/updated) { get; } | 包含修改文件夹的数组。 |
 

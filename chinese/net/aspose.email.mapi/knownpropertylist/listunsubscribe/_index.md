@@ -1,14 +1,14 @@
 ---
 title: ListUnsubscribe
 second_title: Aspose.Email for .NET API 参考
-description: 包含从消息的关联邮件列表中取消订阅收件人的 URI 区域杂项属性 规范名称PidTagListUnsubscribe 替代名称PR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
+description: 包含从邮件的关联邮件列表中取消订阅收件人的 URI 区域杂项属性 规范名称PidTagListUnsubscribe 替代名称PR_LIST_UNSUBSCRIBEPR_LIST_UNSUBSCRIBE_APR_LIST_UNSUBSCRIBE_W
 type: docs
 weight: 12140
 url: /zh/net/aspose.email.mapi/knownpropertylist/listunsubscribe/
 ---
 ## KnownPropertyList.ListUnsubscribe field
 
-包含从消息的关联邮件列表中取消订阅收件人的 URI。 区域:杂项属性 规范名称:PidTagListUnsubscribe 替代名称:PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W
+包含从邮件的关联邮件列表中取消订阅收件人的 URI。 区域：杂项属性 规范名称：PidTagListUnsubscribe 替代名称：PR_LIST_UNSUBSCRIBE、PR_LIST_UNSUBSCRIBE_A、PR_LIST_UNSUBSCRIBE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListUnsubscribe;

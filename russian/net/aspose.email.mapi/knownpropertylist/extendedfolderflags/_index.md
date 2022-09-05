@@ -1,14 +1,14 @@
 ---
 title: ExtendedFolderFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит закодированные подсвойства для папки. ОбластьMapiContainer Каноническое имяPidTagExtendedFolderFlags Альтернативные именаPR_EXTENDED_FOLDER_FLAGS ptagExtendedFolderFlags
+description: Содержит закодированные подсвойства для папки. Область MapiContainer Каноническое имя PidTagExtendedFolderFlags Альтернативные имена PR_EXTENDED_FOLDER_FLAGS ptagExtendedFolderFlags
 type: docs
 weight: 10000
 url: /ru/net/aspose.email.mapi/knownpropertylist/extendedfolderflags/
 ---
 ## KnownPropertyList.ExtendedFolderFlags field
 
-Содержит закодированные подсвойства для папки. Область:MapiContainer Каноническое имя:PidTagExtendedFolderFlags Альтернативные имена:PR_EXTENDED_FOLDER_FLAGS, ptagExtendedFolderFlags
+Содержит закодированные подсвойства для папки. Область: MapiContainer Каноническое имя: PidTagExtendedFolderFlags Альтернативные имена: PR_EXTENDED_FOLDER_FLAGS, ptagExtendedFolderFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedFolderFlags;

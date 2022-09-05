@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API 参考
-description: 指定要搜索的文件夹 如果存在 DeepTraversal它适用于每个 CollectionId 下的所有文件夹 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内则服务器以 Status 值 8 SearchTooComplex 进行响应
+description: 指定要在其中搜索的文件夹 如果存在 DeepTraversal它适用于每个 CollectionId 下的所有文件夹 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内则服务器以状态值 8 SearchTooComplex 进行响应
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/collectionid/
 ---
 ## QueryType.CollectionId property
 
-指定要搜索的文件夹。 如果存在 DeepTraversal，它适用于每个 CollectionId 下的所有文件夹。 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内，则服务器以 Status 值 8 (SearchTooComplex) 进行响应。
+指定要在其中搜索的文件夹。 如果存在 DeepTraversal，它适用于每个 CollectionId 下的所有文件夹。 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内，则服务器以状态值 8 (SearchTooComplex) 进行响应。
 
 ```csharp
 public List<string> CollectionId { get; }

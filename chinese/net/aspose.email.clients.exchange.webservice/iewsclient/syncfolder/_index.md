@@ -95,7 +95,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUri | String | 文件夹 uri |
-| syncState | String | 可选同步状态.第一次同步必须为空。 |
+| syncState | String | 可选的同步状态。第一次同步必须为空。 |
 
 ### 返回值
 
@@ -122,7 +122,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUri | String | 文件夹 uri |
-| syncState | String | 可选同步状态.第一次同步必须为空。 |
+| syncState | String | 可选的同步状态。第一次同步必须为空。 |
 | ignoreList | IEnumerable`1 | 应忽略的项目 uri 的可选列表。 |
 
 ### 返回值

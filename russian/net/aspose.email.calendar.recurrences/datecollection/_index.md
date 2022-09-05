@@ -1,14 +1,14 @@
 ---
 title: DateCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор значенийDateTime.
+description: Представляет наборDateTime значения.
 type: docs
 weight: 710
 url: /ru/net/aspose.email.calendar.recurrences/datecollection/
 ---
 ## DateCollection class
 
-Представляет набор значенийDateTime.
+Представляет наборDateTime значения.
 
 ```csharp
 public class DateCollection : List<DateTime>

@@ -1,9 +1,9 @@
 ---
 title: MessageFormattingFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents possible options that can be set during the message formatting process for various outputs.
 type: docs
-weight: 19660
+weight: 19890
 url: /net/aspose.email.printing/messageformattingflags/
 ---
 ## MessageFormattingFlags enumeration

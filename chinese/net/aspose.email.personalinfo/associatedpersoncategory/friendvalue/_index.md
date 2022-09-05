@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/friendvalue/
 ---
 ## AssociatedPersonCategory.FriendValue field
 
-'朋友'类别的字符串值
+“朋友”类别的字符串值
 
 ```csharp
 public const string FriendValue;

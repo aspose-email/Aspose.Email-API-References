@@ -1,7 +1,7 @@
 ---
 title: AirSync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Sync Property set name PSETID_AirSync
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/knownpropertysets/airsync/

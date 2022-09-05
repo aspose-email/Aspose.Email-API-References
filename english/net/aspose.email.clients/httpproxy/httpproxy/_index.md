@@ -1,12 +1,12 @@
 ---
 title: HttpProxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the HttpProxyaspose.email.clients/httpproxy class to connect to proxy server without authentication.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/httpproxy/httpproxy/
 ---
-## HttpProxy constructor (1 of 2)
+## HttpProxy(string, int) {#constructor}
 
 Initializes a new instance of the [`HttpProxy`](../../httpproxy) class to connect to proxy server without authentication.
 
@@ -27,7 +27,7 @@ public HttpProxy(string address, int port)
 
 ---
 
-## HttpProxy constructor (2 of 2)
+## HttpProxy(string, int, string, string) {#constructor_1}
 
 Initializes a new instance of the [`HttpProxy`](../../httpproxy) class to connect to proxy server with defined username and password.
 

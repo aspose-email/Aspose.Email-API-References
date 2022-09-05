@@ -1,14 +1,14 @@
 ---
 title: AppointmentColor
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает цвет который будет использоваться при отображении объекта календаря. ОбластьКалендарь Каноническое имяPidLidAppointmentColor Альтернативные именаdispidApptColor
+description: Указывает цвет который будет использоваться при отображении объекта Calendar. Область Calendar Каноническое имя PidLidAppointmentColor Альтернативные имена dispidApptColor
 type: docs
 weight: 1120
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentcolor/
 ---
 ## KnownPropertyList.AppointmentColor field
 
-Указывает цвет, который будет использоваться при отображении объекта календаря. Область:Календарь Каноническое имя:PidLidAppointmentColor Альтернативные имена:dispidApptColor
+Указывает цвет, который будет использоваться при отображении объекта Calendar. Область: Calendar Каноническое имя: PidLidAppointmentColor Альтернативные имена: dispidApptColor
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentColor;

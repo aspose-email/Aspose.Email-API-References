@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件消息格式可以是emlmsg 或mhtml 格式
+description: 代表邮件消息格式可以是emlmsg或者mhtml格式
 type: docs
 weight: 17730
 url: /zh/net/aspose.email/mailmessagesavetype/
 ---
 ## MailMessageSaveType class
 
-表示邮件消息格式。可以是eml,msg 或mhtml 格式。
+代表邮件消息格式，可以是eml,msg或者mhtml格式。
 
 ```csharp
 public sealed class MailMessageSaveType
@@ -18,9 +18,9 @@ public sealed class MailMessageSaveType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [EmlFormat](../../aspose.email/mailmessagesavetype/emlformat) { get; } | 获取 eml。 |
-| static [EmlxFormat](../../aspose.email/mailmessagesavetype/emlxformat) { get; } | 获取 emlx。 |
-| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat) { get; } | 获取 Html。 |
+| static [EmlFormat](../../aspose.email/mailmessagesavetype/emlformat) { get; } | 获取 eml. |
+| static [EmlxFormat](../../aspose.email/mailmessagesavetype/emlxformat) { get; } | 获取 emlx. |
+| static [HtmlFormat](../../aspose.email/mailmessagesavetype/htmlformat) { get; } | 获取 Html. |
 | static [MHtmlFormat](../../aspose.email/mailmessagesavetype/mhtmlformat) { get; } | 获取 MHT。 |
 | static [OutlookMessageFormat](../../aspose.email/mailmessagesavetype/outlookmessageformat) { get; } | 获取味精。 |
 | static [OutlookMessageFormatUnicode](../../aspose.email/mailmessagesavetype/outlookmessageformatunicode) { get; } | 获取味精。 |
@@ -29,9 +29,9 @@ public sealed class MailMessageSaveType
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email/mailmessagesavetype/equals)(object) | 等于指定的o。 |
+| override [Equals](../../aspose.email/mailmessagesavetype/equals)(object) | 等于指定的 o. |
 | override [GetHashCode](../../aspose.email/mailmessagesavetype/gethashcode)() | 用作特定类型的哈希函数。 |
-| override [ToString](../../aspose.email/mailmessagesavetype/tostring)() | 返回代表当前Object的String。 |
+| override [ToString](../../aspose.email/mailmessagesavetype/tostring)() | 返回一个String代表当前Object. |
 
 ### 也可以看看
 

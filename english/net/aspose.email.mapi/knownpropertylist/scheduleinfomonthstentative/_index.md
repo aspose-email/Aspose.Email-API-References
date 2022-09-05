@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoMonthsTentative
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the months for which free/busy data of type tentative is present in the free/busy message. Area Free/Busy Properties Canonical name PidTagScheduleInfoMonthsTentative Alternate names PR_SCHDINFO_MONTHS_TENTATIVE
 type: docs
 weight: 16890
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfomonthstentative/

@@ -1,14 +1,14 @@
 ---
 title: ReferredByValue
 second_title: Aspose.Email for .NET API 参考
-description: ReferredBy 类别的字符串值
+description: ReferredBy类别的字符串值
 type: docs
 weight: 330
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/referredbyvalue/
 ---
 ## AssociatedPersonCategory.ReferredByValue field
 
-'ReferredBy' 类别的字符串值
+“ReferredBy”类别的字符串值
 
 ```csharp
 public const string ReferredByValue;

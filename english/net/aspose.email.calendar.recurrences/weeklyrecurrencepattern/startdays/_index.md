@@ -1,7 +1,7 @@
 ---
 title: StartDays
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start days.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/startdays/

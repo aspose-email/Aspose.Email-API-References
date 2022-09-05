@@ -1,12 +1,12 @@
 ---
 title: CreateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates appointment.
 type: docs
 weight: 460
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createappointment/
 ---
-## IEWSClient.CreateAppointment method (1 of 3)
+## CreateAppointment(Appointment) {#createappointment}
 
 Creates appointment.
 
@@ -31,7 +31,7 @@ Returns appointment UID
 
 ---
 
-## IEWSClient.CreateAppointment method (2 of 3)
+## CreateAppointment(Appointment, string) {#createappointment_1}
 
 Creates appointment.
 
@@ -57,7 +57,7 @@ Returns appointment UID
 
 ---
 
-## IEWSClient.CreateAppointment method (3 of 3)
+## CreateAppointment(MapiCalendar, string, bool) {#createappointment_4}
 
 Creates appointment.
 

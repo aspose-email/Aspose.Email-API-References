@@ -1,7 +1,7 @@
 ---
 title: EventDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the processing step for the event
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdescription/

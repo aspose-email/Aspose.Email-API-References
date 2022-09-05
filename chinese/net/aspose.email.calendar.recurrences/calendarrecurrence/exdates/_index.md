@@ -16,7 +16,7 @@ public DateCollection ExDates { get; }
 
 ### 适当的价值
 
-前日期。
+前任约会。
 
 ### 也可以看看
 

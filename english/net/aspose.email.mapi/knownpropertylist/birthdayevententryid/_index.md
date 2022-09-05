@@ -1,7 +1,7 @@
 ---
 title: BirthdayEventEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the EntryID of an optional Appointment object that represents the birthday of the contact. Area Contact Properties Canonical name PidLidBirthdayEventEntryId Alternate names dispidBirthdayEventEID
 type: docs
 weight: 2000
 url: /net/aspose.email.mapi/knownpropertylist/birthdayevententryid/

@@ -1,14 +1,14 @@
 ---
 title: RecipientProposedEndTime
 second_title: Aspose.Email for .NET API 参考
-description: 表示与会者在反提案中请求的会议结束时间 区域TransportRecipient 规范名称PidTagRecipientProposedEndTime 替代名称PR_RECIPIENT_PROPOSEDENDTIME ptagRecipientProposedEndTime
+description: 表示与会者在反提案中请求的会议结束时间 区域TransportRecipient 规范名称PidTagRecipientProposedEndTime 别名PR_RECIPIENT_PROPOSEDENDTIMEptagRecipientProposedEndTime
 type: docs
 weight: 15500
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientproposedendtime/
 ---
 ## KnownPropertyList.RecipientProposedEndTime field
 
-表示与会者在反提案中请求的会议结束时间。 区域:TransportRecipient 规范名称:PidTagRecipientProposedEndTime 替代名称:PR_RECIPIENT_PROPOSEDENDTIME, ptagRecipientProposedEndTime
+表示与会者在反提案中请求的会议结束时间。 区域：TransportRecipient 规范名称：PidTagRecipientProposedEndTime 别名：PR_RECIPIENT_PROPOSEDENDTIME、ptagRecipientProposedEndTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposedEndTime;

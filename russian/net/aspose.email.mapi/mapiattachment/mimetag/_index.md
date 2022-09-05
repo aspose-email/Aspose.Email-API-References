@@ -1,14 +1,14 @@
 ---
 title: MimeTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о форматировании вложения Многоцелевые расширения почты Интернета MIME.
+description: Получает информацию о форматировании вложения Многоцелевых расширений почты Интернета MIME.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapiattachment/mimetag/
 ---
 ## MapiAttachment.MimeTag property
 
-Получает информацию о форматировании вложения Многоцелевые расширения почты Интернета (MIME).
+Получает информацию о форматировании вложения Многоцелевых расширений почты Интернета (MIME).
 
 ```csharp
 public string MimeTag { get; }
@@ -16,7 +16,7 @@ public string MimeTag { get; }
 
 ### Стоимость имущества
 
-Мим-тег.
+Тег пантомимы.
 
 ### Смотрите также
 

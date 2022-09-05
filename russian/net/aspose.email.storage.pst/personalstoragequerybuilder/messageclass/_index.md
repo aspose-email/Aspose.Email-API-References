@@ -16,7 +16,7 @@ public StringComparisonField MessageClass { get; }
 
 ### Стоимость имущества
 
-The[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)который представляет класс сообщений.
+[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) который представляет класс сообщений.
 
 ### Смотрите также
 

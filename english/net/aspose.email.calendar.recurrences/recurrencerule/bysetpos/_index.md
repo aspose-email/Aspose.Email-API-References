@@ -1,7 +1,7 @@
 ---
 title: BySetPos
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by set pos.
 type: docs
 weight: 80
 url: /net/aspose.email.calendar.recurrences/recurrencerule/bysetpos/

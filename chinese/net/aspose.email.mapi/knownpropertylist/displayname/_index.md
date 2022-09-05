@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 包含文件夹的显示名称 区域MapiCommon 规范名称PidTagDisplayName 替代名称PR_DISPLAY_NAME PR_DISPLAY_NAME_A ptagDisplayName
+description: 包含文件夹的显示名称 区域MapiCommon 规范名称PidTagDisplayName 备用名称PR_DISPLAY_NAMEPR_DISPLAY_NAME_AptagDisplayName
 type: docs
 weight: 4140
 url: /zh/net/aspose.email.mapi/knownpropertylist/displayname/
 ---
 ## KnownPropertyList.DisplayName field
 
-包含文件夹的显示名称。 区域:MapiCommon 规范名称:PidTagDisplayName 替代名称:PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, ptagDisplayName,
+包含文件夹的显示名称。 区域：MapiCommon 规范名称：PidTagDisplayName 备用名称：PR_DISPLAY_NAME、PR_DISPLAY_NAME_A、ptagDisplayName、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayName;

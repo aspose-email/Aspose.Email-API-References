@@ -3,7 +3,7 @@ title: ObjectIdentifier
 second_title: Справочник по Aspose.Email для .NET API
 description: Содержит информацию об идентификации объекта
 type: docs
-weight: 19240
+weight: 19270
 url: /ru/net/aspose.email/objectidentifier/
 ---
 ## ObjectIdentifier class
@@ -18,15 +18,15 @@ public class ObjectIdentifier
 
 | Имя | Описание |
 | --- | --- |
-| [ObjectIdentifier](objectidentifier)() | Инициализировать новый экземпляр класса[`ObjectIdentifier`](../objectidentifier). |
+| [ObjectIdentifier](objectidentifier)() | Инициализировать новый экземпляр[`ObjectIdentifier`](../objectidentifier) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [EWSId](../../aspose.email/objectidentifier/ewsid) { get; } | Идентификатор веб-службы Exchange |
-| [GoogleId](../../aspose.email/objectidentifier/googleid) { get; } | Идентификатор сервисов Google |
-| [WebDavId](../../aspose.email/objectidentifier/webdavid) { get; } | Идентификатор службы WebDav |
+| [GoogleId](../../aspose.email/objectidentifier/googleid) { get; } | Сервисы Google id |
+| [WebDavId](../../aspose.email/objectidentifier/webdavid) { get; } | службы WebDav id |
 
 ### Смотрите также
 

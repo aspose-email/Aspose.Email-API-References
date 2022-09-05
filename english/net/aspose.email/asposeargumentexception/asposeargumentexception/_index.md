@@ -1,12 +1,12 @@
 ---
 title: AsposeArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeArgumentExceptionaspose.email/asposeargumentexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentexception/asposeargumentexception/
 ---
-## AsposeArgumentException constructor (1 of 6)
+## AsposeArgumentException() {#constructor}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class.
 
@@ -22,7 +22,7 @@ public AsposeArgumentException()
 
 ---
 
-## AsposeArgumentException constructor (2 of 6)
+## AsposeArgumentException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeArgumentException(string message)
 
 ---
 
-## AsposeArgumentException constructor (3 of 6)
+## AsposeArgumentException(string, string) {#constructor_5}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeArgumentException(string format, string parameter)
 
 ---
 
-## AsposeArgumentException constructor (4 of 6)
+## AsposeArgumentException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
 
@@ -84,7 +84,7 @@ public AsposeArgumentException(string format, params object[] parameters)
 
 ---
 
-## AsposeArgumentException constructor (5 of 6)
+## AsposeArgumentException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -105,7 +105,7 @@ public AsposeArgumentException(string message, Exception innerException)
 
 ---
 
-## AsposeArgumentException constructor (6 of 6)
+## AsposeArgumentException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a reference to the inner exception that is the cause of this exception.
 

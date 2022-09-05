@@ -1,14 +1,44 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API 参考
-description: 从文件中加载Appointmentaspose.email.calendar/appointment 支持的文件格式iCalendar  文件路径 表示约会加载选项AppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions 读取Appointmentaspose.email.calendar/appointment
+description: 加载Appointmentaspose.email.calendar/appointment来自文件. 支持的文件格式iCalendar
 type: docs
 weight: 20
 url: /zh/net/aspose.email.calendar/appointment/load/
 ---
+## Load(string) {#load_3}
+
+加载[`Appointment`](../../appointment)来自文件. 支持的文件格式：iCalendar
+
+```csharp
+public static Appointment Load(string filePath)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| filePath | String | 一个文件路径 |
+
+### 返回值
+
+一读[`Appointment`](../../appointment)
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
+
+### 也可以看看
+
+* class [Appointment](../../appointment)
+* 命名空间 [Aspose.Email.Calendar](../../appointment)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## Load(string, AppointmentLoadOptions) {#load_4}
 
-从文件中加载[`Appointment`](../../appointment)。 支持的文件格式:iCalendar  文件路径。 表示约会加载选项[`AppointmentLoadOptions`](../../appointmentloadoptions)。 读取[`Appointment`](../../appointment)。
+加载[`Appointment`](../../appointment)来自文件. 支持的文件格式：iCalendar 一个文件路径。代表约会负载选项[`AppointmentLoadOptions`](../../appointmentloadoptions).一读[`Appointment`](../../appointment).
 
 ```csharp
 public static Appointment Load(string filePath, AppointmentLoadOptions options)
@@ -25,7 +55,7 @@ public static Appointment Load(string filePath, AppointmentLoadOptions options)
 
 ## Load(Stream) {#load}
 
-从流
+加载[`Appointment`](../../appointment)来自stream
 
 ```csharp
 public static Appointment Load(Stream stream)
@@ -33,18 +63,18 @@ public static Appointment Load(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从 |
+| stream | Stream | 要从中加载的流 |
 
 ### 返回值
 
-读取[`Appointment`](../../appointment)
+一读[`Appointment`](../../appointment)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*不支持读取 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 
@@ -56,7 +86,7 @@ public static Appointment Load(Stream stream)
 
 ## Load(Stream, bool) {#load_2}
 
-从流
+加载[`Appointment`](../../appointment)来自stream
 
 ```csharp
 public static Appointment Load(Stream stream, bool applyLocalTimeZone)
@@ -64,19 +94,19 @@ public static Appointment Load(Stream stream, bool applyLocalTimeZone)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从 |
+| stream | Stream | 要从中加载的流 |
 | applyLocalTimeZone | Boolean | 将时间转换为本地时区 |
 
 ### 返回值
 
-读取[`Appointment`](../../appointment)
+一读[`Appointment`](../../appointment)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` |
-| NotSupportedException | *stream*不支持读取 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 
@@ -88,7 +118,7 @@ public static Appointment Load(Stream stream, bool applyLocalTimeZone)
 
 ## Load(Stream, AppointmentLoadOptions) {#load_1}
 
-从流
+加载[`Appointment`](../../appointment)来自stream
 
 ```csharp
 public static Appointment Load(Stream stream, AppointmentLoadOptions options)
@@ -96,53 +126,23 @@ public static Appointment Load(Stream stream, AppointmentLoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从 |
-| options | AppointmentLoadOptions | 表示约会加载选项 |
+| stream | Stream | 要从中加载的流 |
+| options | AppointmentLoadOptions | 代表约会负载选项 |
 
 ### 返回值
 
-读取[`Appointment`](../../appointment)
+一读[`Appointment`](../../appointment)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` |
-| NotSupportedException | *stream*不支持读取 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 
 * class [AppointmentLoadOptions](../../appointmentloadoptions)
-* class [Appointment](../../appointment)
-* 命名空间 [Aspose.Email.Calendar](../../appointment)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## Load(string) {#load_3}
-
-从文件中加载[`Appointment`](../../appointment)。 支持的文件格式:iCalendar
-
-```csharp
-public static Appointment Load(string filePath)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| filePath | String | 文件路径 |
-
-### 返回值
-
-读取[`Appointment`](../../appointment)
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentException | *filePath*是` null` 或` 空` |
-
-### 也可以看看
-
 * class [Appointment](../../appointment)
 * 命名空间 [Aspose.Email.Calendar](../../appointment)
 * 部件 [Aspose.Email](../../../)

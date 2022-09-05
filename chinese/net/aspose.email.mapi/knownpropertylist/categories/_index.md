@@ -1,14 +1,14 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API 参考
-description: 包含分配给此 Message 对象的文本标签数组 区域通用 规范名称PidLidCategories 替代名称dispidCategories
+description: 包含分配给此消息对象的文本标签数组 区域Common 规范名称PidLidCategories 替代名称dispidCategories
 type: docs
 weight: 2510
 url: /zh/net/aspose.email.mapi/knownpropertylist/categories/
 ---
 ## KnownPropertyList.Categories field
 
-包含分配给此 Message 对象的文本标签数组。 区域:通用 规范名称:PidLidCategories 替代名称:dispidCategories
+包含分配给此消息对象的文本标签数组。 区域：Common 规范名称：PidLidCategories 替代名称：dispidCategories
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Categories;

@@ -1,14 +1,14 @@
 ---
 title: CustomerId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор контакта ID клиента
+description: Указывает идентификатор клиента контакта
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid/
 ---
 ## MapiContactPersonalInfoPropertySet.CustomerId property
 
-Указывает идентификатор контакта ID клиента
+Указывает идентификатор клиента контакта
 
 ```csharp
 public string CustomerId { get; set; }

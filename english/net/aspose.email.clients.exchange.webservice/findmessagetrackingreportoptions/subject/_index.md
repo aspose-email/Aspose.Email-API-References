@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the subject filter to search for.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject/

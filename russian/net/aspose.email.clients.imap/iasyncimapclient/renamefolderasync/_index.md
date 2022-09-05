@@ -17,9 +17,9 @@ public Task RenameFolderAsync(string folderName, string newFolderName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Подключение к a server |
-| folderName | String | Папка для переименования |
-| newFolderName | IConnection | Имя новой папки |
+| connection | String | Подключение к серверу |
+| folderName | String | Папка, которую нужно переименовать |
+| newFolderName | IConnection | Новое имя папки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

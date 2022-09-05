@@ -1,7 +1,7 @@
 ---
 title: Preset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A preset color constant that characterizes a category and that is mapped to one of 25 predefined colors. Each preset constant is further mapped to a color the actual color is dependent on the Outlook client that the categories are being displayed in.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.graph/outlookcategory/preset/

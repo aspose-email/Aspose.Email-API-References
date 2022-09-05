@@ -16,12 +16,12 @@ public HeaderCollection GetMessageHeaders(IConnection connection, int sequenceNu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
-Коллекция заголовков, которая представляет собой набор заголовков
+HeaderCollection, который представляет коллекцию заголовков
 
 ### Смотрите также
 
@@ -47,7 +47,7 @@ public HeaderCollection GetMessageHeaders(int sequenceNumber)
 
 ### Возвращаемое значение
 
-Коллекция заголовков, которая представляет собой набор заголовков
+HeaderCollection, который представляет коллекцию заголовков
 
 ### Смотрите также
 
@@ -68,12 +68,12 @@ public HeaderCollection GetMessageHeaders(IConnection connection, string uniqueI
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
-Коллекция заголовков, которая представляет собой набор заголовков
+HeaderCollection, который представляет коллекцию заголовков
 
 ### Смотрите также
 
@@ -99,7 +99,7 @@ public HeaderCollection GetMessageHeaders(string uniqueId)
 
 ### Возвращаемое значение
 
-Коллекция заголовков, которая представляет собой набор заголовков
+HeaderCollection, который представляет коллекцию заголовков
 
 ### Смотрите также
 

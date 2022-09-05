@@ -1,9 +1,9 @@
 ---
 title: Pop3Exception
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when the Pop3Client is not able to complete an operation.
 type: docs
-weight: 19630
+weight: 19860
 url: /net/aspose.email/pop3exception/
 ---
 ## Pop3Exception class
@@ -18,10 +18,10 @@ public class Pop3Exception : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [Pop3Exception](pop3exception)() | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
-| [Pop3Exception](pop3exception)(string) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
-| [Pop3Exception](pop3exception)(string, Exception) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
-| [Pop3Exception](pop3exception)(string, params object[]) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class with a specified error message. |
+| [Pop3Exception](pop3exception#constructor)() | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
+| [Pop3Exception](pop3exception#constructor_1)(string) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
+| [Pop3Exception](pop3exception#constructor_2)(string, Exception) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
+| [Pop3Exception](pop3exception#constructor_3)(string, params object[]) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class with a specified error message. |
 
 ## Properties
 

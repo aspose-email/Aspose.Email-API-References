@@ -1,14 +1,14 @@
 ---
 title: RemindersOnlineEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID для папки Напоминания. ОбластьMapiContainer Каноническое имяPidTagRemindersOnlineEntryId Альтернативные именаPR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
+description: Содержит EntryID для папки напоминаний. Область MapiContainer Каноническое имя PidTagRemindersOnlineEntryId Альтернативные имена PR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
 type: docs
 weight: 15730
 url: /ru/net/aspose.email.mapi/knownpropertylist/remindersonlineentryid/
 ---
 ## KnownPropertyList.RemindersOnlineEntryId field
 
-Содержит EntryID для папки «Напоминания». Область:MapiContainer Каноническое имя:PidTagRemindersOnlineEntryId Альтернативные имена:PR_REM_ONLINE_ENTRYID, ptagRemOnlineEntryId
+Содержит EntryID для папки напоминаний. Область: MapiContainer Каноническое имя: PidTagRemindersOnlineEntryId Альтернативные имена: PR_REM_ONLINE_ENTRYID, ptagRemOnlineEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemindersOnlineEntryId;

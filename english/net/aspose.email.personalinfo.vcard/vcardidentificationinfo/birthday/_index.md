@@ -1,7 +1,7 @@
 ---
 title: Birthday
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a contacts bithday
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/birthday/

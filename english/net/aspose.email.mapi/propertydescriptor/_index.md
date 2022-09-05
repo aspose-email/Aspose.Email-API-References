@@ -1,9 +1,9 @@
 ---
 title: PropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains property description information.
 type: docs
-weight: 18810
+weight: 19020
 url: /net/aspose.email.mapi/propertydescriptor/
 ---
 ## PropertyDescriptor class
@@ -28,13 +28,13 @@ public abstract class PropertyDescriptor : IEquatable<PropertyDescriptor>
 
 | Name | Description |
 | --- | --- |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance)(MapiProperty) | Retrieves [`PropertyDescriptor`](../propertydescriptor) object from MAPI property |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_4)(MapiProperty) | Retrieves [`PropertyDescriptor`](../propertydescriptor) object from MAPI property |
 | static [Parse](../../aspose.email.mapi/propertydescriptor/parse)(string) | Initializes a new instance of the [`PropertyDescriptor`](../propertydescriptor) class |
-| abstract [Equals](../../aspose.email.mapi/propertydescriptor/equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance)(long) | Retrieves [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) object |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance)(int, PropertyDataType) | Retrieves [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) object |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance)(long, PropertyDataType, Guid) | Retrieves [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) object |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance)(string, PropertyDataType, Guid) | Retrieves [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) object |
+| abstract [Equals](../../aspose.email.mapi/propertydescriptor/equals#equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_3)(long) | Retrieves [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_2)(int, PropertyDataType) | Retrieves [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance)(long, PropertyDataType, Guid) | Retrieves [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_1)(string, PropertyDataType, Guid) | Retrieves [`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) object |
 | [operator ==](../../aspose.email.mapi/propertydescriptor/op_equality) | Determines whether the specified objects are equal to each another. |
 | [operator !=](../../aspose.email.mapi/propertydescriptor/op_inequality) | Determines whether the specified objects are not equal to each another. |
 

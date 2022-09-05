@@ -1,7 +1,7 @@
 ---
 title: AcceptLanguage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the MIME AcceptLanguage header. Area Email Canonical name PidNameAcceptLanguage Alternate names AcceptLanguage
 type: docs
 weight: 240
 url: /net/aspose.email.mapi/knownpropertylist/acceptlanguage/

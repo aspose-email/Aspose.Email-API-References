@@ -1,7 +1,7 @@
 ---
 title: ContactPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ContactPhotoaspose.email.personalinfo/contactphoto class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo/contactphoto/contactphoto/

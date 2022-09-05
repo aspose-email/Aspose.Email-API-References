@@ -1,14 +1,14 @@
 ---
 title: TaskActualEffort
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество минут которые пользователь фактически потратил на работу над задачей. ОбластьЗадачи Каноническое имяPidLidTaskActualEffort Альтернативные именаdispidTaskActualEffort
+description: Указывает количество минут фактически потраченных пользователем на работу над задачей. Область Tasks Каноническое имя PidLidTaskActualEffort Альтернативные названия dispidTaskActualEffort
 type: docs
 weight: 18550
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskactualeffort/
 ---
 ## KnownPropertyList.TaskActualEffort field
 
-Указывает количество минут, которые пользователь фактически потратил на работу над задачей. Область:Задачи Каноническое имя:PidLidTaskActualEffort Альтернативные имена:dispidTaskActualEffort
+Указывает количество минут, фактически потраченных пользователем на работу над задачей. Область: Tasks Каноническое имя: PidLidTaskActualEffort Альтернативные названия: dispidTaskActualEffort
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskActualEffort;

@@ -1,7 +1,7 @@
 ---
 title: AddressBookProviderArrayType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the state of the electronic addresses of the contact and represents a set of bit flags. Area Contact Properties Canonical name PidLidAddressBookProviderArrayType Alternate names dispidABPArrayType
 type: docs
 weight: 880
 url: /net/aspose.email.mapi/knownpropertylist/addressbookproviderarraytype/

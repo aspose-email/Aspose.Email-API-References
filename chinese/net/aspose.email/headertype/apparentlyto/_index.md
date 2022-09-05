@@ -1,14 +1,14 @@
 ---
 title: ApparentlyTo
 second_title: Aspose.Email for .NET API 参考
-description: 当原始消息中没有To收件人时通过发送电子邮件插入这会导致从信封派生的收件人列在邮件标题中 这种行为不太恰当MTA 不应该修改标题插入 Received 行除外并且在某些情况下会导致密件抄送收件人被错误地泄露给非密件抄送收件人 示例 显然-Tosomeonesomedomain.com 不鼓励使用的非标准标头提到在 RFC1211 中
+description: 在原始邮件中没有收件人收件人时通过发送电子邮件插入这会导致从信封派生的收件人列在邮件标题中 这种行为不太恰当MTA 不应修改标头插入 Received 行除外并且在某些情况下会导致密件抄送收件人被错误地泄露给非密件抄送收件人 示例 显然收件人someonesomedomain.com 不鼓励使用的非标准标头在 RFC1211 中提到
 type: docs
 weight: 10
 url: /zh/net/aspose.email/headertype/apparentlyto/
 ---
 ## HeaderType.ApparentlyTo property
 
-当原始消息中没有“To:”收件人时，通过发送电子邮件插入。这会导致从信封派生的收件人列在邮件标题中。 这种行为不太恰当，MTA 不应该修改标题（插入 Received 行除外），并且在某些情况下会导致密件抄送收件人被错误地泄露给非密件抄送收件人。 示例: 显然-To:someone@somedomain.com 不鼓励使用的非标准标头，提到在 RFC1211 中。
+在原始邮件中没有“收件人：”收件人时通过发送电子邮件插入。这会导致从信封派生的收件人列在邮件标题中。 这种行为不太恰当，MTA 不应修改标头（插入 Received 行除外），并且在某些情况下会导致密件抄送收件人被错误地泄露给非密件抄送收件人。 示例： 显然收件人：someone@somedomain.com 不鼓励使用的非标准标头，在 RFC1211 中提到。
 
 ```csharp
 public static HeaderType ApparentlyTo { get; }

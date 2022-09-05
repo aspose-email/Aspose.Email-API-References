@@ -1,14 +1,14 @@
 ---
 title: CalendarReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Позволяет считывать календарь с несколькими событиями в объект Встреча из файла или потока.
+description: Позволяет читать календарь с несколькими событиями в объект Назначение из файла или потока.
 type: docs
 weight: 590
 url: /ru/net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class
 
-Позволяет считывать календарь с несколькими событиями в объект Встреча из файла или потока.
+Позволяет читать календарь с несколькими событиями в объект «Назначение» из файла или потока.
 
 ```csharp
 public class CalendarReader
@@ -18,8 +18,8 @@ public class CalendarReader
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarReader](calendarreader#constructor)(Stream) | Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами LoadOptions по умолчанию. |
-| [CalendarReader](calendarreader#constructor_2)(string) | Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию. |
+| [CalendarReader](calendarreader#constructor)(Stream) | Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами LoadOptions по умолчанию для встречи. |
+| [CalendarReader](calendarreader#constructor_2)(string) | Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию для встречи. |
 | [CalendarReader](calendarreader#constructor_1)(Stream, AppointmentLoadOptions) | Инициализирует новый экземпляр CalendarReader с исходным потоком и Appointment LoadOptions. |
 | [CalendarReader](calendarreader#constructor_3)(string, AppointmentLoadOptions) | Инициализирует новый экземпляр CalendarReader с исходным файлом и Appointment LoadOptions. |
 
@@ -33,7 +33,7 @@ public class CalendarReader
 
 | Имя | Описание |
 | --- | --- |
-| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent)() | Читает следующее событие из источника и сохраняет его в текущее. |
+| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent)() | Читает следующее событие из источника и сохраняет его в текущий. |
 
 ### Смотрите также
 

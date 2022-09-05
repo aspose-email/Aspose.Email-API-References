@@ -57,7 +57,7 @@ public CalendarWriter(string path, AppointmentIcsSaveOptions icsSaveOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | path | String | 源文件的路径。 |
-| icsSaveOptions | AppointmentIcsSaveOptions | 附加约会IcsSaveOptions。 |
+| icsSaveOptions | AppointmentIcsSaveOptions | 附加 AppointmentIcsSaveOptions。 |
 
 ### 也可以看看
 
@@ -79,7 +79,7 @@ public CalendarWriter(Stream stream, AppointmentIcsSaveOptions icsSaveOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 源流。 |
-| icsSaveOptions | AppointmentIcsSaveOptions | 附加约会IcsSaveOptions。 |
+| icsSaveOptions | AppointmentIcsSaveOptions | 附加 AppointmentIcsSaveOptions。 |
 
 ### 也可以看看
 

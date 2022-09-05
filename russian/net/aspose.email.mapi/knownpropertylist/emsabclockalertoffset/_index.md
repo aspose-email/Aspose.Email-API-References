@@ -1,14 +1,14 @@
 ---
 title: EmsAbClockAlertOffset
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CLOCK_ALERT_OFFSET
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CLOCK_ALERT_OFFSET
 type: docs
 weight: 5180
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabclockalertoffset/
 ---
 ## KnownPropertyList.EmsAbClockAlertOffset field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CLOCK_ALERT_OFFSET
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CLOCK_ALERT_OFFSET
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbClockAlertOffset;

@@ -1,14 +1,14 @@
 ---
 title: Identity
 second_title: Справочник по Aspose.Email для .NET API
-description: https//docs.microsoft.com/en-us/graph/api/resources/identityviewgraph-rest-1.0 Ресурс Identity представляет личность актера. Например действующим лицом может быть пользователь устройство или приложение.
+description: https//docs.microsoft.com/en-us/graph/api/resources/identityviewgraph-rest-1.0 Ресурс Identity представляет личность субъекта. Например действующим лицом может быть пользователь устройство или приложение.
 type: docs
 weight: 15960
 url: /ru/net/aspose.email.clients.graph/identity/
 ---
 ## Identity class
 
-https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 Ресурс Identity представляет личность актера. Например, действующим лицом может быть пользователь, устройство или приложение.
+https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 Ресурс Identity представляет личность субъекта. Например, действующим лицом может быть пользователь, устройство или приложение.
 
 ```csharp
 public class Identity
@@ -24,7 +24,7 @@ public class Identity
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayName](../../aspose.email.clients.graph/identity/displayname) { get; set; } | Отображаемое имя удостоверения. Обратите внимание, что это не всегда может быть доступно или обновлено. Например, если пользователь меняет свое отображаемое имя, API может отобразить новое значение в будущем ответе, но элементы, связанные с пользователем, не будут отображаться как изменившись при использовании дельты. |
+| [DisplayName](../../aspose.email.clients.graph/identity/displayname) { get; set; } | Отображаемое имя удостоверения. Обратите внимание, что это не всегда может быть доступно или обновлено. Например, если пользователь меняет свое отображаемое имя, API может показать новое значение в будущем ответе, , но элементы, связанные с пользователем, не будут отображаться как измененные при использовании delta. |
 | [Id](../../aspose.email.clients.graph/identity/id) { get; set; } | Уникальный идентификатор личности. |
 | [Thumbnails](../../aspose.email.clients.graph/identity/thumbnails) { get; set; } | Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключом. |
 

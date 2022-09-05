@@ -1,14 +1,14 @@
 ---
 title: TokenProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поставщика маркера.
+description: Получает поставщика токена.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients/oauthnetworkcredential/tokenprovider/
 ---
 ## OAuthNetworkCredential.TokenProvider property
 
-Получает поставщика маркера.
+Получает поставщика токена.
 
 ```csharp
 public ITokenProvider TokenProvider { get; }

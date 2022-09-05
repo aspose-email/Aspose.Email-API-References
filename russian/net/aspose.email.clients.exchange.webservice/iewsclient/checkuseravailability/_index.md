@@ -21,7 +21,7 @@ public ExchangeUserAvailability CheckUserAvailability(string user, DateRange tim
 
 ### Возвращаемое значение
 
-[`ExchangeUserAvailability`](../../exchangeuseravailability)содержащий информацию о доступности пользователя.
+[`ExchangeUserAvailability`](../../exchangeuseravailability) содержащие информацию о доступности пользователя.
 
 ### Смотрите также
 
@@ -44,18 +44,18 @@ public ExchangeUserAvailabilityCollection CheckUserAvailability(StringCollection
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| users | StringCollection | smtp адреса пользователей. |
+| users | StringCollection | smtp-адреса пользователей. |
 | timeWindow | DateRange | Промежуток времени доступности запрашиваемого пользователя. |
 
 ### Возвращаемое значение
 
-[`ExchangeUserAvailabilityCollection`](../../exchangeuseravailabilitycollection)содержит информацию о доступности пользователей.
+[`ExchangeUserAvailabilityCollection`](../../exchangeuseravailabilitycollection) содержащий информацию о доступности пользователей.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *timeWindow*или*users*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *timeWindow*или же*users* является`нулевой`. |
 
 ### Смотрите также
 

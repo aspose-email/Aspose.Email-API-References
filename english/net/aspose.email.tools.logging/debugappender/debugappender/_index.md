@@ -1,7 +1,7 @@
 ---
 title: DebugAppender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the DebugAppenderaspose.email.tools.logging/debugappender class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/debugappender/debugappender/

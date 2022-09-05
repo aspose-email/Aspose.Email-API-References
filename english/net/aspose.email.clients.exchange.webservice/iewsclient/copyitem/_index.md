@@ -1,7 +1,7 @@
 ---
 title: CopyItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the item to specified folder
 type: docs
 weight: 450
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/copyitem/

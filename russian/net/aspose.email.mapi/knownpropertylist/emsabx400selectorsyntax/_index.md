@@ -1,14 +1,14 @@
 ---
 title: EmsAbX400SelectorSyntax
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X400_SELECTOR_SYNTAX
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X400_SELECTOR_SYNTAX
 type: docs
 weight: 9660
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx400selectorsyntax/
 ---
 ## KnownPropertyList.EmsAbX400SelectorSyntax field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X400_SELECTOR_SYNTAX
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X400_SELECTOR_SYNTAX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX400SelectorSyntax;

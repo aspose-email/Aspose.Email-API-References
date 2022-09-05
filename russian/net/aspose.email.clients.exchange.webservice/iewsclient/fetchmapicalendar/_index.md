@@ -1,14 +1,14 @@
 ---
 title: FetchMapiCalendar
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить массив объектовMapiCalendaraspose.email.mapi/mapicalendar.
+description: Получить массивMapiCalendaraspose.email.mapi/mapicalendar объекты.
 type: docs
 weight: 770
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar/
 ---
 ## FetchMapiCalendar(IEnumerable&lt;string&gt;) {#fetchmapicalendar}
 
-Получить массив объектов[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar).
+Получить массив[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) объекты.
 
 ```csharp
 public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
@@ -16,11 +16,11 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendarUris | IEnumerable`1 | Список календарных Uris, которые необходимо извлечь. |
+| calendarUris | IEnumerable`1 | Список Uris календаря, который необходимо получить. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar).
+Получить массив[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) объекты.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
 
 ## FetchMapiCalendar(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapicalendar_1}
 
-Получить массив объектов[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar).
+Получить массив[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) объекты.
 
 ```csharp
 public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris, 
@@ -42,12 +42,12 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendarUris | IEnumerable`1 | Список календарных Uris, которые необходимо извлечь. |
-| customProperties | IEnumerable`1 | Пользовательские свойства карты для получения. |
+| calendarUris | IEnumerable`1 | Список Uris календаря, который необходимо получить. |
+| customProperties | IEnumerable`1 | Пользовательские свойства mapi для извлечения. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar).
+Получить массив[`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) объекты.
 
 ### Смотрите также
 

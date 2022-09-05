@@ -1,7 +1,7 @@
 ---
 title: LogDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the duration in minutes of the activity. Area Journal Canonical name PidLidLogDuration Alternate names dispidLogDuration
 type: docs
 weight: 12250
 url: /net/aspose.email.mapi/knownpropertylist/logduration/

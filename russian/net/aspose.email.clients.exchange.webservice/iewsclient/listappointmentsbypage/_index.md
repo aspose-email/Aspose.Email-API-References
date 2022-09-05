@@ -1,14 +1,14 @@
 ---
 title: ListAppointmentsByPage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает страницу с встречами для папки календаря
+description: Извлекает страницу с встречами для папки календаря
 type: docs
 weight: 1080
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage/
 ---
 ## ListAppointmentsByPage(int) {#listappointmentsbypage_2}
 
-Получает страницу с встречами для папки календаря
+Извлекает страницу с встречами для папки календаря
 
 ```csharp
 public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage)
@@ -16,7 +16,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Число элементы на странице |
+| itemsPerPage | Int32 | Количество элементов на странице |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
+| folderUri | String | Папка для поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 
 ### Возвращаемое значение
@@ -67,7 +67,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 
 ### Возвращаемое значение
@@ -95,8 +95,8 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 
 ### Возвращаемое значение
@@ -115,7 +115,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 
 ## ListAppointmentsByPage(int, int) {#listappointmentsbypage_3}
 
-Получает страницу с встречами для папки календаря
+Извлекает страницу с встречами для папки календаря
 
 ```csharp
 public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage, int itemOffset)
@@ -123,7 +123,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage, int itemOffs
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Число элементы на странице |
+| itemsPerPage | Int32 | Количество элементов на странице |
 | itemOffset | Int32 | Смещение следующего элемента в поле зрения |
 
 ### Возвращаемое значение
@@ -152,7 +152,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 | --- | --- | --- |
 | folderUri | String | Папка для поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
-| itemOffset | Int32 | Смещение следующий элемент в поле зрения |
+| itemOffset | Int32 | Смещение следующего элемента в поле зрения |
 
 ### Возвращаемое значение
 
@@ -177,7 +177,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 | itemOffset | Int32 | Смещение следующего элемента в поле зрения |
 
@@ -206,8 +206,8 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 | itemOffset | Int32 | Смещение следующего элемента в поле зрения |
 

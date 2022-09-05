@@ -1,12 +1,12 @@
 ---
 title: Backup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Backups the content of the specified folders
 type: docs
 weight: 400
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/backup/
 ---
-## IEWSClient.Backup method (1 of 2)
+## Backup(ExchangeFolderInfoCollection, string, BackupOptions) {#backup_1}
 
 Backups the content of the specified folders
 
@@ -30,7 +30,7 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 ---
 
-## IEWSClient.Backup method (2 of 2)
+## Backup(ExchangeFolderInfoCollection, Stream, BackupOptions) {#backup}
 
 Backups the content of the specified folders
 

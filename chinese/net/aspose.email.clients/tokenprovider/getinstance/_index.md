@@ -1,14 +1,14 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API 参考
-description: 获取已定义参数的 OutlookTokenProvider 实例
+description: 为定义的参数获取 OutlookTokenProvider 的实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/tokenprovider/getinstance/
 ---
 ## TokenProvider.GetInstance method
 
-获取已定义参数的 OutlookTokenProvider 实例。
+为定义的参数获取 OutlookTokenProvider 的实例。
 
 ```csharp
 public static TokenProvider GetInstance(string requestUrl, string clientId, string clientSecret, 
@@ -17,9 +17,9 @@ public static TokenProvider GetInstance(string requestUrl, string clientId, stri
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| requestUrl | String | 获取访问令牌的url。 |
+| requestUrl | String | 获取访问令牌的 url。 |
 | clientId | String | 应用注册时从微软账号开发者中心获取的客户端ID。 |
-| clientSecret | String | 应用注册时获取的客户端密钥。 |
+| clientSecret | String | 应用注册时获取的客户端密码。 |
 | refreshToken | String | OAuth 2.0 刷新令牌 |
 
 ### 返回值

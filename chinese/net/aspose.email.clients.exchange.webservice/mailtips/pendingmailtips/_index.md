@@ -1,14 +1,14 @@
 ---
 title: PendingMailTips
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示在服务器处理超时到期之前是否无法评估此元素中的邮件提示
+description: 获取一个值该值指示在服务器的处理超时到期之前是否无法评估此元素中的邮件提示
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange.webservice/mailtips/pendingmailtips/
 ---
 ## MailTips.PendingMailTips property
 
-获取一个值，该值指示在服务器处理超时到期之前是否无法评估此元素中的邮件提示。
+获取一个值，该值指示在服务器的处理超时到期之前是否无法评估此元素中的邮件提示。
 
 ```csharp
 public MailTipsType PendingMailTips { get; }

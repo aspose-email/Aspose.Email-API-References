@@ -1,14 +1,14 @@
 ---
 title: MemberId
 second_title: Aspose.Email for .NET API 参考
-description: 包含消息服务器为每个用户生成的唯一标识符 区域访问控制属性 规范名称PidTagMemberId 备用名称PR_MEMBER_ID ptagMemberId
+description: 包含消息传递服务器为每个用户生成的唯一标识符 区域访问控制属性 规范名称PidTagMemberId 备用名称PR_MEMBER_IDptagMemberId
 type: docs
 weight: 12420
 url: /zh/net/aspose.email.mapi/knownpropertylist/memberid/
 ---
 ## KnownPropertyList.MemberId field
 
-包含消息服务器为每个用户生成的唯一标识符。 区域:访问控制属性 规范名称:PidTagMemberId 备用名称:PR_MEMBER_ID, ptagMemberId
+包含消息传递服务器为每个用户生成的唯一标识符。 区域：访问控制属性 规范名称：PidTagMemberId 备用名称：PR_MEMBER_ID、ptagMemberId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MemberId;

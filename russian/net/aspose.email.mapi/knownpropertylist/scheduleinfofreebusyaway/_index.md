@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyAway
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет время для которого статусу свободен/занят присваивается значение OOF. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoFreeBusyAway Альтернативные именаPR_SCHDINFO_FREEBUSY_OOF
+description: Определяет время для которого для статуса свободен/занят устанавливается значение OOF. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoFreeBusyAway Альтернативные имена PR_SCHDINFO_FREEBUSY_OOF
 type: docs
 weight: 16820
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusyaway/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyAway field
 
-Определяет время, для которого статусу "свободен/занят" присваивается значение OOF. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoFreeBusyAway Альтернативные имена:PR_SCHDINFO_FREEBUSY_OOF
+Определяет время, для которого для статуса «свободен/занят» устанавливается значение OOF. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoFreeBusyAway Альтернативные имена: PR_SCHDINFO_FREEBUSY_OOF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyAway;

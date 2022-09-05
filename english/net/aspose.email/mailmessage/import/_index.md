@@ -1,9 +1,9 @@
 ---
 title: Import
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Imports message from stream
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.email/mailmessage/import/
 ---
 ## MailMessage.Import method

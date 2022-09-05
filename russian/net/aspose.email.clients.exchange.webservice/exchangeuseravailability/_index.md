@@ -18,7 +18,7 @@ public sealed class ExchangeUserAvailability
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeUserAvailability](exchangeuseravailability)() | Инициализирует новый экземпляр класса[`ExchangeUserAvailability`](../exchangeuseravailability). |
+| [ExchangeUserAvailability](exchangeuseravailability)() | Инициализирует новый экземпляр[`ExchangeUserAvailability`](../exchangeuseravailability) класс. |
 
 ## Характеристики
 

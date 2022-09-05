@@ -1,14 +1,14 @@
 ---
 title: ICalendarDayOfWeekMask
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет день недели для встречи или встречи. ОбластьКалендарь Каноническое имяPidLidICalendarDayOfWeekMask Альтернативные именаhttp//schemas.microsoft.com/mapi/dayofweekmask
+description: Определяет день недели для встречи или собрания. Область Calendar Каноническое имя PidLidICalendarDayOfWeekMask Альтернативные имена http//schemas.microsoft.com/mapi/dayofweekmask
 type: docs
 weight: 11140
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendardayofweekmask/
 ---
 ## KnownPropertyList.ICalendarDayOfWeekMask field
 
-Определяет день недели для встречи или встречи. Область:Календарь Каноническое имя:PidLidICalendarDayOfWeekMask Альтернативные имена:http://schemas.microsoft.com/mapi/dayofweekmask
+Определяет день недели для встречи или собрания. Область: Calendar Каноническое имя: PidLidICalendarDayOfWeekMask Альтернативные имена: http://schemas.microsoft.com/mapi/dayofweekmask
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ICalendarDayOfWeekMask;

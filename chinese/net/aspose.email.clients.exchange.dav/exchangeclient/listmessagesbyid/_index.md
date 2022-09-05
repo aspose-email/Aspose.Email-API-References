@@ -17,7 +17,7 @@ public ExchangeMessageInfoCollection ListMessagesById(string folder, string mess
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folder | String | 文件夹。 |
-| messageId | String | 消息 ID。 |
+| messageId | String | 消息标识。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SpousePartner
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок супруг/партнер.
+description: Заголовок супруга/партнера.
 type: docs
 weight: 280
 url: /ru/net/aspose.email/mhttemplatename.contact/spousepartner/
 ---
 ## MhtTemplateName.Contact.SpousePartner field
 
-Заголовок супруг/партнер.
+Заголовок супруга/партнера.
 
 ```csharp
 public const string SpousePartner;

@@ -1,7 +1,7 @@
 ---
 title: Expiration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets expiration date
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/webhook/expiration/

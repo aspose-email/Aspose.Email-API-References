@@ -1,14 +1,14 @@
 ---
 title: GetOptions
 second_title: Aspose.Email for .NET API 参考
-description: GetOptions 静态方法用于发现支持哪些协议版本以及服务器上支持哪些协议命令 客户端使用GetOptions静态方法来判断服务器是否支持客户端支持的相同版本的协议
+description: GetOptions 静态方法用于发现支持哪些协议版本以及服务器上支持哪些协议命令 客户端使用GetOptions静态方法判断服务端是否支持客户端支持的协议版本
 type: docs
 weight: 180
 url: /zh/net/aspose.email.clients.activesync.transportlayer/activesynctlclient/getoptions/
 ---
 ## ActiveSyncTLClient.GetOptions method
 
-GetOptions 静态方法用于发现支持哪些协议版本，以及服务器上支持哪些协议命令。 客户端使用GetOptions静态方法来判断服务器是否支持客户端支持的相同版本的协议。
+GetOptions 静态方法用于发现支持哪些协议版本，以及服务器上支持哪些协议命令。 客户端使用GetOptions静态方法判断服务端是否支持客户端支持的协议版本。
 
 ```csharp
 public static ASProtocolVersions GetOptions(string uri, NetworkCredential credentials, 
@@ -18,9 +18,9 @@ public static ASProtocolVersions GetOptions(string uri, NetworkCredential creden
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uri | String | ActiveSync 服务的 URL |
-| credentials | NetworkCredential | 凭据连接到服务器。 |
-| supportedServerCommands | String[]& | Out 参数，返回支持的协议命令 |
-| supportedServerProtocols | String[]& | Out 参数，返回支持的版本协议 |
+| credentials | NetworkCredential | 用于连接到服务器的凭据。 |
+| supportedServerCommands | String[]& | out 参数，返回支持的协议命令 |
+| supportedServerProtocols | String[]& | out 参数，返回支持的协议版本 |
 
 ### 返回值
 

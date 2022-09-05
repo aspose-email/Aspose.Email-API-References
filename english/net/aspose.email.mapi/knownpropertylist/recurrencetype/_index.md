@@ -1,7 +1,7 @@
 ---
 title: RecurrenceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the recurrence type of the recurring series. Area Calendar Canonical name PidLidRecurrenceType Alternate names dispidRecurType
 type: docs
 weight: 15600
 url: /net/aspose.email.mapi/knownpropertylist/recurrencetype/

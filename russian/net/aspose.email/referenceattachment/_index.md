@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Этот класс представляет вложение ссылки
+description: Этот класс представляет собой ссылку вложения
 type: docs
-weight: 19880
+weight: 19930
 url: /ru/net/aspose.email/referenceattachment/
 ---
 ## ReferenceAttachment class
 
-Этот класс представляет вложение ссылки
+Этот класс представляет собой ссылку вложения
 
 ```csharp
 public class ReferenceAttachment : Attachment
@@ -18,34 +18,34 @@ public class ReferenceAttachment : Attachment
 
 | Имя | Описание |
 | --- | --- |
-| [ReferenceAttachment](referenceattachment#constructor)() | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment). |
-| [ReferenceAttachment](referenceattachment#constructor_1)(string) | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment). |
-| [ReferenceAttachment](referenceattachment#constructor_2)(Uri) | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment). |
+| [ReferenceAttachment](referenceattachment#constructor)() | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment) . |
+| [ReferenceAttachment](referenceattachment#constructor_1)(string) | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment) . |
+| [ReferenceAttachment](referenceattachment#constructor_2)(Uri) | Инициализирует новый экземпляр[`ReferenceAttachment`](../referenceattachment) . |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/attachment/contentdisposition) { get; } | Получает заголовок Content-Disposition |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор содержимого. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток содержимого. |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор контента. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток контента. |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Получает или задает тип содержимого. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Получает коллекцию заголовков вложения. |
 | [IsEmbeddedMessage](../../aspose.email/attachment/isembeddedmessage) { get; } | Получает значение, указывающее, является ли вложение встроенным сообщением. |
-| [IsUri](../../aspose.email/attachment/isuri) { get; } | Получает значение, указывающее, является ли вложение URI-вложением. |
+| [IsUri](../../aspose.email/attachment/isuri) { get; } | Получает значение, указывающее, является ли вложение URI-attachment. |
 | [Name](../../aspose.email/attachment/name) { get; set; } | Получает или задает имя вложения |
 | [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | Получает или задает кодировку имени вложения |
 | [PermissionType](../../aspose.email/referenceattachment/permissiontype) { get; set; } | Указывает тип разрешения. |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding) { get; set; } | Получает или задает предпочтительную кодировку текста |
 | [ProviderType](../../aspose.email/referenceattachment/providertype) { get; set; } | Указывает тип поставщика. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | Получает или задает кодировку передачи. |
-| [Uri](../../aspose.email/referenceattachment/uri) { get; set; } | Указывает URL-адрес конечной точки поставщика. |
+| [Uri](../../aspose.email/referenceattachment/uri) { get; set; } | Указывает URL конечной точки поставщика. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Сохраняет указанный поток. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Сохраняет указанное имя файла. |
 

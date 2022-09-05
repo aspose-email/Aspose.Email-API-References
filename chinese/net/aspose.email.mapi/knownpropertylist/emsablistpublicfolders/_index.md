@@ -1,14 +1,14 @@
 ---
 title: EmsAbListPublicFolders
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_LIST_PUBLIC_FOLDERS
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_LIST_PUBLIC_FOLDERS
 type: docs
 weight: 7040
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsablistpublicfolders/
 ---
 ## KnownPropertyList.EmsAbListPublicFolders field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_LIST_PUBLIC_FOLDERS
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_LIST_PUBLIC_FOLDERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbListPublicFolders;

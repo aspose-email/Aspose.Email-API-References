@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the uservisible name of the personal distribution list.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapidistributionlist/displayname/

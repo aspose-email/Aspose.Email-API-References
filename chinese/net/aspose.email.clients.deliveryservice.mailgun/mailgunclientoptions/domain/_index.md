@@ -1,14 +1,14 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API 参考
-description: 域名
+description: 域名.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain/
 ---
 ## MailgunClientOptions.Domain property
 
-域名。
+域名.
 
 ```csharp
 public string Domain { get; set; }

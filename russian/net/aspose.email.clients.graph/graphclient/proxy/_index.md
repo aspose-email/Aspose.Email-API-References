@@ -1,14 +1,14 @@
 ---
 title: Proxy
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает данные для прокси-доступа к серверу Exchange.
+description: Получает или задает данные для прокси-доступа к серверу Exchange.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.graph/graphclient/proxy/
 ---
 ## GraphClient.Proxy property
 
-Получает или устанавливает данные для прокси-доступа к серверу Exchange.
+Получает или задает данные для прокси-доступа к серверу Exchange.
 
 ```csharp
 public virtual IWebProxy Proxy { get; set; }

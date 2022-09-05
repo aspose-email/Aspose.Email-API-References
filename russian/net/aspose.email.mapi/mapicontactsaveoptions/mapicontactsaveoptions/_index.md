@@ -1,14 +1,14 @@
 ---
 title: MapiContactSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactSaveOptionsaspose.email.mapi/mapicontactsaveoptions.
+description: Инициализирует новый экземплярMapiContactSaveOptionsaspose.email.mapi/mapicontactsaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactsaveoptions/mapicontactsaveoptions/
 ---
 ## MapiContactSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`MapiContactSaveOptions`](../../mapicontactsaveoptions).
+Инициализирует новый экземпляр[`MapiContactSaveOptions`](../../mapicontactsaveoptions) класс.
 
 ```csharp
 public MapiContactSaveOptions()

@@ -1,14 +1,14 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FolderInfoaspose.email.storage.pst/folderinfo类的新实例
+description: 初始化FolderInfoaspose.email.storage.pst/folderinfo类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.pst/folderinfo/folderinfo/
 ---
 ## FolderInfo constructor
 
-初始化[`FolderInfo`](../../folderinfo)类的新实例。
+初始化[`FolderInfo`](../../folderinfo)类.
 
 ```csharp
 public FolderInfo()

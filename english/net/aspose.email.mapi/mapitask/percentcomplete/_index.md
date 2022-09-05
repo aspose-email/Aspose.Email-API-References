@@ -1,7 +1,7 @@
 ---
 title: PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the progress the user has made on a task.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapitask/percentcomplete/

@@ -1,14 +1,14 @@
 ---
 title: ListRules
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить все объекты messageRule определенные для папки Входящие пользователя. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегировано рабочая или учебная учетная запись MailboxSettings.Read Делегировано личная учетная запись Microsoft MailboxSettings.Read Application MailboxSettings.Read
+description: Получить все объекты messageRule определенные для папки Входящие пользователя. Permissions Для вызова этого API требуется одно из следующих разрешений. Делегированный личная учетная запись Microsoft MailboxSettings.Read Application MailboxSettings.Read
 type: docs
 weight: 330
 url: /ru/net/aspose.email.clients.graph/igraphclient/listrules/
 ---
 ## IGraphClient.ListRules method
 
-Получить все объекты messageRule, определенные для папки "Входящие" пользователя. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегировано (рабочая или учебная учетная запись) MailboxSettings.Read Делегировано (личная учетная запись Microsoft) MailboxSettings.Read Application MailboxSettings.Read
+Получить все объекты messageRule, определенные для папки "Входящие" пользователя. Permissions Для вызова этого API требуется одно из следующих разрешений. Делегированный (личная учетная запись Microsoft) MailboxSettings.Read Application MailboxSettings.Read
 
 ```csharp
 public List<InboxRule> ListRules()

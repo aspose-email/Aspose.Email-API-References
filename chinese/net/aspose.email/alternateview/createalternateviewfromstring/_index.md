@@ -1,14 +1,14 @@
 ---
 title: CreateAlternateViewFromString
 second_title: Aspose.Email for .NET API 参考
-description: 创建使用 字符串中指定内容的 AlternateView
+description: 创建使用 字符串中指定的内容的AlternateView
 type: docs
 weight: 20
 url: /zh/net/aspose.email/alternateview/createalternateviewfromstring/
 ---
 ## CreateAlternateViewFromString(string) {#createalternateviewfromstring}
 
-创建使用 字符串中指定内容的 AlternateView。
+创建使用 字符串中指定的内容的AlternateView。
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content)
@@ -20,7 +20,7 @@ public static AlternateView CreateAlternateViewFromString(string content)
 
 ### 返回值
 
-一个表示备用视图的 AlternateView 对象。
+表示备用视图的 AlternateView 对象。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static AlternateView CreateAlternateViewFromString(string content)
 
 ## CreateAlternateViewFromString(string, Encoding, string) {#createalternateviewfromstring_3}
 
-创建使用 字符串中指定内容的 AlternateView。
+创建使用 字符串中指定的内容的AlternateView。
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, Encoding contentEncoding, 
@@ -43,11 +43,11 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 | --- | --- | --- |
 | content | String | 包含内容的字符串。 |
 | contentEncoding | Encoding | 内容编码。 |
-| mediaType | String | Internet 媒体类型。 |
+| mediaType | String | 互联网媒体类型。 |
 
 ### 返回值
 
-一个表示备用视图的 AlternateView 对象。
+表示备用视图的 AlternateView 对象。
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 
 ## CreateAlternateViewFromString(string, ContentType) {#createalternateviewfromstring_1}
 
-创建使用 字符串中指定内容的 AlternateView。
+创建使用 字符串中指定的内容的AlternateView。
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, ContentType contentType)
@@ -72,7 +72,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 
 ### 返回值
 
-一个表示备用视图的 AlternateView 对象。
+表示备用视图的 AlternateView 对象。
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 
 ## CreateAlternateViewFromString(string, ContentType, TransferEncoding) {#createalternateviewfromstring_2}
 
-创建使用 字符串中指定内容的 AlternateView。
+创建使用 字符串中指定的内容的AlternateView。
 
 ```csharp
 public static AlternateView CreateAlternateViewFromString(string content, ContentType contentType, 
@@ -100,7 +100,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 
 ### 返回值
 
-一个表示备用视图的 AlternateView 对象。
+表示备用视图的 AlternateView 对象。
 
 ### 也可以看看
 

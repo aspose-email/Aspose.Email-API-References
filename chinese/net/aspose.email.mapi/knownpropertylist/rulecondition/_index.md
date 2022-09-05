@@ -1,14 +1,14 @@
 ---
 title: RuleCondition
 second_title: Aspose.Email for .NET API 参考
-description: 定义执行规则动作的条件 区域服务器端规则属性 规范名称PidTagRuleCondition 备用名称PR_RULE_CONDITION ptagRuleCondition
+description: 定义执行规则操作的条件 区域服务器端规则 Properties 规范名称PidTagRuleCondition 备用名称PR_RULE_CONDITIONptagRuleCondition
 type: docs
 weight: 16460
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulecondition/
 ---
 ## KnownPropertyList.RuleCondition field
 
-定义执行规则动作的条件。 区域:服务器端规则属性 规范名称:PidTagRuleCondition 备用名称:PR_RULE_CONDITION, ptagRuleCondition
+定义执行规则操作的条件。 区域：服务器端规则 Properties 规范名称：PidTagRuleCondition 备用名称：PR_RULE_CONDITION、ptagRuleCondition
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleCondition;

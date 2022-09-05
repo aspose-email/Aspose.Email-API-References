@@ -1,14 +1,14 @@
 ---
 title: Kind
 second_title: Aspose.Email for .NET API 参考
-description: 获取命名属性种类
+description: 获得命名属性 kind
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapinamedproperty/kind/
 ---
 ## MapiNamedProperty.Kind property
 
-获取命名属性种类
+获得命名属性 kind
 
 ```csharp
 public int Kind { get; }

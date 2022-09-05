@@ -1,14 +1,14 @@
 ---
 title: In
 second_title: Aspose.Email for .NET API 参考
-description: 表示 message 中的字段 vlaue 必须在指定值列表中
+description: 表示消息中的字段 vlaue 必须在指定值列表中
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.search/enumcomparisonfield/in/
 ---
 ## EnumComparisonField.In method
 
-表示 message 中的字段 vlaue 必须在指定值列表中。
+表示消息中的字段 vlaue 必须在指定值列表中。
 
 ```csharp
 public MailQuery In(IEnumerable values)
@@ -16,7 +16,7 @@ public MailQuery In(IEnumerable values)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| values | IEnumerable | 值。 |
+| values | IEnumerable | 价值观。 |
 
 ### 返回值
 

@@ -16,7 +16,7 @@ public MailAddressCollection ReadReceiptTo { get; set; }
 
 ### Стоимость имущества
 
-Коллекция[`MailAddressCollection`](../../mailaddresscollection)которая представляет
+[`MailAddressCollection`](../../mailaddresscollection) который представляет
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: DeleteCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes a calendar.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.google/igmailclient/deletecalendar/

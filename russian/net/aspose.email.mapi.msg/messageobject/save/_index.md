@@ -23,11 +23,11 @@ public void Save(string fileName, MessageObjectSaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если значение*format*недопустимо. |
+| ArgumentOutOfRangeException | Если*format* значение недействительно. |
 
 ### Примечания
 
-Кроме того, может быть выброшен тот же набор исключений, что и дляString)вызов.
+Кроме того, может быть выдан тот же набор исключений, что и дляString) звонок.
 
 ### Смотрите также
 
@@ -55,8 +55,8 @@ public void Save(Stream stream, MessageObjectSaveFormat format)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*stream*равно null. |
-| ArgumentOutOfRangeException | Если значение*format*недопустимо. |
+| ArgumentNullException | Если*stream* нулевой. |
+| ArgumentOutOfRangeException | Если*format* значение недействительно. |
 
 ### Смотрите также
 

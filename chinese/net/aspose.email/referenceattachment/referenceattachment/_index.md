@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachment
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ReferenceAttachmentaspose.email/referenceattachment的新实例
+description: 初始化一个新的实例ReferenceAttachmentaspose.email/referenceattachment.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/referenceattachment/referenceattachment/
 ---
 ## ReferenceAttachment() {#constructor}
 
-初始化[`ReferenceAttachment`](../../referenceattachment)的新实例。
+初始化一个新的实例[`ReferenceAttachment`](../../referenceattachment).
 
 ```csharp
 public ReferenceAttachment()
@@ -24,7 +24,7 @@ public ReferenceAttachment()
 
 ## ReferenceAttachment(Uri) {#constructor_2}
 
-初始化[`ReferenceAttachment`](../../referenceattachment)的新实例。
+初始化一个新的实例[`ReferenceAttachment`](../../referenceattachment).
 
 ```csharp
 public ReferenceAttachment(Uri uri)
@@ -44,7 +44,7 @@ public ReferenceAttachment(Uri uri)
 
 ## ReferenceAttachment(string) {#constructor_1}
 
-初始化[`ReferenceAttachment`](../../referenceattachment)的新实例。
+初始化一个新的实例[`ReferenceAttachment`](../../referenceattachment).
 
 ```csharp
 public ReferenceAttachment(string uri)
@@ -52,7 +52,7 @@ public ReferenceAttachment(string uri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | 字符串 URL |
+| uri | String | 字符串网址 |
 
 ### 也可以看看
 

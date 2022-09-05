@@ -1,7 +1,7 @@
 ---
 title: UpdateTaskAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified task.
 type: docs
 weight: 700
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updatetaskasync/

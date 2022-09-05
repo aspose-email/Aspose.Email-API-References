@@ -1,14 +1,14 @@
 ---
 title: StartRecurrenceTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует время начала шаблона повторения. ОбластьВстречи Каноническое имяPidLidStartRecurrenceTime Альтернативные именаLID_START_RECUR_TIME
+description: Определяет время начала шаблона повторения. Область Meetings Каноническое имя PidLidStartRecurrenceTime Альтернативные имена LID_START_RECUR_TIME
 type: docs
 weight: 18180
 url: /ru/net/aspose.email.mapi/knownpropertylist/startrecurrencetime/
 ---
 ## KnownPropertyList.StartRecurrenceTime field
 
-Идентифицирует время начала шаблона повторения. Область:Встречи Каноническое имя:PidLidStartRecurrenceTime Альтернативные имена:LID_START_RECUR_TIME
+Определяет время начала шаблона повторения. Область: Meetings Каноническое имя: PidLidStartRecurrenceTime Альтернативные имена: LID_START_RECUR_TIME
 
 ```csharp
 public static readonly PidLidPropertyDescriptor StartRecurrenceTime;

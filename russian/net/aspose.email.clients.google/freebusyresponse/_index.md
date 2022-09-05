@@ -1,14 +1,14 @@
 ---
 title: FreebusyResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Ответ на свободную занятость
+description: Ответ о свободной занятости
 type: docs
 weight: 15740
 url: /ru/net/aspose.email.clients.google/freebusyresponse/
 ---
 ## FreebusyResponse class
 
-Ответ на свободную занятость
+Ответ о свободной занятости
 
 ```csharp
 public class FreebusyResponse

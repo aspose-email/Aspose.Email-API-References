@@ -1,14 +1,14 @@
 ---
 title: Read
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否已阅读消息 区域 MapiNonTransmittable 属性集 规范名称PidTagRead 替代名称PR_READptagReadurnschemashttpmailread
+description: 指示是否已阅读消息 区域MapiNonTransmittable 属性 set 规范名称PidTagRead 备用名称PR_READptagReadurnschemashttpmailread
 type: docs
 weight: 15180
 url: /zh/net/aspose.email.mapi/knownpropertylist/read/
 ---
 ## KnownPropertyList.Read field
 
-指示是否已阅读消息。 区域： MapiNonTransmittable 属性集 规范名称：PidTagRead 替代名称：PR_READ、ptagRead、urn:schemas:httpmail:read
+指示是否已阅读消息。 区域：MapiNonTransmittable 属性 set 规范名称：PidTagRead 备用名称：PR_READ、ptagRead、urn:schemas:httpmail:read
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Read;

@@ -1,7 +1,7 @@
 ---
 title: Skype
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default skype is
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/instantmessengerlist/skype/

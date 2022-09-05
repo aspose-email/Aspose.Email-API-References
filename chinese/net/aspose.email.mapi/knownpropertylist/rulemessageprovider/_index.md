@@ -1,14 +1,14 @@
 ---
 title: RuleMessageProvider
 second_title: Aspose.Email for .NET API 参考
-description: 标识拥有规则的客户端应用程序设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageProvider 备用名称ptagRuleMsgProvider
+description: 标识拥有规则的客户端应用程序在 FAI 消息上设置 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageProvider 备用名称ptagRuleMsgProvider
 type: docs
 weight: 16540
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessageprovider/
 ---
 ## KnownPropertyList.RuleMessageProvider field
 
-标识拥有规则的客户端应用程序。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageProvider 备用名称:ptagRuleMsgProvider
+标识拥有规则的客户端应用程序。在 FAI 消息上设置。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageProvider 备用名称：ptagRuleMsgProvider
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageProvider;

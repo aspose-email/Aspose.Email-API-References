@@ -1,14 +1,14 @@
 ---
 title: EmsAbSchemaFlags
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_SCHEMA_FLAGS
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_SCHEMA_FLAGS
 type: docs
 weight: 8660
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabschemaflags/
 ---
 ## KnownPropertyList.EmsAbSchemaFlags field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_SCHEMA_FLAGS
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_SCHEMA_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSchemaFlags;

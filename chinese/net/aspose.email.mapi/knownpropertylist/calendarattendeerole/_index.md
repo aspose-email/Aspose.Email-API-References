@@ -1,14 +1,14 @@
 ---
 title: CalendarAttendeeRole
 second_title: Aspose.Email for .NET API 参考
-description: 指定与会者的角色 区域通用 规范名称PidNameCalendarAttendeeRole 备用名称urnschemascalendarattendeerole
+description: 指定参加者的角色 区域Common 规范名称PidNameCalendarAttendeeRole 备用名称urnschemascalendarattendeerole
 type: docs
 weight: 2180
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarattendeerole/
 ---
 ## KnownPropertyList.CalendarAttendeeRole field
 
-指定与会者的角色。 区域:通用 规范名称:PidNameCalendarAttendeeRole 备用名称:urn:schemas:calendar:attendeerole
+指定参加者的角色。 区域：Common 规范名称：PidNameCalendarAttendeeRole 备用名称：urn:schemas:calendar:attendeerole
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarAttendeeRole;

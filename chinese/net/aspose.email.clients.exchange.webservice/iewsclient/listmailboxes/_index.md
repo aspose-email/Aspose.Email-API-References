@@ -16,7 +16,7 @@ public MapiContactCollection ListMailboxes()
 
 ### 返回值
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)代表联系信息。
+一个[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)代表联系信息。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public MapiContactCollection ListMailboxes(string filter)
 
 ### 返回值
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)表示联系信息。
+一个[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)代表联系信息。
 
 ### 也可以看看
 

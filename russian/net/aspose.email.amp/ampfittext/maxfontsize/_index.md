@@ -1,14 +1,14 @@
 ---
 title: MaxFontSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает максимальный размер шрифта в виде целого числа который может использовать amp-fit-text.
+description: Задает максимальный размер шрифта в виде целого числа которое может использовать amp-fit-text.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.amp/ampfittext/maxfontsize/
 ---
 ## AmpFitText.MaxFontSize property
 
-Задает максимальный размер шрифта в виде целого числа, который может использовать amp-fit-text.
+Задает максимальный размер шрифта в виде целого числа, которое может использовать amp-fit-text.
 
 ```csharp
 public int MaxFontSize { get; set; }

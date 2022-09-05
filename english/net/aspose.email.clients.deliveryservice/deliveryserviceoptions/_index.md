@@ -1,7 +1,7 @@
 ---
 title: DeliveryServiceOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Options to set the DeliveryServiceClient parameters.
 type: docs
 weight: 2940
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceoptions/

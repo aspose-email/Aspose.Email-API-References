@@ -3,7 +3,7 @@ title: MimeHeader
 second_title: Aspose.Email for .NET API 参考
 description: 表示 RFC 2822 中定义的 mime 标头
 type: docs
-weight: 19190
+weight: 19220
 url: /zh/net/aspose.email.mime/mimeheader/
 ---
 ## MimeHeader class
@@ -18,7 +18,7 @@ public class MimeHeader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MimeHeader](mimeheader)(string, string) | 初始化[`MimeHeader`](../mimeheader)类的新实例。 |
+| [MimeHeader](mimeheader)(string, string) | 初始化[`MimeHeader`](../mimeheader)类. |
 
 ## 特性
 
@@ -32,7 +32,7 @@ public class MimeHeader
 | 姓名 | 描述 |
 | --- | --- |
 | [Clone](../../aspose.email.mime/mimeheader/clone)() | 克隆此实例。 |
-| override [ToString](../../aspose.email.mime/mimeheader/tostring)() | 返回代表当前Object的String。 |
+| override [ToString](../../aspose.email.mime/mimeheader/tostring)() | 返回一个String代表当前Object. |
 
 ### 也可以看看
 

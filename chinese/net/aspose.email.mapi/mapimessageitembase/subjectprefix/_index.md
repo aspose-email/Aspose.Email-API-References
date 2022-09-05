@@ -1,14 +1,14 @@
 ---
 title: SubjectPrefix
 second_title: Aspose.Email for .NET API 参考
-description: 获取主题前缀该前缀通常表示对消息的某些操作例如用于转发的FW
+description: 获取主题前缀该前缀通常指示对消息的某些操作例如用于转发的FW
 type: docs
 weight: 180
 url: /zh/net/aspose.email.mapi/mapimessageitembase/subjectprefix/
 ---
 ## MapiMessageItemBase.SubjectPrefix property
 
-获取主题前缀，该前缀通常表示对消息的某些操作，例如用于转发的“FW:”。
+获取主题前缀，该前缀通常指示对消息的某些操作，例如用于转发的“FW:”。
 
 ```csharp
 public string SubjectPrefix { get; }

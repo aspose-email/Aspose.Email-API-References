@@ -1,14 +1,14 @@
 ---
 title: ByMinute
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поминутно.
+description: Получает по минутам.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerule/byminute/
 ---
 ## RecurrenceRule.ByMinute property
 
-Получает поминутно.
+Получает по минутам.
 
 ```csharp
 public ByNumberCollection ByMinute { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection ByMinute { get; }
 
 ### Стоимость имущества
 
-Поминутно.
+По минутам.
 
 ### Смотрите также
 

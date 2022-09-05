@@ -1,7 +1,7 @@
 ---
 title: OutboxFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Outbox folder.
 type: docs
 weight: 310
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/outboxfolderservernotifications/

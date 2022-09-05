@@ -1,14 +1,14 @@
 ---
 title: MailEnablePublicFolder
 second_title: Aspose.Email for .NET API 参考
-description: 邮件启用公用文件夹
+description: 为公用文件夹启用邮件
 type: docs
 weight: 1230
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/mailenablepublicfolder/
 ---
 ## IEWSClient.MailEnablePublicFolder method
 
-邮件启用公用文件夹
+为公用文件夹启用邮件
 
 ```csharp
 public void MailEnablePublicFolder(string folderUri)
@@ -22,7 +22,7 @@ public void MailEnablePublicFolder(string folderUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

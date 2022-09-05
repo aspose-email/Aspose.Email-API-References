@@ -1,14 +1,14 @@
 ---
 title: ICalendarEndTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время в формате UTC окончания встречи или собрания. ОбластьКалендарь Каноническое имяPidTagICalendarEndTime Альтернативные именаurnschemascalendardtend
+description: Содержит дату и время окончания встречи или встречи в формате UTC. Область Calendar Каноническое имя PidTagICalendarEndTime Альтернативные имена urnschemascalendardtend
 type: docs
 weight: 11150
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendarendtime/
 ---
 ## KnownPropertyList.ICalendarEndTime field
 
-Содержит дату и время в формате UTC окончания встречи или собрания. Область:Календарь Каноническое имя:PidTagICalendarEndTime Альтернативные имена:urn:schemas:calendar:dtend
+Содержит дату и время окончания встречи или встречи в формате UTC. Область: Calendar Каноническое имя: PidTagICalendarEndTime Альтернативные имена: urn:schemas:calendar:dtend
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ICalendarEndTime;

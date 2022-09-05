@@ -1,14 +1,14 @@
 ---
 title: SavedMimePartCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Количество сохранённых частей mime.
+description: Количество сохраненных частей пантомимы.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/progresseventhandlerinfo/savedmimepartcount/
 ---
 ## ProgressEventHandlerInfo.SavedMimePartCount property
 
-Количество сохранённых частей mime.
+Количество сохраненных частей пантомимы.
 
 ```csharp
 public int SavedMimePartCount { get; set; }

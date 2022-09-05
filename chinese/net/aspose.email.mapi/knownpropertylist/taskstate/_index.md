@@ -1,14 +1,14 @@
 ---
 title: TaskState
 second_title: Aspose.Email for .NET API 参考
-description: 表示Task对象的当前分配状态 区域任务 规范名称PidLidTaskState 替代名称dispidTaskState
+description: 指示任务对象的当前分配状态 区域Tasks 规范名称PidLidTaskState 备用名称dispidTaskState
 type: docs
 weight: 18820
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskstate/
 ---
 ## KnownPropertyList.TaskState field
 
-表示Task对象的当前分配状态。 区域:任务 规范名称:PidLidTaskState 替代名称:dispidTaskState
+指示任务对象的当前分配状态。 区域：Tasks 规范名称：PidLidTaskState 备用名称：dispidTaskState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskState;

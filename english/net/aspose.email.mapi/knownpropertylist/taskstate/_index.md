@@ -1,7 +1,7 @@
 ---
 title: TaskState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the current assignment state of the Task object. Area Tasks Canonical name PidLidTaskState Alternate names dispidTaskState
 type: docs
 weight: 18820
 url: /net/aspose.email.mapi/knownpropertylist/taskstate/

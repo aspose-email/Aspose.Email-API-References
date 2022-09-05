@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the importance that is stamped on incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange/rulepredicates/importance/

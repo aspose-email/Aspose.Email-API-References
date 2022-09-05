@@ -3,7 +3,7 @@ title: VCardSecurity
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 安全属性
 type: docs
-weight: 19690
+weight: 19740
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsecurity/
 ---
 ## VCardSecurity class
@@ -18,14 +18,14 @@ public sealed class VCardSecurity
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardSecurity](vcardsecurity)() | 初始化 [`VCardSecurity`](../vcardsecurity) 类的新实例 |
+| [VCardSecurity](vcardsecurity)() | 初始化[`VCardSecurity`](../vcardsecurity) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AccessClass](../../aspose.email.personalinfo.vcard/vcardsecurity/accessclass) { get; set; } | 获取或设置访问类 |
-| [Encoding](../../aspose.email.personalinfo.vcard/vcardsecurity/encoding) { get; set; } | 获取或设置 ContentTransferEncoding |
+| [Encoding](../../aspose.email.personalinfo.vcard/vcardsecurity/encoding) { get; set; } | 获取或设置一个 ContentTransferEncoding |
 | [Key](../../aspose.email.personalinfo.vcard/vcardsecurity/key) { get; set; } | 获取或设置公钥（或认证证书） |
 
 ## 方法

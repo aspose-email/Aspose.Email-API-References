@@ -1,12 +1,12 @@
 ---
 title: CreateFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a folder with the specified name
 type: docs
 weight: 520
 url: /net/aspose.email.clients.imap/imapclient/createfolder/
 ---
-## ImapClient.CreateFolder method (1 of 2)
+## CreateFolder(IConnection, string) {#createfolder}
 
 Creates a folder with the specified name
 
@@ -28,7 +28,7 @@ public void CreateFolder(IConnection connection, string folderName)
 
 ---
 
-## ImapClient.CreateFolder method (2 of 2)
+## CreateFolder(string) {#createfolder_1}
 
 Creates a folder with the specified name
 

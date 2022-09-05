@@ -1,14 +1,14 @@
 ---
 title: ParentValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Родительский
+description: Строковое значение для категории Родительская
 type: docs
 weight: 310
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/parentvalue/
 ---
 ## AssociatedPersonCategory.ParentValue field
 
-Строковое значение для категории 'Родительский'
+Строковое значение для категории «Родительская»
 
 ```csharp
 public const string ParentValue;

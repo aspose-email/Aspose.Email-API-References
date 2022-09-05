@@ -1,14 +1,14 @@
 ---
 title: Work
 second_title: Справочник по Aspose.Email для .NET API
-description: Рабочий телефон
+description: Рабочий номер телефона
 type: docs
 weight: 180
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/work/
 ---
 ## PhoneNumberCategory.Work property
 
-Рабочий телефон
+Рабочий номер телефона
 
 ```csharp
 public static PhoneNumberCategory Work { get; }

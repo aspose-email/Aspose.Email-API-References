@@ -1,14 +1,14 @@
 ---
 title: AppointmentLastSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает организатору последний порядковый номер отправленный любому участнику. ОбластьВстречи Каноническое имяPidLidAppointmentLastSequence Альтернативные именаdispidApptLastSequence
+description: Указывает организатору последний порядковый номер отправленный любому участнику. Область Meetings Каноническое имя PidLidAppointmentLastSequence Альтернативные имена dispidApptLastSequence
 type: docs
 weight: 1180
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentlastsequence/
 ---
 ## KnownPropertyList.AppointmentLastSequence field
 
-Указывает организатору последний порядковый номер, отправленный любому участнику. Область:Встречи Каноническое имя:PidLidAppointmentLastSequence Альтернативные имена:dispidApptLastSequence
+Указывает организатору последний порядковый номер, отправленный любому участнику. Область: Meetings Каноническое имя: PidLidAppointmentLastSequence Альтернативные имена: dispidApptLastSequence
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentLastSequence;

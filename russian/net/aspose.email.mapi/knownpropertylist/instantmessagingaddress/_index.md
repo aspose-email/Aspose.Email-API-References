@@ -1,14 +1,14 @@
 ---
 title: InstantMessagingAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес контакта для обмена мгновенными сообщениями. ОбластьСвойства контакта Каноническое имяPidLidInstantMessagingAddress Альтернативные именаdispidInstMsg
+description: Задает адрес контакта для обмена мгновенными сообщениями. Область Свойства контакта Каноническое имя PidLidInstantMessagingAddress Альтернативные имена dispidInstMsg
 type: docs
 weight: 11380
 url: /ru/net/aspose.email.mapi/knownpropertylist/instantmessagingaddress/
 ---
 ## KnownPropertyList.InstantMessagingAddress field
 
-Указывает адрес контакта для обмена мгновенными сообщениями. Область:Свойства контакта Каноническое имя:PidLidInstantMessagingAddress Альтернативные имена:dispidInstMsg
+Задает адрес контакта для обмена мгновенными сообщениями. Область: Свойства контакта Каноническое имя: PidLidInstantMessagingAddress Альтернативные имена: dispidInstMsg
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InstantMessagingAddress;

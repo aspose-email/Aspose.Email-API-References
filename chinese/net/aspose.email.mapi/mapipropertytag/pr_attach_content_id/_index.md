@@ -1,14 +1,14 @@
 ---
 title: PR_ATTACH_CONTENT_ID
 second_title: Aspose.Email for .NET API 参考
-description: 包含 MIME 邮件附件的内容标识头 此属性用于 MHTML 支持
+description: 包含 MIME 邮件附件的内容标识标头 此属性用于 MHTML 支持
 type: docs
 weight: 520
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_attach_content_id/
 ---
 ## MapiPropertyTag.PR_ATTACH_CONTENT_ID field
 
-包含 MIME 邮件附件的内容标识头。 此属性用于 MHTML 支持。
+包含 MIME 邮件附件的内容标识标头。 此属性用于 MHTML 支持。
 
 ```csharp
 public static readonly long PR_ATTACH_CONTENT_ID;
@@ -16,7 +16,7 @@ public static readonly long PR_ATTACH_CONTENT_ID;
 
 ### 评论
 
-可用于区分内联附件 如签名图片和普通的附件。 如果附件有这个属性，那么它是一个嵌入的图像。
+可以用来区分内联附件 如签名图片和普通附件。 如果附件有这个属性，那么它是一个嵌入的图片。
 
 ### 也可以看看
 

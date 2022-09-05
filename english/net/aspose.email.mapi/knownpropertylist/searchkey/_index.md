@@ -1,7 +1,7 @@
 ---
 title: SearchKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique binarycomparable key that identifies an object for a search. Area ID Properties Canonical name PidTagSearchKey Alternate names PR_SEARCH_KEY ptagSearchKey
 type: docs
 weight: 17030
 url: /net/aspose.email.mapi/knownpropertylist/searchkey/

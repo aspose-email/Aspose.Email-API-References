@@ -16,11 +16,11 @@ public int IndexOf(CustomerEvent value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | CustomerEvent | ОбъектObjectдля поиска в списке. |
+| value | CustomerEvent | Object найти в списке. |
 
 ### Возвращаемое значение
 
-Индекс*value*, если он найден в списке; иначе -1.
+Индекс*value* если найдено в списке; иначе -1.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MessageToken
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MESSAGE_TOKEN
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MESSAGE_TOKEN
 type: docs
 weight: 12650
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagetoken/
 ---
 ## KnownPropertyList.MessageToken field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MESSAGE_TOKEN
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MESSAGE_TOKEN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageToken;

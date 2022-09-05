@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/serveridentificationinfo/
 ---
 ## ImapClient.ServerIdentificationInfo property
 
-获取服务器标识信息 查看更多:https://tools.ietf.org/html/rfc2971
+获取服务器标识信息 查看更多：https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public ImapIdentificationInfo ServerIdentificationInfo { get; }

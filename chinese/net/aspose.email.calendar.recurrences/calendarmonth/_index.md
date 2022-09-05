@@ -19,18 +19,18 @@ public enum CalendarMonth
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| January | `1` | 一月。 |
-| February | `2` | 二月。 |
-| March | `3` | 三月。 |
-| April | `4` | 四月。 |
-| May | `5` | 五月。 |
-| June | `6` | 六月。 |
-| July | `7` | 七月。 |
-| August | `8` | 八月。 |
-| September | `9` | 九月。 |
-| October | `10` | 十月。 |
-| Novemeber | `11` | 十一月。 |
-| December | `12` | 十二月。 |
+| January | `1` | 一月. |
+| February | `2` | 二月. |
+| March | `3` | 三月. |
+| April | `4` | 四月. |
+| May | `5` | 五月. |
+| June | `6` | 六月. |
+| July | `7` | 七月. |
+| August | `8` | 八月. |
+| September | `9` | 九月. |
+| October | `10` | 十月. |
+| Novemeber | `11` | 十一月. |
+| December | `12` | 十二月. |
 
 ### 也可以看看
 

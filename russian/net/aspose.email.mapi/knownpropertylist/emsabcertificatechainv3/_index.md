@@ -1,14 +1,14 @@
 ---
 title: EmsAbCertificateChainV3
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CERTIFICATE_CHAIN_V3
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CERTIFICATE_CHAIN_V3
 type: docs
 weight: 5100
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabcertificatechainv3/
 ---
 ## KnownPropertyList.EmsAbCertificateChainV3 field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CERTIFICATE_CHAIN_V3
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CERTIFICATE_CHAIN_V3
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCertificateChainV3;

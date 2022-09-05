@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Показать имя папки
+description: Отображаемое имя папки
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/exchangefolderinfo/displayname/
 ---
 ## ExchangeFolderInfo.DisplayName property
 
-Показать имя папки
+Отображаемое имя папки
 
 ```csharp
 public string DisplayName { get; }

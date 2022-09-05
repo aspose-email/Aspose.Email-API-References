@@ -18,7 +18,7 @@ public enum Notes
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Subject | `5` | 注释的主题。 |
+| Subject | `5` | 笔记的主题。 |
 | MessageClass | `6` | 消息的形式。 |
 | LastModifiedDate | `7` | 用户上次更改笔记的日期和时间。 |
 | Categories | `8` | 分配给注释的标签集合。 |

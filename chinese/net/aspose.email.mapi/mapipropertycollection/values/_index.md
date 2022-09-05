@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Email for .NET API 参考
-description: 获取 System.Collections.Generic.ICollectionltMapiPropertygt包含集合中的值
+description: 获取包含集合中的值的 System.Collections.Generic.ICollectionltMapiPropertygt
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapipropertycollection/values/
 ---
 ## MapiPropertyCollection.Values property
 
-获取 System.Collections.Generic.ICollection&lt;MapiProperty&gt;;包含集合中的值。
+获取包含集合中的值的 System.Collections.Generic.ICollection&lt;MapiProperty&gt;。
 
 ```csharp
 public ICollection<MapiProperty> Values { get; }

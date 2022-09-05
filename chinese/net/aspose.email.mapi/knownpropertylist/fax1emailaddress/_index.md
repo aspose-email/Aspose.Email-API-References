@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/fax1emailaddress/
 ---
 ## KnownPropertyList.Fax1EmailAddress field
 
-包含用户可读的显示名称，后跟“@”字符，后跟传真号码。 区域:联系人属性 规范名称:PidLidFax1EmailAddress 备用名称:dispidFax1EmailAddress
+包含用户可读的显示名称，后跟“@”字符，后跟传真号码。 区域：联系人属性 规范名称：PidLidFax1EmailAddress 备用名称：dispidFax1EmailAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax1EmailAddress;

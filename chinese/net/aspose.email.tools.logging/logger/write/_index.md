@@ -16,7 +16,7 @@ public void Write(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 要写入的消息。 |
+| message | String | 要写的消息。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void Write(string message)
 
 ## Write(string, Exception) {#write_2}
 
-将指定的消息和异常写入附加程序。
+将指定的消息和异常写入 appenders。
 
 ```csharp
 public void Write(string message, Exception exception)
@@ -36,8 +36,8 @@ public void Write(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 要写入的消息。 |
-| exception | Exception | 要写入的异常。 |
+| message | String | 要写的消息。 |
+| exception | Exception | 写的例外。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public void Write(string message, Exception exception)
 
 ## Write(string, Exception, LogLevel) {#write_3}
 
-将指定的消息和异常写入附加程序。
+将指定的消息和异常写入 appenders。
 
 ```csharp
 public void Write(string message, Exception ex, LogLevel level)
@@ -57,8 +57,8 @@ public void Write(string message, Exception ex, LogLevel level)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 要写入的消息。 |
-| ex | Exception | 要写入的异常。 |
+| message | String | 要写的消息。 |
+| ex | Exception | 写的例外。 |
 | level | LogLevel | 日志级别。 |
 
 ### 也可以看看
@@ -80,7 +80,7 @@ public void Write(object message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | Object | 要写入的消息。 |
+| message | Object | 要写的消息。 |
 
 ### 也可以看看
 

@@ -17,9 +17,9 @@ public Task DeleteItemsAsync(IEnumerable<string> itemUris, DeletionOptions optio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemUris | IEnumerable`1 | 一个项目uris |
-| options | DeletionOptions | 定义项目删除参数 |
-| cancellationToken | CancellationToken | 取消标记。 |
+| itemUris | IEnumerable`1 | 一个物品的uri |
+| options | DeletionOptions | 定义项目删除的参数 |
+| cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 也可以看看
 

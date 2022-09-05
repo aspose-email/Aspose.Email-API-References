@@ -1,7 +1,7 @@
 ---
 title: NotificationsCheckInterval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines interval for notification check
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/notificationscheckinterval/

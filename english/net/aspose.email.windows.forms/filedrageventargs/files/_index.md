@@ -1,7 +1,7 @@
 ---
 title: Files
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the files.
 type: docs
 weight: 10
 url: /net/aspose.email.windows.forms/filedrageventargs/files/

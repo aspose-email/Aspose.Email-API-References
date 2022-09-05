@@ -1,14 +1,14 @@
 ---
 title: OutboxFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает типы событий для папки Исходящие
+description: Определяет типы событий для папки Исходящие
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/outboxfoldereventfilter/
 ---
 ## IEWSClient.OutboxFolderEventFilter property
 
-Указывает типы событий для папки Исходящие
+Определяет типы событий для папки "Исходящие"
 
 ```csharp
 public EventTypes OutboxFolderEventFilter { get; set; }

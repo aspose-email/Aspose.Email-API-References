@@ -1,14 +1,14 @@
 ---
 title: OriginatorDeliveryReportRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивает ли отправитель электронной почты уведомление о доставке электронной почты из системы обмена сообщениями. ОбластьСвойства MIME Каноническое имяPidTagOriginatorDeliveryReportRequested Альтернативные именаPR_ORIGINATOR_DELIVERY_REPORT_REQUESTED
+description: Указывает запрашивает ли отправитель электронной почты уведомление о доставке электронной почты из системы обмена сообщениями. Область свойства MIME Каноническое имя PidTagOriginatorDeliveryReportRequested Альтернативные имена PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED
 type: docs
 weight: 13850
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatordeliveryreportrequested/
 ---
 ## KnownPropertyList.OriginatorDeliveryReportRequested field
 
-Указывает, запрашивает ли отправитель электронной почты уведомление о доставке электронной почты из системы обмена сообщениями. Область:Свойства MIME Каноническое имя:PidTagOriginatorDeliveryReportRequested Альтернативные имена:PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED,
+Указывает, запрашивает ли отправитель электронной почты уведомление о доставке электронной почты из системы обмена сообщениями. Область: свойства MIME Каноническое имя: PidTagOriginatorDeliveryReportRequested Альтернативные имена: PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorDeliveryReportRequested;

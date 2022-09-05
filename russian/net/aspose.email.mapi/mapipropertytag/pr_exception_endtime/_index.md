@@ -1,14 +1,14 @@
 ---
 title: PR_EXCEPTION_ENDTIME
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время окончания исключения в локальном часовом поясе компьютера на момент создания исключения.
+description: Содержит дату и время окончания исключения в локальном часовом поясе компьютера при создании исключения.
 type: docs
 weight: 11380
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_exception_endtime/
 ---
 ## MapiPropertyTag.PR_EXCEPTION_ENDTIME field
 
-Содержит дату и время окончания исключения в локальном часовом поясе компьютера на момент создания исключения.
+Содержит дату и время окончания исключения в локальном часовом поясе компьютера при создании исключения.
 
 ```csharp
 public static readonly long PR_EXCEPTION_ENDTIME;

@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoAppointmentTombstone
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список надгробий где каждое надгробие представляет отклоненный объект совещания. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoAppointmentTombstone Альтернативные именаPR_SCHDINFO_APPT_TOMBSTONE
+description: Содержит список надгробий где каждое надгробие представляет отклоненный объект собрания. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoAppointmentTombstone Альтернативные имена PR_SCHDINFO_APPT_TOMBSTONE
 type: docs
 weight: 16710
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfoappointmenttombstone/
 ---
 ## KnownPropertyList.ScheduleInfoAppointmentTombstone field
 
-Содержит список надгробий, где каждое надгробие представляет отклоненный объект совещания. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoAppointmentTombstone Альтернативные имена:PR_SCHDINFO_APPT_TOMBSTONE
+Содержит список надгробий, где каждое надгробие представляет отклоненный объект собрания. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoAppointmentTombstone Альтернативные имена: PR_SCHDINFO_APPT_TOMBSTONE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoAppointmentTombstone;

@@ -1,14 +1,14 @@
 ---
 title: EmsAbDelivEits
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DELIV_EITS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DELIV_EITS
 type: docs
 weight: 5380
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdeliveits/
 ---
 ## KnownPropertyList.EmsAbDelivEits field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DELIV_EITS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DELIV_EITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDelivEits;

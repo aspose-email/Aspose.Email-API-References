@@ -3,7 +3,7 @@ title: OlmFolder
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет информацию о папке в хранилище OLM.
 type: docs
-weight: 20050
+weight: 20100
 url: /ru/net/aspose.email.storage.olm/olmfolder/
 ---
 ## OlmFolder class
@@ -28,12 +28,12 @@ public class OlmFolder
 
 | Имя | Описание |
 | --- | --- |
-| [EnumerateMapiMessages](../../aspose.email.storage.olm/olmfolder/enumeratemapimessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
-| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
-| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_1)(MailQuery) | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
-| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_2)(int, int) | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
+| [EnumerateMapiMessages](../../aspose.email.storage.olm/olmfolder/enumeratemapimessages)() | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages)() | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_1)(MailQuery) | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_2)(int, int) | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
 | [GetSubFolder](../../aspose.email.storage.olm/olmfolder/getsubfolder)(string, bool) | Получает подпапку по имени. |
-| override [ToString](../../aspose.email.storage.olm/olmfolder/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.storage.olm/olmfolder/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

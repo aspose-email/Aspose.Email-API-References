@@ -1,14 +1,14 @@
 ---
 title: AppliesToExternalKnown
 second_title: Aspose.Email for .NET API 参考
-description: 表示OOF消息适用于已知的外部用户
+description: 表示 OOF 消息适用于已知的外部用户
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/oofmessage/appliestoexternalknown/
 ---
 ## OOFMessage.AppliesToExternalKnown property
 
-表示OOF消息适用于已知的外部用户。
+表示 OOF 消息适用于已知的外部用户。
 
 ```csharp
 public bool? AppliesToExternalKnown { get; set; }

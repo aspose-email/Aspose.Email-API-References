@@ -16,7 +16,7 @@ public FolderInfo RootFolder { get; }
 
 ### 适当的价值
 
-[`FolderInfo`](../../folderinfo)表示根文件夹。
+[`FolderInfo`](../../folderinfo)代表一个根文件夹。
 
 ### 也可以看看
 

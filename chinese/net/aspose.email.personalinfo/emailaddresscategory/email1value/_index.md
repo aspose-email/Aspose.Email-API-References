@@ -1,14 +1,14 @@
 ---
 title: Email1Value
 second_title: Aspose.Email for .NET API 参考
-description: Email1 类别的字符串值
+description: Email1类别的字符串值
 type: docs
 weight: 140
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/email1value/
 ---
 ## EmailAddressCategory.Email1Value field
 
-'Email1' 类别的字符串值
+“Email1”类别的字符串值
 
 ```csharp
 public const string Email1Value;

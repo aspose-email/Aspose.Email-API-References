@@ -16,8 +16,8 @@ public void Insert(int index, AssociatedPerson value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | AssociatedPerson | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | AssociatedPerson | Object вставить в список. |
 
 ### Смотрите также
 

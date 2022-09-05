@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddressPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiContactElectronicAddressPropertySetaspose.email.mapi/mapicontactelectronicaddresspropertysetclass
+description: Инициализирует новый экземплярMapiContactElectronicAddressPropertySetaspose.email.mapi/mapicontactelectronicaddresspropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/mapicontactelectronicaddresspropertyset/
 ---
 ## MapiContactElectronicAddressPropertySet() {#constructor}
 
-Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../../mapicontactelectronicaddresspropertyset)class
+Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../../mapicontactelectronicaddresspropertyset) класс
 
 ```csharp
 public MapiContactElectronicAddressPropertySet()
@@ -24,7 +24,7 @@ public MapiContactElectronicAddressPropertySet()
 
 ## MapiContactElectronicAddressPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../../mapicontactelectronicaddresspropertyset)class
+Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../../mapicontactelectronicaddresspropertyset) класс
 
 ```csharp
 public MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactElectronicAddressPropertySet(MapiPropertyCollection properties
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A[`MapiPropertyCollection`](../../mapipropertycollection)содержит свойства контактных адресов электронной почты |
+| properties | MapiPropertyCollection | А[`MapiPropertyCollection`](../../mapipropertycollection) содержащие свойства контактных адресов электронной почты |
 
 ### Смотрите также
 

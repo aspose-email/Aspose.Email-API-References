@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a task status.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/status/

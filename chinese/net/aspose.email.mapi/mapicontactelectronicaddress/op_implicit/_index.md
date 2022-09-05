@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 执行从String到MapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress 的隐式转换.
+description: 从String至MapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress.
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddress/op_implicit/
 ---
 ## MapiContactElectronicAddress Implicit operator
 
-执行从String到[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) 的隐式转换.
+从String至[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
 
 ```csharp
 public static implicit operator MapiContactElectronicAddress(string emailAddress)

@@ -1,14 +1,14 @@
 ---
 title: ExchangeAdvancedSyntaxMailQuery
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет критерии поиска которые используются для сопоставления нескольких свойств сообщения в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов AQS который используется EWS. AQS описан на https//docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews- в обмен.
+description: Представляет критерии поиска которые используются для сопоставления нескольких свойств сообщений в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов AQS который используется EWS. AQS описанный на https//docs.microsoft.com/exchange/ клиент-разработчик/обмен-веб-сервисы/как-выполнять-поиск-aqs-путем-использования-ews-в-обмене.
 type: docs
 weight: 3160
 url: /ru/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery class
 
-Представляет критерии поиска, которые используются для сопоставления нескольких свойств сообщения в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов (AQS), который используется EWS. AQS описан на https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews- в обмен.
+Представляет критерии поиска, которые используются для сопоставления нескольких свойств сообщений в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов (AQS), который используется EWS. AQS, описанный на https://docs.microsoft.com/exchange/ клиент-разработчик/обмен-веб-сервисы/как-выполнять-поиск-aqs-путем-использования-ews-в-обмене.
 
 ```csharp
 public class ExchangeAdvancedSyntaxMailQuery : MailQuery
@@ -18,7 +18,7 @@ public class ExchangeAdvancedSyntaxMailQuery : MailQuery
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeAdvancedSyntaxMailQuery](exchangeadvancedsyntaxmailquery)(string) | Инициализирует новый экземпляр класса[`ExchangeAdvancedSyntaxMailQuery`](../exchangeadvancedsyntaxmailquery). |
+| [ExchangeAdvancedSyntaxMailQuery](exchangeadvancedsyntaxmailquery)(string) | Инициализирует новый экземпляр[`ExchangeAdvancedSyntaxMailQuery`](../exchangeadvancedsyntaxmailquery) класс. |
 
 ## Характеристики
 
@@ -31,12 +31,12 @@ public class ExchangeAdvancedSyntaxMailQuery : MailQuery
 | Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/mailquery/equals)(MailQuery) | Указывает, равен ли текущий объект другому объекту того же типа. |
-| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | Определяет, является ли указанныйObject равно этому экземпляру. |
 | override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать значение null (Nothing в Visual Basic), а вместо этого, если требуется указание пользовательской схемы, применять атрибутXmlSchemaProviderAttributeк классу. |
-| override [ReadXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml)(XmlReader) | Генерирует объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery. |
-| override [ToString](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
-| override [WriteXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml)(XmlWriter) | Преобразует объект в его XML-представление. Не реализовано для класса ExchangeAdvancedMailQuery. |
+| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать null (ничего в Visual Basic), а вместо этого, если требуется указать пользовательскую схему, применитьXmlSchemaProviderAttribute в класс. |
+| override [ReadXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml)(XmlReader) | Создает объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery. |
+| override [ToString](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/tostring)() | ВозвращаетString который представляет этот экземпляр. |
+| override [WriteXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml)(XmlWriter) | Преобразует объект в его представление XML. Не реализовано для класса ExchangeAdvancedMailQuery. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: Kind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of the resource
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/basedataobject/kind/

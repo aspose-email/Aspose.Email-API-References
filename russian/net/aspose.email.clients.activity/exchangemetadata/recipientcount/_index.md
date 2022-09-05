@@ -1,14 +1,14 @@
 ---
 title: RecipientCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Общее количество всех получателей в строках TO CC и BCC сообщения. ОбязательноДа
+description: Общее количество всех получателей в строках TO CC и BCC сообщения. Обязательно Yes
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/recipientcount/
 ---
 ## ExchangeMetadata.RecipientCount property
 
-Общее количество всех получателей в строках TO, CC и BCC сообщения. Обязательно:Да
+Общее количество всех получателей в строках TO, CC и BCC сообщения. Обязательно: Yes
 
 ```csharp
 public int RecipientCount { get; set; }

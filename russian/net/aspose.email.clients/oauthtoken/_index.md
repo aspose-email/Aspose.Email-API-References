@@ -18,9 +18,9 @@ public class OAuthToken
 
 | Имя | Описание |
 | --- | --- |
-| [OAuthToken](oauthtoken#constructor)(string) | Инициализирует новый экземпляр класса[`OAuthToken`](../oauthtoken) |
-| [OAuthToken](oauthtoken#constructor_2)(string, DateTime) | Инициализирует новый экземпляр класса[`OAuthToken`](../oauthtoken) |
-| [OAuthToken](oauthtoken#constructor_1)(string, TokenType, DateTime) | Инициализирует новый экземпляр класса[`OAuthToken`](../oauthtoken) |
+| [OAuthToken](oauthtoken#constructor)(string) | Инициализирует новый экземпляр[`OAuthToken`](../oauthtoken) класс |
+| [OAuthToken](oauthtoken#constructor_2)(string, DateTime) | Инициализирует новый экземпляр[`OAuthToken`](../oauthtoken) класс |
+| [OAuthToken](oauthtoken#constructor_1)(string, TokenType, DateTime) | Инициализирует новый экземпляр[`OAuthToken`](../oauthtoken) класс |
 
 ## Характеристики
 
@@ -29,14 +29,14 @@ public class OAuthToken
 | [ExpirationDate](../../aspose.email.clients/oauthtoken/expirationdate) { get; } | Получает дату истечения срока действия токена. |
 | [Expired](../../aspose.email.clients/oauthtoken/expired) { get; } | Указывает, истек ли срок действия токена |
 | [Token](../../aspose.email.clients/oauthtoken/token) { get; } | Получает значение токена |
-| [TokenType](../../aspose.email.clients/oauthtoken/tokentype) { get; } | Получает тип токена OAuth |
+| [TokenType](../../aspose.email.clients/oauthtoken/tokentype) { get; } | Получает токен OAuth type |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.email.clients/oauthtoken/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.email.clients/oauthtoken/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.email.clients/oauthtoken/gethashcode)() | Служит хеш-функцией для определенного типа. |
 | override [ToString](../../aspose.email.clients/oauthtoken/tostring)() | Возвращает строку, представляющую текущий объект. |
 
 ### Смотрите также

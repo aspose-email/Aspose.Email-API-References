@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified object is equal to the current object.
 type: docs
 weight: 40
 url: /net/aspose.email.clients/commandstatus/equals/

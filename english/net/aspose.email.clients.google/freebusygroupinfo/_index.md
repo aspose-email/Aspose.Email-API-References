@@ -1,7 +1,7 @@
 ---
 title: FreebusyGroupInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies list of calendars that are members of the groups.
 type: docs
 weight: 15720
 url: /net/aspose.email.clients.google/freebusygroupinfo/
@@ -18,10 +18,10 @@ public class FreebusyGroupInfo
 
 | Name | Description |
 | --- | --- |
-| [FreebusyGroupInfo](freebusygroupinfo)() | Initializes a new instance of the FreebusyGroupInfo class. |
-| [FreebusyGroupInfo](freebusygroupinfo)(string, IEnumerable&lt;ErrorDetails&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
-| [FreebusyGroupInfo](freebusygroupinfo)(string, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
-| [FreebusyGroupInfo](freebusygroupinfo)(string, IEnumerable&lt;ErrorDetails&gt;, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
+| [FreebusyGroupInfo](freebusygroupinfo#constructor)() | Initializes a new instance of the FreebusyGroupInfo class. |
+| [FreebusyGroupInfo](freebusygroupinfo#constructor_1)(string, IEnumerable&lt;ErrorDetails&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
+| [FreebusyGroupInfo](freebusygroupinfo#constructor_3)(string, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
+| [FreebusyGroupInfo](freebusygroupinfo#constructor_2)(string, IEnumerable&lt;ErrorDetails&gt;, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyGroupInfo class. |
 
 ## Properties
 

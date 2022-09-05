@@ -3,7 +3,7 @@ title: PhoneNumber
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет номер телефона.
 type: docs
-weight: 19430
+weight: 19460
 url: /ru/net/aspose.email.personalinfo/phonenumber/
 ---
 ## PhoneNumber class
@@ -32,7 +32,7 @@ public class PhoneNumber : IComparable<PhoneNumber>, IEquatable<PhoneNumber>
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.email.personalinfo/phonenumber/compareto)(PhoneNumber) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.email.personalinfo/phonenumber/compareto)(PhoneNumber) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | override [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals_2)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals)(PhoneNumber) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals_1)(PhoneNumber, PhoneNumber) | Определяет, считаются ли указанные экземпляры объектов равными. |

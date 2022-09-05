@@ -1,7 +1,7 @@
 ---
 title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiNamedPropertyMappingStorageaspose.email.mapi/mapinamedpropertymappingstorage class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/mapinamedpropertymappingstorage/

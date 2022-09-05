@@ -1,12 +1,12 @@
 ---
 title: GetMailboxSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the mailbox
 type: docs
 weight: 170
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxsize/
 ---
-## Pop3Client.GetMailboxSize method (1 of 2)
+## GetMailboxSize(IConnection) {#getmailboxsize_1}
 
 Gets the size of the mailbox
 
@@ -31,7 +31,7 @@ size of the mailbox in bytes
 
 ---
 
-## Pop3Client.GetMailboxSize method (2 of 2)
+## GetMailboxSize() {#getmailboxsize}
 
 Gets the size of the mailbox
 

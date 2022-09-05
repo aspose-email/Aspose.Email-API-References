@@ -1,14 +1,14 @@
 ---
 title: SharingBindingEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingBindingEntryId 备用名称dispidSharingBindingEid
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingBindingEntryId 替代名称dispidSharingBindingEid
 type: docs
 weight: 17400
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingbindingentryid/
 ---
 ## KnownPropertyList.SharingBindingEntryId field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingBindingEntryId 备用名称:dispidSharingBindingEid
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingBindingEntryId 替代名称：dispidSharingBindingEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingBindingEntryId;

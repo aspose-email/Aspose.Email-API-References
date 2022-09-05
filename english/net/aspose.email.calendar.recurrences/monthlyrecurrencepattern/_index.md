@@ -1,7 +1,7 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a recurrence pattern of monthly recurrence type.
 type: docs
 weight: 750
 url: /net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/
@@ -18,9 +18,9 @@ public class MonthlyRecurrencePattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern)() | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern)(int, int) | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
-| [MonthlyRecurrencePattern](monthlyrecurrencepattern)(DayPosition, CalendarDay, int) | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor)() | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_2)(int, int) | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
+| [MonthlyRecurrencePattern](monthlyrecurrencepattern#constructor_1)(DayPosition, CalendarDay, int) | Initializes a new instance of the [`MonthlyRecurrencePattern`](../monthlyrecurrencepattern) class. |
 
 ## Properties
 

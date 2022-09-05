@@ -1,7 +1,7 @@
 ---
 title: TransportMessageHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains transportspecific message envelope information for email. Area Email Canonical name PidTagTransportMessageHeaders Alternate names PR_TRANSPORT_MESSAGE_HEADERS PR_TRANSPORT_MESSAGE_HEADERS_A PR_TRANSPORT_MESSAGE_HEADERS_W
 type: docs
 weight: 19110
 url: /net/aspose.email.mapi/knownpropertylist/transportmessageheaders/

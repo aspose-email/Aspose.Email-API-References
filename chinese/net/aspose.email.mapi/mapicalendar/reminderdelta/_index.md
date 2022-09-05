@@ -1,14 +1,14 @@
 ---
 title: ReminderDelta
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置提醒第一次过期的时间和日历对象的开始时间之间的时间间隔以分钟为单位
+description: 获取或设置提醒第一次过期的时间和日历对象的开始时间之间的间隔以分钟为单位
 type: docs
 weight: 140
 url: /zh/net/aspose.email.mapi/mapicalendar/reminderdelta/
 ---
 ## MapiCalendar.ReminderDelta property
 
-获取或设置提醒第一次过期的时间和日历对象的开始时间之间的时间间隔，以分钟为单位
+获取或设置提醒第一次过期的时间和日历对象的开始时间之间的间隔，以分钟为单位
 
 ```csharp
 public int ReminderDelta { get; set; }

@@ -16,8 +16,8 @@ public void Reply(MailMessage message, ExchangeMessageInfo referencedMessage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | Объект[`MailMessage`](../../../aspose.email/mailmessage), представляющий предварительно составленное ответное сообщение. |
-| referencedMessage | ExchangeMessageInfo | Объект[`ExchangeMessageInfo`](../../../aspose.email.clients.exchange/exchangemessageinfo), представляющий исходное сообщение. |
+| message | MailMessage | [`MailMessage`](../../../aspose.email/mailmessage) который представляет предварительно составленное ответное сообщение. |
+| referencedMessage | ExchangeMessageInfo | [`ExchangeMessageInfo`](../../../aspose.email.clients.exchange/exchangemessageinfo) который представляет исходное сообщение. |
 
 ### Смотрите также
 

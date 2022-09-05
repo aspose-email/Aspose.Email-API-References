@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 获取指示列表是否为只读的值
+description: 获取一个值该值指示列表是否为只读
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo/postaladdresslist/isreadonly/
 ---
 ## PostalAddressList.IsReadOnly property
 
-获取指示列表是否为只读的值。
+获取一个值，该值指示列表是否为只读。
 
 ```csharp
 public bool IsReadOnly { get; }

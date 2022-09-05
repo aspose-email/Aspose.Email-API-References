@@ -1,7 +1,7 @@
 ---
 title: ListSubFoldersByPageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Searches the specified folder in the given parent folder with paging Method supports paging.
 type: docs
 weight: 490
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersbypageasync/

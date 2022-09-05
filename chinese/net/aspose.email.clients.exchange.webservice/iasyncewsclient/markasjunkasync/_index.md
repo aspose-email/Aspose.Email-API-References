@@ -17,8 +17,8 @@ public Task<IEnumerable<string>> MarkAsJunkAsync(IEnumerable<string> messageUris
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageUris | IEnumerable`1 | 枚举消息 uri |
-| isJunk | Boolean | 表示是否将邮件标记为垃圾邮件。 如果值为 true，则将消息发送者添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发件人。 |
+| messageUris | IEnumerable`1 | 消息uri的枚举 |
+| isJunk | Boolean | 指示是否将邮件标记为垃圾邮件。 如果值为 true，则将邮件发件人添加到阻止列表。 如果值为 false，则从阻止列表中删除消息发送者。 |
 | moveItem | Boolean | 指示是否将邮件移动到垃圾邮件文件夹。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
@@ -30,7 +30,7 @@ public Task<IEnumerable<string>> MarkAsJunkAsync(IEnumerable<string> messageUris
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [EwsMarkAsJunkException](../../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception) | 失败的项目。 |
+| [EwsMarkAsJunkException](../../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception) | 那里有失败的项目。 |
 
 ### 也可以看看
 

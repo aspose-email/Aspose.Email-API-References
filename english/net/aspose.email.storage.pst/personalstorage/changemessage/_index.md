@@ -1,7 +1,7 @@
 ---
 title: ChangeMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the message properties.
 type: docs
 weight: 120
 url: /net/aspose.email.storage.pst/personalstorage/changemessage/

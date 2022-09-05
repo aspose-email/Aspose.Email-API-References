@@ -1,12 +1,12 @@
 ---
 title: MapiMessageParseException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiMessageParseException class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapimessageparseexception/mapimessageparseexception/
 ---
-## MapiMessageParseException constructor (1 of 3)
+## MapiMessageParseException() {#constructor}
 
 Initializes a new instance of the MapiMessageParseException class.
 
@@ -22,7 +22,7 @@ public MapiMessageParseException()
 
 ---
 
-## MapiMessageParseException constructor (2 of 3)
+## MapiMessageParseException(string) {#constructor_1}
 
 Initializes a new instance of the MapiMessageParseException class.
 
@@ -42,7 +42,7 @@ public MapiMessageParseException(string message)
 
 ---
 
-## MapiMessageParseException constructor (3 of 3)
+## MapiMessageParseException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the MapiMessageParseException class.
 

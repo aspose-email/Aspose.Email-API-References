@@ -1,7 +1,7 @@
 ---
 title: RevisionNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the revision number of the file attached to the Document object. Area Common Canonical name PidNameRevisionNumber Alternate names urnschemasmicrosoftcomofficeofficeRevision
 type: docs
 weight: 16280
 url: /net/aspose.email.mapi/knownpropertylist/revisionnumber/

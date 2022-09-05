@@ -1,7 +1,7 @@
 ---
 title: GmExt1Supported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines if Google XGMEXT1 extension is supported
 type: docs
 weight: 160
 url: /net/aspose.email.clients.imap/imapclient/gmext1supported/

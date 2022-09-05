@@ -25,7 +25,7 @@ public class MailgunClientOptions : DeliveryServiceOptions
 | Имя | Описание |
 | --- | --- |
 | [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | Закрытый ключ API |
-| [Domain](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain) { get; set; } | Доменное имя. |
+| [Domain](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain) { get; set; } | Имя домена. |
 | [Region](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/region) { get; set; } | Регион США или ЕС. |
 
 ### Смотрите также

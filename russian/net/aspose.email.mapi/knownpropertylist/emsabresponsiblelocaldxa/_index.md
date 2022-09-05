@@ -1,14 +1,14 @@
 ---
 title: EmsAbResponsibleLocalDxa
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_RESPONSIBLE_LOCAL_DXA
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_RESPONSIBLE_LOCAL_DXA
 type: docs
 weight: 8520
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabresponsiblelocaldxa/
 ---
 ## KnownPropertyList.EmsAbResponsibleLocalDxa field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_RESPONSIBLE_LOCAL_DXA
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_RESPONSIBLE_LOCAL_DXA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbResponsibleLocalDxa;

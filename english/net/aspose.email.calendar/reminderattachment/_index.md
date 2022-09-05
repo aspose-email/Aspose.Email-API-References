@@ -1,7 +1,7 @@
 ---
 title: ReminderAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the capability to associate a document object with an alarm.
 type: docs
 weight: 820
 url: /net/aspose.email.calendar/reminderattachment/
@@ -18,8 +18,8 @@ public class ReminderAttachment
 
 | Name | Description |
 | --- | --- |
-| [ReminderAttachment](reminderattachment)(byte[]) | Initialize a new instance of [`ReminderAttachment`](../reminderattachment) class. |
-| [ReminderAttachment](reminderattachment)(Uri) | Initialize a new instance of [`ReminderAttachment`](../reminderattachment) class. |
+| [ReminderAttachment](reminderattachment#constructor)(byte[]) | Initialize a new instance of [`ReminderAttachment`](../reminderattachment) class. |
+| [ReminderAttachment](reminderattachment#constructor_1)(Uri) | Initialize a new instance of [`ReminderAttachment`](../reminderattachment) class. |
 
 ## Properties
 

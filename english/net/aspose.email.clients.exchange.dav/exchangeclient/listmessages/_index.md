@@ -1,12 +1,12 @@
 ---
 title: ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the messages.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/listmessages/
 ---
-## ExchangeClient.ListMessages method (1 of 8)
+## ListMessages(string) {#listmessages}
 
 Lists the messages.
 
@@ -31,7 +31,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## ExchangeClient.ListMessages method (2 of 8)
+## ListMessages(string, int) {#listmessages_4}
 
 Lists the messages.
 
@@ -57,7 +57,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## ExchangeClient.ListMessages method (3 of 8)
+## ListMessages(string, string, bool) {#listmessages_7}
 
 Lists the messages.
 
@@ -81,7 +81,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string messageC
 
 ---
 
-## ExchangeClient.ListMessages method (4 of 8)
+## ListMessages(string, bool) {#listmessages_3}
 
 List the messages in the specified folder
 
@@ -107,7 +107,7 @@ A collection of message info
 
 ---
 
-## ExchangeClient.ListMessages method (5 of 8)
+## ListMessages(string, string) {#listmessages_6}
 
 Lists the messages.
 
@@ -129,7 +129,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string query)
 
 ---
 
-## ExchangeClient.ListMessages method (6 of 8)
+## ListMessages(string, MailQuery, bool) {#listmessages_2}
 
 Lists the messages.
 
@@ -157,7 +157,7 @@ The message info collection.
 
 ---
 
-## ExchangeClient.ListMessages method (7 of 8)
+## ListMessages(string, ExchangeListMessagesOptions) {#listmessages_1}
 
 Lists the mail message in the specified folder.
 
@@ -185,7 +185,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## ExchangeClient.ListMessages method (8 of 8)
+## ListMessages(string, int, ExchangeListMessagesOptions) {#listmessages_5}
 
 List the messages in the specified folder
 

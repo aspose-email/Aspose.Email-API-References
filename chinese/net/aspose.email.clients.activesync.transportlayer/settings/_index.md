@@ -24,8 +24,8 @@ public enum Settings
 | Set | `8` | 在服务器上设置信息设置。 |
 | Oof | `9` | 指定用于检索和设置外出 (OOF) 信息的命名属性节点。 |
 | OofState | `10` | 指定 Oof 属性的可用性（第 2.2.3.112 节）。 |
-| StartTime | `11` | 它与 EndTime 元素一起用于指定用户不在办公室的时间范围。 |
-| EndTime | `12` | 它与 StartTime 元素一起用于指定用户不在办公室的时间范围。 |
+| StartTime | `11` | 它与EndTime元素一起使用来指定用户不在办公室的时间范围。 |
+| EndTime | `12` | 它与StartTime元素一起使用来指定用户不在办公室的时间范围。 |
 | OofMessage | `13` | 为特定受众指定 OOF 消息。 |
 | AppliesToInternal | `14` | 表示OOF消息适用于内部用户。 |
 | AppliesToExternalKnown | `15` | 表示OOF消息适用于已知的外部用户。 |
@@ -36,7 +36,7 @@ public enum Settings
 | DevicePassword | `20` | 用于将客户端设备的恢复密码发送到服务器。 |
 | Password | `21` | 指定客户端设备的恢复密码，由服务器存储。 |
 | DeviceInformation | `22` | 用于将客户端设备的属性发送到服务器。 |
-| Model | `23` | 指定通常描述客户端设备的名称。 |
+| Model | `23` | 指定一个通常描述客户端设备的名称。 |
 | IMEI | `24` | 指定必须唯一标识设备的 15 个字符的代码。 |
 | FriendlyName | `25` | 指定必须唯一描述客户端设备的名称。 |
 | OS | `26` | 指定客户端设备的操作系统。 |
@@ -55,7 +55,7 @@ public enum Settings
 | AccountName | `39` | 指定给定帐户的友好名称。 |
 | UserDisplayName | `40` | 指定与给定帐户关联的用户的显示名称。 |
 | SendDisabled | `41` | 指定客户端是否可以使用给定帐户发送消息。 |
-| RightsManagementInformation | `43` | Settings 命令请求中，RightsManagementInformation 元素是一个容器节点，用于请求权限管理信息设置。 在设置命令响应中，RightsManagementInformation 元素是一个容器节点，其中包含从服务器检索的权限管理信息设置。 |
+| RightsManagementInformation | `43` | 在 Settings 命令请求中，RightsManagementInformation 元素是一个容器节点，用于请求权限管理信息设置。 在设置命令响应中，RightsManagementInformation 元素是一个容器节点，其中包含从服务器检索的权限管理信息设置。 |
 
 ### 也可以看看
 

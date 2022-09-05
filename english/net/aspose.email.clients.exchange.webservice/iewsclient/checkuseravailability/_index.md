@@ -1,12 +1,12 @@
 ---
 title: CheckUserAvailability
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks user availability within the specified time window.
 type: docs
 weight: 420
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/checkuseravailability/
 ---
-## IEWSClient.CheckUserAvailability method (1 of 2)
+## CheckUserAvailability(string, DateRange) {#checkuseravailability}
 
 Checks user availability within the specified time window.
 
@@ -33,7 +33,7 @@ public ExchangeUserAvailability CheckUserAvailability(string user, DateRange tim
 
 ---
 
-## IEWSClient.CheckUserAvailability method (2 of 2)
+## CheckUserAvailability(StringCollection, DateRange) {#checkuseravailability_1}
 
 Checks users availability within the specified time window.
 

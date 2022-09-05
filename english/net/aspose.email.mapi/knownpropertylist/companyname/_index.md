@@ -1,7 +1,7 @@
 ---
 title: CompanyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users company name. Area Contact Properties Canonical name PidTagCompanyName Alternate names PR_COMPANY_NAME PR_COMPANY_NAME_A PR_COMPANY_NAME_W
 type: docs
 weight: 2840
 url: /net/aspose.email.mapi/knownpropertylist/companyname/

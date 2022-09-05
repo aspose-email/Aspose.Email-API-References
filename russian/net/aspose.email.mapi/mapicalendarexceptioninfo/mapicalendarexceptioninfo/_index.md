@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiCalendarExceptionInfoaspose.email.mapi/mapicalendarexceptioninfo.
+description: Инициализирует новый экземплярMapiCalendarExceptionInfoaspose.email.mapi/mapicalendarexceptioninfo класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicalendarexceptioninfo/mapicalendarexceptioninfo/
 ---
 ## MapiCalendarExceptionInfo constructor
 
-Инициализирует новый экземпляр класса[`MapiCalendarExceptionInfo`](../../mapicalendarexceptioninfo).
+Инициализирует новый экземпляр[`MapiCalendarExceptionInfo`](../../mapicalendarexceptioninfo) класс.
 
 ```csharp
 public MapiCalendarExceptionInfo()

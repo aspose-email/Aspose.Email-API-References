@@ -18,12 +18,12 @@ public class Calendar : BaseDataObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Calendar](calendar#constructor)() | 初始化 Calendar 类的新实例。 |
-| [Calendar](calendar#constructor_1)(string) | 初始化 Calendar 类的新实例。 |
-| [Calendar](calendar#constructor_2)(string, string) | 初始化 Calendar 类的新实例。 |
-| [Calendar](calendar#constructor_3)(string, string, string, string) | 初始化 Calendar 类的新实例。 |
-| [Calendar](calendar#constructor_4)(string, string, string, string, string) | 初始化 Calendar 类的新实例。 |
-| [Calendar](calendar#constructor_5)(string, string, string, string, string, string) | 初始化 Calendar 类的新实例。 |
+| [Calendar](calendar#constructor)() | 初始化日历类的新实例。 |
+| [Calendar](calendar#constructor_1)(string) | 初始化日历类的新实例。 |
+| [Calendar](calendar#constructor_2)(string, string) | 初始化日历类的新实例。 |
+| [Calendar](calendar#constructor_3)(string, string, string, string) | 初始化日历类的新实例。 |
+| [Calendar](calendar#constructor_4)(string, string, string, string, string) | 初始化日历类的新实例。 |
+| [Calendar](calendar#constructor_5)(string, string, string, string, string, string) | 初始化日历类的新实例。 |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public class Calendar : BaseDataObject
 | --- | --- |
 | virtual [ConferenceProperties](../../aspose.email.clients.google/calendar/conferenceproperties) { get; } | 获取此日历的会议属性。 |
 | virtual [Description](../../aspose.email.clients.google/calendar/description) { get; set; } | 日历的描述。 |
-| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | ETag 或实体标签是 HTTP 为 Web 缓存验证提供的多种机制之一，它允许客户端发出条件请求。 这允许缓存更有效，并节省带宽，因为如果内容没有更改，Web 服务器不需要发送完整的响应。 ETags 也可用于乐观并发控制，以帮助防止资源的同时更新相互覆盖。 |
+| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | ETag 或实体标记是 HTTP 为 Web 缓存验证提供的几种机制之一，它允许客户端发出条件请求。 这允许缓存更有效，并节省带宽，因为如果内容没有更改，Web 服务器不需要发送完整的响应。 ETag 也可用于乐观并发控制，以帮助防止资源的同时更新相互覆盖。 |
 | virtual [Id](../../aspose.email.clients.google/basedataobject/id) { get; set; } | 资源标识符。 |
 | virtual [Kind](../../aspose.email.clients.google/basedataobject/kind) { get; } | 资源类型 |
 | virtual [Location](../../aspose.email.clients.google/calendar/location) { get; set; } | 日历的地理位置为自由格式文本。 |

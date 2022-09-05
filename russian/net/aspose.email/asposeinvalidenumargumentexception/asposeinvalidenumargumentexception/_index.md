@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidEnumArgumentException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeInvalidEnumArgumentExceptionaspose.email/asposeinvalidenumargumentexception.
+description: Инициализирует новый экземплярAsposeInvalidEnumArgumentExceptionaspose.email/asposeinvalidenumargumentexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeinvalidenumargumentexception/asposeinvalidenumargumentexception/
 ---
 ## AsposeInvalidEnumArgumentException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception).
+Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) класс.
 
 ```csharp
 public AsposeInvalidEnumArgumentException()
@@ -24,7 +24,7 @@ public AsposeInvalidEnumArgumentException()
 
 ## AsposeInvalidEnumArgumentException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string message)
@@ -44,7 +44,7 @@ public AsposeInvalidEnumArgumentException(string message)
 
 ## AsposeInvalidEnumArgumentException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public AsposeInvalidEnumArgumentException(string format, params object[] paramet
 
 ## AsposeInvalidEnumArgumentException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string message, Exception innerException)
@@ -74,7 +74,7 @@ public AsposeInvalidEnumArgumentException(string message, Exception innerExcepti
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -86,7 +86,7 @@ public AsposeInvalidEnumArgumentException(string message, Exception innerExcepti
 
 ## AsposeInvalidEnumArgumentException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(Exception innerException)
@@ -94,7 +94,7 @@ public AsposeInvalidEnumArgumentException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: ReminderOverride
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client is to respect the current values of the property section 2.219 or use the default values for those properties. Area Reminders Canonical name PidLidReminderOverride Alternate names dispidReminderOverride
 type: docs
 weight: 15690
 url: /net/aspose.email.mapi/knownpropertylist/reminderoverride/

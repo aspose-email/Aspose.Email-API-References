@@ -1,7 +1,7 @@
 ---
 title: CalendarFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Calendar folder
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/calendarfoldereventfilter/

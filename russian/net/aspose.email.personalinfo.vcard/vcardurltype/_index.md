@@ -1,14 +1,14 @@
 ---
 title: VCardUrlType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет тип URL
+description: Перечисляет URL type
 type: docs
-weight: 19770
+weight: 19820
 url: /ru/net/aspose.email.personalinfo.vcard/vcardurltype/
 ---
 ## VCardUrlType enumeration
 
-Перечисляет тип URL
+Перечисляет URL type
 
 ```csharp
 public enum VCardUrlType
@@ -20,7 +20,7 @@ public enum VCardUrlType
 | --- | --- | --- |
 | None | `0` | Тип не указан, |
 | HOME | `1` | Домашний тип URL. |
-| WORK | `2` | Рабочий тип URL. |
+| WORK | `2` | Тип работы URL. |
 
 ### Смотрите также
 

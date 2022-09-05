@@ -1,14 +1,14 @@
 ---
 title: Command
 second_title: Справочник по Aspose.Email для .NET API
-description: Команда запуска программы
+description: Команда используемая для запуска программы
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/command/
 ---
 ## ImapIdentificationInfo.Command property
 
-Команда запуска программы
+Команда, используемая для запуска программы
 
 ```csharp
 public string Command { get; set; }

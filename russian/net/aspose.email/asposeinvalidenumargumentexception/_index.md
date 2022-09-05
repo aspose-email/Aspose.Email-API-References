@@ -18,11 +18,11 @@ public class AsposeInvalidEnumArgumentException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception). |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception)с указанным сообщением об ошибке. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception)с указанным сообщением об ошибке. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor)() | Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) класс. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeInvalidEnumArgumentException](asposeinvalidenumargumentexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeInvalidEnumArgumentException`](../asposeinvalidenumargumentexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

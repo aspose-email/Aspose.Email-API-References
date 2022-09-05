@@ -16,7 +16,7 @@ public static Status GetStatus(int statusCode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| statusCode | Int32 | 包含状态代码 |
+| statusCode | Int32 | 包含状态码 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commandCode | CommandCodes | 指定 ActiveSync 命令代码。 |
-| statusCode | String | 包含状态代码 |
+| statusCode | String | 包含状态码 |
 
 ### 返回值
 
@@ -67,7 +67,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commandCode | CommandCodes | 指定 ActiveSync 命令代码。 |
-| statusCode | Int32 | 包含状态代码 |
+| statusCode | Int32 | 包含状态码 |
 
 ### 返回值
 
@@ -93,7 +93,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode, int 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commandCode | CommandCodes | 指定 ActiveSync 命令代码。 |
-| statusCode | String | 包含状态代码 |
+| statusCode | String | 包含状态码 |
 | subCategory | Int32 | 指定状态的子类别 |
 
 ### 返回值
@@ -120,7 +120,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode, int sub
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commandCode | CommandCodes | 指定 ActiveSync 命令代码。 |
-| statusCode | Int32 | 包含状态代码 |
+| statusCode | Int32 | 包含状态码 |
 | subCategory | Int32 | 指定状态的子类别 |
 
 ### 返回值

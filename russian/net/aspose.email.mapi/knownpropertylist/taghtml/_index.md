@@ -1,14 +1,14 @@
 ---
 title: TagHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит основной текст сообщения в формате HTML. ОбластьОбщие свойства сообщения Каноническое имяPidTagHtml Альтернативные именаPR_HTML ptagHtml
+description: Содержит основной текст сообщения в формате HTML. Область Общие свойства сообщения Каноническое имя PidTagHtml Альтернативные имена PR_HTML ptagHtml
 type: docs
 weight: 18480
 url: /ru/net/aspose.email.mapi/knownpropertylist/taghtml/
 ---
 ## KnownPropertyList.TagHtml field
 
-Содержит основной текст сообщения в формате HTML. Область:Общие свойства сообщения Каноническое имя:PidTagHtml Альтернативные имена:PR_HTML, ptagHtml
+Содержит основной текст сообщения в формате HTML. Область: Общие свойства сообщения Каноническое имя: PidTagHtml Альтернативные имена: PR_HTML, ptagHtml
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagHtml;

@@ -1,14 +1,14 @@
 ---
 title: EstimatedDataSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定与父元素关联的数据大小的信息估计 每当截断元素设置为 TRUE 时都应该显示 EstimatedDataSize 元素
+description: 指定与父元素关联的数据大小的信息估计值 应在将截断元素设置为 TRUE 时显示 EstimatedDataSize 元素
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/bodypart/estimateddatasize/
 ---
 ## BodyPart.EstimatedDataSize property
 
-指定与父元素关联的数据大小的信息估计。 每当截断元素设置为 TRUE 时，都应该显示 EstimatedDataSize 元素
+指定与父元素关联的数据大小的信息估计值。 应在将截断元素设置为 TRUE 时显示 EstimatedDataSize 元素
 
 ```csharp
 public int? EstimatedDataSize { get; set; }

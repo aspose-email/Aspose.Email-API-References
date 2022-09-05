@@ -1,14 +1,14 @@
 ---
 title: FetchMessages
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定消息
+description: 获取指定的消息
 type: docs
 weight: 820
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessages/
 ---
 ## FetchMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessages_2}
 
-获取指定消息
+获取指定的消息
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<string> uris, 
@@ -17,18 +17,18 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollection包含要检索的消息 uri |
+| uris | IEnumerable`1 | 一个StringCollection包含要检索的消息 uri |
 | extendedProperties | IEnumerable`1 | 扩展属性的枚举 |
 
 ### 返回值
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
+一个[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*是`无效的` |
 
 ### 也可以看看
 
@@ -42,7 +42,7 @@ A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获
 
 ## FetchMessages(IEnumerable&lt;string&gt;) {#fetchmessages_1}
 
-获取指定消息
+获取指定的消息
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<string> uris)
@@ -50,17 +50,17 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollection包含要检索的消息 uri |
+| uris | IEnumerable`1 | 一个StringCollection包含要检索的消息 uri |
 
 ### 返回值
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
+一个[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*是` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*是`无效的` |
 
 ### 也可以看看
 
@@ -73,7 +73,7 @@ A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获
 
 ## FetchMessages(IEnumerable&lt;ExchangeMessageInfo&gt;) {#fetchmessages}
 
-获取指定消息
+获取指定的消息
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<ExchangeMessageInfo> messageInfos)
@@ -81,17 +81,17 @@ public MailMessageCollection FetchMessages(IEnumerable<ExchangeMessageInfo> mess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfos | IEnumerable`1 | AIEnumerable&lt;ExchangeMessageInfo&gt; "/&gt; 要检索的消息 |
+| messageInfos | IEnumerable`1 | 一个IEnumerable&lt;ExchangeMessageInfo&gt;"/&gt; 要检索的消息 |
 
 ### 返回值
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
+一个[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageInfos*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageInfos*是`无效的` |
 
 ### 也可以看看
 
@@ -113,17 +113,17 @@ public MailMessageCollection FetchMessages(StringCollection messageUris)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageUris | StringCollection | AStringCollection包含要检索的消息 uri |
+| messageUris | StringCollection | 一个StringCollection包含要检索的消息 uri |
 
 ### 返回值
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
+一个[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUris*是` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUris*是`无效的` |
 
 ### 也可以看看
 

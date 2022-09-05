@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiConversionOptionsaspose.email.mapi/mapiconversionoptions类的新实例
+description: 初始化MapiConversionOptionsaspose.email.mapi/mapiconversionoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapiconversionoptions/mapiconversionoptions/
 ---
 ## MapiConversionOptions() {#constructor}
 
-初始化[`MapiConversionOptions`](../../mapiconversionoptions)类的新实例。
+初始化[`MapiConversionOptions`](../../mapiconversionoptions)类.
 
 ```csharp
 public MapiConversionOptions()
@@ -24,7 +24,7 @@ public MapiConversionOptions()
 
 ## MapiConversionOptions(OutlookMessageFormat) {#constructor_1}
 
-使用指定的 OutlookMessageFormat 初始化[`MapiConversionOptions`](../../mapiconversionoptions)类的新实例。
+初始化[`MapiConversionOptions`](../../mapiconversionoptions)具有指定 OutlookMessageFormat. 的类
 
 ```csharp
 public MapiConversionOptions(OutlookMessageFormat format)
@@ -32,7 +32,7 @@ public MapiConversionOptions(OutlookMessageFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | OutlookMessageFormat | MapiMessage[`OutlookMessageFormat`](../../outlookmessageformat)的格式。 |
+| format | OutlookMessageFormat | MapiMessage 格式[`OutlookMessageFormat`](../../outlookmessageformat). |
 
 ### 也可以看看
 

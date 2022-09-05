@@ -1,14 +1,14 @@
 ---
 title: AutodiscoverService
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice.
+description: Инициализирует новый экземплярAutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/autodiscoverservice/autodiscoverservice/
 ---
 ## AutodiscoverService() {#constructor}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService()
@@ -24,7 +24,7 @@ public AutodiscoverService()
 
 ## AutodiscoverService(ExchangeVersion) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService(ExchangeVersion requestedServerVersion)
@@ -32,7 +32,7 @@ public AutodiscoverService(ExchangeVersion requestedServerVersion)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| requestedServerVersion | ExchangeVersion | Запрошенная версия сервера. |
+| requestedServerVersion | ExchangeVersion | Запрашиваемая версия сервера. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public AutodiscoverService(ExchangeVersion requestedServerVersion)
 
 ## AutodiscoverService(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService(string domain)
@@ -53,7 +53,7 @@ public AutodiscoverService(string domain)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| domain | String | Домен, который будет использоваться для определения URL службы. |
+| domain | String | Домен, который будет использоваться для определения URL-адреса службы. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public AutodiscoverService(string domain)
 
 ## AutodiscoverService(string, ExchangeVersion) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion)
@@ -73,8 +73,8 @@ public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| domain | String | Домен, который будет использоваться для определения URL службы. |
-| requestedServerVersion | ExchangeVersion | Запрошенная версия сервера. |
+| domain | String | Домен, который будет использоваться для определения URL-адреса службы. |
+| requestedServerVersion | ExchangeVersion | Запрашиваемая версия сервера. |
 
 ### Смотрите также
 
@@ -87,7 +87,7 @@ public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion
 
 ## AutodiscoverService(Uri) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService(Uri url)
@@ -107,7 +107,7 @@ public AutodiscoverService(Uri url)
 
 ## AutodiscoverService(Uri, ExchangeVersion) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`AutodiscoverService`](../../autodiscoverservice).
+Инициализирует новый экземпляр[`AutodiscoverService`](../../autodiscoverservice) класс.
 
 ```csharp
 public AutodiscoverService(Uri url, ExchangeVersion requestedServerVersion)
@@ -116,7 +116,7 @@ public AutodiscoverService(Uri url, ExchangeVersion requestedServerVersion)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | url | Uri | URL службы. |
-| requestedServerVersion | ExchangeVersion | Запрошенная версия сервера. |
+| requestedServerVersion | ExchangeVersion | Запрашиваемая версия сервера. |
 
 ### Смотрите также
 

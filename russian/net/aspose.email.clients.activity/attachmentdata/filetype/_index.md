@@ -1,14 +1,14 @@
 ---
 title: FileType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип файла вложения. ОбязательноДа
+description: Тип файла вложения. Обязательно Да
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/attachmentdata/filetype/
 ---
 ## AttachmentData.FileType property
 
-Тип файла вложения. Обязательно:Да
+Тип файла вложения. Обязательно: Да
 
 ```csharp
 public string FileType { get; set; }

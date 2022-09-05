@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contactcharacterset/
 ---
 ## KnownPropertyList.ContactCharacterSet field
 
-指定用于联系人对象的字符集。 区域:联系人属性 规范名称:PidLidContactCharacterSet 替代名称:dispidContactCharSet
+指定用于联系人对象的字符集。 区域：联系人属性 规范名称：PidLidContactCharacterSet 替代名称：dispidContactCharSet
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactCharacterSet;

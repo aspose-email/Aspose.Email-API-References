@@ -1,7 +1,7 @@
 ---
 title: ErrorMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the error message with the LogEntryaspose.email.tools.logging/logentry
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/logentry/errormessages/

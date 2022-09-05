@@ -1,14 +1,14 @@
 ---
 title: EmsAbLanguage
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_LANGUAGE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_LANGUAGE
 type: docs
 weight: 6980
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsablanguage/
 ---
 ## KnownPropertyList.EmsAbLanguage field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_LANGUAGE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_LANGUAGE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLanguage;

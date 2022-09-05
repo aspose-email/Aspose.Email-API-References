@@ -1,14 +1,14 @@
 ---
 title: EmsAbPopContentFormat
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_POP_CONTENT_FORMAT
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_POP_CONTENT_FORMAT
 type: docs
 weight: 8120
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabpopcontentformat/
 ---
 ## KnownPropertyList.EmsAbPopContentFormat field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_POP_CONTENT_FORMAT
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_POP_CONTENT_FORMAT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPopContentFormat;

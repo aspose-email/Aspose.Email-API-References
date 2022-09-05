@@ -1,7 +1,7 @@
 ---
 title: CarouselType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the display type for the carousel items.
 type: docs
 weight: 160
 url: /net/aspose.email.amp/carouseltype/

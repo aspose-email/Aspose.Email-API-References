@@ -1,14 +1,14 @@
 ---
 title: AsyncTokenProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поставщика асинхронного токена.
+description: Получает провайдера асинхронного токена.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients/oauthnetworkcredential/asynctokenprovider/
 ---
 ## OAuthNetworkCredential.AsyncTokenProvider property
 
-Получает поставщика асинхронного токена.
+Получает провайдера асинхронного токена.
 
 ```csharp
 public IAsyncTokenProvider AsyncTokenProvider { get; }

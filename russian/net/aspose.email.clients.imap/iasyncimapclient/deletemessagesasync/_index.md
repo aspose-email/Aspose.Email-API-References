@@ -1,14 +1,14 @@
 ---
 title: DeleteMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление если это указывает пользователь. Этот метод работает только если сервер поддерживает расширение UIDPLUS. Подробнее https//tools.ietf.org/html/rfc4315
+description: Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление если пользователь укажет это. Этот метод работает только если сервер поддерживает расширение UIDPLUS. Пожалуйста прочитайте больше https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/deletemessagesasync/
 ---
 ## IAsyncImapClient.DeleteMessagesAsync method
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task DeleteMessagesAsync(ImapDeleteMessages parameters)

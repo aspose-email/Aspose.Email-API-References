@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the attachment properties.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi.msg/messageobjectattachmententity/properties/

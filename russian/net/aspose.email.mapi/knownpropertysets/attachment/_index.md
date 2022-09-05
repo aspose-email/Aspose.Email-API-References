@@ -1,14 +1,14 @@
 ---
 title: Attachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиПриложение сообщения Имя набора свойствPSETID_Attachment
+description: Имя области Приложение сообщения Имя набора свойств PSETID_Attachment
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/knownpropertysets/attachment/
 ---
 ## KnownPropertySets.Attachment field
 
-Имя области:Приложение сообщения Имя набора свойств:PSETID_Attachment
+Имя области: Приложение сообщения Имя набора свойств: PSETID_Attachment
 
 ```csharp
 public static readonly Guid Attachment;

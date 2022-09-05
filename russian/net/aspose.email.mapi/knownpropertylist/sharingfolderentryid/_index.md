@@ -1,14 +1,14 @@
 ---
 title: SharingFolderEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingFolderEntryId Альтернативные именаdispidSharingFolderEid
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingFolderEntryId Альтернативные имена dispidSharingFolderEid
 type: docs
 weight: 17510
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingfolderentryid/
 ---
 ## KnownPropertyList.SharingFolderEntryId field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingFolderEntryId Альтернативные имена:dispidSharingFolderEid
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingFolderEntryId Альтернативные имена: dispidSharingFolderEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFolderEntryId;

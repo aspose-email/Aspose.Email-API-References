@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает значение указывающее присутствует ли в коллекции указанный день недели.
+description: Возвращает значение указывающее присутствует ли указанный день недели в коллекции.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.calendar.recurrences/bydaycollection/contains/
 ---
 ## ByDayCollection.Contains method
 
-Возвращает значение, указывающее, присутствует ли в коллекции указанный день недели.
+Возвращает значение, указывающее, присутствует ли указанный день недели в коллекции.
 
 ```csharp
 public bool Contains(DayOfWeek dayOfWeek)
@@ -20,7 +20,7 @@ public bool Contains(DayOfWeek dayOfWeek)
 
 ### Возвращаемое значение
 
-Истина, если параметр значения существует в этой коллекции, в противном случае ложь.
+Истина, если параметр значения существует в этой коллекции, в противном случае — ложь.
 
 ### Смотрите также
 

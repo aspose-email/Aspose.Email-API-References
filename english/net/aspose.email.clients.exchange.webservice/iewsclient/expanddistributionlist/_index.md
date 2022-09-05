@@ -1,7 +1,7 @@
 ---
 title: ExpandDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Expands the public Distribution List members.
 type: docs
 weight: 690
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/expanddistributionlist/

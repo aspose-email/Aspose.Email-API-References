@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит двоично-сопоставимый ключ который представляет конечного пользователя представленного владельцем отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSentRepresentingSearchKey Альтернативные именаPR_SENT_REPRESENTING_SEARCH_KEY ptagSentRepresentingSearchKey
+description: Содержит двоично-сопоставимый ключ который представляет конечного пользователя представленного владельцем отправляющего почтового ящика. Область Свойства адреса Каноническое имя PidTagSentRepresentingSearchKey Альтернативные имена PR_SENT_REPRESENTING_SEARCH_KEY ptagSentRepresentingSearchKey
 type: docs
 weight: 17270
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingsearchkey/
 ---
 ## KnownPropertyList.SentRepresentingSearchKey field
 
-Содержит двоично-сопоставимый ключ, который представляет конечного пользователя, представленного владельцем отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSentRepresentingSearchKey Альтернативные имена:PR_SENT_REPRESENTING_SEARCH_KEY, ptagSentRepresentingSearchKey
+Содержит двоично-сопоставимый ключ, который представляет конечного пользователя, представленного владельцем отправляющего почтового ящика. Область: Свойства адреса Каноническое имя: PidTagSentRepresentingSearchKey Альтернативные имена: PR_SENT_REPRESENTING_SEARCH_KEY, ptagSentRepresentingSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingSearchKey;

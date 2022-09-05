@@ -1,14 +1,14 @@
 ---
 title: Preview
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит текстовое сообщение Unicode или предварительный просмотр части сообщения возвращаемый клиенту.
+description: Содержит текстовое сообщение в формате Unicode или предварительный просмотр части сообщения возвращаемый клиенту.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/bodypart/preview/
 ---
 ## BodyPart.Preview property
 
-Содержит текстовое сообщение Unicode или предварительный просмотр части сообщения, возвращаемый клиенту.
+Содержит текстовое сообщение в формате Unicode или предварительный просмотр части сообщения, возвращаемый клиенту.
 
 ```csharp
 public string Preview { get; set; }

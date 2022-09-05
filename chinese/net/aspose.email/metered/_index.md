@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Email for .NET API 参考
 description: 提供设置计量键的方法
 type: docs
-weight: 19030
+weight: 19060
 url: /zh/net/aspose.email/metered/
 ---
 ## Metered class
@@ -18,24 +18,24 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化此类的新实例。 |
+| [Metered](metered)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.email/metered/setmeteredkey)(string, string) | 设置计量公钥和私钥 |
-| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit)() | 获取消费信用 |
+| [SetMeteredKey](../../aspose.email/metered/setmeteredkey)(string, string) | 设置计量的公钥和私钥 |
+| static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit)() | 获取消费额度 |
 | static [GetConsumptionQuantity](../../aspose.email/metered/getconsumptionquantity)() | 获取消费文件大小 |
 
 ### 例子
 
-在本例中，将尝试设置计量公钥和私钥
+在此示例中，将尝试设置计量的公钥和私钥
 
 ```csharp
 [C#]
 
-Metered mated = new Metered ();
+Metered matered = new Metered();
 matered.SetMeteredKey("PublicKey", "PrivateKey");
 
 
@@ -45,7 +45,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-组件 jar 文件:
+组件 jar 文件：
 
 ```csharp
 Metered matered = new Metered();

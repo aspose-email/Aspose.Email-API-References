@@ -1,7 +1,7 @@
 ---
 title: MediaType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the internet media type.
 type: docs
 weight: 40
 url: /net/aspose.email.mime/contenttype/mediatype/

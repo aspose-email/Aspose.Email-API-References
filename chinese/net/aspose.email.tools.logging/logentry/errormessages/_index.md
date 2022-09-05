@@ -1,14 +1,14 @@
 ---
 title: ErrorMessages
 second_title: Aspose.Email for .NET API 参考
-description: 获取错误消息 LogEntryaspose.email.tools.logging/logentry
+description: 获取错误消息LogEntryaspose.email.tools.logging/logentry
 type: docs
 weight: 60
 url: /zh/net/aspose.email.tools.logging/logentry/errormessages/
 ---
 ## LogEntry.ErrorMessages property
 
-获取错误消息 [`LogEntry`](../../logentry)
+获取错误消息[`LogEntry`](../../logentry)
 
 ```csharp
 public string ErrorMessages { get; }

@@ -1,14 +1,14 @@
 ---
 title: RecipientType
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет тип получателя сообщения. ОбластьMapiRecipient Каноническое имяPidTagRecipientType Альтернативные именаPR_RECIPIENT_TYPE ptagRecipientType
+description: Представляет тип получателя сообщения. Область MapiRecipient Каноническое имя PidTagRecipientType Альтернативные имена PR_RECIPIENT_TYPE ptagRecipientType
 type: docs
 weight: 15560
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipienttype/
 ---
 ## KnownPropertyList.RecipientType field
 
-Представляет тип получателя сообщения. Область:MapiRecipient Каноническое имя:PidTagRecipientType Альтернативные имена:PR_RECIPIENT_TYPE, ptagRecipientType
+Представляет тип получателя сообщения. Область: MapiRecipient Каноническое имя: PidTagRecipientType Альтернативные имена: PR_RECIPIENT_TYPE, ptagRecipientType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientType;

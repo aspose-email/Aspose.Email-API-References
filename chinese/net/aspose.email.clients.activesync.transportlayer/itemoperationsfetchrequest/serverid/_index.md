@@ -1,14 +1,14 @@
 ---
 title: ServerId
 second_title: Aspose.Email for .NET API 参考
-description: 指定由服务器分配给每个应用了项目操作的对象的唯一标识符
+description: 指定服务器分配给每个应用了项目操作的对象的唯一标识符
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/serverid/
 ---
 ## ItemOperationsFetchRequest.ServerId property
 
-指定由服务器分配给每个应用了项目操作的对象的唯一标识符。
+指定服务器分配给每个应用了项目操作的对象的唯一标识符。
 
 ```csharp
 public string ServerId { get; set; }

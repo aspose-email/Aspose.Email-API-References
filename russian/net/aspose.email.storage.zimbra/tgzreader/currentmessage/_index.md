@@ -16,7 +16,7 @@ public MailMessage CurrentMessage { get; }
 
 ### Стоимость имущества
 
-The[`MailMessage`](../../../aspose.email/mailmessage).
+[`MailMessage`](../../../aspose.email/mailmessage) .
 
 ### Смотрите также
 

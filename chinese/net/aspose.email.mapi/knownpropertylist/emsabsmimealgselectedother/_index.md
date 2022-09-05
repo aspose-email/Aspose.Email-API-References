@@ -1,14 +1,14 @@
 ---
 title: EmsAbSmimeAlgSelectedOther
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_SMIME_ALG_SELECTED_OTHER
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_SMIME_ALG_SELECTED_OTHER
 type: docs
 weight: 8920
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabsmimealgselectedother/
 ---
 ## KnownPropertyList.EmsAbSmimeAlgSelectedOther field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_SMIME_ALG_SELECTED_OTHER
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_SMIME_ALG_SELECTED_OTHER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSmimeAlgSelectedOther;

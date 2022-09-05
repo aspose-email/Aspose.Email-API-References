@@ -1,9 +1,9 @@
 ---
 title: MailboxConverter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides mailbox conversion routines.
 type: docs
-weight: 19790
+weight: 20020
 url: /net/aspose.email.storage/mailboxconverter/
 ---
 ## MailboxConverter class
@@ -18,8 +18,8 @@ public static class MailboxConverter
 
 | Name | Description |
 | --- | --- |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given [`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox)(PersonalStorage, string, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given path. |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given [`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox_1)(PersonalStorage, string, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given path. |
 
 ### See Also
 

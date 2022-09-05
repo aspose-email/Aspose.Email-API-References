@@ -1,7 +1,7 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the gender of the contact
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/gender/

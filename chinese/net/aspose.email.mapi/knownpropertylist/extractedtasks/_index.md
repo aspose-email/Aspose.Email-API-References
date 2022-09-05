@@ -1,14 +1,14 @@
 ---
 title: ExtractedTasks
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 TaskSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedTasks 备用名称dispidXmlExtractedTasks
+description: 包含具有单个任务集元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedTasks 替代名称dispidXmlExtractedTasks
 type: docs
 weight: 10090
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedtasks/
 ---
 ## KnownPropertyList.ExtractedTasks field
 
-包含一个带有单个 TaskSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedTasks 备用名称:dispidXmlExtractedTasks
+包含具有单个任务集元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedTasks 替代名称：dispidXmlExtractedTasks
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedTasks;

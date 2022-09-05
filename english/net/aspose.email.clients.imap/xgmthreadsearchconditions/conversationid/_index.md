@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets conversation id that Gmail provides to associate groups of messages.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/xgmthreadsearchconditions/conversationid/

@@ -3,7 +3,7 @@ title: BinaryComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет поле двоичного поиска.
 type: docs
-weight: 20600
+weight: 20650
 url: /ru/net/aspose.email.tools.search/binarycomparisonfield/
 ---
 ## BinaryComparisonField class

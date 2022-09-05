@@ -1,14 +1,14 @@
 ---
 title: DraftsUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает URI черновика.
+description: Получает черновики uri.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/draftsuri/
 ---
 ## ExchangeMailboxInfo.DraftsUri property
 
-Получает URI черновика.
+Получает черновики uri.
 
 ```csharp
 public abstract string DraftsUri { get; set; }

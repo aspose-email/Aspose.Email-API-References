@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for .NET API 参考
 description: 此类允许用户在以 MsgASCII 和 MsgUnicode 格式保存 MailMessage 时指定其他设置
 type: docs
-weight: 19230
+weight: 19260
 url: /zh/net/aspose.email/msgsaveoptions/
 ---
 ## MsgSaveOptions class
@@ -25,9 +25,9 @@ public class MsgSaveOptions : SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | 表示通常由调用方提供并处理进度事件的方法。 |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件信息的保存类型，可以是eml,msg(ASCII or Unicode),mhtml或者html格式。 默认值为 Eml。 |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件消息保存类型。可以是eml,msg(ASCII or Unicode),mhtml 或html 格式。 默认值为Eml。 |
 | [PreserveOriginalDates](../../aspose.email/msgsaveoptions/preserveoriginaldates) { get; set; } | 获取或设置一个值，该值指示是否需要在保存消息时生成 新的保存和修改日期。 |
-| [PreserveSignature](../../aspose.email/msgsaveoptions/preservesignature) { get; set; } | 如果要保留签名，则设置为 true。 |
+| [PreserveSignature](../../aspose.email/msgsaveoptions/preservesignature) { get; set; } | 设置为真，如果要保留签名。 |
 | [SaveAsTemplate](../../aspose.email/msgsaveoptions/saveastemplate) { get; set; } | 设置为true，如果需要保存为Outlook文件模板（OFT格式）。 |
 
 ### 也可以看看

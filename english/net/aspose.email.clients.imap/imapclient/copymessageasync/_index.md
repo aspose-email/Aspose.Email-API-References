@@ -1,12 +1,12 @@
 ---
 title: CopyMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the message
 type: docs
 weight: 490
 url: /net/aspose.email.clients.imap/imapclient/copymessageasync/
 ---
-## ImapClient.CopyMessageAsync method (1 of 8)
+## CopyMessageAsync(IConnection, int, string) {#copymessageasync}
 
 Copies the message
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (2 of 8)
+## CopyMessageAsync(IConnection, string, string) {#copymessageasync_2}
 
 Copies the message
 
@@ -60,7 +60,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (3 of 8)
+## CopyMessageAsync(int, string) {#copymessageasync_4}
 
 Copies the message
 
@@ -85,7 +85,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (4 of 8)
+## CopyMessageAsync(string, string) {#copymessageasync_6}
 
 Copies the message
 
@@ -110,7 +110,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (5 of 8)
+## CopyMessageAsync(IConnection, int, string, CancellationToken) {#copymessageasync_1}
 
 Copies the message
 
@@ -139,7 +139,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (6 of 8)
+## CopyMessageAsync(IConnection, string, string, CancellationToken) {#copymessageasync_3}
 
 Copies the message
 
@@ -168,7 +168,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (7 of 8)
+## CopyMessageAsync(int, string, CancellationToken) {#copymessageasync_5}
 
 Copies the message
 
@@ -194,7 +194,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CopyMessageAsync method (8 of 8)
+## CopyMessageAsync(string, string, CancellationToken) {#copymessageasync_7}
 
 Copies the message
 

@@ -1,14 +1,14 @@
 ---
 title: Email3DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает удобочитаемое отображаемое имя для адреса электронной почты. ОбластьСвойства контакта Каноническое имяPidLidEmail3DisplayName Альтернативные именаdispidEmail3DisplayName
+description: Задает удобочитаемое отображаемое имя для адреса электронной почты. Область Свойства контакта Каноническое имя PidLidEmail3DisplayName Альтернативные имена dispidEmail3DisplayName
 type: docs
 weight: 4430
 url: /ru/net/aspose.email.mapi/knownpropertylist/email3displayname/
 ---
 ## KnownPropertyList.Email3DisplayName field
 
-Задает удобочитаемое отображаемое имя для адреса электронной почты. Область:Свойства контакта Каноническое имя:PidLidEmail3DisplayName Альтернативные имена:dispidEmail3DisplayName
+Задает удобочитаемое отображаемое имя для адреса электронной почты. Область: Свойства контакта Каноническое имя: PidLidEmail3DisplayName Альтернативные имена: dispidEmail3DisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3DisplayName;

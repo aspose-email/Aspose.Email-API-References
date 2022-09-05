@@ -1,14 +1,14 @@
 ---
 title: ServerIdentificationInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает идентификационную информацию сервера Подробнееhttps//tools.ietf.org/html/rfc2971
+description: Получает идентификационную информацию сервера Подробнее https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 250
 url: /ru/net/aspose.email.clients.imap/imapclient/serveridentificationinfo/
 ---
 ## ImapClient.ServerIdentificationInfo property
 
-Получает идентификационную информацию сервера Подробнее:https://tools.ietf.org/html/rfc2971
+Получает идентификационную информацию сервера Подробнее: https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public ImapIdentificationInfo ServerIdentificationInfo { get; }

@@ -1,14 +1,14 @@
 ---
 title: InternalDate
 second_title: Aspose.Email for .NET API 参考
-description: 服务器上消息的内部日期和时间 这不是 RFC-2822 标头中的日期和时间而是反映收到消息的日期和时间 - 对于通过 SMTP 传递的消息这应该是 SMTP 定义的消息最终传递的日期和时间 - 对于由 IMAP4rev1 COPY 命令传递的消息这应该是源消息的内部日期和时间 - 对于由 IMAP4rev1 APPEND 命令传递的消息这应该是 APPEND 命令描述中指定的日期和时间 - 所有其他情况均由实现定义
+description: 服务器上消息的内部日期和时间 这不是 RFC-2822 标头中的日期和时间而是反映收到消息的日期和时间 - 对于通过 SMTP 传递的消息这应该是由 SMTP 定义的消息最终传递的日期和时间 - 对于由 IMAP4rev1 COPY 命令传递的消息这应该是源消息的内部日期和时间 - 对于由 IMAP4rev1 APPEND 命令传递的消息这应该是指定的日期和时间在 APPEND 命令描述中 - 所有其他情况均由实现定义
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.imap/imapmessageinfo/internaldate/
 ---
 ## ImapMessageInfo.InternalDate property
 
-服务器上消息的内部日期和时间。 这不是 [RFC-2822] 标头中的日期和时间，而是反映收到消息的日期和时间。 - 对于通过 [SMTP] 传递的消息，这应该是 [SMTP] 定义的消息最终传递的日期和时间。 - 对于由 IMAP4rev1 COPY 命令传递的消息，这应该是源消息的内部日期和时间。 - 对于由 IMAP4rev1 APPEND 命令传递的消息，这应该是 APPEND 命令描述中指定的日期和时间。 - 所有其他情况均由实现定义。
+服务器上消息的内部日期和时间。 这不是 [RFC-2822] 标头中的日期和时间，而是反映收到消息的日期和时间。 - 对于通过 [SMTP] 传递的消息，这应该是由 [SMTP] 定义的消息最终传递的日期和时间。 - 对于由 IMAP4rev1 COPY 命令传递的消息，这应该是源消息的内部日期和时间。 - 对于由 IMAP4rev1 APPEND 命令传递的消息，这应该是指定的日期和时间在 APPEND 命令描述中。 - 所有其他情况均由实现定义。
 
 ```csharp
 public DateTime InternalDate { get; }

@@ -1,7 +1,7 @@
 ---
 title: Message
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message body to log. Value from ToString method from message object.
 type: docs
 weight: 100
 url: /net/aspose.email.tools.logging/logentry/message/

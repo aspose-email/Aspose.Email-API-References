@@ -1,14 +1,14 @@
 ---
 title: AccessControlListData
 second_title: Aspose.Email for .NET API 参考
-description: 包含文件夹的权限列表 区域访问控制属性 规范名称PidTagAccessControlListData 备用名称PR_ACL_DATA ptagACLData
+description: 包含文件夹的权限列表 区域访问控制属性 规范名称PidTagAccessControlListData 备用名称PR_ACL_DATAptagACLData
 type: docs
 weight: 260
 url: /zh/net/aspose.email.mapi/knownpropertylist/accesscontrollistdata/
 ---
 ## KnownPropertyList.AccessControlListData field
 
-包含文件夹的权限列表。 区域:访问控制属性 规范名称:PidTagAccessControlListData 备用名称:PR_ACL_DATA, ptagACLData
+包含文件夹的权限列表。 区域：访问控制属性 规范名称：PidTagAccessControlListData 备用名称：PR_ACL_DATA、ptagACLData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AccessControlListData;

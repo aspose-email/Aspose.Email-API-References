@@ -1,14 +1,14 @@
 ---
 title: DateRange
 second_title: Aspose.Email for .NET API 参考
-description: 初始化DateRangeaspose.email.clients.exchange.webservice/daterange类 的新实例
+description: 初始化DateRangeaspose.email.clients.exchange.webservice/daterange class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/daterange/daterange/
 ---
 ## DateRange(DateTime, DateTime) {#constructor_1}
 
-初始化[`DateRange`](../../daterange)类 的新实例
+初始化[`DateRange`](../../daterange) class
 
 ```csharp
 public DateRange(DateTime startTime, DateTime endTime)
@@ -29,7 +29,7 @@ public DateRange(DateTime startTime, DateTime endTime)
 
 ## DateRange() {#constructor}
 
-初始化[`DateRange`](../../daterange)类 的新实例
+初始化[`DateRange`](../../daterange) class
 
 ```csharp
 public DateRange()

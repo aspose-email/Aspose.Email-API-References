@@ -3,7 +3,7 @@ title: FileFormatVersion
 second_title: Aspose.Email for .NET API 参考
 description: 表示文件的版本
 type: docs
-weight: 20100
+weight: 20150
 url: /zh/net/aspose.email.storage.pst/fileformatversion/
 ---
 ## FileFormatVersion enumeration

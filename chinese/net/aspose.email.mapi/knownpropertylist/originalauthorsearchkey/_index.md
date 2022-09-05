@@ -1,14 +1,14 @@
 ---
 title: OriginalAuthorSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ORIGINAL_AUTHOR_SEARCH_KEY
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ORIGINAL_AUTHOR_SEARCH_KEY
 type: docs
 weight: 13510
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalauthorsearchkey/
 ---
 ## KnownPropertyList.OriginalAuthorSearchKey field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ORIGINAL_AUTHOR_SEARCH_KEY
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ORIGINAL_AUTHOR_SEARCH_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalAuthorSearchKey;

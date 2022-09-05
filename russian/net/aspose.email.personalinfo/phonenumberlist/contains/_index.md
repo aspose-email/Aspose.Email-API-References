@@ -16,7 +16,7 @@ public bool Contains(PhoneNumber value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | PhoneNumber | Объект для поиска в списке. |
+| value | PhoneNumber | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

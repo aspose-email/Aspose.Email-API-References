@@ -1,14 +1,14 @@
 ---
 title: Account
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人的帐户名称
+description: 指定联系人的帐户名
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/account/
 ---
 ## MapiContactPersonalInfoPropertySet.Account property
 
-指定联系人的帐户名称
+指定联系人的帐户名
 
 ```csharp
 public string Account { get; set; }

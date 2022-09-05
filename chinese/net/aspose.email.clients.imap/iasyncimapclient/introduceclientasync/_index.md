@@ -19,7 +19,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | ImapIdentificationInfo | 连接到服务器 |
-| clientIdentificationInfo | IConnection | 客户端识别信息 |
+| clientIdentificationInfo | IConnection | 客户身份信息 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值

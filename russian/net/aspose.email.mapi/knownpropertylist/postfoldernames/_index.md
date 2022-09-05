@@ -1,14 +1,14 @@
 ---
 title: PostFolderNames
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_POST_FOLDER_NAMES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_POST_FOLDER_NAMES
 type: docs
 weight: 14390
 url: /ru/net/aspose.email.mapi/knownpropertylist/postfoldernames/
 ---
 ## KnownPropertyList.PostFolderNames field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_POST_FOLDER_NAMES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_POST_FOLDER_NAMES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostFolderNames;

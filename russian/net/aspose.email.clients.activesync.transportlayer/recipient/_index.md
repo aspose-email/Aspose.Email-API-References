@@ -24,7 +24,7 @@ public class Recipient
 
 | Имя | Описание |
 | --- | --- |
-| [Availability](../../aspose.email.clients.activesync.transportlayer/recipient/availability) { get; set; } | Идентифицирует статус и данные о занятости пользователей или списков рассылки, указанных в запросе, для времени, указанного StartTime и EndTime. Когда доступность включена в запрос ResolveRecipients, сервер извлекает информацию о занятости для пользователей, указанных в элементах To, включенных в запрос, и возвращает информацию о занятости в MergedFreeBusy в ответе. . |
+| [Availability](../../aspose.email.clients.activesync.transportlayer/recipient/availability) { get; set; } | Идентифицирует статус и данные о занятости пользователей или списков рассылки, указанных в запросе, для времени, указанного StartTime и EndTime. в элементах To, включенных в запрос, и возвращает информацию о занятости в MergedFreeBusy в ответе. |
 | [Certificates](../../aspose.email.clients.activesync.transportlayer/recipient/certificates) { get; set; } | Содержит информацию о сертификатах получателя. |
 | [DisplayName](../../aspose.email.clients.activesync.transportlayer/recipient/displayname) { get; set; } | Содержит отображаемое имя получателя. |
 | [EmailAddress](../../aspose.email.clients.activesync.transportlayer/recipient/emailaddress) { get; set; } | Содержит адрес электронной почты получателя в формате SMTP. |

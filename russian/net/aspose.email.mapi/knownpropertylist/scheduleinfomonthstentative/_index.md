@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsTentative
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет месяцы для которых данные о занятости типа предварительные присутствуют в сообщении о занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoMonthsTentative Альтернативные именаPR_SCHDINFO_MONTHS_TENTATIVE
+description: Определяет месяцы для которых данные о занятости типа предварительные присутствуют в сообщении о занятости. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoMonthsTentative Альтернативные имена PR_SCHDINFO_MONTHS_TENTATIVE
 type: docs
 weight: 16890
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthstentative/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsTentative field
 
-Определяет месяцы, для которых данные о занятости типа предварительные присутствуют в сообщении о занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoMonthsTentative Альтернативные имена:PR_SCHDINFO_MONTHS_TENTATIVE
+Определяет месяцы, для которых данные о занятости типа предварительные присутствуют в сообщении о занятости. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoMonthsTentative Альтернативные имена: PR_SCHDINFO_MONTHS_TENTATIVE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsTentative;

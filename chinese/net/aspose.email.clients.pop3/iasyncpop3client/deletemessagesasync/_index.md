@@ -1,14 +1,14 @@
 ---
 title: DeleteMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除所有邮件
+description: 删除所有消息
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.pop3/iasyncpop3client/deletemessagesasync/
 ---
 ## IAsyncPop3Client.DeleteMessagesAsync method
 
-删除所有邮件
+删除所有消息
 
 ```csharp
 public Task DeleteMessagesAsync(IConnection connection = null, CancellationToken token = default)
@@ -17,7 +17,7 @@ public Task DeleteMessagesAsync(IConnection connection = null, CancellationToken
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 评论
 

@@ -1,7 +1,7 @@
 ---
 title: AddressBookHierarchicalIsHierarchicalGroup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the distribution list represents a departmental group. Area Address Book Canonical name PidTagAddressBookHierarchicalIsHierarchicalGroup Alternate names PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP PR_EMS_AB_IS_ORGANIZATIONAL
 type: docs
 weight: 630
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalishierarchicalgroup/

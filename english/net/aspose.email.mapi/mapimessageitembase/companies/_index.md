@@ -1,7 +1,7 @@
 ---
 title: Companies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the names of the companies that are associated with an item.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapimessageitembase/companies/

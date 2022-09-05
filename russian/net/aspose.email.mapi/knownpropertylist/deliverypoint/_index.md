@@ -1,14 +1,14 @@
 ---
 title: DeliveryPoint
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELIVERY_POINT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELIVERY_POINT
 type: docs
 weight: 3960
 url: /ru/net/aspose.email.mapi/knownpropertylist/deliverypoint/
 ---
 ## KnownPropertyList.DeliveryPoint field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELIVERY_POINT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELIVERY_POINT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeliveryPoint;

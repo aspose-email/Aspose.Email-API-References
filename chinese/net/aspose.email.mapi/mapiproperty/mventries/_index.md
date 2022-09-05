@@ -1,14 +1,14 @@
 ---
 title: MVEntries
 second_title: Aspose.Email for .NET API 参考
-description: 获取MV条目列表
+description: 获取 MV 条目列表
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mapi/mapiproperty/mventries/
 ---
 ## MapiProperty.MVEntries property
 
-获取MV条目列表。
+获取 MV 条目列表。
 
 ```csharp
 public IList<object> MVEntries { get; }

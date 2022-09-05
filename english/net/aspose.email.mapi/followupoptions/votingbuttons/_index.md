@@ -1,7 +1,7 @@
 ---
 title: VotingButtons
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets string that represents list of the voting buttons names separated by semicolons .
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/followupoptions/votingbuttons/

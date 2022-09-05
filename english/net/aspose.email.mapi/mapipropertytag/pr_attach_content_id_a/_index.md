@@ -1,7 +1,7 @@
 ---
 title: PR_ATTACH_CONTENT_ID_A
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the content identification header of a MIME message attachment. This property is used for MHTML support. NonUNICODE compilation.
 type: docs
 weight: 530
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_content_id_a/

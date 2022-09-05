@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: Aspose.Email for .NET API 参考
-description: 组织者标题
+description: 管理器标题
 type: docs
 weight: 110
 url: /zh/net/aspose.email/mhttemplatename/organizer/
 ---
 ## MhtTemplateName.Organizer field
 
-组织者标题。
+管理器标题。
 
 ```csharp
 public const string Organizer;

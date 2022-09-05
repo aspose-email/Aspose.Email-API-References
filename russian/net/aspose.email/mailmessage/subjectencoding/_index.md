@@ -1,14 +1,14 @@
 ---
 title: SubjectEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает кодировку темы
+description: Получает или задает кодировку subject
 type: docs
 weight: 330
 url: /ru/net/aspose.email/mailmessage/subjectencoding/
 ---
 ## MailMessage.SubjectEncoding property
 
-Получает или устанавливает кодировку темы
+Получает или задает кодировку subject
 
 ```csharp
 public virtual Encoding SubjectEncoding { get; set; }

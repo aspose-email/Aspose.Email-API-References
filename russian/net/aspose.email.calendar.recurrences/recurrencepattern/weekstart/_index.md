@@ -1,14 +1,14 @@
 ---
 title: WeekStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает начало недели.
+description: Получает или задает начало недели.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.calendar.recurrences/recurrencepattern/weekstart/
 ---
 ## RecurrencePattern.WeekStart property
 
-Получает или устанавливает начало недели.
+Получает или задает начало недели.
 
 ```csharp
 public CalendarDay WeekStart { get; set; }

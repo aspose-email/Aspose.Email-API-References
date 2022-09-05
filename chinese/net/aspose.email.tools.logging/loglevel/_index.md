@@ -3,7 +3,7 @@ title: LogLevel
 second_title: Aspose.Email for .NET API 参考
 description: 定义可用的日志级别
 type: docs
-weight: 20480
+weight: 20530
 url: /zh/net/aspose.email.tools.logging/loglevel/
 ---
 ## LogLevel class
@@ -18,12 +18,12 @@ public class LogLevel
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.email.tools.logging/loglevel/compareto)(object) | 将级别与另一个[`LogLevel`](../loglevel)对象进行比较。 |
-| override [ToString](../../aspose.email.tools.logging/loglevel/tostring)() | 返回日志级别的字符串表示。 |
-| [operator &gt;](../../aspose.email.tools.logging/loglevel/op_greaterthan) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值指示是否 第一个大于第二个。 |
-| [operator &gt;=](../../aspose.email.tools.logging/loglevel/op_greaterthanorequal) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值指示是否 第一个大于或等于第二个。 |
-| [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值指示是否 第一个小于第二个。 |
-| [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值指示是否 第一个小于或等于第二个。 |
+| [CompareTo](../../aspose.email.tools.logging/loglevel/compareto)(object) | 将级别与其他级别进行比较[`LogLevel`](../loglevel)对象. |
+| override [ToString](../../aspose.email.tools.logging/loglevel/tostring)() | 返回日志级别的字符串表示形式。 |
+| [operator &gt;](../../aspose.email.tools.logging/loglevel/op_greaterthan) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值，该值指示 第一个是否大于第二个。 |
+| [operator &gt;=](../../aspose.email.tools.logging/loglevel/op_greaterthanorequal) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值，该值指示 第一个是否大于或等于第二个。 |
+| [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值，该值指示 第一个是否小于第二个。 |
+| [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | 比较两个[`LogLevel`](../loglevel)对象 并返回一个值，该值指示 第一个是否小于或等于第二个。 |
 
 ## 字段
 

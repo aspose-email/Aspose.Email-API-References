@@ -24,7 +24,7 @@ public void MarkAllItemsAsRead()
 
 ## MarkAllItemsAsRead(params string[]) {#markallitemsasread_2}
 
-将指定文件夹中的所有项目标记为已读但没有回执。
+将指定文件夹中的所有项目标记为已读且没有回执。
 
 ```csharp
 public void MarkAllItemsAsRead(params string[] folderIds)
@@ -32,7 +32,7 @@ public void MarkAllItemsAsRead(params string[] folderIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderIds | String[] | 待处理的文件夹 uri 列表。 |
+| folderIds | String[] | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public void MarkAllItemsAsRead(params string[] folderIds)
 
 ## MarkAllItemsAsRead(IEnumerable&lt;string&gt;) {#markallitemsasread_1}
 
-将指定文件夹中的所有项目标记为已读但没有回执。
+将指定文件夹中的所有项目标记为已读且没有回执。
 
 ```csharp
 public void MarkAllItemsAsRead(IEnumerable<string> folderIds)
@@ -52,7 +52,7 @@ public void MarkAllItemsAsRead(IEnumerable<string> folderIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderIds | IEnumerable`1 | 待处理的文件夹 uri 列表。 |
+| folderIds | IEnumerable`1 | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 

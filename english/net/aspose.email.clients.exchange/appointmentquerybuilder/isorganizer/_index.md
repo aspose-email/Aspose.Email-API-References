@@ -1,7 +1,7 @@
 ---
 title: IsOrganizer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find items where user is organizer.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/appointmentquerybuilder/isorganizer/

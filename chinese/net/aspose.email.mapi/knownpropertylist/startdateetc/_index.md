@@ -1,14 +1,14 @@
 ---
 title: StartDateEtc
 second_title: Aspose.Email for .NET API 参考
-description: 包含默认保留期以及计算消息对象年龄的开始日期 区域存档 规范名称PidTagStartDateEtc 替代名称PR_START_DATE_ETC ptagStartDateEtc
+description: 包含默认保留期以及计算消息对象期限的开始日期 区域Archive 规范名称PidTagStartDateEtc 替代名称PR_START_DATE_ETCptagStartDateEtc
 type: docs
 weight: 18160
 url: /zh/net/aspose.email.mapi/knownpropertylist/startdateetc/
 ---
 ## KnownPropertyList.StartDateEtc field
 
-包含默认保留期，以及计算消息对象年龄的开始日期。 区域:存档 规范名称:PidTagStartDateEtc 替代名称:PR_START_DATE_ETC, ptagStartDateEtc
+包含默认保留期，以及计算消息对象期限的开始日期。 区域：Archive 规范名称：PidTagStartDateEtc 替代名称：PR_START_DATE_ETC、ptagStartDateEtc
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StartDateEtc;

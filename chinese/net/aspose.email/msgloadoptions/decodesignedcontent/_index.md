@@ -1,14 +1,14 @@
 ---
 title: DecodeSignedContent
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示是否将解码签名消息
+description: 获取或设置一个值该值指示是否对签名消息进行解码
 type: docs
 weight: 20
 url: /zh/net/aspose.email/msgloadoptions/decodesignedcontent/
 ---
 ## MsgLoadOptions.DecodeSignedContent property
 
-获取或设置一个值，该值指示是否将解码签名消息。
+获取或设置一个值，该值指示是否对签名消息进行解码。
 
 ```csharp
 public bool DecodeSignedContent { get; set; }
@@ -16,7 +16,7 @@ public bool DecodeSignedContent { get; set; }
 
 ### 适当的价值
 
-` true` 如果签名的消息将被解码；否则，` false` 。
+`真的`如果签名的消息将被解码；否则，`错误的`.
 
 ### 也可以看看
 

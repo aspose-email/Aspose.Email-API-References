@@ -40,7 +40,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Имя папки |
 
 ### Возвращаемое значение
@@ -92,7 +92,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Имя папки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

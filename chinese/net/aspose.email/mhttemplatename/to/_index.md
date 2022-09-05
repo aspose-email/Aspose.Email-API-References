@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API 参考
-description: 来自标题
+description: 来自标头
 type: docs
 weight: 210
 url: /zh/net/aspose.email/mhttemplatename/to/
 ---
 ## MhtTemplateName.To field
 
-来自标题。
+来自标头。
 
 ```csharp
 public const string To;

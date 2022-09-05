@@ -1,7 +1,7 @@
 ---
 title: Tnef
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates message in Tnef format.
 type: docs
 weight: 60
 url: /net/aspose.email/messageformat/tnef/

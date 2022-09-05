@@ -1,14 +1,14 @@
 ---
 title: EmsAbDoOabVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DO_OAB_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DO_OAB_VERSION
 type: docs
 weight: 5570
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdooabversion/
 ---
 ## KnownPropertyList.EmsAbDoOabVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DO_OAB_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DO_OAB_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDoOabVersion;

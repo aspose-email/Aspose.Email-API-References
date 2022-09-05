@@ -1,7 +1,7 @@
 ---
 title: ViewDescriptorStrings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains view definitions in string format. Area MessageClassDefinedTransmittable Canonical name PidTagViewDescriptorStrings Alternate names PR_VD_STRINGS PR_VD_STRINGS_W
 type: docs
 weight: 19270
 url: /net/aspose.email.mapi/knownpropertylist/viewdescriptorstrings/

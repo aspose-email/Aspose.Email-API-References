@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Справочник по Aspose.Email для .NET API
-description: Основные получатели. Пример Комуsomethingsomedomain.com
+description: Основные получатели. Пример Кому Someonesomedomain.com
 type: docs
 weight: 250
 url: /ru/net/aspose.email/headertype/to/
 ---
 ## HeaderType.To property
 
-Основные получатели. Пример: Кому:something@somedomain.com
+Основные получатели. Пример: Кому: Someone@somedomain.com
 
 ```csharp
 public static HeaderType To { get; }

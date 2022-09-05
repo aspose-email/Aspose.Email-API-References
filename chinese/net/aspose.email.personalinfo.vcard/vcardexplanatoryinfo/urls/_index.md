@@ -1,14 +1,14 @@
 ---
 title: Urls
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个url
+description: 获取或设置一个 urls
 type: docs
-weight: 90
+weight: 100
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls/
 ---
 ## VCardExplanatoryInfo.Urls property
 
-获取或设置一个url
+获取或设置一个 urls
 
 ```csharp
 public VCardUrlCollection Urls { get; set; }

@@ -18,7 +18,7 @@ public abstract void SetUpStream(Stream stream, string address, int port)
 | --- | --- | --- |
 | stream | Stream | 连接到代理服务器的流。 |
 | address | String | 我们要联系的目标主机的网络地址 |
-| port | Int32 | 端口号我们要联系的目标主机的 |
+| port | Int32 | 我们要联系的目标主机的端口号 |
 
 ### 也可以看看
 

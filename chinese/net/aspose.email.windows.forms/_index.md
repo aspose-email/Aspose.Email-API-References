@@ -25,7 +25,7 @@ url: /zh/net/aspose.email.windows.forms/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IFileDropTargetControl](./ifiledroptargetcontrol) | 定义可以作为拖放目标的控件的接口。 |
+| [IFileDropTargetControl](./ifiledroptargetcontrol) | 为可以作为拖放目标的控件定义接口。 |
 ## 枚举
 
 | 枚举 | 描述 |

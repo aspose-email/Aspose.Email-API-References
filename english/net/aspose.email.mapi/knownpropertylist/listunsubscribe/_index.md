@@ -1,7 +1,7 @@
 ---
 title: ListUnsubscribe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the URI that unsubscribes a recipient from a messages associated mailing list. Area Miscellaneous Properties Canonical name PidTagListUnsubscribe Alternate names PR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
 type: docs
 weight: 12140
 url: /net/aspose.email.mapi/knownpropertylist/listunsubscribe/

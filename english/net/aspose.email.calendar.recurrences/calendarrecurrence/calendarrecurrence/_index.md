@@ -1,12 +1,12 @@
 ---
 title: CalendarRecurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the CalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/calendarrecurrence/
 ---
-## CalendarRecurrence constructor (1 of 2)
+## CalendarRecurrence() {#constructor}
 
 Initializes a new instance of the [`CalendarRecurrence`](../../calendarrecurrence) class.
 
@@ -22,7 +22,7 @@ public CalendarRecurrence()
 
 ---
 
-## CalendarRecurrence constructor (2 of 2)
+## CalendarRecurrence(string) {#constructor_1}
 
 Initializes a new instance of the [`CalendarRecurrence`](../../calendarrecurrence) class.
 

@@ -1,14 +1,14 @@
 ---
 title: AppointmentUnsendableRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список неотправляемых участников. ОбластьВстречи Каноническое имяPidLidAppointmentUnsendableRecipients Альтернативные именаdispidApptUnsendableRecips
+description: Содержит список неотправляемых участников. Область Meetings Каноническое имя PidLidAppointmentUnsendableRecipients Альтернативные имена dispidApptUnsendableRecips
 type: docs
 weight: 1380
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentunsendablerecipients/
 ---
 ## KnownPropertyList.AppointmentUnsendableRecipients field
 
-Содержит список неотправляемых участников. Область:Встречи Каноническое имя:PidLidAppointmentUnsendableRecipients Альтернативные имена:dispidApptUnsendableRecips
+Содержит список неотправляемых участников. Область: Meetings Каноническое имя: PidLidAppointmentUnsendableRecipients Альтернативные имена: dispidApptUnsendableRecips
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentUnsendableRecipients;

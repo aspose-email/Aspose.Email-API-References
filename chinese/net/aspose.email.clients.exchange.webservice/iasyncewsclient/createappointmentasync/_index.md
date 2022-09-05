@@ -23,7 +23,7 @@ public Task<string> CreateAppointmentAsync(Appointment appointment, string folde
 
 ### 返回值
 
-返回约会 UID
+返回预约 UID
 
 ### 也可以看看
 

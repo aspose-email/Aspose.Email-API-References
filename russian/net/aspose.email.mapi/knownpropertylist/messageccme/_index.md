@@ -1,14 +1,14 @@
 ---
 title: MessageCcMe
 second_title: Справочник по Aspose.Email для .NET API
-description: ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageCcMe Альтернативные именаPR_MESSAGE_CC_ME ptagMessageCcMe
+description: Область Общие свойства сообщения Каноническое имя PidTagMessageCcMe Альтернативные имена PR_MESSAGE_CC_ME ptagMessageCcMe
 type: docs
 weight: 12460
 url: /ru/net/aspose.email.mapi/knownpropertylist/messageccme/
 ---
 ## KnownPropertyList.MessageCcMe field
 
-Область:Общие свойства сообщения Каноническое имя:PidTagMessageCcMe Альтернативные имена:PR_MESSAGE_CC_ME, ptagMessageCcMe
+Область: Общие свойства сообщения Каноническое имя: PidTagMessageCcMe Альтернативные имена: PR_MESSAGE_CC_ME, ptagMessageCcMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageCcMe;

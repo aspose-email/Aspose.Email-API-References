@@ -1,7 +1,7 @@
 ---
 title: RuleIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a buffer that is obtained by concatenating the PidTagRuleId property section property section 2.625. Area ServerSide Rules Properties Canonical name PidTagRuleIds Alternate names PR_RULE_IDS ptagRuleIds
 type: docs
 weight: 16500
 url: /net/aspose.email.mapi/knownpropertylist/ruleids/

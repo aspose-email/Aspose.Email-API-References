@@ -1,14 +1,14 @@
 ---
 title: SummaryOverride
 second_title: Справочник по Aspose.Email для .NET API
-description: Сводка которую аутентифицированный пользователь установил для этого календаря.
+description: Сводка которую пользователь прошедший проверку подлинности установил для этого календаря.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.google/extendedcalendar/summaryoverride/
 ---
 ## ExtendedCalendar.SummaryOverride property
 
-Сводка, которую аутентифицированный пользователь установил для этого календаря.
+Сводка, которую пользователь, прошедший проверку подлинности, установил для этого календаря.
 
 ```csharp
 public virtual string SummaryOverride { get; set; }

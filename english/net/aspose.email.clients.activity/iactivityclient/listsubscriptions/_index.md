@@ -1,7 +1,7 @@
 ---
 title: ListSubscriptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This operation returns a collection of the current subscriptions together with the associated webhooks.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/iactivityclient/listsubscriptions/

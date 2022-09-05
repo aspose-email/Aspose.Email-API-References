@@ -1,14 +1,14 @@
 ---
 title: EmsAbUsnSource
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_USN_SOURCE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_USN_SOURCE
 type: docs
 weight: 9400
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabusnsource/
 ---
 ## KnownPropertyList.EmsAbUsnSource field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_USN_SOURCE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_USN_SOURCE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUsnSource;

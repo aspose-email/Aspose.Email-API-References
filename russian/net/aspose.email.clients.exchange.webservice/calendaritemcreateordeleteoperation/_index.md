@@ -1,14 +1,14 @@
 ---
 title: CalendarItemCreateOrDeleteOperation
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет параметры операций создания и удаления
+description: Представляет параметры для создания и удаления операций
 type: docs
 weight: 3620
 url: /ru/net/aspose.email.clients.exchange.webservice/calendaritemcreateordeleteoperation/
 ---
 ## CalendarItemCreateOrDeleteOperation enumeration
 
-Представляет параметры операций создания и удаления
+Представляет параметры для создания и удаления операций
 
 ```csharp
 public enum CalendarItemCreateOrDeleteOperation
@@ -21,7 +21,7 @@ public enum CalendarItemCreateOrDeleteOperation
 | NotSpecified | `0` | Не указано |
 | SendToNone | `1` | Не отправлять почту |
 | SendOnlyToAll | `2` | Отправить электронное письмо участникам. |
-| SendToAllAndSaveCopy | `3` | Отправить электронное письмо участникам и сохранить копию. |
+| SendToAllAndSaveCopy | `3` | Отправьте электронное письмо участникам и сохраните копию. |
 
 ### Смотрите также
 

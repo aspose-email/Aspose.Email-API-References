@@ -25,7 +25,7 @@ public class ItemOperationsMoveResponce
 | 姓名 | 描述 |
 | --- | --- |
 | [ConversationId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid) { get; set; } | 指定必须移动的对话。 |
-| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/status) { get; set; } | 包含指示 ItemOperations 操作成功或失败的代码和描述 |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/status) { get; set; } | 包含指示ItemOperations操作成功或失败的代码和描述 |
 
 ### 也可以看看
 

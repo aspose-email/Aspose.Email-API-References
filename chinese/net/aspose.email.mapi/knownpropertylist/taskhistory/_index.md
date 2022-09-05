@@ -1,14 +1,14 @@
 ---
 title: TaskHistory
 second_title: Aspose.Email for .NET API 参考
-description: 表示最后对 Task 对象进行的更改类型 区域任务 规范名称PidLidTaskHistory 替代名称dispidTaskHistory
+description: 指示上次对任务对象进行的更改类型 区域Tasks 规范名称PidLidTaskHistory 替代名称dispidTaskHistory
 type: docs
 weight: 18680
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskhistory/
 ---
 ## KnownPropertyList.TaskHistory field
 
-表示最后对 Task 对象进行的更改类型。 区域:任务 规范名称:PidLidTaskHistory 替代名称:dispidTaskHistory
+指示上次对任务对象进行的更改类型。 区域：Tasks 规范名称：PidLidTaskHistory 替代名称：dispidTaskHistory
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskHistory;

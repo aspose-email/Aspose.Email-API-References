@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddress/
 ---
 ## KnownPropertyList.WorkAddress field
 
-指定联系人工作地址的完整地址。 区域:联系人属性 规范名称:PidLidWorkAddress 替代名称:dispidWorkAddress
+指定联系人工作地址的完整地址。 区域：联系人属性 规范名称：PidLidWorkAddress 替代名称：dispidWorkAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddress;

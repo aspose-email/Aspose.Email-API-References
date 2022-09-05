@@ -57,7 +57,7 @@ public FreebusyResponse(DateTime timeMin, DateTime timeMax,
 | --- | --- | --- |
 | timeMin | DateTime | 查询间隔的开始。 |
 | timeMax | DateTime | 查询间隔的结束。 |
-| groups | Dictionary`2 | 组的扩展。 |
+| groups | Dictionary`2 | 扩大团体。 |
 | calendars | Dictionary`2 | 日历的忙/闲信息列表。 |
 
 ### 也可以看看

@@ -1,12 +1,12 @@
 ---
 title: UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the appointment.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.email.calendar/appointment/updateappointment/
 ---
-## Appointment.UpdateAppointment method (1 of 2)
+## UpdateAppointment() {#updateappointment}
 
 Updates the appointment.
 
@@ -27,7 +27,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represe
 
 ---
 
-## Appointment.UpdateAppointment method (2 of 2)
+## UpdateAppointment(int) {#updateappointment_1}
 
 Updates the appointment.
 

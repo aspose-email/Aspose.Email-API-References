@@ -1,7 +1,7 @@
 ---
 title: ResponseText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the body of response message.
 type: docs
 weight: 20
 url: /net/aspose.email.tools/responsemessagebuilder/responsetext/

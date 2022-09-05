@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Справочник по Aspose.Email для .NET API
 description: Статический менеджер управляющий созданием логгеров.
 type: docs
-weight: 20500
+weight: 20550
 url: /ru/net/aspose.email.tools.logging/loggermanager/
 ---
 ## LoggerManager class
@@ -25,7 +25,7 @@ public static class LoggerManager
 | static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_2)(string, LogLevel, Appender) | Создает регистратор с указанным именем и приложением. |
 | static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_3)(string, LogLevel, params Appender[]) | Создает регистратор с указанным именем и приложением. |
 | static [GetLogger](../../aspose.email.tools.logging/loggermanager/getlogger)(string) | Получает регистратор по указанному имени. |
-| static [RemoveLogger](../../aspose.email.tools.logging/loggermanager/removelogger)(string) | Удаляет логгер с указанным именем. |
+| static [RemoveLogger](../../aspose.email.tools.logging/loggermanager/removelogger)(string) | Удаляет регистратор с указанным именем. |
 
 ### Смотрите также
 

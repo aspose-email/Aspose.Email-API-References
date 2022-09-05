@@ -1,14 +1,14 @@
 ---
 title: MessageID
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор сообщения электронной почты вызвавшего событие. ОбязательноДа
+description: Идентификатор сообщения электронной почты вызвавшего событие. Обязательно Yes
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/messageid/
 ---
 ## ExchangeMetadata.MessageID property
 
-Идентификатор сообщения электронной почты, вызвавшего событие. Обязательно:Да
+Идентификатор сообщения электронной почты, вызвавшего событие. Обязательно: Yes
 
 ```csharp
 public string MessageID { get; set; }

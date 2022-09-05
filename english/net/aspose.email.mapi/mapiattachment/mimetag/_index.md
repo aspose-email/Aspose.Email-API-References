@@ -1,7 +1,7 @@
 ---
 title: MimeTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets formatting information about a Multipurpose Internet Mail Extensions MIME attachment.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapiattachment/mimetag/

@@ -1,14 +1,14 @@
 ---
 title: TaskAssigner
 second_title: Aspose.Email for .NET API 参考
-description: 指定最后分配任务的用户的名称 区域任务 规范名称PidLidTaskAssigner 替代名称dispidTaskDelegator
+description: 指定最后分配任务的用户的名称 区域Tasks 规范名称PidLidTaskAssigner 替代名称dispidTaskDelegator
 type: docs
 weight: 18560
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskassigner/
 ---
 ## KnownPropertyList.TaskAssigner field
 
-指定最后分配任务的用户的名称。 区域:任务 规范名称:PidLidTaskAssigner 替代名称:dispidTaskDelegator
+指定最后分配任务的用户的名称。 区域：Tasks 规范名称：PidLidTaskAssigner 替代名称：dispidTaskDelegator
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAssigner;

@@ -1,7 +1,7 @@
 ---
 title: FetchAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets attachment for specified id
 type: docs
 weight: 200
 url: /net/aspose.email.clients.graph/igraphclient/fetchattachment/

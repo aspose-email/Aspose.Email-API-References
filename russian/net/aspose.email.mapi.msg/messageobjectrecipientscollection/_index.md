@@ -1,14 +1,14 @@
 ---
 title: MessageObjectRecipientsCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет коллекцию дляMessageObjectRecipientEntity./messageobjectrecipiententityобъектов.
+description: Представляет коллекцию дляMessageObjectRecipientEntity./messageobjectrecipiententity объекты.
 type: docs
-weight: 18870
+weight: 18900
 url: /ru/net/aspose.email.mapi.msg/messageobjectrecipientscollection/
 ---
 ## MessageObjectRecipientsCollection class
 
-Представляет коллекцию для[`MessageObjectRecipientEntity`](../messageobjectrecipiententity)объектов.
+Представляет коллекцию для[`MessageObjectRecipientEntity`](../messageobjectrecipiententity) объекты.
 
 ```csharp
 public sealed class MessageObjectRecipientsCollection : List<MessageObjectRecipientEntity>

@@ -1,7 +1,7 @@
 ---
 title: Display
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The gadgets display mode. Optional. Possible values are icon  The gadget displays next to the events title in the calendar view. chip  The gadget displays when the event is clicked.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/gadget/display/

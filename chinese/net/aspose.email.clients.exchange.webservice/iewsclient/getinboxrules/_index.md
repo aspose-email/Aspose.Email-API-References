@@ -16,7 +16,7 @@ public InboxRule[] GetInboxRules()
 
 ### 返回值
 
-T的数组:Aspose.Email.Clients.Exchange.InboxRule
+一个数组[`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
 ### 也可以看看
 
@@ -37,11 +37,11 @@ public InboxRule[] GetInboxRules(string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 要从中读取收件箱规则的邮箱.注意:如果设置为` null` 或` empty` ，规则将从默认邮箱 |
+| mailbox | String | 从中读取收件箱规则的邮箱。注意：如果设置为`无效的`或者`空的`规则将从默认邮箱中读取 |
 
 ### 返回值
 
-[`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
+一个数组[`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
 ### 也可以看看
 

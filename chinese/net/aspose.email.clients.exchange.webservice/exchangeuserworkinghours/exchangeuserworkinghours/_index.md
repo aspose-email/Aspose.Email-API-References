@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserWorkingHours
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ExchangeUserWorkingHoursaspose.email.clients.exchange.webservice/exchangeuserworkinghours类的新实例
+description: 初始化ExchangeUserWorkingHoursaspose.email.clients.exchange.webservice/exchangeuserworkinghours类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuserworkinghours/exchangeuserworkinghours/
 ---
 ## ExchangeUserWorkingHours constructor
 
-初始化[`ExchangeUserWorkingHours`](../../exchangeuserworkinghours)类的新实例。
+初始化[`ExchangeUserWorkingHours`](../../exchangeuserworkinghours)类.
 
 ```csharp
 public ExchangeUserWorkingHours()

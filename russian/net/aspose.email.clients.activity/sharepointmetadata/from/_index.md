@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Email для .NET API
-description: Пользователь инициировавший событие. Это будет либо FileOwner LastModifier либо LastSharer. ОбязательноДа
+description: Пользователь инициировавший событие. Это будет либо FileOwner LastModifier либо LastSharer. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/from/
 ---
 ## SharePointMetadata.From property
 
-Пользователь, инициировавший событие. Это будет либо FileOwner, LastModifier, либо LastSharer. Обязательно:Да
+Пользователь, инициировавший событие. Это будет либо FileOwner, LastModifier, либо LastSharer. Обязательно: Yes
 
 ```csharp
 public string From { get; set; }

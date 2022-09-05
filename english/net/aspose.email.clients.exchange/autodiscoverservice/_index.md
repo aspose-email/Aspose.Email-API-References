@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverService
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a binding to the Exchange Autodiscover Service.
 type: docs
 weight: 3090
 url: /net/aspose.email.clients.exchange/autodiscoverservice/
@@ -18,12 +18,12 @@ public sealed class AutodiscoverService : AutodiscoverServiceBase
 
 | Name | Description |
 | --- | --- |
-| [AutodiscoverService](autodiscoverservice)() | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
-| [AutodiscoverService](autodiscoverservice)(ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
-| [AutodiscoverService](autodiscoverservice)(string) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
-| [AutodiscoverService](autodiscoverservice)(Uri) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
-| [AutodiscoverService](autodiscoverservice)(string, ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
-| [AutodiscoverService](autodiscoverservice)(Uri, ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor)() | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor_1)(ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor_2)(string) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor_4)(Uri) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor_3)(string, ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
+| [AutodiscoverService](autodiscoverservice#constructor_5)(Uri, ExchangeVersion) | Initializes a new instance of the [`AutodiscoverService`](../autodiscoverservice) class. |
 
 ## Properties
 

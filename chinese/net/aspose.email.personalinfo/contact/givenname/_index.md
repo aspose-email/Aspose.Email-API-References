@@ -1,14 +1,14 @@
 ---
 title: GivenName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置作为人全名一部分的给定名称 给定名称也称为个人名称名字名字或教名
+description: 获取或设置一个名字它是一个人全名的一部分 名字也被称为个人名字名字名字或教名
 type: docs
 weight: 170
 url: /zh/net/aspose.email.personalinfo/contact/givenname/
 ---
 ## Contact.GivenName property
 
-获取或设置作为人全名一部分的给定名称。 给定名称也称为个人名称、名字、名字或教名。
+获取或设置一个名字，它是一个人全名的一部分。 名字也被称为个人名字、名字、名字或教名。
 
 ```csharp
 public string GivenName { get; set; }

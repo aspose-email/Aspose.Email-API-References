@@ -1,7 +1,7 @@
 ---
 title: ToDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the value of the property to DateTime.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi.msg/messageobjectproperty/todatetime/

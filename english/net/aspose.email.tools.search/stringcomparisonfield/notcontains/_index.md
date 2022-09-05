@@ -1,12 +1,12 @@
 ---
 title: NotContains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must not contain the specified value.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.search/stringcomparisonfield/notcontains/
 ---
-## StringComparisonField.NotContains method (1 of 2)
+## NotContains(string) {#notcontains}
 
 Indicates that field in message must not contain the specified value.
 
@@ -31,7 +31,7 @@ public MailQuery NotContains(string value)
 
 ---
 
-## StringComparisonField.NotContains method (2 of 2)
+## NotContains(string, bool) {#notcontains_1}
 
 Indicates that field in message must not contain the specified value.
 

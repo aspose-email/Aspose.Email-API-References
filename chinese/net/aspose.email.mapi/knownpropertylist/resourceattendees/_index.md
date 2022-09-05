@@ -1,14 +1,14 @@
 ---
 title: ResourceAttendees
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议的资源参与者 区域会议 规范名称PidLidResourceAttendees 别名LID_RESOURCE_ATTENDEES
+description: 标识约会或会议的资源参与者 区域Meetings 规范名称PidLidResourceAttendees 替代名称LID_RESOURCE_ATTENDEES
 type: docs
 weight: 16140
 url: /zh/net/aspose.email.mapi/knownpropertylist/resourceattendees/
 ---
 ## KnownPropertyList.ResourceAttendees field
 
-标识约会或会议的资源参与者。 区域:会议 规范名称:PidLidResourceAttendees 别名:LID_RESOURCE_ATTENDEES
+标识约会或会议的资源参与者。 区域：Meetings 规范名称：PidLidResourceAttendees 替代名称：LID_RESOURCE_ATTENDEES
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ResourceAttendees;

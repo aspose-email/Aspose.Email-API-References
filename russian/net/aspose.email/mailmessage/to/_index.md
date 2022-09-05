@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает коллекцию адресов содержащую получателей сообщения
+description: Получает или задает коллекцию адресов содержащую получателей сообщения message .
 type: docs
 weight: 350
 url: /ru/net/aspose.email/mailmessage/to/
 ---
 ## MailMessage.To property
 
-Получает или задает коллекцию адресов, содержащую получателей сообщения
+Получает или задает коллекцию адресов, содержащую получателей сообщения message .
 
 ```csharp
 public virtual MailAddressCollection To { get; set; }

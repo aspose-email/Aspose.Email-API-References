@@ -34,9 +34,9 @@ public ItemEstimateRequest(string syncKey, string collectionId, ItemEstimateOpti
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | syncKey | String | Представляет текущее состояние коллекции. |
-| collectionId | String | Указывает идентификатор сервера коллекции, из которой получается оценка элемента. |
+| collectionId | String | Указывает идентификатор сервера коллекции, из которой получена оценка элемента. |
 | options | ItemEstimateOptions[] | Содержит массив элементов, фильтрующих результаты операции GetItemEstimate. |
-| conversationMode | Nullable`1 | Указывает, включать ли элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate. |
+| conversationMode | Nullable`1 | Указывает, следует ли включать элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate. |
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ public ItemEstimateRequest(string syncKey, string collectionId, AirsyncFilterTyp
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | syncKey | String | Представляет текущее состояние коллекции. |
-| collectionId | String | Указывает идентификатор сервера коллекции, из которой получается оценка элемента. |
+| collectionId | String | Указывает идентификатор сервера коллекции, из которой получена оценка элемента. |
 | filterType | Nullable`1 | Задает дополнительное временное окно для объектов |
 
 ### Смотрите также

@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves current object to the given stream using MSG format.
 type: docs
 weight: 170
 url: /net/aspose.email.calendar/task/save/
 ---
-## Task.Save method (1 of 4)
+## Save(Stream) {#save}
 
 Saves current object to the given stream using MSG format.
 
@@ -26,7 +26,7 @@ public virtual void Save(Stream stream)
 
 ---
 
-## Task.Save method (2 of 4)
+## Save(Stream, TaskSaveFormat) {#save_1}
 
 Saves current object to the given stream using specified format.
 
@@ -48,7 +48,7 @@ public virtual void Save(Stream stream, TaskSaveFormat saveFormat)
 
 ---
 
-## Task.Save method (3 of 4)
+## Save(string) {#save_2}
 
 Saves current object into file using MSG format.
 
@@ -68,7 +68,7 @@ public virtual void Save(string filePath)
 
 ---
 
-## Task.Save method (4 of 4)
+## Save(string, TaskSaveFormat) {#save_3}
 
 Saves current object into file using specified format.
 

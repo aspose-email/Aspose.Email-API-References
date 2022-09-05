@@ -1,14 +1,35 @@
 ---
 title: IntroduceClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Вводит информацию о клиенте на сервер.
+description: Представляет информацию о клиенте серверу.
 type: docs
 weight: 790
 url: /ru/net/aspose.email.clients.imap/imapclient/introduceclient/
 ---
+## IntroduceClient() {#introduceclient}
+
+Представляет информацию о клиенте серверу.
+
+```csharp
+public ImapIdentificationInfo IntroduceClient()
+```
+
+### Возвращаемое значение
+
+Возвращает идентификационную информацию сервера
+
+### Смотрите также
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## IntroduceClient(IConnection) {#introduceclient_1}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public ImapIdentificationInfo IntroduceClient(IConnection connection)
@@ -16,7 +37,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -34,7 +55,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection)
 
 ## IntroduceClient(ImapIdentificationInfo) {#introduceclient_3}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public ImapIdentificationInfo IntroduceClient(ImapIdentificationInfo clientIdentificationInfo)
@@ -59,7 +80,7 @@ public ImapIdentificationInfo IntroduceClient(ImapIdentificationInfo clientIdent
 
 ## IntroduceClient(IConnection, ImapIdentificationInfo) {#introduceclient_2}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public ImapIdentificationInfo IntroduceClient(IConnection connection, 
@@ -68,7 +89,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | clientIdentificationInfo | ImapIdentificationInfo | Идентификационная информация клиента |
 
 ### Возвращаемое значение
@@ -79,27 +100,6 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 
 * class [ImapIdentificationInfo](../../imapidentificationinfo)
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## IntroduceClient() {#introduceclient}
-
-Вводит информацию о клиенте на сервер.
-
-```csharp
-public ImapIdentificationInfo IntroduceClient()
-```
-
-### Возвращаемое значение
-
-Возвращает идентификационную информацию сервера
-
-### Смотрите также
-
-* class [ImapIdentificationInfo](../../imapidentificationinfo)
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

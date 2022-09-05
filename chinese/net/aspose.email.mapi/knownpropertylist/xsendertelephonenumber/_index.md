@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/xsendertelephonenumber/
 ---
 ## KnownPropertyList.XSenderTelephoneNumber field
 
-包含与语音邮件消息关联的呼叫者的电话号码。 区域:统一消息 规范名称:PidNameXSenderTelephoneNumber 备用名称:
+包含与语音邮件消息关联的呼叫者的电话号码。 区域：统一消息 规范名称：PidNameXSenderTelephoneNumber 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSenderTelephoneNumber;

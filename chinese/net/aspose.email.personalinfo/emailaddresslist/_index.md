@@ -3,7 +3,7 @@ title: EmailAddressList
 second_title: Aspose.Email for .NET API 参考
 description: 联系人的电子邮件地址列表
 type: docs
-weight: 19350
+weight: 19380
 url: /zh/net/aspose.email.personalinfo/emailaddresslist/
 ---
 ## EmailAddressList class
@@ -24,14 +24,14 @@ public class EmailAddressList : IList<EmailAddress>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.email.personalinfo/emailaddresslist/count) { get; } | 获取ICollection中包含的元素数。 |
+| [Count](../../aspose.email.personalinfo/emailaddresslist/count) { get; } | 获取包含在ICollection. |
 | [Email1](../../aspose.email.personalinfo/emailaddresslist/email1) { get; set; } | 默认 email1 地址。 |
 | [Email2](../../aspose.email.personalinfo/emailaddresslist/email2) { get; set; } | 默认 email2 地址。 |
 | [Email3](../../aspose.email.personalinfo/emailaddresslist/email3) { get; set; } | 默认 email3 地址。 |
 | [Home](../../aspose.email.personalinfo/emailaddresslist/home) { get; set; } | 默认家庭电子邮件地址。 |
-| [IsReadOnly](../../aspose.email.personalinfo/emailaddresslist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
+| [IsReadOnly](../../aspose.email.personalinfo/emailaddresslist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
 | [Item](../../aspose.email.personalinfo/emailaddresslist/item) { get; set; } | 指定类别的默认电子邮件地址。 (2 indexers) |
-| [SyncRoot](../../aspose.email.personalinfo/emailaddresslist/syncroot) { get; } | 获取可用于同步访问ICollection的对象。 |
+| [SyncRoot](../../aspose.email.personalinfo/emailaddresslist/syncroot) { get; } | 获取可用于同步访问的对象ICollection. |
 | [Work](../../aspose.email.personalinfo/emailaddresslist/work) { get; set; } | 默认工作电子邮件地址。 |
 
 ## 方法
@@ -44,7 +44,7 @@ public class EmailAddressList : IList<EmailAddress>
 | [CopyTo](../../aspose.email.personalinfo/emailaddresslist/copyto)(EmailAddress[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/emailaddresslist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/emailaddresslist/indexof)(EmailAddress) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/emailaddresslist/insert)(int, EmailAddress) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/emailaddresslist/insert)(int, EmailAddress) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/emailaddresslist/remove)(EmailAddress) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/emailaddresslist/removeat)(int) | 删除指定索引处的列表项。 |
 

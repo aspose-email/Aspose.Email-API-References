@@ -1,12 +1,12 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the new PST file with the specified file name.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/personalstorage/create/
 ---
-## PersonalStorage.Create method (1 of 6)
+## Create(string, FileFormatVersion, CancellationToken) {#create_5}
 
 Creates the new PST file with the specified file name.
 
@@ -45,7 +45,7 @@ Note, only Unicode file version creation is supported now.
 
 ---
 
-## PersonalStorage.Create method (2 of 6)
+## Create(Stream, FileFormatVersion, CancellationToken) {#create_3}
 
 Creates the PST in a stream.
 
@@ -84,7 +84,7 @@ Note, only Unicode file version creation is supported now.
 
 ---
 
-## PersonalStorage.Create method (3 of 6)
+## Create(Stream, FileFormatVersion, bool, CancellationToken) {#create_2}
 
 Creates the PST in a stream.
 
@@ -124,7 +124,7 @@ Note, only Unicode file version creation is supported now.
 
 ---
 
-## PersonalStorage.Create method (4 of 6)
+## Create(string, FileFormatVersion) {#create_4}
 
 Creates the new PST file with the specified file name.
 
@@ -161,7 +161,7 @@ Note, only Unicode file version creation is supported now.
 
 ---
 
-## PersonalStorage.Create method (5 of 6)
+## Create(Stream, FileFormatVersion) {#create}
 
 Creates the PST in a stream.
 
@@ -198,7 +198,7 @@ Note, only Unicode file version creation is supported now.
 
 ---
 
-## PersonalStorage.Create method (6 of 6)
+## Create(Stream, FileFormatVersion, bool) {#create_1}
 
 Creates the PST in a stream.
 

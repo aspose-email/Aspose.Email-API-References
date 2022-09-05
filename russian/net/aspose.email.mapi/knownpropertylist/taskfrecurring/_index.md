@@ -1,14 +1,14 @@
 ---
 title: TaskFRecurring
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает включает ли задача шаблон повторения. ОбластьЗадачи Каноническое имяPidLidTaskFRecurring Альтернативные именаdispidTaskFRecur
+description: Указывает включает ли задача шаблон повторения. Область Tasks Каноническое имя PidLidTaskFRecurring Альтернативные имена dispidTaskFRecur
 type: docs
 weight: 18660
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskfrecurring/
 ---
 ## KnownPropertyList.TaskFRecurring field
 
-Указывает, включает ли задача шаблон повторения. Область:Задачи Каноническое имя:PidLidTaskFRecurring Альтернативные имена:dispidTaskFRecur
+Указывает, включает ли задача шаблон повторения. Область: Tasks Каноническое имя: PidLidTaskFRecurring Альтернативные имена: dispidTaskFRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFRecurring;

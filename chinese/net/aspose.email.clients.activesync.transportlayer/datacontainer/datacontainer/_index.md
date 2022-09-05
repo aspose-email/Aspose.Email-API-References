@@ -17,7 +17,7 @@ public DataContainer(string elementName, Namespace nameSpace)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | elementName | String | 元素的名称，其数据包含在数据容器中。 |
-| nameSpace | Namespace | 元素的名称空间，其数据包含在数据容器中。 |
+| nameSpace | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
 
 ### 也可以看看
 
@@ -39,8 +39,8 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | elementName | String | 元素的名称，其数据包含在数据容器中。 |
-| nameSpace | Namespace | 元素的名称空间，其数据包含在数据容器中。 |
-| parent | DataContainer | Parent DataContainer |
+| nameSpace | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
+| parent | DataContainer | 父数据容器 |
 
 ### 也可以看看
 
@@ -62,8 +62,8 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | elementName | String | 元素的名称，其数据包含在数据容器中。 |
-| nameSpace | Namespace | 元素的名称空间，其数据包含在数据容器中。 |
-| parent | DataContainer | Parent DataContainer |
+| nameSpace | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
+| parent | DataContainer | 父数据容器 |
 | value | String | 元素的值 |
 
 ### 也可以看看
@@ -87,8 +87,8 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | elementName | String | 元素的名称，其数据包含在数据容器中。 |
-| nameSpace | Namespace | 元素的名称空间，其数据包含在数据容器中。 |
-| parent | DataContainer | Parent DataContainer |
+| nameSpace | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
+| parent | DataContainer | 父数据容器 |
 | value | String | 元素的值 |
 | binaryData | Boolean | 指定数据是否为二进制。 |
 

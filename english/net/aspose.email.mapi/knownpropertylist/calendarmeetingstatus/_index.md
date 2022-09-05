@@ -1,7 +1,7 @@
 ---
 title: CalendarMeetingStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the status of an appointment or meeting. Area Common Canonical name PidNameCalendarMeetingStatus Alternate names urnschemascalendarmeetingstatus
 type: docs
 weight: 2330
 url: /net/aspose.email.mapi/knownpropertylist/calendarmeetingstatus/

@@ -1,7 +1,7 @@
 ---
 title: WithinSizeRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the minimum and maximum sizes that incoming messages have to have in order for the condition or exception to apply.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.exchange/rulepredicates/withinsizerange/

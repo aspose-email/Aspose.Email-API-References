@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API 参考
-description: 表示已解析的收件人 如果请求中指定的收件人被解析为分发列表或发现不明确则在响应中返回多个收件人 Response中返回的状态码可以用来判断接收者是否被发现不明确 如果发现请求中指定的收件人不明确则该收件人将是建议的匹配项 如果客户端请求在响应中返回证书则返回证书
+description: 表示已解析的收件人 如果请求中指定的收件人已解析为分发列表或发现不明确则在响应中返回多个收件人 响应中返回的状态代码可用于确定收件人是否被发现模棱两可 如果发现请求中指定的收件人不明确则收件人将是建议的匹配项 如果客户端请求在响应中返回证书则返回证书
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipients/
 ---
 ## ResolveRecipientsResponse.Recipients property
 
-表示已解析的收件人。 如果请求中指定的收件人被解析为分发列表或发现不明确，则在响应中返回多个收件人。 Response中返回的状态码可以用来判断接收者是否被发现不明确。 如果发现请求中指定的收件人不明确，则该收件人将是建议的匹配项。 如果客户端请求在响应中返回证书，则返回证书。
+表示已解析的收件人。 如果请求中指定的收件人已解析为分发列表或发现不明确，则在响应中返回多个收件人。 响应中返回的状态代码可用于确定收件人是否被发现模棱两可。 如果发现请求中指定的收件人不明确，则收件人将是建议的匹配项。 如果客户端请求在响应中返回证书，则返回证书。
 
 ```csharp
 public List<Recipient> Recipients { get; }

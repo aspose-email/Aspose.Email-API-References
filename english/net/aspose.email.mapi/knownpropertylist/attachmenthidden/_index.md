@@ -1,7 +1,7 @@
 ---
 title: AttachmentHidden
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether an Attachment object is hidden from the end user. Area Message Attachment Properties Canonical name PidTagAttachmentHidden Alternate names PR_ATTACHMENT_HIDDEN
 type: docs
 weight: 1650
 url: /net/aspose.email.mapi/knownpropertylist/attachmenthidden/

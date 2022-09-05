@@ -1,14 +1,14 @@
 ---
 title: IsFallback
 second_title: Справочник по Aspose.Email для .NET API
-description: Определить что текущий элемент является запасным.
+description: Определить что текущий элемент является резервным.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.amp/ampattributes/isfallback/
 ---
 ## AmpAttributes.IsFallback property
 
-Определить, что текущий элемент является запасным.
+Определить, что текущий элемент является резервным.
 
 ```csharp
 public bool IsFallback { get; set; }

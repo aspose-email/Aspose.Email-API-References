@@ -1,7 +1,7 @@
 ---
 title: TagTitle
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users job title. Area MapiMailUser Canonical name PidTagTitle Alternate names PR_TITLE PR_TITLE_A PR_TITLE_W urnschemascontactstitle
 type: docs
 weight: 18510
 url: /net/aspose.email.mapi/knownpropertylist/tagtitle/

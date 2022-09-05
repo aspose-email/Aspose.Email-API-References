@@ -1,12 +1,12 @@
 ---
 title: TimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the TimeoutExceptionaspose.email/timeoutexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/timeoutexception/timeoutexception/
 ---
-## TimeoutException constructor (1 of 5)
+## TimeoutException(string) {#constructor_1}
 
 Initializes a new instance of the [`TimeoutException`](../../timeoutexception) class.
 
@@ -26,7 +26,7 @@ public TimeoutException(string message)
 
 ---
 
-## TimeoutException constructor (2 of 5)
+## TimeoutException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the [`TimeoutException`](../../timeoutexception) class.
 
@@ -47,7 +47,7 @@ public TimeoutException(string format, params object[] parameters)
 
 ---
 
-## TimeoutException constructor (3 of 5)
+## TimeoutException(string, int) {#constructor_2}
 
 ```csharp
 public TimeoutException(string format, int timeout)
@@ -61,7 +61,7 @@ public TimeoutException(string format, int timeout)
 
 ---
 
-## TimeoutException constructor (4 of 5)
+## TimeoutException(string, string, int) {#constructor_4}
 
 ```csharp
 public TimeoutException(string format, string command, int timeout)
@@ -75,7 +75,7 @@ public TimeoutException(string format, string command, int timeout)
 
 ---
 
-## TimeoutException constructor (5 of 5)
+## TimeoutException() {#constructor}
 
 Initializes a new instance of the [`TimeoutException`](../../timeoutexception) class.
 

@@ -1,7 +1,7 @@
 ---
 title: FilesDropped
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This event is being raised when files are dropped to the panel.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.wpf/filedroppanel/filesdropped/

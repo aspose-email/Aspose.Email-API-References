@@ -33,7 +33,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<ErrorDetails> errors)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendarId | String | Идентификатор календаря |
-| errors | IEnumerable`1 | Дополнительные ошибки (если вычисление для календаря не удалось). |
+| errors | IEnumerable`1 | Необязательные ошибки (если вычисление для календаря не удалось). |
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<Range> busy)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendarId | String | Идентификатор календаря |
-| busy | IEnumerable`1 | Список диапазонов времени во время который этот календарь следует рассматривать как занятый. |
+| busy | IEnumerable`1 | Список диапазонов времени, в течение которых этот календарь следует считать занятым. |
 
 ### Смотрите также
 
@@ -78,7 +78,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<ErrorDetails> errors,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendarId | String | Идентификатор календаря |
-| errors | IEnumerable`1 | Дополнительные ошибки (если вычисление для календаря не удалось). |
+| errors | IEnumerable`1 | Необязательные ошибки (если вычисление для календаря не удалось). |
 | busy | IEnumerable`1 | Список диапазонов времени, в течение которых этот календарь следует считать занятым. |
 
 ### Смотрите также

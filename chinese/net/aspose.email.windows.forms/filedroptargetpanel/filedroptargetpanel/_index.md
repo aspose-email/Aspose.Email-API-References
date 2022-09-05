@@ -1,14 +1,14 @@
 ---
 title: FileDropTargetPanel
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FileDropTargetPanelaspose.email.windows.forms/filedroptargetpanel类的新实例
+description: 初始化FileDropTargetPanelaspose.email.windows.forms/filedroptargetpanel类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.windows.forms/filedroptargetpanel/filedroptargetpanel/
 ---
 ## FileDropTargetPanel constructor
 
-初始化[`FileDropTargetPanel`](../../filedroptargetpanel)类的新实例。
+初始化[`FileDropTargetPanel`](../../filedroptargetpanel)类.
 
 ```csharp
 public FileDropTargetPanel()

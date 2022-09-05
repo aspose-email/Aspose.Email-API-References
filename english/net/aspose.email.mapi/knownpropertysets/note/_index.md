@@ -1,7 +1,7 @@
 ---
 title: Note
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Sticky note Property set name PSETID_Note
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/knownpropertysets/note/

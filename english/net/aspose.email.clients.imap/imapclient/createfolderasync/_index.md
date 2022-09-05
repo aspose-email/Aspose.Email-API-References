@@ -1,12 +1,12 @@
 ---
 title: CreateFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a folder with the specified name
 type: docs
 weight: 530
 url: /net/aspose.email.clients.imap/imapclient/createfolderasync/
 ---
-## ImapClient.CreateFolderAsync method (1 of 4)
+## CreateFolderAsync(IConnection, string) {#createfolderasync}
 
 Creates a folder with the specified name
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (2 of 4)
+## CreateFolderAsync(string) {#createfolderasync_2}
 
 Creates a folder with the specified name
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (3 of 4)
+## CreateFolderAsync(IConnection, string, CancellationToken) {#createfolderasync_1}
 
 Creates a folder with the specified name
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (4 of 4)
+## CreateFolderAsync(string, CancellationToken) {#createfolderasync_3}
 
 Creates a folder with the specified name
 

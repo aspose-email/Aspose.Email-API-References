@@ -1,14 +1,14 @@
 ---
 title: LogDocumentPosted
 second_title: Aspose.Email for .NET API 参考
-description: 指示文档是通过电子邮件发送还是在日记期间发布到服务器文件夹 区域日记 规范名称PidLidLogDocumentPosted 替代名称dispidLogDocPosted
+description: 指示文档是通过电子邮件发送还是在日志记录期间发布到服务器文件夹 区域Journal 规范名称PidLidLogDocumentPosted 替代名称dispidLogDocPosted
 type: docs
 weight: 12210
 url: /zh/net/aspose.email.mapi/knownpropertylist/logdocumentposted/
 ---
 ## KnownPropertyList.LogDocumentPosted field
 
-指示文档是通过电子邮件发送还是在日记期间发布到服务器文件夹。 区域:日记 规范名称:PidLidLogDocumentPosted 替代名称:dispidLogDocPosted
+指示文档是通过电子邮件发送还是在日志记录期间发布到服务器文件夹。 区域：Journal 规范名称：PidLidLogDocumentPosted 替代名称：dispidLogDocPosted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentPosted;

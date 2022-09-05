@@ -1,14 +1,14 @@
 ---
 title: CompanyMainTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户公司的主要电话号码 区域联系人属性 规范名称PidTagCompanyMainTelephoneNumber 别名PR_COMPANY_MAIN_PHONE_NUMBER PR_COMPANY_MAIN_PHONE_NUMBER_A
+description: 包含邮件用户公司的主要电话号码 区域联系人属性 规范名称PidTagCompanyMainTelephoneNumber 备用名称PR_COMPANY_MAIN_PHONE_NUMBERPR_COMPANY_MAIN_PHONE_NUMBER_A
 type: docs
 weight: 2830
 url: /zh/net/aspose.email.mapi/knownpropertylist/companymaintelephonenumber/
 ---
 ## KnownPropertyList.CompanyMainTelephoneNumber field
 
-包含邮件用户公司的主要电话号码。 区域:联系人属性 规范名称:PidTagCompanyMainTelephoneNumber 别名:PR_COMPANY_MAIN_PHONE_NUMBER, PR_COMPANY_MAIN_PHONE_NUMBER_A,
+包含邮件用户公司的主要电话号码。 区域：联系人属性 规范名称：PidTagCompanyMainTelephoneNumber 备用名称：PR_COMPANY_MAIN_PHONE_NUMBER、PR_COMPANY_MAIN_PHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CompanyMainTelephoneNumber;

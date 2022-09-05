@@ -18,25 +18,25 @@ public class BackupSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackupSettings](backupsettings#constructor)() | 初始化一个新的实例 [`BackupSettings`](../backupsettings) 班级 |
-| [BackupSettings](backupsettings#constructor_1)(BackupOptions) | 初始化一个新的实例 [`BackupSettings`](../backupsettings) 班级 |
-| [BackupSettings](backupsettings#constructor_2)(bool, bool, int, int) | 初始化 [`BackupSettings`](../backupsettings) 类的新实例 |
+| [BackupSettings](backupsettings#constructor)() | 初始化[`BackupSettings`](../backupsettings) class |
+| [BackupSettings](backupsettings#constructor_1)(BackupOptions) | 初始化[`BackupSettings`](../backupsettings) class |
+| [BackupSettings](backupsettings#constructor_2)(bool, bool, int, int) | 初始化[`BackupSettings`](../backupsettings) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Default](../../aspose.email.clients.imap/backupsettings/default) { get; } | 获取[`BackupSettings`](../backupsettings)类，默认设置为 |
+| static [Default](../../aspose.email.clients.imap/backupsettings/default) { get; } | 获取[`BackupSettings`](../backupsettings)默认设置的类 |
 | [ExecuteRecursively](../../aspose.email.clients.imap/backupsettings/executerecursively) { get; set; } | 获取或设置定义是否应递归执行备份的值 |
-| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/backupsettings/numberofattemptstorrepeat) { get; set; } | 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端尝试根据定义的次数再次重复此操作。 例如如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。 |
-| [RestoreConnection](../../aspose.email.clients.imap/backupsettings/restoreconnection) { get; set; } | 获取或设置值，该值定义在服务器强制关闭连接时是否必须恢复连接 此选项必须与 NumberOfAttemptsToRrepeat 一起使用选项。 |
+| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/backupsettings/numberofattemptstorrepeat) { get; set; } | 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端会根据定义的次数尝试再次重复此操作。 例如，如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。 |
+| [RestoreConnection](../../aspose.email.clients.imap/backupsettings/restoreconnection) { get; set; } | 获取或设置定义在服务器强制关闭连接时是否必须恢复连接的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用。 |
 | [TimeoutBetweenAttempts](../../aspose.email.clients.imap/backupsettings/timeoutbetweenattempts) { get; set; } | 获取或设置定义尝试再次执行操作之间的超时（以毫秒为单位）的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.imap/backupsettings/op_implicit) | 将可枚举选项转换为类 |
+| [implicit operator](../../aspose.email.clients.imap/backupsettings/op_implicit) | 将可枚举选项转换为 class |
 
 ### 也可以看看
 

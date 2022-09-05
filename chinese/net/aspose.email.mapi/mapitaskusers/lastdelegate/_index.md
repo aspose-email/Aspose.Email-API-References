@@ -1,14 +1,14 @@
 ---
 title: LastDelegate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置最近分配任务最多 的邮箱代表的名称 或空字符串 if没有代表
+description: 获取或设置最近 分配任务最多的邮箱代理的名称 或空字符串如果没有代理
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapitaskusers/lastdelegate/
 ---
 ## MapiTaskUsers.LastDelegate property
 
-获取或设置最近分配任务最多 的邮箱代表的名称， 或空字符串 if没有代表。
+获取或设置最近 分配任务最多的邮箱代理的名称， 或空字符串，如果没有代理。
 
 ```csharp
 public string LastDelegate { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WlinkAddressBookStoreEID
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение свойства PidTagStoreEntryId раздел 2.1018 текущего пользователя не владельца папки. ОбластьКонфигурация Каноническое имяPidTagWlinkAddressBookStoreEID Альтернативные именаPR_WLINK_AB_EXSTOREEID
+description: Указывает значение свойства PidTagStoreEntryId раздел 2.1018 текущего пользователя не владельца папки. Область Configuration Каноническое имя PidTagWlinkAddressBookStoreEID Альтернативные имена PR_WLINK_AB_EXSTOREEID
 type: docs
 weight: 19380
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkaddressbookstoreeid/
 ---
 ## KnownPropertyList.WlinkAddressBookStoreEID field
 
-Указывает значение свойства PidTagStoreEntryId (раздел 2.1018) текущего пользователя (не владельца папки). Область:Конфигурация Каноническое имя:PidTagWlinkAddressBookStoreEID Альтернативные имена:PR_WLINK_AB_EXSTOREEID
+Указывает значение свойства PidTagStoreEntryId (раздел 2.1018) текущего пользователя (не владельца папки). Область: Configuration Каноническое имя: PidTagWlinkAddressBookStoreEID Альтернативные имена: PR_WLINK_AB_EXSTOREEID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkAddressBookStoreEID;

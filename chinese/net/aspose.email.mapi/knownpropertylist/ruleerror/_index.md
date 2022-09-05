@@ -1,14 +1,14 @@
 ---
 title: RuleError
 second_title: Aspose.Email for .NET API 参考
-description: 包含指示在执行规则期间遇到错误的原因的错误代码 区域ExchangeMessageReadOnly 规范名称PidTagRuleError 备用名称PR_RULE_ERROR ptagRuleError
+description: 包含指示在执行规则期间遇到错误的原因的错误代码 区域ExchangeMessageReadOnly 规范名称PidTagRuleError 备用名称PR_RULE_ERRORptagRuleError
 type: docs
 weight: 16470
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruleerror/
 ---
 ## KnownPropertyList.RuleError field
 
-包含指示在执行规则期间遇到错误的原因的错误代码。 区域:ExchangeMessageReadOnly 规范名称:PidTagRuleError 备用名称:PR_RULE_ERROR, ptagRuleError
+包含指示在执行规则期间遇到错误的原因的错误代码。 区域：ExchangeMessageReadOnly 规范名称：PidTagRuleError 备用名称：PR_RULE_ERROR、ptagRuleError
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleError;

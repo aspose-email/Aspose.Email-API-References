@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the occurrence of the recurrences days in each month in which the recurrence falls.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/position/

@@ -3,7 +3,7 @@ title: VCardSoundType
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 cVard 声音类型
 type: docs
-weight: 19710
+weight: 19760
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsoundtype/
 ---
 ## VCardSoundType enumeration
@@ -22,9 +22,9 @@ public enum VCardSoundType
 | WAVE | `1` | 波形格式 |
 | PCM | `2` | MIME 基本音频类型 |
 | AIFF | `3` | AIFF 格式 |
-| MPEG | `4` | mpeg 音频 |
+| MPEG | `4` | 一个 mpeg 音频 |
 | MP4 | `5` | mp4 音频 |
-| OGG | `6` | ogg 音频 |
+| OGG | `6` | 一个ogg音频 |
 | WMA | `7` | Windows 媒体音频 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ContentsSortOrder
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_CONTENTS_SORT_ORDER
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONTENTS_SORT_ORDER
 type: docs
 weight: 3260
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentssortorder/
 ---
 ## KnownPropertyList.ContentsSortOrder field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_CONTENTS_SORT_ORDER
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONTENTS_SORT_ORDER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentsSortOrder;

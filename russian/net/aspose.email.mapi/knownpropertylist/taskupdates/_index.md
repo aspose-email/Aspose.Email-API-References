@@ -1,14 +1,14 @@
 ---
 title: TaskUpdates
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивался ли у исполнителя задачи отправка обновления задачи при изменении назначенного объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskUpdates Альтернативные именаdispidTaskUpdates
+description: Указывает запрашивался ли у исполнителя задачи отправка обновления задачи при изменении назначенного объекта задачи. Область Tasks Каноническое имя PidLidTaskUpdates Альтернативные имена dispidTaskUpdates
 type: docs
 weight: 18850
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskupdates/
 ---
 ## KnownPropertyList.TaskUpdates field
 
-Указывает, запрашивался ли у исполнителя задачи отправка обновления задачи при изменении назначенного объекта Task. Область:Задачи Каноническое имя:PidLidTaskUpdates Альтернативные имена:dispidTaskUpdates
+Указывает, запрашивался ли у исполнителя задачи отправка обновления задачи при изменении назначенного объекта задачи. Область: Tasks Каноническое имя: PidLidTaskUpdates Альтернативные имена: dispidTaskUpdates
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskUpdates;

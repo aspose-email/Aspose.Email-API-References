@@ -1,7 +1,7 @@
 ---
 title: OptionalAttendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: OptionalAttendees header.
 type: docs
 weight: 100
 url: /net/aspose.email/mhttemplatename/optionalattendees/

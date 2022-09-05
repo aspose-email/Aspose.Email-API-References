@@ -1,7 +1,7 @@
 ---
 title: XSharingRemoteType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the same value as the PidLidSharingRemoteType property section 2.281. Area Sharing Canonical name PidNameXSharingRemoteType Alternate names
 type: docs
 weight: 19840
 url: /net/aspose.email.mapi/knownpropertylist/xsharingremotetype/

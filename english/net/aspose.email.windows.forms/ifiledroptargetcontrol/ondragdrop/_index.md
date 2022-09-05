@@ -1,7 +1,7 @@
 ---
 title: OnDragDrop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Raises the DragDrop event.
 type: docs
 weight: 30
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/ondragdrop/

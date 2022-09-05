@@ -18,7 +18,7 @@ public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions)() | Инициализирует новый экземпляр класса[`MsgSaveOptions`](../../aspose.email/msgsaveoptions) |
+| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions)() | Инициализирует новый экземпляр[`MsgSaveOptions`](../../aspose.email/msgsaveoptions) класс |
 
 ## Характеристики
 

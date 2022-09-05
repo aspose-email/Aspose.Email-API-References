@@ -1,7 +1,7 @@
 ---
 title: UserDomain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets Tenant Identity Information TII. Mandatory Yes
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activity/record/userdomain/

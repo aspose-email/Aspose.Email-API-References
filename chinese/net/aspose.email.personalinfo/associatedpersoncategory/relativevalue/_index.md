@@ -1,14 +1,14 @@
 ---
 title: RelativeValue
 second_title: Aspose.Email for .NET API 参考
-description: Relative 类别的字符串值
+description: 相对类别的字符串值
 type: docs
 weight: 340
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/relativevalue/
 ---
 ## AssociatedPersonCategory.RelativeValue field
 
-'Relative' 类别的字符串值
+“相对”类别的字符串值
 
 ```csharp
 public const string RelativeValue;

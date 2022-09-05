@@ -1,7 +1,7 @@
 ---
 title: SortSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether Sort command are supported
 type: docs
 weight: 270
 url: /net/aspose.email.clients.imap/imapclient/sortsupported/

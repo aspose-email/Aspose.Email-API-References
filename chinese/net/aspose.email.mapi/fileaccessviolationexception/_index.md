@@ -1,14 +1,14 @@
 ---
 title: FileAccessViolationException
 second_title: Aspose.Email for .NET API 参考
-description: 当文件打开并被另一个调用者锁定时将引发此异常
+description: 当文件被另一个调用者打开并锁定时将引发此异常
 type: docs
 weight: 17790
 url: /zh/net/aspose.email.mapi/fileaccessviolationexception/
 ---
 ## FileAccessViolationException class
 
-当文件打开并被另一个调用者锁定时，将引发此异常。
+当文件被另一个调用者打开并锁定时，将引发此异常。
 
 ```csharp
 public class FileAccessViolationException : IOException
@@ -20,7 +20,7 @@ public class FileAccessViolationException : IOException
 | --- | --- |
 | [FileAccessViolationException](fileaccessviolationexception#constructor)() | 使用默认错误消息初始化类的新实例。 |
 | [FileAccessViolationException](fileaccessviolationexception#constructor_1)(string) | 使用指定的错误消息初始化类的新实例。 |
-| [FileAccessViolationException](fileaccessviolationexception#constructor_2)(string, Exception) | 使用 指定错误消息和对内部 异常的引用初始化 Exception 类的新实例是此异常的原因。 |
+| [FileAccessViolationException](fileaccessviolationexception#constructor_2)(string, Exception) | 使用 指定的错误消息和对导致此异常的inner 异常的引用来初始化Exception 类的新实例。 |
 
 ### 也可以看看
 

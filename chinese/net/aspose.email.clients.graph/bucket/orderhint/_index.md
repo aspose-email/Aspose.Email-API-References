@@ -1,14 +1,14 @@
 ---
 title: OrderHint
 second_title: Aspose.Email for .NET API 参考
-description: 用于在列表视图中订购此类项目的提示格式定义如此处所述
+description: 用于在列表视图中订购此类项目的提示格式定义如下所述
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.graph/bucket/orderhint/
 ---
 ## Bucket.OrderHint property
 
-用于在列表视图中订购此类项目的提示。格式定义如此处所述。
+用于在列表视图中订购此类项目的提示。格式定义如下所述。
 
 ```csharp
 public string OrderHint { get; set; }

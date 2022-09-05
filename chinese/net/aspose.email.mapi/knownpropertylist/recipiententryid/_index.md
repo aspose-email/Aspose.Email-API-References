@@ -1,14 +1,14 @@
 ---
 title: RecipientEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 标识指定收件人的通讯簿对象 区域ID 属性 规范名称PidTagRecipientEntryId 备用名称PR_RECIPIENT_ENTRYID ptagRecipientEntryId
+description: 标识指定收件人的通讯簿对象 区域ID 属性 规范名称PidTagRecipientEntryId 备用名称PR_RECIPIENT_ENTRYIDptagRecipientEntryId
 type: docs
 weight: 15420
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipiententryid/
 ---
 ## KnownPropertyList.RecipientEntryId field
 
-标识指定收件人的通讯簿对象。 区域:ID 属性 规范名称:PidTagRecipientEntryId 备用名称:PR_RECIPIENT_ENTRYID, ptagRecipientEntryId
+标识指定收件人的通讯簿对象。 区域：ID 属性 规范名称：PidTagRecipientEntryId 备用名称：PR_RECIPIENT_ENTRYID、ptagRecipientEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientEntryId;

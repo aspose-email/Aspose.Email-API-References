@@ -1,14 +1,14 @@
 ---
 title: RetentionFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит флаги определяющие статус или характер тега хранения элемента или тега архива. ОбластьАрхив Каноническое имяPidTagRetentionFlags Альтернативные именаPR_RETENTION_FLAGS ptagRetentionFlags
+description: Содержит флаги определяющие статус или характер тега хранения элемента или тега архива. Область Archive Каноническое имя PidTagRetentionFlags Альтернативные имена PR_RETENTION_FLAGS ptagRetentionFlags
 type: docs
 weight: 16250
 url: /ru/net/aspose.email.mapi/knownpropertylist/retentionflags/
 ---
 ## KnownPropertyList.RetentionFlags field
 
-Содержит флаги, определяющие статус или характер тега хранения элемента или тега архива. Область:Архив Каноническое имя:PidTagRetentionFlags Альтернативные имена:PR_RETENTION_FLAGS, ptagRetentionFlags
+Содержит флаги, определяющие статус или характер тега хранения элемента или тега архива. Область: Archive Каноническое имя: PidTagRetentionFlags Альтернативные имена: PR_RETENTION_FLAGS, ptagRetentionFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RetentionFlags;

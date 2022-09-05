@@ -1,7 +1,7 @@
 ---
 title: MailEnablePublicFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mailenable a public folder
 type: docs
 weight: 1230
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/mailenablepublicfolder/

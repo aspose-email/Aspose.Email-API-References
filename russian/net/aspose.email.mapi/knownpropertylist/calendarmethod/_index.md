@@ -1,14 +1,14 @@
 ---
 title: CalendarMethod
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает метод iCalendar связанный с объектом встречи. ОбластьОбщие Каноническое имяPidNameCalendarMethod Альтернативные именаurnschemascalendarmethod
+description: Задает метод iCalendar связанный с объектом встречи. Область Common Каноническое имя PidNameCalendarMethod Альтернативные имена urnschemascalendarmethod
 type: docs
 weight: 2340
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarmethod/
 ---
 ## KnownPropertyList.CalendarMethod field
 
-Указывает метод iCalendar, связанный с объектом встречи. Область:Общие Каноническое имя:PidNameCalendarMethod Альтернативные имена:urn:schemas:calendar:method
+Задает метод iCalendar, связанный с объектом встречи. Область: Common Каноническое имя: PidNameCalendarMethod Альтернативные имена: urn:schemas:calendar:method
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarMethod;

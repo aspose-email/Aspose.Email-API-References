@@ -1,14 +1,14 @@
 ---
 title: MapiMessageReader
 second_title: Aspose.Email for .NET API 参考
-description: 为指定文件名初始化 MapiMessageReader 类的新实例
+description: 为指定的文件名初始化 MapiMessageReader 类的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapimessagereader/mapimessagereader/
 ---
 ## MapiMessageReader(string) {#constructor_1}
 
-为指定文件名初始化 MapiMessageReader 类的新实例。
+为指定的文件名初始化 MapiMessageReader 类的新实例。
 
 ```csharp
 public MapiMessageReader(string path)

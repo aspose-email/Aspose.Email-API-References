@@ -1,7 +1,7 @@
 ---
 title: Username
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the username.
 type: docs
 weight: 250
 url: /net/aspose.email.clients/emailclient/username/

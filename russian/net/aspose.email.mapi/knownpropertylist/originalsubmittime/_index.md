@@ -1,14 +1,14 @@
 ---
 title: OriginalSubmitTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время отправки исходного сообщения электронной почты в формате UTC. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSubmitTime Альтернативные именаPR_ORIGINAL_SUBMIT_TIME ptagOriginalSubmitTime
+description: Указывает дату и время отправки исходного сообщения электронной почты в формате UTC. Область Общие свойства сообщения Каноническое имя PidTagOriginalSubmitTime Альтернативные имена PR_ORIGINAL_SUBMIT_TIME ptagOriginalSubmitTime
 type: docs
 weight: 13790
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsubmittime/
 ---
 ## KnownPropertyList.OriginalSubmitTime field
 
-Указывает дату и время отправки исходного сообщения электронной почты в формате UTC. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSubmitTime Альтернативные имена:PR_ORIGINAL_SUBMIT_TIME, ptagOriginalSubmitTime,
+Указывает дату и время отправки исходного сообщения электронной почты в формате UTC. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSubmitTime Альтернативные имена: PR_ORIGINAL_SUBMIT_TIME, ptagOriginalSubmitTime,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSubmitTime;

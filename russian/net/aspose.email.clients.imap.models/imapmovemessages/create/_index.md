@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создать новый экземплярImapMoveMessagesaspose.email.clients.imap.models/imapmovemessages.
+description: Создать новыйImapMoveMessagesaspose.email.clients.imap.models/imapmovemessages экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapmovemessages/create/
 ---
 ## ImapMoveMessages.Create method
 
-Создать новый экземпляр[`ImapMoveMessages`](../../imapmovemessages).
+Создать новый[`ImapMoveMessages`](../../imapmovemessages) экземпляр.
 
 ```csharp
 public static ImapMoveMessages Create()

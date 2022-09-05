@@ -1,12 +1,12 @@
 ---
 title: CreateAlternateViewFromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a AlternateView of using the content specified in a string.
 type: docs
 weight: 20
 url: /net/aspose.email/alternateview/createalternateviewfromstring/
 ---
-## AlternateView.CreateAlternateViewFromString method (1 of 4)
+## CreateAlternateViewFromString(string) {#createalternateviewfromstring}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -30,7 +30,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (2 of 4)
+## CreateAlternateViewFromString(string, Encoding, string) {#createalternateviewfromstring_3}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -57,7 +57,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (3 of 4)
+## CreateAlternateViewFromString(string, ContentType) {#createalternateviewfromstring_1}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -83,7 +83,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (4 of 4)
+## CreateAlternateViewFromString(string, ContentType, TransferEncoding) {#createalternateviewfromstring_2}
 
 Creates a AlternateView of using the content specified in a string.
 

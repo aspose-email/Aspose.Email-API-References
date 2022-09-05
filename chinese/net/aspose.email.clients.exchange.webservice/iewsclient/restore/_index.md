@@ -17,7 +17,7 @@ public void Restore(PersonalStorage pst, RestoreSettings settings)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pst | PersonalStorage | 包含备份交换文件夹的个人存储。 |
-| settings | RestoreSettings | 恢复设置。 |
+| settings | RestoreSettings | 还原设置。 |
 
 ### 也可以看看
 

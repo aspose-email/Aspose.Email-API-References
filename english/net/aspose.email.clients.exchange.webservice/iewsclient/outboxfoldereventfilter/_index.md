@@ -1,7 +1,7 @@
 ---
 title: OutboxFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Outbox folder
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/outboxfoldereventfilter/

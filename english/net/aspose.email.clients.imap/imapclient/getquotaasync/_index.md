@@ -1,12 +1,12 @@
 ---
 title: GetQuotaAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets quota information
 type: docs
 weight: 760
 url: /net/aspose.email.clients.imap/imapclient/getquotaasync/
 ---
-## ImapClient.GetQuotaAsync method (1 of 4)
+## GetQuotaAsync(IConnection, string) {#getquotaasync}
 
 Gets quota information
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetQuotaAsync method (2 of 4)
+## GetQuotaAsync(string) {#getquotaasync_2}
 
 Gets quota information
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetQuotaAsync method (3 of 4)
+## GetQuotaAsync(IConnection, string, CancellationToken) {#getquotaasync_1}
 
 Gets quota information
 
@@ -87,7 +87,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetQuotaAsync method (4 of 4)
+## GetQuotaAsync(string, CancellationToken) {#getquotaasync_3}
 
 Gets quota information
 

@@ -1,7 +1,7 @@
 ---
 title: QuarantineOriginalSender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the original sender of a message. Area Common Canonical name PidNameQuarantineOriginalSender Alternate names
 type: docs
 weight: 15160
 url: /net/aspose.email.mapi/knownpropertylist/quarantineoriginalsender/

@@ -1,14 +1,14 @@
 ---
 title: IsAllOccurrences
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает True когда NthOccurrence равен нулю имеются в виду все вхождения в этот день недели.
+description: Возвращает True когда NthOccurrence равен нулю что означает все вхождения в этот день недели.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.calendar.recurrences/byday/isalloccurrences/
 ---
 ## ByDay.IsAllOccurrences property
 
-Возвращает True, когда NthOccurrence равен нулю (имеются в виду все вхождения в этот день недели).
+Возвращает True, когда NthOccurrence равен нулю (что означает все вхождения в этот день недели).
 
 ```csharp
 public bool IsAllOccurrences { get; }

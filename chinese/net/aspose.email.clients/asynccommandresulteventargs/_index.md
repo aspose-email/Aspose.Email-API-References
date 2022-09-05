@@ -18,16 +18,16 @@ public class AsyncCommandResultEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor)() | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类的新实例。 |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_1)(AsyncCommandResults) | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类的新实例。 |
-| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_2)(AsyncCommandResults, Exception) | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类的新实例。 |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor)() | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类. |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_1)(AsyncCommandResults) | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类. |
+| [AsyncCommandResultEventArgs](asynccommandresulteventargs#constructor_2)(AsyncCommandResults, Exception) | 初始化[`AsyncCommandResultEventArgs`](../asynccommandresulteventargs)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Error](../../aspose.email.clients/asynccommandresulteventargs/error) { get; } | 操作错误 |
-| [Result](../../aspose.email.clients/asynccommandresulteventargs/result) { get; } | 运行状态 |
+| [Result](../../aspose.email.clients/asynccommandresulteventargs/result) { get; } | 操作状态 |
 
 ### 也可以看看
 

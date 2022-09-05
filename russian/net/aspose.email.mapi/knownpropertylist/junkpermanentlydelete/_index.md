@@ -1,14 +1,14 @@
 ---
 title: JunkPermanentlyDelete
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает можно ли безвозвратно удалить сообщения идентифицированные как спам. ОбластьСпам Каноническое имяPidTagJunkPermanentlyDelete Альтернативные именаPR_JUNK_PERMANENTLY_DELETE
+description: Указывает можно ли удалить сообщения идентифицированные как спам без возможности восстановления. Область Spam Каноническое имя PidTagJunkPermanentlyDelete Альтернативные имена PR_JUNK_PERMANENTLY_DELETE
 type: docs
 weight: 11890
 url: /ru/net/aspose.email.mapi/knownpropertylist/junkpermanentlydelete/
 ---
 ## KnownPropertyList.JunkPermanentlyDelete field
 
-Указывает, можно ли безвозвратно удалить сообщения, идентифицированные как спам. Область:Спам Каноническое имя:PidTagJunkPermanentlyDelete Альтернативные имена:PR_JUNK_PERMANENTLY_DELETE
+Указывает, можно ли удалить сообщения, идентифицированные как спам, без возможности восстановления. Область: Spam Каноническое имя: PidTagJunkPermanentlyDelete Альтернативные имена: PR_JUNK_PERMANENTLY_DELETE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkPermanentlyDelete;

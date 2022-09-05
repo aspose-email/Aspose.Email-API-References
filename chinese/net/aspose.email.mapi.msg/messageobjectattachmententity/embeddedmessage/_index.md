@@ -1,14 +1,14 @@
 ---
 title: EmbeddedMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置嵌入式消息对象存储如果存在可以为空
+description: 获取或设置嵌入式消息对象存储如果存在可以为 null
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage/
 ---
 ## MessageObjectAttachmentEntity.EmbeddedMessage property
 
-获取或设置嵌入式消息对象存储（如果存在）。可以为空。
+获取或设置嵌入式消息对象存储（如果存在）。可以为 null。
 
 ```csharp
 public MessageObject EmbeddedMessage { get; set; }
@@ -16,11 +16,11 @@ public MessageObject EmbeddedMessage { get; set; }
 
 ### 适当的价值
 
-嵌入消息。
+嵌入的消息。
 
 ### 评论
 
-与[`CustomAttachmentStorageData`](../customattachmentstoragedata)互斥，或者两者都可以为空。
+与互斥[`CustomAttachmentStorageData`](../customattachmentstoragedata)或者两者都可以为空。
 
 ### 也可以看看
 

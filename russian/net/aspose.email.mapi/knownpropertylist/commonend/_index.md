@@ -1,14 +1,14 @@
 ---
 title: CommonEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает конечное время для объекта Message. ОбластьОбщие свойства сообщения Каноническое имяPidLidCommonEnd Альтернативные именаdispidCommonEnd
+description: Указывает время окончания объекта сообщения. Область Общие свойства сообщения Каноническое имя PidLidCommonEnd Альтернативные имена dispidCommonEnd
 type: docs
 weight: 2780
 url: /ru/net/aspose.email.mapi/knownpropertylist/commonend/
 ---
 ## KnownPropertyList.CommonEnd field
 
-Указывает конечное время для объекта Message. Область:Общие свойства сообщения Каноническое имя:PidLidCommonEnd Альтернативные имена:dispidCommonEnd
+Указывает время окончания объекта сообщения. Область: Общие свойства сообщения Каноническое имя: PidLidCommonEnd Альтернативные имена: dispidCommonEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CommonEnd;

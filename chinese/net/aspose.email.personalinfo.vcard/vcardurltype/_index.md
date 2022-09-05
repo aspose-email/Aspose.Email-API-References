@@ -3,7 +3,7 @@ title: VCardUrlType
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 url 类型
 type: docs
-weight: 19770
+weight: 19820
 url: /zh/net/aspose.email.personalinfo.vcard/vcardurltype/
 ---
 ## VCardUrlType enumeration
@@ -18,9 +18,9 @@ public enum VCardUrlType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未指定类型, |
+| None | `0` | 未指定类型， |
 | HOME | `1` | 网址的主页类型。 |
-| WORK | `2` | 网址的工作类型。 |
+| WORK | `2` | url 的工作类型。 |
 
 ### 也可以看看
 

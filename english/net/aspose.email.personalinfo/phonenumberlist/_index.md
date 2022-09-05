@@ -1,9 +1,9 @@
 ---
 title: PhoneNumberList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of phone numbers for a contact.
 type: docs
-weight: 19280
+weight: 19490
 url: /net/aspose.email.personalinfo/phonenumberlist/
 ---
 ## PhoneNumberList class

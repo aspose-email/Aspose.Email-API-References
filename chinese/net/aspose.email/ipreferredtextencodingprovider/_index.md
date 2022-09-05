@@ -1,14 +1,14 @@
 ---
 title: IPreferredTextEncodingProvider
 second_title: Aspose.Email for .NET API 参考
-description: 为可以定义 PreferredTextEncoding 的对象定义一个接口
+description: 为可以定义 PreferredTextEncoding 的对象定义接口
 type: docs
 weight: 17610
 url: /zh/net/aspose.email/ipreferredtextencodingprovider/
 ---
 ## IPreferredTextEncodingProvider interface
 
-为可以定义 PreferredTextEncoding 的对象定义一个接口。
+为可以定义 PreferredTextEncoding 的对象定义接口。
 
 ```csharp
 public interface IPreferredTextEncodingProvider

@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает свойства безопасности
+description: Получает или задает свойства безопасности
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/security/
 ---
 ## VCardContact.Security property
 
-Получает или устанавливает свойства безопасности
+Получает или задает свойства безопасности
 
 ```csharp
 public VCardSecurity Security { get; set; }

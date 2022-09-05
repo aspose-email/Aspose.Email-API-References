@@ -3,7 +3,7 @@ title: VCardTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 电话号码
 type: docs
-weight: 19720
+weight: 19770
 url: /zh/net/aspose.email.personalinfo.vcard/vcardtelephonenumber/
 ---
 ## VCardTelephoneNumber class
@@ -18,7 +18,7 @@ public sealed class VCardTelephoneNumber
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardTelephoneNumber](vcardtelephonenumber)() | 初始化 [`VCardTelephoneNumber`](../vcardtelephonenumber) 类的新实例 |
+| [VCardTelephoneNumber](vcardtelephonenumber)() | 初始化[`VCardTelephoneNumber`](../vcardtelephonenumber) class |
 
 ## 特性
 

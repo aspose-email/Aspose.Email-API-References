@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Importance header.
 type: docs
 weight: 80
 url: /net/aspose.email/mhttemplatename/importance/

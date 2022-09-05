@@ -16,7 +16,7 @@ public bool Remove(ImapMessageInfo item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | ImapMessageInfo | 要删除的 ImapMessageInfo 对象。 |
+| item | ImapMessageInfo | 要移除的 ImapMessageInfo 对象。 |
 
 ### 返回值
 

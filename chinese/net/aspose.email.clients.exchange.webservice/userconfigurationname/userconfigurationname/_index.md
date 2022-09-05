@@ -1,14 +1,14 @@
 ---
 title: UserConfigurationName
 second_title: Aspose.Email for .NET API 参考
-description: 初始化UserConfigurationNameaspose.email.clients.exchange.webservice/userconfigurationname类 的新实例
+description: 初始化UserConfigurationNameaspose.email.clients.exchange.webservice/userconfigurationname class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/userconfigurationname/userconfigurationname/
 ---
 ## UserConfigurationName constructor
 
-初始化[`UserConfigurationName`](../../userconfigurationname)类 的新实例
+初始化[`UserConfigurationName`](../../userconfigurationname) class
 
 ```csharp
 public UserConfigurationName(string name, string folderId)
@@ -23,7 +23,7 @@ public UserConfigurationName(string name, string folderId)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *name*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *name*是`无效的`或者`空的` |
 
 ### 也可以看看
 

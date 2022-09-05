@@ -1,14 +1,14 @@
 ---
 title: ByYearDay
 second_title: Aspose.Email for .NET API 参考
-description: 获取年份
+description: 获取按年的日期
 type: docs
 weight: 100
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/byyearday/
 ---
 ## RecurrenceRule.ByYearDay property
 
-获取年份。
+获取按年的日期。
 
 ```csharp
 public ByNumberCollection ByYearDay { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection ByYearDay { get; }
 
 ### 适当的价值
 
-按年。
+按年的一天。
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public enum LoginType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Other | `-1` | 其他 i 类型。 |
+| Other | `-1` | 其他类型。 |
 | InitialAuth | `1` | 使用初始身份验证登录 |
 | CookieCopy | `2` | 使用 cookie 登录。 |
 | SilentReAuth | `3` | 静默重新认证登录。 |

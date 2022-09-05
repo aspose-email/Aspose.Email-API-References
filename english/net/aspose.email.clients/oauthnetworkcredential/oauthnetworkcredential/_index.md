@@ -1,12 +1,12 @@
 ---
 title: OAuthNetworkCredential
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the OAuthNetworkCredentialaspose.email.clients/oauthnetworkcredential class
 type: docs
 weight: 10
 url: /net/aspose.email.clients/oauthnetworkcredential/oauthnetworkcredential/
 ---
-## OAuthNetworkCredential constructor (1 of 5)
+## OAuthNetworkCredential(string) {#constructor_2}
 
 Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
@@ -26,7 +26,7 @@ public OAuthNetworkCredential(string accessToken)
 
 ---
 
-## OAuthNetworkCredential constructor (2 of 5)
+## OAuthNetworkCredential(ITokenProvider) {#constructor_1}
 
 Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
@@ -47,17 +47,18 @@ public OAuthNetworkCredential(ITokenProvider tokenProvider)
 
 ---
 
-## OAuthNetworkCredential constructor (3 of 5)
+## OAuthNetworkCredential(IAsyncTokenProvider, string) {#constructor}
 
 Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
-public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider)
+public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tokenProvider | IAsyncTokenProvider | Token provider |
+| username | String | User name |
 
 ### See Also
 
@@ -68,7 +69,7 @@ public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider)
 
 ---
 
-## OAuthNetworkCredential constructor (4 of 5)
+## OAuthNetworkCredential(string, string) {#constructor_4}
 
 Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
@@ -89,7 +90,7 @@ public OAuthNetworkCredential(string userName, string accessToken)
 
 ---
 
-## OAuthNetworkCredential constructor (5 of 5)
+## OAuthNetworkCredential(string, ITokenProvider) {#constructor_3}
 
 Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 

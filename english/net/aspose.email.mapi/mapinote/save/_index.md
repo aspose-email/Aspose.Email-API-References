@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves this MapiNoteaspose.email.mapi/mapinote to the given stream using specified format.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapinote/save/
 ---
-## MapiNote.Save method (1 of 2)
+## Save(Stream, NoteSaveFormat) {#save}
 
 Saves this [`MapiNote`](../../mapinote) to the given stream using specified format.
 
@@ -36,7 +36,7 @@ public void Save(Stream stream, NoteSaveFormat saveFormat)
 
 ---
 
-## MapiNote.Save method (2 of 2)
+## Save(string, NoteSaveFormat) {#save_1}
 
 Saves this [`MapiNote`](../../mapinote) into file using specified format.
 

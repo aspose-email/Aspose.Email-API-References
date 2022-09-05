@@ -1,14 +1,14 @@
 ---
 title: Note
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置注释
+description: 获取或设置评论
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note/
 ---
 ## VCardExplanatoryInfo.Note property
 
-获取或设置注释
+获取或设置评论
 
 ```csharp
 public string Note { get; set; }

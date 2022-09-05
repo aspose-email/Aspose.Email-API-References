@@ -1,14 +1,14 @@
 ---
 title: Proxy
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает прокси для клиента
+description: Получает или устанавливает прокси для client
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients/emailclient/proxy/
 ---
 ## EmailClient.Proxy property
 
-Получает или устанавливает прокси для клиента
+Получает или устанавливает прокси для client
 
 ```csharp
 public virtual Proxy Proxy { get; set; }

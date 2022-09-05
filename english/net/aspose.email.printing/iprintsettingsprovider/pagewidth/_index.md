@@ -1,7 +1,7 @@
 ---
 title: PageWidth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the width of the page.
 type: docs
 weight: 110
 url: /net/aspose.email.printing/iprintsettingsprovider/pagewidth/

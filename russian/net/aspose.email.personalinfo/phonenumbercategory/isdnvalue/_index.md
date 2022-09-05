@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/phonenumbercategory/isdnvalue/
 ---
 ## PhoneNumberCategory.IsdnValue field
 
-Строковое значение для категории 'Isdn'
+Строковое значение для категории "Isdn"
 
 ```csharp
 public const string IsdnValue;

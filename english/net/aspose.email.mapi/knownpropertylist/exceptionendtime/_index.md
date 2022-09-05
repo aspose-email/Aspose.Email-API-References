@@ -1,7 +1,7 @@
 ---
 title: ExceptionEndTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the end date and time of the exception in the local time zone of the computer when the exception is created. Area MessageClassDefinedNonTransmittable Canonical name PidTagExceptionEndTime Alternate names PR_EXCEPTION_ENDTIME ptagExceptionEndTime
 type: docs
 weight: 9780
 url: /net/aspose.email.mapi/knownpropertylist/exceptionendtime/

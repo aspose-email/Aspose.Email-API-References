@@ -3,7 +3,7 @@ title: PhoneNumberList
 second_title: Aspose.Email for .NET API 参考
 description: 联系人的电话号码列表
 type: docs
-weight: 19450
+weight: 19480
 url: /zh/net/aspose.email.personalinfo/phonenumberlist/
 ---
 ## PhoneNumberList class
@@ -28,18 +28,18 @@ public class PhoneNumberList : IList<PhoneNumber>
 | [Callback](../../aspose.email.personalinfo/phonenumberlist/callback) { get; set; } | 默认回拨电话号码 |
 | [Car](../../aspose.email.personalinfo/phonenumberlist/car) { get; set; } | 默认车载电话号码 |
 | [Company](../../aspose.email.personalinfo/phonenumberlist/company) { get; set; } | 默认公司电话号码 |
-| [Count](../../aspose.email.personalinfo/phonenumberlist/count) { get; } | 获取ICollection中包含的元素数。 |
-| [Custom](../../aspose.email.personalinfo/phonenumberlist/custom) { get; set; } | 默认自定义电话类别 |
+| [Count](../../aspose.email.personalinfo/phonenumberlist/count) { get; } | 获取包含在ICollection. |
+| [Custom](../../aspose.email.personalinfo/phonenumberlist/custom) { get; set; } | 默认自定义手机类别 |
 | [Fax](../../aspose.email.personalinfo/phonenumberlist/fax) { get; set; } | 默认传真号码 |
 | [Home](../../aspose.email.personalinfo/phonenumberlist/home) { get; set; } | 默认家庭电话号码 |
 | [HomeFax](../../aspose.email.personalinfo/phonenumberlist/homefax) { get; set; } | 默认家庭传真号码 |
 | [Isdn](../../aspose.email.personalinfo/phonenumberlist/isdn) { get; set; } | 默认isdn电话号码 |
-| [IsReadOnly](../../aspose.email.personalinfo/phonenumberlist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
+| [IsReadOnly](../../aspose.email.personalinfo/phonenumberlist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
 | [Item](../../aspose.email.personalinfo/phonenumberlist/item) { get; set; } | 获取或设置指定索引处的元素。 |
 | [Mobile](../../aspose.email.personalinfo/phonenumberlist/mobile) { get; set; } | 默认手机号码 |
 | [Pager](../../aspose.email.personalinfo/phonenumberlist/pager) { get; set; } | 默认寻呼机号码 |
 | [Prefered](../../aspose.email.personalinfo/phonenumberlist/prefered) { get; set; } | 默认主要电话号码 |
-| [Radio](../../aspose.email.personalinfo/phonenumberlist/radio) { get; set; } | 默认无线电电话号码 |
+| [Radio](../../aspose.email.personalinfo/phonenumberlist/radio) { get; set; } | 默认无线电话号码 |
 | [Telex](../../aspose.email.personalinfo/phonenumberlist/telex) { get; set; } | 默认电传 |
 | [TtyTdd](../../aspose.email.personalinfo/phonenumberlist/ttytdd) { get; set; } | 默认 Tty/Tdd |
 | [Work](../../aspose.email.personalinfo/phonenumberlist/work) { get; set; } | 默认工作电话号码 |
@@ -55,7 +55,7 @@ public class PhoneNumberList : IList<PhoneNumber>
 | [CopyTo](../../aspose.email.personalinfo/phonenumberlist/copyto)(PhoneNumber[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/phonenumberlist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/phonenumberlist/indexof)(PhoneNumber) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/phonenumberlist/insert)(int, PhoneNumber) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/phonenumberlist/insert)(int, PhoneNumber) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/phonenumberlist/remove)(PhoneNumber) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/phonenumberlist/removeat)(int) | 删除指定索引处的列表项。 |
 

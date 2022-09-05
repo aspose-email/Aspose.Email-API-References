@@ -1,14 +1,14 @@
 ---
 title: Country
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название страны/региона почтового пользователя. ОбластьСвойства контакта Каноническое имяPidTagCountry Альтернативные именаPR_COUNTRY PR_COUNTRY_A PR_COUNTRY_W PR_BUSINESS_ADDRESS_COUNTRY PR_BUSINESS_ADDRESS_COUNTRY_A
+description: Содержит название страны/региона почтового пользователя. Область Свойства контакта Каноническое имя PidTagCountry Альтернативные имена PR_COUNTRY PR_COUNTRY_A PR_COUNTRY_W PR_BUSINESS_ADDRESS_COUNTRY PR_BUSINESS_ADDRESS_COUNTRY_x0d_
 type: docs
 weight: 3510
 url: /ru/net/aspose.email.mapi/knownpropertylist/country/
 ---
 ## KnownPropertyList.Country field
 
-Содержит название страны/региона почтового пользователя. Область:Свойства контакта Каноническое имя:PidTagCountry Альтернативные имена:PR_COUNTRY, PR_COUNTRY_A, PR_COUNTRY_W, PR_BUSINESS_ADDRESS_COUNTRY, PR_BUSINESS_ADDRESS_COUNTRY_A,
+Содержит название страны/региона почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagCountry Альтернативные имена: PR_COUNTRY, PR_COUNTRY_A, PR_COUNTRY_W, PR_BUSINESS_ADDRESS_COUNTRY, PR_BUSINESS_ADDRESS_COUNTRY_x0d_
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Country;

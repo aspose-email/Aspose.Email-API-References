@@ -1,14 +1,14 @@
 ---
 title: MessageLocaleId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор локали Windows конечного пользователя создавшего это сообщение. ОбластьПрочие свойства Каноническое имяPidTagMessageLocaleId Альтернативные именаPR_MESSAGE_LOCALE_ID
+description: Содержит идентификатор локали Windows конечного пользователя создавшего это сообщение. Область Прочие свойства Каноническое имя PidTagMessageLocaleId Альтернативные имена PR_MESSAGE_LOCALE_ID
 type: docs
 weight: 12550
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagelocaleid/
 ---
 ## KnownPropertyList.MessageLocaleId field
 
-Содержит идентификатор локали Windows конечного пользователя, создавшего это сообщение. Область:Прочие свойства Каноническое имя:PidTagMessageLocaleId Альтернативные имена:PR_MESSAGE_LOCALE_ID
+Содержит идентификатор локали Windows конечного пользователя, создавшего это сообщение. Область: Прочие свойства Каноническое имя: PidTagMessageLocaleId Альтернативные имена: PR_MESSAGE_LOCALE_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageLocaleId;

@@ -1,7 +1,7 @@
 ---
 title: SucceededSending
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds or removes subscriber for notifications about succeeded sending of mail messages. Please note notifications will be invoked from other threads so you should to implement thread safe event handler. Also note that this event is common to the mail client instance in case if the client is running in multiconnection mode messages from all connections will be processed through this event. So the customer has to analyze in his code message from events to understand which message relates to which operation.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.smtp/smtpclient/succeededsending/

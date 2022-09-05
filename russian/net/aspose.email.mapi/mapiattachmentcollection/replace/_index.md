@@ -16,15 +16,15 @@ public void Replace(int index, string name, MapiMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, который следует заменить. |
+| index | Int32 | Отсчитываемый от нуля индекс, на который следует заменить. |
 | name | String | Имя вложения. |
-| msg | MapiMessage | Объект[`MapiMessage`](../../mapimessage), представляющий прикрепленное сообщение. |
+| msg | MapiMessage | [`MapiMessage`](../../mapimessage)который представляет прикрепленное сообщение. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если сообщение пустое. |
+| ArgumentNullException | бросает, если сообщение равно null. |
 
 ### Смотрите также
 

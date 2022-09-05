@@ -1,14 +1,14 @@
 ---
 title: DisplayTo
 second_title: Aspose.Email for .NET API 参考
-description: 当电子邮件具有主要收件人时包含主要收件人显示名称的列表以分号分隔 区域消息属性 规范名称PidTagDisplayTo 替代名称PR_DISPLAY_TO PR_DISPLAY_TO_A ptagDisplayTo PR_DISPLAY_TO_W
+description: 包含主要收件人显示名称的列表以分号分隔当电子邮件具有主要收件人时 区域消息属性 规范名称PidTagDisplayTo 替代名称PR_DISPLAY_TOPR_DISPLAY_TO_AptagDisplayToPR_DISPLAY_TO_W
 type: docs
 weight: 4160
 url: /zh/net/aspose.email.mapi/knownpropertylist/displayto/
 ---
 ## KnownPropertyList.DisplayTo field
 
-当电子邮件具有主要收件人时，包含主要收件人显示名称的列表，以分号分隔。 区域:消息属性 规范名称:PidTagDisplayTo 替代名称:PR_DISPLAY_TO, PR_DISPLAY_TO_A, ptagDisplayTo, PR_DISPLAY_TO_W
+包含主要收件人显示名称的列表，以分号分隔，当电子邮件具有主要收件人时。 区域：消息属性 规范名称：PidTagDisplayTo 替代名称：PR_DISPLAY_TO、PR_DISPLAY_TO_A、ptagDisplayTo、PR_DISPLAY_TO_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayTo;

@@ -1,7 +1,7 @@
 ---
 title: IsBypassed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the proxy should not be used for the specified host.
 type: docs
 weight: 50
 url: /net/aspose.email.clients/httpproxy/isbypassed/

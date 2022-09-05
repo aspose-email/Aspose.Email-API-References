@@ -1,7 +1,7 @@
 ---
 title: ListTasksAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves lists of exchange tasks.
 type: docs
 weight: 500
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listtasksasync/

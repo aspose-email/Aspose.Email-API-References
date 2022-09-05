@@ -1,14 +1,14 @@
 ---
 title: SectionValue
 second_title: Aspose.Email for .NET API 参考
-description: 表示节的内容
+description: 代表部分的内容
 type: docs
 weight: 240
 url: /zh/net/aspose.email.amp/sectionvalue/
 ---
 ## SectionValue class
 
-表示节的内容。
+代表部分的内容。
 
 ```csharp
 public class SectionValue
@@ -18,7 +18,7 @@ public class SectionValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SectionValue](sectionvalue)(object) | 创建 SectionValue 的实例。 |
+| [SectionValue](sectionvalue)(object) | 创建 SectionValue. 的实例 |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class SectionValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ToAmpHtml](../../aspose.email.amp/sectionvalue/toamphtml)() | AmpHtml 表示部分值。 |
+| [ToAmpHtml](../../aspose.email.amp/sectionvalue/toamphtml)() | 部分值的 AmpHtml 表示。 |
 | [ToHtml](../../aspose.email.amp/sectionvalue/tohtml)() | 节值的 Html 表示。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Справочник по Aspose.Email для .NET API
-description: true если коллекция System.Collections.Generic.ICollection доступна только для чтения в противном случае ложно.
+description: true если коллекция System.Collections.Generic.ICollection доступна только для чтения в противном случае false.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/knownpropertylist/isreadonly/
 ---
 ## KnownPropertyList.IsReadOnly property
 
-true, если коллекция System.Collections.Generic.ICollection доступна только для чтения; в противном случае ложно.
+true, если коллекция System.Collections.Generic.ICollection доступна только для чтения; в противном случае false.
 
 ```csharp
 public bool IsReadOnly { get; }

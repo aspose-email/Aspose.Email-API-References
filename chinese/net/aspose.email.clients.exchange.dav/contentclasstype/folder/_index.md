@@ -1,14 +1,14 @@
 ---
 title: Folder
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesfolder 内容类 为 Exchange 存储中的文件夹定义一组属性
+description: 获取 urncontent-classesfolder 内容类 它为 Exchange 存储中的文件夹定义一组属性
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/folder/
 ---
 ## ContentClassType.Folder property
 
-获取 urn:content-classes:folder 内容类 为 Exchange 存储中的文件夹定义一组属性。
+获取 urn:content-classes:folder 内容类 ，它为 Exchange 存储中的文件夹定义一组属性。
 
 ```csharp
 public static ContentClassType Folder { get; }

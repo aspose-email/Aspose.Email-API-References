@@ -3,7 +3,7 @@ title: MapiPropertyTag
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет определение тегов свойств MAPI.
 type: docs
-weight: 18570
+weight: 18600
 url: /ru/net/aspose.email.mapi/mapipropertytag/
 ---
 ## MapiPropertyTag class
@@ -76,7 +76,7 @@ public static class MapiPropertyTag
 | static readonly [PR_ATTACHMENT_X400_PARAMETERS](../../aspose.email.mapi/mapipropertytag/pr_attachment_x400_parameters) |  |
 | static readonly [PR_ATTACH_ADDITIONAL_INFO](../../aspose.email.mapi/mapipropertytag/pr_attach_additional_info) |  |
 | static readonly [PR_ATTACH_CONTENT_ID](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id) | Содержит заголовок идентификации содержимого вложения сообщения MIME. Это свойство используется для поддержки MHTML. |
-| static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a) | Содержит заголовок идентификации содержимого вложения сообщения MIME. Это свойство используется для поддержки MHTML. Компиляция не в формате UNICODE. |
+| static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a) | Содержит заголовок идентификации содержимого вложения сообщения MIME. Это свойство используется для поддержки MHTML. Компиляция без UNICODE. |
 | static readonly [PR_ATTACH_CONTENT_ID_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_w) | Содержит заголовок идентификации содержимого вложения сообщения MIME. Это свойство используется для поддержки MHTML. Компиляция UNICODE. |
 | static readonly [PR_ATTACH_DATA_BIN](../../aspose.email.mapi/mapipropertytag/pr_attach_data_bin) |  |
 | static readonly [PR_ATTACH_DATA_OBJ](../../aspose.email.mapi/mapipropertytag/pr_attach_data_obj) |  |
@@ -125,9 +125,9 @@ public static class MapiPropertyTag
 | static readonly [PR_BODY](../../aspose.email.mapi/mapipropertytag/pr_body) |  |
 | static readonly [PR_BODY_A](../../aspose.email.mapi/mapipropertytag/pr_body_a) |  |
 | static readonly [PR_BODY_CRC](../../aspose.email.mapi/mapipropertytag/pr_body_crc) |  |
-| static readonly [PR_BODY_HTML](../../aspose.email.mapi/mapipropertytag/pr_body_html) | Содержит тело текста в кодировке языка гипертекстовой разметки (HTML). |
+| static readonly [PR_BODY_HTML](../../aspose.email.mapi/mapipropertytag/pr_body_html) | Содержит тело текста в кодировке языка разметки гипертекста (HTML). |
 | static readonly [PR_BODY_HTML_A](../../aspose.email.mapi/mapipropertytag/pr_body_html_a) | Содержит тело текста в кодировке HTML. Компиляция без UNICODE. |
-| static readonly [PR_BODY_HTML_W](../../aspose.email.mapi/mapipropertytag/pr_body_html_w) | Содержит тело текста в кодировке HTML. Компиляция ЮНИКОД. |
+| static readonly [PR_BODY_HTML_W](../../aspose.email.mapi/mapipropertytag/pr_body_html_w) | Содержит тело текста в кодировке HTML. Компиляция UNICODE. |
 | static readonly [PR_BODY_W](../../aspose.email.mapi/mapipropertytag/pr_body_w) |  |
 | static readonly [PR_BUSINESS2_TELEPHONE_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number) |  |
 | static readonly [PR_BUSINESS2_TELEPHONE_NUMBER_A](../../aspose.email.mapi/mapipropertytag/pr_business2_telephone_number_a) |  |
@@ -1161,7 +1161,7 @@ public static class MapiPropertyTag
 | static readonly [PR_END_DATE](../../aspose.email.mapi/mapipropertytag/pr_end_date) |  |
 | static readonly [PR_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_entryid) |  |
 | static readonly [PR_EVENTS_ROOT_FOLDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_events_root_folder_entryid) |  |
-| static readonly [PR_EXCEPTION_ENDTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_endtime) | Содержит дату и время окончания исключения в локальном часовом поясе компьютера на момент создания исключения. |
+| static readonly [PR_EXCEPTION_ENDTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_endtime) | Содержит дату и время окончания исключения в локальном часовом поясе компьютера при создании исключения. |
 | static readonly [PR_EXCEPTION_REPLACETIME](../../aspose.email.mapi/mapipropertytag/pr_exception_replacetime) | Указывает исходную дату и время в формате UTC, когда экземпляр в шаблоне повторения произошел бы, если бы он не был исключением. |
 | static readonly [PR_EXCEPTION_STARTTIME](../../aspose.email.mapi/mapipropertytag/pr_exception_starttime) | Содержит дату и время начала исключения в локальном часовом поясе компьютера при создании исключения. |
 | static readonly [PR_EXCESS_STORAGE_USED](../../aspose.email.mapi/mapipropertytag/pr_excess_storage_used) |  |
@@ -1177,8 +1177,8 @@ public static class MapiPropertyTag
 | static readonly [PR_FILTERING_HOOKS](../../aspose.email.mapi/mapipropertytag/pr_filtering_hooks) |  |
 | static readonly [PR_FINDER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_finder_entryid) |  |
 | static readonly [PR_FLAG_COMPLETE_TIME](../../aspose.email.mapi/mapipropertytag/pr_flag_complete_time) | Указывает дату и время по всемирному координированному времени (UTC), когда объект сообщения был помечен как завершенный. |
-| static readonly [PR_FLAG_ICON](../../aspose.email.mapi/mapipropertytag/pr_flag_icon) | Указывает значок флага объекта сообщения. |
-| static readonly [PR_FLAG_STATUS](../../aspose.email.mapi/mapipropertytag/pr_flag_status) | Указывает состояние флага объекта сообщения. |
+| static readonly [PR_FLAG_ICON](../../aspose.email.mapi/mapipropertytag/pr_flag_icon) | Определяет значок флага объекта сообщения. |
+| static readonly [PR_FLAG_STATUS](../../aspose.email.mapi/mapipropertytag/pr_flag_status) | Определяет состояние флага объекта сообщения. |
 | static readonly [PR_FOLDER_ASSOCIATED_CONTENTS](../../aspose.email.mapi/mapipropertytag/pr_folder_associated_contents) |  |
 | static readonly [PR_FOLDER_CHILD_COUNT](../../aspose.email.mapi/mapipropertytag/pr_folder_child_count) |  |
 | static readonly [PR_FOLDER_DESIGN_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_folder_design_flags) |  |
@@ -1374,7 +1374,7 @@ public static class MapiPropertyTag
 | static readonly [PR_LAST_MODIFIER_NAME](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name) |  |
 | static readonly [PR_LAST_MODIFIER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_a) |  |
 | static readonly [PR_LAST_MODIFIER_NAME_W](../../aspose.email.mapi/mapipropertytag/pr_last_modifier_name_w) |  |
-| static readonly [PR_LAST_VERB_EXECUTED](../../aspose.email.mapi/mapipropertytag/pr_last_verb_executed) | Определяет последнюю команду, выполненную для элемента сообщения, к которому он относится |
+| static readonly [PR_LAST_VERB_EXECUTED](../../aspose.email.mapi/mapipropertytag/pr_last_verb_executed) | Определяет последнюю команду, выполненную для элемента сообщения, с которым она связана |
 | static readonly [PR_LAST_VERB_EXECUTION_TIME](../../aspose.email.mapi/mapipropertytag/pr_last_verb_execution_time) | Содержит время выполнения последней команды. |
 | static readonly [PR_LATEST_DELIVERY_TIME](../../aspose.email.mapi/mapipropertytag/pr_latest_delivery_time) |  |
 | static readonly [PR_LOCALE_ID](../../aspose.email.mapi/mapipropertytag/pr_locale_id) |  |
@@ -1386,7 +1386,7 @@ public static class MapiPropertyTag
 | static readonly [PR_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_location_w) |  |
 | static readonly [PR_LONGTERM_ENTRYID_FROM_TABLE](../../aspose.email.mapi/mapipropertytag/pr_longterm_entryid_from_table) |  |
 | static readonly [PR_LTP_ROW_ID](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_id) | Идентификатор строки LTP. |
-| static readonly [PR_LTP_ROW_VER](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_ver) | LTP Row Ver. |
+| static readonly [PR_LTP_ROW_VER](../../aspose.email.mapi/mapipropertytag/pr_ltp_row_ver) | Строка LTP Вер. |
 | static readonly [PR_MAILBOX_OWNER_ENTRYID](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_entryid) |  |
 | static readonly [PR_MAILBOX_OWNER_NAME](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name) |  |
 | static readonly [PR_MAILBOX_OWNER_NAME_A](../../aspose.email.mapi/mapipropertytag/pr_mailbox_owner_name_a) |  |
@@ -1804,7 +1804,7 @@ public static class MapiPropertyTag
 | static readonly [PR_RECEIVE_FOLDER_SETTINGS](../../aspose.email.mapi/mapipropertytag/pr_receive_folder_settings) |  |
 | static readonly [PR_RECIPIENT_AUTORESPONSE_PROP_RESPONSE](../../aspose.email.mapi/mapipropertytag/pr_recipient_autoresponse_prop_response) |  |
 | static readonly [PR_RECIPIENT_CERTIFICATE](../../aspose.email.mapi/mapipropertytag/pr_recipient_certificate) |  |
-| static readonly [PR_RECIPIENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_recipient_flags) | Задает битовое поле, описывающее статус получателя. |
+| static readonly [PR_RECIPIENT_FLAGS](../../aspose.email.mapi/mapipropertytag/pr_recipient_flags) | Указывает битовое поле, описывающее статус получателя. |
 | static readonly [PR_RECIPIENT_NUMBER](../../aspose.email.mapi/mapipropertytag/pr_recipient_number) |  |
 | static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice) |  |
 | static readonly [PR_RECIPIENT_NUMBER_FOR_ADVICE_A](../../aspose.email.mapi/mapipropertytag/pr_recipient_number_for_advice_a) |  |

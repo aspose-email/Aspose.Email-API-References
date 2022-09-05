@@ -1,14 +1,14 @@
 ---
 title: LoadContactPhotoAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Загружает бинарные данные фото контакта
+description: Загружает бинарные данные фотографии контакта
 type: docs
 weight: 510
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/loadcontactphotoasync/
 ---
 ## IAsyncEwsClient.LoadContactPhotoAsync method
 
-Загружает бинарные данные фото контакта
+Загружает бинарные данные фотографии контакта
 
 ```csharp
 public Task LoadContactPhotoAsync(ContactPhoto photo, CancellationToken cancellationToken = default)
@@ -17,7 +17,7 @@ public Task LoadContactPhotoAsync(ContactPhoto photo, CancellationToken cancella
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | photo | ContactPhoto | фото контакта |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

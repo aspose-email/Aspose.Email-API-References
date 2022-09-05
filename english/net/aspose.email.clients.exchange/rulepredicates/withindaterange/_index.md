@@ -1,7 +1,7 @@
 ---
 title: WithinDateRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date range within which incoming messages have to have been received in order for the condition or exception to apply.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.exchange/rulepredicates/withindaterange/

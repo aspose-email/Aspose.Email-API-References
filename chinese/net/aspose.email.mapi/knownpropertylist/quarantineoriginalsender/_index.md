@@ -1,14 +1,14 @@
 ---
 title: QuarantineOriginalSender
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息的原始发件人 区域通用 规范名称PidNameQuarantineOriginalSender 备用名称
+description: 指定消息的原始发件人 区域Common 规范名称PidNameQuarantineOriginalSender 备用名称
 type: docs
 weight: 15160
 url: /zh/net/aspose.email.mapi/knownpropertylist/quarantineoriginalsender/
 ---
 ## KnownPropertyList.QuarantineOriginalSender field
 
-指定消息的原始发件人。 区域:通用 规范名称:PidNameQuarantineOriginalSender 备用名称:
+指定消息的原始发件人。 区域：Common 规范名称：PidNameQuarantineOriginalSender 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor QuarantineOriginalSender;

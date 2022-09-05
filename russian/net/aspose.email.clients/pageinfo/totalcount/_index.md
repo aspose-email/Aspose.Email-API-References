@@ -1,14 +1,14 @@
 ---
 title: TotalCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает общее количество элементов в поле зрения
+description: Получает общее количество элементов в view
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients/pageinfo/totalcount/
 ---
 ## PageInfo.TotalCount property
 
-Получает общее количество элементов в поле зрения
+Получает общее количество элементов в view
 
 ```csharp
 public int TotalCount { get; set; }

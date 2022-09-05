@@ -1,14 +1,14 @@
 ---
 title: AsposeNotSupportedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение которое возникает когда вызываемый метод или параметр не поддерживаются или при попытке чтения поиска или записи в поток который не поддерживает вызываемую функциональность.
+description: Исключение которое выдается когда вызываемый метод или параметр не поддерживаются или при попытке чтения поиска или записи в поток который не поддерживает вызванную функциональность.
 type: docs
 weight: 340
 url: /ru/net/aspose.email/asposenotsupportedexception/
 ---
 ## AsposeNotSupportedException class
 
-Исключение, которое возникает, когда вызываемый метод или параметр не поддерживаются, или при попытке чтения, поиска или записи в поток, который не поддерживает вызываемую функциональность.
+Исключение, которое выдается, когда вызываемый метод или параметр не поддерживаются, или при попытке чтения, поиска или записи в поток, который не поддерживает вызванную функциональность.
 
 ```csharp
 public class AsposeNotSupportedException : AsposeException
@@ -18,11 +18,11 @@ public class AsposeNotSupportedException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../asposenotsupportedexception). |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor)() | Инициализирует новый экземпляр[`AsposeNotSupportedException`](../asposenotsupportedexception) класс. |
 | [AsposeNotSupportedException](asposenotsupportedexception#constructor_1)(Exception) |  |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../asposenotsupportedexception)с указанным сообщением об ошибке. |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../asposenotsupportedexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)с указанным сообщением об ошибке. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeNotSupportedException`](../asposenotsupportedexception) класс с указанным сообщением об ошибке. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeNotSupportedException`](../asposenotsupportedexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке. |
 | [AsposeNotSupportedException](asposenotsupportedexception#constructor_5)(string, string) |  |
 
 ## Характеристики

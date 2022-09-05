@@ -1,7 +1,7 @@
 ---
 title: DeletedOn
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time in UTC when the item or folder was soft deleted. Area ExchangeFolder Canonical name PidTagDeletedOn Alternate names PR_DELETED_ON ptagDeletedOn urnschemashttpmaildeletedon
 type: docs
 weight: 3940
 url: /net/aspose.email.mapi/knownpropertylist/deletedon/

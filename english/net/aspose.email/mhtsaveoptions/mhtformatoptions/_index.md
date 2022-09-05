@@ -1,7 +1,7 @@
 ---
 title: MhtFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines additional options when saving in MHTML format. Default value is MhtFormatOptions.WriteHeader x7C MhtFormatOptions.WriteOutlineAttachments.
 type: docs
 weight: 30
 url: /net/aspose.email/mhtsaveoptions/mhtformatoptions/

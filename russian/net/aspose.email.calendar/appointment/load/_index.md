@@ -1,14 +1,44 @@
 ---
 title: Load
 second_title: Справочник по Aspose.Email для .NET API
-description: ЗагружаетAppointmentaspose.email.calendar/appointmentиз файла. Поддерживаемые форматы файловiCalendar  Путь к файлу. Представляет параметры загрузки встречиAppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions. A readAppointmentaspose.email.calendar/appointment.
+description: ЗагрузкиAppointmentaspose.email.calendar/appointment из файла. Поддерживаемые форматы файлов iCalendar
 type: docs
 weight: 20
 url: /ru/net/aspose.email.calendar/appointment/load/
 ---
+## Load(string) {#load_3}
+
+Загрузки[`Appointment`](../../appointment) из файла. Поддерживаемые форматы файлов: iCalendar
+
+```csharp
+public static Appointment Load(string filePath)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| filePath | String | Путь к файлу |
+
+### Возвращаемое значение
+
+чтение[`Appointment`](../../appointment)
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
+
+### Смотрите также
+
+* class [Appointment](../../appointment)
+* пространство имен [Aspose.Email.Calendar](../../appointment)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## Load(string, AppointmentLoadOptions) {#load_4}
 
-Загружает[`Appointment`](../../appointment)из файла. Поддерживаемые форматы файлов:iCalendar  Путь к файлу. Представляет параметры загрузки встречи[`AppointmentLoadOptions`](../../appointmentloadoptions). A read[`Appointment`](../../appointment).
+Загрузки[`Appointment`](../../appointment) из файла. Поддерживаемые форматы файлов: iCalendar Путь к файлу.Представляет параметры загрузки встречи[`AppointmentLoadOptions`](../../appointmentloadoptions). чтение[`Appointment`](../../appointment).
 
 ```csharp
 public static Appointment Load(string filePath, AppointmentLoadOptions options)
@@ -25,7 +55,7 @@ public static Appointment Load(string filePath, AppointmentLoadOptions options)
 
 ## Load(Stream) {#load}
 
-Загружает[`Appointment`](../../appointment)из потока
+Загрузки[`Appointment`](../../appointment) из потока
 
 ```csharp
 public static Appointment Load(Stream stream)
@@ -37,14 +67,14 @@ public static Appointment Load(Stream stream)
 
 ### Возвращаемое значение
 
-A read[`Appointment`](../../appointment)
+чтение[`Appointment`](../../appointment)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -56,7 +86,7 @@ A read[`Appointment`](../../appointment)
 
 ## Load(Stream, bool) {#load_2}
 
-Загружает[`Appointment`](../../appointment)из потока
+Загрузки[`Appointment`](../../appointment) из потока
 
 ```csharp
 public static Appointment Load(Stream stream, bool applyLocalTimeZone)
@@ -69,14 +99,14 @@ public static Appointment Load(Stream stream, bool applyLocalTimeZone)
 
 ### Возвращаемое значение
 
-A read[`Appointment`](../../appointment)
+чтение[`Appointment`](../../appointment)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -88,7 +118,7 @@ A read[`Appointment`](../../appointment)
 
 ## Load(Stream, AppointmentLoadOptions) {#load_1}
 
-Загружает[`Appointment`](../../appointment)из потока
+Загрузки[`Appointment`](../../appointment) из потока
 
 ```csharp
 public static Appointment Load(Stream stream, AppointmentLoadOptions options)
@@ -101,48 +131,18 @@ public static Appointment Load(Stream stream, AppointmentLoadOptions options)
 
 ### Возвращаемое значение
 
-A read[`Appointment`](../../appointment)
+чтение[`Appointment`](../../appointment)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
 * class [AppointmentLoadOptions](../../appointmentloadoptions)
-* class [Appointment](../../appointment)
-* пространство имен [Aspose.Email.Calendar](../../appointment)
-* сборка [Aspose.Email](../../../)
-
----
-
-## Load(string) {#load_3}
-
-Загружает[`Appointment`](../../appointment)из файла. Поддерживаемые форматы файлов:iCalendar
-
-```csharp
-public static Appointment Load(string filePath)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| filePath | String | Путь к файлу |
-
-### Возвращаемое значение
-
-A read[`Appointment`](../../appointment)
-
-### Исключения
-
-| исключение | условие |
-| --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
-
-### Смотрите также
-
 * class [Appointment](../../appointment)
 * пространство имен [Aspose.Email.Calendar](../../appointment)
 * сборка [Aspose.Email](../../../)

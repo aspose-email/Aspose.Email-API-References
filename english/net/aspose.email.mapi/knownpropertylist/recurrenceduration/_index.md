@@ -1,7 +1,7 @@
 ---
 title: RecurrenceDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the length in minutes of the appointment or meeting. Area Calendar Canonical name PidLidRecurrenceDuration Alternate names
 type: docs
 weight: 15580
 url: /net/aspose.email.mapi/knownpropertylist/recurrenceduration/

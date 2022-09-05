@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты конечного пользователя которому направляется уведомление о прочтении. ОбластьТранспортный конверт Каноническое имяPidTagReadReceiptEmailAddress Альтернативные именаptagReadReceiptEmailAddr ReadReceiptEmailAddress
+description: Содержит адрес электронной почты конечного пользователя которому направлено уведомление о прочтении. Область Transport Envelope Каноническое имя PidTagReadReceiptEmailAddress Альтернативные имена ptagReadReceiptEmailAddr ReadReceiptEmailAddress
 type: docs
 weight: 15200
 url: /ru/net/aspose.email.mapi/knownpropertylist/readreceiptemailaddress/
 ---
 ## KnownPropertyList.ReadReceiptEmailAddress field
 
-Содержит адрес электронной почты конечного пользователя, которому направляется уведомление о прочтении. Область:Транспортный конверт Каноническое имя:PidTagReadReceiptEmailAddress Альтернативные имена:ptagReadReceiptEmailAddr, ReadReceiptEmailAddress
+Содержит адрес электронной почты конечного пользователя, которому направлено уведомление о прочтении. Область: Transport Envelope Каноническое имя: PidTagReadReceiptEmailAddress Альтернативные имена: ptagReadReceiptEmailAddr, ReadReceiptEmailAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptEmailAddress;

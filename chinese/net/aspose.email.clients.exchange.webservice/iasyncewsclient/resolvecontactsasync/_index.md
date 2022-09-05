@@ -1,14 +1,14 @@
 ---
 title: ResolveContactsAsync
 second_title: Aspose.Email for .NET API 参考
-description: 解决不明确的电子邮件地址和显示名称 注意返回的联系人的最大计数为 100这是使用 EWS 操作的限制.
+description: 解决不明确的电子邮件地址和显示名称 注意返回的联系人的最大计数为 100这是使用 EWS 操作的限制
 type: docs
 weight: 580
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/resolvecontactsasync/
 ---
 ## IAsyncEwsClient.ResolveContactsAsync method
 
-解决不明确的电子邮件地址和显示名称 注意:返回的联系人的最大计数为 100。这是使用 EWS 操作的限制.
+解决不明确的电子邮件地址和显示名称 注意：返回的联系人的最大计数为 100。这是使用 EWS 操作的限制。
 
 ```csharp
 public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry, 
@@ -18,7 +18,7 @@ public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| unresolvedEntry | String | 要解析的联系人姓名 |
+| unresolvedEntry | String | 要解决的联系人姓名 |
 | options | ExchangeListContactsOptions | 枚举列表联系人选项 |
 | cancellationToken | CancellationToken | 取消令牌 |
 
@@ -30,7 +30,7 @@ public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*是`无效的`或者`空的` |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RuleActions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаRuleActionsaspose.email.clients.exchange/ruleactions
+description: Инициализирует новый экземплярRuleActionsaspose.email.clients.exchange/ruleactions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/ruleactions/ruleactions/
 ---
 ## RuleActions constructor
 
-Инициализирует новый экземпляр класса[`RuleActions`](../../ruleactions)
+Инициализирует новый экземпляр[`RuleActions`](../../ruleactions) класс
 
 ```csharp
 public RuleActions()

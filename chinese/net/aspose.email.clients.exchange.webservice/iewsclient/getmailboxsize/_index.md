@@ -16,7 +16,7 @@ public long GetMailboxSize()
 
 ### 返回值
 
-邮箱大小以字节为单位
+邮箱大小（以字节为单位）
 
 ### 也可以看看
 

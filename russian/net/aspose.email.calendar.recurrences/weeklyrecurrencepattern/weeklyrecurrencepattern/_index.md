@@ -1,14 +1,14 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаWeeklyRecurrencePatternaspose.email.calendar.recurrences/weeklyrecurrencepattern.
+description: Инициализирует новый экземплярWeeklyRecurrencePatternaspose.email.calendar.recurrences/weeklyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern(DateTime) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern).
+Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) класс.
 
 ```csharp
 public WeeklyRecurrencePattern(DateTime endDate)
@@ -28,7 +28,7 @@ public WeeklyRecurrencePattern(DateTime endDate)
 
 ## WeeklyRecurrencePattern(int) {#constructor}
 
-Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern).
+Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) класс.
 
 ```csharp
 public WeeklyRecurrencePattern(int occurs)
@@ -36,7 +36,7 @@ public WeeklyRecurrencePattern(int occurs)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| происходит | Int32 | Количество вхождений. |
+| occurs | Int32 | Количество вхождений. |
 
 ### Смотрите также
 
@@ -48,7 +48,7 @@ public WeeklyRecurrencePattern(int occurs)
 
 ## WeeklyRecurrencePattern(DateTime, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern).
+Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) класс.
 
 ```csharp
 public WeeklyRecurrencePattern(DateTime endDate, int interval)
@@ -69,7 +69,7 @@ public WeeklyRecurrencePattern(DateTime endDate, int interval)
 
 ## WeeklyRecurrencePattern(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern).
+Инициализирует новый экземпляр[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) класс.
 
 ```csharp
 public WeeklyRecurrencePattern(int occurs, int interval)
@@ -77,7 +77,7 @@ public WeeklyRecurrencePattern(int occurs, int interval)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| происходит | Int32 | Количество вхождений. |
+| occurs | Int32 | Количество вхождений. |
 | interval | Int32 | Количество единиц повторения. |
 
 ### Смотрите также

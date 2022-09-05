@@ -1,7 +1,7 @@
 ---
 title: RuleProviderData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains opaque data set by the client for the exclusive use of the client. Area ServerSide Rules Properties Canonical name PidTagRuleProviderData Alternate names PR_RULE_PROVIDER_DATA ptagRuleProviderData
 type: docs
 weight: 16610
 url: /net/aspose.email.mapi/knownpropertylist/ruleproviderdata/

@@ -1,12 +1,12 @@
 ---
 title: SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SmtpFailedRecipientExceptionaspose.email.clients.smtp/smtpfailedrecipientexception class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientexception/smtpfailedrecipientexception/
 ---
-## SmtpFailedRecipientException constructor (1 of 6)
+## SmtpFailedRecipientException() {#constructor}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
@@ -22,7 +22,7 @@ public SmtpFailedRecipientException()
 
 ---
 
-## SmtpFailedRecipientException constructor (2 of 6)
+## SmtpFailedRecipientException(string) {#constructor_3}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
@@ -42,7 +42,7 @@ public SmtpFailedRecipientException(string message)
 
 ---
 
-## SmtpFailedRecipientException constructor (3 of 6)
+## SmtpFailedRecipientException(string, Exception) {#constructor_4}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
@@ -63,7 +63,7 @@ public SmtpFailedRecipientException(string message, Exception innerException)
 
 ---
 
-## SmtpFailedRecipientException constructor (4 of 6)
+## SmtpFailedRecipientException(SmtpStatusCode, string) {#constructor_1}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
@@ -85,7 +85,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ---
 
-## SmtpFailedRecipientException constructor (5 of 6)
+## SmtpFailedRecipientException(SmtpStatusCode, string, string) {#constructor_2}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
@@ -109,7 +109,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ---
 
-## SmtpFailedRecipientException constructor (6 of 6)
+## SmtpFailedRecipientException(string, string, Exception) {#constructor_5}
 
 Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 

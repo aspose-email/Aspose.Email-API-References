@@ -17,9 +17,9 @@ public Task MarkAllItemsAsync(IEnumerable<string> folderIds = null, bool read = 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| read | IEnumerable`1 | 将指定文件夹中的消息设置为已读/未读状态。 True 将文件夹中的消息标记为已读。 False 将消息标记为未读。 |
+| read | IEnumerable`1 | 将指定文件夹中的邮件设置为已读/未读状态。 True 将文件夹中的邮件标记为已读。 False 将消息标记为未读。 |
 | suppressReadReceipts | Boolean | True 禁止发送消息的已读回执；否则为假。 |
-| folderIds | Boolean | 待处理的文件夹 URI 列表。默认设置为收件箱 URI。 |
+| folderIds | Boolean | 用于处理的文件夹 URI 列表。默认设置为收件箱 URI。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 也可以看看

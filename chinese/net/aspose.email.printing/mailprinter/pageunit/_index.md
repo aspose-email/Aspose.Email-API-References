@@ -16,7 +16,7 @@ public PrinterUnit PageUnit { get; set; }
 
 ### 适当的价值
 
-页面单元。
+页单位。
 
 ### 例外
 

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置已命名的属性的名称
+description: 获取或设置属性的名称如果已命名
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/name/
 ---
 ## MessageObjectProperty.Name property
 
-获取或设置已命名的属性的名称。
+获取或设置属性的名称（如果已命名）。
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### 适当的价值
 
-名称。
+名字。
 
 ### 也可以看看
 

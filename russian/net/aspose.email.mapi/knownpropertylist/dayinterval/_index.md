@@ -1,14 +1,14 @@
 ---
 title: DayInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует дневной интервал для шаблона повторения. ОбластьВстречи Каноническое имяPidLidDayInterval Альтернативные именаLID_DAY_INTERVAL
+description: Определяет дневной интервал для шаблона повторения. Область Meetings Каноническое имя PidLidDayInterval Альтернативные имена LID_DAY_INTERVAL
 type: docs
 weight: 3690
 url: /ru/net/aspose.email.mapi/knownpropertylist/dayinterval/
 ---
 ## KnownPropertyList.DayInterval field
 
-Идентифицирует дневной интервал для шаблона повторения. Область:Встречи Каноническое имя:PidLidDayInterval Альтернативные имена:LID_DAY_INTERVAL
+Определяет дневной интервал для шаблона повторения. Область: Meetings Каноническое имя: PidLidDayInterval Альтернативные имена: LID_DAY_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayInterval;

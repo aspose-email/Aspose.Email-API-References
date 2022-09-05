@@ -1,14 +1,14 @@
 ---
 title: GetCurrency
 second_title: Aspose.Email for .NET API 参考
-description: 使用指定的代码页以字符串形式获取货币
+description: 使用指定的代码页获取货币字符串
 type: docs
 weight: 160
 url: /zh/net/aspose.email.mapi/mapiproperty/getcurrency/
 ---
 ## MapiProperty.GetCurrency method
 
-使用指定的代码页以字符串形式获取货币。
+使用指定的代码页获取货币字符串。
 
 ```csharp
 public virtual decimal GetCurrency()
@@ -16,7 +16,7 @@ public virtual decimal GetCurrency()
 
 ### 返回值
 
-字符串包含二进制数据。
+一个字符串包含二进制数据。
 
 ### 也可以看看
 

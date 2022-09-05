@@ -1,14 +1,14 @@
 ---
 title: AccountName
 second_title: Aspose.Email for .NET API 参考
-description: 指定给定帐户的友好名称 AccountName 值是一个最长为 512 个字符的字符串值 协议版本为 12.1 或 14.0 时不支持 AccountName
+description: 指定给定帐户的友好名称 AccountName 值是长度最多为 512 个字符的字符串值 当协议版本为 12.1 或 14.0 时不支持 AccountName
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/accountinformation/accountname/
 ---
 ## AccountInformation.AccountName property
 
-指定给定帐户的友好名称。 AccountName 值是一个最长为 512 个字符的字符串值。 协议版本为 12.1 或 14.0 时不支持 AccountName。
+指定给定帐户的友好名称。 AccountName 值是长度最多为 512 个字符的字符串值。 当协议版本为 12.1 或 14.0 时，不支持 AccountName。
 
 ```csharp
 public string AccountName { get; set; }

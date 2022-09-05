@@ -1,9 +1,9 @@
 ---
 title: MessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents collection of GraphMessageInfo.
 type: docs
-weight: 15980
+weight: 16000
 url: /net/aspose.email.clients.graph/messageinfocollection/
 ---
 ## MessageInfoCollection class

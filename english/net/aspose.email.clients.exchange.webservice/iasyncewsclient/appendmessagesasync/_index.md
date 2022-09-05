@@ -1,7 +1,7 @@
 ---
 title: AppendMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads mail messages to the specified folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync/

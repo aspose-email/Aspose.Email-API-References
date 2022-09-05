@@ -1,14 +1,14 @@
 ---
 title: DayInterval
 second_title: Aspose.Email for .NET API 参考
-description: 标识重复模式的天间隔 区域会议 规范名称PidLidDayInterval 别名LID_DAY_INTERVAL
+description: 标识重复模式的天间隔 区域Meetings 规范名称PidLidDayInterval 替代名称LID_DAY_INTERVAL
 type: docs
 weight: 3690
 url: /zh/net/aspose.email.mapi/knownpropertylist/dayinterval/
 ---
 ## KnownPropertyList.DayInterval field
 
-标识重复模式的天间隔。 区域:会议 规范名称:PidLidDayInterval 别名:LID_DAY_INTERVAL
+标识重复模式的天间隔。 区域：Meetings 规范名称：PidLidDayInterval 替代名称：LID_DAY_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayInterval;

@@ -1,14 +1,14 @@
 ---
 title: Append
 second_title: Aspose.Email for .NET API 参考
-description: 将日志条目附加到 NullAppender
+description: 将日志条目附加到 NullAppender.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.logging/nullappender/append/
 ---
 ## NullAppender.Append method
 
-将日志条目附加到 NullAppender。
+将日志条目附加到 NullAppender.
 
 ```csharp
 public override void Append(LogEntry entry)
@@ -16,7 +16,7 @@ public override void Append(LogEntry entry)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entry | LogEntry | 需要记录的条目。 |
+| entry | LogEntry | 该条目需要登录。 |
 
 ### 也可以看看
 

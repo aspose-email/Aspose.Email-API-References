@@ -19,7 +19,7 @@ public enum MIMESupport
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NeverSend | `0` | 从不发送 MIME 数据。 |
-| SendForSecureMIMEonly | `1` | 仅发送 S/MIME 消息的 MIME 数据。为所有其他消息发送常规正文。 |
+| SendForSecureMIMEonly | `1` | 仅为 S/MIME 消息发送 MIME 数据。发送所有其他消息的常规正文。 |
 | SendForAll | `2` | 发送所有消息的 MIME 数据。客户可以使用此标志来构建更丰富和完整的收件箱解决方案。 |
 
 ### 也可以看看

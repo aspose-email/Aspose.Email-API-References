@@ -1,12 +1,12 @@
 ---
 title: ListCalendars
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets array of calendars.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.google/igmailclient/listcalendars/
 ---
-## IGmailClient.ListCalendars method (1 of 2)
+## ListCalendars() {#listcalendars}
 
 Gets array of calendars.
 
@@ -27,7 +27,7 @@ Returns array of calendars.
 
 ---
 
-## IGmailClient.ListCalendars method (2 of 2)
+## ListCalendars(AccessRole, bool) {#listcalendars_1}
 
 Gets array of calendars.
 

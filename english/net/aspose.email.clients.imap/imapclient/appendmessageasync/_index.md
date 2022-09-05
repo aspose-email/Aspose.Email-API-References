@@ -1,12 +1,12 @@
 ---
 title: AppendMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the current folder If current folder hasnt been specified default folder is used.
 type: docs
 weight: 370
 url: /net/aspose.email.clients.imap/imapclient/appendmessageasync/
 ---
-## ImapClient.AppendMessageAsync method (1 of 16)
+## AppendMessageAsync(IConnection, MailMessage) {#appendmessageasync}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (2 of 16)
+## AppendMessageAsync(IConnection, string, MailMessage) {#appendmessageasync_3}
 
 Uploads the mail message to the specified folder
 
@@ -62,7 +62,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (3 of 16)
+## AppendMessageAsync(IConnection, string) {#appendmessageasync_2}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -88,7 +88,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (4 of 16)
+## AppendMessageAsync(IConnection, string, string) {#appendmessageasync_5}
 
 Uploads the mail message to the specified folder
 
@@ -115,7 +115,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (5 of 16)
+## AppendMessageAsync(MailMessage) {#appendmessageasync_8}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -140,7 +140,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (6 of 16)
+## AppendMessageAsync(string, MailMessage) {#appendmessageasync_11}
 
 Uploads the mail message to the specified folder
 
@@ -166,7 +166,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (7 of 16)
+## AppendMessageAsync(string) {#appendmessageasync_10}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -190,7 +190,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (8 of 16)
+## AppendMessageAsync(string, string) {#appendmessageasync_13}
 
 Uploads the mail message to the specified folder
 
@@ -215,7 +215,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (9 of 16)
+## AppendMessageAsync(IConnection, MailMessage, CancellationToken) {#appendmessageasync_1}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -244,7 +244,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (10 of 16)
+## AppendMessageAsync(IConnection, string, MailMessage, CancellationToken) {#appendmessageasync_4}
 
 Uploads the mail message to the specified folder
 
@@ -274,7 +274,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (11 of 16)
+## AppendMessageAsync(IConnection, string, CancellationToken) {#appendmessageasync_7}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -302,7 +302,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (12 of 16)
+## AppendMessageAsync(IConnection, string, string, CancellationToken) {#appendmessageasync_6}
 
 Uploads the mail message to the specified folder
 
@@ -331,7 +331,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (13 of 16)
+## AppendMessageAsync(MailMessage, CancellationToken) {#appendmessageasync_9}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -357,7 +357,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (14 of 16)
+## AppendMessageAsync(string, MailMessage, CancellationToken) {#appendmessageasync_12}
 
 Uploads the mail message to the specified folder
 
@@ -385,7 +385,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (15 of 16)
+## AppendMessageAsync(string, CancellationToken) {#appendmessageasync_15}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -410,7 +410,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.AppendMessageAsync method (16 of 16)
+## AppendMessageAsync(string, string, CancellationToken) {#appendmessageasync_14}
 
 Uploads the mail message to the specified folder
 

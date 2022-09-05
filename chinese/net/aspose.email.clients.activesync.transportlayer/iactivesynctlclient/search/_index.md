@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: Aspose.Email for .NET API 参考
-description: 搜索用于查找地址簿邮箱或文档库UNC 或 Windows SharePoint Services中的条目
+description: 搜索用于在地址簿邮箱或文档库UNC 或 Windows SharePoint Services中查找条目
 type: docs
 weight: 190
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/search/
 ---
 ## IActiveSyncTLClient.Search method
 
-搜索用于查找地址簿、邮箱或文档库（UNC 或 Windows SharePoint Services）中的条目。
+搜索用于在地址簿、邮箱或文档库（UNC 或 Windows SharePoint Services）中查找条目。
 
 ```csharp
 public SearchResponse Search(SearchRequest request)

@@ -1,14 +1,14 @@
 ---
 title: AutoFillLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает установлено ли значение свойства PidLidLocation раздел 2.159 для свойства PidTagDisplayName раздел 2.667. ОбластьВстречи Каноническое имяPidLidAutoFillLocation Альтернативные именаdispidAutoFillLocation
+description: Указывает установлено ли значение свойства PidLidLocation раздел 2.159 для свойства PidTagDisplayName раздел 2.667. Область Meetings Каноническое имя PidLidAutoFillLocation Альтернативные имена dispidAutoFillLocation
 type: docs
 weight: 1890
 url: /ru/net/aspose.email.mapi/knownpropertylist/autofilllocation/
 ---
 ## KnownPropertyList.AutoFillLocation field
 
-Указывает, установлено ли значение свойства PidLidLocation (раздел 2.159) для свойства PidTagDisplayName (раздел 2.667). Область:Встречи Каноническое имя:PidLidAutoFillLocation Альтернативные имена:dispidAutoFillLocation
+Указывает, установлено ли значение свойства PidLidLocation (раздел 2.159) для свойства PidTagDisplayName (раздел 2.667). Область: Meetings Каноническое имя: PidLidAutoFillLocation Альтернативные имена: dispidAutoFillLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoFillLocation;

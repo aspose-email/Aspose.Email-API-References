@@ -1,14 +1,14 @@
 ---
 title: NonSendableCc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список всех неотправляемых участников которые также являются необязательными участниками. ОбластьВстречи Каноническое имяPidLidNonSendableCc Альтернативные именаdispidNonSendableCC
+description: Содержит список всех неотправляемых участников которые также являются необязательными участниками. Область Meetings Каноническое имя PidLidNonSendableCc Альтернативные имена dispidNonSendableCC
 type: docs
 weight: 13020
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonsendablecc/
 ---
 ## KnownPropertyList.NonSendableCc field
 
-Содержит список всех неотправляемых участников, которые также являются необязательными участниками. Область:Встречи Каноническое имя:PidLidNonSendableCc Альтернативные имена:dispidNonSendableCC
+Содержит список всех неотправляемых участников, которые также являются необязательными участниками. Область: Meetings Каноническое имя: PidLidNonSendableCc Альтернативные имена: dispidNonSendableCC
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendableCc;

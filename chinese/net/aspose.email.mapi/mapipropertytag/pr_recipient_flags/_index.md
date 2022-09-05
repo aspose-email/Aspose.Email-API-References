@@ -1,14 +1,14 @@
 ---
 title: PR_RECIPIENT_FLAGS
 second_title: Aspose.Email for .NET API 参考
-description: 指定描述接收者状态的位域
+description: 指定描述收件人状态的位字段
 type: docs
 weight: 17810
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_recipient_flags/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_FLAGS field
 
-指定描述接收者状态的位域。
+指定描述收件人状态的位字段。
 
 ```csharp
 public static readonly long PR_RECIPIENT_FLAGS;

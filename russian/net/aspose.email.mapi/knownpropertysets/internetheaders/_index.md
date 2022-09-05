@@ -1,14 +1,14 @@
 ---
 title: InternetHeaders
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиЭлектронная почта Имя набора свойствPS_INTERNET_HEADERS
+description: Имя области Электронная почта Имя набора свойств PS_INTERNET_HEADERS
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/knownpropertysets/internetheaders/
 ---
 ## KnownPropertySets.InternetHeaders field
 
-Имя области:Электронная почта Имя набора свойств:PS_INTERNET_HEADERS
+Имя области: Электронная почта Имя набора свойств: PS_INTERNET_HEADERS
 
 ```csharp
 public static readonly Guid InternetHeaders;

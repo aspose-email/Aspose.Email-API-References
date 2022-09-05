@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.google/extendedcalendar/accessrole/
 ---
 ## ExtendedCalendar.AccessRole property
 
-认证用户在日历上的有效访问角色。只读。可能的值为:
+认证用户在日历上的有效访问角色。只读。可能的值为：
 
 ```csharp
 public virtual AccessRole AccessRole { get; }

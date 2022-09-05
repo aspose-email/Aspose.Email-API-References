@@ -1,14 +1,14 @@
 ---
 title: EwsAppendMessage
 second_title: Aspose.Email for .NET API 参考
-description: 表示EwsAppendMessage参数
+description: 代表AppendMessagesAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync参数.
 type: docs
 weight: 4040
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/
 ---
 ## EwsAppendMessage class
 
-表示EwsAppendMessage）参数。
+代表[`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync)参数.
 
 ```csharp
 public class EwsAppendMessage
@@ -18,13 +18,13 @@ public class EwsAppendMessage
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/create)() | 创建[`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync)方法的参数集。 |
-| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage)(MailMessage) | 添加要附加的邮件消息。 |
-| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage_1)(MapiMessage) | 添加要附加的 MAPI 消息。 |
-| [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages#addmessages)(IEnumerable&lt;MailMessage&gt;) | 添加要附加的邮件列表。 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/create)() | 创建[`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync)方法的参数集. |
+| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage)(MailMessage) | 添加邮件消息以追加。 |
+| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage_1)(MapiMessage) | 将 MAPI 消息添加到 append. |
+| [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages#addmessages)(IEnumerable&lt;MailMessage&gt;) | 添加要附加的邮件消息列表。 |
 | [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages#addmessages_1)(IEnumerable&lt;MapiMessage&gt;) | 添加要附加的 MAPI 消息列表。 |
 | [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setcancellationtoken)(CancellationToken) | 设置取消令牌。 |
-| [SetFolder](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder)(string) | 上传消息的文件夹。 |
+| [SetFolder](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder)(string) | 消息上传到的文件夹。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LogStart
 second_title: Aspose.Email for .NET API 参考
-description: 包含活动开始的时间UTC 时间 区域日志 规范名称PidLidLogStart 替代名称dispidLogStart
+description: 包含活动开始的时间以 UTC 为单位 区域Journal 规范名称PidLidLogStart 替代名称dispidLogStart
 type: docs
 weight: 12280
 url: /zh/net/aspose.email.mapi/knownpropertylist/logstart/
 ---
 ## KnownPropertyList.LogStart field
 
-包含活动开始的时间（UTC 时间）。 区域:日志 规范名称:PidLidLogStart 替代名称:dispidLogStart
+包含活动开始的时间（以 UTC 为单位）。 区域：Journal 规范名称：PidLidLogStart 替代名称：dispidLogStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogStart;

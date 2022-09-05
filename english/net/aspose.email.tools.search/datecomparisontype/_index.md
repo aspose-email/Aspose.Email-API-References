@@ -1,9 +1,9 @@
 ---
 title: DateComparisonType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a type of comparison
 type: docs
-weight: 20470
+weight: 20700
 url: /net/aspose.email.tools.search/datecomparisontype/
 ---
 ## DateComparisonType enumeration

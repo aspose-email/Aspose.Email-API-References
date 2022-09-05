@@ -37,7 +37,7 @@ public Appointment[] ListAppointments(string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
+| folderUri | String | Папка для поиска встреч. |
 
 ### Возвращаемое значение
 
@@ -62,8 +62,8 @@ public Appointment[] ListAppointments(string folderUri, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| recursive | Boolean | Указывает, рекурсивный список или нет. |
+| folderUri | String | Папка для поиска встреч. |
+| recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
 
@@ -113,7 +113,7 @@ public Appointment[] ListAppointments(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 
 ### Возвращаемое значение
 
@@ -139,8 +139,8 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 
 ### Возвращаемое значение
 
@@ -166,7 +166,7 @@ public Appointment[] ListAppointments(MailQuery query, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
@@ -193,8 +193,8 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query, bool re
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение

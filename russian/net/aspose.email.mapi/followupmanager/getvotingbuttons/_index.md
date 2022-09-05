@@ -1,14 +1,14 @@
 ---
 title: GetVotingButtons
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить доступные кнопки голосования сообщений.
+description: Получить доступные кнопки голосования сообщениями.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/followupmanager/getvotingbuttons/
 ---
 ## FollowUpManager.GetVotingButtons method
 
-Получить доступные кнопки голосования сообщений.
+Получить доступные кнопки голосования сообщениями.
 
 ```csharp
 public static string[] GetVotingButtons(MapiMessage message)
@@ -16,7 +16,7 @@ public static string[] GetVotingButtons(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором добавлены кнопки. |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором добавлены кнопки. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public static string[] GetVotingButtons(MapiMessage message)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

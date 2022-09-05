@@ -1,14 +1,14 @@
 ---
 title: TasksFolderPermissionLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает разрешения которые делегированный пользователь имеет в папке задач по умолчанию
+description: Получает или задает разрешения которые делегированный пользователь имеет в папке Tasks по умолчанию
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/tasksfolderpermissionlevel/
 ---
 ## ExchangeDelegatePermissions.TasksFolderPermissionLevel property
 
-Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке задач по умолчанию
+Получает или задает разрешения, которые делегированный пользователь имеет в папке Tasks по умолчанию
 
 ```csharp
 public ExchangeDelegateFolderPermissionLevel TasksFolderPermissionLevel { get; set; }

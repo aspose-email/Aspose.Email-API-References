@@ -1,14 +1,14 @@
 ---
 title: IpmContactEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки Контакты. ОбластьСвойства папки Каноническое имяPidTagIpmContactEntryId Альтернативные именаPR_IPM_CONTACT_ENTRYID
+description: Содержит EntryID папки Контакты. Область Свойства папки Каноническое имя PidTagIpmContactEntryId Альтернативные имена PR_IPM_CONTACT_ENTRYID
 type: docs
 weight: 11620
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmcontactentryid/
 ---
 ## KnownPropertyList.IpmContactEntryId field
 
-Содержит EntryID папки "Контакты". Область:Свойства папки Каноническое имя:PidTagIpmContactEntryId Альтернативные имена:PR_IPM_CONTACT_ENTRYID
+Содержит EntryID папки "Контакты". Область: Свойства папки Каноническое имя: PidTagIpmContactEntryId Альтернативные имена: PR_IPM_CONTACT_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmContactEntryId;

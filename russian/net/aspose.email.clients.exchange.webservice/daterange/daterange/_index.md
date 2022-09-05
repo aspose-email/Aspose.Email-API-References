@@ -1,14 +1,14 @@
 ---
 title: DateRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаDateRangeaspose.email.clients.exchange.webservice/daterange
+description: Инициализирует новый экземплярDateRangeaspose.email.clients.exchange.webservice/daterange класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/daterange/daterange/
 ---
 ## DateRange(DateTime, DateTime) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DateRange`](../../daterange)
+Инициализирует новый экземпляр[`DateRange`](../../daterange) класс
 
 ```csharp
 public DateRange(DateTime startTime, DateTime endTime)
@@ -17,7 +17,7 @@ public DateRange(DateTime startTime, DateTime endTime)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startTime | DateTime | Определяет начало периода времени. |
-| endTime | DateTime | Определяет конец периода времени. |
+| endTime | DateTime | Указывает конец периода времени. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public DateRange(DateTime startTime, DateTime endTime)
 
 ## DateRange() {#constructor}
 
-Инициализирует новый экземпляр класса[`DateRange`](../../daterange)
+Инициализирует новый экземпляр[`DateRange`](../../daterange) класс
 
 ```csharp
 public DateRange()

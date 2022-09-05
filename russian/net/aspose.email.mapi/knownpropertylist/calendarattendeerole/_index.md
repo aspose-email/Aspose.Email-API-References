@@ -1,14 +1,14 @@
 ---
 title: CalendarAttendeeRole
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает роль участника. ОбластьОбщие Каноническое имяPidNameCalendarAttendeeRole Альтернативные именаurnschemascalendarattendeerole
+description: Указывает роль участника. Область Common Каноническое имя PidNameCalendarAttendeeRole Альтернативные имена urnschemascalendarattendeerole
 type: docs
 weight: 2180
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarattendeerole/
 ---
 ## KnownPropertyList.CalendarAttendeeRole field
 
-Указывает роль участника. Область:Общие Каноническое имя:PidNameCalendarAttendeeRole Альтернативные имена:urn:schemas:calendar:attendeerole
+Указывает роль участника. Область: Common Каноническое имя: PidNameCalendarAttendeeRole Альтернативные имена: urn:schemas:calendar:attendeerole
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarAttendeeRole;

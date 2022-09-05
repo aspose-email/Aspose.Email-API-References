@@ -1,14 +1,14 @@
 ---
 title: RuleMessageName
 second_title: Aspose.Email for .NET API 参考
-description: 指定规则的名称设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageName 备用名称ptagRuleMsgName
+description: 指定规则的名称在 FAI 消息上设置 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageName 备用名称ptagRuleMsgName
 type: docs
 weight: 16530
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessagename/
 ---
 ## KnownPropertyList.RuleMessageName field
 
-指定规则的名称。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageName 备用名称:ptagRuleMsgName
+指定规则的名称。在 FAI 消息上设置。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageName 备用名称：ptagRuleMsgName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageName;

@@ -1,7 +1,7 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Domain or broad category of the error.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/errordetails/domain/

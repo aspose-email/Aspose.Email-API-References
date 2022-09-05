@@ -1,7 +1,7 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets CC of the EMail message.
 type: docs
 weight: 30
 url: /net/aspose.email.clients/messageinfobase/cc/

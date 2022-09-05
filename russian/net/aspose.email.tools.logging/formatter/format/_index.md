@@ -41,7 +41,7 @@ public virtual string Format(DateTime datatime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| datatime | DateTime | Значение даты и времени для форматирования в строку |
+| datatime | DateTime | Значение datetime для форматирования в строку |
 
 ### Смотрите также
 

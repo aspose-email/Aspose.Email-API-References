@@ -1,9 +1,9 @@
 ---
 title: Organizer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the organizer.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.email.calendar/appointment/organizer/
 ---
 ## Appointment.Organizer property

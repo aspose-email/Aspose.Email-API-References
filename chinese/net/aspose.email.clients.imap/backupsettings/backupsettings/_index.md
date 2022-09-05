@@ -1,14 +1,14 @@
 ---
 title: BackupSettings
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 BackupSettingsaspose.email.clients.imap/backupsettings 班级
+description: 初始化BackupSettingsaspose.email.clients.imap/backupsettings class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/backupsettings/backupsettings/
 ---
 ## BackupSettings() {#constructor}
 
-初始化一个新的实例 [`BackupSettings`](../../backupsettings) 班级
+初始化[`BackupSettings`](../../backupsettings) class
 
 ```csharp
 public BackupSettings()
@@ -24,7 +24,7 @@ public BackupSettings()
 
 ## BackupSettings(BackupOptions) {#constructor_1}
 
-初始化一个新的实例 [`BackupSettings`](../../backupsettings) 班级
+初始化[`BackupSettings`](../../backupsettings) class
 
 ```csharp
 public BackupSettings(BackupOptions options)
@@ -32,7 +32,7 @@ public BackupSettings(BackupOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | BackupOptions | 列举备份选项 |
+| options | BackupOptions | 枚举备份选项 |
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public BackupSettings(BackupOptions options)
 
 ## BackupSettings(bool, bool, int, int) {#constructor_2}
 
-初始化 [`BackupSettings`](../../backupsettings) 类的新实例
+初始化[`BackupSettings`](../../backupsettings) class
 
 ```csharp
 public BackupSettings(bool executeRecursively, bool restoreConnection, int numberOfAttempts, 
@@ -54,7 +54,7 @@ public BackupSettings(bool executeRecursively, bool restoreConnection, int numbe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| executeRecursively | Boolean | 定义是否应该递归执行备份 |
+| executeRecursively | Boolean | 定义是否应递归执行备份 |
 | restoreConnection | Boolean | 定义如果服务器强制关闭连接，是否必须恢复连接 |
 | numberOfAttempts | Int32 | 定义重复失败操作的尝试次数 |
 | timeoutBetweenAttempts | Int32 | 定义尝试再次执行操作之间的超时时间（以毫秒为单位） |

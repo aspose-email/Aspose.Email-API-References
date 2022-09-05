@@ -1,14 +1,14 @@
 ---
 title: SubscribeFolder
 second_title: Aspose.Email for .NET API 参考
-description: 发送 SUBSCRIBE 命令将指定的邮箱名称添加到服务器的活动邮箱集
+description: 发送了将指定邮箱名称添加到服务器的活动邮箱集的 SUBSCRIBE 命令
 type: docs
 weight: 1210
 url: /zh/net/aspose.email.clients.imap/imapclient/subscribefolder/
 ---
 ## SubscribeFolder(IConnection, string) {#subscribefolder}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public void SubscribeFolder(IConnection connection, string folderName)
@@ -17,7 +17,7 @@ public void SubscribeFolder(IConnection connection, string folderName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| folderName | String | 名称文件夹 |
+| folderName | String | 文件夹名称 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void SubscribeFolder(IConnection connection, string folderName)
 
 ## SubscribeFolder(string) {#subscribefolder_1}
 
-发送 SUBSCRIBE 命令，将指定的邮箱名称添加到服务器的“活动”邮箱集。
+发送了将指定邮箱名称添加到服务器的“活动”邮箱集的 SUBSCRIBE 命令。
 
 ```csharp
 public void SubscribeFolder(string folderName)

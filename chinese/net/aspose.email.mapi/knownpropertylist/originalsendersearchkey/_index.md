@@ -1,14 +1,14 @@
 ---
 title: OriginalSenderSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含在原始电子邮件消息上设置的地址簿搜索键 区域常规消息属性 规范名称PidTagOriginalSenderSearchKey 替代名称PR_ORIGINAL_SENDER_SEARCH_KEY ptagOriginalSenderSearchKey
+description: 包含在原始电子邮件消息上设置的地址簿搜索键 区域常规邮件属性 规范名称PidTagOriginalSenderSearchKey 备用名称PR_ORIGINAL_SENDER_SEARCH_KEYptagOriginalSenderSearchKey
 type: docs
 weight: 13700
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsendersearchkey/
 ---
 ## KnownPropertyList.OriginalSenderSearchKey field
 
-包含在原始电子邮件消息上设置的地址簿搜索键。 区域:常规消息属性 规范名称:PidTagOriginalSenderSearchKey 替代名称:PR_ORIGINAL_SENDER_SEARCH_KEY, ptagOriginalSenderSearchKey
+包含在原始电子邮件消息上设置的地址簿搜索键。 区域：常规邮件属性 规范名称：PidTagOriginalSenderSearchKey 备用名称：PR_ORIGINAL_SENDER_SEARCH_KEY、ptagOriginalSenderSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSenderSearchKey;

@@ -1,14 +1,14 @@
 ---
 title: CcAttendeesString
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список всех доступных для отправки участников которые также являются необязательными участниками. ОбластьВстречи Каноническое имяPidLidCcAttendeesString Альтернативные именаdispidCCAttendeesString
+description: Содержит список всех доступных для отправки участников которые также являются необязательными участниками. Область Meetings Каноническое имя PidLidCcAttendeesString Альтернативные имена dispidCCATtendeesString
 type: docs
 weight: 2530
 url: /ru/net/aspose.email.mapi/knownpropertylist/ccattendeesstring/
 ---
 ## KnownPropertyList.CcAttendeesString field
 
-Содержит список всех доступных для отправки участников, которые также являются необязательными участниками. Область:Встречи Каноническое имя:PidLidCcAttendeesString Альтернативные имена:dispidCCAttendeesString
+Содержит список всех доступных для отправки участников, которые также являются необязательными участниками. Область: Meetings Каноническое имя: PidLidCcAttendeesString Альтернативные имена: dispidCCATtendeesString
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CcAttendeesString;

@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Справочник по Aspose.Email для .NET API
-description: получает GUID именованного свойства
+description: получает именованное свойство GUID
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapinamedproperty/guid/
 ---
 ## MapiNamedProperty.Guid property
 
-получает GUID именованного свойства
+получает именованное свойство GUID
 
 ```csharp
 public Guid Guid { get; }

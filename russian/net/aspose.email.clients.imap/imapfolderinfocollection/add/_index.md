@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection.
+description: Добавляет ImapFolderInfo в ImapFolderInfoCollection.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/imapfolderinfocollection/add/
 ---
 ## ImapFolderInfoCollection.Add method
 
-Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection.
+Добавляет ImapFolderInfo в ImapFolderInfoCollection.
 
 ```csharp
 public void Add(ImapFolderInfo item)

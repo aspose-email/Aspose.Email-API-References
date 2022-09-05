@@ -1,9 +1,9 @@
 ---
 title: OnenoteOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The status of certain longrunning OneNote operations.
 type: docs
-weight: 16020
+weight: 16040
 url: /net/aspose.email.clients.graph/onenoteoperation/
 ---
 ## OnenoteOperation class

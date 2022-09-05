@@ -18,7 +18,7 @@ public enum SensitivityChoices
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 未指定灵敏度等级 |
+| Undefined | `-1` | 未指定灵敏度级别 |
 | Normal | `0` | 将项目指定为正常。 |
 | Personal | `1` | 将项目指定为个人。 |
 | Private | `2` | 将项目指定为私有。 |

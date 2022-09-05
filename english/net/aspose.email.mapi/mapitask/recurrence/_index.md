@@ -1,7 +1,7 @@
 ---
 title: Recurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the recurrence properties.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapitask/recurrence/

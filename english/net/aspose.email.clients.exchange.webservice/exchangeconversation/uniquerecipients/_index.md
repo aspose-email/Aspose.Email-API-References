@@ -1,7 +1,7 @@
 ---
 title: UniqueRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of all the people who have received messages in this conversation for messages in the current folder.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/uniquerecipients/

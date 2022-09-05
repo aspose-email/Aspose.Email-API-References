@@ -1,14 +1,14 @@
 ---
 title: AsposeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeExceptionaspose.email/asposeexception.
+description: Инициализирует новый экземплярAsposeExceptionaspose.email/asposeexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeexception/asposeexception/
 ---
 ## AsposeException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeException`](../../asposeexception).
+Инициализирует новый экземпляр[`AsposeException`](../../asposeexception) класс.
 
 ```csharp
 public AsposeException()
@@ -24,7 +24,7 @@ public AsposeException()
 
 ## AsposeException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeException`](../../asposeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeException`](../../asposeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeException(string message)
@@ -44,7 +44,7 @@ public AsposeException(string message)
 
 ## AsposeException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeException`](../../asposeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeException`](../../asposeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeException(string format, string parameter)
 
 ## AsposeException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeException`](../../asposeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeException`](../../asposeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeException(string message, Exception innerException)
@@ -88,7 +88,7 @@ public AsposeException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

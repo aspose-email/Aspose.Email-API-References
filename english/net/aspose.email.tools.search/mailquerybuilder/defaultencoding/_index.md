@@ -1,7 +1,7 @@
 ---
 title: DefaultEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets default encoding charset for query builder
 type: docs
 weight: 50
 url: /net/aspose.email.tools.search/mailquerybuilder/defaultencoding/

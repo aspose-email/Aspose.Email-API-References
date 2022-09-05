@@ -1,7 +1,7 @@
 ---
 title: Manager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Manager
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/associatedpersoncategory/manager/

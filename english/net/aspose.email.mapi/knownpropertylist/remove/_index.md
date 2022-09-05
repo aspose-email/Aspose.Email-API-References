@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List is readonly. Operation is not supported.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/knownpropertylist/remove/

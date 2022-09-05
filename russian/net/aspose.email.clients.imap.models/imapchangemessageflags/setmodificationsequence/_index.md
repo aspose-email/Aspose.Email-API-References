@@ -1,14 +1,14 @@
 ---
 title: SetModificationSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Установите последовательность модификации.
+description: Установить последовательность модификации.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap.models/imapchangemessageflags/setmodificationsequence/
 ---
 ## ImapChangeMessageFlags.SetModificationSequence method
 
-Установите последовательность модификации.
+Установить последовательность модификации.
 
 ```csharp
 public ImapChangeMessageFlags SetModificationSequence(long modificationSequence)

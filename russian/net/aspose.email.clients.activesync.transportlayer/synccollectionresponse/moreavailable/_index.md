@@ -1,14 +1,14 @@
 ---
 title: MoreAvailable
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что изменений больше чем количество запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения синхронизации содержащие MoreAvailable и от нуля 0 до изменения схемы WindowSize когда он сталкивается с элементами внешними по отношению к протоколу.
+description: Указывает что имеется больше изменений чем число запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения Sync содержащие MoreAvailable и от нуля 0 до изменения схемы WindowSize когда он сталкивается с элементами внешними по отношению к протоколу.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable/
 ---
 ## SyncCollectionResponse.MoreAvailable property
 
-Указывает, что изменений больше, чем количество, запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения синхронизации, содержащие MoreAvailable и от нуля (0) до изменения схемы WindowSize, когда он сталкивается с элементами, внешними по отношению к протоколу.
+Указывает, что имеется больше изменений, чем число, запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения Sync, содержащие MoreAvailable и от нуля (0) до изменения схемы WindowSize, когда он сталкивается с элементами, внешними по отношению к протоколу.
 
 ```csharp
 public bool MoreAvailable { get; set; }

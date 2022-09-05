@@ -1,14 +1,14 @@
 ---
 title: OriginalDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает адрес электронной почты SMTP который соответствует адресу электронной почты.
+description: Получает или задает адрес электронной почты SMTP который соответствует адресу электронной почты .
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapielectronicaddress/originaldisplayname/
 ---
 ## MapiElectronicAddress.OriginalDisplayName property
 
-Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты.
+Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты .
 
 ```csharp
 public string OriginalDisplayName { get; set; }

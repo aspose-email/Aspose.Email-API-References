@@ -1,7 +1,7 @@
 ---
 title: InternalLogonType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reserved for internal use.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/internallogontype/

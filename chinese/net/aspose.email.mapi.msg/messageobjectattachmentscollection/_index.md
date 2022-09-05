@@ -1,14 +1,14 @@
 ---
 title: MessageObjectAttachmentsCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MessageObjectAttachmentEntity./messageobjectattachmententity对象的集合
+description: 代表一个集合MessageObjectAttachmentEntity./messageobjectattachmententity对象.
 type: docs
-weight: 18810
+weight: 18840
 url: /zh/net/aspose.email.mapi.msg/messageobjectattachmentscollection/
 ---
 ## MessageObjectAttachmentsCollection class
 
-表示[`MessageObjectAttachmentEntity`](../messageobjectattachmententity)对象的集合。
+代表一个集合[`MessageObjectAttachmentEntity`](../messageobjectattachmententity)对象.
 
 ```csharp
 public sealed class MessageObjectAttachmentsCollection : List<MessageObjectAttachmentEntity>

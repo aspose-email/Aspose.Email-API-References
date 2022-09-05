@@ -1,14 +1,14 @@
 ---
 title: DateCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示DateTime值的集合
+description: 代表一个集合DateTime值.
 type: docs
 weight: 710
 url: /zh/net/aspose.email.calendar.recurrences/datecollection/
 ---
 ## DateCollection class
 
-表示DateTime值的集合。
+代表一个集合DateTime值.
 
 ```csharp
 public class DateCollection : List<DateTime>

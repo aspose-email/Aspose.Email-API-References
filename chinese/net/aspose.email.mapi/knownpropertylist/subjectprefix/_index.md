@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/subjectprefix/
 ---
 ## KnownPropertyList.SubjectPrefix field
 
-包含消息主题的前缀。 区域:常规消息属性 规范名称:PidTagSubjectPrefix 替代名称:PR_SUBJECT_PREFIX、PR_SUBJECT_PREFIX_A、ptagSubjectPrefix、PR_SUBJECT_PREFIX_W
+包含消息主题的前缀。 区域：常规消息属性 规范名称：PidTagSubjectPrefix 替代名称：PR_SUBJECT_PREFIX、PR_SUBJECT_PREFIX_A、ptagSubjectPrefix、PR_SUBJECT_PREFIX_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SubjectPrefix;

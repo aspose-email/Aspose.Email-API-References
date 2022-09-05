@@ -16,7 +16,7 @@ public void Add(HeaderCollection c)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| c | HeaderCollection | HeaderCollection 用于添加。 |
+| c | HeaderCollection | 用于添加的 HeaderCollection。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void Add(string name, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 标头名称。 |
+| name | String | 标题名称。 |
 | value | String | 标头值。 |
 
 ### 也可以看看
@@ -49,7 +49,7 @@ public void Add(string name, string value)
 
 ## Add(string) {#add_1}
 
-添加不带值的标头
+添加没有值的标头
 
 ```csharp
 public void Add(string item)

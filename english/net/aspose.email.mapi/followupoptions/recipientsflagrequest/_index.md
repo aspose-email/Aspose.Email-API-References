@@ -1,7 +1,7 @@
 ---
 title: RecipientsFlagRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a string indicating the requested action for recipients of an email message.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/followupoptions/recipientsflagrequest/

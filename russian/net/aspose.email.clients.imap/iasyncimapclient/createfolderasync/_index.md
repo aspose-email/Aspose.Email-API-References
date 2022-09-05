@@ -17,8 +17,8 @@ public Task CreateFolderAsync(string folderName, IConnection connection = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_папки | String | Создаваемая папка. |
-| connection | IConnection | Соединение с сервером. |
+| folderName | String | Папка, которую нужно создать. |
+| connection | IConnection | Подключение к серверу. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

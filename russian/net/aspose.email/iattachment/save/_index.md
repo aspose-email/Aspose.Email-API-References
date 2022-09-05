@@ -28,7 +28,7 @@ public void Save(string fileName)
 
 ## Save(Stream) {#save}
 
-Сохраняет вложение в поток
+Сохраняет вложение в stream
 
 ```csharp
 public void Save(Stream stream)

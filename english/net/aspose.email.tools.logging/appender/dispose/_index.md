@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Releases the unmanaged resources used by the Appender.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.logging/appender/dispose/

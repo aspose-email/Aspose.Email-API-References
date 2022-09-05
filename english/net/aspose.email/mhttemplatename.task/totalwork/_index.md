@@ -1,7 +1,7 @@
 ---
 title: TotalWork
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Total Work header.
 type: docs
 weight: 130
 url: /net/aspose.email/mhttemplatename.task/totalwork/

@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionListEntryIdType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of EntryID.
 type: docs
-weight: 18180
+weight: 18390
 url: /net/aspose.email.mapi/mapidistributionlistentryidtype/
 ---
 ## MapiDistributionListEntryIdType enumeration

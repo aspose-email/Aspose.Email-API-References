@@ -1,7 +1,7 @@
 ---
 title: SearchFolderTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the SearchFolderTag subproperty of the PidTagExtendedFolderFlags section 2.682 property of the search folder container. Area Search Canonical name PidTagSearchFolderTag Alternate names PR_WB_SF_TAG
 type: docs
 weight: 17010
 url: /net/aspose.email.mapi/knownpropertylist/searchfoldertag/

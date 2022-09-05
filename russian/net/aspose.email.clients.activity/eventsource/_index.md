@@ -1,14 +1,14 @@
 ---
 title: EventSource
 second_title: Справочник по Aspose.Email для .NET API
-description: Аудит источников событий
+description: Источники событий аудита
 type: docs
 weight: 2470
 url: /ru/net/aspose.email.clients.activity/eventsource/
 ---
 ## EventSource enumeration
 
-Аудит источников событий
+Источники событий аудита
 
 ```csharp
 public enum EventSource

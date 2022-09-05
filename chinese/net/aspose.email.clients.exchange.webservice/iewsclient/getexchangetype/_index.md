@@ -1,14 +1,14 @@
 ---
 title: GetExchangeType
 second_title: Aspose.Email for .NET API 参考
-description: 获取有关 MS Exchange 当前版本的信息
+description: 获取有关 MS Exchange 的当前版本的信息
 type: docs
 weight: 920
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getexchangetype/
 ---
 ## IEWSClient.GetExchangeType method
 
-获取有关 MS Exchange 当前版本的信息。
+获取有关 MS Exchange 的当前版本的信息。
 
 ```csharp
 public ExchangeVersion GetExchangeType()

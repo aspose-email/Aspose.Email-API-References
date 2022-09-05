@@ -1,12 +1,42 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves appointment to the stream with specified save options
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.email.calendar/appointment/save/
 ---
-## Appointment.Save method (1 of 6)
+## Save(Stream, AppointmentSaveOptions) {#save_2}
+
+Saves appointment to the stream with specified save options
+
+```csharp
+public void Save(Stream stream, AppointmentSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A stream to save to |
+| saveOptions | AppointmentSaveOptions | A save options |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *saveOptions* or *stream* is `null` |
+| NotSupportedException | the specified save options are not supported |
+| NotSupportedException | stream does not support writing |
+
+### See Also
+
+* class [AppointmentSaveOptions](../../appointmentsaveoptions)
+* class [Appointment](../../appointment)
+* namespace [Aspose.Email.Calendar](../../appointment)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
 
 Saves appointment to the file with iCalendar format using te default save options
 
@@ -32,7 +62,7 @@ public void Save(string filePath)
 
 ---
 
-## Appointment.Save method (2 of 6)
+## Save(string, AppointmentSaveFormat) {#save_4}
 
 Saves appointment to the file with specified format using te default save options
 
@@ -61,7 +91,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 ---
 
-## Appointment.Save method (3 of 6)
+## Save(string, AppointmentSaveOptions) {#save_5}
 
 Saves appointment to the file with specified save options
 
@@ -91,7 +121,7 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 ---
 
-## Appointment.Save method (4 of 6)
+## Save(Stream) {#save}
 
 Saves appointment to the file with iCalendar format using te default save options
 
@@ -118,7 +148,7 @@ public void Save(Stream stream)
 
 ---
 
-## Appointment.Save method (5 of 6)
+## Save(Stream, AppointmentSaveFormat) {#save_1}
 
 Saves appointment to the stream with specified format using te default save options
 
@@ -142,36 +172,6 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 ### See Also
 
 * enum [AppointmentSaveFormat](../../appointmentsaveformat)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Appointment.Save method (6 of 6)
-
-Saves appointment to the stream with specified save options
-
-```csharp
-public void Save(Stream stream, AppointmentSaveOptions saveOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveOptions | AppointmentSaveOptions | A save options |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *saveOptions* or *stream* is `null` |
-| NotSupportedException | the specified save options are not supported |
-| NotSupportedException | stream does not support writing |
-
-### See Also
-
-* class [AppointmentSaveOptions](../../appointmentsaveoptions)
 * class [Appointment](../../appointment)
 * namespace [Aspose.Email.Calendar](../../appointment)
 * assembly [Aspose.Email](../../../)

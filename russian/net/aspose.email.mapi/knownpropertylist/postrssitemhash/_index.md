@@ -1,14 +1,14 @@
 ---
 title: PostRssItemHash
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит хэш XML-канала вычисленный с использованием алгоритма зависящего от реализации. ОбластьRSS Каноническое имяPidLidPostRssItemHash Альтернативные именаdispidPostRssItemHash
+description: Содержит хэш XML фида вычисленный с использованием алгоритма зависящего от реализации. Область RSS Каноническое имя PidLidPostRssItemHash Альтернативные имена dispidPostRssItemHash
 type: docs
 weight: 14470
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrssitemhash/
 ---
 ## KnownPropertyList.PostRssItemHash field
 
-Содержит хэш XML-канала, вычисленный с использованием алгоритма, зависящего от реализации. Область:RSS Каноническое имя:PidLidPostRssItemHash Альтернативные имена:dispidPostRssItemHash
+Содержит хэш XML фида, вычисленный с использованием алгоритма, зависящего от реализации. Область: RSS Каноническое имя: PidLidPostRssItemHash Альтернативные имена: dispidPostRssItemHash
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemHash;

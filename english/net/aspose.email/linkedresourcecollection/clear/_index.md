@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes all elements from this collection.
 type: docs
 weight: 10
 url: /net/aspose.email/linkedresourcecollection/clear/

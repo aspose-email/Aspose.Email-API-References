@@ -1,14 +1,14 @@
 ---
 title: CalendarFolderServerNotifications
 second_title: Справочник по Aspose.Email для .NET API
-description: Происходит при возникновении указанного типа события для папки Календарь.
+description: Происходит при возникновении указанного типа события для папки календаря.
 type: docs
 weight: 230
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/calendarfolderservernotifications/
 ---
 ## IEWSClient.CalendarFolderServerNotifications event
 
-Происходит при возникновении указанного типа события для папки Календарь.
+Происходит при возникновении указанного типа события для папки календаря.
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> CalendarFolderServerNotifications;

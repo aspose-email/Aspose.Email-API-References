@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API 参考
-description: 将ByDayaspose.email.calendar.recurrences/byday添加到集合中
+description: 添加一个ByDayaspose.email.calendar.recurrences/byday收藏.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/bydaycollection/add/
 ---
 ## Add(ByDay) {#add}
 
-将[`ByDay`](../../byday)添加到集合中。
+添加一个[`ByDay`](../../byday)收藏.
 
 ```csharp
 public int Add(ByDay byDay)
@@ -33,7 +33,7 @@ public int Add(ByDay byDay)
 
 ## Add(DayOfWeek) {#add_2}
 
-创建一个[`ByDay`](../../byday)并将其添加到收藏。
+创建并添加一个[`ByDay`](../../byday)表示集合中一周中的所有日期。
 
 ```csharp
 public int Add(DayOfWeek dayOfWeek)
@@ -57,7 +57,7 @@ public int Add(DayOfWeek dayOfWeek)
 
 ## Add(int, DayOfWeek) {#add_1}
 
-创建一个[`ByDay`](../../byday)并将其添加到集合中。
+创建并添加一个[`ByDay`](../../byday)收藏.
 
 ```csharp
 public int Add(int nthOccurrence, DayOfWeek dayOfWeek)
@@ -65,7 +65,7 @@ public int Add(int nthOccurrence, DayOfWeek dayOfWeek)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nthOccurrence | Int32 | 一周中第 n 次出现。 |
+| nthOccurrence | Int32 | 一周中的第 n 次出现。 |
 | dayOfWeek | DayOfWeek | 一周中的一天。 |
 
 ### 返回值

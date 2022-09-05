@@ -1,14 +1,14 @@
 ---
 title: AgentCard
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает карточку агента  null ifValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocationis not INLINE 
+description: Получает или задает карточку агента нулевой еслиValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation не являетсяВ СООТВЕТСТВИИ
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardagent/agentcard/
 ---
 ## VCardAgent.AgentCard property
 
-Получает или устанавливает карточку агента (` null` if[`ValueLocation`](../valuelocation)is not` INLINE` )
+Получает или задает карточку агента (`нулевой` если[`ValueLocation`](../valuelocation) не является`В СООТВЕТСТВИИ`)
 
 ```csharp
 public VCardContact AgentCard { get; set; }

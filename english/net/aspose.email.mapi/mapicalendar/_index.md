@@ -1,9 +1,9 @@
 ---
 title: MapiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mapi calendar object
 type: docs
-weight: 17740
+weight: 17920
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class
@@ -18,10 +18,10 @@ public sealed class MapiCalendar : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiCalendar](mapicalendar)() | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class |
-| [MapiCalendar](mapicalendar)(string, string, string, DateTime, DateTime) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
-| [MapiCalendar](mapicalendar)(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
-| [MapiCalendar](mapicalendar)(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
+| [MapiCalendar](mapicalendar#constructor)() | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class |
+| [MapiCalendar](mapicalendar#constructor_1)(string, string, string, DateTime, DateTime) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
+| [MapiCalendar](mapicalendar#constructor_2)(string, string, string, DateTime, DateTime, MapiElectronicAddress, MapiRecipientCollection) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
+| [MapiCalendar](mapicalendar#constructor_3)(string, string, string, DateTime, DateTime, string, MapiRecipientCollection) | Initializes a new instance of the [`MapiCalendar`](../mapicalendar) class. |
 
 ## Properties
 
@@ -83,10 +83,12 @@ public sealed class MapiCalendar : MapiMessageItemBase
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapicalendar/save)(Stream) | Saves calendar object to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save)(string) | Saves calendar object to the file with iCalendar format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save)(Stream, AppointmentSaveFormat) | Saves calendar object to the stream with specified format using te default save options |
-| [Save](../../aspose.email.mapi/mapicalendar/save)(string, AppointmentSaveFormat) | Saves calendar object to the file with specified format using te default save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save)(Stream) | Saves calendar object to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save_3)(string) | Saves calendar object to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save_1)(Stream, AppointmentSaveFormat) | Saves calendar object to the stream with specified format using te default save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save_2)(Stream, MapiCalendarSaveOptions) | Saves calendar to the stream with specified save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save_4)(string, AppointmentSaveFormat) | Saves calendar object to the file with specified format using te default save options |
+| [Save](../../aspose.email.mapi/mapicalendar/save#save_5)(string, MapiCalendarSaveOptions) | Saves calendar object to the file with specified format using te default save options |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType) | Sets the content of the body. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf)(string, bool) | Gets or sets the RTF formatted message text. |

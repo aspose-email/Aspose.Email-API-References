@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/oledocumentformat/equals/

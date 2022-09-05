@@ -1,7 +1,7 @@
 ---
 title: UIDNext
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the validity ID of the mailbox.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.imap/imapfolderinfo/uidnext/

@@ -1,14 +1,14 @@
 ---
 title: UserField2
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает второе поле контакта которое предназначено для различных целей контакта.
+description: Определяет второе поле контакта предназначенное для разных целей контакта.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/userfield2/
 ---
 ## MapiContactOtherPropertySet.UserField2 property
 
-Указывает второе поле контакта, которое предназначено для различных целей контакта.
+Определяет второе поле контакта, предназначенное для разных целей контакта.
 
 ```csharp
 public string UserField2 { get; set; }

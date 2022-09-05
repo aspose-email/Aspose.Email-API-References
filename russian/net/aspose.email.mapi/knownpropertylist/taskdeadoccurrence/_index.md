@@ -1,14 +1,14 @@
 ---
 title: TaskDeadOccurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает осталось ли создать новые вхождения. ОбластьЗадачи Каноническое имяPidLidTaskDeadOccurrence Альтернативные именаdispidTaskDeadOccur
+description: Указывает нужно ли создавать новые вхождения. Область Tasks Каноническое имя PidLidTaskDeadOccurrence Альтернативные имена dispidTaskDeadOccur
 type: docs
 weight: 18610
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskdeadoccurrence/
 ---
 ## KnownPropertyList.TaskDeadOccurrence field
 
-Указывает, осталось ли создать новые вхождения. Область:Задачи Каноническое имя:PidLidTaskDeadOccurrence Альтернативные имена:dispidTaskDeadOccur
+Указывает, нужно ли создавать новые вхождения. Область: Tasks Каноническое имя: PidLidTaskDeadOccurrence Альтернативные имена: dispidTaskDeadOccur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDeadOccurrence;

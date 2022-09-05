@@ -1,12 +1,12 @@
 ---
 title: FileAppender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FileAppender class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/fileappender/fileappender/
 ---
-## FileAppender constructor (1 of 5)
+## FileAppender() {#constructor}
 
 Initializes a new instance of the FileAppender class.
 
@@ -22,7 +22,7 @@ public FileAppender()
 
 ---
 
-## FileAppender constructor (2 of 5)
+## FileAppender(string) {#constructor_1}
 
 Initializes a new instance of the FileAppender class.
 
@@ -42,7 +42,7 @@ public FileAppender(string fileName)
 
 ---
 
-## FileAppender constructor (3 of 5)
+## FileAppender(string, bool) {#constructor_3}
 
 Initializes a new instance of the FileAppender class.
 
@@ -63,7 +63,7 @@ public FileAppender(string fileName, bool useDate)
 
 ---
 
-## FileAppender constructor (4 of 5)
+## FileAppender(string, IFormatter) {#constructor_2}
 
 Initializes a new instance of the FileAppender class.
 
@@ -85,7 +85,7 @@ public FileAppender(string fileName, IFormatter formatter)
 
 ---
 
-## FileAppender constructor (5 of 5)
+## FileAppender(string, bool, IFormatter) {#constructor_4}
 
 Initializes a new instance of the FileAppender class.
 

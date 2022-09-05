@@ -3,7 +3,7 @@ title: MapiRecipientCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MapiRecipient 对象的集合
 type: docs
-weight: 18600
+weight: 18630
 url: /zh/net/aspose.email.mapi/mapirecipientcollection/
 ---
 ## MapiRecipientCollection class
@@ -18,16 +18,16 @@ public class MapiRecipientCollection : Collection<MapiRecipient>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiRecipientCollection](mapirecipientcollection)() | 初始化[`MapiRecipientCollection`](../mapirecipientcollection)类的新实例。 |
+| [MapiRecipientCollection](mapirecipientcollection)() | 初始化[`MapiRecipientCollection`](../mapirecipientcollection)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add)(MapiRecipient) | 将对象添加到Collection的末尾。 |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_2)(string, string, MapiRecipientType) | 添加新收件人。 |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_3)(string, string, string, MapiRecipientType) | 添加新收件人。 |
-| [Insert](../../aspose.email.mapi/mapirecipientcollection/insert#insert)(int, MapiRecipient) | 将元素插入Collection中指定索引处。 |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add)(MapiRecipient) | 在末尾添加一个对象Collection. |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_2)(string, string, MapiRecipientType) | 添加新的收件人。 |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add#add_3)(string, string, string, MapiRecipientType) | 添加新的收件人。 |
+| [Insert](../../aspose.email.mapi/mapirecipientcollection/insert#insert)(int, MapiRecipient) | 插入一个元素到Collection在指定的索引处。 |
 
 ### 也可以看看
 

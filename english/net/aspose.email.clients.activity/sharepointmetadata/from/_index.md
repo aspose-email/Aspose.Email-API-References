@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The user who triggered the event. This will be either the FileOwner LastModifier or LastSharer. Mandatory Yes
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/sharepointmetadata/from/

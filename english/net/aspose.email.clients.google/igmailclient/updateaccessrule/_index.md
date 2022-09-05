@@ -1,7 +1,7 @@
 ---
 title: UpdateAccessRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates access rule
 type: docs
 weight: 300
 url: /net/aspose.email.clients.google/igmailclient/updateaccessrule/

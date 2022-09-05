@@ -1,14 +1,14 @@
 ---
 title: EmsAbRemoteSiteO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REMOTE_SITE_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REMOTE_SITE_O
 type: docs
 weight: 8430
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabremotesiteo/
 ---
 ## KnownPropertyList.EmsAbRemoteSiteO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REMOTE_SITE_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REMOTE_SITE_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRemoteSiteO;

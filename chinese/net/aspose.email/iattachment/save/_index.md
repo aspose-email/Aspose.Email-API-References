@@ -16,7 +16,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名 |
+| fileName | String | 一个文件名 |
 
 ### 也可以看看
 

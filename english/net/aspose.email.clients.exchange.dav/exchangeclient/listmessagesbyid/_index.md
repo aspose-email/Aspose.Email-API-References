@@ -1,7 +1,7 @@
 ---
 title: ListMessagesById
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the messages by id.
 type: docs
 weight: 290
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/listmessagesbyid/

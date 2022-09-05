@@ -1,14 +1,14 @@
 ---
 title: CalendarUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает URI календаря.
+description: Получает uri календаря.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/calendaruri/
 ---
 ## ExchangeMailboxInfo.CalendarUri property
 
-Получает URI календаря.
+Получает uri календаря.
 
 ```csharp
 public abstract string CalendarUri { get; set; }

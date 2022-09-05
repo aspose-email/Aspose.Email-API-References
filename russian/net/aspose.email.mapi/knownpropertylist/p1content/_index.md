@@ -1,14 +1,14 @@
 ---
 title: P1Content
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_P1_CONTENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_P1_CONTENT
 type: docs
 weight: 14130
 url: /ru/net/aspose.email.mapi/knownpropertylist/p1content/
 ---
 ## KnownPropertyList.P1Content field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_P1_CONTENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_P1_CONTENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor P1Content;

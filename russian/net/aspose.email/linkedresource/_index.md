@@ -18,21 +18,21 @@ public class LinkedResource : AttachmentBase
 
 | Имя | Описание |
 | --- | --- |
-| [LinkedResource](linkedresource#constructor)(Stream) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
-| [LinkedResource](linkedresource#constructor_3)(string) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
-| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
-| [LinkedResource](linkedresource#constructor_2)(Stream, string) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
-| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
-| [LinkedResource](linkedresource#constructor_5)(string, string) | Инициализирует новый экземпляр класса[`LinkedResource`](../linkedresource). |
+| [LinkedResource](linkedresource#constructor)(Stream) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
+| [LinkedResource](linkedresource#constructor_3)(string) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
+| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
+| [LinkedResource](linkedresource#constructor_2)(Stream, string) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
+| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
+| [LinkedResource](linkedresource#constructor_5)(string, string) | Инициализирует новый экземпляр[`LinkedResource`](../linkedresource) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/linkedresource/contentdisposition) { get; } | Получает заголовок Content-Disposition |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор содержимого. |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор контента. |
 | [ContentLink](../../aspose.email/linkedresource/contentlink) { get; set; } | Получает или задает URI, которому должен соответствовать ресурс. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток содержимого. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток контента. |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Получает или задает тип содержимого. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Получает коллекцию заголовков вложения. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | Получает или задает кодировку передачи. |
@@ -44,7 +44,7 @@ public class LinkedResource : AttachmentBase
 | static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring)(string) | Создает связанный ресурс из строки. |
 | static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_1)(string, ContentType) | Создает связанный ресурс из строки. |
 | static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_2)(string, Encoding, string) | Создает связанный ресурс из строки. |
-| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Сохраняет указанный поток. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Сохраняет указанное имя файла. |
 

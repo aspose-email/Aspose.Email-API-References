@@ -1,7 +1,7 @@
 ---
 title: FailedSending
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds or removes subscriber for notifications about failed sending operations in smtp queue
 type: docs
 weight: 110
 url: /net/aspose.email.clients.smtp/smtpclient/failedsending/

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/imapclient/unselectfolderasync/
 ---
 ## UnselectFolderAsync(IConnection) {#unselectfolderasync_1}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection)
@@ -16,7 +16,7 @@ public Task UnselectFolderAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public Task UnselectFolderAsync(IConnection connection)
 
 ## UnselectFolderAsync() {#unselectfolderasync}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public Task UnselectFolderAsync()
@@ -53,7 +53,7 @@ public Task UnselectFolderAsync()
 
 ## UnselectFolderAsync(IConnection, bool) {#unselectfolderasync_2}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
@@ -61,7 +61,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | doNotExpunge | Boolean | Указывает, следует ли удалять сообщения, помеченные как удаленные. |
 
 ### Возвращаемое значение
@@ -79,7 +79,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
 
 ## UnselectFolderAsync(bool) {#unselectfolderasync_5}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(bool doNotExpunge)
@@ -103,7 +103,7 @@ public Task UnselectFolderAsync(bool doNotExpunge)
 
 ## UnselectFolderAsync(IConnection, CancellationToken) {#unselectfolderasync_4}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection, CancellationToken token)
@@ -111,7 +111,7 @@ public Task UnselectFolderAsync(IConnection connection, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -129,7 +129,7 @@ public Task UnselectFolderAsync(IConnection connection, CancellationToken token)
 
 ## UnselectFolderAsync(CancellationToken) {#unselectfolderasync_7}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public Task UnselectFolderAsync(CancellationToken token)
@@ -153,7 +153,7 @@ public Task UnselectFolderAsync(CancellationToken token)
 
 ## UnselectFolderAsync(IConnection, bool, CancellationToken) {#unselectfolderasync_3}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, CancellationToken token)
@@ -161,7 +161,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, Cance
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | doNotExpunge | Boolean | Указывает, следует ли удалять сообщения, помеченные как удаленные. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -180,7 +180,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, Cance
 
 ## UnselectFolderAsync(bool, CancellationToken) {#unselectfolderasync_6}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public Task UnselectFolderAsync(bool doNotExpunge, CancellationToken token)

@@ -1,9 +1,9 @@
 ---
 title: ThreadSearchConditions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the search conditions to retrieve email thread. Compatibles with THREAD IMAP extension described at https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16630
+weight: 16740
 url: /net/aspose.email.clients.imap/threadsearchconditions/
 ---
 ## ThreadSearchConditions class

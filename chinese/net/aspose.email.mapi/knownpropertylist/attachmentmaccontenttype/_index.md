@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentmaccontenttype/
 ---
 ## KnownPropertyList.AttachmentMacContentType field
 
-包含 Mac 附件的 Content-Type。 区域:消息附件属性 规范名称:PidNameAttachmentMacContentType 备用名称:
+包含 Mac 附件的 Content-Type。 区域：消息附件属性 规范名称：PidNameAttachmentMacContentType 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AttachmentMacContentType;

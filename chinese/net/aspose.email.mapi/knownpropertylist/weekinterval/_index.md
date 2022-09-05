@@ -1,14 +1,14 @@
 ---
 title: WeekInterval
 second_title: Aspose.Email for .NET API 参考
-description: 标识每次会议之间发生的周数 区域会议 规范名称PidLidWeekInterval 别名LID_WEEK_INTERVAL
+description: 标识每次会议之间的周数 区域Meetings 规范名称PidLidWeekInterval 替代名称LID_WEEK_INTERVAL
 type: docs
 weight: 19350
 url: /zh/net/aspose.email.mapi/knownpropertylist/weekinterval/
 ---
 ## KnownPropertyList.WeekInterval field
 
-标识每次会议之间发生的周数。 区域:会议 规范名称:PidLidWeekInterval 别名:LID_WEEK_INTERVAL
+标识每次会议之间的周数。 区域：Meetings 规范名称：PidLidWeekInterval 替代名称：LID_WEEK_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WeekInterval;

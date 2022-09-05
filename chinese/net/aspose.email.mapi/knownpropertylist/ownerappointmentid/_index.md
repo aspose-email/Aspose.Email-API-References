@@ -1,14 +1,14 @@
 ---
 title: OwnerAppointmentId
 second_title: Aspose.Email for .NET API 参考
-description: 在用户邮箱中的所有日历对象中指定一个准唯一值 区域约会 规范名称PidTagOwnerAppointmentId 备用名称PR_OWNER_APPT_IDhttp//schemas.microsoft.com/mapi/owner_appt_id
+description: 在用户邮箱中的所有日历对象中指定一个准唯一值 区域Appointment 规范名称PidTagOwnerAppointmentId 替代名称PR_OWNER_APPT_IDhttp//schemas.microsoft.com/mapi/owner_appt_id
 type: docs
 weight: 14080
 url: /zh/net/aspose.email.mapi/knownpropertylist/ownerappointmentid/
 ---
 ## KnownPropertyList.OwnerAppointmentId field
 
-在用户邮箱中的所有日历对象中指定一个准唯一值。 区域:约会 规范名称:PidTagOwnerAppointmentId 备用名称:PR_OWNER_APPT_ID，http://schemas.microsoft.com/mapi/owner_appt_id
+在用户邮箱中的所有日历对象中指定一个准唯一值。 区域：Appointment 规范名称：PidTagOwnerAppointmentId 替代名称：PR_OWNER_APPT_ID，http://schemas.microsoft.com/mapi/owner_appt_id
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OwnerAppointmentId;

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Email для .NET API
-description: Оператор неравенства  возвращает значение true если его операнды равны и значение false в противном случае.
+description: Оператор неравенства  возвращает true если его операнды равны иначе false.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/status/op_equality/
 ---
 ## Status Equality operator
 
-Оператор неравенства (==) возвращает значение true, если его операнды равны, и значение false в противном случае.
+Оператор неравенства (==) возвращает true, если его операнды равны, иначе false.
 
 ```csharp
 public static bool operator ==(Status status1, Status status2)
@@ -17,7 +17,7 @@ public static bool operator ==(Status status1, Status status2)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | status1 | Status | Первый объект для сравнения |
-| status2 | Status | Второй объект для сравнения сравните |
+| status2 | Status | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

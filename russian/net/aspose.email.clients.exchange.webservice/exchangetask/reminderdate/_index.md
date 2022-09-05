@@ -1,14 +1,14 @@
 ---
 title: ReminderDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату напоминания о задаче.
+description: Получает или устанавливает дату напоминания о задаче.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangetask/reminderdate/
 ---
 ## ExchangeTask.ReminderDate property
 
-Получает или задает дату напоминания о задаче.
+Получает или устанавливает дату напоминания о задаче.
 
 ```csharp
 public DateTime ReminderDate { get; set; }

@@ -21,7 +21,7 @@ public Appointment FetchAppointment(string calendarId, string appointmentId)
 
 ### Возвращаемое значение
 
-Возвращает выбранную встречу.
+Возвращает полученную встречу.
 
 ### Смотрите также
 

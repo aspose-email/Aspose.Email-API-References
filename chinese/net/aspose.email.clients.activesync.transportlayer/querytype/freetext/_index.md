@@ -1,14 +1,14 @@
 ---
 title: FreeText
 second_title: Aspose.Email for .NET API 参考
-description: 指定要搜索的字符串值 如果 FreeText 属性设置为 And 属性以外则服务器响应状态值 8 SearchTooComplex
+description: 指定要搜索的字符串值 如果设置的 FreeText 属性不是 And 属性则服务器响应状态值 8 SearchTooComplex
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/freetext/
 ---
 ## QueryType.FreeText property
 
-指定要搜索的字符串值。 如果 FreeText 属性设置为 And 属性以外，则服务器响应状态值 8 (SearchTooComplex)。
+指定要搜索的字符串值。 如果设置的 FreeText 属性不是 And 属性，则服务器响应状态值 8 (SearchTooComplex)。
 
 ```csharp
 public string FreeText { get; set; }

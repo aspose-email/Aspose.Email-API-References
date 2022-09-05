@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает версию vCard
+description: Получает vCard version
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/version/
 ---
 ## VCardExplanatoryInfo.Version property
 
-Получает версию vCard
+Получает vCard version
 
 ```csharp
 public string Version { get; }

@@ -1,14 +1,14 @@
 ---
 title: AttachmentX400Parameters
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ATTACHMENT_X400_PARAMETERS
+description: Microsoft. Exchange 定义 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_ATTACHMENT_X400_PARAMETERS
 type: docs
 weight: 1690
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentx400parameters/
 ---
 ## KnownPropertyList.AttachmentX400Parameters field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ATTACHMENT_X400_PARAMETERS
+Microsoft. Exchange 定义 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_ATTACHMENT_X400_PARAMETERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentX400Parameters;

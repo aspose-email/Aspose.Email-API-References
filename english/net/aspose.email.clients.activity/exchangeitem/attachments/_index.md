@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A list of the names and file size of all items that are attached to the message.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/exchangeitem/attachments/

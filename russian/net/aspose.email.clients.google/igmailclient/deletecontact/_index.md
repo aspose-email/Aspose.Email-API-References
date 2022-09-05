@@ -16,7 +16,7 @@ public void DeleteContact(string contactUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| contactUri | String | Uri контакта |
+| contactUri | String | Контактный адрес |
 
 ### Смотрите также
 

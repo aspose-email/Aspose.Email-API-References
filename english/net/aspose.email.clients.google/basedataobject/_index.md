@@ -1,7 +1,7 @@
 ---
 title: BaseDataObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base class for google data objects.
 type: docs
 weight: 15630
 url: /net/aspose.email.clients.google/basedataobject/
@@ -18,9 +18,9 @@ public abstract class BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| [BaseDataObject](basedataobject)(string) | Initializes a new instance of the class. |
-| [BaseDataObject](basedataobject)(string, string) | Initializes a new instance of the class. |
-| [BaseDataObject](basedataobject)(string, string, string) | Initializes a new instance of the class. |
+| [BaseDataObject](basedataobject#constructor)(string) | Initializes a new instance of the class. |
+| [BaseDataObject](basedataobject#constructor_1)(string, string) | Initializes a new instance of the class. |
+| [BaseDataObject](basedataobject#constructor_2)(string, string, string) | Initializes a new instance of the class. |
 
 ## Properties
 

@@ -1,14 +1,14 @@
 ---
 title: FetchTimeoutException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FetchTimeoutExceptionaspose.email.clients.imap/fetchtimeoutexception类的新实例
+description: 初始化FetchTimeoutExceptionaspose.email.clients.imap/fetchtimeoutexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/fetchtimeoutexception/fetchtimeoutexception/
 ---
 ## FetchTimeoutException() {#constructor}
 
-初始化[`FetchTimeoutException`](../../fetchtimeoutexception)类的新实例。
+初始化[`FetchTimeoutException`](../../fetchtimeoutexception)类.
 
 ```csharp
 public FetchTimeoutException()
@@ -24,7 +24,7 @@ public FetchTimeoutException()
 
 ## FetchTimeoutException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`FetchTimeoutException`](../../fetchtimeoutexception)类的新实例。
+初始化[`FetchTimeoutException`](../../fetchtimeoutexception)具有指定错误消息的类。
 
 ```csharp
 public FetchTimeoutException(string message)
@@ -44,7 +44,7 @@ public FetchTimeoutException(string message)
 
 ## FetchTimeoutException(string, Exception) {#constructor_2}
 
-使用指定的错误消息初始化[`FetchTimeoutException`](../../fetchtimeoutexception)类的新实例。
+初始化[`FetchTimeoutException`](../../fetchtimeoutexception)具有指定错误消息的类。
 
 ```csharp
 public FetchTimeoutException(string message, Exception inner)

@@ -3,7 +3,7 @@ title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for .NET API 参考
 description: 指定其他附加联系信息
 type: docs
-weight: 18240
+weight: 18270
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/
 ---
 ## MapiContactPersonalInfoPropertySet class
@@ -18,31 +18,31 @@ public sealed class MapiContactPersonalInfoPropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor)() | 初始化 [`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) 类的新实例 |
-| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor_1)(MapiPropertyCollection) | 初始化 [`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) 类的新实例 |
+| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor)() | 初始化[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) class |
+| [MapiContactPersonalInfoPropertySet](mapicontactpersonalinfopropertyset#constructor_1)(MapiPropertyCollection) | 初始化[`MapiContactPersonalInfoPropertySet`](../mapicontactpersonalinfopropertyset) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Account](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/account) { get; set; } | 指定联系人的帐户名称 |
+| [Account](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/account) { get; set; } | 指定联系人的帐户名 |
 | [BusinessHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage) { get; set; } | 指定联系人的业务网页 URL |
 | [Children](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/children) { get; set; } | 包含孩子姓名的列表。 |
-| [ComputerNetworkName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname) { get; set; } | 指定联系人计算机连接的网络名称 |
+| [ComputerNetworkName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname) { get; set; } | 指定联系人的计算机连接到的网络 的名称 |
 | [CustomerId](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid) { get; set; } | 指定联系人的 客户 ID 号 |
 | [FreeBusyLocation](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/freebusylocation) { get; set; } | 指定一个 URL 路径，客户端 可以从中检索联系人的忙/闲信息 作为 iCal 文件 |
 | [FtpSite](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite) { get; set; } | 指定联系人的 文件传输协议 (FTP) URL |
 | [Gender](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/gender) { get; set; } | 指定联系人的性别 |
-| [GovernmentIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber) { get; set; } | 指定联系人的 政府身份证号 |
+| [GovernmentIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber) { get; set; } | 指定联系人的 政府身份证号码 |
 | [Hobbies](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/hobbies) { get; set; } | 指定联系人的爱好 |
 | [Html](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/html) { get; set; } | 指定联系人的 业务网页 URL |
 | [InstantMessagingAddress](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/instantmessagingaddress) { get; set; } | 指定联系人的 即时通讯地址 |
 | [Language](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/language) { get; set; } | 指定联系人使用的语言 |
 | [Location](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/location) { get; set; } | 指定联系人的位置 |
 | [Notes](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/notes) { get; set; } | 指定附加注释 |
-| [OrganizationalIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber) { get; set; } | 指定联系人的组织 ID 号 |
+| [OrganizationalIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber) { get; set; } | 为联系人 指定组织 ID 号 |
 | [PersonalHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage) { get; set; } | 指定联系人的个人网页 URL |
-| [ReferredByName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname) { get; set; } | 指定将该联系人推荐给用户的人的姓名 |
+| [ReferredByName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname) { get; set; } | 指定将此联系人推荐给用户 的人的姓名 |
 | [SpouseName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/spousename) { get; set; } | 指定联系人配偶/伴侣的姓名 |
 
 ### 也可以看看

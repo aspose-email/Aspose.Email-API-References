@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an object that can be used to synchronize access to the collection.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/syncroot/

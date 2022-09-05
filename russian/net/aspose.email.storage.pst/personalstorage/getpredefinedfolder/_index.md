@@ -1,14 +1,14 @@
 ---
 title: GetPredefinedFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает папку стандартных межличностных сообщений IPM из PST. Outlook может создавать несколько папок по умолчанию таких как Исходящие Удаленные Отправленные и т.д.
+description: Получает стандартную папку межличностных сообщений IPM из PST. Outlook может создавать несколько папок по умолчанию  таких как Исходящие Удаленные Отправленные и т. д.
 type: docs
 weight: 240
 url: /ru/net/aspose.email.storage.pst/personalstorage/getpredefinedfolder/
 ---
 ## PersonalStorage.GetPredefinedFolder method
 
-Получает папку стандартных межличностных сообщений (IPM) из PST. Outlook может создавать несколько папок по умолчанию, таких как Исходящие, Удаленные, Отправленные и т.д.
+Получает стандартную папку межличностных сообщений (IPM) из PST. Outlook может создавать несколько папок по умолчанию, , таких как Исходящие, Удаленные, Отправленные и т. д.
 
 ```csharp
 public FolderInfo GetPredefinedFolder(StandardIpmFolder defaultFolder)
@@ -16,11 +16,11 @@ public FolderInfo GetPredefinedFolder(StandardIpmFolder defaultFolder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| defaultFolder | StandardIpmFolder | Значение перечисления[`StandardIpmFolder`](../../standardipmfolder). |
+| defaultFolder | StandardIpmFolder | Значение[`StandardIpmFolder`](../../standardipmfolder) перечисление. |
 
 ### Возвращаемое значение
 
-A[`FolderInfo`](../../folderinfo)объект, представляющий стандартную папку IPM.
+А[`FolderInfo`](../../folderinfo) объект, представляющий стандартную папку IPM.
 
 ### Смотрите также
 

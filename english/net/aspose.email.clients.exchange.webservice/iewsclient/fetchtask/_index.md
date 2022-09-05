@@ -1,7 +1,7 @@
 ---
 title: FetchTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified task.
 type: docs
 weight: 830
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchtask/

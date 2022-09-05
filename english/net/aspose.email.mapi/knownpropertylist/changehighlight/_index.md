@@ -1,7 +1,7 @@
 ---
 title: ChangeHighlight
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a bit field that indicates how the Meeting object has changed. Area Meetings Canonical name PidLidChangeHighlight Alternate names dispidChangeHighlight
 type: docs
 weight: 2560
 url: /net/aspose.email.mapi/knownpropertylist/changehighlight/

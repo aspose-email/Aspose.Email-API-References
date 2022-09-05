@@ -1,14 +1,14 @@
 ---
 title: UpdateRule
 second_title: Aspose.Email for .NET API 参考
-description: 更改 messageRule 对象的可写属性并保存更改 权限 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委托工作或学校帐户MailboxSettings.ReadWrite 委派个人 Microsoft 帐户MailboxSettings.ReadWrite 应用程序邮箱设置.ReadWrite
+description: 更改 messageRule 对象的可写属性并保存更改 Permissions 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委托工作或学校帐户邮箱设置 ReadWrite 委托个人 Microsoft 帐户 MailboxSettings.ReadWrite 应用程序 MailboxSettings.ReadWrite
 type: docs
 weight: 420
 url: /zh/net/aspose.email.clients.graph/igraphclient/updaterule/
 ---
 ## IGraphClient.UpdateRule method
 
-更改 messageRule 对象的可写属性并保存更改。 权限 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委托（工作或学校帐户）MailboxSettings.ReadWrite 委派（个人 Microsoft 帐户）MailboxSettings.ReadWrite 应用程序邮箱设置.ReadWrite
+更改 messageRule 对象的可写属性并保存更改。 Permissions 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委托（工作或学校帐户）邮箱设置。 ReadWrite 委托（个人 Microsoft 帐户） MailboxSettings.ReadWrite 应用程序 MailboxSettings.ReadWrite
 
 ```csharp
 public InboxRule UpdateRule(InboxRule rule)
@@ -16,11 +16,11 @@ public InboxRule UpdateRule(InboxRule rule)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rule | InboxRule | 要更新的规则 |
+| rule | InboxRule | 更新规则 |
 
 ### 返回值
 
-更新的规则
+更新规则
 
 ### 也可以看看
 

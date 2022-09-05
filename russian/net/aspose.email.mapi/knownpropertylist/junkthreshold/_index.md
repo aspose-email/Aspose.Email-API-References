@@ -1,14 +1,14 @@
 ---
 title: JunkThreshold
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает насколько агрессивно следует отправлять входящую электронную почту в папку нежелательной почты. ОбластьСпам Каноническое имяPidTagJunkThreshold Альтернативные именаPR_JUNK_THRESHOLD
+description: Указывает насколько агрессивно входящие сообщения должны отправляться в папку нежелательной почты. Область Spam Каноническое имя PidTagJunkThreshold Альтернативные имена PR_JUNK_THRESHOLD
 type: docs
 weight: 11910
 url: /ru/net/aspose.email.mapi/knownpropertylist/junkthreshold/
 ---
 ## KnownPropertyList.JunkThreshold field
 
-Указывает, насколько агрессивно следует отправлять входящую электронную почту в папку нежелательной почты. Область:Спам Каноническое имя:PidTagJunkThreshold Альтернативные имена:PR_JUNK_THRESHOLD
+Указывает, насколько агрессивно входящие сообщения должны отправляться в папку нежелательной почты. Область: Spam Каноническое имя: PidTagJunkThreshold Альтернативные имена: PR_JUNK_THRESHOLD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkThreshold;

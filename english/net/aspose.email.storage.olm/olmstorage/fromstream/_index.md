@@ -1,7 +1,7 @@
 ---
 title: FromStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load OLM from stream.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.olm/olmstorage/fromstream/

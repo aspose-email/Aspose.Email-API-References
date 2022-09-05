@@ -18,7 +18,7 @@ public sealed class ExchangeFolderPermission : ExchangeBasePermission
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeFolderPermission](exchangefolderpermission)(ExchangeFolderUserInfo) | Инициализирует новый экземпляр[`ExchangeFolderPermission`](../exchangefolderpermission)class |
+| [ExchangeFolderPermission](exchangefolderpermission)(ExchangeFolderUserInfo) | Инициализирует новый экземпляр[`ExchangeFolderPermission`](../exchangefolderpermission) класс |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public sealed class ExchangeFolderPermission : ExchangeBasePermission
 | [IsFolderVisible](../../aspose.email.clients.exchange/exchangebasepermission/isfoldervisible) { get; set; } | Получает или задает значение, указывающее, может ли пользователь просматривать папку. |
 | [PermissionLevel](../../aspose.email.clients.exchange/exchangefolderpermission/permissionlevel) { get; set; } | Получает или задает комбинацию разрешений, которые пользователь имеет для папки. |
 | [ReadItems](../../aspose.email.clients.exchange/exchangefolderpermission/readitems) { get; set; } | Получает или задает значение, указывающее, есть ли у пользователя разрешение на чтение элементов в папке. |
-| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или пользователя-делегата, имеющего права доступа к папке |
+| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или делегированного пользователя, у которого есть права доступа к папке |
 
 ### Смотрите также
 

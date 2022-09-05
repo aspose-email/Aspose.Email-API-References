@@ -1,14 +1,14 @@
 ---
 title: IpmSubtreeEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_SUBTREE_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_SUBTREE_ENTRYID
 type: docs
 weight: 11750
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmsubtreeentryid/
 ---
 ## KnownPropertyList.IpmSubtreeEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_SUBTREE_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_SUBTREE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmSubtreeEntryid;

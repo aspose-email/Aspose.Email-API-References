@@ -16,17 +16,17 @@ public ExchangeDelegateUserCollection ListDelegates(string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 邮箱。 |
+| mailbox | String | 一个邮箱。 |
 
 ### 返回值
 
-A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)代表代理用户。
+一个[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)代表委托用户。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

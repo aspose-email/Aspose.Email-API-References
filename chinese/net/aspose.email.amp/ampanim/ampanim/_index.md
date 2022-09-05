@@ -1,14 +1,14 @@
 ---
 title: AmpAnim
 second_title: Aspose.Email for .NET API 参考
-description: 创建 AmpAnim 实例
+description: 创建 AmpAnim 的实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.amp/ampanim/ampanim/
 ---
 ## AmpAnim constructor
 
-创建 AmpAnim 实例。
+创建 AmpAnim 的实例。
 
 ```csharp
 public AmpAnim(int width, int height)

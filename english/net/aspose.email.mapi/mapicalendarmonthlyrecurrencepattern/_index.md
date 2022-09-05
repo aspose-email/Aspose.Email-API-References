@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the monthly recurrence pattern of the mapi calendar
 type: docs
-weight: 17830
+weight: 18020
 url: /net/aspose.email.mapi/mapicalendarmonthlyrecurrencepattern/
 ---
 ## MapiCalendarMonthlyRecurrencePattern class

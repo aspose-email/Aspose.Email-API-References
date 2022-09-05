@@ -20,7 +20,7 @@ public Task<int> GetMessageCountAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -42,11 +42,11 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public Task<int> GetMessageCountAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -87,11 +87,11 @@ public Task<int> GetMessageCountAsync(bool closeTransaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -112,11 +112,11 @@ public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -139,12 +139,12 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -165,11 +165,11 @@ public Task<int> GetMessageCountAsync(CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -189,12 +189,12 @@ public Task<int> GetMessageCountAsync(bool closeTransaction, CancellationToken t
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

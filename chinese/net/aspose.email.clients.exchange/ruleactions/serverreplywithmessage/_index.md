@@ -1,14 +1,14 @@
 ---
 title: ServerReplyWithMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置要作为对传入消息的回复而发送的模板消息的 ID
+description: 获取或设置要作为对传入消息的回复发送的模板消息的 ID
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange/ruleactions/serverreplywithmessage/
 ---
 ## RuleActions.ServerReplyWithMessage property
 
-获取或设置要作为对传入消息的回复而发送的模板消息的 ID。
+获取或设置要作为对传入消息的回复发送的模板消息的 ID。
 
 ```csharp
 public string ServerReplyWithMessage { get; set; }

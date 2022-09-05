@@ -1,14 +1,14 @@
 ---
 title: EmsAbReferralList
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REFERRAL_LIST
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REFERRAL_LIST
 type: docs
 weight: 8360
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabreferrallist/
 ---
 ## KnownPropertyList.EmsAbReferralList field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REFERRAL_LIST
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REFERRAL_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReferralList;

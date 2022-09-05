@@ -18,19 +18,19 @@ public class ExchangeFolderInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeFolderInfo](exchangefolderinfo)() | Инициализирует новый экземпляр класса[`ExchangeFolderInfo`](../exchangefolderinfo) |
+| [ExchangeFolderInfo](exchangefolderinfo)() | Инициализирует новый экземпляр[`ExchangeFolderInfo`](../exchangefolderinfo) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ChildFolderCount](../../aspose.email.clients.exchange/exchangefolderinfo/childfoldercount) { get; } | Количество дочерних папок |
-| [DisplayName](../../aspose.email.clients.exchange/exchangefolderinfo/displayname) { get; } | Показать имя папки |
+| [DisplayName](../../aspose.email.clients.exchange/exchangefolderinfo/displayname) { get; } | Отображаемое имя папки |
 | [FolderClass](../../aspose.email.clients.exchange/exchangefolderinfo/folderclass) { get; } | Получает класс папки для данной папки. |
 | [FolderType](../../aspose.email.clients.exchange/exchangefolderinfo/foldertype) { get; } | Получает тип папки для данной папки. |
 | [Hidden](../../aspose.email.clients.exchange/exchangefolderinfo/hidden) { get; } | Получает значение, указывающее, скрыта ли папка |
-| [ParentUri](../../aspose.email.clients.exchange/exchangefolderinfo/parenturi) { get; } | uri родительской папки |
-| [Size](../../aspose.email.clients.exchange/exchangefolderinfo/size) { get; } | Содержит размер в байтах, используемый объектом Message на сервере. |
+| [ParentUri](../../aspose.email.clients.exchange/exchangefolderinfo/parenturi) { get; } | Родительская папка uri |
+| [Size](../../aspose.email.clients.exchange/exchangefolderinfo/size) { get; } | Содержит размер в байтах, используемый объектом сообщения на сервере. |
 | [TotalCount](../../aspose.email.clients.exchange/exchangefolderinfo/totalcount) { get; } | Получает общее количество элементов. |
 | [UnreadCount](../../aspose.email.clients.exchange/exchangefolderinfo/unreadcount) { get; } | Получает количество непрочитанных элементов. |
 | [Uri](../../aspose.email.clients.exchange/exchangefolderinfo/uri) { get; } | Папка Uri |

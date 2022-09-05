@@ -1,14 +1,14 @@
 ---
 title: Initials
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает инициалы контакта
+description: Получает или задает инициалы контакта
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/initials/
 ---
 ## MapiContactNamePropertySet.Initials property
 
-Получает или устанавливает инициалы контакта
+Получает или задает инициалы контакта
 
 ```csharp
 public string Initials { get; set; }

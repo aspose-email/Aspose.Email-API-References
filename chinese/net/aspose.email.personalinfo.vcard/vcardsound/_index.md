@@ -3,7 +3,7 @@ title: VCardSound
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 声音属性
 type: docs
-weight: 19700
+weight: 19750
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsound/
 ---
 ## VCardSound class
@@ -18,16 +18,16 @@ public sealed class VCardSound
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardSound](vcardsound)() | 初始化 [`VCardSound`](../vcardsound) 类的新实例 |
+| [VCardSound](vcardsound)() | 初始化[`VCardSound`](../vcardsound) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.personalinfo.vcard/vcardsound/data) { get; set; } | 获取或设置声音数据（` null` ifvalueLocationis not` inline` ) |
+| [Data](../../aspose.email.personalinfo.vcard/vcardsound/data) { get; set; } | 获取或设置声音数据（`无效的`如果valueLocation不是`排队`) |
 | [SoundType](../../aspose.email.personalinfo.vcard/vcardsound/soundtype) { get; set; } | 获取或设置声音类型 |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardsound/uri) { get; set; } | 获取或设置声音的 uri (` null` ifvalueLocationis` inline` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardsound/valuelocation) { get; set; } | 获取或设置值位置 |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardsound/uri) { get; set; } | 获取或设置声音的 uri (`无效的`如果valueLocation是`排队`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardsound/valuelocation) { get; set; } | 获取或设置一个值 location |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: Справочник по Aspose.Email для .NET API
-description: ЧитаетVCardContactaspose.email.personalinfo.vcard/vcardcontactиз указанного потока содержащего vCard. Поддерживаемые версии vCard2.1 и 3.0
+description: ЧитаетVCardContactaspose.email.personalinfo.vcard/vcardcontact из указанного потока содержащего vCard. Поддерживаемые версии vCard 2.1 и 3.0
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/load/
 ---
 ## Load(Stream, CancellationToken) {#load_3}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, CancellationToken token)
@@ -16,19 +16,19 @@ public static VCardContact Load(Stream stream, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
+| stream | Stream | Поток для чтения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Прочитано[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ public static VCardContact Load(Stream stream, CancellationToken token)
 
 ## Load(Stream, Encoding, CancellationToken) {#load_2}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, Encoding encoding, CancellationToken token)
@@ -48,20 +48,20 @@ public static VCardContact Load(Stream stream, Encoding encoding, CancellationTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
-| encoding | Encoding | Кодирование потоковых данных |
+| stream | Stream | Поток для чтения |
+| encoding | Encoding | Потоковое кодирование данных |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Прочитано[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public static VCardContact Load(Stream stream, Encoding encoding, CancellationTo
 
 ## Load(string, CancellationToken) {#load_7}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного файла vCard Поддерживаемая vCard версии 2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, CancellationToken token)
@@ -81,18 +81,18 @@ public static VCardContact Load(string filePath, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
+| filePath | String | Имя файла для чтения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Прочитано[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пусто` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -104,7 +104,7 @@ public static VCardContact Load(string filePath, CancellationToken token)
 
 ## Load(string, Encoding, CancellationToken) {#load_6}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного файла vCard Поддерживаемая vCard версии 2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, Encoding encoding, CancellationToken token)
@@ -112,19 +112,19 @@ public static VCardContact Load(string filePath, Encoding encoding, Cancellation
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
+| filePath | String | Имя файла для чтения |
 | encoding | Encoding | Потоковое кодирование данных |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Прочитано[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пусто` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -136,7 +136,7 @@ public static VCardContact Load(string filePath, Encoding encoding, Cancellation
 
 ## Load(string) {#load_4}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного файла vCard Поддерживаемая vCard версии 2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(string filePath)
@@ -144,17 +144,17 @@ public static VCardContact Load(string filePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
+| filePath | String | Имя файла для чтения |
 
 ### Возвращаемое значение
 
-A read[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -166,7 +166,7 @@ A read[`VCardContact`](../../vcardcontact)
 
 ## Load(string, Encoding) {#load_5}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного файла vCard Поддерживаемая vCard версии 2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, Encoding encoding)
@@ -174,18 +174,18 @@ public static VCardContact Load(string filePath, Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
+| filePath | String | Имя файла для чтения |
 | encoding | Encoding | Кодировка файла |
 
 ### Возвращаемое значение
 
-A read[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -197,7 +197,7 @@ A read[`VCardContact`](../../vcardcontact)
 
 ## Load(Stream) {#load}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream)
@@ -205,18 +205,18 @@ public static VCardContact Load(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
+| stream | Stream | Поток для чтения |
 
 ### Возвращаемое значение
 
-A read[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -228,7 +228,7 @@ A read[`VCardContact`](../../vcardcontact)
 
 ## Load(Stream, Encoding) {#load_1}
 
-Читает[`VCardContact`](../../vcardcontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`VCardContact`](../../vcardcontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, Encoding encoding)
@@ -236,19 +236,19 @@ public static VCardContact Load(Stream stream, Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
-| encoding | Encoding | Кодирование потоковых данных |
+| stream | Stream | Поток для чтения |
+| encoding | Encoding | Потоковое кодирование данных |
 
 ### Возвращаемое значение
 
-A read[`VCardContact`](../../vcardcontact)
+чтение[`VCardContact`](../../vcardcontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the current object is equal to another object of the same type.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/mailquery/equals/
 ---
-## MailQuery.Equals method (1 of 2)
+## Equals(MailQuery) {#equals}
 
 Indicates whether the current object is equal to another object of the same type.
 
@@ -30,7 +30,7 @@ true if the current object is equal to the *other* parameter; otherwise, false.
 
 ---
 
-## MailQuery.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified Object, is equal to this instance.
 

@@ -18,10 +18,10 @@ public abstract class BaseSearchConditions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | 获取或设置字符集。 表示 出现在搜索条件中的字符串的字符集。 |
-| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | 获取或设置搜索条件匹配的自 以来的消息日期。 |
+| [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | 获取或设置字符集。 指示 出现在搜索条件中的字符串的字符集。 |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | 获取或设置搜索条件匹配的消息日期since 。 |
 | [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | 获取或设置主题文本。 |
-| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | 获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或 UID。 |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | 获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或UID。 |
 
 ### 也可以看看
 

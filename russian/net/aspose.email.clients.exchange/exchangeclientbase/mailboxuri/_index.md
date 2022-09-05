@@ -1,14 +1,14 @@
 ---
 title: MailboxUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает uri почтового ящика
+description: Получает или задает почтовый ящик uri
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/exchangeclientbase/mailboxuri/
 ---
 ## ExchangeClientBase.MailboxUri property
 
-Получает или устанавливает uri почтового ящика
+Получает или задает почтовый ящик uri
 
 ```csharp
 public virtual string MailboxUri { get; set; }

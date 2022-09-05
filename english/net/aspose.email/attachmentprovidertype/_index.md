@@ -1,7 +1,7 @@
 ---
 title: AttachmentProviderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of web service manipulating the attachment.
 type: docs
 weight: 390
 url: /net/aspose.email/attachmentprovidertype/

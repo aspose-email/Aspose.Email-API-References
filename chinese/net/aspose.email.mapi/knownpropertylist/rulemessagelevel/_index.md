@@ -1,14 +1,14 @@
 ---
 title: RuleMessageLevel
 second_title: Aspose.Email for .NET API 参考
-description: 包含 0x00000000设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageLevel 替代名称PR_RULE_MSG_LEVEL ptagRuleMsgLevel
+description: 包含 0x00000000在 FAI 消息上设置 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageLevel 备用名称PR_RULE_MSG_LEVELptagRuleMsgLevel
 type: docs
 weight: 16520
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessagelevel/
 ---
 ## KnownPropertyList.RuleMessageLevel field
 
-包含 0x00000000。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageLevel 替代名称:PR_RULE_MSG_LEVEL, ptagRuleMsgLevel
+包含 0x00000000。在 FAI 消息上设置。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageLevel 备用名称：PR_RULE_MSG_LEVEL、ptagRuleMsgLevel
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageLevel;

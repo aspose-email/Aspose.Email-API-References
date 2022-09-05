@@ -1,12 +1,12 @@
 ---
 title: CreateConnection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates new independent connection for operations not linked to threads not default connection. Invocation of this method is similar to invocation of CreateConnectioncreateAsDefaultConnection  false Please see more in documentation for EmailClient.ConnectionAsgmtMode property.
 type: docs
 weight: 280
 url: /net/aspose.email.clients/emailclient/createconnection/
 ---
-## EmailClient.CreateConnection method (1 of 2)
+## CreateConnection() {#createconnection}
 
 Creates new independent connection for operations not linked to threads (not default connection). Invocation of this method is similar to invocation of CreateConnection(createAsDefaultConnection = false) Please see more in documentation for EmailClient.ConnectionAsgmtMode property.
 
@@ -27,7 +27,7 @@ Returns connection object
 
 ---
 
-## EmailClient.CreateConnection method (2 of 2)
+## CreateConnection(bool) {#createconnection_1}
 
 Creates new (default or independent) connection for operations. Please see more in documentation for EmailClient.ConnectionAsgmtMode property.
 

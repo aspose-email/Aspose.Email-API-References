@@ -1,14 +1,14 @@
 ---
 title: WriteLine
 second_title: Aspose.Email for .NET API 参考
-description: 将空行写入附加程序
+description: 将空行写入 appenders
 type: docs
 weight: 100
 url: /zh/net/aspose.email.tools.logging/logger/writeline/
 ---
 ## WriteLine() {#writeline}
 
-将空行写入附加程序。
+将空行写入 appenders。
 
 ```csharp
 public void WriteLine()
@@ -32,7 +32,7 @@ public void WriteLine(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 要写入的消息。 |
+| message | String | 要写的消息。 |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public void WriteLine(object message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | Object | 要写入的消息。 |
+| message | Object | 要写的消息。 |
 
 ### 也可以看看
 

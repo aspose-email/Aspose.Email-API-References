@@ -1,7 +1,7 @@
 ---
 title: HomeFax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Home fax number
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/phonenumbercategory/homefax/

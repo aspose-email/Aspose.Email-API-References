@@ -1,14 +1,14 @@
 ---
 title: SentItemsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取已发送项目 uri
+description: 获取已发送的物品 uri.
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/sentitemsuri/
 ---
 ## ExchangeMailboxInfo.SentItemsUri property
 
-获取已发送项目 uri。
+获取已发送的物品 uri.
 
 ```csharp
 public abstract string SentItemsUri { get; set; }

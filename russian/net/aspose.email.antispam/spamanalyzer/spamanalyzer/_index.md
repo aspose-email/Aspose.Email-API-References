@@ -1,14 +1,14 @@
 ---
 title: SpamAnalyzer
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаSpamAnalyzeraspose.email.antispam/spamanalyzer.
+description: Инициализировать новый экземплярSpamAnalyzeraspose.email.antispam/spamanalyzer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.antispam/spamanalyzer/spamanalyzer/
 ---
 ## SpamAnalyzer() {#constructor}
 
-Инициализировать новый экземпляр класса[`SpamAnalyzer`](../../spamanalyzer).
+Инициализировать новый экземпляр[`SpamAnalyzer`](../../spamanalyzer) класс.
 
 ```csharp
 public SpamAnalyzer()
@@ -24,7 +24,7 @@ public SpamAnalyzer()
 
 ## SpamAnalyzer(Stream) {#constructor_1}
 
-Инициализировать новый экземпляр класса[`SpamAnalyzer`](../../spamanalyzer).
+Инициализировать новый экземпляр[`SpamAnalyzer`](../../spamanalyzer) класс.
 
 ```csharp
 public SpamAnalyzer(Stream stream)
@@ -38,7 +38,7 @@ public SpamAnalyzer(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*stream*равно null. |
+| ArgumentNullException | Если*stream* нулевой. |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public SpamAnalyzer(Stream stream)
 
 ## SpamAnalyzer(string) {#constructor_2}
 
-Инициализировать новый экземпляр класса[`SpamAnalyzer`](../../spamanalyzer).
+Инициализировать новый экземпляр[`SpamAnalyzer`](../../spamanalyzer) класс.
 
 ```csharp
 public SpamAnalyzer(string filePath)
@@ -64,7 +64,7 @@ public SpamAnalyzer(string filePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Если*filePath*имеет значение null или пустую строку. |
+| ArgumentException | Если*filePath* является нулевым или пустой строкой. |
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: LoadContactPhotoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads contact photo binary data
 type: docs
 weight: 510
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/loadcontactphotoasync/

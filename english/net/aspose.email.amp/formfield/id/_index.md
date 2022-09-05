@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set Id of field.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/formfield/id/

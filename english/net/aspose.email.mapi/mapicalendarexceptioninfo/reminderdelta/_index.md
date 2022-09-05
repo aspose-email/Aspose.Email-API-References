@@ -1,7 +1,7 @@
 ---
 title: ReminderDelta
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the reminder delta.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/reminderdelta/

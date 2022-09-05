@@ -1,14 +1,14 @@
 ---
 title: MeetingType
 second_title: Aspose.Email for .NET API 参考
-description: 表示会议请求对象或会议更新对象的类型 区域会议 规范名称PidLidMeetingType 替代名称dispidMeetingType
+description: 表示会议请求对象或会议更新对象的类型 区域Meetings 规范名称PidLidMeetingType 替代名称dispidMeetingType
 type: docs
 weight: 12400
 url: /zh/net/aspose.email.mapi/knownpropertylist/meetingtype/
 ---
 ## KnownPropertyList.MeetingType field
 
-表示会议请求对象或会议更新对象的类型。 区域:会议 规范名称:PidLidMeetingType 替代名称:dispidMeetingType
+表示会议请求对象或会议更新对象的类型。 区域：Meetings 规范名称：PidLidMeetingType 替代名称：dispidMeetingType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MeetingType;

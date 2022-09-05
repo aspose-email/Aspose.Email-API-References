@@ -1,7 +1,7 @@
 ---
 title: SyntaxValidating
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This event occurs when validating the syntax of an email addresss.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.verifications/emailvalidator/syntaxvalidating/

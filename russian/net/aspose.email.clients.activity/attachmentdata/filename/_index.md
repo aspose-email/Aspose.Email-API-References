@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя файла вложения. ОбязательноДа
+description: Имя файла вложения. Обязательно Да
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/attachmentdata/filename/
 ---
 ## AttachmentData.FileName property
 
-Имя файла вложения. Обязательно:Да
+Имя файла вложения. Обязательно: Да
 
 ```csharp
 public string FileName { get; set; }

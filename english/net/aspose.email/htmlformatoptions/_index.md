@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the Html format options.
 type: docs
-weight: 17360
+weight: 17530
 url: /net/aspose.email/htmlformatoptions/
 ---
 ## HtmlFormatOptions enumeration

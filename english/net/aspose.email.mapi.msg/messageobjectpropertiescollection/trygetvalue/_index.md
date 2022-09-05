@@ -1,7 +1,7 @@
 ---
 title: TryGetValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Tries to get value by specified key.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi.msg/messageobjectpropertiescollection/trygetvalue/

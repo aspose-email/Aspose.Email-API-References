@@ -1,7 +1,7 @@
 ---
 title: GovernmentIdNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts government ID number
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber/

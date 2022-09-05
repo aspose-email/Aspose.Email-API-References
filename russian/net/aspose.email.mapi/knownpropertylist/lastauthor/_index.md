@@ -1,14 +1,14 @@
 ---
 title: LastAuthor
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает самого последнего автора файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameLastAuthor Альтернативные именаurnschemas-microsoft-comofficeofficeLastAuthor
+description: Указывает последнего автора файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameLastAuthor Альтернативные имена urnschemas-microsoft-comofficeofficeLastAuthor
 type: docs
 weight: 11970
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastauthor/
 ---
 ## KnownPropertyList.LastAuthor field
 
-Указывает самого последнего автора файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameLastAuthor Альтернативные имена:urn:schemas-microsoft-com:office:office#LastAuthor
+Указывает последнего автора файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameLastAuthor Альтернативные имена: urn:schemas-microsoft-com:office:office#LastAuthor
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastAuthor;

@@ -1,7 +1,7 @@
 ---
 title: Directory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the directory server to be used. Area Conferencing Canonical name PidLidDirectory Alternate names dispidDirectory
 type: docs
 weight: 4040
 url: /net/aspose.email.mapi/knownpropertylist/directory/

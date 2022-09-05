@@ -17,7 +17,7 @@ public Task<bool> ExistFolderAsync(string folderName, IConnection connection = n
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | folderName | IConnection | Имя папки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

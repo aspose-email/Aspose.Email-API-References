@@ -1,14 +1,14 @@
 ---
 title: ContentBase
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение заголовка MIME Content-Base который определяет базовый URI для разрешения относительных URL-адресов содержащихся в теле сообщения. ОбластьЭлектронная почта Каноническое имяPidNameContentBase Альтернативные именаBodyContentBase
+description: Указывает значение заголовка MIME Content-Base который определяет базовый URI для разрешения относительных URL-адресов содержащихся в теле сообщения. Область Email Каноническое имя PidNameContentBase Альтернативные имена BodyContentBase
 type: docs
 weight: 3150
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentbase/
 ---
 ## KnownPropertyList.ContentBase field
 
-Указывает значение заголовка MIME Content-Base, который определяет базовый URI для разрешения относительных URL-адресов, содержащихся в теле сообщения. Область:Электронная почта Каноническое имя:PidNameContentBase Альтернативные имена:BodyContentBase
+Указывает значение заголовка MIME Content-Base, который определяет базовый URI для разрешения относительных URL-адресов, содержащихся в теле сообщения. Область: Email Каноническое имя: PidNameContentBase Альтернативные имена: BodyContentBase
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentBase;

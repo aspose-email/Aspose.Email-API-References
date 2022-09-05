@@ -1,14 +1,14 @@
 ---
 title: EmsAbRasCallbackNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_RAS_CALLBACK_NUMBER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_RAS_CALLBACK_NUMBER
 type: docs
 weight: 8310
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabrascallbacknumber/
 ---
 ## KnownPropertyList.EmsAbRasCallbackNumber field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_RAS_CALLBACK_NUMBER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_RAS_CALLBACK_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRasCallbackNumber;

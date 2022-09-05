@@ -27,7 +27,7 @@ public enum AutodiscoverErrorCode
 | SettingIsNotAvailable | `6` | 指定的设置不可用。 |
 | ServerBusy | `7` | 服务器太忙，无法处理请求。 |
 | InvalidDomain | `8` | 请求的域无效。 |
-| NotFederated | `9` | 组织不是联合的。 |
+| NotFederated | `9` | 组织未联合。 |
 | InternalServerError | `10` | 内部服务器错误。 |
 
 ### 也可以看看

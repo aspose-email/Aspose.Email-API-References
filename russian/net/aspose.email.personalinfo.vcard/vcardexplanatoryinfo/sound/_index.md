@@ -3,7 +3,7 @@ title: Sound
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или устанавливает звук
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sound/
 ---
 ## VCardExplanatoryInfo.Sound property

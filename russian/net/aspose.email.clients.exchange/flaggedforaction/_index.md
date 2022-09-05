@@ -1,14 +1,14 @@
 ---
 title: FlaggedForAction
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет помеченные для действия
+description: Перечисления отмеченные для action
 type: docs
 weight: 3460
 url: /ru/net/aspose.email.clients.exchange/flaggedforaction/
 ---
 ## FlaggedForAction enumeration
 
-Перечисляет помеченные для действия
+Перечисления, отмеченные для action
 
 ```csharp
 public enum FlaggedForAction
@@ -19,7 +19,7 @@ public enum FlaggedForAction
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Пометка для действия не указана |
-| Any | `0` | Сообщение помечается при любом действии. |
+| Any | `0` | Сообщение помечается любым действием. |
 | Call | `1` | Получателю предлагается позвонить отправителю. |
 | DoNotForward | `2` | Получателю предлагается не пересылать сообщение. |
 | FollowUp | `3` | Получателю предлагается ответить на сообщение. |

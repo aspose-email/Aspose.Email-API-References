@@ -1,14 +1,14 @@
 ---
 title: MediaTypeNames.Text
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип текстовых данных во вложении сообщения электронной почты.
+description: Указывает тип текстовых данных во вложении к сообщению электронной почты.
 type: docs
-weight: 19170
+weight: 19200
 url: /ru/net/aspose.email.mime/mediatypenames.text/
 ---
 ## MediaTypeNames.Text class
 
-Указывает тип текстовых данных во вложении сообщения электронной почты.
+Указывает тип текстовых данных во вложении к сообщению электронной почты.
 
 ```csharp
 public sealed class Text
@@ -18,10 +18,10 @@ public sealed class Text
 
 | Имя | Описание |
 | --- | --- |
-| const [Html](../../aspose.email.mime/text/html) | Определяет тип носителя text/html |
-| const [Plain](../../aspose.email.mime/text/plain) | Указывает тип носителя текст/обычный |
-| const [RichText](../../aspose.email.mime/text/richtext) | Определяет тип носителя text/richtext |
-| const [Xml](../../aspose.email.mime/text/xml) | Указывает тип носителя text/xml |
+| const [Html](../../aspose.email.mime/text/html) | Определяет текстовый/html тип мультимедиа |
+| const [Plain](../../aspose.email.mime/text/plain) | Определяет текстовый/обычный тип носителя |
+| const [RichText](../../aspose.email.mime/text/richtext) | Определяет тип носителя текст/форматированный текст |
+| const [Xml](../../aspose.email.mime/text/xml) | Определяет тип носителя text/xml |
 
 ### Смотрите также
 

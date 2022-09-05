@@ -1,12 +1,12 @@
 ---
 title: FetchMapiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch array of MapiCalendaraspose.email.mapi/mapicalendar objects.
 type: docs
 weight: 770
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapicalendar/
 ---
-## IEWSClient.FetchMapiCalendar method (1 of 2)
+## FetchMapiCalendar(IEnumerable&lt;string&gt;) {#fetchmapicalendar}
 
 Fetch array of [`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) objects.
 
@@ -31,7 +31,7 @@ Fetch array of [`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) objects
 
 ---
 
-## IEWSClient.FetchMapiCalendar method (2 of 2)
+## FetchMapiCalendar(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapicalendar_1}
 
 Fetch array of [`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) objects.
 

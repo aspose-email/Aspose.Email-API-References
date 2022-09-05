@@ -17,7 +17,7 @@ public bool TryGetValue(long key, out MapiProperty value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | key | Int64 | Тег свойства. |
-| значение | MapiProperty& |  |
+| value | MapiProperty& |  |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddress
 second_title: Aspose.Email for .NET API 参考
-description: 指的是 定义联系人物理地址的属性组
+description: 指 定义联系人物理地址的属性组
 type: docs
-weight: 18270
+weight: 18300
 url: /zh/net/aspose.email.mapi/mapicontactphysicaladdress/
 ---
 ## MapiContactPhysicalAddress class
 
-指的是 定义联系人物理地址的属性组。
+指 定义联系人物理地址的属性组。
 
 ```csharp
 public sealed class MapiContactPhysicalAddress
@@ -18,7 +18,7 @@ public sealed class MapiContactPhysicalAddress
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactPhysicalAddress](mapicontactphysicaladdress)() | 初始化[`MapiContactPhysicalAddress`](../mapicontactphysicaladdress)类的新实例。 |
+| [MapiContactPhysicalAddress](mapicontactphysicaladdress)() | 初始化[`MapiContactPhysicalAddress`](../mapicontactphysicaladdress)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class MapiContactPhysicalAddress
 | [Address](../../aspose.email.mapi/mapicontactphysicaladdress/address) { get; set; } | 指定联系人地址的完整地址 |
 | [City](../../aspose.email.mapi/mapicontactphysicaladdress/city) { get; set; } | 指定联系人地址的城市或地区部分 |
 | [Country](../../aspose.email.mapi/mapicontactphysicaladdress/country) { get; set; } | 指定联系人地址的国家或地区部分 |
-| [CountryCode](../../aspose.email.mapi/mapicontactphysicaladdress/countrycode) { get; set; } | 指定联系人地址的国家代码部分 |
+| [CountryCode](../../aspose.email.mapi/mapicontactphysicaladdress/countrycode) { get; set; } | 指定联系人地址的国家/地区代码部分 |
 | [IsMailingAddress](../../aspose.email.mapi/mapicontactphysicaladdress/ismailingaddress) { get; set; } | 获取或设置一个值，指示此地址是否为邮寄地址 |
 | [PostalCode](../../aspose.email.mapi/mapicontactphysicaladdress/postalcode) { get; set; } | 指定联系人地址的邮政编码（邮政编码）部分 |
 | [PostOfficeBox](../../aspose.email.mapi/mapicontactphysicaladdress/postofficebox) { get; set; } | 获取或设置邮政信箱 |

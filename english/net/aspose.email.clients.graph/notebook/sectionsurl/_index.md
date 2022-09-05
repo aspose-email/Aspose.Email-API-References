@@ -1,7 +1,7 @@
 ---
 title: SectionsUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The URL for the sections navigation property which returns all the sections in the notebook. Readonly.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.graph/notebook/sectionsurl/

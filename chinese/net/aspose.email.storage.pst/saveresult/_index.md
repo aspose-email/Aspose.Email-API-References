@@ -3,7 +3,7 @@ title: SaveResult
 second_title: Aspose.Email for .NET API 参考
 description: 表示保存检索到的项目的结果
 type: docs
-weight: 20280
+weight: 20330
 url: /zh/net/aspose.email.storage.pst/saveresult/
 ---
 ## SaveResult class
@@ -19,7 +19,7 @@ public class SaveResult
 | 姓名 | 描述 |
 | --- | --- |
 | [Attachments](../../aspose.email.storage.pst/saveresult/attachments) { get; } | 获取附件的保存结果。 |
-| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties) { get; } | 获取缺失属性的集合。 |
+| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties) { get; } | 获取遗漏属性的集合。 |
 | [Status](../../aspose.email.storage.pst/saveresult/status) { get; } | 获取保存状态。 |
 
 ### 也可以看看

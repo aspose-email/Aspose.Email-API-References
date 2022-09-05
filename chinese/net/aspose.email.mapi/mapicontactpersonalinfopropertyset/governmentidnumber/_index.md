@@ -1,14 +1,14 @@
 ---
 title: GovernmentIdNumber
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人的 政府身份证号
+description: 指定联系人的 政府身份证号码
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber/
 ---
 ## MapiContactPersonalInfoPropertySet.GovernmentIdNumber property
 
-指定联系人的 政府身份证号
+指定联系人的 政府身份证号码
 
 ```csharp
 public string GovernmentIdNumber { get; set; }

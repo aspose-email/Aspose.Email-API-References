@@ -1,14 +1,14 @@
 ---
 title: ExchDatabaseSchema
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает массив URL-адресов который идентифицирует другие папки в том же хранилище сообщений содержащие элементы определения схемы. ОбластьОбщие Каноническое имяPidNameExchDatabaseSchema Альтернативные именаurnschemas-microsoft-comexch-databaseschema
+description: Указывает массив URL-адресов который идентифицирует другие папки в том же хранилище сообщений которые содержат элементы определения схемы. Область Common Каноническое имя PidNameExchDatabaseSchema Альтернативные имена urnschemas-microsoft-comexch-databaseschema
 type: docs
 weight: 9900
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchdatabaseschema/
 ---
 ## KnownPropertyList.ExchDatabaseSchema field
 
-Указывает массив URL-адресов, который идентифицирует другие папки в том же хранилище сообщений, содержащие элементы определения схемы. Область:Общие Каноническое имя:PidNameExchDatabaseSchema Альтернативные имена:urn:schemas-microsoft-com:exch-data:baseschema
+Указывает массив URL-адресов, который идентифицирует другие папки в том же хранилище сообщений, которые содержат элементы определения схемы. Область: Common Каноническое имя: PidNameExchDatabaseSchema Альтернативные имена: urn:schemas-microsoft-com:exch-data:baseschema
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchDatabaseSchema;

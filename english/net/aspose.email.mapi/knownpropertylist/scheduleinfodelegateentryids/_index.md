@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoDelegateEntryIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the EntryIDs of the delegates. Area Free/Busy Properties Canonical name PidTagScheduleInfoDelegateEntryIds Alternate names PR_SCHDINFO_DELEGATE_ENTRYIDS
 type: docs
 weight: 16730
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfodelegateentryids/

@@ -24,7 +24,7 @@ public class RightsManagementInformationResponce
 
 | Имя | Описание |
 | --- | --- |
-| [RightsManagementTemplates](../../aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/rightsmanagementtemplates) { get; } | Список шаблонов управления правами. Клиенту может быть возвращено максимум 20 объектов RightsManagementTemplate. |
+| [RightsManagementTemplates](../../aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/rightsmanagementtemplates) { get; } | Список шаблонов RightsManagementTemplate. Клиенту может быть возвращено не более 20 объектов RightsManagementTemplate. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/status) { get; set; } | Указывает результат запроса команды ActiveSync. |
 
 ### Смотрите также

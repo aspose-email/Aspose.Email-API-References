@@ -3,7 +3,7 @@ title: ResourceRenderingMode
 second_title: Справочник по Aspose.Email для .NET API
 description: Обеспечивает установку различных режимов рендеринга ресурсов в html.
 type: docs
-weight: 19900
+weight: 19950
 url: /ru/net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration
@@ -20,8 +20,8 @@ public enum ResourceRenderingMode
 | --- | --- | --- |
 | None | `0` | Не отображаются ресурсы в html. |
 | EmbedIntoHtml | `1` | Встраивание ресурсов в html в виде строки base64. |
-| SaveToFile | `2` | Сохранение ресурсов в файл и вставка в html тега src с указанием пути к этому файлу. |
-| SubstituteFromFile | `3` | Использование пользовательского файла в качестве значка и вставка в тег src html с путем к этому файлу. |
+| SaveToFile | `2` | Сохранение ресурсов в файл и вставка в html тега src с путем к этому файлу. |
+| SubstituteFromFile | `3` | Использование пользовательского файла в качестве значка и вставка в html тега src с путем к этому файлу. |
 
 ### Смотрите также
 

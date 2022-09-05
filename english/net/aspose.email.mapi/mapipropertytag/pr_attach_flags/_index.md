@@ -1,7 +1,7 @@
 ---
 title: PR_ATTACH_FLAGS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a bitmask of flags for an attachment.
 type: docs
 weight: 640
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_flags/

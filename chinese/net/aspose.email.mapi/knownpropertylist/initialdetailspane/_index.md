@@ -1,14 +1,14 @@
 ---
 title: InitialDetailsPane
 second_title: Aspose.Email for .NET API 参考
-description: 表示首先显示显示模板的哪一页 区域MAPI 显示表 规范名称PidTagInitialDetailsPane 替代名称PR_INITIAL_DETAILS_PANE
+description: 指示首先显示显示模板的哪个页面 区域MAPI 显示表 规范名称PidTagInitialDetailsPane 备用名称PR_INITIAL_DETAILS_PANE
 type: docs
 weight: 11330
 url: /zh/net/aspose.email.mapi/knownpropertylist/initialdetailspane/
 ---
 ## KnownPropertyList.InitialDetailsPane field
 
-表示首先显示显示模板的哪一页。 区域:MAPI 显示表 规范名称:PidTagInitialDetailsPane 替代名称:PR_INITIAL_DETAILS_PANE
+指示首先显示显示模板的哪个页面。 区域：MAPI 显示表 规范名称：PidTagInitialDetailsPane 备用名称：PR_INITIAL_DETAILS_PANE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InitialDetailsPane;

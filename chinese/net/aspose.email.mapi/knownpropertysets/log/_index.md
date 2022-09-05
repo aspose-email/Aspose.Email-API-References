@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/log/
 ---
 ## KnownPropertySets.Log field
 
-区域名称:日志 属性集名称:PSETID_Log
+区域名称：日志 属性集名称：PSETID_Log
 
 ```csharp
 public static readonly Guid Log;

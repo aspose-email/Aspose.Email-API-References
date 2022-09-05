@@ -1,14 +1,14 @@
 ---
 title: SenderIdStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Сообщает о результатах проверки Sender-ID. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidTagSenderIdStatus Альтернативные именаPR_SENDER_ID_STATUS
+description: Сообщает о результатах проверки Sender-ID. Область Свойства безопасного обмена сообщениями Каноническое имя PidTagSenderIdStatus Альтернативные имена PR_SENDER_ID_STATUS
 type: docs
 weight: 17120
 url: /ru/net/aspose.email.mapi/knownpropertylist/senderidstatus/
 ---
 ## KnownPropertyList.SenderIdStatus field
 
-Сообщает о результатах проверки Sender-ID. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidTagSenderIdStatus Альтернативные имена:PR_SENDER_ID_STATUS
+Сообщает о результатах проверки Sender-ID. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidTagSenderIdStatus Альтернативные имена: PR_SENDER_ID_STATUS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderIdStatus;

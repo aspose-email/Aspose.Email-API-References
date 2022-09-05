@@ -1,14 +1,14 @@
 ---
 title: Nickname
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит псевдоним пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagNickname Альтернативные именаPR_NICKNAME PR_NICKNAME_A PR_NICKNAME_W
+description: Содержит псевдоним пользователя почты. Область Свойства адреса Каноническое имя PidTagNickname Альтернативные имена PR_NICKNAME PR_NICKNAME_A PR_NICKNAME_W
 type: docs
 weight: 12900
 url: /ru/net/aspose.email.mapi/knownpropertylist/nickname/
 ---
 ## KnownPropertyList.Nickname field
 
-Содержит псевдоним пользователя почты. Область:Свойства адреса Каноническое имя:PidTagNickname Альтернативные имена:PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W,
+Содержит псевдоним пользователя почты. Область: Свойства адреса Каноническое имя: PidTagNickname Альтернативные имена: PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Nickname;

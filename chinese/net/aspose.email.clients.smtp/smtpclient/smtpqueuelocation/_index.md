@@ -1,14 +1,14 @@
 ---
 title: SmtpQueueLocation
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置应用程序保存要通过在 SMTP 队列中发送处理的邮件消息的目录 请注意只允许使用绝对路径
+description: 获取或设置应用程序保存邮件消息的目录以便在 SMTP 队列中发送 请注意只允许使用绝对路径
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.smtp/smtpclient/smtpqueuelocation/
 ---
 ## SmtpClient.SmtpQueueLocation property
 
-获取或设置应用程序保存要通过在 SMTP 队列中发送处理的邮件消息的目录。 请注意:只允许使用绝对路径。
+获取或设置应用程序保存邮件消息的目录，以便在 SMTP 队列中发送。 请注意：只允许使用绝对路径。
 
 ```csharp
 public string SmtpQueueLocation { get; set; }
@@ -16,7 +16,7 @@ public string SmtpQueueLocation { get; set; }
 
 ### 适当的价值
 
-代表拾取目录的字符串
+表示拾取目录的字符串
 
 ### 也可以看看
 

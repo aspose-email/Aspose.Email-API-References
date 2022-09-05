@@ -3,7 +3,7 @@ title: MailStorageConverter.MailHandler
 second_title: Справочник по Aspose.Email для .NET API
 description: 
 type: docs
-weight: 19950
+weight: 20000
 url: /ru/net/aspose.email.storage/mailstorageconverter.mailhandler/
 ---
 ## MailStorageConverter.MailHandler delegate

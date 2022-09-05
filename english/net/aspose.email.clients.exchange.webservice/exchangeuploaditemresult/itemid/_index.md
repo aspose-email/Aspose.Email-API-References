@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the item id
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid/

@@ -1,12 +1,12 @@
 ---
 title: UnsubscribeFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sent the UNSUBSCRIBE command that removes the specified mailbox name from the servers set of active mailboxes
 type: docs
 weight: 1270
 url: /net/aspose.email.clients.imap/imapclient/unsubscribefolder/
 ---
-## ImapClient.UnsubscribeFolder method (1 of 2)
+## UnsubscribeFolder(IConnection, string) {#unsubscribefolder}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 
@@ -28,7 +28,7 @@ public void UnsubscribeFolder(IConnection connection, string folderName)
 
 ---
 
-## ImapClient.UnsubscribeFolder method (2 of 2)
+## UnsubscribeFolder(string) {#unsubscribefolder_1}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 

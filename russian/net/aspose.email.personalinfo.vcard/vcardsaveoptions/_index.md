@@ -3,7 +3,7 @@ title: VCardSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет параметры сохранения vCard
 type: docs
-weight: 19680
+weight: 19730
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsaveoptions/
 ---
 ## VCardSaveOptions class
@@ -18,18 +18,18 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [VCardSaveOptions](vcardsaveoptions#constructor)() | Инициализирует новый экземпляр класса[`VCardSaveOptions`](../vcardsaveoptions)class |
-| [VCardSaveOptions](vcardsaveoptions#constructor_1)(VCardVersion) | Инициализирует новый экземпляр класса[`VCardSaveOptions`](../vcardsaveoptions)class |
-| [VCardSaveOptions](vcardsaveoptions#constructor_2)(VCardVersion, bool) | Инициализирует новый экземпляр класса[`VCardSaveOptions`](../vcardsaveoptions)class |
+| [VCardSaveOptions](vcardsaveoptions#constructor)() | Инициализирует новый экземпляр[`VCardSaveOptions`](../vcardsaveoptions) класс |
+| [VCardSaveOptions](vcardsaveoptions#constructor_1)(VCardVersion) | Инициализирует новый экземпляр[`VCardSaveOptions`](../vcardsaveoptions) класс |
+| [VCardSaveOptions](vcardsaveoptions#constructor_2)(VCardVersion, bool) | Инициализирует новый экземпляр[`VCardSaveOptions`](../vcardsaveoptions) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.email.personalinfo.vcard/vcardsaveoptions/default) { get; } | Получает значения по умолчанию[`VCardSaveOptions`](../vcardsaveoptions) |
+| static [Default](../../aspose.email.personalinfo.vcard/vcardsaveoptions/default) { get; } | Получает значение по умолчанию[`VCardSaveOptions`](../vcardsaveoptions) |
 | [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat) { get; } | Получает формат сохранения |
 | [UseExtensions](../../aspose.email.personalinfo.vcard/vcardsaveoptions/useextensions) { get; set; } | Получает или задает значение, указывающее, можно ли использовать расширенные типы |
-| [Version](../../aspose.email.personalinfo.vcard/vcardsaveoptions/version) { get; set; } | Получает или задает версию vCard |
+| [Version](../../aspose.email.personalinfo.vcard/vcardsaveoptions/version) { get; set; } | Получает или задает vCard version |
 
 ### Смотрите также
 

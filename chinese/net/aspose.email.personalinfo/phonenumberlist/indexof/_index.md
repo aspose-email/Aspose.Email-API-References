@@ -16,11 +16,11 @@ public int IndexOf(PhoneNumber value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | PhoneNumber | Object在列表中定位。 |
+| value | PhoneNumber | 这Object在列表中定位。 |
 
 ### 返回值
 
-*value*的索引（如果在列表中找到）；否则，-1。
+指数*value*如果在列表中找到；否则，-1。
 
 ### 也可以看看
 

@@ -17,7 +17,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | quotaRootName | String | имя корня квоты |
 | resourceName | String | имя ресурса |
 | resourceLimit | Int32 | лимит ресурсов |
@@ -74,7 +74,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | quotaRootName | String | имя корня квоты |
 | resourceName | String | имя ресурса |
 | resourceLimit | Int32 | лимит ресурсов |
@@ -108,7 +108,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | quotaRootName | String | имя корня квоты |
 | resourceName | String | имя ресурса |
 | resourceLimit | Int32 | лимит ресурсов |
-| токен | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

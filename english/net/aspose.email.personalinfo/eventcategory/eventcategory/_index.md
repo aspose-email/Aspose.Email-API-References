@@ -1,7 +1,7 @@
 ---
 title: EventCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Custom EventCategoryaspose.email.personalinfo/eventcategory.
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo/eventcategory/eventcategory/

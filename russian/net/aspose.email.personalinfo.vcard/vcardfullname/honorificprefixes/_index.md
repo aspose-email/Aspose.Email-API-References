@@ -1,14 +1,14 @@
 ---
 title: HonorificPrefixes
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает почетные префиксы
+description: Получает или задает почетные префиксы
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo.vcard/vcardfullname/honorificprefixes/
 ---
 ## VCardFullName.HonorificPrefixes property
 
-Получает или устанавливает почетные префиксы
+Получает или задает почетные префиксы
 
 ```csharp
 public string HonorificPrefixes { get; set; }

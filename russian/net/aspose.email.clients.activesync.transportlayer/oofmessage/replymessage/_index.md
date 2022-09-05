@@ -1,14 +1,14 @@
 ---
 title: ReplyMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет сообщение которое будет показано определенной аудитории когда пользователь находится вне очереди.
+description: Определяет сообщение которое будет отображаться для определенной аудитории когда пользователь не работает.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activesync.transportlayer/oofmessage/replymessage/
 ---
 ## OOFMessage.ReplyMessage property
 
-Определяет сообщение, которое будет показано определенной аудитории, когда пользователь находится вне очереди.
+Определяет сообщение, которое будет отображаться для определенной аудитории, когда пользователь не работает.
 
 ```csharp
 public string ReplyMessage { get; set; }

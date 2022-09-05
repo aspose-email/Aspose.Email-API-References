@@ -1,14 +1,14 @@
 ---
 title: SentItemsUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri отправленных элементов.
+description: Получает отправленные элементы uri.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/sentitemsuri/
 ---
 ## ExchangeMailboxInfo.SentItemsUri property
 
-Получает uri отправленных элементов.
+Получает отправленные элементы uri.
 
 ```csharp
 public abstract string SentItemsUri { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FetchAttachmentAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанное вложение.
+description: Извлекает указанное вложение.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/fetchattachmentasync/
 ---
 ## IAsyncImapClient.FetchAttachmentAsync method
 
-Выбирает указанное вложение.
+Извлекает указанное вложение.
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName, 
@@ -17,14 +17,14 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером. |
+| connection | Int32 | Подключение к серверу. |
 | sequenceNumber | String | Порядковый номер сообщения. |
 | attachmentName | IConnection | Имя вложения. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-[`Attachment`](../../../aspose.email/attachment)который представляет вложение.
+[`Attachment`](../../../aspose.email/attachment) который представляет вложение.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: LoggingException
 second_title: Aspose.Email for .NET API 参考
 description: 在日志中发现错误时抛出的异常
 type: docs
-weight: 20510
+weight: 20560
 url: /zh/net/aspose.email.tools.logging/loggingexception/
 ---
 ## LoggingException class

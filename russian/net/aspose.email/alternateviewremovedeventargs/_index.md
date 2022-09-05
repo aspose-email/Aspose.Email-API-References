@@ -1,14 +1,14 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет данные для событияAlternateViewRemoved.
+description: Предоставляет данные дляAlternateViewRemoved событие.
 type: docs
 weight: 50
 url: /ru/net/aspose.email/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs class
 
-Предоставляет данные для событияAlternateViewRemoved.
+Предоставляет данные дляAlternateViewRemoved событие.
 
 ```csharp
 public class AlternateViewRemovedEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class AlternateViewRemovedEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [AlternateViewRemovedEventArgs](alternateviewremovedeventargs)(AlternateView) | Инициализирует новый экземпляр класса[`AlternateViewRemovedEventArgs`](../alternateviewremovedeventargs). |
+| [AlternateViewRemovedEventArgs](alternateviewremovedeventargs)(AlternateView) | Инициализирует новый экземпляр[`AlternateViewRemovedEventArgs`](../alternateviewremovedeventargs) класс. |
 
 ## Характеристики
 

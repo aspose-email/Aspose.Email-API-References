@@ -1,14 +1,14 @@
 ---
 title: CompanyMainTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит основной номер телефона компании почтового пользователя. ОбластьСвойства контакта Каноническое имяPidTagCompanyMainTelephoneNumber Альтернативные именаPR_COMPANY_MAIN_PHONE_NUMBER PR_COMPANY_MAIN_PHONE_NUMBER_A
+description: Содержит основной номер телефона компании почтового пользователя. Область Свойства контакта Каноническое имя PidTagCompanyMainTelephoneNumber Альтернативные имена PR_COMPANY_MAIN_PHONE_NUMBER PR_COMPANY_MAIN_PHONE_NUMBER_A
 type: docs
 weight: 2830
 url: /ru/net/aspose.email.mapi/knownpropertylist/companymaintelephonenumber/
 ---
 ## KnownPropertyList.CompanyMainTelephoneNumber field
 
-Содержит основной номер телефона компании почтового пользователя. Область:Свойства контакта Каноническое имя:PidTagCompanyMainTelephoneNumber Альтернативные имена:PR_COMPANY_MAIN_PHONE_NUMBER, PR_COMPANY_MAIN_PHONE_NUMBER_A,
+Содержит основной номер телефона компании почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagCompanyMainTelephoneNumber Альтернативные имена: PR_COMPANY_MAIN_PHONE_NUMBER, PR_COMPANY_MAIN_PHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CompanyMainTelephoneNumber;

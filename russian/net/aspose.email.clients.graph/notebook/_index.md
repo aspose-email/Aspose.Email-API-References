@@ -25,22 +25,22 @@ public class Notebook
 | Имя | Описание |
 | --- | --- |
 | [CreatedBy](../../aspose.email.clients.graph/notebook/createdby) { get; } | Идентификатор пользователя, устройства и приложения, создавшего элемент. Только для чтения. |
-| [CreatedDateTime](../../aspose.email.clients.graph/notebook/createddatetime) { get; } | Дата и время создания блокнота. Временная метка представляет информацию о дате и времени в формате ISO 8601 и всегда в формате UTC. Например, полночь по Гринвичу 1 января 2014 года будет выглядеть так:'2014-01-01T00:00:00Z'. Только для чтения. |
+| [CreatedDateTime](../../aspose.email.clients.graph/notebook/createddatetime) { get; } | Дата и время создания записной книжки. Временная метка представляет информацию о дате и времени в формате ISO 8601 и всегда в формате UTC. Например, полночь по Гринвичу 1 января 2014 г. будет выглядеть так: -01T00:00:00Z'. Только для чтения. |
 | [DisplayName](../../aspose.email.clients.graph/notebook/displayname) { get; set; } | Имя блокнота. |
 | [Id](../../aspose.email.clients.graph/notebook/id) { get; } | Уникальный идентификатор блокнота. Только для чтения. |
 | [IsCreatedDateTimeSpecified](../../aspose.email.clients.graph/notebook/iscreateddatetimespecified) { get; set; } | Указывает, указано ли свойство CreatedDateTime. |
-| [IsDefault](../../aspose.email.clients.graph/notebook/isdefault) { get; } | Указывает, является ли этот блокнот пользователя по умолчанию. Только для чтения. |
+| [IsDefault](../../aspose.email.clients.graph/notebook/isdefault) { get; } | Указывает, является ли это записной книжкой пользователя по умолчанию. Только для чтения. |
 | [IsDefaultSpecified](../../aspose.email.clients.graph/notebook/isdefaultspecified) { get; set; } | Указывает, указано ли свойство IsDefault. |
 | [IsLastModifiedDateTimeSpecified](../../aspose.email.clients.graph/notebook/islastmodifieddatetimespecified) { get; set; } | Указывает, указано ли свойство LastModifiedDateTime. |
-| [IsShared](../../aspose.email.clients.graph/notebook/isshared) { get; } | Указывает, является ли блокнот общим. Если true, то содержимое блокнота могут видеть не только его владелец, но и другие люди. Только для чтения. |
+| [IsShared](../../aspose.email.clients.graph/notebook/isshared) { get; } | Указывает, является ли записная книжка общей. Если значение равно true, содержимое записной книжки могут видеть другие люди, кроме владельца. Только для чтения. |
 | [IsSharedSpecified](../../aspose.email.clients.graph/notebook/issharedspecified) { get; set; } | Указывает, указано ли свойство IsShared. |
 | [LastModifiedBy](../../aspose.email.clients.graph/notebook/lastmodifiedby) { get; } | Идентификатор пользователя, устройства и приложения, создавшего элемент. Только для чтения. |
-| [LastModifiedDateTime](../../aspose.email.clients.graph/notebook/lastmodifieddatetime) { get; } | Дата и время последнего изменения блокнота. Временная метка представляет информацию о дате и времени в формате ISO 8601 и всегда в формате UTC. Например, полночь по Гринвичу 1 января 2014 года будет выглядеть так:'2014-01-01T00:00:00Z'. Только для чтения. |
-| [Links](../../aspose.email.clients.graph/notebook/links) { get; set; } | Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает записную книжку в собственном клиенте OneNote, если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете. |
+| [LastModifiedDateTime](../../aspose.email.clients.graph/notebook/lastmodifieddatetime) { get; } | Дата и время последнего изменения блокнота. Временная метка представляет информацию о дате и времени в формате ISO 8601 и всегда в формате UTC. Например, полночь по Гринвичу 1 января 2014 года будет выглядеть так: '2014-01-01T00:00:00Z'. Только для чтения. |
+| [Links](../../aspose.email.clients.graph/notebook/links) { get; set; } | Ссылки для открытия блокнота. Ссылка oneNoteClientURL открывает блокнот в собственном клиенте OneNote, если он установлен. Ссылка oneNoteWebURL открывает записную книжку в OneNote в Интернете. |
 | [SectionGroupsUrl](../../aspose.email.clients.graph/notebook/sectiongroupsurl) { get; } | URL-адрес свойства навигации sectionGroups, которое возвращает все группы разделов в записной книжке. Только для чтения. |
-| [SectionsUrl](../../aspose.email.clients.graph/notebook/sectionsurl) { get; } | URL свойства навигации по разделам, которое возвращает все разделы в записной книжке. Только для чтения. |
-| [Self](../../aspose.email.clients.graph/notebook/self) { get; } | Конечная точка, где вы можете получить подробную информацию о записной книжке. Только для чтения. |
-| [UserRole](../../aspose.email.clients.graph/notebook/userrole) { get; } | Возможные значения:Владелец, Участник, Читатель, Нет. Владелец представляет доступ к записной книжке на уровне владельца. Contributor представляет доступ для чтения/записи к записной книжке. Reader представляет собой доступ только для чтения к записной книжке. Только для чтения. |
+| [SectionsUrl](../../aspose.email.clients.graph/notebook/sectionsurl) { get; } | URL-адрес свойства навигации по разделам, которое возвращает все разделы в записной книжке. Только для чтения. |
+| [Self](../../aspose.email.clients.graph/notebook/self) { get; } | Конечная точка, где можно получить сведения о записной книжке. Только для чтения. |
+| [UserRole](../../aspose.email.clients.graph/notebook/userrole) { get; } | Возможные значения: Owner, Contributor, Reader, None. Owner представляет доступ на уровне владельца к блокноту. Contributor представляет доступ на чтение/запись к блокноту. Reader представляет доступ только для чтения к блокноту. Только чтение . |
 
 ### Смотрите также
 

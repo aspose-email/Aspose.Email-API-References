@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее является ли доступ кICollectionсинхронизированным потокобезопасным.
+description: Получает значение указывающее доступен ли доступ кICollection синхронизирован потокобезопасный.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.personalinfo/associatedpersonslist/issynchronized/
 ---
 ## AssociatedPersonsList.IsSynchronized property
 
-Получает значение, указывающее, является ли доступ кICollectionсинхронизированным (потокобезопасным).
+Получает значение, указывающее, доступен ли доступ кICollection синхронизирован (потокобезопасный).
 
 ```csharp
 public bool IsSynchronized { get; }
@@ -16,7 +16,7 @@ public bool IsSynchronized { get; }
 
 ### Возвращаемое значение
 
-true, если доступ кICollectionсинхронизирован (потокобезопасный); в противном случае ложно.
+true, если доступ кICollection синхронизирован (потокобезопасный); в противном случае false.
 
 ### Смотрите также
 

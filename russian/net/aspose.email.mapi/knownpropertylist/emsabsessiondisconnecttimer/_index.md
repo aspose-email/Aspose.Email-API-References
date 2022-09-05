@@ -1,14 +1,14 @@
 ---
 title: EmsAbSessionDisconnectTimer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SESSION_DISCONNECT_TIMER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SESSION_DISCONNECT_TIMER
 type: docs
 weight: 8830
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsessiondisconnecttimer/
 ---
 ## KnownPropertyList.EmsAbSessionDisconnectTimer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SESSION_DISCONNECT_TIMER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SESSION_DISCONNECT_TIMER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSessionDisconnectTimer;

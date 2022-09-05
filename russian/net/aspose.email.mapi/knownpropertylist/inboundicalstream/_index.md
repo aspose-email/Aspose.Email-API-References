@@ -1,14 +1,14 @@
 ---
 title: InboundICalStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит содержимое MIME-части iCalendar исходного MIME-сообщения. ОбластьКалендарь Каноническое имяPidLidInboundICalStream Альтернативные именаInboundICalStream dispidInboundICalStream
+description: Содержит содержимое MIME-части iCalendar исходного сообщения MIME. Область Calendar Каноническое имя PidLidInboundICalStream Альтернативные имена InboundICalStream dispidInboundICalStream
 type: docs
 weight: 11280
 url: /ru/net/aspose.email.mapi/knownpropertylist/inboundicalstream/
 ---
 ## KnownPropertyList.InboundICalStream field
 
-Содержит содержимое MIME-части iCalendar исходного MIME-сообщения. Область:Календарь Каноническое имя:PidLidInboundICalStream Альтернативные имена:InboundICalStream, dispidInboundICalStream
+Содержит содержимое MIME-части iCalendar исходного сообщения MIME. Область: Calendar Каноническое имя: PidLidInboundICalStream Альтернативные имена: InboundICalStream, dispidInboundICalStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InboundICalStream;

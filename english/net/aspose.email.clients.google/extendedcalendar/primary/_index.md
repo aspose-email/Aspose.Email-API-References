@@ -1,7 +1,7 @@
 ---
 title: Primary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Whether the calendar is the primary calendar of the authenticated user. Readonly. The default is False.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.google/extendedcalendar/primary/

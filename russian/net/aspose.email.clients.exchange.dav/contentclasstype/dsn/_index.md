@@ -1,14 +1,14 @@
 ---
 title: DSN
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classesdsn  который определяет набор свойств для элемента являющегося уведомлением о состоянии доставки  DSN сообщение.
+description: Получает класс содержимого urncontent-classesdsn  который определяет набор свойств для элемента являющегося сообщением уведомления о состоянии доставки DSN.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/dsn/
 ---
 ## ContentClassType.DSN property
 
-Получает класс содержимого urn:content-classes:dsn , который определяет набор свойств для элемента, являющегося уведомлением о состоянии доставки ( DSN) сообщение.
+Получает класс содержимого urn:content-classes:dsn , который определяет набор свойств для элемента, являющегося сообщением уведомления о состоянии доставки (DSN).
 
 ```csharp
 public static ContentClassType DSN { get; }

@@ -18,16 +18,16 @@ public class PipeliningStatus
 
 | Имя | Описание |
 | --- | --- |
-| [ClientMode](../../aspose.email.clients/pipeliningstatus/clientmode) { get; set; } | Получает или задает значение, определяющее, как почтовый клиент поддерживает конвейерную обработку |
-| [PipeliningEnabled](../../aspose.email.clients/pipeliningstatus/pipeliningenabled) { get; } | Получает значение, определяющее, включен ли режим конвейерной обработки. |
-| [SupportedByServer](../../aspose.email.clients/pipeliningstatus/supportedbyserver) { get; } | Получает значение, указывающее, поддерживается ли сервером режим конвейерной обработки. |
+| [ClientMode](../../aspose.email.clients/pipeliningstatus/clientmode) { get; set; } | Получает или задает значение, определяющее, как почтовый клиент поддерживает конвейеризацию |
+| [PipeliningEnabled](../../aspose.email.clients/pipeliningstatus/pipeliningenabled) { get; } | Получает значение, определяющее, включен ли конвейерный режим. |
+| [SupportedByServer](../../aspose.email.clients/pipeliningstatus/supportedbyserver) { get; } | Получает значение, указывающее, поддерживается ли сервером конвейерный режим. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [ToString](../../aspose.email.clients/pipeliningstatus/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit#op_implicit_2) | Преобразует логическое значение в[`PipeliningStatus`](../pipeliningstatus)object (4 operators) |
+| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit#op_implicit_2) | Преобразует логическое значение в[`PipeliningStatus`](../pipeliningstatus) объект (4 operators) |
 
 ### Смотрите также
 

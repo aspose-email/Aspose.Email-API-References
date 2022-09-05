@@ -1,14 +1,14 @@
 ---
 title: ListAttachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список вложений сообщения. Получает информацию о каждом вложении в сообщении.
+description: Получает список вложений сообщения. Получает информацию для каждого вложения в сообщении.
 type: docs
 weight: 810
 url: /ru/net/aspose.email.clients.imap/imapclient/listattachments/
 ---
 ## ImapClient.ListAttachments method
 
-Получает список вложений сообщения. Получает информацию о каждом вложении в сообщении.
+Получает список вложений сообщения. Получает информацию для каждого вложения в сообщении.
 
 ```csharp
 public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
@@ -20,7 +20,7 @@ public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
 
 ### Возвращаемое значение
 
-[`ImapMessageInfoCollection`](../../imapmessageinfocollection)который представляет коллекциюImapAttachmentInfo
+[`ImapMessageInfoCollection`](../../imapmessageinfocollection) который представляет собой совокупность[`ImapAttachmentInfo`](../../imapattachmentinfo)
 
 ### Смотрите также
 

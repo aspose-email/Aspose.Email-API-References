@@ -1,7 +1,7 @@
 ---
 title: ExchangeModifyExceptionStructure
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a structure that modifies an exception to the recurrence. Area Common Canonical name PidNameExchangeModifyExceptionStructure Alternate names http//schemas.microsoft.com/exchange/modifyexceptionstruct
 type: docs
 weight: 9840
 url: /net/aspose.email.mapi/knownpropertylist/exchangemodifyexceptionstructure/

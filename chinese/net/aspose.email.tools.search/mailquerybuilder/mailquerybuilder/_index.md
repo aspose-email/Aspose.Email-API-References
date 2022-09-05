@@ -1,14 +1,14 @@
 ---
 title: MailQueryBuilder
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailQueryBuilderaspose.email.tools.search/mailquerybuilder类的新实例
+description: 初始化MailQueryBuilderaspose.email.tools.search/mailquerybuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.search/mailquerybuilder/mailquerybuilder/
 ---
 ## MailQueryBuilder() {#constructor}
 
-初始化[`MailQueryBuilder`](../../mailquerybuilder)类的新实例。
+初始化[`MailQueryBuilder`](../../mailquerybuilder)类.
 
 ```csharp
 public MailQueryBuilder()
@@ -24,7 +24,7 @@ public MailQueryBuilder()
 
 ## MailQueryBuilder(Encoding) {#constructor_1}
 
-初始化[`MailQueryBuilder`](../../mailquerybuilder)类的新实例。
+初始化[`MailQueryBuilder`](../../mailquerybuilder)类.
 
 ```csharp
 public MailQueryBuilder(Encoding defaultEncoding)

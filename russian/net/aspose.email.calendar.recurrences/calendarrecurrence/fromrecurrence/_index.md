@@ -16,7 +16,7 @@ public static CalendarRecurrence FromRecurrence(string xmlString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlString | String | Строка XMLStringшаблона. |
+| xmlString | String | XML-строкаStringшаблона. |
 
 ### Возвращаемое значение
 

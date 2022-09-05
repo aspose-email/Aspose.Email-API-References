@@ -16,7 +16,7 @@ public MapiPropertyCollection GetCustomProperties()
 
 ### 返回值
 
-自定义 MapiProperties 集合[`MapiPropertyCollection`](../../mapipropertycollection)。
+自定义 MapiProperties 的集合[`MapiPropertyCollection`](../../mapipropertycollection).
 
 ### 也可以看看
 

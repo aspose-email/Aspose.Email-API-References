@@ -1,14 +1,14 @@
 ---
 title: CalendarCreated
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 标识组织者创建约会或会议的日期和时间 区域通用 规范名称PidNameCalendarCreated 备用名称urnschemascalendarcreated
+description: 以 UTC 标识组织者创建约会或会议的日期和时间 区域Common 规范名称PidNameCalendarCreated 备用名称urnschemascalendarcreated
 type: docs
 weight: 2220
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarcreated/
 ---
 ## KnownPropertyList.CalendarCreated field
 
-以 UTC 标识组织者创建约会或会议的日期和时间。 区域:通用 规范名称:PidNameCalendarCreated 备用名称:urn:schemas:calendar:created
+以 UTC 标识组织者创建约会或会议的日期和时间。 区域：Common 规范名称：PidNameCalendarCreated 备用名称：urn:schemas:calendar:created
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarCreated;

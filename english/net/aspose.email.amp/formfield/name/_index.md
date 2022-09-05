@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set name of field.
 type: docs
 weight: 60
 url: /net/aspose.email.amp/formfield/name/

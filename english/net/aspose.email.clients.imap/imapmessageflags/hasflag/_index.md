@@ -1,7 +1,7 @@
 ---
 title: HasFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns true if who contains the flag
 type: docs
 weight: 130
 url: /net/aspose.email.clients.imap/imapmessageflags/hasflag/

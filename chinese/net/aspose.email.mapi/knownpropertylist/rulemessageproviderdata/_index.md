@@ -1,14 +1,14 @@
 ---
 title: RuleMessageProviderData
 second_title: Aspose.Email for .NET API 参考
-description: 包含客户端设置的不透明数据仅供客户端使用设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageProviderData 备用名称PR_RULE_MSG_PROVIDER_DATA ptagRuleMsgProviderData
+description: 包含客户端设置的不透明数据仅供客户端使用设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageProviderData 备用名称PR_RULE_MSG_PROVIDER_DATAptagRuleMsgProviderData
 type: docs
 weight: 16550
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessageproviderdata/
 ---
 ## KnownPropertyList.RuleMessageProviderData field
 
-包含客户端设置的不透明数据，仅供客户端使用。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageProviderData 备用名称:PR_RULE_MSG_PROVIDER_DATA, ptagRuleMsgProviderData
+包含客户端设置的不透明数据，仅供客户端使用。设置在 FAI 消息上。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageProviderData 备用名称：PR_RULE_MSG_PROVIDER_DATA、ptagRuleMsgProviderData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageProviderData;

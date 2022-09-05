@@ -1,12 +1,12 @@
 ---
 title: ExistFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Check whether this folder exists
 type: docs
 weight: 620
 url: /net/aspose.email.clients.imap/imapclient/existfolderasync/
 ---
-## ImapClient.ExistFolderAsync method (1 of 4)
+## ExistFolderAsync(string) {#existfolderasync_2}
 
 Check whether this folder exists
 
@@ -30,7 +30,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (2 of 4)
+## ExistFolderAsync(IConnection, string) {#existfolderasync}
 
 Check whether this folder exists
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (3 of 4)
+## ExistFolderAsync(string, CancellationToken) {#existfolderasync_3}
 
 Check whether this folder exists
 
@@ -81,7 +81,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (4 of 4)
+## ExistFolderAsync(IConnection, string, CancellationToken) {#existfolderasync_1}
 
 Check whether this folder exists
 

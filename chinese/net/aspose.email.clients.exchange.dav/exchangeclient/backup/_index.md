@@ -16,7 +16,7 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | 一个文件夹到备份 |
+| folders | ExchangeFolderInfoCollection | 要备份的文件夹 |
 | fileName | String | 个人存储文件的路径 |
 | options | BackupOptions | 备份选项 |
 
@@ -24,8 +24,8 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | A*fileName*is` null` 或` 空` |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是` null` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 一个*fileName*是`无效的`或者`空的` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是`无效的` |
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | 一个文件夹到备份 |
+| folders | ExchangeFolderInfoCollection | 要备份的文件夹 |
 | stream | Stream | 要写入的流 |
 | options | BackupOptions | 备份选项 |
 
@@ -55,8 +55,8 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | 给定流不支持写入 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*或*stream*是` null` |
+| NotSupportedException | 给定的流不支持写入 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*或者*stream*是`无效的` |
 
 ### 也可以看看
 

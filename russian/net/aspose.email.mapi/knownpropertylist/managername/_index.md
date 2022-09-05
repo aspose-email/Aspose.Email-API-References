@@ -1,14 +1,14 @@
 ---
 title: ManagerName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя менеджера пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagManagerName Альтернативные именаPR_MANAGER_NAME PR_MANAGER_NAME_A PR_MANAGER_NAME_W
+description: Содержит имя менеджера почтового пользователя. Область Address Properties Каноническое имя PidTagManagerName Альтернативные имена PR_MANAGER_NAME PR_MANAGER_NAME_A PR_MANAGER_NAME_W
 type: docs
 weight: 12360
 url: /ru/net/aspose.email.mapi/knownpropertylist/managername/
 ---
 ## KnownPropertyList.ManagerName field
 
-Содержит имя менеджера пользователя почты. Область:Свойства адреса Каноническое имя:PidTagManagerName Альтернативные имена:PR_MANAGER_NAME, PR_MANAGER_NAME_A, PR_MANAGER_NAME_W,
+Содержит имя менеджера почтового пользователя. Область: Address Properties Каноническое имя: PidTagManagerName Альтернативные имена: PR_MANAGER_NAME, PR_MANAGER_NAME_A, PR_MANAGER_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ManagerName;

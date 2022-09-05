@@ -1,14 +1,14 @@
 ---
 title: EmsAbActivationStyle
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ACTIVATION_STYLE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ACTIVATION_STYLE
 type: docs
 weight: 4500
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabactivationstyle/
 ---
 ## KnownPropertyList.EmsAbActivationStyle field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ACTIVATION_STYLE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ACTIVATION_STYLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbActivationStyle;

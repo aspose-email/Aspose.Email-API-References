@@ -1,14 +1,14 @@
 ---
 title: WebDavId
 second_title: Aspose.Email for .NET API 参考
-description: WebDav 服务 ID
+description: WebDav 服务 id
 type: docs
 weight: 40
 url: /zh/net/aspose.email/objectidentifier/webdavid/
 ---
 ## ObjectIdentifier.WebDavId property
 
-WebDav 服务 ID
+WebDav 服务 id
 
 ```csharp
 public string WebDavId { get; }

@@ -1,7 +1,7 @@
 ---
 title: EmailType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an email address type
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo.vcard/vcardemail/emailtype/

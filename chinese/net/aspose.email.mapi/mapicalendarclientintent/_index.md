@@ -22,16 +22,16 @@ public enum MapiCalendarClientIntent
 | Manager | `1` | 用户是会议对象的所有者。 |
 | Delegate | `2` | 用户是对委托人日历文件夹中的会议对象进行操作的委托人。 |
 | DeletedWithNoResponse | `4` | 用户删除了会议对象，但没有向组织者发送响应。 |
-| DeletedExceptionWithNoResponse | `8` | 用户删除了重复系列的例外情况，但未向组织者发送响应。 |
+| DeletedExceptionWithNoResponse | `8` | 用户删除了重复系列的例外情况，但没有向组织者发送响应。 |
 | RespondedTentative | `10` | 用户暂时接受了会议请求。 |
 | RespondedAccept | `20` | 用户接受了会议请求。 |
 | RespondedDecline | `40` | 用户拒绝了会议请求。 |
 | ModifiedStartTime | `80` | 用户修改了开始时间。 |
-| ModifiedEndTime | `100` | 用户修改了结束时间。 |
+| ModifiedEndTime | `100` | 用户修改了结束时间 |
 | ModifiedLocation | `200` | 用户更改了会议地点。 |
 | RespondedExceptionDecline | `400` | 用户拒绝了重复系列的例外情况。 |
 | Canceled | `800` | 用户取消了会议请求。 |
-| ExceptionCanceled | `1000` | 用户取消了重复系列的异常。 |
+| ExceptionCanceled | `1000` | 用户取消了重复系列的例外情况。 |
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/messaging/
 ---
 ## KnownPropertySets.Messaging field
 
-区域名称:消息传递 属性集名称:PSETID_Messaging
+区域名称：消息传递 属性集名称：PSETID_Messaging
 
 ```csharp
 public static readonly Guid Messaging;

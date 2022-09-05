@@ -16,8 +16,8 @@ public static bool operator !=(CalendarRecurrence left, CalendarRecurrence right
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | CalendarRecurrence | Левый. |
-| right | CalendarRecurrence | Правильно. |
+| left | CalendarRecurrence | Слева. |
+| right | CalendarRecurrence | Право. |
 
 ### Возвращаемое значение
 

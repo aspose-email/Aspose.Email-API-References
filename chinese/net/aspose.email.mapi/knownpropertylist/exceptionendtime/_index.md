@@ -1,14 +1,14 @@
 ---
 title: ExceptionEndTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含创建异常时计算机本地时区中异常的结束日期和时间 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionEndTime 替代名称PR_EXCEPTION_ENDTIME ptagExceptionEndTime
+description: 包含创建异常时计算机本地时区中异常的结束日期和时间 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionEndTime 替代名称PR_EXCEPTION_ENDTIMEptagExceptionEndTime
 type: docs
 weight: 9780
 url: /zh/net/aspose.email.mapi/knownpropertylist/exceptionendtime/
 ---
 ## KnownPropertyList.ExceptionEndTime field
 
-包含创建异常时计算机本地时区中异常的结束日期和时间。 区域:MessageClassDefinedNonTransmittable 规范名称:PidTagExceptionEndTime 替代名称:PR_EXCEPTION_ENDTIME, ptagExceptionEndTime
+包含创建异常时计算机本地时区中异常的结束日期和时间。 区域：MessageClassDefinedNonTransmittable 规范名称：PidTagExceptionEndTime 替代名称：PR_EXCEPTION_ENDTIME、ptagExceptionEndTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExceptionEndTime;

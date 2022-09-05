@@ -1,7 +1,7 @@
 ---
 title: CssStyles
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the additional css styles for the formatter.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/appointmentformattingoptions/cssstyles/

@@ -1,14 +1,14 @@
 ---
 title: WlinkSection
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает раздел в котором должен быть сгруппирован ярлык. ОбластьКонфигурация Каноническое имяPidTagWlinkSection Альтернативные именаPR_WLINK_SECTION
+description: Указывает раздел в котором должен быть сгруппирован ярлык. Область Configuration Каноническое имя PidTagWlinkSection Альтернативные имена PR_WLINK_SECTION
 type: docs
 weight: 19510
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinksection/
 ---
 ## KnownPropertyList.WlinkSection field
 
-Указывает раздел, в котором должен быть сгруппирован ярлык. Область:Конфигурация Каноническое имя:PidTagWlinkSection Альтернативные имена:PR_WLINK_SECTION
+Указывает раздел, в котором должен быть сгруппирован ярлык. Область: Configuration Каноническое имя: PidTagWlinkSection Альтернативные имена: PR_WLINK_SECTION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkSection;

@@ -1,7 +1,7 @@
 ---
 title: IsFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Return true if entry refers to a Folder
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/itemmovedeventargs/isfolder/

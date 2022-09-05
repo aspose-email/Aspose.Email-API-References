@@ -1,14 +1,14 @@
 ---
 title: ToGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует значение свойства вGuidaspose.email.mapi.msg/messageobjectproperty/guid.
+description: Преобразует значение свойства вGuidaspose.email.mapi.msg/messageobjectproperty/guid .
 type: docs
 weight: 140
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/toguid/
 ---
 ## MessageObjectProperty.ToGuid method
 
-Преобразует значение свойства в[`Guid`](../guid).
+Преобразует значение свойства в[`Guid`](../guid) .
 
 ```csharp
 public Guid ToGuid()
@@ -20,7 +20,7 @@ public Guid ToGuid()
 
 ### Примечания
 
-Этот метод не обеспечивает автоматическое преобразование типов данных, например, если[`Value`](../value)свойство имеет тип, значение по умолчанию будет возвращено.
+Этот метод не обеспечивает автоматического преобразования типов данных, например, если[`Value`](../value)свойство имеет тип значения по умолчанию, которое будет возвращено.
 
 ### Смотрите также
 

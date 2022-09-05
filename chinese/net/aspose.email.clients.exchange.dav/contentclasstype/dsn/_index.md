@@ -1,14 +1,14 @@
 ---
 title: DSN
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesdsn 内容类 定义了作为交付状态通知的项目的一组属性 DSN 消息
+description: 获取 urncontent-classesdsn 内容类 它为作为传递状态通知 DSN 消息的项目定义一组属性
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/dsn/
 ---
 ## ContentClassType.DSN property
 
-获取 urn:content-classes:dsn 内容类 定义了作为交付状态通知的项目的一组属性（ DSN) 消息。
+获取 urn:content-classes:dsn 内容类 ，它为作为传递状态通知 (DSN) 消息的项目定义一组属性。
 
 ```csharp
 public static ContentClassType DSN { get; }

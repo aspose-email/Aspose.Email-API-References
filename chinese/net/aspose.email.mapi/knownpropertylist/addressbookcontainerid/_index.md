@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookcontainerid/
 ---
 ## KnownPropertyList.AddressBookContainerId field
 
-包含 NSPI 服务器上容器的 ID。 区域:地址簿 规范名称:PidTagAddressBookContainerId 备用名称:PR_EMS_AB_CONTAINERID
+包含 NSPI 服务器上容器的 ID。 区域：地址簿 规范名称：PidTagAddressBookContainerId 备用名称：PR_EMS_AB_CONTAINERID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookContainerId;

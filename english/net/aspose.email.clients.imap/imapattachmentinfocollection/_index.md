@@ -1,9 +1,9 @@
 ---
 title: ImapAttachmentInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collection of ImapAttachmentInfo./imapattachmentinfo
 type: docs
-weight: 16240
+weight: 16270
 url: /net/aspose.email.clients.imap/imapattachmentinfocollection/
 ---
 ## ImapAttachmentInfoCollection class

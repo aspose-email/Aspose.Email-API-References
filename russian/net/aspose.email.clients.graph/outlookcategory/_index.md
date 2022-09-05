@@ -1,14 +1,14 @@
 ---
 title: OutlookCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет категорию по которой пользователь может группировать элементы Outlook такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https//docs.microsoft.com/en-us/graph/api/resources/outlookcategoryviewgraph-rest-1.0
+description: Представляет категорию по которой пользователь может группировать элементы Outlook такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https//docs.microsoft.com/en-us/graph/api/resources/outlookcategoryview  график-остальное-1.0
 type: docs
 weight: 16050
 url: /ru/net/aspose.email.clients.graph/outlookcategory/
 ---
 ## OutlookCategory class
 
-Представляет категорию, по которой пользователь может группировать элементы Outlook, такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0
+Представляет категорию, по которой пользователь может группировать элементы Outlook, такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view = график-остальное-1.0
 
 ```csharp
 public class OutlookCategory
@@ -18,18 +18,18 @@ public class OutlookCategory
 
 | Имя | Описание |
 | --- | --- |
-| [OutlookCategory](outlookcategory#constructor)() | Инициализирует новый экземпляр класса[`OutlookCategory`](../outlookcategory). |
-| [OutlookCategory](outlookcategory#constructor_1)(string, CategoryPreset) | Инициализирует новый экземпляр класса[`OutlookCategory`](../outlookcategory). |
-| [OutlookCategory](outlookcategory#constructor_2)(string, string, CategoryPreset) | Инициализирует новый экземпляр класса[`OutlookCategory`](../outlookcategory). |
+| [OutlookCategory](outlookcategory#constructor)() | Инициализирует новый экземпляр[`OutlookCategory`](../outlookcategory) класс. |
+| [OutlookCategory](outlookcategory#constructor_1)(string, CategoryPreset) | Инициализирует новый экземпляр[`OutlookCategory`](../outlookcategory) класс. |
+| [OutlookCategory](outlookcategory#constructor_2)(string, string, CategoryPreset) | Инициализирует новый экземпляр[`OutlookCategory`](../outlookcategory) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.email.clients.graph/outlookcategory/color) { get; set; } | Строковое представление предустановленной цветовой константы, характеризующей категорию и отображаемой на один из 25 предопределенных цветов. Возможными значениями цвета являются предустановленные константы, такие как None, preset0 и preset1. Каждая предустановленная константа в дальнейшем сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
-| [DisplayName](../../aspose.email.clients.graph/outlookcategory/displayname) { get; set; } | Уникальное имя, определяющее категорию в почтовом ящике пользователя. После создания категории имя нельзя изменить. |
+| [Color](../../aspose.email.clients.graph/outlookcategory/color) { get; set; } | Строковое представление предустановленной цветовой константы, которая характеризует категорию и сопоставлена с одним из 25 предопределенных цветов. Каждая предустановленная константа дополнительно сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
+| [DisplayName](../../aspose.email.clients.graph/outlookcategory/displayname) { get; set; } | Уникальное имя, идентифицирующее категорию в почтовом ящике пользователя. После создания категории имя нельзя изменить. |
 | [Id](../../aspose.email.clients.graph/outlookcategory/id) { get; set; } | Идентификатор категории |
-| [Preset](../../aspose.email.clients.graph/outlookcategory/preset) { get; set; } | Предустановленная цветовая константа, характеризующая категорию и сопоставленная с одним из 25 предопределенных цветов. Каждая предустановленная константа в дальнейшем сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
+| [Preset](../../aspose.email.clients.graph/outlookcategory/preset) { get; set; } | Предустановленная цветовая константа, характеризующая категорию и сопоставленная с одним из 25 предопределенных цветов. Каждая предустановленная константа дополнительно сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
 
 ## Методы
 

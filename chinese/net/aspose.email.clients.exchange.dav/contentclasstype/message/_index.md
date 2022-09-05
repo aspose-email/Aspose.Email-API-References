@@ -1,14 +1,14 @@
 ---
 title: Message
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesmessage 内容类 定义了作为消息的项目的一组属性
+description: 获取 urncontent-classesmessage 内容类 它为作为消息的项目定义一组属性
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/message/
 ---
 ## ContentClassType.Message property
 
-获取 urn:content-classes:message 内容类 定义了作为消息的项目的一组属性。
+获取 urn:content-classes:message 内容类 ，它为作为消息的项目定义一组属性。
 
 ```csharp
 public static ContentClassType Message { get; }

@@ -27,7 +27,7 @@ public abstract class ImapMessageSet<T> : ImapMethodParametersGeneral<T>
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_2)(IEnumerable&lt;int&gt;) | Установите порядковые номера сообщений. |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_3)(IEnumerable&lt;string&gt;) | Установить уникальные идентификаторы сообщения. |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages)(int, int) | Установить диапазон порядковых номеров сообщений. |
-| [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_4)(string, string) | Установите диапазон уникальных идентификаторов сообщений. |
+| [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages#setmessages_4)(string, string) | Установить диапазон уникальных идентификаторов сообщений. |
 
 ### Смотрите также
 

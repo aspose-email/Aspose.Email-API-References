@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of the ACL scope.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/aclscope/type/

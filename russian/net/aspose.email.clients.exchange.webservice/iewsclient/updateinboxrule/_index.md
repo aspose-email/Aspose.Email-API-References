@@ -16,13 +16,13 @@ public void UpdateInboxRule(InboxRule rule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для папки "Входящие" для обновления |
+| rule | InboxRule | Правило для входящих сообщений, которое нужно обновить |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*rule*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*rule* является`нулевой` |
 
 ### Смотрите также
 
@@ -43,14 +43,14 @@ public void UpdateInboxRule(InboxRule rule, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для папки "Входящие" для обновления |
-| mailbox | String | Почтовый ящик, в котором находится правило. Примечание:если установлено значение` null` или` empty` , правило будет искаться в почтовый ящик по умолчанию |
+| rule | InboxRule | Правило для входящих сообщений, которое нужно обновить |
+| mailbox | String | Почтовый ящик, в котором находится правило. Примечание: если установлено значение`нулевой`или же`пустой`, правило будет искаться в почтовом ящике по умолчанию |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*rule*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*rule* является`нулевой` |
 
 ### Смотрите также
 

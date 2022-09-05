@@ -1,7 +1,7 @@
 ---
 title: Execute
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the method to be called when the command is invoked.
 type: docs
 weight: 30
 url: /net/aspose.email.clients/icommand/execute/

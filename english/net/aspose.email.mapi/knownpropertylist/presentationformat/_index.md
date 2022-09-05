@@ -1,7 +1,7 @@
 ---
 title: PresentationFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the presentation format of the file attached to the Document object. Area Common Canonical name PidNamePresentationFormat Alternate names urnschemasmicrosoftcomofficeofficePresentationFormat
 type: docs
 weight: 14530
 url: /net/aspose.email.mapi/knownpropertylist/presentationformat/

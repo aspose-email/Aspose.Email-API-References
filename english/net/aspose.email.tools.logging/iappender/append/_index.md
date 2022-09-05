@@ -1,7 +1,7 @@
 ---
 title: Append
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Log the specified log entry in Appender specific way.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.logging/iappender/append/

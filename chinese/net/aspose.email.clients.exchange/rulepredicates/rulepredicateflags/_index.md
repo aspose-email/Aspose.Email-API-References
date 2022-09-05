@@ -1,14 +1,14 @@
 ---
 title: RulePredicateFlags
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置规则谓词标志
+description: 获取或设置规则谓词 flags
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/rulepredicateflags/
 ---
 ## RulePredicates.RulePredicateFlags property
 
-获取或设置规则谓词标志
+获取或设置规则谓词 flags
 
 ```csharp
 public RulePredicateFlags RulePredicateFlags { get; set; }

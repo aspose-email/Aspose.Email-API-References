@@ -1,14 +1,14 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesappointment 内容类 定义约会项目的属性
+description: 获取 urncontent-classesappointment 内容类 它定义了约会项目的属性
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/appointment/
 ---
 ## ContentClassType.Appointment property
 
-获取 urn:content-classes:appointment 内容类 定义约会项目的属性。
+获取 urn:content-classes:appointment 内容类 ，它定义了约会项目的属性。
 
 ```csharp
 public static ContentClassType Appointment { get; }
@@ -16,7 +16,7 @@ public static ContentClassType Appointment { get; }
 
 ### 适当的价值
 
-约会内容类。
+约会内容类
 
 ### 也可以看看
 

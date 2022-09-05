@@ -1,14 +1,14 @@
 ---
 title: ReminderPlaySound
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должен ли клиент воспроизводить звук когда напоминание просрочено. ОбластьНапоминания Каноническое имяPidLidReminderPlaySound Альтернативные именаdispidReminderPlaySound
+description: Указывает должен ли клиент воспроизводить звук когда напоминание просрочено.
 type: docs
 weight: 15700
 url: /ru/net/aspose.email.mapi/knownpropertylist/reminderplaysound/
 ---
 ## KnownPropertyList.ReminderPlaySound field
 
-Указывает, должен ли клиент воспроизводить звук, когда напоминание просрочено. Область:Напоминания Каноническое имя:PidLidReminderPlaySound Альтернативные имена:dispidReminderPlaySound
+Указывает, должен ли клиент воспроизводить звук, когда напоминание просрочено.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderPlaySound;

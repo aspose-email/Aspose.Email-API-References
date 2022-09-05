@@ -1,14 +1,14 @@
 ---
 title: CreateAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает новый экземпляр классаSmtpClientaspose.email.clients.smtp/smtpclient
+description: Создает новый экземплярSmtpClientaspose.email.clients.smtp/smtpclient класс
 type: docs
 weight: 220
 url: /ru/net/aspose.email.clients.smtp/smtpclient/createasync/
 ---
 ## SmtpClient.CreateAsync method
 
-Создает новый экземпляр класса[`SmtpClient`](../../smtpclient)
+Создает новый экземпляр[`SmtpClient`](../../smtpclient) класс
 
 ```csharp
 public static Task<IAsyncSmtpClient> CreateAsync(string host, string username, 

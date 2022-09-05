@@ -1,7 +1,7 @@
 ---
 title: Bcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets blind carbon copy of the EMail message.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/messageinfobase/bcc/

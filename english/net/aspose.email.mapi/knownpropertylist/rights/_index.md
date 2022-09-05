@@ -1,7 +1,7 @@
 ---
 title: Rights
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a users folder permissions. Area ExchangeFolder Canonical name PidTagRights Alternate names PR_RIGHTS ptagRights
 type: docs
 weight: 16290
 url: /net/aspose.email.mapi/knownpropertylist/rights/

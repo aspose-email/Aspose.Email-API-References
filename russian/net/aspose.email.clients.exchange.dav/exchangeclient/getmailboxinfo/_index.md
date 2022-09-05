@@ -37,11 +37,11 @@ public ExchangeMailboxInfo GetMailboxInfo(string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailbox | String | Почтовый ящик для чтения. Примечание:если для почтового ящика установлено значение` null` или` empty` , будет использоваться почтовый ящик по умолчанию |
+| mailbox | String | Почтовый ящик для чтения. Примечание: если почтовый ящик установлен на`нулевой`или же`пустой` почтовый ящик по умолчанию будет использоваться |
 
 ### Возвращаемое значение
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)который представляет информацию о почтовом ящике
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) который представляет информацию о почтовом ящике
 
 ### Смотрите также
 

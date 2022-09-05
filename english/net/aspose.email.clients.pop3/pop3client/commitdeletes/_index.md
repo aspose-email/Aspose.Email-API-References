@@ -1,12 +1,12 @@
 ---
 title: CommitDeletes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Commit the deletions
 type: docs
 weight: 50
 url: /net/aspose.email.clients.pop3/pop3client/commitdeletes/
 ---
-## Pop3Client.CommitDeletes method (1 of 3)
+## CommitDeletes(int) {#commitdeletes_2}
 
 Commit the deletions
 
@@ -26,7 +26,7 @@ public void CommitDeletes(int sleep)
 
 ---
 
-## Pop3Client.CommitDeletes method (2 of 3)
+## CommitDeletes(IConnection) {#commitdeletes_1}
 
 Commit the deletions
 
@@ -47,7 +47,7 @@ public void CommitDeletes(IConnection connection)
 
 ---
 
-## Pop3Client.CommitDeletes method (3 of 3)
+## CommitDeletes() {#commitdeletes}
 
 Commit the deletions
 

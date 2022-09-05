@@ -1,14 +1,14 @@
 ---
 title: ToDoTitle
 second_title: Aspose.Email for .NET API 参考
-description: 包含用户可指定的文本用于在合并的待办事项列表中标识此 Message 对象 区域任务 规范名称PidLidToDoTitle 替代名称dispidToDoTitle
+description: 包含用户可指定的文本以在合并的待办事项列表中标识此消息对象 区域Tasks 规范名称PidLidToDoTitle 替代名称dispidToDoTitle
 type: docs
 weight: 19060
 url: /zh/net/aspose.email.mapi/knownpropertylist/todotitle/
 ---
 ## KnownPropertyList.ToDoTitle field
 
-包含用户可指定的文本，用于在合并的待办事项列表中标识此 Message 对象。 区域:任务 规范名称:PidLidToDoTitle 替代名称:dispidToDoTitle
+包含用户可指定的文本以在合并的待办事项列表中标识此消息对象。 区域：Tasks 规范名称：PidLidToDoTitle 替代名称：dispidToDoTitle
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoTitle;

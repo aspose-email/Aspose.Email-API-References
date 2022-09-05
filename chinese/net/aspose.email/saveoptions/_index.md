@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Email for .NET API 参考
 description: 这是类的抽象基类允许用户在将 MailMessage 保存为特定格式时指定其他选项
 type: docs
-weight: 19920
+weight: 19970
 url: /zh/net/aspose.email/saveoptions/
 ---
 ## SaveOptions class
@@ -19,7 +19,7 @@ public abstract class SaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | 表示通常由调用方提供并处理进度事件的方法。 |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件信息的保存类型，可以是eml,msg(ASCII or Unicode),mhtml或者html格式。 默认值为 Eml。 |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件消息保存类型。可以是eml,msg(ASCII or Unicode),mhtml 或html 格式。 默认值为Eml。 |
 | static [DefaultEml](../../aspose.email/saveoptions/defaulteml) { get; } | 获取具有默认值的选项，用于将消息保存为 Eml 格式。 |
 | static [DefaultHtml](../../aspose.email/saveoptions/defaulthtml) { get; } | 获取具有默认值的选项，用于将消息保存为 Html 格式。 |
 | static [DefaultMhtml](../../aspose.email/saveoptions/defaultmhtml) { get; } | 获取具有默认值的选项，用于将消息保存为 Mhtml 格式。 |

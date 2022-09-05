@@ -1,9 +1,9 @@
 ---
 title: OriginalIsTnef
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether original EML message is in TNEF format.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.email/mailmessage/originalistnef/
 ---
 ## MailMessage.OriginalIsTnef property

@@ -24,7 +24,7 @@ public class ExchangeFolder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Id](../../aspose.email.clients.activity/exchangefolder/id) { get; set; } | 文件夹对象的存储 ID。 |
+| [Id](../../aspose.email.clients.activity/exchangefolder/id) { get; set; } | 文件夹对象的存储ID。 |
 | [Path](../../aspose.email.clients.activity/exchangefolder/path) { get; set; } | 被访问的邮件所在的邮箱文件夹的名称。 |
 
 ### 也可以看看

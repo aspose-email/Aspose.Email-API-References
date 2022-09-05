@@ -1,7 +1,7 @@
 ---
 title: AttachEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains encoding information about the Attachment object. Area Message Attachment Properties Canonical name PidTagAttachEncoding Alternate names PR_ATTACH_ENCODING
 type: docs
 weight: 1570
 url: /net/aspose.email.mapi/knownpropertylist/attachencoding/

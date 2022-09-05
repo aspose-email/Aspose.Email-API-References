@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/yahoovalue/
 ---
 ## InstantMessengerCategory.YahooValue field
 
-Строковое значение для категории 'Yahoo'
+Строковое значение для категории "Yahoo"
 
 ```csharp
 public const string YahooValue;

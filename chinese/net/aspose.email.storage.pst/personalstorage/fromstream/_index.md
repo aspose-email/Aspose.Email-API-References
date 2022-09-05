@@ -16,8 +16,8 @@ public static PersonalStorage FromStream(Stream stream, bool writable)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | System.IO.Stream。 |
-| writable | Boolean | 如果设置为` true` 则 pst 将支持写入， 否则会以只读模式打开。 |
+| stream | Stream | System.IO.Stream. |
+| writable | Boolean | 如果设置为`真的`那么 pst 将支持写入， 否则将以只读模式打开。 |
 
 ### 返回值
 
@@ -42,7 +42,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream。 |
-| loadOptions | PersonalStorageLoadOptions | 加载选项。 |
+| loadOptions | PersonalStorageLoadOptions | 负载选项。 |
 
 ### 返回值
 
@@ -87,7 +87,7 @@ public static PersonalStorage FromStream(Stream stream)
 
 ## FromStream(Stream, CancellationToken) {#fromstream_5}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, CancellationToken token)
@@ -130,7 +130,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable, Cancellat
 
 ## FromStream(Stream, PersonalStorageLoadOptions, CancellationToken) {#fromstream_2}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptions loadOptions, 
@@ -140,7 +140,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream。 |
-| loadOptions | PersonalStorageLoadOptions | 加载选项。 |
+| loadOptions | PersonalStorageLoadOptions | 负载选项。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值

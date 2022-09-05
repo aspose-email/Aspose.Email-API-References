@@ -17,7 +17,7 @@ public static bool operator ==(UrlCategory a, UrlCategory b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | UrlCategory | Первый объект для сравнения |
-| b | UrlCategory | Второй объект для сравнения compare |
+| b | UrlCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

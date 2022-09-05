@@ -1,14 +1,14 @@
 ---
 title: SyncRoot
 second_title: Aspose.Email for .NET API 参考
-description: 获取可用于同步访问ICollection的对象
+description: 获取可用于同步访问的对象ICollection.
 type: docs
 weight: 90
 url: /zh/net/aspose.email.personalinfo/emailaddresslist/syncroot/
 ---
 ## EmailAddressList.SyncRoot property
 
-获取可用于同步访问ICollection的对象。
+获取可用于同步访问的对象ICollection.
 
 ```csharp
 public object SyncRoot { get; }
@@ -16,7 +16,7 @@ public object SyncRoot { get; }
 
 ### 返回值
 
-可用于同步访问ICollection。
+可用于同步访问ICollection.
 
 ### 也可以看看
 

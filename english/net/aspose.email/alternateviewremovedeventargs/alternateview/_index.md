@@ -1,7 +1,7 @@
 ---
 title: AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the AlternateView that has been removed.
 type: docs
 weight: 20
 url: /net/aspose.email/alternateviewremovedeventargs/alternateview/

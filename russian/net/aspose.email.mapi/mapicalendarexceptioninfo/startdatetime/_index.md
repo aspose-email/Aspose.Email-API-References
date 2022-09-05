@@ -1,14 +1,14 @@
 ---
 title: StartDateTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает начальную дату.
+description: Получает или задает дату начала.
 type: docs
 weight: 130
 url: /ru/net/aspose.email.mapi/mapicalendarexceptioninfo/startdatetime/
 ---
 ## MapiCalendarExceptionInfo.StartDateTime property
 
-Получает или задает начальную дату.
+Получает или задает дату начала.
 
 ```csharp
 public DateTime StartDateTime { get; set; }
@@ -16,7 +16,7 @@ public DateTime StartDateTime { get; set; }
 
 ### Стоимость имущества
 
-Дата и время начала.
+Дата начала время.
 
 ### Смотрите также
 

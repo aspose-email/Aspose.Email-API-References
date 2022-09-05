@@ -1,14 +1,14 @@
 ---
 title: AttachTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию об идентификаторе приложения предоставившего данные объекта вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachTag Альтернативные именаPR_ATTACH_TAG
+description: Содержит информацию об идентификаторе приложения предоставившего данные объекта вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachTag Альтернативные имена PR_ATTACH_TAG
 type: docs
 weight: 1800
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachtag/
 ---
 ## KnownPropertyList.AttachTag field
 
-Содержит информацию об идентификаторе приложения, предоставившего данные объекта вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachTag Альтернативные имена:PR_ATTACH_TAG
+Содержит информацию об идентификаторе приложения, предоставившего данные объекта вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachTag Альтернативные имена: PR_ATTACH_TAG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachTag;

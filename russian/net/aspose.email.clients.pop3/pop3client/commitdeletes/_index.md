@@ -1,14 +1,14 @@
 ---
 title: CommitDeletes
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление
+description: Подтвердить удаление
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.pop3/pop3client/commitdeletes/
 ---
 ## CommitDeletes(int) {#commitdeletes_2}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes(int sleep)
@@ -28,7 +28,7 @@ public void CommitDeletes(int sleep)
 
 ## CommitDeletes(IConnection) {#commitdeletes_1}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes(IConnection connection)
@@ -36,7 +36,7 @@ public void CommitDeletes(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public void CommitDeletes(IConnection connection)
 
 ## CommitDeletes() {#commitdeletes}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes()

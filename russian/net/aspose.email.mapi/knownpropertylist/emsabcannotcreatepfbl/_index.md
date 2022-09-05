@@ -1,14 +1,14 @@
 ---
 title: EmsAbCanNotCreatePfBl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CAN_NOT_CREATE_PF_BL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CAN_NOT_CREATE_PF_BL
 type: docs
 weight: 5020
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabcannotcreatepfbl/
 ---
 ## KnownPropertyList.EmsAbCanNotCreatePfBl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CAN_NOT_CREATE_PF_BL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CAN_NOT_CREATE_PF_BL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCanNotCreatePfBl;

@@ -1,14 +1,14 @@
 ---
 title: ContactUserField3
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит текст используемый для добавления пользовательского текста в представление визитной карточки объекта Contact. ОбластьСвойства контакта Каноническое имяPidLidContactUserField3 Альтернативные именаdispidContactUserField3
+description: Содержит текст используемый для добавления пользовательского текста в представление визитной карточки объекта Contact. Область Свойства контакта Каноническое имя PidLidContactUserField3 Альтернативные имена dispidContactUserField3
 type: docs
 weight: 3070
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactuserfield3/
 ---
 ## KnownPropertyList.ContactUserField3 field
 
-Содержит текст, используемый для добавления пользовательского текста в представление визитной карточки объекта Contact. Область:Свойства контакта Каноническое имя:PidLidContactUserField3 Альтернативные имена:dispidContactUserField3
+Содержит текст, используемый для добавления пользовательского текста в представление визитной карточки объекта Contact. Область: Свойства контакта Каноническое имя: PidLidContactUserField3 Альтернативные имена: dispidContactUserField3
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactUserField3;

@@ -1,7 +1,7 @@
 ---
 title: CountryCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the country code portion of the contacts address
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/countrycode/

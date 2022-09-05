@@ -1,7 +1,7 @@
 ---
 title: BirthdayLocal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the birthday of a contact. Area Contact Properties Canonical name PidLidBirthdayLocal Alternate names dispidApptBirthdayLocal
 type: docs
 weight: 2010
 url: /net/aspose.email.mapi/knownpropertylist/birthdaylocal/

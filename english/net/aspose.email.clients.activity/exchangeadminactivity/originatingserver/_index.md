@@ -1,7 +1,7 @@
 ---
 title: OriginatingServer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the server from which the cmdlet was executed.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/exchangeadminactivity/originatingserver/

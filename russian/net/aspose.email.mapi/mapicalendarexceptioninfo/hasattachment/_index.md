@@ -1,14 +1,14 @@
 ---
 title: HasAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение этого поля определяющее содержит ли объект Exception Embedded Message вложения
+description: Получает значение этого поля указывающее содержит ли объект встроенного сообщения об исключении вложения
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicalendarexceptioninfo/hasattachment/
 ---
 ## MapiCalendarExceptionInfo.HasAttachment property
 
-Получает значение этого поля, определяющее, содержит ли объект Exception Embedded Message вложения
+Получает значение этого поля, указывающее, содержит ли объект встроенного сообщения об исключении вложения
 
 ```csharp
 public bool HasAttachment { get; }
@@ -16,7 +16,7 @@ public bool HasAttachment { get; }
 
 ### Стоимость имущества
 
-` true` , если объект Exception Embedded Message имеет вложение; в противном случае` false` .
+`истинный` если объект Exception Embedded Message имеет вложение; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

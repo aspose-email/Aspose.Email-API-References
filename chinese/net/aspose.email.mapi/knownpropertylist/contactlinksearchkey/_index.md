@@ -1,14 +1,14 @@
 ---
 title: ContactLinkSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含由 Message 对象链接的 Contact 对象的 SearchKeys 列表 区域联系人属性 规范名称PidLidContactLinkSearchKey 替代名称dispidContactLinkSearchKey
+description: 包含由消息对象链接到的联系人对象的 SearchKey 列表 区域联系人属性 规范名称PidLidContactLinkSearchKey 替代名称dispidContactLinkSearchKey
 type: docs
 weight: 3020
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinksearchkey/
 ---
 ## KnownPropertyList.ContactLinkSearchKey field
 
-包含由 Message 对象链接的 Contact 对象的 SearchKeys 列表。 区域:联系人属性 规范名称:PidLidContactLinkSearchKey 替代名称:dispidContactLinkSearchKey
+包含由消息对象链接到的联系人对象的 SearchKey 列表。 区域：联系人属性 规范名称：PidLidContactLinkSearchKey 替代名称：dispidContactLinkSearchKey
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkSearchKey;

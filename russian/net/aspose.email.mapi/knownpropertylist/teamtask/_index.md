@@ -1,14 +1,14 @@
 ---
 title: TeamTask
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство устанавливается клиентом но игнорируется сервером. ОбластьЗадачи Каноническое имяPidLidTeamTask Альтернативные именаdispidTeamTask
+description: Это свойство задается клиентом но игнорируется сервером. Область Tasks Каноническое имя PidLidTeamTask Альтернативные имена dispidTeamTask
 type: docs
 weight: 18870
 url: /ru/net/aspose.email.mapi/knownpropertylist/teamtask/
 ---
 ## KnownPropertyList.TeamTask field
 
-Это свойство устанавливается клиентом, но игнорируется сервером. Область:Задачи Каноническое имя:PidLidTeamTask Альтернативные имена:dispidTeamTask
+Это свойство задается клиентом, но игнорируется сервером. Область: Tasks Каноническое имя: PidLidTeamTask Альтернативные имена: dispidTeamTask
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TeamTask;

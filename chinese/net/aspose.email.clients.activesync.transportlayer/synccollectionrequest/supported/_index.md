@@ -1,14 +1,14 @@
 ---
 title: Supported
 second_title: Aspose.Email for .NET API 参考
-description: Contact 类和 Calendar 类的元素可以作为 Supported 元素的子元素包含在内 幻影属性的使用详见 2.2.3.154 小节
+description: Contact 类和Calendar 类中没有幻影的元素可以作为Supported 元素的子元素包含在内 幻影属性的使用详见2.2.3.154.
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/supported/
 ---
 ## SyncCollectionRequest.Supported property
 
-Contact 类和 Calendar 类的元素可以作为 Supported 元素的子元素包含在内。 幻影属性的使用详见 2.2.3.154 小节。
+Contact 类和Calendar 类中没有幻影的元素可以作为Supported 元素的子元素包含在内。 幻影属性的使用详见2.2.3.154.
 
 ```csharp
 public List<string> Supported { get; }

@@ -1,14 +1,14 @@
 ---
 title: RecallReport
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesrecallreport 内容类 为作为召回报告消息的项目定义一组属性
+description: 获取 urncontent-classesrecallreport 内容类 它为作为召回报告消息的项目定义一组属性
 type: docs
 weight: 190
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/recallreport/
 ---
 ## ContentClassType.RecallReport property
 
-获取 urn:content-classes:recallreport 内容类 为作为召回报告消息的项目定义一组属性。
+获取 urn:content-classes:recallreport 内容类 ，它为作为召回报告消息的项目定义一组属性。
 
 ```csharp
 public static ContentClassType RecallReport { get; }

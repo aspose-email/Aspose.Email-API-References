@@ -1,7 +1,7 @@
 ---
 title: ToGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the value of the property to Guidaspose.email.mapi.msg/messageobjectproperty/guid.
 type: docs
 weight: 140
 url: /net/aspose.email.mapi.msg/messageobjectproperty/toguid/

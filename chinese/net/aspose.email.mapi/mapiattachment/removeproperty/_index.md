@@ -1,14 +1,14 @@
 ---
 title: RemoveProperty
 second_title: Aspose.Email for .NET API 参考
-description: 提供从所有集合中正确删除属性
+description: 提供从所有集合中正确删除的属性
 type: docs
 weight: 140
 url: /zh/net/aspose.email.mapi/mapiattachment/removeproperty/
 ---
 ## MapiAttachment.RemoveProperty method
 
-提供从所有集合中正确删除属性。
+提供从所有集合中正确删除的属性。
 
 ```csharp
 public void RemoveProperty(long tag)

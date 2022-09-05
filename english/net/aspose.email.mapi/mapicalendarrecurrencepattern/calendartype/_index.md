@@ -1,7 +1,7 @@
 ---
 title: CalendarType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of calendar that is used
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/calendartype/

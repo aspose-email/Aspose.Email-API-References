@@ -1,14 +1,14 @@
 ---
 title: AllowBrowser
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает позволяет ли устройство использовать веб-браузер.
+description: Указывает разрешает ли устройство использование веб-браузера.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowbrowser/
 ---
 ## EASProvisionDoc.AllowBrowser property
 
-Указывает, позволяет ли устройство использовать веб-браузер.
+Указывает, разрешает ли устройство использование веб-браузера.
 
 ```csharp
 public bool? AllowBrowser { get; set; }

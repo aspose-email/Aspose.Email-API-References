@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value from collection by the name.
 type: docs
 weight: 50
 url: /net/aspose.email.mime/headercollection/item/

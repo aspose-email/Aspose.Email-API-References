@@ -1,14 +1,14 @@
 ---
 title: Organization
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает информацию об организации
+description: Получает или задает информацию об организации
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/organization/
 ---
 ## VCardContact.Organization property
 
-Получает или устанавливает информацию об организации
+Получает или задает информацию об организации
 
 ```csharp
 public VCardOrganization Organization { get; set; }

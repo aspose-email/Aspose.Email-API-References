@@ -1,7 +1,7 @@
 ---
 title: AppointmentAction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates appointments methods
 type: docs
 weight: 440
 url: /net/aspose.email.calendar/appointmentaction/

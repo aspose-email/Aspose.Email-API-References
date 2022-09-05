@@ -1,14 +1,14 @@
 ---
 title: Business2TelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置第二个企业电话号码
+description: 获取或设置第二个业务电话号码
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber/
 ---
 ## MapiContactTelephonePropertySet.Business2TelephoneNumber property
 
-获取或设置第二个企业电话号码
+获取或设置第二个业务电话号码
 
 ```csharp
 public string Business2TelephoneNumber { get; set; }

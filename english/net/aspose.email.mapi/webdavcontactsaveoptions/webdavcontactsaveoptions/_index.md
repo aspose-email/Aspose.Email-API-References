@@ -1,7 +1,7 @@
 ---
 title: WebDavContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the WebDavContactSaveOptionsaspose.email.mapi/webdavcontactsaveoptions class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/webdavcontactsaveoptions/webdavcontactsaveoptions/

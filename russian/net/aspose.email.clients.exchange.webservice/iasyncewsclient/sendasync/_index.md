@@ -18,8 +18,8 @@ public Task SendAsync(MailMessage message, FollowUpOptions messageOptions = null
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MailMessage | Сообщение. |
-| messageOptions | FollowUpOptions | Элемент[`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)который представляет дополнительные параметры для использования флаги отслеживания и кнопки голосования. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| messageOptions | FollowUpOptions | [`FollowUpOptions`](../../../aspose.email.mapi/followupoptions) который представляет дополнительные параметры для использования флагов последующих действий и кнопок голосования . |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

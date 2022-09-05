@@ -1,14 +1,14 @@
 ---
 title: UnsubscribeFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 发送了 UNSUBSCRIBE 命令从服务器的活动邮箱集中删除指定的邮箱名称
+description: 发送了从服务器的活动邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 type: docs
 weight: 1280
 url: /zh/net/aspose.email.clients.imap/imapclient/unsubscribefolderasync/
 ---
 ## UnsubscribeFolderAsync(IConnection, string) {#unsubscribefolderasync}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public Task UnsubscribeFolderAsync(IConnection connection, string folderName)
@@ -34,7 +34,7 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName)
 
 ## UnsubscribeFolderAsync(string) {#unsubscribefolderasync_2}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public Task UnsubscribeFolderAsync(string folderName)
@@ -46,7 +46,7 @@ public Task UnsubscribeFolderAsync(string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public Task UnsubscribeFolderAsync(string folderName)
 
 ## UnsubscribeFolderAsync(IConnection, string, CancellationToken) {#unsubscribefolderasync_1}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public Task UnsubscribeFolderAsync(IConnection connection, string folderName, 
@@ -73,7 +73,7 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -86,7 +86,7 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName,
 
 ## UnsubscribeFolderAsync(string, CancellationToken) {#unsubscribefolderasync_3}
 
-发送了 UNSUBSCRIBE 命令，从服务器的“活动”邮箱集中删除指定的邮箱名称
+发送了从服务器的“活动”邮箱集中删除指定邮箱名称的 UNSUBSCRIBE 命令
 
 ```csharp
 public Task UnsubscribeFolderAsync(string folderName, CancellationToken token)
@@ -99,7 +99,7 @@ public Task UnsubscribeFolderAsync(string folderName, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置标题
+description: 获取或设置标头
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.logging/formatter/header/
 ---
 ## Formatter.Header property
 
-获取或设置标题。
+获取或设置标头。
 
 ```csharp
 public virtual string Header { get; }

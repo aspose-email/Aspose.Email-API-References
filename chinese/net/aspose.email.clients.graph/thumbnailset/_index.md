@@ -1,14 +1,14 @@
 ---
 title: ThumbnailSet
 second_title: Aspose.Email for .NET API 参考
-description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailsetviewgraph-rest-1.0 ThumbnailSet 资源是缩略图资源的键控集合 它用于表示与 DriveItem 关联的一组缩略图
+description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailsetviewgraph-rest-1.0 ThumbnailSet 资源是缩略图资源的键控集合 用于表示与 DriveItem 关联的一组缩略图
 type: docs
 weight: 16080
 url: /zh/net/aspose.email.clients.graph/thumbnailset/
 ---
 ## ThumbnailSet class
 
-https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 ThumbnailSet 资源是缩略图资源的键控集合。 它用于表示与 DriveItem 关联的一组缩略图。
+https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 ThumbnailSet 资源是缩略图资源的键控集合。 用于表示与 DriveItem 关联的一组缩略图。
 
 ```csharp
 public class ThumbnailSet
@@ -24,11 +24,11 @@ public class ThumbnailSet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Id](../../aspose.email.clients.graph/thumbnailset/id) { get; set; } | 项目中的 id。只读。 |
+| [Id](../../aspose.email.clients.graph/thumbnailset/id) { get; set; } | 项目内的id。只读。 |
 | [Large](../../aspose.email.clients.graph/thumbnailset/large) { get; set; } | 1920x1920 缩放的缩略图。 |
-| [Medium](../../aspose.email.clients.graph/thumbnailset/medium) { get; set; } | 176x176 缩放缩略图。 |
+| [Medium](../../aspose.email.clients.graph/thumbnailset/medium) { get; set; } | 176x176 缩放的缩略图。 |
 | [Small](../../aspose.email.clients.graph/thumbnailset/small) { get; set; } | 48x48 裁剪的缩略图。 |
-| [Source](../../aspose.email.clients.graph/thumbnailset/source) { get; set; } | 自定义缩略图或用于生成其他缩略图的原始图像。 |
+| [Source](../../aspose.email.clients.graph/thumbnailset/source) { get; set; } | 自定义缩略图图像或用于生成其他缩略图的原始图像。 |
 
 ### 也可以看看
 

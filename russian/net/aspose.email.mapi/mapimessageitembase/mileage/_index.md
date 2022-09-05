@@ -1,14 +1,14 @@
 ---
 title: Mileage
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о пробеге связанную с элементом.
+description: Содержит информацию о пробеге связанном с элементом.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.mapi/mapimessageitembase/mileage/
 ---
 ## MapiMessageItemBase.Mileage property
 
-Содержит информацию о пробеге, связанную с элементом.
+Содержит информацию о пробеге, связанном с элементом.
 
 ```csharp
 public string Mileage { get; set; }

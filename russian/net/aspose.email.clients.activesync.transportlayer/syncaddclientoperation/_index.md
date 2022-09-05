@@ -25,7 +25,7 @@ public class SyncAddClientOperation
 | Имя | Описание |
 | --- | --- |
 | [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncaddclientoperation/applicationdata) { get; } | ApplicationData содержит данные для определенного объекта, такого как контакт, сообщение электронной почты, встреча в календаре или элемент задачи. |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncaddclientoperation/serverid) { get; set; } | Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту. Используется только в ответах сервера. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncaddclientoperation/serverid) { get; set; } | Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован. Используется только в ответах сервера. |
 
 ### Смотрите также
 

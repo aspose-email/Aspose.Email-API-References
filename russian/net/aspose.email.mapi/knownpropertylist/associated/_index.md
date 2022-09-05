@@ -1,14 +1,14 @@
 ---
 title: Associated
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли синхронизируемое сообщение сообщением FAI. ОбластьСинхронизация Каноническое имяPidTagAssociated Альтернативные именаptagAssociated
+description: Указывает является ли синхронизируемое сообщение сообщением FAI. Область Sync Каноническое имя PidTagAssociated Альтернативные имена ptagAssociated
 type: docs
 weight: 1470
 url: /ru/net/aspose.email.mapi/knownpropertylist/associated/
 ---
 ## KnownPropertyList.Associated field
 
-Указывает, является ли синхронизируемое сообщение сообщением FAI. Область:Синхронизация Каноническое имя:PidTagAssociated Альтернативные имена:ptagAssociated
+Указывает, является ли синхронизируемое сообщение сообщением FAI. Область: Sync Каноническое имя: PidTagAssociated Альтернативные имена: ptagAssociated
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Associated;

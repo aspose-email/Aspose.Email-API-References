@@ -1,7 +1,7 @@
 ---
 title: ClearVotingButtons
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the voting buttons.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/followupmanager/clearvotingbuttons/

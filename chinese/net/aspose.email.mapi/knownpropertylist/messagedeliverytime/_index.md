@@ -1,14 +1,14 @@
 ---
 title: MessageDeliveryTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器收到消息的时间以 UTC 为单位 区域消息时间属性 规范名称PidTagMessageDeliveryTime 替代名称PR_MESSAGE_DELIVERY_TIME urnschemashttpmaildatereceived
+description: 指定服务器收到消息的时间以 UTC 为单位 区域消息时间 Properties 规范名称PidTagMessageDeliveryTime 替代名称PR_MESSAGE_DELIVERY_TIMEurnschemashttpmaildatereceived
 type: docs
 weight: 12500
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagedeliverytime/
 ---
 ## KnownPropertyList.MessageDeliveryTime field
 
-指定服务器收到消息的时间（以 UTC 为单位）。 区域:消息时间属性 规范名称:PidTagMessageDeliveryTime 替代名称:PR_MESSAGE_DELIVERY_TIME, urn:schemas:httpmail:datereceived
+指定服务器收到消息的时间（以 UTC 为单位）。 区域：消息时间 Properties 规范名称：PidTagMessageDeliveryTime 替代名称：PR_MESSAGE_DELIVERY_TIME，urn:schemas:httpmail:datereceived
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageDeliveryTime;

@@ -1,14 +1,14 @@
 ---
 title: ComputerNetworkName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя сети к которой подключен компьютер контакта
+description: Указывает имя сети  к которой подключен компьютер контакта
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname/
 ---
 ## MapiContactPersonalInfoPropertySet.ComputerNetworkName property
 
-Указывает имя сети к которой подключен компьютер контакта
+Указывает имя сети , к которой подключен компьютер контакта
 
 ```csharp
 public string ComputerNetworkName { get; set; }

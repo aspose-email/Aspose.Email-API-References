@@ -1,7 +1,7 @@
 ---
 title: OperationDetails
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets extra information aboout error
 type: docs
 weight: 20
 url: /net/aspose.email/smtpexception/operationdetails/

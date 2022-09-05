@@ -1,14 +1,14 @@
 ---
 title: ReminderTopic
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет состояние приглашения на собрание.
+description: Представляет статус приглашения на собрание.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/remindertopic/
 ---
 ## MapiContactOtherPropertySet.ReminderTopic property
 
-Представляет состояние приглашения на собрание.
+Представляет статус приглашения на собрание.
 
 ```csharp
 public string ReminderTopic { get; set; }

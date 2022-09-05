@@ -22,7 +22,7 @@ public void ExportTo(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果文件名为空或空则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 也可以看看
 

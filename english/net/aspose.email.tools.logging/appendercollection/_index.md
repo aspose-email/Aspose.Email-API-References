@@ -1,9 +1,9 @@
 ---
 title: AppenderCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the collecton for Appender objects.
 type: docs
-weight: 20220
+weight: 20450
 url: /net/aspose.email.tools.logging/appendercollection/
 ---
 ## AppenderCollection class
@@ -24,7 +24,7 @@ public class AppenderCollection : Collection<IAppender>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.tools.logging/appendercollection/add)(IAppender) | Adds an IAppender object to the end of collection. |
+| [Add](../../aspose.email.tools.logging/appendercollection/add#add)(IAppender) | Adds an IAppender object to the end of collection. |
 | [AddRange](../../aspose.email.tools.logging/appendercollection/addrange)(IEnumerable&lt;IAppender&gt;) | Adds an IAppenders enumeration to the end of collection. |
 
 ### See Also

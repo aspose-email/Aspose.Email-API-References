@@ -1,14 +1,14 @@
 ---
 title: AddressBookTargetAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты внешней системы объекта адресной книги. ОбластьАдресная книга Каноническое имяPidTagAddressBookTargetAddress Альтернативные именаPR_EMS_AB_TARGET_ADDRESS PR_EMS_AB_TARGET_ADDRESS_A PR_EMS_AB_TARGET_ADDRESS_W
+description: Содержит адрес электронной почты внешней системы объекта адресной книги. Область Адресная книга Каноническое имя PidTagAddressBookTargetAddress Альтернативные имена PR_EMS_AB_TARGET_ADDRESS PR_EMS_AB_TARGET_ADDRESS_A PR_EMS_AB_TARGET_ADDRESS_W
 type: docs
 weight: 980
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbooktargetaddress/
 ---
 ## KnownPropertyList.AddressBookTargetAddress field
 
-Содержит адрес электронной почты внешней системы объекта адресной книги. Область:Адресная книга Каноническое имя:PidTagAddressBookTargetAddress Альтернативные имена:PR_EMS_AB_TARGET_ADDRESS, PR_EMS_AB_TARGET_ADDRESS_A, PR_EMS_AB_TARGET_ADDRESS_W
+Содержит адрес электронной почты внешней системы объекта адресной книги. Область: Адресная книга Каноническое имя: PidTagAddressBookTargetAddress Альтернативные имена: PR_EMS_AB_TARGET_ADDRESS, PR_EMS_AB_TARGET_ADDRESS_A, PR_EMS_AB_TARGET_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookTargetAddress;

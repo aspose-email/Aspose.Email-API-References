@@ -1,7 +1,7 @@
 ---
 title: Alt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A string of alternate text similar to the alt attribute on img.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampimage/alt/

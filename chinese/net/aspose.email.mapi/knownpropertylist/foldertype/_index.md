@@ -1,14 +1,14 @@
 ---
 title: FolderType
 second_title: Aspose.Email for .NET API 参考
-description: 指定文件夹的类型包括根文件夹通用文件夹和搜索文件夹 区域MapiContainer 规范名称PidTagFolderType 替代名称PR_FOLDER_TYPE ptagFolderType
+description: 指定文件夹的类型包括根文件夹通用文件夹和搜索文件夹 区域MapiContainer 规范名称PidTagFolderType 备用名称PR_FOLDER_TYPEptagFolderType
 type: docs
 weight: 10450
 url: /zh/net/aspose.email.mapi/knownpropertylist/foldertype/
 ---
 ## KnownPropertyList.FolderType field
 
-指定文件夹的类型，包括根文件夹、通用文件夹和搜索文件夹。 区域:MapiContainer 规范名称:PidTagFolderType 替代名称:PR_FOLDER_TYPE, ptagFolderType
+指定文件夹的类型，包括根文件夹、通用文件夹和搜索文件夹。 区域：MapiContainer 规范名称：PidTagFolderType 备用名称：PR_FOLDER_TYPE、ptagFolderType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderType;

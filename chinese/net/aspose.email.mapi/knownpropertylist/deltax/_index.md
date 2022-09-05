@@ -1,14 +1,14 @@
 ---
 title: Deltax
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_DELTAX
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_DELTAX
 type: docs
 weight: 3970
 url: /zh/net/aspose.email.mapi/knownpropertylist/deltax/
 ---
 ## KnownPropertyList.Deltax field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_DELTAX
+Microsoft? Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_DELTAX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Deltax;

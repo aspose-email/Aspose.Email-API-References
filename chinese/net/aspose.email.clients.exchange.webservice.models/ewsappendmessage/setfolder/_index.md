@@ -1,14 +1,14 @@
 ---
 title: SetFolder
 second_title: Aspose.Email for .NET API 参考
-description: 上传消息的文件夹
+description: 消息上传到的文件夹
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder/
 ---
 ## EwsAppendMessage.SetFolder method
 
-上传消息的文件夹。
+消息上传到的文件夹。
 
 ```csharp
 public EwsAppendMessage SetFolder(string folder)

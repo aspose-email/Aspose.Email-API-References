@@ -1,7 +1,7 @@
 ---
 title: SIPResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SIP response
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/callinformation/sipresponse/

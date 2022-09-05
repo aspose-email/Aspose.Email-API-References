@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are not equal to each another.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/op_inequality/

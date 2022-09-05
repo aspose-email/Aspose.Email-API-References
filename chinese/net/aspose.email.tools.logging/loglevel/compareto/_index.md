@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Email for .NET API 参考
-description: 将级别与另一个LogLevelaspose.email.tools.logging/loglevel对象进行比较
+description: 将级别与其他级别进行比较LogLevelaspose.email.tools.logging/loglevel对象.
 type: docs
 weight: 70
 url: /zh/net/aspose.email.tools.logging/loglevel/compareto/
 ---
 ## LogLevel.CompareTo method
 
-将级别与另一个[`LogLevel`](../../loglevel)对象进行比较。
+将级别与其他级别进行比较[`LogLevel`](../../loglevel)对象.
 
 ```csharp
 public int CompareTo(object obj)
@@ -20,7 +20,7 @@ public int CompareTo(object obj)
 
 ### 返回值
 
-值小于零时此记录器的Ordinal小于其他记录器的序号 ，当它们相等时为 0，并且 当这个序数大于 其他序数时大于零。
+当这个记录器的值小于零时Ordinal 小于其他记录器的序数，当它们相等时为 0，当此序数大于 其他序数时 大于零。
 
 ### 也可以看看
 

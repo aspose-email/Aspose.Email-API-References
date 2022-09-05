@@ -1,14 +1,14 @@
 ---
 title: Pop3LoadMessageInfoList
 second_title: Aspose.Email for .NET API 参考
-description: LoadMessageInfoListAsync../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync方法参数集
+description: LoadMessageInfoListAsync../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync方法参数集.
 type: docs
 weight: 16860
 url: /zh/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/
 ---
 ## Pop3LoadMessageInfoList class
 
-[`LoadMessageInfoListAsync`](../../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync)方法参数集。
+[`LoadMessageInfoListAsync`](../../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync)方法参数集.
 
 ```csharp
 public class Pop3LoadMessageInfoList
@@ -18,10 +18,10 @@ public class Pop3LoadMessageInfoList
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/create)() | 创建[`Pop3LoadMessageInfoList`](../pop3loadmessageinfolist)。 |
+| static [Create](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/create)() | 创建[`Pop3LoadMessageInfoList`](../pop3loadmessageinfolist). |
 | [AddMessageInfo](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addmessageinfo)(Pop3MessageInfo) | 添加要加载的消息信息。 |
 | [AddMessageInfoList](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addmessageinfolist)(IEnumerable&lt;Pop3MessageInfo&gt;) | 添加要加载的消息信息列表。 |
-| [AddSequenceNumber](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequencenumber)(int) | 添加消息序号。 |
+| [AddSequenceNumber](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequencenumber)(int) | 添加消息序号 |
 | [AddSequenceNumbers](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequencenumbers)(IEnumerable&lt;int&gt;) | 添加消息序列号。 |
 | [SetCancellationToken](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/setcancellationtoken)(CancellationToken) | 设置取消令牌（可选）。 |
 | [SetConnection](../../aspose.email.clients.pop3.models/pop3loadmessageinfolist/setconnection)(IConnection) | 连接到服务器（可选）。 |

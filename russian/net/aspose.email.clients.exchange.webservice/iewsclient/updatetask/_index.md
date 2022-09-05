@@ -16,11 +16,11 @@ public string UpdateTask(MapiTask task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | MapiTask | An[`MapiTask`](../../../aspose.email.mapi/mapitask)содержащий информацию о задаче. |
+| task | MapiTask | Ан[`MapiTask`](../../../aspose.email.mapi/mapitask) содержащие информацию о задании. |
 
 ### Возвращаемое значение
 
-URI задачи.
+Ури задачи.
 
 ### Смотрите также
 
@@ -42,11 +42,11 @@ public string UpdateTask(string uri, MapiTask task)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | Идентификатор задачи |
-| task | MapiTask | An[`ExchangeTask`](../../exchangetask), содержащий информацию о задаче. |
+| task | MapiTask | Ан[`ExchangeTask`](../../exchangetask) содержащие информацию о задании. |
 
 ### Возвращаемое значение
 
-URI задачи.
+Ури задачи.
 
 ### Смотрите также
 
@@ -69,12 +69,12 @@ public string UpdateTask(string uri, MapiTask task,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | Идентификатор задачи |
-| task | MapiTask | An[`ExchangeTask`](../../exchangetask), содержащий информацию о задаче. |
+| task | MapiTask | Ан[`ExchangeTask`](../../exchangetask) содержащие информацию о задании. |
 | additionalProperties | IEnumerable`1 | Дополнительные свойства MAPI, которые можно использовать в объекте MAPI. |
 
 ### Возвращаемое значение
 
-URI задачи.
+Ури задачи.
 
 ### Смотрите также
 
@@ -96,14 +96,14 @@ public void UpdateTask(ExchangeTask task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | ExchangeTask | An[`ExchangeTask`](../../exchangetask)содержащий задачу Информация. |
+| task | ExchangeTask | Ан[`ExchangeTask`](../../exchangetask) содержащие информацию о задании. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Свойство UniqueUri*task*равно` null` или` пусто` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Свойство UniqueUri*task* является`нулевой`или же`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* является`нулевой`. |
 
 ### Смотрите также
 
@@ -124,15 +124,15 @@ public void UpdateTask(ExchangeTask task, UpdateTaskOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | ExchangeTask | An[`ExchangeTask`](../../exchangetask)содержащий задачу Информация. |
-| options | UpdateTaskOptions | Параметры обновления. |
+| task | ExchangeTask | Ан[`ExchangeTask`](../../exchangetask) содержащие информацию о задании. |
+| options | UpdateTaskOptions | Варианты обновления. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Свойство UniqueUri*task*равно` null` или` пусто` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | Свойство UniqueUri*task* является`нулевой`или же`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* является`нулевой`. |
 
 ### Смотрите также
 

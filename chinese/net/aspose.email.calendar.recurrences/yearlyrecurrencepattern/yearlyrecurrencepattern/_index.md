@@ -1,14 +1,14 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化YearlyRecurrencePatternaspose.email.calendar.recurrences/yearlyrecurrencepattern类的新实例
+description: 初始化YearlyRecurrencePatternaspose.email.calendar.recurrences/yearlyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern() {#constructor}
 
-初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类的新实例。
+初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类.
 
 ```csharp
 public YearlyRecurrencePattern()
@@ -24,7 +24,7 @@ public YearlyRecurrencePattern()
 
 ## YearlyRecurrencePattern(int, CalendarMonth) {#constructor_2}
 
-初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类的新实例。
+初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类.
 
 ```csharp
 public YearlyRecurrencePattern(int startOffset, CalendarMonth startMonth)
@@ -46,7 +46,7 @@ public YearlyRecurrencePattern(int startOffset, CalendarMonth startMonth)
 
 ## YearlyRecurrencePattern(CalendarDay, CalendarMonth, DayPosition) {#constructor_1}
 
-初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类的新实例。
+初始化[`YearlyRecurrencePattern`](../../yearlyrecurrencepattern)类.
 
 ```csharp
 public YearlyRecurrencePattern(CalendarDay startDay, CalendarMonth startMonth, 

@@ -1,14 +1,14 @@
 ---
 title: NoopAsync
 second_title: Aspose.Email for .NET API 参考
-description: No operation 命令
+description: 无操作 命令
 type: docs
 weight: 280
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/noopasync/
 ---
 ## IAsyncImapClient.NoopAsync method
 
-'No operation' 命令
+'无操作' 命令
 
 ```csharp
 public Task NoopAsync(IConnection connection = null, CancellationToken token = default)
@@ -21,7 +21,7 @@ public Task NoopAsync(IConnection connection = null, CancellationToken token = d
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

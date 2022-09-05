@@ -1,14 +1,14 @@
 ---
 title: GetMailboxesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Список почтовых ящиков имеющих smtp-адреса. Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS.
+description: Список почтовых ящиков имеющих smtp-адреса. Примечание. Максимальное количество возвращенных контактов равно 100. Это ограничение используемой операции EWS.
 type: docs
 weight: 360
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/getmailboxesasync/
 ---
 ## IAsyncEwsClient.GetMailboxesAsync method
 
-Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращаемых контактов – 100. Это ограничение используемой операции EWS.
+Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращенных контактов равно 100. Это ограничение используемой операции EWS.
 
 ```csharp
 public Task<Contact[]> GetMailboxesAsync(CancellationToken cancellationToken = default)
@@ -16,7 +16,7 @@ public Task<Contact[]> GetMailboxesAsync(CancellationToken cancellationToken = d
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cancellationToken | CancellationToken | Маркер отмены |
+| cancellationToken | CancellationToken | Токен отмены |
 
 ### Возвращаемое значение
 

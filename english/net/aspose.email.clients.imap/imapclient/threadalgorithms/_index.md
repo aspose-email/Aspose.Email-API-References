@@ -1,7 +1,7 @@
 ---
 title: ThreadAlgorithms
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets supported thread algorithms
 type: docs
 weight: 300
 url: /net/aspose.email.clients.imap/imapclient/threadalgorithms/

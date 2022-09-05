@@ -3,7 +3,7 @@ title: LogEntry
 second_title: Aspose.Email for .NET API 参考
 description: 表示日志消息包含所有日志消息所需的公共属性
 type: docs
-weight: 20470
+weight: 20520
 url: /zh/net/aspose.email.tools.logging/logentry/
 ---
 ## LogEntry class
@@ -18,19 +18,19 @@ public class LogEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LogEntry](logentry#constructor)() | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_1)(byte[]) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_5)(string) | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_3)(byte[], Encoding) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_2)(byte[], IDictionary&lt;string, string&gt;) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_9)(string, DateTime) | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_10)(string, Exception) | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_8)(string, IDictionary&lt;string, string&gt;) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_6)(string, LogLevel) | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_4)(byte[], Encoding, IDictionary&lt;string, string&gt;) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_11)(string, Exception, LogLevel) | 初始化[`LogEntry`](../logentry)类的新实例。 |
-| [LogEntry](logentry#constructor_7)(string, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
-| [LogEntry](logentry#constructor_12)(string, Exception, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) | 创建[`LogEntry`](../logentry)的新实例，带有完整的构造函数参数集 |
+| [LogEntry](logentry#constructor)() | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_1)(byte[]) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_5)(string) | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_3)(byte[], Encoding) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_2)(byte[], IDictionary&lt;string, string&gt;) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_9)(string, DateTime) | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_10)(string, Exception) | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_8)(string, IDictionary&lt;string, string&gt;) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_6)(string, LogLevel) | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_4)(byte[], Encoding, IDictionary&lt;string, string&gt;) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_11)(string, Exception, LogLevel) | 初始化一个新的实例[`LogEntry`](../logentry)类. |
+| [LogEntry](logentry#constructor_7)(string, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
+| [LogEntry](logentry#constructor_12)(string, Exception, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) | 创建一个新的实例[`LogEntry`](../logentry)带有全套构造函数参数 |
 
 ## 特性
 
@@ -40,24 +40,24 @@ public class LogEntry
 | [BinaryDataMessage](../../aspose.email.tools.logging/logentry/binarydatamessage) { get; set; } | 要记录的二进制消息正文。 |
 | [Category](../../aspose.email.tools.logging/logentry/category) { get; set; } | 用于将日志条目路由到一个或多个接收器的类别名称。 |
 | [ContextualProperties](../../aspose.email.tools.logging/logentry/contextualproperties) { get; set; } | 要记录的键/值对字典。 |
-| [ErrorMessages](../../aspose.email.tools.logging/logentry/errormessages) { get; } | 获取错误消息 [`LogEntry`](../logentry) |
+| [ErrorMessages](../../aspose.email.tools.logging/logentry/errormessages) { get; } | 获取错误消息[`LogEntry`](../logentry) |
 | [EventId](../../aspose.email.tools.logging/logentry/eventid) { get; set; } | 事件编号或标识符。 |
 | [InnerException](../../aspose.email.tools.logging/logentry/innerexception) { get; set; } | 获取或设置内部异常对象。 |
 | [MachineName](../../aspose.email.tools.logging/logentry/machinename) { get; set; } | 计算机的名称。 |
 | [Message](../../aspose.email.tools.logging/logentry/message) { get; set; } | 要记录的消息正文。来自消息对象的 ToString() 方法的值。 |
 | [MessageEncoding](../../aspose.email.tools.logging/logentry/messageencoding) { get; set; } | 二进制消息体编码 |
-| [SequenceId](../../aspose.email.tools.logging/logentry/sequenceid) { get; } | 自动生成的日志事件唯一标识 单调递增。 |
-| [Severity](../../aspose.email.tools.logging/logentry/severity) { get; set; } | 日志条目严重性作为[`Severity`](./severity)枚举。 （未指定、信息、警告或错误）。 |
+| [SequenceId](../../aspose.email.tools.logging/logentry/sequenceid) { get; } | 日志事件的唯一标识，自动生成 ，单调递增 |
+| [Severity](../../aspose.email.tools.logging/logentry/severity) { get; set; } | 日志条目严重性作为[`Severity`](./severity)枚举。 （未指定、信息、警告或错误）. |
 | [ThreadName](../../aspose.email.tools.logging/logentry/threadname) { get; set; } | .NET 线程的名称。 |
 | [TimeStamp](../../aspose.email.tools.logging/logentry/timestamp) { get; set; } | 日志条目消息的日期和时间。 |
-| [Title](../../aspose.email.tools.logging/logentry/title) { get; set; } | 日志条目消息的附加描述。 |
+| [Title](../../aspose.email.tools.logging/logentry/title) { get; set; } | 日志条目消息的附加说明。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [AddErrorMessage](../../aspose.email.tools.logging/logentry/adderrormessage)(string) | 将错误或警告消息添加到消息字符串构建器的开头。 经销商用来记录问题。 |
-| [Clone](../../aspose.email.tools.logging/logentry/clone)() | 创建一个新的[`LogEntry`](../logentry)是当前实例的副本。 |
+| virtual [AddErrorMessage](../../aspose.email.tools.logging/logentry/adderrormessage)(string) | 在消息字符串生成器的开头添加错误或警告消息。 供分发者用于记录问题。 |
+| [Clone](../../aspose.email.tools.logging/logentry/clone)() | 创建一个新的[`LogEntry`](../logentry)那是当前实例的副本。 |
 | override [ToString](../../aspose.email.tools.logging/logentry/tostring)() |  |
 
 ### 也可以看看

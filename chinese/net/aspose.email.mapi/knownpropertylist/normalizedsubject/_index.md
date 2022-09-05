@@ -1,14 +1,14 @@
 ---
 title: NormalizedSubject
 second_title: Aspose.Email for .NET API 参考
-description: 包含消息的规范化主题 区域电子邮件 规范名称PidTagNormalizedSubject 替代名称PR_NORMALIZED_SUBJECT PR_NORMALIZED_SUBJECT_A
+description: 包含邮件的规范化主题 区域Email 规范名称PidTagNormalizedSubject 替代名称PR_NORMALIZED_SUBJECTPR_NORMALIZED_SUBJECT_A
 type: docs
 weight: 13070
 url: /zh/net/aspose.email.mapi/knownpropertylist/normalizedsubject/
 ---
 ## KnownPropertyList.NormalizedSubject field
 
-包含消息的规范化主题。 区域:电子邮件 规范名称:PidTagNormalizedSubject 替代名称:PR_NORMALIZED_SUBJECT, PR_NORMALIZED_SUBJECT_A,
+包含邮件的规范化主题。 区域：Email 规范名称：PidTagNormalizedSubject 替代名称：PR_NORMALIZED_SUBJECT、PR_NORMALIZED_SUBJECT_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NormalizedSubject;

@@ -1,7 +1,7 @@
 ---
 title: SubStorages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the sub storages.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapirecipient/substorages/

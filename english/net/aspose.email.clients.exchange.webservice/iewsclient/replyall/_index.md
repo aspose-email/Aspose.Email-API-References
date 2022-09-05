@@ -1,7 +1,7 @@
 ---
 title: ReplyAll
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reply to the sender and all recipients of a message.
 type: docs
 weight: 1330
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/replyall/

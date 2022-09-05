@@ -1,14 +1,14 @@
 ---
 title: CalendarReader
 second_title: Aspose.Email for .NET API 参考
-description: 允许从文件或流中将带有多个事件的日历读取到约会对象
+description: 允许从文件或流中将包含多个事件的日历读取到约会对象
 type: docs
 weight: 590
 url: /zh/net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class
 
-允许从文件或流中将带有多个事件的日历读取到约会对象。
+允许从文件或流中将包含多个事件的日历读取到约会对象。
 
 ```csharp
 public class CalendarReader
@@ -18,10 +18,10 @@ public class CalendarReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalendarReader](calendarreader#constructor)(Stream) | 使用源流和默认约会加载选项初始化 CalendarReader 的新实例。 |
-| [CalendarReader](calendarreader#constructor_2)(string) | 使用源文件和默认约会加载选项初始化 CalendarReader 的新实例。 |
-| [CalendarReader](calendarreader#constructor_1)(Stream, AppointmentLoadOptions) | 使用源流和 Appointment LoadOptions 初始化 CalendarReader 的新实例。 |
-| [CalendarReader](calendarreader#constructor_3)(string, AppointmentLoadOptions) | 使用源文件和 Appointment LoadOptions 初始化 CalendarReader 的新实例。 |
+| [CalendarReader](calendarreader#constructor)(Stream) | 使用源流和默认约会 LoadOptions 初始化 CalendarReader 的新实例。 |
+| [CalendarReader](calendarreader#constructor_2)(string) | 使用源文件和默认约会 LoadOptions 初始化 CalendarReader 的新实例。 |
+| [CalendarReader](calendarreader#constructor_1)(Stream, AppointmentLoadOptions) | 使用源流和约会 LoadOptions 初始化 CalendarReader 的新实例。 |
+| [CalendarReader](calendarreader#constructor_3)(string, AppointmentLoadOptions) | 使用源文件和约会 LoadOptions 初始化 CalendarReader 的新实例。 |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public class CalendarReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent)() | 从源读取下一个事件并将其保存到当前。 |
+| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent)() | 从源中读取下一个事件并将其保存到 Current. |
 
 ### 也可以看看
 

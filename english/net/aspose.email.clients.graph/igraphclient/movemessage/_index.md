@@ -1,7 +1,7 @@
 ---
 title: MoveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Move a message to another mailfolder.
 type: docs
 weight: 350
 url: /net/aspose.email.clients.graph/igraphclient/movemessage/

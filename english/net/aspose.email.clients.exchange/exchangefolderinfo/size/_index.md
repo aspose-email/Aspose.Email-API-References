@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the size in bytes consumed by the Message object on the server.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/size/

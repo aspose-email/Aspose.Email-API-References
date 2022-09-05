@@ -1,14 +1,14 @@
 ---
 title: UserAccountType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение определяющее учетные записи анонимного пользователя и пользователя по умолчанию для делегированного доступа.
+description: Получает или задает значение идентифицирующее учетные записи анонимных пользователей и пользователей по умолчанию для делегированного доступа.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype/
 ---
 ## ExchangeFolderUserInfo.UserAccountType property
 
-Получает или задает значение, определяющее учетные записи анонимного пользователя и пользователя по умолчанию для делегированного доступа.
+Получает или задает значение, идентифицирующее учетные записи анонимных пользователей и пользователей по умолчанию для делегированного доступа.
 
 ```csharp
 public ExchangeFolderUserType UserAccountType { get; set; }

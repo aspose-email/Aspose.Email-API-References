@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/body/
 ---
 ## KnownPropertyList.Body field
 
-包含纯文本格式的消息正文。 区域:常规消息属性 规范名称:PidTagBody 替代名称:PR_BODY、PR_BODY_A、ptagBody、PR_BODY_W、
+包含纯文本格式的消息正文。 区域：常规消息属性 规范名称：PidTagBody 替代名称：PR_BODY、PR_BODY_A、ptagBody、PR_BODY_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Body;

@@ -1,14 +1,14 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API 参考
-description: 自定义信使种类
+description: 自定义信使 kind
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/custom/
 ---
 ## InstantMessengerCategory.Custom property
 
-自定义信使种类
+自定义信使 kind
 
 ```csharp
 public static InstantMessengerCategory Custom { get; }

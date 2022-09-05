@@ -1,14 +1,14 @@
 ---
 title: Photo
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人图像
+description: 获取或设置联系人的图像
 type: docs
 weight: 330
 url: /zh/net/aspose.email.personalinfo/contact/photo/
 ---
 ## Contact.Photo property
 
-获取或设置联系人图像
+获取或设置联系人的图像
 
 ```csharp
 public ContactPhoto Photo { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RequireStorageCardEncryption
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает шифрует ли устройство содержимое хранящееся на нем. Это свойство СЛЕДУЕТ игнорировать если клиент не поддерживает хранение данных на съемном носителе.
+description: Указывает шифрует ли устройство содержимое которое хранится на устройстве. Это свойство СЛЕДУЕТ игнорировать если клиент не поддерживает хранение данных на съемном носителе.
 type: docs
 weight: 420
 url: /ru/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requirestoragecardencryption/
 ---
 ## EASProvisionDoc.RequireStorageCardEncryption property
 
-Указывает, шифрует ли устройство содержимое, хранящееся на нем. Это свойство СЛЕДУЕТ игнорировать, если клиент не поддерживает хранение данных на съемном носителе.
+Указывает, шифрует ли устройство содержимое, которое хранится на устройстве. Это свойство СЛЕДУЕТ игнорировать, если клиент не поддерживает хранение данных на съемном носителе.
 
 ```csharp
 public bool? RequireStorageCardEncryption { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: TimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when the time for operation has expired.
 type: docs
-weight: 20170
+weight: 20400
 url: /net/aspose.email/timeoutexception/
 ---
 ## TimeoutException class
@@ -18,11 +18,11 @@ public class TimeoutException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [TimeoutException](timeoutexception)() | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
-| [TimeoutException](timeoutexception)(string) | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
-| [TimeoutException](timeoutexception)(string, int) |  |
-| [TimeoutException](timeoutexception)(string, params object[]) | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
-| [TimeoutException](timeoutexception)(string, string, int) |  |
+| [TimeoutException](timeoutexception#constructor)() | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
+| [TimeoutException](timeoutexception#constructor_1)(string) | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
+| [TimeoutException](timeoutexception#constructor_2)(string, int) |  |
+| [TimeoutException](timeoutexception#constructor_3)(string, params object[]) | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
+| [TimeoutException](timeoutexception#constructor_4)(string, string, int) |  |
 
 ## Properties
 

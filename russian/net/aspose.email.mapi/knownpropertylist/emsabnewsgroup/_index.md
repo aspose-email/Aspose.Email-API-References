@@ -1,14 +1,14 @@
 ---
 title: EmsAbNewsgroup
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_NEWSGROUP
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_NEWSGROUP
 type: docs
 weight: 7630
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabnewsgroup/
 ---
 ## KnownPropertyList.EmsAbNewsgroup field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_NEWSGROUP
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_NEWSGROUP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbNewsgroup;

@@ -16,11 +16,11 @@ public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tryToReadCorruptedContents | Boolean | 如果该参数的值为真， 方法将尝试读取内容，甚至如果文件损坏。 如果 GetContents() 方法抛出有关文件损坏的异常，则可以使用此值。 如果该参数的值为false， 该方法的工作方式与不带参数的GetContents() 方法相同。 |
+| tryToReadCorruptedContents | Boolean | 如果此参数的值为 true， 该方法将尝试读取内容，即使文件已损坏。 如果 GetContents() 方法引发有关文件损坏的异常，则可以使用此值。 如果此参数的值为false， 该方法的工作方式与不带参数的GetContents() 方法相同。 |
 
 ### 返回值
 
-MessageInfo 集合。
+MessageInfo 的集合。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public MessageInfoCollection GetContents()
 
 ### 返回值
 
-MessageInfo 集合。
+MessageInfo 的集合。
 
 ### 也可以看看
 
@@ -62,11 +62,11 @@ public MessageInfoCollection GetContents(MessageKind kind)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| kind | MessageKind | 消息种类。 |
+| kind | MessageKind | 消息种类. |
 
 ### 返回值
 
-MessageInfo 集合。
+MessageInfo. 的集合
 
 ### 也可以看看
 
@@ -106,7 +106,7 @@ MessageInfo 的集合。
 
 ## GetContents(int, int) {#getcontents_4}
 
-获取消息集合。
+获取消息的集合。
 
 ```csharp
 public MessageInfoCollection GetContents(int startIndex, int count)
@@ -119,14 +119,14 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 
 ### 返回值
 
-MessageInfo 集合。
+MessageInfo 的集合。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 抛出，如果 startIndex 小于 0。 |
-| ArgumentOutOfRangeException | 抛出，如果 startIndex 大于或等于该文件夹包含的总邮件数。 |
+| ArgumentOutOfRangeException | 如果 startIndex 小于 0，则抛出。 |
+| ArgumentOutOfRangeException | 如果 startIndex 大于或等于该文件夹包含的总消息数，则抛出。 |
 
 ### 评论
 

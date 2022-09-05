@@ -1,14 +1,14 @@
 ---
 title: InstanceNum
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор для одного экземпляра строки в таблице. ОбластьProviderDefinedNonTransmittable Каноническое имяPidTagInstanceNum Альтернативные именаptagInstanceNum
+description: Содержит идентификатор для одного экземпляра строки в таблице. Область ProviderDefinedNonTransmittable Каноническое имя PidTagInstanceNum Альтернативные имена ptagInstanceNum
 type: docs
 weight: 11370
 url: /ru/net/aspose.email.mapi/knownpropertylist/instancenum/
 ---
 ## KnownPropertyList.InstanceNum field
 
-Содержит идентификатор для одного экземпляра строки в таблице. Область:ProviderDefinedNonTransmittable Каноническое имя:PidTagInstanceNum Альтернативные имена:ptagInstanceNum
+Содержит идентификатор для одного экземпляра строки в таблице. Область: ProviderDefinedNonTransmittable Каноническое имя: PidTagInstanceNum Альтернативные имена: ptagInstanceNum
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstanceNum;

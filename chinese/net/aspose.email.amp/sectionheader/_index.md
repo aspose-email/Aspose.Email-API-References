@@ -1,14 +1,14 @@
 ---
 title: SectionHeader
 second_title: Aspose.Email for .NET API 参考
-description: 表示该部分的标题
+description: 代表 section 的标题
 type: docs
 weight: 220
 url: /zh/net/aspose.email.amp/sectionheader/
 ---
 ## SectionHeader class
 
-表示该部分的标题
+代表 section 的标题
 
 ```csharp
 public class SectionHeader
@@ -18,7 +18,7 @@ public class SectionHeader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SectionHeader](sectionheader)(SectionHeaderType, string) | 初始化 SectionHeader 的新实例。 |
+| [SectionHeader](sectionheader)(SectionHeaderType, string) | 初始化 SectionHeader. 的新实例 |
 
 ## 特性
 

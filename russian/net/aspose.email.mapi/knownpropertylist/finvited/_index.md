@@ -1,14 +1,14 @@
 ---
 title: FInvited
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает были ли отправлены приглашения на собрание которое представляет этот объект Meeting. ОбластьВстречи Каноническое имяPidLidFInvited Альтернативные именаdispidFInvited
+description: Указывает были ли отправлены приглашения на собрание которое представляет этот объект собрания. Область Meetings Каноническое имя PidLidFInvited Альтернативные имена dispidFInvited
 type: docs
 weight: 10330
 url: /ru/net/aspose.email.mapi/knownpropertylist/finvited/
 ---
 ## KnownPropertyList.FInvited field
 
-Указывает, были ли отправлены приглашения на собрание, которое представляет этот объект Meeting. Область:Встречи Каноническое имя:PidLidFInvited Альтернативные имена:dispidFInvited
+Указывает, были ли отправлены приглашения на собрание, которое представляет этот объект собрания. Область: Meetings Каноническое имя: PidLidFInvited Альтернативные имена: dispidFInvited
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FInvited;

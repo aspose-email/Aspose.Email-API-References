@@ -1,14 +1,14 @@
 ---
 title: ExchangeStreamedItem
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeStreamedItemaspose.email.clients.exchange.webservice/exchangestreameditem
+description: Инициализирует новый экземплярExchangeStreamedItemaspose.email.clients.exchange.webservice/exchangestreameditem класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangestreameditem/exchangestreameditem/
 ---
 ## ExchangeStreamedItem constructor
 
-Инициализирует новый экземпляр класса[`ExchangeStreamedItem`](../../exchangestreameditem)
+Инициализирует новый экземпляр[`ExchangeStreamedItem`](../../exchangestreameditem) класс
 
 ```csharp
 public ExchangeStreamedItem()

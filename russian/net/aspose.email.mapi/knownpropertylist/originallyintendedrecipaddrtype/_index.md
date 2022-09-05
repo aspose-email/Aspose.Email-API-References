@@ -1,14 +1,14 @@
 ---
 title: OriginallyIntendedRecipAddrtype
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE
 type: docs
 weight: 13590
 url: /ru/net/aspose.email.mapi/knownpropertylist/originallyintendedrecipaddrtype/
 ---
 ## KnownPropertyList.OriginallyIntendedRecipAddrtype field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginallyIntendedRecipAddrtype;

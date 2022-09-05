@@ -3,7 +3,7 @@ title: MapiConversionOptions
 second_title: Aspose.Email for .NET API 参考
 description: 此类允许用户在从 MailMessage 转换为 MapiMessage 时指定其他选项
 type: docs
-weight: 18320
+weight: 18350
 url: /zh/net/aspose.email.mapi/mapiconversionoptions/
 ---
 ## MapiConversionOptions class
@@ -18,8 +18,8 @@ public class MapiConversionOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiConversionOptions](mapiconversionoptions#constructor)() | 初始化[`MapiConversionOptions`](../mapiconversionoptions)类的新实例。 |
-| [MapiConversionOptions](mapiconversionoptions#constructor_1)(OutlookMessageFormat) | 使用指定的 OutlookMessageFormat 初始化[`MapiConversionOptions`](../mapiconversionoptions)类的新实例。 |
+| [MapiConversionOptions](mapiconversionoptions#constructor)() | 初始化[`MapiConversionOptions`](../mapiconversionoptions)类. |
+| [MapiConversionOptions](mapiconversionoptions#constructor_1)(OutlookMessageFormat) | 初始化[`MapiConversionOptions`](../mapiconversionoptions)具有指定 OutlookMessageFormat. 的类 |
 
 ## 特性
 
@@ -28,12 +28,12 @@ public class MapiConversionOptions
 | static [ASCIIFormat](../../aspose.email.mapi/mapiconversionoptions/asciiformat) { get; } | 返回 MapiConversionOptions，OutlookMessageFormat 为 ASCII（PreserveSignature 为 False，UseBodyCompression 为 False）。 |
 | static [UnicodeFormat](../../aspose.email.mapi/mapiconversionoptions/unicodeformat) { get; } | 返回 MapiConversionOptions，OutlookMessageFormat 为 Unicode（PreserveSignature 为 False，UseBodyCompression 为 False）。 |
 | [CustomProgressHandler](../../aspose.email.mapi/mapiconversionoptions/customprogresshandler) { get; set; } |  |
-| [ForcedRtfBodyForAppointment](../../aspose.email.mapi/mapiconversionoptions/forcedrtfbodyforappointment) { get; set; } | 获取或设置一个值，该值指示是否需要使用强制 RTF 正文进行约会。 默认值为真。 |
-| [Format](../../aspose.email.mapi/mapiconversionoptions/format) { get; set; } | 表示 Outlook 消息格式。 |
-| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat) { get; set; } | 获取或设置一个值，该值指示是否需要保留 将 .eml 附件转换为 .msg 附件。 |
+| [ForcedRtfBodyForAppointment](../../aspose.email.mapi/mapiconversionoptions/forcedrtfbodyforappointment) { get; set; } | 获取或设置一个值，该值指示是否需要使用强制 RTF 正文进行约会。 默认值为 true。 |
+| [Format](../../aspose.email.mapi/mapiconversionoptions/format) { get; set; } | 代表 Outlook 消息格式。 |
+| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat) { get; set; } | 获取或设置一个值，该值指示是否需要将 转换.eml附件保存为.msg附件。 |
 | [PreserveOriginalAddresses](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaladdresses) { get; set; } | 获取或设置一个值，该值指示是否需要保持 邮件地址的原始值（未经验证）。 |
 | [PreserveOriginalDates](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaldates) { get; set; } | 获取或设置一个值，该值指示在转换消息时是否需要生成 新的保存和修改日期。 |
-| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature) { get; set; } | 如果要保留签名，则设置为 true。 |
+| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature) { get; set; } | 设置为真，如果要保留签名。 |
 | [UseBodyCompression](../../aspose.email.mapi/mapiconversionoptions/usebodycompression) { get; set; } | 设置为 true，如果需要 RTF 正文压缩。 |
 
 ### 也可以看看

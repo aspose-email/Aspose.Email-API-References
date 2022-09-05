@@ -1,7 +1,7 @@
 ---
 title: AddressBookManageDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information for use in display templates for distribution lists. Area Address Book Canonical name PidTagAddressBookManageDistributionList Alternate names PR_EMS_AB_MANAGE_DL
 type: docs
 weight: 700
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmanagedistributionlist/

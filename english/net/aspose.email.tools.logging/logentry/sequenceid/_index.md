@@ -1,7 +1,7 @@
 ---
 title: SequenceId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The unique identifier of log event which is automatically generated and monotonously increasing.
 type: docs
 weight: 120
 url: /net/aspose.email.tools.logging/logentry/sequenceid/

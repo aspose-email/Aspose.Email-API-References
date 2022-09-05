@@ -1,7 +1,7 @@
 ---
 title: AddAmpComponent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add Amp component to this message.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampmessage/addampcomponent/

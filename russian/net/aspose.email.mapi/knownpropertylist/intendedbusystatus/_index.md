@@ -1,14 +1,14 @@
 ---
 title: IntendedBusyStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidLidBusyStatus раздел 2.47 объекта Meeting отправлено. ОбластьВстречи Каноническое имяPidLidIntendedBusyStatus Альтернативные именаdispidIntendedBusyStatus
+description: Содержит значение свойства PidLidBusyStatus раздел 2.47 объекта Meeting отправлено. Область Meetings Каноническое имя PidLidIntendedBusyStatus Альтернативные имена dispidIntendedBusyStatus
 type: docs
 weight: 11400
 url: /ru/net/aspose.email.mapi/knownpropertylist/intendedbusystatus/
 ---
 ## KnownPropertyList.IntendedBusyStatus field
 
-Содержит значение свойства PidLidBusyStatus (раздел 2.47) объекта Meeting отправлено. Область:Встречи Каноническое имя:PidLidIntendedBusyStatus Альтернативные имена:dispidIntendedBusyStatus
+Содержит значение свойства PidLidBusyStatus (раздел 2.47) объекта Meeting отправлено. Область: Meetings Каноническое имя: PidLidIntendedBusyStatus Альтернативные имена: dispidIntendedBusyStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IntendedBusyStatus;

@@ -1,7 +1,7 @@
 ---
 title: GlobalUniqueRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of all the people who have received messages in this conversation across all folders in the mailbox.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquerecipients/

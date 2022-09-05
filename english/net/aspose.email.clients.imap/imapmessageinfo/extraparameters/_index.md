@@ -1,7 +1,7 @@
 ---
 title: ExtraParameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets extra parameters of a message.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapmessageinfo/extraparameters/

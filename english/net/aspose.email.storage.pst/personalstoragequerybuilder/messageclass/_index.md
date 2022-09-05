@@ -1,7 +1,7 @@
 ---
 title: MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets messages with an specified message class.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/messageclass/

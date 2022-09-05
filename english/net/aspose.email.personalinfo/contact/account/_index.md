@@ -1,7 +1,7 @@
 ---
 title: Account
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the alias of an Address Book object which is an alternative name by which the object can be identified.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/contact/account/

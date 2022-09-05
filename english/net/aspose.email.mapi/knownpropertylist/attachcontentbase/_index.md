@@ -1,7 +1,7 @@
 ---
 title: AttachContentBase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the base of a relative URI. Area Message Attachment Properties Canonical name PidTagAttachContentBase Alternate names
 type: docs
 weight: 1520
 url: /net/aspose.email.mapi/knownpropertylist/attachcontentbase/

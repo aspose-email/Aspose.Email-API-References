@@ -1,12 +1,12 @@
 ---
 title: ListFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List folders from the parent folder for folders that are displayed in normal mail clients such as the inbox.
 type: docs
 weight: 290
 url: /net/aspose.email.clients.graph/igraphclient/listfolders/
 ---
-## IGraphClient.ListFolders method (1 of 2)
+## ListFolders() {#listfolders}
 
 List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
 
@@ -27,7 +27,7 @@ Returns list of subfolders of the root folder
 
 ---
 
-## IGraphClient.ListFolders method (2 of 2)
+## ListFolders(string) {#listfolders_1}
 
 List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
 

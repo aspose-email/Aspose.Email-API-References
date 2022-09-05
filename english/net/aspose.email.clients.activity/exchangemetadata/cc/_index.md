@@ -1,7 +1,7 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A collection of email addresses that were on the CC line of the message. Mandatory Yes
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/exchangemetadata/cc/

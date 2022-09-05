@@ -1,14 +1,14 @@
 ---
 title: Email3Value
 second_title: Aspose.Email for .NET API 参考
-description: Email3 类别的字符串值
+description: Email3类别的字符串值
 type: docs
 weight: 160
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/email3value/
 ---
 ## EmailAddressCategory.Email3Value field
 
-'Email3' 类别的字符串值
+“Email3”类别的字符串值
 
 ```csharp
 public const string Email3Value;

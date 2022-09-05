@@ -16,14 +16,14 @@ public void SplitInto(long chunkSize, string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chunkSize | Int64 | 块的大致大小（以字节为单位）。 |
+| chunkSize | Int64 | 块的近似大小（以字节为单位）。 |
 | path | String | 将创建块的文件夹路径。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当路径参数为空或为空时抛出。 |
+| ArgumentException | 当路径参数为 null 或为空时引发。 |
 | ArgumentException | 当块大小小于 pst 文件的最小大小时抛出。 |
 
 ### 也可以看看
@@ -44,14 +44,14 @@ public void SplitInto(IList<MailQuery> criteria, string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| criteria | IList`1 | [`MailQuery`](../../../aspose.email.tools.search/mailquery)的集合，表示标准pst 拆分。 |
+| criteria | IList`1 | 的集合[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示 pst 拆分的标准。 |
 | path | String | 将创建块的文件夹路径。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当路径参数为空或为空时抛出。 |
+| ArgumentException | 当路径参数为 null 或为空时引发。 |
 
 ### 也可以看看
 

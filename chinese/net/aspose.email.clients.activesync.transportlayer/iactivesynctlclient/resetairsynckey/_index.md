@@ -28,7 +28,7 @@ public void ResetAirSyncKey(string serverId)
 
 ## ResetAirSyncKey() {#resetairsynckey}
 
-重置 GetItemEstimate 的 SyncKeys 和所有集合的同步操作。
+重置所有集合的 GetItemEstimate 和同步操作的 SyncKeys。
 
 ```csharp
 public void ResetAirSyncKey()

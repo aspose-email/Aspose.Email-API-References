@@ -1,9 +1,9 @@
 ---
 title: UrlCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for a URL
 type: docs
-weight: 19340
+weight: 19550
 url: /net/aspose.email.personalinfo/urlcategory/
 ---
 ## UrlCategory class
@@ -38,8 +38,8 @@ public class UrlCategory : IEquatable<UrlCategory>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.personalinfo/urlcategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| virtual [Equals](../../aspose.email.personalinfo/urlcategory/equals)(UrlCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/urlcategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/urlcategory/equals#equals)(UrlCategory) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.email.personalinfo/urlcategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/urlcategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/urlcategory/op_equality) | Determines whether the specified objects are equal. |

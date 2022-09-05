@@ -16,7 +16,7 @@ public Task ChangeMessageFlagsAsync(ImapChangeMessageFlags parameters)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parameters | ImapChangeMessageFlags | Параметр установлен. |
+| parameters | ImapChangeMessageFlags | Набор параметров. |
 
 ### Смотрите также
 

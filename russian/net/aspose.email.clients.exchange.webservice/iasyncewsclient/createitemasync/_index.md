@@ -19,11 +19,11 @@ public Task<string> CreateItemAsync(MapiMessageItemBase item, string folderUri =
 | --- | --- | --- |
 | item | MapiMessageItemBase | Предмет для создания. |
 | folderUri | String | Папка Uri, в которой должен быть создан элемент. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-Элемент Uri
+Пункт Ури
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: SingleBodyICal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the original MIME message contained a single MIME part. Area Calendar Canonical name PidLidSingleBodyICal Alternate names IsSingleBodyICal dispidIsSingleBodyICal
 type: docs
 weight: 18050
 url: /net/aspose.email.mapi/knownpropertylist/singlebodyical/

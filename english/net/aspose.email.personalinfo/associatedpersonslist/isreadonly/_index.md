@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the list is readonly.
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/associatedpersonslist/isreadonly/

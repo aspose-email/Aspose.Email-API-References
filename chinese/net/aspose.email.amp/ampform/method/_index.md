@@ -1,14 +1,14 @@
 ---
 title: Method
 second_title: Aspose.Email for .NET API 参考
-description: method 属性告诉服务器请求方法
+description: 方法属性告诉服务器请求方法
 type: docs
 weight: 50
 url: /zh/net/aspose.email.amp/ampform/method/
 ---
 ## AmpForm.Method property
 
-method 属性告诉服务器请求方法。
+方法属性告诉服务器请求方法。
 
 ```csharp
 public FormMethod Method { get; set; }

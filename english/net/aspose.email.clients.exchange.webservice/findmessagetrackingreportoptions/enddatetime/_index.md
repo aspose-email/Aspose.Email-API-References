@@ -1,7 +1,7 @@
 ---
 title: EndDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the search time period indicating that the message was sent before this value.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime/

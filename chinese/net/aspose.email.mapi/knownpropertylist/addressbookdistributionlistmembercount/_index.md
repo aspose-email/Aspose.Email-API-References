@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistmemb
 ---
 ## KnownPropertyList.AddressBookDistributionListMemberCount field
 
-包含分发列表中的收件人总数。 区域:地址簿 规范名称:PidTagAddressBookDistributionListMemberCount 替代名称:PR_EMS_AB_DL_TOTAL_MEMBER_COUNT
+包含分发列表中的收件人总数。 区域：地址簿 规范名称：PidTagAddressBookDistributionListMemberCount 替代名称：PR_EMS_AB_DL_TOTAL_MEMBER_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDistributionListMemberCount;

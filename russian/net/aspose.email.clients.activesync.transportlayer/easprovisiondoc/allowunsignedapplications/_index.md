@@ -1,14 +1,14 @@
 ---
 title: AllowUnsignedApplications
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает позволяет ли устройство выполнять неподписанные приложения.
+description: Указывает разрешает ли устройство выполнение неподписанных приложений.
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowunsignedapplications/
 ---
 ## EASProvisionDoc.AllowUnsignedApplications property
 
-Указывает, позволяет ли устройство выполнять неподписанные приложения.
+Указывает, разрешает ли устройство выполнение неподписанных приложений.
 
 ```csharp
 public bool? AllowUnsignedApplications { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: CopyMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copy the messaeg
 type: docs
 weight: 500
 url: /net/aspose.email.clients.imap/imapclient/copymessages/
 ---
-## ImapClient.CopyMessages method (1 of 11)
+## CopyMessages(IConnection, int, int, string) {#copymessages}
 
 Copy the messaeg
 
@@ -31,7 +31,7 @@ public void CopyMessages(IConnection connection, int startSequence, int endSeque
 
 ---
 
-## ImapClient.CopyMessages method (2 of 11)
+## CopyMessages(int, int, string) {#copymessages_5}
 
 Copy messages
 
@@ -53,7 +53,7 @@ public void CopyMessages(int startSequence, int endSequence, string folderName)
 
 ---
 
-## ImapClient.CopyMessages method (3 of 11)
+## CopyMessages(IConnection, string, string, string) {#copymessages_4}
 
 Copy messages
 
@@ -77,7 +77,7 @@ public void CopyMessages(IConnection connection, string startUid, string endUid,
 
 ---
 
-## ImapClient.CopyMessages method (4 of 11)
+## CopyMessages(string, string, string) {#copymessages_10}
 
 Copy messages
 
@@ -99,7 +99,7 @@ public void CopyMessages(string startUid, string endUid, string folderName)
 
 ---
 
-## ImapClient.CopyMessages method (5 of 11)
+## CopyMessages(IEnumerable&lt;int&gt;, string, bool) {#copymessages_8}
 
 Copy messages
 
@@ -121,7 +121,7 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ---
 
-## ImapClient.CopyMessages method (6 of 11)
+## CopyMessages(IConnection, IEnumerable&lt;int&gt;, string) {#copymessages_2}
 
 Copy the messaeg
 
@@ -144,7 +144,7 @@ public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 ---
 
-## ImapClient.CopyMessages method (7 of 11)
+## CopyMessages(IEnumerable&lt;int&gt;, string) {#copymessages_7}
 
 Copy messages
 
@@ -165,7 +165,7 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
 
 ---
 
-## ImapClient.CopyMessages method (8 of 11)
+## CopyMessages(IConnection, IEnumerable&lt;string&gt;, string) {#copymessages_3}
 
 Copy messages
 
@@ -188,7 +188,7 @@ public void CopyMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ---
 
-## ImapClient.CopyMessages method (9 of 11)
+## CopyMessages(IEnumerable&lt;string&gt;, string) {#copymessages_9}
 
 Copy messages
 
@@ -209,7 +209,7 @@ public void CopyMessages(IEnumerable<string> uidSet, string folderName)
 
 ---
 
-## ImapClient.CopyMessages method (10 of 11)
+## CopyMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_1}
 
 Copy messages
 
@@ -234,7 +234,7 @@ public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ---
 
-## ImapClient.CopyMessages method (11 of 11)
+## CopyMessages(IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_6}
 
 Copy messages
 

@@ -1,7 +1,7 @@
 ---
 title: Home
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default home email address.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/emailaddresslist/home/

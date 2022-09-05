@@ -1,7 +1,7 @@
 ---
 title: AddVotingButton
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the voting button.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/followupmanager/addvotingbutton/

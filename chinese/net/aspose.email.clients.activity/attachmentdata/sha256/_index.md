@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/attachmentdata/sha256/
 ---
 ## AttachmentData.SHA256 property
 
-文件 SHA256 哈希。 强制:是
+文件 SHA256 哈希。 强制：是
 
 ```csharp
 public string SHA256 { get; set; }

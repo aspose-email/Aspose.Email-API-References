@@ -1,14 +1,14 @@
 ---
 title: Correlate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CORRELATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CORRELATE
 type: docs
 weight: 3490
 url: /ru/net/aspose.email.mapi/knownpropertylist/correlate/
 ---
 ## KnownPropertyList.Correlate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CORRELATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CORRELATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Correlate;

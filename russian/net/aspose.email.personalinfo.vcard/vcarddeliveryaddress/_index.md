@@ -3,7 +3,7 @@ title: VCardDeliveryAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет адрес доставки vCard
 type: docs
-weight: 19550
+weight: 19580
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/
 ---
 ## VCardDeliveryAddress class
@@ -18,19 +18,19 @@ public sealed class VCardDeliveryAddress
 
 | Имя | Описание |
 | --- | --- |
-| [VCardDeliveryAddress](vcarddeliveryaddress)() | Инициализирует новый экземпляр класса[`VCardDeliveryAddress`](../vcarddeliveryaddress)class |
+| [VCardDeliveryAddress](vcarddeliveryaddress)() | Инициализирует новый экземпляр[`VCardDeliveryAddress`](../vcarddeliveryaddress) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AddressType](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/addresstype) { get; set; } | Получает или задает тип адреса |
-| [CountryName](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname) { get; set; } | Получает или устанавливает страну |
-| [ExtendedAddress](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress) { get; set; } | Получает или устанавливает расширенный адрес |
-| [Locality](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality) { get; set; } | Получает или задает местоположение |
+| [CountryName](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname) { get; set; } | Получает или задает страну |
+| [ExtendedAddress](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress) { get; set; } | Получает или задает расширенный адрес |
+| [Locality](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality) { get; set; } | Получает или задает locality |
 | [PoBox](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/pobox) { get; set; } | Получает или устанавливает абонентский ящик |
 | [PostalCode](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/postalcode) { get; set; } | Получает или задает почтовый индекс |
-| [Region](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/region) { get; set; } | Получает или устанавливает регион |
+| [Region](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/region) { get; set; } | Получает или задает регион |
 | [Street](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/street) { get; set; } | Получает или устанавливает улицу |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: HiddenRecipient
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示收件人是否是由应对非特权用户隐藏的组织策略添加的
+description: 获取一个值该值指示收件人是否是由应该对非特权用户隐藏的组织策略添加的
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange.webservice/recipienttrackingevent/hiddenrecipient/
 ---
 ## RecipientTrackingEvent.HiddenRecipient property
 
-获取一个值，该值指示收件人是否是由应对非特权用户隐藏的组织策略添加的
+获取一个值，该值指示收件人是否是由应该对非特权用户隐藏的组织策略添加的
 
 ```csharp
 public bool HiddenRecipient { get; }

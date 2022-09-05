@@ -1,14 +1,14 @@
 ---
 title: DayOfWeek
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дни недели в которые происходит событие
+description: Получает или задает дни недели в которые происходит событие
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicalendardailyrecurrencepattern/dayofweek/
 ---
 ## MapiCalendarDailyRecurrencePattern.DayOfWeek property
 
-Получает или устанавливает дни недели, в которые происходит событие
+Получает или задает дни недели, в которые происходит событие
 
 ```csharp
 public MapiCalendarDayOfWeek DayOfWeek { get; set; }

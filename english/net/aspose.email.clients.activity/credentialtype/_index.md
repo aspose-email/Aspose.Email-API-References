@@ -1,7 +1,7 @@
 ---
 title: CredentialType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Credential types
 type: docs
 weight: 2420
 url: /net/aspose.email.clients.activity/credentialtype/

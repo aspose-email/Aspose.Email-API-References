@@ -1,14 +1,14 @@
 ---
 title: SharingProviderGuid
 second_title: Aspose.Email for .NET API 参考
-description: 包含值xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46 区域共享 规范名称PidLidSharingProviderGuid 替代名称dispidSharingProviderGuid
+description: 包含值xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46 区域Sharing 规范名称PidLidSharingProviderGuid 替代名称dispidSharingProviderGuid
 type: docs
 weight: 17710
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingproviderguid/
 ---
 ## KnownPropertyList.SharingProviderGuid field
 
-包含值“%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46”。 区域:共享 规范名称:PidLidSharingProviderGuid 替代名称:dispidSharingProviderGuid
+包含值“%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46”。 区域：Sharing 规范名称：PidLidSharingProviderGuid 替代名称：dispidSharingProviderGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderGuid;

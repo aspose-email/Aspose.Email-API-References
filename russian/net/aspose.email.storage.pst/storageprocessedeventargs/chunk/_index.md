@@ -1,14 +1,14 @@
 ---
 title: Chunk
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает PST представляющий фрагмент.
+description: Получает файл pst представляющий фрагмент.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/storageprocessedeventargs/chunk/
 ---
 ## StorageProcessedEventArgs.Chunk property
 
-Получает PST, представляющий фрагмент.
+Получает файл pst, представляющий фрагмент.
 
 ```csharp
 public PersonalStorage Chunk { get; }

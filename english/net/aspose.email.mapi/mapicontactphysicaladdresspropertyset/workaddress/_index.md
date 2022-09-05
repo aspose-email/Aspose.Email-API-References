@@ -1,7 +1,7 @@
 ---
 title: WorkAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the address of the contacts work
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress/

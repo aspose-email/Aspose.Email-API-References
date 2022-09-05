@@ -17,11 +17,11 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有委托操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 
 ### 返回值
 
-任务对象，带有委托操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public Task DeleteMessageAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -96,7 +96,7 @@ public Task DeleteMessageAsync(string uniqueId)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -118,12 +118,12 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -146,11 +146,11 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -171,12 +171,12 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -197,11 +197,11 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -221,12 +221,12 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | 消息的uid |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -252,7 +252,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -273,13 +273,13 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的uid |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -302,12 +302,12 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -329,12 +329,12 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播操作应该的通知被取消。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -356,12 +356,12 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
-| token | CancellationToken | 传播操作应该的通知被取消。 |
+| uniqueId | String | 消息的uid |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -382,12 +382,12 @@ public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -408,11 +408,11 @@ public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -434,13 +434,13 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -464,12 +464,12 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -491,13 +491,13 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -518,12 +518,12 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, Cance
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -543,13 +543,13 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow, CancellationToke
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | 消息的uid |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -577,7 +577,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -599,14 +599,14 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的uid |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -629,13 +629,13 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

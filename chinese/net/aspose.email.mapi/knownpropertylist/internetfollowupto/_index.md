@@ -1,14 +1,14 @@
 ---
 title: InternetFollowupTo
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_INTERNET_FOLLOWUP_TO
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_INTERNET_FOLLOWUP_TO
 type: docs
 weight: 11490
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetfollowupto/
 ---
 ## KnownPropertyList.InternetFollowupTo field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_INTERNET_FOLLOWUP_TO
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_INTERNET_FOLLOWUP_TO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetFollowupTo;

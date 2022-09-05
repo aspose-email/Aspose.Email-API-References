@@ -1,14 +1,14 @@
 ---
 title: EmsAbX25RemoteMtaPhone
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_X25_REMOTE_MTA_PHONE
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_X25_REMOTE_MTA_PHONE
 type: docs
 weight: 9640
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabx25remotemtaphone/
 ---
 ## KnownPropertyList.EmsAbX25RemoteMtaPhone field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_X25_REMOTE_MTA_PHONE
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_X25_REMOTE_MTA_PHONE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX25RemoteMtaPhone;

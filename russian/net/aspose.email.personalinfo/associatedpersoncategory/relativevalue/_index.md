@@ -1,14 +1,14 @@
 ---
 title: RelativeValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Относительно
+description: Строковое значение для Относительной категории
 type: docs
 weight: 340
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/relativevalue/
 ---
 ## AssociatedPersonCategory.RelativeValue field
 
-Строковое значение для категории "Относительно"
+Строковое значение для «Относительной» категории
 
 ```csharp
 public const string RelativeValue;

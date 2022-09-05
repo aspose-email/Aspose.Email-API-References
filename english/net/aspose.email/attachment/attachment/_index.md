@@ -1,12 +1,12 @@
 ---
 title: Attachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Attachmentaspose.email/attachment class.
 type: docs
 weight: 10
 url: /net/aspose.email/attachment/attachment/
 ---
-## Attachment constructor (1 of 6)
+## Attachment(string) {#constructor_3}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 
@@ -26,7 +26,7 @@ public Attachment(string fileName)
 
 ---
 
-## Attachment constructor (2 of 6)
+## Attachment(string, string) {#constructor_5}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 
@@ -47,7 +47,7 @@ public Attachment(string fileName, string mediaType)
 
 ---
 
-## Attachment constructor (3 of 6)
+## Attachment(string, ContentType) {#constructor_4}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 
@@ -69,7 +69,7 @@ public Attachment(string fileName, ContentType contentType)
 
 ---
 
-## Attachment constructor (4 of 6)
+## Attachment(Stream, string) {#constructor_1}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 
@@ -90,7 +90,7 @@ public Attachment(Stream contentStream, string name)
 
 ---
 
-## Attachment constructor (5 of 6)
+## Attachment(Stream, string, string) {#constructor_2}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 
@@ -112,7 +112,7 @@ public Attachment(Stream contentStream, string name, string mediaType)
 
 ---
 
-## Attachment constructor (6 of 6)
+## Attachment(Stream, ContentType) {#constructor}
 
 Initializes a new instance of the [`Attachment`](../../attachment) class.
 

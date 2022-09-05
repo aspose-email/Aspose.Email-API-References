@@ -16,7 +16,7 @@ public SaveStatus Status { get; }
 
 ### Стоимость имущества
 
-The[`SaveStatus`](../../savestatus).
+[`SaveStatus`](../../savestatus).
 
 ### Смотрите также
 

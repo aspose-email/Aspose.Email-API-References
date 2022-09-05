@@ -1,14 +1,14 @@
 ---
 title: Marked
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值表示是否标记为这个文件夹
+description: 获取一个值表示是否标记了这个文件夹
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/marked/
 ---
 ## ImapFolderInfo.Marked property
 
-获取一个值，表示是否标记为这个文件夹。
+获取一个值，表示是否标记了这个文件夹。
 
 ```csharp
 public bool Marked { get; }

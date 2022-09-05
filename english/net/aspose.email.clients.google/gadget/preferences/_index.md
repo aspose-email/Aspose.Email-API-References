@@ -1,7 +1,7 @@
 ---
 title: Preferences
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The gadgets preferences
 type: docs
 weight: 60
 url: /net/aspose.email.clients.google/gadget/preferences/

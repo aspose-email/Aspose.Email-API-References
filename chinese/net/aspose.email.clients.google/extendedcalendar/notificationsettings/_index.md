@@ -1,14 +1,14 @@
 ---
 title: NotificationSettings
 second_title: Aspose.Email for .NET API 参考
-description: 经过身份验证的用户为此日历接收的通知
+description: 已通过身份验证的用户收到的此日历的通知
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.google/extendedcalendar/notificationsettings/
 ---
 ## ExtendedCalendar.NotificationSettings property
 
-经过身份验证的用户为此日历接收的通知。
+已通过身份验证的用户收到的此日历的通知。
 
 ```csharp
 public virtual KeyValuePair<NotificationType, NotificationMethod>[] 

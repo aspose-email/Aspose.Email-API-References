@@ -16,7 +16,7 @@ public ByNumberCollection ByMonthDay { get; }
 
 ### Стоимость имущества
 
-День месяца.
+По дням месяца.
 
 ### Смотрите также
 

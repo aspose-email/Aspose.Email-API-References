@@ -1,14 +1,14 @@
 ---
 title: Mileage
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о пробеге связанную с элементом. ОбластьОбщие свойства сообщения Каноническое имяPidLidMileage Альтернативные именаdispidMileage
+description: Содержит информацию о пробеге связанную с элементом. Область Общие свойства сообщения Каноническое имя PidLidMileage Альтернативные имена dispidMileage
 type: docs
 weight: 12690
 url: /ru/net/aspose.email.mapi/knownpropertylist/mileage/
 ---
 ## KnownPropertyList.Mileage field
 
-Содержит информацию о пробеге, связанную с элементом. Область:Общие свойства сообщения Каноническое имя:PidLidMileage Альтернативные имена:dispidMileage
+Содержит информацию о пробеге, связанную с элементом. Область: Общие свойства сообщения Каноническое имя: PidLidMileage Альтернативные имена: dispidMileage
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Mileage;

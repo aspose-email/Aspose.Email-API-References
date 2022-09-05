@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/urlcategory/blogvalue/
 ---
 ## UrlCategory.BlogValue field
 
-Строковое значение для категории «Блог»
+Строковое значение для категории "Блог"
 
 ```csharp
 public const string BlogValue;

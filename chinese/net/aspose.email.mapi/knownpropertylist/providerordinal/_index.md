@@ -1,14 +1,14 @@
 ---
 title: ProviderOrdinal
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_PROVIDER_ORDINAL
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROVIDER_ORDINAL
 type: docs
 weight: 15060
 url: /zh/net/aspose.email.mapi/knownpropertylist/providerordinal/
 ---
 ## KnownPropertyList.ProviderOrdinal field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_PROVIDER_ORDINAL
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROVIDER_ORDINAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProviderOrdinal;

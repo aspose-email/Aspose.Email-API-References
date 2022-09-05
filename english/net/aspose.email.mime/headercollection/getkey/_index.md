@@ -1,7 +1,7 @@
 ---
 title: GetKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the key at the specified index of the collection.
 type: docs
 weight: 150
 url: /net/aspose.email.mime/headercollection/getkey/

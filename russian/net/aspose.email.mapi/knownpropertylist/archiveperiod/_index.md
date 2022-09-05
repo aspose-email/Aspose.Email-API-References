@@ -1,14 +1,14 @@
 ---
 title: ArchivePeriod
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество дней в течение которых объект сообщения может оставаться неархивированным. ОбластьАрхив Каноническое имяPidTagArchivePeriod Альтернативные именаPR_ARCHIVE_PERIOD ptagArchivePeriod
+description: Указывает количество дней в течение которых объект сообщения может оставаться неархивированным. Область Archive Каноническое имя PidTagArchivePeriod Альтернативные имена PR_ARCHIVE_PERIOD ptagArchivePeriod
 type: docs
 weight: 1410
 url: /ru/net/aspose.email.mapi/knownpropertylist/archiveperiod/
 ---
 ## KnownPropertyList.ArchivePeriod field
 
-Указывает количество дней, в течение которых объект сообщения может оставаться неархивированным. Область:Архив Каноническое имя:PidTagArchivePeriod Альтернативные имена:PR_ARCHIVE_PERIOD, ptagArchivePeriod
+Указывает количество дней, в течение которых объект сообщения может оставаться неархивированным. Область: Archive Каноническое имя: PidTagArchivePeriod Альтернативные имена: PR_ARCHIVE_PERIOD, ptagArchivePeriod
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchivePeriod;

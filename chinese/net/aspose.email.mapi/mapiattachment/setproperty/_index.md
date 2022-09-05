@@ -16,13 +16,13 @@ public override void SetProperty(MapiProperty value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | MapiProperty | 属性。 |
+| value | MapiProperty | 该物业。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*value*为空。 |
+| ArgumentNullException | 如果*value*一片空白。 |
 | ArgumentException | 如果属性数据为空。 |
 | InvalidOperationException | 如果不支持数据类型。 |
 

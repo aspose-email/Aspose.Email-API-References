@@ -18,10 +18,10 @@ public class OperationCanceledException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OperationCanceledException](operationcanceledexception#constructor)() | 初始化OperationCanceledException类的新实例。 |
-| [OperationCanceledException](operationcanceledexception#constructor_1)(string) | 使用指定的错误消息初始化OperationCanceledException类的新实例。 |
-| [OperationCanceledException](operationcanceledexception#constructor_2)(string, Exception) | 初始化OperationCanceledException类 的新实例，带有指定的错误消息和对导致此异常的内部异常。 |
-| [OperationCanceledException](operationcanceledexception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化OperationCanceledException类的新实例。 |
+| [OperationCanceledException](operationcanceledexception#constructor)() | 初始化OperationCanceledException类. |
+| [OperationCanceledException](operationcanceledexception#constructor_1)(string) | 初始化OperationCanceledException具有指定错误消息的类。 |
+| [OperationCanceledException](operationcanceledexception#constructor_2)(string, Exception) | 初始化OperationCanceledException类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [OperationCanceledException](operationcanceledexception#constructor_3)(string, params object[]) | 初始化OperationCanceledException具有指定错误消息的类。 |
 
 ## 特性
 

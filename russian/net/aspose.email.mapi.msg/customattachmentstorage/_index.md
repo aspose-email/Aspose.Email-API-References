@@ -3,7 +3,7 @@ title: CustomAttachmentStorage
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет пользовательское хранилище вложений.
 type: docs
-weight: 18740
+weight: 18770
 url: /ru/net/aspose.email.mapi.msg/customattachmentstorage/
 ---
 ## CustomAttachmentStorage class
@@ -18,7 +18,7 @@ public sealed class CustomAttachmentStorage
 
 | Имя | Описание |
 | --- | --- |
-| [CustomAttachmentStorage](customattachmentstorage)() | Инициализирует новый экземпляр класса[`CustomAttachmentStorage`](../customattachmentstorage). |
+| [CustomAttachmentStorage](customattachmentstorage)() | Инициализирует новый экземпляр[`CustomAttachmentStorage`](../customattachmentstorage) класс. |
 
 ## Характеристики
 

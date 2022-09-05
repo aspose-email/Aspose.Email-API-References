@@ -1,14 +1,14 @@
 ---
 title: Email2AddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает тип электронного адреса. ОбластьСвойства контакта Каноническое имяPidLidEmail2AddressType Альтернативные именаdispidEmail2AddrType
+description: Определяет тип адреса электронного адреса. Область Свойства контакта Каноническое имя PidLidEmail2AddressType Альтернативные имена dispidEmail2AddrType
 type: docs
 weight: 4370
 url: /ru/net/aspose.email.mapi/knownpropertylist/email2addresstype/
 ---
 ## KnownPropertyList.Email2AddressType field
 
-Задает тип электронного адреса. Область:Свойства контакта Каноническое имя:PidLidEmail2AddressType Альтернативные имена:dispidEmail2AddrType
+Определяет тип адреса электронного адреса. Область: Свойства контакта Каноническое имя: PidLidEmail2AddressType Альтернативные имена: dispidEmail2AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2AddressType;

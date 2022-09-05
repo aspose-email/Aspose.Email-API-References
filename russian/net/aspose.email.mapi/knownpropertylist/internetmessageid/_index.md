@@ -1,14 +1,14 @@
 ---
 title: InternetMessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Соответствует полю идентификатора сообщения. ОбластьСвойства MIME Каноническое имяPidTagInternetMessageId Альтернативные именаPR_INTERNET_MESSAGE_ID PR_INTERNET_MESSAGE_ID_A PR_INTERNET_MESSAGE_ID_W
+description: Соответствует полю идентификатора сообщения. Область свойства MIME Каноническое имя PidTagInternetMessageId Альтернативные имена PR_INTERNET_MESSAGE_ID PR_INTERNET_MESSAGE_ID_A PR_INTERNET_MESSAGE_ID_W
 type: docs
 weight: 11520
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetmessageid/
 ---
 ## KnownPropertyList.InternetMessageId field
 
-Соответствует полю идентификатора сообщения. Область:Свойства MIME Каноническое имя:PidTagInternetMessageId Альтернативные имена:PR_INTERNET_MESSAGE_ID, PR_INTERNET_MESSAGE_ID_A, PR_INTERNET_MESSAGE_ID_W
+Соответствует полю идентификатора сообщения. Область: свойства MIME Каноническое имя: PidTagInternetMessageId Альтернативные имена: PR_INTERNET_MESSAGE_ID, PR_INTERNET_MESSAGE_ID_A, PR_INTERNET_MESSAGE_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetMessageId;

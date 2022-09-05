@@ -1,14 +1,14 @@
 ---
 title: ExtractedTasks
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит XML-документ с одним элементом TaskSet. ОбластьИзвлеченные объекты Каноническое имяPidNameExtractedTasks Альтернативные именаdispidXmlExtractedTasks
+description: Содержит XML-документ с одним элементом TaskSet. Область Извлеченные сущности Каноническое имя PidNameExtractedTasks Альтернативные имена dispidXmlExtractedTasks
 type: docs
 weight: 10090
 url: /ru/net/aspose.email.mapi/knownpropertylist/extractedtasks/
 ---
 ## KnownPropertyList.ExtractedTasks field
 
-Содержит XML-документ с одним элементом TaskSet. Область:Извлеченные объекты Каноническое имя:PidNameExtractedTasks Альтернативные имена:dispidXmlExtractedTasks
+Содержит XML-документ с одним элементом TaskSet. Область: Извлеченные сущности Каноническое имя: PidNameExtractedTasks Альтернативные имена: dispidXmlExtractedTasks
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedTasks;

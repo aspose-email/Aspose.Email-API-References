@@ -1,12 +1,12 @@
 ---
 title: RemoveMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the flags of the message
 type: docs
 weight: 990
 url: /net/aspose.email.clients.imap/imapclient/removemessageflags/
 ---
-## ImapClient.RemoveMessageFlags method (1 of 28)
+## RemoveMessageFlags(IConnection, int, ImapMessageFlags) {#removemessageflags}
 
 Removes the flags of the message
 
@@ -30,7 +30,7 @@ public void RemoveMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ---
 
-## ImapClient.RemoveMessageFlags method (2 of 28)
+## RemoveMessageFlags(IConnection, string, ImapMessageFlags) {#removemessageflags_10}
 
 Removes the flags of the message
 
@@ -54,7 +54,7 @@ public void RemoveMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ---
 
-## ImapClient.RemoveMessageFlags method (3 of 28)
+## RemoveMessageFlags(int, ImapMessageFlags) {#removemessageflags_14}
 
 Removes the flags of the message
 
@@ -76,7 +76,7 @@ public void RemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.RemoveMessageFlags method (4 of 28)
+## RemoveMessageFlags(string, ImapMessageFlags) {#removemessageflags_24}
 
 Removes the flags of the message
 
@@ -98,7 +98,7 @@ public void RemoveMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.RemoveMessageFlags method (5 of 28)
+## RemoveMessageFlags(IConnection, int, ImapMessageFlags, long) {#removemessageflags_1}
 
 Removes the flags of the message
 
@@ -124,7 +124,7 @@ public void RemoveMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ---
 
-## ImapClient.RemoveMessageFlags method (6 of 28)
+## RemoveMessageFlags(IConnection, string, ImapMessageFlags, long) {#removemessageflags_11}
 
 Removes the flags of the message
 
@@ -150,7 +150,7 @@ public void RemoveMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ---
 
-## ImapClient.RemoveMessageFlags method (7 of 28)
+## RemoveMessageFlags(int, ImapMessageFlags, long) {#removemessageflags_15}
 
 Removes the flags of the message
 
@@ -174,7 +174,7 @@ public void RemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags,
 
 ---
 
-## ImapClient.RemoveMessageFlags method (8 of 28)
+## RemoveMessageFlags(string, ImapMessageFlags, long) {#removemessageflags_25}
 
 Removes the flags of the message
 
@@ -197,7 +197,7 @@ public void RemoveMessageFlags(string uniqueId, ImapMessageFlags flags, long mod
 
 ---
 
-## ImapClient.RemoveMessageFlags method (9 of 28)
+## RemoveMessageFlags(string, string, ImapMessageFlags) {#removemessageflags_26}
 
 Removes the flags of the message
 
@@ -220,7 +220,7 @@ public void RemoveMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ---
 
-## ImapClient.RemoveMessageFlags method (10 of 28)
+## RemoveMessageFlags(int, int, ImapMessageFlags) {#removemessageflags_16}
 
 Removes the flags of the message
 
@@ -243,7 +243,7 @@ public void RemoveMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ---
 
-## ImapClient.RemoveMessageFlags method (11 of 28)
+## RemoveMessageFlags(IConnection, string, string, ImapMessageFlags) {#removemessageflags_12}
 
 Removes the flags of the message
 
@@ -269,7 +269,7 @@ public void RemoveMessageFlags(IConnection connection, string startUid, string e
 
 ---
 
-## ImapClient.RemoveMessageFlags method (12 of 28)
+## RemoveMessageFlags(IConnection, int, int, ImapMessageFlags) {#removemessageflags_2}
 
 Removes the flags of the message
 
@@ -295,7 +295,7 @@ public void RemoveMessageFlags(IConnection connection, int startSequence, int en
 
 ---
 
-## ImapClient.RemoveMessageFlags method (13 of 28)
+## RemoveMessageFlags(string, string, ImapMessageFlags, long) {#removemessageflags_27}
 
 Removes the flags of the message
 
@@ -320,7 +320,7 @@ public void RemoveMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ---
 
-## ImapClient.RemoveMessageFlags method (14 of 28)
+## RemoveMessageFlags(int, int, ImapMessageFlags, long) {#removemessageflags_17}
 
 Removes the flags of the message
 
@@ -345,7 +345,7 @@ public void RemoveMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ---
 
-## ImapClient.RemoveMessageFlags method (15 of 28)
+## RemoveMessageFlags(IConnection, string, string, ImapMessageFlags, long) {#removemessageflags_13}
 
 Removes the flags of the message
 
@@ -372,7 +372,7 @@ public void RemoveMessageFlags(IConnection connection, string startUid, string e
 
 ---
 
-## ImapClient.RemoveMessageFlags method (16 of 28)
+## RemoveMessageFlags(IConnection, int, int, ImapMessageFlags, long) {#removemessageflags_3}
 
 Removes the flags of the message
 
@@ -399,7 +399,7 @@ public void RemoveMessageFlags(IConnection connection, int startSequence, int en
 
 ---
 
-## ImapClient.RemoveMessageFlags method (17 of 28)
+## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_22}
 
 Removes the flags of the message
 
@@ -421,7 +421,7 @@ public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ---
 
-## ImapClient.RemoveMessageFlags method (18 of 28)
+## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_20}
 
 Removes the flags of the message
 
@@ -443,7 +443,7 @@ public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ---
 
-## ImapClient.RemoveMessageFlags method (19 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_8}
 
 Removes the flags of the message
 
@@ -468,7 +468,7 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ---
 
-## ImapClient.RemoveMessageFlags method (20 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_6}
 
 Removes the flags of the message
 
@@ -493,7 +493,7 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequence
 
 ---
 
-## ImapClient.RemoveMessageFlags method (21 of 28)
+## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_23}
 
 Removes the flags of the message
 
@@ -517,7 +517,7 @@ public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ---
 
-## ImapClient.RemoveMessageFlags method (22 of 28)
+## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#removemessageflags_21}
 
 Removes the flags of the message
 
@@ -541,7 +541,7 @@ public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ---
 
-## ImapClient.RemoveMessageFlags method (23 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_9}
 
 Removes the flags of the message
 
@@ -567,7 +567,7 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ---
 
-## ImapClient.RemoveMessageFlags method (24 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#removemessageflags_7}
 
 Removes the flags of the message
 
@@ -593,7 +593,7 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequence
 
 ---
 
-## ImapClient.RemoveMessageFlags method (25 of 28)
+## RemoveMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#removemessageflags_18}
 
 Removes the flags of the message
 
@@ -616,7 +616,7 @@ public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ---
 
-## ImapClient.RemoveMessageFlags method (26 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#removemessageflags_4}
 
 Removes the flags of the message
 
@@ -642,7 +642,7 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 
 ---
 
-## ImapClient.RemoveMessageFlags method (27 of 28)
+## RemoveMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_19}
 
 Removes the flags of the message
 
@@ -667,7 +667,7 @@ public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ---
 
-## ImapClient.RemoveMessageFlags method (28 of 28)
+## RemoveMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_5}
 
 Removes the flags of the message
 

@@ -1,14 +1,14 @@
 ---
 title: ContactsFolderPermissionLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает разрешения которые делегированный пользователь имеет в папке контактов по умолчанию
+description: Получает или задает разрешения которые делегированный пользователь имеет в папке контактов по умолчанию
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/contactsfolderpermissionlevel/
 ---
 ## ExchangeDelegatePermissions.ContactsFolderPermissionLevel property
 
-Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке контактов по умолчанию
+Получает или задает разрешения, которые делегированный пользователь имеет в папке контактов по умолчанию
 
 ```csharp
 public ExchangeDelegateFolderPermissionLevel ContactsFolderPermissionLevel { get; set; }

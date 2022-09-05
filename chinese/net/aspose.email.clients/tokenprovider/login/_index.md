@@ -1,14 +1,14 @@
 ---
 title: Login
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置基本授权登录
+description: 获取或设置基本授权的登录
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients/tokenprovider/login/
 ---
 ## TokenProvider.Login property
 
-获取或设置基本授权登录
+获取或设置基本授权的登录
 
 ```csharp
 public virtual string Login { get; set; }

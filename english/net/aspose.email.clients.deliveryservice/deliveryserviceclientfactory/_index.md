@@ -1,7 +1,7 @@
 ---
 title: DeliveryServiceClientFactory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the to create DeliveryServiceClient
 type: docs
 weight: 2930
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/

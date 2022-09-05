@@ -1,14 +1,14 @@
 ---
 title: SharingInstanceGuid
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingInstanceGuid 替代名称dispidSharingInstanceGuid
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingInstanceGuid 替代名称dispidSharingInstanceGuid
 type: docs
 weight: 17560
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharinginstanceguid/
 ---
 ## KnownPropertyList.SharingInstanceGuid field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingInstanceGuid 替代名称:dispidSharingInstanceGuid
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingInstanceGuid 替代名称：dispidSharingInstanceGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingInstanceGuid;

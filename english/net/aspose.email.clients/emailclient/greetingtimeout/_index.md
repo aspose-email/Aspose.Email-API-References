@@ -1,7 +1,7 @@
 ---
 title: GreetingTimeout
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the greeting timeout that is used when establishing a connection. Please note greeting timeout cant be infinite. Email clients may execute enough long operations. To limit the time of operations users have to use Timeoutaspose.email.clients/emailclient/timeout property. Values for this property have to have long intervals to not prevent longtime operations. But in some cases if EmailClient will use only Timeout property connection establishing may take a long time. For instance the mail client may use the automatic mode to connection establishing. In this mode the email client goes through all possible connection parameters until the connection is established. SMTP IMAP and POP3 servers in case of correct connection establishing send greeting string to the client. Servers may use implicit or explicit START TLS SSL/TLS connection initiation. If connection mode is mismatched for instance the server waits for an implicit SSL connection but the client tries to establish a nonsecured or explicit SSL connection the server wont send a greeting string. In this case the user will wait a long time until the timeout reaches a greeting string and the client goes to the next connection option. To avoid this problem the GreetingTimeout property has been introduced. This property allows you to set the timeout for greeting string and reduce the time of automatic connection establishment.
 type: docs
 weight: 100
 url: /net/aspose.email.clients/emailclient/greetingtimeout/

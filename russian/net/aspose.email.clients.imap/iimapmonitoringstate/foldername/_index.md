@@ -1,14 +1,14 @@
 ---
 title: FolderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Папка для которой сохраняется состояние мониторинга.
+description: Папка для которой хранится состояние мониторинга.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/iimapmonitoringstate/foldername/
 ---
 ## IImapMonitoringState.FolderName property
 
-Папка, для которой сохраняется состояние мониторинга.
+Папка, для которой хранится состояние мониторинга.
 
 ```csharp
 public string FolderName { get; }

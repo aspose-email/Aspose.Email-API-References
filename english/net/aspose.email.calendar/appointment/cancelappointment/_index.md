@@ -1,12 +1,12 @@
 ---
 title: CancelAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Cancels the appointment.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.email.calendar/appointment/cancelappointment/
 ---
-## Appointment.CancelAppointment method (1 of 2)
+## CancelAppointment() {#cancelappointment}
 
 Cancels the appointment.
 
@@ -27,7 +27,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represe
 
 ---
 
-## Appointment.CancelAppointment method (2 of 2)
+## CancelAppointment(int) {#cancelappointment_1}
 
 Cancels the appointment.
 

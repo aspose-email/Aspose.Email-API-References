@@ -1,14 +1,14 @@
 ---
 title: EmsAbHasFullReplicaNcs
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HAS_FULL_REPLICA_NCS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HAS_FULL_REPLICA_NCS
 type: docs
 weight: 6490
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhasfullreplicancs/
 ---
 ## KnownPropertyList.EmsAbHasFullReplicaNcs field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HAS_FULL_REPLICA_NCS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HAS_FULL_REPLICA_NCS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHasFullReplicaNcs;

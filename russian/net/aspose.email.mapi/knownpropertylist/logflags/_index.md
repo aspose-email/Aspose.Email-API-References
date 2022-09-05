@@ -1,14 +1,14 @@
 ---
 title: LogFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит метаданные об объекте журнала. ОбластьЖурнал Каноническое имяPidLidLogFlags Альтернативные именаdispidLogFlags
+description: Содержит метаданные об объекте журнала. Область Journal Каноническое имя PidLidLogFlags Альтернативные имена dispidLogFlags
 type: docs
 weight: 12270
 url: /ru/net/aspose.email.mapi/knownpropertylist/logflags/
 ---
 ## KnownPropertyList.LogFlags field
 
-Содержит метаданные об объекте журнала. Область:Журнал Каноническое имя:PidLidLogFlags Альтернативные имена:dispidLogFlags
+Содержит метаданные об объекте журнала. Область: Journal Каноническое имя: PidLidLogFlags Альтернативные имена: dispidLogFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogFlags;

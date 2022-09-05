@@ -1,7 +1,7 @@
 ---
 title: DateCompleted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date when the user completed work on the task.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapitask/datecompleted/

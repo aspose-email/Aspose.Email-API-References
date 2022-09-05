@@ -1,7 +1,7 @@
 ---
 title: Medium
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A 176x176 scaled thumbnail.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/thumbnailset/medium/

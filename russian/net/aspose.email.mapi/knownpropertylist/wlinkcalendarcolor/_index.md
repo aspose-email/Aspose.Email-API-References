@@ -1,14 +1,14 @@
 ---
 title: WlinkCalendarColor
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает цвет фона календаря. ОбластьКонфигурация Каноническое имяPidTagWlinkCalendarColor Альтернативные именаPR_WLINK_CALENDAR_COLOR
+description: Указывает цвет фона календаря. Область Configuration Каноническое имя PidTagWlinkCalendarColor Альтернативные имена PR_WLINK_CALENDAR_COLOR
 type: docs
 weight: 19390
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkcalendarcolor/
 ---
 ## KnownPropertyList.WlinkCalendarColor field
 
-Задает цвет фона календаря. Область:Конфигурация Каноническое имя:PidTagWlinkCalendarColor Альтернативные имена:PR_WLINK_CALENDAR_COLOR
+Указывает цвет фона календаря. Область: Configuration Каноническое имя: PidTagWlinkCalendarColor Альтернативные имена: PR_WLINK_CALENDAR_COLOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkCalendarColor;

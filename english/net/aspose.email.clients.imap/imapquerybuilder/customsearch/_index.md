@@ -1,7 +1,7 @@
 ---
 title: CustomSearch
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages according to extended server search syntax.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/imapquerybuilder/customsearch/

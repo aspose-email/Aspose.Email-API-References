@@ -1,14 +1,14 @@
 ---
 title: OAuthToken
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 OAuthTokenaspose.email.clients/oauthtoken 类的新实例
+description: 初始化OAuthTokenaspose.email.clients/oauthtoken class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/oauthtoken/oauthtoken/
 ---
 ## OAuthToken(string) {#constructor}
 
-初始化 [`OAuthToken`](../../oauthtoken) 类的新实例
+初始化[`OAuthToken`](../../oauthtoken) class
 
 ```csharp
 public OAuthToken(string token)
@@ -28,7 +28,7 @@ public OAuthToken(string token)
 
 ## OAuthToken(string, DateTime) {#constructor_2}
 
-初始化 [`OAuthToken`](../../oauthtoken) 类的新实例
+初始化[`OAuthToken`](../../oauthtoken) class
 
 ```csharp
 public OAuthToken(string token, DateTime expirationDate)
@@ -37,7 +37,7 @@ public OAuthToken(string token, DateTime expirationDate)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | token | String | 访问令牌值 |
-| expirationDate | DateTime | 令牌的过期日期。 |
+| expirationDate | DateTime | 令牌的到期日期。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public OAuthToken(string token, DateTime expirationDate)
 
 ## OAuthToken(string, TokenType, DateTime) {#constructor_1}
 
-初始化 [`OAuthToken`](../../oauthtoken) 类的新实例
+初始化[`OAuthToken`](../../oauthtoken) class
 
 ```csharp
 public OAuthToken(string token, TokenType tokenType, DateTime expirationDate)
@@ -57,7 +57,7 @@ public OAuthToken(string token, TokenType tokenType, DateTime expirationDate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | String | 令牌值 |
+| token | String | 代币价值 |
 | tokenType | TokenType | OAuth 令牌类型 |
 | expirationDate | DateTime | 令牌的到期日期。 |
 

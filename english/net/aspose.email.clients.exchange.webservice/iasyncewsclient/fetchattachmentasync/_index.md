@@ -1,7 +1,7 @@
 ---
 title: FetchAttachmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the attachment
 type: docs
 weight: 230
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchattachmentasync/

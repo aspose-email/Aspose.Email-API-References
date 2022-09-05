@@ -1,14 +1,14 @@
 ---
 title: OtherAddressStateOrProvince
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название другого штата или провинции почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressStateOrProvince Альтернативные именаPR_OTHER_ADDRESS_STATE_OR_PROVINCE PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W
+description: Содержит название другого штата или провинции почтового пользователя. Область Свойства адреса Каноническое имя PidTagOtherAddressStateOrProvince Альтернативные имена PR_OTHER_ADDRESS_STATE_OR_PROVINCE PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A PR_OTHER_ADDRESS_STINCE_0PRO_dWx0PRO_0PRO_0
 type: docs
 weight: 14000
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddressstateorprovince/
 ---
 ## KnownPropertyList.OtherAddressStateOrProvince field
 
-Содержит название другого штата или провинции почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagOtherAddressStateOrProvince Альтернативные имена:PR_OTHER_ADDRESS_STATE_OR_PROVINCE, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W,
+Содержит название другого штата или провинции почтового пользователя. Область: Свойства адреса Каноническое имя: PidTagOtherAddressStateOrProvince Альтернативные имена: PR_OTHER_ADDRESS_STATE_OR_PROVINCE, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A, PR_OTHER_ADDRESS_STINCE_0,PRO_dWx0,PRO_0,PRO_0,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressStateOrProvince;

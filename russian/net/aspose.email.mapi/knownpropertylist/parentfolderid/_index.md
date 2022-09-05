@@ -1,14 +1,14 @@
 ---
 title: ParentFolderId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение содержащее идентификатор папки FID как указано в разделе 2.2.1.1 MS-OXCDATA который идентифицирует родительскую папку объекта обмена сообщениями синхронизировано. ОбластьСвойства идентификатора Каноническое имяPidTagParentFolderId Альтернативные именаptagParentFID
+description: Содержит значение содержащее идентификатор папки FID как указано в разделе 2.2.1.1 MS-OXCDATA который идентифицирует родительскую папку синхронизируемого объекта обмена сообщениями. Область Свойства ID Каноническое имя PidTagParentFolderId Альтернативные имена ptagParentFID
 type: docs
 weight: 14200
 url: /ru/net/aspose.email.mapi/knownpropertylist/parentfolderid/
 ---
 ## KnownPropertyList.ParentFolderId field
 
-Содержит значение, содержащее идентификатор папки (FID), как указано в разделе 2.2.1.1 [MS-OXCDATA], который идентифицирует родительскую папку объекта обмена сообщениями, синхронизировано. Область:Свойства идентификатора Каноническое имя:PidTagParentFolderId Альтернативные имена:ptagParentFID
+Содержит значение, содержащее идентификатор папки (FID), как указано в разделе 2.2.1.1 [MS-OXCDATA], который идентифицирует родительскую папку синхронизируемого объекта обмена сообщениями. Область: Свойства ID Каноническое имя: PidTagParentFolderId Альтернативные имена: ptagParentFID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentFolderId;

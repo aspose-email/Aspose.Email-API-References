@@ -1,14 +1,14 @@
 ---
 title: ReportDestinationName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPORT_DESTINATION_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPORT_DESTINATION_NAME
 type: docs
 weight: 15990
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportdestinationname/
 ---
 ## KnownPropertyList.ReportDestinationName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPORT_DESTINATION_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPORT_DESTINATION_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDestinationName;

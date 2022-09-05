@@ -1,14 +1,14 @@
 ---
 title: DocumentLastModifier
 second_title: Aspose.Email for .NET API 参考
-description: 最后修改文档的用户 强制是
+description: 上次修改文档的用户 必填是
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/sharepointmetadata/documentlastmodifier/
 ---
 ## SharePointMetadata.DocumentLastModifier property
 
-最后修改文档的用户。 强制:是
+上次修改文档的用户。 必填：是
 
 ```csharp
 public string DocumentLastModifier { get; set; }

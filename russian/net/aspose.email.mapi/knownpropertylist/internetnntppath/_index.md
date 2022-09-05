@@ -1,14 +1,14 @@
 ---
 title: InternetNntpPath
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_NNTP_PATH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_NNTP_PATH
 type: docs
 weight: 11550
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetnntppath/
 ---
 ## KnownPropertyList.InternetNntpPath field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_NNTP_PATH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_NNTP_PATH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetNntpPath;

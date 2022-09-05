@@ -1,9 +1,9 @@
 ---
 title: OutlookCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a category by which a user can group Outlook items such as messages and events. The user defines categories in a master list and can apply one or more of these userdefined categories to an item. https//docs.microsoft.com/enus/graph/api/resources/outlookcategoryviewgraphrest1.0
 type: docs
-weight: 16030
+weight: 16050
 url: /net/aspose.email.clients.graph/outlookcategory/
 ---
 ## OutlookCategory class
@@ -18,9 +18,9 @@ public class OutlookCategory
 
 | Name | Description |
 | --- | --- |
-| [OutlookCategory](outlookcategory)() | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
-| [OutlookCategory](outlookcategory)(string, CategoryPreset) | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
-| [OutlookCategory](outlookcategory)(string, string, CategoryPreset) | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
+| [OutlookCategory](outlookcategory#constructor)() | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
+| [OutlookCategory](outlookcategory#constructor_1)(string, CategoryPreset) | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
+| [OutlookCategory](outlookcategory#constructor_2)(string, string, CategoryPreset) | Initializes a new instance of the [`OutlookCategory`](../outlookcategory) class. |
 
 ## Properties
 

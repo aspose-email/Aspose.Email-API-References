@@ -1,7 +1,7 @@
 ---
 title: Emlx
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates message in Emlx format used by Apple Mail.
 type: docs
 weight: 20
 url: /net/aspose.email/messageformat/emlx/

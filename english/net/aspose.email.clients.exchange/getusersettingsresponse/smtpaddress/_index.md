@@ -1,7 +1,7 @@
 ---
 title: SmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the SMTP address this response applies to.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/getusersettingsresponse/smtpaddress/

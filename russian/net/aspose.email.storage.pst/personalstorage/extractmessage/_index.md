@@ -1,14 +1,14 @@
 ---
 title: ExtractMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить сообщение из PST.
+description: Получить сообщение от PST.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.storage.pst/personalstorage/extractmessage/
 ---
 ## ExtractMessage(MessageInfo) {#extractmessage}
 
-Получить сообщение из PST.
+Получить сообщение от PST.
 
 ```csharp
 public MapiMessage ExtractMessage(MessageInfo messageInfo)
@@ -34,7 +34,7 @@ public MapiMessage ExtractMessage(MessageInfo messageInfo)
 
 ## ExtractMessage(byte[]) {#extractmessage_1}
 
-Получить сообщение из PST.
+Получить сообщение от PST.
 
 ```csharp
 public MapiMessage ExtractMessage(byte[] entryId)
@@ -59,7 +59,7 @@ public MapiMessage ExtractMessage(byte[] entryId)
 
 ## ExtractMessage(string) {#extractmessage_2}
 
-Получить сообщение из PST.
+Получить сообщение от PST.
 
 ```csharp
 public MapiMessage ExtractMessage(string entryId)

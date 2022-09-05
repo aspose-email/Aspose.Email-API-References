@@ -1,7 +1,7 @@
 ---
 title: Endpoint
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Types of Sway client endpoint for the triggered event.
 type: docs
 weight: 2460
 url: /net/aspose.email.clients.activity/endpoint/

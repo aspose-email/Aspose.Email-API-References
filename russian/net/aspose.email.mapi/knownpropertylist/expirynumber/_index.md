@@ -1,14 +1,14 @@
 ---
 title: ExpiryNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит целочисленное значение которое используется вместе со свойством PidTagExpiryUnits раздел 2.681 для определения времени истечения срока отправки. ОбластьMapiStatus Каноническое имяPidTagExpiryNumber Альтернативные именаPR_EXPIRY_NUMBER
+description: Содержит целочисленное значение которое используется вместе со свойством PidTagExpiryUnits раздел 2.681 для определения срока отправки. Область MapiStatus Каноническое имя PidTagExpiryNumber Альтернативные имена PR_EXPIRY_NUMBER
 type: docs
 weight: 9940
 url: /ru/net/aspose.email.mapi/knownpropertylist/expirynumber/
 ---
 ## KnownPropertyList.ExpiryNumber field
 
-Содержит целочисленное значение, которое используется вместе со свойством PidTagExpiryUnits (раздел 2.681) для определения времени истечения срока отправки. Область:MapiStatus Каноническое имя:PidTagExpiryNumber Альтернативные имена:PR_EXPIRY_NUMBER
+Содержит целочисленное значение, которое используется вместе со свойством PidTagExpiryUnits (раздел 2.681) для определения срока отправки. Область: MapiStatus Каноническое имя: PidTagExpiryNumber Альтернативные имена: PR_EXPIRY_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryNumber;

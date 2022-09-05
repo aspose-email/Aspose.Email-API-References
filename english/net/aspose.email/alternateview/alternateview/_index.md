@@ -1,12 +1,12 @@
 ---
 title: AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AlternateViewaspose.email/alternateview class.
 type: docs
 weight: 10
 url: /net/aspose.email/alternateview/alternateview/
 ---
-## AlternateView constructor (1 of 6)
+## AlternateView(string) {#constructor_3}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 
@@ -26,7 +26,7 @@ public AlternateView(string fileName)
 
 ---
 
-## AlternateView constructor (2 of 6)
+## AlternateView(string, string) {#constructor_5}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 
@@ -47,7 +47,7 @@ public AlternateView(string fileName, string mediaType)
 
 ---
 
-## AlternateView constructor (3 of 6)
+## AlternateView(string, ContentType) {#constructor_4}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 
@@ -69,7 +69,7 @@ public AlternateView(string fileName, ContentType contentType)
 
 ---
 
-## AlternateView constructor (4 of 6)
+## AlternateView(Stream) {#constructor}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 
@@ -89,7 +89,7 @@ public AlternateView(Stream contentStream)
 
 ---
 
-## AlternateView constructor (5 of 6)
+## AlternateView(Stream, string) {#constructor_2}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 
@@ -110,7 +110,7 @@ public AlternateView(Stream contentStream, string mediaType)
 
 ---
 
-## AlternateView constructor (6 of 6)
+## AlternateView(Stream, ContentType) {#constructor_1}
 
 Initializes a new instance of the [`AlternateView`](../../alternateview) class.
 

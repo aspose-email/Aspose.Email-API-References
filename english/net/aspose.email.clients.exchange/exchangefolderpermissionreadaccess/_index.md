@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderPermissionReadAccess
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sspecifies whether a user has permission to read items in a folder.
 type: docs
 weight: 3330
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionreadaccess/

@@ -1,7 +1,7 @@
 ---
 title: GetVersionInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns exchange server version info
 type: docs
 weight: 250
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/getversioninfo/

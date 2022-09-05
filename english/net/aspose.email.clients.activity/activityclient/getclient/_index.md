@@ -1,12 +1,12 @@
 ---
 title: GetClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ActivityClientaspose.email.clients.activity/activityclient based class
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activity/activityclient/getclient/
 ---
-## ActivityClient.GetClient method (1 of 2)
+## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
 Initializes a new instance of the [`ActivityClient`](../../activityclient) based class
 
@@ -34,7 +34,7 @@ Returns IActivityClient object
 
 ---
 
-## ActivityClient.GetClient method (2 of 2)
+## GetClient(ITokenProvider, string) {#getclient_1}
 
 Initializes a new instance of the [`ActivityClient`](../../activityclient) based class
 

@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 如果 System.Collections.Generic.ICollection 是只读的则为真否则为假
+description: 如果 System.Collections.Generic.ICollection 是只读的则为 true否则为假
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/knownpropertylist/isreadonly/
 ---
 ## KnownPropertyList.IsReadOnly property
 
-如果 System.Collections.Generic.ICollection 是只读的，则为真；否则为假。
+如果 System.Collections.Generic.ICollection 是只读的，则为 true；否则为假。
 
 ```csharp
 public bool IsReadOnly { get; }

@@ -1,14 +1,14 @@
 ---
 title: FetchItem
 second_title: Aspose.Email for .NET API 参考
-description: 检索项目为MapiMessageaspose.email.mapi/mapimessage
+description: 检索项目为MapiMessageaspose.email.mapi/mapimessage.
 type: docs
 weight: 750
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/fetchitem/
 ---
 ## FetchItem(string) {#fetchitem}
 
-检索项目为[`MapiMessage`](../../../aspose.email.mapi/mapimessage)。
+检索项目为[`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 
 ```csharp
 public MapiMessage FetchItem(string uri)
@@ -20,11 +20,11 @@ public MapiMessage FetchItem(string uri)
 
 ### 返回值
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象。
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage)目的。
 
 ### 评论
 
-注意此方法不获取邮件附件。
+请注意，此方法不会获取邮件附件。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public MapiMessage FetchItem(string uri)
 
 ## FetchItem(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchitem_1}
 
-检索项目为[`MapiMessage`](../../../aspose.email.mapi/mapimessage)。
+检索项目为[`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 
 ```csharp
 public MapiMessage FetchItem(string uri, IEnumerable<PropertyDescriptor> extendedProperties)
@@ -46,15 +46,15 @@ public MapiMessage FetchItem(string uri, IEnumerable<PropertyDescriptor> extende
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uri | String | 项目 URI。 |
-| extendedProperties | IEnumerable`1 | 指定要检索的属性。 |
+| extendedProperties | IEnumerable`1 | 要检索的指定属性。 |
 
 ### 返回值
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象。
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage)目的。
 
 ### 评论
 
-注意此方法不获取邮件附件。
+请注意，此方法不会获取邮件附件。
 
 ### 也可以看看
 

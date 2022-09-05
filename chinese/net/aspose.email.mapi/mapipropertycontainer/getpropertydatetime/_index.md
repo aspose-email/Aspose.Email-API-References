@@ -1,14 +1,14 @@
 ---
 title: GetPropertyDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 获取 tag 指定为 DateTime 类型的属性值
+description: 获取 tag 指定的属性值为 DateTime 类型
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/getpropertydatetime/
 ---
 ## MapiPropertyContainer.GetPropertyDateTime method
 
-获取 tag 指定为 DateTime 类型的属性值。
+获取 tag 指定的属性值为 DateTime 类型。
 
 ```csharp
 public DateTime? GetPropertyDateTime(long key)
@@ -20,7 +20,7 @@ public DateTime? GetPropertyDateTime(long key)
 
 ### 返回值
 
-属性的值。如果属性不存在，返回NULL； 否则，返回值。
+财产的价值。如果属性不存在，返回NULL； 否则，返回值。
 
 ### 也可以看看
 

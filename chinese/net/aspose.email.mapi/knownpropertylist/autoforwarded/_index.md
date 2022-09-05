@@ -1,14 +1,14 @@
 ---
 title: AutoForwarded
 second_title: Aspose.Email for .NET API 参考
-description: 表示自动生成或自动转发了一个Message对象 区域常规报告属性 规范名称PidTagAutoForwarded 替代名称PR_AUTO_FORWARDED ptagAutoForwarded
+description: 表示自动生成或自动转发了一个Message对象 区域常规报告属性 规范名称PidTagAutoForwarded 替代名称PR_AUTO_FORWARDEDptagAutoForwarded
 type: docs
 weight: 1910
 url: /zh/net/aspose.email.mapi/knownpropertylist/autoforwarded/
 ---
 ## KnownPropertyList.AutoForwarded field
 
-表示自动生成或自动转发了一个Message对象。 区域:常规报告属性 规范名称:PidTagAutoForwarded 替代名称:PR_AUTO_FORWARDED, ptagAutoForwarded
+表示自动生成或自动转发了一个Message对象。 区域：常规报告属性 规范名称：PidTagAutoForwarded 替代名称：PR_AUTO_FORWARDED、ptagAutoForwarded
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoForwarded;

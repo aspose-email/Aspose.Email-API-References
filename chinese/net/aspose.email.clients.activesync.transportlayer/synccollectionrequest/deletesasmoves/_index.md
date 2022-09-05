@@ -1,14 +1,14 @@
 ---
 title: DeletesAsMoves
 second_title: Aspose.Email for .NET API 参考
-description: 指示所有已删除项目应移动到已删除项目文件夹的请求 如果 DeletesAsMoves 元素设置为 false则删除是永久性的 如果客户端想要永久删除项目请求必须包含值为 FALSE 的 DeletesAsMoves 元素 默认值 TRUE 表示所有已删除的项目都移动到 Deleted Items 文件夹
+description: 指示所有已删除项目都应移动到已删除项目文件夹的请求 如果 DeletesAsMoves 元素设置为 false则删除是永久性的 如果客户端想要永久删除项目请求必须包含值为 FALSE 的 DeletesAsMoves 元素 值 TRUE 是默认值表示所有已删除的项目都被移动到 Deleted Items 文件夹
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/deletesasmoves/
 ---
 ## SyncCollectionRequest.DeletesAsMoves property
 
-指示所有已删除项目应移动到已删除项目文件夹的请求。 如果 DeletesAsMoves 元素设置为 false，则删除是永久性的。 如果客户端想要永久删除项目，请求必须包含值为 FALSE 的 DeletesAsMoves 元素。 默认值 TRUE 表示所有已删除的项目都移动到 Deleted Items 文件夹。
+指示所有已删除项目都应移动到已删除项目文件夹的请求。 如果 DeletesAsMoves 元素设置为 false，则删除是永久性的。 如果客户端想要永久删除项目，请求必须包含值为 FALSE 的 DeletesAsMoves 元素。 值 TRUE 是默认值，表示所有已删除的项目都被移动到 Deleted Items 文件夹。
 
 ```csharp
 public bool? DeletesAsMoves { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: MapiPropertyTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the MAPI property tags definition.
 type: docs
-weight: 18400
+weight: 18610
 url: /net/aspose.email.mapi/mapipropertytag/
 ---
 ## MapiPropertyTag class

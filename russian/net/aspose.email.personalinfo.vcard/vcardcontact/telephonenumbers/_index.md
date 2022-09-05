@@ -3,7 +3,7 @@ title: TelephoneNumbers
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или устанавливает телефонные номера контакта
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/telephonenumbers/
 ---
 ## VCardContact.TelephoneNumbers property

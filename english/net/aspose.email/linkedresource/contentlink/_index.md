@@ -1,7 +1,7 @@
 ---
 title: ContentLink
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a URI that the resource must match.
 type: docs
 weight: 40
 url: /net/aspose.email/linkedresource/contentlink/

@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ItemMovedEventArgsaspose.email.storage.pst/itemmovedeventargs类的新实例
+description: 初始化ItemMovedEventArgsaspose.email.storage.pst/itemmovedeventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.pst/itemmovedeventargs/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs(MessageInfo) {#constructor_1}
 
-初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类的新实例。
+初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类.
 
 ```csharp
 public ItemMovedEventArgs(MessageInfo message)
@@ -29,7 +29,7 @@ public ItemMovedEventArgs(MessageInfo message)
 
 ## ItemMovedEventArgs(FolderInfo) {#constructor}
 
-初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类的新实例。
+初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类.
 
 ```csharp
 public ItemMovedEventArgs(FolderInfo folder)
@@ -50,7 +50,7 @@ public ItemMovedEventArgs(FolderInfo folder)
 
 ## ItemMovedEventArgs(string, MapiPropertyCollection) {#constructor_2}
 
-初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类的新实例。
+初始化[`ItemMovedEventArgs`](../../itemmovedeventargs)类.
 
 ```csharp
 public ItemMovedEventArgs(string entryId, MapiPropertyCollection properties)

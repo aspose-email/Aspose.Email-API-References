@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/sharepointmetadata/fileowner/
 ---
 ## SharePointMetadata.FileOwner property
 
-文档所有者。 强制:是
+文档所有者。 强制：是
 
 ```csharp
 public string FileOwner { get; set; }

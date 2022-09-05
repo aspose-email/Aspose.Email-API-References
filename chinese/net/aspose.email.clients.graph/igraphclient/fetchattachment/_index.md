@@ -16,11 +16,11 @@ public MapiAttachment FetchAttachment(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 附件 id |
+| id | String | 附件 ID |
 
 ### 返回值
 
-返回附件
+退回附件
 
 ### 也可以看看
 

@@ -17,7 +17,7 @@ public void SelectFolder(IConnection connection, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| имя_папки | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 
 ### Смотрите также
 
@@ -39,8 +39,8 @@ public void SelectFolder(IConnection connection, string folderName, bool? readOn
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| folderName | String | Выбираемая папка |
-| readOnly | Nullable`1 | Указывает, следует ли выбирать папку только для чтения |
+| folderName | String | Папка для выбора |
+| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ public void SelectFolder(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 
 ### Смотрите также
 
@@ -81,7 +81,7 @@ public void SelectFolder(string folderName, bool? readOnly)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 | readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
 
 ### Смотрите также

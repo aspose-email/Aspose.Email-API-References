@@ -16,11 +16,11 @@ public int IndexOf(EmailAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | EmailAddress | Object在列表中定位。 |
+| value | EmailAddress | 这Object在列表中定位。 |
 
 ### 返回值
 
-*value*的索引（如果在列表中找到）；否则，-1。
+指数*value*如果在列表中找到；否则，-1。
 
 ### 也可以看看
 

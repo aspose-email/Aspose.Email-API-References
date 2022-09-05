@@ -3,7 +3,7 @@ title: Recipient
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MapiMailMessage 的收件人
 type: docs
-weight: 20910
+weight: 20960
 url: /zh/net/aspose.email.windows.forms/recipient/
 ---
 ## Recipient class
@@ -18,10 +18,10 @@ public class Recipient
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Recipient](recipient#constructor)(string) | 创建具有指定地址的新收件人。 |
-| [Recipient](recipient#constructor_1)(string, RecipientType) | 创建具有指定地址和收件人类型的新收件人。 |
-| [Recipient](recipient#constructor_2)(string, string) | 创建具有指定地址和显示名称的新收件人。 |
-| [Recipient](recipient#constructor_3)(string, string, RecipientType) | 创建具有指定地址、显示名称和收件人类型的新收件人。 |
+| [Recipient](recipient#constructor)(string) | 使用指定地址创建新收件人。 |
+| [Recipient](recipient#constructor_1)(string, RecipientType) | 创建一个具有指定地址和收件人类型的新收件人。 |
+| [Recipient](recipient#constructor_2)(string, string) | 使用指定的地址和显示名称创建一个新的收件人。 |
+| [Recipient](recipient#constructor_3)(string, string, RecipientType) | 使用指定的地址、显示名称和收件人类型创建新收件人。 |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public class Recipient
 | --- | --- |
 | [Address](../../aspose.email.windows.forms/recipient/address) { get; set; } | 此收件人的电子邮件地址。 |
 | [DisplayName](../../aspose.email.windows.forms/recipient/displayname) { get; set; } | 此收件人的显示名称。 |
-| [RecipientType](../../aspose.email.windows.forms/recipient/recipienttype) { get; set; } | 收件人将如何接收此消息（收件人、抄送、密送）。 |
+| [RecipientType](../../aspose.email.windows.forms/recipient/recipienttype) { get; set; } | 收件人将如何接收此邮件（收件人、抄送、密件抄送）。 |
 
 ### 也可以看看
 

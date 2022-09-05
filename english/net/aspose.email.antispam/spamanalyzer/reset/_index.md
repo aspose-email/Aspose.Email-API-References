@@ -1,7 +1,7 @@
 ---
 title: Reset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Clears all statistics Bayesian database.
 type: docs
 weight: 30
 url: /net/aspose.email.antispam/spamanalyzer/reset/

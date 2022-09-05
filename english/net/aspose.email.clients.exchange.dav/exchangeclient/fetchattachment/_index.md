@@ -1,7 +1,7 @@
 ---
 title: FetchAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the attachment
 type: docs
 weight: 160
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/fetchattachment/

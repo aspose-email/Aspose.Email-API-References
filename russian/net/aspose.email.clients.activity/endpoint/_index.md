@@ -1,14 +1,14 @@
 ---
 title: Endpoint
 second_title: Справочник по Aspose.Email для .NET API
-description: Типы конечной точки клиента Sway для запускаемого события.
+description: Типы конечных точек клиента Sway для инициированного события.
 type: docs
 weight: 2460
 url: /ru/net/aspose.email.clients.activity/endpoint/
 ---
 ## Endpoint enumeration
 
-Типы конечной точки клиента Sway для запускаемого события.
+Типы конечных точек клиента Sway для инициированного события.
 
 ```csharp
 public enum Endpoint
@@ -18,10 +18,10 @@ public enum Endpoint
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| SwayWeb | `0` | Событие было инициировано с помощью веб-клиента Sway. |
-| SwayIOS | `1` | Событие было инициировано с помощью клиента Sway для iOS. |
-| SwayWindows | `2` | Событие было инициировано с помощью клиента Sway для Windows. |
-| SwayAndroid | `3` | Событие было инициировано с помощью клиента Sway для Android. |
+| SwayWeb | `0` | Событие инициировано с помощью веб-клиента Sway. |
+| SwayIOS | `1` | Событие инициировано с помощью клиента Sway для iOS. |
+| SwayWindows | `2` | Событие инициировано с помощью клиента Sway для Windows. |
+| SwayAndroid | `3` | Событие инициировано с помощью клиента Sway для Android. |
 
 ### Смотрите также
 

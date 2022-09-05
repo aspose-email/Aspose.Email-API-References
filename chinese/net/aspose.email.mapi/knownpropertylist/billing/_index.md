@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/billing/
 ---
 ## KnownPropertyList.Billing field
 
-指定联系人的计费信息。 区域:常规消息属性 规范名称:PidLidBilling 替代名称:dispidBilling
+指定联系人的计费信息。 区域：常规消息属性 规范名称：PidLidBilling 替代名称：dispidBilling
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Billing;

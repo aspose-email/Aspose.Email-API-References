@@ -1,12 +1,12 @@
 ---
 title: UnsubscribeFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sent the UNSUBSCRIBE command that removes the specified mailbox name from the servers set of active mailboxes
 type: docs
 weight: 1280
 url: /net/aspose.email.clients.imap/imapclient/unsubscribefolderasync/
 ---
-## ImapClient.UnsubscribeFolderAsync method (1 of 4)
+## UnsubscribeFolderAsync(IConnection, string) {#unsubscribefolderasync}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnsubscribeFolderAsync method (2 of 4)
+## UnsubscribeFolderAsync(string) {#unsubscribefolderasync_2}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnsubscribeFolderAsync method (3 of 4)
+## UnsubscribeFolderAsync(IConnection, string, CancellationToken) {#unsubscribefolderasync_1}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UnsubscribeFolderAsync method (4 of 4)
+## UnsubscribeFolderAsync(string, CancellationToken) {#unsubscribefolderasync_3}
 
 Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
 

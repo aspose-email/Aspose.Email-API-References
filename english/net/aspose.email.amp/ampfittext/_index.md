@@ -1,7 +1,7 @@
 ---
 title: AmpFitText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Expands or shrinks its font size to fit the content within the space given to it.
 type: docs
 weight: 110
 url: /net/aspose.email.amp/ampfittext/

@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: ПреобразуетContactaspose.email.personalinfo/contactвMapiContactaspose.email.mapi/mapicontactобъект
+description: ПреобразуетContactaspose.email.personalinfo/contact кMapiContactaspose.email.mapi/mapicontact объект
 type: docs
 weight: 430
 url: /ru/net/aspose.email.personalinfo/contact/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-Преобразует[`Contact`](../../contact)в[`MapiContact`](../../../aspose.email.mapi/mapicontact)объект
+Преобразует[`Contact`](../../contact) к[`MapiContact`](../../../aspose.email.mapi/mapicontact) объект
 
 ```csharp
 public static implicit operator MapiContact(Contact contact)
@@ -16,11 +16,11 @@ public static implicit operator MapiContact(Contact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | Contact | Объект для преобразования |
+| contact | Contact | Объект для конвертации |
 
 ### Возвращаемое значение
 
-[`MapiContact`](../../../aspose.email.mapi/mapicontact)объект
+[`MapiContact`](../../../aspose.email.mapi/mapicontact) объект
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public static implicit operator MapiContact(Contact contact)
 
 ## implicit operator {#op_implicit_1}
 
-Преобразует[`MapiContact`](../../../aspose.email.mapi/mapicontact)в[`Contact`](../../contact)объект
+Преобразует[`MapiContact`](../../../aspose.email.mapi/mapicontact) к[`Contact`](../../contact) объект
 
 ```csharp
 public static implicit operator Contact(MapiContact contact)
@@ -41,11 +41,11 @@ public static implicit operator Contact(MapiContact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | MapiContact | Объект для преобразования |
+| contact | MapiContact | Объект для конвертации |
 
 ### Возвращаемое значение
 
-[`Contact`](../../contact)объект
+[`Contact`](../../contact) объект
 
 ### Смотрите также
 

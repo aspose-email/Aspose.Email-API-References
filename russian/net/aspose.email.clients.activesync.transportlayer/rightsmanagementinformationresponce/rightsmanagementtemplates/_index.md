@@ -1,14 +1,14 @@
 ---
 title: RightsManagementTemplates
 second_title: Справочник по Aspose.Email для .NET API
-description: Список шаблонов управления правами. Клиенту может быть возвращено максимум 20 объектов RightsManagementTemplate.
+description: Список шаблонов RightsManagementTemplate. Клиенту может быть возвращено не более 20 объектов RightsManagementTemplate.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/rightsmanagementtemplates/
 ---
 ## RightsManagementInformationResponce.RightsManagementTemplates property
 
-Список шаблонов управления правами. Клиенту может быть возвращено максимум 20 объектов RightsManagementTemplate.
+Список шаблонов RightsManagementTemplate. Клиенту может быть возвращено не более 20 объектов RightsManagementTemplate.
 
 ```csharp
 public List<RightsManagementTemplate> RightsManagementTemplates { get; }

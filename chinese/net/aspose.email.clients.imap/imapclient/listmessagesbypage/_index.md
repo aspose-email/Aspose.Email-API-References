@@ -16,7 +16,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, PageSettings settings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemsPerPage | Int32 | 中的多个项目页面 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | settings | PageSettings | 设置。 |
 
 ### 返回值
@@ -43,7 +43,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, int pageOffset, PageSet
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemsPerPage | Int32 | 中的多个项目page |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | pageOffset | Int32 | 视图中下一页的偏移量 |
 | settings | PageSettings | 设置。 |
 
@@ -71,7 +71,7 @@ public ImapPageInfo ListMessagesByPage(PageInfo pageInfo, PageSettings settings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageInfo | PageInfo | 要检索的下一页. |
+| pageInfo | PageInfo | 要检索的下一页。 |
 | settings | PageSettings | 设置。 |
 
 ### 返回值
@@ -99,7 +99,7 @@ public ImapPageInfo ListMessagesByPage(MailQuery query, PageInfo pageInfo, PageS
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | pageInfo | PageInfo | 要检索的下一页。 |
 | settings | PageSettings | 设置。 |
 

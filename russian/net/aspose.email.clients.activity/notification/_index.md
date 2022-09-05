@@ -24,9 +24,9 @@ public class Notification : ContentInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ContentId](../../aspose.email.clients.activity/contentinfo/contentid) { get; set; } | Получает или задает непрозрачную строку, однозначно идентифицирующую содержимое. |
+| [ContentId](../../aspose.email.clients.activity/contentinfo/contentid) { get; set; } | Получает или задает непрозрачную строку, которая однозначно идентифицирует содержимое. |
 | [ContentType](../../aspose.email.clients.activity/contentinfo/contenttype) { get; set; } | Получает или задает тип содержимого. |
-| [ContentUri](../../aspose.email.clients.activity/contentinfo/contenturi) { get; set; } | Получает или задает URL-адрес для использования при получении содержимого. |
+| [ContentUri](../../aspose.email.clients.activity/contentinfo/contenturi) { get; set; } | Получает или задает URL-адрес для использования при извлечении содержимого. |
 | [Created](../../aspose.email.clients.activity/contentinfo/created) { get; set; } | Получает или задает дату и время, когда содержимое стало доступным. |
 | [Expiration](../../aspose.email.clients.activity/contentinfo/expiration) { get; set; } | Получает или задает дату и время, после которого содержимое больше не будет доступно для извлечения. |
 | [Sent](../../aspose.email.clients.activity/notification/sent) { get; set; } | Получает или устанавливает дату и время отправки уведомления. |

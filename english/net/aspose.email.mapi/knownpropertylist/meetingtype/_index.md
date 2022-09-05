@@ -1,7 +1,7 @@
 ---
 title: MeetingType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of Meeting Request object or Meeting Update object. Area Meetings Canonical name PidLidMeetingType Alternate names dispidMeetingType
 type: docs
 weight: 12400
 url: /net/aspose.email.mapi/knownpropertylist/meetingtype/

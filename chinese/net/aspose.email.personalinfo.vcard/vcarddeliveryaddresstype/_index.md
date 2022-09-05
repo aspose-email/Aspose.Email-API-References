@@ -1,14 +1,14 @@
 ---
 title: VCardDeliveryAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 枚举 vCard 发送地址类型
+description: 枚举 vCard 投递地址 types
 type: docs
-weight: 19570
+weight: 19600
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddresstype/
 ---
 ## VCardDeliveryAddressType enumeration
 
-枚举 vCard 发送地址类型
+枚举 vCard 投递地址 types
 
 ```csharp
 [Flags]
@@ -21,11 +21,11 @@ public enum VCardDeliveryAddressType
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
 | POSTAL | `1` | 邮寄地址 |
-| PREF | `2` | 首选收货地址 |
+| PREF | `2` | 首选送货地址 |
 | DOM | `4` | 国内地址 |
-| PARCEL | `8` | 包裹投递地址 |
-| HOME | `10` | 送货上门地址 |
-| WORK | `20` | 工作交付地址 |
+| PARCEL | `8` | 一个包裹派送地址 |
+| HOME | `10` | 一个送货上门地址 |
+| WORK | `20` | 一个工作交付地址 |
 | INTL | `40` | 国际地址 |
 
 ### 也可以看看

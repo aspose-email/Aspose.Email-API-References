@@ -1,14 +1,14 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 SmtpFailedRecipientsExceptionaspose.email.clients.smtp/smtpfailedrecipientsexception 类的新实例
+description: 初始化SmtpFailedRecipientsExceptionaspose.email.clients.smtp/smtpfailedrecipientsexception class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp/smtpfailedrecipientsexception/smtpfailedrecipientsexception/
 ---
 ## SmtpFailedRecipientsException() {#constructor}
 
-初始化 [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) 类的新实例
+初始化[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
 ```csharp
 public SmtpFailedRecipientsException()
@@ -24,7 +24,7 @@ public SmtpFailedRecipientsException()
 
 ## SmtpFailedRecipientsException(string) {#constructor_1}
 
-初始化 [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) 类的新实例
+初始化[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
 ```csharp
 public SmtpFailedRecipientsException(string message)
@@ -44,7 +44,7 @@ public SmtpFailedRecipientsException(string message)
 
 ## SmtpFailedRecipientsException(string, Exception) {#constructor_3}
 
-初始化 [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) 类的新实例
+初始化[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
 ```csharp
 public SmtpFailedRecipientsException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public SmtpFailedRecipientsException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中为 Nothing）。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 
@@ -65,7 +65,7 @@ public SmtpFailedRecipientsException(string message, Exception innerException)
 
 ## SmtpFailedRecipientsException(string, SmtpFailedRecipientException[]) {#constructor_2}
 
-初始化 [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) 类的新实例
+初始化[`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
 ```csharp
 public SmtpFailedRecipientsException(string message, SmtpFailedRecipientException[] innerExceptions)
@@ -73,7 +73,7 @@ public SmtpFailedRecipientsException(string message, SmtpFailedRecipientExceptio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息 |
+| message | String | 错误信息 |
 | innerExceptions | SmtpFailedRecipientException[] | 导致当前异常的异常列表。 |
 
 ### 也可以看看

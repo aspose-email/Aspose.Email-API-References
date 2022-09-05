@@ -1,14 +1,14 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API 参考
-description: 检索PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor对象
+description: 检索PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptorobject
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/propertydescriptor/getinstance/
 ---
 ## GetInstance(int, PropertyDataType) {#getinstance_2}
 
-检索[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)对象
+检索[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType dataType)
@@ -17,11 +17,11 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | id | Int32 | 属性 ID |
-| dataType | PropertyDataType | 属性数据类型 |
+| dataType | PropertyDataType | 属性的数据类型 |
 
 ### 返回值
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)对象
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)目的
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ## GetInstance(long) {#getinstance_3}
 
-检索[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)对象
+检索[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(long tag)
@@ -43,11 +43,11 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tag | Int64 | 属性标记 |
+| tag | Int64 | 属性的标记 |
 
 ### 返回值
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)目的
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ## GetInstance(long, PropertyDataType, Guid) {#getinstance}
 
-检索[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)对象
+检索[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)object
 
 ```csharp
 public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType dataType, 
@@ -75,7 +75,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ### 返回值
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)object
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)目的
 
 ### 也可以看看
 
@@ -89,7 +89,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ## GetInstance(string, PropertyDataType, Guid) {#getinstance_1}
 
-检索[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)对象
+检索[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)object
 
 ```csharp
 public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataType dataType, 
@@ -98,13 +98,13 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性名称 |
-| dataType | PropertyDataType | 属性数据类型 |
+| name | String | 物业名称 |
+| dataType | PropertyDataType | 属性的数据类型 |
 | propertySet | Guid | 属性的 PropertySet |
 
 ### 返回值
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)object
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)目的
 
 ### 也可以看看
 
@@ -118,7 +118,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 ## GetInstance(MapiProperty) {#getinstance_4}
 
-从 MAPI 属性中检索 [`PropertyDescriptor`](../../propertydescriptor) 对象
+检索[`PropertyDescriptor`](../../propertydescriptor)来自 MAPI property 的对象
 
 ```csharp
 public static PropertyDescriptor GetInstance(MapiProperty property)
@@ -126,7 +126,7 @@ public static PropertyDescriptor GetInstance(MapiProperty property)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| property | MapiProperty | [`MapiProperty`](../../mapiproperty) 对象 |
+| property | MapiProperty | [`MapiProperty`](../../mapiproperty)目的 |
 
 ### 也可以看看
 

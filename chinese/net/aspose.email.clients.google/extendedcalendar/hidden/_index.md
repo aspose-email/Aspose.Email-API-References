@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Aspose.Email for .NET API 参考
-description: 日历是否已从列表中隐藏 默认为假
+description: 日历是否已从列表中隐藏 默认为 False
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.google/extendedcalendar/hidden/
 ---
 ## ExtendedCalendar.Hidden property
 
-日历是否已从列表中隐藏。 默认为假。
+日历是否已从列表中隐藏。 默认为 False。
 
 ```csharp
 public virtual bool Hidden { get; set; }

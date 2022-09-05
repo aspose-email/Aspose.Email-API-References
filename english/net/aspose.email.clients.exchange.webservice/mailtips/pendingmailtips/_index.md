@@ -1,7 +1,7 @@
 ---
 title: PendingMailTips
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the mail tips in this element could not be evaluated before the servers processing timeout expired.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/mailtips/pendingmailtips/

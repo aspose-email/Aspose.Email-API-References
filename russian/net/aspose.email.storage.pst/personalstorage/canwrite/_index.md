@@ -1,14 +1,14 @@
 ---
 title: CanWrite
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее поддерживает ли запись текущий pst.
+description: Получает значение указывающее поддерживает ли текущий pst запись.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.storage.pst/personalstorage/canwrite/
 ---
 ## PersonalStorage.CanWrite property
 
-Получает значение, указывающее, поддерживает ли запись текущий pst.
+Получает значение, указывающее, поддерживает ли текущий pst запись.
 
 ```csharp
 public bool CanWrite { get; }

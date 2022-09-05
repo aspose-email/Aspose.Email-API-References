@@ -1,14 +1,14 @@
 ---
 title: RevisionNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает номер версии файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameRevisionNumber Альтернативные именаurnschemas-microsoft-comofficeofficeRevision
+description: Указывает номер версии файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameRevisionNumber Альтернативные имена urnschemas-microsoft-comofficeofficeRevision
 type: docs
 weight: 16280
 url: /ru/net/aspose.email.mapi/knownpropertylist/revisionnumber/
 ---
 ## KnownPropertyList.RevisionNumber field
 
-Задает номер версии файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameRevisionNumber Альтернативные имена:urn:schemas-microsoft-com:office:office#Revision
+Указывает номер версии файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameRevisionNumber Альтернативные имена: urn:schemas-microsoft-com:office:office#Revision
 
 ```csharp
 public static readonly PidNamePropertyDescriptor RevisionNumber;

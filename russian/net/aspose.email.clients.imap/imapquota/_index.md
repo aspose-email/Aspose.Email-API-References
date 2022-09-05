@@ -19,7 +19,7 @@ public class ImapQuota
 | Имя | Описание |
 | --- | --- |
 | [Limit](../../aspose.email.clients.imap/imapquota/limit) { get; } | Получает лимит ресурса |
-| [QuotaRootName](../../aspose.email.clients.imap/imapquota/quotarootname) { get; } | Получает имя корня qupta |
+| [QuotaRootName](../../aspose.email.clients.imap/imapquota/quotarootname) { get; } | Получает имя корня квапты |
 | [ResourceName](../../aspose.email.clients.imap/imapquota/resourcename) { get; } | Получает имя ресурса |
 | [Used](../../aspose.email.clients.imap/imapquota/used) { get; } | Получает использование ресурса |
 

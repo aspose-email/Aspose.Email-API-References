@@ -1,7 +1,7 @@
 ---
 title: GetSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the subfolder by name.
 type: docs
 weight: 80
 url: /net/aspose.email.storage.olm/olmfolder/getsubfolder/

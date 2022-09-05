@@ -1,14 +1,14 @@
 ---
 title: VCardSound
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойство звука vCard
+description: Представляет звуковое свойство vCard
 type: docs
-weight: 19700
+weight: 19750
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsound/
 ---
 ## VCardSound class
 
-Представляет свойство звука vCard
+Представляет звуковое свойство vCard
 
 ```csharp
 public sealed class VCardSound
@@ -18,16 +18,16 @@ public sealed class VCardSound
 
 | Имя | Описание |
 | --- | --- |
-| [VCardSound](vcardsound)() | Инициализирует новый экземпляр класса[`VCardSound`](../vcardsound) |
+| [VCardSound](vcardsound)() | Инициализирует новый экземпляр[`VCardSound`](../vcardsound) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.email.personalinfo.vcard/vcardsound/data) { get; set; } | Получает или устанавливает звуковые данные (` null` ifvalueLocationis not` inline` ) |
-| [SoundType](../../aspose.email.personalinfo.vcard/vcardsound/soundtype) { get; set; } | Получает или устанавливает тип звука |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardsound/uri) { get; set; } | Получает или задает uri звука (` null` ifvalueLocationis` встроенный` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardsound/valuelocation) { get; set; } | Получает или задает местоположение значения |
+| [Data](../../aspose.email.personalinfo.vcard/vcardsound/data) { get; set; } | Получает или устанавливает звуковые данные (`нулевой` еслиvalueLocation не является`в соответствии`) |
+| [SoundType](../../aspose.email.personalinfo.vcard/vcardsound/soundtype) { get; set; } | Получает или задает тип звука |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardsound/uri) { get; set; } | Получает или задает uri звука (`нулевой` еслиvalueLocation является`в соответствии`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardsound/valuelocation) { get; set; } | Получает или задает значение location |
 
 ### Смотрите также
 

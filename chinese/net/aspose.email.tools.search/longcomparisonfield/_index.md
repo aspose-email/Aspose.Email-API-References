@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示 Int64 搜索字段
 type: docs
-weight: 20680
+weight: 20730
 url: /zh/net/aspose.email.tools.search/longcomparisonfield/
 ---
 ## LongComparisonField class
@@ -23,7 +23,7 @@ public sealed class LongComparisonField : ComparisonField
 | [GreaterOrEqual](../../aspose.email.tools.search/longcomparisonfield/greaterorequal)(long) | 表示该字段必须大于或等于指定值。 |
 | [Less](../../aspose.email.tools.search/longcomparisonfield/less)(long) | 表示该字段必须小于指定值。 |
 | [LessOrEqual](../../aspose.email.tools.search/longcomparisonfield/lessorequal)(long) | 表示该字段必须小于或等于指定值。 |
-| [NotEquals](../../aspose.email.tools.search/longcomparisonfield/notequals)(long) | 表示该字段不能是 等于指定值。 |
+| [NotEquals](../../aspose.email.tools.search/longcomparisonfield/notequals)(long) | 表示该字段不能 等于指定值。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 
 ### 也可以看看

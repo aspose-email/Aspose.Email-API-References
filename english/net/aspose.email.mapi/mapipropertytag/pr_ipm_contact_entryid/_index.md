@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_CONTACT_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Contacts folder.
 type: docs
 weight: 13100
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_contact_entryid/

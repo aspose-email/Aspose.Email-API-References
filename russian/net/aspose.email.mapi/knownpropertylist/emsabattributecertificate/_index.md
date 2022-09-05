@@ -1,14 +1,14 @@
 ---
 title: EmsAbAttributeCertificate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ATTRIBUTE_CERTIFICATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ATTRIBUTE_CERTIFICATE
 type: docs
 weight: 4740
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabattributecertificate/
 ---
 ## KnownPropertyList.EmsAbAttributeCertificate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ATTRIBUTE_CERTIFICATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ATTRIBUTE_CERTIFICATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAttributeCertificate;

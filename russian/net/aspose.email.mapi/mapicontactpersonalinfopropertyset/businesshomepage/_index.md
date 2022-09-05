@@ -1,14 +1,14 @@
 ---
 title: BusinessHomePage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес корпоративной веб-страницы контакта
+description: Указывает URL-адрес бизнес-веб-страницы контакта
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage/
 ---
 ## MapiContactPersonalInfoPropertySet.BusinessHomePage property
 
-Указывает URL-адрес корпоративной веб-страницы контакта
+Указывает URL-адрес бизнес-веб-страницы контакта
 
 ```csharp
 public string BusinessHomePage { get; set; }

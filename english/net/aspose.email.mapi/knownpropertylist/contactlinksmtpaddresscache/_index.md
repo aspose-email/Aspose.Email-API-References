@@ -1,7 +1,7 @@
 ---
 title: ContactLinkSMTPAddressCache
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of the SMTP addresses that are used by the contact. Area Contact Properties Canonical name PidLidContactLinkSMTPAddressCache Alternate names dispidContactLinkSMTPAddressCache
 type: docs
 weight: 3030
 url: /net/aspose.email.mapi/knownpropertylist/contactlinksmtpaddresscache/

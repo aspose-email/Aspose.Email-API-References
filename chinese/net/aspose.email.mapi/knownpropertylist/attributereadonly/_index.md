@@ -1,14 +1,14 @@
 ---
 title: AttributeReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否可以修改或删除项目 区域访问控制属性 规范名称PidTagAttributeReadOnly 备用名称PR_ATTR_READONLY ptagAttrReadonly DAVisreadonly
+description: 指示是否可以修改或删除项目 区域访问控制属性 规范名称PidTagAttributeReadOnly 备用名称PR_ATTR_READONLYptagAttrReadonlyDAVisreadonly
 type: docs
 weight: 1840
 url: /zh/net/aspose.email.mapi/knownpropertylist/attributereadonly/
 ---
 ## KnownPropertyList.AttributeReadOnly field
 
-指示是否可以修改或删除项目。 区域:访问控制属性 规范名称:PidTagAttributeReadOnly 备用名称:PR_ATTR_READONLY, ptagAttrReadonly, DAV:isreadonly
+指示是否可以修改或删除项目。 区域：访问控制属性 规范名称：PidTagAttributeReadOnly 备用名称：PR_ATTR_READONLY、ptagAttrReadonly、DAV:isreadonly
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttributeReadOnly;

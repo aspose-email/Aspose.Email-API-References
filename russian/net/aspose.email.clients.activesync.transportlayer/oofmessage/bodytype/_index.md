@@ -1,14 +1,14 @@
 ---
 title: BodyType
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает формат сообщения OOF. Ниже приведены допустимые значения для элемента BodyType - Text - HTML
+description: Определяет формат сообщения OOF. Ниже приведены допустимые значения для элемента BodyType - Text - HTML
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/oofmessage/bodytype/
 ---
 ## OOFMessage.BodyType property
 
-Задает формат сообщения OOF. Ниже приведены допустимые значения для элемента BodyType: - Text - HTML
+Определяет формат сообщения OOF. Ниже приведены допустимые значения для элемента BodyType: - Text - HTML
 
 ```csharp
 public BodyType? BodyType { get; set; }

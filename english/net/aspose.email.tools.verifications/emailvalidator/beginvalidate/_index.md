@@ -1,7 +1,7 @@
 ---
 title: BeginValidate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Begins an asynchronous validating process for an email address.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.verifications/emailvalidator/beginvalidate/

@@ -1,7 +1,7 @@
 ---
 title: InputType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set input type of field.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/formfield/inputtype/

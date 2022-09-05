@@ -1,7 +1,7 @@
 ---
 title: AddressBookDistributionListMemberCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the total number of recipients in the distribution list. Area Address Book Canonical name PidTagAddressBookDistributionListMemberCount Alternate names PR_EMS_AB_DL_TOTAL_MEMBER_COUNT
 type: docs
 weight: 400
 url: /net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistmembercount/

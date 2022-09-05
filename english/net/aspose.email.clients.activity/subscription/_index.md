@@ -1,7 +1,7 @@
 ---
 title: Subscription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Object contains information about subscription together with the associated webhook.
 type: docs
 weight: 2780
 url: /net/aspose.email.clients.activity/subscription/

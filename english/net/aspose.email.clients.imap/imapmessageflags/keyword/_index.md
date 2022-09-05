@@ -1,7 +1,7 @@
 ---
 title: Keyword
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message has been marked by custom flag.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/imapmessageflags/keyword/

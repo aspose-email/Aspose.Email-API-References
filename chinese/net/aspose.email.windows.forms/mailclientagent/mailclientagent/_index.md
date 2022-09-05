@@ -1,14 +1,14 @@
 ---
 title: MailClientAgent
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailClientAgentaspose.email.windows.forms/mailclientagent类的新实例
+description: 初始化MailClientAgentaspose.email.windows.forms/mailclientagent类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.windows.forms/mailclientagent/mailclientagent/
 ---
 ## MailClientAgent constructor
 
-初始化[`MailClientAgent`](../../mailclientagent)类的新实例。
+初始化[`MailClientAgent`](../../mailclientagent)类.
 
 ```csharp
 public MailClientAgent()

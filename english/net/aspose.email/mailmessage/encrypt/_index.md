@@ -1,12 +1,12 @@
 ---
 title: Encrypt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Encrypts this message
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.email/mailmessage/encrypt/
 ---
-## MailMessage.Encrypt method (1 of 2)
+## Encrypt(X509Certificate2) {#encrypt}
 
 Encrypts this message
 
@@ -30,7 +30,7 @@ Encrypted email message
 
 ---
 
-## MailMessage.Encrypt method (2 of 2)
+## Encrypt(X509Certificate2[]) {#encrypt_1}
 
 Encrypts this message
 

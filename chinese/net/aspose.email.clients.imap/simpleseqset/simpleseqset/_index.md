@@ -1,14 +1,14 @@
 ---
 title: SimpleSeqSet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SimpleSeqSetaspose.email.clients.imap/simpleseqset类的新实例
+description: 初始化SimpleSeqSetaspose.email.clients.imap/simpleseqset类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/simpleseqset/simpleseqset/
 ---
 ## SimpleSeqSet() {#constructor}
 
-初始化[`SimpleSeqSet`](../../simpleseqset)类的新实例。
+初始化[`SimpleSeqSet`](../../simpleseqset)类.
 
 ```csharp
 public SimpleSeqSet()
@@ -24,7 +24,7 @@ public SimpleSeqSet()
 
 ## SimpleSeqSet(string) {#constructor_1}
 
-初始化[`SimpleSeqSet`](../../simpleseqset)类的新实例。
+初始化[`SimpleSeqSet`](../../simpleseqset)类.
 
 ```csharp
 public SimpleSeqSet(string value)
@@ -32,7 +32,7 @@ public SimpleSeqSet(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 要搜索的值 |
+| value | String | 搜索价值 |
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: DataType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The property value type as described in MSOXCDATA that specifies the type of values allowed for the property.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/propertydescriptor/datatype/

@@ -1,7 +1,7 @@
 ---
 title: NonReceiptNotificationRequested
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client sends a nonread receipt. Area Email Canonical name PidTagNonReceiptNotificationRequested Alternate names PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 type: docs
 weight: 12990
 url: /net/aspose.email.mapi/knownpropertylist/nonreceiptnotificationrequested/

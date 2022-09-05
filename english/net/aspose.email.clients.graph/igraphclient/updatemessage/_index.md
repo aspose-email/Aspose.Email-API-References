@@ -1,12 +1,12 @@
 ---
 title: UpdateMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates message
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email.clients.graph/igraphclient/updatemessage/
 ---
-## IGraphClient.UpdateMessage method (1 of 2)
+## UpdateMessage(MapiMessage) {#updatemessage}
 
 Updates message
 
@@ -31,7 +31,7 @@ Updated message
 
 ---
 
-## IGraphClient.UpdateMessage method (2 of 2)
+## UpdateMessage(MapiMessage, UpdateSettings) {#updatemessage_1}
 
 Updates message
 

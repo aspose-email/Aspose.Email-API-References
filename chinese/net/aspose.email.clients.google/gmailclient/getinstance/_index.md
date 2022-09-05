@@ -21,7 +21,7 @@ public static IGmailClient GetInstance(string accessToken, string defaultEmail)
 
 ### 返回值
 
-返回 Gmail 客户端实例
+返回 Gmail 客户端的实例
 
 ### 也可以看看
 
@@ -43,12 +43,12 @@ public static IGmailClient GetInstance(string accessToken, IWebProxy proxy, stri
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | accessToken | String | OAuth 2.0 访问令牌 |
-| proxy | IWebProxy | Gmail 客户端的 IWebProxy |
+| proxy | IWebProxy | 用于 Gmail 客户端的 IWebProxy |
 | defaultEmail | String | 默认电子邮件地址 |
 
 ### 返回值
 
-返回 Gmail 客户端实例
+返回 Gmail 客户端的实例
 
 ### 也可以看看
 
@@ -70,14 +70,14 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientId | String | 获取的客户端 ID应用程序注册期间的 Google Cloud Console。 |
-| clientSecret | String | 应用注册时获取的客户端密钥。 |
+| clientId | String | 在应用注册期间从 Google Cloud Console 获取的客户端 ID。 |
+| clientSecret | String | 应用注册时获取的客户端密码。 |
 | refreshToken | String | OAuth 2.0 刷新令牌 |
 | defaultEmail | String | 默认电子邮件地址 |
 
 ### 返回值
 
-返回 Gmail 客户端实例
+返回 Gmail 客户端的实例
 
 ### 也可以看看
 
@@ -99,15 +99,15 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientId | String | 获取的客户端 ID应用程序注册期间的 Google Cloud Console。 |
-| clientSecret | String | 应用注册时获取的客户端密钥。 |
+| clientId | String | 在应用注册期间从 Google Cloud Console 获取的客户端 ID。 |
+| clientSecret | String | 应用注册时获取的客户端密码。 |
 | refreshToken | String | OAuth 2.0 刷新令牌 |
 | proxy | IWebProxy | 用于 Gmail 客户端的 IWebProxy |
 | defaultEmail | String | 默认电子邮件地址 |
 
 ### 返回值
 
-返回 Gmail 客户端实例
+返回 Gmail 客户端的实例
 
 ### 也可以看看
 

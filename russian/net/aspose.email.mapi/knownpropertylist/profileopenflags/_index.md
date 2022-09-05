@@ -1,14 +1,14 @@
 ---
 title: ProfileOpenFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_OPEN_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_OPEN_FLAGS
 type: docs
 weight: 14850
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileopenflags/
 ---
 ## KnownPropertyList.ProfileOpenFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_OPEN_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_OPEN_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileOpenFlags;

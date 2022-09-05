@@ -1,14 +1,14 @@
 ---
 title: ImAddress1
 second_title: Aspose.Email for .NET API 参考
-description: ImAddress1 信使种类
+description: ImAddress1 信使 kind
 type: docs
 weight: 60
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/imaddress1/
 ---
 ## InstantMessengerCategory.ImAddress1 property
 
-ImAddress1 信使种类
+ImAddress1 信使 kind
 
 ```csharp
 public static InstantMessengerCategory ImAddress1 { get; }

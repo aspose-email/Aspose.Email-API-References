@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает перечислитель который перебирает коллекцию.
+description: Возвращает перечислитель который выполняет итерацию по коллекции.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.mapi/knownpropertylist/getenumerator/
 ---
 ## KnownPropertyList.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<PropertyDescriptor> GetEnumerator()

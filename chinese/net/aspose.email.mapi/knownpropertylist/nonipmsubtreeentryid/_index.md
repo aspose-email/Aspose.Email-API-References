@@ -1,14 +1,14 @@
 ---
 title: NonIpmSubtreeEntryid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_NON_IPM_SUBTREE_ENTRYID
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_NON_IPM_SUBTREE_ENTRYID
 type: docs
 weight: 12980
 url: /zh/net/aspose.email.mapi/knownpropertylist/nonipmsubtreeentryid/
 ---
 ## KnownPropertyList.NonIpmSubtreeEntryid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_NON_IPM_SUBTREE_ENTRYID
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_NON_IPM_SUBTREE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonIpmSubtreeEntryid;

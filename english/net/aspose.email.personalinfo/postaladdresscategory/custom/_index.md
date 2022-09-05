@@ -1,7 +1,7 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines a type of an address as an address of type other.
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/postaladdresscategory/custom/

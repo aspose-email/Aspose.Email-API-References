@@ -1,14 +1,14 @@
 ---
 title: WlinkAddressBookEID
 second_title: Aspose.Email for .NET API 参考
-description: 指定文件夹所属用户的 PidTagEntryId 属性第 2.674 节的值 区域配置 规范名称PidTagWlinkAddressBookEID 备用名称PR_WLINK_ABEID
+description: 指定文件夹所属用户的 PidTagEntryId 属性第 2.674 节的值 区域Configuration 规范名称PidTagWlinkAddressBookEID 备用名称PR_WLINK_ABEID
 type: docs
 weight: 19370
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkaddressbookeid/
 ---
 ## KnownPropertyList.WlinkAddressBookEID field
 
-指定文件夹所属用户的 PidTagEntryId 属性（第 2.674 节）的值。 区域:配置 规范名称:PidTagWlinkAddressBookEID 备用名称:PR_WLINK_ABEID
+指定文件夹所属用户的 PidTagEntryId 属性（第 2.674 节）的值。 区域：Configuration 规范名称：PidTagWlinkAddressBookEID 备用名称：PR_WLINK_ABEID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkAddressBookEID;

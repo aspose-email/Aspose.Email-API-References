@@ -1,14 +1,14 @@
 ---
 title: LocationUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: ОбластьКалендарь Каноническое имяPidNameLocationUrl Альтернативные именаurnschemasкалендарьlocationurl LocationUrl
+description: Область Calendar Каноническое имя PidNameLocationUrl Альтернативные имена urnschemascalendarlocationurl LocationUrl
 type: docs
 weight: 12200
 url: /ru/net/aspose.email.mapi/knownpropertylist/locationurl/
 ---
 ## KnownPropertyList.LocationUrl field
 
-Область:Календарь Каноническое имя:PidNameLocationUrl Альтернативные имена:urn:schemas:календарь:locationurl, LocationUrl
+Область: Calendar Каноническое имя: PidNameLocationUrl Альтернативные имена: urn:schemas:calendar:locationurl, LocationUrl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LocationUrl;

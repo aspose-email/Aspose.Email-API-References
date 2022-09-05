@@ -16,15 +16,15 @@ public static void RemoveVotingButton(MapiMessage message, string displayName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение[`MapiMessage`](../../mapimessage)в котором удалена кнопка голосования . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором кнопка голосования удалена. |
 | displayName | String | Отображаемое имя кнопки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentException | Если*displayName*равно null или пусто. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentException | Если*displayName* является нулевым или пустым. |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SmtpFailedRecipientsExceptionaspose.email.clients.smtp/smtpfailedrecipientsexception class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientsexception/smtpfailedrecipientsexception/
 ---
-## SmtpFailedRecipientsException constructor (1 of 4)
+## SmtpFailedRecipientsException() {#constructor}
 
 Initializes a new instance of the [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
@@ -22,7 +22,7 @@ public SmtpFailedRecipientsException()
 
 ---
 
-## SmtpFailedRecipientsException constructor (2 of 4)
+## SmtpFailedRecipientsException(string) {#constructor_1}
 
 Initializes a new instance of the [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
@@ -42,7 +42,7 @@ public SmtpFailedRecipientsException(string message)
 
 ---
 
-## SmtpFailedRecipientsException constructor (3 of 4)
+## SmtpFailedRecipientsException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 
@@ -63,7 +63,7 @@ public SmtpFailedRecipientsException(string message, Exception innerException)
 
 ---
 
-## SmtpFailedRecipientsException constructor (4 of 4)
+## SmtpFailedRecipientsException(string, SmtpFailedRecipientException[]) {#constructor_2}
 
 Initializes a new instance of the [`SmtpFailedRecipientsException`](../../smtpfailedrecipientsexception) class
 

@@ -1,7 +1,7 @@
 ---
 title: UpdateAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates appointment.
 type: docs
 weight: 660
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updateappointmentasync/

@@ -20,7 +20,7 @@ public bool Remove(long key)
 
 ### 返回值
 
-如果属性被成功删除，则为 true；否则为假。
+如果属性已成功删除，则为 true；否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Remove(long key)
 
 ## Remove(PropertyDescriptor) {#remove}
 
-从集合中移除具有指定属性描述符的属性。
+从集合中删除具有指定属性描述符的属性。
 
 ```csharp
 public bool Remove(PropertyDescriptor pd)
@@ -40,11 +40,11 @@ public bool Remove(PropertyDescriptor pd)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pd | PropertyDescriptor | 要删除的属性的属性描述符。 |
+| pd | PropertyDescriptor | 要移除的属性的属性描述符。 |
 
 ### 返回值
 
-如果属性被成功删除，则为 true；否则为假。
+如果属性已成功删除，则为 true；否则为假。
 
 ### 也可以看看
 

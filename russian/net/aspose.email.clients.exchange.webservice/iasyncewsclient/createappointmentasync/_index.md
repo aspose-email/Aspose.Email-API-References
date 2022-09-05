@@ -17,9 +17,9 @@ public Task<string> CreateAppointmentAsync(Appointment appointment, string folde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ServerVersion
 second_title: Aspose.Email for .NET API 参考
-description: 获取有关 MS Exchange 当前版本的信息
+description: 获取有关 MS Exchange 的当前版本的信息
 type: docs
 weight: 190
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/serverversion/
 ---
 ## IEWSClient.ServerVersion property
 
-获取有关 MS Exchange 当前版本的信息。
+获取有关 MS Exchange 的当前版本的信息。
 
 ```csharp
 public ExchangeVersion ServerVersion { get; }

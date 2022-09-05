@@ -24,12 +24,12 @@ public class AccountInformation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AccountId](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountid) { get; set; } | 标识一个帐户。 PrimarySmtpAddress 元素标识的主帐户没有 AccountId 值。 协议版本为 12.1 或 14.0 时不支持 AccountId。 |
-| [AccountName](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountname) { get; set; } | 指定给定帐户的友好名称。 AccountName 值是一个最长为 512 个字符的字符串值。 协议版本为 12.1 或 14.0 时不支持 AccountName。 |
-| [PrimarySmtpAddress](../../aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress) { get; set; } | 指定给定帐户的主 SMTP 地址。 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回。 协议版本为 12.1 或 14.0 时不支持 PrimarySmtpAddress。 |
-| [SendDisabled](../../aspose.email.clients.activesync.transportlayer/accountinformation/senddisabled) { get; set; } | 指定客户端是否可以使用给定帐户发送消息。 如果客户端无法使用给定帐户发送，则 SendDisabled 的值为 TRUE；否则，错误。 协议版本为 12.1 或 14.0 时不支持 SendDisabled。 |
+| [AccountId](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountid) { get; set; } | 标识一个账户。 由 PrimarySmtpAddress 元素标识的主账户没有 AccountId 值。 当协议版本为 12.1 或 14.0 时，不支持 AccountId。 |
+| [AccountName](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountname) { get; set; } | 指定给定帐户的友好名称。 AccountName 值是长度最多为 512 个字符的字符串值。 当协议版本为 12.1 或 14.0 时，不支持 AccountName。 |
+| [PrimarySmtpAddress](../../aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress) { get; set; } | 指定给定帐户的主 SMTP 地址。 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回。 当协议版本为 12.1 或 14.0 时，不支持 PrimarySmtpAddress。 |
+| [SendDisabled](../../aspose.email.clients.activesync.transportlayer/accountinformation/senddisabled) { get; set; } | 指定客户端是否可以使用给定帐户发送消息。 如果客户端无法使用给定帐户发送消息，则 SendDisabled 的值为 TRUE；否则，FALSE. 当协议版本为 12.1 或 14.0. 时，不支持 SendDisabled |
 | [SMTPAddresses](../../aspose.email.clients.activesync.transportlayer/accountinformation/smtpaddresses) { get; } | 指定用户的电子邮件地址之一。 |
-| [UserDisplayName](../../aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname) { get; set; } | 指定与给定帐户关联的用户的显示名称。 UserDisplayName 值最长可达 512 个字符。 协议版本为 12.1 或 14.0 时不支持 UserDisplayName。 |
+| [UserDisplayName](../../aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname) { get; set; } | 指定与给定帐户关联的用户的显示名称。 UserDisplayName 值最长可达 512 个字符。 当协议版本为 12.1 或 14.0 时，不支持 UserDisplayName。 |
 
 ### 也可以看看
 

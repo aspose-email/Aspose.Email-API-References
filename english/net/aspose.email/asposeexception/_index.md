@@ -1,7 +1,7 @@
 ---
 title: AsposeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base exception type for Aspose.Email Represents errors that occur during application execution.
 type: docs
 weight: 300
 url: /net/aspose.email/asposeexception/
@@ -18,12 +18,12 @@ public class AsposeException : Exception
 
 | Name | Description |
 | --- | --- |
-| [AsposeException](asposeexception)() | Initializes a new instance of the [`AsposeException`](../asposeexception) class. |
-| [AsposeException](asposeexception)(Exception) |  |
-| [AsposeException](asposeexception)(string) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message. |
-| [AsposeException](asposeexception)(string, Exception) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeException](asposeexception)(string, params object[]) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message. |
-| [AsposeException](asposeexception)(string, string) |  |
+| [AsposeException](asposeexception#constructor)() | Initializes a new instance of the [`AsposeException`](../asposeexception) class. |
+| [AsposeException](asposeexception#constructor_1)(Exception) |  |
+| [AsposeException](asposeexception#constructor_2)(string) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message. |
+| [AsposeException](asposeexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeException](asposeexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message. |
+| [AsposeException](asposeexception#constructor_5)(string, string) |  |
 
 ## Properties
 

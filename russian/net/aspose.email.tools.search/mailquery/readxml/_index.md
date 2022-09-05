@@ -16,7 +16,7 @@ public virtual void ReadXml(XmlReader reader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| reader | XmlReader | ПотокXmlReader, из которого десериализуется объект. |
+| reader | XmlReader | XmlReader поток, из которого десериализуется объект. |
 
 ### Смотрите также
 

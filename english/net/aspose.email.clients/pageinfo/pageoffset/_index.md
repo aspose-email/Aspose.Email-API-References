@@ -1,7 +1,7 @@
 ---
 title: PageOffset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets offset of a page
 type: docs
 weight: 60
 url: /net/aspose.email.clients/pageinfo/pageoffset/

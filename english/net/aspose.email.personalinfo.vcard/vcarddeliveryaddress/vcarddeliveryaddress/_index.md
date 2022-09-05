@@ -1,7 +1,7 @@
 ---
 title: VCardDeliveryAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardDeliveryAddressaspose.email.personalinfo.vcard/vcarddeliveryaddress class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/vcarddeliveryaddress/

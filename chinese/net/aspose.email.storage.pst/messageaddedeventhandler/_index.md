@@ -1,14 +1,14 @@
 ---
 title: MessageAddedEventHandler
 second_title: Aspose.Email for .NET API 参考
-description: 表示将处理MessageAdded./folderinfo/messageadded事件的方法
+description: 表示将处理MessageAdded./folderinfo/messageadded事件.
 type: docs
-weight: 20190
+weight: 20240
 url: /zh/net/aspose.email.storage.pst/messageaddedeventhandler/
 ---
 ## MessageAddedEventHandler delegate
 
-表示将处理[`MessageAdded`](../folderinfo/messageadded)事件的方法。
+表示将处理[`MessageAdded`](../folderinfo/messageadded)事件.
 
 ```csharp
 public delegate void MessageAddedEventHandler(object sender, MessageAddedEventArgs e);

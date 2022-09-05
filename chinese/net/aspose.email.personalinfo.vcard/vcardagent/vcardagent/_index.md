@@ -1,14 +1,14 @@
 ---
 title: VCardAgent
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardAgentaspose.email.personalinfo.vcard/vcardagent 类的新实例
+description: 初始化VCardAgentaspose.email.personalinfo.vcard/vcardagent class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardagent/vcardagent/
 ---
 ## VCardAgent constructor
 
-初始化 [`VCardAgent`](../../vcardagent) 类的新实例
+初始化[`VCardAgent`](../../vcardagent) class
 
 ```csharp
 public VCardAgent()

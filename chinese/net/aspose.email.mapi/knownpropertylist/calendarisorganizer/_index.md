@@ -1,14 +1,14 @@
 ---
 title: CalendarIsOrganizer
 second_title: Aspose.Email for .NET API 参考
-description: 指定与会者是否是约会或会议的组织者 区域通用 规范名称PidNameCalendarIsOrganizer 替代名称urnschemascalendarisorganizer
+description: 指定与会者是否是约会或会议的组织者 区域Common 规范名称PidNameCalendarIsOrganizer 备用名称urnschemascalendarisorganizer
 type: docs
 weight: 2300
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarisorganizer/
 ---
 ## KnownPropertyList.CalendarIsOrganizer field
 
-指定与会者是否是约会或会议的组织者。 区域:通用 规范名称:PidNameCalendarIsOrganizer 替代名称:urn:schemas:calendar:isorganizer
+指定与会者是否是约会或会议的组织者。 区域：Common 规范名称：PidNameCalendarIsOrganizer 备用名称：urn:schemas:calendar:isorganizer
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarIsOrganizer;

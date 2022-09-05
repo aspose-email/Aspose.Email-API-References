@@ -1,14 +1,14 @@
 ---
 title: Timeout
 second_title: Aspose.Email for .NET API 参考
-description: 以毫秒为单位限制格式化消息的时间同时以 Mht 格式保存 默认值 3 sek
+description: 以毫秒为单位限制格式化消息的时间同时保存在 Mht. 默认值 3 sek.
 type: docs
 weight: 80
 url: /zh/net/aspose.email/mhtsaveoptions/timeout/
 ---
 ## MhtSaveOptions.Timeout property
 
-以毫秒为单位限制格式化消息的时间，同时以 Mht 格式保存。 默认值 3 sek。
+以毫秒为单位限制格式化消息的时间，同时保存在 Mht. 默认值 3 sek.
 
 ```csharp
 public int Timeout { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: IsRoutineRegistered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines if a name of template routine is registered in the template engine.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.merging/templateengine/isroutineregistered/

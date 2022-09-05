@@ -1,12 +1,12 @@
 ---
 title: Print
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Prints the specified MSG object using the desired format.
 type: docs
 weight: 130
 url: /net/aspose.email.printing/mailprinter/print/
 ---
-## MailPrinter.Print method (1 of 4)
+## Print(MapiMessage, string, PrintFormat) {#print_3}
 
 Prints the specified MSG object using the desired format.
 
@@ -38,7 +38,7 @@ public void Print(MapiMessage message, string outputFile, PrintFormat printingFo
 
 ---
 
-## MailPrinter.Print method (2 of 4)
+## Print(MapiMessage, Stream, PrintFormat) {#print_2}
 
 Prints the specified MSG object using the desired format.
 
@@ -70,7 +70,7 @@ public void Print(MapiMessage message, Stream outputStream, PrintFormat printing
 
 ---
 
-## MailPrinter.Print method (3 of 4)
+## Print(MailMessage, string, PrintFormat) {#print_1}
 
 Prints the specified message object using the desired format.
 
@@ -102,7 +102,7 @@ public void Print(MailMessage message, string outputFile, PrintFormat printingFo
 
 ---
 
-## MailPrinter.Print method (4 of 4)
+## Print(MailMessage, Stream, PrintFormat) {#print}
 
 Prints the specified message object using the desired format.
 

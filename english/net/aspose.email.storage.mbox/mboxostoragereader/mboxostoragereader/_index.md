@@ -1,12 +1,12 @@
 ---
 title: MboxoStorageReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MboxoStorageReaderaspose.email.storage.mbox/mboxostoragereader class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxostoragereader/mboxostoragereader/
 ---
-## MboxoStorageReader constructor (1 of 2)
+## MboxoStorageReader(Stream, MboxLoadOptions) {#constructor}
 
 Initializes a new instance of the [`MboxoStorageReader`](../../mboxostoragereader) class.
 
@@ -34,7 +34,7 @@ public MboxoStorageReader(Stream stream, MboxLoadOptions options)
 
 ---
 
-## MboxoStorageReader constructor (2 of 2)
+## MboxoStorageReader(string, MboxLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`MboxrdStorageReader`](../../mboxrdstoragereader) class.
 

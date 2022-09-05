@@ -1,14 +1,14 @@
 ---
 title: GetPropertyBoolean
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение свойства указанного тегом как булев тип.
+description: Получает значение свойства указанного тегом в виде логического типа.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapipropertycontainer/getpropertyboolean/
 ---
 ## MapiPropertyContainer.GetPropertyBoolean method
 
-Получает значение свойства, указанного тегом, как булев тип.
+Получает значение свойства, указанного тегом, в виде логического типа.
 
 ```csharp
 public bool? GetPropertyBoolean(long tag)
@@ -20,7 +20,7 @@ public bool? GetPropertyBoolean(long tag)
 
 ### Возвращаемое значение
 
-Значение свойства. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
+Стоимость имущества. Если свойство не существует, возвращает NULL; в противном случае возвращает значение.
 
 ### Смотрите также
 

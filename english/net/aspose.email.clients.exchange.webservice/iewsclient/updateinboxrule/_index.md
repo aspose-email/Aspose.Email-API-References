@@ -1,12 +1,12 @@
 ---
 title: UpdateInboxRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified inbox rule
 type: docs
 weight: 1480
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updateinboxrule/
 ---
-## IEWSClient.UpdateInboxRule method (1 of 2)
+## UpdateInboxRule(InboxRule) {#updateinboxrule}
 
 Updates the specified inbox rule
 
@@ -33,7 +33,7 @@ public void UpdateInboxRule(InboxRule rule)
 
 ---
 
-## IEWSClient.UpdateInboxRule method (2 of 2)
+## UpdateInboxRule(InboxRule, string) {#updateinboxrule_1}
 
 Updates the specified inbox rule
 

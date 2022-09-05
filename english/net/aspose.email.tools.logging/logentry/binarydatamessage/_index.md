@@ -1,7 +1,7 @@
 ---
 title: BinaryDataMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Binary message body to log.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/logentry/binarydatamessage/

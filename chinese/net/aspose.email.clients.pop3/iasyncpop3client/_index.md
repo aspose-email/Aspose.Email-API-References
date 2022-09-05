@@ -1,14 +1,14 @@
 ---
 title: IAsyncPop3Client
 second_title: Aspose.Email for .NET API 参考
-description: 允许应用程序使用邮局协议版本 3 POP3 访问和操作 消息
+description: 允许应用程序使用邮局协议版本 3 POP3 访问和操作 邮件
 type: docs
 weight: 16850
 url: /zh/net/aspose.email.clients.pop3/iasyncpop3client/
 ---
 ## IAsyncPop3Client interface
 
-允许应用程序使用邮局协议版本 3 (POP3) 访问和操作 消息。
+允许应用程序使用邮局协议版本 3 (POP3) 访问和操作 邮件。
 
 ```csharp
 public interface IAsyncPop3Client : IDisposable
@@ -19,9 +19,9 @@ public interface IAsyncPop3Client : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [CommitDeletesAsync](../../aspose.email.clients.pop3/iasyncpop3client/commitdeletesasync)(int, IConnection, CancellationToken) | 提交删除 |
-| [DeleteMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessageasync#deletemessageasync)(int, IConnection, CancellationToken) | 删除邮件 |
-| [DeleteMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessageasync#deletemessageasync_1)(string, IConnection, CancellationToken) | 删除邮件 |
-| [DeleteMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessagesasync)(IConnection, CancellationToken) | 删除所有邮件 |
+| [DeleteMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessageasync#deletemessageasync)(int, IConnection, CancellationToken) | 删除消息 |
+| [DeleteMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessageasync#deletemessageasync_1)(string, IConnection, CancellationToken) | 删除消息 |
+| [DeleteMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/deletemessagesasync)(IConnection, CancellationToken) | 删除所有消息 |
 | [FetchMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/fetchmessageasync#fetchmessageasync)(int, IConnection, CancellationToken) | 获取消息 |
 | [FetchMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/fetchmessageasync#fetchmessageasync_1)(string, IConnection, CancellationToken) | 获取消息 |
 | [FetchMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/fetchmessagesasync#fetchmessagesasync)(IEnumerable&lt;int&gt;, IConnection, CancellationToken) | 异步获取消息 |
@@ -35,12 +35,12 @@ public interface IAsyncPop3Client : IDisposable
 | [GetMessageInfoAsync](../../aspose.email.clients.pop3/iasyncpop3client/getmessageinfoasync#getmessageinfoasync_1)(string, Pop3ListFields, IConnection, CancellationToken) | 获取该消息的信息 |
 | [GetMessageSizeAsync](../../aspose.email.clients.pop3/iasyncpop3client/getmessagesizeasync#getmessagesizeasync)(int, IConnection, CancellationToken) | 获取消息的大小 |
 | [GetMessageSizeAsync](../../aspose.email.clients.pop3/iasyncpop3client/getmessagesizeasync#getmessagesizeasync_1)(string, IConnection, CancellationToken) | 获取消息的大小 |
-| [GetMessageUniqueIdAsync](../../aspose.email.clients.pop3/iasyncpop3client/getmessageuniqueidasync)(int, IConnection, CancellationToken) | 获取消息唯一 ID |
+| [GetMessageUniqueIdAsync](../../aspose.email.clients.pop3/iasyncpop3client/getmessageuniqueidasync)(int, IConnection, CancellationToken) | 获取消息唯一id |
 | [ListMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/listmessagesasync)(Pop3ListFields, bool, MailQuery, IConnection, CancellationToken) | 列出消息。 |
 | [LoadMessageInfoListAsync](../../aspose.email.clients.pop3/iasyncpop3client/loadmessageinfolistasync)(Pop3LoadMessageInfoList) | 加载 Pop3MessageInfo 列表 |
-| [NoopAsync](../../aspose.email.clients.pop3/iasyncpop3client/noopasync)(IConnection, CancellationToken) | 'No operation' 命令 |
+| [NoopAsync](../../aspose.email.clients.pop3/iasyncpop3client/noopasync)(IConnection, CancellationToken) | '无操作' 命令 |
 | [SaveMessageAsync](../../aspose.email.clients.pop3/iasyncpop3client/savemessageasync)(Pop3SaveMessage) | 获取消息并将其保存为流 |
-| [UndeleteMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/undeletemessagesasync)(IConnection, CancellationToken) | 取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。 |
+| [UndeleteMessagesAsync](../../aspose.email.clients.pop3/iasyncpop3client/undeletemessagesasync)(IConnection, CancellationToken) | 取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。 |
 | [ValidateCredentialsAsync](../../aspose.email.clients.pop3/iasyncpop3client/validatecredentialsasync)(IConnection, CancellationToken) | 执行凭据验证 |
 
 ### 也可以看看

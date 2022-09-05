@@ -18,7 +18,7 @@ public enum ActivityAzureActiveDirectoryEventType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AccountLogon | `0` | 帐户登录事件。 |
+| AccountLogon | `0` | 账户登录事件。 |
 | AzureApplicationAuditEvent | `1` | Azure 应用程序安全事件。 |
 
 ### 也可以看看

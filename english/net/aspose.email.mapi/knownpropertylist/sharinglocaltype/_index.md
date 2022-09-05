@@ -1,7 +1,7 @@
 ---
 title: SharingLocalType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagContainerClass property section 2.633 of the folder being shared. Area Sharing Canonical name PidLidSharingLocalType Alternate names dispidSharingLocalType
 type: docs
 weight: 17640
 url: /net/aspose.email.mapi/knownpropertylist/sharinglocaltype/

@@ -1,9 +1,9 @@
 ---
 title: IFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the interface for formatting log entry messsages.
 type: docs
-weight: 20290
+weight: 20520
 url: /net/aspose.email.tools.logging/iformatter/
 ---
 ## IFormatter interface
@@ -26,8 +26,8 @@ public interface IFormatter
 
 | Name | Description |
 | --- | --- |
-| [Format](../../aspose.email.tools.logging/iformatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| [Format](../../aspose.email.tools.logging/iformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| [Format](../../aspose.email.tools.logging/iformatter/format#format_1)(DateTime) | Formats a datetime and return a string to be outputted. |
+| [Format](../../aspose.email.tools.logging/iformatter/format#format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

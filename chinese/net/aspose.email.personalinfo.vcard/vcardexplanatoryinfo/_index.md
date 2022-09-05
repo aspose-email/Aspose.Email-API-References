@@ -1,14 +1,14 @@
 ---
 title: VCardExplanatoryInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示 vCard 解释属性
+description: 表示 vCard 说明性属性
 type: docs
-weight: 19610
+weight: 19640
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/
 ---
 ## VCardExplanatoryInfo class
 
-表示 vCard 解释属性
+表示 vCard 说明性属性
 
 ```csharp
 public sealed class VCardExplanatoryInfo
@@ -18,20 +18,21 @@ public sealed class VCardExplanatoryInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardExplanatoryInfo](vcardexplanatoryinfo)() | 初始化 [`VCardExplanatoryInfo`](../vcardexplanatoryinfo) 类的新实例 |
+| [VCardExplanatoryInfo](vcardexplanatoryinfo)() | 初始化[`VCardExplanatoryInfo`](../vcardexplanatoryinfo) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Categories](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/categories) { get; set; } | 获取或设置类别信息 |
-| [Note](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note) { get; set; } | 获取或设置注释 |
+| [FbUrl](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/fburl) { get; set; } | 获取或设置与 vCard 所代表的对象关联的繁忙时间的 URI。 |
+| [Note](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note) { get; set; } | 获取或设置评论 |
 | [ProdId](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid) { get; } | 获取创建 vCard 的产品的 ID |
 | [Revision](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision) { get; set; } | 获取或设置修订时间 |
 | [SortString](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sortstring) { get; set; } | 获取或设置排序字符串 |
 | [Sound](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sound) { get; set; } | 获取或设置声音 |
 | [Uid](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid) { get; set; } | 获取或设置唯一标识符 |
-| [Urls](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls) { get; set; } | 获取或设置一个url |
+| [Urls](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls) { get; set; } | 获取或设置一个 urls |
 | [Version](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/version) { get; } | 获取 vCard 版本 |
 
 ### 也可以看看

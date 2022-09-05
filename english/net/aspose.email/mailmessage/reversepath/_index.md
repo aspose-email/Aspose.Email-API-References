@@ -1,9 +1,9 @@
 ---
 title: ReversePath
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets ReversePath address
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.email/mailmessage/reversepath/
 ---
 ## MailMessage.ReversePath property

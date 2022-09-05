@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавьте в коллекцию адресMailAddressaspose.email/mailaddress.
+description: ДобавитьMailAddressaspose.email/mailaddress в коллекцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.email/mailaddresscollection/add/
 ---
 ## Add(MailAddress) {#add}
 
-Добавьте в коллекцию адрес[`MailAddress`](../../mailaddress).
+Добавить[`MailAddress`](../../mailaddress) в коллекцию.
 
 ```csharp
 public void Add(MailAddress address)
@@ -16,7 +16,7 @@ public void Add(MailAddress address)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| адрес | MailAddress | [`MailAddress`](../../mailaddress) |
+| address | MailAddress | [`MailAddress`](../../mailaddress) |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Add(MailAddress address)
 
 ## Add(string) {#add_2}
 
-Добавить в коллекцию список адресов электронной почты.
+Добавить список адресов электронной почты в коллекцию.
 
 ```csharp
 public void Add(string addresses)

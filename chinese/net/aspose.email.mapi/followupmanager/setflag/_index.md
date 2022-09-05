@@ -16,15 +16,15 @@ public static void SetFlag(MapiMessage message, string flagRequest)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中设置标志. |
-| flagRequest | String | 一个字符串，指示请求的 电子邮件消息的操作。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将设置一个标志。 |
+| flagRequest | String | 一个字符串，指示请求的电子邮件消息的 操作。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentException | 如果*flagRequest*为空或为空。 |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 
@@ -46,8 +46,8 @@ public static void SetFlag(MapiMessage message, string flagRequest, DateTime sta
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中设置标志. |
-| flagRequest | String | 一个字符串，指示请求的 电子邮件消息的操作。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将设置一个标志。 |
+| flagRequest | String | 一个字符串，指示请求的电子邮件消息的 操作。 |
 | startDate | DateTime | 开始日期。 |
 | dueDate | DateTime | 截止日期。 |
 
@@ -56,7 +56,7 @@ public static void SetFlag(MapiMessage message, string flagRequest, DateTime sta
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentException | 如果*flagRequest*为空或为空。 |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 

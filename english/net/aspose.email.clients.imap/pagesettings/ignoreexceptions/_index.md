@@ -1,7 +1,7 @@
 ---
 title: IgnoreExceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: If the property is set to true exceptions that occur during message processing will be caught and placed in the ImapPageInfo.Items.Exceptions.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/pagesettings/ignoreexceptions/

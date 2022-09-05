@@ -13,25 +13,25 @@ url: /ru/net/aspose.email.clients.graph/
 | Учебный класс | Описание |
 | --- | --- |
 | [BaseRestObject](./baserestobject) | Представляет функциональность базового объекта. |
-| [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 Ресурс plannerBucket представляет собой корзину (или «настраиваемый столбец») для задач в плане в Office 365. Он содержится в plannerPlan и может содержать коллекцию plannerTasks. |
-| [ClassificationOverride](./classificationoverride) | Представляет пользовательское переопределение того, как всегда должны классифицироваться входящие сообщения от определенного отправителя. |
+| [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 Ресурс plannerBucket представляет собой сегмент (или «настраиваемый столбец») для задач в плане в Office 365. Содержится в plannerPlan и может содержать коллекцию plannerTasks. |
+| [ClassificationOverride](./classificationoverride) | Представляет переопределение пользователем того, как входящие сообщения от определенного отправителя всегда должны классифицироваться как. |
 | [FolderInfo](./folderinfo) | Представляет информацию о личной папке. |
 | [FolderInfoCollection](./folderinfocollection) | Представляет коллекцию GraphFolderInfo. |
 | [GraphClient](./graphclient) | Предоставляет доступ к MS Exchange Server (Office365) с помощью REST API. |
 | [GraphMessagePageInfo](./graphmessagepageinfo) | Содержит информацию о полученной странице при использовании методов пейджинга. |
-| [GraphQueryBuilder](./graphquerybuilder) | Представляет конструктор поискового выражения на основе поисковых фильтров, используемых протоколом MS Graph. |
-| [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 Ресурс Identity представляет личность актера. Например, действующим лицом может быть пользователь, устройство или приложение. |
-| [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов идентификации с ключом. Он используется для представления набора идентификаторов, связанных с различными событиями для элемента, такими как создание или последнее изменение. |
+| [GraphQueryBuilder](./graphquerybuilder) | Представляет построитель поискового выражения на основе поисковых фильтров, используемых протоколом MS Graph. |
+| [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 Ресурс Identity представляет личность субъекта. Например, действующим лицом может быть пользователь, устройство или приложение. |
+| [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 Ресурс IdentitySet представляет собой набор ресурсов удостоверений с ключами. Используется для представления набора идентификаторов, связанных с различными событиями для элемента, например, созданным или последним измененным. |
 | [KnownFolders](./knownfolders) | Известные папки |
 | [MessageInfo](./messageinfo) | MessageInfo представляет информацию об элементе сервера, полученную из службы Graph. |
 | [MessageInfoCollection](./messageinfocollection) | Представляет коллекцию GraphMessageInfo. |
 | [Notebook](./notebook) | https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 Блокнот OneNote. |
 | [NotebookCollection](./notebookcollection) | Представляет коллекцию Notebook. |
-| [NotebookLinks](./notebooklinks) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 ссылки для открытия блокнота OneNote. |
-| [OnenoteOperation](./onenoteoperation) | Статус некоторых длительных операций OneNote. |
-| [OutlookCategory](./outlookcategory) | Представляет категорию, по которой пользователь может группировать элементы Outlook, такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0 |
+| [NotebookLinks](./notebooklinks) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Ссылки для открытия блокнота OneNote. |
+| [OnenoteOperation](./onenoteoperation) | Состояние некоторых длительных операций OneNote. |
+| [OutlookCategory](./outlookcategory) | Представляет категорию, по которой пользователь может группировать элементы Outlook, такие как сообщения и события. Пользователь определяет категории в основном списке и может применить одну или несколько из этих пользовательских категорий к элементу. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view = график-остальное-1.0 |
 | [Thumbnail](./thumbnail) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 Тип ресурса эскиза представляет собой эскиз изображения, видео, документа или любого элемента, который имеет растровое представление. |
-| [ThumbnailSet](./thumbnailset) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключом. Он используется для представления набора эскизов, связанных с DriveItem. |
+| [ThumbnailSet](./thumbnailset) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключами. Используется для представления набора эскизов, связанных с DriveItem. |
 | [UpdateSettings](./updatesettings) | Обновить настройки |
 ## Интерфейсы
 
@@ -42,8 +42,8 @@ url: /ru/net/aspose.email.clients.graph/
 
 | перечисление | Описание |
 | --- | --- |
-| [CategoryPreset](./categorypreset) | Предустановленное перечисление цветов, которое характеризует категории и соответствует одному из 25 предопределенных цветов. Примечание. Возможные значения для цвета — это предустановленные константы, такие как None, preset0 и preset1. Каждая предустановленная константа в дальнейшем сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
-| [ClassificationType](./classificationtype) | https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0 Указывает, как входящие сообщения от определенного отправителя всегда должны классифицироваться как . |
+| [CategoryPreset](./categorypreset) | Предварительно установленное перечисление цветов, характеризующее категории и сопоставленное с одним из 25 предопределенных цветов. Примечание Возможными значениями цвета являются предустановленные константы, такие как Нет, предустановка0 и предустановка1. Каждая предустановленная константа дополнительно сопоставляется с цветом; фактический цвет зависит от клиента Outlook, в котором отображаются категории. |
+| [ClassificationType](./classificationtype) | https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources /inferenceclassificationoverride?view=graph-rest-1.0 Указывает, как всегда следует классифицировать входящие сообщения от определенного отправителя. |
 | [ResourceType](./resourcetype) | Ресурс в Microsoft Graph, на который вы ссылаетесь. |
 | [UserRole](./userrole) | Роль пользователя OneNote |
 

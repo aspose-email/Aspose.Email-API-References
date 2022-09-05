@@ -1,12 +1,12 @@
 ---
 title: ConvertPersonalStorageToMbox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the PersonalStorageaspose.email.storage.pst/personalstorage to mbox format using given path.
 type: docs
 weight: 10
 url: /net/aspose.email.storage/mailboxconverter/convertpersonalstoragetombox/
 ---
-## MailboxConverter.ConvertPersonalStorageToMbox method (1 of 2)
+## ConvertPersonalStorageToMbox(PersonalStorage, string, MessageAcceptanceCallback) {#convertpersonalstoragetombox_1}
 
 Converts the [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) to mbox format using given path.
 
@@ -42,7 +42,7 @@ Resulting folder will contain an exact copy of the *personalStorage* e.g. direct
 
 ---
 
-## MailboxConverter.ConvertPersonalStorageToMbox method (2 of 2)
+## ConvertPersonalStorageToMbox(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) {#convertpersonalstoragetombox}
 
 Converts the [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) to mbox format using given [`MboxStorageWriter`](../../../aspose.email.storage.mbox/mboxstoragewriter).
 

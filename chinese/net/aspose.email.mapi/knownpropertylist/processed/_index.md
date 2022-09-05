@@ -1,14 +1,14 @@
 ---
 title: Processed
 second_title: Aspose.Email for .NET API 参考
-description: 表示客户端是否已经处理了接收到的任务通信 区域日历 规范名称PidTagProcessed 替代名称PR_PROCESSED
+description: 表示客户端是否已经处理接收到的任务通信 区域Calendar 规范名称PidTagProcessed 替代名称PR_PROCESSED
 type: docs
 weight: 14630
 url: /zh/net/aspose.email.mapi/knownpropertylist/processed/
 ---
 ## KnownPropertyList.Processed field
 
-表示客户端是否已经处理了接收到的任务通信。 区域:日历 规范名称:PidTagProcessed 替代名称:PR_PROCESSED
+表示客户端是否已经处理接收到的任务通信。 区域：Calendar 规范名称：PidTagProcessed 替代名称：PR_PROCESSED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Processed;

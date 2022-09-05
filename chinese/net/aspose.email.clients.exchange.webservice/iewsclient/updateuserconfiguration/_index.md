@@ -22,7 +22,7 @@ public void UpdateUserConfiguration(UserConfiguration userConfiguration)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 在*userConfiguration时抛出*是` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*userConfiguration*是`无效的` |
 
 ### 也可以看看
 

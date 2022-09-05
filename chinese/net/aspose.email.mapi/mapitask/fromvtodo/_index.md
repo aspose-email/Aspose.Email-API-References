@@ -1,14 +1,14 @@
 ---
 title: FromVTodo
 second_title: Aspose.Email for .NET API 参考
-description: 从指定的 .ics 文件创建 MapiTask 的实例
+description: 从指定的 .ics 文件创建 MapiTask 实例
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapitask/fromvtodo/
 ---
 ## FromVTodo(string) {#fromvtodo_2}
 
-从指定的 .ics 文件创建 MapiTask 的实例。
+从指定的 .ics 文件创建 MapiTask 实例。
 
 ```csharp
 public static MapiTask FromVTodo(string filePath)
@@ -32,7 +32,7 @@ public static MapiTask FromVTodo(string filePath)
 
 ## FromVTodo(string, bool) {#fromvtodo_3}
 
-从指定的 .ics 文件创建 MapiTask 的实例。
+从指定的 .ics 文件创建 MapiTask 实例。
 
 ```csharp
 public static MapiTask FromVTodo(string filePath, bool detectEncoding)
@@ -45,7 +45,7 @@ public static MapiTask FromVTodo(string filePath, bool detectEncoding)
 
 ### 返回值
 
-返回 MapiTask从指定文件加载的实例。
+返回从指定文件加载的 MapiTask 实例。
 
 ### 也可以看看
 
@@ -94,7 +94,7 @@ public static MapiTask FromVTodo(Stream stream, bool detectEncoding)
 
 ### 返回值
 
-返回 MapiTask从指定流加载的实例。
+返回从指定流加载的 MapiTask 实例。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OMSScheduleTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC когда клиент запросил у поставщика услуг отправку SMS- или MMS-сообщения. ОбластьSMS Каноническое имяPidNameOMSScheduleTime Альтернативные имена
+description: Содержит время в формате UTC когда клиент запросил у поставщика услуг отправку SMS- или MMS-сообщения. Область SMS Каноническое имя PidNameOMSScheduleTime Альтернативные имена
 type: docs
 weight: 13390
 url: /ru/net/aspose.email.mapi/knownpropertylist/omsscheduletime/
 ---
 ## KnownPropertyList.OMSScheduleTime field
 
-Содержит время в формате UTC, когда клиент запросил у поставщика услуг отправку SMS- или MMS-сообщения. Область:SMS Каноническое имя:PidNameOMSScheduleTime Альтернативные имена:
+Содержит время в формате UTC, когда клиент запросил у поставщика услуг отправку SMS- или MMS-сообщения. Область: SMS Каноническое имя: PidNameOMSScheduleTime Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSScheduleTime;

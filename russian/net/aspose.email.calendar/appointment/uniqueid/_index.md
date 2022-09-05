@@ -1,14 +1,14 @@
 ---
 title: UniqueId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает строковое значение содержащее GUID элемента календаря. В MS Exchange это свойство карты PidLidGlobalObjectId.
+description: Получает или задает строковое значение содержащее GUID для элемента календаря. В MS Exchange это свойство карты PidLidGlobalObjectId.
 type: docs
-weight: 280
+weight: 290
 url: /ru/net/aspose.email.calendar/appointment/uniqueid/
 ---
 ## Appointment.UniqueId property
 
-Получает или задает строковое значение, содержащее GUID элемента календаря. В MS Exchange это свойство карты PidLidGlobalObjectId.
+Получает или задает строковое значение, содержащее GUID для элемента календаря. В MS Exchange это свойство карты PidLidGlobalObjectId.
 
 ```csharp
 public string UniqueId { get; set; }

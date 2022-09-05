@@ -24,11 +24,11 @@ public class BodyPart
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.email.clients.activesync.transportlayer/bodypart/data) { get; set; } | Содержимое элемента Data представляет собой строку в формате, заданном свойством Type. Если значением Type является RTF, значение элемента Data кодируется с использованием кодировки base64. Если для свойства Truncated установлено значение true, данные в элементе Data усекаются. Свойство EstimatedDataSize обеспечивает приблизительную оценку фактического размера полного содержимого строки данных. |
+| [Data](../../aspose.email.clients.activesync.transportlayer/bodypart/data) { get; set; } | Содержимое элемента Data представляет собой строку в формате, заданном свойством Type. Если значение Типа равно RTF, значение элемента данных кодируется с использованием кодировки base64. Если для свойства Truncated установлено значение true, данные в элементе данных усекаются. Свойство EstimatedDataSize обеспечивает приблизительную оценку фактического размера полного содержимого строки данных. |
 | [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/bodypart/estimateddatasize) { get; set; } | Задает информационную оценку размера данных, связанных с родительским элементом. Элемент EstimatedDataSize ДОЛЖЕН быть представлен всякий раз, когда для элемента Truncated установлено значение TRUE |
-| [Preview](../../aspose.email.clients.activesync.transportlayer/bodypart/preview) { get; set; } | Содержит текстовое сообщение Unicode или предварительный просмотр части сообщения, возвращаемый клиенту. |
+| [Preview](../../aspose.email.clients.activesync.transportlayer/bodypart/preview) { get; set; } | Содержит текстовое сообщение в формате Unicode или предварительный просмотр части сообщения, возвращаемый клиенту. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/bodypart/status) { get; set; } | Содержит код и описание, указывающее на успех или неудачу операции |
-| [Truncated](../../aspose.email.clients.activesync.transportlayer/bodypart/truncated) { get; set; } | Указывает, было ли усечено тело элемента в соответствии с элементом BodyPreference, указанным клиентом. Если значение TRUE, то тело элемента было усечено. Если значение равно FALSE или свойство Truncated не задано, то тело элемента не было усечено. |
+| [Truncated](../../aspose.email.clients.activesync.transportlayer/bodypart/truncated) { get; set; } | Указывает, было ли усечено тело элемента в соответствии с элементом BodyPreference, указанным клиентом. Если значение равно TRUE, то тело элемента было усечено. Если значение FALSE или свойство Truncated не задано, то тело элемента не было усечено. |
 | [Type](../../aspose.email.clients.activesync.transportlayer/bodypart/type) { get; set; } | Указывает тип формата основного содержимого элемента. |
 
 ### Смотрите также

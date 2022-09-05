@@ -1,7 +1,7 @@
 ---
 title: PublicStrings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Common Property set name PS_PUBLIC_STRINGS
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/knownpropertysets/publicstrings/

@@ -1,7 +1,7 @@
 ---
 title: UniqueUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an unique uri of the task.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/uniqueuri/

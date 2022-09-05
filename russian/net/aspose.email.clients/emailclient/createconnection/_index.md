@@ -16,7 +16,7 @@ public virtual IConnection CreateConnection()
 
 ### Возвращаемое значение
 
-Возвращает объект подключения
+Возвращает объект соединения
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public virtual IConnection CreateConnection()
 
 ## CreateConnection(bool) {#createconnection_1}
 
-Создает новое (по умолчанию или независимое) соединение для операций. Подробнее см. в документации по свойству EmailClient.ConnectionAsgmtMode.
+Создает новое (по умолчанию или независимое) соединение для операций. Дополнительные сведения см. в документации по свойству EmailClient.ConnectionAsgmtMode.
 
 ```csharp
 public virtual IConnection CreateConnection(bool createAsDefaultConnection)
@@ -37,7 +37,7 @@ public virtual IConnection CreateConnection(bool createAsDefaultConnection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| createAsDefaultConnection | Boolean | Указывает, должно ли соединение создаваться по умолчанию для текущего потока |
+| createAsDefaultConnection | Boolean | Указывает, должно ли соединение создаваться по умолчанию для текущего потока. |
 
 ### Возвращаемое значение
 

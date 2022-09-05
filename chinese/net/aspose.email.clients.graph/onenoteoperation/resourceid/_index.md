@@ -1,14 +1,14 @@
 ---
 title: ResourceId
 second_title: Aspose.Email for .NET API 参考
-description: 资源 ID
+description: 资源id.
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.graph/onenoteoperation/resourceid/
 ---
 ## OnenoteOperation.ResourceId property
 
-资源 ID。
+资源id.
 
 ```csharp
 public string ResourceId { get; }

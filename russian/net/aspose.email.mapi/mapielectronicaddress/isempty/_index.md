@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Email для .NET API
-description: Показывает если MapiElectronicAddress пуст
+description: Показывает является ли MapiElectronicAddress пустым
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapielectronicaddress/isempty/
 ---
 ## MapiElectronicAddress.IsEmpty property
 
-Показывает, если MapiElectronicAddress пуст
+Показывает, является ли MapiElectronicAddress пустым
 
 ```csharp
 public bool IsEmpty { get; }

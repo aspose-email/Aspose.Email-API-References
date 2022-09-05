@@ -1,14 +1,14 @@
 ---
 title: DetectionType
 second_title: Aspose.Email for .NET API 参考
-description: 检测类型 强制是
+description: 检测类型 必填是
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/detectiontype/
 ---
 ## O365EmailMessageActivity.DetectionType property
 
-检测类型。 强制:是
+检测类型。 必填：是
 
 ```csharp
 public DetectionType DetectionType { get; set; }

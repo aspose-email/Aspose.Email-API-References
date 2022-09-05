@@ -18,7 +18,7 @@ public class PipeliningStatus
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClientMode](../../aspose.email.clients/pipeliningstatus/clientmode) { get; set; } | 获取或设置一个值，该值定义邮件客户端如何支持流水线处理 |
+| [ClientMode](../../aspose.email.clients/pipeliningstatus/clientmode) { get; set; } | 获取或设置一个定义邮件客户端如何支持流水线的值 |
 | [PipeliningEnabled](../../aspose.email.clients/pipeliningstatus/pipeliningenabled) { get; } | 获取定义是否启用流水线模式的值。 |
 | [SupportedByServer](../../aspose.email.clients/pipeliningstatus/supportedbyserver) { get; } | 获取指示服务器是否支持流水线模式的值。 |
 
@@ -27,7 +27,7 @@ public class PipeliningStatus
 | 姓名 | 描述 |
 | --- | --- |
 | override [ToString](../../aspose.email.clients/pipeliningstatus/tostring)() | 返回代表当前对象的字符串。 |
-| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit#op_implicit_2) | 将布尔值转换为[`PipeliningStatus`](../pipeliningstatus)对象 (4 operators) |
+| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit#op_implicit_2) | 将布尔值转换为[`PipeliningStatus`](../pipeliningstatus)object (4 operators) |
 
 ### 也可以看看
 

@@ -1,12 +1,12 @@
 ---
 title: ListMessagesByPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List the messages in the specified folder.
 type: docs
 weight: 1150
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmessagesbypage/
 ---
-## IEWSClient.ListMessagesByPage method (1 of 7)
+## ListMessagesByPage(string, int) {#listmessagesbypage_4}
 
 List the messages in the specified folder.
 
@@ -32,7 +32,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ---
 
-## IEWSClient.ListMessagesByPage method (2 of 7)
+## ListMessagesByPage(string, MailQuery, int) {#listmessagesbypage_2}
 
 List the messages in the specified folder.
 
@@ -60,7 +60,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 ---
 
-## IEWSClient.ListMessagesByPage method (3 of 7)
+## ListMessagesByPage(string, int, int) {#listmessagesbypage_5}
 
 List the messages in the specified folder.
 
@@ -87,7 +87,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ---
 
-## IEWSClient.ListMessagesByPage method (4 of 7)
+## ListMessagesByPage(string, MailQuery, int, int) {#listmessagesbypage_3}
 
 List the messages in the specified folder.
 
@@ -117,7 +117,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 ---
 
-## IEWSClient.ListMessagesByPage method (5 of 7)
+## ListMessagesByPage(string, int, int, ExchangeListMessagesOptions) {#listmessagesbypage_6}
 
 List the messages in the specified folder.
 
@@ -147,7 +147,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ---
 
-## IEWSClient.ListMessagesByPage method (6 of 7)
+## ListMessagesByPage(string, PageInfo) {#listmessagesbypage}
 
 List the messages in the specified folder.
 
@@ -174,7 +174,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 ---
 
-## IEWSClient.ListMessagesByPage method (7 of 7)
+## ListMessagesByPage(string, PageInfo, ExchangeListMessagesOptions) {#listmessagesbypage_1}
 
 List the messages in the specified folder.
 

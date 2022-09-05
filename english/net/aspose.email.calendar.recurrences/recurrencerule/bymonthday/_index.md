@@ -1,7 +1,7 @@
 ---
 title: ByMonthDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by month day.
 type: docs
 weight: 60
 url: /net/aspose.email.calendar.recurrences/recurrencerule/bymonthday/

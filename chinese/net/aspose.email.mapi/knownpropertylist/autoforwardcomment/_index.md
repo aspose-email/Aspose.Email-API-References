@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/autoforwardcomment/
 ---
 ## KnownPropertyList.AutoForwardComment field
 
-包含自动生成的消息中包含的文本。 区域:常规报告属性 规范名称:PidTagAutoForwardComment 替代名称:PR_AUTO_FORWARD_COMMENT、PR_AUTO_FORWARD_COMMENT_A、PR_AUTO_FORWARD_COMMENT_W
+包含自动生成的消息中包含的文本。 区域：常规报告属性 规范名称：PidTagAutoForwardComment 替代名称：PR_AUTO_FORWARD_COMMENT、PR_AUTO_FORWARD_COMMENT_A、PR_AUTO_FORWARD_COMMENT_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoForwardComment;

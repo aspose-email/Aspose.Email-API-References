@@ -1,14 +1,14 @@
 ---
 title: SwappedToDoData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит вторичное место хранения для флагов когда флаги отправителя или напоминания отправителя поддерживаются. ОбластьMapiNonTransmittable Каноническое имяPidTagSwappedToDoData Альтернативные именаPR_SWAPPED_TODO_DATA ptagSwappedTodoData
+description: Содержит вторичное место хранения для флагов если флаги отправителя или напоминания отправителя поддерживаются. Область MapiNonTransmittable Каноническое имя PidTagSwappedToDoData Альтернативные имена PR_SWAPPED_TODO_DATA ptagSwappedTodoData
 type: docs
 weight: 18430
 url: /ru/net/aspose.email.mapi/knownpropertylist/swappedtododata/
 ---
 ## KnownPropertyList.SwappedToDoData field
 
-Содержит вторичное место хранения для флагов, когда флаги отправителя или напоминания отправителя поддерживаются. Область:MapiNonTransmittable Каноническое имя:PidTagSwappedToDoData Альтернативные имена:PR_SWAPPED_TODO_DATA, ptagSwappedTodoData
+Содержит вторичное место хранения для флагов, если флаги отправителя или напоминания отправителя поддерживаются. Область: MapiNonTransmittable Каноническое имя: PidTagSwappedToDoData Альтернативные имена: PR_SWAPPED_TODO_DATA, ptagSwappedTodoData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SwappedToDoData;

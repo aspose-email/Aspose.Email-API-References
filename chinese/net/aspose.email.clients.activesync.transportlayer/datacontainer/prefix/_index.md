@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Aspose.Email for .NET API 参考
-description: xml 节点中元素
+description: xml 节点中元素的前缀
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/datacontainer/prefix/
 ---
 ## DataContainer.Prefix property
 
-xml 节点中元素
+xml 节点中元素的前缀
 
 ```csharp
 public string Prefix { get; }

@@ -1,14 +1,14 @@
 ---
 title: FetchConversationMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定的会话消息
+description: 获取指定的对话消息
 type: docs
 weight: 240
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchconversationmessagesasync/
 ---
 ## IAsyncEwsClient.FetchConversationMessagesAsync method
 
-获取指定的会话消息
+获取指定的对话消息
 
 ```csharp
 public Task<MailMessageCollection> FetchConversationMessagesAsync(string conversationId, 
@@ -17,14 +17,14 @@ public Task<MailMessageCollection> FetchConversationMessagesAsync(string convers
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conversationId | String | 会话 ID |
+| conversationId | String | 对话ID |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

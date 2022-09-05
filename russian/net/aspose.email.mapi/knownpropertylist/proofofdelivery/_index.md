@@ -1,14 +1,14 @@
 ---
 title: ProofOfDelivery
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROOF_OF_DELIVERY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROOF_OF_DELIVERY
 type: docs
 weight: 15000
 url: /ru/net/aspose.email.mapi/knownpropertylist/proofofdelivery/
 ---
 ## KnownPropertyList.ProofOfDelivery field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROOF_OF_DELIVERY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROOF_OF_DELIVERY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProofOfDelivery;

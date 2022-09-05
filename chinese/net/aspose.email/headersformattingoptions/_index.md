@@ -31,8 +31,8 @@ public abstract class HeadersFormattingOptions : SaveOptions
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | 默认标题行格式。 |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat) { get; set; } | 默认页眉格式。 |
 | [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates) { get; } | 获取格式模板。 |
-| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件信息的保存类型，可以是eml,msg(ASCII or Unicode),mhtml或者html格式。 默认值为 Eml。 |
-| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | 定义将包含在输出 mhtml 中的联系人字段组。 默认值为 ContactFieldsSet.AllExisting。 |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | 表示邮件消息保存类型。可以是eml,msg(ASCII or Unicode),mhtml 或html 格式。 默认值为Eml。 |
+| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | 定义将包含在输出 mhtml 中的联系人字段组。 默认值为 ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders) { get; } | 获取用于渲染的标题列表。 |
 
 ### 也可以看看

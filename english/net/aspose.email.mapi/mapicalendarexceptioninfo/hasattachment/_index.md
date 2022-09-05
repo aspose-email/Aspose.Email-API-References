@@ -1,7 +1,7 @@
 ---
 title: HasAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value of this field specifies whether the Exception Embedded Message object contains attachments
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/hasattachment/

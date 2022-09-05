@@ -1,14 +1,14 @@
 ---
 title: Workload
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает службу Office 365 в которой произошло действие. ОбязательноНет
+description: Получает или задает службу Office 365 в которой произошло действие. Обязательно No
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients.activity/record/workload/
 ---
 ## Record.Workload property
 
-Получает или задает службу Office 365, в которой произошло действие. Обязательно:Нет
+Получает или задает службу Office 365, в которой произошло действие. Обязательно: No
 
 ```csharp
 public Workload Workload { get; set; }

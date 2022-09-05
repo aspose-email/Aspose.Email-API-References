@@ -1,14 +1,14 @@
 ---
 title: ReportDispositionMode
 second_title: Aspose.Email for .NET API 参考
-description: 包含客户端代表用户执行的操作的描述仅报告消息 区域电子邮件 规范名称PidTagReportDispositionMode 替代名称PR_REPORT_DISPOSITION_MODE_W
+description: 包含客户端代表用户执行的操作的描述仅报告消息 区域Email 规范名称PidTagReportDispositionMode 替代名称PR_REPORT_DISPOSITION_MODE_W
 type: docs
 weight: 16010
 url: /zh/net/aspose.email.mapi/knownpropertylist/reportdispositionmode/
 ---
 ## KnownPropertyList.ReportDispositionMode field
 
-包含客户端代表用户执行的操作的描述（仅报告消息）。 区域:电子邮件 规范名称:PidTagReportDispositionMode 替代名称:PR_REPORT_DISPOSITION_MODE_W
+包含客户端代表用户执行的操作的描述（仅报告消息）。 区域：Email 规范名称：PidTagReportDispositionMode 替代名称：PR_REPORT_DISPOSITION_MODE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDispositionMode;

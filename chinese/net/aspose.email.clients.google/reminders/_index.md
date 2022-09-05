@@ -1,14 +1,14 @@
 ---
 title: Reminders
 second_title: Aspose.Email for .NET API 参考
-description: 已认证用户的事件提醒信息
+description: 已验证用户的事件提醒信息
 type: docs
 weight: 15840
 url: /zh/net/aspose.email.clients.google/reminders/
 ---
 ## Reminders class
 
-已认证用户的事件提醒信息。
+已验证用户的事件提醒信息。
 
 ```csharp
 public class Reminders
@@ -18,7 +18,7 @@ public class Reminders
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Reminders](reminders)() | 初始化 Reminders 类的新实例。 |
+| [Reminders](reminders)() | 初始化提醒类的新实例。 |
 
 ## 特性
 

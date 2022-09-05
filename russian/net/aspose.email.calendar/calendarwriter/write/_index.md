@@ -16,7 +16,7 @@ public void Write(Appointment appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| назначение | Appointment | Исходное назначение |
+| appointment | Appointment | Назначение источника |
 
 ### Смотрите также
 

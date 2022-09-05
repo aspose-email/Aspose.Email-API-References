@@ -1,7 +1,7 @@
 ---
 title: CreatedDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The date and time when the notebook was created. The timestamp represents date and time information using ISO 8601 format and is always in UTC time. For example midnight UTC on Jan 1 2014 would look like this 20140101T000000Z. Readonly.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/notebook/createddatetime/

@@ -1,14 +1,14 @@
 ---
 title: PolicyKey
 second_title: Aspose.Email for .NET API 参考
-description: PolicyKey 被服务器用于在 Provision 命令的设置下载阶段标记客户端上策略设置的状态 PolicyKey 是字符串类型的元素最多 64 个字符 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示
+description: PolicyKey 用于服务器在 Provision 命令的设置下载阶段标记客户端上策略设置的状态 PolicyKey 是一个最多 64 个字符的字符串类型元素 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示形式
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/provisionpolicy/policykey/
 ---
 ## ProvisionPolicy.PolicyKey property
 
-PolicyKey 被服务器用于在 Provision 命令的设置下载阶段标记客户端上策略设置的状态。 PolicyKey 是字符串类型的元素，最多 64 个字符。 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示。
+PolicyKey 用于服务器在 Provision 命令的设置下载阶段标记客户端上策略设置的状态。 PolicyKey 是一个最多 64 个字符的字符串类型元素。 PolicyKey 的值应该是一个 32 位无符号整数的字符串表示形式。
 
 ```csharp
 public string PolicyKey { get; set; }

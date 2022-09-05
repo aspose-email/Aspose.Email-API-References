@@ -1,7 +1,7 @@
 ---
 title: ConvertAsTnef
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mailconversionoptions/convertastnef/

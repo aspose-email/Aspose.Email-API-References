@@ -1,7 +1,7 @@
 ---
 title: BindIPEndPoint
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Associates a Socket with a local endpoint.
 type: docs
 weight: 260
 url: /net/aspose.email.clients/emailclient/bindipendpoint/

@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Aspose.Email for .NET API 参考
-description: 表示此图像是否对AmpImage有效
+description: 表示此图像是否为 AmpImage 有效
 type: docs
 weight: 30
 url: /zh/net/aspose.email.amp/ampimage/isvalid/
 ---
 ## AmpImage.IsValid property
 
-表示此图像是否对AmpImage有效。
+表示此图像是否为 AmpImage 有效。
 
 ```csharp
 public bool IsValid { get; }

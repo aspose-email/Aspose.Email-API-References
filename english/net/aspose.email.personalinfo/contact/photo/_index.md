@@ -1,7 +1,7 @@
 ---
 title: Photo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an image of contact
 type: docs
 weight: 330
 url: /net/aspose.email.personalinfo/contact/photo/

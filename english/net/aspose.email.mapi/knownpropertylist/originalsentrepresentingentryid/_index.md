@@ -1,7 +1,7 @@
 ---
 title: OriginalSentRepresentingEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies an address book EntryID that contains the entry identifier of the end user who is represented by the original message sender. Area General Message Properties Canonical name PidTagOriginalSentRepresentingEntryId Alternate names PR_ORIGINAL_SENT_REPRESENTING_ENTRYID ptagOriginalSentRepresentingEntryId
 type: docs
 weight: 13740
 url: /net/aspose.email.mapi/knownpropertylist/originalsentrepresentingentryid/

@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRuleCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of RecurrenceRule./recurrencerule objects.
 type: docs
 weight: 780
 url: /net/aspose.email.calendar.recurrences/recurrencerulecollection/
@@ -18,8 +18,8 @@ public class RecurrenceRuleCollection : Collection<RecurrenceRule>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add)() | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add)(RecurrenceRule) | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add)() | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add_1)(RecurrenceRule) | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
 
 ### Remarks
 

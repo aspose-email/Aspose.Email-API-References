@@ -1,7 +1,7 @@
 ---
 title: JabberValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Jabber category
 type: docs
 weight: 260
 url: /net/aspose.email.personalinfo/instantmessengercategory/jabbervalue/

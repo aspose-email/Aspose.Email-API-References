@@ -1,14 +1,14 @@
 ---
 title: EmsAbSupportedAlgorithms
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SUPPORTED_ALGORITHMS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SUPPORTED_ALGORITHMS
 type: docs
 weight: 9010
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsupportedalgorithms/
 ---
 ## KnownPropertyList.EmsAbSupportedAlgorithms field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SUPPORTED_ALGORITHMS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SUPPORTED_ALGORITHMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSupportedAlgorithms;

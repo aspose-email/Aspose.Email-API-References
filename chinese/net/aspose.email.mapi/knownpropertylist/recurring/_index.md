@@ -1,14 +1,14 @@
 ---
 title: Recurring
 second_title: Aspose.Email for .NET API 参考
-description: 指定对象是否代表循环系列 区域日历 规范名称PidLidRecurring 替代名称dispidRecurring
+description: 指定对象是否代表循环系列 区域Calendar 规范名称PidLidRecurring 替代名称dispidRecurring
 type: docs
 weight: 15610
 url: /zh/net/aspose.email.mapi/knownpropertylist/recurring/
 ---
 ## KnownPropertyList.Recurring field
 
-指定对象是否代表循环系列。 区域:日历 规范名称:PidLidRecurring 替代名称:dispidRecurring
+指定对象是否代表循环系列。 区域：Calendar 规范名称：PidLidRecurring 替代名称：dispidRecurring
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Recurring;

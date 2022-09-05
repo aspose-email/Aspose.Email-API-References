@@ -1,14 +1,14 @@
 ---
 title: Appointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаAppointmentaspose.email.calendar/appointment.
+description: Инициализировать новый экземплярAppointmentaspose.email.calendar/appointment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointment/appointment/
 ---
 ## Appointment(string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor}
 
-Инициализировать новый экземпляр класса[`Appointment`](../../appointment).
+Инициализировать новый экземпляр[`Appointment`](../../appointment) класс.
 
 ```csharp
 public Appointment(string location, DateTime startDate, DateTime endDate, MailAddress organizer, 
@@ -17,11 +17,11 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | String | Местоположение события календаря. |
+| location | String | Место события календаря. |
 | startDate | DateTime | Время начала события календаря. |
 | endDate | DateTime | Время окончания события календаря. |
-| organizer | MailAddress | Организатор события календаря. |
-| посетители | MailAddressCollection | Участники события календаря. |
+| organizer | MailAddress | Организатор календарного события. |
+| attendees | MailAddressCollection | Участники календарного события. |
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor_1}
 
-Инициализировать новый экземпляр класса[`Appointment`](../../appointment).
+Инициализировать новый экземпляр[`Appointment`](../../appointment) класс.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -44,13 +44,13 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | String | Местоположение события календаря. |
-| summary | String | Сводка события календаря. |
+| location | String | Место события календаря. |
+| summary | String | Итог календарного события. |
 | description | String | Описание события календаря. |
 | startDate | DateTime | Время начала события календаря. |
 | endDate | DateTime | Время окончания события календаря. |
-| organizer | MailAddress | Организатор события календаря. |
-| посетители | MailAddressCollection | Участники события календаря. |
+| organizer | MailAddress | Организатор календарного события. |
+| attendees | MailAddressCollection | Участники календарного события. |
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) {#constructor_3}
 
-Инициализировать новый экземпляр класса[`Appointment`](../../appointment).
+Инициализировать новый экземпляр[`Appointment`](../../appointment) класс.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -73,13 +73,13 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | String | Местоположение события календаря. |
-| summary | String | Сводка события календаря. |
+| location | String | Место события календаря. |
+| summary | String | Итог календарного события. |
 | description | String | Описание события календаря. |
 | startDate | DateTime | Время начала события календаря. |
 | endDate | DateTime | Время окончания события календаря. |
-| organizer | MailAddress | Организатор события календаря. |
-| посетители | MailAddressCollection | Участники события календаря. |
+| organizer | MailAddress | Организатор календарного события. |
+| attendees | MailAddressCollection | Участники календарного события. |
 | uid | String | Уникальный идентификатор события календаря. |
 
 ### Смотрите также
@@ -94,7 +94,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) {#constructor_2}
 
-Инициализировать новый экземпляр класса[`Appointment`](../../appointment).
+Инициализировать новый экземпляр[`Appointment`](../../appointment) класс.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -104,14 +104,14 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | String | Местоположение события календаря. |
-| summary | String | Сводка события календаря. |
+| location | String | Место события календаря. |
+| summary | String | Итог календарного события. |
 | description | String | Описание события календаря. |
 | startDate | DateTime | Время начала события календаря. |
 | endDate | DateTime | Время окончания события календаря. |
-| organizer | MailAddress | Организатор события календаря. |
-| посетители | MailAddressCollection | Участники события календаря. |
-| recurrencePattern | RecurrencePattern | Шаблон повторения. |
+| organizer | MailAddress | Организатор календарного события. |
+| attendees | MailAddressCollection | Участники календарного события. |
+| recurrencePattern | RecurrencePattern | Схема рецидива. |
 
 ### Смотрите также
 
@@ -126,7 +126,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) {#constructor_4}
 
-Инициализировать новый экземпляр класса[`Appointment`](../../appointment).
+Инициализировать новый экземпляр[`Appointment`](../../appointment) класс.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -136,15 +136,15 @@ public Appointment(string location, string summary, string description, DateTime
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | String | Местоположение события календаря. |
-| summary | String | Сводка события календаря. |
+| location | String | Место события календаря. |
+| summary | String | Итог календарного события. |
 | description | String | Описание события календаря. |
 | startDate | DateTime | Время начала события календаря. |
 | endDate | DateTime | Время окончания события календаря. |
-| organizer | MailAddress | Организатор события календаря. |
-| посетители | MailAddressCollection | Участники события календаря. |
+| organizer | MailAddress | Организатор календарного события. |
+| attendees | MailAddressCollection | Участники календарного события. |
 | uid | String | Уникальный идентификатор события календаря. |
-| recurrencePattern | RecurrencePattern | Шаблон повторения. |
+| recurrencePattern | RecurrencePattern | Схема рецидива. |
 
 ### Смотрите также
 

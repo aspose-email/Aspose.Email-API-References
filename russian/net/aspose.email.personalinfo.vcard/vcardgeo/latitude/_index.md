@@ -1,14 +1,14 @@
 ---
 title: Latitude
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает широту
+description: Получает или задает широту
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardgeo/latitude/
 ---
 ## VCardGeo.Latitude property
 
-Получает или устанавливает широту
+Получает или задает широту
 
 ```csharp
 public float Latitude { get; set; }

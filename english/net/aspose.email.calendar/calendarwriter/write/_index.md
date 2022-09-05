@@ -1,7 +1,7 @@
 ---
 title: Write
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes appointment in underlying stream.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/calendarwriter/write/

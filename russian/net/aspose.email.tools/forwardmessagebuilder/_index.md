@@ -3,7 +3,7 @@ title: ForwardMessageBuilder
 second_title: Справочник по Aspose.Email для .NET API
 description: Обеспечивает создание и форматирование пересылаемых сообщений.
 type: docs
-weight: 20370
+weight: 20420
 url: /ru/net/aspose.email.tools/forwardmessagebuilder/
 ---
 ## ForwardMessageBuilder class
@@ -32,8 +32,8 @@ public class ForwardMessageBuilder : ResponseMessageBuilder
 
 | Имя | Описание |
 | --- | --- |
-| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse)(MailMessage) | Создает сообщения переадресации. |
-| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Создает сообщения переадресации. |
+| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse)(MailMessage) | Создает пересылаемые сообщения. |
+| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Создает пересылаемые сообщения. |
 
 ### Смотрите также
 

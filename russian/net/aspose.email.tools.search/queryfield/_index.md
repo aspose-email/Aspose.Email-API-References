@@ -3,7 +3,7 @@ title: QueryField
 second_title: Справочник по Aspose.Email для .NET API
 description: Базовый класс для полей запроса.
 type: docs
-weight: 20710
+weight: 20760
 url: /ru/net/aspose.email.tools.search/queryfield/
 ---
 ## QueryField class

@@ -1,14 +1,14 @@
 ---
 title: Home
 second_title: Справочник по Aspose.Email для .NET API
-description: Домашний телефон
+description: Номер домашнего телефона
 type: docs
 weight: 80
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/home/
 ---
 ## PhoneNumberCategory.Home property
 
-Домашний телефон
+Номер домашнего телефона
 
 ```csharp
 public static PhoneNumberCategory Home { get; }

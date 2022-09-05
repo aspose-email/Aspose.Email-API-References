@@ -19,8 +19,8 @@ public enum AppointmentClass
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 值未定义 |
-| Public | `0` | 公开。 |
-| Private | `1` | 私有。 |
+| Public | `0` | 公开. |
+| Private | `1` | 私人. |
 | Confidential | `2` | 机密。 |
 
 ### 也可以看看

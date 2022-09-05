@@ -1,7 +1,7 @@
 ---
 title: FileDragOver
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when file drag over.
 type: docs
 weight: 50
 url: /net/aspose.email.windows.forms/filedroptargetpanel/filedragover/

@@ -1,14 +1,14 @@
 ---
 title: SingleBodyICal
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что исходное сообщение MIME содержало одну часть MIME. ОбластьКалендарь Каноническое имяPidLidSingleBodyICal Альтернативные именаIsSingleBodyICal dispidIsSingleBodyICal
+description: Указывает что исходное сообщение MIME содержало одну часть MIME. Область Calendar Каноническое имя PidLidSingleBodyICal Альтернативные имена IsSingleBodyICal dispidIsSingleBodyICal
 type: docs
 weight: 18050
 url: /ru/net/aspose.email.mapi/knownpropertylist/singlebodyical/
 ---
 ## KnownPropertyList.SingleBodyICal field
 
-Указывает, что исходное сообщение MIME содержало одну часть MIME. Область:Календарь Каноническое имя:PidLidSingleBodyICal Альтернативные имена:IsSingleBodyICal, dispidIsSingleBodyICal
+Указывает, что исходное сообщение MIME содержало одну часть MIME. Область: Calendar Каноническое имя: PidLidSingleBodyICal Альтернативные имена: IsSingleBodyICal, dispidIsSingleBodyICal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SingleBodyICal;

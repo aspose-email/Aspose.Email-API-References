@@ -1,14 +1,14 @@
 ---
 title: MapiAttachmentCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiAttachmentCollectionaspose.email.mapi/mapiattachmentcollection类的新实例
+description: 初始化MapiAttachmentCollectionaspose.email.mapi/mapiattachmentcollection类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapiattachmentcollection/mapiattachmentcollection/
 ---
 ## MapiAttachmentCollection() {#constructor}
 
-初始化[`MapiAttachmentCollection`](../../mapiattachmentcollection)类的新实例。
+初始化[`MapiAttachmentCollection`](../../mapiattachmentcollection)类.
 
 ```csharp
 public MapiAttachmentCollection()

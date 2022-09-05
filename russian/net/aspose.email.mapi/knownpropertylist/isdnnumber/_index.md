@@ -1,14 +1,14 @@
 ---
 title: IsdnNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона цифровой сети с интегрированными услугами ISDN пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagIsdnNumber Альтернативные именаPR_ISDN_NUMBER PR_ISDN_NUMBER_A PR_ISDN_NUMBER_W
+description: Содержит номер телефона цифровой сети с интеграцией служб ISDN пользователя почты. Область Свойства адреса Каноническое имя PidTagIsdnNumber Альтернативные имена PR_ISDN_NUMBER PR_ISDN_NUMBER_A PR_ISDN_NUMBER_W
 type: docs
 weight: 11810
 url: /ru/net/aspose.email.mapi/knownpropertylist/isdnnumber/
 ---
 ## KnownPropertyList.IsdnNumber field
 
-Содержит номер телефона цифровой сети с интегрированными услугами (ISDN) пользователя почты. Область:Свойства адреса Каноническое имя:PidTagIsdnNumber Альтернативные имена:PR_ISDN_NUMBER, PR_ISDN_NUMBER_A, PR_ISDN_NUMBER_W,
+Содержит номер телефона цифровой сети с интеграцией служб (ISDN) пользователя почты. Область: Свойства адреса Каноническое имя: PidTagIsdnNumber Альтернативные имена: PR_ISDN_NUMBER, PR_ISDN_NUMBER_A, PR_ISDN_NUMBER_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IsdnNumber;

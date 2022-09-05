@@ -1,14 +1,14 @@
 ---
 title: AddressBookMember
 second_title: Aspose.Email for .NET API 参考
-description: 包含分发列表的成员 区域地址簿 规范名称PidTagAddressBookMember 别名PR_EMS_AB_MEMBERPR_EMS_AB_MEMBER_APR_EMS_AB_MEMBER_W
+description: 包含分发列表的成员 区域地址簿 规范名称PidTagAddressBookMember 备用名称PR_EMS_AB_MEMBERPR_EMS_AB_MEMBER_APR_EMS_AB_MEMBER_W
 type: docs
 weight: 730
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookmember/
 ---
 ## KnownPropertyList.AddressBookMember field
 
-包含分发列表的成员。 区域:地址簿 规范名称:PidTagAddressBookMember 别名:PR_EMS_AB_MEMBER、PR_EMS_AB_MEMBER_A、PR_EMS_AB_MEMBER_W
+包含分发列表的成员。 区域：地址簿 规范名称：PidTagAddressBookMember 备用名称：PR_EMS_AB_MEMBER、PR_EMS_AB_MEMBER_A、PR_EMS_AB_MEMBER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookMember;

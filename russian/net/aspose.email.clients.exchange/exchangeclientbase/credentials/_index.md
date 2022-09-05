@@ -16,7 +16,7 @@ public virtual ICredentials Credentials { get; set; }
 
 ### Стоимость имущества
 
-ICredentials
+Учетные данные
 
 ### Смотрите также
 

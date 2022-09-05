@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves current object to the given stream using specified format.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/save/
 ---
-## ExchangeTask.Save method (1 of 2)
+## Save(Stream, TaskSaveFormat) {#save_1}
 
 Saves current object to the given stream using specified format.
 
@@ -28,7 +28,7 @@ public override void Save(Stream stream, TaskSaveFormat saveFormat)
 
 ---
 
-## ExchangeTask.Save method (2 of 2)
+## Save(string, TaskSaveFormat) {#save_3}
 
 Saves current object into file using specified format.
 

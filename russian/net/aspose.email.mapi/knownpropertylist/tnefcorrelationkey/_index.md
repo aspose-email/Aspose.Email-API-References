@@ -1,14 +1,14 @@
 ---
 title: TnefCorrelationKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое связывает вложение в формате транспортной нейтральной инкапсуляции TNEF с сообщением. ОбластьMapiEnvelope Каноническое имяPidTagTnefCorrelationKey Альтернативные именаPR_TNEF_CORRELATION_KEY
+description: Содержит значение которое связывает вложение в формате Transport Neutral Encapsulation Format TNEF с сообщением. Область MapiEnvelope Каноническое имя PidTagTnefCorrelationKey Альтернативные имена PR_TNEF_CORRELATION_KEY
 type: docs
 weight: 19010
 url: /ru/net/aspose.email.mapi/knownpropertylist/tnefcorrelationkey/
 ---
 ## KnownPropertyList.TnefCorrelationKey field
 
-Содержит значение, которое связывает вложение в формате транспортной нейтральной инкапсуляции (TNEF) с сообщением. Область:MapiEnvelope Каноническое имя:PidTagTnefCorrelationKey Альтернативные имена:PR_TNEF_CORRELATION_KEY
+Содержит значение, которое связывает вложение в формате Transport Neutral Encapsulation Format (TNEF) с сообщением. Область: MapiEnvelope Каноническое имя: PidTagTnefCorrelationKey Альтернативные имена: PR_TNEF_CORRELATION_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TnefCorrelationKey;

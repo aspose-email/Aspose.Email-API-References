@@ -1,14 +1,14 @@
 ---
 title: DelegateFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指示代理是否可以查看标记为私有的消息对象 区域MessageClassDefinedTransmittable 规范名称PidTagDelegateFlags 替代名称PR_DELEGATE_FLAGS ptagDelegateFlags
+description: 指示代理是否可以查看标记为私有的消息对象 区域MessageClassDefinedTransmittable 规范名称PidTagDelegateFlags 替代名称PR_DELEGATE_FLAGSptagDelegateFlags
 type: docs
 weight: 3830
 url: /zh/net/aspose.email.mapi/knownpropertylist/delegateflags/
 ---
 ## KnownPropertyList.DelegateFlags field
 
-指示代理是否可以查看标记为私有的消息对象。 区域:MessageClassDefinedTransmittable 规范名称:PidTagDelegateFlags 替代名称:PR_DELEGATE_FLAGS, ptagDelegateFlags
+指示代理是否可以查看标记为私有的消息对象。 区域：MessageClassDefinedTransmittable 规范名称：PidTagDelegateFlags 替代名称：PR_DELEGATE_FLAGS、ptagDelegateFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DelegateFlags;

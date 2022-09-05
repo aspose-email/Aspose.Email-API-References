@@ -1,14 +1,14 @@
 ---
 title: DisplayNamePrefix
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает заголовок контакта
+description: Получает или задает заголовок контакта
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/displaynameprefix/
 ---
 ## MapiContactNamePropertySet.DisplayNamePrefix property
 
-Получает или устанавливает заголовок контакта
+Получает или задает заголовок контакта
 
 ```csharp
 public string DisplayNamePrefix { get; set; }

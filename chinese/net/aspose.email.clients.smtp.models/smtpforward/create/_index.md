@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建SmtpForwardaspose.email.clients.smtp.models/smtpforward实例
+description: 创建SmtpForwardaspose.email.clients.smtp.models/smtpforward instacne.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp.models/smtpforward/create/
 ---
 ## SmtpForward.Create method
 
-创建[`SmtpForward`](../../smtpforward)实例。
+创建[`SmtpForward`](../../smtpforward) instacne.
 
 ```csharp
 public static SmtpForward Create()

@@ -1,9 +1,9 @@
 ---
 title: MapiMessageReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a reader that can read a Microsoft Outlook Message format document.
 type: docs
-weight: 18300
+weight: 18510
 url: /net/aspose.email.mapi/mapimessagereader/
 ---
 ## MapiMessageReader class
@@ -18,8 +18,8 @@ public sealed class MapiMessageReader : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [MapiMessageReader](mapimessagereader)(Stream) | Initializes a new instance of the MapiMessageReader class for the specified stream. |
-| [MapiMessageReader](mapimessagereader)(string) | Initializes a new instance of the MapiMessageReader class for the specified file name. |
+| [MapiMessageReader](mapimessagereader#constructor)(Stream) | Initializes a new instance of the MapiMessageReader class for the specified stream. |
+| [MapiMessageReader](mapimessagereader#constructor_1)(string) | Initializes a new instance of the MapiMessageReader class for the specified file name. |
 
 ## Methods
 

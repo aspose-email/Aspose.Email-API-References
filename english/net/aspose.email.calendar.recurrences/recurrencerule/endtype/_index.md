@@ -1,7 +1,7 @@
 ---
 title: EndType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the end type.
 type: docs
 weight: 120
 url: /net/aspose.email.calendar.recurrences/recurrencerule/endtype/

@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Неявная операция преобразования изSequenceSetBaseValueaspose.email.clients.imap/sequencesetbasevalueвString
+description: Неявная операция преобразования изSequenceSetBaseValueaspose.email.clients.imap/sequencesetbasevalue кString
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/sequencesetbasevalue/op_implicit/
 ---
 ## SequenceSetBaseValue Implicit operator
 
-Неявная операция преобразования из[`SequenceSetBaseValue`](../../sequencesetbasevalue)вString
+Неявная операция преобразования из[`SequenceSetBaseValue`](../../sequencesetbasevalue) кString
 
 ```csharp
 public static implicit operator string(SequenceSetBaseValue value)

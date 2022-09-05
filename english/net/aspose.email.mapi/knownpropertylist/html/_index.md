@@ -1,7 +1,7 @@
 ---
 title: Html
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the business webpage URL of the contact. Area Contact Properties Canonical name PidLidHtml Alternate names dispidHTML
 type: docs
 weight: 11100
 url: /net/aspose.email.mapi/knownpropertylist/html/

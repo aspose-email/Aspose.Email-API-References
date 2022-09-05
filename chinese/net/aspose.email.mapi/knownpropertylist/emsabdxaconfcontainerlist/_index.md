@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaConfContainerList
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DXA_CONF_CONTAINER_LIST
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DXA_CONF_CONTAINER_LIST
 type: docs
 weight: 5630
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdxaconfcontainerlist/
 ---
 ## KnownPropertyList.EmsAbDxaConfContainerList field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DXA_CONF_CONTAINER_LIST
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DXA_CONF_CONTAINER_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaConfContainerList;

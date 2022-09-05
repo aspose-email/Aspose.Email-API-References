@@ -1,7 +1,7 @@
 ---
 title: IsEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines if logging is enabled for the specified level.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/logger/isenabled/

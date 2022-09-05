@@ -1,12 +1,12 @@
 ---
 title: FromStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load PST from stream.
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/personalstorage/fromstream/
 ---
-## PersonalStorage.FromStream method (1 of 6)
+## FromStream(Stream, bool) {#fromstream_3}
 
 Load PST from stream.
 
@@ -31,7 +31,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromStream method (2 of 6)
+## FromStream(Stream, PersonalStorageLoadOptions) {#fromstream_1}
 
 Load PST from stream.
 
@@ -57,7 +57,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromStream method (3 of 6)
+## FromStream(Stream) {#fromstream}
 
 Load PST from stream.
 
@@ -85,7 +85,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromStream method (4 of 6)
+## FromStream(Stream, CancellationToken) {#fromstream_5}
 
 Load PST from file.
 
@@ -114,7 +114,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromStream method (5 of 6)
+## FromStream(Stream, bool, CancellationToken) {#fromstream_4}
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, bool writable, CancellationToken token)
@@ -128,7 +128,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable, Cancellat
 
 ---
 
-## PersonalStorage.FromStream method (6 of 6)
+## FromStream(Stream, PersonalStorageLoadOptions, CancellationToken) {#fromstream_2}
 
 Load PST from file.
 

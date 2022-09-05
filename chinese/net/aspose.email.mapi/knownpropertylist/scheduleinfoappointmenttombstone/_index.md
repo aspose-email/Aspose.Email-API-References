@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfoappointmenttombston
 ---
 ## KnownPropertyList.ScheduleInfoAppointmentTombstone field
 
-包含一个墓碑列表，其中每个墓碑代表一个已被拒绝的会议对象。 区域:忙/闲属性 规范名称:PidTagScheduleInfoAppointmentTombstone 替代名称:PR_SCHDINFO_APPT_TOMBSTONE
+包含一个墓碑列表，其中每个墓碑代表一个已被拒绝的会议对象。 区域：忙/闲属性 规范名称：PidTagScheduleInfoAppointmentTombstone 替代名称：PR_SCHDINFO_APPT_TOMBSTONE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoAppointmentTombstone;

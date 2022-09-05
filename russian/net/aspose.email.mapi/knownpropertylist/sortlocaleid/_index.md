@@ -1,14 +1,14 @@
 ---
 title: SortLocaleId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор локали. ОбластьExchangeAdministrative Каноническое имяPidTagSortLocaleId Альтернативные именаPR_SORT_LOCALE_ID ptagSortLocaleId
+description: Содержит идентификатор локали. Область ExchangeAdministrative Каноническое имя PidTagSortLocaleId Альтернативные имена PR_SORT_LOCALE_ID ptagSortLocaleId
 type: docs
 weight: 18090
 url: /ru/net/aspose.email.mapi/knownpropertylist/sortlocaleid/
 ---
 ## KnownPropertyList.SortLocaleId field
 
-Содержит идентификатор локали. Область:ExchangeAdministrative Каноническое имя:PidTagSortLocaleId Альтернативные имена:PR_SORT_LOCALE_ID, ptagSortLocaleId
+Содержит идентификатор локали. Область: ExchangeAdministrative Каноническое имя: PidTagSortLocaleId Альтернативные имена: PR_SORT_LOCALE_ID, ptagSortLocaleId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SortLocaleId;

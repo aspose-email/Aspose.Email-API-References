@@ -1,7 +1,7 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the sender of this message.
 type: docs
 weight: 110
 url: /net/aspose.email.clients/messageinfobase/sender/

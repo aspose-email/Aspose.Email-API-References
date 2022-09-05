@@ -1,7 +1,7 @@
 ---
 title: Language
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the language that the contact uses
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/language/

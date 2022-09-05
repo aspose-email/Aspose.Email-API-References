@@ -1,14 +1,14 @@
 ---
 title: NonDeliveryReportStatusCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение поля Status для уведомления о статусе доставки как указано в RFC3464. ОбластьЭлектронная почта Каноническое имяPidTagNonDeliveryReportStatusCode Альтернативные именаPR_NDR_STATUS_CODE ptagNDRStatusCode
+description: Содержит значение поля Status для уведомления о статусе доставки как указано в RFC3464. Область Email Каноническое имя PidTagNonDeliveryReportStatusCode Альтернативные имена PR_NDR_STATUS_CODE ptagNDRStatusCode
 type: docs
 weight: 12970
 url: /ru/net/aspose.email.mapi/knownpropertylist/nondeliveryreportstatuscode/
 ---
 ## KnownPropertyList.NonDeliveryReportStatusCode field
 
-Содержит значение поля Status для уведомления о статусе доставки, как указано в [RFC3464]. Область:Электронная почта Каноническое имя:PidTagNonDeliveryReportStatusCode Альтернативные имена:PR_NDR_STATUS_CODE, ptagNDRStatusCode
+Содержит значение поля Status для уведомления о статусе доставки, как указано в [RFC3464]. Область: Email Каноническое имя: PidTagNonDeliveryReportStatusCode Альтернативные имена: PR_NDR_STATUS_CODE, ptagNDRStatusCode
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonDeliveryReportStatusCode;

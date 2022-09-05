@@ -17,7 +17,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
@@ -46,7 +46,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -73,7 +73,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
@@ -98,7 +98,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId, Pop3ListFields fields)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение
@@ -126,7 +126,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
@@ -155,7 +155,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -182,7 +182,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
@@ -207,7 +207,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber, Pop3ListFields fields)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение

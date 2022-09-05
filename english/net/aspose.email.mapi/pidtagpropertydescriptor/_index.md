@@ -1,9 +1,9 @@
 ---
 title: PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains property description information.
 type: docs
-weight: 18790
+weight: 19000
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/
 ---
 ## PidTagPropertyDescriptor class
@@ -18,11 +18,11 @@ public class PidTagPropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| [PidTagPropertyDescriptor](pidtagpropertydescriptor)(long) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
-| [PidTagPropertyDescriptor](pidtagpropertydescriptor)(int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
-| [PidTagPropertyDescriptor](pidtagpropertydescriptor)(string, int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
-| [PidTagPropertyDescriptor](pidtagpropertydescriptor)(string, string, long) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
-| [PidTagPropertyDescriptor](pidtagpropertydescriptor)(string, string, int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
+| [PidTagPropertyDescriptor](pidtagpropertydescriptor#constructor_1)(long) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
+| [PidTagPropertyDescriptor](pidtagpropertydescriptor#constructor)(int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
+| [PidTagPropertyDescriptor](pidtagpropertydescriptor#constructor_2)(string, int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
+| [PidTagPropertyDescriptor](pidtagpropertydescriptor#constructor_4)(string, string, long) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
+| [PidTagPropertyDescriptor](pidtagpropertydescriptor#constructor_3)(string, string, int, PropertyDataType) | Initializes a new instance of the [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties |
 
 ## Properties
 
@@ -39,8 +39,8 @@ public class PidTagPropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.mapi/pidtagpropertydescriptor/equals)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
-| override [Equals](../../aspose.email.mapi/pidtagpropertydescriptor/equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
+| override [Equals](../../aspose.email.mapi/pidtagpropertydescriptor/equals#equals_1)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
+| override [Equals](../../aspose.email.mapi/pidtagpropertydescriptor/equals#equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
 | override [GetHashCode](../../aspose.email.mapi/pidtagpropertydescriptor/gethashcode)() | Serves as a hash function for a type. |
 | override [ToString](../../aspose.email.mapi/pidtagpropertydescriptor/tostring)() | Returns a string that represents the property description. |
 | [operator ==](../../aspose.email.mapi/pidtagpropertydescriptor/op_equality) | Determines whether the specified objects are equal to each another. |

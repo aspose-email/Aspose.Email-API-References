@@ -1,14 +1,14 @@
 ---
 title: MailboxOwnerEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID в глобальном списке адресов GAL владельца почтового ящика. ОбластьСвойства хранилища сообщений Каноническое имяPidTagMailboxOwnerEntryId Альтернативные именаPR_MAILBOX_OWNER_ENTRYID ptagMailboxOwnerEntryId
+description: Содержит EntryID в глобальном списке адресов GAL владельца почтового ящика. Область свойства хранилища сообщений Каноническое имя PidTagMailboxOwnerEntryId Альтернативные имена PR_MAILBOX_OWNER_ENTRYID ptagMailboxOwnerEntryId
 type: docs
 weight: 12320
 url: /ru/net/aspose.email.mapi/knownpropertylist/mailboxownerentryid/
 ---
 ## KnownPropertyList.MailboxOwnerEntryId field
 
-Содержит EntryID в глобальном списке адресов (GAL) владельца почтового ящика. Область:Свойства хранилища сообщений Каноническое имя:PidTagMailboxOwnerEntryId Альтернативные имена:PR_MAILBOX_OWNER_ENTRYID, ptagMailboxOwnerEntryId
+Содержит EntryID в глобальном списке адресов (GAL) владельца почтового ящика. Область: свойства хранилища сообщений Каноническое имя: PidTagMailboxOwnerEntryId Альтернативные имена: PR_MAILBOX_OWNER_ENTRYID, ptagMailboxOwnerEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MailboxOwnerEntryId;

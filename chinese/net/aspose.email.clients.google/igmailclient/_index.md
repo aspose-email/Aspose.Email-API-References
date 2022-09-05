@@ -1,14 +1,14 @@
 ---
 title: IGmailClient
 second_title: Aspose.Email for .NET API 参考
-description: 代表Gmail客户端的接口
+description: 代表 Gmail 客户端的接口
 type: docs
 weight: 15790
 url: /zh/net/aspose.email.clients.google/igmailclient/
 ---
 ## IGmailClient interface
 
-代表Gmail客户端的接口
+代表 Gmail 客户端的接口
 
 ```csharp
 public interface IGmailClient : IBaseGmailClient
@@ -21,15 +21,15 @@ public interface IGmailClient : IBaseGmailClient
 | [ClearCalendar](../../aspose.email.clients.google/igmailclient/clearcalendar)(string) | 清除日历。 |
 | [CreateAccessRule](../../aspose.email.clients.google/igmailclient/createaccessrule)(string, AccessControlRule) | 创建访问规则 |
 | [CreateAppointment](../../aspose.email.clients.google/igmailclient/createappointment)(string, Appointment) | 创建约会。 |
-| [CreateCalendar](../../aspose.email.clients.google/igmailclient/createcalendar#createcalendar)(Calendar) | 创建日历。 |
-| [CreateCalendar](../../aspose.email.clients.google/igmailclient/createcalendar#createcalendar_1)(Calendar, bool) | 创建日历。 |
+| [CreateCalendar](../../aspose.email.clients.google/igmailclient/createcalendar#createcalendar)(Calendar) | 创建一个日历。 |
+| [CreateCalendar](../../aspose.email.clients.google/igmailclient/createcalendar#createcalendar_1)(Calendar, bool) | 创建一个日历。 |
 | [CreateContact](../../aspose.email.clients.google/igmailclient/createcontact#createcontact)(Contact) | 为指定的电子邮件创建联系人 |
 | [CreateContact](../../aspose.email.clients.google/igmailclient/createcontact#createcontact_1)(Contact, string) | 为指定的电子邮件创建联系人 |
 | [CreateContactPhoto](../../aspose.email.clients.google/igmailclient/createcontactphoto)(Contact, byte[]) | 创建联系人照片 |
 | [DeleteAccessRule](../../aspose.email.clients.google/igmailclient/deleteaccessrule)(string, string) | 删除访问规则 |
 | [DeleteAppointment](../../aspose.email.clients.google/igmailclient/deleteappointment)(string, string) | 删除约会。 |
 | [DeleteCalendar](../../aspose.email.clients.google/igmailclient/deletecalendar)(string) | 删除日历。 |
-| [DeleteContact](../../aspose.email.clients.google/igmailclient/deletecontact)(string) | 删除指定联系人 |
+| [DeleteContact](../../aspose.email.clients.google/igmailclient/deletecontact)(string) | 删除指定的联系人 |
 | [DeleteContactPhoto](../../aspose.email.clients.google/igmailclient/deletecontactphoto)(ContactPhoto) | 删除联系人照片 |
 | [FetchAccessRule](../../aspose.email.clients.google/igmailclient/fetchaccessrule)(string, string) | 获取访问规则 |
 | [FetchAppointment](../../aspose.email.clients.google/igmailclient/fetchappointment)(string, string) | 按标识符获取约会。 |
@@ -37,13 +37,13 @@ public interface IGmailClient : IBaseGmailClient
 | [GetAllContacts](../../aspose.email.clients.google/igmailclient/getallcontacts)() | 获取所有联系人。 |
 | [GetAllGroups](../../aspose.email.clients.google/igmailclient/getallgroups)() | 获取所有联系人组。 |
 | [GetColors](../../aspose.email.clients.google/igmailclient/getcolors)() | 获取颜色信息 |
-| [GetContact](../../aspose.email.clients.google/igmailclient/getcontact#getcontact)(Contact) | 联系人刷新PersonalInfo。Contact对象，表示 gmail 操作失败时的联系人 |
+| [GetContact](../../aspose.email.clients.google/igmailclient/getcontact#getcontact)(Contact) | 联系刷新[`Contact`](../../aspose.email.personalinfo/contact)对象，代表 gmail 的联系人当操作失败时 |
 | [GetContact](../../aspose.email.clients.google/igmailclient/getcontact#getcontact_1)(string) | 获取联系人 |
 | [GetContactsFromGroup](../../aspose.email.clients.google/igmailclient/getcontactsfromgroup)(string) | 获取属于指定组的联系人。 |
-| [GetFreebusyInfo](../../aspose.email.clients.google/igmailclient/getfreebusyinfo)(FreebusyQuery) | 获取空闲/忙碌信息 |
+| [GetFreebusyInfo](../../aspose.email.clients.google/igmailclient/getfreebusyinfo)(FreebusyQuery) | 获取忙/闲信息 |
 | [GetPhoto](../../aspose.email.clients.google/igmailclient/getphoto#getphoto)(ContactPhoto) | 获取联系人照片 |
 | [GetPhoto](../../aspose.email.clients.google/igmailclient/getphoto#getphoto_1)(string) | 获取联系人照片 |
-| [GetSetting](../../aspose.email.clients.google/igmailclient/getsetting)(string) | 通过名称获取设置 |
+| [GetSetting](../../aspose.email.clients.google/igmailclient/getsetting)(string) | 按名称获取设置 |
 | [GetSettings](../../aspose.email.clients.google/igmailclient/getsettings)() | 获取设置字典 |
 | [ImportAppointment](../../aspose.email.clients.google/igmailclient/importappointment)(string, Appointment) | 将约会导入日历 |
 | [ListAccessRules](../../aspose.email.clients.google/igmailclient/listaccessrules)(string) | 获取访问规则列表 |

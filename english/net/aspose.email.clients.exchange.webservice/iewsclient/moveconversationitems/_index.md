@@ -1,12 +1,12 @@
 ---
 title: MoveConversationItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the conversation items into the specified target folder
 type: docs
 weight: 1280
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/moveconversationitems/
 ---
-## IEWSClient.MoveConversationItems method (1 of 2)
+## MoveConversationItems(string, string) {#moveconversationitems}
 
 Moves the conversation items into the specified target folder
 
@@ -34,7 +34,7 @@ public void MoveConversationItems(string conversationId, string destinationFolde
 
 ---
 
-## IEWSClient.MoveConversationItems method (2 of 2)
+## MoveConversationItems(string, string, string) {#moveconversationitems_1}
 
 Moves the conversation items, which are located in the specified folder, into the specified target folder
 

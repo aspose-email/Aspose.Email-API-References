@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/blocked/
 ---
 ## O365URLTimeOfClickActivity.Blocked property
 
-如果 URL 单击被 Office 365 ATP 安全链接保护阻止，则为 true。 强制:是
+如果 URL 单击被 Office 365 ATP 安全链接保护阻止，则为 true。 强制：是
 
 ```csharp
 public bool? Blocked { get; set; }

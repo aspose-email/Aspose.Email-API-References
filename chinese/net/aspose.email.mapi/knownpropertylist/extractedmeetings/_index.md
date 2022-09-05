@@ -1,14 +1,14 @@
 ---
 title: ExtractedMeetings
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 MeetingSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedMeetings 替代名称dispidXmlExtractedMeetings
+description: 包含一个带有单个 MeetingSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedMeetings 备用名称dispidXmlExtractedMeetings
 type: docs
 weight: 10070
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedmeetings/
 ---
 ## KnownPropertyList.ExtractedMeetings field
 
-包含一个带有单个 MeetingSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedMeetings 替代名称:dispidXmlExtractedMeetings
+包含一个带有单个 MeetingSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedMeetings 备用名称：dispidXmlExtractedMeetings
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedMeetings;

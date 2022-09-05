@@ -1,14 +1,14 @@
 ---
 title: WordCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的字数 区域普通 规范名称PidNameWordCount 备用名称urnschemas-microsoft-comofficeofficeWords
+description: 指定附加到文档对象的文件的字数 区域Common 规范名称PidNameWordCount 备用名称urnschemas-microsoft-comofficeofficeWords
 type: docs
 weight: 19540
 url: /zh/net/aspose.email.mapi/knownpropertylist/wordcount/
 ---
 ## KnownPropertyList.WordCount field
 
-指定附加到 Document 对象的文件的字数。 区域：普通 规范名称：PidNameWordCount 备用名称：urn:schemas-microsoft-com:office:office#Words
+指定附加到文档对象的文件的字数。 区域：Common 规范名称：PidNameWordCount 备用名称：urn:schemas-microsoft-com:office:office#Words
 
 ```csharp
 public static readonly PidNamePropertyDescriptor WordCount;

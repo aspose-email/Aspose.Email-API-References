@@ -18,15 +18,15 @@ public class SendGridClient : IDeliveryServiceClient
 
 | Имя | Описание |
 | --- | --- |
-| [SendGridClient](sendgridclient)(string, bool) | Инициализирует новый экземпляр класса[`SendGridClient`](../sendgridclient) |
+| [SendGridClient](sendgridclient)(string, bool) | Инициализирует новый экземпляр[`SendGridClient`](../sendgridclient) класс |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Send](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Синхронно отправляет электронную почту |
-| [SendAsync](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Асинхронно отправляет электронную почту |
+| virtual [Dispose](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Send](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Отправляет электронную почту синхронно |
+| [SendAsync](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Отправляет электронную почту асинхронно |
 
 ### Смотрите также
 

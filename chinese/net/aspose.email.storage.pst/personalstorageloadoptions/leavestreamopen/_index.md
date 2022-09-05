@@ -1,14 +1,14 @@
 ---
 title: LeaveStreamOpen
 second_title: Aspose.Email for .NET API 参考
-description: 释放 PersonalStorage 时保持流打开当使用FromFileaspose.email.storage.pst/personalstorage/fromfile方法时应该始终为 false
+description: 释放 PersonalStorage 时让流保持打开状态应该总是假的FromFileaspose.email.storage.pst/personalstorage/fromfile使用方法
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen/
 ---
 ## PersonalStorageLoadOptions.LeaveStreamOpen property
 
-释放 PersonalStorage 时保持流打开。当使用[`FromFile`](../../personalstorage/fromfile)方法时，应该始终为 false。
+释放 PersonalStorage 时让流保持打开状态。应该总是假的[`FromFile`](../../personalstorage/fromfile)使用方法。
 
 ```csharp
 public bool LeaveStreamOpen { get; set; }

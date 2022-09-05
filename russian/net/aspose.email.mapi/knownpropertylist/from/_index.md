@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает псевдоним электронной почты SMTP организатора встречи или собрания. ОбластьEmail Каноническое имяPidNameFrom Альтернативные именаurnschemascalendarorganizer
+description: Указывает псевдоним электронной почты SMTP организатора встречи или собрания. Область Email Каноническое имя PidNameFrom Альтернативные имена urnschemascalendarorganizer
 type: docs
 weight: 10710
 url: /ru/net/aspose.email.mapi/knownpropertylist/from/
 ---
 ## KnownPropertyList.From field
 
-Указывает псевдоним электронной почты SMTP организатора встречи или собрания. Область:Email Каноническое имя:PidNameFrom Альтернативные имена:urn:schemas:calendar:organizer
+Указывает псевдоним электронной почты SMTP организатора встречи или собрания. Область: Email Каноническое имя: PidNameFrom Альтернативные имена: urn:schemas:calendar:organizer
 
 ```csharp
 public static readonly PidNamePropertyDescriptor From;

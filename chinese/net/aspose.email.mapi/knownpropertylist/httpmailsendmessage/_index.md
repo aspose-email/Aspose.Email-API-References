@@ -1,14 +1,14 @@
 ---
 title: HttpmailSendMessage
 second_title: Aspose.Email for .NET API 参考
-description: 指定向外发送电子邮件的电子邮件提交 URI 区域通用 规范名称PidNameHttpmailSendMessage 备用名称urnschemashttpmailsendmsg
+description: 指定提交外发电子邮件的电子邮件提交 URI 区域Common 规范名称PidNameHttpmailSendMessage 备用名称urnschemashttpmailsendmsg
 type: docs
 weight: 11130
 url: /zh/net/aspose.email.mapi/knownpropertylist/httpmailsendmessage/
 ---
 ## KnownPropertyList.HttpmailSendMessage field
 
-指定向外发送电子邮件的电子邮件提交 URI。 区域:通用 规范名称:PidNameHttpmailSendMessage 备用名称:urn:schemas:httpmail:sendmsg
+指定提交外发电子邮件的电子邮件提交 URI。 区域：Common 规范名称：PidNameHttpmailSendMessage 备用名称：urn:schemas:httpmail:sendmsg
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailSendMessage;

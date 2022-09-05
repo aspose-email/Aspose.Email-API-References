@@ -1,14 +1,14 @@
 ---
 title: ExchangeListContactsOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет параметры списка контактов
+description: Перечисляет список контактов options
 type: docs
 weight: 3810
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangelistcontactsoptions/
 ---
 ## ExchangeListContactsOptions enumeration
 
-Перечисляет параметры списка контактов
+Перечисляет список контактов options
 
 ```csharp
 [Flags]
@@ -20,8 +20,8 @@ public enum ExchangeListContactsOptions
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Конкретные параметры не определены |
-| FetchPhoto | `1` | Определяет, будет ли фото контакта извлекаться с сервера. |
-| FetchPhotoAndAttachments | `3` | Определяет, будет ли фото контакта извлекаться с сервера. |
+| FetchPhoto | `1` | Определяет, будет ли фотография контакта извлекаться с сервера. |
+| FetchPhotoAndAttachments | `3` | Определяет, будет ли фотография контакта извлекаться с сервера. |
 
 ### Смотрите также
 

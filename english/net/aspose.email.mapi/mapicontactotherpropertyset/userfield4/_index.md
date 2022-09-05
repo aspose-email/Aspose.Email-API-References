@@ -1,7 +1,7 @@
 ---
 title: UserField4
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the forth field on the contact that is intended for miscellaneous use for the contact.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/userfield4/

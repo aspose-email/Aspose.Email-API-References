@@ -25,7 +25,7 @@ public class RightsManagementTemplate
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TemplateDescription](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatedescription) { get; set; } | 模板说明 |
+| [TemplateDescription](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatedescription) { get; set; } | 模板描述 |
 | [TemplateID](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templateid) { get; set; } | 模板标识符 |
 | [TemplateName](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatename) { get; set; } | 模板名称 |
 

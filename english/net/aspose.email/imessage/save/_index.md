@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves message to the specified file
 type: docs
 weight: 110
 url: /net/aspose.email/imessage/save/
 ---
-## IMessage.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Saves message to the specified file
 
@@ -26,7 +26,7 @@ public void Save(string fileName)
 
 ---
 
-## IMessage.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Saves message to the specified stream
 

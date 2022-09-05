@@ -24,16 +24,16 @@ public class Section
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Expanded](../../aspose.email.amp/section/expanded) { get; set; } | 在页面加载时将部分显示为展开。 |
-| [Header](../../aspose.email.amp/section/header) { get; set; } | 表示节的标题。 |
-| [Value](../../aspose.email.amp/section/value) { get; set; } | 表示节的内容。 |
+| [Expanded](../../aspose.email.amp/section/expanded) { get; set; } | 将部分显示为在页面加载时展开。 |
+| [Header](../../aspose.email.amp/section/header) { get; set; } | 表示该部分的标题。 |
+| [Value](../../aspose.email.amp/section/value) { get; set; } | 代表部分的内容。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ToAmpHtml](../../aspose.email.amp/section/toamphtml)() | AmpHtml 表示部分值。 |
-| [ToHtml](../../aspose.email.amp/section/tohtml)() | 节的 HTML 表示。 |
+| [ToAmpHtml](../../aspose.email.amp/section/toamphtml)() | 部分值的 AmpHtml 表示。 |
+| [ToHtml](../../aspose.email.amp/section/tohtml)() | 部分的 Html 表示。 |
 
 ### 也可以看看
 

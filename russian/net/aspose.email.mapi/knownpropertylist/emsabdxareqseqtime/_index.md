@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaReqSeqTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_REQ_SEQ_TIME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_REQ_SEQ_TIME
 type: docs
 weight: 5950
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxareqseqtime/
 ---
 ## KnownPropertyList.EmsAbDxaReqSeqTime field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_REQ_SEQ_TIME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_REQ_SEQ_TIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaReqSeqTime;

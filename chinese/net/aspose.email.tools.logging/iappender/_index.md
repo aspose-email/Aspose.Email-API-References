@@ -3,7 +3,7 @@ title: IAppender
 second_title: Aspose.Email for .NET API 参考
 description: 为您自己的打印日志条目策略实现此接口
 type: docs
-weight: 20450
+weight: 20500
 url: /zh/net/aspose.email.tools.logging/iappender/
 ---
 ## IAppender interface
@@ -18,7 +18,7 @@ public interface IAppender
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Formatter](../../aspose.email.tools.logging/iappender/formatter) { get; set; } | 获取或设置 IFormatter。 |
+| [Formatter](../../aspose.email.tools.logging/iappender/formatter) { get; set; } | 获取或设置 IFormatter. |
 
 ## 方法
 

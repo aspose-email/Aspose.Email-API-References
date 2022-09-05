@@ -1,14 +1,14 @@
 ---
 title: ProofOfSubmission
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROOF_OF_SUBMISSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROOF_OF_SUBMISSION
 type: docs
 weight: 15020
 url: /ru/net/aspose.email.mapi/knownpropertylist/proofofsubmission/
 ---
 ## KnownPropertyList.ProofOfSubmission field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROOF_OF_SUBMISSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROOF_OF_SUBMISSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProofOfSubmission;

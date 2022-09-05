@@ -1,14 +1,14 @@
 ---
 title: RecordKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含特定对象的唯一二进制可比较标识符 区域ID 属性 规范名称PidTagRecordKey 替代名称PR_RECORD_KEY ptagRecordKey
+description: 包含特定对象的唯一二进制可比标识符 区域ID Properties 规范名称PidTagRecordKey 替代名称PR_RECORD_KEYptagRecordKey
 type: docs
 weight: 15570
 url: /zh/net/aspose.email.mapi/knownpropertylist/recordkey/
 ---
 ## KnownPropertyList.RecordKey field
 
-包含特定对象的唯一二进制可比较标识符。 区域:ID 属性 规范名称:PidTagRecordKey 替代名称:PR_RECORD_KEY, ptagRecordKey
+包含特定对象的唯一二进制可比标识符。 区域：ID Properties 规范名称：PidTagRecordKey 替代名称：PR_RECORD_KEY、ptagRecordKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecordKey;

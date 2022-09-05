@@ -1,14 +1,14 @@
 ---
 title: VCardUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойство URL vCard
+description: Представляет URL-адрес vCard property
 type: docs
-weight: 19750
+weight: 19800
 url: /ru/net/aspose.email.personalinfo.vcard/vcardurl/
 ---
 ## VCardUrl class
 
-Представляет свойство URL vCard
+Представляет URL-адрес vCard property
 
 ```csharp
 public sealed class VCardUrl
@@ -18,14 +18,14 @@ public sealed class VCardUrl
 
 | Имя | Описание |
 | --- | --- |
-| [VCardUrl](vcardurl)() | Инициализирует новый экземпляр класса[`VCardUrl`](../vcardurl)class |
+| [VCardUrl](vcardurl)() | Инициализирует новый экземпляр[`VCardUrl`](../vcardurl) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Url](../../aspose.email.personalinfo.vcard/vcardurl/url) { get; set; } | Получает или устанавливает URL-адрес |
-| [UrlType](../../aspose.email.personalinfo.vcard/vcardurl/urltype) { get; set; } | Получает или задает тип URL-адреса |
+| [Url](../../aspose.email.personalinfo.vcard/vcardurl/url) { get; set; } | Получает или задает URL |
+| [UrlType](../../aspose.email.personalinfo.vcard/vcardurl/urltype) { get; set; } | Получает или задает тип URL |
 
 ### Смотрите также
 

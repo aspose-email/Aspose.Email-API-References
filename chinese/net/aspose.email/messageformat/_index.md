@@ -1,14 +1,14 @@
 ---
 title: MessageFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件消息格式可以是emlmsg 或mhtml 格式
+description: 代表邮件消息格式可以是emlmsg或者mhtml格式
 type: docs
-weight: 19020
+weight: 19050
 url: /zh/net/aspose.email/messageformat/
 ---
 ## MessageFormat class
 
-表示邮件消息格式。可以是eml,msg 或mhtml 格式。
+代表邮件消息格式，可以是eml,msg或者mhtml格式。
 
 ```csharp
 public sealed class MessageFormat
@@ -18,20 +18,20 @@ public sealed class MessageFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Eml](../../aspose.email/messageformat/eml) { get; } | 表示 **Eml** 格式的消息。 |
-| static [Emlx](../../aspose.email/messageformat/emlx) { get; } | 表示 **Emlx** 格式的消息，由 Apple Mail 使用。 |
-| static [Html](../../aspose.email/messageformat/html) { get; } | 表示 **Html** 格式的消息。 |
-| static [Mht](../../aspose.email/messageformat/mht) { get; } | 表示 **Mht** 格式的消息。 |
-| static [Msg](../../aspose.email/messageformat/msg) { get; } | 表示 **Msg** 格式的消息，由 Microsoft Outlook 使用。 |
-| static [Tnef](../../aspose.email/messageformat/tnef) { get; } | 表示 **Tnef** 格式的消息。 |
+| static [Eml](../../aspose.email/messageformat/eml) { get; } | 表示消息在 **埃米尔**格式. |
+| static [Emlx](../../aspose.email/messageformat/emlx) { get; } | 表示消息在 **埃米克斯**格式，由 Apple Mail 使用。 |
+| static [Html](../../aspose.email/messageformat/html) { get; } | 表示消息在 **html**格式. |
+| static [Mht](../../aspose.email/messageformat/mht) { get; } | 表示消息在 **甲基叔丁基醚**格式. |
+| static [Msg](../../aspose.email/messageformat/msg) { get; } | 表示消息在 **消息**格式，由 Microsoft Outlook. 使用 |
+| static [Tnef](../../aspose.email/messageformat/tnef) { get; } | 表示消息在 **Tnef**格式. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email/messageformat/equals)(object) | 等于指定的o。 |
+| override [Equals](../../aspose.email/messageformat/equals)(object) | 等于指定的 o. |
 | override [GetHashCode](../../aspose.email/messageformat/gethashcode)() | 用作特定类型的哈希函数。 |
-| override [ToString](../../aspose.email/messageformat/tostring)() | 返回代表当前Object的String。 |
+| override [ToString](../../aspose.email/messageformat/tostring)() | 返回一个String代表当前Object. |
 
 ### 也可以看看
 

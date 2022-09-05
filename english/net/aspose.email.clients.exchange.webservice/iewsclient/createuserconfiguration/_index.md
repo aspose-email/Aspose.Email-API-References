@@ -1,7 +1,7 @@
 ---
 title: CreateUserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified user configuration
 type: docs
 weight: 560
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createuserconfiguration/

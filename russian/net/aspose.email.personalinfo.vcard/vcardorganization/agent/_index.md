@@ -1,14 +1,14 @@
 ---
 title: Agent
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает агент
+description: Получает или задает агент
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardorganization/agent/
 ---
 ## VCardOrganization.Agent property
 
-Получает или устанавливает агент
+Получает или задает агент
 
 ```csharp
 public VCardAgent Agent { get; set; }

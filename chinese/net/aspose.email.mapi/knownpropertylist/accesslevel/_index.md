@@ -1,14 +1,14 @@
 ---
 title: AccessLevel
 second_title: Aspose.Email for .NET API 参考
-description: 表示客户端对对象的访问级别 区域访问控制属性 规范名称PidTagAccessLevel 备用名称PR_ACCESS_LEVEL ptagAccessLevel
+description: 表示客户端对对象的访问级别 区域访问控制属性 规范名称PidTagAccessLevel 备用名称PR_ACCESS_LEVELptagAccessLevel
 type: docs
 weight: 270
 url: /zh/net/aspose.email.mapi/knownpropertylist/accesslevel/
 ---
 ## KnownPropertyList.AccessLevel field
 
-表示客户端对对象的访问级别。 区域:访问控制属性 规范名称:PidTagAccessLevel 备用名称:PR_ACCESS_LEVEL, ptagAccessLevel
+表示客户端对对象的访问级别。 区域：访问控制属性 规范名称：PidTagAccessLevel 备用名称：PR_ACCESS_LEVEL、ptagAccessLevel
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AccessLevel;

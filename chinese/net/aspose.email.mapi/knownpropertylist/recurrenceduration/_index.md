@@ -1,14 +1,14 @@
 ---
 title: RecurrenceDuration
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议的时长以分钟为单位 区域日历 规范名称PidLidRecurrenceDuration 替代名称
+description: 标识约会或会议的长度以分钟为单位 区域Calendar 规范名称PidLidRecurrenceDuration 别名
 type: docs
 weight: 15580
 url: /zh/net/aspose.email.mapi/knownpropertylist/recurrenceduration/
 ---
 ## KnownPropertyList.RecurrenceDuration field
 
-标识约会或会议的时长（以分钟为单位）。 区域:日历 规范名称:PidLidRecurrenceDuration 替代名称:
+标识约会或会议的长度（以分钟为单位）。 区域：Calendar 规范名称：PidLidRecurrenceDuration 别名：
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrenceDuration;

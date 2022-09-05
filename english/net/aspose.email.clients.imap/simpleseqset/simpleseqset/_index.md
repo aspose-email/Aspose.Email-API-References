@@ -1,12 +1,12 @@
 ---
 title: SimpleSeqSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SimpleSeqSetaspose.email.clients.imap/simpleseqset class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/simpleseqset/simpleseqset/
 ---
-## SimpleSeqSet constructor (1 of 2)
+## SimpleSeqSet() {#constructor}
 
 Initializes a new instance of the [`SimpleSeqSet`](../../simpleseqset) class.
 
@@ -22,7 +22,7 @@ public SimpleSeqSet()
 
 ---
 
-## SimpleSeqSet constructor (2 of 2)
+## SimpleSeqSet(string) {#constructor_1}
 
 Initializes a new instance of the [`SimpleSeqSet`](../../simpleseqset) class.
 

@@ -1,14 +1,14 @@
 ---
 title: PropertyKind
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置已命名的属性的种类
+description: 获取或设置已命名的属性类型
 type: docs
 weight: 90
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/propertykind/
 ---
 ## MessageObjectProperty.PropertyKind property
 
-获取或设置已命名的属性的种类。
+获取或设置已命名的属性类型。
 
 ```csharp
 public NamedPropertyKind PropertyKind { get; set; }
@@ -16,7 +16,7 @@ public NamedPropertyKind PropertyKind { get; set; }
 
 ### 适当的价值
 
-属性的种类。
+财产的种类。
 
 ### 也可以看看
 

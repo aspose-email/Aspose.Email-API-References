@@ -1,14 +1,14 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAppointmentIcsSaveOptionsaspose.email.calendar/appointmenticssaveoptions
+description: Инициализирует новый экземплярAppointmentIcsSaveOptionsaspose.email.calendar/appointmenticssaveoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointmenticssaveoptions/appointmenticssaveoptions/
 ---
 ## AppointmentIcsSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions)
+Инициализирует новый экземпляр[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) класс
 
 ```csharp
 public AppointmentIcsSaveOptions()
@@ -24,7 +24,7 @@ public AppointmentIcsSaveOptions()
 
 ## AppointmentIcsSaveOptions(AppointmentAction) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions)
+Инициализирует новый экземпляр[`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) класс
 
 ```csharp
 public AppointmentIcsSaveOptions(AppointmentAction method)
@@ -32,7 +32,7 @@ public AppointmentIcsSaveOptions(AppointmentAction method)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| method | AppointmentAction | Метод встречи |
+| method | AppointmentAction | Метод назначения |
 
 ### Смотрите также
 

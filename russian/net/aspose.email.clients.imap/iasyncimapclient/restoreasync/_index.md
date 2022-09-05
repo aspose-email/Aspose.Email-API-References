@@ -18,7 +18,7 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pst | PersonalStorage | Личное хранилище, содержащее резервные копии папок imap. |
-| settings | RestoreSettings | Параметры восстановления |
+| settings | RestoreSettings | Настройки восстановления |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

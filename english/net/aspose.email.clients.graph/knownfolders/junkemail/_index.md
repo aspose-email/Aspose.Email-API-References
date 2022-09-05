@@ -1,7 +1,7 @@
 ---
 title: Junkemail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The junk email folder.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.graph/knownfolders/junkemail/

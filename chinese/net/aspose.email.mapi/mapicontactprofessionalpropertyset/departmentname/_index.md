@@ -1,14 +1,14 @@
 ---
 title: DepartmentName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置联系人所属部门
+description: 获取或设置联系人所属部门 的名称
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapicontactprofessionalpropertyset/departmentname/
 ---
 ## MapiContactProfessionalPropertySet.DepartmentName property
 
-获取或设置联系人所属部门
+获取或设置联系人所属部门 的名称
 
 ```csharp
 public string DepartmentName { get; set; }

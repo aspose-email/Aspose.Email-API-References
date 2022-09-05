@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds value to search.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/sequencesetfield/add/

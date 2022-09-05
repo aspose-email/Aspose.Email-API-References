@@ -1,7 +1,7 @@
 ---
 title: ViewDescriptorName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area MessageClassDefinedTransmittable Canonical name PidTagViewDescriptorName Alternate names PR_VD_NAME PR_VD_NAME_W
 type: docs
 weight: 19260
 url: /net/aspose.email.mapi/knownpropertylist/viewdescriptorname/

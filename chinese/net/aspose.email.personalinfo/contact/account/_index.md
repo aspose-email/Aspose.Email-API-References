@@ -1,14 +1,14 @@
 ---
 title: Account
 second_title: Aspose.Email for .NET API 参考
-description: 包含地址簿对象的别名这是可以识别对象的替代名称
+description: 包含通讯簿对象的别名它是可用于识别对象的替代名称
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo/contact/account/
 ---
 ## Contact.Account property
 
-包含地址簿对象的别名，这是可以识别对象的替代名称。
+包含通讯簿对象的别名，它是可用于识别对象的替代名称。
 
 ```csharp
 public string Account { get; set; }

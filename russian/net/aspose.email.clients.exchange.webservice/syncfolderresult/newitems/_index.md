@@ -1,14 +1,14 @@
 ---
 title: NewItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Сбор новинок в указанной папке.
+description: Сбор новых элементов в указанной папке.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.webservice/syncfolderresult/newitems/
 ---
 ## SyncFolderResult.NewItems property
 
-Сбор новинок в указанной папке.
+Сбор новых элементов в указанной папке.
 
 ```csharp
 public ExchangeMessageInfoCollection NewItems { get; }

@@ -1,7 +1,7 @@
 ---
 title: PropertyStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the property stream.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapirecipient/propertystream/

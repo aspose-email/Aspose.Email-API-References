@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите три физических адреса Домашний адрес Рабочий адрес и Другой адрес. Один из адресов можно пометить как Почтовый адрес
+description: Укажите три физических адреса Домашний адрес Рабочий адрес и Другой адрес. Один из адресов может быть помечен как Почтовый адрес
 type: docs
-weight: 18280
+weight: 18310
 url: /ru/net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet class
 
-Укажите три физических адреса: Домашний адрес, Рабочий адрес и Другой адрес. Один из адресов можно пометить как Почтовый адрес
+Укажите три физических адреса: Домашний адрес, Рабочий адрес и Другой адрес. Один из адресов может быть помечен как Почтовый адрес
 
 ```csharp
 public sealed class MapiContactPhysicalAddressPropertySet
@@ -18,8 +18,8 @@ public sealed class MapiContactPhysicalAddressPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor)() | Инициализирует новый экземпляр класса[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset)class |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр класса[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset)class |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) класс |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) класс |
 
 ## Характеристики
 

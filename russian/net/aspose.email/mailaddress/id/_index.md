@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает идентификационную информацию об объекте
+description: Получает информацию об идентификации объекта
 type: docs
 weight: 60
 url: /ru/net/aspose.email/mailaddress/id/
 ---
 ## MailAddress.Id property
 
-Получает идентификационную информацию об объекте
+Получает информацию об идентификации объекта
 
 ```csharp
 public ObjectIdentifier Id { get; }

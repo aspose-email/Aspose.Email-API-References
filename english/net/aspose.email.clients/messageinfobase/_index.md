@@ -1,9 +1,9 @@
 ---
 title: MessageInfoBase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MessageInfo represents the EMail message info fetched from the mail server.
 type: docs
-weight: 16650
+weight: 16760
 url: /net/aspose.email.clients/messageinfobase/
 ---
 ## MessageInfoBase class

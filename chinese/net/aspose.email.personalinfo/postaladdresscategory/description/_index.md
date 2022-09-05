@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮政地址自定义类别的描述
+description: 获取邮政地址的自定义类别的描述
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo/postaladdresscategory/description/
 ---
 ## PostalAddressCategory.Description property
 
-获取邮政地址“自定义”类别的描述
+获取邮政地址的“自定义”类别的描述
 
 ```csharp
 public string Description { get; }

@@ -16,7 +16,7 @@ public MapiMessage GetUnderlyingMessage()
 
 ### Возвращаемое значение
 
-Объект[`MapiMessage`](../../mapimessage).
+[`MapiMessage`](../../mapimessage) объект.
 
 ### Смотрите также
 

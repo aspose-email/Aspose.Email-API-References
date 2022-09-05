@@ -1,7 +1,7 @@
 ---
 title: MailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox information.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/mailboxinfo/

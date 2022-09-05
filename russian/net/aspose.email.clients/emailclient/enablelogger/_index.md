@@ -1,14 +1,14 @@
 ---
 title: EnableLogger
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает значение которое позволяет включить/отключить регистратор
+description: Получает или устанавливает значение которое позволяет включить/выключить logger
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients/emailclient/enablelogger/
 ---
 ## EmailClient.EnableLogger property
 
-Получает или устанавливает значение, которое позволяет включить/отключить регистратор
+Получает или устанавливает значение, которое позволяет включить/выключить logger
 
 ```csharp
 public bool EnableLogger { get; set; }

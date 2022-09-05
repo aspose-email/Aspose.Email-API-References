@@ -1,14 +1,14 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API 参考
-description: 指定源消息的长 ID在 Search 命令中返回 如果 LongId 存在则 FolderIdItemId 和 InstanceId 不存在 LongId 值最长可达 256 个字符
+description: 指定搜索命令中返回的源消息的长 ID 如果 LongId 存在则 FolderIdItemId 和 InstanceId 不存在 LongId 值最长可达 256 个字符
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequestsource/longid/
 ---
 ## SmartRequestSource.LongId property
 
-指定源消息的长 ID，在 Search 命令中返回。 如果 LongId 存在，则 FolderId、ItemId 和 InstanceId 不存在。 LongId 值最长可达 256 个字符。
+指定搜索命令中返回的源消息的长 ID。 如果 LongId 存在，则 FolderId、ItemId 和 InstanceId 不存在。 LongId 值最长可达 256 个字符。
 
 ```csharp
 public string LongId { get; set; }

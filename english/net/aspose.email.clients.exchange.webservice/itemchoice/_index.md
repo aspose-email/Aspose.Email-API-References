@@ -1,7 +1,7 @@
 ---
 title: ItemChoice
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies property type which should be used for Exchange impersonation.
 type: docs
 weight: 3970
 url: /net/aspose.email.clients.exchange.webservice/itemchoice/

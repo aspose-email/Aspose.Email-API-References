@@ -1,7 +1,7 @@
 ---
 title: ContainerClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets folders with an specified message class.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/containerclass/

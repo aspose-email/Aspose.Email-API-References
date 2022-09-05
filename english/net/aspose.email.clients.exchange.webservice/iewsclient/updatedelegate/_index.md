@@ -1,7 +1,7 @@
 ---
 title: UpdateDelegate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the delegate user settings who is granted access on the specified mailbox.
 type: docs
 weight: 1460
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatedelegate/

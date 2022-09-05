@@ -1,7 +1,7 @@
 ---
 title: CalendarDescriptionUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the URL of a resource that contains a description of an appointment or meeting. Area Common Canonical name PidNameCalendarDescriptionUrl Alternate names urnschemascalendardescriptionurl
 type: docs
 weight: 2230
 url: /net/aspose.email.mapi/knownpropertylist/calendardescriptionurl/

@@ -1,7 +1,7 @@
 ---
 title: SyncFolderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Folder synchronization types
 type: docs
 weight: 15500
 url: /net/aspose.email.clients.exchange.webservice/syncfoldertype/

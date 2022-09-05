@@ -1,14 +1,14 @@
 ---
 title: CreateFolder
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定名称的文件夹
+description: 创建一个具有指定名称的文件夹
 type: docs
 weight: 520
 url: /zh/net/aspose.email.clients.imap/imapclient/createfolder/
 ---
 ## CreateFolder(IConnection, string) {#createfolder}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public void CreateFolder(IConnection connection, string folderName)
@@ -30,7 +30,7 @@ public void CreateFolder(IConnection connection, string folderName)
 
 ## CreateFolder(string) {#createfolder_1}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public void CreateFolder(string folderName)
@@ -38,7 +38,7 @@ public void CreateFolder(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 要成为的文件夹创建 |
+| folderName | String | 要创建的文件夹 |
 
 ### 也可以看看
 

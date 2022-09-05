@@ -1,14 +1,14 @@
 ---
 title: EmsAbGwartLastModified
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_GWART_LAST_MODIFIED
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_GWART_LAST_MODIFIED
 type: docs
 weight: 6480
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabgwartlastmodified/
 ---
 ## KnownPropertyList.EmsAbGwartLastModified field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_GWART_LAST_MODIFIED
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_GWART_LAST_MODIFIED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGwartLastModified;

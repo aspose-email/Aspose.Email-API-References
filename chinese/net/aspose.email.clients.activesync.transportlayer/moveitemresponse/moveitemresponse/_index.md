@@ -32,9 +32,9 @@ public MoveItemResponse(Status status, string srcMsgId, string dstMsgId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| status | Status | 表示 MoveItems 命令请求成功或失败。 |
+| status | Status | 指示 MoveItems 命令请求的成功或失败。 |
 | srcMsgId | String | 指定要移动的项目的服务器 ID。 |
-| dstMsgId | String | 指定项目移动到目标文件夹后的新服务器 ID。 |
+| dstMsgId | String | 指定项目移动到目标文件夹后项目的新服务器 ID。 |
 
 ### 也可以看看
 

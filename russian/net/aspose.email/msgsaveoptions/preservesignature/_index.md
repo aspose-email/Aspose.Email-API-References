@@ -1,14 +1,14 @@
 ---
 title: PreserveSignature
 second_title: Справочник по Aspose.Email для .NET API
-description: Установить в true если подпись должна быть сохранена.
+description: Установите значение true если подпись должна быть сохранена.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/msgsaveoptions/preservesignature/
 ---
 ## MsgSaveOptions.PreserveSignature property
 
-Установить в true, если подпись должна быть сохранена.
+Установите значение true, если подпись должна быть сохранена.
 
 ```csharp
 public bool PreserveSignature { get; set; }

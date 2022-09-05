@@ -1,14 +1,14 @@
 ---
 title: SharingWorkingHoursDays
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingWorkingHoursDays Альтернативные именаdispidSharingWorkingHoursDays
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingWorkingHoursDays Альтернативные имена dispidSharingWorkingHoursDays
 type: docs
 weight: 18000
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingworkinghoursdays/
 ---
 ## KnownPropertyList.SharingWorkingHoursDays field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingWorkingHoursDays Альтернативные имена:dispidSharingWorkingHoursDays
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingWorkingHoursDays Альтернативные имена: dispidSharingWorkingHoursDays
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingWorkingHoursDays;

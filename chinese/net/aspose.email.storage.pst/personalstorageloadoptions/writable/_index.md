@@ -1,14 +1,14 @@
 ---
 title: Writable
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个指示 pst 是否可写的值
+description: 获取或设置一个指示pst是否可写的值
 type: docs
 weight: 30
 url: /zh/net/aspose.email.storage.pst/personalstorageloadoptions/writable/
 ---
 ## PersonalStorageLoadOptions.Writable property
 
-获取或设置一个指示 pst 是否可写的值。
+获取或设置一个指示pst是否可写的值。
 
 ```csharp
 public bool Writable { get; set; }
@@ -16,7 +16,7 @@ public bool Writable { get; set; }
 
 ### 适当的价值
 
-` true` 如果可写；否则，` false` 。
+`真的`如果可写；否则，`错误的`.
 
 ### 也可以看看
 

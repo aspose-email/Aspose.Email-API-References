@@ -1,7 +1,7 @@
 ---
 title: InConflict
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the attachment represents an alternate replica. Area Conflict Note Canonical name PidTagInConflict Alternate names PR_IN_CONFLICT ptagInConflict
 type: docs
 weight: 11310
 url: /net/aspose.email.mapi/knownpropertylist/inconflict/

@@ -1,14 +1,14 @@
 ---
 title: RulePredicates
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 RulePredicatesaspose.email.clients.exchange/rulepredicates 班级
+description: 初始化RulePredicatesaspose.email.clients.exchange/rulepredicates class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/rulepredicates/
 ---
 ## RulePredicates constructor
 
-初始化一个新的实例 [`RulePredicates`](../../rulepredicates) 班级
+初始化[`RulePredicates`](../../rulepredicates) class
 
 ```csharp
 public RulePredicates()

@@ -1,9 +1,9 @@
 ---
 title: VCardGeo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a global positioning of vCard contact
 type: docs
-weight: 19460
+weight: 19670
 url: /net/aspose.email.personalinfo.vcard/vcardgeo/
 ---
 ## VCardGeo class

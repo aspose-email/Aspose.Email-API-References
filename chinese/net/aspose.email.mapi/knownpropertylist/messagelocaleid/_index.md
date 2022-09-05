@@ -1,14 +1,14 @@
 ---
 title: MessageLocaleId
 second_title: Aspose.Email for .NET API 参考
-description: 包含创建此消息的最终用户的 Windows 区域设置 ID 区域杂项属性 规范名称PidTagMessageLocaleId 备用名称PR_MESSAGE_LOCALE_ID
+description: 包含创建此消息的最终用户的 Windows 区域设置 ID 区域杂项 Properties 规范名称PidTagMessageLocaleId 替代名称PR_MESSAGE_LOCALE_ID
 type: docs
 weight: 12550
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagelocaleid/
 ---
 ## KnownPropertyList.MessageLocaleId field
 
-包含创建此消息的最终用户的 Windows 区域设置 ID。 区域:杂项属性 规范名称:PidTagMessageLocaleId 备用名称:PR_MESSAGE_LOCALE_ID
+包含创建此消息的最终用户的 Windows 区域设置 ID。 区域：杂项 Properties 规范名称：PidTagMessageLocaleId 替代名称：PR_MESSAGE_LOCALE_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageLocaleId;

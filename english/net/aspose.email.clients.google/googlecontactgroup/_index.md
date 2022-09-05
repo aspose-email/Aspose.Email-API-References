@@ -1,7 +1,7 @@
 ---
 title: GoogleContactGroup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a group which owns the contact
 type: docs
 weight: 15770
 url: /net/aspose.email.clients.google/googlecontactgroup/

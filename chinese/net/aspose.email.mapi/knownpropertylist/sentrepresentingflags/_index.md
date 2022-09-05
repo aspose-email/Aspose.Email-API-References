@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/sentrepresentingflags/
 ---
 ## KnownPropertyList.SentRepresentingFlags field
 
-区域:杂项属性 规范名称:PidTagSentRepresentingFlags 替代名称:ptagSentRepresentingFlags
+区域：杂项属性 规范名称：PidTagSentRepresentingFlags 替代名称：ptagSentRepresentingFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingFlags;

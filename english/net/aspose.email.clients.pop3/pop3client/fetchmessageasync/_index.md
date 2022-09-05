@@ -1,12 +1,12 @@
 ---
 title: FetchMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the message
 type: docs
 weight: 120
 url: /net/aspose.email.clients.pop3/pop3client/fetchmessageasync/
 ---
-## Pop3Client.FetchMessageAsync method (1 of 8)
+## FetchMessageAsync(IConnection, string) {#fetchmessageasync_2}
 
 Fetches the message
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (2 of 8)
+## FetchMessageAsync(IConnection, int) {#fetchmessageasync}
 
 Fetches the message
 
@@ -60,7 +60,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (3 of 8)
+## FetchMessageAsync(string) {#fetchmessageasync_6}
 
 Fetches the message
 
@@ -85,7 +85,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (4 of 8)
+## FetchMessageAsync(int) {#fetchmessageasync_4}
 
 Fetches the message
 
@@ -110,7 +110,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (5 of 8)
+## FetchMessageAsync(IConnection, string, CancellationToken) {#fetchmessageasync_3}
 
 Fetches the message
 
@@ -139,7 +139,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (6 of 8)
+## FetchMessageAsync(IConnection, int, CancellationToken) {#fetchmessageasync_1}
 
 Fetches the message
 
@@ -168,7 +168,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (7 of 8)
+## FetchMessageAsync(string, CancellationToken) {#fetchmessageasync_7}
 
 Fetches the message
 
@@ -194,7 +194,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessageAsync method (8 of 8)
+## FetchMessageAsync(int, CancellationToken) {#fetchmessageasync_5}
 
 Fetches the message
 

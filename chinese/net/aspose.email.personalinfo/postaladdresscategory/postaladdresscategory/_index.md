@@ -1,14 +1,14 @@
 ---
 title: PostalAddressCategory
 second_title: Aspose.Email for .NET API 参考
-description: 使用自定义类别初始化PostalAddressCategoryaspose.email.personalinfo/postaladdresscategory类的新实例
+description: 初始化PostalAddressCategoryaspose.email.personalinfo/postaladdresscategory具有自定义类别的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/postaladdresscategory/postaladdresscategory/
 ---
 ## PostalAddressCategory constructor
 
-使用“自定义”类别初始化[`PostalAddressCategory`](../../postaladdresscategory)类的新实例。
+初始化[`PostalAddressCategory`](../../postaladdresscategory)具有“自定义”类别的类。
 
 ```csharp
 public PostalAddressCategory(string description)
@@ -16,7 +16,7 @@ public PostalAddressCategory(string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | String | 邮政地址“自定义”类别的描述 |
+| description | String | 邮政地址的“自定义”类别的说明 |
 
 ### 也可以看看
 

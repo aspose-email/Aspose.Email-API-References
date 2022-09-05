@@ -1,7 +1,7 @@
 ---
 title: CustomValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Custom category
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/emailaddresscategory/customvalue/

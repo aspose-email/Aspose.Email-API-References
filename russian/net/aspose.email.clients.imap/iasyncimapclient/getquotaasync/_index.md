@@ -18,12 +18,12 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName, IConnection connect
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | quotaRootName | String | имя корня квоты |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Информация о квотах
+Информация о квоте
 
 ### Смотрите также
 

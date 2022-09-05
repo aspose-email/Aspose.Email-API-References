@@ -1,14 +1,14 @@
 ---
 title: SearchFolderEfpFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指定控制文件夹显示方式的标志 区域搜索 规范名称PidTagSearchFolderEfpFlags 替代名称PR_WB_SF_EFP_FLAGS
+description: 指定控制文件夹显示方式的标志 区域Search 规范名称PidTagSearchFolderEfpFlags 替代名称PR_WB_SF_EFP_FLAGS
 type: docs
 weight: 16950
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderefpflags/
 ---
 ## KnownPropertyList.SearchFolderEfpFlags field
 
-指定控制文件夹显示方式的标志。 区域:搜索 规范名称:PidTagSearchFolderEfpFlags 替代名称:PR_WB_SF_EFP_FLAGS
+指定控制文件夹显示方式的标志。 区域：Search 规范名称：PidTagSearchFolderEfpFlags 替代名称：PR_WB_SF_EFP_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderEfpFlags;

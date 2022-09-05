@@ -1,14 +1,14 @@
 ---
 title: ResetFoldersSyncKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Сбросить SyncKey для работы с папками
+description: Сбросить SyncKey для операций с папками
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/resetfolderssynckey/
 ---
 ## IActiveSyncTLClient.ResetFoldersSyncKey method
 
-Сбросить SyncKey для работы с папками
+Сбросить SyncKey для операций с папками
 
 ```csharp
 public void ResetFoldersSyncKey()

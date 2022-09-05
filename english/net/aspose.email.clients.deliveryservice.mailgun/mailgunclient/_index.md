@@ -1,7 +1,7 @@
 ---
 title: MailgunClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the Mailgun client
 type: docs
 weight: 2970
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/

@@ -1,7 +1,7 @@
 ---
 title: Xml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies text/xml media type
 type: docs
 weight: 40
 url: /net/aspose.email.mime/mediatypenames.text/xml/

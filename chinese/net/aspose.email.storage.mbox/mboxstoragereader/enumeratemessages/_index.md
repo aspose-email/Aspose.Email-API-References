@@ -1,14 +1,14 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API 参考
-description: 公开枚举器它支持存储中的消息迭代
+description: 公开枚举器它支持存储中消息的迭代
 type: docs
 weight: 50
 url: /zh/net/aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/
 ---
 ## MboxStorageReader.EnumerateMessages method
 
-公开枚举器，它支持存储中的消息迭代。
+公开枚举器，它支持存储中消息的迭代。
 
 ```csharp
 public IEnumerable<MailMessage> EnumerateMessages()

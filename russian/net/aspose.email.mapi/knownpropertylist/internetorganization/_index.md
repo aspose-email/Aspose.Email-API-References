@@ -1,14 +1,14 @@
 ---
 title: InternetOrganization
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_ORGANIZATION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_ORGANIZATION
 type: docs
 weight: 11560
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetorganization/
 ---
 ## KnownPropertyList.InternetOrganization field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_ORGANIZATION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_ORGANIZATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetOrganization;

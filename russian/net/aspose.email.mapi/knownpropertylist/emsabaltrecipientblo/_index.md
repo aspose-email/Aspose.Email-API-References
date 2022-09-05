@@ -1,14 +1,14 @@
 ---
 title: EmsAbAltRecipientBlO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ALT_RECIPIENT_BL_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ALT_RECIPIENT_BL_O
 type: docs
 weight: 4630
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabaltrecipientblo/
 ---
 ## KnownPropertyList.EmsAbAltRecipientBlO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ALT_RECIPIENT_BL_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ALT_RECIPIENT_BL_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAltRecipientBlO;

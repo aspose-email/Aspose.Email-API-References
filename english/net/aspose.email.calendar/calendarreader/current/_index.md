@@ -1,7 +1,7 @@
 ---
 title: Current
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Current read event.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/calendarreader/current/

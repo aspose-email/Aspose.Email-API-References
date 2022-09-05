@@ -1,14 +1,14 @@
 ---
 title: DeletedOn
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC когда элемент или папка были обратимо удалены. ОбластьExchangeFolder Каноническое имяPidTagDeletedOn Альтернативные именаPR_DELETED_ON ptagDeletedOn urnschemashttpmaildeletedon
+description: Указывает время в формате UTC когда элемент или папка были обратимо удалены.
 type: docs
 weight: 3940
 url: /ru/net/aspose.email.mapi/knownpropertylist/deletedon/
 ---
 ## KnownPropertyList.DeletedOn field
 
-Указывает время в формате UTC, когда элемент или папка были обратимо удалены. Область:ExchangeFolder Каноническое имя:PidTagDeletedOn Альтернативные имена:PR_DELETED_ON, ptagDeletedOn, urn:schemas:httpmail:deletedon
+Указывает время в формате UTC, когда элемент или папка были обратимо удалены.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeletedOn;

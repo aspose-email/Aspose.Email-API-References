@@ -64,7 +64,7 @@ public static MapiMessage Load(Stream stream)
 
 ## Load(Stream, LoadOptions) {#load_1}
 
-Загружает сообщение из потока с дополнительными параметрами.
+Загружает сообщение из потока с дополнительными опциями.
 
 ```csharp
 public static MapiMessage Load(Stream stream, LoadOptions options)
@@ -73,7 +73,7 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Исходный потокStream. |
-| options | LoadOptions | Дополнительные параметры[`LoadOptions`](../../../aspose.email/loadoptions). |
+| options | LoadOptions | Дополнительные опции[`LoadOptions`](../../../aspose.email/loadoptions). |
 
 ### Исключения
 
@@ -94,7 +94,7 @@ public static MapiMessage Load(Stream stream, LoadOptions options)
 
 ## Load(string, LoadOptions) {#load_3}
 
-Загружает сообщение из файла с дополнительными параметрами.
+Загружает сообщение из файла с дополнительными опциями.
 
 ```csharp
 public static MapiMessage Load(string fileName, LoadOptions options)
@@ -103,7 +103,7 @@ public static MapiMessage Load(string fileName, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Путь к исходному файлуString. |
-| options | LoadOptions | Дополнительные параметры[`LoadOptions`](../../../aspose.email/loadoptions). |
+| options | LoadOptions | Дополнительные опции[`LoadOptions`](../../../aspose.email/loadoptions). |
 
 ### Исключения
 

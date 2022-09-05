@@ -1,7 +1,7 @@
 ---
 title: GetCategories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the available message categories.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/followupmanager/getcategories/

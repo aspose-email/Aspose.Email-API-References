@@ -1,7 +1,7 @@
 ---
 title: UserField2
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the second field on the contact that is intended for miscellaneous use for the contact.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/userfield2/

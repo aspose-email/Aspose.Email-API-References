@@ -1,14 +1,14 @@
 ---
 title: SimpleSeqSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSimpleSeqSetaspose.email.clients.imap/simpleseqset.
+description: Инициализирует новый экземплярSimpleSeqSetaspose.email.clients.imap/simpleseqset класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/simpleseqset/simpleseqset/
 ---
 ## SimpleSeqSet() {#constructor}
 
-Инициализирует новый экземпляр класса[`SimpleSeqSet`](../../simpleseqset).
+Инициализирует новый экземпляр[`SimpleSeqSet`](../../simpleseqset) класс.
 
 ```csharp
 public SimpleSeqSet()
@@ -24,7 +24,7 @@ public SimpleSeqSet()
 
 ## SimpleSeqSet(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SimpleSeqSet`](../../simpleseqset).
+Инициализирует новый экземпляр[`SimpleSeqSet`](../../simpleseqset) класс.
 
 ```csharp
 public SimpleSeqSet(string value)

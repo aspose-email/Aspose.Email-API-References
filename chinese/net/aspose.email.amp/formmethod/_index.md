@@ -1,14 +1,14 @@
 ---
 title: FormMethod
 second_title: Aspose.Email for .NET API 参考
-description: 该方法告诉服务器请求方法
+description: 方法告诉服务器请求方法
 type: docs
 weight: 180
 url: /zh/net/aspose.email.amp/formmethod/
 ---
 ## FormMethod enumeration
 
-该方法告诉服务器请求方法。
+方法告诉服务器请求方法。
 
 ```csharp
 public enum FormMethod
@@ -18,8 +18,8 @@ public enum FormMethod
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Post | `0` | 方法帖。 |
-| Get | `1` | 方法获取。 |
+| Post | `0` | 方法post. |
+| Get | `1` | 方法get. |
 
 ### 也可以看看
 

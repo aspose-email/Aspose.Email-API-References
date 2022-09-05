@@ -1,14 +1,14 @@
 ---
 title: ReminderAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаReminderAttachmentaspose.email.calendar/reminderattachment.
+description: Инициализировать новый экземплярReminderAttachmentaspose.email.calendar/reminderattachment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/reminderattachment/reminderattachment/
 ---
 ## ReminderAttachment(byte[]) {#constructor}
 
-Инициализировать новый экземпляр класса[`ReminderAttachment`](../../reminderattachment).
+Инициализировать новый экземпляр[`ReminderAttachment`](../../reminderattachment) класс.
 
 ```csharp
 public ReminderAttachment(byte[] binaryData)
@@ -28,7 +28,7 @@ public ReminderAttachment(byte[] binaryData)
 
 ## ReminderAttachment(Uri) {#constructor_1}
 
-Инициализировать новый экземпляр класса[`ReminderAttachment`](../../reminderattachment).
+Инициализировать новый экземпляр[`ReminderAttachment`](../../reminderattachment) класс.
 
 ```csharp
 public ReminderAttachment(Uri uri)
@@ -36,7 +36,7 @@ public ReminderAttachment(Uri uri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uri | Uri | Uri. |
+| uri | Uri | Ури. |
 
 ### Смотрите также
 

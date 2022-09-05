@@ -1,14 +1,14 @@
 ---
 title: ClientCapabilitiesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Уведомляет сервер о том какие расширения поддерживает клиент. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
+description: Уведомляет сервер какие расширения поддерживаются клиентом. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
 type: docs
 weight: 450
 url: /ru/net/aspose.email.clients.imap/imapclient/clientcapabilitiesasync/
 ---
 ## ClientCapabilitiesAsync(params string[]) {#clientcapabilitiesasync_2}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public Task<string[]> ClientCapabilitiesAsync(params string[] capabilityNames)
@@ -32,7 +32,7 @@ public Task<string[]> ClientCapabilitiesAsync(params string[] capabilityNames)
 
 ## ClientCapabilitiesAsync(IConnection, params string[]) {#clientcapabilitiesasync}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public Task<string[]> ClientCapabilitiesAsync(IConnection connection, 
@@ -41,7 +41,7 @@ public Task<string[]> ClientCapabilitiesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | capabilityNames | String[] | Массив возможностей, поддерживаемых клиентом |
 
 ### Возвращаемое значение
@@ -59,7 +59,7 @@ public Task<string[]> ClientCapabilitiesAsync(IConnection connection,
 
 ## ClientCapabilitiesAsync(CancellationToken, params string[]) {#clientcapabilitiesasync_3}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public Task<string[]> ClientCapabilitiesAsync(CancellationToken token, 
@@ -85,7 +85,7 @@ public Task<string[]> ClientCapabilitiesAsync(CancellationToken token,
 
 ## ClientCapabilitiesAsync(IConnection, CancellationToken, params string[]) {#clientcapabilitiesasync_1}
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public Task<string[]> ClientCapabilitiesAsync(IConnection connection, CancellationToken token, 
@@ -94,7 +94,7 @@ public Task<string[]> ClientCapabilitiesAsync(IConnection connection, Cancellati
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 | capabilityNames | String[] | Массив возможностей, поддерживаемых клиентом |
 

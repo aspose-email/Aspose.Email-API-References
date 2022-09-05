@@ -1,7 +1,7 @@
 ---
 title: ContactsFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Contacts folder
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/contactsfoldereventfilter/

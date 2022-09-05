@@ -1,12 +1,12 @@
 ---
 title: RangeSeqSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the RangeSeqSetaspose.email.clients.imap/rangeseqset class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/rangeseqset/rangeseqset/
 ---
-## RangeSeqSet constructor (1 of 5)
+## RangeSeqSet() {#constructor}
 
 Initializes a new instance of the [`RangeSeqSet`](../../rangeseqset) class.
 
@@ -22,7 +22,7 @@ public RangeSeqSet()
 
 ---
 
-## RangeSeqSet constructor (2 of 5)
+## RangeSeqSet(SimpleSeqSet) {#constructor_1}
 
 Initializes a new instance of the [`RangeSeqSet`](../../rangeseqset) class.
 
@@ -43,7 +43,7 @@ public RangeSeqSet(SimpleSeqSet startRange)
 
 ---
 
-## RangeSeqSet constructor (3 of 5)
+## RangeSeqSet(SimpleSeqSet, SimpleSeqSet) {#constructor_2}
 
 Initializes a new instance of the [`RangeSeqSet`](../../rangeseqset) class.
 
@@ -65,7 +65,7 @@ public RangeSeqSet(SimpleSeqSet startRange, SimpleSeqSet endRange)
 
 ---
 
-## RangeSeqSet constructor (4 of 5)
+## RangeSeqSet(string) {#constructor_3}
 
 Initializes a new instance of the [`RangeSeqSet`](../../rangeseqset) class.
 
@@ -85,7 +85,7 @@ public RangeSeqSet(string startRange)
 
 ---
 
-## RangeSeqSet constructor (5 of 5)
+## RangeSeqSet(string, string) {#constructor_4}
 
 Initializes a new instance of the [`RangeSeqSet`](../../rangeseqset) class.
 

@@ -1,12 +1,12 @@
 ---
 title: UndeleteMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Undeletes the messages. If any messages have been marked as deleted by the POP3 server they are unmarked.
 type: docs
 weight: 380
 url: /net/aspose.email.clients.pop3/pop3client/undeletemessagesasync/
 ---
-## Pop3Client.UndeleteMessagesAsync method (1 of 4)
+## UndeleteMessagesAsync(IConnection) {#undeletemessagesasync_1}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (2 of 4)
+## UndeleteMessagesAsync() {#undeletemessagesasync}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (3 of 4)
+## UndeleteMessagesAsync(IConnection, CancellationToken) {#undeletemessagesasync_2}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (4 of 4)
+## UndeleteMessagesAsync(CancellationToken) {#undeletemessagesasync_3}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 

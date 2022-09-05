@@ -1,7 +1,7 @@
 ---
 title: NullAppender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new instace of NullAppender.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/nullappender/nullappender/

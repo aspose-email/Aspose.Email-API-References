@@ -1,14 +1,14 @@
 ---
 title: OldRecurrenceType
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议的重复模式 区域会议 规范名称PidLidOldRecurrenceType 别名LID_RECUR_TYPE
+description: 表示约会或会议的重复模式 区域Meetings 规范名称PidLidOldRecurrenceType 替代名称LID_RECUR_TYPE
 type: docs
 weight: 13340
 url: /zh/net/aspose.email.mapi/knownpropertylist/oldrecurrencetype/
 ---
 ## KnownPropertyList.OldRecurrenceType field
 
-表示约会或会议的重复模式。 区域:会议 规范名称:PidLidOldRecurrenceType 别名:LID_RECUR_TYPE
+表示约会或会议的重复模式。 区域：Meetings 规范名称：PidLidOldRecurrenceType 替代名称：LID_RECUR_TYPE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldRecurrenceType;

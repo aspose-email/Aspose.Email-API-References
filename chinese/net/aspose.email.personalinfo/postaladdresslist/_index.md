@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Aspose.Email for .NET API 参考
 description: 联系人的邮寄地址列表
 type: docs
-weight: 19480
+weight: 19510
 url: /zh/net/aspose.email.personalinfo/postaladdresslist/
 ---
 ## PostalAddressList class
@@ -24,9 +24,9 @@ public class PostalAddressList : IList<PostalAddress>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.email.personalinfo/postaladdresslist/count) { get; } | 获取ICollection中包含的元素数。 |
+| [Count](../../aspose.email.personalinfo/postaladdresslist/count) { get; } | 获取包含在ICollection. |
 | [HomeAddress](../../aspose.email.personalinfo/postaladdresslist/homeaddress) { get; set; } | 默认家庭地址 |
-| [IsReadOnly](../../aspose.email.personalinfo/postaladdresslist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
+| [IsReadOnly](../../aspose.email.personalinfo/postaladdresslist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
 | [Item](../../aspose.email.personalinfo/postaladdresslist/item) { get; set; } | 获取或设置指定索引处的元素。 |
 | [OtherAddress](../../aspose.email.personalinfo/postaladdresslist/otheraddress) { get; set; } | 默认其他地址 |
 | [WorkAddress](../../aspose.email.personalinfo/postaladdresslist/workaddress) { get; set; } | 默认工作地址 |
@@ -41,7 +41,7 @@ public class PostalAddressList : IList<PostalAddress>
 | [CopyTo](../../aspose.email.personalinfo/postaladdresslist/copyto)(PostalAddress[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/postaladdresslist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/postaladdresslist/indexof)(PostalAddress) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/postaladdresslist/insert)(int, PostalAddress) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/postaladdresslist/insert)(int, PostalAddress) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/postaladdresslist/remove)(PostalAddress) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/postaladdresslist/removeat)(int) | 删除指定索引处的列表项。 |
 

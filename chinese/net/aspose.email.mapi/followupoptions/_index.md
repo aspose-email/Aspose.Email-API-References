@@ -18,10 +18,10 @@ public sealed class FollowUpOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FollowUpOptions](followupoptions#constructor)() | 初始化[`FollowUpOptions`](../followupoptions)类的新实例。 |
-| [FollowUpOptions](followupoptions#constructor_1)(string) | 初始化[`FollowUpOptions`](../followupoptions)类的新实例。 |
-| [FollowUpOptions](followupoptions#constructor_2)(string, DateTime, DateTime) | 初始化[`FollowUpOptions`](../followupoptions)类的新实例。 |
-| [FollowUpOptions](followupoptions#constructor_3)(string, DateTime, DateTime, DateTime) | 初始化[`FollowUpOptions`](../followupoptions)类的新实例。 |
+| [FollowUpOptions](followupoptions#constructor)() | 初始化[`FollowUpOptions`](../followupoptions)类. |
+| [FollowUpOptions](followupoptions#constructor_1)(string) | 初始化[`FollowUpOptions`](../followupoptions)类. |
+| [FollowUpOptions](followupoptions#constructor_2)(string, DateTime, DateTime) | 初始化[`FollowUpOptions`](../followupoptions)类. |
+| [FollowUpOptions](followupoptions#constructor_3)(string, DateTime, DateTime, DateTime) | 初始化[`FollowUpOptions`](../followupoptions)类. |
 
 ## 特性
 
@@ -29,9 +29,9 @@ public sealed class FollowUpOptions
 | --- | --- |
 | [Categories](../../aspose.email.mapi/followupoptions/categories) { get; set; } | 获取或设置表示类别列表的字符串，用分号 (;) 分隔。 |
 | [CodePage](../../aspose.email.mapi/followupoptions/codepage) { get; set; } | 获取或设置代码页。 |
-| [DueDate](../../aspose.email.mapi/followupoptions/duedate) { get; set; } | 获取或设置指示标记消息的截止日期的日期。 |
-| [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest) { get; set; } | 获取或设置一个字符串，指示请求的电子邮件操作。 |
-| [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted) { get; } | 获取一个值，该值指示 Message 对象是否被标记为已完成。 |
+| [DueDate](../../aspose.email.mapi/followupoptions/duedate) { get; set; } | 获取或设置指示标记消息的到期日期的日期。 |
+| [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest) { get; set; } | 获取或设置一个字符串，指示电子邮件消息的请求操作。 |
+| [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted) { get; } | 获取一个值，该值指示消息对象是否被标记为已完成。 |
 | [RecipientsFlagRequest](../../aspose.email.mapi/followupoptions/recipientsflagrequest) { get; set; } | 获取或设置一个字符串，该字符串指示电子邮件收件人所请求的操作。 |
 | [RecipientsReminderTime](../../aspose.email.mapi/followupoptions/recipientsremindertime) { get; set; } | 获取或设置收件人的日期，指示应发生提醒的日期和时间。 |
 | [ReminderTime](../../aspose.email.mapi/followupoptions/remindertime) { get; set; } | 获取或设置一个日期，指示应该发生提醒的日期和时间。 |

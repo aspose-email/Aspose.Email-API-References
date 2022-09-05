@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection.
+description: Добавляет ImapFolderInfo в ImapFolderInfoCollection.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.imap/imapfolderinfocollection/addrange/
 ---
 ## ImapFolderInfoCollection.AddRange method
 
-Добавляет ImapFolderInfo в коллекцию ImapFolderInfoCollection.
+Добавляет ImapFolderInfo в ImapFolderInfoCollection.
 
 ```csharp
 public void AddRange(IEnumerable<ImapFolderInfo> folders)

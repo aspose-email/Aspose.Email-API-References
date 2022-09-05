@@ -18,25 +18,25 @@ public class RangeSeqSet : SequenceSetBaseValue
 
 | Имя | Описание |
 | --- | --- |
-| [RangeSeqSet](rangeseqset#constructor)() | Инициализирует новый экземпляр класса[`RangeSeqSet`](../rangeseqset). |
-| [RangeSeqSet](rangeseqset#constructor_1)(SimpleSeqSet) | Инициализирует новый экземпляр класса[`RangeSeqSet`](../rangeseqset). |
-| [RangeSeqSet](rangeseqset#constructor_3)(string) | Инициализирует новый экземпляр класса[`RangeSeqSet`](../rangeseqset). |
-| [RangeSeqSet](rangeseqset#constructor_2)(SimpleSeqSet, SimpleSeqSet) | Инициализирует новый экземпляр класса[`RangeSeqSet`](../rangeseqset). |
-| [RangeSeqSet](rangeseqset#constructor_4)(string, string) | Инициализирует новый экземпляр класса[`RangeSeqSet`](../rangeseqset). |
+| [RangeSeqSet](rangeseqset#constructor)() | Инициализирует новый экземпляр[`RangeSeqSet`](../rangeseqset) класс. |
+| [RangeSeqSet](rangeseqset#constructor_1)(SimpleSeqSet) | Инициализирует новый экземпляр[`RangeSeqSet`](../rangeseqset) класс. |
+| [RangeSeqSet](rangeseqset#constructor_3)(string) | Инициализирует новый экземпляр[`RangeSeqSet`](../rangeseqset) класс. |
+| [RangeSeqSet](rangeseqset#constructor_2)(SimpleSeqSet, SimpleSeqSet) | Инициализирует новый экземпляр[`RangeSeqSet`](../rangeseqset) класс. |
+| [RangeSeqSet](rangeseqset#constructor_4)(string, string) | Инициализирует новый экземпляр[`RangeSeqSet`](../rangeseqset) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [EndRange](../../aspose.email.clients.imap/rangeseqset/endrange) { get; set; } | Получает или задает конечную границу диапазона для поиска |
-| [StartRange](../../aspose.email.clients.imap/rangeseqset/startrange) { get; set; } | Получает или задает начальную границу диапазона для поиска |
+| [EndRange](../../aspose.email.clients.imap/rangeseqset/endrange) { get; set; } | Получает или задает конечную границу диапазона search |
+| [StartRange](../../aspose.email.clients.imap/rangeseqset/startrange) { get; set; } | Получает или задает начальную границу диапазона search |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/rangeseqset/tostring)() | Возвращает строку, представляющую текущий объект. |
-| [implicit operator](../../aspose.email.clients.imap/rangeseqset/op_implicit) | Неявная операция преобразования из[`RangeSeqSet`](../rangeseqset)вString |
+| [implicit operator](../../aspose.email.clients.imap/rangeseqset/op_implicit) | Неявная операция преобразования из[`RangeSeqSet`](../rangeseqset) кString |
 
 ### Смотрите также
 

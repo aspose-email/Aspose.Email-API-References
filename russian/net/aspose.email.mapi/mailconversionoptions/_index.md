@@ -26,7 +26,7 @@ public class MailConversionOptions
 | --- | --- |
 | [ConvertAsTnef](../../aspose.email.mapi/mailconversionoptions/convertastnef) { get; set; } | Установите значение true, чтобы импортировать информацию MapiMessage в объект MailMessage с MapiMessage как вложение TNEF. |
 | [KeepOriginalEmailAddresses](../../aspose.email.mapi/mailconversionoptions/keeporiginalemailaddresses) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять исходный адрес электронной почты. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при преобразовании в MailMessage. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при преобразовании в MailMessage. |
 | [PreserveRtfContent](../../aspose.email.mapi/mailconversionoptions/preservertfcontent) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять тело rtf в MailMessage. |
 
 ### Смотрите также

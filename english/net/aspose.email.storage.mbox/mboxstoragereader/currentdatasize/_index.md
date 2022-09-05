@@ -1,7 +1,7 @@
 ---
 title: CurrentDataSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of bytes that is read by ReadNextMessage method.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.mbox/mboxstoragereader/currentdatasize/

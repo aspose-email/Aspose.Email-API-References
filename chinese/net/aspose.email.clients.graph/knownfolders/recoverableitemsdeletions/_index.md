@@ -1,14 +1,14 @@
 ---
 title: RecoverableItemsDeletions
 second_title: Aspose.Email for .NET API 参考
-description: 包含软删除项目的文件夹从已删除项目文件夹中删除或在 Outlook 中按 shiftdelete 此文件夹在任何 Outlook 电子邮件客户端中不可见 但最终用户可以通过 Outlook 或 Web 上的 Outlook 中的从服务器中恢复已删除邮件功能与其交互
+description: 包含软删除项目的文件夹从已删除项目文件夹中删除或在 Outlook 中按 shiftdelete 此文件夹在任何 Outlook 电子邮件客户端中均不可见 但最终用户可以通过 Outlook 或 Outlook 网页版中的从服务器中恢复已删除项目功能与其交互
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.graph/knownfolders/recoverableitemsdeletions/
 ---
 ## KnownFolders.RecoverableItemsDeletions field
 
-包含软删除项目的文件夹:从“已删除项目”文件夹中删除，或在 Outlook 中按 shift+delete。 此文件夹在任何 Outlook 电子邮件客户端中不可见， 但最终用户可以通过 Outlook 或 Web 上的 Outlook 中的从服务器中恢复已删除邮件功能与其交互。
+包含软删除项目的文件夹：从“已删除项目”文件夹中删除，或在 Outlook 中按 shift+delete。 此文件夹在任何 Outlook 电子邮件客户端中均不可见， 但最终用户可以通过 Outlook 或 Outlook 网页版中的从服务器中恢复已删除项目功能与其交互。
 
 ```csharp
 public static readonly string RecoverableItemsDeletions;

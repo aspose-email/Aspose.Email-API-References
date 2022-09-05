@@ -1,7 +1,7 @@
 ---
 title: ContentTransferEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The third of the MIMErelated headers. Indicates the coding method used in a MIME message body. It has no direct relevance to the delivery of email but it affects how MIME compliant mail programs interpret the content of the message. Defined in RFC2045. ContentTransferEncoding 8bit Contenttransferencoding 7BIT ContentTransferEncoding 7bit ContentTransferEncoding base64 ContentTransferEncoding quotedprintable
 type: docs
 weight: 60
 url: /net/aspose.email/headertype/contenttransferencoding/

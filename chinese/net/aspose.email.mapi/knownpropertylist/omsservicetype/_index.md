@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/omsservicetype/
 ---
 ## KnownPropertyList.OMSServiceType field
 
-包含用于发送 SMS 或 MMS 消息的服务类型。 区域:SMS 规范名称:PidNameOMSServiceType 备用名称:
+包含用于发送 SMS 或 MMS 消息的服务类型。 区域：SMS 规范名称：PidNameOMSServiceType 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSServiceType;

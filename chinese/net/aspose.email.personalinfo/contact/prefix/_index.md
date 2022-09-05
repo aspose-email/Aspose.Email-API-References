@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置全名前缀如 Mr.misterDr.doctor 等
+description: 获取或设置全名前缀如先生先生博士医生等
 type: docs
 weight: 360
 url: /zh/net/aspose.email.personalinfo/contact/prefix/
 ---
 ## Contact.Prefix property
 
-获取或设置全名前缀，如 Mr.(mister)、Dr.(doctor) 等。
+获取或设置全名前缀，如先生（先生）、博士（医生）等。
 
 ```csharp
 public string Prefix { get; set; }

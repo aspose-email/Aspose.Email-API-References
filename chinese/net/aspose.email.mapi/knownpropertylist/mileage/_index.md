@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/mileage/
 ---
 ## KnownPropertyList.Mileage field
 
-包含与项目关联的里程信息。 区域:常规消息属性 规范名称:PidLidMileage 替代名称:dispidMileage
+包含与项目关联的里程信息。 区域：常规消息属性 规范名称：PidLidMileage 替代名称：dispidMileage
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Mileage;

@@ -1,7 +1,7 @@
 ---
 title: ContactLinkGlobalAddressListLinkState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the state of the linking between the GAL contact and the duplicate contact. Area Contact Properties Canonical name PidLidContactLinkGlobalAddressListLinkState Alternate names dispidContactLinkGALLinkState
 type: docs
 weight: 2990
 url: /net/aspose.email.mapi/knownpropertylist/contactlinkglobaladdresslistlinkstate/

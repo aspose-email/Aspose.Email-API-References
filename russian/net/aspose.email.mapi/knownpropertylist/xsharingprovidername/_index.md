@@ -1,14 +1,14 @@
 ---
 title: XSharingProviderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidLidSharingProviderName раздел 2.267. ОбластьСовместное использование Каноническое имяPidNameXSharingProviderName Альтернативные имена
+description: Содержит то же значение что и свойство PidLidSharingProviderName раздел 2.267. Область Sharing Каноническое имя PidNameXSharingProviderName Альтернативные имена
 type: docs
 weight: 19790
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingprovidername/
 ---
 ## KnownPropertyList.XSharingProviderName field
 
-Содержит то же значение, что и свойство PidLidSharingProviderName (раздел 2.267). Область:Совместное использование Каноническое имя:PidNameXSharingProviderName Альтернативные имена:
+Содержит то же значение, что и свойство PidLidSharingProviderName (раздел 2.267). Область: Sharing Каноническое имя: PidNameXSharingProviderName Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingProviderName;

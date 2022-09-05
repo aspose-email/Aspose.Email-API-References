@@ -16,7 +16,7 @@ public EwsFindPeople SetCancellationToken(CancellationToken cancellationToken)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

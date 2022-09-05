@@ -1,14 +1,14 @@
 ---
 title: OriginalDisplayTo
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始消息中 PidTagDisplayTo 属性第 2.669 节的值 区域常规消息属性 规范名称PidTagOriginalDisplayTo 替代名称PR_ORIGINAL_DISPLAY_TO PR_ORIGINAL_DISPLAY_TO_A ptagOriginalDisplayTo PR_ORIGINAL_DISPLAY_TO_W
+description: 包含原始消息中 PidTagDisplayTo 属性第 2.669 节的值 区域常规消息属性 规范名称PidTagOriginalDisplayTo 替代名称PR_ORIGINAL_DISPLAY_TOPR_ORIGINAL_DISPLAY_TO_AptagOriginalDisplayToPR_ORIGINAL_DISPLAY_TO_W
 type: docs
 weight: 13560
 url: /zh/net/aspose.email.mapi/knownpropertylist/originaldisplayto/
 ---
 ## KnownPropertyList.OriginalDisplayTo field
 
-包含原始消息中 PidTagDisplayTo 属性（第 2.669 节）的值。 区域:常规消息属性 规范名称:PidTagOriginalDisplayTo 替代名称:PR_ORIGINAL_DISPLAY_TO, PR_ORIGINAL_DISPLAY_TO_A, ptagOriginalDisplayTo, PR_ORIGINAL_DISPLAY_TO_W,
+包含原始消息中 PidTagDisplayTo 属性（第 2.669 节）的值。 区域：常规消息属性 规范名称：PidTagOriginalDisplayTo 替代名称：PR_ORIGINAL_DISPLAY_TO、PR_ORIGINAL_DISPLAY_TO_A、ptagOriginalDisplayTo、PR_ORIGINAL_DISPLAY_TO_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalDisplayTo;

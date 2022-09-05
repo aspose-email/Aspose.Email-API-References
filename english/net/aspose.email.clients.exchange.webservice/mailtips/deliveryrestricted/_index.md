@@ -1,7 +1,7 @@
 ---
 title: DeliveryRestricted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether delivery restrictions will prevent the senders message from reaching the recipient.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/mailtips/deliveryrestricted/

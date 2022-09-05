@@ -1,14 +1,14 @@
 ---
 title: EmsAbRoutingList
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ROUTING_LIST
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ROUTING_LIST
 type: docs
 weight: 8600
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabroutinglist/
 ---
 ## KnownPropertyList.EmsAbRoutingList field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ROUTING_LIST
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ROUTING_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRoutingList;

@@ -1,14 +1,14 @@
 ---
 title: IsRequired
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить или установить значение которое определяет поле как требуется.
+description: Получить или установить значение определяющее поле как необходимое.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.amp/formfield/isrequired/
 ---
 ## FormField.IsRequired property
 
-Получить или установить значение, которое определяет поле как требуется.
+Получить или установить значение, определяющее поле как необходимое.
 
 ```csharp
 public bool IsRequired { get; set; }

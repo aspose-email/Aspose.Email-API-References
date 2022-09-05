@@ -1,14 +1,14 @@
 ---
 title: FetchTimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет исключение которое возникает когда сообщение не может быть прочитано в течение заданного времени.
+description: Представляет исключение которое выдается когда сообщение не может быть прочитано в течение указанного времени.
 type: docs
 weight: 16230
 url: /ru/net/aspose.email.clients.imap/fetchtimeoutexception/
 ---
 ## FetchTimeoutException class
 
-Представляет исключение, которое возникает, когда сообщение не может быть прочитано в течение заданного времени.
+Представляет исключение, которое выдается, когда сообщение не может быть прочитано в течение указанного времени.
 
 ```csharp
 public class FetchTimeoutException : AsposeException
@@ -18,9 +18,9 @@ public class FetchTimeoutException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [FetchTimeoutException](fetchtimeoutexception#constructor)() | Инициализирует новый экземпляр класса[`FetchTimeoutException`](../fetchtimeoutexception). |
-| [FetchTimeoutException](fetchtimeoutexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`FetchTimeoutException`](../fetchtimeoutexception)с указанным сообщением об ошибке. |
-| [FetchTimeoutException](fetchtimeoutexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`FetchTimeoutException`](../fetchtimeoutexception)с указанным сообщением об ошибке. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor)() | Инициализирует новый экземпляр[`FetchTimeoutException`](../fetchtimeoutexception) класс. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_1)(string) | Инициализирует новый экземпляр[`FetchTimeoutException`](../fetchtimeoutexception) класс с указанным сообщением об ошибке. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`FetchTimeoutException`](../fetchtimeoutexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

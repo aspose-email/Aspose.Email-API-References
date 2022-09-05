@@ -24,7 +24,7 @@ public void Add(string address)
 
 ## Add(string, string) {#add_3}
 
-将具有指定地址和显示名称的新收件人添加到此集合。
+将具有指定地址和显示名称的新收件人添加到此集合中。
 
 ```csharp
 public void Add(string address, string displayName)

@@ -1,7 +1,7 @@
 ---
 title: UpdateMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the message in folder.
 type: docs
 weight: 350
 url: /net/aspose.email.storage.pst/folderinfo/updatemessage/

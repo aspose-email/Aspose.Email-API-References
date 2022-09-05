@@ -16,7 +16,7 @@ public FreebusyResponse GetFreebusyInfo(FreebusyQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | FreebusyQuery | Запрос для получения информации о занятости информация о занятости |
+| query | FreebusyQuery | Запрос для получения информации о занятости |
 
 ### Возвращаемое значение
 

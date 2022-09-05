@@ -1,12 +1,12 @@
 ---
 title: FromFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load PST from file.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/personalstorage/fromfile/
 ---
-## PersonalStorage.FromFile method (1 of 6)
+## FromFile(string) {#fromfile}
 
 Load PST from file.
 
@@ -34,7 +34,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromFile method (2 of 6)
+## FromFile(string, bool) {#fromfile_3}
 
 Load PST from file.
 
@@ -59,7 +59,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromFile method (3 of 6)
+## FromFile(string, PersonalStorageLoadOptions) {#fromfile_1}
 
 Load PST from file.
 
@@ -92,7 +92,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromFile method (4 of 6)
+## FromFile(string, CancellationToken) {#fromfile_5}
 
 Load PST from file.
 
@@ -121,7 +121,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromFile method (5 of 6)
+## FromFile(string, bool, CancellationToken) {#fromfile_4}
 
 ```csharp
 public static PersonalStorage FromFile(string fileName, bool writable, CancellationToken token)
@@ -135,7 +135,7 @@ public static PersonalStorage FromFile(string fileName, bool writable, Cancellat
 
 ---
 
-## PersonalStorage.FromFile method (6 of 6)
+## FromFile(string, PersonalStorageLoadOptions, CancellationToken) {#fromfile_2}
 
 Load PST from file.
 

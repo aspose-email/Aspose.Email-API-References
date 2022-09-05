@@ -1,14 +1,14 @@
 ---
 title: AutodiscoverService
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice类的新实例
+description: 初始化AutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservice/autodiscoverservice/
 ---
 ## AutodiscoverService() {#constructor}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService()
@@ -24,7 +24,7 @@ public AutodiscoverService()
 
 ## AutodiscoverService(ExchangeVersion) {#constructor_1}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService(ExchangeVersion requestedServerVersion)
@@ -45,7 +45,7 @@ public AutodiscoverService(ExchangeVersion requestedServerVersion)
 
 ## AutodiscoverService(string) {#constructor_2}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService(string domain)
@@ -65,7 +65,7 @@ public AutodiscoverService(string domain)
 
 ## AutodiscoverService(string, ExchangeVersion) {#constructor_3}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion)
@@ -87,7 +87,7 @@ public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion
 
 ## AutodiscoverService(Uri) {#constructor_4}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService(Uri url)
@@ -107,7 +107,7 @@ public AutodiscoverService(Uri url)
 
 ## AutodiscoverService(Uri, ExchangeVersion) {#constructor_5}
 
-初始化[`AutodiscoverService`](../../autodiscoverservice)类的新实例。
+初始化[`AutodiscoverService`](../../autodiscoverservice)类.
 
 ```csharp
 public AutodiscoverService(Uri url, ExchangeVersion requestedServerVersion)

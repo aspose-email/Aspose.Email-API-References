@@ -1,14 +1,14 @@
 ---
 title: TaskFolder
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classestaskfolder 内容类 为主要包含任务项的文件夹定义一组属性
+description: 获取 urncontent-classestaskfolder 内容类 它为主要包含任务项的文件夹定义了一组属性
 type: docs
 weight: 220
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/taskfolder/
 ---
 ## ContentClassType.TaskFolder property
 
-获取 urn:content-classes:taskfolder 内容类 为主要包含任务项的文件夹定义一组属性。
+获取 urn:content-classes:taskfolder 内容类 ，它为主要包含任务项的文件夹定义了一组属性。
 
 ```csharp
 public static ContentClassType TaskFolder { get; }

@@ -18,9 +18,9 @@ public class ReadLinesTimeoutException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor)() | 初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)类的新实例。 |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_1)(string) | 使用指定的错误消息初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)类的新实例。 |
-| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_2)(string, Exception) | 使用指定的错误消息初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)类的新实例。 |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor)() | 初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)类. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_1)(string) | 初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)具有指定错误消息的类。 |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_2)(string, Exception) | 初始化[`ReadLinesTimeoutException`](../readlinestimeoutexception)具有指定错误消息的类。 |
 
 ## 特性
 

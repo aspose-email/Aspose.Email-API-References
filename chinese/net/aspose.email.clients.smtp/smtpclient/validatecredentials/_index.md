@@ -20,7 +20,7 @@ public bool ValidateCredentials(IConnection connection)
 
 ### 返回值
 
-如果认证成功则为真，否则为假。
+如果身份验证成功，则为真，否则为假。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public override bool ValidateCredentials()
 
 ### 返回值
 
-如果身份验证成功则为真，否则为假。
+如果身份验证成功，则为真，否则为假。
 
 ### 也可以看看
 

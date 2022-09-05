@@ -1,14 +1,14 @@
 ---
 title: CountryName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает страну
+description: Получает или задает страну
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname/
 ---
 ## VCardDeliveryAddress.CountryName property
 
-Получает или устанавливает страну
+Получает или задает страну
 
 ```csharp
 public string CountryName { get; set; }

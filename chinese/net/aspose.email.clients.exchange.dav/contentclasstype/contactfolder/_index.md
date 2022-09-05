@@ -1,14 +1,14 @@
 ---
 title: ContactFolder
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classescontactfolder 内容类 定义文件夹 的一组属性主要包含联系人项目
+description: 获取 urncontent-classescontactfolder 内容类 它为主要包含联系人项目的文件夹 定义一组属性
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/contactfolder/
 ---
 ## ContentClassType.ContactFolder property
 
-获取 urn:content-classes:contactfolder 内容类 定义文件夹 的一组属性主要包含联系人项目。
+获取 urn:content-classes:contactfolder 内容类 ，它为主要包含联系人项目的文件夹 定义一组属性。
 
 ```csharp
 public static ContentClassType ContactFolder { get; }

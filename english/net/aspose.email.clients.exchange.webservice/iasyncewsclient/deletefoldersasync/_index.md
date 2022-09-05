@@ -1,7 +1,7 @@
 ---
 title: DeleteFoldersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the folders
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/deletefoldersasync/

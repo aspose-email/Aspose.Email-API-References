@@ -3,7 +3,7 @@ title: Logger
 second_title: Aspose.Email for .NET API 参考
 description: 提供日志记录功能
 type: docs
-weight: 20490
+weight: 20540
 url: /zh/net/aspose.email.tools.logging/logger/
 ---
 ## Logger class
@@ -19,7 +19,7 @@ public sealed class Logger : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | static [Debug](../../aspose.email.tools.logging/logger/debug) { get; } | 获取调试记录器。 |
-| [Appenders](../../aspose.email.tools.logging/logger/appenders) { get; set; } | 获取或设置附加列表。 |
+| [Appenders](../../aspose.email.tools.logging/logger/appenders) { get; set; } | 获取或设置 appender 列表。 |
 | [Name](../../aspose.email.tools.logging/logger/name) { get; } | 获取或设置名称。 |
 | [Severity](../../aspose.email.tools.logging/logger/severity) { get; set; } | 获取或设置严重性。 |
 
@@ -28,18 +28,18 @@ public sealed class Logger : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.email.tools.logging/logger/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| [IsEnabled](../../aspose.email.tools.logging/logger/isenabled)(LogLevel) | 确定是否为指定级别启用日志记录。 |
+| [IsEnabled](../../aspose.email.tools.logging/logger/isenabled)(LogLevel) | 确定是否为指定级别启用了日志记录。 |
 | [Write](../../aspose.email.tools.logging/logger/write#write)(object) | 将指定的消息写入附加程序。 |
 | [Write](../../aspose.email.tools.logging/logger/write#write_1)(string) | 将指定的消息写入附加程序。 |
-| [Write](../../aspose.email.tools.logging/logger/write#write_2)(string, Exception) | 将指定的消息和异常写入附加程序。 |
-| [Write](../../aspose.email.tools.logging/logger/write#write_3)(string, Exception, LogLevel) | 将指定的消息和异常写入附加程序。 |
+| [Write](../../aspose.email.tools.logging/logger/write#write_2)(string, Exception) | 将指定的消息和异常写入 appenders。 |
+| [Write](../../aspose.email.tools.logging/logger/write#write_3)(string, Exception, LogLevel) | 将指定的消息和异常写入 appenders。 |
 | [WriteFormat](../../aspose.email.tools.logging/logger/writeformat)(string, params object[]) | 将指定格式的消息写入附加程序。 |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_2)(bool, object) | 如果条件为真，则将指定的消息写入附加程序。 |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_4)(bool, string) | 如果条件为真，则将指定的消息写入附加程序。 |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif)(LogLevel, string) | 如果启用了日志级别，则写入指定的消息。 |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_3)(bool, object, Exception) | 如果条件为真，则将指定的消息和异常写入附加程序。 |
 | [WriteIf](../../aspose.email.tools.logging/logger/writeif#writeif_1)(LogLevel, string, Exception) | 如果启用了日志级别，则写入指定的消息和异常。 |
-| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline)() | 将空行写入附加程序。 |
+| [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline)() | 将空行写入 appenders。 |
 | [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_1)(object) | 将指定的消息写入附加程序。 |
 | [WriteLine](../../aspose.email.tools.logging/logger/writeline#writeline_2)(string) | 将指定的消息写入附加程序。 |
 

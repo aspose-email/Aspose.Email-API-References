@@ -1,7 +1,7 @@
 ---
 title: Expired
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether token is expired
 type: docs
 weight: 30
 url: /net/aspose.email.clients/oauthtoken/expired/

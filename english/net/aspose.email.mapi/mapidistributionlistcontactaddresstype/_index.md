@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionListContactAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the address type of a personal distribution list member.
 type: docs
-weight: 18170
+weight: 18380
 url: /net/aspose.email.mapi/mapidistributionlistcontactaddresstype/
 ---
 ## MapiDistributionListContactAddressType enumeration

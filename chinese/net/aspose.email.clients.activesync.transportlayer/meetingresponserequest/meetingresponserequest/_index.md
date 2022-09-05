@@ -36,7 +36,7 @@ public MeetingResponseRequest(UserResponse userResponse, string collectionId, st
 | userResponse | UserResponse | 指示会议是被接受、暂时接受还是被拒绝。 |
 | collectionId | String | 指定包含会议请求的文件夹。 |
 | requestId | String | 指定会议请求消息项的服务器 ID。 |
-| longId | String | 指定源会议请求的长 ID，在搜索命令响应消息中返回。 |
+| longId | String | 指定在搜索命令响应消息中返回的源会议请求的长 ID。 |
 | instanceId | String | 指定要修改的定期会议的实例。 |
 
 ### 也可以看看

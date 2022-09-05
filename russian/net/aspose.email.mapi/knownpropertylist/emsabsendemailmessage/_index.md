@@ -1,14 +1,14 @@
 ---
 title: EmsAbSendEmailMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SEND_EMAIL_MESSAGE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SEND_EMAIL_MESSAGE
 type: docs
 weight: 8740
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsendemailmessage/
 ---
 ## KnownPropertyList.EmsAbSendEmailMessage field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SEND_EMAIL_MESSAGE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SEND_EMAIL_MESSAGE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSendEmailMessage;

@@ -1,7 +1,7 @@
 ---
 title: SenderRepresentativeName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the sender representative name.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/messageinfo/senderrepresentativename/

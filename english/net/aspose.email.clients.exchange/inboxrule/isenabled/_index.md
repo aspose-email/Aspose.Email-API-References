@@ -1,7 +1,7 @@
 ---
 title: IsEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the rule is enabled.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange/inboxrule/isenabled/

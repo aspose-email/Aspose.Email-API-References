@@ -1,14 +1,14 @@
 ---
 title: CdoRecurrenceid
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует конкретный экземпляр повторяющейся встречи. ОбластьExchange Каноническое имяPidTagCdoRecurrenceid Альтернативные именаPR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
+description: Идентифицирует конкретный экземпляр повторяющейся встречи. Область Exchange Каноническое имя PidTagCdoRecurrenceid Альтернативные имена PR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
 type: docs
 weight: 2540
 url: /ru/net/aspose.email.mapi/knownpropertylist/cdorecurrenceid/
 ---
 ## KnownPropertyList.CdoRecurrenceid field
 
-Идентифицирует конкретный экземпляр повторяющейся встречи. Область:Exchange Каноническое имя:PidTagCdoRecurrenceid Альтернативные имена:PR_CDO_RECURRENCEID, urn:schemas:calendar:recurrenceid
+Идентифицирует конкретный экземпляр повторяющейся встречи. Область: Exchange Каноническое имя: PidTagCdoRecurrenceid Альтернативные имена: PR_CDO_RECURRENCEID, urn:schemas:calendar:recurrenceid
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CdoRecurrenceid;

@@ -20,7 +20,7 @@ public static string GetPropertyName(long tag)
 
 ### Возвращаемое значение
 
-AStringпредставляет имя свойства.
+АString который представляет имя свойства.
 
 ### Смотрите также
 

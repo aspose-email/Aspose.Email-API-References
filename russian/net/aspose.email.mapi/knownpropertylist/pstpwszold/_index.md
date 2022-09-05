@@ -1,14 +1,14 @@
 ---
 title: PstPwSzOld
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PST_PW_SZ_OLD
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PST_PW_SZ_OLD
 type: docs
 weight: 15110
 url: /ru/net/aspose.email.mapi/knownpropertylist/pstpwszold/
 ---
 ## KnownPropertyList.PstPwSzOld field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PST_PW_SZ_OLD
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PST_PW_SZ_OLD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PstPwSzOld;

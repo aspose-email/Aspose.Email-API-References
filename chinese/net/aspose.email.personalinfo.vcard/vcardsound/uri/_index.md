@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置声音的 uri  null ifvalueLocationis inline 
+description: 获取或设置声音的 uri 无效的如果valueLocation是排队
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsound/uri/
 ---
 ## VCardSound.Uri property
 
-获取或设置声音的 uri (` null` ifvalueLocationis` inline` )
+获取或设置声音的 uri (`无效的`如果valueLocation是`排队`)
 
 ```csharp
 public string Uri { get; set; }

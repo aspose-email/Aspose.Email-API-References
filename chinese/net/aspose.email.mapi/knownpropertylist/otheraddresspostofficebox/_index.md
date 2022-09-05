@@ -1,14 +1,14 @@
 ---
 title: OtherAddressPostOfficeBox
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的其他邮箱的号码或标识符 区域地址属性 规范名称PidTagOtherAddressPostOfficeBox 替代名称PR_OTHER_ADDRESS_POST_OFFICE_BOX PR_OTHER_ADDRESS_POST_OFFICE_BOX_A PR_OTHER_ADDRESS_POST_OFFICE_BOX_W
+description: 包含邮件用户的其他邮政信箱的编号或标识符 区域地址属性 规范名称PidTagOtherAddressPostOfficeBox 替代名称PR_OTHER_ADDRESS_POST_OFFICE_BOXPR_OTHER_ADDRESS_POST_OFFICE_BOX_APR_OTHER_ADDRESS_POST_OFFICE_BOX_W
 type: docs
 weight: 13990
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddresspostofficebox/
 ---
 ## KnownPropertyList.OtherAddressPostOfficeBox field
 
-包含邮件用户的其他邮箱的号码或标识符。 区域:地址属性 规范名称:PidTagOtherAddressPostOfficeBox 替代名称:PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESS_POST_OFFICE_BOX_W,
+包含邮件用户的其他邮政信箱的编号或标识符。 区域：地址属性 规范名称：PidTagOtherAddressPostOfficeBox 替代名称：PR_OTHER_ADDRESS_POST_OFFICE_BOX、PR_OTHER_ADDRESS_POST_OFFICE_BOX_A、PR_OTHER_ADDRESS_POST_OFFICE_BOX_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressPostOfficeBox;

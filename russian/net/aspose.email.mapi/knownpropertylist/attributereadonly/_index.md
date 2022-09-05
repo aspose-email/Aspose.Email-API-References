@@ -1,14 +1,14 @@
 ---
 title: AttributeReadOnly
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает можно ли изменить или удалить элемент. ОбластьСвойства контроля доступа Каноническое имяPidTagAttributeReadOnly Альтернативные именаPR_ATTR_READONLY ptagAttrReadonly DAVisreadonly
+description: Указывает можно ли изменить или удалить элемент. Область Свойства управления доступом Каноническое имя PidTagAttributeReadOnly Альтернативные имена PR_ATTR_READONLY ptagAttrReadonly DAVisreadonly
 type: docs
 weight: 1840
 url: /ru/net/aspose.email.mapi/knownpropertylist/attributereadonly/
 ---
 ## KnownPropertyList.AttributeReadOnly field
 
-Указывает, можно ли изменить или удалить элемент. Область:Свойства контроля доступа Каноническое имя:PidTagAttributeReadOnly Альтернативные имена:PR_ATTR_READONLY, ptagAttrReadonly, DAV:isreadonly
+Указывает, можно ли изменить или удалить элемент. Область: Свойства управления доступом Каноническое имя: PidTagAttributeReadOnly Альтернативные имена: PR_ATTR_READONLY, ptagAttrReadonly, DAV:isreadonly
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttributeReadOnly;

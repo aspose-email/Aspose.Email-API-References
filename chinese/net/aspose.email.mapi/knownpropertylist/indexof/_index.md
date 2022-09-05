@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Email for .NET API 参考
-description: 确定 System.Collections.Generic.IList 中特定项的索引
+description: 确定 System.Collections.Generic.IList. 中特定项目的索引
 type: docs
 weight: 130
 url: /zh/net/aspose.email.mapi/knownpropertylist/indexof/
 ---
 ## IndexOf(PropertyDescriptor) {#indexof}
 
-确定 System.Collections.Generic.IList 中特定项的索引。
+确定 System.Collections.Generic.IList. 中特定项目的索引
 
 ```csharp
 public int IndexOf(PropertyDescriptor item)
@@ -16,7 +16,7 @@ public int IndexOf(PropertyDescriptor item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | PropertyDescriptor | 要在 System.Collections.Generic.IList 中定位的对象。 |
+| item | PropertyDescriptor | 在 System.Collections.Generic.IList 中定位的对象。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public int IndexOf(PropertyDescriptor item)
 
 ## IndexOf(string) {#indexof_1}
 
-确定 System.Collections.Generic.IList 中特定项的索引。
+确定 System.Collections.Generic.IList. 中特定项目的索引
 
 ```csharp
 public int IndexOf(string name)
@@ -41,7 +41,7 @@ public int IndexOf(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 用于引用属性的名称。 |
+| name | String | 用于指代属性的名称。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: GetMailTipsOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化GetMailTipsOptionsaspose.email.clients.exchange.webservice/getmailtipsoptions类 的新实例
+description: 初始化GetMailTipsOptionsaspose.email.clients.exchange.webservice/getmailtipsoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/getmailtipsoptions/getmailtipsoptions/
 ---
 ## GetMailTipsOptions constructor
 
-初始化[`GetMailTipsOptions`](../../getmailtipsoptions)类 的新实例
+初始化[`GetMailTipsOptions`](../../getmailtipsoptions) class
 
 ```csharp
 public GetMailTipsOptions(MailAddress sendingAs, MailAddressCollection recipients, 
@@ -19,7 +19,7 @@ public GetMailTipsOptions(MailAddress sendingAs, MailAddressCollection recipient
 | --- | --- | --- |
 | sendingAs | MailAddress | 指定用户尝试发送的电子邮件地址。 |
 | recipients | MailAddressCollection | 指定要检查邮件提示的收件人列表。 |
-| mailTipsRequested | MailTipsType | 指定从服务请求的邮件提示的类型。 |
+| mailTipsRequested | MailTipsType | 指定从服务请求的邮件提示类型。 |
 
 ### 也可以看看
 

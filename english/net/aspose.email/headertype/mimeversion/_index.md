@@ -1,7 +1,7 @@
 ---
 title: MIMEVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An indicator that this message is formatted according to the MIME standard and an indication of which version of MIME is utilized. Defined in RFC 2045
 type: docs
 weight: 150
 url: /net/aspose.email/headertype/mimeversion/

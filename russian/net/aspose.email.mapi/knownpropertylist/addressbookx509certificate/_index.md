@@ -1,14 +1,14 @@
 ---
 title: AddressBookX509Certificate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит сертификаты X.509 в кодировке ASN_1 DER для пользователя почты. ОбластьАдресная книга Каноническое имяPidTagAddressBookX509Certificate Альтернативные именаPR_EMS_AB_X509_CERT
+description: Содержит сертификаты X.509 в кодировке ASN_1 DER для пользователя почты. Область Адресная книга Каноническое имя PidTagAddressBookX509Certificate Альтернативные имена PR_EMS_AB_X509_CERT
 type: docs
 weight: 1000
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookx509certificate/
 ---
 ## KnownPropertyList.AddressBookX509Certificate field
 
-Содержит сертификаты X.509 в кодировке ASN_1 DER для пользователя почты. Область:Адресная книга Каноническое имя:PidTagAddressBookX509Certificate Альтернативные имена:PR_EMS_AB_X509_CERT
+Содержит сертификаты X.509 в кодировке ASN_1 DER для пользователя почты. Область: Адресная книга Каноническое имя: PidTagAddressBookX509Certificate Альтернативные имена: PR_EMS_AB_X509_CERT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookX509Certificate;

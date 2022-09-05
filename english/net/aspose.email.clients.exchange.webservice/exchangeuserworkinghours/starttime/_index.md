@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the start time of the working day.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/exchangeuserworkinghours/starttime/

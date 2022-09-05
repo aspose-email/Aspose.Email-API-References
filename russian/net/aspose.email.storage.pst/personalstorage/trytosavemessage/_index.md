@@ -1,14 +1,14 @@
 ---
 title: TryToSaveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет сообщение с указанным идентификатором записи в поток.
+description: Сохраняет сообщение с указанным идентификатором записи в потоке.
 type: docs
 weight: 320
 url: /ru/net/aspose.email.storage.pst/personalstorage/trytosavemessage/
 ---
 ## PersonalStorage.TryToSaveMessage method
 
-Сохраняет сообщение с указанным идентификатором записи в поток.
+Сохраняет сообщение с указанным идентификатором записи в потоке.
 
 ```csharp
 public SaveResult TryToSaveMessage(string entryId, Stream stream)
@@ -21,7 +21,7 @@ public SaveResult TryToSaveMessage(string entryId, Stream stream)
 
 ### Возвращаемое значение
 
-Объект[`SaveResult`](../../saveresult), представляющий результат сохранения элемента.
+[`SaveResult`](../../saveresult) который представляет собой результат сохранения элемента.
 
 ### Смотрите также
 

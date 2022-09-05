@@ -1,14 +1,14 @@
 ---
 title: ClassificationType
 second_title: Aspose.Email for .NET API 参考
-description: https//docs.microsoft.com/en-us/graph/api/resources/enumsviewgraph-rest-1.0 https//docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverrideviewgraph-rest-1.0 指定如何将来自特定发件人的传入消息始终分类为.
+description: https//docs.microsoft.com/en-us/graph/api/resources/enumsviewgraph-rest-1.0 https//docs.microsoft.com/en-us/graph/api/resources /inferenceclassificationoverrideviewgraph-rest-1.0 指定来自特定发件人的传入消息应如何分类
 type: docs
 weight: 15890
 url: /zh/net/aspose.email.clients.graph/classificationtype/
 ---
 ## ClassificationType enumeration
 
-https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0 指定如何将来自特定发件人的传入消息始终分类为.
+https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources /inferenceclassificationoverride?view=graph-rest-1.0 指定来自特定发件人的传入消息应如何分类。
 
 ```csharp
 public enum ClassificationType

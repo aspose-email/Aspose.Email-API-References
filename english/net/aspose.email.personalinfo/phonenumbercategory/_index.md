@@ -1,9 +1,9 @@
 ---
 title: PhoneNumberCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for a phone number
 type: docs
-weight: 19270
+weight: 19480
 url: /net/aspose.email.personalinfo/phonenumbercategory/
 ---
 ## PhoneNumberCategory class
@@ -49,8 +49,8 @@ public class PhoneNumberCategory : IEquatable<PhoneNumberCategory>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| virtual [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals)(PhoneNumberCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals#equals)(PhoneNumberCategory) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.email.personalinfo/phonenumbercategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/phonenumbercategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/phonenumbercategory/op_equality) | Determines whether the specified objects are equal. |

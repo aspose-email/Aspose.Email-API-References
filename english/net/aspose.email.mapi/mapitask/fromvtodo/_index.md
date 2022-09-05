@@ -1,12 +1,12 @@
 ---
 title: FromVTodo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an instance of MapiTask from the specified .ics file.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapitask/fromvtodo/
 ---
-## MapiTask.FromVTodo method (1 of 4)
+## FromVTodo(string) {#fromvtodo_2}
 
 Creates an instance of MapiTask from the specified .ics file.
 
@@ -30,7 +30,7 @@ Returns a MapiTask instance which is loaded from the specified file.
 
 ---
 
-## MapiTask.FromVTodo method (2 of 4)
+## FromVTodo(string, bool) {#fromvtodo_3}
 
 Creates an instance of MapiTask from the specified .ics file.
 
@@ -55,7 +55,7 @@ Returns a MapiTask instance which is loaded from the specified file.
 
 ---
 
-## MapiTask.FromVTodo method (3 of 4)
+## FromVTodo(Stream) {#fromvtodo}
 
 Creates an instance of MapiTask from the specified stream.
 
@@ -79,7 +79,7 @@ Returns a MapiTask instance which is loaded from the specified stream.
 
 ---
 
-## MapiTask.FromVTodo method (4 of 4)
+## FromVTodo(Stream, bool) {#fromvtodo_1}
 
 Creates an instance of MapiTask from the specified stream.
 

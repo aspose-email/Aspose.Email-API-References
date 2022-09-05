@@ -1,7 +1,7 @@
 ---
 title: FormatTemplates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the format templates.
 type: docs
 weight: 70
 url: /net/aspose.email/headersformattingoptions/formattemplates/

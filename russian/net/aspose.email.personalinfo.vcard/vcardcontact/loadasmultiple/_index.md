@@ -3,7 +3,7 @@ title: LoadAsMultiple
 second_title: Справочник по Aspose.Email для .NET API
 description: Загружает список контактов из потока с несколькими контактами.
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/
 ---
 ## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_3}
@@ -17,8 +17,8 @@ public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encodi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
-| encoding | Encoding | Поток кодировка данных, если ноль, то будет использоваться UTF8. |
+| filePath | String | Имя файла для чтения |
+| encoding | Encoding | Кодировка потоковых данных, если ноль, то будет использоваться UTF8. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -45,7 +45,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Исходный поток |
-| encoding | Encoding | Кодирование потока данных,если null, тогда будет использоваться UTF8. |
+| encoding | Encoding | Кодировка потоковых данных, если ноль, то будет использоваться UTF8. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -71,7 +71,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Исходный поток |
-| encoding | Encoding | Кодирование потока данных,если null, тогда будет использоваться UTF8. |
+| encoding | Encoding | Кодировка потоковых данных, если ноль, то будет использоваться UTF8. |
 
 ### Возвращаемое значение
 
@@ -96,7 +96,7 @@ public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encodi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Исходный файл |
-| encoding | Encoding | Кодировка данных файла,если null, тогда будет использоваться UTF8. |
+| encoding | Encoding | Кодировка данных файла, если ноль, то будет использоваться UTF8. |
 
 ### Смотрите также
 

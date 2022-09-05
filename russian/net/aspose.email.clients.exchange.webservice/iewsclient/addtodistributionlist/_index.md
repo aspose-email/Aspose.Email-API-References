@@ -1,14 +1,14 @@
 ---
 title: AddToDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет элементы в список рассылки.
+description: Добавляет участников в список рассылки.
 type: docs
 weight: 360
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/addtodistributionlist/
 ---
 ## IEWSClient.AddToDistributionList method
 
-Добавляет элементы в список рассылки.
+Добавляет участников в список рассылки.
 
 ```csharp
 public void AddToDistributionList(ExchangeDistributionList distributionList, 
@@ -17,8 +17,8 @@ public void AddToDistributionList(ExchangeDistributionList distributionList,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)содержащий информацию о списке рассылки обновить. |
-| members | MailAddressCollection | A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)содержащий почтовые адреса для добавления. |
+| distributionList | ExchangeDistributionList | А[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) содержащий информацию о списке рассылки для обновления. |
+| members | MailAddressCollection | А[`MailAddressCollection`](../../../aspose.email/mailaddresscollection) содержащий почтовые адреса для добавления. |
 
 ### Смотрите также
 

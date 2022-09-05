@@ -1,14 +1,14 @@
 ---
 title: SecurityDescriptorAsXml
 second_title: Aspose.Email for .NET API 参考
-description: 包含 XML 中的安全属性 区域访问控制属性 规范名称PidTagSecurityDescriptorAsXml 替代名称PR_NT_SECURITY_DESCRIPTOR_AS_XMLPR_NT_SECURITY_DESCRIPTOR_AS_XML_APR_NT_SECURITY_DESCRIPTOR_AS_XML_W
+description: 包含 XML 中的安全属性 区域访问控制属性 规范名称PidTagSecurityDescriptorAsXml 备用名称PR_NT_SECURITY_DESCRIPTOR_AS_XMLPR_NT_SECURITY_DESCRIPTOR_AS_XML_APR_NT_SECURITY_DESCRIPTOR_AS_XML_W
 type: docs
 weight: 17070
 url: /zh/net/aspose.email.mapi/knownpropertylist/securitydescriptorasxml/
 ---
 ## KnownPropertyList.SecurityDescriptorAsXml field
 
-包含 XML 中的安全属性。 区域:访问控制属性 规范名称:PidTagSecurityDescriptorAsXml 替代名称:PR_NT_SECURITY_DESCRIPTOR_AS_XML、PR_NT_SECURITY_DESCRIPTOR_AS_XML_A、PR_NT_SECURITY_DESCRIPTOR_AS_XML_W、
+包含 XML 中的安全属性。 区域：访问控制属性 规范名称：PidTagSecurityDescriptorAsXml 备用名称：PR_NT_SECURITY_DESCRIPTOR_AS_XML、PR_NT_SECURITY_DESCRIPTOR_AS_XML_A、PR_NT_SECURITY_DESCRIPTOR_AS_XML_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SecurityDescriptorAsXml;

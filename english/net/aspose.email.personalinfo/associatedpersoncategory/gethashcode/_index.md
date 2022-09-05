@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GetHashCode returns a hash function for this object.
 type: docs
 weight: 200
 url: /net/aspose.email.personalinfo/associatedpersoncategory/gethashcode/

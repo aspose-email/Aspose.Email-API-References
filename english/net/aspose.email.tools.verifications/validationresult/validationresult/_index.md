@@ -1,12 +1,12 @@
 ---
 title: ValidationResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create an instance of the ValidationResult class
 type: docs
 weight: 10
 url: /net/aspose.email.tools.verifications/validationresult/validationresult/
 ---
-## ValidationResult constructor (1 of 3)
+## ValidationResult() {#constructor}
 
 Create an instance of the ValidationResult class
 
@@ -22,7 +22,7 @@ public ValidationResult()
 
 ---
 
-## ValidationResult constructor (2 of 3)
+## ValidationResult(ValidationResponseCode) {#constructor_1}
 
 Create an instance of the ValidationResult class, with the specified ValidationResponseCode
 
@@ -43,7 +43,7 @@ public ValidationResult(ValidationResponseCode responseCode)
 
 ---
 
-## ValidationResult constructor (3 of 3)
+## ValidationResult(ValidationResponseCode, Exception) {#constructor_2}
 
 Create an instance of the ValidationResult class, with the specified ValidationResponseCode, and the last exception.
 

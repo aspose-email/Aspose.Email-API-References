@@ -1,9 +1,9 @@
 ---
 title: DebugFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the class for formatting log entry messages.
 type: docs
-weight: 20250
+weight: 20480
 url: /net/aspose.email.tools.logging/debugformatter/
 ---
 ## DebugFormatter class
@@ -33,7 +33,7 @@ public class DebugFormatter : Formatter
 | Name | Description |
 | --- | --- |
 | virtual [Format](../../aspose.email.tools.logging/formatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| override [Format](../../aspose.email.tools.logging/debugformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/debugformatter/format#format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

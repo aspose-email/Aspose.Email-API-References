@@ -1,12 +1,12 @@
 ---
 title: FetchAttachmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified attachment
 type: docs
 weight: 640
 url: /net/aspose.email.clients.imap/imapclient/fetchattachmentasync/
 ---
-## ImapClient.FetchAttachmentAsync method (1 of 4)
+## FetchAttachmentAsync(IConnection, int, string) {#fetchattachmentasync}
 
 Fetches the specified attachment
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.FetchAttachmentAsync method (2 of 4)
+## FetchAttachmentAsync(int, string) {#fetchattachmentasync_2}
 
 Fetches the specified attachment
 
@@ -61,7 +61,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.FetchAttachmentAsync method (3 of 4)
+## FetchAttachmentAsync(IConnection, int, string, CancellationToken) {#fetchattachmentasync_1}
 
 Fetches the specified attachment
 
@@ -91,7 +91,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.FetchAttachmentAsync method (4 of 4)
+## FetchAttachmentAsync(int, string, CancellationToken) {#fetchattachmentasync_3}
 
 Fetches the specified attachment
 

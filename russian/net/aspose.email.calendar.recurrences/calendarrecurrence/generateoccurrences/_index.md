@@ -16,13 +16,13 @@ public DateCollection GenerateOccurrences()
 
 ### Возвращаемое значение
 
-Коллекция дат[`DateCollection`](../../datecollection).
+Коллекция фиников[`DateCollection`](../../datecollection).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| Exception | выбрасывает, если StartDate не установлен. |
+| Exception | бросает, если StartDate не установлен. |
 
 ### Смотрите также
 
@@ -47,14 +47,14 @@ public DateCollection GenerateOccurrences(int nNextOccurrences)
 
 ### Возвращаемое значение
 
-Коллекция дат[`DateCollection`](../../datecollection).
+Коллекция фиников[`DateCollection`](../../datecollection).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| Exception | выбрасывает, если StartDate не установлен. |
-| ArgumentOutOfRangeException | выбрасывает, если количество необходимых вхождений меньше или равно нулю. |
+| Exception | бросает, если StartDate не установлен. |
+| ArgumentOutOfRangeException | бросает, если количество необходимых вхождений меньше или равно нулю. |
 
 ### Смотрите также
 
@@ -80,13 +80,13 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 
 ### Возвращаемое значение
 
-Коллекция дат[`DateCollection`](../../datecollection).
+Коллекция фиников[`DateCollection`](../../datecollection).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| Exception | выдает, если StartDate не установлен |
+| Exception | бросает, если StartDate не установлен |
 
 ### Смотрите также
 
@@ -114,14 +114,14 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 
 ### Возвращаемое значение
 
-Коллекция дат[`DateCollection`](../../datecollection).
+Коллекция фиников[`DateCollection`](../../datecollection).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| Exception | выбрасывает, если StartDate не установлен. |
-| ArgumentOutOfRangeException | выбрасывает, если количество необходимых вхождений меньше или равно нулю. |
+| Exception | бросает, если StartDate не установлен. |
+| ArgumentOutOfRangeException | бросает, если количество необходимых вхождений меньше или равно нулю. |
 
 ### Смотрите также
 

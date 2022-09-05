@@ -1,9 +1,9 @@
 ---
 title: SaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format.
 type: docs
-weight: 19750
+weight: 19980
 url: /net/aspose.email/saveoptions/
 ---
 ## SaveOptions class

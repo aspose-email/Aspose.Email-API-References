@@ -1,14 +1,14 @@
 ---
 title: ReminderOverride
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是尊重属性的当前值第 2.219 节还是使用这些属性的默认值 区域提醒 规范名称PidLidReminderOverride 替代名称dispidReminderOverride
+description: 指定客户端是尊重属性的当前值第 2.219 节还是使用这些属性的默认值 区域Reminders 规范名称PidLidReminderOverride 替代名称dispidReminderOverride
 type: docs
 weight: 15690
 url: /zh/net/aspose.email.mapi/knownpropertylist/reminderoverride/
 ---
 ## KnownPropertyList.ReminderOverride field
 
-指定客户端是尊重属性的当前值（第 2.219 节），还是使用这些属性的默认值。 区域:提醒 规范名称:PidLidReminderOverride 替代名称:dispidReminderOverride
+指定客户端是尊重属性的当前值（第 2.219 节），还是使用这些属性的默认值。 区域：Reminders 规范名称：PidLidReminderOverride 替代名称：dispidReminderOverride
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderOverride;

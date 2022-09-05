@@ -1,7 +1,7 @@
 ---
 title: ToAmpHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents amp html version of attributes.
 type: docs
 weight: 120
 url: /net/aspose.email.amp/ampattributes/toamphtml/

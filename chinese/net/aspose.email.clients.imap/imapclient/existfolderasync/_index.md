@@ -1,14 +1,14 @@
 ---
 title: ExistFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 检查此文件夹是否存在
+description: 检查这个文件夹是否存在
 type: docs
 weight: 620
 url: /zh/net/aspose.email.clients.imap/imapclient/existfolderasync/
 ---
 ## ExistFolderAsync(string) {#existfolderasync_2}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public Task<bool> ExistFolderAsync(string folderName)
@@ -20,7 +20,7 @@ public Task<bool> ExistFolderAsync(string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public Task<bool> ExistFolderAsync(string folderName)
 
 ## ExistFolderAsync(IConnection, string) {#existfolderasync}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
@@ -45,7 +45,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 
 ## ExistFolderAsync(string, CancellationToken) {#existfolderasync_3}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
@@ -71,7 +71,7 @@ public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -83,7 +83,7 @@ public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
 
 ## ExistFolderAsync(IConnection, string, CancellationToken) {#existfolderasync_1}
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public Task<bool> ExistFolderAsync(IConnection connection, string folderName, 
@@ -98,7 +98,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

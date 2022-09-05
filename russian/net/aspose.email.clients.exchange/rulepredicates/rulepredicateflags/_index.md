@@ -1,14 +1,14 @@
 ---
 title: RulePredicateFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает флаги предиката правила
+description: Получает или задает предикат правила flags
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/rulepredicateflags/
 ---
 ## RulePredicates.RulePredicateFlags property
 
-Получает или устанавливает флаги предиката правила
+Получает или задает предикат правила flags
 
 ```csharp
 public RulePredicateFlags RulePredicateFlags { get; set; }

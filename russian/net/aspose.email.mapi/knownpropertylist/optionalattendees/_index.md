@@ -1,14 +1,14 @@
 ---
 title: OptionalAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает необязательных участников. ОбластьВстречи Каноническое имяPidLidOptionalAttendees Альтернативные именаLID_OPTIONAL_ATTENDEES
+description: Указывает необязательных участников. Область Meetings Каноническое имя PidLidOptionalAttendees Альтернативные имена LID_OPTIONAL_ATTENDEES
 type: docs
 weight: 13430
 url: /ru/net/aspose.email.mapi/knownpropertylist/optionalattendees/
 ---
 ## KnownPropertyList.OptionalAttendees field
 
-Указывает необязательных участников. Область:Встречи Каноническое имя:PidLidOptionalAttendees Альтернативные имена:LID_OPTIONAL_ATTENDEES
+Указывает необязательных участников. Область: Meetings Каноническое имя: PidLidOptionalAttendees Альтернативные имена: LID_OPTIONAL_ATTENDEES
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OptionalAttendees;

@@ -16,11 +16,11 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IEnumerable<int>
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -74,7 +74,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -102,7 +102,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -126,12 +126,12 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -154,12 +154,12 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -183,11 +183,11 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | messageInfoList | IEnumerable`1 | 消息信息列表 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -212,11 +212,11 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | messageInfoList | IEnumerable`1 | 消息信息列表 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -243,7 +243,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(Pop3LoadMessageI
 
 ### 返回值
 
-加载消息信息列表
+已加载消息信息列表
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FetchMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанные сообщения
+description: Получает указанные сообщения
 type: docs
 weight: 820
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessages/
 ---
 ## FetchMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessages_2}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<string> uris, 
@@ -17,18 +17,18 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollectionсодержит URI сообщения, которое необходимо получить |
-| extendedProperties | IEnumerable`1 | Перечисление расширенных свойств |
+| uris | IEnumerable`1 | АStringCollection содержащий URI сообщения, которое нужно получить |
+| extendedProperties | IEnumerable`1 | Перечень расширенных свойств |
 
 ### Возвращаемое значение
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащий извлеченные сообщения
+А[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris* является`нулевой` |
 
 ### Смотрите также
 
@@ -42,7 +42,7 @@ A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)соде�
 
 ## FetchMessages(IEnumerable&lt;string&gt;) {#fetchmessages_1}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<string> uris)
@@ -50,17 +50,17 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollectionсодержащий URI сообщения для извлечения |
+| uris | IEnumerable`1 | АStringCollection содержащий URI сообщения, которое нужно получить |
 
 ### Возвращаемое значение
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
+А[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris* является`нулевой` |
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)соде�
 
 ## FetchMessages(IEnumerable&lt;ExchangeMessageInfo&gt;) {#fetchmessages}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MailMessageCollection FetchMessages(IEnumerable<ExchangeMessageInfo> messageInfos)
@@ -81,17 +81,17 @@ public MailMessageCollection FetchMessages(IEnumerable<ExchangeMessageInfo> mess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfos | IEnumerable`1 | AIEnumerable&lt;ExchangeMessageInfo&gt; "/&gt; извлекаемых сообщений |
+| messageInfos | IEnumerable`1 | АIEnumerable&lt;ExchangeMessageInfo&gt;"/&gt; извлекаемых сообщений |
 
 ### Возвращаемое значение
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащий извлеченные сообщения
+А[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageInfos*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageInfos* является`нулевой` |
 
 ### Смотрите также
 
@@ -105,7 +105,7 @@ A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)соде�
 
 ## FetchMessages(StringCollection) {#fetchmessages_3}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MailMessageCollection FetchMessages(StringCollection messageUris)
@@ -113,17 +113,17 @@ public MailMessageCollection FetchMessages(StringCollection messageUris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUris | StringCollection | AStringCollectionсодержащий URI сообщения, который необходимо получить |
+| messageUris | StringCollection | АStringCollection содержащий URI сообщения, которое нужно получить |
 
 ### Возвращаемое значение
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
+А[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUris* является`нулевой` |
 
 ### Смотрите также
 

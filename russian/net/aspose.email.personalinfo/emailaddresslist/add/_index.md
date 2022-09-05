@@ -16,7 +16,7 @@ public void Add(EmailAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | EmailAddress | ОбъектObjectдля добавления в список. |
+| value | EmailAddress | Object добавить в список. |
 
 ### Возвращаемое значение
 

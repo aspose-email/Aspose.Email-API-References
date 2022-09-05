@@ -20,14 +20,14 @@ public static bool CheckSignature(string fileName)
 
 ### Возвращаемое значение
 
-` True` , если подпись действительна; в противном случае` false` .
+`Истинный` если подпись действительна; в противном случае,`ЛОЖЬ`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *fileName*is` null` или` пусто` . |
-| FileNotFoundException | Указанный*fileName*не существует. |
+| ArgumentException | *fileName* является`нулевой`или же`пустой`. |
+| FileNotFoundException | Указанный*fileName* не существует. |
 | NotSupportedException | Тип подписи не поддерживается. |
 | InvalidOperationException | Почтовое сообщение не подписано или не указан тип подписи. |
 
@@ -53,13 +53,13 @@ public static bool CheckSignature(Stream stream)
 
 ### Возвращаемое значение
 
-` True` , если подпись действительна; в противном случае` false` .
+`Истинный` если подпись действительна; в противном случае,`ЛОЖЬ`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` . |
+| ArgumentNullException | *stream* является`нулевой`. |
 | NotSupportedException | Тип подписи не поддерживается. |
 | InvalidOperationException | Почтовое сообщение не подписано или не указан тип подписи. |
 

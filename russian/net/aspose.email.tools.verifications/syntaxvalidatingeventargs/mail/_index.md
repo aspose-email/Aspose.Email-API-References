@@ -1,14 +1,14 @@
 ---
 title: Mail
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает проверяемый почтовый адрес.
+description: Получает почтовый адрес который проверяется.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.tools.verifications/syntaxvalidatingeventargs/mail/
 ---
 ## SyntaxValidatingEventArgs.Mail property
 
-Получает проверяемый почтовый адрес.
+Получает почтовый адрес, который проверяется.
 
 ```csharp
 public string Mail { get; }

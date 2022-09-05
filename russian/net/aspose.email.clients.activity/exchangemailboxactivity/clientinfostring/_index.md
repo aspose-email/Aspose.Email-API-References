@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.activity/exchangemailboxactivity/clientinfostr
 ---
 ## ExchangeMailboxActivity.ClientInfoString property
 
-Информация о почтовом клиенте, который использовался для выполнения операции, например, версия браузера, версия Outlook и информация о мобильном устройстве.
+Информация о почтовом клиенте, который использовался для выполнения операции, например версия браузера, версия Outlook и информация о мобильном устройстве.
 
 ```csharp
 public string ClientInfoString { get; set; }

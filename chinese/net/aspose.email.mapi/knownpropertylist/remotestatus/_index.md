@@ -1,14 +1,14 @@
 ---
 title: RemoteStatus
 second_title: Aspose.Email for .NET API 参考
-description: 表示日历项的远程状态 区域运行时配置 规范名称PidLidRemoteStatus 替代名称dispidRemoteStatus
+description: 表示日历项的远程状态 区域运行时配置 规范名称PidLidRemoteStatus 备用名称dispidRemoteStatus
 type: docs
 weight: 15810
 url: /zh/net/aspose.email.mapi/knownpropertylist/remotestatus/
 ---
 ## KnownPropertyList.RemoteStatus field
 
-表示日历项的远程状态。 区域:运行时配置 规范名称:PidLidRemoteStatus 替代名称:dispidRemoteStatus
+表示日历项的远程状态。 区域：运行时配置 规范名称：PidLidRemoteStatus 备用名称：dispidRemoteStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RemoteStatus;

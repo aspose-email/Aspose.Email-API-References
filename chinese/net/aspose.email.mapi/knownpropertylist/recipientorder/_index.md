@@ -1,14 +1,14 @@
 ---
 title: RecipientOrder
 second_title: Aspose.Email for .NET API 参考
-description: 指定当前收件人在收件人表中的位置 区域TransportRecipient 规范名称PidTagRecipientOrder 备用名称PR_RECIPIENT_ORDER ptagRecipientOrder
+description: 指定当前收件人在收件人表中的位置 区域TransportRecipient 规范名称PidTagRecipientOrder 备用名称PR_RECIPIENT_ORDERptagRecipientOrder
 type: docs
 weight: 15480
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientorder/
 ---
 ## KnownPropertyList.RecipientOrder field
 
-指定当前收件人在收件人表中的位置。 区域:TransportRecipient 规范名称:PidTagRecipientOrder 备用名称:PR_RECIPIENT_ORDER, ptagRecipientOrder
+指定当前收件人在收件人表中的位置。 区域：TransportRecipient 规范名称：PidTagRecipientOrder 备用名称：PR_RECIPIENT_ORDER、ptagRecipientOrder
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientOrder;

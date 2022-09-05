@@ -1,14 +1,14 @@
 ---
 title: RelatedTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает связанный UID
+description: Получает или задает связанный UID
 type: docs
 weight: 100
 url: /ru/net/aspose.email.calendar/task/relatedto/
 ---
 ## Task.RelatedTo property
 
-Получает или устанавливает связанный UID
+Получает или задает связанный UID
 
 ```csharp
 public string RelatedTo { get; set; }

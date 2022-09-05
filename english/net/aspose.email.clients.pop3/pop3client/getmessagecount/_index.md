@@ -1,12 +1,37 @@
 ---
 title: GetMessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message count
 type: docs
 weight: 190
 url: /net/aspose.email.clients.pop3/pop3client/getmessagecount/
 ---
-## Pop3Client.GetMessageCount method (1 of 4)
+## GetMessageCount(IConnection) {#getmessagecount_1}
+
+Gets the message count
+
+```csharp
+public int GetMessageCount(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+message count
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## GetMessageCount(IConnection, bool) {#getmessagecount_2}
 
 Gets the message count
 
@@ -32,7 +57,7 @@ message count
 
 ---
 
-## Pop3Client.GetMessageCount method (2 of 4)
+## GetMessageCount() {#getmessagecount}
 
 Gets the message count
 
@@ -52,7 +77,7 @@ message count
 
 ---
 
-## Pop3Client.GetMessageCount method (3 of 4)
+## GetMessageCount(bool) {#getmessagecount_3}
 
 Gets the message count
 
@@ -70,31 +95,6 @@ message count
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.GetMessageCount method (4 of 4)
-
-Gets the message count
-
-```csharp
-public int GetMessageCount(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-### Return Value
-
-message count
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [Pop3Client](../../pop3client)
 * namespace [Aspose.Email.Clients.Pop3](../../pop3client)
 * assembly [Aspose.Email](../../../)

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the property if its named.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi.msg/messageobjectproperty/name/

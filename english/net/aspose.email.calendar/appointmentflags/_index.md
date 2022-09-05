@@ -1,7 +1,7 @@
 ---
 title: AppointmentFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates appointment flags.
 type: docs
 weight: 470
 url: /net/aspose.email.calendar/appointmentflags/

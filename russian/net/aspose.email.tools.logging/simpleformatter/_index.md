@@ -3,7 +3,7 @@ title: SimpleFormatter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет реализацию интерфейса IFormatter по умолчанию.
 type: docs
-weight: 20530
+weight: 20580
 url: /ru/net/aspose.email.tools.logging/simpleformatter/
 ---
 ## SimpleFormatter class
@@ -25,9 +25,9 @@ public sealed class SimpleFormatter : Formatter
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или устанавливает нижний колонтитул. |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или задает заголовок. |
-| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или устанавливает заголовок журнала |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или задает нижний колонтитул. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или устанавливает заголовок. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или задает заголовок журнала |
 
 ## Методы
 

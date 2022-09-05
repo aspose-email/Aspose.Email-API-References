@@ -1,12 +1,12 @@
 ---
 title: CreateAttachmentFromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the attachment from string.
 type: docs
 weight: 20
 url: /net/aspose.email/attachment/createattachmentfromstring/
 ---
-## Attachment.CreateAttachmentFromString method (1 of 3)
+## CreateAttachmentFromString(string, string) {#createattachmentfromstring_1}
 
 Creates the attachment from string.
 
@@ -31,7 +31,7 @@ Returns created attachment
 
 ---
 
-## Attachment.CreateAttachmentFromString method (2 of 3)
+## CreateAttachmentFromString(string, string, Encoding, string) {#createattachmentfromstring_2}
 
 Creates the attachment from string.
 
@@ -59,7 +59,7 @@ Returns created attachment
 
 ---
 
-## Attachment.CreateAttachmentFromString method (3 of 3)
+## CreateAttachmentFromString(string, ContentType) {#createattachmentfromstring}
 
 Creates the attachment from string.
 

@@ -1,12 +1,12 @@
 ---
 title: AddMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the flags to the message
 type: docs
 weight: 340
 url: /net/aspose.email.clients.imap/imapclient/addmessageflags/
 ---
-## ImapClient.AddMessageFlags method (1 of 28)
+## AddMessageFlags(IConnection, int, ImapMessageFlags) {#addmessageflags}
 
 Adds the flags to the message
 
@@ -30,7 +30,7 @@ public void AddMessageFlags(IConnection connection, int sequenceNumber, ImapMess
 
 ---
 
-## ImapClient.AddMessageFlags method (2 of 28)
+## AddMessageFlags(IConnection, string, ImapMessageFlags) {#addmessageflags_10}
 
 Adds the flags to the message
 
@@ -54,7 +54,7 @@ public void AddMessageFlags(IConnection connection, string uniqueId, ImapMessage
 
 ---
 
-## ImapClient.AddMessageFlags method (3 of 28)
+## AddMessageFlags(int, ImapMessageFlags) {#addmessageflags_14}
 
 Adds the flags to the message
 
@@ -76,7 +76,7 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.AddMessageFlags method (4 of 28)
+## AddMessageFlags(string, ImapMessageFlags) {#addmessageflags_24}
 
 Adds the flags to the message
 
@@ -98,7 +98,7 @@ public void AddMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.AddMessageFlags method (5 of 28)
+## AddMessageFlags(IConnection, int, ImapMessageFlags, long) {#addmessageflags_1}
 
 Adds the flags to the message
 
@@ -124,7 +124,7 @@ public void AddMessageFlags(IConnection connection, int sequenceNumber, ImapMess
 
 ---
 
-## ImapClient.AddMessageFlags method (6 of 28)
+## AddMessageFlags(IConnection, string, ImapMessageFlags, long) {#addmessageflags_11}
 
 Adds the flags to the message
 
@@ -150,7 +150,7 @@ public void AddMessageFlags(IConnection connection, string uniqueId, ImapMessage
 
 ---
 
-## ImapClient.AddMessageFlags method (7 of 28)
+## AddMessageFlags(int, ImapMessageFlags, long) {#addmessageflags_15}
 
 Adds the flags to the message
 
@@ -173,7 +173,7 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long mod
 
 ---
 
-## ImapClient.AddMessageFlags method (8 of 28)
+## AddMessageFlags(string, ImapMessageFlags, long) {#addmessageflags_25}
 
 Adds the flags to the message
 
@@ -196,7 +196,7 @@ public void AddMessageFlags(string uniqueId, ImapMessageFlags flags, long modifi
 
 ---
 
-## ImapClient.AddMessageFlags method (9 of 28)
+## AddMessageFlags(string, string, ImapMessageFlags) {#addmessageflags_26}
 
 Adds the flags of the message
 
@@ -219,7 +219,7 @@ public void AddMessageFlags(string startUid, string endUid, ImapMessageFlags fla
 
 ---
 
-## ImapClient.AddMessageFlags method (10 of 28)
+## AddMessageFlags(int, int, ImapMessageFlags) {#addmessageflags_16}
 
 Adds the flags of the message
 
@@ -242,7 +242,7 @@ public void AddMessageFlags(int startSequence, int endSequence, ImapMessageFlags
 
 ---
 
-## ImapClient.AddMessageFlags method (11 of 28)
+## AddMessageFlags(IConnection, string, string, ImapMessageFlags) {#addmessageflags_12}
 
 Adds the flags of the message
 
@@ -268,7 +268,7 @@ public void AddMessageFlags(IConnection connection, string startUid, string endU
 
 ---
 
-## ImapClient.AddMessageFlags method (12 of 28)
+## AddMessageFlags(IConnection, int, int, ImapMessageFlags) {#addmessageflags_2}
 
 Adds the flags of the message
 
@@ -294,7 +294,7 @@ public void AddMessageFlags(IConnection connection, int startSequence, int endSe
 
 ---
 
-## ImapClient.AddMessageFlags method (13 of 28)
+## AddMessageFlags(string, string, ImapMessageFlags, long) {#addmessageflags_27}
 
 Adds the flags of the message
 
@@ -319,7 +319,7 @@ public void AddMessageFlags(string startUid, string endUid, ImapMessageFlags fla
 
 ---
 
-## ImapClient.AddMessageFlags method (14 of 28)
+## AddMessageFlags(int, int, ImapMessageFlags, long) {#addmessageflags_17}
 
 Adds the flags of the message
 
@@ -344,7 +344,7 @@ public void AddMessageFlags(int startSequence, int endSequence, ImapMessageFlags
 
 ---
 
-## ImapClient.AddMessageFlags method (15 of 28)
+## AddMessageFlags(IConnection, string, string, ImapMessageFlags, long) {#addmessageflags_13}
 
 Adds the flags of the message
 
@@ -371,7 +371,7 @@ public void AddMessageFlags(IConnection connection, string startUid, string endU
 
 ---
 
-## ImapClient.AddMessageFlags method (16 of 28)
+## AddMessageFlags(IConnection, int, int, ImapMessageFlags, long) {#addmessageflags_3}
 
 Adds the flags of the message
 
@@ -398,7 +398,7 @@ public void AddMessageFlags(IConnection connection, int startSequence, int endSe
 
 ---
 
-## ImapClient.AddMessageFlags method (17 of 28)
+## AddMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#addmessageflags_22}
 
 Adds the flags of the message
 
@@ -420,7 +420,7 @@ public void AddMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.AddMessageFlags method (18 of 28)
+## AddMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#addmessageflags_20}
 
 Adds the flags of the message
 
@@ -442,7 +442,7 @@ public void AddMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags
 
 ---
 
-## ImapClient.AddMessageFlags method (19 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#addmessageflags_8}
 
 Adds the flags of the message
 
@@ -467,7 +467,7 @@ public void AddMessageFlags(IConnection connection, IEnumerable<string> uidSet,
 
 ---
 
-## ImapClient.AddMessageFlags method (20 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#addmessageflags_6}
 
 Adds the flags of the message
 
@@ -492,7 +492,7 @@ public void AddMessageFlags(IConnection connection, IEnumerable<int> sequenceSet
 
 ---
 
-## ImapClient.AddMessageFlags method (21 of 28)
+## AddMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#addmessageflags_23}
 
 Adds the flags of the message
 
@@ -516,7 +516,7 @@ public void AddMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags,
 
 ---
 
-## ImapClient.AddMessageFlags method (22 of 28)
+## AddMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#addmessageflags_21}
 
 Adds the flags of the message
 
@@ -540,7 +540,7 @@ public void AddMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags
 
 ---
 
-## ImapClient.AddMessageFlags method (23 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#addmessageflags_9}
 
 Adds the flags of the message
 
@@ -566,7 +566,7 @@ public void AddMessageFlags(IConnection connection, IEnumerable<string> uidSet,
 
 ---
 
-## ImapClient.AddMessageFlags method (24 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#addmessageflags_7}
 
 Adds the flags of the message
 
@@ -592,7 +592,7 @@ public void AddMessageFlags(IConnection connection, IEnumerable<int> sequenceSet
 
 ---
 
-## ImapClient.AddMessageFlags method (25 of 28)
+## AddMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#addmessageflags_18}
 
 Adds the flags of the message
 
@@ -615,7 +615,7 @@ public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMes
 
 ---
 
-## ImapClient.AddMessageFlags method (26 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#addmessageflags_4}
 
 Adds the flags of the message
 
@@ -641,7 +641,7 @@ public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo>
 
 ---
 
-## ImapClient.AddMessageFlags method (27 of 28)
+## AddMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_19}
 
 Adds the flags of the message
 
@@ -666,7 +666,7 @@ public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMes
 
 ---
 
-## ImapClient.AddMessageFlags method (28 of 28)
+## AddMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_5}
 
 Adds the flags of the message
 

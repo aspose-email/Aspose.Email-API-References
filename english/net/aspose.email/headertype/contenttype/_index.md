@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ContentType defines the format of content character set etc. Note that the values for this header are defined in different ways in RFC1049 and in MIME RFC2045. Look for the MIMEversion header to understand if ContentType is to be interpreted according to RFC1049 or according to MIME RFC2045. The MIME definition should be used in generating mail. Historically ContentType field was proposed in RFC1049. In it ContentType did not distinguish type and subtype like RFC2045 does. Example ContentType text/plain charsetusascii Contenttype text/plain charsetUSASCII ContentType text/plain charsetiso88591 ContentType text/plain charsetkoi8r ContentType text/plain charsetunknown8bit
 type: docs
 weight: 70
 url: /net/aspose.email/headertype/contenttype/

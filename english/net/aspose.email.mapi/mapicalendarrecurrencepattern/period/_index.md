@@ -1,7 +1,7 @@
 ---
 title: Period
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets interval at which the meeting pattern repeats
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/period/

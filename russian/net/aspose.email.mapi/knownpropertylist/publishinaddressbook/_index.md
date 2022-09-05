@@ -1,14 +1,14 @@
 ---
 title: PublishInAddressBook
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PUBLISH_IN_ADDRESS_BOOK
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PUBLISH_IN_ADDRESS_BOOK
 type: docs
 weight: 15140
 url: /ru/net/aspose.email.mapi/knownpropertylist/publishinaddressbook/
 ---
 ## KnownPropertyList.PublishInAddressBook field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PUBLISH_IN_ADDRESS_BOOK
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PUBLISH_IN_ADDRESS_BOOK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PublishInAddressBook;

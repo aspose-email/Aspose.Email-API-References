@@ -1,9 +1,9 @@
 ---
 title: EmailAddressCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for an email address
 type: docs
-weight: 19170
+weight: 19380
 url: /net/aspose.email.personalinfo/emailaddresscategory/
 ---
 ## EmailAddressCategory class
@@ -37,8 +37,8 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals)(EmailAddressCategory) | Determines whether the specified Object is equal to the current Object. |
-| override [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals#equals)(EmailAddressCategory) | Determines whether the specified Object is equal to the current Object. |
+| override [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
 | override [GetHashCode](../../aspose.email.personalinfo/emailaddresscategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/emailaddresscategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/emailaddresscategory/op_equality) | Determines whether the specified objects are equal. |

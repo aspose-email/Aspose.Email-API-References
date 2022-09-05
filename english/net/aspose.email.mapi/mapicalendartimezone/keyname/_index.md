@@ -1,7 +1,7 @@
 ---
 title: KeyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a humanreadable description of the time zone
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendartimezone/keyname/

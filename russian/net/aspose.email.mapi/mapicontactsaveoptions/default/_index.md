@@ -16,7 +16,7 @@ public static MapiContactSaveOptions Default { get; }
 
 ### Стоимость имущества
 
-[`MapiContactSaveOptions`](../../mapicontactsaveoptions)по умолчанию.
+[`MapiContactSaveOptions`](../../mapicontactsaveoptions) по умолчанию.
 
 ### Смотрите также
 

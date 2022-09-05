@@ -56,6 +56,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [LoadOptions](./loadoptions) | This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format. |
 | [MailAddress](./mailaddress) | Represents the address of a message. |
 | [MailAddressCollection](./mailaddresscollection) | Represents a collection of [`MailAddress`](../aspose.email/mailaddress) objects. |
+| [MailboxInfo](./mailboxinfo) | Represents identification information about message in a mailbox. |
 | [MailException](./mailexception) | Represents the exception that is thrown when the mail message processing. |
 | [MailMessage](./mailmessage) | Represents an e-mail message. It allows to access message properties, ex. subject, body, sender and recipients addreses, etc. Also it can be sent and delivered by means of supported mail protocols. |
 | [MailMessageCollection](./mailmessagecollection) | Represents a collection of [`MailMessage`](../aspose.email/mailmessage) objects. |

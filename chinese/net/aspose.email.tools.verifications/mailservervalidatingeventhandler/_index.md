@@ -3,7 +3,7 @@ title: MailServerValidatingEventHandler
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MailServerValidatingEvent 的事件处理程序
 type: docs
-weight: 20770
+weight: 20820
 url: /zh/net/aspose.email.tools.verifications/mailservervalidatingeventhandler/
 ---
 ## MailServerValidatingEventHandler delegate

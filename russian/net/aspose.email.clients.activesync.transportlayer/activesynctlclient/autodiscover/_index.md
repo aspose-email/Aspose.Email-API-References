@@ -18,8 +18,8 @@ public static AutodiscoverResult Autodiscover(string autodiscoverUri, NetworkCre
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | autodiscoverUri | String | URL службы автообнаружения |
-| credential | NetworkCredential | Учетные данные для подключение к серверу. |
-| emailAddress | String | Адрес электронной почты является обязательным дочерним элементом запроса автообнаружения |
+| credential | NetworkCredential | Учетные данные для подключения к серверу. |
+| emailAddress | String | Адрес электронной почты является обязательным дочерним элементом запроса автообнаружения. |
 
 ### Возвращаемое значение
 
@@ -44,7 +44,7 @@ public virtual AutodiscoverResult Autodiscover(string emailAddress)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| emailAddress | String | Адрес электронной почты является обязательным дочерним элементом запроса автообнаружения |
+| emailAddress | String | Адрес электронной почты является обязательным дочерним элементом запроса автообнаружения. |
 
 ### Возвращаемое значение
 

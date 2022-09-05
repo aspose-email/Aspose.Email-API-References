@@ -1,14 +1,14 @@
 ---
 title: SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 SmtpFailedRecipientExceptionaspose.email.clients.smtp/smtpfailedrecipientexception 类的新实例
+description: 初始化SmtpFailedRecipientExceptionaspose.email.clients.smtp/smtpfailedrecipientexception class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp/smtpfailedrecipientexception/smtpfailedrecipientexception/
 ---
 ## SmtpFailedRecipientException() {#constructor}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException()
@@ -24,7 +24,7 @@ public SmtpFailedRecipientException()
 
 ## SmtpFailedRecipientException(string) {#constructor_3}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException(string message)
@@ -44,7 +44,7 @@ public SmtpFailedRecipientException(string message)
 
 ## SmtpFailedRecipientException(string, Exception) {#constructor_4}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public SmtpFailedRecipientException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中为 Nothing）。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 
@@ -65,7 +65,7 @@ public SmtpFailedRecipientException(string message, Exception innerException)
 
 ## SmtpFailedRecipientException(SmtpStatusCode, string) {#constructor_1}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedRecipient)
@@ -74,7 +74,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | statusCode | SmtpStatusCode | 状态码 |
-| failedRecipient | String | 接收失败 |
+| failedRecipient | String | 失败的收件人 |
 
 ### 也可以看看
 
@@ -87,7 +87,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ## SmtpFailedRecipientException(SmtpStatusCode, string, string) {#constructor_2}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedRecipient, 
@@ -97,7 +97,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | statusCode | SmtpStatusCode | 状态码 |
-| failedRecipient | String | 接收失败 |
+| failedRecipient | String | 失败的收件人 |
 | serverResponse | String | 服务器响应 |
 
 ### 也可以看看
@@ -111,7 +111,7 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ## SmtpFailedRecipientException(string, string, Exception) {#constructor_5}
 
-初始化 [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) 类的新实例
+初始化[`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
 
 ```csharp
 public SmtpFailedRecipientException(string message, string failedRecipient, 
@@ -121,8 +121,8 @@ public SmtpFailedRecipientException(string message, string failedRecipient,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| failedRecipient | String | 接收失败 |
-| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中为 Nothing）。 |
+| failedRecipient | String | 失败的收件人 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 

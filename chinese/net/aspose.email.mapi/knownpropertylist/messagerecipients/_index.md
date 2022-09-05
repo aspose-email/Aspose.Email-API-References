@@ -1,14 +1,14 @@
 ---
 title: MessageRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 标识当前消息的所有收件人 区域地址属性 规范名称PidTagMessageRecipients 替代名称PR_MESSAGE_RECIPIENTS ptagMessageRecipients
+description: 标识当前消息的所有收件人 区域地址属性 规范名称PidTagMessageRecipients 备用名称PR_MESSAGE_RECIPIENTSptagMessageRecipients
 type: docs
 weight: 12580
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagerecipients/
 ---
 ## KnownPropertyList.MessageRecipients field
 
-标识当前消息的所有收件人。 区域:地址属性 规范名称:PidTagMessageRecipients 替代名称:PR_MESSAGE_RECIPIENTS, ptagMessageRecipients
+标识当前消息的所有收件人。 区域：地址属性 规范名称：PidTagMessageRecipients 备用名称：PR_MESSAGE_RECIPIENTS、ptagMessageRecipients
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageRecipients;

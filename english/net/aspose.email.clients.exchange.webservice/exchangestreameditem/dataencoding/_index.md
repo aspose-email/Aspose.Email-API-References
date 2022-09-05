@@ -1,7 +1,7 @@
 ---
 title: DataEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the data encoding.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/exchangestreameditem/dataencoding/

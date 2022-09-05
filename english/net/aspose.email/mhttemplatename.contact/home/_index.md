@@ -1,7 +1,7 @@
 ---
 title: Home
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Home phone header.
 type: docs
 weight: 190
 url: /net/aspose.email/mhttemplatename.contact/home/

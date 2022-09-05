@@ -1,14 +1,14 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for .NET API 参考
-description: Notes Storage Facility NSF 数据库文件 被 IBM Lotus Notes 和 Domino 用于存储不同类型的对象如电子邮件 约会和文件 以及申请表和视图
+description: Notes Storage Facility NSF 数据库文件 由 IBM Lotus Notes 和 Domino 用于存储不同类型的对象如电子邮件 约会和文档 以及申请表和视图
 type: docs
-weight: 20030
+weight: 20080
 url: /zh/net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 ## NotesStorageFacility class
 
-Notes Storage Facility (NSF) 数据库文件 被 (IBM) Lotus Notes 和 Domino 用于存储不同类型的对象，如电子邮件、 约会和文件、 以及申请表和视图。
+Notes Storage Facility (NSF) 数据库文件 由 (IBM) Lotus Notes 和 Domino 用于存储不同类型的对象，如电子邮件、 约会和文档、 以及申请表和视图。
 
 ```csharp
 public class NotesStorageFacility : IDisposable
@@ -18,21 +18,21 @@ public class NotesStorageFacility : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NotesStorageFacility](notesstoragefacility#constructor)(Stream) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_4)(string) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_3)(Stream, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_1)(Stream, NsfLoadOptions) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_7)(string, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_5)(string, NsfLoadOptions) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_2)(Stream, NsfLoadOptions, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
-| [NotesStorageFacility](notesstoragefacility#constructor_6)(string, NsfLoadOptions, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类的新实例。 |
+| [NotesStorageFacility](notesstoragefacility#constructor)(Stream) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_4)(string) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_3)(Stream, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_1)(Stream, NsfLoadOptions) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_7)(string, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_5)(string, NsfLoadOptions) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_2)(Stream, NsfLoadOptions, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
+| [NotesStorageFacility](notesstoragefacility#constructor_6)(string, NsfLoadOptions, CancellationToken) | 初始化[`NotesStorageFacility`](../notesstoragefacility)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.nsf/notesstoragefacility/dispose)() | 执行与释放、释放、 或重置非托管资源相关的应用程序定义任务。 |
-| [EnumerateMessages](../../aspose.email.storage.nsf/notesstoragefacility/enumeratemessages)() | 公开枚举器，它支持存储中的消息迭代。 |
+| [EnumerateMessages](../../aspose.email.storage.nsf/notesstoragefacility/enumeratemessages)() | 公开枚举器，它支持存储中消息的迭代。 |
 
 ### 也可以看看
 

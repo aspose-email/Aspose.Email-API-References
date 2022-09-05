@@ -1,14 +1,14 @@
 ---
 title: GovernmentIdNumber
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置政府身份证号
+description: 获取或设置一个政府标识号
 type: docs
 weight: 180
 url: /zh/net/aspose.email.personalinfo/contact/governmentidnumber/
 ---
 ## Contact.GovernmentIdNumber property
 
-获取或设置政府身份证号
+获取或设置一个政府标识号
 
 ```csharp
 public string GovernmentIdNumber { get; set; }

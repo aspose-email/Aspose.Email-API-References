@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an attachment name
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfo/name/

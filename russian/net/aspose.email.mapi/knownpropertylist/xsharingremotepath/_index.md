@@ -1,14 +1,14 @@
 ---
 title: XSharingRemotePath
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidNameXSharingRemotePath Альтернативные имена
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidNameXSharingRemotePath Альтернативные имена
 type: docs
 weight: 19820
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingremotepath/
 ---
 ## KnownPropertyList.XSharingRemotePath field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidNameXSharingRemotePath Альтернативные имена:
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidNameXSharingRemotePath Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingRemotePath;

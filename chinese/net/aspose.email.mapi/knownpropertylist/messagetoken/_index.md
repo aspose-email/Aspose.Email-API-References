@@ -1,14 +1,14 @@
 ---
 title: MessageToken
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_MESSAGE_TOKEN
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_MESSAGE_TOKEN
 type: docs
 weight: 12650
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagetoken/
 ---
 ## KnownPropertyList.MessageToken field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_MESSAGE_TOKEN
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_MESSAGE_TOKEN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageToken;

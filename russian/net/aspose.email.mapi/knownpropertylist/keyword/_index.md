@@ -1,14 +1,14 @@
 ---
 title: Keyword
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит ключевое слово которое идентифицирует пользователя почты для системного администратора пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagKeyword Альтернативные именаPR_KEYWORD PR_KEYWORD_A PR_KEYWORD_W
+description: Содержит ключевое слово которое идентифицирует пользователя почты для системного администратора пользователя почты. Область Свойства адреса Каноническое имя PidTagKeyword Альтернативные имена PR_KEYWORD PR_KEYWORD_A PR_KEYWORD_W
 type: docs
 weight: 11920
 url: /ru/net/aspose.email.mapi/knownpropertylist/keyword/
 ---
 ## KnownPropertyList.Keyword field
 
-Содержит ключевое слово, которое идентифицирует пользователя почты для системного администратора пользователя почты. Область:Свойства адреса Каноническое имя:PidTagKeyword Альтернативные имена:PR_KEYWORD, PR_KEYWORD_A, PR_KEYWORD_W
+Содержит ключевое слово, которое идентифицирует пользователя почты для системного администратора пользователя почты. Область: Свойства адреса Каноническое имя: PidTagKeyword Альтернативные имена: PR_KEYWORD, PR_KEYWORD_A, PR_KEYWORD_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Keyword;

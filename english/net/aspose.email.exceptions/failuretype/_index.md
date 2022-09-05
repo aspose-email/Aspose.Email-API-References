@@ -1,9 +1,9 @@
 ---
 title: FailureType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the failure type.
 type: docs
-weight: 17200
+weight: 17370
 url: /net/aspose.email.exceptions/failuretype/
 ---
 ## FailureType enumeration

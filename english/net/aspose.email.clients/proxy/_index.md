@@ -1,9 +1,9 @@
 ---
 title: Proxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base proxy client.
 type: docs
-weight: 16800
+weight: 16940
 url: /net/aspose.email.clients/proxy/
 ---
 ## Proxy class

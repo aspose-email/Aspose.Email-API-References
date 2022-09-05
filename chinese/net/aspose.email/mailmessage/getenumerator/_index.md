@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API 参考
-description: 返回遍历集合的枚举数
+description: 返回一个遍历集合的枚举器
 type: docs
 weight: 480
 url: /zh/net/aspose.email/mailmessage/getenumerator/
 ---
 ## MailMessage.GetEnumerator method
 
-返回遍历集合的枚举数。
+返回一个遍历集合的枚举器。
 
 ```csharp
 public IEnumerator GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator GetEnumerator()
 
 ### 返回值
 
-一个IEnumerator对象可以是用于遍历集合。
+一个IEnumerator可用于遍历集合的对象。
 
 ### 也可以看看
 

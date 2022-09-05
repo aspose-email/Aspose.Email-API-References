@@ -19,17 +19,17 @@ public Task<bool> FolderExistsAsync(string parentFolderUri, string folderName,
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки. |
 | folderName | String | Имя папки. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-` true` , если указанная папка существует в указанной родительской папке; в противном случае` false` .
+`истинный` если указанная папка существует в указанной родительской папке; в противном случае,`ЛОЖЬ`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или*folderName*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или же*folderName* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

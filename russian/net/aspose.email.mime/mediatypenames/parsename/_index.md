@@ -1,14 +1,14 @@
 ---
 title: ParseName
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует расширение имени файла в имя типа носителя
+description: Преобразует расширение имени файла в тип носителя name
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/mediatypenames/parsename/
 ---
 ## MediaTypeNames.ParseName method
 
-Преобразует расширение имени файла в имя типа носителя
+Преобразует расширение имени файла в тип носителя name
 
 ```csharp
 public static string ParseName(string name)
@@ -16,7 +16,7 @@ public static string ParseName(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя файла extension |
+| name | String | Расширение имени файла |
 
 ### Возвращаемое значение
 

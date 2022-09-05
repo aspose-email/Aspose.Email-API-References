@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает отображаемое имя сообщения получатель или отправитель.
+description: Получает или задает отображаемое имя получателя или отправителя сообщения .
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapirecipient/displayname/
 ---
 ## MapiRecipient.DisplayName property
 
-Получает или задает отображаемое имя сообщения получатель или отправитель.
+Получает или задает отображаемое имя получателя или отправителя сообщения .
 
 ```csharp
 public string DisplayName { get; set; }
@@ -20,7 +20,7 @@ public string DisplayName { get; set; }
 
 ### Примечания
 
-При установке значения значения либо MapiMessage.DisplayTo, либо MapiMessage.DisplayBcc или MapiMessage.DisplayCC также обновляются в зависимости от типа получателя.
+При установке значения значения либо MapiMessage.DisplayTo, либо MapiMessage.DisplayBcc, либо MapiMessage.DisplayCC также обновляются в зависимости от типа получателя.
 
 ### Смотрите также
 

@@ -1,7 +1,7 @@
 ---
 title: CanCreateItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a client can create items in a folder.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/exchangebasepermission/cancreateitems/

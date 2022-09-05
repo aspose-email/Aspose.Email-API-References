@@ -21,13 +21,13 @@ public bool FolderExists(string parentFolderUri, string folderName)
 
 ### Возвращаемое значение
 
-` true` , если указанная папка существует в указанной родительской папке; в противном случае` false` .
+`истинный` если указанная папка существует в указанной родительской папке; в противном случае,`ЛОЖЬ`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или*folderName*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или же*folderName* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -49,11 +49,11 @@ public bool FolderExists(string parentFolderUri, string folderName, out Exchange
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки. |
 | folderName | String | Имя папки. |
-| folder | ExchangeFolderInfo& | A[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)представляет информацию о найденной папке, если папка существует. |
+| folder | ExchangeFolderInfo& | А[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) который представляет информацию о найденной папке, если папка существует. |
 
 ### Возвращаемое значение
 
-` true` , если указанная папка существует в указанной родительской папке; в противном случае` false` .
+`истинный` если указанная папка существует в указанной родительской папке; в противном случае,`ЛОЖЬ`.
 
 ### Смотрите также
 

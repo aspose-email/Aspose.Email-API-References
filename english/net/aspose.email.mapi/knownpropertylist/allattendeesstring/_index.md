@@ -1,7 +1,7 @@
 ---
 title: AllAttendeesString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a list of all the attendees except for the organizer including resources and unsendable attendees. Area Meetings Canonical name PidLidAllAttendeesString Alternate names dispidAllAttendeesString
 type: docs
 weight: 1040
 url: /net/aspose.email.mapi/knownpropertylist/allattendeesstring/

@@ -6,7 +6,7 @@ type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/postaladdress/equals/
 ---
-## PostalAddress.Equals method (1 of 3)
+## Equals(PostalAddress) {#equals}
 
 ```csharp
 public bool Equals(PostalAddress obj)
@@ -20,7 +20,7 @@ public bool Equals(PostalAddress obj)
 
 ---
 
-## PostalAddress.Equals method (2 of 3)
+## Equals(object) {#equals_2}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -44,7 +44,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## PostalAddress.Equals method (3 of 3)
+## Equals(PostalAddress, PostalAddress) {#equals_1}
 
 Determines whether the specified object instances are considered equal.
 

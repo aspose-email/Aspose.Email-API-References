@@ -1,14 +1,14 @@
 ---
 title: Icon
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ICON
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ICON
 type: docs
 weight: 11200
 url: /zh/net/aspose.email.mapi/knownpropertylist/icon/
 ---
 ## KnownPropertyList.Icon field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ICON
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ICON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Icon;

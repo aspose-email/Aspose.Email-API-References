@@ -1,14 +1,14 @@
 ---
 title: StoreState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает есть ли в почтовом ящике активные папки поиска. ОбластьMapiMessageStore Каноническое имяPidTagStoreState Альтернативные именаPR_STORE_STATE
+description: Указывает есть ли в почтовом ящике активные папки поиска. Область MapiMessageStore Каноническое имя PidTagStoreState Альтернативные имена PR_STORE_STATE
 type: docs
 weight: 18300
 url: /ru/net/aspose.email.mapi/knownpropertylist/storestate/
 ---
 ## KnownPropertyList.StoreState field
 
-Указывает, есть ли в почтовом ящике активные папки поиска. Область:MapiMessageStore Каноническое имя:PidTagStoreState Альтернативные имена:PR_STORE_STATE
+Указывает, есть ли в почтовом ящике активные папки поиска. Область: MapiMessageStore Каноническое имя: PidTagStoreState Альтернативные имена: PR_STORE_STATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreState;

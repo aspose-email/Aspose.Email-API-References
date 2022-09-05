@@ -16,7 +16,7 @@ public void Save(string filename)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filename | String | Имя сохраняемого файла. |
+| filename | String | Имя файла для сохранения. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Сохраняемый поток. |
+| stream | Stream | Поток, который нужно сохранить. |
 
 ### Смотрите также
 

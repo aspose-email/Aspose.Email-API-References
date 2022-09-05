@@ -1,7 +1,7 @@
 ---
 title: Self
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The endpoint where you can get details about the notebook. Readonly.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.graph/notebook/self/

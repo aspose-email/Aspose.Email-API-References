@@ -1,7 +1,7 @@
 ---
 title: GetFolderInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder information
 type: docs
 weight: 340
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderinfoasync/

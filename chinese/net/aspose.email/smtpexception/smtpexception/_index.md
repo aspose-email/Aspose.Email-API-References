@@ -1,14 +1,14 @@
 ---
 title: SmtpException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 SmtpExceptionaspose.email/smtpexception 类的新实例
+description: 初始化SmtpExceptionaspose.email/smtpexception class
 type: docs
 weight: 10
 url: /zh/net/aspose.email/smtpexception/smtpexception/
 ---
 ## SmtpException(SmtpStatusCode) {#constructor_1}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode)
@@ -16,7 +16,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Smtp状态码 |
+| statusCode | SmtpStatusCode | smtp状态码 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 ## SmtpException(SmtpStatusCode, string) {#constructor_2}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode, string message)
@@ -37,7 +37,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Smtp状态码 |
+| statusCode | SmtpStatusCode | smtp状态码 |
 | message | String | 错误信息 |
 
 ### 也可以看看
@@ -51,7 +51,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 ## SmtpException() {#constructor}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException()
@@ -67,7 +67,7 @@ public SmtpException()
 
 ## SmtpException(string) {#constructor_3}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(string message)
@@ -87,7 +87,7 @@ public SmtpException(string message)
 
 ## SmtpException(string, SendMessagesResult) {#constructor_4}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(string message, SendMessagesResult result)
@@ -96,7 +96,7 @@ public SmtpException(string message, SendMessagesResult result)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| result | SendMessagesResult | 操作结果 |
+| result | SendMessagesResult | 运行结果 |
 
 ### 也可以看看
 
@@ -109,7 +109,7 @@ public SmtpException(string message, SendMessagesResult result)
 
 ## SmtpException(string, Exception) {#constructor_6}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(string message, Exception innerException)
@@ -118,7 +118,7 @@ public SmtpException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中为 Nothing）。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 
@@ -130,7 +130,7 @@ public SmtpException(string message, Exception innerException)
 
 ## SmtpException(string, Exception, MailMessage) {#constructor_7}
 
-初始化 [`SmtpException`](../../smtpexception) 类的新实例
+初始化[`SmtpException`](../../smtpexception) class
 
 ```csharp
 public SmtpException(string message, Exception innerException, MailMessage mailMessage)
@@ -139,7 +139,7 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误信息 |
-| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用（Visual Basic 中为 Nothing）。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 | mailMessage | MailMessage |  |
 
 ### 也可以看看

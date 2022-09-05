@@ -1,14 +1,14 @@
 ---
 title: DeletedItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Массив элементов которые были удалены.
+description: Массив удаленных элементов.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems/
 ---
 ## SyncFolderResult.DeletedItems property
 
-Массив элементов, которые были удалены.
+Массив удаленных элементов.
 
 ```csharp
 public string[] DeletedItems { get; }

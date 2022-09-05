@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a comment about the purpose or content of the Address Book object. Area Common Canonical name PidTagComment Alternate names PR_COMMENT PR_COMMENT_A ptagComment PR_COMMENT_W DAVcomment
 type: docs
 weight: 2760
 url: /net/aspose.email.mapi/knownpropertylist/comment/

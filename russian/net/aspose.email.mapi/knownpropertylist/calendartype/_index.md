@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение поля CalendarType из свойства PidLidAppointmentRecur раздел 2.22. ОбластьВстречи Каноническое имяPidLidCalendarType Альтернативные именаLID_CALENDAR_TYPE
+description: Содержит значение поля CalendarType из свойства PidLidAppointmentRecur раздел 2.22. Область Meetings Каноническое имя PidLidCalendarType Альтернативные имена LID_CALENDAR_TYPE
 type: docs
 weight: 2440
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendartype/
 ---
 ## KnownPropertyList.CalendarType field
 
-Содержит значение поля CalendarType из свойства PidLidAppointmentRecur (раздел 2.22). Область:Встречи Каноническое имя:PidLidCalendarType Альтернативные имена:LID_CALENDAR_TYPE
+Содержит значение поля CalendarType из свойства PidLidAppointmentRecur (раздел 2.22). Область: Meetings Каноническое имя: PidLidCalendarType Альтернативные имена: LID_CALENDAR_TYPE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CalendarType;

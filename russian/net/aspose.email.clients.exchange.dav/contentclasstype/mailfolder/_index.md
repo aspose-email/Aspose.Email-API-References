@@ -1,14 +1,14 @@
 ---
 title: MailFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classesmailfolder  который определяет набор свойств для папки которая в основном содержит сообщения.
+description: Получает класс содержимого urncontent-classesmailfolder  определяющий набор свойств для папки которая в основном содержит сообщения.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/mailfolder/
 ---
 ## ContentClassType.MailFolder property
 
-Получает класс содержимого urn:content-classes:mailfolder , который определяет набор свойств для папки, которая в основном содержит сообщения.
+Получает класс содержимого urn:content-classes:mailfolder , определяющий набор свойств для папки, которая в основном содержит сообщения.
 
 ```csharp
 public static ContentClassType MailFolder { get; }

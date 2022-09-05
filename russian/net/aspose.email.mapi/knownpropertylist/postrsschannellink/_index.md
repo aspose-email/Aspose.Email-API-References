@@ -1,14 +1,14 @@
 ---
 title: PostRssChannelLink
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URL-адрес канала RSS или Atom из которого получен файл XML. ОбластьRSS Каноническое имяPidLidPostRssChannelLink Альтернативные именаdispidPostRssChannelLink
+description: Содержит URL-адрес канала RSS или Atom из которого получен XML-файл.
 type: docs
 weight: 14450
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrsschannellink/
 ---
 ## KnownPropertyList.PostRssChannelLink field
 
-Содержит URL-адрес канала RSS или Atom, из которого получен файл XML. Область:RSS Каноническое имя:PidLidPostRssChannelLink Альтернативные имена:dispidPostRssChannelLink
+Содержит URL-адрес канала RSS или Atom, из которого получен XML-файл.
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssChannelLink;

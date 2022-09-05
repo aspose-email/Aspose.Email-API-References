@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteUser
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteUser Альтернативные именаdispidSharingRemoteUser
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRemoteUser Альтернативные имена dispidSharingRemoteUser
 type: docs
 weight: 17880
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremoteuser/
 ---
 ## KnownPropertyList.SharingRemoteUser field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingRemoteUser Альтернативные имена:dispidSharingRemoteUser
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRemoteUser Альтернативные имена: dispidSharingRemoteUser
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteUser;

@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the message is read only
 type: docs
 weight: 190
 url: /net/aspose.email/mailmessage/isreadonly/

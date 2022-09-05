@@ -1,14 +1,14 @@
 ---
 title: TaskRecurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит структуру RecurrencePattern предоставляющую информацию о повторяющихся задачах. ОбластьЗадачи Каноническое имяPidLidTaskRecurrence Альтернативные именаdispidTaskRecur
+description: Содержит структуру RecurrencePattern предоставляющую информацию о повторяющихся задачах. Область Tasks Каноническое имя PidLidTaskRecurrence Альтернативные имена dispidTaskRecur
 type: docs
 weight: 18780
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskrecurrence/
 ---
 ## KnownPropertyList.TaskRecurrence field
 
-Содержит структуру RecurrencePattern, предоставляющую информацию о повторяющихся задачах. Область:Задачи Каноническое имя:PidLidTaskRecurrence Альтернативные имена:dispidTaskRecur
+Содержит структуру RecurrencePattern, предоставляющую информацию о повторяющихся задачах. Область: Tasks Каноническое имя: PidLidTaskRecurrence Альтернативные имена: dispidTaskRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskRecurrence;

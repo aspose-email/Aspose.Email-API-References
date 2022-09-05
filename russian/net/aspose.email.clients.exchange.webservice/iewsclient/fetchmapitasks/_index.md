@@ -1,14 +1,14 @@
 ---
 title: FetchMapiTasks
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить массив объектовMapiTaskaspose.email.mapi/mapitask.
+description: Получить массивMapiTaskaspose.email.mapi/mapitask объекты.
 type: docs
 weight: 800
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks/
 ---
 ## FetchMapiTasks(IEnumerable&lt;string&gt;) {#fetchmapitasks}
 
-Получить массив объектов[`MapiTask`](../../../aspose.email.mapi/mapitask).
+Получить массив[`MapiTask`](../../../aspose.email.mapi/mapitask) объекты.
 
 ```csharp
 public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
@@ -16,11 +16,11 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| taskUris | IEnumerable`1 | Список Uris задач, которые необходимо извлечь. |
+| taskUris | IEnumerable`1 | Список URI задач, которые необходимо получить. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiTask`](../../../aspose.email.mapi/mapitask).
+Получить массив[`MapiTask`](../../../aspose.email.mapi/mapitask) объекты.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
 
 ## FetchMapiTasks(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapitasks_1}
 
-Получить массив объектов[`MapiTask`](../../../aspose.email.mapi/mapitask).
+Получить массив[`MapiTask`](../../../aspose.email.mapi/mapitask) объекты.
 
 ```csharp
 public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris, 
@@ -42,12 +42,12 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| taskUris | IEnumerable`1 | Список Uris задач, которые необходимо извлечь. |
-| customProperties | IEnumerable`1 | Пользовательские свойства карты для получения. |
+| taskUris | IEnumerable`1 | Список URI задач, которые необходимо получить. |
+| customProperties | IEnumerable`1 | Пользовательские свойства mapi для извлечения. |
 
 ### Возвращаемое значение
 
-Извлечь массив объектов[`MapiTask`](../../../aspose.email.mapi/mapitask).
+Получить массив[`MapiTask`](../../../aspose.email.mapi/mapitask) объекты.
 
 ### Смотрите также
 

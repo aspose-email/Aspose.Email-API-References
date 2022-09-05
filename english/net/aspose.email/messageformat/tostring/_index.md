@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a String that represents the current Object.
 type: docs
 weight: 90
 url: /net/aspose.email/messageformat/tostring/

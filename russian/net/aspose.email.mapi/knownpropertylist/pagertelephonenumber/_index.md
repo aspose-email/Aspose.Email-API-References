@@ -1,14 +1,14 @@
 ---
 title: PagerTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона пейджера пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagPagerTelephoneNumber Альтернативные именаPR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
+description: Содержит номер телефона пейджера почтового пользователя. Область Address Properties Каноническое имя PidTagPagerTelephoneNumber Альтернативные имена PR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14160
 url: /ru/net/aspose.email.mapi/knownpropertylist/pagertelephonenumber/
 ---
 ## KnownPropertyList.PagerTelephoneNumber field
 
-Содержит номер телефона пейджера пользователя почты. Область:Свойства адреса Каноническое имя:PidTagPagerTelephoneNumber Альтернативные имена:PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A,
+Содержит номер телефона пейджера почтового пользователя. Область: Address Properties Каноническое имя: PidTagPagerTelephoneNumber Альтернативные имена: PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PagerTelephoneNumber;

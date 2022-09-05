@@ -1,14 +1,14 @@
 ---
 title: ListAttachmentsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список вложений сообщения. Получает информацию о каждом вложении в сообщении.
+description: Получает список вложений сообщения. Получает информацию для каждого вложения в сообщении.
 type: docs
 weight: 820
 url: /ru/net/aspose.email.clients.imap/imapclient/listattachmentsasync/
 ---
 ## ListAttachmentsAsync(int, CancellationToken) {#listattachmentsasync_1}
 
-Получает список вложений сообщения. Получает информацию о каждом вложении в сообщении.
+Получает список вложений сообщения. Получает информацию для каждого вложения в сообщении.
 
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber, 
@@ -34,7 +34,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 
 ## ListAttachmentsAsync(int) {#listattachmentsasync}
 
-Получает список вложений сообщения. Получает информацию о каждом вложении в сообщении.
+Получает список вложений сообщения. Получает информацию для каждого вложения в сообщении.
 
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber)

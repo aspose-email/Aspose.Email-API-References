@@ -1,7 +1,7 @@
 ---
 title: ReadReceiptEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an address book EntryID. Area MapiEnvelope Canonical name PidTagReadReceiptEntryId Alternate names PR_READ_RECEIPT_ENTRYID ptagReadReceiptEntryId
 type: docs
 weight: 15210
 url: /net/aspose.email.mapi/knownpropertylist/readreceiptentryid/

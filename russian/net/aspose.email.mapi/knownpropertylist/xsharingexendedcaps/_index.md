@@ -1,14 +1,14 @@
 ---
 title: XSharingExendedCaps
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidNameXSharingExtendedCaps Альтернативные имена
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidNameXSharingExendedCaps Альтернативные имена
 type: docs
 weight: 19740
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingexendedcaps/
 ---
 ## KnownPropertyList.XSharingExendedCaps field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidNameXSharingExtendedCaps Альтернативные имена:
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidNameXSharingExendedCaps Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingExendedCaps;

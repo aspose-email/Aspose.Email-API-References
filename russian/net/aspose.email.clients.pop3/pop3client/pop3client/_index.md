@@ -1,14 +1,14 @@
 ---
 title: Pop3Client
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPop3Clientaspose.email.clients.pop3/pop3client
+description: Инициализирует новый экземплярPop3Clientaspose.email.clients.pop3/pop3client класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.pop3/pop3client/pop3client/
 ---
 ## Pop3Client() {#constructor}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client()
@@ -24,7 +24,7 @@ public Pop3Client()
 
 ## Pop3Client(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host)
@@ -44,7 +44,7 @@ public Pop3Client(string host)
 
 ## Pop3Client(string, SecurityOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, SecurityOptions securityOptions)
@@ -53,7 +53,7 @@ public Pop3Client(string host, SecurityOptions securityOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | host | String | Имя хоста |
-| securityOptions | SecurityOptions | Режим безопасности почтового клиента |
+| securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public Pop3Client(string host, SecurityOptions securityOptions)
 
 ## Pop3Client(string, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port)
@@ -87,7 +87,7 @@ public Pop3Client(string host, int port)
 
 ## Pop3Client(string, int, SecurityOptions) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, SecurityOptions securityOptions)
@@ -110,7 +110,7 @@ public Pop3Client(string host, int port, SecurityOptions securityOptions)
 
 ## Pop3Client(string, string, string) {#constructor_11}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, string username, string password)
@@ -120,7 +120,7 @@ public Pop3Client(string host, string username, string password)
 | --- | --- | --- |
 | host | String | Имя хоста |
 | username | String | Имя пользователя |
-| пароль | String | Пароль |
+| password | String | Пароль |
 
 ### Смотрите также
 
@@ -132,7 +132,7 @@ public Pop3Client(string host, string username, string password)
 
 ## Pop3Client(string, string, string, SecurityOptions) {#constructor_12}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, string username, string password, SecurityOptions securityOptions)
@@ -143,7 +143,7 @@ public Pop3Client(string host, string username, string password, SecurityOptions
 | host | String | Имя хоста |
 | username | String | Имя пользователя |
 | password | String | Пароль |
-| securityOptions | SecurityOptions | Режим безопасности почтового клиента |
+| securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
 
@@ -156,7 +156,7 @@ public Pop3Client(string host, string username, string password, SecurityOptions
 
 ## Pop3Client(string, int, string, string) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, string password)
@@ -166,8 +166,8 @@ public Pop3Client(string host, int port, string username, string password)
 | --- | --- | --- |
 | host | String | Имя хоста |
 | port | Int32 | Номер порта |
-| имяпользователя | String | Имя пользователя |
-| пароль | String | Пароль |
+| username | String | Имя пользователя |
+| password | String | Пароль |
 
 ### Смотрите также
 
@@ -179,7 +179,7 @@ public Pop3Client(string host, int port, string username, string password)
 
 ## Pop3Client(string, int, string, string, SecurityOptions) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, string password, 
@@ -190,8 +190,8 @@ public Pop3Client(string host, int port, string username, string password,
 | --- | --- | --- |
 | host | String | Имя хоста |
 | port | Int32 | Номер порта |
-| имяпользователя | String | Имя пользователя |
-| пароль | String | Пароль |
+| username | String | Имя пользователя |
+| password | String | Пароль |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -205,7 +205,7 @@ public Pop3Client(string host, int port, string username, string password,
 
 ## Pop3Client(string, int, string, string, bool, SecurityOptions) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, string authInfo, bool useOAuth, 
@@ -218,7 +218,7 @@ public Pop3Client(string host, int port, string username, string authInfo, bool 
 | port | Int32 | Номер порта |
 | username | String | Имя пользователя |
 | authInfo | String | Пароль пользователя или токен доступа XOAUTH2 |
-| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер |
+| useOAuth | Boolean | Определяет, используется ли механизм SASL XOAUTH2 для входа на сервер. |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также
@@ -232,7 +232,7 @@ public Pop3Client(string host, int port, string username, string authInfo, bool 
 
 ## Pop3Client(string, int, string, ITokenProvider, SecurityOptions) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, ITokenProvider tokenProvider, 
@@ -259,7 +259,7 @@ public Pop3Client(string host, int port, string username, ITokenProvider tokenPr
 
 ## Pop3Client(string, int, string, string, RemoteCertificateValidationCallback) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, string password, 
@@ -270,9 +270,9 @@ public Pop3Client(string host, int port, string username, string password,
 | --- | --- | --- |
 | host | String | Имя хоста |
 | port | Int32 | Номер порта |
-| имяпользователя | String | Имя пользователя |
-| пароль | String | Пароль |
-| userCertificateValidationCallback | RemoteCertificateValidationCallback | Система. Net.Security.RemoteCertificateValidationCallback |
+| username | String | Имя пользователя |
+| password | String | Пароль |
+| userCertificateValidationCallback | RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
 
 ### Смотрите также
 
@@ -284,7 +284,7 @@ public Pop3Client(string host, int port, string username, string password,
 
 ## Pop3Client(string, int, string, string, RemoteCertificateValidationCallback, SecurityOptions) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`Pop3Client`](../../pop3client)
+Инициализирует новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public Pop3Client(string host, int port, string username, string password, 
@@ -296,9 +296,9 @@ public Pop3Client(string host, int port, string username, string password,
 | --- | --- | --- |
 | host | String | Имя хоста |
 | port | Int32 | Номер порта |
-| имяпользователя | String | Имя пользователя |
-| пароль | String | Пароль |
-| userCertificateValidationCallback | RemoteCertificateValidationCallback | Система. Net.Security.RemoteCertificateValidationCallback |
+| username | String | Имя пользователя |
+| password | String | Пароль |
+| userCertificateValidationCallback | RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
 | securityOptions | SecurityOptions | Режим безопасности для почтового клиента |
 
 ### Смотрите также

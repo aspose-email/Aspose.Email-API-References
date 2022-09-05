@@ -20,7 +20,7 @@ public string Subject { get; set; }
 
 ### Примечания
 
-При установке значения значения SubjectPrefix(PR_SUBJECT_PREFIX) и Также обновлены свойства NormalizedSubject(PR_NORMALIZED_SUBJECT). Если Subject не имеет префикса, значение свойства SubjectPrefix устанавливается равным нулю. При установке нулевого значения или пустой строки значения свойств Subject, SubjectPrefix, NormalizedSubject устанавливаются нулевыми.
+При установке значения также обновляются значения свойств SubjectPrefix(PR_SUBJECT_PREFIX) и NormalizedSubject(PR_NORMALIZED_SUBJECT). Если Subject не имеет префикса, значение свойства SubjectPrefix устанавливается равным нулю. При установке нулевого значения или пустой строки значения свойств Subject, SubjectPrefix, NormalizedSubject устанавливаются нулевыми.
 
 ### Смотрите также
 

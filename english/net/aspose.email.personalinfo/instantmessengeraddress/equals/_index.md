@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/instantmessengeraddress/equals/
 ---
-## InstantMessengerAddress.Equals method (1 of 3)
+## Equals(object) {#equals_2}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -30,7 +30,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## InstantMessengerAddress.Equals method (2 of 3)
+## Equals(InstantMessengerAddress) {#equals}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -54,7 +54,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## InstantMessengerAddress.Equals method (3 of 3)
+## Equals(InstantMessengerAddress, InstantMessengerAddress) {#equals_1}
 
 Determines whether the specified object instances are considered equal.
 

@@ -18,13 +18,13 @@ public Task<IEnumerable<MessageThreadResult>> GetMessageThreadsAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | BaseSearchConditions | Соединение с сервером |
+| connection | BaseSearchConditions | Подключение к серверу |
 | conditions | IConnection | Условия потока. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Темы сообщений
+Цепочки сообщений
 
 ### Смотрите также
 

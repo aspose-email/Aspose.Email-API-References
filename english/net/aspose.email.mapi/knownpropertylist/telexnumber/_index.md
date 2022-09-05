@@ -1,7 +1,7 @@
 ---
 title: TelexNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users telex number. This property is returned from an NSPI server as a PtypMultipleBinary. Otherwise the data type is PtypString. Area MapiMailUser Canonical name PidTagTelexNumber Alternate names PR_TELEX_NUMBER PR_TELEX_NUMBER_A PR_TELEX_NUMBER_W
 type: docs
 weight: 18890
 url: /net/aspose.email.mapi/knownpropertylist/telexnumber/

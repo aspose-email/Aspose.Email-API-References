@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户 期望开始任务的日期
+description: 获取或设置用户 期望开始工作的日期
 type: docs
 weight: 180
 url: /zh/net/aspose.email.mapi/mapitask/startdate/
 ---
 ## MapiTask.StartDate property
 
-获取或设置用户 期望开始任务的日期。
+获取或设置用户 期望开始工作的日期。
 
 ```csharp
 public DateTime StartDate { get; set; }
@@ -18,7 +18,7 @@ public DateTime StartDate { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当开始日期大于完成日期时出现。 |
+| ArgumentException | 当开始日期大于完成日期时触发。 |
 
 ### 也可以看看
 

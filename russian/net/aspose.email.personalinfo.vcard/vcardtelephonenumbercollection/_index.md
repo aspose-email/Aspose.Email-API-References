@@ -3,7 +3,7 @@ title: VCardTelephoneNumberCollection
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет набор VCardTelephoneNumbers
 type: docs
-weight: 19730
+weight: 19780
 url: /ru/net/aspose.email.personalinfo.vcard/vcardtelephonenumbercollection/
 ---
 ## VCardTelephoneNumberCollection class

@@ -1,7 +1,7 @@
 ---
 title: ListAppointments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of an appointments for calendar.
 type: docs
 weight: 270
 url: /net/aspose.email.clients.google/igmailclient/listappointments/

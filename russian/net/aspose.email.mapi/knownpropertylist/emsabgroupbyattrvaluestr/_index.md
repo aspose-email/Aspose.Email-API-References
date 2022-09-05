@@ -1,14 +1,14 @@
 ---
 title: EmsAbGroupByAttrValueStr
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_GROUP_BY_ATTR_VALUE_STR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR
 type: docs
 weight: 6470
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabgroupbyattrvaluestr/
 ---
 ## KnownPropertyList.EmsAbGroupByAttrValueStr field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGroupByAttrValueStr;

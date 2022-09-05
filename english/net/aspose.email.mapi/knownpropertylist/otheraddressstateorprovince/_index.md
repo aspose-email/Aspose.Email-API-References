@@ -1,7 +1,7 @@
 ---
 title: OtherAddressStateOrProvince
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users other state or province. Area Address Properties Canonical name PidTagOtherAddressStateOrProvince Alternate names PR_OTHER_ADDRESS_STATE_OR_PROVINCE PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W
 type: docs
 weight: 14000
 url: /net/aspose.email.mapi/knownpropertylist/otheraddressstateorprovince/

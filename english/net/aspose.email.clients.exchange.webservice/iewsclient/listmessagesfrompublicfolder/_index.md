@@ -1,12 +1,12 @@
 ---
 title: ListMessagesFromPublicFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get collection of messages from public folder
 type: docs
 weight: 1160
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmessagesfrompublicfolder/
 ---
-## IEWSClient.ListMessagesFromPublicFolder method (1 of 2)
+## ListMessagesFromPublicFolder(string) {#listmessagesfrompublicfolder_1}
 
 Get collection of messages from public folder
 
@@ -31,7 +31,7 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderU
 
 ---
 
-## IEWSClient.ListMessagesFromPublicFolder method (2 of 2)
+## ListMessagesFromPublicFolder(ExchangeFolderInfo) {#listmessagesfrompublicfolder}
 
 Get collection of messages from public folder
 

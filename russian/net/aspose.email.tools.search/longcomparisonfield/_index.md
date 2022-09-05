@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет поле поиска Int64.
 type: docs
-weight: 20680
+weight: 20730
 url: /ru/net/aspose.email.tools.search/longcomparisonfield/
 ---
 ## LongComparisonField class
@@ -18,7 +18,7 @@ public sealed class LongComparisonField : ComparisonField
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/longcomparisonfield/equals#equals)(long) | Указывает, что поле должно быть равно указанному значению. |
+| [Equals](../../aspose.email.tools.search/longcomparisonfield/equals#equals)(long) | Указывает, что поле должно быть равным указанному значению. |
 | [Greater](../../aspose.email.tools.search/longcomparisonfield/greater)(long) | Указывает, что поле должно быть больше указанного значения. |
 | [GreaterOrEqual](../../aspose.email.tools.search/longcomparisonfield/greaterorequal)(long) | Указывает, что поле должно быть больше или равно указанному значению. |
 | [Less](../../aspose.email.tools.search/longcomparisonfield/less)(long) | Указывает, что поле должно быть меньше указанного значения. |

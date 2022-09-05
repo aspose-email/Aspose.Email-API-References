@@ -1,7 +1,7 @@
 ---
 title: IpmNoteEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Notes folder. Area Folder Properties Canonical name PidTagIpmNoteEntryId Alternate names PR_IPM_NOTE_ENTRYID
 type: docs
 weight: 11680
 url: /net/aspose.email.mapi/knownpropertylist/ipmnoteentryid/

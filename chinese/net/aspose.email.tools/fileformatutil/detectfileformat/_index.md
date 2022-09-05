@@ -1,14 +1,14 @@
 ---
 title: DetectFileFormat
 second_title: Aspose.Email for .NET API 参考
-description: 检测并返回流中存储的文件格式信息
+description: 检测并返回有关存储在流中的文件的格式信息
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools/fileformatutil/detectfileformat/
 ---
 ## DetectFileFormat(Stream) {#detectfileformat}
 
-检测并返回流中存储的文件格式信息。
+检测并返回有关存储在流中的文件的格式信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(Stream stream)

@@ -1,14 +1,14 @@
 ---
 title: GetContactAsync
 second_title: Aspose.Email for .NET API 参考
-description: 根据指定标识符检索联系人信息
+description: 根据指定的标识符检索联系信息
 type: docs
 weight: 320
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactasync/
 ---
 ## IAsyncEwsClient.GetContactAsync method
 
-根据指定标识符检索联系人信息。
+根据指定的标识符检索联系信息。
 
 ```csharp
 public Task<Contact> GetContactAsync(string contactId, 
@@ -24,7 +24,7 @@ public Task<Contact> GetContactAsync(string contactId,
 
 ### 返回值
 
-联系方式
+联系信息
 
 ### 也可以看看
 

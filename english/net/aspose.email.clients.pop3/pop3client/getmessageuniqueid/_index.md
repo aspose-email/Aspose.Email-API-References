@@ -1,12 +1,12 @@
 ---
 title: GetMessageUniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message unique id
 type: docs
 weight: 270
 url: /net/aspose.email.clients.pop3/pop3client/getmessageuniqueid/
 ---
-## Pop3Client.GetMessageUniqueId method (1 of 2)
+## GetMessageUniqueId(IConnection, int) {#getmessageuniqueid}
 
 Gets the message unique id
 
@@ -32,7 +32,7 @@ String that represents uid of the message
 
 ---
 
-## Pop3Client.GetMessageUniqueId method (2 of 2)
+## GetMessageUniqueId(int) {#getmessageuniqueid_1}
 
 Gets the message unique id
 

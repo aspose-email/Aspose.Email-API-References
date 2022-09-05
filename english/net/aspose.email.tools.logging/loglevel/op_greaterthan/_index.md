@@ -1,7 +1,7 @@
 ---
 title: op_GreaterThan
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Compares two LogLevelaspose.email.tools.logging/loglevel objects and returns a value indicating whether the first one is greater than the second one.
 type: docs
 weight: 90
 url: /net/aspose.email.tools.logging/loglevel/op_greaterthan/

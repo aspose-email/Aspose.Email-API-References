@@ -17,11 +17,11 @@ public Task<ExchangeFolderInfoCollection> ListPublicFoldersAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cancellationToken | CancellationToken | жетон отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)которая содержит подпапки из корневой общей папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из корневой общей папки
 
 ### Смотрите также
 

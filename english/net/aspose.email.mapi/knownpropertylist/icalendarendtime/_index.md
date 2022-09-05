@@ -1,7 +1,7 @@
 ---
 title: ICalendarEndTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the date and time in UTC when an appointment or meeting ends. Area Calendar Canonical name PidTagICalendarEndTime Alternate names urnschemascalendardtend
 type: docs
 weight: 11150
 url: /net/aspose.email.mapi/knownpropertylist/icalendarendtime/

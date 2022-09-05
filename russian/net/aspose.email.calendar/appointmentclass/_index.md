@@ -20,7 +20,7 @@ public enum AppointmentClass
 | --- | --- | --- |
 | NotDefined | `-1` | Значение не определено |
 | Public | `0` | Общедоступный. |
-| Private | `1` | Приват. |
+| Private | `1` | Личное. |
 | Confidential | `2` | Конфиденциально. |
 
 ### Смотрите также

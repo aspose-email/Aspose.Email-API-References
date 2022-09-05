@@ -1,14 +1,14 @@
 ---
 title: MboxoStorageReader
 second_title: Aspose.Email for .NET API 参考
-description: 表示 mboxo 格式的存储阅读器Eudora 正在使用这种格式
+description: 代表mboxo格式的存储阅读器Eudora正在使用这种格式
 type: docs
-weight: 20000
+weight: 20050
 url: /zh/net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class
 
-表示 mboxo 格式的存储阅读器，Eudora 正在使用这种格式。
+代表mboxo格式的存储阅读器，Eudora正在使用这种格式。
 
 ```csharp
 public sealed class MboxoStorageReader : MboxStorageReader
@@ -18,8 +18,8 @@ public sealed class MboxoStorageReader : MboxStorageReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MboxoStorageReader](mboxostoragereader#constructor)(Stream, MboxLoadOptions) | 初始化[`MboxoStorageReader`](../mboxostoragereader)类的新实例。 |
-| [MboxoStorageReader](mboxostoragereader#constructor_2)(string, MboxLoadOptions) | 初始化[`MboxrdStorageReader`](../mboxrdstoragereader)类的新实例。 |
+| [MboxoStorageReader](mboxostoragereader#constructor)(Stream, MboxLoadOptions) | 初始化[`MboxoStorageReader`](../mboxostoragereader)班级。 |
+| [MboxoStorageReader](mboxostoragereader#constructor_2)(string, MboxLoadOptions) | 初始化[`MboxrdStorageReader`](../mboxrdstoragereader)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public sealed class MboxoStorageReader : MboxStorageReader
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中的消息迭代。 |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中消息的迭代。 |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxostoragereader/gettotalitemscount)() | 返回存储中的消息数。 |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage)() | 从底层存储流中读取下一条消息。 |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_1)(out string) | 从底层存储流中读取下一条消息。 |

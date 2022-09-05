@@ -1,14 +1,14 @@
 ---
 title: Nickname
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает псевдоним контакта
+description: Получает или задает псевдоним контакта
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/nickname/
 ---
 ## MapiContactNamePropertySet.Nickname property
 
-Получает или устанавливает псевдоним контакта
+Получает или задает псевдоним контакта
 
 ```csharp
 public string Nickname { get; set; }

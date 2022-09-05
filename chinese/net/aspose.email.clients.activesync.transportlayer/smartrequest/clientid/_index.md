@@ -1,14 +1,14 @@
 ---
 title: ClientId
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端的唯一消息 ID MID ClientId 值最长可达 40 个字符并且对于每条消息必须是唯一的 因为服务器将使用 ClientId 值来识别重复消息 ClientId 值可以是一个简单的计数器为每条新消息递增
+description: 指定客户端的唯一消息 ID MID ClientId 值最长可达 40 个字符并且对于每条消息必须是唯一的 因为服务器将使用 ClientId 值来识别重复的消息 ClientId 值可以是一个简单的计数器为每条新消息递增
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequest/clientid/
 ---
 ## SmartRequest.ClientId property
 
-指定客户端的唯一消息 ID (MID)。 ClientId 值最长可达 40 个字符，并且对于每条消息必须是唯一的， 因为服务器将使用 ClientId 值来识别重复消息。 ClientId 值可以是一个简单的计数器，为每条新消息递增。
+指定客户端的唯一消息 ID (MID)。 ClientId 值最长可达 40 个字符，并且对于每条消息必须是唯一的， 因为服务器将使用 ClientId 值来识别重复的消息。 ClientId 值可以是一个简单的计数器，为每条新消息递增。
 
 ```csharp
 public string ClientId { get; set; }

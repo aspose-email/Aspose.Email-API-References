@@ -1,12 +1,12 @@
 ---
 title: SetReadFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks the specifeid message as read.
 type: docs
 weight: 380
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/setreadflag/
 ---
-## ExchangeClient.SetReadFlag method (1 of 2)
+## SetReadFlag(string) {#setreadflag}
 
 Marks the specifeid message as read.
 
@@ -32,7 +32,7 @@ public void SetReadFlag(string messageUri)
 
 ---
 
-## ExchangeClient.SetReadFlag method (2 of 2)
+## SetReadFlag(string, bool) {#setreadflag_1}
 
 Marks the specifeid message as read.
 

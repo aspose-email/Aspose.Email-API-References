@@ -1,7 +1,7 @@
 ---
 title: ProfileAbFilesPath
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PROFILE_AB_FILES_PATH
 type: docs
 weight: 14650
 url: /net/aspose.email.mapi/knownpropertylist/profileabfilespath/

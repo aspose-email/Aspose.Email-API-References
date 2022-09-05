@@ -1,14 +1,14 @@
 ---
 title: DisplayType
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个整数值指示如何在表格中显示通讯簿对象或作为消息的收件人 区域MapiAddressBook 规范名称PidTagDisplayType 替代名称PR_DISPLAY_TYPE ptagDisplayType
+description: 包含一个整数值指示如何在表格中显示地址簿对象或作为消息的收件人 区域MapiAddressBook 规范名称PidTagDisplayType 备用名称PR_DISPLAY_TYPEptagDisplayType
 type: docs
 weight: 4170
 url: /zh/net/aspose.email.mapi/knownpropertylist/displaytype/
 ---
 ## KnownPropertyList.DisplayType field
 
-包含一个整数值，指示如何在表格中显示通讯簿对象或作为消息的收件人。 区域:MapiAddressBook 规范名称:PidTagDisplayType 替代名称:PR_DISPLAY_TYPE, ptagDisplayType
+包含一个整数值，指示如何在表格中显示地址簿对象或作为消息的收件人。 区域：MapiAddressBook 规范名称：PidTagDisplayType 备用名称：PR_DISPLAY_TYPE、ptagDisplayType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayType;

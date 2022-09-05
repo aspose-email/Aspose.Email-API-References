@@ -16,14 +16,14 @@ public void TrainFilter(MailMessage[] ham, MailMessage[] spam)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ham | MailMessage[] | 用于训练贝叶斯过滤器的非垃圾邮件对象数组。 |
-| spam | MailMessage[] | MailMessage 对象数组，用于训练贝叶斯过滤器的垃圾邮件。 |
+| ham | MailMessage[] | 用于训练贝叶斯过滤器的非垃圾邮件 MailMessage 对象数组。 |
+| spam | MailMessage[] | 用于训练贝叶斯过滤器的垃圾邮件 MailMessage 对象数组。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*ham*或*spam*为空。 |
+| ArgumentNullException | 如果*ham*或者*spam*一片空白。 |
 
 ### 也可以看看
 
@@ -44,14 +44,14 @@ public void TrainFilter(MailMessage message, bool isSpam)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | MailMessage 对象的引用，表示训练贝叶斯过滤器的消息。 |
-| isSpam | Boolean | 如果邮件是垃圾邮件则为真；如果是合法消息，则为 false。 |
+| message | MailMessage | 对 MailMessage 对象的引用，该对象表示用于训练贝叶斯过滤器的消息。 |
+| isSpam | Boolean | 如果邮件是垃圾邮件，则为真；如果是合法消息，则为 false。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public void TrainFilter(MailMessage message, bool isSpam)
 
 ## TrainFilter(string, bool) {#trainfilter_2}
 
-从指定的字符串中学习来自垃圾邮件或非垃圾邮件源。
+从指定的字符串中学习来自垃圾邮件或非垃圾邮件来源。
 
 ```csharp
 public void TrainFilter(string text, bool isSpam)
@@ -79,7 +79,7 @@ public void TrainFilter(string text, bool isSpam)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*text*为空。 |
+| ArgumentNullException | 如果*text*一片空白。 |
 
 ### 也可以看看
 

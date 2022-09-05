@@ -1,14 +1,14 @@
 ---
 title: Entities
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиИзвлеченные объекты Имя набора свойствPSETID_XmlExtractedEntities
+description: Имя области Извлеченные объекты Имя набора свойств PSETID_XmlExtractedEntities
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/knownpropertysets/entities/
 ---
 ## KnownPropertySets.Entities field
 
-Имя области:Извлеченные объекты Имя набора свойств:PSETID_XmlExtractedEntities
+Имя области: Извлеченные объекты Имя набора свойств: PSETID_XmlExtractedEntities
 
 ```csharp
 public static readonly Guid Entities;

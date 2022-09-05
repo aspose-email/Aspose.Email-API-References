@@ -1,7 +1,7 @@
 ---
 title: Friend
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default friend
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/associatedpersonslist/friend/

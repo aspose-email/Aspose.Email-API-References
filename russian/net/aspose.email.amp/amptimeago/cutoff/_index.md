@@ -1,14 +1,14 @@
 ---
 title: Cutoff
 second_title: Справочник по Aspose.Email для .NET API
-description: Отображение исходной даты если интервал времени старше отсечки в секундах.
+description: Отображение исходной даты если временной интервал старше отсечки в секундах.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.amp/amptimeago/cutoff/
 ---
 ## AmpTimeago.Cutoff property
 
-Отображение исходной даты, если интервал времени старше отсечки (в секундах).
+Отображение исходной даты, если временной интервал старше отсечки (в секундах).
 
 ```csharp
 public int Cutoff { get; set; }

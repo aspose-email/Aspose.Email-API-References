@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/partnervalue/
 ---
 ## AssociatedPersonCategory.PartnerValue field
 
-Строковое значение для категории "Партнер"
+Строковое значение для категории «Партнер»
 
 ```csharp
 public const string PartnerValue;

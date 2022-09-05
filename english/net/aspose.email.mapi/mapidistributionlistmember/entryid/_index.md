@@ -1,7 +1,7 @@
 ---
 title: EntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the EntryID of a member of a personal distribution list.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapidistributionlistmember/entryid/

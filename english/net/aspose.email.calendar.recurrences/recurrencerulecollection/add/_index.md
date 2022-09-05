@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a RecurrenceRuleaspose.email.calendar.recurrences/recurrencerule to the collection.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/recurrencerulecollection/add/
 ---
-## RecurrenceRuleCollection.Add method (1 of 2)
+## Add() {#add}
 
 Adds a [`RecurrenceRule`](../../recurrencerule) to the collection.
 
@@ -27,7 +27,7 @@ The zero-based index of the newly added item.
 
 ---
 
-## RecurrenceRuleCollection.Add method (2 of 2)
+## Add(RecurrenceRule) {#add_1}
 
 Adds a [`RecurrenceRule`](../../recurrencerule) to the collection.
 

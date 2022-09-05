@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает экземпляр классаImapCopyMessagesaspose.email.clients.imap.models/imapcopymessages.
+description: Создает экземплярImapCopyMessagesaspose.email.clients.imap.models/imapcopymessages класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapcopymessages/create/
 ---
 ## ImapCopyMessages.Create method
 
-Создает экземпляр класса[`ImapCopyMessages`](../../imapcopymessages).
+Создает экземпляр[`ImapCopyMessages`](../../imapcopymessages) класс.
 
 ```csharp
 public static ImapCopyMessages Create()

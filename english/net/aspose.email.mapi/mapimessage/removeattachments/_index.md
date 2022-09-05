@@ -1,7 +1,7 @@
 ---
 title: RemoveAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes all of the attachments from the specified Outlook Message files.
 type: docs
 weight: 430
 url: /net/aspose.email.mapi/mapimessage/removeattachments/

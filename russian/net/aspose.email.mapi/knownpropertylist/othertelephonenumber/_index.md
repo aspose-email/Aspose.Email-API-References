@@ -1,14 +1,14 @@
 ---
 title: OtherTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит альтернативный номер телефона для пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagOtherTelephoneNumber Альтернативные именаPR_OTHER_TELEPHONE_NUMBER PR_OTHER_TELEPHONE_NUMBER_A
+description: Содержит альтернативный номер телефона для пользователя почты. Область Address Properties Каноническое имя PidTagOtherTelephoneNumber Альтернативные имена PR_OTHER_TELEPHONE_NUMBER PR_OTHER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14020
 url: /ru/net/aspose.email.mapi/knownpropertylist/othertelephonenumber/
 ---
 ## KnownPropertyList.OtherTelephoneNumber field
 
-Содержит альтернативный номер телефона для пользователя почты. Область:Свойства адреса Каноническое имя:PidTagOtherTelephoneNumber Альтернативные имена:PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A,
+Содержит альтернативный номер телефона для пользователя почты. Область: Address Properties Каноническое имя: PidTagOtherTelephoneNumber Альтернативные имена: PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherTelephoneNumber;

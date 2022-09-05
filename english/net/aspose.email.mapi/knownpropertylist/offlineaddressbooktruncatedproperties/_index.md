@@ -1,7 +1,7 @@
 ---
 title: OfflineAddressBookTruncatedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of the property tags that have been truncated or limited by the server. Area Offline Address Book Properties Canonical name PidTagOfflineAddressBookTruncatedProperties Alternate names PR_OAB_TRUNCATED_PROPS
 type: docs
 weight: 13290
 url: /net/aspose.email.mapi/knownpropertylist/offlineaddressbooktruncatedproperties/

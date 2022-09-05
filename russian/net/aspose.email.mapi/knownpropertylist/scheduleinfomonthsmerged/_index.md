@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsMerged
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет месяцы для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoMonthsMerged Альтернативные именаPR_SCHDINFO_MONTHS_MERGED
+description: Определяет месяцы для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoMonthsMerged Альтернативные имена PR_SCHDINFO_MONTHS_MERGED
 type: docs
 weight: 16880
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsmerged/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsMerged field
 
-Определяет месяцы, для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoMonthsMerged Альтернативные имена:PR_SCHDINFO_MONTHS_MERGED
+Определяет месяцы, для которых данные о занятости типа busy или OOF присутствуют в сообщении о занятости. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoMonthsMerged Альтернативные имена: PR_SCHDINFO_MONTHS_MERGED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsMerged;

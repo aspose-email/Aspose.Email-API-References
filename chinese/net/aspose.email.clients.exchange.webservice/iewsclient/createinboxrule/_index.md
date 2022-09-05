@@ -22,7 +22,7 @@ public void CreateInboxRule(InboxRule rule)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时 *rule* 是 `null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*rule*是`无效的` |
 
 ### 也可以看看
 
@@ -44,13 +44,13 @@ public void CreateInboxRule(InboxRule rule, string mailbox)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rule | InboxRule | 要创建的收件箱规则 |
-| mailbox | String | 要为其创建规则的邮箱。注意:如果设置为` null` 或` empty` ，规则将在默认邮箱 |
+| mailbox | String | 要为其创建规则的邮箱。注意：如果设置为`无效的`或者`空的`规则将在默认邮箱中创建 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | throws when*rule*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*rule*是`无效的` |
 
 ### 也可以看看
 

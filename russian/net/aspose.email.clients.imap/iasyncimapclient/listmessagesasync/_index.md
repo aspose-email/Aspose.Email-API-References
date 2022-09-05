@@ -19,7 +19,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName = nul
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Connection на сервер |
+| connection | String | Подключение к серверу |
 | folderName | Int64 | Папка для получения сообщений. |
 | modificationSequence | Boolean | Последовательность модификации |
 | retrieveRecursively | IEnumerable`1 | Указывает, должны ли сообщения извлекаться рекурсивно. |
@@ -51,9 +51,9 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, string
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | MailQuery | Соединение с сервером |
+| connection | MailQuery | Подключение к серверу |
 | folderName | String | Расположение сообщений |
-| query | Int32 | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | Int32 | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | maxNumberOfMessages | IConnection | Максимальное количество сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrenceCalendarType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечислен тип календаря повторения карты
+description: Перечислен тип календаря карты recurrence
 type: docs
-weight: 18020
+weight: 18040
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencecalendartype/
 ---
 ## MapiCalendarRecurrenceCalendarType enumeration
 
-Перечислен тип календаря повторения карты
+Перечислен тип календаря карты recurrence
 
 ```csharp
 public enum MapiCalendarRecurrenceCalendarType
@@ -18,25 +18,25 @@ public enum MapiCalendarRecurrenceCalendarType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Default | `0` | Значением по умолчанию для типа календаря является григорианский. (Если PatternType — HjMonth, HjMonthNth или HjMonthEnd, а CalendarType — Default, это повторение использует календарь Хиджры.) |
+| Default | `0` | Значение по умолчанию для типа календаря — григорианский. |
 | CAL_GREGORIAN | `1` | Григорианский (локализованный) календарь |
 | CAL_GREGORIAN_US | `2` | Григорианский (США) календарь |
 | CAL_JAPAN | `3` | Календарь эпохи императоров Японии |
 | CAL_TAIWAN | `4` | Тайваньский календарь |
 | CAL_KOREA | `5` | Корейский календарь эпохи Тангун |
-| CAL_HIJRI | `6` | Хиджра (арабско-лунный) календарь |
+| CAL_HIJRI | `6` | Хиджра (арабский лунный календарь) |
 | CAL_THAI | `7` | Тайский календарь |
 | CAL_HEBREW | `8` | Еврейский лунный календарь |
 | CAL_GREGORIAN_ME_FRENCH | `9` | Григорианский ближневосточный французский календарь |
 | CAL_GREGORIAN_ARABIC | `10` | Григорианский арабский календарь |
-| CAL_GREGORIAN_XLIT_ENGLISH | `11` | Грегорианский транслитерированный английский календарь |
+| CAL_GREGORIAN_XLIT_ENGLISH | `11` | Английский календарь с григорианской транслитерацией |
 | CAL_GREGORIAN_XLIT_FRENCH | `12` | Грегорианский транслитерированный французский календарь |
 | CAL_LUNAR_JAPANESE | `14` | Японский лунный календарь |
 | CAL_CHINESE_LUNAR | `15` | Китайский лунный календарь |
-| CAL_SAKA | `16` | Календарь эпохи саков |
+| CAL_SAKA | `16` | Календарь сакской эпохи |
 | CAL_LUNAR_ETO_CHN | `17` | Лунный китайский календарь ETO |
 | CAL_LUNAR_ETO_KOR | `18` | Лунный корейский календарь ETO |
-| CAL_LUNAR_ROKUYOU | `19` | Лунный календарь Rokuyou |
+| CAL_LUNAR_ROKUYOU | `19` | Лунный календарь Рокуё |
 | CAL_LUNAR_KOREAN | `20` | Корейский лунный календарь |
 | CAL_UMALQURA | `23` | Календарь Ум Аль Кура |
 

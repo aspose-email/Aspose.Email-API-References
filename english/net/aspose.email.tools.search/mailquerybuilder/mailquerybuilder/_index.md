@@ -1,12 +1,12 @@
 ---
 title: MailQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailQueryBuilderaspose.email.tools.search/mailquerybuilder class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/mailquerybuilder/mailquerybuilder/
 ---
-## MailQueryBuilder constructor (1 of 2)
+## MailQueryBuilder() {#constructor}
 
 Initializes a new instance of the [`MailQueryBuilder`](../../mailquerybuilder) class.
 
@@ -22,7 +22,7 @@ public MailQueryBuilder()
 
 ---
 
-## MailQueryBuilder constructor (2 of 2)
+## MailQueryBuilder(Encoding) {#constructor_1}
 
 Initializes a new instance of the [`MailQueryBuilder`](../../mailquerybuilder) class.
 

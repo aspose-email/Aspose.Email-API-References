@@ -1,7 +1,7 @@
 ---
 title: RoutingType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a routing type for an email
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo/emailaddress/routingtype/

@@ -16,7 +16,7 @@ public TraversalFailureKind Kind { get; set; }
 
 ### 适当的价值
 
-[`TraversalFailureKind`](../../traversalfailurekind)在遍历存储时可能发生。
+这[`TraversalFailureKind`](../../traversalfailurekind)遍历存储时可能会发生这种情况。
 
 ### 也可以看看
 

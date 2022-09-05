@@ -1,7 +1,7 @@
 ---
 title: PR_EXCEPTION_ENDTIME
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the end date and time of the exception in the local time zone of the computer when the exception is created.
 type: docs
 weight: 11380
 url: /net/aspose.email.mapi/mapipropertytag/pr_exception_endtime/

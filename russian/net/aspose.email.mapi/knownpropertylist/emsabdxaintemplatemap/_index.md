@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaInTemplateMap
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_IN_TEMPLATE_MAP
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_IN_TEMPLATE_MAP
 type: docs
 weight: 5750
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaintemplatemap/
 ---
 ## KnownPropertyList.EmsAbDxaInTemplateMap field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_IN_TEMPLATE_MAP
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_IN_TEMPLATE_MAP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaInTemplateMap;

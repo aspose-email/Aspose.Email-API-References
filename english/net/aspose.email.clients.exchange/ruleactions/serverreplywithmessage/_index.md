@@ -1,7 +1,7 @@
 ---
 title: ServerReplyWithMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the ID of the template message that is to be sent as a reply to incoming messages.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange/ruleactions/serverreplywithmessage/

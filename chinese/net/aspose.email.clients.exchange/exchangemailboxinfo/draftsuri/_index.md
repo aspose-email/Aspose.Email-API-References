@@ -1,14 +1,14 @@
 ---
 title: DraftsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取草稿 uri
+description: 获取草稿 uri.
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/draftsuri/
 ---
 ## ExchangeMailboxInfo.DraftsUri property
 
-获取草稿 uri。
+获取草稿 uri.
 
 ```csharp
 public abstract string DraftsUri { get; set; }

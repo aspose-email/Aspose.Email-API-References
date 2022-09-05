@@ -1,12 +1,12 @@
 ---
 title: UpdateContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates a contact item in the Exchange store.
 type: docs
 weight: 1450
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatecontact/
 ---
-## IEWSClient.UpdateContact method (1 of 2)
+## UpdateContact(MapiContact) {#updatecontact}
 
 Updates a contact item in the Exchange store.
 
@@ -27,7 +27,7 @@ public void UpdateContact(MapiContact contact)
 
 ---
 
-## IEWSClient.UpdateContact method (2 of 2)
+## UpdateContact(Contact) {#updatecontact_1}
 
 Updates a contact item in the Exchange store.
 

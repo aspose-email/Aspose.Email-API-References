@@ -1,7 +1,7 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a recurrence pattern of weekly recurrence type.
 type: docs
 weight: 790
 url: /net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/
@@ -18,10 +18,10 @@ public class WeeklyRecurrencePattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern)(DateTime) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern)(int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern)(DateTime, int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern)(int, int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_2)(DateTime) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor)(int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_3)(DateTime, int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_1)(int, int) | Initializes a new instance of the [`WeeklyRecurrencePattern`](../weeklyrecurrencepattern) class. |
 
 ## Properties
 

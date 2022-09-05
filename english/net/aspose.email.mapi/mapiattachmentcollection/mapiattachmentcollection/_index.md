@@ -1,12 +1,12 @@
 ---
 title: MapiAttachmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiAttachmentCollectionaspose.email.mapi/mapiattachmentcollection class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapiattachmentcollection/mapiattachmentcollection/
 ---
-## MapiAttachmentCollection constructor (1 of 2)
+## MapiAttachmentCollection() {#constructor}
 
 Initializes a new instance of the [`MapiAttachmentCollection`](../../mapiattachmentcollection) class.
 
@@ -22,7 +22,7 @@ public MapiAttachmentCollection()
 
 ---
 
-## MapiAttachmentCollection constructor (2 of 2)
+## MapiAttachmentCollection(MapiMessageItemBase) {#constructor_1}
 
 Initializes a new instance of the MapiAttachmentCollection class.
 

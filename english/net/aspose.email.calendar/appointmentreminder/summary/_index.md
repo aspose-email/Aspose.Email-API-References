@@ -1,7 +1,7 @@
 ---
 title: Summary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines a short summary or subject for the alarm.
 type: docs
 weight: 90
 url: /net/aspose.email.calendar/appointmentreminder/summary/

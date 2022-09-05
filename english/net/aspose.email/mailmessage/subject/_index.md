@@ -1,9 +1,9 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the subject line
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.email/mailmessage/subject/
 ---
 ## MailMessage.Subject property

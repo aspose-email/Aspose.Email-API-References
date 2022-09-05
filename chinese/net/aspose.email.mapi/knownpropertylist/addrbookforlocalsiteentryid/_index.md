@@ -1,14 +1,14 @@
 ---
 title: AddrbookForLocalSiteEntryid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性 规范名称 替代名称PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
 type: docs
 weight: 320
 url: /zh/net/aspose.email.mapi/knownpropertylist/addrbookforlocalsiteentryid/
 ---
 ## KnownPropertyList.AddrbookForLocalSiteEntryid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性。 规范名称： 替代名称：PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddrbookForLocalSiteEntryid;

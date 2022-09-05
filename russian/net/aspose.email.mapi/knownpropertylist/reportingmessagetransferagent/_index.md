@@ -1,14 +1,14 @@
 ---
 title: ReportingMessageTransferAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение поля Reporting-MTA для уведомления о состоянии доставки как указано в RFC3464. ОбластьEmail Каноническое имяPidTagReportingMessageTransferAgent Альтернативные именаptagDsnReportingMta
+description: Содержит значение поля Reporting-MTA для уведомления о состоянии доставки как указано в RFC3464. Область Email Каноническое имя PidTagReportingMessageTransferAgent Альтернативные имена ptagDsnReportingMta
 type: docs
 weight: 16040
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportingmessagetransferagent/
 ---
 ## KnownPropertyList.ReportingMessageTransferAgent field
 
-Содержит значение поля Reporting-MTA для уведомления о состоянии доставки, как указано в [RFC3464]. Область:Email Каноническое имя:PidTagReportingMessageTransferAgent Альтернативные имена:ptagDsnReportingMta
+Содержит значение поля Reporting-MTA для уведомления о состоянии доставки, как указано в [RFC3464]. Область: Email Каноническое имя: PidTagReportingMessageTransferAgent Альтернативные имена: ptagDsnReportingMta
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportingMessageTransferAgent;

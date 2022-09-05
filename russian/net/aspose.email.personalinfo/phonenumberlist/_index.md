@@ -1,14 +1,14 @@
 ---
 title: PhoneNumberList
 second_title: Справочник по Aspose.Email для .NET API
-description: Список телефонных номеров для контакта.
+description: Список номеров телефонов для контакта.
 type: docs
-weight: 19450
+weight: 19480
 url: /ru/net/aspose.email.personalinfo/phonenumberlist/
 ---
 ## PhoneNumberList class
 
-Список телефонных номеров для контакта.
+Список номеров телефонов для контакта.
 
 ```csharp
 public class PhoneNumberList : IList<PhoneNumber>
@@ -26,9 +26,9 @@ public class PhoneNumberList : IList<PhoneNumber>
 | --- | --- |
 | [Assistant](../../aspose.email.personalinfo/phonenumberlist/assistant) { get; set; } | Номер телефона помощника по умолчанию |
 | [Callback](../../aspose.email.personalinfo/phonenumberlist/callback) { get; set; } | Номер телефона обратного вызова по умолчанию |
-| [Car](../../aspose.email.personalinfo/phonenumberlist/car) { get; set; } | Телефон автомобиля по умолчанию |
+| [Car](../../aspose.email.personalinfo/phonenumberlist/car) { get; set; } | Автомобильный номер телефона по умолчанию |
 | [Company](../../aspose.email.personalinfo/phonenumberlist/company) { get; set; } | Номер телефона компании по умолчанию |
-| [Count](../../aspose.email.personalinfo/phonenumberlist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/phonenumberlist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [Custom](../../aspose.email.personalinfo/phonenumberlist/custom) { get; set; } | Пользовательская категория телефона по умолчанию |
 | [Fax](../../aspose.email.personalinfo/phonenumberlist/fax) { get; set; } | Номер факса по умолчанию |
 | [Home](../../aspose.email.personalinfo/phonenumberlist/home) { get; set; } | Номер домашнего телефона по умолчанию |
@@ -42,7 +42,7 @@ public class PhoneNumberList : IList<PhoneNumber>
 | [Radio](../../aspose.email.personalinfo/phonenumberlist/radio) { get; set; } | Номер радиотелефона по умолчанию |
 | [Telex](../../aspose.email.personalinfo/phonenumberlist/telex) { get; set; } | Телекс по умолчанию |
 | [TtyTdd](../../aspose.email.personalinfo/phonenumberlist/ttytdd) { get; set; } | Tty/Tdd по умолчанию |
-| [Work](../../aspose.email.personalinfo/phonenumberlist/work) { get; set; } | Номер рабочего телефона по умолчанию |
+| [Work](../../aspose.email.personalinfo/phonenumberlist/work) { get; set; } | Рабочий номер телефона по умолчанию |
 | [WorkFax](../../aspose.email.personalinfo/phonenumberlist/workfax) { get; set; } | Номер рабочего факса по умолчанию |
 
 ## Методы

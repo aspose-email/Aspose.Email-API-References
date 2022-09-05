@@ -1,7 +1,7 @@
 ---
 title: PR_RECIPIENT_TRACKSTATUS_TIME_READ
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the date and time at which the recipient read the message. The value is specified in UTC.
 type: docs
 weight: 17930
 url: /net/aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_read/

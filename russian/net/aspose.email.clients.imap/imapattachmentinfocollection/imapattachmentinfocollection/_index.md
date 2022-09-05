@@ -1,14 +1,14 @@
 ---
 title: ImapAttachmentInfoCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаImapAttachmentInfoCollectionaspose.email.clients.imap/imapattachmentinfocollection
+description: Инициализирует новый экземплярImapAttachmentInfoCollectionaspose.email.clients.imap/imapattachmentinfocollection класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapattachmentinfocollection/imapattachmentinfocollection/
 ---
 ## ImapAttachmentInfoCollection constructor
 
-Инициализирует новый экземпляр класса[`ImapAttachmentInfoCollection`](../../imapattachmentinfocollection)
+Инициализирует новый экземпляр[`ImapAttachmentInfoCollection`](../../imapattachmentinfocollection) класс
 
 ```csharp
 public ImapAttachmentInfoCollection()

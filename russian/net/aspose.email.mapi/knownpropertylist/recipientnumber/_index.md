@@ -1,14 +1,14 @@
 ---
 title: RecipientNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RECIPIENT_NUMBER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RECIPIENT_NUMBER
 type: docs
 weight: 15440
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientnumber/
 ---
 ## KnownPropertyList.RecipientNumber field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RECIPIENT_NUMBER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RECIPIENT_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientNumber;

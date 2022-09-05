@@ -1,14 +1,14 @@
 ---
 title: IsUnicode
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее является ли формат файла PST Юникод. Существует две версии формата файлов PSTUnicode и ANSI.
+description: Получает значение указывающее является ли формат файла PST Unicode. Существуют две версии формата файла PST Unicode и ANSI.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.storage.pst/personalstorage/isunicode/
 ---
 ## PersonalStorage.IsUnicode property
 
-Получает значение, указывающее, является ли формат файла PST Юникод. Существует две версии формата файлов PST:Unicode и ANSI.
+Получает значение, указывающее, является ли формат файла PST Unicode. Существуют две версии формата файла PST: Unicode и ANSI.
 
 ```csharp
 public bool IsUnicode { get; }

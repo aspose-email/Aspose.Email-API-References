@@ -18,11 +18,11 @@ public class AsposeException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeException](asposeexception#constructor)() | 初始化[`AsposeException`](../asposeexception)类的新实例。 |
+| [AsposeException](asposeexception#constructor)() | 初始化[`AsposeException`](../asposeexception)类. |
 | [AsposeException](asposeexception#constructor_1)(Exception) |  |
-| [AsposeException](asposeexception#constructor_2)(string) | 使用指定的错误消息初始化[`AsposeException`](../asposeexception)类的新实例。 |
-| [AsposeException](asposeexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`AsposeException`](../asposeexception)类 的新实例和对导致此异常的内部异常的引用。 |
-| [AsposeException](asposeexception#constructor_4)(string, params object[]) | 使用指定的错误消息初始化[`AsposeException`](../asposeexception)类的新实例。 |
+| [AsposeException](asposeexception#constructor_2)(string) | 初始化[`AsposeException`](../asposeexception)具有指定错误消息的类。 |
+| [AsposeException](asposeexception#constructor_3)(string, Exception) | 初始化[`AsposeException`](../asposeexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [AsposeException](asposeexception#constructor_4)(string, params object[]) | 初始化[`AsposeException`](../asposeexception)具有指定错误消息的类。 |
 | [AsposeException](asposeexception#constructor_5)(string, string) |  |
 
 ## 特性

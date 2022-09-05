@@ -1,14 +1,14 @@
 ---
 title: RequestCheckpointAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Запрашивает контрольную точку текущего выбранного почтового ящика.
+description: Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 type: docs
 weight: 1040
 url: /ru/net/aspose.email.clients.imap/imapclient/requestcheckpointasync/
 ---
 ## RequestCheckpointAsync(IConnection) {#requestcheckpointasync_1}
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public Task RequestCheckpointAsync(IConnection connection)
@@ -16,7 +16,7 @@ public Task RequestCheckpointAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public Task RequestCheckpointAsync(IConnection connection)
 
 ## RequestCheckpointAsync() {#requestcheckpointasync}
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public Task RequestCheckpointAsync()
@@ -53,7 +53,7 @@ public Task RequestCheckpointAsync()
 
 ## RequestCheckpointAsync(IConnection, CancellationToken) {#requestcheckpointasync_2}
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public Task RequestCheckpointAsync(IConnection connection, CancellationToken token)
@@ -61,7 +61,7 @@ public Task RequestCheckpointAsync(IConnection connection, CancellationToken tok
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -79,7 +79,7 @@ public Task RequestCheckpointAsync(IConnection connection, CancellationToken tok
 
 ## RequestCheckpointAsync(CancellationToken) {#requestcheckpointasync_3}
 
-Запрашивает контрольную точку текущего выбранного почтового ящика.
+Запрашивает контрольную точку выбранного в данный момент почтового ящика.
 
 ```csharp
 public Task RequestCheckpointAsync(CancellationToken token)

@@ -23,9 +23,9 @@ public void UpdateMessage(string entryId, MapiMessageItemBase updatedMessage)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Не реализовано редактирование версии файла ANSI. |
+| NotImplementedException | Редактирование версии файла ANSI не реализовано. |
 | InvalidOperationException | PST открыт только для чтения. или Неверный идентификатор записи. |
-| ArgumentNullException | entryId; Идентификатор записи не может быть нулевым или пустым. или updatedMessage; Сообщение не может быть нулевым. |
+| ArgumentNullException | идентификатор записи; Идентификатор записи не может быть нулевым или пустым. or updatedMessage; Сообщение не может быть нулевым. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ContentClassType
 second_title: Aspose.Email for .NET API 参考
-description: 表示item的内容类
+description: 表示item的内容类别
 type: docs
 weight: 3140
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/
 ---
 ## ContentClassType class
 
-表示item的内容类。
+表示item的内容类别。
 
 ```csharp
 public sealed class ContentClassType
@@ -18,39 +18,39 @@ public sealed class ContentClassType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ContentClassType](contentclasstype)(string) | 初始化[`ContentClassType`](../contentclasstype)类的新实例。 |
+| [ContentClassType](contentclasstype)(string) | 初始化[`ContentClassType`](../contentclasstype)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Activity](../../aspose.email.clients.exchange.dav/contentclasstype/activity) { get; } | 获取定义 日志项目的一组属性的 urn:content-classes:activity 内容类。 这映射到 IPM.Activity。 |
-| static [Appointment](../../aspose.email.clients.exchange.dav/contentclasstype/appointment) { get; } | 获取 urn:content-classes:appointment 内容类 定义约会项目的属性。 |
-| static [CalendarFolder](../../aspose.email.clients.exchange.dav/contentclasstype/calendarfolder) { get; } | 获取 urn:content-classes:calendarfolder 内容类 定义文件夹的一组属性 主要包含约会项目。 |
-| static [CalendarMessage](../../aspose.email.clients.exchange.dav/contentclasstype/calendarmessage) { get; } | 获取 urn:content-classes:calendarmessage 内容类 定义消息项的一组属性 包含会议请求。 |
-| static [ContactFolder](../../aspose.email.clients.exchange.dav/contentclasstype/contactfolder) { get; } | 获取 urn:content-classes:contactfolder 内容类 定义文件夹 的一组属性主要包含联系人项目。 |
-| static [Document](../../aspose.email.clients.exchange.dav/contentclasstype/document) { get; } | 获取 urn:content-classes:document 内容类，该类 为作为文档的项目（例如 Microsoft � Word 文件。 |
-| static [DSN](../../aspose.email.clients.exchange.dav/contentclasstype/dsn) { get; } | 获取 urn:content-classes:dsn 内容类 定义了作为交付状态通知的项目的一组属性（ DSN) 消息。 |
-| static [Folder](../../aspose.email.clients.exchange.dav/contentclasstype/folder) { get; } | 获取 urn:content-classes:folder 内容类 为 Exchange 存储中的文件夹定义一组属性。 |
-| static [Group](../../aspose.email.clients.exchange.dav/contentclasstype/group) { get; } | 获取表示内容类 urn:content-classes:group 的值。 |
-| static [JournalFolder](../../aspose.email.clients.exchange.dav/contentclasstype/journalfolder) { get; } | 获取 urn:content-classes:journalfolder 内容类 为主要包含日记项目的文件夹定义一组属性。 |
-| static [MailFolder](../../aspose.email.clients.exchange.dav/contentclasstype/mailfolder) { get; } | 获取 urn:content-classes:mailfolder 内容类 为主要包含消息的文件夹定义一组属性。 |
-| static [MDN](../../aspose.email.clients.exchange.dav/contentclasstype/mdn) { get; } | 获取 urn:content-classes:mdn 内容类 定义项目 的一组属性是邮件传递通知 (MDN) 消息。 |
-| static [Message](../../aspose.email.clients.exchange.dav/contentclasstype/message) { get; } | 获取 urn:content-classes:message 内容类 定义了作为消息的项目的一组属性。 |
-| static [Note](../../aspose.email.clients.exchange.dav/contentclasstype/note) { get; } | 获取表示内容类 urn:content-classes:note 的值。 |
-| static [NoteFolder](../../aspose.email.clients.exchange.dav/contentclasstype/notefolder) { get; } | 获取 urn:content-classes:notesfolder 内容类 为主要包含笔记项的文件夹定义一组属性。 |
-| static [Person](../../aspose.email.clients.exchange.dav/contentclasstype/person) { get; } | 获取 urn:content-classes:person 内容类 为作为联系人的项目定义一组属性。 |
-| static [RecallMesage](../../aspose.email.clients.exchange.dav/contentclasstype/recallmesage) { get; } | 获取 urn:content-classes:recallmessage 内容类 定义了召回消息的一组属性。 |
-| static [RecallReport](../../aspose.email.clients.exchange.dav/contentclasstype/recallreport) { get; } | 获取 urn:content-classes:recallreport 内容类 为作为召回报告消息的项目定义一组属性。 |
-| static [ReportMessage](../../aspose.email.clients.exchange.dav/contentclasstype/reportmessage) { get; } | 获取表示内容类 urn:content-classes:reportmessage 的值。 |
-| static [Task](../../aspose.email.clients.exchange.dav/contentclasstype/task) { get; } | 获取表示内容类 urn:content-classes:task 的值。 |
-| static [TaskFolder](../../aspose.email.clients.exchange.dav/contentclasstype/taskfolder) { get; } | 获取 urn:content-classes:taskfolder 内容类 为主要包含任务项的文件夹定义一组属性。 |
+| static [Activity](../../aspose.email.clients.exchange.dav/contentclasstype/activity) { get; } | 获取 urn:content-classes:activity 内容类，该类定义了 日志项目的一组属性。 这映射到 IPM.Activity. |
+| static [Appointment](../../aspose.email.clients.exchange.dav/contentclasstype/appointment) { get; } | 获取 urn:content-classes:appointment 内容类 ，它定义了约会项目的属性。 |
+| static [CalendarFolder](../../aspose.email.clients.exchange.dav/contentclasstype/calendarfolder) { get; } | 获取 urn:content-classes:calendarfolder 内容类 ，它为主要包含约会项目的文件夹 定义一组属性。 |
+| static [CalendarMessage](../../aspose.email.clients.exchange.dav/contentclasstype/calendarmessage) { get; } | 获取 urn:content-classes:calendarmessage 内容类 ，它为包含会议请求的消息项 定义一组属性。 |
+| static [ContactFolder](../../aspose.email.clients.exchange.dav/contentclasstype/contactfolder) { get; } | 获取 urn:content-classes:contactfolder 内容类 ，它为主要包含联系人项目的文件夹 定义一组属性。 |
+| static [Document](../../aspose.email.clients.exchange.dav/contentclasstype/document) { get; } | 获取 urn:content-classes:document 内容类， 为作为文档的项目（例如 Microsoft Word 文件）定义一组属性。 |
+| static [DSN](../../aspose.email.clients.exchange.dav/contentclasstype/dsn) { get; } | 获取 urn:content-classes:dsn 内容类 ，它为作为传递状态通知 (DSN) 消息的项目定义一组属性。 |
+| static [Folder](../../aspose.email.clients.exchange.dav/contentclasstype/folder) { get; } | 获取 urn:content-classes:folder 内容类 ，它为 Exchange 存储中的文件夹定义一组属性。 |
+| static [Group](../../aspose.email.clients.exchange.dav/contentclasstype/group) { get; } | 获取表示内容类 urn:content-classes:group. 的值 |
+| static [JournalFolder](../../aspose.email.clients.exchange.dav/contentclasstype/journalfolder) { get; } | 获取 urn:content-classes:journalfolder 内容类 ，它为主要包含日记项目的文件夹定义一组属性。 |
+| static [MailFolder](../../aspose.email.clients.exchange.dav/contentclasstype/mailfolder) { get; } | 获取 urn:content-classes:mailfolder 内容类 ，它为主要包含消息的文件夹定义了一组属性。 |
+| static [MDN](../../aspose.email.clients.exchange.dav/contentclasstype/mdn) { get; } | 获取 urn:content-classes:mdn 内容类 ，它为作为邮件传递通知 (MDN) 消息的项目 定义一组属性。 |
+| static [Message](../../aspose.email.clients.exchange.dav/contentclasstype/message) { get; } | 获取 urn:content-classes:message 内容类 ，它为作为消息的项目定义一组属性。 |
+| static [Note](../../aspose.email.clients.exchange.dav/contentclasstype/note) { get; } | 获取表示内容类 urn:content-classes:note. 的值 |
+| static [NoteFolder](../../aspose.email.clients.exchange.dav/contentclasstype/notefolder) { get; } | 获取 urn:content-classes:notesfolder 内容类 ，它为主要包含笔记项的文件夹定义了一组属性。 |
+| static [Person](../../aspose.email.clients.exchange.dav/contentclasstype/person) { get; } | 获取 urn:content-classes:person 内容类 ，它为作为联系人的项目定义一组属性。 |
+| static [RecallMesage](../../aspose.email.clients.exchange.dav/contentclasstype/recallmesage) { get; } | 获取 urn:content-classes:recallmessage 内容类 ，它定义了召回消息的一组属性。 |
+| static [RecallReport](../../aspose.email.clients.exchange.dav/contentclasstype/recallreport) { get; } | 获取 urn:content-classes:recallreport 内容类 ，它为作为召回报告消息的项目定义一组属性。 |
+| static [ReportMessage](../../aspose.email.clients.exchange.dav/contentclasstype/reportmessage) { get; } | 获取表示内容类的值 urn:content-classes:reportmessage. |
+| static [Task](../../aspose.email.clients.exchange.dav/contentclasstype/task) { get; } | 获取表示内容类 urn:content-classes:task. 的值 |
+| static [TaskFolder](../../aspose.email.clients.exchange.dav/contentclasstype/taskfolder) { get; } | 获取 urn:content-classes:taskfolder 内容类 ，它为主要包含任务项的文件夹定义了一组属性。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.email.clients.exchange.dav/contentclasstype/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.email.clients.exchange.dav/contentclasstype/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

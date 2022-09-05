@@ -16,9 +16,9 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 
 ### Возвращаемое значение
 
@@ -43,9 +43,9 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 
 ### Возвращаемое значение
 
@@ -71,7 +71,7 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 
 ### Возвращаемое значение
 
@@ -95,8 +95,8 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 
 ### Возвращаемое значение
 
@@ -121,9 +121,9 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -150,9 +150,9 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -179,8 +179,8 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName, Canc
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -204,9 +204,9 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName, Cancell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть скопировано сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда должно быть скопировано сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

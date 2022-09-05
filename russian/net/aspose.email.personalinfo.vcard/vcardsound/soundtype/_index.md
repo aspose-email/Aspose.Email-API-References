@@ -1,14 +1,14 @@
 ---
 title: SoundType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает тип звука
+description: Получает или задает тип звука
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsound/soundtype/
 ---
 ## VCardSound.SoundType property
 
-Получает или устанавливает тип звука
+Получает или задает тип звука
 
 ```csharp
 public VCardSoundType SoundType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WeddingAnniversary
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату годовщины свадьбы пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagWeddingAnniversary Альтернативные именаPR_WEDDING_ANNIVERSARY urnschemascontactsweddinganniversary
+description: Содержит дату годовщины свадьбы пользователя почты. Область MapiMailUser Каноническое имя PidTagWeddingAnniversary Альтернативные имена PR_WEDDING_ANNIVERSARY urnschemascontactsweddinganniversary
 type: docs
 weight: 19330
 url: /ru/net/aspose.email.mapi/knownpropertylist/weddinganniversary/
 ---
 ## KnownPropertyList.WeddingAnniversary field
 
-Содержит дату годовщины свадьбы пользователя почты. Область:MapiMailUser Каноническое имя:PidTagWeddingAnniversary Альтернативные имена:PR_WEDDING_ANNIVERSARY, urn:schemas:contacts:weddinganniversary
+Содержит дату годовщины свадьбы пользователя почты. Область: MapiMailUser Каноническое имя: PidTagWeddingAnniversary Альтернативные имена: PR_WEDDING_ANNIVERSARY, urn:schemas:contacts:weddinganniversary
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WeddingAnniversary;

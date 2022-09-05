@@ -1,12 +1,12 @@
 ---
 title: WriteIf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes the specified message to appenders if condition is true.
 type: docs
 weight: 90
 url: /net/aspose.email.tools.logging/logger/writeif/
 ---
-## Logger.WriteIf method (1 of 5)
+## WriteIf(bool, string) {#writeif_4}
 
 Writes the specified message to appenders if condition is true.
 
@@ -27,7 +27,7 @@ public void WriteIf(bool condition, string message)
 
 ---
 
-## Logger.WriteIf method (2 of 5)
+## WriteIf(bool, object) {#writeif_2}
 
 Writes the specified message to appenders if condition is true.
 
@@ -48,7 +48,7 @@ public void WriteIf(bool condition, object message)
 
 ---
 
-## Logger.WriteIf method (3 of 5)
+## WriteIf(bool, object, Exception) {#writeif_3}
 
 Writes the specified message and exception to appenders if condition is true.
 
@@ -70,7 +70,7 @@ public void WriteIf(bool condition, object message, Exception exception)
 
 ---
 
-## Logger.WriteIf method (4 of 5)
+## WriteIf(LogLevel, string) {#writeif}
 
 Writes the specified message if the log level is enabled.
 
@@ -92,7 +92,7 @@ public void WriteIf(LogLevel condition, string message)
 
 ---
 
-## Logger.WriteIf method (5 of 5)
+## WriteIf(LogLevel, string, Exception) {#writeif_1}
 
 Writes the specified message and exception if the log level is enabled.
 

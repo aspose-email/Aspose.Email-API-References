@@ -1,14 +1,14 @@
 ---
 title: WlinkGroupHeaderID
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор ярлыка навигации который группирует другие ярлыки навигации. ОбластьКонфигурация Каноническое имяPidTagWlinkGroupHeaderID Альтернативные имена
+description: Указывает идентификатор ярлыка навигации который группирует другие ярлыки навигации. Область Configuration Каноническое имя PidTagWlinkGroupHeaderID Альтернативные имена
 type: docs
 weight: 19450
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkgroupheaderid/
 ---
 ## KnownPropertyList.WlinkGroupHeaderID field
 
-Указывает идентификатор ярлыка навигации, который группирует другие ярлыки навигации. Область:Конфигурация Каноническое имя:PidTagWlinkGroupHeaderID Альтернативные имена:
+Указывает идентификатор ярлыка навигации, который группирует другие ярлыки навигации. Область: Configuration Каноническое имя: PidTagWlinkGroupHeaderID Альтернативные имена:
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkGroupHeaderID;

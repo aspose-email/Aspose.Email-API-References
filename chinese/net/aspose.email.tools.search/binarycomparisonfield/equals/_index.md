@@ -16,7 +16,7 @@ public MailQuery Equals(byte[] value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Byte[] | 值。 |
+| value | Byte[] | 价值。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public MailQuery Equals(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 基数 64 字符串值。 |
+| value | String | 基数为 64 的字符串值。 |
 
 ### 返回值
 

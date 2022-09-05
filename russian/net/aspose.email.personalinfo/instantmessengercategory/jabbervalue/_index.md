@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/jabbervalue/
 ---
 ## InstantMessengerCategory.JabberValue field
 
-Строковое значение для категории 'Jabber'
+Строковое значение для категории "Jabber"
 
 ```csharp
 public const string JabberValue;

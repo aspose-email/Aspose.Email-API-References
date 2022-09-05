@@ -1,14 +1,14 @@
 ---
 title: NtUserName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NT_USER_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NT_USER_NAME
 type: docs
 weight: 13170
 url: /ru/net/aspose.email.mapi/knownpropertylist/ntusername/
 ---
 ## KnownPropertyList.NtUserName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NT_USER_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NT_USER_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NtUserName;

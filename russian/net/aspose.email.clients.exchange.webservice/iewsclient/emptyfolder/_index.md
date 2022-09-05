@@ -22,8 +22,8 @@ public void EmptyFolder(string folderUri)
 
 | исключение | условие |
 | --- | --- |
-| [ExchangeException](../../../aspose.email/exchangeexception) | EmptyFolder операция не выполнена |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пусто` |
+| [ExchangeException](../../../aspose.email/exchangeexception) | Не удалось выполнить операцию EmptyFolder |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -50,8 +50,8 @@ public void EmptyFolder(string folderUri, EmptyFolderOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [ExchangeException](../../../aspose.email/exchangeexception) | Операция EmptyFolder не удалось |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пусто` |
+| [ExchangeException](../../../aspose.email/exchangeexception) | Не удалось выполнить операцию EmptyFolder |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

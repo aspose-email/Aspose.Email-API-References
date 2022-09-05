@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор сервера коллекции из которой получается оценка элемента.
+description: Указывает идентификатор сервера коллекции из которой получена оценка элемента.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemestimaterequest/collectionid/
 ---
 ## ItemEstimateRequest.CollectionId property
 
-Указывает идентификатор сервера коллекции, из которой получается оценка элемента.
+Указывает идентификатор сервера коллекции, из которой получена оценка элемента.
 
 ```csharp
 public string CollectionId { get; set; }

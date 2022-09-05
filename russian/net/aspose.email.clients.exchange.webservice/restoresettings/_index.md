@@ -1,14 +1,14 @@
 ---
 title: RestoreSettings
 second_title: Справочник по Aspose.Email для .NET API
-description: Настройки метода IEWSClient.Restore
+description: Параметры метода IEWSClient.Restore
 type: docs
 weight: 4130
 url: /ru/net/aspose.email.clients.exchange.webservice/restoresettings/
 ---
 ## RestoreSettings class
 
-Настройки метода IEWSClient.Restore
+Параметры метода IEWSClient.Restore
 
 ```csharp
 public class RestoreSettings

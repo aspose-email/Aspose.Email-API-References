@@ -1,7 +1,7 @@
 ---
 title: EmsAbX25FacilitiesDataIncoming
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_X25_FACILITIES_DATA_INCOMING
 type: docs
 weight: 9600
 url: /net/aspose.email.mapi/knownpropertylist/emsabx25facilitiesdataincoming/

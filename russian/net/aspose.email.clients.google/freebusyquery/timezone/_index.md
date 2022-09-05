@@ -1,14 +1,14 @@
 ---
 title: TimeZone
 second_title: Справочник по Aspose.Email для .NET API
-description: Часовой пояс использованный в ответе. По желанию. По умолчанию используется UTC.
+description: Часовой пояс использованный в ответе. По желанию. По умолчанию используется UTC. .
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.google/freebusyquery/timezone/
 ---
 ## FreebusyQuery.TimeZone property
 
-Часовой пояс, использованный в ответе. По желанию. По умолчанию используется UTC.
+Часовой пояс, использованный в ответе. По желанию. По умолчанию используется UTC. .
 
 ```csharp
 public string TimeZone { get; set; }

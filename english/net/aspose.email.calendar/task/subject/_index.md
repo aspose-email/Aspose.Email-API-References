@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a task subject.
 type: docs
 weight: 130
 url: /net/aspose.email.calendar/task/subject/

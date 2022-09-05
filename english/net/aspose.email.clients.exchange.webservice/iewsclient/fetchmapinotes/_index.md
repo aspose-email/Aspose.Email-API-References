@@ -1,12 +1,12 @@
 ---
 title: FetchMapiNotes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch array of MapiNoteaspose.email.mapi/mapinote objects.
 type: docs
 weight: 790
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes/
 ---
-## IEWSClient.FetchMapiNotes method (1 of 2)
+## FetchMapiNotes(IEnumerable&lt;string&gt;) {#fetchmapinotes}
 
 Fetch array of [`MapiNote`](../../../aspose.email.mapi/mapinote) objects.
 
@@ -31,7 +31,7 @@ Fetch array of [`MapiNote`](../../../aspose.email.mapi/mapinote) objects.
 
 ---
 
-## IEWSClient.FetchMapiNotes method (2 of 2)
+## FetchMapiNotes(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapinotes_1}
 
 Fetch array of [`MapiNote`](../../../aspose.email.mapi/mapinote) objects.
 

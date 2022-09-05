@@ -1,7 +1,7 @@
 ---
 title: ReferredBy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default referred by
 type: docs
 weight: 160
 url: /net/aspose.email.personalinfo/associatedpersonslist/referredby/

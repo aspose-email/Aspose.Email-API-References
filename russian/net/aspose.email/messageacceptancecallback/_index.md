@@ -3,7 +3,7 @@ title: MessageAcceptanceCallback
 second_title: Справочник по Aspose.Email для .NET API
 description: Функция обратного вызова которая вызывается в процессе преобразования.
 type: docs
-weight: 19010
+weight: 19040
 url: /ru/net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate
@@ -16,11 +16,11 @@ public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage)для проверки. |
+| mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage) проверить. |
 
 ### Возвращаемое значение
 
-Если возвращает true, это означает, что сообщение можно принять для конвертации, иначе оно будет пропущено.
+Если он возвращает true, это означает, что сообщение может быть принято для конвертации, иначе оно будет пропущено.
 
 ### Смотрите также
 

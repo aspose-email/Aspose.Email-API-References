@@ -1,14 +1,14 @@
 ---
 title: AddMessages
 second_title: Aspose.Email for .NET API 参考
-description: 添加要附加的邮件列表
+description: 添加要附加的邮件消息列表
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages/
 ---
 ## AddMessages(IEnumerable&lt;MailMessage&gt;) {#addmessages}
 
-添加要附加的邮件列表。
+添加要附加的邮件消息列表。
 
 ```csharp
 public EwsAppendMessage AddMessages(IEnumerable<MailMessage> messages)

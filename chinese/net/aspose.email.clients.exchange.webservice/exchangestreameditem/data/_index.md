@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置项目数据
+description: 获取或设置项数据
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangestreameditem/data/
 ---
 ## ExchangeStreamedItem.Data property
 
-获取或设置项目数据
+获取或设置项数据
 
 ```csharp
 public byte[] Data { get; set; }
@@ -18,7 +18,7 @@ public byte[] Data { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *value*是` null` |
+| ArgumentNullException | *value*是`无效的` |
 
 ### 也可以看看
 

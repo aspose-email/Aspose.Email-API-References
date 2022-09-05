@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets recipients
 type: docs
 weight: 100
 url: /net/aspose.email/imessage/to/

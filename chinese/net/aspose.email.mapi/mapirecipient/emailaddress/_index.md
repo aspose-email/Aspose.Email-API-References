@@ -22,12 +22,12 @@ public string EmailAddress { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果收件人地址为空或空则抛出。 |
+| ArgumentNullException | 如果收件人地址为空或为空，则抛出。 |
 | ArgumentException | 如果收件人地址不是可识别的格式，则抛出。 |
 
 ### 评论
 
-注意，此属性以 SMTP 格式显示地址。 这意味着如果 MapiRecipient.AddressType == "EX" 和 MapiPropertyTag.PR_EMAIL_ADDRESS 包含 Exchange 样式的地址，则 mapiRecipient.EmailAddress 的值 属性填充是从 PR_SMTP_ADDRESS 中挑选的。 设置值时，PR_SEARCH_KEY 和 PR_ENTRYID 属性的值也会更新。
+注意，此属性以 SMTP 格式显示地址。 表示如果 MapiRecipient.AddressType == "EX" 和 MapiPropertyTag.PR_EMAIL_ADDRESS 包含 Exchange 风格的地址，则 mapiRecipient.EmailAddress 属性填充的值从 PR_SMTP_ADDRESS 中选取。 设置值时，PR_SEARCH_KEY 的值 和 PR_ENTRYID 属性也会更新。
 
 ### 也可以看看
 

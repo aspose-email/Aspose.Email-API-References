@@ -1,14 +1,14 @@
 ---
 title: HyperlinkRenderingCallback
 second_title: Справочник по Aspose.Email для .NET API
-description: Обеспечивает возможность обработки гиперссылки в пользовательском стиле.
+description: Предоставляет возможность обработки гиперссылки в пользовательском стиле.
 type: docs
 weight: 17560
 url: /ru/net/aspose.email/hyperlinkrenderingcallback/
 ---
 ## HyperlinkRenderingCallback delegate
 
-Обеспечивает возможность обработки гиперссылки в пользовательском стиле.
+Предоставляет возможность обработки гиперссылки в пользовательском стиле.
 
 ```csharp
 public delegate string HyperlinkRenderingCallback(string source);
@@ -16,7 +16,7 @@ public delegate string HyperlinkRenderingCallback(string source);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| источник | String |  |
+| source | String |  |
 
 ### Смотрите также
 

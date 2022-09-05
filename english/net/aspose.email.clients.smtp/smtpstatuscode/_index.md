@@ -1,9 +1,9 @@
 ---
 title: SmtpStatusCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Smtp status codes
 type: docs
-weight: 16910
+weight: 17080
 url: /net/aspose.email.clients.smtp/smtpstatuscode/
 ---
 ## SmtpStatusCode enumeration

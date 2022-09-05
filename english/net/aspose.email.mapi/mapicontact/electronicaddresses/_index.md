@@ -1,7 +1,7 @@
 ---
 title: ElectronicAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify properties for up to three different email addresses and three different fax addresses
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontact/electronicaddresses/

@@ -1,7 +1,7 @@
 ---
 title: ListAppointmentsByPageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves page with appointments for specified calendar folder
 type: docs
 weight: 410
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listappointmentsbypageasync/

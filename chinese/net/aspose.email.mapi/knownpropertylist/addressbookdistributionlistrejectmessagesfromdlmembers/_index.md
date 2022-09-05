@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListRejectMessagesFromDLMembers
 second_title: Aspose.Email for .NET API 参考
-description: 表示收件人存在递送限制 区域地址簿 规范名称PidTagAddressBookDistributionListRejectMessagesFromDLMembers 备用名称PR_EMS_AB_DL_MEM_REJECT_PERMS
+description: 表示收件人存在递送限制 区域地址簿 规范名称PidTagAddressBookDistributionListRejectMessagesFromDLMembers 替代名称PR_EMS_AB_DL_MEM_REJECT_PERMS
 type: docs
 weight: 430
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistrejectmessagesfromdlmembers/
 ---
 ## KnownPropertyList.AddressBookDistributionListRejectMessagesFromDLMembers field
 
-表示收件人存在递送限制。 区域:地址簿 规范名称:PidTagAddressBookDistributionListRejectMessagesFromDLMembers 备用名称:PR_EMS_AB_DL_MEM_REJECT_PERMS
+表示收件人存在递送限制。 区域：地址簿 规范名称：PidTagAddressBookDistributionListRejectMessagesFromDLMembers 替代名称：PR_EMS_AB_DL_MEM_REJECT_PERMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor 

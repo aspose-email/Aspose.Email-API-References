@@ -1,14 +1,14 @@
 ---
 title: ObjectIdentifier
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ObjectIdentifieraspose.email/objectidentifier类的新实例
+description: 初始化一个新的实例ObjectIdentifieraspose.email/objectidentifier类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/objectidentifier/objectidentifier/
 ---
 ## ObjectIdentifier constructor
 
-初始化[`ObjectIdentifier`](../../objectidentifier)类的新实例。
+初始化一个新的实例[`ObjectIdentifier`](../../objectidentifier)类.
 
 ```csharp
 public ObjectIdentifier()

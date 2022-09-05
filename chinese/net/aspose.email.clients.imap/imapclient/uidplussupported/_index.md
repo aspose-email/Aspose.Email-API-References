@@ -1,14 +1,14 @@
 ---
 title: UidPlusSupported
 second_title: Aspose.Email for .NET API 参考
-description: 获取是否支持 UIDPLUS 扩展的信息 查看更多https//tools.ietf.org/html/rfc4315
+description: 获取是否支持UIDPLUS扩展的信息 查看更多https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 320
 url: /zh/net/aspose.email.clients.imap/imapclient/uidplussupported/
 ---
 ## ImapClient.UidPlusSupported property
 
-获取是否支持 UIDPLUS 扩展的信息 查看更多:https://tools.ietf.org/html/rfc4315
+获取是否支持UIDPLUS扩展的信息 查看更多：https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public bool UidPlusSupported { get; set; }

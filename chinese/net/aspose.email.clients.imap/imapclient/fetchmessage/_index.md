@@ -17,11 +17,11 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 
@@ -44,12 +44,12 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| sequenceNumber | Int32 | 消息的序号 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 
@@ -75,7 +75,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 
@@ -97,11 +97,11 @@ public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceNumber | Int32 | 消息的序号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 
@@ -123,11 +123,11 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一id |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 
@@ -149,11 +149,11 @@ public MailMessage FetchMessage(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一id |
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件消息
+[`MailMessage`](../../../aspose.email/mailmessage)表示电子邮件 message
 
 ### 也可以看看
 

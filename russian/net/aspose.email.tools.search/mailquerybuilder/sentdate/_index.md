@@ -1,14 +1,14 @@
 ---
 title: SentDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поле позволяющее найти сообщения по дате отправки.
+description: Получает поле позволяющее находить сообщения по дате отправки.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.tools.search/mailquerybuilder/sentdate/
 ---
 ## MailQueryBuilder.SentDate property
 
-Получает поле, позволяющее найти сообщения по дате отправки.
+Получает поле, позволяющее находить сообщения по дате отправки.
 
 ```csharp
 public DateComparisonField SentDate { get; }
@@ -16,7 +16,7 @@ public DateComparisonField SentDate { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield)представляет поле поиска по дате отправки.
+[`DateComparisonField`](../../datecomparisonfield) который представляет поле поиска по дате отправления.
 
 ### Смотрите также
 

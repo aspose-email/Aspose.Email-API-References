@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Aspose.Email for .NET API 参考
-description: 包含来自 PidLidAppointmentRecur 属性第 2.22 节的 CalendarType 字段的值 区域会议 规范名称PidLidCalendarType 替代名称LID_CALENDAR_TYPE
+description: 包含来自 PidLidAppointmentRecur 属性的 CalendarType 字段的值第 2.22 节 区域Meetings 规范名称PidLidCalendarType 替代名称LID_CALENDAR_TYPE
 type: docs
 weight: 2440
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendartype/
 ---
 ## KnownPropertyList.CalendarType field
 
-包含来自 PidLidAppointmentRecur 属性（第 2.22 节）的 CalendarType 字段的值。 区域:会议 规范名称:PidLidCalendarType 替代名称:LID_CALENDAR_TYPE
+包含来自 PidLidAppointmentRecur 属性的 CalendarType 字段的值（第 2.22 节）。 区域：Meetings 规范名称：PidLidCalendarType 替代名称：LID_CALENDAR_TYPE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CalendarType;

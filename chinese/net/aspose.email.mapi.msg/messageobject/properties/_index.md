@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API 参考
-description: 获取MessageObjectaspose.email.mapi.msg/messageobject的属性
+description: 获取属性MessageObjectaspose.email.mapi.msg/messageobject.
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi.msg/messageobject/properties/
 ---
 ## MessageObject.Properties property
 
-获取[`MessageObject`](../../messageobject)的属性。
+获取属性[`MessageObject`](../../messageobject).
 
 ```csharp
 public MessageObjectPropertiesCollection Properties { get; }

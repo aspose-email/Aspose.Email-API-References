@@ -1,14 +1,14 @@
 ---
 title: AddressBookMessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор краткосрочного сообщения MID MS-OXCDATA раздел 2.2.1.2 первого сообщения в общей папке автономной адресной книги локального сайта. ОбластьProviderDefinedNonTransmittable Каноническое имяPidTagAddressBookMessageId Альтернативные именаptagAddrbookMID
+description: Содержит идентификатор краткосрочного сообщения MID MS-OXCDATA раздел 2.2.1.2 первого сообщения в общей папке автономной адресной книги локального сайта. Область ProviderDefinedNonTransmittable Каноническое имя PidTagAddressBookMessageId Альтернативные имена ptagAddrbookMID
 type: docs
 weight: 740
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookmessageid/
 ---
 ## KnownPropertyList.AddressBookMessageId field
 
-Содержит идентификатор краткосрочного сообщения (MID) ([MS-OXCDATA] раздел 2.2.1.2) первого сообщения в общей папке автономной адресной книги локального сайта. Область:ProviderDefinedNonTransmittable Каноническое имя:PidTagAddressBookMessageId Альтернативные имена:ptagAddrbookMID
+Содержит идентификатор краткосрочного сообщения (MID) ([MS-OXCDATA], раздел 2.2.1.2) первого сообщения в общей папке автономной адресной книги локального сайта. Область: ProviderDefinedNonTransmittable Каноническое имя: PidTagAddressBookMessageId Альтернативные имена: ptagAddrbookMID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookMessageId;

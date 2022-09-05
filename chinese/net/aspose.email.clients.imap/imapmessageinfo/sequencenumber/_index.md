@@ -16,7 +16,7 @@ public int SequenceNumber { get; }
 
 ### 适当的价值
 
-序列号。
+序号。
 
 ### 也可以看看
 

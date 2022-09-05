@@ -1,14 +1,14 @@
 ---
 title: IpmSentmailSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_SENTMAIL_SEARCH_KEY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_SENTMAIL_SEARCH_KEY
 type: docs
 weight: 11740
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmsentmailsearchkey/
 ---
 ## KnownPropertyList.IpmSentmailSearchKey field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_SENTMAIL_SEARCH_KEY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_SENTMAIL_SEARCH_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmSentmailSearchKey;

@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookDistinguishedName
 second_title: Aspose.Email for .NET API 参考
-description: 包含 OAB 消息中包含的地址列表的 DN 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookDistinguishedName 备用名称PR_OAB_DN PR_OAB_DN_W
+description: 包含 OAB 消息中包含的地址列表的 DN 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookDistinguishedName 备用名称PR_OAB_DNPR_OAB_DN_W
 type: docs
 weight: 13250
 url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbookdistinguishedname/
 ---
 ## KnownPropertyList.OfflineAddressBookDistinguishedName field
 
-包含 OAB 消息中包含的地址列表的 DN。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookDistinguishedName 备用名称:PR_OAB_DN, PR_OAB_DN_W
+包含 OAB 消息中包含的地址列表的 DN。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookDistinguishedName 备用名称：PR_OAB_DN、PR_OAB_DN_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookDistinguishedName;

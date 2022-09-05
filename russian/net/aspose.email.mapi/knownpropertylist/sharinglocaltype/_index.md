@@ -1,14 +1,14 @@
 ---
 title: SharingLocalType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagContainerClass раздел 2.633 общей папки. ОбластьСовместное использование Каноническое имяPidLidSharingLocalType Альтернативные именаdispidSharingLocalType
+description: Содержит значение свойства PidTagContainerClass раздел 2.633 общей папки. Область Sharing Каноническое имя PidLidSharingLocalType Альтернативные имена dispidSharingLocalType
 type: docs
 weight: 17640
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinglocaltype/
 ---
 ## KnownPropertyList.SharingLocalType field
 
-Содержит значение свойства PidTagContainerClass (раздел 2.633) общей папки. Область:Совместное использование Каноническое имя:PidLidSharingLocalType Альтернативные имена:dispidSharingLocalType
+Содержит значение свойства PidTagContainerClass (раздел 2.633) общей папки. Область: Sharing Каноническое имя: PidLidSharingLocalType Альтернативные имена: dispidSharingLocalType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLocalType;

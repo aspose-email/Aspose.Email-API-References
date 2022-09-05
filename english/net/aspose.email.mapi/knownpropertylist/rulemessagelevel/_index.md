@@ -1,7 +1,7 @@
 ---
 title: RuleMessageLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains 0x00000000. Set on the FAI message. Area ExchangeNonTransmittableReserved Canonical name PidTagRuleMessageLevel Alternate names PR_RULE_MSG_LEVEL ptagRuleMsgLevel
 type: docs
 weight: 16520
 url: /net/aspose.email.mapi/knownpropertylist/rulemessagelevel/

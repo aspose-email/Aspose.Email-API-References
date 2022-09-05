@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 将布尔值转换为PipeliningStatusaspose.email.clients/pipeliningstatus对象
+description: 将布尔值转换为PipeliningStatusaspose.email.clients/pipeliningstatusobject
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients/pipeliningstatus/op_implicit/
 ---
 ## implicit operator {#op_implicit_2}
 
-将布尔值转换为[`PipeliningStatus`](../../pipeliningstatus)对象
+将布尔值转换为[`PipeliningStatus`](../../pipeliningstatus)object
 
 ```csharp
 public static implicit operator PipeliningStatus(bool mode)
@@ -20,7 +20,7 @@ public static implicit operator PipeliningStatus(bool mode)
 
 ### 返回值
 
-返回PipeliningStatusobject
+退货[`PipeliningStatus`](../../pipeliningstatus)目的
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static implicit operator PipeliningStatus(bool mode)
 
 ## implicit operator {#op_implicit_1}
 
-将[`PipeliningMode`](../../pipeliningmode)值转换为[`PipeliningStatus`](../../pipeliningstatus)object
+转换[`PipeliningMode`](../../pipeliningmode)值[`PipeliningStatus`](../../pipeliningstatus)对象
 
 ```csharp
 public static implicit operator PipeliningStatus(PipeliningMode mode)
@@ -40,11 +40,11 @@ public static implicit operator PipeliningStatus(PipeliningMode mode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | PipeliningMode | [`PipeliningMode`](../../pipeliningmode)转换值 |
+| mode | PipeliningMode | [`PipeliningMode`](../../pipeliningmode)转化价值 |
 
 ### 返回值
 
-返回[`PipeliningStatus`](../../pipeliningstatus)对象
+退货[`PipeliningStatus`](../../pipeliningstatus)目的
 
 ### 也可以看看
 
@@ -57,7 +57,7 @@ public static implicit operator PipeliningStatus(PipeliningMode mode)
 
 ## implicit operator {#op_implicit_3}
 
-将[`PipeliningStatus`](../../pipeliningstatus)对象转换为布尔值
+转换[`PipeliningStatus`](../../pipeliningstatus)对象为布尔值
 
 ```csharp
 public static implicit operator bool(PipeliningStatus status)
@@ -69,7 +69,7 @@ public static implicit operator bool(PipeliningStatus status)
 
 ### 返回值
 
-返回 true如果使用流水线，否则返回 false。
+如果使用流水线，则返回 true，否则返回 false。
 
 ### 也可以看看
 
@@ -89,7 +89,7 @@ public static implicit operator PipeliningMode(PipeliningStatus status)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 状态 | PipeliningStatus |  |
+| status | PipeliningStatus |  |
 
 ### 也可以看看
 

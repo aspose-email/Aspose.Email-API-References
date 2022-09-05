@@ -1,14 +1,14 @@
 ---
 title: NoteCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件中的注释数 区域普通 规范名称PidNameNoteCount 备用名称urnschemas-microsoft-comofficeofficeNotes
+description: 指定附加到 Document 对象的文件中的注释数 区域Common 规范名称PidNameNoteCount 替代名称urnschemas-microsoft-comofficeofficeNotes
 type: docs
 weight: 13120
 url: /zh/net/aspose.email.mapi/knownpropertylist/notecount/
 ---
 ## KnownPropertyList.NoteCount field
 
-指定附加到 Document 对象的文件中的注释数。 区域：普通 规范名称：PidNameNoteCount 备用名称：urn:schemas-microsoft-com:office:office#Notes
+指定附加到 Document 对象的文件中的注释数。 区域：Common 规范名称：PidNameNoteCount 替代名称：urn:schemas-microsoft-com:office:office#Notes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor NoteCount;

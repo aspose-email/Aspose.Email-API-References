@@ -1,14 +1,14 @@
 ---
 title: UndeleteMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 取消删除消息 如果任何消息已被 POP3 服务器标记为已删除则它们将被取消标记
+description: 取消删除邮件 如果任何邮件已被 POP3 服务器标记为已删除它们将被取消标记
 type: docs
 weight: 380
 url: /zh/net/aspose.email.clients.pop3/pop3client/undeletemessagesasync/
 ---
 ## UndeleteMessagesAsync(IConnection) {#undeletemessagesasync_1}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public Task UndeleteMessagesAsync(IConnection connection)
@@ -20,7 +20,7 @@ public Task UndeleteMessagesAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public Task UndeleteMessagesAsync(IConnection connection)
 
 ## UndeleteMessagesAsync() {#undeletemessagesasync}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public Task UndeleteMessagesAsync()
@@ -41,7 +41,7 @@ public Task UndeleteMessagesAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -53,7 +53,7 @@ public Task UndeleteMessagesAsync()
 
 ## UndeleteMessagesAsync(IConnection, CancellationToken) {#undeletemessagesasync_2}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public Task UndeleteMessagesAsync(IConnection connection, CancellationToken token)
@@ -62,11 +62,11 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -79,7 +79,7 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 
 ## UndeleteMessagesAsync(CancellationToken) {#undeletemessagesasync_3}
 
-取消删除消息。 如果任何消息已被 POP3 服务器标记为已删除，则它们将被取消标记。
+取消删除邮件。 如果任何邮件已被 POP3 服务器标记为已删除，它们将被取消标记。
 
 ```csharp
 public Task UndeleteMessagesAsync(CancellationToken token)
@@ -91,7 +91,7 @@ public Task UndeleteMessagesAsync(CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

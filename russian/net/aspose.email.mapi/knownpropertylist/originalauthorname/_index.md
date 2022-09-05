@@ -1,14 +1,14 @@
 ---
 title: OriginalAuthorName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя отправителя исходного сообщения на которое ссылается отчетное сообщение. ОбластьЭлектронная почта Каноническое имяPidTagOriginalAuthorName Альтернативные именаPR_ORIGINAL_AUTHOR_NAME_W
+description: Содержит отображаемое имя отправителя исходного сообщения на которое ссылается отчетное сообщение. Область Email Каноническое имя PidTagOriginalAuthorName Альтернативные имена PR_ORIGINAL_AUTHOR_NAME_W
 type: docs
 weight: 13500
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalauthorname/
 ---
 ## KnownPropertyList.OriginalAuthorName field
 
-Содержит отображаемое имя отправителя исходного сообщения, на которое ссылается отчетное сообщение. Область:Электронная почта Каноническое имя:PidTagOriginalAuthorName Альтернативные имена:PR_ORIGINAL_AUTHOR_NAME_W
+Содержит отображаемое имя отправителя исходного сообщения, на которое ссылается отчетное сообщение. Область: Email Каноническое имя: PidTagOriginalAuthorName Альтернативные имена: PR_ORIGINAL_AUTHOR_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalAuthorName;

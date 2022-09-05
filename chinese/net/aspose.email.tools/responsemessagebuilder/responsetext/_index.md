@@ -16,7 +16,7 @@ public string ResponseText { get; set; }
 
 ### 评论
 
-如果原始消息的正文类型分别是 HTML 或 RTF，则可以包含 html 标签或 rtf 关键字。
+如果原始消息的正文类型分别为 HTML 或 RTF，则可以包含 html 标签或 rtf 关键字。
 
 ### 也可以看看
 

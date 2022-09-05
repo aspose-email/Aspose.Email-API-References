@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies all the elements of the current collection to the specified string array starting at the specified destination index.
 type: docs
 weight: 110
 url: /net/aspose.email.mime/headercollection/copyto/

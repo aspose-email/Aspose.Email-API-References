@@ -1,12 +1,12 @@
 ---
 title: Get
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value at the specified index.
 type: docs
 weight: 120
 url: /net/aspose.email.mime/headercollection/get/
 ---
-## HeaderCollection.Get method (1 of 2)
+## Get(int) {#get}
 
 Gets the value at the specified index.
 
@@ -30,7 +30,7 @@ The value at the specified position in current collection.
 
 ---
 
-## HeaderCollection.Get method (2 of 2)
+## Get(string) {#get_1}
 
 Gets the header value by a given header name.
 

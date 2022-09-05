@@ -25,12 +25,12 @@ public class AmpAttributes
 | Имя | Описание |
 | --- | --- |
 | [Height](../../aspose.email.amp/ampattributes/height) { get; set; } | Высота элемента. |
-| [Heigths](../../aspose.email.amp/ampattributes/heigths) { get; set; } | Значение этого атрибута представляет собой выражение размеров, основанное на выражениях мультимедиа. |
-| [IsFallback](../../aspose.email.amp/ampattributes/isfallback) { get; set; } | Определить, что текущий элемент является запасным. |
-| [IsNoloading](../../aspose.email.amp/ampattributes/isnoloading) { get; set; } | Атрибут noloading указывает, следует ли отключать "индикатор загрузки" для этого элемента. |
-| [IsPlaceHolder](../../aspose.email.amp/ampattributes/isplaceholder) { get; set; } | Атрибут заполнителя указывает, что элемент, помеченный этим атрибутом, выступает в качестве заполнителя для родительского элемента AMP. |
+| [Heigths](../../aspose.email.amp/ampattributes/heigths) { get; set; } | Значением этого атрибута является выражение размеров, основанное на выражениях мультимедиа. |
+| [IsFallback](../../aspose.email.amp/ampattributes/isfallback) { get; set; } | Определить, что текущий элемент является резервным. |
+| [IsNoloading](../../aspose.email.amp/ampattributes/isnoloading) { get; set; } | Атрибут noloading указывает, следует ли отключить «индикатор загрузки» для этого элемента. |
+| [IsPlaceHolder](../../aspose.email.amp/ampattributes/isplaceholder) { get; set; } | Атрибут заполнителя указывает, что элемент, отмеченный этим атрибутом, выступает в качестве заполнителя для родительского элемента AMP. |
 | [Layout](../../aspose.email.amp/ampattributes/layout) { get; set; } | AMP предоставляет набор макетов, определяющих поведение компонента AMP в макете документа. |
-| [Media](../../aspose.email.amp/ampattributes/media) { get; set; } | Значение media является медиа-запросом. Если запрос не соответствует, элемент не отображается, а его ресурсы и, возможно, его дочерние ресурсы не будут извлечены. Если окно браузера меняет размер или ориентацию, медиа-запросы оцениваются повторно, а элементы скрываются и отображаются на основе новых результатов. |
+| [Media](../../aspose.email.amp/ampattributes/media) { get; set; } | Значением media является медиа-запрос. Если запрос не соответствует, элемент не отображается, а его ресурсы и, возможно, его дочерние ресурсы не будут извлечены. Если окно браузера меняет размер или ориентацию, запросы мультимедиа оцениваются повторно, а элементы скрываются и отображаются на основе новых результатов. |
 | [On](../../aspose.email.amp/ampattributes/on) { get; set; } | Атрибут on используется для установки обработчиков событий на элементы. |
 | [Sizes](../../aspose.email.amp/ampattributes/sizes) { get; set; } | Значение атрибута размеров AMP представляет собой выражение размеров, которое выбирает определенный размер, соответствующий медиазапросу, исходя из текущего размера окна. |
 | [Width](../../aspose.email.amp/ampattributes/width) { get; set; } | Ширина элемента. |
@@ -39,7 +39,7 @@ public class AmpAttributes
 
 | Имя | Описание |
 | --- | --- |
-| virtual [ToAmpHtml](../../aspose.email.amp/ampattributes/toamphtml)() | Представляет версию атрибутов amp html. |
+| virtual [ToAmpHtml](../../aspose.email.amp/ampattributes/toamphtml)() | Представляет версию атрибутов в формате amp html. |
 | virtual [ToHtml](../../aspose.email.amp/ampattributes/tohtml)() | Представляет HTML-версию атрибутов. |
 
 ### Смотрите также

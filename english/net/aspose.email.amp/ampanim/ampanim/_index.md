@@ -1,7 +1,7 @@
 ---
 title: AmpAnim
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates instance of AmpAnim.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/ampanim/ampanim/

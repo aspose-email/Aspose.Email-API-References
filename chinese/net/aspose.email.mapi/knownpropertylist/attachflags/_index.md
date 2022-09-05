@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachflags/
 ---
 ## KnownPropertyList.AttachFlags field
 
-指示在呈现数据时哪些正文格式可能引用此附件。 区域:消息附件属性 规范名称:PidTagAttachFlags 备用名称:PR_ATTACH_FLAGS
+指示在呈现数据时哪些正文格式可能引用此附件。 区域：消息附件属性 规范名称：PidTagAttachFlags 备用名称：PR_ATTACH_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachFlags;

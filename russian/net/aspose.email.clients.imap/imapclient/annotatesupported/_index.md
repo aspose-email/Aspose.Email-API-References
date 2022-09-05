@@ -1,14 +1,14 @@
 ---
 title: AnnotateSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение ANNOTATE Подробнееhttps//tools.ietf.org/html/rfc5257
+description: Получает информацию о том поддерживается ли расширение ANNOTATE Подробнее https//tools.ietf.org/html/rfc5257
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/imapclient/annotatesupported/
 ---
 ## ImapClient.AnnotateSupported property
 
-Получает информацию о том, поддерживается ли расширение ANNOTATE Подробнее:https://tools.ietf.org/html/rfc5257
+Получает информацию о том, поддерживается ли расширение ANNOTATE Подробнее: https://tools.ietf.org/html/rfc5257
 
 ```csharp
 public bool AnnotateSupported { get; set; }

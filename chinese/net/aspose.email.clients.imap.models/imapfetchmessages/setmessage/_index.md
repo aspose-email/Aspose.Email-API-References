@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap.models/imapfetchmessages/setmessage/
 ---
 ## SetMessage(int) {#setmessage}
 
-设置消息序号。
+设置消息序号
 
 ```csharp
 public ImapFetchMessages SetMessage(int sequenceNumber)

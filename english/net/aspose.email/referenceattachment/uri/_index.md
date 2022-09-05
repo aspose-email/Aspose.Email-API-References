@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the Url of the provider endpoint.
 type: docs
 weight: 40
 url: /net/aspose.email/referenceattachment/uri/

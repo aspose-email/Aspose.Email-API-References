@@ -1,7 +1,7 @@
 ---
 title: AttachmentBase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base class for mail attachment.
 type: docs
 weight: 360
 url: /net/aspose.email/attachmentbase/
@@ -29,8 +29,8 @@ public abstract class AttachmentBase : IDisposable
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
-| virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |
+| virtual [Save](../../aspose.email/attachmentbase/save#save)(Stream) | Saves the specified stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save#save_1)(string) | Saves the specified file name. |
 
 ### See Also
 

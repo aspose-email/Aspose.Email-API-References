@@ -1,14 +1,14 @@
 ---
 title: Custom
 second_title: Справочник по Aspose.Email для .NET API
-description: Вид пользовательского мессенджера
+description: Пользовательский мессенджер kind
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/custom/
 ---
 ## InstantMessengerCategory.Custom property
 
-Вид пользовательского мессенджера
+Пользовательский мессенджер kind
 
 ```csharp
 public static InstantMessengerCategory Custom { get; }

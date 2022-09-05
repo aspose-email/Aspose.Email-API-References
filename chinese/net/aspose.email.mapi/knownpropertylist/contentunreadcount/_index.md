@@ -1,14 +1,14 @@
 ---
 title: ContentUnreadCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定标题行下 PidTagRead 属性第 2.869 节设置为 FALSE 的行数 区域文件夹属性 规范名称PidTagContentUnreadCount 替代名称PR_CONTENT_UNREAD ptagContentUnread urnschemashttpmailunreadcount
+description: 指定标题行下将 PidTagRead 属性第 2.869 节设置为 FALSE 的行数 区域文件夹属性 规范名称PidTagContentUnreadCount 备用名称PR_CONTENT_UNREADptagContentUnreadurnschemashttpmailunreadcount
 type: docs
 weight: 3290
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentunreadcount/
 ---
 ## KnownPropertyList.ContentUnreadCount field
 
-指定标题行下 PidTagRead 属性（第 2.869 节）设置为 FALSE 的行数。 区域:文件夹属性 规范名称:PidTagContentUnreadCount 替代名称:PR_CONTENT_UNREAD, ptagContentUnread, urn:schemas:httpmail:unreadcount
+指定标题行下将 PidTagRead 属性（第 2.869 节）设置为 FALSE 的行数。 区域：文件夹属性 规范名称：PidTagContentUnreadCount 备用名称：PR_CONTENT_UNREAD、ptagContentUnread、urn:schemas:httpmail:unreadcount
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentUnreadCount;

@@ -1,7 +1,7 @@
 ---
 title: Html
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts business web page URL
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/html/

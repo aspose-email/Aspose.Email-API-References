@@ -1,14 +1,14 @@
 ---
 title: NotesFolderPermissionLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает разрешения которые делегированный пользователь имеет в папке Notes по умолчанию
+description: Получает или задает разрешения которые делегированный пользователь имеет для папки Notes по умолчанию
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/notesfolderpermissionlevel/
 ---
 ## ExchangeDelegatePermissions.NotesFolderPermissionLevel property
 
-Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке Notes по умолчанию
+Получает или задает разрешения, которые делегированный пользователь имеет для папки Notes по умолчанию
 
 ```csharp
 public ExchangeDelegateFolderPermissionLevel NotesFolderPermissionLevel { get; set; }

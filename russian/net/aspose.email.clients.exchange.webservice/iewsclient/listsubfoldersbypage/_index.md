@@ -1,14 +1,14 @@
 ---
 title: ListSubFoldersByPage
 second_title: Справочник по Aspose.Email для .NET API
-description: Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг.
+description: Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging.
 type: docs
 weight: 1190
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage/
 ---
 ## ListSubFoldersByPage(string, PageInfo) {#listsubfoldersbypage}
 
-Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг.
+Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging.
 
 ```csharp
 public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, PageInfo page)
@@ -21,7 +21,7 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, PageI
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
+А[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolde
 
 ## ListSubFoldersByPage(string, int) {#listsubfoldersbypage_1}
 
-Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг. Вызывается впервые в цикле подкачки.
+Ищет указанную папку в заданной родительской папке с paging Метод поддерживает пейджинг. Вызывает в первый раз в цикле подкачки.
 
 ```csharp
 public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int itemsPerPage)
@@ -44,11 +44,11 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки |
-| itemsPerPage | Int32 | Число папки на странице |
+| itemsPerPage | Int32 | Количество папок на странице |
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)содержащие найденную папку, если указано имя папки; в противном случае возвращает все подпапки
+А[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolde
 
 ## ListSubFoldersByPage(string, int, int) {#listsubfoldersbypage_2}
 
-Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг.
+Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging.
 
 ```csharp
 public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int itemsPerPage, 
@@ -71,12 +71,12 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки |
-| itemsPerPage | Int32 | Число папки на странице |
+| itemsPerPage | Int32 | Количество папок на странице |
 | pageOffset | Int32 | Смещение следующего элемента в поле зрения |
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
+А[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
 
 ### Смотрите также
 

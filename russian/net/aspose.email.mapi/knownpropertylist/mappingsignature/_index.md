@@ -1,14 +1,14 @@
 ---
 title: MappingSignature
 second_title: Справочник по Aspose.Email для .NET API
-description: 16-байтовая константа присутствующая во всех объектах адресной книги но не присутствующая в объектах в автономной адресной книге. ОбластьПрочие свойства Каноническое имяPidTagMappingSignature Альтернативные именаPR_MAPPING_SIGNATURE ptagMappingSignature
+description: 16-байтовая константа присутствующая во всех объектах адресной книги но не присутствующая в объектах в автономной адресной книге. Область Прочие свойства Каноническое имя PidTagMappingSignature Альтернативные имена PR_MAPPING_SIGNATURE ptagMappingSignature
 type: docs
 weight: 12370
 url: /ru/net/aspose.email.mapi/knownpropertylist/mappingsignature/
 ---
 ## KnownPropertyList.MappingSignature field
 
-16-байтовая константа, присутствующая во всех объектах адресной книги, но не присутствующая в объектах в автономной адресной книге. Область:Прочие свойства Каноническое имя:PidTagMappingSignature Альтернативные имена:PR_MAPPING_SIGNATURE, ptagMappingSignature
+16-байтовая константа, присутствующая во всех объектах адресной книги, но не присутствующая в объектах в автономной адресной книге. Область: Прочие свойства Каноническое имя: PidTagMappingSignature Альтернативные имена: PR_MAPPING_SIGNATURE, ptagMappingSignature
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MappingSignature;

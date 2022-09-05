@@ -1,14 +1,14 @@
 ---
 title: RtfSyncBodyCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RTF_SYNC_BODY_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RTF_SYNC_BODY_COUNT
 type: docs
 weight: 16380
 url: /ru/net/aspose.email.mapi/knownpropertylist/rtfsyncbodycount/
 ---
 ## KnownPropertyList.RtfSyncBodyCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RTF_SYNC_BODY_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RTF_SYNC_BODY_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfSyncBodyCount;

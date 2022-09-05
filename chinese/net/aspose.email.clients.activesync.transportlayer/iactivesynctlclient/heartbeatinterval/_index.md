@@ -1,14 +1,14 @@
 ---
 title: HeartbeatInterval
 second_title: Aspose.Email for .NET API 参考
-description: HeartbeatInterval 元素是 Ping 命令请求和响应中 Ping 元素的子元素 在 Ping 命令请求中它指定了服务器应该等待 的时间长度以秒为单位如果没有新项目添加到指定的文件夹集中则在发送响应之前如第 3.1.5.6 节所述 HeartbeatInterval 元素也由服务器返回状态码为 5 并指定客户端允许的最小或最大间隔 已请求超出可接受范围的心跳间隔
+description: HeartbeatInterval 元素是 Ping 命令请求和响应中 Ping 元素的子元素 在 Ping 命令请求中它指定时间长度以秒为单位如果没有新项目添加到指定的文件夹集服务器应该在发送响应之前等待 如第 3.1.5.6 节所述 HeartbeatInterval 元素也由服务器返回状态代码为 5 并指定客户端请求的心跳间隔超出可接受范围时允许的最小或最大间隔 
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/heartbeatinterval/
 ---
 ## IActiveSyncTLClient.HeartbeatInterval property
 
-HeartbeatInterval 元素是 Ping 命令请求和响应中 Ping 元素的子元素。 在 Ping 命令请求中，它指定了服务器应该等待 的时间长度（以秒为单位），如果没有新项目添加到指定的文件夹集中，则在发送响应之前，如第 3.1.5.6 节所述。 HeartbeatInterval 元素也由服务器返回，状态码为 5 并指定客户端允许的最小或最大间隔 已请求超出可接受范围的心跳间隔。
+HeartbeatInterval 元素是 Ping 命令请求和响应中 Ping 元素的子元素。 在 Ping 命令请求中，它指定时间长度，以秒为单位，如果没有新项目添加到指定的文件夹集，服务器应该在发送响应之前等待 ，如第 3.1.5.6 节所述。 HeartbeatInterval 元素也由服务器返回，状态代码为 5 ，并指定客户端请求的心跳间隔超出可接受范围时允许的最小或最大间隔 。
 
 ```csharp
 public int HeartbeatInterval { get; set; }

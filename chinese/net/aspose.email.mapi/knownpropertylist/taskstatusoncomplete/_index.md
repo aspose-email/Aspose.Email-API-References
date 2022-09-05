@@ -1,14 +1,14 @@
 ---
 title: TaskStatusOnComplete
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否已请求任务受理人在分配的任务完成后发送电子邮件消息更新 区域任务 规范名称PidLidTaskStatusOnComplete 替代名称dispidTaskSOC
+description: 指示任务受理人是否已被请求在分配的任务完成后发送电子邮件消息更新 区域Tasks 规范名称PidLidTaskStatusOnComplete 替代名称dispidTaskSOC
 type: docs
 weight: 18840
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskstatusoncomplete/
 ---
 ## KnownPropertyList.TaskStatusOnComplete field
 
-指示是否已请求任务受理人在分配的任务完成后发送电子邮件消息更新。 区域:任务 规范名称:PidLidTaskStatusOnComplete 替代名称:dispidTaskSOC
+指示任务受理人是否已被请求在分配的任务完成后发送电子邮件消息更新。 区域：Tasks 规范名称：PidLidTaskStatusOnComplete 替代名称：dispidTaskSOC
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStatusOnComplete;

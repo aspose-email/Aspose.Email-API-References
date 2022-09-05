@@ -16,7 +16,7 @@ public IntComparisonField MessageSize { get; }
 
 ### 适当的价值
 
-[`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield)表示消息大小。
+的[`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield)表示消息大小。
 
 ### 也可以看看
 

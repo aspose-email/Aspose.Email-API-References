@@ -1,14 +1,14 @@
 ---
 title: KIND
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип ресурса calendarcolors.
+description: Тип ресурса календарьцвета.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.google/colorsinfo/kind/
 ---
 ## ColorsInfo.KIND field
 
-Тип ресурса "calendar#colors".
+Тип ресурса "календарь#цвета".
 
 ```csharp
 public const string KIND;

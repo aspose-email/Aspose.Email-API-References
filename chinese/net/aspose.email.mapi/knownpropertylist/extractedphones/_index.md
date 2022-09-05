@@ -1,14 +1,14 @@
 ---
 title: ExtractedPhones
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 PhoneSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedPhones 替代名称dispidXmlExtractedPhones
+description: 包含一个带有单个 PhoneSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedPhones 备用名称dispidXmlExtractedPhones
 type: docs
 weight: 10080
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedphones/
 ---
 ## KnownPropertyList.ExtractedPhones field
 
-包含一个带有单个 PhoneSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedPhones 替代名称:dispidXmlExtractedPhones
+包含一个带有单个 PhoneSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedPhones 备用名称：dispidXmlExtractedPhones
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedPhones;

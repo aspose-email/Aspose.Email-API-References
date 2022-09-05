@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Временная метка в формате UTC когда документ был в последний раз изменен. ОбязательноДа
+description: Временная метка в формате UTC для даты последнего изменения документа. Обязательно Yes
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime/
 ---
 ## SharePointMetadata.LastModifiedTime property
 
-Временная метка в формате UTC, когда документ был в последний раз изменен. Обязательно:Да
+Временная метка в формате UTC для даты последнего изменения документа. Обязательно: Yes
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }

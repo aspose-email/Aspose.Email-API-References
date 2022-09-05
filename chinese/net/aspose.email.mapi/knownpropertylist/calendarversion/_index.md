@@ -1,14 +1,14 @@
 ---
 title: CalendarVersion
 second_title: Aspose.Email for .NET API 参考
-description: 标识正确解释 iCalendar 对象所需的 iCalendar 规范版本如 MS-OXCICAL 部分 2.1.3.1.1.3 中所述 区域通用 规范名称PidNameCalendarVersion 替代名称urnschemascalendarversion
+description: 标识正确解释 iCalendar 对象所需的 iCalendar 规范的版本如 MS-OXCICAL 第 2.1.3.1.1.3 节中所述 区域Common 规范名称PidNameCalendarVersion 备用名称urnschemascalendarversion
 type: docs
 weight: 2460
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarversion/
 ---
 ## KnownPropertyList.CalendarVersion field
 
-标识正确解释 iCalendar 对象所需的 iCalendar 规范版本，如 [MS-OXCICAL] 部分 2.1.3.1.1.3 中所述。 区域:通用 规范名称:PidNameCalendarVersion 替代名称:urn:schemas:calendar:version
+标识正确解释 iCalendar 对象所需的 iCalendar 规范的版本，如 [MS-OXCICAL] 第 2.1.3.1.1.3 节中所述。 区域：Common 规范名称：PidNameCalendarVersion 备用名称：urn:schemas:calendar:version
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarVersion;

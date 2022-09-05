@@ -1,14 +1,14 @@
 ---
 title: ExchangeFolderUserInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 ExchangeFolderUserInfoaspose.email.clients.exchange/exchangefolderuserinfo 班级
+description: 初始化ExchangeFolderUserInfoaspose.email.clients.exchange/exchangefolderuserinfo class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/exchangefolderuserinfo/exchangefolderuserinfo/
 ---
 ## ExchangeFolderUserInfo constructor
 
-初始化一个新的实例 [`ExchangeFolderUserInfo`](../../exchangefolderuserinfo) 班级
+初始化[`ExchangeFolderUserInfo`](../../exchangefolderuserinfo) class
 
 ```csharp
 public ExchangeFolderUserInfo()

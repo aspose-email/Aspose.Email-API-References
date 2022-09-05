@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует список дат которые являются исключениями для повторяющейся встречи. ОбластьОбщие Каноническое имяPidNameCalendarExceptionDate Альтернативные именаurnschemascalendarexdate
+description: Идентифицирует список дат которые являются исключениями для повторяющейся встречи. Область Common Каноническое имя PidNameCalendarExceptionDate Альтернативные имена urnschemascalendarexdate
 type: docs
 weight: 2250
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarexceptiondate/
 ---
 ## KnownPropertyList.CalendarExceptionDate field
 
-Идентифицирует список дат, которые являются исключениями для повторяющейся встречи. Область:Общие Каноническое имя:PidNameCalendarExceptionDate Альтернативные имена:urn:schemas:calendar:exdate
+Идентифицирует список дат, которые являются исключениями для повторяющейся встречи. Область: Common Каноническое имя: PidNameCalendarExceptionDate Альтернативные имена: urn:schemas:calendar:exdate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarExceptionDate;

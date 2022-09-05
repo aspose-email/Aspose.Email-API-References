@@ -1,14 +1,14 @@
 ---
 title: User
 second_title: Справочник по Aspose.Email для .NET API
-description: Необязательный. Пользователь связанный с этим действием.
+description: Необязательно. Пользователь связанный с этим действием.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.graph/identityset/user/
 ---
 ## IdentitySet.User property
 
-Необязательный. Пользователь, связанный с этим действием.
+Необязательно. Пользователь, связанный с этим действием.
 
 ```csharp
 public Identity User { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbUsnCreated
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_USN_CREATED
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_USN_CREATED
 type: docs
 weight: 9360
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabusncreated/
 ---
 ## KnownPropertyList.EmsAbUsnCreated field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_USN_CREATED
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_USN_CREATED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUsnCreated;

@@ -1,7 +1,7 @@
 ---
 title: Workload
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Office 365 service where the activity occurred.
 type: docs
 weight: 2840
 url: /net/aspose.email.clients.activity/workload/

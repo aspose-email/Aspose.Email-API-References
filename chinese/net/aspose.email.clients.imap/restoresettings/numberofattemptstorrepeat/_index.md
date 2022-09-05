@@ -1,14 +1,14 @@
 ---
 title: NumberOfAttemptsToRrepeat
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果IMAP 客户端尝试根据定义的次数再次重复此操作 例如如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 BODY AE_1_1_0243 NOUNAVAILABLE FETCH 服务暂时不可用 客户端尝试再次执行它
+description: 获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果IMAP 客户端会根据定义的次数尝试再次重复此操作 例如如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 BODY AE_1_1_0243 NOUNAVAILABLE FETCH 服务暂时不可用 客户端尝试再次执行它
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.imap/restoresettings/numberofattemptstorrepeat/
 ---
 ## RestoreSettings.NumberOfAttemptsToRrepeat property
 
-获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端尝试根据定义的次数再次重复此操作。 例如如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。
+获取或设置定义重复失败操作尝试次数的值 如果备份操作中的某些 IMAP 命令返回失败结果，IMAP 客户端会根据定义的次数尝试再次重复此操作。 例如，如果 FETCH 操作返回错误 AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH 服务暂时不可用 客户端尝试再次执行它。
 
 ```csharp
 public int NumberOfAttemptsToRrepeat { get; set; }

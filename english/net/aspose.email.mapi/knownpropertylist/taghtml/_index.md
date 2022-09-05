@@ -1,7 +1,7 @@
 ---
 title: TagHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains message body text in HTML format. Area General Message Properties Canonical name PidTagHtml Alternate names PR_HTML ptagHtml
 type: docs
 weight: 18480
 url: /net/aspose.email.mapi/knownpropertylist/taghtml/

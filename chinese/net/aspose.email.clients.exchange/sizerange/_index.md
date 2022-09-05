@@ -1,14 +1,14 @@
 ---
 title: SizeRange
 second_title: Aspose.Email for .NET API 参考
-description: 表示大小范围
+description: 代表大小范围
 type: docs
 weight: 3580
 url: /zh/net/aspose.email.clients.exchange/sizerange/
 ---
 ## SizeRange class
 
-表示大小范围
+代表大小范围
 
 ```csharp
 public class SizeRange
@@ -18,7 +18,7 @@ public class SizeRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SizeRange](sizerange)() | 初始化一个新的实例 [`SizeRange`](../sizerange) 班级 |
+| [SizeRange](sizerange)() | 初始化[`SizeRange`](../sizerange) class |
 
 ## 特性
 

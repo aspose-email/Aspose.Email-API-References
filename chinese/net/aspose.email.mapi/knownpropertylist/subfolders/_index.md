@@ -1,14 +1,14 @@
 ---
 title: Subfolders
 second_title: Aspose.Email for .NET API 参考
-description: 指定文件夹是否有子文件夹 区域MapiContainer 规范名称PidTagSubfolders 替代名称PR_SUBFOLDERS ptagSubFolders DAVhassubs
+description: 指定文件夹是否有子文件夹 区域MapiContainer 规范名称PidTagSubfolders 备用名称PR_SUBFOLDERSptagSubFoldersDAVhassubs
 type: docs
 weight: 18330
 url: /zh/net/aspose.email.mapi/knownpropertylist/subfolders/
 ---
 ## KnownPropertyList.Subfolders field
 
-指定文件夹是否有子文件夹。 区域:MapiContainer 规范名称:PidTagSubfolders 替代名称:PR_SUBFOLDERS, ptagSubFolders, DAV:hassubs
+指定文件夹是否有子文件夹。 区域：MapiContainer 规范名称：PidTagSubfolders 备用名称：PR_SUBFOLDERS、ptagSubFolders、DAV：hassubs
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Subfolders;

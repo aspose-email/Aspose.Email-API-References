@@ -1,14 +1,14 @@
 ---
 title: MailMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailMessageaspose.email/mailmessage
+description: Инициализирует новый экземплярMailMessageaspose.email/mailmessage класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email/mailmessage/mailmessage/
 ---
 ## MailMessage(string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../mailmessage) класс
 
 ```csharp
 public MailMessage(string from, string to)
@@ -29,7 +29,7 @@ public MailMessage(string from, string to)
 
 ## MailMessage() {#constructor}
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../mailmessage) класс
 
 ```csharp
 public MailMessage()
@@ -45,7 +45,7 @@ public MailMessage()
 
 ## MailMessage(bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../mailmessage) класс
 
 ```csharp
 public MailMessage(bool increaseCredit)
@@ -61,7 +61,7 @@ public MailMessage(bool increaseCredit)
 
 ## MailMessage(string, string, string, string) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../mailmessage) класс
 
 ```csharp
 public MailMessage(string from, string to, string subject, string body)
@@ -84,7 +84,7 @@ public MailMessage(string from, string to, string subject, string body)
 
 ## MailMessage(MailAddress, MailAddress) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../mailmessage) класс
 
 ```csharp
 public MailMessage(MailAddress from, MailAddress to)

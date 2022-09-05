@@ -1,14 +1,14 @@
 ---
 title: ExchangeIntendedBusyStatus
 second_title: Aspose.Email for .NET API 参考
-description: 在会议请求中指定会议的预期忙/闲状态 区域普通 规范名称PidNameExchangeIntendedBusyStatus 备用名称http//schemas.microsoft.com/exchange/intendedbusystatus
+description: 在会议请求中指定会议的预期空闲/忙碌状态 区域Common 规范名称PidNameExchangeIntendedBusyStatus 备用名称http//schemas.microsoft.com/exchange/intendedbusystatus
 type: docs
 weight: 9820
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangeintendedbusystatus/
 ---
 ## KnownPropertyList.ExchangeIntendedBusyStatus field
 
-在会议请求中指定会议的预期忙/闲状态。 区域：普通 规范名称：PidNameExchangeIntendedBusyStatus 备用名称：http://schemas.microsoft.com/exchange/intendedbusystatus
+在会议请求中指定会议的预期空闲/忙碌状态。 区域：Common 规范名称：PidNameExchangeIntendedBusyStatus 备用名称：http://schemas.microsoft.com/exchange/intendedbusystatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeIntendedBusyStatus;

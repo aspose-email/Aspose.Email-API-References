@@ -1,14 +1,14 @@
 ---
 title: ScheduleFolderEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SCHEDULE_FOLDER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SCHEDULE_FOLDER_ENTRYID
 type: docs
 weight: 16700
 url: /ru/net/aspose.email.mapi/knownpropertylist/schedulefolderentryid/
 ---
 ## KnownPropertyList.ScheduleFolderEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SCHEDULE_FOLDER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SCHEDULE_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleFolderEntryid;

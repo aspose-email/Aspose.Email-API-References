@@ -1,7 +1,7 @@
 ---
 title: DueDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Due Date header.
 type: docs
 weight: 60
 url: /net/aspose.email/mhttemplatename.task/duedate/

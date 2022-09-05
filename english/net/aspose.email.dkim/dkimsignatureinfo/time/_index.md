@@ -1,7 +1,7 @@
 ---
 title: Time
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the signature timestamp  the time that this signature was created t. Default null is an unknown creation time.
 type: docs
 weight: 80
 url: /net/aspose.email.dkim/dkimsignatureinfo/time/

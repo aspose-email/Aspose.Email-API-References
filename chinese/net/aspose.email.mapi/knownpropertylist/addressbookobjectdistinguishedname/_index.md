@@ -1,14 +1,14 @@
 ---
 title: AddressBookObjectDistinguishedName
 second_title: Aspose.Email for .NET API 参考
-description: 包含通讯簿对象的 DN 区域地址簿 规范名称PidTagAddressBookObjectDistinguishedName 别名PR_EMS_AB_OBJ_DIST_NAME PR_EMS_AB_OBJ_DIST_NAME_A PR_EMS_AB_OBJ_DIST_NAME_W
+description: 包含通讯簿对象的 DN 区域通讯簿 规范名称PidTagAddressBookObjectDistinguishedName 备用名称PR_EMS_AB_OBJ_DIST_NAMEPR_EMS_AB_OBJ_DIST_NAME_APR_EMS_AB_OBJ_DIST_NAME_W
 type: docs
 weight: 770
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookobjectdistinguishedname/
 ---
 ## KnownPropertyList.AddressBookObjectDistinguishedName field
 
-包含通讯簿对象的 DN。 区域:地址簿 规范名称:PidTagAddressBookObjectDistinguishedName 别名:PR_EMS_AB_OBJ_DIST_NAME, PR_EMS_AB_OBJ_DIST_NAME_A, PR_EMS_AB_OBJ_DIST_NAME_W
+包含通讯簿对象的 DN。 区域：通讯簿 规范名称：PidTagAddressBookObjectDistinguishedName 备用名称：PR_EMS_AB_OBJ_DIST_NAME、PR_EMS_AB_OBJ_DIST_NAME_A、PR_EMS_AB_OBJ_DIST_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookObjectDistinguishedName;

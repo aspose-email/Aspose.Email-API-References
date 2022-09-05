@@ -1,12 +1,12 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the WeeklyRecurrencePatternaspose.email.calendar.recurrences/weeklyrecurrencepattern class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/weeklyrecurrencepattern/
 ---
-## WeeklyRecurrencePattern constructor (1 of 4)
+## WeeklyRecurrencePattern(DateTime) {#constructor_2}
 
 Initializes a new instance of the [`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) class.
 
@@ -26,7 +26,7 @@ public WeeklyRecurrencePattern(DateTime endDate)
 
 ---
 
-## WeeklyRecurrencePattern constructor (2 of 4)
+## WeeklyRecurrencePattern(int) {#constructor}
 
 Initializes a new instance of the [`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) class.
 
@@ -46,7 +46,7 @@ public WeeklyRecurrencePattern(int occurs)
 
 ---
 
-## WeeklyRecurrencePattern constructor (3 of 4)
+## WeeklyRecurrencePattern(DateTime, int) {#constructor_3}
 
 Initializes a new instance of the [`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) class.
 
@@ -67,7 +67,7 @@ public WeeklyRecurrencePattern(DateTime endDate, int interval)
 
 ---
 
-## WeeklyRecurrencePattern constructor (4 of 4)
+## WeeklyRecurrencePattern(int, int) {#constructor_1}
 
 Initializes a new instance of the [`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern) class.
 

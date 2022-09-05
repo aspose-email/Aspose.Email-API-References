@@ -1,14 +1,14 @@
 ---
 title: PipeliningEnabled
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение определяющее включен ли режим конвейерной обработки.
+description: Получает значение определяющее включен ли конвейерный режим.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients/pipeliningstatus/pipeliningenabled/
 ---
 ## PipeliningStatus.PipeliningEnabled property
 
-Получает значение, определяющее, включен ли режим конвейерной обработки.
+Получает значение, определяющее, включен ли конвейерный режим.
 
 ```csharp
 public bool PipeliningEnabled { get; }

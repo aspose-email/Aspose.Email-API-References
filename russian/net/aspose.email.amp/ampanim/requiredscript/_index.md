@@ -1,14 +1,14 @@
 ---
 title: RequiredScript
 second_title: Справочник по Aspose.Email для .NET API
-description: Необходимый скрипт который необходимо добавить в раздел head.
+description: Обязательный скрипт который необходимо добавить в раздел head.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.amp/ampanim/requiredscript/
 ---
 ## AmpAnim.RequiredScript property
 
-Необходимый скрипт, который необходимо добавить в раздел head.
+Обязательный скрипт, который необходимо добавить в раздел head.
 
 ```csharp
 public override string RequiredScript { get; }

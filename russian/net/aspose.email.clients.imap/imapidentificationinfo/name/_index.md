@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя программы
+description: Название программы
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/name/
 ---
 ## ImapIdentificationInfo.Name property
 
-Имя программы
+Название программы
 
 ```csharp
 public string Name { get; set; }

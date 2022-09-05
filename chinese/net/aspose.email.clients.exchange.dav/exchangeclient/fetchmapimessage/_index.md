@@ -1,14 +1,14 @@
 ---
 title: FetchMapiMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取具有指定 uri 的 mapi 消息
+description: 使用指定的 uri 获取 mapi 消息
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/fetchmapimessage/
 ---
 ## ExchangeClient.FetchMapiMessage method
 
-获取具有指定 uri 的 mapi 消息。
+使用指定的 uri 获取 mapi 消息。
 
 ```csharp
 public MapiMessage FetchMapiMessage(string messageUri)
@@ -20,13 +20,13 @@ public MapiMessage FetchMapiMessage(string messageUri)
 
 ### 返回值
 
-A[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象包含消息。
+一个[`MapiMessage`](../../../aspose.email.mapi/mapimessage)对象包含消息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*为空 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*一片空白 |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是空字符串 |
 
 ### 也可以看看

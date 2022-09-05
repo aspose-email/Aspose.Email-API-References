@@ -1,14 +1,14 @@
 ---
 title: Commands
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит операции которые применяются к коллекции. Доступные операцииДобавить Удалить Изменить Мягкое удаление.
+description: Содержит операции которые применяются к коллекции. Доступные операции Добавить Удалить Изменить Мягкое удаление.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands/
 ---
 ## SyncCollectionResponse.Commands property
 
-Содержит операции, которые применяются к коллекции. Доступные операции:«Добавить», «Удалить», «Изменить», «Мягкое удаление».
+Содержит операции, которые применяются к коллекции. Доступные операции: «Добавить», «Удалить», «Изменить», «Мягкое удаление».
 
 ```csharp
 public SyncCommandsResponse Commands { get; set; }

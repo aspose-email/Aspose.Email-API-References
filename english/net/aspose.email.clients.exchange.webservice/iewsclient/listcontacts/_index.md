@@ -1,12 +1,12 @@
 ---
 title: ListContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists contacts located in the specified folder on server
 type: docs
 weight: 1090
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listcontacts/
 ---
-## IEWSClient.ListContacts method (1 of 2)
+## ListContacts(string) {#listcontacts}
 
 Lists contacts located in the specified folder on server
 
@@ -31,7 +31,7 @@ An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that re
 
 ---
 
-## IEWSClient.ListContacts method (2 of 2)
+## ListContacts(string, IEnumerable&lt;PropertyDescriptor&gt;) {#listcontacts_1}
 
 Lists contacts located in the specified folder on server
 

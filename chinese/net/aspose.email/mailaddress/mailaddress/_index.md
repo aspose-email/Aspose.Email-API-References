@@ -1,14 +1,14 @@
 ---
 title: MailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailAddressaspose.email/mailaddress类的新实例
+description: 初始化MailAddressaspose.email/mailaddress类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mailaddress/mailaddress/
 ---
 ## MailAddress(string, bool) {#constructor_1}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address, bool ignoreSmtpCheck)
@@ -17,7 +17,7 @@ public MailAddress(string address, bool ignoreSmtpCheck)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | address | String | 邮件地址。 |
-| ignoreSmtpCheck | Boolean | 如果设置为` true` 则将省略 SMTP 检查。 |
+| ignoreSmtpCheck | Boolean | 如果设置为`真的`那么 SMTP 检查将被省略。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public MailAddress(string address, bool ignoreSmtpCheck)
 
 ## MailAddress(string, string, bool) {#constructor_3}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address, string displayName, bool ignoreSmtpCheck)
@@ -39,7 +39,7 @@ public MailAddress(string address, string displayName, bool ignoreSmtpCheck)
 | --- | --- | --- |
 | address | String | 邮件地址。 |
 | displayName | String | 显示名称。 |
-| ignoreSmtpCheck | Boolean | 如果设置为` true` 则将省略 SMTP 检查。 |
+| ignoreSmtpCheck | Boolean | 如果设置为`真的`那么 SMTP 检查将被省略。 |
 
 ### 也可以看看
 
@@ -51,7 +51,7 @@ public MailAddress(string address, string displayName, bool ignoreSmtpCheck)
 
 ## MailAddress(string, string, Encoding) {#constructor_4}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address, string displayName, Encoding displayNameEncoding)
@@ -73,7 +73,7 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 ## MailAddress(string, string, Encoding, bool) {#constructor_5}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address, string displayName, Encoding displayNameEncoding, 
@@ -85,7 +85,7 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 | address | String | 邮件地址。 |
 | displayName | String | 显示名称。 |
 | displayNameEncoding | Encoding | 显示名称编码。 |
-| ignoreSmtpCheck | Boolean | 如果设置为` true` 则将省略 SMTP 检查。 |
+| ignoreSmtpCheck | Boolean | 如果设置为`真的`那么 SMTP 检查将被省略。 |
 
 ### 也可以看看
 
@@ -97,7 +97,7 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 ## MailAddress(string) {#constructor}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address)
@@ -117,7 +117,7 @@ public MailAddress(string address)
 
 ## MailAddress(string, string) {#constructor_2}
 
-初始化[`MailAddress`](../../mailaddress)类的新实例。
+初始化[`MailAddress`](../../mailaddress)类.
 
 ```csharp
 public MailAddress(string address, string displayName)

@@ -1,14 +1,14 @@
 ---
 title: DelegateFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает могут ли делегаты просматривать объекты Message помеченные как частные. ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagDelegateFlags Альтернативные именаPR_DELEGATE_FLAGS ptagDelegateFlags
+description: Указывает могут ли делегаты просматривать объекты Message которые помечены как частные.
 type: docs
 weight: 3830
 url: /ru/net/aspose.email.mapi/knownpropertylist/delegateflags/
 ---
 ## KnownPropertyList.DelegateFlags field
 
-Указывает, могут ли делегаты просматривать объекты Message, помеченные как частные. Область:MessageClassDefinedTransmittable Каноническое имя:PidTagDelegateFlags Альтернативные имена:PR_DELEGATE_FLAGS, ptagDelegateFlags
+Указывает, могут ли делегаты просматривать объекты Message, которые помечены как частные.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DelegateFlags;

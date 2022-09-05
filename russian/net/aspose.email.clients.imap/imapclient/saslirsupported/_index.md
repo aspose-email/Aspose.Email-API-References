@@ -1,14 +1,14 @@
 ---
 title: SaslIrSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение SASL Initial Client Response Подробнееhttps//tools.ietf.org/html/rfc4959
+description: Получает информацию о том поддерживается ли расширение SASL Initial Client Response Подробнее https//tools.ietf.org/html/rfc4959
 type: docs
 weight: 240
 url: /ru/net/aspose.email.clients.imap/imapclient/saslirsupported/
 ---
 ## ImapClient.SaslIrSupported property
 
-Получает информацию о том, поддерживается ли расширение SASL Initial Client Response Подробнее:https://tools.ietf.org/html/rfc4959
+Получает информацию о том, поддерживается ли расширение SASL Initial Client Response Подробнее: https://tools.ietf.org/html/rfc4959
 
 ```csharp
 public bool SaslIrSupported { get; set; }

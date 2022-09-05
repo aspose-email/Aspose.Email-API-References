@@ -1,14 +1,14 @@
 ---
 title: MailFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Корень почтовых папок
+description: Почтовые папки root
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.graph/knownfolders/mailfolders/
 ---
 ## KnownFolders.MailFolders field
 
-Корень почтовых папок
+Почтовые папки root
 
 ```csharp
 public static readonly string MailFolders;

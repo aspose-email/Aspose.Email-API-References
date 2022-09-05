@@ -1,14 +1,14 @@
 ---
 title: CreateLogger
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定名称和附加程序的记录器
+description: 创建一个具有指定名称和附加程序的记录器
 type: docs
 weight: 30
 url: /zh/net/aspose.email.tools.logging/loggermanager/createlogger/
 ---
 ## CreateLogger(string, Appender) {#createlogger}
 
-创建具有指定名称和附加程序的记录器。
+创建一个具有指定名称和附加程序的记录器。
 
 ```csharp
 public static Logger CreateLogger(string name, Appender appender)
@@ -17,7 +17,7 @@ public static Logger CreateLogger(string name, Appender appender)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 记录器名称。 |
-| appender | Appender | 附加程序。 |
+| appender | Appender | 附加器。 |
 
 ### 返回值
 
@@ -35,7 +35,7 @@ public static Logger CreateLogger(string name, Appender appender)
 
 ## CreateLogger(string, params Appender[]) {#createlogger_1}
 
-创建具有指定名称和附加程序的记录器。
+创建一个具有指定名称和附加程序的记录器。
 
 ```csharp
 public static Logger CreateLogger(string name, params Appender[] appenders)
@@ -44,7 +44,7 @@ public static Logger CreateLogger(string name, params Appender[] appenders)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 记录器名称。 |
-| appenders | Appender[] | 附加程序。 |
+| appenders | Appender[] | 附加器。 |
 
 ### 返回值
 
@@ -62,7 +62,7 @@ public static Logger CreateLogger(string name, params Appender[] appenders)
 
 ## CreateLogger(string, LogLevel, Appender) {#createlogger_2}
 
-创建具有指定名称和附加程序的记录器。
+创建一个具有指定名称和附加程序的记录器。
 
 ```csharp
 public static Logger CreateLogger(string name, LogLevel severity, Appender appender)
@@ -72,7 +72,7 @@ public static Logger CreateLogger(string name, LogLevel severity, Appender appen
 | --- | --- | --- |
 | name | String | 记录器名称。 |
 | severity | LogLevel | 严重性。 |
-| appender | Appender | 附加程序。 |
+| appender | Appender | 附加器。 |
 
 ### 返回值
 
@@ -91,7 +91,7 @@ public static Logger CreateLogger(string name, LogLevel severity, Appender appen
 
 ## CreateLogger(string, LogLevel, params Appender[]) {#createlogger_3}
 
-创建具有指定名称和附加程序的记录器。
+创建一个具有指定名称和附加程序的记录器。
 
 ```csharp
 public static Logger CreateLogger(string name, LogLevel severity, params Appender[] appenders)

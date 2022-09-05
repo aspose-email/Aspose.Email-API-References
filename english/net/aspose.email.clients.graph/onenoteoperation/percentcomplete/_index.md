@@ -1,7 +1,7 @@
 ---
 title: PercentComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The operation percent complete if the operation is still in running status
 type: docs
 weight: 80
 url: /net/aspose.email.clients.graph/onenoteoperation/percentcomplete/

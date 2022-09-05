@@ -1,7 +1,7 @@
 ---
 title: Depth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of nested categories in which a given row is contained. Area MapiCommon Canonical name PidTagDepth Alternate names PR_DEPTH ptagDepth
 type: docs
 weight: 4010
 url: /net/aspose.email.mapi/knownpropertylist/depth/

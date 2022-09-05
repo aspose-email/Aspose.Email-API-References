@@ -1,7 +1,7 @@
 ---
 title: ListSubFoldersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of child folders from parent
 type: docs
 weight: 480
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersasync/

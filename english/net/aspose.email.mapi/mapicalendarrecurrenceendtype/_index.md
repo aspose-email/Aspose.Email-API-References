@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the ending type for the recurrence.
 type: docs
-weight: 17860
+weight: 18060
 url: /net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 ## MapiCalendarRecurrenceEndType enumeration

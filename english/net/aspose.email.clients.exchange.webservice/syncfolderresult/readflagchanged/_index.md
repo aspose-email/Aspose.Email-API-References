@@ -1,7 +1,7 @@
 ---
 title: ReadFlagChanged
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Collection of pairs of item uri and readflag for items whose read flag has been changed.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice/syncfolderresult/readflagchanged/

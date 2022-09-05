@@ -1,14 +1,14 @@
 ---
 title: EmsAbTransTimeoutMins
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_TRANS_TIMEOUT_MINS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_TRANS_TIMEOUT_MINS
 type: docs
 weight: 9220
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtranstimeoutmins/
 ---
 ## KnownPropertyList.EmsAbTransTimeoutMins field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_TRANS_TIMEOUT_MINS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_TRANS_TIMEOUT_MINS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTransTimeoutMins;

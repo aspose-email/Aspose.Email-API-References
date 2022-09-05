@@ -1,14 +1,14 @@
 ---
 title: ListMessagesByPage
 second_title: Aspose.Email for .NET API 参考
-description: 列出指定文件夹中的消息
+description: 列出指定文件夹中的邮件
 type: docs
 weight: 1150
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/listmessagesbypage/
 ---
 ## ListMessagesByPage(string, int) {#listmessagesbypage_4}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPage)
@@ -16,12 +16,12 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| itemsPerPage | Int32 | 页面 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)中的许多项目包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ## ListMessagesByPage(string, MailQuery, int) {#listmessagesbypage_2}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query, int itemsPerPage)
@@ -42,13 +42,13 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
+| folder | String | 用于搜索邮件的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 ## ListMessagesByPage(string, int, int) {#listmessagesbypage_5}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPage, int offset)
@@ -70,13 +70,13 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| itemsPerPage | Int32 | 页面中的许多项目 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | offset | Int32 | 视图中下一页的偏移量 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -89,7 +89,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ## ListMessagesByPage(string, MailQuery, int, int) {#listmessagesbypage_3}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query, int itemsPerPage, 
@@ -98,14 +98,14 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
+| folder | String | 用于搜索邮件的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
 | offset | Int32 | 视图中下一页的偏移量 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -119,7 +119,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 
 ## ListMessagesByPage(string, int, int, ExchangeListMessagesOptions) {#listmessagesbypage_6}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPage, int pageOffset, 
@@ -128,14 +128,14 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| itemsPerPage | Int32 | 页面中的许多项目 |
-| pageOffset | Int32 | 视图中下一个项目的偏移量 |
-| options | ExchangeListMessagesOptions | 指定列表设置 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| pageOffset | Int32 | 视图中下一项的偏移量 |
+| options | ExchangeListMessagesOptions | 指定列表的设置 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -149,7 +149,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ## ListMessagesByPage(string, PageInfo) {#listmessagesbypage}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageInfo)
@@ -157,12 +157,12 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| pageInfo | PageInfo | 页面信息 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| pageInfo | PageInfo | 一页信息 |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的消息。
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件。
 
 ### 也可以看看
 
@@ -176,7 +176,7 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 ## ListMessagesByPage(string, PageInfo, ExchangeListMessagesOptions) {#listmessagesbypage_1}
 
-列出指定文件夹中的消息。
+列出指定文件夹中的邮件。
 
 ```csharp
 public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageInfo, 
@@ -185,9 +185,9 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 用于在其中搜索邮件的文件夹。 |
-| pageInfo | PageInfo | 页面信息 |
-| options | ExchangeListMessagesOptions | 指定列表设置 |
+| folder | String | 用于搜索邮件的文件夹。 |
+| pageInfo | PageInfo | 一页信息 |
+| options | ExchangeListMessagesOptions | 指定列表的设置 |
 
 ### 返回值
 

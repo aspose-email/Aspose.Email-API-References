@@ -3,7 +3,7 @@ title: EnumComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示枚举搜索字段
 type: docs
-weight: 20660
+weight: 20710
 url: /zh/net/aspose.email.tools.search/enumcomparisonfield/
 ---
 ## EnumComparisonField class
@@ -19,9 +19,9 @@ public sealed class EnumComparisonField : ComparisonField
 | 姓名 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/enumcomparisonfield/equals#equals)(Enum) | 表示消息中的字段必须等于指定的值。 |
-| [In](../../aspose.email.tools.search/enumcomparisonfield/in)(IEnumerable) | 表示 message 中的字段 vlaue 必须在指定值列表中。 |
+| [In](../../aspose.email.tools.search/enumcomparisonfield/in)(IEnumerable) | 表示消息中的字段 vlaue 必须在指定值列表中。 |
 | [NotEquals](../../aspose.email.tools.search/enumcomparisonfield/notequals)(Enum) | 表示消息中的字段不能等于指定的值。 |
-| [NotIn](../../aspose.email.tools.search/enumcomparisonfield/notin)(IEnumerable) | 表示 message 中的字段 vlaue 不得在指定值列表中。 |
+| [NotIn](../../aspose.email.tools.search/enumcomparisonfield/notin)(IEnumerable) | 表示消息中的字段 vlaue 不能在指定值列表中。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 
 ### 也可以看看

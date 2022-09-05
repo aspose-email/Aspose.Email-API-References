@@ -1,14 +1,14 @@
 ---
 title: Category
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的类别 区域普通 规范名称PidNameCategory 替代名称urnschemas-microsoft-comofficeofficeCategory
+description: 指定附加到文档对象的文件的类别 区域Common 规范名称PidNameCategory 备用名称urnschemas-microsoft-comofficeofficeCategory
 type: docs
 weight: 2520
 url: /zh/net/aspose.email.mapi/knownpropertylist/category/
 ---
 ## KnownPropertyList.Category field
 
-指定附加到 Document 对象的文件的类别。 区域：普通 规范名称：PidNameCategory 替代名称：urn:schemas-microsoft-com:office:office#Category
+指定附加到文档对象的文件的类别。 区域：Common 规范名称：PidNameCategory 备用名称：urn:schemas-microsoft-com:office:office#Category
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Category;

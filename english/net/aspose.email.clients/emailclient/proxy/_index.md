@@ -1,7 +1,7 @@
 ---
 title: Proxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets proxy for the client
 type: docs
 weight: 150
 url: /net/aspose.email.clients/emailclient/proxy/

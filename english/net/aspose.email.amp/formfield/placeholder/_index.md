@@ -1,7 +1,7 @@
 ---
 title: Placeholder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set placeholder of field.
 type: docs
 weight: 70
 url: /net/aspose.email.amp/formfield/placeholder/

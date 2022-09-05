@@ -1,14 +1,14 @@
 ---
 title: AllAttendeesString
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает список всех участников кроме организатора включая ресурсы и неотправляемых участников. ОбластьВстречи Каноническое имяPidLidAllAttendeesString Альтернативные именаdispidAllAttendeesString
+description: Указывает список всех участников кроме организатора включая ресурсы и участников которых нельзя отправить. Область Meetings Каноническое имя PidLidAllAttendeesString Альтернативные имена dispidAllAttendeesString
 type: docs
 weight: 1040
 url: /ru/net/aspose.email.mapi/knownpropertylist/allattendeesstring/
 ---
 ## KnownPropertyList.AllAttendeesString field
 
-Указывает список всех участников, кроме организатора, включая ресурсы и неотправляемых участников. Область:Встречи Каноническое имя:PidLidAllAttendeesString Альтернативные имена:dispidAllAttendeesString
+Указывает список всех участников, кроме организатора, включая ресурсы и участников, которых нельзя отправить. Область: Meetings Каноническое имя: PidLidAllAttendeesString Альтернативные имена: dispidAllAttendeesString
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AllAttendeesString;

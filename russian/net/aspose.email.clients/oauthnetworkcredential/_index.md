@@ -18,19 +18,19 @@ public class OAuthNetworkCredential : NetworkCredential
 
 | Имя | Описание |
 | --- | --- |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_1)(ITokenProvider) | Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../oauthnetworkcredential) |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_2)(string) | Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../oauthnetworkcredential) |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor)(IAsyncTokenProvider, string) | Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../oauthnetworkcredential) |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_3)(string, ITokenProvider) | Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../oauthnetworkcredential) |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_4)(string, string) | Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../oauthnetworkcredential) |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_1)(ITokenProvider) | Инициализирует новый экземпляр[`OAuthNetworkCredential`](../oauthnetworkcredential) класс |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_2)(string) | Инициализирует новый экземпляр[`OAuthNetworkCredential`](../oauthnetworkcredential) класс |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor)(IAsyncTokenProvider, string) | Инициализирует новый экземпляр[`OAuthNetworkCredential`](../oauthnetworkcredential) класс |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_3)(string, ITokenProvider) | Инициализирует новый экземпляр[`OAuthNetworkCredential`](../oauthnetworkcredential) класс |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_4)(string, string) | Инициализирует новый экземпляр[`OAuthNetworkCredential`](../oauthnetworkcredential) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AccessToken](../../aspose.email.clients/oauthnetworkcredential/accesstoken) { get; } | Получает токен доступа OAuth 2.0. |
-| [AsyncTokenProvider](../../aspose.email.clients/oauthnetworkcredential/asynctokenprovider) { get; } | Получает поставщика асинхронного токена. |
-| [TokenProvider](../../aspose.email.clients/oauthnetworkcredential/tokenprovider) { get; } | Получает поставщика маркера. |
+| [AsyncTokenProvider](../../aspose.email.clients/oauthnetworkcredential/asynctokenprovider) { get; } | Получает провайдера асинхронного токена. |
+| [TokenProvider](../../aspose.email.clients/oauthnetworkcredential/tokenprovider) { get; } | Получает поставщика токена. |
 
 ### Смотрите также
 

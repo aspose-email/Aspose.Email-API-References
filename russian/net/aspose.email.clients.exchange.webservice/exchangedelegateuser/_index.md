@@ -18,15 +18,15 @@ public sealed class ExchangeDelegateUser
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeDelegateUser](exchangedelegateuser#constructor)() | Инициализирует новый экземпляр класса[`ExchangeDelegateUser`](../exchangedelegateuser) |
-| [ExchangeDelegateUser](exchangedelegateuser#constructor_1)(string, ExchangeDelegateFolderPermissionLevel) | Инициализирует новый экземпляр класса[`ExchangeDelegateUser`](../exchangedelegateuser)для указанного пользователя и устанавливает указанный уровень разрешений для всех папок |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor)() | Инициализирует новый экземпляр[`ExchangeDelegateUser`](../exchangedelegateuser) класс |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor_1)(string, ExchangeDelegateFolderPermissionLevel) | Инициализирует новый экземпляр[`ExchangeDelegateUser`](../exchangedelegateuser) класс для указанного пользователя и устанавливает указанный уровень разрешений для всех папок |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FolderPermissions](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/folderpermissions) { get; set; } | Получает или устанавливает права доступа к папке для пользователя-делегата |
-| [Options](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/options) { get; set; } | Получает или устанавливает дополнительные параметры |
+| [FolderPermissions](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/folderpermissions) { get; set; } | Получает или задает права доступа к папке для делегата user |
+| [Options](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/options) { get; set; } | Получает или задает дополнительные параметры |
 | [UserInfo](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/userinfo) { get; set; } | Получает или устанавливает информацию о пользователе |
 
 ### Смотрите также

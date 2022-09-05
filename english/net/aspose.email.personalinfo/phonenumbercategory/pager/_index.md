@@ -1,7 +1,7 @@
 ---
 title: Pager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Pager number
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/phonenumbercategory/pager/

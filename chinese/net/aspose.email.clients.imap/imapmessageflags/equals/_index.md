@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API 参考
-description: 确定指定的Object是否等于此实例
+description: 判断是否指定Object等于这个实例
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/equals/
 ---
 ## Equals(object) {#equals_1}
 
-确定指定的Object是否等于此实例。
+判断是否指定Object等于这个实例。
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,17 +16,17 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Object与此实例进行比较。 |
+| obj | Object | 这Object与此实例进行比较。 |
 
 ### 返回值
 
-` true` 如果指定的Object是等于这个实例；否则，` false` 。
+`真的`如果指定Object等于这个实例；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NullReferenceException | *obj*参数为空。 |
+| NullReferenceException | 的*obj*参数为空。 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public override bool Equals(object obj)
 
 ## Equals(ImapMessageFlags) {#equals}
 
-判断指定对象是否等于当前对象。
+判断指定对象是否等于当前对象
 
 ```csharp
 public virtual bool Equals(ImapMessageFlags other)
@@ -46,11 +46,11 @@ public virtual bool Equals(ImapMessageFlags other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | ImapMessageFlags | 与当前对象比较的对象。 |
+| other | ImapMessageFlags | 要与当前对象进行比较的对象。 |
 
 ### 返回值
 
-如果指定对象等于当前对象则为真；否则为假。
+如果指定对象等于当前对象，则为 true；否则为假。
 
 ### 也可以看看
 

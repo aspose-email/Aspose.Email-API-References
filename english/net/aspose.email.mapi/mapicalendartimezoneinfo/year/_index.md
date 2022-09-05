@@ -1,7 +1,7 @@
 ---
 title: Year
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the year in which this rule is scheduled to take effect.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/year/

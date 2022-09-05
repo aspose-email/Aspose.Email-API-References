@@ -1,7 +1,7 @@
 ---
 title: CalendarRecurrenceIdRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies which instances of a recurring appointment are being referred to. Area Common Canonical name PidNameCalendarRecurrenceIdRange Alternate names urnschemascalendarrecurrenceidrange
 type: docs
 weight: 2360
 url: /net/aspose.email.mapi/knownpropertylist/calendarrecurrenceidrange/

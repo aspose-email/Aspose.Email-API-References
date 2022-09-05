@@ -1,7 +1,7 @@
 ---
 title: Section
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Element of AmpAccordion.
 type: docs
 weight: 210
 url: /net/aspose.email.amp/section/

@@ -1,14 +1,14 @@
 ---
 title: TimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет исключение которое выдается по истечении времени выполнения операции.
+description: Представляет исключение которое выдается когда время операции истекло.
 type: docs
-weight: 20340
+weight: 20390
 url: /ru/net/aspose.email/timeoutexception/
 ---
 ## TimeoutException class
 
-Представляет исключение, которое выдается по истечении времени выполнения операции.
+Представляет исключение, которое выдается, когда время операции истекло.
 
 ```csharp
 public class TimeoutException : AsposeException
@@ -18,10 +18,10 @@ public class TimeoutException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [TimeoutException](timeoutexception#constructor)() | Инициализирует новый экземпляр класса[`TimeoutException`](../timeoutexception). |
-| [TimeoutException](timeoutexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`TimeoutException`](../timeoutexception). |
+| [TimeoutException](timeoutexception#constructor)() | Инициализирует новый экземпляр[`TimeoutException`](../timeoutexception) класс. |
+| [TimeoutException](timeoutexception#constructor_1)(string) | Инициализирует новый экземпляр[`TimeoutException`](../timeoutexception) класс. |
 | [TimeoutException](timeoutexception#constructor_2)(string, int) |  |
-| [TimeoutException](timeoutexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр класса[`TimeoutException`](../timeoutexception). |
+| [TimeoutException](timeoutexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр[`TimeoutException`](../timeoutexception) класс. |
 | [TimeoutException](timeoutexception#constructor_4)(string, string, int) |  |
 
 ## Характеристики

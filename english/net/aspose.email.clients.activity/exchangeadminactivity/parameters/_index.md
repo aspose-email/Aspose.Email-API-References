@@ -1,7 +1,7 @@
 ---
 title: Parameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name and value for all parameters that were used with the cmdlet that is identified in the Operations property.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/exchangeadminactivity/parameters/

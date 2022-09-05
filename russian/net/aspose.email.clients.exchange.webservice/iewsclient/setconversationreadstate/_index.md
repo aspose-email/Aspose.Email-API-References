@@ -16,14 +16,14 @@ public void SetConversationReadState(string conversationId, bool isRead)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор диалога, который необходимо изменить |
-| isRead | Boolean | Флаг, позволяющий установить состояние чтения элементов в диалоге. |
+| conversationId | String | Идентификатор разговора, который нужно изменить |
+| isRead | Boolean | Флаг, который позволяет установить состояние чтения элементов в диалоге. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -43,15 +43,15 @@ public void SetConversationReadState(string conversationId, string contextFolder
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор изменяемой беседы |
-| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если для него установлено значение null (или пусто), все элементы беседы будут скопированы |
-| isRead | Boolean | Флаг, позволяющий установить состояние чтения элементов беседы. |
+| conversationId | String | Идентификатор разговора, который нужно изменить |
+| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если для него установлено значение null (или пусто), все элементы беседы будут скопированы. |
+| isRead | Boolean | Флаг, который позволяет установить состояние чтения элементов в диалоге. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

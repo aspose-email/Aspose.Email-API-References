@@ -1,14 +1,14 @@
 ---
 title: TagHtml
 second_title: Aspose.Email for .NET API 参考
-description: 包含 HTML 格式的邮件正文 区域常规消息属性 规范名称PidTagHtml 替代名称PR_HTML ptagHtml
+description: 包含 HTML 格式的消息正文 区域常规消息属性 规范名称PidTagHtml 替代名称PR_HTMLptagHtml
 type: docs
 weight: 18480
 url: /zh/net/aspose.email.mapi/knownpropertylist/taghtml/
 ---
 ## KnownPropertyList.TagHtml field
 
-包含 HTML 格式的邮件正文。 区域:常规消息属性 规范名称:PidTagHtml 替代名称:PR_HTML, ptagHtml
+包含 HTML 格式的消息正文。 区域：常规消息属性 规范名称：PidTagHtml 替代名称：PR_HTML、ptagHtml
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagHtml;

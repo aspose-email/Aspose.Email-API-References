@@ -1,14 +1,14 @@
 ---
 title: FindPeople
 second_title: Aspose.Email for .NET API 参考
-description: 在服务器上查找位于全局地址列表 GAL 中的联系人
+description: 在服务器上的全局地址列表 GAL 中查找联系人
 type: docs
 weight: 860
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/findpeople/
 ---
 ## FindPeople(string, int) {#findpeople_1}
 
-在服务器上查找位于全局地址列表 (GAL) 中的联系人。
+在服务器上的全局地址列表 (GAL) 中查找联系人。
 
 ```csharp
 public Contact[] FindPeople(string queryString, int maxNumberOfItems)
@@ -21,7 +21,7 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)表示联系信息的数组
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 
 ## FindPeople(string, MailQuery, int) {#findpeople}
 
-在服务器上查找位于指定用户个人邮箱中的联系人。
+查找位于服务器上指定用户个人邮箱中的联系人。
 
 ```csharp
 public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfItems)
@@ -48,7 +48,7 @@ public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfIt
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)表示联系信息的数组
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 

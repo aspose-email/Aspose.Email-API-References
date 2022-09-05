@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the aggregated importance for all conversation items in the current folder.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/importance/

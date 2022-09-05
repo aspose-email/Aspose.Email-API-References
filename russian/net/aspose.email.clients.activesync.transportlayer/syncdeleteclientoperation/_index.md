@@ -27,13 +27,13 @@ public class SyncDeleteClientOperation
 | Имя | Описание |
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/class) { get; set; } | Идентифицирует класс элемента, добавляемого в коллекцию. Используется только в ответах сервера. |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/serverid) { get; set; } | Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/serverid) { get; set; } | Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/op_implicit) | Преобразует идентификатор сервера в объект SyncDeleteClientOperation |
+| [implicit operator](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/op_implicit) | Преобразует идентификатор сервера в SyncDeleteClientOperation object |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: MessageKind
 second_title: Aspose.Email for .NET API 参考
 description: 表示 pst 中不同种类的消息
 type: docs
-weight: 20220
+weight: 20270
 url: /zh/net/aspose.email.storage.pst/messagekind/
 ---
 ## MessageKind enumeration
@@ -19,7 +19,7 @@ public enum MessageKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Normal | `1` | 表示正常消息。 |
+| Normal | `1` | 代表正常的消息。 |
 | FolderAssociatedInformation | `2` | 表示文件夹关联信息 (FAI) 消息对象。 它存储在文件夹对象中，通常被电子邮件应用程序隐藏起来。 FAI 消息对象用于存储各种设置和辅助数据， 包括视图、表单、收藏夹、日历选项和类别列表。 |
 
 ### 也可以看看

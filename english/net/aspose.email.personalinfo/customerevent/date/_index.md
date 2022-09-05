@@ -1,7 +1,7 @@
 ---
 title: Date
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a date and time for an event.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/customerevent/date/

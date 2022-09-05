@@ -1,14 +1,14 @@
 ---
 title: ESearchSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение ESEARCH Подробнееhttps//tools.ietf.org/html/rfc4731
+description: Получает информацию о том поддерживается ли расширение ESEARCH Подробнее https//tools.ietf.org/html/rfc4731
 type: docs
 weight: 130
 url: /ru/net/aspose.email.clients.imap/imapclient/esearchsupported/
 ---
 ## ImapClient.ESearchSupported property
 
-Получает информацию о том, поддерживается ли расширение ESEARCH Подробнее:https://tools.ietf.org/html/rfc4731
+Получает информацию о том, поддерживается ли расширение ESEARCH Подробнее: https://tools.ietf.org/html/rfc4731
 
 ```csharp
 public bool ESearchSupported { get; set; }

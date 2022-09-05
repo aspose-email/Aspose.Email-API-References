@@ -1,14 +1,14 @@
 ---
 title: SenderIp
 second_title: Aspose.Email for .NET API 参考
-description: 提交 Office 365 电子邮件的 IP 地址IP 地址以 IPv4 或 IPv6 地址格式显示 强制是
+description: 提交Office 365 邮件的IP 地址IP 地址以IPv4 或IPv6 地址格式显示 必填是
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/senderip/
 ---
 ## O365EmailMessageActivity.SenderIp property
 
-提交 Office 365 电子邮件的 IP 地址。IP 地址以 IPv4 或 IPv6 地址格式显示。 强制:是
+提交Office 365 邮件的IP 地址。IP 地址以IPv4 或IPv6 地址格式显示。 必填：是
 
 ```csharp
 public string SenderIp { get; set; }

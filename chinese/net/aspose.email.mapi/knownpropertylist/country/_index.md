@@ -1,14 +1,14 @@
 ---
 title: Country
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户所在国家/地区的名称 区域联系人属性 规范名称PidTagCountry 别名PR_COUNTRY PR_COUNTRY_A PR_COUNTRY_W PR_BUSINESS_ADDRESS_COUNTRY PR_BUSINESS_ADDRESS_COUNTRY_A
+description: 包含邮件用户所在国家/地区的名称 区域联系人属性 规范名称PidTagCountry 备用名称PR_COUNTRYPR_COUNTRY_APR_COUNTRY_WPR_BUSINESS_ADDRESS_COUNTRYPR_BUSINESS_ADDRESS_COUNTRY_A
 type: docs
 weight: 3510
 url: /zh/net/aspose.email.mapi/knownpropertylist/country/
 ---
 ## KnownPropertyList.Country field
 
-包含邮件用户所在国家/地区的名称。 区域:联系人属性 规范名称:PidTagCountry 别名:PR_COUNTRY, PR_COUNTRY_A, PR_COUNTRY_W, PR_BUSINESS_ADDRESS_COUNTRY, PR_BUSINESS_ADDRESS_COUNTRY_A,
+包含邮件用户所在国家/地区的名称。 区域：联系人属性 规范名称：PidTagCountry 备用名称：PR_COUNTRY、PR_COUNTRY_A、PR_COUNTRY_W、PR_BUSINESS_ADDRESS_COUNTRY、PR_BUSINESS_ADDRESS_COUNTRY_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Country;

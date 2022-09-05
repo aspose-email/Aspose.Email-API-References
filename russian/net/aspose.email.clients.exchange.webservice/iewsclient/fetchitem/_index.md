@@ -1,14 +1,14 @@
 ---
 title: FetchItem
 second_title: Справочник по Aspose.Email для .NET API
-description: Извлекает элемент какMapiMessageaspose.email.mapi/mapimessage.
+description: Извлекает элемент какMapiMessageaspose.email.mapi/mapimessage .
 type: docs
 weight: 750
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchitem/
 ---
 ## FetchItem(string) {#fetchitem}
 
-Извлекает элемент как[`MapiMessage`](../../../aspose.email.mapi/mapimessage).
+Извлекает элемент как[`MapiMessage`](../../../aspose.email.mapi/mapimessage) .
 
 ```csharp
 public MapiMessage FetchItem(string uri)
@@ -20,7 +20,7 @@ public MapiMessage FetchItem(string uri)
 
 ### Возвращаемое значение
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)объект.
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) объект.
 
 ### Примечания
 
@@ -37,7 +37,7 @@ public MapiMessage FetchItem(string uri)
 
 ## FetchItem(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchitem_1}
 
-Извлекает элемент как[`MapiMessage`](../../../aspose.email.mapi/mapimessage).
+Извлекает элемент как[`MapiMessage`](../../../aspose.email.mapi/mapimessage) .
 
 ```csharp
 public MapiMessage FetchItem(string uri, IEnumerable<PropertyDescriptor> extendedProperties)
@@ -46,11 +46,11 @@ public MapiMessage FetchItem(string uri, IEnumerable<PropertyDescriptor> extende
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | URI элемента. |
-| extendedProperties | IEnumerable`1 | Указанные свойства для извлечения. |
+| extendedProperties | IEnumerable`1 | Заданные свойства для извлечения. |
 
 ### Возвращаемое значение
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)объект.
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) объект.
 
 ### Примечания
 

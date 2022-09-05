@@ -1,7 +1,7 @@
 ---
 title: GetShort
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the first 2 bytes of the binary data as short.
 type: docs
 weight: 240
 url: /net/aspose.email.mapi/mapiproperty/getshort/

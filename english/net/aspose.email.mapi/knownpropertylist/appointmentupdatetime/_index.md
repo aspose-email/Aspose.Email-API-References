@@ -1,7 +1,7 @@
 ---
 title: AppointmentUpdateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the time at which the appointment was last updated. Area Meetings Canonical name PidLidAppointmentUpdateTime Alternate names dispidApptUpdateTime
 type: docs
 weight: 1390
 url: /net/aspose.email.mapi/knownpropertylist/appointmentupdatetime/

@@ -1,9 +1,9 @@
 ---
 title: ReadLinesTimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when a response from server can not be read within the specified time.
 type: docs
-weight: 16550
+weight: 16660
 url: /net/aspose.email.clients.imap/readlinestimeoutexception/
 ---
 ## ReadLinesTimeoutException class
@@ -18,9 +18,9 @@ public class ReadLinesTimeoutException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ReadLinesTimeoutException](readlinestimeoutexception)() | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class. |
-| [ReadLinesTimeoutException](readlinestimeoutexception)(string) | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class with a specified error message. |
-| [ReadLinesTimeoutException](readlinestimeoutexception)(string, Exception) | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class with a specified error message. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor)() | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_1)(string) | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class with a specified error message. |
+| [ReadLinesTimeoutException](readlinestimeoutexception#constructor_2)(string, Exception) | Initializes a new instance of the [`ReadLinesTimeoutException`](../readlinestimeoutexception) class with a specified error message. |
 
 ## Properties
 

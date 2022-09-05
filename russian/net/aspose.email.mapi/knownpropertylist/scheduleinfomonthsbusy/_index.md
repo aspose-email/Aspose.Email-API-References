@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsBusy
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет месяцы для которых данные о занятости типа занятости присутствуют в сообщении о занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoMonthsBusy Альтернативные именаPR_SCHDINFO_MONTHS_BUSY
+description: Определяет месяцы для которых данные о занятости типа занятости присутствуют в сообщении о занятости. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoMonthsBusy Альтернативные имена PR_SCHDINFO_MONTHS_BUSY
 type: docs
 weight: 16870
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsbusy/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsBusy field
 
-Определяет месяцы, для которых данные о занятости типа занятости присутствуют в сообщении о занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoMonthsBusy Альтернативные имена:PR_SCHDINFO_MONTHS_BUSY
+Определяет месяцы, для которых данные о занятости типа занятости присутствуют в сообщении о занятости. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoMonthsBusy Альтернативные имена: PR_SCHDINFO_MONTHS_BUSY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsBusy;

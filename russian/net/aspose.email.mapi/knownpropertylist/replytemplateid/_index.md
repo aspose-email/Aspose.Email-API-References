@@ -1,14 +1,14 @@
 ---
 title: ReplyTemplateId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение GUID указывающего на шаблон ответа. ОбластьПравила Каноническое имяPidTagReplyTemplateId Альтернативные именаPR_REPLY_TEMPLATE_ID ptagReplyTemplateId
+description: Содержит значение GUID указывающего на шаблон ответа. Область Rules Каноническое имя PidTagReplyTemplateId Альтернативные имена PR_REPLY_TEMPLATE_ID ptagReplyTemplateId
 type: docs
 weight: 15960
 url: /ru/net/aspose.email.mapi/knownpropertylist/replytemplateid/
 ---
 ## KnownPropertyList.ReplyTemplateId field
 
-Содержит значение GUID, указывающего на шаблон ответа. Область:Правила Каноническое имя:PidTagReplyTemplateId Альтернативные имена:PR_REPLY_TEMPLATE_ID, ptagReplyTemplateId
+Содержит значение GUID, указывающего на шаблон ответа. Область: Rules Каноническое имя: PidTagReplyTemplateId Альтернативные имена: PR_REPLY_TEMPLATE_ID, ptagReplyTemplateId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyTemplateId;

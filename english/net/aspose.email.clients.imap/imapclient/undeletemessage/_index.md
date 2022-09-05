@@ -1,12 +1,12 @@
 ---
 title: UndeleteMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks a message with the specified sequence number as not deleted
 type: docs
 weight: 1230
 url: /net/aspose.email.clients.imap/imapclient/undeletemessage/
 ---
-## ImapClient.UndeleteMessage method (1 of 8)
+## UndeleteMessage(IConnection, int) {#undeletemessage}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -28,7 +28,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber)
 
 ---
 
-## ImapClient.UndeleteMessage method (2 of 8)
+## UndeleteMessage(IConnection, string) {#undeletemessage_2}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -50,7 +50,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId)
 
 ---
 
-## ImapClient.UndeleteMessage method (3 of 8)
+## UndeleteMessage(int) {#undeletemessage_4}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -70,7 +70,7 @@ public void UndeleteMessage(int sequenceNumber)
 
 ---
 
-## ImapClient.UndeleteMessage method (4 of 8)
+## UndeleteMessage(string) {#undeletemessage_6}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -90,7 +90,7 @@ public void UndeleteMessage(string uniqueId)
 
 ---
 
-## ImapClient.UndeleteMessage method (5 of 8)
+## UndeleteMessage(IConnection, int, long) {#undeletemessage_1}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -113,7 +113,7 @@ public void UndeleteMessage(IConnection connection, int sequenceNumber, long mod
 
 ---
 
-## ImapClient.UndeleteMessage method (6 of 8)
+## UndeleteMessage(IConnection, string, long) {#undeletemessage_3}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -136,7 +136,7 @@ public void UndeleteMessage(IConnection connection, string uniqueId, long modifi
 
 ---
 
-## ImapClient.UndeleteMessage method (7 of 8)
+## UndeleteMessage(int, long) {#undeletemessage_5}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -157,7 +157,7 @@ public void UndeleteMessage(int sequenceNumber, long modificationSequence)
 
 ---
 
-## ImapClient.UndeleteMessage method (8 of 8)
+## UndeleteMessage(string, long) {#undeletemessage_7}
 
 Marks a message with the specified sequence number as not deleted.
 

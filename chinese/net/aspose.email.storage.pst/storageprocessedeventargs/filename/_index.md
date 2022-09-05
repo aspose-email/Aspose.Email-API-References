@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API 参考
-description: 获取代表块的 pst 文件的名称
+description: 获取 pst 文件的名称表示块
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.pst/storageprocessedeventargs/filename/
 ---
 ## StorageProcessedEventArgs.FileName property
 
-获取代表块的 pst 文件的名称。
+获取 pst 文件的名称，表示块。
 
 ```csharp
 public string FileName { get; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/esearchsupported/
 ---
 ## ImapClient.ESearchSupported property
 
-获取是否支持 ESEARCH 扩展的信息 查看更多:https://tools.ietf.org/html/rfc4731
+获取是否支持 ESEARCH 扩展的信息 查看更多：https://tools.ietf.org/html/rfc4731
 
 ```csharp
 public bool ESearchSupported { get; set; }

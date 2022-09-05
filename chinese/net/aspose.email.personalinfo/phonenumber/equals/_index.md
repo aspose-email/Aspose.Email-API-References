@@ -16,7 +16,7 @@ public bool Equals(PhoneNumber obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | PhoneNumber | 要与当前对象比较的对象。 |
+| obj | PhoneNumber | 与当前对象比较的对象。 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前对象比较的对象。 |
+| obj | Object | 与当前对象比较的对象。 |
 
 ### 返回值
 
@@ -69,7 +69,7 @@ public bool Equals(PhoneNumber x, PhoneNumber y)
 
 ### 返回值
 
-如果认为对象相等，则为真；否则为假。 如果 objA 和 objB 都为 null，则该方法返回 true。
+如果对象被认为相等，则为 true；否则为假。 如果 objA 和 objB 都为 null，则该方法返回 true。
 
 ### 也可以看看
 

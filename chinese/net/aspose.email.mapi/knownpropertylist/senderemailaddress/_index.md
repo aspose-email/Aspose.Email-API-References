@@ -1,14 +1,14 @@
 ---
 title: SenderEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含发送邮箱所有者的电子邮件地址 区域地址属性 规范名称PidTagSenderEmailAddress 备用名称PR_SENDER_EMAIL_ADDRESS PR_SENDER_EMAIL_ADDRESS_A PR_SENDER_EMAIL_ADDRESS_W
+description: 包含发送邮箱所有者的电子邮件地址 区域地址属性 规范名称PidTagSenderEmailAddress 备用名称PR_SENDER_EMAIL_ADDRESSPR_SENDER_EMAIL_ADDRESS_APR_SENDER_EMAIL_ADDRESS_W
 type: docs
 weight: 17100
 url: /zh/net/aspose.email.mapi/knownpropertylist/senderemailaddress/
 ---
 ## KnownPropertyList.SenderEmailAddress field
 
-包含发送邮箱所有者的电子邮件地址。 区域:地址属性 规范名称:PidTagSenderEmailAddress 备用名称:PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W
+包含发送邮箱所有者的电子邮件地址。 区域：地址属性 规范名称：PidTagSenderEmailAddress 备用名称：PR_SENDER_EMAIL_ADDRESS、PR_SENDER_EMAIL_ADDRESS_A、PR_SENDER_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderEmailAddress;

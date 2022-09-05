@@ -1,14 +1,14 @@
 ---
 title: MapiTaskPriority
 second_title: Aspose.Email for .NET API 参考
-description: 表示任务的优先级
+description: 代表任务的优先级
 type: docs
-weight: 18700
+weight: 18730
 url: /zh/net/aspose.email.mapi/mapitaskpriority/
 ---
 ## MapiTaskPriority enumeration
 
-表示任务的优先级。
+代表任务的优先级。
 
 ```csharp
 public enum MapiTaskPriority
@@ -20,7 +20,7 @@ public enum MapiTaskPriority
 | --- | --- | --- |
 | Low | `-1` | 低优先级。 |
 | Normal | `0` | 普通优先级。 |
-| High | `1` | 高优先级。 |
+| High | `1` | 高优先级 . |
 
 ### 也可以看看
 

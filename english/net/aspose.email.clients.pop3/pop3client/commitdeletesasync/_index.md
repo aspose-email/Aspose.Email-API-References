@@ -1,12 +1,12 @@
 ---
 title: CommitDeletesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Commit the deletions
 type: docs
 weight: 60
 url: /net/aspose.email.clients.pop3/pop3client/commitdeletesasync/
 ---
-## Pop3Client.CommitDeletesAsync method (1 of 6)
+## CommitDeletesAsync(int) {#commitdeletesasync_3}
 
 Commit the deletions
 
@@ -30,7 +30,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.CommitDeletesAsync method (2 of 6)
+## CommitDeletesAsync(IConnection) {#commitdeletesasync_1}
 
 Commit the deletions
 
@@ -55,7 +55,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.CommitDeletesAsync method (3 of 6)
+## CommitDeletesAsync() {#commitdeletesasync}
 
 Commit the deletions
 
@@ -75,7 +75,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.CommitDeletesAsync method (4 of 6)
+## CommitDeletesAsync(int, CancellationToken) {#commitdeletesasync_4}
 
 Commit the deletions
 
@@ -100,7 +100,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.CommitDeletesAsync method (5 of 6)
+## CommitDeletesAsync(IConnection, CancellationToken) {#commitdeletesasync_2}
 
 Commit the deletions
 
@@ -126,7 +126,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.CommitDeletesAsync method (6 of 6)
+## CommitDeletesAsync(CancellationToken) {#commitdeletesasync_5}
 
 Commit the deletions
 

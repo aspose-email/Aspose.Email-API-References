@@ -1,14 +1,14 @@
 ---
 title: Mht
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Mht 格式的消息
+description: 表示消息在 甲基叔丁基醚格式.
 type: docs
 weight: 40
 url: /zh/net/aspose.email/messageformat/mht/
 ---
 ## MessageFormat.Mht property
 
-表示 **Mht** 格式的消息。
+表示消息在 **甲基叔丁基醚**格式.
 
 ```csharp
 public static MessageFormat Mht { get; }

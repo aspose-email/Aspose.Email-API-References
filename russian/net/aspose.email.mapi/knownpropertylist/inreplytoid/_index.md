@@ -1,14 +1,14 @@
 ---
 title: InReplyToId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagInternetMessageId исходного сообщения раздел 2.739. ОбластьОбщие свойства сообщения Каноническое имяPidTagInReplyToId Альтернативные именаPR_IN_REPLY_TO_ID PR_IN_REPLY_TO_ID_A PR_IN_REPLY_TO_ID_W
+description: Содержит значение свойства PidTagInternetMessageId исходного сообщения раздел 2.739. Область Общие свойства сообщения Каноническое имя PidTagInReplyToId Альтернативные имена PR_IN_REPLY_TO_ID PR_IN_REPLY_TO_ID_A PR_IN_REPLY_TO_ID_W
 type: docs
 weight: 11350
 url: /ru/net/aspose.email.mapi/knownpropertylist/inreplytoid/
 ---
 ## KnownPropertyList.InReplyToId field
 
-Содержит значение свойства PidTagInternetMessageId исходного сообщения (раздел 2.739). Область:Общие свойства сообщения Каноническое имя:PidTagInReplyToId Альтернативные имена:PR_IN_REPLY_TO_ID, PR_IN_REPLY_TO_ID_A, PR_IN_REPLY_TO_ID_W
+Содержит значение свойства PidTagInternetMessageId исходного сообщения (раздел 2.739). Область: Общие свойства сообщения Каноническое имя: PidTagInReplyToId Альтернативные имена: PR_IN_REPLY_TO_ID, PR_IN_REPLY_TO_ID_A, PR_IN_REPLY_TO_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InReplyToId;

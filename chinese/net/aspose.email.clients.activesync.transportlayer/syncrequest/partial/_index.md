@@ -1,14 +1,14 @@
 ---
 title: Partial
 second_title: Aspose.Email for .NET API 参考
-description: 向服务器指示客户端发送了部分集合列表在这种情况下服务器从其缓存中获取其余集合
+description: 向服务器表明客户端发送了部分集合列表在这种情况下服务器从其缓存中获取其余集合
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncrequest/partial/
 ---
 ## SyncRequest.Partial property
 
-向服务器指示客户端发送了部分集合列表，在这种情况下，服务器从其缓存中获取其余集合。
+向服务器表明客户端发送了部分集合列表，在这种情况下，服务器从其缓存中获取其余集合。
 
 ```csharp
 public bool Partial { get; set; }

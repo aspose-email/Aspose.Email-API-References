@@ -1,14 +1,14 @@
 ---
 title: OriginalSentRepresentingEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует EntryID адресной книги который содержит идентификатор записи конечного пользователя представленного отправителем исходного сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSentRepresentingEntryId Альтернативные именаPR_ORIGINAL_SENT_REPRESENTING_ENTRYID ptagOriginalSentRepresentingEntryId
+description: Идентифицирует EntryID адресной книги который содержит идентификатор записи конечного пользователя представленного отправителем исходного сообщения. Область Общие свойства сообщения Каноническое имя PidTagOriginalSentRepresentingEntryId Альтернативные имена PR_ORIGINAL_SENT_REPRESENTING_ENTRYID ptagOriginalSentRepresentingEntryId
 type: docs
 weight: 13740
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsentrepresentingentryid/
 ---
 ## KnownPropertyList.OriginalSentRepresentingEntryId field
 
-Идентифицирует EntryID адресной книги, который содержит идентификатор записи конечного пользователя, представленного отправителем исходного сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSentRepresentingEntryId Альтернативные имена:PR_ORIGINAL_SENT_REPRESENTING_ENTRYID, ptagOriginalSentRepresentingEntryId
+Идентифицирует EntryID адресной книги, который содержит идентификатор записи конечного пользователя, представленного отправителем исходного сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSentRepresentingEntryId Альтернативные имена: PR_ORIGINAL_SENT_REPRESENTING_ENTRYID, ptagOriginalSentRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSentRepresentingEntryId;

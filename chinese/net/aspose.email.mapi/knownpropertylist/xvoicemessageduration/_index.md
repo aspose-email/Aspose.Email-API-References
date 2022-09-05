@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/xvoicemessageduration/
 ---
 ## KnownPropertyList.XVoiceMessageDuration field
 
-指定附加音频消息的长度，以秒为单位。 区域:统一消息 规范名称:PidNameXVoiceMessageDuration 备用名称:
+指定附加音频消息的长度，以秒为单位。 区域：统一消息 规范名称：PidNameXVoiceMessageDuration 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XVoiceMessageDuration;

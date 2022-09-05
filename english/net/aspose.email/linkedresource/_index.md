@@ -1,9 +1,9 @@
 ---
 title: LinkedResource
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an embedded resource in a message.
 type: docs
-weight: 17470
+weight: 17640
 url: /net/aspose.email/linkedresource/
 ---
 ## LinkedResource class
@@ -18,12 +18,12 @@ public class LinkedResource : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [LinkedResource](linkedresource)(Stream) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource)(string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource)(Stream, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource)(Stream, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource)(string, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource)(string, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor)(Stream) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor_3)(string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor_2)(Stream, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource#constructor_5)(string, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
 
 ## Properties
 
@@ -41,9 +41,9 @@ public class LinkedResource : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string, ContentType) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string, Encoding, string) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_1)(string, ContentType) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_2)(string, Encoding, string) | Creates the linked resource from string. |
 | [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |

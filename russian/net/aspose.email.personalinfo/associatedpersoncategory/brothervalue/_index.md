@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/brothervalue/
 ---
 ## AssociatedPersonCategory.BrotherValue field
 
-Строковое значение для категории "Брат"
+Строковое значение для категории «Брат»
 
 ```csharp
 public const string BrotherValue;

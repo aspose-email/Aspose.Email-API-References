@@ -1,14 +1,14 @@
 ---
 title: DiscVal
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DISC_VAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DISC_VAL
 type: docs
 weight: 4110
 url: /ru/net/aspose.email.mapi/knownpropertylist/discval/
 ---
 ## KnownPropertyList.DiscVal field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DISC_VAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DISC_VAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DiscVal;

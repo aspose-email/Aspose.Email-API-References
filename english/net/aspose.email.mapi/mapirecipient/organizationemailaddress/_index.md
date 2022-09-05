@@ -1,7 +1,7 @@
 ---
 title: OrganizationEmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the organization email address.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapirecipient/organizationemailaddress/

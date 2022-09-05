@@ -1,12 +1,12 @@
 ---
 title: ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the messages.
 type: docs
 weight: 1140
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmessages/
 ---
-## IEWSClient.ListMessages method (1 of 14)
+## ListMessages(string) {#listmessages_2}
 
 Lists the messages.
 
@@ -31,7 +31,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## IEWSClient.ListMessages method (2 of 14)
+## ListMessages(string, ExchangeListMessagesOptions) {#listmessages_3}
 
 Lists the messages.
 
@@ -59,7 +59,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## IEWSClient.ListMessages method (3 of 14)
+## ListMessages(string, int) {#listmessages_8}
 
 Lists the messages.
 
@@ -85,7 +85,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## IEWSClient.ListMessages method (4 of 14)
+## ListMessages(string, int, ExchangeListMessagesOptions) {#listmessages_9}
 
 Lists the messages.
 
@@ -114,7 +114,7 @@ A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/excha
 
 ---
 
-## IEWSClient.ListMessages method (5 of 14)
+## ListMessages(string, string, bool) {#listmessages_13}
 
 List the messages in the specified folder
 
@@ -141,7 +141,7 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 
 ---
 
-## IEWSClient.ListMessages method (6 of 14)
+## ListMessages(string, string, MailQuery) {#listmessages_12}
 
 List the messages in the specified folder.
 
@@ -169,7 +169,7 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 
 ---
 
-## IEWSClient.ListMessages method (7 of 14)
+## ListMessages(string, bool) {#listmessages_7}
 
 List the messages in the specified folder
 
@@ -195,7 +195,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 
 ---
 
-## IEWSClient.ListMessages method (8 of 14)
+## ListMessages(string, ExchangeListMessagesOptions, IEnumerable&lt;PropertyDescriptor&gt;) {#listmessages_4}
 
 List the messages in the specified folder
 
@@ -225,7 +225,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 ---
 
-## IEWSClient.ListMessages method (9 of 14)
+## ListMessages(string, MailQuery) {#listmessages_5}
 
 List the messages in the specified folder.
 
@@ -252,7 +252,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 
 ---
 
-## IEWSClient.ListMessages method (10 of 14)
+## ListMessages(string, MailQuery, bool) {#listmessages_6}
 
 List the messages in the specified folder.
 
@@ -280,7 +280,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 
 ---
 
-## IEWSClient.ListMessages method (11 of 14)
+## ListMessages(string, int, MailQuery, bool) {#listmessages_11}
 
 List the messages in the specified folder.
 
@@ -310,7 +310,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ---
 
-## IEWSClient.ListMessages method (12 of 14)
+## ListMessages(IEnumerable&lt;string&gt;) {#listmessages_1}
 
 List the messages in the specified folder.
 
@@ -335,7 +335,7 @@ public ExchangeMessageInfoCollection ListMessages(IEnumerable<string> iDs)
 
 ---
 
-## IEWSClient.ListMessages method (13 of 14)
+## ListMessages() {#listmessages}
 
 List the messages in the inbox folder.
 
@@ -356,7 +356,7 @@ public ExchangeMessageInfoCollection ListMessages()
 
 ---
 
-## IEWSClient.ListMessages method (14 of 14)
+## ListMessages(string, int, MailQuery) {#listmessages_10}
 
 List the messages in the specified folder.
 

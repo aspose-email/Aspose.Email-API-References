@@ -1,7 +1,7 @@
 ---
 title: HasAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the message contains at least one attachment.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangemessageinfo/hasattachments/

@@ -1,7 +1,7 @@
 ---
 title: UseBodyCompression
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set to true if need RTF body compression.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapiconversionoptions/usebodycompression/

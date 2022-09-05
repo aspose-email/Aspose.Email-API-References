@@ -1,7 +1,7 @@
 ---
 title: ResolveContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resolves ambiguous mailbox names.
 type: docs
 weight: 1360
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/resolvecontact/

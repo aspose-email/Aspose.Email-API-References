@@ -16,7 +16,7 @@ public void Add(ImapMessageInfo item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | ImapMessageInfo | Добавляемая информация ImapMessageInfo. |
+| item | ImapMessageInfo | Добавляемый ImapMessageInfo. |
 
 ### Смотрите также
 

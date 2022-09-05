@@ -1,7 +1,7 @@
 ---
 title: ExchangeStreamedItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the item received in ExportItems response
 type: docs
 weight: 3820
 url: /net/aspose.email.clients.exchange.webservice/exchangestreameditem/

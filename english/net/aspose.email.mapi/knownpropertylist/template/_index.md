@@ -1,7 +1,7 @@
 ---
 title: Template
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the template of the file attached to the Document object. Area Common Canonical name PidNameTemplate Alternate names urnschemasmicrosoftcomofficeofficeTemplate
 type: docs
 weight: 18900
 url: /net/aspose.email.mapi/knownpropertylist/template/

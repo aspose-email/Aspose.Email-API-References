@@ -1,14 +1,14 @@
 ---
 title: ChildrensNames
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人孩子的姓名 区域联系人属性 规范名称PidTagChildrensNames 别名PR_CHILDRENS_NAMESPR_CHILDRENS_NAMES_APR_CHILDRENS_NAMES_W
+description: 指定联系人子项的名称 区域联系人属性 规范名称PidTagChildrensNames 备用名称PR_CHILDRENS_NAMESPR_CHILDRENS_NAMES_APR_CHILDRENS_NAMES_W
 type: docs
 weight: 2610
 url: /zh/net/aspose.email.mapi/knownpropertylist/childrensnames/
 ---
 ## KnownPropertyList.ChildrensNames field
 
-指定联系人孩子的姓名。 区域:联系人属性 规范名称:PidTagChildrensNames 别名:PR_CHILDRENS_NAMES、PR_CHILDRENS_NAMES_A、PR_CHILDRENS_NAMES_W、
+指定联系人子项的名称。 区域：联系人属性 规范名称：PidTagChildrensNames 备用名称：PR_CHILDRENS_NAMES、PR_CHILDRENS_NAMES_A、PR_CHILDRENS_NAMES_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChildrensNames;

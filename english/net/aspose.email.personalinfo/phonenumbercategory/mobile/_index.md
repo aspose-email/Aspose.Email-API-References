@@ -1,7 +1,7 @@
 ---
 title: Mobile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mobile phone number
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/phonenumbercategory/mobile/

@@ -1,7 +1,7 @@
 ---
 title: UseDefault
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Whether the default reminders of the calendar apply to the event.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/reminders/usedefault/

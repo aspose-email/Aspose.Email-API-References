@@ -1,7 +1,7 @@
 ---
 title: Journal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether to create a journal for each action associated with this contact.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/journal/

@@ -1,7 +1,7 @@
 ---
 title: itemCreationTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Datetimestamp in UTC of when event logged. Mandatory Yes
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/sharepointmetadata/itemcreationtime/

@@ -1,7 +1,7 @@
 ---
 title: CreatedDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The start time of the operation.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/onenoteoperation/createddatetime/

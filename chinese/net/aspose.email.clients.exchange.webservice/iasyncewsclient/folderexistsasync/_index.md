@@ -23,13 +23,13 @@ public Task<bool> FolderExistsAsync(string parentFolderUri, string folderName,
 
 ### 返回值
 
-` true` 如果指定的文件夹存在于指定的父文件夹中；否则，` false` 。
+`真的`如果指定的文件夹存在于指定的父文件夹中；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或*folderName*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或者*folderName*是`无效的`或者`空的` |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WlinkFolderType
 second_title: Aspose.Email for .NET API 参考
-description: 指定快捷方式指向的文件夹类型 区域配置 规范名称PidTagWlinkFolderType 替代名称PR_WLINK_FOLDER_TYPE
+description: 指定快捷方式指向的文件夹类型 区域Configuration 规范名称PidTagWlinkFolderType 备用名称PR_WLINK_FOLDER_TYPE
 type: docs
 weight: 19430
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkfoldertype/
 ---
 ## KnownPropertyList.WlinkFolderType field
 
-指定快捷方式指向的文件夹类型。 区域:配置 规范名称:PidTagWlinkFolderType 替代名称:PR_WLINK_FOLDER_TYPE
+指定快捷方式指向的文件夹类型。 区域：Configuration 规范名称：PidTagWlinkFolderType 备用名称：PR_WLINK_FOLDER_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkFolderType;

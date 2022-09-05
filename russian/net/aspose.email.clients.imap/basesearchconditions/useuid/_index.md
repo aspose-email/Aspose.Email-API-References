@@ -1,14 +1,14 @@
 ---
 title: UseUId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее возвращает ли метод порядковые номера или UID сообщений.
+description: Получает или задает значение указывающее возвращает ли метод поиска порядковые номера или UID сообщений.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.imap/basesearchconditions/useuid/
 ---
 ## BaseSearchConditions.UseUId property
 
-Получает или задает значение, указывающее, возвращает ли метод порядковые номера или UID сообщений.
+Получает или задает значение, указывающее, возвращает ли метод поиска порядковые номера или UID сообщений.
 
 ```csharp
 public bool UseUId { get; set; }

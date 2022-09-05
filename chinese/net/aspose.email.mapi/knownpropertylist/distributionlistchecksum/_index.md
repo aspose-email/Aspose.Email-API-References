@@ -1,14 +1,14 @@
 ---
 title: DistributionListChecksum
 second_title: Aspose.Email for .NET API 参考
-description: 指定 32 位循环冗余校验 CRC 多项式校验和作为属性第 2.96 节 区域联系人属性 规范名称PidLidDistributionListChecksum 替代名称dispidDLChecksum
+description: 将 32 位循环冗余校验 CRC 多项式校验和指定为属性第 2.96 节 区域联系人属性 规范名称PidLidDistributionListChecksum 替代名称dispidDLChecksum
 type: docs
 weight: 4190
 url: /zh/net/aspose.email.mapi/knownpropertylist/distributionlistchecksum/
 ---
 ## KnownPropertyList.DistributionListChecksum field
 
-指定 32 位循环冗余校验 (CRC) 多项式校验和作为属性（第 2.96 节）。 区域:联系人属性 规范名称:PidLidDistributionListChecksum 替代名称:dispidDLChecksum
+将 32 位循环冗余校验 (CRC) 多项式校验和指定为属性（第 2.96 节）。 区域：联系人属性 规范名称：PidLidDistributionListChecksum 替代名称：dispidDLChecksum
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListChecksum;

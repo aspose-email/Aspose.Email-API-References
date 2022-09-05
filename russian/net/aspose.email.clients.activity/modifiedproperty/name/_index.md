@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает имя свойства
+description: Получает или задает имя свойства
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/modifiedproperty/name/
 ---
 ## ModifiedProperty.Name property
 
-Получает или устанавливает имя свойства
+Получает или задает имя свойства
 
 ```csharp
 public string Name { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the left margin.
 type: docs
 weight: 60
 url: /net/aspose.email.printing/iprintsettingsprovider/marginleft/

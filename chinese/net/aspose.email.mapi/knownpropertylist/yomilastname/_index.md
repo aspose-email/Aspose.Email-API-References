@@ -1,14 +1,14 @@
 ---
 title: YomiLastName
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人姓氏的拼音 区域联系人属性 规范名称PidLidYomiLastName 替代名称dispidYomiLastName
+description: 指定联系人姓氏的语音发音 区域联系人属性 规范名称PidLidYomiLastName 别名dispidYomiLastName
 type: docs
 weight: 19920
 url: /zh/net/aspose.email.mapi/knownpropertylist/yomilastname/
 ---
 ## KnownPropertyList.YomiLastName field
 
-指定联系人姓氏的拼音。 区域:联系人属性 规范名称:PidLidYomiLastName 替代名称:dispidYomiLastName
+指定联系人姓氏的语音发音。 区域：联系人属性 规范名称：PidLidYomiLastName 别名：dispidYomiLastName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor YomiLastName;

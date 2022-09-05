@@ -1,7 +1,7 @@
 ---
 title: Folder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesfolder content class that defines a set of properties for a folder in the Exchange store.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/folder/

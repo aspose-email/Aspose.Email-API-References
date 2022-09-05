@@ -1,14 +1,14 @@
 ---
 title: OriginatorCertificate
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ORIGINATOR_CERTIFICATE
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ORIGINATOR_CERTIFICATE
 type: docs
 weight: 13840
 url: /zh/net/aspose.email.mapi/knownpropertylist/originatorcertificate/
 ---
 ## KnownPropertyList.OriginatorCertificate field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ORIGINATOR_CERTIFICATE
+Microsoft? Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ORIGINATOR_CERTIFICATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorCertificate;

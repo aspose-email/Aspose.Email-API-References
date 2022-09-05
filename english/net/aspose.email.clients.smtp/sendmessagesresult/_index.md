@@ -1,9 +1,9 @@
 ---
 title: SendMessagesResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains result of operation with messages
 type: docs
-weight: 16850
+weight: 17020
 url: /net/aspose.email.clients.smtp/sendmessagesresult/
 ---
 ## SendMessagesResult class

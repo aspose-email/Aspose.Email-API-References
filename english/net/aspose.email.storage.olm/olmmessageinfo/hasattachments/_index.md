@@ -1,7 +1,7 @@
 ---
 title: HasAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the message has attachments.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.olm/olmmessageinfo/hasattachments/

@@ -1,7 +1,7 @@
 ---
 title: HierarchyDelimiter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets hierarchy delimiter
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapnamespace/hierarchydelimiter/

@@ -1,12 +1,42 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads Appointmentaspose.email.calendar/appointment from the file. Supported file formats iCalendar
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/appointment/load/
 ---
-## Appointment.Load method (1 of 5)
+## Load(string) {#load_3}
+
+Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar
+
+```csharp
+public static Appointment Load(string filePath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | A file path |
+
+### Return Value
+
+A read [`Appointment`](../../appointment)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *filePath* is `null` or `empty` |
+
+### See Also
+
+* class [Appointment](../../appointment)
+* namespace [Aspose.Email.Calendar](../../appointment)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Load(string, AppointmentLoadOptions) {#load_4}
 
 Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../../appointmentloadoptions).A read [`Appointment`](../../appointment).
 
@@ -23,7 +53,7 @@ public static Appointment Load(string filePath, AppointmentLoadOptions options)
 
 ---
 
-## Appointment.Load method (2 of 5)
+## Load(Stream) {#load}
 
 Loads [`Appointment`](../../appointment) from the stream
 
@@ -54,7 +84,7 @@ A read [`Appointment`](../../appointment)
 
 ---
 
-## Appointment.Load method (3 of 5)
+## Load(Stream, bool) {#load_2}
 
 Loads [`Appointment`](../../appointment) from the stream
 
@@ -86,7 +116,7 @@ A read [`Appointment`](../../appointment)
 
 ---
 
-## Appointment.Load method (4 of 5)
+## Load(Stream, AppointmentLoadOptions) {#load_1}
 
 Loads [`Appointment`](../../appointment) from the stream
 
@@ -113,36 +143,6 @@ A read [`Appointment`](../../appointment)
 ### See Also
 
 * class [AppointmentLoadOptions](../../appointmentloadoptions)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Appointment.Load method (5 of 5)
-
-Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar
-
-```csharp
-public static Appointment Load(string filePath)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | String | A file path |
-
-### Return Value
-
-A read [`Appointment`](../../appointment)
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | *filePath* is `null` or `empty` |
-
-### See Also
-
 * class [Appointment](../../appointment)
 * namespace [Aspose.Email.Calendar](../../appointment)
 * assembly [Aspose.Email](../../../)

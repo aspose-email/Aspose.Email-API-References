@@ -1,14 +1,14 @@
 ---
 title: SearchFolderLastUsed
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время последнего обращения к папке в формате UTC. ОбластьПоиск Каноническое имяPidTagSearchFolderLastUsed Альтернативные именаPR_WB_SF_LAST_USED
+description: Содержит время последнего обращения к папке в формате UTC. Область Search Каноническое имя PidTagSearchFolderLastUsed Альтернативные имена PR_WB_SF_LAST_USED
 type: docs
 weight: 16980
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderlastused/
 ---
 ## KnownPropertyList.SearchFolderLastUsed field
 
-Содержит время последнего обращения к папке в формате UTC. Область:Поиск Каноническое имя:PidTagSearchFolderLastUsed Альтернативные имена:PR_WB_SF_LAST_USED
+Содержит время последнего обращения к папке в формате UTC. Область: Search Каноническое имя: PidTagSearchFolderLastUsed Альтернативные имена: PR_WB_SF_LAST_USED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderLastUsed;

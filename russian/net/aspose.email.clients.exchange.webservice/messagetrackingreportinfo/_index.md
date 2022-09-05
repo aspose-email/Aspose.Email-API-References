@@ -18,8 +18,8 @@ public sealed class MessageTrackingReportInfo
 
 | Имя | Описание |
 | --- | --- |
-| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/messagetrackingreportid) { get; } | Получает значение, определяющее сообщение по его идентификатору сообщения, организации, в которой сообщение было найдено, серверу, на котором сообщение было отправлено, и внутреннему идентификатору, который однозначно идентифицирует сообщение. |
-| [PreviousHopServer](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/previoushopserver) { get; } | Получает предыдущее имя сервера, если оно доступно, которое отправило сообщение. |
+| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/messagetrackingreportid) { get; } | Получает значение, определяющее сообщение по его идентификатору сообщения, организации, в которой было найдено сообщение, серверу, на котором сообщение было отправлено, и внутреннему идентификатору, который однозначно идентифицирует сообщение. |
+| [PreviousHopServer](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/previoushopserver) { get; } | Получает предыдущее имя сервера, если оно доступно, с которого было отправлено сообщение. |
 | [Recipients](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/recipients) { get; } | Получает адреса электронной почты получателей найденного сообщения. |
 | [Sender](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/sender) { get; } | Получает адрес электронной почты отправителя найденного сообщения. |
 | [Subject](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/subject) { get; } | Получает тему найденного сообщения. |

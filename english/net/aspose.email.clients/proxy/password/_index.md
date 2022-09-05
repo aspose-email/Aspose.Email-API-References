@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Password for proxy authentication
 type: docs
 weight: 20
 url: /net/aspose.email.clients/proxy/password/

@@ -1,14 +1,14 @@
 ---
 title: NoteColor
 second_title: Aspose.Email for .NET API 参考
-description: 指定 Note 对象的建议背景颜色
+description: 指定注释对象的建议背景颜色
 type: docs
-weight: 18900
+weight: 18930
 url: /zh/net/aspose.email.mapi/notecolor/
 ---
 ## NoteColor enumeration
 
-指定 Note 对象的建议背景颜色
+指定注释对象的建议背景颜色
 
 ```csharp
 public enum NoteColor

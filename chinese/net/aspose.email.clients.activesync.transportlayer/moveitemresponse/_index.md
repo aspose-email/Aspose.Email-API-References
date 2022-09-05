@@ -25,9 +25,9 @@ public class MoveItemResponse
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DstMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/dstmsgid) { get; set; } | 指定项目移动到目标文件夹后的新服务器 ID。 DstMsgId 元素值最长可达 64 个字符。 |
-| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/srcmsgid) { get; set; } | 指定要移动的项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。 |
-| [Status](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/status) { get; set; } | 表示 MoveItems 命令请求成功或失败。 |
+| [DstMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/dstmsgid) { get; set; } | 指定项目移动到目标文件夹后的新服务器 ID。 DstMsgId 元素值的长度最多为 64 个字符。 |
+| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/srcmsgid) { get; set; } | 指定要移动的项目的服务器 ID。 SrcMsgId 元素值的长度最多为 64 个字符。 |
+| [Status](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/status) { get; set; } | 表示MoveItems命令请求成功或失败。 |
 
 ### 也可以看看
 

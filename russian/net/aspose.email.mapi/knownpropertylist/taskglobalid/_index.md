@@ -1,14 +1,14 @@
 ---
 title: TaskGlobalId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор GUID для этой задачи который используется для поиска существующей задачи при получении ответа задачи или обновления задачи. ОбластьЗадачи Каноническое имяPidLidTaskGlobalId Альтернативные именаdispidTaskGlobalObjId
+description: Содержит уникальный идентификатор GUID для этой задачи который используется для поиска существующей задачи после получения ответа или обновления задачи. Область Tasks Каноническое имя PidLidTaskGlobalId Альтернативные имена dispidTaskGlobalObjId
 type: docs
 weight: 18670
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskglobalid/
 ---
 ## KnownPropertyList.TaskGlobalId field
 
-Содержит уникальный идентификатор GUID для этой задачи, который используется для поиска существующей задачи при получении ответа задачи или обновления задачи. Область:Задачи Каноническое имя:PidLidTaskGlobalId Альтернативные имена:dispidTaskGlobalObjId
+Содержит уникальный идентификатор GUID для этой задачи, который используется для поиска существующей задачи после получения ответа или обновления задачи. Область: Tasks Каноническое имя: PidLidTaskGlobalId Альтернативные имена: dispidTaskGlobalObjId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskGlobalId;

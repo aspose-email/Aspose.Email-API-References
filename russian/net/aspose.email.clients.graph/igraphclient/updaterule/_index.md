@@ -1,14 +1,14 @@
 ---
 title: UpdateRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Измените доступные для записи свойства объекта messageRule и сохраните изменения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегированный рабочая или учебная учетная запись MailboxSettings.ReadWrite Делегированный личная учетная запись Microsoft MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
+description: Измените доступные для записи свойства объекта messageRule и сохраните изменения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегированные рабочая или учебная учетная запись MailboxSettings. ReadWrite Делегированный личный аккаунт Microsoft MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 type: docs
 weight: 420
 url: /ru/net/aspose.email.clients.graph/igraphclient/updaterule/
 ---
 ## IGraphClient.UpdateRule method
 
-Измените доступные для записи свойства объекта messageRule и сохраните изменения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегированный (рабочая или учебная учетная запись) MailboxSettings.ReadWrite Делегированный (личная учетная запись Microsoft) MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
+Измените доступные для записи свойства объекта messageRule и сохраните изменения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегированные (рабочая или учебная учетная запись) MailboxSettings. ReadWrite Делегированный (личный аккаунт Microsoft) MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 
 ```csharp
 public InboxRule UpdateRule(InboxRule rule)
@@ -16,7 +16,7 @@ public InboxRule UpdateRule(InboxRule rule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для обновления |
+| rule | InboxRule | Правило обновления |
 
 ### Возвращаемое значение
 

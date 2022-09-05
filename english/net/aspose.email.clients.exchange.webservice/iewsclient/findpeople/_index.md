@@ -1,12 +1,12 @@
 ---
 title: FindPeople
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Find contacts located in the global address list GAL on server.
 type: docs
 weight: 860
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/findpeople/
 ---
-## IEWSClient.FindPeople method (1 of 2)
+## FindPeople(string, int) {#findpeople_1}
 
 Find contacts located in the global address list (GAL) on server.
 
@@ -32,7 +32,7 @@ An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represe
 
 ---
 
-## IEWSClient.FindPeople method (2 of 2)
+## FindPeople(string, MailQuery, int) {#findpeople}
 
 Find contacts located in the specified user's personal mailbox on server.
 

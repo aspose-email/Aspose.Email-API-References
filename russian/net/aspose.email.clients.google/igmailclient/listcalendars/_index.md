@@ -37,7 +37,7 @@ public ExtendedCalendar[] ListCalendars(AccessRole minAccessRole, bool showHidde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| minAccessRole | AccessRole | Действующая роль доступа, которую пользователь, прошедший проверку подлинности, имеет в календаре. |
+| minAccessRole | AccessRole | Роль фактического доступа, которую пользователь, прошедший проверку подлинности, имеет в календаре. |
 | showHidden | Boolean | Показать скрытые календари |
 
 ### Возвращаемое значение

@@ -1,14 +1,14 @@
 ---
 title: EmptyFolderOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет параметры пустой папки
+description: Перечисляет пустую папку options
 type: docs
 weight: 3690
 url: /ru/net/aspose.email.clients.exchange.webservice/emptyfolderoptions/
 ---
 ## EmptyFolderOptions enumeration
 
-Перечисляет параметры пустой папки
+Перечисляет пустую папку options
 
 ```csharp
 [Flags]

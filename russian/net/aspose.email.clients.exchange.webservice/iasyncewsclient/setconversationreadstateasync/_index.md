@@ -17,16 +17,16 @@ public Task SetConversationReadStateAsync(string conversationId, bool isRead = t
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор диалога, который необходимо изменить |
-| isRead | Boolean | Флаг, позволяющий установить состояние чтения элементов в диалоге. |
-| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если установлено значение null (или empty), все элементы беседы будут скопированы |
+| conversationId | String | Идентификатор разговора, который нужно изменить |
+| isRead | Boolean | Флаг, который позволяет установить состояние чтения элементов в диалоге. |
+| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если установлено значение null (или пусто), все элементы беседы будут скопированы |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

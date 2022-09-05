@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiCalendarTimeZoneaspose.email.mapi/mapicalendartimezone类的新实例
+description: 初始化MapiCalendarTimeZoneaspose.email.mapi/mapicalendartimezone类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendartimezone/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone() {#constructor}
 
-初始化[`MapiCalendarTimeZone`](../../mapicalendartimezone)类的新实例。
+初始化[`MapiCalendarTimeZone`](../../mapicalendartimezone)类.
 
 ```csharp
 public MapiCalendarTimeZone()
@@ -24,7 +24,7 @@ public MapiCalendarTimeZone()
 
 ## MapiCalendarTimeZone(TimeZoneInfo) {#constructor_1}
 
-从标准时区创建[`MapiCalendarTimeZone`](../../mapicalendartimezone)类的新实例。
+创建一个新的实例[`MapiCalendarTimeZone`](../../mapicalendartimezone)来自标准时区的类。
 
 ```csharp
 public MapiCalendarTimeZone(TimeZoneInfo timeZone)
@@ -32,7 +32,7 @@ public MapiCalendarTimeZone(TimeZoneInfo timeZone)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| timeZone | TimeZoneInfo | 标准时区TimeZoneInfo。 |
+| timeZone | TimeZoneInfo | 标准时区TimeZoneInfo. |
 
 ### 也可以看看
 

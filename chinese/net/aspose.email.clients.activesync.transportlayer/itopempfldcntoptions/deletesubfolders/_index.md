@@ -1,14 +1,14 @@
 ---
 title: DeleteSubFolders
 second_title: Aspose.Email for .NET API 参考
-description: 表示是否删除指定文件夹的子文件夹 如果请求中不包含 DeleteSubFolders 选项则不会删除指定 CollectionId 的子文件夹
+description: 表示是否删除指定文件夹的子文件夹 如果请求中不包含DeleteSubFolders选项则不删除指定CollectionId的子文件夹
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders/
 ---
 ## ItOpEmpFldCntOptions.DeleteSubFolders property
 
-表示是否删除指定文件夹的子文件夹。 如果请求中不包含 DeleteSubFolders 选项，则不会删除指定 CollectionId 的子文件夹。
+表示是否删除指定文件夹的子文件夹。 如果请求中不包含DeleteSubFolders选项，则不删除指定CollectionId的子文件夹。
 
 ```csharp
 public bool? DeleteSubFolders { get; set; }

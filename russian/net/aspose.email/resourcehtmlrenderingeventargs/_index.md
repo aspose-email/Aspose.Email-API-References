@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingEventArgs
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет дополнительные параметры для события ResourceHtmlRendering.
 type: docs
-weight: 19890
+weight: 19940
 url: /ru/net/aspose.email/resourcehtmlrenderingeventargs/
 ---
 ## ResourceHtmlRenderingEventArgs class
@@ -24,7 +24,7 @@ public class ResourceHtmlRenderingEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [Caption](../../aspose.email/resourcehtmlrenderingeventargs/caption) { get; set; } | Caprion за ресурс. |
+| [Caption](../../aspose.email/resourcehtmlrenderingeventargs/caption) { get; set; } | Caprion для ресурса. |
 | [PathToResourceFile](../../aspose.email/resourcehtmlrenderingeventargs/pathtoresourcefile) { get; set; } | Путь к файлу ресурсов. |
 
 ### Смотрите также

@@ -1,7 +1,7 @@
 ---
 title: UserAgent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the user agent.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/useragent/

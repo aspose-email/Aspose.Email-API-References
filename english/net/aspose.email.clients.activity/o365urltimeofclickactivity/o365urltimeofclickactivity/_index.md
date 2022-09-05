@@ -1,7 +1,7 @@
 ---
 title: O365URLTimeOfClickActivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/o365urltimeofclickactivity/

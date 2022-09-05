@@ -1,14 +1,14 @@
 ---
 title: Jabber
 second_title: Aspose.Email for .NET API 参考
-description: Jabber
+description: 胡言乱语
 type: docs
 weight: 90
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/jabber/
 ---
 ## InstantMessengerCategory.Jabber property
 
-Jabber
+胡言乱语
 
 ```csharp
 public static InstantMessengerCategory Jabber { get; }

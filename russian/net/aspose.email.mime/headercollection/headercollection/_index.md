@@ -1,14 +1,14 @@
 ---
 title: HeaderCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаHeaderCollectionaspose.email.mime/headercollection.
+description: Инициализирует новый экземплярHeaderCollectionaspose.email.mime/headercollection класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/headercollection/headercollection/
 ---
 ## HeaderCollection(HeaderCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`HeaderCollection`](../../headercollection).
+Инициализирует новый экземпляр[`HeaderCollection`](../../headercollection) класс.
 
 ```csharp
 public HeaderCollection(HeaderCollection col)
@@ -28,7 +28,7 @@ public HeaderCollection(HeaderCollection col)
 
 ## HeaderCollection() {#constructor}
 
-Инициализирует новый экземпляр класса[`HeaderCollection`](../../headercollection).
+Инициализирует новый экземпляр[`HeaderCollection`](../../headercollection) класс.
 
 ```csharp
 public HeaderCollection()

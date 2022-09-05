@@ -1,7 +1,7 @@
 ---
 title: ReadDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the read date.
 type: docs
 weight: 80
 url: /net/aspose.email.mime/contentdisposition/readdate/

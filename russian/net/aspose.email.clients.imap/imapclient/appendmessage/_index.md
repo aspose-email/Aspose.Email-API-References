@@ -16,8 +16,8 @@ public string AppendMessage(IConnection connection, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Отправить сообщение быть загруженным |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
 
@@ -43,8 +43,8 @@ public string AppendMessage(IConnection connection, string folderName, MailMessa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| folderName | String | Папка, которая будет получать почтовое сообщение |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
@@ -71,8 +71,8 @@ public string AppendMessage(IConnection connection, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| fileName | String | Имя файла ( *.eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение
 
@@ -97,9 +97,9 @@ public string AppendMessage(IConnection connection, string folderName, string fi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
-| имя_папки | String | Папка, которая будет получать почтовое сообщение |
-| fileName | String | Имя файла (*. eml) почтового сообщения, которое будет загружено |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
+| fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение
 
@@ -128,7 +128,7 @@ public string AppendMessage(MailMessage message)
 
 ### Возвращаемое значение
 
-Уникальный идентификатор добавленное сообщение
+Уникальный идентификатор добавленного сообщения
 
 ### Смотрите также
 
@@ -149,7 +149,7 @@ public string AppendMessage(string folderName, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | message | MailMessage | Почтовое сообщение для загрузки |
 
 ### Возвращаемое значение
@@ -199,7 +199,7 @@ public string AppendMessage(string folderName, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая получит почтовое сообщение |
+| folderName | String | Папка, в которую будет поступать почтовое сообщение |
 | fileName | String | Имя файла (*.eml) почтового сообщения, которое будет загружено |
 
 ### Возвращаемое значение

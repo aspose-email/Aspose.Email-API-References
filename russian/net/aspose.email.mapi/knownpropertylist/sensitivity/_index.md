@@ -1,14 +1,14 @@
 ---
 title: Sensitivity
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает оценку отправителем чувствительности объекта Message. ОбластьОбщие свойства сообщения Каноническое имяPidTagSensitivity Альтернативные именаPR_SENSITIVITY ptagSensitivity
+description: Указывает оценку отправителем чувствительности объекта Message. Область Общие свойства сообщения Каноническое имя PidTagSensitivity Альтернативные имена PR_SENSITIVITY ptagSensitivity
 type: docs
 weight: 17190
 url: /ru/net/aspose.email.mapi/knownpropertylist/sensitivity/
 ---
 ## KnownPropertyList.Sensitivity field
 
-Указывает оценку отправителем чувствительности объекта Message. Область:Общие свойства сообщения Каноническое имя:PidTagSensitivity Альтернативные имена:PR_SENSITIVITY, ptagSensitivity,
+Указывает оценку отправителем чувствительности объекта Message. Область: Общие свойства сообщения Каноническое имя: PidTagSensitivity Альтернативные имена: PR_SENSITIVITY, ptagSensitivity,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Sensitivity;

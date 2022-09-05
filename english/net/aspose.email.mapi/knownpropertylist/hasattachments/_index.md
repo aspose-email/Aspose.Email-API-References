@@ -1,7 +1,7 @@
 ---
 title: HasAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the Message object contains at least one attachment. Area Message Attachment Properties Property set Canonical name PidTagHasAttachments Alternate names PR_HASATTACH ptagHasAttach urnschemashttpmailhasattachment
 type: docs
 weight: 10840
 url: /net/aspose.email.mapi/knownpropertylist/hasattachments/

@@ -1,14 +1,14 @@
 ---
 title: RuleMessageSequence
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值用于确定评估和执行规则的顺序设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageSequence 替代名称PR_RULE_MSG_SEQUENCE ptagRuleMsgSequence
+description: 包含一个值用于确定评估和执行规则的顺序设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageSequence 备用名称PR_RULE_MSG_SEQUENCEptagRuleMsgSequence
 type: docs
 weight: 16560
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessagesequence/
 ---
 ## KnownPropertyList.RuleMessageSequence field
 
-包含一个值，用于确定评估和执行规则的顺序。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageSequence 替代名称:PR_RULE_MSG_SEQUENCE, ptagRuleMsgSequence
+包含一个值，用于确定评估和执行规则的顺序。设置在 FAI 消息上。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageSequence 备用名称：PR_RULE_MSG_SEQUENCE、ptagRuleMsgSequence
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageSequence;

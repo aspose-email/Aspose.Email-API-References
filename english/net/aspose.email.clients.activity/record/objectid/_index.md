@@ -1,7 +1,7 @@
 ---
 title: ObjectId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets object identifier. For SharePoint and OneDrive for Business activity the full path name of the file or folder accessed by the user. For Exchange admin audit logging the name of the object that was modified by the cmdlet. Mandatory No
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/record/objectid/

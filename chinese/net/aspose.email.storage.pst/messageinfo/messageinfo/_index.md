@@ -1,14 +1,14 @@
 ---
 title: MessageInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MessageInfoaspose.email.storage.pst/messageinfo类的新实例
+description: 初始化MessageInfoaspose.email.storage.pst/messageinfo类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.pst/messageinfo/messageinfo/
 ---
 ## MessageInfo constructor
 
-初始化[`MessageInfo`](../../messageinfo)类的新实例。
+初始化[`MessageInfo`](../../messageinfo)类.
 
 ```csharp
 public MessageInfo()

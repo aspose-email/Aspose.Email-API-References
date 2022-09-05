@@ -1,14 +1,14 @@
 ---
 title: ReplicationMessagePriority
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPLICATION_MESSAGE_PRIORITY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPLICATION_MESSAGE_PRIORITY
 type: docs
 weight: 15870
 url: /ru/net/aspose.email.mapi/knownpropertylist/replicationmessagepriority/
 ---
 ## KnownPropertyList.ReplicationMessagePriority field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPLICATION_MESSAGE_PRIORITY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPLICATION_MESSAGE_PRIORITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplicationMessagePriority;

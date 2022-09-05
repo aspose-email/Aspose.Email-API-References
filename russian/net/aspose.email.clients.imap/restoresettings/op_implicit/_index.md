@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует перечисляемые параметры в класс
+description: Преобразует перечисляемые параметры в class
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.imap/restoresettings/op_implicit/
 ---
 ## RestoreSettings Implicit operator
 
-Преобразует перечисляемые параметры в класс
+Преобразует перечисляемые параметры в class
 
 ```csharp
 public static implicit operator RestoreSettings(RestoreOptions options)
@@ -16,7 +16,7 @@ public static implicit operator RestoreSettings(RestoreOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | RestoreOptions | Параметры для преобразования |
+| options | RestoreOptions | Варианты преобразования |
 
 ### Смотрите также
 

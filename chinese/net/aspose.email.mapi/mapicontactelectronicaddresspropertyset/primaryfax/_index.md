@@ -1,14 +1,14 @@
 ---
 title: PrimaryFax
 second_title: Aspose.Email for .NET API 参考
-description: 指属性组 定义联系人的主要传真地址
+description: 指的是一组属性 用于定义联系人的主要传真地址
 type: docs
 weight: 90
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/primaryfax/
 ---
 ## MapiContactElectronicAddressPropertySet.PrimaryFax property
 
-指属性组 定义联系人的主要传真地址。
+指的是一组属性 ，用于定义联系人的主要传真地址。
 
 ```csharp
 public MapiContactElectronicAddress PrimaryFax { get; set; }

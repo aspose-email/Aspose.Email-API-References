@@ -20,7 +20,7 @@ public Content[] FetchContent(string contentId)
 
 ### 返回值
 
-返回的内容将是一个包含多个动作或事件的数组。
+返回的内容将是一个又一个动作或事件的数组。
 
 ### 也可以看看
 

@@ -1,7 +1,7 @@
 ---
 title: GetProxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns the URI of a proxy.
 type: docs
 weight: 40
 url: /net/aspose.email.clients/httpproxy/getproxy/

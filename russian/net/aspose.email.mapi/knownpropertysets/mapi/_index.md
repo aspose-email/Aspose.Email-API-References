@@ -1,14 +1,14 @@
 ---
 title: Mapi
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиCommon Имя набора свойствPS_MAPI
+description: Имя области Общее Имя набора свойств PS_MAPI
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/knownpropertysets/mapi/
 ---
 ## KnownPropertySets.Mapi field
 
-Имя области:Common Имя набора свойств:PS_MAPI
+Имя области: Общее Имя набора свойств: PS_MAPI
 
 ```csharp
 public static readonly Guid Mapi;

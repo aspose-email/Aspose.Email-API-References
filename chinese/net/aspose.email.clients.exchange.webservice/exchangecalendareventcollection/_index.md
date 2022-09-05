@@ -1,14 +1,14 @@
 ---
 title: ExchangeCalendarEventCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ExchangeCalendarEvent./exchangecalendarevent
+description: 代表集合ExchangeCalendarEvent./exchangecalendarevent
 type: docs
 weight: 3730
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangecalendareventcollection/
 ---
 ## ExchangeCalendarEventCollection class
 
-表示[`ExchangeCalendarEvent`](../exchangecalendarevent)
+代表集合[`ExchangeCalendarEvent`](../exchangecalendarevent)
 
 ```csharp
 public sealed class ExchangeCalendarEventCollection : Collection<ExchangeCalendarEvent>

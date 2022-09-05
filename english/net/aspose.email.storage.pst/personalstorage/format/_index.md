@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the file format.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/personalstorage/format/

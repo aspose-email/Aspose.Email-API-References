@@ -1,7 +1,7 @@
 ---
 title: IsLastModifiedDateTimeSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether LastModifiedDateTime property is specified.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.graph/notebook/islastmodifieddatetimespecified/

@@ -1,14 +1,14 @@
 ---
 title: SisterValue
 second_title: Aspose.Email for .NET API 参考
-description: Sister 类别的字符串值
+description: 姐妹类别的字符串值
 type: docs
 weight: 350
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/sistervalue/
 ---
 ## AssociatedPersonCategory.SisterValue field
 
-'Sister' 类别的字符串值
+“姐妹”类别的字符串值
 
 ```csharp
 public const string SisterValue;

@@ -1,12 +1,12 @@
 ---
 title: MoveItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves items.
 type: docs
 weight: 320
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/moveitems/
 ---
-## ExchangeClient.MoveItems method (1 of 2)
+## MoveItems(string, params string[]) {#moveitems_1}
 
 Moves items.
 
@@ -27,7 +27,7 @@ public void MoveItems(string destinationFolderUri, params string[] itemsUriArray
 
 ---
 
-## ExchangeClient.MoveItems method (2 of 2)
+## MoveItems(string, bool, params string[]) {#moveitems}
 
 Moves items.
 

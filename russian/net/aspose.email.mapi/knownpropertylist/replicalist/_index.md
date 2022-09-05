@@ -1,14 +1,14 @@
 ---
 title: ReplicaList
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPLICA_LIST
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPLICA_LIST
 type: docs
 weight: 15840
 url: /ru/net/aspose.email.mapi/knownpropertylist/replicalist/
 ---
 ## KnownPropertyList.ReplicaList field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPLICA_LIST
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPLICA_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplicaList;

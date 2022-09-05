@@ -1,7 +1,7 @@
 ---
 title: Empty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Flags are not set
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapmessageflags/empty/

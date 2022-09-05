@@ -1,7 +1,7 @@
 ---
 title: AppointmentEndWhole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the end date and time for the event. Area Calendar Canonical name PidLidAppointmentEndWhole Alternate names dispidApptEndWhole
 type: docs
 weight: 1170
 url: /net/aspose.email.mapi/knownpropertylist/appointmentendwhole/

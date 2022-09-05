@@ -1,14 +1,14 @@
 ---
 title: BuildResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает сообщения пересылки и ответа.
+description: Создает сообщения для пересылки и ответа.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.tools/responsemessagebuilder/buildresponse/
 ---
 ## BuildResponse(MailMessage) {#buildresponse}
 
-Создает сообщения пересылки и ответа.
+Создает сообщения для пересылки и ответа.
 
 ```csharp
 public abstract MailMessage BuildResponse(MailMessage msg)
@@ -16,7 +16,7 @@ public abstract MailMessage BuildResponse(MailMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msg | MailMessage | Исходное сообщение[`MailMessage`](../../../aspose.email/mailmessage). |
+| msg | MailMessage | Оригинал сообщения[`MailMessage`](../../../aspose.email/mailmessage). |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public abstract MailMessage BuildResponse(MailMessage msg)
 
 ## BuildResponse(MapiMessage) {#buildresponse_1}
 
-Создает сообщения пересылки и ответа.
+Создает сообщения для пересылки и ответа.
 
 ```csharp
 public abstract MapiMessage BuildResponse(MapiMessage msg)
@@ -41,7 +41,7 @@ public abstract MapiMessage BuildResponse(MapiMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msg | MapiMessage | Исходное сообщение[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
+| msg | MapiMessage | Оригинал сообщения[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
 ### Возвращаемое значение
 

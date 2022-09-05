@@ -1,14 +1,14 @@
 ---
 title: ConversationProcessed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于处理对话动作的序号 区域对话操作 规范名称PidLidConversationProcessed 替代名称dispidConvExLegacyProcessedRand
+description: 指定用于处理对话操作的序号 区域对话 Actions 规范名称PidLidConversationProcessed 替代名称dispidConvExLegacyProcessedRand
 type: docs
 weight: 3430
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationprocessed/
 ---
 ## KnownPropertyList.ConversationProcessed field
 
-指定用于处理对话动作的序号。 区域:对话操作 规范名称:PidLidConversationProcessed 替代名称:dispidConvExLegacyProcessedRand
+指定用于处理对话操作的序号。 区域：对话 Actions 规范名称：PidLidConversationProcessed 替代名称：dispidConvExLegacyProcessedRand
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationProcessed;

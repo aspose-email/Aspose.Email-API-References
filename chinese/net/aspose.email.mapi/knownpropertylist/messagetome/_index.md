@@ -1,14 +1,14 @@
 ---
 title: MessageToMe
 second_title: Aspose.Email for .NET API 参考
-description: 表示接收邮箱所有者是此电子邮件的主要收件人之一 区域常规消息属性 规范名称PidTagMessageToMe 替代名称PR_MESSAGE_TO_ME ptagMessageToMe
+description: 表示接收邮箱所有者是此电子邮件的主要收件人之一 区域常规消息属性 规范名称PidTagMessageToMe 备用名称PR_MESSAGE_TO_MEptagMessageToMe
 type: docs
 weight: 12660
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagetome/
 ---
 ## KnownPropertyList.MessageToMe field
 
-表示接收邮箱所有者是此电子邮件的主要收件人之一。 区域:常规消息属性 规范名称:PidTagMessageToMe 替代名称:PR_MESSAGE_TO_ME, ptagMessageToMe
+表示接收邮箱所有者是此电子邮件的主要收件人之一。 区域：常规消息属性 规范名称：PidTagMessageToMe 备用名称：PR_MESSAGE_TO_ME、ptagMessageToMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageToMe;

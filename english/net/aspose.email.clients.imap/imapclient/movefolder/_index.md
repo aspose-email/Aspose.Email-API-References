@@ -1,12 +1,12 @@
 ---
 title: MoveFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves specified folder and its subfolders to new location.
 type: docs
 weight: 910
 url: /net/aspose.email.clients.imap/imapclient/movefolder/
 ---
-## ImapClient.MoveFolder method (1 of 2)
+## MoveFolder(string, string) {#movefolder_1}
 
 Moves specified folder and its subfolders to new location.
 
@@ -27,7 +27,7 @@ public void MoveFolder(string newParentFolder, string folderName)
 
 ---
 
-## ImapClient.MoveFolder method (2 of 2)
+## MoveFolder(IConnection, string, string) {#movefolder}
 
 Moves specified folder and its subfolders to new location.
 

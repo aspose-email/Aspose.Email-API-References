@@ -1,14 +1,14 @@
 ---
 title: CanCreateSubFolders
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值指示客户端是否可以创建子文件夹
+description: 获取或设置一个值表示客户端是否可以创建子文件夹
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/exchangebasepermission/cancreatesubfolders/
 ---
 ## ExchangeBasePermission.CanCreateSubFolders property
 
-获取或设置一个值，指示客户端是否可以创建子文件夹。
+获取或设置一个值，表示客户端是否可以创建子文件夹。
 
 ```csharp
 public bool CanCreateSubFolders { get; set; }

@@ -18,7 +18,7 @@ public class RecurrenceRule
 
 | Имя | Описание |
 | --- | --- |
-| [RecurrenceRule](recurrencerule)() | Инициализирует новый экземпляр класса[`RecurrenceRule`](../recurrencerule). |
+| [RecurrenceRule](recurrencerule)() | Инициализирует новый экземпляр[`RecurrenceRule`](../recurrencerule) класс. |
 
 ## Характеристики
 
@@ -26,17 +26,17 @@ public class RecurrenceRule
 | --- | --- |
 | [ByDay](../../aspose.email.calendar.recurrences/recurrencerule/byday) { get; } | Получает по дням. |
 | [ByHour](../../aspose.email.calendar.recurrences/recurrencerule/byhour) { get; } | Получает по часам. |
-| [ByMinute](../../aspose.email.calendar.recurrences/recurrencerule/byminute) { get; } | Получает поминутно. |
+| [ByMinute](../../aspose.email.calendar.recurrences/recurrencerule/byminute) { get; } | Получает по минутам. |
 | [ByMonth](../../aspose.email.calendar.recurrences/recurrencerule/bymonth) { get; } | Получает по месяцам. |
 | [ByMonthDay](../../aspose.email.calendar.recurrences/recurrencerule/bymonthday) { get; } | Получает день месяца. |
 | [BySecond](../../aspose.email.calendar.recurrences/recurrencerule/bysecond) { get; } | Получает посекундно. |
-| [BySetPos](../../aspose.email.calendar.recurrences/recurrencerule/bysetpos) { get; } | Получает по заданному поз. |
+| [BySetPos](../../aspose.email.calendar.recurrences/recurrencerule/bysetpos) { get; } | Получает по заданной позиции |
 | [ByWeekNo](../../aspose.email.calendar.recurrences/recurrencerule/byweekno) { get; } | Получает номер недели. |
 | [ByYearDay](../../aspose.email.calendar.recurrences/recurrencerule/byyearday) { get; } | Получает день по году. |
-| [Count](../../aspose.email.calendar.recurrences/recurrencerule/count) { get; set; } | Получает или задает счетчик. |
+| [Count](../../aspose.email.calendar.recurrences/recurrencerule/count) { get; set; } | Получает или задает количество. |
 | [EndType](../../aspose.email.calendar.recurrences/recurrencerule/endtype) { get; set; } | Получает или задает тип окончания. |
 | [Frequency](../../aspose.email.calendar.recurrences/recurrencerule/frequency) { get; set; } | Получает или задает тип правила повторения. |
-| [FriendlyText](../../aspose.email.calendar.recurrences/recurrencerule/friendlytext) { get; } | Получает удобный для пользователя текст правила. |
+| [FriendlyText](../../aspose.email.calendar.recurrences/recurrencerule/friendlytext) { get; } | Получает удобный текст правила. |
 | [Interval](../../aspose.email.calendar.recurrences/recurrencerule/interval) { get; set; } | Получает или задает интервал. |
 | [Until](../../aspose.email.calendar.recurrences/recurrencerule/until) { get; set; } | Получает или задает значение until. |
 | [WeekStart](../../aspose.email.calendar.recurrences/recurrencerule/weekstart) { get; set; } | Получает или задает начальный день недели. |
@@ -45,21 +45,21 @@ public class RecurrenceRule
 
 Соответствует части RRULE или EXRULE в iCalendar.
 
-Для создания правила повторения обычно необходимо:
+Чтобы построить правило повторения, вам обычно необходимо:
 
-1. Укажите тип правило в[`Frequency`](./frequency).
+1. Укажите тип правила в[`Frequency`](./frequency).
 
-2. Укажите, как заканчивается шаблон повторения, используя[`EndType`](./endtype), [`Count`](./count)или[`Until`](./until).
+2. Укажите, как заканчивается шаблон повторения, используя[`EndType`](./endtype) , [`Count`](./count)или же[`Until`](./until).
 
 3. Укажите значения в одной или нескольких коллекциях ByXXX.
 
-Обратите внимание, что если найдены значения части правила ByXXX, выходящие за пределы доступной области действия (т. е. BYMONTHDAY=30 в феврале), они просто игнорируются.
+Обратите внимание, что если найдены значения части правила ByXXX, выходящие за рамки available (т. е. BYMONTHDAY=30 в феврале), они просто игнорируются.
 
-Информация, не содержащаяся в правиле, необходимая для определения различных экземпляров повторения время и даты начала получено из[`StartDate`](../calendarrecurrence/startdate). Например, "FREQ=YEARLY;BYMONTH=1" не указывает конкретный день в месяце или время. Эта информация будет такой же, как указано для DTSTART.
+Информация, не содержащаяся в правиле, необходимая для определения различных экземпляров повторения время начала и даты получены из[`StartDate`](../calendarrecurrence/startdate). Например, "FREQ=YEARLY;BYMONTH=1" не указывает конкретный день в месяце или время. Эта информация будет такой же, как указано для DTSTART.
 
-Части правила ByXXX каким-то образом изменяют повторение. Части правила ByXXX для периода времени, который такой же или больше, чем частота, обычно уменьшают или ограничивают количество повторений сгенерированных. Например, "FREQ=DAILY;BYMONTH=1" уменьшает количество экземпляров повторения со всех дней (если отсутствует тег BYMONTH) на все дни января. Части правила ByXXX в течение времени меньше, чем частота, как правило, увеличивают или расширяют количество повторений. Например, "FREQ=YEARLY;BYMONTH=1,2" увеличивает количество дней в наборе годового повторения с 1 (если тег BYMONTH отсутствует) до 2 .
+Части правила ByXXX каким-то образом изменяют повторение. Части правила ByXXX для периода времени, который на такой же или больше, чем частота, обычно уменьшают или ограничивают количество генерируемых повторений the . Например, "FREQ=DAILY;BYMONTH=1" уменьшает количество повторений со всех дней (если отсутствует тег BYMONTH) на все дни января. Части правила ByXXX за период времени меньше, чем частота, как правило, увеличивают или расширяют количество повторений. Например, "FREQ=YEARLY;BYMONTH=1,2" увеличивает количество дней в наборе годового повторения с 1 (если отсутствует тег BYMONTH) до 2.
 
-Если указано несколько частей правила ByXXX, то после оценки указанных частей правила Frequency и Interval Части правила ByXXX применяются к текущему набору оцениваемых вхождений в следующем порядке:[`ByMonth`](./bymonth),[`ByWeekNo`](./byweekno),[`ByYearDay`](./byyearday),[`ByMonthDay`](./bymonthday), [`ByDay`](./byday),[`ByHour`](./byhour),[`ByMinute`](./byminute),[`BySecond`](./bysecond)и [`BySetPos`](./bysetpos); затем оцениваются[`Count`](./count)и[`Until`](./until).
+Если указано несколько частей правила ByXXX, то после оценки указанных частей правила Frequency и Interval части правила ByXXX применяются к текущему набору оцениваемых вхождений в следующем порядке :[`ByMonth`](./bymonth) ,[`ByWeekNo`](./byweekno) ,[`ByYearDay`](./byyearday) ,[`ByMonthDay`](./bymonthday) , [`ByDay`](./byday) ,[`ByHour`](./byhour) ,[`ByMinute`](./byminute) ,[`BySecond`](./bysecond) и [`BySetPos`](./bysetpos) ; тогда[`Count`](./count) а также[`Until`](./until) оцениваются.
 
 ### Смотрите также
 

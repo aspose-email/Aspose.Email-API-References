@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserWorkingHours
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет рабочее время пользователя.
+description: Представляет рабочие часы пользователя.
 type: docs
 weight: 3890
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeuserworkinghours/
 ---
 ## ExchangeUserWorkingHours class
 
-Представляет рабочее время пользователя.
+Представляет рабочие часы пользователя.
 
 ```csharp
 public sealed class ExchangeUserWorkingHours
@@ -18,7 +18,7 @@ public sealed class ExchangeUserWorkingHours
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeUserWorkingHours](exchangeuserworkinghours)() | Инициализирует новый экземпляр класса[`ExchangeUserWorkingHours`](../exchangeuserworkinghours). |
+| [ExchangeUserWorkingHours](exchangeuserworkinghours)() | Инициализирует новый экземпляр[`ExchangeUserWorkingHours`](../exchangeuserworkinghours) класс. |
 
 ## Характеристики
 

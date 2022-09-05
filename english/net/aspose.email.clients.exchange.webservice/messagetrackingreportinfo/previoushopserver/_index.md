@@ -1,7 +1,7 @@
 ---
 title: PreviousHopServer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the previous server name when available that submitted the message.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/previoushopserver/

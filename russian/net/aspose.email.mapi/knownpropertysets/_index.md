@@ -1,14 +1,14 @@
 ---
 title: KnownPropertySets
 second_title: Справочник по Aspose.Email для .NET API
-description: MS-OXCDATAЧасто используемые наборы свойств
+description: MS-OXCDATA часто используемые наборы свойств
 type: docs
 weight: 17860
 url: /ru/net/aspose.email.mapi/knownpropertysets/
 ---
 ## KnownPropertySets class
 
-[MS-OXCDATA]:Часто используемые наборы свойств
+[MS-OXCDATA]: часто используемые наборы свойств
 
 ```csharp
 public static class KnownPropertySets
@@ -18,24 +18,24 @@ public static class KnownPropertySets
 
 | Имя | Описание |
 | --- | --- |
-| static readonly [Address](../../aspose.email.mapi/knownpropertysets/address) | Имя области:Контакт Имя набора свойств:PSETID_Address |
-| static readonly [AirSync](../../aspose.email.mapi/knownpropertysets/airsync) | Имя области:Sync Имя набора свойств:PSETID_AirSync |
-| static readonly [Appointment](../../aspose.email.mapi/knownpropertysets/appointment) | Имя области:Календарь Имя набора свойств:PSETID_Appointment |
-| static readonly [Attachment](../../aspose.email.mapi/knownpropertysets/attachment) | Имя области:Приложение сообщения Имя набора свойств:PSETID_Attachment |
-| static readonly [CalendarAssistant](../../aspose.email.mapi/knownpropertysets/calendarassistant) | Имя области:Календарь Имя набора свойств:PSETID_CalendarAssistant |
-| static readonly [Common](../../aspose.email.mapi/knownpropertysets/common) | Имя области:Common Имя набора свойств:PSETID_Common |
-| static readonly [Entities](../../aspose.email.mapi/knownpropertysets/entities) | Имя области:Извлеченные объекты Имя набора свойств:PSETID_XmlExtractedEntities |
-| static readonly [InternetHeaders](../../aspose.email.mapi/knownpropertysets/internetheaders) | Имя области:Электронная почта Имя набора свойств:PS_INTERNET_HEADERS |
-| static readonly [Log](../../aspose.email.mapi/knownpropertysets/log) | Имя области:Журнал Имя набора свойств:PSETID_Log |
-| static readonly [Mapi](../../aspose.email.mapi/knownpropertysets/mapi) | Имя области:Common Имя набора свойств:PS_MAPI |
-| static readonly [Meeting](../../aspose.email.mapi/knownpropertysets/meeting) | Имя области:Календарь Имя набора свойств:PSETID_Meeting |
-| static readonly [Messaging](../../aspose.email.mapi/knownpropertysets/messaging) | Имя области:Обмен сообщениями Имя набора свойств:PSETID_Messaging |
-| static readonly [Note](../../aspose.email.mapi/knownpropertysets/note) | Имя области:Заметка Имя набора свойств:PSETID_Note |
-| static readonly [PostRss](../../aspose.email.mapi/knownpropertysets/postrss) | Имя области:RSS-канал Имя набора свойств:PSETID_PostRss |
-| static readonly [PublicStrings](../../aspose.email.mapi/knownpropertysets/publicstrings) | Имя области:Common Имя набора свойств:PS_PUBLIC_STRINGS |
-| static readonly [Sharing](../../aspose.email.mapi/knownpropertysets/sharing) | Имя области:Общий доступ Имя набора свойств:PSETID_Sharing |
-| static readonly [Task](../../aspose.email.mapi/knownpropertysets/task) | Имя области:Задача Имя набора свойств:PSETID_Task |
-| static readonly [UnifiedMessaging](../../aspose.email.mapi/knownpropertysets/unifiedmessaging) | Имя области:Единая система обмена сообщениями Имя набора свойств:PSETID_UnifiedMessaging |
+| static readonly [Address](../../aspose.email.mapi/knownpropertysets/address) | Имя области: Контакт Имя набора свойств: PSETID_Address |
+| static readonly [AirSync](../../aspose.email.mapi/knownpropertysets/airsync) | Имя области: Sync Имя набора свойств: PSETID_AirSync |
+| static readonly [Appointment](../../aspose.email.mapi/knownpropertysets/appointment) | Имя области: Календарь Имя набора свойств: PSETID_Appointment |
+| static readonly [Attachment](../../aspose.email.mapi/knownpropertysets/attachment) | Имя области: Приложение сообщения Имя набора свойств: PSETID_Attachment |
+| static readonly [CalendarAssistant](../../aspose.email.mapi/knownpropertysets/calendarassistant) | Имя области: Calendar Имя набора свойств: PSETID_CalendarAssistant |
+| static readonly [Common](../../aspose.email.mapi/knownpropertysets/common) | Имя области: Common Имя набора свойств: PSETID_Common |
+| static readonly [Entities](../../aspose.email.mapi/knownpropertysets/entities) | Имя области: Извлеченные объекты Имя набора свойств: PSETID_XmlExtractedEntities |
+| static readonly [InternetHeaders](../../aspose.email.mapi/knownpropertysets/internetheaders) | Имя области: Электронная почта Имя набора свойств: PS_INTERNET_HEADERS |
+| static readonly [Log](../../aspose.email.mapi/knownpropertysets/log) | Имя области: Журнал Имя набора свойств: PSETID_Log |
+| static readonly [Mapi](../../aspose.email.mapi/knownpropertysets/mapi) | Имя области: Общее Имя набора свойств: PS_MAPI |
+| static readonly [Meeting](../../aspose.email.mapi/knownpropertysets/meeting) | Имя области: Календарь Имя набора свойств: PSETID_Meeting |
+| static readonly [Messaging](../../aspose.email.mapi/knownpropertysets/messaging) | Имя области: Обмен сообщениями Имя набора свойств: PSETID_Обмен сообщениями |
+| static readonly [Note](../../aspose.email.mapi/knownpropertysets/note) | Имя области: заметка Имя набора свойств: PSETID_Note |
+| static readonly [PostRss](../../aspose.email.mapi/knownpropertysets/postrss) | Имя области: RSS-канал Имя набора свойств: PSETID_PostRss |
+| static readonly [PublicStrings](../../aspose.email.mapi/knownpropertysets/publicstrings) | Имя области: Common Имя набора свойств: PS_PUBLIC_STRINGS |
+| static readonly [Sharing](../../aspose.email.mapi/knownpropertysets/sharing) | Имя области: Общий доступ Имя набора свойств: PSETID_Sharing |
+| static readonly [Task](../../aspose.email.mapi/knownpropertysets/task) | Имя области: Задача Имя набора свойств: PSETID_Task |
+| static readonly [UnifiedMessaging](../../aspose.email.mapi/knownpropertysets/unifiedmessaging) | Имя области: Единая система обмена сообщениями Имя набора свойств: PSETID_UnifiedMessaging |
 
 ### Смотрите также
 

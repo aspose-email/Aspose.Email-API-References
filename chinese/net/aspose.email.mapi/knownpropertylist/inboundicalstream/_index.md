@@ -1,14 +1,14 @@
 ---
 title: InboundICalStream
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始 MIME 消息的 iCalendar MIME 部分的内容 区域日历 规范名称PidLidInboundICalStream 替代名称InboundICalStream dispidInboundICalStream
+description: 包含原始 MIME 消息的 iCalendar MIME 部分的内容 区域Calendar 规范名称PidLidInboundICalStream 替代名称InboundICalStreamdispidInboundICalStream
 type: docs
 weight: 11280
 url: /zh/net/aspose.email.mapi/knownpropertylist/inboundicalstream/
 ---
 ## KnownPropertyList.InboundICalStream field
 
-包含原始 MIME 消息的 iCalendar MIME 部分的内容。 区域:日历 规范名称:PidLidInboundICalStream 替代名称:InboundICalStream, dispidInboundICalStream
+包含原始 MIME 消息的 iCalendar MIME 部分的内容。 区域：Calendar 规范名称：PidLidInboundICalStream 替代名称：InboundICalStream、dispidInboundICalStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InboundICalStream;

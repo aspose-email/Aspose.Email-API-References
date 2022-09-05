@@ -1,14 +1,14 @@
 ---
 title: ImportanceChoices
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет уровни важности элемента
+description: Перечисляет уровни важности для элемента
 type: docs
 weight: 3500
 url: /ru/net/aspose.email.clients.exchange/importancechoices/
 ---
 ## ImportanceChoices enumeration
 
-Перечисляет уровни важности элемента
+Перечисляет уровни важности для элемента
 
 ```csharp
 public enum ImportanceChoices
@@ -19,7 +19,7 @@ public enum ImportanceChoices
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Важность не указана |
-| Low | `0` | Низкая важность. |
+| Low | `0` | Указывает низкий уровень важности. |
 | Normal | `1` | Указывает обычную важность. |
 | High | `2` | Указывает высокую важность. |
 

@@ -1,7 +1,7 @@
 ---
 title: Attendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the attendees.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/task/attendees/

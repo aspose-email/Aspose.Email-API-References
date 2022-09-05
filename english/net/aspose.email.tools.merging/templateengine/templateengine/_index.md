@@ -1,12 +1,12 @@
 ---
 title: TemplateEngine
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the TemplateEngineaspose.email.tools.merging/templateengine class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.merging/templateengine/templateengine/
 ---
-## TemplateEngine constructor (1 of 2)
+## TemplateEngine(string) {#constructor_1}
 
 Initializes a new instance of the [`TemplateEngine`](../../templateengine) class.
 
@@ -26,7 +26,7 @@ public TemplateEngine(string fileName)
 
 ---
 
-## TemplateEngine constructor (2 of 2)
+## TemplateEngine(MailMessage) {#constructor}
 
 Initializes a new instance of the [`TemplateEngine`](../../templateengine) class.
 

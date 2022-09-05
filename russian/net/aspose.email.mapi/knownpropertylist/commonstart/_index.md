@@ -1,14 +1,14 @@
 ---
 title: CommonStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время начала для объекта сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidLidCommonStart Альтернативные именаdispidCommonStart
+description: Указывает время начала для объекта сообщения. Область Общие свойства сообщения Каноническое имя PidLidCommonStart Альтернативные имена dispidCommonStart
 type: docs
 weight: 2790
 url: /ru/net/aspose.email.mapi/knownpropertylist/commonstart/
 ---
 ## KnownPropertyList.CommonStart field
 
-Указывает время начала для объекта сообщения. Область:Общие свойства сообщения Каноническое имя:PidLidCommonStart Альтернативные имена:dispidCommonStart
+Указывает время начала для объекта сообщения. Область: Общие свойства сообщения Каноническое имя: PidLidCommonStart Альтернативные имена: dispidCommonStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CommonStart;

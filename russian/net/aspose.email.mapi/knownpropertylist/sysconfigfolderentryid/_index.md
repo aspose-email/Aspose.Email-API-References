@@ -1,14 +1,14 @@
 ---
 title: SysConfigFolderEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SYS_CONFIG_FOLDER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SYS_CONFIG_FOLDER_ENTRYID
 type: docs
 weight: 18460
 url: /ru/net/aspose.email.mapi/knownpropertylist/sysconfigfolderentryid/
 ---
 ## KnownPropertyList.SysConfigFolderEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SYS_CONFIG_FOLDER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SYS_CONFIG_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SysConfigFolderEntryid;

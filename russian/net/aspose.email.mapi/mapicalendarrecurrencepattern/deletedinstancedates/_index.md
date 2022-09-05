@@ -1,14 +1,14 @@
 ---
 title: DeletedInstanceDates
 second_title: Справочник по Aspose.Email для .NET API
-description: Массив дат каждая из которых является исходной датой экземпляра удаленного экземпляра или измененного экземпляра для этого повторения.
+description: Массив дат каждая из которых является датой исходного экземпляра либо удаленного экземпляра либо измененного экземпляра для этого повторения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/
 ---
 ## MapiCalendarRecurrencePattern.DeletedInstanceDates property
 
-Массив дат, каждая из которых является исходной датой экземпляра удаленного экземпляра или измененного экземпляра для этого повторения.
+Массив дат, каждая из которых является датой исходного экземпляра либо удаленного экземпляра, либо измененного экземпляра для этого повторения.
 
 ```csharp
 public IList<DateTime> DeletedInstanceDates { get; }

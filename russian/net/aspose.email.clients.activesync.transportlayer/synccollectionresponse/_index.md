@@ -26,10 +26,10 @@ public class SyncCollectionResponse
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/class) { get; set; } | Идентифицирует класс элемента, добавляемого в коллекцию. Используется только при версии протокола 12.1. |
 | [CollectionId](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/collectionid) { get; set; } | Указывает идентификатор сервера папки для синхронизации. |
-| [Commands](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands) { get; set; } | Содержит операции, которые применяются к коллекции. Доступные операции:«Добавить», «Удалить», «Изменить», «Мягкое удаление». |
-| [MoreAvailable](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable) { get; set; } | Указывает, что изменений больше, чем количество, запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения синхронизации, содержащие MoreAvailable и от нуля (0) до изменения схемы WindowSize, когда он сталкивается с элементами, внешними по отношению к протоколу. |
+| [Commands](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands) { get; set; } | Содержит операции, которые применяются к коллекции. Доступные операции: «Добавить», «Удалить», «Изменить», «Мягкое удаление». |
+| [MoreAvailable](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable) { get; set; } | Указывает, что имеется больше изменений, чем число, запрошенное в элементе WindowSize. В Exchange 2007 сервер отправляет ответные сообщения Sync, содержащие MoreAvailable и от нуля (0) до изменения схемы WindowSize, когда он сталкивается с элементами, внешними по отношению к протоколу. |
 | [Responses](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/responses) { get; set; } | Содержит ответы на такие операции, как Add, Fetch, Change, которые обрабатываются сервером. |
-| [Status](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/status) { get; set; } | Указывает статус выполнения команды |
+| [Status](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/status) { get; set; } | Указывает статус команды operation |
 | [SyncKey](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/synckey) { get; set; } | Значение SyncKey используется сервером для обозначения состояния синхронизации коллекции. Ключ синхронизации со значением 0 (ноль) инициализирует состояние синхронизации на сервере и вызывает полную синхронизацию коллекции. |
 
 ### Смотрите также

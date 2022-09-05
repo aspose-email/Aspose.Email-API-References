@@ -20,7 +20,7 @@ public List<MessageThreadResult> GetMessageThreads(BaseSearchConditions conditio
 
 ### Возвращаемое значение
 
-Темы сообщений
+Цепочки сообщений
 
 ### Смотрите также
 
@@ -43,12 +43,12 @@ public List<MessageThreadResult> GetMessageThreads(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | conditions | BaseSearchConditions | Условия потока. |
 
 ### Возвращаемое значение
 
-Темы сообщений
+Цепочки сообщений
 
 ### Смотрите также
 

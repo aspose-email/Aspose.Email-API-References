@@ -1,14 +1,14 @@
 ---
 title: ReferredByName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的推荐人的名称 区域MapiMailUser 规范名称PidTagReferredByName 备用名称PR_REFERRED_BY_NAME PR_REFERRED_BY_NAME_A PR_REFERRED_BY_NAME_W
+description: 包含邮件用户推荐的名称 区域MapiMailUser 规范名称PidTagReferredByName 替代名称PR_REFERRED_BY_NAMEPR_REFERRED_BY_NAME_APR_REFERRED_BY_NAME_W
 type: docs
 weight: 15640
 url: /zh/net/aspose.email.mapi/knownpropertylist/referredbyname/
 ---
 ## KnownPropertyList.ReferredByName field
 
-包含邮件用户的推荐人的名称。 区域:MapiMailUser 规范名称:PidTagReferredByName 备用名称:PR_REFERRED_BY_NAME, PR_REFERRED_BY_NAME_A, PR_REFERRED_BY_NAME_W
+包含邮件用户推荐的名称。 区域：MapiMailUser 规范名称：PidTagReferredByName 替代名称：PR_REFERRED_BY_NAME、PR_REFERRED_BY_NAME_A、PR_REFERRED_BY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReferredByName;

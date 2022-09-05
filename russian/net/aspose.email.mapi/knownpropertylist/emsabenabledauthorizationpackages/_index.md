@@ -1,14 +1,14 @@
 ---
 title: EmsAbEnabledAuthorizationPackages
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES
 type: docs
 weight: 6100
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabenabledauthorizationpackages/
 ---
 ## KnownPropertyList.EmsAbEnabledAuthorizationPackages field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ENABLED_AUTHORIZATION_PACKAGES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbEnabledAuthorizationPackages;

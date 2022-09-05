@@ -1,14 +1,14 @@
 ---
 title: CreatorEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 根据通讯簿条目 ID 指定消息的原始作者 区域ID 属性 规范名称PidTagCreatorEntryId 替代名称PR_CREATOR_ENTRYID ptagCreatorEntryId
+description: 根据通讯簿条目 ID 指定消息的原始作者 区域ID Properties 规范名称PidTagCreatorEntryId 替代名称PR_CREATOR_ENTRYIDptagCreatorEntryId
 type: docs
 weight: 3560
 url: /zh/net/aspose.email.mapi/knownpropertylist/creatorentryid/
 ---
 ## KnownPropertyList.CreatorEntryId field
 
-根据通讯簿条目 ID 指定消息的原始作者。 区域:ID 属性 规范名称:PidTagCreatorEntryId 替代名称:PR_CREATOR_ENTRYID, ptagCreatorEntryId
+根据通讯簿条目 ID 指定消息的原始作者。 区域：ID Properties 规范名称：PidTagCreatorEntryId 替代名称：PR_CREATOR_ENTRYID、ptagCreatorEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CreatorEntryId;

@@ -1,14 +1,14 @@
 ---
 title: AppointmentRecur
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает даты и время появления повторяющейся серии. ОбластьКалендарь Каноническое имяPidLidAppointmentRecur Альтернативные именаdispidApptRecur
+description: Определяет даты и время появления повторяющейся серии. Область Calendar Каноническое имя PidLidAppointmentRecur Альтернативные имена dispidApptRecur
 type: docs
 weight: 1250
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentrecur/
 ---
 ## KnownPropertyList.AppointmentRecur field
 
-Указывает даты и время появления повторяющейся серии. Область:Календарь Каноническое имя:PidLidAppointmentRecur Альтернативные имена:dispidApptRecur
+Определяет даты и время появления повторяющейся серии. Область: Calendar Каноническое имя: PidLidAppointmentRecur Альтернативные имена: dispidApptRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentRecur;

@@ -1,14 +1,14 @@
 ---
 title: TimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 指定定期会议的时区信息 区域会议 规范名称PidLidTimeZone 别名LID_TIME_ZONE
+description: 指定有关定期会议时区的信息 区域Meetings 规范名称PidLidTimeZone 替代名称LID_TIME_ZONE
 type: docs
 weight: 18970
 url: /zh/net/aspose.email.mapi/knownpropertylist/timezone/
 ---
 ## KnownPropertyList.TimeZone field
 
-指定定期会议的时区信息。 区域:会议 规范名称:PidLidTimeZone 别名:LID_TIME_ZONE
+指定有关定期会议时区的信息。 区域：Meetings 规范名称：PidLidTimeZone 替代名称：LID_TIME_ZONE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TimeZone;

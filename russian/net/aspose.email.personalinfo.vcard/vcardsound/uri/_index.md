@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает uri звука  null ifvalueLocationis встроенный 
+description: Получает или задает uri звука нулевой еслиvalueLocation являетсяв соответствии
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsound/uri/
 ---
 ## VCardSound.Uri property
 
-Получает или задает uri звука (` null` ifvalueLocationis` встроенный` )
+Получает или задает uri звука (`нулевой` еслиvalueLocation является`в соответствии`)
 
 ```csharp
 public string Uri { get; set; }

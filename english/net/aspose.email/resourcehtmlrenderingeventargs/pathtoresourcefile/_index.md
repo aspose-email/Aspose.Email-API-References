@@ -1,7 +1,7 @@
 ---
 title: PathToResourceFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Path to resource file.
 type: docs
 weight: 30
 url: /net/aspose.email/resourcehtmlrenderingeventargs/pathtoresourcefile/

@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置发件人代表的消息传递用户的显示名称
+description: 获取或设置发件人所代表的消息传递用户的显示名称
 type: docs
 weight: 280
 url: /zh/net/aspose.email.mapi/mapimessage/sentrepresentingname/
 ---
 ## MapiMessage.SentRepresentingName property
 
-获取或设置发件人代表的消息传递用户的显示名称。
+获取或设置发件人所代表的消息传递用户的显示名称。
 
 ```csharp
 public string SentRepresentingName { get; set; }
@@ -16,11 +16,11 @@ public string SentRepresentingName { get; set; }
 
 ### 适当的价值
 
-表示发送的字符串，表示名称。
+表示已发送的字符串，代表名称。
 
 ### 评论
 
-设置空值或空字符串时, 的值属性在 SentRepresentingEmailAddress 中设置。
+设置空值或空字符串时， 属性的值在 SentRepresentingEmailAddress 中设置。
 
 ### 也可以看看
 

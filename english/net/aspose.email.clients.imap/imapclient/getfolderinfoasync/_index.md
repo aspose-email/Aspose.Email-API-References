@@ -1,12 +1,64 @@
 ---
 title: GetFolderInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns information about the specified folder without selecting it
 type: docs
 weight: 700
 url: /net/aspose.email.clients.imap/imapclient/getfolderinfoasync/
 ---
-## ImapClient.GetFolderInfoAsync method (1 of 4)
+## GetFolderInfoAsync(IConnection, string) {#getfolderinfoasync}
+
+Returns information about the specified folder without selecting it
+
+```csharp
+public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to retrieve information about |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfo](../../imapfolderinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## GetFolderInfoAsync(string) {#getfolderinfoasync_2}
+
+Returns information about the specified folder without selecting it
+
+```csharp
+public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve information about |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfo](../../imapfolderinfo)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## GetFolderInfoAsync(IConnection, string, CancellationToken) {#getfolderinfoasync_1}
 
 Returns information about the specified folder without selecting it
 
@@ -35,7 +87,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetFolderInfoAsync method (2 of 4)
+## GetFolderInfoAsync(string, CancellationToken) {#getfolderinfoasync_3}
 
 Returns information about the specified folder without selecting it
 
@@ -47,58 +99,6 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationTo
 | --- | --- | --- |
 | folderName | String | Folder to retrieve information about |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfo](../../imapfolderinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.GetFolderInfoAsync method (3 of 4)
-
-Returns information about the specified folder without selecting it
-
-```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| folderName | String | Folder to retrieve information about |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfo](../../imapfolderinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.GetFolderInfoAsync method (4 of 4)
-
-Returns information about the specified folder without selecting it
-
-```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Folder to retrieve information about |
 
 ### Return Value
 

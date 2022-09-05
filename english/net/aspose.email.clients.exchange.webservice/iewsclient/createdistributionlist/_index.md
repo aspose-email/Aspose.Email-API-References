@@ -1,7 +1,7 @@
 ---
 title: CreateDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the private Distribution List.
 type: docs
 weight: 490
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createdistributionlist/

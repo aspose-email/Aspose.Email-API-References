@@ -1,7 +1,7 @@
 ---
 title: GlobalHasAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether at least one conversation item in a mailbox has an attachment.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalhasattachments/

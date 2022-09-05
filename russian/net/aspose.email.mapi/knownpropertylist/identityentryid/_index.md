@@ -1,14 +1,14 @@
 ---
 title: IdentityEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IDENTITY_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IDENTITY_ENTRYID
 type: docs
 weight: 11230
 url: /ru/net/aspose.email.mapi/knownpropertylist/identityentryid/
 ---
 ## KnownPropertyList.IdentityEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IDENTITY_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IDENTITY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IdentityEntryid;

@@ -1,9 +1,9 @@
 ---
 title: MapiContactNamePropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The properties are used to specify the name of the person represented by the contact
 type: docs
-weight: 18050
+weight: 18260
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/
 ---
 ## MapiContactNamePropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactNamePropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactNamePropertySet](mapicontactnamepropertyset)() | Initializes a new instance of [`MapiContactNamePropertySet`](../mapicontactnamepropertyset) class |
-| [MapiContactNamePropertySet](mapicontactnamepropertyset)(string, string, string) | Initializes a new instance of [`MapiContactNamePropertySet`](../mapicontactnamepropertyset) class. |
+| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor)() | Initializes a new instance of [`MapiContactNamePropertySet`](../mapicontactnamepropertyset) class |
+| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor_1)(string, string, string) | Initializes a new instance of [`MapiContactNamePropertySet`](../mapicontactnamepropertyset) class. |
 
 ## Properties
 

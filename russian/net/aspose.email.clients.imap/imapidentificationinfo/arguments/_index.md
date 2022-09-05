@@ -1,14 +1,14 @@
 ---
 title: Arguments
 second_title: Справочник по Aspose.Email для .NET API
-description: Аргументы передаваемые в командной строке если они есть.
+description: Аргументы указанные в командной строке если таковые имеются.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/arguments/
 ---
 ## ImapIdentificationInfo.Arguments property
 
-Аргументы, передаваемые в командной строке, если они есть.
+Аргументы, указанные в командной строке, если таковые имеются.
 
 ```csharp
 public string Arguments { get; set; }

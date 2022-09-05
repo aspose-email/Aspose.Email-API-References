@@ -1,7 +1,7 @@
 ---
 title: Boundary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the value of the boundary parameter included in the ContentType header.
 type: docs
 weight: 20
 url: /net/aspose.email.mime/contenttype/boundary/

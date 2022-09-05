@@ -16,7 +16,7 @@ public StringComparisonField ContainerClass { get; }
 
 ### Стоимость имущества
 
-The[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)который представляет класс контейнера.
+[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) который представляет класс контейнера.
 
 ### Смотрите также
 

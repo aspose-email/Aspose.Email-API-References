@@ -1,7 +1,7 @@
 ---
 title: NoteWidth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the width of the visible message window in pixels. Area Sticky Notes Canonical name PidLidNoteWidth Alternate names dispidNoteWidth
 type: docs
 weight: 13140
 url: /net/aspose.email.mapi/knownpropertylist/notewidth/

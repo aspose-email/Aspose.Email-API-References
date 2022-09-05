@@ -1,7 +1,7 @@
 ---
 title: UseDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which indicates whether date is used for logging.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.logging/fileappender/usedate/

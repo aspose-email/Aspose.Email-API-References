@@ -1,7 +1,7 @@
 ---
 title: AccessRole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The effective access role that the authenticated user has on the calendar. Readonly. Possible values are
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/extendedcalendar/accessrole/

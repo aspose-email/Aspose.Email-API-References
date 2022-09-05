@@ -1,7 +1,7 @@
 ---
 title: OtherTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an alternate telephone number
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/othertelephonenumber/

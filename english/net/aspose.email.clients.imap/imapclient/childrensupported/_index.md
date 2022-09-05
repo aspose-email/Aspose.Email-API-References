@@ -1,7 +1,7 @@
 ---
 title: ChildrenSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether CHILDREN extension is supported See more https//tools.ietf.org/html/rfc3348
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapclient/childrensupported/

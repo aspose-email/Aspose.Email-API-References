@@ -1,14 +1,14 @@
 ---
 title: GetLong
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает первые 8 байтов двоичных данных заданной длины.
+description: Получает первые 8 байтов двоичных данных такой длины.
 type: docs
 weight: 230
 url: /ru/net/aspose.email.mapi/mapiproperty/getlong/
 ---
 ## MapiProperty.GetLong method
 
-Получает первые 8 байтов двоичных данных заданной длины.
+Получает первые 8 байтов двоичных данных такой длины.
 
 ```csharp
 public virtual long GetLong()

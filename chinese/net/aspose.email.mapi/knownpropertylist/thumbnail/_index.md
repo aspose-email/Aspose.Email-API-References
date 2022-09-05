@@ -1,14 +1,14 @@
 ---
 title: Thumbnail
 second_title: Aspose.Email for .NET API 参考
-description: 指定表示文档缩略图的数据 区域普通 规范名称PidNameThumbnail 替代名称urnschemas-microsoft-comofficeofficeThumbNail
+description: 指定表示文档缩略图的数据 区域Common 规范名称PidNameThumbnail 替代名称urnschemas-microsoft-comofficeofficeThumbNail
 type: docs
 weight: 18950
 url: /zh/net/aspose.email.mapi/knownpropertylist/thumbnail/
 ---
 ## KnownPropertyList.Thumbnail field
 
-指定表示文档缩略图的数据。 区域：普通 规范名称：PidNameThumbnail 替代名称：urn:schemas-microsoft-com:office:office#ThumbNail
+指定表示文档缩略图的数据。 区域：Common 规范名称：PidNameThumbnail 替代名称：urn:schemas-microsoft-com:office:office#ThumbNail
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Thumbnail;

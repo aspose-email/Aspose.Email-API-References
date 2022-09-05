@@ -1,14 +1,14 @@
 ---
 title: ObjectType
 second_title: Aspose.Email for .NET API 参考
-description: 表示服务器对象的类型 区域通用 规范名称PidTagObjectType 替代名称PR_OBJECT_TYPE ptagObjectType
+description: 表示服务器对象的类型 区域Common 规范名称PidTagObjectType 备用名称PR_OBJECT_TYPEptagObjectType
 type: docs
 weight: 13180
 url: /zh/net/aspose.email.mapi/knownpropertylist/objecttype/
 ---
 ## KnownPropertyList.ObjectType field
 
-表示服务器对象的类型。 区域:通用 规范名称:PidTagObjectType 替代名称:PR_OBJECT_TYPE, ptagObjectType
+表示服务器对象的类型。 区域：Common 规范名称：PidTagObjectType 备用名称：PR_OBJECT_TYPE、ptagObjectType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ObjectType;

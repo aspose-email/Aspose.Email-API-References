@@ -1,14 +1,14 @@
 ---
 title: SmtpSend
 second_title: Aspose.Email for .NET API 参考
-description: SendAsync../aspose.email.clients.smtp/iasyncsmtpclient/sendasync方法参数集
+description: SendAsync../aspose.email.clients.smtp/iasyncsmtpclient/sendasync方法参数集.
 type: docs
 weight: 17010
 url: /zh/net/aspose.email.clients.smtp.models/smtpsend/
 ---
 ## SmtpSend class
 
-[`SendAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/sendasync)方法参数集。
+[`SendAsync`](../../aspose.email.clients.smtp/iasyncsmtpclient/sendasync)方法参数集.
 
 ```csharp
 public class SmtpSend
@@ -18,7 +18,7 @@ public class SmtpSend
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.smtp.models/smtpsend/create)() | 创建[`SmtpSend`](../smtpsend)。 |
+| static [Create](../../aspose.email.clients.smtp.models/smtpsend/create)() | 创建[`SmtpSend`](../smtpsend). |
 | [AddMessage](../../aspose.email.clients.smtp.models/smtpsend/addmessage#addmessage)(MailMessage) | 添加要发送的消息。 |
 | [AddMessage](../../aspose.email.clients.smtp.models/smtpsend/addmessage#addmessage_1)(string, string, string, string) | 添加要发送的消息。 |
 | [AddMessages](../../aspose.email.clients.smtp.models/smtpsend/addmessages)(IEnumerable&lt;MailMessage&gt;) | 添加要发送的消息。 |

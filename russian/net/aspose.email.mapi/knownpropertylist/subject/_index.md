@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тему файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameSubject Альтернативные именаurnschemas-microsoft-comofficeofficeSubject
+description: Указывает тему файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameSubject Альтернативные имена urnschemas-microsoft-comofficeofficeSubject
 type: docs
 weight: 18340
 url: /ru/net/aspose.email.mapi/knownpropertylist/subject/
 ---
 ## KnownPropertyList.Subject field
 
-Указывает тему файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameSubject Альтернативные имена:urn:schemas-microsoft-com:office:office#Subject
+Указывает тему файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameSubject Альтернативные имена: urn:schemas-microsoft-com:office:office#Subject
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Subject;

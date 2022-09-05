@@ -1,7 +1,7 @@
 ---
 title: EndRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets ending boundary of the range to search
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/rangeseqset/endrange/

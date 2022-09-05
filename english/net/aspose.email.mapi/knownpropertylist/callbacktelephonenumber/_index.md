@@ -1,7 +1,7 @@
 ---
 title: CallbackTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a telephone number to reach the mail user. Area Contact Properties Canonical name PidTagCallbackTelephoneNumber Alternate names PR_CALLBACK_TELEPHONE_NUMBER PR_CALLBACK_TELEPHONE_NUMBER_A
 type: docs
 weight: 2470
 url: /net/aspose.email.mapi/knownpropertylist/callbacktelephonenumber/

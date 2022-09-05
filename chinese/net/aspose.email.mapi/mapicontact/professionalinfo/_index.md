@@ -1,14 +1,14 @@
 ---
 title: ProfessionalInfo
 second_title: Aspose.Email for .NET API 参考
-description: 属性用于存储联系人所代表人员的专业 详细信息
+description: 属性用于存储联系人代表的人的专业 详细信息
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mapi/mapicontact/professionalinfo/
 ---
 ## MapiContact.ProfessionalInfo property
 
-属性用于存储联系人所代表人员的专业 详细信息
+属性用于存储联系人代表的人的专业 详细信息
 
 ```csharp
 public MapiContactProfessionalPropertySet ProfessionalInfo { get; set; }

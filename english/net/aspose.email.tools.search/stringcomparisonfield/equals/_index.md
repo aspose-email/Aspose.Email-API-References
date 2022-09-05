@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must be equal to the specified value.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/stringcomparisonfield/equals/
 ---
-## StringComparisonField.Equals method (1 of 2)
+## Equals(string) {#equals}
 
 Indicates that field in message must be equal to the specified value.
 
@@ -31,7 +31,7 @@ public MailQuery Equals(string value)
 
 ---
 
-## StringComparisonField.Equals method (2 of 2)
+## Equals(string, bool) {#equals_1}
 
 Indicates that field in message must be equal to the specified value.
 

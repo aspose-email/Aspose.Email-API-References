@@ -1,14 +1,14 @@
 ---
 title: ConversationTopic
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始主题的不变副本 区域常规消息属性 规范名称PidTagConversationTopic 替代名称PR_CONVERSATION_TOPIC PR_CONVERSATION_TOPIC_A
+description: 包含原始主题的不变副本 区域常规消息属性 规范名称PidTagConversationTopic 替代名称PR_CONVERSATION_TOPICPR_CONVERSATION_TOPIC_A
 type: docs
 weight: 3440
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationtopic/
 ---
 ## KnownPropertyList.ConversationTopic field
 
-包含原始主题的不变副本。 区域:常规消息属性 规范名称:PidTagConversationTopic 替代名称:PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A,
+包含原始主题的不变副本。 区域：常规消息属性 规范名称：PidTagConversationTopic 替代名称：PR_CONVERSATION_TOPIC、PR_CONVERSATION_TOPIC_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationTopic;

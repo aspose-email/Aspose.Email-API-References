@@ -1,14 +1,14 @@
 ---
 title: FileDropPanel
 second_title: Справочник по Aspose.Email для .NET API
-description: FileDropPanel позволяет обрабатывать файлы перетаскиваемые из Outlook или откуда-либо еще.
+description: FileDropPanel позволяет обрабатывать файлы перетаскиваемые из Outlook или из других источников.
 type: docs
-weight: 20950
+weight: 21000
 url: /ru/net/aspose.email.windows.wpf/filedroppanel/
 ---
 ## FileDropPanel class
 
-FileDropPanel позволяет обрабатывать файлы, перетаскиваемые из Outlook или откуда-либо еще.
+FileDropPanel позволяет обрабатывать файлы, перетаскиваемые из Outlook или из других источников.
 
 ```csharp
 public sealed class FileDropPanel : UserControl
@@ -18,7 +18,7 @@ public sealed class FileDropPanel : UserControl
 
 | Имя | Описание |
 | --- | --- |
-| [FileDropPanel](filedroppanel)() | Инициализирует новый экземпляр класса[`FileDropPanel`](../filedroppanel). |
+| [FileDropPanel](filedroppanel)() | Инициализирует новый экземпляр[`FileDropPanel`](../filedroppanel) класс. |
 
 ### Примечания
 

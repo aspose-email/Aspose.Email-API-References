@@ -24,13 +24,13 @@ public class ItemOperationsFetchResponce
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Class](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class) { get; set; } | 标识项目的类别。 有效的 Class 元素值为: - 电子邮件 - 联系人 - 日历 - 任务 |
+| [Class](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class) { get; set; } | 标识项目的类。 有效的类元素值为： - Email - Contacts - Calendar - Tasks |
 | [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/collectionid) { get; set; } | 指定必须获取的文件夹。 包含文件夹的 ServerId。 |
-| [LinkId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid) { get; set; } | 指定服务器分配给某些资源（如 Windows SharePoint Services 或 UNC 文档）的统一资源标识符 (URI)。 Fetch 元素可以使用它来引用项目的位置。 |
+| [LinkId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid) { get; set; } | 指定由服务器分配给某些资源（例如 Windows SharePoint Services 或 UNC 文档）的统一资源标识符 (URI)。 Fetch 元素可以使用它来引用项目的位置。 |
 | [LongId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/longid) { get; set; } | 指定由服务器分配给先前搜索响应返回的每个结果的唯一标识符。 LongId 元素值最长可达 256 个字符。 |
 | [Properties](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/properties) { get; set; } | 包含为响应中的项目返回的属性。 |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid) { get; set; } | 指定一个唯一标识符，由服务器分配给每个可以同步或应用项目操作的对象。 |
-| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/status) { get; set; } | 包含指示 ItemOperations 操作成功或失败的代码和描述 |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid) { get; set; } | 指定一个唯一标识符，由服务器分配给可以同步或对其应用项目操作的每个对象。 |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/status) { get; set; } | 包含指示ItemOperations操作成功或失败的代码和描述 |
 
 ### 也可以看看
 

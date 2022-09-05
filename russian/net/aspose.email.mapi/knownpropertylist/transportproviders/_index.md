@@ -1,14 +1,14 @@
 ---
 title: TransportProviders
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_TRANSPORT_PROVIDERS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_TRANSPORT_PROVIDERS
 type: docs
 weight: 19120
 url: /ru/net/aspose.email.mapi/knownpropertylist/transportproviders/
 ---
 ## KnownPropertyList.TransportProviders field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_TRANSPORT_PROVIDERS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_TRANSPORT_PROVIDERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportProviders;

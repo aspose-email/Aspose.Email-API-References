@@ -1,14 +1,14 @@
 ---
 title: InternetAccountStamp
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于发送电子邮件的电子邮件帐户 ID 区域常规消息属性 规范名称PidLidInternetAccountStamp 替代名称dispidInetAcctStamp
+description: 指定用于发送电子邮件的电子邮件帐户 ID 区域常规消息属性 规范名称PidLidInternetAccountStamp 备用名称dispidInetAcctStamp
 type: docs
 weight: 11420
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetaccountstamp/
 ---
 ## KnownPropertyList.InternetAccountStamp field
 
-指定用于发送电子邮件的电子邮件帐户 ID。 区域:常规消息属性 规范名称:PidLidInternetAccountStamp 替代名称:dispidInetAcctStamp
+指定用于发送电子邮件的电子邮件帐户 ID。 区域：常规消息属性 规范名称：PidLidInternetAccountStamp 备用名称：dispidInetAcctStamp
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InternetAccountStamp;

@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the display name of folder.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.graph/folderinfo/displayname/

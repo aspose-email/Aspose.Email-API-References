@@ -1,14 +1,14 @@
 ---
 title: Nickname
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的昵称 区域地址属性 规范名称PidTagNickname 别名PR_NICKNAME PR_NICKNAME_A PR_NICKNAME_W
+description: 包含邮件用户的昵称 区域地址属性 规范名称PidTagNickname 备用名称PR_NICKNAMEPR_NICKNAME_APR_NICKNAME_W
 type: docs
 weight: 12900
 url: /zh/net/aspose.email.mapi/knownpropertylist/nickname/
 ---
 ## KnownPropertyList.Nickname field
 
-包含邮件用户的昵称。 区域:地址属性 规范名称:PidTagNickname 别名:PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W,
+包含邮件用户的昵称。 区域：地址属性 规范名称：PidTagNickname 备用名称：PR_NICKNAME、PR_NICKNAME_A、PR_NICKNAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Nickname;

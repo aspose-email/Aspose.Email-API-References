@@ -1,7 +1,7 @@
 ---
 title: CreateRuleMoveFrom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates inbox rule that moves messages from specified senders into the specified folder
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/inboxrule/createrulemovefrom/

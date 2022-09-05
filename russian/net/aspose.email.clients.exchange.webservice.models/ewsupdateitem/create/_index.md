@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует файлUpdateItemAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasyncпараметр метода установленный с элементом MapiTask .
+description: ИнициализируетUpdateItemAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync набор параметров метода с помощью MapiTask item.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/create/
 ---
 ## Create(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) {#create_3}
 
-Инициализирует файл[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiTask .
+Инициализирует[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiTask item.
 
 ```csharp
 public static EwsUpdateItem Create(MapiTask item, 
@@ -18,7 +18,7 @@ public static EwsUpdateItem Create(MapiTask item,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | item | MapiTask | Элемент для обновления |
-| additionalProperties | IEnumerable`1 | Дополнительные дескрипторы свойств . |
+| additionalProperties | IEnumerable`1 | Дополнительные дескрипторы свойств. |
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public static EwsUpdateItem Create(MapiTask item,
 
 ## Create(MapiContact) {#create_1}
 
-Инициализирует файл[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)набор параметров метода с элементом MapiContact .
+Инициализирует[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с MapiContact item.
 
 ```csharp
 public static EwsUpdateItem Create(MapiContact item)
@@ -53,7 +53,7 @@ public static EwsUpdateItem Create(MapiContact item)
 
 ## Create(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) {#create_2}
 
-Инициализирует файл[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiNote .
+Инициализирует[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiNote item.
 
 ```csharp
 public static EwsUpdateItem Create(MapiNote item, 
@@ -63,7 +63,7 @@ public static EwsUpdateItem Create(MapiNote item,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | item | MapiNote | Элемент для обновления |
-| additionalProperties | IEnumerable`1 | Дополнительные дескрипторы свойств . |
+| additionalProperties | IEnumerable`1 | Дополнительные дескрипторы свойств. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public static EwsUpdateItem Create(MapiNote item,
 
 ## Create(MapiCalendar, string) {#create}
 
-Инициализирует файл[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiCalendar .
+Инициализирует[`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiCalendar item.
 
 ```csharp
 public static EwsUpdateItem Create(MapiCalendar item, string folderUri = null)
@@ -86,7 +86,7 @@ public static EwsUpdateItem Create(MapiCalendar item, string folderUri = null)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | item | MapiCalendar | Элемент для обновления |
-| folderUri | String | URI родительская папка. |
+| folderUri | String | URI родительской папки. |
 
 ### Смотрите также
 

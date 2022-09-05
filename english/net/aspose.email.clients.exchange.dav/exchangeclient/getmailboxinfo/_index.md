@@ -1,12 +1,12 @@
 ---
 title: GetMailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the information of the mailbox
 type: docs
 weight: 230
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/getmailboxinfo/
 ---
-## ExchangeClient.GetMailboxInfo method (1 of 2)
+## GetMailboxInfo() {#getmailboxinfo}
 
 Get the information of the mailbox
 
@@ -27,7 +27,7 @@ The information of the mailbox
 
 ---
 
-## ExchangeClient.GetMailboxInfo method (2 of 2)
+## GetMailboxInfo(string) {#getmailboxinfo_1}
 
 Gets the mailbox information
 

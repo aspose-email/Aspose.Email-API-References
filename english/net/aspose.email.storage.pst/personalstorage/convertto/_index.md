@@ -1,7 +1,7 @@
 ---
 title: ConvertTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the current object to the specified format.
 type: docs
 weight: 130
 url: /net/aspose.email.storage.pst/personalstorage/convertto/

@@ -1,14 +1,14 @@
 ---
 title: PR_AB_DEFAULT_DIR
 second_title: Aspose.Email for .NET API 参考
-description: PR_AB_DEFAULT_DIR 属性包含要首先显示给用户的地址簿容器的条目标识符
+description: PR_AB_DEFAULT_DIR 属性包含首先向用户显示的地址簿容器的条目标识符
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_ab_default_dir/
 ---
 ## MapiPropertyTag.PR_AB_DEFAULT_DIR field
 
-PR_AB_DEFAULT_DIR 属性包含要首先显示给用户的地址簿容器的条目标识符。
+PR_AB_DEFAULT_DIR 属性包含首先向用户显示的地址簿容器的条目标识符。
 
 ```csharp
 public static readonly long PR_AB_DEFAULT_DIR;

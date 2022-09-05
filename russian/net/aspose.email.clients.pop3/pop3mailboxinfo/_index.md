@@ -18,7 +18,7 @@ public class Pop3MailboxInfo
 
 | Имя | Описание |
 | --- | --- |
-| [Pop3MailboxInfo](pop3mailboxinfo)(int, long) | Инициализирует новый экземпляр класса[`Pop3MailboxInfo`](../pop3mailboxinfo). |
+| [Pop3MailboxInfo](pop3mailboxinfo)(int, long) | Инициализирует новый экземпляр[`Pop3MailboxInfo`](../pop3mailboxinfo) класс. |
 
 ## Характеристики
 
@@ -31,7 +31,7 @@ public class Pop3MailboxInfo
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.email.clients.pop3/pop3mailboxinfo/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.clients.pop3/pop3mailboxinfo/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

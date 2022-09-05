@@ -1,14 +1,14 @@
 ---
 title: SharingLastAutoSyncTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingLastAutoSyncTime 备用名称dispidSharingLastAutoSync
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingLastAutoSyncTime 替代名称dispidSharingLastAutoSync
 type: docs
 weight: 17570
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharinglastautosynctime/
 ---
 ## KnownPropertyList.SharingLastAutoSyncTime field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingLastAutoSyncTime 备用名称:dispidSharingLastAutoSync
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingLastAutoSyncTime 替代名称：dispidSharingLastAutoSync
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLastAutoSyncTime;

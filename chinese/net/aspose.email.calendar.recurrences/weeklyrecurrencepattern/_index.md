@@ -18,10 +18,10 @@ public class WeeklyRecurrencePattern : RecurrencePattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_2)(DateTime) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类的新实例。 |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor)(int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类的新实例。 |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_3)(DateTime, int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类的新实例。 |
-| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_1)(int, int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类的新实例。 |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_2)(DateTime) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor)(int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_3)(DateTime, int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类. |
+| [WeeklyRecurrencePattern](weeklyrecurrencepattern#constructor_1)(int, int) | 初始化[`WeeklyRecurrencePattern`](../weeklyrecurrencepattern)类. |
 
 ## 特性
 

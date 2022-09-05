@@ -1,7 +1,7 @@
 ---
 title: PR_7BIT_DISPLAY_NAME_W
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Unicode peer for PR_7BIT_DISPLAY_NAME.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapipropertytag/pr_7bit_display_name_w/

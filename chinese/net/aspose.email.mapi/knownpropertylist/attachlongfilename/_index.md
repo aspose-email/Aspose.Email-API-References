@@ -1,14 +1,14 @@
 ---
 title: AttachLongFilename
 second_title: Aspose.Email for .NET API 参考
-description: 包含附件对象的完整文件名和扩展名 区域消息附件属性 规范名称PidTagAttachLongFilename 备用名称PR_ATTACH_LONG_FILENAME PR_ATTACH_LONG_FILENAME_A
+description: 包含附件对象的完整文件名和扩展名 区域消息附件属性 规范名称PidTagAttachLongFilename 替代名称PR_ATTACH_LONG_FILENAMEPR_ATTACH_LONG_FILENAME_A
 type: docs
 weight: 1610
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachlongfilename/
 ---
 ## KnownPropertyList.AttachLongFilename field
 
-包含附件对象的完整文件名和扩展名。 区域:消息附件属性 规范名称:PidTagAttachLongFilename 备用名称:PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A,
+包含附件对象的完整文件名和扩展名。 区域：消息附件属性 规范名称：PidTagAttachLongFilename 替代名称：PR_ATTACH_LONG_FILENAME、PR_ATTACH_LONG_FILENAME_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachLongFilename;

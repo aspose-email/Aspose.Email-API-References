@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactTelephonePropertySetaspose.email.mapi/mapicontacttelephonepropertyset 类的新实例
+description: 初始化MapiContactTelephonePropertySetaspose.email.mapi/mapicontacttelephonepropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontacttelephonepropertyset/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet() {#constructor}
 
-初始化 [`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) 类的新实例
+初始化[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) class
 
 ```csharp
 public MapiContactTelephonePropertySet()
@@ -24,7 +24,7 @@ public MapiContactTelephonePropertySet()
 
 ## MapiContactTelephonePropertySet(string) {#constructor_2}
 
-初始化[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset)类的新实例。
+初始化[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset)类.
 
 ```csharp
 public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
@@ -44,7 +44,7 @@ public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
 
 ## MapiContactTelephonePropertySet(MapiPropertyCollection) {#constructor_1}
 
-初始化 [`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) 类的新实例
+初始化[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) class
 
 ```csharp
 public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
@@ -52,7 +52,7 @@ public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | 一个包含联系电话属性的[`MapiPropertyCollection`](../../mapipropertycollection) |
+| properties | MapiPropertyCollection | 一个[`MapiPropertyCollection`](../../mapipropertycollection)包含联系电话属性 |
 
 ### 也可以看看
 

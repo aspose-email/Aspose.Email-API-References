@@ -1,14 +1,14 @@
 ---
 title: HomeAddressStreet
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит домашний адрес почтового пользователя. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressStreet Альтернативные именаPR_HOME_ADDRESS_STREET PR_HOME_ADDRESS_STREET_A
+description: Содержит домашний адрес почтового пользователя. Область MapiMailUser Каноническое имя PidTagHomeAddressStreet Альтернативные имена PR_HOME_ADDRESS_STREET PR_HOME_ADDRESS_STREET_A
 type: docs
 weight: 11070
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddressstreet/
 ---
 ## KnownPropertyList.HomeAddressStreet field
 
-Содержит домашний адрес почтового пользователя. Область:MapiMailUser Каноническое имя:PidTagHomeAddressStreet Альтернативные имена:PR_HOME_ADDRESS_STREET, PR_HOME_ADDRESS_STREET_A,
+Содержит домашний адрес почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagHomeAddressStreet Альтернативные имена: PR_HOME_ADDRESS_STREET, PR_HOME_ADDRESS_STREET_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressStreet;

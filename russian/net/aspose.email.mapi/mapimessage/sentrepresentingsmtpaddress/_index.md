@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingSmtpAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает адрес электронной почты пользователя обмена сообщениями представленного отправителем.
+description: Получает или задает адрес электронной почты для пользователя обмена сообщениями представленного отправителем.
 type: docs
 weight: 290
 url: /ru/net/aspose.email.mapi/mapimessage/sentrepresentingsmtpaddress/
 ---
 ## MapiMessage.SentRepresentingSmtpAddress property
 
-Получает или задает адрес электронной почты пользователя обмена сообщениями, представленного отправителем.
+Получает или задает адрес электронной почты для пользователя обмена сообщениями, представленного отправителем.
 
 ```csharp
 public string SentRepresentingSmtpAddress { get; }

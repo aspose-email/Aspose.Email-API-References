@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is a freeform header field defined in RFC2822. The header is used to place explanatory text into the header portion of an email message. The field may contain arbitrary text. Exmple Comments Authenticated sender is someonesomedonmain.com.
 type: docs
 weight: 50
 url: /net/aspose.email/headertype/comments/

@@ -1,7 +1,7 @@
 ---
 title: SenderIp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The IP address that submitted the email of Office 365. The IP address is displayed in either an IPv4 or IPv6 address format. Mandatory Yes
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/senderip/

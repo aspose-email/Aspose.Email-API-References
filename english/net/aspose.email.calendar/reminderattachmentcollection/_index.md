@@ -1,7 +1,7 @@
 ---
 title: ReminderAttachmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains collection of ReminderAttachment ReminderAttachment./reminderattachmentobjects.
 type: docs
 weight: 830
 url: /net/aspose.email.calendar/reminderattachmentcollection/

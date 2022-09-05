@@ -1,7 +1,7 @@
 ---
 title: ArchiveDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the date in UTC after which a Message object is archived by the server. Area Archive Canonical name PidTagArchiveDate Alternate names PR_ARCHIVE_DATE ptagArchiveDate
 type: docs
 weight: 1400
 url: /net/aspose.email.mapi/knownpropertylist/archivedate/

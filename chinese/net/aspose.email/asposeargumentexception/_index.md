@@ -18,12 +18,12 @@ public class AsposeArgumentException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeArgumentException](asposeargumentexception#constructor)() | 初始化[`AsposeArgumentException`](../asposeargumentexception)类的新实例。 |
-| [AsposeArgumentException](asposeargumentexception#constructor_1)(Exception) | 使用对内部的引用初始化[`AsposeArgumentException`](../asposeargumentexception)类 的新实例异常是导致此异常的原因。 |
-| [AsposeArgumentException](asposeargumentexception#constructor_2)(string) | 使用指定的错误消息初始化[`AsposeArgumentException`](../asposeargumentexception)类的新实例。 |
-| [AsposeArgumentException](asposeargumentexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`AsposeArgumentException`](../asposeargumentexception)类 的新实例和对导致此异常的内部异常的引用。 |
-| [AsposeArgumentException](asposeargumentexception#constructor_4)(string, params object[]) | 使用指定的错误消息初始化[`AsposeArgumentException`](../asposeargumentexception)类的新实例。 |
-| [AsposeArgumentException](asposeargumentexception#constructor_5)(string, string) | 使用指定的错误消息初始化[`AsposeArgumentException`](../asposeargumentexception)类的新实例。 |
+| [AsposeArgumentException](asposeargumentexception#constructor)() | 初始化[`AsposeArgumentException`](../asposeargumentexception)类. |
+| [AsposeArgumentException](asposeargumentexception#constructor_1)(Exception) | 初始化[`AsposeArgumentException`](../asposeargumentexception)类 引用了导致此异常的内部异常。 |
+| [AsposeArgumentException](asposeargumentexception#constructor_2)(string) | 初始化[`AsposeArgumentException`](../asposeargumentexception)具有指定错误消息的类。 |
+| [AsposeArgumentException](asposeargumentexception#constructor_3)(string, Exception) | 初始化[`AsposeArgumentException`](../asposeargumentexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [AsposeArgumentException](asposeargumentexception#constructor_4)(string, params object[]) | 初始化[`AsposeArgumentException`](../asposeargumentexception)具有指定错误消息的类。 |
+| [AsposeArgumentException](asposeargumentexception#constructor_5)(string, string) | 初始化[`AsposeArgumentException`](../asposeargumentexception)具有指定错误消息的类。 |
 
 ## 特性
 

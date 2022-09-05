@@ -1,12 +1,12 @@
 ---
 title: GetClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the GraphClientaspose.email.clients.graph/graphclient based class
 type: docs
 weight: 90
 url: /net/aspose.email.clients.graph/graphclient/getclient/
 ---
-## GraphClient.GetClient method (1 of 2)
+## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
 Initializes a new instance of the [`GraphClient`](../../graphclient) based class
 
@@ -33,7 +33,7 @@ Returns IGraphClient object
 
 ---
 
-## GraphClient.GetClient method (2 of 2)
+## GetClient(ITokenProvider, string) {#getclient_1}
 
 Initializes a new instance of the [`GraphClient`](../../graphclient) based class
 

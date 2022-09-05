@@ -1,14 +1,14 @@
 ---
 title: ExchangeListMessagesOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет параметры списка сообщений
+description: Перечисляет список сообщений options
 type: docs
 weight: 3370
 url: /ru/net/aspose.email.clients.exchange/exchangelistmessagesoptions/
 ---
 ## ExchangeListMessagesOptions enumeration
 
-Перечисляет параметры списка сообщений
+Перечисляет список сообщений options
 
 ```csharp
 [Flags]
@@ -21,7 +21,7 @@ public enum ExchangeListMessagesOptions
 | --- | --- | --- |
 | None | `0` | Конкретные параметры не определены |
 | ListRecursive | `1` | Указывает на рекурсивный листинг |
-| FetchAttachmentInformation | `2` | Определяет, что информация о вложении должна быть получена Используется только для клиента WebDav |
+| FetchAttachmentInformation | `2` | Определяет, что информация о вложении должна быть извлечена Используется только для клиента WebDav |
 
 ### Смотрите также
 

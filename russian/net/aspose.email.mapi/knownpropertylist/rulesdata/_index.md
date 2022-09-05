@@ -1,14 +1,14 @@
 ---
 title: RulesData
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RULES_DATA
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RULES_DATA
 type: docs
 weight: 16620
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulesdata/
 ---
 ## KnownPropertyList.RulesData field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RULES_DATA
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RULES_DATA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RulesData;

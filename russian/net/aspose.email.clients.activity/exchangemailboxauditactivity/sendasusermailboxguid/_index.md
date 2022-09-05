@@ -1,14 +1,14 @@
 ---
 title: SendAsUserMailboxGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID Exchange почтового ящика к которому был осуществлен доступ для отправки электронной почты.
+description: GUID почтового ящика Exchange доступ к которому был осуществлен для отправки электронной почты как.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/exchangemailboxauditactivity/sendasusermailboxguid/
 ---
 ## ExchangeMailboxAuditActivity.SendAsUserMailboxGuid property
 
-GUID Exchange почтового ящика, к которому был осуществлен доступ для отправки электронной почты.
+GUID почтового ящика Exchange, доступ к которому был осуществлен для отправки электронной почты как.
 
 ```csharp
 public Guid SendAsUserMailboxGuid { get; set; }

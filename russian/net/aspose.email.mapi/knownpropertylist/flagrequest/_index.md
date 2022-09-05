@@ -1,14 +1,14 @@
 ---
 title: FlagRequest
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит определяемый пользователем текст который будет связан с флагом. ОбластьОтметка Каноническое имяPidLidFlagRequest Альтернативные именаdispidRequest
+description: Содержит определяемый пользователем текст который будет связан с флагом. Область Flagging Каноническое имя PidLidFlagRequest Альтернативные имена dispidRequest
 type: docs
 weight: 10350
 url: /ru/net/aspose.email.mapi/knownpropertylist/flagrequest/
 ---
 ## KnownPropertyList.FlagRequest field
 
-Содержит определяемый пользователем текст, который будет связан с флагом. Область:Отметка Каноническое имя:PidLidFlagRequest Альтернативные имена:dispidRequest
+Содержит определяемый пользователем текст, который будет связан с флагом. Область: Flagging Каноническое имя: PidLidFlagRequest Альтернативные имена: dispidRequest
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FlagRequest;

@@ -1,7 +1,7 @@
 ---
 title: CalendarDeletionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines parameters for item deletion
 type: docs
 weight: 3610
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/
@@ -18,9 +18,9 @@ public class CalendarDeletionOptions : DeletionOptions
 
 | Name | Description |
 | --- | --- |
-| [CalendarDeletionOptions](calendardeletionoptions)() | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
-| [CalendarDeletionOptions](calendardeletionoptions)(DeletionType) | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
-| [CalendarDeletionOptions](calendardeletionoptions)(DeletionType, CalendarItemCreateOrDeleteOperation) | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor)() | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_1)(DeletionType) | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_2)(DeletionType, CalendarItemCreateOrDeleteOperation) | Initializes a new instance of the [`CalendarDeletionOptions`](../calendardeletionoptions) class. |
 
 ## Properties
 

@@ -1,14 +1,14 @@
 ---
 title: Msg
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает на сообщение в формате Msg  используемом Microsoft Outlook.
+description: Указывает на сообщение в Сообщение формат используемый Microsoft Outlook.
 type: docs
 weight: 50
 url: /ru/net/aspose.email/messageformat/msg/
 ---
 ## MessageFormat.Msg property
 
-Указывает на сообщение в формате **Msg** , используемом Microsoft Outlook.
+Указывает на сообщение в **Сообщение** формат, используемый Microsoft Outlook.
 
 ```csharp
 public static MessageFormat Msg { get; }

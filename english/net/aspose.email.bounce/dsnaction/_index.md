@@ -1,7 +1,7 @@
 ---
 title: DSNAction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the action performed by the ReportingMTA as a result of its attempt to deliver the message.
 type: docs
 weight: 410
 url: /net/aspose.email.bounce/dsnaction/

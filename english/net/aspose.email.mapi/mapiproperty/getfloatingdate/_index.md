@@ -1,7 +1,7 @@
 ---
 title: GetFloatingDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the bytes of the binary data as DateTime.
 type: docs
 weight: 200
 url: /net/aspose.email.mapi/mapiproperty/getfloatingdate/

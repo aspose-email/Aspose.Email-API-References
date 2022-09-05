@@ -1,7 +1,7 @@
 ---
 title: RawContent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the content of the raw.
 type: docs
 weight: 30
 url: /net/aspose.email.mime/mimeheader/rawcontent/

@@ -17,13 +17,13 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -45,12 +45,12 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -73,11 +73,11 @@ public ImapMessageInfo ListMessage(int sequenceNumber, IEnumerable<string> messa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| messageExtraFields | IEnumerable`1 | Список дополнительные параметры для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -102,7 +102,7 @@ public ImapMessageInfo ListMessage(int sequenceNumber)
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -124,13 +124,13 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -152,12 +152,12 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -183,7 +183,7 @@ public ImapMessageInfo ListMessage(string uniqueId)
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 
@@ -209,7 +209,7 @@ public ImapMessageInfo ListMessage(string uniqueId, IEnumerable<string> messageE
 
 ### Возвращаемое значение
 
-Возвращает объекты ImapMessageInfo
+Возвращает объекты ImapMessageInfo.
 
 ### Смотрите также
 

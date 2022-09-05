@@ -1,14 +1,14 @@
 ---
 title: ImapCopyMessages
 second_title: Aspose.Email for .NET API 参考
-description: CopyMessagesAsync../aspose.email.clients.imap/iasyncimapclient/copymessagesasync方法参数集
+description: 的CopyMessagesAsync../aspose.email.clients.imap/iasyncimapclient/copymessagesasync方法参数集.
 type: docs
 weight: 16550
 url: /zh/net/aspose.email.clients.imap.models/imapcopymessages/
 ---
 ## ImapCopyMessages class
 
-[`CopyMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/copymessagesasync)方法参数集。
+的[`CopyMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/copymessagesasync)方法参数集.
 
 ```csharp
 public class ImapCopyMessages : ImapMessageSet<ImapCopyMessages>
@@ -18,7 +18,7 @@ public class ImapCopyMessages : ImapMessageSet<ImapCopyMessages>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapcopymessages/create)() | 创建[`ImapCopyMessages`](../imapcopymessages)类的实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapcopymessages/create)() | 创建一个实例[`ImapCopyMessages`](../imapcopymessages)类. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetFolder](../../aspose.email.clients.imap.models/imapcopymessages/setfolder)(string) | 要复制消息的文件夹名称。 |

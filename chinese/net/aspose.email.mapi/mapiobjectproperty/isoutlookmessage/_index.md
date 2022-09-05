@@ -1,14 +1,14 @@
 ---
 title: IsOutlookMessage
 second_title: Aspose.Email for .NET API 参考
-description: 指示对象属性是否为嵌入式 Outlook 消息
+description: 指示对象属性是否为嵌入的 Outlook 消息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapiobjectproperty/isoutlookmessage/
 ---
 ## MapiObjectProperty.IsOutlookMessage property
 
-指示对象属性是否为嵌入式 Outlook 消息。
+指示对象属性是否为嵌入的 Outlook 消息。
 
 ```csharp
 public bool IsOutlookMessage { get; }

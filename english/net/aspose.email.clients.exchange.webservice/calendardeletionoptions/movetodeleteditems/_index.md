@@ -1,7 +1,7 @@
 ---
 title: MoveToDeletedItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets instance of the DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions object with settings for moving to deleted items
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems/

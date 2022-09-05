@@ -1,14 +1,14 @@
 ---
 title: ContactLinkName
 second_title: Справочник по Aspose.Email для .NET API
-description: ОбластьСвойства контакта Каноническое имяPidLidContactLinkName Альтернативные именаdispidContactLinkName
+description: Область Свойства контакта Каноническое имя PidLidContactLinkName Альтернативные имена dispidContactLinkName
 type: docs
 weight: 3010
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinkname/
 ---
 ## KnownPropertyList.ContactLinkName field
 
-Область:Свойства контакта Каноническое имя:PidLidContactLinkName Альтернативные имена:dispidContactLinkName
+Область: Свойства контакта Каноническое имя: PidLidContactLinkName Альтернативные имена: dispidContactLinkName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkName;

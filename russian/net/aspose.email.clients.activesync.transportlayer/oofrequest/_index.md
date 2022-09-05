@@ -1,14 +1,14 @@
 ---
 title: OOFRequest
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает класс для получения и установки информации об отсутствии на работе OOF.
+description: Задает класс для получения и установки информации об отсутствии на работе OOF.
 type: docs
 weight: 1630
 url: /ru/net/aspose.email.clients.activesync.transportlayer/oofrequest/
 ---
 ## OOFRequest class
 
-Указывает класс для получения и установки информации об отсутствии на работе (OOF).
+Задает класс для получения и установки информации об отсутствии на работе (OOF).
 
 ```csharp
 public class OOFRequest
@@ -25,7 +25,7 @@ public class OOFRequest
 | Имя | Описание |
 | --- | --- |
 | [Get](../../aspose.email.clients.activesync.transportlayer/oofrequest/get) { get; set; } | Получает настройки информации OOF с сервера. |
-| [Set](../../aspose.email.clients.activesync.transportlayer/oofrequest/set) { get; set; } | Устанавливает настройки информации об отсутствии на сервере. |
+| [Set](../../aspose.email.clients.activesync.transportlayer/oofrequest/set) { get; set; } | Задает настройки информации об отсутствии на сервере. |
 
 ### Смотрите также
 

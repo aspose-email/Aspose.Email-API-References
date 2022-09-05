@@ -1,14 +1,14 @@
 ---
 title: Street
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置街道
+description: 获取或设置一条街道
 type: docs
 weight: 90
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/street/
 ---
 ## VCardDeliveryAddress.Street property
 
-获取或设置街道
+获取或设置一条街道
 
 ```csharp
 public string Street { get; set; }

@@ -3,7 +3,7 @@ title: Description
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает описание.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.email.calendar/appointment/description/
 ---
 ## Appointment.Description property

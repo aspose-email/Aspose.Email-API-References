@@ -1,7 +1,7 @@
 ---
 title: RuleActions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the set of actions that are available to a rule.
 type: docs
 weight: 3530
 url: /net/aspose.email.clients.exchange/ruleactions/

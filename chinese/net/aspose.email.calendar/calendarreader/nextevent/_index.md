@@ -1,14 +1,14 @@
 ---
 title: NextEvent
 second_title: Aspose.Email for .NET API 参考
-description: 从源读取下一个事件并将其保存到当前
+description: 从源中读取下一个事件并将其保存到 Current.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.calendar/calendarreader/nextevent/
 ---
 ## CalendarReader.NextEvent method
 
-从源读取下一个事件并将其保存到当前。
+从源中读取下一个事件并将其保存到 Current.
 
 ```csharp
 public bool NextEvent()

@@ -1,14 +1,14 @@
 ---
 title: Sent
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置发送通知的日期时间
+description: 获取或设置通知发送的日期时间
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/notification/sent/
 ---
 ## Notification.Sent property
 
-获取或设置发送通知的日期时间。
+获取或设置通知发送的日期时间。
 
 ```csharp
 public DateTime Sent { get; set; }

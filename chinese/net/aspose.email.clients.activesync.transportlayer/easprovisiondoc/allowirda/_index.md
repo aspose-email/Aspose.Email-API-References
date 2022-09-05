@@ -1,14 +1,14 @@
 ---
 title: AllowIrDA
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备是否允许使用 IrDA红外线连接 如果客户端不具备发送或接收红外信号的能力则应忽略此属性
+description: 指定设备是否允许使用 IrDA红外连接 如果客户端没有发送或接收红外信号的能力则应忽略此属性
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowirda/
 ---
 ## EASProvisionDoc.AllowIrDA property
 
-指定设备是否允许使用 IrDA（红外线）连接。 如果客户端不具备发送或接收红外信号的能力，则应忽略此属性。
+指定设备是否允许使用 IrDA（红外）连接。 如果客户端没有发送或接收红外信号的能力，则应忽略此属性。
 
 ```csharp
 public bool? AllowIrDA { get; set; }

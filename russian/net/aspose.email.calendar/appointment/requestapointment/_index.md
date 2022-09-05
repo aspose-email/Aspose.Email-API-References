@@ -3,7 +3,7 @@ title: RequestApointment
 second_title: Справочник по Aspose.Email для .NET API
 description: Запрашивает встречу.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/aspose.email.calendar/appointment/requestapointment/
 ---
 ## RequestApointment() {#requestapointment}
@@ -16,7 +16,7 @@ public AlternateView RequestApointment()
 
 ### Возвращаемое значение
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview), который представляет формат для просмотра сообщения электронной почты.
+Альтернативный вид[`AlternateView`](../../../aspose.email/alternateview) который представляет формат для просмотра сообщения электронной почты.
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public AlternateView RequestApointment(int seqId)
 
 ### Возвращаемое значение
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview), который представляет формат для просмотра сообщения электронной почты.
+Альтернативный вид[`AlternateView`](../../../aspose.email/alternateview) который представляет формат для просмотра сообщения электронной почты.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: UniqueUnreadSenders
 second_title: Aspose.Email for .NET API 参考
-description: 获取当前文件夹中此对话中当前未读的所有已发送消息的人的列表
+description: 获取当前文件夹中此对话中所有已发送消息的人的列表
 type: docs
 weight: 270
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/uniqueunreadsenders/
 ---
 ## ExchangeConversation.UniqueUnreadSenders property
 
-获取当前文件夹中此对话中当前未读的所有已发送消息的人的列表。
+获取当前文件夹中此对话中所有已发送消息的人的列表。
 
 ```csharp
 public StringCollection UniqueUnreadSenders { get; }

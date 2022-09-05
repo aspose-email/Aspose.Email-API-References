@@ -1,7 +1,7 @@
 ---
 title: IsAllOccurrences
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns True when NthOccurrence is zero meaning all occurrences of this day of week.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar.recurrences/byday/isalloccurrences/

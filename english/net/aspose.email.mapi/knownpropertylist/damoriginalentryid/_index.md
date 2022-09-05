@@ -1,7 +1,7 @@
 ---
 title: DamOriginalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the delivered message that the client has to process. Area Serverside Rules Properties Canonical name PidTagDamOriginalEntryId Alternate names PR_DAM_ORIGINAL_ENTRYID
 type: docs
 weight: 3630
 url: /net/aspose.email.mapi/knownpropertylist/damoriginalentryid/

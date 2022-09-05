@@ -1,14 +1,14 @@
 ---
 title: VCardSound
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardSoundaspose.email.personalinfo.vcard/vcardsound
+description: Инициализирует новый экземплярVCardSoundaspose.email.personalinfo.vcard/vcardsound класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsound/vcardsound/
 ---
 ## VCardSound constructor
 
-Инициализирует новый экземпляр класса[`VCardSound`](../../vcardsound)
+Инициализирует новый экземпляр[`VCardSound`](../../vcardsound) класс
 
 ```csharp
 public VCardSound()

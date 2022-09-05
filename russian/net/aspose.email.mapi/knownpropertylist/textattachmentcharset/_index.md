@@ -1,14 +1,14 @@
 ---
 title: TextAttachmentCharset
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает набор символов вложения полученного через MIME с типом содержимого текста. ОбластьСвойства вложения сообщения Каноническое имяPidTagTextAttachmentCharset Альтернативные именаptagTextAttachmentCharset
+description: Указывает набор символов вложения полученного через MIME с типом содержимого текста. Область Свойства вложения сообщения Каноническое имя PidTagTextAttachmentCharset Альтернативные имена ptagTextAttachmentCharset
 type: docs
 weight: 18940
 url: /ru/net/aspose.email.mapi/knownpropertylist/textattachmentcharset/
 ---
 ## KnownPropertyList.TextAttachmentCharset field
 
-Указывает набор символов вложения, полученного через MIME, с типом содержимого текста. Область:Свойства вложения сообщения Каноническое имя:PidTagTextAttachmentCharset Альтернативные имена:ptagTextAttachmentCharset
+Указывает набор символов вложения, полученного через MIME, с типом содержимого текста. Область: Свойства вложения сообщения Каноническое имя: PidTagTextAttachmentCharset Альтернативные имена: ptagTextAttachmentCharset
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TextAttachmentCharset;

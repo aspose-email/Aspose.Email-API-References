@@ -1,7 +1,7 @@
 ---
 title: OriginalMessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the message ID of the original message included in replies or resent messages. Area Mail Canonical name PidTagOriginalMessageId Alternate names ptagOriginalInternetMessageID OriginalMessageId
 type: docs
 weight: 13640
 url: /net/aspose.email.mapi/knownpropertylist/originalmessageid/

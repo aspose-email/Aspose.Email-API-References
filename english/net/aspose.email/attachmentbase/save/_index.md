@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the specified stream.
 type: docs
 weight: 70
 url: /net/aspose.email/attachmentbase/save/
 ---
-## AttachmentBase.Save method (1 of 2)
+## Save(Stream) {#save}
 
 Saves the specified stream.
 
@@ -26,7 +26,7 @@ public virtual void Save(Stream stream)
 
 ---
 
-## AttachmentBase.Save method (2 of 2)
+## Save(string) {#save_1}
 
 Saves the specified file name.
 

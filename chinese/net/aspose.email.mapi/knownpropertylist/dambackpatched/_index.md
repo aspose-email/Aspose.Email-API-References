@@ -1,14 +1,14 @@
 ---
 title: DamBackPatched
 second_title: Aspose.Email for .NET API 参考
-description: 指示延迟操作消息 DAM 是否由服务器更新 区域服务器端规则属性 规范名称PidTagDamBackPatched 备用名称PR_DAM_BACK_PATCHED ptagDamBackPatched
+description: 指示延迟操作消息 DAM 是否由服务器更新 区域服务器端规则属性 规范名称PidTagDamBackPatched 备用名称PR_DAM_BACK_PATCHEDptagDamBackPatched
 type: docs
 weight: 3620
 url: /zh/net/aspose.email.mapi/knownpropertylist/dambackpatched/
 ---
 ## KnownPropertyList.DamBackPatched field
 
-指示延迟操作消息 (DAM) 是否由服务器更新。 区域:服务器端规则属性 规范名称:PidTagDamBackPatched 备用名称:PR_DAM_BACK_PATCHED, ptagDamBackPatched
+指示延迟操作消息 (DAM) 是否由服务器更新。 区域：服务器端规则属性 规范名称：PidTagDamBackPatched 备用名称：PR_DAM_BACK_PATCHED、ptagDamBackPatched
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DamBackPatched;

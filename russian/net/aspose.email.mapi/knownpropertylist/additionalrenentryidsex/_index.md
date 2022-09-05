@@ -1,14 +1,14 @@
 ---
 title: AdditionalRenEntryIdsEx
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит массив блоков определяющих EntryID нескольких специальных папок. ОбластьПриложение Outlook Каноническое имяPidTagAdditionalRenEntryIdsEx Альтернативные именаPR_ADDITIONAL_REN_ENTRYIDS_EX ptagAdditionalRenEntryIdsEx
+description: Содержит массив блоков определяющих EntryID нескольких специальных папок. Область Outlook Application Каноническое имя PidTagAdditionalRenEntryIdsEx Альтернативные имена PR_ADDITIONAL_REN_ENTRYIDS_EX ptagAdditionalRenEntryIdsEx
 type: docs
 weight: 310
 url: /ru/net/aspose.email.mapi/knownpropertylist/additionalrenentryidsex/
 ---
 ## KnownPropertyList.AdditionalRenEntryIdsEx field
 
-Содержит массив блоков, определяющих EntryID нескольких специальных папок. Область:Приложение Outlook Каноническое имя:PidTagAdditionalRenEntryIdsEx Альтернативные имена:PR_ADDITIONAL_REN_ENTRYIDS_EX, ptagAdditionalRenEntryIdsEx
+Содержит массив блоков, определяющих EntryID нескольких специальных папок. Область: Outlook Application Каноническое имя: PidTagAdditionalRenEntryIdsEx Альтернативные имена: PR_ADDITIONAL_REN_ENTRYIDS_EX, ptagAdditionalRenEntryIdsEx
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AdditionalRenEntryIdsEx;

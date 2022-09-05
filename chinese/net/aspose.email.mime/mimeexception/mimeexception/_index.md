@@ -1,14 +1,14 @@
 ---
 title: MimeException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MimeExceptionaspose.email.mime/mimeexception类的新实例
+description: 初始化MimeExceptionaspose.email.mime/mimeexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/mimeexception/mimeexception/
 ---
 ## MimeException() {#constructor}
 
-初始化[`MimeException`](../../mimeexception)类的新实例。
+初始化[`MimeException`](../../mimeexception)类.
 
 ```csharp
 public MimeException()
@@ -24,7 +24,7 @@ public MimeException()
 
 ## MimeException(string) {#constructor_1}
 
-初始化[`MimeException`](../../mimeexception)类的新实例。
+初始化[`MimeException`](../../mimeexception)类.
 
 ```csharp
 public MimeException(string message)
@@ -44,7 +44,7 @@ public MimeException(string message)
 
 ## MimeException(string, Exception) {#constructor_2}
 
-初始化[`MimeException`](../../mimeexception)类的新实例。
+初始化[`MimeException`](../../mimeexception)类.
 
 ```csharp
 public MimeException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public MimeException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 错误消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

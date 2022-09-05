@@ -1,14 +1,14 @@
 ---
 title: PropertyTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает тег свойства объединенное значение которое содержитIdaspose.email.mapi.msg/messageobjectproperty/idиPropertyTypeaspose.email.mapi.msg/messageobjectproperty/propertytype
+description: Получает тег свойства объединенное значение которое содержитIdaspose.email.mapi.msg/messageobjectproperty/id а такжеPropertyTypeaspose.email.mapi.msg/messageobjectproperty/propertytype
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/propertytag/
 ---
 ## MessageObjectProperty.PropertyTag property
 
-Получает тег свойства, объединенное значение, которое содержит[`Id`](../id)и[`PropertyType`](../propertytype)
+Получает тег свойства, объединенное значение, которое содержит[`Id`](../id) а также[`PropertyType`](../propertytype)
 
 ```csharp
 public long PropertyTag { get; }

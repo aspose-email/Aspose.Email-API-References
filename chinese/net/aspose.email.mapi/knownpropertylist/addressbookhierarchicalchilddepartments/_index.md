@@ -1,14 +1,14 @@
 ---
 title: AddressBookHierarchicalChildDepartments
 second_title: Aspose.Email for .NET API 参考
-description: 包含部门层次结构中的子部门 区域地址簿 规范名称PidTagAddressBookHierarchicalChildDepartments 备用名称PR_EMS_AB_HAB_CHILD_DEPARTMENTS
+description: 包含部门层次结构中的子部门 区域地址簿 规范名称PidTagAddressBookHierarchicalChildDepartments 替代名称PR_EMS_AB_HAB_CHILD_DEPARTMENTS
 type: docs
 weight: 610
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalchilddepartments/
 ---
 ## KnownPropertyList.AddressBookHierarchicalChildDepartments field
 
-包含部门层次结构中的子部门。 区域:地址簿 规范名称:PidTagAddressBookHierarchicalChildDepartments 备用名称:PR_EMS_AB_HAB_CHILD_DEPARTMENTS
+包含部门层次结构中的子部门。 区域：地址簿 规范名称：PidTagAddressBookHierarchicalChildDepartments 替代名称：PR_EMS_AB_HAB_CHILD_DEPARTMENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalChildDepartments;

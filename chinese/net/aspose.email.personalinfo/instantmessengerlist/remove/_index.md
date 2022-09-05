@@ -16,7 +16,7 @@ public bool Remove(InstantMessengerAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | InstantMessengerAddress | Object要从列表中删除。 |
+| value | InstantMessengerAddress | 这Object从列表中删除。 |
 
 ### 也可以看看
 

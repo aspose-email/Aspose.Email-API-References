@@ -1,14 +1,14 @@
 ---
 title: DeleteAppointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаление встречи.
+description: Удаляет встречу.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.google/igmailclient/deleteappointment/
 ---
 ## IGmailClient.DeleteAppointment method
 
-Удаление встречи.
+Удаляет встречу.
 
 ```csharp
 public void DeleteAppointment(string calendarId, string appointmentId)

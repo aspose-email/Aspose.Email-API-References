@@ -1,7 +1,7 @@
 ---
 title: Empty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must be empty.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/stringcomparisonfield/empty/

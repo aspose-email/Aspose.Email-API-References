@@ -1,7 +1,7 @@
 ---
 title: Error
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The error returned by the operation.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/onenoteoperation/error/

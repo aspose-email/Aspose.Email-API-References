@@ -1,7 +1,7 @@
 ---
 title: Read
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a message has been read. Area MapiNonTransmittable Property set Canonical name PidTagRead Alternate names PR_READ ptagRead urnschemashttpmailread
 type: docs
 weight: 15180
 url: /net/aspose.email.mapi/knownpropertylist/read/

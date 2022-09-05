@@ -22,7 +22,7 @@ public void ChangeContainerClass(string containerClass)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
 | NotImplementedException | 抛出，如果 PST 文件版本是 ANSI。 |
 
 ### 也可以看看

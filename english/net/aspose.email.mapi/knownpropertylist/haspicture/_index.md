@@ -1,7 +1,7 @@
 ---
 title: HasPicture
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the attachment has a picture. Area Contact Properties Canonical name PidLidHasPicture Alternate names dispidHasPicture
 type: docs
 weight: 10880
 url: /net/aspose.email.mapi/knownpropertylist/haspicture/

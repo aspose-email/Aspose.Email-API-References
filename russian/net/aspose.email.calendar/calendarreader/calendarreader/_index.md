@@ -1,14 +1,14 @@
 ---
 title: CalendarReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию.
+description: Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию для встречи.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/calendarreader/calendarreader/
 ---
 ## CalendarReader(string) {#constructor_2}
 
-Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию.
+Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами LoadOptions по умолчанию для встречи.
 
 ```csharp
 public CalendarReader(string path)
@@ -50,7 +50,7 @@ public CalendarReader(string path, AppointmentLoadOptions options)
 
 ## CalendarReader(Stream) {#constructor}
 
-Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами LoadOptions по умолчанию.
+Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами LoadOptions по умолчанию для встречи.
 
 ```csharp
 public CalendarReader(Stream stream)

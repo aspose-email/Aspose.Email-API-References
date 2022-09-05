@@ -26,8 +26,8 @@ public class ItemEstimateRequest
 
 | Имя | Описание |
 | --- | --- |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/collectionid) { get; set; } | Указывает идентификатор сервера коллекции, из которой получается оценка элемента. |
-| [ConversationMode](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode) { get; set; } | Указывает, включать ли элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/collectionid) { get; set; } | Указывает идентификатор сервера коллекции, из которой получена оценка элемента. |
+| [ConversationMode](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode) { get; set; } | Указывает, следует ли включать элементы, включенные в модальность диалога, в результаты ответа на команду GetItemEstimate. |
 | [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/filtertype) { get; set; } | Задает дополнительное временное окно для объектов |
 | [Options](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/options) { get; set; } | Содержит массив элементов, фильтрующих результаты операции GetItemEstimate. |
 | [SyncKey](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/synckey) { get; set; } | Представляет текущее состояние коллекции. |

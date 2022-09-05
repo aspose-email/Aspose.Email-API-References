@@ -1,14 +1,14 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置爱好
+description: 获取或设置一个爱好
 type: docs
 weight: 190
 url: /zh/net/aspose.email.personalinfo/contact/hobbies/
 ---
 ## Contact.Hobbies property
 
-获取或设置爱好
+获取或设置一个爱好
 
 ```csharp
 public string Hobbies { get; set; }

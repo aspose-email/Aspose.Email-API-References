@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the suggested background color of the Note object
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapinote/color/

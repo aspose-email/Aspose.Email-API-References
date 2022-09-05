@@ -1,14 +1,14 @@
 ---
 title: DeferredDeliveryTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含发件人希望发送邮件的日期和时间UTC 格式 区域MapiEnvelope 规范名称PidTagDeferredDeliveryTime 替代名称PR_DEFERRED_DELIVERY_TIME ptagDeferredDeliveryTime
+description: 包含发件人希望发送邮件的日期和时间以 UTC 表示 区域MapiEnvelope 规范名称PidTagDeferredDeliveryTime 替代名称PR_DEFERRED_DELIVERY_TIMEptagDeferredDeliveryTime
 type: docs
 weight: 3780
 url: /zh/net/aspose.email.mapi/knownpropertylist/deferreddeliverytime/
 ---
 ## KnownPropertyList.DeferredDeliveryTime field
 
-包含发件人希望发送邮件的日期和时间（UTC 格式）。 区域:MapiEnvelope 规范名称:PidTagDeferredDeliveryTime 替代名称:PR_DEFERRED_DELIVERY_TIME, ptagDeferredDeliveryTime,
+包含发件人希望发送邮件的日期和时间（以 UTC 表示）。 区域：MapiEnvelope 规范名称：PidTagDeferredDeliveryTime 替代名称：PR_DEFERRED_DELIVERY_TIME、ptagDeferredDeliveryTime、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredDeliveryTime;

@@ -1,9 +1,9 @@
 ---
 title: MapiContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents outlook contact information
 type: docs
-weight: 17990
+weight: 18200
 url: /net/aspose.email.mapi/mapicontact/
 ---
 ## MapiContact class
@@ -18,10 +18,10 @@ public sealed class MapiContact : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiContact](mapicontact)() | Initializes a new instance of the [`MapiContact`](../mapicontact) class |
-| [MapiContact](mapicontact)(string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
-| [MapiContact](mapicontact)(string, string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
-| [MapiContact](mapicontact)(string, string, string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
+| [MapiContact](mapicontact#constructor)() | Initializes a new instance of the [`MapiContact`](../mapicontact) class |
+| [MapiContact](mapicontact#constructor_1)(string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
+| [MapiContact](mapicontact#constructor_2)(string, string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
+| [MapiContact](mapicontact#constructor_3)(string, string, string, string) | Initializes a new instance of the [`MapiContact`](../mapicontact) class. |
 
 ## Properties
 
@@ -62,10 +62,10 @@ public sealed class MapiContact : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard)(Stream) | Reads [`MapiContact`](../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard)(string) | Reads [`MapiContact`](../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard)(Stream, Encoding) | Reads [`MapiContact`](../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard)(string, Encoding) | Reads [`MapiContact`](../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard#fromvcard)(Stream) | Reads [`MapiContact`](../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard#fromvcard_2)(string) | Reads [`MapiContact`](../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard#fromvcard_1)(Stream, Encoding) | Reads [`MapiContact`](../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard#fromvcard_3)(string, Encoding) | Reads [`MapiContact`](../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Gets the value of the property specified by tag as Boolean type. |
@@ -79,13 +79,13 @@ public sealed class MapiContact : MapiMessageItemBase
 | [GetUnderlyingMessage](../../aspose.email.mapi/mapicontact/getunderlyingmessage)() | Get the MapiMessage that represent contact. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapicontact/save)(Stream) | Saves this [`MapiContact`](../mapicontact) into the given stream with vCard format. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.mapi/mapicontact/save)(string) | Saves this [`MapiContact`](../mapicontact) to the vCard file with a default options. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.mapi/mapicontact/save)(Stream, ContactSaveFormat) | Saves this [`MapiContact`](../mapicontact) to the given stream with a format using the default options. The supported save format is vCard |
-| [Save](../../aspose.email.mapi/mapicontact/save)(Stream, ContactSaveOptions) | Saves this [`MapiContact`](../mapicontact) to the given stream using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
-| [Save](../../aspose.email.mapi/mapicontact/save)(string, ContactSaveFormat) | Saves this [`MapiContact`](../mapicontact) to the specified file with a format using the default options. The supported save format is vCard. |
-| [Save](../../aspose.email.mapi/mapicontact/save)(string, ContactSaveOptions) | Saves this [`MapiContact`](../mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
-| override [SetBodyContent](../../aspose.email.mapi/mapicontact/setbodycontent)(string, BodyContentType) | Sets the content of the body. |
+| [Save](../../aspose.email.mapi/mapicontact/save#save)(Stream) | Saves this [`MapiContact`](../mapicontact) into the given stream with vCard format. The supported vCard version is 2.1 |
+| [Save](../../aspose.email.mapi/mapicontact/save#save_3)(string) | Saves this [`MapiContact`](../mapicontact) to the vCard file with a default options. The supported vCard version is 2.1 |
+| [Save](../../aspose.email.mapi/mapicontact/save#save_1)(Stream, ContactSaveFormat) | Saves this [`MapiContact`](../mapicontact) to the given stream with a format using the default options. The supported save format is vCard |
+| [Save](../../aspose.email.mapi/mapicontact/save#save_2)(Stream, ContactSaveOptions) | Saves this [`MapiContact`](../mapicontact) to the given stream using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
+| [Save](../../aspose.email.mapi/mapicontact/save#save_4)(string, ContactSaveFormat) | Saves this [`MapiContact`](../mapicontact) to the specified file with a format using the default options. The supported save format is vCard. |
+| [Save](../../aspose.email.mapi/mapicontact/save#save_5)(string, ContactSaveOptions) | Saves this [`MapiContact`](../mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
+| override [SetBodyContent](../../aspose.email.mapi/mapicontact/setbodycontent#setbodycontent)(string, BodyContentType) | Sets the content of the body. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf)(string, bool) | Gets or sets the RTF formatted message text. |
 | [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags)(MapiMessageFlags) | Sets the message flags. |

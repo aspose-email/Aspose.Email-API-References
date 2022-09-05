@@ -1,14 +1,14 @@
 ---
 title: NoteColor
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет предлагаемый цвет фона объекта Note. ОбластьSticky Notes Каноническое имяPidLidNoteColor Альтернативные именаdispidNoteColor
+description: Определяет предлагаемый цвет фона объекта Note. Область Sticky Notes Каноническое имя PidLidNoteColor Альтернативные имена dispidNoteColor
 type: docs
 weight: 13110
 url: /ru/net/aspose.email.mapi/knownpropertylist/notecolor/
 ---
 ## KnownPropertyList.NoteColor field
 
-Определяет предлагаемый цвет фона объекта Note. Область:Sticky Notes Каноническое имя:PidLidNoteColor Альтернативные имена:dispidNoteColor
+Определяет предлагаемый цвет фона объекта Note. Область: Sticky Notes Каноническое имя: PidLidNoteColor Альтернативные имена: dispidNoteColor
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteColor;

@@ -1,9 +1,9 @@
 ---
 title: ImapCommandResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the imap command results.
 type: docs
-weight: 16260
+weight: 16290
 url: /net/aspose.email.clients.imap/imapcommandresult/
 ---
 ## ImapCommandResult enumeration

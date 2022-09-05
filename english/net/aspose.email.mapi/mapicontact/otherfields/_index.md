@@ -1,7 +1,7 @@
 ---
 title: OtherFields
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify other fields of conhtact.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontact/otherfields/

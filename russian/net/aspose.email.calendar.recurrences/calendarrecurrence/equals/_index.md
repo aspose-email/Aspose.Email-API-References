@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет равен ли указанный экземплярCalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrenceэтому экземпляру.
+description: Определяет является ли указанныйCalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence равен этому экземпляру.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.calendar.recurrences/calendarrecurrence/equals/
 ---
 ## Equals(CalendarRecurrence) {#equals}
 
-Определяет, равен ли указанный экземпляр[`CalendarRecurrence`](../../calendarrecurrence)этому экземпляру.
+Определяет, является ли указанный[`CalendarRecurrence`](../../calendarrecurrence) равен этому экземпляру.
 
 ```csharp
 public virtual bool Equals(CalendarRecurrence other)
@@ -16,11 +16,11 @@ public virtual bool Equals(CalendarRecurrence other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | CalendarRecurrence | [`CalendarRecurrence`](../../calendarrecurrence)для сравнения с этим экземпляром . |
+| other | CalendarRecurrence | [`CalendarRecurrence`](../../calendarrecurrence) для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-` true` если указано[`CalendarRecurrence`](../../calendarrecurrence)равно этому экземпляру; в противном случае` false` .
+`истинный` если указанный[`CalendarRecurrence`](../../calendarrecurrence) равен этому экземпляру; в противном случае,`ЛОЖЬ`.
 
 ### Смотрите также
 

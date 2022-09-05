@@ -1,14 +1,14 @@
 ---
 title: TryGetPropertyString
 second_title: Aspose.Email for .NET API 参考
-description: 尝试获取属性数据作为具有指定标记和代码页的字符串
+description: 尝试将属性数据作为具有指定标签和代码页的字符串获取
 type: docs
 weight: 170
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/trygetpropertystring/
 ---
 ## TryGetPropertyString(long, int) {#trygetpropertystring_3}
 
-尝试获取属性数据作为具有指定标记和代码页的字符串。
+尝试将属性数据作为具有指定标签和代码页的字符串获取。
 
 ```csharp
 public string TryGetPropertyString(long tag, int codepage)
@@ -57,7 +57,7 @@ public string TryGetPropertyString(long tag)
 
 ## TryGetPropertyString(long, ref string, int) {#trygetpropertystring_1}
 
-获取字符串类型的指定属性的值。 返回值表示操作是否成功。
+以字符串类型获取指定属性的值。 返回值表示操作是否成功。
 
 ```csharp
 public bool TryGetPropertyString(long tag, ref string value, int codepage)
@@ -66,7 +66,7 @@ public bool TryGetPropertyString(long tag, ref string value, int codepage)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | MAPI 属性标记。 |
-| value | String& | 当此方法返回时，如果属性存在，则包含指定属性的值 。此参数未初始化传递。 |
+| value | String& | 当此方法返回时，如果该属性存在，则包含指定属性的值 。此参数未初始化传递。 |
 | codepage | Int32 | 用于获取字符串值的指定代码页。 |
 
 ### 返回值
@@ -83,7 +83,7 @@ public bool TryGetPropertyString(long tag, ref string value, int codepage)
 
 ## TryGetPropertyString(long, ref string) {#trygetpropertystring}
 
-获取字符串类型的指定属性的值。 返回值表示操作是否成功。
+以字符串类型获取指定属性的值。 返回值表示操作是否成功。
 
 ```csharp
 public bool TryGetPropertyString(long tag, ref string value)
@@ -92,7 +92,7 @@ public bool TryGetPropertyString(long tag, ref string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | MAPI 属性标记。 |
-| value | String& | 当此方法返回时，包含 指定属性的值，如果该属性存在。 此参数未初始化传递。 |
+| value | String& | 当此方法返回时，如果该属性存在，则包含 指定属性的值。 此参数未初始化传递。 |
 
 ### 返回值
 

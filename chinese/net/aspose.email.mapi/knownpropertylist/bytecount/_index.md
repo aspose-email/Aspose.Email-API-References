@@ -1,14 +1,14 @@
 ---
 title: ByteCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的大小以字节为单位 区域普通 规范名称PidNameByteCount 替代名称urnschemas-microsoft-comofficeofficeBytes
+description: 指定附加到文档对象的文件的大小以字节为单位 区域Common 规范名称PidNameByteCount 替代名称urnschemas-microsoft-comofficeofficeBytes
 type: docs
 weight: 2160
 url: /zh/net/aspose.email.mapi/knownpropertylist/bytecount/
 ---
 ## KnownPropertyList.ByteCount field
 
-指定附加到 Document 对象的文件的大小（以字节为单位）。 区域：普通 规范名称：PidNameByteCount 替代名称：urn:schemas-microsoft-com:office:office#Bytes
+指定附加到文档对象的文件的大小（以字节为单位）。 区域：Common 规范名称：PidNameByteCount 替代名称：urn:schemas-microsoft-com:office:office#Bytes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ByteCount;

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет значение для поиска.
+description: Добавляет ценность для поиска.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/sequencesetfield/add/
 ---
 ## SequenceSetField.Add method
 
-Добавляет значение для поиска.
+Добавляет ценность для поиска.
 
 ```csharp
 public void Add(SequenceSetBaseValue value)

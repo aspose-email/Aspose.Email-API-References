@@ -1,12 +1,12 @@
 ---
 title: BaseDataObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/basedataobject/basedataobject/
 ---
-## BaseDataObject constructor (1 of 3)
+## BaseDataObject(string) {#constructor}
 
 Initializes a new instance of the class.
 
@@ -26,7 +26,7 @@ public BaseDataObject(string kind)
 
 ---
 
-## BaseDataObject constructor (2 of 3)
+## BaseDataObject(string, string) {#constructor_1}
 
 Initializes a new instance of the class.
 
@@ -47,7 +47,7 @@ public BaseDataObject(string kind, string id)
 
 ---
 
-## BaseDataObject constructor (3 of 3)
+## BaseDataObject(string, string, string) {#constructor_2}
 
 Initializes a new instance of the class.
 

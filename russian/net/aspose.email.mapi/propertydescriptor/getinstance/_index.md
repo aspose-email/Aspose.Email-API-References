@@ -1,14 +1,14 @@
 ---
 title: GetInstance
 second_title: Справочник по Aspose.Email для .NET API
-description: ПолучаетPidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptorobject
+description: извлекаетPidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor объект
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/propertydescriptor/getinstance/
 ---
 ## GetInstance(int, PropertyDataType) {#getinstance_2}
 
-Получает[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
+извлекает[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType dataType)
@@ -21,7 +21,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ### Возвращаемое значение
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)объект
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ## GetInstance(long) {#getinstance_3}
 
-Получает[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
+извлекает[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(long tag)
@@ -47,7 +47,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ### Возвращаемое значение
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)object
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект
 
 ### Смотрите также
 
@@ -60,7 +60,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ## GetInstance(long, PropertyDataType, Guid) {#getinstance}
 
-Получает[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)объект
+извлекает[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) объект
 
 ```csharp
 public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType dataType, 
@@ -75,7 +75,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ### Возвращаемое значение
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)объект
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) объект
 
 ### Смотрите также
 
@@ -89,7 +89,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ## GetInstance(string, PropertyDataType, Guid) {#getinstance_1}
 
-Получает[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)объект
+извлекает[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) объект
 
 ```csharp
 public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataType dataType, 
@@ -98,13 +98,13 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства |
+| name | String | Название свойства |
 | dataType | PropertyDataType | Тип данных свойства |
 | propertySet | Guid | PropertySet свойства |
 
 ### Возвращаемое значение
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)объект
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) объект
 
 ### Смотрите также
 
@@ -118,7 +118,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 ## GetInstance(MapiProperty) {#getinstance_4}
 
-Извлекает[`PropertyDescriptor`](../../propertydescriptor)объект из свойства MAPI
+извлекает[`PropertyDescriptor`](../../propertydescriptor) объект из MAPI property
 
 ```csharp
 public static PropertyDescriptor GetInstance(MapiProperty property)
@@ -126,7 +126,7 @@ public static PropertyDescriptor GetInstance(MapiProperty property)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | MapiProperty | [`MapiProperty`](../../mapiproperty)объект |
+| property | MapiProperty | [`MapiProperty`](../../mapiproperty) объект |
 
 ### Смотрите также
 

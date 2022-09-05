@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API 参考
-description: 从流中加载 OLM 存储 此方法在使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用
+description: 从流中加载 OLM 存储 当使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用此方法
 type: docs
 weight: 100
 url: /zh/net/aspose.email.storage.olm/olmstorage/load/
 ---
 ## Load(Stream) {#load}
 
-从流中加载 OLM 存储。 此方法在使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用。
+从流中加载 OLM 存储。 当使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用此方法。
 
 ```csharp
 public bool Load(Stream stream)
@@ -20,7 +20,7 @@ public bool Load(Stream stream)
 
 ### 返回值
 
-'true' 如果文件已成功加载并且可以进一步遍历；否则为假。
+如果文件已成功加载并且可以进一步遍历，则为 true'；否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Load(Stream stream)
 
 ## Load(string) {#load_1}
 
-从文件加载 OLM 存储。 此方法在使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用。
+从文件加载 OLM 存储。 当使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用此方法。
 
 ```csharp
 public bool Load(string fileName)
@@ -44,7 +44,7 @@ public bool Load(string fileName)
 
 ### 返回值
 
-'true' 如果文件已成功加载并且可以进一步遍历；否则为假。
+如果文件已成功加载并且可以进一步遍历，则为 true'；否则为假。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AllAttendeesString
 second_title: Aspose.Email for .NET API 参考
-description: 指定除组织者外的所有与会者的列表包括资源和不可发送的与会者 区域会议 规范名称PidLidAllAttendeesString 替代名称dispidAllAttendeesString
+description: 指定除组织者外的所有与会者的列表包括资源和不可发送的与会者 区域Meetings 规范名称PidLidAllAttendeesString 备用名称dispidAllAttendeesString
 type: docs
 weight: 1040
 url: /zh/net/aspose.email.mapi/knownpropertylist/allattendeesstring/
 ---
 ## KnownPropertyList.AllAttendeesString field
 
-指定除组织者外的所有与会者的列表，包括资源和不可发送的与会者。 区域:会议 规范名称:PidLidAllAttendeesString 替代名称:dispidAllAttendeesString
+指定除组织者外的所有与会者的列表，包括资源和不可发送的与会者。 区域：Meetings 规范名称：PidLidAllAttendeesString 备用名称：dispidAllAttendeesString
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AllAttendeesString;

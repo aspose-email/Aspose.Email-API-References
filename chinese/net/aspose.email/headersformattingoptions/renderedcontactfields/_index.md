@@ -1,14 +1,14 @@
 ---
 title: RenderedContactFields
 second_title: Aspose.Email for .NET API 参考
-description: 定义将包含在输出 mhtml 中的联系人字段组 默认值为 ContactFieldsSet.AllExisting
+description: 定义将包含在输出 mhtml 中的联系人字段组 默认值为 ContactFieldsSet.AllExisting.
 type: docs
 weight: 80
 url: /zh/net/aspose.email/headersformattingoptions/renderedcontactfields/
 ---
 ## HeadersFormattingOptions.RenderedContactFields property
 
-定义将包含在输出 mhtml 中的联系人字段组。 默认值为 ContactFieldsSet.AllExisting。
+定义将包含在输出 mhtml 中的联系人字段组。 默认值为 ContactFieldsSet.AllExisting.
 
 ```csharp
 public ContactFieldsSet RenderedContactFields { get; set; }

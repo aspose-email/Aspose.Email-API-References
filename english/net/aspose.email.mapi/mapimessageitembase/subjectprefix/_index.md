@@ -1,7 +1,7 @@
 ---
 title: SubjectPrefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a subject prefix that typically indicates some action on a message such as FW  for forwarding.
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapimessageitembase/subjectprefix/

@@ -1,14 +1,14 @@
 ---
 title: GetMessageCountAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает количество сообщений
+description: Получает количество сообщений count
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.pop3/pop3client/getmessagecountasync/
 ---
 ## GetMessageCountAsync(IConnection) {#getmessagecountasync_1}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(IConnection connection)
@@ -16,7 +16,7 @@ public Task<int> GetMessageCountAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public Task<int> GetMessageCountAsync(IConnection connection)
 
 ## GetMessageCountAsync(IConnection, bool) {#getmessagecountasync_2}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransaction)
@@ -41,8 +41,8 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -59,7 +59,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 
 ## GetMessageCountAsync() {#getmessagecountasync}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync()
@@ -79,7 +79,7 @@ public Task<int> GetMessageCountAsync()
 
 ## GetMessageCountAsync(bool) {#getmessagecountasync_5}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(bool closeTransaction)
@@ -87,7 +87,7 @@ public Task<int> GetMessageCountAsync(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -103,7 +103,7 @@ public Task<int> GetMessageCountAsync(bool closeTransaction)
 
 ## GetMessageCountAsync(IConnection, CancellationToken) {#getmessagecountasync_4}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken token)
@@ -111,7 +111,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -129,7 +129,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken 
 
 ## GetMessageCountAsync(IConnection, bool, CancellationToken) {#getmessagecountasync_3}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransaction, 
@@ -138,8 +138,8 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -157,7 +157,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 
 ## GetMessageCountAsync(CancellationToken) {#getmessagecountasync_7}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(CancellationToken token)
@@ -165,7 +165,7 @@ public Task<int> GetMessageCountAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -181,7 +181,7 @@ public Task<int> GetMessageCountAsync(CancellationToken token)
 
 ## GetMessageCountAsync(bool, CancellationToken) {#getmessagecountasync_6}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public Task<int> GetMessageCountAsync(bool closeTransaction, CancellationToken token)
@@ -189,7 +189,7 @@ public Task<int> GetMessageCountAsync(bool closeTransaction, CancellationToken t
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

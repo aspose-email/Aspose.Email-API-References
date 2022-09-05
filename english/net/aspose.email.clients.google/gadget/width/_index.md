@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The gadgets width in pixels.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.google/gadget/width/

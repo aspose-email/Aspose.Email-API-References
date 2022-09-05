@@ -3,7 +3,7 @@ title: Pop3KnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16750
+weight: 16890
 url: /net/aspose.email.clients.pop3/pop3knownauthenticationtype/
 ---
 ## Pop3KnownAuthenticationType enumeration

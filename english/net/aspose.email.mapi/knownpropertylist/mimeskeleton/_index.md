@@ -1,7 +1,7 @@
 ---
 title: MimeSkeleton
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the toplevel MIME message headers all MIME message body part headers attachments. Area MIME properties Canonical name PidTagMimeSkeleton Alternate names ptagMimeSkeleton
 type: docs
 weight: 12700
 url: /net/aspose.email.mapi/knownpropertylist/mimeskeleton/

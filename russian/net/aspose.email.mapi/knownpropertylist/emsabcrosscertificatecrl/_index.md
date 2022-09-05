@@ -1,14 +1,14 @@
 ---
 title: EmsAbCrossCertificateCrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CROSS_CERTIFICATE_CRL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CROSS_CERTIFICATE_CRL
 type: docs
 weight: 5340
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabcrosscertificatecrl/
 ---
 ## KnownPropertyList.EmsAbCrossCertificateCrl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CROSS_CERTIFICATE_CRL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CROSS_CERTIFICATE_CRL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCrossCertificateCrl;

@@ -44,8 +44,8 @@ public static Attachment CreateAttachmentFromString(string content, string name,
 | --- | --- | --- |
 | content | String | Строка, представляющая содержимое вложения. |
 | name | String | Имя вложения. |
-| contentEncoding | Encoding | Кодировка содержимого. |
-| mediaType | String | Имя типа носителя |
+| contentEncoding | Encoding | Кодировка контента. |
+| mediaType | String | Название типа носителя |
 
 ### Возвращаемое значение
 
@@ -70,7 +70,7 @@ public static Attachment CreateAttachmentFromString(string content, ContentType 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | content | String | Строка, представляющая содержимое вложения. |
-| contentType | ContentType | The[`ContentType`](../../../aspose.email.mime/contenttype). |
+| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### Возвращаемое значение
 

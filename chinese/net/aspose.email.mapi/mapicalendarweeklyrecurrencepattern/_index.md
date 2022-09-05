@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarWeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 表示mapi日历的每周重复模式
+description: 表示 mapi 日历的每周重复模式
 type: docs
-weight: 18140
+weight: 18170
 url: /zh/net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/
 ---
 ## MapiCalendarWeeklyRecurrencePattern class
 
-表示mapi日历的每周重复模式
+表示 mapi 日历的每周重复模式
 
 ```csharp
 public sealed class MapiCalendarWeeklyRecurrencePattern : MapiCalendarRecurrencePattern
@@ -18,7 +18,7 @@ public sealed class MapiCalendarWeeklyRecurrencePattern : MapiCalendarRecurrence
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarWeeklyRecurrencePattern](mapicalendarweeklyrecurrencepattern)() | 初始化 [`MapiCalendarWeeklyRecurrencePattern`](../mapicalendarweeklyrecurrencepattern) 类的新实例 |
+| [MapiCalendarWeeklyRecurrencePattern](mapicalendarweeklyrecurrencepattern)() | 初始化[`MapiCalendarWeeklyRecurrencePattern`](../mapicalendarweeklyrecurrencepattern) class |
 
 ## 特性
 
@@ -26,10 +26,10 @@ public sealed class MapiCalendarWeeklyRecurrencePattern : MapiCalendarRecurrence
 | --- | --- |
 | [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype) { get; set; } | 获取或设置使用的日历类型 |
 | [DayOfWeek](../../aspose.email.mapi/mapicalendarweeklyrecurrencepattern/dayofweek) { get; set; } | 获取或设置事件发生的星期几 |
-| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | 日期数组，每个日期都是 删除实例或修改实例的原始实例日期。 |
-| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | 获取或设置 定义项目重复模式的结束日期。 |
-| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | 获取或设置循环的结束类型。 |
-| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | 异常指定对重复系列实例的更改。 |
+| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | 一个日期数组，每个日期都是 已删除实例或此重复的修改实例的原始实例日期。 |
+| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | 获取或设置定义项目重复模式的结束日期。 |
+| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | 获取或设置重复的结束类型。 |
+| [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | 一个异常指定对重复系列实例的更改。 |
 | virtual [Frequency](../../aspose.email.mapi/mapicalendarrecurrencepattern/frequency) { get; } | 获取或设置循环序列的频率。 |
 | [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates) { get; } | 日期数组，每个日期都是修改实例的日期。 |
 | [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount) { get; set; } | 获取或设置重复出现的次数。 |

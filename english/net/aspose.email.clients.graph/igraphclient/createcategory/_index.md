@@ -1,7 +1,7 @@
 ---
 title: CreateCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an OutlookCategoryaspose.email.clients.graph/outlookcategory object in the users master list of categories.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.graph/igraphclient/createcategory/

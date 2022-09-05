@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A set of metadata such as a description for a single calendar.
 type: docs
 weight: 15640
 url: /net/aspose.email.clients.google/calendar/
@@ -18,12 +18,12 @@ public class Calendar : BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| [Calendar](calendar)() | Initializes a new instance of the Calendar class. |
-| [Calendar](calendar)(string) | Initializes a new instance of the Calendar class. |
-| [Calendar](calendar)(string, string) | Initializes a new instance of the Calendar class. |
-| [Calendar](calendar)(string, string, string, string) | Initializes a new instance of the Calendar class. |
-| [Calendar](calendar)(string, string, string, string, string) | Initializes a new instance of the Calendar class. |
-| [Calendar](calendar)(string, string, string, string, string, string) | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor)() | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor_1)(string) | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor_2)(string, string) | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor_3)(string, string, string, string) | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor_4)(string, string, string, string, string) | Initializes a new instance of the Calendar class. |
+| [Calendar](calendar#constructor_5)(string, string, string, string, string, string) | Initializes a new instance of the Calendar class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: Owner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the task owner.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapitaskusers/owner/

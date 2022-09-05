@@ -1,14 +1,14 @@
 ---
 title: AttachContentId
 second_title: Aspose.Email for .NET API 参考
-description: 包含与相应 区域匹配的消息对象唯一的内容标识符消息附件属性 规范名称PidTagAttachContentId 备用名称PR_ATTACH_CONTENT_IDPR_ATTACH_CONTENT_ID_APR_ATTACH_CONTENT_ID_W
+description: 包含与对应的消息对象匹配的唯一内容标识符 区域消息附件属性 规范名称PidTagAttachContentId 替代名称PR_ATTACH_CONTENT_IDPR_ATTACH_CONTENT_ID_APR_ATTACH_CONTENT_ID_W
 type: docs
 weight: 1530
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachcontentid/
 ---
 ## KnownPropertyList.AttachContentId field
 
-包含与相应 区域匹配的消息对象唯一的内容标识符:消息附件属性 规范名称:PidTagAttachContentId 备用名称:PR_ATTACH_CONTENT_ID、PR_ATTACH_CONTENT_ID_A、PR_ATTACH_CONTENT_ID_W
+包含与对应的消息对象匹配的唯一内容标识符 区域：消息附件属性 规范名称：PidTagAttachContentId 替代名称：PR_ATTACH_CONTENT_ID、PR_ATTACH_CONTENT_ID_A、PR_ATTACH_CONTENT_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentId;

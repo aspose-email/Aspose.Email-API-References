@@ -1,14 +1,14 @@
 ---
 title: ResolveContacts
 second_title: Aspose.Email for .NET API 参考
-description: 解决不明确的邮箱显示名称 注意返回联系人的最大数量为 100这是使用交换命令的限制
+description: 解决不明确的邮箱显示名称 注意返回的联系人的最大计数为 100这是使用交换命令的限制
 type: docs
 weight: 340
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/resolvecontacts/
 ---
 ## ExchangeClient.ResolveContacts method
 
-解决不明确的邮箱显示名称。 注意:返回联系人的最大数量为 100。这是使用交换命令的限制。
+解决不明确的邮箱显示名称。 注意：返回的联系人的最大计数为 100。这是使用交换命令的限制。
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry)
@@ -20,7 +20,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)对象的数组。
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)对象。
 
 ### 也可以看看
 

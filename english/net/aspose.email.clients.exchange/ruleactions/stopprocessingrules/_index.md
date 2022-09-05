@@ -1,7 +1,7 @@
 ---
 title: StopProcessingRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether subsequent rules are to be evaluated.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange/ruleactions/stopprocessingrules/

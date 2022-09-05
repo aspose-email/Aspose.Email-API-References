@@ -1,7 +1,7 @@
 ---
 title: ReplyAll
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides automatic adding recipients in replying message.
 type: docs
 weight: 20
 url: /net/aspose.email.tools/replymessagebuilder/replyall/

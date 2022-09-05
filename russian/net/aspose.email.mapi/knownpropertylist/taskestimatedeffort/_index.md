@@ -1,14 +1,14 @@
 ---
 title: TaskEstimatedEffort
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество минут которые пользователь ожидает отработать над задачей. ОбластьЗадачи Каноническое имяPidLidTaskEstimatedEffort Альтернативные именаdispidTaskEstimatedEffort
+description: Указывает количество минут в течение которых пользователь будет работать над задачей. Область Tasks Каноническое имя PidLidTaskEstimatedEffort Альтернативные названия dispidTaskEstimatedEffort
 type: docs
 weight: 18630
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskestimatedeffort/
 ---
 ## KnownPropertyList.TaskEstimatedEffort field
 
-Указывает количество минут, которые пользователь ожидает отработать над задачей. Область:Задачи Каноническое имя:PidLidTaskEstimatedEffort Альтернативные имена:dispidTaskEstimatedEffort
+Указывает количество минут, в течение которых пользователь будет работать над задачей. Область: Tasks Каноническое имя: PidLidTaskEstimatedEffort Альтернативные названия: dispidTaskEstimatedEffort
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskEstimatedEffort;

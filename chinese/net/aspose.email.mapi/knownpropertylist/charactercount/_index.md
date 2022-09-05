@@ -1,14 +1,14 @@
 ---
 title: CharacterCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的字符数 区域普通 规范名称PidNameCharacterCount 替代名称urnschemas-microsoft-comofficeofficeCharacters
+description: 指定附加到文档对象的文件的字符数 区域Common 规范名称PidNameCharacterCount 备用名称urnschemas-microsoft-comofficeofficeCharacters
 type: docs
 weight: 2600
 url: /zh/net/aspose.email.mapi/knownpropertylist/charactercount/
 ---
 ## KnownPropertyList.CharacterCount field
 
-指定附加到 Document 对象的文件的字符数。 区域：普通 规范名称：PidNameCharacterCount 替代名称：urn:schemas-microsoft-com:office:office#Characters
+指定附加到文档对象的文件的字符数。 区域：Common 规范名称：PidNameCharacterCount 备用名称：urn:schemas-microsoft-com:office:office#Characters
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CharacterCount;

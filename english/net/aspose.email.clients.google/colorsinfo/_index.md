@@ -1,7 +1,7 @@
 ---
 title: ColorsInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains colors definition for calendars and events
 type: docs
 weight: 15660
 url: /net/aspose.email.clients.google/colorsinfo/
@@ -18,8 +18,8 @@ public class ColorsInfo
 
 | Name | Description |
 | --- | --- |
-| [ColorsInfo](colorsinfo)() | Initializes a new instance of the ColorsInfo class. |
-| [ColorsInfo](colorsinfo)(DateTime, Dictionary&lt;string, Colors&gt;, Dictionary&lt;string, Colors&gt;) | Initializes a new instance of the ColorsInfo class. |
+| [ColorsInfo](colorsinfo#constructor)() | Initializes a new instance of the ColorsInfo class. |
+| [ColorsInfo](colorsinfo#constructor_1)(DateTime, Dictionary&lt;string, Colors&gt;, Dictionary&lt;string, Colors&gt;) | Initializes a new instance of the ColorsInfo class. |
 
 ## Properties
 

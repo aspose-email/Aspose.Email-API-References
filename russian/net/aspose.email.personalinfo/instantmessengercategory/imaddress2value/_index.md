@@ -1,14 +1,14 @@
 ---
 title: ImAddress2Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории ImAddress2
+description: Строковое значение для категории ImAddress2.
 type: docs
 weight: 240
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/imaddress2value/
 ---
 ## InstantMessengerCategory.ImAddress2Value field
 
-Строковое значение для категории 'ImAddress2'
+Строковое значение для категории ImAddress2.
 
 ```csharp
 public const string ImAddress2Value;

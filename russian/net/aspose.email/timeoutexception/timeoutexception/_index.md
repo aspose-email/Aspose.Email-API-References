@@ -1,14 +1,14 @@
 ---
 title: TimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаTimeoutExceptionaspose.email/timeoutexception.
+description: Инициализирует новый экземплярTimeoutExceptionaspose.email/timeoutexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/timeoutexception/timeoutexception/
 ---
 ## TimeoutException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TimeoutException`](../../timeoutexception).
+Инициализирует новый экземпляр[`TimeoutException`](../../timeoutexception) класс.
 
 ```csharp
 public TimeoutException(string message)
@@ -28,7 +28,7 @@ public TimeoutException(string message)
 
 ## TimeoutException(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TimeoutException`](../../timeoutexception).
+Инициализирует новый экземпляр[`TimeoutException`](../../timeoutexception) класс.
 
 ```csharp
 public TimeoutException(string format, params object[] parameters)
@@ -77,7 +77,7 @@ public TimeoutException(string format, string command, int timeout)
 
 ## TimeoutException() {#constructor}
 
-Инициализирует новый экземпляр класса[`TimeoutException`](../../timeoutexception).
+Инициализирует новый экземпляр[`TimeoutException`](../../timeoutexception) класс.
 
 ```csharp
 public TimeoutException()

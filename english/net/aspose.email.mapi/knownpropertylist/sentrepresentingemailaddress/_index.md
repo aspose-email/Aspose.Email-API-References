@@ -1,7 +1,7 @@
 ---
 title: SentRepresentingEmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an email address for the end user who is represented by the sending mailbox owner. Area Address Properties Canonical name PidTagSentRepresentingEmailAddress Alternate names PR_SENT_REPRESENTING_EMAIL_ADDRESS PR_SENT_REPRESENTING_EMAIL_ADDRESS_A PR_SENT_REPRESENTING_EMAIL_ADDRESS_W
 type: docs
 weight: 17230
 url: /net/aspose.email.mapi/knownpropertylist/sentrepresentingemailaddress/

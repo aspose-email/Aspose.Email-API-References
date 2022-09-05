@@ -1,7 +1,7 @@
 ---
 title: ParentSourceKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value on a folder that contains the PidTagSourceKey property section 2.1012 of the parent folder. Area ExchangeNonTransmittableReserved Canonical name PidTagParentSourceKey Alternate names PR_PARENT_SOURCE_KEY
 type: docs
 weight: 14220
 url: /net/aspose.email.mapi/knownpropertylist/parentsourcekey/

@@ -1,12 +1,12 @@
 ---
 title: ReferenceAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of ReferenceAttachmentaspose.email/referenceattachment.
 type: docs
 weight: 10
 url: /net/aspose.email/referenceattachment/referenceattachment/
 ---
-## ReferenceAttachment constructor (1 of 3)
+## ReferenceAttachment() {#constructor}
 
 Initializes a new instance of [`ReferenceAttachment`](../../referenceattachment).
 
@@ -22,7 +22,7 @@ public ReferenceAttachment()
 
 ---
 
-## ReferenceAttachment constructor (2 of 3)
+## ReferenceAttachment(Uri) {#constructor_2}
 
 Initializes a new instance of [`ReferenceAttachment`](../../referenceattachment).
 
@@ -42,7 +42,7 @@ public ReferenceAttachment(Uri uri)
 
 ---
 
-## ReferenceAttachment constructor (3 of 3)
+## ReferenceAttachment(string) {#constructor_1}
 
 Initializes a new instance of [`ReferenceAttachment`](../../referenceattachment).
 

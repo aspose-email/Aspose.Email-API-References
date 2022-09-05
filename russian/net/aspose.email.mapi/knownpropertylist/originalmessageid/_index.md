@@ -1,14 +1,14 @@
 ---
 title: OriginalMessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор исходного сообщения включенного в ответы или повторно отправленные сообщения. ОбластьMail Каноническое имяPidTagOriginalMessageId Альтернативные именаptagOriginalInternetMessageID OriginalMessageId
+description: Содержит идентификатор исходного сообщения включенного в ответы или повторно отправленные сообщения. Область Mail Каноническое имя PidTagOriginalMessageId Альтернативные имена ptagOriginalInternetMessageID OriginalMessageId
 type: docs
 weight: 13640
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalmessageid/
 ---
 ## KnownPropertyList.OriginalMessageId field
 
-Содержит идентификатор исходного сообщения, включенного в ответы или повторно отправленные сообщения. Область:Mail Каноническое имя:PidTagOriginalMessageId Альтернативные имена:ptagOriginalInternetMessageID, OriginalMessageId
+Содержит идентификатор исходного сообщения, включенного в ответы или повторно отправленные сообщения. Область: Mail Каноническое имя: PidTagOriginalMessageId Альтернативные имена: ptagOriginalInternetMessageID, OriginalMessageId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalMessageId;

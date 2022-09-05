@@ -1,14 +1,14 @@
 ---
 title: InConflict
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает представляет ли вложение альтернативную реплику. ОбластьКонфликт Примечание Каноническое имяPidTagInConflict Альтернативные именаPR_IN_CONFLICT ptagInConflict
+description: Указывает представляет ли вложение альтернативную реплику. Область Conflict Note Каноническое имя PidTagInConflict Альтернативные имена PR_IN_CONFLICT ptagInConflict
 type: docs
 weight: 11310
 url: /ru/net/aspose.email.mapi/knownpropertylist/inconflict/
 ---
 ## KnownPropertyList.InConflict field
 
-Указывает, представляет ли вложение альтернативную реплику. Область:Конфликт Примечание Каноническое имя:PidTagInConflict Альтернативные имена:PR_IN_CONFLICT, ptagInConflict
+Указывает, представляет ли вложение альтернативную реплику. Область: Conflict Note Каноническое имя: PidTagInConflict Альтернативные имена: PR_IN_CONFLICT, ptagInConflict
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InConflict;

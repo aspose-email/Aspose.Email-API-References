@@ -1,14 +1,14 @@
 ---
 title: Fax1OriginalEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定与此传真地址对应的一次性 EntryID 区域联系人属性 规范名称PidLidFax1OriginalEntryId 替代名称dispidFax1OriginalEntryID
+description: 指定与此传真地址对应的一次性 EntryID 区域联系人 Properties 规范名称PidLidFax1OriginalEntryId 备用名称dispidFax1OriginalEntryID
 type: docs
 weight: 10160
 url: /zh/net/aspose.email.mapi/knownpropertylist/fax1originalentryid/
 ---
 ## KnownPropertyList.Fax1OriginalEntryId field
 
-指定与此传真地址对应的一次性 EntryID。 区域:联系人属性 规范名称:PidLidFax1OriginalEntryId 替代名称:dispidFax1OriginalEntryID
+指定与此传真地址对应的一次性 EntryID。 区域：联系人 Properties 规范名称：PidLidFax1OriginalEntryId 备用名称：dispidFax1OriginalEntryID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax1OriginalEntryId;

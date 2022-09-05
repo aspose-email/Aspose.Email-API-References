@@ -1,14 +1,14 @@
 ---
 title: OlmFolder
 second_title: Aspose.Email for .NET API 参考
-description: 表示 OLM 存储中的文件夹信息 
+description: 表示OLM存储中的文件夹信息 
 type: docs
-weight: 20050
+weight: 20100
 url: /zh/net/aspose.email.storage.olm/olmfolder/
 ---
 ## OlmFolder class
 
-表示 OLM 存储中的文件夹信息 。
+表示OLM存储中的文件夹信息 。
 
 ```csharp
 public class OlmFolder
@@ -18,7 +18,7 @@ public class OlmFolder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HasMessages](../../aspose.email.storage.olm/olmfolder/hasmessages) { get; } | 获取当前文件夹是否有消息的值。 |
+| [HasMessages](../../aspose.email.storage.olm/olmfolder/hasmessages) { get; } | 获取一个值，表示当前文件夹是否有消息。 |
 | [MessageCount](../../aspose.email.storage.olm/olmfolder/messagecount) { get; } | 获取消息计数。 |
 | [Name](../../aspose.email.storage.olm/olmfolder/name) { get; } | 获取文件夹名称。 |
 | [Path](../../aspose.email.storage.olm/olmfolder/path) { get; } | 获取路径。 |
@@ -33,7 +33,7 @@ public class OlmFolder
 | [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_1)(MailQuery) | 公开枚举器，它支持文件夹中消息的迭代。 |
 | [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages#enumeratemessages_2)(int, int) | 公开枚举器，它支持文件夹中消息的迭代。 |
 | [GetSubFolder](../../aspose.email.storage.olm/olmfolder/getsubfolder)(string, bool) | 按名称获取子文件夹。 |
-| override [ToString](../../aspose.email.storage.olm/olmfolder/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.email.storage.olm/olmfolder/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API 参考
-description: 表示节的内容
+description: 代表部分的内容
 type: docs
 weight: 40
 url: /zh/net/aspose.email.amp/section/value/
 ---
 ## Section.Value property
 
-表示节的内容。
+代表部分的内容。
 
 ```csharp
 public SectionValue Value { get; set; }

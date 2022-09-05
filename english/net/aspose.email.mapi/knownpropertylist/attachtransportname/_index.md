@@ -1,7 +1,7 @@
 ---
 title: AttachTransportName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of an attachment file modified so that it can be correlated with TNEF messages. Area Message Attachment Properties Canonical name PidTagAttachTransportName Alternate names PR_ATTACH_TRANSPORT_NAME PR_ATTACH_TRANSPORT_NAME_A PR_ATTACH_TRANSPORT_NAME_W
 type: docs
 weight: 1810
 url: /net/aspose.email.mapi/knownpropertylist/attachtransportname/

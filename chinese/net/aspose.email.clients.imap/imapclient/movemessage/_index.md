@@ -18,7 +18,7 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 | commitDeletions | Boolean | 指定是否应提交删除。 |
 
@@ -66,9 +66,9 @@ public string MoveMessage(int sequenceNumber, string folderName, bool commitDele
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| commitDeletions | Boolean | 指定是否应提交删除. |
+| commitDeletions | Boolean | 指定是否应提交删除。 |
 
 ### 也可以看看
 
@@ -111,7 +111,7 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看
@@ -156,7 +156,7 @@ public string MoveMessage(int sequenceNumber, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 也可以看看

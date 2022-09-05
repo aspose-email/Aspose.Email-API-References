@@ -16,7 +16,7 @@ public void Add(SequenceSetBaseValue value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | SequenceSetBaseValue | 要搜索的值 |
+| value | SequenceSetBaseValue | 搜索价值 |
 
 ### 也可以看看
 

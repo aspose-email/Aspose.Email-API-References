@@ -24,10 +24,10 @@ public class SmartRequestSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid) { get; set; } | 指定源消息的文件夹 ID，它在 FolderSync 命令中返回。 如果 FolderId 存在，ItemId 也必须存在。 FolderId 值最长可达 64 个字符。 |
+| [FolderId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid) { get; set; } | 指定在 FolderSync 命令中返回的源消息的文件夹 ID。 如果 FolderId 存在，ItemId 也必须存在。 FolderId 值最长可达 64 个字符。 |
 | [InstanceId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid) { get; set; } | 指定源项目的重复实例。 如果 InstanceId 存在，FolderId 和 ItemId 都应该存在。 |
-| [ItemId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid) { get; set; } | 指定源消息的项目 ID，它在 Sync 命令中返回。 如果 ItemId 存在，并且如果被转发或回复的消息存储在 Inbox 文件夹以外的文件夹中，则 FolderId 也必须存在。 ItemId 元素值最长可达 64 个字符。 |
-| [LongId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/longid) { get; set; } | 指定源消息的长 ID，在 Search 命令中返回。 如果 LongId 存在，则 FolderId、ItemId 和 InstanceId 不存在。 LongId 值最长可达 256 个字符。 |
+| [ItemId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid) { get; set; } | 指定源消息的项目 ID，它在 Sync 命令中返回。 如果存在 ItemId，并且如果转发或回复的消息存储在收件箱文件夹以外的文件夹中，则 FolderId 也必须存在。 ItemId 元素值最长可达 64 个字符。 |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/longid) { get; set; } | 指定搜索命令中返回的源消息的长 ID。 如果 LongId 存在，则 FolderId、ItemId 和 InstanceId 不存在。 LongId 值最长可达 256 个字符。 |
 
 ### 也可以看看
 

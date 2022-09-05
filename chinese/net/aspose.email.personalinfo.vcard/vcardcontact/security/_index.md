@@ -3,7 +3,7 @@ title: Security
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置安全属性
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/security/
 ---
 ## VCardContact.Security property

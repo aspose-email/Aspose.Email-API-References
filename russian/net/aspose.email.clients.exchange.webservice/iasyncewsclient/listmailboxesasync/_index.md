@@ -1,14 +1,14 @@
 ---
 title: ListMailboxesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Список почтовых ящиков имеющих smtp-адреса. Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS.
+description: Список почтовых ящиков имеющих smtp-адреса. Примечание. Максимальное количество возвращенных контактов равно 100. Это ограничение используемой операции EWS.
 type: docs
 weight: 440
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmailboxesasync/
 ---
 ## IAsyncEwsClient.ListMailboxesAsync method
 
-Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращаемых контактов – 100. Это ограничение используемой операции EWS.
+Список почтовых ящиков, имеющих smtp-адреса. Примечание. Максимальное количество возвращенных контактов равно 100. Это ограничение используемой операции EWS.
 
 ```csharp
 public Task<MapiContactCollection> ListMailboxesAsync(string filter = null, 
@@ -18,11 +18,11 @@ public Task<MapiContactCollection> ListMailboxesAsync(string filter = null,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filter | String | Строка фильтра |
-| cancellationToken | CancellationToken | Маркер отмены |
+| cancellationToken | CancellationToken | Токен отмены |
 
 ### Возвращаемое значение
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)которая представляет контактную информацию
+А[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) который представляет контактную информацию
 
 ### Смотрите также
 

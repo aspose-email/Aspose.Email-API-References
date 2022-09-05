@@ -17,7 +17,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream. |
-| writable | Boolean | если установлено значение` true` , то pst будет поддержка записи, иначе он будет открыт в режиме только для чтения. |
+| writable | Boolean | если установлено`истинный` тогда pst будет поддерживать запись, иначе он будет открыт в режиме только для чтения. |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream. |
-| loadOptions | PersonalStorageLoadOptions | Параметры загрузки. |
+| loadOptions | PersonalStorageLoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
@@ -140,7 +140,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | System.IO.Stream. |
-| loadOptions | PersonalStorageLoadOptions | Параметры загрузки. |
+| loadOptions | PersonalStorageLoadOptions | Варианты загрузки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

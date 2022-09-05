@@ -32,22 +32,22 @@ public class Task : IDisposable
 | [Organizer](../../aspose.email.calendar/task/organizer) { get; set; } | Получает или задает органайзер. |
 | [PercentComplete](../../aspose.email.calendar/task/percentcomplete) { get; set; } | Получает или задает процент выполнения задачи. |
 | [Priority](../../aspose.email.calendar/task/priority) { get; set; } | Получает или устанавливает приоритет задачи. |
-| [RelatedTo](../../aspose.email.calendar/task/relatedto) { get; set; } | Получает или устанавливает связанный UID |
+| [RelatedTo](../../aspose.email.calendar/task/relatedto) { get; set; } | Получает или задает связанный UID |
 | [SequenceId](../../aspose.email.calendar/task/sequenceid) { get; set; } | Получает или задает идентификатор последовательности. |
 | [StartDate](../../aspose.email.calendar/task/startdate) { get; set; } | Получает или задает дату начала задачи. |
 | [Subject](../../aspose.email.calendar/task/subject) { get; set; } | Получает или задает тему задачи. |
-| [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | Получает или устанавливает уникальный идентификатор |
+| [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | Получает или задает уникальный идентификатор |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.calendar/task/dispose)() | Освободите все ресурсы. |
+| [Dispose](../../aspose.email.calendar/task/dispose)() | Освободить все ресурсы. |
 | [Request](../../aspose.email.calendar/task/request)() | Запрашивает объект. |
 | virtual [Save](../../aspose.email.calendar/task/save#save)(Stream) | Сохраняет текущий объект в заданный поток, используя формат MSG. |
 | virtual [Save](../../aspose.email.calendar/task/save#save_2)(string) | Сохраняет текущий объект в файл в формате MSG. |
 | virtual [Save](../../aspose.email.calendar/task/save#save_1)(Stream, TaskSaveFormat) | Сохраняет текущий объект в указанный поток, используя указанный формат. |
-| virtual [Save](../../aspose.email.calendar/task/save#save_3)(string, TaskSaveFormat) | Сохраняет текущий объект в файл с использованием указанного формата. |
+| virtual [Save](../../aspose.email.calendar/task/save#save_3)(string, TaskSaveFormat) | Сохраняет текущий объект в файл в указанном формате. |
 
 ### Смотрите также
 

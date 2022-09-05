@@ -102,8 +102,8 @@ public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -127,7 +127,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -148,8 +148,8 @@ public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -170,7 +170,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -191,7 +191,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, bool commitNow)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
 
@@ -235,7 +235,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -258,8 +258,8 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uidSet | IEnumerable`1 | 消息的 UID 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -281,9 +281,9 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 
 ### 也可以看看
 
@@ -306,7 +306,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表 |
+| endUid | String | 消息列表的结束 UID |
 
 ### 也可以看看
 
@@ -327,7 +327,7 @@ public void DeleteMessages(int startSequence, int endSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 
 ### 也可以看看
@@ -370,10 +370,10 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -397,8 +397,8 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endUid | String | 消息列表的结束 UID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -419,9 +419,9 @@ public void DeleteMessages(int startSequence, int endSequence, long modification
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -441,8 +441,8 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
@@ -512,7 +512,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -537,7 +537,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -606,7 +606,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -628,8 +628,8 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -650,8 +650,8 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool com
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
 
@@ -674,8 +674,8 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 要删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
 
@@ -698,8 +698,8 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -723,8 +723,8 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 待删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看

@@ -1,9 +1,9 @@
 ---
 title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Properties are used to store professional details for the person represented by the contact
 type: docs
-weight: 18120
+weight: 18330
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet class
@@ -18,9 +18,9 @@ public sealed class MapiContactProfessionalPropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset)() | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class. |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset)(string, string) | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class. |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor)() | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class. |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_2)(string, string) | Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) class. |
 
 ## Properties
 

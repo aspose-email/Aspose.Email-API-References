@@ -1,7 +1,7 @@
 ---
 title: Jabber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default Jabber id
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/instantmessengerlist/jabber/

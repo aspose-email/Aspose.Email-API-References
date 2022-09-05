@@ -3,7 +3,7 @@ title: VCardIdentificationInfo
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет идентификационную информацию vCard
 type: docs
-weight: 19640
+weight: 19670
 url: /ru/net/aspose.email.personalinfo.vcard/vcardidentificationinfo/
 ---
 ## VCardIdentificationInfo class
@@ -18,7 +18,7 @@ public sealed class VCardIdentificationInfo
 
 | Имя | Описание |
 | --- | --- |
-| [VCardIdentificationInfo](vcardidentificationinfo)() | Инициализирует новый экземпляр класса[`VCardIdentificationInfo`](../vcardidentificationinfo) |
+| [VCardIdentificationInfo](vcardidentificationinfo)() | Инициализирует новый экземпляр[`VCardIdentificationInfo`](../vcardidentificationinfo) класс |
 
 ## Характеристики
 

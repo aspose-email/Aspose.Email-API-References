@@ -1,14 +1,14 @@
 ---
 title: CssStyles
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дополнительные стили css для средства форматирования.
+description: Получает или задает дополнительные стили CSS для средства форматирования.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/headersformattingoptions/cssstyles/
 ---
 ## HeadersFormattingOptions.CssStyles property
 
-Получает или задает дополнительные стили css для средства форматирования.
+Получает или задает дополнительные стили CSS для средства форматирования.
 
 ```csharp
 public string CssStyles { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ReplyRecipientSmtpProxies
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_REPLY_RECIPIENT_SMTP_PROXIES
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_REPLY_RECIPIENT_SMTP_PROXIES
 type: docs
 weight: 15940
 url: /zh/net/aspose.email.mapi/knownpropertylist/replyrecipientsmtpproxies/
 ---
 ## KnownPropertyList.ReplyRecipientSmtpProxies field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_REPLY_RECIPIENT_SMTP_PROXIES
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_REPLY_RECIPIENT_SMTP_PROXIES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRecipientSmtpProxies;

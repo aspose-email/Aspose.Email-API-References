@@ -1,14 +1,14 @@
 ---
 title: FreeBusyLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес по которому клиент может получить информацию о занятости контакта. ОбластьСвойства контакта Каноническое имяPidLidFreeBusyLocation Альтернативные именаdispidFreeBusyLocation
+description: Указывает URL-адрес по которому клиент может получить информацию о занятости контакта. Область Свойства контакта Каноническое имя PidLidFreeBusyLocation Альтернативные имена dispidFreeBusyLocation
 type: docs
 weight: 10660
 url: /ru/net/aspose.email.mapi/knownpropertylist/freebusylocation/
 ---
 ## KnownPropertyList.FreeBusyLocation field
 
-Указывает URL-адрес, по которому клиент может получить информацию о занятости контакта. Область:Свойства контакта Каноническое имя:PidLidFreeBusyLocation Альтернативные имена:dispidFreeBusyLocation
+Указывает URL-адрес, по которому клиент может получить информацию о занятости контакта. Область: Свойства контакта Каноническое имя: PidLidFreeBusyLocation Альтернативные имена: dispidFreeBusyLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FreeBusyLocation;

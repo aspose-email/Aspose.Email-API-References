@@ -1,7 +1,7 @@
 ---
 title: Folder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder where a group of items is located.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/folder/

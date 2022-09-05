@@ -16,7 +16,7 @@ public void EnsureUnRegistered(IDropTarget dropTarget)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dropTarget | IDropTarget | Цель перетаскивания. |
+| dropTarget | IDropTarget | Цель падения. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorStrings
 second_title: Aspose.Email for .NET API 参考
-description: 包含字符串格式的视图定义 区域MessageClassDefinedTransmittable 规范名称PidTagViewDescriptorStrings 替代名称PR_VD_STRINGS PR_VD_STRINGS_W
+description: 包含字符串格式的视图定义 区域MessageClassDefinedTransmittable 规范名称PidTagViewDescriptorStrings 替代名称PR_VD_STRINGSPR_VD_STRINGS_W
 type: docs
 weight: 19270
 url: /zh/net/aspose.email.mapi/knownpropertylist/viewdescriptorstrings/
 ---
 ## KnownPropertyList.ViewDescriptorStrings field
 
-包含字符串格式的视图定义。 区域:MessageClassDefinedTransmittable 规范名称:PidTagViewDescriptorStrings 替代名称:PR_VD_STRINGS, PR_VD_STRINGS_W
+包含字符串格式的视图定义。 区域：MessageClassDefinedTransmittable 规范名称：PidTagViewDescriptorStrings 替代名称：PR_VD_STRINGS、PR_VD_STRINGS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorStrings;

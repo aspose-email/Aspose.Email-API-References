@@ -1,14 +1,14 @@
 ---
 title: TIPMethod
 second_title: Aspose.Email for .NET API 参考
-description: 定义与对象关联的 iTIPiCalendar 与传输无关的互操作性协议方法
+description: 定义与对象关联的 iTIPiCalendar 独立于传输的互操作性协议方法
 type: docs
 weight: 890
 url: /zh/net/aspose.email.calendar/tipmethod/
 ---
 ## TIPMethod enumeration
 
-定义与对象关联的 iTIP（iCalendar 与传输无关的互操作性协议）方法。
+定义与对象关联的 iTIP（iCalendar 独立于传输的互操作性协议）方法。
 
 ```csharp
 public enum TIPMethod
@@ -20,12 +20,12 @@ public enum TIPMethod
 | --- | --- | --- |
 | None | `0` | 方法未定义。 |
 | Publish | `1` | 发布对象通知。 主要用作宣传对象存在的方法。 |
-| Request | `2` | 分配一个对象。 这是对一个或多个日历用户的显式分配。 REQUEST 方法也用于更新或更改现有对象。 无法处理 REQUEST 的客户端可能会降低方法以将其视为 PUBLISH。 |
+| Request | `2` | 分配一个对象。 这是对一个或多个日历用户的显式分配。 REQUEST 方法也用于更新或更改现有对象。 无法处理 REQUEST 的客户端可能会降低该方法以将其视为 PUBLISH。 |
 | Reply | `3` | 回复对象请求。 |
-| Add | `4` | 将一个或多个实例添加到现有对象。 |
+| Add | `4` | 向现有对象添加一个或多个实例。 |
 | Cancel | `5` | 取消现有对象的一个或多个实例。 |
-| Refresh | `6` | 发送给对象组织者的请求，请求对象的最新版本。 |
-| Counter | `7` | 用替代提议来反击请求。 |
+| Refresh | `6` | 发送给对象组织者的请求，要求获取对象的最新版本。 |
+| Counter | `7` | 使用替代提案来对抗请求。 |
 | DeclineCounter | `8` | 拒绝参加者的反提议。 |
 
 ### 也可以看看

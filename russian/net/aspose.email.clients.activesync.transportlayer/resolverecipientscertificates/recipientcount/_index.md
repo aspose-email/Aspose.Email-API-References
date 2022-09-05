@@ -1,14 +1,14 @@
 ---
 title: RecipientCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество членов принадлежащих к списку рассылки. Его можно использовать для определения того имеют ли все получатели принадлежащие к списку рассылки действительные сертификаты путем сравнения значений элементов CertificateCount и RecipientCount.
+description: Указывает количество членов принадлежащих к списку рассылки. Его можно использовать для определения того имеют ли все получатели принадлежащие к списку рассылки действительные сертификаты сравнивая значения элементов CertificateCount и RecipientCount.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount/
 ---
 ## ResolveRecipientsCertificates.RecipientCount property
 
-Указывает количество членов, принадлежащих к списку рассылки. Его можно использовать для определения того, имеют ли все получатели, принадлежащие к списку рассылки, действительные сертификаты, путем сравнения значений элементов CertificateCount и RecipientCount.
+Указывает количество членов, принадлежащих к списку рассылки. Его можно использовать для определения того, имеют ли все получатели, принадлежащие к списку рассылки, действительные сертификаты, сравнивая значения элементов CertificateCount и RecipientCount.
 
 ```csharp
 public int RecipientCount { get; set; }

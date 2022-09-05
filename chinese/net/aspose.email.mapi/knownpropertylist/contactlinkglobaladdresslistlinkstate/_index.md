@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinkglobaladdresslistlin
 ---
 ## KnownPropertyList.ContactLinkGlobalAddressListLinkState field
 
-指定 GAL 联系人和重复联系人之间的链接状态。 区域:联系人属性 规范名称:PidLidContactLinkGlobalAddressListLinkState 替代名称:dispidContactLinkGALLinkState
+指定 GAL 联系人和重复联系人之间的链接状态。 区域：联系人属性 规范名称：PidLidContactLinkGlobalAddressListLinkState 替代名称：dispidContactLinkGALLinkState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkGlobalAddressListLinkState;

@@ -1,14 +1,14 @@
 ---
 title: TaskOwner
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя владельца задачи. ОбластьЗадачи Каноническое имяPidLidTaskOwner Альтернативные именаdispidTaskOwner
+description: Содержит имя владельца задачи. Область Tasks Каноническое имя PidLidTaskOwner Альтернативные имена dispidTaskOwner
 type: docs
 weight: 18760
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskowner/
 ---
 ## KnownPropertyList.TaskOwner field
 
-Содержит имя владельца задачи. Область:Задачи Каноническое имя:PidLidTaskOwner Альтернативные имена:dispidTaskOwner
+Содержит имя владельца задачи. Область: Tasks Каноническое имя: PidLidTaskOwner Альтернативные имена: dispidTaskOwner
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskOwner;

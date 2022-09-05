@@ -1,7 +1,7 @@
 ---
 title: ContactLinkGlobalAddressListLinkId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the GUID of the GAL contact to which the duplicate contact is linked. Area Contact Properties Canonical name PidLidContactLinkGlobalAddressListLinkId Alternate names dispidContactLinkGALLinkID
 type: docs
 weight: 2980
 url: /net/aspose.email.mapi/knownpropertylist/contactlinkglobaladdresslistlinkid/

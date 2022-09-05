@@ -3,7 +3,7 @@ title: FolderInfoCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 FolderInfo 的集合
 type: docs
-weight: 20120
+weight: 20170
 url: /zh/net/aspose.email.storage.pst/folderinfocollection/
 ---
 ## FolderInfoCollection class

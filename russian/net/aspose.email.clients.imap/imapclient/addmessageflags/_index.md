@@ -16,9 +16,9 @@ public void AddMessageFlags(IConnection connection, int sequenceNumber, ImapMess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Смотрите также
 
@@ -40,9 +40,9 @@ public void AddMessageFlags(IConnection connection, string uniqueId, ImapMessage
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Смотрите также
 
@@ -64,8 +64,8 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Смотрите также
 
@@ -78,7 +78,7 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ## AddMessageFlags(string, ImapMessageFlags) {#addmessageflags_24}
 
-Добавляет к сообщению флаги
+Добавляет флаги к сообщению
 
 ```csharp
 public void AddMessageFlags(string uniqueId, ImapMessageFlags flags)
@@ -86,8 +86,8 @@ public void AddMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Смотрите также
 
@@ -109,10 +109,10 @@ public void AddMessageFlags(IConnection connection, int sequenceNumber, ImapMess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -135,10 +135,10 @@ public void AddMessageFlags(IConnection connection, string uniqueId, ImapMessage
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -160,9 +160,9 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long mod
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -175,7 +175,7 @@ public void AddMessageFlags(int sequenceNumber, ImapMessageFlags flags, long mod
 
 ## AddMessageFlags(string, ImapMessageFlags, long) {#addmessageflags_25}
 
-Добавляет к сообщению флаги
+Добавляет флаги к сообщению
 
 ```csharp
 public void AddMessageFlags(string uniqueId, ImapMessageFlags flags, long modificationSequence)
@@ -183,9 +183,9 @@ public void AddMessageFlags(string uniqueId, ImapMessageFlags flags, long modifi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -206,9 +206,9 @@ public void AddMessageFlags(string startUid, string endUid, ImapMessageFlags fla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменено |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -231,7 +231,7 @@ public void AddMessageFlags(int startSequence, int endSequence, ImapMessageFlags
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги удалить |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Смотрите также
 
@@ -253,10 +253,10 @@ public void AddMessageFlags(IConnection connection, string startUid, string endU
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -279,10 +279,10 @@ public void AddMessageFlags(IConnection connection, int startSequence, int endSe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Смотрите также
 
@@ -305,10 +305,10 @@ public void AddMessageFlags(string startUid, string endUid, ImapMessageFlags fla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменено |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -332,8 +332,8 @@ public void AddMessageFlags(int startSequence, int endSequence, ImapMessageFlags
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -355,11 +355,11 @@ public void AddMessageFlags(IConnection connection, string startUid, string endU
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -382,11 +382,11 @@ public void AddMessageFlags(IConnection connection, int startSequence, int endSe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -409,7 +409,7 @@ public void AddMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -430,8 +430,8 @@ public void AddMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Смотрите также
 
@@ -453,9 +453,9 @@ public void AddMessageFlags(IConnection connection, IEnumerable<string> uidSet,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -478,9 +478,9 @@ public void AddMessageFlags(IConnection connection, IEnumerable<int> sequenceSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Смотрите также
 
@@ -504,8 +504,8 @@ public void AddMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -527,9 +527,9 @@ public void AddMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -551,10 +551,10 @@ public void AddMessageFlags(IConnection connection, IEnumerable<string> uidSet,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -577,10 +577,10 @@ public void AddMessageFlags(IConnection connection, IEnumerable<int> sequenceSet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -603,7 +603,7 @@ public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMes
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -626,9 +626,9 @@ public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo>
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Смотрите также
 
@@ -653,8 +653,8 @@ public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMes
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -677,10 +677,10 @@ public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo>
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 

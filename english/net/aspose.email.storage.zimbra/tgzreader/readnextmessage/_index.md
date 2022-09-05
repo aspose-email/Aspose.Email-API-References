@@ -1,7 +1,7 @@
 ---
 title: ReadNextMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads the next message.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.zimbra/tgzreader/readnextmessage/

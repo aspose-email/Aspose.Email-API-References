@@ -1,7 +1,7 @@
 ---
 title: IsUnicode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the PST file format is Unicode. There are two versions of the PST file format Unicode and ANSI.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.pst/personalstorage/isunicode/

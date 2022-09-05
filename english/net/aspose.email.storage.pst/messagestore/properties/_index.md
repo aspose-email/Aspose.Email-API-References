@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the MAPI properties of message store object. The message store contains the toplevel PST settings and metadata that are required to access and manage the PST contents.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/messagestore/properties/

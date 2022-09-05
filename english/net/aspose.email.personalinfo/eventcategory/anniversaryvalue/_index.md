@@ -1,7 +1,7 @@
 ---
 title: AnniversaryValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Anniversary category
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/eventcategory/anniversaryvalue/

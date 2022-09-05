@@ -16,7 +16,7 @@ public long GetMessageSize(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -42,7 +42,7 @@ public long GetMessageSize(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
@@ -66,7 +66,7 @@ public long GetMessageSize(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -92,7 +92,7 @@ public long GetMessageSize(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 

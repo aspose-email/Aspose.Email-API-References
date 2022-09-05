@@ -1,7 +1,7 @@
 ---
 title: FilePathUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The URL of the document Mandatory Yes
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/sharepointmetadata/filepathurl/

@@ -1,7 +1,7 @@
 ---
 title: Get
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets DeliveryServiceClient instance by DeliveryServiceOptions.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/get/

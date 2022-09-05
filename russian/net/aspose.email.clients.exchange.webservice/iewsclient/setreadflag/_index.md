@@ -36,14 +36,14 @@ public void SetReadFlag(string messageUri, bool isRead)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | URI сообщения. |
+| messageUri | String | Ури сообщения. |
 | isRead | Boolean | Значение, указывающее, было ли сообщение прочитано |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*равно` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

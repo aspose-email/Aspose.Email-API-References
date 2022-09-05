@@ -1,14 +1,14 @@
 ---
 title: FetchAccessRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает правило доступа
+description: Получает правило доступа
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.google/igmailclient/fetchaccessrule/
 ---
 ## IGmailClient.FetchAccessRule method
 
-Выбирает правило доступа
+Получает правило доступа
 
 ```csharp
 public AccessControlRule FetchAccessRule(string calendarId, string roleId)

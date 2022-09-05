@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingSmtpAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含接收邮箱所有者代表的用户的 SMTP 电子邮件地址 区域邮件 规范名称PidTagReceivedRepresentingSmtpAddress 替代名称ptagRecipientRcvdRepresentingSmtpAddress
+description: 包含接收邮箱所有者代表的用户的 SMTP 电子邮件地址 区域Mail 规范名称PidTagReceivedRepresentingSmtpAddress 替代名称ptagRecipientRcvdRepresentingSmtpAddress
 type: docs
 weight: 15380
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivedrepresentingsmtpaddress/
 ---
 ## KnownPropertyList.ReceivedRepresentingSmtpAddress field
 
-包含接收邮箱所有者代表的用户的 SMTP 电子邮件地址。 区域:邮件 规范名称:PidTagReceivedRepresentingSmtpAddress 替代名称:ptagRecipientRcvdRepresentingSmtpAddress
+包含接收邮箱所有者代表的用户的 SMTP 电子邮件地址。 区域：Mail 规范名称：PidTagReceivedRepresentingSmtpAddress 替代名称：ptagRecipientRcvdRepresentingSmtpAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingSmtpAddress;

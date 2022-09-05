@@ -1,9 +1,9 @@
 ---
 title: ImapQuota
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about quota for mailbox resource.
 type: docs
-weight: 16440
+weight: 16470
 url: /net/aspose.email.clients.imap/imapquota/
 ---
 ## ImapQuota class

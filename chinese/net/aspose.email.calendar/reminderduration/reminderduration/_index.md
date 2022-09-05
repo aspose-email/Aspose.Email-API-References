@@ -1,14 +1,14 @@
 ---
 title: ReminderDuration
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ReminderDurationaspose.email.calendar/reminderduration类的新实例
+description: 初始化一个新的实例ReminderDurationaspose.email.calendar/reminderduration类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/reminderduration/reminderduration/
 ---
 ## ReminderDuration constructor
 
-初始化[`ReminderDuration`](../../reminderduration)类的新实例。
+初始化一个新的实例[`ReminderDuration`](../../reminderduration)类.
 
 ```csharp
 public ReminderDuration(TimeSpan duration)

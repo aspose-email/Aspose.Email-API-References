@@ -1,14 +1,14 @@
 ---
 title: End
 second_title: Aspose.Email for .NET API 参考
-description: 获取允许查找具有指定 End 字段的项目的字段
+description: 获取允许查找具有指定结束字段的项目的字段
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/appointmentquerybuilder/end/
 ---
 ## AppointmentQueryBuilder.End property
 
-获取允许查找具有指定 End 字段的项目的字段。
+获取允许查找具有指定结束字段的项目的字段。
 
 ```csharp
 public DateComparisonField End { get; }

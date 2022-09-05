@@ -1,14 +1,14 @@
 ---
 title: GraphQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGraphQueryBuilderaspose.email.clients.graph/graphquerybuilder.
+description: Инициализирует новый экземплярGraphQueryBuilderaspose.email.clients.graph/graphquerybuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.graph/graphquerybuilder/graphquerybuilder/
 ---
 ## GraphQueryBuilder constructor
 
-Инициализирует новый экземпляр класса[`GraphQueryBuilder`](../../graphquerybuilder).
+Инициализирует новый экземпляр[`GraphQueryBuilder`](../../graphquerybuilder) класс.
 
 ```csharp
 public GraphQueryBuilder()

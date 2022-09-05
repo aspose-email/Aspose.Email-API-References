@@ -16,7 +16,7 @@ public void MoveMessage(ExchangeMessageInfo msgInfo, string destinationFolderUri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msgInfo | ExchangeMessageInfo | Представляет информацию о сообщении электронной почты, полученном из хранилища Exchange. |
+| msgInfo | ExchangeMessageInfo | Представляет информацию о сообщении электронной почты, полученную из хранилища Exchange. |
 | destinationFolderUri | String | URI папки назначения. |
 
 ### Смотрите также
@@ -38,7 +38,7 @@ public void MoveMessage(ExchangeMessageInfo msgInfo, string destinationFolderUri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msgInfo | ExchangeMessageInfo | Представляет информацию о сообщении электронной почты, полученном из хранилища Exchange. |
+| msgInfo | ExchangeMessageInfo | Представляет информацию о сообщении электронной почты, полученную из хранилища Exchange. |
 | destinationFolderUri | String | URI папки назначения. |
 | overwrite | Boolean | Указывает, должен ли сервер перезаписывать существующее сообщение при обработке операции MOVE. |
 

@@ -1,7 +1,7 @@
 ---
 title: CalendarLocationUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a URL with location information in HTML format. Area Common Canonical name PidNameCalendarLocationUrl Alternate names urnschemascalendarlocationurl
 type: docs
 weight: 2320
 url: /net/aspose.email.mapi/knownpropertylist/calendarlocationurl/

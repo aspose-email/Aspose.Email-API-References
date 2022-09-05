@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаItemMovedEventArgsaspose.email.storage.pst/itemmovedeventargs.
+description: Инициализирует новый экземплярItemMovedEventArgsaspose.email.storage.pst/itemmovedeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/itemmovedeventargs/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs(MessageInfo) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../../itemmovedeventargs).
+Инициализирует новый экземпляр[`ItemMovedEventArgs`](../../itemmovedeventargs) класс.
 
 ```csharp
 public ItemMovedEventArgs(MessageInfo message)
@@ -29,7 +29,7 @@ public ItemMovedEventArgs(MessageInfo message)
 
 ## ItemMovedEventArgs(FolderInfo) {#constructor}
 
-Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../../itemmovedeventargs).
+Инициализирует новый экземпляр[`ItemMovedEventArgs`](../../itemmovedeventargs) класс.
 
 ```csharp
 public ItemMovedEventArgs(FolderInfo folder)
@@ -50,7 +50,7 @@ public ItemMovedEventArgs(FolderInfo folder)
 
 ## ItemMovedEventArgs(string, MapiPropertyCollection) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../../itemmovedeventargs).
+Инициализирует новый экземпляр[`ItemMovedEventArgs`](../../itemmovedeventargs) класс.
 
 ```csharp
 public ItemMovedEventArgs(string entryId, MapiPropertyCollection properties)
@@ -58,7 +58,7 @@ public ItemMovedEventArgs(string entryId, MapiPropertyCollection properties)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entryId | String | Идентификатор записи. |
+| entryId | String | Идентификатор входа. |
 | properties | MapiPropertyCollection | Свойства. |
 
 ### Смотрите также

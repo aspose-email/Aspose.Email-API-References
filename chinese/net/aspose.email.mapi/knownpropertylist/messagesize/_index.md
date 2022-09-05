@@ -1,14 +1,14 @@
 ---
 title: MessageSize
 second_title: Aspose.Email for .NET API 参考
-description: 包含服务器上 Message 对象使用的大小以字节为单位 区域常规消息属性 规范名称PidTagMessageSize 替代名称PR_MESSAGE_SIZE ptagMessageSize
+description: 包含服务器上消息对象使用的大小以字节为单位 区域常规消息属性 规范名称PidTagMessageSize 替代名称PR_MESSAGE_SIZEptagMessageSize
 type: docs
 weight: 12610
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagesize/
 ---
 ## KnownPropertyList.MessageSize field
 
-包含服务器上 Message 对象使用的大小（以字节为单位）。 区域:常规消息属性 规范名称:PidTagMessageSize 替代名称:PR_MESSAGE_SIZE, ptagMessageSize
+包含服务器上消息对象使用的大小（以字节为单位）。 区域：常规消息属性 规范名称：PidTagMessageSize 替代名称：PR_MESSAGE_SIZE、ptagMessageSize
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSize;

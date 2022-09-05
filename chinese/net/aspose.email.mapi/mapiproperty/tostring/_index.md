@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 返回代表当前Object的String
+description: 返回一个String代表当前Object.
 type: docs
 weight: 270
 url: /zh/net/aspose.email.mapi/mapiproperty/tostring/
 ---
 ## MapiProperty.ToString method
 
-返回代表当前Object的String。
+返回一个String代表当前Object.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-AString表示当前Object。
+一个String代表当前Object.
 
 ### 也可以看看
 

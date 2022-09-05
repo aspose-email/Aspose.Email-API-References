@@ -1,14 +1,14 @@
 ---
 title: MessageSizeExtended
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает 64-разрядную версию свойства PidTagMessageSize раздел 2.787. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageSizeExtended Альтернативные именаPR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
+description: Указывает 64-разрядную версию свойства PidTagMessageSize раздел 2.787. Область Общие свойства сообщения Каноническое имя PidTagMessageSizeExtended Альтернативные имена PR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
 type: docs
 weight: 12620
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagesizeextended/
 ---
 ## KnownPropertyList.MessageSizeExtended field
 
-Указывает 64-разрядную версию свойства PidTagMessageSize (раздел 2.787). Область:Общие свойства сообщения Каноническое имя:PidTagMessageSizeExtended Альтернативные имена:PR_MESSAGE_SIZE_EXTENDED, ptagMessageSizeExtended
+Указывает 64-разрядную версию свойства PidTagMessageSize (раздел 2.787). Область: Общие свойства сообщения Каноническое имя: PidTagMessageSizeExtended Альтернативные имена: PR_MESSAGE_SIZE_EXTENDED, ptagMessageSizeExtended
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSizeExtended;

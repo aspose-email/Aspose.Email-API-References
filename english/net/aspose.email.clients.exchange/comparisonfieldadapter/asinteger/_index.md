@@ -1,7 +1,7 @@
 ---
 title: AsInteger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns current ComparisonFieldaspose.email.tools.search/comparisonfield as LongComparisonFieldaspose.email.tools.search/longcomparisonfield
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/asinteger/

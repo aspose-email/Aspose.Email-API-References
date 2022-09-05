@@ -1,14 +1,14 @@
 ---
 title: ProgressEventHandlerInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Этот класс представляет информацию о ходе преобразования которую можно использовать во внешнем приложении для демонстрации хода преобразования конечному пользователю.
+description: Этот класс представляет информацию о ходе преобразования которую можно использовать во внешнем приложении для отображения хода преобразования конечному пользователю.
 type: docs
-weight: 19860
+weight: 19910
 url: /ru/net/aspose.email/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class
 
-Этот класс представляет информацию о ходе преобразования, которую можно использовать во внешнем приложении для демонстрации хода преобразования конечному пользователю.
+Этот класс представляет информацию о ходе преобразования, которую можно использовать во внешнем приложении для отображения хода преобразования конечному пользователю.
 
 ```csharp
 public class ProgressEventHandlerInfo
@@ -24,8 +24,8 @@ public class ProgressEventHandlerInfo
 
 | Имя | Описание |
 | --- | --- |
-| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype) { get; set; } | Тип произошедшего события прогресса. |
-| [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount) { get; set; } | Количество сохранённых частей mime. |
+| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype) { get; set; } | Тип произошедшего события выполнения. |
+| [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount) { get; set; } | Количество сохраненных частей пантомимы. |
 | [TotalMimePartCount](../../aspose.email/progresseventhandlerinfo/totalmimepartcount) { get; set; } | Общее количество частей пантомимы. |
 
 ### Смотрите также

@@ -20,7 +20,7 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(ImapFetchMessages param
 
 ### 返回值
 
-[`MailMessage`](../../../aspose.email/mailmessage)对象列表
+清单[`MailMessage`](../../../aspose.email/mailmessage)对象
 
 ### 也可以看看
 

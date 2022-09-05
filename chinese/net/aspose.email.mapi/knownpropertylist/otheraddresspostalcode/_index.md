@@ -1,14 +1,14 @@
 ---
 title: OtherAddressPostalCode
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户其他邮政地址的邮政编码 区域地址属性 规范名称PidTagOtherAddressPostalCode 替代名称PR_OTHER_ADDRESS_POSTAL_CODE PR_OTHER_ADDRESS_POSTAL_CODE_A
+description: 包含邮件用户其他邮政地址的邮政编码 区域地址属性 规范名称PidTagOtherAddressPostalCode 别名PR_OTHER_ADDRESS_POSTAL_CODEPR_OTHER_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 13980
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddresspostalcode/
 ---
 ## KnownPropertyList.OtherAddressPostalCode field
 
-包含邮件用户其他邮政地址的邮政编码。 区域:地址属性 规范名称:PidTagOtherAddressPostalCode 替代名称:PR_OTHER_ADDRESS_POSTAL_CODE, PR_OTHER_ADDRESS_POSTAL_CODE_A,
+包含邮件用户其他邮政地址的邮政编码。 区域：地址属性 规范名称：PidTagOtherAddressPostalCode 别名：PR_OTHER_ADDRESS_POSTAL_CODE、PR_OTHER_ADDRESS_POSTAL_CODE_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressPostalCode;

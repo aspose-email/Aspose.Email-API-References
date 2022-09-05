@@ -1,14 +1,14 @@
 ---
 title: On
 second_title: Aspose.Email for .NET API 参考
-description: 表示message中的日期必须在指定的日期之内
+description: 表示消息中的日期必须在指定日期之内
 type: docs
 weight: 50
 url: /zh/net/aspose.email.tools.search/datecomparisonfield/on/
 ---
 ## On(DateTime) {#on}
 
-表示message中的日期必须在指定的日期之内。
+表示消息中的日期必须在指定日期之内。
 
 ```csharp
 public MailQuery On(DateTime value)
@@ -16,7 +16,7 @@ public MailQuery On(DateTime value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public MailQuery On(DateTime value)
 
 ## On(DateTime, DateComparisonType) {#on_1}
 
-表示message中的日期必须在指定的日期之内。
+表示消息中的日期必须在指定日期之内。
 
 ```csharp
 public MailQuery On(DateTime value, DateComparisonType comparisonType)
@@ -41,12 +41,12 @@ public MailQuery On(DateTime value, DateComparisonType comparisonType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 | comparisonType | DateComparisonType | 指定比较类型 |
 
 ### 返回值
 
-MailQuery表示搜索查询（一种搜索标准）。
+[`MailQuery`](../../mailquery)表示搜索查询（一种搜索标准）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: NoteHeight
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает высоту видимого окна сообщения в пикселях. ОбластьSticky Notes Каноническое имяPidLidNoteHeight Альтернативные именаdispidNoteHeight
+description: Указывает высоту видимого окна сообщения в пикселях. Область Sticky Notes Каноническое имя PidLidNoteHeight Альтернативные имена dispidNoteHeight
 type: docs
 weight: 13130
 url: /ru/net/aspose.email.mapi/knownpropertylist/noteheight/
 ---
 ## KnownPropertyList.NoteHeight field
 
-Задает высоту видимого окна сообщения в пикселях. Область:Sticky Notes Каноническое имя:PidLidNoteHeight Альтернативные имена:dispidNoteHeight
+Указывает высоту видимого окна сообщения в пикселях. Область: Sticky Notes Каноническое имя: PidLidNoteHeight Альтернативные имена: dispidNoteHeight
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteHeight;

@@ -25,7 +25,7 @@ public abstract class ExchangeBasePermission
 | [IsFolderContact](../../aspose.email.clients.exchange/exchangebasepermission/isfoldercontact) { get; set; } | Получает или задает значение, указывающее, является ли пользователь контактом для папки. |
 | [IsFolderOwner](../../aspose.email.clients.exchange/exchangebasepermission/isfolderowner) { get; set; } | Получает или задает значение, указывающее, является ли пользователь владельцем папки. |
 | [IsFolderVisible](../../aspose.email.clients.exchange/exchangebasepermission/isfoldervisible) { get; set; } | Получает или задает значение, указывающее, может ли пользователь просматривать папку. |
-| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или пользователя-делегата, имеющего права доступа к папке |
+| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или делегированного пользователя, у которого есть права доступа к папке |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MapiContact
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactaspose.email.mapi/mapicontact 类的新实例
+description: 初始化MapiContactaspose.email.mapi/mapicontact class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontact/mapicontact/
 ---
 ## MapiContact() {#constructor}
 
-初始化 [`MapiContact`](../../mapicontact) 类的新实例
+初始化[`MapiContact`](../../mapicontact) class
 
 ```csharp
 public MapiContact()
@@ -24,7 +24,7 @@ public MapiContact()
 
 ## MapiContact(string, string) {#constructor_1}
 
-初始化[`MapiContact`](../../mapicontact)类的新实例。
+初始化[`MapiContact`](../../mapicontact)类.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress)
@@ -45,7 +45,7 @@ public MapiContact(string displayName, string electonicAddress)
 
 ## MapiContact(string, string, string) {#constructor_2}
 
-初始化[`MapiContact`](../../mapicontact)类的新实例。
+初始化[`MapiContact`](../../mapicontact)类.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress, string companyName)
@@ -67,7 +67,7 @@ public MapiContact(string displayName, string electonicAddress, string companyNa
 
 ## MapiContact(string, string, string, string) {#constructor_3}
 
-初始化[`MapiContact`](../../mapicontact)类的新实例。
+初始化[`MapiContact`](../../mapicontact)类.
 
 ```csharp
 public MapiContact(string displayName, string electonicAddress, string companyName, 

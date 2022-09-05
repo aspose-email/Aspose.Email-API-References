@@ -1,14 +1,14 @@
 ---
 title: HeartbeatInterval
 second_title: Aspose.Email for .NET API 参考
-description: 指定如果没有新项目添加到包含的文件夹服务器应该延迟响应的秒数 HeartbeatInterval 的有效值为 60 到 3540 秒59 分钟 当客户端请求一个超出可接受范围的间隔时服务器将发送一个响应其中包括一个 Status 值 14 和一个 Limit 元素 HeartbeatInterval 或 Wait 可以包含在 Sync 命令请求中但不能同时包含两者 如果两个元素都包含服务器响应将包含状态值 4
+description: 指定如果没有新项目添加到包含的文件夹中服务器应该延迟响应的秒数 HeartbeatInterval 的有效值为 60 到 3540 秒59 分钟 当客户端请求超出可接受范围的时间间隔时服务器将发送包含状态值 14 和限制元素的响应 HeartbeatInterval 或等待可以包含在同步命令请求中但不能两个都 如果两个元素都包含服务器响应将包含一个状态值 4.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncrequest/heartbeatinterval/
 ---
 ## SyncRequest.HeartbeatInterval property
 
-指定如果没有新项目添加到包含的文件夹，服务器应该延迟响应的秒数。 HeartbeatInterval 的有效值为 60 到 3540 秒（59 分钟）。 当客户端请求一个超出可接受范围的间隔时，服务器将发送一个响应，其中包括一个 Status 值 14 和一个 Limit 元素。 HeartbeatInterval 或 Wait 可以包含在 Sync 命令请求中，但不能同时包含两者。 如果两个元素都包含，服务器响应将包含状态值 4。
+指定如果没有新项目添加到包含的文件夹中，服务器应该延迟响应的秒数。 HeartbeatInterval 的有效值为 60 到 3540 秒（59 分钟）。 当客户端请求超出可接受范围的时间间隔时，服务器将发送包含状态值 14 和限制元素的响应。 HeartbeatInterval 或等待可以包含在同步命令请求中，但不能两个都。 如果两个元素都包含，服务器响应将包含一个状态值 4.
 
 ```csharp
 public int? HeartbeatInterval { get; set; }

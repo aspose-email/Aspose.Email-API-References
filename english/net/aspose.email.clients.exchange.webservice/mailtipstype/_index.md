@@ -1,7 +1,7 @@
 ---
 title: MailTipsType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the types of mail tips
 type: docs
 weight: 4000
 url: /net/aspose.email.clients.exchange.webservice/mailtipstype/

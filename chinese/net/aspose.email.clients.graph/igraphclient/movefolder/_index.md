@@ -16,8 +16,8 @@ public FolderInfo MoveFolder(string newParentId, string itemId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newParentId | String | 新父文件夹 ID |
-| itemId | String | 项目 ID被移动 |
+| newParentId | String | 新的父文件夹 ID |
+| itemId | String | 要移动的项目 ID |
 
 ### 返回值
 

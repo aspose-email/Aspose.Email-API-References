@@ -1,14 +1,14 @@
 ---
 title: ForwardAsync
 second_title: Aspose.Email for .NET API 参考
-description: 将指定的消息转发给收件人
+description: 将指定邮件转发给收件人
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.smtp/smtpclient/forwardasync/
 ---
 ## ForwardAsync(IConnection, string, string, MailMessage) {#forwardasync_4}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, string recipient, 
@@ -18,13 +18,13 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
-| recipient | String | 转发消息的接收者。 |
-| message | MailMessage | 转发的消息。 |
+| sender | String | 转发消息的发件人。 |
+| recipient | String | 转发消息的收件人。 |
+| message | MailMessage | 转发消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 ## ForwardAsync(IConnection, string, MailAddressCollection, MailMessage) {#forwardasync}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
@@ -48,13 +48,13 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
-| message | MailMessage | 转发的消息。 |
+| message | MailMessage | 转发消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -69,7 +69,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## ForwardAsync(string, string, MailMessage) {#forwardasync_10}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, string recipient, MailMessage message)
@@ -77,13 +77,13 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
-| recipient | String | 转发消息的接收者。 |
-| message | MailMessage | 转发的消息。 |
+| sender | String | 转发消息的发件人。 |
+| recipient | String | 转发消息的收件人。 |
+| message | MailMessage | 转发消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -96,7 +96,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 
 ## ForwardAsync(string, MailAddressCollection, MailMessage) {#forwardasync_6}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMessage message)
@@ -104,13 +104,13 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
-| message | MailMessage | 转发的消息。 |
+| message | MailMessage | 转发消息。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -124,7 +124,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 ## ForwardAsync(IConnection, string, MailAddressCollection, Stream) {#forwardasync_2}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
@@ -134,13 +134,13 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
 | messageStream | Stream | 以 eml 格式表示消息的流。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -154,7 +154,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## ForwardAsync(string, MailAddressCollection, Stream) {#forwardasync_8}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream messageStream)
@@ -162,13 +162,13 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
 | messageStream | Stream | 以 eml 格式表示消息的流。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -181,7 +181,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 ## ForwardAsync(IConnection, string, string, MailMessage, CancellationToken) {#forwardasync_5}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, string recipient, 
@@ -191,14 +191,14 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
-| recipient | String | 转发消息的接收者。 |
-| message | MailMessage | 转发的消息。 |
+| sender | String | 转发消息的发件人。 |
+| recipient | String | 转发消息的收件人。 |
+| message | MailMessage | 转发消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -212,7 +212,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 ## ForwardAsync(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) {#forwardasync_1}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
@@ -222,14 +222,14 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
-| message | MailMessage | 转发的消息。 |
+| message | MailMessage | 转发消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -244,7 +244,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## ForwardAsync(string, string, MailMessage, CancellationToken) {#forwardasync_11}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, string recipient, MailMessage message, 
@@ -253,14 +253,14 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
-| recipient | String | 转发消息的接收者。 |
-| message | MailMessage | 转发的消息。 |
+| sender | String | 转发消息的发件人。 |
+| recipient | String | 转发消息的收件人。 |
+| message | MailMessage | 转发消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -273,7 +273,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 
 ## ForwardAsync(string, MailAddressCollection, MailMessage, CancellationToken) {#forwardasync_7}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMessage message, 
@@ -282,14 +282,14 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
-| message | MailMessage | 转发的消息。 |
+| message | MailMessage | 转发消息。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -303,7 +303,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 ## ForwardAsync(IConnection, string, MailAddressCollection, Stream, CancellationToken) {#forwardasync_3}
 
-将指定的消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
@@ -313,14 +313,14 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sender | String | 转发消息的发送者。 |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
 | messageStream | Stream | 以 eml 格式表示消息的流。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -334,7 +334,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## ForwardAsync(string, MailAddressCollection, Stream, CancellationToken) {#forwardasync_9}
 
-将指定消息转发给收件人
+将指定邮件转发给收件人
 
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream messageStream, 
@@ -343,14 +343,14 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | String | 转发消息的发件人. |
+| sender | String | 转发消息的发件人。 |
 | recipients | MailAddressCollection | 转发消息的收件人。 |
 | messageStream | Stream | 以 eml 格式表示消息的流。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

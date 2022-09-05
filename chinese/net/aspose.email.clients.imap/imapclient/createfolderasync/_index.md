@@ -1,14 +1,14 @@
 ---
 title: CreateFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定名称的文件夹
+description: 创建一个具有指定名称的文件夹
 type: docs
 weight: 530
 url: /zh/net/aspose.email.clients.imap/imapclient/createfolderasync/
 ---
 ## CreateFolderAsync(IConnection, string) {#createfolderasync}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public Task CreateFolderAsync(IConnection connection, string folderName)
@@ -21,7 +21,7 @@ public Task CreateFolderAsync(IConnection connection, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Task CreateFolderAsync(IConnection connection, string folderName)
 
 ## CreateFolderAsync(string) {#createfolderasync_2}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public Task CreateFolderAsync(string folderName)
@@ -42,11 +42,11 @@ public Task CreateFolderAsync(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 要成为的文件夹创建 |
+| folderName | String | 要创建的文件夹 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public Task CreateFolderAsync(string folderName)
 
 ## CreateFolderAsync(IConnection, string, CancellationToken) {#createfolderasync_1}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public Task CreateFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -68,11 +68,11 @@ public Task CreateFolderAsync(IConnection connection, string folderName, Cancell
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 要创建的文件夹 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public Task CreateFolderAsync(IConnection connection, string folderName, Cancell
 
 ## CreateFolderAsync(string, CancellationToken) {#createfolderasync_3}
 
-创建具有指定名称的文件夹
+创建一个具有指定名称的文件夹
 
 ```csharp
 public Task CreateFolderAsync(string folderName, CancellationToken token)
@@ -93,12 +93,12 @@ public Task CreateFolderAsync(string folderName, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 要成为的文件夹created |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| folderName | String | 要创建的文件夹 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

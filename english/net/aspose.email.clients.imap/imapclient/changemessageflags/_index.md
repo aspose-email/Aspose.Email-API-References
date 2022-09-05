@@ -1,12 +1,12 @@
 ---
 title: ChangeMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the flags of the message
 type: docs
 weight: 420
 url: /net/aspose.email.clients.imap/imapclient/changemessageflags/
 ---
-## ImapClient.ChangeMessageFlags method (1 of 28)
+## ChangeMessageFlags(string, ImapMessageFlags) {#changemessageflags_24}
 
 Changes the flags of the message
 
@@ -28,7 +28,7 @@ public void ChangeMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.ChangeMessageFlags method (2 of 28)
+## ChangeMessageFlags(int, ImapMessageFlags) {#changemessageflags_14}
 
 Changes the flags of the message
 
@@ -50,7 +50,7 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ---
 
-## ImapClient.ChangeMessageFlags method (3 of 28)
+## ChangeMessageFlags(IConnection, string, ImapMessageFlags) {#changemessageflags_10}
 
 Changes the flags of the message
 
@@ -74,7 +74,7 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ---
 
-## ImapClient.ChangeMessageFlags method (4 of 28)
+## ChangeMessageFlags(IConnection, int, ImapMessageFlags) {#changemessageflags}
 
 Changes the flags of the message
 
@@ -98,7 +98,7 @@ public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ---
 
-## ImapClient.ChangeMessageFlags method (5 of 28)
+## ChangeMessageFlags(string, ImapMessageFlags, long) {#changemessageflags_25}
 
 Changes the flags of the message
 
@@ -121,7 +121,7 @@ public void ChangeMessageFlags(string uniqueId, ImapMessageFlags flags, long mod
 
 ---
 
-## ImapClient.ChangeMessageFlags method (6 of 28)
+## ChangeMessageFlags(int, ImapMessageFlags, long) {#changemessageflags_15}
 
 Changes the flags of the message
 
@@ -145,7 +145,7 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags,
 
 ---
 
-## ImapClient.ChangeMessageFlags method (7 of 28)
+## ChangeMessageFlags(IConnection, string, ImapMessageFlags, long) {#changemessageflags_11}
 
 Changes the flags of the message
 
@@ -171,7 +171,7 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ---
 
-## ImapClient.ChangeMessageFlags method (8 of 28)
+## ChangeMessageFlags(IConnection, int, ImapMessageFlags, long) {#changemessageflags_1}
 
 Changes the flags of the message
 
@@ -197,7 +197,7 @@ public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ---
 
-## ImapClient.ChangeMessageFlags method (9 of 28)
+## ChangeMessageFlags(string, string, ImapMessageFlags) {#changemessageflags_26}
 
 Changes the flags of the message
 
@@ -220,7 +220,7 @@ public void ChangeMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ---
 
-## ImapClient.ChangeMessageFlags method (10 of 28)
+## ChangeMessageFlags(int, int, ImapMessageFlags) {#changemessageflags_16}
 
 Changes the flags of the message
 
@@ -243,7 +243,7 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ---
 
-## ImapClient.ChangeMessageFlags method (11 of 28)
+## ChangeMessageFlags(IConnection, string, string, ImapMessageFlags) {#changemessageflags_12}
 
 Changes the flags of the message
 
@@ -269,7 +269,7 @@ public void ChangeMessageFlags(IConnection connection, string startUid, string e
 
 ---
 
-## ImapClient.ChangeMessageFlags method (12 of 28)
+## ChangeMessageFlags(IConnection, int, int, ImapMessageFlags) {#changemessageflags_2}
 
 Changes the flags of the message
 
@@ -295,7 +295,7 @@ public void ChangeMessageFlags(IConnection connection, int startSequence, int en
 
 ---
 
-## ImapClient.ChangeMessageFlags method (13 of 28)
+## ChangeMessageFlags(string, string, ImapMessageFlags, long) {#changemessageflags_27}
 
 Changes the flags of the message
 
@@ -320,7 +320,7 @@ public void ChangeMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ---
 
-## ImapClient.ChangeMessageFlags method (14 of 28)
+## ChangeMessageFlags(int, int, ImapMessageFlags, long) {#changemessageflags_17}
 
 Changes the flags of the message
 
@@ -345,7 +345,7 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ---
 
-## ImapClient.ChangeMessageFlags method (15 of 28)
+## ChangeMessageFlags(IConnection, string, string, ImapMessageFlags, long) {#changemessageflags_13}
 
 Changes the flags of the message
 
@@ -372,7 +372,7 @@ public void ChangeMessageFlags(IConnection connection, string startUid, string e
 
 ---
 
-## ImapClient.ChangeMessageFlags method (16 of 28)
+## ChangeMessageFlags(IConnection, int, int, ImapMessageFlags, long) {#changemessageflags_3}
 
 Changes the flags of the message
 
@@ -399,7 +399,7 @@ public void ChangeMessageFlags(IConnection connection, int startSequence, int en
 
 ---
 
-## ImapClient.ChangeMessageFlags method (17 of 28)
+## ChangeMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflags_22}
 
 Changes the flags of the message
 
@@ -421,7 +421,7 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ---
 
-## ImapClient.ChangeMessageFlags method (18 of 28)
+## ChangeMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflags_20}
 
 Changes the flags of the message
 
@@ -443,7 +443,7 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ---
 
-## ImapClient.ChangeMessageFlags method (19 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflags_8}
 
 Changes the flags of the message
 
@@ -468,7 +468,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ---
 
-## ImapClient.ChangeMessageFlags method (20 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflags_6}
 
 Changes the flags of the message
 
@@ -493,7 +493,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<int> sequence
 
 ---
 
-## ImapClient.ChangeMessageFlags method (21 of 28)
+## ChangeMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflags_23}
 
 Changes the flags of the message
 
@@ -517,7 +517,7 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ---
 
-## ImapClient.ChangeMessageFlags method (22 of 28)
+## ChangeMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflags_21}
 
 Changes the flags of the message
 
@@ -541,7 +541,7 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ---
 
-## ImapClient.ChangeMessageFlags method (23 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflags_9}
 
 Changes the flags of the message
 
@@ -567,7 +567,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ---
 
-## ImapClient.ChangeMessageFlags method (24 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflags_7}
 
 Changes the flags of the message
 
@@ -593,7 +593,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<int> sequence
 
 ---
 
-## ImapClient.ChangeMessageFlags method (25 of 28)
+## ChangeMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflags_18}
 
 Changes the flags of the message
 
@@ -616,7 +616,7 @@ public void ChangeMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ---
 
-## ImapClient.ChangeMessageFlags method (26 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflags_4}
 
 Changes the flags of the message
 
@@ -642,7 +642,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 
 ---
 
-## ImapClient.ChangeMessageFlags method (27 of 28)
+## ChangeMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflags_19}
 
 Changes the flags of the message
 
@@ -667,7 +667,7 @@ public void ChangeMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ---
 
-## ImapClient.ChangeMessageFlags method (28 of 28)
+## ChangeMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflags_5}
 
 Changes the flags of the message
 

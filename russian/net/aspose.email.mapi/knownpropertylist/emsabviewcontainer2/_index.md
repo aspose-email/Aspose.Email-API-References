@@ -1,14 +1,14 @@
 ---
 title: EmsAbViewContainer2
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_VIEW_CONTAINER_2
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_VIEW_CONTAINER_2
 type: docs
 weight: 9420
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabviewcontainer2/
 ---
 ## KnownPropertyList.EmsAbViewContainer2 field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_VIEW_CONTAINER_2
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_VIEW_CONTAINER_2
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbViewContainer2;

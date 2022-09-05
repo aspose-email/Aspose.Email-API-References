@@ -1,7 +1,7 @@
 ---
 title: RecallReport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesrecallreport content class that defines a set of properties for an item that is a recall report message.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/recallreport/

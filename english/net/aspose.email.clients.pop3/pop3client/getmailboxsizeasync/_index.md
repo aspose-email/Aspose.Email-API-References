@@ -1,12 +1,12 @@
 ---
 title: GetMailboxSizeAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the mailbox
 type: docs
 weight: 180
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxsizeasync/
 ---
-## Pop3Client.GetMailboxSizeAsync method (1 of 4)
+## GetMailboxSizeAsync(IConnection) {#getmailboxsizeasync_1}
 
 Gets the size of the mailbox
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (2 of 4)
+## GetMailboxSizeAsync() {#getmailboxsizeasync}
 
 Gets the size of the mailbox
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (3 of 4)
+## GetMailboxSizeAsync(IConnection, CancellationToken) {#getmailboxsizeasync_2}
 
 Gets the size of the mailbox
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (4 of 4)
+## GetMailboxSizeAsync(CancellationToken) {#getmailboxsizeasync_3}
 
 Gets the size of the mailbox
 

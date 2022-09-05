@@ -1,14 +1,14 @@
 ---
 title: DeviceID
 second_title: Aspose.Email for .NET API 参考
-description: 标识设备的 GUID 设备 ID 由明文查询值的 device-id-spec ABNF 规则部分指定 由 device-id ABNF 规则表示的值是一个指定设备的字符串 每个设备必须有一个唯一的设备 ID 字符串 来自设备的每个请求都必须包含相同的设备 ID 字符串
+description: 标识设备的 GUID 设备 ID 由纯文本查询值的 device-id-spec ABNF 规则部分指定 由 device-id ABNF 规则表示的值是一个指定设备的字符串 每个设备必须有一个唯一的设备 ID 字符串 来自设备的每个请求都必须包含相同的设备 ID 字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/deviceid/
 ---
 ## IBaseActiveSyncTLClient.DeviceID property
 
-标识设备的 GUID。 设备 ID 由明文查询值的 device-id-spec ABNF 规则部分指定。 由 device-id ABNF 规则表示的值是一个指定设备的字符串。 每个设备必须有一个唯一的设备 ID 字符串。 来自设备的每个请求都必须包含相同的设备 ID 字符串。
+标识设备的 GUID。 设备 ID 由纯文本查询值的 device-id-spec ABNF 规则部分指定。 由 device-id ABNF 规则表示的值是一个指定设备的字符串。 每个设备必须有一个唯一的设备 ID 字符串。 来自设备的每个请求都必须包含相同的设备 ID 字符串。
 
 ```csharp
 public string DeviceID { get; set; }

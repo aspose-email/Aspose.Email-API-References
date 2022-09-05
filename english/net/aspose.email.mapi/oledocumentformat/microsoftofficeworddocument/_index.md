@@ -1,7 +1,7 @@
 ---
 title: MicrosoftOfficeWordDocument
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft office word format.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/oledocumentformat/microsoftofficeworddocument/

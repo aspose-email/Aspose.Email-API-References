@@ -16,8 +16,8 @@ public void DeleteItems(IEnumerable<string> itemUris, DeletionOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemUris | IEnumerable`1 | 一个项目uris |
-| options | DeletionOptions | 定义删除项目的参数 |
+| itemUris | IEnumerable`1 | 一个物品的uri |
+| options | DeletionOptions | 定义项目删除的参数 |
 
 ### 也可以看看
 

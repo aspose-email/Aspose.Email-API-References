@@ -1,14 +1,14 @@
 ---
 title: MapiContactCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MapiContact./mapicontact
+description: 代表集合MapiContact./mapicontact
 type: docs
-weight: 18170
+weight: 18200
 url: /zh/net/aspose.email.mapi/mapicontactcollection/
 ---
 ## MapiContactCollection class
 
-表示[`MapiContact`](../mapicontact)
+代表集合[`MapiContact`](../mapicontact)
 
 ```csharp
 public sealed class MapiContactCollection : List<MapiContact>
@@ -18,8 +18,8 @@ public sealed class MapiContactCollection : List<MapiContact>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactCollection](mapicontactcollection#constructor)() | 初始化[`MapiContactCollection`](../mapicontactcollection)类的新实例。 |
-| [MapiContactCollection](mapicontactcollection#constructor_1)(IEnumerable&lt;MapiContact&gt;) | 初始化[`MapiContactCollection`](../mapicontactcollection)类的新实例。 |
+| [MapiContactCollection](mapicontactcollection#constructor)() | 初始化[`MapiContactCollection`](../mapicontactcollection)类. |
+| [MapiContactCollection](mapicontactcollection#constructor_1)(IEnumerable&lt;MapiContact&gt;) | 初始化[`MapiContactCollection`](../mapicontactcollection)类. |
 
 ## 方法
 

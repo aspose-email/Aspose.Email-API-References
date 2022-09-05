@@ -1,14 +1,14 @@
 ---
 title: AddressBookModerationEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否为邮件用户或分发列表启用了审核 区域地址簿 规范名称PidTagAddressBookModerationEnabled 备用名称PR_EMS_AB_ENABLE_MODERATION
+description: 表示是否为邮件用户或通讯组列表启用了审核 区域地址簿 规范名称PidTagAddressBookModerationEnabled 备用名称PR_EMS_AB_ENABLE_MODERATION
 type: docs
 weight: 750
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookmoderationenabled/
 ---
 ## KnownPropertyList.AddressBookModerationEnabled field
 
-指示是否为邮件用户或分发列表启用了审核。 区域:地址簿 规范名称:PidTagAddressBookModerationEnabled 备用名称:PR_EMS_AB_ENABLE_MODERATION
+表示是否为邮件用户或通讯组列表启用了审核。 区域：地址簿 规范名称：PidTagAddressBookModerationEnabled 备用名称：PR_EMS_AB_ENABLE_MODERATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookModerationEnabled;

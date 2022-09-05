@@ -1,7 +1,7 @@
 ---
 title: SharingRemoteName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagDisplayName property section 2.667 on the folder being shared. Area Sharing Canonical name PidLidSharingRemoteName Alternate names dispidSharingRemoteName
 type: docs
 weight: 17820
 url: /net/aspose.email.mapi/knownpropertylist/sharingremotename/

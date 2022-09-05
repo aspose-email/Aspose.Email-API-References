@@ -1,7 +1,7 @@
 ---
 title: MSNValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for  category
 type: docs
 weight: 270
 url: /net/aspose.email.personalinfo/instantmessengercategory/msnvalue/

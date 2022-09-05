@@ -18,7 +18,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction = false,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | Boolean | Подключение к серверу |
-| closeTransaction | IConnection | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | IConnection | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

@@ -1,7 +1,7 @@
 ---
 title: LocalCommitTimeMax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time of the most recent message change within the folder container excluding messages changed within subfolders. Area Server Canonical name PidTagLocalCommitTimeMax Alternate names PR_LOCAL_COMMIT_TIME_MAX ptagLocalCommitTimeMax
 type: docs
 weight: 12160
 url: /net/aspose.email.mapi/knownpropertylist/localcommittimemax/

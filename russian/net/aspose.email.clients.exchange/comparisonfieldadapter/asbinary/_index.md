@@ -1,14 +1,14 @@
 ---
 title: AsBinary
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfieldкакBinaryComparisonFieldaspose.email.tools.search/binarycomparisonfield
+description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfield в качествеBinaryComparisonFieldaspose.email.tools.search/binarycomparisonfield
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/comparisonfieldadapter/asbinary/
 ---
 ## ComparisonFieldAdapter.AsBinary property
 
-Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)как[`BinaryComparisonField`](../../../aspose.email.tools.search/binarycomparisonfield)
+Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield) в качестве[`BinaryComparisonField`](../../../aspose.email.tools.search/binarycomparisonfield)
 
 ```csharp
 public BinaryComparisonField AsBinary { get; }

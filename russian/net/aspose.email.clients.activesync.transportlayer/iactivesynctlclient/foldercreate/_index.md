@@ -16,8 +16,8 @@ public FolderInfo FolderCreate(string parentId, string displayName, UserCreatedF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentId | String | Задает идентификатор сервера родительской папки папки на сервере |
-| displayName | String | Указывает имя папки, отображаемой пользователю. |
+| parentId | String | Указывает идентификатор сервера родительской папки папки на сервере |
+| displayName | String | Задает имя папки, отображаемой пользователю. |
 | type | UserCreatedFolderTypes | Указывает тип создаваемой папки. |
 
 ### Возвращаемое значение

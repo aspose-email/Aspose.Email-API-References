@@ -1,14 +1,14 @@
 ---
 title: ExchangeNTSecurityDescriptor
 second_title: Aspose.Email for .NET API 参考
-description: 包含项目的计算安全描述符 区域日历文档 规范名称PidTagExchangeNTSecurityDescriptor 替代名称http//schemas.microsoft.com/exchange/ntsecuritydescriptor
+description: 包含项目的计算安全描述符 区域日历文档 规范名称PidTagExchangeNTSecurityDescriptor 备用名称http//schemas.microsoft.com/exchange/ntsecuritydescriptor
 type: docs
 weight: 9860
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangentsecuritydescriptor/
 ---
 ## KnownPropertyList.ExchangeNTSecurityDescriptor field
 
-包含项目的计算安全描述符。 区域:日历文档 规范名称:PidTagExchangeNTSecurityDescriptor 替代名称:http://schemas.microsoft.com/exchange/ntsecuritydescriptor,
+包含项目的计算安全描述符。 区域：日历文档 规范名称：PidTagExchangeNTSecurityDescriptor 备用名称：http://schemas.microsoft.com/exchange/ntsecuritydescriptor,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExchangeNTSecurityDescriptor;

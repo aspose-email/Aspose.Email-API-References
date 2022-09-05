@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/managervalue/
 ---
 ## AssociatedPersonCategory.ManagerValue field
 
-Строковое значение для категории "Менеджер"
+Строковое значение для категории «Менеджер»
 
 ```csharp
 public const string ManagerValue;

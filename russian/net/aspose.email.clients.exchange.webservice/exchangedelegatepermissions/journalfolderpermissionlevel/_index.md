@@ -1,14 +1,14 @@
 ---
 title: JournalFolderPermissionLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает разрешения которые делегированный пользователь имеет в папке журнала по умолчанию
+description: Получает или задает разрешения которые делегированный пользователь имеет для папки журнала по умолчанию
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/journalfolderpermissionlevel/
 ---
 ## ExchangeDelegatePermissions.JournalFolderPermissionLevel property
 
-Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке журнала по умолчанию
+Получает или задает разрешения, которые делегированный пользователь имеет для папки журнала по умолчанию
 
 ```csharp
 public ExchangeDelegateFolderPermissionLevel JournalFolderPermissionLevel { get; set; }

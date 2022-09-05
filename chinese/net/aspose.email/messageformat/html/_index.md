@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Html 格式的消息
+description: 表示消息在 html格式.
 type: docs
 weight: 30
 url: /zh/net/aspose.email/messageformat/html/
 ---
 ## MessageFormat.Html property
 
-表示 **Html** 格式的消息。
+表示消息在 **html**格式.
 
 ```csharp
 public static MessageFormat Html { get; }

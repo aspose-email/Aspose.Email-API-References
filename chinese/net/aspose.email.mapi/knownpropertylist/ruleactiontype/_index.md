@@ -1,14 +1,14 @@
 ---
 title: RuleActionType
 second_title: Aspose.Email for .NET API 参考
-description: 包含失败规则的 ActionType 字段MS-OXORULE 第 2.2.5.1 节 区域ExchangeMessageReadOnly 规范名称PidTagRuleActionType 替代名称PR_RULE_ACTION_TYPE ptagRuleActionType
+description: 包含失败规则的 ActionType 字段MS-OXORULE 第 2.2.5.1 节 区域ExchangeMessageReadOnly 规范名称PidTagRuleActionType 备用名称PR_RULE_ACTION_TYPEptagRuleActionType
 type: docs
 weight: 16450
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruleactiontype/
 ---
 ## KnownPropertyList.RuleActionType field
 
-包含失败规则的 ActionType 字段（[MS-OXORULE] 第 2.2.5.1 节）。 区域:ExchangeMessageReadOnly 规范名称:PidTagRuleActionType 替代名称:PR_RULE_ACTION_TYPE, ptagRuleActionType
+包含失败规则的 ActionType 字段（[MS-OXORULE] 第 2.2.5.1 节）。 区域：ExchangeMessageReadOnly 规范名称：PidTagRuleActionType 备用名称：PR_RULE_ACTION_TYPE、ptagRuleActionType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleActionType;

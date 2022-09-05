@@ -1,14 +1,14 @@
 ---
 title: TaskStartDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату когда пользователь ожидает начала работы над задачей. ОбластьЗадачи Каноническое имяPidLidTaskStartDate Альтернативные именаdispidTaskStartDate
+description: Указывает дату когда пользователь ожидает начала работы над задачей. Область Tasks Каноническое имя PidLidTaskStartDate Альтернативные имена dispidTaskStartDate
 type: docs
 weight: 18810
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskstartdate/
 ---
 ## KnownPropertyList.TaskStartDate field
 
-Указывает дату, когда пользователь ожидает начала работы над задачей. Область:Задачи Каноническое имя:PidLidTaskStartDate Альтернативные имена:dispidTaskStartDate
+Указывает дату, когда пользователь ожидает начала работы над задачей. Область: Tasks Каноническое имя: PidLidTaskStartDate Альтернативные имена: dispidTaskStartDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStartDate;

@@ -1,14 +1,14 @@
 ---
 title: ClickedThrough
 second_title: Aspose.Email for .NET API 参考
-description: 如果用户根据组织的策略单击覆盖 URL 块则为 true 用于 Office 365 ATP 安全链接保护. 强制是
+description: 如果用户根据组织的策略单击覆盖 URL 块则为 true 用于 Office 365 ATP 安全链接保护 强制是
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/clickedthrough/
 ---
 ## O365URLTimeOfClickActivity.ClickedThrough property
 
-如果用户根据组织的策略单击（覆盖） URL 块，则为 true 用于 Office 365 ATP 安全链接保护. 强制:是
+如果用户根据组织的策略单击（覆盖） URL 块，则为 true 用于 Office 365 ATP 安全链接保护。 强制：是
 
 ```csharp
 public bool? ClickedThrough { get; set; }

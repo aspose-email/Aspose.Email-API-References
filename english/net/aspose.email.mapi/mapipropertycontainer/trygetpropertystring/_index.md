@@ -1,12 +1,12 @@
 ---
 title: TryGetPropertyString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Try to get a property data as string with specified tag and code page.
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertystring/
 ---
-## MapiPropertyContainer.TryGetPropertyString method (1 of 4)
+## TryGetPropertyString(long, int) {#trygetpropertystring_3}
 
 Try to get a property data as string with specified tag and code page.
 
@@ -31,7 +31,7 @@ String that contains the contents of property data.
 
 ---
 
-## MapiPropertyContainer.TryGetPropertyString method (2 of 4)
+## TryGetPropertyString(long) {#trygetpropertystring_2}
 
 Try to get a property data as string with specified tag.
 
@@ -55,7 +55,7 @@ String that contains the contents of property data.
 
 ---
 
-## MapiPropertyContainer.TryGetPropertyString method (3 of 4)
+## TryGetPropertyString(long, ref string, int) {#trygetpropertystring_1}
 
 Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
 
@@ -81,7 +81,7 @@ true if s was converted successfully; otherwise, false.
 
 ---
 
-## MapiPropertyContainer.TryGetPropertyString method (4 of 4)
+## TryGetPropertyString(long, ref string) {#trygetpropertystring}
 
 Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
 

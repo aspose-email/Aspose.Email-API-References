@@ -1,7 +1,7 @@
 ---
 title: Prefered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default primary phone number
 type: docs
 weight: 160
 url: /net/aspose.email.personalinfo/phonenumberlist/prefered/

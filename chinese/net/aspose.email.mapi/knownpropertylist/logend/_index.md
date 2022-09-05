@@ -1,14 +1,14 @@
 ---
 title: LogEnd
 second_title: Aspose.Email for .NET API 参考
-description: 包含活动结束的时间以 UTC 表示 区域日志 规范名称PidLidLogEnd 替代名称dispidLogEnd
+description: 包含活动结束的时间UTC 时间 区域Journal 规范名称PidLidLogEnd 替代名称dispidLogEnd
 type: docs
 weight: 12260
 url: /zh/net/aspose.email.mapi/knownpropertylist/logend/
 ---
 ## KnownPropertyList.LogEnd field
 
-包含活动结束的时间（以 UTC 表示）。 区域:日志 规范名称:PidLidLogEnd 替代名称:dispidLogEnd
+包含活动结束的时间（UTC 时间）。 区域：Journal 规范名称：PidLidLogEnd 替代名称：dispidLogEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogEnd;

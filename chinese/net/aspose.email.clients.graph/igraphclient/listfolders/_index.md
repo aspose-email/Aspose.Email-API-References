@@ -1,14 +1,14 @@
 ---
 title: ListFolders
 second_title: Aspose.Email for .NET API 参考
-description: 列出在普通邮件客户端例如收件箱中显示的文件夹的父文件夹中的文件夹
+description: 列出在普通邮件客户端中显示的文件夹的父文件夹中的文件夹例如收件箱
 type: docs
 weight: 290
 url: /zh/net/aspose.email.clients.graph/igraphclient/listfolders/
 ---
 ## ListFolders() {#listfolders}
 
-列出在普通邮件客户端（例如收件箱）中显示的文件夹的父文件夹中的文件夹。
+列出在普通邮件客户端中显示的文件夹的父文件夹中的文件夹，例如收件箱。
 
 ```csharp
 public FolderInfoCollection ListFolders()
@@ -29,7 +29,7 @@ public FolderInfoCollection ListFolders()
 
 ## ListFolders(string) {#listfolders_1}
 
-列出在普通邮件客户端（例如收件箱）中显示的文件夹的父文件夹中的文件夹。
+列出在普通邮件客户端中显示的文件夹的父文件夹中的文件夹，例如收件箱。
 
 ```csharp
 public FolderInfoCollection ListFolders(string id)
@@ -37,11 +37,11 @@ public FolderInfoCollection ListFolders(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 父文件夹 id |
+| id | String | 父文件夹 ID |
 
 ### 返回值
 
-返回子文件夹列表根文件夹
+返回根文件夹的子文件夹列表
 
 ### 也可以看看
 

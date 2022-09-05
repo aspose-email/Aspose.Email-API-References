@@ -1,14 +1,14 @@
 ---
 title: Department
 second_title: Aspose.Email for .NET API 参考
-description: 部门标题
+description: 部门标题.
 type: docs
 weight: 80
 url: /zh/net/aspose.email/mhttemplatename.contact/department/
 ---
 ## MhtTemplateName.Contact.Department field
 
-部门标题。
+部门标题.
 
 ```csharp
 public const string Department;

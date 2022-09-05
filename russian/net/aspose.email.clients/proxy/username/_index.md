@@ -1,14 +1,14 @@
 ---
 title: Username
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя пользователя для аутентификации прокси
+description: Имя пользователя для прокси-аутентификации
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients/proxy/username/
 ---
 ## Proxy.Username property
 
-Имя пользователя для аутентификации прокси
+Имя пользователя для прокси-аутентификации
 
 ```csharp
 public string Username { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TemplateData
 second_title: Справочник по Aspose.Email для .NET API
-description: Описывает элементы управления используемые в шаблоне используемом для извлечения информации из адресной книги. ОбластьАдресная книга Каноническое имяPidTagTemplateData Альтернативные именаPR_EMS_TEMPLATE_BLOB
+description: Описывает элементы управления используемые в шаблоне используемом для получения информации адресной книги. Область Адресная книга Каноническое имя PidTagTemplateData Альтернативные имена PR_EMS_TEMPLATE_BLOB
 type: docs
 weight: 18910
 url: /ru/net/aspose.email.mapi/knownpropertylist/templatedata/
 ---
 ## KnownPropertyList.TemplateData field
 
-Описывает элементы управления, используемые в шаблоне, используемом для извлечения информации из адресной книги. Область:Адресная книга Каноническое имя:PidTagTemplateData Альтернативные имена:PR_EMS_TEMPLATE_BLOB
+Описывает элементы управления, используемые в шаблоне, используемом для получения информации адресной книги. Область: Адресная книга Каноническое имя: PidTagTemplateData Альтернативные имена: PR_EMS_TEMPLATE_BLOB
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TemplateData;

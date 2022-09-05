@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API 参考
-description: 判断指定对象是否不相等
+description: 判断指定的对象是否不相等
 type: docs
 weight: 100
 url: /zh/net/aspose.email.personalinfo/instantmessengeraddress/op_inequality/
 ---
 ## InstantMessengerAddress Inequality operator
 
-判断指定对象是否不相等。
+判断指定的对象是否不相等。
 
 ```csharp
 public static bool operator !=(InstantMessengerAddress a, InstantMessengerAddress b)
@@ -17,11 +17,11 @@ public static bool operator !=(InstantMessengerAddress a, InstantMessengerAddres
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | InstantMessengerAddress | 第一个要比较的对象 |
-| b | InstantMessengerAddress | 第二个要比较的对象比较 |
+| b | InstantMessengerAddress | 第二个要比较的对象 |
 
 ### 返回值
 
-如果对象不相等则返回真，否则返回假。
+如果对象不相等，则返回 true，否则返回 false。
 
 ### 也可以看看
 

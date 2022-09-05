@@ -1,7 +1,7 @@
 ---
 title: QuotaSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether quota is supported
 type: docs
 weight: 220
 url: /net/aspose.email.clients.imap/imapclient/quotasupported/

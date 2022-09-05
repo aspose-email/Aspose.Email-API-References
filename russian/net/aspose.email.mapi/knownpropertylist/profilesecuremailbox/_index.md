@@ -1,14 +1,14 @@
 ---
 title: ProfileSecureMailbox
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_SECURE_MAILBOX
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_SECURE_MAILBOX
 type: docs
 weight: 14870
 url: /ru/net/aspose.email.mapi/knownpropertylist/profilesecuremailbox/
 ---
 ## KnownPropertyList.ProfileSecureMailbox field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_SECURE_MAILBOX
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_SECURE_MAILBOX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileSecureMailbox;

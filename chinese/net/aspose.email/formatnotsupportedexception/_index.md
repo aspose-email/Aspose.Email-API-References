@@ -1,14 +1,14 @@
 ---
 title: FormatNotSupportedException
 second_title: Aspose.Email for .NET API 参考
-description: 文档加载过程中抛出的异常 当文档格式不是 被组件识别或不支持时.
+description: 文档加载过程中引发的异常 当文档格式未被 识别或组件不支持时
 type: docs
 weight: 17480
 url: /zh/net/aspose.email/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException class
 
-文档加载过程中抛出的异常, 当文档格式不是 被组件识别或不支持时.
+文档加载过程中引发的异常， 当文档格式未被 识别或组件不支持时。
 
 ```csharp
 public class FormatNotSupportedException : AsposeException
@@ -18,9 +18,9 @@ public class FormatNotSupportedException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor)() | 初始化[`FormatNotSupportedException`](../formatnotsupportedexception)类的新实例。 |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor_1)(string) | 使用指定的错误消息初始化[`FormatNotSupportedException`](../formatnotsupportedexception)类的新实例。 |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor_2)(string, Exception) | 使用指定的错误消息初始化[`FormatNotSupportedException`](../formatnotsupportedexception)类的新实例。 |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor)() | 初始化[`FormatNotSupportedException`](../formatnotsupportedexception)类. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_1)(string) | 初始化[`FormatNotSupportedException`](../formatnotsupportedexception)具有指定错误消息的类。 |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_2)(string, Exception) | 初始化[`FormatNotSupportedException`](../formatnotsupportedexception)具有指定错误消息的类。 |
 
 ## 特性
 

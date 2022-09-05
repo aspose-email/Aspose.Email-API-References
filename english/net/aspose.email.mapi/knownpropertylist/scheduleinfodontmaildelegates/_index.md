@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoDontMailDelegates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value set to TRUE by the client regardless of user input. Area Free/Busy Properties Canonical name PidTagScheduleInfoDontMailDelegates Alternate names PR_SCHDINFO_DONT_MAIL_DELEGATES
 type: docs
 weight: 16800
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfodontmaildelegates/

@@ -1,14 +1,14 @@
 ---
 title: ListFriendlyNames
 second_title: Справочник по Aspose.Email для .NET API
-description: Эта операция извлекает понятные имена для объектов в потоке данных идентифицированных с помощью идентификаторов.
+description: Эта операция извлекает понятные имена для объектов в потоке данных идентифицированных guids.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/iactivityclient/listfriendlynames/
 ---
 ## IActivityClient.ListFriendlyNames method
 
-Эта операция извлекает понятные имена для объектов в потоке данных, идентифицированных с помощью идентификаторов.
+Эта операция извлекает понятные имена для объектов в потоке данных, идентифицированных guids.
 
 ```csharp
 public ObjectName[] ListFriendlyNames()

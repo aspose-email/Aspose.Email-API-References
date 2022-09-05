@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает логическое значение указывающее равен ли переданный объект obj этому.
+description: Возвращает логическое значение указывающее равен ли переданный объект obj этому значению.
 type: docs
 weight: 280
 url: /ru/net/aspose.email/headertype/equals/
 ---
 ## HeaderType.Equals method
 
-Возвращает логическое значение, указывающее, равен ли переданный объект obj этому.
+Возвращает логическое значение, указывающее, равен ли переданный объект obj этому значению.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-Возвращает true, если объекты равны, иначе возвращает false
+Возвращает true, если объекты равны, в противном случае возвращает false
 
 ### Смотрите также
 

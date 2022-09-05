@@ -1,12 +1,12 @@
 ---
 title: AppendMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the current folder If current folder hasnt been specified default folder is used.
 type: docs
 weight: 360
 url: /net/aspose.email.clients.imap/imapclient/appendmessage/
 ---
-## ImapClient.AppendMessage method (1 of 8)
+## AppendMessage(IConnection, MailMessage) {#appendmessage}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -33,7 +33,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (2 of 8)
+## AppendMessage(IConnection, string, MailMessage) {#appendmessage_2}
 
 Uploads the mail message to the specified folder
 
@@ -61,7 +61,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (3 of 8)
+## AppendMessage(IConnection, string) {#appendmessage_1}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -87,7 +87,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (4 of 8)
+## AppendMessage(IConnection, string, string) {#appendmessage_3}
 
 Uploads the mail message to the specified folder
 
@@ -114,7 +114,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (5 of 8)
+## AppendMessage(MailMessage) {#appendmessage_4}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -139,7 +139,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (6 of 8)
+## AppendMessage(string, MailMessage) {#appendmessage_6}
 
 Uploads the mail message to the specified folder
 
@@ -165,7 +165,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (7 of 8)
+## AppendMessage(string) {#appendmessage_5}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -189,7 +189,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessage method (8 of 8)
+## AppendMessage(string, string) {#appendmessage_7}
 
 Uploads the mail message to the specified folder
 

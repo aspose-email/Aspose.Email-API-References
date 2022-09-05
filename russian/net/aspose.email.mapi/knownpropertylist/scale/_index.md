@@ -1,14 +1,14 @@
 ---
 title: Scale
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли масштабировать или обрезать изображение. ОбластьОбщие Каноническое имяPidNameScale Альтернативные именаurnschemas-microsoft-comofficeofficeScaleCrop
+description: Указывает следует ли масштабировать или обрезать изображение. Область Common Каноническое имя PidNameScale Альтернативные имена urnschemas-microsoft-comofficeofficeScaleCrop
 type: docs
 weight: 16690
 url: /ru/net/aspose.email.mapi/knownpropertylist/scale/
 ---
 ## KnownPropertyList.Scale field
 
-Указывает, следует ли масштабировать или обрезать изображение. Область:Общие Каноническое имя:PidNameScale Альтернативные имена:urn:schemas-microsoft-com:office:office#ScaleCrop
+Указывает, следует ли масштабировать или обрезать изображение. Область: Common Каноническое имя: PidNameScale Альтернативные имена: urn:schemas-microsoft-com:office:office#ScaleCrop
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Scale;

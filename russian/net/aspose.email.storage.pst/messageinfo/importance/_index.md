@@ -1,14 +1,14 @@
 ---
 title: Importance
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает важность.
+description: получает важность.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.storage.pst/messageinfo/importance/
 ---
 ## MessageInfo.Importance property
 
-Получает важность.
+получает важность.
 
 ```csharp
 public MapiImportance Importance { get; }

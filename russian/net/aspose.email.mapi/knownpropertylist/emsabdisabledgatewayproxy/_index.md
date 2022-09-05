@@ -1,14 +1,14 @@
 ---
 title: EmsAbDisabledGatewayProxy
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DISABLED_GATEWAY_PROXY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DISABLED_GATEWAY_PROXY
 type: docs
 weight: 5470
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdisabledgatewayproxy/
 ---
 ## KnownPropertyList.EmsAbDisabledGatewayProxy field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DISABLED_GATEWAY_PROXY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DISABLED_GATEWAY_PROXY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisabledGatewayProxy;

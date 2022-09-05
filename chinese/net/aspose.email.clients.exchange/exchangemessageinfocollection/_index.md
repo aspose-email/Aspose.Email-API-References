@@ -18,7 +18,7 @@ public class ExchangeMessageInfoCollection : Collection<ExchangeMessageInfo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeMessageInfoCollection](exchangemessageinfocollection#constructor)() | 初始化空的 ExchangeMessageInfoCollection 类的新实例。 |
+| [ExchangeMessageInfoCollection](exchangemessageinfocollection#constructor)() | 初始化一个空的 ExchangeMessageInfoCollection 类的新实例。 |
 | [ExchangeMessageInfoCollection](exchangemessageinfocollection#constructor_1)(IEnumerable&lt;ExchangeMessageInfo&gt;) | 初始化 ExchangeMessageInfoCollection 类的新实例 |
 
 ### 也可以看看

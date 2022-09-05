@@ -18,7 +18,7 @@ public sealed class AlternateViewCollection : Collection<AlternateView>, IDispos
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email/alternateviewcollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/alternateviewcollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TransportMessageHeaders
 second_title: Aspose.Email for .NET API 参考
-description: 包含电子邮件的特定于传输的消息信封信息 区域电子邮件 规范名称PidTagTransportMessageHeaders 替代名称PR_TRANSPORT_MESSAGE_HEADERSPR_TRANSPORT_MESSAGE_HEADERS_APR_TRANSPORT_MESSAGE_HEADERS_W
+description: 包含电子邮件的特定于传输的消息信封信息 区域Email 规范名称PidTagTransportMessageHeaders 替代名称PR_TRANSPORT_MESSAGE_HEADERSPR_TRANSPORT_MESSAGE_HEADERS_APR_TRANSPORT_MESSAGE_HEADERS_W
 type: docs
 weight: 19110
 url: /zh/net/aspose.email.mapi/knownpropertylist/transportmessageheaders/
 ---
 ## KnownPropertyList.TransportMessageHeaders field
 
-包含电子邮件的特定于传输的消息信封信息。 区域:电子邮件 规范名称:PidTagTransportMessageHeaders 替代名称:PR_TRANSPORT_MESSAGE_HEADERS、PR_TRANSPORT_MESSAGE_HEADERS_A、PR_TRANSPORT_MESSAGE_HEADERS_W
+包含电子邮件的特定于传输的消息信封信息。 区域：Email 规范名称：PidTagTransportMessageHeaders 替代名称：PR_TRANSPORT_MESSAGE_HEADERS、PR_TRANSPORT_MESSAGE_HEADERS_A、PR_TRANSPORT_MESSAGE_HEADERS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportMessageHeaders;

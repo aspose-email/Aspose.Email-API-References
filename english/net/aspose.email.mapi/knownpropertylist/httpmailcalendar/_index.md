@@ -1,7 +1,7 @@
 ---
 title: HttpmailCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the URL for the Calendar folder for a particular user. Area Common Canonical name PidNameHttpmailCalendar Alternate names urnschemashttpmailcalendar
 type: docs
 weight: 11110
 url: /net/aspose.email.mapi/knownpropertylist/httpmailcalendar/

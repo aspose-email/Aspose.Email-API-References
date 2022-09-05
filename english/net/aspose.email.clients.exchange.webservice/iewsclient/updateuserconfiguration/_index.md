@@ -1,7 +1,7 @@
 ---
 title: UpdateUserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified user configuration
 type: docs
 weight: 1530
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updateuserconfiguration/

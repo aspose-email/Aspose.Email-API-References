@@ -1,14 +1,14 @@
 ---
 title: ExchangeCalendarEvent
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ExchangeCalendarEventaspose.email.clients.exchange.webservice/exchangecalendarevent类的新实例
+description: 初始化ExchangeCalendarEventaspose.email.clients.exchange.webservice/exchangecalendarevent类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangecalendarevent/exchangecalendarevent/
 ---
 ## ExchangeCalendarEvent constructor
 
-初始化[`ExchangeCalendarEvent`](../../exchangecalendarevent)类的新实例。
+初始化[`ExchangeCalendarEvent`](../../exchangecalendarevent)类.
 
 ```csharp
 public ExchangeCalendarEvent()

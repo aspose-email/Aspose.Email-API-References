@@ -1,7 +1,7 @@
 ---
 title: AllMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets mailbox presents all messages in the users message store. Please note this value may be null if server does not support rfc6154 or folder has not been created.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapmailboxinfo/allmessages/

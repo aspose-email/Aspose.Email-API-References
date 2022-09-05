@@ -1,14 +1,14 @@
 ---
 title: ReminderSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает установлено ли напоминание для объекта. ОбластьНапоминания Каноническое имяPidLidReminderSet Альтернативные именаdispidReminderSet
+description: Указывает установлено ли напоминание для объекта. Область Reminders Каноническое имя PidLidReminderSet Альтернативные имена dispidReminderSet
 type: docs
 weight: 15710
 url: /ru/net/aspose.email.mapi/knownpropertylist/reminderset/
 ---
 ## KnownPropertyList.ReminderSet field
 
-Указывает, установлено ли напоминание для объекта. Область:Напоминания Каноническое имя:PidLidReminderSet Альтернативные имена:dispidReminderSet
+Указывает, установлено ли напоминание для объекта. Область: Reminders Каноническое имя: PidLidReminderSet Альтернативные имена: dispidReminderSet
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderSet;

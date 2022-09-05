@@ -20,14 +20,14 @@ public enum CredentialType
 | --- | --- | --- |
 | Other | `-1` | Другая аутентификация. |
 | Password | `0` | Учетные данные пользователя — это имя пользователя и пароль. |
-| MobilePhone | `1` | Учетные данные пользователя - мобильный телефон. |
-| SecretQuestion | `2` | Учетные данные пользователя - это секретный вопрос. |
+| MobilePhone | `1` | Учетные данные пользователя — мобильный телефон. |
+| SecretQuestion | `2` | Учетные данные пользователя — секретный вопрос. |
 | SecurePin | `3` | Учетные данные пользователя защищены PIN-кодом. |
-| SecurePinReset | `4` | Учетные данные пользователя защищены сбросом PIN-кода. |
-| EasyID | `11` | Учетные данные пользователя:EasyID. |
-| PasswordIndexCredentialType | `14` | Учетные данные пользователя:PasswordIndexCredentialType. |
+| SecurePinReset | `4` | Учетные данные пользователя безопасны для сброса PIN-кода. |
+| EasyID | `11` | Учетные данные пользователя EasyID. |
+| PasswordIndexCredentialType | `14` | Учетные данные пользователя: PasswordIndexCredentialType. |
 | Device | `16` | Учетные данные пользователя — это устройство. |
-| ForeignRealmIndex | `17` | Учетные данные пользователя — ForeignRealmIndex. |
+| ForeignRealmIndex | `17` | Учетные данные пользователя: ForeignRealmIndex. |
 
 ### Смотрите также
 

@@ -1,12 +1,12 @@
 ---
 title: MessageObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MessageObjectaspose.email.mapi.msg/messageobject class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi.msg/messageobject/messageobject/
 ---
-## MessageObject constructor (1 of 2)
+## MessageObject(Stream, MessageObjectLoadFormat) {#constructor}
 
 Initializes a new instance of the [`MessageObject`](../../messageobject) class.
 
@@ -35,7 +35,7 @@ public MessageObject(Stream stream, MessageObjectLoadFormat loadFormat)
 
 ---
 
-## MessageObject constructor (2 of 2)
+## MessageObject(string, MessageObjectLoadFormat) {#constructor_1}
 
 Initializes a new instance of the [`MessageObject`](../../messageobject) class.
 

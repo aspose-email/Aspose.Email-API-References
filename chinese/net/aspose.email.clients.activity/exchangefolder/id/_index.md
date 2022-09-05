@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 文件夹对象的存储 ID
+description: 文件夹对象的存储ID
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/exchangefolder/id/
 ---
 ## ExchangeFolder.Id property
 
-文件夹对象的存储 ID。
+文件夹对象的存储ID。
 
 ```csharp
 public string Id { get; set; }

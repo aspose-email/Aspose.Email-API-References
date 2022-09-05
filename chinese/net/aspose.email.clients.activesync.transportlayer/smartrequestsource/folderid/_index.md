@@ -1,14 +1,14 @@
 ---
 title: FolderId
 second_title: Aspose.Email for .NET API 参考
-description: 指定源消息的文件夹 ID它在 FolderSync 命令中返回 如果 FolderId 存在ItemId 也必须存在 FolderId 值最长可达 64 个字符
+description: 指定在 FolderSync 命令中返回的源消息的文件夹 ID 如果 FolderId 存在ItemId 也必须存在 FolderId 值最长可达 64 个字符
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid/
 ---
 ## SmartRequestSource.FolderId property
 
-指定源消息的文件夹 ID，它在 FolderSync 命令中返回。 如果 FolderId 存在，ItemId 也必须存在。 FolderId 值最长可达 64 个字符。
+指定在 FolderSync 命令中返回的源消息的文件夹 ID。 如果 FolderId 存在，ItemId 也必须存在。 FolderId 值最长可达 64 个字符。
 
 ```csharp
 public string FolderId { get; set; }

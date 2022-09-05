@@ -1,14 +1,14 @@
 ---
 title: LoginStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает статус входа ОбязательноДа
+description: Получает или устанавливает статус входа в систему Обязательно Да
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activity/record/loginstatus/
 ---
 ## Record.LoginStatus property
 
-Получает или устанавливает статус входа Обязательно:Да
+Получает или устанавливает статус входа в систему Обязательно: Да
 
 ```csharp
 public int LoginStatus { get; set; }

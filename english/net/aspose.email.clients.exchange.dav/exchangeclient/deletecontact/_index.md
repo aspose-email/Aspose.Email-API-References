@@ -1,12 +1,12 @@
 ---
 title: DeleteContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the contact.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/deletecontact/
 ---
-## ExchangeClient.DeleteContact method (1 of 3)
+## DeleteContact(Contact) {#deletecontact_1}
 
 Deletes the contact.
 
@@ -27,7 +27,7 @@ public void DeleteContact(Contact contact)
 
 ---
 
-## ExchangeClient.DeleteContact method (2 of 3)
+## DeleteContact(MapiContact) {#deletecontact}
 
 Deletes the contact.
 
@@ -48,7 +48,7 @@ public void DeleteContact(MapiContact contact)
 
 ---
 
-## ExchangeClient.DeleteContact method (3 of 3)
+## DeleteContact(string) {#deletecontact_2}
 
 Deletes the contact.
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/sharepointmetadata/sitecollectionguid
 ---
 ## SharePointMetadata.SiteCollectionGuid property
 
-网站集的 GUID。 强制:是
+网站集的 GUID。 强制：是
 
 ```csharp
 public Guid SiteCollectionGuid { get; set; }

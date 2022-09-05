@@ -1,14 +1,14 @@
 ---
 title: OriginatorRequestedAlternateRecipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT
 type: docs
 weight: 13890
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatorrequestedalternaterecipient/
 ---
 ## KnownPropertyList.OriginatorRequestedAlternateRecipient field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorRequestedAlternateRecipient;

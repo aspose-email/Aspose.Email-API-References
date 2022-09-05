@@ -1,14 +1,14 @@
 ---
 title: HttpmailHtmlDescription
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает HTML-содержимое сообщения. ОбластьОбщие Каноническое имяPidNameHttpmailHtmlDescription Альтернативные именаurnschemashttpmailhtmldescription
+description: Указывает HTML-содержимое сообщения. Область Common Каноническое имя PidNameHttpmailHtmlDescription Альтернативные имена urnschemashttpmailhtmldescription
 type: docs
 weight: 11120
 url: /ru/net/aspose.email.mapi/knownpropertylist/httpmailhtmldescription/
 ---
 ## KnownPropertyList.HttpmailHtmlDescription field
 
-Указывает HTML-содержимое сообщения. Область:Общие Каноническое имя:PidNameHttpmailHtmlDescription Альтернативные имена:urn:schemas:httpmail:htmldescription
+Указывает HTML-содержимое сообщения. Область: Common Каноническое имя: PidNameHttpmailHtmlDescription Альтернативные имена: urn:schemas:httpmail:htmldescription
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailHtmlDescription;

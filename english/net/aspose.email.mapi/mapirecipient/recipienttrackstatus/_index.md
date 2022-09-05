@@ -1,7 +1,7 @@
 ---
 title: RecipientTrackStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Status of recipients response to a meeting request.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapirecipient/recipienttrackstatus/

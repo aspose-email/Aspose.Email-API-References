@@ -1,14 +1,14 @@
 ---
 title: OrganizationalIdNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户组织中使用的邮件用户的标识符
+description: 包含在邮件用户的组织中使用的邮件用户的标识符
 type: docs
 weight: 310
 url: /zh/net/aspose.email.personalinfo/contact/organizationalidnumber/
 ---
 ## Contact.OrganizationalIdNumber property
 
-包含邮件用户组织中使用的邮件用户的标识符。
+包含在邮件用户的组织中使用的邮件用户的标识符。
 
 ```csharp
 public string OrganizationalIdNumber { get; set; }

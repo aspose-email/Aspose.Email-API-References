@@ -1,14 +1,14 @@
 ---
 title: ConnectionGroupName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置请求的连接组名称
+description: 获取或设置请求的连接组的名称
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservicebase/connectiongroupname/
 ---
 ## AutodiscoverServiceBase.ConnectionGroupName property
 
-获取或设置请求的连接组名称。
+获取或设置请求的连接组的名称。
 
 ```csharp
 public string ConnectionGroupName { get; set; }

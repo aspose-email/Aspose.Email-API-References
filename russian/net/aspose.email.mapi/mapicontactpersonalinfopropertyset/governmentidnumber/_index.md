@@ -1,14 +1,14 @@
 ---
 title: GovernmentIdNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет контактный правительственный идентификационный номер
+description: Указывает государственный идентификационный номер контакта
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber/
 ---
 ## MapiContactPersonalInfoPropertySet.GovernmentIdNumber property
 
-Определяет контактный правительственный идентификационный номер
+Указывает государственный идентификационный номер контакта
 
 ```csharp
 public string GovernmentIdNumber { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: O365URLTimeOfClickActivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection ATP and Threat Intelligence events are available for Office 365 customers who have an ATP Threat Intelligence or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to the URLs clicked by a user in the organization that were detected as malicious at timeofclick based on Office 365 ATP Safe Links protection.
 type: docs
 weight: 2670
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/

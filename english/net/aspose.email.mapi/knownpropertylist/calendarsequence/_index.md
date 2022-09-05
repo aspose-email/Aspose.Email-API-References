@@ -1,7 +1,7 @@
 ---
 title: CalendarSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the sequence number of a version of an appointment. Area Common Canonical name PidNameCalendarSequence Alternate names urnschemascalendarsequence
 type: docs
 weight: 2400
 url: /net/aspose.email.mapi/knownpropertylist/calendarsequence/

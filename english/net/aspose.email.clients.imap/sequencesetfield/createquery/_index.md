@@ -1,7 +1,7 @@
 ---
 title: CreateQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the search key.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/sequencesetfield/createquery/

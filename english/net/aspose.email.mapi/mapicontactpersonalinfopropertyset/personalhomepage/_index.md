@@ -1,7 +1,7 @@
 ---
 title: PersonalHomePage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts personal web page URL
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage/

@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес конечной точки поставщика.
+description: Указывает URL конечной точки поставщика.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/referenceattachment/uri/
 ---
 ## ReferenceAttachment.Uri property
 
-Указывает URL-адрес конечной точки поставщика.
+Указывает URL конечной точки поставщика.
 
 ```csharp
 public Uri Uri { get; set; }

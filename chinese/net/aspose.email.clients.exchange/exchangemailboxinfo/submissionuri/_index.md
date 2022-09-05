@@ -1,14 +1,14 @@
 ---
 title: SubmissionUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取提交 uri
+description: 获取提交 uri.
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/submissionuri/
 ---
 ## ExchangeMailboxInfo.SubmissionUri property
 
-获取提交 uri。
+获取提交 uri.
 
 ```csharp
 public abstract string SubmissionUri { get; set; }

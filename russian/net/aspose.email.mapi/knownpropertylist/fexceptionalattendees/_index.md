@@ -1,14 +1,14 @@
 ---
 title: FExceptionalAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что объект является объектом повторяющегося календаря с одним или несколькими исключениями структурой как описано в разделе 2.8.3 MS-OXCDATA. ОбластьВстречи Каноническое имяPidLidFExceptionalAttendees Альтернативные именаdispidFExceptionalAttendees
+description: Указывает что объект является объектом повторяющегося календаря с одним или несколькими исключениями структурой как описано в разделе 2.8.3 MS-OXCDATA. Область Meetings Каноническое имя PidLidFExceptionalAttendees Альтернативные имена dispidFExceptionalAttendees
 type: docs
 weight: 10260
 url: /ru/net/aspose.email.mapi/knownpropertylist/fexceptionalattendees/
 ---
 ## KnownPropertyList.FExceptionalAttendees field
 
-Указывает, что объект является объектом повторяющегося календаря с одним или несколькими исключениями, структурой, как описано в разделе 2.8.3 [MS-OXCDATA]. Область:Встречи Каноническое имя:PidLidFExceptionalAttendees Альтернативные имена:dispidFExceptionalAttendees
+Указывает, что объект является объектом повторяющегося календаря с одним или несколькими исключениями, структурой, как описано в разделе 2.8.3 [MS-OXCDATA]. Область: Meetings Каноническое имя: PidLidFExceptionalAttendees Альтернативные имена: dispidFExceptionalAttendees
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FExceptionalAttendees;

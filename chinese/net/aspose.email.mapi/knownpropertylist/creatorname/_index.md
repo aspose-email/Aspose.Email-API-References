@@ -1,14 +1,14 @@
 ---
 title: CreatorName
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Message 对象的创建者的名称 区域常规消息属性 规范名称PidTagCreatorName 替代名称PR_CREATOR_NAME PR_CREATOR_NAME_A ptagCreatorName PR_CREATOR_NAME_W
+description: 包含消息对象的创建者的名称 区域常规消息属性 规范名称PidTagCreatorName 替代名称PR_CREATOR_NAMEPR_CREATOR_NAME_AptagCreatorNamePR_CREATOR_NAME_W
 type: docs
 weight: 3570
 url: /zh/net/aspose.email.mapi/knownpropertylist/creatorname/
 ---
 ## KnownPropertyList.CreatorName field
 
-包含 Message 对象的创建者的名称。 区域:常规消息属性 规范名称:PidTagCreatorName 替代名称:PR_CREATOR_NAME, PR_CREATOR_NAME_A, ptagCreatorName, PR_CREATOR_NAME_W
+包含消息对象的创建者的名称。 区域：常规消息属性 规范名称：PidTagCreatorName 替代名称：PR_CREATOR_NAME、PR_CREATOR_NAME_A、ptagCreatorName、PR_CREATOR_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CreatorName;

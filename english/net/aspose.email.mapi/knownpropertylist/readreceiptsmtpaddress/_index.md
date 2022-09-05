@@ -1,7 +1,7 @@
 ---
 title: ReadReceiptSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP email address of the user to whom a read receipt is directed. Area Mail Canonical name PidTagReadReceiptSmtpAddress Alternate names ptagRecipientReadReceiptSmtpAddress
 type: docs
 weight: 15250
 url: /net/aspose.email.mapi/knownpropertylist/readreceiptsmtpaddress/

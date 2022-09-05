@@ -1,14 +1,14 @@
 ---
 title: UpdateContactPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает или обновляет фото контакта
+description: Создает или обновляет контакт photo
 type: docs
 weight: 340
 url: /ru/net/aspose.email.clients.google/igmailclient/updatecontactphoto/
 ---
 ## IGmailClient.UpdateContactPhoto method
 
-Создает или обновляет фото контакта
+Создает или обновляет контакт photo
 
 ```csharp
 public void UpdateContactPhoto(ContactPhoto contactPhoto)

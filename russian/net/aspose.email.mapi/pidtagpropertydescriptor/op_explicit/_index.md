@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует значение тега в тегированное свойство
+description: Преобразует значение тега в помеченное свойство
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/pidtagpropertydescriptor/op_explicit/
 ---
 ## PidTagPropertyDescriptor Explicit operator
 
-Преобразует значение тега в тегированное свойство
+Преобразует значение тега в помеченное свойство
 
 ```csharp
 public static explicit operator PidTagPropertyDescriptor(long tag)
@@ -16,7 +16,7 @@ public static explicit operator PidTagPropertyDescriptor(long tag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tag | Int64 | значение тега a свойство тега |
+| tag | Int64 | значение тега свойства тега |
 
 ### Смотрите также
 

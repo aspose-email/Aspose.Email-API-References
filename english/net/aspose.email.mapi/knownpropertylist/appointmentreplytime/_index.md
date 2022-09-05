@@ -1,7 +1,7 @@
 ---
 title: AppointmentReplyTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the date and time at which the attendee responded to a received meeting request or Meeting Update object. Area Meetings Canonical name PidLidAppointmentReplyTime Alternate names dispidApptReplyTime
 type: docs
 weight: 1270
 url: /net/aspose.email.mapi/knownpropertylist/appointmentreplytime/

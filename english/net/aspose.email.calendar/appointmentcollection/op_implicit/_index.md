@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts array of appointments to collection
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/appointmentcollection/op_implicit/

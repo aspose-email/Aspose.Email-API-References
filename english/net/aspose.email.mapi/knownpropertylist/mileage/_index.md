@@ -1,7 +1,7 @@
 ---
 title: Mileage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mileage information that is associated with an item. Area General Message Properties Canonical name PidLidMileage Alternate names dispidMileage
 type: docs
 weight: 12690
 url: /net/aspose.email.mapi/knownpropertylist/mileage/

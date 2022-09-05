@@ -1,7 +1,7 @@
 ---
 title: Owner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Owner header.
 type: docs
 weight: 80
 url: /net/aspose.email/mhttemplatename.task/owner/

@@ -1,14 +1,14 @@
 ---
 title: NotIn
 second_title: Aspose.Email for .NET API 参考
-description: 表示 message 中的字段 vlaue 不得在指定值列表中
+description: 表示消息中的字段 vlaue 不能在指定值列表中
 type: docs
 weight: 40
 url: /zh/net/aspose.email.tools.search/enumcomparisonfield/notin/
 ---
 ## EnumComparisonField.NotIn method
 
-表示 message 中的字段 vlaue 不得在指定值列表中。
+表示消息中的字段 vlaue 不能在指定值列表中。
 
 ```csharp
 public MailQuery NotIn(IEnumerable values)
@@ -16,7 +16,7 @@ public MailQuery NotIn(IEnumerable values)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| values | IEnumerable | 值。 |
+| values | IEnumerable | 价值观。 |
 
 ### 返回值
 

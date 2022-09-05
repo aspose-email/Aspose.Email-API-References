@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含地址簿搜索键 区域MapiEnvelope 规范名称PidTagReadReceiptSearchKey 替代名称PR_READ_RECEIPT_SEARCH_KEY ptagReadReceiptSearchKey
+description: 包含地址簿搜索键 区域MapiEnvelope 规范名称PidTagReadReceiptSearchKey 备用名称PR_READ_RECEIPT_SEARCH_KEYptagReadReceiptSearchKey
 type: docs
 weight: 15240
 url: /zh/net/aspose.email.mapi/knownpropertylist/readreceiptsearchkey/
 ---
 ## KnownPropertyList.ReadReceiptSearchKey field
 
-包含地址簿搜索键。 区域:MapiEnvelope 规范名称:PidTagReadReceiptSearchKey 替代名称:PR_READ_RECEIPT_SEARCH_KEY, ptagReadReceiptSearchKey
+包含地址簿搜索键。 区域：MapiEnvelope 规范名称：PidTagReadReceiptSearchKey 备用名称：PR_READ_RECEIPT_SEARCH_KEY、ptagReadReceiptSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptSearchKey;

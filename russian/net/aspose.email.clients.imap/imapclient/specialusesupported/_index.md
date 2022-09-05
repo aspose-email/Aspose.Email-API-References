@@ -1,14 +1,14 @@
 ---
 title: SpecialUseSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживаются ли специальные почтовые ящики Подробнееhttps//tools.ietf.org/html/rfc6154
+description: Получает информацию о том поддерживаются ли почтовые ящики специального назначения Подробнее https//tools.ietf.org/html/rfc6154
 type: docs
 weight: 280
 url: /ru/net/aspose.email.clients.imap/imapclient/specialusesupported/
 ---
 ## ImapClient.SpecialUseSupported property
 
-Получает информацию о том, поддерживаются ли специальные почтовые ящики Подробнее:https://tools.ietf.org/html/rfc6154
+Получает информацию о том, поддерживаются ли почтовые ящики специального назначения Подробнее: https://tools.ietf.org/html/rfc6154
 
 ```csharp
 public bool SpecialUseSupported { get; set; }

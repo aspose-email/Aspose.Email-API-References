@@ -1,9 +1,9 @@
 ---
 title: PersonalStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents Personal Storage Table .pst file.
 type: docs
-weight: 20070
+weight: 20300
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
@@ -34,55 +34,55 @@ public class PersonalStorage : IDisposable
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(Stream, FileFormatVersion) | Creates the PST in a stream. |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(string, FileFormatVersion) | Creates the new PST file with the specified file name. |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(Stream, FileFormatVersion, bool) | Creates the PST in a stream. |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(Stream, FileFormatVersion, CancellationToken) | Creates the PST in a stream. |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(string, FileFormatVersion, CancellationToken) | Creates the new PST file with the specified file name. |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create)(Stream, FileFormatVersion, bool, CancellationToken) | Creates the PST in a stream. |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string) | Load PST from file. |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string, bool) | Load PST from file. |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string, CancellationToken) | Load PST from file. |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string, PersonalStorageLoadOptions) | Load PST from file. |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string, bool, CancellationToken) |  |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile)(string, PersonalStorageLoadOptions, CancellationToken) | Load PST from file. |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream) | Load PST from stream. |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream, bool) | Load PST from stream. |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream, CancellationToken) | Load PST from file. |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream, PersonalStorageLoadOptions) | Load PST from stream. |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream, bool, CancellationToken) |  |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream)(Stream, PersonalStorageLoadOptions, CancellationToken) | Load PST from file. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create)(Stream, FileFormatVersion) | Creates the PST in a stream. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_4)(string, FileFormatVersion) | Creates the new PST file with the specified file name. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_1)(Stream, FileFormatVersion, bool) | Creates the PST in a stream. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_3)(Stream, FileFormatVersion, CancellationToken) | Creates the PST in a stream. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_5)(string, FileFormatVersion, CancellationToken) | Creates the new PST file with the specified file name. |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_2)(Stream, FileFormatVersion, bool, CancellationToken) | Creates the PST in a stream. |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile)(string) | Load PST from file. |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_3)(string, bool) | Load PST from file. |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_5)(string, CancellationToken) | Load PST from file. |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_1)(string, PersonalStorageLoadOptions) | Load PST from file. |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_4)(string, bool, CancellationToken) |  |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_2)(string, PersonalStorageLoadOptions, CancellationToken) | Load PST from file. |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream)(Stream) | Load PST from stream. |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_3)(Stream, bool) | Load PST from stream. |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_5)(Stream, CancellationToken) | Load PST from file. |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_1)(Stream, PersonalStorageLoadOptions) | Load PST from stream. |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_4)(Stream, bool, CancellationToken) |  |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_2)(Stream, PersonalStorageLoadOptions, CancellationToken) | Load PST from file. |
 | [ChangeMessage](../../aspose.email.storage.pst/personalstorage/changemessage)(string, MapiPropertyCollection) | Changes the message properties. |
 | [ConvertTo](../../aspose.email.storage.pst/personalstorage/convertto)(FileFormat) | Converts the current object to the specified format. |
-| [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder)(string, StandardIpmFolder) | Creates the standard interpersonal message (IPM) folder. |
-| [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder)(string, StandardIpmFolder, bool) | Creates the standard interpersonal message (IPM) folder. |
+| [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder#createpredefinedfolder)(string, StandardIpmFolder) | Creates the standard interpersonal message (IPM) folder. |
+| [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder#createpredefinedfolder_1)(string, StandardIpmFolder, bool) | Creates the standard interpersonal message (IPM) folder. |
 | [Dispose](../../aspose.email.storage.pst/personalstorage/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages)(string) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages)(string, int, int) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [ExtractAttachments](../../aspose.email.storage.pst/personalstorage/extractattachments)(MessageInfo) | Extracts the attachments. |
-| [ExtractAttachments](../../aspose.email.storage.pst/personalstorage/extractattachments)(string) | Extracts the attachments. |
-| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage)(byte[]) | Get the message from PST. |
-| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage)(MessageInfo) | Get the message from PST. |
-| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage)(string) | Get the message from PST. |
+| [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages#enumeratemessages)(string) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages#enumeratemessages_1)(string, int, int) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [ExtractAttachments](../../aspose.email.storage.pst/personalstorage/extractattachments#extractattachments)(MessageInfo) | Extracts the attachments. |
+| [ExtractAttachments](../../aspose.email.storage.pst/personalstorage/extractattachments#extractattachments_1)(string) | Extracts the attachments. |
+| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage#extractmessage_1)(byte[]) | Get the message from PST. |
+| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage#extractmessage)(MessageInfo) | Get the message from PST. |
+| [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage#extractmessage_2)(string) | Get the message from PST. |
 | [ExtractProperty](../../aspose.email.storage.pst/personalstorage/extractproperty)(byte[], long) | Gets the specified property of item, without extract the item fully. |
 | [FindMessages](../../aspose.email.storage.pst/personalstorage/findmessages)(string) | Finds the identifiers of messages for for the current folder. It might be useful in case of reading corrupted pst when the GetContents and EnumerateMessages methods could throw an exception. |
 | [FindSubfolders](../../aspose.email.storage.pst/personalstorage/findsubfolders)(string) | Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception. |
-| [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid)(byte[]) | Gets the personal folder from PST. |
-| [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid)(string) | Gets the personal folder from PST. |
-| [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder)(byte[]) | Gets the parent folder of message. |
-| [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder)(string) | Gets the parent folder of message. |
+| [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid#getfolderbyid)(byte[]) | Gets the personal folder from PST. |
+| [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid#getfolderbyid_1)(string) | Gets the personal folder from PST. |
+| [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder#getparentfolder)(byte[]) | Gets the parent folder of message. |
+| [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder#getparentfolder_1)(string) | Gets the parent folder of message. |
 | [GetPredefinedFolder](../../aspose.email.storage.pst/personalstorage/getpredefinedfolder)(StandardIpmFolder) | Gets the standard interpersonal message (IPM) folder from PST. Outlook can create a number of default folders, such as Outbox, Deleted Items, Sent Items etc. |
-| [Load](../../aspose.email.storage.pst/personalstorage/load)(Stream) | Load PST from stream. This method is used when a PersonalStorage object is created using the constructor. |
-| [Load](../../aspose.email.storage.pst/personalstorage/load)(string) | Load PST from file. This method is used when a PersonalStorage object is created using the constructor. |
-| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith)(Stream[]) | Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources. |
-| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith)(string[]) | Merges the pst storage with one or more other pst files. Thus, the combined files are sources. |
-| [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem)(FolderInfo, FolderInfo) | Moves a specified folder to a new parent folder within the current pst. |
-| [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem)(MessageInfo, FolderInfo) | Moves a specified message to a new folder within the current pst. |
-| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas)(Stream, FileFormat) | Saves the current object to a specified file format in a stream. |
-| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas)(string, FileFormat) | Saves the current object to a specified file format in a different file. |
+| [Load](../../aspose.email.storage.pst/personalstorage/load#load)(Stream) | Load PST from stream. This method is used when a PersonalStorage object is created using the constructor. |
+| [Load](../../aspose.email.storage.pst/personalstorage/load#load_1)(string) | Load PST from file. This method is used when a PersonalStorage object is created using the constructor. |
+| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith)(Stream[]) | Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources. |
+| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith_1)(string[]) | Merges the pst storage with one or more other pst files. Thus, the combined files are sources. |
+| [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem#moveitem)(FolderInfo, FolderInfo) | Moves a specified folder to a new parent folder within the current pst. |
+| [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem#moveitem_1)(MessageInfo, FolderInfo) | Moves a specified message to a new folder within the current pst. |
+| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas#saveas)(Stream, FileFormat) | Saves the current object to a specified file format in a stream. |
+| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas#saveas_1)(string, FileFormat) | Saves the current object to a specified file format in a different file. |
 | [SaveMessageToStream](../../aspose.email.storage.pst/personalstorage/savemessagetostream)(string, Stream) | Saves the message, with specified entryID, to a stream. |
-| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto)(IList&lt;MailQuery&gt;, string) | Splits the pst storage based on criteria. |
-| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto)(long, string) | Splits the pst storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto#splitinto_1)(IList&lt;MailQuery&gt;, string) | Splits the pst storage based on criteria. |
+| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto#splitinto)(long, string) | Splits the pst storage into less sized parts. |
 | [TryToGetFolderById](../../aspose.email.storage.pst/personalstorage/trytogetfolderbyid)(string, out FolderInfo) | Gets the folder associated with the specified entry ID. |
 | [TryToSaveMessage](../../aspose.email.storage.pst/personalstorage/trytosavemessage)(string, Stream) | Saves the message, with specified entryID, to a stream. |
 

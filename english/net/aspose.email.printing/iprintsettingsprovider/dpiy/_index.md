@@ -1,7 +1,7 @@
 ---
 title: DpiY
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the vertical DPI.
 type: docs
 weight: 30
 url: /net/aspose.email.printing/iprintsettingsprovider/dpiy/

@@ -26,7 +26,7 @@ public class ItemEstimateOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/class) { get; set; } | 标识项目的类别。 |
-| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype) { get; set; } | 指定对象的可选时间窗口 |
+| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype) { get; set; } | 指定对象 的可选时间窗口 |
 | [MaxItems](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/maxitems) { get; set; } | 指定响应中包含的最大项目数。 |
 
 ### 也可以看看

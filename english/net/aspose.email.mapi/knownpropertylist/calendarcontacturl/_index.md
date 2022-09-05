@@ -1,7 +1,7 @@
 ---
 title: CalendarContactUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the URL where you can access contact information in HTML format. Area Common Canonical name PidNameCalendarContactUrl Alternate names urnschemascalendarcontacturl
 type: docs
 weight: 2210
 url: /net/aspose.email.mapi/knownpropertylist/calendarcontacturl/

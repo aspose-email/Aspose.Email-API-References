@@ -1,7 +1,7 @@
 ---
 title: FetchDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the private Distribution List members.
 type: docs
 weight: 740
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchdistributionlist/

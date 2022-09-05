@@ -1,14 +1,14 @@
 ---
 title: Self
 second_title: Aspose.Email for .NET API 参考
-description: 端点您可以在其中获取有关笔记本的详细信息 只读
+description: 您可以在其中获取有关笔记本的详细信息的端点 只读
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.graph/notebook/self/
 ---
 ## Notebook.Self property
 
-端点，您可以在其中获取有关笔记本的详细信息。 只读。
+您可以在其中获取有关笔记本的详细信息的端点。 只读。
 
 ```csharp
 public string Self { get; }

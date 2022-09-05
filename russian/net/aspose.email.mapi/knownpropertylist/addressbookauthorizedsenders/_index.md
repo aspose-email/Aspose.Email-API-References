@@ -1,14 +1,14 @@
 ---
 title: AddressBookAuthorizedSenders
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает существуют ли ограничения доставки для получателя. ОбластьАдресная книга Каноническое имяPidTagAddressBookAuthorizedSenders Альтернативные именаPR_EMS_AB_AUTH_ORIG
+description: Указывает существуют ли ограничения на доставку для получателя. Область Адресная книга Каноническое имя PidTagAddressBookAuthorizedSenders Альтернативные имена PR_EMS_AB_AUTH_ORIG
 type: docs
 weight: 330
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookauthorizedsenders/
 ---
 ## KnownPropertyList.AddressBookAuthorizedSenders field
 
-Указывает, существуют ли ограничения доставки для получателя. Область:Адресная книга Каноническое имя:PidTagAddressBookAuthorizedSenders Альтернативные имена:PR_EMS_AB_AUTH_ORIG
+Указывает, существуют ли ограничения на доставку для получателя. Область: Адресная книга Каноническое имя: PidTagAddressBookAuthorizedSenders Альтернативные имена: PR_EMS_AB_AUTH_ORIG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookAuthorizedSenders;

@@ -1,7 +1,7 @@
 ---
 title: EndDateFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the end date format.
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/appointmentformattingoptions/enddateformat/

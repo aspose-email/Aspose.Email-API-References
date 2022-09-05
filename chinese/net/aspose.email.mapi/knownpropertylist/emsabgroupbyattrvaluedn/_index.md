@@ -1,14 +1,14 @@
 ---
 title: EmsAbGroupByAttrValueDn
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性 规范名称 替代名称PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN
 type: docs
 weight: 6450
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabgroupbyattrvaluedn/
 ---
 ## KnownPropertyList.EmsAbGroupByAttrValueDn field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性。 规范名称： 替代名称：PR_EMS_AB_GROUP_BY_ATTR_VALUE_DN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGroupByAttrValueDn;

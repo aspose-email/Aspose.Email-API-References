@@ -1,14 +1,14 @@
 ---
 title: ImapMonitoringEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 ImapMonitoringEventArgsaspose.email.clients.imap/imapmonitoringeventargs 类的新实例
+description: 初始化ImapMonitoringEventArgsaspose.email.clients.imap/imapmonitoringeventargs class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/imapmonitoringeventargs/imapmonitoringeventargs/
 ---
 ## ImapMonitoringEventArgs constructor
 
-初始化 [`ImapMonitoringEventArgs`](../../imapmonitoringeventargs) 类的新实例
+初始化[`ImapMonitoringEventArgs`](../../imapmonitoringeventargs) class
 
 ```csharp
 public ImapMonitoringEventArgs(string folderName, ImapMessageInfo[] newMessages, 
@@ -19,7 +19,7 @@ public ImapMonitoringEventArgs(string folderName, ImapMessageInfo[] newMessages,
 | --- | --- | --- |
 | folderName | String | 监控操作的指定文件夹 |
 | newMessages | ImapMessageInfo[] | 包含有关新消息的信息 |
-| deletedMessages | ImapMessageInfo[] | 包含有关已删除消息的信息 消息 |
+| deletedMessages | ImapMessageInfo[] | 包含有关已删除邮件的信息 |
 
 ### 也可以看看
 

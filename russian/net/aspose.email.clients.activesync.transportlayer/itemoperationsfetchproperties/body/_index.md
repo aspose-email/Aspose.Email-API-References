@@ -1,14 +1,14 @@
 ---
 title: Body
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает поле данных произвольной формы переменной длины связанное с элементом хранящимся на сервере.
+description: Задает поле данных произвольной формы переменной длины связанное с сохраненным элементом на сервере.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/body/
 ---
 ## ItemOperationsFetchProperties.Body property
 
-Задает поле данных произвольной формы переменной длины, связанное с элементом, хранящимся на сервере.
+Задает поле данных произвольной формы переменной длины, связанное с сохраненным элементом на сервере.
 
 ```csharp
 public List<Body> Body { get; }

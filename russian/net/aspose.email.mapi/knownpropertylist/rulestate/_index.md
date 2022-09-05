@@ -1,14 +1,14 @@
 ---
 title: RuleState
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит флаги определяющие состояние правила. ОбластьСвойства серверных правил Каноническое имяPidTagRuleState Альтернативные именаPR_RULE_STATE ptagRuleState
+description: Содержит флаги определяющие состояние правила. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleState Альтернативные имена PR_RULE_STATE ptagRuleState
 type: docs
 weight: 16650
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulestate/
 ---
 ## KnownPropertyList.RuleState field
 
-Содержит флаги, определяющие состояние правила. Область:Свойства серверных правил Каноническое имя:PidTagRuleState Альтернативные имена:PR_RULE_STATE, ptagRuleState
+Содержит флаги, определяющие состояние правила. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleState Альтернативные имена: PR_RULE_STATE, ptagRuleState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleState;

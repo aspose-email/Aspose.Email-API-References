@@ -16,7 +16,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderId | String | 文件夹的 id在其中搜索 |
+| folderId | String | 在其中搜索的文件夹的 id |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

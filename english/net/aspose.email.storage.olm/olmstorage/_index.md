@@ -1,9 +1,9 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents Outlook for Mac storage .OLM file.
 type: docs
-weight: 19900
+weight: 20130
 url: /net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class
@@ -18,9 +18,9 @@ public class OlmStorage : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [OlmStorage](olmstorage)(Stream) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. |
-| [OlmStorage](olmstorage)(string) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. |
-| [OlmStorage](olmstorage)(TraversalExceptionsCallback) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. Allows setting a callback method for handling exceptions that occur during OLM storage traversal. |
+| [OlmStorage](olmstorage#constructor_1)(Stream) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. |
+| [OlmStorage](olmstorage#constructor_2)(string) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. |
+| [OlmStorage](olmstorage#constructor)(TraversalExceptionsCallback) | Initializes a new instance of the [`OlmStorage`](../olmstorage) class. Allows setting a callback method for handling exceptions that occur during OLM storage traversal. |
 
 ## Properties
 
@@ -39,8 +39,8 @@ public class OlmStorage : IDisposable
 | [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage)(OlmMessageInfo) | Get the message from OLM storage. |
 | [GetFolder](../../aspose.email.storage.olm/olmstorage/getfolder)(string, bool) | Gets the folder by name. |
 | [GetFolders](../../aspose.email.storage.olm/olmstorage/getfolders)() | Gets collection of folders. |
-| [Load](../../aspose.email.storage.olm/olmstorage/load)(Stream) | Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
-| [Load](../../aspose.email.storage.olm/olmstorage/load)(string) | Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
+| [Load](../../aspose.email.storage.olm/olmstorage/load#load)(Stream) | Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
+| [Load](../../aspose.email.storage.olm/olmstorage/load#load_1)(string) | Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
 
 ### See Also
 

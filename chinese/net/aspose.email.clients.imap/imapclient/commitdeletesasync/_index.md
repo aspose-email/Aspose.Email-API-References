@@ -20,7 +20,7 @@ public Task CommitDeletesAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public Task CommitDeletesAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -91,7 +91,7 @@ public Task CommitDeletesAsync(int sleep)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -115,7 +115,7 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -135,11 +135,11 @@ public Task CommitDeletesAsync(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -164,7 +164,7 @@ public Task CommitDeletesAsync(string startUid, string endUid)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -211,11 +211,11 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -242,7 +242,7 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -264,11 +264,11 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -295,7 +295,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep, CancellationTo
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -316,11 +316,11 @@ public Task CommitDeletesAsync(CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -345,7 +345,7 @@ public Task CommitDeletesAsync(int sleep, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -366,11 +366,11 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet, CancellationToken tok
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的唯一标识符集 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -390,12 +390,12 @@ public Task CommitDeletesAsync(string uniqueId, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的uid |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -417,11 +417,11 @@ public Task CommitDeletesAsync(string startUid, string endUid, CancellationToken
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -444,11 +444,11 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的唯一标识符集 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -470,12 +470,12 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId, Cancella
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的uid |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -500,11 +500,11 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

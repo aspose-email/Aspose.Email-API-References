@@ -21,7 +21,7 @@ public enum ExchangeCalendarPermissionReadAccess
 | None | `0` | 用户无权读取文件夹中的项目。 |
 | FullDetails | `1` | 用户有权读取文件夹中的所有项目。 |
 | TimeOnly | `2` | 用户只能查看日历中的空闲/忙碌时间。 |
-| TimeAndSubjectAndLocation | `4` | 用户可以查看日历中的空闲/忙碌时间以及约会的主题和位置。 |
+| TimeAndSubjectAndLocation | `4` | 用户可以查看日历中的空闲/忙碌时间以及约会的主题和地点。 |
 
 ### 也可以看看
 

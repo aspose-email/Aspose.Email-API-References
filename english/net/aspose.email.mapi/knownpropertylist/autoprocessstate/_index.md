@@ -1,7 +1,7 @@
 ---
 title: AutoProcessState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the options used in the automatic processing of email messages. Area General Message Properties Canonical name PidLidAutoProcessState Alternate names dispidSniffState
 type: docs
 weight: 1940
 url: /net/aspose.email.mapi/knownpropertylist/autoprocessstate/

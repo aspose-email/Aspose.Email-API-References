@@ -1,14 +1,14 @@
 ---
 title: BirthdayEventEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает EntryID необязательного объекта Appointment представляющего день рождения контакта. ОбластьСвойства контакта Каноническое имяPidLidBirthdayEventEntryId Альтернативные именаdispidBirthdayEventEID
+description: Указывает EntryID необязательного объекта Appointment который представляет день рождения контакта. Область Свойства контакта Каноническое имя PidLidBirthdayEventEntryId Альтернативные имена dispidBirthdayEventEID
 type: docs
 weight: 2000
 url: /ru/net/aspose.email.mapi/knownpropertylist/birthdayevententryid/
 ---
 ## KnownPropertyList.BirthdayEventEntryId field
 
-Указывает EntryID необязательного объекта Appointment, представляющего день рождения контакта. Область:Свойства контакта Каноническое имя:PidLidBirthdayEventEntryId Альтернативные имена:dispidBirthdayEventEID
+Указывает EntryID необязательного объекта Appointment, который представляет день рождения контакта. Область: Свойства контакта Каноническое имя: PidLidBirthdayEventEntryId Альтернативные имена: dispidBirthdayEventEID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BirthdayEventEntryId;

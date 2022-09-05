@@ -1,7 +1,7 @@
 ---
 title: Foreground
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The foreground color that can be used to write on top of a background with background color.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/colors/foreground/

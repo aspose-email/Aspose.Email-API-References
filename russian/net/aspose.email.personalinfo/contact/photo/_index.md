@@ -1,14 +1,14 @@
 ---
 title: Photo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает изображение контакта
+description: Получает или задает изображение контакта
 type: docs
 weight: 330
 url: /ru/net/aspose.email.personalinfo/contact/photo/
 ---
 ## Contact.Photo property
 
-Получает или устанавливает изображение контакта
+Получает или задает изображение контакта
 
 ```csharp
 public ContactPhoto Photo { get; set; }

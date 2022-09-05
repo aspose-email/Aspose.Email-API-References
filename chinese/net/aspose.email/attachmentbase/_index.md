@@ -18,7 +18,7 @@ public abstract class AttachmentBase : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容ID。 |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容id。 |
 | [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | 获取或设置内容流。 |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | 获取或设置内容的类型。 |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | 获取附件的标题集合。 |

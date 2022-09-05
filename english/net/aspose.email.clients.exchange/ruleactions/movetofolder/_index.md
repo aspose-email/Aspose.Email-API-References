@@ -1,7 +1,7 @@
 ---
 title: MoveToFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the ID of the folder that email items will be moved to.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange/ruleactions/movetofolder/

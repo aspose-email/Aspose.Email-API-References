@@ -16,7 +16,7 @@ public void Add(AssociatedPerson value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | AssociatedPerson | Object添加到列表中。 |
+| value | AssociatedPerson | 这Object添加到列表中。 |
 
 ### 返回值
 

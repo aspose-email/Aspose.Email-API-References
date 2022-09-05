@@ -1,14 +1,14 @@
 ---
 title: CollaborateDoc
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает документ который будет запускаться когда пользователь присоединяется к собранию. ОбластьКонференц-связь Каноническое имяPidLidCollaborateDoc Альтернативные именаdispidCollaborateDoc
+description: Указывает документ который будет запущен когда пользователь присоединяется к собранию. Область Conferencing Каноническое имя PidLidCollaborateDoc Альтернативные имена dispidCollaborateDoc
 type: docs
 weight: 2740
 url: /ru/net/aspose.email.mapi/knownpropertylist/collaboratedoc/
 ---
 ## KnownPropertyList.CollaborateDoc field
 
-Указывает документ, который будет запускаться, когда пользователь присоединяется к собранию. Область:Конференц-связь Каноническое имя:PidLidCollaborateDoc Альтернативные имена:dispidCollaborateDoc
+Указывает документ, который будет запущен, когда пользователь присоединяется к собранию. Область: Conferencing Каноническое имя: PidLidCollaborateDoc Альтернативные имена: dispidCollaborateDoc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CollaborateDoc;

@@ -1,14 +1,14 @@
 ---
 title: FetchItemsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанные элементы.
+description: Извлекает указанные элементы.
 type: docs
 weight: 260
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync/
 ---
 ## IAsyncEwsClient.FetchItemsAsync method
 
-Выбирает указанные элементы.
+Извлекает указанные элементы.
 
 ```csharp
 public Task<IEnumerable<MapiMessage>> FetchItemsAsync(EwsFetchItems ewsFetchItems)

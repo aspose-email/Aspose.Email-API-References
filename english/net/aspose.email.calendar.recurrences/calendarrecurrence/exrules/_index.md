@@ -1,7 +1,7 @@
 ---
 title: ExRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the ex rules.
 type: docs
 weight: 60
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/exrules/

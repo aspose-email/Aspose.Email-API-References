@@ -3,7 +3,7 @@ title: ProdId
 second_title: Aspose.Email for .NET API 参考
 description: 获取创建 vCard 的产品的 ID
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid/
 ---
 ## VCardExplanatoryInfo.ProdId property

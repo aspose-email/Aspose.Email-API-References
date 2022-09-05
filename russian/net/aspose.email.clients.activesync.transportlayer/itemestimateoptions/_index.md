@@ -27,7 +27,7 @@ public class ItemEstimateOptions
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/class) { get; set; } | Идентифицирует класс предмета. |
 | [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype) { get; set; } | Задает дополнительное временное окно для объектов |
-| [MaxItems](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/maxitems) { get; set; } | Задает максимальное количество элементов, которые необходимо включить в ответ. |
+| [MaxItems](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/maxitems) { get; set; } | Указывает максимальное количество элементов для включения в ответ. |
 
 ### Смотрите также
 

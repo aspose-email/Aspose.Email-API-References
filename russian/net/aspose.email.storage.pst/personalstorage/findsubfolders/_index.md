@@ -1,14 +1,14 @@
 ---
 title: FindSubfolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Находит идентификаторы подпапок для текущей папки. Это может быть полезно в случае чтения поврежденного PST когда методы GetSubfolders и EnumerateFolders могут генерировать исключение.
+description: Находит идентификаторы подпапок для текущей папки. Может быть полезно в случае чтения поврежденного файла pst когда методы GetSubfolders и EnumerateFolders могли вызвать исключение.
 type: docs
 weight: 210
 url: /ru/net/aspose.email.storage.pst/personalstorage/findsubfolders/
 ---
 ## PersonalStorage.FindSubfolders method
 
-Находит идентификаторы подпапок для текущей папки. Это может быть полезно в случае чтения поврежденного PST, когда методы GetSubfolders и EnumerateFolders могут генерировать исключение.
+Находит идентификаторы подпапок для текущей папки. Может быть полезно в случае чтения поврежденного файла pst, когда методы GetSubfolders и EnumerateFolders могли вызвать исключение.
 
 ```csharp
 public IList<string> FindSubfolders(string parentEntryId)
@@ -20,7 +20,7 @@ public IList<string> FindSubfolders(string parentEntryId)
 
 ### Возвращаемое значение
 
-Коллекция идентификаторов записей.
+Сбор идентификаторов записей.
 
 ### Смотрите также
 

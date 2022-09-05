@@ -1,7 +1,7 @@
 ---
 title: CreateAccessRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates access rule
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/igmailclient/createaccessrule/

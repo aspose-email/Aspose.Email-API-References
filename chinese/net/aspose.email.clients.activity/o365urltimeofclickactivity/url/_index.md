@@ -1,14 +1,14 @@
 ---
 title: URL
 second_title: Aspose.Email for .NET API 参考
-description: 用户点击的 URL 强制是
+description: 用户点击的 URL 必填是
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/url/
 ---
 ## O365URLTimeOfClickActivity.URL property
 
-用户点击的 URL。 强制:是
+用户点击的 URL。 必填：是
 
 ```csharp
 public string URL { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 获取标识标记属性的无符号 16 位数量 属性 ID 不一定是唯一的 除了 0x6800 到 0x7BFF 范围内的属性 ID 之外 属性 ID 和数据类型的组合是唯一的 0x6800 到 0x7BFF 范围内的属性 ID 由消息类定义
+description: 获取标识标记属性的无符号 16 位量 属性 ID 不一定是唯一的 除了 0x6800 到 0x7BFF 范围内的属性 ID 属性 ID 和数据类型的组合是唯一的 0x6800 到 0x7BFF 范围内的属性 ID 由消息类定义
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/pidtagpropertydescriptor/id/
 ---
 ## PidTagPropertyDescriptor.Id property
 
-获取标识标记属性的无符号 16 位数量。 属性 ID 不一定是唯一的。 除了 0x6800 到 0x7BFF 范围内的属性 ID 之外， 属性 ID 和数据类型的组合是唯一的。 0x6800 到 0x7BFF 范围内的属性 ID 由消息类定义。
+获取标识标记属性的无符号 16 位量。 属性 ID 不一定是唯一的。 除了 0x6800 到 0x7BFF 范围内的属性 ID， 属性 ID 和数据类型的组合是唯一的。 0x6800 到 0x7BFF 范围内的属性 ID 由消息类定义。
 
 ```csharp
 public int Id { get; }

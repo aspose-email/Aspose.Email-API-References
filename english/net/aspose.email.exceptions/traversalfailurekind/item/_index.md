@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the item type that retrieval failed during the traversal.
 type: docs
 weight: 10
 url: /net/aspose.email.exceptions/traversalfailurekind/item/

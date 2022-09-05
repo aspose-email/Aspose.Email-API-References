@@ -1,7 +1,7 @@
 ---
 title: CalendarProductId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the product that created the iCalendarformatted stream. Area Common Canonical name PidNameCalendarProductId Alternate names urnschemascalendarprodid
 type: docs
 weight: 2350
 url: /net/aspose.email.mapi/knownpropertylist/calendarproductid/

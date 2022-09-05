@@ -1,7 +1,7 @@
 ---
 title: PersonalHomePage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: PersonalHomePage header.
 type: docs
 weight: 260
 url: /net/aspose.email/mhttemplatename.contact/personalhomepage/

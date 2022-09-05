@@ -1,14 +1,14 @@
 ---
 title: XVoiceMessageDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает длину вложенного звукового сообщения в секундах. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXVoiceMessageDuration Альтернативные имена
+description: Указывает длину вложенного звукового сообщения в секундах. Область Единая система обмена сообщениями Каноническое имя PidNameXVoiceMessageDuration Альтернативные имена
 type: docs
 weight: 19870
 url: /ru/net/aspose.email.mapi/knownpropertylist/xvoicemessageduration/
 ---
 ## KnownPropertyList.XVoiceMessageDuration field
 
-Указывает длину вложенного звукового сообщения в секундах. Область:Единая система обмена сообщениями Каноническое имя:PidNameXVoiceMessageDuration Альтернативные имена:
+Указывает длину вложенного звукового сообщения в секундах. Область: Единая система обмена сообщениями Каноническое имя: PidNameXVoiceMessageDuration Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XVoiceMessageDuration;

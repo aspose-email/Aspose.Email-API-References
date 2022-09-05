@@ -1,7 +1,7 @@
 ---
 title: ResultStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the action specified in the Operation property was successful or not. Possible values are Succeeded PartiallySucceded or Failed. For Exchange admin activity the value is either True or False. Mandatory No
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/content/resultstatus/

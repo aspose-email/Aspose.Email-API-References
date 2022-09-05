@@ -1,14 +1,14 @@
 ---
 title: AssocMessageSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ASSOC_MESSAGE_SIZE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ASSOC_MESSAGE_SIZE
 type: docs
 weight: 1480
 url: /ru/net/aspose.email.mapi/knownpropertylist/assocmessagesize/
 ---
 ## KnownPropertyList.AssocMessageSize field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ASSOC_MESSAGE_SIZE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ASSOC_MESSAGE_SIZE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AssocMessageSize;

@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关通讯簿对象的用途或内容的注释 区域通用 规范名称PidTagComment 替代名称PR_COMMENT PR_COMMENT_A ptagComment PR_COMMENT_W DAVcomment
+description: 包含有关通讯簿对象的目的或内容的注释 区域Common 规范名称PidTagComment 替代名称PR_COMMENTPR_COMMENT_AptagCommentPR_COMMENT_WDAVcomment
 type: docs
 weight: 2760
 url: /zh/net/aspose.email.mapi/knownpropertylist/comment/
 ---
 ## KnownPropertyList.Comment field
 
-包含有关通讯簿对象的用途或内容的注释。 区域:通用 规范名称:PidTagComment 替代名称:PR_COMMENT, PR_COMMENT_A, ptagComment, PR_COMMENT_W, DAV:comment,
+包含有关通讯簿对象的目的或内容的注释。 区域：Common 规范名称：PidTagComment 替代名称：PR_COMMENT、PR_COMMENT_A、ptagComment、PR_COMMENT_W、DAV:comment、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Comment;

@@ -1,14 +1,14 @@
 ---
 title: MailServerValidating
 second_title: Справочник по Aspose.Email для .NET API
-description: Это событие происходит при проверке адреса электронной почты на его почтовом сервере.
+description: Это событие возникает при проверке адресов электронной почты на почтовом сервере.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.tools.verifications/emailvalidator/mailservervalidating/
 ---
 ## EmailValidator.MailServerValidating event
 
-Это событие происходит при проверке адреса электронной почты на его почтовом сервере.
+Это событие возникает при проверке адресов электронной почты на почтовом сервере.
 
 ```csharp
 public event MailServerValidatingEventHandler MailServerValidating;

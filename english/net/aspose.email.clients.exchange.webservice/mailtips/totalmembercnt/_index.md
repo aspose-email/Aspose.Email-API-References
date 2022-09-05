@@ -1,7 +1,7 @@
 ---
 title: TotalMemberCnt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the total number of members in a group.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.webservice/mailtips/totalmembercnt/

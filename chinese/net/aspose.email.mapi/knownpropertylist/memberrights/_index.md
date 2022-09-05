@@ -1,14 +1,14 @@
 ---
 title: MemberRights
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定用户的权限 区域访问控制属性 规范名称PidTagMemberRights 备用名称PR_MEMBER_RIGHTS ptagMemberRights
+description: 包含指定用户的权限 区域访问控制属性 规范名称PidTagMemberRights 备用名称PR_MEMBER_RIGHTSptagMemberRights
 type: docs
 weight: 12440
 url: /zh/net/aspose.email.mapi/knownpropertylist/memberrights/
 ---
 ## KnownPropertyList.MemberRights field
 
-包含指定用户的权限。 区域:访问控制属性 规范名称:PidTagMemberRights 备用名称:PR_MEMBER_RIGHTS, ptagMemberRights
+包含指定用户的权限。 区域：访问控制属性 规范名称：PidTagMemberRights 备用名称：PR_MEMBER_RIGHTS、ptagMemberRights
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MemberRights;

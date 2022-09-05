@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorName
 second_title: Aspose.Email for .NET API 参考
-description: 区域MessageClassDefinedTransmittable 规范名称PidTagViewDescriptorName 别名PR_VD_NAME PR_VD_NAME_W
+description: 区域MessageClassDefinedTransmittable 规范名称PidTagViewDescriptorName 备用名称PR_VD_NAMEPR_VD_NAME_W
 type: docs
 weight: 19260
 url: /zh/net/aspose.email.mapi/knownpropertylist/viewdescriptorname/
 ---
 ## KnownPropertyList.ViewDescriptorName field
 
-区域:MessageClassDefinedTransmittable 规范名称:PidTagViewDescriptorName 别名:PR_VD_NAME, PR_VD_NAME_W
+区域：MessageClassDefinedTransmittable 规范名称：PidTagViewDescriptorName 备用名称：PR_VD_NAME、PR_VD_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorName;

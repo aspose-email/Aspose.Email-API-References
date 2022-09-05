@@ -1,7 +1,7 @@
 ---
 title: Category
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Category name used to route the log entry to a one or more sinks.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.logging/logentry/category/

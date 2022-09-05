@@ -1,14 +1,14 @@
 ---
 title: AutoStartCheck
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли автоматически запускать приложение для конференц-связи при выполнении напоминания о начале собрания. ОбластьКонференц-связь Каноническое имяPidLidAutoStartCheck Альтернативные именаdispidAutoStartCheck
+description: Указывает следует ли автоматически запускать приложение для конференц-связи при выполнении напоминания о начале собрания. Область Conferencing Каноническое имя PidLidAutoStartCheck Альтернативные имена dispidAutoStartCheck
 type: docs
 weight: 1960
 url: /ru/net/aspose.email.mapi/knownpropertylist/autostartcheck/
 ---
 ## KnownPropertyList.AutoStartCheck field
 
-Указывает, следует ли автоматически запускать приложение для конференц-связи при выполнении напоминания о начале собрания. Область:Конференц-связь Каноническое имя:PidLidAutoStartCheck Альтернативные имена:dispidAutoStartCheck
+Указывает, следует ли автоматически запускать приложение для конференц-связи при выполнении напоминания о начале собрания. Область: Conferencing Каноническое имя: PidLidAutoStartCheck Альтернативные имена: dispidAutoStartCheck
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoStartCheck;

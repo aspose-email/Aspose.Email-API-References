@@ -1,7 +1,7 @@
 ---
 title: RecipientFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a bit field that describes the recipient status. Area TransportRecipient Canonical name PidTagRecipientFlags Alternate names PR_RECIPIENT_FLAGS
 type: docs
 weight: 15430
 url: /net/aspose.email.mapi/knownpropertylist/recipientflags/

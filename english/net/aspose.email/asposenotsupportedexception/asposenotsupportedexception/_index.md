@@ -1,12 +1,12 @@
 ---
 title: AsposeNotSupportedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeNotSupportedExceptionaspose.email/asposenotsupportedexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposenotsupportedexception/asposenotsupportedexception/
 ---
-## AsposeNotSupportedException constructor (1 of 6)
+## AsposeNotSupportedException() {#constructor}
 
 Initializes a new instance of the [`AsposeNotSupportedException`](../../asposenotsupportedexception) class.
 
@@ -22,7 +22,7 @@ public AsposeNotSupportedException()
 
 ---
 
-## AsposeNotSupportedException constructor (2 of 6)
+## AsposeNotSupportedException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeNotSupportedException`](../../asposenotsupportedexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeNotSupportedException(string message)
 
 ---
 
-## AsposeNotSupportedException constructor (3 of 6)
+## AsposeNotSupportedException(string, string) {#constructor_5}
 
 ```csharp
 public AsposeNotSupportedException(string format, string parameter)
@@ -56,7 +56,7 @@ public AsposeNotSupportedException(string format, string parameter)
 
 ---
 
-## AsposeNotSupportedException constructor (4 of 6)
+## AsposeNotSupportedException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
 
@@ -77,7 +77,7 @@ public AsposeNotSupportedException(string format, params object[] parameters)
 
 ---
 
-## AsposeNotSupportedException constructor (5 of 6)
+## AsposeNotSupportedException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeNotSupportedException`](../../asposenotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -98,7 +98,7 @@ public AsposeNotSupportedException(string message, Exception innerException)
 
 ---
 
-## AsposeNotSupportedException constructor (6 of 6)
+## AsposeNotSupportedException(Exception) {#constructor_1}
 
 ```csharp
 public AsposeNotSupportedException(Exception innerException)

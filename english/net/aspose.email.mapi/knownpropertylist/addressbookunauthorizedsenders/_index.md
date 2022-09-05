@@ -1,7 +1,7 @@
 ---
 title: AddressBookUnauthorizedSenders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether delivery restrictions exist for a recipient. Area Address Book Canonical name PidTagAddressBookUnauthorizedSenders Alternate names PR_EMS_AB_UNAUTH_ORIG
 type: docs
 weight: 990
 url: /net/aspose.email.mapi/knownpropertylist/addressbookunauthorizedsenders/

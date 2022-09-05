@@ -1,14 +1,14 @@
 ---
 title: ImapAttachmentInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ImapAttachmentInfo./imapattachmentinfo
+description: 代表集合ImapAttachmentInfo./imapattachmentinfo
 type: docs
 weight: 16270
 url: /zh/net/aspose.email.clients.imap/imapattachmentinfocollection/
 ---
 ## ImapAttachmentInfoCollection class
 
-表示[`ImapAttachmentInfo`](../imapattachmentinfo)
+代表集合[`ImapAttachmentInfo`](../imapattachmentinfo)
 
 ```csharp
 public sealed class ImapAttachmentInfoCollection : Collection<ImapAttachmentInfo>
@@ -18,7 +18,7 @@ public sealed class ImapAttachmentInfoCollection : Collection<ImapAttachmentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImapAttachmentInfoCollection](imapattachmentinfocollection)() | 初始化 [`ImapAttachmentInfoCollection`](../imapattachmentinfocollection) 类的新实例 |
+| [ImapAttachmentInfoCollection](imapattachmentinfocollection)() | 初始化[`ImapAttachmentInfoCollection`](../imapattachmentinfocollection) class |
 
 ### 也可以看看
 

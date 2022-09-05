@@ -1,14 +1,14 @@
 ---
 title: MailPriority
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件优先级
+description: 代表邮件优先级
 type: docs
 weight: 17740
 url: /zh/net/aspose.email/mailpriority/
 ---
 ## MailPriority enumeration
 
-表示邮件优先级
+代表邮件优先级
 
 ```csharp
 public enum MailPriority
@@ -18,7 +18,7 @@ public enum MailPriority
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Normal | `0` | 普通优先级 |
+| Normal | `0` | 正常优先级 |
 | Low | `1` | 低优先级 |
 | High | `2` | 高优先级 |
 

@@ -1,9 +1,9 @@
 ---
 title: SocksVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Versions of the SOCKS protocol
 type: docs
-weight: 16940
+weight: 17110
 url: /net/aspose.email.clients/socksversion/
 ---
 ## SocksVersion enumeration

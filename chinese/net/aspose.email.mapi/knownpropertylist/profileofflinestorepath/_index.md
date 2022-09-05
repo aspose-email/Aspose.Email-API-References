@@ -1,14 +1,14 @@
 ---
 title: ProfileOfflineStorePath
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_OFFLINE_STORE_PATH
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PROFILE_OFFLINE_STORE_PATH
 type: docs
 weight: 14840
 url: /zh/net/aspose.email.mapi/knownpropertylist/profileofflinestorepath/
 ---
 ## KnownPropertyList.ProfileOfflineStorePath field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_OFFLINE_STORE_PATH
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PROFILE_OFFLINE_STORE_PATH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileOfflineStorePath;

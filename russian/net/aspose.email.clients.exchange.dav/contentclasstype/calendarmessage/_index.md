@@ -1,14 +1,14 @@
 ---
 title: CalendarMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classescalendarmessage  который определяет набор свойств для элементов сообщений которые содержать приглашения на встречи.
+description: Получает класс содержимого urncontent-classescalendarmessage  который определяет набор свойств для элементов сообщений  содержащих приглашения на собрания.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/calendarmessage/
 ---
 ## ContentClassType.CalendarMessage property
 
-Получает класс содержимого urn:content-classes:calendarmessage , который определяет набор свойств для элементов сообщений которые содержать приглашения на встречи.
+Получает класс содержимого urn:content-classes:calendarmessage , который определяет набор свойств для элементов сообщений , содержащих приглашения на собрания.
 
 ```csharp
 public static ContentClassType CalendarMessage { get; }

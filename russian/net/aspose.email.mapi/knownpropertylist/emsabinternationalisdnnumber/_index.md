@@ -1,14 +1,14 @@
 ---
 title: EmsAbInternationalIsdnNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_INTERNATIONAL_ISDN_NUMBER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER
 type: docs
 weight: 6890
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabinternationalisdnnumber/
 ---
 ## KnownPropertyList.EmsAbInternationalIsdnNumber field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbInternationalIsdnNumber;

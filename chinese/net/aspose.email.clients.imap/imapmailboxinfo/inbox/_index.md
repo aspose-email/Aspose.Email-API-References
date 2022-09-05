@@ -1,14 +1,14 @@
 ---
 title: Inbox
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱用于保存传入消息
+description: 获取邮箱用于保存传入的消息
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.imap/imapmailboxinfo/inbox/
 ---
 ## ImapMailboxInfo.Inbox property
 
-获取邮箱用于保存传入消息。
+获取邮箱用于保存传入的消息。
 
 ```csharp
 public ImapFolderInfo Inbox { get; }

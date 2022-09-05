@@ -1,12 +1,12 @@
 ---
 title: GetContents
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get collection of messages.
 type: docs
 weight: 280
 url: /net/aspose.email.storage.pst/folderinfo/getcontents/
 ---
-## FolderInfo.GetContents method (1 of 5)
+## GetContents(bool) {#getcontents_3}
 
 Get collection of messages.
 
@@ -31,7 +31,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (2 of 5)
+## GetContents() {#getcontents}
 
 Get collection of messages.
 
@@ -52,7 +52,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (3 of 5)
+## GetContents(MessageKind) {#getcontents_1}
 
 Get collection of messages.
 
@@ -78,7 +78,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (4 of 5)
+## GetContents(MailQuery) {#getcontents_2}
 
 Get collection of messages.
 
@@ -104,7 +104,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (5 of 5)
+## GetContents(int, int) {#getcontents_4}
 
 Gets the collection of messages.
 

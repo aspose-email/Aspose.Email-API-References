@@ -1,12 +1,12 @@
 ---
 title: MapiContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiContactaspose.email.mapi/mapicontact class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontact/mapicontact/
 ---
-## MapiContact constructor (1 of 4)
+## MapiContact() {#constructor}
 
 Initializes a new instance of the [`MapiContact`](../../mapicontact) class
 
@@ -22,7 +22,7 @@ public MapiContact()
 
 ---
 
-## MapiContact constructor (2 of 4)
+## MapiContact(string, string) {#constructor_1}
 
 Initializes a new instance of the [`MapiContact`](../../mapicontact) class.
 
@@ -43,7 +43,7 @@ public MapiContact(string displayName, string electonicAddress)
 
 ---
 
-## MapiContact constructor (3 of 4)
+## MapiContact(string, string, string) {#constructor_2}
 
 Initializes a new instance of the [`MapiContact`](../../mapicontact) class.
 
@@ -65,7 +65,7 @@ public MapiContact(string displayName, string electonicAddress, string companyNa
 
 ---
 
-## MapiContact constructor (4 of 4)
+## MapiContact(string, string, string, string) {#constructor_3}
 
 Initializes a new instance of the [`MapiContact`](../../mapicontact) class.
 

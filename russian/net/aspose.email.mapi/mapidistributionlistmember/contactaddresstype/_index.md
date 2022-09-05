@@ -1,14 +1,14 @@
 ---
 title: ContactAddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип адреса когда свойство EntryId содержит EntryID объекта Contact.
+description: Получает или задает тип адреса  когда свойство EntryId содержит EntryID объекта Contact.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapidistributionlistmember/contactaddresstype/
 ---
 ## MapiDistributionListMember.ContactAddressType property
 
-Получает или задает тип адреса, когда свойство EntryId содержит EntryID объекта Contact.
+Получает или задает тип адреса, , когда свойство EntryId содержит EntryID объекта Contact.
 
 ```csharp
 public MapiDistributionListContactAddressType ContactAddressType { get; set; }

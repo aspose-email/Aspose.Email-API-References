@@ -1,14 +1,14 @@
 ---
 title: PhysicalForwardingProhibited
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PHYSICAL_FORWARDING_PROHIBITED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PHYSICAL_FORWARDING_PROHIBITED
 type: docs
 weight: 14320
 url: /ru/net/aspose.email.mapi/knownpropertylist/physicalforwardingprohibited/
 ---
 ## KnownPropertyList.PhysicalForwardingProhibited field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PHYSICAL_FORWARDING_PROHIBITED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PHYSICAL_FORWARDING_PROHIBITED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PhysicalForwardingProhibited;

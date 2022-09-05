@@ -1,14 +1,14 @@
 ---
 title: ReportTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит данные используемые для корреляции отчета и исходного сообщения. ОбластьMapiEnvelope Каноническое имяPidTagReportTag Альтернативные именаPR_REPORT_TAG ptagReportTag
+description: Содержит данные используемые для сопоставления отчета и исходного сообщения. Область MapiEnvelope Каноническое имя PidTagReportTag Альтернативные имена PR_REPORT_TAG ptagReportTag
 type: docs
 weight: 16080
 url: /ru/net/aspose.email.mapi/knownpropertylist/reporttag/
 ---
 ## KnownPropertyList.ReportTag field
 
-Содержит данные, используемые для корреляции отчета и исходного сообщения. Область:MapiEnvelope Каноническое имя:PidTagReportTag Альтернативные имена:PR_REPORT_TAG, ptagReportTag
+Содержит данные, используемые для сопоставления отчета и исходного сообщения. Область: MapiEnvelope Каноническое имя: PidTagReportTag Альтернативные имена: PR_REPORT_TAG, ptagReportTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportTag;

@@ -1,14 +1,14 @@
 ---
 title: Or
 second_title: Aspose.Email for .NET API 参考
-description: 搜索匹配任一搜索关键字的消息提供两个表达式 OR 之间的析取
+description: 搜索与任一搜索键匹配的消息提供两个表达式之间的析取 OR.
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or/
 ---
 ## ExchangeAdvancedSyntaxQueryBuilder.Or method
 
-搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。
+搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR).
 
 ```csharp
 public MailQuery Or(MailQuery query1, MailQuery query2)
@@ -17,17 +17,17 @@ public MailQuery Or(MailQuery query1, MailQuery query2)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | query1 | MailQuery | 查询1。 |
-| query2 | MailQuery | 查询2。 |
+| query2 | MailQuery | 查询 2。 |
 
 ### 返回值
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询（一种搜索标准）。
+[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询（一个搜索条件）。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | query1 或 query2 |
+| ArgumentNullException | query1 or query2 |
 
 ### 也可以看看
 

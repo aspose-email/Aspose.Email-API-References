@@ -20,7 +20,7 @@ public string ToStringRepresentation()
 
 ### 评论
 
-此方法不提供数据类型的自动转换，例如如果[`Value`](../value)属性是类型的默认值将被返回。
+此方法不提供数据类型的自动转换，例如，如果[`Value`](../value)属性是类型的默认值将被返回。
 
 ### 也可以看看
 

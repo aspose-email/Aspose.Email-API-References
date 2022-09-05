@@ -1,31 +1,31 @@
 ---
 title: Aspose.Email.Clients
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Clients 命名空间提供了使用邮件协议访问消息的类
+description: 的 Aspose.Email.Clients命名空间提供了使用邮件协议访问消息的类
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients/
 ---
-**Aspose.Email.Clients** 命名空间提供了使用邮件协议访问消息的类。
+的 **Aspose.Email.Clients**命名空间提供了使用邮件协议访问消息的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [AsyncCommandResultEventArgs](./asynccommandresulteventargs) | [`AsyncCommandResultEventArgs`](../aspose.email.clients/asynccommandresulteventargs)包含事件数据。 |
-| [BindIPEndPointHandler](./bindipendpointhandler) | 如果您需要使用特定的本地端点，请使用 BindIPEndPointHandler。 |
+| [BindIPEndPointHandler](./bindipendpointhandler) | 如果需要使用特定的本地端点，请使用 BindIPEndPointHandler。 |
 | [CommandStatus](./commandstatus) | 表示操作的结果。 |
 | [EmailClient](./emailclient) | 表示使用主机凭据创建服务器连接的客户端。 |
 | [HttpProxy](./httpproxy) | HTTP 代理客户端。 |
-| [MessageInfoBase](./messageinfobase) | MessageInfo 表示从邮件服务器获取的 E-Mail 消息信息。 |
+| [MessageInfoBase](./messageinfobase) | MessageInfo 表示从邮件服务器获取的电子邮件信息。 |
 | [NameValuePair](./namevaluepair) | 扩展属性。 |
-| [NetworkException](./networkexception) | 如果网络连接失败则抛出。 |
+| [NetworkException](./networkexception) | 网络连接失败时抛出。 |
 | [OAuthNetworkCredential](./oauthnetworkcredential) | 表示用于 OAuth 身份验证的 NetworkCredential。 |
 | [OAuthToken](./oauthtoken) | 包含 OAuth 令牌数据，例如令牌值、令牌类型、到期日期。 |
 | [PageInfo](./pageinfo) | 包含有关使用分页方法时检索到的页面的信息。 |
 | [PipeliningStatus](./pipeliningstatus) | 定义邮件客户端的流水线状态。 |
-| [Proxy](./proxy) | 基础代理客户端。 |
-| [SocksProxy](./socksproxy) | SOCKS 代理客户端。 支持的协议版本是 SOCKS4 和 SOCKS5。 |
+| [Proxy](./proxy) | 基本代理客户端。 |
+| [SocksProxy](./socksproxy) | SOCKS 代理客户端。 支持的协议版本为 SOCKS4 和 SOCKS5。 |
 | [TokenProvider](./tokenprovider) | 类 TokenProvider 允许检索邮件服务的访问令牌。 |
 ## 接口
 
@@ -47,9 +47,9 @@ url: /zh/net/aspose.email.clients/
 | [ConnectionState](./connectionstate) | 描述连接的当前状态。 |
 | [HttpAuthenticationMethods](./httpauthenticationmethods) | HTTP 代理支持的认证方式 |
 | [MultiConnectionMode](./multiconnectionmode) | 枚举模式，指示客户端必须如何使用多个连接进行重负载操作。 |
-| [PipeliningMode](./pipeliningmode) | 定义邮件客户端如何支持管道 |
+| [PipeliningMode](./pipeliningmode) | 定义邮件客户端如何支持流水线 |
 | [SecurityOptions](./securityoptions) | 邮件客户端的安全模式 |
-| [SocksAuthenticationMethods](./socksauthenticationmethods) | SOCKS 协议支持的认证方式 |
+| [SocksAuthenticationMethods](./socksauthenticationmethods) | SOCKS协议支持的认证方式 |
 | [SocksVersion](./socksversion) | SOCKS 协议的版本 |
 | [TokenType](./tokentype) | 定义 OAuth 令牌类型 |
 

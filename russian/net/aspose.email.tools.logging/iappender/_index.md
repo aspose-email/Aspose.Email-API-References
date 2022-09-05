@@ -3,7 +3,7 @@ title: IAppender
 second_title: Справочник по Aspose.Email для .NET API
 description: Реализуйте этот интерфейс для собственных стратегий печати записей журнала.
 type: docs
-weight: 20450
+weight: 20500
 url: /ru/net/aspose.email.tools.logging/iappender/
 ---
 ## IAppender interface

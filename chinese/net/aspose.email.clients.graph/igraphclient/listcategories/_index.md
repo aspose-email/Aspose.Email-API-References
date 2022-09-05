@@ -16,7 +16,7 @@ public List<OutlookCategory> ListCategories()
 
 ### 返回值
 
-为用户返回类别列表
+返回用户的类别列表
 
 ### 也可以看看
 

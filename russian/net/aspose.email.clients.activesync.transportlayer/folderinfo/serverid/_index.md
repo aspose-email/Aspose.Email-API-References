@@ -1,14 +1,14 @@
 ---
 title: ServerId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор сервера папки на сервере
+description: Указывает идентификатор сервера папки на server
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/folderinfo/serverid/
 ---
 ## FolderInfo.ServerId property
 
-Указывает идентификатор сервера папки на сервере
+Указывает идентификатор сервера папки на server
 
 ```csharp
 public string ServerId { get; }

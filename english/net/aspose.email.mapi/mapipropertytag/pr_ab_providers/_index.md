@@ -1,7 +1,7 @@
 ---
 title: PR_AB_PROVIDERS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The PR_AB_PROVIDERS property contains a list of identifiers for address book providers in the current profile.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapipropertytag/pr_ab_providers/

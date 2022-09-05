@@ -1,14 +1,14 @@
 ---
 title: AppointmentProposedStartWhole
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает предлагаемое значение свойства PidLidAppointmentStartWhole раздел 2.29 для встречного предложения. ОбластьВстречи Каноническое имяPidLidAppointmentProposedStartWhole Альтернативные именаdispidApptProposedStartWhole
+description: Указывает предлагаемое значение свойства PidLidAppointmentStartWhole раздел 2.29 для встречного предложения. Область Meetings Каноническое имя PidLidAppointmentProposedStartWhole Альтернативные имена dispidApptProposedStartWhole
 type: docs
 weight: 1240
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentproposedstartwhole/
 ---
 ## KnownPropertyList.AppointmentProposedStartWhole field
 
-Указывает предлагаемое значение свойства PidLidAppointmentStartWhole (раздел 2.29) для встречного предложения. Область:Встречи Каноническое имя:PidLidAppointmentProposedStartWhole Альтернативные имена:dispidApptProposedStartWhole
+Указывает предлагаемое значение свойства PidLidAppointmentStartWhole (раздел 2.29) для встречного предложения. Область: Meetings Каноническое имя: PidLidAppointmentProposedStartWhole Альтернативные имена: dispidApptProposedStartWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentProposedStartWhole;

@@ -1,7 +1,7 @@
 ---
 title: TrustSender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the associated message was delivered through a trusted transport channel. Area MapiNonTransmittable Canonical name PidTagTrustSender Alternate names PR_TRUST_SENDER ptagTrustSender
 type: docs
 weight: 19140
 url: /net/aspose.email.mapi/knownpropertylist/trustsender/

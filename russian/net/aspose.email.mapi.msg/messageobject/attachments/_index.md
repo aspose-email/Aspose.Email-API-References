@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает вложения объектаMessageObjectaspose.email.mapi.msg/messageobject.
+description: Получает вложенияMessageObjectaspose.email.mapi.msg/messageobject .
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi.msg/messageobject/attachments/
 ---
 ## MessageObject.Attachments property
 
-Получает вложения объекта[`MessageObject`](../../messageobject).
+Получает вложения[`MessageObject`](../../messageobject) .
 
 ```csharp
 public MessageObjectAttachmentsCollection Attachments { get; }

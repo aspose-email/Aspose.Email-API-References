@@ -1,14 +1,14 @@
 ---
 title: WlinkGroupClsid
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает значение свойства PidTagWlinkGroupHeaderID раздел 2.1060 заголовка группы связанного с ярлыком. ОбластьКонфигурация Каноническое имяPidTagWlinkGroupClsid Альтернативные именаPR_WLINK_GROUP_CLSID
+description: Указывает значение свойства PidTagWlinkGroupHeaderID раздел 2.1060 заголовка группы связанного с ярлыком. Область Configuration Каноническое имя PidTagWlinkGroupClsid Альтернативные имена PR_WLINK_GROUP_CLSID
 type: docs
 weight: 19440
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkgroupclsid/
 ---
 ## KnownPropertyList.WlinkGroupClsid field
 
-Задает значение свойства PidTagWlinkGroupHeaderID (раздел 2.1060) заголовка группы, связанного с ярлыком. Область:Конфигурация Каноническое имя:PidTagWlinkGroupClsid Альтернативные имена:PR_WLINK_GROUP_CLSID
+Указывает значение свойства PidTagWlinkGroupHeaderID (раздел 2.1060) заголовка группы, связанного с ярлыком. Область: Configuration Каноническое имя: PidTagWlinkGroupClsid Альтернативные имена: PR_WLINK_GROUP_CLSID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkGroupClsid;

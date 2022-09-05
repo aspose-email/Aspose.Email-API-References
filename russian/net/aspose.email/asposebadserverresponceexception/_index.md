@@ -1,14 +1,14 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет ошибки возникающие при выполнении серверной операции.
+description: Представляет ошибки возникающие во время выполнения серверной операции.
 type: docs
 weight: 290
 url: /ru/net/aspose.email/asposebadserverresponceexception/
 ---
 ## AsposeBadServerResponceException class
 
-Представляет ошибки, возникающие при выполнении серверной операции.
+Представляет ошибки, возникающие во время выполнения серверной операции.
 
 ```csharp
 public class AsposeBadServerResponceException : AsposeException
@@ -18,10 +18,10 @@ public class AsposeBadServerResponceException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../asposebadserverresponceexception). |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../asposebadserverresponceexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../asposebadserverresponceexception)с указанным сообщением об ошибке. |
-| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../asposebadserverresponceexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor)() | Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../asposebadserverresponceexception) класс. |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../asposebadserverresponceexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../asposebadserverresponceexception) класс с указанным сообщением об ошибке. |
+| [AsposeBadServerResponceException](asposebadserverresponceexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../asposebadserverresponceexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
 ## Характеристики
 

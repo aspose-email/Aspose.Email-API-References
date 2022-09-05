@@ -1,14 +1,14 @@
 ---
 title: CommonEnd
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Message 对象的结束时间 区域常规消息属性 规范名称PidLidCommonEnd 替代名称dispidCommonEnd
+description: 指示消息对象的结束时间 区域常规消息属性 规范名称PidLidCommonEnd 替代名称dispidCommonEnd
 type: docs
 weight: 2780
 url: /zh/net/aspose.email.mapi/knownpropertylist/commonend/
 ---
 ## KnownPropertyList.CommonEnd field
 
-表示 Message 对象的结束时间。 区域:常规消息属性 规范名称:PidLidCommonEnd 替代名称:dispidCommonEnd
+指示消息对象的结束时间。 区域：常规消息属性 规范名称：PidLidCommonEnd 替代名称：dispidCommonEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CommonEnd;

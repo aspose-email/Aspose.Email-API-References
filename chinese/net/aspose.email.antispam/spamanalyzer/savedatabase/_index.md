@@ -34,7 +34,7 @@ public void SaveDatabase(string filePath)
 
 ## SaveDatabase(Stream) {#savedatabase}
 
-将贝叶斯数据库保存为流式传输。
+将贝叶斯数据库保存到流中。
 
 ```csharp
 public void SaveDatabase(Stream stream)
@@ -48,7 +48,7 @@ public void SaveDatabase(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
 
 ### 也可以看看
 

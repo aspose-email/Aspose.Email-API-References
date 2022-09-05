@@ -1,14 +1,14 @@
 ---
 title: OutlookCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаOutlookCategoryaspose.email.clients.graph/outlookcategory.
+description: Инициализирует новый экземплярOutlookCategoryaspose.email.clients.graph/outlookcategory класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.graph/outlookcategory/outlookcategory/
 ---
 ## OutlookCategory() {#constructor}
 
-Инициализирует новый экземпляр класса[`OutlookCategory`](../../outlookcategory).
+Инициализирует новый экземпляр[`OutlookCategory`](../../outlookcategory) класс.
 
 ```csharp
 public OutlookCategory()
@@ -24,7 +24,7 @@ public OutlookCategory()
 
 ## OutlookCategory(string, CategoryPreset) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OutlookCategory`](../../outlookcategory).
+Инициализирует новый экземпляр[`OutlookCategory`](../../outlookcategory) класс.
 
 ```csharp
 public OutlookCategory(string displayName, CategoryPreset preset)
@@ -32,8 +32,8 @@ public OutlookCategory(string displayName, CategoryPreset preset)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| displayName | String | Уникальное имя, определяющее категорию в почтовом ящике пользователя. |
-| preset | CategoryPreset | предустановленная цветовая константа, которая характеризует категорию и соответствует одному из 25 предопределенных цветов |
+| displayName | String | Уникальное имя, идентифицирующее категорию в почтовом ящике пользователя. |
+| preset | CategoryPreset | предустановленная цветовая константа, характеризующая категорию и сопоставленная с одним из 25 предопределенных цветов |
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public OutlookCategory(string displayName, CategoryPreset preset)
 
 ## OutlookCategory(string, string, CategoryPreset) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`OutlookCategory`](../../outlookcategory).
+Инициализирует новый экземпляр[`OutlookCategory`](../../outlookcategory) класс.
 
 ```csharp
 public OutlookCategory(string itemId, string displayName, CategoryPreset preset)
@@ -55,8 +55,8 @@ public OutlookCategory(string itemId, string displayName, CategoryPreset preset)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | itemId | String | Идентификатор элемента |
-| displayName | String | Уникальное имя, которое идентифицирует категория в почтовом ящике пользователя. |
-| preset | CategoryPreset | предустановленная цветовая константа, которая характеризует категорию и соответствует одному из 25 предопределенных цветов |
+| displayName | String | Уникальное имя, идентифицирующее категорию в почтовом ящике пользователя. |
+| preset | CategoryPreset | предустановленная цветовая константа, характеризующая категорию и сопоставленная с одним из 25 предопределенных цветов |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbUsnLastObjRem
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_USN_LAST_OBJ_REM
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_USN_LAST_OBJ_REM
 type: docs
 weight: 9390
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabusnlastobjrem/
 ---
 ## KnownPropertyList.EmsAbUsnLastObjRem field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_USN_LAST_OBJ_REM
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_USN_LAST_OBJ_REM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUsnLastObjRem;

@@ -19,9 +19,9 @@ public enum UserRole
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未指定用户角色 |
-| Reader | `1` | Reader 表示对笔记本的只读访问。 |
-| Contributor | `2` | Contributor 表示对笔记本的读/写访问。 |
-| Owner | `3` | Owner 代表对笔记本的所有者级访问权限。 |
+| Reader | `1` | Reader 代表对 notebook 的只读访问权限。 |
+| Contributor | `2` | Contributor 代表对 notebook 的读/写访问权限。 |
+| Owner | `3` | Owner 表示对笔记本的所有者级别的访问权限。 |
 
 ### 也可以看看
 

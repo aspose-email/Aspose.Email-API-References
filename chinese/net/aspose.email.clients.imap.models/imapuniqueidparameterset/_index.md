@@ -1,14 +1,14 @@
 ---
 title: ImapUniqueIdParameterSet
 second_title: Aspose.Email for .NET API 参考
-description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient方法参数集与一组消息唯一标识符
+description: 的IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient带有消息唯一标识符集的方法参数集
 type: docs
 weight: 16610
 url: /zh/net/aspose.email.clients.imap.models/imapuniqueidparameterset/
 ---
 ## ImapUniqueIdParameterSet class
 
-[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)方法参数集与一组消息唯一标识符。
+的[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)带有消息唯一标识符集的方法参数集。
 
 ```csharp
 public class ImapUniqueIdParameterSet : ImapMethodParametersGeneral<ImapUniqueIdParameterSet>
@@ -18,7 +18,7 @@ public class ImapUniqueIdParameterSet : ImapMethodParametersGeneral<ImapUniqueId
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapuniqueidparameterset/create)() | 创建[`ImapUniqueIdParameterSet`](../imapuniqueidparameterset)实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapuniqueidparameterset/create)() | 创建[`ImapUniqueIdParameterSet`](../imapuniqueidparameterset)实例. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetMessage](../../aspose.email.clients.imap.models/imapuniqueidparameterset/setmessage)(string) | 设置消息唯一标识符。 |

@@ -1,14 +1,14 @@
 ---
 title: ContainerModifyVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTAINER_MODIFY_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTAINER_MODIFY_VERSION
 type: docs
 weight: 3140
 url: /ru/net/aspose.email.mapi/knownpropertylist/containermodifyversion/
 ---
 ## KnownPropertyList.ContainerModifyVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTAINER_MODIFY_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTAINER_MODIFY_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerModifyVersion;

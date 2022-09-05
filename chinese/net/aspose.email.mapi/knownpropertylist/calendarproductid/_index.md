@@ -1,14 +1,14 @@
 ---
 title: CalendarProductId
 second_title: Aspose.Email for .NET API 参考
-description: 标识创建 iCalendar 格式流的产品 区域通用 规范名称PidNameCalendarProductId 备用名称urnschemascalendarprodid
+description: 标识创建 iCalendar 格式流的产品 区域Common 规范名称PidNameCalendarProductId 替代名称urnschemascalendarprodid
 type: docs
 weight: 2350
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarproductid/
 ---
 ## KnownPropertyList.CalendarProductId field
 
-标识创建 iCalendar 格式流的产品。 区域:通用 规范名称:PidNameCalendarProductId 备用名称:urn:schemas:calendar:prodid
+标识创建 iCalendar 格式流的产品。 区域：Common 规范名称：PidNameCalendarProductId 替代名称：urn:schemas:calendar:prodid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarProductId;

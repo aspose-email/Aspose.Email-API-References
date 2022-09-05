@@ -1,14 +1,14 @@
 ---
 title: Scheduled
 second_title: Aspose.Email for .NET API 参考
-description: 该文件夹包含使用 Outlook for iOS 中的计划功能计划重新出现在收件箱中的邮件
+description: 包含使用 Outlook for iOS 中的计划功能计划重新出现在收件箱中的邮件的文件夹
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.graph/knownfolders/scheduled/
 ---
 ## KnownFolders.Scheduled field
 
-该文件夹包含使用 Outlook for iOS 中的计划功能计划重新出现在收件箱中的邮件。
+包含使用 Outlook for iOS 中的计划功能计划重新出现在收件箱中的邮件的文件夹。
 
 ```csharp
 public static readonly string Scheduled;

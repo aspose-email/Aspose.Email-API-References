@@ -1,7 +1,7 @@
 ---
 title: SetCancellationToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the cancellation token
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/setcancellationtoken/

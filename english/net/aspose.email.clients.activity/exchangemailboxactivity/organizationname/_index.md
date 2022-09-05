@@ -1,7 +1,7 @@
 ---
 title: OrganizationName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the tenant.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/organizationname/

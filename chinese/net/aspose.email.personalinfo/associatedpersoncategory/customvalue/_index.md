@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/customvalue/
 ---
 ## AssociatedPersonCategory.CustomValue field
 
-'自定义'类别的字符串值
+“自定义”类别的字符串值
 
 ```csharp
 public const string CustomValue;

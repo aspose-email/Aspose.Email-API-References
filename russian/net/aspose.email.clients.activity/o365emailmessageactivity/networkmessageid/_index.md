@@ -1,14 +1,14 @@
 ---
 title: NetworkMessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор сетевого сообщения Exchange Online. ОбязательноДа
+description: Идентификатор сетевого сообщения Exchange Online. Обязательно Yes
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/networkmessageid/
 ---
 ## O365EmailMessageActivity.NetworkMessageId property
 
-Идентификатор сетевого сообщения Exchange Online. Обязательно:Да
+Идентификатор сетевого сообщения Exchange Online. Обязательно: Yes
 
 ```csharp
 public string NetworkMessageId { get; set; }

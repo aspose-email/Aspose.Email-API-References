@@ -1,7 +1,7 @@
 ---
 title: ExtendedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets dictionary with pairs of property descriptors and comparison field to search by extended properties.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/extendedproperties/

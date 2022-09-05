@@ -1,14 +1,14 @@
 ---
 title: DefaultEml
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает параметры со значениями по умолчанию для сохранения сообщения в формате Eml.
+description: Получает параметры со значениями по умолчанию для сохранения сообщения в формате EML.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/saveoptions/defaulteml/
 ---
 ## SaveOptions.DefaultEml property
 
-Получает параметры со значениями по умолчанию для сохранения сообщения в формате Eml.
+Получает параметры со значениями по умолчанию для сохранения сообщения в формате EML.
 
 ```csharp
 public static EmlSaveOptions DefaultEml { get; }

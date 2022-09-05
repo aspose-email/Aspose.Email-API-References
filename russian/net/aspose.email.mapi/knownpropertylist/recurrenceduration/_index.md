@@ -1,14 +1,14 @@
 ---
 title: RecurrenceDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет продолжительность встречи или собрания в минутах. ОбластьКалендарь Каноническое имяPidLidRecurrenceDuration Альтернативные имена
+description: Определяет продолжительность встречи или собрания в минутах. Область Calendar Каноническое имя PidLidRecurrenceDuration Альтернативные имена
 type: docs
 weight: 15580
 url: /ru/net/aspose.email.mapi/knownpropertylist/recurrenceduration/
 ---
 ## KnownPropertyList.RecurrenceDuration field
 
-Определяет продолжительность встречи или собрания в минутах. Область:Календарь Каноническое имя:PidLidRecurrenceDuration Альтернативные имена:
+Определяет продолжительность встречи или собрания в минутах. Область: Calendar Каноническое имя: PidLidRecurrenceDuration Альтернативные имена:
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrenceDuration;

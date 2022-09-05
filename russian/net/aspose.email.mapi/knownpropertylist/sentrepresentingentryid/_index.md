@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор конечного пользователя который представлен владельцем отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSentRepresentingEntryId Альтернативные именаPR_SENT_REPRESENTING_ENTRYID ptagSentRepresentingEntryId
+description: Содержит идентификатор конечного пользователя который представлен владельцем отправляющего почтового ящика. Область Свойства адреса Каноническое имя PidTagSentRepresentingEntryId Альтернативные имена PR_SENT_REPRESENTING_ENTRYID ptagSentRepresentingEntryId
 type: docs
 weight: 17240
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingentryid/
 ---
 ## KnownPropertyList.SentRepresentingEntryId field
 
-Содержит идентификатор конечного пользователя, который представлен владельцем отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSentRepresentingEntryId Альтернативные имена:PR_SENT_REPRESENTING_ENTRYID, ptagSentRepresentingEntryId
+Содержит идентификатор конечного пользователя, который представлен владельцем отправляющего почтового ящика. Область: Свойства адреса Каноническое имя: PidTagSentRepresentingEntryId Альтернативные имена: PR_SENT_REPRESENTING_ENTRYID, ptagSentRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingEntryId;

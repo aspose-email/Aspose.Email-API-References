@@ -1,7 +1,7 @@
 ---
 title: SentItemsFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for SentItems folder.
 type: docs
 weight: 330
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/sentitemsfolderservernotifications/

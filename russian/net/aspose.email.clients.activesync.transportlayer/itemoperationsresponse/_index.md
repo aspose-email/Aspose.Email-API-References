@@ -26,7 +26,7 @@ public class ItemOperationsResponse
 | --- | --- |
 | [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/emptyfoldercontents) { get; } | Идентифицирует тело ответа как содержащее операцию, удаляющую содержимое папки. |
 | [Fetch](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/fetch) { get; } | Содержит ответ о получении элементов с сервера. |
-| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move) { get; } | Идентифицирует тело ответа как содержащее операцию, перемещающую данный диалог. Элемент Move не поддерживается при версии протокола 12.1. |
+| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move) { get; } | Идентифицирует тело ответа как содержащее операцию, которая перемещает данный диалог. Элемент Move не поддерживается, если версия протокола 12.1. |
 
 ### Смотрите также
 

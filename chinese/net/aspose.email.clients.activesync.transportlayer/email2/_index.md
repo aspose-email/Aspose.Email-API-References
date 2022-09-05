@@ -25,10 +25,10 @@ public enum Email2
 | ConversationId | `9` | 指定对话的唯一标识符。 |
 | ConversationIndex | `10` | 指定客户端用来生成对话树视图的一组日期和时间。 |
 | LastVerbExecuted | `11` | 指定对消息执行的最后一个操作，例如回复或转发，以便客户端可以显示相关图标。 |
-| LastVerbExecutionTime | `12` | 指定对消息执行 email2:LastVerbExecuted 的时间。 |
+| LastVerbExecutionTime | `12` | 指定对邮件执行 email2:LastVerbExecuted 的时间。 |
 | ReceivedAsBcc | `13` | 指定收件人是否在邮件中被密件抄送。 |
 | Sender | `14` | 当消息不是由 From 标识的用户发送时，指定实际发送消息的用户。 |
-| CalendarType | `15` | 指定与循环关联的日历类型。 |
+| CalendarType | `15` | 指定与重复相关的日历类型。 |
 | IsLeapMonth | `16` | 指定重复是否发生在给定年份的闰月。 |
 | AccountId | `17` | 指定接收消息的帐户的 ID。 |
 | FirstDayOfWeek | `18` | 指定此重复周期的日历周的第一天。 |

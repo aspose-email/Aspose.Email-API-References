@@ -16,7 +16,7 @@ public static Contact Load(string filePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | путь к файлу |
+| filePath | String | Путь к файлу |
 
 ### Возвращаемое значение
 
@@ -40,12 +40,12 @@ public static Contact Load(string filePath, ContactLoadFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | путь к файлу |
-| format | ContactLoadFormat | Представляет формат контакта |
+| filePath | String | Путь к файлу |
+| format | ContactLoadFormat | Представляет контактный формат |
 
 ### Возвращаемое значение
 
-Возвращает объект контакта
+Возвращает контактный объект
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public static Contact Load(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток контактов |
+| stream | Stream | Контактный поток |
 
 ### Возвращаемое значение
 
@@ -90,12 +90,12 @@ public static Contact Load(Stream stream, ContactLoadFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток контактов |
-| format | ContactLoadFormat | Представляет формат контакта |
+| stream | Stream | Контактный поток |
+| format | ContactLoadFormat | Представляет контактный формат |
 
 ### Возвращаемое значение
 
-Возвращает объект контакта
+Возвращает контактный объект
 
 ### Смотрите также
 

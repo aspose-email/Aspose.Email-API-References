@@ -1,14 +1,14 @@
 ---
 title: PictureRespose
 second_title: Aspose.Email for .NET API 参考
-description: 包含与联系人照片相关的数据 协议版本为12.1或14.0时不支持图片
+description: 包含与联系人照片相关的数据 协议版本为 12.1 或 14.0 时不支持图片
 type: docs
 weight: 1680
 url: /zh/net/aspose.email.clients.activesync.transportlayer/picturerespose/
 ---
 ## PictureRespose class
 
-包含与联系人照片相关的数据。 协议版本为12.1或14.0时不支持图片。
+包含与联系人照片相关的数据。 协议版本为 12.1 或 14.0 时不支持图片。
 
 ```csharp
 public class PictureRespose
@@ -24,7 +24,7 @@ public class PictureRespose
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.clients.activesync.transportlayer/picturerespose/data) { get; set; } | 包含联系人照片的二进制数据。 协议版本为 12.1 或 14.0 时不支持数据。 |
+| [Data](../../aspose.email.clients.activesync.transportlayer/picturerespose/data) { get; set; } | 包含联系人照片的二进制数据。 协议版本为12.1或14.0时不支持数据。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/picturerespose/status) { get; set; } | 表示 ActiveSync 命令请求的结果。 |
 
 ### 也可以看看

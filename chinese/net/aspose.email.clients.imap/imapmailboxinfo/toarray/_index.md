@@ -16,7 +16,7 @@ public ImapFolderInfo[] ToArray()
 
 ### 返回值
 
-[`ImapFolderInfo`](../../imapfolderinfo)对象数组
+数组[`ImapFolderInfo`](../../imapfolderinfo)对象
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RoamingXmlStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит поток XML как указано в разделе 2.2.5.2 MS-OXOCFG. ОбластьКонфигурация Каноническое имяPidTagRoamingXmlStream Альтернативные именаPR_ROAMING_XMLSTREAM
+description: Содержит поток XML как указано в MS-OXOCFG раздел 2.2.5.2. Область Configuration Каноническое имя PidTagRoamingXmlStream Альтернативные имена PR_ROAMING_XMLSTREAM
 type: docs
 weight: 16330
 url: /ru/net/aspose.email.mapi/knownpropertylist/roamingxmlstream/
 ---
 ## KnownPropertyList.RoamingXmlStream field
 
-Содержит поток XML, как указано в разделе 2.2.5.2 [MS-OXOCFG]. Область:Конфигурация Каноническое имя:PidTagRoamingXmlStream Альтернативные имена:PR_ROAMING_XMLSTREAM
+Содержит поток XML, как указано в [MS-OXOCFG], раздел 2.2.5.2. Область: Configuration Каноническое имя: PidTagRoamingXmlStream Альтернативные имена: PR_ROAMING_XMLSTREAM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingXmlStream;

@@ -1,14 +1,14 @@
 ---
 title: EmsAbInboundHost
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_INBOUND_HOST
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_INBOUND_HOST
 type: docs
 weight: 6790
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabinboundhost/
 ---
 ## KnownPropertyList.EmsAbInboundHost field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_INBOUND_HOST
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_INBOUND_HOST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbInboundHost;

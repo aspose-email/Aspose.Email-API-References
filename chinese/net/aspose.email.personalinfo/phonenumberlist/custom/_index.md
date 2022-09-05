@@ -1,14 +1,14 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API 参考
-description: 默认自定义电话类别
+description: 默认自定义手机类别
 type: docs
 weight: 70
 url: /zh/net/aspose.email.personalinfo/phonenumberlist/custom/
 ---
 ## PhoneNumberList.Custom property
 
-默认自定义电话类别
+默认自定义手机类别
 
 ```csharp
 public string Custom { get; set; }

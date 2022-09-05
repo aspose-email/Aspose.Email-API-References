@@ -1,7 +1,7 @@
 ---
 title: Email2OriginalDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the SMTP email address that corresponds to the email address for the Contact object. Area Contact Properties Canonical name PidLidEmail2OriginalDisplayName Alternate names dispidEmail2OriginalDisplayName
 type: docs
 weight: 4400
 url: /net/aspose.email.mapi/knownpropertylist/email2originaldisplayname/

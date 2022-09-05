@@ -1,7 +1,7 @@
 ---
 title: LastModificationTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the last modification time.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/folderinfo/lastmodificationtime/

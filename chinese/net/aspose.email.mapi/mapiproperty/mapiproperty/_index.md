@@ -58,7 +58,7 @@ public MapiProperty(PidTagPropertyDescriptor pd, object data)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pd | PidTagPropertyDescriptor | 属性描述符 |
-| data | Object | 属性的数据. |
+| data | Object | 属性的数据。 |
 
 ### 也可以看看
 
@@ -80,7 +80,7 @@ public MapiProperty(PidLidPropertyDescriptor pd, object data)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pd | PidLidPropertyDescriptor | 属性描述符 |
-| data | Object | 属性的数据. |
+| data | Object | 属性的数据。 |
 
 ### 也可以看看
 
@@ -93,7 +93,7 @@ public MapiProperty(PidLidPropertyDescriptor pd, object data)
 
 ## MapiProperty(long, IList&lt;object&gt;) {#constructor_5}
 
-初始化[`MapiProperty`](../../mapiproperty)类的新实例。 此重载用于创建多值属性 PT_MV_*。
+初始化[`MapiProperty`](../../mapiproperty) class. 此重载用于创建多值属性，PT_MV_*.
 
 ```csharp
 public MapiProperty(long tag, IList<object> values)
@@ -102,7 +102,7 @@ public MapiProperty(long tag, IList<object> values)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | 属性标记。 |
-| values | IList`1 | 值。 |
+| values | IList`1 | 价值。 |
 
 ### 也可以看看
 
@@ -114,7 +114,7 @@ public MapiProperty(long tag, IList<object> values)
 
 ## MapiProperty(long, long, byte[]) {#constructor_4}
 
-初始化[`MapiProperty`](../../mapiproperty)类的新实例。
+初始化[`MapiProperty`](../../mapiproperty)类.
 
 ```csharp
 public MapiProperty(long tag, long signedParam, byte[] data)
@@ -123,7 +123,7 @@ public MapiProperty(long tag, long signedParam, byte[] data)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | 属性标记。 |
-| signedParam | Int64 | 已签名。 |
+| signedParam | Int64 | 签署的。 |
 | data | Byte[] | 属性数据。 |
 
 ### 也可以看看
@@ -144,9 +144,9 @@ public MapiProperty(string name, long tag, long signedParam, byte[] data)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 名称。 |
+| name | String | 名字。 |
 | tag | Int64 | 属性的标签键。 |
-| signedParam | Int64 | 表示数据是否签名。 |
+| signedParam | Int64 | 指示数据是否已签名。 |
 | data | Byte[] | 属性的二进制数据。 |
 
 ### 也可以看看

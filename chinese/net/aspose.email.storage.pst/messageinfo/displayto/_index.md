@@ -1,14 +1,14 @@
 ---
 title: DisplayTo
 second_title: Aspose.Email for .NET API 参考
-description: 获取 To行
+description: 获取收件人行
 type: docs
 weight: 30
 url: /zh/net/aspose.email.storage.pst/messageinfo/displayto/
 ---
 ## MessageInfo.DisplayTo property
 
-获取 To:行。
+获取收件人：行。
 
 ```csharp
 public string DisplayTo { get; }
@@ -16,7 +16,7 @@ public string DisplayTo { get; }
 
 ### 适当的价值
 
-显示到。
+显示到.
 
 ### 也可以看看
 

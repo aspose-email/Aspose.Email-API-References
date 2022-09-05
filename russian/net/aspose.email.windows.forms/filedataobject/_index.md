@@ -3,7 +3,7 @@ title: FileDataObject
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет данные файла.
 type: docs
-weight: 20830
+weight: 20880
 url: /ru/net/aspose.email.windows.forms/filedataobject/
 ---
 ## FileDataObject class

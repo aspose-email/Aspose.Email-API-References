@@ -1,7 +1,7 @@
 ---
 title: RequiredScript
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Required script that muct be added to head section.
 type: docs
 weight: 40
 url: /net/aspose.email.amp/ampaccordion/requiredscript/

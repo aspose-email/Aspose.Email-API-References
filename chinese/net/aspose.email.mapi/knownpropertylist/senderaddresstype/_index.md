@@ -1,14 +1,14 @@
 ---
 title: SenderAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含发送邮箱所有者的电子邮件地址类型 区域地址属性 规范名称PidTagSenderAddressType 备用名称PR_SENDER_ADDRTYPE PR_SENDER_ADDRTYPE_A ptagSenderAddrType PR_SENDER_ADDRTYPE_W
+description: 包含发送邮箱所有者的电子邮件地址类型 区域地址属性 规范名称PidTagSenderAddressType 备用名称PR_SENDER_ADDRTYPEPR_SENDER_ADDRTYPE_AptagSenderAddrTypePR_SENDER_ADDRTYPE_W
 type: docs
 weight: 17090
 url: /zh/net/aspose.email.mapi/knownpropertylist/senderaddresstype/
 ---
 ## KnownPropertyList.SenderAddressType field
 
-包含发送邮箱所有者的电子邮件地址类型。 区域:地址属性 规范名称:PidTagSenderAddressType 备用名称:PR_SENDER_ADDRTYPE, PR_SENDER_ADDRTYPE_A, ptagSenderAddrType, PR_SENDER_ADDRTYPE_W
+包含发送邮箱所有者的电子邮件地址类型。 区域：地址属性 规范名称：PidTagSenderAddressType 备用名称：PR_SENDER_ADDRTYPE、PR_SENDER_ADDRTYPE_A、ptagSenderAddrType、PR_SENDER_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderAddressType;

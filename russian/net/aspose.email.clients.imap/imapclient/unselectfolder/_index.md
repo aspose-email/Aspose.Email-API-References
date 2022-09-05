@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/imapclient/unselectfolder/
 ---
 ## UnselectFolder(IConnection) {#unselectfolder_1}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public void UnselectFolder(IConnection connection)
@@ -29,7 +29,7 @@ public void UnselectFolder(IConnection connection)
 
 ## UnselectFolder() {#unselectfolder}
 
-Безвозвратно удаляет все сообщения, помеченные как удаленные для текущей выбранной папки, и удаляет выбранное состояние для этой папки.
+Безвозвратно удаляет все сообщения, помеченные как удаленные, для текущей выбранной папки и удаляет выбранное состояние для этой папки.
 
 ```csharp
 public void UnselectFolder()
@@ -45,7 +45,7 @@ public void UnselectFolder()
 
 ## UnselectFolder(IConnection, bool) {#unselectfolder_2}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public void UnselectFolder(IConnection connection, bool doNotExpunge)
@@ -53,7 +53,7 @@ public void UnselectFolder(IConnection connection, bool doNotExpunge)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | doNotExpunge | Boolean | Указывает, следует ли удалять сообщения, помеченные как удаленные. |
 
 ### Смотрите также
@@ -67,7 +67,7 @@ public void UnselectFolder(IConnection connection, bool doNotExpunge)
 
 ## UnselectFolder(bool) {#unselectfolder_3}
 
-Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения, помеченные как удаленные, удаляются, иначе удаление отменяется. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC3691 Подробнее https://tools.ietf.org/html/rfc3691
+Отменяет выбор папки, которая выбрана в данный момент. если свойство doNotExpunge равно true, все сообщения помечаются как удаленные, удаляются, в противном случае удаление отменяется. ietf.org/html/rfc3691
 
 ```csharp
 public void UnselectFolder(bool doNotExpunge)

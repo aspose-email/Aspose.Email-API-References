@@ -1,7 +1,7 @@
 ---
 title: ForwardInstance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the Meeting Request object represents an exception to a recurring invitation sent by the organizer. Area Meetings Canonical name PidLidForwardInstance Alternate names dispidFwrdInstance
 type: docs
 weight: 10600
 url: /net/aspose.email.mapi/knownpropertylist/forwardinstance/

@@ -1,14 +1,14 @@
 ---
 title: LeaveStreamOpen
 second_title: Справочник по Aspose.Email для .NET API
-description: Оставить поток открытым при удалении PersonalStorage. Всегда должно быть false если используется методFromFileaspose.email.storage.pst/personalstorage/fromfile.
+description: Оставить поток открытым при удалении PersonalStorage. Всегда должно быть ложным когдаFromFileaspose.email.storage.pst/personalstorage/fromfile используется метод.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen/
 ---
 ## PersonalStorageLoadOptions.LeaveStreamOpen property
 
-Оставить поток открытым при удалении PersonalStorage. Всегда должно быть false, если используется метод[`FromFile`](../../personalstorage/fromfile).
+Оставить поток открытым при удалении PersonalStorage. Всегда должно быть ложным, когда[`FromFile`](../../personalstorage/fromfile) используется метод.
 
 ```csharp
 public bool LeaveStreamOpen { get; set; }

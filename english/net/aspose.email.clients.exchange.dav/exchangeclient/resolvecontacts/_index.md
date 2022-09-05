@@ -1,7 +1,7 @@
 ---
 title: ResolveContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resolves ambiguous mailbox display names. Note the maximum count of returned contacts is 100. This is a restriction of used exchange command.
 type: docs
 weight: 340
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/resolvecontacts/

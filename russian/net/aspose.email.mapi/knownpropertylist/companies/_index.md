@@ -1,14 +1,14 @@
 ---
 title: Companies
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список названий компаний каждое из которых связано с контактом указанным в свойстве PidLidContacts MS-OXCMSG раздел 2.2.1.57.2 . ОбластьОбщие свойства сообщения Каноническое имяPidLidCompanies Альтернативные именаdispidCompanies http//schemas.microsoft.com/exchange/companies
+description: Содержит список названий компаний каждое из которых связано с контактом указанным в свойстве PidLidContacts MS-OXCMSG раздел 2.2.1.57.2. Область Общие свойства сообщения Каноническое имя PidLidCompanies Альтернативные имена dispidCompanies http//schemas.microsoft.com/exchange/companies
 type: docs
 weight: 2810
 url: /ru/net/aspose.email.mapi/knownpropertylist/companies/
 ---
 ## KnownPropertyList.Companies field
 
-Содержит список названий компаний, каждое из которых связано с контактом, указанным в свойстве PidLidContacts ([MS-OXCMSG], раздел 2.2.1.57.2) . Область:Общие свойства сообщения Каноническое имя:PidLidCompanies Альтернативные имена:dispidCompanies, http://schemas.microsoft.com/exchange/companies
+Содержит список названий компаний, каждое из которых связано с контактом, указанным в свойстве PidLidContacts ([MS-OXCMSG], раздел 2.2.1.57.2). Область: Общие свойства сообщения Каноническое имя: PidLidCompanies Альтернативные имена: dispidCompanies, http://schemas.microsoft.com/exchange/companies
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Companies;

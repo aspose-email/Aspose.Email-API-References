@@ -1,12 +1,12 @@
 ---
 title: AttachSignature
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a signed message. Creates a readonly copy of the specified MailMessage and adds a digital signature to it.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email/mailmessage/attachsignature/
 ---
-## MailMessage.AttachSignature method (1 of 4)
+## AttachSignature(X509Certificate2, bool) {#attachsignature_3}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -27,7 +27,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 ---
 
-## MailMessage.AttachSignature method (2 of 4)
+## AttachSignature(CmsSigner, bool) {#attachsignature_1}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -52,7 +52,7 @@ The signed MailMessage.
 
 ---
 
-## MailMessage.AttachSignature method (3 of 4)
+## AttachSignature(X509Certificate2) {#attachsignature_2}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -76,7 +76,7 @@ The signed MailMessage.
 
 ---
 
-## MailMessage.AttachSignature method (4 of 4)
+## AttachSignature(CmsSigner) {#attachsignature}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 

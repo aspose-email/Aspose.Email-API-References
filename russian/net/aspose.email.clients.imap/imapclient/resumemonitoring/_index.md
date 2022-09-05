@@ -1,14 +1,14 @@
 ---
 title: ResumeMonitoring
 second_title: Справочник по Aspose.Email для .NET API
-description: Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring он найдет все отсутствующие изменения почтового ящика и вызовет для них обратный вызов .
+description: Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring он найдет все отсутствующие изменения почтового ящика и вызовет обратный вызов для них.
 type: docs
 weight: 1070
 url: /ru/net/aspose.email.clients.imap/imapclient/resumemonitoring/
 ---
 ## ImapClient.ResumeMonitoring method
 
-Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring, он найдет все отсутствующие изменения почтового ящика и вызовет для них обратный вызов .
+Возобновляет мониторинг изменений сообщений для указанной папки. В отличие от метода StartMonitoring, он найдет все отсутствующие изменения почтового ящика и вызовет обратный вызов для них.
 
 ```csharp
 public void ResumeMonitoring(ImapMonitoringEventHandler callback, 
@@ -17,9 +17,9 @@ public void ResumeMonitoring(ImapMonitoringEventHandler callback,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| callback | ImapMonitoringEventHandler | Функция обратного вызова для мониторинга работы. |
+| callback | ImapMonitoringEventHandler | Функция обратного вызова для контроля работы. |
 | errorCallback | ImapMonitoringErrorEventHandler | Функция обратного вызова для мониторинга обработки ошибок. Мониторинг указанной папки останавливается при вызове этого обратного вызова. |
-| monitoringState | IImapMonitoringState | Состояние мониторинга, из которого возобновляется мониторинг папки. Можно получить из[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate). |
+| monitoringState | IImapMonitoringState | Состояние мониторинга для возобновления мониторинга папки. Можно получить из[`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate) . |
 
 ### Смотрите также
 

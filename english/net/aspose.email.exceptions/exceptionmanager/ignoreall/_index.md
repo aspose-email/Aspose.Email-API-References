@@ -1,7 +1,7 @@
 ---
 title: IgnoreAll
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Ignore all exceptions.
 type: docs
 weight: 10
 url: /net/aspose.email.exceptions/exceptionmanager/ignoreall/

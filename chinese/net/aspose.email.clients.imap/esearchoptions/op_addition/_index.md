@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Aspose.Email for .NET API 参考
-description: 加运算定义
+description: 加号操作已定义
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.imap/esearchoptions/op_addition/
 ---
 ## ESearchOptions Addition operator
 
-加运算定义
+加号操作已定义
 
 ```csharp
 public static ESearchOptions operator +(ESearchOptions val1, ESearchOptions val2)

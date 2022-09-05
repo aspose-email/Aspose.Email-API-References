@@ -1,14 +1,14 @@
 ---
 title: Since
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату сообщения с  которой соответствуют критерии поиска.
+description: Получает или задает дату сообщения начиная с  которая соответствует критериям поиска.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/basesearchconditions/since/
 ---
 ## BaseSearchConditions.Since property
 
-Получает или задает дату сообщения с , которой соответствуют критерии поиска.
+Получает или задает дату сообщения начиная с , которая соответствует критериям поиска.
 
 ```csharp
 public DateTime? Since { get; set; }

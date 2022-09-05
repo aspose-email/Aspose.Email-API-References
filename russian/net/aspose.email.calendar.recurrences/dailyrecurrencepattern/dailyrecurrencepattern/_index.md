@@ -1,14 +1,14 @@
 ---
 title: DailyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаDailyRecurrencePatternaspose.email.calendar.recurrences/dailyrecurrencepattern.
+description: Инициализирует новый экземплярDailyRecurrencePatternaspose.email.calendar.recurrences/dailyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/dailyrecurrencepattern/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern(DateTime) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../../dailyrecurrencepattern).
+Инициализирует новый экземпляр[`DailyRecurrencePattern`](../../dailyrecurrencepattern) класс.
 
 ```csharp
 public DailyRecurrencePattern(DateTime endDate)
@@ -28,7 +28,7 @@ public DailyRecurrencePattern(DateTime endDate)
 
 ## DailyRecurrencePattern(int) {#constructor}
 
-Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../../dailyrecurrencepattern).
+Инициализирует новый экземпляр[`DailyRecurrencePattern`](../../dailyrecurrencepattern) класс.
 
 ```csharp
 public DailyRecurrencePattern(int occurs)
@@ -36,7 +36,7 @@ public DailyRecurrencePattern(int occurs)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| occurs | Int32 | Значение Int32, представляющее количество вхождений. |
+| occurs | Int32 | Значение Int32, представляющее число вхождений. |
 
 ### Смотрите также
 
@@ -48,7 +48,7 @@ public DailyRecurrencePattern(int occurs)
 
 ## DailyRecurrencePattern(DateTime, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../../dailyrecurrencepattern).
+Инициализирует новый экземпляр[`DailyRecurrencePattern`](../../dailyrecurrencepattern) класс.
 
 ```csharp
 public DailyRecurrencePattern(DateTime endDate, int interval)
@@ -69,7 +69,7 @@ public DailyRecurrencePattern(DateTime endDate, int interval)
 
 ## DailyRecurrencePattern(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../../dailyrecurrencepattern).
+Инициализирует новый экземпляр[`DailyRecurrencePattern`](../../dailyrecurrencepattern) класс.
 
 ```csharp
 public DailyRecurrencePattern(int occurs, int interval)
@@ -77,7 +77,7 @@ public DailyRecurrencePattern(int occurs, int interval)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| occurs | Int32 | Значение Int32, представляющее количество вхождений. |
+| occurs | Int32 | Значение Int32, представляющее число вхождений. |
 | interval | Int32 | Количество единиц повторения. |
 
 ### Смотрите также

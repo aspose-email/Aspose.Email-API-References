@@ -1,7 +1,7 @@
 ---
 title: DescriptionFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the description format.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/appointmentformattingoptions/descriptionformat/

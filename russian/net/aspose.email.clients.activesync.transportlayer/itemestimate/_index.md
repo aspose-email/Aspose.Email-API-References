@@ -25,7 +25,7 @@ public class ItemEstimate
 
 | Имя | Описание |
 | --- | --- |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimate/collectionid) { get; } | Указывает идентификатор сервера коллекции, из которой получается оценка элемента. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimate/collectionid) { get; } | Указывает идентификатор сервера коллекции, из которой получена оценка элемента. |
 | [Estimate](../../aspose.email.clients.activesync.transportlayer/itemestimate/estimate) { get; } | Указывает предполагаемое количество элементов в коллекции или папке, которые необходимо синхронизировать. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/itemestimate/status) { get; } | Указывает результат операции. |
 

@@ -1,14 +1,14 @@
 ---
 title: FreeBusyMessageEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 指定此忙/闲消息适用的用户或资源的电子邮件地址 区域MessageClassDefinedTransmittable 规范名称PidTagFreeBusyMessageEmailAddress 备用名称PR_FREEBUSY_EMA
+description: 指定应用此忙/闲消息的用户或资源的电子邮件地址 区域MessageClassDefinedTransmittable 规范名称PidTagFreeBusyMessageEmailAddress 备用名称PR_FREEBUSY_EMA
 type: docs
 weight: 10670
 url: /zh/net/aspose.email.mapi/knownpropertylist/freebusymessageemailaddress/
 ---
 ## KnownPropertyList.FreeBusyMessageEmailAddress field
 
-指定此忙/闲消息适用的用户或资源的电子邮件地址。 区域:MessageClassDefinedTransmittable 规范名称:PidTagFreeBusyMessageEmailAddress 备用名称:PR_FREEBUSY_EMA
+指定应用此忙/闲消息的用户或资源的电子邮件地址。 区域：MessageClassDefinedTransmittable 规范名称：PidTagFreeBusyMessageEmailAddress 备用名称：PR_FREEBUSY_EMA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyMessageEmailAddress;

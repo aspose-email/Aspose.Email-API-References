@@ -1,14 +1,14 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息正文的纯文本表示 如果消息中存在 text/plain 部分则属性返回其文本数据 否则属性返回不带 html 标记的 HtmlBody 属性的文本内容
+description: 获取或设置消息正文的纯文本表示形式 如果消息中存在 text/plain 部分则属性返回其文本数据 否则属性返回不带 html 标记的 HtmlBody 属性的文本内容
 type: docs
 weight: 60
 url: /zh/net/aspose.email/mailmessage/body/
 ---
 ## MailMessage.Body property
 
-获取或设置消息正文的纯文本表示。 如果消息中存在 text/plain 部分，则属性返回其文本数据。 否则，属性返回不带 html 标记的 HtmlBody 属性的文本内容。
+获取或设置消息正文的纯文本表示形式。 如果消息中存在 text/plain 部分，则属性返回其文本数据。 否则，属性返回不带 html 标记的 HtmlBody 属性的文本内容。
 
 ```csharp
 public virtual string Body { get; set; }

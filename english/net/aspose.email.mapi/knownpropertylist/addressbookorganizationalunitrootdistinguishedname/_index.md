@@ -1,7 +1,7 @@
 ---
 title: AddressBookOrganizationalUnitRootDistinguishedName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the DN of the Organization object of the mail users organization. Area Address Book Canonical name PidTagAddressBookOrganizationalUnitRootDistinguishedName Alternate names PR_EMS_AB_ORG_UNIT_ROOT_DN msExchOURoot
 type: docs
 weight: 790
 url: /net/aspose.email.mapi/knownpropertylist/addressbookorganizationalunitrootdistinguishedname/

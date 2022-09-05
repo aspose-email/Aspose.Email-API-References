@@ -1,14 +1,14 @@
 ---
 title: ConnectionCheckupPeriod
 second_title: Справочник по Aspose.Email для .NET API
-description: Период проверки соединения в миллисекундах. Значение по умолчанию5 мин.
+description: Период проверки соединения в миллисекундах. Значение по умолчанию 5 мин.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients/emailclient/connectioncheckupperiod/
 ---
 ## EmailClient.ConnectionCheckupPeriod property
 
-Период проверки соединения в миллисекундах. Значение по умолчанию:5 мин.
+Период проверки соединения в миллисекундах. Значение по умолчанию: 5 мин.
 
 ```csharp
 public virtual int ConnectionCheckupPeriod { get; set; }

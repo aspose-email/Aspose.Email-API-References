@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a categories information
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/categories/

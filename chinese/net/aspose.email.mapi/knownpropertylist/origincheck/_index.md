@@ -1,14 +1,14 @@
 ---
 title: OriginCheck
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ORIGIN_CHECK
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ORIGIN_CHECK
 type: docs
 weight: 13910
 url: /zh/net/aspose.email.mapi/knownpropertylist/origincheck/
 ---
 ## KnownPropertyList.OriginCheck field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ORIGIN_CHECK
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ORIGIN_CHECK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginCheck;

@@ -1,14 +1,14 @@
 ---
 title: ProfileMoabGuid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_MOAB_GUID
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROFILE_MOAB_GUID
 type: docs
 weight: 14800
 url: /zh/net/aspose.email.mapi/knownpropertylist/profilemoabguid/
 ---
 ## KnownPropertyList.ProfileMoabGuid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_MOAB_GUID
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROFILE_MOAB_GUID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileMoabGuid;

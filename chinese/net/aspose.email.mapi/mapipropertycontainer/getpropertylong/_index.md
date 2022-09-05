@@ -1,14 +1,14 @@
 ---
 title: GetPropertyLong
 second_title: Aspose.Email for .NET API 参考
-description: 获取 tag 指定的属性值为 Long int64 类型
+description: 获取tag指定的属性值为Longint64类型
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/getpropertylong/
 ---
 ## MapiPropertyContainer.GetPropertyLong method
 
-获取 tag 指定的属性值，为 Long (int64) 类型。
+获取tag指定的属性值为Long(int64)类型。
 
 ```csharp
 public long? GetPropertyLong(long tag)
@@ -20,7 +20,7 @@ public long? GetPropertyLong(long tag)
 
 ### 返回值
 
-属性的值。如果属性不存在，返回NULL； 否则，返回值。
+财产的价值。如果属性不存在，返回NULL； 否则，返回值。
 
 ### 也可以看看
 

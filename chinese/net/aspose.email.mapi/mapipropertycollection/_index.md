@@ -3,7 +3,7 @@ title: MapiPropertyCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MapiProperty 项的集合
 type: docs
-weight: 18540
+weight: 18570
 url: /zh/net/aspose.email.mapi/mapipropertycollection/
 ---
 ## MapiPropertyCollection class
@@ -18,17 +18,17 @@ public class MapiPropertyCollection : IDictionary<long, MapiProperty>, INamedPro
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiPropertyCollection](mapipropertycollection)() | 创建 MapiProperty 类的新实例。 |
+| [MapiPropertyCollection](mapipropertycollection)() | 创建类 MapiProperty. 的新实例 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.email.mapi/mapipropertycollection/count) { get; } | 获取集合中包含的元素数。 |
-| [IsReadOnly](../../aspose.email.mapi/mapipropertycollection/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| [IsReadOnly](../../aspose.email.mapi/mapipropertycollection/isreadonly) { get; } | 获取一个表示集合是否为只读的值。 |
 | [Item](../../aspose.email.mapi/mapipropertycollection/item) { get; set; } | 获取或设置与指定键关联的值。 (2 indexers) |
-| [Keys](../../aspose.email.mapi/mapipropertycollection/keys) { get; } | 获取 System.Collections.Generic.ICollection&lt;long&gt;包含集合中的键。 |
-| [Values](../../aspose.email.mapi/mapipropertycollection/values) { get; } | 获取 System.Collections.Generic.ICollection&lt;MapiProperty&gt;;包含集合中的值。 |
+| [Keys](../../aspose.email.mapi/mapipropertycollection/keys) { get; } | 获取包含集合中的键的 System.Collections.Generic.ICollection&lt;long&gt;。 |
+| [Values](../../aspose.email.mapi/mapipropertycollection/values) { get; } | 获取包含集合中的值的 System.Collections.Generic.ICollection&lt;MapiProperty&gt;。 |
 
 ## 方法
 
@@ -45,7 +45,7 @@ public class MapiPropertyCollection : IDictionary<long, MapiProperty>, INamedPro
 | virtual [GetProperty](../../aspose.email.mapi/mapipropertycollection/getproperty)(PropertyDescriptor) | 通过属性描述符获取 MAPI 属性。 |
 | [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove_2)(KeyValuePair&lt;long, MapiProperty&gt;) |  |
 | [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove_1)(long) | 从集合中删除具有指定标记的属性。 |
-| [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove)(PropertyDescriptor) | 从集合中移除具有指定属性描述符的属性。 |
+| [Remove](../../aspose.email.mapi/mapipropertycollection/remove#remove)(PropertyDescriptor) | 从集合中删除具有指定属性描述符的属性。 |
 | [TryGetValue](../../aspose.email.mapi/mapipropertycollection/trygetvalue)(long, out MapiProperty) | 获取与指定标签关联的属性。 |
 
 ### 也可以看看

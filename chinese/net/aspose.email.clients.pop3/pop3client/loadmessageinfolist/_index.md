@@ -16,7 +16,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<int> sequenceNu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
 
 ### 返回值
 
@@ -43,7 +43,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumberList | IEnumerable`1 | 消息的序列号列表 |
+| sequenceNumberList | IEnumerable`1 | 消息的序号列表 |
 
 ### 返回值
 

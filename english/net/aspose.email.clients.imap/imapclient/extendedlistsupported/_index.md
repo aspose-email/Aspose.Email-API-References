@@ -1,7 +1,7 @@
 ---
 title: ExtendedListSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether LIST Command Extension is supported See more https//tools.ietf.org/html/rfc5258
 type: docs
 weight: 150
 url: /net/aspose.email.clients.imap/imapclient/extendedlistsupported/

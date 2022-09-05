@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит коллекцию объектов ReminderAttachmentReminderAttachmentaspose.email.calendar/reminderattachment.
+description: Содержит коллекцию ReminderAttachmentReminderAttachmentaspose.email.calendar/reminderattachment объекты.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.calendar/appointmentreminder/attachments/
 ---
 ## AppointmentReminder.Attachments property
 
-Содержит коллекцию объектов ReminderAttachment[`ReminderAttachment`](../../reminderattachment).
+Содержит коллекцию ReminderAttachment[`ReminderAttachment`](../../reminderattachment) объекты.
 
 ```csharp
 public ReminderAttachmentCollection Attachments { get; }

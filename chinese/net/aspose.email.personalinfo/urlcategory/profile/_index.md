@@ -1,14 +1,14 @@
 ---
 title: Profile
 second_title: Aspose.Email for .NET API 参考
-description: 个人资料 URL
+description: 个人资料网址
 type: docs
 weight: 70
 url: /zh/net/aspose.email.personalinfo/urlcategory/profile/
 ---
 ## UrlCategory.Profile property
 
-个人资料 URL
+个人资料网址
 
 ```csharp
 public static UrlCategory Profile { get; }

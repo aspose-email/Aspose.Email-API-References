@@ -1,14 +1,14 @@
 ---
 title: ListMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Список сообщений. Получает информацию для поискового сообщения
+description: Список сообщений. Получает информацию для поиска message
 type: docs
 weight: 290
 url: /ru/net/aspose.email.clients.pop3/pop3client/listmessages/
 ---
 ## ListMessages(IEnumerable&lt;string&gt;) {#listmessages_13}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IEnumerable<string> uniqueIdLst)
@@ -16,7 +16,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<string> uniqueIdLst)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`Pop3MessageInfo`](../../pop3messageinfo)для получения с сервера. |
+| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`Pop3MessageInfo`](../../pop3messageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
@@ -24,7 +24,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(IEnumerable&lt;int&gt;) {#listmessages_12}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IEnumerable<int> sequenceNumberLst)
@@ -45,7 +45,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<int> sequenceNumberLst
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`Pop3MessageInfo`](../../pop3messageinfo)для получения с сервера. |
+| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`Pop3MessageInfo`](../../pop3messageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
@@ -53,7 +53,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(IConnection, IEnumerable&lt;string&gt;) {#listmessages_7}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IConnection connection, 
@@ -75,8 +75,8 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`Pop3MessageInfo`](../../pop3messageinfo)для получения с сервера. |
+| connection | IConnection | Подключение к серверу |
+| uniqueIdLst | IEnumerable`1 | Список уникальных идентификаторов для[`Pop3MessageInfo`](../../pop3messageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
@@ -84,7 +84,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -98,7 +98,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(IConnection, IEnumerable&lt;int&gt;) {#listmessages_6}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IConnection connection, 
@@ -107,8 +107,8 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`Pop3MessageInfo`](../../pop3messageinfo)для получения с сервера. |
+| connection | IConnection | Подключение к серверу |
+| sequenceNumberLst | IEnumerable`1 | список sequenceNumber для[`Pop3MessageInfo`](../../pop3messageinfo) для получения с сервера. |
 
 ### Возвращаемое значение
 
@@ -116,7 +116,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -130,7 +130,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(IConnection) {#listmessages_1}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IConnection connection)
@@ -138,7 +138,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -146,7 +146,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -160,7 +160,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(IConnection, bool) {#listmessages_5}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(IConnection connection, bool closeTransaction)
@@ -168,8 +168,8 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, bool close
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -177,7 +177,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -199,8 +199,8 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, MailQuery 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)объект. |
+| connection | IConnection | Подключение к серверу |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -227,7 +227,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
 
 ### Возвращаемое значение
@@ -236,7 +236,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не перечислены
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -260,10 +260,10 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -283,7 +283,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages() {#listmessages}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages()
@@ -295,7 +295,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -308,7 +308,7 @@ Pop3MessageInfoCollection
 
 ## ListMessages(bool) {#listmessages_11}
 
-Список сообщений. Получает информацию для поискового сообщения
+Список сообщений. Получает информацию для поиска message
 
 ```csharp
 public Pop3MessageInfoCollection ListMessages(bool closeTransaction)
@@ -316,7 +316,7 @@ public Pop3MessageInfoCollection ListMessages(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -324,7 +324,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -345,7 +345,7 @@ public Pop3MessageInfoCollection ListMessages(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 
@@ -379,7 +379,7 @@ Pop3MessageInfoCollection
 
 ### Примечания
 
-Обратите внимание, что сообщения помечены как удаленные не перечислены
+Обратите внимание, что сообщения, помеченные как удаленные, не отображаются в списке.
 
 ### Смотрите также
 
@@ -403,8 +403,8 @@ public Pop3MessageInfoCollection ListMessages(Pop3ListFields fields, bool closeT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fields | Pop3ListFields | Поля, которые мы хотим получить |
-| closeTransaction | Boolean | Указывает если текущая транзакция должна быть закрыта до получения списка. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery). |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) объект. |
 
 ### Возвращаемое значение
 

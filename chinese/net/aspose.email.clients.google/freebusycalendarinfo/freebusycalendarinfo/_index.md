@@ -33,7 +33,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<ErrorDetails> errors)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | calendarId | String | 日历 ID |
-| errors | IEnumerable`1 | 可选错误（如果日历的计算失败）。 |
+| errors | IEnumerable`1 | 可选错误（如果日历计算失败）。 |
 
 ### 也可以看看
 
@@ -55,7 +55,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<Range> busy)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | calendarId | String | 日历 ID |
-| busy | IEnumerable`1 | 期间的时间范围列表其中这个日历应该算是忙碌的。 |
+| busy | IEnumerable`1 | 此日历应被视为忙碌的时间范围列表。 |
 
 ### 也可以看看
 
@@ -78,8 +78,8 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<ErrorDetails> errors,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | calendarId | String | 日历 ID |
-| errors | IEnumerable`1 | 可选错误（如果日历的计算失败）。 |
-| busy | IEnumerable`1 | 该日历应被视为忙碌的时间范围列表。 |
+| errors | IEnumerable`1 | 可选错误（如果日历计算失败）。 |
+| busy | IEnumerable`1 | 此日历应被视为忙碌的时间范围列表。 |
 
 ### 也可以看看
 

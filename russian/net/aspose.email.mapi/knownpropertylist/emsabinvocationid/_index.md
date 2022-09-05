@@ -1,14 +1,14 @@
 ---
 title: EmsAbInvocationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_INVOCATION_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_INVOCATION_ID
 type: docs
 weight: 6900
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabinvocationid/
 ---
 ## KnownPropertyList.EmsAbInvocationId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_INVOCATION_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_INVOCATION_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbInvocationId;

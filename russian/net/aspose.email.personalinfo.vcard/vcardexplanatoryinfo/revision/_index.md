@@ -1,14 +1,14 @@
 ---
 title: Revision
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает время ревизии
+description: Получает или задает время редакции
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision/
 ---
 ## VCardExplanatoryInfo.Revision property
 
-Получает или задает время ревизии
+Получает или задает время редакции
 
 ```csharp
 public DateTime Revision { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: GetPropertyLong
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the property specified by tag as Long int64 type.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertylong/

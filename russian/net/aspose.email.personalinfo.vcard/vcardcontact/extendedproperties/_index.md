@@ -1,14 +1,14 @@
 ---
 title: ExtendedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает расширенные свойства
+description: Получает или задает расширенные свойства
 type: docs
 weight: 60
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/extendedproperties/
 ---
 ## VCardContact.ExtendedProperties property
 
-Получает или устанавливает расширенные свойства
+Получает или задает расширенные свойства
 
 ```csharp
 public StringCollection ExtendedProperties { get; set; }

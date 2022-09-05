@@ -18,7 +18,7 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
@@ -46,7 +46,7 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -72,8 +72,8 @@ public ImapMessageInfo ListMessage(int sequenceNumber, IEnumerable<string> messa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息序列号 |
-| messageExtraFields | IEnumerable`1 | 列表将要求消息的额外参数。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
@@ -98,7 +98,7 @@ public ImapMessageInfo ListMessage(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -125,7 +125,7 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
@@ -153,7 +153,7 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 
 ### 返回值
 
@@ -205,7 +205,7 @@ public ImapMessageInfo ListMessage(string uniqueId, IEnumerable<string> messageE
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| messageExtraFields | IEnumerable`1 | 列表将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 

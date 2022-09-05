@@ -1,7 +1,7 @@
 ---
 title: ReleaseDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the date of release.
 type: docs
 weight: 60
 url: /net/aspose.email/buildversioninfo/releasedate/

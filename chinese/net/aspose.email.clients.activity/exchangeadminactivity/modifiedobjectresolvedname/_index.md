@@ -1,14 +1,14 @@
 ---
 title: ModifiedObjectResolvedName
 second_title: Aspose.Email for .NET API 参考
-description: 这是 cmdlet 修改的对象的用户友好名称仅当 cmdlet 修改对象时才会记录此信息
+description: 这是由 cmdlet 修改的对象的用户友好名称仅当 cmdlet 修改对象时才会记录此信息
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/exchangeadminactivity/modifiedobjectresolvedname/
 ---
 ## ExchangeAdminActivity.ModifiedObjectResolvedName property
 
-这是 cmdlet 修改的对象的用户友好名称。仅当 cmdlet 修改对象时才会记录此信息。
+这是由 cmdlet 修改的对象的用户友好名称。仅当 cmdlet 修改对象时才会记录此信息。
 
 ```csharp
 public string ModifiedObjectResolvedName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbMdbUseDefaults
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MDB_USE_DEFAULTS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MDB_USE_DEFAULTS
 type: docs
 weight: 7220
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmdbusedefaults/
 ---
 ## KnownPropertyList.EmsAbMdbUseDefaults field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MDB_USE_DEFAULTS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MDB_USE_DEFAULTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMdbUseDefaults;

@@ -1,14 +1,14 @@
 ---
 title: SharingResponseType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тип ответа которым ответил получатель запроса на совместное использование. ОбластьСовместное использование Каноническое имяPidLidSharingResponseType Альтернативные именаdispidSharingResponseType
+description: Содержит тип ответа которым ответил получатель запроса на совместное использование. Область Sharing Каноническое имя PidLidSharingResponseType Альтернативные имена dispidSharingResponseType
 type: docs
 weight: 17910
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingresponsetype/
 ---
 ## KnownPropertyList.SharingResponseType field
 
-Содержит тип ответа, которым ответил получатель запроса на совместное использование. Область:Совместное использование Каноническое имя:PidLidSharingResponseType Альтернативные имена:dispidSharingResponseType
+Содержит тип ответа, которым ответил получатель запроса на совместное использование. Область: Sharing Каноническое имя: PidLidSharingResponseType Альтернативные имена: dispidSharingResponseType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingResponseType;

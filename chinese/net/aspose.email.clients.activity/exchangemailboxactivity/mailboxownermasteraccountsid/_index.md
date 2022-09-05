@@ -1,14 +1,14 @@
 ---
 title: MailboxOwnerMasterAccountSid
 second_title: Aspose.Email for .NET API 参考
-description: 邮箱所有者帐户的主帐户 SID
+description: 邮箱所有者帐户的主帐户 SID.
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.activity/exchangemailboxactivity/mailboxownermasteraccountsid/
 ---
 ## ExchangeMailboxActivity.MailboxOwnerMasterAccountSid property
 
-邮箱所有者帐户的主帐户 SID。
+邮箱所有者帐户的主帐户 SID.
 
 ```csharp
 public string MailboxOwnerMasterAccountSid { get; set; }

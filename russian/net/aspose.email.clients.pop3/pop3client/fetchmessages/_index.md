@@ -1,14 +1,14 @@
 ---
 title: FetchMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает сообщения
+description: Получает сообщения
 type: docs
 weight: 130
 url: /ru/net/aspose.email.clients.pop3/pop3client/fetchmessages/
 ---
 ## FetchMessages(IEnumerable&lt;int&gt;) {#fetchmessages_2}
 
-Выбирает сообщения
+Получает сообщения
 
 ```csharp
 public IList<MailMessage> FetchMessages(IEnumerable<int> sequenceNumbers)
@@ -20,7 +20,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<int> sequenceNumbers)
 
 ### Возвращаемое значение
 
-Список объектов[`MailMessage`](../../../aspose.email/mailmessage)
+Список[`MailMessage`](../../../aspose.email/mailmessage) объекты
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<string> uids)
 
 ### Возвращаемое значение
 
-Список объектов[`MailMessage`](../../../aspose.email/mailmessage)
+Список[`MailMessage`](../../../aspose.email/mailmessage) объекты
 
 ### Смотрите также
 
@@ -66,12 +66,12 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<int>
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumbers | IEnumerable`1 | Порядковые номера сообщений |
 
 ### Возвращаемое значение
 
-Список[`MailMessage`](../../../aspose.email/mailmessage)объекты
+Список[`MailMessage`](../../../aspose.email/mailmessage) объекты
 
 ### Смотрите также
 
@@ -93,12 +93,12 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<stri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uids | IEnumerable`1 | Порядковые номера сообщений |
 
 ### Возвращаемое значение
 
-Список[`MailMessage`](../../../aspose.email/mailmessage)объекты
+Список[`MailMessage`](../../../aspose.email/mailmessage) объекты
 
 ### Смотрите также
 

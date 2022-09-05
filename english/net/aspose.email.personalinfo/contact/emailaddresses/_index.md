@@ -1,7 +1,7 @@
 ---
 title: EmailAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of email addresses
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/contact/emailaddresses/

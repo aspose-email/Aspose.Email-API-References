@@ -1,7 +1,7 @@
 ---
 title: ResourceAttendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies resource attendees for the appointment or meeting. Area Meetings Canonical name PidLidResourceAttendees Alternate names LID_RESOURCE_ATTENDEES
 type: docs
 weight: 16140
 url: /net/aspose.email.mapi/knownpropertylist/resourceattendees/

@@ -1,14 +1,14 @@
 ---
 title: WindowSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定集合或请求中应包含在同步响应中的更改项目的最大数量 如果未定义 WindowSize则服务器的行为就像提交了值为 100 的 WindowSize 元素一样 服务器将值 0零和高于 512 的值解释为 512
+description: 指定集合或请求中应包含在同步响应中的更改项目的最大数量 如果未定义 WindowSize则服务器的行为就像提交了值为 100 的 WindowSize 元素一样 服务器将值 0零和高于 512 的值解释为 512.
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/windowsize/
 ---
 ## SyncCollectionRequest.WindowSize property
 
-指定集合或请求中应包含在同步响应中的更改项目的最大数量。 如果未定义 WindowSize，则服务器的行为就像提交了值为 100 的 WindowSize 元素一样。 服务器将值 0（零）和高于 512 的值解释为 512。
+指定集合或请求中应包含在同步响应中的更改项目的最大数量。 如果未定义 WindowSize，则服务器的行为就像提交了值为 100 的 WindowSize 元素一样。 服务器将值 0（零）和高于 512 的值解释为 512.
 
 ```csharp
 public int? WindowSize { get; set; }

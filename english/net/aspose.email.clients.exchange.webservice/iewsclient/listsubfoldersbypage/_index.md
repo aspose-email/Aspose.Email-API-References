@@ -1,12 +1,12 @@
 ---
 title: ListSubFoldersByPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Searches the specified folder in the given parent folder with paging Method supports paging.
 type: docs
 weight: 1190
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listsubfoldersbypage/
 ---
-## IEWSClient.ListSubFoldersByPage method (1 of 3)
+## ListSubFoldersByPage(string, PageInfo) {#listsubfoldersbypage}
 
 Searches the specified folder in the given parent folder with paging Method supports paging.
 
@@ -33,7 +33,7 @@ A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefold
 
 ---
 
-## IEWSClient.ListSubFoldersByPage method (2 of 3)
+## ListSubFoldersByPage(string, int) {#listsubfoldersbypage_1}
 
 Searches the specified folder in the given parent folder with paging Method supports paging. Invokes for the first time in paging cycle.
 
@@ -59,7 +59,7 @@ A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefold
 
 ---
 
-## IEWSClient.ListSubFoldersByPage method (3 of 3)
+## ListSubFoldersByPage(string, int, int) {#listsubfoldersbypage_2}
 
 Searches the specified folder in the given parent folder with paging Method supports paging.
 

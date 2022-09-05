@@ -1,14 +1,14 @@
 ---
 title: CreationDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дату создания заметки
+description: Получает или задает дату создания note
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapinote/creationdate/
 ---
 ## MapiNote.CreationDate property
 
-Получает или устанавливает дату создания заметки
+Получает или задает дату создания note
 
 ```csharp
 public DateTime CreationDate { get; set; }

@@ -23,18 +23,18 @@ public enum FolderTypes
 | DefaultDraftsFolder | `3` | Папка черновиков по умолчанию |
 | DefaultDeletedItemsFolder | `4` | Папка "Удаленные" по умолчанию |
 | DefaultSentItemsFolder | `5` | Папка "Отправленные" по умолчанию |
-| DefaultOutboxFolder | `6` | Исходящие папки по умолчанию |
+| DefaultOutboxFolder | `6` | Папка Исходящие по умолчанию |
 | DefaultTasksFolder | `7` | Папка задач по умолчанию |
 | DefaultCalendarFolder | `8` | Папка календаря по умолчанию |
 | DefaultContactsFolder | `9` | Папка контактов по умолчанию |
-| DefaultNotesFolder | `10` | Папка Notes по умолчанию |
+| DefaultNotesFolder | `10` | Папка заметок по умолчанию |
 | DefaultJournalFolder | `11` | Папка журнала по умолчанию |
-| UserCreatedMailFolder | `12` | Созданная пользователем почтовая папка |
+| UserCreatedMailFolder | `12` | Почтовая папка, созданная пользователем |
 | UserCreatedCalendarFolder | `13` | Созданная пользователем папка календаря |
-| UserCreatedContactsFolder | `14` | Пользовательская папка контактов |
-| UserCreatedTasksFolder | `15` | Созданная пользователем папка задач |
-| UserCreatedJournalFolder | `16` | Пользовательская папка журнала |
-| UserCreatedNoteFolder | `17` | Пользовательская папка Notes |
+| UserCreatedContactsFolder | `14` | Папка контактов, созданная пользователем |
+| UserCreatedTasksFolder | `15` | Папка задач, созданная пользователем |
+| UserCreatedJournalFolder | `16` | Созданная пользователем папка журнала |
+| UserCreatedNoteFolder | `17` | Созданная пользователем папка Notes |
 | UnknownFolderType | `18` | Неизвестный тип папки |
 | RecipientInformationCache | `19` | Кэш информации о получателе |
 

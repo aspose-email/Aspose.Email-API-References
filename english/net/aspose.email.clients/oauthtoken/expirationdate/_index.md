@@ -1,7 +1,7 @@
 ---
 title: ExpirationDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets expiration date of the token.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/oauthtoken/expirationdate/

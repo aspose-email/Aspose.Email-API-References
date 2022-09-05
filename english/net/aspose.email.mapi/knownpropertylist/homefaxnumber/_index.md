@@ -1,7 +1,7 @@
 ---
 title: HomeFaxNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the telephone number of the mail users home fax machine. Area MapiMailUser Canonical name PidTagHomeFaxNumber Alternate names PR_HOME_FAX_NUMBER PR_HOME_FAX_NUMBER_A
 type: docs
 weight: 11080
 url: /net/aspose.email.mapi/knownpropertylist/homefaxnumber/

@@ -1,14 +1,14 @@
 ---
 title: ExtendedListSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение команды LIST Подробнее https//tools.ietf.org/html/rfc5258
+description: Получает информацию о том поддерживается ли расширение команды LIST Подробнее см. https//tools.ietf.org/html/rfc5258
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.imap/imapclient/extendedlistsupported/
 ---
 ## ImapClient.ExtendedListSupported property
 
-Получает информацию о том, поддерживается ли расширение команды LIST Подробнее https://tools.ietf.org/html/rfc5258
+Получает информацию о том, поддерживается ли расширение команды LIST Подробнее см. https://tools.ietf.org/html/rfc5258
 
 ```csharp
 public bool ExtendedListSupported { get; set; }

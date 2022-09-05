@@ -1,12 +1,12 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FileCorruptedExceptionaspose.email/filecorruptedexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/filecorruptedexception/filecorruptedexception/
 ---
-## FileCorruptedException constructor (1 of 3)
+## FileCorruptedException() {#constructor}
 
 Initializes a new instance of the [`FileCorruptedException`](../../filecorruptedexception) class.
 
@@ -22,7 +22,7 @@ public FileCorruptedException()
 
 ---
 
-## FileCorruptedException constructor (2 of 3)
+## FileCorruptedException(string) {#constructor_1}
 
 Initializes a new instance of the [`FileCorruptedException`](../../filecorruptedexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public FileCorruptedException(string message)
 
 ---
 
-## FileCorruptedException constructor (3 of 3)
+## FileCorruptedException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`FileCorruptedException`](../../filecorruptedexception) class with a specified error message.
 

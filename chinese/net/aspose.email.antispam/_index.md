@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.AntiSpam
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.AntiSpam 命名空间提供了代表自我的类 - 学习过滤器来检测垃圾邮件
+description: 的 Aspose.Email.AntiSpam命名空间提供类 代表自学习过滤器以检测垃圾邮件
 type: docs
 weight: 30
 url: /zh/net/aspose.email.antispam/
 ---
-**Aspose.Email.AntiSpam** 命名空间提供了代表自我的类 - 学习过滤器来检测垃圾邮件。
+的 **Aspose.Email.AntiSpam**命名空间提供类 代表自学习过滤器以检测垃圾邮件。
 
 ## 课程
 

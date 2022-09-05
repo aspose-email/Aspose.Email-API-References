@@ -1,14 +1,14 @@
 ---
 title: ProfileServerDn
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_SERVER_DN
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_SERVER_DN
 type: docs
 weight: 14890
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileserverdn/
 ---
 ## KnownPropertyList.ProfileServerDn field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_SERVER_DN
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_SERVER_DN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileServerDn;

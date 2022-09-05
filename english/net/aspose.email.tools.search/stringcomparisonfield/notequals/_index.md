@@ -1,12 +1,12 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must not be equal to the specified value.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.search/stringcomparisonfield/notequals/
 ---
-## StringComparisonField.NotEquals method (1 of 2)
+## NotEquals(string) {#notequals}
 
 Indicates that field in message must not be equal to the specified value.
 
@@ -31,7 +31,7 @@ public MailQuery NotEquals(string value)
 
 ---
 
-## StringComparisonField.NotEquals method (2 of 2)
+## NotEquals(string, bool) {#notequals_1}
 
 Indicates that field in message must not be equal to the specified value.
 

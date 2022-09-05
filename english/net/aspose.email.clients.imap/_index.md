@@ -54,6 +54,7 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 
 | Interface | Description |
 | --- | --- |
+| [IAsyncImapClient](./iasyncimapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
 | [IImapMonitoringState](./iimapmonitoringstate) | Holds folder monitoring state. This can be used to resume folder monitoring from place where it stopped when error occured. Use [`ResumeMonitoring`](../aspose.email.clients.imap/imapclient/resumemonitoring) method. |
 ## Enumeration
 

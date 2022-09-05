@@ -1,7 +1,7 @@
 ---
 title: Url
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the URL this service is bound to.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/autodiscoverservice/url/

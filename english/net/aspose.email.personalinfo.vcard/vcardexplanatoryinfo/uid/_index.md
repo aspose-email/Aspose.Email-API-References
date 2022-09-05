@@ -1,9 +1,9 @@
 ---
 title: Uid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a unique identifier
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid/
 ---
 ## VCardExplanatoryInfo.Uid property

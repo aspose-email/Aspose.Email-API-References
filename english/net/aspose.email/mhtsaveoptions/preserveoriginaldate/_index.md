@@ -1,7 +1,7 @@
 ---
 title: PreserveOriginalDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether need keep original date in mail message when saving or not. Default value is true.
 type: docs
 weight: 50
 url: /net/aspose.email/mhtsaveoptions/preserveoriginaldate/

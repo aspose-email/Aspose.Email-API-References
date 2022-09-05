@@ -1,7 +1,7 @@
 ---
 title: OleDocumentFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Ole format type.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapiobjectproperty/oledocumentformat/

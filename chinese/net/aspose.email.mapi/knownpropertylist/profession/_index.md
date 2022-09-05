@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的业务范围的名称 区域MapiMailUser 规范名称PidTagProfession 备用名称PR_PROFESSION PR_PROFESSION_A PR_PROFESSION_W
+description: 包含邮件用户的业务名称 区域MapiMailUser 规范名称PidTagProfession 替代名称PR_PROFESSIONPR_PROFESSION_APR_PROFESSION_W
 type: docs
 weight: 14640
 url: /zh/net/aspose.email.mapi/knownpropertylist/profession/
 ---
 ## KnownPropertyList.Profession field
 
-包含邮件用户的业务范围的名称。 区域:MapiMailUser 规范名称:PidTagProfession 备用名称:PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W,
+包含邮件用户的业务名称。 区域：MapiMailUser 规范名称：PidTagProfession 替代名称：PR_PROFESSION、PR_PROFESSION_A、PR_PROFESSION_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Profession;

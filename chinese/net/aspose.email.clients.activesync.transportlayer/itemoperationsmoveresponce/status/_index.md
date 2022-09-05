@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API 参考
-description: 包含指示 ItemOperations 操作成功或失败的代码和描述
+description: 包含指示ItemOperations操作成功或失败的代码和描述
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/status/
 ---
 ## ItemOperationsMoveResponce.Status property
 
-包含指示 ItemOperations 操作成功或失败的代码和描述
+包含指示ItemOperations操作成功或失败的代码和描述
 
 ```csharp
 public Status Status { get; set; }

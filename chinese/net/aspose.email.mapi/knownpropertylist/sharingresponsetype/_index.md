@@ -1,14 +1,14 @@
 ---
 title: SharingResponseType
 second_title: Aspose.Email for .NET API 参考
-description: 包含共享请求的接收者响应的响应类型 区域共享 规范名称PidLidSharingResponseType 替代名称dispidSharingResponseType
+description: 包含共享请求的接收者响应的响应类型 区域Sharing 规范名称PidLidSharingResponseType 替代名称dispidSharingResponseType
 type: docs
 weight: 17910
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingresponsetype/
 ---
 ## KnownPropertyList.SharingResponseType field
 
-包含共享请求的接收者响应的响应类型。 区域:共享 规范名称:PidLidSharingResponseType 替代名称:dispidSharingResponseType
+包含共享请求的接收者响应的响应类型。 区域：Sharing 规范名称：PidLidSharingResponseType 替代名称：dispidSharingResponseType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingResponseType;

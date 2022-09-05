@@ -1,14 +1,14 @@
 ---
 title: EmsAbTrustLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_TRUST_LEVEL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_TRUST_LEVEL
 type: docs
 weight: 9230
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtrustlevel/
 ---
 ## KnownPropertyList.EmsAbTrustLevel field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_TRUST_LEVEL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_TRUST_LEVEL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTrustLevel;

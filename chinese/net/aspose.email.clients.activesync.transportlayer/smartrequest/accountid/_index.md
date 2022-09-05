@@ -1,14 +1,14 @@
 ---
 title: AccountId
 second_title: Aspose.Email for .NET API 参考
-description: 标识发送电子邮件的帐户 如果 AccountId 为空则服务器使用设置命令响应中返回的 settingsPrimarySmtpAddress 标识的帐户发送电子邮件 如果 AccountId 包含在请求中则该值必须等于设置命令响应中包含的 settingsAccountId 元素值之一 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效 如果 AccountId 元素值无效则返回状态值 166 如果帐户不支持发送电子邮件则返回状态元素值 167 注意服务器使用 AccountId 指定的帐户发送电子邮件而不是 From 指定的帐户 协议版本为 12.1 或 14.0 时不支持 AccountId 元素 如果 AccountId 元素包含在 SendMail 命令请求SmartForward 命令请求或 SmartReply 命令请求中则 Exchange 2007 将返回状态值 103
+description: 标识发送电子邮件的帐户 如果 AccountId 为 null则服务器使用设置标识的帐户发送电子邮件设置命令响应中返回的 PrimarySmtpAddress 如果请求中包含 AccountId则值必须等于设置命令响应中包含的设置之一AccountId 元素值 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效 如果 AccountId 元素值无效则返回状态值 166 如果账户不支持发送邮件则返回Status元素值167 注意服务器使用AccountId指定的账户发送邮件而不是From指定的账户 不支持AccountId元素时协议版本为 12.1 或 14.0 如果 AccountId 元素包含在 SendMail 命令请求SmartForward 命令请求或 SmartReply 命令请求中Exchange 2007 将返回状态值 103
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequest/accountid/
 ---
 ## SmartRequest.AccountId property
 
-标识发送电子邮件的帐户。 如果 AccountId 为空，则服务器使用设置命令响应中返回的 settings:PrimarySmtpAddress 标识的帐户发送电子邮件。 如果 AccountId 包含在请求中，则该值必须等于设置命令响应中包含的 settings:AccountId 元素值之一。 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效。 如果 AccountId 元素值无效，则返回状态值 166。 如果帐户不支持发送电子邮件，则返回状态元素值 167。 注意服务器使用 AccountId 指定的帐户发送电子邮件，而不是 From 指定的帐户。 协议版本为 12.1 或 14.0 时不支持 AccountId 元素。 如果 AccountId 元素包含在 SendMail 命令请求、SmartForward 命令请求或 SmartReply 命令请求中，则 Exchange 2007 将返回状态值 103。
+标识发送电子邮件的帐户。 如果 AccountId 为 null，则服务器使用设置标识的帐户发送电子邮件：设置命令响应中返回的 PrimarySmtpAddress。 如果请求中包含 AccountId，则值必须等于设置命令响应中包含的设置之一：AccountId 元素值。 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效。 如果 AccountId 元素值无效，则返回状态值 166。 如果账户不支持发送邮件，则返回Status元素值167。 注意服务器使用AccountId指定的账户发送邮件，而不是From指定的账户。 不支持AccountId元素时协议版本为 12.1 或 14.0。 如果 AccountId 元素包含在 SendMail 命令请求、SmartForward 命令请求或 SmartReply 命令请求中，Exchange 2007 将返回状态值 103。
 
 ```csharp
 public string AccountId { get; set; }

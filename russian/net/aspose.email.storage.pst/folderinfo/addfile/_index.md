@@ -27,9 +27,9 @@ public string AddFile(string fileName, string messageClass)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
-| ArgumentNullException | выдает, если имя добавляемого файла равно null или пусто. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
+| ArgumentNullException | бросает, если имя добавляемого файла равно null или пусто. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Смотрите также
 

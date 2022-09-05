@@ -1,14 +1,14 @@
 ---
 title: EmsAbRemoteOutBhServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REMOTE_OUT_BH_SERVER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REMOTE_OUT_BH_SERVER
 type: docs
 weight: 8400
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabremoteoutbhserver/
 ---
 ## KnownPropertyList.EmsAbRemoteOutBhServer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REMOTE_OUT_BH_SERVER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REMOTE_OUT_BH_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRemoteOutBhServer;

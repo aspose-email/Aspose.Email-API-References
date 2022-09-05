@@ -1,14 +1,14 @@
 ---
 title: EmsAbUseSiteValues
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_USE_SITE_VALUES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_USE_SITE_VALUES
 type: docs
 weight: 9340
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabusesitevalues/
 ---
 ## KnownPropertyList.EmsAbUseSiteValues field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_USE_SITE_VALUES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_USE_SITE_VALUES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUseSiteValues;

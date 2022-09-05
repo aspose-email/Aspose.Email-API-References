@@ -1,7 +1,7 @@
 ---
 title: Latitude
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a latitude
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardgeo/latitude/

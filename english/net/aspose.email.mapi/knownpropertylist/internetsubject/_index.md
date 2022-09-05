@@ -1,7 +1,7 @@
 ---
 title: InternetSubject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the subject of the message. Area Email Canonical name PidNameInternetSubject Alternate names urnschemasmailheadersubject
 type: docs
 weight: 11590
 url: /net/aspose.email.mapi/knownpropertylist/internetsubject/

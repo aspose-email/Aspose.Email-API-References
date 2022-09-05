@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/sortingkey/
 ---
 ## SortingKey enumeration
 
-“SORT”命令的排序标准 查看更多:https://tools.ietf.org/html/rfc5256
+“SORT”命令的排序标准 查看更多：https://tools.ietf.org/html/rfc5256
 
 ```csharp
 [Flags]
@@ -23,7 +23,7 @@ public enum SortingKey
 | Cc | `2` | 通过第一个“cc”地址。 |
 | Date | `4` | 按发送日期和时间。 |
 | From | `8` | 通过第一个“发件人”地址。 |
-| Size | `10` | 按八位字节的消息大小。 |
+| Size | `10` | 以八位字节为单位的消息大小。 |
 | Subject | `20` | 按主题 |
 | To | `40` | 通过第一个“收件人”地址。 |
 

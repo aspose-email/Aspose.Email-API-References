@@ -1,7 +1,7 @@
 ---
 title: ErrorCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a code of error.
 type: docs
 weight: 20
 url: /net/aspose.email/asposebadserverresponceexception/errorcode/

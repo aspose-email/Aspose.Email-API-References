@@ -17,7 +17,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
@@ -45,7 +45,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -74,7 +74,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| messageExtraFields | IEnumerable`1 | Список дополнительные параметры для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
 ### Возвращаемое значение
 
@@ -103,7 +103,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber)
 
 ### Возвращаемое значение
 
-Объект задачи, с делегат для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -125,7 +125,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 
@@ -153,7 +153,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -184,7 +184,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId)
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -233,7 +233,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -263,7 +263,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -293,7 +293,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| messageExtraFields | IEnumerable`1 | Список дополнительные параметры для сообщения, которое будет запрошено. |
+| messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -320,7 +320,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber, CancellationTo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| token | CancellationToken | Распространяет уведомление что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -346,7 +346,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | messageExtraFields | IEnumerable`1 | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -376,7 +376,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -405,7 +405,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, CancellationToken
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| token | CancellationToken | Распространяется уведомление о том, что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

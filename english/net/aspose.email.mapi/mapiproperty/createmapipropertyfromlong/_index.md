@@ -1,12 +1,12 @@
 ---
 title: CreateMapiPropertyFromLong
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the mapi property from long.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapiproperty/createmapipropertyfromlong/
 ---
-## MapiProperty.CreateMapiPropertyFromLong method (1 of 2)
+## CreateMapiPropertyFromLong(long, long) {#createmapipropertyfromlong}
 
 Creates the mapi property from long.
 
@@ -27,7 +27,7 @@ public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
 
 ---
 
-## MapiProperty.CreateMapiPropertyFromLong method (2 of 2)
+## CreateMapiPropertyFromLong(long, long, long) {#createmapipropertyfromlong_1}
 
 Creates the mapi property from long.
 

@@ -1,7 +1,7 @@
 ---
 title: Zip
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies application/zip media type
 type: docs
 weight: 50
 url: /net/aspose.email.mime/mediatypenames.application/zip/

@@ -1,14 +1,14 @@
 ---
 title: CalendarFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого The urncontent-classescalendarfolder  который определяет набор свойств для папки который в основном содержит элементы назначения.
+description: Получает класс содержимого The urncontent-classescalendarfolder  который определяет набор свойств для папки  которая в основном содержит элементы встречи.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/calendarfolder/
 ---
 ## ContentClassType.CalendarFolder property
 
-Получает класс содержимого The urn:content-classes:calendarfolder , который определяет набор свойств для папки который в основном содержит элементы назначения.
+Получает класс содержимого The urn:content-classes:calendarfolder , который определяет набор свойств для папки , которая в основном содержит элементы встречи.
 
 ```csharp
 public static ContentClassType CalendarFolder { get; }
@@ -16,7 +16,7 @@ public static ContentClassType CalendarFolder { get; }
 
 ### Стоимость имущества
 
-Содержимое папки календаря класс.
+Содержимое папки календаря классифицировано.
 
 ### Смотрите также
 

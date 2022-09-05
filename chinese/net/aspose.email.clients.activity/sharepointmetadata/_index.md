@@ -24,17 +24,17 @@ public class SharePointMetadata
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentLastModifier](../../aspose.email.clients.activity/sharepointmetadata/documentlastmodifier) { get; set; } | 最后修改文档的用户。 强制:是 |
-| [DocumentSharer](../../aspose.email.clients.activity/sharepointmetadata/documentsharer) { get; set; } | 上次修改文档共享的用户。 强制:是 |
-| [FileName](../../aspose.email.clients.activity/sharepointmetadata/filename) { get; set; } | 路径的名称。 强制:是 |
-| [FileOwner](../../aspose.email.clients.activity/sharepointmetadata/fileowner) { get; set; } | 文档所有者。 强制:是 |
-| [FilePathUrl](../../aspose.email.clients.activity/sharepointmetadata/filepathurl) { get; set; } | 文档的 URL 强制:是 |
-| [From](../../aspose.email.clients.activity/sharepointmetadata/from) { get; set; } | 触发事件的用户。这将是 FileOwner、LastModifier 或 LastSharer。 强制:是 |
-| [itemCreationTime](../../aspose.email.clients.activity/sharepointmetadata/itemcreationtime) { get; set; } | 记录事件时的 UTC 日期时间戳。 强制:是 |
-| [LastModifiedTime](../../aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime) { get; set; } | UTC 最后一次修改文档的时间戳。 强制:是 |
-| [SiteCollectionGuid](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionguid) { get; set; } | 网站集的 GUID。 强制:是 |
-| [SiteCollectionUrl](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionurl) { get; set; } | SharePoint 网站的名称。 强制:是 |
-| [UniqueId](../../aspose.email.clients.activity/sharepointmetadata/uniqueid) { get; set; } | 标识文件的 guid。 强制:是 |
+| [DocumentLastModifier](../../aspose.email.clients.activity/sharepointmetadata/documentlastmodifier) { get; set; } | 上次修改文档的用户。 必填：是 |
+| [DocumentSharer](../../aspose.email.clients.activity/sharepointmetadata/documentsharer) { get; set; } | 上次修改文档共享的用户。 必填：是 |
+| [FileName](../../aspose.email.clients.activity/sharepointmetadata/filename) { get; set; } | 路径名称。 必填：是 |
+| [FileOwner](../../aspose.email.clients.activity/sharepointmetadata/fileowner) { get; set; } | 文档所有者。 强制：是 |
+| [FilePathUrl](../../aspose.email.clients.activity/sharepointmetadata/filepathurl) { get; set; } | 文档的 URL 必填：是 |
+| [From](../../aspose.email.clients.activity/sharepointmetadata/from) { get; set; } | 触发事件的用户。这将是 FileOwner、LastModifier 或 LastSharer。 强制：Yes |
+| [itemCreationTime](../../aspose.email.clients.activity/sharepointmetadata/itemcreationtime) { get; set; } | 记录事件时的 UTC 日期时间戳。 强制：是 |
+| [LastModifiedTime](../../aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime) { get; set; } | UTC 最后一次修改文档时的时间戳。 强制：是 |
+| [SiteCollectionGuid](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionguid) { get; set; } | 网站集的 GUID。 强制：是 |
+| [SiteCollectionUrl](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionurl) { get; set; } | SharePoint 网站的名称。 必填：是 |
+| [UniqueId](../../aspose.email.clients.activity/sharepointmetadata/uniqueid) { get; set; } | 标识文件的 guid。 强制：是 |
 
 ### 也可以看看
 

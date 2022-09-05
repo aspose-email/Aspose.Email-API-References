@@ -1,14 +1,14 @@
 ---
 title: IdSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение ID Подробнееhttps//tools.ietf.org/html/rfc2971
+description: Получает информацию о том поддерживается ли расширение идентификатора Подробнее https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.imap/imapclient/idsupported/
 ---
 ## ImapClient.IdSupported property
 
-Получает информацию о том, поддерживается ли расширение ID Подробнее:https://tools.ietf.org/html/rfc2971
+Получает информацию о том, поддерживается ли расширение идентификатора Подробнее: https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public bool IdSupported { get; set; }

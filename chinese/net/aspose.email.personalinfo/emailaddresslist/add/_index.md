@@ -16,7 +16,7 @@ public void Add(EmailAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | EmailAddress | Object添加到列表中。 |
+| value | EmailAddress | 这Object添加到列表中。 |
 
 ### 返回值
 

@@ -1,12 +1,12 @@
 ---
 title: FetchMapiTasks
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch array of MapiTaskaspose.email.mapi/mapitask objects.
 type: docs
 weight: 800
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks/
 ---
-## IEWSClient.FetchMapiTasks method (1 of 2)
+## FetchMapiTasks(IEnumerable&lt;string&gt;) {#fetchmapitasks}
 
 Fetch array of [`MapiTask`](../../../aspose.email.mapi/mapitask) objects.
 
@@ -31,7 +31,7 @@ Fetch array of [`MapiTask`](../../../aspose.email.mapi/mapitask) objects.
 
 ---
 
-## IEWSClient.FetchMapiTasks method (2 of 2)
+## FetchMapiTasks(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapitasks_1}
 
 Fetch array of [`MapiTask`](../../../aspose.email.mapi/mapitask) objects.
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbVoiceMailGreetings
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_VOICE_MAIL_GREETINGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_VOICE_MAIL_GREETINGS
 type: docs
 weight: 9480
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabvoicemailgreetings/
 ---
 ## KnownPropertyList.EmsAbVoiceMailGreetings field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_VOICE_MAIL_GREETINGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_VOICE_MAIL_GREETINGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbVoiceMailGreetings;

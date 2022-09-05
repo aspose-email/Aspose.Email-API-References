@@ -1,14 +1,14 @@
 ---
 title: RoamingDictionary
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит поток словаря как указано в разделе 2.2.5.1 MS-OXOCFG. ОбластьКонфигурация Каноническое имяPidTagRoamingDictionary Альтернативные именаPR_ROAMING_DICTIONARY
+description: Содержит поток словаря как указано в MS-OXOCFG раздел 2.2.5.1. Область Configuration Каноническое имя PidTagRoamingDictionary Альтернативные имена PR_ROAMING_DICTIONARY
 type: docs
 weight: 16320
 url: /ru/net/aspose.email.mapi/knownpropertylist/roamingdictionary/
 ---
 ## KnownPropertyList.RoamingDictionary field
 
-Содержит поток словаря, как указано в разделе 2.2.5.1 [MS-OXOCFG]. Область:Конфигурация Каноническое имя:PidTagRoamingDictionary Альтернативные имена:PR_ROAMING_DICTIONARY
+Содержит поток словаря, как указано в [MS-OXOCFG], раздел 2.2.5.1. Область: Configuration Каноническое имя: PidTagRoamingDictionary Альтернативные имена: PR_ROAMING_DICTIONARY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RoamingDictionary;

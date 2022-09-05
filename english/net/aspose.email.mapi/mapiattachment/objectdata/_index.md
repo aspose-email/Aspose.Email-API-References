@@ -1,7 +1,7 @@
 ---
 title: ObjectData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an attachment object typically accessed through the OLE IStorage interface.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapiattachment/objectdata/

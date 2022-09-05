@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets string that represents list of the categories separated by semicolons .
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/followupoptions/categories/

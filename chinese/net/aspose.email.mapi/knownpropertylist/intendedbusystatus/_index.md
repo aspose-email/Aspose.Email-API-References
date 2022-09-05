@@ -1,14 +1,14 @@
 ---
 title: IntendedBusyStatus
 second_title: Aspose.Email for .NET API 参考
-description: 包含已发送会议对象的 PidLidBusyStatus 属性第 2.47 节的值 区域会议 规范名称PidLidIntendedBusyStatus 别名dispidIntendedBusyStatus
+description: 包含已发送会议对象的 PidLidBusyStatus 属性第 2.47 节的值 区域Meetings 规范名称PidLidIntendedBusyStatus 替代名称dispidIntendedBusyStatus
 type: docs
 weight: 11400
 url: /zh/net/aspose.email.mapi/knownpropertylist/intendedbusystatus/
 ---
 ## KnownPropertyList.IntendedBusyStatus field
 
-包含已发送会议对象的 PidLidBusyStatus 属性（第 2.47 节）的值。 区域:会议 规范名称:PidLidIntendedBusyStatus 别名:dispidIntendedBusyStatus
+包含已发送会议对象的 PidLidBusyStatus 属性（第 2.47 节）的值。 区域：Meetings 规范名称：PidLidIntendedBusyStatus 替代名称：dispidIntendedBusyStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IntendedBusyStatus;

@@ -1,14 +1,14 @@
 ---
 title: Range
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端在响应文档库项目的 Fetch 操作时可以接收的字节范围 Range 元素包含格式为 mn 的字符串值其中 m 小于 nm 是最小值n 是最大值 字节范围是零索引的第一个字节由 0零表示 如果在 Fetch 请求中省略 Range 元素则获取整个项目
+description: 指定客户端响应文档库项目的 Fetch 操作可以接收的字节范围 Range 元素包含格式为 mn 的字符串值其中 m 小于 nm 是最小值n是最大值 字节范围为零索引第一个字节由 0零表示 如果在 Fetch 请求中省略 Range 元素则获取整个项目
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/range/
 ---
 ## ItemOperationsFetchProperties.Range property
 
-指定客户端在响应文档库项目的 Fetch 操作时可以接收的字节范围。 Range 元素包含格式为 mn 的字符串值，其中 m 小于 n，m 是最小值，n 是最大值。 字节范围是零索引的；第一个字节由 0（零）表示。 如果在 Fetch 请求中省略 Range 元素，则获取整个项目。
+指定客户端响应文档库项目的 Fetch 操作可以接收的字节范围。 Range 元素包含格式为 mn 的字符串值，其中 m 小于 n，m 是最小值，n是最大值。 字节范围为零索引；第一个字节由 0（零）表示。 如果在 Fetch 请求中省略 Range 元素，则获取整个项目。
 
 ```csharp
 public string Range { get; set; }

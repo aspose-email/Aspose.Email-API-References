@@ -16,7 +16,7 @@ public MapiNamedPropertyMappingStorage NamedPropertyMapping { get; }
 
 ### 适当的价值
 
-命名属性映射。
+命名的属性映射。
 
 ### 也可以看看
 

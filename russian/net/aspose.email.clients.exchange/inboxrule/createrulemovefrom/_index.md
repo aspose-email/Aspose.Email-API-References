@@ -16,19 +16,19 @@ public static InboxRule CreateRuleMoveFrom(MailAddress from, string destinationF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| from | MailAddress | A[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)отправителя |
-| destinationFolderId | String | Идентификатор папки, в которой будут храниться сообщения. перемещено |
+| from | MailAddress | А[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress) отправителя |
+| destinationFolderId | String | Идентификатор папки, в которую будут перемещены сообщения |
 
 ### Возвращаемое значение
 
-A создано[`InboxRule`](../../inboxrule)
+Созданный[`InboxRule`](../../inboxrule)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пусто` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from* является`нулевой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -24,18 +24,18 @@ public class AmpImage : AmpComponent
 | --- | --- |
 | [Alt](../../aspose.email.amp/ampimage/alt) { get; set; } | Строка альтернативного текста, аналогичная атрибуту alt на изображении. |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
 | [IsValid](../../aspose.email.amp/ampimage/isvalid) { get; } | Указывает, допустимо ли это изображение для AmpImage. |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| override [RequiredScript](../../aspose.email.amp/ampimage/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
-| [Src](../../aspose.email.amp/ampimage/src) { get; set; } | Аналогично атрибуту src тега img. Значение должно быть URL-адресом, указывающим на общедоступный кэшируемый файл изображения |
+| override [RequiredScript](../../aspose.email.amp/ampimage/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
+| [Src](../../aspose.email.amp/ampimage/src) { get; set; } | Аналогично атрибуту src в теге img. Значение должно быть URL-адресом, указывающим на публично кэшируемое изображение file . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampimage/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| override [ToHtml](../../aspose.email.amp/ampimage/tohtml)() | Представляет html-версию компонента. |
+| override [ToAmpHtml](../../aspose.email.amp/ampimage/toamphtml)() | Представляет HTML-версию компонента amp. |
+| override [ToHtml](../../aspose.email.amp/ampimage/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

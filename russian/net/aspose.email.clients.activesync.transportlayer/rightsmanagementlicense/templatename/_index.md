@@ -1,14 +1,14 @@
 ---
 title: TemplateName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя шаблона политики прав представленного родительским элементом RightsManagementLicense. Этот элемент используется только в информационных целях. Максимальная длина элемента TemplateName составляет 256 символов.
+description: Задает имя шаблона политики прав представленного родительским элементом RightsManagementLicense. Этот элемент используется только в целях представления информации. Максимальная длина элемента TemplateName составляет 256 символов.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/templatename/
 ---
 ## RightsManagementLicense.TemplateName property
 
-Указывает имя шаблона политики прав, представленного родительским элементом RightsManagementLicense. Этот элемент используется только в информационных целях. Максимальная длина элемента TemplateName составляет 256 символов.
+Задает имя шаблона политики прав, представленного родительским элементом RightsManagementLicense. Этот элемент используется только в целях представления информации. Максимальная длина элемента TemplateName составляет 256 символов.
 
 ```csharp
 public string TemplateName { get; set; }

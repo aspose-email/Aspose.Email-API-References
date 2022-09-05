@@ -3,7 +3,7 @@ title: CustomAttachmentStorage
 second_title: Aspose.Email for .NET API 参考
 description: 表示自定义附件存储
 type: docs
-weight: 18740
+weight: 18770
 url: /zh/net/aspose.email.mapi.msg/customattachmentstorage/
 ---
 ## CustomAttachmentStorage class
@@ -18,7 +18,7 @@ public sealed class CustomAttachmentStorage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomAttachmentStorage](customattachmentstorage)() | 初始化[`CustomAttachmentStorage`](../customattachmentstorage)类的新实例。 |
+| [CustomAttachmentStorage](customattachmentstorage)() | 初始化[`CustomAttachmentStorage`](../customattachmentstorage)类. |
 
 ## 特性
 

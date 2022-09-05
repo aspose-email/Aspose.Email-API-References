@@ -16,15 +16,15 @@ public static void SetOptions(MapiMessage message, FollowUpOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中设置标志. |
-| options | FollowUpOptions | [`FollowUpOptions`](../../followupoptions)表示使用 follow- 的选项竖起旗帜和提醒。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将设置一个标志。 |
+| options | FollowUpOptions | 这[`FollowUpOptions`](../../followupoptions)表示使用 后续标志和提醒的选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
-| ArgumentNullException | 如果*options*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
+| ArgumentNullException | 如果*options*一片空白。 |
 
 ### 也可以看看
 

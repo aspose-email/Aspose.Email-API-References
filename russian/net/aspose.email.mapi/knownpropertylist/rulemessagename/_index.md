@@ -1,14 +1,14 @@
 ---
 title: RuleMessageName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя правила. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageName Альтернативные именаptagRuleMsgName
+description: Указывает имя правила. Установите в сообщении FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageName Альтернативные имена ptagRuleMsgName
 type: docs
 weight: 16530
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessagename/
 ---
 ## KnownPropertyList.RuleMessageName field
 
-Указывает имя правила. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageName Альтернативные имена:ptagRuleMsgName
+Указывает имя правила. Установите в сообщении FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageName Альтернативные имена: ptagRuleMsgName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageName;

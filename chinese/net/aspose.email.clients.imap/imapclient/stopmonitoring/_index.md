@@ -16,7 +16,7 @@ public void StopMonitoring(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 监控操作指定文件夹 |
+| folderName | String | 监控操作的指定文件夹 |
 
 ### 也可以看看
 

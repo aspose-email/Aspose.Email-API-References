@@ -1,14 +1,14 @@
 ---
 title: MaxAttachmentSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定由安全策略确定的最大附件大小以字节为单位 如果该属性为空则客户端将此解释为意味着安全策略未设置最大附件大小
+description: 指定由安全策略确定的最大附件大小以字节为单位 如果该属性为空则客户端将此解释为表示安全策略未设置最大附件大小
 type: docs
 weight: 260
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxattachmentsize/
 ---
 ## EASProvisionDoc.MaxAttachmentSize property
 
-指定由安全策略确定的最大附件大小（以字节为单位）。 如果该属性为空，则客户端将此解释为意味着安全策略未设置最大附件大小。
+指定由安全策略确定的最大附件大小（以字节为单位）。 如果该属性为空，则客户端将此解释为表示安全策略未设置最大附件大小。
 
 ```csharp
 public int? MaxAttachmentSize { get; set; }

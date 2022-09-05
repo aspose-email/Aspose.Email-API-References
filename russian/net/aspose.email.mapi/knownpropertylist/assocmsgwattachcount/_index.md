@@ -1,14 +1,14 @@
 ---
 title: AssocMsgWAttachCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ASSOC_MSG_W_ATTACH_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ASSOC_MSG_W_ATTACH_COUNT
 type: docs
 weight: 1500
 url: /ru/net/aspose.email.mapi/knownpropertylist/assocmsgwattachcount/
 ---
 ## KnownPropertyList.AssocMsgWAttachCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ASSOC_MSG_W_ATTACH_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ASSOC_MSG_W_ATTACH_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AssocMsgWAttachCount;

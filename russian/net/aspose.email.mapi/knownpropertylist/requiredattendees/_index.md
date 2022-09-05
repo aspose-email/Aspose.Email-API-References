@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет необходимых участников для встречи или собрания. ОбластьВстречи Каноническое имяPidLidRequiredAttendees Альтернативные именаLID_REQUIRED_ATTENDEES
+description: Идентифицирует необходимых участников для встречи или собрания. Область Meetings Каноническое имя PidLidRequiredAttendees Альтернативные имена LID_REQUIRED_ATTENDEES
 type: docs
 weight: 16120
 url: /ru/net/aspose.email.mapi/knownpropertylist/requiredattendees/
 ---
 ## KnownPropertyList.RequiredAttendees field
 
-Определяет необходимых участников для встречи или собрания. Область:Встречи Каноническое имя:PidLidRequiredAttendees Альтернативные имена:LID_REQUIRED_ATTENDEES
+Идентифицирует необходимых участников для встречи или собрания. Область: Meetings Каноническое имя: PidLidRequiredAttendees Альтернативные имена: LID_REQUIRED_ATTENDEES
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RequiredAttendees;

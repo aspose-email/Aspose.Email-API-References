@@ -1,14 +1,14 @@
 ---
 title: VCardOrganization
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardOrganizationaspose.email.personalinfo.vcard/vcardorganization 类的新实例
+description: 初始化VCardOrganizationaspose.email.personalinfo.vcard/vcardorganization class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardorganization/vcardorganization/
 ---
 ## VCardOrganization constructor
 
-初始化 [`VCardOrganization`](../../vcardorganization) 类的新实例
+初始化[`VCardOrganization`](../../vcardorganization) class
 
 ```csharp
 public VCardOrganization()

@@ -1,14 +1,14 @@
 ---
 title: LastModifiedTime
 second_title: Aspose.Email for .NET API 参考
-description: UTC 最后一次修改文档的时间戳 强制是
+description: UTC 最后一次修改文档时的时间戳 强制是
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime/
 ---
 ## SharePointMetadata.LastModifiedTime property
 
-UTC 最后一次修改文档的时间戳。 强制:是
+UTC 最后一次修改文档时的时间戳。 强制：是
 
 ```csharp
 public DateTime LastModifiedTime { get; set; }

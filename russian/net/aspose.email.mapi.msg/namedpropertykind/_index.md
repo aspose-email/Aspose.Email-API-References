@@ -1,14 +1,14 @@
 ---
 title: NamedPropertyKind
 second_title: Справочник по Aspose.Email для .NET API
-description: ИдентифицируетMessageObjectProperty./messageobjectpropertyвид.
+description: ИдентифицируетMessageObjectProperty./messageobjectproperty вид.
 type: docs
-weight: 18890
+weight: 18920
 url: /ru/net/aspose.email.mapi.msg/namedpropertykind/
 ---
 ## NamedPropertyKind enumeration
 
-Идентифицирует[`MessageObjectProperty`](../messageobjectproperty)вид.
+Идентифицирует[`MessageObjectProperty`](../messageobjectproperty) вид.
 
 ```csharp
 public enum NamedPropertyKind

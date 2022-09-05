@@ -1,14 +1,14 @@
 ---
 title: FileDropTargetPanel
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileDropTargetPanelaspose.email.windows.forms/filedroptargetpanel.
+description: Инициализирует новый экземплярFileDropTargetPanelaspose.email.windows.forms/filedroptargetpanel класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.forms/filedroptargetpanel/filedroptargetpanel/
 ---
 ## FileDropTargetPanel constructor
 
-Инициализирует новый экземпляр класса[`FileDropTargetPanel`](../../filedroptargetpanel).
+Инициализирует новый экземпляр[`FileDropTargetPanel`](../../filedroptargetpanel) класс.
 
 ```csharp
 public FileDropTargetPanel()

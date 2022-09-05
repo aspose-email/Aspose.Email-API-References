@@ -1,14 +1,14 @@
 ---
 title: SourceKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое содержит внутренний глобальный идентификатор GID для этой папки или сообщения. ОбластьСинхронизация Каноническое имяPidTagSourceKey Альтернативные именаPR_SOURCE_KEY
+description: Содержит значение которое содержит внутренний глобальный идентификатор GID для этой папки или сообщения. Область Sync Каноническое имя PidTagSourceKey Альтернативные имена PR_SOURCE_KEY
 type: docs
 weight: 18100
 url: /ru/net/aspose.email.mapi/knownpropertylist/sourcekey/
 ---
 ## KnownPropertyList.SourceKey field
 
-Содержит значение, которое содержит внутренний глобальный идентификатор (GID) для этой папки или сообщения. Область:Синхронизация Каноническое имя:PidTagSourceKey Альтернативные имена:PR_SOURCE_KEY
+Содержит значение, которое содержит внутренний глобальный идентификатор (GID) для этой папки или сообщения. Область: Sync Каноническое имя: PidTagSourceKey Альтернативные имена: PR_SOURCE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SourceKey;

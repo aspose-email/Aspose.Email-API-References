@@ -1,7 +1,7 @@
 ---
 title: DefaultEml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets options with default values for saving message to Eml format.
 type: docs
 weight: 40
 url: /net/aspose.email/saveoptions/defaulteml/

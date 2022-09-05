@@ -16,11 +16,11 @@ public MapiMessage UpdateMessage(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение Mapi для обновления |
+| message | MapiMessage | Сообщение Mapi будет обновлено |
 
 ### Возвращаемое значение
 
-Обновлено сообщение
+Обновленное сообщение
 
 ### Смотрите также
 
@@ -41,12 +41,12 @@ public MapiMessage UpdateMessage(MapiMessage message, UpdateSettings updateSetti
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение Mapi для обновления |
-| updateSettings | UpdateSettings | Настройки обновления |
+| message | MapiMessage | Сообщение Mapi будет обновлено |
+| updateSettings | UpdateSettings | Обновить настройки |
 
 ### Возвращаемое значение
 
-Обновлено сообщение
+Обновленное сообщение
 
 ### Смотрите также
 

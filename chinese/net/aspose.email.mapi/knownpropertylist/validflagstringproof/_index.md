@@ -1,14 +1,14 @@
 ---
 title: ValidFlagStringProof
 second_title: Aspose.Email for .NET API 参考
-description: 包含修改 PidLidFlagRequest 属性第 2.136 节时的 PidTagMessageDeliveryTime 属性第 2.780 节的值 区域任务 规范名称PidLidValidFlagStringProof 替代名称dispidValidFlagStringProof
+description: 包含修改 PidLidFlagRequest 属性第 2.136 节时的 PidTagMessageDeliveryTime 属性第 2.780 节的值 区域Tasks 规范名称PidLidValidFlagStringProof 替代名称dispidValidFlagStringProof
 type: docs
 weight: 19210
 url: /zh/net/aspose.email.mapi/knownpropertylist/validflagstringproof/
 ---
 ## KnownPropertyList.ValidFlagStringProof field
 
-包含修改 PidLidFlagRequest 属性（第 2.136 节）时的 PidTagMessageDeliveryTime 属性（第 2.780 节）的值。 区域:任务 规范名称:PidLidValidFlagStringProof 替代名称:dispidValidFlagStringProof
+包含修改 PidLidFlagRequest 属性（第 2.136 节）时的 PidTagMessageDeliveryTime 属性（第 2.780 节）的值。 区域：Tasks 规范名称：PidLidValidFlagStringProof 替代名称：dispidValidFlagStringProof
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ValidFlagStringProof;

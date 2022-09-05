@@ -18,8 +18,8 @@ public sealed class DateRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DateRange](daterange#constructor)() | 初始化[`DateRange`](../daterange)类 的新实例 |
-| [DateRange](daterange#constructor_1)(DateTime, DateTime) | 初始化[`DateRange`](../daterange)类 的新实例 |
+| [DateRange](daterange#constructor)() | 初始化[`DateRange`](../daterange) class |
+| [DateRange](daterange#constructor_1)(DateTime, DateTime) | 初始化[`DateRange`](../daterange) class |
 
 ## 特性
 

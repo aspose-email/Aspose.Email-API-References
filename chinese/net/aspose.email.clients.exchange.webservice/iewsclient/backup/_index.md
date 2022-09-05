@@ -16,7 +16,7 @@ public void Backup(ExchangeFolderInfoCollection folders, string fileName, Backup
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | 一个文件夹到备份 |
+| folders | ExchangeFolderInfoCollection | 要备份的文件夹 |
 | fileName | String | 个人存储文件的路径 |
 | options | BackupOptions | 备份选项 |
 
@@ -40,7 +40,7 @@ public void Backup(ExchangeFolderInfoCollection folders, Stream stream, BackupOp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | 一个文件夹到备份 |
+| folders | ExchangeFolderInfoCollection | 要备份的文件夹 |
 | stream | Stream | 要写入的流 |
 | options | BackupOptions | 备份选项 |
 

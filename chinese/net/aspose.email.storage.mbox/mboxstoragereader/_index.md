@@ -3,7 +3,7 @@ title: MboxStorageReader
 second_title: Aspose.Email for .NET API 参考
 description: 任何基于 mbox 的邮件存储阅读器的基类
 type: docs
-weight: 19980
+weight: 20030
 url: /zh/net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
@@ -25,12 +25,12 @@ public abstract class MboxStorageReader : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader)(Stream, MboxLoadOptions) | 创建 reader 的实例。 |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_3)(string, MboxLoadOptions) | 创建 reader 的实例。 |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | 创建 reader 的实例。 |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_4)(string, MboxLoadOptions, CancellationToken) | 创建 reader 的实例。 |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader)(Stream, MboxLoadOptions) | 创建 reader. 的实例 |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_3)(string, MboxLoadOptions) | 创建 reader. 的实例 |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | 创建 reader. 的实例 |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_4)(string, MboxLoadOptions, CancellationToken) | 创建 reader. 的实例 |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中的消息迭代。 |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中消息的迭代。 |
 | abstract [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxstoragereader/gettotalitemscount)() | 返回存储中的消息数。 |
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage)() | 从底层存储流中读取下一条消息。 |
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage_1)(out string) | 从底层存储流中读取下一条消息。 |

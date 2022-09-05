@@ -1,7 +1,7 @@
 ---
 title: ReturnClientRequestId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a flag to indicate whether the client requires the server side to return the request id.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/returnclientrequestid/

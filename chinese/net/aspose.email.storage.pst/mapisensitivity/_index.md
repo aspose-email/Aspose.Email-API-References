@@ -1,14 +1,14 @@
 ---
 title: MapiSensitivity
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个 表示消息敏感度的值
+description: 包含一个值 表示消息敏感度
 type: docs
-weight: 20170
+weight: 20220
 url: /zh/net/aspose.email.storage.pst/mapisensitivity/
 ---
 ## MapiSensitivity enumeration
 
-包含一个 表示消息敏感度的值。
+包含一个值， 表示消息敏感度。
 
 ```csharp
 public enum MapiSensitivity
@@ -19,8 +19,8 @@ public enum MapiSensitivity
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 消息没有特殊敏感性。 |
-| Personal | `1` | 该消息是个人信息。 |
-| Private | `2` | 消息是私有的。 |
+| Personal | `1` | 消息是个人的。 |
+| Private | `2` | 消息是私人的。 |
 | CompanyConfidential | `3` | 该消息被指定为公司机密。 |
 
 ### 也可以看看

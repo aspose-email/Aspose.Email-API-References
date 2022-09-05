@@ -3,7 +3,7 @@ title: ForwardMessageBuilder
 second_title: Aspose.Email for .NET API 参考
 description: 提供转发消息的创建和格式化
 type: docs
-weight: 20370
+weight: 20420
 url: /zh/net/aspose.email.tools/forwardmessagebuilder/
 ---
 ## ForwardMessageBuilder class

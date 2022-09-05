@@ -18,9 +18,9 @@ public class OAuthToken
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OAuthToken](oauthtoken#constructor)(string) | 初始化 [`OAuthToken`](../oauthtoken) 类的新实例 |
-| [OAuthToken](oauthtoken#constructor_2)(string, DateTime) | 初始化 [`OAuthToken`](../oauthtoken) 类的新实例 |
-| [OAuthToken](oauthtoken#constructor_1)(string, TokenType, DateTime) | 初始化 [`OAuthToken`](../oauthtoken) 类的新实例 |
+| [OAuthToken](oauthtoken#constructor)(string) | 初始化[`OAuthToken`](../oauthtoken) class |
+| [OAuthToken](oauthtoken#constructor_2)(string, DateTime) | 初始化[`OAuthToken`](../oauthtoken) class |
+| [OAuthToken](oauthtoken#constructor_1)(string, TokenType, DateTime) | 初始化[`OAuthToken`](../oauthtoken) class |
 
 ## 特性
 
@@ -35,7 +35,7 @@ public class OAuthToken
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email.clients/oauthtoken/equals)(object) | 判断指定对象是否等于当前对象。 |
+| override [Equals](../../aspose.email.clients/oauthtoken/equals)(object) | 判断指定对象是否等于当前对象 |
 | override [GetHashCode](../../aspose.email.clients/oauthtoken/gethashcode)() | 用作特定类型的哈希函数。 |
 | override [ToString](../../aspose.email.clients/oauthtoken/tostring)() | 返回代表当前对象的字符串。 |
 

@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoDelegatorWantsCopy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the delegator wants to receive copies of the meetingrelated objects that are sent to the delegate. Area Free/Busy Properties Canonical name PidTagScheduleInfoDelegatorWantsCopy Alternate names PR_SCHDINFO_BOSS_WANTS_COPY
 type: docs
 weight: 16760
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatorwantscopy/

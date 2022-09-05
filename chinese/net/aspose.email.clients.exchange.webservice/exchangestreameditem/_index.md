@@ -1,14 +1,14 @@
 ---
 title: ExchangeStreamedItem
 second_title: Aspose.Email for .NET API 参考
-description: 表示在 ExportItems 响应中收到的项目
+description: 表示在 ExportItems response 中收到的项目
 type: docs
 weight: 3820
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangestreameditem/
 ---
 ## ExchangeStreamedItem class
 
-表示在 ExportItems 响应中收到的项目
+表示在 ExportItems response 中收到的项目
 
 ```csharp
 public sealed class ExchangeStreamedItem
@@ -18,13 +18,13 @@ public sealed class ExchangeStreamedItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeStreamedItem](exchangestreameditem)() | 初始化[`ExchangeStreamedItem`](../exchangestreameditem)类 的新实例 |
+| [ExchangeStreamedItem](exchangestreameditem)() | 初始化[`ExchangeStreamedItem`](../exchangestreameditem) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.clients.exchange.webservice/exchangestreameditem/data) { get; set; } | 获取或设置项目数据 |
+| [Data](../../aspose.email.clients.exchange.webservice/exchangestreameditem/data) { get; set; } | 获取或设置项数据 |
 | [DataEncoding](../../aspose.email.clients.exchange.webservice/exchangestreameditem/dataencoding) { get; set; } | 获取或设置数据编码。 |
 | [ItemId](../../aspose.email.clients.exchange.webservice/exchangestreameditem/itemid) { get; set; } | 获取或设置项目标识符 |
 

@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает описание категории Пользовательский URL-адреса
+description: Получает описание категории Пользовательский URL
 type: docs
 weight: 90
 url: /ru/net/aspose.email.personalinfo/urlcategory/description/
 ---
 ## UrlCategory.Description property
 
-Получает описание категории "Пользовательский" URL-адреса
+Получает описание категории «Пользовательский» URL
 
 ```csharp
 public string Description { get; }

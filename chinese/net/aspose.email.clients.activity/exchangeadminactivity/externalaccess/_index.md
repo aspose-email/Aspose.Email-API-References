@@ -1,14 +1,14 @@
 ---
 title: ExternalAccess
 second_title: Aspose.Email for .NET API 参考
-description: 指定 cmdlet 是由组织中的用户Microsoft 数据中心人员或数据中心服务帐户运行还是由委派管理员运行 值 False 表示该 cmdlet 由组织中的某个人运行 True 值表示 cmdlet 由数据中心人员数据中心服务帐户或委派管理员运行
+description: 指定 cmdlet 是由组织中的用户Microsoft 数据中心人员或数据中心服务帐户运行还是由委派管理员运行 值 False 表示 cmdlet 由组织中的某个人运行 值 True 表示 cmdlet 由数据中心人员数据中心服务帐户或委派管理员运行
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/exchangeadminactivity/externalaccess/
 ---
 ## ExchangeAdminActivity.ExternalAccess property
 
-指定 cmdlet 是由组织中的用户、Microsoft 数据中心人员或数据中心服务帐户运行，还是由委派管理员运行。 值 False 表示该 cmdlet 由组织中的某个人运行。 True 值表示 cmdlet 由数据中心人员、数据中心服务帐户或委派管理员运行。
+指定 cmdlet 是由组织中的用户、Microsoft 数据中心人员或数据中心服务帐户运行，还是由委派管理员运行。 值 False 表示 cmdlet 由组织中的某个人运行。 值 True 表示 cmdlet 由数据中心人员、数据中心服务帐户或委派管理员运行。
 
 ```csharp
 public bool ExternalAccess { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the location.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.calendar/appointment/location/
 ---
 ## Appointment.Location property

@@ -1,7 +1,7 @@
 ---
 title: Email2Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Email2 category
 type: docs
 weight: 150
 url: /net/aspose.email.personalinfo/emailaddresscategory/email2value/

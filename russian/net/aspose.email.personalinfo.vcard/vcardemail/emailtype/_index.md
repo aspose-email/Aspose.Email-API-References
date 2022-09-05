@@ -1,14 +1,14 @@
 ---
 title: EmailType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип адреса электронной почты
+description: Получает или задает адрес электронной почты type
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardemail/emailtype/
 ---
 ## VCardEmail.EmailType property
 
-Получает или задает тип адреса электронной почты
+Получает или задает адрес электронной почты type
 
 ```csharp
 public VCardEmailType EmailType { get; set; }
@@ -18,7 +18,7 @@ public VCardEmailType EmailType { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *value*не определено в[`VCardEmailType`](../../vcardemailtype) |
+| ArgumentException | *value* не определяется в[`VCardEmailType`](../../vcardemailtype) |
 
 ### Смотрите также
 

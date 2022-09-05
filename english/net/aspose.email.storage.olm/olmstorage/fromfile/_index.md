@@ -1,7 +1,7 @@
 ---
 title: FromFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load OLM storage from file.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.olm/olmstorage/fromfile/

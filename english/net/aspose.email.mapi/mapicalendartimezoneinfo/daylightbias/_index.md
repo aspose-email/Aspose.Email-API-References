@@ -1,7 +1,7 @@
 ---
 title: DaylightBias
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets offset in minutes from lBias during daylight saving time.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/daylightbias/

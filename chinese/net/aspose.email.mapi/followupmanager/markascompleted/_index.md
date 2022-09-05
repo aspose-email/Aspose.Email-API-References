@@ -16,13 +16,13 @@ public static void MarkAsCompleted(MapiMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)设置了一个标志。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中设置了一个标志。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 

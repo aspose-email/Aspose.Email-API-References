@@ -1,12 +1,12 @@
 ---
 title: EmptyFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Empties the specified folder. Subfolders will not be deleted deleted items will be moved into DeletedItems folder
 type: docs
 weight: 680
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/emptyfolder/
 ---
-## IEWSClient.EmptyFolder method (1 of 2)
+## EmptyFolder(string) {#emptyfolder}
 
 Empties the specified folder. Subfolders will not be deleted; deleted items will be moved into DeletedItems folder
 
@@ -33,7 +33,7 @@ public void EmptyFolder(string folderUri)
 
 ---
 
-## IEWSClient.EmptyFolder method (2 of 2)
+## EmptyFolder(string, EmptyFolderOptions) {#emptyfolder_1}
 
 Empties the specified folder
 

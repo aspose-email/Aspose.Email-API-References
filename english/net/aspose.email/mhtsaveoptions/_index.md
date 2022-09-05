@@ -1,9 +1,9 @@
 ---
 title: MhtSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 18880
+weight: 19090
 url: /net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class

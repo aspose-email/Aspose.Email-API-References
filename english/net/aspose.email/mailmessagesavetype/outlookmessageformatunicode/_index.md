@@ -1,7 +1,7 @@
 ---
 title: OutlookMessageFormatUnicode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the MSG.
 type: docs
 weight: 60
 url: /net/aspose.email/mailmessagesavetype/outlookmessageformatunicode/

@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets array of name value pairs wich are added to WebHeaderCollection in EWS request.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/headers/

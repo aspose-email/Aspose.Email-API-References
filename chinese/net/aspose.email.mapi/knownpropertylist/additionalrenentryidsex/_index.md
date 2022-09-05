@@ -1,14 +1,14 @@
 ---
 title: AdditionalRenEntryIdsEx
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定几个特殊文件夹的 EntryID 的块数组 区域Outlook 应用程序 规范名称PidTagAdditionalRenEntryIdsEx 替代名称PR_ADDITIONAL_REN_ENTRYIDS_EX ptagAdditionalRenEntryIdsEx
+description: 包含指定几个特殊文件夹的 EntryID 的块数组 区域Outlook 应用程序 规范名称PidTagAdditionalRenEntryIdsEx 替代名称PR_ADDITIONAL_REN_ENTRYIDS_EXptagAdditionalRenEntryIdsEx
 type: docs
 weight: 310
 url: /zh/net/aspose.email.mapi/knownpropertylist/additionalrenentryidsex/
 ---
 ## KnownPropertyList.AdditionalRenEntryIdsEx field
 
-包含指定几个特殊文件夹的 EntryID 的块数组。 区域:Outlook 应用程序 规范名称:PidTagAdditionalRenEntryIdsEx 替代名称:PR_ADDITIONAL_REN_ENTRYIDS_EX, ptagAdditionalRenEntryIdsEx
+包含指定几个特殊文件夹的 EntryID 的块数组。 区域：Outlook 应用程序 规范名称：PidTagAdditionalRenEntryIdsEx 替代名称：PR_ADDITIONAL_REN_ENTRYIDS_EX、ptagAdditionalRenEntryIdsEx
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AdditionalRenEntryIdsEx;

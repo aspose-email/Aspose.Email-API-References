@@ -1,14 +1,14 @@
 ---
 title: Date
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату и время события.
+description: Получает или задает дату и время для события.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/customerevent/date/
 ---
 ## CustomerEvent.Date property
 
-Получает или задает дату и время события.
+Получает или задает дату и время для события.
 
 ```csharp
 public DateTime Date { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ContentReturnRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_RETURN_REQUESTED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_RETURN_REQUESTED
 type: docs
 weight: 3240
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentreturnrequested/
 ---
 ## KnownPropertyList.ContentReturnRequested field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_RETURN_REQUESTED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_RETURN_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentReturnRequested;

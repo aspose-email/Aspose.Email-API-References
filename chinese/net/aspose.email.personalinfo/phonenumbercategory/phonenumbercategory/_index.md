@@ -1,14 +1,14 @@
 ---
 title: PhoneNumberCategory
 second_title: Aspose.Email for .NET API 参考
-description: 使用自定义类别初始化PhoneNumberCategoryaspose.email.personalinfo/phonenumbercategory类的新实例
+description: 初始化PhoneNumberCategoryaspose.email.personalinfo/phonenumbercategory具有自定义类别的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/phonenumbercategory/
 ---
 ## PhoneNumberCategory constructor
 
-使用“自定义”类别初始化[`PhoneNumberCategory`](../../phonenumbercategory)类的新实例。
+初始化[`PhoneNumberCategory`](../../phonenumbercategory)具有“自定义”类别的类。
 
 ```csharp
 public PhoneNumberCategory(string description)
@@ -16,7 +16,7 @@ public PhoneNumberCategory(string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | String | 电话号码“自定义”类别的描述 |
+| description | String | 电话号码的“自定义”类别的说明 |
 
 ### 也可以看看
 

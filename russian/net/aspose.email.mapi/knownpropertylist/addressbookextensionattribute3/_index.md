@@ -1,14 +1,14 @@
 ---
 title: AddressBookExtensionAttribute3
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. ОбластьАдресная книга Каноническое имяPidTagAddressBookExtensionAttribute3 Альтернативные именаPR_EMS_AB_EXTENSION_ATTRIBUTE_3 PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
+description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. Область Адресная книга Каноническое имя PidTagAddressBookExtensionAttribute3 Альтернативные имена PR_EMS_AB_EXTENSION_ATTRIBUTE_3 PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
 type: docs
 weight: 530
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute3/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute3 field
 
-Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область:Адресная книга Каноническое имя:PidTagAddressBookExtensionAttribute3 Альтернативные имена:PR_EMS_AB_EXTENSION_ATTRIBUTE_3, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
+Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область: Адресная книга Каноническое имя: PidTagAddressBookExtensionAttribute3 Альтернативные имена: PR_EMS_AB_EXTENSION_ATTRIBUTE_3, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_3_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute3;

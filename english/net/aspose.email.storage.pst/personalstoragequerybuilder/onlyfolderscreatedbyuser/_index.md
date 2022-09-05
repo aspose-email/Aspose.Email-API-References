@@ -1,7 +1,7 @@
 ---
 title: OnlyFoldersCreatedByUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets folders that created by user i.e. excludes all standard IPM folders.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/onlyfolderscreatedbyuser/

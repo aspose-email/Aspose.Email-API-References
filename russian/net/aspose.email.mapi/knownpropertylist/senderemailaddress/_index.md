@@ -1,14 +1,14 @@
 ---
 title: SenderEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты владельца отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSenderEmailAddress Альтернативные именаPR_SENDER_EMAIL_ADDRESS PR_SENDER_EMAIL_ADDRESS_A PR_SENDER_EMAIL_ADDRESS_W
+description: Содержит адрес электронной почты владельца отправляющего почтового ящика. Область Address Properties Каноническое имя PidTagSenderEmailAddress Альтернативные имена PR_SENDER_EMAIL_ADDRESS PR_SENDER_EMAIL_ADDRESS_A PR_SENDER_EMAIL_ADDRESS_W
 type: docs
 weight: 17100
 url: /ru/net/aspose.email.mapi/knownpropertylist/senderemailaddress/
 ---
 ## KnownPropertyList.SenderEmailAddress field
 
-Содержит адрес электронной почты владельца отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSenderEmailAddress Альтернативные имена:PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W
+Содержит адрес электронной почты владельца отправляющего почтового ящика. Область: Address Properties Каноническое имя: PidTagSenderEmailAddress Альтернативные имена: PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderEmailAddress;

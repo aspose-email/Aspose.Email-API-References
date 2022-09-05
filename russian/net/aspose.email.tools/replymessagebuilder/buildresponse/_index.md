@@ -16,7 +16,7 @@ public override MailMessage BuildResponse(MailMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msg | MailMessage | Исходное сообщение[`MailMessage`](../../../aspose.email/mailmessage). |
+| msg | MailMessage | Оригинал сообщения[`MailMessage`](../../../aspose.email/mailmessage). |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public override MapiMessage BuildResponse(MapiMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| msg | MapiMessage | Исходное сообщение[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
+| msg | MapiMessage | Оригинал сообщения[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
 ### Возвращаемое значение
 

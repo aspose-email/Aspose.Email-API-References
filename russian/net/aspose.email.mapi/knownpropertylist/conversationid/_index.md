@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит вычисленное значение полученное из других свойств связанных с диалогом. ОбластьБеседы Каноническое имяPidTagConversationId Альтернативные именаPR_CONVERSATION_ID
+description: Содержит вычисленное значение полученное из других свойств связанных с общением. Область Conversations Каноническое имя PidTagConversationId Альтернативные имена PR_CONVERSATION_ID
 type: docs
 weight: 3390
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationid/
 ---
 ## KnownPropertyList.ConversationId field
 
-Содержит вычисленное значение, полученное из других свойств, связанных с диалогом. Область:Беседы Каноническое имя:PidTagConversationId Альтернативные имена:PR_CONVERSATION_ID
+Содержит вычисленное значение, полученное из других свойств, связанных с общением. Область: Conversations Каноническое имя: PidTagConversationId Альтернативные имена: PR_CONVERSATION_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationId;

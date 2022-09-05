@@ -1,14 +1,14 @@
 ---
 title: StandardBias
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置在标准时间内与 lBias 的偏移量以分钟为单位
+description: 获取或设置标准时间内从 lBias 开始的偏移量
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicalendartimezoneinfo/standardbias/
 ---
 ## MapiCalendarTimeZoneInfo.StandardBias property
 
-获取或设置在标准时间内与 lBias 的偏移量（以分钟为单位）。
+获取或设置标准时间内从 lBias 开始的偏移量。
 
 ```csharp
 public int StandardBias { get; set; }

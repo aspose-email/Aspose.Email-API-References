@@ -18,7 +18,7 @@ public sealed class UserConfigurationName
 
 | Имя | Описание |
 | --- | --- |
-| [UserConfigurationName](userconfigurationname)(string, string) | Инициализирует новый экземпляр класса[`UserConfigurationName`](../userconfigurationname) |
+| [UserConfigurationName](userconfigurationname)(string, string) | Инициализирует новый экземпляр[`UserConfigurationName`](../userconfigurationname) класс |
 
 ## Характеристики
 

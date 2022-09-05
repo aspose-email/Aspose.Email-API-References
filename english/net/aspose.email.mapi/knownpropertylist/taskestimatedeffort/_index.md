@@ -1,7 +1,7 @@
 ---
 title: TaskEstimatedEffort
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the number of minutes that the user expects to work on a task. Area Tasks Canonical name PidLidTaskEstimatedEffort Alternate names dispidTaskEstimatedEffort
 type: docs
 weight: 18630
 url: /net/aspose.email.mapi/knownpropertylist/taskestimatedeffort/

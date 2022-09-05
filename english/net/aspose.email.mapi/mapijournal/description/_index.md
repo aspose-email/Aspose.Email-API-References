@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the description of activity that is being recorded.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapijournal/description/

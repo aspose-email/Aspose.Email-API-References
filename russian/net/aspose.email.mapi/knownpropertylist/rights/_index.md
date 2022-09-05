@@ -1,14 +1,14 @@
 ---
 title: Rights
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает права доступа к папке пользователя. ОбластьExchangeFolder Каноническое имяPidTagRights Альтернативные именаPR_RIGHTS ptagRights
+description: Задает права доступа к папке пользователя. Область ExchangeFolder Каноническое имя PidTagRights Альтернативные имена PR_RIGHTS ptagRights
 type: docs
 weight: 16290
 url: /ru/net/aspose.email.mapi/knownpropertylist/rights/
 ---
 ## KnownPropertyList.Rights field
 
-Задает права доступа к папке пользователя. Область:ExchangeFolder Каноническое имя:PidTagRights Альтернативные имена:PR_RIGHTS, ptagRights
+Задает права доступа к папке пользователя. Область: ExchangeFolder Каноническое имя: PidTagRights Альтернативные имена: PR_RIGHTS, ptagRights
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Rights;

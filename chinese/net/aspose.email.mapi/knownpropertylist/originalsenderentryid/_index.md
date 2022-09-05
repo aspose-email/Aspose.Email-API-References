@@ -1,14 +1,14 @@
 ---
 title: OriginalSenderEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含在传递报告消息上设置的地址簿条目 ID 区域常规消息属性 规范名称PidTagOriginalSenderEntryId 替代名称PR_ORIGINAL_SENDER_ENTRYID ptagOriginalSenderEntryId
+description: 包含在传递报告消息中设置的地址簿条目 ID 区域常规消息属性 规范名称PidTagOriginalSenderEntryId 替代名称PR_ORIGINAL_SENDER_ENTRYIDptagOriginalSenderEntryId
 type: docs
 weight: 13680
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsenderentryid/
 ---
 ## KnownPropertyList.OriginalSenderEntryId field
 
-包含在传递报告消息上设置的地址簿条目 ID。 区域:常规消息属性 规范名称:PidTagOriginalSenderEntryId 替代名称:PR_ORIGINAL_SENDER_ENTRYID, ptagOriginalSenderEntryId
+包含在传递报告消息中设置的地址簿条目 ID。 区域：常规消息属性 规范名称：PidTagOriginalSenderEntryId 替代名称：PR_ORIGINAL_SENDER_ENTRYID、ptagOriginalSenderEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSenderEntryId;

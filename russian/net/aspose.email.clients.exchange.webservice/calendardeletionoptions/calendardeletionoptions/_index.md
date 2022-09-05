@@ -1,14 +1,14 @@
 ---
 title: CalendarDeletionOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаCalendarDeletionOptionsaspose.email.clients.exchange.webservice/calendardeletionoptions.
+description: Инициализирует новый экземплярCalendarDeletionOptionsaspose.email.clients.exchange.webservice/calendardeletionoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/calendardeletionoptions/calendardeletionoptions/
 ---
 ## CalendarDeletionOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../../calendardeletionoptions).
+Инициализирует новый экземпляр[`CalendarDeletionOptions`](../../calendardeletionoptions) класс.
 
 ```csharp
 public CalendarDeletionOptions()
@@ -24,7 +24,7 @@ public CalendarDeletionOptions()
 
 ## CalendarDeletionOptions(DeletionType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../../calendardeletionoptions).
+Инициализирует новый экземпляр[`CalendarDeletionOptions`](../../calendardeletionoptions) класс.
 
 ```csharp
 public CalendarDeletionOptions(DeletionType type)
@@ -45,7 +45,7 @@ public CalendarDeletionOptions(DeletionType type)
 
 ## CalendarDeletionOptions(DeletionType, CalendarItemCreateOrDeleteOperation) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../../calendardeletionoptions).
+Инициализирует новый экземпляр[`CalendarDeletionOptions`](../../calendardeletionoptions) класс.
 
 ```csharp
 public CalendarDeletionOptions(DeletionType type, 
@@ -55,7 +55,7 @@ public CalendarDeletionOptions(DeletionType type,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | DeletionType | Тип удаления |
-| notyficationType | CalendarItemCreateOrDeleteOperation | указывает, как члены событие должно быть уведомлено |
+| notyficationType | CalendarItemCreateOrDeleteOperation | указывает, как участники события должны быть уведомлены |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Png
 second_title: Aspose.Email for .NET API 参考
-description: 指定图像/png媒体类型
+description: 指定图像/png 媒体类型
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mime/mediatypenames.image/png/
 ---
 ## MediaTypeNames.Image.Png field
 
-指定图像/png媒体类型
+指定图像/png 媒体类型
 
 ```csharp
 public const string Png;

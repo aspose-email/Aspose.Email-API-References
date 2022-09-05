@@ -1,7 +1,7 @@
 ---
 title: NntpXref
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_NNTP_XREF
 type: docs
 weight: 12930
 url: /net/aspose.email.mapi/knownpropertylist/nntpxref/

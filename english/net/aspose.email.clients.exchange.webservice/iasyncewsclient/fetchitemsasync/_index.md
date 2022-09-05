@@ -1,7 +1,7 @@
 ---
 title: FetchItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified items.
 type: docs
 weight: 260
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync/

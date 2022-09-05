@@ -1,14 +1,14 @@
 ---
 title: DeferredDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время в формате UTC когда отправитель предпочитает чтобы сообщение было доставлено. ОбластьMapiEnvelope Каноническое имяPidTagDeferredDeliveryTime Альтернативные именаPR_DEFERRED_DELIVERY_TIME ptagDeferredDeliveryTime
+description: Содержит дату и время в формате UTC когда отправитель предпочитает чтобы сообщение было доставлено. Область MapiEnvelope Каноническое имя PidTagDeferredDeliveryTime Альтернативные имена PR_DEFERRED_DELIVERY_TIME ptagDeferredDeliveryTime
 type: docs
 weight: 3780
 url: /ru/net/aspose.email.mapi/knownpropertylist/deferreddeliverytime/
 ---
 ## KnownPropertyList.DeferredDeliveryTime field
 
-Содержит дату и время в формате UTC, когда отправитель предпочитает, чтобы сообщение было доставлено. Область:MapiEnvelope Каноническое имя:PidTagDeferredDeliveryTime Альтернативные имена:PR_DEFERRED_DELIVERY_TIME, ptagDeferredDeliveryTime,
+Содержит дату и время в формате UTC, когда отправитель предпочитает, чтобы сообщение было доставлено. Область: MapiEnvelope Каноническое имя: PidTagDeferredDeliveryTime Альтернативные имена: PR_DEFERRED_DELIVERY_TIME, ptagDeferredDeliveryTime,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredDeliveryTime;

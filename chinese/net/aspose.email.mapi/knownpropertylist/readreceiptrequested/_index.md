@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptRequested
 second_title: Aspose.Email for .NET API 参考
-description: 指定电子邮件发件人在阅读或打开此电子邮件时是否向所有收件人请求已读回执 区域电子邮件 规范名称PidTagReadReceiptRequested 备用名称PR_READ_RECEIPT_REQUESTED ptagReadReceiptRequested
+description: 指定电子邮件发件人在阅读或打开此电子邮件时是否向所有收件人请求已读回执 区域Email 规范名称PidTagReadReceiptRequested 替代名称PR_READ_RECEIPT_REQUESTEDptagReadReceiptRequested
 type: docs
 weight: 15230
 url: /zh/net/aspose.email.mapi/knownpropertylist/readreceiptrequested/
 ---
 ## KnownPropertyList.ReadReceiptRequested field
 
-指定电子邮件发件人在阅读或打开此电子邮件时是否向所有收件人请求已读回执。 区域:电子邮件 规范名称:PidTagReadReceiptRequested 备用名称:PR_READ_RECEIPT_REQUESTED, ptagReadReceiptRequested,
+指定电子邮件发件人在阅读或打开此电子邮件时是否向所有收件人请求已读回执。 区域：Email 规范名称：PidTagReadReceiptRequested 替代名称：PR_READ_RECEIPT_REQUESTED、ptagReadReceiptRequested、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptRequested;

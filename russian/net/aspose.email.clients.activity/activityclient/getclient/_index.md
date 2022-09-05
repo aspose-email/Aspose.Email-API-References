@@ -1,14 +1,14 @@
 ---
 title: GetClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаActivityClientaspose.email.clients.activity/activityclientна основе
+description: Инициализирует новый экземплярActivityClientaspose.email.clients.activity/activityclient на основе class
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.activity/activityclient/getclient/
 ---
 ## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
-Инициализирует новый экземпляр класса[`ActivityClient`](../../activityclient)на основе
+Инициализирует новый экземпляр[`ActivityClient`](../../activityclient) на основе class
 
 ```csharp
 public static IActivityClient GetClient(IMultipleServicesTokenProvider tokenProvider, 
@@ -18,7 +18,7 @@ public static IActivityClient GetClient(IMultipleServicesTokenProvider tokenProv
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tokenProvider | IMultipleServicesTokenProvider | Поставщик токенов позволяет получить токен доступа OAuth |
-| tenantId | String | Арендатор является представителем организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения, создает отношения с Microsoft, такие как регистрация в Azure, Microsoft Intune или Microsoft 365. |
+| tenantId | String | Арендатор — представитель организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения создает отношения с Microsoft, например регистрируется в Azure, Microsoft Intune или Microsoft 365. |
 
 ### Возвращаемое значение
 
@@ -36,7 +36,7 @@ public static IActivityClient GetClient(IMultipleServicesTokenProvider tokenProv
 
 ## GetClient(ITokenProvider, string) {#getclient_1}
 
-Инициализирует новый экземпляр класса[`ActivityClient`](../../activityclient)на основе
+Инициализирует новый экземпляр[`ActivityClient`](../../activityclient) на основе class
 
 ```csharp
 public static IActivityClient GetClient(ITokenProvider tokenProvider, string tenantId)
@@ -45,7 +45,7 @@ public static IActivityClient GetClient(ITokenProvider tokenProvider, string ten
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tokenProvider | ITokenProvider | Поставщик токенов позволяет получить токен доступа OAuth |
-| tenantId | String | Арендатор является представителем организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения, создает отношения с Microsoft, такие как регистрация в Azure, Microsoft Intune или Microsoft 365. |
+| tenantId | String | Арендатор — представитель организации. Это выделенный экземпляр Azure AD, который организация или разработчик приложения получает, когда организация или разработчик приложения создает отношения с Microsoft, например регистрируется в Azure, Microsoft Intune или Microsoft 365. |
 
 ### Возвращаемое значение
 

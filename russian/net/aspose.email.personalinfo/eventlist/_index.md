@@ -3,7 +3,7 @@ title: EventList
 second_title: Справочник по Aspose.Email для .NET API
 description: Список событий для контакта
 type: docs
-weight: 19370
+weight: 19400
 url: /ru/net/aspose.email.personalinfo/eventlist/
 ---
 ## EventList class
@@ -26,7 +26,7 @@ public class EventList : IList<CustomerEvent>
 | --- | --- |
 | [Anniversary](../../aspose.email.personalinfo/eventlist/anniversary) { get; set; } | Годовщина свадьбы |
 | [Birthday](../../aspose.email.personalinfo/eventlist/birthday) { get; set; } | День рождения |
-| [Count](../../aspose.email.personalinfo/eventlist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/eventlist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [IsReadOnly](../../aspose.email.personalinfo/eventlist/isreadonly) { get; } | Получает значение, указывающее, доступен ли список только для чтения. |
 | [Item](../../aspose.email.personalinfo/eventlist/item) { get; set; } | Получает или задает элемент по указанному индексу. |
 

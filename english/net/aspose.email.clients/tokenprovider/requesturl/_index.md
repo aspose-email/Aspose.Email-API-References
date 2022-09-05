@@ -1,7 +1,7 @@
 ---
 title: RequestUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The url to obtain access token.
 type: docs
 weight: 80
 url: /net/aspose.email.clients/tokenprovider/requesturl/

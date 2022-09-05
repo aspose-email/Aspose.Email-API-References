@@ -16,7 +16,7 @@ public string[] GetValues(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 标头名称。 |
+| name | String | 标题名称。 |
 
 ### 返回值
 

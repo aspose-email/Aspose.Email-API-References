@@ -1,14 +1,14 @@
 ---
 title: DeliveryMethod
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置传递方式
+description: 获取或设置投递方式
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.smtp/smtpclient/deliverymethod/
 ---
 ## SmtpClient.DeliveryMethod property
 
-获取或设置传递方式。
+获取或设置投递方式
 
 ```csharp
 public SmtpDeliveryMethod DeliveryMethod { get; set; }
@@ -16,7 +16,7 @@ public SmtpDeliveryMethod DeliveryMethod { get; set; }
 
 ### 适当的价值
 
-一个 SmtpDeliveryMethod，指示如何传递消息。
+指示如何传递消息的 SmtpDeliveryMethod。
 
 ### 也可以看看
 

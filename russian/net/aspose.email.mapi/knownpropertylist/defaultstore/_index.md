@@ -1,14 +1,14 @@
 ---
 title: DefaultStore
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DEFAULT_STORE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DEFAULT_STORE
 type: docs
 weight: 3730
 url: /ru/net/aspose.email.mapi/knownpropertylist/defaultstore/
 ---
 ## KnownPropertyList.DefaultStore field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DEFAULT_STORE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DEFAULT_STORE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DefaultStore;

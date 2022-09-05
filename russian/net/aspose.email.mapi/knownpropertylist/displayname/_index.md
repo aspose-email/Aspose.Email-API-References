@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя папки. ОбластьMapiCommon Каноническое имяPidTagDisplayName Альтернативные именаPR_DISPLAY_NAME PR_DISPLAY_NAME_A ptagDisplayName
+description: Содержит отображаемое имя папки. Область MapiCommon Каноническое имя PidTagDisplayName Альтернативные имена PR_DISPLAY_NAME PR_DISPLAY_NAME_A ptagDisplayName
 type: docs
 weight: 4140
 url: /ru/net/aspose.email.mapi/knownpropertylist/displayname/
 ---
 ## KnownPropertyList.DisplayName field
 
-Содержит отображаемое имя папки. Область:MapiCommon Каноническое имя:PidTagDisplayName Альтернативные имена:PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, ptagDisplayName,
+Содержит отображаемое имя папки. Область: MapiCommon Каноническое имя: PidTagDisplayName Альтернативные имена: PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, ptagDisplayName,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayName;

@@ -1,14 +1,14 @@
 ---
 title: LinksDirty
 second_title: Aspose.Email for .NET API 参考
-description: 指示文档中的链接是否是最新的 区域普通 规范名称PidNameLinksDirty 替代名称urnschemas-microsoft-comofficeofficeLinksUpToDate
+description: 指示文档中的链接是否是最新的 区域Common 规范名称PidNameLinksDirty 备用名称urnschemas-microsoft-comofficeofficeLinksUpToDate
 type: docs
 weight: 12110
 url: /zh/net/aspose.email.mapi/knownpropertylist/linksdirty/
 ---
 ## KnownPropertyList.LinksDirty field
 
-指示文档中的链接是否是最新的。 区域：普通 规范名称：PidNameLinksDirty 替代名称：urn:schemas-microsoft-com:office:office#LinksUpToDate
+指示文档中的链接是否是最新的。 区域：Common 规范名称：PidNameLinksDirty 备用名称：urn:schemas-microsoft-com:office:office#LinksUpToDate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LinksDirty;

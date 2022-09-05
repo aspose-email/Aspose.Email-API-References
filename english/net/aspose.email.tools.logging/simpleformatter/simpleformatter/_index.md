@@ -1,12 +1,12 @@
 ---
 title: SimpleFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new SimpleFormatter instance.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/simpleformatter/simpleformatter/
 ---
-## SimpleFormatter constructor (1 of 2)
+## SimpleFormatter() {#constructor}
 
 Creates a new SimpleFormatter instance.
 
@@ -22,7 +22,7 @@ public SimpleFormatter()
 
 ---
 
-## SimpleFormatter constructor (2 of 2)
+## SimpleFormatter(string, string) {#constructor_1}
 
 Creates a new SimpleFormatter instance.
 

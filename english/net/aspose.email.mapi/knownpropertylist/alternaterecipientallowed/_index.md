@@ -1,7 +1,7 @@
 ---
 title: AlternateRecipientAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the sender permits the message to be autoforwarded. Area Address Properties Canonical name PidTagAlternateRecipientAllowed Alternate names PR_ALTERNATE_RECIPIENT_ALLOWED ptagAlternateRecipientAllowed
 type: docs
 weight: 1070
 url: /net/aspose.email.mapi/knownpropertylist/alternaterecipientallowed/

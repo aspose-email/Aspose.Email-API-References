@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает отчество контакта
+description: Получает или задает отчество контакта
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/middlename/
 ---
 ## MapiContactNamePropertySet.MiddleName property
 
-Получает или устанавливает отчество контакта
+Получает или задает отчество контакта
 
 ```csharp
 public string MiddleName { get; set; }

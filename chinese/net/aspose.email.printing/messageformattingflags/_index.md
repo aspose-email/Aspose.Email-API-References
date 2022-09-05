@@ -3,7 +3,7 @@ title: MessageFormattingFlags
 second_title: Aspose.Email for .NET API 参考
 description: 表示可以在消息格式化过程中为各种输出设置的可能选项
 type: docs
-weight: 19830
+weight: 19880
 url: /zh/net/aspose.email.printing/messageformattingflags/
 ---
 ## MessageFormattingFlags enumeration
@@ -20,8 +20,8 @@ public enum MessageFormattingFlags
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何选项。 |
-| MailInfo | `1` | 表示邮件头包括From,To, CC, DateSent &amp;主题应包含在结果中。 |
-| AutoFitWidth | `2` | 指定页面宽度是否自动适应内容。 |
+| MailInfo | `1` | 表示邮件头包括 From,To, CC, DateSent &amp; Subject 应该包含在结果中。 |
+| AutoFitWidth | `2` | 指定页面宽度是否由内容自动适应。 |
 | Attachments | `4` | 表示邮件附件名称应包含在结果中。 |
 
 ### 也可以看看

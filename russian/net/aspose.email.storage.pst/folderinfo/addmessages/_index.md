@@ -16,7 +16,7 @@ public void AddMessages(IEnumerable<MapiMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | AnIEnumerator представляющий перечислитель, который поддерживает итерацию по коллекции[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
+| messages | IEnumerable`1 | АнIEnumerator представляет перечислитель, который поддерживает итерацию по коллекции[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
 ### Смотрите также
 

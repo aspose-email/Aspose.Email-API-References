@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a boolean indicating if the passed in object obj is Equal to this.
 type: docs
 weight: 280
 url: /net/aspose.email/headertype/equals/

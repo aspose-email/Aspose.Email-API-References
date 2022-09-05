@@ -1,14 +1,14 @@
 ---
 title: FolderAssociatedContents
 second_title: Aspose.Email for .NET API 参考
-description: 标识当前文件夹中的所有 FAI 消息 区域MapiContainer 规范名称PidTagFolderAssociatedContents 替代名称PR_FOLDER_ASSOCIATED_CONTENTS
+description: 标识当前文件夹中的所有 FAI 消息 区域MapiContainer 规范名称PidTagFolderAssociatedContents 备用名称PR_FOLDER_ASSOCIATED_CONTENTS
 type: docs
 weight: 10390
 url: /zh/net/aspose.email.mapi/knownpropertylist/folderassociatedcontents/
 ---
 ## KnownPropertyList.FolderAssociatedContents field
 
-标识当前文件夹中的所有 FAI 消息。 区域:MapiContainer 规范名称:PidTagFolderAssociatedContents 替代名称:PR_FOLDER_ASSOCIATED_CONTENTS
+标识当前文件夹中的所有 FAI 消息。 区域：MapiContainer 规范名称：PidTagFolderAssociatedContents 备用名称：PR_FOLDER_ASSOCIATED_CONTENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderAssociatedContents;

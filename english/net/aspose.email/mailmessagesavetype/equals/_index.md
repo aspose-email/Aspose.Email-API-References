@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Equalses the specified o.
 type: docs
 weight: 70
 url: /net/aspose.email/mailmessagesavetype/equals/

@@ -1,7 +1,7 @@
 ---
 title: IActivityClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the interface for Exchange REST client.
 type: docs
 weight: 2570
 url: /net/aspose.email.clients.activity/iactivityclient/
@@ -30,8 +30,8 @@ public interface IActivityClient : IDisposable
 | Name | Description |
 | --- | --- |
 | [FetchContent](../../aspose.email.clients.activity/iactivityclient/fetchcontent)(string) | This operation fetches content currently available for retrieval for the specified content id. |
-| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent)(string) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. By default, when startTime and endTime are omitted, then the content available in the last 24 hours is returned. |
-| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent)(string, DateTime?, DateTime?) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. |
+| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent#listcontent)(string) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. By default, when startTime and endTime are omitted, then the content available in the last 24 hours is returned. |
+| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent#listcontent_1)(string, DateTime?, DateTime?) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. |
 | [ListFriendlyNames](../../aspose.email.clients.activity/iactivityclient/listfriendlynames)() | This operation retrieves friendly names for objects in the data feed identified by guids. |
 | [ListSubscriptions](../../aspose.email.clients.activity/iactivityclient/listsubscriptions)() | This operation returns a collection of the current subscriptions together with the associated webhooks. |
 | [StartSubscription](../../aspose.email.clients.activity/iactivityclient/startsubscription)(string, Webhook) | Starts a subscription to the specified content type. If a subscription to the specified content type already exists, this operation is used to: - update the properties of an active webhook - enable a webhook that was disabled because of excessive failed notifications - re-enable an expired webhook by specifying a later or null expiration date - remove a webhook |

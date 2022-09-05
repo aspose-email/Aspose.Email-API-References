@@ -1,14 +1,14 @@
 ---
 title: SkypeValue
 second_title: Aspose.Email for .NET API 参考
-description: Skype 类别的字符串值
+description: Skype类别的字符串值
 type: docs
 weight: 290
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/skypevalue/
 ---
 ## InstantMessengerCategory.SkypeValue field
 
-'Skype' 类别的字符串值
+“Skype”类别的字符串值
 
 ```csharp
 public const string SkypeValue;

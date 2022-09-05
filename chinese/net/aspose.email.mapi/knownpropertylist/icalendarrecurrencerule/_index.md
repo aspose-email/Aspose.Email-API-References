@@ -1,14 +1,14 @@
 ---
 title: ICalendarRecurrenceRule
 second_title: Aspose.Email for .NET API 参考
-description: 为定义定期约会的模式指定规则 区域通用 规范名称PidNameICalendarRecurrenceRule 备用名称urnschemascalendarrrule
+description: 为定义定期约会的模式指定规则 区域Common 规范名称PidNameICalendarRecurrenceRule 备用名称urnschemascalendarrrule
 type: docs
 weight: 11170
 url: /zh/net/aspose.email.mapi/knownpropertylist/icalendarrecurrencerule/
 ---
 ## KnownPropertyList.ICalendarRecurrenceRule field
 
-为定义定期约会的模式指定规则。 区域:通用 规范名称:PidNameICalendarRecurrenceRule 备用名称:urn:schemas:calendar:rrule
+为定义定期约会的模式指定规则。 区域：Common 规范名称：PidNameICalendarRecurrenceRule 备用名称：urn:schemas:calendar:rrule
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ICalendarRecurrenceRule;

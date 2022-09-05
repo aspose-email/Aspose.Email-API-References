@@ -1,14 +1,14 @@
 ---
 title: SimpleFormatter
 second_title: Aspose.Email for .NET API 参考
-description: 表示 IFormatter 接口的默认实现
+description: 代表IFormatter接口的默认实现
 type: docs
-weight: 20530
+weight: 20580
 url: /zh/net/aspose.email.tools.logging/simpleformatter/
 ---
 ## SimpleFormatter class
 
-表示 IFormatter 接口的默认实现。
+代表IFormatter接口的默认实现。
 
 ```csharp
 public sealed class SimpleFormatter : Formatter
@@ -26,7 +26,7 @@ public sealed class SimpleFormatter : Formatter
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | 获取或设置页脚。 |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标题。 |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标头。 |
 | virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | 获取或设置日志头 |
 
 ## 方法

@@ -1,9 +1,9 @@
 ---
 title: TaskSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates TaskSaveFormat
 type: docs
-weight: 18820
+weight: 19030
 url: /net/aspose.email.mapi/tasksaveformat/
 ---
 ## TaskSaveFormat enumeration

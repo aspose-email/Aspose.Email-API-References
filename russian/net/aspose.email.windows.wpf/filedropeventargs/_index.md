@@ -1,14 +1,14 @@
 ---
 title: FileDropEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Специализированная версияEventArgsдляFileDropPanel./filedroppanel.
+description: Специализированная версияEventArgs заFileDropPanel./filedroppanel .
 type: docs
-weight: 20940
+weight: 20990
 url: /ru/net/aspose.email.windows.wpf/filedropeventargs/
 ---
 ## FileDropEventArgs class
 
-Специализированная версияEventArgsдля[`FileDropPanel`](../filedroppanel).
+Специализированная версияEventArgs за[`FileDropPanel`](../filedroppanel) .
 
 ```csharp
 public sealed class FileDropEventArgs : EventArgs
@@ -18,7 +18,7 @@ public sealed class FileDropEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [FileDropEventArgs](filedropeventargs)(FileDataObjectCollection) | Инициализирует новый экземпляр класса[`FileDropEventArgs`](../filedropeventargs). |
+| [FileDropEventArgs](filedropeventargs)(FileDataObjectCollection) | Инициализирует новый экземпляр[`FileDropEventArgs`](../filedropeventargs) класс. |
 
 ## Характеристики
 

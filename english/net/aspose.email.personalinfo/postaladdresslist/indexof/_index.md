@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines the index of a specific item in the list.
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/postaladdresslist/indexof/

@@ -1,14 +1,14 @@
 ---
 title: StoreState
 second_title: Aspose.Email for .NET API 参考
-description: 指示邮箱是否有任何活动的搜索文件夹 区域MapiMessageStore 规范名称PidTagStoreState 替代名称PR_STORE_STATE
+description: 指示邮箱是否有任何活动的搜索文件夹 区域MapiMessageStore 规范名称PidTagStoreState 备用名称PR_STORE_STATE
 type: docs
 weight: 18300
 url: /zh/net/aspose.email.mapi/knownpropertylist/storestate/
 ---
 ## KnownPropertyList.StoreState field
 
-指示邮箱是否有任何活动的搜索文件夹。 区域:MapiMessageStore 规范名称:PidTagStoreState 替代名称:PR_STORE_STATE
+指示邮箱是否有任何活动的搜索文件夹。 区域：MapiMessageStore 规范名称：PidTagStoreState 备用名称：PR_STORE_STATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreState;

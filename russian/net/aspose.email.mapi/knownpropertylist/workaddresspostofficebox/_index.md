@@ -1,14 +1,14 @@
 ---
 title: WorkAddressPostOfficeBox
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает часть почтового ящика рабочего адреса контакта. ОбластьСвойства контакта Каноническое имяPidLidWorkAddressPostOfficeBox Альтернативные именаdispidWorkAddressPostOfficeBox
+description: Указывает часть почтового ящика рабочего адреса контакта. Область Свойства контакта Каноническое имя PidLidWorkAddressPostOfficeBox Альтернативные имена dispidWorkAddressPostOfficeBox
 type: docs
 weight: 19600
 url: /ru/net/aspose.email.mapi/knownpropertylist/workaddresspostofficebox/
 ---
 ## KnownPropertyList.WorkAddressPostOfficeBox field
 
-Указывает часть почтового ящика рабочего адреса контакта. Область:Свойства контакта Каноническое имя:PidLidWorkAddressPostOfficeBox Альтернативные имена:dispidWorkAddressPostOfficeBox
+Указывает часть почтового ящика рабочего адреса контакта. Область: Свойства контакта Каноническое имя: PidLidWorkAddressPostOfficeBox Альтернативные имена: dispidWorkAddressPostOfficeBox
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressPostOfficeBox;

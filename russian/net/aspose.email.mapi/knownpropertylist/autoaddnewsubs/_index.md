@@ -1,14 +1,14 @@
 ---
 title: AutoAddNewSubs
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_AUTO_ADD_NEW_SUBS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_AUTO_ADD_NEW_SUBS
 type: docs
 weight: 1880
 url: /ru/net/aspose.email.mapi/knownpropertylist/autoaddnewsubs/
 ---
 ## KnownPropertyList.AutoAddNewSubs field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_AUTO_ADD_NEW_SUBS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_AUTO_ADD_NEW_SUBS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoAddNewSubs;

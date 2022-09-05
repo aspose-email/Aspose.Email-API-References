@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorVersion
 second_title: Aspose.Email for .NET API 参考
-description: 包含视图描述符版本 区域杂项属性 规范名称PidTagViewDescriptorVersion 替代名称PR_VD_VERSION
+description: 包含视图描述符版本 区域杂项属性 规范名称PidTagViewDescriptorVersion 备用名称PR_VD_VERSION
 type: docs
 weight: 19280
 url: /zh/net/aspose.email.mapi/knownpropertylist/viewdescriptorversion/
 ---
 ## KnownPropertyList.ViewDescriptorVersion field
 
-包含视图描述符版本。 区域:杂项属性 规范名称:PidTagViewDescriptorVersion 替代名称:PR_VD_VERSION
+包含视图描述符版本。 区域：杂项属性 规范名称：PidTagViewDescriptorVersion 备用名称：PR_VD_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorVersion;

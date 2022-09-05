@@ -18,22 +18,22 @@ public sealed class FindMessageTrackingReportOptions
 
 | Имя | Описание |
 | --- | --- |
-| [FindMessageTrackingReportOptions](findmessagetrackingreportoptions)(string, string) | Инициализирует новый экземпляр класса[`FindMessageTrackingReportOptions`](../findmessagetrackingreportoptions) |
+| [FindMessageTrackingReportOptions](findmessagetrackingreportoptions)(string, string) | Инициализирует новый экземпляр[`FindMessageTrackingReportOptions`](../findmessagetrackingreportoptions) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Получает или задает уровень диагностики, указывающий, насколько подробным должен быть отчет о трассировке. |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Получает или задает уровень диагностики, определяющий, насколько подробным должен быть отчет о трассировке. |
 | [Domain](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/domain) { get; set; } | Получает или задает домен для поиска. |
 | [EndDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime) { get; set; } | Получает или задает период времени поиска, указывающий, что сообщение было отправлено до этого значения. |
 | [FederatedDeliveryMailbox](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/federateddeliverymailbox) { get; set; } | Возвращает или задает почтовый ящик, на который было отправлено межучрежденческое сообщение. |
 | [MessageId](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/messageid) { get; set; } | Получает или задает идентификатор сообщения для поиска. |
-| [Recipient](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/recipient) { get; set; } | Получает или задает адреса электронной почты людей, получающих сообщение. |
+| [Recipient](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/recipient) { get; set; } | Получает или устанавливает адреса электронной почты людей, которые получают сообщение. |
 | [Scope](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/scope) { get; set; } | Получает или задает область поиска (непустая строка) |
 | [Sender](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/sender) { get; set; } | Получает или задает адрес электронной почты человека, отправляющего сообщение. |
 | [StartDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime) { get; set; } | Получает или задает период времени поиска, указывающий, что сообщение было отправлено после этого значения. |
-| [Subject](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject) { get; set; } | Получает или задает фильтр темы для поиска. |
+| [Subject](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject) { get; set; } | Получает или задает тематический фильтр для поиска. |
 
 ### Смотрите также
 

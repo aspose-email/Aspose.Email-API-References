@@ -1,7 +1,7 @@
 ---
 title: GetDecodedValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the header value.
 type: docs
 weight: 130
 url: /net/aspose.email.mime/headercollection/getdecodedvalue/

@@ -1,14 +1,14 @@
 ---
 title: MailMessageSaveType
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件信息的保存类型可以是emlmsgASCII or Unicodemhtml或者html格式 默认值为 Eml
+description: 表示邮件消息保存类型可以是emlmsgASCII or Unicodemhtml 或html 格式 默认值为Eml
 type: docs
 weight: 30
 url: /zh/net/aspose.email/saveoptions/mailmessagesavetype/
 ---
 ## SaveOptions.MailMessageSaveType property
 
-表示邮件信息的保存类型，可以是eml,msg(ASCII or Unicode),mhtml或者html格式。 默认值为 Eml。
+表示邮件消息保存类型。可以是eml,msg(ASCII or Unicode),mhtml 或html 格式。 默认值为Eml。
 
 ```csharp
 public MailMessageSaveType MailMessageSaveType { get; set; }

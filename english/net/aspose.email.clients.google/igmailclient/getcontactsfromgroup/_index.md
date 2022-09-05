@@ -1,7 +1,7 @@
 ---
 title: GetContactsFromGroup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches contacts belonging to the group specified.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.google/igmailclient/getcontactsfromgroup/

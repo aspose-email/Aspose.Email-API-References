@@ -1,14 +1,14 @@
 ---
 title: ExchangeCalendarEvent
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeCalendarEventaspose.email.clients.exchange.webservice/exchangecalendarevent.
+description: Инициализирует новый экземплярExchangeCalendarEventaspose.email.clients.exchange.webservice/exchangecalendarevent класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangecalendarevent/exchangecalendarevent/
 ---
 ## ExchangeCalendarEvent constructor
 
-Инициализирует новый экземпляр класса[`ExchangeCalendarEvent`](../../exchangecalendarevent).
+Инициализирует новый экземпляр[`ExchangeCalendarEvent`](../../exchangecalendarevent) класс.
 
 ```csharp
 public ExchangeCalendarEvent()

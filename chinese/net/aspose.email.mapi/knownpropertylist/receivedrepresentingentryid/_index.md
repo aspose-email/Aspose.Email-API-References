@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个地址簿EntryID用于标识由接收邮箱所有者表示的最终用户 区域地址属性 规范名称PidTagReceivedRepresentingEntryId 替代名称PR_RCVD_REPRESENTING_ENTRYID ptagRcvdRepresentingEntryId
+description: 包含一个地址簿EntryID它标识由接收邮箱所有者表示的最终用户 区域地址属性 规范名称PidTagReceivedRepresentingEntryId 替代名称PR_RCVD_REPRESENTING_ENTRYIDptagRcvdRepresentingEntryId
 type: docs
 weight: 15350
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivedrepresentingentryid/
 ---
 ## KnownPropertyList.ReceivedRepresentingEntryId field
 
-包含一个地址簿EntryID，用于标识由接收邮箱所有者表示的最终用户。 区域:地址属性 规范名称:PidTagReceivedRepresentingEntryId 替代名称:PR_RCVD_REPRESENTING_ENTRYID, ptagRcvdRepresentingEntryId
+包含一个地址簿EntryID，它标识由接收邮箱所有者表示的最终用户。 区域：地址属性 规范名称：PidTagReceivedRepresentingEntryId 替代名称：PR_RCVD_REPRESENTING_ENTRYID、ptagRcvdRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingEntryId;

@@ -16,11 +16,11 @@ public string Subject { get; set; }
 
 ### 适当的价值
 
-表示消息主题的字符串。
+代表消息主题的字符串。
 
 ### 评论
 
-设置值时，SubjectPrefix(PR_SUBJECT_PREFIX) 和NormalizedSubject(PR_NORMALIZED_SUBJECT) 属性也会更新。 如果 Subject 没有前缀，则 SubjectPrefix 属性的值设置为 null。 设置空值或空字符串时，Subject、SubjectPrefix、NormalizedSubject 属性的值 设置为空。
+设置值时，SubjectPrefix(PR_SUBJECT_PREFIX) 和 NormalizedSubject(PR_NORMALIZED_SUBJECT) 属性的值也会更新。 如果 Subject 没有前缀，则 SubjectPrefix 属性的值设置为 null。 设置空值或空字符串时，Subject、SubjectPrefix、NormalizedSubject 属性的值 设置为空。
 
 ### 也可以看看
 

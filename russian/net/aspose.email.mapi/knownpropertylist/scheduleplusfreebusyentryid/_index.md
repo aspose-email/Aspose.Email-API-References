@@ -1,14 +1,14 @@
 ---
 title: SchedulePlusFreeBusyEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки с именем SCHEDULE FREE BUSY в поддереве не-IPM хранилища сообщений общей папки. ОбластьExchangeMessageStore Каноническое имяPidTagSchedulePlusFreeBusyEntryId Альтернативные именаPR_SPLUS_FREE_BUSY_ENTRYID
+description: Содержит EntryID папки с именем SCHEDULE FREE BUSY в поддереве не-IPM хранилища сообщений общей папки. Область ExchangeMessageStore Каноническое имя PidTagSchedulePlusFreeBusyEntryId Альтернативные имена PR_SPLUS_FREE_BUSY_ENTRYID
 type: docs
 weight: 16910
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleplusfreebusyentryid/
 ---
 ## KnownPropertyList.SchedulePlusFreeBusyEntryId field
 
-Содержит EntryID папки с именем "SCHEDULE+ FREE BUSY" в поддереве не-IPM хранилища сообщений общей папки. Область:ExchangeMessageStore Каноническое имя:PidTagSchedulePlusFreeBusyEntryId Альтернативные имена:PR_SPLUS_FREE_BUSY_ENTRYID
+Содержит EntryID папки с именем "SCHEDULE+ FREE BUSY" в поддереве не-IPM хранилища сообщений общей папки. Область: ExchangeMessageStore Каноническое имя: PidTagSchedulePlusFreeBusyEntryId Альтернативные имена: PR_SPLUS_FREE_BUSY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SchedulePlusFreeBusyEntryId;

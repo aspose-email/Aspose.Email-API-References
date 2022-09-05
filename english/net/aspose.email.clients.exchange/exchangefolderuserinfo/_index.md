@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderUserInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a user who has folder access permissions
 type: docs
 weight: 3350
 url: /net/aspose.email.clients.exchange/exchangefolderuserinfo/

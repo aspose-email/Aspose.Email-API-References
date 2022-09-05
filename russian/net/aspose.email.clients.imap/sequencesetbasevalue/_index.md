@@ -18,7 +18,7 @@ public abstract class SequenceSetBaseValue
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.imap/sequencesetbasevalue/op_implicit) | Неявная операция преобразования из[`SequenceSetBaseValue`](../sequencesetbasevalue)вString |
+| [implicit operator](../../aspose.email.clients.imap/sequencesetbasevalue/op_implicit) | Неявная операция преобразования из[`SequenceSetBaseValue`](../sequencesetbasevalue) кString |
 
 ### Смотрите также
 

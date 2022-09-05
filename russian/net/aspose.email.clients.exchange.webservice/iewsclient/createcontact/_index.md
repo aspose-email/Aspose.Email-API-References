@@ -16,11 +16,11 @@ public string CreateContact(Contact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | Contact | Элемент контакта |
+| contact | Contact | Контактный элемент |
 
 ### Возвращаемое значение
 
-Контакт Uri
+Контактное лицо Ури
 
 ### Смотрите также
 
@@ -41,12 +41,12 @@ public string CreateContact(string folderUri, Contact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Uri папки |
-| контакт | Contact | Элемент контакта |
+| folderUri | String | URI папки |
+| contact | Contact | Контактный элемент |
 
 ### Возвращаемое значение
 
-Контакт Uri
+Контактное лицо Ури
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ContentsSortOrder
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENTS_SORT_ORDER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENTS_SORT_ORDER
 type: docs
 weight: 3260
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentssortorder/
 ---
 ## KnownPropertyList.ContentsSortOrder field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENTS_SORT_ORDER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENTS_SORT_ORDER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentsSortOrder;

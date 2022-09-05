@@ -1,14 +1,14 @@
 ---
 title: Webhook
 second_title: Aspose.Email for .NET API 参考
-description: 对象包含有关 webhook
+description: 对象包含有关 webhook 的信息
 type: docs
 weight: 2820
 url: /zh/net/aspose.email.clients.activity/webhook/
 ---
 ## Webhook class
 
-对象包含有关 webhook
+对象包含有关 webhook 的信息
 
 ```csharp
 public class Webhook
@@ -26,7 +26,7 @@ public class Webhook
 | --- | --- |
 | [Address](../../aspose.email.clients.activity/webhook/address) { get; set; } | 获取或设置 webhook 地址 |
 | [AuthId](../../aspose.email.clients.activity/webhook/authid) { get; set; } | 获取或设置认证标识符 |
-| [Expiration](../../aspose.email.clients.activity/webhook/expiration) { get; set; } | 获取或设置到期日期 |
+| [Expiration](../../aspose.email.clients.activity/webhook/expiration) { get; set; } | 获取或设置过期日期 |
 | [Status](../../aspose.email.clients.activity/webhook/status) { get; set; } | 获取或设置 webhook 状态 |
 
 ### 也可以看看

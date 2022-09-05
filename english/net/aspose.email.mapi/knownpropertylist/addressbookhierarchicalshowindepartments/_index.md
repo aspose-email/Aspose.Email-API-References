@@ -1,7 +1,7 @@
 ---
 title: AddressBookHierarchicalShowInDepartments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists all Department objects of which the mail user is a member. Area Address Book Canonical name PidTagAddressBookHierarchicalShowInDepartments Alternate names PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
 type: docs
 weight: 660
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalshowindepartments/

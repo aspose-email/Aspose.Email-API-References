@@ -1,7 +1,7 @@
 ---
 title: GetAllContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches all contacts.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.google/igmailclient/getallcontacts/

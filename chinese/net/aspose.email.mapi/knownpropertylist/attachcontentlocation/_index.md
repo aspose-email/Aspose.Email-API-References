@@ -1,14 +1,14 @@
 ---
 title: AttachContentLocation
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 Message 对象的 HTML 正文中的相应引用匹配的相对或完整 URI 区域消息附件属性 规范名称PidTagAttachContentLocation 备用名称PR_ATTACH_CONTENT_LOCATION PR_ATTACH_CONTENT_LOCATION_A PR_ATTACH_CONTENT_LOCATION_W
+description: 包含与 Message 对象的 HTML 正文中的相应引用匹配的相对或完整 URI 区域邮件附件属性 规范名称PidTagAttachContentLocation 备用名称PR_ATTACH_CONTENT_LOCATIONPR_ATTACH_CONTENT_LOCATION_APR_ATTACH_CONTENT_LOCATION_W
 type: docs
 weight: 1540
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachcontentlocation/
 ---
 ## KnownPropertyList.AttachContentLocation field
 
-包含与 Message 对象的 HTML 正文中的相应引用匹配的相对或完整 URI。 区域:消息附件属性 规范名称:PidTagAttachContentLocation 备用名称:PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W
+包含与 Message 对象的 HTML 正文中的相应引用匹配的相对或完整 URI。 区域：邮件附件属性 规范名称：PidTagAttachContentLocation 备用名称：PR_ATTACH_CONTENT_LOCATION、PR_ATTACH_CONTENT_LOCATION_A、PR_ATTACH_CONTENT_LOCATION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentLocation;

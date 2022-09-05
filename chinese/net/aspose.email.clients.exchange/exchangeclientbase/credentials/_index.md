@@ -16,7 +16,7 @@ public virtual ICredentials Credentials { get; set; }
 
 ### 适当的价值
 
-ICredentials
+IC证书
 
 ### 也可以看看
 

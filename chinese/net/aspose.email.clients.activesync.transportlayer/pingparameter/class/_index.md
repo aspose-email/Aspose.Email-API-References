@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API 参考
-description: Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 指定要监视的文件夹的内容类 有效的 Class 元素值为电子邮件日历联系人任务便笺
+description: Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 它指定要监视的文件夹的内容类 有效的 Class 元素值为电子邮件日历联系人任务便笺
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/pingparameter/class/
 ---
 ## PingParameter.Class property
 
-Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 指定要监视的文件夹的内容类。 有效的 Class 元素值为:电子邮件、日历、联系人、任务、便笺
+Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 ，它指定要监视的文件夹的内容类。 有效的 Class 元素值为：电子邮件、日历、联系人、任务、便笺
 
 ```csharp
 public FolderClass Class { get; }

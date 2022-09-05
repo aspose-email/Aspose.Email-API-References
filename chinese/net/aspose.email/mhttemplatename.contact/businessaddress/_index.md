@@ -1,14 +1,14 @@
 ---
 title: BusinessAddress
 second_title: Aspose.Email for .NET API 参考
-description: 企业地址标头
+description: 公司地址标头
 type: docs
 weight: 40
 url: /zh/net/aspose.email/mhttemplatename.contact/businessaddress/
 ---
 ## MhtTemplateName.Contact.BusinessAddress field
 
-企业地址标头。
+公司地址标头。
 
 ```csharp
 public const string BusinessAddress;

@@ -1,12 +1,12 @@
 ---
 title: SendAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates and sends the specified message.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.smtp/smtpclient/sendasync/
 ---
-## SmtpClient.SendAsync method (1 of 20)
+## SendAsync(string, string, string, string) {#sendasync_18}
 
 Creates and sends the specified message.
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (2 of 20)
+## SendAsync(MailMessage) {#sendasync_11}
 
 Send the specified message.
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (3 of 20)
+## SendAsync(params MailMessage[]) {#sendasync_15}
 
 Send the specified message.
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (4 of 20)
+## SendAsync(MailMessageCollection) {#sendasync_13}
 
 Send the specified message collection.
 
@@ -108,7 +108,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (5 of 20)
+## SendAsync(IEnumerable&lt;MailMessage&gt;) {#sendasync_16}
 
 Send the specified messages.
 
@@ -133,7 +133,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (6 of 20)
+## SendAsync(IConnection, string, string, string, string) {#sendasync_7}
 
 Creates and sends the specified message.
 
@@ -163,7 +163,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (7 of 20)
+## SendAsync(IConnection, MailMessage) {#sendasync}
 
 Send the specified message.
 
@@ -190,7 +190,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (8 of 20)
+## SendAsync(IConnection, params MailMessage[]) {#sendasync_4}
 
 Send the specified message.
 
@@ -217,7 +217,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (9 of 20)
+## SendAsync(IConnection, MailMessageCollection) {#sendasync_2}
 
 Send the specified message collection.
 
@@ -244,7 +244,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (10 of 20)
+## SendAsync(IConnection, IEnumerable&lt;MailMessage&gt;) {#sendasync_5}
 
 Send the specified messages.
 
@@ -271,7 +271,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (11 of 20)
+## SendAsync(string, string, string, string, CancellationToken) {#sendasync_19}
 
 Creates and sends the specified message.
 
@@ -300,7 +300,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (12 of 20)
+## SendAsync(MailMessage, CancellationToken) {#sendasync_12}
 
 Send the specified message.
 
@@ -326,7 +326,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (13 of 20)
+## SendAsync(CancellationToken, params MailMessage[]) {#sendasync_20}
 
 Send the specified message.
 
@@ -352,7 +352,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (14 of 20)
+## SendAsync(MailMessageCollection, CancellationToken) {#sendasync_14}
 
 Send the specified message collection.
 
@@ -378,7 +378,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (15 of 20)
+## SendAsync(IEnumerable&lt;MailMessage&gt;, CancellationToken) {#sendasync_17}
 
 Send the specified messages.
 
@@ -404,7 +404,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (16 of 20)
+## SendAsync(IConnection, string, string, string, string, CancellationToken) {#sendasync_8}
 
 Creates and sends the specified message.
 
@@ -435,7 +435,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (17 of 20)
+## SendAsync(IConnection, MailMessage, CancellationToken) {#sendasync_1}
 
 Send the specified message.
 
@@ -463,7 +463,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (18 of 20)
+## SendAsync(IConnection, CancellationToken, params MailMessage[]) {#sendasync_9}
 
 Send the specified message.
 
@@ -492,7 +492,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (19 of 20)
+## SendAsync(IConnection, MailMessageCollection, CancellationToken) {#sendasync_3}
 
 Send the specified message collection.
 
@@ -521,7 +521,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.SendAsync method (20 of 20)
+## SendAsync(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) {#sendasync_6}
 
 Send the specified messages.
 
@@ -544,6 +544,21 @@ Task object, with delegate for this operation
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [MailMessage](../../../aspose.email/mailmessage)
+* class [SmtpClient](../../smtpclient)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SendAsync(SmtpSend) {#sendasync_10}
+
+```csharp
+public Task SendAsync(SmtpSend parameters)
+```
+
+### See Also
+
+* class [SmtpSend](../../../aspose.email.clients.smtp.models/smtpsend)
 * class [SmtpClient](../../smtpclient)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
 * assembly [Aspose.Email](../../../)

@@ -1,14 +1,14 @@
 ---
 title: OlmMessageInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示关于 OLM 存储中消息的 信息
+description: 表示 OLM 存储中有关消息的信息 
 type: docs
-weight: 20060
+weight: 20110
 url: /zh/net/aspose.email.storage.olm/olmmessageinfo/
 ---
 ## OlmMessageInfo class
 
-表示关于 OLM 存储中消息的 信息。
+表示 OLM 存储中有关消息的信息 。
 
 ```csharp
 public class OlmMessageInfo
@@ -21,10 +21,10 @@ public class OlmMessageInfo
 | [Date](../../aspose.email.storage.olm/olmmessageinfo/date) { get; } | 获取消息的日期。 |
 | [From](../../aspose.email.storage.olm/olmmessageinfo/from) { get; } | 获取发件人地址。 |
 | [HasAttachments](../../aspose.email.storage.olm/olmmessageinfo/hasattachments) { get; } | 获取或设置一个值，指示邮件是否有附件。 |
-| [MessageClass](../../aspose.email.storage.olm/olmmessageinfo/messageclass) { get; } | 获取区分大小写的字符串，该字符串标识发件人定义的消息类，例如 IPM.Note。 消息类指定消息的类型、目的或内容。 |
+| [MessageClass](../../aspose.email.storage.olm/olmmessageinfo/messageclass) { get; } | 获取区分大小写的字符串，标识发送方定义的消息类，例如 IPM。注意。 消息类指定消息的类型、用途或内容。 |
 | [ModifiedDate](../../aspose.email.storage.olm/olmmessageinfo/modifieddate) { get; } | 获取消息的日期。 |
-| [Subject](../../aspose.email.storage.olm/olmmessageinfo/subject) { get; } | 获取消息主题。 |
-| [To](../../aspose.email.storage.olm/olmmessageinfo/to) { get; } | 获取包含 消息收件人的地址集合。 |
+| [Subject](../../aspose.email.storage.olm/olmmessageinfo/subject) { get; } | 获取邮件主题。 |
+| [To](../../aspose.email.storage.olm/olmmessageinfo/to) { get; } | 获取包含 邮件收件人的地址集合。 |
 
 ### 也可以看看
 

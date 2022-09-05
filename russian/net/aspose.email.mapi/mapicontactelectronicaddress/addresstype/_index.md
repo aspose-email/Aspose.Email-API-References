@@ -1,14 +1,14 @@
 ---
 title: AddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает тип адреса электронного адреса
+description: Получает или задает тип адреса электронного адреса
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/addresstype/
 ---
 ## MapiContactElectronicAddress.AddressType property
 
-Получает или устанавливает тип адреса электронного адреса
+Получает или задает тип адреса электронного адреса
 
 ```csharp
 public string AddressType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PagerTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的寻呼机电话号码 区域地址属性 规范名称PidTagPagerTelephoneNumber 备用名称PR_PAGER_TELEPHONE_NUMBER PR_PAGER_TELEPHONE_NUMBER_A
+description: 包含邮件用户的寻呼机电话号码 区域地址属性 规范名称PidTagPagerTelephoneNumber 备用名称PR_PAGER_TELEPHONE_NUMBERPR_PAGER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14160
 url: /zh/net/aspose.email.mapi/knownpropertylist/pagertelephonenumber/
 ---
 ## KnownPropertyList.PagerTelephoneNumber field
 
-包含邮件用户的寻呼机电话号码。 区域:地址属性 规范名称:PidTagPagerTelephoneNumber 备用名称:PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A,
+包含邮件用户的寻呼机电话号码。 区域：地址属性 规范名称：PidTagPagerTelephoneNumber 备用名称：PR_PAGER_TELEPHONE_NUMBER、PR_PAGER_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PagerTelephoneNumber;

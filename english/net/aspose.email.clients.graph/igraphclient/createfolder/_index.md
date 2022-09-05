@@ -1,12 +1,12 @@
 ---
 title: CreateFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create new folder.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.graph/igraphclient/createfolder/
 ---
-## IGraphClient.CreateFolder method (1 of 2)
+## CreateFolder(string) {#createfolder}
 
 Create new folder.
 
@@ -31,7 +31,7 @@ Returns created folder
 
 ---
 
-## IGraphClient.CreateFolder method (2 of 2)
+## CreateFolder(string, string) {#createfolder_1}
 
 Create new folder.
 

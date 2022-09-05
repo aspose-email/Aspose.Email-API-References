@@ -1,7 +1,7 @@
 ---
 title: RestoreSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The settings for the IEWSClient.Restore method
 type: docs
 weight: 4130
 url: /net/aspose.email.clients.exchange.webservice/restoresettings/

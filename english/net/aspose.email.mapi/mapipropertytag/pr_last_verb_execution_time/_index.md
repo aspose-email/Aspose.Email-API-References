@@ -1,7 +1,7 @@
 ---
 title: PR_LAST_VERB_EXECUTION_TIME
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time when the last verb was executed.
 type: docs
 weight: 13520
 url: /net/aspose.email.mapi/mapipropertytag/pr_last_verb_execution_time/

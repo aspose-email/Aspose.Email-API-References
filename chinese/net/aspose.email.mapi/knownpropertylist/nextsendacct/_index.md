@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/nextsendacct/
 ---
 ## KnownPropertyList.NextSendAcct field
 
-指定客户端当前尝试用来发送电子邮件的服务器。 区域:Outlook 应用程序 规范名称:PidTagNextSendAcct 备用名称:PR_NEXT_SEND_ACCT
+指定客户端当前尝试用来发送电子邮件的服务器。 区域：Outlook 应用程序 规范名称：PidTagNextSendAcct 备用名称：PR_NEXT_SEND_ACCT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NextSendAcct;

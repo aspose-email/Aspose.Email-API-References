@@ -16,7 +16,7 @@ public string NormalizedSubject { get; }
 
 ### 适当的价值
 
-表示规范化主题的字符串。
+表示标准化主题的字符串。
 
 ### 也可以看看
 

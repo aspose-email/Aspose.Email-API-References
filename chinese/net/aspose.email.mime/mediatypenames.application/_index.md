@@ -3,7 +3,7 @@ title: MediaTypeNames.Application
 second_title: Aspose.Email for .NET API 参考
 description: 指定电子邮件附件中的应用程序数据类型
 type: docs
-weight: 19150
+weight: 19180
 url: /zh/net/aspose.email.mime/mediatypenames.application/
 ---
 ## MediaTypeNames.Application class

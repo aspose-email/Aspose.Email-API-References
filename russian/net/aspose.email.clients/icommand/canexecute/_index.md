@@ -1,14 +1,14 @@
 ---
 title: CanExecute
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет оператор который определяет может ли команда выполняться в ее текущем состоянии.
+description: Определяет оператор который определяет может ли команда выполняться в текущем состоянии.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/icommand/canexecute/
 ---
 ## ICommand.CanExecute property
 
-Определяет оператор, который определяет, может ли команда выполняться в ее текущем состоянии.
+Определяет оператор, который определяет, может ли команда выполняться в текущем состоянии.
 
 ```csharp
 public bool CanExecute { get; }

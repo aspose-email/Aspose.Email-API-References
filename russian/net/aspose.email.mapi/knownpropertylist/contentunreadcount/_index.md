@@ -1,14 +1,14 @@
 ---
 title: ContentUnreadCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество строк под строкой заголовка для которых свойство PidTagRead раздел 2.869 установлено в FALSE. ОбластьСвойства папки Каноническое имяPidTagContentUnreadCount Альтернативные именаPR_CONTENT_UNREAD ptagContentUnread urnschemashttpmailunreadcount
+description: Указывает количество строк под строкой заголовка для которых свойство PidTagRead раздел 2.869 имеет значение FALSE. Область Свойства папки Каноническое имя PidTagContentUnreadCount Альтернативные имена PR_CONTENT_UNREAD ptagContentUnread urnschemashttpmailunreadcount
 type: docs
 weight: 3290
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentunreadcount/
 ---
 ## KnownPropertyList.ContentUnreadCount field
 
-Указывает количество строк под строкой заголовка, для которых свойство PidTagRead (раздел 2.869) установлено в FALSE. Область:Свойства папки Каноническое имя:PidTagContentUnreadCount Альтернативные имена:PR_CONTENT_UNREAD, ptagContentUnread, urn:schemas:httpmail:unreadcount
+Указывает количество строк под строкой заголовка, для которых свойство PidTagRead (раздел 2.869) имеет значение FALSE. Область: Свойства папки Каноническое имя: PidTagContentUnreadCount Альтернативные имена: PR_CONTENT_UNREAD, ptagContentUnread, urn:schemas:httpmail:unreadcount
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentUnreadCount;

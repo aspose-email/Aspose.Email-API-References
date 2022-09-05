@@ -3,7 +3,7 @@ title: MediaTypeNames.Image
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает тип данных изображения во вложении к сообщению электронной почты.
 type: docs
-weight: 19160
+weight: 19190
 url: /ru/net/aspose.email.mime/mediatypenames.image/
 ---
 ## MediaTypeNames.Image class
@@ -19,11 +19,11 @@ public sealed class Image
 | Имя | Описание |
 | --- | --- |
 | const [Bmp](../../aspose.email.mime/image/bmp) | Определяет тип носителя изображения/bmp |
-| const [Gif](../../aspose.email.mime/image/gif) | Указывает тип изображения/gif |
-| const [Jpeg](../../aspose.email.mime/image/jpeg) | Определяет тип мультимедиа image/jpeg |
-| const [Png](../../aspose.email.mime/image/png) | Указывает тип носителя изображения/png |
-| const [Tiff](../../aspose.email.mime/image/tiff) | Указывает тип носителя изображения/tiff |
-| const [Wmf](../../aspose.email.mime/image/wmf) | Указывает метафайл MS Windows image/x-wmf |
+| const [Gif](../../aspose.email.mime/image/gif) | Определяет тип носителя изображения/gif |
+| const [Jpeg](../../aspose.email.mime/image/jpeg) | Определяет тип носителя изображения/jpeg |
+| const [Png](../../aspose.email.mime/image/png) | Определяет тип носителя изображения/png |
+| const [Tiff](../../aspose.email.mime/image/tiff) | Определяет тип носителя изображения/tiff |
+| const [Wmf](../../aspose.email.mime/image/wmf) | Указывает образ метафайла MS Windows/x-wmf |
 
 ### Смотрите также
 

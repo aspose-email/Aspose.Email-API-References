@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API 参考
-description: 指定包含会议请求的文件夹 如果包含 LongId则可选 CollectionId 值最长可达 64 个字符
+description: 指定包含会议请求的文件夹 如果包含 LongId则为可选 CollectionId 值最长可达 64 个字符
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/collectionid/
 ---
 ## MeetingResponseRequest.CollectionId property
 
-指定包含会议请求的文件夹。 如果包含 LongId，则可选。 CollectionId 值最长可达 64 个字符。
+指定包含会议请求的文件夹。 如果包含 LongId，则为可选。 CollectionId 值最长可达 64 个字符。
 
 ```csharp
 public string CollectionId { get; set; }

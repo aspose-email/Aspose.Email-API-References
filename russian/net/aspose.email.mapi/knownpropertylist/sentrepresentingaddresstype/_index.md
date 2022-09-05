@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingAddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тип адреса электронной почты. ОбластьСвойства адреса Каноническое имяPidTagSentRepresentingAddressType Альтернативные именаPR_SENT_REPRESENTING_ADDRTYPE PR_SENT_REPRESENTING_ADDRTYPE_A ptagSentRepresentingAddrType PR_SENT_REPRESENTING_ADDRTYPE_W
+description: Содержит тип адреса электронной почты. Область Свойства адреса Каноническое имя PidTagSentRepresentingAddressType Альтернативные имена PR_SENT_REPRESENTING_ADDRTYPE PR_SENT_REPRESENTING_ADDRTYPE_A ptagSentRepresentingAddrType PR_SENT_REPRESENTING_ADDRTYPE_0d_
 type: docs
 weight: 17220
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingaddresstype/
 ---
 ## KnownPropertyList.SentRepresentingAddressType field
 
-Содержит тип адреса электронной почты. Область:Свойства адреса Каноническое имя:PidTagSentRepresentingAddressType Альтернативные имена:PR_SENT_REPRESENTING_ADDRTYPE, PR_SENT_REPRESENTING_ADDRTYPE_A, ptagSentRepresentingAddrType, PR_SENT_REPRESENTING_ADDRTYPE_W
+Содержит тип адреса электронной почты. Область: Свойства адреса Каноническое имя: PidTagSentRepresentingAddressType Альтернативные имена: PR_SENT_REPRESENTING_ADDRTYPE, PR_SENT_REPRESENTING_ADDRTYPE_A, ptagSentRepresentingAddrType, PR_SENT_REPRESENTING_ADDRTYPE_0d_
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingAddressType;

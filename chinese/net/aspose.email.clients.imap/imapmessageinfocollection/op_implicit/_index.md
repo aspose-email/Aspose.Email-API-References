@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 将 ImapMessageInfo 集合转换为数组
+description: 将 ImapMessageInfo 的集合转换为 array
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.imap/imapmessageinfocollection/op_implicit/
 ---
 ## implicit operator {#op_implicit_2}
 
-将 ImapMessageInfo 集合转换为数组
+将 ImapMessageInfo 的集合转换为 array
 
 ```csharp
 public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection messageInfoCol)
@@ -16,7 +16,7 @@ public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection mess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoCol | ImapMessageInfoCollection | ImapMessageInfo 集合到转换 |
+| messageInfoCol | ImapMessageInfoCollection | 要转换的 ImapMessageInfo 集合 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ ImapMessageInfo 数组
 
 ## implicit operator {#op_implicit}
 
-将 ImapMessageInfo 数组转换为集合
+将 ImapMessageInfo 数组转换为 collection
 
 ```csharp
 public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] messageInfoArr)
@@ -41,11 +41,11 @@ public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] mess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoArr | ImapMessageInfo[] | ImapMessageInfo 数组转换 |
+| messageInfoArr | ImapMessageInfo[] | 要转换的 ImapMessageInfo 数组 |
 
 ### 返回值
 
-ImapMessageInfo 集合
+ImapMessageInfo 的集合
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ ImapMessageInfo 集合
 
 ## implicit operator {#op_implicit_3}
 
-将 ImapMessageInfo 的集合转换为列表
+将 ImapMessageInfo 集合转换为 list
 
 ```csharp
 public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection messageInfoCol)
@@ -66,7 +66,7 @@ public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoCol | ImapMessageInfoCollection | ImapMessageInfo 的集合转换 |
+| messageInfoCol | ImapMessageInfoCollection | 要转换的 ImapMessageInfo 集合 |
 
 ### 返回值
 
@@ -83,7 +83,7 @@ ImapMessageInfo 列表
 
 ## implicit operator {#op_implicit_1}
 
-将 ImapMessageInfo 列表转换为集合
+将 ImapMessageInfo 列表转换为 collection
 
 ```csharp
 public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> messageInfoLst)
@@ -91,11 +91,11 @@ public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoLst | List`1 | ImapMessageInfo 列表转换 |
+| messageInfoLst | List`1 | 要转换的 ImapMessageInfo 列表 |
 
 ### 返回值
 
-ImapMessageInfo 集合
+ImapMessageInfo 的集合
 
 ### 也可以看看
 

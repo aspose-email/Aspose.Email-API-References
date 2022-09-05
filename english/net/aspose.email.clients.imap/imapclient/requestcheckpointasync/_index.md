@@ -1,12 +1,12 @@
 ---
 title: RequestCheckpointAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests a checkpoint of the currently selected mailbox.
 type: docs
 weight: 1040
 url: /net/aspose.email.clients.imap/imapclient/requestcheckpointasync/
 ---
-## ImapClient.RequestCheckpointAsync method (1 of 4)
+## RequestCheckpointAsync(IConnection) {#requestcheckpointasync_1}
 
 Requests a checkpoint of the currently selected mailbox.
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RequestCheckpointAsync method (2 of 4)
+## RequestCheckpointAsync() {#requestcheckpointasync}
 
 Requests a checkpoint of the currently selected mailbox.
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RequestCheckpointAsync method (3 of 4)
+## RequestCheckpointAsync(IConnection, CancellationToken) {#requestcheckpointasync_2}
 
 Requests a checkpoint of the currently selected mailbox.
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RequestCheckpointAsync method (4 of 4)
+## RequestCheckpointAsync(CancellationToken) {#requestcheckpointasync_3}
 
 Requests a checkpoint of the currently selected mailbox.
 

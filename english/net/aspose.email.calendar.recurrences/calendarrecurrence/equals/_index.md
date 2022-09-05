@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified CalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence is equal to this instance.
 type: docs
 weight: 100
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/equals/
 ---
-## CalendarRecurrence.Equals method (1 of 2)
+## Equals(CalendarRecurrence) {#equals}
 
 Determines whether the specified [`CalendarRecurrence`](../../calendarrecurrence) is equal to this instance.
 
@@ -30,7 +30,7 @@ public virtual bool Equals(CalendarRecurrence other)
 
 ---
 
-## CalendarRecurrence.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified Object is equal to the current Object.
 

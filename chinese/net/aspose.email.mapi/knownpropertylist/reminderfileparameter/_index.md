@@ -1,14 +1,14 @@
 ---
 title: ReminderFileParameter
 second_title: Aspose.Email for .NET API 参考
-description: 指定当该对象的提醒过期时客户端要播放的声音的文件名 区域提醒 规范名称PidLidReminderFileParameter 备用名称dispidReminderFileParam
+description: 指定当该对象的提醒过期时客户端要播放的声音的文件名 区域Reminders 规范名称PidLidReminderFileParameter 备用名称dispidReminderFileParam
 type: docs
 weight: 15680
 url: /zh/net/aspose.email.mapi/knownpropertylist/reminderfileparameter/
 ---
 ## KnownPropertyList.ReminderFileParameter field
 
-指定当该对象的提醒过期时客户端要播放的声音的文件名。 区域:提醒 规范名称:PidLidReminderFileParameter 备用名称:dispidReminderFileParam
+指定当该对象的提醒过期时客户端要播放的声音的文件名。 区域：Reminders 规范名称：PidLidReminderFileParameter 备用名称：dispidReminderFileParam
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderFileParameter;

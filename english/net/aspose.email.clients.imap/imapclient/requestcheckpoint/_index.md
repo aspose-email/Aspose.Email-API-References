@@ -1,12 +1,12 @@
 ---
 title: RequestCheckpoint
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests a checkpoint of the currently selected mailbox.
 type: docs
 weight: 1030
 url: /net/aspose.email.clients.imap/imapclient/requestcheckpoint/
 ---
-## ImapClient.RequestCheckpoint method (1 of 2)
+## RequestCheckpoint(IConnection) {#requestcheckpoint_1}
 
 Requests a checkpoint of the currently selected mailbox.
 
@@ -27,7 +27,7 @@ public void RequestCheckpoint(IConnection connection)
 
 ---
 
-## ImapClient.RequestCheckpoint method (2 of 2)
+## RequestCheckpoint() {#requestcheckpoint}
 
 Requests a checkpoint of the currently selected mailbox.
 

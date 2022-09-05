@@ -1,14 +1,14 @@
 ---
 title: MailException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailExceptionaspose.email/mailexception.
+description: Инициализирует новый экземплярMailExceptionaspose.email/mailexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/mailexception/mailexception/
 ---
 ## MailException() {#constructor}
 
-Инициализирует новый экземпляр класса[`MailException`](../../mailexception).
+Инициализирует новый экземпляр[`MailException`](../../mailexception) класс.
 
 ```csharp
 public MailException()
@@ -24,7 +24,7 @@ public MailException()
 
 ## MailException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MailException`](../../mailexception).
+Инициализирует новый экземпляр[`MailException`](../../mailexception) класс.
 
 ```csharp
 public MailException(string message)

@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус выполнения команды
+description: Указывает статус команды operation
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/status/
 ---
 ## SyncCollectionResponse.Status property
 
-Указывает статус выполнения команды
+Указывает статус команды operation
 
 ```csharp
 public Status Status { get; set; }

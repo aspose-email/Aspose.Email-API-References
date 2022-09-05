@@ -1,14 +1,14 @@
 ---
 title: RuleProviderData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит непрозрачные данные установленные клиентом для исключительного использования клиентом. ОбластьСвойства серверных правил Каноническое имяPidTagRuleProviderData Альтернативные именаPR_RULE_PROVIDER_DATA ptagRuleProviderData
+description: Содержит непрозрачные данные установленные клиентом для исключительного использования клиентом. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleProviderData Альтернативные имена PR_RULE_PROVIDER_DATA ptagRuleProviderData
 type: docs
 weight: 16610
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleproviderdata/
 ---
 ## KnownPropertyList.RuleProviderData field
 
-Содержит непрозрачные данные, установленные клиентом для исключительного использования клиентом. Область:Свойства серверных правил Каноническое имя:PidTagRuleProviderData Альтернативные имена:PR_RULE_PROVIDER_DATA, ptagRuleProviderData
+Содержит непрозрачные данные, установленные клиентом для исключительного использования клиентом. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleProviderData Альтернативные имена: PR_RULE_PROVIDER_DATA, ptagRuleProviderData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleProviderData;

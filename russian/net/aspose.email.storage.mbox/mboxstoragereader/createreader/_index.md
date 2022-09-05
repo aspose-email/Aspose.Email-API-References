@@ -1,14 +1,14 @@
 ---
 title: CreateReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает экземпляр читателя.
+description: Создает экземпляр reader.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.mbox/mboxstoragereader/createreader/
 ---
 ## CreateReader(string, MboxLoadOptions, CancellationToken) {#createreader_4}
 
-Создает экземпляр читателя.
+Создает экземпляр reader.
 
 ```csharp
 public static MboxStorageReader CreateReader(string fileName, MboxLoadOptions options, 
@@ -38,7 +38,7 @@ public static MboxStorageReader CreateReader(string fileName, MboxLoadOptions op
 
 ## CreateReader(Stream, MboxLoadOptions, CancellationToken) {#createreader_1}
 
-Создает экземпляр читателя.
+Создает экземпляр reader.
 
 ```csharp
 public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions options, 
@@ -68,7 +68,7 @@ public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions opti
 
 ## CreateReader(Stream, MboxLoadOptions) {#createreader}
 
-Создает экземпляр читателя.
+Создает экземпляр reader.
 
 ```csharp
 public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions options)
@@ -96,7 +96,7 @@ public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions opti
 
 ## CreateReader(string, MboxLoadOptions) {#createreader_3}
 
-Создает экземпляр читателя.
+Создает экземпляр reader.
 
 ```csharp
 public static MboxStorageReader CreateReader(string fileName, MboxLoadOptions options)

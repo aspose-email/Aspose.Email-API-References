@@ -18,7 +18,7 @@ public enum FolderHierarchy
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DisplayName | `7` | 指定显示给用户的文件夹名称。 |
+| DisplayName | `7` | 指定向用户显示的文件夹的名称。 |
 | ServerId | `8` | 标识服务器上的文件夹。 |
 | ParentId | `9` | 指定服务器上文件夹的父文件夹的服务器ID |
 | Type | `10` | 指定要创建的文件夹的类型。 |
@@ -28,9 +28,9 @@ public enum FolderHierarchy
 | Delete | `16` | 指定自上次文件夹同步后服务器上的文件夹已被删除。 |
 | Update | `17` | 标识服务器上已更新（重命名或移动）的文件夹。 |
 | SyncKey | `18` | 服务器用来跟踪客户端的当前状态。 |
-| FolderCreate | `19` | FolderCreate 元素是 FolderCreate 命令请求和 FolderCreate 命令响应中的必需元素，它将 HTTP POST 的主体标识为包含 FolderCreate 命令（第 2.2.2.2 节）。 |
+| FolderCreate | `19` | FolderCreate 元素是 FolderCreate 命令请求和 FolderCreate 命令响应中的必需元素，它将 HTTP POST 的正文标识为包含 FolderCreate 命令（第 2.2.2.2 节）。 |
 | FolderDelete | `20` | FolderDelete 元素是 FolderDelete 命令请求和 FolderDelete 命令响应中的必需元素，它将 HTTP POST 的正文标识为包含 FolderDelete 命令（第 2.2.2.3 节）。 |
-| FolderUpdate | `21` | FolderUpdate 元素是 FolderUpdate 命令请求和 FolderUpdate 命令响应中的必需元素，它将 HTTP POST 的主体标识为包含 FolderUpdate 命令（第 2.2.2.5 节）。 |
+| FolderUpdate | `21` | FolderUpdate 元素是 FolderUpdate 命令请求和 FolderUpdate 命令响应中的必需元素，它将 HTTP POST 的正文标识为包含 FolderUpdate 命令（第 2.2.2.5 节）。 |
 | FolderSync | `22` | FolderSync 元素是 FolderSync 命令请求和 FolderSync 命令响应中的必需元素，它将 HTTP POST 的正文标识为包含 FolderSync 命令（第 2.2.2.4 节）。 |
 | Count | `23` | 指定自上次文件夹同步以来服务器上添加、删除和更新的文件夹数。 |
 

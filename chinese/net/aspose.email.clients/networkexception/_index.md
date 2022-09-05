@@ -1,14 +1,14 @@
 ---
 title: NetworkException
 second_title: Aspose.Email for .NET API 参考
-description: 如果网络连接失败则抛出
+description: 网络连接失败时抛出
 type: docs
 weight: 16790
 url: /zh/net/aspose.email.clients/networkexception/
 ---
 ## NetworkException class
 
-如果网络连接失败则抛出。
+网络连接失败时抛出。
 
 ```csharp
 public class NetworkException : Exception
@@ -18,9 +18,9 @@ public class NetworkException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NetworkException](networkexception#constructor)() | 初始化[`NetworkException`](../networkexception)类的新实例。 |
-| [NetworkException](networkexception#constructor_1)(string) | 初始化[`NetworkException`](../networkexception)类的新实例。 |
-| [NetworkException](networkexception#constructor_2)(string, Exception) | 初始化[`NetworkException`](../networkexception)类的新实例。 |
+| [NetworkException](networkexception#constructor)() | 初始化[`NetworkException`](../networkexception)类. |
+| [NetworkException](networkexception#constructor_1)(string) | 初始化[`NetworkException`](../networkexception)类. |
+| [NetworkException](networkexception#constructor_2)(string, Exception) | 初始化[`NetworkException`](../networkexception)类. |
 
 ### 也可以看看
 

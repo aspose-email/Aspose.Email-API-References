@@ -1,12 +1,12 @@
 ---
 title: MarkAsJunk
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 type: docs
 weight: 1270
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/markasjunk/
 ---
-## IEWSClient.MarkAsJunk method (1 of 5)
+## MarkAsJunk(bool, params string[]) {#markasjunk_3}
 
 The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 
@@ -31,7 +31,7 @@ Returns the array of message ID which are moved to the junk mail folder.
 
 ---
 
-## IEWSClient.MarkAsJunk method (2 of 5)
+## MarkAsJunk(bool, bool, params string[]) {#markasjunk_1}
 
 The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 
@@ -57,7 +57,7 @@ Returns the array of message ID which are moved to the junk mail folder.
 
 ---
 
-## IEWSClient.MarkAsJunk method (3 of 5)
+## MarkAsJunk(bool, IEnumerable&lt;string&gt;) {#markasjunk_2}
 
 The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 
@@ -82,7 +82,7 @@ Returns the item ID of the message marked as junk mail.
 
 ---
 
-## IEWSClient.MarkAsJunk method (4 of 5)
+## MarkAsJunk(bool, bool, IEnumerable&lt;string&gt;) {#markasjunk}
 
 The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 
@@ -108,7 +108,7 @@ Returns the array of message ID which are moved to the junk mail folder.
 
 ---
 
-## IEWSClient.MarkAsJunk method (5 of 5)
+## MarkAsJunk(bool, bool, IEnumerable&lt;string&gt;, out string[], out string[], out string[]) {#markasjunk_4}
 
 The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 

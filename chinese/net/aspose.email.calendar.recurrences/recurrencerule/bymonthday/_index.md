@@ -1,14 +1,14 @@
 ---
 title: ByMonthDay
 second_title: Aspose.Email for .NET API 参考
-description: 获取按月日
+description: 获取按月的日期
 type: docs
 weight: 60
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/bymonthday/
 ---
 ## RecurrenceRule.ByMonthDay property
 
-获取按月日。
+获取按月的日期。
 
 ```csharp
 public ByNumberCollection ByMonthDay { get; }

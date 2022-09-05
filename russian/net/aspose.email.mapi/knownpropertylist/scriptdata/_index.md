@@ -1,14 +1,14 @@
 ---
 title: ScriptData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит ряд инструкций которые можно выполнить для форматирования адреса и данные необходимые для выполнения этих инструкций. ОбластьАдресная книга Каноническое имяPidTagScriptData Альтернативные именаPR_EMS_SCRIPT_BLOB
+description: Содержит ряд инструкций которые можно выполнить для форматирования адреса и данные необходимые для выполнения этих инструкций. Область Адресная книга Каноническое имя PidTagScriptData Альтернативные имена PR_EMS_SCRIPT_BLOB
 type: docs
 weight: 16920
 url: /ru/net/aspose.email.mapi/knownpropertylist/scriptdata/
 ---
 ## KnownPropertyList.ScriptData field
 
-Содержит ряд инструкций, которые можно выполнить для форматирования адреса, и данные, необходимые для выполнения этих инструкций. Область:Адресная книга Каноническое имя:PidTagScriptData Альтернативные имена:PR_EMS_SCRIPT_BLOB
+Содержит ряд инструкций, которые можно выполнить для форматирования адреса, и данные, необходимые для выполнения этих инструкций. Область: Адресная книга Каноническое имя: PidTagScriptData Альтернативные имена: PR_EMS_SCRIPT_BLOB
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScriptData;

@@ -1,7 +1,7 @@
 ---
 title: AmpAttributes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents attributes used by the ampcomponents.
 type: docs
 weight: 80
 url: /net/aspose.email.amp/ampattributes/

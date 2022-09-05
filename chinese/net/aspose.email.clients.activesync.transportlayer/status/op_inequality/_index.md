@@ -16,8 +16,8 @@ public static bool operator !=(Status status1, Status status2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| status1 | Status | 要比较的第一个对象 |
-| status2 | Status | 要比较的第二个对象比较 |
+| status1 | Status | 第一个要比较的对象 |
+| status2 | Status | 第二个要比较的对象 |
 
 ### 返回值
 

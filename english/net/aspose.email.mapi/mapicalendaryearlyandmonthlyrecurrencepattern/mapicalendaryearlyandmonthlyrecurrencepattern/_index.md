@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarYearlyAndMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiCalendarYearlyAndMonthlyRecurrencePatternaspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/mapicalendaryearlyandmonthlyrecurrencepattern/

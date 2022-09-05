@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/fathervalue/
 ---
 ## AssociatedPersonCategory.FatherValue field
 
-'父亲'类别的字符串值
+“父亲”类别的字符串值
 
 ```csharp
 public const string FatherValue;

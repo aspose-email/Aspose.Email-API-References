@@ -1,7 +1,7 @@
 ---
 title: ManagerValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Manager category
 type: docs
 weight: 290
 url: /net/aspose.email.personalinfo/associatedpersoncategory/managervalue/

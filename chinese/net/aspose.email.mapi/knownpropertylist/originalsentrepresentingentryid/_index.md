@@ -1,14 +1,14 @@
 ---
 title: OriginalSentRepresentingEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 标识地址簿EntryID其中包含由原始消息发送者表示的最终用户的条目标识符 区域常规消息属性 规范名称PidTagOriginalSentRepresentingEntryId 替代名称PR_ORIGINAL_SENT_REPRESENTING_ENTRYID ptagOriginalSentRepresentingEntryId
+description: 标识地址簿EntryID其中包含由原始消息发送者表示的最终用户的条目标识符 区域常规消息属性 规范名称PidTagOriginalSentRepresentingEntryId 替代名称PR_ORIGINAL_SENT_REPRESENTING_ENTRYIDptagOriginalSentRepresentingEntryId
 type: docs
 weight: 13740
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsentrepresentingentryid/
 ---
 ## KnownPropertyList.OriginalSentRepresentingEntryId field
 
-标识地址簿EntryID，其中包含由原始消息发送者表示的最终用户的条目标识符。 区域:常规消息属性 规范名称:PidTagOriginalSentRepresentingEntryId 替代名称:PR_ORIGINAL_SENT_REPRESENTING_ENTRYID, ptagOriginalSentRepresentingEntryId
+标识地址簿EntryID，其中包含由原始消息发送者表示的最终用户的条目标识符。 区域：常规消息属性 规范名称：PidTagOriginalSentRepresentingEntryId 替代名称：PR_ORIGINAL_SENT_REPRESENTING_ENTRYID、ptagOriginalSentRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSentRepresentingEntryId;

@@ -1,7 +1,7 @@
 ---
 title: IsCanceled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value that indicates whether the asynchronous operation completed synchronously.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/iasyncresultext/iscanceled/

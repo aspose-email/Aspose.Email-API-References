@@ -1,14 +1,14 @@
 ---
 title: op_LessThan
 second_title: Справочник по Aspose.Email для .NET API
-description: Сравнивает два объектаLogLevelaspose.email.tools.logging/loglevel и возвращает значение указывающее является ли первое меньше второго.
+description: Сравнивает дваLogLevelaspose.email.tools.logging/loglevel объекты и возвращает значение указывающее меньше ли первое чем второе.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.tools.logging/loglevel/op_lessthan/
 ---
 ## LogLevel LessThan operator
 
-Сравнивает два объекта[`LogLevel`](../../loglevel) и возвращает значение, указывающее, является ли первое меньше второго.
+Сравнивает два[`LogLevel`](../../loglevel) объекты и возвращает значение, указывающее, меньше ли первое, чем второе.
 
 ```csharp
 public static bool operator <(LogLevel l1, LogLevel l2)
@@ -21,7 +21,7 @@ public static bool operator <(LogLevel l1, LogLevel l2)
 
 ### Возвращаемое значение
 
-Значение` l1.Ordinal < l2.Ordinal`
+Значение`l1.Порядковый номер < l2.Порядковый номер`
 
 ### Смотрите также
 

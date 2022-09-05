@@ -16,7 +16,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | resultStream | Stream | Поток, который будет получать сообщение |
 
@@ -43,9 +43,9 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| resultStream | Stream | Поток, который получит сообщение |
+| resultStream | Stream | Поток, который будет получать сообщение |
 
 ### Возвращаемое значение
 
@@ -70,7 +70,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 
@@ -97,7 +97,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 
@@ -225,7 +225,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | resultStream | Stream | Поток, который будет получать сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -254,7 +254,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | resultStream | Stream | Поток, который будет получать сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -283,7 +283,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -312,7 +312,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fileName | String | Путь к локальному файлу. Это не может быть каталог |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |

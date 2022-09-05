@@ -1,14 +1,14 @@
 ---
 title: MarkAllItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Отмечает все элементы в указанных папках.
+description: Помечает все элементы в указанных папках.
 type: docs
 weight: 1240
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/markallitems/
 ---
 ## MarkAllItems(bool, params string[]) {#markallitems_2}
 
-Отмечает все элементы в указанных папках.
+Помечает все элементы в указанных папках.
 
 ```csharp
 public void MarkAllItems(bool read, params string[] folderIds)
@@ -16,7 +16,7 @@ public void MarkAllItems(bool read, params string[] folderIds)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. True, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
+| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. Значение true, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
 | folderIds | String[] | Список uri папки для обработки. |
 
 ### Смотрите также
@@ -29,7 +29,7 @@ public void MarkAllItems(bool read, params string[] folderIds)
 
 ## MarkAllItems(bool, bool, params string[]) {#markallitems_1}
 
-Отмечает все элементы в указанных папках.
+Помечает все элементы в указанных папках.
 
 ```csharp
 public void MarkAllItems(bool read, bool suppressReadReceipts, params string[] folderIds)
@@ -37,8 +37,8 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, params string[] f
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. True, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
-| suppressReadReceipts | Boolean | True для подавления отправки уведомлений о прочтении сообщений; в противном случае ложно. |
+| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. Значение true, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
+| suppressReadReceipts | Boolean | Истинно, чтобы запретить отправку уведомлений о прочтении сообщений; в противном случае ложно. |
 | folderIds | String[] | Список uri папки для обработки. |
 
 ### Смотрите также
@@ -51,7 +51,7 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, params string[] f
 
 ## MarkAllItems(bool, bool, IEnumerable&lt;string&gt;) {#markallitems}
 
-Отмечает все элементы в указанных папках.
+Помечает все элементы в указанных папках.
 
 ```csharp
 public void MarkAllItems(bool read, bool suppressReadReceipts, IEnumerable<string> folderIds)
@@ -59,8 +59,8 @@ public void MarkAllItems(bool read, bool suppressReadReceipts, IEnumerable<strin
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. True, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
-| suppressReadReceipts | Boolean | True для подавления отправки уведомлений о прочтении сообщений; в противном случае ложно. |
+| read | Boolean | Устанавливает состояние прочитанного/непрочитанного для сообщений в указанной папке. Значение true, чтобы помечать сообщения в папке как прочитанные. False, чтобы помечать сообщения как непрочитанные. |
+| suppressReadReceipts | Boolean | Истинно, чтобы запретить отправку уведомлений о прочтении сообщений; в противном случае ложно. |
 | folderIds | IEnumerable`1 | Список uri папки для обработки. |
 
 ### Смотрите также

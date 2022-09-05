@@ -1,14 +1,14 @@
 ---
 title: ExtendedRuleMessageCondition
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию об условиях именованных свойств используемых в правиле. ОбластьПравила Каноническое имяPidTagExtendedRuleMessageCondition Альтернативные именаPR_EXTENDED_RULE_MSG_CONDITION
+description: Содержит информацию об условиях именованных свойств используемых в правиле. Область Rules Каноническое имя PidTagExtendedRuleMessageCondition Альтернативные имена PR_EXTENDED_RULE_MSG_CONDITION
 type: docs
 weight: 10020
 url: /ru/net/aspose.email.mapi/knownpropertylist/extendedrulemessagecondition/
 ---
 ## KnownPropertyList.ExtendedRuleMessageCondition field
 
-Содержит информацию об условиях именованных свойств, используемых в правиле. Область:Правила Каноническое имя:PidTagExtendedRuleMessageCondition Альтернативные имена:PR_EXTENDED_RULE_MSG_CONDITION
+Содержит информацию об условиях именованных свойств, используемых в правиле. Область: Rules Каноническое имя: PidTagExtendedRuleMessageCondition Альтернативные имена: PR_EXTENDED_RULE_MSG_CONDITION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedRuleMessageCondition;

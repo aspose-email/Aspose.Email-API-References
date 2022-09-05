@@ -20,7 +20,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(Pop3LoadMessageI
 
 ### 返回值
 
-加载消息信息列表
+已加载消息信息列表
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: StorageProcessedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет данные для событияStorageProcessed./personalstorage/storageprocessed
+description: Предоставляет данные дляStorageProcessed./personalstorage/storageprocessed событие
 type: docs
-weight: 20310
+weight: 20360
 url: /ru/net/aspose.email.storage.pst/storageprocessedeventargs/
 ---
 ## StorageProcessedEventArgs class
 
-Предоставляет данные для события[`StorageProcessed`](../personalstorage/storageprocessed)
+Предоставляет данные для[`StorageProcessed`](../personalstorage/storageprocessed) событие
 
 ```csharp
 public class StorageProcessedEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class StorageProcessedEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk) { get; } | Получает PST, представляющий фрагмент. |
+| [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk) { get; } | Получает файл pst, представляющий фрагмент. |
 | [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename) { get; } | Получает имя PST-файла, представляющего фрагмент. |
 
 ### Смотрите также

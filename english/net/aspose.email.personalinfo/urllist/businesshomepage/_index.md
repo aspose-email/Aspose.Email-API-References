@@ -1,7 +1,7 @@
 ---
 title: BusinessHomePage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default work page
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/urllist/businesshomepage/

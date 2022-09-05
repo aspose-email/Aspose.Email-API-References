@@ -16,7 +16,7 @@ public void Add(PropertyDescriptor item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | PropertyDescriptor | Объект для добавления в System.Collections.Generic.ICollection. |
+| item | PropertyDescriptor | Объект, добавляемый в System.Collections.Generic.ICollection. |
 
 ### Смотрите также
 

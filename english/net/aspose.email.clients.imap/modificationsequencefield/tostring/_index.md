@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a String which represents the object instance.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/modificationsequencefield/tostring/

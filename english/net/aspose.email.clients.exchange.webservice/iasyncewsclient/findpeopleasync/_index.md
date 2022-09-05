@@ -1,7 +1,7 @@
 ---
 title: FindPeopleAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Find contacts.
 type: docs
 weight: 300
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync/

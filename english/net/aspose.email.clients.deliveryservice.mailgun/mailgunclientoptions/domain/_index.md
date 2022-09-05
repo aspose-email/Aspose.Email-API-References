@@ -1,7 +1,7 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Domain name.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain/

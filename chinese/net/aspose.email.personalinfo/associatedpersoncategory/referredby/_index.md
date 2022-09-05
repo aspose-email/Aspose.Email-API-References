@@ -1,14 +1,14 @@
 ---
 title: ReferredBy
 second_title: Aspose.Email for .NET API 参考
-description: 引用
+description: 推荐人
 type: docs
 weight: 130
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/referredby/
 ---
 ## AssociatedPersonCategory.ReferredBy property
 
-引用
+推荐人
 
 ```csharp
 public static AssociatedPersonCategory ReferredBy { get; }

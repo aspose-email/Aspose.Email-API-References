@@ -1,14 +1,14 @@
 ---
 title: EmsAbRegisteredAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REGISTERED_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REGISTERED_ADDRESS
 type: docs
 weight: 8370
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabregisteredaddress/
 ---
 ## KnownPropertyList.EmsAbRegisteredAddress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REGISTERED_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REGISTERED_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRegisteredAddress;

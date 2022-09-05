@@ -1,7 +1,7 @@
 ---
 title: FromProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an instance of MapiMessage from a collection of Mapi properties.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapimessage/fromproperties/

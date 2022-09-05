@@ -16,7 +16,7 @@ public Task UpdateItemAsync(EwsUpdateItem parameters)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| параметры | EwsUpdateItem | Параметры метода |
+| parameters | EwsUpdateItem | Параметры метода |
 
 ### Смотрите также
 

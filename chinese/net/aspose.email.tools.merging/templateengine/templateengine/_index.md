@@ -1,14 +1,14 @@
 ---
 title: TemplateEngine
 second_title: Aspose.Email for .NET API 参考
-description: 初始化TemplateEngineaspose.email.tools.merging/templateengine类的新实例
+description: 初始化TemplateEngineaspose.email.tools.merging/templateengine类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.merging/templateengine/templateengine/
 ---
 ## TemplateEngine(string) {#constructor_1}
 
-初始化[`TemplateEngine`](../../templateengine)类的新实例。
+初始化[`TemplateEngine`](../../templateengine)类.
 
 ```csharp
 public TemplateEngine(string fileName)
@@ -16,7 +16,7 @@ public TemplateEngine(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public TemplateEngine(string fileName)
 
 ## TemplateEngine(MailMessage) {#constructor}
 
-初始化[`TemplateEngine`](../../templateengine)类的新实例。
+初始化[`TemplateEngine`](../../templateengine)类.
 
 ```csharp
 public TemplateEngine(MailMessage templateMessage)

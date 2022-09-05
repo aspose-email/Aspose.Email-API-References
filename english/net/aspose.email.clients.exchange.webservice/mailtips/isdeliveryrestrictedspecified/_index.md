@@ -1,7 +1,7 @@
 ---
 title: IsDeliveryRestrictedSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether DeliveryRestrictedaspose.email.clients.exchange.webservice/mailtips/deliveryrestricted is specified
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified/

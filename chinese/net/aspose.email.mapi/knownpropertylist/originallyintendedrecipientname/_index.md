@@ -1,14 +1,14 @@
 ---
 title: OriginallyIntendedRecipientName
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ORIGINALLY_INTENDED_RECIPIENT_NAME
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ORIGINALLY_INTENDED_RECIPIENT_NAME
 type: docs
 weight: 13620
 url: /zh/net/aspose.email.mapi/knownpropertylist/originallyintendedrecipientname/
 ---
 ## KnownPropertyList.OriginallyIntendedRecipientName field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ORIGINALLY_INTENDED_RECIPIENT_NAME
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ORIGINALLY_INTENDED_RECIPIENT_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginallyIntendedRecipientName;

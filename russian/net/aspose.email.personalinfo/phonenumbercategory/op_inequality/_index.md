@@ -17,7 +17,7 @@ public static bool operator !=(PhoneNumberCategory a, PhoneNumberCategory b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | PhoneNumberCategory | Первый объект для сравнения |
-| b | PhoneNumberCategory | Второй объект для сравнения compare |
+| b | PhoneNumberCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

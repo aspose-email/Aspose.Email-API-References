@@ -40,7 +40,7 @@ public static MailMessage Load(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, который представляет сообщение в eml или формат сообщения |
+| stream | Stream | Поток, представляющий сообщение в формате eml или msg |
 
 ### Возвращаемое значение
 
@@ -65,7 +65,7 @@ public static MailMessage Load(string fileName, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Путь к исходному файлуString. |
-| options | LoadOptions | Дополнительные параметры[`LoadOptions`](../../loadoptions). |
+| options | LoadOptions | Дополнительные опции[`LoadOptions`](../../loadoptions). |
 
 ### Возвращаемое значение
 
@@ -75,7 +75,7 @@ public static MailMessage Load(string fileName, LoadOptions options)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*fileName*равно null. |
+| ArgumentNullException | Если*fileName* нулевой. |
 
 ### Смотрите также
 
@@ -97,7 +97,7 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Исходный потокStream. |
-| options | LoadOptions | Дополнительные параметры[`LoadOptions`](../../loadoptions). |
+| options | LoadOptions | Дополнительные опции[`LoadOptions`](../../loadoptions). |
 
 ### Возвращаемое значение
 
@@ -107,7 +107,7 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*stream*равно null. |
+| ArgumentNullException | Если*stream* нулевой. |
 
 ### Смотрите также
 

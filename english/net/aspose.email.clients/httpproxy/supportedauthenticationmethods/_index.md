@@ -1,7 +1,7 @@
 ---
 title: SupportedAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The supported authentication methods to connect to HTTP proxy
 type: docs
 weight: 30
 url: /net/aspose.email.clients/httpproxy/supportedauthenticationmethods/

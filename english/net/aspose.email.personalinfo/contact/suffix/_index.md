@@ -1,7 +1,7 @@
 ---
 title: Suffix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a suffix of a full name such like Jr.junior Sr.senior and so on.
 type: docs
 weight: 380
 url: /net/aspose.email.personalinfo/contact/suffix/

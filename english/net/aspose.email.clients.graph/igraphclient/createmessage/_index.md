@@ -1,7 +1,7 @@
 ---
 title: CreateMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates message in specified folder
 type: docs
 weight: 140
 url: /net/aspose.email.clients.graph/igraphclient/createmessage/

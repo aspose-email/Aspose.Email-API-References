@@ -1,14 +1,14 @@
 ---
 title: XSharingRemoteStoreUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidLidSharingRemoteStoreUid раздел 2.282. ОбластьОбщий доступ Каноническое имяPidNameXSharingRemoteStoreUid Альтернативные имена
+description: Содержит то же значение что и свойство PidLidSharingRemoteStoreUid раздел 2.282. Область Sharing Каноническое имя PidNameXSharingRemoteStoreUid Альтернативные имена
 type: docs
 weight: 19830
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingremotestoreuid/
 ---
 ## KnownPropertyList.XSharingRemoteStoreUid field
 
-Содержит то же значение, что и свойство PidLidSharingRemoteStoreUid (раздел 2.282). Область:Общий доступ Каноническое имя:PidNameXSharingRemoteStoreUid Альтернативные имена:
+Содержит то же значение, что и свойство PidLidSharingRemoteStoreUid (раздел 2.282). Область: Sharing Каноническое имя: PidNameXSharingRemoteStoreUid Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingRemoteStoreUid;

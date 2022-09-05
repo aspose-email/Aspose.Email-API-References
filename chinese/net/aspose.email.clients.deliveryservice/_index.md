@@ -12,8 +12,8 @@ url: /zh/net/aspose.email.clients.deliveryservice/
 
 | 班级 | 描述 |
 | --- | --- |
-| [DeliveryServiceClientFactory](./deliveryserviceclientfactory) | 表示创建 DeliveryServiceClient |
-| [DeliveryServiceOptions](./deliveryserviceoptions) | 用于设置 DeliveryServiceClient 参数的选项。 |
+| [DeliveryServiceClientFactory](./deliveryserviceclientfactory) | 代表创建 DeliveryServiceClient |
+| [DeliveryServiceOptions](./deliveryserviceoptions) | 设置 DeliveryServiceClient 参数的选项。 |
 | [DeliveryServiceResponse&lt;T&gt;](./deliveryserviceresponse-1) | 表示 DeliveryService 客户端响应 |
 ## 接口
 

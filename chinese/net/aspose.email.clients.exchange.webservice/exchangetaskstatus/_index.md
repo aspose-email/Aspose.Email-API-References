@@ -22,7 +22,7 @@ public enum ExchangeTaskStatus
 | Completed | `1` | 指定任务已完成。 |
 | Deferred | `2` | 指定任务被推迟。 |
 | InProgress | `3` | 指定任务正在进行中。 |
-| WaitingOnOthers | `4` | 指定任务正在等待其他任务。 |
+| WaitingOnOthers | `4` | 指定任务正在等待其他人。 |
 
 ### 也可以看看
 

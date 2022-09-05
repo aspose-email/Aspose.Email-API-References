@@ -1,14 +1,14 @@
 ---
 title: LinkedResources
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息链接资源的集合
+description: 获取message 的链接资源集合
 type: docs
 weight: 210
 url: /zh/net/aspose.email/mailmessage/linkedresources/
 ---
 ## MailMessage.LinkedResources property
 
-获取消息链接资源的集合
+获取message 的链接资源集合
 
 ```csharp
 public virtual LinkedResourceCollection LinkedResources { get; }

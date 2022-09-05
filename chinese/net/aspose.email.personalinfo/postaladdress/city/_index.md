@@ -1,14 +1,14 @@
 ---
 title: City
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置城市
+description: 获取或设置一个城市
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo/postaladdress/city/
 ---
 ## PostalAddress.City property
 
-获取或设置城市
+获取或设置一个城市
 
 ```csharp
 public string City { get; set; }

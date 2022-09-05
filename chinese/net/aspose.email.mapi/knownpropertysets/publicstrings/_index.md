@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/publicstrings/
 ---
 ## KnownPropertySets.PublicStrings field
 
-区域名称:Common 属性集名称:PS_PUBLIC_STRINGS
+区域名称：Common 属性集名称：PS_PUBLIC_STRINGS
 
 ```csharp
 public static readonly Guid PublicStrings;

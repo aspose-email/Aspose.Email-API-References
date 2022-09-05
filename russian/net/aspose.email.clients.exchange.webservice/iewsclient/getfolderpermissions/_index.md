@@ -16,11 +16,11 @@ public ExchangePermissionCollection GetFolderPermissions(string folderUrl)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUrl | String | URL папки. |
+| folderUrl | String | URL-адрес папки. |
 
 ### Возвращаемое значение
 
-Коллекция[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
+[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 
 ### Смотрите также
 

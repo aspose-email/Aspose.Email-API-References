@@ -1,7 +1,7 @@
 ---
 title: DeletedItemsFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for DeletedItems folder
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteditemsfoldereventfilter/

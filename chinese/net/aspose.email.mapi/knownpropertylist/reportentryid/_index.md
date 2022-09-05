@@ -1,14 +1,14 @@
 ---
 title: ReportEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定标识生成报告消息的应用程序的条目 ID 区域MapiEnvelope 规范名称PidTagReportEntryId 替代名称PR_REPORT_ENTRYID ptagReportEntryId
+description: 指定标识生成报告消息的应用程序的条目 ID 区域MapiEnvelope 规范名称PidTagReportEntryId 替代名称PR_REPORT_ENTRYIDptagReportEntryId
 type: docs
 weight: 16020
 url: /zh/net/aspose.email.mapi/knownpropertylist/reportentryid/
 ---
 ## KnownPropertyList.ReportEntryId field
 
-指定标识生成报告消息的应用程序的条目 ID。 区域:MapiEnvelope 规范名称:PidTagReportEntryId 替代名称:PR_REPORT_ENTRYID, ptagReportEntryId
+指定标识生成报告消息的应用程序的条目 ID。 区域：MapiEnvelope 规范名称：PidTagReportEntryId 替代名称：PR_REPORT_ENTRYID、ptagReportEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportEntryId;

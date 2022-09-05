@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts boolean value to PipeliningStatusaspose.email.clients/pipeliningstatus object
 type: docs
 weight: 50
 url: /net/aspose.email.clients/pipeliningstatus/op_implicit/
 ---
-## PipeliningStatus Implicit operator (1 of 4)
+## implicit operator {#op_implicit_2}
 
 Converts boolean value to [`PipeliningStatus`](../../pipeliningstatus) object
 
@@ -30,7 +30,7 @@ Returns [`PipeliningStatus`](../../pipeliningstatus) object
 
 ---
 
-## PipeliningStatus Implicit operator (2 of 4)
+## implicit operator {#op_implicit_1}
 
 Converts [`PipeliningMode`](../../pipeliningmode) value to [`PipeliningStatus`](../../pipeliningstatus) object
 
@@ -55,7 +55,7 @@ Returns [`PipeliningStatus`](../../pipeliningstatus) object
 
 ---
 
-## PipeliningStatus Implicit operator (3 of 4)
+## implicit operator {#op_implicit_3}
 
 Converts [`PipeliningStatus`](../../pipeliningstatus) object to boolean value
 
@@ -79,7 +79,7 @@ Returns true if pipelining is used, otherwise returns false.
 
 ---
 
-## PipeliningStatus Implicit operator (4 of 4)
+## implicit operator {#op_implicit}
 
 Converts [`PipeliningStatus`](../../pipeliningstatus) object
 

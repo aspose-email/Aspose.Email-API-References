@@ -1,14 +1,14 @@
 ---
 title: Pop3MailboxInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化Pop3MailboxInfoaspose.email.clients.pop3/pop3mailboxinfo类的新实例
+description: 初始化Pop3MailboxInfoaspose.email.clients.pop3/pop3mailboxinfo类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.pop3/pop3mailboxinfo/pop3mailboxinfo/
 ---
 ## Pop3MailboxInfo constructor
 
-初始化[`Pop3MailboxInfo`](../../pop3mailboxinfo)类的新实例。
+初始化[`Pop3MailboxInfo`](../../pop3mailboxinfo)类.
 
 ```csharp
 public Pop3MailboxInfo(int count, long size)
@@ -17,7 +17,7 @@ public Pop3MailboxInfo(int count, long size)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | count | Int32 | 消息计数。 |
-| size | Int64 | 占用大小。 |
+| size | Int64 | 占用的大小。 |
 
 ### 也可以看看
 

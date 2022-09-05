@@ -1,14 +1,14 @@
 ---
 title: PrimarySmtpAddress
 second_title: Aspose.Email for .NET API 参考
-description: 指定给定帐户的主 SMTP 地址 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回 协议版本为 12.1 或 14.0 时不支持 PrimarySmtpAddress
+description: 指定给定帐户的主 SMTP 地址 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回 当协议版本为 12.1 或 14.0 时不支持 PrimarySmtpAddress
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress/
 ---
 ## AccountInformation.PrimarySmtpAddress property
 
-指定给定帐户的主 SMTP 地址。 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回。 协议版本为 12.1 或 14.0 时不支持 PrimarySmtpAddress。
+指定给定帐户的主 SMTP 地址。 PrimarySmtpAddress 的值也可以作为 SMTPAddress 的值返回。 当协议版本为 12.1 或 14.0 时，不支持 PrimarySmtpAddress。
 
 ```csharp
 public string PrimarySmtpAddress { get; set; }

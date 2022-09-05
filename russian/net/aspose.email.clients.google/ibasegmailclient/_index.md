@@ -18,7 +18,7 @@ public interface IBaseGmailClient : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [AccessToken](../../aspose.email.clients.google/ibasegmailclient/accesstoken) { get; set; } | Получает или устанавливает токен носителя OAuth 2.0 |
+| [AccessToken](../../aspose.email.clients.google/ibasegmailclient/accesstoken) { get; set; } | Получает или задает токен носителя OAuth 2.0 |
 | [DefaultEmail](../../aspose.email.clients.google/ibasegmailclient/defaultemail) { get; } | Получает адрес электронной почты по умолчанию |
 | [Proxy](../../aspose.email.clients.google/ibasegmailclient/proxy) { get; set; } | Получает или задает прокси. |
 | [Timeout](../../aspose.email.clients.google/ibasegmailclient/timeout) { get; set; } | Получает или задает количество миллисекунд ожидания до истечения времени ожидания операции. Значение по умолчанию — 100 000 миллисекунд (100 секунд). |
@@ -27,7 +27,7 @@ public interface IBaseGmailClient : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [RefreshToken](../../aspose.email.clients.google/ibasegmailclient/refreshtoken)() | Обновить маркер доступа |
+| [RefreshToken](../../aspose.email.clients.google/ibasegmailclient/refreshtoken)() | Обновить токен доступа |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: UserAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает пользовательский агент.
+description: Получает или задает пользовательский агент.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients.exchange/autodiscoverservicebase/useragent/
 ---
 ## AutodiscoverServiceBase.UserAgent property
 
-Получает или устанавливает пользовательский агент.
+Получает или задает пользовательский агент.
 
 ```csharp
 public string UserAgent { get; set; }

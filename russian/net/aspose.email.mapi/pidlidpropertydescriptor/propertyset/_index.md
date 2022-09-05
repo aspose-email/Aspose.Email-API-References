@@ -1,14 +1,14 @@
 ---
 title: PropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID который идентифицирует группу свойств с аналогичной целью.
+description: GUID идентифицирующий группу свойств с аналогичной целью.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/pidlidpropertydescriptor/propertyset/
 ---
 ## PidLidPropertyDescriptor.PropertySet property
 
-GUID, который идентифицирует группу свойств с аналогичной целью.
+GUID, идентифицирующий группу свойств с аналогичной целью.
 
 ```csharp
 public Guid PropertySet { get; }

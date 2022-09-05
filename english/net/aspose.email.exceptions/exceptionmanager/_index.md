@@ -1,9 +1,9 @@
 ---
 title: ExceptionManager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the ability to ignore exceptions.
 type: docs
-weight: 17160
+weight: 17330
 url: /net/aspose.email.exceptions/exceptionmanager/
 ---
 ## ExceptionManager class

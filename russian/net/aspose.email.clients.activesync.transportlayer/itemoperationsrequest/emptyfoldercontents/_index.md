@@ -1,14 +1,14 @@
 ---
 title: EmptyFolderContents
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options DeleteSubFolders который определяет удаляются ли вложенные папки содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос вложенные папки указанного CollectionId не удаляются.
+description: Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options DeleteSubFolders который определяет удаляются ли вложенные папки содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос подпапки указанного CollectionId не удаляются.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsrequest/emptyfoldercontents/
 ---
 ## ItemOperationsRequest.EmptyFolderContents property
 
-Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options, DeleteSubFolders, который определяет, удаляются ли вложенные папки, содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются.
+Содержит запросы на удаление содержимого папки. EmptyFolderContents поддерживает единственный дочерний элемент элемента Options, DeleteSubFolders, который определяет, удаляются ли вложенные папки, содержащиеся в папке. Если параметр DeleteSubFolders не включен в запрос, подпапки указанного CollectionId не удаляются.
 
 ```csharp
 public List<EmptyFolderContentsRequest> EmptyFolderContents { get; }

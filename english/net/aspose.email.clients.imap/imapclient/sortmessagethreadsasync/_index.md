@@ -1,12 +1,12 @@
 ---
 title: SortMessageThreadsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sort message threads.
 type: docs
 weight: 1160
 url: /net/aspose.email.clients.imap/imapclient/sortmessagethreadsasync/
 ---
-## ImapClient.SortMessageThreadsAsync method (1 of 4)
+## SortMessageThreadsAsync(IConnection, SortConditions) {#sortmessagethreadsasync}
 
 Sort message threads.
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SortMessageThreadsAsync method (2 of 4)
+## SortMessageThreadsAsync(SortConditions) {#sortmessagethreadsasync_2}
 
 Sort message threads.
 
@@ -61,7 +61,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SortMessageThreadsAsync method (3 of 4)
+## SortMessageThreadsAsync(IConnection, SortConditions, CancellationToken) {#sortmessagethreadsasync_1}
 
 Sort message threads.
 
@@ -91,7 +91,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SortMessageThreadsAsync method (4 of 4)
+## SortMessageThreadsAsync(SortConditions, CancellationToken) {#sortmessagethreadsasync_3}
 
 Sort message threads.
 

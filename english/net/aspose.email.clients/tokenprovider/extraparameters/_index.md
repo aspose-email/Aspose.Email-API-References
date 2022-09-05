@@ -1,7 +1,7 @@
 ---
 title: ExtraParameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets extra parameters for request
 type: docs
 weight: 40
 url: /net/aspose.email.clients/tokenprovider/extraparameters/

@@ -1,12 +1,246 @@
 ---
 title: ChangeMessageFlagsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the flags of the message
 type: docs
 weight: 430
 url: /net/aspose.email.clients.imap/imapclient/changemessageflagsasync/
 ---
-## ImapClient.ChangeMessageFlagsAsync method (1 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflagsasync_41}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflagsasync_17}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
+    ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflagsasync_13}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
+    ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflagsasync_36}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
+    ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflagsasync_8}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IConnection connection, 
+    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageInfo](../../imapmessageinfo)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflagsasync_37}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
+    ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflagsasync_9}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(IConnection connection, 
+    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageInfo](../../imapmessageinfo)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_51}
+
+Changes the flags of the message
+
+```csharp
+public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ChangeMessageFlagsAsync(int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_31}
 
 Changes the flags of the message
 
@@ -34,7 +268,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (2 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_23}
 
 Changes the flags of the message
 
@@ -64,7 +298,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (3 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_3}
 
 Changes the flags of the message
 
@@ -94,7 +328,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (4 of 56)
+## ChangeMessageFlagsAsync(string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_50}
 
 Changes the flags of the message
 
@@ -123,7 +357,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (5 of 56)
+## ChangeMessageFlagsAsync(int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_30}
 
 Changes the flags of the message
 
@@ -152,7 +386,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (6 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_22}
 
 Changes the flags of the message
 
@@ -183,7 +417,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (7 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_2}
 
 Changes the flags of the message
 
@@ -214,7 +448,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (8 of 56)
+## ChangeMessageFlagsAsync(string, string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_55}
 
 Changes the flags of the message
 
@@ -243,7 +477,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (9 of 56)
+## ChangeMessageFlagsAsync(int, int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_35}
 
 Changes the flags of the message
 
@@ -272,7 +506,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (10 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_27}
 
 Changes the flags of the message
 
@@ -303,7 +537,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (11 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_7}
 
 Changes the flags of the message
 
@@ -334,7 +568,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (12 of 56)
+## ChangeMessageFlagsAsync(string, string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_54}
 
 Changes the flags of the message
 
@@ -364,7 +598,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (13 of 56)
+## ChangeMessageFlagsAsync(int, int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_34}
 
 Changes the flags of the message
 
@@ -394,7 +628,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (14 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_26}
 
 Changes the flags of the message
 
@@ -426,7 +660,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (15 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_6}
 
 Changes the flags of the message
 
@@ -458,7 +692,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (16 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_47}
 
 Changes the flags of the message
 
@@ -486,7 +720,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (17 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_43}
 
 Changes the flags of the message
 
@@ -514,7 +748,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (18 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_19}
 
 Changes the flags of the message
 
@@ -544,7 +778,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (19 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_15}
 
 Changes the flags of the message
 
@@ -574,7 +808,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (20 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_46}
 
 Changes the flags of the message
 
@@ -603,7 +837,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (21 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_42}
 
 Changes the flags of the message
 
@@ -632,7 +866,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (22 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_18}
 
 Changes the flags of the message
 
@@ -663,7 +897,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (23 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_14}
 
 Changes the flags of the message
 
@@ -694,7 +928,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (24 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_39}
 
 Changes the flags of the message
 
@@ -723,7 +957,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (25 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_11}
 
 Changes the flags of the message
 
@@ -754,7 +988,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (26 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_38}
 
 Changes the flags of the message
 
@@ -784,7 +1018,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (27 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_10}
 
 Changes the flags of the message
 
@@ -817,7 +1051,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (28 of 56)
+## ChangeMessageFlagsAsync(string, ImapMessageFlags) {#changemessageflagsasync_48}
 
 Changes the flags of the message
 
@@ -843,7 +1077,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (29 of 56)
+## ChangeMessageFlagsAsync(int, ImapMessageFlags) {#changemessageflagsasync_28}
 
 Changes the flags of the message
 
@@ -869,7 +1103,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (30 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags) {#changemessageflagsasync_20}
 
 Changes the flags of the message
 
@@ -897,7 +1131,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (31 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags) {#changemessageflagsasync}
 
 Changes the flags of the message
 
@@ -926,7 +1160,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (32 of 56)
+## ChangeMessageFlagsAsync(string, ImapMessageFlags, long) {#changemessageflagsasync_49}
 
 Changes the flags of the message
 
@@ -954,7 +1188,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (33 of 56)
+## ChangeMessageFlagsAsync(int, ImapMessageFlags, long) {#changemessageflagsasync_29}
 
 Changes the flags of the message
 
@@ -982,7 +1216,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (34 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, long) {#changemessageflagsasync_21}
 
 Changes the flags of the message
 
@@ -1012,7 +1246,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (35 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, long) {#changemessageflagsasync_1}
 
 Changes the flags of the message
 
@@ -1042,7 +1276,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (36 of 56)
+## ChangeMessageFlagsAsync(string, string, ImapMessageFlags) {#changemessageflagsasync_52}
 
 Changes the flags of the message
 
@@ -1069,7 +1303,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (37 of 56)
+## ChangeMessageFlagsAsync(int, int, ImapMessageFlags) {#changemessageflagsasync_32}
 
 Changes the flags of the message
 
@@ -1096,7 +1330,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (38 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags) {#changemessageflagsasync_24}
 
 Changes the flags of the message
 
@@ -1126,7 +1360,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (39 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags) {#changemessageflagsasync_4}
 
 Changes the flags of the message
 
@@ -1156,7 +1390,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (40 of 56)
+## ChangeMessageFlagsAsync(string, string, ImapMessageFlags, long) {#changemessageflagsasync_53}
 
 Changes the flags of the message
 
@@ -1185,7 +1419,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (41 of 56)
+## ChangeMessageFlagsAsync(int, int, ImapMessageFlags, long) {#changemessageflagsasync_33}
 
 Changes the flags of the message
 
@@ -1214,7 +1448,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (42 of 56)
+## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long) {#changemessageflagsasync_25}
 
 Changes the flags of the message
 
@@ -1245,7 +1479,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (43 of 56)
+## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long) {#changemessageflagsasync_5}
 
 Changes the flags of the message
 
@@ -1276,7 +1510,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (44 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflagsasync_44}
 
 Changes the flags of the message
 
@@ -1302,7 +1536,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (45 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflagsasync_40}
 
 Changes the flags of the message
 
@@ -1328,7 +1562,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (46 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflagsasync_16}
 
 Changes the flags of the message
 
@@ -1357,7 +1591,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (47 of 56)
+## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflagsasync_12}
 
 Changes the flags of the message
 
@@ -1386,7 +1620,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ChangeMessageFlagsAsync method (48 of 56)
+## ChangeMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflagsasync_45}
 
 Changes the flags of the message
 
@@ -1400,240 +1634,6 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (49 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (50 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
-    ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (51 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
-    ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (52 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
-    ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (53 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IConnection connection, 
-    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (54 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
-    ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (55 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(IConnection connection, 
-    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.ChangeMessageFlagsAsync method (56 of 56)
-
-Changes the flags of the message
-
-```csharp
-public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The uid of the message |
-| flags | ImapMessageFlags | The flags to be changed |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value
 

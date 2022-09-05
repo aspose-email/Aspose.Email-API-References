@@ -18,7 +18,7 @@ public MailAddressCollection Recipients { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *value*is` null` |
+| ArgumentNullException | *value* является`нулевой` |
 
 ### Смотрите также
 

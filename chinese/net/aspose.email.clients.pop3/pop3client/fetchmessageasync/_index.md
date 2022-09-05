@@ -17,11 +17,11 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -44,11 +44,11 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -70,11 +70,11 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -95,11 +95,11 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -122,12 +122,12 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一标识 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -151,12 +151,12 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -178,12 +178,12 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken to
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一标识 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -204,12 +204,12 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

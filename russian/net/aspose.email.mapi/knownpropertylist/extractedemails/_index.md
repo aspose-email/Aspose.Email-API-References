@@ -1,14 +1,14 @@
 ---
 title: ExtractedEmails
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит XML-документ с одним элементом EmailSet. ОбластьИзвлеченные объекты Каноническое имяPidNameExtractedEmails Альтернативные именаdispidXmlExtractedEmails
+description: Содержит документ XML с одним элементом EmailSet. Область Извлеченные сущности Каноническое имя PidNameExtractedEmails Альтернативные имена dispidXmlExtractedEmails
 type: docs
 weight: 10060
 url: /ru/net/aspose.email.mapi/knownpropertylist/extractedemails/
 ---
 ## KnownPropertyList.ExtractedEmails field
 
-Содержит XML-документ с одним элементом EmailSet. Область:Извлеченные объекты Каноническое имя:PidNameExtractedEmails Альтернативные имена:dispidXmlExtractedEmails
+Содержит документ XML с одним элементом EmailSet. Область: Извлеченные сущности Каноническое имя: PidNameExtractedEmails Альтернативные имена: dispidXmlExtractedEmails
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedEmails;

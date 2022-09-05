@@ -1,14 +1,14 @@
 ---
 title: SendInternetEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит битовую маску предпочтений кодирования сообщений для электронной почты отправляемой объекту с поддержкой электронной почты представленному этим объектом адресной книги. ОбластьСвойства адреса Каноническое имяPidTagSendInternetEncoding Альтернативные именаPR_SEND_INTERNET_ENCODING ptagSendInternetEncoding
+description: Содержит битовую маску настроек кодирования сообщений для электронной почты отправляемой объекту с поддержкой электронной почты представленному этим объектом адресной книги. Область Свойства адреса Каноническое имя PidTagSendInternetEncoding Альтернативные имена PR_SEND_INTERNET_ENCODING ptagSendInternetEncoding
 type: docs
 weight: 17170
 url: /ru/net/aspose.email.mapi/knownpropertylist/sendinternetencoding/
 ---
 ## KnownPropertyList.SendInternetEncoding field
 
-Содержит битовую маску предпочтений кодирования сообщений для электронной почты, отправляемой объекту с поддержкой электронной почты, представленному этим объектом адресной книги. Область:Свойства адреса Каноническое имя:PidTagSendInternetEncoding Альтернативные имена:PR_SEND_INTERNET_ENCODING, ptagSendInternetEncoding
+Содержит битовую маску настроек кодирования сообщений для электронной почты, отправляемой объекту с поддержкой электронной почты, представленному этим объектом адресной книги. Область: Свойства адреса Каноническое имя: PidTagSendInternetEncoding Альтернативные имена: PR_SEND_INTERNET_ENCODING, ptagSendInternetEncoding
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SendInternetEncoding;

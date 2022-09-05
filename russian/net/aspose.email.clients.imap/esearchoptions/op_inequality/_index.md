@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по Aspose.Email для .NET API
-description: Определена операция Not equel
+description: Определена неравномерная операция
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.imap/esearchoptions/op_inequality/
 ---
 ## ESearchOptions Inequality operator
 
-Определена операция Not equel
+Определена неравномерная операция
 
 ```csharp
 public static bool operator !=(ESearchOptions val1, ESearchOptions val2)

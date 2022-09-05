@@ -1,14 +1,14 @@
 ---
 title: GetOneNoteOperationStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить статус длительной операции OneNote. Это относится к операциям которые возвращают заголовок Operation-Location в ответе например CopyNotebook CopyToNotebook CopyToSectionGroup и CopyToSection. Вы можете опрашивать конечную точку Operation-Location до тех пор пока свойство состояния не вернет завершение или сбой. Если состояние завершено свойство resourceLocation содержит URI конечной точки ресурса. Если состояние неудовлетворительное свойства error и api.diagnostics предоставляют информацию об ошибке.
+description: Получить статус долго выполняющейся операции OneNote. Это относится к операциям которые возвращают заголовок Operation-Location в ответе например CopyNotebook CopyToNotebook CopyToSectionGroup и CopyToSection. Вы можете опрашивать конечную точку Operation-Location до тех пор пока не Свойство состояния возвращает завершение или сбой. Если состояние завершено свойство resourceLocation содержит URI конечной точки ресурса.
 type: docs
 weight: 260
 url: /ru/net/aspose.email.clients.graph/igraphclient/getonenoteoperationstatus/
 ---
 ## IGraphClient.GetOneNoteOperationStatus method
 
-Получить статус длительной операции OneNote. Это относится к операциям, которые возвращают заголовок Operation-Location в ответе, например, CopyNotebook, CopyToNotebook, CopyToSectionGroup и CopyToSection. Вы можете опрашивать конечную точку Operation-Location до тех пор, пока свойство состояния не вернет завершение или сбой. Если состояние завершено, свойство resourceLocation содержит URI конечной точки ресурса. Если состояние неудовлетворительное, свойства error и @api.diagnostics предоставляют информацию об ошибке.
+Получить статус долго выполняющейся операции OneNote. Это относится к операциям, которые возвращают заголовок Operation-Location в ответе, например CopyNotebook, CopyToNotebook, CopyToSectionGroup и CopyToSection. Вы можете опрашивать конечную точку Operation-Location до тех пор, пока не Свойство состояния возвращает завершение или сбой. Если состояние завершено, свойство resourceLocation содержит URI конечной точки ресурса.
 
 ```csharp
 public OnenoteOperation GetOneNoteOperationStatus(string operationId)

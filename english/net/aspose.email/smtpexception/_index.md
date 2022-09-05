@@ -1,9 +1,9 @@
 ---
 title: SmtpException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when the SmtpClient is not able to complete an operation.
 type: docs
-weight: 19760
+weight: 19990
 url: /net/aspose.email/smtpexception/
 ---
 ## SmtpException class
@@ -18,14 +18,14 @@ public class SmtpException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [SmtpException](smtpexception)() | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(SmtpStatusCode) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(string) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(SmtpStatusCode, string) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(string, Exception) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(string, MailMessage) |  |
-| [SmtpException](smtpexception)(string, SendMessagesResult) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
-| [SmtpException](smtpexception)(string, Exception, MailMessage) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor)() | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_1)(SmtpStatusCode) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_3)(string) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_2)(SmtpStatusCode, string) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_6)(string, Exception) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_5)(string, MailMessage) |  |
+| [SmtpException](smtpexception#constructor_4)(string, SendMessagesResult) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
+| [SmtpException](smtpexception#constructor_7)(string, Exception, MailMessage) | Initializes a new instance of the [`SmtpException`](../smtpexception) class |
 
 ## Properties
 

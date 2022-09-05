@@ -1,14 +1,14 @@
 ---
 title: UserField1
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет первое поле контакта предназначенное для различных целей контакта.
+description: Определяет первое поле в контакте которое предназначено для различных целей контакта.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/userfield1/
 ---
 ## MapiContactOtherPropertySet.UserField1 property
 
-Определяет первое поле контакта, предназначенное для различных целей контакта.
+Определяет первое поле в контакте, которое предназначено для различных целей контакта.
 
 ```csharp
 public string UserField1 { get; set; }

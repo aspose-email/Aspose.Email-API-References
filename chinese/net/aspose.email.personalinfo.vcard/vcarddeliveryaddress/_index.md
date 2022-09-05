@@ -1,14 +1,14 @@
 ---
 title: VCardDeliveryAddress
 second_title: Aspose.Email for .NET API 参考
-description: 表示 vCard 发送地址
+description: 表示 vCard 收货地址
 type: docs
-weight: 19550
+weight: 19580
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/
 ---
 ## VCardDeliveryAddress class
 
-表示 vCard 发送地址
+表示 vCard 收货地址
 
 ```csharp
 public sealed class VCardDeliveryAddress
@@ -18,20 +18,20 @@ public sealed class VCardDeliveryAddress
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardDeliveryAddress](vcarddeliveryaddress)() | 初始化[`VCardDeliveryAddress`](../vcarddeliveryaddress)类的新实例 |
+| [VCardDeliveryAddress](vcarddeliveryaddress)() | 初始化[`VCardDeliveryAddress`](../vcarddeliveryaddress) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AddressType](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/addresstype) { get; set; } | 获取或设置地址类型 |
-| [CountryName](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname) { get; set; } | 获取或设置国家 |
+| [CountryName](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname) { get; set; } | 获取或设置一个国家 |
 | [ExtendedAddress](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress) { get; set; } | 获取或设置扩展地址 |
-| [Locality](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality) { get; set; } | 获取或设置位置 |
+| [Locality](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality) { get; set; } | 获取或设置 locality |
 | [PoBox](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/pobox) { get; set; } | 获取或设置邮政信箱 |
 | [PostalCode](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/postalcode) { get; set; } | 获取或设置邮政编码 |
-| [Region](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/region) { get; set; } | 获取或设置区域 |
-| [Street](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/street) { get; set; } | 获取或设置街道 |
+| [Region](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/region) { get; set; } | 获取或设置一个区域 |
+| [Street](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/street) { get; set; } | 获取或设置一条街道 |
 
 ### 也可以看看
 

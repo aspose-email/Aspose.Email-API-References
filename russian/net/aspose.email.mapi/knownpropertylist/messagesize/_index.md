@@ -1,14 +1,14 @@
 ---
 title: MessageSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит размер в байтах используемый объектом Message на сервере. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageSize Альтернативные именаPR_MESSAGE_SIZE ptagMessageSize
+description: Содержит размер в байтах используемый объектом Message на сервере. Область Общие свойства сообщения Каноническое имя PidTagMessageSize Альтернативные имена PR_MESSAGE_SIZE ptagMessageSize
 type: docs
 weight: 12610
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagesize/
 ---
 ## KnownPropertyList.MessageSize field
 
-Содержит размер в байтах, используемый объектом Message на сервере. Область:Общие свойства сообщения Каноническое имя:PidTagMessageSize Альтернативные имена:PR_MESSAGE_SIZE, ptagMessageSize
+Содержит размер в байтах, используемый объектом Message на сервере. Область: Общие свойства сообщения Каноническое имя: PidTagMessageSize Альтернативные имена: PR_MESSAGE_SIZE, ptagMessageSize
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSize;

@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarMonthlyNthRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет ежемесячный n-й шаблон повторения календаря mapi
+description: Представляет n-й месячный шаблон повторения календаря mapi
 type: docs
-weight: 17990
+weight: 18000
 url: /ru/net/aspose.email.mapi/mapicalendarmonthlynthrecurrencepattern/
 ---
 ## MapiCalendarMonthlyNthRecurrencePattern class
 
-Представляет ежемесячный n-й шаблон повторения календаря mapi
+Представляет n-й месячный шаблон повторения календаря mapi
 
 ```csharp
 public sealed class MapiCalendarMonthlyNthRecurrencePattern : 
@@ -27,16 +27,16 @@ public sealed class MapiCalendarMonthlyNthRecurrencePattern :
 | --- | --- |
 | [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype) { get; set; } | Получает или задает тип используемого календаря |
 | [Day](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day) { get; set; } | Получает или задает день месяца, на который приходится повторение. |
-| [DayOfWeek](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek) { get; set; } | Получает или устанавливает дни недели, в которые происходит событие |
-| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | Массив дат, каждая из которых является исходной датой экземпляра удаленного экземпляра или измененного экземпляра для этого повторения. |
-| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | Получает или задает Определяет конечную дату шаблона повторения элемента. |
-| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | Получает или задает тип окончания повторения. |
+| [DayOfWeek](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/dayofweek) { get; set; } | Получает или задает дни недели, в которые происходит событие |
+| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | Массив дат, каждая из которых является датой исходного экземпляра либо удаленного экземпляра, либо измененного экземпляра для этого повторения. |
+| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | Получает или устанавливает дату окончания шаблона повторения элемента. |
+| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | Получает или задает тип окончания для повторения. |
 | [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | Исключение указывает на изменения экземпляра повторяющейся серии. |
 | override [Frequency](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/frequency) { get; } | Получает или задает частоту повторяющихся серий. |
 | [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates) { get; } | Массив дат, каждая из которых является датой модифицированного экземпляра. |
 | [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount) { get; set; } | Получает или задает количество вхождений в повторении. |
 | [PatternType](../../aspose.email.mapi/mapicalendarrecurrencepattern/patterntype) { get; set; } | Получает или задает тип шаблона повторения |
-| override [Period](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/period) { get; set; } | Получает или задает интервал (в месяцах), с которым повторяется шаблон встречи |
+| override [Period](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/period) { get; set; } | Получает или задает интервал (в месяцах), через который повторяется шаблон встречи |
 | [Position](../../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/position) { get; set; } | Получает или задает количество дней повторения в каждом месяце, на который приходится повторение. |
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag) { get; set; } | Определяет, является ли шаблон скользящим или нет. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate) { get; set; } | Получает или задает начальную дату шаблона повторения элемента. |

@@ -1,7 +1,7 @@
 ---
 title: InternalIdentifier
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an integer value for the event.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/internalidentifier/

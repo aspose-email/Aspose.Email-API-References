@@ -1,14 +1,14 @@
 ---
 title: AddressBookObjectGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор GUID который идентифицирует объект адресной книги. ОбластьАдресная книга Каноническое имяPidTagAddressBookObjectGuid Альтернативные именаPR_EMS_AB_OBJECT_GUID
+description: Содержит идентификатор GUID идентифицирующий объект адресной книги. Область Адресная книга Каноническое имя PidTagAddressBookObjectGuid Альтернативные имена PR_EMS_AB_OBJECT_GUID
 type: docs
 weight: 780
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookobjectguid/
 ---
 ## KnownPropertyList.AddressBookObjectGuid field
 
-Содержит идентификатор GUID, который идентифицирует объект адресной книги. Область:Адресная книга Каноническое имя:PidTagAddressBookObjectGuid Альтернативные имена:PR_EMS_AB_OBJECT_GUID
+Содержит идентификатор GUID, идентифицирующий объект адресной книги. Область: Адресная книга Каноническое имя: PidTagAddressBookObjectGuid Альтернативные имена: PR_EMS_AB_OBJECT_GUID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookObjectGuid;

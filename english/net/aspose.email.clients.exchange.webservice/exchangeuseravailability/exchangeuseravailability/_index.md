@@ -1,7 +1,7 @@
 ---
 title: ExchangeUserAvailability
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeUserAvailabilityaspose.email.clients.exchange.webservice/exchangeuseravailability class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangeuseravailability/exchangeuseravailability/

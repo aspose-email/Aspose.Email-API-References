@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Google
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Clients.Google 命名空间提供了访问 Google 帐户的类
+description: 的 Aspose.Email.Clients.Google命名空间提供访问 Google 帐户的类
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.google/
 ---
-**Aspose.Email.Clients.Google** 命名空间提供了访问 Google 帐户的类。
+的 **Aspose.Email.Clients.Google**命名空间提供访问 Google 帐户的类。
 
 ## 课程
 
@@ -23,20 +23,20 @@ url: /zh/net/aspose.email.clients.google/
 | [ErrorDetails](./errordetails) | 错误信息 |
 | [ExtendedCalendar](./extendedcalendar) | 单个日历的一组扩展元数据，例如颜色。 |
 | [FreebusyCalendarInfo](./freebusycalendarinfo) | 定义指定日历的忙/闲信息列表。 |
-| [FreebusyGroupInfo](./freebusygroupinfo) | 指定作为组成员的日历列表。 |
+| [FreebusyGroupInfo](./freebusygroupinfo) | 指定属于组成员的日历列表。 |
 | [FreebusyQuery](./freebusyquery) | 请求一组日历的忙/闲信息。 |
-| [FreebusyResponse](./freebusyresponse) | 忙时响应 |
+| [FreebusyResponse](./freebusyresponse) | 闲忙响应 |
 | [Gadget](./gadget) | 扩展此事件的小工具。 |
 | [GmailClient](./gmailclient) | Gmail 客户端的基类 |
 | [GoogleContactGroup](./googlecontactgroup) | 表示拥有联系人 的组 |
 | [Range](./range) | 日历应该被视为忙碌的时间范围。 |
-| [Reminders](./reminders) | 已认证用户的事件提醒信息。 |
+| [Reminders](./reminders) | 已验证用户的事件提醒信息。 |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
 | [IBaseGmailClient](./ibasegmailclient) | Gmail 客户端基类接口 |
-| [IGmailClient](./igmailclient) | 代表Gmail客户端的接口 |
+| [IGmailClient](./igmailclient) | 代表 Gmail 客户端的接口 |
 ## 枚举
 
 | 枚举 | 描述 |

@@ -1,14 +1,14 @@
 ---
 title: CalendarRecurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Основной класс представляет повторение iCalendar.
+description: Основной класс представляет повтор iCalendar.
 type: docs
 weight: 690
 url: /ru/net/aspose.email.calendar.recurrences/calendarrecurrence/
 ---
 ## CalendarRecurrence class
 
-Основной класс представляет повторение iCalendar.
+Основной класс представляет повтор iCalendar.
 
 ```csharp
 public class CalendarRecurrence : IEquatable<CalendarRecurrence>
@@ -18,8 +18,8 @@ public class CalendarRecurrence : IEquatable<CalendarRecurrence>
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarRecurrence](calendarrecurrence#constructor)() | Инициализирует новый экземпляр класса[`CalendarRecurrence`](../calendarrecurrence). |
-| [CalendarRecurrence](calendarrecurrence#constructor_1)(string) | Инициализирует новый экземпляр класса[`CalendarRecurrence`](../calendarrecurrence). |
+| [CalendarRecurrence](calendarrecurrence#constructor)() | Инициализирует новый экземпляр[`CalendarRecurrence`](../calendarrecurrence) класс. |
+| [CalendarRecurrence](calendarrecurrence#constructor_1)(string) | Инициализирует новый экземпляр[`CalendarRecurrence`](../calendarrecurrence) класс. |
 
 ## Характеристики
 
@@ -27,10 +27,10 @@ public class CalendarRecurrence : IEquatable<CalendarRecurrence>
 | --- | --- |
 | [EndDate](../../aspose.email.calendar.recurrences/calendarrecurrence/enddate) { get; set; } | Получает или задает дату окончания. |
 | [ExDates](../../aspose.email.calendar.recurrences/calendarrecurrence/exdates) { get; } | Получает бывшие даты. |
-| [ExRules](../../aspose.email.calendar.recurrences/calendarrecurrence/exrules) { get; } | Получает правила ex. |
+| [ExRules](../../aspose.email.calendar.recurrences/calendarrecurrence/exrules) { get; } | Получает бывшие правила. |
 | [RDates](../../aspose.email.calendar.recurrences/calendarrecurrence/rdates) { get; } | Получает даты R. |
 | [RRules](../../aspose.email.calendar.recurrences/calendarrecurrence/rrules) { get; } | Получает правила R. |
-| [StartDate](../../aspose.email.calendar.recurrences/calendarrecurrence/startdate) { get; set; } | Получает или задает начальную дату. |
+| [StartDate](../../aspose.email.calendar.recurrences/calendarrecurrence/startdate) { get; set; } | Получает или задает дату начала. |
 
 ## Методы
 
@@ -39,7 +39,7 @@ public class CalendarRecurrence : IEquatable<CalendarRecurrence>
 | static [FromiCalendar](../../aspose.email.calendar.recurrences/calendarrecurrence/fromicalendar)(string) | Получает шаблон повторения из строки iCalendar. |
 | static [FromRecurrence](../../aspose.email.calendar.recurrences/calendarrecurrence/fromrecurrence#fromrecurrence)(string) | Получает шаблон повторения из строки шаблона XML. |
 | static [FromRecurrence](../../aspose.email.calendar.recurrences/calendarrecurrence/fromrecurrence#fromrecurrence_1)(XmlElement) | Получает шаблон повторения из XmlElement. |
-| virtual [Equals](../../aspose.email.calendar.recurrences/calendarrecurrence/equals#equals)(CalendarRecurrence) | Определяет, равен ли указанный экземпляр[`CalendarRecurrence`](../calendarrecurrence)этому экземпляру. |
+| virtual [Equals](../../aspose.email.calendar.recurrences/calendarrecurrence/equals#equals)(CalendarRecurrence) | Определяет, является ли указанный[`CalendarRecurrence`](../calendarrecurrence) равен этому экземпляру. |
 | override [Equals](../../aspose.email.calendar.recurrences/calendarrecurrence/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences#generateoccurrences)() | Генерирует вхождения. |
 | [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences#generateoccurrences_1)(int) | Генерирует n следующих вхождений. |

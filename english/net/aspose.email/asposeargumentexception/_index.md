@@ -1,7 +1,7 @@
 ---
 title: AsposeArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The exception that is thrown when one of the arguments provided to a method is not valid.
 type: docs
 weight: 260
 url: /net/aspose.email/asposeargumentexception/
@@ -18,12 +18,12 @@ public class AsposeArgumentException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [AsposeArgumentException](asposeargumentexception)() | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class. |
-| [AsposeArgumentException](asposeargumentexception)(Exception) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentException](asposeargumentexception)(string) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
-| [AsposeArgumentException](asposeargumentexception)(string, Exception) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentException](asposeargumentexception)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
-| [AsposeArgumentException](asposeargumentexception)(string, string) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
+| [AsposeArgumentException](asposeargumentexception#constructor)() | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class. |
+| [AsposeArgumentException](asposeargumentexception#constructor_1)(Exception) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentException](asposeargumentexception#constructor_2)(string) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
+| [AsposeArgumentException](asposeargumentexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentException](asposeargumentexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
+| [AsposeArgumentException](asposeargumentexception#constructor_5)(string, string) | Initializes a new instance of the [`AsposeArgumentException`](../asposeargumentexception) class with a specified error message. |
 
 ## Properties
 

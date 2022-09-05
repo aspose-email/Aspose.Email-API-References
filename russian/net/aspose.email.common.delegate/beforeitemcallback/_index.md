@@ -1,14 +1,14 @@
 ---
 title: BeforeItemCallback
 second_title: Справочник по Aspose.Email для .NET API
-description: BeforeItemCallback вызывается перед обработкой очередного элемента данных тип которого зависит от выполняемой задачи.
+description: BeforeItemCallback вызывается перед обработкой следующего элемента данных тип которого зависит от выполняемой задачи.
 type: docs
 weight: 17160
 url: /ru/net/aspose.email.common.delegate/beforeitemcallback/
 ---
 ## BeforeItemCallback delegate
 
-BeforeItemCallback вызывается перед обработкой очередного элемента данных, тип которого зависит от выполняемой задачи.
+BeforeItemCallback вызывается перед обработкой следующего элемента данных, тип которого зависит от выполняемой задачи.
 
 ```csharp
 public delegate void BeforeItemCallback(ItemCallbackArgs item);

@@ -1,14 +1,14 @@
 ---
 title: DeliveryServiceOptions
 second_title: Aspose.Email for .NET API 参考
-description: 用于设置 DeliveryServiceClient 参数的选项
+description: 设置 DeliveryServiceClient 参数的选项
 type: docs
 weight: 2940
 url: /zh/net/aspose.email.clients.deliveryservice/deliveryserviceoptions/
 ---
 ## DeliveryServiceOptions class
 
-用于设置 DeliveryServiceClient 参数的选项。
+设置 DeliveryServiceClient 参数的选项。
 
 ```csharp
 public abstract class DeliveryServiceOptions
@@ -18,7 +18,7 @@ public abstract class DeliveryServiceOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | API 私钥 |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | 私有 API 密钥 |
 
 ### 也可以看看
 

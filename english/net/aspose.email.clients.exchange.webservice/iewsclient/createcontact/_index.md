@@ -1,12 +1,12 @@
 ---
 title: CreateContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a contact item in the Exchange store.
 type: docs
 weight: 480
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createcontact/
 ---
-## IEWSClient.CreateContact method (1 of 2)
+## CreateContact(Contact) {#createcontact_1}
 
 Creates a contact item in the Exchange store.
 
@@ -31,7 +31,7 @@ The contact Uri
 
 ---
 
-## IEWSClient.CreateContact method (2 of 2)
+## CreateContact(string, Contact) {#createcontact_3}
 
 Creates a contact item in the specified folder.
 

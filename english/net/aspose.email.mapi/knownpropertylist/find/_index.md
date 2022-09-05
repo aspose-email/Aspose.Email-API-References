@@ -1,12 +1,12 @@
 ---
 title: Find
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds properties in list according to its PropertySet
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/knownpropertylist/find/
 ---
-## KnownPropertyList.Find method (1 of 9)
+## Find(params Guid[]) {#find_8}
 
 Finds properties in list according to its PropertySet
 
@@ -31,7 +31,7 @@ Array of [`PropertyDescriptor`](../../propertydescriptor) objects with required 
 
 ---
 
-## KnownPropertyList.Find method (2 of 9)
+## Find(string) {#find_7}
 
 Finds property in list with specified name
 
@@ -56,7 +56,7 @@ public PropertyDescriptor Find(string name)
 
 ---
 
-## KnownPropertyList.Find method (3 of 9)
+## Find(int, PropertyDataType) {#find_4}
 
 Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) property in list
 
@@ -83,7 +83,7 @@ public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
 
 ---
 
-## KnownPropertyList.Find method (4 of 9)
+## Find(int) {#find_6}
 
 Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) properties in list
 
@@ -108,7 +108,7 @@ public PidTagPropertyDescriptor[] Find(int id)
 
 ---
 
-## KnownPropertyList.Find method (5 of 9)
+## Find(long) {#find_5}
 
 Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) property in list
 
@@ -133,7 +133,7 @@ public PidTagPropertyDescriptor Find(long tag)
 
 ---
 
-## KnownPropertyList.Find method (6 of 9)
+## Find(string, PropertyDataType, Guid) {#find_2}
 
 Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) property in list according to required parameters
 
@@ -161,7 +161,7 @@ public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid p
 
 ---
 
-## KnownPropertyList.Find method (7 of 9)
+## Find(string, Guid) {#find_3}
 
 Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison.
 
@@ -187,7 +187,7 @@ public PidNamePropertyDescriptor Find(string name, Guid propertySet)
 
 ---
 
-## KnownPropertyList.Find method (8 of 9)
+## Find(long, PropertyDataType, Guid) {#find}
 
 Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) property in list according to required parameters
 
@@ -215,7 +215,7 @@ public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid prope
 
 ---
 
-## KnownPropertyList.Find method (9 of 9)
+## Find(long, Guid) {#find_1}
 
 Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison.
 

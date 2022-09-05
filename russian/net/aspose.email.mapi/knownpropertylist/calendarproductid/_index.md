@@ -1,14 +1,14 @@
 ---
 title: CalendarProductId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует продукт создавший поток в формате iCalendar. ОбластьОбщие Каноническое имяPidNameCalendarProductId Альтернативные именаurnschemascalendarprodid
+description: Идентифицирует продукт создавший поток в формате iCalendar. Область Common Каноническое имя PidNameCalendarProductId Альтернативные имена urnschemascalendarprodid
 type: docs
 weight: 2350
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarproductid/
 ---
 ## KnownPropertyList.CalendarProductId field
 
-Идентифицирует продукт, создавший поток в формате iCalendar. Область:Общие Каноническое имя:PidNameCalendarProductId Альтернативные имена:urn:schemas:calendar:prodid
+Идентифицирует продукт, создавший поток в формате iCalendar. Область: Common Каноническое имя: PidNameCalendarProductId Альтернативные имена: urn:schemas:calendar:prodid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarProductId;

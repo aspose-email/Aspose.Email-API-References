@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Formats a log entry and return a string to be outputted.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.logging/debugformatter/format/

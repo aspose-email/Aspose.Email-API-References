@@ -1,7 +1,7 @@
 ---
 title: MaxMsgSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the maximum message size the recipient can accept
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange.webservice/mailtips/maxmsgsize/

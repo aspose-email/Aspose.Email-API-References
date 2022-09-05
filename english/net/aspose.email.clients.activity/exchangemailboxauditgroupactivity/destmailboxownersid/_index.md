@@ -1,7 +1,7 @@
 ---
 title: DestMailboxOwnerSid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set only if the CrossMailboxOperations parameter is True. Specifies the SID of the target mailbox.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destmailboxownersid/

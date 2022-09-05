@@ -16,7 +16,7 @@ public void UpdateCalendar(Calendar calendar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendar | Calendar | Экземпляр объекта календаря для обновления . |
+| calendar | Calendar | Экземпляр объекта календаря для обновления. |
 
 ### Смотрите также
 
@@ -37,8 +37,8 @@ public void UpdateCalendar(Calendar calendar, bool useColorRgbFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| calendar | Calendar | Экземпляр объекта календаря для обновления . |
-| useColorRgbFormat | Boolean | Указывает, используется ли цветовой формат rgb. |
+| calendar | Calendar | Экземпляр объекта календаря для обновления. |
+| useColorRgbFormat | Boolean | Указывает, используется ли цветовой формат RGB. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CreateAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает новое вложение для указанного элемента
+description: Создает новое вложение для указанного item
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.graph/igraphclient/createattachment/
 ---
 ## IGraphClient.CreateAttachment method
 
-Создает новое вложение для указанного элемента
+Создает новое вложение для указанного item
 
 ```csharp
 public MapiAttachment CreateAttachment(string parentId, MapiAttachment attachment)
@@ -17,7 +17,7 @@ public MapiAttachment CreateAttachment(string parentId, MapiAttachment attachmen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parentId | String | Идентификатор элемента |
-| attachment | MapiAttachment | Вложение для создания |
+| attachment | MapiAttachment | Приложение для создания |
 
 ### Возвращаемое значение
 

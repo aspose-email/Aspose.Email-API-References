@@ -1,14 +1,14 @@
 ---
 title: Content
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает содержимое записи группы
+description: Получает содержимое группы entry
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.google/googlecontactgroup/content/
 ---
 ## GoogleContactGroup.Content property
 
-Получает содержимое записи группы
+Получает содержимое группы entry
 
 ```csharp
 public string Content { get; }

@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Email для .NET API
-description: Пользователь отправивший письмо. ОбязательноДа
+description: Пользователь отправивший электронное письмо. Обязательно Да
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/from/
 ---
 ## ExchangeMetadata.From property
 
-Пользователь, отправивший письмо. Обязательно:Да
+Пользователь, отправивший электронное письмо. Обязательно: Да
 
 ```csharp
 public string From { get; set; }

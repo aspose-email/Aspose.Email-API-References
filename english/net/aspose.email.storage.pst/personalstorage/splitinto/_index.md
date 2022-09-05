@@ -1,12 +1,12 @@
 ---
 title: SplitInto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Splits the pst storage into less sized parts.
 type: docs
 weight: 300
 url: /net/aspose.email.storage.pst/personalstorage/splitinto/
 ---
-## PersonalStorage.SplitInto method (1 of 2)
+## SplitInto(long, string) {#splitinto}
 
 Splits the pst storage into less sized parts.
 
@@ -34,7 +34,7 @@ public void SplitInto(long chunkSize, string path)
 
 ---
 
-## PersonalStorage.SplitInto method (2 of 2)
+## SplitInto(IList&lt;MailQuery&gt;, string) {#splitinto_1}
 
 Splits the pst storage based on criteria.
 

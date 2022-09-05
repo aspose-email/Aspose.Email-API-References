@@ -1,14 +1,14 @@
 ---
 title: HttpmailCalendar
 second_title: Aspose.Email for .NET API 参考
-description: 为特定用户指定日历文件夹的 URL 区域通用 规范名称PidNameHttpmailCalendar 备用名称urnschemashttpmailcalendar
+description: 为特定用户指定日历文件夹的 URL 区域Common 规范名称PidNameHttpmailCalendar 备用名称urnschemashttpmailcalendar
 type: docs
 weight: 11110
 url: /zh/net/aspose.email.mapi/knownpropertylist/httpmailcalendar/
 ---
 ## KnownPropertyList.HttpmailCalendar field
 
-为特定用户指定日历文件夹的 URL。 区域:通用 规范名称:PidNameHttpmailCalendar 备用名称:urn:schemas:httpmail:calendar
+为特定用户指定日历文件夹的 URL。 区域：Common 规范名称：PidNameHttpmailCalendar 备用名称：urn:schemas:httpmail:calendar
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailCalendar;

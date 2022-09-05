@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/spousevalue/
 ---
 ## AssociatedPersonCategory.SpouseValue field
 
-'配偶'类别的字符串值
+“配偶”类别的字符串值
 
 ```csharp
 public const string SpouseValue;

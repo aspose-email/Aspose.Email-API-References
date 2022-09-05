@@ -1,14 +1,14 @@
 ---
 title: GreaterOrEqualTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает значение для поиска сообщений последовательность модификации которых больше или равна этому значению.
+description: Устанавливает значение для поиска сообщений последовательность изменений которых больше или равна этому значению.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/modificationsequencefield/greaterorequalto/
 ---
 ## ModificationSequenceField.GreaterOrEqualTo method
 
-Задает значение для поиска сообщений, последовательность модификации которых больше или равна этому значению.
+Устанавливает значение для поиска сообщений, последовательность изменений которых больше или равна этому значению.
 
 ```csharp
 public void GreaterOrEqualTo(long modificationSequence)

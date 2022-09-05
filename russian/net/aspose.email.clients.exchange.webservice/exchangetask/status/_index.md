@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает статус задачи.
+description: Получает или устанавливает статус задачи.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangetask/status/
 ---
 ## ExchangeTask.Status property
 
-Получает или задает статус задачи.
+Получает или устанавливает статус задачи.
 
 ```csharp
 public ExchangeTaskStatus Status { get; set; }

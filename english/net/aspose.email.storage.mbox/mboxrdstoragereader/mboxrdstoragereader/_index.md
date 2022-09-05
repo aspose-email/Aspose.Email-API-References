@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/mboxrdstoragereader/
 ---
-## MboxrdStorageReader constructor (1 of 2)
+## MboxrdStorageReader(Stream, MboxLoadOptions) {#constructor}
 
 ```csharp
 public MboxrdStorageReader(Stream stream, MboxLoadOptions options)
@@ -21,7 +21,7 @@ public MboxrdStorageReader(Stream stream, MboxLoadOptions options)
 
 ---
 
-## MboxrdStorageReader constructor (2 of 2)
+## MboxrdStorageReader(string, MboxLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`MboxrdStorageReader`](../../mboxrdstoragereader) class.
 

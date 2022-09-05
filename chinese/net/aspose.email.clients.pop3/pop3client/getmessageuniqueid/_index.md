@@ -1,14 +1,14 @@
 ---
 title: GetMessageUniqueId
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息唯一 ID
+description: 获取消息唯一id
 type: docs
 weight: 270
 url: /zh/net/aspose.email.clients.pop3/pop3client/getmessageuniqueid/
 ---
 ## GetMessageUniqueId(IConnection, int) {#getmessageuniqueid}
 
-获取消息唯一 ID
+获取消息唯一id
 
 ```csharp
 public string GetMessageUniqueId(IConnection connection, int sequenceNumber)
@@ -17,7 +17,7 @@ public string GetMessageUniqueId(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
@@ -42,11 +42,11 @@ public string GetMessageUniqueId(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-表示消息的 uid 的字符串
+表示消息的uid的字符串
 
 ### 也可以看看
 

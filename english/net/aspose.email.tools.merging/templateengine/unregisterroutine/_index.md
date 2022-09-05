@@ -1,7 +1,7 @@
 ---
 title: UnregisterRoutine
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unregister the template routine from the template engine by name.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.merging/templateengine/unregisterroutine/

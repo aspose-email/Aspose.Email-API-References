@@ -1,7 +1,7 @@
 ---
 title: Nickname
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the nickname of the contact
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/nickname/

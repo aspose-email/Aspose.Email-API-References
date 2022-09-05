@@ -1,14 +1,14 @@
 ---
 title: XSharingLocalType
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 PidLidSharingLocalType 属性相同的值第 2.259 节 区域共享 规范名称PidNameXSharingLocalType 备用名称
+description: 包含与 PidLidSharingLocalType 属性第 2.259 节相同的值 区域Sharing 规范名称PidNameXSharingLocalType 替代名称
 type: docs
 weight: 19770
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharinglocaltype/
 ---
 ## KnownPropertyList.XSharingLocalType field
 
-包含与 PidLidSharingLocalType 属性相同的值（第 2.259 节）。 区域:共享 规范名称:PidNameXSharingLocalType 备用名称:
+包含与 PidLidSharingLocalType 属性（第 2.259 节）相同的值。 区域：Sharing 规范名称：PidNameXSharingLocalType 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingLocalType;

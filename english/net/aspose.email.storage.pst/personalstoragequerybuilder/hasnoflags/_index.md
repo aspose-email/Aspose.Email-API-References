@@ -1,7 +1,7 @@
 ---
 title: HasNoFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages with the unspecified flags.
 type: docs
 weight: 130
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/hasnoflags/

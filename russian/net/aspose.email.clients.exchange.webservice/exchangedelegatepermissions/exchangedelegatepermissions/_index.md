@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegatePermissions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeDelegatePermissionsaspose.email.clients.exchange.webservice/exchangedelegatepermissions
+description: Инициализирует новый экземплярExchangeDelegatePermissionsaspose.email.clients.exchange.webservice/exchangedelegatepermissions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/exchangedelegatepermissions/
 ---
 ## ExchangeDelegatePermissions constructor
 
-Инициализирует новый экземпляр класса[`ExchangeDelegatePermissions`](../../exchangedelegatepermissions)
+Инициализирует новый экземпляр[`ExchangeDelegatePermissions`](../../exchangedelegatepermissions) класс
 
 ```csharp
 public ExchangeDelegatePermissions()

@@ -22,7 +22,7 @@ public Task<ExchangePermissionCollection> GetFolderPermissionsAsync(string folde
 
 ### 返回值
 
-[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
+这[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 
 ### 也可以看看
 

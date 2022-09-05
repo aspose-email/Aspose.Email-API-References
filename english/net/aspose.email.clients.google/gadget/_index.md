@@ -1,7 +1,7 @@
 ---
 title: Gadget
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A gadget that extends this event.
 type: docs
 weight: 15750
 url: /net/aspose.email.clients.google/gadget/

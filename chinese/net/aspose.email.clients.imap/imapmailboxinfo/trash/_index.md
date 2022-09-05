@@ -1,14 +1,14 @@
 ---
 title: Trash
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱用于保存已删除或标记为删除的邮件 请注意如果服务器不支持 rfc6154 或未创建文件夹此值可能为空
+description: 获取邮箱用于保存已删除或标记为删除的邮件 请注意如果服务器不支持 rfc6154 或尚未创建文件夹此值可能为空
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.imap/imapmailboxinfo/trash/
 ---
 ## ImapMailboxInfo.Trash property
 
-获取邮箱用于保存已删除或标记为删除的邮件。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。
+获取邮箱用于保存已删除或标记为删除的邮件。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。
 
 ```csharp
 public ImapFolderInfo Trash { get; }

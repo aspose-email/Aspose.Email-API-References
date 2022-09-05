@@ -1,7 +1,7 @@
 ---
 title: ListAccessRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of access rules
 type: docs
 weight: 250
 url: /net/aspose.email.clients.google/igmailclient/listaccessrules/

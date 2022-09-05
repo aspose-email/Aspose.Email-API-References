@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет первое вхождение определенного объекта из коллекции MapiAttachmentCollection.
+description: Удаляет первое вхождение определенного объекта из MapiAttachmentCollection.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapiattachmentcollection/remove/
 ---
 ## MapiAttachmentCollection.Remove method
 
-Удаляет первое вхождение определенного объекта из коллекции MapiAttachmentCollection.
+Удаляет первое вхождение определенного объекта из MapiAttachmentCollection.
 
 ```csharp
 public bool Remove(MapiAttachment item)
@@ -16,7 +16,7 @@ public bool Remove(MapiAttachment item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | MapiAttachment | Объект для удаления из MapiAttachmentCollection. |
+| item | MapiAttachment | Объект, который нужно удалить из MapiAttachmentCollection. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ManagerName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户管理员的名称 区域地址属性 规范名称PidTagManagerName 备用名称PR_MANAGER_NAME PR_MANAGER_NAME_A PR_MANAGER_NAME_W
+description: 包含邮件用户管理员的名称 区域地址属性 规范名称PidTagManagerName 备用名称PR_MANAGER_NAMEPR_MANAGER_NAME_APR_MANAGER_NAME_W
 type: docs
 weight: 12360
 url: /zh/net/aspose.email.mapi/knownpropertylist/managername/
 ---
 ## KnownPropertyList.ManagerName field
 
-包含邮件用户管理员的名称。 区域:地址属性 规范名称:PidTagManagerName 备用名称:PR_MANAGER_NAME, PR_MANAGER_NAME_A, PR_MANAGER_NAME_W,
+包含邮件用户管理员的名称。 区域：地址属性 规范名称：PidTagManagerName 备用名称：PR_MANAGER_NAME、PR_MANAGER_NAME_A、PR_MANAGER_NAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ManagerName;

@@ -1,14 +1,14 @@
 ---
 title: DeletedItemsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取已删除项目 uri
+description: 获取已删除项目 uri.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/deleteditemsuri/
 ---
 ## ExchangeMailboxInfo.DeletedItemsUri property
 
-获取已删除项目 uri。
+获取已删除项目 uri.
 
 ```csharp
 public abstract string DeletedItemsUri { get; set; }

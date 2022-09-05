@@ -1,14 +1,14 @@
 ---
 title: ContainerHierarchy
 second_title: Aspose.Email for .NET API 参考
-description: 标识当前文件夹的所有子文件夹 区域容器属性 规范名称PidTagContainerHierarchy 替代名称PR_CONTAINER_HIERARCHY ptagContainerHierarchy
+description: 标识当前文件夹的所有子文件夹 区域容器属性 规范名称PidTagContainerHierarchy 备用名称PR_CONTAINER_HIERARCHYptagContainerHierarchy
 type: docs
 weight: 3130
 url: /zh/net/aspose.email.mapi/knownpropertylist/containerhierarchy/
 ---
 ## KnownPropertyList.ContainerHierarchy field
 
-标识当前文件夹的所有子文件夹。 区域:容器属性 规范名称:PidTagContainerHierarchy 替代名称:PR_CONTAINER_HIERARCHY, ptagContainerHierarchy
+标识当前文件夹的所有子文件夹。 区域：容器属性 规范名称：PidTagContainerHierarchy 备用名称：PR_CONTAINER_HIERARCHY、ptagContainerHierarchy
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerHierarchy;

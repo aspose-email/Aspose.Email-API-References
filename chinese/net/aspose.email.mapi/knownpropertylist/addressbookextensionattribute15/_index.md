@@ -1,14 +1,14 @@
 ---
 title: AddressBookExtensionAttribute15
 second_title: Aspose.Email for .NET API 参考
-description: 包含由修改显示模板的组织定义和填充的自定义值 区域地址簿 规范名称PidTagAddressBookExtensionAttribute15 替代名称PR_EMS_AB_EXTENSION_ATTRIBUTE_15 PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
+description: 包含由修改显示模板的组织定义和填充的自定义值 区域地址簿 规范名称PidTagAddressBookExtensionAttribute15 替代名称PR_EMS_AB_EXTENSION_ATTRIBUTE_15PR_EMS_AB_EXTENSION_ATTRIBUTE_15_APR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
 type: docs
 weight: 510
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute15/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute15 field
 
-包含由修改显示模板的组织定义和填充的自定义值。 区域:地址簿 规范名称:PidTagAddressBookExtensionAttribute15 替代名称:PR_EMS_AB_EXTENSION_ATTRIBUTE_15, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
+包含由修改显示模板的组织定义和填充的自定义值。 区域：地址簿 规范名称：PidTagAddressBookExtensionAttribute15 替代名称：PR_EMS_AB_EXTENSION_ATTRIBUTE_15、PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A、PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute15;

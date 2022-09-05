@@ -1,14 +1,14 @@
 ---
 title: EmsAbGatewayLocalCred
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_GATEWAY_LOCAL_CRED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_GATEWAY_LOCAL_CRED
 type: docs
 weight: 6360
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabgatewaylocalcred/
 ---
 ## KnownPropertyList.EmsAbGatewayLocalCred field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_GATEWAY_LOCAL_CRED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_GATEWAY_LOCAL_CRED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGatewayLocalCred;

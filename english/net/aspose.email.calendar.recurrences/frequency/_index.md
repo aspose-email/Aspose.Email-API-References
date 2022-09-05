@@ -1,7 +1,7 @@
 ---
 title: Frequency
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies frequency of the recurrence rule.
 type: docs
 weight: 740
 url: /net/aspose.email.calendar.recurrences/frequency/

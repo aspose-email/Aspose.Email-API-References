@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает описание для категории Пользовательский телефонного номера
+description: Получает описание для категории Пользовательский номера телефона
 type: docs
 weight: 200
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/description/
 ---
 ## PhoneNumberCategory.Description property
 
-Получает описание для категории «Пользовательский» телефонного номера
+Получает описание для категории «Пользовательский» номера телефона
 
 ```csharp
 public string Description { get; }

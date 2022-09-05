@@ -1,14 +1,14 @@
 ---
 title: WlinkROGroupType
 second_title: Aspose.Email for .NET API 参考
-description: 指定组头的类型 区域配置 规范名称PidTagWlinkROGroupType 备用名称PR_WLINK_RO_GROUP_TYPE
+description: 指定组头的类型 区域Configuration 规范名称PidTagWlinkROGroupType 替代名称PR_WLINK_RO_GROUP_TYPE
 type: docs
 weight: 19490
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkrogrouptype/
 ---
 ## KnownPropertyList.WlinkROGroupType field
 
-指定组头的类型。 区域:配置 规范名称:PidTagWlinkROGroupType 备用名称:PR_WLINK_RO_GROUP_TYPE
+指定组头的类型。 区域：Configuration 规范名称：PidTagWlinkROGroupType 替代名称：PR_WLINK_RO_GROUP_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkROGroupType;

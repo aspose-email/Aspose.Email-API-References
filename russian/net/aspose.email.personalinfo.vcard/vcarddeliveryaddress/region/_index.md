@@ -1,14 +1,14 @@
 ---
 title: Region
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает регион
+description: Получает или задает регион
 type: docs
 weight: 80
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/region/
 ---
 ## VCardDeliveryAddress.Region property
 
-Получает или устанавливает регион
+Получает или задает регион
 
 ```csharp
 public string Region { get; set; }

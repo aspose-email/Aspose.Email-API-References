@@ -1,14 +1,14 @@
 ---
 title: AttachPayloadProviderGuidString
 second_title: Aspose.Email for .NET API 参考
-description: 包含可以显示消息内容的软件组件的 GUID 区域Outlook 应用程序 规范名称PidTagAttachPayloadProviderGuidString 备用名称PR_ATTACH_PAYLOAD_PROV_GUID_STR PR_ATTACH_PAYLOAD_PROV_GUID_STR_A PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
+description: 包含可以显示消息内容的软件组件的 GUID 区域Outlook 应用程序 规范名称PidTagAttachPayloadProviderGuidString 备用名称PR_ATTACH_PAYLOAD_PROV_GUID_STRPR_ATTACH_PAYLOAD_PROV_GUID_STR_APR_ATTACH_PAYLOAD_PROV_GUID_STR_W
 type: docs
 weight: 1770
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachpayloadproviderguidstring/
 ---
 ## KnownPropertyList.AttachPayloadProviderGuidString field
 
-包含可以显示消息内容的软件组件的 GUID。 区域:Outlook 应用程序 规范名称:PidTagAttachPayloadProviderGuidString 备用名称:PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
+包含可以显示消息内容的软件组件的 GUID。 区域：Outlook 应用程序 规范名称：PidTagAttachPayloadProviderGuidString 备用名称：PR_ATTACH_PAYLOAD_PROV_GUID_STR、PR_ATTACH_PAYLOAD_PROV_GUID_STR_A、PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPayloadProviderGuidString;

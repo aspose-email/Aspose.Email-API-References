@@ -1,14 +1,14 @@
 ---
 title: OriginalDeliveryTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始消息的传递时间UTC 时间 区域常规消息属性 规范名称PidTagOriginalDeliveryTime 替代名称PR_ORIGINAL_DELIVERY_TIME ptagOriginalDeliveryTime
+description: 包含原始消息的交付时间UTC 时间 区域常规消息属性 规范名称PidTagOriginalDeliveryTime 替代名称PR_ORIGINAL_DELIVERY_TIMEptagOriginalDeliveryTime
 type: docs
 weight: 13520
 url: /zh/net/aspose.email.mapi/knownpropertylist/originaldeliverytime/
 ---
 ## KnownPropertyList.OriginalDeliveryTime field
 
-包含原始消息的传递时间（UTC 时间）。 区域:常规消息属性 规范名称:PidTagOriginalDeliveryTime 替代名称:PR_ORIGINAL_DELIVERY_TIME, ptagOriginalDeliveryTime
+包含原始消息的交付时间（UTC 时间）。 区域：常规消息属性 规范名称：PidTagOriginalDeliveryTime 替代名称：PR_ORIGINAL_DELIVERY_TIME、ptagOriginalDeliveryTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalDeliveryTime;

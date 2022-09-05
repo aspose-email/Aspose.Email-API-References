@@ -1,7 +1,7 @@
 ---
 title: ContainerClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a string value that describes the type of Message object that a folder contains. Area Container Properties Canonical name PidTagContainerClass Alternate names PR_CONTAINER_CLASS PR_CONTAINER_CLASS_A ptagContainerClass PR_CONTAINER_CLASS_W
 type: docs
 weight: 3100
 url: /net/aspose.email.mapi/knownpropertylist/containerclass/

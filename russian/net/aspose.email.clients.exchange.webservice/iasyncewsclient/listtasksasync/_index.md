@@ -17,11 +17,11 @@ public Task<TaskCollection> ListTasksAsync(string folder = null, int maxNumberOf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| папка | String | Папка задач |
-| maxNumberOfItems | Int32 | Максимальное количество элементов |
+| folder | String | Папка задач |
+| maxNumberOfItems | Int32 | Максимальное количество предметов |
 | query | MailQuery | Почтовый запрос |
-| recursive | Boolean | Рекурсивное получение задач |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| recursive | Boolean | Получать задачи рекурсивно |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

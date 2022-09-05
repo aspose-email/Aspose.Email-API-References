@@ -1,14 +1,14 @@
 ---
 title: OverallAgeLimit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OVERALL_AGE_LIMIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OVERALL_AGE_LIMIT
 type: docs
 weight: 14050
 url: /ru/net/aspose.email.mapi/knownpropertylist/overallagelimit/
 ---
 ## KnownPropertyList.OverallAgeLimit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OVERALL_AGE_LIMIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OVERALL_AGE_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OverallAgeLimit;

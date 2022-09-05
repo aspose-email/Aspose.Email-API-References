@@ -16,7 +16,7 @@ public string FileName { get; set; }
 
 ### 适当的价值
 
-文件名。
+文件的名称。
 
 ### 也可以看看
 

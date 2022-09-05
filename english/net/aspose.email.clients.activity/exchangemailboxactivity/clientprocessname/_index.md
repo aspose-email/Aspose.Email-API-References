@@ -1,7 +1,7 @@
 ---
 title: ClientProcessName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The email client that was used to access the mailbox.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/clientprocessname/

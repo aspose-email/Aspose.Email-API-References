@@ -1,14 +1,14 @@
 ---
 title: ContactDefaultAddressIndex
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTACT_DEFAULT_ADDRESS_INDEX
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTACT_DEFAULT_ADDRESS_INDEX
 type: docs
 weight: 2920
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactdefaultaddressindex/
 ---
 ## KnownPropertyList.ContactDefaultAddressIndex field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTACT_DEFAULT_ADDRESS_INDEX
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTACT_DEFAULT_ADDRESS_INDEX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactDefaultAddressIndex;

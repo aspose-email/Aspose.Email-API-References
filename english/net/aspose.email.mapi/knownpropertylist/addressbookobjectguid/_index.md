@@ -1,7 +1,7 @@
 ---
 title: AddressBookObjectGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a GUID that identifies an Address Book object. Area Address Book Canonical name PidTagAddressBookObjectGuid Alternate names PR_EMS_AB_OBJECT_GUID
 type: docs
 weight: 780
 url: /net/aspose.email.mapi/knownpropertylist/addressbookobjectguid/

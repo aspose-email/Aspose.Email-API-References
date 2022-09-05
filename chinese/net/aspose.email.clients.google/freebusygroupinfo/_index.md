@@ -1,14 +1,14 @@
 ---
 title: FreebusyGroupInfo
 second_title: Aspose.Email for .NET API 参考
-description: 指定作为组成员的日历列表
+description: 指定属于组成员的日历列表
 type: docs
 weight: 15720
 url: /zh/net/aspose.email.clients.google/freebusygroupinfo/
 ---
 ## FreebusyGroupInfo class
 
-指定作为组成员的日历列表。
+指定属于组成员的日历列表。
 
 ```csharp
 public class FreebusyGroupInfo
@@ -29,7 +29,7 @@ public class FreebusyGroupInfo
 | --- | --- |
 | [Calendars](../../aspose.email.clients.google/freebusygroupinfo/calendars) { get; } | 组内日历标识符的列表。 |
 | [Errors](../../aspose.email.clients.google/freebusygroupinfo/errors) { get; } | 可选错误（如果组的计算失败）。 |
-| [GroupId](../../aspose.email.clients.google/freebusygroupinfo/groupid) { get; set; } | 组 ID |
+| [GroupId](../../aspose.email.clients.google/freebusygroupinfo/groupid) { get; set; } | 组 id |
 
 ### 也可以看看
 

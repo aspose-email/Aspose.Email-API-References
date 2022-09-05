@@ -1,7 +1,7 @@
 ---
 title: FtpSite
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts File Transfer Protocol FTP URL
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite/

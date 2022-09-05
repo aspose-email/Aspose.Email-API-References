@@ -1,14 +1,14 @@
 ---
 title: EventList
 second_title: Aspose.Email for .NET API 参考
-description: 联系人事件列表
+description: 联系人的事件列表
 type: docs
-weight: 19370
+weight: 19400
 url: /zh/net/aspose.email.personalinfo/eventlist/
 ---
 ## EventList class
 
-联系人事件列表
+联系人的事件列表
 
 ```csharp
 public class EventList : IList<CustomerEvent>
@@ -26,8 +26,8 @@ public class EventList : IList<CustomerEvent>
 | --- | --- |
 | [Anniversary](../../aspose.email.personalinfo/eventlist/anniversary) { get; set; } | 结婚纪念日 |
 | [Birthday](../../aspose.email.personalinfo/eventlist/birthday) { get; set; } | 生日 |
-| [Count](../../aspose.email.personalinfo/eventlist/count) { get; } | 获取ICollection中包含的元素数。 |
-| [IsReadOnly](../../aspose.email.personalinfo/eventlist/isreadonly) { get; } | 获取指示列表是否为只读的值。 |
+| [Count](../../aspose.email.personalinfo/eventlist/count) { get; } | 获取包含在ICollection. |
+| [IsReadOnly](../../aspose.email.personalinfo/eventlist/isreadonly) { get; } | 获取一个值，该值指示列表是否为只读。 |
 | [Item](../../aspose.email.personalinfo/eventlist/item) { get; set; } | 获取或设置指定索引处的元素。 |
 
 ## 方法
@@ -40,7 +40,7 @@ public class EventList : IList<CustomerEvent>
 | [CopyTo](../../aspose.email.personalinfo/eventlist/copyto)(CustomerEvent[], int) | 将元素复制到数组中，从特定数组索引开始。 |
 | [GetEnumerator](../../aspose.email.personalinfo/eventlist/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.email.personalinfo/eventlist/indexof)(CustomerEvent) | 确定列表中特定项目的索引。 |
-| [Insert](../../aspose.email.personalinfo/eventlist/insert)(int, CustomerEvent) | 将项目插入到列表中指定索引处。 |
+| [Insert](../../aspose.email.personalinfo/eventlist/insert)(int, CustomerEvent) | 在指定索引处将项目插入列表。 |
 | [Remove](../../aspose.email.personalinfo/eventlist/remove)(CustomerEvent) | 从列表中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.email.personalinfo/eventlist/removeat)(int) | 删除指定索引处的列表项。 |
 

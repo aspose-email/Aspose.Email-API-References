@@ -1,7 +1,7 @@
 ---
 title: ExchangeConversationFlagStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the flag status for conversation.
 type: docs
 weight: 3750
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversationflagstatus/

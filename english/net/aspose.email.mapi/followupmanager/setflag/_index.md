@@ -1,12 +1,12 @@
 ---
 title: SetFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the followup flag for a message.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/followupmanager/setflag/
 ---
-## FollowUpManager.SetFlag method (1 of 2)
+## SetFlag(MapiMessage, string) {#setflag}
 
 Sets the follow-up flag for a message.
 
@@ -35,7 +35,7 @@ public static void SetFlag(MapiMessage message, string flagRequest)
 
 ---
 
-## FollowUpManager.SetFlag method (2 of 2)
+## SetFlag(MapiMessage, string, DateTime, DateTime) {#setflag_1}
 
 Sets the follow-up flag for a message.
 

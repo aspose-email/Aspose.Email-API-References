@@ -1,14 +1,14 @@
 ---
 title: SharingFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingFlags Альтернативные именаdispidSharingFlags
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingFlags Альтернативные имена dispidSharingFlags
 type: docs
 weight: 17490
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingflags/
 ---
 ## KnownPropertyList.SharingFlags field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingFlags Альтернативные имена:dispidSharingFlags
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingFlags Альтернативные имена: dispidSharingFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingFlags;

@@ -1,14 +1,14 @@
 ---
 title: AttachPayloadProviderGuidString
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит GUID программного компонента который может отображать содержимое сообщения. ОбластьПриложение Outlook Каноническое имяPidTagAttachPayloadProviderGuidString Альтернативные именаPR_ATTACH_PAYLOAD_PROV_GUID_STR PR_ATTACH_PAYLOAD_PROV_GUID_STR_A PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
+description: Содержит GUID программного компонента который может отображать содержимое сообщения. Область Приложение Outlook Каноническое имя PidTagAttachPayloadProviderGuidString Альтернативные имена PR_ATTACH_PAYLOAD_PROV_GUID_STR PR_ATTACH_PAYLOAD_PROV_GUID_STR_A PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
 type: docs
 weight: 1770
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachpayloadproviderguidstring/
 ---
 ## KnownPropertyList.AttachPayloadProviderGuidString field
 
-Содержит GUID программного компонента, который может отображать содержимое сообщения. Область:Приложение Outlook Каноническое имя:PidTagAttachPayloadProviderGuidString Альтернативные имена:PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
+Содержит GUID программного компонента, который может отображать содержимое сообщения. Область: Приложение Outlook Каноническое имя: PidTagAttachPayloadProviderGuidString Альтернативные имена: PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPayloadProviderGuidString;

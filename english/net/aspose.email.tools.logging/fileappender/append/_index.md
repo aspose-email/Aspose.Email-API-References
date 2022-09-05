@@ -1,12 +1,12 @@
 ---
 title: Append
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Appends the log entry information to the appender.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.logging/fileappender/append/
 ---
-## FileAppender.Append method (1 of 2)
+## Append(LogEntry) {#append}
 
 Appends the log entry information to the appender.
 
@@ -27,7 +27,7 @@ public override void Append(LogEntry logEntry)
 
 ---
 
-## FileAppender.Append method (2 of 2)
+## Append(LogEntry[]) {#append_1}
 
 Appends a set of log entries to the appender.
 

@@ -1,14 +1,14 @@
 ---
 title: Pop3SaveMessage
 second_title: Aspose.Email for .NET API 参考
-description: SaveMessageAsync../aspose.email.clients.pop3/iasyncpop3client/savemessageasync参数集
+description: 的SaveMessageAsync../aspose.email.clients.pop3/iasyncpop3client/savemessageasync参数集.
 type: docs
 weight: 16870
 url: /zh/net/aspose.email.clients.pop3.models/pop3savemessage/
 ---
 ## Pop3SaveMessage class
 
-[`SaveMessageAsync`](../../aspose.email.clients.pop3/iasyncpop3client/savemessageasync)参数集。
+的[`SaveMessageAsync`](../../aspose.email.clients.pop3/iasyncpop3client/savemessageasync)参数集.
 
 ```csharp
 public class Pop3SaveMessage
@@ -18,12 +18,12 @@ public class Pop3SaveMessage
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.pop3.models/pop3savemessage/create)() | 创建[`Pop3SaveMessage`](../pop3savemessage)。 |
+| static [Create](../../aspose.email.clients.pop3.models/pop3savemessage/create)() | 创建[`Pop3SaveMessage`](../pop3savemessage). |
 | [SetCancellationToken](../../aspose.email.clients.pop3.models/pop3savemessage/setcancellationtoken)(CancellationToken) | 设置取消令牌（可选）。 |
 | [SetConnection](../../aspose.email.clients.pop3.models/pop3savemessage/setconnection)(IConnection) | 连接到服务器（可选）。 |
 | [SetFileName](../../aspose.email.clients.pop3.models/pop3savemessage/setfilename)(string) | 设置输出文件名。 |
 | [SetOutputStream](../../aspose.email.clients.pop3.models/pop3savemessage/setoutputstream)(Stream) | 设置输出流。 |
-| [SetSequenceNumber](../../aspose.email.clients.pop3.models/pop3savemessage/setsequencenumber)(int) | 设置消息序号。 |
+| [SetSequenceNumber](../../aspose.email.clients.pop3.models/pop3savemessage/setsequencenumber)(int) | 设置消息序号 |
 | [SetUniqueId](../../aspose.email.clients.pop3.models/pop3savemessage/setuniqueid)(string) | 设置消息唯一标识符。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: RemoteMessageTransferAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение поля Remote-MTA для уведомления о состоянии доставки как указано в RFC3464. ОбластьЭлектронная почта Каноническое имяPidTagRemoteMessageTransferAgent Альтернативные именаPR_DSN_REMOTE_MTA ptagDsnRemoteMta
+description: Содержит значение поля Remote-MTA для уведомления о состоянии доставки как указано в RFC3464. Область Email Каноническое имя PidTagRemoteMessageTransferAgent Альтернативные имена PR_DSN_REMOTE_MTA ptagDsnRemoteMta
 type: docs
 weight: 15780
 url: /ru/net/aspose.email.mapi/knownpropertylist/remotemessagetransferagent/
 ---
 ## KnownPropertyList.RemoteMessageTransferAgent field
 
-Содержит значение поля Remote-MTA для уведомления о состоянии доставки, как указано в [RFC3464]. Область:Электронная почта Каноническое имя:PidTagRemoteMessageTransferAgent Альтернативные имена:PR_DSN_REMOTE_MTA, ptagDsnRemoteMta
+Содержит значение поля Remote-MTA для уведомления о состоянии доставки, как указано в [RFC3464]. Область: Email Каноническое имя: PidTagRemoteMessageTransferAgent Альтернативные имена: PR_DSN_REMOTE_MTA, ptagDsnRemoteMta
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemoteMessageTransferAgent;

@@ -1,14 +1,14 @@
 ---
 title: LinkedResource
 second_title: Aspose.Email for .NET API 参考
-description: 初始化LinkedResourceaspose.email/linkedresource类的新实例
+description: 初始化LinkedResourceaspose.email/linkedresource类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/linkedresource/linkedresource/
 ---
 ## LinkedResource(string) {#constructor_3}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(string fileName)
@@ -16,7 +16,7 @@ public LinkedResource(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 保存此资源内容的文件名。 |
+| fileName | String | 包含此资源内容的文件名。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public LinkedResource(string fileName)
 
 ## LinkedResource(string, string) {#constructor_5}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(string fileName, string mediaType)
@@ -36,8 +36,8 @@ public LinkedResource(string fileName, string mediaType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 保存此资源内容的文件名。 |
-| mediaType | String | Internet 媒体类型。 |
+| fileName | String | 包含此资源内容的文件名。 |
+| mediaType | String | 互联网媒体类型。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public LinkedResource(string fileName, string mediaType)
 
 ## LinkedResource(string, ContentType) {#constructor_4}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(string fileName, ContentType contentType)
@@ -57,8 +57,8 @@ public LinkedResource(string fileName, ContentType contentType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 保存此资源内容的文件名。 |
-| contentType | ContentType | 内容类型。 |
+| fileName | String | 包含此资源内容的文件名。 |
+| contentType | ContentType | 内容的类型。 |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public LinkedResource(string fileName, ContentType contentType)
 
 ## LinkedResource(Stream) {#constructor}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(Stream contentStream)
@@ -91,7 +91,7 @@ public LinkedResource(Stream contentStream)
 
 ## LinkedResource(Stream, string) {#constructor_2}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(Stream contentStream, string mediaType)
@@ -100,7 +100,7 @@ public LinkedResource(Stream contentStream, string mediaType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentStream | Stream | 包含此资源内容的流。 |
-| mediaType | String | Internet 媒体类型。 |
+| mediaType | String | 互联网媒体类型。 |
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public LinkedResource(Stream contentStream, string mediaType)
 
 ## LinkedResource(Stream, ContentType) {#constructor_1}
 
-初始化[`LinkedResource`](../../linkedresource)类的新实例。
+初始化[`LinkedResource`](../../linkedresource)类.
 
 ```csharp
 public LinkedResource(Stream contentStream, ContentType contentType)
@@ -121,7 +121,7 @@ public LinkedResource(Stream contentStream, ContentType contentType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentStream | Stream | 包含此资源内容的流。 |
-| contentType | ContentType | 内容类型。 |
+| contentType | ContentType | 内容的类型。 |
 
 ### 也可以看看
 

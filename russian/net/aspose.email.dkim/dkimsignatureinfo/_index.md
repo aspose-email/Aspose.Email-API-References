@@ -24,13 +24,13 @@ public class DKIMSignatureInfo
 
 | Имя | Описание |
 | --- | --- |
-| [BodyCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/bodycanonicalization) { get; set; } | Получает или устанавливает канонизацию тела (c=). |
+| [BodyCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/bodycanonicalization) { get; set; } | Получает или задает канонизацию тела (c=). |
 | [Domain](../../aspose.email.dkim/dkimsignatureinfo/domain) { get; set; } | Получает или задает домен DNS с открытым ключом (d=). |
 | [HashAlgorithm](../../aspose.email.dkim/dkimsignatureinfo/hashalgorithm) { get; set; } | Получает или задает алгоритм хеширования (a=). |
-| [HeaderCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/headercanonicalization) { get; set; } | Получает или устанавливает канонизацию заголовка (c=). |
-| [Headers](../../aspose.email.dkim/dkimsignatureinfo/headers) { get; } | Заголовки, включенные в сигнатуру (h=). |
+| [HeaderCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/headercanonicalization) { get; set; } | Получает или задает канонизацию заголовка (c=). |
+| [Headers](../../aspose.email.dkim/dkimsignatureinfo/headers) { get; } | Заголовки, включенные в подпись (h=). |
 | [Selector](../../aspose.email.dkim/dkimsignatureinfo/selector) { get; set; } | Получает или задает селектор DNS с открытым ключом (s=). |
-| [Time](../../aspose.email.dkim/dkimsignatureinfo/time) { get; set; } | Получает или задает метку времени подписи - время создания этой подписи (t=). По умолчанию (null) время создания неизвестно. |
+| [Time](../../aspose.email.dkim/dkimsignatureinfo/time) { get; set; } | Получает или задает метку времени подписи — время создания этой подписи (t=). По умолчанию (null) неизвестное время создания. |
 
 ### Смотрите также
 

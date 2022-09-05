@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarDailyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiCalendarDailyRecurrencePatternaspose.email.mapi/mapicalendardailyrecurrencepattern 类的新实例
+description: 初始化MapiCalendarDailyRecurrencePatternaspose.email.mapi/mapicalendardailyrecurrencepattern class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendardailyrecurrencepattern/mapicalendardailyrecurrencepattern/
 ---
 ## MapiCalendarDailyRecurrencePattern constructor
 
-初始化 [`MapiCalendarDailyRecurrencePattern`](../../mapicalendardailyrecurrencepattern) 类的新实例
+初始化[`MapiCalendarDailyRecurrencePattern`](../../mapicalendardailyrecurrencepattern) class
 
 ```csharp
 public MapiCalendarDailyRecurrencePattern()

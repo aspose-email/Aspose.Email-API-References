@@ -1,14 +1,14 @@
 ---
 title: TaskStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поле позволяющее найти задачи содержащие указанный статус. Совместимость с серверамиExchange 2010 и выше
+description: Получает поле позволяющее найти задачи содержащие указанный статус. Совместимость с сервером Exchange 2010 и выше
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.exchange/exchangequerybuilder/taskstatus/
 ---
 ## ExchangeQueryBuilder.TaskStatus property
 
-Получает поле, позволяющее найти задачи, содержащие указанный статус. Совместимость с серверами:Exchange 2010 и выше
+Получает поле, позволяющее найти задачи, содержащие указанный статус. Совместимость с сервером: Exchange 2010 и выше
 
 ```csharp
 public EnumComparisonField TaskStatus { get; }

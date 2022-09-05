@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the header from collection by a given header name.
 type: docs
 weight: 190
 url: /net/aspose.email.mime/headercollection/remove/

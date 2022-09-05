@@ -1,14 +1,14 @@
 ---
 title: WriteLine
 second_title: Справочник по Aspose.Email для .NET API
-description: Записывает пустую строку в добавление.
+description: Записывает пустую строку в appenders.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.tools.logging/logger/writeline/
 ---
 ## WriteLine() {#writeline}
 
-Записывает пустую строку в добавление.
+Записывает пустую строку в appenders.
 
 ```csharp
 public void WriteLine()
@@ -24,7 +24,7 @@ public void WriteLine()
 
 ## WriteLine(string) {#writeline_2}
 
-Записывает указанное сообщение в аппендеры.
+Записывает указанное сообщение в appenders.
 
 ```csharp
 public void WriteLine(string message)
@@ -44,7 +44,7 @@ public void WriteLine(string message)
 
 ## WriteLine(object) {#writeline_1}
 
-Записывает указанное сообщение в аппендеры.
+Записывает указанное сообщение в appenders.
 
 ```csharp
 public void WriteLine(object message)

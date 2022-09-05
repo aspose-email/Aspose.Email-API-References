@@ -1,14 +1,14 @@
 ---
 title: TaskStatus
 second_title: Aspose.Email for .NET API 参考
-description: 获取允许查找包含指定状态的任务的字段 服务器兼容性Exchange 2010 及更高版本
+description: 获取允许查找包含指定状态的任务的字段 服务器兼容性Exchange 2010 和更高版本
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.exchange/exchangequerybuilder/taskstatus/
 ---
 ## ExchangeQueryBuilder.TaskStatus property
 
-获取允许查找包含指定状态的任务的字段。 服务器兼容性:Exchange 2010 及更高版本
+获取允许查找包含指定状态的任务的字段。 服务器兼容性：Exchange 2010 和更高版本
 
 ```csharp
 public EnumComparisonField TaskStatus { get; }

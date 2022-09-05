@@ -1,14 +1,14 @@
 ---
 title: JobTitle
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Должность.
+description: Заголовок должности.
 type: docs
 weight: 210
 url: /ru/net/aspose.email/mhttemplatename.contact/jobtitle/
 ---
 ## MhtTemplateName.Contact.JobTitle field
 
-Заголовок Должность.
+Заголовок должности.
 
 ```csharp
 public const string JobTitle;

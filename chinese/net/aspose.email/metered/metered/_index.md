@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: Aspose.Email for .NET API 参考
-description: 初始化此类的新实例
+description: 初始化这个类的一个新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email/metered/metered/
 ---
 ## Metered constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public Metered()
