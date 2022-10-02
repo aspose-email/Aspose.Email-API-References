@@ -26,7 +26,7 @@ public class MsgSaveOptions : SaveOptions
 | --- | --- |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
-| [PreserveOriginalDates](../../aspose.email/msgsaveoptions/preserveoriginaldates) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. |
+| [PreserveOriginalDates](../../aspose.email/msgsaveoptions/preserveoriginaldates) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now. |
 | [PreserveSignature](../../aspose.email/msgsaveoptions/preservesignature) { get; set; } | Set to true, if signature is to be preserved. |
 | [SaveAsTemplate](../../aspose.email/msgsaveoptions/saveastemplate) { get; set; } | Set to true, if need to be saved as Outlook File Template(OFT format). |
 

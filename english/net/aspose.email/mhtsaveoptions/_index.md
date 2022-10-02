@@ -26,7 +26,7 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | --- | --- |
 | [AfterHeadersFormat](../../aspose.email/headersformattingoptions/afterheadersformat) { get; set; } | After headers format. |
 | [BeforeHeadersFormat](../../aspose.email/headersformattingoptions/beforeheadersformat) { get; set; } | Before headers format. |
-| [CheckBodyContentEncoding](../../aspose.email/mhtsaveoptions/checkbodycontentencoding) { get; set; } | Defines whether need check message body content encoding when saving. |
+| [CheckBodyContentEncoding](../../aspose.email/mhtsaveoptions/checkbodycontentencoding) { get; set; } | Defines whether need check message body content encoding when saving. By default the value is false. |
 | [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Gets or sets the additional css styles for the formatter. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | Default header line format. |

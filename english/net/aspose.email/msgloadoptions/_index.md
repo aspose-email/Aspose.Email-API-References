@@ -27,10 +27,10 @@ public class MsgLoadOptions : LoadOptions
 | [DecodeSignedContent](../../aspose.email/msgloadoptions/decodesignedcontent) { get; set; } | Gets or sets a value indicating whether signed message will be decoded. |
 | [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses) { get; set; } | Gets or sets a value indicating whether need keep original email address. |
 | [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml. |
-| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage. |
+| [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
 | [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent) { get; set; } | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
-| [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments) { get; set; } | Controls loading TNEF attachment behavior. |
+| [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments) { get; set; } | Controls loading TNEF attachment behaviour. By default the value is false. |
 
 ### See Also
 

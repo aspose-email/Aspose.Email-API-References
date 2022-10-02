@@ -1,14 +1,14 @@
 ---
 title: Writable
 second_title: Aspose.Email for .NET API Reference
-description: Gets or sets a value indicating whether the pst is writable.
+description: Gets or sets a value indicating whether the pst is writable. By default the value is true.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/personalstorageloadoptions/writable/
 ---
 ## PersonalStorageLoadOptions.Writable property
 
-Gets or sets a value indicating whether the pst is writable.
+Gets or sets a value indicating whether the pst is writable. By default the value is true.
 
 ```csharp
 public bool Writable { get; set; }
