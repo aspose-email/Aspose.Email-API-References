@@ -21,7 +21,7 @@ public enum FileCompatibilityMode
 | --- | --- | --- |
 | None | `0` | No values are set. |
 | AllowCROnly | `1` | Shows the necessity of the forced replace of line separators by CRLF. |
-| PreserveTnefAttachments | `2` | Controls TNEF attachment load/save behaviour |
+| PreserveTnefAttachments | `2` | Controls TNEF attachment saving behaviour. This option affects messages whose winmail.dat TNEF attachment (if present) was decoded at loading. If the option is set, the previously decoded and extracted TNEF will be encoded and packaged again into the winmail.dat attachment during message saving. By default the option isn't set. |
 
 ### See Also
 

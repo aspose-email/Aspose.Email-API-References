@@ -1,11 +1,37 @@
 ---
 title: ListFoldersAsync
 second_title: Aspose.Email for .NET API Reference
-description: Gets the list of subfolders in the specified folder
+description: Gets the list of folders in the mailbox
 type: docs
 weight: 840
 url: /net/aspose.email.clients.imap/imapclient/listfoldersasync/
 ---
+## ListFoldersAsync(IConnection) {#listfoldersasync_1}
+
+Gets the list of folders in the mailbox
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListFoldersAsync(IConnection, string) {#listfoldersasync_4}
 
 Gets the list of subfolders in the specified folder
@@ -532,32 +558,6 @@ Task object, with delegate for this operation
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * enum [ListFoldersOptions](../../listfoldersoptions)
 * enum [ListFoldersReturnOptions](../../listfoldersreturnoptions)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync(IConnection) {#listfoldersasync_1}
-
-Gets the list of folders in the mailbox
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

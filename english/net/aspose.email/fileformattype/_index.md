@@ -30,6 +30,8 @@ public enum FileFormatType
 | Tnef | `9` | Transport Neutral Encapsulation Format. |
 | Mbox | `10` | File format used for holding collections of electronic mail messages. |
 | Oft | `11` | Outlook MSG file format for message template. |
+| Olm | `12` | Outlook for Mac File Format. |
+| Tgz | `13` | TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data. |
 
 ### See Also
 

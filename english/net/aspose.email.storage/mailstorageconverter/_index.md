@@ -24,16 +24,21 @@ public static class MailStorageConverter
 
 | Name | Description |
 | --- | --- |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst)(Stream, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_2)(string, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_1)(Stream, string, MailHandler) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_3)(string, string, MailHandler) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst)(Stream, Stream) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_2)(Stream, string) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_4)(string, Stream) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_6)(string, string) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_1)(Stream, Stream, MailHandler) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_3)(Stream, string, MailHandler) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_5)(string, Stream, MailHandler) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_7)(string, string, MailHandler) | Converts an Mbox storage to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_8)(MboxStorageReader, PersonalStorage, string, MailHandler) | Converts an Mbox storage to PST. |
 
 ## Other Members
 
 | Name | Description |
 | --- | --- |
-| delegate [MailHandler](mailstorageconverter.mailhandler) |  |
+| delegate [MailHandler](mailstorageconverter.mailhandler) | Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
 
 ### See Also
 

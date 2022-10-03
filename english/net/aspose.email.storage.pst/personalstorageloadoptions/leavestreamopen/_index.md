@@ -1,14 +1,14 @@
 ---
 title: LeaveStreamOpen
 second_title: Aspose.Email for .NET API Reference
-description: Leave stream open when PersonalStorage is disposed. Should always be false when FromFileaspose.email.storage.pst/personalstorage/fromfile method is used.
+description: Leave stream open when PersonalStorage is disposed. Should always be false when FromFileaspose.email.storage.pst/personalstorage/fromfile method is used. By default the value is false.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen/
 ---
 ## PersonalStorageLoadOptions.LeaveStreamOpen property
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [`FromFile`](../../personalstorage/fromfile) method is used.
+Leave stream open when PersonalStorage is disposed. Should always be false when [`FromFile`](../../personalstorage/fromfile) method is used. By default the value is false.
 
 ```csharp
 public bool LeaveStreamOpen { get; set; }

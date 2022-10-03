@@ -6,6 +6,211 @@ type: docs
 weight: 880
 url: /net/aspose.email.clients.imap/imapclient/listmessagesasync/
 ---
+## ListMessagesAsync(IConnection, string, MailQuery, int) {#listmessagesasync_13}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
+    MailQuery query, int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Messages location |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, MailQuery) {#listmessagesasync_2}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, MailQuery, int) {#listmessagesasync_3}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(MailQuery) {#listmessagesasync_21}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(string, MailQuery, int) {#listmessagesasync_34}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, MailQuery query, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Messages location |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(MailQuery, int) {#listmessagesasync_22}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, int) {#listmessagesasync_8}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListMessagesAsync(int) {#listmessagesasync_27}
 
 Gets the list of messages in the current folder.
@@ -990,211 +1195,6 @@ Task object, with delegate for this operation
 ### See Also
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(IConnection, string, MailQuery, int) {#listmessagesasync_13}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, string folderName, 
-    MailQuery query, int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| folderName | String | Messages location |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(IConnection, MailQuery) {#listmessagesasync_2}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(IConnection, MailQuery, int) {#listmessagesasync_3}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(MailQuery) {#listmessagesasync_21}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(string, MailQuery, int) {#listmessagesasync_34}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, MailQuery query, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Messages location |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(MailQuery, int) {#listmessagesasync_22}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(IConnection, int) {#listmessagesasync_8}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

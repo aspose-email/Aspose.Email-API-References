@@ -6,6 +6,211 @@ type: docs
 weight: 1000
 url: /net/aspose.email.clients.imap/imapclient/removemessageflagsasync/
 ---
+## RemoveMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_47}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_43}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_19}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
+    ImapMessageFlags flags, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_15}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
+    ImapMessageFlags flags, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_46}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
+    long modificationSequence, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_42}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
+    long modificationSequence, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_18}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
+    ImapMessageFlags flags, long modificationSequence, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapMessageFlags](../../imapmessageflags)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_14}
 
 Removes the flags of the message
@@ -1426,211 +1631,6 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, i
 | startSequence | Int32 | The starting sequence number of a message list |
 | endSequence | Int32 | The ending sequence number of a message list |
 | flags | ImapMessageFlags | The flags to be removed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_47}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_43}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_19}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
-    ImapMessageFlags flags, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_15}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
-    ImapMessageFlags flags, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_46}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
-    long modificationSequence, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_42}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
-    long modificationSequence, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_18}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
-    ImapMessageFlags flags, long modificationSequence, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
