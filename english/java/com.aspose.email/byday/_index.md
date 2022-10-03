@@ -1,7 +1,7 @@
 ---
 title: ByDay
 second_title: Aspose.Email for Java API Reference
-description:  Represents Nth occurrence or all occurrences of the specified day of the week.
+description: Represents Nth occurrence or all occurrences of the specified day of the week.
 type: docs
 weight: 86
 url: /java/com.aspose.email/byday/
@@ -16,27 +16,27 @@ Represents Nth occurrence (or all occurrences) of the specified day of the week.
 
 --------------------
 
-\`\`\`
+
 
 Corresponds to one day of the week specified in the BYDAY part of a recurrence rule.
 
-\`\`\` \`\`\`
+ 
 
 Can be used in a monthly or yearly recurrence rule to specify Nth occurrence (or all occurrences) of the specified day of the week in a month or year.
 
-\`\`\` \`\`\`
+ 
 
 BYDAY=MO represents all Mondays of the month or year. To represent all occurrences, set NthOccurrence to 0.
 
-\`\`\` \`\`\`
+ 
 
 BYDAY=2MO represents 2nd Monday in a month or year.
 
-\`\`\` \`\`\`
+ 
 
 BYDAY=-1MO represents the last Monday of a month or year.
 
-\`\`\`
+
 ## Constructors
 
 | Constructor | Description |
@@ -91,23 +91,23 @@ Gets or sets the nth occurrence of the day of the week.
 
 --------------------
 
-\`\`\`
+
 
 Valid range for this property is from -53 to 53.
 
-\`\`\` \`\`\`
+ 
 
 Positive values represent Nth occurrence from the beginning of the period, for example NthOccurrence = 1, represents 1st occurrence of the day of the week.
 
-\`\`\` \`\`\`
+ 
 
 Negative values represent Nth occurrence from the end of the period, for example NthOccurrence = -1, represents last occurrence of the day of the week.
 
-\`\`\` \`\`\`
+ 
 
 When NthOccurrence is zero, it represents all occurrences of the specified day of the week. For example, BYDAY=MO has NthOccurrence zero and represents all Mondays in the set.
 
-\`\`\`
+
 
 **Returns:**
 int
@@ -121,23 +121,23 @@ Gets or sets the nth occurrence of the day of the week.
 
 --------------------
 
-\`\`\`
+
 
 Valid range for this property is from -53 to 53.
 
-\`\`\` \`\`\`
+ 
 
 Positive values represent Nth occurrence from the beginning of the period, for example NthOccurrence = 1, represents 1st occurrence of the day of the week.
 
-\`\`\` \`\`\`
+ 
 
 Negative values represent Nth occurrence from the end of the period, for example NthOccurrence = -1, represents last occurrence of the day of the week.
 
-\`\`\` \`\`\`
+ 
 
 When NthOccurrence is zero, it represents all occurrences of the specified day of the week. For example, BYDAY=MO has NthOccurrence zero and represents all Mondays in the set.
 
-\`\`\`
+
 
 **Parameters:**
 | Parameter | Type | Description |

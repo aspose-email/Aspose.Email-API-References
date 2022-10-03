@@ -1,11 +1,7 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for Java API Reference
-description:  The Notes Storage Facility NSF database file 
- is used by IBM Lotus Notes and Domino 
- to store different kind of objects like e-mail 
- appointments and documents 
- but also application forms and views.
+description: The Notes Storage Facility NSF database file  is used by IBM Lotus Notes and Domino  to store different kind of objects like e-mail  appointments and documents  but also application forms and views.
 type: docs
 weight: 528
 url: /java/com.aspose.email/notesstoragefacility/
@@ -98,7 +94,7 @@ public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
 ### dispose() {#dispose--}
 ```
 public final void dispose()

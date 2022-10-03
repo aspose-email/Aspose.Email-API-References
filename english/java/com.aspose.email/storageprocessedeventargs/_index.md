@@ -1,7 +1,7 @@
 ---
 title: StorageProcessedEventArgs
 second_title: Aspose.Email for Java API Reference
-description:  Provides data for the  event
+description: Provides data for the  event
 type: docs
 weight: 648
 url: /java/com.aspose.email/storageprocessedeventargs/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class StorageProcessedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [PersonalStorage\#StorageProcessedDelegate](../../com.aspose.email/personalstorage\#StorageProcessedDelegate) event
+Provides data for the [PersonalStorage.StorageProcessedDelegate](../../com.aspose.email/personalstorage\#StorageProcessedDelegate) event
 ## Methods
 
 | Method | Description |

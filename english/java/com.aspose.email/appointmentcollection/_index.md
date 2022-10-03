@@ -1,7 +1,7 @@
 ---
 title: AppointmentCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of Appointment objects.
+description: Represents a collection of Appointment objects.
 type: docs
 weight: 34
 url: /java/com.aspose.email/appointmentcollection/
@@ -74,7 +74,7 @@ Converts array of appointments to collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| appointments | com.aspose.email.Appointment[] | Array of appointments to convert |
+| appointments | [Appointment\[\]](../../com.aspose.email/appointment) | Array of appointments to convert |
 
 **Returns:**
 [AppointmentCollection](../../com.aspose.email/appointmentcollection) - Collection of appointments

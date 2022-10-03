@@ -1,7 +1,7 @@
 ---
 title: MapiType
 second_title: Aspose.Email for Java API Reference
-description:  Contains possible MAPI property types which can be stored with message object.
+description: Contains possible MAPI property types which can be stored with message object.
 type: docs
 weight: 477
 url: /java/com.aspose.email/mapitype/
@@ -38,18 +38,18 @@ Contains possible MAPI property types which can be stored with message object.
 | [PT_SYSTIME](#PT-SYSTIME) | 8 bytes, a 64-bit integer representing the number of 100-nanosecond intervals since January 1, 1601 |
 | [PT_CLSID](#PT-CLSID) | 16 bytes, a GUID with Data1, Data2, and Data3 fields in little-endian format |
 | [PT_BINARY](#PT-BINARY) | Variable size, a byte array |
-| [PT_MV_SHORT](#PT-MV-SHORT) | Variable size, a set of [MapiType\#PT\_SHORT](../../com.aspose.email/mapitype\#PT-SHORT) values. |
-| [PT_MV_LONG](#PT-MV-LONG) | Variable size, a set of [MapiType\#PT\_LONG](../../com.aspose.email/mapitype\#PT-LONG) values. |
-| [PT_MV_FLOAT](#PT-MV-FLOAT) | Variable size, a set of [MapiType\#PT\_FLOAT](../../com.aspose.email/mapitype\#PT-FLOAT) values. |
-| [PT_MV_DOUBLE](#PT-MV-DOUBLE) | Variable size, a set of [MapiType\#PT\_DOUBLE](../../com.aspose.email/mapitype\#PT-DOUBLE) values. |
-| [PT_MV_CURRENCY](#PT-MV-CURRENCY) | Variable size, a set of [MapiType\#PT\_CURRENCY](../../com.aspose.email/mapitype\#PT-CURRENCY) values. |
-| [PT_MV_APPTIME](#PT-MV-APPTIME) | Variable size, a set of [MapiType\#PT\_APPTIME](../../com.aspose.email/mapitype\#PT-APPTIME) values. |
-| [PT_MV_LONGLONG](#PT-MV-LONGLONG) | Variable size, a set of [MapiType\#PT\_LONGLONG](../../com.aspose.email/mapitype\#PT-LONGLONG) values. |
-| [PT_MV_UNICODE](#PT-MV-UNICODE) | Variable size, a set of [MapiType\#PT\_UNICODE](../../com.aspose.email/mapitype\#PT-UNICODE) values. |
-| [PT_MV_STRING8](#PT-MV-STRING8) | Variable size, a set of [MapiType\#PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) values. |
-| [PT_MV_SYSTIME](#PT-MV-SYSTIME) | Variable size, a set of [MapiType\#PT\_SYSTIME](../../com.aspose.email/mapitype\#PT-SYSTIME) values. |
-| [PT_MV_CLSID](#PT-MV-CLSID) | Variable size, a set of [MapiType\#PT\_CLSID](../../com.aspose.email/mapitype\#PT-CLSID) values. |
-| [PT_MV_BINARY](#PT-MV-BINARY) | Variable size, a set of [MapiType\#PT\_BINARY](../../com.aspose.email/mapitype\#PT-BINARY) values. |
+| [PT_MV_SHORT](#PT-MV-SHORT) | Variable size, a set of [PT\_SHORT](../../com.aspose.email/mapitype\#PT-SHORT) values. |
+| [PT_MV_LONG](#PT-MV-LONG) | Variable size, a set of [PT\_LONG](../../com.aspose.email/mapitype\#PT-LONG) values. |
+| [PT_MV_FLOAT](#PT-MV-FLOAT) | Variable size, a set of [PT\_FLOAT](../../com.aspose.email/mapitype\#PT-FLOAT) values. |
+| [PT_MV_DOUBLE](#PT-MV-DOUBLE) | Variable size, a set of [PT\_DOUBLE](../../com.aspose.email/mapitype\#PT-DOUBLE) values. |
+| [PT_MV_CURRENCY](#PT-MV-CURRENCY) | Variable size, a set of [PT\_CURRENCY](../../com.aspose.email/mapitype\#PT-CURRENCY) values. |
+| [PT_MV_APPTIME](#PT-MV-APPTIME) | Variable size, a set of [PT\_APPTIME](../../com.aspose.email/mapitype\#PT-APPTIME) values. |
+| [PT_MV_LONGLONG](#PT-MV-LONGLONG) | Variable size, a set of [PT\_LONGLONG](../../com.aspose.email/mapitype\#PT-LONGLONG) values. |
+| [PT_MV_UNICODE](#PT-MV-UNICODE) | Variable size, a set of [PT\_UNICODE](../../com.aspose.email/mapitype\#PT-UNICODE) values. |
+| [PT_MV_STRING8](#PT-MV-STRING8) | Variable size, a set of [PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) values. |
+| [PT_MV_SYSTIME](#PT-MV-SYSTIME) | Variable size, a set of [PT\_SYSTIME](../../com.aspose.email/mapitype\#PT-SYSTIME) values. |
+| [PT_MV_CLSID](#PT-MV-CLSID) | Variable size, a set of [PT\_CLSID](../../com.aspose.email/mapitype\#PT-CLSID) values. |
+| [PT_MV_BINARY](#PT-MV-BINARY) | Variable size, a set of [PT\_BINARY](../../com.aspose.email/mapitype\#PT-BINARY) values. |
 ### MapiType() {#MapiType--}
 ```
 public MapiType()
@@ -192,7 +192,7 @@ public static final int PT_MV_SHORT
 ```
 
 
-Variable size, a set of [MapiType\#PT\_SHORT](../../com.aspose.email/mapitype\#PT-SHORT) values.
+Variable size, a set of [PT\_SHORT](../../com.aspose.email/mapitype\#PT-SHORT) values.
 
 ### PT_MV_LONG {#PT-MV-LONG}
 ```
@@ -200,7 +200,7 @@ public static final int PT_MV_LONG
 ```
 
 
-Variable size, a set of [MapiType\#PT\_LONG](../../com.aspose.email/mapitype\#PT-LONG) values.
+Variable size, a set of [PT\_LONG](../../com.aspose.email/mapitype\#PT-LONG) values.
 
 ### PT_MV_FLOAT {#PT-MV-FLOAT}
 ```
@@ -208,7 +208,7 @@ public static final int PT_MV_FLOAT
 ```
 
 
-Variable size, a set of [MapiType\#PT\_FLOAT](../../com.aspose.email/mapitype\#PT-FLOAT) values.
+Variable size, a set of [PT\_FLOAT](../../com.aspose.email/mapitype\#PT-FLOAT) values.
 
 ### PT_MV_DOUBLE {#PT-MV-DOUBLE}
 ```
@@ -216,7 +216,7 @@ public static final int PT_MV_DOUBLE
 ```
 
 
-Variable size, a set of [MapiType\#PT\_DOUBLE](../../com.aspose.email/mapitype\#PT-DOUBLE) values.
+Variable size, a set of [PT\_DOUBLE](../../com.aspose.email/mapitype\#PT-DOUBLE) values.
 
 ### PT_MV_CURRENCY {#PT-MV-CURRENCY}
 ```
@@ -224,7 +224,7 @@ public static final int PT_MV_CURRENCY
 ```
 
 
-Variable size, a set of [MapiType\#PT\_CURRENCY](../../com.aspose.email/mapitype\#PT-CURRENCY) values.
+Variable size, a set of [PT\_CURRENCY](../../com.aspose.email/mapitype\#PT-CURRENCY) values.
 
 ### PT_MV_APPTIME {#PT-MV-APPTIME}
 ```
@@ -232,7 +232,7 @@ public static final int PT_MV_APPTIME
 ```
 
 
-Variable size, a set of [MapiType\#PT\_APPTIME](../../com.aspose.email/mapitype\#PT-APPTIME) values.
+Variable size, a set of [PT\_APPTIME](../../com.aspose.email/mapitype\#PT-APPTIME) values.
 
 ### PT_MV_LONGLONG {#PT-MV-LONGLONG}
 ```
@@ -240,7 +240,7 @@ public static final int PT_MV_LONGLONG
 ```
 
 
-Variable size, a set of [MapiType\#PT\_LONGLONG](../../com.aspose.email/mapitype\#PT-LONGLONG) values.
+Variable size, a set of [PT\_LONGLONG](../../com.aspose.email/mapitype\#PT-LONGLONG) values.
 
 ### PT_MV_UNICODE {#PT-MV-UNICODE}
 ```
@@ -248,7 +248,7 @@ public static final int PT_MV_UNICODE
 ```
 
 
-Variable size, a set of [MapiType\#PT\_UNICODE](../../com.aspose.email/mapitype\#PT-UNICODE) values.
+Variable size, a set of [PT\_UNICODE](../../com.aspose.email/mapitype\#PT-UNICODE) values.
 
 ### PT_MV_STRING8 {#PT-MV-STRING8}
 ```
@@ -256,7 +256,7 @@ public static final int PT_MV_STRING8
 ```
 
 
-Variable size, a set of [MapiType\#PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) values.
+Variable size, a set of [PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) values.
 
 ### PT_MV_SYSTIME {#PT-MV-SYSTIME}
 ```
@@ -264,7 +264,7 @@ public static final int PT_MV_SYSTIME
 ```
 
 
-Variable size, a set of [MapiType\#PT\_SYSTIME](../../com.aspose.email/mapitype\#PT-SYSTIME) values.
+Variable size, a set of [PT\_SYSTIME](../../com.aspose.email/mapitype\#PT-SYSTIME) values.
 
 ### PT_MV_CLSID {#PT-MV-CLSID}
 ```
@@ -272,7 +272,7 @@ public static final int PT_MV_CLSID
 ```
 
 
-Variable size, a set of [MapiType\#PT\_CLSID](../../com.aspose.email/mapitype\#PT-CLSID) values.
+Variable size, a set of [PT\_CLSID](../../com.aspose.email/mapitype\#PT-CLSID) values.
 
 ### PT_MV_BINARY {#PT-MV-BINARY}
 ```
@@ -280,5 +280,5 @@ public static final int PT_MV_BINARY
 ```
 
 
-Variable size, a set of [MapiType\#PT\_BINARY](../../com.aspose.email/mapitype\#PT-BINARY) values.
+Variable size, a set of [PT\_BINARY](../../com.aspose.email/mapitype\#PT-BINARY) values.
 

@@ -1,8 +1,7 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Aspose.Email for Java API Reference
-description:  Refers to the group of properties that 
- define the e-mail address or fax address for a contact.
+description: Refers to the group of properties that  define the e-mail address or fax address for a contact.
 type: docs
 weight: 417
 url: /java/com.aspose.email/mapicontactelectronicaddress/

@@ -1,7 +1,7 @@
 ---
 title: ExchangeClient
 second_title: Aspose.Email for Java API Reference
-description:  The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol
+description: The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
 type: docs
 weight: 195
 url: /java/com.aspose.email/exchangeclient/
@@ -12,11 +12,11 @@ java.lang.Object, [com.aspose.email.ExchangeClientBase](../../com.aspose.email/e
 public final class ExchangeClient extends ExchangeClientBase
 ```
 
-\`\`\`
+
 
 The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
 
-\`\`\`
+
 ## Constructors
 
 | Constructor | Description |
@@ -284,7 +284,7 @@ public final boolean getSendChunked()
 
 Gets or sets a value indicating whether [send chunked].
 
-Value: \`\`\` true \`\`\` if [send chunked]; otherwise, \`\`\` false \`\`\`.
+Value:  true  if [send chunked]; otherwise,  false .
 
 **Returns:**
 boolean
@@ -296,7 +296,7 @@ public final void setSendChunked(boolean value)
 
 Gets or sets a value indicating whether [send chunked].
 
-Value: \`\`\` true \`\`\` if [send chunked]; otherwise, \`\`\` false \`\`\`.
+Value:  true  if [send chunked]; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,7 +411,7 @@ Get the size of the maibox
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailbox | java.lang.String | A mailbox. Note: if it is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\` the default mailbox will be used |
+| mailbox | java.lang.String | A mailbox. Note: if it is set to  null  or  empty  the default mailbox will be used |
 
 **Returns:**
 long - The size of the mailbox
@@ -436,7 +436,7 @@ Gets the mailbox information
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailbox | java.lang.String | A mailbox to read from. Note: if mailbox is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\` the default mailbox will be used |
+| mailbox | java.lang.String | A mailbox to read from. Note: if mailbox is set to  null  or  empty  the default mailbox will be used |
 
 **Returns:**
 [ExchangeMailboxInfo](../../com.aspose.email/exchangemailboxinfo) - [ExchangeMailboxInfo](../../com.aspose.email/exchangemailboxinfo) that represents mailbox information
@@ -453,7 +453,7 @@ Lists the messages.
 | --- | --- | --- |
 | folder | java.lang.String | The folder. |
 | messageClass | java.lang.String | The message class. |
-| recursive | boolean | if set to \`\`\` true \`\`\` [recursive]. |
+| recursive | boolean | if set to  true  [recursive]. |
 
 **Returns:**
 [ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) - 
@@ -844,10 +844,10 @@ Checks whether the specified folder exists.
 | --- | --- | --- |
 | parentFolderUri | java.lang.String | An uri of parent folder. |
 | folderName | java.lang.String | A folder name. |
-| folder | com.aspose.email.ExchangeFolderInfo[] | A [ExchangeFolderInfo](../../com.aspose.email/exchangefolderinfo) that represents the found folder information, if folder exists. |
+| folder | [ExchangeFolderInfo\[\]](../../com.aspose.email/exchangefolderinfo) | A [ExchangeFolderInfo](../../com.aspose.email/exchangefolderinfo) that represents the found folder information, if folder exists. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified folder exists in the specified parent folder; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified folder exists in the specified parent folder; otherwise,  false .
 ### createFolder(String parentFolderUri, String name) {#createFolder-java.lang.String-java.lang.String-}
 ```
 public ExchangeFolderInfo createFolder(String parentFolderUri, String name)
@@ -1173,7 +1173,7 @@ Lists the messages.
 | maxNumberOfMessages | int | Maximum number of messages |
 
 **Returns:**
-[ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) - A \`\`\` ExchangeMessageInfoCollection \`\`\`
+[ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) - A  ExchangeMessageInfoCollection 
 ### folderExists(String parentFolderUri, String folderName) {#folderExists-java.lang.String-java.lang.String-}
 ```
 public final boolean folderExists(String parentFolderUri, String folderName)
@@ -1189,4 +1189,4 @@ Checks whether the specified folder exists.
 | folderName | java.lang.String | A folder name. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified folder exists in the specified parent folder; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified folder exists in the specified parent folder; otherwise,  false .

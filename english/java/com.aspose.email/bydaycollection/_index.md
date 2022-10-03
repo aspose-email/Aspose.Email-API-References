@@ -1,7 +1,7 @@
 ---
 title: ByDayCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of  objects.
+description: Represents a collection of  objects.
 type: docs
 weight: 87
 url: /java/com.aspose.email/bydaycollection/
@@ -16,19 +16,19 @@ Represents a collection of [ByDay](../../com.aspose.email/byday) objects.
 
 --------------------
 
-\`\`\`
+
 
 Corresponds to the BYDAY part of the recurrence rule.
 
-\`\`\` \`\`\`
+ 
 
 The BYDAY rule specifies a list of days of the week for a monthly or yearly recurrence rule.
 
-\`\`\` \`\`\`
+ 
 
 For each day of the week, a specific Nth occurrence or all occurrences can be specified.
 
-\`\`\`
+
 ## Methods
 
 | Method | Description |
@@ -36,8 +36,8 @@ For each day of the week, a specific Nth occurrence or all occurrences can be sp
 | [add(ByDay byDay)](#add-com.aspose.email.ByDay-) | Adds a [ByDay](../../com.aspose.email/byday) to the collection. |
 | [add(int dayOfWeek)](#add-int-) | Creates and adds a [ByDay](../../com.aspose.email/byday) that represents all occurrences of the day of the week to the collection. |
 | [add(int nthOccurrence, int dayOfWeek)](#add-int-int-) | Creates and adds a [ByDay](../../com.aspose.email/byday) to the collection. |
-| [get(int index)](#get-int-) | Gets or sets a \`\`\` ByDay \`\`\` from the collection. |
-| [set(int index, ByDay value)](#set-int-com.aspose.email.ByDay-) | Gets or sets a \`\`\` ByDay \`\`\` from the collection. |
+| [get(int index)](#get-int-) | Gets or sets a  ByDay  from the collection. |
+| [set(int index, ByDay value)](#set-int-com.aspose.email.ByDay-) | Gets or sets a  ByDay  from the collection. |
 | [contains(int dayOfWeek)](#contains-int-) | Returns a value indicating whether a specified day of week is present in the collection. |
 | [equals(ByDayCollection other)](#equals-com.aspose.email.ByDayCollection-) | Determines whether the specified [ByDayCollection](../../com.aspose.email/bydaycollection) is equal to this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
@@ -94,7 +94,7 @@ public ByDay get(int index)
 ```
 
 
-Gets or sets a \`\`\` ByDay \`\`\` from the collection.
+Gets or sets a  ByDay  from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -102,20 +102,20 @@ Gets or sets a \`\`\` ByDay \`\`\` from the collection.
 | index | int | a int. |
 
 **Returns:**
-[ByDay](../../com.aspose.email/byday) - a com.aspose.email.ByDay object.
+[ByDay](../../com.aspose.email/byday) - a [ByDay](../../com.aspose.email/byday) object.
 ### set(int index, ByDay value) {#set-int-com.aspose.email.ByDay-}
 ```
 public void set(int index, ByDay value)
 ```
 
 
-Gets or sets a \`\`\` ByDay \`\`\` from the collection.
+Gets or sets a  ByDay  from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | a int. |
-| value | [ByDay](../../com.aspose.email/byday) | a com.aspose.email.ByDay object. |
+| value | [ByDay](../../com.aspose.email/byday) | a [ByDay](../../com.aspose.email/byday) object. |
 
 ### contains(int dayOfWeek) {#contains-int-}
 ```
@@ -146,7 +146,7 @@ Determines whether the specified [ByDayCollection](../../com.aspose.email/bydayc
 | other | [ByDayCollection](../../com.aspose.email/bydaycollection) | The [ByDayCollection](../../com.aspose.email/bydaycollection) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [ByDayCollection](../../com.aspose.email/bydaycollection) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [ByDayCollection](../../com.aspose.email/bydaycollection) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

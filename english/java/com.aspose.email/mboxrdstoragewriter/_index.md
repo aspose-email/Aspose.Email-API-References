@@ -1,7 +1,7 @@
 ---
 title: MboxrdStorageWriter
 second_title: Aspose.Email for Java API Reference
-description:  Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
+description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
 weight: 483
 url: /java/com.aspose.email/mboxrdstoragewriter/
@@ -39,7 +39,7 @@ Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageWriter(System.IO.Stream stream, boolean leaveOpen) {#MboxrdStorageWriter-com.aspose.ms.System.IO.Stream-boolean-}
 ```
@@ -53,7 +53,7 @@ Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageWriter(String fileName, boolean leaveOpen) {#MboxrdStorageWriter-java.lang.String-boolean-}
 ```
@@ -67,7 +67,7 @@ Initializes a new instance of the [MboxrdStorageWriter](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageWriter(String fileName) {#MboxrdStorageWriter-java.lang.String-}
 ```

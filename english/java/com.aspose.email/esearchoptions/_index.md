@@ -1,8 +1,7 @@
 ---
 title: ESearchOptions
 second_title: Aspose.Email for Java API Reference
-description:  ESEARCH Result Options
- This method works only if server supports ESEARCH extension.
+description: ESEARCH Result Options This method works only if server supports ESEARCH extension.
 type: docs
 weight: 162
 url: /java/com.aspose.email/esearchoptions/

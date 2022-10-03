@@ -1,7 +1,7 @@
 ---
 title: MessageObjectPropertiesCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a keyed collection for  objects.
+description: Represents a keyed collection for  objects.
 type: docs
 weight: 498
 url: /java/com.aspose.email/messageobjectpropertiescollection/
@@ -56,5 +56,5 @@ add.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) | a com.aspose.email.MessageObjectProperty object. |
+| item | [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) | a [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) object. |
 

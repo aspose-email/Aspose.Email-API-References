@@ -1,7 +1,7 @@
 ---
 title: com.aspose.email
 second_title: Aspose.Email for Java API Reference
-description:  Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook
+description: Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook
 type: docs
 weight: 10
 url: /java/com.aspose.email/
@@ -21,7 +21,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [AllowedConferenceSolutionTypes](../com.aspose.email/allowedconferencesolutiontypes) | The types of conference solutions that are supported for this calendar. |
 | [AlternateView](../com.aspose.email/alternateview) | Represents the format to view a message. |
 | [AlternateViewCollection](../com.aspose.email/alternateviewcollection) | Represents a collection of AlternateView objects. |
-| [AlternateViewRemovedEventArgs](../com.aspose.email/alternateviewremovedeventargs) | Provides data for the [AlternateViewCollection\#AlternateViewRemovedDelegate](../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event. |
+| [AlternateViewRemovedEventArgs](../com.aspose.email/alternateviewremovedeventargs) | Provides data for the [AlternateViewCollection.\#AlternateViewRemovedDelegate](../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event. |
 | [AmpAccordion](../com.aspose.email/ampaccordion) | A UI element that facilitates showing/hiding different sections. |
 | [AmpAnim](../com.aspose.email/ampanim) | A runtime-managed animated image, typically a GIF. |
 | [AmpAttributes](../com.aspose.email/ampattributes) | Represents attributes used by the amp-components. |
@@ -199,11 +199,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ExchangeCalendarPermission](../com.aspose.email/exchangecalendarpermission) | Represents a permission on a calendar folder. |
 | [ExchangeCalendarPermissionLevel](../com.aspose.email/exchangecalendarpermissionlevel) | Specifies the permission level that a user has on a calendar folder. |
 | [ExchangeCalendarPermissionReadAccess](../com.aspose.email/exchangecalendarpermissionreadaccess) | Sspecifies whether a user has permission to read items in a folder. |
-| [ExchangeClient](../com.aspose.email/exchangeclient) | \`\`\`
-
-The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
-
-\`\`\` |
+| [ExchangeClient](../com.aspose.email/exchangeclient) | The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol. |
 | [ExchangeClientBase](../com.aspose.email/exchangeclientbase) | Provides the abstract base class to MS Exchange Server access. |
 | [ExchangeConversation](../com.aspose.email/exchangeconversation) | Represents a single conversation. |
 | [ExchangeConversationFlagStatus](../com.aspose.email/exchangeconversationflagstatus) | Enumerates the flag status for conversation. |
@@ -349,8 +345,8 @@ The ExchangeClient class allows applications to manage E-Mail box in Microsoft E
 | [IntComparisonField](../com.aspose.email/intcomparisonfield) | Represents the integer search field. |
 | [ItemCallbackArgs](../com.aspose.email/itemcallbackargs) | ItemCallbackArgs contains item being processed. |
 | [ItemChoice](../com.aspose.email/itemchoice) | Specifies property type which should be used for Exchange impersonation. |
-| [ItemMovedEventArgs](../com.aspose.email/itemmovedeventargs) | Provides data for the [FolderInfo\#ItemMovedDelegate](../com.aspose.email/folderinfo\#ItemMovedDelegate) event |
-| [ItemMovedEventHandler](../com.aspose.email/itemmovedeventhandler) | Represents the method that will handle an [FolderInfo\#ItemMovedDelegate](../com.aspose.email/folderinfo\#ItemMovedDelegate) event. |
+| [ItemMovedEventArgs](../com.aspose.email/itemmovedeventargs) | Provides data for the [FolderInfo.\#ItemMovedDelegate](../com.aspose.email/folderinfo\#ItemMovedDelegate) event |
+| [ItemMovedEventHandler](../com.aspose.email/itemmovedeventhandler) | Represents the method that will handle an [FolderInfo.\#ItemMovedDelegate](../com.aspose.email/folderinfo\#ItemMovedDelegate) event. |
 | [KnownFolders](../com.aspose.email/knownfolders) | Specifies the known Exchange server folders. |
 | [KnownPropertyList](../com.aspose.email/knownpropertylist) | The read-only Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation (MS-OXPROPS). |
 | [KnownPropertySets](../com.aspose.email/knownpropertysets) | [MS-OXCDATA]: Commonly Used Property Sets |
@@ -498,8 +494,8 @@ The ExchangeClient class allows applications to manage E-Mail box in Microsoft E
 | [MediaTypeNames.Image](../com.aspose.email/mediatypenames.image) | Specifies the type of image data in an e-mail message attachment. |
 | [MediaTypeNames.Text](../com.aspose.email/mediatypenames.text) | Specifies the type of text data in an e-mail message attachment. |
 | [MessageAcceptanceCallback](../com.aspose.email/messageacceptancecallback) | Callback function which is being called during the conversion process. |
-| [MessageAddedEventArgs](../com.aspose.email/messageaddedeventargs) | Provides data for the [FolderInfo\#MessageAddedDelegate](../com.aspose.email/folderinfo\#MessageAddedDelegate) event |
-| [MessageAddedEventHandler](../com.aspose.email/messageaddedeventhandler) | Represents the method that will handle an [FolderInfo\#MessageAddedDelegate](../com.aspose.email/folderinfo\#MessageAddedDelegate) event. |
+| [MessageAddedEventArgs](../com.aspose.email/messageaddedeventargs) | Provides data for the [FolderInfo.\#MessageAddedDelegate](../com.aspose.email/folderinfo\#MessageAddedDelegate) event |
+| [MessageAddedEventHandler](../com.aspose.email/messageaddedeventhandler) | Represents the method that will handle an [FolderInfo.\#MessageAddedDelegate](../com.aspose.email/folderinfo\#MessageAddedDelegate) event. |
 | [MessageFormat](../com.aspose.email/messageformat) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [MessageInfo](../com.aspose.email/messageinfo) | Represents information about message in PST. |
 | [MessageInfoBase](../com.aspose.email/messageinfobase) | The MessageInfo represents the E-Mail message info fetched from the mail server. |
@@ -662,8 +658,8 @@ The ExchangeClient class allows applications to manage E-Mail box in Microsoft E
 | [SpamAnalyzer](../com.aspose.email/spamanalyzer) | Class which allows applications to detect spam e-mails with self-learning Bayesian filter. |
 | [StandardFormatter](../com.aspose.email/standardformatter) | Represents the class for formatting log entry messsages. |
 | [StandardIpmFolder](../com.aspose.email/standardipmfolder) | Represents a standard interpersonal message (IPM) folders. |
-| [StorageProcessedEventArgs](../com.aspose.email/storageprocessedeventargs) | Provides data for the [PersonalStorage\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event |
-| [StorageProcessedEventHandler](../com.aspose.email/storageprocessedeventhandler) | Represents the method that will handle an [PersonalStorage\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event. |
+| [StorageProcessedEventArgs](../com.aspose.email/storageprocessedeventargs) | Provides data for the [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event |
+| [StorageProcessedEventHandler](../com.aspose.email/storageprocessedeventhandler) | Represents the method that will handle an [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event. |
 | [StringComparisonField](../com.aspose.email/stringcomparisonfield) | Represents the string search field. |
 | [SyncFolderResult](../com.aspose.email/syncfolderresult) | Result for SyncFolder operation |
 | [SyncFolderType](../com.aspose.email/syncfoldertype) | Folder synchronization types |

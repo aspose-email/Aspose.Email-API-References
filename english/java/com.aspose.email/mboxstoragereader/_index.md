@@ -1,7 +1,7 @@
 ---
 title: MboxStorageReader
 second_title: Aspose.Email for Java API Reference
-description:  A base class for any mbox-based mail storage reader.
+description: A base class for any mbox-based mail storage reader.
 type: docs
 weight: 479
 url: /java/com.aspose.email/mboxstoragereader/
@@ -58,7 +58,7 @@ Creates the instance of reader.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 **Returns:**
 [MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
@@ -74,7 +74,7 @@ Creates the instance of reader.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 **Returns:**
 [MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
@@ -151,7 +151,7 @@ public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
 ### enumerateMessages(EmlLoadOptions options) {#enumerateMessages-com.aspose.email.EmlLoadOptions-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(EmlLoadOptions options)
@@ -166,7 +166,7 @@ Exposes the enumerator, which supports an iteration of messages in storage.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in storage.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
 ### readNextMessage() {#readNextMessage--}
 ```
 public abstract MailMessage readNextMessage()
@@ -176,7 +176,7 @@ public abstract MailMessage readNextMessage()
 Reads the next message from underlying storage stream.
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(String[] fromMarker) {#readNextMessage-java.lang.String---}
 ```
 public abstract MailMessage readNextMessage(String[] fromMarker)
@@ -191,7 +191,7 @@ Reads the next message from underlying storage stream.
 | fromMarker | java.lang.String[] | Gets the From Marker while parsing the MBox Storage file. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(EmlLoadOptions options) {#readNextMessage-com.aspose.email.EmlLoadOptions-}
 ```
 public abstract MailMessage readNextMessage(EmlLoadOptions options)
@@ -206,7 +206,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(String[] fromMarker, EmlLoadOptions options) {#readNextMessage-java.lang.String---com.aspose.email.EmlLoadOptions-}
 ```
 public abstract MailMessage readNextMessage(String[] fromMarker, EmlLoadOptions options)
@@ -222,7 +222,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public abstract int getTotalItemsCount()

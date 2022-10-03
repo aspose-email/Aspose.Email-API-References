@@ -1,8 +1,7 @@
 ---
 title: AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for Java API Reference
-description:  Base exceptioon type for Aspose.Email 
- Represents errors that occur during application execution.
+description: Base exceptioon type for Aspose.Email  Represents errors that occur during application execution.
 type: docs
 weight: 56
 url: /java/com.aspose.email/asposeinvalidenumargumentexception/
@@ -15,7 +14,7 @@ public class AsposeInvalidEnumArgumentException extends AsposeException
 
 Base exceptioon type for Aspose.Email Represents errors that occur during application execution.
 
-\`\`\` 1 \`\`\`
+ 1 
 ## Constructors
 
 | Constructor | Description |

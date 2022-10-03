@@ -1,8 +1,7 @@
 ---
 title: NotebookLinks
 second_title: Aspose.Email for Java API Reference
-description:  https//docs.microsoft.com/en-us/graph/api/resources/notebooklinksviewgraph-rest-1.0
- Links for opening a OneNote notebook.
+description: https//docs.microsoft.com/en-us/graph/api/resources/notebooklinksviewgraph-rest-1.0 Links for opening a OneNote notebook.
 type: docs
 weight: 527
 url: /java/com.aspose.email/notebooklinks/

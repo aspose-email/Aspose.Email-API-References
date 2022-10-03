@@ -1,7 +1,7 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Email for Java API Reference
-description:  Represents a Content-Disposition header.
+description: Represents a Content-Disposition header.
 type: docs
 weight: 126
 url: /java/com.aspose.email/contentdisposition/
@@ -287,7 +287,7 @@ Determines whether the specified Object is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

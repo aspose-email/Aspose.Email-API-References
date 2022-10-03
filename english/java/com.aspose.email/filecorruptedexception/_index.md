@@ -1,8 +1,7 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Email for Java API Reference
-description:  Exception that is thrown during file reading
- when the file appears to be corrupted and impossible to read.
+description: Exception that is thrown during file reading when the file appears to be corrupted and impossible to read.
 type: docs
 weight: 246
 url: /java/com.aspose.email/filecorruptedexception/

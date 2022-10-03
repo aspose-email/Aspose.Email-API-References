@@ -1,7 +1,7 @@
 ---
 title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
-description:  Allows to specify additional options when loading MailMessage from Msg format.
+description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
 weight: 517
 url: /java/com.aspose.email/msgloadoptions/
@@ -79,7 +79,7 @@ public final boolean getDecodeClearSignedContent()
 
 Gets or sets a value indicating whether clear-signed message will be decoded.
 
-Value: \`\`\` true \`\`\` if clear-signed message will be decoded; otherwise, \`\`\` false \`\`\`.
+Value:  true  if clear-signed message will be decoded; otherwise,  false .
 
 **Returns:**
 boolean
@@ -91,7 +91,7 @@ public final void setDecodeClearSignedContent(boolean value)
 
 Gets or sets a value indicating whether clear-signed message will be decoded.
 
-Value: \`\`\` true \`\`\` if clear-signed message will be decoded; otherwise, \`\`\` false \`\`\`.
+Value:  true  if clear-signed message will be decoded; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -106,7 +106,7 @@ public final boolean getDecodeSignedContent()
 
 Gets or sets a value indicating whether signed message will be decoded.
 
-Value: \`\`\` true \`\`\` if signed message will be decoded; otherwise, \`\`\` false \`\`\`.
+Value:  true  if signed message will be decoded; otherwise,  false .
 
 **Returns:**
 boolean
@@ -118,7 +118,7 @@ public final void setDecodeSignedContent(boolean value)
 
 Gets or sets a value indicating whether signed message will be decoded.
 
-Value: \`\`\` true \`\`\` if signed message will be decoded; otherwise, \`\`\` false \`\`\`.
+Value:  true  if signed message will be decoded; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

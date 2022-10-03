@@ -1,8 +1,7 @@
 ---
 title: OlmFolder
 second_title: Aspose.Email for Java API Reference
-description:  Represents folder information
- in OLM storage.
+description: Represents folder information in OLM storage.
 type: docs
 weight: 538
 url: /java/com.aspose.email/olmfolder/
@@ -112,7 +111,7 @@ public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages()
@@ -122,7 +121,7 @@ public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enume
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages(int startIndex, int count) {#enumerateMessages-int-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages(int startIndex, int count)
@@ -142,7 +141,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 If "count" param is less than 0 or more than remained message count then remained message count will be returned. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages(MailQuery query) {#enumerateMessages-com.aspose.email.MailQuery-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<OlmMessageInfo> enumerateMessages(MailQuery query)
@@ -157,7 +156,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.OlmMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### toString() {#toString--}
 ```
 public String toString()

@@ -1,7 +1,7 @@
 ---
 title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for Java API Reference
-description:  Represents an attachment entity.
+description: Represents an attachment entity.
 type: docs
 weight: 495
 url: /java/com.aspose.email/messageobjectattachmententity/
@@ -62,7 +62,7 @@ Value: The embedded message.
 
 --------------------
 
-Mutually exclusive with \`\`\` MessageObjectAttachmentEntity.CustomAttachmentStorageData \`\`\`(\#getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
+Mutually exclusive with  MessageObjectAttachmentEntity.CustomAttachmentStorageData (\#getCustomAttachmentStorageData.getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage).setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
 
 **Returns:**
 [MessageObject](../../com.aspose.email/messageobject)
@@ -78,7 +78,7 @@ Value: The embedded message.
 
 --------------------
 
-Mutually exclusive with \`\`\` MessageObjectAttachmentEntity.CustomAttachmentStorageData \`\`\`(\#getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
+Mutually exclusive with  MessageObjectAttachmentEntity.CustomAttachmentStorageData (\#getCustomAttachmentStorageData.getCustomAttachmentStorageData/\#setCustomAttachmentStorageData(CustomAttachmentStorage).setCustomAttachmentStorageData(CustomAttachmentStorage)) or both can be null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +97,7 @@ Value: The custom attachment storage data.
 
 --------------------
 
-Mutually exclusive with \`\`\` MessageObjectAttachmentEntity.EmbeddedMessage \`\`\`(\#getEmbeddedMessage/\#setEmbeddedMessage(MessageObject)) or both can be null.
+Mutually exclusive with  MessageObjectAttachmentEntity.EmbeddedMessage (\#getEmbeddedMessage.getEmbeddedMessage/\#setEmbeddedMessage(MessageObject).setEmbeddedMessage(MessageObject)) or both can be null.
 
 **Returns:**
 [CustomAttachmentStorage](../../com.aspose.email/customattachmentstorage)
@@ -113,7 +113,7 @@ Value: The custom attachment storage data.
 
 --------------------
 
-Mutually exclusive with \`\`\` MessageObjectAttachmentEntity.EmbeddedMessage \`\`\`(\#getEmbeddedMessage/\#setEmbeddedMessage(MessageObject)) or both can be null.
+Mutually exclusive with  MessageObjectAttachmentEntity.EmbeddedMessage (\#getEmbeddedMessage.getEmbeddedMessage/\#setEmbeddedMessage(MessageObject).setEmbeddedMessage(MessageObject)) or both can be null.
 
 **Parameters:**
 | Parameter | Type | Description |

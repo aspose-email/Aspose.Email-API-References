@@ -1,7 +1,7 @@
 ---
 title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
-description:  Allows to specify additional options when saving MailMessage to Mhtml format.
+description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
 weight: 510
 url: /java/com.aspose.email/mhtsaveoptions/
@@ -148,7 +148,7 @@ Defines whether need check message body content encoding when saving. By default
 
 --------------------
 
-If true, it will be check whether the \`\`\` MailMessage.HtmlBody \`\`\`([MailMessage\#getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage\#setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and \`\`\` MailMessage.PreferredTextEncoding \`\`\`([MailMessage\#getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage\#setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default \`\`\` System.Text.Encoding.UTF8 \`\`\`(java.nio.charset.Charset\#getUTF8).
+If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
 
 **Returns:**
 boolean
@@ -162,7 +162,7 @@ Defines whether need check message body content encoding when saving. By default
 
 --------------------
 
-If true, it will be check whether the \`\`\` MailMessage.HtmlBody \`\`\`([MailMessage\#getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage\#setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and \`\`\` MailMessage.PreferredTextEncoding \`\`\`([MailMessage\#getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage\#setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default \`\`\` System.Text.Encoding.UTF8 \`\`\`(java.nio.charset.Charset\#getUTF8).
+If true, it will be check whether the  MailMessage.HtmlBody ([MailMessage.getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage.setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the  MailMessage.BodyEncoding ([MailMessage.getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage.setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and  MailMessage.PreferredTextEncoding ([MailMessage.getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage.setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default  System.Text.Encoding.UTF8 (java.nio.charset.Charset\#getUTF8.getUTF8).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ public final boolean getSaveAttachments()
 
 Gets or sets a value indicating whether to save attachments.
 
-Value: \`\`\` true \`\`\` if attachments should be saved; otherwise, \`\`\` false \`\`\`.
+Value:  true  if attachments should be saved; otherwise,  false .
 
 **Returns:**
 boolean
@@ -189,7 +189,7 @@ public final void setSaveAttachments(boolean value)
 
 Gets or sets a value indicating whether to save attachments.
 
-Value: \`\`\` true \`\`\` if attachments should be saved; otherwise, \`\`\` false \`\`\`.
+Value:  true  if attachments should be saved; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

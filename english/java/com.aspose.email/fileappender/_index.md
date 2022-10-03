@@ -1,7 +1,7 @@
 ---
 title: FileAppender
 second_title: Aspose.Email for Java API Reference
-description:  Reprensents a file appender.
+description: Reprensents a file appender.
 type: docs
 weight: 243
 url: /java/com.aspose.email/fileappender/
@@ -201,7 +201,7 @@ Appends a set of log entries to the appender.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| logEntries | com.aspose.email.LogEntry[] | A set of log entries to log. |
+| logEntries | [LogEntry\[\]](../../com.aspose.email/logentry) | A set of log entries to log. |
 
 ### close() {#close--}
 ```

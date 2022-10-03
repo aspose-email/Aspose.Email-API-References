@@ -1,7 +1,7 @@
 ---
 title: MailboxConverter
 second_title: Aspose.Email for Java API Reference
-description:  Provides mailbox conversion routines.
+description: Provides mailbox conversion routines.
 type: docs
 weight: 379
 url: /java/com.aspose.email/mailboxconverter/
@@ -42,12 +42,12 @@ Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox f
 | Parameter | Type | Description |
 | --- | --- | --- |
 | personalStorage | [PersonalStorage](../../com.aspose.email/personalstorage) | The personal storage. |
-| storagePath | java.lang.String | The path to save \`\`\` personalStorage \`\`\` structure to. |
+| storagePath | java.lang.String | The path to save  personalStorage  structure to. |
 | acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be null.
 
 --------------------
 
-Resulting folder will contain an exact copy of the \`\`\` personalStorage \`\`\` e.g. directory tree will be recreated on disk. |
+Resulting folder will contain an exact copy of the  personalStorage  e.g. directory tree will be recreated on disk. |
 
 ### convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback) {#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-com.aspose.email.MboxStorageWriter-com.aspose.email.MessageAcceptanceCallback-}
 ```

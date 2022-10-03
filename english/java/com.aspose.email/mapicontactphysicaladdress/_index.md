@@ -1,8 +1,7 @@
 ---
 title: MapiContactPhysicalAddress
 second_title: Aspose.Email for Java API Reference
-description:  Refers to the group of properties that 
- define physical address for a contact.
+description: Refers to the group of properties that  define physical address for a contact.
 type: docs
 weight: 426
 url: /java/com.aspose.email/mapicontactphysicaladdress/

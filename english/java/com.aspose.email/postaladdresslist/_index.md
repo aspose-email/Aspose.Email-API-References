@@ -1,7 +1,7 @@
 ---
 title: PostalAddressList
 second_title: Aspose.Email for Java API Reference
-description:  List of postal addresses for a contact.
+description: List of postal addresses for a contact.
 type: docs
 weight: 573
 url: /java/com.aspose.email/postaladdresslist/
@@ -149,7 +149,7 @@ Inserts an item to the list at the specified index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` value \`\`\` should be inserted. |
+| index | int | The zero-based index at which  value  should be inserted. |
 | value | [PostalAddress](../../com.aspose.email/postaladdress) | The Object to insert into the list. |
 
 ### get_Item(int index) {#get-Item-int-}
@@ -218,7 +218,7 @@ Determines the index of a specific item in the list.
 | value | [PostalAddress](../../com.aspose.email/postaladdress) | The Object to locate in the list. |
 
 **Returns:**
-int - The index of \`\`\` value \`\`\` if found in the list; otherwise, -1.
+int - The index of  value  if found in the list; otherwise, -1.
 ### remove(PostalAddress value) {#remove-com.aspose.email.PostalAddress-}
 ```
 public final boolean remove(PostalAddress value)
@@ -268,7 +268,7 @@ Copies the elements to an array, starting at a particular array index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.PostalAddress[] | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
+| array | [PostalAddress\[\]](../../com.aspose.email/postaladdress) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
 | index | int | The zero-based index in array at which copying begins. |
 
 ### size() {#size--}
@@ -374,6 +374,6 @@ public void copyToTArray(PostalAddress[] array, int index)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.PostalAddress[] |  |
+| array | [PostalAddress\[\]](../../com.aspose.email/postaladdress) |  |
 | index | int |  |
 

@@ -1,7 +1,7 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Aspose.Email for Java API Reference
-description:   Provides data for the  event.
+description: Provides data for the  event.
 type: docs
 weight: 17
 url: /java/com.aspose.email/alternateviewremovedeventargs/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class AlternateViewRemovedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [AlternateViewCollection\#AlternateViewRemovedDelegate](../../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event.
+Provides data for the [AlternateViewCollection.AlternateViewRemovedDelegate](../../com.aspose.email/alternateviewcollection\#AlternateViewRemovedDelegate) event.
 ## Constructors
 
 | Constructor | Description |

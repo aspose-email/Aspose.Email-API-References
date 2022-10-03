@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: Aspose.Email for Java API Reference
-description:  Represents an e-mail attachment.
+description: Represents an e-mail attachment.
 type: docs
 weight: 64
 url: /java/com.aspose.email/attachment/
@@ -81,7 +81,7 @@ Initializes a new instance of the [Attachment](../../com.aspose.email/attachment
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The \`\`\` ContentType \`\`\`([AttachmentBase\#getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase\#setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The  ContentType ([AttachmentBase.getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase.setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
 
 ### Attachment(InputStream contentStream, String name) {#Attachment-java.io.InputStream-java.lang.String-}
 ```
@@ -124,7 +124,7 @@ Initializes a new instance of the [Attachment](../../com.aspose.email/attachment
 | Parameter | Type | Description |
 | --- | --- | --- |
 | contentStream | java.io.InputStream | The content stream of attachment. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The \`\`\` ContentType \`\`\`([AttachmentBase\#getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase\#setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The  ContentType ([AttachmentBase.getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase.setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
 
 ### isEmbeddedMessage() {#isEmbeddedMessage--}
 ```
@@ -271,7 +271,7 @@ Creates the attachment from string.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | content | java.lang.String | A string that represents the content of attachment. |
-| contentType | [ContentType](../../com.aspose.email/contenttype) | The \`\`\` ContentType \`\`\`([AttachmentBase\#getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase\#setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
+| contentType | [ContentType](../../com.aspose.email/contenttype) | The  ContentType ([AttachmentBase.getContentType](../../com.aspose.email/attachmentbase\#getContentType)/[AttachmentBase.setContentType(ContentType)](../../com.aspose.email/attachmentbase\#setContentType-ContentType-)). |
 
 **Returns:**
 [Attachment](../../com.aspose.email/attachment) - Returns created attachment

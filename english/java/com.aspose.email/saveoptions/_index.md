@@ -1,8 +1,7 @@
 ---
 title: SaveOptions
 second_title: Aspose.Email for Java API Reference
-description:  This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage
- into a particular format.
+description: This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format.
 type: docs
 weight: 611
 url: /java/com.aspose.email/saveoptions/
@@ -135,7 +134,7 @@ Creates a save options object of a class suitable for the specified save type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The \`\`\` MailMessageSaveTypesave type \`\`\`(\#getMailMessageSaveType/\#setMailMessageSaveType(MailMessageSaveType)) for which to create a save options object. |
+| saveType | [MailMessageSaveType](../../com.aspose.email/mailmessagesavetype) | The  MailMessageSaveTypesave type (\#getMailMessageSaveType.getMailMessageSaveType/\#setMailMessageSaveType(MailMessageSaveType).setMailMessageSaveType(MailMessageSaveType)) for which to create a save options object. |
 
 **Returns:**
 [SaveOptions](../../com.aspose.email/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.email/saveoptions).

@@ -1,7 +1,7 @@
 ---
 title: MessageAddedEventArgs
 second_title: Aspose.Email for Java API Reference
-description:  Provides data for the  event
+description: Provides data for the  event
 type: docs
 weight: 486
 url: /java/com.aspose.email/messageaddedeventargs/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class MessageAddedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [FolderInfo\#MessageAddedDelegate](../../com.aspose.email/folderinfo\#MessageAddedDelegate) event
+Provides data for the [FolderInfo.MessageAddedDelegate](../../com.aspose.email/folderinfo\#MessageAddedDelegate) event
 ## Constructors
 
 | Constructor | Description |

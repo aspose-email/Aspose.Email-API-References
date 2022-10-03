@@ -1,7 +1,7 @@
 ---
 title: MapiMessageFlags
 second_title: Aspose.Email for Java API Reference
-description:  MapiMessageFlags.
+description: MapiMessageFlags.
 type: docs
 weight: 444
 url: /java/com.aspose.email/mapimessageflags/
@@ -124,7 +124,7 @@ public static final long MSGFLAG_EVERREAD
 ```
 
 
-The message has been read at least once. This flag is set or cleared by the server whenever the [MapiMessageFlags\#MSGFLAG\_READ](../../com.aspose.email/mapimessageflags\#MSGFLAG-READ) flag is set or cleared.
+The message has been read at least once. This flag is set or cleared by the server whenever the [MSGFLAG\_READ](../../com.aspose.email/mapimessageflags\#MSGFLAG-READ) flag is set or cleared.
 
 ### MSGFLAG_ORIGIN_X400 {#MSGFLAG-ORIGIN-X400}
 ```

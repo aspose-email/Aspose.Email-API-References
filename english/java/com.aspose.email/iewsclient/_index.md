@@ -1,7 +1,7 @@
 ---
 title: IEWSClient
 second_title: Aspose.Email for Java API Reference
-description:  Represents the interface for Exchange client.
+description: Represents the interface for Exchange client.
 type: docs
 weight: 735
 url: /java/com.aspose.email/iewsclient/
@@ -800,7 +800,7 @@ Gets message tracking report
 | options | [GetMessageTrackingReportOptions](../../com.aspose.email/getmessagetrackingreportoptions) | Options specifying a search criteria |
 
 **Returns:**
-[MessageTrackingReport](../../com.aspose.email/messagetrackingreport) - A found [MessageTrackingReport](../../com.aspose.email/messagetrackingreport) or \`\`\` null \`\`\` if no message tracking report was found
+[MessageTrackingReport](../../com.aspose.email/messagetrackingreport) - A found [MessageTrackingReport](../../com.aspose.email/messagetrackingreport) or  null  if no message tracking report was found
 ### getMailTips(GetMailTipsOptions options) {#getMailTips-com.aspose.email.GetMailTipsOptions-}
 ```
 public abstract MailTips[] getMailTips(GetMailTipsOptions options)
@@ -895,7 +895,7 @@ Creates the specified inbox rule
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rule | [InboxRule](../../com.aspose.email/inboxrule) | A inbox rule to create |
-| mailbox | java.lang.String | A mailbox to create rule for. Note: if it is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\`, the rule will be created in the default mailbox |
+| mailbox | java.lang.String | A mailbox to create rule for. Note: if it is set to  null  or  empty , the rule will be created in the default mailbox |
 
 ### updateInboxRule(InboxRule rule) {#updateInboxRule-com.aspose.email.InboxRule-}
 ```
@@ -922,7 +922,7 @@ Updates the specified inbox rule
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rule | [InboxRule](../../com.aspose.email/inboxrule) | A inbox rule to update |
-| mailbox | java.lang.String | A mailbox where rule is located. Note: if it is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\`, the rule will be searched in the default mailbox |
+| mailbox | java.lang.String | A mailbox where rule is located. Note: if it is set to  null  or  empty , the rule will be searched in the default mailbox |
 
 ### deleteInboxRule(String ruleId) {#deleteInboxRule-java.lang.String-}
 ```
@@ -949,7 +949,7 @@ Deletes the specified inbox rule
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ruleId | java.lang.String | An id of inbox rule to delete |
-| mailbox | java.lang.String | A mailbox where rule is located. Note: if it is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\`, the rule will be searched in the default mailbox |
+| mailbox | java.lang.String | A mailbox where rule is located. Note: if it is set to  null  or  empty , the rule will be searched in the default mailbox |
 
 ### getInboxRules() {#getInboxRules--}
 ```
@@ -972,7 +972,7 @@ Gets inbox rules
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailbox | java.lang.String | A mailbox to read inbox rule from. Note: if it is set to \`\`\` null \`\`\` or \`\`\` empty \`\`\`, the rules will be read from the default mailbox |
+| mailbox | java.lang.String | A mailbox to read inbox rule from. Note: if it is set to  null  or  empty , the rules will be read from the default mailbox |
 
 **Returns:**
 com.aspose.email.InboxRule[] - An array of [InboxRule](../../com.aspose.email/inboxrule)
@@ -1002,7 +1002,7 @@ Updates the specified items in to a mailbox
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| items | com.aspose.email.ExchangeStreamedItem[] | An items to be updated |
+| items | [ExchangeStreamedItem\[\]](../../com.aspose.email/exchangestreameditem) | An items to be updated |
 | parentFolderUri | java.lang.String | Specifies the folder that contains the items to update |
 
 **Returns:**
@@ -1018,7 +1018,7 @@ Creates the specified items in the speciifed folder
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| items | com.aspose.email.ExchangeStreamedItem[] | An items to be uploaded |
+| items | [ExchangeStreamedItem\[\]](../../com.aspose.email/exchangestreameditem) | An items to be uploaded |
 | parentFolderUri | java.lang.String | Specifies the folder in which to place the items |
 
 **Returns:**
@@ -3039,7 +3039,7 @@ Uploads the mail message to the specified folder
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messages | com.aspose.email.MailMessage[] | A messages to upload |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | A messages to upload |
 
 **Returns:**
 java.lang.String[] - List of uri of created messages
@@ -3070,7 +3070,7 @@ Uploads the mail message to the specified folder
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderUri | java.lang.String | A folder URI to which message is uploaded |
-| messages | com.aspose.email.MailMessage[] | A messages to upload |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | A messages to upload |
 
 **Returns:**
 java.lang.String[] - List of uri of created messages
@@ -3550,7 +3550,7 @@ Fetches the message from server
 | extendedProperties | java.lang.Iterable<com.aspose.email.PropertyDescriptor> | An enumeration of extended properties |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - [MailMessage](../../com.aspose.email/mailmessage) that represents e-mail message, if custom properties have been found and set you can access them using \`\`\` MailMessage.Headers \`\`\`([MailMessage\#getHeaders](../../com.aspose.email/mailmessage\#getHeaders)) collection.
+[MailMessage](../../com.aspose.email/mailmessage) - [MailMessage](../../com.aspose.email/mailmessage) that represents e-mail message, if custom properties have been found and set you can access them using  MailMessage.Headers ([MailMessage.getHeaders](../../com.aspose.email/mailmessage\#getHeaders)) collection.
 ### fetchMessages(Iterable<String> uris, Iterable<PropertyDescriptor> extendedProperties) {#fetchMessages-java.lang.Iterable-java.lang.String--java.lang.Iterable-com.aspose.email.PropertyDescriptor--}
 ```
 public abstract MailMessageCollection fetchMessages(Iterable<String> uris, Iterable<PropertyDescriptor> extendedProperties)
@@ -3593,7 +3593,7 @@ Fetches the speciifed messages
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfos | [ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) | A \`\`\` IEnumerable\{ExchangeMessageInfo\}IEnumerable<ExchangeMessageInfo> \`\`\` "/> of messages to be retrieved |
+| messageInfos | [ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) | A  IEnumerable\{ExchangeMessageInfo\}IEnumerable<ExchangeMessageInfo>  "/> of messages to be retrieved |
 
 **Returns:**
 [MailMessageCollection](../../com.aspose.email/mailmessagecollection) - A [MailMessageCollection](../../com.aspose.email/mailmessagecollection) containing fetched messages
@@ -4032,7 +4032,7 @@ Lists the messages.
 | options | int | Specifies the settings of listing |
 
 **Returns:**
-[ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) - A \`\`\` ExchangeMessageInfoCollection \`\`\`
+[ExchangeMessageInfoCollection](../../com.aspose.email/exchangemessageinfocollection) - A  ExchangeMessageInfoCollection 
 ### saveMessage(String messageUri, String path) {#saveMessage-java.lang.String-java.lang.String-}
 ```
 public abstract void saveMessage(String messageUri, String path)
@@ -4215,7 +4215,7 @@ Checks whether the specified folder exists.
 | folderName | java.lang.String | A folder name. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified folder exists in the specified parent folder; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified folder exists in the specified parent folder; otherwise,  false .
 ### folderExists(String parentFolderUri, String folderName, ExchangeFolderInfo[] folder) {#folderExists-java.lang.String-java.lang.String-com.aspose.email.ExchangeFolderInfo---}
 ```
 public abstract boolean folderExists(String parentFolderUri, String folderName, ExchangeFolderInfo[] folder)
@@ -4229,10 +4229,10 @@ Checks whether the specified folder exists.
 | --- | --- | --- |
 | parentFolderUri | java.lang.String | An uri of parent folder. |
 | folderName | java.lang.String | A folder name. |
-| folder | com.aspose.email.ExchangeFolderInfo[] | A [ExchangeFolderInfo](../../com.aspose.email/exchangefolderinfo) that represents the found folder information, if folder exists. |
+| folder | [ExchangeFolderInfo\[\]](../../com.aspose.email/exchangefolderinfo) | A [ExchangeFolderInfo](../../com.aspose.email/exchangefolderinfo) that represents the found folder information, if folder exists. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified folder exists in the specified parent folder; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified folder exists in the specified parent folder; otherwise,  false .
 ### backup(ExchangeFolderInfoCollection folders, String fileName, int options) {#backup-com.aspose.email.ExchangeFolderInfoCollection-java.lang.String-int-}
 ```
 public abstract void backup(ExchangeFolderInfoCollection folders, String fileName, int options)
@@ -4824,7 +4824,7 @@ Fetches the speciifed messages
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uris | java.lang.Iterable<java.lang.String> | A \`\`\` IEnumerable\{String\}IEnumerable<string> \`\`\` "/> containing message uris to be retrieved |
+| uris | java.lang.Iterable<java.lang.String> | A  IEnumerable\{String\}IEnumerable<string>  "/> containing message uris to be retrieved |
 
 **Returns:**
 com.aspose.email.MapiMessage[] - An array of [MapiMessage](../../com.aspose.email/mapimessage) containing fetched messages

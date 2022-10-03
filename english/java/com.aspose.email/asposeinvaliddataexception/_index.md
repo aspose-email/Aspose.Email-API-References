@@ -1,7 +1,7 @@
 ---
 title: AsposeInvalidDataException
 second_title: Aspose.Email for Java API Reference
-description:  The exception that is thrown when one of the arguments provided to a method is not valid.
+description: The exception that is thrown when one of the arguments provided to a method is not valid.
 type: docs
 weight: 55
 url: /java/com.aspose.email/asposeinvaliddataexception/
@@ -14,7 +14,7 @@ public class AsposeInvalidDataException extends AsposeException
 
 The exception that is thrown when one of the arguments provided to a method is not valid.
 
-\`\`\` 1 \`\`\`
+ 1 
 ## Constructors
 
 | Constructor | Description |

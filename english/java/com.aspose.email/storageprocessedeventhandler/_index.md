@@ -1,7 +1,7 @@
 ---
 title: StorageProcessedEventHandler
 second_title: Aspose.Email for Java API Reference
-description:  Represents the method that will handle an  event.
+description: Represents the method that will handle an  event.
 type: docs
 weight: 649
 url: /java/com.aspose.email/storageprocessedeventhandler/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class StorageProcessedEventHandler extends System.MulticastDelegate
 ```
 
-Represents the method that will handle an [PersonalStorage\#StorageProcessedDelegate](../../com.aspose.email/personalstorage\#StorageProcessedDelegate) event.
+Represents the method that will handle an [PersonalStorage.StorageProcessedDelegate](../../com.aspose.email/personalstorage\#StorageProcessedDelegate) event.
 ## Constructors
 
 | Constructor | Description |

@@ -1,7 +1,7 @@
 ---
 title: MailAddressCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of  objects.
+description: Represents a collection of  objects.
 type: docs
 weight: 365
 url: /java/com.aspose.email/mailaddresscollection/
@@ -30,7 +30,7 @@ Represents a collection of [MailAddress](../../com.aspose.email/mailaddress) obj
 | [add(String addresses)](#add-java.lang.String-) | Add a list of e-mail addresses to the collection. |
 | [addRange(MailAddressCollection addresses)](#addRange-com.aspose.email.MailAddressCollection-) | Adds addresses to collection |
 | [addRange(Iterable<MailAddress> addresses)](#addRange-java.lang.Iterable-com.aspose.email.MailAddress--) | Adds addresses to collection |
-| [insertItem(int index, MailAddress item)](#insertItem-int-com.aspose.email.MailAddress-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [insertItem(int index, MailAddress item)](#insertItem-int-com.aspose.email.MailAddress-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 | [clear()](#clear--) | Removes all elements from the Collection. |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index of the Collection. |
 ### MailAddressCollection() {#MailAddressCollection--}
@@ -147,12 +147,12 @@ public void insertItem(int index, MailAddress item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [MailAddress](../../com.aspose.email/mailaddress) | The object to insert. The value can be null for reference types. |
 
 ### clear() {#clear--}

@@ -1,7 +1,7 @@
 ---
 title: ImapMonitoringEventHandler
 second_title: Aspose.Email for Java API Reference
-description:  Represents the method that will handle an imap monitoring event
+description: Represents the method that will handle an imap monitoring event
 type: docs
 weight: 321
 url: /java/com.aspose.email/imapmonitoringeventhandler/
@@ -43,7 +43,7 @@ invoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) | a com.aspose.email.ImapMonitoringEventArgs object. |
+| e | [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) | a [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) object. |
 
 ### beginInvoke(Object sender, ImapMonitoringEventArgs e, System.AsyncCallback callback, Object state) {#beginInvoke-java.lang.Object-com.aspose.email.ImapMonitoringEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
@@ -57,7 +57,7 @@ beginInvoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) | a com.aspose.email.ImapMonitoringEventArgs object. |
+| e | [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) | a [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) object. |
 | callback | com.aspose.ms.System.AsyncCallback | a com.aspose.ms.System.AsyncCallback object. |
 | state | java.lang.Object | a java.lang.Object object. |
 

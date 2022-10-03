@@ -1,7 +1,7 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for Java API Reference
-description:  Represents Outlook for Mac storage .OLM file.
+description: Represents Outlook for Mac storage .OLM file.
 type: docs
 weight: 540
 url: /java/com.aspose.email/olmstorage/
@@ -204,7 +204,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | folder | [OlmFolder](../../com.aspose.email/olmfolder) | [OlmFolder](../../com.aspose.email/olmfolder) that represents information about folder in OLM storage. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### dispose() {#dispose--}
 ```
 public final void dispose()

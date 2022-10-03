@@ -1,7 +1,7 @@
 ---
 title: DataRow
 second_title: Aspose.Email for Java API Reference
-description: pDataRow class.
+description: DataRow class.
 type: docs
 weight: 139
 url: /java/com.aspose.email/datarow/
@@ -37,7 +37,7 @@ Constructor for DataRow.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.email/datatable) | a com.aspose.email.DataTable object. |
+| table | [DataTable](../../com.aspose.email/datatable) | a [DataTable](../../com.aspose.email/datatable) object. |
 
 ### get(String name) {#get-java.lang.String-}
 ```
@@ -92,4 +92,4 @@ public DataTable getTable()
 Getter for the field `table`.
 
 **Returns:**
-[DataTable](../../com.aspose.email/datatable) - a com.aspose.email.DataTable object.
+[DataTable](../../com.aspose.email/datatable) - a [DataTable](../../com.aspose.email/datatable) object.

@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarDailyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
-description:  Represents the daily recurrence pattern of the mapi calendar
+description: Represents the daily recurrence pattern of the mapi calendar
 type: docs
 weight: 391
 url: /java/com.aspose.email/mapicalendardailyrecurrencepattern/
@@ -81,5 +81,5 @@ Gets or sets the days of week at which the event occurs
 | value | int | Flags attribute [MapiCalendarDayOfWeek](../../com.aspose.email/mapicalendardayofweek).
 
 *For example:*
-\`\`\` MapiCalendarDayOfWeek.Wednesday | MapiCalendarDayOfWeek.Thursday \`\`\` |
+ MapiCalendarDayOfWeek.Wednesday | MapiCalendarDayOfWeek.Thursday  |
 

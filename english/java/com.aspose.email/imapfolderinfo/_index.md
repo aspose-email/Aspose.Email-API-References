@@ -1,7 +1,7 @@
 ---
 title: ImapFolderInfo
 second_title: Aspose.Email for Java API Reference
-description:  Represents an IMAP folder.
+description: Represents an IMAP folder.
 type: docs
 weight: 307
 url: /java/com.aspose.email/imapfolderinfo/
@@ -75,7 +75,7 @@ public final boolean hasChildren()
 ```
 
 
-Gets value indicating whether folder contains subfolders. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258 If value is \`\`\` true \`\`\`, it indicates that the folder has child sub-folders that are accessible to the currently authenticated user, otherwise false.
+Gets value indicating whether folder contains subfolders. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258 If value is  true , it indicates that the folder has child sub-folders that are accessible to the currently authenticated user, otherwise false.
 
 **Returns:**
 boolean
@@ -125,7 +125,7 @@ public final boolean getNoInferiors()
 ```
 
 
-Gets a value indicating whether this folder can have child levels. If it is \`\`\` True \`\`\`, then no child levels exist now and none can be created in the future
+Gets a value indicating whether this folder can have child levels. If it is  True , then no child levels exist now and none can be created in the future
 
 **Returns:**
 boolean

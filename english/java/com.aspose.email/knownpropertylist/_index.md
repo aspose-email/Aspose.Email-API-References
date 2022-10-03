@@ -1,8 +1,7 @@
 ---
 title: KnownPropertyList
 second_title: Aspose.Email for Java API Reference
-description:  The read-only Master Property List provides implementers with a single source of information about all the properties 
- that are described by the specifications that comprise the Exchange Server Protocols documentation MS-OXPROPS.
+description: The read-only Master Property List provides implementers with a single source of information about all the properties  that are described by the specifications that comprise the Exchange Server Protocols documentation MS-OXPROPS.
 type: docs
 weight: 344
 url: /java/com.aspose.email/knownpropertylist/
@@ -18002,7 +18001,7 @@ List is read-only. Operation is not supported.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.PropertyDescriptor[] | The one-dimensional System.Array that is the destination of the elements copied from System.Collections.Generic.ICollection. The System.Array must have zero-based indexing. |
+| array | [PropertyDescriptor\[\]](../../com.aspose.email/propertydescriptor) | The one-dimensional System.Array that is the destination of the elements copied from System.Collections.Generic.ICollection. The System.Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(PropertyDescriptor item) {#remove-com.aspose.email.PropertyDescriptor-}

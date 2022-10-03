@@ -1,8 +1,7 @@
 ---
 title: ImapClient
 second_title: Aspose.Email for Java API Reference
-description:  Allows applications to access and manipulate 
- messages by using the Internet Message Access Protocol IMAP.
+description: Allows applications to access and manipulate  messages by using the Internet Message Access Protocol IMAP.
 type: docs
 weight: 304
 url: /java/com.aspose.email/imapclient/
@@ -12898,7 +12897,7 @@ Waits for the pending asynchronous operation to complete.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | asyncResult | com.aspose.ms.System.IAsyncResult | The reference to the pending asynchronous request to wait for. |
-| folderInfo | com.aspose.email.ImapFolderInfo[] | Folder information |
+| folderInfo | [ImapFolderInfo\[\]](../../com.aspose.email/imapfolderinfo) | Folder information |
 
 **Returns:**
 boolean - Returns true if the folder is existing, otherwise returns false
@@ -12929,7 +12928,7 @@ Check whether this folder exists, extract folder info if so
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderName | java.lang.String | Name of the folder |
-| folderInfo | com.aspose.email.ImapFolderInfo[] | Folder information |
+| folderInfo | [ImapFolderInfo\[\]](../../com.aspose.email/imapfolderinfo) | Folder information |
 
 **Returns:**
 boolean - Returns true if the folder is existing, otherwise returns false
@@ -12962,7 +12961,7 @@ Check whether this folder exists, extract folder info if so
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 | folderName | java.lang.String | Name of the folder |
-| folderInfo | com.aspose.email.ImapFolderInfo[] | Folder information |
+| folderInfo | [ImapFolderInfo\[\]](../../com.aspose.email/imapfolderinfo) | Folder information |
 
 **Returns:**
 boolean - Returns true if the folder is existing, otherwise returns false
@@ -13281,7 +13280,7 @@ Begins an asynchronous message fetching.
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
 com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
@@ -13298,7 +13297,7 @@ Begins an asynchronous message fetching.
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
@@ -13316,7 +13315,7 @@ Begins an asynchronous message fetching.
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 | state | java.lang.Object | The state. |
 
@@ -13430,7 +13429,7 @@ Begins an asynchronous message fetching.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
 com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
@@ -13446,7 +13445,7 @@ Begins an asynchronous message fetching.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 
 **Returns:**
@@ -13463,7 +13462,7 @@ Begins an asynchronous message fetching.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | callback | com.aspose.ms.System.AsyncCallback | References a method to be called when a corresponding asynchronous operation completes. |
 | state | java.lang.Object | The state. |
 
@@ -13513,7 +13512,7 @@ Fetches the message
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - [MailMessage](../../com.aspose.email/mailmessage) that represents e-mail message
@@ -13544,7 +13543,7 @@ Fetches the message
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceNumber | int | The sequence number of message |
-| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to \`\`\` true \`\`\`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| ignoreAttachment | boolean | A value that defines whether the attachments should not be loaded. If it is set to  true , then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - [MailMessage](../../com.aspose.email/mailmessage) that represents e-mail message
@@ -14538,7 +14537,7 @@ Starts monitoring of message changes for "Inbox" folder.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | callback | [ImapMonitoringEventHandler](../../com.aspose.email/imapmonitoringeventhandler) | The callback function for monitoring operation. |
-| errorCallback | [ImapMonitoringErrorEventHandler](../../com.aspose.email/imapmonitoringerroreventhandler) | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using \#resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState) method. |
+| errorCallback | [ImapMonitoringErrorEventHandler](../../com.aspose.email/imapmonitoringerroreventhandler) | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using \#resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState).resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState) method. |
 
 ### startMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback, String folderName) {#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-com.aspose.email.ImapMonitoringErrorEventHandler-java.lang.String-}
 ```
@@ -14552,7 +14551,7 @@ Starts monitoring of message changes for specified folder.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | callback | [ImapMonitoringEventHandler](../../com.aspose.email/imapmonitoringeventhandler) | The callback function for monitoring operation. |
-| errorCallback | [ImapMonitoringErrorEventHandler](../../com.aspose.email/imapmonitoringerroreventhandler) | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using \#resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState) method. |
+| errorCallback | [ImapMonitoringErrorEventHandler](../../com.aspose.email/imapmonitoringerroreventhandler) | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using \#resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState).resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState) method. |
 | folderName | java.lang.String | The folder for monitoring operation. |
 
 ### resumeMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback, IImapMonitoringState monitoringState) {#resumeMonitoring-com.aspose.email.ImapMonitoringEventHandler-com.aspose.email.ImapMonitoringErrorEventHandler-com.aspose.email.IImapMonitoringState-}

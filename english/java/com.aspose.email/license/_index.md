@@ -1,7 +1,7 @@
 ---
 title: License
 second_title: Aspose.Email for Java API Reference
-description:   Provides methods to license the component.
+description: Provides methods to license the component.
 type: docs
 weight: 347
 url: /java/com.aspose.email/license/
@@ -152,19 +152,19 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name\`\`\`  or name of an embedded resource \`\`\`. Use an empty string to switch to evaluation mode.
+| licenseName | java.lang.String | Can be a full or short file name  or name of an embedded resource . Use an empty string to switch to evaluation mode.
 
 --------------------
 
-\`\`\`
+
 
 Tries to find the license in the following locations:
 
-\`\`\` \`\`\`
+ 
 
 1. Explicit path.
 
-\`\`\` \`\`\`
+ 
 
 2. The folder of the component assembly.
 
@@ -180,11 +180,11 @@ Tries to find the license in the following locations:
 
 2. An embedded resource in the client's calling assembly.
 
-\`\`\` \`\`\`
+ 
 
 2. The folder of the component jar file.
 
-\`\`\` |
+ |
 
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
 ```
@@ -222,13 +222,13 @@ Licenses the component.
 
 --------------------
 
-\`\`\`
+
 
 Use this method to load a license from a stream.
 
-\`\`\`
 
-\`\`\` void setLicense(java.io.InputStream stream) \`\`\` |
+
+ void setLicense(java.io.InputStream stream)  |
 
 ### setLicense(File licenseFile) {#setLicense-java.io.File-}
 ```

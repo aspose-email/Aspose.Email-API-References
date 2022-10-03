@@ -1,7 +1,7 @@
 ---
 title: ItemMovedEventHandler
 second_title: Aspose.Email for Java API Reference
-description:  Represents the method that will handle an  event.
+description: Represents the method that will handle an  event.
 type: docs
 weight: 342
 url: /java/com.aspose.email/itemmovedeventhandler/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 public abstract class ItemMovedEventHandler extends System.MulticastDelegate
 ```
 
-Represents the method that will handle an [FolderInfo\#ItemMovedDelegate](../../com.aspose.email/folderinfo\#ItemMovedDelegate) event.
+Represents the method that will handle an [FolderInfo.ItemMovedDelegate](../../com.aspose.email/folderinfo\#ItemMovedDelegate) event.
 ## Constructors
 
 | Constructor | Description |
@@ -43,7 +43,7 @@ invoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) | a com.aspose.email.ItemMovedEventArgs object. |
+| e | [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) | a [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) object. |
 
 ### beginInvoke(Object sender, ItemMovedEventArgs e, System.AsyncCallback callback, Object state) {#beginInvoke-java.lang.Object-com.aspose.email.ItemMovedEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
@@ -57,7 +57,7 @@ beginInvoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) | a com.aspose.email.ItemMovedEventArgs object. |
+| e | [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) | a [ItemMovedEventArgs](../../com.aspose.email/itemmovedeventargs) object. |
 | callback | com.aspose.ms.System.AsyncCallback | a com.aspose.ms.System.AsyncCallback object. |
 | state | java.lang.Object | a java.lang.Object object. |
 

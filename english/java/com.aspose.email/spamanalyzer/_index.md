@@ -1,7 +1,7 @@
 ---
 title: SpamAnalyzer
 second_title: Aspose.Email for Java API Reference
-description:  Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
+description: Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
 type: docs
 weight: 645
 url: /java/com.aspose.email/spamanalyzer/
@@ -78,8 +78,8 @@ Learns from the specified messages as from spam or non-spam source.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ham | com.aspose.email.MailMessage[] | The array of MailMessage objects that is non-spam for training the Bayesian filter. |
-| spam | com.aspose.email.MailMessage[] | The array of MailMessage objects that is spam for training the Bayesian filter. |
+| ham | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage objects that is non-spam for training the Bayesian filter. |
+| spam | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage objects that is spam for training the Bayesian filter. |
 
 ### trainFilter(MailMessage message, boolean isSpam) {#trainFilter-com.aspose.email.MailMessage-boolean-}
 ```

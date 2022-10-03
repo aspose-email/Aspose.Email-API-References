@@ -1,7 +1,7 @@
 ---
 title: ImapMessageFlags
 second_title: Aspose.Email for Java API Reference
-description:  Represents the flags associated with the message.
+description: Represents the flags associated with the message.
 type: docs
 weight: 314
 url: /java/com.aspose.email/imapmessageflags/
@@ -140,7 +140,7 @@ public final boolean isEmpty()
 Determines whether this instance is empty.
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if this instance is empty; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if this instance is empty; otherwise,  false .
 ### split() {#split--}
 ```
 public final ImapMessageFlags[] split()
@@ -175,7 +175,7 @@ Determines whether the specified Object is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
 ### to_ImapMessageFlags(String type) {#to-ImapMessageFlags-java.lang.String-}
 ```
 public static ImapMessageFlags to_ImapMessageFlags(String type)

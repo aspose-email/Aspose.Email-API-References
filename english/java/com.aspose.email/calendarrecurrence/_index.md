@@ -1,7 +1,7 @@
 ---
 title: CalendarRecurrence
 second_title: Aspose.Email for Java API Reference
-description:  The main class represents an iCalendar recurrence.
+description: The main class represents an iCalendar recurrence.
 type: docs
 weight: 96
 url: /java/com.aspose.email/calendarrecurrence/
@@ -297,7 +297,7 @@ Determines whether the specified [CalendarRecurrence](../../com.aspose.email/cal
 | other | [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) | The [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

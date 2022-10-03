@@ -1,7 +1,7 @@
 ---
 title: ImapMessageInfoCollection
 second_title: Aspose.Email for Java API Reference
-description:  Provides a container for a collection of  objects
+description: Provides a container for a collection of  objects
 type: docs
 weight: 316
 url: /java/com.aspose.email/imapmessageinfocollection/
@@ -152,7 +152,7 @@ Converts array of ImapMessageInfo to collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfoArr | com.aspose.email.ImapMessageInfo[] | Array of ImapMessageInfo to convert |
+| messageInfoArr | [ImapMessageInfo\[\]](../../com.aspose.email/imapmessageinfo) | Array of ImapMessageInfo to convert |
 
 **Returns:**
 [ImapMessageInfoCollection](../../com.aspose.email/imapmessageinfocollection) - Collection of ImapMessageInfo

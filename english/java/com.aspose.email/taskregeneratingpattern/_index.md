@@ -1,8 +1,7 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Aspose.Email for Java API Reference
-description:  Represents the regenerating recurrence pattern that specifies how many days weeks months or years 
- after the completion of the current task the next occurrence will be due.
+description: Represents the regenerating recurrence pattern that specifies how many days weeks months or years  after the completion of the current task the next occurrence will be due.
 type: docs
 weight: 659
 url: /java/com.aspose.email/taskregeneratingpattern/

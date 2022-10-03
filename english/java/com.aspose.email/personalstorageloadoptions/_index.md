@@ -1,7 +1,7 @@
 ---
 title: PersonalStorageLoadOptions
 second_title: Aspose.Email for Java API Reference
-description:  Specifies additional options when loading a PST storage.
+description: Specifies additional options when loading a PST storage.
 type: docs
 weight: 553
 url: /java/com.aspose.email/personalstorageloadoptions/
@@ -40,7 +40,7 @@ public final boolean getWritable()
 
 Gets or sets a value indicating whether the pst is writable. By default the value is true.
 
-Value: \`\`\` true \`\`\` if writable; otherwise, \`\`\` false \`\`\`.
+Value:  true  if writable; otherwise,  false .
 
 **Returns:**
 boolean
@@ -52,7 +52,7 @@ public final void setWritable(boolean value)
 
 Gets or sets a value indicating whether the pst is writable. By default the value is true.
 
-Value: \`\`\` true \`\`\` if writable; otherwise, \`\`\` false \`\`\`.
+Value:  true  if writable; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -65,7 +65,7 @@ public final boolean getLeaveStreamOpen()
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
+Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage.fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
 
 **Returns:**
 boolean
@@ -75,7 +75,7 @@ public final void setLeaveStreamOpen(boolean value)
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
+Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage.fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

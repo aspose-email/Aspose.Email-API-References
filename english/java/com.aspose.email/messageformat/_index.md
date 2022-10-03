@@ -1,7 +1,7 @@
 ---
 title: MessageFormat
 second_title: Aspose.Email for Java API Reference
-description:  Represents the mail message format.It can be in emlmsg or mhtml format.
+description: Represents the mail message format.It can be in emlmsg or mhtml format.
 type: docs
 weight: 488
 url: /java/com.aspose.email/messageformat/
@@ -17,12 +17,12 @@ Represents the mail message format.It can be in eml,msg or mhtml format.
 
 | Method | Description |
 | --- | --- |
-| [getTnef()](#getTnef--) | Indicates message in \`\`\` **Tnef** \`\`\` format. |
-| [getHtml()](#getHtml--) | Indicates message in \`\`\` **Html** \`\`\` format. |
-| [getEml()](#getEml--) | Indicates message in \`\`\` **Eml** \`\`\` format. |
-| [getEmlx()](#getEmlx--) | Indicates message in \`\`\` **Emlx** \`\`\` format, used by Apple Mail. |
-| [getMht()](#getMht--) | Indicates message in \`\`\` **Mht** \`\`\` format. |
-| [getMsg()](#getMsg--) | Indicates message in \`\`\` **Msg** \`\`\` format, used by Microsoft Outlook. |
+| [getTnef()](#getTnef--) | Indicates message in  **Tnef**  format. |
+| [getHtml()](#getHtml--) | Indicates message in  **Html**  format. |
+| [getEml()](#getEml--) | Indicates message in  **Eml**  format. |
+| [getEmlx()](#getEmlx--) | Indicates message in  **Emlx**  format, used by Apple Mail. |
+| [getMht()](#getMht--) | Indicates message in  **Mht**  format. |
+| [getMsg()](#getMsg--) | Indicates message in  **Msg**  format, used by Microsoft Outlook. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Equalses the specified o. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [toString()](#toString--) | Returns a String that represents the current Object. |
@@ -32,7 +32,7 @@ public static MessageFormat getTnef()
 ```
 
 
-Indicates message in \`\`\` **Tnef** \`\`\` format.
+Indicates message in  **Tnef**  format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -42,7 +42,7 @@ public static MessageFormat getHtml()
 ```
 
 
-Indicates message in \`\`\` **Html** \`\`\` format.
+Indicates message in  **Html**  format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -52,7 +52,7 @@ public static MessageFormat getEml()
 ```
 
 
-Indicates message in \`\`\` **Eml** \`\`\` format.
+Indicates message in  **Eml**  format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -62,7 +62,7 @@ public static MessageFormat getEmlx()
 ```
 
 
-Indicates message in \`\`\` **Emlx** \`\`\` format, used by Apple Mail.
+Indicates message in  **Emlx**  format, used by Apple Mail.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -72,7 +72,7 @@ public static MessageFormat getMht()
 ```
 
 
-Indicates message in \`\`\` **Mht** \`\`\` format.
+Indicates message in  **Mht**  format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -82,7 +82,7 @@ public static MessageFormat getMsg()
 ```
 
 
-Indicates message in \`\`\` **Msg** \`\`\` format, used by Microsoft Outlook.
+Indicates message in  **Msg**  format, used by Microsoft Outlook.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)

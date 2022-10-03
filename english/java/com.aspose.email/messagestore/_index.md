@@ -1,8 +1,7 @@
 ---
 title: MessageStore
 second_title: Aspose.Email for Java API Reference
-description:  Message store is the root of the PST 
- which is the rough equivalent of the top of a Mailbox.
+description: Message store is the root of the PST  which is the rough equivalent of the top of a Mailbox.
 type: docs
 weight: 503
 url: /java/com.aspose.email/messagestore/
@@ -57,7 +56,7 @@ public final boolean isPasswordProtected()
 
 Gets a value indicating whether the storage is password protected.
 
-Value: \`\`\` true \`\`\` if the storage is password protected; otherwise, \`\`\` false \`\`\`.
+Value:  true  if the storage is password protected; otherwise,  false .
 
 **Returns:**
 boolean

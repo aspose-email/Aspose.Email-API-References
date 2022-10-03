@@ -1,7 +1,7 @@
 ---
 title: DataTable
 second_title: Aspose.Email for Java API Reference
-description: pDataTable class.
+description: DataTable class.
 type: docs
 weight: 141
 url: /java/com.aspose.email/datatable/
@@ -40,7 +40,7 @@ public DataRowCollection getRows()
 Getter for the field `rows`.
 
 **Returns:**
-[DataRowCollection](../../com.aspose.email/datarowcollection) - a com.aspose.email.DataRowCollection object.
+[DataRowCollection](../../com.aspose.email/datarowcollection) - a [DataRowCollection](../../com.aspose.email/datarowcollection) object.
 ### getColumns() {#getColumns--}
 ```
 public DataColumnCollection getColumns()
@@ -50,7 +50,7 @@ public DataColumnCollection getColumns()
 Getter for the field `columns`.
 
 **Returns:**
-[DataColumnCollection](../../com.aspose.email/datacolumncollection) - a com.aspose.email.DataColumnCollection object.
+[DataColumnCollection](../../com.aspose.email/datacolumncollection) - a [DataColumnCollection](../../com.aspose.email/datacolumncollection) object.
 ### newRow() {#newRow--}
 ```
 public DataRow newRow()
@@ -60,4 +60,4 @@ public DataRow newRow()
 newRow.
 
 **Returns:**
-[DataRow](../../com.aspose.email/datarow) - a com.aspose.email.DataRow object.
+[DataRow](../../com.aspose.email/datarow) - a [DataRow](../../com.aspose.email/datarow) object.

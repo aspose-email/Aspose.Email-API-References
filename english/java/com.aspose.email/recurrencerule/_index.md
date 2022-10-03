@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRule
 second_title: Aspose.Email for Java API Reference
-description:  Represents one recurrence or exception rule in a recurrence pattern.
+description: Represents one recurrence or exception rule in a recurrence pattern.
 type: docs
 weight: 585
 url: /java/com.aspose.email/recurrencerule/
@@ -16,7 +16,7 @@ Represents one recurrence or exception rule in a recurrence pattern.
 
 --------------------
 
-```java
+```
 Corresponds to RRULE or EXRULE part in iCalendar.
  To construct a recurrence rule, you typically need to:
  1. Specify the type of the rule in ```
@@ -409,7 +409,7 @@ Determines whether the specified [RecurrenceRule](../../com.aspose.email/recurre
 | other | [RecurrenceRule](../../com.aspose.email/recurrencerule) | The [RecurrenceRule](../../com.aspose.email/recurrencerule) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [RecurrenceRule](../../com.aspose.email/recurrencerule) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [RecurrenceRule](../../com.aspose.email/recurrencerule) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

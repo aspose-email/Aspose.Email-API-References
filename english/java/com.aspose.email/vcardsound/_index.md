@@ -1,7 +1,7 @@
 ---
 title: VCardSound
 second_title: Aspose.Email for Java API Reference
-description:  Represents a vCard sound property
+description: Represents a vCard sound property
 type: docs
 weight: 709
 url: /java/com.aspose.email/vcardsound/
@@ -24,10 +24,10 @@ Represents a vCard sound property
 | --- | --- |
 | [getSoundType()](#getSoundType--) | Gets or sets a sound type |
 | [setSoundType(int value)](#setSoundType-int-) | Gets or sets a sound type |
-| [getData()](#getData--) | Gets or sets a sound data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`) |
-| [setData(byte[] value)](#setData-byte---) | Gets or sets a sound data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`) |
-| [getUri()](#getUri--) | Gets or sets a uri of sound (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`) |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of sound (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`) |
+| [getData()](#getData--) | Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline ) |
+| [setData(byte[] value)](#setData-byte---) | Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline ) |
+| [getUri()](#getUri--) | Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline ) |
+| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline ) |
 | [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
 | [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
 ### VCardSound() {#VCardSound--}
@@ -67,7 +67,7 @@ public final byte[] getData()
 ```
 
 
-Gets or sets a sound data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`)
+Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline )
 
 **Returns:**
 byte[]
@@ -77,7 +77,7 @@ public final void setData(byte[] value)
 ```
 
 
-Gets or sets a sound data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`)
+Gets or sets a sound data ( null  if \#valueLocation.valueLocation is not  inline )
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -90,7 +90,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of sound (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`)
+Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline )
 
 **Returns:**
 java.lang.String
@@ -100,7 +100,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of sound (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`)
+Gets or sets a uri of sound ( null  if \#valueLocation.valueLocation is  inline )
 
 **Parameters:**
 | Parameter | Type | Description |

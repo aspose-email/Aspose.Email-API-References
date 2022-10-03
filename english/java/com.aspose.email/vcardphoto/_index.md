@@ -1,7 +1,7 @@
 ---
 title: VCardPhoto
 second_title: Aspose.Email for Java API Reference
-description:  Represents vCard photo property
+description: Represents vCard photo property
 type: docs
 weight: 705
 url: /java/com.aspose.email/vcardphoto/
@@ -24,10 +24,10 @@ Represents vCard photo property
 | --- | --- |
 | [getPhotoType()](#getPhotoType--) | Gets or sets a photo type |
 | [setPhotoType(int value)](#setPhotoType-int-) | Gets or sets a photo type |
-| [getData()](#getData--) | Gets or sets an image data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`) |
-| [setData(byte[] value)](#setData-byte---) | Gets or sets an image data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`) |
-| [getUri()](#getUri--) | Gets or sets a uri of photo (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`) |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of photo (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`) |
+| [getData()](#getData--) | Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline ) |
+| [setData(byte[] value)](#setData-byte---) | Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline ) |
+| [getUri()](#getUri--) | Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline ) |
+| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline ) |
 | [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
 | [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
 ### VCardPhoto() {#VCardPhoto--}
@@ -67,7 +67,7 @@ public final byte[] getData()
 ```
 
 
-Gets or sets an image data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`)
+Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline )
 
 **Returns:**
 byte[]
@@ -77,7 +77,7 @@ public final void setData(byte[] value)
 ```
 
 
-Gets or sets an image data (\`\`\` null \`\`\` if \#valueLocation is not \`\`\` inline \`\`\`)
+Gets or sets an image data ( null  if \#valueLocation.valueLocation is not  inline )
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -90,7 +90,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of photo (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`)
+Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline )
 
 **Returns:**
 java.lang.String
@@ -100,7 +100,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of photo (\`\`\` null \`\`\` if \#valueLocation is \`\`\` inline \`\`\`)
+Gets or sets a uri of photo ( null  if \#valueLocation.valueLocation is  inline )
 
 **Parameters:**
 | Parameter | Type | Description |

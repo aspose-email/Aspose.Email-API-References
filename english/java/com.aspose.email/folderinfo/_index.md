@@ -1,8 +1,7 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for Java API Reference
-description:  Represents information
- about personal folder in PST.
+description: Represents information about personal folder in PST.
 type: docs
 weight: 254
 url: /java/com.aspose.email/folderinfo/
@@ -286,7 +285,7 @@ public final MessageInfoCollection getContents(boolean tryToReadCorruptedContent
 
 
 Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage\#extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +301,7 @@ public final MessageInfoCollection getContents()
 
 
 Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage\#extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
 
 **Returns:**
 [MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
@@ -313,7 +312,7 @@ public final MessageInfoCollection getContents(int kind)
 
 
 Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage\#extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,7 +328,7 @@ public final MessageInfoCollection getContents(MailQuery query)
 
 
 Get collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage\#extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +344,7 @@ public final MessageInfoCollection getContents(int startIndex, int count)
 
 
 Gets the collection of messages.
-Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage\#extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -368,7 +367,7 @@ public final System.Collections.Generic.IGenericEnumerable<FolderInfo> enumerate
 Exposes the enumerator, which supports an iteration of subfolders in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a subfolders in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a subfolders in folder.
 ### enumerateFolders(int kind) {#enumerateFolders-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<FolderInfo> enumerateFolders(int kind)
@@ -383,7 +382,7 @@ Exposes the enumerator, which supports an iteration of subfolders in folder.
 | kind | int | The [FolderKind](../../com.aspose.email/folderkind) that represents kind of folder. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a subfolders in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.FolderInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a subfolders in folder.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages()
@@ -393,7 +392,7 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessageObjects() {#enumerateMessageObjects--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageObject> enumerateMessageObjects()
@@ -403,7 +402,7 @@ public final System.Collections.Generic.IGenericEnumerable<MessageObject> enumer
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageObject> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageObject> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMapiMessages() {#enumerateMapiMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerateMapiMessages()
@@ -413,7 +412,7 @@ public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerat
 Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessagesEntryId() {#enumerateMessagesEntryId--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<String> enumerateMessagesEntryId()
@@ -423,7 +422,7 @@ public final System.Collections.Generic.IGenericEnumerable<String> enumerateMess
 Enumerates the entryID of messages.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<java.lang.String> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through entryID of messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<java.lang.String> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through entryID of messages in folder.
 ### retrieveFullPath() {#retrieveFullPath--}
 ```
 public final String retrieveFullPath()
@@ -446,7 +445,7 @@ Adds the new sub-folder.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of sub-folder. |
-| createHierarchy | boolean | if set to \`\`\` true \`\`\`, it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
+| createHierarchy | boolean | if set to  true , it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The new sub-folder.

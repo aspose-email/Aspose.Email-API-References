@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRuleCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of  objects.
+description: Represents a collection of  objects.
 type: docs
 weight: 586
 url: /java/com.aspose.email/recurrencerulecollection/
@@ -16,19 +16,19 @@ Represents a collection of [RecurrenceRule](../../com.aspose.email/recurrencerul
 
 --------------------
 
-\`\`\`
+
 
 Corresponds to a collection of RRULE or EXRULE parts of a recurrence pattern.
 
-\`\`\`
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [add()](#add--) | Adds a [RecurrenceRule](../../com.aspose.email/recurrencerule) to the collection. |
 | [add(RecurrenceRule rule)](#add-com.aspose.email.RecurrenceRule-) | Adds a [RecurrenceRule](../../com.aspose.email/recurrencerule) to the collection. |
-| [get(int index)](#get-int-) | Gets or sets a \`\`\` RecurrenceRule \`\`\` from the collection. |
-| [set(int index, RecurrenceRule value)](#set-int-com.aspose.email.RecurrenceRule-) | Gets or sets a \`\`\` RecurrenceRule \`\`\` from the collection. |
+| [get(int index)](#get-int-) | Gets or sets a  RecurrenceRule  from the collection. |
+| [set(int index, RecurrenceRule value)](#set-int-com.aspose.email.RecurrenceRule-) | Gets or sets a  RecurrenceRule  from the collection. |
 | [equals(RecurrenceRuleCollection other)](#equals-com.aspose.email.RecurrenceRuleCollection-) | Determines whether the specified [RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection) is equal to this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to this instance. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
@@ -63,7 +63,7 @@ public RecurrenceRule get(int index)
 ```
 
 
-Gets or sets a \`\`\` RecurrenceRule \`\`\` from the collection.
+Gets or sets a  RecurrenceRule  from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -71,20 +71,20 @@ Gets or sets a \`\`\` RecurrenceRule \`\`\` from the collection.
 | index | int | a int. |
 
 **Returns:**
-[RecurrenceRule](../../com.aspose.email/recurrencerule) - a com.aspose.email.RecurrenceRule object.
+[RecurrenceRule](../../com.aspose.email/recurrencerule) - a [RecurrenceRule](../../com.aspose.email/recurrencerule) object.
 ### set(int index, RecurrenceRule value) {#set-int-com.aspose.email.RecurrenceRule-}
 ```
 public void set(int index, RecurrenceRule value)
 ```
 
 
-Gets or sets a \`\`\` RecurrenceRule \`\`\` from the collection.
+Gets or sets a  RecurrenceRule  from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | a int. |
-| value | [RecurrenceRule](../../com.aspose.email/recurrencerule) | a com.aspose.email.RecurrenceRule object. |
+| value | [RecurrenceRule](../../com.aspose.email/recurrencerule) | a [RecurrenceRule](../../com.aspose.email/recurrencerule) object. |
 
 ### equals(RecurrenceRuleCollection other) {#equals-com.aspose.email.RecurrenceRuleCollection-}
 ```
@@ -100,7 +100,7 @@ Determines whether the specified [RecurrenceRuleCollection](../../com.aspose.ema
 | other | [RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection) | The [RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -115,7 +115,7 @@ Determines whether the specified Object is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for Java API Reference
-description:  An exception specifies changes to an instance of a recurring series.
+description: An exception specifies changes to an instance of a recurring series.
 type: docs
 weight: 394
 url: /java/com.aspose.email/mapicalendarexceptioninfo/
@@ -265,7 +265,7 @@ public final boolean getReminderSet()
 
 Gets or sets a value for the PidLidReminderSet property.
 
-Value: \`\`\` true \`\`\` if [reminder set]; otherwise, \`\`\` false \`\`\`.
+Value:  true  if [reminder set]; otherwise,  false .
 
 **Returns:**
 boolean
@@ -277,7 +277,7 @@ public final void setReminderSet(boolean value)
 
 Gets or sets a value for the PidLidReminderSet property.
 
-Value: \`\`\` true \`\`\` if [reminder set]; otherwise, \`\`\` false \`\`\`.
+Value:  true  if [reminder set]; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +346,7 @@ public final boolean hasAttachment()
 
 Gets a value of this field specifies whether the Exception Embedded Message object contains attachments
 
-Value: \`\`\` true \`\`\` if the Exception Embedded Message object has attachment; otherwise, \`\`\` false \`\`\`.
+Value:  true  if the Exception Embedded Message object has attachment; otherwise,  false .
 
 **Returns:**
 boolean

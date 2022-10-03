@@ -1,7 +1,7 @@
 ---
 title: FreebusyCalendarInfo
 second_title: Aspose.Email for Java API Reference
-description:  Defines list of free/busy information for specified calendar.
+description: Defines list of free/busy information for specified calendar.
 type: docs
 weight: 265
 url: /java/com.aspose.email/freebusycalendarinfo/
@@ -49,7 +49,7 @@ Initializes a new instance of the FreebusyCalendarInfo class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | calendarId | java.lang.String | Calendar Id |
-| errors | com.aspose.email.ErrorDetails[] | Optional error(s) (if computation for the calendar failed). |
+| errors | [ErrorDetails\[\]](../../com.aspose.email/errordetails) | Optional error(s) (if computation for the calendar failed). |
 
 ### FreebusyCalendarInfo(String calendarId, Range[] busy) {#FreebusyCalendarInfo-java.lang.String-com.aspose.email.Range---}
 ```
@@ -63,7 +63,7 @@ Initializes a new instance of the FreebusyCalendarInfo class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | calendarId | java.lang.String | Calendar Id |
-| busy | com.aspose.email.Range[] | List of time ranges during which this calendar should be regarded as busy. |
+| busy | [Range\[\]](../../com.aspose.email/range) | List of time ranges during which this calendar should be regarded as busy. |
 
 ### FreebusyCalendarInfo(String calendarId, Iterable<ErrorDetails> errors, Iterable<Range> busy) {#FreebusyCalendarInfo-java.lang.String-java.lang.Iterable-com.aspose.email.ErrorDetails--java.lang.Iterable-com.aspose.email.Range--}
 ```

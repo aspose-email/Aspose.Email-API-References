@@ -1,8 +1,7 @@
 ---
 title: Pop3Client
 second_title: Aspose.Email for Java API Reference
-description:  Allows applications to access and manipulate 
- messages by using the Post Office Protocol Version 3 POP3.
+description: Allows applications to access and manipulate  messages by using the Post Office Protocol Version 3 POP3.
 type: docs
 weight: 564
 url: /java/com.aspose.email/pop3client/

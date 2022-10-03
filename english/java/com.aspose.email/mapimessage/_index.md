@@ -1,7 +1,7 @@
 ---
 title: MapiMessage
 second_title: Aspose.Email for Java API Reference
-description:   Represents an Outlook Message format document that can be parsed.
+description: Represents an Outlook Message format document that can be parsed.
 type: docs
 weight: 443
 url: /java/com.aspose.email/mapimessage/
@@ -626,7 +626,7 @@ public final boolean getReadReceiptRequested()
 
 Gets or sets a value indicating whether the read receipt is requested.
 
-Value: \`\`\` true \`\`\` if the read receipt is requested; otherwise, \`\`\` false \`\`\`.
+Value:  true  if the read receipt is requested; otherwise,  false .
 
 **Returns:**
 boolean
@@ -638,7 +638,7 @@ public final void setReadReceiptRequested(boolean value)
 
 Gets or sets a value indicating whether the read receipt is requested.
 
-Value: \`\`\` true \`\`\` if the read receipt is requested; otherwise, \`\`\` false \`\`\`.
+Value:  true  if the read receipt is requested; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -911,7 +911,7 @@ Determines whether the specified file has a MSG format.
 | fileName | java.lang.String | Name of the file. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the file is represented in MSG format; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the file is represented in MSG format; otherwise,  false .
 ### isMsgFormat(InputStream stream) {#isMsgFormat-java.io.InputStream-}
 ```
 public static boolean isMsgFormat(InputStream stream)
@@ -926,7 +926,7 @@ Determines whether the specified stream has a MSG format.
 | stream | java.io.InputStream | The message stream. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the stream is represented in MSG format]; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the stream is represented in MSG format]; otherwise,  false .
 ### setStringPropertyValue(long tag, String value) {#setStringPropertyValue-long-java.lang.String-}
 ```
 public final void setStringPropertyValue(long tag, String value)

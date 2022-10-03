@@ -1,7 +1,7 @@
 ---
 title: FreebusyGroupInfo
 second_title: Aspose.Email for Java API Reference
-description:  Specifies list of calendars that are members of the groups.
+description: Specifies list of calendars that are members of the groups.
 type: docs
 weight: 266
 url: /java/com.aspose.email/freebusygroupinfo/
@@ -49,7 +49,7 @@ Initializes a new instance of the FreebusyGroupInfo class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groupId | java.lang.String | Group id |
-| errors | com.aspose.email.ErrorDetails[] | Optional error(s) (if computation for the group failed). |
+| errors | [ErrorDetails\[\]](../../com.aspose.email/errordetails) | Optional error(s) (if computation for the group failed). |
 
 ### FreebusyGroupInfo(String groupId, String[] calendars) {#FreebusyGroupInfo-java.lang.String-java.lang.String---}
 ```

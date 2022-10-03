@@ -1,7 +1,7 @@
 ---
 title: ImapFolderInfoCollection
 second_title: Aspose.Email for Java API Reference
-description:  Provides a container for a collection of ImapFolderInfo objects.
+description: Provides a container for a collection of ImapFolderInfo objects.
 type: docs
 weight: 308
 url: /java/com.aspose.email/imapfolderinfocollection/
@@ -49,7 +49,7 @@ Initializes a new instance of the ImapFolderInfoCollection class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folders | com.aspose.email.ImapFolderInfo[] | Initial folders |
+| folders | [ImapFolderInfo\[\]](../../com.aspose.email/imapfolderinfo) | Initial folders |
 
 ### addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.email.ImapFolderInfo--}
 ```

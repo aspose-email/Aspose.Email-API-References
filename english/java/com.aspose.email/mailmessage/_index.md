@@ -1,7 +1,7 @@
 ---
 title: MailMessage
 second_title: Aspose.Email for Java API Reference
-description:  Represents an e-mail message.
+description: Represents an e-mail message.
 type: docs
 weight: 368
 url: /java/com.aspose.email/mailmessage/
@@ -1333,7 +1333,7 @@ Checks the signature of the specified eml file.
 | fileName | java.lang.String | A file name (eml). |
 
 **Returns:**
-boolean - \`\`\` True \`\`\` if signature is valid; otherwise, \`\`\` false \`\`\`.
+boolean -  True  if signature is valid; otherwise,  false .
 ### checkSignature(InputStream stream) {#checkSignature-java.io.InputStream-}
 ```
 public static boolean checkSignature(InputStream stream)
@@ -1348,7 +1348,7 @@ Checks the signature of the specified eml message.
 | stream | java.io.InputStream | A stream containing the message in eml format. |
 
 **Returns:**
-boolean - \`\`\` True \`\`\` if signature is valid; otherwise, \`\`\` false \`\`\`.
+boolean -  True  if signature is valid; otherwise,  false .
 ### checkSignature() {#checkSignature--}
 ```
 public String[] checkSignature()

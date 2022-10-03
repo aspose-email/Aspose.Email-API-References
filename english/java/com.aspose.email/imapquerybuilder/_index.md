@@ -1,8 +1,7 @@
 ---
 title: ImapQueryBuilder
 second_title: Aspose.Email for Java API Reference
-description:  Represents the builder of search expression
- that used by IMAP protocol.
+description: Represents the builder of search expression that used by IMAP protocol.
 type: docs
 weight: 325
 url: /java/com.aspose.email/imapquerybuilder/
