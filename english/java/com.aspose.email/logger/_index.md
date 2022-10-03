@@ -1,7 +1,7 @@
 ---
 title: Logger
 second_title: Aspose.Email for Java API Reference
-description:  Provides the logging functionality.
+description: Provides the logging functionality.
 type: docs
 weight: 357
 url: /java/com.aspose.email/logger/
@@ -121,7 +121,7 @@ Determines if logging is enabled for the specified level.
 | level | [LogLevel](../../com.aspose.email/loglevel) | level to be checked |
 
 **Returns:**
-boolean - \`\`\` \`\`\` if logging is enabled for the specified level, otherwise it returns \`\`\` \`\`\`.
+boolean -   if logging is enabled for the specified level, otherwise it returns  .
 ### writeLine() {#writeLine--}
 ```
 public final void writeLine()

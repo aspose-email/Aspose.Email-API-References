@@ -1,7 +1,7 @@
 ---
 title: ImapMonitoringEventArgs
 second_title: Aspose.Email for Java API Reference
-description:  Class contains monitoring event data.
+description: Class contains monitoring event data.
 type: docs
 weight: 320
 url: /java/com.aspose.email/imapmonitoringeventargs/
@@ -39,8 +39,8 @@ Initializes a new instance of the [ImapMonitoringEventArgs](../../com.aspose.ema
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderName | java.lang.String | specified folder for monitoring operation |
-| newMessages | com.aspose.email.ImapMessageInfo[] | Contains information about new messages |
-| deletedMessages | com.aspose.email.ImapMessageInfo[] | Contains information about deleted messages |
+| newMessages | [ImapMessageInfo\[\]](../../com.aspose.email/imapmessageinfo) | Contains information about new messages |
+| deletedMessages | [ImapMessageInfo\[\]](../../com.aspose.email/imapmessageinfo) | Contains information about deleted messages |
 
 ### ImapMonitoringEventArgs(String folderName, Throwable error) {#ImapMonitoringEventArgs-java.lang.String-java.lang.Throwable-}
 ```

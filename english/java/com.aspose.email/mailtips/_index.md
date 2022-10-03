@@ -1,7 +1,7 @@
 ---
 title: MailTips
 second_title: Aspose.Email for Java API Reference
-description:  Represents values for the Mail Tips
+description: Represents values for the Mail Tips
 type: docs
 weight: 377
 url: /java/com.aspose.email/mailtips/
@@ -21,17 +21,17 @@ Represents values for the Mail Tips
 | [getPendingMailTips()](#getPendingMailTips--) | Gets a value indicating whether the mail tips in this element could not be evaluated before the server's processing timeout expired. |
 | [getOutOfOffice()](#getOutOfOffice--) | Gets the response message for OOF and the duration for sending this message. |
 | [getMailboxFull()](#getMailboxFull--) | Gets a value indicating whether the mailbox for the recipient is full. |
-| [isMailboxFullSpecified()](#isMailboxFullSpecified--) | Gets a value indicating whether the \`\`\` MailboxFull \`\`\`(\#getMailboxFull/\#setMailboxFull(boolean)) is specified |
+| [isMailboxFullSpecified()](#isMailboxFullSpecified--) | Gets a value indicating whether the  MailboxFull (\#getMailboxFull.getMailboxFull/\#setMailboxFull(boolean).setMailboxFull(boolean)) is specified |
 | [getCustomMailTip()](#getCustomMailTip--) | Gets a custom mail tip. |
 | [getTotalMemberCnt()](#getTotalMemberCnt--) | Gets the total number of members in a group. |
 | [getExternalMemberCnt()](#getExternalMemberCnt--) | Gets the number of external members in a group. |
 | [getMaxMsgSize()](#getMaxMsgSize--) | Gets the maximum message size the recipient can accept |
 | [getDeliveryRestricted()](#getDeliveryRestricted--) | Gets a value indicating whether delivery restrictions will prevent the sender's message from reaching the recipient. |
-| [isDeliveryRestrictedSpecified()](#isDeliveryRestrictedSpecified--) | Gets a value indicating whether \`\`\` DeliveryRestricted \`\`\`(\#getDeliveryRestricted/\#setDeliveryRestricted(boolean)) is specified |
+| [isDeliveryRestrictedSpecified()](#isDeliveryRestrictedSpecified--) | Gets a value indicating whether  DeliveryRestricted (\#getDeliveryRestricted.getDeliveryRestricted/\#setDeliveryRestricted(boolean).setDeliveryRestricted(boolean)) is specified |
 | [isModerated()](#isModerated--) | Gets a value indicating whether the recipient's mailbox is being moderated. |
-| [isModeratedSpecified()](#isModeratedSpecified--) | Gets a value indicating whether the \`\`\` IsModerated \`\`\`(\#isModerated/\#setModerated(boolean)) is specified |
+| [isModeratedSpecified()](#isModeratedSpecified--) | Gets a value indicating whether the  IsModerated (\#isModerated.isModerated/\#setModerated(boolean).setModerated(boolean)) is specified |
 | [getInvalidRecipient()](#getInvalidRecipient--) | Gets a value indicating whether the recipient is invalid. |
-| [isInvalidRecipientSpecified()](#isInvalidRecipientSpecified--) | Gets a value indicating whether \`\`\` InvalidRecipient \`\`\`(\#getInvalidRecipient/\#setInvalidRecipient(boolean)) is specified |
+| [isInvalidRecipientSpecified()](#isInvalidRecipientSpecified--) | Gets a value indicating whether  InvalidRecipient (\#getInvalidRecipient.getInvalidRecipient/\#setInvalidRecipient(boolean).setInvalidRecipient(boolean)) is specified |
 ### getRecipientAddress() {#getRecipientAddress--}
 ```
 public final MailAddress getRecipientAddress()
@@ -78,7 +78,7 @@ public final boolean isMailboxFullSpecified()
 ```
 
 
-Gets a value indicating whether the \`\`\` MailboxFull \`\`\`(\#getMailboxFull/\#setMailboxFull(boolean)) is specified
+Gets a value indicating whether the  MailboxFull (\#getMailboxFull.getMailboxFull/\#setMailboxFull(boolean).setMailboxFull(boolean)) is specified
 
 **Returns:**
 boolean
@@ -138,7 +138,7 @@ public final boolean isDeliveryRestrictedSpecified()
 ```
 
 
-Gets a value indicating whether \`\`\` DeliveryRestricted \`\`\`(\#getDeliveryRestricted/\#setDeliveryRestricted(boolean)) is specified
+Gets a value indicating whether  DeliveryRestricted (\#getDeliveryRestricted.getDeliveryRestricted/\#setDeliveryRestricted(boolean).setDeliveryRestricted(boolean)) is specified
 
 **Returns:**
 boolean
@@ -158,7 +158,7 @@ public final boolean isModeratedSpecified()
 ```
 
 
-Gets a value indicating whether the \`\`\` IsModerated \`\`\`(\#isModerated/\#setModerated(boolean)) is specified
+Gets a value indicating whether the  IsModerated (\#isModerated.isModerated/\#setModerated(boolean).setModerated(boolean)) is specified
 
 **Returns:**
 boolean
@@ -178,7 +178,7 @@ public final boolean isInvalidRecipientSpecified()
 ```
 
 
-Gets a value indicating whether \`\`\` InvalidRecipient \`\`\`(\#getInvalidRecipient/\#setInvalidRecipient(boolean)) is specified
+Gets a value indicating whether  InvalidRecipient (\#getInvalidRecipient.getInvalidRecipient/\#setInvalidRecipient(boolean).setInvalidRecipient(boolean)) is specified
 
 **Returns:**
 boolean

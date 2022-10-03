@@ -1,8 +1,7 @@
 ---
 title: MapiContactCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents the collection of 
- 
+description: Represents the collection of
 type: docs
 weight: 416
 url: /java/com.aspose.email/mapicontactcollection/
@@ -57,7 +56,7 @@ Converts array to collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contacts | com.aspose.email.MapiContact[] | Array to convert |
+| contacts | [MapiContact\[\]](../../com.aspose.email/mapicontact) | Array to convert |
 
 **Returns:**
 [MapiContactCollection](../../com.aspose.email/mapicontactcollection)

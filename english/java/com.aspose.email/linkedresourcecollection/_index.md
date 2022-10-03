@@ -1,7 +1,7 @@
 ---
 title: LinkedResourceCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of LinkedResource objects
+description: Represents a collection of LinkedResource objects
 type: docs
 weight: 349
 url: /java/com.aspose.email/linkedresourcecollection/
@@ -24,7 +24,7 @@ Represents a collection of LinkedResource objects
 | [close()](#close--) |  |
 | [removeAt(int index, boolean removeHtmlLink)](#removeAt-int-boolean-) | Removes the element at the specified index from this collection. |
 | [clear(boolean removeHtmlLinks)](#clear-boolean-) | Removes all elements from this collection. |
-| [insertItem(int index, LinkedResource item)](#insertItem-int-com.aspose.email.LinkedResource-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [insertItem(int index, LinkedResource item)](#insertItem-int-com.aspose.email.LinkedResource-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -74,11 +74,11 @@ public void insertItem(int index, LinkedResource item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [LinkedResource](../../com.aspose.email/linkedresource) | The object to insert. The value can be null for reference types. |
 

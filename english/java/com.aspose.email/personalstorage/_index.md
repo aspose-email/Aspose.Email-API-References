@@ -1,7 +1,7 @@
 ---
 title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
-description:  Represents Personal Storage Table .pst file.
+description: Represents Personal Storage Table .pst file.
 type: docs
 weight: 552
 url: /java/com.aspose.email/personalstorage/
@@ -207,7 +207,7 @@ Load PST from file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of .pst file. |
-| writable | boolean | if set to \`\`\` true \`\`\` then the the pst file will support writing, otherwise it will be opened in read-only mode. |
+| writable | boolean | if set to  true  then the the pst file will support writing, otherwise it will be opened in read-only mode. |
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
@@ -239,7 +239,7 @@ Load PST from stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The System.IO.Stream. |
-| writable | boolean | if set to \`\`\` true \`\`\` then the the pst will support writing, otherwise it will be opened in read-only mode. |
+| writable | boolean | if set to  true  then the the pst will support writing, otherwise it will be opened in read-only mode. |
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
@@ -255,7 +255,7 @@ Load PST from stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | The System.IO.Stream. |
-| writable | boolean | if set to \`\`\` true \`\`\` then the the pst will support writing, otherwise it will be opened in read-only mode. |
+| writable | boolean | if set to  true  then the the pst will support writing, otherwise it will be opened in read-only mode. |
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
@@ -631,7 +631,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | entryId | java.lang.String | The string that represents a parent folder entry ID. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### enumerateMessages(String entryId, int startIndex, int count) {#enumerateMessages-java.lang.String-int-int-}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(String entryId, int startIndex, int count)
@@ -648,7 +648,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 | count | int | The number of messages that will be retrieved. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
 ### tryToSaveMessage(String entryId, OutputStream stream) {#tryToSaveMessage-java.lang.String-java.io.OutputStream-}
 ```
 public final SaveResult tryToSaveMessage(String entryId, OutputStream stream)
@@ -722,7 +722,7 @@ Gets the folder associated with the specified entry ID.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | entryIdString | java.lang.String | The string that represented the entry ID. |
-| folder | com.aspose.email.FolderInfo[] | When this method returns true, contains the [FolderInfo](../../com.aspose.email/folderinfo) object associated with the specified ID. |
+| folder | [FolderInfo\[\]](../../com.aspose.email/folderinfo) | When this method returns true, contains the [FolderInfo](../../com.aspose.email/folderinfo) object associated with the specified ID. |
 
 **Returns:**
 boolean - true if the folder is successfully found; otherwise, false.
@@ -829,7 +829,7 @@ Creates the standard interpersonal message (IPM) folder.
 | --- | --- | --- |
 | name | java.lang.String | The name of folder. |
 | defaultFolder | int | The value of [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enumeration. |
-| createHierarchy | boolean | if set to \`\`\` true \`\`\`, it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
+| createHierarchy | boolean | if set to  true , it is possible to create a folder hierarchy using string notation. Backslash ('\\') is used as path separator. |
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - A [FolderInfo](../../com.aspose.email/folderinfo) object that represents a standard IPM folder.

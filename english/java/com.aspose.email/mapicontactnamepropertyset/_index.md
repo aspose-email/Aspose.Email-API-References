@@ -1,8 +1,7 @@
 ---
 title: MapiContactNamePropertySet
 second_title: Aspose.Email for Java API Reference
-description:  The properties are used to specify the name 
- of the person represented by the contact
+description: The properties are used to specify the name  of the person represented by the contact
 type: docs
 weight: 421
 url: /java/com.aspose.email/mapicontactnamepropertyset/

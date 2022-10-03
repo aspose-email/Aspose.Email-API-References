@@ -1,7 +1,7 @@
 ---
 title: MapiPropertyCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents the collection of MapiProperty items.
+description: Represents the collection of MapiProperty items.
 type: docs
 weight: 455
 url: /java/com.aspose.email/mapipropertycollection/
@@ -331,7 +331,7 @@ Gets the property associated with the specified tag.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | long | The property tag. |
-| value | com.aspose.email.MapiProperty[] |  |
+| value | [MapiProperty\[\]](../../com.aspose.email/mapiproperty) |  |
 
 **Returns:**
 boolean - 

@@ -1,7 +1,7 @@
 ---
 title: DataColumn
 second_title: Aspose.Email for Java API Reference
-description: pDataColumn class.
+description: DataColumn class.
 type: docs
 weight: 135
 url: /java/com.aspose.email/datacolumn/

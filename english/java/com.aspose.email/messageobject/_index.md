@@ -1,7 +1,7 @@
 ---
 title: MessageObject
 second_title: Aspose.Email for Java API Reference
-description:  Represents an Outlook message object.
+description: Represents an Outlook message object.
 type: docs
 weight: 494
 url: /java/com.aspose.email/messageobject/
@@ -27,7 +27,7 @@ Represents an Outlook message object. Evaluation limits: only 1 attachment and 1
 | Method | Description |
 | --- | --- |
 | [getProperties()](#getProperties--) | Gets the properties of the [MessageObject](../../com.aspose.email/messageobject). |
-| [getCodepage()](#getCodepage--) | Gets the codepage used to encode/decode string properties in case [MapiType\#PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) type for them is used. |
+| [getCodepage()](#getCodepage--) | Gets the codepage used to encode/decode string properties in case [MapiType.PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) type for them is used. |
 | [getRecipients()](#getRecipients--) | Gets the recipients of the [MessageObject](../../com.aspose.email/messageobject). |
 | [getAttachments()](#getAttachments--) | Gets the attachments of the [MessageObject](../../com.aspose.email/messageobject). |
 | [save(String fileName, int format)](#save-java.lang.String-int-) | Saves the current message object to the specified file. |
@@ -63,7 +63,7 @@ Initializes a new instance of the [MessageObject](../../com.aspose.email/message
 
 --------------------
 
-In addition same set of exceptions could be thrown as for the File\#open(String,int) call. |
+In addition same set of exceptions could be thrown as for the File\#open(String,int).open(String,int) call. |
 
 ### getProperties() {#getProperties--}
 ```
@@ -83,7 +83,7 @@ public final int getCodepage()
 ```
 
 
-Gets the codepage used to encode/decode string properties in case [MapiType\#PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) type for them is used.
+Gets the codepage used to encode/decode string properties in case [MapiType.PT\_STRING8](../../com.aspose.email/mapitype\#PT-STRING8) type for them is used.
 
 Value: The codepage.
 
@@ -129,7 +129,7 @@ Saves the current message object to the specified file.
 
 --------------------
 
-In addition same set of exceptions could be thrown as for the File\#openWrite(String) call. |
+In addition same set of exceptions could be thrown as for the File\#openWrite(String).openWrite(String) call. |
 
 ### save(OutputStream stream, int format) {#save-java.io.OutputStream-int-}
 ```

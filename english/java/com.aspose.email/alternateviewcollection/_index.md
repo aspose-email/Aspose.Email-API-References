@@ -1,7 +1,7 @@
 ---
 title: AlternateViewCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of AlternateView objects.
+description: Represents a collection of AlternateView objects.
 type: docs
 weight: 16
 url: /java/com.aspose.email/alternateviewcollection/
@@ -24,7 +24,7 @@ Represents a collection of AlternateView objects.
 | [close()](#close--) |  |
 | [clear()](#clear--) | Clear. |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index of the Collection. |
-| [insertItem(int index, AlternateView item)](#insertItem-int-com.aspose.email.AlternateView-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [insertItem(int index, AlternateView item)](#insertItem-int-com.aspose.email.AlternateView-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -68,11 +68,11 @@ public void insertItem(int index, AlternateView item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [AlternateView](../../com.aspose.email/alternateview) | The object to insert. The value can be null for reference types. |
 

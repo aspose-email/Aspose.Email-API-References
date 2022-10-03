@@ -1,8 +1,7 @@
 ---
 title: AppointmentQueryBuilder
 second_title: Aspose.Email for Java API Reference
-description:  Represents the builder of search expression
- that used by Exchange protocol.
+description: Represents the builder of search expression that used by Exchange protocol.
 type: docs
 weight: 42
 url: /java/com.aspose.email/appointmentquerybuilder/

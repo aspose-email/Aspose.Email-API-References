@@ -1,7 +1,7 @@
 ---
 title: DataRowCollection
 second_title: Aspose.Email for Java API Reference
-description: pDataRowCollection class.
+description: DataRowCollection class.
 type: docs
 weight: 140
 url: /java/com.aspose.email/datarowcollection/
@@ -44,7 +44,7 @@ Constructor for DataRowCollection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.email/datatable) | a com.aspose.email.DataTable object. |
+| dataTable | [DataTable](../../com.aspose.email/datatable) | a [DataTable](../../com.aspose.email/datatable) object. |
 
 ### iterator() {#iterator--}
 ```
@@ -114,7 +114,7 @@ get.
 | i | int | a int. |
 
 **Returns:**
-[DataRow](../../com.aspose.email/datarow) - a com.aspose.email.DataRow object.
+[DataRow](../../com.aspose.email/datarow) - a [DataRow](../../com.aspose.email/datarow) object.
 ### add(DataRow dataRow) {#add-com.aspose.email.DataRow-}
 ```
 public void add(DataRow dataRow)
@@ -126,7 +126,7 @@ add.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataRow | [DataRow](../../com.aspose.email/datarow) | a com.aspose.email.DataRow object. |
+| dataRow | [DataRow](../../com.aspose.email/datarow) | a [DataRow](../../com.aspose.email/datarow) object. |
 
 ### add(Object[] objects) {#add-java.lang.Object---}
 ```

@@ -1,9 +1,7 @@
 ---
 title: FileFormat
 second_title: Aspose.Email for Java API Reference
-description:  Specifies the file format 
- used to store messages 
- calendar events and other items.
+description: Specifies the file format  used to store messages  calendar events and other items.
 type: docs
 weight: 247
 url: /java/com.aspose.email/fileformat/

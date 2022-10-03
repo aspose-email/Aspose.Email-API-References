@@ -1,7 +1,7 @@
 ---
 title: DataColumnCollection
 second_title: Aspose.Email for Java API Reference
-description: pDataColumnCollection class.
+description: DataColumnCollection class.
 type: docs
 weight: 136
 url: /java/com.aspose.email/datacolumncollection/
@@ -45,7 +45,7 @@ Constructor for DataColumnCollection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.email/datatable) | a com.aspose.email.DataTable object. |
+| dataTable | [DataTable](../../com.aspose.email/datatable) | a [DataTable](../../com.aspose.email/datatable) object. |
 
 ### iterator() {#iterator--}
 ```
@@ -127,7 +127,7 @@ add.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataColumn | [DataColumn](../../com.aspose.email/datacolumn) | a com.aspose.email.DataColumn object. |
+| dataColumn | [DataColumn](../../com.aspose.email/datacolumn) | a [DataColumn](../../com.aspose.email/datacolumn) object. |
 
 ### add(String columnName) {#add-java.lang.String-}
 ```

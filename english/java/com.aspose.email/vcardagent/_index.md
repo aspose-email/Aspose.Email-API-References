@@ -1,7 +1,7 @@
 ---
 title: VCardAgent
 second_title: Aspose.Email for Java API Reference
-description:  Represents a vCard Agent property
+description: Represents a vCard Agent property
 type: docs
 weight: 690
 url: /java/com.aspose.email/vcardagent/
@@ -24,10 +24,10 @@ Represents a vCard Agent property
 | --- | --- |
 | [getValueLocation()](#getValueLocation--) | Gets or sets a value location |
 | [setValueLocation(int value)](#setValueLocation-int-) | Gets or sets a value location |
-| [getUri()](#getUri--) | Gets or sets a uri of agent card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is \`\`\` INLINE \`\`\`) |
-| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of agent card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is \`\`\` INLINE \`\`\`) |
-| [getAgentCard()](#getAgentCard--) | Gets or sets an agent's card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is not \`\`\` INLINE \`\`\`) |
-| [setAgentCard(VCardContact value)](#setAgentCard-com.aspose.email.VCardContact-) | Gets or sets an agent's card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is not \`\`\` INLINE \`\`\`) |
+| [getUri()](#getUri--) | Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE ) |
+| [setUri(String value)](#setUri-java.lang.String-) | Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE ) |
+| [getAgentCard()](#getAgentCard--) | Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE ) |
+| [setAgentCard(VCardContact value)](#setAgentCard-com.aspose.email.VCardContact-) | Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE ) |
 ### VCardAgent() {#VCardAgent--}
 ```
 public VCardAgent()
@@ -65,7 +65,7 @@ public final String getUri()
 ```
 
 
-Gets or sets a uri of agent card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is \`\`\` INLINE \`\`\`)
+Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE )
 
 **Returns:**
 java.lang.String
@@ -75,7 +75,7 @@ public final void setUri(String value)
 ```
 
 
-Gets or sets a uri of agent card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is \`\`\` INLINE \`\`\`)
+Gets or sets a uri of agent card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is  INLINE )
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -88,7 +88,7 @@ public final VCardContact getAgentCard()
 ```
 
 
-Gets or sets an agent's card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is not \`\`\` INLINE \`\`\`)
+Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE )
 
 **Returns:**
 [VCardContact](../../com.aspose.email/vcardcontact)
@@ -98,7 +98,7 @@ public final void setAgentCard(VCardContact value)
 ```
 
 
-Gets or sets an agent's card (\`\`\` null \`\`\` if \`\`\` ValueLocation \`\`\`(\#getValueLocation/\#setValueLocation(int)) is not \`\`\` INLINE \`\`\`)
+Gets or sets an agent's card ( null  if  ValueLocation (\#getValueLocation.getValueLocation/\#setValueLocation(int).setValueLocation(int)) is not  INLINE )
 
 **Parameters:**
 | Parameter | Type | Description |

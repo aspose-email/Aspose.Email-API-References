@@ -1,9 +1,7 @@
 ---
 title: FileCompatibilityMode
 second_title: Aspose.Email for Java API Reference
-description:  Defines inner conversions 
- that are necessarily to be done when loading 
- or saving a message.
+description: Defines inner conversions  that are necessarily to be done when loading  or saving a message.
 type: docs
 weight: 245
 url: /java/com.aspose.email/filecompatibilitymode/

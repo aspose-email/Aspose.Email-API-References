@@ -1,7 +1,7 @@
 ---
 title: MapiRecipientCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of MapiRecipient objects.
+description: Represents a collection of MapiRecipient objects.
 type: docs
 weight: 462
 url: /java/com.aspose.email/mapirecipientcollection/
@@ -24,8 +24,8 @@ Represents a collection of MapiRecipient objects.
 | --- | --- |
 | [add(String address, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-int-) | Adds the new recipient. |
 | [add(String address, String addressType, String displayName, int recipientType)](#add-java.lang.String-java.lang.String-java.lang.String-int-) | Adds the new recipient. |
-| [addMapiRecipient(MapiRecipient item)](#addMapiRecipient-com.aspose.email.MapiRecipient-) | Adds an object to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`. |
-| [insertMapiRecipient(int index, MapiRecipient item)](#insertMapiRecipient-int-com.aspose.email.MapiRecipient-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [addMapiRecipient(MapiRecipient item)](#addMapiRecipient-com.aspose.email.MapiRecipient-) | Adds an object to the end of the  System.Collections.ObjectModel.Collection1 . |
+| [insertMapiRecipient(int index, MapiRecipient item)](#insertMapiRecipient-int-com.aspose.email.MapiRecipient-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 ### MapiRecipientCollection() {#MapiRecipientCollection--}
 ```
 public MapiRecipientCollection()
@@ -79,12 +79,12 @@ public final void addMapiRecipient(MapiRecipient item)
 ```
 
 
-Adds an object to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`.
+Adds an object to the end of the  System.Collections.ObjectModel.Collection1 .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The object to be added to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`. The value can be null for reference types. |
+| item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The object to be added to the end of the  System.Collections.ObjectModel.Collection1 . The value can be null for reference types. |
 
 ### insertMapiRecipient(int index, MapiRecipient item) {#insertMapiRecipient-int-com.aspose.email.MapiRecipient-}
 ```
@@ -92,11 +92,11 @@ public final void insertMapiRecipient(int index, MapiRecipient item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [MapiRecipient](../../com.aspose.email/mapirecipient) | The object to insert. The value can be null for reference types. |
 

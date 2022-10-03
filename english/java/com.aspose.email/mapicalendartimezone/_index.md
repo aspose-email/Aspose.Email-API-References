@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarTimeZone
 second_title: Aspose.Email for Java API Reference
-description:  Represents the mapi calendar time zone information
+description: Represents the mapi calendar time zone information
 type: docs
 weight: 408
 url: /java/com.aspose.email/mapicalendartimezone/
@@ -19,7 +19,7 @@ Represents the mapi calendar time zone information
 | --- | --- |
 | [MapiCalendarTimeZone()](#MapiCalendarTimeZone--) | Initializes a new instance of the [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) class. |
 | [MapiCalendarTimeZone(TimeZoneInfo timeZone)](#MapiCalendarTimeZone-com.aspose.email.TimeZoneInfo-) | Creates a new instance of the [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) class from a Standard Timezone. |
-| [MapiCalendarTimeZone(String keyName)](#MapiCalendarTimeZone-java.lang.String-) | Creates a new instance of the \`\`\` MapiCalendarTimeZone \`\`\` class from a Standard Timezone. |
+| [MapiCalendarTimeZone(String keyName)](#MapiCalendarTimeZone-java.lang.String-) | Creates a new instance of the  MapiCalendarTimeZone  class from a Standard Timezone. |
 | [MapiCalendarTimeZone(String keyName, Date startDate)](#MapiCalendarTimeZone-java.lang.String-java.util.Date-) |  |
 ## Methods
 
@@ -56,7 +56,7 @@ public MapiCalendarTimeZone(String keyName)
 ```
 
 
-Creates a new instance of the \`\`\` MapiCalendarTimeZone \`\`\` class from a Standard Timezone.
+Creates a new instance of the  MapiCalendarTimeZone  class from a Standard Timezone.
 
 **Parameters:**
 | Parameter | Type | Description |

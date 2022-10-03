@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for Java API Reference
-description:  Represents a Content-Type header.
+description: Represents a Content-Type header.
 type: docs
 weight: 127
 url: /java/com.aspose.email/contenttype/
@@ -200,7 +200,7 @@ Determines whether the specified Object is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

@@ -1,7 +1,7 @@
 ---
 title: MailAddress
 second_title: Aspose.Email for Java API Reference
-description:  Represents the address of a message.
+description: Represents the address of a message.
 type: docs
 weight: 364
 url: /java/com.aspose.email/mailaddress/
@@ -59,7 +59,7 @@ Initializes a new instance of the [MailAddress](../../com.aspose.email/mailaddre
 | Parameter | Type | Description |
 | --- | --- | --- |
 | address | java.lang.String | The mail address. |
-| ignoreSmtpCheck | boolean | if set to \`\`\` true \`\`\` then SMTP check will be omitted. |
+| ignoreSmtpCheck | boolean | if set to  true  then SMTP check will be omitted. |
 
 ### MailAddress(String address, String displayName, boolean ignoreSmtpCheck) {#MailAddress-java.lang.String-java.lang.String-boolean-}
 ```
@@ -74,7 +74,7 @@ Initializes a new instance of the [MailAddress](../../com.aspose.email/mailaddre
 | --- | --- | --- |
 | address | java.lang.String | The mail address. |
 | displayName | java.lang.String | The display name. |
-| ignoreSmtpCheck | boolean | if set to \`\`\` true \`\`\` then SMTP check will be omitted. |
+| ignoreSmtpCheck | boolean | if set to  true  then SMTP check will be omitted. |
 
 ### MailAddress(String address, String displayName, Charset displayNameEncoding) {#MailAddress-java.lang.String-java.lang.String-java.nio.charset.Charset-}
 ```
@@ -105,7 +105,7 @@ Initializes a new instance of the [MailAddress](../../com.aspose.email/mailaddre
 | address | java.lang.String | The mail address. |
 | displayName | java.lang.String | The display name. |
 | displayNameEncoding | java.nio.charset.Charset | The display name encoding. |
-| ignoreSmtpCheck | boolean | if set to \`\`\` true \`\`\` then SMTP check will be omitted. |
+| ignoreSmtpCheck | boolean | if set to  true  then SMTP check will be omitted. |
 
 ### MailAddress(String address) {#MailAddress-java.lang.String-}
 ```
@@ -336,7 +336,7 @@ Determines whether the specified Object is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

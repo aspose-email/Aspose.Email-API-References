@@ -1,7 +1,7 @@
 ---
 title: MapiAttachmentCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of MapiAttachment objects.
+description: Represents a collection of MapiAttachment objects.
 type: docs
 weight: 385
 url: /java/com.aspose.email/mapiattachmentcollection/
@@ -25,8 +25,8 @@ Represents a collection of MapiAttachment objects.
 | --- | --- |
 | [add(String name, MapiMessage msg)](#add-java.lang.String-com.aspose.email.MapiMessage-) | Adds the new attachment as embedded message. |
 | [add(String name, byte[] data)](#add-java.lang.String-byte---) | Adds the new attachment. |
-| [addMapiAttachment(MapiAttachment item)](#addMapiAttachment-com.aspose.email.MapiAttachment-) | Adds an object to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`. |
-| [insertMapiAttachment(int index, MapiAttachment item)](#insertMapiAttachment-int-com.aspose.email.MapiAttachment-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [addMapiAttachment(MapiAttachment item)](#addMapiAttachment-com.aspose.email.MapiAttachment-) | Adds an object to the end of the  System.Collections.ObjectModel.Collection1 . |
+| [insertMapiAttachment(int index, MapiAttachment item)](#insertMapiAttachment-int-com.aspose.email.MapiAttachment-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 | [insert(int index, String name, MapiMessage msg)](#insert-int-java.lang.String-com.aspose.email.MapiMessage-) | Inserts a message as attachment into the [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) at the specified index. |
 | [replace(int index, String name, MapiMessage msg)](#replace-int-java.lang.String-com.aspose.email.MapiMessage-) | Replaces an element at the specified index. |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index of the MapiAttachmentCollection. |
@@ -86,12 +86,12 @@ public final void addMapiAttachment(MapiAttachment item)
 ```
 
 
-Adds an object to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`.
+Adds an object to the end of the  System.Collections.ObjectModel.Collection1 .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to be added to the end of the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\`. The value can be null for reference types. |
+| item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to be added to the end of the  System.Collections.ObjectModel.Collection1 . The value can be null for reference types. |
 
 ### insertMapiAttachment(int index, MapiAttachment item) {#insertMapiAttachment-int-com.aspose.email.MapiAttachment-}
 ```
@@ -99,12 +99,12 @@ public final void insertMapiAttachment(int index, MapiAttachment item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [MapiAttachment](../../com.aspose.email/mapiattachment) | The object to insert. The value can be null for reference types. |
 
 ### insert(int index, String name, MapiMessage msg) {#insert-int-java.lang.String-com.aspose.email.MapiMessage-}

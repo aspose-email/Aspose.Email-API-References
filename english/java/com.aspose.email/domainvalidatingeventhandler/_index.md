@@ -1,7 +1,7 @@
 ---
 title: DomainValidatingEventHandler
 second_title: Aspose.Email for Java API Reference
-description:  Represents the event handler for DomainValidatingEvent.
+description: Represents the event handler for DomainValidatingEvent.
 type: docs
 weight: 160
 url: /java/com.aspose.email/domainvalidatingeventhandler/
@@ -43,7 +43,7 @@ invoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) | a com.aspose.email.DomainValidatingEventArgs object. |
+| e | [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) | a [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) object. |
 
 ### beginInvoke(Object sender, DomainValidatingEventArgs e, System.AsyncCallback callback, Object state) {#beginInvoke-java.lang.Object-com.aspose.email.DomainValidatingEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
@@ -57,7 +57,7 @@ beginInvoke.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | a java.lang.Object object. |
-| e | [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) | a com.aspose.email.DomainValidatingEventArgs object. |
+| e | [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) | a [DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs) object. |
 | callback | com.aspose.ms.System.AsyncCallback | a com.aspose.ms.System.AsyncCallback object. |
 | state | java.lang.Object | a java.lang.Object object. |
 

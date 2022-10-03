@@ -1,7 +1,7 @@
 ---
 title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for Java API Reference
-description:  Represents the named property mapping
+description: Represents the named property mapping
 type: docs
 weight: 450
 url: /java/com.aspose.email/mapinamedpropertymappingstorage/
@@ -91,9 +91,9 @@ Adds the named property mapping for numeric named property.
 
 --------------------
 
-\`\`\` property \`\`\` should have a valid id for named property, \#getNextAvailablePropertyId(int) can be used to generate one. Otherwise an exception will be thrown.
+ property  should have a valid id for named property, \#getNextAvailablePropertyId(int).getNextAvailablePropertyId(int) can be used to generate one. Otherwise an exception will be thrown.
 
-\`\`\`  \{@link ArgumentNullException\} if \{@code property\} is null. \{@link ArgumentException\} if \{@code MapiProperty.Tag\}(\{@link MapiProperty\#getTag\}) can'be used for named property mapping. The range for named property identifiers is between 0x8000 and 0xFFFE.  \`\`\` |
+  \{@link ArgumentNullException\} if \{@code property\} is null. \{@link ArgumentException\} if \{@code MapiProperty.Tag\}(\{@link MapiProperty\#getTag\}) can'be used for named property mapping. The range for named property identifiers is between 0x8000 and 0xFFFE.   |
 
 ### addNamedPropertyMapping(MapiProperty property, String nameId, UUID guid) {#addNamedPropertyMapping-com.aspose.email.MapiProperty-java.lang.String-java.util.UUID-}
 ```
@@ -112,7 +112,7 @@ Adds the named property mapping for string named property.
 
 --------------------
 
-\`\`\` property \`\`\` should have a valid id for named property, \#getNextAvailablePropertyId(int) can be used to generate one. Otherwise an exception will be thrown.
+ property  should have a valid id for named property, \#getNextAvailablePropertyId(int).getNextAvailablePropertyId(int) can be used to generate one. Otherwise an exception will be thrown.
 
-\`\`\`  \{@link ArgumentNullException\} if nameId is null. \{@link ArgumentNullException\} if \{@code property\} is null. \{@link ArgumentException\} if \{@code MapiProperty.Tag\}(\{@link MapiProperty\#getTag\}) can'be used for named property mapping. The range for named property identifiers is between 0x8000 and 0xFFFE.  \`\`\` |
+  \{@link ArgumentNullException\} if nameId is null. \{@link ArgumentNullException\} if \{@code property\} is null. \{@link ArgumentException\} if \{@code MapiProperty.Tag\}(\{@link MapiProperty\#getTag\}) can'be used for named property mapping. The range for named property identifiers is between 0x8000 and 0xFFFE.   |
 

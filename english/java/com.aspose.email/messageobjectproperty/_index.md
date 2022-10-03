@@ -1,7 +1,7 @@
 ---
 title: MessageObjectProperty
 second_title: Aspose.Email for Java API Reference
-description:  Represents a property on a .
+description: Represents a property on a .
 type: docs
 weight: 499
 url: /java/com.aspose.email/messageobjectproperty/
@@ -26,7 +26,7 @@ Represents a property on a [MessageObject](../../com.aspose.email/messageobject)
 | [getPropertyType()](#getPropertyType--) | Gets the type of the property. |
 | [getFlags()](#getFlags--) | Gets the flags set on a property. |
 | [getId()](#getId--) | Gets the id of the property. |
-| [getPropertyTag()](#getPropertyTag--) | Gets the property tag, a combined value which contains \`\`\` Id \`\`\`(\#getId) and \`\`\` PropertyType \`\`\`(\#getPropertyType) |
+| [getPropertyTag()](#getPropertyTag--) | Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType) |
 | [getGuid()](#getGuid--) | Gets or sets the GUID for the named property. |
 | [setGuid(UUID value)](#setGuid-java.util.UUID-) | Gets or sets the GUID for the named property. |
 | [getPropertyKind()](#getPropertyKind--) | Gets or sets the kind of the property if it's named. |
@@ -43,7 +43,7 @@ Represents a property on a [MessageObject](../../com.aspose.email/messageobject)
 | [toDateTime()](#toDateTime--) | Converts the value of the property to DateTime. |
 | [toStringRepresentation()](#toStringRepresentation--) | Converts the value of the property to string. |
 | [toList()](#toList--) | Converts the value of the property to a list of values. |
-| [toGuid()](#toGuid--) | Converts the value of the property to \`\`\` Guid \`\`\`(\#getGuid/\#setGuid(Guid)). |
+| [toGuid()](#toGuid--) | Converts the value of the property to  Guid (\#getGuid.getGuid/\#setGuid(Guid).setGuid(Guid)). |
 ### MessageObjectProperty(long propertyTag, int flags, Object value) {#MessageObjectProperty-long-int-java.lang.Object-}
 ```
 public MessageObjectProperty(long propertyTag, int flags, Object value)
@@ -117,7 +117,7 @@ public final long getPropertyTag()
 ```
 
 
-Gets the property tag, a combined value which contains \`\`\` Id \`\`\`(\#getId) and \`\`\` PropertyType \`\`\`(\#getPropertyType)
+Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType)
 
 Value: The property tag.
 
@@ -239,7 +239,7 @@ public final boolean getNamed()
 
 Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is a named property.
 
-Value: \`\`\` true \`\`\` if named; otherwise, \`\`\` false \`\`\`.
+Value:  true  if named; otherwise,  false .
 
 --------------------
 
@@ -255,7 +255,7 @@ public final boolean getAtomic()
 
 Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is atomic.
 
-Value: \`\`\` true \`\`\` if atomic; otherwise, \`\`\` false \`\`\`.
+Value:  true  if atomic; otherwise,  false .
 
 **Returns:**
 boolean
@@ -301,11 +301,11 @@ public final Date toDateTime()
 Converts the value of the property to DateTime.
 
 **Returns:**
-java.util.Date - DateTime value, if type can't be converted to DateTime returns java.util.Date\#MinValue.
+java.util.Date - DateTime value, if type can't be converted to DateTime returns java.util.Date\#MinValue.MinValue.
 
 --------------------
 
-This method doesn't provide automatic conversion of the data types, e.g. if \`\`\` MessageObjectProperty.Value \`\`\`(\#getValue/\#setValue(Object)) property is of type default value will be returned.
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
 ### toStringRepresentation() {#toStringRepresentation--}
 ```
 public final String toStringRepresentation()
@@ -319,7 +319,7 @@ java.lang.String - String value, if type can't be converted to string returns em
 
 --------------------
 
-This method doesn't provide automatic conversion of the data types, e.g. if \`\`\` MessageObjectProperty.Value \`\`\`(\#getValue/\#setValue(Object)) property is of type default value will be returned.
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
 ### toList() {#toList--}
 ```
 public System.Collections.IList toList()
@@ -333,18 +333,18 @@ com.aspose.ms.System.Collections.IList - IList implementation, if type can't be 
 
 --------------------
 
-This method doesn't provide automatic conversion of the data types, e.g. if \`\`\` MessageObjectProperty.Value \`\`\`(\#getValue/\#setValue(Object)) property is of type default value will be returned.
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
 ### toGuid() {#toGuid--}
 ```
 public final UUID toGuid()
 ```
 
 
-Converts the value of the property to \`\`\` Guid \`\`\`(\#getGuid/\#setGuid(Guid)).
+Converts the value of the property to  Guid (\#getGuid.getGuid/\#setGuid(Guid).setGuid(Guid)).
 
 **Returns:**
 java.util.UUID - Guid object, if type can't be converted to Guid returns empty GUID.
 
 --------------------
 
-This method doesn't provide automatic conversion of the data types, e.g. if \`\`\` MessageObjectProperty.Value \`\`\`(\#getValue/\#setValue(Object)) property is of type default value will be returned.
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.

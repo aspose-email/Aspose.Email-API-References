@@ -1,7 +1,7 @@
 ---
 title: ItemMovedEventArgs
 second_title: Aspose.Email for Java API Reference
-description:  Provides data for the  event
+description: Provides data for the  event
 type: docs
 weight: 341
 url: /java/com.aspose.email/itemmovedeventargs/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.EventArgs
 public class ItemMovedEventArgs extends System.EventArgs
 ```
 
-Provides data for the [FolderInfo\#ItemMovedDelegate](../../com.aspose.email/folderinfo\#ItemMovedDelegate) event
+Provides data for the [FolderInfo.ItemMovedDelegate](../../com.aspose.email/folderinfo\#ItemMovedDelegate) event
 ## Constructors
 
 | Constructor | Description |

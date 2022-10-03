@@ -1,8 +1,7 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Aspose.Email for Java API Reference
-description: p 
- Summary description for SmtpFailedRecipientsException.
+description: Summary description for SmtpFailedRecipientsException.
 type: docs
 weight: 637
 url: /java/com.aspose.email/smtpfailedrecipientsexception/
@@ -74,7 +73,7 @@ Initializes a new instance of the [SmtpFailedRecipientsException](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | Error message |
-| innerExceptions | com.aspose.email.SmtpFailedRecipientException[] | The list of exceptions that is the cause of the current exception. |
+| innerExceptions | [SmtpFailedRecipientException\[\]](../../com.aspose.email/smtpfailedrecipientexception) | The list of exceptions that is the cause of the current exception. |
 
 ### getInnerExceptions() {#getInnerExceptions--}
 ```

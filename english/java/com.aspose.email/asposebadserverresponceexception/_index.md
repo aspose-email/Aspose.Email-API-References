@@ -1,7 +1,7 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Aspose.Email for Java API Reference
-description:  Represents errors that occur during server operation execution.
+description: Represents errors that occur during server operation execution.
 type: docs
 weight: 53
 url: /java/com.aspose.email/asposebadserverresponceexception/
@@ -14,7 +14,7 @@ public class AsposeBadServerResponceException extends AsposeException
 
 Represents errors that occur during server operation execution.
 
-\`\`\` 1 \`\`\`
+ 1 
 ## Constructors
 
 | Constructor | Description |

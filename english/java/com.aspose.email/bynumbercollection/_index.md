@@ -1,7 +1,7 @@
 ---
 title: ByNumberCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a set of months weeks days hours minutes or seconds in a recurrence rule.
+description: Represents a set of months weeks days hours minutes or seconds in a recurrence rule.
 type: docs
 weight: 88
 url: /java/com.aspose.email/bynumbercollection/
@@ -16,15 +16,15 @@ Represents a set of months, weeks, days, hours, minutes or seconds in a recurren
 
 --------------------
 
-\`\`\`
+
 
 Corresponds to various BYXXX parts such as BYDAY, BYMONTH of a recurrence rule.
 
-\`\`\` \`\`\`
+ 
 
 Most of the ByXXX properties of \{@link RecurrenceRule\} are implemented as ByNumberCollection.
 
-\`\`\`
+
 ## Methods
 
 | Method | Description |
@@ -49,11 +49,11 @@ Adds a month, week, day, hour, minute or second to the collection.
 
 --------------------
 
-\`\`\`
+
 
 Throws an exception if the value is outside of the valid range for the time unit of this collection.
 
-\`\`\` |
+ |
 
 **Returns:**
 int - The zero-based index of the newly added item.
@@ -84,7 +84,7 @@ Determines whether the specified [ByNumberCollection](../../com.aspose.email/byn
 | other | [ByNumberCollection](../../com.aspose.email/bynumbercollection) | The [ByNumberCollection](../../com.aspose.email/bynumbercollection) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [ByNumberCollection](../../com.aspose.email/bynumbercollection) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [ByNumberCollection](../../com.aspose.email/bynumbercollection) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

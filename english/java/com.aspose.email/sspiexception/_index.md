@@ -1,7 +1,7 @@
 ---
 title: SSPIException
 second_title: Aspose.Email for Java API Reference
-description:  Represents errors that occur during SSPI execution.
+description: Represents errors that occur during SSPI execution.
 type: docs
 weight: 610
 url: /java/com.aspose.email/sspiexception/
@@ -14,7 +14,7 @@ public class SSPIException extends AsposeException
 
 Represents errors that occur during SSPI execution.
 
-\`\`\` 1 \`\`\`
+ 1 
 ## Constructors
 
 | Constructor | Description |

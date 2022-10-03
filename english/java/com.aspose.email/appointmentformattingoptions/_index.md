@@ -1,7 +1,7 @@
 ---
 title: AppointmentFormattingOptions
 second_title: Aspose.Email for Java API Reference
-description:  Represents the appointment formatting options.
+description: Represents the appointment formatting options.
 type: docs
 weight: 36
 url: /java/com.aspose.email/appointmentformattingoptions/
@@ -276,7 +276,7 @@ public final boolean isTextFormat()
 
 Gets a value indicating whether template has a text format.
 
-Value: \`\`\` true \`\`\` if template has a text format; otherwise, \`\`\` false \`\`\`.
+Value:  true  if template has a text format; otherwise,  false .
 
 **Returns:**
 boolean

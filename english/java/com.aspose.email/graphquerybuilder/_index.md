@@ -1,8 +1,7 @@
 ---
 title: GraphQueryBuilder
 second_title: Aspose.Email for Java API Reference
-description:  Represents the builder of search expression
- based on search filters that used by MS Graph protocol.
+description: Represents the builder of search expression based on search filters that used by MS Graph protocol.
 type: docs
 weight: 287
 url: /java/com.aspose.email/graphquerybuilder/

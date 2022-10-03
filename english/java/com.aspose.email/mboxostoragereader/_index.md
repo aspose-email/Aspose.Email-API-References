@@ -1,7 +1,7 @@
 ---
 title: MboxoStorageReader
 second_title: Aspose.Email for Java API Reference
-description:  Represents mboxo format storage reader this format is being used by Eudora.
+description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
 weight: 481
 url: /java/com.aspose.email/mboxostoragereader/
@@ -44,7 +44,7 @@ Initializes a new instance of the [MboxoStorageReader](../../com.aspose.email/mb
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxoStorageReader(System.IO.Stream stream, boolean leaveOpen) {#MboxoStorageReader-com.aspose.ms.System.IO.Stream-boolean-}
 ```
@@ -58,7 +58,7 @@ Initializes a new instance of the [MboxoStorageReader](../../com.aspose.email/mb
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxoStorageReader(String fileName, boolean leaveOpen) {#MboxoStorageReader-java.lang.String-boolean-}
 ```
@@ -72,7 +72,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxoStorageReader(InputStream stream, MboxLoadOptions options) {#MboxoStorageReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-}
 ```
@@ -131,7 +131,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public int getTotalItemsCount()
@@ -151,7 +151,7 @@ public MailMessage readNextMessage()
 Reads the next message from underlying storage stream.
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(String[] fromMarker) {#readNextMessage-java.lang.String---}
 ```
 public MailMessage readNextMessage(String[] fromMarker)
@@ -166,7 +166,7 @@ Reads the next message from underlying storage stream.
 | fromMarker | java.lang.String[] | Gets the From Marker while parsing the MBox Storage file. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(EmlLoadOptions options) {#readNextMessage-com.aspose.email.EmlLoadOptions-}
 ```
 public MailMessage readNextMessage(EmlLoadOptions options)
@@ -181,4 +181,4 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.

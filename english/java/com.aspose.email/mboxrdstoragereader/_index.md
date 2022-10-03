@@ -1,7 +1,7 @@
 ---
 title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
-description:  Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
+description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
 weight: 482
 url: /java/com.aspose.email/mboxrdstoragereader/
@@ -44,7 +44,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageReader(System.IO.Stream stream, boolean leaveOpen) {#MboxrdStorageReader-com.aspose.ms.System.IO.Stream-boolean-}
 ```
@@ -58,7 +58,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageReader(String fileName, boolean leaveOpen) {#MboxrdStorageReader-java.lang.String-boolean-}
 ```
@@ -72,7 +72,7 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
-| leaveOpen | boolean | if set to \`\`\` true \`\`\` leaves the underlying stream open after disposing. |
+| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
 
 ### MboxrdStorageReader(InputStream stream, MboxLoadOptions options) {#MboxrdStorageReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-}
 ```
@@ -130,7 +130,7 @@ Reads the next message from underlying storage stream.
 | fromMarker | java.lang.String[] | Gets the From Marker while parsing the MBox Storage file. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(EmlLoadOptions options) {#readNextMessage-com.aspose.email.EmlLoadOptions-}
 ```
 public MailMessage readNextMessage(EmlLoadOptions options)
@@ -145,7 +145,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage(String[] fromMarker, EmlLoadOptions options) {#readNextMessage-java.lang.String---com.aspose.email.EmlLoadOptions-}
 ```
 public MailMessage readNextMessage(String[] fromMarker, EmlLoadOptions options)
@@ -161,7 +161,7 @@ Reads the next message from underlying storage stream.
 | options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### readNextMessage() {#readNextMessage--}
 ```
 public MailMessage readNextMessage()
@@ -171,7 +171,7 @@ public MailMessage readNextMessage()
 Reads the next message from underlying storage stream.
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or \`\`\` **null** \`\`\` if no more messages are available.
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public int getTotalItemsCount()

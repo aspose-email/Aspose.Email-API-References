@@ -1,7 +1,7 @@
 ---
 title: FollowUpManager
 second_title: Aspose.Email for Java API Reference
-description:  Provides the ability to set and handle follow-up Outlook flags and categories.
+description: Provides the ability to set and handle follow-up Outlook flags and categories.
 type: docs
 weight: 257
 url: /java/com.aspose.email/followupmanager/
@@ -253,7 +253,7 @@ Get the available message voting buttons.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | [MapiMessage](../../com.aspose.email/mapimessage) | The \`\`\` MapiMessage \`\`\` in which the buttons are added. |
+| message | [MapiMessage](../../com.aspose.email/mapimessage) | The  MapiMessage  in which the buttons are added. |
 
 **Returns:**
 java.lang.String[] - The list of added voting buttons.

@@ -1,7 +1,7 @@
 ---
 title: LogLevel
 second_title: Aspose.Email for Java API Reference
-description:  Defines available log levels.
+description: Defines available log levels.
 type: docs
 weight: 356
 url: /java/com.aspose.email/loglevel/
@@ -96,7 +96,7 @@ Compares two [LogLevel](../../com.aspose.email/loglevel) objects and returns a v
 | l2 | [LogLevel](../../com.aspose.email/loglevel) | The second level. |
 
 **Returns:**
-boolean - The value of \`\`\` l1.Ordinal <= l2.Ordinal \`\`\`
+boolean - The value of  l1.Ordinal <= l2.Ordinal 
 ### op_GreaterThanOrEqual(LogLevel l1, LogLevel l2) {#op-GreaterThanOrEqual-com.aspose.email.LogLevel-com.aspose.email.LogLevel-}
 ```
 public static boolean op_GreaterThanOrEqual(LogLevel l1, LogLevel l2)
@@ -112,7 +112,7 @@ Compares two [LogLevel](../../com.aspose.email/loglevel) objects and returns a v
 | l2 | [LogLevel](../../com.aspose.email/loglevel) | The second level. |
 
 **Returns:**
-boolean - The value of \`\`\` l1.Ordinal >= l2.Ordinal \`\`\`
+boolean - The value of  l1.Ordinal >= l2.Ordinal 
 ### op_LessThan(LogLevel l1, LogLevel l2) {#op-LessThan-com.aspose.email.LogLevel-com.aspose.email.LogLevel-}
 ```
 public static boolean op_LessThan(LogLevel l1, LogLevel l2)
@@ -128,7 +128,7 @@ Compares two [LogLevel](../../com.aspose.email/loglevel) objects and returns a v
 | l2 | [LogLevel](../../com.aspose.email/loglevel) | The second level. |
 
 **Returns:**
-boolean - The value of \`\`\` l1.Ordinal < l2.Ordinal \`\`\`
+boolean - The value of  l1.Ordinal < l2.Ordinal 
 ### op_GreaterThan(LogLevel l1, LogLevel l2) {#op-GreaterThan-com.aspose.email.LogLevel-com.aspose.email.LogLevel-}
 ```
 public static boolean op_GreaterThan(LogLevel l1, LogLevel l2)
@@ -144,7 +144,7 @@ Compares two [LogLevel](../../com.aspose.email/loglevel) objects and returns a v
 | l2 | [LogLevel](../../com.aspose.email/loglevel) | The second level. |
 
 **Returns:**
-boolean - The value of \`\`\` l1.Ordinal > l2.Ordinal \`\`\`
+boolean - The value of  l1.Ordinal > l2.Ordinal 
 ### toString() {#toString--}
 ```
 public String toString()
@@ -169,4 +169,4 @@ Compares the level to the other [LogLevel](../../com.aspose.email/loglevel) obje
 | obj | java.lang.Object | the object object |
 
 **Returns:**
-int - a value less than zero when this logger's \`\`\` Ordinal \`\`\`(\#getOrdinal) is less than the other logger's ordinal, 0 when they are equal and greater than zero when this ordinal is greater than the other ordinal.
+int - a value less than zero when this logger's  Ordinal (\#getOrdinal.getOrdinal) is less than the other logger's ordinal, 0 when they are equal and greater than zero when this ordinal is greater than the other ordinal.

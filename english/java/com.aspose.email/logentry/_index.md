@@ -1,7 +1,7 @@
 ---
 title: LogEntry
 second_title: Aspose.Email for Java API Reference
-description:  Represents a log message.
+description: Represents a log message.
 type: docs
 weight: 355
 url: /java/com.aspose.email/logentry/
@@ -44,8 +44,8 @@ Represents a log message. Contains the common properties that are required for a
 | [setCategory(String value)](#setCategory-java.lang.String-) | Category name used to route the log entry to a one or more sinks. |
 | [getEventId()](#getEventId--) | Event number or identifier. |
 | [setEventId(int value)](#setEventId-int-) | Event number or identifier. |
-| [getSeverity()](#getSeverity--) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. |
-| [setSeverity(LogLevel value)](#setSeverity-com.aspose.email.LogLevel-) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. |
+| [getSeverity()](#getSeverity--) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. |
+| [setSeverity(LogLevel value)](#setSeverity-com.aspose.email.LogLevel-) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. |
 | [getTitle()](#getTitle--) | Additional description of the log entry message. |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Additional description of the log entry message. |
 | [getTimeStamp()](#getTimeStamp--) | Date and time of the log entry message. |
@@ -126,7 +126,7 @@ Initialize a new instance of a [LogEntry](../../com.aspose.email/logentry) class
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | Message body to log. Value from ToString() method from message object. |
-| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
 
 ### LogEntry(String message, Throwable innerException, LogLevel severity) {#LogEntry-java.lang.String-java.lang.Throwable-com.aspose.email.LogLevel-}
 ```
@@ -141,7 +141,7 @@ Initialize a new instance of a [LogEntry](../../com.aspose.email/logentry) class
 | --- | --- | --- |
 | message | java.lang.String | Message body to log. Value from ToString() method from message object. |
 | innerException | java.lang.Throwable | The inner exception to log. |
-| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
 
 ### LogEntry(String message, System.Collections.Generic.IGenericDictionary<String,String> properties) {#LogEntry-java.lang.String-com.aspose.ms.System.Collections.Generic.IGenericDictionary-java.lang.String-java.lang.String--}
 ```
@@ -225,7 +225,7 @@ Create a new instance of [LogEntry](../../com.aspose.email/logentry) with a full
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | Message body to log. Value from ToString() method from message object. |
-| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
 | category | java.lang.String | Category name used to route the log entry to a one or more sinks. |
 | eventId | int | Event number or identifier. |
 | title | java.lang.String | Additional description of the log entry message. |
@@ -244,7 +244,7 @@ Create a new instance of [LogEntry](../../com.aspose.email/logentry) with a full
 | --- | --- | --- |
 | message | java.lang.String | Message body to log. Value from ToString() method from message object. |
 | innerException | java.lang.Throwable | The inner exception to log. |
-| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | [LogLevel](../../com.aspose.email/loglevel) | Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error). |
 | category | java.lang.String | Category name used to route the log entry to a one or more sinks. |
 | eventId | int | Event number or identifier. |
 | title | java.lang.String | Additional description of the log entry message. |
@@ -371,7 +371,7 @@ public final LogLevel getSeverity()
 ```
 
 
-Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error).
+Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error).
 
 **Returns:**
 [LogLevel](../../com.aspose.email/loglevel)
@@ -381,7 +381,7 @@ public final void setSeverity(LogLevel value)
 ```
 
 
-Log entry severity as a \`\`\` Severity \`\`\`(\#getSeverity/\#setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error).
+Log entry severity as a  Severity (\#getSeverity.getSeverity/\#setSeverity(LogLevel).setSeverity(LogLevel)) enumeration. (Unspecified, Information, Warning or Error).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -535,7 +535,7 @@ public final LogEntry deepClone()
 Creates a new [LogEntry](../../com.aspose.email/logentry) that is a copy of the current instance.
 
 **Returns:**
-[LogEntry](../../com.aspose.email/logentry) - A new \`\`\` LogEntry \`\`\` that is a copy of the current instance.
+[LogEntry](../../com.aspose.email/logentry) - A new  LogEntry  that is a copy of the current instance.
 ### addErrorMessage(String message) {#addErrorMessage-java.lang.String-}
 ```
 public void addErrorMessage(String message)

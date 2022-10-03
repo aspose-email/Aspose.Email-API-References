@@ -1,7 +1,7 @@
 ---
 title: ContactGroupCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents collection of GmailContactGroup objects
+description: Represents collection of GmailContactGroup objects
 type: docs
 weight: 119
 url: /java/com.aspose.email/contactgroupcollection/
@@ -22,7 +22,7 @@ Represents collection of GmailContactGroup objects
 
 | Method | Description |
 | --- | --- |
-| [insertItem(int index, GoogleContactGroup item)](#insertItem-int-com.aspose.email.GoogleContactGroup-) | Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index. |
+| [insertItem(int index, GoogleContactGroup item)](#insertItem-int-com.aspose.email.GoogleContactGroup-) | Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index. |
 ### ContactGroupCollection() {#ContactGroupCollection--}
 ```
 public ContactGroupCollection()
@@ -35,11 +35,11 @@ public void insertItem(int index, GoogleContactGroup item)
 ```
 
 
-Inserts an element into the \`\`\` System.Collections.ObjectModel.Collection\`1 \`\`\` at the specified index.
+Inserts an element into the  System.Collections.ObjectModel.Collection1  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` item \`\`\` should be inserted. |
+| index | int | The zero-based index at which  item  should be inserted. |
 | item | [GoogleContactGroup](../../com.aspose.email/googlecontactgroup) | The object to insert. The value can be null for reference types. |
 

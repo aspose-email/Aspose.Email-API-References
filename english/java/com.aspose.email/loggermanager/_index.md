@@ -1,7 +1,7 @@
 ---
 title: LoggerManager
 second_title: Aspose.Email for Java API Reference
-description:  Static manager that controls the creation of loggers.
+description: Static manager that controls the creation of loggers.
 type: docs
 weight: 358
 url: /java/com.aspose.email/loggermanager/
@@ -121,7 +121,7 @@ Creates a logger with specified name and appender.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The logger name. |
-| appenders | com.aspose.email.Appender[] | The appender. |
+| appenders | [Appender\[\]](../../com.aspose.email/appender) | The appender. |
 
 **Returns:**
 [Logger](../../com.aspose.email/logger) - The created logger.
@@ -155,7 +155,7 @@ Creates a logger with specified name and appender.
 | --- | --- | --- |
 | name | java.lang.String | The logger name. |
 | severity | [LogLevel](../../com.aspose.email/loglevel) | The severity. |
-| appenders | com.aspose.email.Appender[] | The appenders array. |
+| appenders | [Appender\[\]](../../com.aspose.email/appender) | The appenders array. |
 
 **Returns:**
 [Logger](../../com.aspose.email/logger) - The created logger.

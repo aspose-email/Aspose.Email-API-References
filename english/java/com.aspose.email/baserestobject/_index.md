@@ -1,7 +1,7 @@
 ---
 title: BaseRestObject
 second_title: Aspose.Email for Java API Reference
-description:  Represents functionality for base object.
+description: Represents functionality for base object.
 type: docs
 weight: 78
 url: /java/com.aspose.email/baserestobject/
@@ -35,7 +35,7 @@ Initializes a new instance of the [FolderInfo](../../com.aspose.email/folderinfo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | properties | [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection) | MapiProperties for this folder |
-| explicitProperties | com.aspose.email.PropertyDescriptor[] | Contains enumeration of MAPI properties which are transmits as explicit object properties |
+| explicitProperties | [PropertyDescriptor\[\]](../../com.aspose.email/propertydescriptor) | Contains enumeration of MAPI properties which are transmits as explicit object properties |
 
 ### getProperties() {#getProperties--}
 ```

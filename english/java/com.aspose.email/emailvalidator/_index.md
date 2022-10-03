@@ -1,7 +1,7 @@
 ---
 title: EmailValidator
 second_title: Aspose.Email for Java API Reference
-description:  EmailValidator class provides the capability to validate e-mail addresses.
+description: EmailValidator class provides the capability to validate e-mail addresses.
 type: docs
 weight: 169
 url: /java/com.aspose.email/emailvalidator/
@@ -122,7 +122,7 @@ Validating the email address
 | --- | --- | --- |
 | mailAddress | java.lang.String | The mail address to be validated. |
 | policy | int | The policy of the validating process. |
-| result | com.aspose.email.ValidationResult[] | The result of the validating process. |
+| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validating process. |
 
 ### validate(String mailAddress, ValidationResult[] result) {#validate-java.lang.String-com.aspose.email.ValidationResult---}
 ```
@@ -136,7 +136,7 @@ Validate email address, with the MailServer validation policy.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mailAddress | java.lang.String | The Email address to be validated. |
-| result | com.aspose.email.ValidationResult[] | The result of the validation. |
+| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validation. |
 
 ### beginValidate(String mailAddress, int policy, ValidationResult[] result, System.AsyncCallback asyncCallback, Object stateObject) {#beginValidate-java.lang.String-int-com.aspose.email.ValidationResult---com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
@@ -151,7 +151,7 @@ Begins an asynchronous validating process for an email address.
 | --- | --- | --- |
 | mailAddress | java.lang.String | The email address to be validated. |
 | policy | int | The policy of the validating process. |
-| result | com.aspose.email.ValidationResult[] | The result of the validating process. |
+| result | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validating process. |
 | asyncCallback | com.aspose.ms.System.AsyncCallback | The AsyncCallback delegate |
 | stateObject | java.lang.Object | An object that contains state information for this request. |
 
@@ -168,6 +168,6 @@ Ends an asynchronous validating process for an email address.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| validationResult | com.aspose.email.ValidationResult[] | The result of the validating process. |
+| validationResult | [ValidationResult\[\]](../../com.aspose.email/validationresult) | The result of the validating process. |
 | asyncResult | com.aspose.ms.System.IAsyncResult | An IAsyncResult that stores state information and any user defined data for this asynchronous operation. |
 

@@ -1,7 +1,7 @@
 ---
 title: MailQuery
 second_title: Aspose.Email for Java API Reference
-description:  Represents the search criteria that are used to match several message properties in the mailbox.
+description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
 weight: 372
 url: /java/com.aspose.email/mailquery/
@@ -121,7 +121,7 @@ public final System.Xml.XmlSchema getSchema()
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class.
 
 **Returns:**
-com.aspose.ms.System.Xml.XmlSchema - An XmlSchema that describes the XML representation of the object that is produced by the \`\`\` M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter) \`\`\` method and consumed by the \`\`\` M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader) \`\`\` method.
+com.aspose.ms.System.Xml.XmlSchema - An XmlSchema that describes the XML representation of the object that is produced by the  M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)  method and consumed by the  M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)  method.
 ### getOrderByString() {#getOrderByString--}
 ```
 public final String getOrderByString()
@@ -146,7 +146,7 @@ Indicates whether the current object is equal to another object of the same type
 | other | [MailQuery](../../com.aspose.email/mailquery) | An object to compare with this object. |
 
 **Returns:**
-boolean - true if the current object is equal to the \`\`\` other \`\`\` parameter; otherwise, false.
+boolean - true if the current object is equal to the  other  parameter; otherwise, false.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -181,4 +181,4 @@ Determines whether the specified Object, is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .

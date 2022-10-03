@@ -1,9 +1,7 @@
 ---
 title: ListFoldersReturnOptions
 second_title: Aspose.Email for Java API Reference
-description:  Return options for ListFolders operation
- Please note this options are supported in case if server supports RFC 5258 IMAP LIST Command Extensions
- See more details in https//tools.ietf.org/html/rfc5258
+description: Return options for ListFolders operation Please note this options are supported in case if server supports RFC 5258 IMAP LIST Command Extensions See more details in https//tools.ietf.org/html/rfc5258
 type: docs
 weight: 352
 url: /java/com.aspose.email/listfoldersreturnoptions/

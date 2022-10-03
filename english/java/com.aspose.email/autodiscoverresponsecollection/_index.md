@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverResponseCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of responses to a call to the Autodiscover service.
+description: Represents a collection of responses to a call to the Autodiscover service.
 type: docs
 weight: 72
 url: /java/com.aspose.email/autodiscoverresponsecollection/
@@ -17,7 +17,7 @@ public abstract class AutodiscoverResponseCollection<TResponse> extends Autodisc
 
 Represents a collection of responses to a call to the Autodiscover service.
 
-\`\`\` TResponse \`\`\`: The type of the responses in the collection.
+ TResponse : The type of the responses in the collection.
 ## Methods
 
 | Method | Description |

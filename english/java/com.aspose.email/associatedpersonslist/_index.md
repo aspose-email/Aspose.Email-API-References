@@ -1,7 +1,7 @@
 ---
 title: AssociatedPersonsList
 second_title: Aspose.Email for Java API Reference
-description:  List of associated persons for a contact
+description: List of associated persons for a contact
 type: docs
 weight: 61
 url: /java/com.aspose.email/associatedpersonslist/
@@ -426,7 +426,7 @@ Inserts an item to the list at the specified index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` value \`\`\` should be inserted. |
+| index | int | The zero-based index at which  value  should be inserted. |
 | value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to insert into the list. |
 
 ### get_Item(int index) {#get-Item-int-}
@@ -495,7 +495,7 @@ Determines the index of a specific item in the list.
 | value | [AssociatedPerson](../../com.aspose.email/associatedperson) | The Object to locate in the list. |
 
 **Returns:**
-int - The index of \`\`\` value \`\`\` if found in the list; otherwise, -1.
+int - The index of  value  if found in the list; otherwise, -1.
 ### remove(AssociatedPerson value) {#remove-com.aspose.email.AssociatedPerson-}
 ```
 public final boolean remove(AssociatedPerson value)
@@ -545,7 +545,7 @@ Copies the elements to an array, starting at a particular array index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.AssociatedPerson[] | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
+| array | [AssociatedPerson\[\]](../../com.aspose.email/associatedperson) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
 | index | int | The zero-based index in array at which copying begins. |
 
 ### size() {#size--}
@@ -671,6 +671,6 @@ public void copyToTArray(AssociatedPerson[] array, int index)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.AssociatedPerson[] |  |
+| array | [AssociatedPerson\[\]](../../com.aspose.email/associatedperson) |  |
 | index | int |  |
 

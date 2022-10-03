@@ -1,8 +1,7 @@
 ---
 title: OlmMessageInfo
 second_title: Aspose.Email for Java API Reference
-description:  Represents an information
- about message in the OLM storage.
+description: Represents an information about message in the OLM storage.
 type: docs
 weight: 539
 url: /java/com.aspose.email/olmmessageinfo/
@@ -93,7 +92,7 @@ public final boolean hasAttachments()
 
 Gets or sets a value indicating whether the message has attachments.
 
-Value: \`\`\` true \`\`\` if this instance has attachments; otherwise, \`\`\` false \`\`\`.
+Value:  true  if this instance has attachments; otherwise,  false .
 
 **Returns:**
 boolean

@@ -1,8 +1,7 @@
 ---
 title: ImapAttachmentInfoCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents the collection of 
- 
+description: Represents the collection of
 type: docs
 weight: 303
 url: /java/com.aspose.email/imapattachmentinfocollection/

@@ -1,8 +1,7 @@
 ---
 title: NoteColor
 second_title: Aspose.Email for Java API Reference
-description:  Specifies the suggested background color 
- of the Note object
+description: Specifies the suggested background color  of the Note object
 type: docs
 weight: 523
 url: /java/com.aspose.email/notecolor/

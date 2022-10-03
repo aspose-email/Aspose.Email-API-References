@@ -1,7 +1,7 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for Java API Reference
-description:  Defines the collection of header fields
+description: Defines the collection of header fields
 type: docs
 weight: 288
 url: /java/com.aspose.email/headercollection/
@@ -27,7 +27,7 @@ Defines the collection of header fields
 | Method | Description |
 | --- | --- |
 | [getAllKeys()](#getAllKeys--) | Gets an array of strings containing all header keys in collections |
-| [getKeys()](#getKeys--) | Gets a \`\`\` System.Collections.ObjectModel.ReadOnlyCollection\{string\} \`\`\` containing all header keys in collections |
+| [getKeys()](#getKeys--) | Gets a  System.Collections.ObjectModel.ReadOnlyCollection\{string\}  containing all header keys in collections |
 | [get_Item(String name)](#get-Item-java.lang.String-) | Gets a value from collection by the name. |
 | [set_Item(String name, String value)](#set-Item-java.lang.String-java.lang.String-) | Gets a value from collection by the name. |
 | [get_Item(int index)](#get-Item-int-) | Gets a value from collection by the index. |
@@ -90,7 +90,7 @@ public List<String> getKeys()
 ```
 
 
-Gets a \`\`\` System.Collections.ObjectModel.ReadOnlyCollection\{string\} \`\`\` containing all header keys in collections
+Gets a  System.Collections.ObjectModel.ReadOnlyCollection\{string\}  containing all header keys in collections
 
 **Returns:**
 java.util.List<java.lang.String>
@@ -347,7 +347,7 @@ Gets a value indicating whether the specified header is contained in the collect
 | item | java.lang.String | A header to search |
 
 **Returns:**
-boolean - \`\`\` True \`\`\` if collection contains specified \`\`\` item \`\`\`; otherwise, \`\`\` false \`\`\`
+boolean -  True  if collection contains specified  item ; otherwise,  false 
 ### copyTo(String[] array, int arrayIndex) {#copyTo-java.lang.String---int-}
 ```
 public final void copyTo(String[] array, int arrayIndex)
@@ -386,7 +386,7 @@ public final System.Collections.Generic.IGenericEnumerator<String> iterator()
 Returns an enumerator that iterates through a collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<java.lang.String> - An \`\`\` System.Collections.Generic.IEnumerator\{string\} \`\`\` object that can be used to iterate through the collection.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<java.lang.String> - An  System.Collections.Generic.IEnumerator\{string\}  object that can be used to iterate through the collection.
 ### copyTo(System.Array dest, int index) {#copyTo-com.aspose.ms.System.Array-int-}
 ```
 public void copyTo(System.Array dest, int index)

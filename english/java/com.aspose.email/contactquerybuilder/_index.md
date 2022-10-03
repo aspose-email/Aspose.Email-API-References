@@ -1,7 +1,7 @@
 ---
 title: ContactQueryBuilder
 second_title: Aspose.Email for Java API Reference
-description:  Represents the builder of search expression that used by Exchange protocol.
+description: Represents the builder of search expression that used by Exchange protocol.
 type: docs
 weight: 122
 url: /java/com.aspose.email/contactquerybuilder/
@@ -17,7 +17,7 @@ Represents the builder of search expression that used by Exchange protocol.
 
 | Constructor | Description |
 | --- | --- |
-| [ContactQueryBuilder()](#ContactQueryBuilder--) | Initializes a new instance of the \`\`\` ContactQueryBuilder \`\`\` class. |
+| [ContactQueryBuilder()](#ContactQueryBuilder--) | Initializes a new instance of the  ContactQueryBuilder  class. |
 ## Methods
 
 | Method | Description |
@@ -32,7 +32,7 @@ public ContactQueryBuilder()
 ```
 
 
-Initializes a new instance of the \`\`\` ContactQueryBuilder \`\`\` class.
+Initializes a new instance of the  ContactQueryBuilder  class.
 
 ### getCreationTime() {#getCreationTime--}
 ```

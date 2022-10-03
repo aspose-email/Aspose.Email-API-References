@@ -1,7 +1,7 @@
 ---
 title: MapiMessageItemBase
 second_title: Aspose.Email for Java API Reference
-description:  Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
+description: Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
 type: docs
 weight: 445
 url: /java/com.aspose.email/mapimessageitembase/
@@ -34,7 +34,7 @@ Represents the base class for all MapiMessageItem classes and keeps common colle
 | [getBodyType()](#getBodyType--) | Gets the type of the body. |
 | [getBodyRtf()](#getBodyRtf--) | Gets or sets the RTF formatted message text. |
 | [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Gets or sets the RTF formatted message text. |
-| [getBodyHtml()](#getBodyHtml--) | Gets the \`\`\` BodyRtf \`\`\`(\#getBodyRtf/\#setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string. |
+| [getBodyHtml()](#getBodyHtml--) | Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string. |
 | [getCompanies()](#getCompanies--) | Contains the names of the companies that are associated with an item. |
 | [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Contains the names of the companies that are associated with an item. |
 | [getCategories()](#getCategories--) | Contains keywords or categories for the message object. |
@@ -250,7 +250,7 @@ public final String getBodyHtml()
 ```
 
 
-Gets the \`\`\` BodyRtf \`\`\`(\#getBodyRtf/\#setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string.
+Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string.
 
 **Returns:**
 java.lang.String

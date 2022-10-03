@@ -1,7 +1,7 @@
 ---
 title: DateCollection
 second_title: Aspose.Email for Java API Reference
-description:  Represents a collection of java.util.Date values.
+description: Represents a collection of java.util.Date values.
 type: docs
 weight: 142
 url: /java/com.aspose.email/datecollection/
@@ -19,8 +19,8 @@ Represents a collection of java.util.Date values.
 
 | Method | Description |
 | --- | --- |
-| [getItem(int index)](#getItem-int-) | Gets or sets the \`\`\` System.DateTime \`\`\` at the specified index. |
-| [setItem(int index, Date value)](#setItem-int-java.util.Date-) | Gets or sets the \`\`\` System.DateTime \`\`\` at the specified index. |
+| [getItem(int index)](#getItem-int-) | Gets or sets the  System.DateTime  at the specified index. |
+| [setItem(int index, Date value)](#setItem-int-java.util.Date-) | Gets or sets the  System.DateTime  at the specified index. |
 | [add_Item(Date value)](#add-Item-java.util.Date-) | Adds the element to the end of exiting collection. |
 | [addRange(Iterable c)](#addRange-java.lang.Iterable-) | Adds the elements of an System.Collections.ICollection to the end of exiting collection. |
 | [addRange(System.Collections.ObjectModel.Collection c)](#addRange-com.aspose.ms.System.Collections.ObjectModel.Collection-) | Adds the elements of an System.Collections.ICollection to the end of exiting collection. |
@@ -34,28 +34,28 @@ public Date getItem(int index)
 ```
 
 
-Gets or sets the \`\`\` System.DateTime \`\`\` at the specified index.
+Gets or sets the  System.DateTime  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index\`\`\` System.Int32 \`\`\` of the element to get or set. |
+| index | int | The zero-based index System.Int32  of the element to get or set. |
 
 **Returns:**
-java.util.Date - The element\`\`\` System.DateTime \`\`\` at the specified index.
+java.util.Date - The element System.DateTime  at the specified index.
 ### setItem(int index, Date value) {#setItem-int-java.util.Date-}
 ```
 public void setItem(int index, Date value)
 ```
 
 
-Gets or sets the \`\`\` System.DateTime \`\`\` at the specified index.
+Gets or sets the  System.DateTime  at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index\`\`\` System.Int32 \`\`\` of the element to get or set. |
-| value | java.util.Date | The element\`\`\` Date \`\`\` at the specified index. |
+| index | int | The zero-based index System.Int32  of the element to get or set. |
+| value | java.util.Date | The element Date  at the specified index. |
 
 ### add_Item(Date value) {#add-Item-java.util.Date-}
 ```
@@ -68,7 +68,7 @@ Adds the element to the end of exiting collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date | The element\`\`\` Date \`\`\` at the specified index. |
+| value | java.util.Date | The element Date  at the specified index. |
 
 ### addRange(Iterable c) {#addRange-java.lang.Iterable-}
 ```
@@ -118,7 +118,7 @@ Determines whether the specified [DateCollection](../../com.aspose.email/datecol
 | other | [DateCollection](../../com.aspose.email/datecollection) | The [DateCollection](../../com.aspose.email/datecollection) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [DateCollection](../../com.aspose.email/datecollection) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [DateCollection](../../com.aspose.email/datecollection) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

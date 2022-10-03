@@ -1,7 +1,7 @@
 ---
 title: PhoneNumberList
 second_title: Aspose.Email for Java API Reference
-description:  List of phone numbers for a contact.
+description: List of phone numbers for a contact.
 type: docs
 weight: 558
 url: /java/com.aspose.email/phonenumberlist/
@@ -499,7 +499,7 @@ Inserts an item to the list at the specified index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which \`\`\` value \`\`\` should be inserted. |
+| index | int | The zero-based index at which  value  should be inserted. |
 | value | [PhoneNumber](../../com.aspose.email/phonenumber) | The Object to insert into the list. |
 
 ### get_Item(int index) {#get-Item-int-}
@@ -568,7 +568,7 @@ Determines the index of a specific item in the list.
 | value | [PhoneNumber](../../com.aspose.email/phonenumber) | The Object to locate in the list. |
 
 **Returns:**
-int - The index of \`\`\` value \`\`\` if found in the list; otherwise, -1.
+int - The index of  value  if found in the list; otherwise, -1.
 ### remove(PhoneNumber value) {#remove-com.aspose.email.PhoneNumber-}
 ```
 public final boolean remove(PhoneNumber value)
@@ -618,7 +618,7 @@ Copies the elements to an array, starting at a particular array index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.PhoneNumber[] | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
+| array | [PhoneNumber\[\]](../../com.aspose.email/phonenumber) | The one-dimensional array that is the destination of the elements copied from collections. The array must have zero-based indexing. |
 | index | int | The zero-based index in array at which copying begins. |
 
 ### size() {#size--}
@@ -724,6 +724,6 @@ public void copyToTArray(PhoneNumber[] array, int index)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.email.PhoneNumber[] |  |
+| array | [PhoneNumber\[\]](../../com.aspose.email/phonenumber) |  |
 | index | int |  |
 

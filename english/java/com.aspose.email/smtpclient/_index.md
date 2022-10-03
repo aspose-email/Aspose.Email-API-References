@@ -1,7 +1,7 @@
 ---
 title: SmtpClient
 second_title: Aspose.Email for Java API Reference
-description:  Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
+description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
 weight: 633
 url: /java/com.aspose.email/smtpclient/
@@ -1205,7 +1205,7 @@ Begins sending email asynchronously.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
-| messages | com.aspose.email.MailMessage[] | The array of MailMessage that represents an email-messages to send. |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
 com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
@@ -1376,7 +1376,7 @@ Begins sending email asynchronously.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messages | com.aspose.email.MailMessage[] | The array of MailMessage that represents an email-messages to send. |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 **Returns:**
 com.aspose.ms.System.IAsyncResult - IAsyncResult that represents the status of an asynchronous operation.
@@ -1586,7 +1586,7 @@ Send the specified message.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messages | com.aspose.email.MailMessage[] | The array of MailMessage that represents an email-messages to send. |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 ### send(MailMessageCollection messages) {#send-com.aspose.email.MailMessageCollection-}
 ```
@@ -1657,7 +1657,7 @@ Send the specified message.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
-| messages | com.aspose.email.MailMessage[] | The array of MailMessage that represents an email-messages to send. |
+| messages | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage that represents an email-messages to send. |
 
 ### send(IConnection connection, MailMessageCollection messages) {#send-com.aspose.email.IConnection-com.aspose.email.MailMessageCollection-}
 ```

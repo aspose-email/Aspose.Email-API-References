@@ -1,8 +1,7 @@
 ---
 title: Thumbnail
 second_title: Aspose.Email for Java API Reference
-description:  https//docs.microsoft.com/en-us/graph/api/resources/thumbnailviewgraph-rest-1.0
- The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation.
+description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailviewgraph-rest-1.0 The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation.
 type: docs
 weight: 667
 url: /java/com.aspose.email/thumbnail/
