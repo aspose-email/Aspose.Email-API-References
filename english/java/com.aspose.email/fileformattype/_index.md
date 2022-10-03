@@ -29,6 +29,8 @@ Enumerates file format types.
 | [Tnef](#Tnef) | Transport Neutral Encapsulation Format. |
 | [Mbox](#Mbox) | File format used for holding collections of electronic mail messages. |
 | [Oft](#Oft) | Outlook MSG file format for message template. |
+| [Olm](#Olm) | Outlook for Mac File Format. |
+| [Tgz](#Tgz) | TAR archive file format. |
 ### Unknown {#Unknown}
 ```
 public static final int Unknown
@@ -124,4 +126,20 @@ public static final int Oft
 
 
 Outlook MSG file format for message template.
+
+### Olm {#Olm}
+```
+public static final int Olm
+```
+
+
+Outlook for Mac File Format.
+
+### Tgz {#Tgz}
+```
+public static final int Tgz
+```
+
+
+TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data.
 

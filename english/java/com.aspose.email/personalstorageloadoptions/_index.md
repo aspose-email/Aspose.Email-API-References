@@ -38,7 +38,7 @@ public final boolean getWritable()
 ```
 
 
-Gets or sets a value indicating whether the pst is writable.
+Gets or sets a value indicating whether the pst is writable. By default the value is true.
 
 Value: \`\`\` true \`\`\` if writable; otherwise, \`\`\` false \`\`\`.
 
@@ -50,7 +50,7 @@ public final void setWritable(boolean value)
 ```
 
 
-Gets or sets a value indicating whether the pst is writable.
+Gets or sets a value indicating whether the pst is writable. By default the value is true.
 
 Value: \`\`\` true \`\`\` if writable; otherwise, \`\`\` false \`\`\`.
 
@@ -65,7 +65,7 @@ public final boolean getLeaveStreamOpen()
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used.
+Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
 
 **Returns:**
 boolean
@@ -75,7 +75,7 @@ public final void setLeaveStreamOpen(boolean value)
 ```
 
 
-Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used.
+Leave stream open when PersonalStorage is disposed. Should always be false when [PersonalStorage\#fromFile(String,PersonalStorageLoadOptions)](../../com.aspose.email/personalstorage\#fromFile-String-PersonalStorageLoadOptions-) method is used. By default the value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

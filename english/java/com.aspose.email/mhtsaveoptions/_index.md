@@ -144,7 +144,11 @@ public final boolean getCheckBodyContentEncoding()
 ```
 
 
-Defines whether need check message body content encoding when saving.
+Defines whether need check message body content encoding when saving. By default the value is false.
+
+--------------------
+
+If true, it will be check whether the \`\`\` MailMessage.HtmlBody \`\`\`([MailMessage\#getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage\#setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and \`\`\` MailMessage.PreferredTextEncoding \`\`\`([MailMessage\#getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage\#setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default \`\`\` System.Text.Encoding.UTF8 \`\`\`(java.nio.charset.Charset\#getUTF8).
 
 **Returns:**
 boolean
@@ -154,7 +158,11 @@ public final void setCheckBodyContentEncoding(boolean value)
 ```
 
 
-Defines whether need check message body content encoding when saving.
+Defines whether need check message body content encoding when saving. By default the value is false.
+
+--------------------
+
+If true, it will be check whether the \`\`\` MailMessage.HtmlBody \`\`\`([MailMessage\#getHtmlBody](../../com.aspose.email/mailmessage\#getHtmlBody)/[MailMessage\#setHtmlBody(String)](../../com.aspose.email/mailmessage\#setHtmlBody-String-)) content encoding matches to the encoding specified by the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) property. If the HtmlBody content encoding doesn't match BodyEncoding property, the \`\`\` MailMessage.BodyEncoding \`\`\`([MailMessage\#getBodyEncoding](../../com.aspose.email/mailmessage\#getBodyEncoding)/[MailMessage\#setBodyEncoding(Encoding)](../../com.aspose.email/mailmessage\#setBodyEncoding-Encoding-)) and \`\`\` MailMessage.PreferredTextEncoding \`\`\`([MailMessage\#getPreferredTextEncoding](../../com.aspose.email/mailmessage\#getPreferredTextEncoding)/[MailMessage\#setPreferredTextEncoding(Encoding)](../../com.aspose.email/mailmessage\#setPreferredTextEncoding-Encoding-)) properties will be changed to default \`\`\` System.Text.Encoding.UTF8 \`\`\`(java.nio.charset.Charset\#getUTF8).
 
 **Parameters:**
 | Parameter | Type | Description |

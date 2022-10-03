@@ -22,8 +22,8 @@ Allows to specify additional options when loading MailMessage from Msg format.
 
 | Method | Description |
 | --- | --- |
-| [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behavior. |
-| [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behavior. |
+| [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
+| [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
 | [getDecodeClearSignedContent()](#getDecodeClearSignedContent--) | Gets or sets a value indicating whether clear-signed message will be decoded. |
 | [setDecodeClearSignedContent(boolean value)](#setDecodeClearSignedContent-boolean-) | Gets or sets a value indicating whether clear-signed message will be decoded. |
 | [getDecodeSignedContent()](#getDecodeSignedContent--) | Gets or sets a value indicating whether signed message will be decoded. |
@@ -46,7 +46,11 @@ public final boolean getPreserveTnefAttachments()
 ```
 
 
-Controls loading TNEF attachment behavior.
+Controls loading TNEF attachment behaviour. By default the value is false.
+
+--------------------
+
+If a message contains a TNEF attachment (winmail.dat), then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
 
 **Returns:**
 boolean
@@ -56,7 +60,11 @@ public final void setPreserveTnefAttachments(boolean value)
 ```
 
 
-Controls loading TNEF attachment behavior.
+Controls loading TNEF attachment behaviour. By default the value is false.
+
+--------------------
+
+If a message contains a TNEF attachment (winmail.dat), then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

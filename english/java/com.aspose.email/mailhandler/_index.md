@@ -1,7 +1,8 @@
 ---
 title: MailStorageConverter.MailHandler
 second_title: Aspose.Email for Java API Reference
-description: 
+description:  Represents the method that will handle an event that occurs after
+ successfully reading a message from the Mbox and before adding it to Pst.
 type: docs
 weight: 10
 url: /java/com.aspose.email/mailstorageconverter.mailhandler/
@@ -11,6 +12,12 @@ java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastD
 ```
 public abstract static class MailStorageConverter.MailHandler extends System.MulticastDelegate
 ```
+
+Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst.
+
+--------------------
+
+The handler can be used to any additional message changes before adding to the PST.
 ## Constructors
 
 | Constructor | Description |

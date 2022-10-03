@@ -47,7 +47,7 @@ public final boolean getPreserveOriginalDates()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message.
+Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.
 
 **Returns:**
 boolean
@@ -57,7 +57,7 @@ public final void setPreserveOriginalDates(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message.
+Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -37,8 +37,8 @@ This class allows the user to specify additional options when converting from Ma
 | [setPreserveEmptyDates(boolean value)](#setPreserveEmptyDates-boolean-) | Gets or sets a value indicating whether it is necessary to keep empty dates when converting a message. |
 | [getPreserveOriginalAddresses()](#getPreserveOriginalAddresses--) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [setPreserveOriginalAddresses(boolean value)](#setPreserveOriginalAddresses-boolean-) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. |
 | [getASCIIFormat()](#getASCIIFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False). |
 | [getUnicodeFormat()](#getUnicodeFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
 | [getForcedRtfBodyForAppointment()](#getForcedRtfBodyForAppointment--) | Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. |
@@ -231,7 +231,11 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment.
+Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -241,7 +245,11 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment.
+Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
