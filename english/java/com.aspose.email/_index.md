@@ -1,13 +1,14 @@
 ---
 title: com.aspose.email
 second_title: Aspose.Email for Java API Reference
-description: 
+description:  Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook
 type: docs
 weight: 10
 url: /java/com.aspose.email/
 ---
 
-Contains Java API classes that enables to read and write Microsoft Outlook® documents without using Microsoft Outlook®
+Contains Java API classes that enables to read and write Microsoft Outlook� documents without using Microsoft Outlook�
+
 
 ## Classes
 
@@ -198,7 +199,11 @@ Contains Java API classes that enables to read and write Microsoft Outlook® doc
 | [ExchangeCalendarPermission](../com.aspose.email/exchangecalendarpermission) | Represents a permission on a calendar folder. |
 | [ExchangeCalendarPermissionLevel](../com.aspose.email/exchangecalendarpermissionlevel) | Specifies the permission level that a user has on a calendar folder. |
 | [ExchangeCalendarPermissionReadAccess](../com.aspose.email/exchangecalendarpermissionreadaccess) | Sspecifies whether a user has permission to read items in a folder. |
-| [ExchangeClient](../com.aspose.email/exchangeclient) | The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.|
+| [ExchangeClient](../com.aspose.email/exchangeclient) | \`\`\`
+
+The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
+
+\`\`\` |
 | [ExchangeClientBase](../com.aspose.email/exchangeclientbase) | Provides the abstract base class to MS Exchange Server access. |
 | [ExchangeConversation](../com.aspose.email/exchangeconversation) | Represents a single conversation. |
 | [ExchangeConversationFlagStatus](../com.aspose.email/exchangeconversationflagstatus) | Enumerates the flag status for conversation. |
@@ -380,7 +385,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® doc
 | [MailServerValidatingEventArgs](../com.aspose.email/mailservervalidatingeventargs) | Provides data for the MailServerValidatingEvent event. |
 | [MailServerValidatingEventHandler](../com.aspose.email/mailservervalidatingeventhandler) | Represents the event handler for MailServerValidatingEvent. |
 | [MailStorageConverter](../com.aspose.email/mailstorageconverter) | Mail storage converter provides services for storage conversion operations. |
-| [MailStorageConverter.MailHandler](../com.aspose.email/mailstorageconverter.mailhandler) |  |
+| [MailStorageConverter.MailHandler](../com.aspose.email/mailstorageconverter.mailhandler) | Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst. |
 | [MailTips](../com.aspose.email/mailtips) | Represents values for the Mail Tips |
 | [MailTipsType](../com.aspose.email/mailtipstype) | Enumerates the types of mail tips |
 | [MailboxConverter](../com.aspose.email/mailboxconverter) | Provides mailbox conversion routines. |

@@ -24,8 +24,8 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | --- | --- |
 | [getConvertAsTnef()](#getConvertAsTnef--) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
 | [setConvertAsTnef(boolean value)](#setConvertAsTnef-boolean-) | Set to true to import the MapiMessage information into a MailMessage object with MapiMessage as TNEF attachment. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at converting to MailMessage. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at converting to MailMessage. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
@@ -65,7 +65,11 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at converting to MailMessage.
+Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of the embedded messages.
 
 **Returns:**
 boolean
@@ -75,7 +79,11 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at converting to MailMessage.
+Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from MSG to EML and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of the embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |

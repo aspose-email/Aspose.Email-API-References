@@ -38,7 +38,11 @@ public final boolean getPreserveTnefAttachments()
 ```
 
 
-Controls loading TNEF attachment behaviour.
+Controls loading TNEF attachment behaviour. By default the value is false.
+
+--------------------
+
+If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
 
 **Returns:**
 boolean
@@ -48,7 +52,11 @@ public final void setPreserveTnefAttachments(boolean value)
 ```
 
 
-Controls loading TNEF attachment behaviour.
+Controls loading TNEF attachment behaviour. By default the value is false.
+
+--------------------
+
+If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -25,9 +25,11 @@ This is an abstract base class for classes that allow the user to specify additi
 | --- | --- |
 | [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
+| [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
+| [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
-| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage. |
-| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage. |
+| [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
+| [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -57,6 +59,29 @@ Gets or sets preferred encoding for message. Forcibly sets the preferred encodin
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
 
+### getPreferredTextEncoding() {#getPreferredTextEncoding--}
+```
+public final Charset getPreferredTextEncoding()
+```
+
+
+Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+
+**Returns:**
+java.nio.charset.Charset
+### setPreferredTextEncoding(Charset value) {#setPreferredTextEncoding-java.nio.charset.Charset-}
+```
+public final void setPreferredTextEncoding(Charset value)
+```
+
+
+Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.nio.charset.Charset |  |
+
 ### getMessageFormat() {#getMessageFormat--}
 ```
 public final MessageFormat getMessageFormat()
@@ -73,7 +98,11 @@ public final boolean getPreserveEmbeddedMessageFormat()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage.
+Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
 
 **Returns:**
 boolean
@@ -83,7 +112,11 @@ public final void setPreserveEmbeddedMessageFormat(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage.
+Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false.
+
+--------------------
+
+Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
 
 **Parameters:**
 | Parameter | Type | Description |
