@@ -50,5 +50,18 @@ Aspose.Eamil for C++ 是一个原生 C++ 库，使 C++ 开发人员能够创建�
 这些是指向有用资源的链接：
 - [Aspose.Email for C++ API 参考](/email/cpp/)
 
+## Aspose.Email for Python via .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for Python via .NET 产品徽标](home_4.png)
+
+Aspose.Email for Python via .NET 是一个 Python API，它使 Python 应用程序能够在不使用 Microsoft Outlook® 的情况下读取和写入 Microsoft Outlook® 文档。 Aspose.Email 提供了许多关键功能，例如管理 Microsoft Outlook® MSG 文档中的收件人、主题、正文、附件以及从 Microsoft Outlook® PST 文档中读取联系人、消息和文件夹信息。 它还可用于创建、修改和转换 EML、MSG 和 MHT 格式的电子邮件。
+
+{{% /alert %}} 
+
+这些是指向有用资源的链接：
+- [Aspose.Email for Python via .NET API 参考](/email/python-net/)
+
 
 
