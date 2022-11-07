@@ -1,7 +1,7 @@
 ---
 title: GraphKnownFolders
 second_title: Aspose.Email for Java API Reference
-description:  Well-known folders
+description: Well-known folders
 type: docs
 weight: 283
 url: /java/com.aspose.email/graphknownfolders/
@@ -22,17 +22,17 @@ Well-known folders
 
 | Field | Description |
 | --- | --- |
-| [ContactFolders](#ContactFolders) | Mail folders root |
-| [MailFolders](#MailFolders) | Mail folders root |
 | [Archive](#Archive) | The archive folder messages are sent to when using the One\_Click Archive feature in Outlook clients that support it. |
 | [Clutter](#Clutter) | The clutter folder low-priority messages are moved to when using the Clutter feature. |
 | [Conflicts](#Conflicts) | The folder that contains conflicting items in the mailbox. |
+| [ContactFolders](#ContactFolders) | Mail folders root |
 | [ConversationHistory](#ConversationHistory) | The folder where Skype saves IM conversations (if Skype is configured to do so). |
 | [DeletedItems](#DeletedItems) | The folder items are moved to when they are deleted. |
 | [Drafts](#Drafts) | The folder that contains unsent messages. |
 | [Inbox](#Inbox) | The inbox folder. |
 | [Junkemail](#Junkemail) | The junk email folder. |
 | [LocalFailures](#LocalFailures) | The folder that contains items that exist on the local client but could not be uploaded to the server. |
+| [MailFolders](#MailFolders) | Mail folders root |
 | [MsgFolderRoot](#MsgFolderRoot) | The "Top of Information Store" folder. |
 | [Outbox](#Outbox) | The outbox folder. |
 | [RecoverableItemsDeletions](#RecoverableItemsDeletions) | The folder that contains soft-deleted items: deleted either from the Deleted Items folder, or by pressing shift+delete in Outlook. |
@@ -41,27 +41,24 @@ Well-known folders
 | [SentItems](#SentItems) | The sent items folder. |
 | [ServerFailures](#ServerFailures) | The folder that contains items that exist on the server but could not be synchronized to the local client. |
 | [SyncIssues](#SyncIssues) | The folder that contains synchronization logs created by Outlook. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### GraphKnownFolders() {#GraphKnownFolders--}
 ```
 public GraphKnownFolders()
 ```
 
-
-### ContactFolders {#ContactFolders}
-```
-public static final String ContactFolders
-```
-
-
-Mail folders root
-
-### MailFolders {#MailFolders}
-```
-public static final String MailFolders
-```
-
-
-Mail folders root
 
 ### Archive {#Archive}
 ```
@@ -86,6 +83,14 @@ public static final String Conflicts
 
 
 The folder that contains conflicting items in the mailbox.
+
+### ContactFolders {#ContactFolders}
+```
+public static final String ContactFolders
+```
+
+
+Mail folders root
 
 ### ConversationHistory {#ConversationHistory}
 ```
@@ -134,6 +139,14 @@ public static final String LocalFailures
 
 
 The folder that contains items that exist on the local client but could not be uploaded to the server.
+
+### MailFolders {#MailFolders}
+```
+public static final String MailFolders
+```
+
+
+Mail folders root
 
 ### MsgFolderRoot {#MsgFolderRoot}
 ```
@@ -198,4 +211,100 @@ public static final String SyncIssues
 
 
 The folder that contains synchronization logs created by Outlook.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

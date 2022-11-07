@@ -25,10 +25,19 @@ Represents the mapi calendar time zone information
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getKeyName()](#getKeyName--) | Gets or sets a human-readable description of the time zone |
-| [setKeyName(String value)](#setKeyName-java.lang.String-) | Gets or sets a human-readable description of the time zone |
 | [getTimeZoneRules()](#getTimeZoneRules--) | Gets or sets the time zone rules |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setKeyName(String value)](#setKeyName-java.lang.String-) | Gets or sets a human-readable description of the time zone |
 | [setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value)](#setTimeZoneRules-com.aspose.email.MapiCalendarTimeZoneInfoCollection-) | Gets or sets the time zone rules |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MapiCalendarTimeZone() {#MapiCalendarTimeZone--}
 ```
 public MapiCalendarTimeZone()
@@ -75,6 +84,31 @@ public MapiCalendarTimeZone(String keyName, Date startDate)
 | keyName | java.lang.String |  |
 | startDate | java.util.Date |  |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getKeyName() {#getKeyName--}
 ```
 public final String getKeyName()
@@ -85,6 +119,42 @@ Gets or sets a human-readable description of the time zone
 
 **Returns:**
 java.lang.String
+### getTimeZoneRules() {#getTimeZoneRules--}
+```
+public final MapiCalendarTimeZoneInfoCollection getTimeZoneRules()
+```
+
+
+Gets or sets the time zone rules
+
+**Returns:**
+[MapiCalendarTimeZoneInfoCollection](../../com.aspose.email/mapicalendartimezoneinfocollection)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setKeyName(String value) {#setKeyName-java.lang.String-}
 ```
 public final void setKeyName(String value)
@@ -98,16 +168,6 @@ Gets or sets a human-readable description of the time zone
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getTimeZoneRules() {#getTimeZoneRules--}
-```
-public final MapiCalendarTimeZoneInfoCollection getTimeZoneRules()
-```
-
-
-Gets or sets the time zone rules
-
-**Returns:**
-[MapiCalendarTimeZoneInfoCollection](../../com.aspose.email/mapicalendartimezoneinfocollection)
 ### setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value) {#setTimeZoneRules-com.aspose.email.MapiCalendarTimeZoneInfoCollection-}
 ```
 public final void setTimeZoneRules(MapiCalendarTimeZoneInfoCollection value)
@@ -120,4 +180,49 @@ Gets or sets the time zone rules
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapiCalendarTimeZoneInfoCollection](../../com.aspose.email/mapicalendartimezoneinfocollection) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

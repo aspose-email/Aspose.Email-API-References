@@ -1,7 +1,7 @@
 ---
 title: BackupSettings
 second_title: Aspose.Email for Java API Reference
-description:  Class contains options for backup operation
+description: Class contains options for backup operation
 type: docs
 weight: 76
 url: /java/com.aspose.email/backupsettings/
@@ -24,16 +24,25 @@ Class contains options for backup operation
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDefault()](#getDefault--) | Gets [BackupSettings](../../com.aspose.email/backupsettings) class with settings by default |
-| [to_BackupSettings(int options)](#to-BackupSettings-int-) | Converts enumerable options to class |
 | [getExecuteRecursively()](#getExecuteRecursively--) | Gets or sets value which defines if backup should be executed recursively |
-| [setExecuteRecursively(boolean value)](#setExecuteRecursively-boolean-) | Gets or sets value which defines if backup should be executed recursively |
-| [getRestoreConnection()](#getRestoreConnection--) | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
-| [setRestoreConnection(boolean value)](#setRestoreConnection-boolean-) | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
 | [getNumberOfAttemptsToRrepeat()](#getNumberOfAttemptsToRrepeat--) | Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. |
-| [setNumberOfAttemptsToRrepeat(int value)](#setNumberOfAttemptsToRrepeat-int-) | Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. |
+| [getRestoreConnection()](#getRestoreConnection--) | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
 | [getTimeoutBetweenAttempts()](#getTimeoutBetweenAttempts--) | Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setExecuteRecursively(boolean value)](#setExecuteRecursively-boolean-) | Gets or sets value which defines if backup should be executed recursively |
+| [setNumberOfAttemptsToRrepeat(int value)](#setNumberOfAttemptsToRrepeat-int-) | Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. |
+| [setRestoreConnection(boolean value)](#setRestoreConnection-boolean-) | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
 | [setTimeoutBetweenAttempts(int value)](#setTimeoutBetweenAttempts-int-) | Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option. |
+| [toString()](#toString--) |  |
+| [to_BackupSettings(int options)](#to-BackupSettings-int-) | Converts enumerable options to class |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### BackupSettings() {#BackupSettings--}
 ```
 public BackupSettings()
@@ -71,6 +80,31 @@ Initializes a new instance of the [BackupSettings](../../com.aspose.email/backup
 | numberOfAttempts | int | defines number of attempts to repeat failed operation |
 | timeoutBetweenAttempts | int | defines timeout (in milliseconds) between attemptions to execute operation again |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDefault() {#getDefault--}
 ```
 public static BackupSettings getDefault()
@@ -81,6 +115,134 @@ Gets [BackupSettings](../../com.aspose.email/backupsettings) class with settings
 
 **Returns:**
 [BackupSettings](../../com.aspose.email/backupsettings)
+### getExecuteRecursively() {#getExecuteRecursively--}
+```
+public final boolean getExecuteRecursively()
+```
+
+
+Gets or sets value which defines if backup should be executed recursively
+
+**Returns:**
+boolean
+### getNumberOfAttemptsToRrepeat() {#getNumberOfAttemptsToRrepeat--}
+```
+public final int getNumberOfAttemptsToRrepeat()
+```
+
+
+Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE\_1\_1\_0243 FETCH 219 (BODY) AE\_1\_1\_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again.
+
+**Returns:**
+int
+### getRestoreConnection() {#getRestoreConnection--}
+```
+public final boolean getRestoreConnection()
+```
+
+
+Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option.
+
+**Returns:**
+boolean
+### getTimeoutBetweenAttempts() {#getTimeoutBetweenAttempts--}
+```
+public final int getTimeoutBetweenAttempts()
+```
+
+
+Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option.
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setExecuteRecursively(boolean value) {#setExecuteRecursively-boolean-}
+```
+public final void setExecuteRecursively(boolean value)
+```
+
+
+Gets or sets value which defines if backup should be executed recursively
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setNumberOfAttemptsToRrepeat(int value) {#setNumberOfAttemptsToRrepeat-int-}
+```
+public final void setNumberOfAttemptsToRrepeat(int value)
+```
+
+
+Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE\_1\_1\_0243 FETCH 219 (BODY) AE\_1\_1\_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setRestoreConnection(boolean value) {#setRestoreConnection-boolean-}
+```
+public final void setRestoreConnection(boolean value)
+```
+
+
+Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setTimeoutBetweenAttempts(int value) {#setTimeoutBetweenAttempts-int-}
+```
+public final void setTimeoutBetweenAttempts(int value)
+```
+
+
+Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### to_BackupSettings(int options) {#to-BackupSettings-int-}
 ```
 public static BackupSettings to_BackupSettings(int options)
@@ -96,95 +258,38 @@ Converts enumerable options to class
 
 **Returns:**
 [BackupSettings](../../com.aspose.email/backupsettings)
-### getExecuteRecursively() {#getExecuteRecursively--}
+### wait() {#wait--}
 ```
-public final boolean getExecuteRecursively()
-```
-
-
-Gets or sets value which defines if backup should be executed recursively
-
-**Returns:**
-boolean
-### setExecuteRecursively(boolean value) {#setExecuteRecursively-boolean-}
-```
-public final void setExecuteRecursively(boolean value)
+public final void wait()
 ```
 
 
-Gets or sets value which defines if backup should be executed recursively
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| arg0 | long |  |
 
-### getRestoreConnection() {#getRestoreConnection--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public final boolean getRestoreConnection()
-```
-
-
-Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option.
-
-**Returns:**
-boolean
-### setRestoreConnection(boolean value) {#setRestoreConnection-boolean-}
-```
-public final void setRestoreConnection(boolean value)
+public final void wait(long arg0, int arg1)
 ```
 
 
-Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
-
-### getNumberOfAttemptsToRrepeat() {#getNumberOfAttemptsToRrepeat--}
-```
-public final int getNumberOfAttemptsToRrepeat()
-```
-
-
-Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE\_1\_1\_0243 FETCH 219 (BODY) AE\_1\_1\_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again.
-
-**Returns:**
-int
-### setNumberOfAttemptsToRrepeat(int value) {#setNumberOfAttemptsToRrepeat-int-}
-```
-public final void setNumberOfAttemptsToRrepeat(int value)
-```
-
-
-Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE\_1\_1\_0243 FETCH 219 (BODY) AE\_1\_1\_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getTimeoutBetweenAttempts() {#getTimeoutBetweenAttempts--}
-```
-public final int getTimeoutBetweenAttempts()
-```
-
-
-Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option.
-
-**Returns:**
-int
-### setTimeoutBetweenAttempts(int value) {#setTimeoutBetweenAttempts-int-}
-```
-public final void setTimeoutBetweenAttempts(int value)
-```
-
-
-Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
+| arg0 | long |  |
+| arg1 | int |  |
 

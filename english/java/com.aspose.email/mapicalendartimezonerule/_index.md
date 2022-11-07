@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for Java API Reference
-description:  Represents time zone rule that indicate when to begin using the Standard/Daylight time.
+description: Represents time zone rule that indicate when to begin using the Standard/Daylight time.
 type: docs
 weight: 412
 url: /java/com.aspose.email/mapicalendartimezonerule/
@@ -22,23 +22,32 @@ Represents time zone rule that indicate when to begin using the Standard/Dayligh
 
 | Method | Description |
 | --- | --- |
-| [getYear()](#getYear--) | Gets or sets the year |
-| [setYear(int value)](#setYear-int-) | Gets or sets the year |
-| [getMonth()](#getMonth--) | Gets or sets the month |
-| [setMonth(int value)](#setMonth-int-) | Gets or sets the month |
-| [getDayOfWeek()](#getDayOfWeek--) | Gets or sets the day of week |
-| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Gets or sets the day of week |
-| [getPosition()](#getPosition--) | Gets or sets the day position |
-| [setPosition(int value)](#setPosition-int-) | Gets or sets the day position |
-| [getHour()](#getHour--) | Gets or sets the hour |
-| [setHour(int value)](#setHour-int-) | Gets or sets the hour |
-| [getMinute()](#getMinute--) | Gets or sets the minutes |
-| [setMinute(int value)](#setMinute-int-) | Gets or sets the minutes |
-| [getSeconds()](#getSeconds--) | Gets or sets the seconds |
-| [setSeconds(int value)](#setSeconds-int-) | Gets or sets the seconds |
-| [getMilliseconds()](#getMilliseconds--) | Gets or sets the milliseconds |
-| [setMilliseconds(int value)](#setMilliseconds-int-) | Gets or sets the milliseconds |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDate()](#getDate--) | Gets the date and time that indicate when to begin using the Standard/Daylight time. |
+| [getDayOfWeek()](#getDayOfWeek--) | Gets or sets the day of week |
+| [getHour()](#getHour--) | Gets or sets the hour |
+| [getMilliseconds()](#getMilliseconds--) | Gets or sets the milliseconds |
+| [getMinute()](#getMinute--) | Gets or sets the minutes |
+| [getMonth()](#getMonth--) | Gets or sets the month |
+| [getPosition()](#getPosition--) | Gets or sets the day position |
+| [getSeconds()](#getSeconds--) | Gets or sets the seconds |
+| [getYear()](#getYear--) | Gets or sets the year |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDayOfWeek(int value)](#setDayOfWeek-int-) | Gets or sets the day of week |
+| [setHour(int value)](#setHour-int-) | Gets or sets the hour |
+| [setMilliseconds(int value)](#setMilliseconds-int-) | Gets or sets the milliseconds |
+| [setMinute(int value)](#setMinute-int-) | Gets or sets the minutes |
+| [setMonth(int value)](#setMonth-int-) | Gets or sets the month |
+| [setPosition(int value)](#setPosition-int-) | Gets or sets the day position |
+| [setSeconds(int value)](#setSeconds-int-) | Gets or sets the seconds |
+| [setYear(int value)](#setYear-int-) | Gets or sets the year |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MapiCalendarTimeZoneRule() {#MapiCalendarTimeZoneRule--}
 ```
 public MapiCalendarTimeZoneRule()
@@ -47,52 +56,41 @@ public MapiCalendarTimeZoneRule()
 
 Initializes a new instance of the [MapiCalendarTimeZoneRule](../../com.aspose.email/mapicalendartimezonerule) class.
 
-### getYear() {#getYear--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final int getYear()
-```
-
-
-Gets or sets the year
-
-**Returns:**
-int
-### setYear(int value) {#setYear-int-}
-```
-public final void setYear(int value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets the year
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
-
-### getMonth() {#getMonth--}
-```
-public final int getMonth()
-```
-
-
-Gets or sets the month
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int
-### setMonth(int value) {#setMonth-int-}
+boolean
+### getClass() {#getClass--}
 ```
-public final void setMonth(int value)
+public final native Class<?> getClass()
 ```
 
 
-Gets or sets the month
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
+**Returns:**
+java.lang.Class<?>
+### getDate() {#getDate--}
+```
+public final Date getDate()
+```
+
+
+Gets the date and time that indicate when to begin using the Standard/Daylight time.
+
+**Returns:**
+java.util.Date
 ### getDayOfWeek() {#getDayOfWeek--}
 ```
 public final int getDayOfWeek()
@@ -103,6 +101,102 @@ Gets or sets the day of week
 
 **Returns:**
 int
+### getHour() {#getHour--}
+```
+public final int getHour()
+```
+
+
+Gets or sets the hour
+
+**Returns:**
+int
+### getMilliseconds() {#getMilliseconds--}
+```
+public final int getMilliseconds()
+```
+
+
+Gets or sets the milliseconds
+
+**Returns:**
+int
+### getMinute() {#getMinute--}
+```
+public final int getMinute()
+```
+
+
+Gets or sets the minutes
+
+**Returns:**
+int
+### getMonth() {#getMonth--}
+```
+public final int getMonth()
+```
+
+
+Gets or sets the month
+
+**Returns:**
+int
+### getPosition() {#getPosition--}
+```
+public final int getPosition()
+```
+
+
+Gets or sets the day position
+
+**Returns:**
+int
+### getSeconds() {#getSeconds--}
+```
+public final int getSeconds()
+```
+
+
+Gets or sets the seconds
+
+**Returns:**
+int
+### getYear() {#getYear--}
+```
+public final int getYear()
+```
+
+
+Gets or sets the year
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setDayOfWeek(int value) {#setDayOfWeek-int-}
 ```
 public final void setDayOfWeek(int value)
@@ -116,39 +210,6 @@ Gets or sets the day of week
 | --- | --- | --- |
 | value | int |  |
 
-### getPosition() {#getPosition--}
-```
-public final int getPosition()
-```
-
-
-Gets or sets the day position
-
-**Returns:**
-int
-### setPosition(int value) {#setPosition-int-}
-```
-public final void setPosition(int value)
-```
-
-
-Gets or sets the day position
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getHour() {#getHour--}
-```
-public final int getHour()
-```
-
-
-Gets or sets the hour
-
-**Returns:**
-int
 ### setHour(int value) {#setHour-int-}
 ```
 public final void setHour(int value)
@@ -162,62 +223,6 @@ Gets or sets the hour
 | --- | --- | --- |
 | value | int |  |
 
-### getMinute() {#getMinute--}
-```
-public final int getMinute()
-```
-
-
-Gets or sets the minutes
-
-**Returns:**
-int
-### setMinute(int value) {#setMinute-int-}
-```
-public final void setMinute(int value)
-```
-
-
-Gets or sets the minutes
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getSeconds() {#getSeconds--}
-```
-public final int getSeconds()
-```
-
-
-Gets or sets the seconds
-
-**Returns:**
-int
-### setSeconds(int value) {#setSeconds-int-}
-```
-public final void setSeconds(int value)
-```
-
-
-Gets or sets the seconds
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getMilliseconds() {#getMilliseconds--}
-```
-public final int getMilliseconds()
-```
-
-
-Gets or sets the milliseconds
-
-**Returns:**
-int
 ### setMilliseconds(int value) {#setMilliseconds-int-}
 ```
 public final void setMilliseconds(int value)
@@ -231,13 +236,113 @@ Gets or sets the milliseconds
 | --- | --- | --- |
 | value | int |  |
 
-### getDate() {#getDate--}
+### setMinute(int value) {#setMinute-int-}
 ```
-public final Date getDate()
+public final void setMinute(int value)
 ```
 
 
-Gets the date and time that indicate when to begin using the Standard/Daylight time.
+Gets or sets the minutes
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setMonth(int value) {#setMonth-int-}
+```
+public final void setMonth(int value)
+```
+
+
+Gets or sets the month
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setPosition(int value) {#setPosition-int-}
+```
+public final void setPosition(int value)
+```
+
+
+Gets or sets the day position
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSeconds(int value) {#setSeconds-int-}
+```
+public final void setSeconds(int value)
+```
+
+
+Gets or sets the seconds
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setYear(int value) {#setYear-int-}
+```
+public final void setYear(int value)
+```
+
+
+Gets or sets the year
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-java.util.Date
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

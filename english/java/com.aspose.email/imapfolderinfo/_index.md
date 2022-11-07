@@ -22,25 +22,33 @@ Represents an IMAP folder.
 
 | Method | Description |
 | --- | --- |
-| [getSelectable()](#getSelectable--) | Gets a value indicating whether it is possible to select this folder. |
-| [getMarked()](#getMarked--) | Gets a value indicating whether it is marked this folder. |
-| [hasChildren()](#hasChildren--) | Gets value indicating whether folder contains subfolders. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getFolderType()](#getFolderType--) | Gets information about folder purpose in case if it is used as special folder. |
-| [getRemote()](#getRemote--) | Gets value indicating that a folder is a remote mailbox. |
-| [getSubscribed()](#getSubscribed--) | Gets value that indicates that a folder name is subscribed to. |
-| [getNonExistent()](#getNonExistent--) | Gets value indicating whether a folder name is referred to an existing folder. |
-| [getNoInferiors()](#getNoInferiors--) | Gets a value indicating whether this folder can have child levels. |
+| [getHighestModSequence()](#getHighestModSequence--) | Gets value of all messages in the mailbox. |
+| [getMarked()](#getMarked--) | Gets a value indicating whether it is marked this folder. |
 | [getName()](#getName--) | Gets the name of the folder. |
 | [getNewMessageCount()](#getNewMessageCount--) | Gets the number of the new messages. |
+| [getNoInferiors()](#getNoInferiors--) | Gets a value indicating whether this folder can have child levels. |
+| [getNoModSeq()](#getNoModSeq--) | Gets value which indicates if mailbox supports mod-sequences. |
+| [getNonExistent()](#getNonExistent--) | Gets value indicating whether a folder name is referred to an existing folder. |
 | [getReadOnly()](#getReadOnly--) | Gets a value indicating whether the folder is read-only. |
 | [getRecentMessageCount()](#getRecentMessageCount--) | Gets the number of messages that arrived recently. |
+| [getRemote()](#getRemote--) | Gets value indicating that a folder is a remote mailbox. |
+| [getSelectable()](#getSelectable--) | Gets a value indicating whether it is possible to select this folder. |
+| [getSubscribed()](#getSubscribed--) | Gets value that indicates that a folder name is subscribed to. |
 | [getTotalMessageCount()](#getTotalMessageCount--) | Gets the number of messages in the folder. |
-| [getValidityId()](#getValidityId--) | Gets the validity ID of the mailbox. |
-| [getUidNotSticky()](#getUidNotSticky--) | Gets value which indicates if mail store does not support persistent UIDs This property works only if server supports UIDPLUS extension. |
-| [getNoModSeq()](#getNoModSeq--) | Gets value which indicates if mailbox supports mod-sequences. |
-| [getHighestModSequence()](#getHighestModSequence--) | Gets value of all messages in the mailbox. |
 | [getUIDNext()](#getUIDNext--) | Gets the validity ID of the mailbox. |
+| [getUidNotSticky()](#getUidNotSticky--) | Gets value which indicates if mail store does not support persistent UIDs This property works only if server supports UIDPLUS extension. |
+| [getValidityId()](#getValidityId--) | Gets the validity ID of the mailbox. |
+| [hasChildren()](#hasChildren--) | Gets value indicating whether folder contains subfolders. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | Returns a string that represents the current object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### IN_BOX {#IN-BOX}
 ```
 public static final String IN_BOX
@@ -49,36 +57,31 @@ public static final String IN_BOX
 
 Gets inbox name.
 
-### getSelectable() {#getSelectable--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final boolean getSelectable()
+public boolean equals(Object arg0)
 ```
 
 
-Gets a value indicating whether it is possible to select this folder.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
-### getMarked() {#getMarked--}
+### getClass() {#getClass--}
 ```
-public final boolean getMarked()
+public final native Class<?> getClass()
 ```
 
 
-Gets a value indicating whether it is marked this folder.
+
 
 **Returns:**
-boolean
-### hasChildren() {#hasChildren--}
-```
-public final boolean hasChildren()
-```
-
-
-Gets value indicating whether folder contains subfolders. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258 If value is  true , it indicates that the folder has child sub-folders that are accessible to the currently authenticated user, otherwise false.
-
-**Returns:**
-boolean
+java.lang.Class<?>
 ### getFolderType() {#getFolderType--}
 ```
 public final int getFolderType()
@@ -89,43 +92,23 @@ Gets information about folder purpose in case if it is used as special folder. T
 
 **Returns:**
 int
-### getRemote() {#getRemote--}
+### getHighestModSequence() {#getHighestModSequence--}
 ```
-public final boolean getRemote()
+public final long getHighestModSequence()
 ```
 
 
-Gets value indicating that a folder is a remote mailbox. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258
+Gets value of all messages in the mailbox. See more: https://tools.ietf.org/html/rfc7162
 
 **Returns:**
-boolean
-### getSubscribed() {#getSubscribed--}
+long
+### getMarked() {#getMarked--}
 ```
-public final boolean getSubscribed()
-```
-
-
-Gets value that indicates that a folder name is subscribed to. See more: http://tools.ietf.org/html/rfc5258
-
-**Returns:**
-boolean
-### getNonExistent() {#getNonExistent--}
-```
-public final boolean getNonExistent()
+public final boolean getMarked()
 ```
 
 
-Gets value indicating whether a folder name is referred to an existing folder. See more: http://tools.ietf.org/html/rfc5258
-
-**Returns:**
-boolean
-### getNoInferiors() {#getNoInferiors--}
-```
-public final boolean getNoInferiors()
-```
-
-
-Gets a value indicating whether this folder can have child levels. If it is  True , then no child levels exist now and none can be created in the future
+Gets a value indicating whether it is marked this folder.
 
 **Returns:**
 boolean
@@ -149,6 +132,36 @@ Gets the number of the new messages.
 
 **Returns:**
 int
+### getNoInferiors() {#getNoInferiors--}
+```
+public final boolean getNoInferiors()
+```
+
+
+Gets a value indicating whether this folder can have child levels. If it is  True , then no child levels exist now and none can be created in the future
+
+**Returns:**
+boolean
+### getNoModSeq() {#getNoModSeq--}
+```
+public final boolean getNoModSeq()
+```
+
+
+Gets value which indicates if mailbox supports mod-sequences. This property works only if server supports CONDSTORE extension. Please, read more https://tools.ietf.org/html/rfc4551\#section-3.1.2
+
+**Returns:**
+boolean
+### getNonExistent() {#getNonExistent--}
+```
+public final boolean getNonExistent()
+```
+
+
+Gets value indicating whether a folder name is referred to an existing folder. See more: http://tools.ietf.org/html/rfc5258
+
+**Returns:**
+boolean
 ### getReadOnly() {#getReadOnly--}
 ```
 public final boolean getReadOnly()
@@ -169,6 +182,36 @@ Gets the number of messages that arrived recently.
 
 **Returns:**
 int
+### getRemote() {#getRemote--}
+```
+public final boolean getRemote()
+```
+
+
+Gets value indicating that a folder is a remote mailbox. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258
+
+**Returns:**
+boolean
+### getSelectable() {#getSelectable--}
+```
+public final boolean getSelectable()
+```
+
+
+Gets a value indicating whether it is possible to select this folder.
+
+**Returns:**
+boolean
+### getSubscribed() {#getSubscribed--}
+```
+public final boolean getSubscribed()
+```
+
+
+Gets value that indicates that a folder name is subscribed to. See more: http://tools.ietf.org/html/rfc5258
+
+**Returns:**
+boolean
 ### getTotalMessageCount() {#getTotalMessageCount--}
 ```
 public final int getTotalMessageCount()
@@ -179,9 +222,9 @@ Gets the number of messages in the folder.
 
 **Returns:**
 int
-### getValidityId() {#getValidityId--}
+### getUIDNext() {#getUIDNext--}
 ```
-public final long getValidityId()
+public final long getUIDNext()
 ```
 
 
@@ -199,29 +242,9 @@ Gets value which indicates if mail store does not support persistent UIDs This p
 
 **Returns:**
 boolean
-### getNoModSeq() {#getNoModSeq--}
+### getValidityId() {#getValidityId--}
 ```
-public final boolean getNoModSeq()
-```
-
-
-Gets value which indicates if mailbox supports mod-sequences. This property works only if server supports CONDSTORE extension. Please, read more https://tools.ietf.org/html/rfc4551\#section-3.1.2
-
-**Returns:**
-boolean
-### getHighestModSequence() {#getHighestModSequence--}
-```
-public final long getHighestModSequence()
-```
-
-
-Gets value of all messages in the mailbox. See more: https://tools.ietf.org/html/rfc7162
-
-**Returns:**
-long
-### getUIDNext() {#getUIDNext--}
-```
-public final long getUIDNext()
+public final long getValidityId()
 ```
 
 
@@ -229,6 +252,42 @@ Gets the validity ID of the mailbox.
 
 **Returns:**
 long
+### hasChildren() {#hasChildren--}
+```
+public final boolean hasChildren()
+```
+
+
+Gets value indicating whether folder contains subfolders. This option is accessible only in case if server supports IMAP4 LIST Command Extensions (rfc5258) See more: http://tools.ietf.org/html/rfc5258 If value is  true , it indicates that the folder has child sub-folders that are accessible to the currently authenticated user, otherwise false.
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -239,3 +298,38 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - A string that represents the current object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

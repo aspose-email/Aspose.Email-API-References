@@ -1,7 +1,7 @@
 ---
 title: ValidationResult
 second_title: Aspose.Email for Java API Reference
-description:  Present the result of the email validating process.
+description: Present the result of the email validating process.
 type: docs
 weight: 721
 url: /java/com.aspose.email/validationresult/
@@ -24,11 +24,20 @@ Present the result of the email validating process.
 
 | Method | Description |
 | --- | --- |
-| [getReturnCode()](#getReturnCode--) | Gets or ses the response code of the validating process. |
-| [setReturnCode(int value)](#setReturnCode-int-) | Gets or ses the response code of the validating process. |
-| [getMessage()](#getMessage--) | Gets the detail message about the result. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getLastException()](#getLastException--) | The last error met in the validating process. |
+| [getMessage()](#getMessage--) | Gets the detail message about the result. |
+| [getReturnCode()](#getReturnCode--) | Gets or ses the response code of the validating process. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setLastException(RuntimeException value)](#setLastException-java.lang.RuntimeException-) | The last error met in the validating process. |
+| [setReturnCode(int value)](#setReturnCode-int-) | Gets or ses the response code of the validating process. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ValidationResult() {#ValidationResult--}
 ```
 public ValidationResult()
@@ -64,6 +73,51 @@ Create an instance of the ValidationResult class, with the specified , and the l
 | responseCode | int | The response code of the validating process. |
 | lastException | java.lang.RuntimeException | The last exception met in the validating process. |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getLastException() {#getLastException--}
+```
+public final RuntimeException getLastException()
+```
+
+
+The last error met in the validating process.
+
+**Returns:**
+java.lang.RuntimeException
+### getMessage() {#getMessage--}
+```
+public final String getMessage()
+```
+
+
+Gets the detail message about the result.
+
+**Returns:**
+java.lang.String
 ### getReturnCode() {#getReturnCode--}
 ```
 public final int getReturnCode()
@@ -74,6 +128,45 @@ Gets or ses the response code of the validating process.
 
 **Returns:**
 int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setLastException(RuntimeException value) {#setLastException-java.lang.RuntimeException-}
+```
+public final void setLastException(RuntimeException value)
+```
+
+
+The last error met in the validating process.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.RuntimeException |  |
+
 ### setReturnCode(int value) {#setReturnCode-int-}
 ```
 public final void setReturnCode(int value)
@@ -87,36 +180,48 @@ Gets or ses the response code of the validating process.
 | --- | --- | --- |
 | value | int |  |
 
-### getMessage() {#getMessage--}
+### toString() {#toString--}
 ```
-public final String getMessage()
+public String toString()
 ```
 
 
-Gets the detail message about the result.
+
 
 **Returns:**
 java.lang.String
-### getLastException() {#getLastException--}
+### wait() {#wait--}
 ```
-public final RuntimeException getLastException()
-```
-
-
-The last error met in the validating process.
-
-**Returns:**
-java.lang.RuntimeException
-### setLastException(RuntimeException value) {#setLastException-java.lang.RuntimeException-}
-```
-public final void setLastException(RuntimeException value)
+public final void wait()
 ```
 
 
-The last error met in the validating process.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.RuntimeException |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

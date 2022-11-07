@@ -17,13 +17,73 @@ Message store is the root of the PST, which is the rough equivalent of the top o
 
 | Method | Description |
 | --- | --- |
-| [getDisplayName()](#getDisplayName--) | Gets the display Name of PST. |
-| [getProperties()](#getProperties--) | Gets the MAPI properties of message store object. |
-| [isPasswordProtected()](#isPasswordProtected--) | Gets a value indicating whether the storage is password protected. |
-| [isPasswordValid(String password)](#isPasswordValid-java.lang.String-) | Determines whether the specified string is a valid password for the storage. |
 | [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Changes the pst display name. |
 | [changePassword(String password)](#changePassword-java.lang.String-) | Sets the password. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getDisplayName()](#getDisplayName--) | Gets the display Name of PST. |
+| [getProperties()](#getProperties--) | Gets the MAPI properties of message store object. |
+| [hashCode()](#hashCode--) |  |
+| [isPasswordProtected()](#isPasswordProtected--) | Gets a value indicating whether the storage is password protected. |
+| [isPasswordValid(String password)](#isPasswordValid-java.lang.String-) | Determines whether the specified string is a valid password for the storage. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setProperty(MapiProperty property)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### changeDisplayName(String newName) {#changeDisplayName-java.lang.String-}
+```
+public final void changeDisplayName(String newName)
+```
+
+
+Changes the pst display name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newName | java.lang.String | The new display name of message store. |
+
+### changePassword(String password) {#changePassword-java.lang.String-}
+```
+public final void changePassword(String password)
+```
+
+
+Sets the password.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The string that represents the password. |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDisplayName() {#getDisplayName--}
 ```
 public final String getDisplayName()
@@ -48,6 +108,16 @@ Value: The [MapiProperty](../../com.aspose.email/mapiproperty) collection.
 
 **Returns:**
 [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isPasswordProtected() {#isPasswordProtected--}
 ```
 public final boolean isPasswordProtected()
@@ -75,31 +145,21 @@ Determines whether the specified string is a valid password for the storage.
 
 **Returns:**
 boolean
-### changeDisplayName(String newName) {#changeDisplayName-java.lang.String-}
+### notify() {#notify--}
 ```
-public final void changeDisplayName(String newName)
-```
-
-
-Changes the pst display name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newName | java.lang.String | The new display name of message store. |
-
-### changePassword(String password) {#changePassword-java.lang.String-}
-```
-public final void changePassword(String password)
+public final native void notify()
 ```
 
 
-Sets the password.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| password | java.lang.String | The string that represents the password. |
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### setProperty(MapiProperty property) {#setProperty-com.aspose.email.MapiProperty-}
 ```
@@ -113,4 +173,49 @@ Sets the property.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | property | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

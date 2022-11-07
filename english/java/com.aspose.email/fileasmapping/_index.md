@@ -1,7 +1,7 @@
 ---
 title: FileAsMapping
 second_title: Aspose.Email for Java API Reference
-description:  Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change.
+description: Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change.
 type: docs
 weight: 244
 url: /java/com.aspose.email/fileasmapping/
@@ -17,33 +17,81 @@ Specifies how to generate and recompute the value of the dispidFileAs property w
 
 | Field | Description |
 | --- | --- |
-| [Empty](#Empty) | Empty value. |
+| [AccordingToLocale](#AccordingToLocale) | Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for dispidFileUnderId and update dispidFileUnder to match the choice. |
+| [BestMatch](#BestMatch) | Specifies that, when displaying the contact, the application should attempt to use the current value of dispidFileUnder and other contact properties to find a "best match" for dispidFileUnderId to one of the previous values in this table. |
 | [DisplayName](#DisplayName) | DisplayName |
-| [FirstName](#FirstName) | GivenName |
-| [LastName](#LastName) | Surname |
-| [Organization](#Organization) | CompanyName |
+| [Empty](#Empty) | Empty value. |
+| [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [FirstMiddleLastGen](#FirstMiddleLastGen) | GivenName MiddleName Surname Generation |
+| [FirstName](#FirstName) | GivenName |
 | [LastFirstMiddle](#LastFirstMiddle) | Surname, GivenName MiddleName |
 | [LastFirstMiddle2](#LastFirstMiddle2) | SurnameGivenName MiddleName |
 | [LastFirstMiddle3](#LastFirstMiddle3) | Surname GivenName MiddleName |
-| [OrgLastFirstMiddle](#OrgLastFirstMiddle) | CompanyName\\r\\nSurname, GivenName MiddleName |
-| [OrgLastFirstMiddle2](#OrgLastFirstMiddle2) | CompanyName\\r\\nSurnameGivenName MiddleName |
-| [OrgLastFirstMiddle3](#OrgLastFirstMiddle3) | CompanyName\\r\\nSurname GivenName MiddleName |
+| [LastFirstMiddleGen](#LastFirstMiddleGen) | Surname GivenName MiddleName Generation |
+| [LastFirstMiddleGen2](#LastFirstMiddleGen2) | SurnameGivenName MiddleName Generation |
 | [LastFirstMiddleOrg](#LastFirstMiddleOrg) | Surname, GivenName MiddleName\\r\\nCompanyName |
 | [LastFirstMiddleOrg2](#LastFirstMiddleOrg2) | SurnameGivenName MiddleName\\r\\nCompanyName |
 | [LastFirstMiddleOrg3](#LastFirstMiddleOrg3) | Surname GivenName PidTagMiddleName\\r\\nCompanyName |
-| [LastFirstMiddleGen](#LastFirstMiddleGen) | Surname GivenName MiddleName Generation |
-| [LastFirstMiddleGen2](#LastFirstMiddleGen2) | SurnameGivenName MiddleName Generation |
-| [BestMatch](#BestMatch) | Specifies that, when displaying the contact, the application should attempt to use the current value of dispidFileUnder and other contact properties to find a "best match" for dispidFileUnderId to one of the previous values in this table. |
-| [AccordingToLocale](#AccordingToLocale) | Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for dispidFileUnderId and update dispidFileUnder to match the choice. |
+| [LastName](#LastName) | Surname |
 | [None](#None) | Specifies that, FileUnder is a user-provided, and should not be changed when another contact name property changes. |
-### Empty {#Empty}
+| [OrgLastFirstMiddle](#OrgLastFirstMiddle) | CompanyName\\r\\nSurname, GivenName MiddleName |
+| [OrgLastFirstMiddle2](#OrgLastFirstMiddle2) | CompanyName\\r\\nSurnameGivenName MiddleName |
+| [OrgLastFirstMiddle3](#OrgLastFirstMiddle3) | CompanyName\\r\\nSurname GivenName MiddleName |
+| [Organization](#Organization) | CompanyName |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [Clone()](#Clone--) |  |
+| [CloneTo(T arg0)](#CloneTo-T-) |  |
+| [CloneTo(System.Enum arg0)](#CloneTo-com.aspose.ms.System.Enum-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [format(System.Type arg0, Object arg1, String arg2)](#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-) |  |
+| [format(Class<?> arg0, long arg1, String arg2)](#format-java.lang.Class----long-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(System.Type arg0, Object arg1)](#getName-com.aspose.ms.System.Type-java.lang.Object-) |  |
+| [getName(Class<?> arg0, long arg1)](#getName-java.lang.Class----long-) |  |
+| [getNames(System.Type arg0)](#getNames-com.aspose.ms.System.Type-) |  |
+| [getNames(Class<?> arg0)](#getNames-java.lang.Class----) |  |
+| [getUnderlyingType(System.Type arg0)](#getUnderlyingType-com.aspose.ms.System.Type-) |  |
+| [getUnderlyingType(Class<?> arg0)](#getUnderlyingType-java.lang.Class----) |  |
+| [getValue(Class<?> arg0, String arg1)](#getValue-java.lang.Class----java.lang.String-) |  |
+| [getValues(System.Type arg0)](#getValues-com.aspose.ms.System.Type-) |  |
+| [get_Caption()](#get-Caption--) |  |
+| [get_Value()](#get-Value--) |  |
+| [hashCode()](#hashCode--) |  |
+| [isDefined(System.Type arg0, Object arg1)](#isDefined-com.aspose.ms.System.Type-java.lang.Object-) |  |
+| [isDefined(System.Type arg0, String arg1)](#isDefined-com.aspose.ms.System.Type-java.lang.String-) |  |
+| [isDefined(System.Type arg0, long arg1)](#isDefined-com.aspose.ms.System.Type-long-) |  |
+| [isDefined(Class<?> arg0, long arg1)](#isDefined-java.lang.Class----long-) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [parse(System.Type arg0, String arg1)](#parse-com.aspose.ms.System.Type-java.lang.String-) |  |
+| [parse(System.Type arg0, String arg1, Boolean arg2)](#parse-com.aspose.ms.System.Type-java.lang.String-java.lang.Boolean-) |  |
+| [parse(Class<?> arg0, String arg1)](#parse-java.lang.Class----java.lang.String-) |  |
+| [parse(Class<?> arg0, String arg1, Boolean arg2)](#parse-java.lang.Class----java.lang.String-java.lang.Boolean-) |  |
+| [register(System.Enum.AbstractEnum arg0)](#register-com.aspose.ms.System.Enum.AbstractEnum-) |  |
+| [toObject(System.Type arg0, Object arg1)](#toObject-com.aspose.ms.System.Type-java.lang.Object-) |  |
+| [toString()](#toString--) |  |
+| [toString(Class<?> arg0, long arg1)](#toString-java.lang.Class----long-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AccordingToLocale {#AccordingToLocale}
 ```
-public static final long Empty
+public static final long AccordingToLocale
 ```
 
 
-Empty value.
+Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for dispidFileUnderId and update dispidFileUnder to match the choice.
+
+### BestMatch {#BestMatch}
+```
+public static final long BestMatch
+```
+
+
+Specifies that, when displaying the contact, the application should attempt to use the current value of dispidFileUnder and other contact properties to find a "best match" for dispidFileUnderId to one of the previous values in this table.
 
 ### DisplayName {#DisplayName}
 ```
@@ -53,29 +101,19 @@ public static final long DisplayName
 
 DisplayName
 
-### FirstName {#FirstName}
+### Empty {#Empty}
 ```
-public static final long FirstName
-```
-
-
-GivenName
-
-### LastName {#LastName}
-```
-public static final long LastName
+public static final long Empty
 ```
 
 
-Surname
+Empty value.
 
-### Organization {#Organization}
+### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
-public static final long Organization
+public static final char[] EnumSeparatorCharArray
 ```
 
-
-CompanyName
 
 ### FirstMiddleLastGen {#FirstMiddleLastGen}
 ```
@@ -84,6 +122,14 @@ public static final long FirstMiddleLastGen
 
 
 GivenName MiddleName Surname Generation
+
+### FirstName {#FirstName}
+```
+public static final long FirstName
+```
+
+
+GivenName
 
 ### LastFirstMiddle {#LastFirstMiddle}
 ```
@@ -109,29 +155,21 @@ public static final long LastFirstMiddle3
 
 Surname GivenName MiddleName
 
-### OrgLastFirstMiddle {#OrgLastFirstMiddle}
+### LastFirstMiddleGen {#LastFirstMiddleGen}
 ```
-public static final long OrgLastFirstMiddle
-```
-
-
-CompanyName\\r\\nSurname, GivenName MiddleName
-
-### OrgLastFirstMiddle2 {#OrgLastFirstMiddle2}
-```
-public static final long OrgLastFirstMiddle2
+public static final long LastFirstMiddleGen
 ```
 
 
-CompanyName\\r\\nSurnameGivenName MiddleName
+Surname GivenName MiddleName Generation
 
-### OrgLastFirstMiddle3 {#OrgLastFirstMiddle3}
+### LastFirstMiddleGen2 {#LastFirstMiddleGen2}
 ```
-public static final long OrgLastFirstMiddle3
+public static final long LastFirstMiddleGen2
 ```
 
 
-CompanyName\\r\\nSurname GivenName MiddleName
+SurnameGivenName MiddleName Generation
 
 ### LastFirstMiddleOrg {#LastFirstMiddleOrg}
 ```
@@ -157,37 +195,13 @@ public static final long LastFirstMiddleOrg3
 
 Surname GivenName PidTagMiddleName\\r\\nCompanyName
 
-### LastFirstMiddleGen {#LastFirstMiddleGen}
+### LastName {#LastName}
 ```
-public static final long LastFirstMiddleGen
-```
-
-
-Surname GivenName MiddleName Generation
-
-### LastFirstMiddleGen2 {#LastFirstMiddleGen2}
-```
-public static final long LastFirstMiddleGen2
+public static final long LastName
 ```
 
 
-SurnameGivenName MiddleName Generation
-
-### BestMatch {#BestMatch}
-```
-public static final long BestMatch
-```
-
-
-Specifies that, when displaying the contact, the application should attempt to use the current value of dispidFileUnder and other contact properties to find a "best match" for dispidFileUnderId to one of the previous values in this table.
-
-### AccordingToLocale {#AccordingToLocale}
-```
-public static final long AccordingToLocale
-```
-
-
-Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for dispidFileUnderId and update dispidFileUnder to match the choice.
+Surname
 
 ### None {#None}
 ```
@@ -196,4 +210,520 @@ public static final long None
 
 
 Specifies that, FileUnder is a user-provided, and should not be changed when another contact name property changes. I.e. value of FileUnder is not constructed from other properties.
+
+### OrgLastFirstMiddle {#OrgLastFirstMiddle}
+```
+public static final long OrgLastFirstMiddle
+```
+
+
+CompanyName\\r\\nSurname, GivenName MiddleName
+
+### OrgLastFirstMiddle2 {#OrgLastFirstMiddle2}
+```
+public static final long OrgLastFirstMiddle2
+```
+
+
+CompanyName\\r\\nSurnameGivenName MiddleName
+
+### OrgLastFirstMiddle3 {#OrgLastFirstMiddle3}
+```
+public static final long OrgLastFirstMiddle3
+```
+
+
+CompanyName\\r\\nSurname GivenName MiddleName
+
+### Organization {#Organization}
+```
+public static final long Organization
+```
+
+
+CompanyName
+
+### Clone() {#Clone--}
+```
+public System.Enum Clone()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Enum
+### CloneTo(T arg0) {#CloneTo-T-}
+```
+public abstract void CloneTo(T arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
+### CloneTo(System.Enum arg0) {#CloneTo-com.aspose.ms.System.Enum-}
+```
+public void CloneTo(System.Enum arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Enum |  |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### format(System.Type arg0, Object arg1, String arg2) {#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-}
+```
+public static String format(System.Type arg0, Object arg1, String arg2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.Object |  |
+| arg2 | java.lang.String |  |
+
+**Returns:**
+java.lang.String
+### format(Class<?> arg0, long arg1, String arg2) {#format-java.lang.Class----long-java.lang.String-}
+```
+public static String format(Class<?> arg0, long arg1, String arg2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | long |  |
+| arg2 | java.lang.String |  |
+
+**Returns:**
+java.lang.String
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getName(System.Type arg0, Object arg1) {#getName-com.aspose.ms.System.Type-java.lang.Object-}
+```
+public static String getName(System.Type arg0, Object arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.Object |  |
+
+**Returns:**
+java.lang.String
+### getName(Class<?> arg0, long arg1) {#getName-java.lang.Class----long-}
+```
+public static String getName(Class<?> arg0, long arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | long |  |
+
+**Returns:**
+java.lang.String
+### getNames(System.Type arg0) {#getNames-com.aspose.ms.System.Type-}
+```
+public static String[] getNames(System.Type arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+
+**Returns:**
+java.lang.String[]
+### getNames(Class<?> arg0) {#getNames-java.lang.Class----}
+```
+public static Collection<String> getNames(Class<?> arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+
+**Returns:**
+java.util.Collection<java.lang.String>
+### getUnderlyingType(System.Type arg0) {#getUnderlyingType-com.aspose.ms.System.Type-}
+```
+public static System.Type getUnderlyingType(System.Type arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+
+**Returns:**
+com.aspose.ms.System.Type
+### getUnderlyingType(Class<?> arg0) {#getUnderlyingType-java.lang.Class----}
+```
+public static Class<? extends Number> getUnderlyingType(Class<?> arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+
+**Returns:**
+java.lang.Class<? extends java.lang.Number>
+### getValue(Class<?> arg0, String arg1) {#getValue-java.lang.Class----java.lang.String-}
+```
+public static long getValue(Class<?> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+long
+### getValues(System.Type arg0) {#getValues-com.aspose.ms.System.Type-}
+```
+public static System.Array getValues(System.Type arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+
+**Returns:**
+com.aspose.ms.System.Array
+### get_Caption() {#get-Caption--}
+```
+public String get_Caption()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### get_Value() {#get-Value--}
+```
+public long get_Value()
+```
+
+
+
+
+**Returns:**
+long
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isDefined(System.Type arg0, Object arg1) {#isDefined-com.aspose.ms.System.Type-java.lang.Object-}
+```
+public static boolean isDefined(System.Type arg0, Object arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### isDefined(System.Type arg0, String arg1) {#isDefined-com.aspose.ms.System.Type-java.lang.String-}
+```
+public static boolean isDefined(System.Type arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+boolean
+### isDefined(System.Type arg0, long arg1) {#isDefined-com.aspose.ms.System.Type-long-}
+```
+public static boolean isDefined(System.Type arg0, long arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | long |  |
+
+**Returns:**
+boolean
+### isDefined(Class<?> arg0, long arg1) {#isDefined-java.lang.Class----long-}
+```
+public static boolean isDefined(Class<?> arg0, long arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | long |  |
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### parse(System.Type arg0, String arg1) {#parse-com.aspose.ms.System.Type-java.lang.String-}
+```
+public static long parse(System.Type arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+long
+### parse(System.Type arg0, String arg1, Boolean arg2) {#parse-com.aspose.ms.System.Type-java.lang.String-java.lang.Boolean-}
+```
+public static long parse(System.Type arg0, String arg1, Boolean arg2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.String |  |
+| arg2 | java.lang.Boolean |  |
+
+**Returns:**
+long
+### parse(Class<?> arg0, String arg1) {#parse-java.lang.Class----java.lang.String-}
+```
+public static long parse(Class<?> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+long
+### parse(Class<?> arg0, String arg1, Boolean arg2) {#parse-java.lang.Class----java.lang.String-java.lang.Boolean-}
+```
+public static long parse(Class<?> arg0, String arg1, Boolean arg2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | java.lang.String |  |
+| arg2 | java.lang.Boolean |  |
+
+**Returns:**
+long
+### register(System.Enum.AbstractEnum arg0) {#register-com.aspose.ms.System.Enum.AbstractEnum-}
+```
+public static void register(System.Enum.AbstractEnum arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Enum.AbstractEnum |  |
+
+### toObject(System.Type arg0, Object arg1) {#toObject-com.aspose.ms.System.Type-java.lang.Object-}
+```
+public static Object toObject(System.Type arg0, Object arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | com.aspose.ms.System.Type |  |
+| arg1 | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toString(Class<?> arg0, long arg1) {#toString-java.lang.Class----long-}
+```
+public static String toString(Class<?> arg0, long arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<?> |  |
+| arg1 | long |  |
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

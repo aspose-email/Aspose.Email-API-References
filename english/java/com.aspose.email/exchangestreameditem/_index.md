@@ -1,7 +1,7 @@
 ---
 title: ExchangeStreamedItem
 second_title: Aspose.Email for Java API Reference
-description:  Represents the item received in ExportItems response
+description: Represents the item received in ExportItems response
 type: docs
 weight: 226
 url: /java/com.aspose.email/exchangestreameditem/
@@ -22,12 +22,21 @@ Represents the item received in ExportItems response
 
 | Method | Description |
 | --- | --- |
-| [getItemId()](#getItemId--) | Gets or sets the item identifier |
-| [setItemId(String value)](#setItemId-java.lang.String-) | Gets or sets the item identifier |
-| [getDataEncoding()](#getDataEncoding--) | Gets or sets the data encoding. |
-| [setDataEncoding(Charset value)](#setDataEncoding-java.nio.charset.Charset-) | Gets or sets the data encoding. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets or sets the item data |
+| [getDataEncoding()](#getDataEncoding--) | Gets or sets the data encoding. |
+| [getItemId()](#getItemId--) | Gets or sets the item identifier |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setData(byte[] value)](#setData-byte---) | Gets or sets the item data |
+| [setDataEncoding(Charset value)](#setDataEncoding-java.nio.charset.Charset-) | Gets or sets the data encoding. |
+| [setItemId(String value)](#setItemId-java.lang.String-) | Gets or sets the item identifier |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ExchangeStreamedItem() {#ExchangeStreamedItem--}
 ```
 public ExchangeStreamedItem()
@@ -36,29 +45,41 @@ public ExchangeStreamedItem()
 
 Initializes a new instance of the [ExchangeStreamedItem](../../com.aspose.email/exchangestreameditem) class
 
-### getItemId() {#getItemId--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final String getItemId()
-```
-
-
-Gets or sets the item identifier
-
-**Returns:**
-java.lang.String
-### setItemId(String value) {#setItemId-java.lang.String-}
-```
-public final void setItemId(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets the item identifier
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getData() {#getData--}
+```
+public final byte[] getData()
+```
+
+
+Gets or sets the item data
+
+**Returns:**
+byte[]
 ### getDataEncoding() {#getDataEncoding--}
 ```
 public final Charset getDataEncoding()
@@ -71,6 +92,55 @@ Value: The data encoding.
 
 **Returns:**
 java.nio.charset.Charset
+### getItemId() {#getItemId--}
+```
+public final String getItemId()
+```
+
+
+Gets or sets the item identifier
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setData(byte[] value) {#setData-byte---}
+```
+public final void setData(byte[] value)
+```
+
+
+Gets or sets the item data
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte[] |  |
+
 ### setDataEncoding(Charset value) {#setDataEncoding-java.nio.charset.Charset-}
 ```
 public final void setDataEncoding(Charset value)
@@ -86,26 +156,61 @@ Value: The data encoding.
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
 
-### getData() {#getData--}
+### setItemId(String value) {#setItemId-java.lang.String-}
 ```
-public final byte[] getData()
-```
-
-
-Gets or sets the item data
-
-**Returns:**
-byte[]
-### setData(byte[] value) {#setData-byte---}
-```
-public final void setData(byte[] value)
+public final void setItemId(String value)
 ```
 
 
-Gets or sets the item data
+Gets or sets the item identifier
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] |  |
+| value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

@@ -1,7 +1,7 @@
 ---
 title: MessageTrackingReport
 second_title: Aspose.Email for Java API Reference
-description:  Represents the information to be included in the report.
+description: Represents the information to be included in the report.
 type: docs
 weight: 505
 url: /java/com.aspose.email/messagetrackingreport/
@@ -17,11 +17,65 @@ Represents the information to be included in the report.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getOriginalRecipients()](#getOriginalRecipients--) | Gets the e-mail addresses of the message recipients. |
+| [getRecipientTrackingEvents()](#getRecipientTrackingEvents--) | Gets the type of events to report. |
 | [getSender()](#getSender--) | Gets the e-mail address for the sender of the message. |
 | [getSubject()](#getSubject--) | Gets the subject of the message. |
 | [getSubmitTime()](#getSubmitTime--) | Gets the time at which the message was sent to the server. |
-| [getOriginalRecipients()](#getOriginalRecipients--) | Gets the e-mail addresses of the message recipients. |
-| [getRecipientTrackingEvents()](#getRecipientTrackingEvents--) | Gets the type of events to report. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getOriginalRecipients() {#getOriginalRecipients--}
+```
+public final MailAddressCollection getOriginalRecipients()
+```
+
+
+Gets the e-mail addresses of the message recipients.
+
+**Returns:**
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
+### getRecipientTrackingEvents() {#getRecipientTrackingEvents--}
+```
+public final RecipientTrackingEvent[] getRecipientTrackingEvents()
+```
+
+
+Gets the type of events to report.
+
+**Returns:**
+com.aspose.email.RecipientTrackingEvent[]
 ### getSender() {#getSender--}
 ```
 public final MailAddress getSender()
@@ -52,23 +106,74 @@ Gets the time at which the message was sent to the server.
 
 **Returns:**
 java.util.Date
-### getOriginalRecipients() {#getOriginalRecipients--}
+### hashCode() {#hashCode--}
 ```
-public final MailAddressCollection getOriginalRecipients()
+public native int hashCode()
 ```
 
 
-Gets the e-mail addresses of the message recipients.
+
 
 **Returns:**
-[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
-### getRecipientTrackingEvents() {#getRecipientTrackingEvents--}
+int
+### notify() {#notify--}
 ```
-public final RecipientTrackingEvent[] getRecipientTrackingEvents()
+public final native void notify()
 ```
 
 
-Gets the type of events to report.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-com.aspose.email.RecipientTrackingEvent[]
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

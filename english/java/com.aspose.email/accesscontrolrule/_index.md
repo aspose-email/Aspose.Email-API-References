@@ -1,7 +1,7 @@
 ---
 title: AccessControlRule
 second_title: Aspose.Email for Java API Reference
-description:  Access control rule.
+description: Access control rule.
 type: docs
 weight: 10
 url: /java/com.aspose.email/accesscontrolrule/
@@ -30,11 +30,24 @@ Access control rule.
 
 | Method | Description |
 | --- | --- |
-| [getScope()](#getScope--) | The scope of the rule. |
-| [setScope(AclScope value)](#setScope-com.aspose.email.AclScope-) | The scope of the rule. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getETag()](#getETag--) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
+| [getId()](#getId--) | Identifier of the resource. |
+| [getKind()](#getKind--) | Type of the resource |
 | [getRole()](#getRole--) | The role assigned to the scope. |
+| [getScope()](#getScope--) | The scope of the rule. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setETag(String value)](#setETag-java.lang.String-) | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. |
+| [setId(String value)](#setId-java.lang.String-) | Identifier of the resource. |
 | [setRole(int value)](#setRole-int-) | The role assigned to the scope. |
+| [setScope(AclScope value)](#setScope-com.aspose.email.AclScope-) | The scope of the rule. |
 | [toString()](#toString--) | Returns a string which represents the object instance. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AccessControlRule() {#AccessControlRule--}
 ```
 public AccessControlRule()
@@ -96,29 +109,61 @@ public static final String ACCESS_CONTROL_RULE_KIND
 
 Type of the resource ("calendar\#calendar").
 
-### getScope() {#getScope--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final AclScope getScope()
-```
-
-
-The scope of the rule.
-
-**Returns:**
-[AclScope](../../com.aspose.email/aclscope)
-### setScope(AclScope value) {#setScope-com.aspose.email.AclScope-}
-```
-public final void setScope(AclScope value)
+public boolean equals(Object arg0)
 ```
 
 
-The scope of the rule.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AclScope](../../com.aspose.email/aclscope) |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getETag() {#getETag--}
+```
+public String getETag()
+```
+
+
+An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other.
+
+**Returns:**
+java.lang.String
+### getId() {#getId--}
+```
+public String getId()
+```
+
+
+Identifier of the resource.
+
+**Returns:**
+java.lang.String
+### getKind() {#getKind--}
+```
+public String getKind()
+```
+
+
+Type of the resource
+
+**Returns:**
+java.lang.String
 ### getRole() {#getRole--}
 ```
 public final int getRole()
@@ -129,6 +174,68 @@ The role assigned to the scope.
 
 **Returns:**
 int
+### getScope() {#getScope--}
+```
+public final AclScope getScope()
+```
+
+
+The scope of the rule.
+
+**Returns:**
+[AclScope](../../com.aspose.email/aclscope)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setETag(String value) {#setETag-java.lang.String-}
+```
+public void setETag(String value)
+```
+
+
+An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setId(String value) {#setId-java.lang.String-}
+```
+public void setId(String value)
+```
+
+
+Identifier of the resource.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setRole(int value) {#setRole-int-}
 ```
 public final void setRole(int value)
@@ -142,6 +249,19 @@ The role assigned to the scope.
 | --- | --- | --- |
 | value | int |  |
 
+### setScope(AclScope value) {#setScope-com.aspose.email.AclScope-}
+```
+public final void setScope(AclScope value)
+```
+
+
+The scope of the rule.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AclScope](../../com.aspose.email/aclscope) |  |
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -152,3 +272,38 @@ Returns a string which represents the object instance.
 
 **Returns:**
 java.lang.String - Returns a string which represents the object instance.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

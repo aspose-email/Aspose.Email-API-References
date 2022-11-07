@@ -23,12 +23,18 @@ Represents the search criteria, that are used to match several message propertie
 
 | Method | Description |
 | --- | --- |
-| [getSchema()](#getSchema--) | This method is reserved and should not be used. |
-| [getOrderByString()](#getOrderByString--) | The sort query string. |
 | [equals(MailQuery other)](#equals-com.aspose.email.MailQuery-) | Indicates whether the current object is equal to another object of the same type. |
-| [hashCode()](#hashCode--) | Returns a hash code for this instance. |
-| [toString()](#toString--) | Returns a String that represents this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object, is equal to this instance. |
+| [getClass()](#getClass--) |  |
+| [getOrderByString()](#getOrderByString--) | The sort query string. |
+| [getSchema()](#getSchema--) | This method is reserved and should not be used. |
+| [hashCode()](#hashCode--) | Returns a hash code for this instance. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) | Returns a String that represents this instance. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MailQuery(String queryString) {#MailQuery-java.lang.String-}
 ```
 public MailQuery(String queryString)
@@ -112,26 +118,6 @@ The number of simple expressions can make a compound one, ex.: (<Simple expressi
 | queryString | java.lang.String |  |
 | orderByString | java.lang.String |  |
 
-### getSchema() {#getSchema--}
-```
-public final System.Xml.XmlSchema getSchema()
-```
-
-
-This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class.
-
-**Returns:**
-com.aspose.ms.System.Xml.XmlSchema - An XmlSchema that describes the XML representation of the object that is produced by the  M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)  method and consumed by the  M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)  method.
-### getOrderByString() {#getOrderByString--}
-```
-public final String getOrderByString()
-```
-
-
-The sort query string.
-
-**Returns:**
-java.lang.String
 ### equals(MailQuery other) {#equals-com.aspose.email.MailQuery-}
 ```
 public final boolean equals(MailQuery other)
@@ -147,26 +133,6 @@ Indicates whether the current object is equal to another object of the same type
 
 **Returns:**
 boolean - true if the current object is equal to the  other  parameter; otherwise, false.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns a hash code for this instance.
-
-**Returns:**
-int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Returns a String that represents this instance.
-
-**Returns:**
-java.lang.String - A query string that represents this instance.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -182,3 +148,104 @@ Determines whether the specified Object, is equal to this instance.
 
 **Returns:**
 boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getOrderByString() {#getOrderByString--}
+```
+public final String getOrderByString()
+```
+
+
+The sort query string.
+
+**Returns:**
+java.lang.String
+### getSchema() {#getSchema--}
+```
+public final System.Xml.XmlSchema getSchema()
+```
+
+
+This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class.
+
+**Returns:**
+com.aspose.ms.System.Xml.XmlSchema - An XmlSchema that describes the XML representation of the object that is produced by the  M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)  method and consumed by the  M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)  method.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code for this instance.
+
+**Returns:**
+int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a String that represents this instance.
+
+**Returns:**
+java.lang.String - A query string that represents this instance.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -23,27 +23,36 @@ Represents a property on a [MessageObject](../../com.aspose.email/messageobject)
 
 | Method | Description |
 | --- | --- |
-| [getPropertyType()](#getPropertyType--) | Gets the type of the property. |
-| [getFlags()](#getFlags--) | Gets the flags set on a property. |
-| [getId()](#getId--) | Gets the id of the property. |
-| [getPropertyTag()](#getPropertyTag--) | Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType) |
-| [getGuid()](#getGuid--) | Gets or sets the GUID for the named property. |
-| [setGuid(UUID value)](#setGuid-java.util.UUID-) | Gets or sets the GUID for the named property. |
-| [getPropertyKind()](#getPropertyKind--) | Gets or sets the kind of the property if it's named. |
-| [setPropertyKind(int value)](#setPropertyKind-int-) | Gets or sets the kind of the property if it's named. |
-| [getName()](#getName--) | Gets or sets the name of the property if it's named. |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets the name of the property if it's named. |
-| [getNameId()](#getNameId--) | Gets or sets the name id of the property if it's named. |
-| [setNameId(long value)](#setNameId-long-) | Gets or sets the name id of the property if it's named. |
-| [getNamed()](#getNamed--) | Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is a named property. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAtomic()](#getAtomic--) | Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is atomic. |
+| [getClass()](#getClass--) |  |
+| [getFlags()](#getFlags--) | Gets the flags set on a property. |
+| [getGuid()](#getGuid--) | Gets or sets the GUID for the named property. |
+| [getId()](#getId--) | Gets the id of the property. |
+| [getName()](#getName--) | Gets or sets the name of the property if it's named. |
+| [getNameId()](#getNameId--) | Gets or sets the name id of the property if it's named. |
+| [getNamed()](#getNamed--) | Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is a named property. |
+| [getPropertyKind()](#getPropertyKind--) | Gets or sets the kind of the property if it's named. |
+| [getPropertyTag()](#getPropertyTag--) | Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType) |
+| [getPropertyType()](#getPropertyType--) | Gets the type of the property. |
 | [getValue()](#getValue--) | Gets or sets the value of the property. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setGuid(UUID value)](#setGuid-java.util.UUID-) | Gets or sets the GUID for the named property. |
+| [setName(String value)](#setName-java.lang.String-) | Gets or sets the name of the property if it's named. |
+| [setNameId(long value)](#setNameId-long-) | Gets or sets the name id of the property if it's named. |
+| [setPropertyKind(int value)](#setPropertyKind-int-) | Gets or sets the kind of the property if it's named. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value of the property. |
-| [toInt()](#toInt--) | Converts the value of the property to integer. |
 | [toDateTime()](#toDateTime--) | Converts the value of the property to DateTime. |
-| [toStringRepresentation()](#toStringRepresentation--) | Converts the value of the property to string. |
-| [toList()](#toList--) | Converts the value of the property to a list of values. |
 | [toGuid()](#toGuid--) | Converts the value of the property to  Guid (\#getGuid.getGuid/\#setGuid(Guid).setGuid(Guid)). |
+| [toInt()](#toInt--) | Converts the value of the property to integer. |
+| [toList()](#toList--) | Converts the value of the property to a list of values. |
+| [toString()](#toString--) |  |
+| [toStringRepresentation()](#toStringRepresentation--) | Converts the value of the property to string. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MessageObjectProperty(long propertyTag, int flags, Object value) {#MessageObjectProperty-long-int-java.lang.Object-}
 ```
 public MessageObjectProperty(long propertyTag, int flags, Object value)
@@ -75,18 +84,43 @@ Initializes a new instance of the [MessageObjectProperty](../../com.aspose.email
 | flags | int | The flags to be set on. |
 | value | java.lang.Object | The value of the property. |
 
-### getPropertyType() {#getPropertyType--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final int getPropertyType()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the type of the property.
 
-Value: The type of the property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int
+boolean
+### getAtomic() {#getAtomic--}
+```
+public final boolean getAtomic()
+```
+
+
+Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is atomic.
+
+Value:  true  if atomic; otherwise,  false .
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getFlags() {#getFlags--}
 ```
 public final int getFlags()
@@ -99,30 +133,6 @@ Value: The flags.
 
 **Returns:**
 int
-### getId() {#getId--}
-```
-public final int getId()
-```
-
-
-Gets the id of the property.
-
-Value: The id if the property.
-
-**Returns:**
-int
-### getPropertyTag() {#getPropertyTag--}
-```
-public final long getPropertyTag()
-```
-
-
-Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType)
-
-Value: The property tag.
-
-**Returns:**
-long
 ### getGuid() {#getGuid--}
 ```
 public final UUID getGuid()
@@ -135,48 +145,18 @@ Value: The GUID.
 
 **Returns:**
 java.util.UUID
-### setGuid(UUID value) {#setGuid-java.util.UUID-}
+### getId() {#getId--}
 ```
-public final void setGuid(UUID value)
-```
-
-
-Gets or sets the GUID for the named property.
-
-Value: The GUID.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.UUID |  |
-
-### getPropertyKind() {#getPropertyKind--}
-```
-public final int getPropertyKind()
+public final int getId()
 ```
 
 
-Gets or sets the kind of the property if it's named.
+Gets the id of the property.
 
-Value: The kind of the property.
+Value: The id if the property.
 
 **Returns:**
 int
-### setPropertyKind(int value) {#setPropertyKind-int-}
-```
-public final void setPropertyKind(int value)
-```
-
-
-Gets or sets the kind of the property if it's named.
-
-Value: The kind of the property.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -189,21 +169,6 @@ Value: The name.
 
 **Returns:**
 java.lang.String
-### setName(String value) {#setName-java.lang.String-}
-```
-public final void setName(String value)
-```
-
-
-Gets or sets the name of the property if it's named.
-
-Value: The name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
 ### getNameId() {#getNameId--}
 ```
 public final long getNameId()
@@ -216,21 +181,6 @@ Value: The name id.
 
 **Returns:**
 long
-### setNameId(long value) {#setNameId-long-}
-```
-public final void setNameId(long value)
-```
-
-
-Gets or sets the name id of the property if it's named.
-
-Value: The name id.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | long |  |
-
 ### getNamed() {#getNamed--}
 ```
 public final boolean getNamed()
@@ -247,18 +197,42 @@ A named property is determined by its ID, the range for such ids is [0x8000,0xff
 
 **Returns:**
 boolean
-### getAtomic() {#getAtomic--}
+### getPropertyKind() {#getPropertyKind--}
 ```
-public final boolean getAtomic()
+public final int getPropertyKind()
 ```
 
 
-Gets a value indicating whether this [MessageObjectProperty](../../com.aspose.email/messageobjectproperty) is atomic.
+Gets or sets the kind of the property if it's named.
 
-Value:  true  if atomic; otherwise,  false .
+Value: The kind of the property.
 
 **Returns:**
-boolean
+int
+### getPropertyTag() {#getPropertyTag--}
+```
+public final long getPropertyTag()
+```
+
+
+Gets the property tag, a combined value which contains  Id (\#getId.getId) and  PropertyType (\#getPropertyType.getPropertyType)
+
+Value: The property tag.
+
+**Returns:**
+long
+### getPropertyType() {#getPropertyType--}
+```
+public final int getPropertyType()
+```
+
+
+Gets the type of the property.
+
+Value: The type of the property.
+
+**Returns:**
+int
 ### getValue() {#getValue--}
 ```
 public final Object getValue()
@@ -269,6 +243,92 @@ Gets or sets the value of the property.
 
 **Returns:**
 java.lang.Object
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setGuid(UUID value) {#setGuid-java.util.UUID-}
+```
+public final void setGuid(UUID value)
+```
+
+
+Gets or sets the GUID for the named property.
+
+Value: The GUID.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.UUID |  |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public final void setName(String value)
+```
+
+
+Gets or sets the name of the property if it's named.
+
+Value: The name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setNameId(long value) {#setNameId-long-}
+```
+public final void setNameId(long value)
+```
+
+
+Gets or sets the name id of the property if it's named.
+
+Value: The name id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | long |  |
+
+### setPropertyKind(int value) {#setPropertyKind-int-}
+```
+public final void setPropertyKind(int value)
+```
+
+
+Gets or sets the kind of the property if it's named.
+
+Value: The kind of the property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setValue(Object value) {#setValue-java.lang.Object-}
 ```
 public final void setValue(Object value)
@@ -282,16 +342,6 @@ Gets or sets the value of the property.
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
-### toInt() {#toInt--}
-```
-public final int toInt()
-```
-
-
-Converts the value of the property to integer.
-
-**Returns:**
-int - Integer value, if type can't be converted to integer returns 0.
 ### toDateTime() {#toDateTime--}
 ```
 public final Date toDateTime()
@@ -302,34 +352,6 @@ Converts the value of the property to DateTime.
 
 **Returns:**
 java.util.Date - DateTime value, if type can't be converted to DateTime returns java.util.Date\#MinValue.MinValue.
-
---------------------
-
-This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
-### toStringRepresentation() {#toStringRepresentation--}
-```
-public final String toStringRepresentation()
-```
-
-
-Converts the value of the property to string.
-
-**Returns:**
-java.lang.String - String value, if type can't be converted to string returns empty string.
-
---------------------
-
-This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
-### toList() {#toList--}
-```
-public System.Collections.IList toList()
-```
-
-
-Converts the value of the property to a list of values.
-
-**Returns:**
-com.aspose.ms.System.Collections.IList - IList implementation, if type can't be converted to IList returns empty list implementation.
 
 --------------------
 
@@ -348,3 +370,86 @@ java.util.UUID - Guid object, if type can't be converted to Guid returns empty G
 --------------------
 
 This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
+### toInt() {#toInt--}
+```
+public final int toInt()
+```
+
+
+Converts the value of the property to integer.
+
+**Returns:**
+int - Integer value, if type can't be converted to integer returns 0.
+### toList() {#toList--}
+```
+public System.Collections.IList toList()
+```
+
+
+Converts the value of the property to a list of values.
+
+**Returns:**
+com.aspose.ms.System.Collections.IList - IList implementation, if type can't be converted to IList returns empty list implementation.
+
+--------------------
+
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toStringRepresentation() {#toStringRepresentation--}
+```
+public final String toStringRepresentation()
+```
+
+
+Converts the value of the property to string.
+
+**Returns:**
+java.lang.String - String value, if type can't be converted to string returns empty string.
+
+--------------------
+
+This method doesn't provide automatic conversion of the data types, e.g. if  MessageObjectProperty.Value (\#getValue.getValue/\#setValue(Object).setValue(Object)) property is of type default value will be returned.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -1,7 +1,7 @@
 ---
 title: TgzReader
 second_title: Aspose.Email for Java API Reference
-description:  The mailbox items reader of Zimbra tgz storage.
+description: The mailbox items reader of Zimbra tgz storage.
 type: docs
 weight: 665
 url: /java/com.aspose.email/tgzreader/
@@ -25,12 +25,21 @@ The mailbox items reader of Zimbra tgz storage.
 
 | Method | Description |
 | --- | --- |
+| [close()](#close--) |  |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [exportTo(String path)](#exportTo-java.lang.String-) | Save messages and directory structure using given path. |
+| [getClass()](#getClass--) |  |
 | [getCurrentDirectory()](#getCurrentDirectory--) | Gets the current directory name. |
 | [getCurrentMessage()](#getCurrentMessage--) | Gets the current message. |
-| [exportTo(String path)](#exportTo-java.lang.String-) | Save messages and directory structure using given path. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [readNextMessage()](#readNextMessage--) | Reads the next message. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [close()](#close--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### TgzReader(String fileName) {#TgzReader-java.lang.String-}
 ```
 public TgzReader(String fileName)
@@ -44,6 +53,60 @@ Initializes a new instance of the [TgzReader](../../com.aspose.email/tgzreader) 
 | --- | --- | --- |
 | fileName | java.lang.String | The filename. |
 
+### close() {#close--}
+```
+public void close()
+```
+
+
+
+
+### dispose() {#dispose--}
+```
+public final void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### exportTo(String path) {#exportTo-java.lang.String-}
+```
+public final void exportTo(String path)
+```
+
+
+Save messages and directory structure using given path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The main directory path to save storage structure. |
+
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCurrentDirectory() {#getCurrentDirectory--}
 ```
 public final String getCurrentDirectory()
@@ -68,18 +131,31 @@ Value: The [MailMessage](../../com.aspose.email/mailmessage).
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage)
-### exportTo(String path) {#exportTo-java.lang.String-}
+### hashCode() {#hashCode--}
 ```
-public final void exportTo(String path)
+public native int hashCode()
 ```
 
 
-Save messages and directory structure using given path.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | The main directory path to save storage structure. |
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### readNextMessage() {#readNextMessage--}
 ```
@@ -91,19 +167,48 @@ Reads the next message.
 
 **Returns:**
 boolean - 
-### dispose() {#dispose--}
+### toString() {#toString--}
 ```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
-### close() {#close--}
-```
-public void close()
+public String toString()
 ```
 
 
 
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

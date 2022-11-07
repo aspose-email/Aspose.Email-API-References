@@ -1,7 +1,7 @@
 ---
 title: OnenoteOperation
 second_title: Aspose.Email for Java API Reference
-description:  The status of certain long-running OneNote operations.
+description: The status of certain long-running OneNote operations.
 type: docs
 weight: 541
 url: /java/com.aspose.email/onenoteoperation/
@@ -22,22 +22,76 @@ The status of certain long-running OneNote operations.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getCreatedDateTime()](#getCreatedDateTime--) | The start time of the operation. |
+| [getError()](#getError--) | The error returned by the operation. |
 | [getId()](#getId--) | The operation id. |
 | [getLastActionDateTime()](#getLastActionDateTime--) | The time of the last action of the operation. |
-| [isLastActionDateTimeSpecified()](#isLastActionDateTimeSpecified--) | Indicates whether LastActionDateTime property is specified. |
-| [getCreatedDateTime()](#getCreatedDateTime--) | The start time of the operation. |
-| [isCreatedDateTimeSpecified()](#isCreatedDateTimeSpecified--) | Indicates whether CreatedDateTime property is specified. |
-| [getError()](#getError--) | The error returned by the operation. |
+| [getPercentComplete()](#getPercentComplete--) | The operation percent complete if the operation is still in running status |
 | [getResourceId()](#getResourceId--) | The resource id. |
 | [getResourceLocation()](#getResourceLocation--) | The resource URI for the object. |
 | [getStatus()](#getStatus--) | The current status of the operation: notstarted, running, completed, failed |
-| [getPercentComplete()](#getPercentComplete--) | The operation percent complete if the operation is still in running status |
+| [hashCode()](#hashCode--) |  |
+| [isCreatedDateTimeSpecified()](#isCreatedDateTimeSpecified--) | Indicates whether CreatedDateTime property is specified. |
+| [isLastActionDateTimeSpecified()](#isLastActionDateTimeSpecified--) | Indicates whether LastActionDateTime property is specified. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### OnenoteOperation() {#OnenoteOperation--}
 ```
 public OnenoteOperation()
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCreatedDateTime() {#getCreatedDateTime--}
+```
+public final System.DateTimeOffset getCreatedDateTime()
+```
+
+
+The start time of the operation.
+
+**Returns:**
+com.aspose.ms.System.DateTimeOffset
+### getError() {#getError--}
+```
+public final String getError()
+```
+
+
+The error returned by the operation.
+
+**Returns:**
+java.lang.String
 ### getId() {#getId--}
 ```
 public final String getId()
@@ -58,43 +112,13 @@ The time of the last action of the operation.
 
 **Returns:**
 com.aspose.ms.System.DateTimeOffset
-### isLastActionDateTimeSpecified() {#isLastActionDateTimeSpecified--}
+### getPercentComplete() {#getPercentComplete--}
 ```
-public final boolean isLastActionDateTimeSpecified()
-```
-
-
-Indicates whether LastActionDateTime property is specified.
-
-**Returns:**
-boolean
-### getCreatedDateTime() {#getCreatedDateTime--}
-```
-public final System.DateTimeOffset getCreatedDateTime()
+public final String getPercentComplete()
 ```
 
 
-The start time of the operation.
-
-**Returns:**
-com.aspose.ms.System.DateTimeOffset
-### isCreatedDateTimeSpecified() {#isCreatedDateTimeSpecified--}
-```
-public final boolean isCreatedDateTimeSpecified()
-```
-
-
-Indicates whether CreatedDateTime property is specified.
-
-**Returns:**
-boolean
-### getError() {#getError--}
-```
-public final String getError()
-```
-
-
-The error returned by the operation.
+The operation percent complete if the operation is still in running status
 
 **Returns:**
 java.lang.String
@@ -128,13 +152,94 @@ The current status of the operation: notstarted, running, completed, failed
 
 **Returns:**
 java.lang.String
-### getPercentComplete() {#getPercentComplete--}
+### hashCode() {#hashCode--}
 ```
-public final String getPercentComplete()
+public native int hashCode()
 ```
 
 
-The operation percent complete if the operation is still in running status
+
+
+**Returns:**
+int
+### isCreatedDateTimeSpecified() {#isCreatedDateTimeSpecified--}
+```
+public final boolean isCreatedDateTimeSpecified()
+```
+
+
+Indicates whether CreatedDateTime property is specified.
+
+**Returns:**
+boolean
+### isLastActionDateTimeSpecified() {#isLastActionDateTimeSpecified--}
+```
+public final boolean isLastActionDateTimeSpecified()
+```
+
+
+Indicates whether LastActionDateTime property is specified.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

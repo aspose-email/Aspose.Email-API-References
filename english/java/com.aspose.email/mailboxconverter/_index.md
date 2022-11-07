@@ -22,13 +22,41 @@ Provides mailbox conversion routines.
 
 | Method | Description |
 | --- | --- |
-| [convertPersonalStorageToMbox(PersonalStorage personalStorage, String storagePath, MessageAcceptanceCallback acceptanceCallback)](#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MessageAcceptanceCallback-) | Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given path. |
 | [convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback)](#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-com.aspose.email.MboxStorageWriter-com.aspose.email.MessageAcceptanceCallback-) | Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter). |
+| [convertPersonalStorageToMbox(PersonalStorage personalStorage, String storagePath, MessageAcceptanceCallback acceptanceCallback)](#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MessageAcceptanceCallback-) | Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given path. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MailboxConverter() {#MailboxConverter--}
 ```
 public MailboxConverter()
 ```
 
+
+### convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback) {#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-com.aspose.email.MboxStorageWriter-com.aspose.email.MessageAcceptanceCallback-}
+```
+public static void convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback)
+```
+
+
+Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| personalStorage | [PersonalStorage](../../com.aspose.email/personalstorage) | The personal storage. |
+| mboxStorageWriter | [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter) | The mbox storage writer. |
+| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be null.
+
+--------------------
+
+Resulting mbox storage will contain only one plain inbox folder with all messages, if you have to preserve the original structure of the storage, use XXX\_method instead. |
 
 ### convertPersonalStorageToMbox(PersonalStorage personalStorage, String storagePath, MessageAcceptanceCallback acceptanceCallback) {#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MessageAcceptanceCallback-}
 ```
@@ -49,22 +77,99 @@ Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox f
 
 Resulting folder will contain an exact copy of the  personalStorage  e.g. directory tree will be recreated on disk. |
 
-### convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback) {#convertPersonalStorageToMbox-com.aspose.email.PersonalStorage-com.aspose.email.MboxStorageWriter-com.aspose.email.MessageAcceptanceCallback-}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public static void convertPersonalStorageToMbox(PersonalStorage personalStorage, MboxStorageWriter mboxStorageWriter, MessageAcceptanceCallback acceptanceCallback)
+public boolean equals(Object arg0)
 ```
 
 
-Converts the [PersonalStorage](../../com.aspose.email/personalstorage) to mbox format using given [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter).
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| personalStorage | [PersonalStorage](../../com.aspose.email/personalstorage) | The personal storage. |
-| mboxStorageWriter | [MboxStorageWriter](../../com.aspose.email/mboxstoragewriter) | The mbox storage writer. |
-| acceptanceCallback | [MessageAcceptanceCallback](../../com.aspose.email/messageacceptancecallback) | The acceptance callback, can be null.
+| arg0 | java.lang.Object |  |
 
---------------------
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
 
-Resulting mbox storage will contain only one plain inbox folder with all messages, if you have to preserve the original structure of the storage, use XXX\_method instead. |
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 
