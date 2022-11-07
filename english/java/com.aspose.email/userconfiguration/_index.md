@@ -1,7 +1,7 @@
 ---
 title: UserConfiguration
 second_title: Aspose.Email for Java API Reference
-description:  Represents user configuration
+description: Represents user configuration
 type: docs
 weight: 685
 url: /java/com.aspose.email/userconfiguration/
@@ -22,15 +22,24 @@ Represents user configuration
 
 | Method | Description |
 | --- | --- |
-| [getUserConfigurationName()](#getUserConfigurationName--) | Gets or sets the user configuration object name. |
-| [setUserConfigurationName(UserConfigurationName value)](#setUserConfigurationName-com.aspose.email.UserConfigurationName-) | Gets or sets the user configuration object name. |
-| [getId()](#getId--) | Gets or sets the user configuration object item identifier. |
-| [setId(String value)](#setId-java.lang.String-) | Gets or sets the user configuration object item identifier. |
-| [getDictionary()](#getDictionary--) | Gets or sets a set of dictionary property entries. |
-| [getXmlData()](#getXmlData--) | Gets or sets XML data property content. |
-| [setXmlData(byte[] value)](#setXmlData-byte---) | Gets or sets XML data property content. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBinaryData()](#getBinaryData--) | Gets or sets binary data property content. |
+| [getClass()](#getClass--) |  |
+| [getDictionary()](#getDictionary--) | Gets or sets a set of dictionary property entries. |
+| [getId()](#getId--) | Gets or sets the user configuration object item identifier. |
+| [getUserConfigurationName()](#getUserConfigurationName--) | Gets or sets the user configuration object name. |
+| [getXmlData()](#getXmlData--) | Gets or sets XML data property content. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setBinaryData(byte[] value)](#setBinaryData-byte---) | Gets or sets binary data property content. |
+| [setId(String value)](#setId-java.lang.String-) | Gets or sets the user configuration object item identifier. |
+| [setUserConfigurationName(UserConfigurationName value)](#setUserConfigurationName-com.aspose.email.UserConfigurationName-) | Gets or sets the user configuration object name. |
+| [setXmlData(byte[] value)](#setXmlData-byte---) | Gets or sets XML data property content. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### UserConfiguration(UserConfigurationName userConfigurationName) {#UserConfiguration-com.aspose.email.UserConfigurationName-}
 ```
 public UserConfiguration(UserConfigurationName userConfigurationName)
@@ -44,29 +53,51 @@ Initializes a new instance of the [UserConfiguration](../../com.aspose.email/use
 | --- | --- | --- |
 | userConfigurationName | [UserConfigurationName](../../com.aspose.email/userconfigurationname) | A user configuration name |
 
-### getUserConfigurationName() {#getUserConfigurationName--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final UserConfigurationName getUserConfigurationName()
-```
-
-
-Gets or sets the user configuration object name.
-
-**Returns:**
-[UserConfigurationName](../../com.aspose.email/userconfigurationname)
-### setUserConfigurationName(UserConfigurationName value) {#setUserConfigurationName-com.aspose.email.UserConfigurationName-}
-```
-public final void setUserConfigurationName(UserConfigurationName value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets the user configuration object name.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [UserConfigurationName](../../com.aspose.email/userconfigurationname) |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getBinaryData() {#getBinaryData--}
+```
+public final byte[] getBinaryData()
+```
+
+
+Gets or sets binary data property content.
+
+**Returns:**
+byte[]
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDictionary() {#getDictionary--}
+```
+public final Map getDictionary()
+```
+
+
+Gets or sets a set of dictionary property entries.
+
+**Returns:**
+java.util.Map
 ### getId() {#getId--}
 ```
 public final String getId()
@@ -77,6 +108,65 @@ Gets or sets the user configuration object item identifier.
 
 **Returns:**
 java.lang.String
+### getUserConfigurationName() {#getUserConfigurationName--}
+```
+public final UserConfigurationName getUserConfigurationName()
+```
+
+
+Gets or sets the user configuration object name.
+
+**Returns:**
+[UserConfigurationName](../../com.aspose.email/userconfigurationname)
+### getXmlData() {#getXmlData--}
+```
+public final byte[] getXmlData()
+```
+
+
+Gets or sets XML data property content.
+
+**Returns:**
+byte[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setBinaryData(byte[] value) {#setBinaryData-byte---}
+```
+public final void setBinaryData(byte[] value)
+```
+
+
+Gets or sets binary data property content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte[] |  |
+
 ### setId(String value) {#setId-java.lang.String-}
 ```
 public final void setId(String value)
@@ -90,26 +180,19 @@ Gets or sets the user configuration object item identifier.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getDictionary() {#getDictionary--}
+### setUserConfigurationName(UserConfigurationName value) {#setUserConfigurationName-com.aspose.email.UserConfigurationName-}
 ```
-public final Map getDictionary()
-```
-
-
-Gets or sets a set of dictionary property entries.
-
-**Returns:**
-java.util.Map
-### getXmlData() {#getXmlData--}
-```
-public final byte[] getXmlData()
+public final void setUserConfigurationName(UserConfigurationName value)
 ```
 
 
-Gets or sets XML data property content.
+Gets or sets the user configuration object name.
 
-**Returns:**
-byte[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [UserConfigurationName](../../com.aspose.email/userconfigurationname) |  |
+
 ### setXmlData(byte[] value) {#setXmlData-byte---}
 ```
 public final void setXmlData(byte[] value)
@@ -123,26 +206,48 @@ Gets or sets XML data property content.
 | --- | --- | --- |
 | value | byte[] |  |
 
-### getBinaryData() {#getBinaryData--}
+### toString() {#toString--}
 ```
-public final byte[] getBinaryData()
+public String toString()
 ```
 
 
-Gets or sets binary data property content.
+
 
 **Returns:**
-byte[]
-### setBinaryData(byte[] value) {#setBinaryData-byte---}
+java.lang.String
+### wait() {#wait--}
 ```
-public final void setBinaryData(byte[] value)
+public final void wait()
 ```
 
 
-Gets or sets binary data property content.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

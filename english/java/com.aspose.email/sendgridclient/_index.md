@@ -1,7 +1,7 @@
 ---
 title: SendGridClient
 second_title: Aspose.Email for Java API Reference
-description:  Represents the SendGrid client
+description: Represents the SendGrid client
 type: docs
 weight: 621
 url: /java/com.aspose.email/sendgridclient/
@@ -26,9 +26,18 @@ Represents the SendGrid client
 
 | Method | Description |
 | --- | --- |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [send(MailMessage message)](#send-com.aspose.email.MailMessage-) | Sends email synchronously |
 | [send(MailMessage message, List<String> tags, CancellationToken token)](#send-com.aspose.email.MailMessage-java.util.List-java.lang.String--com.aspose.email.CancellationToken-) | Sends email synchronously |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### SendGridClient(String apiKey) {#SendGridClient-java.lang.String-}
 ```
 public SendGridClient(String apiKey)
@@ -55,6 +64,65 @@ Initializes a new instance of the [SendGridClient](../../com.aspose.email/sendgr
 | --- | --- | --- |
 | apiKey | java.lang.String |  |
 | sandBoxMode | boolean |  |
+
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### send(MailMessage message) {#send-com.aspose.email.MailMessage-}
 ```
@@ -88,11 +156,48 @@ Sends email synchronously
 
 **Returns:**
 [DeliveryServiceResponse](../../com.aspose.email/deliveryserviceresponse) - 
-### dispose() {#dispose--}
+### toString() {#toString--}
 ```
-public void dispose()
+public String toString()
 ```
 
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

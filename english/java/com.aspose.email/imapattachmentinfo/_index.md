@@ -1,7 +1,7 @@
 ---
 title: ImapAttachmentInfo
 second_title: Aspose.Email for Java API Reference
-description:  Represents an attachment information.
+description: Represents an attachment information.
 type: docs
 weight: 302
 url: /java/com.aspose.email/imapattachmentinfo/
@@ -17,29 +17,43 @@ Represents an attachment information.
 
 | Method | Description |
 | --- | --- |
-| [getSize()](#getSize--) | Gets an attachment size. |
-| [getName()](#getName--) | Gets an attachment name. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getMediaType()](#getMediaType--) | Gets an attachment MIME-type. |
-### getSize() {#getSize--}
+| [getName()](#getName--) | Gets an attachment name. |
+| [getSize()](#getSize--) | Gets an attachment size. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final long getSize()
+public boolean equals(Object arg0)
 ```
 
 
-Gets an attachment size.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-long
-### getName() {#getName--}
+boolean
+### getClass() {#getClass--}
 ```
-public final String getName()
+public final native Class<?> getClass()
 ```
 
 
-Gets an attachment name.
+
 
 **Returns:**
-java.lang.String
+java.lang.Class<?>
 ### getMediaType() {#getMediaType--}
 ```
 public final String getMediaType()
@@ -50,3 +64,94 @@ Gets an attachment MIME-type.
 
 **Returns:**
 java.lang.String
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+Gets an attachment name.
+
+**Returns:**
+java.lang.String
+### getSize() {#getSize--}
+```
+public final long getSize()
+```
+
+
+Gets an attachment size.
+
+**Returns:**
+long
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -1,7 +1,7 @@
 ---
 title: CommandStatus
 second_title: Aspose.Email for Java API Reference
-description:  Indicates the result of an operation.
+description: Indicates the result of an operation.
 type: docs
 weight: 108
 url: /java/com.aspose.email/commandstatus/
@@ -22,11 +22,17 @@ Indicates the result of an operation.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | Contains status description |
 | [getStatusCode()](#getStatusCode--) | Contains status code |
-| [toString()](#toString--) | Returns a string that represents the current object. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) | Returns a string that represents the current object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CommandStatus(int statusCode, String description) {#CommandStatus-int-java.lang.String-}
 ```
 public CommandStatus(int statusCode, String description)
@@ -41,6 +47,31 @@ Initializes a new instance of the Status class.
 | statusCode | int | Contains status code |
 | description | java.lang.String | Contains status description |
 
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified object is equal to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The object to compare with the current object. |
+
+**Returns:**
+boolean - true if the specified object is equal to the current object; otherwise, false.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -61,16 +92,6 @@ Contains status code
 
 **Returns:**
 int
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Returns a string that represents the current object.
-
-**Returns:**
-java.lang.String - A string that represents the current object.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -81,18 +102,64 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current Object.
-### equals(Object obj) {#equals-java.lang.Object-}
+### notify() {#notify--}
 ```
-public boolean equals(Object obj)
+public final native void notify()
 ```
 
 
-Determines whether the specified object is equal to the current object.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a string that represents the current object.
+
+**Returns:**
+java.lang.String - A string that represents the current object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The object to compare with the current object. |
+| arg0 | long |  |
 
-**Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -26,27 +26,34 @@ The main class, represents an iCalendar recurrence.
 
 | Method | Description |
 | --- | --- |
+| [equals(CalendarRecurrence other)](#equals-com.aspose.email.CalendarRecurrence-) | Determines whether the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [fromRecurrence(System.Xml.XmlElement xmlElement)](#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-) | Gets a recurrence pattern from XmlElement. |
+| [fromRecurrence(String xmlString)](#fromRecurrence-java.lang.String-) | Gets a recurrence pattern from XML pattern string. |
+| [fromiCalendar(String pattern)](#fromiCalendar-java.lang.String-) | Gets a recurrence pattern from iCalendar string. |
 | [generateOccurrences()](#generateOccurrences--) | Generates the occurrences. |
 | [generateOccurrences(int nNextOccurrences)](#generateOccurrences-int-) | Generates n next occurrences. |
 | [generateOccurrences(Date rangeStart, Date rangeEnd)](#generateOccurrences-java.util.Date-java.util.Date-) | Generates the occurrences. |
 | [generateOccurrences(Date rangeStart, Date rangeEnd, int nNextOccurrences)](#generateOccurrences-java.util.Date-java.util.Date-int-) | Generates n next occurrences. |
-| [fromiCalendar(String pattern)](#fromiCalendar-java.lang.String-) | Gets a recurrence pattern from iCalendar string. |
-| [fromRecurrence(String xmlString)](#fromRecurrence-java.lang.String-) | Gets a recurrence pattern from XML pattern string. |
-| [fromRecurrence(System.Xml.XmlElement xmlElement)](#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-) | Gets a recurrence pattern from XmlElement. |
-| [toiCalendar()](#toiCalendar--) | To iCalendar string. |
-| [getStartDate()](#getStartDate--) | Gets or sets the start date. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date. |
+| [getClass()](#getClass--) |  |
 | [getEndDate()](#getEndDate--) | Gets or sets the end date. |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
-| [getRRules()](#getRRules--) | Gets the R rules. |
+| [getExDates()](#getExDates--) | Gets the ex dates. |
 | [getExRules()](#getExRules--) | Gets the ex rules. |
 | [getRDates()](#getRDates--) | Gets the R dates. |
-| [getExDates()](#getExDates--) | Gets the ex dates. |
-| [equals(CalendarRecurrence other)](#equals-com.aspose.email.CalendarRecurrence-) | Determines whether the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [getRRules()](#getRRules--) | Gets the R rules. |
+| [getStartDate()](#getStartDate--) | Gets or sets the start date. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [op_Equality(CalendarRecurrence left, CalendarRecurrence right)](#op-Equality-com.aspose.email.CalendarRecurrence-com.aspose.email.CalendarRecurrence-) | Implements the operator ==. |
 | [op_Inequality(CalendarRecurrence left, CalendarRecurrence right)](#op-Inequality-com.aspose.email.CalendarRecurrence-com.aspose.email.CalendarRecurrence-) | Implements the operator !=. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date. |
+| [toString()](#toString--) |  |
+| [toiCalendar()](#toiCalendar--) | To iCalendar string. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CalendarRecurrence() {#CalendarRecurrence--}
 ```
 public CalendarRecurrence()
@@ -68,6 +75,81 @@ Initializes a new instance of the [CalendarRecurrence](../../com.aspose.email/ca
 | --- | --- | --- |
 | pattern | java.lang.String | The pattern. |
 
+### equals(CalendarRecurrence other) {#equals-com.aspose.email.CalendarRecurrence-}
+```
+public boolean equals(CalendarRecurrence other)
+```
+
+
+Determines whether the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) | The [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) to compare with this instance. |
+
+**Returns:**
+boolean -  true  if the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance; otherwise,  false .
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified Object is equal to the current Object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The Object to compare with the current Object. |
+
+**Returns:**
+boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+### fromRecurrence(System.Xml.XmlElement xmlElement) {#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-}
+```
+public static CalendarRecurrence fromRecurrence(System.Xml.XmlElement xmlElement)
+```
+
+
+Gets a recurrence pattern from XmlElement.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xmlElement | com.aspose.ms.System.Xml.XmlElement | XmlElementXmlElement of pattern. |
+
+**Returns:**
+[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
+### fromRecurrence(String xmlString) {#fromRecurrence-java.lang.String-}
+```
+public static CalendarRecurrence fromRecurrence(String xmlString)
+```
+
+
+Gets a recurrence pattern from XML pattern string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xmlString | java.lang.String | XML stringString of pattern. |
+
+**Returns:**
+[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
+### fromiCalendar(String pattern) {#fromiCalendar-java.lang.String-}
+```
+public static CalendarRecurrence fromiCalendar(String pattern)
+```
+
+
+Gets a recurrence pattern from iCalendar string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.lang.String | StringString representation of iCalendar. |
+
+**Returns:**
+[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
 ### generateOccurrences() {#generateOccurrences--}
 ```
 public final DateCollection generateOccurrences()
@@ -126,88 +208,16 @@ Generates n next occurrences.
 
 **Returns:**
 [DateCollection](../../com.aspose.email/datecollection) - Collection of dates[DateCollection](../../com.aspose.email/datecollection).
-### fromiCalendar(String pattern) {#fromiCalendar-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public static CalendarRecurrence fromiCalendar(String pattern)
+public final native Class<?> getClass()
 ```
 
 
-Gets a recurrence pattern from iCalendar string.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.lang.String | StringString representation of iCalendar. |
 
 **Returns:**
-[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
-### fromRecurrence(String xmlString) {#fromRecurrence-java.lang.String-}
-```
-public static CalendarRecurrence fromRecurrence(String xmlString)
-```
-
-
-Gets a recurrence pattern from XML pattern string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xmlString | java.lang.String | XML stringString of pattern. |
-
-**Returns:**
-[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
-### fromRecurrence(System.Xml.XmlElement xmlElement) {#fromRecurrence-com.aspose.ms.System.Xml.XmlElement-}
-```
-public static CalendarRecurrence fromRecurrence(System.Xml.XmlElement xmlElement)
-```
-
-
-Gets a recurrence pattern from XmlElement.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xmlElement | com.aspose.ms.System.Xml.XmlElement | XmlElementXmlElement of pattern. |
-
-**Returns:**
-[CalendarRecurrence](../../com.aspose.email/calendarrecurrence) - Recurrence pattern[CalendarRecurrence](../../com.aspose.email/calendarrecurrence).
-### toiCalendar() {#toiCalendar--}
-```
-public final String toiCalendar()
-```
-
-
-To iCalendar string.
-
-**Returns:**
-java.lang.String - StringString representation of RecurrencePattern.
-### getStartDate() {#getStartDate--}
-```
-public final Date getStartDate()
-```
-
-
-Gets or sets the start date.
-
-Value: The start date.
-
-**Returns:**
-java.util.Date
-### setStartDate(Date value) {#setStartDate-java.util.Date-}
-```
-public final void setStartDate(Date value)
-```
-
-
-Gets or sets the start date.
-
-Value: The start date.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
+java.lang.Class<?>
 ### getEndDate() {#getEndDate--}
 ```
 public final Date getEndDate()
@@ -220,33 +230,18 @@ Value: The end date.
 
 **Returns:**
 java.util.Date
-### setEndDate(Date value) {#setEndDate-java.util.Date-}
+### getExDates() {#getExDates--}
 ```
-public final void setEndDate(Date value)
-```
-
-
-Gets or sets the end date.
-
-Value: The end date.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getRRules() {#getRRules--}
-```
-public final RecurrenceRuleCollection getRRules()
+public final DateCollection getExDates()
 ```
 
 
-Gets the R rules.
+Gets the ex dates.
 
-Value: The R rules.
+Value: The ex dates.
 
 **Returns:**
-[RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection)
+[DateCollection](../../com.aspose.email/datecollection)
 ### getExRules() {#getExRules--}
 ```
 public final RecurrenceRuleCollection getExRules()
@@ -271,48 +266,30 @@ Value: The R dates.
 
 **Returns:**
 [DateCollection](../../com.aspose.email/datecollection)
-### getExDates() {#getExDates--}
+### getRRules() {#getRRules--}
 ```
-public final DateCollection getExDates()
+public final RecurrenceRuleCollection getRRules()
 ```
 
 
-Gets the ex dates.
+Gets the R rules.
 
-Value: The ex dates.
+Value: The R rules.
 
 **Returns:**
-[DateCollection](../../com.aspose.email/datecollection)
-### equals(CalendarRecurrence other) {#equals-com.aspose.email.CalendarRecurrence-}
+[RecurrenceRuleCollection](../../com.aspose.email/recurrencerulecollection)
+### getStartDate() {#getStartDate--}
 ```
-public boolean equals(CalendarRecurrence other)
+public final Date getStartDate()
 ```
 
 
-Determines whether the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance.
+Gets or sets the start date.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| other | [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) | The [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) to compare with this instance. |
+Value: The start date.
 
 **Returns:**
-boolean -  true  if the specified [CalendarRecurrence](../../com.aspose.email/calendarrecurrence) is equal to this instance; otherwise,  false .
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Determines whether the specified Object is equal to the current Object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The Object to compare with the current Object. |
-
-**Returns:**
-boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+java.util.Date
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -323,6 +300,22 @@ Returns a hash code for this instance.
 
 **Returns:**
 int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### op_Equality(CalendarRecurrence left, CalendarRecurrence right) {#op-Equality-com.aspose.email.CalendarRecurrence-com.aspose.email.CalendarRecurrence-}
 ```
 public static boolean op_Equality(CalendarRecurrence left, CalendarRecurrence right)
@@ -355,3 +348,88 @@ Implements the operator !=.
 
 **Returns:**
 boolean - The result of the operator.
+### setEndDate(Date value) {#setEndDate-java.util.Date-}
+```
+public final void setEndDate(Date value)
+```
+
+
+Gets or sets the end date.
+
+Value: The end date.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setStartDate(Date value) {#setStartDate-java.util.Date-}
+```
+public final void setStartDate(Date value)
+```
+
+
+Gets or sets the start date.
+
+Value: The start date.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toiCalendar() {#toiCalendar--}
+```
+public final String toiCalendar()
+```
+
+
+To iCalendar string.
+
+**Returns:**
+java.lang.String - StringString representation of RecurrencePattern.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

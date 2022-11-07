@@ -17,35 +17,46 @@ Represents the mail message format.It can be in eml,msg or mhtml format.
 
 | Method | Description |
 | --- | --- |
-| [getTnef()](#getTnef--) | Indicates message in  **Tnef**  format. |
-| [getHtml()](#getHtml--) | Indicates message in  **Html**  format. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Equalses the specified o. |
+| [getClass()](#getClass--) |  |
 | [getEml()](#getEml--) | Indicates message in  **Eml**  format. |
 | [getEmlx()](#getEmlx--) | Indicates message in  **Emlx**  format, used by Apple Mail. |
+| [getHtml()](#getHtml--) | Indicates message in  **Html**  format. |
 | [getMht()](#getMht--) | Indicates message in  **Mht**  format. |
 | [getMsg()](#getMsg--) | Indicates message in  **Msg**  format, used by Microsoft Outlook. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Equalses the specified o. |
+| [getTnef()](#getTnef--) | Indicates message in  **Tnef**  format. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | Returns a String that represents the current Object. |
-### getTnef() {#getTnef--}
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object obj) {#equals-java.lang.Object-}
 ```
-public static MessageFormat getTnef()
+public boolean equals(Object obj)
 ```
 
 
-Indicates message in  **Tnef**  format.
+Equalses the specified o.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | An object to compare |
 
 **Returns:**
-[MessageFormat](../../com.aspose.email/messageformat)
-### getHtml() {#getHtml--}
+boolean - Returns true if objects are an equal, otherwise returns false.
+### getClass() {#getClass--}
 ```
-public static MessageFormat getHtml()
+public final native Class<?> getClass()
 ```
 
 
-Indicates message in  **Html**  format.
+
 
 **Returns:**
-[MessageFormat](../../com.aspose.email/messageformat)
+java.lang.Class<?>
 ### getEml() {#getEml--}
 ```
 public static MessageFormat getEml()
@@ -63,6 +74,16 @@ public static MessageFormat getEmlx()
 
 
 Indicates message in  **Emlx**  format, used by Apple Mail.
+
+**Returns:**
+[MessageFormat](../../com.aspose.email/messageformat)
+### getHtml() {#getHtml--}
+```
+public static MessageFormat getHtml()
+```
+
+
+Indicates message in  **Html**  format.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
@@ -86,21 +107,16 @@ Indicates message in  **Msg**  format, used by Microsoft Outlook.
 
 **Returns:**
 [MessageFormat](../../com.aspose.email/messageformat)
-### equals(Object obj) {#equals-java.lang.Object-}
+### getTnef() {#getTnef--}
 ```
-public boolean equals(Object obj)
+public static MessageFormat getTnef()
 ```
 
 
-Equalses the specified o.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | An object to compare |
+Indicates message in  **Tnef**  format.
 
 **Returns:**
-boolean - Returns true if objects are an equal, otherwise returns false.
+[MessageFormat](../../com.aspose.email/messageformat)
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -111,6 +127,22 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current Object.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -121,3 +153,38 @@ Returns a String that represents the current Object.
 
 **Returns:**
 java.lang.String - A String that represents the current Object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
