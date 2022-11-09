@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /email/python-net/aspose.email.tools.search/enumcomparisonfield/
+url: /python-net/aspose.email.tools.search/enumcomparisonfield/
 ---
 
 ## EnumComparisonField class
@@ -20,6 +20,6 @@ The EnumComparisonField type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/python-net/)
 

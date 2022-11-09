@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 570
-url: /email/python-net/aspose.email/mhtmlloadoptions/
+url: /python-net/aspose.email/mhtmlloadoptions/
 ---
 
 ## MhtmlLoadOptions class
@@ -27,6 +27,6 @@ The MhtmlLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

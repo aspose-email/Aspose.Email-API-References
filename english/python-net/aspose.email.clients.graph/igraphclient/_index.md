@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.clients.graph/igraphclient/
+url: /python-net/aspose.email.clients.graph/igraphclient/
 ---
 
 ## IGraphClient class
@@ -52,7 +52,7 @@ The IGraphClient type exposes the following members:
 |move_message(new_parent_id, item_id)|  |
 |set_read(item_id)|  |
 |list_categories()|  |
-|create_category(display_name, preset)|Creates an|
+|create_category(display_name, preset)|  |
 |update_category(category)|  |
 |fetch_category(item_id)|  |
 |update_override(classification_override)|  |
@@ -65,6 +65,6 @@ The IGraphClient type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/python-net/)
 

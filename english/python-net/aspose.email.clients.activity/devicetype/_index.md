@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /email/python-net/aspose.email.clients.activity/devicetype/
+url: /python-net/aspose.email.clients.activity/devicetype/
 ---
 
 ## DeviceType enumeration
@@ -20,6 +20,6 @@ Device types used to access Sway for the triggered event.
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 500
-url: /email/python-net/aspose.email.mapi/mapielectronicaddress/
+url: /python-net/aspose.email.mapi/mapielectronicaddress/
 ---
 
 ## MapiElectronicAddress class
@@ -15,7 +15,7 @@ The MapiElectronicAddress type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiElectronicAddress()|Initializes a new instance of the|
+|MapiElectronicAddress()|Initializes a new instance of the [MapiElectronicAddress](/python-net/aspose.email.mapi/mapielectronicaddress/) class.|
 |MapiElectronicAddress(display_name, address_type, email_address)|Initializes a new instance of the MapiElectronicAddress class|
 |MapiElectronicAddress(email_address)|Initializes a new instance of the MapiElectronicAddress class|
 |MapiElectronicAddress(fax_number, email_address)|Initializes a new instance of the MapiElectronicAddress class|
@@ -31,6 +31,6 @@ The MapiElectronicAddress type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

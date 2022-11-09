@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /email/python-net/aspose.email.mapi/knownpropertylist/
+url: /python-net/aspose.email.mapi/knownpropertylist/
 ---
 
 ## KnownPropertyList class
@@ -1997,12 +1997,12 @@ The KnownPropertyList type exposes the following members:
 | Name | Description |
 | :- | :- |
 |find(property_sets)|  |
-|find(name)|Finds|
-|find(id, type)|Finds|
-|find(id)|Finds|
+|find(name)|  |
+|find(id, type)|  |
+|find(id)|  |
 |find(tag)|  |
-|find(name, type, property_set)|Finds|
-|find(name, property_set)|Finds|
+|find(name, type, property_set)|  |
+|find(name, property_set)|  |
 |find(lid, type, property_set)|  |
 |find(lid, property_set)|  |
 |get_values()|  |
@@ -2011,6 +2011,6 @@ The KnownPropertyList type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

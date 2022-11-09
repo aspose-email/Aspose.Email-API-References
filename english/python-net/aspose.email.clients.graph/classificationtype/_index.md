@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 240
-url: /email/python-net/aspose.email.clients.graph/classificationtype/
+url: /python-net/aspose.email.clients.graph/classificationtype/
 ---
 
 ## ClassificationType enumeration
@@ -19,6 +19,6 @@ https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0<b
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/python-net/)
 

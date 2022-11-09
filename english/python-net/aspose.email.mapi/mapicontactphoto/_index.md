@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 400
-url: /email/python-net/aspose.email.mapi/mapicontactphoto/
+url: /python-net/aspose.email.mapi/mapicontactphoto/
 ---
 
 ## MapiContactPhoto class
@@ -25,6 +25,6 @@ The MapiContactPhoto type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

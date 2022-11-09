@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.calendar.recurrences/dayposition/
+url: /python-net/aspose.email.calendar.recurrences/dayposition/
 ---
 
 ## DayPosition enumeration
@@ -23,6 +23,6 @@ Day positions, typically found in a month.
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/python-net/)
 

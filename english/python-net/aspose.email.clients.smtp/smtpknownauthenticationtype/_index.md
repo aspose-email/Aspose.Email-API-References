@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 120
-url: /email/python-net/aspose.email.clients.smtp/smtpknownauthenticationtype/
+url: /python-net/aspose.email.clients.smtp/smtpknownauthenticationtype/
 ---
 
 ## SmtpKnownAuthenticationType enumeration
@@ -44,6 +44,6 @@ url: /email/python-net/aspose.email.clients.smtp/smtpknownauthenticationtype/
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp](/email/python-net/aspose.email.clients.smtp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.smtp](/python-net/aspose.email.clients.smtp/)
+* assembly [Aspose.Email](/python-net/)
 

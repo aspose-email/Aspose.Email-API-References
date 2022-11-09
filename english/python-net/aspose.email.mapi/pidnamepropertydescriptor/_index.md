@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 730
-url: /email/python-net/aspose.email.mapi/pidnamepropertydescriptor/
+url: /python-net/aspose.email.mapi/pidnamepropertydescriptor/
 ---
 
 ## PidNamePropertyDescriptor class
@@ -29,16 +29,16 @@ The PidNamePropertyDescriptor type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_instance(id, data_type)|Retrieves|
+|get_instance(id, data_type)|  |
 |get_instance(tag)|  |
 |get_instance(lid, data_type, property_set)|  |
-|get_instance(name, data_type, property_set)|Retrieves|
-|get_instance(property)|Retrieves|
-|parse(data)|Initializes a new instance of the|
+|get_instance(name, data_type, property_set)|  |
+|get_instance(property)|  |
+|parse(data)|  |
 |equals(other)|  |
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

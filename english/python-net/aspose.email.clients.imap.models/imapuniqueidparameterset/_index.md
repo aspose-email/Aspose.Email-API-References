@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /email/python-net/aspose.email.clients.imap.models/imapuniqueidparameterset/
+url: /python-net/aspose.email.clients.imap.models/imapuniqueidparameterset/
 ---
 
 ## ImapUniqueIdParameterSet class
 
-The
+The [IAsyncImapClient](/python-net/aspose.email.clients.imap/iasyncimapclient/) method parameter set with the set of message unique identifiers.
 
 The ImapUniqueIdParameterSet type exposes the following members:
 ## Methods
@@ -23,6 +23,6 @@ The ImapUniqueIdParameterSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap.models](/email/python-net/aspose.email.clients.imap.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap.models](/python-net/aspose.email.clients.imap.models/)
+* assembly [Aspose.Email](/python-net/)
 

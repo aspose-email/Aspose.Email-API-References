@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.tools.search/boolcomparisonfield/
+url: /python-net/aspose.email.tools.search/boolcomparisonfield/
 ---
 
 ## BoolComparisonField class
@@ -21,6 +21,6 @@ The BoolComparisonField type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/python-net/)
 

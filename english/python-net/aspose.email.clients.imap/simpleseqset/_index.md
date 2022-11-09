@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 360
-url: /email/python-net/aspose.email.clients.imap/simpleseqset/
+url: /python-net/aspose.email.clients.imap/simpleseqset/
 ---
 
 ## SimpleSeqSet class
@@ -15,7 +15,7 @@ The SimpleSeqSet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SimpleSeqSet()|Initializes a new instance of the|
+|SimpleSeqSet()|Initializes a new instance of the [SimpleSeqSet](/python-net/aspose.email.clients.imap/simpleseqset/) class.|
 |SimpleSeqSet(value)|Initializes a new instance of the SimpleSeqSet class|
 ## Properties
 | Name | Description |
@@ -24,6 +24,6 @@ The SimpleSeqSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

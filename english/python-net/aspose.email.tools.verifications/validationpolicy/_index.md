@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /email/python-net/aspose.email.tools.verifications/validationpolicy/
+url: /python-net/aspose.email.tools.verifications/validationpolicy/
 ---
 
 ## ValidationPolicy enumeration
@@ -19,6 +19,6 @@ Presents the policy of validating email address.
 
 ### See Also
 
-* namespace [aspose.email.tools.verifications](/email/python-net/aspose.email.tools.verifications/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.verifications](/python-net/aspose.email.tools.verifications/)
+* assembly [Aspose.Email](/python-net/)
 

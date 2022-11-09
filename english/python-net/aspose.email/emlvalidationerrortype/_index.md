@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 4910
-url: /email/python-net/aspose.email/emlvalidationerrortype/
+url: /python-net/aspose.email/emlvalidationerrortype/
 ---
 
 ## EmlValidationErrorType enumeration
@@ -20,6 +20,6 @@ Enumerates the types of the eml validation errors.
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

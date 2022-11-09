@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.personalinfo.vcard/vcardtelephonenumber/
+url: /python-net/aspose.email.personalinfo.vcard/vcardtelephonenumber/
 ---
 
 ## VCardTelephoneNumber class
@@ -15,7 +15,7 @@ The VCardTelephoneNumber type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardTelephoneNumber()|Initializes a new instance of the|
+|VCardTelephoneNumber()|Initializes a new instance of the [VCardTelephoneNumber](/python-net/aspose.email.personalinfo.vcard/vcardtelephonenumber/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The VCardTelephoneNumber type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/python-net/)
 

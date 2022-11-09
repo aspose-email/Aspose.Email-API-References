@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 4890
-url: /email/python-net/aspose.email/contactfieldsset/
+url: /python-net/aspose.email/contactfieldsset/
 ---
 
 ## ContactFieldsSet enumeration
@@ -27,6 +27,6 @@ Enumerates the groups of Contact fields that will be included in resultant mhtml
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

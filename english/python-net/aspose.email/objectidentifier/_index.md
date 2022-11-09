@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 600
-url: /email/python-net/aspose.email/objectidentifier/
+url: /python-net/aspose.email/objectidentifier/
 ---
 
 ## ObjectIdentifier class
@@ -15,7 +15,7 @@ The ObjectIdentifier type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ObjectIdentifier()|Initialize a new instance of the|
+|ObjectIdentifier()|Initialize a new instance of the [ObjectIdentifier](/python-net/aspose.email/objectidentifier/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The ObjectIdentifier type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

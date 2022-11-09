@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.mapi/mapicalendarattendees/
+url: /python-net/aspose.email.mapi/mapicalendarattendees/
 ---
 
 ## MapiCalendarAttendees class
@@ -15,7 +15,7 @@ The MapiCalendarAttendees type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarAttendees()|Initializes a new instance of the|
+|MapiCalendarAttendees()|Initializes a new instance of the [MapiCalendarAttendees](/python-net/aspose.email.mapi/mapicalendarattendees/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The MapiCalendarAttendees type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

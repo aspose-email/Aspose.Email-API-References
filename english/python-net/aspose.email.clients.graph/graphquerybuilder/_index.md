@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /email/python-net/aspose.email.clients.graph/graphquerybuilder/
+url: /python-net/aspose.email.clients.graph/graphquerybuilder/
 ---
 
 ## GraphQueryBuilder class
@@ -15,7 +15,7 @@ The GraphQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GraphQueryBuilder()|Initializes a new instance of the|
+|GraphQueryBuilder()|Initializes a new instance of the [GraphQueryBuilder](/python-net/aspose.email.clients.graph/graphquerybuilder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -38,6 +38,6 @@ The GraphQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 220
-url: /email/python-net/aspose.email/emlxloadoptions/
+url: /python-net/aspose.email/emlxloadoptions/
 ---
 
 ## EmlxLoadOptions class
@@ -26,6 +26,6 @@ The EmlxLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

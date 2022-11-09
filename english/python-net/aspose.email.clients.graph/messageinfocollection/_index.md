@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /email/python-net/aspose.email.clients.graph/messageinfocollection/
+url: /python-net/aspose.email.clients.graph/messageinfocollection/
 ---
 
 ## MessageInfoCollection class
@@ -19,6 +19,6 @@ The MessageInfoCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/python-net/)
 

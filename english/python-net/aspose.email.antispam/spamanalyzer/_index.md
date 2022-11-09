@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.antispam/spamanalyzer/
+url: /python-net/aspose.email.antispam/spamanalyzer/
 ---
 
 ## SpamAnalyzer class
@@ -15,7 +15,7 @@ The SpamAnalyzer type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SpamAnalyzer()|Initialize a new instance of the|
+|SpamAnalyzer()|Initialize a new instance of the [SpamAnalyzer](/python-net/aspose.email.antispam/spamanalyzer/) class.|
 |SpamAnalyzer(stream)|Initializes a new instance of the SpamAnalyzer class|
 |SpamAnalyzer(file_path)|Initializes a new instance of the SpamAnalyzer class|
 ## Methods
@@ -33,6 +33,6 @@ The SpamAnalyzer type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.antispam](/email/python-net/aspose.email.antispam/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.antispam](/python-net/aspose.email.antispam/)
+* assembly [Aspose.Email](/python-net/)
 

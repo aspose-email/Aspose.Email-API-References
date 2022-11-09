@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.personalinfo/contact/
+url: /python-net/aspose.email.personalinfo/contact/
 ---
 
 ## Contact class
@@ -60,12 +60,12 @@ The Contact type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|save(stream)|Saves this|
-|save(file_path)|Saves this|
-|save(file_path, save_options)|Saves this|
-|save(file_path, save_format)|Saves this|
-|save(stream, save_format)|Saves this|
-|save(stream, save_options)|Saves this|
+|save(stream)|  |
+|save(file_path)|  |
+|save(file_path, save_options)|  |
+|save(file_path, save_format)|  |
+|save(stream, save_format)|  |
+|save(stream, save_options)|  |
 |load(file_path)|  |
 |load(file_path, format)|  |
 |load(stream)|  |
@@ -73,6 +73,6 @@ The Contact type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /email/python-net/aspose.email.exceptions/traversalfailurekind/
+url: /python-net/aspose.email.exceptions/traversalfailurekind/
 ---
 
 ## TraversalFailureKind class
@@ -20,6 +20,6 @@ The TraversalFailureKind type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.exceptions](/email/python-net/aspose.email.exceptions/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.exceptions](/python-net/aspose.email.exceptions/)
+* assembly [Aspose.Email](/python-net/)
 

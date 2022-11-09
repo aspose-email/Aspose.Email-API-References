@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 120
-url: /email/python-net/aspose.email.mapi.msg/mapipropertyflags/
+url: /python-net/aspose.email.mapi.msg/mapipropertyflags/
 ---
 
 ## MapiPropertyFlags enumeration
@@ -20,6 +20,6 @@ Represents flags which can be set on a MAPI property.
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

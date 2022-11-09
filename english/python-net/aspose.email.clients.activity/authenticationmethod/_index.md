@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 250
-url: /email/python-net/aspose.email.clients.activity/authenticationmethod/
+url: /python-net/aspose.email.clients.activity/authenticationmethod/
 ---
 
 ## AuthenticationMethod enumeration
@@ -37,6 +37,6 @@ Authentication methods
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/python-net/)
 

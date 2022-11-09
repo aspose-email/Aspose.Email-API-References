@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 630
-url: /email/python-net/aspose.email.mapi/mapipropertycontainer/
+url: /python-net/aspose.email.mapi/mapipropertycontainer/
 ---
 
 ## MapiPropertyContainer class
 
-Represents the base class for
+Represents the base class for <br/>            [MapiAttachment](/python-net/aspose.email.mapi/mapiattachment/), <br/>            [MapiRecipient](/python-net/aspose.email.mapi/mapirecipient/), <br/>            [MapiMessage](/python-net/aspose.email.mapi/mapimessage/).
 
 The MapiPropertyContainer type exposes the following members:
 ## Properties
@@ -43,6 +43,6 @@ The MapiPropertyContainer type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

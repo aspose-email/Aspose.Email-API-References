@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.tools.search/mailquery/
+url: /python-net/aspose.email.tools.search/mailquery/
 ---
 
 ## MailQuery class
@@ -28,6 +28,6 @@ The MailQuery type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/python-net/)
 

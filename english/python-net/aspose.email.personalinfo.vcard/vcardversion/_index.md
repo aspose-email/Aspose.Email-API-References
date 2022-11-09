@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /email/python-net/aspose.email.personalinfo.vcard/vcardversion/
+url: /python-net/aspose.email.personalinfo.vcard/vcardversion/
 ---
 
 ## VCardVersion enumeration
@@ -19,6 +19,6 @@ Enumerates vCard version
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/python-net/)
 

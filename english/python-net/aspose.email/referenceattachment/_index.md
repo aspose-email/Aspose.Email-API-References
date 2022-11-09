@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 630
-url: /email/python-net/aspose.email/referenceattachment/
+url: /python-net/aspose.email/referenceattachment/
 ---
 
 ## ReferenceAttachment class
@@ -15,7 +15,7 @@ The ReferenceAttachment type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ReferenceAttachment()|Initializes a new instance of|
+|ReferenceAttachment()|Initializes a new instance of [ReferenceAttachment](/python-net/aspose.email/referenceattachment/).|
 |ReferenceAttachment(uri)|Initializes a new instance of the ReferenceAttachment class|
 |ReferenceAttachment(uri)|Initializes a new instance of the ReferenceAttachment class|
 ## Properties
@@ -46,6 +46,6 @@ The ReferenceAttachment type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

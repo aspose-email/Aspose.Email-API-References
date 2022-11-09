@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 370
-url: /email/python-net/aspose.email.tools.merging/
+url: /python-net/aspose.email.tools.merging/
 ---
 
 
@@ -13,4 +13,4 @@ the aspose.email.tools.merging namespace contains classes for construct email me
 ## Classes
 | Class | Description |
 | :- | :- |
-|[TemplateEngine](/email/python-net/aspose.email.tools.merging/templateengine/)|This class uses specified template to construct E-Mail messages.|
+|[TemplateEngine](/python-net/aspose.email.tools.merging/templateengine/)|This class uses specified template to construct E-Mail messages.|

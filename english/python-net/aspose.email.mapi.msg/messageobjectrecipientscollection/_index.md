@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /email/python-net/aspose.email.mapi.msg/messageobjectrecipientscollection/
+url: /python-net/aspose.email.mapi.msg/messageobjectrecipientscollection/
 ---
 
 ## MessageObjectRecipientsCollection class
 
-Represents a collection for
+Represents a collection for [MessageObjectRecipientEntity](/python-net/aspose.email.mapi.msg/messageobjectrecipiententity/) objects.
 
 The MessageObjectRecipientsCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The MessageObjectRecipientsCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

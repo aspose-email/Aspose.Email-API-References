@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.clients.imap.models/imapfetchmessages/
+url: /python-net/aspose.email.clients.imap.models/imapfetchmessages/
 ---
 
 ## ImapFetchMessages class
@@ -20,11 +20,11 @@ The ImapFetchMessages type exposes the following members:
 |set_messages(message_infos)|  |
 |set_message(sequence_number)|  |
 |set_message(unique_id)|  |
-|create()|Create new|
+|create()|  |
 |set_connection(connection)|  |
 
 ### See Also
 
-* namespace [aspose.email.clients.imap.models](/email/python-net/aspose.email.clients.imap.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap.models](/python-net/aspose.email.clients.imap.models/)
+* assembly [Aspose.Email](/python-net/)
 

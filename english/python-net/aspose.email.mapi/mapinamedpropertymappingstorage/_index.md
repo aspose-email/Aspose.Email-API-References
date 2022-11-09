@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 580
-url: /email/python-net/aspose.email.mapi/mapinamedpropertymappingstorage/
+url: /python-net/aspose.email.mapi/mapinamedpropertymappingstorage/
 ---
 
 ## MapiNamedPropertyMappingStorage class
@@ -15,7 +15,7 @@ The MapiNamedPropertyMappingStorage type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiNamedPropertyMappingStorage()|Initializes a new instance of the|
+|MapiNamedPropertyMappingStorage()|Initializes a new instance of the [MapiNamedPropertyMappingStorage](/python-net/aspose.email.mapi/mapinamedpropertymappingstorage/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -52,6 +52,6 @@ The MapiNamedPropertyMappingStorage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

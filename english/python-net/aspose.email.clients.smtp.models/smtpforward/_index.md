@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.smtp.models/smtpforward/
+url: /python-net/aspose.email.clients.smtp.models/smtpforward/
 ---
 
 ## SmtpForward class
@@ -27,6 +27,6 @@ The SmtpForward type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp.models](/email/python-net/aspose.email.clients.smtp.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.smtp.models](/python-net/aspose.email.clients.smtp.models/)
+* assembly [Aspose.Email](/python-net/)
 

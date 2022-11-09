@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.amp/carouseltype/
+url: /python-net/aspose.email.amp/carouseltype/
 ---
 
 ## CarouselType enumeration
@@ -19,6 +19,6 @@ Specifies the display type for the carousel items.
 
 ### See Also
 
-* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /email/python-net/aspose.email/emlvalidationerrorcollection/
+url: /python-net/aspose.email/emlvalidationerrorcollection/
 ---
 
 ## EmlValidationErrorCollection class
 
-Represents the collection of
+Represents the collection of [EmlValidationError](/python-net/aspose.email/emlvalidationerror/)
 
 The EmlValidationErrorCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The EmlValidationErrorCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

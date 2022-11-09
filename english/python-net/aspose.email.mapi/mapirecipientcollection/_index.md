@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 670
-url: /email/python-net/aspose.email.mapi/mapirecipientcollection/
+url: /python-net/aspose.email.mapi/mapirecipientcollection/
 ---
 
 ## MapiRecipientCollection class
@@ -15,15 +15,15 @@ The MapiRecipientCollection type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiRecipientCollection()|Initializes a new instance of the|
+|MapiRecipientCollection()|Initializes a new instance of the [MapiRecipientCollection](/python-net/aspose.email.mapi/mapirecipientcollection/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|add(address, display_name, recipient_type)|Adds an object to the end of the|
-|add(address, address_type, display_name, recipient_type)|Adds an object to the end of the|
+|add(address, display_name, recipient_type)|  |
+|add(address, address_type, display_name, recipient_type)|  |
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

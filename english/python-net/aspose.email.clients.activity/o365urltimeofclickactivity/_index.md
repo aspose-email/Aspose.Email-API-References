@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /email/python-net/aspose.email.clients.activity/o365urltimeofclickactivity/
+url: /python-net/aspose.email.clients.activity/o365urltimeofclickactivity/
 ---
 
 ## O365URLTimeOfClickActivity class
@@ -42,6 +42,6 @@ The O365URLTimeOfClickActivity type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/python-net/)
 

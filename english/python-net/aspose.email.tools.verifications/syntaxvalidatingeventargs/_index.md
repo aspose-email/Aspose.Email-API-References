@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
+url: /python-net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
 ---
 
 ## SyntaxValidatingEventArgs class
@@ -25,6 +25,6 @@ The SyntaxValidatingEventArgs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.verifications](/email/python-net/aspose.email.tools.verifications/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.verifications](/python-net/aspose.email.tools.verifications/)
+* assembly [Aspose.Email](/python-net/)
 

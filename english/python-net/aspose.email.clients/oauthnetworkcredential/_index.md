@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /email/python-net/aspose.email.clients/oauthnetworkcredential/
+url: /python-net/aspose.email.clients/oauthnetworkcredential/
 ---
 
 ## OAuthNetworkCredential class
@@ -25,10 +25,10 @@ The OAuthNetworkCredential type exposes the following members:
 | :- | :- |
 |access_token|Gets OAuth 2.0 access token.|
 |token_provider|Gets the token provider.|
-|async_token_provider|  |
+|async_token_provider|Gets the async token provider.|
 
 ### See Also
 
-* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.google/accesscontrolrule/
+url: /python-net/aspose.email.clients.google/accesscontrolrule/
 ---
 
 ## AccessControlRule class
@@ -31,6 +31,6 @@ The AccessControlRule type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 400
-url: /email/python-net/aspose.email.tools/originalmessageadditionmode/
+url: /python-net/aspose.email.tools/originalmessageadditionmode/
 ---
 
 ## OriginalMessageAdditionMode enumeration
@@ -20,6 +20,6 @@ Way to include the original message in response message.
 
 ### See Also
 
-* namespace [aspose.email.tools](/email/python-net/aspose.email.tools/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools](/python-net/aspose.email.tools/)
+* assembly [Aspose.Email](/python-net/)
 

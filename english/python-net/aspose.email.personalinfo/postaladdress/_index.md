@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.personalinfo/postaladdress/
+url: /python-net/aspose.email.personalinfo/postaladdress/
 ---
 
 ## PostalAddress class
@@ -40,6 +40,6 @@ The PostalAddress type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

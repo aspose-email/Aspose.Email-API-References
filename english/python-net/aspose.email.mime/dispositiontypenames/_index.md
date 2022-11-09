@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.mime/dispositiontypenames/
+url: /python-net/aspose.email.mime/dispositiontypenames/
 ---
 
 ## DispositionTypeNames class
@@ -20,6 +20,6 @@ The DispositionTypeNames type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

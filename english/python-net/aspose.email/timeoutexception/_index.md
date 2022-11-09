@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 680
-url: /email/python-net/aspose.email/timeoutexception/
+url: /python-net/aspose.email/timeoutexception/
 ---
 
 ## TimeoutException class
@@ -19,7 +19,7 @@ The TimeoutException type exposes the following members:
 |TimeoutException(format, parameters)|Initializes a new instance of the TimeoutException class|
 |TimeoutException(format, timeout)|Initializes a new instance of the TimeoutException class|
 |TimeoutException(format, command, timeout)|Initializes a new instance of the TimeoutException class|
-|TimeoutException()|Initializes a new instance of the|
+|TimeoutException()|Initializes a new instance of the [TimeoutException](/python-net/aspose.email/timeoutexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The TimeoutException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.clients.smtp/imailtransferagent/
+url: /python-net/aspose.email.clients.smtp/imailtransferagent/
 ---
 
 ## IMailTransferAgent class
@@ -19,6 +19,6 @@ The IMailTransferAgent type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp](/email/python-net/aspose.email.clients.smtp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.smtp](/python-net/aspose.email.clients.smtp/)
+* assembly [Aspose.Email](/python-net/)
 

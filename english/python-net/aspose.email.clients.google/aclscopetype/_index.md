@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /email/python-net/aspose.email.clients.google/aclscopetype/
+url: /python-net/aspose.email.clients.google/aclscopetype/
 ---
 
 ## AclScopeType enumeration
@@ -21,6 +21,6 @@ The type of the ACL scope.
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/python-net/)
 

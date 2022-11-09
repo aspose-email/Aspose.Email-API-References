@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.storage.mbox/mboxostoragereader/
+url: /python-net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 
 ## MboxoStorageReader class
@@ -41,6 +41,6 @@ The MboxoStorageReader type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.mbox](/email/python-net/aspose.email.storage.mbox/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.mbox](/python-net/aspose.email.storage.mbox/)
+* assembly [Aspose.Email](/python-net/)
 

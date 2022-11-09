@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 610
-url: /email/python-net/aspose.email.mapi/mapiproperty/
+url: /python-net/aspose.email.mapi/mapiproperty/
 ---
 
 ## MapiProperty class
@@ -58,6 +58,6 @@ The MapiProperty type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

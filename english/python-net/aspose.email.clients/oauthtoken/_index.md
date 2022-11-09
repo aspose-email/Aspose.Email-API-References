@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.clients/oauthtoken/
+url: /python-net/aspose.email.clients/oauthtoken/
 ---
 
 ## OAuthToken class
@@ -28,6 +28,6 @@ The OAuthToken type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/python-net/)
 

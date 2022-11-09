@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /email/python-net/aspose.email.calendar/reminderattachmentcollection/
+url: /python-net/aspose.email.calendar/reminderattachmentcollection/
 ---
 
 ## ReminderAttachmentCollection class
 
-Contains collection of ReminderAttachment
+Contains collection of ReminderAttachment [ReminderAttachment](/python-net/aspose.email.calendar/reminderattachment/)objects.
 
 The ReminderAttachmentCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The ReminderAttachmentCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.antispam/
+url: /python-net/aspose.email.antispam/
 ---
 
 
@@ -13,4 +13,4 @@ the aspose.email.antispam namespace provides classes <br/>            that repre
 ## Classes
 | Class | Description |
 | :- | :- |
-|[SpamAnalyzer](/email/python-net/aspose.email.antispam/spamanalyzer/)|Class which allows applications to detect spam e-mails with self-learning Bayesian filter.|
+|[SpamAnalyzer](/python-net/aspose.email.antispam/spamanalyzer/)|Class which allows applications to detect spam e-mails with self-learning Bayesian filter.|

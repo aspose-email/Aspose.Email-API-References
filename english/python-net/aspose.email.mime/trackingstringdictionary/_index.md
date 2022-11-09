@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /email/python-net/aspose.email.mime/trackingstringdictionary/
+url: /python-net/aspose.email.mime/trackingstringdictionary/
 ---
 
 ## TrackingStringDictionary class
@@ -26,6 +26,6 @@ The TrackingStringDictionary type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

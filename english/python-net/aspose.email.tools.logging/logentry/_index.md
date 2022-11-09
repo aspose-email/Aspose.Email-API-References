@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /email/python-net/aspose.email.tools.logging/logentry/
+url: /python-net/aspose.email.tools.logging/logentry/
 ---
 
 ## LogEntry class
@@ -15,7 +15,7 @@ The LogEntry type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LogEntry()|Initialize a new instance of a|
+|LogEntry()|Initialize a new instance of a [LogEntry](/python-net/aspose.email.tools.logging/logentry/) class.|
 |LogEntry(message)|Initializes a new instance of the LogEntry class|
 |LogEntry(message, time)|Initializes a new instance of the LogEntry class|
 |LogEntry(message, severity)|Initializes a new instance of the LogEntry class|
@@ -29,7 +29,7 @@ The LogEntry type exposes the following members:
 |message_encoding|Encoding for binary message body|
 |category|Category name used to route the log entry to a one or more sinks.|
 |event_id|Event number or identifier.|
-|severity|Log entry severity as a|
+|severity|Log entry severity as a [severity](/python-net/aspose.email.tools.logging/logentry/) enumeration. (Unspecified, Information, Warning or Error).|
 |title|Additional description of the log entry message.|
 |time_stamp|Date and time of the log entry message.|
 |machine_name|Name of the computer.|
@@ -40,11 +40,11 @@ The LogEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|clone()|Creates a new|
+|clone()|  |
 |add_error_message(message)|  |
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 360
-url: /email/python-net/aspose.email.mapi/mapicontacteventpropertyset/
+url: /python-net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 
 ## MapiContactEventPropertySet class
@@ -15,7 +15,7 @@ The MapiContactEventPropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactEventPropertySet()|Initializes a new instance of the|
+|MapiContactEventPropertySet()|Initializes a new instance of the [MapiContactEventPropertySet](/python-net/aspose.email.mapi/mapicontacteventpropertyset/) class|
 |MapiContactEventPropertySet(properties)|Initializes a new instance of the MapiContactEventPropertySet class|
 ## Properties
 | Name | Description |
@@ -25,6 +25,6 @@ The MapiContactEventPropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.clients.pop3.models/pop3savemessage/
+url: /python-net/aspose.email.clients.pop3.models/pop3savemessage/
 ---
 
 ## Pop3SaveMessage class
@@ -24,6 +24,6 @@ The Pop3SaveMessage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3.models](/email/python-net/aspose.email.clients.pop3.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.pop3.models](/python-net/aspose.email.clients.pop3.models/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /email/python-net/aspose.email.clients/networkexception/
+url: /python-net/aspose.email.clients/networkexception/
 ---
 
 ## NetworkException class
@@ -15,11 +15,11 @@ The NetworkException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|NetworkException()|Initializes a new instance of the|
+|NetworkException()|Initializes a new instance of the [NetworkException](/python-net/aspose.email.clients/networkexception/) class.|
 |NetworkException(message)|Initializes a new instance of the NetworkException class|
 
 ### See Also
 
-* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/python-net/)
 

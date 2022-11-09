@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.mime/headercollection/
+url: /python-net/aspose.email.mime/headercollection/
 ---
 
 ## HeaderCollection class
@@ -16,7 +16,7 @@ The HeaderCollection type exposes the following members:
 | Name | Description |
 | :- | :- |
 |HeaderCollection(col)|Initializes a new instance of the HeaderCollection class|
-|HeaderCollection()|Initializes a new instance of the|
+|HeaderCollection()|Initializes a new instance of the [HeaderCollection](/python-net/aspose.email.mime/headercollection/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,8 +29,8 @@ The HeaderCollection type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|get(index)|Returns a|
-|get(name)|Returns a|
+|get(index)|  |
+|get(name)|  |
 |add(c)|  |
 |add(name, value)|  |
 |get_key(index)|  |
@@ -43,6 +43,6 @@ The HeaderCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

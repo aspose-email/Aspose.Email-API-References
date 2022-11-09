@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 920
-url: /email/python-net/aspose.email.mapi/mapicalendardayofweek/
+url: /python-net/aspose.email.mapi/mapicalendardayofweek/
 ---
 
 ## MapiCalendarDayOfWeek enumeration
@@ -24,6 +24,6 @@ Enumerates the days of week of the mapi calendar recurrence pattern
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

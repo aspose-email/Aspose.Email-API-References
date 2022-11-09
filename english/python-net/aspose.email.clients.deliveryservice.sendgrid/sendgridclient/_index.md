@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/
+url: /python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/
 ---
 
 ## SendGridClient class
 
-
+Represents the SendGrid client
 
 The SendGridClient type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The SendGridClient type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice.sendgrid](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.deliveryservice.sendgrid](/python-net/aspose.email.clients.deliveryservice.sendgrid/)
+* assembly [Aspose.Email](/python-net/)
 

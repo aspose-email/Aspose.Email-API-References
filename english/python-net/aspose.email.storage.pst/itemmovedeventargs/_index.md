@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.storage.pst/itemmovedeventargs/
+url: /python-net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 
 ## ItemMovedEventArgs class
@@ -29,6 +29,6 @@ The ItemMovedEventArgs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

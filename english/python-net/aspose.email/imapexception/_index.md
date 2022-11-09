@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 380
-url: /email/python-net/aspose.email/imapexception/
+url: /python-net/aspose.email/imapexception/
 ---
 
 ## ImapException class
@@ -15,7 +15,7 @@ The ImapException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ImapException()|Initializes a new instance of the|
+|ImapException()|Initializes a new instance of the [ImapException](/python-net/aspose.email/imapexception/) class.|
 |ImapException(message)|Initializes a new instance of the ImapException class|
 |ImapException(format, parameters)|Initializes a new instance of the ImapException class|
 ## Properties
@@ -25,6 +25,6 @@ The ImapException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

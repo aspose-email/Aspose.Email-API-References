@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /email/python-net/aspose.email.mapi.msg/namedpropertykind/
+url: /python-net/aspose.email.mapi.msg/namedpropertykind/
 ---
 
 ## NamedPropertyKind enumeration
 
-Identifies
+Identifies [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) kind.
 
 ## Members
 | Member name | Description |
@@ -19,6 +19,6 @@ Identifies
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

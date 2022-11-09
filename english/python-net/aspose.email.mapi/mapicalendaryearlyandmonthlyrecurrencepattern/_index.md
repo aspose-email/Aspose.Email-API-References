@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 310
-url: /email/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/
+url: /python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/
 ---
 
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern class
@@ -15,7 +15,7 @@ The MapiCalendarYearlyAndMonthlyRecurrencePattern type exposes the following mem
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarYearlyAndMonthlyRecurrencePattern()|Initializes a new instance of the|
+|MapiCalendarYearlyAndMonthlyRecurrencePattern()|Initializes a new instance of the [MapiCalendarYearlyAndMonthlyRecurrencePattern](/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -37,6 +37,6 @@ The MapiCalendarYearlyAndMonthlyRecurrencePattern type exposes the following mem
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

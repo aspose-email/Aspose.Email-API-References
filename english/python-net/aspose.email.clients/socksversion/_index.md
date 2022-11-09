@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 1660
-url: /email/python-net/aspose.email.clients/socksversion/
+url: /python-net/aspose.email.clients/socksversion/
 ---
 
 ## SocksVersion enumeration
@@ -19,6 +19,6 @@ Versions of the SOCKS protocol
 
 ### See Also
 
-* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.calendar.recurrences/recurrencerule/
+url: /python-net/aspose.email.calendar.recurrences/recurrencerule/
 ---
 
 ## RecurrenceRule class
@@ -15,7 +15,7 @@ The RecurrenceRule type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RecurrenceRule()|Initializes a new instance of the|
+|RecurrenceRule()|Initializes a new instance of the [RecurrenceRule](/python-net/aspose.email.calendar.recurrences/recurrencerule/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -37,6 +37,6 @@ The RecurrenceRule type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/python-net/)
 

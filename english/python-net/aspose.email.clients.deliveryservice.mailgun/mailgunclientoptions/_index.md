@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/
+url: /python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/
 ---
 
 ## MailgunClientOptions class
 
-
+Options to set the MailgunClient parameters.
 
 The MailgunClientOptions type exposes the following members:
 ## Constructors
@@ -19,12 +19,12 @@ The MailgunClientOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|api_key|  |
-|region|  |
-|domain|  |
+|api_key|Private API key|
+|region|US or EU region.|
+|domain|Domain name.|
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice.mailgun](/email/python-net/aspose.email.clients.deliveryservice.mailgun/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.deliveryservice.mailgun](/python-net/aspose.email.clients.deliveryservice.mailgun/)
+* assembly [Aspose.Email](/python-net/)
 

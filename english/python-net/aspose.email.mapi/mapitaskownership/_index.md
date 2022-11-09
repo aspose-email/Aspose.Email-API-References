@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 1150
-url: /email/python-net/aspose.email.mapi/mapitaskownership/
+url: /python-net/aspose.email.mapi/mapitaskownership/
 ---
 
 ## MapiTaskOwnership enumeration
@@ -20,6 +20,6 @@ Indicates the role of the current user <br/>            relative to the Task obj
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

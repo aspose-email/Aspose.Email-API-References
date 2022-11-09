@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /email/python-net/aspose.email.tools.search/mailquerybuilder/
+url: /python-net/aspose.email.tools.search/mailquerybuilder/
 ---
 
 ## MailQueryBuilder class
@@ -15,7 +15,7 @@ The MailQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MailQueryBuilder()|Initializes a new instance of the|
+|MailQueryBuilder()|Initializes a new instance of the [MailQueryBuilder](/python-net/aspose.email.tools.search/mailquerybuilder/) class.|
 |MailQueryBuilder(default_encoding)|Initializes a new instance of the MailQueryBuilder class|
 ## Properties
 | Name | Description |
@@ -38,6 +38,6 @@ The MailQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/python-net/)
 

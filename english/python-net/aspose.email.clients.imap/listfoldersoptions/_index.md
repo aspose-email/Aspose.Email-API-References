@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 520
-url: /email/python-net/aspose.email.clients.imap/listfoldersoptions/
+url: /python-net/aspose.email.clients.imap/listfoldersoptions/
 ---
 
 ## ListFoldersOptions enumeration
@@ -21,6 +21,6 @@ The folder list selection options <br/>            Please note, this options are
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

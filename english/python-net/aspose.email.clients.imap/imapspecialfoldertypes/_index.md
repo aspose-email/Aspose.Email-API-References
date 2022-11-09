@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 500
-url: /email/python-net/aspose.email.clients.imap/imapspecialfoldertypes/
+url: /python-net/aspose.email.clients.imap/imapspecialfoldertypes/
 ---
 
 ## ImapSpecialFolderTypes enumeration
@@ -26,6 +26,6 @@ Represents enumeration of special-use mailboxes<br/>            More details see
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

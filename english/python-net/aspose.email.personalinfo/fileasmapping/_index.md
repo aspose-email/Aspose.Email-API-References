@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 460
-url: /email/python-net/aspose.email.personalinfo/fileasmapping/
+url: /python-net/aspose.email.personalinfo/fileasmapping/
 ---
 
 ## FileAsMapping enumeration
@@ -37,6 +37,6 @@ Specifies how to generate and recompute the value of the dispidFileAs property w
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

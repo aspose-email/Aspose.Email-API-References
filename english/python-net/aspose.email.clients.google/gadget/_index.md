@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.clients.google/gadget/
+url: /python-net/aspose.email.clients.google/gadget/
 ---
 
 ## Gadget class
@@ -29,6 +29,6 @@ The Gadget type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/python-net/)
 

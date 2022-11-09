@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 490
-url: /email/python-net/aspose.email.clients.imap/imapnamespacetype/
+url: /python-net/aspose.email.clients.imap/imapnamespacetype/
 ---
 
 ## ImapNamespaceType enumeration
@@ -20,6 +20,6 @@ Represents IMAP namespace type<br/>            More details: https://tools.ietf.
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

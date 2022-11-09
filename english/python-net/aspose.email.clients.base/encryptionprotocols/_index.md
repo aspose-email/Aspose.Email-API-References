@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.base/encryptionprotocols/
+url: /python-net/aspose.email.clients.base/encryptionprotocols/
 ---
 
 ## EncryptionProtocols enumeration
@@ -24,6 +24,6 @@ Defines the possible versions of encryption protocols.
 
 ### See Also
 
-* namespace [aspose.email.clients.base](/email/python-net/aspose.email.clients.base/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.base](/python-net/aspose.email.clients.base/)
+* assembly [Aspose.Email](/python-net/)
 

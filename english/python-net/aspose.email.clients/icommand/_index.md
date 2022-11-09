@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email.clients/icommand/
+url: /python-net/aspose.email.clients/icommand/
 ---
 
 ## ICommand class
@@ -23,6 +23,6 @@ The ICommand type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /email/python-net/aspose.email.mapi.msg/mapitype/
+url: /python-net/aspose.email.mapi.msg/mapitype/
 ---
 
 ## MapiType enumeration
@@ -45,6 +45,6 @@ Contains possible MAPI property types which can be stored with message object.
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

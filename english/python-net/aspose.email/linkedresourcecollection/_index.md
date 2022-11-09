@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 410
-url: /email/python-net/aspose.email/linkedresourcecollection/
+url: /python-net/aspose.email/linkedresourcecollection/
 ---
 
 ## LinkedResourceCollection class
@@ -19,6 +19,6 @@ The LinkedResourceCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

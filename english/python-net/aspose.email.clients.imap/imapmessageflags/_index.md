@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /email/python-net/aspose.email.clients.imap/imapmessageflags/
+url: /python-net/aspose.email.clients.imap/imapmessageflags/
 ---
 
 ## ImapMessageFlags class
@@ -33,10 +33,10 @@ The ImapMessageFlags type exposes the following members:
 |split()|  |
 |bitwise_and(a, b)|  |
 |has_flag(what)|  |
-|equals(other)|Determines whether the specified|
+|equals(other)|  |
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

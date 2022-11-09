@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/
+url: /python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/
 ---
 
 ## Pop3LoadMessageInfoList class
@@ -24,6 +24,6 @@ The Pop3LoadMessageInfoList type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3.models](/email/python-net/aspose.email.clients.pop3.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.pop3.models](/python-net/aspose.email.clients.pop3.models/)
+* assembly [Aspose.Email](/python-net/)
 

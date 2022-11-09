@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 130
-url: /email/python-net/aspose.email.tools.search/datecomparisontype/
+url: /python-net/aspose.email.tools.search/datecomparisontype/
 ---
 
 ## DateComparisonType enumeration
@@ -19,6 +19,6 @@ Specifies a type of comparison
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/python-net/)
 

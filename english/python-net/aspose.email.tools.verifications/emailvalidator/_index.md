@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.tools.verifications/emailvalidator/
+url: /python-net/aspose.email.tools.verifications/emailvalidator/
 ---
 
 ## EmailValidator class
@@ -29,6 +29,6 @@ The EmailValidator type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.verifications](/email/python-net/aspose.email.tools.verifications/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.verifications](/python-net/aspose.email.tools.verifications/)
+* assembly [Aspose.Email](/python-net/)
 

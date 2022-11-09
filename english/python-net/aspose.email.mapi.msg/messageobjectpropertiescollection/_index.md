@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email.mapi.msg/messageobjectpropertiescollection/
+url: /python-net/aspose.email.mapi.msg/messageobjectpropertiescollection/
 ---
 
 ## MessageObjectPropertiesCollection class
 
-Represents a keyed collection for
+Represents a keyed collection for [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) objects.
 
 The MessageObjectPropertiesCollection type exposes the following members:
 ## Constructors
@@ -23,6 +23,6 @@ The MessageObjectPropertiesCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

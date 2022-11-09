@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /email/python-net/aspose.email.storage.pst/personalstoragequerybuilder/
+url: /python-net/aspose.email.storage.pst/personalstoragequerybuilder/
 ---
 
 ## PersonalStorageQueryBuilder class
@@ -15,7 +15,7 @@ The PersonalStorageQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PersonalStorageQueryBuilder()|Initializes a new instance of the|
+|PersonalStorageQueryBuilder()|Initializes a new instance of the [PersonalStorageQueryBuilder](/python-net/aspose.email.storage.pst/personalstoragequerybuilder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -51,6 +51,6 @@ The PersonalStorageQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

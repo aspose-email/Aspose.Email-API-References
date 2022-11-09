@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /email/python-net/aspose.email.clients.graph/categorypreset/
+url: /python-net/aspose.email.clients.graph/categorypreset/
 ---
 
 ## CategoryPreset enumeration
@@ -43,6 +43,6 @@ A pre-set color enumeration that characterizes a categories, and that is mapped 
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/python-net/)
 

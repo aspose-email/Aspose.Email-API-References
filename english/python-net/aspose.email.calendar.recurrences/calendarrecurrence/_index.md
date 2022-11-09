@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.calendar.recurrences/calendarrecurrence/
+url: /python-net/aspose.email.calendar.recurrences/calendarrecurrence/
 ---
 
 ## CalendarRecurrence class
@@ -15,7 +15,7 @@ The CalendarRecurrence type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CalendarRecurrence()|Initializes a new instance of the|
+|CalendarRecurrence()|Initializes a new instance of the [CalendarRecurrence](/python-net/aspose.email.calendar.recurrences/calendarrecurrence/) class.|
 |CalendarRecurrence(pattern)|Initializes a new instance of the CalendarRecurrence class|
 ## Properties
 | Name | Description |
@@ -36,10 +36,10 @@ The CalendarRecurrence type exposes the following members:
 |fromi_calendar(pattern)|  |
 |from_recurrence(xml_string)|  |
 |toi_calendar()|  |
-|equals(other)|Determines whether the specified|
+|equals(other)|  |
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/python-net/)
 

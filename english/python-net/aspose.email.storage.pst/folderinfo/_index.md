@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.storage.pst/folderinfo/
+url: /python-net/aspose.email.storage.pst/folderinfo/
 ---
 
 ## FolderInfo class
@@ -15,7 +15,7 @@ The FolderInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FolderInfo()|Initializes a new instance of the|
+|FolderInfo()|Initializes a new instance of the [FolderInfo](/python-net/aspose.email.storage.pst/folderinfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -69,6 +69,6 @@ The FolderInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

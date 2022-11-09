@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /email/python-net/aspose.email.clients.deliveryservice.mailgun/
+url: /python-net/aspose.email.clients.deliveryservice.mailgun/
 ---
 
 
@@ -13,9 +13,9 @@ the aspose.email.clients.deliveryservice.mailgun namespace provides<br/>        
 ## Classes
 | Class | Description |
 | :- | :- |
-|[MailgunClient](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/)||
-|[MailgunClientOptions](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/)||
+|[MailgunClient](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/)|Represents the Mailgun client|
+|[MailgunClientOptions](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/)|Options to set the MailgunClient parameters.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[MailgunRegion](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/)||
+|[MailgunRegion](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/)|Represents the Mailgun Region|

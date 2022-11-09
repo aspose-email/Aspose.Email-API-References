@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.mapi/mapicalendarexceptioninfo/
+url: /python-net/aspose.email.mapi/mapicalendarexceptioninfo/
 ---
 
 ## MapiCalendarExceptionInfo class
@@ -15,7 +15,7 @@ The MapiCalendarExceptionInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarExceptionInfo()|Initializes a new instance of the|
+|MapiCalendarExceptionInfo()|Initializes a new instance of the [MapiCalendarExceptionInfo](/python-net/aspose.email.mapi/mapicalendarexceptioninfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -36,6 +36,6 @@ The MapiCalendarExceptionInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

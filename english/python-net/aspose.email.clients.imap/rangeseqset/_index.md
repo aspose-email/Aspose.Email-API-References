@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 310
-url: /email/python-net/aspose.email.clients.imap/rangeseqset/
+url: /python-net/aspose.email.clients.imap/rangeseqset/
 ---
 
 ## RangeSeqSet class
@@ -15,7 +15,7 @@ The RangeSeqSet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RangeSeqSet()|Initializes a new instance of the|
+|RangeSeqSet()|Initializes a new instance of the [RangeSeqSet](/python-net/aspose.email.clients.imap/rangeseqset/) class.|
 |RangeSeqSet(start_range)|Initializes a new instance of the RangeSeqSet class|
 |RangeSeqSet(start_range, end_range)|Initializes a new instance of the RangeSeqSet class|
 |RangeSeqSet(start_range)|Initializes a new instance of the RangeSeqSet class|
@@ -28,6 +28,6 @@ The RangeSeqSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

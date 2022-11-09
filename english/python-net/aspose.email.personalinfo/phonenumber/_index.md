@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 150
-url: /email/python-net/aspose.email.personalinfo/phonenumber/
+url: /python-net/aspose.email.personalinfo/phonenumber/
 ---
 
 ## PhoneNumber class
@@ -32,6 +32,6 @@ The PhoneNumber type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

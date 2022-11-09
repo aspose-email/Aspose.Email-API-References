@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /email/python-net/aspose.email.clients.google/extendedcalendar/
+url: /python-net/aspose.email.clients.google/extendedcalendar/
 ---
 
 ## ExtendedCalendar class
@@ -45,6 +45,6 @@ The ExtendedCalendar type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/python-net/)
 

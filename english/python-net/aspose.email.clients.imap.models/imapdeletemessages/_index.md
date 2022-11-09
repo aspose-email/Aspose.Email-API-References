@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.clients.imap.models/imapdeletemessages/
+url: /python-net/aspose.email.clients.imap.models/imapdeletemessages/
 ---
 
 ## ImapDeleteMessages class
@@ -22,13 +22,13 @@ The ImapDeleteMessages type exposes the following members:
 |set_messages(sequence_numbers)|  |
 |set_messages(unique_ids)|  |
 |set_messages(message_infos)|  |
-|create()|Create|
+|create()|  |
 |set_commit_now(commit_now)|  |
 |set_modification_sequence(modification_sequence)|  |
 |set_connection(connection)|  |
 
 ### See Also
 
-* namespace [aspose.email.clients.imap.models](/email/python-net/aspose.email.clients.imap.models/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap.models](/python-net/aspose.email.clients.imap.models/)
+* assembly [Aspose.Email](/python-net/)
 

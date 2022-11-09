@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.tools/forwardmessagebuilder/
+url: /python-net/aspose.email.tools/forwardmessagebuilder/
 ---
 
 ## ForwardMessageBuilder class
@@ -30,6 +30,6 @@ The ForwardMessageBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools](/email/python-net/aspose.email.tools/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools](/python-net/aspose.email.tools/)
+* assembly [Aspose.Email](/python-net/)
 

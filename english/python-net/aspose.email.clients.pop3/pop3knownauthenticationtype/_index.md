@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /email/python-net/aspose.email.clients.pop3/pop3knownauthenticationtype/
+url: /python-net/aspose.email.clients.pop3/pop3knownauthenticationtype/
 ---
 
 ## Pop3KnownAuthenticationType enumeration
@@ -46,6 +46,6 @@ url: /email/python-net/aspose.email.clients.pop3/pop3knownauthenticationtype/
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3](/email/python-net/aspose.email.clients.pop3/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.pop3](/python-net/aspose.email.clients.pop3/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 280
-url: /email/python-net/aspose.email/googleclientexception/
+url: /python-net/aspose.email/googleclientexception/
 ---
 
 ## GoogleClientException class
@@ -16,7 +16,7 @@ The GoogleClientException type exposes the following members:
 | Name | Description |
 | :- | :- |
 |GoogleClientException(message)|Initializes a new instance of the GoogleClientException class|
-|GoogleClientException()|Initializes a new instance of the|
+|GoogleClientException()|Initializes a new instance of the [GoogleClientException](/python-net/aspose.email/googleclientexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The GoogleClientException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

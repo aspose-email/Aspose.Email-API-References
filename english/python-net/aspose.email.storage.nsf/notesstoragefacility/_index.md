@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.storage.nsf/notesstoragefacility/
+url: /python-net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 
 ## NotesStorageFacility class
@@ -26,6 +26,6 @@ The NotesStorageFacility type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.nsf](/email/python-net/aspose.email.storage.nsf/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.nsf](/python-net/aspose.email.storage.nsf/)
+* assembly [Aspose.Email](/python-net/)
 

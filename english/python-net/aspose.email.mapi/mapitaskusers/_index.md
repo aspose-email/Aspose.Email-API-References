@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 700
-url: /email/python-net/aspose.email.mapi/mapitaskusers/
+url: /python-net/aspose.email.mapi/mapitaskusers/
 ---
 
 ## MapiTaskUsers class
@@ -15,7 +15,7 @@ The MapiTaskUsers type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiTaskUsers()|Initializes a new instance of the|
+|MapiTaskUsers()|Initializes a new instance of the [MapiTaskUsers](/python-net/aspose.email.mapi/mapitaskusers/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The MapiTaskUsers type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

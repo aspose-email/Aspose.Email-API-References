@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.exceptions/traversalasposeexception/
+url: /python-net/aspose.email.exceptions/traversalasposeexception/
 ---
 
 ## TraversalAsposeException class
@@ -20,6 +20,6 @@ The TraversalAsposeException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.exceptions](/email/python-net/aspose.email.exceptions/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.exceptions](/python-net/aspose.email.exceptions/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 60
-url: /email/python-net/aspose.email.storage.mbox/mboxrdstoragewriter/
+url: /python-net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 
 ## MboxrdStorageWriter class
@@ -29,6 +29,6 @@ The MboxrdStorageWriter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.mbox](/email/python-net/aspose.email.storage.mbox/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.mbox](/python-net/aspose.email.storage.mbox/)
+* assembly [Aspose.Email](/python-net/)
 

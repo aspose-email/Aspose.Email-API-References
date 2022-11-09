@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 540
-url: /email/python-net/aspose.email/mhttemplatename/
+url: /python-net/aspose.email/mhttemplatename/
 ---
 
 ## MhtTemplateName class
@@ -39,6 +39,6 @@ The MhtTemplateName type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

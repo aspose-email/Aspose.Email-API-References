@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 610
-url: /email/python-net/aspose.email/pop3exception/
+url: /python-net/aspose.email/pop3exception/
 ---
 
 ## Pop3Exception class
@@ -15,7 +15,7 @@ The Pop3Exception type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Pop3Exception()|Initializes a new instance of the|
+|Pop3Exception()|Initializes a new instance of the [Pop3Exception](/python-net/aspose.email/pop3exception/) class.|
 |Pop3Exception(message)|Initializes a new instance of the Pop3Exception class|
 |Pop3Exception(format, parameters)|Initializes a new instance of the Pop3Exception class|
 ## Properties
@@ -25,6 +25,6 @@ The Pop3Exception type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

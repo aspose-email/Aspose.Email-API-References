@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.calendar/appointmenticssaveoptions/
+url: /python-net/aspose.email.calendar/appointmenticssaveoptions/
 ---
 
 ## AppointmentIcsSaveOptions class
@@ -15,7 +15,7 @@ The AppointmentIcsSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppointmentIcsSaveOptions()|Initializes a new instance of the|
+|AppointmentIcsSaveOptions()|Initializes a new instance of the [AppointmentIcsSaveOptions](/python-net/aspose.email.calendar/appointmenticssaveoptions/) class|
 |AppointmentIcsSaveOptions(method)|Initializes a new instance of the AppointmentIcsSaveOptions class|
 ## Properties
 | Name | Description |
@@ -32,6 +32,6 @@ The AppointmentIcsSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/python-net/)
 

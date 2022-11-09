@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /email/python-net/aspose.email/exchangeexception/
+url: /python-net/aspose.email/exchangeexception/
 ---
 
 ## ExchangeException class
@@ -15,7 +15,7 @@ The ExchangeException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ExchangeException()|Initializes a new instance of the|
+|ExchangeException()|Initializes a new instance of the [ExchangeException](/python-net/aspose.email/exchangeexception/) class.|
 |ExchangeException(message)|Initializes a new instance of the ExchangeException class|
 |ExchangeException(format, parameters)|Initializes a new instance of the ExchangeException class|
 ## Properties
@@ -25,6 +25,6 @@ The ExchangeException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

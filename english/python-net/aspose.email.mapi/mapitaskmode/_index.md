@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 1140
-url: /email/python-net/aspose.email.mapi/mapitaskmode/
+url: /python-net/aspose.email.mapi/mapitaskmode/
 ---
 
 ## MapiTaskMode enumeration
@@ -23,6 +23,6 @@ Represents the assignment <br/>            statuses of the task object.
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

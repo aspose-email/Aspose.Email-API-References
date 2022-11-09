@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email.tools.logging/formatter/
+url: /python-net/aspose.email.tools.logging/formatter/
 ---
 
 ## Formatter class
@@ -27,6 +27,6 @@ The Formatter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

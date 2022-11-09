@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /email/python-net/aspose.email.tools.logging/debugformatter/
+url: /python-net/aspose.email.tools.logging/debugformatter/
 ---
 
 ## DebugFormatter class
@@ -31,6 +31,6 @@ The DebugFormatter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

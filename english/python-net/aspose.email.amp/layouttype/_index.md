@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.amp/layouttype/
+url: /python-net/aspose.email.amp/layouttype/
 ---
 
 ## LayoutType enumeration
@@ -25,6 +25,6 @@ The layout attribute gives you easy, per-element control over how your element s
 
 ### See Also
 
-* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/python-net/)
 

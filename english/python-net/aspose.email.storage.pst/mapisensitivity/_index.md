@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.storage.pst/mapisensitivity/
+url: /python-net/aspose.email.storage.pst/mapisensitivity/
 ---
 
 ## MapiSensitivity enumeration
@@ -21,6 +21,6 @@ Contains a values that <br/>            indicates the message sensitivity.
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

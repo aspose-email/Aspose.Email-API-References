@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 880
-url: /email/python-net/aspose.email.mapi/bodycontenttype/
+url: /python-net/aspose.email.mapi/bodycontenttype/
 ---
 
 ## BodyContentType enumeration
@@ -20,6 +20,6 @@ The content type of message body.
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

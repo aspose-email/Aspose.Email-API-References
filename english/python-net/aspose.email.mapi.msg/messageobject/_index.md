@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.mapi.msg/messageobject/
+url: /python-net/aspose.email.mapi.msg/messageobject/
 ---
 
 ## MessageObject class
@@ -20,10 +20,10 @@ The MessageObject type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|properties|Gets the properties of the|
+|properties|Gets the properties of the [MessageObject](/python-net/aspose.email.mapi.msg/messageobject/).|
 |codepage|Gets the codepage used to encode/decode string properties in case|
-|recipients|Gets the recipients of the|
-|attachments|Gets the attachments of the|
+|recipients|Gets the recipients of the [MessageObject](/python-net/aspose.email.mapi.msg/messageobject/).|
+|attachments|Gets the attachments of the [MessageObject](/python-net/aspose.email.mapi.msg/messageobject/).|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -33,6 +33,6 @@ The MessageObject type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

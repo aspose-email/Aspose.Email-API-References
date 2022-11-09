@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.storage.zimbra/tgzreader/
+url: /python-net/aspose.email.storage.zimbra/tgzreader/
 ---
 
 ## TgzReader class
@@ -29,6 +29,6 @@ The TgzReader type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.zimbra](/email/python-net/aspose.email.storage.zimbra/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.zimbra](/python-net/aspose.email.storage.zimbra/)
+* assembly [Aspose.Email](/python-net/)
 

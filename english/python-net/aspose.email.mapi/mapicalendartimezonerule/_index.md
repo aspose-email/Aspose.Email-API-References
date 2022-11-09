@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /email/python-net/aspose.email.mapi/mapicalendartimezonerule/
+url: /python-net/aspose.email.mapi/mapicalendartimezonerule/
 ---
 
 ## MapiCalendarTimeZoneRule class
@@ -15,7 +15,7 @@ The MapiCalendarTimeZoneRule type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarTimeZoneRule()|Initializes a new instance of the|
+|MapiCalendarTimeZoneRule()|Initializes a new instance of the [MapiCalendarTimeZoneRule](/python-net/aspose.email.mapi/mapicalendartimezonerule/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The MapiCalendarTimeZoneRule type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

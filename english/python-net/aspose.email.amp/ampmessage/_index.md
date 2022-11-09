@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.amp/ampmessage/
+url: /python-net/aspose.email.amp/ampmessage/
 ---
 
 ## AmpMessage class
@@ -15,7 +15,7 @@ The AmpMessage type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AmpMessage()|Initializes a new instance of the|
+|AmpMessage()|Initializes a new instance of the [MailMessage](/python-net/aspose.email/mailmessage/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -86,6 +86,6 @@ The AmpMessage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/python-net/)
 

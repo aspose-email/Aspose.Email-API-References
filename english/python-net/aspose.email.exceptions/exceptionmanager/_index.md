@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.exceptions/exceptionmanager/
+url: /python-net/aspose.email.exceptions/exceptionmanager/
 ---
 
 ## ExceptionManager class
@@ -20,6 +20,6 @@ The ExceptionManager type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.exceptions](/email/python-net/aspose.email.exceptions/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.exceptions](/python-net/aspose.email.exceptions/)
+* assembly [Aspose.Email](/python-net/)
 

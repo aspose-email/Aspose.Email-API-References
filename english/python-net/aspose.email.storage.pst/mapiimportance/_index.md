@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /email/python-net/aspose.email.storage.pst/mapiimportance/
+url: /python-net/aspose.email.storage.pst/mapiimportance/
 ---
 
 ## MapiImportance enumeration
@@ -20,6 +20,6 @@ Contains a values that <br/>            indicates the message importance.
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

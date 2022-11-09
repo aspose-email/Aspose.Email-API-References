@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 930
-url: /email/python-net/aspose.email.mapi/mapicalendaroverrideflags/
+url: /python-net/aspose.email.mapi/mapicalendaroverrideflags/
 ---
 
 ## MapiCalendarOverrideFlags enumeration
@@ -27,6 +27,6 @@ Specifies what data in the MapiCalendarOverrideFlags structure has a value diffe
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

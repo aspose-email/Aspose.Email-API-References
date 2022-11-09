@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.storage.olm/olmmessageinfo/
+url: /python-net/aspose.email.storage.olm/olmmessageinfo/
 ---
 
 ## OlmMessageInfo class
@@ -25,6 +25,6 @@ The OlmMessageInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.olm](/email/python-net/aspose.email.storage.olm/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.olm](/python-net/aspose.email.storage.olm/)
+* assembly [Aspose.Email](/python-net/)
 

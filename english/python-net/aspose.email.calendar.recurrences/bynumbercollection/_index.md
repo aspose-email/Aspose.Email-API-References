@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.calendar.recurrences/bynumbercollection/
+url: /python-net/aspose.email.calendar.recurrences/bynumbercollection/
 ---
 
 ## ByNumberCollection class
@@ -20,6 +20,6 @@ The ByNumberCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 100
-url: /email/python-net/aspose.email.clients.deliveryservice/
+url: /python-net/aspose.email.clients.deliveryservice/
 ---
 
 
@@ -13,9 +13,9 @@ the aspose.email.clients.deliveryservice namespace contains<br/>            gene
 ## Classes
 | Class | Description |
 | :- | :- |
-|[DeliveryServiceClientFactory](/email/python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/)||
-|[DeliveryServiceOptions](/email/python-net/aspose.email.clients.deliveryservice/deliveryserviceoptions/)||
-|[IDeliveryServiceClient](/email/python-net/aspose.email.clients.deliveryservice/ideliveryserviceclient/)||
+|[DeliveryServiceClientFactory](/python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/)|Represents the to create DeliveryServiceClient|
+|[DeliveryServiceOptions](/python-net/aspose.email.clients.deliveryservice/deliveryserviceoptions/)|Options to set the DeliveryServiceClient parameters.|
+|[IDeliveryServiceClient](/python-net/aspose.email.clients.deliveryservice/ideliveryserviceclient/)|Represents contract for DeliveryServiceClient|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

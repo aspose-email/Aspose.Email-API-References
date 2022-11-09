@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.personalinfo/emailaddresslist/
+url: /python-net/aspose.email.personalinfo/emailaddresslist/
 ---
 
 ## EmailAddressList class
@@ -24,10 +24,10 @@ The EmailAddressList type exposes the following members:
 |email1|Default email1 address.|
 |email2|Default email2 address.|
 |email3|Default email3 address.|
-|sync_root|Gets an object that can be used to synchronize access to the|
+|sync_root|Gets an object that can be used to synchronize access to the list.|
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

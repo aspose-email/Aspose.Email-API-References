@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 170
-url: /email/python-net/aspose.email.tools.logging/standardformatter/
+url: /python-net/aspose.email.tools.logging/standardformatter/
 ---
 
 ## StandardFormatter class
@@ -15,7 +15,7 @@ The StandardFormatter type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|StandardFormatter()|Initializes a new instance of the|
+|StandardFormatter()|Initializes a new instance of the [StandardFormatter](/python-net/aspose.email.tools.logging/standardformatter/) class.|
 |StandardFormatter(header_text)|Initializes a new instance of the StandardFormatter class|
 ## Properties
 | Name | Description |
@@ -32,6 +32,6 @@ The StandardFormatter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

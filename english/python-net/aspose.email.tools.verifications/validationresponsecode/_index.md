@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email.tools.verifications/validationresponsecode/
+url: /python-net/aspose.email.tools.verifications/validationresponsecode/
 ---
 
 ## ValidationResponseCode enumeration
@@ -21,6 +21,6 @@ Represents the response status of the mail validating process.
 
 ### See Also
 
-* namespace [aspose.email.tools.verifications](/email/python-net/aspose.email.tools.verifications/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.verifications](/python-net/aspose.email.tools.verifications/)
+* assembly [Aspose.Email](/python-net/)
 

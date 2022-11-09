@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /email/python-net/aspose.email.mapi/followupoptions/
+url: /python-net/aspose.email.mapi/followupoptions/
 ---
 
 ## FollowUpOptions class
@@ -15,7 +15,7 @@ The FollowUpOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FollowUpOptions()|Initializes a new instance of the|
+|FollowUpOptions()|Initializes a new instance of the [FollowUpOptions](/python-net/aspose.email.mapi/followupoptions/) class.|
 |FollowUpOptions(flag_request)|Initializes a new instance of the FollowUpOptions class|
 |FollowUpOptions(flag_request, start_date, due_date)|Initializes a new instance of the FollowUpOptions class|
 |FollowUpOptions(flag_request, start_date, due_date, reminder_time)|Initializes a new instance of the FollowUpOptions class|
@@ -35,6 +35,6 @@ The FollowUpOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

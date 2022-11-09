@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /email/python-net/aspose.email.mapi/mapicalendardailyrecurrencepattern/
+url: /python-net/aspose.email.mapi/mapicalendardailyrecurrencepattern/
 ---
 
 ## MapiCalendarDailyRecurrencePattern class
@@ -15,7 +15,7 @@ The MapiCalendarDailyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarDailyRecurrencePattern()|Initializes a new instance of the|
+|MapiCalendarDailyRecurrencePattern()|Initializes a new instance of the [MapiCalendarDailyRecurrencePattern](/python-net/aspose.email.mapi/mapicalendardailyrecurrencepattern/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -35,6 +35,6 @@ The MapiCalendarDailyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

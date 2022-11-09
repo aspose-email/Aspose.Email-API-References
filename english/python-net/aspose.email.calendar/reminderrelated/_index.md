@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 440
-url: /email/python-net/aspose.email.calendar/reminderrelated/
+url: /python-net/aspose.email.calendar/reminderrelated/
 ---
 
 ## ReminderRelated enumeration
@@ -19,6 +19,6 @@ Specify the relationship of the alarm trigger with respect to the start or end o
 
 ### See Also
 
-* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/python-net/)
 

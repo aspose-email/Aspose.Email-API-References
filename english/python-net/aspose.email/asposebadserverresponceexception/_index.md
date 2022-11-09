@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email/asposebadserverresponceexception/
+url: /python-net/aspose.email/asposebadserverresponceexception/
 ---
 
 ## AsposeBadServerResponceException class
@@ -16,7 +16,7 @@ The AsposeBadServerResponceException type exposes the following members:
 | Name | Description |
 | :- | :- |
 |AsposeBadServerResponceException(message)|Initializes a new instance of the AsposeBadServerResponceException class|
-|AsposeBadServerResponceException()|Initializes a new instance of the|
+|AsposeBadServerResponceException()|Initializes a new instance of the [AsposeBadServerResponceException](/python-net/aspose.email/asposebadserverresponceexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The AsposeBadServerResponceException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/email/python-net/aspose.email/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email](/python-net/aspose.email/)
+* assembly [Aspose.Email](/python-net/)
 

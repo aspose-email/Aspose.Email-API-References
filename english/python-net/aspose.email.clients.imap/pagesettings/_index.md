@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 290
-url: /email/python-net/aspose.email.clients.imap/pagesettings/
+url: /python-net/aspose.email.clients.imap/pagesettings/
 ---
 
 ## PageSettings class
@@ -26,6 +26,6 @@ The PageSettings type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/python-net/)
 

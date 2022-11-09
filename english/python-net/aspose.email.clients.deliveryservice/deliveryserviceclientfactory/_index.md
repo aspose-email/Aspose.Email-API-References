@@ -4,12 +4,12 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/
+url: /python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/
 ---
 
 ## DeliveryServiceClientFactory class
 
-
+Represents the to create DeliveryServiceClient
 
 The DeliveryServiceClientFactory type exposes the following members:
 ## Constructors
@@ -23,6 +23,6 @@ The DeliveryServiceClientFactory type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice](/email/python-net/aspose.email.clients.deliveryservice/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.deliveryservice](/python-net/aspose.email.clients.deliveryservice/)
+* assembly [Aspose.Email](/python-net/)
 

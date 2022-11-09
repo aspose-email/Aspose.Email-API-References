@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 120
-url: /email/python-net/aspose.email.mime/transferencoding/
+url: /python-net/aspose.email.mime/transferencoding/
 ---
 
 ## TransferEncoding enumeration
@@ -25,6 +25,6 @@ Specifies the Content-Transfer-Encoding header information.
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

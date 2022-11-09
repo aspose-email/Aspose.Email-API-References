@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /email/python-net/aspose.email.mapi.msg/messageobjectattachmententity/
+url: /python-net/aspose.email.mapi.msg/messageobjectattachmententity/
 ---
 
 ## MessageObjectAttachmentEntity class
@@ -15,7 +15,7 @@ The MessageObjectAttachmentEntity type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MessageObjectAttachmentEntity()|Initializes a new instance of the|
+|MessageObjectAttachmentEntity()|Initializes a new instance of the [MessageObjectAttachmentEntity](/python-net/aspose.email.mapi.msg/messageobjectattachmententity/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The MessageObjectAttachmentEntity type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/python-net/)
 

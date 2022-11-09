@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.mime/contenttype/
+url: /python-net/aspose.email.mime/contenttype/
 ---
 
 ## ContentType class
@@ -15,7 +15,7 @@ The ContentType type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ContentType()|Initializes a new instance of the|
+|ContentType()|Initializes a new instance of the [ContentType](/python-net/aspose.email.mime/contenttype/) class.|
 |ContentType(content_type)|Initializes a new instance of the ContentType class|
 ## Properties
 | Name | Description |
@@ -28,6 +28,6 @@ The ContentType type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

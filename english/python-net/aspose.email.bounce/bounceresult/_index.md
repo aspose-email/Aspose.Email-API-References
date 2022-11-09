@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.bounce/bounceresult/
+url: /python-net/aspose.email.bounce/bounceresult/
 ---
 
 ## BounceResult class
@@ -28,6 +28,6 @@ The BounceResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.bounce](/email/python-net/aspose.email.bounce/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.bounce](/python-net/aspose.email.bounce/)
+* assembly [Aspose.Email](/python-net/)
 

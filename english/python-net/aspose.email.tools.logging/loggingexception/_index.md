@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /email/python-net/aspose.email.tools.logging/loggingexception/
+url: /python-net/aspose.email.tools.logging/loggingexception/
 ---
 
 ## LoggingException class
@@ -20,6 +20,6 @@ The LoggingException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

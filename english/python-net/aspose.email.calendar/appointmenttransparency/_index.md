@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 390
-url: /email/python-net/aspose.email.calendar/appointmenttransparency/
+url: /python-net/aspose.email.calendar/appointmenttransparency/
 ---
 
 ## AppointmentTransparency enumeration
@@ -20,6 +20,6 @@ Specifies whether or not this appointment is intended to be visible in availabil
 
 ### See Also
 
-* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/python-net/)
 

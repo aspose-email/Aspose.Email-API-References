@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 760
-url: /email/python-net/aspose.email.mapi/webdavcontactsaveoptions/
+url: /python-net/aspose.email.mapi/webdavcontactsaveoptions/
 ---
 
 ## WebDavContactSaveOptions class
@@ -15,7 +15,7 @@ The WebDavContactSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WebDavContactSaveOptions()|Initializes a new instance of the|
+|WebDavContactSaveOptions()|Initializes a new instance of the [WebDavContactSaveOptions](/python-net/aspose.email.mapi/webdavcontactsaveoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The WebDavContactSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

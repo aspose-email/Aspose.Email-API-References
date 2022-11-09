@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 450
-url: /email/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/
+url: /python-net/aspose.email.mapi/mapicontacttelephonepropertyset/
 ---
 
 ## MapiContactTelephonePropertySet class
@@ -15,7 +15,7 @@ The MapiContactTelephonePropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactTelephonePropertySet()|Initializes a new instance of the|
+|MapiContactTelephonePropertySet()|Initializes a new instance of the [MapiContactTelephonePropertySet](/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/) class|
 |MapiContactTelephonePropertySet(primary_telephone_number)|Initializes a new instance of the MapiContactTelephonePropertySet class|
 |MapiContactTelephonePropertySet(properties)|Initializes a new instance of the MapiContactTelephonePropertySet class|
 ## Properties
@@ -43,6 +43,6 @@ The MapiContactTelephonePropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/python-net/)
 

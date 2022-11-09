@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 180
-url: /email/python-net/aspose.email.clients.pop3.models/
+url: /python-net/aspose.email.clients.pop3.models/
 ---
 
 
@@ -13,5 +13,5 @@ url: /email/python-net/aspose.email.clients.pop3.models/
 ## Classes
 | Class | Description |
 | :- | :- |
-|[Pop3LoadMessageInfoList](/email/python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/)||
-|[Pop3SaveMessage](/email/python-net/aspose.email.clients.pop3.models/pop3savemessage/)|The|
+|[Pop3LoadMessageInfoList](/python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/)||
+|[Pop3SaveMessage](/python-net/aspose.email.clients.pop3.models/pop3savemessage/)|The|

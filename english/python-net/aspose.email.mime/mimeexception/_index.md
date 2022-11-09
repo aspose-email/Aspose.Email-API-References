@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /email/python-net/aspose.email.mime/mimeexception/
+url: /python-net/aspose.email.mime/mimeexception/
 ---
 
 ## MimeException class
@@ -15,11 +15,11 @@ The MimeException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MimeException()|Initializes a new instance of the|
+|MimeException()|Initializes a new instance of the [MimeException](/python-net/aspose.email.mime/mimeexception/) class.|
 |MimeException(message)|Initializes a new instance of the MimeException class|
 
 ### See Also
 
-* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/python-net/)
 

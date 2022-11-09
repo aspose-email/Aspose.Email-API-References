@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 240
-url: /email/python-net/aspose.email.personalinfo.vcard/vcardphototype/
+url: /python-net/aspose.email.personalinfo.vcard/vcardphototype/
 ---
 
 ## VCardPhotoType enumeration
@@ -33,6 +33,6 @@ Enumerates vCard photo type
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/python-net/)
 

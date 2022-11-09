@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 210
-url: /email/python-net/aspose.email.clients.activity/subscription/
+url: /python-net/aspose.email.clients.activity/subscription/
 ---
 
 ## Subscription class
@@ -25,6 +25,6 @@ The Subscription type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/python-net/)
 

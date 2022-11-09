@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 110
-url: /email/python-net/aspose.email.tools.logging/loglevel/
+url: /python-net/aspose.email.tools.logging/loglevel/
 ---
 
 ## LogLevel class
@@ -24,10 +24,10 @@ The LogLevel type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|compare_to(obj)|Compares the level to the other|
+|compare_to(obj)|  |
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/python-net/)
 

@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /email/python-net/aspose.email.personalinfo/associatedpersonslist/
+url: /python-net/aspose.email.personalinfo/associatedpersonslist/
 ---
 
 ## AssociatedPersonsList class
@@ -33,11 +33,11 @@ The AssociatedPersonsList type exposes the following members:
 |referred_by|Default referred by|
 |partner|Default partner|
 |domestic_partner|Default domestic partner|
-|sync_root|Gets an object that can be used to synchronize access to the|
-|is_synchronized|Gets a value indicating whether access to the|
+|sync_root|Gets an object that can be used to synchronize access to the list.|
+|is_synchronized|Gets a value indicating whether access to the list is synchronized (thread safe).|
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

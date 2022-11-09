@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.tools/fileformatutil/
+url: /python-net/aspose.email.tools/fileformatutil/
 ---
 
 ## FileFormatUtil class
@@ -20,6 +20,6 @@ The FileFormatUtil type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools](/email/python-net/aspose.email.tools/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools](/python-net/aspose.email.tools/)
+* assembly [Aspose.Email](/python-net/)
 

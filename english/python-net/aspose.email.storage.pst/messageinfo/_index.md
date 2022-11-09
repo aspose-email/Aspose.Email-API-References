@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /email/python-net/aspose.email.storage.pst/messageinfo/
+url: /python-net/aspose.email.storage.pst/messageinfo/
 ---
 
 ## MessageInfo class
@@ -15,7 +15,7 @@ The MessageInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MessageInfo()|Initializes a new instance of the|
+|MessageInfo()|Initializes a new instance of the [MessageInfo](/python-net/aspose.email.storage.pst/messageinfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -32,6 +32,6 @@ The MessageInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/python-net/)
 

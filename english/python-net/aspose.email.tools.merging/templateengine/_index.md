@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /email/python-net/aspose.email.tools.merging/templateengine/
+url: /python-net/aspose.email.tools.merging/templateengine/
 ---
 
 ## TemplateEngine class
@@ -27,6 +27,6 @@ The TemplateEngine type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.merging](/email/python-net/aspose.email.tools.merging/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.tools.merging](/python-net/aspose.email.tools.merging/)
+* assembly [Aspose.Email](/python-net/)
 

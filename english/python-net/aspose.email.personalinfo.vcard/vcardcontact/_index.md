@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /email/python-net/aspose.email.personalinfo.vcard/vcardcontact/
+url: /python-net/aspose.email.personalinfo.vcard/vcardcontact/
 ---
 
 ## VCardContact class
@@ -15,7 +15,7 @@ The VCardContact type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardContact()|Initializes a new instance of the|
+|VCardContact()|Initializes a new instance of the [VCardContact](/python-net/aspose.email.personalinfo.vcard/vcardcontact/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -33,22 +33,22 @@ The VCardContact type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|load(file_path)|Reads|
-|load(file_path, encoding)|Reads|
-|load(stream)|Reads|
-|load(stream, encoding)|Reads|
+|load(file_path)|  |
+|load(file_path, encoding)|  |
+|load(stream)|  |
+|load(stream, encoding)|  |
 |load_as_multiple(stream, encoding)|  |
 |load_as_multiple(file_path, encoding)|  |
-|save(file_path)|Saves this|
-|save(file_path, save_format)|Saves this|
-|save(file_path, save_options)|Saves this|
-|save(stream)|Saves this|
-|save(stream, save_format)|Saves this|
-|save(stream, save_options)|Saves this|
+|save(file_path)|  |
+|save(file_path, save_format)|  |
+|save(file_path, save_options)|  |
+|save(stream)|  |
+|save(stream, save_format)|  |
+|save(stream, save_options)|  |
 |is_multi_contacts(stream)|  |
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/python-net/)
 

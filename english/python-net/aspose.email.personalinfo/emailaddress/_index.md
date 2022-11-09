@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 70
-url: /email/python-net/aspose.email.personalinfo/emailaddress/
+url: /python-net/aspose.email.personalinfo/emailaddress/
 ---
 
 ## EmailAddress class
@@ -15,7 +15,7 @@ The EmailAddress type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EmailAddress()|Initializes a new instance of the|
+|EmailAddress()|Initializes a new instance of the [EmailAddress](/python-net/aspose.email.personalinfo/emailaddress/) class.|
 |EmailAddress(address)|Initializes a new instance of the EmailAddress class|
 |EmailAddress(address, display_name)|Initializes a new instance of the EmailAddress class|
 ## Properties
@@ -39,13 +39,13 @@ The EmailAddress type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(obj)|Determines whether the specified|
-|equals(x, y)|Determines whether the specified|
+|equals(obj)|  |
+|equals(x, y)|  |
 |get_hash_code(obj)|  |
 |compare_to(obj)|  |
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/python-net/)
 

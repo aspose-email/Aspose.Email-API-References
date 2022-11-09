@@ -4,7 +4,7 @@ second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
 weight: 190
-url: /email/python-net/aspose.email.amp/sectionheadertype/
+url: /python-net/aspose.email.amp/sectionheadertype/
 ---
 
 ## SectionHeaderType enumeration
@@ -24,6 +24,6 @@ Represents the type of heading for the section.
 
 ### See Also
 
-* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/slides/python-net/)
+* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/python-net/)
 
