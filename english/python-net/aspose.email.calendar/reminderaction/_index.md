@@ -22,6 +22,6 @@ Defines the action to be invoked when an alarm is triggered.
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

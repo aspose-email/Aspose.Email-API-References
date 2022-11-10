@@ -21,6 +21,6 @@ The types of conference solutions that are supported for this calendar.
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -19,6 +19,6 @@ The NsfLoadOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.nsf](/python-net/aspose.email.storage.nsf/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.nsf](/email/python-net/aspose.email.storage.nsf/)
+* assembly [Aspose.Email](/email/python-net/)
 

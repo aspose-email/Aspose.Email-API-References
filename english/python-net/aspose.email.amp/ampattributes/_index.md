@@ -37,6 +37,6 @@ The AmpAttributes type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/email/python-net/)
 

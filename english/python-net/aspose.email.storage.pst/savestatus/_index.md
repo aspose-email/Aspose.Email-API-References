@@ -20,6 +20,6 @@ Represents the status of saving the retrieved message.
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The MapiAttachmentCollection type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiAttachmentCollection()|Initializes a new instance of the [MapiAttachmentCollection](/python-net/aspose.email.mapi/mapiattachmentcollection/) class.|
+|MapiAttachmentCollection()|Initializes a new instance of the [MapiAttachmentCollection](/email/python-net/aspose.email.mapi/mapiattachmentcollection/) class.|
 |MapiAttachmentCollection(owner)|Initializes a new instance of the MapiAttachmentCollection class|
 ## Methods
 | Name | Description |
@@ -26,6 +26,6 @@ The MapiAttachmentCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

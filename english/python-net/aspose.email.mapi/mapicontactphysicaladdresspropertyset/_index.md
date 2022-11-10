@@ -15,7 +15,7 @@ The MapiContactPhysicalAddressPropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactPhysicalAddressPropertySet()|Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](/python-net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/) class|
+|MapiContactPhysicalAddressPropertySet()|Initializes a new instance of the [MapiContactPhysicalAddressPropertySet](/email/python-net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/) class|
 |MapiContactPhysicalAddressPropertySet(properties)|Initializes a new instance of the MapiContactPhysicalAddressPropertySet class|
 ## Properties
 | Name | Description |
@@ -26,6 +26,6 @@ The MapiContactPhysicalAddressPropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

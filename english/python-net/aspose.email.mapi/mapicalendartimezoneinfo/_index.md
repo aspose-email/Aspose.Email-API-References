@@ -15,7 +15,7 @@ The MapiCalendarTimeZoneInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarTimeZoneInfo()|Initializes a new instance of the [MapiCalendarTimeZoneInfo](/python-net/aspose.email.mapi/mapicalendartimezoneinfo/) class.|
+|MapiCalendarTimeZoneInfo()|Initializes a new instance of the [MapiCalendarTimeZoneInfo](/email/python-net/aspose.email.mapi/mapicalendartimezoneinfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,6 +29,6 @@ The MapiCalendarTimeZoneInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

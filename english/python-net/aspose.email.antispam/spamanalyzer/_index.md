@@ -15,7 +15,7 @@ The SpamAnalyzer type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SpamAnalyzer()|Initialize a new instance of the [SpamAnalyzer](/python-net/aspose.email.antispam/spamanalyzer/) class.|
+|SpamAnalyzer()|Initialize a new instance of the [SpamAnalyzer](/email/python-net/aspose.email.antispam/spamanalyzer/) class.|
 |SpamAnalyzer(stream)|Initializes a new instance of the SpamAnalyzer class|
 |SpamAnalyzer(file_path)|Initializes a new instance of the SpamAnalyzer class|
 ## Methods
@@ -33,6 +33,6 @@ The SpamAnalyzer type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.antispam](/python-net/aspose.email.antispam/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.antispam](/email/python-net/aspose.email.antispam/)
+* assembly [Aspose.Email](/email/python-net/)
 

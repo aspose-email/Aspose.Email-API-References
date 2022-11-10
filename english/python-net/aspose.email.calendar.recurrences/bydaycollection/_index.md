@@ -9,7 +9,7 @@ url: /python-net/aspose.email.calendar.recurrences/bydaycollection/
 
 ## ByDayCollection class
 
-Represents a collection of [ByDay](/python-net/aspose.email.calendar.recurrences/byday/) objects.
+Represents a collection of [ByDay](/email/python-net/aspose.email.calendar.recurrences/byday/) objects.
 
 The ByDayCollection type exposes the following members:
 ## Methods
@@ -19,6 +19,6 @@ The ByDayCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/email/python-net/)
 

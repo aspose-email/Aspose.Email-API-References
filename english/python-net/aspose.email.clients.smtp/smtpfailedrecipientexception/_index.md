@@ -15,7 +15,7 @@ The SmtpFailedRecipientException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SmtpFailedRecipientException()|Initializes a new instance of the [SmtpFailedRecipientException](/python-net/aspose.email.clients.smtp/smtpfailedrecipientexception/) class|
+|SmtpFailedRecipientException()|Initializes a new instance of the [SmtpFailedRecipientException](/email/python-net/aspose.email.clients.smtp/smtpfailedrecipientexception/) class|
 |SmtpFailedRecipientException(message)|Initializes a new instance of the SmtpFailedRecipientException class|
 |SmtpFailedRecipientException(status_code, failed_recipient)|Initializes a new instance of the SmtpFailedRecipientException class|
 |SmtpFailedRecipientException(status_code, failed_recipient, server_response)|Initializes a new instance of the SmtpFailedRecipientException class|
@@ -29,6 +29,6 @@ The SmtpFailedRecipientException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp](/python-net/aspose.email.clients.smtp/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.smtp](/email/python-net/aspose.email.clients.smtp/)
+* assembly [Aspose.Email](/email/python-net/)
 

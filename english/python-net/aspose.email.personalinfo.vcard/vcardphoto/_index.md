@@ -15,7 +15,7 @@ The VCardPhoto type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardPhoto()|Initializes a new instance of the [VCardPhoto](/python-net/aspose.email.personalinfo.vcard/vcardphoto/) class|
+|VCardPhoto()|Initializes a new instance of the [VCardPhoto](/email/python-net/aspose.email.personalinfo.vcard/vcardphoto/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The VCardPhoto type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

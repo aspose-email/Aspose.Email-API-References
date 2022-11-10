@@ -23,6 +23,6 @@ The MessageObjectPropertyComparerById type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

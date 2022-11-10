@@ -15,7 +15,7 @@ The MapiNamedPropertyMappingStorage type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiNamedPropertyMappingStorage()|Initializes a new instance of the [MapiNamedPropertyMappingStorage](/python-net/aspose.email.mapi/mapinamedpropertymappingstorage/) class.|
+|MapiNamedPropertyMappingStorage()|Initializes a new instance of the [MapiNamedPropertyMappingStorage](/email/python-net/aspose.email.mapi/mapinamedpropertymappingstorage/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -52,6 +52,6 @@ The MapiNamedPropertyMappingStorage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

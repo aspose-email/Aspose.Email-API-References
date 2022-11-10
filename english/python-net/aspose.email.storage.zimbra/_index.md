@@ -13,4 +13,4 @@ the aspose.email.storage.zimbra namespace contains classes for work with zimbra 
 ## Classes
 | Class | Description |
 | :- | :- |
-|[TgzReader](/python-net/aspose.email.storage.zimbra/tgzreader/)|The mailbox items reader of Zimbra tgz storage.|
+|[TgzReader](/email/python-net/aspose.email.storage.zimbra/tgzreader/)|The mailbox items reader of Zimbra tgz storage.|

@@ -15,7 +15,7 @@ The ClassificationOverride type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ClassificationOverride()|Initalizes static members of class [ClassificationOverride](/python-net/aspose.email.clients.graph/classificationoverride/).|
+|ClassificationOverride()|Initalizes static members of class [ClassificationOverride](/email/python-net/aspose.email.clients.graph/classificationoverride/).|
 |ClassificationOverride(sender, classify_as)|Initializes a new instance of the ClassificationOverride class|
 |ClassificationOverride(id, sender, classify_as)|Initializes a new instance of the ClassificationOverride class|
 ## Properties
@@ -27,6 +27,6 @@ The ClassificationOverride type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/email/python-net/)
 

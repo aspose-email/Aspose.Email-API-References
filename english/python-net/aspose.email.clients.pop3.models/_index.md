@@ -13,5 +13,5 @@ url: /python-net/aspose.email.clients.pop3.models/
 ## Classes
 | Class | Description |
 | :- | :- |
-|[Pop3LoadMessageInfoList](/python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/)||
-|[Pop3SaveMessage](/python-net/aspose.email.clients.pop3.models/pop3savemessage/)|The|
+|[Pop3LoadMessageInfoList](/email/python-net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/)||
+|[Pop3SaveMessage](/email/python-net/aspose.email.clients.pop3.models/pop3savemessage/)|The|

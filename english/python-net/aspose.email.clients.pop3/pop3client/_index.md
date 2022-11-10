@@ -15,7 +15,7 @@ The Pop3Client type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Pop3Client()|Initializes a new instance of the [Pop3Client](/python-net/aspose.email.clients.pop3/pop3client/) class|
+|Pop3Client()|Initializes a new instance of the [Pop3Client](/email/python-net/aspose.email.clients.pop3/pop3client/) class|
 |Pop3Client(host)|Initializes a new instance of the Pop3Client class|
 |Pop3Client(host, security_options)|Initializes a new instance of the Pop3Client class|
 |Pop3Client(host, port)|Initializes a new instance of the Pop3Client class|
@@ -32,7 +32,7 @@ The Pop3Client type exposes the following members:
 |enable_logger|Gets or sets value which allows enable/disable logger|
 |log_file_name|Gets or sets log file name|
 |use_date_in_log_file_name|Gets or sets value which indicates if date has to be used in log file name.|
-|supported_encryption|Defines the versions of SSL/TLS encryption protocols to be used.<br/>            PLEASE PAY YOUR ATTENTION, you may set only those versions of protocol, which are supported by .net framework.<br/>            IF SOME VERSIONS OF PROTOCOL ARE NOT SUPPORTED BY YOUR CURRENT VERSION OF .NET FRAMEWORK, THEY WILL BE IGNORED AND SKIPPED.<br/>            IT MAY LEAD TO DOWNGRADE TLS SECURITY LEVEL. IN THIS CASE EXCEPTION WON'T BE GENERATED!!!<br/>            Please, see [EncryptionProtocols](/python-net/aspose.email.clients.base/encryptionprotocols/) documentation for more details.<br/>            Please use|
+|supported_encryption|Defines the versions of SSL/TLS encryption protocols to be used.<br/>            PLEASE PAY YOUR ATTENTION, you may set only those versions of protocol, which are supported by .net framework.<br/>            IF SOME VERSIONS OF PROTOCOL ARE NOT SUPPORTED BY YOUR CURRENT VERSION OF .NET FRAMEWORK, THEY WILL BE IGNORED AND SKIPPED.<br/>            IT MAY LEAD TO DOWNGRADE TLS SECURITY LEVEL. IN THIS CASE EXCEPTION WON'T BE GENERATED!!!<br/>            Please, see [EncryptionProtocols](/email/python-net/aspose.email.clients.base/encryptionprotocols/) documentation for more details.<br/>            Please use|
 |use_pipelining|Gets or sets object which indicates whether the pipelining mode is enabled.|
 |host|Gets or sets the host name.|
 |default_port|Gets default port for client|
@@ -43,7 +43,7 @@ The Pop3Client type exposes the following members:
 |use_default_credentials|Gets or sets a Boolean value that controls whether the DefaultCredentials are sent with requests.<br/>            This option is used with NTLM authentication ONLY!|
 |proxy|Gets or sets proxy for the client|
 |timeout|Gets or sets the timeout for mail operations|
-|greeting_timeout|Gets or sets the greeting timeout that is used when establishing a connection.<br/>            Please note, greeting timeout can't be infinite.<br/>            <br/>            Email clients may execute enough long operations. To limit the time of operations users have to use [timeout](/python-net/aspose.email.clients/emailclient/) property. <br/>            Values for this property have to have long intervals to not prevent long-time operations. <br/>            But in some cases, if EmailClient will use only Timeout property connection establishing may take a long time. <br/>            For instance, the mail client may use the automatic mode to connection establishing. <br/>            In this mode, the email client goes through all possible connection parameters until the connection is established. <br/>            SMTP, IMAP, and POP3 servers in case of correct connection establishing send greeting string to the client. <br/>            Servers may use implicit or explicit (START TLS) SSL/TLS connection initiation. <br/>            If connection mode is mismatched (for instance, the server waits for an implicit SSL connection but the client tries to establish <br/>            a non-secured or explicit SSL connection), the server won't send a greeting string. <br/>            In this case, the user will wait a long time until the timeout reaches a greeting string, and the client goes to the next connection option. <br/>            To avoid this problem, the GreetingTimeout property has been introduced. This property allows you to set the timeout for greeting string, <br/>            and reduce the time of automatic connection establishment.|
+|greeting_timeout|Gets or sets the greeting timeout that is used when establishing a connection.<br/>            Please note, greeting timeout can't be infinite.<br/>            <br/>            Email clients may execute enough long operations. To limit the time of operations users have to use [timeout](/email/python-net/aspose.email.clients/emailclient/) property. <br/>            Values for this property have to have long intervals to not prevent long-time operations. <br/>            But in some cases, if EmailClient will use only Timeout property connection establishing may take a long time. <br/>            For instance, the mail client may use the automatic mode to connection establishing. <br/>            In this mode, the email client goes through all possible connection parameters until the connection is established. <br/>            SMTP, IMAP, and POP3 servers in case of correct connection establishing send greeting string to the client. <br/>            Servers may use implicit or explicit (START TLS) SSL/TLS connection initiation. <br/>            If connection mode is mismatched (for instance, the server waits for an implicit SSL connection but the client tries to establish <br/>            a non-secured or explicit SSL connection), the server won't send a greeting string. <br/>            In this case, the user will wait a long time until the timeout reaches a greeting string, and the client goes to the next connection option. <br/>            To avoid this problem, the GreetingTimeout property has been introduced. This property allows you to set the timeout for greeting string, <br/>            and reduce the time of automatic connection establishment.|
 |password|Gets or sets the password.<br/>            Password limitations are defined by server implementation, which  client connects.|
 |access_token|Gets or sets the access token.|
 |token_provider|Gets or sets TokenProvider allowing to retrieve access token.|
@@ -143,6 +143,6 @@ The Pop3Client type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3](/python-net/aspose.email.clients.pop3/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.pop3](/email/python-net/aspose.email.clients.pop3/)
+* assembly [Aspose.Email](/email/python-net/)
 

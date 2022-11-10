@@ -20,6 +20,6 @@ Fields that may be retrieved from the server
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3](/python-net/aspose.email.clients.pop3/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.pop3](/email/python-net/aspose.email.clients.pop3/)
+* assembly [Aspose.Email](/email/python-net/)
 

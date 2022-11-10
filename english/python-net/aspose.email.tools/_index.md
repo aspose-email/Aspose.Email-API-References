@@ -13,11 +13,11 @@ the aspose.email.tools namespace contains auxiliary classes for email message ha
 ## Classes
 | Class | Description |
 | :- | :- |
-|[FileFormatUtil](/python-net/aspose.email.tools/fileformatutil/)|Provides utility methods to detect file type.|
-|[ForwardMessageBuilder](/python-net/aspose.email.tools/forwardmessagebuilder/)|Provides creation and formatting the forwarding messages.|
-|[ReplyMessageBuilder](/python-net/aspose.email.tools/replymessagebuilder/)|Provides creation and formatting the replying messages.|
-|[ResponseMessageBuilder](/python-net/aspose.email.tools/responsemessagebuilder/)|Provides creation and formatting the forwarding and replying messages.|
+|[FileFormatUtil](/email/python-net/aspose.email.tools/fileformatutil/)|Provides utility methods to detect file type.|
+|[ForwardMessageBuilder](/email/python-net/aspose.email.tools/forwardmessagebuilder/)|Provides creation and formatting the forwarding messages.|
+|[ReplyMessageBuilder](/email/python-net/aspose.email.tools/replymessagebuilder/)|Provides creation and formatting the replying messages.|
+|[ResponseMessageBuilder](/email/python-net/aspose.email.tools/responsemessagebuilder/)|Provides creation and formatting the forwarding and replying messages.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[OriginalMessageAdditionMode](/python-net/aspose.email.tools/originalmessageadditionmode/)|Way to include the original message in response message.|
+|[OriginalMessageAdditionMode](/email/python-net/aspose.email.tools/originalmessageadditionmode/)|Way to include the original message in response message.|

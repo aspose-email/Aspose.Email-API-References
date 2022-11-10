@@ -15,7 +15,7 @@ The RangeSeqSet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RangeSeqSet()|Initializes a new instance of the [RangeSeqSet](/python-net/aspose.email.clients.imap/rangeseqset/) class.|
+|RangeSeqSet()|Initializes a new instance of the [RangeSeqSet](/email/python-net/aspose.email.clients.imap/rangeseqset/) class.|
 |RangeSeqSet(start_range)|Initializes a new instance of the RangeSeqSet class|
 |RangeSeqSet(start_range, end_range)|Initializes a new instance of the RangeSeqSet class|
 |RangeSeqSet(start_range)|Initializes a new instance of the RangeSeqSet class|
@@ -28,6 +28,6 @@ The RangeSeqSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

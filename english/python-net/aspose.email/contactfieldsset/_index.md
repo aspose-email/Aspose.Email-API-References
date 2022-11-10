@@ -27,6 +27,6 @@ Enumerates the groups of Contact fields that will be included in resultant mhtml
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

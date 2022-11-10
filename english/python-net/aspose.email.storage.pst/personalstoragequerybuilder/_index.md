@@ -15,7 +15,7 @@ The PersonalStorageQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PersonalStorageQueryBuilder()|Initializes a new instance of the [PersonalStorageQueryBuilder](/python-net/aspose.email.storage.pst/personalstoragequerybuilder/) class.|
+|PersonalStorageQueryBuilder()|Initializes a new instance of the [PersonalStorageQueryBuilder](/email/python-net/aspose.email.storage.pst/personalstoragequerybuilder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -51,6 +51,6 @@ The PersonalStorageQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.pst](/python-net/aspose.email.storage.pst/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.pst](/email/python-net/aspose.email.storage.pst/)
+* assembly [Aspose.Email](/email/python-net/)
 

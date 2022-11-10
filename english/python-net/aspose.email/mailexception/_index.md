@@ -15,11 +15,11 @@ The MailException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MailException()|Initializes a new instance of the [MailException](/python-net/aspose.email/mailexception/) class.|
+|MailException()|Initializes a new instance of the [MailException](/email/python-net/aspose.email/mailexception/) class.|
 |MailException(message)|Initializes a new instance of the MailException class|
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

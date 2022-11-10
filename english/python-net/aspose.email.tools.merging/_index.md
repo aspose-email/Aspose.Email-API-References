@@ -13,4 +13,4 @@ the aspose.email.tools.merging namespace contains classes for construct email me
 ## Classes
 | Class | Description |
 | :- | :- |
-|[TemplateEngine](/python-net/aspose.email.tools.merging/templateengine/)|This class uses specified template to construct E-Mail messages.|
+|[TemplateEngine](/email/python-net/aspose.email.tools.merging/templateengine/)|This class uses specified template to construct E-Mail messages.|

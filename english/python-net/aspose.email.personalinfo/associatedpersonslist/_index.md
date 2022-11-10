@@ -38,6 +38,6 @@ The AssociatedPersonsList type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/email/python-net/)
 

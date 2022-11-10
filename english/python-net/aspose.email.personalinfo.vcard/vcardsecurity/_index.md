@@ -15,7 +15,7 @@ The VCardSecurity type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardSecurity()|Initializes a new instance of the [VCardSecurity](/python-net/aspose.email.personalinfo.vcard/vcardsecurity/) class|
+|VCardSecurity()|Initializes a new instance of the [VCardSecurity](/email/python-net/aspose.email.personalinfo.vcard/vcardsecurity/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The VCardSecurity type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

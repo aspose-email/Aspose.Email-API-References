@@ -15,7 +15,7 @@ The MapiCalendarExceptionInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarExceptionInfo()|Initializes a new instance of the [MapiCalendarExceptionInfo](/python-net/aspose.email.mapi/mapicalendarexceptioninfo/) class.|
+|MapiCalendarExceptionInfo()|Initializes a new instance of the [MapiCalendarExceptionInfo](/email/python-net/aspose.email.mapi/mapicalendarexceptioninfo/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -36,6 +36,6 @@ The MapiCalendarExceptionInfo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

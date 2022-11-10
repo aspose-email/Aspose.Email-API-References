@@ -13,4 +13,4 @@ the aspose.email.antispam namespace provides classes <br/>            that repre
 ## Classes
 | Class | Description |
 | :- | :- |
-|[SpamAnalyzer](/python-net/aspose.email.antispam/spamanalyzer/)|Class which allows applications to detect spam e-mails with self-learning Bayesian filter.|
+|[SpamAnalyzer](/email/python-net/aspose.email.antispam/spamanalyzer/)|Class which allows applications to detect spam e-mails with self-learning Bayesian filter.|

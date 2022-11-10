@@ -23,6 +23,6 @@ Indicates the item type that retrieval failed during the traversal.
 
 ### See Also
 
-* namespace [aspose.email.exceptions](/python-net/aspose.email.exceptions/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.exceptions](/email/python-net/aspose.email.exceptions/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The AsposeException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AsposeException()|Initializes a new instance of the [AsposeException](/python-net/aspose.email/asposeexception/) class.|
+|AsposeException()|Initializes a new instance of the [AsposeException](/email/python-net/aspose.email/asposeexception/) class.|
 |AsposeException(message)|Initializes a new instance of the AsposeException class|
 |AsposeException(format, parameters)|Initializes a new instance of the AsposeException class|
 |AsposeException(format, parameter)|Initializes a new instance of the AsposeException class|
@@ -26,6 +26,6 @@ The AsposeException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

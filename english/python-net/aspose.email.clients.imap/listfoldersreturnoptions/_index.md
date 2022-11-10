@@ -20,6 +20,6 @@ Return options for ListFolders operation<br/>            Please note, this optio
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

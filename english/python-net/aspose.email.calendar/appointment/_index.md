@@ -45,7 +45,7 @@ The Appointment type exposes the following members:
 |sequence_id|Gets the sequence id.|
 |flags|Gets or sets appointment flags.|
 |method_type|Gets or sets the iCalendar object method type associated <br/>            with the calendar object.|
-|reminders|Contains collection of AppointmentReminder [AppointmentReminder](/python-net/aspose.email.calendar/appointmentreminder/) objects.|
+|reminders|Contains collection of AppointmentReminder [AppointmentReminder](/email/python-net/aspose.email.calendar/appointmentreminder/) objects.|
 |attachments|Gets the collection of attachments of appointment.|
 |start_time_zone|Start time zone|
 |end_time_zone|End time zone|
@@ -67,17 +67,17 @@ The Appointment type exposes the following members:
 |save(stream)|  |
 |save(stream, save_format)|  |
 |save(stream, save_options)|  |
-|load(file_path)|Loads [Appointment](/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
-|load(file_path, options)|Loads [Appointment](/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
-|load(stream)|Loads [Appointment](/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
-|load(stream, apply_local_time_zone)|Loads [Appointment](/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
-|load(stream, options)|Loads [Appointment](/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
+|load(file_path)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
+|load(file_path, options)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
+|load(stream)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
+|load(stream, apply_local_time_zone)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
+|load(stream, options)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
 |reset_time_zone()|  |
 |set_time_zone(tz_name)|  |
 |get_appointment_html()|  |
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

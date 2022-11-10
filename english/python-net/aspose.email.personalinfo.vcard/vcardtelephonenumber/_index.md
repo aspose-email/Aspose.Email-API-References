@@ -15,7 +15,7 @@ The VCardTelephoneNumber type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardTelephoneNumber()|Initializes a new instance of the [VCardTelephoneNumber](/python-net/aspose.email.personalinfo.vcard/vcardtelephonenumber/) class|
+|VCardTelephoneNumber()|Initializes a new instance of the [VCardTelephoneNumber](/email/python-net/aspose.email.personalinfo.vcard/vcardtelephonenumber/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The VCardTelephoneNumber type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

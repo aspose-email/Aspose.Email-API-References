@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi.msg/messageobjectpropertiescollection/
 
 ## MessageObjectPropertiesCollection class
 
-Represents a keyed collection for [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) objects.
+Represents a keyed collection for [MessageObjectProperty](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/) objects.
 
 The MessageObjectPropertiesCollection type exposes the following members:
 ## Constructors
@@ -23,6 +23,6 @@ The MessageObjectPropertiesCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

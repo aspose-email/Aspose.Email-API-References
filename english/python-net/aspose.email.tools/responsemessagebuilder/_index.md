@@ -26,6 +26,6 @@ The ResponseMessageBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools](/python-net/aspose.email.tools/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools](/email/python-net/aspose.email.tools/)
+* assembly [Aspose.Email](/email/python-net/)
 

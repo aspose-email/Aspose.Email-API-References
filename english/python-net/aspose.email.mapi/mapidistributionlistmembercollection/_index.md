@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapidistributionlistmembercollection/
 
 ## MapiDistributionListMemberCollection class
 
-Represents a collection of [MapiDistributionListMember](/python-net/aspose.email.mapi/mapidistributionlistmember/) objects.
+Represents a collection of [MapiDistributionListMember](/email/python-net/aspose.email.mapi/mapidistributionlistmember/) objects.
 
 The MapiDistributionListMemberCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The MapiDistributionListMemberCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

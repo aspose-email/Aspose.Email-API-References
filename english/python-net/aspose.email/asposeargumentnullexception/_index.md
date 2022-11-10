@@ -15,7 +15,7 @@ The AsposeArgumentNullException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AsposeArgumentNullException()|Initializes a new instance of the [AsposeArgumentNullException](/python-net/aspose.email/asposeargumentnullexception/) class.|
+|AsposeArgumentNullException()|Initializes a new instance of the [AsposeArgumentNullException](/email/python-net/aspose.email/asposeargumentnullexception/) class.|
 |AsposeArgumentNullException(message)|Initializes a new instance of the AsposeArgumentNullException class|
 |AsposeArgumentNullException(format, parameters)|Initializes a new instance of the AsposeArgumentNullException class|
 |AsposeArgumentNullException(format, parameters)|Initializes a new instance of the AsposeArgumentNullException class|
@@ -26,6 +26,6 @@ The AsposeArgumentNullException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

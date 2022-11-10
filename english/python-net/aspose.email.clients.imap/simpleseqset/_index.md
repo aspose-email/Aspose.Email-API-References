@@ -15,7 +15,7 @@ The SimpleSeqSet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SimpleSeqSet()|Initializes a new instance of the [SimpleSeqSet](/python-net/aspose.email.clients.imap/simpleseqset/) class.|
+|SimpleSeqSet()|Initializes a new instance of the [SimpleSeqSet](/email/python-net/aspose.email.clients.imap/simpleseqset/) class.|
 |SimpleSeqSet(value)|Initializes a new instance of the SimpleSeqSet class|
 ## Properties
 | Name | Description |
@@ -24,6 +24,6 @@ The SimpleSeqSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

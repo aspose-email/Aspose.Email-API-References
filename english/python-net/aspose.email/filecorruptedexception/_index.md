@@ -15,7 +15,7 @@ The FileCorruptedException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FileCorruptedException()|Initializes a new instance of the [FileCorruptedException](/python-net/aspose.email/filecorruptedexception/) class.|
+|FileCorruptedException()|Initializes a new instance of the [FileCorruptedException](/email/python-net/aspose.email/filecorruptedexception/) class.|
 |FileCorruptedException(message)|Initializes a new instance of the FileCorruptedException class|
 ## Properties
 | Name | Description |
@@ -24,6 +24,6 @@ The FileCorruptedException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

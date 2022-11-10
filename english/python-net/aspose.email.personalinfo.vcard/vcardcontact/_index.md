@@ -15,7 +15,7 @@ The VCardContact type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardContact()|Initializes a new instance of the [VCardContact](/python-net/aspose.email.personalinfo.vcard/vcardcontact/) class|
+|VCardContact()|Initializes a new instance of the [VCardContact](/email/python-net/aspose.email.personalinfo.vcard/vcardcontact/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -49,6 +49,6 @@ The VCardContact type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

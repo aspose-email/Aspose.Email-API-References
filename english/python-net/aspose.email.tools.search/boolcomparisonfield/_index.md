@@ -21,6 +21,6 @@ The BoolComparisonField type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -13,9 +13,9 @@ the aspose.email.clients.deliveryservice namespace contains<br/>            gene
 ## Classes
 | Class | Description |
 | :- | :- |
-|[DeliveryServiceClientFactory](/python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/)|Represents the to create DeliveryServiceClient|
-|[DeliveryServiceOptions](/python-net/aspose.email.clients.deliveryservice/deliveryserviceoptions/)|Options to set the DeliveryServiceClient parameters.|
-|[IDeliveryServiceClient](/python-net/aspose.email.clients.deliveryservice/ideliveryserviceclient/)|Represents contract for DeliveryServiceClient|
+|[DeliveryServiceClientFactory](/email/python-net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/)|Represents the to create DeliveryServiceClient|
+|[DeliveryServiceOptions](/email/python-net/aspose.email.clients.deliveryservice/deliveryserviceoptions/)|Options to set the DeliveryServiceClient parameters.|
+|[IDeliveryServiceClient](/email/python-net/aspose.email.clients.deliveryservice/ideliveryserviceclient/)|Represents contract for DeliveryServiceClient|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

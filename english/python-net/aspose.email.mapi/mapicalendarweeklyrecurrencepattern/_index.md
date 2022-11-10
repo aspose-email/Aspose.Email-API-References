@@ -15,7 +15,7 @@ The MapiCalendarWeeklyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarWeeklyRecurrencePattern()|Initializes a new instance of the [MapiCalendarWeeklyRecurrencePattern](/python-net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/) class|
+|MapiCalendarWeeklyRecurrencePattern()|Initializes a new instance of the [MapiCalendarWeeklyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -35,6 +35,6 @@ The MapiCalendarWeeklyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

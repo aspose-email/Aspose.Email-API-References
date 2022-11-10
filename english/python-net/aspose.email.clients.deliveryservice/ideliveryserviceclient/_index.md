@@ -15,6 +15,6 @@ The IDeliveryServiceClient type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice](/python-net/aspose.email.clients.deliveryservice/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.deliveryservice](/email/python-net/aspose.email.clients.deliveryservice/)
+* assembly [Aspose.Email](/email/python-net/)
 

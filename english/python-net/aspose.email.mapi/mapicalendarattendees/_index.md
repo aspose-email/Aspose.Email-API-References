@@ -15,7 +15,7 @@ The MapiCalendarAttendees type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarAttendees()|Initializes a new instance of the [MapiCalendarAttendees](/python-net/aspose.email.mapi/mapicalendarattendees/) class|
+|MapiCalendarAttendees()|Initializes a new instance of the [MapiCalendarAttendees](/email/python-net/aspose.email.mapi/mapicalendarattendees/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The MapiCalendarAttendees type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

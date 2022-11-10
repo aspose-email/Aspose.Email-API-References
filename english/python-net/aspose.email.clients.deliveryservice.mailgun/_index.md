@@ -13,9 +13,9 @@ the aspose.email.clients.deliveryservice.mailgun namespace provides<br/>        
 ## Classes
 | Class | Description |
 | :- | :- |
-|[MailgunClient](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/)|Represents the Mailgun client|
-|[MailgunClientOptions](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/)|Options to set the MailgunClient parameters.|
+|[MailgunClient](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/)|Represents the Mailgun client|
+|[MailgunClientOptions](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/)|Options to set the MailgunClient parameters.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[MailgunRegion](/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/)|Represents the Mailgun Region|
+|[MailgunRegion](/email/python-net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/)|Represents the Mailgun Region|

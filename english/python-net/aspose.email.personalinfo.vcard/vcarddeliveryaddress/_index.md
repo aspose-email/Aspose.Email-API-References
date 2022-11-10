@@ -15,7 +15,7 @@ The VCardDeliveryAddress type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardDeliveryAddress()|Initializes a new instance of the [VCardDeliveryAddress](/python-net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/) class|
+|VCardDeliveryAddress()|Initializes a new instance of the [VCardDeliveryAddress](/email/python-net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The VCardDeliveryAddress type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

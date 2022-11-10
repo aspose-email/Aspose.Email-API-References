@@ -24,6 +24,6 @@ Defines the possible versions of encryption protocols.
 
 ### See Also
 
-* namespace [aspose.email.clients.base](/python-net/aspose.email.clients.base/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.base](/email/python-net/aspose.email.clients.base/)
+* assembly [Aspose.Email](/email/python-net/)
 

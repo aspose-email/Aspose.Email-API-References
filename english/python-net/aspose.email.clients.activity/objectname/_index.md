@@ -15,7 +15,7 @@ The ObjectName type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ObjectName()|Initializes a new instance of the [ObjectName](/python-net/aspose.email.clients.activity/objectname/) class.|
+|ObjectName()|Initializes a new instance of the [ObjectName](/email/python-net/aspose.email.clients.activity/objectname/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The ObjectName type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/email/python-net/)
 

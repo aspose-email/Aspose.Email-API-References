@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/followupmanager/
 
 ## FollowUpManager class
 
-Provides the ability to set and handle follow-up Outlook flags and categories.<br/>            Supports the features to add and remove a flag in <br/>            [MapiMessage](/python-net/aspose.email.mapi/mapimessage/), and mark it as completed as well.
+Provides the ability to set and handle follow-up Outlook flags and categories.<br/>            Supports the features to add and remove a flag in <br/>            [MapiMessage](/email/python-net/aspose.email.mapi/mapimessage/), and mark it as completed as well.
 
 The FollowUpManager type exposes the following members:
 ## Methods
@@ -34,6 +34,6 @@ The FollowUpManager type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

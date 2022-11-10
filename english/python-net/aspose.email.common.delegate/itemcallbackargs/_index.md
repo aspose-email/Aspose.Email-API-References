@@ -23,6 +23,6 @@ The ItemCallbackArgs type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.common.delegate](/python-net/aspose.email.common.delegate/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.common.delegate](/email/python-net/aspose.email.common.delegate/)
+* assembly [Aspose.Email](/email/python-net/)
 

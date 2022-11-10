@@ -15,7 +15,7 @@ The VCardFullName type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardFullName()|Initializes a new instance of the [VCardFullName](/python-net/aspose.email.personalinfo.vcard/vcardfullname/) class|
+|VCardFullName()|Initializes a new instance of the [VCardFullName](/email/python-net/aspose.email.personalinfo.vcard/vcardfullname/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The VCardFullName type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

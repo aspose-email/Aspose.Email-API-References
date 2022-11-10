@@ -26,6 +26,6 @@ Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) met
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

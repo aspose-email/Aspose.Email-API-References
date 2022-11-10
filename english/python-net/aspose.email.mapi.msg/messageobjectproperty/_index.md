@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi.msg/messageobjectproperty/
 
 ## MessageObjectProperty class
 
-Represents a property on a [MessageObject](/python-net/aspose.email.mapi.msg/messageobject/).
+Represents a property on a [MessageObject](/email/python-net/aspose.email.mapi.msg/messageobject/).
 
 The MessageObjectProperty type exposes the following members:
 ## Constructors
@@ -23,13 +23,13 @@ The MessageObjectProperty type exposes the following members:
 |property_type|Gets the type of the property.|
 |flags|Gets the flags set on  a property.|
 |id|Gets the id of the property.|
-|property_tag|Gets the property tag, a combined value which contains [id](/python-net/aspose.email.mapi.msg/messageobjectproperty/) and [property_type](/python-net/aspose.email.mapi.msg/messageobjectproperty/)|
+|property_tag|Gets the property tag, a combined value which contains [id](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/) and [property_type](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/)|
 |guid|Gets or sets the GUID for the named property.|
 |property_kind|Gets or sets the kind of the property if it's named.|
 |name|Gets or sets the name of the property if it's named.|
 |name_id|Gets or sets the name id of the property if it's named.|
-|named|Gets a value indicating whether this [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) is a named property.|
-|atomic|Gets a value indicating whether this [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) is atomic.|
+|named|Gets a value indicating whether this [MessageObjectProperty](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/) is a named property.|
+|atomic|Gets a value indicating whether this [MessageObjectProperty](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/) is atomic.|
 |value|Gets or sets the value of the property.|
 ## Methods
 | Name | Description |
@@ -41,6 +41,6 @@ The MessageObjectProperty type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

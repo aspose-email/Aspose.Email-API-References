@@ -15,7 +15,7 @@ The ContentDisposition type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ContentDisposition()|Initializes a new instance of the [ContentDisposition](/python-net/aspose.email.mime/contentdisposition/) class.|
+|ContentDisposition()|Initializes a new instance of the [ContentDisposition](/email/python-net/aspose.email.mime/contentdisposition/) class.|
 |ContentDisposition(disposition)|Initializes a new instance of the ContentDisposition class|
 ## Properties
 | Name | Description |
@@ -31,6 +31,6 @@ The ContentDisposition type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/email/python-net/)
 

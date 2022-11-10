@@ -13,9 +13,9 @@ url: /python-net/aspose.email.clients.imap.models/
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ImapChangeMessageFlags](/python-net/aspose.email.clients.imap.models/imapchangemessageflags/)||
-|[ImapCopyMessages](/python-net/aspose.email.clients.imap.models/imapcopymessages/)|The|
-|[ImapDeleteMessages](/python-net/aspose.email.clients.imap.models/imapdeletemessages/)||
-|[ImapFetchMessages](/python-net/aspose.email.clients.imap.models/imapfetchmessages/)||
-|[ImapMoveMessages](/python-net/aspose.email.clients.imap.models/imapmovemessages/)||
-|[ImapUniqueIdParameterSet](/python-net/aspose.email.clients.imap.models/imapuniqueidparameterset/)|The [IAsyncImapClient](/python-net/aspose.email.clients.imap/iasyncimapclient/) method parameter set with the set of message unique identifiers.|
+|[ImapChangeMessageFlags](/email/python-net/aspose.email.clients.imap.models/imapchangemessageflags/)||
+|[ImapCopyMessages](/email/python-net/aspose.email.clients.imap.models/imapcopymessages/)|The|
+|[ImapDeleteMessages](/email/python-net/aspose.email.clients.imap.models/imapdeletemessages/)||
+|[ImapFetchMessages](/email/python-net/aspose.email.clients.imap.models/imapfetchmessages/)||
+|[ImapMoveMessages](/email/python-net/aspose.email.clients.imap.models/imapmovemessages/)||
+|[ImapUniqueIdParameterSet](/email/python-net/aspose.email.clients.imap.models/imapuniqueidparameterset/)|The [IAsyncImapClient](/email/python-net/aspose.email.clients.imap/iasyncimapclient/) method parameter set with the set of message unique identifiers.|

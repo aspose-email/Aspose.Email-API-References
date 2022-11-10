@@ -9,7 +9,7 @@ url: /python-net/aspose.email.calendar/appointmentremindercollection/
 
 ## AppointmentReminderCollection class
 
-Contains collection of AppointmentReminder [AppointmentReminder](/python-net/aspose.email.calendar/appointmentreminder/)objects.
+Contains collection of AppointmentReminder [AppointmentReminder](/email/python-net/aspose.email.calendar/appointmentreminder/)objects.
 
 The AppointmentReminderCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The AppointmentReminderCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

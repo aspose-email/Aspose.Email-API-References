@@ -13,8 +13,8 @@ the aspose.email.storage namespace contains classes for work with mail storages,
 ## Classes
 | Class | Description |
 | :- | :- |
-|[MailStorageConverter](/python-net/aspose.email.storage/mailstorageconverter/)|Mail storage converter provides services for storage conversion operations.|
-|[MailboxConverter](/python-net/aspose.email.storage/mailboxconverter/)|Provides mailbox conversion routines.|
+|[MailStorageConverter](/email/python-net/aspose.email.storage/mailstorageconverter/)|Mail storage converter provides services for storage conversion operations.|
+|[MailboxConverter](/email/python-net/aspose.email.storage/mailboxconverter/)|Provides mailbox conversion routines.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

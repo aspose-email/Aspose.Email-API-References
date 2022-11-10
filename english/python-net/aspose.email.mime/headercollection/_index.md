@@ -16,7 +16,7 @@ The HeaderCollection type exposes the following members:
 | Name | Description |
 | :- | :- |
 |HeaderCollection(col)|Initializes a new instance of the HeaderCollection class|
-|HeaderCollection()|Initializes a new instance of the [HeaderCollection](/python-net/aspose.email.mime/headercollection/) class.|
+|HeaderCollection()|Initializes a new instance of the [HeaderCollection](/email/python-net/aspose.email.mime/headercollection/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -43,6 +43,6 @@ The HeaderCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mime](/python-net/aspose.email.mime/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mime](/email/python-net/aspose.email.mime/)
+* assembly [Aspose.Email](/email/python-net/)
 

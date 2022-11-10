@@ -15,7 +15,7 @@ The MapiElectronicAddress type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiElectronicAddress()|Initializes a new instance of the [MapiElectronicAddress](/python-net/aspose.email.mapi/mapielectronicaddress/) class.|
+|MapiElectronicAddress()|Initializes a new instance of the [MapiElectronicAddress](/email/python-net/aspose.email.mapi/mapielectronicaddress/) class.|
 |MapiElectronicAddress(display_name, address_type, email_address)|Initializes a new instance of the MapiElectronicAddress class|
 |MapiElectronicAddress(email_address)|Initializes a new instance of the MapiElectronicAddress class|
 |MapiElectronicAddress(fax_number, email_address)|Initializes a new instance of the MapiElectronicAddress class|
@@ -31,6 +31,6 @@ The MapiElectronicAddress type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

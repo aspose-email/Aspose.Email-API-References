@@ -13,4 +13,4 @@ the aspose.email.common.delegate namespace provides common delegate types.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ItemCallbackArgs](/python-net/aspose.email.common.delegate/itemcallbackargs/)|ItemCallbackArgs contains item being processed.|
+|[ItemCallbackArgs](/email/python-net/aspose.email.common.delegate/itemcallbackargs/)|ItemCallbackArgs contains item being processed.|

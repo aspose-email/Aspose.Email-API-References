@@ -15,7 +15,7 @@ The MapiContactEventPropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactEventPropertySet()|Initializes a new instance of the [MapiContactEventPropertySet](/python-net/aspose.email.mapi/mapicontacteventpropertyset/) class|
+|MapiContactEventPropertySet()|Initializes a new instance of the [MapiContactEventPropertySet](/email/python-net/aspose.email.mapi/mapicontacteventpropertyset/) class|
 |MapiContactEventPropertySet(properties)|Initializes a new instance of the MapiContactEventPropertySet class|
 ## Properties
 | Name | Description |
@@ -25,6 +25,6 @@ The MapiContactEventPropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

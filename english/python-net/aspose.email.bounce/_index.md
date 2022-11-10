@@ -13,8 +13,8 @@ the aspose.email.bounce namespace provides classes for bounce messages handling.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[BounceResult](/python-net/aspose.email.bounce/bounceresult/)|Represents result of the message examination as a bounce message.|
+|[BounceResult](/email/python-net/aspose.email.bounce/bounceresult/)|Represents result of the message examination as a bounce message.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[DSNAction](/python-net/aspose.email.bounce/dsnaction/)|Indicates the action performed by the Reporting-MTA as a result of its attempt to deliver the message.|
+|[DSNAction](/email/python-net/aspose.email.bounce/dsnaction/)|Indicates the action performed by the Reporting-MTA as a result of its attempt to deliver the message.|

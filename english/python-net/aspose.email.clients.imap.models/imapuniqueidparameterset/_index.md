@@ -9,7 +9,7 @@ url: /python-net/aspose.email.clients.imap.models/imapuniqueidparameterset/
 
 ## ImapUniqueIdParameterSet class
 
-The [IAsyncImapClient](/python-net/aspose.email.clients.imap/iasyncimapclient/) method parameter set with the set of message unique identifiers.
+The [IAsyncImapClient](/email/python-net/aspose.email.clients.imap/iasyncimapclient/) method parameter set with the set of message unique identifiers.
 
 The ImapUniqueIdParameterSet type exposes the following members:
 ## Methods
@@ -23,6 +23,6 @@ The ImapUniqueIdParameterSet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap.models](/python-net/aspose.email.clients.imap.models/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap.models](/email/python-net/aspose.email.clients.imap.models/)
+* assembly [Aspose.Email](/email/python-net/)
 

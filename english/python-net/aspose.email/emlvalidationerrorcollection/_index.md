@@ -9,7 +9,7 @@ url: /python-net/aspose.email/emlvalidationerrorcollection/
 
 ## EmlValidationErrorCollection class
 
-Represents the collection of [EmlValidationError](/python-net/aspose.email/emlvalidationerror/)
+Represents the collection of [EmlValidationError](/email/python-net/aspose.email/emlvalidationerror/)
 
 The EmlValidationErrorCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The EmlValidationErrorCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

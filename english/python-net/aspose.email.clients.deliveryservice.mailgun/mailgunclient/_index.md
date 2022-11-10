@@ -19,6 +19,6 @@ The MailgunClient type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice.mailgun](/python-net/aspose.email.clients.deliveryservice.mailgun/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.deliveryservice.mailgun](/email/python-net/aspose.email.clients.deliveryservice.mailgun/)
+* assembly [Aspose.Email](/email/python-net/)
 

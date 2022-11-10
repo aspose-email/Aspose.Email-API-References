@@ -46,6 +46,6 @@ The O365EmailMessageActivity type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.activity](/python-net/aspose.email.clients.activity/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.activity](/email/python-net/aspose.email.clients.activity/)
+* assembly [Aspose.Email](/email/python-net/)
 

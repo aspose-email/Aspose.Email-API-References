@@ -43,6 +43,6 @@ A pre-set color enumeration that characterizes a categories, and that is mapped 
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/email/python-net/)
 

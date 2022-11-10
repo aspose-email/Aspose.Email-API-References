@@ -23,6 +23,6 @@ The SmtpSend type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp.models](/python-net/aspose.email.clients.smtp.models/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.smtp.models](/email/python-net/aspose.email.clients.smtp.models/)
+* assembly [Aspose.Email](/email/python-net/)
 

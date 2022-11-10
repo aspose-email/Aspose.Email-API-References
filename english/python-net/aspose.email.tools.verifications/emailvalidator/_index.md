@@ -29,6 +29,6 @@ The EmailValidator type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.verifications](/python-net/aspose.email.tools.verifications/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.verifications](/email/python-net/aspose.email.tools.verifications/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The FetchTimeoutException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FetchTimeoutException()|Initializes a new instance of the [FetchTimeoutException](/python-net/aspose.email.clients.imap/fetchtimeoutexception/) class.|
+|FetchTimeoutException()|Initializes a new instance of the [FetchTimeoutException](/email/python-net/aspose.email.clients.imap/fetchtimeoutexception/) class.|
 |FetchTimeoutException(message)|Initializes a new instance of the FetchTimeoutException class|
 ## Properties
 | Name | Description |
@@ -24,6 +24,6 @@ The FetchTimeoutException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

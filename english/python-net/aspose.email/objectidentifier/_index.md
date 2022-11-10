@@ -15,7 +15,7 @@ The ObjectIdentifier type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ObjectIdentifier()|Initialize a new instance of the [ObjectIdentifier](/python-net/aspose.email/objectidentifier/) class.|
+|ObjectIdentifier()|Initialize a new instance of the [ObjectIdentifier](/email/python-net/aspose.email/objectidentifier/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The ObjectIdentifier type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

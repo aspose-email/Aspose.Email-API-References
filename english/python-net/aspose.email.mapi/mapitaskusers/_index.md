@@ -15,7 +15,7 @@ The MapiTaskUsers type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiTaskUsers()|Initializes a new instance of the [MapiTaskUsers](/python-net/aspose.email.mapi/mapitaskusers/) class.|
+|MapiTaskUsers()|Initializes a new instance of the [MapiTaskUsers](/email/python-net/aspose.email.mapi/mapitaskusers/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The MapiTaskUsers type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

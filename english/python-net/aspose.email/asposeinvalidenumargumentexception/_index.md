@@ -15,7 +15,7 @@ The AsposeInvalidEnumArgumentException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AsposeInvalidEnumArgumentException()|Initializes a new instance of the [AsposeInvalidEnumArgumentException](/python-net/aspose.email/asposeinvalidenumargumentexception/) class.|
+|AsposeInvalidEnumArgumentException()|Initializes a new instance of the [AsposeInvalidEnumArgumentException](/email/python-net/aspose.email/asposeinvalidenumargumentexception/) class.|
 |AsposeInvalidEnumArgumentException(message)|Initializes a new instance of the AsposeInvalidEnumArgumentException class|
 |AsposeInvalidEnumArgumentException(format, parameters)|Initializes a new instance of the AsposeInvalidEnumArgumentException class|
 ## Properties
@@ -25,6 +25,6 @@ The AsposeInvalidEnumArgumentException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The MapiCalendarMsgSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarMsgSaveOptions()|Initializes a new instance of the [MapiCalendarMsgSaveOptions](/python-net/aspose.email.mapi/mapicalendarmsgsaveoptions/) class|
+|MapiCalendarMsgSaveOptions()|Initializes a new instance of the [MapiCalendarMsgSaveOptions](/email/python-net/aspose.email.mapi/mapicalendarmsgsaveoptions/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,6 +29,6 @@ The MapiCalendarMsgSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

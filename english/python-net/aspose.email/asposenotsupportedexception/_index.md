@@ -15,7 +15,7 @@ The AsposeNotSupportedException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AsposeNotSupportedException()|Initializes a new instance of the [AsposeNotSupportedException](/python-net/aspose.email/asposenotsupportedexception/) class.|
+|AsposeNotSupportedException()|Initializes a new instance of the [AsposeNotSupportedException](/email/python-net/aspose.email/asposenotsupportedexception/) class.|
 |AsposeNotSupportedException(message)|Initializes a new instance of the AsposeNotSupportedException class|
 |AsposeNotSupportedException(format, parameter)|Initializes a new instance of the AsposeNotSupportedException class|
 |AsposeNotSupportedException(format, parameters)|Initializes a new instance of the AsposeNotSupportedException class|
@@ -26,6 +26,6 @@ The AsposeNotSupportedException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

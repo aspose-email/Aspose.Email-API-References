@@ -29,6 +29,6 @@ The ImapDeleteMessages type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap.models](/python-net/aspose.email.clients.imap.models/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap.models](/email/python-net/aspose.email.clients.imap.models/)
+* assembly [Aspose.Email](/email/python-net/)
 

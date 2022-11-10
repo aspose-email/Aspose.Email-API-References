@@ -19,7 +19,7 @@ The TimeoutException type exposes the following members:
 |TimeoutException(format, parameters)|Initializes a new instance of the TimeoutException class|
 |TimeoutException(format, timeout)|Initializes a new instance of the TimeoutException class|
 |TimeoutException(format, command, timeout)|Initializes a new instance of the TimeoutException class|
-|TimeoutException()|Initializes a new instance of the [TimeoutException](/python-net/aspose.email/timeoutexception/) class.|
+|TimeoutException()|Initializes a new instance of the [TimeoutException](/email/python-net/aspose.email/timeoutexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The TimeoutException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

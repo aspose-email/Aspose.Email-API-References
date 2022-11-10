@@ -15,7 +15,7 @@ The YearlyRecurrencePattern type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](/python-net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/) class.|
+|YearlyRecurrencePattern()|Initializes a new instance of the [YearlyRecurrencePattern](/email/python-net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/) class.|
 |YearlyRecurrencePattern(start_offset, start_month)|Initializes a new instance of the YearlyRecurrencePattern class|
 |YearlyRecurrencePattern(start_day, start_month, start_position)|Initializes a new instance of the YearlyRecurrencePattern class|
 ## Properties
@@ -32,6 +32,6 @@ The YearlyRecurrencePattern type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/email/python-net/)
 

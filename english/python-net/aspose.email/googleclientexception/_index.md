@@ -16,7 +16,7 @@ The GoogleClientException type exposes the following members:
 | Name | Description |
 | :- | :- |
 |GoogleClientException(message)|Initializes a new instance of the GoogleClientException class|
-|GoogleClientException()|Initializes a new instance of the [GoogleClientException](/python-net/aspose.email/googleclientexception/) class.|
+|GoogleClientException()|Initializes a new instance of the [GoogleClientException](/email/python-net/aspose.email/googleclientexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The GoogleClientException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -29,6 +29,6 @@ The TgzReader type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.zimbra](/python-net/aspose.email.storage.zimbra/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.zimbra](/email/python-net/aspose.email.storage.zimbra/)
+* assembly [Aspose.Email](/email/python-net/)
 

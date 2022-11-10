@@ -27,6 +27,6 @@ The TemplateEngine type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.merging](/python-net/aspose.email.tools.merging/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.merging](/email/python-net/aspose.email.tools.merging/)
+* assembly [Aspose.Email](/email/python-net/)
 

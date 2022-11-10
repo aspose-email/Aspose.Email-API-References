@@ -15,7 +15,7 @@ The MailQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MailQueryBuilder()|Initializes a new instance of the [MailQueryBuilder](/python-net/aspose.email.tools.search/mailquerybuilder/) class.|
+|MailQueryBuilder()|Initializes a new instance of the [MailQueryBuilder](/email/python-net/aspose.email.tools.search/mailquerybuilder/) class.|
 |MailQueryBuilder(default_encoding)|Initializes a new instance of the MailQueryBuilder class|
 ## Properties
 | Name | Description |
@@ -38,6 +38,6 @@ The MailQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.search](/python-net/aspose.email.tools.search/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.search](/email/python-net/aspose.email.tools.search/)
+* assembly [Aspose.Email](/email/python-net/)
 

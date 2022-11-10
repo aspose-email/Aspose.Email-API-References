@@ -19,6 +19,6 @@ The SendGridClient type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.deliveryservice.sendgrid](/python-net/aspose.email.clients.deliveryservice.sendgrid/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.deliveryservice.sendgrid](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/)
+* assembly [Aspose.Email](/email/python-net/)
 

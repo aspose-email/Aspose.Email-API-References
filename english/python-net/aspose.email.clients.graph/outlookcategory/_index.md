@@ -15,7 +15,7 @@ The OutlookCategory type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|OutlookCategory()|Initializes a new instance of the [OutlookCategory](/python-net/aspose.email.clients.graph/outlookcategory/) class.|
+|OutlookCategory()|Initializes a new instance of the [OutlookCategory](/email/python-net/aspose.email.clients.graph/outlookcategory/) class.|
 |OutlookCategory(display_name, preset)|Initializes a new instance of the OutlookCategory class|
 |OutlookCategory(item_id, display_name, preset)|Initializes a new instance of the OutlookCategory class|
 ## Properties
@@ -28,6 +28,6 @@ The OutlookCategory type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/email/python-net/)
 

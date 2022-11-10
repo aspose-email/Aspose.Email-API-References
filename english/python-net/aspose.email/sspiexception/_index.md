@@ -17,7 +17,7 @@ The SSPIException type exposes the following members:
 | :- | :- |
 |SSPIException(message)|Initializes a new instance of the SSPIException class|
 |SSPIException(format, parameters)|Initializes a new instance of the SSPIException class|
-|SSPIException()|Initializes a new instance of the [SSPIException](/python-net/aspose.email/sspiexception/) class.|
+|SSPIException()|Initializes a new instance of the [SSPIException](/email/python-net/aspose.email/sspiexception/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -26,6 +26,6 @@ The SSPIException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

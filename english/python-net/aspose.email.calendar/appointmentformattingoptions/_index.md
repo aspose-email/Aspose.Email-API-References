@@ -15,7 +15,7 @@ The AppointmentFormattingOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppointmentFormattingOptions()|Initializes a new instance of the [AppointmentFormattingOptions](/python-net/aspose.email.calendar/appointmentformattingoptions/) class.|
+|AppointmentFormattingOptions()|Initializes a new instance of the [AppointmentFormattingOptions](/email/python-net/aspose.email.calendar/appointmentformattingoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -35,6 +35,6 @@ The AppointmentFormattingOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

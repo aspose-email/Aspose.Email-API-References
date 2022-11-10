@@ -13,4 +13,4 @@ the aspose.email.clients.base namespace contains<br/>            the basic types
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[EncryptionProtocols](/python-net/aspose.email.clients.base/encryptionprotocols/)|Defines the possible versions of encryption protocols.|
+|[EncryptionProtocols](/email/python-net/aspose.email.clients.base/encryptionprotocols/)|Defines the possible versions of encryption protocols.|

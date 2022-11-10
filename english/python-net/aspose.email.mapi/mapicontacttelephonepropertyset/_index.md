@@ -15,7 +15,7 @@ The MapiContactTelephonePropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactTelephonePropertySet()|Initializes a new instance of the [MapiContactTelephonePropertySet](/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/) class|
+|MapiContactTelephonePropertySet()|Initializes a new instance of the [MapiContactTelephonePropertySet](/email/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/) class|
 |MapiContactTelephonePropertySet(primary_telephone_number)|Initializes a new instance of the MapiContactTelephonePropertySet class|
 |MapiContactTelephonePropertySet(properties)|Initializes a new instance of the MapiContactTelephonePropertySet class|
 ## Properties
@@ -43,6 +43,6 @@ The MapiContactTelephonePropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

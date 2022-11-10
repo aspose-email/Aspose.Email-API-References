@@ -24,6 +24,6 @@ The SendMessagesResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.smtp](/python-net/aspose.email.clients.smtp/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.smtp](/email/python-net/aspose.email.clients.smtp/)
+* assembly [Aspose.Email](/email/python-net/)
 

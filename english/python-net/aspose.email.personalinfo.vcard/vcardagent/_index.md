@@ -15,7 +15,7 @@ The VCardAgent type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardAgent()|Initializes a new instance of the [VCardAgent](/python-net/aspose.email.personalinfo.vcard/vcardagent/) class|
+|VCardAgent()|Initializes a new instance of the [VCardAgent](/email/python-net/aspose.email.personalinfo.vcard/vcardagent/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The VCardAgent type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

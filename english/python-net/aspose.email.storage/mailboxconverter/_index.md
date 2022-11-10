@@ -15,6 +15,6 @@ The MailboxConverter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage](/python-net/aspose.email.storage/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage](/email/python-net/aspose.email.storage/)
+* assembly [Aspose.Email](/email/python-net/)
 

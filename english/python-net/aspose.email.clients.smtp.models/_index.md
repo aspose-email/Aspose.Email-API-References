@@ -13,5 +13,5 @@ url: /python-net/aspose.email.clients.smtp.models/
 ## Classes
 | Class | Description |
 | :- | :- |
-|[SmtpForward](/python-net/aspose.email.clients.smtp.models/smtpforward/)|The|
-|[SmtpSend](/python-net/aspose.email.clients.smtp.models/smtpsend/)||
+|[SmtpForward](/email/python-net/aspose.email.clients.smtp.models/smtpforward/)|The|
+|[SmtpSend](/email/python-net/aspose.email.clients.smtp.models/smtpsend/)||

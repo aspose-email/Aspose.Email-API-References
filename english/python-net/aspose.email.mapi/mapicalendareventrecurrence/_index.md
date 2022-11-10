@@ -15,7 +15,7 @@ The MapiCalendarEventRecurrence type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarEventRecurrence()|Initializes a new instance of the [MapiCalendarEventRecurrence](/python-net/aspose.email.mapi/mapicalendareventrecurrence/) class|
+|MapiCalendarEventRecurrence()|Initializes a new instance of the [MapiCalendarEventRecurrence](/email/python-net/aspose.email.mapi/mapicalendareventrecurrence/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -28,6 +28,6 @@ The MapiCalendarEventRecurrence type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

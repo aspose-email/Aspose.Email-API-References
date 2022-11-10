@@ -13,13 +13,13 @@ the aspose.email.clients.pop3 namespace provides classes to access<br/>         
 ## Classes
 | Class | Description |
 | :- | :- |
-|[IAsyncPop3Client](/python-net/aspose.email.clients.pop3/iasyncpop3client/)|Allows applications to access and manipulate <br/>            messages by using the Post Office Protocol Version 3 (POP3).|
-|[Pop3Client](/python-net/aspose.email.clients.pop3/pop3client/)|Allows applications to access and manipulate <br/>            messages by using the Post Office Protocol Version 3 (POP3).|
-|[Pop3MailboxInfo](/python-net/aspose.email.clients.pop3/pop3mailboxinfo/)|Represents the status of the mailbox.|
-|[Pop3MessageInfo](/python-net/aspose.email.clients.pop3/pop3messageinfo/)|The Pop3MessageInfo represents the E-Mail message info fetched from the Pop3 server.|
-|[Pop3MessageInfoCollection](/python-net/aspose.email.clients.pop3/pop3messageinfocollection/)|Represents the information of a mail message from Pop3 server.|
+|[IAsyncPop3Client](/email/python-net/aspose.email.clients.pop3/iasyncpop3client/)|Allows applications to access and manipulate <br/>            messages by using the Post Office Protocol Version 3 (POP3).|
+|[Pop3Client](/email/python-net/aspose.email.clients.pop3/pop3client/)|Allows applications to access and manipulate <br/>            messages by using the Post Office Protocol Version 3 (POP3).|
+|[Pop3MailboxInfo](/email/python-net/aspose.email.clients.pop3/pop3mailboxinfo/)|Represents the status of the mailbox.|
+|[Pop3MessageInfo](/email/python-net/aspose.email.clients.pop3/pop3messageinfo/)|The Pop3MessageInfo represents the E-Mail message info fetched from the Pop3 server.|
+|[Pop3MessageInfoCollection](/email/python-net/aspose.email.clients.pop3/pop3messageinfocollection/)|Represents the information of a mail message from Pop3 server.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[Pop3KnownAuthenticationType](/python-net/aspose.email.clients.pop3/pop3knownauthenticationtype/)||
-|[Pop3ListFields](/python-net/aspose.email.clients.pop3/pop3listfields/)|Fields that may be retrieved from the server|
+|[Pop3KnownAuthenticationType](/email/python-net/aspose.email.clients.pop3/pop3knownauthenticationtype/)||
+|[Pop3ListFields](/email/python-net/aspose.email.clients.pop3/pop3listfields/)|Fields that may be retrieved from the server|

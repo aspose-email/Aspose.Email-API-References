@@ -9,7 +9,7 @@ url: /python-net/aspose.email.calendar.recurrences/recurrencerulecollection/
 
 ## RecurrenceRuleCollection class
 
-Represents a collection of [RecurrenceRule](/python-net/aspose.email.calendar.recurrences/recurrencerule/) objects.
+Represents a collection of [RecurrenceRule](/email/python-net/aspose.email.calendar.recurrences/recurrencerule/) objects.
 
 The RecurrenceRuleCollection type exposes the following members:
 ## Methods
@@ -20,6 +20,6 @@ The RecurrenceRuleCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -28,6 +28,6 @@ The BounceResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.bounce](/python-net/aspose.email.bounce/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.bounce](/email/python-net/aspose.email.bounce/)
+* assembly [Aspose.Email](/email/python-net/)
 

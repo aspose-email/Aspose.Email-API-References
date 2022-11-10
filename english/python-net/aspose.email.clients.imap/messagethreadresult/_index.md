@@ -15,7 +15,7 @@ The MessageThreadResult type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MessageThreadResult()|Initializes a new instance of the [MessageThreadResult](/python-net/aspose.email.clients.imap/messagethreadresult/) class.|
+|MessageThreadResult()|Initializes a new instance of the [MessageThreadResult](/email/python-net/aspose.email.clients.imap/messagethreadresult/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The MessageThreadResult type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

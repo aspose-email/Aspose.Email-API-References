@@ -15,7 +15,7 @@ The MapiCalendar type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendar()|Initializes a new instance of the [MapiCalendar](/python-net/aspose.email.mapi/mapicalendar/) class|
+|MapiCalendar()|Initializes a new instance of the [MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/) class|
 |MapiCalendar(location, summary, description, start_date, end_date)|Initializes a new instance of the MapiCalendar class|
 |MapiCalendar(location, summary, description, start_date, end_date, organizer, attendees)|Initializes a new instance of the MapiCalendar class|
 |MapiCalendar(location, summary, description, start_date, end_date, organizer, attendees)|Initializes a new instance of the MapiCalendar class|
@@ -34,7 +34,7 @@ The MapiCalendar type exposes the following members:
 |subject_prefix|Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding.|
 |body_type|Gets the type of the body.|
 |body_rtf|Gets or sets the RTF formatted message text.|
-|body_html|Gets the [body_rtf](/python-net/aspose.email.mapi/mapimessageitembase/) of the message converted to HTML, if present, otherwise an empty string.|
+|body_html|Gets the [body_rtf](/email/python-net/aspose.email.mapi/mapimessageitembase/) of the message converted to HTML, if present, otherwise an empty string.|
 |companies|Contains the names of the companies that are associated with an item.|
 |categories|Contains keywords or categories for the message object.|
 |mileage|Contains the mileage information that is associated with an item.|
@@ -98,6 +98,6 @@ The MapiCalendar type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

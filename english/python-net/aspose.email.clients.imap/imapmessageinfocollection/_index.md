@@ -9,7 +9,7 @@ url: /python-net/aspose.email.clients.imap/imapmessageinfocollection/
 
 ## ImapMessageInfoCollection class
 
-Provides a container for a collection of [ImapMessageInfo](/python-net/aspose.email.clients.imap/imapmessageinfo/) objects
+Provides a container for a collection of [ImapMessageInfo](/email/python-net/aspose.email.clients.imap/imapmessageinfo/) objects
 
 The ImapMessageInfoCollection type exposes the following members:
 ## Constructors
@@ -28,6 +28,6 @@ The ImapMessageInfoCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

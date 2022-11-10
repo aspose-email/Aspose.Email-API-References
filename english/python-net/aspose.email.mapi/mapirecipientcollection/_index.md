@@ -15,7 +15,7 @@ The MapiRecipientCollection type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiRecipientCollection()|Initializes a new instance of the [MapiRecipientCollection](/python-net/aspose.email.mapi/mapirecipientcollection/) class.|
+|MapiRecipientCollection()|Initializes a new instance of the [MapiRecipientCollection](/email/python-net/aspose.email.mapi/mapirecipientcollection/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The MapiRecipientCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

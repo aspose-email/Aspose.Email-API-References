@@ -15,10 +15,10 @@ The CustomAttachmentStorage type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CustomAttachmentStorage()|Initializes a new instance of the [CustomAttachmentStorage](/python-net/aspose.email.mapi.msg/customattachmentstorage/) class.|
+|CustomAttachmentStorage()|Initializes a new instance of the [CustomAttachmentStorage](/email/python-net/aspose.email.mapi.msg/customattachmentstorage/) class.|
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

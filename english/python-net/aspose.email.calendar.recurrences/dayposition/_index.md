@@ -23,6 +23,6 @@ Day positions, typically found in a month.
 
 ### See Also
 
-* namespace [aspose.email.calendar.recurrences](/python-net/aspose.email.calendar.recurrences/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar.recurrences](/email/python-net/aspose.email.calendar.recurrences/)
+* assembly [Aspose.Email](/email/python-net/)
 

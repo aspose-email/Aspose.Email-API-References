@@ -15,7 +15,7 @@ The GraphQueryBuilder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GraphQueryBuilder()|Initializes a new instance of the [GraphQueryBuilder](/python-net/aspose.email.clients.graph/graphquerybuilder/) class.|
+|GraphQueryBuilder()|Initializes a new instance of the [GraphQueryBuilder](/email/python-net/aspose.email.clients.graph/graphquerybuilder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -38,6 +38,6 @@ The GraphQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/email/python-net/)
 

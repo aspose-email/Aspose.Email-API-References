@@ -22,6 +22,6 @@ The type of notification.
 
 ### See Also
 
-* namespace [aspose.email.clients.google](/python-net/aspose.email.clients.google/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.google](/email/python-net/aspose.email.clients.google/)
+* assembly [Aspose.Email](/email/python-net/)
 

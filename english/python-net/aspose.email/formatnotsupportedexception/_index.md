@@ -15,7 +15,7 @@ The FormatNotSupportedException type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FormatNotSupportedException()|Initializes a new instance of the [FormatNotSupportedException](/python-net/aspose.email/formatnotsupportedexception/) class.|
+|FormatNotSupportedException()|Initializes a new instance of the [FormatNotSupportedException](/email/python-net/aspose.email/formatnotsupportedexception/) class.|
 |FormatNotSupportedException(message)|Initializes a new instance of the FormatNotSupportedException class|
 ## Properties
 | Name | Description |
@@ -24,6 +24,6 @@ The FormatNotSupportedException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

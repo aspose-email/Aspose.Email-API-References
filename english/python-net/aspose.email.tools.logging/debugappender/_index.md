@@ -15,7 +15,7 @@ The DebugAppender type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DebugAppender()|Initializes a new instance of the [DebugAppender](/python-net/aspose.email.tools.logging/debugappender/) class.|
+|DebugAppender()|Initializes a new instance of the [DebugAppender](/email/python-net/aspose.email.tools.logging/debugappender/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The DebugAppender type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The StandardFormatter type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|StandardFormatter()|Initializes a new instance of the [StandardFormatter](/python-net/aspose.email.tools.logging/standardformatter/) class.|
+|StandardFormatter()|Initializes a new instance of the [StandardFormatter](/email/python-net/aspose.email.tools.logging/standardformatter/) class.|
 |StandardFormatter(header_text)|Initializes a new instance of the StandardFormatter class|
 ## Properties
 | Name | Description |
@@ -32,6 +32,6 @@ The StandardFormatter type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/email/python-net/)
 

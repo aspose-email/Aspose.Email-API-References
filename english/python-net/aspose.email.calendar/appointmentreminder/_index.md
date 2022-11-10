@@ -15,12 +15,12 @@ The AppointmentReminder type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppointmentReminder()|Initialize a new instance of [AppointmentReminder](/python-net/aspose.email.calendar/appointmentreminder/) class.|
+|AppointmentReminder()|Initialize a new instance of [AppointmentReminder](/email/python-net/aspose.email.calendar/appointmentreminder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
-|attendees|Contains collection of ReminderAttendee [ReminderAttendee](/python-net/aspose.email.calendar/reminderattendee/)objects.|
-|attachments|Contains collection of ReminderAttachment [ReminderAttachment](/python-net/aspose.email.calendar/reminderattachment/)objects.|
+|attendees|Contains collection of ReminderAttendee [ReminderAttendee](/email/python-net/aspose.email.calendar/reminderattendee/)objects.|
+|attachments|Contains collection of ReminderAttachment [ReminderAttachment](/email/python-net/aspose.email.calendar/reminderattachment/)objects.|
 |action|Defines the action to be invoked when an alarm is triggered.|
 |trigger|Specifies when an alarm will trigger.|
 |description|Provides a more complete description of the alarm.|
@@ -31,6 +31,6 @@ The AppointmentReminder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

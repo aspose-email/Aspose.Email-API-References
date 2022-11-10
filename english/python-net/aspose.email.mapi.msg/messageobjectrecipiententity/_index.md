@@ -15,7 +15,7 @@ The MessageObjectRecipientEntity type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MessageObjectRecipientEntity()|Initializes a new instance of the [MessageObjectRecipientEntity](/python-net/aspose.email.mapi.msg/messageobjectrecipiententity/) class.|
+|MessageObjectRecipientEntity()|Initializes a new instance of the [MessageObjectRecipientEntity](/email/python-net/aspose.email.mapi.msg/messageobjectrecipiententity/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -23,6 +23,6 @@ The MessageObjectRecipientEntity type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

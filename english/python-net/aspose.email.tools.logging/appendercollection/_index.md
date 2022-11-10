@@ -24,6 +24,6 @@ The AppenderCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.tools.logging](/python-net/aspose.email.tools.logging/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.tools.logging](/email/python-net/aspose.email.tools.logging/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi.msg/namedpropertykind/
 
 ## NamedPropertyKind enumeration
 
-Identifies [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobjectproperty/) kind.
+Identifies [MessageObjectProperty](/email/python-net/aspose.email.mapi.msg/messageobjectproperty/) kind.
 
 ## Members
 | Member name | Description |
@@ -19,6 +19,6 @@ Identifies [MessageObjectProperty](/python-net/aspose.email.mapi.msg/messageobje
 
 ### See Also
 
-* namespace [aspose.email.mapi.msg](/python-net/aspose.email.mapi.msg/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi.msg](/email/python-net/aspose.email.mapi.msg/)
+* assembly [Aspose.Email](/email/python-net/)
 

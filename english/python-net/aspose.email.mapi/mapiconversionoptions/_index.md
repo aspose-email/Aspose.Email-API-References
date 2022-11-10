@@ -15,7 +15,7 @@ The MapiConversionOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiConversionOptions()|Initializes a new instance of the [MapiConversionOptions](/python-net/aspose.email.mapi/mapiconversionoptions/) class.|
+|MapiConversionOptions()|Initializes a new instance of the [MapiConversionOptions](/email/python-net/aspose.email.mapi/mapiconversionoptions/) class.|
 |MapiConversionOptions(format)|Initializes a new instance of the MapiConversionOptions class|
 ## Properties
 | Name | Description |
@@ -32,6 +32,6 @@ The MapiConversionOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

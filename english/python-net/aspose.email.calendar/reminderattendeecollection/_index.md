@@ -9,7 +9,7 @@ url: /python-net/aspose.email.calendar/reminderattendeecollection/
 
 ## ReminderAttendeeCollection class
 
-Contains collection of ReminderAttendee [ReminderAttendee](/python-net/aspose.email.calendar/reminderattendee/)objects.
+Contains collection of ReminderAttendee [ReminderAttendee](/email/python-net/aspose.email.calendar/reminderattendee/)objects.
 
 The ReminderAttendeeCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The ReminderAttendeeCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

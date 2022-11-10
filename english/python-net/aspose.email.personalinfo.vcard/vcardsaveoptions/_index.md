@@ -15,7 +15,7 @@ The VCardSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardSaveOptions()|Initializes a new instance of the [VCardSaveOptions](/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/) class|
+|VCardSaveOptions()|Initializes a new instance of the [VCardSaveOptions](/email/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/) class|
 |VCardSaveOptions(version, use_extensions)|Initializes a new instance of the VCardSaveOptions class|
 |VCardSaveOptions(version)|Initializes a new instance of the VCardSaveOptions class|
 ## Properties
@@ -24,10 +24,10 @@ The VCardSaveOptions type exposes the following members:
 |save_format|Gets a save format|
 |version|Gets or sets a vCard version|
 |use_extensions|Gets or sets a value indicating whether the extended types can be used|
-|default|Gets default [VCardSaveOptions](/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/)|
+|default|Gets default [VCardSaveOptions](/email/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/)|
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

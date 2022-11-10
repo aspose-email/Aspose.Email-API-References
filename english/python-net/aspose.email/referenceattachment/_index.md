@@ -15,7 +15,7 @@ The ReferenceAttachment type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ReferenceAttachment()|Initializes a new instance of [ReferenceAttachment](/python-net/aspose.email/referenceattachment/).|
+|ReferenceAttachment()|Initializes a new instance of [ReferenceAttachment](/email/python-net/aspose.email/referenceattachment/).|
 |ReferenceAttachment(uri)|Initializes a new instance of the ReferenceAttachment class|
 |ReferenceAttachment(uri)|Initializes a new instance of the ReferenceAttachment class|
 ## Properties
@@ -46,6 +46,6 @@ The ReferenceAttachment type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

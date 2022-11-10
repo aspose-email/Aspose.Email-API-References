@@ -9,7 +9,7 @@ url: /python-net/aspose.email.calendar/reminderattachmentcollection/
 
 ## ReminderAttachmentCollection class
 
-Contains collection of ReminderAttachment [ReminderAttachment](/python-net/aspose.email.calendar/reminderattachment/)objects.
+Contains collection of ReminderAttachment [ReminderAttachment](/email/python-net/aspose.email.calendar/reminderattachment/)objects.
 
 The ReminderAttachmentCollection type exposes the following members:
 ## Constructors
@@ -19,6 +19,6 @@ The ReminderAttachmentCollection type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

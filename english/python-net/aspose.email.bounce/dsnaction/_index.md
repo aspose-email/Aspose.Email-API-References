@@ -23,6 +23,6 @@ Indicates the action performed by the Reporting-MTA as a result of its attempt t
 
 ### See Also
 
-* namespace [aspose.email.bounce](/python-net/aspose.email.bounce/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.bounce](/email/python-net/aspose.email.bounce/)
+* assembly [Aspose.Email](/email/python-net/)
 

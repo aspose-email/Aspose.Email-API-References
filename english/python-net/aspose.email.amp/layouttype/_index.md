@@ -25,6 +25,6 @@ The layout attribute gives you easy, per-element control over how your element s
 
 ### See Also
 
-* namespace [aspose.email.amp](/python-net/aspose.email.amp/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.amp](/email/python-net/aspose.email.amp/)
+* assembly [Aspose.Email](/email/python-net/)
 

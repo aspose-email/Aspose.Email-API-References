@@ -17,7 +17,7 @@ The SmtpException type exposes the following members:
 | :- | :- |
 |SmtpException(status_code)|Initializes a new instance of the SmtpException class|
 |SmtpException(status_code, message)|Initializes a new instance of the SmtpException class|
-|SmtpException()|Initializes a new instance of the [SmtpException](/python-net/aspose.email/smtpexception/) class|
+|SmtpException()|Initializes a new instance of the [SmtpException](/email/python-net/aspose.email/smtpexception/) class|
 |SmtpException(message)|Initializes a new instance of the SmtpException class|
 |SmtpException(message, result)|Initializes a new instance of the SmtpException class|
 |SmtpException(message, mail_message)|Initializes a new instance of the SmtpException class|
@@ -30,6 +30,6 @@ The SmtpException type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email](/python-net/aspose.email/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email](/email/python-net/aspose.email/)
+* assembly [Aspose.Email](/email/python-net/)
 

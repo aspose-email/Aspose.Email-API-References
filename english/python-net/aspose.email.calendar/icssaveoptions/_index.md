@@ -15,7 +15,7 @@ The IcsSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|IcsSaveOptions()|Initializes a new instance of the [IcsSaveOptions](/python-net/aspose.email.calendar/icssaveoptions/) class|
+|IcsSaveOptions()|Initializes a new instance of the [IcsSaveOptions](/email/python-net/aspose.email.calendar/icssaveoptions/) class|
 |IcsSaveOptions(method)|Initializes a new instance of the IcsSaveOptions class|
 ## Properties
 | Name | Description |
@@ -32,6 +32,6 @@ The IcsSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

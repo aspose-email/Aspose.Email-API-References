@@ -15,7 +15,7 @@ The MapiCalendarYearlyAndMonthlyRecurrencePattern type exposes the following mem
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarYearlyAndMonthlyRecurrencePattern()|Initializes a new instance of the [MapiCalendarYearlyAndMonthlyRecurrencePattern](/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/) class|
+|MapiCalendarYearlyAndMonthlyRecurrencePattern()|Initializes a new instance of the [MapiCalendarYearlyAndMonthlyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -37,6 +37,6 @@ The MapiCalendarYearlyAndMonthlyRecurrencePattern type exposes the following mem
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

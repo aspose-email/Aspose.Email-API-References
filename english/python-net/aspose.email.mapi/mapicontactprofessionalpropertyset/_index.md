@@ -15,7 +15,7 @@ The MapiContactProfessionalPropertySet type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactProfessionalPropertySet()|Initializes a new instance of the [MapiContactProfessionalPropertySet](/python-net/aspose.email.mapi/mapicontactprofessionalpropertyset/) class.|
+|MapiContactProfessionalPropertySet()|Initializes a new instance of the [MapiContactProfessionalPropertySet](/email/python-net/aspose.email.mapi/mapicontactprofessionalpropertyset/) class.|
 |MapiContactProfessionalPropertySet(company_name, title)|Initializes a new instance of the MapiContactProfessionalPropertySet class|
 |MapiContactProfessionalPropertySet(properties)|Initializes a new instance of the MapiContactProfessionalPropertySet class|
 ## Properties
@@ -31,6 +31,6 @@ The MapiContactProfessionalPropertySet type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

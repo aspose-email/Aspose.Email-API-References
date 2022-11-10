@@ -20,6 +20,6 @@ Compression types which are used by mail protocols
 
 ### See Also
 
-* namespace [aspose.email.clients](/python-net/aspose.email.clients/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients](/email/python-net/aspose.email.clients/)
+* assembly [Aspose.Email](/email/python-net/)
 

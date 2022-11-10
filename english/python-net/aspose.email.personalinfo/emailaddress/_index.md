@@ -15,7 +15,7 @@ The EmailAddress type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EmailAddress()|Initializes a new instance of the [EmailAddress](/python-net/aspose.email.personalinfo/emailaddress/) class.|
+|EmailAddress()|Initializes a new instance of the [EmailAddress](/email/python-net/aspose.email.personalinfo/emailaddress/) class.|
 |EmailAddress(address)|Initializes a new instance of the EmailAddress class|
 |EmailAddress(address, display_name)|Initializes a new instance of the EmailAddress class|
 ## Properties
@@ -46,6 +46,6 @@ The EmailAddress type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo](/python-net/aspose.email.personalinfo/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo](/email/python-net/aspose.email.personalinfo/)
+* assembly [Aspose.Email](/email/python-net/)
 

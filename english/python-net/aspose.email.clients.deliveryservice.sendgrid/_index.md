@@ -13,5 +13,5 @@ the aspose.email.clients.deliveryservice.sendgrid namespace provides<br/>       
 ## Classes
 | Class | Description |
 | :- | :- |
-|[SendGridClient](/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/)|Represents the SendGrid client|
-|[SendGridClientOptions](/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/)|Options to set the SendGridClient parameters.|
+|[SendGridClient](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/)|Represents the SendGrid client|
+|[SendGridClientOptions](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/)|Options to set the SendGridClient parameters.|

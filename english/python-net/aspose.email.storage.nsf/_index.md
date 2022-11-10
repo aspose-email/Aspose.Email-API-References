@@ -13,5 +13,5 @@ the aspose.email.storage.nsf namespace contains classes for work with nsf format
 ## Classes
 | Class | Description |
 | :- | :- |
-|[NotesStorageFacility](/python-net/aspose.email.storage.nsf/notesstoragefacility/)|The Notes Storage Facility (NSF) database file <br/>            is used by (IBM) Lotus Notes and Domino <br/>            to store different kind of objects like e-mail, <br/>            appointments and documents, <br/>            but also application forms and views.|
-|[NsfLoadOptions](/python-net/aspose.email.storage.nsf/nsfloadoptions/)|Specifies additional options when loading a NSF storage.|
+|[NotesStorageFacility](/email/python-net/aspose.email.storage.nsf/notesstoragefacility/)|The Notes Storage Facility (NSF) database file <br/>            is used by (IBM) Lotus Notes and Domino <br/>            to store different kind of objects like e-mail, <br/>            appointments and documents, <br/>            but also application forms and views.|
+|[NsfLoadOptions](/email/python-net/aspose.email.storage.nsf/nsfloadoptions/)|Specifies additional options when loading a NSF storage.|

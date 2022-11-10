@@ -15,7 +15,7 @@ The MapiCalendarTimeZoneRule type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiCalendarTimeZoneRule()|Initializes a new instance of the [MapiCalendarTimeZoneRule](/python-net/aspose.email.mapi/mapicalendartimezonerule/) class.|
+|MapiCalendarTimeZoneRule()|Initializes a new instance of the [MapiCalendarTimeZoneRule](/email/python-net/aspose.email.mapi/mapicalendartimezonerule/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The MapiCalendarTimeZoneRule type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

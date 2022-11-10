@@ -15,7 +15,7 @@ The VCardOrganization type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardOrganization()|Initializes a new instance of the [VCardOrganization](/python-net/aspose.email.personalinfo.vcard/vcardorganization/) class|
+|VCardOrganization()|Initializes a new instance of the [VCardOrganization](/email/python-net/aspose.email.personalinfo.vcard/vcardorganization/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +27,6 @@ The VCardOrganization type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

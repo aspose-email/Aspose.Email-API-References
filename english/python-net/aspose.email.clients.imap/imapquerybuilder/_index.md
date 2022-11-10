@@ -16,7 +16,7 @@ The ImapQueryBuilder type exposes the following members:
 | Name | Description |
 | :- | :- |
 |ImapQueryBuilder(default_encoding)|Initializes a new instance of the ImapQueryBuilder class|
-|ImapQueryBuilder()|Initializes a new instance of the [ImapQueryBuilder](/python-net/aspose.email.clients.imap/imapquerybuilder/) class.|
+|ImapQueryBuilder()|Initializes a new instance of the [ImapQueryBuilder](/email/python-net/aspose.email.clients.imap/imapquerybuilder/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -46,6 +46,6 @@ The ImapQueryBuilder type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.imap](/python-net/aspose.email.clients.imap/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.imap](/email/python-net/aspose.email.clients.imap/)
+* assembly [Aspose.Email](/email/python-net/)
 

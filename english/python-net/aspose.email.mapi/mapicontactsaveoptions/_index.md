@@ -15,7 +15,7 @@ The MapiContactSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiContactSaveOptions()|Initializes a new instance of the [MapiContactSaveOptions](/python-net/aspose.email.mapi/mapicontactsaveoptions/) class.|
+|MapiContactSaveOptions()|Initializes a new instance of the [MapiContactSaveOptions](/email/python-net/aspose.email.mapi/mapicontactsaveoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The MapiContactSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 

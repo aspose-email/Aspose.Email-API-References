@@ -34,6 +34,6 @@ The MboxStorageReader type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.mbox](/python-net/aspose.email.storage.mbox/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.mbox](/email/python-net/aspose.email.storage.mbox/)
+* assembly [Aspose.Email](/email/python-net/)
 

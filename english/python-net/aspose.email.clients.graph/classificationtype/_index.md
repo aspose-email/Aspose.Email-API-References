@@ -19,6 +19,6 @@ https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0<b
 
 ### See Also
 
-* namespace [aspose.email.clients.graph](/python-net/aspose.email.clients.graph/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.graph](/email/python-net/aspose.email.clients.graph/)
+* assembly [Aspose.Email](/email/python-net/)
 

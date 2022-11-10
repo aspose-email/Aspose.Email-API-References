@@ -15,7 +15,7 @@ The AppointmentMsgSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppointmentMsgSaveOptions()|Initializes a new instance of the [MsgSaveOptions](/python-net/aspose.email/msgsaveoptions/) class|
+|AppointmentMsgSaveOptions()|Initializes a new instance of the [MsgSaveOptions](/email/python-net/aspose.email/msgsaveoptions/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -23,6 +23,6 @@ The AppointmentMsgSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.calendar](/python-net/aspose.email.calendar/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.calendar](/email/python-net/aspose.email.calendar/)
+* assembly [Aspose.Email](/email/python-net/)
 

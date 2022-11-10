@@ -35,6 +35,6 @@ The OlmStorage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.storage.olm](/python-net/aspose.email.storage.olm/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.storage.olm](/email/python-net/aspose.email.storage.olm/)
+* assembly [Aspose.Email](/email/python-net/)
 

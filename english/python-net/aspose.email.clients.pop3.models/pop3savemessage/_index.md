@@ -24,6 +24,6 @@ The Pop3SaveMessage type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.clients.pop3.models](/python-net/aspose.email.clients.pop3.models/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.clients.pop3.models](/email/python-net/aspose.email.clients.pop3.models/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The VCardGeo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VCardGeo()|Initializes a new instance of the [VCardGeo](/python-net/aspose.email.personalinfo.vcard/vcardgeo/) class|
+|VCardGeo()|Initializes a new instance of the [VCardGeo](/email/python-net/aspose.email.personalinfo.vcard/vcardgeo/) class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The VCardGeo type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.personalinfo.vcard](/python-net/aspose.email.personalinfo.vcard/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.personalinfo.vcard](/email/python-net/aspose.email.personalinfo.vcard/)
+* assembly [Aspose.Email](/email/python-net/)
 

@@ -15,7 +15,7 @@ The WebDavContactSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WebDavContactSaveOptions()|Initializes a new instance of the [WebDavContactSaveOptions](/python-net/aspose.email.mapi/webdavcontactsaveoptions/) class.|
+|WebDavContactSaveOptions()|Initializes a new instance of the [WebDavContactSaveOptions](/email/python-net/aspose.email.mapi/webdavcontactsaveoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The WebDavContactSaveOptions type exposes the following members:
 
 ### See Also
 
-* namespace [aspose.email.mapi](/python-net/aspose.email.mapi/)
-* assembly [Aspose.Email](/python-net/)
+* namespace [aspose.email.mapi](/email/python-net/aspose.email.mapi/)
+* assembly [Aspose.Email](/email/python-net/)
 
