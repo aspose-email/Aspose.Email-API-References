@@ -1,10 +1,7 @@
 ---
 title: MapiPropertyContainer
 second_title: Aspose.Email for Java API Reference
-description:  Represents the base class for 
-  
-  
- .
+description: Represents the base class for      .
 type: docs
 weight: 456
 url: /java/com.aspose.email/mapipropertycontainer/
@@ -20,29 +17,90 @@ Represents the base class for [MapiAttachment](../../com.aspose.email/mapiattach
 
 | Method | Description |
 | --- | --- |
+| [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getCodePage()](#getCodePage--) | Gets the code page. |
 | [getProperties()](#getProperties--) | Gets the collection of properties. |
 | [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
-| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
-| [getCodePage()](#getCodePage--) | Gets the code page. |
-| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
-| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
-| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
-| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
-| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
+| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
 | [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the string value of the property specified by tag. |
-| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
+| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
 | [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the int32 value of the property specified by tag. |
 | [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of the property specified by tag as Long (int64) type. |
 | [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of the property specified by tag as Short type. |
-| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
-| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
+| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
+| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
+| [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
-| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
-| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
+| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
+| [toString()](#toString--) |  |
+| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
 | [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
-| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
 | [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of the specified property as Int32 type. |
-| [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
+| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
+| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
+| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
+| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
+| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### createMapiNode(String key) {#createMapiNode-java.lang.String-}
+```
+public IMapiNode createMapiNode(String key)
+```
+
+
+Creates the mapi node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.String | The node key. |
+
+**Returns:**
+com.aspose.email.IMapiNode - The IMapiNode interface.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCodePage() {#getCodePage--}
+```
+public int getCodePage()
+```
+
+
+Gets the code page.
+
+Value: The code page.
+
+**Returns:**
+int
 ### getProperties() {#getProperties--}
 ```
 public MapiPropertyCollection getProperties()
@@ -70,101 +128,13 @@ Gets MAPI property by property descriptor.
 
 **Returns:**
 [MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
-### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
+### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
 ```
-public void setProperty(PropertyDescriptor pd, Object value)
-```
-
-
-Sets MAPI property.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
-| value | java.lang.Object | The property data. |
-
-### getCodePage() {#getCodePage--}
-```
-public int getCodePage()
+public final Boolean getPropertyBoolean(long tag)
 ```
 
 
-Gets the code page.
-
-Value: The code page.
-
-**Returns:**
-int
-### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
-```
-public final String tryGetPropertyString(long tag, int codepage)
-```
-
-
-Try to get a property data as string with specified tag and code page.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tag | long | The property tag key. |
-| codepage | int | The code page. |
-
-**Returns:**
-java.lang.String - String that contains the contents of property data.
-### tryGetPropertyData(long tag) {#tryGetPropertyData-long-}
-```
-public final byte[] tryGetPropertyData(long tag)
-```
-
-
-Try to get the property data with specified tag key.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tag | long | The tag key. |
-
-**Returns:**
-byte[] - The property data.
-### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
-```
-public final String tryGetPropertyString(long tag)
-```
-
-
-Try to get a property data as string with specified tag.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tag | long | The property tag key. |
-
-**Returns:**
-java.lang.String - String that contains the contents of property data.
-### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
-```
-public final String getPropertyString(long tag, int codepage)
-```
-
-
-Gets the string value of the property specified by tag.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| codepage | int | The specified codepage used to get string value. |
-
-**Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
-### getPropertyString(long tag) {#getPropertyString-long-}
-```
-public final String getPropertyString(long tag)
-```
-
-
-Gets the string value of the property specified by tag.
+Gets the value of the property specified by tag as Boolean type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -172,7 +142,7 @@ Gets the string value of the property specified by tag.
 | tag | long | The MAPI property tag. |
 
 **Returns:**
-java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 ### getPropertyBytes(long tag) {#getPropertyBytes-long-}
 ```
 public final byte[] getPropertyBytes(long tag)
@@ -188,19 +158,21 @@ Gets the string value of the property specified by tag.
 
 **Returns:**
 byte[] - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
-### setProperty(MapiProperty value) {#setProperty-com.aspose.email.MapiProperty-}
+### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
 ```
-public void setProperty(MapiProperty value)
+public final Date getPropertyDateTime(long key)
 ```
 
 
-Sets the property.
+Gets the value of the property specified by tag as DateTime type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+| key | long | The MAPI property tag. |
 
+**Returns:**
+java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 ### getPropertyInt32(long tag) {#getPropertyInt32-long-}
 ```
 public final Integer getPropertyInt32(long tag)
@@ -246,13 +218,13 @@ Gets the value of the property specified by tag as Short type.
 
 **Returns:**
 java.lang.Short - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
-### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
+### getPropertyString(long tag) {#getPropertyString-long-}
 ```
-public final Boolean getPropertyBoolean(long tag)
+public final String getPropertyString(long tag)
 ```
 
 
-Gets the value of the property specified by tag as Boolean type.
+Gets the string value of the property specified by tag.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -260,22 +232,33 @@ Gets the value of the property specified by tag as Boolean type.
 | tag | long | The MAPI property tag. |
 
 **Returns:**
-java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
-### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
+java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
 ```
-public final Date getPropertyDateTime(long key)
+public final String getPropertyString(long tag, int codepage)
 ```
 
 
-Gets the value of the property specified by tag as DateTime type.
+Gets the string value of the property specified by tag.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | long | The MAPI property tag. |
+| tag | long | The MAPI property tag. |
+| codepage | int | The specified codepage used to get string value. |
 
 **Returns:**
-java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isStoreUnicodeOk() {#isStoreUnicodeOk--}
 ```
 public final boolean isStoreUnicodeOk()
@@ -286,39 +269,74 @@ Determines if string properties are Unicode encoded or not.
 
 **Returns:**
 boolean - True, if string properties are Unicode encoded.
-### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
+### notify() {#notify--}
 ```
-public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
+public final native void notify()
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setProperty(MapiProperty value) {#setProperty-com.aspose.email.MapiProperty-}
+```
+public void setProperty(MapiProperty value)
+```
+
+
+Sets the property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-| codepage | int | The specified codepage used to get string value. |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
 
-**Returns:**
-boolean - true if s was converted successfully; otherwise, false.
-### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
+### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
 ```
-public final boolean tryGetPropertyString(long tag, String[] value)
+public void setProperty(PropertyDescriptor pd, Object value)
 ```
 
 
-Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+Sets MAPI property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
+| value | java.lang.Object | The property data. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-boolean - true if s was converted successfully; otherwise, false.
+java.lang.String
+### tryGetPropertyData(long tag) {#tryGetPropertyData-long-}
+```
+public final byte[] tryGetPropertyData(long tag)
+```
+
+
+Try to get the property data with specified tag key.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The tag key. |
+
+**Returns:**
+byte[] - The property data.
 ### tryGetPropertyDateTime(long tag, Date[] value) {#tryGetPropertyDateTime-long-java.util.Date---}
 ```
 public final boolean tryGetPropertyDateTime(long tag, Date[] value)
@@ -332,22 +350,6 @@ Gets the value of the specified property as DateTime type. A return value indica
 | --- | --- | --- |
 | tag | long | The MAPI property tag. |
 | value | java.util.Date[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
-
-**Returns:**
-boolean - true if s was converted successfully; otherwise, false.
-### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
-```
-public final boolean tryGetPropertyLong(long tag, long[] value)
-```
-
-
-Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tag | long | The MAPI property tag. |
-| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
 **Returns:**
 boolean - true if s was converted successfully; otherwise, false.
@@ -367,18 +369,118 @@ Gets the value of the specified property as Int32 type. A return value indicates
 
 **Returns:**
 boolean - true if s was converted successfully; otherwise, false.
-### createMapiNode(String key) {#createMapiNode-java.lang.String-}
+### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
 ```
-public IMapiNode createMapiNode(String key)
+public final boolean tryGetPropertyLong(long tag, long[] value)
 ```
 
 
-Creates the mapi node.
+Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | java.lang.String | The node key. |
+| tag | long | The MAPI property tag. |
+| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
 **Returns:**
-com.aspose.email.IMapiNode - The IMapiNode interface.
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
+```
+public final String tryGetPropertyString(long tag)
+```
+
+
+Try to get a property data as string with specified tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The property tag key. |
+
+**Returns:**
+java.lang.String - String that contains the contents of property data.
+### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
+```
+public final String tryGetPropertyString(long tag, int codepage)
+```
+
+
+Try to get a property data as string with specified tag and code page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The property tag key. |
+| codepage | int | The code page. |
+
+**Returns:**
+java.lang.String - String that contains the contents of property data.
+### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
+```
+public final boolean tryGetPropertyString(long tag, String[] value)
+```
+
+
+Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
+```
+public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
+```
+
+
+Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| codepage | int | The specified codepage used to get string value. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

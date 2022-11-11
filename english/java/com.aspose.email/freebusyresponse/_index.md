@@ -1,7 +1,7 @@
 ---
 title: FreebusyResponse
 second_title: Aspose.Email for Java API Reference
-description:  Freebusy response
+description: Freebusy response
 type: docs
 weight: 268
 url: /java/com.aspose.email/freebusyresponse/
@@ -29,12 +29,21 @@ Freebusy response
 
 | Method | Description |
 | --- | --- |
-| [getTimeMin()](#getTimeMin--) | The start of the interval for the query. |
-| [setTimeMin(Date value)](#setTimeMin-java.util.Date-) | The start of the interval for the query. |
-| [getTimeMax()](#getTimeMax--) | The end of the interval for the query. |
-| [setTimeMax(Date value)](#setTimeMax-java.util.Date-) | The end of the interval for the query. |
-| [getGroups()](#getGroups--) | Expansion of groups. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalendars()](#getCalendars--) | List of free/busy information for calendars. |
+| [getClass()](#getClass--) |  |
+| [getGroups()](#getGroups--) | Expansion of groups. |
+| [getTimeMax()](#getTimeMax--) | The end of the interval for the query. |
+| [getTimeMin()](#getTimeMin--) | The start of the interval for the query. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setTimeMax(Date value)](#setTimeMax-java.util.Date-) | The end of the interval for the query. |
+| [setTimeMin(Date value)](#setTimeMin-java.util.Date-) | The start of the interval for the query. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### FreebusyResponse() {#FreebusyResponse--}
 ```
 public FreebusyResponse()
@@ -81,29 +90,51 @@ public static final String KIND
 
 Type of the resource 'calendar\#freeBusy'.
 
-### getTimeMin() {#getTimeMin--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final Date getTimeMin()
-```
-
-
-The start of the interval for the query.
-
-**Returns:**
-java.util.Date
-### setTimeMin(Date value) {#setTimeMin-java.util.Date-}
-```
-public final void setTimeMin(Date value)
+public boolean equals(Object arg0)
 ```
 
 
-The start of the interval for the query.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getCalendars() {#getCalendars--}
+```
+public final System.Collections.Generic.Dictionary<String,FreebusyCalendarInfo> getCalendars()
+```
+
+
+List of free/busy information for calendars.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,com.aspose.email.FreebusyCalendarInfo>
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getGroups() {#getGroups--}
+```
+public final System.Collections.Generic.Dictionary<String,FreebusyGroupInfo> getGroups()
+```
+
+
+Expansion of groups.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,com.aspose.email.FreebusyGroupInfo>
 ### getTimeMax() {#getTimeMax--}
 ```
 public final Date getTimeMax()
@@ -114,6 +145,42 @@ The end of the interval for the query.
 
 **Returns:**
 java.util.Date
+### getTimeMin() {#getTimeMin--}
+```
+public final Date getTimeMin()
+```
+
+
+The start of the interval for the query.
+
+**Returns:**
+java.util.Date
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setTimeMax(Date value) {#setTimeMax-java.util.Date-}
 ```
 public final void setTimeMax(Date value)
@@ -127,23 +194,61 @@ The end of the interval for the query.
 | --- | --- | --- |
 | value | java.util.Date |  |
 
-### getGroups() {#getGroups--}
+### setTimeMin(Date value) {#setTimeMin-java.util.Date-}
 ```
-public final System.Collections.Generic.Dictionary<String,FreebusyGroupInfo> getGroups()
+public final void setTimeMin(Date value)
 ```
 
 
-Expansion of groups.
+The start of the interval for the query.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,com.aspose.email.FreebusyGroupInfo>
-### getCalendars() {#getCalendars--}
+java.lang.String
+### wait() {#wait--}
 ```
-public final System.Collections.Generic.Dictionary<String,FreebusyCalendarInfo> getCalendars()
+public final void wait()
 ```
 
 
-List of free/busy information for calendars.
 
-**Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,com.aspose.email.FreebusyCalendarInfo>
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

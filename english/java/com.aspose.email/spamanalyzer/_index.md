@@ -1,7 +1,7 @@
 ---
 title: SpamAnalyzer
 second_title: Aspose.Email for Java API Reference
-description:  Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
+description: Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
 type: docs
 weight: 645
 url: /java/com.aspose.email/spamanalyzer/
@@ -24,15 +24,24 @@ Class which allows applications to detect spam e-mails with self-learning Bayesi
 
 | Method | Description |
 | --- | --- |
-| [trainFilter(MailMessage[] ham, MailMessage[] spam)](#trainFilter-com.aspose.email.MailMessage---com.aspose.email.MailMessage---) | Learns from the specified messages as from spam or non-spam source. |
-| [trainFilter(MailMessage message, boolean isSpam)](#trainFilter-com.aspose.email.MailMessage-boolean-) | Learns from the specified message as from spam or non-spam source. |
-| [trainFilter(String text, boolean isSpam)](#trainFilter-java.lang.String-boolean-) | Learns from the specified string as from spam or non-spam source. |
-| [test(MailMessage message)](#test-com.aspose.email.MailMessage-) | Analyses the message and returns the probability of the message being spam. |
-| [loadDatabase(String filePath)](#loadDatabase-java.lang.String-) | Loads Bayesian database from file. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
 | [loadDatabase(InputStream stream)](#loadDatabase-java.io.InputStream-) | Loads Bayesian database from stream. |
-| [saveDatabase(String filePath)](#saveDatabase-java.lang.String-) | Saves the Bayesian database to file. |
-| [saveDatabase(OutputStream stream)](#saveDatabase-java.io.OutputStream-) | Saves the Bayesian database to stream. |
+| [loadDatabase(String filePath)](#loadDatabase-java.lang.String-) | Loads Bayesian database from file. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [reset()](#reset--) | Clears all statistics (Bayesian database). |
+| [saveDatabase(OutputStream stream)](#saveDatabase-java.io.OutputStream-) | Saves the Bayesian database to stream. |
+| [saveDatabase(String filePath)](#saveDatabase-java.lang.String-) | Saves the Bayesian database to file. |
+| [test(MailMessage message)](#test-com.aspose.email.MailMessage-) | Analyses the message and returns the probability of the message being spam. |
+| [toString()](#toString--) |  |
+| [trainFilter(MailMessage message, boolean isSpam)](#trainFilter-com.aspose.email.MailMessage-boolean-) | Learns from the specified message as from spam or non-spam source. |
+| [trainFilter(MailMessage[] ham, MailMessage[] spam)](#trainFilter-com.aspose.email.MailMessage---com.aspose.email.MailMessage---) | Learns from the specified messages as from spam or non-spam source. |
+| [trainFilter(String text, boolean isSpam)](#trainFilter-java.lang.String-boolean-) | Learns from the specified string as from spam or non-spam source. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### SpamAnalyzer() {#SpamAnalyzer--}
 ```
 public SpamAnalyzer()
@@ -67,47 +76,116 @@ Initialize a new instance of the [SpamAnalyzer](../../com.aspose.email/spamanaly
 | --- | --- | --- |
 | filePath | java.lang.String | The full or relative path to the file containing Bayesian database. |
 
-### trainFilter(MailMessage[] ham, MailMessage[] spam) {#trainFilter-com.aspose.email.MailMessage---com.aspose.email.MailMessage---}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final void trainFilter(MailMessage[] ham, MailMessage[] spam)
+public boolean equals(Object arg0)
 ```
 
 
-Learns from the specified messages as from spam or non-spam source.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ham | com.aspose.email.MailMessage[] | The array of MailMessage objects that is non-spam for training the Bayesian filter. |
-| spam | com.aspose.email.MailMessage[] | The array of MailMessage objects that is spam for training the Bayesian filter. |
+| arg0 | java.lang.Object |  |
 
-### trainFilter(MailMessage message, boolean isSpam) {#trainFilter-com.aspose.email.MailMessage-boolean-}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final void trainFilter(MailMessage message, boolean isSpam)
+public final native Class<?> getClass()
 ```
 
 
-Learns from the specified message as from spam or non-spam source.
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### loadDatabase(InputStream stream) {#loadDatabase-java.io.InputStream-}
+```
+public final void loadDatabase(InputStream stream)
+```
+
+
+Loads Bayesian database from stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | [MailMessage](../../com.aspose.email/mailmessage) | A reference to the MailMessage object representing the message to train the Bayesian filter. |
-| isSpam | boolean | True if the message is a spam; false if it's a legitimate message. |
+| stream | java.io.InputStream | An input stream containing Bayesian database. |
 
-### trainFilter(String text, boolean isSpam) {#trainFilter-java.lang.String-boolean-}
+### loadDatabase(String filePath) {#loadDatabase-java.lang.String-}
 ```
-public final void trainFilter(String text, boolean isSpam)
+public final void loadDatabase(String filePath)
 ```
 
 
-Learns from the specified string as from spam or non-spam source.
+Loads Bayesian database from file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | A string value to train the Bayesian filter. |
-| isSpam | boolean | True if specified text is a spam; false if it's a legitimate text. |
+| filePath | java.lang.String | The full or relative path to the file containing Bayesian database. |
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### reset() {#reset--}
+```
+public final void reset()
+```
+
+
+Clears all statistics (Bayesian database).
+
+### saveDatabase(OutputStream stream) {#saveDatabase-java.io.OutputStream-}
+```
+public final void saveDatabase(OutputStream stream)
+```
+
+
+Saves the Bayesian database to stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | An output stream containing Bayesian database. |
+
+### saveDatabase(String filePath) {#saveDatabase-java.lang.String-}
+```
+public final void saveDatabase(String filePath)
+```
+
+
+Saves the Bayesian database to file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The full or relative path to the file containing Bayesian database. |
 
 ### test(MailMessage message) {#test-com.aspose.email.MailMessage-}
 ```
@@ -124,63 +202,90 @@ Analyses the message and returns the probability of the message being spam.
 
 **Returns:**
 double - A double value in 0-1 range, where 0 corresponds to "definitely non-spam" (0% spam probability) and 1 corresponds to "definitely spam" (100% spam probability).
-### loadDatabase(String filePath) {#loadDatabase-java.lang.String-}
+### toString() {#toString--}
 ```
-public final void loadDatabase(String filePath)
+public String toString()
 ```
 
 
-Loads Bayesian database from file.
+
+
+**Returns:**
+java.lang.String
+### trainFilter(MailMessage message, boolean isSpam) {#trainFilter-com.aspose.email.MailMessage-boolean-}
+```
+public final void trainFilter(MailMessage message, boolean isSpam)
+```
+
+
+Learns from the specified message as from spam or non-spam source.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The full or relative path to the file containing Bayesian database. |
+| message | [MailMessage](../../com.aspose.email/mailmessage) | A reference to the MailMessage object representing the message to train the Bayesian filter. |
+| isSpam | boolean | True if the message is a spam; false if it's a legitimate message. |
 
-### loadDatabase(InputStream stream) {#loadDatabase-java.io.InputStream-}
+### trainFilter(MailMessage[] ham, MailMessage[] spam) {#trainFilter-com.aspose.email.MailMessage---com.aspose.email.MailMessage---}
 ```
-public final void loadDatabase(InputStream stream)
+public final void trainFilter(MailMessage[] ham, MailMessage[] spam)
 ```
 
 
-Loads Bayesian database from stream.
+Learns from the specified messages as from spam or non-spam source.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | An input stream containing Bayesian database. |
+| ham | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage objects that is non-spam for training the Bayesian filter. |
+| spam | [MailMessage\[\]](../../com.aspose.email/mailmessage) | The array of MailMessage objects that is spam for training the Bayesian filter. |
 
-### saveDatabase(String filePath) {#saveDatabase-java.lang.String-}
+### trainFilter(String text, boolean isSpam) {#trainFilter-java.lang.String-boolean-}
 ```
-public final void saveDatabase(String filePath)
+public final void trainFilter(String text, boolean isSpam)
 ```
 
 
-Saves the Bayesian database to file.
+Learns from the specified string as from spam or non-spam source.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The full or relative path to the file containing Bayesian database. |
+| text | java.lang.String | A string value to train the Bayesian filter. |
+| isSpam | boolean | True if specified text is a spam; false if it's a legitimate text. |
 
-### saveDatabase(OutputStream stream) {#saveDatabase-java.io.OutputStream-}
+### wait() {#wait--}
 ```
-public final void saveDatabase(OutputStream stream)
+public final void wait()
 ```
 
 
-Saves the Bayesian database to stream.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | An output stream containing Bayesian database. |
+| arg0 | long |  |
 
-### reset() {#reset--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public final void reset()
+public final void wait(long arg0, int arg1)
 ```
 
 
-Clears all statistics (Bayesian database).
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

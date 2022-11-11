@@ -1,7 +1,7 @@
 ---
 title: DataRowCollection
 second_title: Aspose.Email for Java API Reference
-description: pDataRowCollection class.
+description: DataRowCollection class.
 type: docs
 weight: 140
 url: /java/com.aspose.email/datarowcollection/
@@ -25,14 +25,23 @@ DataRowCollection class.
 
 | Method | Description |
 | --- | --- |
-| [iterator()](#iterator--) | Gets Iterator |
-| [copyTo(System.Array arg0, int arg1)](#copyTo-com.aspose.ms.System.Array-int-) | \{@inheritDoc\} |
-| [getSyncRoot()](#getSyncRoot--) | Gets Sync Root |
-| [isSynchronized()](#isSynchronized--) | Defines is Synchronized |
-| [size()](#size--) | Gets Size |
-| [get(int i)](#get-int-) | get. |
 | [add(DataRow dataRow)](#add-com.aspose.email.DataRow-) | add. |
 | [add(Object[] objects)](#add-java.lang.Object---) | add. |
+| [copyTo(System.Array arg0, int arg1)](#copyTo-com.aspose.ms.System.Array-int-) | \{@inheritDoc\} |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int i)](#get-int-) | get. |
+| [getClass()](#getClass--) |  |
+| [getSyncRoot()](#getSyncRoot--) | Gets Sync Root |
+| [hashCode()](#hashCode--) |  |
+| [isSynchronized()](#isSynchronized--) | Defines is Synchronized |
+| [iterator()](#iterator--) | Gets Iterator |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [size()](#size--) | Gets Size |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### DataRowCollection(DataTable dataTable) {#DataRowCollection-com.aspose.email.DataTable-}
 ```
 public DataRowCollection(DataTable dataTable)
@@ -44,18 +53,34 @@ Constructor for DataRowCollection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.email/datatable) | a com.aspose.email.DataTable object. |
+| dataTable | [DataTable](../../com.aspose.email/datatable) | a [DataTable](../../com.aspose.email/datatable) object. |
 
-### iterator() {#iterator--}
+### add(DataRow dataRow) {#add-com.aspose.email.DataRow-}
 ```
-public System.Collections.IEnumerator<DataRow> iterator()
+public void add(DataRow dataRow)
 ```
 
 
-Gets Iterator
+add.
 
-**Returns:**
-com.aspose.ms.System.Collections.IEnumerator<com.aspose.email.DataRow> - an iterator.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataRow | [DataRow](../../com.aspose.email/datarow) | a [DataRow](../../com.aspose.email/datarow) object. |
+
+### add(Object[] objects) {#add-java.lang.Object---}
+```
+public void add(Object[] objects)
+```
+
+
+add.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| objects | java.lang.Object[] | an array of java.lang.Object objects. |
+
 ### copyTo(System.Array arg0, int arg1) {#copyTo-com.aspose.ms.System.Array-int-}
 ```
 public void copyTo(System.Array arg0, int arg1)
@@ -70,36 +95,21 @@ public void copyTo(System.Array arg0, int arg1)
 | arg0 | com.aspose.ms.System.Array |  |
 | arg1 | int |  |
 
-### getSyncRoot() {#getSyncRoot--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public Object getSyncRoot()
+public boolean equals(Object arg0)
 ```
 
 
-Gets Sync Root
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.Object - a object.
-### isSynchronized() {#isSynchronized--}
-```
-public boolean isSynchronized()
-```
-
-
-Defines is Synchronized
-
-**Returns:**
-boolean - a boolean.
-### size() {#size--}
-```
-public int size()
-```
-
-
-Gets Size
-
-**Returns:**
-int - an integer.
+boolean
 ### get(int i) {#get-int-}
 ```
 public DataRow get(int i)
@@ -114,30 +124,125 @@ get.
 | i | int | a int. |
 
 **Returns:**
-[DataRow](../../com.aspose.email/datarow) - a com.aspose.email.DataRow object.
-### add(DataRow dataRow) {#add-com.aspose.email.DataRow-}
+[DataRow](../../com.aspose.email/datarow) - a [DataRow](../../com.aspose.email/datarow) object.
+### getClass() {#getClass--}
 ```
-public void add(DataRow dataRow)
+public final native Class<?> getClass()
 ```
 
 
-add.
+
+
+**Returns:**
+java.lang.Class<?>
+### getSyncRoot() {#getSyncRoot--}
+```
+public Object getSyncRoot()
+```
+
+
+Gets Sync Root
+
+**Returns:**
+java.lang.Object - a object.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isSynchronized() {#isSynchronized--}
+```
+public boolean isSynchronized()
+```
+
+
+Defines is Synchronized
+
+**Returns:**
+boolean - a boolean.
+### iterator() {#iterator--}
+```
+public System.Collections.IEnumerator<DataRow> iterator()
+```
+
+
+Gets Iterator
+
+**Returns:**
+com.aspose.ms.System.Collections.IEnumerator<com.aspose.email.DataRow> - an iterator.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### size() {#size--}
+```
+public int size()
+```
+
+
+Gets Size
+
+**Returns:**
+int - an integer.
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataRow | [DataRow](../../com.aspose.email/datarow) | a com.aspose.email.DataRow object. |
+| arg0 | long |  |
 
-### add(Object[] objects) {#add-java.lang.Object---}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public void add(Object[] objects)
+public final void wait(long arg0, int arg1)
 ```
 
 
-add.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objects | java.lang.Object[] | an array of java.lang.Object objects. |
+| arg0 | long |  |
+| arg1 | int |  |
 

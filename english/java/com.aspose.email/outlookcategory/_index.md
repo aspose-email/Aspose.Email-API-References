@@ -1,7 +1,7 @@
 ---
 title: OutlookCategory
 second_title: Aspose.Email for Java API Reference
-description:  Represents a category by which a user can group Outlook items such as messages and events.
+description: Represents a category by which a user can group Outlook items such as messages and events.
 type: docs
 weight: 545
 url: /java/com.aspose.email/outlookcategory/
@@ -24,15 +24,23 @@ Represents a category by which a user can group Outlook items such as messages a
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--) | Category identifier |
-| [setId(String value)](#setId-java.lang.String-) | Category identifier |
-| [getDisplayName()](#getDisplayName--) | A unique name that identifies a category in the user's mailbox. |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | A unique name that identifies a category in the user's mailbox. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | String representation of a pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. |
-| [setColor(String value)](#setColor-java.lang.String-) | String representation of a pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. |
+| [getDisplayName()](#getDisplayName--) | A unique name that identifies a category in the user's mailbox. |
+| [getId()](#getId--) | Category identifier |
 | [getPreset()](#getPreset--) | A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setColor(String value)](#setColor-java.lang.String-) | String representation of a pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | A unique name that identifies a category in the user's mailbox. |
+| [setId(String value)](#setId-java.lang.String-) | Category identifier |
 | [setPreset(int value)](#setPreset-int-) | A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### OutlookCategory() {#OutlookCategory--}
 ```
 public OutlookCategory()
@@ -70,52 +78,31 @@ Initializes a new instance of the [OutlookCategory](../../com.aspose.email/outlo
 | displayName | java.lang.String | A unique name that identifies a category in the user's mailbox. |
 | preset | int | pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors |
 
-### getId() {#getId--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final String getId()
-```
-
-
-Category identifier
-
-**Returns:**
-java.lang.String
-### setId(String value) {#setId-java.lang.String-}
-```
-public final void setId(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Category identifier
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### getDisplayName() {#getDisplayName--}
-```
-public final String getDisplayName()
-```
-
-
-A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed.
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String
-### setDisplayName(String value) {#setDisplayName-java.lang.String-}
+boolean
+### getClass() {#getClass--}
 ```
-public final void setDisplayName(String value)
+public final native Class<?> getClass()
 ```
 
 
-A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public final String getColor()
@@ -126,6 +113,62 @@ String representation of a pre-set color constant that characterizes a category,
 
 **Returns:**
 java.lang.String
+### getDisplayName() {#getDisplayName--}
+```
+public final String getDisplayName()
+```
+
+
+A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed.
+
+**Returns:**
+java.lang.String
+### getId() {#getId--}
+```
+public final String getId()
+```
+
+
+Category identifier
+
+**Returns:**
+java.lang.String
+### getPreset() {#getPreset--}
+```
+public final int getPreset()
+```
+
+
+A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in.
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setColor(String value) {#setColor-java.lang.String-}
 ```
 public final void setColor(String value)
@@ -139,16 +182,32 @@ String representation of a pre-set color constant that characterizes a category,
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getPreset() {#getPreset--}
+### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
-public final int getPreset()
+public final void setDisplayName(String value)
 ```
 
 
-A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in.
+A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed.
 
-**Returns:**
-int
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setId(String value) {#setId-java.lang.String-}
+```
+public final void setId(String value)
+```
+
+
+Category identifier
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setPreset(int value) {#setPreset-int-}
 ```
 public final void setPreset(int value)
@@ -172,3 +231,38 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - A string that represents the current object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

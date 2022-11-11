@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRule
 second_title: Aspose.Email for Java API Reference
-description:  Represents one recurrence or exception rule in a recurrence pattern.
+description: Represents one recurrence or exception rule in a recurrence pattern.
 type: docs
 weight: 585
 url: /java/com.aspose.email/recurrencerule/
@@ -16,7 +16,7 @@ Represents one recurrence or exception rule in a recurrence pattern.
 
 --------------------
 
-```java
+```
 Corresponds to RRULE or EXRULE part in iCalendar.
  To construct a recurrence rule, you typically need to:
  1. Specify the type of the rule in ```
@@ -86,31 +86,38 @@ Until
 
 | Method | Description |
 | --- | --- |
-| [getFriendlyText()](#getFriendlyText--) | Gets user friendly text of rule. |
-| [getWeekStart()](#getWeekStart--) | Gets or sets the starting day of the week. |
-| [setWeekStart(int value)](#setWeekStart-int-) | Gets or sets the starting day of the week. |
-| [getFrequency()](#getFrequency--) | Gets or sets the type of the recurrence rule. |
-| [setFrequency(int value)](#setFrequency-int-) | Gets or sets the type of the recurrence rule. |
-| [getInterval()](#getInterval--) | Gets or sets the interval. |
-| [setInterval(int value)](#setInterval-int-) | Gets or sets the interval. |
-| [getEndType()](#getEndType--) | Gets or sets the end type. |
-| [setEndType(int value)](#setEndType-int-) | Gets or sets the end type. |
-| [getCount()](#getCount--) | Gets or sets the count. |
-| [setCount(int value)](#setCount-int-) | Gets or sets the count. |
-| [getUntil()](#getUntil--) | Gets or sets the until. |
-| [setUntil(Date value)](#setUntil-java.util.Date-) | Gets or sets the until. |
-| [getBySecond()](#getBySecond--) | Gets the by second. |
-| [getByMinute()](#getByMinute--) | Gets the by minute. |
-| [getByHour()](#getByHour--) | Gets the by hour. |
-| [getByMonth()](#getByMonth--) | Gets the by month. |
-| [getByDay()](#getByDay--) | Gets the by day. |
-| [getBySetPos()](#getBySetPos--) | Gets the by set pos. |
-| [getByMonthDay()](#getByMonthDay--) | Gets the by month day. |
-| [getByYearDay()](#getByYearDay--) | Gets the by year day. |
-| [getByWeekNo()](#getByWeekNo--) | Gets the by week no. |
 | [equals(RecurrenceRule other)](#equals-com.aspose.email.RecurrenceRule-) | Determines whether the specified [RecurrenceRule](../../com.aspose.email/recurrencerule) is equal to this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [getByDay()](#getByDay--) | Gets the by day. |
+| [getByHour()](#getByHour--) | Gets the by hour. |
+| [getByMinute()](#getByMinute--) | Gets the by minute. |
+| [getByMonth()](#getByMonth--) | Gets the by month. |
+| [getByMonthDay()](#getByMonthDay--) | Gets the by month day. |
+| [getBySecond()](#getBySecond--) | Gets the by second. |
+| [getBySetPos()](#getBySetPos--) | Gets the by set pos. |
+| [getByWeekNo()](#getByWeekNo--) | Gets the by week no. |
+| [getByYearDay()](#getByYearDay--) | Gets the by year day. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets or sets the count. |
+| [getEndType()](#getEndType--) | Gets or sets the end type. |
+| [getFrequency()](#getFrequency--) | Gets or sets the type of the recurrence rule. |
+| [getFriendlyText()](#getFriendlyText--) | Gets user friendly text of rule. |
+| [getInterval()](#getInterval--) | Gets or sets the interval. |
+| [getUntil()](#getUntil--) | Gets or sets the until. |
+| [getWeekStart()](#getWeekStart--) | Gets or sets the starting day of the week. |
 | [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setCount(int value)](#setCount-int-) | Gets or sets the count. |
+| [setEndType(int value)](#setEndType-int-) | Gets or sets the end type. |
+| [setFrequency(int value)](#setFrequency-int-) | Gets or sets the type of the recurrence rule. |
+| [setInterval(int value)](#setInterval-int-) | Gets or sets the interval. |
+| [setUntil(Date value)](#setUntil-java.util.Date-) | Gets or sets the until. |
+| [setWeekStart(int value)](#setWeekStart-int-) | Gets or sets the starting day of the week. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### RecurrenceRule() {#RecurrenceRule--}
 ```
 public RecurrenceRule()
@@ -119,282 +126,6 @@ public RecurrenceRule()
 
 Initializes a new instance of the [RecurrenceRule](../../com.aspose.email/recurrencerule) class.
 
-### getFriendlyText() {#getFriendlyText--}
-```
-public final String getFriendlyText()
-```
-
-
-Gets user friendly text of rule.
-
-**Returns:**
-java.lang.String
-### getWeekStart() {#getWeekStart--}
-```
-public final int getWeekStart()
-```
-
-
-Gets or sets the starting day of the week.
-
-**Returns:**
-int
-### setWeekStart(int value) {#setWeekStart-int-}
-```
-public final void setWeekStart(int value)
-```
-
-
-Gets or sets the starting day of the week.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getFrequency() {#getFrequency--}
-```
-public final int getFrequency()
-```
-
-
-Gets or sets the type of the recurrence rule.
-
-Value: The frequency.
-
-**Returns:**
-int
-### setFrequency(int value) {#setFrequency-int-}
-```
-public final void setFrequency(int value)
-```
-
-
-Gets or sets the type of the recurrence rule.
-
-Value: The frequency.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getInterval() {#getInterval--}
-```
-public final int getInterval()
-```
-
-
-Gets or sets the interval.
-
-Value: The interval.
-
-**Returns:**
-int
-### setInterval(int value) {#setInterval-int-}
-```
-public final void setInterval(int value)
-```
-
-
-Gets or sets the interval.
-
-Value: The interval.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getEndType() {#getEndType--}
-```
-public final int getEndType()
-```
-
-
-Gets or sets the end type.
-
-Value: The end type.
-
-**Returns:**
-int
-### setEndType(int value) {#setEndType-int-}
-```
-public final void setEndType(int value)
-```
-
-
-Gets or sets the end type.
-
-Value: The end type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getCount() {#getCount--}
-```
-public final int getCount()
-```
-
-
-Gets or sets the count.
-
-Value: The count.
-
-**Returns:**
-int
-### setCount(int value) {#setCount-int-}
-```
-public final void setCount(int value)
-```
-
-
-Gets or sets the count.
-
-Value: The count.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getUntil() {#getUntil--}
-```
-public final Date getUntil()
-```
-
-
-Gets or sets the until.
-
-Value: The until.
-
-**Returns:**
-java.util.Date
-### setUntil(Date value) {#setUntil-java.util.Date-}
-```
-public final void setUntil(Date value)
-```
-
-
-Gets or sets the until.
-
-Value: The until.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getBySecond() {#getBySecond--}
-```
-public final ByNumberCollection getBySecond()
-```
-
-
-Gets the by second.
-
-Value: The by second.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByMinute() {#getByMinute--}
-```
-public final ByNumberCollection getByMinute()
-```
-
-
-Gets the by minute.
-
-Value: The by minute.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByHour() {#getByHour--}
-```
-public final ByNumberCollection getByHour()
-```
-
-
-Gets the by hour.
-
-Value: The by hour.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByMonth() {#getByMonth--}
-```
-public final ByNumberCollection getByMonth()
-```
-
-
-Gets the by month.
-
-Value: The by month.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByDay() {#getByDay--}
-```
-public final ByDayCollection getByDay()
-```
-
-
-Gets the by day.
-
-Value: The by day.
-
-**Returns:**
-[ByDayCollection](../../com.aspose.email/bydaycollection)
-### getBySetPos() {#getBySetPos--}
-```
-public final ByNumberCollection getBySetPos()
-```
-
-
-Gets the by set pos.
-
-Value: The by set pos.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByMonthDay() {#getByMonthDay--}
-```
-public final ByNumberCollection getByMonthDay()
-```
-
-
-Gets the by month day.
-
-Value: The by month day.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByYearDay() {#getByYearDay--}
-```
-public final ByNumberCollection getByYearDay()
-```
-
-
-Gets the by year day.
-
-Value: The by year day.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
-### getByWeekNo() {#getByWeekNo--}
-```
-public final ByNumberCollection getByWeekNo()
-```
-
-
-Gets the by week no.
-
-Value: The by week no.
-
-**Returns:**
-[ByNumberCollection](../../com.aspose.email/bynumbercollection)
 ### equals(RecurrenceRule other) {#equals-com.aspose.email.RecurrenceRule-}
 ```
 public boolean equals(RecurrenceRule other)
@@ -409,7 +140,7 @@ Determines whether the specified [RecurrenceRule](../../com.aspose.email/recurre
 | other | [RecurrenceRule](../../com.aspose.email/recurrencerule) | The [RecurrenceRule](../../com.aspose.email/recurrencerule) to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified [RecurrenceRule](../../com.aspose.email/recurrencerule) is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified [RecurrenceRule](../../com.aspose.email/recurrencerule) is equal to this instance; otherwise,  false .
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -425,6 +156,204 @@ Determines whether the specified Object is equal to the current Object.
 
 **Returns:**
 boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+### getByDay() {#getByDay--}
+```
+public final ByDayCollection getByDay()
+```
+
+
+Gets the by day.
+
+Value: The by day.
+
+**Returns:**
+[ByDayCollection](../../com.aspose.email/bydaycollection)
+### getByHour() {#getByHour--}
+```
+public final ByNumberCollection getByHour()
+```
+
+
+Gets the by hour.
+
+Value: The by hour.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getByMinute() {#getByMinute--}
+```
+public final ByNumberCollection getByMinute()
+```
+
+
+Gets the by minute.
+
+Value: The by minute.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getByMonth() {#getByMonth--}
+```
+public final ByNumberCollection getByMonth()
+```
+
+
+Gets the by month.
+
+Value: The by month.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getByMonthDay() {#getByMonthDay--}
+```
+public final ByNumberCollection getByMonthDay()
+```
+
+
+Gets the by month day.
+
+Value: The by month day.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getBySecond() {#getBySecond--}
+```
+public final ByNumberCollection getBySecond()
+```
+
+
+Gets the by second.
+
+Value: The by second.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getBySetPos() {#getBySetPos--}
+```
+public final ByNumberCollection getBySetPos()
+```
+
+
+Gets the by set pos.
+
+Value: The by set pos.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getByWeekNo() {#getByWeekNo--}
+```
+public final ByNumberCollection getByWeekNo()
+```
+
+
+Gets the by week no.
+
+Value: The by week no.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getByYearDay() {#getByYearDay--}
+```
+public final ByNumberCollection getByYearDay()
+```
+
+
+Gets the by year day.
+
+Value: The by year day.
+
+**Returns:**
+[ByNumberCollection](../../com.aspose.email/bynumbercollection)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public final int getCount()
+```
+
+
+Gets or sets the count.
+
+Value: The count.
+
+**Returns:**
+int
+### getEndType() {#getEndType--}
+```
+public final int getEndType()
+```
+
+
+Gets or sets the end type.
+
+Value: The end type.
+
+**Returns:**
+int
+### getFrequency() {#getFrequency--}
+```
+public final int getFrequency()
+```
+
+
+Gets or sets the type of the recurrence rule.
+
+Value: The frequency.
+
+**Returns:**
+int
+### getFriendlyText() {#getFriendlyText--}
+```
+public final String getFriendlyText()
+```
+
+
+Gets user friendly text of rule.
+
+**Returns:**
+java.lang.String
+### getInterval() {#getInterval--}
+```
+public final int getInterval()
+```
+
+
+Gets or sets the interval.
+
+Value: The interval.
+
+**Returns:**
+int
+### getUntil() {#getUntil--}
+```
+public final Date getUntil()
+```
+
+
+Gets or sets the until.
+
+Value: The until.
+
+**Returns:**
+java.util.Date
+### getWeekStart() {#getWeekStart--}
+```
+public final int getWeekStart()
+```
+
+
+Gets or sets the starting day of the week.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -435,3 +364,152 @@ GetHashCode returns a hash function for this object.
 
 **Returns:**
 int - Returns a hash function for this object.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setCount(int value) {#setCount-int-}
+```
+public final void setCount(int value)
+```
+
+
+Gets or sets the count.
+
+Value: The count.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEndType(int value) {#setEndType-int-}
+```
+public final void setEndType(int value)
+```
+
+
+Gets or sets the end type.
+
+Value: The end type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setFrequency(int value) {#setFrequency-int-}
+```
+public final void setFrequency(int value)
+```
+
+
+Gets or sets the type of the recurrence rule.
+
+Value: The frequency.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setInterval(int value) {#setInterval-int-}
+```
+public final void setInterval(int value)
+```
+
+
+Gets or sets the interval.
+
+Value: The interval.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setUntil(Date value) {#setUntil-java.util.Date-}
+```
+public final void setUntil(Date value)
+```
+
+
+Gets or sets the until.
+
+Value: The until.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setWeekStart(int value) {#setWeekStart-int-}
+```
+public final void setWeekStart(int value)
+```
+
+
+Gets or sets the starting day of the week.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

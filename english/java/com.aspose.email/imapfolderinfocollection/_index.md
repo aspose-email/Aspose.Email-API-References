@@ -1,7 +1,7 @@
 ---
 title: ImapFolderInfoCollection
 second_title: Aspose.Email for Java API Reference
-description:  Provides a container for a collection of ImapFolderInfo objects.
+description: Provides a container for a collection of ImapFolderInfo objects.
 type: docs
 weight: 308
 url: /java/com.aspose.email/imapfolderinfocollection/
@@ -26,10 +26,33 @@ Provides a container for a collection of ImapFolderInfo objects.
 
 | Method | Description |
 | --- | --- |
-| [addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.email.ImapFolderInfo--) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
 | [add(ImapFolderInfo item)](#add-com.aspose.email.ImapFolderInfo-) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
-| [removeAt(int index)](#removeAt-int-) | Remove a folder info at specified index. |
+| [addItem(T arg0)](#addItem-T-) |  |
+| [addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders)](#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.email.ImapFolderInfo--) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
+| [clear()](#clear--) |  |
+| [containsItem(T arg0)](#containsItem-T-) |  |
+| [copyToTArray(T[] arg0, int arg1)](#copyToTArray-T---int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getICollection()](#getICollection--) |  |
+| [getIList()](#getIList--) |  |
 | [getSyncRoot()](#getSyncRoot--) | Gets an object that can be used to synchronize access to the collection. |
+| [get_Item(int arg0)](#get-Item-int-) |  |
+| [hashCode()](#hashCode--) |  |
+| [indexOfItem(T arg0)](#indexOfItem-T-) |  |
+| [insertItem(int arg0, T arg1)](#insertItem-int-T-) |  |
+| [isReadOnly()](#isReadOnly--) |  |
+| [iterator()](#iterator--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeAt(int index)](#removeAt-int-) | Remove a folder info at specified index. |
+| [removeItem(T arg0)](#removeItem-T-) |  |
+| [set_Item(int arg0, T arg1)](#set-Item-int-T-) |  |
+| [size()](#size--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ImapFolderInfoCollection() {#ImapFolderInfoCollection--}
 ```
 public ImapFolderInfoCollection()
@@ -49,20 +72,7 @@ Initializes a new instance of the ImapFolderInfoCollection class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folders | com.aspose.email.ImapFolderInfo[] | Initial folders |
-
-### addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.email.ImapFolderInfo--}
-```
-public final void addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders)
-```
-
-
-Adds the ImapFolderInfo to the ImapFolderInfoCollection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folders | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.ImapFolderInfo> | The ImapFolderInfo objects. |
+| folders | [ImapFolderInfo\[\]](../../com.aspose.email/imapfolderinfo) | Initial folders |
 
 ### add(ImapFolderInfo item) {#add-com.aspose.email.ImapFolderInfo-}
 ```
@@ -77,6 +87,214 @@ Adds the ImapFolderInfo to the ImapFolderInfoCollection.
 | --- | --- | --- |
 | item | [ImapFolderInfo](../../com.aspose.email/imapfolderinfo) | The ImapFolderInfo object. |
 
+### addItem(T arg0) {#addItem-T-}
+```
+public void addItem(T arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
+### addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders) {#addRange-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.email.ImapFolderInfo--}
+```
+public final void addRange(System.Collections.Generic.IGenericEnumerable<ImapFolderInfo> folders)
+```
+
+
+Adds the ImapFolderInfo to the ImapFolderInfoCollection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folders | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.ImapFolderInfo> | The ImapFolderInfo objects. |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+
+
+### containsItem(T arg0) {#containsItem-T-}
+```
+public boolean containsItem(T arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
+**Returns:**
+boolean
+### copyToTArray(T[] arg0, int arg1) {#copyToTArray-T---int-}
+```
+public void copyToTArray(T[] arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T[] |  |
+| arg1 | int |  |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getICollection() {#getICollection--}
+```
+public System.Collections.ICollection getICollection()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Collections.ICollection
+### getIList() {#getIList--}
+```
+public System.Collections.IList getIList()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Collections.IList
+### getSyncRoot() {#getSyncRoot--}
+```
+public final Object getSyncRoot()
+```
+
+
+Gets an object that can be used to synchronize access to the collection.
+
+**Returns:**
+java.lang.Object
+### get_Item(int arg0) {#get-Item-int-}
+```
+public T get_Item(int arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int |  |
+
+**Returns:**
+T
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### indexOfItem(T arg0) {#indexOfItem-T-}
+```
+public int indexOfItem(T arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
+**Returns:**
+int
+### insertItem(int arg0, T arg1) {#insertItem-int-T-}
+```
+public void insertItem(int arg0, T arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int |  |
+| arg1 | T |  |
+
+### isReadOnly() {#isReadOnly--}
+```
+public boolean isReadOnly()
+```
+
+
+
+
+**Returns:**
+boolean
+### iterator() {#iterator--}
+```
+public System.Collections.Generic.IGenericEnumerator<T> iterator()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<T>
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### removeAt(int index) {#removeAt-int-}
 ```
 public final void removeAt(int index)
@@ -90,13 +308,87 @@ Remove a folder info at specified index.
 | --- | --- | --- |
 | index | int | The zero-based index of the ImapFolderInfo to remove. |
 
-### getSyncRoot() {#getSyncRoot--}
+### removeItem(T arg0) {#removeItem-T-}
 ```
-public final Object getSyncRoot()
+public boolean removeItem(T arg0)
 ```
 
 
-Gets an object that can be used to synchronize access to the collection.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
 
 **Returns:**
-java.lang.Object
+boolean
+### set_Item(int arg0, T arg1) {#set-Item-int-T-}
+```
+public void set_Item(int arg0, T arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | int |  |
+| arg1 | T |  |
+
+### size() {#size--}
+```
+public int size()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

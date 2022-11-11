@@ -1,7 +1,7 @@
 ---
 title: MailPriority
 second_title: Aspose.Email for Java API Reference
-description:  Represents the mail priopity
+description: Represents the mail priopity
 type: docs
 weight: 753
 url: /java/com.aspose.email/mailpriority/
@@ -17,23 +17,37 @@ Represents the mail priopity
 
 | Field | Description |
 | --- | --- |
-| [Normal](#Normal) | Normal priority |
-| [Low](#Low) | Low priority |
 | [High](#High) | High priority |
+| [Low](#Low) | Low priority |
+| [Normal](#Normal) | Normal priority |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [values()](#values--) |  |
-| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) | Getter for the field `value`. |
-### Normal {#Normal}
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### High {#High}
 ```
-public static final MailPriority Normal
+public static final MailPriority High
 ```
 
 
-Normal priority
+High priority
 
 ### Low {#Low}
 ```
@@ -43,24 +57,146 @@ public static final MailPriority Low
 
 Low priority
 
-### High {#High}
+### Normal {#Normal}
 ```
-public static final MailPriority High
+public static final MailPriority Normal
 ```
 
 
-High priority
+Normal priority
 
-### values() {#values--}
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
-public static MailPriority[] values()
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
 ```
 
 
 
 
 **Returns:**
-com.aspose.email.MailPriority[]
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+Getter for the field `value`.
+
+**Returns:**
+int - a int.
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
 public static MailPriority valueOf(String name)
@@ -76,13 +212,48 @@ public static MailPriority valueOf(String name)
 
 **Returns:**
 [MailPriority](../../com.aspose.email/mailpriority)
-### getValue() {#getValue--}
+### values() {#values--}
 ```
-public int getValue()
+public static MailPriority[] values()
 ```
 
 
-Getter for the field `value`.
+
 
 **Returns:**
-int - a int.
+com.aspose.email.MailPriority[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

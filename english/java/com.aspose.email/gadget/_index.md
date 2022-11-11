@@ -1,7 +1,7 @@
 ---
 title: Gadget
 second_title: Aspose.Email for Java API Reference
-description:  A gadget that extends this event.
+description: A gadget that extends this event.
 type: docs
 weight: 270
 url: /java/com.aspose.email/gadget/
@@ -22,21 +22,30 @@ A gadget that extends this event.
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | The gadget's type. |
-| [setType(String value)](#setType-java.lang.String-) | The gadget's type. |
-| [getTitle()](#getTitle--) | The gadget's title. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | The gadget's title. |
-| [getLink()](#getLink--) | The gadget's URL. |
-| [setLink(String value)](#setLink-java.lang.String-) | The gadget's URL. |
-| [getIconLink()](#getIconLink--) | The gadget's icon URL. |
-| [setIconLink(String value)](#setIconLink-java.lang.String-) | The gadget's icon URL. |
-| [getWidth()](#getWidth--) | The gadget's width in pixels. |
-| [setWidth(int value)](#setWidth-int-) | The gadget's width in pixels. |
-| [getHeight()](#getHeight--) | The gadget's height in pixels. |
-| [setHeight(int value)](#setHeight-int-) | The gadget's height in pixels. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplay()](#getDisplay--) | The gadget's display mode. |
-| [setDisplay(String value)](#setDisplay-java.lang.String-) | The gadget's display mode. |
+| [getHeight()](#getHeight--) | The gadget's height in pixels. |
+| [getIconLink()](#getIconLink--) | The gadget's icon URL. |
+| [getLink()](#getLink--) | The gadget's URL. |
 | [getPreferences()](#getPreferences--) | The gadget's preferences |
+| [getTitle()](#getTitle--) | The gadget's title. |
+| [getType()](#getType--) | The gadget's type. |
+| [getWidth()](#getWidth--) | The gadget's width in pixels. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDisplay(String value)](#setDisplay-java.lang.String-) | The gadget's display mode. |
+| [setHeight(int value)](#setHeight-int-) | The gadget's height in pixels. |
+| [setIconLink(String value)](#setIconLink-java.lang.String-) | The gadget's icon URL. |
+| [setLink(String value)](#setLink-java.lang.String-) | The gadget's URL. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | The gadget's title. |
+| [setType(String value)](#setType-java.lang.String-) | The gadget's type. |
+| [setWidth(int value)](#setWidth-int-) | The gadget's width in pixels. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Gadget() {#Gadget--}
 ```
 public Gadget()
@@ -45,144 +54,31 @@ public Gadget()
 
 Initializes a new instance of the Gadget class.
 
-### getType() {#getType--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final String getType()
-```
-
-
-The gadget's type.
-
-**Returns:**
-java.lang.String
-### setType(String value) {#setType-java.lang.String-}
-```
-public final void setType(String value)
+public boolean equals(Object arg0)
 ```
 
 
-The gadget's type.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### getTitle() {#getTitle--}
-```
-public final String getTitle()
-```
-
-
-The gadget's title.
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String
-### setTitle(String value) {#setTitle-java.lang.String-}
+boolean
+### getClass() {#getClass--}
 ```
-public final void setTitle(String value)
-```
-
-
-The gadget's title.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getLink() {#getLink--}
-```
-public final String getLink()
+public final native Class<?> getClass()
 ```
 
 
-The gadget's URL.
+
 
 **Returns:**
-java.lang.String
-### setLink(String value) {#setLink-java.lang.String-}
-```
-public final void setLink(String value)
-```
-
-
-The gadget's URL.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getIconLink() {#getIconLink--}
-```
-public final String getIconLink()
-```
-
-
-The gadget's icon URL.
-
-**Returns:**
-java.lang.String
-### setIconLink(String value) {#setIconLink-java.lang.String-}
-```
-public final void setIconLink(String value)
-```
-
-
-The gadget's icon URL.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getWidth() {#getWidth--}
-```
-public final int getWidth()
-```
-
-
-The gadget's width in pixels.
-
-**Returns:**
-int
-### setWidth(int value) {#setWidth-int-}
-```
-public final void setWidth(int value)
-```
-
-
-The gadget's width in pixels.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getHeight() {#getHeight--}
-```
-public final int getHeight()
-```
-
-
-The gadget's height in pixels.
-
-**Returns:**
-int
-### setHeight(int value) {#setHeight-int-}
-```
-public final void setHeight(int value)
-```
-
-
-The gadget's height in pixels.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
+java.lang.Class<?>
 ### getDisplay() {#getDisplay--}
 ```
 public final String getDisplay()
@@ -193,6 +89,102 @@ The gadget's display mode. Optional. Possible values are: "icon" - The gadget di
 
 **Returns:**
 java.lang.String
+### getHeight() {#getHeight--}
+```
+public final int getHeight()
+```
+
+
+The gadget's height in pixels.
+
+**Returns:**
+int
+### getIconLink() {#getIconLink--}
+```
+public final String getIconLink()
+```
+
+
+The gadget's icon URL.
+
+**Returns:**
+java.lang.String
+### getLink() {#getLink--}
+```
+public final String getLink()
+```
+
+
+The gadget's URL.
+
+**Returns:**
+java.lang.String
+### getPreferences() {#getPreferences--}
+```
+public final System.Collections.Generic.Dictionary<String,String> getPreferences()
+```
+
+
+The gadget's preferences
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String>
+### getTitle() {#getTitle--}
+```
+public final String getTitle()
+```
+
+
+The gadget's title.
+
+**Returns:**
+java.lang.String
+### getType() {#getType--}
+```
+public final String getType()
+```
+
+
+The gadget's type.
+
+**Returns:**
+java.lang.String
+### getWidth() {#getWidth--}
+```
+public final int getWidth()
+```
+
+
+The gadget's width in pixels.
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setDisplay(String value) {#setDisplay-java.lang.String-}
 ```
 public final void setDisplay(String value)
@@ -206,13 +198,126 @@ The gadget's display mode. Optional. Possible values are: "icon" - The gadget di
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getPreferences() {#getPreferences--}
+### setHeight(int value) {#setHeight-int-}
 ```
-public final System.Collections.Generic.Dictionary<String,String> getPreferences()
+public final void setHeight(int value)
 ```
 
 
-The gadget's preferences
+The gadget's height in pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setIconLink(String value) {#setIconLink-java.lang.String-}
+```
+public final void setIconLink(String value)
+```
+
+
+The gadget's icon URL.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setLink(String value) {#setLink-java.lang.String-}
+```
+public final void setLink(String value)
+```
+
+
+The gadget's URL.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setTitle(String value) {#setTitle-java.lang.String-}
+```
+public final void setTitle(String value)
+```
+
+
+The gadget's title.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setType(String value) {#setType-java.lang.String-}
+```
+public final void setType(String value)
+```
+
+
+The gadget's type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setWidth(int value) {#setWidth-int-}
+```
+public final void setWidth(int value)
+```
+
+
+The gadget's width in pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.String,java.lang.String>
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

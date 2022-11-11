@@ -51,5 +51,18 @@ The API can be used on Windows OS for working with emailing file formats.
 These are links to useful resources:
 - [Aspose.Email for C++ API Reference](/email/cpp/)
 
+## Aspose.Email for Python via .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for Python via .NET](home_4.png)
+
+Aspose.Email for Python via .NET is a Python API that enables applications to read and write Microsoft Outlook® documents without using Microsoft Outlook®. Aspose.Email provides a number of key features such as managing recipients, subject, body, attachments in Microsoft Outlook® MSG documents and reading contacts, messages and folder information from Microsoft Outlook® PST documents. It can also be used to create, modify and convert email messages in EML, MSG and MHT formats.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+- [Aspose.Email for Python via .NET API Reference](/email/python-net/)
+
 
 
