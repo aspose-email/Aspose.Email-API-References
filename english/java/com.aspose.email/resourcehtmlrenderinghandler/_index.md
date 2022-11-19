@@ -6,6 +6,7 @@ type: docs
 weight: 601
 url: /java/com.aspose.email/resourcehtmlrenderinghandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

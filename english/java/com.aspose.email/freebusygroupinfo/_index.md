@@ -6,6 +6,7 @@ type: docs
 weight: 266
 url: /java/com.aspose.email/freebusygroupinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

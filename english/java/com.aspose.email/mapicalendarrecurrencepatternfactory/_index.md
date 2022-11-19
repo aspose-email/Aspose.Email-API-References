@@ -6,6 +6,7 @@ type: docs
 weight: 404
 url: /java/com.aspose.email/mapicalendarrecurrencepatternfactory/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

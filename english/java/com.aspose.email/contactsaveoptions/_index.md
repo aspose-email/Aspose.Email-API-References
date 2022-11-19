@@ -6,6 +6,7 @@ type: docs
 weight: 124
 url: /java/com.aspose.email/contactsaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

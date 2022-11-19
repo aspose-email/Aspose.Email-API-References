@@ -6,6 +6,7 @@ type: docs
 weight: 444
 url: /java/com.aspose.email/mapimessageflags/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 680
 url: /java/com.aspose.email/updatesettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

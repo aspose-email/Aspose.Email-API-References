@@ -6,6 +6,7 @@ type: docs
 weight: 144
 url: /java/com.aspose.email/datecomparisontype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

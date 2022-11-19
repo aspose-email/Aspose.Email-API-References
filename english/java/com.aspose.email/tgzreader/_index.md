@@ -6,6 +6,7 @@ type: docs
 weight: 665
 url: /java/com.aspose.email/tgzreader/
 ---
+
 **Inheritance:**
 java.lang.Object
 

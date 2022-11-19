@@ -6,6 +6,7 @@ type: docs
 weight: 424
 url: /java/com.aspose.email/mapicontactphoto/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ContactPhoto](../../com.aspose.email/contactphoto)
 ```

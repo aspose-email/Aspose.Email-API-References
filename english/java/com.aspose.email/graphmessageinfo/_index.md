@@ -6,6 +6,7 @@ type: docs
 weight: 284
 url: /java/com.aspose.email/graphmessageinfo/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MessageInfoBase](../../com.aspose.email/messageinfobase)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 649
 url: /java/com.aspose.email/storageprocessedeventhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

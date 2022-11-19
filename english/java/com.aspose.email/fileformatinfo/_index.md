@@ -6,6 +6,7 @@ type: docs
 weight: 248
 url: /java/com.aspose.email/fileformatinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

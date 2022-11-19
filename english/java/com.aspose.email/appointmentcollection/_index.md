@@ -6,6 +6,7 @@ type: docs
 weight: 34
 url: /java/com.aspose.email/appointmentcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

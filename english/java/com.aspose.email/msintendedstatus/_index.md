@@ -6,6 +6,7 @@ type: docs
 weight: 363
 url: /java/com.aspose.email/msintendedstatus/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

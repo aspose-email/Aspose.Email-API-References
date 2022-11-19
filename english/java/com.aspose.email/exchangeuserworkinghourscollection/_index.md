@@ -6,6 +6,7 @@ type: docs
 weight: 234
 url: /java/com.aspose.email/exchangeuserworkinghourscollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

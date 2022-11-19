@@ -6,6 +6,7 @@ type: docs
 weight: 87
 url: /java/com.aspose.email/bydaycollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

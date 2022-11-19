@@ -6,6 +6,7 @@ type: docs
 weight: 88
 url: /java/com.aspose.email/bynumbercollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

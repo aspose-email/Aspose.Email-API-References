@@ -5,7 +5,8 @@ description: Interface of named mapi property tag provider.
 type: docs
 weight: 748
 url: /java/com.aspose.email/inamedpropertytagprovider/
----```
+---
+```
 public interface INamedPropertyTagProvider
 ```
 

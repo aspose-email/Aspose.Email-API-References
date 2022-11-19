@@ -6,6 +6,7 @@ type: docs
 weight: 739
 url: /java/com.aspose.email/igraphclient/
 ---
+
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable
 ```

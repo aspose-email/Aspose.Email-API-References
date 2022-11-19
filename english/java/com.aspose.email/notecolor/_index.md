@@ -6,6 +6,7 @@ type: docs
 weight: 523
 url: /java/com.aspose.email/notecolor/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

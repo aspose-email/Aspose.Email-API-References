@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /java/com.aspose.email/linkedresourceremovedeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

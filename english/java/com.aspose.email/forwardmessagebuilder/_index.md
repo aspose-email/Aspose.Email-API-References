@@ -6,6 +6,7 @@ type: docs
 weight: 264
 url: /java/com.aspose.email/forwardmessagebuilder/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ResponseMessageBuilder](../../com.aspose.email/responsemessagebuilder)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 648
 url: /java/com.aspose.email/storageprocessedeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

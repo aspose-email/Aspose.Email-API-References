@@ -6,6 +6,7 @@ type: docs
 weight: 158
 url: /java/com.aspose.email/dispositiontypenames/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

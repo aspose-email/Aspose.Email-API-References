@@ -6,6 +6,7 @@ type: docs
 weight: 696
 url: /java/com.aspose.email/vcardemailcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

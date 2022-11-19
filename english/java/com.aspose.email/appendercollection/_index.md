@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /java/com.aspose.email/appendercollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

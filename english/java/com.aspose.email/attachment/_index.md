@@ -6,6 +6,7 @@ type: docs
 weight: 64
 url: /java/com.aspose.email/attachment/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.AttachmentBase](../../com.aspose.email/attachmentbase)
 

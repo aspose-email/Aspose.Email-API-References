@@ -6,6 +6,7 @@ type: docs
 weight: 175
 url: /java/com.aspose.email/emlxloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadoptions)
 ```

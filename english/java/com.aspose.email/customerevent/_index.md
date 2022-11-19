@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /java/com.aspose.email/customerevent/
 ---
+
 **Inheritance:**
 java.lang.Object
 

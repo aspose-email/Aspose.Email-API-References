@@ -6,6 +6,7 @@ type: docs
 weight: 413
 url: /java/com.aspose.email/mapicalendarweeklyrecurrencepattern/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MapiCalendarRecurrencePattern](../../com.aspose.email/mapicalendarrecurrencepattern)
 ```

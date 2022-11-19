@@ -6,6 +6,7 @@ type: docs
 weight: 339
 url: /java/com.aspose.email/itemcallbackargs/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

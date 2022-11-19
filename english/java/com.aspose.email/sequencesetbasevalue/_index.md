@@ -6,6 +6,7 @@ type: docs
 weight: 626
 url: /java/com.aspose.email/sequencesetbasevalue/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

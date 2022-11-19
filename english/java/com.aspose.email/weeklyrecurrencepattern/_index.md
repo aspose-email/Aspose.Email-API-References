@@ -6,6 +6,7 @@ type: docs
 weight: 723
 url: /java/com.aspose.email/weeklyrecurrencepattern/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.RecurrencePattern](../../com.aspose.email/recurrencepattern)
 ```

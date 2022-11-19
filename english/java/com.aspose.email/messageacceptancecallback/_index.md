@@ -6,6 +6,7 @@ type: docs
 weight: 485
 url: /java/com.aspose.email/messageacceptancecallback/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

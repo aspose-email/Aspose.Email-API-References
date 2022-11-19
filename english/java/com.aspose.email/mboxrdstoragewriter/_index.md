@@ -6,6 +6,7 @@ type: docs
 weight: 483
 url: /java/com.aspose.email/mboxrdstoragewriter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MboxStorageWriter](../../com.aspose.email/mboxstoragewriter)
 ```

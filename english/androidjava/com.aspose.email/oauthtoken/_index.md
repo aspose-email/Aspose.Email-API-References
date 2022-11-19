@@ -1,11 +1,12 @@
 ---
 title: OAuthToken
 second_title: Aspose.Email for Android via Java API Reference
-description:  Contains OAuth token data such like token value token type expiration date.
+description: Contains OAuth token data such like token value token type expiration date.
 type: docs
-weight: 330
-url: /java/com.aspose.email/oauthtoken/
+weight: 334
+url: /androidjava/com.aspose.email/oauthtoken/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -24,13 +25,19 @@ Contains OAuth token data such like token value, token type, expiration date.
 
 | Method | Description |
 | --- | --- |
-| [getTokenType()](#getTokenType--) | Gets OAuth token type |
-| [getToken()](#getToken--) | Gets token value |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getClass()](#getClass--) |  |
 | [getExpirationDate()](#getExpirationDate--) | Gets expiration date of the token. |
 | [getExpired()](#getExpired--) | Indicates whether token is expired |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [getToken()](#getToken--) | Gets token value |
+| [getTokenType()](#getTokenType--) | Gets OAuth token type |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | Returns a string that represents the current object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### OAuthToken(String token) {#OAuthToken-java.lang.String-}
 ```
 public OAuthToken(String token)
@@ -73,26 +80,31 @@ Initializes a new instance of the [OAuthToken](../../com.aspose.email/oauthtoken
 | tokenType | int | OAuth token type |
 | expirationDate | java.util.Date | Expiration date of the token. |
 
-### getTokenType() {#getTokenType--}
+### equals(Object obj) {#equals-java.lang.Object-}
 ```
-public final int getTokenType()
+public boolean equals(Object obj)
 ```
 
 
-Gets OAuth token type
+Determines whether the specified object is equal to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The object to compare with the current object. |
 
 **Returns:**
-int
-### getToken() {#getToken--}
+boolean - true if the specified object is equal to the current object; otherwise, false.
+### getClass() {#getClass--}
 ```
-public final String getToken()
+public final native Class<?> getClass()
 ```
 
 
-Gets token value
+
 
 **Returns:**
-java.lang.String
+java.lang.Class<?>
 ### getExpirationDate() {#getExpirationDate--}
 ```
 public final Date getExpirationDate()
@@ -113,21 +125,26 @@ Indicates whether token is expired
 
 **Returns:**
 boolean
-### equals(Object obj) {#equals-java.lang.Object-}
+### getToken() {#getToken--}
 ```
-public boolean equals(Object obj)
+public final String getToken()
 ```
 
 
-Determines whether the specified object is equal to the current object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The object to compare with the current object. |
+Gets token value
 
 **Returns:**
-boolean - true if the specified object is equal to the current object; otherwise, false.
+java.lang.String
+### getTokenType() {#getTokenType--}
+```
+public final int getTokenType()
+```
+
+
+Gets OAuth token type
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -138,6 +155,22 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### toString() {#toString--}
 ```
 public String toString()
@@ -148,3 +181,38 @@ Returns a string that represents the current object.
 
 **Returns:**
 java.lang.String - A string that represents the current object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -6,6 +6,7 @@ type: docs
 weight: 308
 url: /java/com.aspose.email/imapfolderinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection, [com.aspose.email.ImapFolderInfoCollectionBase](../../com.aspose.email/imapfolderinfocollectionbase)
 

@@ -6,6 +6,7 @@ type: docs
 weight: 527
 url: /java/com.aspose.email/notebooklinks/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 75
 url: /java/com.aspose.email/backupoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

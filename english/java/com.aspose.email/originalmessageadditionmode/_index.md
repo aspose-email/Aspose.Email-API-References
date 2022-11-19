@@ -6,6 +6,7 @@ type: docs
 weight: 543
 url: /java/com.aspose.email/originalmessageadditionmode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

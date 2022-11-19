@@ -6,6 +6,7 @@ type: docs
 weight: 395
 url: /java/com.aspose.email/mapicalendaricssaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MapiCalendarSaveOptions](../../com.aspose.email/mapicalendarsaveoptions)
 ```

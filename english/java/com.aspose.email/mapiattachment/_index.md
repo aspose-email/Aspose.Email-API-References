@@ -6,6 +6,7 @@ type: docs
 weight: 384
 url: /java/com.aspose.email/mapiattachment/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.email/mapipropertycontainer)
 ```

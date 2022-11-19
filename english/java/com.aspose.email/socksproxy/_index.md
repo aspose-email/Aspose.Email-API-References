@@ -6,6 +6,7 @@ type: docs
 weight: 641
 url: /java/com.aspose.email/socksproxy/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.Proxy](../../com.aspose.email/proxy)
 ```

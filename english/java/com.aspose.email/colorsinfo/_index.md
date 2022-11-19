@@ -6,6 +6,7 @@ type: docs
 weight: 107
 url: /java/com.aspose.email/colorsinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

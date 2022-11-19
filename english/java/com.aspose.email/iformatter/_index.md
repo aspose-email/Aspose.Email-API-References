@@ -5,7 +5,8 @@ description: Represents the interface for formatting log entry messsages.
 type: docs
 weight: 737
 url: /java/com.aspose.email/iformatter/
----```
+---
+```
 public interface IFormatter
 ```
 

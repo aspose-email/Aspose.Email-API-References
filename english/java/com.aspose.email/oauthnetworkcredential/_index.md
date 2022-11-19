@@ -6,6 +6,7 @@ type: docs
 weight: 533
 url: /java/com.aspose.email/oauthnetworkcredential/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Net.NetworkCredential
 

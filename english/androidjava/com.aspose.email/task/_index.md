@@ -1,11 +1,12 @@
 ---
 title: Task
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents the exchange task information.
+description: Represents the exchange task information.
 type: docs
-weight: 393
-url: /java/com.aspose.email/task/
+weight: 397
+url: /androidjava/com.aspose.email/task/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -25,183 +26,105 @@ Represents the exchange task information.
 
 | Method | Description |
 | --- | --- |
-| [getRelatedTo()](#getRelatedTo--) | Gets or sets a related UID |
-| [setRelatedTo(String value)](#setRelatedTo-java.lang.String-) | Gets or sets a related UID |
-| [getSubject()](#getSubject--) | Gets or sets a task subject. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets a task subject. |
-| [getStartDate()](#getStartDate--) | Gets or sets a start date of task. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a start date of task. |
-| [getDueDate()](#getDueDate--) | Gets or sets the date by which the user expects work on the task to be complete. |
-| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets the date by which the user expects work on the task to be complete. |
-| [getPriority()](#getPriority--) | Gets or sets a task priority. |
-| [setPriority(int value)](#setPriority-int-) | Gets or sets a task priority. |
-| [getPercentComplete()](#getPercentComplete--) | Gets or sets a pecent of task completion. |
-| [setPercentComplete(float value)](#setPercentComplete-float-) | Gets or sets a pecent of task completion. |
-| [getBody()](#getBody--) | Gets or sets a task body. |
-| [setBody(String value)](#setBody-java.lang.String-) | Gets or sets a task body. |
-| [getUniqueId()](#getUniqueId--) | Gets or sets unique identifier |
-| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Gets or sets unique identifier |
-| [getSequenceId()](#getSequenceId--) | Gets or sets the sequence id. |
-| [setSequenceId(int value)](#setSequenceId-int-) | Gets or sets the sequence id. |
-| [getAttendees()](#getAttendees--) | Gets or sets the attendees. |
-| [setAttendees(MailAddressCollection value)](#setAttendees-com.aspose.email.MailAddressCollection-) | Gets or sets the attendees. |
-| [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
-| [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Gets or sets the organizer. |
-| [getMethod()](#getMethod--) | Gets or sets iTIP methods associated with an task. |
-| [setMethod(int value)](#setMethod-int-) | Gets or sets iTIP methods associated with an task. |
-| [getAttachments()](#getAttachments--) | Gets or sets a collection of file attached to the task. |
-| [setAttachments(AttachmentCollection value)](#setAttachments-com.aspose.email.AttachmentCollection-) | Gets or sets a collection of file attached to the task. |
-| [request()](#request--) | Requests the object. |
 | [close()](#close--) |  |
+| [dispose()](#dispose--) | Release all resources. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAttachments()](#getAttachments--) | Gets or sets a collection of file attached to the task. |
+| [getAttendees()](#getAttendees--) | Gets or sets the attendees. |
+| [getBody()](#getBody--) | Gets or sets a task body. |
+| [getClass()](#getClass--) |  |
+| [getDueDate()](#getDueDate--) | Gets or sets the date by which the user expects work on the task to be complete. |
+| [getMethod()](#getMethod--) | Gets or sets iTIP methods associated with an task. |
+| [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
+| [getPercentComplete()](#getPercentComplete--) | Gets or sets a pecent of task completion. |
+| [getPriority()](#getPriority--) | Gets or sets a task priority. |
+| [getRelatedTo()](#getRelatedTo--) | Gets or sets a related UID |
+| [getSequenceId()](#getSequenceId--) | Gets or sets the sequence id. |
+| [getStartDate()](#getStartDate--) | Gets or sets a start date of task. |
+| [getSubject()](#getSubject--) | Gets or sets a task subject. |
+| [getUniqueId()](#getUniqueId--) | Gets or sets unique identifier |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [request()](#request--) | Requests the object. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves current object to the given stream using MSG format. |
 | [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves current object to the given stream using specified format. |
 | [save(String filePath)](#save-java.lang.String-) | Saves current object into file using MSG format. |
 | [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves current object into file using specified format. |
-| [dispose()](#dispose--) | Release all resources. |
+| [setAttachments(AttachmentCollection value)](#setAttachments-com.aspose.email.AttachmentCollection-) | Gets or sets a collection of file attached to the task. |
+| [setAttendees(MailAddressCollection value)](#setAttendees-com.aspose.email.MailAddressCollection-) | Gets or sets the attendees. |
+| [setBody(String value)](#setBody-java.lang.String-) | Gets or sets a task body. |
+| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets the date by which the user expects work on the task to be complete. |
+| [setMethod(int value)](#setMethod-int-) | Gets or sets iTIP methods associated with an task. |
+| [setOrganizer(MailAddress value)](#setOrganizer-com.aspose.email.MailAddress-) | Gets or sets the organizer. |
+| [setPercentComplete(float value)](#setPercentComplete-float-) | Gets or sets a pecent of task completion. |
+| [setPriority(int value)](#setPriority-int-) | Gets or sets a task priority. |
+| [setRelatedTo(String value)](#setRelatedTo-java.lang.String-) | Gets or sets a related UID |
+| [setSequenceId(int value)](#setSequenceId-int-) | Gets or sets the sequence id. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a start date of task. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets a task subject. |
+| [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Gets or sets unique identifier |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Task() {#Task--}
 ```
 public Task()
 ```
 
 
-### getRelatedTo() {#getRelatedTo--}
+### close() {#close--}
 ```
-public final String getRelatedTo()
-```
-
-
-Gets or sets a related UID
-
-**Returns:**
-java.lang.String
-### setRelatedTo(String value) {#setRelatedTo-java.lang.String-}
-```
-public final void setRelatedTo(String value)
+public void close()
 ```
 
 
-Gets or sets a related UID
+
+
+### dispose() {#dispose--}
+```
+public final void dispose()
+```
+
+
+Release all resources.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### getSubject() {#getSubject--}
-```
-public final String getSubject()
-```
-
-
-Gets or sets a task subject.
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String
-### setSubject(String value) {#setSubject-java.lang.String-}
+boolean
+### getAttachments() {#getAttachments--}
 ```
-public final void setSubject(String value)
-```
-
-
-Gets or sets a task subject.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getStartDate() {#getStartDate--}
-```
-public final Date getStartDate()
+public final AttachmentCollection getAttachments()
 ```
 
 
-Gets or sets a start date of task.
+Gets or sets a collection of file attached to the task.
 
 **Returns:**
-java.util.Date
-### setStartDate(Date value) {#setStartDate-java.util.Date-}
+[AttachmentCollection](../../com.aspose.email/attachmentcollection)
+### getAttendees() {#getAttendees--}
 ```
-public final void setStartDate(Date value)
-```
-
-
-Gets or sets a start date of task.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getDueDate() {#getDueDate--}
-```
-public final Date getDueDate()
+public final MailAddressCollection getAttendees()
 ```
 
 
-Gets or sets the date by which the user expects work on the task to be complete.
+Gets or sets the attendees.
 
 **Returns:**
-java.util.Date
-### setDueDate(Date value) {#setDueDate-java.util.Date-}
-```
-public final void setDueDate(Date value)
-```
-
-
-Gets or sets the date by which the user expects work on the task to be complete.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getPriority() {#getPriority--}
-```
-public final int getPriority()
-```
-
-
-Gets or sets a task priority.
-
-**Returns:**
-int
-### setPriority(int value) {#setPriority-int-}
-```
-public final void setPriority(int value)
-```
-
-
-Gets or sets a task priority.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getPercentComplete() {#getPercentComplete--}
-```
-public final float getPercentComplete()
-```
-
-
-Gets or sets a pecent of task completion.
-
-**Returns:**
-float
-### setPercentComplete(float value) {#setPercentComplete-float-}
-```
-public final void setPercentComplete(float value)
-```
-
-
-Gets or sets a pecent of task completion.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | float |  |
-
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
 ### getBody() {#getBody--}
 ```
 public final String getBody()
@@ -212,42 +135,76 @@ Gets or sets a task body.
 
 **Returns:**
 java.lang.String
-### setBody(String value) {#setBody-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public final void setBody(String value)
-```
-
-
-Gets or sets a task body.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getUniqueId() {#getUniqueId--}
-```
-public final String getUniqueId()
+public final native Class<?> getClass()
 ```
 
 
-Gets or sets unique identifier
+
+
+**Returns:**
+java.lang.Class<?>
+### getDueDate() {#getDueDate--}
+```
+public final Date getDueDate()
+```
+
+
+Gets or sets the date by which the user expects work on the task to be complete.
+
+**Returns:**
+java.util.Date
+### getMethod() {#getMethod--}
+```
+public final int getMethod()
+```
+
+
+Gets or sets iTIP methods associated with an task.
+
+**Returns:**
+int
+### getOrganizer() {#getOrganizer--}
+```
+public final MailAddress getOrganizer()
+```
+
+
+Gets or sets the organizer.
+
+**Returns:**
+[MailAddress](../../com.aspose.email/mailaddress)
+### getPercentComplete() {#getPercentComplete--}
+```
+public final float getPercentComplete()
+```
+
+
+Gets or sets a pecent of task completion.
+
+**Returns:**
+float
+### getPriority() {#getPriority--}
+```
+public final int getPriority()
+```
+
+
+Gets or sets a task priority.
+
+**Returns:**
+int
+### getRelatedTo() {#getRelatedTo--}
+```
+public final String getRelatedTo()
+```
+
+
+Gets or sets a related UID
 
 **Returns:**
 java.lang.String
-### setUniqueId(String value) {#setUniqueId-java.lang.String-}
-```
-public final void setUniqueId(String value)
-```
-
-
-Gets or sets unique identifier
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
 ### getSequenceId() {#getSequenceId--}
 ```
 public final int getSequenceId()
@@ -260,112 +217,61 @@ Value: The sequence id.
 
 **Returns:**
 int
-### setSequenceId(int value) {#setSequenceId-int-}
+### getStartDate() {#getStartDate--}
 ```
-public final void setSequenceId(int value)
-```
-
-
-Gets or sets the sequence id.
-
-Value: The sequence id.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getAttendees() {#getAttendees--}
-```
-public final MailAddressCollection getAttendees()
+public final Date getStartDate()
 ```
 
 
-Gets or sets the attendees.
+Gets or sets a start date of task.
 
 **Returns:**
-[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
-### setAttendees(MailAddressCollection value) {#setAttendees-com.aspose.email.MailAddressCollection-}
+java.util.Date
+### getSubject() {#getSubject--}
 ```
-public final void setAttendees(MailAddressCollection value)
-```
-
-
-Gets or sets the attendees.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) |  |
-
-### getOrganizer() {#getOrganizer--}
-```
-public final MailAddress getOrganizer()
+public final String getSubject()
 ```
 
 
-Gets or sets the organizer.
+Gets or sets a task subject.
 
 **Returns:**
-[MailAddress](../../com.aspose.email/mailaddress)
-### setOrganizer(MailAddress value) {#setOrganizer-com.aspose.email.MailAddress-}
+java.lang.String
+### getUniqueId() {#getUniqueId--}
 ```
-public final void setOrganizer(MailAddress value)
-```
-
-
-Gets or sets the organizer.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MailAddress](../../com.aspose.email/mailaddress) |  |
-
-### getMethod() {#getMethod--}
-```
-public final int getMethod()
+public final String getUniqueId()
 ```
 
 
-Gets or sets iTIP methods associated with an task.
+Gets or sets unique identifier
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
 
 **Returns:**
 int
-### setMethod(int value) {#setMethod-int-}
+### notify() {#notify--}
 ```
-public final void setMethod(int value)
-```
-
-
-Gets or sets iTIP methods associated with an task.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getAttachments() {#getAttachments--}
-```
-public final AttachmentCollection getAttachments()
+public final native void notify()
 ```
 
 
-Gets or sets a collection of file attached to the task.
 
-**Returns:**
-[AttachmentCollection](../../com.aspose.email/attachmentcollection)
-### setAttachments(AttachmentCollection value) {#setAttachments-com.aspose.email.AttachmentCollection-}
+
+### notifyAll() {#notifyAll--}
 ```
-public final void setAttachments(AttachmentCollection value)
+public final native void notifyAll()
 ```
 
 
-Gets or sets a collection of file attached to the task.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [AttachmentCollection](../../com.aspose.email/attachmentcollection) |  |
 
 ### request() {#request--}
 ```
@@ -377,14 +283,6 @@ Requests the object.
 
 **Returns:**
 [AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
-### close() {#close--}
-```
-public void close()
-```
-
-
-
-
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
 public void save(OutputStream stream)
@@ -439,11 +337,219 @@ Saves current object into file using specified format.
 | filePath | java.lang.String | A file name. |
 | saveFormat | int | A save format. |
 
-### dispose() {#dispose--}
+### setAttachments(AttachmentCollection value) {#setAttachments-com.aspose.email.AttachmentCollection-}
 ```
-public final void dispose()
+public final void setAttachments(AttachmentCollection value)
 ```
 
 
-Release all resources.
+Gets or sets a collection of file attached to the task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AttachmentCollection](../../com.aspose.email/attachmentcollection) |  |
+
+### setAttendees(MailAddressCollection value) {#setAttendees-com.aspose.email.MailAddressCollection-}
+```
+public final void setAttendees(MailAddressCollection value)
+```
+
+
+Gets or sets the attendees.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MailAddressCollection](../../com.aspose.email/mailaddresscollection) |  |
+
+### setBody(String value) {#setBody-java.lang.String-}
+```
+public final void setBody(String value)
+```
+
+
+Gets or sets a task body.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setDueDate(Date value) {#setDueDate-java.util.Date-}
+```
+public final void setDueDate(Date value)
+```
+
+
+Gets or sets the date by which the user expects work on the task to be complete.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setMethod(int value) {#setMethod-int-}
+```
+public final void setMethod(int value)
+```
+
+
+Gets or sets iTIP methods associated with an task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setOrganizer(MailAddress value) {#setOrganizer-com.aspose.email.MailAddress-}
+```
+public final void setOrganizer(MailAddress value)
+```
+
+
+Gets or sets the organizer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MailAddress](../../com.aspose.email/mailaddress) |  |
+
+### setPercentComplete(float value) {#setPercentComplete-float-}
+```
+public final void setPercentComplete(float value)
+```
+
+
+Gets or sets a pecent of task completion.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### setPriority(int value) {#setPriority-int-}
+```
+public final void setPriority(int value)
+```
+
+
+Gets or sets a task priority.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setRelatedTo(String value) {#setRelatedTo-java.lang.String-}
+```
+public final void setRelatedTo(String value)
+```
+
+
+Gets or sets a related UID
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setSequenceId(int value) {#setSequenceId-int-}
+```
+public final void setSequenceId(int value)
+```
+
+
+Gets or sets the sequence id.
+
+Value: The sequence id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStartDate(Date value) {#setStartDate-java.util.Date-}
+```
+public final void setStartDate(Date value)
+```
+
+
+Gets or sets a start date of task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setSubject(String value) {#setSubject-java.lang.String-}
+```
+public final void setSubject(String value)
+```
+
+
+Gets or sets a task subject.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setUniqueId(String value) {#setUniqueId-java.lang.String-}
+```
+public final void setUniqueId(String value)
+```
+
+
+Gets or sets unique identifier
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

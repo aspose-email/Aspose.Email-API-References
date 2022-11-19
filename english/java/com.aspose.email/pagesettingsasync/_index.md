@@ -6,6 +6,7 @@ type: docs
 weight: 549
 url: /java/com.aspose.email/pagesettingsasync/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.PageSettings](../../com.aspose.email/pagesettings)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 515
 url: /java/com.aspose.email/modificationsequencefield/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.QueryField](../../com.aspose.email/queryfield)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 503
 url: /java/com.aspose.email/messagestore/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

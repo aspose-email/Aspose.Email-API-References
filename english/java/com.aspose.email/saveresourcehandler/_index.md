@@ -6,6 +6,7 @@ type: docs
 weight: 612
 url: /java/com.aspose.email/saveresourcehandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

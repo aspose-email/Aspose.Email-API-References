@@ -6,6 +6,7 @@ type: docs
 weight: 501
 url: /java/com.aspose.email/messageobjectrecipientscollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

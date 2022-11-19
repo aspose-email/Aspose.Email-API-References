@@ -6,6 +6,7 @@ type: docs
 weight: 598
 url: /java/com.aspose.email/replybody/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

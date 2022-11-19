@@ -6,6 +6,7 @@ type: docs
 weight: 78
 url: /java/com.aspose.email/baserestobject/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

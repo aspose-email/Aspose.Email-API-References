@@ -6,6 +6,7 @@ type: docs
 weight: 394
 url: /java/com.aspose.email/mapicalendarexceptioninfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

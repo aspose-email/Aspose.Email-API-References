@@ -6,6 +6,7 @@ type: docs
 weight: 121
 url: /java/com.aspose.email/contactphoto/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

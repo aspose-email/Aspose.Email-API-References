@@ -1,11 +1,12 @@
 ---
 title: IgnoreExceptionsLogCallback
 second_title: Aspose.Email for Android via Java API Reference
-description:  Ignored Exceptions Log callback.
+description: Ignored Exceptions Log callback.
 type: docs
-weight: 460
-url: /java/com.aspose.email/ignoreexceptionslogcallback/
----```
+weight: 466
+url: /androidjava/com.aspose.email/ignoreexceptionslogcallback/
+---
+```
 public interface IgnoreExceptionsLogCallback
 ```
 

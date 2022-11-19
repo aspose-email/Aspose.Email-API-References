@@ -6,6 +6,7 @@ type: docs
 weight: 646
 url: /java/com.aspose.email/standardformatter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.Formatter](../../com.aspose.email/formatter)
 ```

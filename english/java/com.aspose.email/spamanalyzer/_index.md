@@ -6,6 +6,7 @@ type: docs
 weight: 645
 url: /java/com.aspose.email/spamanalyzer/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 194
 url: /java/com.aspose.email/exchangecalendarpermissionreadaccess/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

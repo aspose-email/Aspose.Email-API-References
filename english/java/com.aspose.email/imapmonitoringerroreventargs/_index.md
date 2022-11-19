@@ -6,6 +6,7 @@ type: docs
 weight: 318
 url: /java/com.aspose.email/imapmonitoringerroreventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

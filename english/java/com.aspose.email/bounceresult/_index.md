@@ -6,6 +6,7 @@ type: docs
 weight: 84
 url: /java/com.aspose.email/bounceresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

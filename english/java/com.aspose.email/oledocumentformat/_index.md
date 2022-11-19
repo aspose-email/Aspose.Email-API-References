@@ -6,6 +6,7 @@ type: docs
 weight: 537
 url: /java/com.aspose.email/oledocumentformat/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

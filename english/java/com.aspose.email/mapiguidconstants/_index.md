@@ -6,6 +6,7 @@ type: docs
 weight: 438
 url: /java/com.aspose.email/mapiguidconstants/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 263
 url: /java/com.aspose.email/formatter/
 ---
+
 **Inheritance:**
 java.lang.Object
 

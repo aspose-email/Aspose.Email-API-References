@@ -6,6 +6,7 @@ type: docs
 weight: 229
 url: /java/com.aspose.email/exchangeuploaditemresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

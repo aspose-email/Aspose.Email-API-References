@@ -6,6 +6,7 @@ type: docs
 weight: 722
 url: /java/com.aspose.email/webdavcontactsaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ContactSaveOptions](../../com.aspose.email/contactsaveoptions)
 ```

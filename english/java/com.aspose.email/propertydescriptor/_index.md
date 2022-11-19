@@ -6,6 +6,7 @@ type: docs
 weight: 577
 url: /java/com.aspose.email/propertydescriptor/
 ---
+
 **Inheritance:**
 java.lang.Object
 

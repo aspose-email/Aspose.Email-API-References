@@ -6,6 +6,7 @@ type: docs
 weight: 695
 url: /java/com.aspose.email/vcardemail/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

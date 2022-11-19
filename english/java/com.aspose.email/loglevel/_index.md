@@ -6,6 +6,7 @@ type: docs
 weight: 356
 url: /java/com.aspose.email/loglevel/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 123
 url: /java/com.aspose.email/contactsaveformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 583
 url: /java/com.aspose.email/recipienttrackingevent/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

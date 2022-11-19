@@ -6,6 +6,7 @@ type: docs
 weight: 135
 url: /java/com.aspose.email/datacolumn/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

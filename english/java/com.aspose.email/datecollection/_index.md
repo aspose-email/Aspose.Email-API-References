@@ -6,6 +6,7 @@ type: docs
 weight: 142
 url: /java/com.aspose.email/datecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

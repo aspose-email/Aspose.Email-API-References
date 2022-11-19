@@ -6,6 +6,7 @@ type: docs
 weight: 332
 url: /java/com.aspose.email/importancechoices/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

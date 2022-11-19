@@ -6,6 +6,7 @@ type: docs
 weight: 307
 url: /java/com.aspose.email/imapfolderinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

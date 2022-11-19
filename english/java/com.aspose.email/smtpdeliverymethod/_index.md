@@ -6,6 +6,7 @@ type: docs
 weight: 634
 url: /java/com.aspose.email/smtpdeliverymethod/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

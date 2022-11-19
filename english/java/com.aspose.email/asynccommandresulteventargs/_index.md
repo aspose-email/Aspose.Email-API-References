@@ -6,6 +6,7 @@ type: docs
 weight: 62
 url: /java/com.aspose.email/asynccommandresulteventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

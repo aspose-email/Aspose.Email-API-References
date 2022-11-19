@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /java/com.aspose.email/mapicalendarclientintent/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

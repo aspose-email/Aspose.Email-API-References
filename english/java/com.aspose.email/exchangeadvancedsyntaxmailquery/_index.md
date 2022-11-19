@@ -6,6 +6,7 @@ type: docs
 weight: 185
 url: /java/com.aspose.email/exchangeadvancedsyntaxmailquery/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MailQuery](../../com.aspose.email/mailquery)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 292
 url: /java/com.aspose.email/htmlformatoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

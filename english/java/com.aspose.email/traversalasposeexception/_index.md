@@ -6,6 +6,7 @@ type: docs
 weight: 676
 url: /java/com.aspose.email/traversalasposeexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.email.AsposeException](../../com.aspose.email/asposeexception)
 ```

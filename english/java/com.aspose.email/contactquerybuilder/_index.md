@@ -6,6 +6,7 @@ type: docs
 weight: 122
 url: /java/com.aspose.email/contactquerybuilder/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MailQueryBuilder](../../com.aspose.email/mailquerybuilder)
 ```

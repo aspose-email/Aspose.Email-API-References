@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /java/com.aspose.email/failuretype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

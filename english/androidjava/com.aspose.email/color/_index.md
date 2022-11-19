@@ -4,8 +4,9 @@ second_title: Aspose.Email for Android via Java API Reference
 description: 
 type: docs
 weight: 74
-url: /java/com.aspose.email/color/
+url: /androidjava/com.aspose.email/color/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 ```
@@ -25,48 +26,39 @@ public class Color extends Struct<Color>
 
 | Method | Description |
 | --- | --- |
-| [getNativeObject()](#getNativeObject--) |  |
-| [getName()](#getName--) |  |
-| [isKnownColor()](#isKnownColor--) |  |
-| [isSystemColor()](#isSystemColor--) |  |
-| [isNamedColor()](#isNamedColor--) |  |
+| [Clone()](#Clone--) |  |
+| [CloneTo(T arg0)](#CloneTo-T-) |  |
+| [CloneTo(Color that)](#CloneTo-com.aspose.email.Color-) | that - must not be null |
+| [clone()](#clone--) |  |
+| [equals(Color obj1, Color obj2)](#equals-com.aspose.email.Color-com.aspose.email.Color-) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) |  |
+| [fromArgb(int argb)](#fromArgb-int-) |  |
+| [fromArgb(int alpha, Color baseColor)](#fromArgb-int-com.aspose.email.Color-) |  |
 | [fromArgb(int red, int green, int blue)](#fromArgb-int-int-int-) |  |
 | [fromArgb(int alpha, int red, int green, int blue)](#fromArgb-int-int-int-int-) |  |
-| [toArgb()](#toArgb--) |  |
-| [fromArgb(int alpha, Color baseColor)](#fromArgb-int-com.aspose.email.Color-) |  |
-| [fromArgb(int argb)](#fromArgb-int-) |  |
+| [fromJava(Color nativeObject)](#fromJava-java.awt.Color-) |  |
 | [fromKnownColor(int color)](#fromKnownColor-int-) |  |
 | [fromName(String name)](#fromName-java.lang.String-) |  |
-| [op_Equality(Color left, Color right)](#op-Equality-com.aspose.email.Color-com.aspose.email.Color-) | Equality Operator |
-| [op_Inequality(Color left, Color right)](#op-Inequality-com.aspose.email.Color-com.aspose.email.Color-) | Inequality Operator |
-| [getBrightness()](#getBrightness--) |  |
-| [getSaturation()](#getSaturation--) |  |
-| [getHue()](#getHue--) |  |
-| [toKnownColor()](#toKnownColor--) | ToKnownColor method |
-| [isEmpty()](#isEmpty--) | IsEmpty Property |
 | [getA()](#getA--) |  |
-| [getR()](#getR--) |  |
-| [getG()](#getG--) |  |
-| [getB()](#getB--) |  |
-| [hashCode()](#hashCode--) | Reference Equals Method Is commented out because this is handled by the base class. |
-| [toString()](#toString--) | ToString Method |
-| [getTransparent()](#getTransparent--) |  |
 | [getAliceBlue()](#getAliceBlue--) |  |
 | [getAntiqueWhite()](#getAntiqueWhite--) |  |
 | [getAqua()](#getAqua--) |  |
 | [getAquamarine()](#getAquamarine--) |  |
 | [getAzure()](#getAzure--) |  |
+| [getB()](#getB--) |  |
 | [getBeige()](#getBeige--) |  |
 | [getBisque()](#getBisque--) |  |
 | [getBlack()](#getBlack--) |  |
 | [getBlanchedAlmond()](#getBlanchedAlmond--) |  |
 | [getBlue()](#getBlue--) |  |
 | [getBlueViolet()](#getBlueViolet--) |  |
+| [getBrightness()](#getBrightness--) |  |
 | [getBrown()](#getBrown--) |  |
 | [getBurlyWood()](#getBurlyWood--) |  |
 | [getCadetBlue()](#getCadetBlue--) |  |
 | [getChartreuse()](#getChartreuse--) |  |
 | [getChocolate()](#getChocolate--) |  |
+| [getClass()](#getClass--) |  |
 | [getCoral()](#getCoral--) |  |
 | [getCornflowerBlue()](#getCornflowerBlue--) |  |
 | [getCornsilk()](#getCornsilk--) |  |
@@ -97,6 +89,7 @@ public class Color extends Struct<Color>
 | [getFloralWhite()](#getFloralWhite--) |  |
 | [getForestGreen()](#getForestGreen--) |  |
 | [getFuchsia()](#getFuchsia--) |  |
+| [getG()](#getG--) |  |
 | [getGainsboro()](#getGainsboro--) |  |
 | [getGhostWhite()](#getGhostWhite--) |  |
 | [getGold()](#getGold--) |  |
@@ -106,6 +99,7 @@ public class Color extends Struct<Color>
 | [getGreenYellow()](#getGreenYellow--) |  |
 | [getHoneydew()](#getHoneydew--) |  |
 | [getHotPink()](#getHotPink--) |  |
+| [getHue()](#getHue--) |  |
 | [getIndianRed()](#getIndianRed--) |  |
 | [getIndigo()](#getIndigo--) |  |
 | [getIvory()](#getIvory--) |  |
@@ -118,8 +112,8 @@ public class Color extends Struct<Color>
 | [getLightCoral()](#getLightCoral--) |  |
 | [getLightCyan()](#getLightCyan--) |  |
 | [getLightGoldenrodYellow()](#getLightGoldenrodYellow--) |  |
-| [getLightGreen()](#getLightGreen--) |  |
 | [getLightGray()](#getLightGray--) |  |
+| [getLightGreen()](#getLightGreen--) |  |
 | [getLightPink()](#getLightPink--) |  |
 | [getLightSalmon()](#getLightSalmon--) |  |
 | [getLightSeaGreen()](#getLightSeaGreen--) |  |
@@ -145,6 +139,8 @@ public class Color extends Struct<Color>
 | [getMintCream()](#getMintCream--) |  |
 | [getMistyRose()](#getMistyRose--) |  |
 | [getMoccasin()](#getMoccasin--) |  |
+| [getName()](#getName--) |  |
+| [getNativeObject()](#getNativeObject--) |  |
 | [getNavajoWhite()](#getNavajoWhite--) |  |
 | [getNavy()](#getNavy--) |  |
 | [getOldLace()](#getOldLace--) |  |
@@ -164,12 +160,14 @@ public class Color extends Struct<Color>
 | [getPlum()](#getPlum--) |  |
 | [getPowderBlue()](#getPowderBlue--) |  |
 | [getPurple()](#getPurple--) |  |
+| [getR()](#getR--) |  |
 | [getRed()](#getRed--) |  |
 | [getRosyBrown()](#getRosyBrown--) |  |
 | [getRoyalBlue()](#getRoyalBlue--) |  |
 | [getSaddleBrown()](#getSaddleBrown--) |  |
 | [getSalmon()](#getSalmon--) |  |
 | [getSandyBrown()](#getSandyBrown--) |  |
+| [getSaturation()](#getSaturation--) |  |
 | [getSeaGreen()](#getSeaGreen--) |  |
 | [getSeaShell()](#getSeaShell--) |  |
 | [getSienna()](#getSienna--) |  |
@@ -184,6 +182,7 @@ public class Color extends Struct<Color>
 | [getTeal()](#getTeal--) |  |
 | [getThistle()](#getThistle--) |  |
 | [getTomato()](#getTomato--) |  |
+| [getTransparent()](#getTransparent--) |  |
 | [getTurquoise()](#getTurquoise--) |  |
 | [getViolet()](#getViolet--) |  |
 | [getWheat()](#getWheat--) |  |
@@ -191,13 +190,22 @@ public class Color extends Struct<Color>
 | [getWhiteSmoke()](#getWhiteSmoke--) |  |
 | [getYellow()](#getYellow--) |  |
 | [getYellowGreen()](#getYellowGreen--) |  |
-| [CloneTo(Color that)](#CloneTo-com.aspose.email.Color-) | that - must not be null |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [equals(Color obj1, Color obj2)](#equals-com.aspose.email.Color-com.aspose.email.Color-) |  |
+| [hashCode()](#hashCode--) | Reference Equals Method Is commented out because this is handled by the base class. |
+| [isEmpty()](#isEmpty--) | IsEmpty Property |
+| [isKnownColor()](#isKnownColor--) |  |
+| [isNamedColor()](#isNamedColor--) |  |
+| [isSystemColor()](#isSystemColor--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [op_Equality(Color left, Color right)](#op-Equality-com.aspose.email.Color-com.aspose.email.Color-) | Equality Operator |
+| [op_Inequality(Color left, Color right)](#op-Inequality-com.aspose.email.Color-com.aspose.email.Color-) | Inequality Operator |
+| [toArgb()](#toArgb--) |  |
 | [toJava(Color color)](#toJava-com.aspose.email.Color-) |  |
-| [fromJava(Color nativeObject)](#fromJava-java.awt.Color-) |  |
+| [toKnownColor()](#toKnownColor--) | ToKnownColor method |
+| [toString()](#toString--) | ToString Method |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Color() {#Color--}
 ```
 public Color()
@@ -216,56 +224,114 @@ Empty Shared Field
 
 An uninitialized Color Structure
 
-### getNativeObject() {#getNativeObject--}
+### Clone() {#Clone--}
 ```
-public Color getNativeObject()
-```
-
-
-
-
-**Returns:**
-[Color](../../java.awt/color)
-### getName() {#getName--}
-```
-public String getName()
+public Color Clone()
 ```
 
 
 
 
 **Returns:**
-java.lang.String
-### isKnownColor() {#isKnownColor--}
+[Color](../../com.aspose.email/color)
+### CloneTo(T arg0) {#CloneTo-T-}
 ```
-public boolean isKnownColor()
+public abstract void CloneTo(T arg0)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | T |  |
+
+### CloneTo(Color that) {#CloneTo-com.aspose.email.Color-}
+```
+public void CloneTo(Color that)
+```
+
+
+that - must not be null
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| that | [Color](../../com.aspose.email/color) |  |
+
+### clone() {#clone--}
+```
+public Object clone()
+```
+
+
+
+
+**Returns:**
+java.lang.Object
+### equals(Color obj1, Color obj2) {#equals-com.aspose.email.Color-com.aspose.email.Color-}
+```
+public static boolean equals(Color obj1, Color obj2)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj1 | [Color](../../com.aspose.email/color) |  |
+| obj2 | [Color](../../com.aspose.email/color) |  |
 
 **Returns:**
 boolean
-### isSystemColor() {#isSystemColor--}
+### equals(Object obj) {#equals-java.lang.Object-}
 ```
-public boolean isSystemColor()
+public boolean equals(Object obj)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
 
 **Returns:**
 boolean
-### isNamedColor() {#isNamedColor--}
+### fromArgb(int argb) {#fromArgb-int-}
 ```
-public boolean isNamedColor()
+public static Color fromArgb(int argb)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argb | int |  |
 
 **Returns:**
-boolean
+[Color](../../com.aspose.email/color)
+### fromArgb(int alpha, Color baseColor) {#fromArgb-int-com.aspose.email.Color-}
+```
+public static Color fromArgb(int alpha, Color baseColor)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alpha | int |  |
+| baseColor | [Color](../../com.aspose.email/color) |  |
+
+**Returns:**
+[Color](../../com.aspose.email/color)
 ### fromArgb(int red, int green, int blue) {#fromArgb-int-int-int-}
 ```
 public static Color fromArgb(int red, int green, int blue)
@@ -301,19 +367,9 @@ public static Color fromArgb(int alpha, int red, int green, int blue)
 
 **Returns:**
 [Color](../../com.aspose.email/color)
-### toArgb() {#toArgb--}
+### fromJava(Color nativeObject) {#fromJava-java.awt.Color-}
 ```
-public int toArgb()
-```
-
-
-
-
-**Returns:**
-int
-### fromArgb(int alpha, Color baseColor) {#fromArgb-int-com.aspose.email.Color-}
-```
-public static Color fromArgb(int alpha, Color baseColor)
+public static Color fromJava(Color nativeObject)
 ```
 
 
@@ -322,23 +378,7 @@ public static Color fromArgb(int alpha, Color baseColor)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alpha | int |  |
-| baseColor | [Color](../../com.aspose.email/color) |  |
-
-**Returns:**
-[Color](../../com.aspose.email/color)
-### fromArgb(int argb) {#fromArgb-int-}
-```
-public static Color fromArgb(int argb)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argb | int |  |
+| nativeObject | java.awt.Color |  |
 
 **Returns:**
 [Color](../../com.aspose.email/color)
@@ -372,104 +412,6 @@ public static Color fromName(String name)
 
 **Returns:**
 [Color](../../com.aspose.email/color)
-### op_Equality(Color left, Color right) {#op-Equality-com.aspose.email.Color-com.aspose.email.Color-}
-```
-public static boolean op_Equality(Color left, Color right)
-```
-
-
-Equality Operator
-
---------------------
-
-Compares two Color objects. The return value is based on the equivalence of the A,R,G,B properties of the two Colors.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| left | [Color](../../com.aspose.email/color) |  |
-| right | [Color](../../com.aspose.email/color) |  |
-
-**Returns:**
-boolean
-### op_Inequality(Color left, Color right) {#op-Inequality-com.aspose.email.Color-com.aspose.email.Color-}
-```
-public static boolean op_Inequality(Color left, Color right)
-```
-
-
-Inequality Operator
-
---------------------
-
-Compares two Color objects. The return value is based on the equivalence of the A,R,G,B properties of the two colors.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| left | [Color](../../com.aspose.email/color) |  |
-| right | [Color](../../com.aspose.email/color) |  |
-
-**Returns:**
-boolean
-### getBrightness() {#getBrightness--}
-```
-public float getBrightness()
-```
-
-
-
-
-**Returns:**
-float
-### getSaturation() {#getSaturation--}
-```
-public float getSaturation()
-```
-
-
-
-
-**Returns:**
-float
-### getHue() {#getHue--}
-```
-public float getHue()
-```
-
-
-
-
-**Returns:**
-float
-### toKnownColor() {#toKnownColor--}
-```
-public int toKnownColor()
-```
-
-
-ToKnownColor method
-
---------------------
-
-Returns the KnownColor enum value for this color, 0 if is not known.
-
-**Returns:**
-int
-### isEmpty() {#isEmpty--}
-```
-public boolean isEmpty()
-```
-
-
-IsEmpty Property
-
---------------------
-
-Indicates transparent black. R,G,B = 0; A=0?
-
-**Returns:**
-boolean
 ### getA() {#getA--}
 ```
 public byte getA()
@@ -480,80 +422,6 @@ public byte getA()
 
 **Returns:**
 byte
-### getR() {#getR--}
-```
-public byte getR()
-```
-
-
-
-
-**Returns:**
-byte
-### getG() {#getG--}
-```
-public byte getG()
-```
-
-
-
-
-**Returns:**
-byte
-### getB() {#getB--}
-```
-public byte getB()
-```
-
-
-
-
-**Returns:**
-byte
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Reference Equals Method Is commented out because this is handled by the base class. TODO: Is it correct to let the base class handel reference equals
-
-GetHashCode Method
-
---------------------
-
-Checks equivalence of this Color and another object.
-
---------------------
-
-Calculates a hashing value.
-
-**Returns:**
-int
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-ToString Method
-
---------------------
-
-Formats the Color as a string in ARGB notation.
-
-**Returns:**
-java.lang.String
-### getTransparent() {#getTransparent--}
-```
-public static Color getTransparent()
-```
-
-
-
-
-**Returns:**
-[Color](../../com.aspose.email/color)
 ### getAliceBlue() {#getAliceBlue--}
 ```
 public static Color getAliceBlue()
@@ -604,6 +472,16 @@ public static Color getAzure()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getB() {#getB--}
+```
+public byte getB()
+```
+
+
+
+
+**Returns:**
+byte
 ### getBeige() {#getBeige--}
 ```
 public static Color getBeige()
@@ -664,6 +542,16 @@ public static Color getBlueViolet()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getBrightness() {#getBrightness--}
+```
+public float getBrightness()
+```
+
+
+
+
+**Returns:**
+float
 ### getBrown() {#getBrown--}
 ```
 public static Color getBrown()
@@ -714,6 +602,16 @@ public static Color getChocolate()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCoral() {#getCoral--}
 ```
 public static Color getCoral()
@@ -1014,6 +912,16 @@ public static Color getFuchsia()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getG() {#getG--}
+```
+public byte getG()
+```
+
+
+
+
+**Returns:**
+byte
 ### getGainsboro() {#getGainsboro--}
 ```
 public static Color getGainsboro()
@@ -1104,6 +1012,16 @@ public static Color getHotPink()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getHue() {#getHue--}
+```
+public float getHue()
+```
+
+
+
+
+**Returns:**
+float
 ### getIndianRed() {#getIndianRed--}
 ```
 public static Color getIndianRed()
@@ -1224,9 +1142,9 @@ public static Color getLightGoldenrodYellow()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
-### getLightGreen() {#getLightGreen--}
+### getLightGray() {#getLightGray--}
 ```
-public static Color getLightGreen()
+public static Color getLightGray()
 ```
 
 
@@ -1234,9 +1152,9 @@ public static Color getLightGreen()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
-### getLightGray() {#getLightGray--}
+### getLightGreen() {#getLightGreen--}
 ```
-public static Color getLightGray()
+public static Color getLightGreen()
 ```
 
 
@@ -1494,6 +1412,26 @@ public static Color getMoccasin()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getNativeObject() {#getNativeObject--}
+```
+public Color getNativeObject()
+```
+
+
+
+
+**Returns:**
+[Color](../../java.awt/color)
 ### getNavajoWhite() {#getNavajoWhite--}
 ```
 public static Color getNavajoWhite()
@@ -1684,6 +1622,16 @@ public static Color getPurple()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getR() {#getR--}
+```
+public byte getR()
+```
+
+
+
+
+**Returns:**
+byte
 ### getRed() {#getRed--}
 ```
 public static Color getRed()
@@ -1744,6 +1692,16 @@ public static Color getSandyBrown()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getSaturation() {#getSaturation--}
+```
+public float getSaturation()
+```
+
+
+
+
+**Returns:**
+float
 ### getSeaGreen() {#getSeaGreen--}
 ```
 public static Color getSeaGreen()
@@ -1884,6 +1842,16 @@ public static Color getTomato()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
+### getTransparent() {#getTransparent--}
+```
+public static Color getTransparent()
+```
+
+
+
+
+**Returns:**
+[Color](../../com.aspose.email/color)
 ### getTurquoise() {#getTurquoise--}
 ```
 public static Color getTurquoise()
@@ -1954,70 +1922,136 @@ public static Color getYellowGreen()
 
 **Returns:**
 [Color](../../com.aspose.email/color)
-### CloneTo(Color that) {#CloneTo-com.aspose.email.Color-}
+### hashCode() {#hashCode--}
 ```
-public void CloneTo(Color that)
-```
-
-
-that - must not be null
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [Color](../../com.aspose.email/color) |  |
-
-### Clone() {#Clone--}
-```
-public Color Clone()
+public int hashCode()
 ```
 
 
+Reference Equals Method Is commented out because this is handled by the base class. TODO: Is it correct to let the base class handel reference equals
 
+GetHashCode Method
+
+--------------------
+
+Checks equivalence of this Color and another object.
+
+--------------------
+
+Calculates a hashing value.
 
 **Returns:**
-[Color](../../com.aspose.email/color)
-### clone() {#clone--}
+int
+### isEmpty() {#isEmpty--}
 ```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
+public boolean isEmpty()
 ```
 
 
+IsEmpty Property
 
+--------------------
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
+Indicates transparent black. R,G,B = 0; A=0?
 
 **Returns:**
 boolean
-### equals(Color obj1, Color obj2) {#equals-com.aspose.email.Color-com.aspose.email.Color-}
+### isKnownColor() {#isKnownColor--}
 ```
-public static boolean equals(Color obj1, Color obj2)
+public boolean isKnownColor()
 ```
 
 
 
+
+**Returns:**
+boolean
+### isNamedColor() {#isNamedColor--}
+```
+public boolean isNamedColor()
+```
+
+
+
+
+**Returns:**
+boolean
+### isSystemColor() {#isSystemColor--}
+```
+public boolean isSystemColor()
+```
+
+
+
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### op_Equality(Color left, Color right) {#op-Equality-com.aspose.email.Color-com.aspose.email.Color-}
+```
+public static boolean op_Equality(Color left, Color right)
+```
+
+
+Equality Operator
+
+--------------------
+
+Compares two Color objects. The return value is based on the equivalence of the A,R,G,B properties of the two Colors.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj1 | [Color](../../com.aspose.email/color) |  |
-| obj2 | [Color](../../com.aspose.email/color) |  |
+| left | [Color](../../com.aspose.email/color) |  |
+| right | [Color](../../com.aspose.email/color) |  |
 
 **Returns:**
 boolean
+### op_Inequality(Color left, Color right) {#op-Inequality-com.aspose.email.Color-com.aspose.email.Color-}
+```
+public static boolean op_Inequality(Color left, Color right)
+```
+
+
+Inequality Operator
+
+--------------------
+
+Compares two Color objects. The return value is based on the equivalence of the A,R,G,B properties of the two colors.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| left | [Color](../../com.aspose.email/color) |  |
+| right | [Color](../../com.aspose.email/color) |  |
+
+**Returns:**
+boolean
+### toArgb() {#toArgb--}
+```
+public int toArgb()
+```
+
+
+
+
+**Returns:**
+int
 ### toJava(Color color) {#toJava-com.aspose.email.Color-}
 ```
 public static Color toJava(Color color)
@@ -2033,9 +2067,45 @@ public static Color toJava(Color color)
 
 **Returns:**
 [Color](../../java.awt/color)
-### fromJava(Color nativeObject) {#fromJava-java.awt.Color-}
+### toKnownColor() {#toKnownColor--}
 ```
-public static Color fromJava(Color nativeObject)
+public int toKnownColor()
+```
+
+
+ToKnownColor method
+
+--------------------
+
+Returns the KnownColor enum value for this color, 0 if is not known.
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+ToString Method
+
+--------------------
+
+Formats the Color as a string in ARGB notation.
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -2044,7 +2114,19 @@ public static Color fromJava(Color nativeObject)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nativeObject | java.awt.Color |  |
+| arg0 | long |  |
 
-**Returns:**
-[Color](../../com.aspose.email/color)
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

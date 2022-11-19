@@ -6,6 +6,7 @@ type: docs
 weight: 174
 url: /java/com.aspose.email/emlvalidationerrortype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

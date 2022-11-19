@@ -6,6 +6,7 @@ type: docs
 weight: 653
 url: /java/com.aspose.email/syncstate/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

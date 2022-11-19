@@ -6,6 +6,7 @@ type: docs
 weight: 550
 url: /java/com.aspose.email/participationstatus/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

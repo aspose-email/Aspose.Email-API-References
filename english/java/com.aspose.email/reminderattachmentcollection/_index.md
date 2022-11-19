@@ -6,6 +6,7 @@ type: docs
 weight: 590
 url: /java/com.aspose.email/reminderattachmentcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

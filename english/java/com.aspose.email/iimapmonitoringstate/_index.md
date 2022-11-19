@@ -5,7 +5,8 @@ description: Holds folder monitoring state.
 type: docs
 weight: 740
 url: /java/com.aspose.email/iimapmonitoringstate/
----```
+---
+```
 public interface IImapMonitoringState
 ```
 

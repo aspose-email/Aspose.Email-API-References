@@ -6,6 +6,7 @@ type: docs
 weight: 119
 url: /java/com.aspose.email/contactgroupcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

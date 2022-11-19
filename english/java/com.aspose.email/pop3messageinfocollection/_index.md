@@ -6,6 +6,7 @@ type: docs
 weight: 570
 url: /java/com.aspose.email/pop3messageinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 

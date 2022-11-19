@@ -6,6 +6,7 @@ type: docs
 weight: 562
 url: /java/com.aspose.email/pipeliningmode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

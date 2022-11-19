@@ -6,6 +6,7 @@ type: docs
 weight: 35
 url: /java/com.aspose.email/appointmentflags/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.aspose.email/mailstorageconverter.mailhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

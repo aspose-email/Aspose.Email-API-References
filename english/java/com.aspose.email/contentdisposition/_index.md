@@ -6,6 +6,7 @@ type: docs
 weight: 126
 url: /java/com.aspose.email/contentdisposition/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

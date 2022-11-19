@@ -6,6 +6,7 @@ type: docs
 weight: 531
 url: /java/com.aspose.email/nsfloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

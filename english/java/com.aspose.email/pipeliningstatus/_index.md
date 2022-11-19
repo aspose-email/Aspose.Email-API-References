@@ -6,6 +6,7 @@ type: docs
 weight: 563
 url: /java/com.aspose.email/pipeliningstatus/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

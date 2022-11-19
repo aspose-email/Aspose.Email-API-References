@@ -6,6 +6,7 @@ type: docs
 weight: 478
 url: /java/com.aspose.email/mboxloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

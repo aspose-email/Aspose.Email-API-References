@@ -6,6 +6,7 @@ type: docs
 weight: 374
 url: /java/com.aspose.email/mailservervalidatingeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs, [com.aspose.email.SyntaxValidatingEventArgs](../../com.aspose.email/syntaxvalidatingeventargs), [com.aspose.email.DomainValidatingEventArgs](../../com.aspose.email/domainvalidatingeventargs)
 ```

@@ -1,11 +1,12 @@
 ---
 title: IAppender
 second_title: Aspose.Email for Android via Java API Reference
-description:  Implement this interface for your own strategies for printing log entries.
+description: Implement this interface for your own strategies for printing log entries.
 type: docs
-weight: 446
-url: /java/com.aspose.email/iappender/
----```
+weight: 452
+url: /androidjava/com.aspose.email/iappender/
+---
+```
 public interface IAppender
 ```
 

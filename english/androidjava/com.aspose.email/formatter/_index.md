@@ -1,11 +1,12 @@
 ---
 title: Formatter
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents the interface for formatting log entry messsages.
+description: Represents the interface for formatting log entry messsages.
 type: docs
 weight: 150
-url: /java/com.aspose.email/formatter/
+url: /androidjava/com.aspose.email/formatter/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -20,36 +21,37 @@ Represents the interface for formatting log entry messsages.
 
 | Method | Description |
 | --- | --- |
-| [getDefaultFormatter()](#getDefaultFormatter--) | Gets or sets default formatter |
-| [setDefaultFormatter(IFormatter value)](#setDefaultFormatter-com.aspose.email.IFormatter-) | Gets or sets default formatter |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [format(LogEntry entry)](#format-com.aspose.email.LogEntry-) | Formats a log entry and return a string to be outputted. |
 | [format(Date datatime)](#format-java.util.Date-) | Formats a datetime and return a string to be outputted. |
-| [getHeader()](#getHeader--) | Gets or sets the header. |
+| [getClass()](#getClass--) |  |
+| [getDefaultFormatter()](#getDefaultFormatter--) | Gets or sets default formatter |
 | [getFooter()](#getFooter--) | Gets or sets the footer. |
+| [getHeader()](#getHeader--) | Gets or sets the header. |
 | [getLogHeader()](#getLogHeader--) | Gets or sets the log header |
-### getDefaultFormatter() {#getDefaultFormatter--}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDefaultFormatter(IFormatter value)](#setDefaultFormatter-com.aspose.email.IFormatter-) | Gets or sets default formatter |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public static IFormatter getDefaultFormatter()
-```
-
-
-Gets or sets default formatter
-
-**Returns:**
-[IFormatter](../../com.aspose.email/iformatter)
-### setDefaultFormatter(IFormatter value) {#setDefaultFormatter-com.aspose.email.IFormatter-}
-```
-public static void setDefaultFormatter(IFormatter value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets default formatter
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFormatter](../../com.aspose.email/iformatter) |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
 ### format(LogEntry entry) {#format-com.aspose.email.LogEntry-}
 ```
 public String format(LogEntry entry)
@@ -80,16 +82,26 @@ Formats a datetime and return a string to be outputted.
 
 **Returns:**
 java.lang.String
-### getHeader() {#getHeader--}
+### getClass() {#getClass--}
 ```
-public String getHeader()
+public final native Class<?> getClass()
 ```
 
 
-Gets or sets the header.
+
 
 **Returns:**
-java.lang.String
+java.lang.Class<?>
+### getDefaultFormatter() {#getDefaultFormatter--}
+```
+public static IFormatter getDefaultFormatter()
+```
+
+
+Gets or sets default formatter
+
+**Returns:**
+[IFormatter](../../com.aspose.email/iformatter)
 ### getFooter() {#getFooter--}
 ```
 public String getFooter()
@@ -97,6 +109,16 @@ public String getFooter()
 
 
 Gets or sets the footer.
+
+**Returns:**
+java.lang.String
+### getHeader() {#getHeader--}
+```
+public String getHeader()
+```
+
+
+Gets or sets the header.
 
 **Returns:**
 java.lang.String
@@ -110,3 +132,87 @@ Gets or sets the log header
 
 **Returns:**
 java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setDefaultFormatter(IFormatter value) {#setDefaultFormatter-com.aspose.email.IFormatter-}
+```
+public static void setDefaultFormatter(IFormatter value)
+```
+
+
+Gets or sets default formatter
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IFormatter](../../com.aspose.email/iformatter) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

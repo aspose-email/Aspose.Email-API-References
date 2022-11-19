@@ -6,6 +6,7 @@ type: docs
 weight: 319
 url: /java/com.aspose.email/imapmonitoringerroreventhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

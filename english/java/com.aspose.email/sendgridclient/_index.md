@@ -6,6 +6,7 @@ type: docs
 weight: 621
 url: /java/com.aspose.email/sendgridclient/
 ---
+
 **Inheritance:**
 java.lang.Object
 

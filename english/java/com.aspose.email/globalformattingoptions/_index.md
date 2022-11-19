@@ -6,6 +6,7 @@ type: docs
 weight: 276
 url: /java/com.aspose.email/globalformattingoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

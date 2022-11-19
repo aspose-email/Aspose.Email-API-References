@@ -6,6 +6,7 @@ type: docs
 weight: 172
 url: /java/com.aspose.email/emlvalidationerror/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

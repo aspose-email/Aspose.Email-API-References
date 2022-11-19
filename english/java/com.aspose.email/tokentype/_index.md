@@ -6,6 +6,7 @@ type: docs
 weight: 673
 url: /java/com.aspose.email/tokentype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

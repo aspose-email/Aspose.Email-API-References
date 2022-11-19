@@ -6,6 +6,7 @@ type: docs
 weight: 403
 url: /java/com.aspose.email/mapicalendarrecurrencepattern/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

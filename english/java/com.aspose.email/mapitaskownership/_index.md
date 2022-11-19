@@ -6,6 +6,7 @@ type: docs
 weight: 472
 url: /java/com.aspose.email/mapitaskownership/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

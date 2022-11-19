@@ -6,6 +6,7 @@ type: docs
 weight: 66
 url: /java/com.aspose.email/attachmentcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 

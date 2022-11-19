@@ -6,6 +6,7 @@ type: docs
 weight: 490
 url: /java/com.aspose.email/messageinfobase/
 ---
+
 **Inheritance:**
 java.lang.Object
 

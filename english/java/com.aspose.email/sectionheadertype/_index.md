@@ -6,6 +6,7 @@ type: docs
 weight: 618
 url: /java/com.aspose.email/sectionheadertype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

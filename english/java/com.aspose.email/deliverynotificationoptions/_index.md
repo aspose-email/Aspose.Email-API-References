@@ -6,6 +6,7 @@ type: docs
 weight: 154
 url: /java/com.aspose.email/deliverynotificationoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 251
 url: /java/com.aspose.email/fileformatversion/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

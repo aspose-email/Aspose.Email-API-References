@@ -6,6 +6,7 @@ type: docs
 weight: 388
 url: /java/com.aspose.email/mapicalendarattendees/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

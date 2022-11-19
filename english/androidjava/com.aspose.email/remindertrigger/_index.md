@@ -1,11 +1,12 @@
 ---
 title: ReminderTrigger
 second_title: Aspose.Email for Android via Java API Reference
-description:  Specifies when an alarm will trigger.
+description: Specifies when an alarm will trigger.
 type: docs
-weight: 368
-url: /java/com.aspose.email/remindertrigger/
+weight: 372
+url: /androidjava/com.aspose.email/remindertrigger/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -23,12 +24,21 @@ Specifies when an alarm will trigger.
 
 | Method | Description |
 | --- | --- |
-| [getDuration()](#getDuration--) | Specifies a relative time for the trigger of the alarm. |
-| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Specifies a relative time for the trigger of the alarm. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDateTime()](#getDateTime--) | A trigger set to an absolute date/time. |
-| [setDateTime(Date value)](#setDateTime-java.util.Date-) | A trigger set to an absolute date/time. |
+| [getDuration()](#getDuration--) | Specifies a relative time for the trigger of the alarm. |
 | [getRelated()](#getRelated--) | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDateTime(Date value)](#setDateTime-java.util.Date-) | A trigger set to an absolute date/time. |
+| [setDuration(ReminderDuration value)](#setDuration-com.aspose.email.ReminderDuration-) | Specifies a relative time for the trigger of the alarm. |
 | [setRelated(int value)](#setRelated-int-) | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ReminderTrigger(Date dateTime) {#ReminderTrigger-java.util.Date-}
 ```
 public ReminderTrigger(Date dateTime)
@@ -56,29 +66,31 @@ Initialize a new instance of [ReminderTrigger](../../com.aspose.email/remindertr
 | duration | [ReminderDuration](../../com.aspose.email/reminderduration) | To specify a relative time for the trigger of the alarm. |
 | related | int | To specify the relationship of the alarm trigger with respect to the start or end of the event. |
 
-### getDuration() {#getDuration--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final ReminderDuration getDuration()
-```
-
-
-Specifies a relative time for the trigger of the alarm.
-
-**Returns:**
-[ReminderDuration](../../com.aspose.email/reminderduration)
-### setDuration(ReminderDuration value) {#setDuration-com.aspose.email.ReminderDuration-}
-```
-public final void setDuration(ReminderDuration value)
+public boolean equals(Object arg0)
 ```
 
 
-Specifies a relative time for the trigger of the alarm.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ReminderDuration](../../com.aspose.email/reminderduration) |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDateTime() {#getDateTime--}
 ```
 public final Date getDateTime()
@@ -89,6 +101,52 @@ A trigger set to an absolute date/time.
 
 **Returns:**
 java.util.Date
+### getDuration() {#getDuration--}
+```
+public final ReminderDuration getDuration()
+```
+
+
+Specifies a relative time for the trigger of the alarm.
+
+**Returns:**
+[ReminderDuration](../../com.aspose.email/reminderduration)
+### getRelated() {#getRelated--}
+```
+public final int getRelated()
+```
+
+
+Specify the relationship of the alarm trigger with respect to the start or end of the event.
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setDateTime(Date value) {#setDateTime-java.util.Date-}
 ```
 public final void setDateTime(Date value)
@@ -102,16 +160,19 @@ A trigger set to an absolute date/time.
 | --- | --- | --- |
 | value | java.util.Date |  |
 
-### getRelated() {#getRelated--}
+### setDuration(ReminderDuration value) {#setDuration-com.aspose.email.ReminderDuration-}
 ```
-public final int getRelated()
+public final void setDuration(ReminderDuration value)
 ```
 
 
-Specify the relationship of the alarm trigger with respect to the start or end of the event.
+Specifies a relative time for the trigger of the alarm.
 
-**Returns:**
-int
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ReminderDuration](../../com.aspose.email/reminderduration) |  |
+
 ### setRelated(int value) {#setRelated-int-}
 ```
 public final void setRelated(int value)
@@ -124,4 +185,49 @@ Specify the relationship of the alarm trigger with respect to the start or end o
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

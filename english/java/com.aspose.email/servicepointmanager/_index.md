@@ -6,6 +6,7 @@ type: docs
 weight: 629
 url: /java/com.aspose.email/servicepointmanager/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

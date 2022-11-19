@@ -1,11 +1,12 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents options for using follow-up flags and reminders in a message.
+description: Represents options for using follow-up flags and reminders in a message.
 type: docs
 weight: 145
-url: /java/com.aspose.email/followupoptions/
+url: /androidjava/com.aspose.email/followupoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -25,25 +26,34 @@ Represents options for using follow-up flags and reminders in a message.
 
 | Method | Description |
 | --- | --- |
-| [getFlagRequest()](#getFlagRequest--) | Gets or sets a string indicating the requested action for an e-mail message. |
-| [setFlagRequest(String value)](#setFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for an e-mail message. |
-| [getStartDate()](#getStartDate--) | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [getDueDate()](#getDueDate--) | Gets or sets a date indicating the due date for the flagged message. |
-| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets a date indicating the due date for the flagged message. |
-| [getReminderTime()](#getReminderTime--) | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [getRecipientsFlagRequest()](#getRecipientsFlagRequest--) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [setRecipientsFlagRequest(String value)](#setRecipientsFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [getRecipientsReminderTime()](#getRecipientsReminderTime--) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [setRecipientsReminderTime(Date value)](#setRecipientsReminderTime-java.util.Date-) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [isCompleted()](#isCompleted--) | Gets a value indicating whether the Message object was flagged as completed. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCategories()](#getCategories--) | Gets or sets string that represents list of the categories, separated by semicolons (;). |
-| [setCategories(String value)](#setCategories-java.lang.String-) | Gets or sets string that represents list of the categories, separated by semicolons (;). |
-| [getVotingButtons()](#getVotingButtons--) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
-| [setVotingButtons(String value)](#setVotingButtons-java.lang.String-) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [getClass()](#getClass--) |  |
 | [getCodePage()](#getCodePage--) | Gets or sets the code page. |
+| [getDueDate()](#getDueDate--) | Gets or sets a date indicating the due date for the flagged message. |
+| [getFlagRequest()](#getFlagRequest--) | Gets or sets a string indicating the requested action for an e-mail message. |
+| [getRecipientsFlagRequest()](#getRecipientsFlagRequest--) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
+| [getRecipientsReminderTime()](#getRecipientsReminderTime--) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
+| [getReminderTime()](#getReminderTime--) | Gets or sets a date indicating the date and time at which the reminder should occur. |
+| [getStartDate()](#getStartDate--) | Gets or sets a date specifying the starting date and time for the flagged message. |
+| [getVotingButtons()](#getVotingButtons--) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [hashCode()](#hashCode--) |  |
+| [isCompleted()](#isCompleted--) | Gets a value indicating whether the Message object was flagged as completed. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setCategories(String value)](#setCategories-java.lang.String-) | Gets or sets string that represents list of the categories, separated by semicolons (;). |
 | [setCodePage(int value)](#setCodePage-int-) | Gets or sets the code page. |
+| [setDueDate(Date value)](#setDueDate-java.util.Date-) | Gets or sets a date indicating the due date for the flagged message. |
+| [setFlagRequest(String value)](#setFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for an e-mail message. |
+| [setRecipientsFlagRequest(String value)](#setRecipientsFlagRequest-java.lang.String-) | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
+| [setRecipientsReminderTime(Date value)](#setRecipientsReminderTime-java.util.Date-) | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
+| [setReminderTime(Date value)](#setReminderTime-java.util.Date-) | Gets or sets a date indicating the date and time at which the reminder should occur. |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets a date specifying the starting date and time for the flagged message. |
+| [setVotingButtons(String value)](#setVotingButtons-java.lang.String-) | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### FollowUpOptions() {#FollowUpOptions--}
 ```
 public FollowUpOptions()
@@ -96,151 +106,18 @@ Initializes a new instance of the [FollowUpOptions](../../com.aspose.email/follo
 | dueDate | java.util.Date | The due date. |
 | reminderTime | java.util.Date | The reminder time. |
 
-### getFlagRequest() {#getFlagRequest--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final String getFlagRequest()
-```
-
-
-Gets or sets a string indicating the requested action for an e-mail message.
-
-**Returns:**
-java.lang.String
-### setFlagRequest(String value) {#setFlagRequest-java.lang.String-}
-```
-public final void setFlagRequest(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets a string indicating the requested action for an e-mail message.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### getStartDate() {#getStartDate--}
-```
-public final Date getStartDate()
-```
-
-
-Gets or sets a date specifying the starting date and time for the flagged message.
-
-**Returns:**
-java.util.Date
-### setStartDate(Date value) {#setStartDate-java.util.Date-}
-```
-public final void setStartDate(Date value)
-```
-
-
-Gets or sets a date specifying the starting date and time for the flagged message.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getDueDate() {#getDueDate--}
-```
-public final Date getDueDate()
-```
-
-
-Gets or sets a date indicating the due date for the flagged message.
-
-**Returns:**
-java.util.Date
-### setDueDate(Date value) {#setDueDate-java.util.Date-}
-```
-public final void setDueDate(Date value)
-```
-
-
-Gets or sets a date indicating the due date for the flagged message.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getReminderTime() {#getReminderTime--}
-```
-public final Date getReminderTime()
-```
-
-
-Gets or sets a date indicating the date and time at which the reminder should occur.
-
-**Returns:**
-java.util.Date
-### setReminderTime(Date value) {#setReminderTime-java.util.Date-}
-```
-public final void setReminderTime(Date value)
-```
-
-
-Gets or sets a date indicating the date and time at which the reminder should occur.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getRecipientsFlagRequest() {#getRecipientsFlagRequest--}
-```
-public final String getRecipientsFlagRequest()
-```
-
-
-Gets or sets a string indicating the requested action for recipients of an e-mail message.
-
-**Returns:**
-java.lang.String
-### setRecipientsFlagRequest(String value) {#setRecipientsFlagRequest-java.lang.String-}
-```
-public final void setRecipientsFlagRequest(String value)
-```
-
-
-Gets or sets a string indicating the requested action for recipients of an e-mail message.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getRecipientsReminderTime() {#getRecipientsReminderTime--}
-```
-public final Date getRecipientsReminderTime()
-```
-
-
-Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
-
-**Returns:**
-java.util.Date
-### setRecipientsReminderTime(Date value) {#setRecipientsReminderTime-java.util.Date-}
-```
-public final void setRecipientsReminderTime(Date value)
-```
-
-
-Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### isCompleted() {#isCompleted--}
-```
-public final boolean isCompleted()
-```
-
-
-Gets a value indicating whether the Message object was flagged as completed.
+| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
@@ -254,6 +131,132 @@ Gets or sets string that represents list of the categories, separated by semicol
 
 **Returns:**
 java.lang.String
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCodePage() {#getCodePage--}
+```
+public final int getCodePage()
+```
+
+
+Gets or sets the code page.
+
+**Returns:**
+int
+### getDueDate() {#getDueDate--}
+```
+public final Date getDueDate()
+```
+
+
+Gets or sets a date indicating the due date for the flagged message.
+
+**Returns:**
+java.util.Date
+### getFlagRequest() {#getFlagRequest--}
+```
+public final String getFlagRequest()
+```
+
+
+Gets or sets a string indicating the requested action for an e-mail message.
+
+**Returns:**
+java.lang.String
+### getRecipientsFlagRequest() {#getRecipientsFlagRequest--}
+```
+public final String getRecipientsFlagRequest()
+```
+
+
+Gets or sets a string indicating the requested action for recipients of an e-mail message.
+
+**Returns:**
+java.lang.String
+### getRecipientsReminderTime() {#getRecipientsReminderTime--}
+```
+public final Date getRecipientsReminderTime()
+```
+
+
+Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
+
+**Returns:**
+java.util.Date
+### getReminderTime() {#getReminderTime--}
+```
+public final Date getReminderTime()
+```
+
+
+Gets or sets a date indicating the date and time at which the reminder should occur.
+
+**Returns:**
+java.util.Date
+### getStartDate() {#getStartDate--}
+```
+public final Date getStartDate()
+```
+
+
+Gets or sets a date specifying the starting date and time for the flagged message.
+
+**Returns:**
+java.util.Date
+### getVotingButtons() {#getVotingButtons--}
+```
+public final String getVotingButtons()
+```
+
+
+Gets or sets string that represents list of the voting buttons names, separated by semicolons (;).
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isCompleted() {#isCompleted--}
+```
+public final boolean isCompleted()
+```
+
+
+Gets a value indicating whether the Message object was flagged as completed.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setCategories(String value) {#setCategories-java.lang.String-}
 ```
 public final void setCategories(String value)
@@ -267,16 +270,97 @@ Gets or sets string that represents list of the categories, separated by semicol
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getVotingButtons() {#getVotingButtons--}
+### setCodePage(int value) {#setCodePage-int-}
 ```
-public final String getVotingButtons()
+public final void setCodePage(int value)
 ```
 
 
-Gets or sets string that represents list of the voting buttons names, separated by semicolons (;).
+Gets or sets the code page.
 
-**Returns:**
-java.lang.String
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setDueDate(Date value) {#setDueDate-java.util.Date-}
+```
+public final void setDueDate(Date value)
+```
+
+
+Gets or sets a date indicating the due date for the flagged message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setFlagRequest(String value) {#setFlagRequest-java.lang.String-}
+```
+public final void setFlagRequest(String value)
+```
+
+
+Gets or sets a string indicating the requested action for an e-mail message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setRecipientsFlagRequest(String value) {#setRecipientsFlagRequest-java.lang.String-}
+```
+public final void setRecipientsFlagRequest(String value)
+```
+
+
+Gets or sets a string indicating the requested action for recipients of an e-mail message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setRecipientsReminderTime(Date value) {#setRecipientsReminderTime-java.util.Date-}
+```
+public final void setRecipientsReminderTime(Date value)
+```
+
+
+Gets or sets a date for recipients indicating the date and time at which the reminder should occur.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setReminderTime(Date value) {#setReminderTime-java.util.Date-}
+```
+public final void setReminderTime(Date value)
+```
+
+
+Gets or sets a date indicating the date and time at which the reminder should occur.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setStartDate(Date value) {#setStartDate-java.util.Date-}
+```
+public final void setStartDate(Date value)
+```
+
+
+Gets or sets a date specifying the starting date and time for the flagged message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
 ### setVotingButtons(String value) {#setVotingButtons-java.lang.String-}
 ```
 public final void setVotingButtons(String value)
@@ -290,26 +374,48 @@ Gets or sets string that represents list of the voting buttons names, separated 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getCodePage() {#getCodePage--}
+### toString() {#toString--}
 ```
-public final int getCodePage()
+public String toString()
 ```
 
 
-Gets or sets the code page.
+
 
 **Returns:**
-int
-### setCodePage(int value) {#setCodePage-int-}
+java.lang.String
+### wait() {#wait--}
 ```
-public final void setCodePage(int value)
+public final void wait()
 ```
 
 
-Gets or sets the code page.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

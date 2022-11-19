@@ -1,11 +1,12 @@
 ---
 title: ConversionProgressEventHandler
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents signature for method that usually supplied by calling side and handles progress events.
+description: Represents signature for method that usually supplied by calling side and handles progress events.
 type: docs
-weight: 444
-url: /java/com.aspose.email/conversionprogresseventhandler/
----```
+weight: 450
+url: /androidjava/com.aspose.email/conversionprogresseventhandler/
+---
+```
 public interface ConversionProgressEventHandler
 ```
 

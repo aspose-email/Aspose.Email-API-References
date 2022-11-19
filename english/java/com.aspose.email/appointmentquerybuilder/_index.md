@@ -6,6 +6,7 @@ type: docs
 weight: 42
 url: /java/com.aspose.email/appointmentquerybuilder/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

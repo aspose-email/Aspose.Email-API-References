@@ -6,6 +6,7 @@ type: docs
 weight: 341
 url: /java/com.aspose.email/itemmovedeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

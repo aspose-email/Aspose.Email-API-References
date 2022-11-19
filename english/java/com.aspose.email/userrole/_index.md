@@ -6,6 +6,7 @@ type: docs
 weight: 687
 url: /java/com.aspose.email/userrole/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

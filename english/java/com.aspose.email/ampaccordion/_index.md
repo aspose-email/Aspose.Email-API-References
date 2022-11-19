@@ -6,6 +6,7 @@ type: docs
 weight: 18
 url: /java/com.aspose.email/ampaccordion/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.AmpComponent](../../com.aspose.email/ampcomponent)
 ```

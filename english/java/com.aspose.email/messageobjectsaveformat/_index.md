@@ -6,6 +6,7 @@ type: docs
 weight: 502
 url: /java/com.aspose.email/messageobjectsaveformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

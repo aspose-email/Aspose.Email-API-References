@@ -6,6 +6,7 @@ type: docs
 weight: 368
 url: /java/com.aspose.email/mailmessage/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.email.IPreferredTextEncodingProviderInternal
 

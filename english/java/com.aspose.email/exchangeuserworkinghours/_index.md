@@ -6,6 +6,7 @@ type: docs
 weight: 233
 url: /java/com.aspose.email/exchangeuserworkinghours/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

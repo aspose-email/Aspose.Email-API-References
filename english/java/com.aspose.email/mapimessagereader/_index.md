@@ -6,6 +6,7 @@ type: docs
 weight: 448
 url: /java/com.aspose.email/mapimessagereader/
 ---
+
 **Inheritance:**
 java.lang.Object
 

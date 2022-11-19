@@ -1,11 +1,12 @@
 ---
 title: MapiCalendar
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents the mapi calendar object
+description: Represents the mapi calendar object
 type: docs
-weight: 205
-url: /java/com.aspose.email/mapicalendar/
+weight: 206
+url: /androidjava/com.aspose.email/mapicalendar/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.email/mapipropertycontainer), [com.aspose.email.MapiMessageItemBase](../../com.aspose.email/mapimessageitembase)
 ```
@@ -25,47 +26,117 @@ Represents the mapi calendar object
 
 | Method | Description |
 | --- | --- |
-| [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
-| [setOrganizer(MapiElectronicAddress value)](#setOrganizer-com.aspose.email.MapiElectronicAddress-) | Gets or sets the organizer. |
-| [getReminderDelta()](#getReminderDelta--) | Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object |
-| [setReminderDelta(int value)](#setReminderDelta-int-) | Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object |
-| [getReminderSet()](#getReminderSet--) | Gets or sets a value indicating whether a reminder is set on the object |
-| [setReminderSet(boolean value)](#setReminderSet-boolean-) | Gets or sets a value indicating whether a reminder is set on the object |
-| [getReminderFileParameter()](#getReminderFileParameter--) | Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue. |
-| [setReminderFileParameter(String value)](#setReminderFileParameter-java.lang.String-) | Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue. |
-| [getAppointmentCounterProposal()](#getAppointmentCounterProposal--) | Gets or sets a value indicating whether a Meeting Response object is a counter proposal. |
-| [setAppointmentCounterProposal(boolean value)](#setAppointmentCounterProposal-boolean-) | Gets or sets a value indicating whether a Meeting Response object is a counter proposal. |
-| [getClientIntent()](#getClientIntent--) | Gets or sets the actions the user has taken on this Meeting object. |
-| [setClientIntent(int value)](#setClientIntent-int-) | Gets or sets the actions the user has taken on this Meeting object. |
-| [getStartDateTimeZone()](#getStartDateTimeZone--) | Gets or sets time zone information that indicates the time zone of the StartDate property |
-| [setStartDateTimeZone(MapiCalendarTimeZone value)](#setStartDateTimeZone-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that indicates the time zone of the StartDate property |
-| [getEndDateTimeZone()](#getEndDateTimeZone--) | Gets or sets time zone information that indicates the time zone of the EndDate property |
-| [setEndDateTimeZone(MapiCalendarTimeZone value)](#setEndDateTimeZone-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that indicates the time zone of the EndDate property |
-| [getAttendees()](#getAttendees--) | Gets or sets the attendees |
-| [setAttendees(MapiCalendarAttendees value)](#setAttendees-com.aspose.email.MapiCalendarAttendees-) | Gets or sets the attendees |
-| [getRecurrence()](#getRecurrence--) | Gets or sets the recurrence properties |
-| [setRecurrence(MapiCalendarEventRecurrence value)](#setRecurrence-com.aspose.email.MapiCalendarEventRecurrence-) | Gets or sets the recurrence properties |
-| [isAllDay()](#isAllDay--) | Gets or sets a value indicating whether the event is an all-day event |
-| [setAllDay(boolean value)](#setAllDay-boolean-) | Gets or sets a value indicating whether the event is an all-day event |
-| [getKeyWords()](#getKeyWords--) | Gets or sets the categories of the calendar object |
-| [setKeyWords(String value)](#setKeyWords-java.lang.String-) | Gets or sets the categories of the calendar object |
-| [getStartDate()](#getStartDate--) | Gets or sets the start date and time of the event. |
-| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date and time of the event. |
-| [getEndDate()](#getEndDate--) | Gets or sets the end date and time of the event. |
-| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date and time of the event. |
-| [getSequence()](#getSequence--) | Gets or sets the sequence number |
-| [setSequence(int value)](#setSequence-int-) | Gets or sets the sequence number |
-| [getBusyStatus()](#getBusyStatus--) | Gets or sets the busy status |
-| [setBusyStatus(int value)](#setBusyStatus-int-) | Gets or sets the busy status |
-| [getLocation()](#getLocation--) | Gets or sets the location of the event |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Gets or sets the location of the event |
-| [getUid()](#getUid--) | Gets the unique identifier |
-| [setUid(String value)](#setUid-java.lang.String-) | Gets the unique identifier |
-| [save(String filePath)](#save-java.lang.String-) | Saves calendar object to the file with iCalendar format using te default save options |
-| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves calendar object to the file with specified format using te default save options |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves calendar object to the file with iCalendar format using te default save options |
-| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves calendar object to the stream with specified format using te default save options |
+| [close()](#close--) |  |
+| [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [dispose()](#dispose--) | Releases all resources. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAppointmentCounterProposal()](#getAppointmentCounterProposal--) | Gets or sets a value indicating whether a Meeting Response object is a counter proposal. |
+| [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
+| [getAttendees()](#getAttendees--) | Gets or sets the attendees |
+| [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
+| [getBody()](#getBody--) | Gets the message text. |
+| [getBodyHtml()](#getBodyHtml--) | Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string. |
+| [getBodyRtf()](#getBodyRtf--) | Gets or sets the RTF formatted message text. |
+| [getBodyType()](#getBodyType--) | Gets the type of the body. |
+| [getBusyStatus()](#getBusyStatus--) | Gets or sets the busy status |
+| [getCategories()](#getCategories--) | Contains keywords or categories for the message object. |
+| [getClass()](#getClass--) |  |
+| [getClientIntent()](#getClientIntent--) | Gets or sets the actions the user has taken on this Meeting object. |
+| [getCodePage()](#getCodePage--) | Gets the code page. |
+| [getCompanies()](#getCompanies--) | Contains the names of the companies that are associated with an item. |
+| [getEndDate()](#getEndDate--) | Gets or sets the end date and time of the event. |
+| [getEndDateTimeZone()](#getEndDateTimeZone--) | Gets or sets time zone information that indicates the time zone of the EndDate property |
+| [getItemId()](#getItemId--) | The item id, uses with a server |
+| [getKeyWords()](#getKeyWords--) | Gets or sets the categories of the calendar object |
+| [getLocation()](#getLocation--) | Gets or sets the location of the event |
+| [getMessageClass()](#getMessageClass--) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
+| [getMileage()](#getMileage--) | Contains the mileage information that is associated with an item. |
+| [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
+| [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the named property mapping. |
+| [getOrganizer()](#getOrganizer--) | Gets or sets the organizer. |
+| [getProperties()](#getProperties--) | Gets the collection of properties. |
+| [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
+| [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
+| [getPropertyBytes(long tag)](#getPropertyBytes-long-) | Gets the string value of the property specified by tag. |
+| [getPropertyDateTime(long key)](#getPropertyDateTime-long-) | Gets the value of the property specified by tag as DateTime type. |
+| [getPropertyInt32(long tag)](#getPropertyInt32-long-) | Gets the int32 value of the property specified by tag. |
+| [getPropertyLong(long tag)](#getPropertyLong-long-) | Gets the value of the property specified by tag as Long (int64) type. |
+| [getPropertyShort(long tag)](#getPropertyShort-long-) | Gets the value of the property specified by tag as Short type. |
+| [getPropertyStream()](#getPropertyStream--) | Gets the property stream. |
+| [getPropertyString(long tag)](#getPropertyString-long-) | Gets the string value of the property specified by tag. |
+| [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
+| [getRecipients()](#getRecipients--) | Gets the recipients of the message. |
+| [getRecurrence()](#getRecurrence--) | Gets or sets the recurrence properties |
+| [getReminderDelta()](#getReminderDelta--) | Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object |
+| [getReminderFileParameter()](#getReminderFileParameter--) | Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue. |
+| [getReminderSet()](#getReminderSet--) | Gets or sets a value indicating whether a reminder is set on the object |
+| [getSensitivity()](#getSensitivity--) | Gets the Sensitivity. |
+| [getSequence()](#getSequence--) | Gets or sets the sequence number |
+| [getStartDate()](#getStartDate--) | Gets or sets the start date and time of the event. |
+| [getStartDateTimeZone()](#getStartDateTimeZone--) | Gets or sets time zone information that indicates the time zone of the StartDate property |
+| [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
+| [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
+| [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getUid()](#getUid--) | Gets the unique identifier |
+| [hashCode()](#hashCode--) |  |
+| [isAllDay()](#isAllDay--) | Gets or sets a value indicating whether the event is an all-day event |
+| [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves calendar object to the file with iCalendar format using te default save options |
+| [save(OutputStream stream, MapiCalendarSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.MapiCalendarSaveOptions-) | Saves calendar to the stream with specified save options |
+| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves calendar object to the stream with specified format using te default save options |
+| [save(String filePath)](#save-java.lang.String-) | Saves calendar object to the file with iCalendar format using te default save options |
+| [save(String filePath, MapiCalendarSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.MapiCalendarSaveOptions-) | Saves calendar object to the file with specified format using te default save options |
+| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves calendar object to the file with specified format using te default save options |
+| [setAllDay(boolean value)](#setAllDay-boolean-) | Gets or sets a value indicating whether the event is an all-day event |
+| [setAppointmentCounterProposal(boolean value)](#setAppointmentCounterProposal-boolean-) | Gets or sets a value indicating whether a Meeting Response object is a counter proposal. |
+| [setAttendees(MapiCalendarAttendees value)](#setAttendees-com.aspose.email.MapiCalendarAttendees-) | Gets or sets the attendees |
+| [setBilling(String value)](#setBilling-java.lang.String-) | Contains the billing information associated with an item. |
+| [setBody(String value)](#setBody-java.lang.String-) | Gets the message text. |
+| [setBodyContent(String content, int contentType)](#setBodyContent-java.lang.String-int-) | Sets the content of the body. |
+| [setBodyContent(String content, int contentType, boolean compression)](#setBodyContent-java.lang.String-int-boolean-) | Sets the content of the body. |
+| [setBodyRtf(String value)](#setBodyRtf-java.lang.String-) | Gets or sets the RTF formatted message text. |
+| [setBodyRtf(String value, boolean compression)](#setBodyRtf-java.lang.String-boolean-) | Gets or sets the RTF formatted message text. |
+| [setBusyStatus(int value)](#setBusyStatus-int-) | Gets or sets the busy status |
+| [setCategories(String[] value)](#setCategories-java.lang.String---) | Contains keywords or categories for the message object. |
+| [setClientIntent(int value)](#setClientIntent-int-) | Gets or sets the actions the user has taken on this Meeting object. |
+| [setCompanies(String[] value)](#setCompanies-java.lang.String---) | Contains the names of the companies that are associated with an item. |
+| [setEndDate(Date value)](#setEndDate-java.util.Date-) | Gets or sets the end date and time of the event. |
+| [setEndDateTimeZone(MapiCalendarTimeZone value)](#setEndDateTimeZone-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that indicates the time zone of the EndDate property |
+| [setKeyWords(String value)](#setKeyWords-java.lang.String-) | Gets or sets the categories of the calendar object |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Gets or sets the location of the event |
+| [setMessageClass(String value)](#setMessageClass-java.lang.String-) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
+| [setMessageFlags(long flags)](#setMessageFlags-long-) | Sets the message flags. |
+| [setMileage(String value)](#setMileage-java.lang.String-) | Contains the mileage information that is associated with an item. |
+| [setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)](#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-) | Sets the named property mapping. |
+| [setOrganizer(MapiElectronicAddress value)](#setOrganizer-com.aspose.email.MapiElectronicAddress-) | Gets or sets the organizer. |
+| [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
+| [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
+| [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
+| [setRecurrence(MapiCalendarEventRecurrence value)](#setRecurrence-com.aspose.email.MapiCalendarEventRecurrence-) | Gets or sets the recurrence properties |
+| [setReminderDelta(int value)](#setReminderDelta-int-) | Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object |
+| [setReminderFileParameter(String value)](#setReminderFileParameter-java.lang.String-) | Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue. |
+| [setReminderSet(boolean value)](#setReminderSet-boolean-) | Gets or sets a value indicating whether a reminder is set on the object |
+| [setSensitivity(int value)](#setSensitivity-int-) | Gets the Sensitivity. |
+| [setSequence(int value)](#setSequence-int-) | Gets or sets the sequence number |
+| [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date and time of the event. |
+| [setStartDateTimeZone(MapiCalendarTimeZone value)](#setStartDateTimeZone-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that indicates the time zone of the StartDate property |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
+| [setUid(String value)](#setUid-java.lang.String-) | Gets the unique identifier |
+| [toString()](#toString--) |  |
+| [tryGetPropertyData(long tag)](#tryGetPropertyData-long-) | Try to get the property data with specified tag key. |
+| [tryGetPropertyDateTime(long tag, Date[] value)](#tryGetPropertyDateTime-long-java.util.Date---) | Gets the value of the specified property as DateTime type. |
+| [tryGetPropertyInt32(long tag, int[] value)](#tryGetPropertyInt32-long-int---) | Gets the value of the specified property as Int32 type. |
+| [tryGetPropertyLong(long tag, long[] value)](#tryGetPropertyLong-long-long---) | Gets the value of the specified property as Long type. |
+| [tryGetPropertyString(long tag)](#tryGetPropertyString-long-) | Try to get a property data as string with specified tag. |
+| [tryGetPropertyString(long tag, int codepage)](#tryGetPropertyString-long-int-) | Try to get a property data as string with specified tag and code page. |
+| [tryGetPropertyString(long tag, String[] value)](#tryGetPropertyString-long-java.lang.String---) | Gets the value of the specified property as String type. |
+| [tryGetPropertyString(long tag, String[] value, int codepage)](#tryGetPropertyString-long-java.lang.String---int-) | Gets the value of the specified property as String type. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MapiCalendar() {#MapiCalendar--}
 ```
 public MapiCalendar()
@@ -129,98 +200,52 @@ Initializes a new instance of the [MapiCalendar](../../com.aspose.email/mapicale
 | organizer | [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress) | The meeting organizer. |
 | attendees | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) | The meeting attendees. |
 
-### getOrganizer() {#getOrganizer--}
+### close() {#close--}
 ```
-public final MapiElectronicAddress getOrganizer()
-```
-
-
-Gets or sets the organizer.
-
-**Returns:**
-[MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress)
-### setOrganizer(MapiElectronicAddress value) {#setOrganizer-com.aspose.email.MapiElectronicAddress-}
-```
-public final void setOrganizer(MapiElectronicAddress value)
+public void close()
 ```
 
 
-Gets or sets the organizer.
+
+
+### createMapiNode(String key) {#createMapiNode-java.lang.String-}
+```
+public IMapiNode createMapiNode(String key)
+```
+
+
+Creates the mapi node.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress) |  |
-
-### getReminderDelta() {#getReminderDelta--}
-```
-public final int getReminderDelta()
-```
-
-
-Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object
+| key | java.lang.String | The node key. |
 
 **Returns:**
-int
-### setReminderDelta(int value) {#setReminderDelta-int-}
+com.aspose.email.IMapiNode - The IMapiNode interface.
+### dispose() {#dispose--}
 ```
-public final void setReminderDelta(int value)
+public void dispose()
 ```
 
 
-Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object
+Releases all resources.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
-
-### getReminderSet() {#getReminderSet--}
-```
-public final boolean getReminderSet()
-```
-
-
-Gets or sets a value indicating whether a reminder is set on the object
+| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
-### setReminderSet(boolean value) {#setReminderSet-boolean-}
-```
-public final void setReminderSet(boolean value)
-```
-
-
-Gets or sets a value indicating whether a reminder is set on the object
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getReminderFileParameter() {#getReminderFileParameter--}
-```
-public final String getReminderFileParameter()
-```
-
-
-Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue.
-
-**Returns:**
-java.lang.String
-### setReminderFileParameter(String value) {#setReminderFileParameter-java.lang.String-}
-```
-public final void setReminderFileParameter(String value)
-```
-
-
-Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
 ### getAppointmentCounterProposal() {#getAppointmentCounterProposal--}
 ```
 public final boolean getAppointmentCounterProposal()
@@ -231,88 +256,18 @@ Gets or sets a value indicating whether a Meeting Response object is a counter p
 
 **Returns:**
 boolean
-### setAppointmentCounterProposal(boolean value) {#setAppointmentCounterProposal-boolean-}
+### getAttachments() {#getAttachments--}
 ```
-public final void setAppointmentCounterProposal(boolean value)
-```
-
-
-Gets or sets a value indicating whether a Meeting Response object is a counter proposal.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getClientIntent() {#getClientIntent--}
-```
-public final int getClientIntent()
+public final MapiAttachmentCollection getAttachments()
 ```
 
 
-Gets or sets the actions the user has taken on this Meeting object.
+Gets the attachments in the message.
+
+Value: The attachment collection.
 
 **Returns:**
-int
-### setClientIntent(int value) {#setClientIntent-int-}
-```
-public final void setClientIntent(int value)
-```
-
-
-Gets or sets the actions the user has taken on this Meeting object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getStartDateTimeZone() {#getStartDateTimeZone--}
-```
-public final MapiCalendarTimeZone getStartDateTimeZone()
-```
-
-
-Gets or sets time zone information that indicates the time zone of the StartDate property
-
-**Returns:**
-[MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
-### setStartDateTimeZone(MapiCalendarTimeZone value) {#setStartDateTimeZone-com.aspose.email.MapiCalendarTimeZone-}
-```
-public final void setStartDateTimeZone(MapiCalendarTimeZone value)
-```
-
-
-Gets or sets time zone information that indicates the time zone of the StartDate property
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) |  |
-
-### getEndDateTimeZone() {#getEndDateTimeZone--}
-```
-public final MapiCalendarTimeZone getEndDateTimeZone()
-```
-
-
-Gets or sets time zone information that indicates the time zone of the EndDate property
-
-**Returns:**
-[MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
-### setEndDateTimeZone(MapiCalendarTimeZone value) {#setEndDateTimeZone-com.aspose.email.MapiCalendarTimeZone-}
-```
-public final void setEndDateTimeZone(MapiCalendarTimeZone value)
-```
-
-
-Gets or sets time zone information that indicates the time zone of the EndDate property
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) |  |
-
+[MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection)
 ### getAttendees() {#getAttendees--}
 ```
 public final MapiCalendarAttendees getAttendees()
@@ -323,157 +278,66 @@ Gets or sets the attendees
 
 **Returns:**
 [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees)
-### setAttendees(MapiCalendarAttendees value) {#setAttendees-com.aspose.email.MapiCalendarAttendees-}
+### getBilling() {#getBilling--}
 ```
-public final void setAttendees(MapiCalendarAttendees value)
-```
-
-
-Gets or sets the attendees
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) |  |
-
-### getRecurrence() {#getRecurrence--}
-```
-public final MapiCalendarEventRecurrence getRecurrence()
+public final String getBilling()
 ```
 
 
-Gets or sets the recurrence properties
-
-**Returns:**
-[MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence)
-### setRecurrence(MapiCalendarEventRecurrence value) {#setRecurrence-com.aspose.email.MapiCalendarEventRecurrence-}
-```
-public final void setRecurrence(MapiCalendarEventRecurrence value)
-```
-
-
-Gets or sets the recurrence properties
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) |  |
-
-### isAllDay() {#isAllDay--}
-```
-public final boolean isAllDay()
-```
-
-
-Gets or sets a value indicating whether the event is an all-day event
-
-**Returns:**
-boolean
-### setAllDay(boolean value) {#setAllDay-boolean-}
-```
-public final void setAllDay(boolean value)
-```
-
-
-Gets or sets a value indicating whether the event is an all-day event
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getKeyWords() {#getKeyWords--}
-```
-public final String getKeyWords()
-```
-
-
-Gets or sets the categories of the calendar object
+Contains the billing information associated with an item.
 
 **Returns:**
 java.lang.String
-### setKeyWords(String value) {#setKeyWords-java.lang.String-}
+### getBody() {#getBody--}
 ```
-public final void setKeyWords(String value)
-```
-
-
-Gets or sets the categories of the calendar object
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getStartDate() {#getStartDate--}
-```
-public final Date getStartDate()
+public String getBody()
 ```
 
 
-Gets or sets the start date and time of the event. If the date is not set, default value for java.util.Date is returned.
+Gets the message text.
+
+Value: The string that represents message body.
 
 **Returns:**
-java.util.Date
-### setStartDate(Date value) {#setStartDate-java.util.Date-}
+java.lang.String
+### getBodyHtml() {#getBodyHtml--}
 ```
-public final void setStartDate(Date value)
-```
-
-
-Gets or sets the start date and time of the event. If the date is not set, default value for java.util.Date is returned.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getEndDate() {#getEndDate--}
-```
-public final Date getEndDate()
+public final String getBodyHtml()
 ```
 
 
-Gets or sets the end date and time of the event. If the date is not set, default value for java.util.Date is returned.
+Gets the  BodyRtf (\#getBodyRtf.getBodyRtf/\#setBodyRtf(String).setBodyRtf(String)) of the message converted to HTML, if present, otherwise an empty string.
 
 **Returns:**
-java.util.Date
-### setEndDate(Date value) {#setEndDate-java.util.Date-}
+java.lang.String
+### getBodyRtf() {#getBodyRtf--}
 ```
-public final void setEndDate(Date value)
-```
-
-
-Gets or sets the end date and time of the event. If the date is not set, default value for java.util.Date is returned.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
-### getSequence() {#getSequence--}
-```
-public final int getSequence()
+public final String getBodyRtf()
 ```
 
 
-Gets or sets the sequence number
+Gets or sets the RTF formatted message text.
+
+Value: The string that represents message body rtf.
+
+--------------------
+
+When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+
+**Returns:**
+java.lang.String
+### getBodyType() {#getBodyType--}
+```
+public final int getBodyType()
+```
+
+
+Gets the type of the body.
+
+Value: The type of the body.
 
 **Returns:**
 int
-### setSequence(int value) {#setSequence-int-}
-```
-public final void setSequence(int value)
-```
-
-
-Gets or sets the sequence number
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### getBusyStatus() {#getBusyStatus--}
 ```
 public final int getBusyStatus()
@@ -484,19 +348,98 @@ Gets or sets the busy status
 
 **Returns:**
 int
-### setBusyStatus(int value) {#setBusyStatus-int-}
+### getCategories() {#getCategories--}
 ```
-public final void setBusyStatus(int value)
+public final String[] getCategories()
 ```
 
 
-Gets or sets the busy status
+Contains keywords or categories for the message object.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
+**Returns:**
+java.lang.String[]
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
 
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getClientIntent() {#getClientIntent--}
+```
+public final int getClientIntent()
+```
+
+
+Gets or sets the actions the user has taken on this Meeting object.
+
+**Returns:**
+int
+### getCodePage() {#getCodePage--}
+```
+public int getCodePage()
+```
+
+
+Gets the code page.
+
+Value: The code page.
+
+**Returns:**
+int
+### getCompanies() {#getCompanies--}
+```
+public final String[] getCompanies()
+```
+
+
+Contains the names of the companies that are associated with an item.
+
+**Returns:**
+java.lang.String[]
+### getEndDate() {#getEndDate--}
+```
+public final Date getEndDate()
+```
+
+
+Gets or sets the end date and time of the event. If the date is not set, default value for java.util.Date is returned.
+
+**Returns:**
+java.util.Date
+### getEndDateTimeZone() {#getEndDateTimeZone--}
+```
+public final MapiCalendarTimeZone getEndDateTimeZone()
+```
+
+
+Gets or sets time zone information that indicates the time zone of the EndDate property
+
+**Returns:**
+[MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
+### getItemId() {#getItemId--}
+```
+public String getItemId()
+```
+
+
+The item id, uses with a server
+
+**Returns:**
+java.lang.String
+### getKeyWords() {#getKeyWords--}
+```
+public final String getKeyWords()
+```
+
+
+Gets or sets the categories of the calendar object
+
+**Returns:**
+java.lang.String
 ### getLocation() {#getLocation--}
 ```
 public final String getLocation()
@@ -507,19 +450,356 @@ Gets or sets the location of the event
 
 **Returns:**
 java.lang.String
-### setLocation(String value) {#setLocation-java.lang.String-}
+### getMessageClass() {#getMessageClass--}
 ```
-public final void setLocation(String value)
+public final String getMessageClass()
 ```
 
 
-Gets or sets the location of the event
+Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
+
+Value: The string that represents message class.
+
+**Returns:**
+java.lang.String
+### getMileage() {#getMileage--}
+```
+public final String getMileage()
+```
+
+
+Contains the mileage information that is associated with an item.
+
+**Returns:**
+java.lang.String
+### getNamedProperties() {#getNamedProperties--}
+```
+public final MapiPropertyCollection getNamedProperties()
+```
+
+
+Gets the named properties of message.
+
+Value: The collection of named properties.
+
+**Returns:**
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+### getNamedPropertyMapping() {#getNamedPropertyMapping--}
+```
+public final MapiNamedPropertyMappingStorage getNamedPropertyMapping()
+```
+
+
+Gets the named property mapping.
+
+Value: The named property mapping.
+
+**Returns:**
+[MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage)
+### getOrganizer() {#getOrganizer--}
+```
+public final MapiElectronicAddress getOrganizer()
+```
+
+
+Gets or sets the organizer.
+
+**Returns:**
+[MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress)
+### getProperties() {#getProperties--}
+```
+public MapiPropertyCollection getProperties()
+```
+
+
+Gets the collection of properties.
+
+Value: The properties.
+
+**Returns:**
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+### getProperty(PropertyDescriptor pd) {#getProperty-com.aspose.email.PropertyDescriptor-}
+```
+public MapiProperty getProperty(PropertyDescriptor pd)
+```
+
+
+Gets MAPI property by property descriptor.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | Property descriptor for looked property |
 
+**Returns:**
+[MapiProperty](../../com.aspose.email/mapiproperty) - Mapi property if it is found, otherwise null.
+### getPropertyBoolean(long tag) {#getPropertyBoolean-long-}
+```
+public final Boolean getPropertyBoolean(long tag)
+```
+
+
+Gets the value of the property specified by tag as Boolean type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+java.lang.Boolean - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyBytes(long tag) {#getPropertyBytes-long-}
+```
+public final byte[] getPropertyBytes(long tag)
+```
+
+
+Gets the string value of the property specified by tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+byte[] - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyDateTime(long key) {#getPropertyDateTime-long-}
+```
+public final Date getPropertyDateTime(long key)
+```
+
+
+Gets the value of the property specified by tag as DateTime type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | long | The MAPI property tag. |
+
+**Returns:**
+java.util.Date - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyInt32(long tag) {#getPropertyInt32-long-}
+```
+public final Integer getPropertyInt32(long tag)
+```
+
+
+Gets the int32 value of the property specified by tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+java.lang.Integer - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyLong(long tag) {#getPropertyLong-long-}
+```
+public final Long getPropertyLong(long tag)
+```
+
+
+Gets the value of the property specified by tag as Long (int64) type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+java.lang.Long - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyShort(long tag) {#getPropertyShort-long-}
+```
+public final Short getPropertyShort(long tag)
+```
+
+
+Gets the value of the property specified by tag as Short type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+java.lang.Short - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyStream() {#getPropertyStream--}
+```
+public final MapiPropertyStream getPropertyStream()
+```
+
+
+Gets the property stream.
+
+Value: The property stream.
+
+**Returns:**
+[MapiPropertyStream](../../com.aspose.email/mapipropertystream)
+### getPropertyString(long tag) {#getPropertyString-long-}
+```
+public final String getPropertyString(long tag)
+```
+
+
+Gets the string value of the property specified by tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+
+**Returns:**
+java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getPropertyString(long tag, int codepage) {#getPropertyString-long-int-}
+```
+public final String getPropertyString(long tag, int codepage)
+```
+
+
+Gets the string value of the property specified by tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| codepage | int | The specified codepage used to get string value. |
+
+**Returns:**
+java.lang.String - The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
+### getRecipients() {#getRecipients--}
+```
+public final MapiRecipientCollection getRecipients()
+```
+
+
+Gets the recipients of the message.
+
+Value: The collection of recipients.
+
+**Returns:**
+[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection)
+### getRecurrence() {#getRecurrence--}
+```
+public final MapiCalendarEventRecurrence getRecurrence()
+```
+
+
+Gets or sets the recurrence properties
+
+**Returns:**
+[MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence)
+### getReminderDelta() {#getReminderDelta--}
+```
+public final int getReminderDelta()
+```
+
+
+Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object
+
+**Returns:**
+int
+### getReminderFileParameter() {#getReminderFileParameter--}
+```
+public final String getReminderFileParameter()
+```
+
+
+Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue.
+
+**Returns:**
+java.lang.String
+### getReminderSet() {#getReminderSet--}
+```
+public final boolean getReminderSet()
+```
+
+
+Gets or sets a value indicating whether a reminder is set on the object
+
+**Returns:**
+boolean
+### getSensitivity() {#getSensitivity--}
+```
+public final int getSensitivity()
+```
+
+
+Gets the Sensitivity.
+
+Value: The sensitivity.
+
+**Returns:**
+int
+### getSequence() {#getSequence--}
+```
+public final int getSequence()
+```
+
+
+Gets or sets the sequence number
+
+**Returns:**
+int
+### getStartDate() {#getStartDate--}
+```
+public final Date getStartDate()
+```
+
+
+Gets or sets the start date and time of the event. If the date is not set, default value for java.util.Date is returned.
+
+**Returns:**
+java.util.Date
+### getStartDateTimeZone() {#getStartDateTimeZone--}
+```
+public final MapiCalendarTimeZone getStartDateTimeZone()
+```
+
+
+Gets or sets time zone information that indicates the time zone of the StartDate property
+
+**Returns:**
+[MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone)
+### getSubStorages() {#getSubStorages--}
+```
+public final MapiPropertyCollection getSubStorages()
+```
+
+
+Gets the sub storages.
+
+Value: The sub storages.
+
+**Returns:**
+[MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+### getSubject() {#getSubject--}
+```
+public final String getSubject()
+```
+
+
+Gets or sets the subject of the message.
+
+Value: The string that represents message subject.
+
+--------------------
+
+When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+
+**Returns:**
+java.lang.String
+### getSubjectPrefix() {#getSubjectPrefix--}
+```
+public final String getSubjectPrefix()
+```
+
+
+Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding.
+
+Value: The string that represents subject prefix.
+
+**Returns:**
+java.lang.String
 ### getUid() {#getUid--}
 ```
 public final String getUid()
@@ -530,45 +810,64 @@ Gets the unique identifier
 
 **Returns:**
 java.lang.String
-### setUid(String value) {#setUid-java.lang.String-}
+### hashCode() {#hashCode--}
 ```
-public final void setUid(String value)
+public native int hashCode()
 ```
 
 
-Gets the unique identifier
+
+
+**Returns:**
+int
+### isAllDay() {#isAllDay--}
+```
+public final boolean isAllDay()
+```
+
+
+Gets or sets a value indicating whether the event is an all-day event
+
+**Returns:**
+boolean
+### isStoreUnicodeOk() {#isStoreUnicodeOk--}
+```
+public final boolean isStoreUnicodeOk()
+```
+
+
+Determines if string properties are Unicode encoded or not.
+
+**Returns:**
+boolean - True, if string properties are Unicode encoded.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeProperty(long tag) {#removeProperty-long-}
+```
+public final void removeProperty(long tag)
+```
+
+
+Provides correctly removing property from all collections.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### save(String filePath) {#save-java.lang.String-}
-```
-public final void save(String filePath)
-```
-
-
-Saves calendar object to the file with iCalendar format using te default save options
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A file path |
-
-### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
-```
-public final void save(String filePath, int saveFormat)
-```
-
-
-Saves calendar object to the file with specified format using te default save options
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A file path |
-| saveFormat | int | A save format |
+| tag | long | The tag of MapiProperty. |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -582,6 +881,20 @@ Saves calendar object to the file with iCalendar format using te default save op
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | A stream to save to |
+
+### save(OutputStream stream, MapiCalendarSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.MapiCalendarSaveOptions-}
+```
+public final void save(OutputStream stream, MapiCalendarSaveOptions saveOptions)
+```
+
+
+Saves calendar to the stream with specified save options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | A stream to save to |
+| saveOptions | [MapiCalendarSaveOptions](../../com.aspose.email/mapicalendarsaveoptions) | A save options |
 
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
@@ -597,11 +910,710 @@ Saves calendar object to the stream with specified format using te default save 
 | stream | java.io.OutputStream | A stream to save to |
 | saveFormat | int | A save format |
 
-### dispose() {#dispose--}
+### save(String filePath) {#save-java.lang.String-}
 ```
-public void dispose()
+public final void save(String filePath)
 ```
 
 
-Releases all resources.
+Saves calendar object to the file with iCalendar format using te default save options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file path |
+
+### save(String filePath, MapiCalendarSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.MapiCalendarSaveOptions-}
+```
+public final void save(String filePath, MapiCalendarSaveOptions saveOptions)
+```
+
+
+Saves calendar object to the file with specified format using te default save options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file path |
+| saveOptions | [MapiCalendarSaveOptions](../../com.aspose.email/mapicalendarsaveoptions) | A save options |
+
+### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
+```
+public final void save(String filePath, int saveFormat)
+```
+
+
+Saves calendar object to the file with specified format using te default save options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file path |
+| saveFormat | int | A save format |
+
+### setAllDay(boolean value) {#setAllDay-boolean-}
+```
+public final void setAllDay(boolean value)
+```
+
+
+Gets or sets a value indicating whether the event is an all-day event
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAppointmentCounterProposal(boolean value) {#setAppointmentCounterProposal-boolean-}
+```
+public final void setAppointmentCounterProposal(boolean value)
+```
+
+
+Gets or sets a value indicating whether a Meeting Response object is a counter proposal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAttendees(MapiCalendarAttendees value) {#setAttendees-com.aspose.email.MapiCalendarAttendees-}
+```
+public final void setAttendees(MapiCalendarAttendees value)
+```
+
+
+Gets or sets the attendees
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiCalendarAttendees](../../com.aspose.email/mapicalendarattendees) |  |
+
+### setBilling(String value) {#setBilling-java.lang.String-}
+```
+public final void setBilling(String value)
+```
+
+
+Contains the billing information associated with an item.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setBody(String value) {#setBody-java.lang.String-}
+```
+public void setBody(String value)
+```
+
+
+Gets the message text.
+
+Value: The string that represents message body.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setBodyContent(String content, int contentType) {#setBodyContent-java.lang.String-int-}
+```
+public void setBodyContent(String content, int contentType)
+```
+
+
+Sets the content of the body.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| content | java.lang.String | The content. |
+| contentType | int | Type of the content.
+
+--------------------
+
+It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+
+### setBodyContent(String content, int contentType, boolean compression) {#setBodyContent-java.lang.String-int-boolean-}
+```
+public void setBodyContent(String content, int contentType, boolean compression)
+```
+
+
+Sets the content of the body.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| content | java.lang.String | The content. |
+| contentType | int | Type of the content. |
+| compression | boolean | Specify that the content should be compressed.
+
+--------------------
+
+It is provided for setting of the content of the body message in RTF, HTML or Plain Text formats. When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated as well. Note, after the value in HTML format is set, BodyRtf property returns the value which is encoded within RTF. |
+
+### setBodyRtf(String value) {#setBodyRtf-java.lang.String-}
+```
+public final void setBodyRtf(String value)
+```
+
+
+Gets or sets the RTF formatted message text.
+
+Value: The string that represents message body rtf.
+
+--------------------
+
+When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setBodyRtf(String value, boolean compression) {#setBodyRtf-java.lang.String-boolean-}
+```
+public final void setBodyRtf(String value, boolean compression)
+```
+
+
+Gets or sets the RTF formatted message text.
+
+Value: The string that represents message body rtf.
+
+--------------------
+
+When setting a value, the values of PR\_RTF\_COMPRESSED, PR\_RTF\_DECOMPRESSES, PR\_BODY properties are updated. A string value being set must have RTF format. Thus, if it is necessary to set a value in HTML format, the value must be first to encoded within RTF, according to RTF Extensions Specification. To set the content of the body message in HTML or Plain Text formats quickly, please, use SetBodyContent method. When setting a null value or empty string, the values of BodyRtf and Body properties are set null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+| compression | boolean | Specify that the content should be compressed. |
+
+### setBusyStatus(int value) {#setBusyStatus-int-}
+```
+public final void setBusyStatus(int value)
+```
+
+
+Gets or sets the busy status
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setCategories(String[] value) {#setCategories-java.lang.String---}
+```
+public final void setCategories(String[] value)
+```
+
+
+Contains keywords or categories for the message object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String[] |  |
+
+### setClientIntent(int value) {#setClientIntent-int-}
+```
+public final void setClientIntent(int value)
+```
+
+
+Gets or sets the actions the user has taken on this Meeting object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setCompanies(String[] value) {#setCompanies-java.lang.String---}
+```
+public final void setCompanies(String[] value)
+```
+
+
+Contains the names of the companies that are associated with an item.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String[] |  |
+
+### setEndDate(Date value) {#setEndDate-java.util.Date-}
+```
+public final void setEndDate(Date value)
+```
+
+
+Gets or sets the end date and time of the event. If the date is not set, default value for java.util.Date is returned.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setEndDateTimeZone(MapiCalendarTimeZone value) {#setEndDateTimeZone-com.aspose.email.MapiCalendarTimeZone-}
+```
+public final void setEndDateTimeZone(MapiCalendarTimeZone value)
+```
+
+
+Gets or sets time zone information that indicates the time zone of the EndDate property
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) |  |
+
+### setKeyWords(String value) {#setKeyWords-java.lang.String-}
+```
+public final void setKeyWords(String value)
+```
+
+
+Gets or sets the categories of the calendar object
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setLocation(String value) {#setLocation-java.lang.String-}
+```
+public final void setLocation(String value)
+```
+
+
+Gets or sets the location of the event
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setMessageClass(String value) {#setMessageClass-java.lang.String-}
+```
+public final void setMessageClass(String value)
+```
+
+
+Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message.
+
+Value: The string that represents message class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setMessageFlags(long flags) {#setMessageFlags-long-}
+```
+public final void setMessageFlags(long flags)
+```
+
+
+Sets the message flags.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| flags | long | The message flags. |
+
+### setMileage(String value) {#setMileage-java.lang.String-}
+```
+public final void setMileage(String value)
+```
+
+
+Contains the mileage information that is associated with an item.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setNamedPropertyMapping(MapiNamedPropertyMappingStorage value) {#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-}
+```
+public final void setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)
+```
+
+
+Sets the named property mapping.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiNamedPropertyMappingStorage](../../com.aspose.email/mapinamedpropertymappingstorage) | The MapiNamedPropertyMappingStorage. |
+
+### setOrganizer(MapiElectronicAddress value) {#setOrganizer-com.aspose.email.MapiElectronicAddress-}
+```
+public final void setOrganizer(MapiElectronicAddress value)
+```
+
+
+Gets or sets the organizer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiElectronicAddress](../../com.aspose.email/mapielectronicaddress) |  |
+
+### setProperty(MapiProperty value) {#setProperty-com.aspose.email.MapiProperty-}
+```
+public void setProperty(MapiProperty value)
+```
+
+
+Sets the property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiProperty](../../com.aspose.email/mapiproperty) | The property. |
+
+### setProperty(PropertyDescriptor pd, Object value) {#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-}
+```
+public void setProperty(PropertyDescriptor pd, Object value)
+```
+
+
+Sets MAPI property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pd | [PropertyDescriptor](../../com.aspose.email/propertydescriptor) | The property descriptor. |
+| value | java.lang.Object | The property data. |
+
+### setRecipients(MapiRecipientCollection value) {#setRecipients-com.aspose.email.MapiRecipientCollection-}
+```
+public final void setRecipients(MapiRecipientCollection value)
+```
+
+
+Gets the recipients of the message.
+
+Value: The collection of recipients.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) |  |
+
+### setRecurrence(MapiCalendarEventRecurrence value) {#setRecurrence-com.aspose.email.MapiCalendarEventRecurrence-}
+```
+public final void setRecurrence(MapiCalendarEventRecurrence value)
+```
+
+
+Gets or sets the recurrence properties
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiCalendarEventRecurrence](../../com.aspose.email/mapicalendareventrecurrence) |  |
+
+### setReminderDelta(int value) {#setReminderDelta-int-}
+```
+public final void setReminderDelta(int value)
+```
+
+
+Gets or sets the interval, in minutes, between the time at which the reminder first becomes overdue and the start time of the Calendar object
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setReminderFileParameter(String value) {#setReminderFileParameter-java.lang.String-}
+```
+public final void setReminderFileParameter(String value)
+```
+
+
+Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setReminderSet(boolean value) {#setReminderSet-boolean-}
+```
+public final void setReminderSet(boolean value)
+```
+
+
+Gets or sets a value indicating whether a reminder is set on the object
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSensitivity(int value) {#setSensitivity-int-}
+```
+public final void setSensitivity(int value)
+```
+
+
+Gets the Sensitivity.
+
+Value: The sensitivity.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSequence(int value) {#setSequence-int-}
+```
+public final void setSequence(int value)
+```
+
+
+Gets or sets the sequence number
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStartDate(Date value) {#setStartDate-java.util.Date-}
+```
+public final void setStartDate(Date value)
+```
+
+
+Gets or sets the start date and time of the event. If the date is not set, default value for java.util.Date is returned.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### setStartDateTimeZone(MapiCalendarTimeZone value) {#setStartDateTimeZone-com.aspose.email.MapiCalendarTimeZone-}
+```
+public final void setStartDateTimeZone(MapiCalendarTimeZone value)
+```
+
+
+Gets or sets time zone information that indicates the time zone of the StartDate property
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) |  |
+
+### setSubject(String value) {#setSubject-java.lang.String-}
+```
+public final void setSubject(String value)
+```
+
+
+Gets or sets the subject of the message.
+
+Value: The string that represents message subject.
+
+--------------------
+
+When setting a value, the values of SubjectPrefix(PR\_SUBJECT\_PREFIX) and NormalizedSubject(PR\_NORMALIZED\_SUBJECT) properties are updated as well. If Subject has no prefix, the value of SubjectPrefix property is set null. When setting a null value or empty string, the values of Subject, SubjectPrefix, NormalizedSubject properties are set null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setUid(String value) {#setUid-java.lang.String-}
+```
+public final void setUid(String value)
+```
+
+
+Gets the unique identifier
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### tryGetPropertyData(long tag) {#tryGetPropertyData-long-}
+```
+public final byte[] tryGetPropertyData(long tag)
+```
+
+
+Try to get the property data with specified tag key.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The tag key. |
+
+**Returns:**
+byte[] - The property data.
+### tryGetPropertyDateTime(long tag, Date[] value) {#tryGetPropertyDateTime-long-java.util.Date---}
+```
+public final boolean tryGetPropertyDateTime(long tag, Date[] value)
+```
+
+
+Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | java.util.Date[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyInt32(long tag, int[] value) {#tryGetPropertyInt32-long-int---}
+```
+public final boolean tryGetPropertyInt32(long tag, int[] value)
+```
+
+
+Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | int[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyLong(long tag, long[] value) {#tryGetPropertyLong-long-long---}
+```
+public final boolean tryGetPropertyLong(long tag, long[] value)
+```
+
+
+Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | long[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyString(long tag) {#tryGetPropertyString-long-}
+```
+public final String tryGetPropertyString(long tag)
+```
+
+
+Try to get a property data as string with specified tag.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The property tag key. |
+
+**Returns:**
+java.lang.String - String that contains the contents of property data.
+### tryGetPropertyString(long tag, int codepage) {#tryGetPropertyString-long-int-}
+```
+public final String tryGetPropertyString(long tag, int codepage)
+```
+
+
+Try to get a property data as string with specified tag and code page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The property tag key. |
+| codepage | int | The code page. |
+
+**Returns:**
+java.lang.String - String that contains the contents of property data.
+### tryGetPropertyString(long tag, String[] value) {#tryGetPropertyString-long-java.lang.String---}
+```
+public final boolean tryGetPropertyString(long tag, String[] value)
+```
+
+
+Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### tryGetPropertyString(long tag, String[] value, int codepage) {#tryGetPropertyString-long-java.lang.String---int-}
+```
+public final boolean tryGetPropertyString(long tag, String[] value, int codepage)
+```
+
+
+Gets the value of the specified property as String type. A return value indicates whether the operation succeeded.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tag | long | The MAPI property tag. |
+| value | java.lang.String[] | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
+| codepage | int | The specified codepage used to get string value. |
+
+**Returns:**
+boolean - true if s was converted successfully; otherwise, false.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

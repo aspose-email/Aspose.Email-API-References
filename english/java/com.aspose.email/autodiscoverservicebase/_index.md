@@ -6,6 +6,7 @@ type: docs
 weight: 74
 url: /java/com.aspose.email/autodiscoverservicebase/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

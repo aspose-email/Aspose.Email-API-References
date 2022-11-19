@@ -6,6 +6,7 @@ type: docs
 weight: 51
 url: /java/com.aspose.email/asposeargumentnullexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.email.AsposeException](../../com.aspose.email/asposeexception), [com.aspose.email.AsposeArgumentException](../../com.aspose.email/asposeargumentexception)
 ```

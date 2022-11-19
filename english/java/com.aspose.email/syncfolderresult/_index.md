@@ -6,6 +6,7 @@ type: docs
 weight: 651
 url: /java/com.aspose.email/syncfolderresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
