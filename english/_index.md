@@ -18,6 +18,8 @@ Aspose.Email for .NET is a suite of flexible and easy to use .NET class librarie
 
 Aspose.Email implements a number of network protocols, for example SMTP, MIME, POP3, IMAP; message file formats, for example EML, MSG, MHT; mail storage formats such as PST and MBOX; and Exchange Servers to allow developers to create a wide variety of email processing applications. Aspose.Email helps developers program without getting lost in the complexities of message format detail.
 
+Aspose.Email for .NET API Reference contains examples, code snippets, and API documentation. 
+
 {{% /alert %}} 
 
 These are links to useful resources:
@@ -30,6 +32,8 @@ These are links to useful resources:
 ![Aspose.Email for Java Product Logo](home_2.png)
 
 Aspose.Email for Java is a Java API that enables Java applications to read and write Microsoft Outlook® documents without using Microsoft Outlook®. Aspose.Email for Java provides a number of key features such as managing recipients, subject, body, attachments in Microsoft Outlook® MSG documents and reading contacts, messages and folder information from Microsoft Outlook® PST documents. It can also be used to create, modify and convert email messages in EML, MSG and MHT formats.
+
+Aspose.Email for Java API Reference contains examples, code snippets, and API documentation. 
 
 {{% /alert %}} 
 
@@ -64,5 +68,18 @@ Aspose.Email for Python via .NET is a Python API that enables applications to re
 These are links to useful resources:
 - [Aspose.Email for Python via .NET API Reference](/email/python-net/)
 
+## Aspose.Email for Android via Java
 
+{{% alert color="primary" %}} 
+
+![Aspose.Email for Android via Java Product Logo](home_5.png)
+
+Aspose.Email for Android via Java is a Java API that empowers Android applications to peruse and compose Microsoft Outlook® documents without utilizing Microsoft Outlook®. Aspose.Email for Android via Java gives various key features, for example, overseeing recipients, subject, body, attachments in Microsoft Outlook® MSG documents and understanding contacts, messages and folder information from Microsoft Outlook® PST documents. It can likewise be utilized to make, adjust and change over email messages in EML, MSG and MHT formats.
+
+Aspose.Email for Android via Java API Reference contains examples, code snippets, and API documentation.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+- [Aspose.Email for Android via Java API Reference](/email/androidjava/)
 
