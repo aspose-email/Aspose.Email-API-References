@@ -6,6 +6,7 @@ type: docs
 weight: 709
 url: /java/com.aspose.email/vcardsound/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 92
 url: /java/com.aspose.email/calendardeletionoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.DeletionOptions](../../com.aspose.email/deletionoptions)
 ```

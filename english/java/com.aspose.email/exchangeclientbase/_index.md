@@ -6,6 +6,7 @@ type: docs
 weight: 196
 url: /java/com.aspose.email/exchangeclientbase/
 ---
+
 **Inheritance:**
 java.lang.Object
 

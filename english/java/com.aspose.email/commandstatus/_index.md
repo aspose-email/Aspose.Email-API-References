@@ -6,6 +6,7 @@ type: docs
 weight: 108
 url: /java/com.aspose.email/commandstatus/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

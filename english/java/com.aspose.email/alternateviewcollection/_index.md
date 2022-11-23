@@ -6,6 +6,7 @@ type: docs
 weight: 16
 url: /java/com.aspose.email/alternateviewcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 

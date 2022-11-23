@@ -6,6 +6,7 @@ type: docs
 weight: 479
 url: /java/com.aspose.email/mboxstoragereader/
 ---
+
 **Inheritance:**
 java.lang.Object
 

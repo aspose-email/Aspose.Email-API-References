@@ -6,6 +6,7 @@ type: docs
 weight: 361
 url: /java/com.aspose.email/msbusystatus/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

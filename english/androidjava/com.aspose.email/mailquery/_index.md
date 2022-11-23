@@ -1,11 +1,12 @@
 ---
 title: MailQuery
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents the search criteria that are used to match several message properties in the mailbox.
+description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
 weight: 196
-url: /java/com.aspose.email/mailquery/
+url: /androidjava/com.aspose.email/mailquery/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -23,11 +24,17 @@ Represents the search criteria, that are used to match several message propertie
 
 | Method | Description |
 | --- | --- |
-| [getOrderByString()](#getOrderByString--) | The sort query string. |
 | [equals(MailQuery other)](#equals-com.aspose.email.MailQuery-) | Indicates whether the current object is equal to another object of the same type. |
-| [hashCode()](#hashCode--) | Returns a hash code for this instance. |
-| [toString()](#toString--) | Returns a String that represents this instance. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object, is equal to this instance. |
+| [getClass()](#getClass--) |  |
+| [getOrderByString()](#getOrderByString--) | The sort query string. |
+| [hashCode()](#hashCode--) | Returns a hash code for this instance. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) | Returns a String that represents this instance. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MailQuery(String queryString) {#MailQuery-java.lang.String-}
 ```
 public MailQuery(String queryString)
@@ -111,16 +118,6 @@ The number of simple expressions can make a compound one, ex.: (<Simple expressi
 | queryString | java.lang.String |  |
 | orderByString | java.lang.String |  |
 
-### getOrderByString() {#getOrderByString--}
-```
-public final String getOrderByString()
-```
-
-
-The sort query string.
-
-**Returns:**
-java.lang.String
 ### equals(MailQuery other) {#equals-com.aspose.email.MailQuery-}
 ```
 public final boolean equals(MailQuery other)
@@ -135,27 +132,7 @@ Indicates whether the current object is equal to another object of the same type
 | other | [MailQuery](../../com.aspose.email/mailquery) | An object to compare with this object. |
 
 **Returns:**
-boolean - true if the current object is equal to the \`\`\` other \`\`\` parameter; otherwise, false.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns a hash code for this instance.
-
-**Returns:**
-int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Returns a String that represents this instance.
-
-**Returns:**
-java.lang.String - A query string that represents this instance.
+boolean - true if the current object is equal to the  other  parameter; otherwise, false.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -170,4 +147,95 @@ Determines whether the specified Object, is equal to this instance.
 | obj | java.lang.Object | The Object to compare with this instance. |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the specified Object is equal to this instance; otherwise, \`\`\` false \`\`\`.
+boolean -  true  if the specified Object is equal to this instance; otherwise,  false .
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getOrderByString() {#getOrderByString--}
+```
+public final String getOrderByString()
+```
+
+
+The sort query string.
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code for this instance.
+
+**Returns:**
+int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a String that represents this instance.
+
+**Returns:**
+java.lang.String - A query string that represents this instance.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

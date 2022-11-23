@@ -6,6 +6,7 @@ type: docs
 weight: 487
 url: /java/com.aspose.email/messageaddedeventhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

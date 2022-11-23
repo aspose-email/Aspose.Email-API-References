@@ -6,6 +6,7 @@ type: docs
 weight: 378
 url: /java/com.aspose.email/mailtipstype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

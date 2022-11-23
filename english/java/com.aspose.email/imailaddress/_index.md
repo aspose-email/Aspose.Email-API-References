@@ -5,7 +5,8 @@ description: Represents a common mail address interface
 type: docs
 weight: 741
 url: /java/com.aspose.email/imailaddress/
----```
+---
+```
 public interface IMailAddress
 ```
 

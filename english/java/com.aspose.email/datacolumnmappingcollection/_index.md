@@ -6,6 +6,7 @@ type: docs
 weight: 138
 url: /java/com.aspose.email/datacolumnmappingcollection/
 ---
+
 **Inheritance:**
 java.lang.Object
 

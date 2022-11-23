@@ -6,6 +6,7 @@ type: docs
 weight: 289
 url: /java/com.aspose.email/headerlist/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

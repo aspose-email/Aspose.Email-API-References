@@ -6,6 +6,7 @@ type: docs
 weight: 212
 url: /java/com.aspose.email/exchangefolderpermissionlevel/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

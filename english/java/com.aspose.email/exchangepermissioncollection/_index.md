@@ -6,6 +6,7 @@ type: docs
 weight: 224
 url: /java/com.aspose.email/exchangepermissioncollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

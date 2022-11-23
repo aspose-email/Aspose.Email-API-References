@@ -6,6 +6,7 @@ type: docs
 weight: 298
 url: /java/com.aspose.email/idatareader/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

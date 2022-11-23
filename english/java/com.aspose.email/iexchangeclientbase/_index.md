@@ -6,6 +6,7 @@ type: docs
 weight: 736
 url: /java/com.aspose.email/iexchangeclientbase/
 ---
+
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable, java.io.Closeable
 ```

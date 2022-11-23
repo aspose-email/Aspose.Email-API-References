@@ -6,6 +6,7 @@ type: docs
 weight: 552
 url: /java/com.aspose.email/personalstorage/
 ---
+
 **Inheritance:**
 java.lang.Object
 

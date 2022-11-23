@@ -6,6 +6,7 @@ type: docs
 weight: 753
 url: /java/com.aspose.email/mailpriority/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

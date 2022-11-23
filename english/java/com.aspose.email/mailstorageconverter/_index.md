@@ -6,6 +6,7 @@ type: docs
 weight: 376
 url: /java/com.aspose.email/mailstorageconverter/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

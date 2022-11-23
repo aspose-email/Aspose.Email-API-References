@@ -6,6 +6,7 @@ type: docs
 weight: 679
 url: /java/com.aspose.email/unifiedmessagingconfiguration/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -1,11 +1,12 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents iCalendar save options
+description: Represents iCalendar save options
 type: docs
 weight: 31
-url: /java/com.aspose.email/appointmenticssaveoptions/
+url: /androidjava/com.aspose.email/appointmenticssaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions)
 ```
@@ -23,21 +24,31 @@ Represents iCalendar save options
 
 | Method | Description |
 | --- | --- |
-| [getDefault()](#getDefault--) | Gets the default Ics save options |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAction()](#getAction--) | Gets or sets appointment Action |
-| [setAction(int value)](#setAction-int-) | Gets or sets appointment Action |
-| [getProductId()](#getProductId--) | Gets or sets the product identifier that created iCalendar object. |
-| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the product identifier that created iCalendar object. |
-| [getSequenceId()](#getSequenceId--) | Gets or sets the sequence id. |
-| [setSequenceId(int value)](#setSequenceId-int-) | Gets or sets the sequence id. |
-| [getMethodType()](#getMethodType--) | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [setMethodType(int value)](#setMethodType-int-) | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [getStartTimeZone()](#getStartTimeZone--) | Gets or sets the Start time zone. |
-| [setStartTimeZone(String value)](#setStartTimeZone-java.lang.String-) | Gets or sets the Start time zone. |
-| [getEndTimeZone()](#getEndTimeZone--) | Gets or sets the End time zone. |
-| [setEndTimeZone(String value)](#setEndTimeZone-java.lang.String-) | Gets or sets the End time zone. |
+| [getClass()](#getClass--) |  |
 | [getCreateNew()](#getCreateNew--) | Gets or sets value indicating whether need create new calendar or append events in existing calendar. |
+| [getDefault()](#getDefault--) | Gets the default Ics save options |
+| [getEndTimeZone()](#getEndTimeZone--) | Gets or sets the End time zone. |
+| [getMethodType()](#getMethodType--) | Gets or sets the iCalendar object method type associated with the calendar object. |
+| [getProductId()](#getProductId--) | Gets or sets the product identifier that created iCalendar object. |
+| [getSaveFormat()](#getSaveFormat--) | Gets a save format |
+| [getSequenceId()](#getSequenceId--) | Gets or sets the sequence id. |
+| [getStartTimeZone()](#getStartTimeZone--) | Gets or sets the Start time zone. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAction(int value)](#setAction-int-) | Gets or sets appointment Action |
 | [setCreateNew(boolean value)](#setCreateNew-boolean-) | Gets or sets value indicating whether need create new calendar or append events in existing calendar. |
+| [setEndTimeZone(String value)](#setEndTimeZone-java.lang.String-) | Gets or sets the End time zone. |
+| [setMethodType(int value)](#setMethodType-int-) | Gets or sets the iCalendar object method type associated with the calendar object. |
+| [setProductId(String value)](#setProductId-java.lang.String-) | Gets or sets the product identifier that created iCalendar object. |
+| [setSequenceId(int value)](#setSequenceId-int-) | Gets or sets the sequence id. |
+| [setStartTimeZone(String value)](#setStartTimeZone-java.lang.String-) | Gets or sets the Start time zone. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AppointmentIcsSaveOptions() {#AppointmentIcsSaveOptions--}
 ```
 public AppointmentIcsSaveOptions()
@@ -59,16 +70,21 @@ Initializes a new instance of the [AppointmentIcsSaveOptions](../../com.aspose.e
 | --- | --- | --- |
 | method | int | An appointment method |
 
-### getDefault() {#getDefault--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public static AppointmentIcsSaveOptions getDefault()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the default Ics save options
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-[AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions)
+boolean
 ### getAction() {#getAction--}
 ```
 public final int getAction()
@@ -79,6 +95,126 @@ Gets or sets appointment Action
 
 **Returns:**
 int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCreateNew() {#getCreateNew--}
+```
+public final boolean getCreateNew()
+```
+
+
+Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true.
+
+**Returns:**
+boolean
+### getDefault() {#getDefault--}
+```
+public static AppointmentIcsSaveOptions getDefault()
+```
+
+
+Gets the default Ics save options
+
+**Returns:**
+[AppointmentIcsSaveOptions](../../com.aspose.email/appointmenticssaveoptions)
+### getEndTimeZone() {#getEndTimeZone--}
+```
+public final String getEndTimeZone()
+```
+
+
+Gets or sets the End time zone.
+
+**Returns:**
+java.lang.String
+### getMethodType() {#getMethodType--}
+```
+public final int getMethodType()
+```
+
+
+Gets or sets the iCalendar object method type associated with the calendar object.
+
+**Returns:**
+int
+### getProductId() {#getProductId--}
+```
+public final String getProductId()
+```
+
+
+Gets or sets the product identifier that created iCalendar object.
+
+Value: The product identifier.
+
+**Returns:**
+java.lang.String
+### getSaveFormat() {#getSaveFormat--}
+```
+public final int getSaveFormat()
+```
+
+
+Gets a save format
+
+**Returns:**
+int
+### getSequenceId() {#getSequenceId--}
+```
+public final int getSequenceId()
+```
+
+
+Gets or sets the sequence id.
+
+Value: The sequence id.
+
+**Returns:**
+int
+### getStartTimeZone() {#getStartTimeZone--}
+```
+public final String getStartTimeZone()
+```
+
+
+Gets or sets the Start time zone.
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setAction(int value) {#setAction-int-}
 ```
 public final void setAction(int value)
@@ -92,18 +228,45 @@ Gets or sets appointment Action
 | --- | --- | --- |
 | value | int |  |
 
-### getProductId() {#getProductId--}
+### setCreateNew(boolean value) {#setCreateNew-boolean-}
 ```
-public final String getProductId()
+public final void setCreateNew(boolean value)
 ```
 
 
-Gets or sets the product identifier that created iCalendar object.
+Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true.
 
-Value: The product identifier.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
-**Returns:**
-java.lang.String
+### setEndTimeZone(String value) {#setEndTimeZone-java.lang.String-}
+```
+public final void setEndTimeZone(String value)
+```
+
+
+Gets or sets the End time zone.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setMethodType(int value) {#setMethodType-int-}
+```
+public final void setMethodType(int value)
+```
+
+
+Gets or sets the iCalendar object method type associated with the calendar object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setProductId(String value) {#setProductId-java.lang.String-}
 ```
 public final void setProductId(String value)
@@ -119,18 +282,6 @@ Value: The product identifier.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getSequenceId() {#getSequenceId--}
-```
-public final int getSequenceId()
-```
-
-
-Gets or sets the sequence id.
-
-Value: The sequence id.
-
-**Returns:**
-int
 ### setSequenceId(int value) {#setSequenceId-int-}
 ```
 public final void setSequenceId(int value)
@@ -146,39 +297,6 @@ Value: The sequence id.
 | --- | --- | --- |
 | value | int |  |
 
-### getMethodType() {#getMethodType--}
-```
-public final int getMethodType()
-```
-
-
-Gets or sets the iCalendar object method type associated with the calendar object.
-
-**Returns:**
-int
-### setMethodType(int value) {#setMethodType-int-}
-```
-public final void setMethodType(int value)
-```
-
-
-Gets or sets the iCalendar object method type associated with the calendar object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getStartTimeZone() {#getStartTimeZone--}
-```
-public final String getStartTimeZone()
-```
-
-
-Gets or sets the Start time zone.
-
-**Returns:**
-java.lang.String
 ### setStartTimeZone(String value) {#setStartTimeZone-java.lang.String-}
 ```
 public final void setStartTimeZone(String value)
@@ -192,49 +310,48 @@ Gets or sets the Start time zone.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### getEndTimeZone() {#getEndTimeZone--}
+### toString() {#toString--}
 ```
-public final String getEndTimeZone()
+public String toString()
 ```
 
 
-Gets or sets the End time zone.
+
 
 **Returns:**
 java.lang.String
-### setEndTimeZone(String value) {#setEndTimeZone-java.lang.String-}
+### wait() {#wait--}
 ```
-public final void setEndTimeZone(String value)
+public final void wait()
 ```
 
 
-Gets or sets the End time zone.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| arg0 | long |  |
 
-### getCreateNew() {#getCreateNew--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public final boolean getCreateNew()
-```
-
-
-Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true.
-
-**Returns:**
-boolean
-### setCreateNew(boolean value) {#setCreateNew-boolean-}
-```
-public final void setCreateNew(boolean value)
+public final void wait(long arg0, int arg1)
 ```
 
 
-Gets or sets value indicating whether need create new calendar or append events in existing calendar. Default value is true.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| arg0 | long |  |
+| arg1 | int |  |
 

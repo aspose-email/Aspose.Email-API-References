@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /java/com.aspose.email/comparisonfieldadapter/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

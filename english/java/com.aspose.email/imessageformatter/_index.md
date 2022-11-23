@@ -5,7 +5,8 @@ description: Provides a mechanism for retrieving an object to Message formatting
 type: docs
 weight: 745
 url: /java/com.aspose.email/imessageformatter/
----```
+---
+```
 public interface IMessageFormatter
 ```
 

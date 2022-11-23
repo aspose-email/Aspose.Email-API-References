@@ -6,6 +6,7 @@ type: docs
 weight: 177
 url: /java/com.aspose.email/encryptionprotocols/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

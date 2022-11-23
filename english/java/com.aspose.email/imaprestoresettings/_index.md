@@ -6,6 +6,7 @@ type: docs
 weight: 328
 url: /java/com.aspose.email/imaprestoresettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

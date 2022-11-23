@@ -5,7 +5,8 @@ description: Represents a common message interface
 type: docs
 weight: 744
 url: /java/com.aspose.email/imessage/
----```
+---
+```
 public interface IMessage
 ```
 

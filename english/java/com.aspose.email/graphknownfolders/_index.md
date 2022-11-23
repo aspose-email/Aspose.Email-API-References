@@ -6,6 +6,7 @@ type: docs
 weight: 283
 url: /java/com.aspose.email/graphknownfolders/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

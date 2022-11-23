@@ -6,6 +6,7 @@ type: docs
 weight: 508
 url: /java/com.aspose.email/metered/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

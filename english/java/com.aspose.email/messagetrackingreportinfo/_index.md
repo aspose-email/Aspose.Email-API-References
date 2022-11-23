@@ -6,6 +6,7 @@ type: docs
 weight: 506
 url: /java/com.aspose.email/messagetrackingreportinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

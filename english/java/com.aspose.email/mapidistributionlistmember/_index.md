@@ -6,6 +6,7 @@ type: docs
 weight: 435
 url: /java/com.aspose.email/mapidistributionlistmember/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

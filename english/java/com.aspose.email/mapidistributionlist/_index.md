@@ -6,6 +6,7 @@ type: docs
 weight: 432
 url: /java/com.aspose.email/mapidistributionlist/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.email/mapipropertycontainer), [com.aspose.email.MapiMessageItemBase](../../com.aspose.email/mapimessageitembase)
 ```

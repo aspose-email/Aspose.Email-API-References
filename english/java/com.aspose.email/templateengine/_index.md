@@ -6,6 +6,7 @@ type: docs
 weight: 662
 url: /java/com.aspose.email/templateengine/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

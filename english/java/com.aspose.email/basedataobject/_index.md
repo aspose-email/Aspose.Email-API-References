@@ -6,6 +6,7 @@ type: docs
 weight: 77
 url: /java/com.aspose.email/basedataobject/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

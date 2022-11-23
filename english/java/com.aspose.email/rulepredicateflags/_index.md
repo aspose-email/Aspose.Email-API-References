@@ -6,6 +6,7 @@ type: docs
 weight: 608
 url: /java/com.aspose.email/rulepredicateflags/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

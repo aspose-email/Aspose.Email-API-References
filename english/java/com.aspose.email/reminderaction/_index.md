@@ -6,6 +6,7 @@ type: docs
 weight: 588
 url: /java/com.aspose.email/reminderaction/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

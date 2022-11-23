@@ -6,6 +6,7 @@ type: docs
 weight: 301
 url: /java/com.aspose.email/identityset/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

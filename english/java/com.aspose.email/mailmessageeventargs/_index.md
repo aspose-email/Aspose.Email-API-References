@@ -6,6 +6,7 @@ type: docs
 weight: 370
 url: /java/com.aspose.email/mailmessageeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

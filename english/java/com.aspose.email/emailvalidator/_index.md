@@ -6,6 +6,7 @@ type: docs
 weight: 169
 url: /java/com.aspose.email/emailvalidator/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

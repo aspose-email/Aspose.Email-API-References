@@ -1,11 +1,12 @@
 ---
 title: VCardSecurity
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents a vCard security properties
+description: Represents a vCard security properties
 type: docs
-weight: 426
-url: /java/com.aspose.email/vcardsecurity/
+weight: 432
+url: /androidjava/com.aspose.email/vcardsecurity/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -22,14 +23,23 @@ Represents a vCard security properties
 
 | Method | Description |
 | --- | --- |
-| [getKey()](#getKey--) | Gets or sets a public key(or authentication certificate) |
-| [setKey(String value)](#setKey-java.lang.String-) | Gets or sets a public key(or authentication certificate) |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAccessClass()](#getAccessClass--) | Gets or sets an access class |
-| [setAccessClass(String value)](#setAccessClass-java.lang.String-) | Gets or sets an access class |
+| [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Gets or sets a ContentTransferEncoding |
-| [setEncoding(int value)](#setEncoding-int-) | Gets or sets a ContentTransferEncoding |
-| [saveToPEM(String path)](#saveToPEM-java.lang.String-) | Saves base64 key to PEM format. |
+| [getKey()](#getKey--) | Gets or sets a public key(or authentication certificate) |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [saveToPEM(OutputStream stream)](#saveToPEM-java.io.OutputStream-) | Saves base64 key in PEM format to the stream. |
+| [saveToPEM(String path)](#saveToPEM-java.lang.String-) | Saves base64 key to PEM format. |
+| [setAccessClass(String value)](#setAccessClass-java.lang.String-) | Gets or sets an access class |
+| [setEncoding(int value)](#setEncoding-int-) | Gets or sets a ContentTransferEncoding |
+| [setKey(String value)](#setKey-java.lang.String-) | Gets or sets a public key(or authentication certificate) |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### VCardSecurity() {#VCardSecurity--}
 ```
 public VCardSecurity()
@@ -38,29 +48,21 @@ public VCardSecurity()
 
 Initializes a new instance of the [VCardSecurity](../../com.aspose.email/vcardsecurity) class
 
-### getKey() {#getKey--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final String getKey()
-```
-
-
-Gets or sets a public key(or authentication certificate)
-
-**Returns:**
-java.lang.String
-### setKey(String value) {#setKey-java.lang.String-}
-```
-public final void setKey(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets a public key(or authentication certificate)
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
 ### getAccessClass() {#getAccessClass--}
 ```
 public final String getAccessClass()
@@ -71,19 +73,16 @@ Gets or sets an access class
 
 **Returns:**
 java.lang.String
-### setAccessClass(String value) {#setAccessClass-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public final void setAccessClass(String value)
+public final native Class<?> getClass()
 ```
 
 
-Gets or sets an access class
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
+**Returns:**
+java.lang.Class<?>
 ### getEncoding() {#getEncoding--}
 ```
 public final int getEncoding()
@@ -94,18 +93,54 @@ Gets or sets a ContentTransferEncoding
 
 **Returns:**
 int
-### setEncoding(int value) {#setEncoding-int-}
+### getKey() {#getKey--}
 ```
-public final void setEncoding(int value)
+public final String getKey()
 ```
 
 
-Gets or sets a ContentTransferEncoding
+Gets or sets a public key(or authentication certificate)
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### saveToPEM(OutputStream stream) {#saveToPEM-java.io.OutputStream-}
+```
+public final void saveToPEM(OutputStream stream)
+```
+
+
+Saves base64 key in PEM format to the stream.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| stream | java.io.OutputStream | Stream to save. |
 
 ### saveToPEM(String path) {#saveToPEM-java.lang.String-}
 ```
@@ -120,16 +155,87 @@ Saves base64 key to PEM format.
 | --- | --- | --- |
 | path | java.lang.String | Path to file. |
 
-### saveToPEM(OutputStream stream) {#saveToPEM-java.io.OutputStream-}
+### setAccessClass(String value) {#setAccessClass-java.lang.String-}
 ```
-public final void saveToPEM(OutputStream stream)
+public final void setAccessClass(String value)
 ```
 
 
-Saves base64 key in PEM format to the stream.
+Gets or sets an access class
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Stream to save. |
+| value | java.lang.String |  |
+
+### setEncoding(int value) {#setEncoding-int-}
+```
+public final void setEncoding(int value)
+```
+
+
+Gets or sets a ContentTransferEncoding
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setKey(String value) {#setKey-java.lang.String-}
+```
+public final void setKey(String value)
+```
+
+
+Gets or sets a public key(or authentication certificate)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

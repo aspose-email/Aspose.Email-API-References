@@ -6,6 +6,7 @@ type: docs
 weight: 322
 url: /java/com.aspose.email/imapnamespace/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 405
 url: /java/com.aspose.email/mapicalendarrecurrencepatterntype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

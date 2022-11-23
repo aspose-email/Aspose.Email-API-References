@@ -6,6 +6,7 @@ type: docs
 weight: 281
 url: /java/com.aspose.email/graphfolderinfo/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.BaseRestObject](../../com.aspose.email/baserestobject)
 ```

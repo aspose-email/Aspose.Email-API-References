@@ -6,6 +6,7 @@ type: docs
 weight: 129
 url: /java/com.aspose.email/customattachmentstorage/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

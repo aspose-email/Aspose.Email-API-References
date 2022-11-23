@@ -6,6 +6,7 @@ type: docs
 weight: 462
 url: /java/com.aspose.email/mapirecipientcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

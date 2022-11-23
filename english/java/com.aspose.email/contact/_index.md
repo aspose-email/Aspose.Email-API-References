@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.aspose.email/mhttemplatename.contact/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 425
 url: /java/com.aspose.email/mapicontactphotoimageformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

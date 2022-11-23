@@ -6,6 +6,7 @@ type: docs
 weight: 431
 url: /java/com.aspose.email/mapiconversionoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

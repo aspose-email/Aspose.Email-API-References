@@ -6,6 +6,7 @@ type: docs
 weight: 399
 url: /java/com.aspose.email/mapicalendaroverrideflags/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

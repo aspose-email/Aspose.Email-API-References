@@ -6,6 +6,7 @@ type: docs
 weight: 333
 url: /java/com.aspose.email/inboxrule/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

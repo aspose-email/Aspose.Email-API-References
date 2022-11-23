@@ -1,11 +1,12 @@
 ---
 title: OleDocumentFormat
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents the format for OLE document.
+description: Represents the format for OLE document.
 type: docs
-weight: 332
-url: /java/com.aspose.email/oledocumentformat/
+weight: 336
+url: /androidjava/com.aspose.email/oledocumentformat/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -23,17 +24,23 @@ Represents the format for OLE document.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
-| [hashCode()](#hashCode--) | Returns the hash code of this instance. |
-| [toString()](#toString--) | Overridden. |
-| [getMicrosoftOutlookMessage()](#getMicrosoftOutlookMessage--) | Microsoft outlook message format. |
 | [getAdobeAcrobatDocument()](#getAdobeAcrobatDocument--) | Adobe PDF format. |
+| [getClass()](#getClass--) |  |
 | [getMicrosoftOfficeExcelWorksheet()](#getMicrosoftOfficeExcelWorksheet--) | Microsoft office exccel format. |
 | [getMicrosoftOfficeWordDocument()](#getMicrosoftOfficeWordDocument--) | Microsoft office word format. |
+| [getMicrosoftOutlookMessage()](#getMicrosoftOutlookMessage--) | Microsoft outlook message format. |
+| [getMicrosoftPhotoEditor()](#getMicrosoftPhotoEditor--) | Microsoft Photo Editor type. |
 | [getMicrosoftPowerPointPresentation()](#getMicrosoftPowerPointPresentation--) | Microsoft power point format. |
 | [getPaintbrush()](#getPaintbrush--) | Paintbrush type. |
-| [getMicrosoftPhotoEditor()](#getMicrosoftPhotoEditor--) | Microsoft Photo Editor type. |
 | [getPictureMetafile()](#getPictureMetafile--) | Picture(Metafile) type. |
 | [getUnknown()](#getUnknown--) | Unknown type. |
+| [hashCode()](#hashCode--) | Returns the hash code of this instance. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) | Overridden. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### OleDocumentFormat(UUID guid) {#OleDocumentFormat-java.util.UUID-}
 ```
 public OleDocumentFormat(UUID guid)
@@ -62,36 +69,6 @@ Returns a value indicating whether this instance is equal to a specified object.
 
 **Returns:**
 boolean - true if o is a System.Guid that has the same value as this instance; otherwise, false.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-Returns the hash code of this instance.
-
-**Returns:**
-int - The hash code for this instance.
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Overridden. Returns a string representation of this instance.
-
-**Returns:**
-java.lang.String - A string contains the mail addresse.
-### getMicrosoftOutlookMessage() {#getMicrosoftOutlookMessage--}
-```
-public static OleDocumentFormat getMicrosoftOutlookMessage()
-```
-
-
-Microsoft outlook message format.
-
-**Returns:**
-[OleDocumentFormat](../../com.aspose.email/oledocumentformat)
 ### getAdobeAcrobatDocument() {#getAdobeAcrobatDocument--}
 ```
 public static OleDocumentFormat getAdobeAcrobatDocument()
@@ -102,6 +79,16 @@ Adobe PDF format.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getMicrosoftOfficeExcelWorksheet() {#getMicrosoftOfficeExcelWorksheet--}
 ```
 public static OleDocumentFormat getMicrosoftOfficeExcelWorksheet()
@@ -119,6 +106,26 @@ public static OleDocumentFormat getMicrosoftOfficeWordDocument()
 
 
 Microsoft office word format.
+
+**Returns:**
+[OleDocumentFormat](../../com.aspose.email/oledocumentformat)
+### getMicrosoftOutlookMessage() {#getMicrosoftOutlookMessage--}
+```
+public static OleDocumentFormat getMicrosoftOutlookMessage()
+```
+
+
+Microsoft outlook message format.
+
+**Returns:**
+[OleDocumentFormat](../../com.aspose.email/oledocumentformat)
+### getMicrosoftPhotoEditor() {#getMicrosoftPhotoEditor--}
+```
+public static OleDocumentFormat getMicrosoftPhotoEditor()
+```
+
+
+Microsoft Photo Editor type.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
@@ -142,16 +149,6 @@ Paintbrush type.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
-### getMicrosoftPhotoEditor() {#getMicrosoftPhotoEditor--}
-```
-public static OleDocumentFormat getMicrosoftPhotoEditor()
-```
-
-
-Microsoft Photo Editor type.
-
-**Returns:**
-[OleDocumentFormat](../../com.aspose.email/oledocumentformat)
 ### getPictureMetafile() {#getPictureMetafile--}
 ```
 public static OleDocumentFormat getPictureMetafile()
@@ -172,3 +169,74 @@ Unknown type.
 
 **Returns:**
 [OleDocumentFormat](../../com.aspose.email/oledocumentformat)
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns the hash code of this instance.
+
+**Returns:**
+int - The hash code for this instance.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Overridden. Returns a string representation of this instance.
+
+**Returns:**
+java.lang.String - A string contains the mail addresse.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

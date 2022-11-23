@@ -6,6 +6,7 @@ type: docs
 weight: 569
 url: /java/com.aspose.email/pop3messageinfo/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MessageInfoBase](../../com.aspose.email/messageinfobase)
 ```

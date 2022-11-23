@@ -6,6 +6,7 @@ type: docs
 weight: 484
 url: /java/com.aspose.email/mediatypenames/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

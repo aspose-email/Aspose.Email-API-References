@@ -6,6 +6,7 @@ type: docs
 weight: 76
 url: /java/com.aspose.email/backupsettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

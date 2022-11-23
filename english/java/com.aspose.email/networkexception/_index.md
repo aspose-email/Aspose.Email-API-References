@@ -6,6 +6,7 @@ type: docs
 weight: 522
 url: /java/com.aspose.email/networkexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception
 ```

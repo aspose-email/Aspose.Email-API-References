@@ -6,6 +6,7 @@ type: docs
 weight: 112
 url: /java/com.aspose.email/conferenceproperties/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

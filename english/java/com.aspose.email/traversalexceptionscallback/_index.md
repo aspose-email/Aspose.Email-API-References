@@ -6,6 +6,7 @@ type: docs
 weight: 677
 url: /java/com.aspose.email/traversalexceptionscallback/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

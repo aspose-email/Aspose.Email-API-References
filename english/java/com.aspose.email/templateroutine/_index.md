@@ -6,6 +6,7 @@ type: docs
 weight: 663
 url: /java/com.aspose.email/templateroutine/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

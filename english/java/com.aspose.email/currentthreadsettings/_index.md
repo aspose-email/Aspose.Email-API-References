@@ -6,6 +6,7 @@ type: docs
 weight: 128
 url: /java/com.aspose.email/currentthreadsettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 372
 url: /java/com.aspose.email/mailquery/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

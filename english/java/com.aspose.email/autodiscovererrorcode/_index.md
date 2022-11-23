@@ -6,6 +6,7 @@ type: docs
 weight: 69
 url: /java/com.aspose.email/autodiscovererrorcode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

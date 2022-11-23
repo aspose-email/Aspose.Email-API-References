@@ -6,6 +6,7 @@ type: docs
 weight: 207
 url: /java/com.aspose.email/exchangefolderinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

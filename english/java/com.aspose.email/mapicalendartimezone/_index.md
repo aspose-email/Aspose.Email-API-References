@@ -6,6 +6,7 @@ type: docs
 weight: 408
 url: /java/com.aspose.email/mapicalendartimezone/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

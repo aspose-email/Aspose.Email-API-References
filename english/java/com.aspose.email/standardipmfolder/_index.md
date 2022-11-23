@@ -6,6 +6,7 @@ type: docs
 weight: 647
 url: /java/com.aspose.email/standardipmfolder/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

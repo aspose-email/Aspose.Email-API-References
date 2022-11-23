@@ -6,6 +6,7 @@ type: docs
 weight: 411
 url: /java/com.aspose.email/mapicalendartimezoneinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

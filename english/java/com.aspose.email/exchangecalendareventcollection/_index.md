@@ -6,6 +6,7 @@ type: docs
 weight: 191
 url: /java/com.aspose.email/exchangecalendareventcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

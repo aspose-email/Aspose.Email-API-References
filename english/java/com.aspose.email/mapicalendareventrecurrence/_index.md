@@ -6,6 +6,7 @@ type: docs
 weight: 393
 url: /java/com.aspose.email/mapicalendareventrecurrence/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

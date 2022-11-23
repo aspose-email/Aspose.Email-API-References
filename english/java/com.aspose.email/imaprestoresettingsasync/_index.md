@@ -6,6 +6,7 @@ type: docs
 weight: 329
 url: /java/com.aspose.email/imaprestoresettingsasync/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ImapRestoreSettings](../../com.aspose.email/imaprestoresettings)
 ```

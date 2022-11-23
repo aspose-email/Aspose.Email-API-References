@@ -6,6 +6,7 @@ type: docs
 weight: 113
 url: /java/com.aspose.email/connectionasgmttype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

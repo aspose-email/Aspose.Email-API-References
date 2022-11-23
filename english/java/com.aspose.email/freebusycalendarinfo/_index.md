@@ -6,6 +6,7 @@ type: docs
 weight: 265
 url: /java/com.aspose.email/freebusycalendarinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

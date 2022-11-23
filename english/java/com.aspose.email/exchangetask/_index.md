@@ -6,6 +6,7 @@ type: docs
 weight: 227
 url: /java/com.aspose.email/exchangetask/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.Task](../../com.aspose.email/task)
 ```

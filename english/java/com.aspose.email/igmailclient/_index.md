@@ -6,6 +6,7 @@ type: docs
 weight: 738
 url: /java/com.aspose.email/igmailclient/
 ---
+
 **All Implemented Interfaces:**
 [com.aspose.email.IBaseGmailClient](../../com.aspose.email/ibasegmailclient)
 ```

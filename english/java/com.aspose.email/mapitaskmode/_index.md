@@ -6,6 +6,7 @@ type: docs
 weight: 471
 url: /java/com.aspose.email/mapitaskmode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

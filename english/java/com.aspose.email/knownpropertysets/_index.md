@@ -6,6 +6,7 @@ type: docs
 weight: 345
 url: /java/com.aspose.email/knownpropertysets/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 226
 url: /java/com.aspose.email/exchangestreameditem/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

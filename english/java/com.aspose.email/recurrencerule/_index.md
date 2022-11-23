@@ -6,6 +6,7 @@ type: docs
 weight: 585
 url: /java/com.aspose.email/recurrencerule/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

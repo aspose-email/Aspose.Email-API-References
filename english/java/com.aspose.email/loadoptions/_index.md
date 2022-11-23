@@ -6,6 +6,7 @@ type: docs
 weight: 353
 url: /java/com.aspose.email/loadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

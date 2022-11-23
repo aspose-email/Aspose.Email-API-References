@@ -6,6 +6,7 @@ type: docs
 weight: 666
 url: /java/com.aspose.email/threadsearchconditions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.BaseSearchConditions](../../com.aspose.email/basesearchconditions)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 326
 url: /java/com.aspose.email/imapquota/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

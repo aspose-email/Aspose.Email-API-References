@@ -6,6 +6,7 @@ type: docs
 weight: 79
 url: /java/com.aspose.email/basesearchconditions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

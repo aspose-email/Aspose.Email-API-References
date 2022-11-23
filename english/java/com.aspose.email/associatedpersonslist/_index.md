@@ -6,6 +6,7 @@ type: docs
 weight: 61
 url: /java/com.aspose.email/associatedpersonslist/
 ---
+
 **Inheritance:**
 java.lang.Object
 

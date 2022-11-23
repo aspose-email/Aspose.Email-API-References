@@ -6,6 +6,7 @@ type: docs
 weight: 481
 url: /java/com.aspose.email/mboxostoragereader/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MboxStorageReader](../../com.aspose.email/mboxstoragereader)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 279
 url: /java/com.aspose.email/googlecontactgroup/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

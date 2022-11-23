@@ -6,6 +6,7 @@ type: docs
 weight: 192
 url: /java/com.aspose.email/exchangecalendarpermission/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ExchangeBasePermission](../../com.aspose.email/exchangebasepermission)
 ```

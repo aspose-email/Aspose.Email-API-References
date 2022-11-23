@@ -1,11 +1,12 @@
 ---
 title: VCardContact
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents a vCard contact
+description: Represents a vCard contact
 type: docs
-weight: 411
-url: /java/com.aspose.email/vcardcontact/
+weight: 415
+url: /androidjava/com.aspose.email/vcardcontact/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -22,41 +23,52 @@ Represents a vCard contact
 
 | Method | Description |
 | --- | --- |
-| [getIdentificationInfo()](#getIdentificationInfo--) | Gets or sets an identification properties |
-| [setIdentificationInfo(VCardIdentificationInfo value)](#setIdentificationInfo-com.aspose.email.VCardIdentificationInfo-) | Gets or sets an identification properties |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDeliveryAddresses()](#getDeliveryAddresses--) | Gets or sets a delivery addresses |
-| [setDeliveryAddresses(VCardDeliveryAddressCollection value)](#setDeliveryAddresses-com.aspose.email.VCardDeliveryAddressCollection-) | Gets or sets a delivery addresses |
-| [getTelephoneNumbers()](#getTelephoneNumbers--) | Gets or sets a contact's telephone numbers |
-| [setTelephoneNumbers(VCardTelephoneNumberCollection value)](#setTelephoneNumbers-com.aspose.email.VCardTelephoneNumberCollection-) | Gets or sets a contact's telephone numbers |
 | [getEmails()](#getEmails--) | Gets or sets a contact's email addresses |
-| [setEmails(VCardEmailCollection value)](#setEmails-com.aspose.email.VCardEmailCollection-) | Gets or sets a contact's email addresses |
-| [getMailer()](#getMailer--) | Gets or sets a mailer |
-| [setMailer(String value)](#setMailer-java.lang.String-) | Gets or sets a mailer |
-| [getTimeZone()](#getTimeZone--) | Gets or sets a timeZone |
-| [setTimeZone(String value)](#setTimeZone-java.lang.String-) | Gets or sets a timeZone |
-| [getGeo()](#getGeo--) | Gets or sets a global positioning |
-| [setGeo(VCardGeo value)](#setGeo-com.aspose.email.VCardGeo-) | Gets or sets a global positioning |
-| [getOrganization()](#getOrganization--) | Gets or sets an organization information |
-| [setOrganization(VCardOrganization value)](#setOrganization-com.aspose.email.VCardOrganization-) | Gets or sets an organization information |
 | [getExplanatoryInfo()](#getExplanatoryInfo--) | Gets or sets a vCard explanatory information |
-| [setExplanatoryInfo(VCardExplanatoryInfo value)](#setExplanatoryInfo-com.aspose.email.VCardExplanatoryInfo-) | Gets or sets a vCard explanatory information |
-| [getSecurity()](#getSecurity--) | Gets or sets a security properites |
-| [setSecurity(VCardSecurity value)](#setSecurity-com.aspose.email.VCardSecurity-) | Gets or sets a security properites |
 | [getExtendedProperties()](#getExtendedProperties--) | Gets or sets an extended properties |
-| [setExtendedProperties(System.Collections.Specialized.StringCollection value)](#setExtendedProperties-com.aspose.ms.System.Collections.Specialized.StringCollection-) | Gets or sets an extended properties |
-| [load(String filePath)](#load-java.lang.String-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| [load(String filePath, Charset encoding)](#load-java.lang.String-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| [getGeo()](#getGeo--) | Gets or sets a global positioning |
+| [getIdentificationInfo()](#getIdentificationInfo--) | Gets or sets an identification properties |
+| [getLabels()](#getLabels--) | Gets or sets a delivery addresses |
+| [getMailer()](#getMailer--) | Gets or sets a mailer |
+| [getOrganization()](#getOrganization--) | Gets or sets an organization information |
+| [getSecurity()](#getSecurity--) | Gets or sets a security properites |
+| [getTelephoneNumbers()](#getTelephoneNumbers--) | Gets or sets a contact's telephone numbers |
+| [getTimeZone()](#getTimeZone--) | Gets or sets a timeZone |
+| [hashCode()](#hashCode--) |  |
+| [isMultiContacts(InputStream stream)](#isMultiContacts-java.io.InputStream-) | Checks whether source stream contains multi contacts. |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
 | [load(InputStream stream, Charset encoding)](#load-java.io.InputStream-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
-| [isMultiContacts(InputStream stream)](#isMultiContacts-java.io.InputStream-) | Checks whether source stream contains multi contacts. |
+| [load(String filePath)](#load-java.lang.String-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| [load(String filePath, Charset encoding)](#load-java.lang.String-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [loadAsMultiple(InputStream stream, Charset encoding)](#loadAsMultiple-java.io.InputStream-java.nio.charset.Charset-) | Loads list of contacts from multi contact stream. |
 | [loadAsMultiple(String filePath, Charset encoding)](#loadAsMultiple-java.lang.String-java.nio.charset.Charset-) | Loads list of contacts from multi contact file. |
-| [save(String filePath)](#save-java.lang.String-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. |
-| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. |
-| [save(String filePath, ContactSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.ContactSaveOptions-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) into the given stream with vCard format. |
-| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream with a format using the default options. |
 | [save(OutputStream stream, ContactSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream using specified save options. |
+| [save(OutputStream stream, int saveFormat)](#save-java.io.OutputStream-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream with a format using the default options. |
+| [save(String filePath)](#save-java.lang.String-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. |
+| [save(String filePath, ContactSaveOptions saveOptions)](#save-java.lang.String-com.aspose.email.ContactSaveOptions-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. |
+| [save(String filePath, int saveFormat)](#save-java.lang.String-int-) | Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. |
+| [setDeliveryAddresses(VCardDeliveryAddressCollection value)](#setDeliveryAddresses-com.aspose.email.VCardDeliveryAddressCollection-) | Gets or sets a delivery addresses |
+| [setEmails(VCardEmailCollection value)](#setEmails-com.aspose.email.VCardEmailCollection-) | Gets or sets a contact's email addresses |
+| [setExplanatoryInfo(VCardExplanatoryInfo value)](#setExplanatoryInfo-com.aspose.email.VCardExplanatoryInfo-) | Gets or sets a vCard explanatory information |
+| [setExtendedProperties(System.Collections.Specialized.StringCollection value)](#setExtendedProperties-com.aspose.ms.System.Collections.Specialized.StringCollection-) | Gets or sets an extended properties |
+| [setGeo(VCardGeo value)](#setGeo-com.aspose.email.VCardGeo-) | Gets or sets a global positioning |
+| [setIdentificationInfo(VCardIdentificationInfo value)](#setIdentificationInfo-com.aspose.email.VCardIdentificationInfo-) | Gets or sets an identification properties |
+| [setLabels(VCardLabelCollection value)](#setLabels-com.aspose.email.VCardLabelCollection-) | Gets or sets a delivery addresses |
+| [setMailer(String value)](#setMailer-java.lang.String-) | Gets or sets a mailer |
+| [setOrganization(VCardOrganization value)](#setOrganization-com.aspose.email.VCardOrganization-) | Gets or sets an organization information |
+| [setSecurity(VCardSecurity value)](#setSecurity-com.aspose.email.VCardSecurity-) | Gets or sets a security properites |
+| [setTelephoneNumbers(VCardTelephoneNumberCollection value)](#setTelephoneNumbers-com.aspose.email.VCardTelephoneNumberCollection-) | Gets or sets a contact's telephone numbers |
+| [setTimeZone(String value)](#setTimeZone-java.lang.String-) | Gets or sets a timeZone |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### VCardContact() {#VCardContact--}
 ```
 public VCardContact()
@@ -65,29 +77,31 @@ public VCardContact()
 
 Initializes a new instance of the [VCardContact](../../com.aspose.email/vcardcontact) class
 
-### getIdentificationInfo() {#getIdentificationInfo--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final VCardIdentificationInfo getIdentificationInfo()
-```
-
-
-Gets or sets an identification properties
-
-**Returns:**
-[VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo)
-### setIdentificationInfo(VCardIdentificationInfo value) {#setIdentificationInfo-com.aspose.email.VCardIdentificationInfo-}
-```
-public final void setIdentificationInfo(VCardIdentificationInfo value)
+public boolean equals(Object arg0)
 ```
 
 
-Gets or sets an identification properties
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDeliveryAddresses() {#getDeliveryAddresses--}
 ```
 public final VCardDeliveryAddressCollection getDeliveryAddresses()
@@ -98,42 +112,6 @@ Gets or sets a delivery addresses
 
 **Returns:**
 [VCardDeliveryAddressCollection](../../com.aspose.email/vcarddeliveryaddresscollection)
-### setDeliveryAddresses(VCardDeliveryAddressCollection value) {#setDeliveryAddresses-com.aspose.email.VCardDeliveryAddressCollection-}
-```
-public final void setDeliveryAddresses(VCardDeliveryAddressCollection value)
-```
-
-
-Gets or sets a delivery addresses
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardDeliveryAddressCollection](../../com.aspose.email/vcarddeliveryaddresscollection) |  |
-
-### getTelephoneNumbers() {#getTelephoneNumbers--}
-```
-public final VCardTelephoneNumberCollection getTelephoneNumbers()
-```
-
-
-Gets or sets a contact's telephone numbers
-
-**Returns:**
-[VCardTelephoneNumberCollection](../../com.aspose.email/vcardtelephonenumbercollection)
-### setTelephoneNumbers(VCardTelephoneNumberCollection value) {#setTelephoneNumbers-com.aspose.email.VCardTelephoneNumberCollection-}
-```
-public final void setTelephoneNumbers(VCardTelephoneNumberCollection value)
-```
-
-
-Gets or sets a contact's telephone numbers
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardTelephoneNumberCollection](../../com.aspose.email/vcardtelephonenumbercollection) |  |
-
 ### getEmails() {#getEmails--}
 ```
 public final VCardEmailCollection getEmails()
@@ -144,111 +122,6 @@ Gets or sets a contact's email addresses
 
 **Returns:**
 [VCardEmailCollection](../../com.aspose.email/vcardemailcollection)
-### setEmails(VCardEmailCollection value) {#setEmails-com.aspose.email.VCardEmailCollection-}
-```
-public final void setEmails(VCardEmailCollection value)
-```
-
-
-Gets or sets a contact's email addresses
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardEmailCollection](../../com.aspose.email/vcardemailcollection) |  |
-
-### getMailer() {#getMailer--}
-```
-public final String getMailer()
-```
-
-
-Gets or sets a mailer
-
-**Returns:**
-java.lang.String
-### setMailer(String value) {#setMailer-java.lang.String-}
-```
-public final void setMailer(String value)
-```
-
-
-Gets or sets a mailer
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getTimeZone() {#getTimeZone--}
-```
-public final String getTimeZone()
-```
-
-
-Gets or sets a timeZone
-
-**Returns:**
-java.lang.String
-### setTimeZone(String value) {#setTimeZone-java.lang.String-}
-```
-public final void setTimeZone(String value)
-```
-
-
-Gets or sets a timeZone
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getGeo() {#getGeo--}
-```
-public final VCardGeo getGeo()
-```
-
-
-Gets or sets a global positioning
-
-**Returns:**
-[VCardGeo](../../com.aspose.email/vcardgeo)
-### setGeo(VCardGeo value) {#setGeo-com.aspose.email.VCardGeo-}
-```
-public final void setGeo(VCardGeo value)
-```
-
-
-Gets or sets a global positioning
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardGeo](../../com.aspose.email/vcardgeo) |  |
-
-### getOrganization() {#getOrganization--}
-```
-public final VCardOrganization getOrganization()
-```
-
-
-Gets or sets an organization information
-
-**Returns:**
-[VCardOrganization](../../com.aspose.email/vcardorganization)
-### setOrganization(VCardOrganization value) {#setOrganization-com.aspose.email.VCardOrganization-}
-```
-public final void setOrganization(VCardOrganization value)
-```
-
-
-Gets or sets an organization information
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardOrganization](../../com.aspose.email/vcardorganization) |  |
-
 ### getExplanatoryInfo() {#getExplanatoryInfo--}
 ```
 public final VCardExplanatoryInfo getExplanatoryInfo()
@@ -259,42 +132,6 @@ Gets or sets a vCard explanatory information
 
 **Returns:**
 [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo)
-### setExplanatoryInfo(VCardExplanatoryInfo value) {#setExplanatoryInfo-com.aspose.email.VCardExplanatoryInfo-}
-```
-public final void setExplanatoryInfo(VCardExplanatoryInfo value)
-```
-
-
-Gets or sets a vCard explanatory information
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) |  |
-
-### getSecurity() {#getSecurity--}
-```
-public final VCardSecurity getSecurity()
-```
-
-
-Gets or sets a security properites
-
-**Returns:**
-[VCardSecurity](../../com.aspose.email/vcardsecurity)
-### setSecurity(VCardSecurity value) {#setSecurity-com.aspose.email.VCardSecurity-}
-```
-public final void setSecurity(VCardSecurity value)
-```
-
-
-Gets or sets a security properites
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [VCardSecurity](../../com.aspose.email/vcardsecurity) |  |
-
 ### getExtendedProperties() {#getExtendedProperties--}
 ```
 public final System.Collections.Specialized.StringCollection getExtendedProperties()
@@ -305,50 +142,111 @@ Gets or sets an extended properties
 
 **Returns:**
 com.aspose.ms.System.Collections.Specialized.StringCollection
-### setExtendedProperties(System.Collections.Specialized.StringCollection value) {#setExtendedProperties-com.aspose.ms.System.Collections.Specialized.StringCollection-}
+### getGeo() {#getGeo--}
 ```
-public final void setExtendedProperties(System.Collections.Specialized.StringCollection value)
-```
-
-
-Gets or sets an extended properties
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Collections.Specialized.StringCollection |  |
-
-### load(String filePath) {#load-java.lang.String-}
-```
-public static VCardContact load(String filePath)
+public final VCardGeo getGeo()
 ```
 
 
-Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A file name to read from |
+Gets or sets a global positioning
 
 **Returns:**
-[VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
-### load(String filePath, Charset encoding) {#load-java.lang.String-java.nio.charset.Charset-}
+[VCardGeo](../../com.aspose.email/vcardgeo)
+### getIdentificationInfo() {#getIdentificationInfo--}
 ```
-public static VCardContact load(String filePath, Charset encoding)
+public final VCardIdentificationInfo getIdentificationInfo()
 ```
 
 
-Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Gets or sets an identification properties
+
+**Returns:**
+[VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo)
+### getLabels() {#getLabels--}
+```
+public final VCardLabelCollection getLabels()
+```
+
+
+Gets or sets a delivery addresses
+
+**Returns:**
+[VCardLabelCollection](../../com.aspose.email/vcardlabelcollection)
+### getMailer() {#getMailer--}
+```
+public final String getMailer()
+```
+
+
+Gets or sets a mailer
+
+**Returns:**
+java.lang.String
+### getOrganization() {#getOrganization--}
+```
+public final VCardOrganization getOrganization()
+```
+
+
+Gets or sets an organization information
+
+**Returns:**
+[VCardOrganization](../../com.aspose.email/vcardorganization)
+### getSecurity() {#getSecurity--}
+```
+public final VCardSecurity getSecurity()
+```
+
+
+Gets or sets a security properites
+
+**Returns:**
+[VCardSecurity](../../com.aspose.email/vcardsecurity)
+### getTelephoneNumbers() {#getTelephoneNumbers--}
+```
+public final VCardTelephoneNumberCollection getTelephoneNumbers()
+```
+
+
+Gets or sets a contact's telephone numbers
+
+**Returns:**
+[VCardTelephoneNumberCollection](../../com.aspose.email/vcardtelephonenumbercollection)
+### getTimeZone() {#getTimeZone--}
+```
+public final String getTimeZone()
+```
+
+
+Gets or sets a timeZone
+
+**Returns:**
+java.lang.String
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isMultiContacts(InputStream stream) {#isMultiContacts-java.io.InputStream-}
+```
+public static boolean isMultiContacts(InputStream stream)
+```
+
+
+Checks whether source stream contains multi contacts.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | A file name to read from |
-| encoding | java.nio.charset.Charset | File encoding |
+| stream | java.io.InputStream | Source stream |
 
 **Returns:**
-[VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
+boolean - True if multi contacts, otherwise false.
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
 public static VCardContact load(InputStream stream)
@@ -380,21 +278,37 @@ Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified str
 
 **Returns:**
 [VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
-### isMultiContacts(InputStream stream) {#isMultiContacts-java.io.InputStream-}
+### load(String filePath) {#load-java.lang.String-}
 ```
-public static boolean isMultiContacts(InputStream stream)
+public static VCardContact load(String filePath)
 ```
 
 
-Checks whether source stream contains multi contacts.
+Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | Source stream |
+| filePath | java.lang.String | A file name to read from |
 
 **Returns:**
-boolean - True if multi contacts, otherwise false.
+[VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
+### load(String filePath, Charset encoding) {#load-java.lang.String-java.nio.charset.Charset-}
+```
+public static VCardContact load(String filePath, Charset encoding)
+```
+
+
+Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file name to read from |
+| encoding | java.nio.charset.Charset | File encoding |
+
+**Returns:**
+[VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
 ### loadAsMultiple(InputStream stream, Charset encoding) {#loadAsMultiple-java.io.InputStream-java.nio.charset.Charset-}
 ```
 public static List<VCardContact> loadAsMultiple(InputStream stream, Charset encoding)
@@ -427,46 +341,21 @@ Loads list of contacts from multi contact file.
 
 **Returns:**
 java.util.List<com.aspose.email.VCardContact> - 
-### save(String filePath) {#save-java.lang.String-}
+### notify() {#notify--}
 ```
-public final void save(String filePath)
-```
-
-
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
-
-### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
-```
-public final void save(String filePath, int saveFormat)
+public final native void notify()
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
-| saveFormat | int | A save format |
 
-### save(String filePath, ContactSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.ContactSaveOptions-}
+### notifyAll() {#notifyAll--}
 ```
-public final void save(String filePath, ContactSaveOptions saveOptions)
+public final native void notifyAll()
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | A vCard file name |
-| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | A save options |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -480,6 +369,20 @@ Saves this [MapiContact](../../com.aspose.email/mapicontact) into the given stre
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | A stream to save to |
+
+### save(OutputStream stream, ContactSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-}
+```
+public final void save(OutputStream stream, ContactSaveOptions saveOptions)
+```
+
+
+Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | A stream to save to |
+| saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | A save options |
 
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int-}
 ```
@@ -495,17 +398,245 @@ Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream
 | stream | java.io.OutputStream | A stream to save to |
 | saveFormat | int | A save format |
 
-### save(OutputStream stream, ContactSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.email.ContactSaveOptions-}
+### save(String filePath) {#save-java.lang.String-}
 ```
-public final void save(OutputStream stream, ContactSaveOptions saveOptions)
+public final void save(String filePath)
 ```
 
 
-Saves this [MapiContact](../../com.aspose.email/mapicontact) to the given stream using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
+Saves this [MapiContact](../../com.aspose.email/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| filePath | java.lang.String | A vCard file name |
+
+### save(String filePath, ContactSaveOptions saveOptions) {#save-java.lang.String-com.aspose.email.ContactSaveOptions-}
+```
+public final void save(String filePath, ContactSaveOptions saveOptions)
+```
+
+
+Saves this [MapiContact](../../com.aspose.email/mapicontact) into file using specified save options. The supported save options is [VCardSaveOptions](../../com.aspose.email/vcardsaveoptions)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A vCard file name |
 | saveOptions | [ContactSaveOptions](../../com.aspose.email/contactsaveoptions) | A save options |
+
+### save(String filePath, int saveFormat) {#save-java.lang.String-int-}
+```
+public final void save(String filePath, int saveFormat)
+```
+
+
+Saves this [MapiContact](../../com.aspose.email/mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A vCard file name |
+| saveFormat | int | A save format |
+
+### setDeliveryAddresses(VCardDeliveryAddressCollection value) {#setDeliveryAddresses-com.aspose.email.VCardDeliveryAddressCollection-}
+```
+public final void setDeliveryAddresses(VCardDeliveryAddressCollection value)
+```
+
+
+Gets or sets a delivery addresses
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardDeliveryAddressCollection](../../com.aspose.email/vcarddeliveryaddresscollection) |  |
+
+### setEmails(VCardEmailCollection value) {#setEmails-com.aspose.email.VCardEmailCollection-}
+```
+public final void setEmails(VCardEmailCollection value)
+```
+
+
+Gets or sets a contact's email addresses
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardEmailCollection](../../com.aspose.email/vcardemailcollection) |  |
+
+### setExplanatoryInfo(VCardExplanatoryInfo value) {#setExplanatoryInfo-com.aspose.email.VCardExplanatoryInfo-}
+```
+public final void setExplanatoryInfo(VCardExplanatoryInfo value)
+```
+
+
+Gets or sets a vCard explanatory information
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardExplanatoryInfo](../../com.aspose.email/vcardexplanatoryinfo) |  |
+
+### setExtendedProperties(System.Collections.Specialized.StringCollection value) {#setExtendedProperties-com.aspose.ms.System.Collections.Specialized.StringCollection-}
+```
+public final void setExtendedProperties(System.Collections.Specialized.StringCollection value)
+```
+
+
+Gets or sets an extended properties
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.ms.System.Collections.Specialized.StringCollection |  |
+
+### setGeo(VCardGeo value) {#setGeo-com.aspose.email.VCardGeo-}
+```
+public final void setGeo(VCardGeo value)
+```
+
+
+Gets or sets a global positioning
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardGeo](../../com.aspose.email/vcardgeo) |  |
+
+### setIdentificationInfo(VCardIdentificationInfo value) {#setIdentificationInfo-com.aspose.email.VCardIdentificationInfo-}
+```
+public final void setIdentificationInfo(VCardIdentificationInfo value)
+```
+
+
+Gets or sets an identification properties
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardIdentificationInfo](../../com.aspose.email/vcardidentificationinfo) |  |
+
+### setLabels(VCardLabelCollection value) {#setLabels-com.aspose.email.VCardLabelCollection-}
+```
+public final void setLabels(VCardLabelCollection value)
+```
+
+
+Gets or sets a delivery addresses
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardLabelCollection](../../com.aspose.email/vcardlabelcollection) |  |
+
+### setMailer(String value) {#setMailer-java.lang.String-}
+```
+public final void setMailer(String value)
+```
+
+
+Gets or sets a mailer
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setOrganization(VCardOrganization value) {#setOrganization-com.aspose.email.VCardOrganization-}
+```
+public final void setOrganization(VCardOrganization value)
+```
+
+
+Gets or sets an organization information
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardOrganization](../../com.aspose.email/vcardorganization) |  |
+
+### setSecurity(VCardSecurity value) {#setSecurity-com.aspose.email.VCardSecurity-}
+```
+public final void setSecurity(VCardSecurity value)
+```
+
+
+Gets or sets a security properites
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardSecurity](../../com.aspose.email/vcardsecurity) |  |
+
+### setTelephoneNumbers(VCardTelephoneNumberCollection value) {#setTelephoneNumbers-com.aspose.email.VCardTelephoneNumberCollection-}
+```
+public final void setTelephoneNumbers(VCardTelephoneNumberCollection value)
+```
+
+
+Gets or sets a contact's telephone numbers
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [VCardTelephoneNumberCollection](../../com.aspose.email/vcardtelephonenumbercollection) |  |
+
+### setTimeZone(String value) {#setTimeZone-java.lang.String-}
+```
+public final void setTimeZone(String value)
+```
+
+
+Gets or sets a timeZone
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

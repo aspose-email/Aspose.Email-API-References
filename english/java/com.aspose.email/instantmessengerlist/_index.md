@@ -6,6 +6,7 @@ type: docs
 weight: 337
 url: /java/com.aspose.email/instantmessengerlist/
 ---
+
 **Inheritance:**
 java.lang.Object
 

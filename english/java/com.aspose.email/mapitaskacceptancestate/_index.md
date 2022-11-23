@@ -6,6 +6,7 @@ type: docs
 weight: 468
 url: /java/com.aspose.email/mapitaskacceptancestate/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

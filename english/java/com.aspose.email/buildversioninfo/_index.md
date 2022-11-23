@@ -6,6 +6,7 @@ type: docs
 weight: 85
 url: /java/com.aspose.email/buildversioninfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

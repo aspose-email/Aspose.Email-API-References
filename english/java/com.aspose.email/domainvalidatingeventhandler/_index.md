@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /java/com.aspose.email/domainvalidatingeventhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

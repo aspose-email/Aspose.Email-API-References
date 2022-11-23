@@ -6,6 +6,7 @@ type: docs
 weight: 460
 url: /java/com.aspose.email/mapipropertytype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

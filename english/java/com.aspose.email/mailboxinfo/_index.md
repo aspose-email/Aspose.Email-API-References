@@ -6,6 +6,7 @@ type: docs
 weight: 380
 url: /java/com.aspose.email/mailboxinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

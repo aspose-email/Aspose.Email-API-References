@@ -6,6 +6,7 @@ type: docs
 weight: 719
 url: /java/com.aspose.email/validationpolicy/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

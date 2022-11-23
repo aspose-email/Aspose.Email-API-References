@@ -1,11 +1,12 @@
 ---
 title: License
 second_title: Aspose.Email for Android via Java API Reference
-description:   Provides methods to license the component.
+description: Provides methods to license the component.
 type: docs
 weight: 176
-url: /java/com.aspose.email/license/
+url: /androidjava/com.aspose.email/license/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -58,9 +59,18 @@ Provides methods to license the component.
 
 | Method | Description |
 | --- | --- |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setLicense(File licenseFile)](#setLicense-java.io.File-) | Licenses the component. |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### License() {#License--}
 ```
 public License()
@@ -104,6 +114,114 @@ Initializes a new instance of this class.
 >   
 > ```
 > ```
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setLicense(File licenseFile) {#setLicense-java.io.File-}
+```
+public final void setLicense(File licenseFile)
+```
+
+
+Licenses the component.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| licenseFile | java.io.File | File of licenseFileInfo. |
+
+### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+```
+public final void setLicense(InputStream stream)
+```
+
+
+Licenses the component.
+
+--------------------
+
+> ```
+> ```
+> 
+>  [C#]
+>  License license = new License();
+>  license.SetLicense(myStream);
+>  [Visual Basic]
+>  Dim license as License = new License
+>  license.SetLicense(myStream)
+>  
+> ```
+>  ```
+> 
+>  License license = new License();
+>  license.setLicense(myStream);
+>  
+> ```
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream that contains the license.
+
+--------------------
+
+
+
+Use this method to load a license from a stream.
+
+
+
+ void setLicense(java.io.InputStream stream)  |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -152,19 +270,19 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name\`\`\`  or name of an embedded resource \`\`\`. Use an empty string to switch to evaluation mode.
+| licenseName | java.lang.String | Can be a full or short file name  or name of an embedded resource . Use an empty string to switch to evaluation mode.
 
 --------------------
 
-\`\`\`
+
 
 Tries to find the license in the following locations:
 
-\`\`\` \`\`\`
+ 
 
 1. Explicit path.
 
-\`\`\` \`\`\`
+ 
 
 2. The folder of the component assembly.
 
@@ -180,66 +298,54 @@ Tries to find the license in the following locations:
 
 2. An embedded resource in the client's calling assembly.
 
-\`\`\` \`\`\`
+ 
 
 2. The folder of the component jar file.
 
-\`\`\` |
+ |
 
-### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+### toString() {#toString--}
 ```
-public final void setLicense(InputStream stream)
+public String toString()
 ```
 
 
-Licenses the component.
 
---------------------
 
-> ```
-> ```
-> 
->  [C#]
->  License license = new License();
->  license.SetLicense(myStream);
->  [Visual Basic]
->  Dim license as License = new License
->  license.SetLicense(myStream)
->  
-> ```
->  ```
-> 
->  License license = new License();
->  license.setLicense(myStream);
->  
-> ```
-> ```
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | A stream that contains the license.
+| arg0 | long |  |
 
---------------------
-
-\`\`\`
-
-Use this method to load a license from a stream.
-
-\`\`\`
-
-\`\`\` void setLicense(java.io.InputStream stream) \`\`\` |
-
-### setLicense(File licenseFile) {#setLicense-java.io.File-}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public final void setLicense(File licenseFile)
+public final void wait(long arg0, int arg1)
 ```
 
 
-Licenses the component.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseFile | java.io.File | File of licenseFileInfo. |
+| arg0 | long |  |
+| arg1 | int |  |
 

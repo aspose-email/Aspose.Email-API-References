@@ -6,6 +6,7 @@ type: docs
 weight: 257
 url: /java/com.aspose.email/followupmanager/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

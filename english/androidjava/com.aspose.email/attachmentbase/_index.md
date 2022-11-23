@@ -1,11 +1,12 @@
 ---
 title: AttachmentBase
 second_title: Aspose.Email for Android via Java API Reference
-description:  Base class for mail attachment.
+description: Base class for mail attachment.
 type: docs
 weight: 53
-url: /java/com.aspose.email/attachmentbase/
+url: /androidjava/com.aspose.email/attachmentbase/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -20,46 +21,69 @@ Base class for mail attachment.
 
 | Method | Description |
 | --- | --- |
-| [getContentStream()](#getContentStream--) | Gets or sets the content stream. |
-| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Gets or sets the content stream. |
+| [close()](#close--) |  |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getContentId()](#getContentId--) | Gets or sets the content id. |
-| [setContentId(String value)](#setContentId-java.lang.String-) | Gets or sets the content id. |
-| [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
+| [getContentStream()](#getContentStream--) | Gets or sets the content stream. |
 | [getContentType()](#getContentType--) | Gets or sets the type of the content. |
-| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Gets or sets the type of the content. |
+| [getHeaders()](#getHeaders--) | Gets headers collection of attachment. |
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
-| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Gets or sets the transfer encoding. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the specified stream. |
 | [save(String fileName)](#save-java.lang.String-) | Saves the specified file name. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [close()](#close--) |  |
-### getContentStream() {#getContentStream--}
+| [setContentId(String value)](#setContentId-java.lang.String-) | Gets or sets the content id. |
+| [setContentStream(InputStream value)](#setContentStream-java.io.InputStream-) | Gets or sets the content stream. |
+| [setContentType(ContentType value)](#setContentType-com.aspose.email.ContentType-) | Gets or sets the type of the content. |
+| [setTransferEncoding(int value)](#setTransferEncoding-int-) | Gets or sets the transfer encoding. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### close() {#close--}
 ```
-public final InputStream getContentStream()
-```
-
-
-Gets or sets the content stream.
-
-Value: The content stream.
-
-**Returns:**
-java.io.InputStream
-### setContentStream(InputStream value) {#setContentStream-java.io.InputStream-}
-```
-public final void setContentStream(InputStream value)
+public void close()
 ```
 
 
-Gets or sets the content stream.
 
-Value: The content stream.
+
+### dispose() {#dispose--}
+```
+public final void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.InputStream |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getContentId() {#getContentId--}
 ```
 public final String getContentId()
@@ -72,31 +96,18 @@ Value: The content id.
 
 **Returns:**
 java.lang.String
-### setContentId(String value) {#setContentId-java.lang.String-}
+### getContentStream() {#getContentStream--}
 ```
-public final void setContentId(String value)
-```
-
-
-Gets or sets the content id.
-
-Value: The content id.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getHeaders() {#getHeaders--}
-```
-public HeaderCollection getHeaders()
+public final InputStream getContentStream()
 ```
 
 
-Gets headers collection of attachment.
+Gets or sets the content stream.
+
+Value: The content stream.
 
 **Returns:**
-[HeaderCollection](../../com.aspose.email/headercollection)
+java.io.InputStream
 ### getContentType() {#getContentType--}
 ```
 public final ContentType getContentType()
@@ -109,21 +120,16 @@ Value: The type of the content.
 
 **Returns:**
 [ContentType](../../com.aspose.email/contenttype)
-### setContentType(ContentType value) {#setContentType-com.aspose.email.ContentType-}
+### getHeaders() {#getHeaders--}
 ```
-public final void setContentType(ContentType value)
+public HeaderCollection getHeaders()
 ```
 
 
-Gets or sets the type of the content.
+Gets headers collection of attachment.
 
-Value: The type of the content.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ContentType](../../com.aspose.email/contenttype) |  |
-
+**Returns:**
+[HeaderCollection](../../com.aspose.email/headercollection)
 ### getTransferEncoding() {#getTransferEncoding--}
 ```
 public final int getTransferEncoding()
@@ -136,20 +142,31 @@ Value: The transfer encoding.
 
 **Returns:**
 int
-### setTransferEncoding(int value) {#setTransferEncoding-int-}
+### hashCode() {#hashCode--}
 ```
-public final void setTransferEncoding(int value)
+public native int hashCode()
 ```
 
 
-Gets or sets the transfer encoding.
 
-Value: The transfer encoding.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -177,19 +194,108 @@ Saves the specified file name.
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
 
-### dispose() {#dispose--}
+### setContentId(String value) {#setContentId-java.lang.String-}
 ```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
-### close() {#close--}
-```
-public void close()
+public final void setContentId(String value)
 ```
 
 
+Gets or sets the content id.
 
+Value: The content id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setContentStream(InputStream value) {#setContentStream-java.io.InputStream-}
+```
+public final void setContentStream(InputStream value)
+```
+
+
+Gets or sets the content stream.
+
+Value: The content stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.io.InputStream |  |
+
+### setContentType(ContentType value) {#setContentType-com.aspose.email.ContentType-}
+```
+public final void setContentType(ContentType value)
+```
+
+
+Gets or sets the type of the content.
+
+Value: The type of the content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ContentType](../../com.aspose.email/contenttype) |  |
+
+### setTransferEncoding(int value) {#setTransferEncoding-int-}
+```
+public final void setTransferEncoding(int value)
+```
+
+
+Gets or sets the transfer encoding.
+
+Value: The transfer encoding.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

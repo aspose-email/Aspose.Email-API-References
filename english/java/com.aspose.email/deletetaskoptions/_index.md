@@ -6,6 +6,7 @@ type: docs
 weight: 151
 url: /java/com.aspose.email/deletetaskoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

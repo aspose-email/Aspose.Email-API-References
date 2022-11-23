@@ -6,6 +6,7 @@ type: docs
 weight: 323
 url: /java/com.aspose.email/imapnamespacetype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

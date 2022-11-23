@@ -6,6 +6,7 @@ type: docs
 weight: 133
 url: /java/com.aspose.email/dsnaction/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

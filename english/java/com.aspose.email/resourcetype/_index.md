@@ -6,6 +6,7 @@ type: docs
 weight: 603
 url: /java/com.aspose.email/resourcetype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

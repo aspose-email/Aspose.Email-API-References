@@ -6,6 +6,7 @@ type: docs
 weight: 97
 url: /java/com.aspose.email/calendarrecurrencepattern/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

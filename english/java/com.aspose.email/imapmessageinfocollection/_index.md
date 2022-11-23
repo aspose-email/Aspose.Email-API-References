@@ -6,6 +6,7 @@ type: docs
 weight: 316
 url: /java/com.aspose.email/imapmessageinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection, [com.aspose.email.ImapMessageInfoCollectionBase](../../com.aspose.email/imapmessageinfocollectionbase)
 

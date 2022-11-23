@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /java/com.aspose.email/calendar/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.BaseDataObject](../../com.aspose.email/basedataobject)
 ```

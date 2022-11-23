@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /java/com.aspose.email/debugformatter/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.Formatter](../../com.aspose.email/formatter)
 ```

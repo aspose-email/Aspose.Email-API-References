@@ -6,6 +6,7 @@ type: docs
 weight: 354
 url: /java/com.aspose.email/localeoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 315
 url: /java/com.aspose.email/imapmessageinfo/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.MessageInfoBase](../../com.aspose.email/messageinfobase)
 ```

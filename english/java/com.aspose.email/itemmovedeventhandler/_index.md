@@ -6,6 +6,7 @@ type: docs
 weight: 342
 url: /java/com.aspose.email/itemmovedeventhandler/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 600
 url: /java/com.aspose.email/resourcehtmlrenderingeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

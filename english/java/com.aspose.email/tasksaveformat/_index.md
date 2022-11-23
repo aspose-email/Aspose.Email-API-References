@@ -6,6 +6,7 @@ type: docs
 weight: 661
 url: /java/com.aspose.email/tasksaveformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

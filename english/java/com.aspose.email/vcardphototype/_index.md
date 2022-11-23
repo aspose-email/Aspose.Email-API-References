@@ -6,6 +6,7 @@ type: docs
 weight: 706
 url: /java/com.aspose.email/vcardphototype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

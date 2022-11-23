@@ -1,11 +1,12 @@
 ---
 title: InstantMessengerAddress
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents an instant messanger address.
+description: Represents an instant messanger address.
 type: docs
 weight: 165
-url: /java/com.aspose.email/instantmessengeraddress/
+url: /androidjava/com.aspose.email/instantmessengeraddress/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -25,146 +26,48 @@ Represents an instant messanger address.
 
 | Method | Description |
 | --- | --- |
-| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether object is preferred. |
-| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether object is preferred. |
-| [getCategory()](#getCategory--) | Gets or sets an object category |
-| [setCategory(InstantMessengerCategory value)](#setCategory-com.aspose.email.InstantMessengerCategory-) | Gets or sets an object category |
-| [getAddress()](#getAddress--) | Gets or sets an instant messanger address |
-| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets an instant messanger address |
-| [toString()](#toString--) | Returns a string that represents the current object. |
-| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
-| [hashCode(InstantMessengerAddress obj)](#hashCode-com.aspose.email.InstantMessengerAddress-) | GetHashCode returns a hash function for specified object. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [compareTo(InstantMessengerAddress obj)](#compareTo-com.aspose.email.InstantMessengerAddress-) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
 | [equals(InstantMessengerAddress obj)](#equals-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified Object is equal to the current Object. |
 | [equals(InstantMessengerAddress x, InstantMessengerAddress y)](#equals-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified object instances are considered equal. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [getAddress()](#getAddress--) | Gets or sets an instant messanger address |
+| [getCategory()](#getCategory--) | Gets or sets an object category |
+| [getClass()](#getClass--) |  |
+| [getPrefered()](#getPrefered--) | Gets or sets a value which defines whether object is preferred. |
+| [hashCode()](#hashCode--) | GetHashCode returns a hash function for this object. |
+| [hashCode(InstantMessengerAddress obj)](#hashCode-com.aspose.email.InstantMessengerAddress-) | GetHashCode returns a hash function for specified object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [op_Equality(InstantMessengerAddress a, InstantMessengerAddress b)](#op-Equality-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified objects are equal. |
 | [op_Inequality(InstantMessengerAddress a, InstantMessengerAddress b)](#op-Inequality-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-) | Determines whether the specified objects are not equal. |
-| [compareTo(InstantMessengerAddress obj)](#compareTo-com.aspose.email.InstantMessengerAddress-) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Gets or sets an instant messanger address |
+| [setCategory(InstantMessengerCategory value)](#setCategory-com.aspose.email.InstantMessengerCategory-) | Gets or sets an object category |
+| [setPrefered(boolean value)](#setPrefered-boolean-) | Gets or sets a value which defines whether object is preferred. |
+| [toString()](#toString--) | Returns a string that represents the current object. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### InstantMessengerAddress() {#InstantMessengerAddress--}
 ```
 public InstantMessengerAddress()
 ```
 
 
-### getPrefered() {#getPrefered--}
+### compareTo(InstantMessengerAddress obj) {#compareTo-com.aspose.email.InstantMessengerAddress-}
 ```
-public final boolean getPrefered()
-```
-
-
-Gets or sets a value which defines whether object is preferred.
-
-**Returns:**
-boolean
-### setPrefered(boolean value) {#setPrefered-boolean-}
-```
-public final void setPrefered(boolean value)
+public final int compareTo(InstantMessengerAddress obj)
 ```
 
 
-Gets or sets a value which defines whether object is preferred.
+Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
-
-### getCategory() {#getCategory--}
-```
-public final InstantMessengerCategory getCategory()
-```
-
-
-Gets or sets an object category
+| obj | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | An object to compare with this instance, or null. |
 
 **Returns:**
-[InstantMessengerCategory](../../com.aspose.email/instantmessengercategory)
-### setCategory(InstantMessengerCategory value) {#setCategory-com.aspose.email.InstantMessengerCategory-}
-```
-public final void setCategory(InstantMessengerCategory value)
-```
-
-
-Gets or sets an object category
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [InstantMessengerCategory](../../com.aspose.email/instantmessengercategory) |  |
-
-### getAddress() {#getAddress--}
-```
-public final String getAddress()
-```
-
-
-Gets or sets an instant messanger address
-
-**Returns:**
-java.lang.String
-### setAddress(String value) {#setAddress-java.lang.String-}
-```
-public final void setAddress(String value)
-```
-
-
-Gets or sets an instant messanger address
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-Returns a string that represents the current object.
-
-**Returns:**
-java.lang.String - Returns a string that represents the current object.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-GetHashCode returns a hash function for this object.
-
-**Returns:**
-int - Returns a hash function for this object.
-### hashCode(InstantMessengerAddress obj) {#hashCode-com.aspose.email.InstantMessengerAddress-}
-```
-public final int hashCode(InstantMessengerAddress obj)
-```
-
-
-GetHashCode returns a hash function for specified object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | The Object for which a hash code is to be returned. |
-
-**Returns:**
-int - Returns a hash function for specified object.
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Determines whether the specified Object is equal to the current Object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object | The Object to compare with the current Object. |
-
-**Returns:**
-boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
 ### equals(InstantMessengerAddress obj) {#equals-com.aspose.email.InstantMessengerAddress-}
 ```
 public final boolean equals(InstantMessengerAddress obj)
@@ -196,6 +99,102 @@ Determines whether the specified object instances are considered equal.
 
 **Returns:**
 boolean - true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified Object is equal to the current Object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The Object to compare with the current Object. |
+
+**Returns:**
+boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+### getAddress() {#getAddress--}
+```
+public final String getAddress()
+```
+
+
+Gets or sets an instant messanger address
+
+**Returns:**
+java.lang.String
+### getCategory() {#getCategory--}
+```
+public final InstantMessengerCategory getCategory()
+```
+
+
+Gets or sets an object category
+
+**Returns:**
+[InstantMessengerCategory](../../com.aspose.email/instantmessengercategory)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getPrefered() {#getPrefered--}
+```
+public final boolean getPrefered()
+```
+
+
+Gets or sets a value which defines whether object is preferred.
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+GetHashCode returns a hash function for this object.
+
+**Returns:**
+int - Returns a hash function for this object.
+### hashCode(InstantMessengerAddress obj) {#hashCode-com.aspose.email.InstantMessengerAddress-}
+```
+public final int hashCode(InstantMessengerAddress obj)
+```
+
+
+GetHashCode returns a hash function for specified object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | The Object for which a hash code is to be returned. |
+
+**Returns:**
+int - Returns a hash function for specified object.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### op_Equality(InstantMessengerAddress a, InstantMessengerAddress b) {#op-Equality-com.aspose.email.InstantMessengerAddress-com.aspose.email.InstantMessengerAddress-}
 ```
 public static boolean op_Equality(InstantMessengerAddress a, InstantMessengerAddress b)
@@ -228,18 +227,87 @@ Determines whether the specified objects are not equal.
 
 **Returns:**
 boolean - Returns true if objects are not equal, otherwise false.
-### compareTo(InstantMessengerAddress obj) {#compareTo-com.aspose.email.InstantMessengerAddress-}
+### setAddress(String value) {#setAddress-java.lang.String-}
 ```
-public final int compareTo(InstantMessengerAddress obj)
+public final void setAddress(String value)
 ```
 
 
-Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+Gets or sets an instant messanger address
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [InstantMessengerAddress](../../com.aspose.email/instantmessengeraddress) | An object to compare with this instance, or null. |
+| value | java.lang.String |  |
+
+### setCategory(InstantMessengerCategory value) {#setCategory-com.aspose.email.InstantMessengerCategory-}
+```
+public final void setCategory(InstantMessengerCategory value)
+```
+
+
+Gets or sets an object category
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [InstantMessengerCategory](../../com.aspose.email/instantmessengercategory) |  |
+
+### setPrefered(boolean value) {#setPrefered-boolean-}
+```
+public final void setPrefered(boolean value)
+```
+
+
+Gets or sets a value which defines whether object is preferred.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a string that represents the current object.
 
 **Returns:**
-int - This method returns: a value less than 0 if this is less than value 0 if this is equal to value a value greater than 0 if this is greater than value
+java.lang.String - Returns a string that represents the current object.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

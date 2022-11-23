@@ -6,6 +6,7 @@ type: docs
 weight: 476
 url: /java/com.aspose.email/mapitaskusers/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

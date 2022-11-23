@@ -6,6 +6,7 @@ type: docs
 weight: 182
 url: /java/com.aspose.email/eventlist/
 ---
+
 **Inheritance:**
 java.lang.Object
 

@@ -6,6 +6,7 @@ type: docs
 weight: 732
 url: /java/com.aspose.email/ibasegmailclient/
 ---
+
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable, java.io.Closeable
 ```

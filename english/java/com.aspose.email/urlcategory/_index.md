@@ -6,6 +6,7 @@ type: docs
 weight: 683
 url: /java/com.aspose.email/urlcategory/
 ---
+
 **Inheritance:**
 java.lang.Object
 

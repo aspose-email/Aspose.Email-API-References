@@ -6,6 +6,7 @@ type: docs
 weight: 29
 url: /java/com.aspose.email/appender/
 ---
+
 **Inheritance:**
 java.lang.Object
 

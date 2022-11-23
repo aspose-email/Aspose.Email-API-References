@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /java/com.aspose.email/exchangeuseravailability/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

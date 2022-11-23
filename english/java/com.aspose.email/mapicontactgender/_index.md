@@ -6,6 +6,7 @@ type: docs
 weight: 420
 url: /java/com.aspose.email/mapicontactgender/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 355
 url: /java/com.aspose.email/logentry/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

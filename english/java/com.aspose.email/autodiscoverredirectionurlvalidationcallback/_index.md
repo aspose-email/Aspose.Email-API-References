@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /java/com.aspose.email/autodiscoverredirectionurlvalidationcallback/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```

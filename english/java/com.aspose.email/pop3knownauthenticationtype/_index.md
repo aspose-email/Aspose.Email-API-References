@@ -6,6 +6,7 @@ type: docs
 weight: 566
 url: /java/com.aspose.email/pop3knownauthenticationtype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```
