@@ -10,4 +10,4 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.email](./com.aspose.email) | Contains Java API classes that enables to read and write Microsoft Outlook® documents without using Microsoft Outlook® |
+| [com.aspose.email](./com.aspose.email) | Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook |
