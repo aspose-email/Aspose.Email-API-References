@@ -8,7 +8,7 @@ url: /java/com.aspose.email/
 ---
 
 
-Contains Java API classes that enables to read and write Microsoft Outlook® documents without using Microsoft Outlook®
+Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook
 
 
 ## Classes
