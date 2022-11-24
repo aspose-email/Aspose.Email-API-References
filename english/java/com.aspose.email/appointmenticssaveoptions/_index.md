@@ -6,6 +6,7 @@ type: docs
 weight: 37
 url: /java/com.aspose.email/appointmenticssaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.AppointmentSaveOptions](../../com.aspose.email/appointmentsaveoptions)
 ```

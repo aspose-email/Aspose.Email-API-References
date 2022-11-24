@@ -1,11 +1,12 @@
 ---
 title: IMailTransferAgent
 second_title: Aspose.Email for Android via Java API Reference
-description:  Provides the base interface for mail transfer agents.
+description: Provides the base interface for mail transfer agents.
 type: docs
-weight: 451
-url: /java/com.aspose.email/imailtransferagent/
+weight: 457
+url: /androidjava/com.aspose.email/imailtransferagent/
 ---
+
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 382
 url: /java/com.aspose.email/mailgunclientoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.DeliveryServiceOptions](../../com.aspose.email/deliveryserviceoptions)
 ```

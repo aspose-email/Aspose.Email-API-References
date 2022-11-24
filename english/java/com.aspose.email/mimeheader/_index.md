@@ -6,6 +6,7 @@ type: docs
 weight: 514
 url: /java/com.aspose.email/mimeheader/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

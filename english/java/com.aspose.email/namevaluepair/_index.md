@@ -6,6 +6,7 @@ type: docs
 weight: 520
 url: /java/com.aspose.email/namevaluepair/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 231
 url: /java/com.aspose.email/exchangeuseravailabilitycollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

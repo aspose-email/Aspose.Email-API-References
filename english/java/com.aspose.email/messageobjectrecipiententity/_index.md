@@ -6,6 +6,7 @@ type: docs
 weight: 500
 url: /java/com.aspose.email/messageobjectrecipiententity/
 ---
+
 **Inheritance:**
 java.lang.Object
 

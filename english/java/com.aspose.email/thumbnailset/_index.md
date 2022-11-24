@@ -6,6 +6,7 @@ type: docs
 weight: 668
 url: /java/com.aspose.email/thumbnailset/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

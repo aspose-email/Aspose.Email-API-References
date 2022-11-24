@@ -6,6 +6,7 @@ type: docs
 weight: 141
 url: /java/com.aspose.email/datatable/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

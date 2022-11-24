@@ -6,6 +6,7 @@ type: docs
 weight: 173
 url: /java/com.aspose.email/emlvalidationerrorcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

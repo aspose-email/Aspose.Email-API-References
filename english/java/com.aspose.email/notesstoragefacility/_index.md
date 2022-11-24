@@ -6,6 +6,7 @@ type: docs
 weight: 528
 url: /java/com.aspose.email/notesstoragefacility/
 ---
+
 **Inheritance:**
 java.lang.Object
 

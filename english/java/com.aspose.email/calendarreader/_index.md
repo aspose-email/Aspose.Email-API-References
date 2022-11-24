@@ -6,6 +6,7 @@ type: docs
 weight: 95
 url: /java/com.aspose.email/calendarreader/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

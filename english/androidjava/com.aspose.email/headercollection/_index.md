@@ -1,11 +1,12 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for Android via Java API Reference
-description:  Defines the collection of header fields
+description: Defines the collection of header fields
 type: docs
 weight: 155
-url: /java/com.aspose.email/headercollection/
+url: /androidjava/com.aspose.email/headercollection/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -26,33 +27,42 @@ Defines the collection of header fields
 
 | Method | Description |
 | --- | --- |
-| [getAllKeys()](#getAllKeys--) | Gets an array of strings containing all header keys in collections |
-| [getKeys()](#getKeys--) | Gets a \`\`\` System.Collections.ObjectModel.ReadOnlyCollection\{string\} \`\`\` containing all header keys in collections |
-| [get_Item(String name)](#get-Item-java.lang.String-) | Gets a value from collection by the name. |
-| [set_Item(String name, String value)](#set-Item-java.lang.String-java.lang.String-) | Gets a value from collection by the name. |
-| [get_Item(int index)](#get-Item-int-) | Gets a value from collection by the index. |
-| [getKey(int index)](#getKey-int-) | Gets the key at the specified index of the collection. |
-| [get(int index)](#get-int-) | Gets the value at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Gets the header value by a given header name. |
-| [getDecodedValue(String name)](#getDecodedValue-java.lang.String-) | Gets the header value. |
-| [getValues(String name)](#getValues-java.lang.String-) | Gets the header values. |
-| [add_(String name, String value)](#add--java.lang.String-java.lang.String-) | Adds the header. |
 | [add(HeaderCollection c)](#add-com.aspose.email.HeaderCollection-) | Adds a header to collection. |
-| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | Adds the header. |
-| [insert(String name, String value)](#insert-java.lang.String-java.lang.String-) | Inserts the header in collection. |
-| [set(String name, String value)](#set-java.lang.String-java.lang.String-) | Sets the header. |
-| [hasKeys()](#hasKeys--) | Gets a value indicating whether the collection contains keys. |
-| [size()](#size--) | Gets a count of headers |
-| [isReadOnly()](#isReadOnly--) | Is collection readonly |
 | [add(String item)](#add-java.lang.String-) | Adds the header without value |
+| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | Adds the header. |
+| [add_(String name, String value)](#add--java.lang.String-java.lang.String-) | Adds the header. |
 | [clear()](#clear--) | Clears all headers. |
 | [contains(String item)](#contains-java.lang.String-) | Gets a value indicating whether the specified header is contained in the collection |
-| [copyTo(String[] array, int arrayIndex)](#copyTo-java.lang.String---int-) | Copies all the elements of the current collection to the specified string array starting at the specified destination index. |
-| [remove(String item)](#remove-java.lang.String-) | Removes the header from collection by a given header name. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
 | [copyTo(System.Array dest, int index)](#copyTo-com.aspose.ms.System.Array-int-) |  |
+| [copyTo(String[] array, int arrayIndex)](#copyTo-java.lang.String---int-) | Copies all the elements of the current collection to the specified string array starting at the specified destination index. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Gets the value at the specified index. |
+| [get(String name)](#get-java.lang.String-) | Gets the header value by a given header name. |
+| [getAllKeys()](#getAllKeys--) | Gets an array of strings containing all header keys in collections |
+| [getClass()](#getClass--) |  |
+| [getDecodedValue(String name)](#getDecodedValue-java.lang.String-) | Gets the header value. |
+| [getKey(int index)](#getKey-int-) | Gets the key at the specified index of the collection. |
+| [getKeys()](#getKeys--) | Gets a  System.Collections.ObjectModel.ReadOnlyCollection\{string\}  containing all header keys in collections |
 | [getSyncRoot()](#getSyncRoot--) |  |
+| [getValues(String name)](#getValues-java.lang.String-) | Gets the header values. |
+| [get_Item(int index)](#get-Item-int-) | Gets a value from collection by the index. |
+| [get_Item(String name)](#get-Item-java.lang.String-) | Gets a value from collection by the name. |
+| [hasKeys()](#hasKeys--) | Gets a value indicating whether the collection contains keys. |
+| [hashCode()](#hashCode--) |  |
+| [insert(String name, String value)](#insert-java.lang.String-java.lang.String-) | Inserts the header in collection. |
+| [isReadOnly()](#isReadOnly--) | Is collection readonly |
 | [isSynchronized()](#isSynchronized--) |  |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through a collection. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove(String item)](#remove-java.lang.String-) | Removes the header from collection by a given header name. |
+| [set(String name, String value)](#set-java.lang.String-java.lang.String-) | Sets the header. |
+| [set_Item(String name, String value)](#set-Item-java.lang.String-java.lang.String-) | Gets a value from collection by the name. |
+| [size()](#size--) | Gets a count of headers |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### HeaderCollection(HeaderCollection col) {#HeaderCollection-com.aspose.email.HeaderCollection-}
 ```
 public HeaderCollection(HeaderCollection col)
@@ -74,85 +84,126 @@ public HeaderCollection()
 
 Initializes a new instance of the [HeaderCollection](../../com.aspose.email/headercollection) class.
 
-### getAllKeys() {#getAllKeys--}
+### add(HeaderCollection c) {#add-com.aspose.email.HeaderCollection-}
 ```
-public String[] getAllKeys()
-```
-
-
-Gets an array of strings containing all header keys in collections
-
-**Returns:**
-java.lang.String[]
-### getKeys() {#getKeys--}
-```
-public List<String> getKeys()
+public final void add(HeaderCollection c)
 ```
 
 
-Gets a \`\`\` System.Collections.ObjectModel.ReadOnlyCollection\{string\} \`\`\` containing all header keys in collections
-
-**Returns:**
-java.util.List<java.lang.String>
-### get_Item(String name) {#get-Item-java.lang.String-}
-```
-public final String get_Item(String name)
-```
-
-
-Gets a value from collection by the name.
+Adds a header to collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name (key) in collection for an item. |
+| c | [HeaderCollection](../../com.aspose.email/headercollection) | HeaderCollection for adding. |
 
-**Returns:**
-java.lang.String - Returns specified item
-### set_Item(String name, String value) {#set-Item-java.lang.String-java.lang.String-}
+### add(String item) {#add-java.lang.String-}
 ```
-public final void set_Item(String name, String value)
+public final void add(String item)
 ```
 
 
-Gets a value from collection by the name.
+Adds the header without value
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name (key) in collection for an item. |
-| value | java.lang.String |  |
+| item | java.lang.String |  |
 
-### get_Item(int index) {#get-Item-int-}
+### add(String name, String value) {#add-java.lang.String-java.lang.String-}
 ```
-public final String get_Item(int index)
+public final void add(String name, String value)
 ```
 
 
-Gets a value from collection by the index.
+Adds the header.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The index in collection for an item. |
+| name | java.lang.String | The header name. |
+| value | java.lang.String | The header value. |
 
-**Returns:**
-java.lang.String - Returns specified item
-### getKey(int index) {#getKey-int-}
+### add_(String name, String value) {#add--java.lang.String-java.lang.String-}
 ```
-public String getKey(int index)
+public void add_(String name, String value)
 ```
 
 
-Gets the key at the specified index of the collection.
+Adds the header.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The index of the key. |
+| name | java.lang.String | The header name. |
+| value | java.lang.String | The header value. |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Clears all headers.
+
+### contains(String item) {#contains-java.lang.String-}
+```
+public final boolean contains(String item)
+```
+
+
+Gets a value indicating whether the specified header is contained in the collection
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | java.lang.String | A header to search |
 
 **Returns:**
-java.lang.String - The key at the specified index.
+boolean -  True  if collection contains specified  item ; otherwise,  false 
+### copyTo(System.Array dest, int index) {#copyTo-com.aspose.ms.System.Array-int-}
+```
+public void copyTo(System.Array dest, int index)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dest | com.aspose.ms.System.Array |  |
+| index | int |  |
+
+### copyTo(String[] array, int arrayIndex) {#copyTo-java.lang.String---int-}
+```
+public final void copyTo(String[] array, int arrayIndex)
+```
+
+
+Copies all the elements of the current collection to the specified string array starting at the specified destination index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | java.lang.String[] | The destination of the elements copied from the current collection. |
+| arrayIndex | int | An integer that represents the index in array at which copying begins. |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public String get(int index)
@@ -183,6 +234,26 @@ Gets the header value by a given header name.
 
 **Returns:**
 java.lang.String - The header value.
+### getAllKeys() {#getAllKeys--}
+```
+public String[] getAllKeys()
+```
+
+
+Gets an array of strings containing all header keys in collections
+
+**Returns:**
+java.lang.String[]
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDecodedValue(String name) {#getDecodedValue-java.lang.String-}
 ```
 public final String getDecodedValue(String name)
@@ -198,6 +269,41 @@ Gets the header value.
 
 **Returns:**
 java.lang.String - Decoded text value
+### getKey(int index) {#getKey-int-}
+```
+public String getKey(int index)
+```
+
+
+Gets the key at the specified index of the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of the key. |
+
+**Returns:**
+java.lang.String - The key at the specified index.
+### getKeys() {#getKeys--}
+```
+public List<String> getKeys()
+```
+
+
+Gets a  System.Collections.ObjectModel.ReadOnlyCollection\{string\}  containing all header keys in collections
+
+**Returns:**
+java.util.List<java.lang.String>
+### getSyncRoot() {#getSyncRoot--}
+```
+public Object getSyncRoot()
+```
+
+
+
+
+**Returns:**
+java.lang.Object
 ### getValues(String name) {#getValues-java.lang.String-}
 ```
 public final String[] getValues(String name)
@@ -213,47 +319,56 @@ Gets the header values.
 
 **Returns:**
 java.lang.String[] - The collection of header values.
-### add_(String name, String value) {#add--java.lang.String-java.lang.String-}
+### get_Item(int index) {#get-Item-int-}
 ```
-public void add_(String name, String value)
+public final String get_Item(int index)
 ```
 
 
-Adds the header.
+Gets a value from collection by the index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The header name. |
-| value | java.lang.String | The header value. |
+| index | int | The index in collection for an item. |
 
-### add(HeaderCollection c) {#add-com.aspose.email.HeaderCollection-}
+**Returns:**
+java.lang.String - Returns specified item
+### get_Item(String name) {#get-Item-java.lang.String-}
 ```
-public final void add(HeaderCollection c)
+public final String get_Item(String name)
 ```
 
 
-Adds a header to collection.
+Gets a value from collection by the name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| c | [HeaderCollection](../../com.aspose.email/headercollection) | HeaderCollection for adding. |
+| name | java.lang.String | The name (key) in collection for an item. |
 
-### add(String name, String value) {#add-java.lang.String-java.lang.String-}
+**Returns:**
+java.lang.String - Returns specified item
+### hasKeys() {#hasKeys--}
 ```
-public final void add(String name, String value)
+public final boolean hasKeys()
 ```
 
 
-Adds the header.
+Gets a value indicating whether the collection contains keys.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The header name. |
-| value | java.lang.String | The header value. |
+**Returns:**
+boolean - Returns true if collection has an items, otherwise returns false.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
 
+
+
+
+**Returns:**
+int
 ### insert(String name, String value) {#insert-java.lang.String-java.lang.String-}
 ```
 public final void insert(String name, String value)
@@ -268,40 +383,6 @@ Inserts the header in collection. If collection contains headers with the same n
 | name | java.lang.String | The header name. |
 | value | java.lang.String | The header value. |
 
-### set(String name, String value) {#set-java.lang.String-java.lang.String-}
-```
-public final void set(String name, String value)
-```
-
-
-Sets the header.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The header name. |
-| value | java.lang.String | The header value. |
-
-### hasKeys() {#hasKeys--}
-```
-public final boolean hasKeys()
-```
-
-
-Gets a value indicating whether the collection contains keys.
-
-**Returns:**
-boolean - Returns true if collection has an items, otherwise returns false.
-### size() {#size--}
-```
-public int size()
-```
-
-
-Gets a count of headers
-
-**Returns:**
-int
 ### isReadOnly() {#isReadOnly--}
 ```
 public final boolean isReadOnly()
@@ -312,55 +393,41 @@ Is collection readonly
 
 **Returns:**
 boolean
-### add(String item) {#add-java.lang.String-}
+### isSynchronized() {#isSynchronized--}
 ```
-public final void add(String item)
-```
-
-
-Adds the header without value
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.String |  |
-
-### clear() {#clear--}
-```
-public void clear()
+public boolean isSynchronized()
 ```
 
 
-Clears all headers.
 
-### contains(String item) {#contains-java.lang.String-}
-```
-public final boolean contains(String item)
-```
-
-
-Gets a value indicating whether the specified header is contained in the collection
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| item | java.lang.String | A header to search |
 
 **Returns:**
-boolean - \`\`\` True \`\`\` if collection contains specified \`\`\` item \`\`\`; otherwise, \`\`\` false \`\`\`
-### copyTo(String[] array, int arrayIndex) {#copyTo-java.lang.String---int-}
+boolean
+### iterator() {#iterator--}
 ```
-public final void copyTo(String[] array, int arrayIndex)
+public final System.Collections.Generic.IGenericEnumerator<String> iterator()
 ```
 
 
-Copies all the elements of the current collection to the specified string array starting at the specified destination index.
+Returns an enumerator that iterates through a collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| array | java.lang.String[] | The destination of the elements copied from the current collection. |
-| arrayIndex | int | An integer that represents the index in array at which copying begins. |
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<java.lang.String> - An  System.Collections.Generic.IEnumerator\{string\}  object that can be used to iterate through the collection.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### remove(String item) {#remove-java.lang.String-}
 ```
@@ -377,19 +444,65 @@ Removes the header from collection by a given header name.
 
 **Returns:**
 boolean - true if item was successfully removed from the collection.
-### iterator() {#iterator--}
+### set(String name, String value) {#set-java.lang.String-java.lang.String-}
 ```
-public final System.Collections.Generic.IGenericEnumerator<String> iterator()
+public final void set(String name, String value)
 ```
 
 
-Returns an enumerator that iterates through a collection.
+Sets the header.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The header name. |
+| value | java.lang.String | The header value. |
+
+### set_Item(String name, String value) {#set-Item-java.lang.String-java.lang.String-}
+```
+public final void set_Item(String name, String value)
+```
+
+
+Gets a value from collection by the name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name (key) in collection for an item. |
+| value | java.lang.String |  |
+
+### size() {#size--}
+```
+public int size()
+```
+
+
+Gets a count of headers
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<java.lang.String> - An \`\`\` System.Collections.Generic.IEnumerator\{string\} \`\`\` object that can be used to iterate through the collection.
-### copyTo(System.Array dest, int index) {#copyTo-com.aspose.ms.System.Array-int-}
+int
+### toString() {#toString--}
 ```
-public void copyTo(System.Array dest, int index)
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -398,26 +511,19 @@ public void copyTo(System.Array dest, int index)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dest | com.aspose.ms.System.Array |  |
-| index | int |  |
+| arg0 | long |  |
 
-### getSyncRoot() {#getSyncRoot--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public Object getSyncRoot()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### isSynchronized() {#isSynchronized--}
-```
-public boolean isSynchronized()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-boolean
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

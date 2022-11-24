@@ -6,6 +6,7 @@ type: docs
 weight: 417
 url: /java/com.aspose.email/mapicontactelectronicaddress/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

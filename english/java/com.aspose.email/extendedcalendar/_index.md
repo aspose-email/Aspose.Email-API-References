@@ -6,6 +6,7 @@ type: docs
 weight: 236
 url: /java/com.aspose.email/extendedcalendar/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.BaseDataObject](../../com.aspose.email/basedataobject), [com.aspose.email.Calendar](../../com.aspose.email/calendar)
 ```

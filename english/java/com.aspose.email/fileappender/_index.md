@@ -6,6 +6,7 @@ type: docs
 weight: 243
 url: /java/com.aspose.email/fileappender/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.Appender](../../com.aspose.email/appender)
 ```

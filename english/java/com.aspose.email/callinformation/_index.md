@@ -6,6 +6,7 @@ type: docs
 weight: 99
 url: /java/com.aspose.email/callinformation/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

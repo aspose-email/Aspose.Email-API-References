@@ -6,6 +6,7 @@ type: docs
 weight: 203
 url: /java/com.aspose.email/exchangedelegateusercollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

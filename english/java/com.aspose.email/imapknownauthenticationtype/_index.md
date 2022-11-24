@@ -6,6 +6,7 @@ type: docs
 weight: 311
 url: /java/com.aspose.email/imapknownauthenticationtype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

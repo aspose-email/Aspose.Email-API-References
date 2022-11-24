@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /java/com.aspose.email/datarowcollection/
 ---
+
 **Inheritance:**
 java.lang.Object
 

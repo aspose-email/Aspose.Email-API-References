@@ -6,6 +6,7 @@ type: docs
 weight: 730
 url: /java/com.aspose.email/iasyncresultext/
 ---
+
 **All Implemented Interfaces:**
 com.aspose.ms.System.IAsyncResult
 ```

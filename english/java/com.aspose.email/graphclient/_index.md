@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /java/com.aspose.email/graphclient/
 ---
+
 **Inheritance:**
 java.lang.Object
 

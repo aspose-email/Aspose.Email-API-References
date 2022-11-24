@@ -6,6 +6,7 @@ type: docs
 weight: 360
 url: /java/com.aspose.email/longcomparisonfield/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.QueryField](../../com.aspose.email/queryfield), [com.aspose.email.ComparisonField](../../com.aspose.email/comparisonfield)
 ```

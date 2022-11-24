@@ -6,6 +6,7 @@ type: docs
 weight: 215
 url: /java/com.aspose.email/exchangefolderuserinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

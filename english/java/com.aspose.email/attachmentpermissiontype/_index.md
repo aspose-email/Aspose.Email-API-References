@@ -6,6 +6,7 @@ type: docs
 weight: 67
 url: /java/com.aspose.email/attachmentpermissiontype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

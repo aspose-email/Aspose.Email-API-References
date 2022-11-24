@@ -6,6 +6,7 @@ type: docs
 weight: 39
 url: /java/com.aspose.email/appointmentmethodtype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

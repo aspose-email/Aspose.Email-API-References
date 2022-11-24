@@ -6,6 +6,7 @@ type: docs
 weight: 331
 url: /java/com.aspose.email/imapstatuscode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

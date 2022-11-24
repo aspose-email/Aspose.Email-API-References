@@ -6,6 +6,7 @@ type: docs
 weight: 557
 url: /java/com.aspose.email/phonenumbercategory/
 ---
+
 **Inheritance:**
 java.lang.Object
 

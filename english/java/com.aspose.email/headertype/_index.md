@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /java/com.aspose.email/headertype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

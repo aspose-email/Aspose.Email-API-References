@@ -6,6 +6,7 @@ type: docs
 weight: 334
 url: /java/com.aspose.email/inlineattachmentextractor/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

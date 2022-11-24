@@ -6,6 +6,7 @@ type: docs
 weight: 118
 url: /java/com.aspose.email/contactfieldsset/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

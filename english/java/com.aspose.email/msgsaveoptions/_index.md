@@ -6,6 +6,7 @@ type: docs
 weight: 518
 url: /java/com.aspose.email/msgsaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveoptions)
 ```

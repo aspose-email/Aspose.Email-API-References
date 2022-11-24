@@ -6,6 +6,7 @@ type: docs
 weight: 202
 url: /java/com.aspose.email/exchangedelegateuser/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

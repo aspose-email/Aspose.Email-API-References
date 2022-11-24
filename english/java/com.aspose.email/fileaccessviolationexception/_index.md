@@ -6,6 +6,7 @@ type: docs
 weight: 242
 url: /java/com.aspose.email/fileaccessviolationexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.aspose.ms.System.SystemException, com.aspose.ms.System.IO.IOException
 ```

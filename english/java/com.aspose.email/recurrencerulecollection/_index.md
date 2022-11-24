@@ -6,6 +6,7 @@ type: docs
 weight: 586
 url: /java/com.aspose.email/recurrencerulecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

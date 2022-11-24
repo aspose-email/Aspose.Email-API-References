@@ -6,6 +6,7 @@ type: docs
 weight: 98
 url: /java/com.aspose.email/calendarwriter/
 ---
+
 **Inheritance:**
 java.lang.Object
 

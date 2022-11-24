@@ -6,6 +6,7 @@ type: docs
 weight: 314
 url: /java/com.aspose.email/imapmessageflags/
 ---
+
 **Inheritance:**
 java.lang.Object
 

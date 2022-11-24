@@ -6,6 +6,7 @@ type: docs
 weight: 671
 url: /java/com.aspose.email/tnefloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.LoadOptions](../../com.aspose.email/loadoptions)
 ```

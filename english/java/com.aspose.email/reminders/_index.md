@@ -6,6 +6,7 @@ type: docs
 weight: 597
 url: /java/com.aspose.email/reminders/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

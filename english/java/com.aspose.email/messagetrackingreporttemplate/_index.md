@@ -6,6 +6,7 @@ type: docs
 weight: 507
 url: /java/com.aspose.email/messagetrackingreporttemplate/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

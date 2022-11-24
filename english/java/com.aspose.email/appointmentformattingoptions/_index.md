@@ -6,6 +6,7 @@ type: docs
 weight: 36
 url: /java/com.aspose.email/appointmentformattingoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 96
 url: /java/com.aspose.email/calendarrecurrence/
 ---
+
 **Inheritance:**
 java.lang.Object
 

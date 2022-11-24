@@ -6,6 +6,7 @@ type: docs
 weight: 347
 url: /java/com.aspose.email/license/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

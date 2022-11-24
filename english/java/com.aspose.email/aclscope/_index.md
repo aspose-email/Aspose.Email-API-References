@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.aspose.email/aclscope/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

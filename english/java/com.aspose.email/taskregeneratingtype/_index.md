@@ -6,6 +6,7 @@ type: docs
 weight: 660
 url: /java/com.aspose.email/taskregeneratingtype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

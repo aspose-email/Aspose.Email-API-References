@@ -6,6 +6,7 @@ type: docs
 weight: 104
 url: /java/com.aspose.email/classificationoverride/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

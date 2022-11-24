@@ -6,6 +6,7 @@ type: docs
 weight: 519
 url: /java/com.aspose.email/multiconnectionmode/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

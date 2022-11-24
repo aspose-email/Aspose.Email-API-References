@@ -6,6 +6,7 @@ type: docs
 weight: 156
 url: /java/com.aspose.email/deliveryserviceoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

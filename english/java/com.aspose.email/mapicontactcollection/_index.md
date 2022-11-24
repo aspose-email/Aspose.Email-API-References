@@ -6,6 +6,7 @@ type: docs
 weight: 416
 url: /java/com.aspose.email/mapicontactcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

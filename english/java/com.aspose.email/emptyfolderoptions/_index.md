@@ -6,6 +6,7 @@ type: docs
 weight: 176
 url: /java/com.aspose.email/emptyfolderoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

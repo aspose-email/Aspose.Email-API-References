@@ -6,6 +6,7 @@ type: docs
 weight: 659
 url: /java/com.aspose.email/taskregeneratingpattern/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.RecurrencePattern](../../com.aspose.email/recurrencepattern)
 ```

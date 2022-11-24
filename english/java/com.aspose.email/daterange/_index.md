@@ -6,6 +6,7 @@ type: docs
 weight: 145
 url: /java/com.aspose.email/daterange/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

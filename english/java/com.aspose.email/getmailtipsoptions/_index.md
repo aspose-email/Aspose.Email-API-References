@@ -6,6 +6,7 @@ type: docs
 weight: 272
 url: /java/com.aspose.email/getmailtipsoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

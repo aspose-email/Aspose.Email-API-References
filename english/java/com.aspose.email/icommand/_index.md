@@ -6,6 +6,7 @@ type: docs
 weight: 297
 url: /java/com.aspose.email/icommand/
 ---
+
 **Inheritance:**
 java.lang.Object
 

@@ -6,6 +6,7 @@ type: docs
 weight: 429
 url: /java/com.aspose.email/mapicontactsaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.ContactSaveOptions](../../com.aspose.email/contactsaveoptions)
 ```

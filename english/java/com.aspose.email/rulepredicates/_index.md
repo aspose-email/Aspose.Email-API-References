@@ -6,6 +6,7 @@ type: docs
 weight: 609
 url: /java/com.aspose.email/rulepredicates/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

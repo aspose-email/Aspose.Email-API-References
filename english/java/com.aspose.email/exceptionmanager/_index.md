@@ -6,6 +6,7 @@ type: docs
 weight: 184
 url: /java/com.aspose.email/exceptionmanager/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

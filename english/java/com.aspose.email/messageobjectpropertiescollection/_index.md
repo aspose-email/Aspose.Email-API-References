@@ -6,6 +6,7 @@ type: docs
 weight: 498
 url: /java/com.aspose.email/messageobjectpropertiescollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection, com.aspose.ms.System.Collections.ObjectModel.KeyedCollection
 ```

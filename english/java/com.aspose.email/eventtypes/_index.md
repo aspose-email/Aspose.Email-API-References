@@ -6,6 +6,7 @@ type: docs
 weight: 183
 url: /java/com.aspose.email/eventtypes/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

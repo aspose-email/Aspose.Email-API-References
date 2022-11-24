@@ -6,6 +6,7 @@ type: docs
 weight: 294
 url: /java/com.aspose.email/htmlsaveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.SaveOptions](../../com.aspose.email/saveoptions), [com.aspose.email.HeadersFormattingOptions](../../com.aspose.email/headersformattingoptions)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 623
 url: /java/com.aspose.email/sendmessagesresult/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 436
 url: /java/com.aspose.email/mapidistributionlistmembercollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

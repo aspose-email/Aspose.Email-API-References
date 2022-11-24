@@ -6,6 +6,7 @@ type: docs
 weight: 349
 url: /java/com.aspose.email/linkedresourcecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 

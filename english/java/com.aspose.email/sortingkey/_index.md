@@ -6,6 +6,7 @@ type: docs
 weight: 644
 url: /java/com.aspose.email/sortingkey/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

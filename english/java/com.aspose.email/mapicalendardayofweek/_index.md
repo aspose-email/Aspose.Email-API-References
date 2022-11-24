@@ -6,6 +6,7 @@ type: docs
 weight: 392
 url: /java/com.aspose.email/mapicalendardayofweek/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 541
 url: /java/com.aspose.email/onenoteoperation/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

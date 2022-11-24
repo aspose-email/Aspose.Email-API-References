@@ -6,6 +6,7 @@ type: docs
 weight: 534
 url: /java/com.aspose.email/oauthtoken/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

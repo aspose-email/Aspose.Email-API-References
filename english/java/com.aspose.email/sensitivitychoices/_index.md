@@ -6,6 +6,7 @@ type: docs
 weight: 624
 url: /java/com.aspose.email/sensitivitychoices/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

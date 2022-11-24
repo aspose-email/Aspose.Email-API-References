@@ -6,6 +6,7 @@ type: docs
 weight: 86
 url: /java/com.aspose.email/byday/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

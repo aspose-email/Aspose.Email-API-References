@@ -6,6 +6,7 @@ type: docs
 weight: 433
 url: /java/com.aspose.email/mapidistributionlistcontactaddresstype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

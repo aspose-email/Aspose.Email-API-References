@@ -6,6 +6,7 @@ type: docs
 weight: 672
 url: /java/com.aspose.email/tokenprovider/
 ---
+
 **Inheritance:**
 java.lang.Object
 

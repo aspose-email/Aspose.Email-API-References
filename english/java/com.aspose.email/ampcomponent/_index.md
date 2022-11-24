@@ -6,6 +6,7 @@ type: docs
 weight: 22
 url: /java/com.aspose.email/ampcomponent/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

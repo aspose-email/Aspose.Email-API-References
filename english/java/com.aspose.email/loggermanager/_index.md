@@ -6,6 +6,7 @@ type: docs
 weight: 358
 url: /java/com.aspose.email/loggermanager/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

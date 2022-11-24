@@ -6,6 +6,7 @@ type: docs
 weight: 513
 url: /java/com.aspose.email/mimeexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception
 ```

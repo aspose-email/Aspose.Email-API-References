@@ -6,6 +6,7 @@ type: docs
 weight: 657
 url: /java/com.aspose.email/task/
 ---
+
 **Inheritance:**
 java.lang.Object
 

@@ -6,6 +6,7 @@ type: docs
 weight: 615
 url: /java/com.aspose.email/searchitemtype/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

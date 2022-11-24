@@ -1,11 +1,12 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents Outlook for Mac storage .OLM file.
+description: Represents Outlook for Mac storage .OLM file.
 type: docs
-weight: 335
-url: /java/com.aspose.email/olmstorage/
+weight: 339
+url: /androidjava/com.aspose.email/olmstorage/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -27,17 +28,26 @@ Represents Outlook for Mac storage (.OLM) file.
 
 | Method | Description |
 | --- | --- |
-| [getFolderHierarchy()](#getFolderHierarchy--) | Gets the folder hierarchy. |
-| [load(InputStream stream)](#load-java.io.InputStream-) | Load OLM storage from stream. |
-| [load(String fileName)](#load-java.lang.String-) | Load OLM storage from file. |
+| [close()](#close--) |  |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [enumerateMessages(OlmFolder folder)](#enumerateMessages-com.aspose.email.OlmFolder-) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [extractMapiMessage(OlmMessageInfo messageInfo)](#extractMapiMessage-com.aspose.email.OlmMessageInfo-) | Get the message from OLM storage. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | Load OLM storage from file. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load OLM from stream. |
-| [getFolders()](#getFolders--) | Gets collection of folders. |
+| [getClass()](#getClass--) |  |
 | [getFolder(String name, boolean ignoreCase)](#getFolder-java.lang.String-boolean-) | Gets the folder by name. |
-| [extractMapiMessage(OlmMessageInfo messageInfo)](#extractMapiMessage-com.aspose.email.OlmMessageInfo-) | Get the message from OLM storage. |
-| [enumerateMessages(OlmFolder folder)](#enumerateMessages-com.aspose.email.OlmFolder-) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [close()](#close--) |  |
+| [getFolderHierarchy()](#getFolderHierarchy--) | Gets the folder hierarchy. |
+| [getFolders()](#getFolders--) | Gets collection of folders. |
+| [hashCode()](#hashCode--) |  |
+| [load(InputStream stream)](#load-java.io.InputStream-) | Load OLM storage from stream. |
+| [load(String fileName)](#load-java.lang.String-) | Load OLM storage from file. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### OlmStorage(TraversalExceptionsCallback callback) {#OlmStorage-com.aspose.email.TraversalExceptionsCallback-}
 ```
 public OlmStorage(TraversalExceptionsCallback callback)
@@ -77,48 +87,67 @@ Initializes a new instance of the [OlmStorage](../../com.aspose.email/olmstorage
 | --- | --- | --- |
 | stream | java.io.InputStream | Source stream java.io.InputStream with OLM storage data. |
 
-### getFolderHierarchy() {#getFolderHierarchy--}
+### close() {#close--}
 ```
-public final List<OlmFolder> getFolderHierarchy()
-```
-
-
-Gets the folder hierarchy.
-
-Value: The folder hierarchy.
-
-**Returns:**
-java.util.List<com.aspose.email.OlmFolder>
-### load(InputStream stream) {#load-java.io.InputStream-}
-```
-public final boolean load(InputStream stream)
+public void close()
 ```
 
 
-Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter.
+
+
+### dispose() {#dispose--}
+```
+public final void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+### enumerateMessages(OlmFolder folder) {#enumerateMessages-com.aspose.email.OlmFolder-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerateMessages(OlmFolder folder)
+```
+
+
+Exposes the enumerator, which supports an iteration of messages in folder.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
+| folder | [OlmFolder](../../com.aspose.email/olmfolder) | [OlmFolder](../../com.aspose.email/olmfolder) that represents information about folder in OLM storage. |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
-### load(String fileName) {#load-java.lang.String-}
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public final boolean load(String fileName)
+public boolean equals(Object arg0)
 ```
 
 
-Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The file name. |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+boolean
+### extractMapiMessage(OlmMessageInfo messageInfo) {#extractMapiMessage-com.aspose.email.OlmMessageInfo-}
+```
+public final MapiMessage extractMapiMessage(OlmMessageInfo messageInfo)
+```
+
+
+Get the message from OLM storage.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [OlmMessageInfo](../../com.aspose.email/olmmessageinfo) | An OlmMessageInfo object that represents information about message. |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
 ### fromFile(String fileName) {#fromFile-java.lang.String-}
 ```
 public static OlmStorage fromFile(String fileName)
@@ -149,16 +178,16 @@ Load OLM from stream.
 
 **Returns:**
 [OlmStorage](../../com.aspose.email/olmstorage) - An OlmStorage object that represents the current OLM storage.
-### getFolders() {#getFolders--}
+### getClass() {#getClass--}
 ```
-public final List<OlmFolder> getFolders()
+public final native Class<?> getClass()
 ```
 
 
-Gets collection of folders.
+
 
 **Returns:**
-java.util.List<com.aspose.email.OlmFolder> - The collection of folders that belong to the storage, i.e. the sub-folders of the current OLMStorage object.
+java.lang.Class<?>
 ### getFolder(String name, boolean ignoreCase) {#getFolder-java.lang.String-boolean-}
 ```
 public final OlmFolder getFolder(String name, boolean ignoreCase)
@@ -175,49 +204,126 @@ Gets the folder by name.
 
 **Returns:**
 [OlmFolder](../../com.aspose.email/olmfolder) - An OlmFolder object.
-### extractMapiMessage(OlmMessageInfo messageInfo) {#extractMapiMessage-com.aspose.email.OlmMessageInfo-}
+### getFolderHierarchy() {#getFolderHierarchy--}
 ```
-public final MapiMessage extractMapiMessage(OlmMessageInfo messageInfo)
+public final List<OlmFolder> getFolderHierarchy()
 ```
 
 
-Get the message from OLM storage.
+Gets the folder hierarchy.
+
+Value: The folder hierarchy.
+
+**Returns:**
+java.util.List<com.aspose.email.OlmFolder>
+### getFolders() {#getFolders--}
+```
+public final List<OlmFolder> getFolders()
+```
+
+
+Gets collection of folders.
+
+**Returns:**
+java.util.List<com.aspose.email.OlmFolder> - The collection of folders that belong to the storage, i.e. the sub-folders of the current OLMStorage object.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public final boolean load(InputStream stream)
+```
+
+
+Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| messageInfo | [OlmMessageInfo](../../com.aspose.email/olmmessageinfo) | An OlmMessageInfo object that represents information about message. |
+| stream | java.io.InputStream | The stream. |
 
 **Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
-### enumerateMessages(OlmFolder folder) {#enumerateMessages-com.aspose.email.OlmFolder-}
+boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+### load(String fileName) {#load-java.lang.String-}
 ```
-public final System.Collections.Generic.IGenericEnumerable<MapiMessage> enumerateMessages(OlmFolder folder)
+public final boolean load(String fileName)
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folder | [OlmFolder](../../com.aspose.email/olmfolder) | [OlmFolder](../../com.aspose.email/olmfolder) that represents information about folder in OLM storage. |
+| fileName | java.lang.String | The file name. |
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MapiMessage> - \`\`\` System.Collections.Generic.IEnumerableltTgt \`\`\`, that represents an enumerator that iterates through a messages in folder.
-### dispose() {#dispose--}
+boolean - 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
+### notify() {#notify--}
 ```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
-### close() {#close--}
-```
-public void close()
+public final native void notify()
 ```
 
 
 
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

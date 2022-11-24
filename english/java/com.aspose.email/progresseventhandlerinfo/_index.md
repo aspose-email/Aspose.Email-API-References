@@ -6,6 +6,7 @@ type: docs
 weight: 574
 url: /java/com.aspose.email/progresseventhandlerinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

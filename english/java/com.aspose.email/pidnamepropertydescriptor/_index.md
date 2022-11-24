@@ -6,6 +6,7 @@ type: docs
 weight: 560
 url: /java/com.aspose.email/pidnamepropertydescriptor/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.PropertyDescriptor](../../com.aspose.email/propertydescriptor)
 ```

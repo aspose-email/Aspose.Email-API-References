@@ -6,6 +6,7 @@ type: docs
 weight: 658
 url: /java/com.aspose.email/taskcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.ObjectModel.Collection
 ```

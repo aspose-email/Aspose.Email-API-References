@@ -6,6 +6,7 @@ type: docs
 weight: 17
 url: /java/com.aspose.email/alternateviewremovedeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

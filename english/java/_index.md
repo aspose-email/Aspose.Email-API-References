@@ -3,11 +3,11 @@ title: Aspose.Email for Java
 type: docs
 weight: 11
 url: /java/
-keywords: "Aspose.Email for Java, Aspose Email, Aspose Outlook, Aspose MSG, Aspose API Reference."
-description: Aspose.Email for Java is an Email Processing API that allows the developers to work with email formats, protocols and services without using Microsoft OutlookÂ® or Office Automation.
+description: Aspose.Email for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
 ---
+
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.email](./com.aspose.email) | Contains Java API classes that enables to read and write Microsoft Outlook® documents without using Microsoft Outlook® |
+| [com.aspose.email](./com.aspose.email) | Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook |

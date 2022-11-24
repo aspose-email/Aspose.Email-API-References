@@ -6,6 +6,7 @@ type: docs
 weight: 573
 url: /java/com.aspose.email/postaladdresslist/
 ---
+
 **Inheritance:**
 java.lang.Object
 

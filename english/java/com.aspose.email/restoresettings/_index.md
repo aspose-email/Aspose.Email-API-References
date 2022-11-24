@@ -6,6 +6,7 @@ type: docs
 weight: 606
 url: /java/com.aspose.email/restoresettings/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

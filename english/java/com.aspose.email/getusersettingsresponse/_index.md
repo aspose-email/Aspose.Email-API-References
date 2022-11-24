@@ -6,6 +6,7 @@ type: docs
 weight: 274
 url: /java/com.aspose.email/getusersettingsresponse/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.AutodiscoverResponse](../../com.aspose.email/autodiscoverresponse)
 ```

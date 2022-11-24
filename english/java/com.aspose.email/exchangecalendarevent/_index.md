@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /java/com.aspose.email/exchangecalendarevent/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

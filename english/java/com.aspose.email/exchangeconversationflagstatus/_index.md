@@ -6,6 +6,7 @@ type: docs
 weight: 198
 url: /java/com.aspose.email/exchangeconversationflagstatus/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

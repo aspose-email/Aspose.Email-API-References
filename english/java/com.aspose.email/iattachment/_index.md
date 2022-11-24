@@ -5,7 +5,8 @@ description: Represents a common attachment interface
 type: docs
 weight: 731
 url: /java/com.aspose.email/iattachment/
----```
+---
+```
 public interface IAttachment
 ```
 

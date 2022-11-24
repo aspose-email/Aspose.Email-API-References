@@ -1,11 +1,12 @@
 ---
 title: IAttachment
 second_title: Aspose.Email for Android via Java API Reference
-description:  Represents a common attachment interface
+description: Represents a common attachment interface
 type: docs
-weight: 448
-url: /java/com.aspose.email/iattachment/
----```
+weight: 454
+url: /androidjava/com.aspose.email/iattachment/
+---
+```
 public interface IAttachment
 ```
 
@@ -15,9 +16,9 @@ Represents a common attachment interface
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Gets or sets an attachment name |
-| [setName(String value)](#setName-java.lang.String-) | Gets or sets an attachment name |
-| [save(String fileName)](#save-java.lang.String-) | Saves attachment to file |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves an attachment to stream |
+| [save(String fileName)](#save-java.lang.String-) | Saves attachment to file |
+| [setName(String value)](#setName-java.lang.String-) | Gets or sets an attachment name |
 ### getName() {#getName--}
 ```
 public abstract String getName()
@@ -28,18 +29,18 @@ Gets or sets an attachment name
 
 **Returns:**
 java.lang.String
-### setName(String value) {#setName-java.lang.String-}
+### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
-public abstract void setName(String value)
+public abstract void save(OutputStream stream)
 ```
 
 
-Gets or sets an attachment name
+Saves an attachment to stream
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| stream | java.io.OutputStream | A stream to save to |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -54,16 +55,16 @@ Saves attachment to file
 | --- | --- | --- |
 | fileName | java.lang.String | A file name |
 
-### save(OutputStream stream) {#save-java.io.OutputStream-}
+### setName(String value) {#setName-java.lang.String-}
 ```
-public abstract void save(OutputStream stream)
+public abstract void setName(String value)
 ```
 
 
-Saves an attachment to stream
+Gets or sets an attachment name
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | A stream to save to |
+| value | java.lang.String |  |
 

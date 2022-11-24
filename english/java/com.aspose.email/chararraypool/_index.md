@@ -6,6 +6,7 @@ type: docs
 weight: 103
 url: /java/com.aspose.email/chararraypool/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

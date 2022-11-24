@@ -6,6 +6,7 @@ type: docs
 weight: 381
 url: /java/com.aspose.email/mailgunclient/
 ---
+
 **Inheritance:**
 java.lang.Object
 

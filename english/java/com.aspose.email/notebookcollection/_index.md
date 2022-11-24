@@ -6,6 +6,7 @@ type: docs
 weight: 526
 url: /java/com.aspose.email/notebookcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

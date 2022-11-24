@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /java/com.aspose.email/formmethod/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

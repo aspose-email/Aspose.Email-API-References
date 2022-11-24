@@ -6,6 +6,7 @@ type: docs
 weight: 553
 url: /java/com.aspose.email/personalstorageloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

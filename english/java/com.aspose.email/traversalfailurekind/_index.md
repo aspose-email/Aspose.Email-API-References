@@ -6,6 +6,7 @@ type: docs
 weight: 678
 url: /java/com.aspose.email/traversalfailurekind/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

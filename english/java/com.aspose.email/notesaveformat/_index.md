@@ -6,6 +6,7 @@ type: docs
 weight: 524
 url: /java/com.aspose.email/notesaveformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 579
 url: /java/com.aspose.email/queryfield/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

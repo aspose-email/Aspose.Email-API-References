@@ -6,6 +6,7 @@ type: docs
 weight: 538
 url: /java/com.aspose.email/olmfolder/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

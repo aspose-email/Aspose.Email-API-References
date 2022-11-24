@@ -6,6 +6,7 @@ type: docs
 weight: 152
 url: /java/com.aspose.email/deletionoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

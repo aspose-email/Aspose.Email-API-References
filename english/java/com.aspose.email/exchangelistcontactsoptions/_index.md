@@ -6,6 +6,7 @@ type: docs
 weight: 217
 url: /java/com.aspose.email/exchangelistcontactsoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```

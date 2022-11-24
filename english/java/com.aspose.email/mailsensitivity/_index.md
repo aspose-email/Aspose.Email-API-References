@@ -6,6 +6,7 @@ type: docs
 weight: 754
 url: /java/com.aspose.email/mailsensitivity/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```

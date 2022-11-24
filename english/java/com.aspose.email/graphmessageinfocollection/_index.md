@@ -6,6 +6,7 @@ type: docs
 weight: 285
 url: /java/com.aspose.email/graphmessageinfocollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```

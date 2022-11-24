@@ -6,6 +6,7 @@ type: docs
 weight: 625
 url: /java/com.aspose.email/sentitemeventargs/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.EventArgs
 ```

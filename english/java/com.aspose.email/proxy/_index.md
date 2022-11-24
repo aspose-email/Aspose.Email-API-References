@@ -6,6 +6,7 @@ type: docs
 weight: 578
 url: /java/com.aspose.email/proxy/
 ---
+
 **Inheritance:**
 java.lang.Object
 

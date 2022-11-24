@@ -6,6 +6,7 @@ type: docs
 weight: 581
 url: /java/com.aspose.email/rangeseqset/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.aspose.email.SequenceSetBaseValue](../../com.aspose.email/sequencesetbasevalue)
 ```

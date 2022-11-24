@@ -6,6 +6,7 @@ type: docs
 weight: 26
 url: /java/com.aspose.email/ampmessage/
 ---
+
 **Inheritance:**
 java.lang.Object, com.aspose.email.IPreferredTextEncodingProviderInternal, [com.aspose.email.MailMessage](../../com.aspose.email/mailmessage)
 ```
