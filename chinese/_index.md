@@ -54,7 +54,7 @@ Aspose.Eamil for C++ 是一个原生 C++ 库，使 C++ 开发人员能够创建�
 
 {{% alert color="primary" %}} 
 
-![Aspose.Email for Python via .NET 产品徽标](home_4.png)
+![Aspose.Email for Python via .NET 产品徽标](../home_4.png)
 
 Aspose.Email for Python via .NET 是一个 Python API，它使 Python 应用程序能够在不使用 Microsoft Outlook® 的情况下读取和写入 Microsoft Outlook® 文档。 Aspose.Email 提供了许多关键功能，例如管理 Microsoft Outlook® MSG 文档中的收件人、主题、正文、附件以及从 Microsoft Outlook® PST 文档中读取联系人、消息和文件夹信息。 它还可用于创建、修改和转换 EML、MSG 和 MHT 格式的电子邮件。
 
@@ -63,5 +63,19 @@ Aspose.Email for Python via .NET 是一个 Python API，它使 Python 应用程�
 这些是指向有用资源的链接：
 - [Aspose.Email for Python via .NET API 参考](/email/python-net/)
 
+## Aspose.Email for Android 通过 Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for Android 通过 Java 产品标志](../home_5.png)
+
+Aspose.Email for Android via Java 是一个 Java API，它使 Android 应用程序能够在不使用 Microsoft Outlook® 的情况下阅读和编写 Microsoft Outlook® 文档。 Aspose.Email for Android via Java 提供了各种关键功能，例如，监督 Microsoft Outlook® MSG 文档中的收件人、主题、正文和附件，以及了解 Microsoft Outlook® PST 文档中的联系人、消息和文件夹信息。 它还可用于制作、调整和转换 EML、MSG 和 MHT 格式的电子邮件。
+
+Aspose.Email for Android via Java API Reference 包含示例、代码片段和 API 文档。
+
+{{% /alert %}} 
+
+这些是有用资源的链接：
+- [Aspose.Email for Android 通过 Java API 参考](/email/androidjava/)
 
 
