@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Aspose.Email for .NET API Reference
 description: Static manager that controls the creation of loggers.
 type: docs
-weight: 20560
+weight: 20570
 url: /net/aspose.email.tools.logging/loggermanager/
 ---
 ## LoggerManager class

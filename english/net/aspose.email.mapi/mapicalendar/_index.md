@@ -65,6 +65,7 @@ public sealed class MapiCalendar : MapiMessageItemBase
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject) { get; set; } | Gets or sets the subject of the message. |
 | [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages) { get; } | Gets the sub storages. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype) { get; } | Gets the supported item type. |
 | [Uid](../../aspose.email.mapi/mapicalendar/uid) { get; set; } | Gets the unique identifier |
 
 ## Methods

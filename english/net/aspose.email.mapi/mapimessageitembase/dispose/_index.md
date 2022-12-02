@@ -3,7 +3,7 @@ title: Dispose
 second_title: Aspose.Email for .NET API Reference
 description: Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.email.mapi/mapimessageitembase/dispose/
 ---
 ## MapiMessageItemBase.Dispose method

@@ -3,7 +3,7 @@ title: MailQuery
 second_title: Aspose.Email for .NET API Reference
 description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
-weight: 20750
+weight: 20760
 url: /net/aspose.email.tools.search/mailquery/
 ---
 ## MailQuery class

@@ -6,6 +6,60 @@ type: docs
 weight: 660
 url: /net/aspose.email.clients.imap/imapclient/fetchmessageasync/
 ---
+## FetchMessageAsync(int, CancellationToken) {#fetchmessageasync_9}
+
+Fetches the message
+
+```csharp
+public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## FetchMessageAsync(int, bool, CancellationToken) {#fetchmessageasync_8}
+
+Fetches the message
+
+```csharp
+public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of message |
+| ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## FetchMessageAsync(IConnection, string, CancellationToken) {#fetchmessageasync_5}
 
 Fetches the message
@@ -273,60 +327,6 @@ Task object, with delegate for this operation
 
 * class [MailMessage](../../../aspose.email/mailmessage)
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FetchMessageAsync(int, CancellationToken) {#fetchmessageasync_9}
-
-Fetches the message
-
-```csharp
-public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of message |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FetchMessageAsync(int, bool, CancellationToken) {#fetchmessageasync_8}
-
-Fetches the message
-
-```csharp
-public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of message |
-| ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Represents information about personal folder in PST.
 type: docs
-weight: 20170
+weight: 20180
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -62,6 +62,7 @@ public sealed class FolderInfo
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_2)(MailQuery) | Get collection of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_1)(MessageKind) | Get collection of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_4)(int, int) | Gets the collection of messages. |
+| [GetPredefinedType](../../aspose.email.storage.pst/folderinfo/getpredefinedtype)(bool) | Gets the type of predefined folder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder)(string) | Get subfolder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder_1)(string, bool) | Gets the subfolder. |
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders)() | Gets collection of subfolders. |

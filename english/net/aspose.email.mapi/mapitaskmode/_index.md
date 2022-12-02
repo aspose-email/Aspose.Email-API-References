@@ -3,7 +3,7 @@ title: MapiTaskMode
 second_title: Aspose.Email for .NET API Reference
 description: Represents the assignment statuses of the task object.
 type: docs
-weight: 18720
+weight: 18730
 url: /net/aspose.email.mapi/mapitaskmode/
 ---
 ## MapiTaskMode enumeration

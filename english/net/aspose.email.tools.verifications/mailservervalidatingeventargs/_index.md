@@ -3,7 +3,7 @@ title: MailServerValidatingEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Provides data for the MailServerValidatingEvent event.
 type: docs
-weight: 20820
+weight: 20830
 url: /net/aspose.email.tools.verifications/mailservervalidatingeventargs/
 ---
 ## MailServerValidatingEventArgs class

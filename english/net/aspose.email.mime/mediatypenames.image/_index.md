@@ -3,7 +3,7 @@ title: MediaTypeNames.Image
 second_title: Aspose.Email for .NET API Reference
 description: Specifies the type of image data in an email message attachment.
 type: docs
-weight: 19200
+weight: 19210
 url: /net/aspose.email.mime/mediatypenames.image/
 ---
 ## MediaTypeNames.Image class

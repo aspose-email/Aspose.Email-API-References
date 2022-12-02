@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Email for .NET API Reference
 description: Specifies the file format used to store messages calendar events and other items.
 type: docs
-weight: 20150
+weight: 20160
 url: /net/aspose.email.storage.pst/fileformat/
 ---
 ## FileFormat enumeration

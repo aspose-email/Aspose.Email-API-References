@@ -3,7 +3,7 @@ title: Formatter
 second_title: Aspose.Email for .NET API Reference
 description: Represents the interface for formatting log entry messsages.
 type: docs
-weight: 20500
+weight: 20510
 url: /net/aspose.email.tools.logging/formatter/
 ---
 ## Formatter class

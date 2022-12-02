@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Email for .NET API Reference
 description: Removes the element at the specified index from this collection.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email/linkedresourcecollection/removeat/
 ---
 ## LinkedResourceCollection.RemoveAt method

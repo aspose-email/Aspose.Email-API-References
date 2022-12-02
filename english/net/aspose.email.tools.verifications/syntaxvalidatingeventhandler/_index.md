@@ -3,7 +3,7 @@ title: SyntaxValidatingEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the event handler for SyntaxValidatingEvent.
 type: docs
-weight: 20850
+weight: 20860
 url: /net/aspose.email.tools.verifications/syntaxvalidatingeventhandler/
 ---
 ## SyntaxValidatingEventHandler delegate

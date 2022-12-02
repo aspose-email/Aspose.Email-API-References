@@ -3,7 +3,7 @@ title: MapiJournalDocumentStatus
 second_title: Aspose.Email for .NET API Reference
 description: Indicates the status of document.
 type: docs
-weight: 18440
+weight: 18450
 url: /net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 ## MapiJournalDocumentStatus enumeration

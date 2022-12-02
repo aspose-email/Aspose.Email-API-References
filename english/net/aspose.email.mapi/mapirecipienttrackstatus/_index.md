@@ -3,7 +3,7 @@ title: MapiRecipientTrackStatus
 second_title: Aspose.Email for .NET API Reference
 description: Represents the response status returned by the attendee.
 type: docs
-weight: 18660
+weight: 18670
 url: /net/aspose.email.mapi/mapirecipienttrackstatus/
 ---
 ## MapiRecipientTrackStatus enumeration

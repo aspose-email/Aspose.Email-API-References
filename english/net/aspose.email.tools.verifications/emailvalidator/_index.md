@@ -3,7 +3,7 @@ title: EmailValidator
 second_title: Aspose.Email for .NET API Reference
 description: EmailValidator class provides the capability to validate email addresses.
 type: docs
-weight: 20810
+weight: 20820
 url: /net/aspose.email.tools.verifications/emailvalidator/
 ---
 ## EmailValidator class

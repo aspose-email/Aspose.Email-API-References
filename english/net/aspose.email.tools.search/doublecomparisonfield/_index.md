@@ -3,7 +3,7 @@ title: DoubleComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Represents the double search field.
 type: docs
-weight: 20710
+weight: 20720
 url: /net/aspose.email.tools.search/doublecomparisonfield/
 ---
 ## DoubleComparisonField class

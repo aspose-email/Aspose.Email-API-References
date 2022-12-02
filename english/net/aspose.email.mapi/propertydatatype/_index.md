@@ -3,7 +3,7 @@ title: PropertyDataType
 second_title: Aspose.Email for .NET API Reference
 description: MSOXCDATA Data Structures
 type: docs
-weight: 19010
+weight: 19020
 url: /net/aspose.email.mapi/propertydatatype/
 ---
 ## PropertyDataType enumeration

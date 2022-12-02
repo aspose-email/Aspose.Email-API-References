@@ -3,7 +3,7 @@ title: EmailAddressList
 second_title: Aspose.Email for .NET API Reference
 description: List of email addresses for a contact
 type: docs
-weight: 19390
+weight: 19400
 url: /net/aspose.email.personalinfo/emailaddresslist/
 ---
 ## EmailAddressList class

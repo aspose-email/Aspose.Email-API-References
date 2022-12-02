@@ -3,7 +3,7 @@ title: EmailAddressCategory
 second_title: Aspose.Email for .NET API Reference
 description: Represents category for an email address
 type: docs
-weight: 19380
+weight: 19390
 url: /net/aspose.email.personalinfo/emailaddresscategory/
 ---
 ## EmailAddressCategory class

@@ -3,7 +3,7 @@ title: VCardOrganization
 second_title: Aspose.Email for .NET API Reference
 description: Represents vCard organization properties
 type: docs
-weight: 19710
+weight: 19720
 url: /net/aspose.email.personalinfo.vcard/vcardorganization/
 ---
 ## VCardOrganization class

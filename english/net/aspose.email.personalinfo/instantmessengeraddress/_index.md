@@ -3,7 +3,7 @@ title: InstantMessengerAddress
 second_title: Aspose.Email for .NET API Reference
 description: Represents an instant messanger address.
 type: docs
-weight: 19440
+weight: 19450
 url: /net/aspose.email.personalinfo/instantmessengeraddress/
 ---
 ## InstantMessengerAddress class

@@ -3,7 +3,7 @@ title: SSPIException
 second_title: Aspose.Email for .NET API Reference
 description: Represents errors that occur during SSPI execution.
 type: docs
-weight: 19970
+weight: 19980
 url: /net/aspose.email/sspiexception/
 ---
 ## SSPIException class

@@ -3,7 +3,7 @@ title: SaveStatus
 second_title: Aspose.Email for .NET API Reference
 description: Represents the status of saving the retrieved message.
 type: docs
-weight: 20350
+weight: 20360
 url: /net/aspose.email.storage.pst/savestatus/
 ---
 ## SaveStatus enumeration

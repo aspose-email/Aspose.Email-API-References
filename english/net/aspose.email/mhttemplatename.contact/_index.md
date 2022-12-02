@@ -3,7 +3,7 @@ title: MhtTemplateName.Contact
 second_title: Aspose.Email for .NET API Reference
 description: Defines well known names of headers of Contact for Mhtml formatting.
 type: docs
-weight: 19110
+weight: 19120
 url: /net/aspose.email/mhttemplatename.contact/
 ---
 ## MhtTemplateName.Contact class

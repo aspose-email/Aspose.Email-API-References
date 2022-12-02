@@ -112,6 +112,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiContactPhotoImageFormat](./mapicontactphotoimageformat) | Enumerates MapiContact photo image format. |
 | [MapiDistributionListContactAddressType](./mapidistributionlistcontactaddresstype) | Represents the address type of a personal distribution list member. |
 | [MapiDistributionListEntryIdType](./mapidistributionlistentryidtype) | Specifies the type of EntryID. |
+| [MapiItemType](./mapiitemtype) | Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [`IMapiMessageItem`](../aspose.email.mapi/imapimessageitem) interface. |
 | [MapiJournalDocumentStatus](./mapijournaldocumentstatus) | Indicates the status of document. |
 | [MapiJournalFlags](./mapijournalflags) | Contains metadata about the Journal object. Must be either zero or the following values. |
 | [MapiMessageFlags](./mapimessageflags) | MapiMessageFlags. |

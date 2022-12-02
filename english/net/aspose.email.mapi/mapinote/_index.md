@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for .NET API Reference
 description: Represents outlook Note object sticky note
 type: docs
-weight: 18540
+weight: 18550
 url: /net/aspose.email.mapi/mapinote/
 ---
 ## MapiNote class
@@ -49,6 +49,7 @@ public sealed class MapiNote : MapiMessageItemBase
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject) { get; set; } | Gets or sets the subject of the message. |
 | [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages) { get; } | Gets the sub storages. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype) { get; } | Gets the supported item type. |
 | [Width](../../aspose.email.mapi/mapinote/width) { get; set; } | Gets or sets width of the visible message window in pixels |
 | [XPosition](../../aspose.email.mapi/mapinote/xposition) { get; set; } | Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object |
 | [YPosition](../../aspose.email.mapi/mapinote/yposition) { get; set; } | Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object |

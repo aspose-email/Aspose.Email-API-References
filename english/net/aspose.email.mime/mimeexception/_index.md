@@ -3,7 +3,7 @@ title: MimeException
 second_title: Aspose.Email for .NET API Reference
 description: Provides information about MIME errors
 type: docs
-weight: 19220
+weight: 19230
 url: /net/aspose.email.mime/mimeexception/
 ---
 ## MimeException class

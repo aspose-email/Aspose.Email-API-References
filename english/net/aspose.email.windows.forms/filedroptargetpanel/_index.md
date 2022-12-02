@@ -3,7 +3,7 @@ title: FileDropTargetPanel
 second_title: Aspose.Email for .NET API Reference
 description: Represents the file drop target.
 type: docs
-weight: 20940
+weight: 20950
 url: /net/aspose.email.windows.forms/filedroptargetpanel/
 ---
 ## FileDropTargetPanel class

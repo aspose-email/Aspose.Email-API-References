@@ -56,6 +56,7 @@ public sealed class MapiContact : MapiMessageItemBase
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject) { get; set; } | Gets or sets the subject of the message. |
 | [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages) { get; } | Gets the sub storages. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype) { get; } | Gets the supported item type. |
 | [Telephones](../../aspose.email.mapi/mapicontact/telephones) { get; set; } | Specify telephone numbers for the contact |
 
 ## Methods

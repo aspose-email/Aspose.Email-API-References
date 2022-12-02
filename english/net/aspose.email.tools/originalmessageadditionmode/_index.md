@@ -3,7 +3,7 @@ title: OriginalMessageAdditionMode
 second_title: Aspose.Email for .NET API Reference
 description: Way to include the original message in response message.
 type: docs
-weight: 20630
+weight: 20640
 url: /net/aspose.email.tools/originalmessageadditionmode/
 ---
 ## OriginalMessageAdditionMode enumeration

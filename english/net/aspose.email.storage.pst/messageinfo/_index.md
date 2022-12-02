@@ -3,7 +3,7 @@ title: MessageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Represents information about message in PST.
 type: docs
-weight: 20260
+weight: 20270
 url: /net/aspose.email.storage.pst/messageinfo/
 ---
 ## MessageInfo class

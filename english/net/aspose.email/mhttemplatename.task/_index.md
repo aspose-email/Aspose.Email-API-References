@@ -3,7 +3,7 @@ title: MhtTemplateName.Task
 second_title: Aspose.Email for .NET API Reference
 description: Defines well known names of headers of Task for Mhtml formatting.
 type: docs
-weight: 19120
+weight: 19130
 url: /net/aspose.email/mhttemplatename.task/
 ---
 ## MhtTemplateName.Task class

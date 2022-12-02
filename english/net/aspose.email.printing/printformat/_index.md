@@ -3,7 +3,7 @@ title: PrintFormat
 second_title: Aspose.Email for .NET API Reference
 description: Descibes possible printing formats for MailPrinter./mailprinter.
 type: docs
-weight: 19900
+weight: 19910
 url: /net/aspose.email.printing/printformat/
 ---
 ## PrintFormat enumeration

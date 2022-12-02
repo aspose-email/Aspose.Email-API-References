@@ -35,6 +35,7 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Gets or sets the type of the content. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Gets headers collection of attachment. |
 | [IsEmbeddedMessage](../../aspose.email/attachment/isembeddedmessage) { get; } | Gets a value indicating whether the attachment is an embedded message. |
+| [IsTnef](../../aspose.email/attachment/istnef) { get; } | Gets a value indicating whether the attachment is TNEF formatted message. |
 | [IsUri](../../aspose.email/attachment/isuri) { get; } | Gets a value indicating whether attachment is URI-attachment. |
 | [Name](../../aspose.email/attachment/name) { get; set; } | Gets or sets an attachment name |
 | [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | Gets or sets an encoding of attachment name |

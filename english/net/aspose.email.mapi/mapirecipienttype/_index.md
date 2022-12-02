@@ -3,7 +3,7 @@ title: MapiRecipientType
 second_title: Aspose.Email for .NET API Reference
 description: Represent the PR_RECIPIENT_TYPE property which contains the recipient type for a message recipient.
 type: docs
-weight: 18670
+weight: 18680
 url: /net/aspose.email.mapi/mapirecipienttype/
 ---
 ## MapiRecipientType enumeration

@@ -3,7 +3,7 @@ title: ContactLoadFormat
 second_title: Aspose.Email for .NET API Reference
 description: Enumerates contact load formats
 type: docs
-weight: 19340
+weight: 19350
 url: /net/aspose.email.personalinfo/contactloadformat/
 ---
 ## ContactLoadFormat enumeration
