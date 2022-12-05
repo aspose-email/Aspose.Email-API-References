@@ -3,7 +3,7 @@ title: CheckBounced
 second_title: Aspose.Email for .NET API Reference
 description: Checks whether this message can be treated as a bounce message.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.email.mapi/mapimessage/checkbounced/
 ---
 ## MapiMessage.CheckBounced method

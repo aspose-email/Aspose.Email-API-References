@@ -3,7 +3,7 @@ title: MboxoStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
-weight: 20060
+weight: 20070
 url: /net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class

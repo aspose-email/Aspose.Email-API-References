@@ -19,6 +19,10 @@ public void SaveAs(string fileName, FileFormat format)
 | fileName | String | The name of the file to be saved. |
 | format | FileFormat | The [`FileFormat`](../../fileformat) is to be used when saving a file. |
 
+### Remarks
+
+It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the [`MergeWith`](../mergewith) method.
+
 ### See Also
 
 * enum [FileFormat](../../fileformat)
@@ -40,6 +44,10 @@ public void SaveAs(Stream stream, FileFormat format)
 | --- | --- | --- |
 | stream | Stream | The stream to be saved. |
 | format | FileFormat | The [`FileFormat`](../../fileformat) is to be used. |
+
+### Remarks
+
+It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the [`MergeWith`](../mergewith) method.
 
 ### See Also
 

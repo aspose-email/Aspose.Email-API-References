@@ -3,7 +3,7 @@ title: ProgressEventHandlerInfo
 second_title: Aspose.Email for .NET API Reference
 description: This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user.
 type: docs
-weight: 19920
+weight: 19930
 url: /net/aspose.email/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class

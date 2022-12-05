@@ -3,7 +3,7 @@ title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for .NET API Reference
 description: Represents the named property mapping
 type: docs
-weight: 18530
+weight: 18540
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/
 ---
 ## MapiNamedPropertyMappingStorage class

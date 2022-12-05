@@ -3,7 +3,7 @@ title: IFormatter
 second_title: Aspose.Email for .NET API Reference
 description: Represents the interface for formatting log entry messsages.
 type: docs
-weight: 20520
+weight: 20530
 url: /net/aspose.email.tools.logging/iformatter/
 ---
 ## IFormatter interface

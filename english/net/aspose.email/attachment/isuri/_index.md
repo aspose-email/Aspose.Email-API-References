@@ -3,7 +3,7 @@ title: IsUri
 second_title: Aspose.Email for .NET API Reference
 description: Gets a value indicating whether attachment is URIattachment.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email/attachment/isuri/
 ---
 ## Attachment.IsUri property

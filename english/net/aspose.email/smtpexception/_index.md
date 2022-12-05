@@ -3,7 +3,7 @@ title: SmtpException
 second_title: Aspose.Email for .NET API Reference
 description: Represents the exception that is thrown when the SmtpClient is not able to complete an operation.
 type: docs
-weight: 19990
+weight: 20000
 url: /net/aspose.email/smtpexception/
 ---
 ## SmtpException class

@@ -3,7 +3,7 @@ title: MediaTypeNames.Application
 second_title: Aspose.Email for .NET API Reference
 description: Specifies the kind of application data in an email message attachment.
 type: docs
-weight: 19190
+weight: 19200
 url: /net/aspose.email.mime/mediatypenames.application/
 ---
 ## MediaTypeNames.Application class

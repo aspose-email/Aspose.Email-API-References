@@ -3,7 +3,7 @@ title: MergeWith
 second_title: Aspose.Email for .NET API Reference
 description: Merges the folder with the folder from another pst.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.email.storage.pst/folderinfo/mergewith/
 ---
 ## MergeWith(FolderInfo) {#mergewith}

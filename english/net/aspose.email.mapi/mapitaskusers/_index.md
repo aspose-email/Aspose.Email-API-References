@@ -3,7 +3,7 @@ title: MapiTaskUsers
 second_title: Aspose.Email for .NET API Reference
 description: Represents information about task users.
 type: docs
-weight: 18770
+weight: 18780
 url: /net/aspose.email.mapi/mapitaskusers/
 ---
 ## MapiTaskUsers class

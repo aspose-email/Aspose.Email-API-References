@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for .NET API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 18460
+weight: 18470
 url: /net/aspose.email.mapi/mapimessage/
 ---
 ## MapiMessage class
@@ -47,6 +47,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [Flags](../../aspose.email.mapi/mapimessage/flags) { get; } | Gets the message flags. |
 | [Headers](../../aspose.email.mapi/mapimessage/headers) { get; set; } | Gets the transport message headers |
 | [InternetMessageId](../../aspose.email.mapi/mapimessage/internetmessageid) { get; } | Gets the message id of the message. |
+| [IsSigned](../../aspose.email.mapi/mapimessage/issigned) { get; } | Gets a value indicating whether the message is signed. |
 | virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid) { get; } | The item id, uses with a server |
 | [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass) { get; set; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
 | [MessageFormat](../../aspose.email.mapi/mapimessage/messageformat) { get; } | Gets the outlook message format. |
@@ -71,6 +72,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject) { get; set; } | Gets or sets the subject of the message. |
 | [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages) { get; } | Gets the sub storages. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype) { get; } | Gets the supported item type. |
 | [TransportMessageHeaders](../../aspose.email.mapi/mapimessage/transportmessageheaders) { get; } | Gets the transport-specific message envelope information. |
 
 ## Methods
@@ -104,6 +106,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
+| [RemoveSignature](../../aspose.email.mapi/mapimessage/removesignature)() | Remove signature. |
 | [Save](../../aspose.email.mapi/mapimessage/save#save)(Stream) | Saves to the specified stream as Msg. |
 | [Save](../../aspose.email.mapi/mapimessage/save#save_2)(string) | Saves to the specified file as Msg. |
 | [Save](../../aspose.email.mapi/mapimessage/save#save_1)(Stream, SaveOptions) | Saves message as a stream with additional options. |

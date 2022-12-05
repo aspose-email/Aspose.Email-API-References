@@ -21,7 +21,7 @@ public class MapiAttachment : MapiPropertyContainer
 | [BinaryData](../../aspose.email.mapi/mapiattachment/binarydata) { get; set; } | Gets or sets binary attachment data. |
 | virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage) { get; } | Gets the code page. |
 | [Content](../../aspose.email.mapi/mapiattachment/content) { get; } | Gets the content. |
-| [DisplayName](../../aspose.email.mapi/mapiattachment/displayname) { get; } | Gets the display name of the ole object in an attachment. |
+| [DisplayName](../../aspose.email.mapi/mapiattachment/displayname) { get; set; } | Gets the display name of the ole object in an attachment. |
 | [Extension](../../aspose.email.mapi/mapiattachment/extension) { get; } | Gets a filename extension that indicates the document type of an attachment. |
 | [FileName](../../aspose.email.mapi/mapiattachment/filename) { get; } | Gets an attachment's base filename and extension, excluding path. |
 | virtual [ItemId](../../aspose.email.mapi/mapiattachment/itemid) { get; } | The item id, uses with a server |

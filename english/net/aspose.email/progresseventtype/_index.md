@@ -3,7 +3,7 @@ title: ProgressEventType
 second_title: Aspose.Email for .NET API Reference
 description: Type of progress event that occured.
 type: docs
-weight: 19930
+weight: 19940
 url: /net/aspose.email/progresseventtype/
 ---
 ## ProgressEventType enumeration

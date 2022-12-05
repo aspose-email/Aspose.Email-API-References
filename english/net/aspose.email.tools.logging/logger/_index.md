@@ -3,7 +3,7 @@ title: Logger
 second_title: Aspose.Email for .NET API Reference
 description: Provides the logging functionality.
 type: docs
-weight: 20550
+weight: 20560
 url: /net/aspose.email.tools.logging/logger/
 ---
 ## Logger class

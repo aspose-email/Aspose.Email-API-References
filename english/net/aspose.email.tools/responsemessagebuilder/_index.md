@@ -3,7 +3,7 @@ title: ResponseMessageBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Provides creation and formatting the forwarding and replying messages.
 type: docs
-weight: 20650
+weight: 20660
 url: /net/aspose.email.tools/responsemessagebuilder/
 ---
 ## ResponseMessageBuilder class

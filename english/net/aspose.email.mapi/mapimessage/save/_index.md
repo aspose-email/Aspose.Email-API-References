@@ -1,11 +1,31 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: Saves to the specified stream as Msg.
+description: Saves to the specified file as Msg.
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.email.mapi/mapimessage/save/
 ---
+## Save(string) {#save_2}
+
+Saves to the specified file as Msg.
+
+```csharp
+public void Save(string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Name of the file. |
+
+### See Also
+
+* class [MapiMessage](../../mapimessage)
+* namespace [Aspose.Email.Mapi](../../mapimessage)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## Save(Stream) {#save}
 
 Saves to the specified stream as Msg.
@@ -64,26 +84,6 @@ public void Save(Stream stream, SaveOptions options)
 ### See Also
 
 * class [SaveOptions](../../../aspose.email/saveoptions)
-* class [MapiMessage](../../mapimessage)
-* namespace [Aspose.Email.Mapi](../../mapimessage)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Save(string) {#save_2}
-
-Saves to the specified file as Msg.
-
-```csharp
-public void Save(string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | String | Name of the file. |
-
-### See Also
-
 * class [MapiMessage](../../mapimessage)
 * namespace [Aspose.Email.Mapi](../../mapimessage)
 * assembly [Aspose.Email](../../../)

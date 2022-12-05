@@ -3,7 +3,7 @@ title: MapiTaskOwnership
 second_title: Aspose.Email for .NET API Reference
 description: Indicates the role of the current user relative to the Task object.
 type: docs
-weight: 18730
+weight: 18740
 url: /net/aspose.email.mapi/mapitaskownership/
 ---
 ## MapiTaskOwnership enumeration

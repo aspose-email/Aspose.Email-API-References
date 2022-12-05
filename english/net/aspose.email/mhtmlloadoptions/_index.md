@@ -3,7 +3,7 @@ title: MhtmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Allows to specify additional options when loading MailMessage from Mhtml format.
 type: docs
-weight: 19130
+weight: 19140
 url: /net/aspose.email/mhtmlloadoptions/
 ---
 ## MhtmlLoadOptions class

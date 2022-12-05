@@ -3,7 +3,7 @@ title: MapiTaskState
 second_title: Aspose.Email for .NET API Reference
 description: Indicates the assignment state of the Task object.
 type: docs
-weight: 18750
+weight: 18760
 url: /net/aspose.email.mapi/mapitaskstate/
 ---
 ## MapiTaskState enumeration

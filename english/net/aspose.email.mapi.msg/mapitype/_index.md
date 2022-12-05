@@ -3,7 +3,7 @@ title: MapiType
 second_title: Aspose.Email for .NET API Reference
 description: Contains possible MAPI property types which can be stored with message object.
 type: docs
-weight: 18820
+weight: 18830
 url: /net/aspose.email.mapi.msg/mapitype/
 ---
 ## MapiType enumeration

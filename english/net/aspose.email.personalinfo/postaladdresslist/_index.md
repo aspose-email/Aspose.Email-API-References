@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Aspose.Email for .NET API Reference
 description: List of postal addresses for a contact.
 type: docs
-weight: 19520
+weight: 19530
 url: /net/aspose.email.personalinfo/postaladdresslist/
 ---
 ## PostalAddressList class

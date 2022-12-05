@@ -3,7 +3,7 @@ title: MapiJournalFlags
 second_title: Aspose.Email for .NET API Reference
 description: Contains metadata about the Journal object. Must be either zero or the following values.
 type: docs
-weight: 18450
+weight: 18460
 url: /net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration

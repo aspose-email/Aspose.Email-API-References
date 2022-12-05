@@ -1,11 +1,61 @@
 ---
 title: SaveMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: Downloads the message with the specified sequence number and writes its data into a local file
+description: Downloads the message with the specified sequence number and writes its data into a supplied stream
 type: docs
 weight: 1100
 url: /net/aspose.email.clients.imap/imapclient/savemessageasync/
 ---
+## SaveMessageAsync(string, Stream) {#savemessageasync_12}
+
+Downloads the message with the specified sequence number and writes its data into a supplied stream
+
+```csharp
+public Task SaveMessageAsync(string uniqueId, Stream resultStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| resultStream | Stream | Stream that will receive the message |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(string, string) {#savemessageasync_14}
+
+Downloads the message with the specified sequence number and writes its data into a local file
+
+```csharp
+public Task SaveMessageAsync(string uniqueId, string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| fileName | String | The path of the local file. This cannot be a directory |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## SaveMessageAsync(int, string) {#savemessageasync_10}
 
 Downloads the message with the specified sequence number and writes its data into a local file
@@ -371,56 +421,6 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 | resultStream | Stream | Stream that will receive the message |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## SaveMessageAsync(string, Stream) {#savemessageasync_12}
-
-Downloads the message with the specified sequence number and writes its data into a supplied stream
-
-```csharp
-public Task SaveMessageAsync(string uniqueId, Stream resultStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| resultStream | Stream | Stream that will receive the message |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## SaveMessageAsync(string, string) {#savemessageasync_14}
-
-Downloads the message with the specified sequence number and writes its data into a local file
-
-```csharp
-public Task SaveMessageAsync(string uniqueId, string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| fileName | String | The path of the local file. This cannot be a directory |
 
 ### Return Value
 

@@ -3,7 +3,7 @@ title: PropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
 description: Class contains property description information.
 type: docs
-weight: 19020
+weight: 19030
 url: /net/aspose.email.mapi/propertydescriptor/
 ---
 ## PropertyDescriptor class

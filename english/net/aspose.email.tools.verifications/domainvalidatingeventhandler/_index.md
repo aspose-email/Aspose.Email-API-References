@@ -3,7 +3,7 @@ title: DomainValidatingEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the event handler for DomainValidatingEvent.
 type: docs
-weight: 20800
+weight: 20810
 url: /net/aspose.email.tools.verifications/domainvalidatingeventhandler/
 ---
 ## DomainValidatingEventHandler delegate

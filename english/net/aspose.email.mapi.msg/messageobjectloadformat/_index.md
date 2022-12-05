@@ -3,7 +3,7 @@ title: MessageObjectLoadFormat
 second_title: Aspose.Email for .NET API Reference
 description: Represents available formats MessageObject./messageobject could be loaded from.
 type: docs
-weight: 18860
+weight: 18870
 url: /net/aspose.email.mapi.msg/messageobjectloadformat/
 ---
 ## MessageObjectLoadFormat enumeration

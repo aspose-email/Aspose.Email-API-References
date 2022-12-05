@@ -21,6 +21,7 @@ public interface IMapiMessageItem
 | [Body](../../aspose.email.mapi/imapimessageitem/body) { get; set; } | Gets message body |
 | [MessageClass](../../aspose.email.mapi/imapimessageitem/messageclass) { get; } | Gets message class |
 | [Subject](../../aspose.email.mapi/imapimessageitem/subject) { get; set; } | Gets message subject |
+| [SupportedType](../../aspose.email.mapi/imapimessageitem/supportedtype) { get; } | Gets the supported item type. |
 
 ### See Also
 

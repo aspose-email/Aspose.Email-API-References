@@ -6,6 +6,28 @@ type: docs
 weight: 580
 url: /net/aspose.email.clients.imap/imapclient/deletemessages/
 ---
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
 
 Marks a message with the specified sequence number as deleted
@@ -709,28 +731,6 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

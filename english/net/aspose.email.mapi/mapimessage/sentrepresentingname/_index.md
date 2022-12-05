@@ -3,7 +3,7 @@ title: SentRepresentingName
 second_title: Aspose.Email for .NET API Reference
 description: Gets or sets the display name for the messaging user represented by the sender.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.email.mapi/mapimessage/sentrepresentingname/
 ---
 ## MapiMessage.SentRepresentingName property

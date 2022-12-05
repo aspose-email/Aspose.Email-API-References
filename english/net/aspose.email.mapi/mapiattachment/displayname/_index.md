@@ -11,7 +11,7 @@ url: /net/aspose.email.mapi/mapiattachment/displayname/
 Gets the display name of the ole object in an attachment.
 
 ```csharp
-public string DisplayName { get; }
+public string DisplayName { get; set; }
 ```
 
 ### Property Value

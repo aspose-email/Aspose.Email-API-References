@@ -3,7 +3,7 @@ title: MapiTaskHistory
 second_title: Aspose.Email for .NET API Reference
 description: Indicates the type of change that was last made to the Task object.
 type: docs
-weight: 18710
+weight: 18720
 url: /net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration

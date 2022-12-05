@@ -3,7 +3,7 @@ title: MapiPropertyFlags
 second_title: Aspose.Email for .NET API Reference
 description: Represents flags which can be set on a MAPI property.
 type: docs
-weight: 18810
+weight: 18820
 url: /net/aspose.email.mapi.msg/mapipropertyflags/
 ---
 ## MapiPropertyFlags enumeration

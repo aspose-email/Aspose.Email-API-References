@@ -3,7 +3,7 @@ title: RecipientType
 second_title: Aspose.Email for .NET API Reference
 description: Specifies the type of recipient.
 type: docs
-weight: 20990
+weight: 21000
 url: /net/aspose.email.windows.forms/recipienttype/
 ---
 ## RecipientType enumeration

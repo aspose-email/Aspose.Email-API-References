@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Email for .NET API Reference
 description: Gets or sets an attachment name
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email/attachment/name/
 ---
 ## Attachment.Name property

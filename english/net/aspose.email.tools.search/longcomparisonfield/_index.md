@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Represents the Int64 search field.
 type: docs
-weight: 20740
+weight: 20750
 url: /net/aspose.email.tools.search/longcomparisonfield/
 ---
 ## LongComparisonField class

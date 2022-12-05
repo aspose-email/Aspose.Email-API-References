@@ -1,11 +1,64 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: Gets the list of messages in the current folder.
+description: Gets the list of messages in the specified folder
 type: docs
 weight: 880
 url: /net/aspose.email.clients.imap/imapclient/listmessagesasync/
 ---
+## ListMessagesAsync(string, bool, IEnumerable&lt;string&gt;) {#listmessagesasync_37}
+
+Gets the list of messages in the specified folder
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, 
+    bool retrieveRecursively, IEnumerable<string> messageExtraFields)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve messages. |
+| retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
+| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(long) {#listmessagesasync_29}
+
+Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| modificationSequence | Int64 | Modification sequence |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListMessagesAsync(IConnection, string, MailQuery, int) {#listmessagesasync_13}
 
 Gets the list of messages in the current folder.
@@ -1134,59 +1187,6 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 | --- | --- | --- |
 | folderName | String | Folder to retrieve messages. |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(string, bool, IEnumerable&lt;string&gt;) {#listmessagesasync_37}
-
-Gets the list of messages in the specified folder
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, 
-    bool retrieveRecursively, IEnumerable<string> messageExtraFields)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Folder to retrieve messages. |
-| retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
-| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(long) {#listmessagesasync_29}
-
-Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| modificationSequence | Int64 | Modification sequence |
 
 ### Return Value
 

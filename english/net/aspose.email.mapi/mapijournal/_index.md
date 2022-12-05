@@ -3,7 +3,7 @@ title: MapiJournal
 second_title: Aspose.Email for .NET API Reference
 description: Represents the Outlook Journal object.
 type: docs
-weight: 18430
+weight: 18440
 url: /net/aspose.email.mapi/mapijournal/
 ---
 ## MapiJournal class
@@ -53,6 +53,7 @@ public sealed class MapiJournal : MapiMessageItemBase
 | [Subject](../../aspose.email.mapi/mapimessageitembase/subject) { get; set; } | Gets or sets the subject of the message. |
 | [SubjectPrefix](../../aspose.email.mapi/mapimessageitembase/subjectprefix) { get; } | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [SubStorages](../../aspose.email.mapi/mapimessageitembase/substorages) { get; } | Gets the sub storages. |
+| [SupportedType](../../aspose.email.mapi/mapimessageitembase/supportedtype) { get; } | Gets the supported item type. |
 
 ## Methods
 

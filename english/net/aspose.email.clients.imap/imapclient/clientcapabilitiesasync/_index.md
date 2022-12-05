@@ -6,6 +6,30 @@ type: docs
 weight: 450
 url: /net/aspose.email.clients.imap/imapclient/clientcapabilitiesasync/
 ---
+## ClientCapabilitiesAsync(params string[]) {#clientcapabilitiesasync_2}
+
+Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
+
+```csharp
+public Task<string[]> ClientCapabilitiesAsync(params string[] capabilityNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| capabilityNames | String[] | Array of capabilities which are supported by client |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ClientCapabilitiesAsync(IConnection, params string[]) {#clientcapabilitiesasync}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
@@ -81,30 +105,6 @@ Task object, with delegate for this operation
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ClientCapabilitiesAsync(params string[]) {#clientcapabilitiesasync_2}
-
-Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
-
-```csharp
-public Task<string[]> ClientCapabilitiesAsync(params string[] capabilityNames)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| capabilityNames | String[] | Array of capabilities which are supported by client |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

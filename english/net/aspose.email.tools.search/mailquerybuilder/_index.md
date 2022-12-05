@@ -3,7 +3,7 @@ title: MailQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Represents the builder of search expression.
 type: docs
-weight: 20760
+weight: 20770
 url: /net/aspose.email.tools.search/mailquerybuilder/
 ---
 ## MailQueryBuilder class

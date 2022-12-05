@@ -3,7 +3,7 @@ title: RestoreOptions
 second_title: Aspose.Email for .NET API Reference
 description: Enumerates restore options
 type: docs
-weight: 20330
+weight: 20340
 url: /net/aspose.email.storage.pst/restoreoptions/
 ---
 ## RestoreOptions enumeration

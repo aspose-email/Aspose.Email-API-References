@@ -3,7 +3,7 @@ title: StorageProcessedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the method that will handle an StorageProcessed./personalstorage/storageprocessed event.
 type: docs
-weight: 20380
+weight: 20390
 url: /net/aspose.email.storage.pst/storageprocessedeventhandler/
 ---
 ## StorageProcessedEventHandler delegate
