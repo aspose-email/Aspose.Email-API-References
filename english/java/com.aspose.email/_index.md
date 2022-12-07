@@ -446,6 +446,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiElectronicAddress](../com.aspose.email/mapielectronicaddress) | Refers to the group of properties that define the e-mail address or fax address. |
 | [MapiGuidConstants](../com.aspose.email/mapiguidconstants) | Contains several guid constants defined by MSG format specification. |
 | [MapiImportance](../com.aspose.email/mapiimportance) | Contains a values that indicates the message importance. |
+| [MapiItemType](../com.aspose.email/mapiitemtype) | Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [IMapiMessageItem](../com.aspose.email/imapimessageitem) interface. |
 | [MapiJournal](../com.aspose.email/mapijournal) | Represents the Outlook Journal object. |
 | [MapiJournalDocumentStatus](../com.aspose.email/mapijournaldocumentstatus) | Indicates the status of document. |
 | [MapiJournalFlags](../com.aspose.email/mapijournalflags) | Contains metadata about the Journal object. |

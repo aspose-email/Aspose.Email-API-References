@@ -3,7 +3,7 @@ title: UserRole
 second_title: Aspose.Email for Java API Reference
 description: OneNote user role
 type: docs
-weight: 687
+weight: 688
 url: /java/com.aspose.email/userrole/
 ---
 

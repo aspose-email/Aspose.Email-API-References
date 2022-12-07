@@ -1,32 +1,32 @@
 ---
-title: MapiTaskOwnership
+title: MapiItemType
 second_title: Aspose.Email for Java API Reference
-description: Indicates the role of the current user  relative to the Task object.
+description: Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the  interface.
 type: docs
-weight: 473
-url: /java/com.aspose.email/mapitaskownership/
+weight: 440
+url: /java/com.aspose.email/mapiitemtype/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```
-public final class MapiTaskOwnership extends System.Enum
+public final class MapiItemType extends System.Enum
 ```
 
-Indicates the role of the current user relative to the Task object.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MapiTaskOwnership()](#MapiTaskOwnership--) | Constructor for MapiTaskOwnership. |
+Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [IMapiMessageItem](../../com.aspose.email/imapimessageitem) interface.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AssigneesCopy](#AssigneesCopy) | The Task object is the task assignee's copy of the Task object. |
-| [AssignersCopy](#AssignersCopy) | The Task object is the task assigner's copy of the Task object. |
+| [Calendar](#Calendar) | A calendar item. |
+| [Contact](#Contact) | A contact item. |
+| [DistList](#DistList) | A distribution list. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [NotAssigned](#NotAssigned) | The Task object is not assigned. |
+| [Journal](#Journal) | A Journal entry. |
+| [Message](#Message) | An email message. |
+| [None](#None) | Non-supported type. |
+| [Note](#Note) | A StickyNote. |
+| [Task](#Task) | A Task item. |
 ## Methods
 
 | Method | Description |
@@ -66,29 +66,56 @@ Indicates the role of the current user relative to the Task object.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MapiTaskOwnership() {#MapiTaskOwnership--}
+### Calendar {#Calendar}
 ```
-public MapiTaskOwnership()
-```
-
-
-Constructor for MapiTaskOwnership.
-
-### AssigneesCopy {#AssigneesCopy}
-```
-public static final int AssigneesCopy
+public static final int Calendar
 ```
 
 
-The Task object is the task assignee's copy of the Task object.
+A calendar item. Can be converted to [MapiCalendar](../../com.aspose.email/mapicalendar).
 
-### AssignersCopy {#AssignersCopy}
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Calendar)
+>  {
+>      var calendar = (MapiCalendar)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Contact {#Contact}
 ```
-public static final int AssignersCopy
+public static final int Contact
 ```
 
 
-The Task object is the task assigner's copy of the Task object.
+A contact item. Can be converted to [MapiContact](../../com.aspose.email/mapicontact).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Contact)
+>  {
+>      var contact = (MapiContact)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### DistList {#DistList}
+```
+public static final int DistList
+```
+
+
+A distribution list. Can be converted to [MapiDistributionList](../../com.aspose.email/mapidistributionlist).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.DistList)
+>  {
+>      var distList = (MapiDistributionList)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
 
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
@@ -96,13 +123,72 @@ public static final char[] EnumSeparatorCharArray
 ```
 
 
-### NotAssigned {#NotAssigned}
+### Journal {#Journal}
 ```
-public static final int NotAssigned
+public static final int Journal
 ```
 
 
-The Task object is not assigned.
+A Journal entry. Can be converted to [MapiJournal](../../com.aspose.email/mapijournal).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Journal)
+>  {
+>      var journal = (MapiJournal)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Message {#Message}
+```
+public static final int Message
+```
+
+
+An email message. This type does not need to be converted.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+Non-supported type. MapiMessage cannot be converted to an appropriate item type.
+
+### Note {#Note}
+```
+public static final int Note
+```
+
+
+A StickyNote. Can be converted to [MapiNote](../../com.aspose.email/mapinote).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Note)
+>  {
+>      var note = (MapiNote)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Task {#Task}
+```
+public static final int Task
+```
+
+
+A Task item. Can be converted to [MapiTask](../../com.aspose.email/mapitask).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Task)
+>  {
+>      var task = (MapiTask)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
 
 ### Clone() {#Clone--}
 ```
