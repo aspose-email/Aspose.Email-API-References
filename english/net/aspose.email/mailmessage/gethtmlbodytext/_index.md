@@ -18,6 +18,44 @@ public virtual string GetHtmlBodyText(bool showUrl)
 | --- | --- | --- |
 | showUrl | Boolean | Defines need to show URL in text. |
 
+## Examples
+
+The following example shows how to get an email message’s HTML body as plain text.
+
+```csharp
+[C#]
+
+// The path to the File directory.
+string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+
+MailMessage mail = MailMessage.Load(dataDir + "HtmlWithUrlSample.eml");
+
+// body will contain URL
+string body_with_url = mail.GetHtmlBodyText(true);
+
+// body will not contain URL
+string body_without_url = mail.GetHtmlBodyText(false);
+Console.WriteLine("Body with URL: " + body_with_url);
+Console.WriteLine("Body without URL: " + body_without_url);
+```
+
+```csharp
+[VB.NET]
+
+    ' The path to the File directory.
+    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+ 
+    Dim mail As MailMessage = MailMessage.Load(dataDir & "HtmlWithUrlSample.eml")
+ 
+	' body will contain URL
+    Dim body_with_url As String = mail.GetHtmlBodyText(True) 
+	' body will not contain URL
+    Dim body_without_url As String = mail.GetHtmlBodyText(False) 
+ 
+    Console.WriteLine("Body with URL: " & body_with_url)
+    Console.WriteLine("Body without URL: " & body_without_url)
+```
+
 ### See Also
 
 * class [MailMessage](../../mailmessage)

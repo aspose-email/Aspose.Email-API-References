@@ -29,6 +29,41 @@ public class EmlLoadOptions : LoadOptions
 | [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
 | [PreserveTnefAttachments](../../aspose.email/emlloadoptions/preservetnefattachments) { get; set; } | Controls TNEF attachment loading behaviour. By default the value is false. |
 
+## Examples
+
+The following example shows how to convert EML to MSG.
+
+```csharp
+[C#]
+
+// Initialize EmlLoadOptions  
+EmlLoadOptions emlLoadOptions = new EmlLoadOptions();	
+emlLoadOptions.PreserveTnefAttachments = true;
+emlLoadOptions.PreserveEmbeddedMessageFormat = true;
+
+// Initialize MailMessage with EmlLoadOptions
+using (MailMessage message = MailMessage.Load("TestEml.eml", emlLoadOptions))
+{
+	// Convert EML to MSG
+	message.Save("output.msg", SaveOptions.DefaultMsg);
+}
+```
+
+```csharp
+[VB.NET]
+
+    ' Initialize EmlLoadOptions  
+    Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions()
+    emlLoadOptions.PreserveTnefAttachments = True
+    emlLoadOptions.PreserveEmbeddedMessageFormat = True
+ 
+    ' Initialize MailMessage with EmlLoadOptions
+    Using message As MailMessage = MailMessage.Load("TestEml.eml", emlLoadOptions)
+        ' Convert EML to MSG
+        message.Save("output.msg", SaveOptions.DefaultMsg)
+    End Using
+```
+
 ### See Also
 
 * class [LoadOptions](../loadoptions)

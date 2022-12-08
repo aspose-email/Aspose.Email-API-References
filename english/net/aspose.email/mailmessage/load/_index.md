@@ -77,6 +77,67 @@ Mail message[`MailMessage`](../../mailmessage).
 | --- | --- |
 | ArgumentNullException | If *fileName* is null. |
 
+### Examples
+
+The following example shows how to load a Message with Load Options.
+
+```csharp
+[C#]
+// The path to the File directory.
+
+string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+
+// Load Eml, html, mhtml, msg and dat file 
+MailMessage mailMessage = MailMessage.Load(dataDir + "Message.eml", new EmlLoadOptions());
+MailMessage.Load(dataDir + "description.html", new HtmlLoadOptions());
+MailMessage.Load(dataDir + "Message.mhtml", new MhtmlLoadOptions());
+MailMessage.Load(dataDir + "Message.msg", new MsgLoadOptions());
+
+// loading with custom options
+EmlLoadOptions emlLoadOptions = new EmlLoadOptions
+{
+    PrefferedTextEncoding = Encoding.UTF8,
+    PreserveTnefAttachments = true
+};
+
+MailMessage.Load(dataDir + "description.html", emlLoadOptions);
+HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions
+{
+    PrefferedTextEncoding = Encoding.UTF8,
+    ShouldAddPlainTextView = true,
+    PathToResources = dataDir
+};
+MailMessage.Load(dataDir + "description.html", emlLoadOptions);
+```
+
+```csharp
+[VB.NET]
+
+    ' The path to the File directory.
+ 
+    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+ 
+    ' Load Eml, html, mhtml, msg and dat file
+    Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Message.eml", New EmlLoadOptions())
+    MailMessage.Load(dataDir & "description.html", New HtmlLoadOptions())
+    MailMessage.Load(dataDir & "Message.mhtml", New MhtmlLoadOptions())
+    MailMessage.Load(dataDir & "Message.msg", New MsgLoadOptions())
+ 
+    ' loading with custom options
+    Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions With {
+      .PrefferedTextEncoding = Encoding.UTF8,
+        .PreserveTnefAttachments = True
+            }
+ 
+    MailMessage.Load(dataDir & "description.html", emlLoadOptions)
+    Dim htmlLoadOptions As HtmlLoadOptions = New HtmlLoadOptions With {
+		.PrefferedTextEncoding = Encoding.UTF8,
+			.ShouldAddPlainTextView = True,
+				.PathToResources = dataDir
+					}
+    MailMessage.Load(dataDir & "description.html", emlLoadOptions)
+```
+
 ### See Also
 
 * class [LoadOptions](../../loadoptions)

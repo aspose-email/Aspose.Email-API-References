@@ -31,6 +31,41 @@ public class EmlSaveOptions : SaveOptions
 | [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
 | [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false. |
 
+## Examples
+
+The following example shows how to load and Save an EML message Preserving the Original Boundaries.
+
+```csharp
+[C#]
+
+// The path to the File directory.
+string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+
+MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
+
+// Save as eml with preserved original boundaries
+EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
+{
+    PreserveOriginalBoundaries = true
+};
+mailMessage.Save(dataDir + "PreserveOriginalBoundaries_out.eml", emlSaveOptions);
+```
+
+```csharp
+[VB.NET]
+
+    ' The path to the File directory.
+    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+ 
+    Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Attachments.eml")
+ 
+    ' Save as eml with preserved original boundaries
+    Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
+      .PreserveOriginalBoundaries = True
+            }
+    mailMessage.Save(dataDir & "PreserveOriginalBoundaries_out.eml", emlSaveOptions)
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

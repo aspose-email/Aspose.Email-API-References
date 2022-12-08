@@ -22,6 +22,61 @@ public virtual MailMessage Encrypt(X509Certificate2 certificate)
 
 Encrypted email message
 
+### Examples
+
+The following example shows how to encrypt Messages.
+
+```csharp
+[C#]
+
+// The path to the File directory.
+string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+
+string publicCertFile = dataDir + "MartinCertificate.cer";
+string privateCertFile = dataDir + "MartinCertificate.pfx";
+
+X509Certificate2 publicCert = new X509Certificate2(publicCertFile);
+X509Certificate2 privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
+
+// Create a message
+MailMessage msg = new MailMessage("atneostthaecrcount@gmail.com", "atneostthaecrcount@gmail.com", "Test subject", "Test Body");
+
+// Encrypt the message
+MailMessage eMsg = msg.Encrypt(publicCert);
+
+// Validate if the message is encrypted
+if (eMsg.IsEncrypted == true)
+    Console.WriteLine("Its encrypted");
+else
+    Console.WriteLine("It's NOT encrypted");
+```
+
+```csharp
+[VB.NET]
+
+    ' The path to the File directory.
+    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+ 
+    Dim publicCertFile = dataDir & "MartinCertificate.cer"
+    Dim privateCertFile = dataDir & "MartinCertificate.pfx"
+ 
+    Dim publicCert As X509Certificate2 = New X509Certificate2(publicCertFile)
+    Dim privateCert As X509Certificate2 = New X509Certificate2(privateCertFile, "anothertestaccount")
+ 
+    ' Create a message
+    Dim msg As MailMessage = New MailMessage("atneostthaecrcount@gmail.com", "atneostthaecrcount@gmail.com", "Test subject", "Test Body")
+ 
+    ' Encrypt the message
+    Dim eMsg As MailMessage = msg.Encrypt(publicCert)
+ 
+    ' Validate if the message is encrypted
+    If eMsg.IsEncrypted = True Then
+        Console.WriteLine("Its encrypted")
+    Else
+        Console.WriteLine("It's NOT encrypted")
+    End If
+```
+
 ### See Also
 
 * class [MailMessage](../../mailmessage)
