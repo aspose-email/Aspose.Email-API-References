@@ -36,32 +36,32 @@ The following example shows how to convert EML to MSG.
 ```csharp
 [C#]
 
-// Initialize EmlLoadOptions  
-EmlLoadOptions emlLoadOptions = new EmlLoadOptions();	
-emlLoadOptions.PreserveTnefAttachments = true;
-emlLoadOptions.PreserveEmbeddedMessageFormat = true;
+	// Initialize EmlLoadOptions  
+	EmlLoadOptions emlLoadOptions = new EmlLoadOptions();	
+	emlLoadOptions.PreserveTnefAttachments = true;
+	emlLoadOptions.PreserveEmbeddedMessageFormat = true;
 
-// Initialize MailMessage with EmlLoadOptions
-using (MailMessage message = MailMessage.Load("TestEml.eml", emlLoadOptions))
-{
-	// Convert EML to MSG
-	message.Save("output.msg", SaveOptions.DefaultMsg);
-}
+	// Initialize MailMessage with EmlLoadOptions
+	using (MailMessage message = MailMessage.Load("TestEml.eml", emlLoadOptions))
+	{
+		// Convert EML to MSG
+		message.Save("output.msg", SaveOptions.DefaultMsg);
+	}
 ```
 
 ```csharp
 [VB.NET]
 
-    ' Initialize EmlLoadOptions  
-    Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions()
-    emlLoadOptions.PreserveTnefAttachments = True
-    emlLoadOptions.PreserveEmbeddedMessageFormat = True
- 
-    ' Initialize MailMessage with EmlLoadOptions
-    Using message As MailMessage = MailMessage.Load("TestEml.eml", emlLoadOptions)
-        ' Convert EML to MSG
-        message.Save("output.msg", SaveOptions.DefaultMsg)
-    End Using
+	' Initialize EmlLoadOptions  
+	Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions()
+	emlLoadOptions.PreserveTnefAttachments = True
+	emlLoadOptions.PreserveEmbeddedMessageFormat = True
+
+	' Initialize MailMessage with EmlLoadOptions
+	Using message As MailMessage = MailMessage.Load("TestEml.eml", emlLoadOptions)
+		' Convert EML to MSG
+		message.Save("output.msg", SaveOptions.DefaultMsg)
+	End Using
 ```
 
 ### See Also

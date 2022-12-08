@@ -38,32 +38,32 @@ The following example shows how to load and Save an EML message Preserving the O
 ```csharp
 [C#]
 
-// The path to the File directory.
-string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+	// The path to the File directory.
+	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
 
-MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
+	MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
 
-// Save as eml with preserved original boundaries
-EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
-{
-    PreserveOriginalBoundaries = true
-};
-mailMessage.Save(dataDir + "PreserveOriginalBoundaries_out.eml", emlSaveOptions);
+	// Save as eml with preserved original boundaries
+	EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
+	{
+		PreserveOriginalBoundaries = true
+	};
+	mailMessage.Save(dataDir + "PreserveOriginalBoundaries_out.eml", emlSaveOptions);
 ```
 
 ```csharp
 [VB.NET]
 
-    ' The path to the File directory.
-    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
- 
-    Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Attachments.eml")
- 
-    ' Save as eml with preserved original boundaries
-    Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
-      .PreserveOriginalBoundaries = True
-            }
-    mailMessage.Save(dataDir & "PreserveOriginalBoundaries_out.eml", emlSaveOptions)
+	' The path to the File directory.
+	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+
+	Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Attachments.eml")
+
+	' Save as eml with preserved original boundaries
+	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
+	  .PreserveOriginalBoundaries = True
+			}
+	mailMessage.Save(dataDir & "PreserveOriginalBoundaries_out.eml", emlSaveOptions)
 ```
 
 ### See Also

@@ -116,55 +116,55 @@ The following example shows how to create a new Email Message and save with Save
 ```csharp
 [C#]
 
-// The path to the File directory.
-string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+	// The path to the File directory.
+	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
 
-// Create a new instance of MailMessage class
-MailMessage message = new MailMessage();
+	// Create a new instance of MailMessage class
+	MailMessage message = new MailMessage();
 
-// Set subject of the message, Html body and sender information
-message.Subject = "New message created by Aspose.Email for .NET";
-message.HtmlBody = "<b>This line is in bold.</b> <br/> <br/>" + "<font color=blue>This line is in blue color</font>";
-message.From = new MailAddress("from@domain.com", "Sender Name", false);
+	// Set subject of the message, Html body and sender information
+	message.Subject = "New message created by Aspose.Email for .NET";
+	message.HtmlBody = "<b>This line is in bold.</b> <br/> <br/>" + "<font color=blue>This line is in blue color</font>";
+	message.From = new MailAddress("from@domain.com", "Sender Name", false);
 
-// Add TO recipients and Add CC recipients
-message.To.Add(new MailAddress("to1@domain.com", "Recipient 1", false));
-message.To.Add(new MailAddress("to2@domain.com", "Recipient 2", false));
-message.CC.Add(new MailAddress("cc1@domain.com", "Recipient 3", false));
-message.CC.Add(new MailAddress("cc2@domain.com", "Recipient 4", false));
+	// Add TO recipients and Add CC recipients
+	message.To.Add(new MailAddress("to1@domain.com", "Recipient 1", false));
+	message.To.Add(new MailAddress("to2@domain.com", "Recipient 2", false));
+	message.CC.Add(new MailAddress("cc1@domain.com", "Recipient 3", false));
+	message.CC.Add(new MailAddress("cc2@domain.com", "Recipient 4", false));
 
-// Save message in EML, EMLX, MSG and MHTML formats
-message.Save(dataDir + "CreateNewMailMessage_out.eml", SaveOptions.DefaultEml);
-message.Save(dataDir + "CreateNewMailMessage_out.emlx", SaveOptions.CreateSaveOptions(MailMessageSaveType.EmlxFormat));
-message.Save(dataDir + "CreateNewMailMessage_out.msg", SaveOptions.DefaultMsgUnicode);
-message.Save(dataDir + "CreateNewMailMessage_out.mhtml", SaveOptions.DefaultMhtml);
+	// Save message in EML, EMLX, MSG and MHTML formats
+	message.Save(dataDir + "CreateNewMailMessage_out.eml", SaveOptions.DefaultEml);
+	message.Save(dataDir + "CreateNewMailMessage_out.emlx", SaveOptions.CreateSaveOptions(MailMessageSaveType.EmlxFormat));
+	message.Save(dataDir + "CreateNewMailMessage_out.msg", SaveOptions.DefaultMsgUnicode);
+	message.Save(dataDir + "CreateNewMailMessage_out.mhtml", SaveOptions.DefaultMhtml);
 ```
 
 ```csharp
 [VB.NET]
 
-    ' The path to the File directory.
-    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
- 
-    ' Create a new instance of MailMessage class
-    Dim message As MailMessage = New MailMessage()
- 
-    ' Set subject of the message, Html body and sender information
-    message.Subject = "New message created by Aspose.Email for .NET"
-    message.HtmlBody = "<b>This line is in bold.</b> <br/> <br/>" & "<font color=blue>This line is in blue color</font>"
-    message.From = New MailAddress("from@domain.com", "Sender Name", False)
- 
-    ' Add TO recipients and Add CC recipients
-    message.[To].Add(New MailAddress("to1@domain.com", "Recipient 1", False))
-    message.[To].Add(New MailAddress("to2@domain.com", "Recipient 2", False))
-    message.CC.Add(New MailAddress("cc1@domain.com", "Recipient 3", False))
-    message.CC.Add(New MailAddress("cc2@domain.com", "Recipient 4", False))
- 
-    ' Save message in EML, EMLX, MSG and MHTML formats
-    message.Save(dataDir & "CreateNewMailMessage_out.eml", SaveOptions.DefaultEml)
-    message.Save(dataDir & "CreateNewMailMessage_out.emlx", SaveOptions.CreateSaveOptions(MailMessageSaveType.EmlxFormat))
-    message.Save(dataDir & "CreateNewMailMessage_out.msg", SaveOptions.DefaultMsgUnicode)
-    message.Save(dataDir & "CreateNewMailMessage_out.mhtml", SaveOptions.DefaultMhtml)
+	' The path to the File directory.
+	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+
+	' Create a new instance of MailMessage class
+	Dim message As MailMessage = New MailMessage()
+
+	' Set subject of the message, Html body and sender information
+	message.Subject = "New message created by Aspose.Email for .NET"
+	message.HtmlBody = "<b>This line is in bold.</b> <br/> <br/>" & "<font color=blue>This line is in blue color</font>"
+	message.From = New MailAddress("from@domain.com", "Sender Name", False)
+
+	' Add TO recipients and Add CC recipients
+	message.[To].Add(New MailAddress("to1@domain.com", "Recipient 1", False))
+	message.[To].Add(New MailAddress("to2@domain.com", "Recipient 2", False))
+	message.CC.Add(New MailAddress("cc1@domain.com", "Recipient 3", False))
+	message.CC.Add(New MailAddress("cc2@domain.com", "Recipient 4", False))
+
+	' Save message in EML, EMLX, MSG and MHTML formats
+	message.Save(dataDir & "CreateNewMailMessage_out.eml", SaveOptions.DefaultEml)
+	message.Save(dataDir & "CreateNewMailMessage_out.emlx", SaveOptions.CreateSaveOptions(MailMessageSaveType.EmlxFormat))
+	message.Save(dataDir & "CreateNewMailMessage_out.msg", SaveOptions.DefaultMsgUnicode)
+	message.Save(dataDir & "CreateNewMailMessage_out.mhtml", SaveOptions.DefaultMhtml)
 ```
 
 ### See Also

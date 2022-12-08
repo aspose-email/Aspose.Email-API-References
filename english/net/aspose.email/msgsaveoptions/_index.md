@@ -37,36 +37,36 @@ The following example shows how to save as MSG with preserved dates.
 ```csharp
 [C#]
 
-// Data directory for reading and writing files
-string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+	// Data directory for reading and writing files
+	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
 
-// Initialize and Load an existing EML file by specifying the MessageFormat
-MailMessage eml = MailMessage.Load(dataDir + "Message.eml");
+	// Initialize and Load an existing EML file by specifying the MessageFormat
+	MailMessage eml = MailMessage.Load(dataDir + "Message.eml");
 
-// Save as msg with preserved dates
-MsgSaveOptions msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode)
-{
-    PreserveOriginalDates = true
-};
+	// Save as msg with preserved dates
+	MsgSaveOptions msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode)
+	{
+		PreserveOriginalDates = true
+	};
 
-eml.Save(Path.Combine(dataDir, "outTest_out.msg"), msgSaveOptions);
+	eml.Save(Path.Combine(dataDir, "outTest_out.msg"), msgSaveOptions);
 ```
 
 ```csharp
 [VB.NET]
 
-    ' Data directory for reading and writing files
-    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
- 
-    ' Initialize and Load an existing EML file by specifying the MessageFormat
-    Dim eml As MailMessage = MailMessage.Load(dataDir & "Message.eml")
- 
-    ' Save as msg with preserved dates
-    Dim msgSaveOptions As MsgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
-      .PreserveOriginalDates = True
-            }
- 
-    eml.Save(Path.Combine(dataDir, "outTest_out.msg"), msgSaveOptions)
+	' Data directory for reading and writing files
+	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+
+	' Initialize and Load an existing EML file by specifying the MessageFormat
+	Dim eml As MailMessage = MailMessage.Load(dataDir & "Message.eml")
+
+	' Save as msg with preserved dates
+	Dim msgSaveOptions As MsgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
+	  .PreserveOriginalDates = True
+			}
+
+	eml.Save(Path.Combine(dataDir, "outTest_out.msg"), msgSaveOptions)
 ```
 
 ### See Also

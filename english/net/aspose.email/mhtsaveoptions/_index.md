@@ -49,34 +49,34 @@ The following example shows how to save MailMessage as MHTML.
 ```csharp
 [C#]
 
-// Data directory for reading and writing files
-string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+	// Data directory for reading and writing files
+	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
 
-// Set options for MHTML output
-MhtSaveOptions saveOptions = SaveOptions.DefaultMhtml;
-saveOptions.PreserveOriginalDate = false; // save a message date as UTC date
+	// Set options for MHTML output
+	MhtSaveOptions saveOptions = SaveOptions.DefaultMhtml;
+	saveOptions.PreserveOriginalDate = false; // save a message date as UTC date
 
-// Initialize and load an existing EML file
-using (MailMessage mailMessage = MailMessage.Load(folderPath + "Message.eml"))
-{
-    mailMessage.Save(dataDir + "Message_out.mhtml", saveOptions);
-}
+	// Initialize and load an existing EML file
+	using (MailMessage mailMessage = MailMessage.Load(folderPath + "Message.eml"))
+	{
+		mailMessage.Save(dataDir + "Message_out.mhtml", saveOptions);
+	}
 ```
 
 ```csharp
 [VB.NET]
 
-    ' Data directory for reading and writing files
-    Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
- 
-    ' Set options for MHTML output
-    Dim saveOptions As MhtSaveOptions = SaveOptions.DefaultMhtml
-    saveOptions.PreserveOriginalDate = False ' save a message date as UTC date
- 
-    ' Initialize and load an existing EML file
-    Using mailMessage As MailMessage = MailMessage.Load(folderPath & "Message.eml")
-        mailMessage.Save(dataDir & "Message_out.mhtml", saveOptions)
-    End Using
+	' Data directory for reading and writing files
+	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
+
+	' Set options for MHTML output
+	Dim saveOptions As MhtSaveOptions = SaveOptions.DefaultMhtml
+	saveOptions.PreserveOriginalDate = False ' save a message date as UTC date
+
+	' Initialize and load an existing EML file
+	Using mailMessage As MailMessage = MailMessage.Load(folderPath & "Message.eml")
+		mailMessage.Save(dataDir & "Message_out.mhtml", saveOptions)
+	End Using
 ```
 
 ### See Also
