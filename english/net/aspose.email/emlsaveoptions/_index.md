@@ -38,31 +38,26 @@ The following example shows how to load and Save an EML message Preserving the e
 ```csharp
 [C#]
 
-	// The path to the File directory.
-        string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
-        MailMessage mailMessage = MailMessage.Load(dataDir + "source.eml");
+        MailMessage mailMessage = MailMessage.Load("source.eml");
         // Save as eml with preserved embedded message format
         EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
         {
              PreserveEmbeddedMessageFormat = true
         };
-	mailMessage.Save(dataDir + "target.eml", emlSaveOptions);
+	mailMessage.Save("target.eml", emlSaveOptions);
 ```
 
 ```csharp
 [VB.NET]
 
-	' The path to the File directory.
-	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
-
-	Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "source.eml")
+	Dim mailMessage As MailMessage = MailMessage.Load("source.eml")
 
 	' Save as eml with preserved embedded message format
 	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
         .PreserveEmbeddedMessageFormat = True
         }
 			}
-	mailMessage.Save(dataDir & "target.eml", emlSaveOptions)
+	mailMessage.Save("target.eml", emlSaveOptions)
 ```
 
 ### See Also
