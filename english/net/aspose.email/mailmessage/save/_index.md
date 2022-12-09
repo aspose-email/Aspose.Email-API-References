@@ -68,6 +68,7 @@ The following example shows how to save an email message as HTML without embeddi
 
 	Dim fileName = "EmailWithAttachEmbedded.eml"
         Dim eml = MailMessage.Load(fileName)
+	
         Dim options = New HtmlSaveOptions() With {
             .ResourceRenderingMode = ResourceRenderingMode.EmbedIntoHtml,
             .SaveResourceHandler = Function(ByVal attachment As AttachmentBase, <Out> ByRef resourcePath As String)
@@ -75,6 +76,7 @@ The following example shows how to save an email message as HTML without embeddi
                                        resourcePath = Path.Combine(".", attachment.ContentId)
                                    End Function
         }
+	
         eml.Save($"{fileName}.html", options)
 ```
 
