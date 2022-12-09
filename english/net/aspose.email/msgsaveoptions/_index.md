@@ -52,8 +52,10 @@ The following example shows how to save as MSG with preserved dates.
 ```csharp
 [VB.NET]
         
+	' Initialize and Load an existing EML file by specifying the MessageFormat
 	Dim eml = MailMessage.Load("Message.eml")
 	
+	' Save as msg with preserved dates
         Dim msgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
             .PreserveOriginalDates = True
         }
