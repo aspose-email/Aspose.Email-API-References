@@ -46,44 +46,36 @@ The following example shows how to save an email message as HTML without embeddi
 ```csharp
 [C#]
 
-	var fileName = "EmailWithAttandEmbedded.eml";
-	var filePath = Path.Combine(dataDir, fileName);
+        var fileName = "EmailWithAttachEmbedded.eml";
+        var eml = MailMessage.Load(fileName);
 
-	MailMessage msg = MailMessage.Load(filePath);
-	var outFileName = Path.Combine(dataDir, fileName + ".html");
+        var options = new HtmlSaveOptions()
+        {
+            ResourceRenderingMode = ResourceRenderingMode.EmbedIntoHtml,
+            SaveResourceHandler =
+                (AttachmentBase attachment, out string resourcePath) =>
+                {
+                    attachment.Save(attachment.ContentId);
+                    resourcePath = Path.Combine(".", attachment.ContentId);
+                }
+        };
 
-	var options = new HtmlSaveOptions()
-	{
-		EmbedResources = false,
-		SaveResourceHandler =
-			(AttachmentBase attachment, out string resourcePath) =>
-			{
-				attachment.Save(Path.Combine(dataDir, attachment.ContentId));
-				resourcePath = Path.Combine(".", attachment.ContentId);
-			}
-	};
-
-	msg.Save(outFileName, options);
+        eml.Save($"{fileName}.html", options);
 ```
 
 ```csharp
 [VB.NET]
 
-	Dim fileName = "EmailWithAttandEmbedded.eml"
-	Dim filePath = Path.Combine(dataDir, fileName)
-
-	Dim msg As MailMessage = MailMessage.Load(filePath)
-	Dim outFileName = Path.Combine(dataDir, fileName & ".html")
-
-	Dim options = New HtmlSaveOptions() With {
-	  .EmbedResources = False,
-			.SaveResourceHandler = Sub(ByVal attachment As AttachmentBase, <Out> ByRef resourcePath As String)
-									   attachment.Save(Path.Combine(dataDir, attachment.ContentId))
-									   resourcePath = Path.Combine(".", attachment.ContentId)
-								   End Sub
-			}
-
-	msg.Save(outFileName, options)
+	Dim fileName = "EmailWithAttachEmbedded.eml"
+        Dim eml = MailMessage.Load(fileName)
+        Dim options = New HtmlSaveOptions() With {
+            .ResourceRenderingMode = ResourceRenderingMode.EmbedIntoHtml,
+            .SaveResourceHandler = Function(ByVal attachment As AttachmentBase, <Out> ByRef resourcePath As String)
+                                       attachment.Save(attachment.ContentId)
+                                       resourcePath = Path.Combine(".", attachment.ContentId)
+                                   End Function
+        }
+        eml.Save($"{fileName}.html", options)
 ```
 
 ### See Also
