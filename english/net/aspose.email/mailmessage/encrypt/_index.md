@@ -29,52 +29,36 @@ The following example shows how to encrypt Messages.
 ```csharp
 [C#]
 
-	// The path to the File directory.
-	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+	var publicCertFile = "MartinCertificate.cer";
+        var publicCert = new X509Certificate2(publicCertFile);
 
-	string publicCertFile = dataDir + "MartinCertificate.cer";
-	string privateCertFile = dataDir + "MartinCertificate.pfx";
+        // Create a message
+        var eml = new MailMessage
+        {
+            From = "atneostthaecrcount@gmail.com",
+            To = "atneostthaecrcount@gmail.com",
+            Subject = "Test subject",
+            Body = "Test Body"
+        };
 
-	X509Certificate2 publicCert = new X509Certificate2(publicCertFile);
-	X509Certificate2 privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
-
-	// Create a message
-	MailMessage msg = new MailMessage("atneostthaecrcount@gmail.com", "atneostthaecrcount@gmail.com", "Test subject", "Test Body");
-
-	// Encrypt the message
-	MailMessage eMsg = msg.Encrypt(publicCert);
-
-	// Validate if the message is encrypted
-	if (eMsg.IsEncrypted == true)
-		Console.WriteLine("Its encrypted");
-	else
-		Console.WriteLine("It's NOT encrypted");
+        // Encrypt the message
+        var encryptedEml = eml.Encrypt(publicCert);
+        Console.WriteLine(encryptedEml.IsEncrypted ? "Its encrypted" : "Its NOT encrypted");
 ```
 
 ```csharp
 [VB.NET]
 
-	' The path to the File directory.
-	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
-
-	Dim publicCertFile = dataDir & "MartinCertificate.cer"
-	Dim privateCertFile = dataDir & "MartinCertificate.pfx"
-
-	Dim publicCert As X509Certificate2 = New X509Certificate2(publicCertFile)
-	Dim privateCert As X509Certificate2 = New X509Certificate2(privateCertFile, "anothertestaccount")
-
-	' Create a message
-	Dim msg As MailMessage = New MailMessage("atneostthaecrcount@gmail.com", "atneostthaecrcount@gmail.com", "Test subject", "Test Body")
-
-	' Encrypt the message
-	Dim eMsg As MailMessage = msg.Encrypt(publicCert)
-
-	' Validate if the message is encrypted
-	If eMsg.IsEncrypted = True Then
-		Console.WriteLine("Its encrypted")
-	Else
-		Console.WriteLine("It's NOT encrypted")
-	End If
+	Dim publicCertFile = "MartinCertificate.cer"
+        Dim publicCert = New X509Certificate2(publicCertFile)
+        Dim eml = New MailMessage With {
+            .From = "atneostthaecrcount@gmail.com",
+            .[To] = "atneostthaecrcount@gmail.com",
+            .Subject = "Test subject",
+            .Body = "Test Body"
+        }
+        Dim encryptedEml = eml.Encrypt(publicCert)
+        Console.WriteLine(If(encryptedEml.IsEncrypted, "Its encrypted", "Its NOT encrypted"))
 ```
 
 ### See Also
