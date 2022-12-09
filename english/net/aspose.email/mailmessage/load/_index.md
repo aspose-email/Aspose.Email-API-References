@@ -122,14 +122,16 @@ The following example shows how to load a Message with Load Options.
 	Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions With {
 	  .PrefferedTextEncoding = Encoding.UTF8,
 		.PreserveTnefAttachments = True
-			}
+	}
 
 	MailMessage.Load("description.html", emlLoadOptions)
+	
 	Dim htmlLoadOptions As HtmlLoadOptions = New HtmlLoadOptions With {
 		.PrefferedTextEncoding = Encoding.UTF8,
 			.ShouldAddPlainTextView = True,
 				.PathToResources = htmlImagesFolder
-					}
+	}
+					
 	MailMessage.Load("description.html", emlLoadOptions)
 ```
 
