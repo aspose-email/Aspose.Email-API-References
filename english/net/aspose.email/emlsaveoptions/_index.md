@@ -40,13 +40,13 @@ The following example shows how to load and Save an EML message Preserving the e
 
 	// The path to the File directory.
         string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
-        MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
+        MailMessage mailMessage = MailMessage.Load(dataDir + "source.eml");
         // Save as eml with preserved embedded message format
         EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
         {
              PreserveEmbeddedMessageFormat = true
         };
-	mailMessage.Save(dataDir + "PreserveOriginalBoundaries_out.eml", emlSaveOptions);
+	mailMessage.Save(dataDir + "target.eml", emlSaveOptions);
 ```
 
 ```csharp
@@ -55,14 +55,14 @@ The following example shows how to load and Save an EML message Preserving the e
 	' The path to the File directory.
 	Dim dataDir = "PATH_TO_YOUR_DATA_DIRECTORY"
 
-	Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Attachments.eml")
+	Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "source.eml")
 
 	' Save as eml with preserved embedded message format
 	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
         .PreserveEmbeddedMessageFormat = True
         }
 			}
-	mailMessage.Save(dataDir & "PreserveOriginalBoundaries_out.eml", emlSaveOptions)
+	mailMessage.Save(dataDir & "target.eml", emlSaveOptions)
 ```
 
 ### See Also
