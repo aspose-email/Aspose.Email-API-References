@@ -26,47 +26,34 @@ The following example shows how to sign Emails with DKIM.
 ```csharp
 [C#]
 
-	string privateKeyFile = Path.Combine(RunExamples.GetDataDir_SMTP().Replace("_Send", string.Empty), RunExamples.GetDataDir_SMTP()+ "key2.pem");
+	string privateKeyFile = "key2.pem";
 
-	RSACryptoServiceProvider rsa = PemReader.GetPrivateKey(privateKeyFile);
-	DKIMSignatureInfo signInfo = new DKIMSignatureInfo("test", "yandex.ru");
-	signInfo.Headers.Add("From");
-	signInfo.Headers.Add("Subject");
+        var rsa = PemReader.GetPrivateKey(privateKeyFile);
+        var signInfo = new DKIMSignatureInfo("test", "some_email.com");
+        signInfo.Headers.Add("From");
+        signInfo.Headers.Add("Subject");
 
-	MailMessage mailMessage = new MailMessage("useremail@gmail.com", "test@gmail.com");
-	mailMessage.Subject = "Signed DKIM message text body";
-	mailMessage.Body = "This is a text body signed DKIM message";
-	MailMessage signedMsg = mailMessage.DKIMSign(rsa, signInfo);
-
-	try
-	{
-		SmtpClient client = new SmtpClient("smtp.gmail.com", 587, "your.email@gmail.com", "your.password");
-		client.Send(signedMsg);                
-	}
-	finally
-	{}
+        var mailMessage = new MailMessage("useremail@gmail.com", "test@gmail.com")
+        {
+            Subject = "Signed DKIM message text body",
+            Body = "This is a text body signed DKIM message"
+        };
+        var signedMsg = mailMessage.DKIMSign(rsa, signInfo);
 ```
 
 ```csharp
 [VB.NET]
 
-	Dim privateKeyFile As String = Path.Combine(RunExamples.GetDataDir_SMTP().Replace("_Send", String.Empty), RunExamples.GetDataDir_SMTP() & "key2.pem")
-
-	Dim rsa As RSACryptoServiceProvider = PemReader.GetPrivateKey(privateKeyFile)
-	Dim signInfo As DKIMSignatureInfo = New DKIMSignatureInfo("test", "yandex.ru")
-	signInfo.Headers.Add("From")
-	signInfo.Headers.Add("Subject")
-
-	Dim mailMessage As MailMessage = New MailMessage("useremail@gmail.com", "test@gmail.com")
-	mailMessage.Subject = "Signed DKIM message text body"
-	mailMessage.Body = "This is a text body signed DKIM message"
-	Dim signedMsg As MailMessage = mailMessage.DKIMSign(rsa, signInfo)
-
-	Try
-		Dim client As SmtpClient = New SmtpClient("smtp.gmail.com", 587, "your.email@gmail.com", "your.password")
-		client.Send(signedMsg)
-	Finally
-	End Try
+	Dim privateKeyFile As String = "key2.pem"
+        Dim rsa = PemReader.GetPrivateKey(privateKeyFile)
+        Dim signInfo = New DKIMSignatureInfo("test", "some_email.com")
+        signInfo.Headers.Add("From")
+        signInfo.Headers.Add("Subject")
+        Dim mailMessage = New MailMessage("useremail@gmail.com", "test@gmail.com") With {
+            .Subject = "Signed DKIM message text body",
+            .Body = "This is a text body signed DKIM message"
+        }
+        Dim signedMsg = mailMessage.DKIMSign(rsa, signInfo)
 
 ```
 
