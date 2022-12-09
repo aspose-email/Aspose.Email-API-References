@@ -33,21 +33,19 @@ public class EmlSaveOptions : SaveOptions
 
 ## Examples
 
-The following example shows how to load and Save an EML message Preserving the Original Boundaries.
+The following example shows how to load and Save an EML message Preserving the embedded message format.
 
 ```csharp
 [C#]
 
 	// The path to the File directory.
-	string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
-
-	MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
-
-	// Save as eml with preserved original boundaries
-	EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
-	{
-		PreserveOriginalBoundaries = true
-	};
+        string dataDir = "PATH_TO_YOUR_DATA_DIRECTORY";
+        MailMessage mailMessage = MailMessage.Load(dataDir + "Attachments.eml");
+        // Save as eml with preserved embedded message format
+        EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
+        {
+             PreserveEmbeddedMessageFormat = true
+        };
 	mailMessage.Save(dataDir + "PreserveOriginalBoundaries_out.eml", emlSaveOptions);
 ```
 
@@ -59,9 +57,10 @@ The following example shows how to load and Save an EML message Preserving the O
 
 	Dim mailMessage As MailMessage = MailMessage.Load(dataDir & "Attachments.eml")
 
-	' Save as eml with preserved original boundaries
+	' Save as eml with preserved embedded message format
 	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
-	  .PreserveOriginalBoundaries = True
+        .PreserveEmbeddedMessageFormat = True
+        }
 			}
 	mailMessage.Save(dataDir & "PreserveOriginalBoundaries_out.eml", emlSaveOptions)
 ```
