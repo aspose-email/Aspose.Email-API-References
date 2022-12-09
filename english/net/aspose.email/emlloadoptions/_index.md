@@ -37,9 +37,11 @@ The following example shows how to convert EML to MSG.
 [C#]
 
 	// Initialize EmlLoadOptions  
-	EmlLoadOptions emlLoadOptions = new EmlLoadOptions();	
-	emlLoadOptions.PreserveTnefAttachments = true;
-	emlLoadOptions.PreserveEmbeddedMessageFormat = true;
+	var emlLoadOptions = new EmlLoadOptions()
+        {
+                PreserveTnefAttachments = true,
+                PreserveEmbeddedMessageFormat = true
+        };
 
 	// Initialize MailMessage with EmlLoadOptions
 	using (MailMessage message = MailMessage.Load("TestEml.eml", emlLoadOptions))
@@ -53,9 +55,11 @@ The following example shows how to convert EML to MSG.
 [VB.NET]
 
 	' Initialize EmlLoadOptions  
-	Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions()
-	emlLoadOptions.PreserveTnefAttachments = True
-	emlLoadOptions.PreserveEmbeddedMessageFormat = True
+	Dim emlLoadOptions = New EmlLoadOptions() With 
+	{
+              .PreserveTnefAttachments = True,
+              .PreserveEmbeddedMessageFormat = True
+        }
 
 	' Initialize MailMessage with EmlLoadOptions
 	Using message As MailMessage = MailMessage.Load("TestEml.eml", emlLoadOptions)
