@@ -30,6 +30,39 @@ public class MsgSaveOptions : SaveOptions
 | [PreserveSignature](../../aspose.email/msgsaveoptions/preservesignature) { get; set; } | Set to true, if signature is to be preserved. |
 | [SaveAsTemplate](../../aspose.email/msgsaveoptions/saveastemplate) { get; set; } | Set to true, if need to be saved as Outlook File Template(OFT format). |
 
+## Examples
+
+The following example shows how to save as MSG with preserved dates.
+
+```csharp
+[C#]
+
+         // Initialize and Load an existing EML file by specifying the MessageFormat
+         var eml = MailMessage.Load("Message.eml");
+
+         // Save as msg with preserved dates
+         var msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode)
+         {
+             PreserveOriginalDates = true
+         };
+
+         eml.Save("outTest_out.msg", msgSaveOptions);
+```
+
+```csharp
+[VB.NET]
+        
+	' Initialize and Load an existing EML file by specifying the MessageFormat
+	Dim eml = MailMessage.Load("Message.eml")
+	
+	' Save as msg with preserved dates
+        Dim msgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
+            .PreserveOriginalDates = True
+        }
+	
+        eml.Save("outTest_out.msg", msgSaveOptions)
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

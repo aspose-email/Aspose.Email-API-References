@@ -53,6 +53,41 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |
 
+## Examples
+
+The following example shows how to add and remove an Attachment from MailMessage.
+
+```csharp
+[C#]
+
+	// Create an instance of MailMessage class
+	var eml = new MailMessage {From = "sender@sender.com", To = "receiver@gmail.com"};
+
+	// Load an attachment
+	var attachment = new Attachment("1.txt");
+	eml.Attachments.Add(attachment);
+
+	// Remove attachment from your MailMessage
+	eml.Attachments.Remove(attachment);
+```
+
+```csharp
+[VB.NET]
+
+	' Create an instance of MailMessage class
+	Dim eml = New MailMessage With {
+	  .From = "sender@sender.com",
+				.[To] = "receiver@gmail.com"
+			}
+
+	' Load an attachment
+	Dim attachment = New Attachment("1.txt")
+	eml.Attachments.Add(attachment)
+
+	' Remove attachment from your MailMessage
+	eml.Attachments.Remove(attachment)
+```
+
 ### See Also
 
 * class [AttachmentBase](../attachmentbase)

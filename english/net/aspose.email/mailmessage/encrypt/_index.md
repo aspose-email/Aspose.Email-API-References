@@ -22,6 +22,49 @@ public virtual MailMessage Encrypt(X509Certificate2 certificate)
 
 Encrypted email message
 
+### Examples
+
+The following example shows how to encrypt Messages.
+
+```csharp
+[C#]
+
+	var publicCertFile = "MartinCertificate.cer";
+        var publicCert = new X509Certificate2(publicCertFile);
+
+        // Create a message
+        var eml = new MailMessage
+        {
+            From = "atneostthaecrcount@gmail.com",
+            To = "atneostthaecrcount@gmail.com",
+            Subject = "Test subject",
+            Body = "Test Body"
+        };
+
+        // Encrypt the message
+        var encryptedEml = eml.Encrypt(publicCert);
+        Console.WriteLine(encryptedEml.IsEncrypted ? "Its encrypted" : "Its NOT encrypted");
+```
+
+```csharp
+[VB.NET]
+
+	Dim publicCertFile = "MartinCertificate.cer"
+        Dim publicCert = New X509Certificate2(publicCertFile)
+	
+	' Create a message
+        Dim eml = New MailMessage With {
+            .From = "atneostthaecrcount@gmail.com",
+            .[To] = "atneostthaecrcount@gmail.com",
+            .Subject = "Test subject",
+            .Body = "Test Body"
+        }
+	
+	' Encrypt the message
+        Dim encryptedEml = eml.Encrypt(publicCert)
+        Console.WriteLine(If(encryptedEml.IsEncrypted, "Its encrypted", "Its NOT encrypted"))
+```
+
 ### See Also
 
 * class [MailMessage](../../mailmessage)

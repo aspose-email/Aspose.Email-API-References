@@ -39,6 +39,47 @@ public virtual void Save(string fileName, SaveOptions options)
 | fileName | String | Stream into which message is saved. |
 | options | SaveOptions | Additional options for saving[`SaveOptions`](../../saveoptions). |
 
+### Examples
+
+The following example shows how to save an email message as HTML without embedding resources.
+
+```csharp
+[C#]
+
+        var fileName = "EmailWithAttachEmbedded.eml";
+        var eml = MailMessage.Load(fileName);
+
+        var options = new HtmlSaveOptions()
+        {
+            ResourceRenderingMode = ResourceRenderingMode.EmbedIntoHtml,
+            SaveResourceHandler =
+                (AttachmentBase attachment, out string resourcePath) =>
+                {
+                    attachment.Save(attachment.ContentId);
+                    resourcePath = Path.Combine(".", attachment.ContentId);
+                }
+        };
+
+        eml.Save($"{fileName}.html", options);
+```
+
+```csharp
+[VB.NET]
+
+	Dim fileName = "EmailWithAttachEmbedded.eml"
+        Dim eml = MailMessage.Load(fileName)
+	
+        Dim options = New HtmlSaveOptions() With {
+            .ResourceRenderingMode = ResourceRenderingMode.EmbedIntoHtml,
+            .SaveResourceHandler = Function(ByVal attachment As AttachmentBase, <Out> ByRef resourcePath As String)
+                                       attachment.Save(attachment.ContentId)
+                                       resourcePath = Path.Combine(".", attachment.ContentId)
+                                   End Function
+        }
+	
+        eml.Save($"{fileName}.html", options)
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)
