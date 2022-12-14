@@ -42,6 +42,25 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [SkipInlineImages](../../aspose.email/mhtsaveoptions/skipinlineimages) { get; set; } | Defines whether skip references on images at saving in mhtml or not. Default value is false. |
 | [Timeout](../../aspose.email/mhtsaveoptions/timeout) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sek. |
 
+## Examples
+
+The following example shows how to save MailMessage as MHTML.
+
+```csharp
+[C#]
+
+        var eml = MailMessage.Load("Message.eml");
+        eml.Save("target.mthml", SaveOptions.DefaultMhtml);
+
+```
+
+```csharp
+[VB.NET]
+
+	Dim eml = MailMessage.Load("Message.eml")
+        eml.Save("target.mthml", SaveOptions.DefaultMhtml)
+```
+
 ### See Also
 
 * class [HeadersFormattingOptions](../headersformattingoptions)

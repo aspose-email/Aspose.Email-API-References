@@ -31,6 +31,35 @@ public class EmlSaveOptions : SaveOptions
 | [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
 | [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent) { get; set; } | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false. |
 
+## Examples
+
+The following example shows how to load and Save an EML message Preserving the embedded message format.
+
+```csharp
+[C#]
+
+        MailMessage mailMessage = MailMessage.Load("source.eml");
+        // Save as eml with preserved embedded message format
+        EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
+        {
+             PreserveEmbeddedMessageFormat = true
+        };
+	mailMessage.Save("target.eml", emlSaveOptions);
+```
+
+```csharp
+[VB.NET]
+
+	Dim mailMessage As MailMessage = MailMessage.Load("source.eml")
+
+	' Save as eml with preserved embedded message format
+	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
+        .PreserveEmbeddedMessageFormat = True
+        }
+			}
+	mailMessage.Save("target.eml", emlSaveOptions)
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)
