@@ -3,7 +3,7 @@ title: TemplateRoutine
 second_title: Aspose.Email for .NET API Reference
 description: Represents the routine used in the template file.
 type: docs
-weight: 20630
+weight: 20640
 url: /net/aspose.email.tools.merging/templateroutine/
 ---
 ## TemplateRoutine delegate

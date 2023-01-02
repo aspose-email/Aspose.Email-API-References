@@ -3,7 +3,7 @@ title: MessageAddedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Provides data for the MessageAdded./folderinfo/messageadded event
 type: docs
-weight: 20250
+weight: 20260
 url: /net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs class

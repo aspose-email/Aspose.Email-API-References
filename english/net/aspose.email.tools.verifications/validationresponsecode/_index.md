@@ -3,7 +3,7 @@ title: ValidationResponseCode
 second_title: Aspose.Email for .NET API Reference
 description: Represents the response status of the mail validating process.
 type: docs
-weight: 20880
+weight: 20890
 url: /net/aspose.email.tools.verifications/validationresponsecode/
 ---
 ## ValidationResponseCode enumeration

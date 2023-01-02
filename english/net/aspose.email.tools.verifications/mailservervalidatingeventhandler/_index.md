@@ -3,7 +3,7 @@ title: MailServerValidatingEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the event handler for MailServerValidatingEvent.
 type: docs
-weight: 20840
+weight: 20850
 url: /net/aspose.email.tools.verifications/mailservervalidatingeventhandler/
 ---
 ## MailServerValidatingEventHandler delegate

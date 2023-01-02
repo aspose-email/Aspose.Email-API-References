@@ -3,7 +3,7 @@ title: FolderKind
 second_title: Aspose.Email for .NET API Reference
 description: Represents the different kinds of pst folders.
 type: docs
-weight: 20200
+weight: 20210
 url: /net/aspose.email.storage.pst/folderkind/
 ---
 ## FolderKind enumeration

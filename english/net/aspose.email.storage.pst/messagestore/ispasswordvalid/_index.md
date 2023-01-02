@@ -3,7 +3,7 @@ title: IsPasswordValid
 second_title: Aspose.Email for .NET API Reference
 description: Determines whether the specified string is a valid password for the storage.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.storage.pst/messagestore/ispasswordvalid/
 ---
 ## MessageStore.IsPasswordValid method

@@ -3,7 +3,7 @@ title: MessageClass
 second_title: Aspose.Email for .NET API Reference
 description: Gets a casesensitive string that identifies the senderdefined message class such as IPM.Note. The message class specifies the type purpose or content of the message.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.storage.olm/olmmessageinfo/messageclass/
 ---
 ## OlmMessageInfo.MessageClass property

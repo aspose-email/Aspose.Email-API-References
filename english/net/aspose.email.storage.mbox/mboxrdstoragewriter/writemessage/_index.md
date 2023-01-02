@@ -11,7 +11,7 @@ url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/writemessage/
 Writes the message to underlying storage stream.
 
 ```csharp
-public override void WriteMessage(MailMessage message, out string fromMarker)
+public override string WriteMessage(MailMessage message, out string fromMarker)
 ```
 
 | Parameter | Type | Description |
@@ -33,7 +33,7 @@ public override void WriteMessage(MailMessage message, out string fromMarker)
 Writes the message to underlying storage stream.
 
 ```csharp
-public override void WriteMessage(MailMessage message)
+public override string WriteMessage(MailMessage message)
 ```
 
 | Parameter | Type | Description |

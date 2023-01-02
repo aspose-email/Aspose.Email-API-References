@@ -3,7 +3,7 @@ title: IsSigned
 second_title: Aspose.Email for .NET API Reference
 description: Gets a value indicating whether the message is signed.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.email.mapi/mapimessage/issigned/
 ---
 ## MapiMessage.IsSigned property

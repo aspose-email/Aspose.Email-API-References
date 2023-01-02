@@ -23,6 +23,7 @@ public class MapiCalendarIcsSaveOptions : MapiCalendarSaveOptions
 | Name | Description |
 | --- | --- |
 | [KeepOriginalDateTimeStamp](../../aspose.email.mapi/mapicalendaricssaveoptions/keeporiginaldatetimestamp) { get; set; } |  |
+| [ProductIdentifier](../../aspose.email.mapi/mapicalendaricssaveoptions/productidentifier) { get; set; } | Gets or sets the product identifier. |
 | [SaveFormat](../../aspose.email.mapi/mapicalendarsaveoptions/saveformat) { get; } | Gets a save format. |
 
 ### See Also

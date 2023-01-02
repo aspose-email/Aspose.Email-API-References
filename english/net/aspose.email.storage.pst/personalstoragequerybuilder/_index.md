@@ -3,7 +3,7 @@ title: PersonalStorageQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Represents the builder of search expression that used by pst.
 type: docs
-weight: 20330
+weight: 20340
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/
 ---
 ## PersonalStorageQueryBuilder class

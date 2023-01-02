@@ -16,7 +16,11 @@ public virtual MailMessage Decrypt()
 
 ### Return Value
 
-E-mail message
+Decrypted E-mail message
+
+### Remarks
+
+Method searches the current user and computer My stores for the appropriate certificate and private key.
 
 ### See Also
 

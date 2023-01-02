@@ -3,7 +3,7 @@ title: DomainValidatingEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Provides data for the DomainValidating event.
 type: docs
-weight: 20800
+weight: 20810
 url: /net/aspose.email.tools.verifications/domainvalidatingeventargs/
 ---
 ## DomainValidatingEventArgs class

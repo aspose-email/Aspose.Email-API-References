@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API Reference
 description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 20090
+weight: 20100
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class

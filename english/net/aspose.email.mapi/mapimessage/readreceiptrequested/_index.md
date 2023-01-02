@@ -3,7 +3,7 @@ title: ReadReceiptRequested
 second_title: Aspose.Email for .NET API Reference
 description: Gets or sets a value indicating whether the read receipt is requested.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.mapi/mapimessage/readreceiptrequested/
 ---
 ## MapiMessage.ReadReceiptRequested property

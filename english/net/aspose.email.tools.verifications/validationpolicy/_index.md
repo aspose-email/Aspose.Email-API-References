@@ -3,7 +3,7 @@ title: ValidationPolicy
 second_title: Aspose.Email for .NET API Reference
 description: Presents the policy of validating email address.
 type: docs
-weight: 20870
+weight: 20880
 url: /net/aspose.email.tools.verifications/validationpolicy/
 ---
 ## ValidationPolicy enumeration

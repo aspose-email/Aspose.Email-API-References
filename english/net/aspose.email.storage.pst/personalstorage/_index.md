@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for .NET API Reference
 description: Represents Personal Storage Table .pst file.
 type: docs
-weight: 20310
+weight: 20320
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class

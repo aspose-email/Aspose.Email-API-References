@@ -3,7 +3,7 @@ title: StandardFormatter
 second_title: Aspose.Email for .NET API Reference
 description: Represents the class for formatting log entry messsages.
 type: docs
-weight: 20610
+weight: 20620
 url: /net/aspose.email.tools.logging/standardformatter/
 ---
 ## StandardFormatter class

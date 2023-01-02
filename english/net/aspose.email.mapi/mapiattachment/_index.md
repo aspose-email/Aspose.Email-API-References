@@ -24,6 +24,7 @@ public class MapiAttachment : MapiPropertyContainer
 | [DisplayName](../../aspose.email.mapi/mapiattachment/displayname) { get; set; } | Gets the display name of the ole object in an attachment. |
 | [Extension](../../aspose.email.mapi/mapiattachment/extension) { get; } | Gets a filename extension that indicates the document type of an attachment. |
 | [FileName](../../aspose.email.mapi/mapiattachment/filename) { get; } | Gets an attachment's base filename and extension, excluding path. |
+| virtual [IsInline](../../aspose.email.mapi/mapiattachment/isinline) { get; } | Gets a value indicating whether the attachment is inline or regular. If inline returns true, otherwise false. |
 | virtual [ItemId](../../aspose.email.mapi/mapiattachment/itemid) { get; } | The item id, uses with a server |
 | [LongFileName](../../aspose.email.mapi/mapiattachment/longfilename) { get; } | Gets an attachment's long filename and extension, excluding path. |
 | [MimeTag](../../aspose.email.mapi/mapiattachment/mimetag) { get; } | Gets formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment. |

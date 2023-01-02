@@ -3,7 +3,7 @@ title: ForwardMessageBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Provides creation and formatting the forwarding messages.
 type: docs
-weight: 20440
+weight: 20450
 url: /net/aspose.email.tools/forwardmessagebuilder/
 ---
 ## ForwardMessageBuilder class

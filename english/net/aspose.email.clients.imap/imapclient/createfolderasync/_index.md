@@ -6,6 +6,32 @@ type: docs
 weight: 530
 url: /net/aspose.email.clients.imap/imapclient/createfolderasync/
 ---
+## CreateFolderAsync(IConnection, string) {#createfolderasync}
+
+Creates a folder with the specified name
+
+```csharp
+public Task CreateFolderAsync(IConnection connection, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to be created |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CreateFolderAsync(string) {#createfolderasync_2}
 
 Creates a folder with the specified name
@@ -76,32 +102,6 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CreateFolderAsync(IConnection, string) {#createfolderasync}
-
-Creates a folder with the specified name
-
-```csharp
-public Task CreateFolderAsync(IConnection connection, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| folderName | String | Folder to be created |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

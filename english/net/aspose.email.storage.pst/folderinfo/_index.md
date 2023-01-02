@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Represents information about personal folder in PST.
 type: docs
-weight: 20180
+weight: 20190
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class

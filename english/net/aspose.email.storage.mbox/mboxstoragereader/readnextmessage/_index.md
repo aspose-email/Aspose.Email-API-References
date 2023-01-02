@@ -3,7 +3,7 @@ title: ReadNextMessage
 second_title: Aspose.Email for .NET API Reference
 description: Reads the next message from underlying storage stream.
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.email.storage.mbox/mboxstoragereader/readnextmessage/
 ---
 ## ReadNextMessage() {#readnextmessage}

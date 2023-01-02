@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 20080
+weight: 20090
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -33,9 +33,12 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)(EmlLoadOptions) | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [ExtractMessage](../../aspose.email.storage.mbox/mboxstoragereader/extractmessage)(string, EmlLoadOptions) | Get the message from MBOX. |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxrdstoragereader/gettotalitemscount)() | Returns the number of messages in a storage. |
+| override [NextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/nextmessage)() | Gets the next message info. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage)() | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage_1)(EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
