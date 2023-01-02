@@ -3,7 +3,7 @@ title: MapiMessageItemBase
 second_title: Aspose.Email for Java API Reference
 description: Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
 type: docs
-weight: 445
+weight: 446
 url: /java/com.aspose.email/mapimessageitembase/
 ---
 
@@ -56,6 +56,7 @@ Represents the base class for all MapiMessageItem classes and keeps common colle
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [notify()](#notify--) |  |
@@ -530,6 +531,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

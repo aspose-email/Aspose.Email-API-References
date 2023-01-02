@@ -3,7 +3,7 @@ title: VCardContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a vCard contact
 type: docs
-weight: 691
+weight: 692
 url: /java/com.aspose.email/vcardcontact/
 ---
 
