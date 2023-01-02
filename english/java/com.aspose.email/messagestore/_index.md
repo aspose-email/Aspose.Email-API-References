@@ -3,7 +3,7 @@ title: MessageStore
 second_title: Aspose.Email for Java API Reference
 description: Message store is the root of the PST  which is the rough equivalent of the top of a Mailbox.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.email/messagestore/
 ---
 
@@ -24,6 +24,7 @@ Message store is the root of the PST, which is the rough equivalent of the top o
 | [getClass()](#getClass--) |  |
 | [getDisplayName()](#getDisplayName--) | Gets the display Name of PST. |
 | [getProperties()](#getProperties--) | Gets the MAPI properties of message store object. |
+| [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total items count. |
 | [hashCode()](#hashCode--) |  |
 | [isPasswordProtected()](#isPasswordProtected--) | Gets a value indicating whether the storage is password protected. |
 | [isPasswordValid(String password)](#isPasswordValid-java.lang.String-) | Determines whether the specified string is a valid password for the storage. |
@@ -109,6 +110,16 @@ Value: The [MapiProperty](../../com.aspose.email/mapiproperty) collection.
 
 **Returns:**
 [MapiPropertyCollection](../../com.aspose.email/mapipropertycollection)
+### getTotalItemsCount() {#getTotalItemsCount--}
+```
+public final int getTotalItemsCount()
+```
+
+
+Gets the total items count. Returns the total number of message items contained in the PST.
+
+**Returns:**
+int - Total message items count.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

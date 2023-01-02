@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Outlook for Mac storage .OLM file.
 type: docs
-weight: 540
+weight: 542
 url: /java/com.aspose.email/olmstorage/
 ---
 
@@ -33,6 +33,7 @@ Represents Outlook for Mac storage (.OLM) file.
 | [enumerateMessages(OlmFolder folder)](#enumerateMessages-com.aspose.email.OlmFolder-) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [extractMapiMessage(OlmMessageInfo messageInfo)](#extractMapiMessage-com.aspose.email.OlmMessageInfo-) | Get the message from OLM storage. |
+| [extractMapiMessage(String id)](#extractMapiMessage-java.lang.String-) | Get the message from OLM. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | Load OLM storage from file. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load OLM from stream. |
 | [getClass()](#getClass--) |  |
@@ -148,6 +149,21 @@ Get the message from OLM storage.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - A MapiMessage object.
+### extractMapiMessage(String id) {#extractMapiMessage-java.lang.String-}
+```
+public final MapiMessage extractMapiMessage(String id)
+```
+
+
+Get the message from OLM.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | String representation of EntryId. |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - A [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### fromFile(String fileName) {#fromFile-java.lang.String-}
 ```
 public static OlmStorage fromFile(String fileName)

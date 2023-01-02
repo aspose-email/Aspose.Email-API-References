@@ -3,7 +3,7 @@ title: Reminders
 second_title: Aspose.Email for Java API Reference
 description: Information about the events reminders for the authenticated user.
 type: docs
-weight: 597
+weight: 599
 url: /java/com.aspose.email/reminders/
 ---
 

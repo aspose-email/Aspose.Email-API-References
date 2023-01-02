@@ -3,7 +3,7 @@ title: IMapiMessageItem
 second_title: Aspose.Email for Java API Reference
 description: Base interface for all message items  in Outlook
 type: docs
-weight: 743
+weight: 745
 url: /java/com.aspose.email/imapimessageitem/
 ---
 ```
@@ -18,6 +18,7 @@ Base interface for all message items in Outlook
 | [getBody()](#getBody--) | Gets message body |
 | [getMessageClass()](#getMessageClass--) | Gets message class |
 | [getSubject()](#getSubject--) | Gets message subject |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [setBody(String value)](#setBody-java.lang.String-) | Gets message body |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets message subject |
 ### getBody() {#getBody--}
@@ -50,6 +51,18 @@ Gets message subject
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public abstract int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
 public abstract void setBody(String value)

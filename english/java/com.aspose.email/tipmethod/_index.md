@@ -3,7 +3,7 @@ title: TIPMethod
 second_title: Aspose.Email for Java API Reference
 description: Defines the iTIP iCalendar Transport-Independent Interoperability Protocol methods associated with an object.
 type: docs
-weight: 656
+weight: 658
 url: /java/com.aspose.email/tipmethod/
 ---
 

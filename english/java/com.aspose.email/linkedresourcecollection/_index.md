@@ -42,6 +42,7 @@ Represents a collection of LinkedResource objects
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [remove(LinkedResource item)](#remove-com.aspose.email.LinkedResource-) | Removes the first occurrence of a LinkedResource object from the LinkedResourceCollection. |
 | [removeAt(int arg0)](#removeAt-int-) |  |
 | [removeAt(int index, boolean removeHtmlLink)](#removeAt-int-boolean-) | Removes the element at the specified index from this collection. |
 | [removeItem(T arg0)](#removeItem-T-) |  |
@@ -289,6 +290,21 @@ public final native void notifyAll()
 
 
 
+### remove(LinkedResource item) {#remove-com.aspose.email.LinkedResource-}
+```
+public final boolean remove(LinkedResource item)
+```
+
+
+Removes the first occurrence of a LinkedResource object from the LinkedResourceCollection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | [LinkedResource](../../com.aspose.email/linkedresource) | The LinkedResource to remove. |
+
+**Returns:**
+boolean - true if item is successfully removed; otherwise, false.
 ### removeAt(int arg0) {#removeAt-int-}
 ```
 public void removeAt(int arg0)

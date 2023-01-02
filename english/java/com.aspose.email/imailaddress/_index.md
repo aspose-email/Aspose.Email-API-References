@@ -3,7 +3,7 @@ title: IMailAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents a common mail address interface
 type: docs
-weight: 741
+weight: 743
 url: /java/com.aspose.email/imailaddress/
 ---
 ```

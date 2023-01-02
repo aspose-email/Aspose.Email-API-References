@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for Java API Reference
 description: Represents a standard interpersonal message IPM folders.
 type: docs
-weight: 647
+weight: 649
 url: /java/com.aspose.email/standardipmfolder/
 ---
 
@@ -28,6 +28,7 @@ Represents a standard interpersonal message (IPM) folders.
 | [JunkEmail](#JunkEmail) | Junk email folder |
 | [Notes](#Notes) | Outlook Notes folder. |
 | [Outbox](#Outbox) | Outbox folder. |
+| [RssFeeds](#RssFeeds) | The RSS feeds folder. |
 | [SentItems](#SentItems) | Sent Items folder. |
 | [SyncIssues](#SyncIssues) | Sync issues folder |
 | [Tasks](#Tasks) | Outlook Tasks folder. |
@@ -148,6 +149,14 @@ public static final int Outbox
 
 
 Outbox folder. Outbound messages are usually created in the Outbox folder.
+
+### RssFeeds {#RssFeeds}
+```
+public static final int RssFeeds
+```
+
+
+The RSS feeds folder.
 
 ### SentItems {#SentItems}
 ```

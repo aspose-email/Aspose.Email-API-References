@@ -73,6 +73,7 @@ Represents outlook contact information
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getTelephones()](#getTelephones--) | Specify telephone numbers for the contact |
 | [getUnderlyingMessage()](#getUnderlyingMessage--) | Get the MapiMessage that represent contact. |
 | [hashCode()](#hashCode--) |  |
@@ -759,6 +760,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### getTelephones() {#getTelephones--}
 ```
 public final MapiContactTelephonePropertySet getTelephones()

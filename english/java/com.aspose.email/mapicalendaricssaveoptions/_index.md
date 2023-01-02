@@ -27,11 +27,13 @@ public class MapiCalendarIcsSaveOptions extends MapiCalendarSaveOptions
 | [getDefaultIcs()](#getDefaultIcs--) | Gets the default Ics save options. |
 | [getDefaultMsg()](#getDefaultMsg--) | Gets the default Msg save options. |
 | [getKeepOriginalDateTimeStamp()](#getKeepOriginalDateTimeStamp--) |  |
+| [getProductIdentifier()](#getProductIdentifier--) | Gets or sets the product identifier. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setKeepOriginalDateTimeStamp(boolean value)](#setKeepOriginalDateTimeStamp-boolean-) |  |
+| [setProductIdentifier(String value)](#setProductIdentifier-java.lang.String-) | Gets or sets the product identifier. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -114,6 +116,22 @@ public final boolean getKeepOriginalDateTimeStamp()
 
 **Returns:**
 boolean
+### getProductIdentifier() {#getProductIdentifier--}
+```
+public final String getProductIdentifier()
+```
+
+
+Gets or sets the product identifier.
+
+Value: The product identifier. This property specifies the identifier for the product that created the iCalendar object.
+
+--------------------
+
+If the property is not set or equal to null, the default PRODID is -//Aspose Ltd//iCalendar Builder (v3.0)//EN
+
+**Returns:**
+java.lang.String
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public final int getSaveFormat()
@@ -162,6 +180,25 @@ public final void setKeepOriginalDateTimeStamp(boolean value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setProductIdentifier(String value) {#setProductIdentifier-java.lang.String-}
+```
+public final void setProductIdentifier(String value)
+```
+
+
+Gets or sets the product identifier.
+
+Value: The product identifier. This property specifies the identifier for the product that created the iCalendar object.
+
+--------------------
+
+If the property is not set or equal to null, the default PRODID is -//Aspose Ltd//iCalendar Builder (v3.0)//EN
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

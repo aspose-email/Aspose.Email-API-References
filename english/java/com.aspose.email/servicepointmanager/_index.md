@@ -3,7 +3,7 @@ title: ServicePointManager
 second_title: Aspose.Email for Java API Reference
 description: Manages the collection of ServicePoint objects.
 type: docs
-weight: 629
+weight: 631
 url: /java/com.aspose.email/servicepointmanager/
 ---
 
