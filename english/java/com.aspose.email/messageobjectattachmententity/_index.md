@@ -3,7 +3,7 @@ title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for Java API Reference
 description: Represents an attachment entity.
 type: docs
-weight: 496
+weight: 497
 url: /java/com.aspose.email/messageobjectattachmententity/
 ---
 

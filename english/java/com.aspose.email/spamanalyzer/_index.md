@@ -3,7 +3,7 @@ title: SpamAnalyzer
 second_title: Aspose.Email for Java API Reference
 description: Class which allows applications to detect spam e-mails with self-learning Bayesian filter.
 type: docs
-weight: 646
+weight: 647
 url: /java/com.aspose.email/spamanalyzer/
 ---
 

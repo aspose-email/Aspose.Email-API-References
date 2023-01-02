@@ -62,6 +62,9 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [checkBounced()](#checkBounced--) | Checks whether this message can be treated as a bounce message. |
 | [close()](#close--) |  |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
+| [decrypt()](#decrypt--) | Decrypts this message |
+| [decrypt(byte[] certificateRawData, String certificatePassword)](#decrypt-byte---java.lang.String-) | Decrypts this message |
+| [decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Decrypts this message |
 | [deepClone()](#deepClone--) | Creates a new object that is a copy of the current instance. |
 | [destroyAttachments(String path)](#destroyAttachments-java.lang.String-) | Destroies the attachments in the specified Outlook Message files. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -130,6 +133,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getTransportMessageHeaders()](#getTransportMessageHeaders--) | Gets the transport-specific message envelope information. |
 | [hashCode()](#hashCode--) |  |
+| [isEncrypted()](#isEncrypted--) | Gets a value indicating whether the message is encrypted. |
 | [isMsgFormat(InputStream stream)](#isMsgFormat-java.io.InputStream-) | Determines whether the specified stream has a MSG format. |
 | [isMsgFormat(String fileName)](#isMsgFormat-java.lang.String-) | Determines whether the specified file has a MSG format. |
 | [isSigned()](#isSigned--) | Gets a value indicating whether the message is signed. |
@@ -313,6 +317,51 @@ Creates the mapi node.
 
 **Returns:**
 com.aspose.email.IMapiNode - The IMapiNode interface.
+### decrypt() {#decrypt--}
+```
+public final MapiMessage decrypt()
+```
+
+
+Decrypts this message
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - Decrypted MapiMessage
+
+--------------------
+
+Method searches the current user and computer My stores for the appropriate certificate and private key.
+### decrypt(byte[] certificateRawData, String certificatePassword) {#decrypt-byte---java.lang.String-}
+```
+public final MapiMessage decrypt(byte[] certificateRawData, String certificatePassword)
+```
+
+
+Decrypts this message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificateRawData | byte[] | X509Certificate2 |
+| certificatePassword | java.lang.String |  |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - E-mail message
+### decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+```
+public final MapiMessage decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+```
+
+
+Decrypts this message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | System.Security.Cryptography.X509Certificates.X509Certificate2 |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - E-mail message
 ### deepClone() {#deepClone--}
 ```
 public final MapiMessage deepClone()
@@ -1181,6 +1230,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isEncrypted() {#isEncrypted--}
+```
+public final boolean isEncrypted()
+```
+
+
+Gets a value indicating whether the message is encrypted.
+
+**Returns:**
+boolean
 ### isMsgFormat(InputStream stream) {#isMsgFormat-java.io.InputStream-}
 ```
 public static boolean isMsgFormat(InputStream stream)

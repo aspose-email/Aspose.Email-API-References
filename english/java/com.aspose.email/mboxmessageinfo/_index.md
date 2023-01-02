@@ -1,45 +1,35 @@
 ---
-title: UpdateSettings
+title: MboxMessageInfo
 second_title: Aspose.Email for Java API Reference
-description: Update settings
+description: Represents an information about message in the MBOX storage.
 type: docs
-weight: 682
-url: /java/com.aspose.email/updatesettings/
+weight: 480
+url: /java/com.aspose.email/mboxmessageinfo/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class UpdateSettings
+public class MboxMessageInfo
 ```
 
-Update settings
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [UpdateSettings()](#UpdateSettings--) |  |
+Represents an information about message in the MBOX storage.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSkipAttachments()](#getSkipAttachments--) | Specifies if attachments has to be igored in update operation |
+| [getDelimiterMark()](#getDelimiterMark--) | Gets the message delimiter mark. |
+| [getEntryId()](#getEntryId--) | Gets the entry identifier. |
+| [getHeaders()](#getHeaders--) | Gets the collection of header fields |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSkipAttachments(boolean value)](#setSkipAttachments-boolean-) | Specifies if attachments has to be igored in update operation |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### UpdateSettings() {#UpdateSettings--}
-```
-public UpdateSettings()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -65,16 +55,40 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getSkipAttachments() {#getSkipAttachments--}
+### getDelimiterMark() {#getDelimiterMark--}
 ```
-public final boolean getSkipAttachments()
+public final String getDelimiterMark()
 ```
 
 
-Specifies if attachments has to be igored in update operation
+Gets the message delimiter mark.
+
+Value: The string represented a message delimiter mark.
 
 **Returns:**
-boolean
+java.lang.String
+### getEntryId() {#getEntryId--}
+```
+public final String getEntryId()
+```
+
+
+Gets the entry identifier.
+
+Value: The string represented an entry identifier.
+
+**Returns:**
+java.lang.String
+### getHeaders() {#getHeaders--}
+```
+public final HeaderCollection getHeaders()
+```
+
+
+Gets the collection of header fields
+
+**Returns:**
+[HeaderCollection](../../com.aspose.email/headercollection)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -100,19 +114,6 @@ public final native void notifyAll()
 
 
 
-
-### setSkipAttachments(boolean value) {#setSkipAttachments-boolean-}
-```
-public final void setSkipAttachments(boolean value)
-```
-
-
-Specifies if attachments has to be igored in update operation
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### toString() {#toString--}
 ```
