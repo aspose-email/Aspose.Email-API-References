@@ -486,6 +486,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiTaskUsers](../com.aspose.email/mapitaskusers) | Represents information about task users. |
 | [MapiType](../com.aspose.email/mapitype) | Contains possible MAPI property types which can be stored with message object. |
 | [MboxLoadOptions](../com.aspose.email/mboxloadoptions) | Specifies additional options when loading a Mbox storage. |
+| [MboxMessageInfo](../com.aspose.email/mboxmessageinfo) | Represents an information about message in the MBOX storage. |
 | [MboxStorageReader](../com.aspose.email/mboxstoragereader) | A base class for any mbox-based mail storage reader. |
 | [MboxStorageWriter](../com.aspose.email/mboxstoragewriter) | A base class for any mbox-based mail storage writer. |
 | [MboxoStorageReader](../com.aspose.email/mboxostoragereader) | Represents mboxo format storage reader, this format is being used by Eudora. |
