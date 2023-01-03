@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Personal Storage Table .pst file.
 type: docs
-weight: 552
+weight: 554
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -169,7 +169,11 @@ Converts the current object to the specified format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The FileFormat to convert the current object to. |
+| format | int | The FileFormat to convert the current object to.
+
+--------------------
+
+It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(Stream[]).mergeWith(Stream[]) method. |
 
 ### create(System.IO.Stream stream, int version) {#create-com.aspose.ms.System.IO.Stream-int-}
 ```
@@ -932,7 +936,11 @@ Saves the current object to a specified file format in a stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream to be saved. |
-| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used. |
+| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used.
+
+--------------------
+
+It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(Stream[]).mergeWith(Stream[]) method. |
 
 ### saveAs(String fileName, int format) {#saveAs-java.lang.String-int-}
 ```
@@ -946,7 +954,11 @@ Saves the current object to a specified file format in a different file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The name of the file to be saved. |
-| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used when saving a file. |
+| format | int | The [FileFormat](../../com.aspose.email/fileformat) is to be used when saving a file.
+
+--------------------
+
+It is used for the fast OST to PST conversion. The method doesn't support conversion of OST created by MS Office 2013 and later versions. To convert an OST of later version, create a new PST and use the \#mergeWith(String[]).mergeWith(String[]) method. |
 
 ### saveMessageToFile(String entryId, String fileName) {#saveMessageToFile-java.lang.String-java.lang.String-}
 ```

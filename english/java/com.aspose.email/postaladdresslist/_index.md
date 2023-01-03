@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Aspose.Email for Java API Reference
 description: List of postal addresses for a contact.
 type: docs
-weight: 573
+weight: 575
 url: /java/com.aspose.email/postaladdresslist/
 ---
 

@@ -3,7 +3,7 @@ title: SectionHeaderType
 second_title: Aspose.Email for Java API Reference
 description: Represents the type of heading for the section.
 type: docs
-weight: 618
+weight: 620
 url: /java/com.aspose.email/sectionheadertype/
 ---
 

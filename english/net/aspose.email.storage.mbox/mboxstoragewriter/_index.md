@@ -3,7 +3,7 @@ title: MboxStorageWriter
 second_title: Aspose.Email for .NET API Reference
 description: A base class for any mboxbased mail storage writer.
 type: docs
-weight: 20060
+weight: 20070
 url: /net/aspose.email.storage.mbox/mboxstoragewriter/
 ---
 ## MboxStorageWriter class

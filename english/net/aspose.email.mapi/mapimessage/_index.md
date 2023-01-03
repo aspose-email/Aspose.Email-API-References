@@ -47,6 +47,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [Flags](../../aspose.email.mapi/mapimessage/flags) { get; } | Gets the message flags. |
 | [Headers](../../aspose.email.mapi/mapimessage/headers) { get; set; } | Gets the transport message headers |
 | [InternetMessageId](../../aspose.email.mapi/mapimessage/internetmessageid) { get; } | Gets the message id of the message. |
+| [IsEncrypted](../../aspose.email.mapi/mapimessage/isencrypted) { get; } | Gets a value indicating whether the message is encrypted. |
 | [IsSigned](../../aspose.email.mapi/mapimessage/issigned) { get; } | Gets a value indicating whether the message is signed. |
 | virtual [ItemId](../../aspose.email.mapi/mapimessageitembase/itemid) { get; } | The item id, uses with a server |
 | [MessageClass](../../aspose.email.mapi/mapimessageitembase/messageclass) { get; set; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
@@ -93,6 +94,8 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [AddCustomProperty](../../aspose.email.mapi/mapimessage/addcustomproperty#addcustomproperty_1)(MapiPropertyType, byte[], string) | Adds the custom property. |
 | [CheckBounced](../../aspose.email.mapi/mapimessage/checkbounced)() | Checks whether this message can be treated as a bounce message. |
 | [Clone](../../aspose.email.mapi/mapimessage/clone)() | Creates a new object that is a copy of the current instance. |
+| [Decrypt](../../aspose.email.mapi/mapimessage/decrypt#decrypt)() | Decrypts this message |
+| [Decrypt](../../aspose.email.mapi/mapimessage/decrypt#decrypt_1)(X509Certificate2) | Decrypts this message |
 | virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [GetCustomProperties](../../aspose.email.mapi/mapimessage/getcustomproperties)() | Gets collection of custom MapiProperties. |
 | override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty)(PropertyDescriptor) | Gets MAPI property by property descriptor. |

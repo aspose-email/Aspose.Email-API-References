@@ -446,6 +446,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiElectronicAddress](../com.aspose.email/mapielectronicaddress) | Refers to the group of properties that define the e-mail address or fax address. |
 | [MapiGuidConstants](../com.aspose.email/mapiguidconstants) | Contains several guid constants defined by MSG format specification. |
 | [MapiImportance](../com.aspose.email/mapiimportance) | Contains a values that indicates the message importance. |
+| [MapiItemType](../com.aspose.email/mapiitemtype) | Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [IMapiMessageItem](../com.aspose.email/imapimessageitem) interface. |
 | [MapiJournal](../com.aspose.email/mapijournal) | Represents the Outlook Journal object. |
 | [MapiJournalDocumentStatus](../com.aspose.email/mapijournaldocumentstatus) | Indicates the status of document. |
 | [MapiJournalFlags](../com.aspose.email/mapijournalflags) | Contains metadata about the Journal object. |
@@ -485,6 +486,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiTaskUsers](../com.aspose.email/mapitaskusers) | Represents information about task users. |
 | [MapiType](../com.aspose.email/mapitype) | Contains possible MAPI property types which can be stored with message object. |
 | [MboxLoadOptions](../com.aspose.email/mboxloadoptions) | Specifies additional options when loading a Mbox storage. |
+| [MboxMessageInfo](../com.aspose.email/mboxmessageinfo) | Represents an information about message in the MBOX storage. |
 | [MboxStorageReader](../com.aspose.email/mboxstoragereader) | A base class for any mbox-based mail storage reader. |
 | [MboxStorageWriter](../com.aspose.email/mboxstoragewriter) | A base class for any mbox-based mail storage writer. |
 | [MboxoStorageReader](../com.aspose.email/mboxostoragereader) | Represents mboxo format storage reader, this format is being used by Eudora. |

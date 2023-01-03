@@ -3,7 +3,7 @@ title: OlmMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an information about message in the OLM storage.
 type: docs
-weight: 539
+weight: 541
 url: /java/com.aspose.email/olmmessageinfo/
 ---
 
@@ -21,6 +21,7 @@ Represents an information about message in the OLM storage.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDate()](#getDate--) | Gets the date of message. |
+| [getEntryId()](#getEntryId--) | Gets the message entry identifier. |
 | [getFrom()](#getFrom--) | Gets the from address. |
 | [getMessageClass()](#getMessageClass--) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
 | [getModifiedDate()](#getModifiedDate--) | Gets the date of message. |
@@ -69,6 +70,18 @@ Gets the date of message.
 
 **Returns:**
 java.util.Date
+### getEntryId() {#getEntryId--}
+```
+public final String getEntryId()
+```
+
+
+Gets the message entry identifier.
+
+Value: The entry identifier.
+
+**Returns:**
+java.lang.String
 ### getFrom() {#getFrom--}
 ```
 public final MapiElectronicAddress getFrom()

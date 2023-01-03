@@ -3,7 +3,7 @@ title: NoteSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates NoteSaveFormat
 type: docs
-weight: 524
+weight: 526
 url: /java/com.aspose.email/notesaveformat/
 ---
 

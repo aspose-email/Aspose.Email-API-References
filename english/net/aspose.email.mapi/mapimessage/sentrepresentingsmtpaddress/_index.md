@@ -3,7 +3,7 @@ title: SentRepresentingSmtpAddress
 second_title: Aspose.Email for .NET API Reference
 description: Gets or sets the email address for the messaging user represented by the sender.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.email.mapi/mapimessage/sentrepresentingsmtpaddress/
 ---
 ## MapiMessage.SentRepresentingSmtpAddress property

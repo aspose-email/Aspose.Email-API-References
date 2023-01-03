@@ -3,7 +3,7 @@ title: Pop3ListFields
 second_title: Aspose.Email for Java API Reference
 description: Fields that may be retrieved from the server
 type: docs
-weight: 567
+weight: 569
 url: /java/com.aspose.email/pop3listfields/
 ---
 

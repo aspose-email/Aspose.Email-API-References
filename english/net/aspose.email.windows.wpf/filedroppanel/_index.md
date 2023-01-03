@@ -3,7 +3,7 @@ title: FileDropPanel
 second_title: Aspose.Email for .NET API Reference
 description: FileDropPanel provides ability to handle files dragged from Outlook or elsewhere.
 type: docs
-weight: 21020
+weight: 21030
 url: /net/aspose.email.windows.wpf/filedroppanel/
 ---
 ## FileDropPanel class

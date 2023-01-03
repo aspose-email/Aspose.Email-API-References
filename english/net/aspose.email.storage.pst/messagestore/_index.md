@@ -3,7 +3,7 @@ title: MessageStore
 second_title: Aspose.Email for .NET API Reference
 description: Message store is the root of the PST which is the rough equivalent of the top of a Mailbox.
 type: docs
-weight: 20300
+weight: 20310
 url: /net/aspose.email.storage.pst/messagestore/
 ---
 ## MessageStore class
@@ -28,6 +28,7 @@ public class MessageStore
 | --- | --- |
 | [ChangeDisplayName](../../aspose.email.storage.pst/messagestore/changedisplayname)(string) | Changes the pst display name. |
 | [ChangePassword](../../aspose.email.storage.pst/messagestore/changepassword)(string) | Sets the password. |
+| [GetTotalItemsCount](../../aspose.email.storage.pst/messagestore/gettotalitemscount)() | Gets the total items count. Returns the total number of message items contained in the PST. |
 | [IsPasswordValid](../../aspose.email.storage.pst/messagestore/ispasswordvalid)(string) | Determines whether the specified string is a valid password for the storage. |
 | [SetProperty](../../aspose.email.storage.pst/messagestore/setproperty)(MapiProperty) | Sets the property. |
 

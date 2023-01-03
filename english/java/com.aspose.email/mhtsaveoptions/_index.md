@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 510
+weight: 512
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -46,6 +46,7 @@ Allows to specify additional options when saving MailMessage to Mhtml format.
 | [getRenderedContactFields()](#getRenderedContactFields--) | Defines groups of Contact fields which will be included in output mhtml. |
 | [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
 | [getSaveAttachments()](#getSaveAttachments--) | Gets or sets a value indicating whether to save attachments. |
+| [getSavedHeaders()](#getSavedHeaders--) | Gets list of headers which will be present in saved mhtml content. |
 | [getSkipInlineImages()](#getSkipInlineImages--) | Defines whether skip references on images at saving in mhtml or not. |
 | [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while saving in Mht. |
 | [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving to Mhtml. |
@@ -338,6 +339,16 @@ Value:  true  if attachments should be saved; otherwise,  false .
 
 **Returns:**
 boolean
+### getSavedHeaders() {#getSavedHeaders--}
+```
+public final List<String> getSavedHeaders()
+```
+
+
+Gets list of headers which will be present in saved mhtml content. Default value is empty list.
+
+**Returns:**
+java.util.List<java.lang.String>
 ### getSkipInlineImages() {#getSkipInlineImages--}
 ```
 public final boolean getSkipInlineImages()

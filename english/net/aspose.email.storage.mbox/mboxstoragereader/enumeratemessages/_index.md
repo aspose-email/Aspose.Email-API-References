@@ -3,7 +3,7 @@ title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
 description: Exposes the enumerator which supports an iteration of messages in storage.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/
 ---
 ## EnumerateMessages() {#enumeratemessages}

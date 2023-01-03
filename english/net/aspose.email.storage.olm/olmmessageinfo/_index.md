@@ -3,7 +3,7 @@ title: OlmMessageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Represents an information about message in the OLM storage.
 type: docs
-weight: 20130
+weight: 20140
 url: /net/aspose.email.storage.olm/olmmessageinfo/
 ---
 ## OlmMessageInfo class
@@ -19,6 +19,7 @@ public class OlmMessageInfo
 | Name | Description |
 | --- | --- |
 | [Date](../../aspose.email.storage.olm/olmmessageinfo/date) { get; } | Gets the date of message. |
+| [EntryId](../../aspose.email.storage.olm/olmmessageinfo/entryid) { get; } | Gets the message entry identifier. |
 | [From](../../aspose.email.storage.olm/olmmessageinfo/from) { get; } | Gets the from address. |
 | [HasAttachments](../../aspose.email.storage.olm/olmmessageinfo/hasattachments) { get; } | Gets or sets a value indicating whether the message has attachments. |
 | [MessageClass](../../aspose.email.storage.olm/olmmessageinfo/messageclass) { get; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |

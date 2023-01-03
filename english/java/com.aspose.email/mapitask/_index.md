@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Java API Reference
 description: Represents the Outlook Task object.
 type: docs
-weight: 467
+weight: 468
 url: /java/com.aspose.email/mapitask/
 ---
 
@@ -80,6 +80,7 @@ Represents the Outlook Task object.
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getUsers()](#getUsers--) | Gets or sets information about task users. |
 | [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
@@ -830,6 +831,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### getUsers() {#getUsers--}
 ```
 public final MapiTaskUsers getUsers()

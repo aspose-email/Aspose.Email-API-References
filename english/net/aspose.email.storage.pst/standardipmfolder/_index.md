@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for .NET API Reference
 description: Represents a standard interpersonal message IPM folders.
 type: docs
-weight: 20370
+weight: 20380
 url: /net/aspose.email.storage.pst/standardipmfolder/
 ---
 ## StandardIpmFolder enumeration
@@ -31,6 +31,7 @@ public enum StandardIpmFolder
 | SyncIssues | `10` | Sync issues folder |
 | JunkEmail | `11` | Junk email folder |
 | Unspecified | `12` | Unspecified value. |
+| RssFeeds | `13` | The RSS feeds folder. |
 
 ### See Also
 

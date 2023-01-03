@@ -3,7 +3,7 @@ title: ItemId
 second_title: Aspose.Email for .NET API Reference
 description: The item id uses with a server
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapiattachment/itemid/
 ---
 ## MapiAttachment.ItemId property

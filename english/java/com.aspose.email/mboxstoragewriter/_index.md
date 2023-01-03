@@ -3,7 +3,7 @@ title: MboxStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: A base class for any mbox-based mail storage writer.
 type: docs
-weight: 480
+weight: 482
 url: /java/com.aspose.email/mboxstoragewriter/
 ---
 
@@ -170,7 +170,7 @@ public final void wait(long arg0, int arg1)
 
 ### writeMessage(MailMessage message) {#writeMessage-com.aspose.email.MailMessage-}
 ```
-public abstract void writeMessage(MailMessage message)
+public abstract String writeMessage(MailMessage message)
 ```
 
 
@@ -181,9 +181,11 @@ Writes the message to underlying storage stream.
 | --- | --- | --- |
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message to write to. |
 
+**Returns:**
+java.lang.String
 ### writeMessage(MailMessage message, String[] fromMarker) {#writeMessage-com.aspose.email.MailMessage-java.lang.String---}
 ```
-public abstract void writeMessage(MailMessage message, String[] fromMarker)
+public abstract String writeMessage(MailMessage message, String[] fromMarker)
 ```
 
 
@@ -195,3 +197,5 @@ Writes the message to underlying storage stream.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message to write to. |
 | fromMarker | java.lang.String[] | Gets the From Marker while writing the MBox Storage file. |
 
+**Returns:**
+java.lang.String

@@ -1,12 +1,37 @@
 ---
 title: ExtractMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: Get the message from OLM storage.
+description: Get the message from OLM.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.olm/olmstorage/extractmapimessage/
 ---
-## OlmStorage.ExtractMapiMessage method
+## ExtractMapiMessage(string) {#extractmapimessage_1}
+
+Get the message from OLM.
+
+```csharp
+public MapiMessage ExtractMapiMessage(string id)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | String | String representation of EntryId. |
+
+### Return Value
+
+A [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
+
+### See Also
+
+* class [MapiMessage](../../../aspose.email.mapi/mapimessage)
+* class [OlmStorage](../../olmstorage)
+* namespace [Aspose.Email.Storage.Olm](../../olmstorage)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ExtractMapiMessage(OlmMessageInfo) {#extractmapimessage}
 
 Get the message from OLM storage.
 

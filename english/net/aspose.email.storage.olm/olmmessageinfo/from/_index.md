@@ -3,7 +3,7 @@ title: From
 second_title: Aspose.Email for .NET API Reference
 description: Gets the from address.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.storage.olm/olmmessageinfo/from/
 ---
 ## OlmMessageInfo.From property

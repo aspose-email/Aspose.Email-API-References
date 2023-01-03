@@ -3,7 +3,7 @@ title: Timeout
 second_title: Aspose.Email for .NET API Reference
 description: Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sek.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email/mhtsaveoptions/timeout/
 ---
 ## MhtSaveOptions.Timeout property

@@ -3,7 +3,7 @@ title: IFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for formatting log entry messsages.
 type: docs
-weight: 737
+weight: 739
 url: /java/com.aspose.email/iformatter/
 ---
 ```

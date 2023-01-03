@@ -11,7 +11,7 @@ url: /net/aspose.email.storage.mbox/mboxstoragewriter/writemessage/
 Writes the message to underlying storage stream.
 
 ```csharp
-public abstract void WriteMessage(MailMessage message)
+public abstract string WriteMessage(MailMessage message)
 ```
 
 | Parameter | Type | Description |
@@ -32,7 +32,7 @@ public abstract void WriteMessage(MailMessage message)
 Writes the message to underlying storage stream.
 
 ```csharp
-public abstract void WriteMessage(MailMessage message, out string fromMarker)
+public abstract string WriteMessage(MailMessage message, out string fromMarker)
 ```
 
 | Parameter | Type | Description |

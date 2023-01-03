@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for Java API Reference
 description: Represents outlook Note object sticky note
 type: docs
-weight: 451
+weight: 452
 url: /java/com.aspose.email/mapinote/
 ---
 
@@ -62,6 +62,7 @@ Represents outlook Note object ("sticky note")
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getWidth()](#getWidth--) | Gets or sets width of the visible message window in pixels |
 | [getXPosition()](#getXPosition--) | Gets or sets the distance, in pixels, from the left edge of the screen that a user interface displays a Note object |
 | [getYPosition()](#getYPosition--) | Gets or sets the distance, in pixels, from the top edge of the screen that a user interface displays a Note object |
@@ -599,6 +600,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### getWidth() {#getWidth--}
 ```
 public final int getWidth()

@@ -77,6 +77,7 @@ Represents the mapi calendar object
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getUid()](#getUid--) | Gets the unique identifier |
 | [hashCode()](#hashCode--) |  |
 | [isAllDay()](#isAllDay--) | Gets or sets a value indicating whether the event is an all-day event |
@@ -800,6 +801,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### getUid() {#getUid--}
 ```
 public final String getUid()

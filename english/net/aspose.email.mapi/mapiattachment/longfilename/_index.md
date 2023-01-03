@@ -3,7 +3,7 @@ title: LongFileName
 second_title: Aspose.Email for .NET API Reference
 description: Gets an attachments long filename and extension excluding path.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapiattachment/longfilename/
 ---
 ## MapiAttachment.LongFileName property

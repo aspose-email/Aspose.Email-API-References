@@ -3,7 +3,7 @@ title: IGmailClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Gmail client
 type: docs
-weight: 738
+weight: 740
 url: /java/com.aspose.email/igmailclient/
 ---
 

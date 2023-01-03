@@ -3,7 +3,7 @@ title: MboxoStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
-weight: 481
+weight: 483
 url: /java/com.aspose.email/mboxostoragereader/
 ---
 
@@ -36,13 +36,16 @@ Represents mboxo format storage reader, this format is being used by Eudora.
 | [createReader(String fileName, boolean leaveOpen)](#createReader-java.lang.String-boolean-) | Creates the instance of reader. |
 | [createReader(String fileName, MboxLoadOptions options)](#createReader-java.lang.String-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [enumerateMessageInfo()](#enumerateMessageInfo--) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [enumerateMessages()](#enumerateMessages--) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [enumerateMessages(EmlLoadOptions options)](#enumerateMessages-com.aspose.email.EmlLoadOptions-) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [extractMessage(String id, EmlLoadOptions options)](#extractMessage-java.lang.String-com.aspose.email.EmlLoadOptions-) | Get the message from MBOX. |
 | [getClass()](#getClass--) |  |
 | [getCurrentDataSize()](#getCurrentDataSize--) | Gets the number of bytes that is read by ReadNextMessage method. |
 | [getTotalItemsCount()](#getTotalItemsCount--) | Returns the number of messages in a storage. |
 | [hashCode()](#hashCode--) |  |
+| [nextMessage()](#nextMessage--) | Gets the next message info. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [readNextMessage()](#readNextMessage--) | Reads the next message from underlying storage stream. |
@@ -249,6 +252,16 @@ public final void dispose()
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
+### enumerateMessageInfo() {#enumerateMessageInfo--}
+```
+public final System.Collections.Generic.IGenericEnumerable<MboxMessageInfo> enumerateMessageInfo()
+```
+
+
+Exposes the enumerator, which supports an iteration of messages in storage.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages()
@@ -289,6 +302,22 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### extractMessage(String id, EmlLoadOptions options) {#extractMessage-java.lang.String-com.aspose.email.EmlLoadOptions-}
+```
+public final MailMessage extractMessage(String id, EmlLoadOptions options)
+```
+
+
+Get the message from MBOX.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | String representation of EntryId. |
+| options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | Specifies [EmlLoadOptions](../../com.aspose.email/emlloadoptions) when reading message from Mbox storage. |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -329,6 +358,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### nextMessage() {#nextMessage--}
+```
+public MboxMessageInfo nextMessage()
+```
+
+
+Gets the next message info.
+
+**Returns:**
+[MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) - A [MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) object if it can be read or  **null**  if no more messages are available.
 ### notify() {#notify--}
 ```
 public final native void notify()

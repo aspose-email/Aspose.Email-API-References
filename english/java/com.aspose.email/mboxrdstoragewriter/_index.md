@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 483
+weight: 485
 url: /java/com.aspose.email/mboxrdstoragewriter/
 ---
 
@@ -230,7 +230,7 @@ public final void wait(long arg0, int arg1)
 
 ### writeMessage(MailMessage message) {#writeMessage-com.aspose.email.MailMessage-}
 ```
-public void writeMessage(MailMessage message)
+public String writeMessage(MailMessage message)
 ```
 
 
@@ -241,9 +241,11 @@ Writes the message to underlying storage stream.
 | --- | --- | --- |
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message to write to. |
 
+**Returns:**
+java.lang.String
 ### writeMessage(MailMessage message, String[] fromMarker) {#writeMessage-com.aspose.email.MailMessage-java.lang.String---}
 ```
-public void writeMessage(MailMessage message, String[] fromMarker)
+public String writeMessage(MailMessage message, String[] fromMarker)
 ```
 
 
@@ -255,3 +257,5 @@ Writes the message to underlying storage stream.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message to write to. |
 | fromMarker | java.lang.String[] | Gets the From Marker while writing the MBox Storage file. |
 
+**Returns:**
+java.lang.String

@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 443
+weight: 444
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -62,6 +62,9 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [checkBounced()](#checkBounced--) | Checks whether this message can be treated as a bounce message. |
 | [close()](#close--) |  |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
+| [decrypt()](#decrypt--) | Decrypts this message |
+| [decrypt(byte[] certificateRawData, String certificatePassword)](#decrypt-byte---java.lang.String-) | Decrypts this message |
+| [decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Decrypts this message |
 | [deepClone()](#deepClone--) | Creates a new object that is a copy of the current instance. |
 | [destroyAttachments(String path)](#destroyAttachments-java.lang.String-) | Destroies the attachments in the specified Outlook Message files. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -127,10 +130,13 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
+| [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getTransportMessageHeaders()](#getTransportMessageHeaders--) | Gets the transport-specific message envelope information. |
 | [hashCode()](#hashCode--) |  |
+| [isEncrypted()](#isEncrypted--) | Gets a value indicating whether the message is encrypted. |
 | [isMsgFormat(InputStream stream)](#isMsgFormat-java.io.InputStream-) | Determines whether the specified stream has a MSG format. |
 | [isMsgFormat(String fileName)](#isMsgFormat-java.lang.String-) | Determines whether the specified file has a MSG format. |
+| [isSigned()](#isSigned--) | Gets a value indicating whether the message is signed. |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Loads message from stream. |
 | [load(InputStream stream, LoadOptions options)](#load-java.io.InputStream-com.aspose.email.LoadOptions-) | Loads message from stream with additional options. |
@@ -142,6 +148,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [notifyAll()](#notifyAll--) |  |
 | [removeAttachments(String path)](#removeAttachments-java.lang.String-) | Removes all of the attachments from the specified Outlook Message files. |
 | [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
+| [removeSignature()](#removeSignature--) | Remove signature. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves to the specified stream as Msg. |
 | [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.email.SaveOptions-) | Saves message as a stream with additional options. |
 | [save(String fileName)](#save-java.lang.String-) | Saves to the specified file as Msg. |
@@ -310,6 +317,51 @@ Creates the mapi node.
 
 **Returns:**
 com.aspose.email.IMapiNode - The IMapiNode interface.
+### decrypt() {#decrypt--}
+```
+public final MapiMessage decrypt()
+```
+
+
+Decrypts this message
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - Decrypted MapiMessage
+
+--------------------
+
+Method searches the current user and computer My stores for the appropriate certificate and private key.
+### decrypt(byte[] certificateRawData, String certificatePassword) {#decrypt-byte---java.lang.String-}
+```
+public final MapiMessage decrypt(byte[] certificateRawData, String certificatePassword)
+```
+
+
+Decrypts this message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificateRawData | byte[] | X509Certificate2 |
+| certificatePassword | java.lang.String |  |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - E-mail message
+### decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+```
+public final MapiMessage decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+```
+
+
+Decrypts this message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | System.Security.Cryptography.X509Certificates.X509Certificate2 |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - E-mail message
 ### deepClone() {#deepClone--}
 ```
 public final MapiMessage deepClone()
@@ -1144,6 +1196,18 @@ Value: The string that represents subject prefix.
 
 **Returns:**
 java.lang.String
+### getSupportedType() {#getSupportedType--}
+```
+public final int getSupportedType()
+```
+
+
+Gets the supported item type.
+
+Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
+
+**Returns:**
+int
 ### getTransportMessageHeaders() {#getTransportMessageHeaders--}
 ```
 public final String getTransportMessageHeaders()
@@ -1166,6 +1230,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isEncrypted() {#isEncrypted--}
+```
+public final boolean isEncrypted()
+```
+
+
+Gets a value indicating whether the message is encrypted.
+
+**Returns:**
+boolean
 ### isMsgFormat(InputStream stream) {#isMsgFormat-java.io.InputStream-}
 ```
 public static boolean isMsgFormat(InputStream stream)
@@ -1196,6 +1270,16 @@ Determines whether the specified file has a MSG format.
 
 **Returns:**
 boolean -  true  if the file is represented in MSG format; otherwise,  false .
+### isSigned() {#isSigned--}
+```
+public final boolean isSigned()
+```
+
+
+Gets a value indicating whether the message is signed.
+
+**Returns:**
+boolean
 ### isStoreUnicodeOk() {#isStoreUnicodeOk--}
 ```
 public final boolean isStoreUnicodeOk()
@@ -1360,6 +1444,16 @@ Provides correctly removing property from all collections.
 | --- | --- | --- |
 | tag | long | The tag of MapiProperty. |
 
+### removeSignature() {#removeSignature--}
+```
+public final MapiMessage removeSignature()
+```
+
+
+Remove signature.
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - Unsigned MapiMessage message
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream stream)

@@ -3,7 +3,7 @@ title: OleDocumentFormat
 second_title: Aspose.Email for Java API Reference
 description: Represents the format for OLE document.
 type: docs
-weight: 537
+weight: 539
 url: /java/com.aspose.email/oledocumentformat/
 ---
 

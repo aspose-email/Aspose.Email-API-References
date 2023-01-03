@@ -3,7 +3,7 @@ title: Subject
 second_title: Aspose.Email for .NET API Reference
 description: Gets the message subject.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.storage.olm/olmmessageinfo/subject/
 ---
 ## OlmMessageInfo.Subject property

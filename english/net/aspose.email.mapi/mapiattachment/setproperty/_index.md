@@ -3,7 +3,7 @@ title: SetProperty
 second_title: Aspose.Email for .NET API Reference
 description: Sets the property.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapiattachment/setproperty/
 ---
 ## SetProperty(MapiProperty) {#setproperty}
