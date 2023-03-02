@@ -13,7 +13,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.ICollection
 ```
-public class DataColumnMappingCollection implements System.Collections.ICollection
+public class DataColumnMappingCollection implements System.Collections.ICollection<DataColumnMapping>
 ```
 
 DataColumnMappingCollection class.
@@ -26,6 +26,7 @@ DataColumnMappingCollection class.
 
 | Method | Description |
 | --- | --- |
+| [addItem(DataColumnMapping dataColumnMapping)](#addItem-com.aspose.email.DataColumnMapping-) |  |
 | [copyTo(System.Array arg0, int arg1)](#copyTo-com.aspose.ms.System.Array-int-) | \{@inheritDoc\} |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -45,6 +46,19 @@ DataColumnMappingCollection class.
 public DataColumnMappingCollection()
 ```
 
+
+### addItem(DataColumnMapping dataColumnMapping) {#addItem-com.aspose.email.DataColumnMapping-}
+```
+public void addItem(DataColumnMapping dataColumnMapping)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataColumnMapping | [DataColumnMapping](../../com.aspose.email/datacolumnmapping) |  |
 
 ### copyTo(System.Array arg0, int arg1) {#copyTo-com.aspose.ms.System.Array-int-}
 ```
@@ -117,14 +131,14 @@ Defines is Synchronized
 boolean - a boolean.
 ### iterator() {#iterator--}
 ```
-public System.Collections.IEnumerator iterator()
+public System.Collections.IEnumerator<DataColumnMapping> iterator()
 ```
 
 
 Gets Iterator
 
 **Returns:**
-com.aspose.ms.System.Collections.IEnumerator - an iterator.
+com.aspose.ms.System.Collections.IEnumerator<com.aspose.email.DataColumnMapping> - an iterator.
 ### notify() {#notify--}
 ```
 public final native void notify()
