@@ -242,7 +242,7 @@ Writes the message to underlying storage stream.
 | message | [MailMessage](../../com.aspose.email/mailmessage) | The message to write to. |
 
 **Returns:**
-java.lang.String
+java.lang.String - The string identifier of added message.
 ### writeMessage(MailMessage message, String[] fromMarker) {#writeMessage-com.aspose.email.MailMessage-java.lang.String---}
 ```
 public String writeMessage(MailMessage message, String[] fromMarker)
@@ -258,4 +258,4 @@ Writes the message to underlying storage stream.
 | fromMarker | java.lang.String[] | Gets the From Marker while writing the MBox Storage file. |
 
 **Returns:**
-java.lang.String
+java.lang.String - The string identifier of added message.

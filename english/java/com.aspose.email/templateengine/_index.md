@@ -26,6 +26,7 @@ This class uses specified template to construct E-Mail messages.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getTemplateFields()](#getTemplateFields--) | Get list of template field names. |
 | [hashCode()](#hashCode--) |  |
 | [instantiate(DataRowCollection rows)](#instantiate-com.aspose.email.DataRowCollection-) | Instantiates the template with a DataRowCollection as datasource. |
 | [instantiate(DataRowCollection rows, DataColumnMappingCollection mappings)](#instantiate-com.aspose.email.DataRowCollection-com.aspose.email.DataColumnMappingCollection-) | Instantiates the template with a DataRowCollection as datasource. |
@@ -95,6 +96,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getTemplateFields() {#getTemplateFields--}
+```
+public final System.Collections.Generic.IGenericEnumerable<String> getTemplateFields()
+```
+
+
+Get list of template field names.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<java.lang.String> - List of template field names.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

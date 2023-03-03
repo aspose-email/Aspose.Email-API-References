@@ -18,7 +18,7 @@ DataColumnMapping class.
 
 | Constructor | Description |
 | --- | --- |
-| [DataColumnMapping()](#DataColumnMapping--) |  |
+| [DataColumnMapping(String dataSetColumn, String sourceColumn)](#DataColumnMapping-java.lang.String-java.lang.String-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,11 +34,17 @@ DataColumnMapping class.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataColumnMapping() {#DataColumnMapping--}
+### DataColumnMapping(String dataSetColumn, String sourceColumn) {#DataColumnMapping-java.lang.String-java.lang.String-}
 ```
-public DataColumnMapping()
+public DataColumnMapping(String dataSetColumn, String sourceColumn)
 ```
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataSetColumn | java.lang.String |  |
+| sourceColumn | java.lang.String |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

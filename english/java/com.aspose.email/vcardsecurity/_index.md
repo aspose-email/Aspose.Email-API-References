@@ -28,6 +28,7 @@ Represents a vCard security properties
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Gets or sets a ContentTransferEncoding |
 | [getKey()](#getKey--) | Gets or sets a public key(or authentication certificate) |
+| [getType()](#getType--) | Gets or sets type of public key. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,6 +37,7 @@ Represents a vCard security properties
 | [setAccessClass(String value)](#setAccessClass-java.lang.String-) | Gets or sets an access class |
 | [setEncoding(int value)](#setEncoding-int-) | Gets or sets a ContentTransferEncoding |
 | [setKey(String value)](#setKey-java.lang.String-) | Gets or sets a public key(or authentication certificate) |
+| [setType(String value)](#setType-java.lang.String-) | Gets or sets type of public key. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -100,6 +102,16 @@ public final String getKey()
 
 
 Gets or sets a public key(or authentication certificate)
+
+**Returns:**
+java.lang.String
+### getType() {#getType--}
+```
+public final String getType()
+```
+
+
+Gets or sets type of public key.
 
 **Returns:**
 java.lang.String
@@ -188,6 +200,19 @@ public final void setKey(String value)
 
 
 Gets or sets a public key(or authentication certificate)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setType(String value) {#setType-java.lang.String-}
+```
+public final void setType(String value)
+```
+
+
+Gets or sets type of public key.
 
 **Parameters:**
 | Parameter | Type | Description |
