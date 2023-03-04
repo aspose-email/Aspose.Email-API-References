@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a recurrence pattern of weekly recurrence type.
 type: docs
-weight: 446
+weight: 448
 url: /androidjava/com.aspose.email/weeklyrecurrencepattern/
 ---
 

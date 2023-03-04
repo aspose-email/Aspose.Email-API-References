@@ -3,7 +3,7 @@ title: ReminderRelated
 second_title: Aspose.Email for Android via Java API Reference
 description: Specify the relationship of the alarm trigger with respect to the start or end of the event.
 type: docs
-weight: 371
+weight: 373
 url: /androidjava/com.aspose.email/reminderrelated/
 ---
 

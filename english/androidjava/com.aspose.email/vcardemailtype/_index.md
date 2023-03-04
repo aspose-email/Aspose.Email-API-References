@@ -3,7 +3,7 @@ title: VCardEmailType
 second_title: Aspose.Email for Android via Java API Reference
 description: Enumerates vCard email types
 type: docs
-weight: 421
+weight: 423
 url: /androidjava/com.aspose.email/vcardemailtype/
 ---
 

@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Aspose.Email for Android via Java API Reference
 description: The mailbox items reader of Zimbra tgz storage.
 type: docs
-weight: 402
+weight: 404
 url: /androidjava/com.aspose.email/tgzreader/
 ---
 

@@ -3,7 +3,7 @@ title: MailPriority
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the mail priopity
 type: docs
-weight: 467
+weight: 469
 url: /androidjava/com.aspose.email/mailpriority/
 ---
 

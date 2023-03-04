@@ -3,7 +3,7 @@ title: MessageObjectRecipientEntity
 second_title: Aspose.Email for Android via Java API Reference
 description: Represens a recipient entry in message object.
 type: docs
-weight: 315
+weight: 317
 url: /androidjava/com.aspose.email/messageobjectrecipiententity/
 ---
 

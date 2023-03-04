@@ -3,7 +3,7 @@ title: VCardEmail
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents vCard email
 type: docs
-weight: 419
+weight: 421
 url: /androidjava/com.aspose.email/vcardemail/
 ---
 

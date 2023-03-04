@@ -3,7 +3,7 @@ title: MapiTaskPriority
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the priority on the task.
 type: docs
-weight: 290
+weight: 291
 url: /androidjava/com.aspose.email/mapitaskpriority/
 ---
 

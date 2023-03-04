@@ -1,25 +1,32 @@
 ---
-title: MessageObjectLoadFormat
+title: MapiItemType
 second_title: Aspose.Email for Android via Java API Reference
-description: Represents available formats  could be loaded from.
+description: Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the  interface.
 type: docs
-weight: 314
-url: /androidjava/com.aspose.email/messageobjectloadformat/
+weight: 257
+url: /androidjava/com.aspose.email/mapiitemtype/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```
-public final class MessageObjectLoadFormat extends System.Enum
+public final class MapiItemType extends System.Enum
 ```
 
-Represents available formats [MessageObject](../../com.aspose.email/messageobject) could be loaded from.
+Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [IMapiMessageItem](../../com.aspose.email/imapimessageitem) interface.
 ## Fields
 
 | Field | Description |
 | --- | --- |
+| [Calendar](#Calendar) | A calendar item. |
+| [Contact](#Contact) | A contact item. |
+| [DistList](#DistList) | A distribution list. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [Msg](#Msg) | MSG format. |
+| [Journal](#Journal) | A Journal entry. |
+| [Message](#Message) | An email message. |
+| [None](#None) | Non-supported type. |
+| [Note](#Note) | A StickyNote. |
+| [Task](#Task) | A Task item. |
 ## Methods
 
 | Method | Description |
@@ -59,19 +66,129 @@ Represents available formats [MessageObject](../../com.aspose.email/messageobjec
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### Calendar {#Calendar}
+```
+public static final int Calendar
+```
+
+
+A calendar item. Can be converted to [MapiCalendar](../../com.aspose.email/mapicalendar).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Calendar)
+>  {
+>      var calendar = (MapiCalendar)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Contact {#Contact}
+```
+public static final int Contact
+```
+
+
+A contact item. Can be converted to [MapiContact](../../com.aspose.email/mapicontact).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Contact)
+>  {
+>      var contact = (MapiContact)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### DistList {#DistList}
+```
+public static final int DistList
+```
+
+
+A distribution list. Can be converted to [MapiDistributionList](../../com.aspose.email/mapidistributionlist).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.DistList)
+>  {
+>      var distList = (MapiDistributionList)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
 public static final char[] EnumSeparatorCharArray
 ```
 
 
-### Msg {#Msg}
+### Journal {#Journal}
 ```
-public static final int Msg
+public static final int Journal
 ```
 
 
-MSG format.
+A Journal entry. Can be converted to [MapiJournal](../../com.aspose.email/mapijournal).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Journal)
+>  {
+>      var journal = (MapiJournal)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Message {#Message}
+```
+public static final int Message
+```
+
+
+An email message. This type does not need to be converted.
+
+### None {#None}
+```
+public static final int None
+```
+
+
+Non-supported type. MapiMessage cannot be converted to an appropriate item type.
+
+### Note {#Note}
+```
+public static final int Note
+```
+
+
+A StickyNote. Can be converted to [MapiNote](../../com.aspose.email/mapinote).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Note)
+>  {
+>      var note = (MapiNote)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
+
+### Task {#Task}
+```
+public static final int Task
+```
+
+
+A Task item. Can be converted to [MapiTask](../../com.aspose.email/mapitask).
+
+--------------------
+
+> ```
+> if (mapiMessage.SupportedType == MapiItemType.Task)
+>  {
+>      var task = (MapiTask)mapiMessage.ToMapiMessageItem();
+>  }
+> ```
 
 ### Clone() {#Clone--}
 ```

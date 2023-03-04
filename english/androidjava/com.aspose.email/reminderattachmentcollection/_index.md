@@ -3,7 +3,7 @@ title: ReminderAttachmentCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Contains collection of ReminderAttachment objects.
 type: docs
-weight: 367
+weight: 369
 url: /androidjava/com.aspose.email/reminderattachmentcollection/
 ---
 

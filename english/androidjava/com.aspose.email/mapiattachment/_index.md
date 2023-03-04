@@ -45,6 +45,7 @@ Represents the attachment in the E-mail message.
 | [getPropertyString(long tag, int codepage)](#getPropertyString-long-int-) | Gets the string value of the property specified by tag. |
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [hashCode()](#hashCode--) |  |
+| [isInline()](#isInline--) | Gets a value indicating whether the attachment is inline or regular. |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -419,6 +420,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isInline() {#isInline--}
+```
+public boolean isInline()
+```
+
+
+Gets a value indicating whether the attachment is inline or regular. If inline returns true, otherwise false.
+
+**Returns:**
+boolean
 ### isStoreUnicodeOk() {#isStoreUnicodeOk--}
 ```
 public final boolean isStoreUnicodeOk()

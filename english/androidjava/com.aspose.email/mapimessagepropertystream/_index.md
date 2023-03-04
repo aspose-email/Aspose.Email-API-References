@@ -3,7 +3,7 @@ title: MapiMessagePropertyStream
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the property stream.
 type: docs
-weight: 264
+weight: 265
 url: /androidjava/com.aspose.email/mapimessagepropertystream/
 ---
 

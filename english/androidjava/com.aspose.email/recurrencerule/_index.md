@@ -3,7 +3,7 @@ title: RecurrenceRule
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents one recurrence or exception rule in a recurrence pattern.
 type: docs
-weight: 362
+weight: 364
 url: /androidjava/com.aspose.email/recurrencerule/
 ---
 

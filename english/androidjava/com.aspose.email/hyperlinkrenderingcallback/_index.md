@@ -3,7 +3,7 @@ title: HyperlinkRenderingCallback
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides possibility to handle rendering of hyperlink in custom style.
 type: docs
-weight: 451
+weight: 453
 url: /androidjava/com.aspose.email/hyperlinkrenderingcallback/
 ---
 ```

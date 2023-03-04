@@ -67,6 +67,7 @@ Method is used to display brief message information [MessageInfo](../../com.aspo
 | [getEntryId()](#getEntryId--) | Gets the entry ID. |
 | [getEntryIdString()](#getEntryIdString--) | Gets string representation of entry ID. |
 | [getLastModificationTime()](#getLastModificationTime--) | Gets the last modification time. |
+| [getPredefinedType(boolean getForTopLevelParent)](#getPredefinedType-boolean-) | Gets the type of predefined folder. |
 | [getProperties()](#getProperties--) | Gets the folder properties. |
 | [getSubFolder(String name)](#getSubFolder-java.lang.String-) | Get subfolder. |
 | [getSubFolder(String name, boolean ignoreCase)](#getSubFolder-java.lang.String-boolean-) | Gets the subfolder. |
@@ -554,6 +555,25 @@ Value: The last modification time. If the folder doesn't have PR\_LAST\_MODIFICA
 
 **Returns:**
 java.util.Date
+### getPredefinedType(boolean getForTopLevelParent) {#getPredefinedType-boolean-}
+```
+public final int getPredefinedType(boolean getForTopLevelParent)
+```
+
+
+Gets the type of predefined folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| getForTopLevelParent | boolean | If true, returns the predefined type for the top-level parent folder. This determines whether the current folder is a subfolder of a predefined folder. If false, it returns the predefined type for the current folder.
+
+--------------------
+
+Checks if the folder is predefined by returning the corresponding type. |
+
+**Returns:**
+int - The [StandardIpmFolder](../../com.aspose.email/standardipmfolder) enum value. If the folder is not predefined, it returns [StandardIpmFolder.Unspecified](../../com.aspose.email/standardipmfolder\#Unspecified)
 ### getProperties() {#getProperties--}
 ```
 public final MapiPropertyCollection getProperties()

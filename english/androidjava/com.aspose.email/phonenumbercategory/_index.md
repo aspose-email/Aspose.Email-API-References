@@ -3,7 +3,7 @@ title: PhoneNumberCategory
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents category for a phone number
 type: docs
-weight: 348
+weight: 350
 url: /androidjava/com.aspose.email/phonenumbercategory/
 ---
 

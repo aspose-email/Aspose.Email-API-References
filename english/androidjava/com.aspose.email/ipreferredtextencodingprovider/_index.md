@@ -3,7 +3,7 @@ title: IPreferredTextEncodingProvider
 second_title: Aspose.Email for Android via Java API Reference
 description: Defines a interface for objects that can define PreferredTextEncoding.
 type: docs
-weight: 463
+weight: 465
 url: /androidjava/com.aspose.email/ipreferredtextencodingprovider/
 ---
 ```

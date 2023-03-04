@@ -3,7 +3,7 @@ title: PostalAddressCategory
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents category for a postal address
 type: docs
-weight: 354
+weight: 356
 url: /androidjava/com.aspose.email/postaladdresscategory/
 ---
 

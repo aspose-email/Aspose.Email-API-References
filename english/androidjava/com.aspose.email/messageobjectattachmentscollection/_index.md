@@ -3,7 +3,7 @@ title: MessageObjectAttachmentsCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a collection for  objects.
 type: docs
-weight: 311
+weight: 313
 url: /androidjava/com.aspose.email/messageobjectattachmentscollection/
 ---
 

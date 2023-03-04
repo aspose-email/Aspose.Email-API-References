@@ -3,7 +3,7 @@ title: ValidationResult
 second_title: Aspose.Email for Android via Java API Reference
 description: Present the result of the email validating process.
 type: docs
-weight: 444
+weight: 446
 url: /androidjava/com.aspose.email/validationresult/
 ---
 

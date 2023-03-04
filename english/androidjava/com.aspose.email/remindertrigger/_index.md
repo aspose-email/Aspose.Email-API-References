@@ -3,7 +3,7 @@ title: ReminderTrigger
 second_title: Aspose.Email for Android via Java API Reference
 description: Specifies when an alarm will trigger.
 type: docs
-weight: 372
+weight: 374
 url: /androidjava/com.aspose.email/remindertrigger/
 ---
 

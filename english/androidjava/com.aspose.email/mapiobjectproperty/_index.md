@@ -3,7 +3,7 @@ title: MapiObjectProperty
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a Custom object included in Outlook Message documents.
 type: docs
-weight: 269
+weight: 270
 url: /androidjava/com.aspose.email/mapiobjectproperty/
 ---
 

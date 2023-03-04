@@ -3,7 +3,7 @@ title: VCardSoundType
 second_title: Aspose.Email for Android via Java API Reference
 description: Enumerates a cVard sound types
 type: docs
-weight: 434
+weight: 436
 url: /androidjava/com.aspose.email/vcardsoundtype/
 ---
 

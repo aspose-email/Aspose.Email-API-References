@@ -3,7 +3,7 @@ title: MessageKind
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the different kinds of messages in pst.
 type: docs
-weight: 308
+weight: 310
 url: /androidjava/com.aspose.email/messagekind/
 ---
 

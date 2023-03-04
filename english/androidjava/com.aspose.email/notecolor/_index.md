@@ -3,7 +3,7 @@ title: NoteColor
 second_title: Aspose.Email for Android via Java API Reference
 description: Specifies the suggested background color  of the Note object
 type: docs
-weight: 329
+weight: 331
 url: /androidjava/com.aspose.email/notecolor/
 ---
 

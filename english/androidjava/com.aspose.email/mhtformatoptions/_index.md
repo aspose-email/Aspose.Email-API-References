@@ -3,7 +3,7 @@ title: MhtFormatOptions
 second_title: Aspose.Email for Android via Java API Reference
 description: Enumerates the Mht format  options
 type: docs
-weight: 320
+weight: 322
 url: /androidjava/com.aspose.email/mhtformatoptions/
 ---
 

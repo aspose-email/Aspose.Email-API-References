@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingEventArgs
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents additional parameters for ResourceHtmlRendering event.
 type: docs
-weight: 374
+weight: 376
 url: /androidjava/com.aspose.email/resourcehtmlrenderingeventargs/
 ---
 

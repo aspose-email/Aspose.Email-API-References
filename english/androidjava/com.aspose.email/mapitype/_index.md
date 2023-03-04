@@ -3,7 +3,7 @@ title: MapiType
 second_title: Aspose.Email for Android via Java API Reference
 description: Contains possible MAPI property types which can be stored with message object.
 type: docs
-weight: 294
+weight: 295
 url: /androidjava/com.aspose.email/mapitype/
 ---
 

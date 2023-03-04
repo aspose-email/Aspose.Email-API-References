@@ -3,7 +3,7 @@ title: TnefLoadOptions
 second_title: Aspose.Email for Android via Java API Reference
 description: Allows to specify additional options when loading MailMessage from Tnef format.
 type: docs
-weight: 404
+weight: 406
 url: /androidjava/com.aspose.email/tnefloadoptions/
 ---
 

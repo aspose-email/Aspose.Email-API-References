@@ -49,6 +49,7 @@ Represents an e-mail attachment.
 | [getTransferEncoding()](#getTransferEncoding--) | Gets or sets the transfer encoding. |
 | [hashCode()](#hashCode--) |  |
 | [isEmbeddedMessage()](#isEmbeddedMessage--) | Gets a value indicating whether the attachment is an embedded message. |
+| [isTnef()](#isTnef--) | Gets a value indicating whether the attachment is TNEF formatted message. |
 | [isUri()](#isUri--) | Gets a value indicating whether attachment is URI-attachment. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -355,6 +356,16 @@ public final boolean isEmbeddedMessage()
 
 
 Gets a value indicating whether the attachment is an embedded message.
+
+**Returns:**
+boolean
+### isTnef() {#isTnef--}
+```
+public final boolean isTnef()
+```
+
+
+Gets a value indicating whether the attachment is TNEF formatted message.
 
 **Returns:**
 boolean

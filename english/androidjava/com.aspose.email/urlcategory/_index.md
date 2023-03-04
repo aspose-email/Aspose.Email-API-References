@@ -3,7 +3,7 @@ title: UrlCategory
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents category for a URL
 type: docs
-weight: 412
+weight: 414
 url: /androidjava/com.aspose.email/urlcategory/
 ---
 

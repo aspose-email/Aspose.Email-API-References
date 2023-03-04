@@ -3,7 +3,7 @@ title: XMLStreamWriterWrapper
 second_title: Aspose.Email for Android via Java API Reference
 description: 
 type: docs
-weight: 447
+weight: 449
 url: /androidjava/com.aspose.email/xmlstreamwriterwrapper/
 ---
 
@@ -33,6 +33,7 @@ public class XMLStreamWriterWrapper
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [writeAttributeString(String prefix, String localName, String namespaceUri, String value)](#writeAttributeString-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) |  |
+| [writeElementString(String localName, String value)](#writeElementString-java.lang.String-java.lang.String-) |  |
 | [writeElementString(String localName, String namespaceUri, String value)](#writeElementString-java.lang.String-java.lang.String-java.lang.String-) |  |
 | [writeEndDocument()](#writeEndDocument--) |  |
 | [writeEndElement()](#writeEndElement--) |  |
@@ -177,6 +178,20 @@ public void writeAttributeString(String prefix, String localName, String namespa
 | prefix | java.lang.String |  |
 | localName | java.lang.String |  |
 | namespaceUri | java.lang.String |  |
+| value | java.lang.String |  |
+
+### writeElementString(String localName, String value) {#writeElementString-java.lang.String-java.lang.String-}
+```
+public void writeElementString(String localName, String value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| localName | java.lang.String |  |
 | value | java.lang.String |  |
 
 ### writeElementString(String localName, String namespaceUri, String value) {#writeElementString-java.lang.String-java.lang.String-java.lang.String-}

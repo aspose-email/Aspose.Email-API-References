@@ -3,7 +3,7 @@ title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the named property mapping
 type: docs
-weight: 267
+weight: 268
 url: /androidjava/com.aspose.email/mapinamedpropertymappingstorage/
 ---
 

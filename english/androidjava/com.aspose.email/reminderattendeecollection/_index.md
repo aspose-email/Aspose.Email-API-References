@@ -3,7 +3,7 @@ title: ReminderAttendeeCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Contains collection of ReminderAttendee objects.
 type: docs
-weight: 369
+weight: 371
 url: /androidjava/com.aspose.email/reminderattendeecollection/
 ---
 

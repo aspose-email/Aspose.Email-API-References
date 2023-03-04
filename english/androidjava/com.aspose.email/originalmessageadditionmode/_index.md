@@ -3,7 +3,7 @@ title: OriginalMessageAdditionMode
 second_title: Aspose.Email for Android via Java API Reference
 description: Way to include the original message in response message.
 type: docs
-weight: 340
+weight: 342
 url: /androidjava/com.aspose.email/originalmessageadditionmode/
 ---
 

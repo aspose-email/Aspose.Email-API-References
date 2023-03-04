@@ -3,7 +3,7 @@ title: UrlList
 second_title: Aspose.Email for Android via Java API Reference
 description: List of urls for contact
 type: docs
-weight: 413
+weight: 415
 url: /androidjava/com.aspose.email/urllist/
 ---
 

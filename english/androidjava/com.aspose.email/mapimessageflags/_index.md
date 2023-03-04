@@ -3,7 +3,7 @@ title: MapiMessageFlags
 second_title: Aspose.Email for Android via Java API Reference
 description: MapiMessageFlags.
 type: docs
-weight: 261
+weight: 262
 url: /androidjava/com.aspose.email/mapimessageflags/
 ---
 

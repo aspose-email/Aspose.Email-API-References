@@ -3,7 +3,7 @@ title: StorageProcessedEventArgs
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides data for the  event
 type: docs
-weight: 391
+weight: 393
 url: /androidjava/com.aspose.email/storageprocessedeventargs/
 ---
 

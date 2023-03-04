@@ -3,7 +3,7 @@ title: MapiNamedProperty
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the data type of Named Property.
 type: docs
-weight: 266
+weight: 267
 url: /androidjava/com.aspose.email/mapinamedproperty/
 ---
 

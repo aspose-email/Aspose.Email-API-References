@@ -3,7 +3,7 @@ title: MessageFormat
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the mail message format.It can be in emlmsg or mhtml format.
 type: docs
-weight: 305
+weight: 307
 url: /androidjava/com.aspose.email/messageformat/
 ---
 

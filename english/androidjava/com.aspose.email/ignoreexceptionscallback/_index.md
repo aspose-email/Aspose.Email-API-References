@@ -3,7 +3,7 @@ title: IgnoreExceptionsCallback
 second_title: Aspose.Email for Android via Java API Reference
 description: Ignore Exceptions callback.
 type: docs
-weight: 465
+weight: 467
 url: /androidjava/com.aspose.email/ignoreexceptionscallback/
 ---
 ```

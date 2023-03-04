@@ -3,7 +3,7 @@ title: MapiMessageParseException
 second_title: Aspose.Email for Android via Java API Reference
 description: This exception is thrown when errors occur in parsing MapiMessage.
 type: docs
-weight: 263
+weight: 264
 url: /androidjava/com.aspose.email/mapimessageparseexception/
 ---
 

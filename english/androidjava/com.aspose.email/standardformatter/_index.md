@@ -3,7 +3,7 @@ title: StandardFormatter
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the class for formatting log entry messsages.
 type: docs
-weight: 389
+weight: 391
 url: /androidjava/com.aspose.email/standardformatter/
 ---
 

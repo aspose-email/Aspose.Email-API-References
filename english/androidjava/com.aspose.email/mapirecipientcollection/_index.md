@@ -3,7 +3,7 @@ title: MapiRecipientCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a collection of MapiRecipient objects.
 type: docs
-weight: 279
+weight: 280
 url: /androidjava/com.aspose.email/mapirecipientcollection/
 ---
 

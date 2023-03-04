@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Aspose.Email for Android via Java API Reference
 description: List of postal addresses for a contact.
 type: docs
-weight: 355
+weight: 357
 url: /androidjava/com.aspose.email/postaladdresslist/
 ---
 

@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 319
+weight: 321
 url: /androidjava/com.aspose.email/metered/
 ---
 

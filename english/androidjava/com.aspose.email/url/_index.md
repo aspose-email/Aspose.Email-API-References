@@ -3,7 +3,7 @@ title: Url
 second_title: Aspose.Email for Android via Java API Reference
 description: Objects represents a URL and its category.
 type: docs
-weight: 411
+weight: 413
 url: /androidjava/com.aspose.email/url/
 ---
 

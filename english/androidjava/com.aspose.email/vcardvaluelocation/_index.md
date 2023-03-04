@@ -3,7 +3,7 @@ title: VCardValueLocation
 second_title: Aspose.Email for Android via Java API Reference
 description: Enumerates the vCard property parameter ValueLocation.
 type: docs
-weight: 441
+weight: 443
 url: /androidjava/com.aspose.email/vcardvaluelocation/
 ---
 

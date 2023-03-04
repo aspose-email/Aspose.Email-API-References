@@ -3,7 +3,7 @@ title: MessageObjectPropertiesCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a keyed collection for  objects.
 type: docs
-weight: 313
+weight: 315
 url: /androidjava/com.aspose.email/messageobjectpropertiescollection/
 ---
 

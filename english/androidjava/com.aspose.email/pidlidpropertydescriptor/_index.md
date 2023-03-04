@@ -3,7 +3,7 @@ title: PidLidPropertyDescriptor
 second_title: Aspose.Email for Android via Java API Reference
 description: Class contains property description information.
 type: docs
-weight: 350
+weight: 352
 url: /androidjava/com.aspose.email/pidlidpropertydescriptor/
 ---
 

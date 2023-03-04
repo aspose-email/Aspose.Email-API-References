@@ -3,7 +3,7 @@ title: ReminderAction
 second_title: Aspose.Email for Android via Java API Reference
 description: Defines the action to be invoked when an alarm is triggered.
 type: docs
-weight: 365
+weight: 367
 url: /androidjava/com.aspose.email/reminderaction/
 ---
 

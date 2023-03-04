@@ -3,7 +3,7 @@ title: SyntaxValidatingEventHandler
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the event handler for SyntaxValidatingEvent.
 type: docs
-weight: 395
+weight: 397
 url: /androidjava/com.aspose.email/syntaxvalidatingeventhandler/
 ---
 

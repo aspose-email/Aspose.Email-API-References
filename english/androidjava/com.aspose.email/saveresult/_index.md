@@ -3,7 +3,7 @@ title: SaveResult
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the result of saving the retrieved item.
 type: docs
-weight: 380
+weight: 382
 url: /androidjava/com.aspose.email/saveresult/
 ---
 

@@ -3,7 +3,7 @@ title: VCardIdentificationInfo
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents vCard identification information
 type: docs
-weight: 425
+weight: 427
 url: /androidjava/com.aspose.email/vcardidentificationinfo/
 ---
 

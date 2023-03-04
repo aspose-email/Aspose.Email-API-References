@@ -3,7 +3,7 @@ title: ParticipationStatus
 second_title: Aspose.Email for Android via Java API Reference
 description: Identifies the participation status for the calendar user.
 type: docs
-weight: 342
+weight: 344
 url: /androidjava/com.aspose.email/participationstatus/
 ---
 

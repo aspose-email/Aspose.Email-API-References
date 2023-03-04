@@ -3,7 +3,7 @@ title: NamedPropertyKind
 second_title: Aspose.Email for Android via Java API Reference
 description: Identifies  kind.
 type: docs
-weight: 328
+weight: 330
 url: /androidjava/com.aspose.email/namedpropertykind/
 ---
 

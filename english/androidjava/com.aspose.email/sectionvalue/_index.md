@@ -3,7 +3,7 @@ title: SectionValue
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the content of the section.
 type: docs
-weight: 386
+weight: 388
 url: /androidjava/com.aspose.email/sectionvalue/
 ---
 

@@ -3,7 +3,7 @@ title: MhtmlLoadOptions
 second_title: Aspose.Email for Android via Java API Reference
 description: Allows to specify additional options when loading MailMessage from Mhtml format.
 type: docs
-weight: 323
+weight: 325
 url: /androidjava/com.aspose.email/mhtmlloadoptions/
 ---
 

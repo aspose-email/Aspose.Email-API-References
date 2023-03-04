@@ -3,7 +3,7 @@ title: SaveStatus
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the status of saving the retrieved message.
 type: docs
-weight: 381
+weight: 383
 url: /androidjava/com.aspose.email/savestatus/
 ---
 

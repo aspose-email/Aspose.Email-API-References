@@ -3,7 +3,7 @@ title: ValidationResponseCode
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the response status of the mail validating process.
 type: docs
-weight: 443
+weight: 445
 url: /androidjava/com.aspose.email/validationresponsecode/
 ---
 

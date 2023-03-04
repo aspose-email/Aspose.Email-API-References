@@ -3,7 +3,7 @@ title: MapiTaskHistory
 second_title: Aspose.Email for Android via Java API Reference
 description: Indicates the type of change that was last made to the Task object.
 type: docs
-weight: 287
+weight: 288
 url: /androidjava/com.aspose.email/mapitaskhistory/
 ---
 

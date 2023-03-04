@@ -3,7 +3,7 @@ title: ReminderAttachment
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides the capability to associate a document object with an alarm.
 type: docs
-weight: 366
+weight: 368
 url: /androidjava/com.aspose.email/reminderattachment/
 ---
 

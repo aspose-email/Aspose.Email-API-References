@@ -3,7 +3,7 @@ title: ResponseMessageBuilder
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides creation and formatting the forwarding and replying messages.
 type: docs
-weight: 377
+weight: 379
 url: /androidjava/com.aspose.email/responsemessagebuilder/
 ---
 

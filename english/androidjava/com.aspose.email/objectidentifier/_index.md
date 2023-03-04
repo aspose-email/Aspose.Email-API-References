@@ -3,7 +3,7 @@ title: ObjectIdentifier
 second_title: Aspose.Email for Android via Java API Reference
 description: Contains object identification information
 type: docs
-weight: 335
+weight: 337
 url: /androidjava/com.aspose.email/objectidentifier/
 ---
 

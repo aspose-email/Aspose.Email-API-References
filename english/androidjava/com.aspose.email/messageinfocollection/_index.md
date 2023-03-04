@@ -3,7 +3,7 @@ title: MessageInfoCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the collection of MessageInfo.
 type: docs
-weight: 307
+weight: 309
 url: /androidjava/com.aspose.email/messageinfocollection/
 ---
 

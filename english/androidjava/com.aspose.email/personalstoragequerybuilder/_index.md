@@ -3,7 +3,7 @@ title: PersonalStorageQueryBuilder
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the builder of search expression that used by pst.
 type: docs
-weight: 346
+weight: 348
 url: /androidjava/com.aspose.email/personalstoragequerybuilder/
 ---
 

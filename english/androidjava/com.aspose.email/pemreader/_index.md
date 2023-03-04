@@ -3,7 +3,7 @@ title: PemReader
 second_title: Aspose.Email for Android via Java API Reference
 description: PEM format reader.
 type: docs
-weight: 343
+weight: 345
 url: /androidjava/com.aspose.email/pemreader/
 ---
 

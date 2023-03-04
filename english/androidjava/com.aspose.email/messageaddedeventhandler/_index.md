@@ -3,7 +3,7 @@ title: MessageAddedEventHandler
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the method that will handle an  event.
 type: docs
-weight: 304
+weight: 306
 url: /androidjava/com.aspose.email/messageaddedeventhandler/
 ---
 

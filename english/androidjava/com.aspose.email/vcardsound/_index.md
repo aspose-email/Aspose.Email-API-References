@@ -3,7 +3,7 @@ title: VCardSound
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a vCard sound property
 type: docs
-weight: 433
+weight: 435
 url: /androidjava/com.aspose.email/vcardsound/
 ---
 

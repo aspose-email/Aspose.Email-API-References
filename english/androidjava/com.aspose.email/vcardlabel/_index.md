@@ -3,7 +3,7 @@ title: VCardLabel
 second_title: Aspose.Email for Android via Java API Reference
 description: To specify the formatted text corresponding to delivery address of the object the vCard represents.
 type: docs
-weight: 426
+weight: 428
 url: /androidjava/com.aspose.email/vcardlabel/
 ---
 

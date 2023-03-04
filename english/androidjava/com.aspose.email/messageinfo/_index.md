@@ -3,7 +3,7 @@ title: MessageInfo
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents information about message in PST.
 type: docs
-weight: 306
+weight: 308
 url: /androidjava/com.aspose.email/messageinfo/
 ---
 

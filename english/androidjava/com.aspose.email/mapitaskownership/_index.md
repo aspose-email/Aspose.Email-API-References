@@ -3,7 +3,7 @@ title: MapiTaskOwnership
 second_title: Aspose.Email for Android via Java API Reference
 description: Indicates the role of the current user  relative to the Task object.
 type: docs
-weight: 289
+weight: 290
 url: /androidjava/com.aspose.email/mapitaskownership/
 ---
 

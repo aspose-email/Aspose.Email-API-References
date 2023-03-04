@@ -3,7 +3,7 @@ title: OlmFolder
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents folder information in OLM storage.
 type: docs
-weight: 337
+weight: 339
 url: /androidjava/com.aspose.email/olmfolder/
 ---
 

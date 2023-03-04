@@ -3,7 +3,7 @@ title: ReminderAttendee
 second_title: Aspose.Email for Android via Java API Reference
 description: Defines an Attendee within a alarm.
 type: docs
-weight: 368
+weight: 370
 url: /androidjava/com.aspose.email/reminderattendee/
 ---
 

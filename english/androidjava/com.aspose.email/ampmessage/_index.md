@@ -359,7 +359,11 @@ public MailMessage decrypt()
 Decrypts this message
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - E-mail message
+[MailMessage](../../com.aspose.email/mailmessage) - Decrypted E-mail message
+
+--------------------
+
+Method searches the current user and computer My stores for the appropriate certificate and private key.
 ### decrypt(byte[] certificateRawData, String certificatePassword) {#decrypt-byte---java.lang.String-}
 ```
 public MailMessage decrypt(byte[] certificateRawData, String certificatePassword)

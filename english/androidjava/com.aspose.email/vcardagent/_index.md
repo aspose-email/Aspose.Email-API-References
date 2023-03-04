@@ -3,7 +3,7 @@ title: VCardAgent
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a vCard Agent property
 type: docs
-weight: 414
+weight: 416
 url: /androidjava/com.aspose.email/vcardagent/
 ---
 

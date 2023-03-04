@@ -3,7 +3,7 @@ title: TraversalAsposeException
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the exception that can occur when traversing a storage.
 type: docs
-weight: 408
+weight: 410
 url: /androidjava/com.aspose.email/traversalasposeexception/
 ---
 

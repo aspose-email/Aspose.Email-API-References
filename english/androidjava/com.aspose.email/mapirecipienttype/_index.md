@@ -3,7 +3,7 @@ title: MapiRecipientType
 second_title: Aspose.Email for Android via Java API Reference
 description: Represent the PR_RECIPIENT_TYPE property which contains the recipient type for a message recipient.
 type: docs
-weight: 282
+weight: 283
 url: /androidjava/com.aspose.email/mapirecipienttype/
 ---
 

@@ -3,7 +3,7 @@ title: IMessageFormatter
 second_title: Aspose.Email for Android via Java API Reference
 description: Provides a mechanism for retrieving an object to Message formatting.
 type: docs
-weight: 460
+weight: 462
 url: /androidjava/com.aspose.email/imessageformatter/
 ---
 ```

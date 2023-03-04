@@ -3,7 +3,7 @@ title: VCardGeo
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a global positioning of vCard contact
 type: docs
-weight: 424
+weight: 426
 url: /androidjava/com.aspose.email/vcardgeo/
 ---
 

@@ -3,7 +3,7 @@ title: StringComparisonField
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the string search field.
 type: docs
-weight: 393
+weight: 395
 url: /androidjava/com.aspose.email/stringcomparisonfield/
 ---
 

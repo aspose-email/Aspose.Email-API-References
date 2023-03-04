@@ -3,7 +3,7 @@ title: VCardUrlCollection
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents a collection of VCardUrls
 type: docs
-weight: 439
+weight: 441
 url: /androidjava/com.aspose.email/vcardurlcollection/
 ---
 

@@ -3,7 +3,7 @@ title: MapiTaskMode
 second_title: Aspose.Email for Android via Java API Reference
 description: Represents the assignment  statuses of the task object.
 type: docs
-weight: 288
+weight: 289
 url: /androidjava/com.aspose.email/mapitaskmode/
 ---
 
