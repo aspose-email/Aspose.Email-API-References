@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Java API Reference
 description: Represents the Outlook Task object.
 type: docs
-weight: 468
+weight: 470
 url: /java/com.aspose.email/mapitask/
 ---
 

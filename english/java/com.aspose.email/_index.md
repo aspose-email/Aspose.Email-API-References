@@ -8,7 +8,7 @@ url: /java/com.aspose.email/
 ---
 
 
-Contains Java API classes that enables to read and write Microsoft Outlook documents without using Microsoft Outlook
+Contains Java API classes that enables to read and write Microsoft Outlook® documents without using Microsoft Outlook®
 
 
 ## Classes
@@ -422,6 +422,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiCalendarWeeklyRecurrencePattern](../com.aspose.email/mapicalendarweeklyrecurrencepattern) | Represents the weekly recurrence pattern of the mapi calendar |
 | [MapiCalendarYearlyAndMonthlyRecurrencePattern](../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
 | [MapiContact](../com.aspose.email/mapicontact) | Represents outlook contact information |
+| [MapiContactAddress](../com.aspose.email/mapicontactaddress) | Base abstract class for [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) and [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress). |
 | [MapiContactCollection](../com.aspose.email/mapicontactcollection) | Represents the collection of [MapiContact](../com.aspose.email/mapicontact) |
 | [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
 | [MapiContactElectronicAddressPropertySet](../com.aspose.email/mapicontactelectronicaddresspropertyset) | Specify properties for up to three different e-mail addresses (Email1, Email2, and Email3) and three different fax addresses (Primary Fax, Business Fax, and Home Fax) |
@@ -435,6 +436,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook docum
 | [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress) | Refers to the group of properties that define physical address for a contact. |
 | [MapiContactPhysicalAddressPropertySet](../com.aspose.email/mapicontactphysicaladdresspropertyset) | Specify three physical addresses: Home Address, Work Address, and Other Address. |
 | [MapiContactProfessionalPropertySet](../com.aspose.email/mapicontactprofessionalpropertyset) | Properties are used to store professional details for the person represented by the contact |
+| [MapiContactPropertySet](../com.aspose.email/mapicontactpropertyset) | Base class for all sets of MapiContact properties. |
 | [MapiContactSaveOptions](../com.aspose.email/mapicontactsaveoptions) | Specifies the contact save options. |
 | [MapiContactTelephonePropertySet](../com.aspose.email/mapicontacttelephonepropertyset) | Specify optional telephone numbers for the contact |
 | [MapiConversionOptions](../com.aspose.email/mapiconversionoptions) | This class allows the user to specify additional options when converting from MailMessage to MapiMessage. |

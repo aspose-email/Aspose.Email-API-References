@@ -3,7 +3,7 @@ title: MessageObjectRecipientsCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection for  objects.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.email/messageobjectrecipientscollection/
 ---
 

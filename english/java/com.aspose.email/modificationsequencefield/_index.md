@@ -3,7 +3,7 @@ title: ModificationSequenceField
 second_title: Aspose.Email for Java API Reference
 description: Defines set of values for selected field to search.
 type: docs
-weight: 517
+weight: 519
 url: /java/com.aspose.email/modificationsequencefield/
 ---
 

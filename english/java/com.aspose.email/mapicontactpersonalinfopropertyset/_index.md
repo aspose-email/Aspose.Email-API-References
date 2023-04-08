@@ -3,14 +3,14 @@ title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify other additional contact information
 type: docs
-weight: 423
+weight: 424
 url: /java/com.aspose.email/mapicontactpersonalinfopropertyset/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.email/mapicontactpropertyset)
 ```
-public final class MapiContactPersonalInfoPropertySet
+public final class MapiContactPersonalInfoPropertySet extends MapiContactPropertySet
 ```
 
 Specify other additional contact information

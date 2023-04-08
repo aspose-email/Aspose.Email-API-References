@@ -3,7 +3,7 @@ title: MessageTrackingReportTemplate
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the types of report to display.
 type: docs
-weight: 509
+weight: 511
 url: /java/com.aspose.email/messagetrackingreporttemplate/
 ---
 

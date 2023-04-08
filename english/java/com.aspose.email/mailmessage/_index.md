@@ -23,7 +23,6 @@ Represents an e-mail message. It allows to access message properties, ex. subjec
 | --- | --- |
 | [MailMessage(String from, String to)](#MailMessage-java.lang.String-java.lang.String-) | Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class |
 | [MailMessage()](#MailMessage--) | Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class |
-| [MailMessage(boolean increaseCredit)](#MailMessage-boolean-) | Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class |
 | [MailMessage(String from, String to, String subject, String body)](#MailMessage-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class |
 | [MailMessage(MailAddress from, MailAddress to)](#MailMessage-com.aspose.email.MailAddress-com.aspose.email.MailAddress-) | Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class |
 ## Methods
@@ -164,19 +163,6 @@ public MailMessage()
 
 
 Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class
-
-### MailMessage(boolean increaseCredit) {#MailMessage-boolean-}
-```
-public MailMessage(boolean increaseCredit)
-```
-
-
-Initializes a new instance of the [MailMessage](../../com.aspose.email/mailmessage) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| increaseCredit | boolean |  |
 
 ### MailMessage(String from, String to, String subject, String body) {#MailMessage-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
