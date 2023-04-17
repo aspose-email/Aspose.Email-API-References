@@ -1,7 +1,7 @@
 ---
-title: LinkedResource
+title: Class LinkedResource
 second_title: Aspose.Email for .NET API Reference
-description: Represents an embedded resource in a message.
+description: Aspose.Email.LinkedResource class. Represents an embedded resource in a message
 type: docs
 weight: 17640
 url: /net/aspose.email/linkedresource/
@@ -18,35 +18,35 @@ public class LinkedResource : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [LinkedResource](linkedresource#constructor)(Stream) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource#constructor_3)(string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource#constructor_1)(Stream, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource#constructor_2)(Stream, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource#constructor_4)(string, ContentType) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
-| [LinkedResource](linkedresource#constructor_5)(string, string) | Initializes a new instance of the [`LinkedResource`](../linkedresource) class. |
+| [LinkedResource](linkedresource/#constructor)(Stream) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor_3)(string) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor_1)(Stream, ContentType) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor_2)(Stream, string) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor_4)(string, ContentType) | Initializes a new instance of the `LinkedResource` class. |
+| [LinkedResource](linkedresource/#constructor_5)(string, string) | Initializes a new instance of the `LinkedResource` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [ContentDisposition](../../aspose.email/linkedresource/contentdisposition) { get; } | Gets Content-Disposition header |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Gets or sets the content id. |
-| [ContentLink](../../aspose.email/linkedresource/contentlink) { get; set; } | Gets or sets a URI that the resource must match. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Gets or sets the content stream. |
-| [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Gets or sets the type of the content. |
-| virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Gets headers collection of attachment. |
-| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | Gets or sets the transfer encoding. |
+| [ContentDisposition](../../aspose.email/linkedresource/contentdisposition/) { get; } | Gets Content-Disposition header |
+| [ContentId](../../aspose.email/attachmentbase/contentid/) { get; set; } | Gets or sets the content id. |
+| [ContentLink](../../aspose.email/linkedresource/contentlink/) { get; set; } | Gets or sets a URI that the resource must match. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream/) { get; set; } | Gets or sets the content stream. |
+| [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the type of the content. |
+| virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
+| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_1)(string, ContentType) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring#createlinkedresourcefromstring_2)(string, Encoding, string) | Creates the linked resource from string. |
-| [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
-| virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_1)(string, ContentType) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring/#createlinkedresourcefromstring_2)(string, Encoding, string) | Creates the linked resource from string. |
+| [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
 
 ## Examples
 
@@ -116,8 +116,8 @@ The following example shows how to embed objects using LinkedResource into an Em
 
 ### See Also
 
-* class [AttachmentBase](../attachmentbase)
-* namespace [Aspose.Email](../../aspose.email)
+* class [AttachmentBase](../attachmentbase/)
+* namespace [Aspose.Email](../../aspose.email/)
 * assembly [Aspose.Email](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

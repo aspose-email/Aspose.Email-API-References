@@ -1,14 +1,14 @@
 ---
-title: Appointment
+title: Appointment.Appointment
 second_title: Aspose.Email for .NET API Reference
-description: Initialize a new instance of the Appointmentaspose.email.calendar/appointment class.
+description: Appointment constructor. Initialize a new instance of the Appointment class
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointment/appointment/
 ---
 ## Appointment(string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor}
 
-Initialize a new instance of the [`Appointment`](../../appointment) class.
+Initialize a new instance of the [`Appointment`](../) class.
 
 ```csharp
 public Appointment(string location, DateTime startDate, DateTime endDate, MailAddress organizer, 
@@ -25,17 +25,17 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 ### See Also
 
-* class [MailAddress](../../../aspose.email/mailaddress)
-* class [MailAddressCollection](../../../aspose.email/mailaddresscollection)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
+* class [MailAddress](../../../aspose.email/mailaddress/)
+* class [MailAddressCollection](../../../aspose.email/mailaddresscollection/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor_1}
 
-Initialize a new instance of the [`Appointment`](../../appointment) class.
+Initialize a new instance of the [`Appointment`](../) class.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -54,17 +54,17 @@ public Appointment(string location, string summary, string description, DateTime
 
 ### See Also
 
-* class [MailAddress](../../../aspose.email/mailaddress)
-* class [MailAddressCollection](../../../aspose.email/mailaddresscollection)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
+* class [MailAddress](../../../aspose.email/mailaddress/)
+* class [MailAddressCollection](../../../aspose.email/mailaddresscollection/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) {#constructor_3}
 
-Initialize a new instance of the [`Appointment`](../../appointment) class.
+Initialize a new instance of the [`Appointment`](../) class.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -84,17 +84,17 @@ public Appointment(string location, string summary, string description, DateTime
 
 ### See Also
 
-* class [MailAddress](../../../aspose.email/mailaddress)
-* class [MailAddressCollection](../../../aspose.email/mailaddresscollection)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
+* class [MailAddress](../../../aspose.email/mailaddress/)
+* class [MailAddressCollection](../../../aspose.email/mailaddresscollection/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) {#constructor_2}
 
-Initialize a new instance of the [`Appointment`](../../appointment) class.
+Initialize a new instance of the [`Appointment`](../) class.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -115,18 +115,18 @@ public Appointment(string location, string summary, string description, DateTime
 
 ### See Also
 
-* class [MailAddress](../../../aspose.email/mailaddress)
-* class [MailAddressCollection](../../../aspose.email/mailaddresscollection)
-* class [RecurrencePattern](../../../aspose.email.calendar.recurrences/recurrencepattern)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
+* class [MailAddress](../../../aspose.email/mailaddress/)
+* class [MailAddressCollection](../../../aspose.email/mailaddresscollection/)
+* class [RecurrencePattern](../../../aspose.email.calendar.recurrences/recurrencepattern/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) {#constructor_4}
 
-Initialize a new instance of the [`Appointment`](../../appointment) class.
+Initialize a new instance of the [`Appointment`](../) class.
 
 ```csharp
 public Appointment(string location, string summary, string description, DateTime startDate, 
@@ -148,11 +148,11 @@ public Appointment(string location, string summary, string description, DateTime
 
 ### See Also
 
-* class [MailAddress](../../../aspose.email/mailaddress)
-* class [MailAddressCollection](../../../aspose.email/mailaddresscollection)
-* class [RecurrencePattern](../../../aspose.email.calendar.recurrences/recurrencepattern)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
+* class [MailAddress](../../../aspose.email/mailaddress/)
+* class [MailAddressCollection](../../../aspose.email/mailaddresscollection/)
+* class [RecurrencePattern](../../../aspose.email.calendar.recurrences/recurrencepattern/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

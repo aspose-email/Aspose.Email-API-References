@@ -1,14 +1,14 @@
 ---
-title: AsposeArgumentOutOfRangeException
+title: AsposeArgumentOutOfRangeException.AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the AsposeArgumentOutOfRangeExceptionaspose.email/asposeargumentoutofrangeexception class.
+description: AsposeArgumentOutOfRangeException constructor. Initializes a new instance of the AsposeArgumentOutOfRangeException class
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentoutofrangeexception/asposeargumentoutofrangeexception/
 ---
 ## AsposeArgumentOutOfRangeException() {#constructor}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../) class.
 
 ```csharp
 public AsposeArgumentOutOfRangeException()
@@ -16,15 +16,15 @@ public AsposeArgumentOutOfRangeException()
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentOutOfRangeException(string) {#constructor_2}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string message)
@@ -36,15 +36,15 @@ public AsposeArgumentOutOfRangeException(string message)
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentOutOfRangeException(string, params object[]) {#constructor_5}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string format, params object[] parameters)
@@ -57,8 +57,8 @@ public AsposeArgumentOutOfRangeException(string format, params object[] paramete
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -71,15 +71,15 @@ public AsposeArgumentOutOfRangeException(string format, int parameter)
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentOutOfRangeException(string, Exception) {#constructor_4}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string message, Exception innerException)
@@ -92,8 +92,8 @@ public AsposeArgumentOutOfRangeException(string message, Exception innerExceptio
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -111,15 +111,15 @@ public AsposeArgumentOutOfRangeException(string message, string paramName)
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentOutOfRangeException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../) class with a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(Exception innerException)
@@ -131,8 +131,8 @@ public AsposeArgumentOutOfRangeException(Exception innerException)
 
 ### See Also
 
-* class [AsposeArgumentOutOfRangeException](../../asposeargumentoutofrangeexception)
-* namespace [Aspose.Email](../../asposeargumentoutofrangeexception)
+* class [AsposeArgumentOutOfRangeException](../)
+* namespace [Aspose.Email](../../asposeargumentoutofrangeexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

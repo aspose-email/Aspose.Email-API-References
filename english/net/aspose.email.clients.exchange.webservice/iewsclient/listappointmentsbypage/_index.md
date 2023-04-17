@@ -1,7 +1,7 @@
 ---
-title: ListAppointmentsByPage
+title: IEWSClient.ListAppointmentsByPage
 second_title: Aspose.Email for .NET API Reference
-description: Retrieves page with appointments for calendar folder
+description: IEWSClient method. Retrieves page with appointments for calendar folder
 type: docs
 weight: 1080
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage/
@@ -24,9 +24,9 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -50,9 +50,9 @@ Returns collection of appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -67,7 +67,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
 ### Return Value
@@ -76,10 +76,10 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -96,7 +96,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderUri | String | A folder to search appointments in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
 ### Return Value
@@ -105,10 +105,10 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -132,9 +132,9 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -160,9 +160,9 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -177,7 +177,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
@@ -187,10 +187,10 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -207,7 +207,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderUri | String | A folder to search appointments in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
@@ -217,10 +217,10 @@ Returns page with appointments
 
 ### See Also
 
-* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [AppointmentPageInfo](../../../aspose.email.clients.exchange/appointmentpageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

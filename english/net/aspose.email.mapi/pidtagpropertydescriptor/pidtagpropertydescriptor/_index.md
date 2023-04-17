@@ -1,14 +1,14 @@
 ---
-title: PidTagPropertyDescriptor
+title: PidTagPropertyDescriptor.PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor class A property that is defined by a 16bit property ID and a 16bit property type. The property ID for a tagged property is in the range 0x001  0x7FFF. Property IDs in the range 0x8000  0x8FFF are reserved for assignment to named properties
+description: PidTagPropertyDescriptor constructor. Initializes a new instance of the PidTagPropertyDescriptor class A property that is defined by a 16bit property ID and a 16bit property type. The property ID for a tagged property is in the range 0x001  0x7FFF. Property IDs in the range 0x8000  0x8FFF are reserved for assignment to named properties
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/pidtagpropertydescriptor/
 ---
 ## PidTagPropertyDescriptor(int, PropertyDataType) {#constructor}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
 ```csharp
 public PidTagPropertyDescriptor(int id, PropertyDataType type)
@@ -21,16 +21,16 @@ public PidTagPropertyDescriptor(int id, PropertyDataType type)
 
 ### See Also
 
-* enum [PropertyDataType](../../propertydatatype)
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PidTagPropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## PidTagPropertyDescriptor(string, int, PropertyDataType) {#constructor_2}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType type)
@@ -44,16 +44,16 @@ public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType t
 
 ### See Also
 
-* enum [PropertyDataType](../../propertydatatype)
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PidTagPropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## PidTagPropertyDescriptor(string, string, int, PropertyDataType) {#constructor_3}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, string name, int id, PropertyDataType type)
@@ -68,16 +68,16 @@ public PidTagPropertyDescriptor(string canonicalName, string name, int id, Prope
 
 ### See Also
 
-* enum [PropertyDataType](../../propertydatatype)
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PidTagPropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## PidTagPropertyDescriptor(long) {#constructor_1}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
 ```csharp
 public PidTagPropertyDescriptor(long tag)
@@ -89,15 +89,15 @@ public PidTagPropertyDescriptor(long tag)
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor)
+* class [PidTagPropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## PidTagPropertyDescriptor(string, string, long) {#constructor_4}
 
-Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
+Initializes a new instance of the [`PidTagPropertyDescriptor`](../) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
 ```csharp
 public PidTagPropertyDescriptor(string canonicalName, string name, long tag)
@@ -111,8 +111,8 @@ public PidTagPropertyDescriptor(string canonicalName, string name, long tag)
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor)
+* class [PidTagPropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../pidtagpropertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

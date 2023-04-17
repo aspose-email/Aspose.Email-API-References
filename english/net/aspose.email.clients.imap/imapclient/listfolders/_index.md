@@ -1,9 +1,9 @@
 ---
-title: ListFolders
+title: ImapClient.ListFolders
 second_title: Aspose.Email for .NET API Reference
-description: Gets the list of folders in the mailbox
+description: ImapClient method. Gets the list of folders in the mailbox
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.email.clients.imap/imapclient/listfolders/
 ---
 ## ListFolders(IConnection) {#listfolders_1}
@@ -24,10 +24,10 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -51,10 +51,10 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -78,10 +78,10 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -100,9 +100,9 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -125,9 +125,9 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -150,9 +150,9 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -176,9 +176,9 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -204,10 +204,10 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -234,11 +234,11 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* enum [ListFoldersOptions](../../listfoldersoptions)
-* enum [ListFoldersReturnOptions](../../listfoldersreturnoptions)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* enum [ListFoldersOptions](../../listfoldersoptions/)
+* enum [ListFoldersReturnOptions](../../listfoldersreturnoptions/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -266,12 +266,12 @@ Collection of ImapFolderInfo objects
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [ListFoldersOptions](../../listfoldersoptions)
-* enum [ListFoldersReturnOptions](../../listfoldersreturnoptions)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [ListFoldersOptions](../../listfoldersoptions/)
+* enum [ListFoldersReturnOptions](../../listfoldersreturnoptions/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

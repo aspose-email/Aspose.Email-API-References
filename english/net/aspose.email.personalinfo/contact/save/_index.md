@@ -1,14 +1,14 @@
 ---
-title: Save
+title: Contact.Save
 second_title: Aspose.Email for .NET API Reference
-description: Saves this MapiContactaspose.email.mapi/mapicontact into the given stream with vCard format. The supported vCard version is 2.1
+description: Contact method. Saves this MapiContact into the given stream with vCard format. The supported vCard version is 2.1
 type: docs
 weight: 410
 url: /net/aspose.email.personalinfo/contact/save/
 ---
 ## Save(Stream) {#save}
 
-Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) into the given stream with vCard format. The supported vCard version is 2.1
+Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact/) into the given stream with vCard format. The supported vCard version is 2.1
 
 ```csharp
 public void Save(Stream stream)
@@ -27,15 +27,15 @@ public void Save(Stream stream)
 
 ### See Also
 
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Save(string) {#save_3}
 
-Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1
+Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact/) to the vCard file with a default options. The supported vCard version is 2.1
 
 ```csharp
 public void Save(string filePath)
@@ -53,15 +53,15 @@ public void Save(string filePath)
 
 ### See Also
 
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Save(string, ContactSaveOptions) {#save_5}
 
-Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
+Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact/) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions/)
 
 ```csharp
 public void Save(string filePath, ContactSaveOptions saveOptions)
@@ -82,16 +82,16 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ### See Also
 
-* class [ContactSaveOptions](../../../aspose.email.mapi/contactsaveoptions)
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* class [ContactSaveOptions](../../../aspose.email.mapi/contactsaveoptions/)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Save(string, ContactSaveFormat) {#save_4}
 
-Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact) to the specified file with a format using the default options. The supported save format is vCard.
+Saves this [`MapiContact`](../../../aspose.email.mapi/mapicontact/) to the specified file with a format using the default options. The supported save format is vCard.
 
 ```csharp
 public void Save(string filePath, ContactSaveFormat saveFormat)
@@ -104,16 +104,16 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ### See Also
 
-* enum [ContactSaveFormat](../../../aspose.email.mapi/contactsaveformat)
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* enum [ContactSaveFormat](../../../aspose.email.mapi/contactsaveformat/)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Save(Stream, ContactSaveFormat) {#save_1}
 
-Saves this [`Contact`](../../contact) to the given stream with a format using the default options.
+Saves this [`Contact`](../) to the given stream with a format using the default options.
 
 ```csharp
 public void Save(Stream stream, ContactSaveFormat saveFormat)
@@ -126,16 +126,16 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ### See Also
 
-* enum [ContactSaveFormat](../../../aspose.email.mapi/contactsaveformat)
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* enum [ContactSaveFormat](../../../aspose.email.mapi/contactsaveformat/)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Save(Stream, ContactSaveOptions) {#save_2}
 
-Saves this [`Contact`](../../contact) to the given stream using specified save options.
+Saves this [`Contact`](../) to the given stream using specified save options.
 
 ```csharp
 public void Save(Stream stream, ContactSaveOptions saveOptions)
@@ -148,9 +148,9 @@ public void Save(Stream stream, ContactSaveOptions saveOptions)
 
 ### See Also
 
-* class [ContactSaveOptions](../../../aspose.email.mapi/contactsaveoptions)
-* class [Contact](../../contact)
-* namespace [Aspose.Email.PersonalInfo](../../contact)
+* class [ContactSaveOptions](../../../aspose.email.mapi/contactsaveoptions/)
+* class [Contact](../)
+* namespace [Aspose.Email.PersonalInfo](../../contact/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

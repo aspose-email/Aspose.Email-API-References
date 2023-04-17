@@ -1,14 +1,14 @@
 ---
-title: AsposeArgumentException
+title: AsposeArgumentException.AsposeArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the AsposeArgumentExceptionaspose.email/asposeargumentexception class.
+description: AsposeArgumentException constructor. Initializes a new instance of the AsposeArgumentException class
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentexception/asposeargumentexception/
 ---
 ## AsposeArgumentException() {#constructor}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class.
+Initializes a new instance of the [`AsposeArgumentException`](../) class.
 
 ```csharp
 public AsposeArgumentException()
@@ -16,15 +16,15 @@ public AsposeArgumentException()
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentException(string) {#constructor_2}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentException(string message)
@@ -36,15 +36,15 @@ public AsposeArgumentException(string message)
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentException(string, string) {#constructor_5}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentException(string format, string parameter)
@@ -57,15 +57,15 @@ public AsposeArgumentException(string format, string parameter)
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentException(string, params object[]) {#constructor_4}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentException(string format, params object[] parameters)
@@ -78,15 +78,15 @@ public AsposeArgumentException(string format, params object[] parameters)
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentException(string, Exception) {#constructor_3}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentException`](../) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentException(string message, Exception innerException)
@@ -99,15 +99,15 @@ public AsposeArgumentException(string message, Exception innerException)
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`AsposeArgumentException`](../../asposeargumentexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentException`](../) class with a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentException(Exception innerException)
@@ -119,8 +119,8 @@ public AsposeArgumentException(Exception innerException)
 
 ### See Also
 
-* class [AsposeArgumentException](../../asposeargumentexception)
-* namespace [Aspose.Email](../../asposeargumentexception)
+* class [AsposeArgumentException](../)
+* namespace [Aspose.Email](../../asposeargumentexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

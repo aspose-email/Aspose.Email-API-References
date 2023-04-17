@@ -1,105 +1,11 @@
 ---
-title: RemoveMessageFlags
+title: ImapClient.RemoveMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: Removes the flags of the message
+description: ImapClient method. Removes the flags of the message
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.email.clients.imap/imapclient/removemessageflags/
 ---
-## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_22}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_20}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_8}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
-    ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_6}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
-    ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_23}
 
 Removes the flags of the message
@@ -117,9 +23,9 @@ public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -141,9 +47,9 @@ public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -166,10 +72,10 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -192,10 +98,10 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequence
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -215,10 +121,10 @@ public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -240,11 +146,11 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -266,10 +172,10 @@ public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -292,11 +198,11 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -317,10 +223,10 @@ public void RemoveMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -341,10 +247,10 @@ public void RemoveMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -364,9 +270,9 @@ public void RemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -386,9 +292,9 @@ public void RemoveMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -411,10 +317,10 @@ public void RemoveMessageFlags(IConnection connection, int sequenceNumber, ImapM
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -437,10 +343,10 @@ public void RemoveMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -462,9 +368,9 @@ public void RemoveMessageFlags(int sequenceNumber, ImapMessageFlags flags,
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -485,9 +391,9 @@ public void RemoveMessageFlags(string uniqueId, ImapMessageFlags flags, long mod
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -508,9 +414,9 @@ public void RemoveMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -531,9 +437,9 @@ public void RemoveMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -556,10 +462,10 @@ public void RemoveMessageFlags(IConnection connection, string startUid, string e
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -582,10 +488,10 @@ public void RemoveMessageFlags(IConnection connection, int startSequence, int en
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -608,9 +514,9 @@ public void RemoveMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -633,9 +539,9 @@ public void RemoveMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ### See Also
 
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -659,10 +565,10 @@ public void RemoveMessageFlags(IConnection connection, string startUid, string e
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -686,10 +592,104 @@ public void RemoveMessageFlags(IConnection connection, int startSequence, int en
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageFlags](../../imapmessageflags)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+---
+
+## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_22}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_20}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_8}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
+    ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_6}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
+    ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+

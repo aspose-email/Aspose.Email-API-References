@@ -1,7 +1,7 @@
 ---
-title: SendAsync
+title: SmtpClient.SendAsync
 second_title: Aspose.Email for .NET API Reference
-description: Creates and sends the specified message.
+description: SmtpClient method. Creates and sends the specified message
 type: docs
 weight: 180
 url: /net/aspose.email.clients.smtp/smtpclient/sendasync/
@@ -27,8 +27,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -51,9 +51,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -76,9 +76,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -101,9 +101,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -126,9 +126,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -156,9 +156,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -182,10 +182,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -209,10 +209,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -236,10 +236,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -263,10 +263,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -294,8 +294,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -319,9 +319,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -345,9 +345,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -371,9 +371,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -397,9 +397,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -428,9 +428,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -455,10 +455,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -484,10 +484,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -513,10 +513,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -542,10 +542,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -558,9 +558,9 @@ public Task SendAsync(SmtpSend parameters)
 
 ### See Also
 
-* class [SmtpSend](../../../aspose.email.clients.smtp.models/smtpsend)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [SmtpSend](../../../aspose.email.clients.smtp.models/smtpsend/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

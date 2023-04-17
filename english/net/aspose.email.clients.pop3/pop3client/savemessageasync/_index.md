@@ -1,7 +1,7 @@
 ---
-title: SaveMessageAsync
+title: Pop3Client.SaveMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: Fetches and save the message as a stream
+description: Pop3Client method. Fetches and save the message as a stream
 type: docs
 weight: 360
 url: /net/aspose.email.clients.pop3/pop3client/savemessageasync/
@@ -26,9 +26,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -53,9 +53,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -80,9 +80,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -107,9 +107,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -133,8 +133,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -158,8 +158,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -183,8 +183,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -208,8 +208,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -236,9 +236,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -265,9 +265,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -294,9 +294,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -323,9 +323,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -350,8 +350,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -376,8 +376,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -402,8 +402,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -428,8 +428,8 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

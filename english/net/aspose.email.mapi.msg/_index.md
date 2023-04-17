@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email.Mapi.Msg
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Mapi.Msg provides classes that represent an alternative implementation of the Outlook MSG format.
+description: The Aspose.Email.Mapi.Msg provides classes that represent an alternative implementation of the Outlook MSG format
 type: docs
 weight: 320
 url: /net/aspose.email.mapi.msg/
@@ -12,29 +12,29 @@ The **Aspose.Email.Mapi.Msg** provides classes that represent an alternative imp
 
 | Class | Description |
 | --- | --- |
-| [CustomAttachmentStorage](./customattachmentstorage) | Represents custom attachment storage. |
-| [MapiGuidConstants](./mapiguidconstants) | Contains several guid constants defined by MSG format specification. |
-| [MessageObject](./messageobject) | Represents an Outlook message object. Evaluation limits: only 1 attachment and 1 recipient are read when message is being loaded, watermark will be added when the message is being saved. |
-| [MessageObjectAttachmentEntity](./messageobjectattachmententity) | Represents an attachment entity. |
-| [MessageObjectAttachmentsCollection](./messageobjectattachmentscollection) | Represents a collection for [`MessageObjectAttachmentEntity`](../aspose.email.mapi.msg/messageobjectattachmententity) objects. |
-| [MessageObjectPropertiesCollection](./messageobjectpropertiescollection) | Represents a keyed collection for [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty) objects. |
-| [MessageObjectProperty](./messageobjectproperty) | Represents a property on a [`MessageObject`](../aspose.email.mapi.msg/messageobject). |
-| [MessageObjectPropertyComparerById](./messageobjectpropertycomparerbyid) |  |
-| [MessageObjectRecipientEntity](./messageobjectrecipiententity) | Represens a recipient entry in message object. |
-| [MessageObjectRecipientsCollection](./messageobjectrecipientscollection) | Represents a collection for [`MessageObjectRecipientEntity`](../aspose.email.mapi.msg/messageobjectrecipiententity) objects. |
+| [CustomAttachmentStorage](./customattachmentstorage/) | Represents custom attachment storage. |
+| [MapiGuidConstants](./mapiguidconstants/) | Contains several guid constants defined by MSG format specification. |
+| [MessageObject](./messageobject/) | Represents an Outlook message object. Evaluation limits: only 1 attachment and 1 recipient are read when message is being loaded, watermark will be added when the message is being saved. |
+| [MessageObjectAttachmentEntity](./messageobjectattachmententity/) | Represents an attachment entity. |
+| [MessageObjectAttachmentsCollection](./messageobjectattachmentscollection/) | Represents a collection for [`MessageObjectAttachmentEntity`](../aspose.email.mapi.msg/messageobjectattachmententity/) objects. |
+| [MessageObjectPropertiesCollection](./messageobjectpropertiescollection/) | Represents a keyed collection for [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty/) objects. |
+| [MessageObjectProperty](./messageobjectproperty/) | Represents a property on a [`MessageObject`](../aspose.email.mapi.msg/messageobject/). |
+| [MessageObjectPropertyComparerById](./messageobjectpropertycomparerbyid/) |  |
+| [MessageObjectRecipientEntity](./messageobjectrecipiententity/) | Represens a recipient entry in message object. |
+| [MessageObjectRecipientsCollection](./messageobjectrecipientscollection/) | Represents a collection for [`MessageObjectRecipientEntity`](../aspose.email.mapi.msg/messageobjectrecipiententity/) objects. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IMessageObjectPropertyContainer](./imessageobjectpropertycontainer) | Defines an interface for container which contains [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty) entries. |
+| [IMessageObjectPropertyContainer](./imessageobjectpropertycontainer/) | Defines an interface for container which contains [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty/) entries. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [MapiPropertyFlags](./mapipropertyflags) | Represents flags which can be set on a MAPI property. |
-| [MapiType](./mapitype) | Contains possible MAPI property types which can be stored with message object. |
-| [MessageObjectLoadFormat](./messageobjectloadformat) | Represents available formats [`MessageObject`](../aspose.email.mapi.msg/messageobject) could be loaded from. |
-| [MessageObjectSaveFormat](./messageobjectsaveformat) | Represents available formats [`MessageObject`](../aspose.email.mapi.msg/messageobject) could be saved to. |
-| [NamedPropertyKind](./namedpropertykind) | Identifies [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty) kind. |
+| [MapiPropertyFlags](./mapipropertyflags/) | Represents flags which can be set on a MAPI property. |
+| [MapiType](./mapitype/) | Contains possible MAPI property types which can be stored with message object. |
+| [MessageObjectLoadFormat](./messageobjectloadformat/) | Represents available formats [`MessageObject`](../aspose.email.mapi.msg/messageobject/) could be loaded from. |
+| [MessageObjectSaveFormat](./messageobjectsaveformat/) | Represents available formats [`MessageObject`](../aspose.email.mapi.msg/messageobject/) could be saved to. |
+| [NamedPropertyKind](./namedpropertykind/) | Identifies [`MessageObjectProperty`](../aspose.email.mapi.msg/messageobjectproperty/) kind. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

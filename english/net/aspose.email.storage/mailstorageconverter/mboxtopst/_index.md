@@ -1,7 +1,7 @@
 ---
-title: MboxToPst
+title: MailStorageConverter.MboxToPst
 second_title: Aspose.Email for .NET API Reference
-description: Converts an Mbox storage to PST.
+description: MailStorageConverter method. Converts an Mbox storage to PST
 type: docs
 weight: 20
 url: /net/aspose.email.storage/mailstorageconverter/mboxtopst/
@@ -21,7 +21,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName)
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -30,15 +30,15 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentException | If *mboxFileName* is null or empty. |
 | ArgumentException | If *pstFileName* is null or empty. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -56,11 +56,11 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 | --- | --- | --- |
 | mboxFileName | String | Mbox file name. |
 | pstFileName | String | PST file name. |
-| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler) delegate is called for each message that is read from Mbox. |
+| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler/) delegate is called for each message that is read from Mbox. |
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -69,16 +69,16 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentException | If *mboxFileName* is null or empty. |
 | ArgumentException | If *pstFileName* is null or empty. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* delegate [MailHandler](../../mailstorageconverter.mailhandler)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -98,7 +98,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -107,15 +107,15 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentNullException | If *mboxrdDataStream* is null. |
 | ArgumentException | If *pstFileName* is null or empty. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -133,11 +133,11 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 | --- | --- | --- |
 | mboxrdDataStream | Stream | A Stream that represents data in Mbox format. |
 | pstFileName | String | PST file name. |
-| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler) delegate is called for each message that is read from Mbox. |
+| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler/) delegate is called for each message that is read from Mbox. |
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -146,16 +146,16 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentNullException | If *mboxrdDataStream* is null. |
 | ArgumentException | If *pstFileName* is null or empty. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* delegate [MailHandler](../../mailstorageconverter.mailhandler)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -175,7 +175,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, Stream pstDataStrea
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -184,15 +184,15 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentException | If *mboxFileName* is null or empty. |
 | ArgumentNullException | If *pstDataStream* is null. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -210,11 +210,11 @@ public static PersonalStorage MboxToPst(string mboxFileName, Stream pstDataStrea
 | --- | --- | --- |
 | mboxFileName | String | Mbox file name. |
 | pstDataStream | Stream | A Stream that represents data in Pst format. |
-| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler) delegate is called for each message that is read from Mbox. |
+| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler/) delegate is called for each message that is read from Mbox. |
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -223,16 +223,16 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 | ArgumentException | If *mboxFileName* is null or empty. |
 | ArgumentNullException | If *pstDataStream* is null. |
 
-### Remarks
+## Remarks
 
 In addition the same set of exceptions can be thrown as for FileStream creation using the open/read, create/write mode.
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* delegate [MailHandler](../../mailstorageconverter.mailhandler)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -252,7 +252,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, Stream pstDataS
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -263,9 +263,9 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -283,11 +283,11 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, Stream pstDataS
 | --- | --- | --- |
 | mboxrdDataStream | Stream | A Stream that represents data in Mbox format. |
 | pstDataStream | Stream | A Stream that represents data in Pst format. |
-| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler) delegate is called for each message that is read from Mbox. |
+| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler/) delegate is called for each message that is read from Mbox. |
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -298,10 +298,10 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* delegate [MailHandler](../../mailstorageconverter.mailhandler)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -317,14 +317,14 @@ public static void MboxToPst(MboxStorageReader mboxStorageReader, PersonalStorag
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mboxStorageReader | MboxStorageReader | An [`MboxStorageReader`](../../../aspose.email.storage.mbox/mboxstoragereader) that represents an mbox-based mail storage reader. |
-| pst | PersonalStorage | A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) that represents a pst storage. |
+| mboxStorageReader | MboxStorageReader | An [`MboxStorageReader`](../../../aspose.email.storage.mbox/mboxstoragereader/) that represents an mbox-based mail storage reader. |
+| pst | PersonalStorage | A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) that represents a pst storage. |
 | pstFolderName | String | The folder name, at the root of the pst, where Mbox messages will be added. If this folder doesn't exist, it will be created. If the folder exists and isn't empty, new messages will be added to the existing ones. |
-| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler) delegate is called for each message that is read from Mbox. |
+| mailHandler | MailHandler | The [`MailHandler`](../../mailstorageconverter.mailhandler/) delegate is called for each message that is read from Mbox. |
 
 ### Return Value
 
-A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object that represents the converted storage.
+A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object that represents the converted storage.
 
 ### Exceptions
 
@@ -335,11 +335,11 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) object 
 
 ### See Also
 
-* class [MboxStorageReader](../../../aspose.email.storage.mbox/mboxstoragereader)
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* delegate [MailHandler](../../mailstorageconverter.mailhandler)
-* class [MailStorageConverter](../../mailstorageconverter)
-* namespace [Aspose.Email.Storage](../../mailstorageconverter)
+* class [MboxStorageReader](../../../aspose.email.storage.mbox/mboxstoragereader/)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

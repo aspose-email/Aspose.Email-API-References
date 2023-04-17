@@ -1,7 +1,7 @@
 ---
-title: GetMessageInfoAsync
+title: Pop3Client.GetMessageInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: Gets the information for that message
+description: Pop3Client method. Gets the information for that message
 type: docs
 weight: 240
 url: /net/aspose.email.clients.pop3/pop3client/getmessageinfoasync/
@@ -27,11 +27,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -55,10 +55,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -81,9 +81,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -107,10 +107,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -136,11 +136,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -164,10 +164,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -190,9 +190,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -216,10 +216,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -246,11 +246,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -276,10 +276,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -303,9 +303,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -331,10 +331,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -361,11 +361,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -391,10 +391,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -418,9 +418,9 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -446,10 +446,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfo](../../pop3messageinfo)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfo](../../pop3messageinfo/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+
