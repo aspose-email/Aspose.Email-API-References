@@ -66,6 +66,7 @@ The FolderInfo type exposes the following members:
 |update_message(entry_id, updated_message)|  |
 |change_container_class(container_class)|  |
 |change_display_name(new_name)|  |
+|get_predefined_type(get_for_top_level_parent)|  |
 
 ### See Also
 

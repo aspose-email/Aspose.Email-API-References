@@ -16,6 +16,8 @@ The EnumComparisonField type exposes the following members:
 | Name | Description |
 | :- | :- |
 |order_by(ascending)|  |
+|equals(value)|  |
+|not_equals(value)|  |
 |not_in(values)|  |
 
 ### See Also

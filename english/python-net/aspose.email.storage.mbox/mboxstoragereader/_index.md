@@ -3,7 +3,7 @@ title: MboxStorageReader
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 
@@ -30,6 +30,9 @@ The MboxStorageReader type exposes the following members:
 |read_next_message(from_marker)|  |
 |read_next_message(options)|  |
 |read_next_message(from_marker, options)|  |
+|enumerate_message_info()|  |
+|extract_message(id, options)|  |
+|next_message()|  |
 |get_total_items_count()|  |
 
 ### See Also

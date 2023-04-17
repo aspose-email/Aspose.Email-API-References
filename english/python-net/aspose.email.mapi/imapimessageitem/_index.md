@@ -16,6 +16,7 @@ The IMapiMessageItem type exposes the following members:
 | Name | Description |
 | :- | :- |
 |message_class|Gets message class|
+|supported_type|Gets the supported item type.|
 |body|Gets message body|
 |subject|Gets message subject|
 

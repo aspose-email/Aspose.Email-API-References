@@ -108,6 +108,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiContactPhotoImageFormat](/email/python-net/aspose.email.mapi/mapicontactphotoimageformat/)|Enumerates MapiContact photo image format.|
 |[MapiDistributionListContactAddressType](/email/python-net/aspose.email.mapi/mapidistributionlistcontactaddresstype/)|Represents the address type of <br/>            a personal distribution list member.|
 |[MapiDistributionListEntryIdType](/email/python-net/aspose.email.mapi/mapidistributionlistentryidtype/)|Specifies the type of EntryID.|
+|[MapiItemType](/email/python-net/aspose.email.mapi/mapiitemtype/)|Represents a MAPI item type that can be explicitly converted into an object<br/>            of the corresponding class derived from the [IMapiMessageItem](/email/python-net/aspose.email.mapi/imapimessageitem/) interface.|
 |[MapiJournalDocumentStatus](/email/python-net/aspose.email.mapi/mapijournaldocumentstatus/)|Indicates the status of document.|
 |[MapiJournalFlags](/email/python-net/aspose.email.mapi/mapijournalflags/)|Contains metadata about the Journal object.<br/>            Must be either zero or the following values.|
 |[MapiMessageFlags](/email/python-net/aspose.email.mapi/mapimessageflags/)|MapiMessageFlags.|

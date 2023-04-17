@@ -29,6 +29,7 @@ The Attachment type exposes the following members:
 |headers|Gets headers collection of attachment.|
 |content_type|Gets or sets the type of the content.|
 |transfer_encoding|Gets or sets the transfer encoding.|
+|is_tnef|Gets a value indicating whether the attachment is TNEF formatted message.|
 |is_embedded_message|Gets a value indicating whether the attachment is an embedded message.|
 |name|Gets or sets an attachment name|
 |name_encoding|Gets or sets an encoding of attachment name|

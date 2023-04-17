@@ -3,7 +3,7 @@ title: FileCompatibilityMode
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 4920
+weight: 4930
 url: /python-net/aspose.email/filecompatibilitymode/
 ---
 

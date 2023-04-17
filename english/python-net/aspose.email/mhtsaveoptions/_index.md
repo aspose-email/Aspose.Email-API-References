@@ -39,6 +39,7 @@ The MhtSaveOptions type exposes the following members:
 |save_attachments|Gets or sets a value indicating whether to save attachments.|
 |preserve_original_date|Defines whether need keep original date in mail message when saving or not.<br/>            Default value is true.|
 |skip_inline_images|Defines whether skip references on images at saving in mhtml or not.<br/>            Default value is false.|
+|saved_headers|Gets list of headers which will be present in saved mhtml content.<br/>            Default value is empty list.|
 ## Methods
 | Name | Description |
 | :- | :- |

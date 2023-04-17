@@ -23,6 +23,7 @@ The MapiCalendarIcsSaveOptions type exposes the following members:
 |default_ics|Gets the default Ics save options.|
 |default_msg|Gets the default Msg save options.|
 |keep_original_date_time_stamp|  |
+|product_identifier|Gets or sets the product identifier.|
 ## Methods
 | Name | Description |
 | :- | :- |
