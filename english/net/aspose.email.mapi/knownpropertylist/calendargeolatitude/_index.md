@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarGeoLatitude
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the geographical latitude of the location of an appointment. Area Common Canonical name PidNameCalendarGeoLatitude Alternate names urnschemascalendargeolatitude
 type: docs
-weight: 2270
+weight: 2350
 url: /net/aspose.email.mapi/knownpropertylist/calendargeolatitude/
 ---
 ## KnownPropertyList.CalendarGeoLatitude field

@@ -3,7 +3,7 @@ title: KnownPropertyList.MobileTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the mail users cellular telephone number. Area Address Properties Canonical name PidTagMobileTelephoneNumber Alternate names PR_MOBILE_TELEPHONE_NUMBER PR_MOBILE_TELEPHONE_NUMBER_A
 type: docs
-weight: 12720
+weight: 12800
 url: /net/aspose.email.mapi/knownpropertylist/mobiletelephonenumber/
 ---
 ## KnownPropertyList.MobileTelephoneNumber field

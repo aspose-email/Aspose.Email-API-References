@@ -3,7 +3,7 @@ title: KnownPropertyList.AttachRendering
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a Windows Metafile as specified in MSWMF for the Attachment object. Area Message Attachment Properties Canonical name PidTagAttachRendering Alternate names PR_ATTACH_RENDERING ptagAttachRendering
 type: docs
-weight: 1780
+weight: 1860
 url: /net/aspose.email.mapi/knownpropertylist/attachrendering/
 ---
 ## KnownPropertyList.AttachRendering field

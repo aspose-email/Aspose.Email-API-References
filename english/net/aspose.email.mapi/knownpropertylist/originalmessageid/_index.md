@@ -3,7 +3,7 @@ title: KnownPropertyList.OriginalMessageId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the message ID of the original message included in replies or resent messages. Area Mail Canonical name PidTagOriginalMessageId Alternate names ptagOriginalInternetMessageID OriginalMessageId
 type: docs
-weight: 13640
+weight: 13720
 url: /net/aspose.email.mapi/knownpropertylist/originalmessageid/
 ---
 ## KnownPropertyList.OriginalMessageId field

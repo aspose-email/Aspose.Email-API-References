@@ -3,7 +3,7 @@ title: KnownPropertyList.Occurrences
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the number of occurrences in the recurring appointment or meeting. Area Calendar Canonical name PidLidOccurrences Alternate names
 type: docs
-weight: 13210
+weight: 13290
 url: /net/aspose.email.mapi/knownpropertylist/occurrences/
 ---
 ## KnownPropertyList.Occurrences field

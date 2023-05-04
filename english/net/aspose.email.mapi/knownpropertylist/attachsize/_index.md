@@ -3,7 +3,7 @@ title: KnownPropertyList.AttachSize
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the size in bytes consumed by the Attachment object on the server. Area Message Attachment Properties Canonical name PidTagAttachSize Alternate names PR_ATTACH_SIZE ptagAttachSize
 type: docs
-weight: 1790
+weight: 1870
 url: /net/aspose.email.mapi/knownpropertylist/attachsize/
 ---
 ## KnownPropertyList.AttachSize field

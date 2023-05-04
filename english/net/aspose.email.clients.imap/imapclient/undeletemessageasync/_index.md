@@ -6,60 +6,6 @@ type: docs
 weight: 1250
 url: /net/aspose.email.clients.imap/imapclient/undeletemessageasync/
 ---
-## UndeleteMessageAsync(int, long, CancellationToken) {#undeletemessageasync_10}
-
-Marks a message with the specified sequence number as not deleted
-
-```csharp
-public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of the message |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
-
-Marks a message with the specified sequence number as not deleted.
-
-```csharp
-public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## UndeleteMessageAsync(IConnection, int) {#undeletemessageasync}
 
 Marks a message with the specified sequence number as not deleted
@@ -422,6 +368,60 @@ Task object, with delegate for this operation
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessageAsync(int, long, CancellationToken) {#undeletemessageasync_10}
+
+Marks a message with the specified sequence number as not deleted
+
+```csharp
+public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
+
+Marks a message with the specified sequence number as not deleted.
+
+```csharp
+public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

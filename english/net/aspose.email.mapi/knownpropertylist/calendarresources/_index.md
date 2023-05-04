@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarResources
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies a list of resources such as rooms and video equipment that are available for an appointment. Area Common Canonical name PidNameCalendarResources Alternate names urnschemascalendarresources
 type: docs
-weight: 2380
+weight: 2460
 url: /net/aspose.email.mapi/knownpropertylist/calendarresources/
 ---
 ## KnownPropertyList.CalendarResources field

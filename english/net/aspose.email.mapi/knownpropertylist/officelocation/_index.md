@@ -3,7 +3,7 @@ title: KnownPropertyList.OfficeLocation
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the mail users office location. Area Address Properties Canonical name PidTagOfficeLocation Alternate names PR_OFFICE_LOCATION PR_OFFICE_LOCATION_A PR_OFFICE_LOCATION_W
 type: docs
-weight: 13220
+weight: 13300
 url: /net/aspose.email.mapi/knownpropertylist/officelocation/
 ---
 ## KnownPropertyList.OfficeLocation field

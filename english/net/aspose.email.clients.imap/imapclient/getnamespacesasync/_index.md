@@ -6,27 +6,6 @@ type: docs
 weight: 750
 url: /net/aspose.email.clients.imap/imapclient/getnamespacesasync/
 ---
-## GetNamespacesAsync() {#getnamespacesasync}
-
-Gets namespaces that are available on a server.
-
-```csharp
-public Task<ImapNamespace[]> GetNamespacesAsync()
-```
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapNamespace](../../imapnamespace/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## GetNamespacesAsync(IConnection) {#getnamespacesasync_1}
 
 Gets namespaces that are available on a server.
@@ -99,6 +78,27 @@ Task object, with delegate for this operation
 
 * class [ImapNamespace](../../imapnamespace/)
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## GetNamespacesAsync() {#getnamespacesasync}
+
+Gets namespaces that are available on a server.
+
+```csharp
+public Task<ImapNamespace[]> GetNamespacesAsync()
+```
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapNamespace](../../imapnamespace/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: KnownPropertyList.WeekInterval
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies the number of weeks that occur between each meeting. Area Meetings Canonical name PidLidWeekInterval Alternate names LID_WEEK_INTERVAL
 type: docs
-weight: 19350
+weight: 19430
 url: /net/aspose.email.mapi/knownpropertylist/weekinterval/
 ---
 ## KnownPropertyList.WeekInterval field

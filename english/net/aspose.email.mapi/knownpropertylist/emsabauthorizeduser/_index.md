@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbAuthorizedUser
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_AUTHORIZED_USER
 type: docs
-weight: 4820
+weight: 4900
 url: /net/aspose.email.mapi/knownpropertylist/emsabauthorizeduser/
 ---
 ## KnownPropertyList.EmsAbAuthorizedUser field

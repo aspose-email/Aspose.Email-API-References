@@ -3,7 +3,7 @@ title: KnownPropertyList.PostRssSubscription
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the users preferred name for the RSS or Atom subscription. Area RSS Canonical name PidLidPostRssSubscription Alternate names dispidPostRssSubscription
 type: docs
-weight: 14500
+weight: 14580
 url: /net/aspose.email.mapi/knownpropertylist/postrsssubscription/
 ---
 ## KnownPropertyList.PostRssSubscription field

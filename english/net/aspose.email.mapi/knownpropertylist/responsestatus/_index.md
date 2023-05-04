@@ -3,7 +3,7 @@ title: KnownPropertyList.ResponseStatus
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the response status of an attendee. Area Meetings Canonical name PidLidResponseStatus Alternate names dispidResponseStatus
 type: docs
-weight: 16200
+weight: 16280
 url: /net/aspose.email.mapi/knownpropertylist/responsestatus/
 ---
 ## KnownPropertyList.ResponseStatus field

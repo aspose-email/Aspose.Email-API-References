@@ -3,7 +3,7 @@ title: KnownPropertyList.CrossReference
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the name of the host with domains omitted and a whitespaceseparated list of colonseparated pairs of newsgroup names and message numbers. Area Email Canonical name PidNameCrossReference Alternate names urnschemasmailheaderxref
 type: docs
-weight: 3580
+weight: 3660
 url: /net/aspose.email.mapi/knownpropertylist/crossreference/
 ---
 ## KnownPropertyList.CrossReference field

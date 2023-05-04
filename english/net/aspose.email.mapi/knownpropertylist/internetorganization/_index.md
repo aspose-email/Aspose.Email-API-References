@@ -3,7 +3,7 @@ title: KnownPropertyList.InternetOrganization
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_INTERNET_ORGANIZATION
 type: docs
-weight: 11560
+weight: 11640
 url: /net/aspose.email.mapi/knownpropertylist/internetorganization/
 ---
 ## KnownPropertyList.InternetOrganization field

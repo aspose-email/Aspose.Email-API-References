@@ -3,7 +3,7 @@ title: KnownPropertyList.Thumbnail
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the data representing the thumbnail image of the document. Area Common Canonical name PidNameThumbnail Alternate names urnschemasmicrosoftcomofficeofficeThumbNail
 type: docs
-weight: 18950
+weight: 19030
 url: /net/aspose.email.mapi/knownpropertylist/thumbnail/
 ---
 ## KnownPropertyList.Thumbnail field

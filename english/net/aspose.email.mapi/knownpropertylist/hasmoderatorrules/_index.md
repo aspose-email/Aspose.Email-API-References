@@ -3,7 +3,7 @@ title: KnownPropertyList.HasModeratorRules
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_HAS_MODERATOR_RULES
 type: docs
-weight: 10860
+weight: 10940
 url: /net/aspose.email.mapi/knownpropertylist/hasmoderatorrules/
 ---
 ## KnownPropertyList.HasModeratorRules field

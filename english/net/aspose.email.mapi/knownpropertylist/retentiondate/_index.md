@@ -3,7 +3,7 @@ title: KnownPropertyList.RetentionDate
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the date in UTC after which a Message object is expired by the server. Area Archive Canonical name PidTagRetentionDate Alternate names PR_RETENTION_DATE ptagRetentionDate
 type: docs
-weight: 16240
+weight: 16320
 url: /net/aspose.email.mapi/knownpropertylist/retentiondate/
 ---
 ## KnownPropertyList.RetentionDate field

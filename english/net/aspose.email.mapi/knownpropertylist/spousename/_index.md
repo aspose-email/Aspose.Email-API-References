@@ -3,7 +3,7 @@ title: KnownPropertyList.SpouseName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the name of the mail users spouse/partner. Area MapiMailUser Canonical name PidTagSpouseName Alternate names PR_SPOUSE_NAME PR_SPOUSE_NAME_A PR_SPOUSE_NAME_W
 type: docs
-weight: 18140
+weight: 18220
 url: /net/aspose.email.mapi/knownpropertylist/spousename/
 ---
 ## KnownPropertyList.SpouseName field

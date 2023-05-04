@@ -3,7 +3,7 @@ title: KnownPropertyList.DocumentParts
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the title of each part of the document. Area Common Canonical name PidNameDocumentParts Alternate names urnschemasmicrosoftcomofficeofficePartTitles
 type: docs
-weight: 4270
+weight: 4350
 url: /net/aspose.email.mapi/knownpropertylist/documentparts/
 ---
 ## KnownPropertyList.DocumentParts field

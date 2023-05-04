@@ -3,7 +3,7 @@ title: KnownPropertyList.Template
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the template of the file attached to the Document object. Area Common Canonical name PidNameTemplate Alternate names urnschemasmicrosoftcomofficeofficeTemplate
 type: docs
-weight: 18900
+weight: 18980
 url: /net/aspose.email.mapi/knownpropertylist/template/
 ---
 ## KnownPropertyList.Template field

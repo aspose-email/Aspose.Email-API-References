@@ -3,7 +3,7 @@ title: KnownPropertyList.DeferredSendUnits
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the unit of time used as a multiplier with the PidTagDeferredSendNumber property section 2.654 value. Area MapiStatus Canonical name PidTagDeferredSendUnits Alternate names PR_DEFERRED_SEND_UNITS
 type: docs
-weight: 3810
+weight: 3890
 url: /net/aspose.email.mapi/knownpropertylist/deferredsendunits/
 ---
 ## KnownPropertyList.DeferredSendUnits field

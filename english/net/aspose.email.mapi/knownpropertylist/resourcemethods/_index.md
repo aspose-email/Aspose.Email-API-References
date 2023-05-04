@@ -3,7 +3,7 @@ title: KnownPropertyList.ResourceMethods
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_RESOURCE_METHODS
 type: docs
-weight: 16160
+weight: 16240
 url: /net/aspose.email.mapi/knownpropertylist/resourcemethods/
 ---
 ## KnownPropertyList.ResourceMethods field

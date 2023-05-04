@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbSiteFolderGuid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_SITE_FOLDER_GUID
 type: docs
-weight: 8850
+weight: 8930
 url: /net/aspose.email.mapi/knownpropertylist/emsabsitefolderguid/
 ---
 ## KnownPropertyList.EmsAbSiteFolderGuid field

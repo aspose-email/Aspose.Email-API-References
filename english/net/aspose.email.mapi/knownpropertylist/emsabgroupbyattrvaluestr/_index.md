@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbGroupByAttrValueStr
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_GROUP_BY_ATTR_VALUE_STR
 type: docs
-weight: 6470
+weight: 6550
 url: /net/aspose.email.mapi/knownpropertylist/emsabgroupbyattrvaluestr/
 ---
 ## KnownPropertyList.EmsAbGroupByAttrValueStr field

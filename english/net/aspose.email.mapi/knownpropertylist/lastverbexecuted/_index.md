@@ -3,7 +3,7 @@ title: KnownPropertyList.LastVerbExecuted
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the last verb executed for the message item to which it is related. Area History Properties Canonical name PidTagLastVerbExecuted Alternate names PR_LAST_VERB_EXECUTED ptagLastVerbExecuted
 type: docs
-weight: 12060
+weight: 12140
 url: /net/aspose.email.mapi/knownpropertylist/lastverbexecuted/
 ---
 ## KnownPropertyList.LastVerbExecuted field

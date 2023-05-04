@@ -3,7 +3,7 @@ title: KnownPropertyList.DepartmentName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a name for the department in which the mail user works. Area MapiMailUser Canonical name PidTagDepartmentName Alternate names PR_DEPARTMENT_NAME PR_DEPARTMENT_NAME_A PR_DEPARTMENT_NAME_W
 type: docs
-weight: 4000
+weight: 4080
 url: /net/aspose.email.mapi/knownpropertylist/departmentname/
 ---
 ## KnownPropertyList.DepartmentName field

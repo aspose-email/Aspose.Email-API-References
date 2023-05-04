@@ -3,7 +3,7 @@ title: KnownPropertyList.ProfileServerDn
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PROFILE_SERVER_DN
 type: docs
-weight: 14890
+weight: 14970
 url: /net/aspose.email.mapi/knownpropertylist/profileserverdn/
 ---
 ## KnownPropertyList.ProfileServerDn field

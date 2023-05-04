@@ -3,7 +3,7 @@ title: KnownPropertyList.PageCount
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the page count of the file attached to the Document object. Area Common Canonical name PidNamePageCount Alternate names urnschemasmicrosoftcomofficeofficePages
 type: docs
-weight: 14150
+weight: 14230
 url: /net/aspose.email.mapi/knownpropertylist/pagecount/
 ---
 ## KnownPropertyList.PageCount field

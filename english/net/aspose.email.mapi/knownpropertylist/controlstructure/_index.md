@@ -3,7 +3,7 @@ title: KnownPropertyList.ControlStructure
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_CONTROL_STRUCTURE
 type: docs
-weight: 3320
+weight: 3400
 url: /net/aspose.email.mapi/knownpropertylist/controlstructure/
 ---
 ## KnownPropertyList.ControlStructure field

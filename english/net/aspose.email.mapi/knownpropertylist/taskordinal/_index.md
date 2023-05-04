@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskOrdinal
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Provides an aid to custom sorting of Task objects. Area Tasks Canonical name PidLidTaskOrdinal Alternate names dispidTaskOrdinal
 type: docs
-weight: 18750
+weight: 18830
 url: /net/aspose.email.mapi/knownpropertylist/taskordinal/
 ---
 ## KnownPropertyList.TaskOrdinal field

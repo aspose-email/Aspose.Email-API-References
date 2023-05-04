@@ -3,7 +3,7 @@ title: KnownPropertyList.TypeOfMtsUser
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_TYPE_OF_MTS_USER
 type: docs
-weight: 19150
+weight: 19230
 url: /net/aspose.email.mapi/knownpropertylist/typeofmtsuser/
 ---
 ## KnownPropertyList.TypeOfMtsUser field

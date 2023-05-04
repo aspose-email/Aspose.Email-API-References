@@ -3,7 +3,7 @@ title: KnownPropertyList.Services
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_SERVICES
 type: docs
-weight: 17360
+weight: 17440
 url: /net/aspose.email.mapi/knownpropertylist/services/
 ---
 ## KnownPropertyList.Services field

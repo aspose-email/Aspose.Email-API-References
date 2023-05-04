@@ -3,7 +3,7 @@ title: KnownPropertyList.TraceInfo
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_TRACE_INFO
 type: docs
-weight: 19070
+weight: 19150
 url: /net/aspose.email.mapi/knownpropertylist/traceinfo/
 ---
 ## KnownPropertyList.TraceInfo field

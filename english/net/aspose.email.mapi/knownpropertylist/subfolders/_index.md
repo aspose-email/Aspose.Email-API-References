@@ -3,7 +3,7 @@ title: KnownPropertyList.Subfolders
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies whether a folder has subfolders. Area MapiContainer Canonical name PidTagSubfolders Alternate names PR_SUBFOLDERS ptagSubFolders DAVhassubs
 type: docs
-weight: 18330
+weight: 18410
 url: /net/aspose.email.mapi/knownpropertylist/subfolders/
 ---
 ## KnownPropertyList.Subfolders field

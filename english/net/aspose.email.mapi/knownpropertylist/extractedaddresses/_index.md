@@ -3,7 +3,7 @@ title: KnownPropertyList.ExtractedAddresses
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains an XML document with a single AddressSet element. Area Extracted Entities Canonical name PidNameExtractedAddresses Alternate names dispidXmlExtractedAddresses
 type: docs
-weight: 10040
+weight: 10120
 url: /net/aspose.email.mapi/knownpropertylist/extractedaddresses/
 ---
 ## KnownPropertyList.ExtractedAddresses field

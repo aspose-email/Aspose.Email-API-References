@@ -3,7 +3,7 @@ title: KnownPropertyList.MessageSize
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the size in bytes consumed by the Message object on the server. Area General Message Properties Canonical name PidTagMessageSize Alternate names PR_MESSAGE_SIZE ptagMessageSize
 type: docs
-weight: 12610
+weight: 12690
 url: /net/aspose.email.mapi/knownpropertylist/messagesize/
 ---
 ## KnownPropertyList.MessageSize field

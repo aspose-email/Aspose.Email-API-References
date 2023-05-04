@@ -3,7 +3,7 @@ title: KnownPropertyList.SubjectPrefix
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the prefix for the subject of the message. Area General Message Properties Canonical name PidTagSubjectPrefix Alternate names PR_SUBJECT_PREFIX PR_SUBJECT_PREFIX_A ptagSubjectPrefix PR_SUBJECT_PREFIX_W
 type: docs
-weight: 18360
+weight: 18440
 url: /net/aspose.email.mapi/knownpropertylist/subjectprefix/
 ---
 ## KnownPropertyList.SubjectPrefix field

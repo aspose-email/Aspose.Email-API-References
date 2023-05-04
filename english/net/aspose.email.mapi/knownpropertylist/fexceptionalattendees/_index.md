@@ -3,7 +3,7 @@ title: KnownPropertyList.FExceptionalAttendees
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates that the object is a Recurring Calendar object with one or more exceptions structure as described in MSOXCDATA section 2.8.3. Area Meetings Canonical name PidLidFExceptionalAttendees Alternate names dispidFExceptionalAttendees
 type: docs
-weight: 10260
+weight: 10340
 url: /net/aspose.email.mapi/knownpropertylist/fexceptionalattendees/
 ---
 ## KnownPropertyList.FExceptionalAttendees field

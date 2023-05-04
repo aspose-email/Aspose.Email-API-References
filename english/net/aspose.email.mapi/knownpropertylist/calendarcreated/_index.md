@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarCreated
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies the date and time in UTC when the organizer created the appointment or meeting. Area Common Canonical name PidNameCalendarCreated Alternate names urnschemascalendarcreated
 type: docs
-weight: 2220
+weight: 2300
 url: /net/aspose.email.mapi/knownpropertylist/calendarcreated/
 ---
 ## KnownPropertyList.CalendarCreated field

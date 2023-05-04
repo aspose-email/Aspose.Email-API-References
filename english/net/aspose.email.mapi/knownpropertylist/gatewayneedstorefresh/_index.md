@@ -3,7 +3,7 @@ title: KnownPropertyList.GatewayNeedsToRefresh
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. This property is deprecated and SHOULD NOT be used. Area MessageClassDefinedTransmittable Canonical name PidTagGatewayNeedsToRefresh Alternate names PR_GATEWAY_NEEDS_TO_REFRESH
 type: docs
-weight: 10730
+weight: 10810
 url: /net/aspose.email.mapi/knownpropertylist/gatewayneedstorefresh/
 ---
 ## KnownPropertyList.GatewayNeedsToRefresh field

@@ -3,7 +3,7 @@ title: KnownPropertyList.ProfileBindingOrder
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PROFILE_BINDING_ORDER
 type: docs
-weight: 14690
+weight: 14770
 url: /net/aspose.email.mapi/knownpropertylist/profilebindingorder/
 ---
 ## KnownPropertyList.ProfileBindingOrder field

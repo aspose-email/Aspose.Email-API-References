@@ -3,7 +3,7 @@ title: MapiTask.ReminderTime
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask property. Gets or sets the initial signal time for a reminder
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.email.mapi/mapitask/remindertime/
 ---
 ## MapiTask.ReminderTime property

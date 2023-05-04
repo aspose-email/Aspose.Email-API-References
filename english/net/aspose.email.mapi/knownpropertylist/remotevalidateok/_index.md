@@ -3,7 +3,7 @@ title: KnownPropertyList.RemoteValidateOk
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_REMOTE_VALIDATE_OK
 type: docs
-weight: 15820
+weight: 15900
 url: /net/aspose.email.mapi/knownpropertylist/remotevalidateok/
 ---
 ## KnownPropertyList.RemoteValidateOk field

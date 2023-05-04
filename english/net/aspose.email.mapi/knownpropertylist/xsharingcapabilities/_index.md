@@ -3,7 +3,7 @@ title: KnownPropertyList.XSharingCapabilities
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a string representation of the value of the PidLidSharingCapabilities property section 2.237. Area Sharing Canonical name PidNameXSharingCapabilities Alternate names
 type: docs
-weight: 19720
+weight: 19800
 url: /net/aspose.email.mapi/knownpropertylist/xsharingcapabilities/
 ---
 ## KnownPropertyList.XSharingCapabilities field

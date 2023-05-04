@@ -3,7 +3,7 @@ title: KnownPropertyList.OriginatorAddrtype
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_ORIGINATOR_ADDRTYPE
 type: docs
-weight: 13820
+weight: 13900
 url: /net/aspose.email.mapi/knownpropertylist/originatoraddrtype/
 ---
 ## KnownPropertyList.OriginatorAddrtype field

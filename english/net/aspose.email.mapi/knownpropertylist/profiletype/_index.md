@@ -3,7 +3,7 @@ title: KnownPropertyList.ProfileType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PROFILE_TYPE
 type: docs
-weight: 14910
+weight: 14990
 url: /net/aspose.email.mapi/knownpropertylist/profiletype/
 ---
 ## KnownPropertyList.ProfileType field

@@ -28,6 +28,13 @@ public class MailConversionOptions
 | [KeepOriginalEmailAddresses](../../aspose.email.mapi/mailconversionoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether need keep original email address. |
 | [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mailconversionoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
 | [PreserveRtfContent](../../aspose.email.mapi/mailconversionoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
+| [Timeout](../../aspose.email.mapi/mailconversionoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while converting. Default value 3 sec. |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [TimeoutReached](../../aspose.email.mapi/mailconversionoptions/timeoutreached/) | Raised if timed out while converting to MailMessage. |
 
 ### See Also
 

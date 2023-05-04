@@ -3,7 +3,7 @@ title: KnownPropertyList.Company
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the company for which the file was created. Area Common Canonical name PidNameCompany Alternate names urnschemasmicrosoftcomofficeofficeCompany
 type: docs
-weight: 2820
+weight: 2900
 url: /net/aspose.email.mapi/knownpropertylist/company/
 ---
 ## KnownPropertyList.Company field

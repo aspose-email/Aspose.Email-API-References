@@ -3,7 +3,7 @@ title: KnownPropertyList.WorkAddressCountry
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the country or region portion of the work address of the contact. Area Contact Properties Canonical name PidLidWorkAddressCountry Alternate names dispidWorkAddressCountry
 type: docs
-weight: 19570
+weight: 19650
 url: /net/aspose.email.mapi/knownpropertylist/workaddresscountry/
 ---
 ## KnownPropertyList.WorkAddressCountry field

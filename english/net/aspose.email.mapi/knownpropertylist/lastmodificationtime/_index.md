@@ -3,7 +3,7 @@ title: KnownPropertyList.LastModificationTime
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the time in UTC of the last modification to the object. Area Message Time Properties Canonical name PidTagLastModificationTime Alternate names PR_LAST_MODIFICATION_TIME ptagLastModificationTime
 type: docs
-weight: 12010
+weight: 12090
 url: /net/aspose.email.mapi/knownpropertylist/lastmodificationtime/
 ---
 ## KnownPropertyList.LastModificationTime field

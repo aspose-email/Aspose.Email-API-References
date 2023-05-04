@@ -3,7 +3,7 @@ title: KnownPropertyList.ReceivedRepresentingSearchKey
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies an address book search key that contains a binarycomparable key of the end user represented by the receiving mailbox owner. Area Address Properties Canonical name PidTagReceivedRepresentingSearchKey Alternate names PR_RCVD_REPRESENTING_SEARCH_KEY ptagRcvdRepresentingSearchKey
 type: docs
-weight: 15370
+weight: 15450
 url: /net/aspose.email.mapi/knownpropertylist/receivedrepresentingsearchkey/
 ---
 ## KnownPropertyList.ReceivedRepresentingSearchKey field

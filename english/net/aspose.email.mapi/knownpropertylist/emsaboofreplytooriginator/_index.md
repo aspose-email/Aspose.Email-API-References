@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbOofReplyToOriginator
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR
 type: docs
-weight: 7890
+weight: 7970
 url: /net/aspose.email.mapi/knownpropertylist/emsaboofreplytooriginator/
 ---
 ## KnownPropertyList.EmsAbOofReplyToOriginator field

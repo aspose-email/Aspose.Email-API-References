@@ -3,7 +3,7 @@ title: KnownPropertyList.Generation
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a generational abbreviation that follows the full name of the mail user. Area MapiMailUser Canonical name PidTagGeneration Alternate names PR_GENERATION PR_GENERATION_A PR_GENERATION_W
 type: docs
-weight: 10770
+weight: 10850
 url: /net/aspose.email.mapi/knownpropertylist/generation/
 ---
 ## KnownPropertyList.Generation field

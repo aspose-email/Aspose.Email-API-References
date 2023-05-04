@@ -3,7 +3,7 @@ title: KnownPropertyList.Email2DisplayName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the userreadable display name for the email address. Area Contact Properties Canonical name PidLidEmail2DisplayName Alternate names dispidEmail2DisplayName
 type: docs
-weight: 4380
+weight: 4460
 url: /net/aspose.email.mapi/knownpropertylist/email2displayname/
 ---
 ## KnownPropertyList.Email2DisplayName field

@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskAccepted
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether a task assignee has replied to a task request for this Task object. Area Tasks Canonical name PidLidTaskAccepted Alternate names dispidTaskAccepted
 type: docs
-weight: 18540
+weight: 18620
 url: /net/aspose.email.mapi/knownpropertylist/taskaccepted/
 ---
 ## KnownPropertyList.TaskAccepted field

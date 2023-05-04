@@ -3,7 +3,7 @@ title: KnownPropertyList.OldRecurrenceType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the recurrence pattern for the appointment or meeting. Area Meetings Canonical name PidLidOldRecurrenceType Alternate names LID_RECUR_TYPE
 type: docs
-weight: 13340
+weight: 13420
 url: /net/aspose.email.mapi/knownpropertylist/oldrecurrencetype/
 ---
 ## KnownPropertyList.OldRecurrenceType field

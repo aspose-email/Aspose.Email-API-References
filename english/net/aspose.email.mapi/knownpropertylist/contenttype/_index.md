@@ -3,7 +3,7 @@ title: KnownPropertyList.ContentType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the type of the body part content. Area Email Canonical name PidNameContentType Alternate names urnschemasmailheadercontenttype
 type: docs
-weight: 3280
+weight: 3360
 url: /net/aspose.email.mapi/knownpropertylist/contenttype/
 ---
 ## KnownPropertyList.ContentType field

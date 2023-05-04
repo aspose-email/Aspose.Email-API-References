@@ -3,7 +3,7 @@ title: KnownPropertyList.PostRssChannel
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the contents of the title field from the XML of the Atom feed or RSS channel. Area RSS Canonical name PidLidPostRssChannel Alternate names dispidPostRssChannel
 type: docs
-weight: 14440
+weight: 14520
 url: /net/aspose.email.mapi/knownpropertylist/postrsschannel/
 ---
 ## KnownPropertyList.PostRssChannel field

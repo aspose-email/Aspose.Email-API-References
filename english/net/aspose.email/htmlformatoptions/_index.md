@@ -28,7 +28,8 @@ public enum HtmlFormatOptions
 | WriteCompleteBccEmailAddress | `20` | Indicates that complete e-mail address should be written in 'Bcc' header. |
 | DisplayAsOutlook | `40` | Indicates that From header will be displayed as in Outlook. |
 | RenderCalendarEvent | `80` | Indicates that text from calendar event should be written in output mhtml. |
-| RenderVCardInfo | `100` | Indicates that text from VCard AlternativeView should be written in output mhtml. |
+| RenderVCardInfo | `100` | Indicates that text from VCard AlternativeView should be written in output html. |
+| RenderTaskFields | `200` | Indicates that the specific Task fields should be written in output html. |
 
 ### See Also
 

@@ -28,6 +28,7 @@ public class MapiAttachmentCollection : List<MapiAttachment>
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add/#add)(MapiAttachment) | Adds an object to the end of the Collection. |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add/#add_3)(string, byte[]) | Adds the new attachment. |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add/#add_2)(string, MapiMessage) | Adds the new attachment as embedded message. |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add/#add_4)(string, string, string, string) | Adds the reference attachment. |
 | [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert/#insert)(int, MapiAttachment) | Inserts an element into the Collection at the specified index. |
 | [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert/#insert_2)(int, string, MapiMessage) | Inserts a message as attachment into the `MapiAttachmentCollection` at the specified index. |
 | [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove/#remove)(MapiAttachment) | Removes the first occurrence of a specific object from the MapiAttachmentCollection. |

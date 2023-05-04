@@ -80,6 +80,10 @@ public class Appointment
 | [Save](../../aspose.email.calendar/appointment/save/#save_4)(string, AppointmentSaveFormat) | Saves appointment to the file with specified format using te default save options |
 | [Save](../../aspose.email.calendar/appointment/save/#save_5)(string, AppointmentSaveOptions) | Saves appointment to the file with specified save options |
 | [SetTimeZone](../../aspose.email.calendar/appointment/settimezone/)(string) | Set time zone |
+| [ToMailMessage](../../aspose.email.calendar/appointment/tomailmessage/#tomailmessage)() | Ñonverts ICalendar item (.ics) to MIME (.eml) message. |
+| [ToMailMessage](../../aspose.email.calendar/appointment/tomailmessage/#tomailmessage_1)(AppointmentAction) | Ñonverts ICalendar item (.ics) to MIME (.eml) message. |
+| [ToMailMessage](../../aspose.email.calendar/appointment/tomailmessage/#tomailmessage_2)(AppointmentAction, int) | Ñonverts ICalendar item (.ics) to MIME (.eml) message. |
+| [ToMapiMessage](../../aspose.email.calendar/appointment/tomapimessage/)() | Ñonverts ICalendar item (.ics) to MAPI (.msg) message. |
 | [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment/#updateappointment)() | Updates the appointment. |
 | [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment/#updateappointment_1)(int) | Updates the appointment. |
 

@@ -3,7 +3,7 @@ title: KnownPropertyList.ICalendarRecurrenceRule
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the rule for the pattern that defines a recurring appointment. Area Common Canonical name PidNameICalendarRecurrenceRule Alternate names urnschemascalendarrrule
 type: docs
-weight: 11170
+weight: 11250
 url: /net/aspose.email.mapi/knownpropertylist/icalendarrecurrencerule/
 ---
 ## KnownPropertyList.ICalendarRecurrenceRule field

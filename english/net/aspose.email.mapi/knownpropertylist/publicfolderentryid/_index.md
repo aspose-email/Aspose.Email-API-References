@@ -3,7 +3,7 @@ title: KnownPropertyList.PublicFolderEntryid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_PUBLIC_FOLDER_ENTRYID
 type: docs
-weight: 15130
+weight: 15210
 url: /net/aspose.email.mapi/knownpropertylist/publicfolderentryid/
 ---
 ## KnownPropertyList.PublicFolderEntryid field

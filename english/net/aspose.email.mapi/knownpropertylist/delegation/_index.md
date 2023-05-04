@@ -3,7 +3,7 @@ title: KnownPropertyList.Delegation
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_DELEGATION
 type: docs
-weight: 3850
+weight: 3930
 url: /net/aspose.email.mapi/knownpropertylist/delegation/
 ---
 ## KnownPropertyList.Delegation field

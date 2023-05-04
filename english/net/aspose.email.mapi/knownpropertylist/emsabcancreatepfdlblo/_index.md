@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbCanCreatePfDlBlO
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_CAN_CREATE_PF_DL_BL_O
 type: docs
-weight: 4980
+weight: 5060
 url: /net/aspose.email.mapi/knownpropertylist/emsabcancreatepfdlblo/
 ---
 ## KnownPropertyList.EmsAbCanCreatePfDlBlO field

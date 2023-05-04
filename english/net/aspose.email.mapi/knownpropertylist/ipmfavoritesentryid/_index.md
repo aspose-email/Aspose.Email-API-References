@@ -3,7 +3,7 @@ title: KnownPropertyList.IpmFavoritesEntryid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_IPM_FAVORITES_ENTRYID
 type: docs
-weight: 11650
+weight: 11730
 url: /net/aspose.email.mapi/knownpropertylist/ipmfavoritesentryid/
 ---
 ## KnownPropertyList.IpmFavoritesEntryid field

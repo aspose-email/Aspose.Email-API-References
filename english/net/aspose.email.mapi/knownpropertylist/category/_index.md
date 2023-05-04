@@ -3,7 +3,7 @@ title: KnownPropertyList.Category
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the category of the file attached to the Document object. Area Common Canonical name PidNameCategory Alternate names urnschemasmicrosoftcomofficeofficeCategory
 type: docs
-weight: 2520
+weight: 2600
 url: /net/aspose.email.mapi/knownpropertylist/category/
 ---
 ## KnownPropertyList.Category field

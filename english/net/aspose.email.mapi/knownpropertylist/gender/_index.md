@@ -3,7 +3,7 @@ title: KnownPropertyList.Gender
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a value that represents the mail users gender. Area MapiMailUser Canonical name PidTagGender Alternate names PR_GENDER urnschemascontactsgender
 type: docs
-weight: 10760
+weight: 10840
 url: /net/aspose.email.mapi/knownpropertylist/gender/
 ---
 ## KnownPropertyList.Gender field

@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskStartDate
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the date on which the user expects work on the task to begin. Area Tasks Canonical name PidLidTaskStartDate Alternate names dispidTaskStartDate
 type: docs
-weight: 18810
+weight: 18890
 url: /net/aspose.email.mapi/knownpropertylist/taskstartdate/
 ---
 ## KnownPropertyList.TaskStartDate field

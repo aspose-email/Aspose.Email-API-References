@@ -3,7 +3,7 @@ title: KnownPropertyList.MonthInterval
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the monthly interval of the appointment or meeting. Area Meetings Canonical name PidLidMonthInterval Alternate names LID_MONTH_INTERVAL
 type: docs
-weight: 12740
+weight: 12820
 url: /net/aspose.email.mapi/knownpropertylist/monthinterval/
 ---
 ## KnownPropertyList.MonthInterval field

@@ -3,7 +3,7 @@ title: KnownPropertyList.SharingRemoteType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the same value as the PidLidSharingLocalType property section 2.259. Area Sharing Canonical name PidLidSharingRemoteType Alternate names dispidSharingRemoteType
 type: docs
-weight: 17860
+weight: 17940
 url: /net/aspose.email.mapi/knownpropertylist/sharingremotetype/
 ---
 ## KnownPropertyList.SharingRemoteType field

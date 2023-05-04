@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarProductId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies the product that created the iCalendarformatted stream. Area Common Canonical name PidNameCalendarProductId Alternate names urnschemascalendarprodid
 type: docs
-weight: 2350
+weight: 2430
 url: /net/aspose.email.mapi/knownpropertylist/calendarproductid/
 ---
 ## KnownPropertyList.CalendarProductId field

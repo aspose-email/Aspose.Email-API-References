@@ -3,7 +3,7 @@ title: KnownPropertyList.ReminderTimeTime
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the time of the reminder for the appointment or meeting. Area Reminders Canonical name PidLidReminderTimeTime Alternate names dispidReminderTimeTime
 type: docs
-weight: 15760
+weight: 15840
 url: /net/aspose.email.mapi/knownpropertylist/remindertimetime/
 ---
 ## KnownPropertyList.ReminderTimeTime field

@@ -3,7 +3,7 @@ title: KnownPropertyList.SecureInSite
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_SECURE_IN_SITE
 type: docs
-weight: 17040
+weight: 17120
 url: /net/aspose.email.mapi/knownpropertylist/secureinsite/
 ---
 ## KnownPropertyList.SecureInSite field

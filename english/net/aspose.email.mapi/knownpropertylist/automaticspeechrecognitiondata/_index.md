@@ -3,7 +3,7 @@ title: KnownPropertyList.AutomaticSpeechRecognitionData
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains an unprotected voice message. Area Unified Messaging Canonical name PidNameAutomaticSpeechRecognitionData Alternate names
 type: docs
-weight: 1930
+weight: 2010
 url: /net/aspose.email.mapi/knownpropertylist/automaticspeechrecognitiondata/
 ---
 ## KnownPropertyList.AutomaticSpeechRecognitionData field

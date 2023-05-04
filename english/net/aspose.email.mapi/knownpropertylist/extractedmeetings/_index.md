@@ -3,7 +3,7 @@ title: KnownPropertyList.ExtractedMeetings
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains an XML document with a single MeetingSet element. Area Extracted Entities Canonical name PidNameExtractedMeetings Alternate names dispidXmlExtractedMeetings
 type: docs
-weight: 10070
+weight: 10150
 url: /net/aspose.email.mapi/knownpropertylist/extractedmeetings/
 ---
 ## KnownPropertyList.ExtractedMeetings field

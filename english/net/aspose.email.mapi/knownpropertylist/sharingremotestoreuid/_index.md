@@ -3,7 +3,7 @@ title: KnownPropertyList.SharingRemoteStoreUid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a hexadecimal string representation of the value of the PidTagStoreEntryId property section 2.1018 on the folder being shared. Area Sharing Canonical name PidLidSharingRemoteStoreUid Alternate names dispidSharingRemoteStoreUid
 type: docs
-weight: 17850
+weight: 17930
 url: /net/aspose.email.mapi/knownpropertylist/sharingremotestoreuid/
 ---
 ## KnownPropertyList.SharingRemoteStoreUid field

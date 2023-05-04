@@ -3,7 +3,7 @@ title: KnownPropertyList.LogType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Briefly describes the journal activity that is being recorded. Area Journal Canonical name PidLidLogType Alternate names dispidLogType
 type: docs
-weight: 12290
+weight: 12370
 url: /net/aspose.email.mapi/knownpropertylist/logtype/
 ---
 ## KnownPropertyList.LogType field

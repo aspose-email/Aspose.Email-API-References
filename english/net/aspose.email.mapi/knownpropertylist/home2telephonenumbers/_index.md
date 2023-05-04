@@ -3,7 +3,7 @@ title: KnownPropertyList.Home2TelephoneNumbers
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains secondary telephone numbers at the mail users home. Area MapiMailUser Canonical name PidTagHome2TelephoneNumbers Alternate names PR_HOME2_TELEPHONE_NUMBER_A_MV
 type: docs
-weight: 10990
+weight: 11070
 url: /net/aspose.email.mapi/knownpropertylist/home2telephonenumbers/
 ---
 ## KnownPropertyList.Home2TelephoneNumbers field

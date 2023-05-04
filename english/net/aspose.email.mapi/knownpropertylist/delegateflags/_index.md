@@ -3,7 +3,7 @@ title: KnownPropertyList.DelegateFlags
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether delegates can view Message objects that are marked as private. Area MessageClassDefinedTransmittable Canonical name PidTagDelegateFlags Alternate names PR_DELEGATE_FLAGS ptagDelegateFlags
 type: docs
-weight: 3830
+weight: 3910
 url: /net/aspose.email.mapi/knownpropertylist/delegateflags/
 ---
 ## KnownPropertyList.DelegateFlags field

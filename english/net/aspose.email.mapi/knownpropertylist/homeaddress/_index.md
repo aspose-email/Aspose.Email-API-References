@@ -3,7 +3,7 @@ title: KnownPropertyList.HomeAddress
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the complete address of the home address of the contact. Area Contact Properties Canonical name PidLidHomeAddress Alternate names dispidHomeAddress
 type: docs
-weight: 11000
+weight: 11080
 url: /net/aspose.email.mapi/knownpropertylist/homeaddress/
 ---
 ## KnownPropertyList.HomeAddress field

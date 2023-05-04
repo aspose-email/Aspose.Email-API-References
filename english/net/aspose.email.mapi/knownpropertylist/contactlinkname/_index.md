@@ -3,7 +3,7 @@ title: KnownPropertyList.ContactLinkName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Area Contact Properties Canonical name PidLidContactLinkName Alternate names dispidContactLinkName
 type: docs
-weight: 3010
+weight: 3090
 url: /net/aspose.email.mapi/knownpropertylist/contactlinkname/
 ---
 ## KnownPropertyList.ContactLinkName field

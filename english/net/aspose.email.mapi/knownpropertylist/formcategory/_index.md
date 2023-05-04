@@ -3,7 +3,7 @@ title: KnownPropertyList.FormCategory
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_FORM_CATEGORY
 type: docs
-weight: 10500
+weight: 10580
 url: /net/aspose.email.mapi/knownpropertylist/formcategory/
 ---
 ## KnownPropertyList.FormCategory field

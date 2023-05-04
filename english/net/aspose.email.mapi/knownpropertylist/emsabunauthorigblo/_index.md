@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbUnauthOrigBlO
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_UNAUTH_ORIG_BL_O
 type: docs
-weight: 9300
+weight: 9380
 url: /net/aspose.email.mapi/knownpropertylist/emsabunauthorigblo/
 ---
 ## KnownPropertyList.EmsAbUnauthOrigBlO field

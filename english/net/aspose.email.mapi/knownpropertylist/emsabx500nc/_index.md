@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbX500Nc
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_X500_NC
 type: docs
-weight: 9680
+weight: 9760
 url: /net/aspose.email.mapi/knownpropertylist/emsabx500nc/
 ---
 ## KnownPropertyList.EmsAbX500Nc field

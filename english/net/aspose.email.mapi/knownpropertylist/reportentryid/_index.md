@@ -3,7 +3,7 @@ title: KnownPropertyList.ReportEntryId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies an entry ID that identifies the application that generated a report message. Area MapiEnvelope Canonical name PidTagReportEntryId Alternate names PR_REPORT_ENTRYID ptagReportEntryId
 type: docs
-weight: 16020
+weight: 16100
 url: /net/aspose.email.mapi/knownpropertylist/reportentryid/
 ---
 ## KnownPropertyList.ReportEntryId field

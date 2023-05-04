@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbHasFullReplicaNcsO
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_HAS_FULL_REPLICA_NCS_O
 type: docs
-weight: 6500
+weight: 6580
 url: /net/aspose.email.mapi/knownpropertylist/emsabhasfullreplicancso/
 ---
 ## KnownPropertyList.EmsAbHasFullReplicaNcsO field

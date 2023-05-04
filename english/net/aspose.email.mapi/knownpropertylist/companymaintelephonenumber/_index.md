@@ -3,7 +3,7 @@ title: KnownPropertyList.CompanyMainTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the main telephone number of the mail users company. Area Contact Properties Canonical name PidTagCompanyMainTelephoneNumber Alternate names PR_COMPANY_MAIN_PHONE_NUMBER PR_COMPANY_MAIN_PHONE_NUMBER_A
 type: docs
-weight: 2830
+weight: 2910
 url: /net/aspose.email.mapi/knownpropertylist/companymaintelephonenumber/
 ---
 ## KnownPropertyList.CompanyMainTelephoneNumber field

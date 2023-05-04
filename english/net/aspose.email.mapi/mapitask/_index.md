@@ -49,6 +49,7 @@ public class MapiTask : MapiMessageItemBase
 | [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of message. |
 | [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the named property mapping. |
 | [PercentComplete](../../aspose.email.mapi/mapitask/percentcomplete/) { get; set; } | Gets or sets the progress the user has made on a task. |
+| [Priority](../../aspose.email.mapi/mapitask/priority/) { get; set; } | Gets or sets the current Priority of the Task object. |
 | virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets the collection of properties. |
 | [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream. |
 | [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets the recipients of the message. |

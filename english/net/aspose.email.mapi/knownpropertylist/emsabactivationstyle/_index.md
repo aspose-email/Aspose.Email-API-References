@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbActivationStyle
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_ACTIVATION_STYLE
 type: docs
-weight: 4500
+weight: 4580
 url: /net/aspose.email.mapi/knownpropertylist/emsabactivationstyle/
 ---
 ## KnownPropertyList.EmsAbActivationStyle field

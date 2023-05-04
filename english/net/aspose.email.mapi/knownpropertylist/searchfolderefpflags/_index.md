@@ -3,7 +3,7 @@ title: KnownPropertyList.SearchFolderEfpFlags
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies flags that control how a folder is displayed. Area Search Canonical name PidTagSearchFolderEfpFlags Alternate names PR_WB_SF_EFP_FLAGS
 type: docs
-weight: 16950
+weight: 17030
 url: /net/aspose.email.mapi/knownpropertylist/searchfolderefpflags/
 ---
 ## KnownPropertyList.SearchFolderEfpFlags field

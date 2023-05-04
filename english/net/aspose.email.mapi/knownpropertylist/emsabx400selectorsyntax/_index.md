@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbX400SelectorSyntax
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_X400_SELECTOR_SYNTAX
 type: docs
-weight: 9660
+weight: 9740
 url: /net/aspose.email.mapi/knownpropertylist/emsabx400selectorsyntax/
 ---
 ## KnownPropertyList.EmsAbX400SelectorSyntax field

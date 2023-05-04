@@ -3,7 +3,7 @@ title: KnownPropertyList.LogDocumentSaved
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the document was saved during journaling. Area Journal Canonical name PidLidLogDocumentSaved Alternate names dispidLogDocSaved
 type: docs
-weight: 12240
+weight: 12320
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentsaved/
 ---
 ## KnownPropertyList.LogDocumentSaved field

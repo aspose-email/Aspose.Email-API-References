@@ -3,7 +3,7 @@ title: KnownPropertyList.YearInterval
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the yearly interval of the appointment or meeting. Area Meetings Canonical name PidLidYearInterval Alternate names LID_YEAR_INTERVAL
 type: docs
-weight: 19890
+weight: 19970
 url: /net/aspose.email.mapi/knownpropertylist/yearinterval/
 ---
 ## KnownPropertyList.YearInterval field

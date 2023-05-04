@@ -3,7 +3,7 @@ title: KnownPropertyList.OrganizerAlias
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the email address of the organizer. Area Conferencing Canonical name PidLidOrganizerAlias Alternate names dispidOrgAlias
 type: docs
-weight: 13460
+weight: 13540
 url: /net/aspose.email.mapi/knownpropertylist/organizeralias/
 ---
 ## KnownPropertyList.OrganizerAlias field

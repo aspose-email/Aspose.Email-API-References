@@ -3,7 +3,7 @@ title: KnownPropertyList.Scale
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the image is to be scaled or cropped. Area Common Canonical name PidNameScale Alternate names urnschemasmicrosoftcomofficeofficeScaleCrop
 type: docs
-weight: 16690
+weight: 16770
 url: /net/aspose.email.mapi/knownpropertylist/scale/
 ---
 ## KnownPropertyList.Scale field

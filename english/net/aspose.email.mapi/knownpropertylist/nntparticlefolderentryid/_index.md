@@ -3,7 +3,7 @@ title: KnownPropertyList.NntpArticleFolderEntryid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_NNTP_ARTICLE_FOLDER_ENTRYID
 type: docs
-weight: 12910
+weight: 12990
 url: /net/aspose.email.mapi/knownpropertylist/nntparticlefolderentryid/
 ---
 ## KnownPropertyList.NntpArticleFolderEntryid field

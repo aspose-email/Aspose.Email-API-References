@@ -3,7 +3,7 @@ title: KnownPropertyList.CreatorName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the name of the creator of a Message object. Area General Message Properties Canonical name PidTagCreatorName Alternate names PR_CREATOR_NAME PR_CREATOR_NAME_A ptagCreatorName PR_CREATOR_NAME_W
 type: docs
-weight: 3570
+weight: 3650
 url: /net/aspose.email.mapi/knownpropertylist/creatorname/
 ---
 ## KnownPropertyList.CreatorName field

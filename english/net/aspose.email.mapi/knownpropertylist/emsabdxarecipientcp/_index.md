@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbDxaRecipientCp
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DXA_RECIPIENT_CP
 type: docs
-weight: 5900
+weight: 5980
 url: /net/aspose.email.mapi/knownpropertylist/emsabdxarecipientcp/
 ---
 ## KnownPropertyList.EmsAbDxaRecipientCp field

@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbGatewayLocalCred
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_GATEWAY_LOCAL_CRED
 type: docs
-weight: 6360
+weight: 6440
 url: /net/aspose.email.mapi/knownpropertylist/emsabgatewaylocalcred/
 ---
 ## KnownPropertyList.EmsAbGatewayLocalCred field

@@ -3,7 +3,7 @@ title: KnownPropertyList.OwnerCriticalChange
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the date and time at which a Meeting Request object was sent by the organizer. Area Meetings Canonical name PidLidOwnerCriticalChange Alternate names LID_OWNER_CRITICAL_CHANGE
 type: docs
-weight: 14100
+weight: 14180
 url: /net/aspose.email.mapi/knownpropertylist/ownercriticalchange/
 ---
 ## KnownPropertyList.OwnerCriticalChange field

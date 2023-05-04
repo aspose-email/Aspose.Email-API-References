@@ -3,7 +3,7 @@ title: KnownPropertyList.ICalendarRecurrenceDate
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies an array of instances of a recurring appointment. Area Common Canonical name PidNameICalendarRecurrenceDate Alternate names urnschemascalendarrdate
 type: docs
-weight: 11160
+weight: 11240
 url: /net/aspose.email.mapi/knownpropertylist/icalendarrecurrencedate/
 ---
 ## KnownPropertyList.ICalendarRecurrenceDate field

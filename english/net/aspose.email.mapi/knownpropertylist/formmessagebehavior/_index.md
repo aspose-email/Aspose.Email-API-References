@@ -3,7 +3,7 @@ title: KnownPropertyList.FormMessageBehavior
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_FORM_MESSAGE_BEHAVIOR
 type: docs
-weight: 10580
+weight: 10660
 url: /net/aspose.email.mapi/knownpropertylist/formmessagebehavior/
 ---
 ## KnownPropertyList.FormMessageBehavior field

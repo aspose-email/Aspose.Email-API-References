@@ -3,7 +3,7 @@ title: KnownPropertyList.DisplayName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the display name of the folder. Area MapiCommon Canonical name PidTagDisplayName Alternate names PR_DISPLAY_NAME PR_DISPLAY_NAME_A ptagDisplayName
 type: docs
-weight: 4140
+weight: 4220
 url: /net/aspose.email.mapi/knownpropertylist/displayname/
 ---
 ## KnownPropertyList.DisplayName field

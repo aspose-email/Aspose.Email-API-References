@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbConnectionType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_CONNECTION_TYPE
 type: docs
-weight: 5270
+weight: 5350
 url: /net/aspose.email.mapi/knownpropertylist/emsabconnectiontype/
 ---
 ## KnownPropertyList.EmsAbConnectionType field

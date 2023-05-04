@@ -3,7 +3,7 @@ title: KnownPropertyList.ConflictEntryId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the EntryID of the conflict resolve message. Area ICS Canonical name PidTagConflictEntryId Alternate names PR_CONFLICT_ENTRYID ptagConflictEntryId
 type: docs
-weight: 2880
+weight: 2960
 url: /net/aspose.email.mapi/knownpropertylist/conflictentryid/
 ---
 ## KnownPropertyList.ConflictEntryId field

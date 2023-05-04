@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarGeoLongitude
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the geographical longitude of the location of an appointment. Area Common Canonical name PidNameCalendarGeoLongitude Alternate names urnschemascalendargeolongitude
 type: docs
-weight: 2280
+weight: 2360
 url: /net/aspose.email.mapi/knownpropertylist/calendargeolongitude/
 ---
 ## KnownPropertyList.CalendarGeoLongitude field

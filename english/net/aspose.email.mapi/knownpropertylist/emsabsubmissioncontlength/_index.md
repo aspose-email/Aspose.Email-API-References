@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbSubmissionContLength
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_SUBMISSION_CONT_LENGTH
 type: docs
-weight: 8970
+weight: 9050
 url: /net/aspose.email.mapi/knownpropertylist/emsabsubmissioncontlength/
 ---
 ## KnownPropertyList.EmsAbSubmissionContLength field

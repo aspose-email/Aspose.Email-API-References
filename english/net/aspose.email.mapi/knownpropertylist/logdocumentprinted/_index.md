@@ -3,7 +3,7 @@ title: KnownPropertyList.LogDocumentPrinted
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the document was printed during journaling. Area Journal Canonical name PidLidLogDocumentPrinted Alternate names dispidLogDocPrinted
 type: docs
-weight: 12220
+weight: 12300
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentprinted/
 ---
 ## KnownPropertyList.LogDocumentPrinted field

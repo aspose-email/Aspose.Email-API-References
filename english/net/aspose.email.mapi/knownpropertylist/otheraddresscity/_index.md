@@ -3,7 +3,7 @@ title: KnownPropertyList.OtherAddressCity
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the name of the mail users other locality such as the town or city. Area Address Properties Canonical name PidTagOtherAddressCity Alternate names PR_OTHER_ADDRESS_CITY PR_OTHER_ADDRESS_CITY_A
 type: docs
-weight: 13950
+weight: 14030
 url: /net/aspose.email.mapi/knownpropertylist/otheraddresscity/
 ---
 ## KnownPropertyList.OtherAddressCity field

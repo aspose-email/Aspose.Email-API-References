@@ -3,7 +3,7 @@ title: KnownPropertyList.InternetNewsgroups
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_INTERNET_NEWSGROUPS
 type: docs
-weight: 11540
+weight: 11620
 url: /net/aspose.email.mapi/knownpropertylist/internetnewsgroups/
 ---
 ## KnownPropertyList.InternetNewsgroups field

@@ -3,7 +3,7 @@ title: KnownPropertyList.IpmAppointmentEntryId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the EntryID of the Calendar folder. Area Folder Properties Canonical name PidTagIpmAppointmentEntryId Alternate names PR_IPM_APPOINTMENT_ENTRYID
 type: docs
-weight: 11610
+weight: 11690
 url: /net/aspose.email.mapi/knownpropertylist/ipmappointmententryid/
 ---
 ## KnownPropertyList.IpmAppointmentEntryId field

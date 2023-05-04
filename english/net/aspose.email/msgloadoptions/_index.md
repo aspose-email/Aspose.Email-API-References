@@ -31,6 +31,13 @@ public class MsgLoadOptions : LoadOptions
 | [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
 | [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent/) { get; set; } | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments/) { get; set; } | Controls loading TNEF attachment behaviour. By default the value is false. |
+| [Timeout](../../aspose.email/msgloadoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while converting. Default value 3 sec. |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [TimeoutReached](../../aspose.email/msgloadoptions/timeoutreached/) | Raised if timed out while converting to MailMessage. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MapiTask.Recurrence
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask property. Gets or sets the recurrence properties
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.mapi/mapitask/recurrence/
 ---
 ## MapiTask.Recurrence property

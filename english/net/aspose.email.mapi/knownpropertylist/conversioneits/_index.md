@@ -3,7 +3,7 @@ title: KnownPropertyList.ConversionEits
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_CONVERSION_EITS
 type: docs
-weight: 3450
+weight: 3530
 url: /net/aspose.email.mapi/knownpropertylist/conversioneits/
 ---
 ## KnownPropertyList.ConversionEits field

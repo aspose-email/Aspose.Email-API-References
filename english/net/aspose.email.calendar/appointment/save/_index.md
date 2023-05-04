@@ -1,67 +1,11 @@
 ---
 title: Appointment.Save
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Saves appointment to the stream with specified save options
+description: Appointment method. Saves appointment to the file with specified format using te default save options
 type: docs
 weight: 350
 url: /net/aspose.email.calendar/appointment/save/
 ---
-## Save(Stream, AppointmentSaveOptions) {#save_2}
-
-Saves appointment to the stream with specified save options
-
-```csharp
-public void Save(Stream stream, AppointmentSaveOptions saveOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | A stream to save to |
-| saveOptions | AppointmentSaveOptions | A save options |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *saveOptions* or *stream* is `null` |
-| NotSupportedException | the specified save options are not supported |
-| NotSupportedException | stream does not support writing |
-
-### See Also
-
-* class [AppointmentSaveOptions](../../appointmentsaveoptions/)
-* class [Appointment](../)
-* namespace [Aspose.Email.Calendar](../../appointment/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Save(string) {#save_3}
-
-Saves appointment to the file with iCalendar format using te default save options
-
-```csharp
-public void Save(string filePath)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | String | A file path |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
-
-### See Also
-
-* class [Appointment](../)
-* namespace [Aspose.Email.Calendar](../../appointment/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## Save(string, AppointmentSaveFormat) {#save_4}
 
 Saves appointment to the file with specified format using te default save options
@@ -172,6 +116,62 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 ### See Also
 
 * enum [AppointmentSaveFormat](../../appointmentsaveformat/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, AppointmentSaveOptions) {#save_2}
+
+Saves appointment to the stream with specified save options
+
+```csharp
+public void Save(Stream stream, AppointmentSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A stream to save to |
+| saveOptions | AppointmentSaveOptions | A save options |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *saveOptions* or *stream* is `null` |
+| NotSupportedException | the specified save options are not supported |
+| NotSupportedException | stream does not support writing |
+
+### See Also
+
+* class [AppointmentSaveOptions](../../appointmentsaveoptions/)
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
+
+Saves appointment to the file with iCalendar format using te default save options
+
+```csharp
+public void Save(string filePath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | A file path |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
+
+### See Also
+
 * class [Appointment](../)
 * namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: KnownPropertyList.IpmDafEntryid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_IPM_DAF_ENTRYID
 type: docs
-weight: 11630
+weight: 11710
 url: /net/aspose.email.mapi/knownpropertylist/ipmdafentryid/
 ---
 ## KnownPropertyList.IpmDafEntryid field

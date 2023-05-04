@@ -3,7 +3,7 @@ title: KnownPropertyList.Birthday
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the date of the mail users birthday at midnight. Area Contact Properties Canonical name PidTagBirthday Alternate names PR_BIRTHDAY urnschemascontactsbday
 type: docs
-weight: 1990
+weight: 2070
 url: /net/aspose.email.mapi/knownpropertylist/birthday/
 ---
 ## KnownPropertyList.Birthday field

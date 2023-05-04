@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbRtsRecoveryTimeout
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_RTS_RECOVERY_TIMEOUT
 type: docs
-weight: 8620
+weight: 8700
 url: /net/aspose.email.mapi/knownpropertylist/emsabrtsrecoverytimeout/
 ---
 ## KnownPropertyList.EmsAbRtsRecoveryTimeout field

@@ -3,7 +3,7 @@ title: KnownPropertyList.DistributionListOneOffMembers
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the list of oneoff EntryIDs corresponding to the members of the personal distribution list. Area Contact Properties Canonical name PidLidDistributionListOneOffMembers Alternate names dispidDLOneOffMembers
 type: docs
-weight: 4220
+weight: 4300
 url: /net/aspose.email.mapi/knownpropertylist/distributionlistoneoffmembers/
 ---
 ## KnownPropertyList.DistributionListOneOffMembers field

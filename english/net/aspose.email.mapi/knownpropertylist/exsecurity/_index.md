@@ -3,7 +3,7 @@ title: KnownPropertyList.ExSecurity
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_SECURITY
 type: docs
-weight: 9980
+weight: 10060
 url: /net/aspose.email.mapi/knownpropertylist/exsecurity/
 ---
 ## KnownPropertyList.ExSecurity field

@@ -3,7 +3,7 @@ title: KnownPropertyList.WlinkRecordKey
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the value of PidTagRecordKey property section 2.901 of the folder pointed to by the shortcut. Area Configuration Canonical name PidTagWlinkRecordKey Alternate names PR_WLINK_RECKEY
 type: docs
-weight: 19480
+weight: 19560
 url: /net/aspose.email.mapi/knownpropertylist/wlinkrecordkey/
 ---
 ## KnownPropertyList.WlinkRecordKey field

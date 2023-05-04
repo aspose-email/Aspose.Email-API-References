@@ -3,7 +3,7 @@ title: KnownPropertyList.AttachMimeTag
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a contenttype MIME header. Area Message Attachment Properties Canonical name PidTagAttachMimeTag Alternate names PR_ATTACH_MIME_TAG PR_ATTACH_MIME_TAG_A PR_ATTACH_MIME_TAG_W
 type: docs
-weight: 1710
+weight: 1790
 url: /net/aspose.email.mapi/knownpropertylist/attachmimetag/
 ---
 ## KnownPropertyList.AttachMimeTag field

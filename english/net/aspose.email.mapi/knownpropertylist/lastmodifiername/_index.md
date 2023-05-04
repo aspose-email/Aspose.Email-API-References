@@ -3,7 +3,7 @@ title: KnownPropertyList.LastModifierName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the name of the last mail user to change the Message object. Area History Properties Canonical name PidTagLastModifierName Alternate names PR_LAST_MODIFIER_NAME PR_LAST_MODIFIER_NAME_A ptagLastModifierName PR_LAST_MODIFIER_NAME_W
 type: docs
-weight: 12030
+weight: 12110
 url: /net/aspose.email.mapi/knownpropertylist/lastmodifiername/
 ---
 ## KnownPropertyList.LastModifierName field

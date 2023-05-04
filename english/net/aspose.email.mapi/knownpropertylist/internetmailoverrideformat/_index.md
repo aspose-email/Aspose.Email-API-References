@@ -3,7 +3,7 @@ title: KnownPropertyList.InternetMailOverrideFormat
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the encoding method and HTML inclusion for attachments. Area MIME Properties Canonical name PidTagInternetMailOverrideFormat Alternate names PR_INETMAIL_OVERRIDE_FORMAT ptagInetMailOverrideFormat
 type: docs
-weight: 11510
+weight: 11590
 url: /net/aspose.email.mapi/knownpropertylist/internetmailoverrideformat/
 ---
 ## KnownPropertyList.InternetMailOverrideFormat field

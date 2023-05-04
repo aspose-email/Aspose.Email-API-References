@@ -3,7 +3,7 @@ title: MhtSaveOptions.SaveAttachments
 second_title: Aspose.Email for .NET API Reference
 description: MhtSaveOptions property. Gets or sets a value indicating whether to save attachments
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email/mhtsaveoptions/saveattachments/
 ---
 ## MhtSaveOptions.SaveAttachments property

@@ -3,7 +3,7 @@ title: KnownPropertyList.ExchDataSchemaCollectionReference
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies an array of names that indicates the expected content classes of items within a folder. Area Common Canonical name PidNameExchDataSchemaCollectionReference Alternate names urnschemasmicrosoftcomexchdataschemacollectionref
 type: docs
-weight: 9920
+weight: 10000
 url: /net/aspose.email.mapi/knownpropertylist/exchdataschemacollectionreference/
 ---
 ## KnownPropertyList.ExchDataSchemaCollectionReference field

@@ -3,7 +3,7 @@ title: KnownPropertyList.MessageSubmissionId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a message identifier assigned by a message transfer agent. Area Email Canonical name PidTagMessageSubmissionId Alternate names PR_MESSAGE_SUBMISSION_ID ptagMessageSubmissionId
 type: docs
-weight: 12640
+weight: 12720
 url: /net/aspose.email.mapi/knownpropertylist/messagesubmissionid/
 ---
 ## KnownPropertyList.MessageSubmissionId field

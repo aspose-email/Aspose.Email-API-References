@@ -3,7 +3,7 @@ title: KnownPropertyList.HomeTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the primary telephone number of the mail users home. Area MapiMailUser Canonical name PidTagHomeTelephoneNumber Alternate names PR_HOME_TELEPHONE_NUMBER PR_HOME_TELEPHONE_NUMBER_A
 type: docs
-weight: 11090
+weight: 11170
 url: /net/aspose.email.mapi/knownpropertylist/hometelephonenumber/
 ---
 ## KnownPropertyList.HomeTelephoneNumber field

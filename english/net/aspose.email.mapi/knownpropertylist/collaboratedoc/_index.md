@@ -3,7 +3,7 @@ title: KnownPropertyList.CollaborateDoc
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the document to be launched when the user joins the meeting. Area Conferencing Canonical name PidLidCollaborateDoc Alternate names dispidCollaborateDoc
 type: docs
-weight: 2740
+weight: 2820
 url: /net/aspose.email.mapi/knownpropertylist/collaboratedoc/
 ---
 ## KnownPropertyList.CollaborateDoc field

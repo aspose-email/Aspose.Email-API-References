@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarTimeZoneId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the time zone identifier of an appointment or meeting. Area Common Canonical name PidNameCalendarTimeZoneId Alternate names urnschemascalendartimezoneid
 type: docs
-weight: 2420
+weight: 2500
 url: /net/aspose.email.mapi/knownpropertylist/calendartimezoneid/
 ---
 ## KnownPropertyList.CalendarTimeZoneId field

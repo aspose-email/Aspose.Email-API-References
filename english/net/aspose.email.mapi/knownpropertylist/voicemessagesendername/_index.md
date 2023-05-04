@@ -3,7 +3,7 @@ title: KnownPropertyList.VoiceMessageSenderName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the name of the caller who left the attached voice message as provided by the voice networks caller ID system. Area Unified Messaging Canonical name PidTagVoiceMessageSenderName Alternate names InternalSchemaVoiceMessageSenderName
 type: docs
-weight: 19320
+weight: 19400
 url: /net/aspose.email.mapi/knownpropertylist/voicemessagesendername/
 ---
 ## KnownPropertyList.VoiceMessageSenderName field

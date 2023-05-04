@@ -3,7 +3,7 @@ title: KnownPropertyList.Comments
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the comments of the file attached to the Document object. Area Common Canonical name PidNameComments Alternate names urnschemasmicrosoftcomofficeofficeComments
 type: docs
-weight: 2770
+weight: 2850
 url: /net/aspose.email.mapi/knownpropertylist/comments/
 ---
 ## KnownPropertyList.Comments field

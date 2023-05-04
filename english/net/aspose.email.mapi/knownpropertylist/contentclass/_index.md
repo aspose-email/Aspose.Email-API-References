@@ -3,7 +3,7 @@ title: KnownPropertyList.ContentClass
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a string that identifies the type of content of a Message object. Area Email Canonical name PidNameContentClass Alternate names DAVcontentclass urnschemasmailheadercontentclass
 type: docs
-weight: 3160
+weight: 3240
 url: /net/aspose.email.mapi/knownpropertylist/contentclass/
 ---
 ## KnownPropertyList.ContentClass field

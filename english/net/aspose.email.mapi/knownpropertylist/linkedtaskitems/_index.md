@@ -3,7 +3,7 @@ title: KnownPropertyList.LinkedTaskItems
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the user did not include any text in the body of the Meeting Response object. Area Tasks Canonical name PidLidLinkedTaskItems Alternate names dispidLinkedTaskItems
 type: docs
-weight: 12100
+weight: 12180
 url: /net/aspose.email.mapi/knownpropertylist/linkedtaskitems/
 ---
 ## KnownPropertyList.LinkedTaskItems field

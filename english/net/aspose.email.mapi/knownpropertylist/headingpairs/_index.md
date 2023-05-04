@@ -3,7 +3,7 @@ title: KnownPropertyList.HeadingPairs
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies which group of headings are indented in the document. Area Common Canonical name PidNameHeadingPairs Alternate names urnschemasmicrosoftcomofficeofficeHeadingPairs
 type: docs
-weight: 10910
+weight: 10990
 url: /net/aspose.email.mapi/knownpropertylist/headingpairs/
 ---
 ## KnownPropertyList.HeadingPairs field

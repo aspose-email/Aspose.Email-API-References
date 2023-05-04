@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbDxaConfSeqUsn
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DXA_CONF_SEQ_USN
 type: docs
-weight: 5670
+weight: 5750
 url: /net/aspose.email.mapi/knownpropertylist/emsabdxaconfsequsn/
 ---
 ## KnownPropertyList.EmsAbDxaConfSeqUsn field

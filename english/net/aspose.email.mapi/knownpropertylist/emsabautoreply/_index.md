@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbAutoreply
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_AUTOREPLY
 type: docs
-weight: 4830
+weight: 4910
 url: /net/aspose.email.mapi/knownpropertylist/emsabautoreply/
 ---
 ## KnownPropertyList.EmsAbAutoreply field

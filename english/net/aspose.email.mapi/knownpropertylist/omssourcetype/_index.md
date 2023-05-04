@@ -3,7 +3,7 @@ title: KnownPropertyList.OMSSourceType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the source of an SMS or MMS message. Area SMS Canonical name PidNameOMSSourceType Alternate names
 type: docs
-weight: 13410
+weight: 13490
 url: /net/aspose.email.mapi/knownpropertylist/omssourcetype/
 ---
 ## KnownPropertyList.OMSSourceType field

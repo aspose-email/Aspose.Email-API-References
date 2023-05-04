@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskOwnership
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the role of the current user relative to the Task object. Area Tasks Canonical name PidLidTaskOwnership Alternate names dispidTaskOwnership
 type: docs
-weight: 18770
+weight: 18850
 url: /net/aspose.email.mapi/knownpropertylist/taskownership/
 ---
 ## KnownPropertyList.TaskOwnership field

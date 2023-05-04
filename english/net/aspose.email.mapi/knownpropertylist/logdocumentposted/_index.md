@@ -3,7 +3,7 @@ title: KnownPropertyList.LogDocumentPosted
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the document was sent by email or posted to a server folder during journaling. Area Journal Canonical name PidLidLogDocumentPosted Alternate names dispidLogDocPosted
 type: docs
-weight: 12210
+weight: 12290
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentposted/
 ---
 ## KnownPropertyList.LogDocumentPosted field

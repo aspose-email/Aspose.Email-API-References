@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbInboundSites
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_INBOUND_SITES
 type: docs
-weight: 6820
+weight: 6900
 url: /net/aspose.email.mapi/knownpropertylist/emsabinboundsites/
 ---
 ## KnownPropertyList.EmsAbInboundSites field

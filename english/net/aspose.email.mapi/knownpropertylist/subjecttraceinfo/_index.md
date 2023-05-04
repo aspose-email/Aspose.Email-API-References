@@ -3,7 +3,7 @@ title: KnownPropertyList.SubjectTraceInfo
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_SUBJECT_TRACE_INFO
 type: docs
-weight: 18370
+weight: 18450
 url: /net/aspose.email.mapi/knownpropertylist/subjecttraceinfo/
 ---
 ## KnownPropertyList.SubjectTraceInfo field

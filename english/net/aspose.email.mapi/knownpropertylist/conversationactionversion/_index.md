@@ -3,7 +3,7 @@ title: KnownPropertyList.ConversationActionVersion
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the version of the conversation action FAI message. Area Conversation Actions Canonical name PidLidConversationActionVersion Alternate names dispidConvActionVersion
 type: docs
-weight: 3380
+weight: 3460
 url: /net/aspose.email.mapi/knownpropertylist/conversationactionversion/
 ---
 ## KnownPropertyList.ConversationActionVersion field

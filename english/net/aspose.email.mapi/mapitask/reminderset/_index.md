@@ -3,7 +3,7 @@ title: MapiTask.ReminderSet
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask property. Gets or sets a value indicating whether a reminder is set on the object
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapitask/reminderset/
 ---
 ## MapiTask.ReminderSet property

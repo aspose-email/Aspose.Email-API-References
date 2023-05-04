@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskRole
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Not used. The client can set this property but it has no impact on the TaskRelated Objects Protocol and is ignored by the server. Area Tasks Canonical name PidLidTaskRole Alternate names dispidTaskRole
 type: docs
-weight: 18800
+weight: 18880
 url: /net/aspose.email.mapi/knownpropertylist/taskrole/
 ---
 ## KnownPropertyList.TaskRole field

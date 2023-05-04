@@ -3,7 +3,7 @@ title: KnownPropertyList.MdbProvider
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_MDB_PROVIDER
 type: docs
-weight: 12390
+weight: 12470
 url: /net/aspose.email.mapi/knownpropertylist/mdbprovider/
 ---
 ## KnownPropertyList.MdbProvider field

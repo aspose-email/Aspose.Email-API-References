@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbLdapDisplayName
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_LDAP_DISPLAY_NAME
 type: docs
-weight: 7000
+weight: 7080
 url: /net/aspose.email.mapi/knownpropertylist/emsabldapdisplayname/
 ---
 ## KnownPropertyList.EmsAbLdapDisplayName field

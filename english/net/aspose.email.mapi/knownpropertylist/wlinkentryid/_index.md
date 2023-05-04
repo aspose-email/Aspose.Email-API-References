@@ -3,7 +3,7 @@ title: KnownPropertyList.WlinkEntryId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the EntryID of the folder pointed to by the shortcut. Area Configuration Canonical name PidTagWlinkEntryId Alternate names PR_WLINK_ENTRYID
 type: docs
-weight: 19410
+weight: 19490
 url: /net/aspose.email.mapi/knownpropertylist/wlinkentryid/
 ---
 ## KnownPropertyList.WlinkEntryId field

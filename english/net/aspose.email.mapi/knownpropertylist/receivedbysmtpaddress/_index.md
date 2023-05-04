@@ -3,7 +3,7 @@ title: KnownPropertyList.ReceivedBySmtpAddress
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the email message receivers SMTP email address. Area Mail Canonical name PidTagReceivedBySmtpAddress Alternate names ptagRecipientRcvdBySmtpAddress
 type: docs
-weight: 15320
+weight: 15400
 url: /net/aspose.email.mapi/knownpropertylist/receivedbysmtpaddress/
 ---
 ## KnownPropertyList.ReceivedBySmtpAddress field

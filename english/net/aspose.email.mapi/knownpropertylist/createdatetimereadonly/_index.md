@@ -3,7 +3,7 @@ title: KnownPropertyList.CreateDateTimeReadOnly
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the time in UTC that the file was first created. Area Common Canonical name PidNameCreateDateTimeReadOnly Alternate names urnschemasmicrosoftcomofficeofficeCreated
 type: docs
-weight: 3520
+weight: 3600
 url: /net/aspose.email.mapi/knownpropertylist/createdatetimereadonly/
 ---
 ## KnownPropertyList.CreateDateTimeReadOnly field

@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskMode
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the assignment status of the embedded Task object. Area Tasks Canonical name PidLidTaskMode Alternate names dispidTaskMode
 type: docs
-weight: 18720
+weight: 18800
 url: /net/aspose.email.mapi/knownpropertylist/taskmode/
 ---
 ## KnownPropertyList.TaskMode field

@@ -3,7 +3,7 @@ title: KnownPropertyList.DistributionListStream
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the list of EntryIDs and oneoff EntryIDs corresponding to the members of the personal distribution list. Area Contact Properties Canonical name PidLidDistributionListStream Alternate names dispidDLStream
 type: docs
-weight: 4230
+weight: 4310
 url: /net/aspose.email.mapi/knownpropertylist/distributionliststream/
 ---
 ## KnownPropertyList.DistributionListStream field

@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbMonitoringRecipientsO
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_MONITORING_RECIPIENTS_O
 type: docs
-weight: 7510
+weight: 7590
 url: /net/aspose.email.mapi/knownpropertylist/emsabmonitoringrecipientso/
 ---
 ## KnownPropertyList.EmsAbMonitoringRecipientsO field

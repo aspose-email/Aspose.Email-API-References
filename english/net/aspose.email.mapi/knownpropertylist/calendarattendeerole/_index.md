@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarAttendeeRole
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the role of the attendee. Area Common Canonical name PidNameCalendarAttendeeRole Alternate names urnschemascalendarattendeerole
 type: docs
-weight: 2180
+weight: 2260
 url: /net/aspose.email.mapi/knownpropertylist/calendarattendeerole/
 ---
 ## KnownPropertyList.CalendarAttendeeRole field

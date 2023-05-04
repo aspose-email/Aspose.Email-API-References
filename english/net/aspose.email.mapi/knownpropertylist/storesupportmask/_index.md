@@ -3,7 +3,7 @@ title: KnownPropertyList.StoreSupportMask
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether string properties within the .msg file are Unicodeencoded. Area Miscellaneous Properties Canonical name PidTagStoreSupportMask Alternate names PR_STORE_SUPPORT_MASK ptagStoreSupportMask
 type: docs
-weight: 18310
+weight: 18390
 url: /net/aspose.email.mapi/knownpropertylist/storesupportmask/
 ---
 ## KnownPropertyList.StoreSupportMask field

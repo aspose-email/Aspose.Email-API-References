@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskCustomFlags
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. The client can set this property but it has no impact on the TaskRelated Objects Protocol and is ignored by the server. Area Tasks Canonical name PidLidTaskCustomFlags Alternate names dispidTaskCustomFlags
 type: docs
-weight: 18590
+weight: 18670
 url: /net/aspose.email.mapi/knownpropertylist/taskcustomflags/
 ---
 ## KnownPropertyList.TaskCustomFlags field

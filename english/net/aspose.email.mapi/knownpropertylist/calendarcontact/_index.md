@@ -3,7 +3,7 @@ title: KnownPropertyList.CalendarContact
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies the name of a contact who is an attendee of a meeting. Area Common Canonical name PidNameCalendarContact Alternate names urnschemascalendarcontact
 type: docs
-weight: 2200
+weight: 2280
 url: /net/aspose.email.mapi/knownpropertylist/calendarcontact/
 ---
 ## KnownPropertyList.CalendarContact field

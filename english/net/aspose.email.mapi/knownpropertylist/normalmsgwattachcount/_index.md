@@ -3,7 +3,7 @@ title: KnownPropertyList.NormalMsgWAttachCount
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_NORMAL_MSG_W_ATTACH_COUNT
 type: docs
-weight: 13100
+weight: 13180
 url: /net/aspose.email.mapi/knownpropertylist/normalmsgwattachcount/
 ---
 ## KnownPropertyList.NormalMsgWAttachCount field

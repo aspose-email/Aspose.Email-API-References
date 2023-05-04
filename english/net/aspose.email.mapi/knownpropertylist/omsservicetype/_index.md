@@ -3,7 +3,7 @@ title: KnownPropertyList.OMSServiceType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the type of service used to send an SMS or MMS message. Area SMS Canonical name PidNameOMSServiceType Alternate names
 type: docs
-weight: 13400
+weight: 13480
 url: /net/aspose.email.mapi/knownpropertylist/omsservicetype/
 ---
 ## KnownPropertyList.OMSServiceType field

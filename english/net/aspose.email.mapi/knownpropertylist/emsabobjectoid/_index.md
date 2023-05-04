@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbObjectOid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_OBJECT_OID
 type: docs
-weight: 7760
+weight: 7840
 url: /net/aspose.email.mapi/knownpropertylist/emsabobjectoid/
 ---
 ## KnownPropertyList.EmsAbObjectOid field

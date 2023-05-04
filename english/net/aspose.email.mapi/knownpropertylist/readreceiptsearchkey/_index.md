@@ -3,7 +3,7 @@ title: KnownPropertyList.ReadReceiptSearchKey
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains an address book search key. Area MapiEnvelope Canonical name PidTagReadReceiptSearchKey Alternate names PR_READ_RECEIPT_SEARCH_KEY ptagReadReceiptSearchKey
 type: docs
-weight: 15240
+weight: 15320
 url: /net/aspose.email.mapi/knownpropertylist/readreceiptsearchkey/
 ---
 ## KnownPropertyList.ReadReceiptSearchKey field

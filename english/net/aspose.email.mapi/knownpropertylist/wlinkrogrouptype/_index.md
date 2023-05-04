@@ -3,7 +3,7 @@ title: KnownPropertyList.WlinkROGroupType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the type of group header. Area Configuration Canonical name PidTagWlinkROGroupType Alternate names PR_WLINK_RO_GROUP_TYPE
 type: docs
-weight: 19490
+weight: 19570
 url: /net/aspose.email.mapi/knownpropertylist/wlinkrogrouptype/
 ---
 ## KnownPropertyList.WlinkROGroupType field

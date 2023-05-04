@@ -3,7 +3,7 @@ title: KnownPropertyList.XCallId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains a unique identifier associated with the phone call. Area Unified Messaging Canonical name PidNameXCallId Alternate names
 type: docs
-weight: 19660
+weight: 19740
 url: /net/aspose.email.mapi/knownpropertylist/xcallid/
 ---
 ## KnownPropertyList.XCallId field

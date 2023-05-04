@@ -3,7 +3,7 @@ title: KnownPropertyList.ReportingMtaCertificate
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_REPORTING_MTA_CERTIFICATE
 type: docs
-weight: 16050
+weight: 16130
 url: /net/aspose.email.mapi/knownpropertylist/reportingmtacertificate/
 ---
 ## KnownPropertyList.ReportingMtaCertificate field

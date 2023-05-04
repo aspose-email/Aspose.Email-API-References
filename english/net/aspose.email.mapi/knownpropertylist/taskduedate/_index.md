@@ -3,7 +3,7 @@ title: KnownPropertyList.TaskDueDate
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the date by which the user expects work on the task to be complete. Area Tasks Canonical name PidLidTaskDueDate Alternate names dispidTaskDueDate
 type: docs
-weight: 18620
+weight: 18700
 url: /net/aspose.email.mapi/knownpropertylist/taskduedate/
 ---
 ## KnownPropertyList.TaskDueDate field

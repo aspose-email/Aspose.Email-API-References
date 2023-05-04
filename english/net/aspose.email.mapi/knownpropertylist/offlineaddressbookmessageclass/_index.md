@@ -3,7 +3,7 @@ title: KnownPropertyList.OfflineAddressBookMessageClass
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the message class for full OAB messages. Area Offline Address Book Properties Canonical name PidTagOfflineAddressBookMessageClass Alternate names PR_OAB_MESSAGE_CLASS
 type: docs
-weight: 13260
+weight: 13340
 url: /net/aspose.email.mapi/knownpropertylist/offlineaddressbookmessageclass/
 ---
 ## KnownPropertyList.OfflineAddressBookMessageClass field

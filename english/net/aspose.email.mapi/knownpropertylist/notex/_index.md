@@ -3,7 +3,7 @@ title: KnownPropertyList.NoteX
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the distance in pixels from the left edge of the screen that a user interface displays a Note object. Area Sticky Notes Canonical name PidLidNoteX Alternate names dispidNoteX
 type: docs
-weight: 13150
+weight: 13230
 url: /net/aspose.email.mapi/knownpropertylist/notex/
 ---
 ## KnownPropertyList.NoteX field

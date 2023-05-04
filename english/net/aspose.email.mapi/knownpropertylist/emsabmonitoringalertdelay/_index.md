@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbMonitoringAlertDelay
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_MONITORING_ALERT_DELAY
 type: docs
-weight: 7330
+weight: 7410
 url: /net/aspose.email.mapi/knownpropertylist/emsabmonitoringalertdelay/
 ---
 ## KnownPropertyList.EmsAbMonitoringAlertDelay field

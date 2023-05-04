@@ -3,7 +3,7 @@ title: KnownPropertyList.VoiceMessageDuration
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the length of the attached audio message in seconds. Area Unified Messaging Canonical name PidTagVoiceMessageDuration Alternate names InternalSchemaVoiceMessageDuration
 type: docs
-weight: 19310
+weight: 19390
 url: /net/aspose.email.mapi/knownpropertylist/voicemessageduration/
 ---
 ## KnownPropertyList.VoiceMessageDuration field

@@ -3,7 +3,7 @@ title: KnownPropertyList.ExtractedContacts
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains an XML document with a single ContactSet element. Area Extracted Entities Canonical name PidNameExtractedContacts Alternate names dispidXmlExtractedContacts
 type: docs
-weight: 10050
+weight: 10130
 url: /net/aspose.email.mapi/knownpropertylist/extractedcontacts/
 ---
 ## KnownPropertyList.ExtractedContacts field

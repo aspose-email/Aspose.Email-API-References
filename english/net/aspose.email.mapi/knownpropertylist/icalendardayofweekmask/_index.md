@@ -3,7 +3,7 @@ title: KnownPropertyList.ICalendarDayOfWeekMask
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Identifies the day of the week for the appointment or meeting. Area Calendar Canonical name PidLidICalendarDayOfWeekMask Alternate names http//schemas.microsoft.com/mapi/dayofweekmask
 type: docs
-weight: 11140
+weight: 11220
 url: /net/aspose.email.mapi/knownpropertylist/icalendardayofweekmask/
 ---
 ## KnownPropertyList.ICalendarDayOfWeekMask field

@@ -3,7 +3,7 @@ title: KnownPropertyList.DamBackPatched
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether the Deferred Action Message DAM was updated by the server. Area Serverside Rules Properties Canonical name PidTagDamBackPatched Alternate names PR_DAM_BACK_PATCHED ptagDamBackPatched
 type: docs
-weight: 3620
+weight: 3700
 url: /net/aspose.email.mapi/knownpropertylist/dambackpatched/
 ---
 ## KnownPropertyList.DamBackPatched field

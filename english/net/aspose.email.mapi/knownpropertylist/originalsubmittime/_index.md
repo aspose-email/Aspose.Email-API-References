@@ -3,7 +3,7 @@ title: KnownPropertyList.OriginalSubmitTime
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the original email messages submission date and time in UTC. Area General Message Properties Canonical name PidTagOriginalSubmitTime Alternate names PR_ORIGINAL_SUBMIT_TIME ptagOriginalSubmitTime
 type: docs
-weight: 13790
+weight: 13870
 url: /net/aspose.email.mapi/knownpropertylist/originalsubmittime/
 ---
 ## KnownPropertyList.OriginalSubmitTime field

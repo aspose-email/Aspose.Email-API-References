@@ -3,7 +3,7 @@ title: KnownPropertyList.OMSAccountGuid
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the GUID of the SMS account used to deliver the message. Area SMS Canonical name PidNameOMSAccountGuid Alternate names
 type: docs
-weight: 13370
+weight: 13450
 url: /net/aspose.email.mapi/knownpropertylist/omsaccountguid/
 ---
 ## KnownPropertyList.OMSAccountGuid field

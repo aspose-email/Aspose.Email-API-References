@@ -3,7 +3,7 @@ title: MapiTask.Users
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask property. Gets or sets information about task users
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.mapi/mapitask/users/
 ---
 ## MapiTask.Users property

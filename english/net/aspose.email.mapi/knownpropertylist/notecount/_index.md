@@ -3,7 +3,7 @@ title: KnownPropertyList.NoteCount
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the number of notes in the file attached to the Document object. Area Common Canonical name PidNameNoteCount Alternate names urnschemasmicrosoftcomofficeofficeNotes
 type: docs
-weight: 13120
+weight: 13200
 url: /net/aspose.email.mapi/knownpropertylist/notecount/
 ---
 ## KnownPropertyList.NoteCount field

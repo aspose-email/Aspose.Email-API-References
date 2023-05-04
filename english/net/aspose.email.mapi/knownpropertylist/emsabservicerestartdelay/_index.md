@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbServiceRestartDelay
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_SERVICE_RESTART_DELAY
 type: docs
-weight: 8810
+weight: 8890
 url: /net/aspose.email.mapi/knownpropertylist/emsabservicerestartdelay/
 ---
 ## KnownPropertyList.EmsAbServiceRestartDelay field

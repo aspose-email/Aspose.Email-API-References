@@ -3,7 +3,7 @@ title: KnownPropertyList.ForeignId
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_FOREIGN_ID
 type: docs
-weight: 10470
+weight: 10550
 url: /net/aspose.email.mapi/knownpropertylist/foreignid/
 ---
 ## KnownPropertyList.ForeignId field

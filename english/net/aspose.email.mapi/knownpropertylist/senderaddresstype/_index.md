@@ -3,7 +3,7 @@ title: KnownPropertyList.SenderAddressType
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Contains the email address type of the sending mailbox owner. Area Address Properties Canonical name PidTagSenderAddressType Alternate names PR_SENDER_ADDRTYPE PR_SENDER_ADDRTYPE_A ptagSenderAddrType PR_SENDER_ADDRTYPE_W
 type: docs
-weight: 17090
+weight: 17170
 url: /net/aspose.email.mapi/knownpropertylist/senderaddresstype/
 ---
 ## KnownPropertyList.SenderAddressType field

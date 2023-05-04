@@ -3,7 +3,7 @@ title: KnownPropertyList.EmsAbCanPreserveDns
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_CAN_PRESERVE_DNS
 type: docs
-weight: 5090
+weight: 5170
 url: /net/aspose.email.mapi/knownpropertylist/emsabcanpreservedns/
 ---
 ## KnownPropertyList.EmsAbCanPreserveDns field

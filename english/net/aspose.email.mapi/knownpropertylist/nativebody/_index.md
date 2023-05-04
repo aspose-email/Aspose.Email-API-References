@@ -3,7 +3,7 @@ title: KnownPropertyList.NativeBody
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates the best available format for storing the message body. Area BestBody Canonical name PidTagNativeBody Alternate names PR_NATIVE_BODY_INFO ptagNativeBodyInfo
 type: docs
-weight: 12820
+weight: 12900
 url: /net/aspose.email.mapi/knownpropertylist/nativebody/
 ---
 ## KnownPropertyList.NativeBody field

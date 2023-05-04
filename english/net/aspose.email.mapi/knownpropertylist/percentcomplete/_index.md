@@ -3,7 +3,7 @@ title: KnownPropertyList.PercentComplete
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Indicates whether a timeflagged Message object is complete. Area Tasks Canonical name PidLidPercentComplete Alternate names dispidPercentComplete
 type: docs
-weight: 14240
+weight: 14320
 url: /net/aspose.email.mapi/knownpropertylist/percentcomplete/
 ---
 ## KnownPropertyList.PercentComplete field

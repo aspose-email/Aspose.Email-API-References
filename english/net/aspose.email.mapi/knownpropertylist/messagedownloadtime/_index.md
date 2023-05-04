@@ -3,7 +3,7 @@ title: KnownPropertyList.MessageDownloadTime
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_MESSAGE_DOWNLOAD_TIME
 type: docs
-weight: 12510
+weight: 12590
 url: /net/aspose.email.mapi/knownpropertylist/messagedownloadtime/
 ---
 ## KnownPropertyList.MessageDownloadTime field

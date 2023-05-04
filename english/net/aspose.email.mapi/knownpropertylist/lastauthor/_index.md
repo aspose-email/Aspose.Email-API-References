@@ -3,7 +3,7 @@ title: KnownPropertyList.LastAuthor
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Specifies the most recent author of the file attached to the Document object. Area Common Canonical name PidNameLastAuthor Alternate names urnschemasmicrosoftcomofficeofficeLastAuthor
 type: docs
-weight: 11970
+weight: 12050
 url: /net/aspose.email.mapi/knownpropertylist/lastauthor/
 ---
 ## KnownPropertyList.LastAuthor field

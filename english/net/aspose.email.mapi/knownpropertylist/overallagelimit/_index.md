@@ -3,7 +3,7 @@ title: KnownPropertyList.OverallAgeLimit
 second_title: Aspose.Email for .NET API Reference
 description: KnownPropertyList field. Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_OVERALL_AGE_LIMIT
 type: docs
-weight: 14050
+weight: 14130
 url: /net/aspose.email.mapi/knownpropertylist/overallagelimit/
 ---
 ## KnownPropertyList.OverallAgeLimit field
