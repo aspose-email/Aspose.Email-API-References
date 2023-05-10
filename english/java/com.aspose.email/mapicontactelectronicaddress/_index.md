@@ -3,14 +3,14 @@ title: MapiContactElectronicAddress
 second_title: Aspose.Email for Java API Reference
 description: Refers to the group of properties that  define the e-mail address or fax address for a contact.
 type: docs
-weight: 417
+weight: 418
 url: /java/com.aspose.email/mapicontactelectronicaddress/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactAddress](../../com.aspose.email/mapicontactaddress)
 ```
-public final class MapiContactElectronicAddress
+public final class MapiContactElectronicAddress extends MapiContactAddress
 ```
 
 Refers to the group of properties that define the e-mail address or fax address for a contact.

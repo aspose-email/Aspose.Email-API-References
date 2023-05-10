@@ -21,6 +21,7 @@ The MessageStore type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|get_total_items_count()|  |
 |is_password_valid(password)|  |
 |change_display_name(new_name)|  |
 |change_password(password)|  |

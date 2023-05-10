@@ -3,7 +3,7 @@ title: IEWSClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange client.
 type: docs
-weight: 737
+weight: 739
 url: /java/com.aspose.email/iewsclient/
 ---
 

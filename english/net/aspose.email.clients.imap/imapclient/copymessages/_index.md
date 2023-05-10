@@ -1,9 +1,9 @@
 ---
-title: CopyMessages
+title: ImapClient.CopyMessages
 second_title: Aspose.Email for .NET API Reference
-description: Copy the messaeg
+description: ImapClient method. Copy the messaeg
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.email.clients.imap/imapclient/copymessages/
 ---
 ## CopyMessages(IConnection, int, int, string) {#copymessages}
@@ -24,9 +24,9 @@ public void CopyMessages(IConnection connection, int startSequence, int endSeque
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -47,8 +47,8 @@ public void CopyMessages(int startSequence, int endSequence, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -70,9 +70,9 @@ public void CopyMessages(IConnection connection, string startUid, string endUid,
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -93,8 +93,8 @@ public void CopyMessages(string startUid, string endUid, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -115,8 +115,8 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -137,9 +137,9 @@ public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -159,8 +159,8 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -181,9 +181,9 @@ public void CopyMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -203,8 +203,8 @@ public void CopyMessages(IEnumerable<string> uidSet, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -226,10 +226,10 @@ public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -249,9 +249,9 @@ public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

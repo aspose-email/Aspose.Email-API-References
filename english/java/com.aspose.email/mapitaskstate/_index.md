@@ -3,7 +3,7 @@ title: MapiTaskState
 second_title: Aspose.Email for Java API Reference
 description: Indicates the assignment state of the Task object.
 type: docs
-weight: 475
+weight: 477
 url: /java/com.aspose.email/mapitaskstate/
 ---
 

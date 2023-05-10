@@ -26,6 +26,7 @@ The ReferenceAttachment type exposes the following members:
 |headers|  |
 |content_type|  |
 |transfer_encoding|  |
+|is_tnef|Gets a value indicating whether the attachment is TNEF formatted message.|
 |is_embedded_message|Gets a value indicating whether the attachment is an embedded message.|
 |name|Gets or sets an attachment name|
 |name_encoding|Gets or sets an encoding of attachment name|

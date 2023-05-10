@@ -1,7 +1,7 @@
 ---
-title: DeleteMessageAsync
+title: Pop3Client.DeleteMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: Deletes the message
+description: Pop3Client method. Deletes the message
 type: docs
 weight: 80
 url: /net/aspose.email.clients.pop3/pop3client/deletemessageasync/
@@ -23,15 +23,15 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -53,15 +53,15 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -82,14 +82,14 @@ public Task DeleteMessageAsync(int sequenceNumber)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -110,14 +110,14 @@ public Task DeleteMessageAsync(string uniqueId)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -140,15 +140,15 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -171,15 +171,15 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -201,14 +201,14 @@ public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -230,14 +230,14 @@ public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

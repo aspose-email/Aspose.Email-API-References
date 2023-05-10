@@ -3,7 +3,7 @@ title: TemplateRoutine
 second_title: Aspose.Email for Java API Reference
 description: Represents the routine used in the template file.
 type: docs
-weight: 665
+weight: 667
 url: /java/com.aspose.email/templateroutine/
 ---
 

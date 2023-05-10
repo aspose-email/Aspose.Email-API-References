@@ -3,7 +3,7 @@ title: VCardOrganization
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard organization properties
 type: docs
-weight: 706
+weight: 708
 url: /java/com.aspose.email/vcardorganization/
 ---
 

@@ -18,6 +18,7 @@ The MapiAttachment type exposes the following members:
 |properties|Gets the collection of properties.|
 |code_page|Gets the code page.|
 |item_id|The item id, uses with a server|
+|is_inline|Gets a value indicating whether the attachment is inline or regular.<br/>            If inline returns true, otherwise false.|
 |extension|Gets a filename extension that indicates the document type of an attachment.|
 |property_stream|Gets the property stream.|
 |sub_storages|Gets the sub storages.|

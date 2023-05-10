@@ -1,7 +1,7 @@
 ---
-title: Send
+title: SmtpClient.Send
 second_title: Aspose.Email for .NET API Reference
-description: Creates and sends the specified message.
+description: SmtpClient method. Creates and sends the specified message
 type: docs
 weight: 170
 url: /net/aspose.email.clients.smtp/smtpclient/send/
@@ -23,8 +23,8 @@ public void Send(string from, string recipients, string subject, string body)
 
 ### See Also
 
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -43,9 +43,9 @@ public void Send(MailMessage message)
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -64,9 +64,9 @@ public void Send(params MailMessage[] messages)
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -85,9 +85,9 @@ public void Send(MailMessageCollection messages)
 
 ### See Also
 
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -106,9 +106,9 @@ public void Send(IEnumerable<MailMessage> messages)
 
 ### See Also
 
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -132,9 +132,9 @@ public void Send(IConnection connection, string from, string recipients, string 
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -154,10 +154,10 @@ public void Send(IConnection connection, MailMessage message)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -177,10 +177,10 @@ public void Send(IConnection connection, params MailMessage[] messages)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -200,10 +200,10 @@ public void Send(IConnection connection, MailMessageCollection messages)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessageCollection](../../../aspose.email/mailmessagecollection)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessageCollection](../../../aspose.email/mailmessagecollection/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -223,10 +223,10 @@ public void Send(IConnection connection, IEnumerable<MailMessage> messages)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailMessage](../../../aspose.email/mailmessage)
-* class [SmtpClient](../../smtpclient)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: ListAppointments
+title: IEWSClient.ListAppointments
 second_title: Aspose.Email for .NET API Reference
-description: Retrieves list of appointments for default calendar folder
+description: IEWSClient method. Retrieves list of appointments for default calendar folder
 type: docs
 weight: 1070
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointments/
@@ -20,9 +20,9 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -45,9 +45,9 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -71,9 +71,9 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -96,9 +96,9 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -113,7 +113,7 @@ public Appointment[] ListAppointments(MailQuery query)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 
 ### Return Value
 
@@ -121,10 +121,10 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -140,7 +140,7 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderUri | String | A folder to search appointments in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 
 ### Return Value
 
@@ -148,10 +148,10 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -166,7 +166,7 @@ public Appointment[] ListAppointments(MailQuery query, bool recursive)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
 ### Return Value
@@ -175,10 +175,10 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -194,7 +194,7 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query, bool re
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderUri | String | A folder to search appointments in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents appointments search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
 ### Return Value
@@ -203,10 +203,10 @@ Returns array of appointments
 
 ### See Also
 
-* class [Appointment](../../../aspose.email.calendar/appointment)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [Appointment](../../../aspose.email.calendar/appointment/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

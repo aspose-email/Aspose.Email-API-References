@@ -1,14 +1,14 @@
 ---
-title: GetInstance
+title: PropertyDescriptor.GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: Retrieves PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor object
+description: PropertyDescriptor method. Retrieves PidTagPropertyDescriptor object
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/propertydescriptor/getinstance/
 ---
 ## GetInstance(int, PropertyDataType) {#getinstance_2}
 
-Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
+Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType dataType)
@@ -21,21 +21,21 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [PropertyDescriptor](../../propertydescriptor)
-* namespace [Aspose.Email.Mapi](../../propertydescriptor)
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../propertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetInstance(long) {#getinstance_3}
 
-Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
+Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
 
 ```csharp
 public static PidTagPropertyDescriptor GetInstance(long tag)
@@ -47,20 +47,20 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* class [PropertyDescriptor](../../propertydescriptor)
-* namespace [Aspose.Email.Mapi](../../propertydescriptor)
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor/)
+* class [PropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../propertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetInstance(long, PropertyDataType, Guid) {#getinstance}
 
-Retrieves [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object
+Retrieves [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object
 
 ```csharp
 public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType dataType, 
@@ -75,21 +75,21 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ### Return Value
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object
 
 ### See Also
 
-* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [PropertyDescriptor](../../propertydescriptor)
-* namespace [Aspose.Email.Mapi](../../propertydescriptor)
+* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../propertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetInstance(string, PropertyDataType, Guid) {#getinstance_1}
 
-Retrieves [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object
+Retrieves [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object
 
 ```csharp
 public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataType dataType, 
@@ -104,21 +104,21 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 ### Return Value
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object
 
 ### See Also
 
-* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [PropertyDescriptor](../../propertydescriptor)
-* namespace [Aspose.Email.Mapi](../../propertydescriptor)
+* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [PropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../propertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetInstance(MapiProperty) {#getinstance_4}
 
-Retrieves [`PropertyDescriptor`](../../propertydescriptor) object from MAPI property
+Retrieves [`PropertyDescriptor`](../) object from MAPI property
 
 ```csharp
 public static PropertyDescriptor GetInstance(MapiProperty property)
@@ -126,13 +126,13 @@ public static PropertyDescriptor GetInstance(MapiProperty property)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | MapiProperty | [`MapiProperty`](../../mapiproperty) object |
+| property | MapiProperty | [`MapiProperty`](../../mapiproperty/) object |
 
 ### See Also
 
-* class [MapiProperty](../../mapiproperty)
-* class [PropertyDescriptor](../../propertydescriptor)
-* namespace [Aspose.Email.Mapi](../../propertydescriptor)
+* class [MapiProperty](../../mapiproperty/)
+* class [PropertyDescriptor](../)
+* namespace [Aspose.Email.Mapi](../../propertydescriptor/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

@@ -3,14 +3,14 @@ title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Properties are used to store professional  details for the person represented by the contact
 type: docs
-weight: 428
+weight: 429
 url: /java/com.aspose.email/mapicontactprofessionalpropertyset/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.email/mapicontactpropertyset)
 ```
-public final class MapiContactProfessionalPropertySet
+public final class MapiContactProfessionalPropertySet extends MapiContactPropertySet
 ```
 
 Properties are used to store professional details for the person represented by the contact

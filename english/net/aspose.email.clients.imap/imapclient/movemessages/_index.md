@@ -1,11 +1,133 @@
 ---
-title: MoveMessages
+title: ImapClient.MoveMessages
 second_title: Aspose.Email for .NET API Reference
-description: Moves the message
+description: ImapClient method. Moves the messaeg
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.email.clients.imap/imapclient/movemessages/
 ---
+## MoveMessages(IConnection, int, int, string, bool) {#movemessages_1}
+
+Moves the messaeg
+
+```csharp
+public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
+    string folderName, bool commitDeletions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+| commitDeletions | Boolean | Specifies whether deletions should be committed. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(int, int, string, bool) {#movemessages_11}
+
+Moves the message
+
+```csharp
+public void MoveMessages(int startSequence, int endSequence, string folderName, 
+    bool commitDeletions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+| commitDeletions | Boolean | Specifies whether deletions should be committed. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(IConnection, int, int, string) {#movemessages}
+
+Moves the messaeg
+
+```csharp
+public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
+    string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(int, int, string) {#movemessages_10}
+
+Moves the message
+
+```csharp
+public void MoveMessages(int startSequence, int endSequence, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string, bool) {#movemessages_5}
+
+Moves the messaeg
+
+```csharp
+public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName, 
+    bool commitDeletions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| folderName | String | Folder name where a message is to be moved |
+| commitDeletions | Boolean | Specifies whether deletions should be committed. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## MoveMessages(IEnumerable&lt;int&gt;, string, bool) {#movemessages_15}
 
 Moves the message
@@ -22,8 +144,8 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -44,9 +166,9 @@ public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -66,8 +188,8 @@ public void MoveMessages(IEnumerable<int> sequenceSet, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -91,9 +213,9 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -115,8 +237,8 @@ public void MoveMessages(string startUid, string endUid, string folderName, bool
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -138,9 +260,9 @@ public void MoveMessages(IConnection connection, string startUid, string endUid,
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -161,8 +283,8 @@ public void MoveMessages(string startUid, string endUid, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -185,9 +307,9 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -208,8 +330,8 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName, bool com
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -230,9 +352,9 @@ public void MoveMessages(IConnection connection, IEnumerable<string> uidSet, str
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -252,8 +374,8 @@ public void MoveMessages(IEnumerable<string> uidSet, string folderName)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -276,10 +398,10 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -301,9 +423,9 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -325,10 +447,10 @@ public void MoveMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -348,131 +470,9 @@ public void MoveMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
----
 
-## MoveMessages(IConnection, int, int, string, bool) {#movemessages_1}
-
-Moves the messaeg
-
-```csharp
-public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
-    string folderName, bool commitDeletions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-| commitDeletions | Boolean | Specifies whether deletions should be committed. |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## MoveMessages(int, int, string, bool) {#movemessages_11}
-
-Moves the message
-
-```csharp
-public void MoveMessages(int startSequence, int endSequence, string folderName, 
-    bool commitDeletions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-| commitDeletions | Boolean | Specifies whether deletions should be committed. |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## MoveMessages(IConnection, int, int, string) {#movemessages}
-
-Moves the messaeg
-
-```csharp
-public void MoveMessages(IConnection connection, int startSequence, int endSequence, 
-    string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## MoveMessages(int, int, string) {#movemessages_10}
-
-Moves the message
-
-```csharp
-public void MoveMessages(int startSequence, int endSequence, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## MoveMessages(IConnection, IEnumerable&lt;int&gt;, string, bool) {#movemessages_5}
-
-Moves the messaeg
-
-```csharp
-public void MoveMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName, 
-    bool commitDeletions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| folderName | String | Folder name where a message is to be moved |
-| commitDeletions | Boolean | Specifies whether deletions should be committed. |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

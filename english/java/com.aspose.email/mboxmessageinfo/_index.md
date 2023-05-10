@@ -3,7 +3,7 @@ title: MboxMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an information about message in the MBOX storage.
 type: docs
-weight: 480
+weight: 482
 url: /java/com.aspose.email/mboxmessageinfo/
 ---
 
@@ -19,10 +19,16 @@ Represents an information about message in the MBOX storage.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBcc()](#getBcc--) | Gets the address collection that contains BCC recipients of message |
+| [getCC()](#getCC--) | Gets the address collection that contains CC recipients |
 | [getClass()](#getClass--) |  |
+| [getDate()](#getDate--) | Gets the date of message |
 | [getDelimiterMark()](#getDelimiterMark--) | Gets the message delimiter mark. |
 | [getEntryId()](#getEntryId--) | Gets the entry identifier. |
+| [getFrom()](#getFrom--) | Gets the from address |
 | [getHeaders()](#getHeaders--) | Gets the collection of header fields |
+| [getSubject()](#getSubject--) | Gets the message subject. |
+| [getTo()](#getTo--) | Gets the address collection that contains the recipients of message |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,6 +51,26 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBcc() {#getBcc--}
+```
+public final MailAddressCollection getBcc()
+```
+
+
+Gets the address collection that contains BCC recipients of message
+
+**Returns:**
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
+### getCC() {#getCC--}
+```
+public final MailAddressCollection getCC()
+```
+
+
+Gets the address collection that contains CC recipients
+
+**Returns:**
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -55,6 +81,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDate() {#getDate--}
+```
+public final Date getDate()
+```
+
+
+Gets the date of message
+
+**Returns:**
+java.util.Date
 ### getDelimiterMark() {#getDelimiterMark--}
 ```
 public final String getDelimiterMark()
@@ -79,6 +115,16 @@ Value: The string represented an entry identifier.
 
 **Returns:**
 java.lang.String
+### getFrom() {#getFrom--}
+```
+public final MailAddress getFrom()
+```
+
+
+Gets the from address
+
+**Returns:**
+[MailAddress](../../com.aspose.email/mailaddress)
 ### getHeaders() {#getHeaders--}
 ```
 public final HeaderCollection getHeaders()
@@ -89,6 +135,26 @@ Gets the collection of header fields
 
 **Returns:**
 [HeaderCollection](../../com.aspose.email/headercollection)
+### getSubject() {#getSubject--}
+```
+public final String getSubject()
+```
+
+
+Gets the message subject.
+
+**Returns:**
+java.lang.String
+### getTo() {#getTo--}
+```
+public final MailAddressCollection getTo()
+```
+
+
+Gets the address collection that contains the recipients of message
+
+**Returns:**
+[MailAddressCollection](../../com.aspose.email/mailaddresscollection)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -3,7 +3,7 @@ title: MapiDistributionListMemberCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 436
+weight: 438
 url: /java/com.aspose.email/mapidistributionlistmembercollection/
 ---
 

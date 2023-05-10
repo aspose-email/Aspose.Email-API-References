@@ -3,7 +3,7 @@ title: MapiDistributionListEntryIdType
 second_title: Aspose.Email for Java API Reference
 description: Specifies the type of EntryID.
 type: docs
-weight: 434
+weight: 436
 url: /java/com.aspose.email/mapidistributionlistentryidtype/
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: ListMessages
+title: IEWSClient.ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: Lists the messages.
+description: IEWSClient method. Lists the messages
 type: docs
 weight: 1140
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmessages/
@@ -20,13 +20,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -47,14 +47,14 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -74,13 +74,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -102,14 +102,14 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -130,13 +130,13 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -153,18 +153,18 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 | --- | --- | --- |
 | mailbox | String | The mailbox that is used to initialize the folder id class. |
 | folder | String | A folder to search messages in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents message search criteria. |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -184,13 +184,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -212,15 +212,15 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* class [PropertyDescriptor](../../../aspose.email.mapi/propertydescriptor)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* class [PropertyDescriptor](../../../aspose.email.mapi/propertydescriptor/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -236,18 +236,18 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents message search criteria. |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -263,19 +263,19 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents message search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -293,19 +293,19 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents message search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -324,13 +324,13 @@ public ExchangeMessageInfoCollection ListMessages(IEnumerable<string> iDs)
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages with.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages with.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -345,13 +345,13 @@ public ExchangeMessageInfoCollection ListMessages()
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) from inbox folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) from inbox folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -369,18 +369,18 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents message search criteria. |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

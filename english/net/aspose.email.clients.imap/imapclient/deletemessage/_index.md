@@ -1,9 +1,9 @@
 ---
-title: DeleteMessage
+title: ImapClient.DeleteMessage
 second_title: Aspose.Email for .NET API Reference
-description: Marks a message with the specified sequence number as deleted
+description: ImapClient method. Marks a message with the specified sequence number as deleted
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.email.clients.imap/imapclient/deletemessage/
 ---
 ## DeleteMessage(IConnection, int) {#deletemessage}
@@ -21,9 +21,9 @@ public void DeleteMessage(IConnection connection, int sequenceNumber)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -43,9 +43,9 @@ public void DeleteMessage(IConnection connection, string uniqueId)
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -64,8 +64,8 @@ public void DeleteMessage(int sequenceNumber)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -84,8 +84,8 @@ public void DeleteMessage(string uniqueId)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -106,9 +106,9 @@ public void DeleteMessage(IConnection connection, int sequenceNumber, long modif
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -129,9 +129,9 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -151,8 +151,8 @@ public void DeleteMessage(int sequenceNumber, long modificationSequence)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -172,8 +172,8 @@ public void DeleteMessage(string uniqueId, long modificationSequence)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -193,8 +193,8 @@ public void DeleteMessage(string uniqueId, bool commitNow)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -215,9 +215,9 @@ public void DeleteMessage(IConnection connection, string uniqueId, bool commitNo
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -238,8 +238,8 @@ public void DeleteMessage(string uniqueId, long modificationSequence, bool commi
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -262,9 +262,9 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

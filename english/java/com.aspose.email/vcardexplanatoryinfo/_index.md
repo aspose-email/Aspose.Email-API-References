@@ -3,7 +3,7 @@ title: VCardExplanatoryInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard explanatory properties
 type: docs
-weight: 700
+weight: 702
 url: /java/com.aspose.email/vcardexplanatoryinfo/
 ---
 
@@ -28,7 +28,7 @@ Represents vCard explanatory properties
 | [getClass()](#getClass--) |  |
 | [getFbUrl()](#getFbUrl--) | Gets or sets URI for the busy time associated with the object that the vCard represents. |
 | [getNote()](#getNote--) | Gets or sets a comments |
-| [getProdId()](#getProdId--) | Gets an id of product that created a vCard |
+| [getProdId()](#getProdId--) | Gets or sets an id of product that created a vCard |
 | [getRevision()](#getRevision--) | Gets or sets a revision time |
 | [getSortString()](#getSortString--) | Gets or sets a sort string |
 | [getSound()](#getSound--) | Gets or sets a sound |
@@ -41,6 +41,7 @@ Represents vCard explanatory properties
 | [setCategories(System.Collections.Specialized.StringCollection value)](#setCategories-com.aspose.ms.System.Collections.Specialized.StringCollection-) | Gets or sets a categories information |
 | [setFbUrl(String value)](#setFbUrl-java.lang.String-) | Gets or sets URI for the busy time associated with the object that the vCard represents. |
 | [setNote(String value)](#setNote-java.lang.String-) | Gets or sets a comments |
+| [setProdId(String value)](#setProdId-java.lang.String-) | Gets or sets an id of product that created a vCard |
 | [setRevision(Date value)](#setRevision-java.util.Date-) | Gets or sets a revision time |
 | [setSortString(String value)](#setSortString-java.lang.String-) | Gets or sets a sort string |
 | [setSound(VCardSound value)](#setSound-com.aspose.email.VCardSound-) | Gets or sets a sound |
@@ -119,7 +120,7 @@ public final String getProdId()
 ```
 
 
-Gets an id of product that created a vCard
+Gets or sets an id of product that created a vCard
 
 **Returns:**
 java.lang.String
@@ -242,6 +243,19 @@ public final void setNote(String value)
 
 
 Gets or sets a comments
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setProdId(String value) {#setProdId-java.lang.String-}
+```
+public final void setProdId(String value)
+```
+
+
+Gets or sets an id of product that created a vCard
 
 **Parameters:**
 | Parameter | Type | Description |

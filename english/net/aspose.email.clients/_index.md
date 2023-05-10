@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email.Clients
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients namespace provides classes to access messages by using mail protocols.
+description: The Aspose.Email.Clients namespace provides classes to access messages by using mail protocols
 type: docs
 weight: 70
 url: /net/aspose.email.clients/
@@ -12,45 +12,45 @@ The **Aspose.Email.Clients** namespace provides classes to access messages by us
 
 | Class | Description |
 | --- | --- |
-| [AsyncCommandResultEventArgs](./asynccommandresulteventargs) | [`AsyncCommandResultEventArgs`](../aspose.email.clients/asynccommandresulteventargs) is containing event data. |
-| [BindIPEndPointHandler](./bindipendpointhandler) | Use the BindIPEndPointHandler if you need to use a specific local endpoint. |
-| [CommandStatus](./commandstatus) | Indicates the result of an operation. |
-| [EmailClient](./emailclient) | Represents the client that creates server connection by using the host credentials. |
-| [HttpProxy](./httpproxy) | HTTP proxy client. |
-| [MessageInfoBase](./messageinfobase) | The MessageInfo represents the E-Mail message info fetched from the mail server. |
-| [NameValuePair](./namevaluepair) | An extended property. |
-| [NetworkException](./networkexception) | Thrown if there is a network connection failure. |
-| [OAuthNetworkCredential](./oauthnetworkcredential) | Represents the NetworkCredential for OAuth authentication. |
-| [OAuthToken](./oauthtoken) | Contains OAuth token data such like token value, token type, expiration date. |
-| [PageInfo](./pageinfo) | Contains information about retrieved page when paging methods are used. |
-| [PipeliningStatus](./pipeliningstatus) | Defines pipelining status for mail client. |
-| [Proxy](./proxy) | Base proxy client. |
-| [SocksProxy](./socksproxy) | SOCKS proxy client. Supported versions of the protocol are SOCKS4 and SOCKS5. |
-| [TokenProvider](./tokenprovider) | Class TokenProvider allows to retrieve access token for mail services. |
+| [AsyncCommandResultEventArgs](./asynccommandresulteventargs/) | [`AsyncCommandResultEventArgs`](../aspose.email.clients/asynccommandresulteventargs/) is containing event data. |
+| [BindIPEndPointHandler](./bindipendpointhandler/) | Use the BindIPEndPointHandler if you need to use a specific local endpoint. |
+| [CommandStatus](./commandstatus/) | Indicates the result of an operation. |
+| [EmailClient](./emailclient/) | Represents the client that creates server connection by using the host credentials. |
+| [HttpProxy](./httpproxy/) | HTTP proxy client. |
+| [MessageInfoBase](./messageinfobase/) | The MessageInfo represents the E-Mail message info fetched from the mail server. |
+| [NameValuePair](./namevaluepair/) | An extended property. |
+| [NetworkException](./networkexception/) | Thrown if there is a network connection failure. |
+| [OAuthNetworkCredential](./oauthnetworkcredential/) | Represents the NetworkCredential for OAuth authentication. |
+| [OAuthToken](./oauthtoken/) | Contains OAuth token data such like token value, token type, expiration date. |
+| [PageInfo](./pageinfo/) | Contains information about retrieved page when paging methods are used. |
+| [PipeliningStatus](./pipeliningstatus/) | Defines pipelining status for mail client. |
+| [Proxy](./proxy/) | Base proxy client. |
+| [SocksProxy](./socksproxy/) | SOCKS proxy client. Supported versions of the protocol are SOCKS4 and SOCKS5. |
+| [TokenProvider](./tokenprovider/) | Class TokenProvider allows to retrieve access token for mail services. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IAsyncResultExt](./iasyncresultext) | Represents the extended status of an asynchronous operation. |
-| [IAsyncTokenProvider](./iasynctokenprovider) | Defines interface allowing to retrieve access token asynchronously. |
-| [ICommand](./icommand) | Defines a command. |
-| [IConnection](./iconnection) | IConnectionAdapter allows to manage connection to a server. |
-| [IMultipleServicesTokenProvider](./imultipleservicestokenprovider) | Defines interface allowing to retrieve access token. |
-| [ITokenProvider](./itokenprovider) | Defines interface allowing to retrieve access token. |
+| [IAsyncResultExt](./iasyncresultext/) | Represents the extended status of an asynchronous operation. |
+| [IAsyncTokenProvider](./iasynctokenprovider/) | Defines interface allowing to retrieve access token asynchronously. |
+| [ICommand](./icommand/) | Defines a command. |
+| [IConnection](./iconnection/) | IConnectionAdapter allows to manage connection to a server. |
+| [IMultipleServicesTokenProvider](./imultipleservicestokenprovider/) | Defines interface allowing to retrieve access token. |
+| [ITokenProvider](./itokenprovider/) | Defines interface allowing to retrieve access token. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [AsyncCommandResults](./asynccommandresults) | The result of asynchronous command. |
-| [CompressionType](./compressiontype) | Compression types which are used by mail protocols |
-| [ConnectionAsgmtType](./connectionasgmttype) | Defines algorithm of connection allocation in multiple threads environment |
-| [ConnectionState](./connectionstate) | Describes the current state of the connection. |
-| [HttpAuthenticationMethods](./httpauthenticationmethods) | The authentication methods supported by the HTTP proxy |
-| [MultiConnectionMode](./multiconnectionmode) | Enumerate modes which indicates how client has to use multiple connections for heavy loaded operations. |
-| [PipeliningMode](./pipeliningmode) | Defines how mail client supports the pipelining |
-| [SecurityOptions](./securityoptions) | Security mode for a mail client |
-| [SocksAuthenticationMethods](./socksauthenticationmethods) | The authentication methods supported by the SOCKS protocol |
-| [SocksVersion](./socksversion) | Versions of the SOCKS protocol |
-| [TokenType](./tokentype) | Defines OAuth token types |
+| [AsyncCommandResults](./asynccommandresults/) | The result of asynchronous command. |
+| [CompressionType](./compressiontype/) | Compression types which are used by mail protocols |
+| [ConnectionAsgmtType](./connectionasgmttype/) | Defines algorithm of connection allocation in multiple threads environment |
+| [ConnectionState](./connectionstate/) | Describes the current state of the connection. |
+| [HttpAuthenticationMethods](./httpauthenticationmethods/) | The authentication methods supported by the HTTP proxy |
+| [MultiConnectionMode](./multiconnectionmode/) | Enumerate modes which indicates how client has to use multiple connections for heavy loaded operations. |
+| [PipeliningMode](./pipeliningmode/) | Defines how mail client supports the pipelining |
+| [SecurityOptions](./securityoptions/) | Security mode for a mail client |
+| [SocksAuthenticationMethods](./socksauthenticationmethods/) | The authentication methods supported by the SOCKS protocol |
+| [SocksVersion](./socksversion/) | Versions of the SOCKS protocol |
+| [TokenType](./tokentype/) | Defines OAuth token types |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

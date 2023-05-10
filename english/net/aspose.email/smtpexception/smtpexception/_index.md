@@ -1,14 +1,14 @@
 ---
-title: SmtpException
+title: SmtpException.SmtpException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the SmtpExceptionaspose.email/smtpexception class
+description: SmtpException constructor. Initializes a new instance of the SmtpException class
 type: docs
 weight: 10
 url: /net/aspose.email/smtpexception/smtpexception/
 ---
 ## SmtpException(SmtpStatusCode) {#constructor_1}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode)
@@ -20,16 +20,16 @@ public SmtpException(SmtpStatusCode statusCode)
 
 ### See Also
 
-* enum [SmtpStatusCode](../../../aspose.email.clients.smtp/smtpstatuscode)
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* enum [SmtpStatusCode](../../../aspose.email.clients.smtp/smtpstatuscode/)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException(SmtpStatusCode, string) {#constructor_2}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode, string message)
@@ -42,16 +42,16 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 ### See Also
 
-* enum [SmtpStatusCode](../../../aspose.email.clients.smtp/smtpstatuscode)
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* enum [SmtpStatusCode](../../../aspose.email.clients.smtp/smtpstatuscode/)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException() {#constructor}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException()
@@ -59,15 +59,15 @@ public SmtpException()
 
 ### See Also
 
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException(string) {#constructor_3}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(string message)
@@ -79,15 +79,15 @@ public SmtpException(string message)
 
 ### See Also
 
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException(string, SendMessagesResult) {#constructor_4}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(string message, SendMessagesResult result)
@@ -100,16 +100,16 @@ public SmtpException(string message, SendMessagesResult result)
 
 ### See Also
 
-* class [SendMessagesResult](../../../aspose.email.clients.smtp/sendmessagesresult)
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [SendMessagesResult](../../../aspose.email.clients.smtp/sendmessagesresult/)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException(string, Exception) {#constructor_6}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(string message, Exception innerException)
@@ -122,15 +122,15 @@ public SmtpException(string message, Exception innerException)
 
 ### See Also
 
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpException(string, Exception, MailMessage) {#constructor_7}
 
-Initializes a new instance of the [`SmtpException`](../../smtpexception) class
+Initializes a new instance of the [`SmtpException`](../) class
 
 ```csharp
 public SmtpException(string message, Exception innerException, MailMessage mailMessage)
@@ -144,9 +144,9 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 
 ### See Also
 
-* class [MailMessage](../../mailmessage)
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [MailMessage](../../mailmessage/)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -159,9 +159,9 @@ public SmtpException(string message, MailMessage mailMessage)
 
 ### See Also
 
-* class [MailMessage](../../mailmessage)
-* class [SmtpException](../../smtpexception)
-* namespace [Aspose.Email](../../smtpexception)
+* class [MailMessage](../../mailmessage/)
+* class [SmtpException](../)
+* namespace [Aspose.Email](../../smtpexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

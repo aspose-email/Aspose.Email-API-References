@@ -39,6 +39,7 @@ The MapiTask type exposes the following members:
 |billing|Contains the billing information associated with an item.|
 |sensitivity|Gets the Sensitivity.|
 |message_class|Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note.<br/>            The message class specifies the type, purpose, or content of the message.|
+|supported_type|Gets the supported item type.|
 |body|Gets the message text.|
 |subject|Gets or sets the subject of the message.|
 |percent_complete|Gets or sets the progress the user has made on a task.|

@@ -21,6 +21,8 @@ The MapiPropertyCollection type exposes the following members:
 | :- | :- |
 |keys|Gets a System.Collections.Generic.ICollection<long> containing the keys in the collection.|
 |values|Gets an System.Collections.Generic.ICollection<MapiProperty> containing the values in the collection.|
+|count|Gets the number of elements contained in the collection.|
+|is_read_only|Gets a value indicating whether the collection is read only.|
 ## Indexer
 | Name | Description |
 | :- | :- |
@@ -41,6 +43,7 @@ The MapiPropertyCollection type exposes the following members:
 |get_tag_from_named_property(name)|  |
 |contains_key(key)|  |
 |try_get_value(key, value)|  |
+|clear()|  |
 
 ### See Also
 

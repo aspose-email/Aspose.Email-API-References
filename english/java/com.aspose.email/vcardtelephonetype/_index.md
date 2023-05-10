@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates a vCard telephone types
 type: docs
-weight: 715
+weight: 717
 url: /java/com.aspose.email/vcardtelephonetype/
 ---
 
@@ -23,6 +23,7 @@ Enumerates a vCard telephone types
 
 | Field | Description |
 | --- | --- |
+| [ASSISTANT](#ASSISTANT) | An assistant phone number |
 | [BBS](#BBS) | A bulletin board service number |
 | [CAR](#CAR) | A car-phone number |
 | [CELL](#CELL) | A cellular number |
@@ -30,12 +31,15 @@ Enumerates a vCard telephone types
 | [FAX](#FAX) | A facsimile number |
 | [HOME](#HOME) | A home number |
 | [ISDN](#ISDN) | An ISDN number |
+| [MAIN](#MAIN) | Main phone number |
 | [MODEM](#MODEM) | A modem number |
 | [MSG](#MSG) | A messaging service on the number |
 | [None](#None) | No values are set. |
+| [OTHER](#OTHER) | Other phone number |
 | [PAGER](#PAGER) | A pager number |
 | [PCS](#PCS) | A personal communication services telephone number |
 | [PREF](#PREF) | A preferred number |
+| [RADIO](#RADIO) | A radio-phone number |
 | [VIDEO](#VIDEO) | A video-phone number |
 | [VOICE](#VOICE) | A voice number |
 | [WORK](#WORK) | A work number |
@@ -85,6 +89,14 @@ public VCardTelephoneType()
 
 
 Constructor for VCardTelephoneType.
+
+### ASSISTANT {#ASSISTANT}
+```
+public static final int ASSISTANT
+```
+
+
+An assistant phone number
 
 ### BBS {#BBS}
 ```
@@ -140,6 +152,14 @@ public static final int ISDN
 
 An ISDN number
 
+### MAIN {#MAIN}
+```
+public static final int MAIN
+```
+
+
+Main phone number
+
 ### MODEM {#MODEM}
 ```
 public static final int MODEM
@@ -164,6 +184,14 @@ public static final int None
 
 No values are set.
 
+### OTHER {#OTHER}
+```
+public static final int OTHER
+```
+
+
+Other phone number
+
 ### PAGER {#PAGER}
 ```
 public static final int PAGER
@@ -187,6 +215,14 @@ public static final int PREF
 
 
 A preferred number
+
+### RADIO {#RADIO}
+```
+public static final int RADIO
+```
+
+
+A radio-phone number
 
 ### VIDEO {#VIDEO}
 ```

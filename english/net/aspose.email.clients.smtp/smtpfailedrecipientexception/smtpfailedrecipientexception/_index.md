@@ -1,14 +1,14 @@
 ---
-title: SmtpFailedRecipientException
+title: SmtpFailedRecipientException.SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the SmtpFailedRecipientExceptionaspose.email.clients.smtp/smtpfailedrecipientexception class
+description: SmtpFailedRecipientException constructor. Initializes a new instance of the SmtpFailedRecipientException class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientexception/smtpfailedrecipientexception/
 ---
 ## SmtpFailedRecipientException() {#constructor}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException()
@@ -16,15 +16,15 @@ public SmtpFailedRecipientException()
 
 ### See Also
 
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpFailedRecipientException(string) {#constructor_3}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException(string message)
@@ -36,15 +36,15 @@ public SmtpFailedRecipientException(string message)
 
 ### See Also
 
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpFailedRecipientException(string, Exception) {#constructor_4}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException(string message, Exception innerException)
@@ -57,15 +57,15 @@ public SmtpFailedRecipientException(string message, Exception innerException)
 
 ### See Also
 
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpFailedRecipientException(SmtpStatusCode, string) {#constructor_1}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedRecipient)
@@ -78,16 +78,16 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ### See Also
 
-* enum [SmtpStatusCode](../../smtpstatuscode)
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* enum [SmtpStatusCode](../../smtpstatuscode/)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpFailedRecipientException(SmtpStatusCode, string, string) {#constructor_2}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedRecipient, 
@@ -102,16 +102,16 @@ public SmtpFailedRecipientException(SmtpStatusCode statusCode, string failedReci
 
 ### See Also
 
-* enum [SmtpStatusCode](../../smtpstatuscode)
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* enum [SmtpStatusCode](../../smtpstatuscode/)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## SmtpFailedRecipientException(string, string, Exception) {#constructor_5}
 
-Initializes a new instance of the [`SmtpFailedRecipientException`](../../smtpfailedrecipientexception) class
+Initializes a new instance of the [`SmtpFailedRecipientException`](../) class
 
 ```csharp
 public SmtpFailedRecipientException(string message, string failedRecipient, 
@@ -126,8 +126,8 @@ public SmtpFailedRecipientException(string message, string failedRecipient,
 
 ### See Also
 
-* class [SmtpFailedRecipientException](../../smtpfailedrecipientexception)
-* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception)
+* class [SmtpFailedRecipientException](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpfailedrecipientexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

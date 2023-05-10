@@ -1,7 +1,7 @@
 ---
-title: ListMessagesAsync
+title: Pop3Client.ListMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: Lists the messages. Gets an information for earch message
+description: Pop3Client method. Lists the messages. Gets an information for earch message
 type: docs
 weight: 300
 url: /net/aspose.email.clients.pop3/pop3client/listmessagesasync/
@@ -22,16 +22,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -54,16 +54,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -79,7 +79,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 
 ### Return Value
 
@@ -87,11 +87,11 @@ Collection of Pop3MessageInfo objects.
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -114,17 +114,17 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -143,7 +143,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 
 ### Return Value
 
@@ -151,12 +151,12 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -173,15 +173,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -202,15 +202,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -225,7 +225,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 
 ### Return Value
 
@@ -233,10 +233,10 @@ Collection of Pop3MessageInfo objects.
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -257,16 +257,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -284,7 +284,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 
 ### Return Value
 
@@ -292,11 +292,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -319,16 +319,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -352,16 +352,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -378,7 +378,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value
@@ -387,11 +387,11 @@ Collection of Pop3MessageInfo objects.
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -415,17 +415,17 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -444,7 +444,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value
@@ -453,12 +453,12 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -479,15 +479,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -510,15 +510,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -533,7 +533,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value
@@ -542,10 +542,10 @@ Collection of Pop3MessageInfo objects.
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -568,16 +568,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 Task object, with delegate for this operation
 
-### Remarks
+## Remarks
 
 Note that messages marked as deleted are not listed
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -595,7 +595,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value
@@ -604,11 +604,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* enum [Pop3ListFields](../../pop3listfields)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection/)
+* enum [Pop3ListFields](../../pop3listfields/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [Pop3Client](../)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

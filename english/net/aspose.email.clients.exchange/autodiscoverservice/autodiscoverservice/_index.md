@@ -1,14 +1,14 @@
 ---
-title: AutodiscoverService
+title: AutodiscoverService.AutodiscoverService
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the AutodiscoverServiceaspose.email.clients.exchange/autodiscoverservice class.
+description: AutodiscoverService constructor. Initializes a new instance of the AutodiscoverService class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/autodiscoverservice/autodiscoverservice/
 ---
 ## AutodiscoverService() {#constructor}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService()
@@ -16,15 +16,15 @@ public AutodiscoverService()
 
 ### See Also
 
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AutodiscoverService(ExchangeVersion) {#constructor_1}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService(ExchangeVersion requestedServerVersion)
@@ -36,16 +36,16 @@ public AutodiscoverService(ExchangeVersion requestedServerVersion)
 
 ### See Also
 
-* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion)
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion/)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AutodiscoverService(string) {#constructor_2}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService(string domain)
@@ -57,15 +57,15 @@ public AutodiscoverService(string domain)
 
 ### See Also
 
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AutodiscoverService(string, ExchangeVersion) {#constructor_3}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion)
@@ -78,16 +78,16 @@ public AutodiscoverService(string domain, ExchangeVersion requestedServerVersion
 
 ### See Also
 
-* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion)
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion/)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AutodiscoverService(Uri) {#constructor_4}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService(Uri url)
@@ -99,15 +99,15 @@ public AutodiscoverService(Uri url)
 
 ### See Also
 
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AutodiscoverService(Uri, ExchangeVersion) {#constructor_5}
 
-Initializes a new instance of the [`AutodiscoverService`](../../autodiscoverservice) class.
+Initializes a new instance of the [`AutodiscoverService`](../) class.
 
 ```csharp
 public AutodiscoverService(Uri url, ExchangeVersion requestedServerVersion)
@@ -120,9 +120,9 @@ public AutodiscoverService(Uri url, ExchangeVersion requestedServerVersion)
 
 ### See Also
 
-* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion)
-* class [AutodiscoverService](../../autodiscoverservice)
-* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice)
+* enum [ExchangeVersion](../../../aspose.email.clients.exchange.webservice/exchangeversion/)
+* class [AutodiscoverService](../)
+* namespace [Aspose.Email.Clients.Exchange](../../autodiscoverservice/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

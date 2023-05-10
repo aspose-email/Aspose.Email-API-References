@@ -22,7 +22,8 @@ Enumerates the Html format options.
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [None](#None) | No specific settings are specified. |
 | [RenderCalendarEvent](#RenderCalendarEvent) | Indicates that text from calendar event should be written in output mhtml. |
-| [RenderVCardInfo](#RenderVCardInfo) | Indicates that text from VCard AlternativeView should be written in output mhtml. |
+| [RenderTaskFields](#RenderTaskFields) | Indicates that the specific Task fields should be written in output html. |
+| [RenderVCardInfo](#RenderVCardInfo) | Indicates that text from VCard AlternativeView should be written in output html. |
 | [WriteCompleteBccEmailAddress](#WriteCompleteBccEmailAddress) | Indicates that complete e-mail address should be written in 'Bcc' header. |
 | [WriteCompleteCcEmailAddress](#WriteCompleteCcEmailAddress) | Indicates that complete e-mail address should be written in 'Cc' header. |
 | [WriteCompleteEmailAddress](#WriteCompleteEmailAddress) | Indicates that complete e-mail address should be written in all email headers. |
@@ -98,13 +99,21 @@ public static final int RenderCalendarEvent
 
 Indicates that text from calendar event should be written in output mhtml.
 
+### RenderTaskFields {#RenderTaskFields}
+```
+public static final int RenderTaskFields
+```
+
+
+Indicates that the specific Task fields should be written in output html.
+
 ### RenderVCardInfo {#RenderVCardInfo}
 ```
 public static final int RenderVCardInfo
 ```
 
 
-Indicates that text from VCard AlternativeView should be written in output mhtml.
+Indicates that text from VCard AlternativeView should be written in output html.
 
 ### WriteCompleteBccEmailAddress {#WriteCompleteBccEmailAddress}
 ```

@@ -1,14 +1,14 @@
 ---
-title: LogEntry
+title: LogEntry.LogEntry
 second_title: Aspose.Email for .NET API Reference
-description: Initialize a new instance of a LogEntryaspose.email.tools.logging/logentry class.
+description: LogEntry constructor. Initialize a new instance of a LogEntry class
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/logentry/logentry/
 ---
 ## LogEntry() {#constructor}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry()
@@ -16,15 +16,15 @@ public LogEntry()
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string) {#constructor_5}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry(string message)
@@ -36,15 +36,15 @@ public LogEntry(string message)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, DateTime) {#constructor_9}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry(string message, DateTime time)
@@ -57,15 +57,15 @@ public LogEntry(string message, DateTime time)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, Exception) {#constructor_10}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry(string message, Exception innerException)
@@ -78,15 +78,15 @@ public LogEntry(string message, Exception innerException)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, LogLevel) {#constructor_6}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry(string message, LogLevel severity)
@@ -95,20 +95,20 @@ public LogEntry(string message, LogLevel severity)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | String | Message body to log. Value from ToString() method from message object. |
-| severity | LogLevel | Log entry severity as a [`Severity`](../severity) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | LogLevel | Log entry severity as a [`Severity`](../severity/) enumeration. (Unspecified, Information, Warning or Error). |
 
 ### See Also
 
-* class [LogLevel](../../loglevel)
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogLevel](../../loglevel/)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, Exception, LogLevel) {#constructor_11}
 
-Initialize a new instance of a [`LogEntry`](../../logentry) class.
+Initialize a new instance of a [`LogEntry`](../) class.
 
 ```csharp
 public LogEntry(string message, Exception innerException, LogLevel severity)
@@ -118,20 +118,20 @@ public LogEntry(string message, Exception innerException, LogLevel severity)
 | --- | --- | --- |
 | message | String | Message body to log. Value from ToString() method from message object. |
 | innerException | Exception | The inner exception to log. |
-| severity | LogLevel | Log entry severity as a [`Severity`](../severity) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | LogLevel | Log entry severity as a [`Severity`](../severity/) enumeration. (Unspecified, Information, Warning or Error). |
 
 ### See Also
 
-* class [LogLevel](../../loglevel)
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogLevel](../../loglevel/)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, IDictionary&lt;string, string&gt;) {#constructor_8}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(string message, IDictionary<string, string> properties)
@@ -144,15 +144,15 @@ public LogEntry(string message, IDictionary<string, string> properties)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(byte[]) {#constructor_1}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage)
@@ -164,15 +164,15 @@ public LogEntry(byte[] binaryDataMessage)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(byte[], Encoding) {#constructor_3}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
@@ -185,15 +185,15 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(byte[], IDictionary&lt;string, string&gt;) {#constructor_2}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties)
@@ -206,15 +206,15 @@ public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(byte[], Encoding, IDictionary&lt;string, string&gt;) {#constructor_4}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding, 
@@ -229,15 +229,15 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding,
 
 ### See Also
 
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_7}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(string message, LogLevel severity, string category, int eventId, string title, 
@@ -247,7 +247,7 @@ public LogEntry(string message, LogLevel severity, string category, int eventId,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | String | Message body to log. Value from ToString() method from message object. |
-| severity | LogLevel | Log entry severity as a [`Severity`](../severity) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | LogLevel | Log entry severity as a [`Severity`](../severity/) enumeration. (Unspecified, Information, Warning or Error). |
 | category | String | Category name used to route the log entry to a one or more sinks. |
 | eventId | Int32 | Event number or identifier. |
 | title | String | Additional description of the log entry message. |
@@ -255,16 +255,16 @@ public LogEntry(string message, LogLevel severity, string category, int eventId,
 
 ### See Also
 
-* class [LogLevel](../../loglevel)
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogLevel](../../loglevel/)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## LogEntry(string, Exception, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_12}
 
-Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
+Create a new instance of [`LogEntry`](../) with a full set of constructor parameters
 
 ```csharp
 public LogEntry(string message, Exception innerException, LogLevel severity, string category, 
@@ -275,7 +275,7 @@ public LogEntry(string message, Exception innerException, LogLevel severity, str
 | --- | --- | --- |
 | message | String | Message body to log. Value from ToString() method from message object. |
 | innerException | Exception | The inner exception to log. |
-| severity | LogLevel | Log entry severity as a [`Severity`](../severity) enumeration. (Unspecified, Information, Warning or Error). |
+| severity | LogLevel | Log entry severity as a [`Severity`](../severity/) enumeration. (Unspecified, Information, Warning or Error). |
 | category | String | Category name used to route the log entry to a one or more sinks. |
 | eventId | Int32 | Event number or identifier. |
 | title | String | Additional description of the log entry message. |
@@ -283,9 +283,9 @@ public LogEntry(string message, Exception innerException, LogLevel severity, str
 
 ### See Also
 
-* class [LogLevel](../../loglevel)
-* class [LogEntry](../../logentry)
-* namespace [Aspose.Email.Tools.Logging](../../logentry)
+* class [LogLevel](../../loglevel/)
+* class [LogEntry](../)
+* namespace [Aspose.Email.Tools.Logging](../../logentry/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+
