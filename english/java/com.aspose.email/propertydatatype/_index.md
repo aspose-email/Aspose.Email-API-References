@@ -3,7 +3,7 @@ title: PropertyDataType
 second_title: Aspose.Email for Java API Reference
 description: MS-OXCDATA Data Structures
 type: docs
-weight: 578
+weight: 580
 url: /java/com.aspose.email/propertydatatype/
 ---
 

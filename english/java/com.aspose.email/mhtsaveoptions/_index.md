@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 512
+weight: 514
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -32,11 +32,13 @@ Allows to specify additional options when saving MailMessage to Mhtml format.
 | [getCssStyles()](#getCssStyles--) | Gets or sets the additional css styles for the formatter. |
 | [getCustomProgressHandler()](#getCustomProgressHandler--) | Represents method that usually supplied by calling side and handles progress events. |
 | [getDefaultEml()](#getDefaultEml--) | Gets options with default values for saving message to Eml format. |
+| [getDefaultEmlx()](#getDefaultEmlx--) | Gets options with default values for saving message to Emlx format. |
 | [getDefaultHeaderFormat()](#getDefaultHeaderFormat--) | Default header line format. |
 | [getDefaultHtml()](#getDefaultHtml--) | Gets options with default values for saving message to Html format. |
 | [getDefaultMhtml()](#getDefaultMhtml--) | Gets options with default values for saving message to Mhtml format. |
 | [getDefaultMsg()](#getDefaultMsg--) | Gets options with default values for saving message to Msg(ASCII) format. |
 | [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
+| [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
 | [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Default page header format. |
 | [getFormatTemplates()](#getFormatTemplates--) | Gets the format templates. |
 | [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
@@ -191,6 +193,16 @@ Gets options with default values for saving message to Eml format.
 
 **Returns:**
 [EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
+### getDefaultEmlx() {#getDefaultEmlx--}
+```
+public static EmlSaveOptions getDefaultEmlx()
+```
+
+
+Gets options with default values for saving message to Emlx format.
+
+**Returns:**
+[EmlSaveOptions](../../com.aspose.email/emlsaveoptions)
 ### getDefaultHeaderFormat() {#getDefaultHeaderFormat--}
 ```
 public final String getDefaultHeaderFormat()
@@ -240,6 +252,16 @@ public static MsgSaveOptions getDefaultMsgUnicode()
 
 
 Gets options with default values for saving message to Msg(Unicode) format.
+
+**Returns:**
+[MsgSaveOptions](../../com.aspose.email/msgsaveoptions)
+### getDefaultOft() {#getDefaultOft--}
+```
+public static MsgSaveOptions getDefaultOft()
+```
+
+
+Gets options with default values for saving message to Outlook template (Oft) format.
 
 **Returns:**
 [MsgSaveOptions](../../com.aspose.email/msgsaveoptions)

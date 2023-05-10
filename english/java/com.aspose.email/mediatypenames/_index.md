@@ -3,7 +3,7 @@ title: MediaTypeNames
 second_title: Aspose.Email for Java API Reference
 description: Specifies the media type names for an e-mail message.
 type: docs
-weight: 486
+weight: 488
 url: /java/com.aspose.email/mediatypenames/
 ---
 

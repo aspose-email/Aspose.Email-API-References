@@ -3,14 +3,14 @@ title: MapiContactPhysicalAddress
 second_title: Aspose.Email for Java API Reference
 description: Refers to the group of properties that  define physical address for a contact.
 type: docs
-weight: 426
+weight: 427
 url: /java/com.aspose.email/mapicontactphysicaladdress/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactAddress](../../com.aspose.email/mapicontactaddress)
 ```
-public final class MapiContactPhysicalAddress
+public final class MapiContactPhysicalAddress extends MapiContactAddress
 ```
 
 Refers to the group of properties that define physical address for a contact.

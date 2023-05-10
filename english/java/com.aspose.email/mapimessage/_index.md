@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 444
+weight: 446
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -138,6 +138,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [isMsgFormat(String fileName)](#isMsgFormat-java.lang.String-) | Determines whether the specified file has a MSG format. |
 | [isSigned()](#isSigned--) | Gets a value indicating whether the message is signed. |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
+| [isTemplate()](#isTemplate--) | Determines whether the message is Outlook template (.oft). |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Loads message from stream. |
 | [load(InputStream stream, LoadOptions options)](#load-java.io.InputStream-com.aspose.email.LoadOptions-) | Loads message from stream with additional options. |
 | [load(String fileName)](#load-java.lang.String-) | Loads message from file. |
@@ -1290,6 +1291,16 @@ Determines if string properties are Unicode encoded or not.
 
 **Returns:**
 boolean - True, if string properties are Unicode encoded.
+### isTemplate() {#isTemplate--}
+```
+public final boolean isTemplate()
+```
+
+
+Determines whether the message is Outlook template (.oft).
+
+**Returns:**
+boolean -  true  if the message is OFT template; otherwise,  false .
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
 public static MapiMessage load(InputStream stream)

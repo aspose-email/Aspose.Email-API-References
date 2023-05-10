@@ -3,7 +3,7 @@ title: MapiElectronicAddress
 second_title: Aspose.Email for Java API Reference
 description: Refers to the group of properties that  define the e-mail address or fax address.
 type: docs
-weight: 437
+weight: 439
 url: /java/com.aspose.email/mapielectronicaddress/
 ---
 

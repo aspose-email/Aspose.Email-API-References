@@ -3,7 +3,7 @@ title: ReminderDuration
 second_title: Aspose.Email for Java API Reference
 description: Used to identify properties that contain a duration of time.
 type: docs
-weight: 595
+weight: 597
 url: /java/com.aspose.email/reminderduration/
 ---
 

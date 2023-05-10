@@ -3,14 +3,14 @@ title: MapiContactNamePropertySet
 second_title: Aspose.Email for Java API Reference
 description: The properties are used to specify the name  of the person represented by the contact
 type: docs
-weight: 421
+weight: 422
 url: /java/com.aspose.email/mapicontactnamepropertyset/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.email/mapicontactpropertyset)
 ```
-public final class MapiContactNamePropertySet
+public final class MapiContactNamePropertySet extends MapiContactPropertySet
 ```
 
 The properties are used to specify the name of the person represented by the contact
@@ -138,6 +138,8 @@ public final long getFileUnderID()
 
 
 Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed
+
+//@see FileUnder
 
 **Returns:**
 long
@@ -273,6 +275,8 @@ public final void setFileUnderID(long value)
 
 
 Gets or sets a value specifying how to generate and recompute the (/) property when other properties are changed
+
+//@see FileUnder
 
 **Parameters:**
 | Parameter | Type | Description |
