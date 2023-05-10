@@ -34,6 +34,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
+| [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while converting. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,6 +46,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
+| [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while converting. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -184,6 +186,16 @@ If a message contains a TNEF attachment (winmail.dat), then this property define
 
 **Returns:**
 boolean
+### getTimeout() {#getTimeout--}
+```
+public final int getTimeout()
+```
+
+
+Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -325,6 +337,19 @@ If a message contains a TNEF attachment (winmail.dat), then this property define
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setTimeout(int value) {#setTimeout-int-}
+```
+public final void setTimeout(int value)
+```
+
+
+Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

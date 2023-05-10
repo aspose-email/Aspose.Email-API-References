@@ -131,6 +131,10 @@ Represents a calendar to an e-mail.
 | [setTimeZone(String tzName)](#setTimeZone-java.lang.String-) | Set time zone |
 | [setTransparency(int value)](#setTransparency-int-) | Specifies whether or not this appointment is intended to be visible in availability searches. |
 | [setUniqueId(String value)](#setUniqueId-java.lang.String-) | Gets or sets a string value that contains the GUID for the calendar item. |
+| [toMailMessage()](#toMailMessage--) | Converts ICalendar item (.ics) to MIME (.eml) message. |
+| [toMailMessage(int action)](#toMailMessage-int-) | Converts ICalendar item (.ics) to MIME (.eml) message. |
+| [toMailMessage(int action, int seqId)](#toMailMessage-int-int-) | Converts ICalendar item (.ics) to MIME (.eml) message. |
+| [toMapiMessage()](#toMapiMessage--) | Converts ICalendar item (.ics) to MAPI (.msg) message. |
 | [toString()](#toString--) |  |
 | [updateAppointment()](#updateAppointment--) | Updates the appointment. |
 | [updateAppointment(int seqId)](#updateAppointment-int-) | Updates the appointment. |
@@ -1163,6 +1167,57 @@ Value: The unique id.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### toMailMessage() {#toMailMessage--}
+```
+public final MailMessage toMailMessage()
+```
+
+
+Converts ICalendar item (.ics) to MIME (.eml) message.
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) that represents email in MIME format.
+### toMailMessage(int action) {#toMailMessage-int-}
+```
+public final MailMessage toMailMessage(int action)
+```
+
+
+Converts ICalendar item (.ics) to MIME (.eml) message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| action | int | An [AppointmentAction](../../com.aspose.email/appointmentaction) parameter. |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage)
+### toMailMessage(int action, int seqId) {#toMailMessage-int-int-}
+```
+public final MailMessage toMailMessage(int action, int seqId)
+```
+
+
+Converts ICalendar item (.ics) to MIME (.eml) message.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| action | int | An [AppointmentAction](../../com.aspose.email/appointmentaction) parameter. |
+| seqId | int | The sequence id. Defines the revision sequence number of the calendar component within a sequence of revisions. |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage)
+### toMapiMessage() {#toMapiMessage--}
+```
+public final MapiMessage toMapiMessage()
+```
+
+
+Converts ICalendar item (.ics) to MAPI (.msg) message.
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - 
 ### toString() {#toString--}
 ```
 public String toString()

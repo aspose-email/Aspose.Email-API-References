@@ -39,6 +39,7 @@ Represents a vCard contact
 | [getTimeZone()](#getTimeZone--) | Gets or sets a timeZone |
 | [hashCode()](#hashCode--) |  |
 | [isMultiContacts(InputStream stream)](#isMultiContacts-java.io.InputStream-) | Checks whether source stream contains multi contacts. |
+| [isMultiContacts(String filePath)](#isMultiContacts-java.lang.String-) | Checks whether source file contains multi contacts. |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
 | [load(InputStream stream, Charset encoding)](#load-java.io.InputStream-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
 | [load(String filePath)](#load-java.lang.String-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
@@ -244,6 +245,21 @@ Checks whether source stream contains multi contacts.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Source stream |
+
+**Returns:**
+boolean - True if multi contacts, otherwise false.
+### isMultiContacts(String filePath) {#isMultiContacts-java.lang.String-}
+```
+public static boolean isMultiContacts(String filePath)
+```
+
+
+Checks whether source file contains multi contacts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to source file |
 
 **Returns:**
 boolean - True if multi contacts, otherwise false.
