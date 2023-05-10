@@ -158,9 +158,17 @@ The read-only Master Property List provides implementers with a single source of
 | [ATTACHMENT_CONTACT_PHOTO](#ATTACHMENT-CONTACT-PHOTO) | Indicates that a contact photo attachment is attached to a Contact object. |
 | [ATTACHMENT_FLAGS](#ATTACHMENT-FLAGS) | Indicates special handling for an Attachment object. |
 | [ATTACHMENT_HIDDEN](#ATTACHMENT-HIDDEN) | Indicates whether an Attachment object is hidden from the end user. |
+| [ATTACHMENT_IS_FOLDER](#ATTACHMENT-IS-FOLDER) | A value indicating whether the attachment points to a folder. |
 | [ATTACHMENT_LINK_ID](#ATTACHMENT-LINK-ID) | Contains the type of Message object to which an attachment is linked. |
 | [ATTACHMENT_MAC_CONTENT_TYPE](#ATTACHMENT-MAC-CONTENT-TYPE) | Contains the Content-Type of the Mac attachment. |
 | [ATTACHMENT_MAC_INFO](#ATTACHMENT-MAC-INFO) | Contains the headers and resource fork data associated with the Mac attachment. |
+| [ATTACHMENT_ORIGINAL_PERMISSION_TYPE](#ATTACHMENT-ORIGINAL-PERMISSION-TYPE) | The original permission of the attachment. |
+| [ATTACHMENT_ORIGINAL_URL](#ATTACHMENT-ORIGINAL-URL) | The original URL of the attachment. |
+| [ATTACHMENT_PERMISSION_TYPE](#ATTACHMENT-PERMISSION-TYPE) | The permission of the attachment. |
+| [ATTACHMENT_PREVIEW_URL](#ATTACHMENT-PREVIEW-URL) | The URL of the attachment preview. |
+| [ATTACHMENT_PROVIDER_ENDPOINT_URL](#ATTACHMENT-PROVIDER-ENDPOINT-URL) | The URL of the attachment provider. |
+| [ATTACHMENT_PROVIDER_TYPE](#ATTACHMENT-PROVIDER-TYPE) | The type of the attachment provider. |
+| [ATTACHMENT_THUMBNAIL_URL](#ATTACHMENT-THUMBNAIL-URL) | The URL of the attachment thumbnail. |
 | [ATTACHMENT_X_400_PARAMETERS](#ATTACHMENT-X-400-PARAMETERS) | Microsoft® Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. |
 | [ATTACH_ADDITIONAL_INFORMATION](#ATTACH-ADDITIONAL-INFORMATION) | Contains attachment encoding information. |
 | [ATTACH_CONTENT_BASE](#ATTACH-CONTENT-BASE) | Contains the base of a relative URI. |
@@ -3133,6 +3141,14 @@ public static final PidTagPropertyDescriptor ATTACHMENT_HIDDEN
 
 Indicates whether an Attachment object is hidden from the end user. Area: Message Attachment Properties Canonical name: PidTagAttachmentHidden Alternate names: PR\_ATTACHMENT\_HIDDEN
 
+### ATTACHMENT_IS_FOLDER {#ATTACHMENT-IS-FOLDER}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_IS_FOLDER
+```
+
+
+A value indicating whether the attachment points to a folder.
+
 ### ATTACHMENT_LINK_ID {#ATTACHMENT-LINK-ID}
 ```
 public static final PidTagPropertyDescriptor ATTACHMENT_LINK_ID
@@ -3156,6 +3172,62 @@ public static final PidNamePropertyDescriptor ATTACHMENT_MAC_INFO
 
 
 Contains the headers and resource fork data associated with the Mac attachment. Area: Message Attachment Properties Canonical name: PidNameAttachmentMacInfo Alternate names:
+
+### ATTACHMENT_ORIGINAL_PERMISSION_TYPE {#ATTACHMENT-ORIGINAL-PERMISSION-TYPE}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_ORIGINAL_PERMISSION_TYPE
+```
+
+
+The original permission of the attachment.
+
+### ATTACHMENT_ORIGINAL_URL {#ATTACHMENT-ORIGINAL-URL}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_ORIGINAL_URL
+```
+
+
+The original URL of the attachment.
+
+### ATTACHMENT_PERMISSION_TYPE {#ATTACHMENT-PERMISSION-TYPE}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_PERMISSION_TYPE
+```
+
+
+The permission of the attachment.
+
+### ATTACHMENT_PREVIEW_URL {#ATTACHMENT-PREVIEW-URL}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_PREVIEW_URL
+```
+
+
+The URL of the attachment preview.
+
+### ATTACHMENT_PROVIDER_ENDPOINT_URL {#ATTACHMENT-PROVIDER-ENDPOINT-URL}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_PROVIDER_ENDPOINT_URL
+```
+
+
+The URL of the attachment provider.
+
+### ATTACHMENT_PROVIDER_TYPE {#ATTACHMENT-PROVIDER-TYPE}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_PROVIDER_TYPE
+```
+
+
+The type of the attachment provider.
+
+### ATTACHMENT_THUMBNAIL_URL {#ATTACHMENT-THUMBNAIL-URL}
+```
+public static final PidNamePropertyDescriptor ATTACHMENT_THUMBNAIL_URL
+```
+
+
+The URL of the attachment thumbnail.
 
 ### ATTACHMENT_X_400_PARAMETERS {#ATTACHMENT-X-400-PARAMETERS}
 ```
