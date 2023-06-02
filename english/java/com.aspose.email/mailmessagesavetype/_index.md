@@ -26,6 +26,7 @@ Represents the mail message format.It can be in eml,msg or mhtml format.
 | [getMHtmlFormat()](#getMHtmlFormat--) | Gets the MHT. |
 | [getOutlookMessageFormat()](#getOutlookMessageFormat--) | Gets the MSG. |
 | [getOutlookMessageFormatUnicode()](#getOutlookMessageFormatUnicode--) | Gets the MSG. |
+| [getOutlookTemplateFormat()](#getOutlookTemplateFormat--) | Gets the MSG. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -121,6 +122,18 @@ Value: The MSG.
 ### getOutlookMessageFormatUnicode() {#getOutlookMessageFormatUnicode--}
 ```
 public static MailMessageSaveType getOutlookMessageFormatUnicode()
+```
+
+
+Gets the MSG.
+
+Value: The MSG.
+
+**Returns:**
+[MailMessageSaveType](../../com.aspose.email/mailmessagesavetype)
+### getOutlookTemplateFormat() {#getOutlookTemplateFormat--}
+```
+public static MailMessageSaveType getOutlookTemplateFormat()
 ```
 
 

@@ -3,7 +3,7 @@ title: RecipientTrackingEvent
 second_title: Aspose.Email for Java API Reference
 description: Represents details for a specific event in the tracking report.
 type: docs
-weight: 585
+weight: 587
 url: /java/com.aspose.email/recipienttrackingevent/
 ---
 

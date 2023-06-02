@@ -3,7 +3,7 @@ title: SentItemEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Containing data for SentItem event.
 type: docs
-weight: 627
+weight: 629
 url: /java/com.aspose.email/sentitemeventargs/
 ---
 

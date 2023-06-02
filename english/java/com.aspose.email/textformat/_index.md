@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Aspose.Email for Java API Reference
 description: Defines format of a text.
 type: docs
-weight: 666
+weight: 668
 url: /java/com.aspose.email/textformat/
 ---
 

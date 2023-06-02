@@ -3,7 +3,7 @@ title: MboxStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: A base class for any mbox-based mail storage writer.
 type: docs
-weight: 482
+weight: 484
 url: /java/com.aspose.email/mboxstoragewriter/
 ---
 

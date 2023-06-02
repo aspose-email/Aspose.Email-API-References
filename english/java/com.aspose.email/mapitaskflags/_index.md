@@ -3,7 +3,7 @@ title: MapiTaskFlags
 second_title: Aspose.Email for Java API Reference
 description: Contains indication flags of the Task object.
 type: docs
-weight: 470
+weight: 472
 url: /java/com.aspose.email/mapitaskflags/
 ---
 

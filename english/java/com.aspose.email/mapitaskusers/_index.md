@@ -3,7 +3,7 @@ title: MapiTaskUsers
 second_title: Aspose.Email for Java API Reference
 description: Represents information about task users.
 type: docs
-weight: 477
+weight: 479
 url: /java/com.aspose.email/mapitaskusers/
 ---
 

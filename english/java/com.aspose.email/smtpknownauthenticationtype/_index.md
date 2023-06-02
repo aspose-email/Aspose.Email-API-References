@@ -3,7 +3,7 @@ title: SmtpKnownAuthenticationType
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 640
+weight: 642
 url: /java/com.aspose.email/smtpknownauthenticationtype/
 ---
 

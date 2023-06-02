@@ -3,14 +3,14 @@ title: MapiContactEventPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify events associated with a contact
 type: docs
-weight: 419
+weight: 420
 url: /java/com.aspose.email/mapicontacteventpropertyset/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.email/mapicontactpropertyset)
 ```
-public final class MapiContactEventPropertySet
+public final class MapiContactEventPropertySet extends MapiContactPropertySet
 ```
 
 Specify events associated with a contact

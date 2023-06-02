@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Outlook for Mac storage .OLM file.
 type: docs
-weight: 542
+weight: 544
 url: /java/com.aspose.email/olmstorage/
 ---
 
@@ -40,6 +40,7 @@ Represents Outlook for Mac storage (.OLM) file.
 | [getFolder(String name, boolean ignoreCase)](#getFolder-java.lang.String-boolean-) | Gets the folder by name. |
 | [getFolderHierarchy()](#getFolderHierarchy--) | Gets the folder hierarchy. |
 | [getFolders()](#getFolders--) | Gets collection of folders. |
+| [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total items count. |
 | [hashCode()](#hashCode--) |  |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Load OLM storage from stream. |
 | [load(String fileName)](#load-java.lang.String-) | Load OLM storage from file. |
@@ -242,6 +243,16 @@ Gets collection of folders.
 
 **Returns:**
 java.util.List<com.aspose.email.OlmFolder> - The collection of folders that belong to the storage, i.e. the sub-folders of the current OLMStorage object.
+### getTotalItemsCount() {#getTotalItemsCount--}
+```
+public final int getTotalItemsCount()
+```
+
+
+Gets the total items count. Returns the total number of message items contained in the OLM.
+
+**Returns:**
+int - Total message items count.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
