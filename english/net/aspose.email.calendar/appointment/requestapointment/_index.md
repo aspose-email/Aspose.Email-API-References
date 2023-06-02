@@ -3,7 +3,7 @@ title: Appointment.RequestApointment
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Requests the apointment
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.email.calendar/appointment/requestapointment/
 ---
 ## RequestApointment() {#requestapointment}

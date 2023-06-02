@@ -3,7 +3,7 @@ title: Appointment.CancelAppointment
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Cancels the appointment
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.email.calendar/appointment/cancelappointment/
 ---
 ## CancelAppointment() {#cancelappointment}

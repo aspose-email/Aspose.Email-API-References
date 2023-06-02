@@ -35,29 +35,29 @@ public class EmlSaveOptions : SaveOptions
 
 The following example shows how to load and Save an EML message Preserving the embedded message format.
 
-```csharp
 [C#]
 
-        MailMessage mailMessage = MailMessage.Load("source.eml");
-        // Save as eml with preserved embedded message format
-        EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
-        {
-             PreserveEmbeddedMessageFormat = true
-        };
-	mailMessage.Save("target.eml", emlSaveOptions);
+```csharp
+MailMessage mailMessage = MailMessage.Load("source.eml");
+// Save as eml with preserved embedded message format
+EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.EmlFormat)
+{
+     PreserveEmbeddedMessageFormat = true
+};
+mailMessage.Save("target.eml", emlSaveOptions);
 ```
 
+[Visual Basic]
+
 ```csharp
-[VB.NET]
+Dim mailMessage As MailMessage = MailMessage.Load("source.eml")
 
-	Dim mailMessage As MailMessage = MailMessage.Load("source.eml")
-
-	' Save as eml with preserved embedded message format
-	Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
-        .PreserveEmbeddedMessageFormat = True
-        }
-			}
-	mailMessage.Save("target.eml", emlSaveOptions)
+' Save as eml with preserved embedded message format
+Dim emlSaveOptions As EmlSaveOptions = New EmlSaveOptions(MailMessageSaveType.EmlFormat) With {
+       .PreserveEmbeddedMessageFormat = True
+       }
+		}
+mailMessage.Save("target.eml", emlSaveOptions)
 ```
 
 ### See Also

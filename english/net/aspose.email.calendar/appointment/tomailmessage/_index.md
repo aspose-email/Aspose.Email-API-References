@@ -3,7 +3,7 @@ title: Appointment.ToMailMessage
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Ñonverts ICalendar item .ics to MIME .eml message
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email.calendar/appointment/tomailmessage/
 ---
 ## ToMailMessage(AppointmentAction, int) {#tomailmessage_2}

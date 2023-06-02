@@ -38,10 +38,11 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [PreserveOriginalDate](../../aspose.email/mhtsaveoptions/preserveoriginaldate/) { get; set; } | Defines whether need keep original date in mail message when saving or not. Default value is true. |
 | [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields/) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders/) { get; } | Gets list of headers for rendering. |
+| [SaveAllHeaders](../../aspose.email/mhtsaveoptions/saveallheaders/) { get; set; } | Defines whether need to save all headers in output mhtml or not. Default value is false. |
 | [SaveAttachments](../../aspose.email/mhtsaveoptions/saveattachments/) { get; set; } | Gets or sets a value indicating whether to save attachments. |
 | [SavedHeaders](../../aspose.email/mhtsaveoptions/savedheaders/) { get; } | Gets list of headers which will be present in saved mhtml content. Default value is empty list. |
 | [SkipInlineImages](../../aspose.email/mhtsaveoptions/skipinlineimages/) { get; set; } | Defines whether skip references on images at saving in mhtml or not. Default value is false. |
-| [Timeout](../../aspose.email/mhtsaveoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sek. |
+| [Timeout](../../aspose.email/mhtsaveoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec. |
 
 ## Events
 
@@ -49,19 +50,22 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | --- | --- |
 | event [TimeoutReached](../../aspose.email/mhtsaveoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
-```csharp
+## Examples
+
+The following example shows how to save MailMessage as MHTML.
+
 [C#]
 
-        var eml = MailMessage.Load("Message.eml");
-        eml.Save("target.mthml", SaveOptions.DefaultMhtml);
-
+```csharp
+var eml = MailMessage.Load("Message.eml");
+eml.Save("target.mthml", SaveOptions.DefaultMhtml);
 ```
 
-```csharp
-[VB.NET]
+[Visual Basic]
 
-	Dim eml = MailMessage.Load("Message.eml")
-        eml.Save("target.mthml", SaveOptions.DefaultMhtml)
+```csharp
+Dim eml = MailMessage.Load("Message.eml")
+eml.Save("target.mthml", SaveOptions.DefaultMhtml)
 ```
 
 ### See Also

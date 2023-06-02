@@ -3,7 +3,7 @@ title: Class LogLevel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.LogLevel class. Defines available log levels
 type: docs
-weight: 20580
+weight: 20590
 url: /net/aspose.email.tools.logging/loglevel/
 ---
 ## LogLevel class

@@ -3,7 +3,7 @@ title: Appointment.ResetTimeZone
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Set local time zone
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.email.calendar/appointment/resettimezone/
 ---
 ## Appointment.ResetTimeZone method

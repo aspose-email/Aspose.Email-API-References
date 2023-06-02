@@ -3,7 +3,7 @@ title: TgzReader.ReadNextMessage
 second_title: Aspose.Email for .NET API Reference
 description: TgzReader method. Reads the next message
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.storage.zimbra/tgzreader/readnextmessage/
 ---
 ## TgzReader.ReadNextMessage method

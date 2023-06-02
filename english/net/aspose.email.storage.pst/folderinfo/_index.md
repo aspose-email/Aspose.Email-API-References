@@ -3,7 +3,7 @@ title: Class FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderInfo class. Represents information about personal folder in PST
 type: docs
-weight: 20210
+weight: 20220
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -43,8 +43,9 @@ public sealed class FolderInfo
 | [AddMessage](../../aspose.email.storage.pst/folderinfo/addmessage/)(MapiMessage) | Adds a new message into folder. |
 | [AddMessages](../../aspose.email.storage.pst/folderinfo/addmessages/)(IEnumerable&lt;MapiMessage&gt;) | Provides message adding in a bulk mode. |
 | [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder)(string) | Adds the new sub-folder. |
-| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder_1)(string, bool) | Adds the new sub-folder. |
-| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder_2)(string, string) | Adds the new subfolder. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder_2)(string, bool) | Adds the new sub-folder. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder_1)(string, FolderCreationOptions) | Adds a subfolder with the specified name to the current folder using the provided creation options. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder/#addsubfolder_3)(string, string) | Adds the new subfolder. |
 | [ChangeContainerClass](../../aspose.email.storage.pst/folderinfo/changecontainerclass/)(string) | Changes the container class. |
 | [ChangeDisplayName](../../aspose.email.storage.pst/folderinfo/changedisplayname/)(string) | Changes the display name. |
 | [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages/#changemessages)(MapiPropertyCollection) | Changes all messages in folder. |
@@ -65,6 +66,7 @@ public sealed class FolderInfo
 | [GetPredefinedType](../../aspose.email.storage.pst/folderinfo/getpredefinedtype/)(bool) | Gets the type of predefined folder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder/#getsubfolder)(string) | Get subfolder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder/#getsubfolder_1)(string, bool) | Gets the subfolder. |
+| [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder/#getsubfolder_2)(string, bool, bool) | Retrieves a subfolder with the specified name from the current folder. |
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders/#getsubfolders)() | Gets collection of subfolders. |
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders/#getsubfolders_1)(FolderKind) | Gets collection of subfolders. |
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders/#getsubfolders_2)(MailQuery) | Gets collection of subfolders. |

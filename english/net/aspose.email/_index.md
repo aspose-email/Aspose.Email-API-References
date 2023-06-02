@@ -39,7 +39,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [EmlxLoadOptions](./emlxloadoptions/) | Allows to specify additional options when loading MailMessage from Eml format. |
 | [ExchangeException](./exchangeexception/) | Thrown if there is a MS Exchange communication failure. |
 | [FileCorruptedException](./filecorruptedexception/) | Exception that is thrown during file reading, when the file appears to be corrupted and impossible to read. |
-| [FileFormatInfo](./fileformatinfo/) | Contains data returned by FileFormatUtil file format detection methods. |
+| [FileFormatInfo](./fileformatinfo/) |  |
 | [FormatNotSupportedException](./formatnotsupportedexception/) | Exception that is thrown during document load, when the document format is not recognized or not supported by the component. |
 | [GlobalFormattingOptions](./globalformattingoptions/) | Class that allow to set some formatting options for all newly created instances of this options. |
 | [GoogleClientException](./googleclientexception/) | Represents errors that occur during ActiveSync protocol execution. |
@@ -58,7 +58,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [MailAddressCollection](./mailaddresscollection/) | Represents a collection of [`MailAddress`](../aspose.email/mailaddress/) objects. |
 | [MailboxInfo](./mailboxinfo/) | Represents identification information about message in a mailbox. |
 | [MailException](./mailexception/) | Represents the exception that is thrown when the mail message processing. |
-| [MailMessage](./mailmessage/) | Represents an e-mail message. It allows to access message properties, ex. subject, body, sender and recipients addreses, etc. Also it can be sent and delivered by means of supported mail protocols. |
+| [MailMessage](./mailmessage/) |  |
 | [MailMessageCollection](./mailmessagecollection/) | Represents a collection of [`MailMessage`](../aspose.email/mailmessage/) objects. |
 | [MailMessageSaveType](./mailmessagesavetype/) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [MessageAcceptanceCallback](./messageacceptancecallback/) | Callback function which is being called during the conversion process. |

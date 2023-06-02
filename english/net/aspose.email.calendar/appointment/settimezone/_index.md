@@ -3,7 +3,7 @@ title: Appointment.SetTimeZone
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Set time zone
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.email.calendar/appointment/settimezone/
 ---
 ## Appointment.SetTimeZone method

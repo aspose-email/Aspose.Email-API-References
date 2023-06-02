@@ -55,6 +55,7 @@ public class Appointment
 | [Summary](../../aspose.email.calendar/appointment/summary/) { get; set; } | Gets or sets the summary. |
 | [Transparency](../../aspose.email.calendar/appointment/transparency/) { get; set; } | Specifies whether or not this appointment is intended to be visible in availability searches. |
 | [UniqueId](../../aspose.email.calendar/appointment/uniqueid/) { get; set; } | Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property. |
+| [Version](../../aspose.email.calendar/appointment/version/) { get; } | Gets the version of ICS/VCS file. |
 
 ## Methods
 

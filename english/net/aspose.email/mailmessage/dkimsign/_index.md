@@ -23,42 +23,41 @@ public virtual MailMessage DKIMSign(RSACryptoServiceProvider rsa, DKIMSignatureI
 
 The following example shows how to sign Emails with DKIM.
 
-```csharp
 [C#]
 
-	string privateKeyFile = "key2.pem";
+```csharp
+string privateKeyFile = "key2.pem";
 
-        var rsa = PemReader.GetPrivateKey(privateKeyFile);
-        var signInfo = new DKIMSignatureInfo("test", "some_email.com");
-        signInfo.Headers.Add("From");
-        signInfo.Headers.Add("Subject");
+var rsa = PemReader.GetPrivateKey(privateKeyFile);
+var signInfo = new DKIMSignatureInfo("test", "some_email.com");
+signInfo.Headers.Add("From");
+signInfo.Headers.Add("Subject");
 
-        var mailMessage = new MailMessage("useremail@gmail.com", "test@gmail.com")
-        {
-            Subject = "Signed DKIM message text body",
-            Body = "This is a text body signed DKIM message"
-        };
-	
-        var signedMsg = mailMessage.DKIMSign(rsa, signInfo);
+var mailMessage = new MailMessage("useremail@gmail.com", "test@gmail.com")
+{
+    Subject = "Signed DKIM message text body",
+    Body = "This is a text body signed DKIM message"
+};
+
+var signedMsg = mailMessage.DKIMSign(rsa, signInfo);
 ```
 
+[Visual Basic]
+
 ```csharp
-[VB.NET]
+Dim privateKeyFile As String = "key2.pem"
 
-	Dim privateKeyFile As String = "key2.pem"
-	
-        Dim rsa = PemReader.GetPrivateKey(privateKeyFile)
-        Dim signInfo = New DKIMSignatureInfo("test", "some_email.com")
-        signInfo.Headers.Add("From")
-        signInfo.Headers.Add("Subject")
-	
-        Dim mailMessage = New MailMessage("useremail@gmail.com", "test@gmail.com") With {
-            .Subject = "Signed DKIM message text body",
-            .Body = "This is a text body signed DKIM message"
-        }
-	
-        Dim signedMsg = mailMessage.DKIMSign(rsa, signInfo)
+Dim rsa = PemReader.GetPrivateKey(privateKeyFile)
+Dim signInfo = New DKIMSignatureInfo("test", "some_email.com")
+signInfo.Headers.Add("From")
+signInfo.Headers.Add("Subject")
 
+Dim mailMessage = New MailMessage("useremail@gmail.com", "test@gmail.com") With {
+    .Subject = "Signed DKIM message text body",
+    .Body = "This is a text body signed DKIM message"
+}
+
+Dim signedMsg = mailMessage.DKIMSign(rsa, signInfo)
 ```
 
 ### See Also

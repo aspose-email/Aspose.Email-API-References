@@ -77,62 +77,62 @@ Mail message[`MailMessage`](../).
 | --- | --- |
 | ArgumentNullException | If *fileName* is null. |
 
-### Examples
+## Examples
 
 The following example shows how to load a Message with Load Options.
 
-```csharp
 [C#]
 
-	// Load Eml, html, mhtml, msg and dat file 
-	MailMessage.Load("Message.eml", new EmlLoadOptions());
-        MailMessage.Load("description.html", new HtmlLoadOptions());
-        MailMessage.Load("Message.mhtml", new MhtmlLoadOptions());
-        MailMessage.Load("Message.msg", new MsgLoadOptions());
+```csharp
+// Load Eml, html, mhtml, msg and dat file 
+MailMessage.Load("Message.eml", new EmlLoadOptions());
+MailMessage.Load("description.html", new HtmlLoadOptions());
+MailMessage.Load("Message.mhtml", new MhtmlLoadOptions());
+MailMessage.Load("Message.msg", new MsgLoadOptions());
 
-        // loading with custom options
-        var emlLoadOptions = new EmlLoadOptions
-        {
-            PreferredTextEncoding = Encoding.UTF8,
-            PreserveTnefAttachments = true
-        };
+// loading with custom options
+var emlLoadOptions = new EmlLoadOptions
+{
+    PreferredTextEncoding = Encoding.UTF8,
+    PreserveTnefAttachments = true
+};
 
-        MailMessage.Load("description.html", emlLoadOptions);
+MailMessage.Load("description.html", emlLoadOptions);
 
-        var htmlLoadOptions = new HtmlLoadOptions
-        {
-            PreferredTextEncoding = Encoding.UTF8,
-            ShouldAddPlainTextView = true,
-            PathToResources = htmlImagesFolder
-        };
+var htmlLoadOptions = new HtmlLoadOptions
+{
+    PreferredTextEncoding = Encoding.UTF8,
+    ShouldAddPlainTextView = true,
+    PathToResources = htmlImagesFolder
+};
 
-        MailMessage.Load("description.html", htmlLoadOptions);
+MailMessage.Load("description.html", htmlLoadOptions);
 ```
 
+[Visual Basic]
+
 ```csharp
-[VB.NET]
+' Load Eml, html, mhtml, msg and dat file
+Dim mailMessage As MailMessage = MailMessage.Load("Message.eml", New EmlLoadOptions())
+MailMessage.Load("description.html", New HtmlLoadOptions())
+MailMessage.Load("Message.mhtml", New MhtmlLoadOptions())
+MailMessage.Load("Message.msg", New MsgLoadOptions())
 
-	' Load Eml, html, mhtml, msg and dat file
-	Dim mailMessage As MailMessage = MailMessage.Load("Message.eml", New EmlLoadOptions())
-	MailMessage.Load("description.html", New HtmlLoadOptions())
-	MailMessage.Load("Message.mhtml", New MhtmlLoadOptions())
-	MailMessage.Load("Message.msg", New MsgLoadOptions())
+' loading with custom options
+Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions With {
+  .PrefferedTextEncoding = Encoding.UTF8,
+	.PreserveTnefAttachments = True
+}
 
-	' loading with custom options
-	Dim emlLoadOptions As EmlLoadOptions = New EmlLoadOptions With {
-	  .PrefferedTextEncoding = Encoding.UTF8,
-		.PreserveTnefAttachments = True
-	}
+MailMessage.Load("description.html", emlLoadOptions)
 
-	MailMessage.Load("description.html", emlLoadOptions)
-	
-	Dim htmlLoadOptions As HtmlLoadOptions = New HtmlLoadOptions With {
-		.PrefferedTextEncoding = Encoding.UTF8,
-			.ShouldAddPlainTextView = True,
-				.PathToResources = htmlImagesFolder
-	}
-					
-	MailMessage.Load("description.html", emlLoadOptions)
+Dim htmlLoadOptions As HtmlLoadOptions = New HtmlLoadOptions With {
+	.PrefferedTextEncoding = Encoding.UTF8,
+		.ShouldAddPlainTextView = True,
+			.PathToResources = htmlImagesFolder
+}
+				
+MailMessage.Load("description.html", emlLoadOptions)
 ```
 
 ### See Also

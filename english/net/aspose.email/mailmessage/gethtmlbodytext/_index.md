@@ -22,26 +22,26 @@ public virtual string GetHtmlBodyText(bool showUrl)
 
 The following example shows how to get an email message’s HTML body as plain text.
 
-```csharp
 [C#]
 
-         var eml = MailMessage.Load("HtmlWithUrlSample.eml");
-         var bodyWithUrl = eml.GetHtmlBodyText(true);// body will contain URL
-         var bodyWithoutUrl = eml.GetHtmlBodyText(false);// body will not contain URL
+```csharp
+var eml = MailMessage.Load("HtmlWithUrlSample.eml");
+var bodyWithUrl = eml.GetHtmlBodyText(true);// body will contain URL
+var bodyWithoutUrl = eml.GetHtmlBodyText(false);// body will not contain URL
 
-         Console.WriteLine($@"Body with URL: {bodyWithUrl}");
-         Console.WriteLine($@"Body without URL: {bodyWithoutUrl}");
+Console.WriteLine($@"Body with URL: {bodyWithUrl}");
+Console.WriteLine($@"Body without URL: {bodyWithoutUrl}");
 ```
 
-```csharp
-[VB.NET]
+[Visual Basic]
 
-         Dim eml = MailMessage.Load("HtmlWithUrlSample.eml")
-         Dim bodyWithUrl = eml.GetHtmlBodyText(True)
-         Dim bodyWithoutUrl = eml.GetHtmlBodyText(False)
-	 
-         Console.WriteLine($"Body with URL: {bodyWithUrl}")
-         Console.WriteLine($"Body without URL: {bodyWithoutUrl}")
+```csharp
+Dim eml = MailMessage.Load("HtmlWithUrlSample.eml")
+Dim bodyWithUrl = eml.GetHtmlBodyText(True)
+Dim bodyWithoutUrl = eml.GetHtmlBodyText(False)
+
+Console.WriteLine($"Body with URL: {bodyWithUrl}")
+Console.WriteLine($"Body without URL: {bodyWithoutUrl}")
 ```
 
 ### See Also

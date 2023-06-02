@@ -6,6 +6,58 @@ type: docs
 weight: 1000
 url: /net/aspose.email.clients.imap/imapclient/removemessageflags/
 ---
+## RemoveMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_19}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_5}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## RemoveMessageFlags(IConnection, int, ImapMessageFlags) {#removemessageflags}
 
 Removes the flags of the message
@@ -630,58 +682,6 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 | connection | IConnection | Connection to a server |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_19}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflags_5}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 ### See Also
 

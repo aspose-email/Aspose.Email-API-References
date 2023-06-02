@@ -3,7 +3,7 @@ title: Appointment.GetAppointmentText
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Gets the calendar text
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.email.calendar/appointment/getappointmenttext/
 ---
 ## GetAppointmentText() {#getappointmenttext}

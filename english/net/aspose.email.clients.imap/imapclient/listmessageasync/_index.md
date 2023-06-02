@@ -6,6 +6,89 @@ type: docs
 weight: 870
 url: /net/aspose.email.clients.imap/imapclient/listmessageasync/
 ---
+## ListMessageAsync(IConnection, int, IEnumerable&lt;string&gt;) {#listmessageasync_1}
+
+Gets information about a message.
+
+```csharp
+public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequenceNumber, 
+    IEnumerable<string> messageExtraFields)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of message |
+| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessageAsync(IConnection, int) {#listmessageasync}
+
+Gets information about a message.
+
+```csharp
+public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequenceNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of message |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessageAsync(int, IEnumerable&lt;string&gt;) {#listmessageasync_9}
+
+Gets information about a message.
+
+```csharp
+public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber, 
+    IEnumerable<string> messageExtraFields)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of message |
+| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListMessageAsync(int) {#listmessageasync_8}
 
 Gets information about a message.
@@ -351,89 +434,6 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | uniqueId | String | The unique Id of the message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessageAsync(IConnection, int, IEnumerable&lt;string&gt;) {#listmessageasync_1}
-
-Gets information about a message.
-
-```csharp
-public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequenceNumber, 
-    IEnumerable<string> messageExtraFields)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | The sequence number of message |
-| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessageAsync(IConnection, int) {#listmessageasync}
-
-Gets information about a message.
-
-```csharp
-public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequenceNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | The sequence number of message |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessageAsync(int, IEnumerable&lt;string&gt;) {#listmessageasync_9}
-
-Gets information about a message.
-
-```csharp
-public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber, 
-    IEnumerable<string> messageExtraFields)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of message |
-| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
 ### Return Value
 

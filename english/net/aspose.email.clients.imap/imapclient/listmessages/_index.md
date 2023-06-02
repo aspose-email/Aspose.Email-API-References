@@ -1,135 +1,11 @@
 ---
 title: ImapClient.ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Gets the list of messages in the current folder
+description: ImapClient method. Lists the messages. Gets an information for earch message
 type: docs
 weight: 880
 url: /net/aspose.email.clients.imap/imapclient/listmessages/
 ---
-## ListMessages(MailQuery, int) {#listmessages_15}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public ImapMessageInfoCollection ListMessages(MailQuery query, int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of ImapMessageInfo objects.
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessages(IConnection, int) {#listmessages_5}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public ImapMessageInfoCollection ListMessages(IConnection connection, int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of [`ImapMessageInfo`](../../imapmessageinfo/) representing the messages information.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessages(int) {#listmessages_17}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public ImapMessageInfoCollection ListMessages(int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Collection of [`ImapMessageInfo`](../../imapmessageinfo/) representing the messages information.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessages(string, ImapListFields, int) {#listmessages_21}
-
-Lists the messages. Gets an information for earch message
-
-```csharp
-public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Folder to retrieve messages. |
-| fieldsList | ImapListFields | Fields that may be retrieved from the server. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-ImapMessageInfoCollection
-
-## Remarks
-
-Note that messages marked as deleted are not listed
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* enum [ImapListFields](../../imaplistfields/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## ListMessages(IConnection, string, ImapListFields, int) {#listmessages_8}
 
 Lists the messages. Gets an information for earch message
@@ -771,6 +647,130 @@ Collection of ImapMessageInfo objects.
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
 * class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessages(MailQuery, int) {#listmessages_15}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public ImapMessageInfoCollection ListMessages(MailQuery query, int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of ImapMessageInfo objects.
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessages(IConnection, int) {#listmessages_5}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public ImapMessageInfoCollection ListMessages(IConnection connection, int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of [`ImapMessageInfo`](../../imapmessageinfo/) representing the messages information.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessages(int) {#listmessages_17}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public ImapMessageInfoCollection ListMessages(int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Collection of [`ImapMessageInfo`](../../imapmessageinfo/) representing the messages information.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessages(string, ImapListFields, int) {#listmessages_21}
+
+Lists the messages. Gets an information for earch message
+
+```csharp
+public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve messages. |
+| fieldsList | ImapListFields | Fields that may be retrieved from the server. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+ImapMessageInfoCollection
+
+## Remarks
+
+Note that messages marked as deleted are not listed
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* enum [ImapListFields](../../imaplistfields/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

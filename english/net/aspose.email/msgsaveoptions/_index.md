@@ -33,33 +33,33 @@ public class MsgSaveOptions : SaveOptions
 
 The following example shows how to save as MSG with preserved dates.
 
-```csharp
 [C#]
 
-         // Initialize and Load an existing EML file by specifying the MessageFormat
-         var eml = MailMessage.Load("Message.eml");
+```csharp
+// Initialize and Load an existing EML file by specifying the MessageFormat
+var eml = MailMessage.Load("Message.eml");
 
-         // Save as msg with preserved dates
-         var msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode)
-         {
-             PreserveOriginalDates = true
-         };
+// Save as msg with preserved dates
+var msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode)
+{
+    PreserveOriginalDates = true
+};
 
-         eml.Save("outTest_out.msg", msgSaveOptions);
+eml.Save("outTest_out.msg", msgSaveOptions);
 ```
 
+[Visual Basic]
+
 ```csharp
-[VB.NET]
-        
-	' Initialize and Load an existing EML file by specifying the MessageFormat
-	Dim eml = MailMessage.Load("Message.eml")
-	
-	' Save as msg with preserved dates
-        Dim msgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
-            .PreserveOriginalDates = True
-        }
-	
-        eml.Save("outTest_out.msg", msgSaveOptions)
+' Initialize and Load an existing EML file by specifying the MessageFormat
+Dim eml = MailMessage.Load("Message.eml")
+
+' Save as msg with preserved dates
+    Dim msgSaveOptions = New MsgSaveOptions(MailMessageSaveType.OutlookMessageFormatUnicode) With {
+        .PreserveOriginalDates = True
+    }
+
+eml.Save("outTest_out.msg", msgSaveOptions)
 ```
 
 ### See Also

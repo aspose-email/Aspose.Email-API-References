@@ -3,7 +3,7 @@ title: VCardSaveOptions.Version
 second_title: Aspose.Email for .NET API Reference
 description: VCardSaveOptions property. Gets or sets a vCard version
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcardsaveoptions/version/
 ---
 ## VCardSaveOptions.Version property

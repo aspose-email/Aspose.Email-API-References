@@ -57,10 +57,12 @@ public sealed class VCardContact
 | [Save](../../aspose.email.personalinfo.vcard/vcardcontact/save/#save_5)(string, ContactSaveOptions) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) into file using specified save options. The supported save options is [`VCardSaveOptions`](../vcardsaveoptions/) |
 | static [IsMultiContacts](../../aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/#ismulticontacts)(Stream) | Checks whether source stream contains multi contacts. |
 | static [IsMultiContacts](../../aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/#ismulticontacts_1)(string) | Checks whether source file contains multi contacts. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple)(Stream, Encoding) | Loads list of contacts from multi contact stream. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_2)(string, Encoding) | Loads list of contacts from multi contact file. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_1)(Stream, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_3)(string, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple)(Stream) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_3)(string) | Loads list of contacts from multi contact file. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_1)(Stream, Encoding) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_4)(string, Encoding) | Loads list of contacts from multi contact file. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_2)(Stream, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_5)(string, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
 
 ### See Also
 

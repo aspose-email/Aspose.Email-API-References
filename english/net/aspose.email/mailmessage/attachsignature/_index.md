@@ -68,24 +68,26 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 
 The signed MailMessage.
 
-### Examples
+## Examples
 
 The following example shows how to attach a Certificate with AttachSignature Method.
 
-```csharp
 [C#]
-       var privateCertFile = "MartinCertificate.pfx";
-       var privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
-       var msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE", "body:Test Body of signed message by AE");
-       var signed = msg.AttachSignature(privateCert, true);
-```
 
 ```csharp
-[VB.NET]
-       Dim privateCertFile = "MartinCertificate.pfx"
-       Dim privateCert = New X509Certificate2(privateCertFile, "anothertestaccount")
-       Dim msg = New MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE", "body:Test Body of signed message by AE")
-       Dim signed = msg.AttachSignature(privateCert, True)
+var privateCertFile = "MartinCertificate.pfx";
+var privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
+var msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE", "body:Test Body of signed message by AE");
+var signed = msg.AttachSignature(privateCert, true);
+```
+
+[Visual Basic]
+
+```csharp
+Dim privateCertFile = "MartinCertificate.pfx"
+Dim privateCert = New X509Certificate2(privateCertFile, "anothertestaccount")
+Dim msg = New MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE", "body:Test Body of signed message by AE")
+Dim signed = msg.AttachSignature(privateCert, True)
 ```
 
 ### See Also

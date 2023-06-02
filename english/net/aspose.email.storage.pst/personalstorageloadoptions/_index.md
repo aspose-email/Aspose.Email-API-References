@@ -3,7 +3,7 @@ title: Class PersonalStorageLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PersonalStorageLoadOptions class. Specifies additional options when loading a PST storage
 type: docs
-weight: 20350
+weight: 20360
 url: /net/aspose.email.storage.pst/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class

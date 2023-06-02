@@ -3,7 +3,7 @@ title: Class LogEntry
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.LogEntry class. Represents a log message. Contains the common properties that are required for all log messages
 type: docs
-weight: 20570
+weight: 20580
 url: /net/aspose.email.tools.logging/logentry/
 ---
 ## LogEntry class

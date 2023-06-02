@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.email.storage.zimbra/tgzreader/tgzreader/
 ---
-## TgzReader constructor
+## TgzReader(string) {#constructor_1}
 
 Initializes a new instance of the [`TgzReader`](../) class.
 
@@ -23,6 +23,32 @@ public TgzReader(string fileName)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | throws if file name is null or empty |
+
+### See Also
+
+* class [TgzReader](../)
+* namespace [Aspose.Email.Storage.Zimbra](../../tgzreader/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## TgzReader(Stream) {#constructor}
+
+Initializes a new instance of the [`TgzReader`](../) class.
+
+```csharp
+public TgzReader(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | throws if stream is null |
 
 ### See Also
 

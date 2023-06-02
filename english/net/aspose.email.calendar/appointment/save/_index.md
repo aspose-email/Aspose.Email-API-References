@@ -1,11 +1,37 @@
 ---
 title: Appointment.Save
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Saves appointment to the file with specified format using te default save options
+description: Appointment method. Saves appointment to the file with iCalendar format using te default save options
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.email.calendar/appointment/save/
 ---
+## Save(string) {#save_3}
+
+Saves appointment to the file with iCalendar format using te default save options
+
+```csharp
+public void Save(string filePath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | A file path |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
+
+### See Also
+
+* class [Appointment](../)
+* namespace [Aspose.Email.Calendar](../../appointment/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## Save(string, AppointmentSaveFormat) {#save_4}
 
 Saves appointment to the file with specified format using te default save options
@@ -146,32 +172,6 @@ public void Save(Stream stream, AppointmentSaveOptions saveOptions)
 ### See Also
 
 * class [AppointmentSaveOptions](../../appointmentsaveoptions/)
-* class [Appointment](../)
-* namespace [Aspose.Email.Calendar](../../appointment/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Save(string) {#save_3}
-
-Saves appointment to the file with iCalendar format using te default save options
-
-```csharp
-public void Save(string filePath)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | String | A file path |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *filePath* is `null` or `empty` |
-
-### See Also
-
 * class [Appointment](../)
 * namespace [Aspose.Email.Calendar](../../appointment/)
 * assembly [Aspose.Email](../../../)

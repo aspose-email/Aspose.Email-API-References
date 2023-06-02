@@ -51,65 +51,65 @@ public class AlternateView : AttachmentBase
 
 ## Examples
 
-The following example shows how to create and add AlternateView to MailMessage
+The following example shows how to create and add AlternateView to MailMessage.
+
+[C#]
 
 ```csharp
-[C#]
-	var eml = new MailMessage
-	{
-		From = "AndrewIrwin@from.com",
-		To = "SusanMarc@to.com",
-		Subject = "This is an email"
-	};
+var eml = new MailMessage
+{
+	From = "AndrewIrwin@from.com",
+	To = "SusanMarc@to.com",
+	Subject = "This is an email"
+};
 
-	// Create the plain text part It is viewable by those clients that don't support HTML
-	var plainView = AlternateView.CreateAlternateViewFromString("This is my plain text content", null, "text/plain");
+// Create the plain text part It is viewable by those clients that don't support HTML
+var plainView = AlternateView.CreateAlternateViewFromString("This is my plain text content", null, "text/plain");
 
-	// Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
-	// The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
-	// will map to a LinkedResource with a ContentId of 'barcode'.
-	var htmlView = AlternateView.CreateAlternateViewFromString("Here is an embedded image.<img src=cid:barcode>", null, "text/html");
+// Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+// The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
+// will map to a LinkedResource with a ContentId of 'barcode'.
+var htmlView = AlternateView.CreateAlternateViewFromString("Here is an embedded image. <img src=cid:barcode>", null, "text/html");
 
-	// Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
-	var barcode = new LinkedResource("1.jpg", MediaTypeNames.Image.Jpeg)
-	{
-		ContentId = "barcode"
-	};
+// Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+var barcode = new LinkedResource("1.jpg", MediaTypeNames.Image.Jpeg)
+{
+	ContentId = "barcode"
+};
 
-	eml.LinkedResources.Add(barcode);
-	eml.AlternateViews.Add(plainView);
-	eml.AlternateViews.Add(htmlView);
+eml.LinkedResources.Add(barcode);
+eml.AlternateViews.Add(plainView);
+eml.AlternateViews.Add(htmlView);
 
-	eml.Save("EmbeddedImage_out.msg", SaveOptions.DefaultMsgUnicode);
+eml.Save("EmbeddedImage_out.msg", SaveOptions.DefaultMsgUnicode);
 ```
 
-```csharp
-[VB.NET]
+[Visual Basic]
 
-	Dim eml = New MailMessage With {
-	.From = "AndrewIrwin@from.com",
-	.[To] = "SusanMarc@to.com",
-	.Subject = "This is an email"
+```csharp
+Dim eml = New MailMessage With {
+.From = "AndrewIrwin@from.com",
+.[To] = "SusanMarc@to.com",
+.Subject = "This is an email"
+}
+
+' Create the plain text part It is viewable by those clients that don't support HTML
+Dim plainView = AlternateView.CreateAlternateViewFromString("This is my plain text content", Nothing, "text/plain")
+
+' Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+' The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
+' will map to a LinkedResource with a ContentId of 'barcode'.
+Dim htmlView = AlternateView.CreateAlternateViewFromString("Here is an embedded image.<img src=cid:barcode>", Nothing, "text/html")
+
+' Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+Dim barcode = New LinkedResource("1.jpg", MediaTypeNames.Image.Jpeg) With {
+  .ContentId = "barcode"
 	}
 
-	' Create the plain text part It is viewable by those clients that don't support HTML
-	Dim plainView = AlternateView.CreateAlternateViewFromString("This is my plain text content", Nothing, "text/plain")
-
-	' Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
-	' The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
-	' will map to a LinkedResource with a ContentId of 'barcode'.
-	Dim htmlView = AlternateView.CreateAlternateViewFromString("Here is an embedded image.<img src=cid:barcode>", Nothing, "text/html")
-
-	' Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
-	Dim barcode = New LinkedResource("1.jpg", MediaTypeNames.Image.Jpeg) With {
-	  .ContentId = "barcode"
-			}
-
-	eml.LinkedResources.Add(barcode)
-	eml.AlternateViews.Add(plainView)
-	eml.AlternateViews.Add(htmlView)
-
-	eml.Save("EmbeddedImage_out.msg", SaveOptions.DefaultMsgUnicode)
+eml.LinkedResources.Add(barcode)
+eml.AlternateViews.Add(plainView)
+eml.AlternateViews.Add(htmlView)
+eml.Save("EmbeddedImage_out.msg", SaveOptions.DefaultMsgUnicode)
 ```
 
 ### See Also

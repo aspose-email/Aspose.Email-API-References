@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/
 ---
-## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_3}
+## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_5}
 
 Loads list of contacts from multi contact stream.
 
@@ -33,7 +33,7 @@ List of contacs
 
 ---
 
-## LoadAsMultiple(Stream, Encoding, CancellationToken) {#loadasmultiple_1}
+## LoadAsMultiple(Stream, Encoding, CancellationToken) {#loadasmultiple_2}
 
 Loads list of contacts from multi contact stream.
 
@@ -60,7 +60,31 @@ List of contacs
 
 ---
 
-## LoadAsMultiple(Stream, Encoding) {#loadasmultiple}
+## LoadAsMultiple(Stream) {#loadasmultiple}
+
+Loads list of contacts from multi contact stream.
+
+```csharp
+public static List<VCardContact> LoadAsMultiple(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Source stream |
+
+### Return Value
+
+List of contacs
+
+### See Also
+
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## LoadAsMultiple(Stream, Encoding) {#loadasmultiple_1}
 
 Loads list of contacts from multi contact stream.
 
@@ -85,7 +109,27 @@ List of contacs
 
 ---
 
-## LoadAsMultiple(string, Encoding) {#loadasmultiple_2}
+## LoadAsMultiple(string) {#loadasmultiple_3}
+
+Loads list of contacts from multi contact file.
+
+```csharp
+public static List<VCardContact> LoadAsMultiple(string filePath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Source file |
+
+### See Also
+
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## LoadAsMultiple(string, Encoding) {#loadasmultiple_4}
 
 Loads list of contacts from multi contact file.
 

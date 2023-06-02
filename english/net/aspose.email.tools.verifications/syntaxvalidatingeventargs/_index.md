@@ -3,7 +3,7 @@ title: Class SyntaxValidatingEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.SyntaxValidatingEventArgs class. Provides data for the SyntaxValidating event
 type: docs
-weight: 20880
+weight: 20890
 url: /net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
 ---
 ## SyntaxValidatingEventArgs class

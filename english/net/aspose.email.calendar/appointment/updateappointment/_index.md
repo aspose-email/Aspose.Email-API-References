@@ -3,7 +3,7 @@ title: Appointment.UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Updates the appointment
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email.calendar/appointment/updateappointment/
 ---
 ## UpdateAppointment() {#updateappointment}

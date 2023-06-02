@@ -1,11 +1,102 @@
 ---
 title: ImapClient.CopyMessages
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Copy the messaeg
+description: ImapClient method. Copy messages
 type: docs
 weight: 510
 url: /net/aspose.email.clients.imap/imapclient/copymessages/
 ---
+## CopyMessages(IConnection, IEnumerable&lt;string&gt;, string) {#copymessages_3}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IConnection connection, IEnumerable<string> uidSet, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IEnumerable&lt;string&gt;, string) {#copymessages_9}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IEnumerable<string> uidSet, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_1}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_6}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CopyMessages(IConnection, int, int, string) {#copymessages}
 
 Copy the messaeg
@@ -159,97 +250,6 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
 
 ### See Also
 
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IConnection, IEnumerable&lt;string&gt;, string) {#copymessages_3}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IConnection connection, IEnumerable<string> uidSet, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IEnumerable&lt;string&gt;, string) {#copymessages_9}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IEnumerable<string> uidSet, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_1}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessages_6}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

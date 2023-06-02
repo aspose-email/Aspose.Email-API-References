@@ -12,6 +12,7 @@ The **Aspose.Email.Storage.Pst** namespace contains classes for work with Micros
 
 | Class | Description |
 | --- | --- |
+| [FolderCreationOptions](./foldercreationoptions/) | Represents the options for creating a subfolder in the Outlook PST message store. This class serves as a container for configuring specific settings related to the creation of subfolders. |
 | [FolderInfo](./folderinfo/) | Represents information about personal folder in PST. |
 | [FolderInfoCollection](./folderinfocollection/) | Represents collection of FolderInfo. |
 | [ItemMovedEventArgs](./itemmovedeventargs/) | Provides data for the [`ItemMoved`](../aspose.email.storage.pst/folderinfo/itemmoved/) event |
