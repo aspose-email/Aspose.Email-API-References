@@ -1,14 +1,14 @@
 ---
-title: AsposeArgumentNullException
+title: AsposeArgumentNullException.AsposeArgumentNullException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the AsposeArgumentNullExceptionaspose.email/asposeargumentnullexception class.
+description: AsposeArgumentNullException constructor. Initializes a new instance of the AsposeArgumentNullException class
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentnullexception/asposeargumentnullexception/
 ---
 ## AsposeArgumentNullException() {#constructor}
 
-Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class.
 
 ```csharp
 public AsposeArgumentNullException()
@@ -16,15 +16,15 @@ public AsposeArgumentNullException()
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentNullException(string) {#constructor_2}
 
-Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with a specified error message.
 
 ```csharp
 public AsposeArgumentNullException(string message)
@@ -36,15 +36,15 @@ public AsposeArgumentNullException(string message)
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentNullException(string, string) {#constructor_5}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception/) class with a specified error message.
 
 ```csharp
 public AsposeArgumentNullException(string format, string parameters)
@@ -57,15 +57,15 @@ public AsposeArgumentNullException(string format, string parameters)
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentNullException(string, params object[]) {#constructor_4}
 
-Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
+Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception/) class with a specified error message.
 
 ```csharp
 public AsposeArgumentNullException(string format, params object[] parameters)
@@ -78,15 +78,15 @@ public AsposeArgumentNullException(string format, params object[] parameters)
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentNullException(string, Exception) {#constructor_3}
 
-Initializes a new instance of the [`AsposeException`](../../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeException`](../../asposeexception/) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentNullException(string message, Exception innerException)
@@ -99,15 +99,15 @@ public AsposeArgumentNullException(string message, Exception innerException)
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeArgumentNullException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeArgumentNullException`](../) class with a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeArgumentNullException(Exception innerException)
@@ -119,8 +119,8 @@ public AsposeArgumentNullException(Exception innerException)
 
 ### See Also
 
-* class [AsposeArgumentNullException](../../asposeargumentnullexception)
-* namespace [Aspose.Email](../../asposeargumentnullexception)
+* class [AsposeArgumentNullException](../)
+* namespace [Aspose.Email](../../asposeargumentnullexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

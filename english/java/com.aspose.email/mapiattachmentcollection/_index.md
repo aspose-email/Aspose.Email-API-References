@@ -32,6 +32,7 @@ Represents a collection of MapiAttachment objects.
 | [add(int arg0, T arg1)](#add-int-T-) |  |
 | [add(String name, byte[] data)](#add-java.lang.String-byte---) | Adds the new attachment. |
 | [add(String name, MapiMessage msg)](#add-java.lang.String-com.aspose.email.MapiMessage-) | Adds the new attachment as embedded message. |
+| [add(String name, String sharedLink, String url, String providerName)](#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Adds the reference attachment. |
 | [addAll(int arg0, Collection<? extends T> arg1)](#addAll-int-java.util.Collection---extends-T--) |  |
 | [addAll(Collection<? extends T> arg0)](#addAll-java.util.Collection---extends-T--) |  |
 | [addItem(T arg0)](#addItem-T-) |  |
@@ -254,6 +255,75 @@ Adds the new attachment as embedded message.
 | --- | --- | --- |
 | name | java.lang.String | The name of attachment. |
 | msg | [MapiMessage](../../com.aspose.email/mapimessage) | The [MapiMessage](../../com.aspose.email/mapimessage) that represents the attached message. |
+
+### add(String name, String sharedLink, String url, String providerName) {#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
+```
+public final void add(String name, String sharedLink, String url, String providerName)
+```
+
+
+Adds the reference attachment.
+
+--------------------
+
+> ```
+> ```
+>  This example demonstrates how to add a reference attachment to a message.
+> ```
+>  [C#]
+>  
+>  // Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
+>  // Instead of attaching the document directly to the email message,
+>  // you can create a reference attachment that links to the file on the Google Drive.
+>  // Create a message
+>  var msg = new MapiMessage("from@domain.com", "to@domain.com", "Outlook message file",
+>      "This message is created by Aspose.Email", OutlookMessageFormat.Unicode);
+>  // Add reference attachment
+>  msg.Attachments.Add("Document.pdf",
+>      "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
+>      "https://drive.google.com/drive/my-drive",
+>      "GoogleDrive");
+>  //Also, you can set additional attachment properties
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit);
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, 0);
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentIsFolder, false);
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "");
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPreviewUrl, "");
+>  msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "");
+>  // Finally save the message
+>  msg.Save(@"my.msg");
+>  
+>  [Visual Basic]
+>  
+>  ' Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
+>  ' Instead of attaching the document directly to the email message,
+>  ' you can create a reference attachment that links to the file on the Google Drive.
+>  ' Create a message
+>  Dim msg As New MapiMessage("from@domain.com", "to@domain.com", "Outlook message file", "This message is created by Aspose.Email", OutlookMessageFormat.Unicode)
+>  ' Add reference attachment
+>  msg.Attachments.Add("Document.pdf", "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/", "https://drive.google.com/drive/my-drive", "GoogleDrive")
+>  ' Also, you can set additional attachment properties
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit)
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, AttachmentPermissionType.None)
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentIsFolder, False)
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "")
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPreviewUrl, "")
+>  msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "")
+>  ' Finally save the message
+>  msg.Save("my.msg")
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of attachment. |
+| sharedLink | java.lang.String | A fully qualified shared link to the attachment provided by web service manipulating the attachment. |
+| url | java.lang.String | A file location. |
+| providerName | java.lang.String | A name of reference attachment provider.
+
+--------------------
+
+A reference attachment is a type of attachment that includes a link or a reference to a file or item, rather than including the file or item itself in the email message. When the recipients of the email click on the reference attachment, they will be able to access the linked file if they have the appropriate permissions to do so. By using a reference attachment, you can send a smaller email message and ensure that everyone has access to the most up-to-date version of the file or item. |
 
 ### addAll(int arg0, Collection<? extends T> arg1) {#addAll-int-java.util.Collection---extends-T--}
 ```

@@ -29,6 +29,8 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
 | [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
+| [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while converting. |
+| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving to MailMessage. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,6 +38,8 @@ Specify additional options when converting from MapiMessage to MailMessage.
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. |
 | [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
+| [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while converting. |
+| [setTimeoutReachedHandler(TimeoutReachedHandler value)](#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-) | Raised if timed out while saving to MailMessage. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -115,6 +119,26 @@ Gets or sets a value indicating whether need keep rtf body in MailMessage.
 
 **Returns:**
 boolean
+### getTimeout() {#getTimeout--}
+```
+public final int getTimeout()
+```
+
+
+Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+
+**Returns:**
+int
+### getTimeoutReachedHandler() {#getTimeoutReachedHandler--}
+```
+public final TimeoutReachedHandler getTimeoutReachedHandler()
+```
+
+
+Raised if timed out while saving to MailMessage.
+
+**Returns:**
+[TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -196,6 +220,32 @@ Gets or sets a value indicating whether need keep rtf body in MailMessage.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setTimeout(int value) {#setTimeout-int-}
+```
+public final void setTimeout(int value)
+```
+
+
+Limits the time in milliseconds of formatting message while converting. Default value 3 sec.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setTimeoutReachedHandler(TimeoutReachedHandler value) {#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-}
+```
+public final void setTimeoutReachedHandler(TimeoutReachedHandler value)
+```
+
+
+Raised if timed out while saving to MailMessage.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler) |  |
 
 ### toString() {#toString--}
 ```

@@ -1,14 +1,14 @@
 ---
-title: Load
+title: VCardContact.Load
 second_title: Aspose.Email for .NET API Reference
-description: Reads VCardContactaspose.email.personalinfo.vcard/vcardcontact from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+description: VCardContact method. Reads VCardContact from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/load/
 ---
 ## Load(Stream, CancellationToken) {#load_3}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, CancellationToken token)
@@ -21,7 +21,7 @@ public static VCardContact Load(Stream stream, CancellationToken token)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -32,15 +32,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(Stream, Encoding, CancellationToken) {#load_2}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, Encoding encoding, CancellationToken token)
@@ -54,7 +54,7 @@ public static VCardContact Load(Stream stream, Encoding encoding, CancellationTo
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -65,15 +65,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(string, CancellationToken) {#load_7}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, CancellationToken token)
@@ -86,7 +86,7 @@ public static VCardContact Load(string filePath, CancellationToken token)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -96,15 +96,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(string, Encoding, CancellationToken) {#load_6}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, Encoding encoding, CancellationToken token)
@@ -118,7 +118,7 @@ public static VCardContact Load(string filePath, Encoding encoding, Cancellation
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -128,15 +128,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(string) {#load_4}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(string filePath)
@@ -148,7 +148,7 @@ public static VCardContact Load(string filePath)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -158,15 +158,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(string, Encoding) {#load_5}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(string filePath, Encoding encoding)
@@ -179,7 +179,7 @@ public static VCardContact Load(string filePath, Encoding encoding)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -189,15 +189,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(Stream) {#load}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream)
@@ -209,7 +209,7 @@ public static VCardContact Load(Stream stream)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -220,15 +220,15 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Load(Stream, Encoding) {#load_1}
 
-Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+Reads [`VCardContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
 ```csharp
 public static VCardContact Load(Stream stream, Encoding encoding)
@@ -241,7 +241,7 @@ public static VCardContact Load(Stream stream, Encoding encoding)
 
 ### Return Value
 
-A read [`VCardContact`](../../vcardcontact)
+A read [`VCardContact`](../)
 
 ### Exceptions
 
@@ -252,8 +252,8 @@ A read [`VCardContact`](../../vcardcontact)
 
 ### See Also
 
-* class [VCardContact](../../vcardcontact)
-* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact)
+* class [VCardContact](../)
+* namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

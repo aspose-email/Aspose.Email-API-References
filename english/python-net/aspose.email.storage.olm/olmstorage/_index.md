@@ -26,11 +26,12 @@ The OlmStorage type exposes the following members:
 | :- | :- |
 |load(stream)|  |
 |load(file_name)|  |
+|extract_mapi_message(id)|  |
+|extract_mapi_message(message_info)|  |
 |from_file(file_name)|  |
 |from_stream(stream)|  |
 |get_folders()|  |
 |get_folder(name, ignore_case)|  |
-|extract_mapi_message(message_info)|  |
 |enumerate_messages(folder)|  |
 
 ### See Also

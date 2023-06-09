@@ -1,141 +1,11 @@
 ---
-title: DeleteMessage
+title: ImapClient.DeleteMessage
 second_title: Aspose.Email for .NET API Reference
-description: Marks a message with the specified sequence number as deleted
+description: ImapClient method. Marks a message with the specified sequence number as deleted
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.email.clients.imap/imapclient/deletemessage/
 ---
-## DeleteMessage(IConnection, int) {#deletemessage}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(IConnection connection, int sequenceNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | Sequence number of a message |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, string) {#deletemessage_2}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(IConnection connection, string uniqueId)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The uid of the message |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(int) {#deletemessage_6}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(int sequenceNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | Sequence number of a message |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(string) {#deletemessage_8}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(string uniqueId)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The uid of the message |
-
-### See Also
-
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, int, long) {#deletemessage_1}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | Sequence number of a message |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, string, long) {#deletemessage_4}
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessage(IConnection connection, string uniqueId, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The uid of the message |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## DeleteMessage(int, long) {#deletemessage_7}
 
 Marks a message with the specified sequence number as deleted
@@ -151,8 +21,8 @@ public void DeleteMessage(int sequenceNumber, long modificationSequence)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -172,8 +42,8 @@ public void DeleteMessage(string uniqueId, long modificationSequence)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -193,8 +63,8 @@ public void DeleteMessage(string uniqueId, bool commitNow)
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -215,9 +85,9 @@ public void DeleteMessage(IConnection connection, string uniqueId, bool commitNo
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -238,8 +108,8 @@ public void DeleteMessage(string uniqueId, long modificationSequence, bool commi
 
 ### See Also
 
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -262,9 +132,139 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+---
+
+## DeleteMessage(IConnection, int) {#deletemessage}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(IConnection connection, int sequenceNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | Sequence number of a message |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(IConnection, string) {#deletemessage_2}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(IConnection connection, string uniqueId)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(int) {#deletemessage_6}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(int sequenceNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | Sequence number of a message |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(string) {#deletemessage_8}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(string uniqueId)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(IConnection, int, long) {#deletemessage_1}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | Sequence number of a message |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(IConnection, string, long) {#deletemessage_4}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessage(IConnection connection, string uniqueId, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+

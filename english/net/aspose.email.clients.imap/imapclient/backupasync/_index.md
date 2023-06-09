@@ -1,9 +1,9 @@
 ---
-title: BackupAsync
+title: ImapClient.BackupAsync
 second_title: Aspose.Email for .NET API Reference
-description: Backups the content of the specified folders
+description: ImapClient method. Backups the content of the specified folders
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.email.clients.imap/imapclient/backupasync/
 ---
 ## BackupAsync(IConnection, ImapFolderInfoCollection, string, BackupSettings) {#backupasync_2}
@@ -28,11 +28,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -59,11 +59,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -88,10 +88,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -116,10 +116,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -147,11 +147,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -179,11 +179,11 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -210,10 +210,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -240,10 +240,10 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection)
-* class [BackupSettings](../../backupsettings)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [BackupSettings](../../backupsettings/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

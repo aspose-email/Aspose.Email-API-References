@@ -3,7 +3,7 @@ title: MapiContactSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies the contact save options.
 type: docs
-weight: 429
+weight: 431
 url: /java/com.aspose.email/mapicontactsaveoptions/
 ---
 

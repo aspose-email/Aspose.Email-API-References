@@ -27,6 +27,7 @@ Represents a standard interpersonal message (IPM) folders.
 |SYNC_ISSUES|Sync issues folder|
 |JUNK_EMAIL|Junk email folder|
 |UNSPECIFIED|Unspecified value.|
+|RSS_FEEDS|The RSS feeds folder.|
 
 ### See Also
 

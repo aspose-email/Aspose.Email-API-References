@@ -1,7 +1,7 @@
 ---
-title: ListMessages
+title: ExchangeClient.ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: Lists the messages.
+description: ExchangeClient method. Lists the messages
 type: docs
 weight: 280
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/listmessages/
@@ -20,13 +20,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -46,13 +46,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -74,9 +74,9 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string messageC
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -100,9 +100,9 @@ A collection of message info
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -122,9 +122,9 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string query)
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -140,7 +140,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folder | String | The Uri of folder that contains messages. |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
 ### Return Value
@@ -149,10 +149,10 @@ The message info collection.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -173,14 +173,14 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 ### Return Value
 
-A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) collection.
+A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) collection.
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -206,10 +206,10 @@ A collection of message info
 
 ### See Also
 
-* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeMessageInfoCollection](../../../aspose.email.clients.exchange/exchangemessageinfocollection/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

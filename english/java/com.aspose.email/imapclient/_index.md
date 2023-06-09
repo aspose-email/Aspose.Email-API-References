@@ -1277,6 +1277,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [getServerSupportedCompression()](#getServerSupportedCompression--) | Gets information which compression types are supported by a server. |
 | [getSortSupported()](#getSortSupported--) | Gets information whether Sort command are supported |
 | [getSpecialUseSupported()](#getSpecialUseSupported--) | Gets information whether Special-Use Mailboxes is supported See more: https://tools.ietf.org/html/rfc6154 |
+| [getSupportOldServer()](#getSupportOldServer--) | Indicates whether the old servers need to be supported when receiving messages. |
 | [getSupportedAuthentication()](#getSupportedAuthentication--) | Gets enumeration of supported by server authentication types |
 | [getSupportedEncryption()](#getSupportedEncryption--) | Defines the versions of SSL/TLS encryption protocols to be used. |
 | [getThreadAlgorithms()](#getThreadAlgorithms--) | Gets supported thread algorithms |
@@ -1478,6 +1479,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [setSocketsLayerVersion2SSLSocketFactory(SSLSocketFactory value)](#setSocketsLayerVersion2SSLSocketFactory-javax.net.ssl.SSLSocketFactory-) | Set SSL Socket Factory for Sockets Layer version 2 |
 | [setSortSupported(boolean value)](#setSortSupported-boolean-) | Gets information whether Sort command are supported |
 | [setSpecialUseSupported(boolean value)](#setSpecialUseSupported-boolean-) | Gets information whether Special-Use Mailboxes is supported See more: https://tools.ietf.org/html/rfc6154 |
+| [setSupportOldServer(boolean value)](#setSupportOldServer-boolean-) | Indicates whether the old servers need to be supported when receiving messages. |
 | [setSupportedEncryption(int value)](#setSupportedEncryption-int-) | Defines the versions of SSL/TLS encryption protocols to be used. |
 | [setSupportedEncryptionUnsafe(int value)](#setSupportedEncryptionUnsafe-int-) | Defines the versions of SSL/TLS encryption protocols to be used. |
 | [setThreadSupported(boolean value)](#setThreadSupported-boolean-) | Gets information whether Thread command are supported |
@@ -22528,6 +22530,16 @@ Gets information whether Special-Use Mailboxes is supported See more: https://to
 
 **Returns:**
 boolean
+### getSupportOldServer() {#getSupportOldServer--}
+```
+public final boolean getSupportOldServer()
+```
+
+
+Indicates whether the old servers need to be supported when receiving messages.
+
+**Returns:**
+boolean
 ### getSupportedAuthentication() {#getSupportedAuthentication--}
 ```
 public final long getSupportedAuthentication()
@@ -25471,6 +25483,19 @@ public final void setSpecialUseSupported(boolean value)
 
 
 Gets information whether Special-Use Mailboxes is supported See more: https://tools.ietf.org/html/rfc6154
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSupportOldServer(boolean value) {#setSupportOldServer-boolean-}
+```
+public final void setSupportOldServer(boolean value)
+```
+
+
+Indicates whether the old servers need to be supported when receiving messages.
 
 **Parameters:**
 | Parameter | Type | Description |

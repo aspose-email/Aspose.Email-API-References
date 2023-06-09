@@ -3,7 +3,7 @@ title: MapiJournal
 second_title: Aspose.Email for Java API Reference
 description: Represents the Outlook Journal object.
 type: docs
-weight: 441
+weight: 443
 url: /java/com.aspose.email/mapijournal/
 ---
 

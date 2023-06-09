@@ -3,7 +3,7 @@ title: MessageObjectRecipientEntity
 second_title: Aspose.Email for Java API Reference
 description: Represens a recipient entry in message object.
 type: docs
-weight: 502
+weight: 504
 url: /java/com.aspose.email/messageobjectrecipiententity/
 ---
 

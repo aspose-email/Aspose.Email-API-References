@@ -1,14 +1,14 @@
 ---
-title: GetEWSClient
+title: EWSClient.GetEWSClient
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the EWSClientaspose.email.clients.exchange.webservice/ewsclient based class
+description: EWSClient method. Initializes a new instance of the EWSClient based class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/getewsclient/
 ---
 ## GetEWSClient(string, ICredentials) {#getewsclient_2}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credentials)
@@ -21,20 +21,20 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(string, string, string) {#getewsclient_4}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password)
@@ -48,20 +48,20 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(string, string, string, WebProxy) {#getewsclient_5}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -77,20 +77,20 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(string, string, string, string) {#getewsclient_6}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -106,20 +106,20 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(string, string, string, string, WebProxy) {#getewsclient_7}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -136,20 +136,20 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(ExchangeVersion, string, ICredentials, WebProxy) {#getewsclient_1}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mailboxUri, 
@@ -165,21 +165,21 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mail
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* enum [ExchangeVersion](../../exchangeversion)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* enum [ExchangeVersion](../../exchangeversion/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(ExchangeVersion, bool, string, string, ICredentials, WebProxy) {#getewsclient}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, 
@@ -198,21 +198,21 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion,
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* enum [ExchangeVersion](../../exchangeversion)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* enum [ExchangeVersion](../../exchangeversion/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## GetEWSClient(string, ICredentials, WebProxy) {#getewsclient_3}
 
-Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credentials, WebProxy proxy)
@@ -226,13 +226,13 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 
 ### Return Value
 
-Instance of the class based on the [`EWSClient`](../../ewsclient) class.
+Instance of the class based on the [`EWSClient`](../) class.
 
 ### See Also
 
-* interface [IEWSClient](../../iewsclient)
-* class [EWSClient](../../ewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient)
+* interface [IEWSClient](../../iewsclient/)
+* class [EWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../ewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

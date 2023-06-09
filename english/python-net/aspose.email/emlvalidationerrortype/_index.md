@@ -3,7 +3,7 @@ title: EmlValidationErrorType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 4910
+weight: 4920
 url: /python-net/aspose.email/emlvalidationerrortype/
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: NotesStorageFacility
+title: NotesStorageFacility.NotesStorageFacility
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the NotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility class.
+description: NotesStorageFacility constructor. Initializes a new instance of the NotesStorageFacility class
 type: docs
 weight: 10
 url: /net/aspose.email.storage.nsf/notesstoragefacility/notesstoragefacility/
 ---
 ## NotesStorageFacility(string, CancellationToken) {#constructor_7}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(string fileName, CancellationToken token)
@@ -27,15 +27,15 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 ### See Also
 
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(Stream, CancellationToken) {#constructor_3}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(Stream stream, CancellationToken token)
@@ -54,15 +54,15 @@ public NotesStorageFacility(Stream stream, CancellationToken token)
 
 ### See Also
 
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(string, NsfLoadOptions, CancellationToken) {#constructor_6}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options, CancellationToken token)
@@ -82,16 +82,16 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 
 ### See Also
 
-* class [NsfLoadOptions](../../nsfloadoptions)
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NsfLoadOptions](../../nsfloadoptions/)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(Stream, NsfLoadOptions, CancellationToken) {#constructor_2}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationToken token)
@@ -111,16 +111,16 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 
 ### See Also
 
-* class [NsfLoadOptions](../../nsfloadoptions)
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NsfLoadOptions](../../nsfloadoptions/)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(string) {#constructor_4}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(string fileName)
@@ -138,15 +138,15 @@ public NotesStorageFacility(string fileName)
 
 ### See Also
 
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(Stream) {#constructor}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(Stream stream)
@@ -164,15 +164,15 @@ public NotesStorageFacility(Stream stream)
 
 ### See Also
 
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(string, NsfLoadOptions) {#constructor_5}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options)
@@ -191,16 +191,16 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 
 ### See Also
 
-* class [NsfLoadOptions](../../nsfloadoptions)
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NsfLoadOptions](../../nsfloadoptions/)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## NotesStorageFacility(Stream, NsfLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`NotesStorageFacility`](../../notesstoragefacility) class.
+Initializes a new instance of the [`NotesStorageFacility`](../) class.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options)
@@ -219,9 +219,9 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options)
 
 ### See Also
 
-* class [NsfLoadOptions](../../nsfloadoptions)
-* class [NotesStorageFacility](../../notesstoragefacility)
-* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility)
+* class [NsfLoadOptions](../../nsfloadoptions/)
+* class [NotesStorageFacility](../)
+* namespace [Aspose.Email.Storage.Nsf](../../notesstoragefacility/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

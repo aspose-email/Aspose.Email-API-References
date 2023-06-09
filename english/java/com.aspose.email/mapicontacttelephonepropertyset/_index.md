@@ -3,14 +3,14 @@ title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify optional telephone numbers  for the contact
 type: docs
-weight: 430
+weight: 432
 url: /java/com.aspose.email/mapicontacttelephonepropertyset/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.email.MapiContactPropertySet](../../com.aspose.email/mapicontactpropertyset)
 ```
-public final class MapiContactTelephonePropertySet
+public final class MapiContactTelephonePropertySet extends MapiContactPropertySet
 ```
 
 Specify optional telephone numbers for the contact

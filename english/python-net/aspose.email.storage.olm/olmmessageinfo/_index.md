@@ -15,6 +15,7 @@ The OlmMessageInfo type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
+|entry_id|Gets the message entry identifier.|
 |subject|Gets the message subject.|
 |date|Gets the date of message.|
 |modified_date|Gets the date of message.|

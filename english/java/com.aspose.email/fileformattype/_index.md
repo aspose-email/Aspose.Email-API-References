@@ -25,6 +25,7 @@ Enumerates file format types.
 | [Mbox](#Mbox) | File format used for holding collections of electronic mail messages. |
 | [Mht](#Mht) | File is a Single File Web Page, also known as a Web Archive file. |
 | [Msg](#Msg) | Outlook MSG file format. |
+| [Nsf](#Nsf) | The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino. |
 | [Oft](#Oft) | Outlook MSG file format for message template. |
 | [Olm](#Olm) | Outlook for Mac File Format. |
 | [Ost](#Ost) | Outlook Data Files format for for offline mode. |
@@ -125,6 +126,14 @@ public static final int Msg
 
 
 Outlook MSG file format.
+
+### Nsf {#Nsf}
+```
+public static final int Nsf
+```
+
+
+The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino.
 
 ### Oft {#Oft}
 ```

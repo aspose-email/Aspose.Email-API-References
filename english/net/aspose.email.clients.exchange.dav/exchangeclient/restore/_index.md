@@ -1,7 +1,7 @@
 ---
-title: Restore
+title: ExchangeClient.Restore
 second_title: Aspose.Email for .NET API Reference
-description: Restores exchange folders from the specified personal storage file.
+description: ExchangeClient method. Restores exchange folders from the specified personal storage file
 type: docs
 weight: 350
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/restore/
@@ -23,13 +23,13 @@ public void Restore(string fileName, RestoreOptions options)
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName* is not specified. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | *fileName* is not specified. |
 
 ### See Also
 
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -52,13 +52,13 @@ public void Restore(Stream stream, RestoreOptions options)
 | exception | condition |
 | --- | --- |
 | NotSupportedException | The *stream* does not support reading. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream* is `null`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *stream* is `null`. |
 
 ### See Also
 
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -80,14 +80,14 @@ public void Restore(PersonalStorage pst, RestoreOptions options)
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst* is `null`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *pst* is `null`. |
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -110,15 +110,15 @@ public void Restore(string fileName, ExchangeFolderInfoCollection folders, Resto
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName* is not specified. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* is `null`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | *fileName* is not specified. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *folders* is `null`. |
 
 ### See Also
 
-* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection)
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection/)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -142,14 +142,14 @@ public void Restore(Stream stream, ExchangeFolderInfoCollection folders, Restore
 | exception | condition |
 | --- | --- |
 | NotSupportedException | The *stream* does not support reading. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream* or *folders* is `null`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *stream* or *folders* is `null`. |
 
 ### See Also
 
-* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection)
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection/)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -173,15 +173,15 @@ public void Restore(PersonalStorage pst, ExchangeFolderInfoCollection folders,
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst* or *folders* is `null`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *pst* or *folders* is `null`. |
 
 ### See Also
 
-* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage)
-* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection)
-* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions)
-* class [ExchangeClient](../../exchangeclient)
-* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [ExchangeFolderInfoCollection](../../../aspose.email.clients.exchange/exchangefolderinfocollection/)
+* enum [RestoreOptions](../../../aspose.email.storage.pst/restoreoptions/)
+* class [ExchangeClient](../)
+* namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

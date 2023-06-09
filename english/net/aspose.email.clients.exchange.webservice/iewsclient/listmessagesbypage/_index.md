@@ -1,7 +1,7 @@
 ---
-title: ListMessagesByPage
+title: IEWSClient.ListMessagesByPage
 second_title: Aspose.Email for .NET API Reference
-description: List the messages in the specified folder.
+description: IEWSClient method. List the messages in the specified folder
 type: docs
 weight: 1150
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listmessagesbypage/
@@ -21,13 +21,13 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -43,19 +43,19 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -76,13 +76,13 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -99,20 +99,20 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, MailQuery query
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folder | String | A folder to search messages in. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 | offset | Int32 | An offset of next page in view |
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -135,14 +135,14 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, int itemsPerPag
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -162,14 +162,14 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* class [PageInfo](../../../aspose.email.clients/pageinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* class [PageInfo](../../../aspose.email.clients/pageinfo/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -191,15 +191,15 @@ public ExchangeMessagePageInfo ListMessagesByPage(string folder, PageInfo pageIn
 
 ### Return Value
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection/) that contains messages from the specified folder.
 
 ### See Also
 
-* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo)
-* class [PageInfo](../../../aspose.email.clients/pageinfo)
-* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeMessagePageInfo](../../../aspose.email.clients.exchange/exchangemessagepageinfo/)
+* class [PageInfo](../../../aspose.email.clients/pageinfo/)
+* enum [ExchangeListMessagesOptions](../../../aspose.email.clients.exchange/exchangelistmessagesoptions/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

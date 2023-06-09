@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Java API Reference
 description: Represents the Outlook Task object.
 type: docs
-weight: 468
+weight: 470
 url: /java/com.aspose.email/mapitask/
 ---
 
@@ -57,6 +57,7 @@ Represents the Outlook Task object.
 | [getNamedProperties()](#getNamedProperties--) | Gets the named properties of message. |
 | [getNamedPropertyMapping()](#getNamedPropertyMapping--) | Gets the named property mapping. |
 | [getPercentComplete()](#getPercentComplete--) | Gets or sets the progress the user has made on a task. |
+| [getPriority()](#getPriority--) | Gets or sets the current Priority of the Task object. |
 | [getProperties()](#getProperties--) | Gets the collection of properties. |
 | [getProperty(PropertyDescriptor pd)](#getProperty-com.aspose.email.PropertyDescriptor-) | Gets MAPI property by property descriptor. |
 | [getPropertyBoolean(long tag)](#getPropertyBoolean-long-) | Gets the value of the property specified by tag as Boolean type. |
@@ -110,6 +111,7 @@ Represents the Outlook Task object.
 | [setMode(int value)](#setMode-int-) | Gets or sets the assignment status of the Task object. |
 | [setNamedPropertyMapping(MapiNamedPropertyMappingStorage value)](#setNamedPropertyMapping-com.aspose.email.MapiNamedPropertyMappingStorage-) | Sets the named property mapping. |
 | [setPercentComplete(int value)](#setPercentComplete-int-) | Gets or sets the progress the user has made on a task. |
+| [setPriority(int value)](#setPriority-int-) | Gets or sets the current Priority of the Task object. |
 | [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
 | [setProperty(PropertyDescriptor pd, Object value)](#setProperty-com.aspose.email.PropertyDescriptor-java.lang.Object-) | Sets MAPI property. |
 | [setRecipients(MapiRecipientCollection value)](#setRecipients-com.aspose.email.MapiRecipientCollection-) | Gets the recipients of the message. |
@@ -534,6 +536,16 @@ public final int getPercentComplete()
 
 
 Gets or sets the progress the user has made on a task.
+
+**Returns:**
+int
+### getPriority() {#getPriority--}
+```
+public final int getPriority()
+```
+
+
+Gets or sets the current Priority of the Task object.
 
 **Returns:**
 int
@@ -1225,6 +1237,19 @@ public final void setPercentComplete(int value)
 
 
 Gets or sets the progress the user has made on a task.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setPriority(int value) {#setPriority-int-}
+```
+public final void setPriority(int value)
+```
+
+
+Gets or sets the current Priority of the Task object.
 
 **Parameters:**
 | Parameter | Type | Description |

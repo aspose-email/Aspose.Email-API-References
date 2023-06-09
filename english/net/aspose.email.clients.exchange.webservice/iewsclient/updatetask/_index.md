@@ -1,7 +1,7 @@
 ---
-title: UpdateTask
+title: IEWSClient.UpdateTask
 second_title: Aspose.Email for .NET API Reference
-description: Updates the specified task.
+description: IEWSClient method. Updates the specified task
 type: docs
 weight: 1520
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatetask/
@@ -16,7 +16,7 @@ public string UpdateTask(MapiTask task)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | MapiTask | An [`MapiTask`](../../../aspose.email.mapi/mapitask) containing the task information. |
+| task | MapiTask | An [`MapiTask`](../../../aspose.email.mapi/mapitask/) containing the task information. |
 
 ### Return Value
 
@@ -24,9 +24,9 @@ Task uri.
 
 ### See Also
 
-* class [MapiTask](../../../aspose.email.mapi/mapitask)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [MapiTask](../../../aspose.email.mapi/mapitask/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -42,7 +42,7 @@ public string UpdateTask(string uri, MapiTask task)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uri | String | Task identifier |
-| task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
+| task | MapiTask | An [`ExchangeTask`](../../exchangetask/) containing the task information. |
 
 ### Return Value
 
@@ -50,9 +50,9 @@ Task uri.
 
 ### See Also
 
-* class [MapiTask](../../../aspose.email.mapi/mapitask)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [MapiTask](../../../aspose.email.mapi/mapitask/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -69,7 +69,7 @@ public string UpdateTask(string uri, MapiTask task,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uri | String | Task identifier |
-| task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
+| task | MapiTask | An [`ExchangeTask`](../../exchangetask/) containing the task information. |
 | additionalProperties | IEnumerable`1 | An additional MAPI properties which can be used in MAPI object. |
 
 ### Return Value
@@ -78,10 +78,10 @@ Task uri.
 
 ### See Also
 
-* class [MapiTask](../../../aspose.email.mapi/mapitask)
-* class [PropertyDescriptor](../../../aspose.email.mapi/propertydescriptor)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [MapiTask](../../../aspose.email.mapi/mapitask/)
+* class [PropertyDescriptor](../../../aspose.email.mapi/propertydescriptor/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -96,20 +96,20 @@ public void UpdateTask(ExchangeTask task)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | ExchangeTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
+| task | ExchangeTask | An [`ExchangeTask`](../../exchangetask/) containing the task information. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | An UniqueUri property of *task* is `null` or `empty`. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* is `null`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | An UniqueUri property of *task* is `null` or `empty`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *task* is `null`. |
 
 ### See Also
 
-* class [ExchangeTask](../../exchangetask)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeTask](../../exchangetask/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -124,22 +124,22 @@ public void UpdateTask(ExchangeTask task, UpdateTaskOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | ExchangeTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
+| task | ExchangeTask | An [`ExchangeTask`](../../exchangetask/) containing the task information. |
 | options | UpdateTaskOptions | An updation options. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | An UniqueUri property of *task* is `null` or `empty`. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* is `null`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | An UniqueUri property of *task* is `null` or `empty`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception/) | *task* is `null`. |
 
 ### See Also
 
-* class [ExchangeTask](../../exchangetask)
-* enum [UpdateTaskOptions](../../updatetaskoptions)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* class [ExchangeTask](../../exchangetask/)
+* enum [UpdateTaskOptions](../../updatetaskoptions/)
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

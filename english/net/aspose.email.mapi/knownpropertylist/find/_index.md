@@ -1,7 +1,7 @@
 ---
-title: Find
+title: KnownPropertyList.Find
 second_title: Aspose.Email for .NET API Reference
-description: Finds properties in list according to its PropertySet
+description: KnownPropertyList method. Finds properties in list according to its PropertySet
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/knownpropertylist/find/
@@ -20,13 +20,13 @@ public PropertyDescriptor[] Find(params Guid[] propertySets)
 
 ### Return Value
 
-Array of [`PropertyDescriptor`](../../propertydescriptor) objects with required PropertySet if found in the list; otherwise empty array.
+Array of [`PropertyDescriptor`](../../propertydescriptor/) objects with required PropertySet if found in the list; otherwise empty array.
 
 ### See Also
 
-* class [PropertyDescriptor](../../propertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PropertyDescriptor](../../propertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
@@ -45,20 +45,20 @@ public PropertyDescriptor Find(string name)
 
 ### Return Value
 
-[`PropertyDescriptor`](../../propertydescriptor) object if found in the list; otherwise null.
+[`PropertyDescriptor`](../../propertydescriptor/) object if found in the list; otherwise null.
 
 ### See Also
 
-* class [PropertyDescriptor](../../propertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PropertyDescriptor](../../propertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(int, PropertyDataType) {#find_4}
 
-Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) property in list
+Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) property in list
 
 ```csharp
 public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
@@ -71,21 +71,21 @@ public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object with defined tag if found in the list; otherwise null.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object with defined tag if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(int) {#find_6}
 
-Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) properties in list
+Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) properties in list
 
 ```csharp
 public PidTagPropertyDescriptor[] Find(int id)
@@ -97,20 +97,20 @@ public PidTagPropertyDescriptor[] Find(int id)
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) Array of objects with defined tag if found in the list; otherwise empty array.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) Array of objects with defined tag if found in the list; otherwise empty array.
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(long) {#find_5}
 
-Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) property in list
+Finds [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) property in list
 
 ```csharp
 public PidTagPropertyDescriptor Find(long tag)
@@ -122,20 +122,20 @@ public PidTagPropertyDescriptor Find(long tag)
 
 ### Return Value
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object with defined tag if found in the list; otherwise null.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor/) object with defined tag if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(string, PropertyDataType, Guid) {#find_2}
 
-Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) property in list according to required parameters
+Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) property in list according to required parameters
 
 ```csharp
 public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid propertySet)
@@ -149,21 +149,21 @@ public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid p
 
 ### Return Value
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object if found in the list; otherwise null.
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(string, Guid) {#find_3}
 
-Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison.
+Finds [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) property in list according to required parameters This is simplified search operation without data type comparison.
 
 ```csharp
 public PidNamePropertyDescriptor Find(string name, Guid propertySet)
@@ -176,20 +176,20 @@ public PidNamePropertyDescriptor Find(string name, Guid propertySet)
 
 ### Return Value
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object if found in the list; otherwise null.
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor/) object if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(long, PropertyDataType, Guid) {#find}
 
-Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) property in list according to required parameters
+Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) property in list according to required parameters
 
 ```csharp
 public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid propertySet)
@@ -203,21 +203,21 @@ public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid prope
 
 ### Return Value
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object if found in the list; otherwise null.
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor)
-* enum [PropertyDataType](../../propertydatatype)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor/)
+* enum [PropertyDataType](../../propertydatatype/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## Find(long, Guid) {#find_1}
 
-Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) property in list according to required parameters This is simplified search operation without data type comparison.
+Finds [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) property in list according to required parameters This is simplified search operation without data type comparison.
 
 ```csharp
 public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
@@ -230,13 +230,13 @@ public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
 
 ### Return Value
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object if found in the list; otherwise null.
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor/) object if found in the list; otherwise null.
 
 ### See Also
 
-* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor)
-* class [KnownPropertyList](../../knownpropertylist)
-* namespace [Aspose.Email.Mapi](../../knownpropertylist)
+* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor/)
+* class [KnownPropertyList](../)
+* namespace [Aspose.Email.Mapi](../../knownpropertylist/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+

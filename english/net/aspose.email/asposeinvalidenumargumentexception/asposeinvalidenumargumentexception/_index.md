@@ -1,14 +1,14 @@
 ---
-title: AsposeInvalidEnumArgumentException
+title: AsposeInvalidEnumArgumentException.AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for .NET API Reference
-description: Initializes a new instance of the AsposeInvalidEnumArgumentExceptionaspose.email/asposeinvalidenumargumentexception class.
+description: AsposeInvalidEnumArgumentException constructor. Initializes a new instance of the AsposeInvalidEnumArgumentException class
 type: docs
 weight: 10
 url: /net/aspose.email/asposeinvalidenumargumentexception/asposeinvalidenumargumentexception/
 ---
 ## AsposeInvalidEnumArgumentException() {#constructor}
 
-Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class.
+Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../) class.
 
 ```csharp
 public AsposeInvalidEnumArgumentException()
@@ -16,15 +16,15 @@ public AsposeInvalidEnumArgumentException()
 
 ### See Also
 
-* class [AsposeInvalidEnumArgumentException](../../asposeinvalidenumargumentexception)
-* namespace [Aspose.Email](../../asposeinvalidenumargumentexception)
+* class [AsposeInvalidEnumArgumentException](../)
+* namespace [Aspose.Email](../../asposeinvalidenumargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeInvalidEnumArgumentException(string) {#constructor_2}
 
-Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message.
+Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../) class with a specified error message.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string message)
@@ -36,15 +36,15 @@ public AsposeInvalidEnumArgumentException(string message)
 
 ### See Also
 
-* class [AsposeInvalidEnumArgumentException](../../asposeinvalidenumargumentexception)
-* namespace [Aspose.Email](../../asposeinvalidenumargumentexception)
+* class [AsposeInvalidEnumArgumentException](../)
+* namespace [Aspose.Email](../../asposeinvalidenumargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeInvalidEnumArgumentException(string, params object[]) {#constructor_4}
 
-Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message.
+Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../) class with a specified error message.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string format, params object[] parameters)
@@ -57,15 +57,15 @@ public AsposeInvalidEnumArgumentException(string format, params object[] paramet
 
 ### See Also
 
-* class [AsposeInvalidEnumArgumentException](../../asposeinvalidenumargumentexception)
-* namespace [Aspose.Email](../../asposeinvalidenumargumentexception)
+* class [AsposeInvalidEnumArgumentException](../)
+* namespace [Aspose.Email](../../asposeinvalidenumargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeInvalidEnumArgumentException(string, Exception) {#constructor_3}
 
-Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(string message, Exception innerException)
@@ -78,15 +78,15 @@ public AsposeInvalidEnumArgumentException(string message, Exception innerExcepti
 
 ### See Also
 
-* class [AsposeInvalidEnumArgumentException](../../asposeinvalidenumargumentexception)
-* namespace [Aspose.Email](../../asposeinvalidenumargumentexception)
+* class [AsposeInvalidEnumArgumentException](../)
+* namespace [Aspose.Email](../../asposeinvalidenumargumentexception/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
 ## AsposeInvalidEnumArgumentException(Exception) {#constructor_1}
 
-Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../../asposeinvalidenumargumentexception) class with a reference to the inner exception that is the cause of this exception.
+Initializes a new instance of the [`AsposeInvalidEnumArgumentException`](../) class with a reference to the inner exception that is the cause of this exception.
 
 ```csharp
 public AsposeInvalidEnumArgumentException(Exception innerException)
@@ -98,8 +98,8 @@ public AsposeInvalidEnumArgumentException(Exception innerException)
 
 ### See Also
 
-* class [AsposeInvalidEnumArgumentException](../../asposeinvalidenumargumentexception)
-* namespace [Aspose.Email](../../asposeinvalidenumargumentexception)
+* class [AsposeInvalidEnumArgumentException](../)
+* namespace [Aspose.Email](../../asposeinvalidenumargumentexception/)
 * assembly [Aspose.Email](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
+
