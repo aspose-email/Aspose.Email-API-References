@@ -3,7 +3,7 @@ title: IcsSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents iCalendar save options
 type: docs
-weight: 299
+weight: 300
 url: /java/com.aspose.email/icssaveoptions/
 ---
 

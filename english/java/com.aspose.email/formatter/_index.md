@@ -3,7 +3,7 @@ title: Formatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for formatting log entry messsages.
 type: docs
-weight: 263
+weight: 264
 url: /java/com.aspose.email/formatter/
 ---
 

@@ -3,7 +3,7 @@ title: FormatNotSupportedException
 second_title: Aspose.Email for Java API Reference
 description: Exception that is thrown during document load  when the document format is not  recognized or not supported by the component.
 type: docs
-weight: 262
+weight: 263
 url: /java/com.aspose.email/formatnotsupportedexception/
 ---
 

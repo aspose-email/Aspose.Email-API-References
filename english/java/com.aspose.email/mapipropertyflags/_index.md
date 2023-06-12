@@ -3,7 +3,7 @@ title: MapiPropertyFlags
 second_title: Aspose.Email for Java API Reference
 description: Represents flags which can be set on a MAPI property.
 type: docs
-weight: 460
+weight: 461
 url: /java/com.aspose.email/mapipropertyflags/
 ---
 

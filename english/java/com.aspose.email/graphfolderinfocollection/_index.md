@@ -3,7 +3,7 @@ title: GraphFolderInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents collection of GraphFolderInfo.
 type: docs
-weight: 282
+weight: 283
 url: /java/com.aspose.email/graphfolderinfocollection/
 ---
 

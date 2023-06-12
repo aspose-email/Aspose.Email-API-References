@@ -3,7 +3,7 @@ title: MailConversionOptions
 second_title: Aspose.Email for Java API Reference
 description: Specify additional options when converting from MapiMessage to MailMessage.
 type: docs
-weight: 366
+weight: 367
 url: /java/com.aspose.email/mailconversionoptions/
 ---
 

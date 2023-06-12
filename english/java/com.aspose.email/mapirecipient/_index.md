@@ -3,7 +3,7 @@ title: MapiRecipient
 second_title: Aspose.Email for Java API Reference
 description: Represents the recipient information in the Microsoft Outlook Message.
 type: docs
-weight: 464
+weight: 465
 url: /java/com.aspose.email/mapirecipient/
 ---
 

@@ -3,7 +3,7 @@ title: MapiItemType
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the  interface.
 type: docs
-weight: 442
+weight: 443
 url: /java/com.aspose.email/mapiitemtype/
 ---
 

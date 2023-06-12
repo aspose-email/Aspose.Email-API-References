@@ -3,7 +3,7 @@ title: ImapMonitoringEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the method that will handle an imap monitoring event
 type: docs
-weight: 321
+weight: 322
 url: /java/com.aspose.email/imapmonitoringeventhandler/
 ---
 

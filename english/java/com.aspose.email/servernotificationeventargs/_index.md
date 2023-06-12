@@ -3,7 +3,7 @@ title: ServerNotificationEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Contains event data for server notification.
 type: docs
-weight: 632
+weight: 633
 url: /java/com.aspose.email/servernotificationeventargs/
 ---
 

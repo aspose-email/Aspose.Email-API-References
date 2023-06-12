@@ -3,7 +3,7 @@ title: WebDavContactSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies the contact save options.
 type: docs
-weight: 726
+weight: 727
 url: /java/com.aspose.email/webdavcontactsaveoptions/
 ---
 

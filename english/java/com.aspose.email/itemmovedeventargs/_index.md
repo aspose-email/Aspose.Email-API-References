@@ -3,7 +3,7 @@ title: ItemMovedEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the  event
 type: docs
-weight: 341
+weight: 342
 url: /java/com.aspose.email/itemmovedeventargs/
 ---
 

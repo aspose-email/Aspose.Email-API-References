@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about personal folder in PST.
 type: docs
-weight: 254
+weight: 255
 url: /java/com.aspose.email/folderinfo/
 ---
 
@@ -35,6 +35,7 @@ Represents information about personal folder in PST.
 | [addMessages(Iterable<MapiMessage> messages)](#addMessages-java.lang.Iterable-com.aspose.email.MapiMessage--) | Provides message adding in a bulk mode. |
 | [addSubFolder(String name)](#addSubFolder-java.lang.String-) | Adds the new sub-folder. |
 | [addSubFolder(String name, boolean createHierarchy)](#addSubFolder-java.lang.String-boolean-) | Adds the new sub-folder. |
+| [addSubFolder(String name, FolderCreationOptions creationOptions)](#addSubFolder-java.lang.String-com.aspose.email.FolderCreationOptions-) | Adds a subfolder with the specified name to the current folder using the provided creation options. |
 | [addSubFolder(String name, String containerClass)](#addSubFolder-java.lang.String-java.lang.String-) | Adds the new subfolder. |
 | [changeContainerClass(String containerClass)](#changeContainerClass-java.lang.String-) | Changes the container class. |
 | [changeDisplayName(String newName)](#changeDisplayName-java.lang.String-) | Changes the display name. |
@@ -71,6 +72,7 @@ Method is used to display brief message information [MessageInfo](../../com.aspo
 | [getProperties()](#getProperties--) | Gets the folder properties. |
 | [getSubFolder(String name)](#getSubFolder-java.lang.String-) | Get subfolder. |
 | [getSubFolder(String name, boolean ignoreCase)](#getSubFolder-java.lang.String-boolean-) | Gets the subfolder. |
+| [getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator)](#getSubFolder-java.lang.String-boolean-boolean-) | Retrieves a subfolder with the specified name from the current folder. |
 | [getSubFolders()](#getSubFolders--) | Gets collection of subfolders. |
 | [getSubFolders(MailQuery query)](#getSubFolders-com.aspose.email.MailQuery-) | Gets collection of subfolders. |
 | [getSubFolders(int kind)](#getSubFolders-int-) | Gets collection of subfolders. |
@@ -202,6 +204,26 @@ Adds the new sub-folder.
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - The new sub-folder.
+### addSubFolder(String name, FolderCreationOptions creationOptions) {#addSubFolder-java.lang.String-com.aspose.email.FolderCreationOptions-}
+```
+public final FolderInfo addSubFolder(String name, FolderCreationOptions creationOptions)
+```
+
+
+Adds a subfolder with the specified name to the current folder using the provided creation options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the subfolder to add. |
+| creationOptions | [FolderCreationOptions](../../com.aspose.email/foldercreationoptions) | The options for creating the subfolder.
+
+--------------------
+
+The  name  parameter specifies the name of the subfolder to add. The  creationOptions  parameter allows customization of the subfolder creation behavior, such as specifying whether to create the hierarchy of parent folders and the container class of the new subfolder. If the subfolder with the specified name already exists, the behavior depends on the value of  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)). If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  true , a difference in name casing will be allowed, and the subfolder will be added even if an existing folder with the same name but in a different case exists. If  FolderCreationOptions.AllowNameCaseDifference ([FolderCreationOptions.getAllowNameCaseDifference](../../com.aspose.email/foldercreationoptions\#getAllowNameCaseDifference)/[FolderCreationOptions.setAllowNameCaseDifference(boolean)](../../com.aspose.email/foldercreationoptions\#setAllowNameCaseDifference-boolean-)) is set to  false , the comparison will be case-insensitive, and an InvalidOperationException will be thrown to indicate that a folder with the specified name already exists. The name may contain backslash (\\) as the path separators (for example, "parent1\\parent2\\subfolder"). In this case if  FolderCreationOptions.CreateHierarchy ([FolderCreationOptions.getCreateHierarchy](../../com.aspose.email/foldercreationoptions\#getCreateHierarchy)/[FolderCreationOptions.setCreateHierarchy(boolean)](../../com.aspose.email/foldercreationoptions\#setCreateHierarchy-boolean-)) is set to  true , the hierarchy of parent folders should be created. |
+
+**Returns:**
+[FolderInfo](../../com.aspose.email/folderinfo) - The [FolderInfo](../../com.aspose.email/folderinfo) representing the added subfolder.
 ### addSubFolder(String name, String containerClass) {#addSubFolder-java.lang.String-java.lang.String-}
 ```
 public final FolderInfo addSubFolder(String name, String containerClass)
@@ -615,6 +637,27 @@ Gets the subfolder.
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - A FolderInfo object.
+### getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator) {#getSubFolder-java.lang.String-boolean-boolean-}
+```
+public final FolderInfo getSubFolder(String name, boolean ignoreCase, boolean handlePathSeparator)
+```
+
+
+Retrieves a subfolder with the specified name from the current folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the subfolder to retrieve. |
+| ignoreCase | boolean | Specifies whether to perform a case-insensitive search for folders with the given name. |
+| handlePathSeparator | boolean | Specifies whether the specified folder name should be treated as a path if it contains backslashes.
+
+--------------------
+
+The  name  parameter specifies the name of the subfolder to retrieve. The  ignoreCase  parameter determines whether the search for the subfolder name should be case-sensitive or case-insensitive. If set to  true , the search will be case-insensitive, otherwise, it will be case-sensitive. The  handlePathSeparator  parameter specifies whether the specified folder name should be treated as a path if it contains backslashes. If set to  true , the method will interpret the folder name as a path, attempting to navigate to the subfolder using the path. If set to  false , the method will treat the folder name as a simple name, searching for a subfolder with an exact name match. If the subfolder is found, the method returns the [FolderInfo](../../com.aspose.email/folderinfo) object representing the retrieved subfolder. If the subfolder is not found, the method returns  null . |
+
+**Returns:**
+[FolderInfo](../../com.aspose.email/folderinfo) - The [FolderInfo](../../com.aspose.email/folderinfo) representing the retrieved subfolder, or  null  if the subfolder is not found.
 ### getSubFolders() {#getSubFolders--}
 ```
 public final FolderInfoCollection getSubFolders()

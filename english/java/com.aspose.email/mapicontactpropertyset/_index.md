@@ -3,7 +3,7 @@ title: MapiContactPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Base class for all sets of MapiContact properties.
 type: docs
-weight: 430
+weight: 431
 url: /java/com.aspose.email/mapicontactpropertyset/
 ---
 

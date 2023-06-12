@@ -3,7 +3,7 @@ title: ImapNamespace
 second_title: Aspose.Email for Java API Reference
 description: Represents IMAP namespace More details https//tools.ietf.org/html/rfc2342
 type: docs
-weight: 322
+weight: 323
 url: /java/com.aspose.email/imapnamespace/
 ---
 

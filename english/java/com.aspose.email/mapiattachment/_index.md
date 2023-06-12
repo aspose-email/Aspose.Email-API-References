@@ -3,7 +3,7 @@ title: MapiAttachment
 second_title: Aspose.Email for Java API Reference
 description: Represents the attachment in the E-mail message.
 type: docs
-weight: 384
+weight: 385
 url: /java/com.aspose.email/mapiattachment/
 ---
 

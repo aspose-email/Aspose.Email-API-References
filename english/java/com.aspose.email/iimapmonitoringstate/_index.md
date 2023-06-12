@@ -3,7 +3,7 @@ title: IImapMonitoringState
 second_title: Aspose.Email for Java API Reference
 description: Holds folder monitoring state.
 type: docs
-weight: 744
+weight: 745
 url: /java/com.aspose.email/iimapmonitoringstate/
 ---
 ```

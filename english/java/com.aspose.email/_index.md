@@ -259,6 +259,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [FileFormatVersion](../com.aspose.email/fileformatversion) | Represents version of file. |
 | [FindMessageTrackingReportOptions](../com.aspose.email/findmessagetrackingreportoptions) | Represents options for FindMessageTrackingReport operation |
 | [FlaggedForAction](../com.aspose.email/flaggedforaction) | Enumerates flagged for action |
+| [FolderCreationOptions](../com.aspose.email/foldercreationoptions) | Represents the options for creating a subfolder in the Outlook PST message store. |
 | [FolderInfo](../com.aspose.email/folderinfo) | Represents information about personal folder in PST. |
 | [FolderInfoCollection](../com.aspose.email/folderinfocollection) | Represents collection of FolderInfo. |
 | [FolderKind](../com.aspose.email/folderkind) | Represents the different kinds of pst folders. |

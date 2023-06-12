@@ -3,7 +3,7 @@ title: MapiRecipientTrackStatus
 second_title: Aspose.Email for Java API Reference
 description: Represents the response status returned by the attendee.
 type: docs
-weight: 467
+weight: 468
 url: /java/com.aspose.email/mapirecipienttrackstatus/
 ---
 

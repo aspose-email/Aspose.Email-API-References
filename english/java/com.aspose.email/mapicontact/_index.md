@@ -3,7 +3,7 @@ title: MapiContact
 second_title: Aspose.Email for Java API Reference
 description: Represents outlook contact information
 type: docs
-weight: 415
+weight: 416
 url: /java/com.aspose.email/mapicontact/
 ---
 

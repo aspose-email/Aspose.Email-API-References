@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 514
+weight: 515
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -14,6 +14,19 @@ public class MhtSaveOptions extends HeadersFormattingOptions
 ```
 
 Allows to specify additional options when saving MailMessage to Mhtml format.
+
+--------------------
+
+> The following example shows how to save MailMessage as MHTML.
+> 
+> [Java]
+> 
+> ```
+> MailMessage eml = MailMessage.load("Message.eml");
+>  eml.save("target.mthml", SaveOptions.getDefaultMhtml());
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

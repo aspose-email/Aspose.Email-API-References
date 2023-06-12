@@ -3,7 +3,7 @@ title: FreebusyResponse
 second_title: Aspose.Email for Java API Reference
 description: Freebusy response
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.email/freebusyresponse/
 ---
 

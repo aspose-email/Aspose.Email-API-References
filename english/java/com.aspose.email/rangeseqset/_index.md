@@ -3,7 +3,7 @@ title: RangeSeqSet
 second_title: Aspose.Email for Java API Reference
 description: Container with range of values to search.
 type: docs
-weight: 585
+weight: 586
 url: /java/com.aspose.email/rangeseqset/
 ---
 

@@ -3,7 +3,7 @@ title: HttpProxy
 second_title: Aspose.Email for Java API Reference
 description: HTTP proxy client.
 type: docs
-weight: 296
+weight: 297
 url: /java/com.aspose.email/httpproxy/
 ---
 

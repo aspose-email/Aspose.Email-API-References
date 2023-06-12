@@ -3,7 +3,7 @@ title: InstantMessengerCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents category for an instant messenger address
 type: docs
-weight: 336
+weight: 337
 url: /java/com.aspose.email/instantmessengercategory/
 ---
 

@@ -3,7 +3,7 @@ title: Frequency
 second_title: Aspose.Email for Java API Reference
 description: Specifies frequency of the recurrence rule.
 type: docs
-weight: 269
+weight: 270
 url: /java/com.aspose.email/frequency/
 ---
 

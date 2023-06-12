@@ -3,7 +3,7 @@ title: NotebookCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents collection of Notebook.
 type: docs
-weight: 530
+weight: 531
 url: /java/com.aspose.email/notebookcollection/
 ---
 

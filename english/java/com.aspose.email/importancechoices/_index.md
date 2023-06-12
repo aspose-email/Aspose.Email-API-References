@@ -3,7 +3,7 @@ title: ImportanceChoices
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the levels of importance for an item
 type: docs
-weight: 332
+weight: 333
 url: /java/com.aspose.email/importancechoices/
 ---
 

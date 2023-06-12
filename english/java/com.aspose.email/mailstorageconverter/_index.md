@@ -3,7 +3,7 @@ title: MailStorageConverter
 second_title: Aspose.Email for Java API Reference
 description: Mail storage converter provides services for storage conversion operations.
 type: docs
-weight: 376
+weight: 377
 url: /java/com.aspose.email/mailstorageconverter/
 ---
 

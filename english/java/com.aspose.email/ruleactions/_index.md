@@ -3,7 +3,7 @@ title: RuleActions
 second_title: Aspose.Email for Java API Reference
 description: Represents the set of actions that are available to a rule.
 type: docs
-weight: 611
+weight: 612
 url: /java/com.aspose.email/ruleactions/
 ---
 

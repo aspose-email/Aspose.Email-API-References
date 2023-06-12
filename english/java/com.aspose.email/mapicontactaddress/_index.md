@@ -3,7 +3,7 @@ title: MapiContactAddress
 second_title: Aspose.Email for Java API Reference
 description: Base abstract class for   and .
 type: docs
-weight: 416
+weight: 417
 url: /java/com.aspose.email/mapicontactaddress/
 ---
 

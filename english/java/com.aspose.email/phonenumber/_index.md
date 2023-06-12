@@ -3,7 +3,7 @@ title: PhoneNumber
 second_title: Aspose.Email for Java API Reference
 description: Represents a phone number.
 type: docs
-weight: 560
+weight: 561
 url: /java/com.aspose.email/phonenumber/
 ---
 
