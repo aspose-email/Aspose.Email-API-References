@@ -88,6 +88,7 @@ Represents a calendar to an e-mail.
 | [getSummary()](#getSummary--) | Gets or sets the summary. |
 | [getTransparency()](#getTransparency--) | Specifies whether or not this appointment is intended to be visible in availability searches. |
 | [getUniqueId()](#getUniqueId--) | Gets or sets a string value that contains the GUID for the calendar item. |
+| [getVersion()](#getVersion--) | Gets the version of ICS/VCS file. |
 | [hashCode()](#hashCode--) |  |
 | [isDescriptionHtml()](#isDescriptionHtml--) | Gets or sets value which indicates if description is in HTML format |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Loads [Appointment](../../com.aspose.email/appointment) from the stream |
@@ -602,6 +603,16 @@ public final String getUniqueId()
 Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property.
 
 Value: The unique id.
+
+**Returns:**
+java.lang.String
+### getVersion() {#getVersion--}
+```
+public final String getVersion()
+```
+
+
+Gets the version of ICS/VCS file.
 
 **Returns:**
 java.lang.String

@@ -3,7 +3,7 @@ title: IntComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the integer search field.
 type: docs
-weight: 338
+weight: 339
 url: /java/com.aspose.email/intcomparisonfield/
 ---
 

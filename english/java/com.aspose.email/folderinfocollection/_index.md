@@ -3,7 +3,7 @@ title: FolderInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents collection of FolderInfo.
 type: docs
-weight: 255
+weight: 256
 url: /java/com.aspose.email/folderinfocollection/
 ---
 

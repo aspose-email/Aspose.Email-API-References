@@ -3,7 +3,7 @@ title: ResourceRenderingMode
 second_title: Aspose.Email for Java API Reference
 description: Provides set various modes of rendering resources in html.
 type: docs
-weight: 606
+weight: 607
 url: /java/com.aspose.email/resourcerenderingmode/
 ---
 

@@ -14,6 +14,27 @@ public class EmlLoadOptions extends LoadOptions
 ```
 
 Allows to specify additional options when loading MailMessage from Eml format.
+
+--------------------
+
+> The following example shows how to convert EML to MSG.
+> 
+> [Java]
+> 
+> ```
+> // Initialize EmlLoadOptions
+>  EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
+>  emlLoadOptions.setPreserveTnefAttachments(true);
+>  emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
+> 
+>  // Initialize MailMessage with EmlLoadOptions
+>  try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
+>  // Convert EML to MSG
+>  message.save("output.msg", SaveOptions.getDefaultMsg());
+>  }
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

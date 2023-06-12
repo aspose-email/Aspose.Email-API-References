@@ -3,7 +3,7 @@ title: NullAppender
 second_title: Aspose.Email for Java API Reference
 description: Represents a do-nothing appender.
 type: docs
-weight: 536
+weight: 537
 url: /java/com.aspose.email/nullappender/
 ---
 

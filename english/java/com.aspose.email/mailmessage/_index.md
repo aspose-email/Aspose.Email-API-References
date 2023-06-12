@@ -3,7 +3,7 @@ title: MailMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an e-mail message.
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.email/mailmessage/
 ---
 
@@ -17,6 +17,34 @@ public class MailMessage extends IPreferredTextEncodingProviderInternal implemen
 ```
 
 Represents an e-mail message. It allows to access message properties, ex. subject, body, sender and recipients addreses, etc. Also it can be sent and delivered by means of supported mail protocols.
+
+--------------------
+
+> The following example shows how to create a new Email Message and save with SaveOptions.
+> 
+> [Java]
+> 
+> ```
+> MailMessage message = new MailMessage();
+>  // Set subject of the message, Html body and sender information
+>  message.setSubject("New message created by Aspose.Email for .NET");
+>  message.setHtmlBody("<b>This line is in bold.</b> <br/> <br/>" +
+>      "<font color=blue>This line is in blue color</font>");
+>  message.setFrom(new MailAddress("from@domain.com", "Sender Name", false));
+> 
+>  // Add TO recipients and Add CC recipients
+>  message.getTo().addMailAddress(new MailAddress("to1@domain.com", "Recipient 1", false));
+>  message.getTo().addMailAddress(new MailAddress("to2@domain.com", "Recipient 2", false));
+>  message.getCC().addMailAddress(new MailAddress("cc1@domain.com", "Recipient 3", false));
+>  message.getCC().addMailAddress(new MailAddress("cc2@domain.com", "Recipient 4", false));
+> 
+>  // Save message to EML, EMLX, MSG and MHTML formats
+>  message.save("CreateNewMailMessage_out.eml", SaveOptions.getDefaultEml());
+>  message.save("CreateNewMailMessage_out.emlx",
+>  SaveOptions.createSaveOptions(MailMessageSaveType.getEmlxFormat()));
+>  message.save("CreateNewMailMessage_out.msg", SaveOptions.getDefaultMsgUnicode());
+>  message.save("CreateNewMailMessage_out.mhtml", SaveOptions.getDefaultMhtml());
+> ```
 ## Constructors
 
 | Constructor | Description |
@@ -33,7 +61,7 @@ Represents an e-mail message. It allows to access message properties, ex. subjec
 | [addAttachment(Attachment attachment)](#addAttachment-com.aspose.email.Attachment-) | Add an attachment to message |
 | [attachSignature(byte[] certificateRawData, String certificatePassword)](#attachSignature-byte---java.lang.String-) | Creates a signed message. |
 | [attachSignature(byte[] certificateRawData, String certificatePassword, boolean detached)](#attachSignature-byte---java.lang.String-boolean-) | Creates a signed message. |
-| [attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) |  |
+| [attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Creates a signed message. |
 | [attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached)](#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-boolean-) | Creates a signed message. |
 | [checkBounced()](#checkBounced--) | Checks whether this message can be treated as a bounce message. |
 | [checkSignature()](#checkSignature--) | Checking signature exsisting MailMessage. |
@@ -215,6 +243,35 @@ public void addAttachment(Attachment attachment)
 
 Add an attachment to message
 
+--------------------
+
+> The following example shows how to add Attachments to MailMessage.
+> 
+> [Java]
+> 
+> ```
+> // Create an instance of MailMessage class
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("sender@from.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("receiver@to.com"));
+>  eml.setSubject("This is message");
+>  eml.setBody("This is body");
+> 
+>  // Load an attachment
+>  Attachment attachment = new Attachment("1.txt");
+> 
+>  // Add Multiple Attachment in instance of MailMessage class and Save message to disk
+>  eml.getAttachments().addItem(attachment);
+> 
+>  eml.addAttachment(new Attachment("1.jpg"));
+>  eml.addAttachment(new Attachment("1.doc"));
+>  eml.addAttachment(new Attachment("1.rar"));
+>  eml.addAttachment(new Attachment("1.pdf"));
+>  eml.save("AddAttachments.eml");
+> ```
+
+--------------------
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -227,6 +284,20 @@ public MailMessage attachSignature(byte[] certificateRawData, String certificate
 
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+
+--------------------
+
+> The following example shows how to attach a Certificate with AttachSignature Method.
+> 
+> [Java]
+> 
+> ```
+> MailMessage msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE",
+>      "body:Test Body of signed message by AE");
+>  MailMessage signed = msg.attachSignature(certData, true);
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,15 +330,31 @@ public MailMessage attachSignature(System.Security.Cryptography.X509Certificates
 ```
 
 
+Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
+--------------------
+
+> The following example shows how to attach a Certificate with AttachSignature Method.
+> 
+> [Java]
+> 
+> ```
+> String privateCertFile = "MartinCertificate.pfx";
+>  X509Certificate2 privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
+>  MailMessage msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE",
+>      "body:Test Body of signed message by AE");
+>  MailMessage signed = msg.attachSignature(privateCert, true);
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 |  |
+| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
+[MailMessage](../../com.aspose.email/mailmessage) - The signed MailMessage.
 ### attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached) {#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-boolean-}
 ```
 public MailMessage attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached)
@@ -376,6 +463,30 @@ public MailMessage dKIMSign(System.Security.Cryptography.RSACryptoServiceProvide
 
 Signs this message using DKIM (DomainKeys Identified Mail) signature.
 
+--------------------
+
+> The following example shows how to sign Emails with DKIM.
+> 
+> [Java]
+> 
+> ```
+> String privateKeyFile = "key2.pem";
+> 
+>  RSACryptoServiceProvider rsa = PemReader.getPrivateKey(privateKeyFile);
+>  DKIMSignatureInfo signInfo = new DKIMSignatureInfo("test", "some_email.com");
+>  signInfo.getHeaders().addItem("From");
+> 
+>  signInfo.getHeaders().addItem("Subject");
+> 
+>  MailMessage mailMessage = new MailMessage("useremail@gmail.com", "test@gmail.com")
+>  mailMessage.setSubject("Signed DKIM message text body");
+>  mailMessage.setBody("This is a text body signed DKIM message");
+> 
+>  MailMessage signedMsg = mailMessage.dKIMSign(rsa, signInfo);
+> ```
+
+--------------------
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -455,6 +566,27 @@ public MailMessage encrypt(byte[] certificateRawData, String certificatePassword
 
 Encrypts this message
 
+--------------------
+
+> The following example shows how to encrypt Messages.
+> 
+> [Java]
+> 
+> ```
+> // Create a message
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("atneostthaecrcount@gmail.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("atneostthaecrcount@gmail.com"));
+>  eml.setSubject("Test subject");
+>  eml.setBody("Test Body");
+> 
+>  // Encrypt the message
+>  MailMessage encryptedEml = eml.encrypt(certData, certPass);
+>  System.out.println(encryptedEml.isEncrypted() ? "Its encrypted" : "Its NOT encrypted");
+> ```
+
+--------------------
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -485,6 +617,30 @@ public MailMessage encrypt(System.Security.Cryptography.X509Certificates.X509Cer
 
 
 Encrypts this message
+
+--------------------
+
+> The following example shows how to encrypt Messages.
+> 
+> [Java]
+> 
+> ```
+> String publicCertFile = "MartinCertificate.cer";
+>  X509Certificate2 publicCert = new X509Certificate2(publicCertFile);
+> 
+>  // Create a message
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("atneostthaecrcount@gmail.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("atneostthaecrcount@gmail.com"));
+>  eml.setSubject("Test subject");
+>  eml.setBody("Test Body");
+> 
+>  // Encrypt the message
+>  MailMessage encryptedEml = eml.encrypt(publicCert);
+>  System.out.println(encryptedEml.isEncrypted() ? "Its encrypted" : "Its NOT encrypted");
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -677,6 +833,25 @@ public String getHtmlBodyText(boolean showUrl)
 
 
 Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup.
+
+The following example shows how to get an email message\\ufffds HTML body as plain text.
+
+--------------------
+
+> The following example shows how to detect File Formats of Email Message.
+> 
+> [Java]
+> 
+> ```
+> MailMessage eml = MailMessage.load("HtmlWithUrlSample.eml");
+>  String bodyWithUrl = eml.getHtmlBodyText(true);// body will contain URL
+>  String bodyWithoutUrl = eml.getHtmlBodyText(false);// body will not contain URL
+> 
+>  System.out.println("Body with URL: " + bodyWithUrl);
+>  System.out.println("Body without URL: " + bodyWithoutUrl);
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1057,14 +1232,44 @@ public static MailMessage load(String fileName, LoadOptions options)
 
 Load message from file with additional options.
 
+--------------------
+
+> The following example shows how to load a Message with Load Options.
+> 
+> [Java]
+> 
+> ```
+> // Load Eml, html, mhtml, msg and dat file
+>  MailMessage.load("Message.eml", new EmlLoadOptions());
+>  MailMessage.load("description.html", new HtmlLoadOptions());
+>  MailMessage.load("Message.mhtml", new MhtmlLoadOptions());
+>  MailMessage.load("Message.msg", new MsgLoadOptions());
+> 
+>  // loading with custom options
+>  EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
+>  emlLoadOptions.setPreferredTextEncoding(Charset.forName("utf-8"));
+>  emlLoadOptions.setPreserveTnefAttachments(true);
+> 
+>  MailMessage.load("description.html", emlLoadOptions);
+> 
+>  HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+>  htmlLoadOptions.setPreferredTextEncoding(Charset.forName("utf-8"));
+>  htmlLoadOptions.shouldAddPlainTextView(true);
+>  htmlLoadOptions.setPathToResources(htmlImagesFolder);
+> 
+>  MailMessage.load("description.html", htmlLoadOptions);
+> ```
+
+--------------------
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Source file pathString. |
+| fileName | java.lang.String | Source file path String. |
 | options | [LoadOptions](../../com.aspose.email/loadoptions) | Additional options [LoadOptions](../../com.aspose.email/loadoptions). |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - Mail message[MailMessage](../../com.aspose.email/mailmessage).
+[MailMessage](../../com.aspose.email/mailmessage) - Mail message [MailMessage](../../com.aspose.email/mailmessage).
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1146,6 +1351,23 @@ public void save(String fileName, SaveOptions options)
 
 
 Save message as a file with additional options.
+
+--------------------
+
+> The following example shows how to save an email message as HTML with embedded images.
+> 
+> [Java]
+> 
+> ```
+> String fileName = "EmailWithAttachEmbedded.eml";
+>  MailMessage eml = MailMessage.load(fileName);
+> 
+>  HtmlSaveOptions options = new HtmlSaveOptions();
+>  options.setResourceRenderingMode(ResourceRenderingMode.EmbedIntoHtml);
+>  eml.save(fileName + ".html", options);
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -17,6 +17,28 @@ public class Attachment extends AttachmentBase implements IPreferredTextEncoding
 ```
 
 Represents an e-mail attachment.
+
+--------------------
+
+> The following example shows how to add and remove an Attachment from MailMessage.
+> 
+> [Java]
+> 
+> ```
+> // Create an instance of MailMessage class
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("sender@sender.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("receiver@gmail.com"));
+> 
+>  // Load an attachment
+>  Attachment attachment = new Attachment("1.txt");
+>  eml.getAttachments().addItem(attachment);
+> 
+>  // Remove attachment from your MailMessage
+>  eml.getAttachments().removeItem(attachment);
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: MapiCalendarClientIntent
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the actions the user can taken on the Meeting object
 type: docs
-weight: 390
+weight: 391
 url: /java/com.aspose.email/mapicalendarclientintent/
 ---
 

@@ -3,7 +3,7 @@ title: MapiMessageParseException
 second_title: Aspose.Email for Java API Reference
 description: This exception is thrown when errors occur in parsing MapiMessage.
 type: docs
-weight: 449
+weight: 450
 url: /java/com.aspose.email/mapimessageparseexception/
 ---
 

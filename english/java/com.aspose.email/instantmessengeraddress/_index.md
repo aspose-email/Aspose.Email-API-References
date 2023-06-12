@@ -3,7 +3,7 @@ title: InstantMessengerAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents an instant messanger address.
 type: docs
-weight: 335
+weight: 336
 url: /java/com.aspose.email/instantmessengeraddress/
 ---
 

@@ -3,7 +3,7 @@ title: MapiCalendarDailyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents the daily recurrence pattern of the mapi calendar
 type: docs
-weight: 391
+weight: 392
 url: /java/com.aspose.email/mapicalendardailyrecurrencepattern/
 ---
 

@@ -3,7 +3,7 @@ title: GraphFolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about personal folder.
 type: docs
-weight: 281
+weight: 282
 url: /java/com.aspose.email/graphfolderinfo/
 ---
 

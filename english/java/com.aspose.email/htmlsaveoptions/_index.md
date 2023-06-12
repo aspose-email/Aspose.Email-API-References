@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Html format.
 type: docs
-weight: 294
+weight: 295
 url: /java/com.aspose.email/htmlsaveoptions/
 ---
 

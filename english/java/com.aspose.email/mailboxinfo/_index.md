@@ -3,7 +3,7 @@ title: MailboxInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents identification information about message in a mailbox.
 type: docs
-weight: 380
+weight: 381
 url: /java/com.aspose.email/mailboxinfo/
 ---
 

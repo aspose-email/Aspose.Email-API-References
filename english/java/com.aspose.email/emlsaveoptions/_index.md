@@ -14,6 +14,22 @@ public class EmlSaveOptions extends SaveOptions
 ```
 
 Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+
+--------------------
+
+> The following example shows how to load and Save an EML message Preserving the embedded message format.
+> 
+> [Java]
+> 
+> ```
+> MailMessage mailMessage = MailMessage.load("source.eml");
+>  // Save as eml with preserved embedded message format
+>  EmlSaveOptions emlSaveOptions = new EmlSaveOptions(MailMessageSaveType.getEmlFormat())
+>  emlSaveOptions.setPreserveEmbeddedMessageFormat(true);
+>  mailMessage.save("target.eml", emlSaveOptions);
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

@@ -3,7 +3,7 @@ title: MapiCalendarMsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 398
+weight: 399
 url: /java/com.aspose.email/mapicalendarmsgsaveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: GoogleContactGroup
 second_title: Aspose.Email for Java API Reference
 description: Represents a group  which owns the contact
 type: docs
-weight: 279
+weight: 280
 url: /java/com.aspose.email/googlecontactgroup/
 ---
 

@@ -3,7 +3,7 @@ title: ImapListFields
 second_title: Aspose.Email for Java API Reference
 description: Fields that may be retrieved from the server
 type: docs
-weight: 312
+weight: 313
 url: /java/com.aspose.email/imaplistfields/
 ---
 

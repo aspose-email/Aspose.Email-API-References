@@ -3,7 +3,7 @@ title: ImapFolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an IMAP folder.
 type: docs
-weight: 307
+weight: 308
 url: /java/com.aspose.email/imapfolderinfo/
 ---
 

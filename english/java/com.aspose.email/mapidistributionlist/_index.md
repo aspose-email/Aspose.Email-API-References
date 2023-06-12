@@ -3,7 +3,7 @@ title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents the Personal Distribution List object.
 type: docs
-weight: 434
+weight: 435
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 

@@ -3,7 +3,7 @@ title: Pop3Exception
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when  the Pop3Client is not able to complete an operation.
 type: docs
-weight: 569
+weight: 570
 url: /java/com.aspose.email/pop3exception/
 ---
 

@@ -3,7 +3,7 @@ title: FormMethod
 second_title: Aspose.Email for Java API Reference
 description: The method tells the server about the request method.
 type: docs
-weight: 260
+weight: 261
 url: /java/com.aspose.email/formmethod/
 ---
 

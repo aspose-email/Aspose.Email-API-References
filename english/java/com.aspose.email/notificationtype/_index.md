@@ -3,7 +3,7 @@ title: NotificationType
 second_title: Aspose.Email for Java API Reference
 description: The type of notification.
 type: docs
-weight: 534
+weight: 535
 url: /java/com.aspose.email/notificationtype/
 ---
 

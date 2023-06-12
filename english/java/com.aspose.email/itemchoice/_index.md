@@ -3,7 +3,7 @@ title: ItemChoice
 second_title: Aspose.Email for Java API Reference
 description: Specifies property type which should be used for Exchange impersonation.
 type: docs
-weight: 340
+weight: 341
 url: /java/com.aspose.email/itemchoice/
 ---
 

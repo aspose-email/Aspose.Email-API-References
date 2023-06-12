@@ -3,7 +3,7 @@ title: IdentitySet
 second_title: Aspose.Email for Java API Reference
 description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources.
 type: docs
-weight: 301
+weight: 302
 url: /java/com.aspose.email/identityset/
 ---
 

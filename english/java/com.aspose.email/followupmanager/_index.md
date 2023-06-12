@@ -3,7 +3,7 @@ title: FollowUpManager
 second_title: Aspose.Email for Java API Reference
 description: Provides the ability to set and handle follow-up Outlook flags and categories.
 type: docs
-weight: 257
+weight: 258
 url: /java/com.aspose.email/followupmanager/
 ---
 

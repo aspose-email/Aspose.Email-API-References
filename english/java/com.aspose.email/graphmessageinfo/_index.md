@@ -3,7 +3,7 @@ title: GraphMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: The MessageInfo represents the server item info fetched from the Graph service.
 type: docs
-weight: 284
+weight: 285
 url: /java/com.aspose.email/graphmessageinfo/
 ---
 

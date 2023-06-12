@@ -3,7 +3,7 @@ title: FreebusyQuery
 second_title: Aspose.Email for Java API Reference
 description: Request free/busy information for a set of calendars.
 type: docs
-weight: 267
+weight: 268
 url: /java/com.aspose.email/freebusyquery/
 ---
 

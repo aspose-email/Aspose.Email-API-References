@@ -3,7 +3,7 @@ title: ImapMessageFlags
 second_title: Aspose.Email for Java API Reference
 description: Represents the flags associated with the message.
 type: docs
-weight: 314
+weight: 315
 url: /java/com.aspose.email/imapmessageflags/
 ---
 

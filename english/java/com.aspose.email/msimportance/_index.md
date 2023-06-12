@@ -3,7 +3,7 @@ title: MSImportance
 second_title: Aspose.Email for Java API Reference
 description: Specifies the importance of an appointment.
 type: docs
-weight: 362
+weight: 363
 url: /java/com.aspose.email/msimportance/
 ---
 
