@@ -3,7 +3,7 @@ title: Class RecipientCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.RecipientCollection class. Represents a colleciton of recipients for a mail message
 type: docs
-weight: 21030
+weight: 20790
 url: /net/aspose.email.windows.forms/recipientcollection/
 ---
 ## RecipientCollection class

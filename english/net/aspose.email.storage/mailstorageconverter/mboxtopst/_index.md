@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.email.storage/mailstorageconverter/mboxtopst/
 ---
-## MboxToPst(string, string) {#mboxtopst_6}
+## MboxToPst(string, string) {#mboxtopst_7}
 
 Converts an Mbox storage to PST.
 
@@ -43,7 +43,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MboxToPst(string, string, MailHandler) {#mboxtopst_7}
+## MboxToPst(string, string, MailHandler) {#mboxtopst_9}
 
 Converts an Mbox storage to PST.
 
@@ -83,7 +83,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MboxToPst(Stream, string) {#mboxtopst_2}
+## MboxToPst(Stream, string) {#mboxtopst_3}
 
 Converts an Mbox storage to PST.
 
@@ -120,7 +120,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MboxToPst(Stream, string, MailHandler) {#mboxtopst_3}
+## MboxToPst(Stream, string, MailHandler) {#mboxtopst_4}
 
 Converts an Mbox storage to PST.
 
@@ -160,7 +160,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MboxToPst(string, Stream) {#mboxtopst_4}
+## MboxToPst(string, Stream) {#mboxtopst_5}
 
 Converts an Mbox storage to PST.
 
@@ -197,7 +197,7 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 ---
 
-## MboxToPst(string, Stream, MailHandler) {#mboxtopst_5}
+## MboxToPst(string, Stream, MailHandler) {#mboxtopst_6}
 
 Converts an Mbox storage to PST.
 
@@ -270,7 +270,7 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object
 
 ---
 
-## MboxToPst(Stream, Stream, MailHandler) {#mboxtopst_1}
+## MboxToPst(Stream, Stream, MailHandler) {#mboxtopst_2}
 
 Converts an Mbox storage to PST.
 
@@ -306,7 +306,7 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object
 
 ---
 
-## MboxToPst(MboxStorageReader, PersonalStorage, string, MailHandler) {#mboxtopst_8}
+## MboxToPst(MboxStorageReader, PersonalStorage, string, MailHandler) {#mboxtopst_11}
 
 Converts an Mbox storage to PST.
 
@@ -338,6 +338,83 @@ A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) object
 * class [MboxStorageReader](../../../aspose.email.storage.mbox/mboxstoragereader/)
 * class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
 * delegate [MailHandler](../../mailstorageconverter.mailhandler/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MboxToPst(string, string, MboxToPstConversionOptions) {#mboxtopst_8}
+
+Converts an Mbox storage to PST.
+
+```csharp
+public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName, 
+    MboxToPstConversionOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxFileName | String | Mbox file name. |
+| pstFileName | String | PST file name. |
+| options | MboxToPstConversionOptions | An [`MboxToPstConversionOptions`](../../mboxtopstconversionoptions/) additional options when converting from Mbox to PST |
+
+### See Also
+
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MboxToPstConversionOptions](../../mboxtopstconversionoptions/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MboxToPst(Stream, Stream, MboxToPstConversionOptions) {#mboxtopst_1}
+
+Converts an Mbox storage to PST.
+
+```csharp
+public static PersonalStorage MboxToPst(Stream mboxrdDataStream, Stream pstDataStream, 
+    MboxToPstConversionOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxrdDataStream | Stream | A Stream that represents data in Mbox format. |
+| pstDataStream | Stream | A Stream that represents data in Pst format. |
+| options | MboxToPstConversionOptions | An [`MboxToPstConversionOptions`](../../mboxtopstconversionoptions/) additional options when converting from Mbox to PST |
+
+### See Also
+
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MboxToPstConversionOptions](../../mboxtopstconversionoptions/)
+* class [MailStorageConverter](../)
+* namespace [Aspose.Email.Storage](../../mailstorageconverter/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## MboxToPst(MboxStorageReader, PersonalStorage, string, MboxToPstConversionOptions) {#mboxtopst_10}
+
+Converts an Mbox storage to PST.
+
+```csharp
+public static void MboxToPst(MboxStorageReader mboxStorageReader, PersonalStorage pst, 
+    string pstFolderName, MboxToPstConversionOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxStorageReader | MboxStorageReader | An [`MboxStorageReader`](../../../aspose.email.storage.mbox/mboxstoragereader/) that represents an mbox-based mail storage reader. |
+| pst | PersonalStorage | A [`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage/) that represents a pst storage. |
+| pstFolderName | String | The folder name, at the root of the pst, where Mbox messages will be added. If this folder doesn't exist, it will be created. If the folder exists and isn't empty, new messages will be added to the existing ones. |
+| options | MboxToPstConversionOptions | An [`MboxToPstConversionOptions`](../../mboxtopstconversionoptions/) additional options when converting from Mbox to PST |
+
+### See Also
+
+* class [MboxStorageReader](../../../aspose.email.storage.mbox/mboxstoragereader/)
+* class [PersonalStorage](../../../aspose.email.storage.pst/personalstorage/)
+* class [MboxToPstConversionOptions](../../mboxtopstconversionoptions/)
 * class [MailStorageConverter](../)
 * namespace [Aspose.Email.Storage](../../mailstorageconverter/)
 * assembly [Aspose.Email](../../../)

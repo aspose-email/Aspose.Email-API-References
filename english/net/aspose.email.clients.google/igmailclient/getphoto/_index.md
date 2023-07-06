@@ -24,7 +24,6 @@ Returns a contact photo
 
 ### See Also
 
-* class [ContactPhoto](../../../aspose.email.personalinfo/contactphoto/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)
@@ -49,7 +48,6 @@ Returns a contact photo
 
 ### See Also
 
-* class [ContactPhoto](../../../aspose.email.personalinfo/contactphoto/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)

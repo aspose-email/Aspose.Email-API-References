@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/getcategories/
 Get the available message categories.
 
 ```csharp
-public static IList<string> GetCategories(MapiMessage message)
+public static IList<string> GetCategories(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which the categories are added. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories are added. |
 
 ### Return Value
 
@@ -30,7 +30,7 @@ The list of added categories.
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

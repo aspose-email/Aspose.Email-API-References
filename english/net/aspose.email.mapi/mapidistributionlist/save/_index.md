@@ -3,7 +3,7 @@ title: MapiDistributionList.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiDistributionList method. Saves the specified file name
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.mapi/mapidistributionlist/save/
 ---
 ## Save(string) {#save_1}

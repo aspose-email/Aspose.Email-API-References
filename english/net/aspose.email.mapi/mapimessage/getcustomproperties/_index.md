@@ -3,7 +3,7 @@ title: MapiMessage.GetCustomProperties
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Gets collection of custom MapiProperties
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.email.mapi/mapimessage/getcustomproperties/
 ---
 ## MapiMessage.GetCustomProperties method

@@ -3,7 +3,7 @@ title: MapiMessage.IsMsgFormat
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Determines whether the specified file has a MSG format
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.email.mapi/mapimessage/ismsgformat/
 ---
 ## IsMsgFormat(string) {#ismsgformat_1}

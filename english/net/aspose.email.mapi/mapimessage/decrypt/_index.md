@@ -3,7 +3,7 @@ title: MapiMessage.Decrypt
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Decrypts this message
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email.mapi/mapimessage/decrypt/
 ---
 ## Decrypt() {#decrypt}

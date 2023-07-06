@@ -28,6 +28,7 @@ public class HtmlLoadOptions : LoadOptions
 | [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources/) { get; set; } | Path to directory with resources files. |
 | [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
 | [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. By default the value is false. |
+| [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether signature will be removed while loading. |
 | [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview/) { get; set; } | Specifies whether to add a text representation of the body or not. Default value is false. |
 
 ### See Also

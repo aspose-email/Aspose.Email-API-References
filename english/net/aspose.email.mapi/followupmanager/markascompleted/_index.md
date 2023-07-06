@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/markascompleted/
 Marks the flagged message as completed.
 
 ```csharp
-public static void MarkAsCompleted(MapiMessage message)
+public static void MarkAsCompleted(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag is set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag is set. |
 
 ### Exceptions
 
@@ -26,7 +26,7 @@ public static void MarkAsCompleted(MapiMessage message)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

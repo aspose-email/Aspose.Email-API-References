@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/clearcategories/
 Clears the categories.
 
 ```csharp
-public static void ClearCategories(MapiMessage message)
+public static void ClearCategories(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which the categories will be cleared. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories will be cleared. |
 
 ### Exceptions
 
@@ -26,7 +26,7 @@ public static void ClearCategories(MapiMessage message)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

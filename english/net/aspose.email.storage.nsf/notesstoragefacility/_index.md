@@ -3,7 +3,7 @@ title: Class NotesStorageFacility
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Nsf.NotesStorageFacility class. The Notes Storage Facility NSF database file is used by IBM Lotus Notes and Domino to store different kind of objects like email appointments and documents but also application forms and views
 type: docs
-weight: 20130
+weight: 19890
 url: /net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 ## NotesStorageFacility class

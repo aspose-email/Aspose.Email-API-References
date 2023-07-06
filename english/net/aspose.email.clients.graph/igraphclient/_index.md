@@ -65,6 +65,7 @@ public interface IGraphClient : IDisposable
 | [Send](../../aspose.email.clients.graph/igraphclient/send/#send)(MapiMessage) | Sends email message |
 | [Send](../../aspose.email.clients.graph/igraphclient/send/#send_2)(string) | Send a message in the draft folder. The draft message can be a new message draft, reply draft, reply-all draft, or a forward draft. The message is then saved in the Sent Items folder. |
 | [Send](../../aspose.email.clients.graph/igraphclient/send/#send_1)(MapiMessage, bool) | Sends email message |
+| [SendAsMime](../../aspose.email.clients.graph/igraphclient/sendasmime/)(MapiMessage) | Sends email message using MIME format |
 | [SetRead](../../aspose.email.clients.graph/igraphclient/setread/)(string) | Mark message as read |
 | [UpdateCategory](../../aspose.email.clients.graph/igraphclient/updatecategory/)(OutlookCategory) | Updates pre-set color constant for specified category |
 | [UpdateFolder](../../aspose.email.clients.graph/igraphclient/updatefolder/)(FolderInfo) | Updates folder. |

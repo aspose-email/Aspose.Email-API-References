@@ -41,7 +41,6 @@ public void UpdateContact(Contact contact)
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)

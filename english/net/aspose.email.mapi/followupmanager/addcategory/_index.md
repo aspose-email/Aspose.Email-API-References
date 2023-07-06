@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/addcategory/
 Adds the category for a message.
 
 ```csharp
-public static void AddCategory(MapiMessage message, string categoryName)
+public static void AddCategory(MapiMessageItemBase message, string categoryName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a category will be added. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a category will be added. |
 | categoryName | String | Category name. |
 
 ### Exceptions
@@ -28,7 +28,7 @@ public static void AddCategory(MapiMessage message, string categoryName)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

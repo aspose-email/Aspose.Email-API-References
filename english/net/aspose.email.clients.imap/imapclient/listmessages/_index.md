@@ -6,6 +6,39 @@ type: docs
 weight: 880
 url: /net/aspose.email.clients.imap/imapclient/listmessages/
 ---
+## ListMessages(string, ImapListFields, int) {#listmessages_21}
+
+Lists the messages. Gets an information for earch message
+
+```csharp
+public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve messages. |
+| fieldsList | ImapListFields | Fields that may be retrieved from the server. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+ImapMessageInfoCollection
+
+## Remarks
+
+Note that messages marked as deleted are not listed
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* enum [ImapListFields](../../imaplistfields/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListMessages(IConnection, string, ImapListFields, int) {#listmessages_8}
 
 Lists the messages. Gets an information for earch message
@@ -738,39 +771,6 @@ Collection of [`ImapMessageInfo`](../../imapmessageinfo/) representing the messa
 ### See Also
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessages(string, ImapListFields, int) {#listmessages_21}
-
-Lists the messages. Gets an information for earch message
-
-```csharp
-public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Folder to retrieve messages. |
-| fieldsList | ImapListFields | Fields that may be retrieved from the server. |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-ImapMessageInfoCollection
-
-## Remarks
-
-Note that messages marked as deleted are not listed
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* enum [ImapListFields](../../imaplistfields/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

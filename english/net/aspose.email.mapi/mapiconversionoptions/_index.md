@@ -33,7 +33,7 @@ public class MapiConversionOptions
 | [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve EML format of embedded message at converting to MapiMessage. By default the value is false. |
 | [PreserveOriginalAddresses](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaladdresses/) { get; set; } | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [PreserveOriginalDates](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaldates/) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature/) { get; set; } | Set to true, if signature is to be preserved. |
+| [RemoveSignature](../../aspose.email.mapi/mapiconversionoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether signature will be removed while converting. |
 | [UseBodyCompression](../../aspose.email.mapi/mapiconversionoptions/usebodycompression/) { get; set; } | Set to true, if need RTF body compression. |
 
 ### See Also

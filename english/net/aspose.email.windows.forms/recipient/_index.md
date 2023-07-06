@@ -3,7 +3,7 @@ title: Class Recipient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.Recipient class. Represents a Recipient for a MapiMailMessage
 type: docs
-weight: 21020
+weight: 20780
 url: /net/aspose.email.windows.forms/recipient/
 ---
 ## Recipient class

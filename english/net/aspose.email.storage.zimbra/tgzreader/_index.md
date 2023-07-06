@@ -3,7 +3,7 @@ title: Class TgzReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Zimbra.TgzReader class. The mailbox items reader of Zimbra tgz storage
 type: docs
-weight: 20440
+weight: 20200
 url: /net/aspose.email.storage.zimbra/tgzreader/
 ---
 ## TgzReader class

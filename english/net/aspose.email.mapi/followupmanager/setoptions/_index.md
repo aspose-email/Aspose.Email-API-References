@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/setoptions/
 Sets the additional follow-up options for a message.
 
 ```csharp
-public static void SetOptions(MapiMessage message, FollowUpOptions options)
+public static void SetOptions(MapiMessageItemBase message, FollowUpOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag will be set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
 | options | FollowUpOptions | The [`FollowUpOptions`](../../followupoptions/) that represents options for using follow-up flags and reminders. |
 
 ### Exceptions
@@ -28,7 +28,7 @@ public static void SetOptions(MapiMessage message, FollowUpOptions options)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpOptions](../../followupoptions/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)

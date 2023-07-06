@@ -20,7 +20,6 @@ public void LoadContactPhoto(ContactPhoto photo)
 
 ### See Also
 
-* class [ContactPhoto](../../../aspose.email.personalinfo/contactphoto/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: Class VCardSound
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardSound class. Represents a vCard sound property
 type: docs
-weight: 19790
+weight: 19520
 url: /net/aspose.email.personalinfo.vcard/vcardsound/
 ---
 ## VCardSound class

@@ -68,6 +68,7 @@ public sealed class MapiNote : MapiMessageItemBase
 | [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of the property specified by tag as Short type. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the string value of the property specified by tag. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the string value of the property specified by tag. |
+| [GetUnderlyingMessage](../../aspose.email.mapi/mapinote/getunderlyingmessage/)() | Retrieves the underlying MapiMessage object. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Provides correctly removing property from all collections. |
 | [Save](../../aspose.email.mapi/mapinote/save/#save)(Stream, NoteSaveFormat) | Saves this `MapiNote` to the given stream using specified format. |

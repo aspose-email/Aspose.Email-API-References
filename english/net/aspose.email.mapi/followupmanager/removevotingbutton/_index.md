@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/removevotingbutton/
 Removes the voting button.
 
 ```csharp
-public static void RemoveVotingButton(MapiMessage message, string displayName)
+public static void RemoveVotingButton(MapiMessageItemBase message, string displayName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which the voting button is removed. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the voting button is removed. |
 | displayName | String | The display name of button. |
 
 ### Exceptions
@@ -28,7 +28,7 @@ public static void RemoveVotingButton(MapiMessage message, string displayName)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

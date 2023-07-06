@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/getoptions/
 Gets the follow-up options of a message.
 
 ```csharp
-public static FollowUpOptions GetOptions(MapiMessage message)
+public static FollowUpOptions GetOptions(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which options is set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which options is set. |
 
 ### Return Value
 
@@ -31,7 +31,7 @@ The [`FollowUpOptions`](../../followupoptions/) that represents options for usin
 ### See Also
 
 * class [FollowUpOptions](../../followupoptions/)
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

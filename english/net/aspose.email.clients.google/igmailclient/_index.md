@@ -37,7 +37,7 @@ public interface IGmailClient : IBaseGmailClient
 | [GetAllContacts](../../aspose.email.clients.google/igmailclient/getallcontacts/)() | Fetches all contacts. |
 | [GetAllGroups](../../aspose.email.clients.google/igmailclient/getallgroups/)() | Fetches all contact groups. |
 | [GetColors](../../aspose.email.clients.google/igmailclient/getcolors/)() | Gets color information |
-| [GetContact](../../aspose.email.clients.google/igmailclient/getcontact/#getcontact)(Contact) | Contact to refresh[`Contact`](../../aspose.email.personalinfo/contact/) object, that represents a contact of gmail when operation fails |
+| [GetContact](../../aspose.email.clients.google/igmailclient/getcontact/#getcontact)(Contact) | Contact to refreshContact object, that represents a contact of gmail when operation fails |
 | [GetContact](../../aspose.email.clients.google/igmailclient/getcontact/#getcontact_1)(string) | Fetches contact |
 | [GetContactsFromGroup](../../aspose.email.clients.google/igmailclient/getcontactsfromgroup/)(string) | Fetches contacts belonging to the group specified. |
 | [GetFreebusyInfo](../../aspose.email.clients.google/igmailclient/getfreebusyinfo/)(FreebusyQuery) | Gets free/busy information |

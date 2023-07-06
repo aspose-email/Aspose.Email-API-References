@@ -3,7 +3,7 @@ title: Enum PrintFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Printing.PrintFormat enum. Descibes possible printing formats for MailPrinter
 type: docs
-weight: 19930
+weight: 19660
 url: /net/aspose.email.printing/printformat/
 ---
 ## PrintFormat enumeration

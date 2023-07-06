@@ -94,6 +94,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | [AddCustomProperty](../../aspose.email.mapi/mapimessage/addcustomproperty/#addcustomproperty)(MapiProperty, string) | Adds the custom property. |
 | [AddCustomProperty](../../aspose.email.mapi/mapimessage/addcustomproperty/#addcustomproperty_1)(MapiPropertyType, byte[], string) | Adds the custom property. |
 | [CheckBounced](../../aspose.email.mapi/mapimessage/checkbounced/)() | Checks whether this message can be treated as a bounce message. |
+| [CheckSignature](../../aspose.email.mapi/mapimessage/checksignature/)() | Checking signature exsisting MapiMessage. |
 | [Clone](../../aspose.email.mapi/mapimessage/clone/)() | Creates a new object that is a copy of the current instance. |
 | [Decrypt](../../aspose.email.mapi/mapimessage/decrypt/#decrypt)() | Decrypts this message |
 | [Decrypt](../../aspose.email.mapi/mapimessage/decrypt/#decrypt_1)(X509Certificate2) | Decrypts this message |

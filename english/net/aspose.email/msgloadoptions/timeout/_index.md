@@ -3,7 +3,7 @@ title: MsgLoadOptions.Timeout
 second_title: Aspose.Email for .NET API Reference
 description: MsgLoadOptions property. Limits the time in milliseconds of formatting message while converting. Default value 3 sec
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.email/msgloadoptions/timeout/
 ---
 ## MsgLoadOptions.Timeout property

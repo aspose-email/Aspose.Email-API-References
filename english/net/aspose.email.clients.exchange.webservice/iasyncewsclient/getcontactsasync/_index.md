@@ -24,11 +24,10 @@ public Task<Contact[]> GetContactsAsync(string folder,
 
 ### Return Value
 
-An array of read [`Contact`](../../../aspose.email.personalinfo/contact/) that represents contact information
+An array of read Contact that represents contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * enum [ExchangeListContactsOptions](../../exchangelistcontactsoptions/)
 * interface [IAsyncEwsClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iasyncewsclient/)

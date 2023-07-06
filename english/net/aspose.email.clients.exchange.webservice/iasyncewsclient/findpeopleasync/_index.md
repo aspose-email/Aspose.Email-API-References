@@ -20,11 +20,10 @@ public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 
 ### Return Value
 
-An array of [`Contact`](../../../aspose.email.personalinfo/contact/) that represents contact information
+An array of Contact that represents contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [EwsFindPeople](../../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/)
 * interface [IAsyncEwsClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iasyncewsclient/)

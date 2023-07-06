@@ -3,7 +3,7 @@ title: Aspose.Email.Windows.WPF
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Windows.WPF namespace contains classes that provide ability to handle files dragged from Outlook
 type: docs
-weight: 490
+weight: 480
 url: /net/aspose.email.windows.wpf/
 ---
 The **Aspose.Email.Windows.WPF** namespace contains classes that provide ability to handle files dragged from Outlook.
