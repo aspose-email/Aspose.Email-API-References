@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Personal Storage Table .pst file.
 type: docs
-weight: 557
+weight: 558
 url: /java/com.aspose.email/personalstorage/
 ---
 

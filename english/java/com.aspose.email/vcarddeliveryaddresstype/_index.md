@@ -3,7 +3,7 @@ title: VCardDeliveryAddressType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates a vCard delivery address types
 type: docs
-weight: 699
+weight: 702
 url: /java/com.aspose.email/vcarddeliveryaddresstype/
 ---
 

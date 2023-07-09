@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for Java API Reference
 description: Represents a standard interpersonal message IPM folders.
 type: docs
-weight: 652
+weight: 655
 url: /java/com.aspose.email/standardipmfolder/
 ---
 

@@ -3,7 +3,7 @@ title: SyncFolderType
 second_title: Aspose.Email for Java API Reference
 description: Folder synchronization types
 type: docs
-weight: 657
+weight: 660
 url: /java/com.aspose.email/syncfoldertype/
 ---
 

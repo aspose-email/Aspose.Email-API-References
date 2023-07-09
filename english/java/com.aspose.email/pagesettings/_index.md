@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.ListMessagesByPage method
 type: docs
-weight: 553
+weight: 554
 url: /java/com.aspose.email/pagesettings/
 ---
 

@@ -3,7 +3,7 @@ title: OAuthNetworkCredential
 second_title: Aspose.Email for Java API Reference
 description: Represents the NetworkCredential for OAuth authentication.
 type: docs
-weight: 538
+weight: 539
 url: /java/com.aspose.email/oauthnetworkcredential/
 ---
 

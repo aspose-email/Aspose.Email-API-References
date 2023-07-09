@@ -35,6 +35,7 @@ List of email addresses for a contact
 | [copyToTArray(EmailAddress[] array, int index)](#copyToTArray-com.aspose.email.EmailAddress---int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getEmail()](#getEmail--) | Default email3 address. |
 | [getEmail1()](#getEmail1--) | Default email1 address. |
 | [getEmail2()](#getEmail2--) | Default email2 address. |
 | [getEmail3()](#getEmail3--) | Default email3 address. |
@@ -55,6 +56,7 @@ List of email addresses for a contact
 | [remove(EmailAddress value)](#remove-com.aspose.email.EmailAddress-) | Removes the first occurrence of a specific object from the list. |
 | [removeAt(int index)](#removeAt-int-) | Removes the list item at the specified index. |
 | [removeItem(EmailAddress value)](#removeItem-com.aspose.email.EmailAddress-) |  |
+| [setEmail(EmailAddress value)](#setEmail-com.aspose.email.EmailAddress-) | Default email3 address. |
 | [setEmail1(EmailAddress value)](#setEmail1-com.aspose.email.EmailAddress-) | Default email1 address. |
 | [setEmail2(EmailAddress value)](#setEmail2-com.aspose.email.EmailAddress-) | Default email2 address. |
 | [setEmail3(EmailAddress value)](#setEmail3-com.aspose.email.EmailAddress-) | Default email3 address. |
@@ -190,6 +192,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getEmail() {#getEmail--}
+```
+public final EmailAddress getEmail()
+```
+
+
+Default email3 address.
+
+**Returns:**
+[EmailAddress](../../com.aspose.email/emailaddress)
 ### getEmail1() {#getEmail1--}
 ```
 public final EmailAddress getEmail1()
@@ -427,6 +439,19 @@ public boolean removeItem(EmailAddress value)
 
 **Returns:**
 boolean
+### setEmail(EmailAddress value) {#setEmail-com.aspose.email.EmailAddress-}
+```
+public final void setEmail(EmailAddress value)
+```
+
+
+Default email3 address.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [EmailAddress](../../com.aspose.email/emailaddress) |  |
+
 ### setEmail1(EmailAddress value) {#setEmail1-com.aspose.email.EmailAddress-}
 ```
 public final void setEmail1(EmailAddress value)

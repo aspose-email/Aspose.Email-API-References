@@ -82,6 +82,7 @@ Represents the Outlook Task object.
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
+| [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
 | [getUsers()](#getUsers--) | Gets or sets information about task users. |
 | [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
@@ -855,6 +856,16 @@ Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
 
 **Returns:**
 int
+### getUnderlyingMessage() {#getUnderlyingMessage--}
+```
+public final MapiMessage getUnderlyingMessage()
+```
+
+
+Retrieves the underlying MapiMessage object.
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### getUsers() {#getUsers--}
 ```
 public final MapiTaskUsers getUsers()

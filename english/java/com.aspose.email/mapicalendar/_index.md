@@ -79,6 +79,7 @@ Represents the mapi calendar object
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getUid()](#getUid--) | Gets the unique identifier |
+| [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
 | [hashCode()](#hashCode--) |  |
 | [isAllDay()](#isAllDay--) | Gets or sets a value indicating whether the event is an all-day event |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
@@ -823,6 +824,16 @@ Gets the unique identifier
 
 **Returns:**
 java.lang.String
+### getUnderlyingMessage() {#getUnderlyingMessage--}
+```
+public final MapiMessage getUnderlyingMessage()
+```
+
+
+Retrieves the underlying MapiMessage object.
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -3,7 +3,7 @@ title: BindIPEndPointHandler
 second_title: Aspose.Email for Java API Reference
 description: Use the BindIPEndPointHandler if you need to use a specific local endpoint.
 type: docs
-weight: 731
+weight: 734
 url: /java/com.aspose.email/bindipendpointhandler/
 ---
 ```

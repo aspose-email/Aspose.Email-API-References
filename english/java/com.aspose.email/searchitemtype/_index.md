@@ -3,7 +3,7 @@ title: SearchItemType
 second_title: Aspose.Email for Java API Reference
 description: Provides the item type values to limit search results to only a specific type of item.
 type: docs
-weight: 620
+weight: 621
 url: /java/com.aspose.email/searchitemtype/
 ---
 

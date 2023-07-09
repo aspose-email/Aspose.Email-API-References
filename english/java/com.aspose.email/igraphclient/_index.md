@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange REST client.
 type: docs
-weight: 744
+weight: 747
 url: /java/com.aspose.email/igraphclient/
 ---
 
@@ -63,6 +63,7 @@ Represents the interface for Exchange REST client.
 | [send(MapiMessage message)](#send-com.aspose.email.MapiMessage-) | Sends email message |
 | [send(MapiMessage message, boolean saveToSentItems)](#send-com.aspose.email.MapiMessage-boolean-) | Sends email message |
 | [send(String itemId)](#send-java.lang.String-) | Send a message in the draft folder. |
+| [sendAsMime(MapiMessage message)](#sendAsMime-com.aspose.email.MapiMessage-) | Sends email message using MIME format |
 | [setEndpoint(String value)](#setEndpoint-java.lang.String-) | Gets or sets Endpoint URL. |
 | [setMultipleServicesTokenProvider(IMultipleServicesTokenProvider value)](#setMultipleServicesTokenProvider-com.aspose.email.IMultipleServicesTokenProvider-) | Gets or sets an object allows to retrieve OAuth access token. |
 | [setRead(String itemId)](#setRead-java.lang.String-) | Mark message as read. |
@@ -680,6 +681,19 @@ Send a message in the draft folder. The draft message can be a new message draft
 | Parameter | Type | Description |
 | --- | --- | --- |
 | itemId | java.lang.String | Item id of the draft message |
+
+### sendAsMime(MapiMessage message) {#sendAsMime-com.aspose.email.MapiMessage-}
+```
+public abstract void sendAsMime(MapiMessage message)
+```
+
+
+Sends email message using MIME format
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | [MapiMessage](../../com.aspose.email/mapimessage) | Mapi message to send |
 
 ### setEndpoint(String value) {#setEndpoint-java.lang.String-}
 ```

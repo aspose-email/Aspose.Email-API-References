@@ -3,7 +3,7 @@ title: MessageAcceptanceCallback
 second_title: Aspose.Email for Java API Reference
 description: Callback function which is being called during the conversion process.
 type: docs
-weight: 490
+weight: 491
 url: /java/com.aspose.email/messageacceptancecallback/
 ---
 
