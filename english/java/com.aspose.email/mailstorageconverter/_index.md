@@ -28,8 +28,13 @@ Mail storage converter provides services for storage conversion operations.
 | [getMboxMessageOptions()](#getMboxMessageOptions--) | Gets or sets email load options when parsing an Mbox storage. |
 | [hashCode()](#hashCode--) |  |
 | [mboxToPst(MboxStorageReader mboxStorageReader, PersonalStorage pst, String pstFolderName, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-com.aspose.email.MboxStorageReader-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MailStorageConverter.MailHandler-) | Converts an Mbox storage to PST. |
+| [mboxToPst(MboxStorageReader mboxStorageReader, PersonalStorage pst, String pstFolderName, MboxToPstConversionOptions options)](#mboxToPst-com.aspose.email.MboxStorageReader-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MboxToPstConversionOptions-) | Converts an Mbox storage to PST. |
+| [mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream)](#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-) |  |
+| [mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-com.aspose.email.MailStorageConverter.MailHandler-) |  |
+| [mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MboxToPstConversionOptions options)](#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxToPstConversionOptions-) |  |
 | [mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream)](#mboxToPst-java.io.InputStream-java.io.OutputStream-) | Converts an Mbox storage to PST. |
 | [mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-java.io.InputStream-java.io.OutputStream-com.aspose.email.MailStorageConverter.MailHandler-) | Converts an Mbox storage to PST. |
+| [mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream, MboxToPstConversionOptions options)](#mboxToPst-java.io.InputStream-java.io.OutputStream-com.aspose.email.MboxToPstConversionOptions-) | Converts an Mbox storage to PST. |
 | [mboxToPst(InputStream mboxrdDataStream, String pstFileName)](#mboxToPst-java.io.InputStream-java.lang.String-) | Converts an Mbox storage to PST. |
 | [mboxToPst(InputStream mboxrdDataStream, String pstFileName, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-java.io.InputStream-java.lang.String-com.aspose.email.MailStorageConverter.MailHandler-) | Converts an Mbox storage to PST. |
 | [mboxToPst(String mboxFileName, System.IO.Stream pstDataStream)](#mboxToPst-java.lang.String-com.aspose.ms.System.IO.Stream-) | Converts an Mbox storage to PST. |
@@ -38,6 +43,7 @@ Mail storage converter provides services for storage conversion operations.
 | [mboxToPst(String mboxFileName, OutputStream pstDataStream, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-java.lang.String-java.io.OutputStream-com.aspose.email.MailStorageConverter.MailHandler-) | Converts an Mbox storage to PST. |
 | [mboxToPst(String mboxFileName, String pstFileName)](#mboxToPst-java.lang.String-java.lang.String-) | Converts an Mbox storage to PST. |
 | [mboxToPst(String mboxFileName, String pstFileName, MailStorageConverter.MailHandler mailHandler)](#mboxToPst-java.lang.String-java.lang.String-com.aspose.email.MailStorageConverter.MailHandler-) | Converts an Mbox storage to PST. |
+| [mboxToPst(String mboxFileName, String pstFileName, MboxToPstConversionOptions options)](#mboxToPst-java.lang.String-java.lang.String-com.aspose.email.MboxToPstConversionOptions-) | Converts an Mbox storage to PST. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setMboxMessageOptions(EmlLoadOptions value)](#setMboxMessageOptions-com.aspose.email.EmlLoadOptions-) | Gets or sets email load options when parsing an Mbox storage. |
@@ -114,6 +120,72 @@ Converts an Mbox storage to PST.
 | pstFolderName | java.lang.String | The folder name, at the root of the pst, where Mbox messages will be added. If this folder doesn't exist, it will be created. If the folder exists and isn't empty, new messages will be added to the existing ones. |
 | mailHandler | [MailHandler](../../com.aspose.email/mailhandler) | The [MailHandler](../../com.aspose.email/mailhandler) delegate is called for each message that is read from Mbox. |
 
+### mboxToPst(MboxStorageReader mboxStorageReader, PersonalStorage pst, String pstFolderName, MboxToPstConversionOptions options) {#mboxToPst-com.aspose.email.MboxStorageReader-com.aspose.email.PersonalStorage-java.lang.String-com.aspose.email.MboxToPstConversionOptions-}
+```
+public static void mboxToPst(MboxStorageReader mboxStorageReader, PersonalStorage pst, String pstFolderName, MboxToPstConversionOptions options)
+```
+
+
+Converts an Mbox storage to PST.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxStorageReader | [MboxStorageReader](../../com.aspose.email/mboxstoragereader) | An [MboxStorageReader](../../com.aspose.email/mboxstoragereader) that represents an mbox-based mail storage reader. |
+| pst | [PersonalStorage](../../com.aspose.email/personalstorage) | A [PersonalStorage](../../com.aspose.email/personalstorage) that represents a pst storage. |
+| pstFolderName | java.lang.String | The folder name, at the root of the pst, where Mbox messages will be added. If this folder doesn't exist, it will be created. If the folder exists and isn't empty, new messages will be added to the existing ones. |
+| options | [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) | An [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) additional options when converting from Mbox to PST |
+
+### mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream) {#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-}
+```
+public static PersonalStorage mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxrdDataStream | com.aspose.ms.System.IO.Stream |  |
+| pstDataStream | com.aspose.ms.System.IO.Stream |  |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage)
+### mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MailStorageConverter.MailHandler mailHandler) {#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-com.aspose.email.MailStorageConverter.MailHandler-}
+```
+public static PersonalStorage mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MailStorageConverter.MailHandler mailHandler)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxrdDataStream | com.aspose.ms.System.IO.Stream |  |
+| pstDataStream | com.aspose.ms.System.IO.Stream |  |
+| mailHandler | [MailHandler](../../com.aspose.email/mailhandler) |  |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage)
+### mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MboxToPstConversionOptions options) {#mboxToPst-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxToPstConversionOptions-}
+```
+public static PersonalStorage mboxToPst(System.IO.Stream mboxrdDataStream, System.IO.Stream pstDataStream, MboxToPstConversionOptions options)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxrdDataStream | com.aspose.ms.System.IO.Stream |  |
+| pstDataStream | com.aspose.ms.System.IO.Stream |  |
+| options | [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) |  |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage)
 ### mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream) {#mboxToPst-java.io.InputStream-java.io.OutputStream-}
 ```
 public static PersonalStorage mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream)
@@ -147,6 +219,23 @@ Converts an Mbox storage to PST.
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A [PersonalStorage](../../com.aspose.email/personalstorage) object that represents the converted storage.
+### mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream, MboxToPstConversionOptions options) {#mboxToPst-java.io.InputStream-java.io.OutputStream-com.aspose.email.MboxToPstConversionOptions-}
+```
+public static PersonalStorage mboxToPst(InputStream mboxrdDataStream, OutputStream pstDataStream, MboxToPstConversionOptions options)
+```
+
+
+Converts an Mbox storage to PST.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxrdDataStream | java.io.InputStream | A InputStream that represents data in Mbox format. |
+| pstDataStream | java.io.OutputStream | A java.io.OutputStream that represents data in Pst format. |
+| options | [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) | An [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) additional options when converting from Mbox to PST |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage) - 
 ### mboxToPst(InputStream mboxrdDataStream, String pstFileName) {#mboxToPst-java.io.InputStream-java.lang.String-}
 ```
 public static PersonalStorage mboxToPst(InputStream mboxrdDataStream, String pstFileName)
@@ -311,6 +400,23 @@ In addition the same set of exceptions can be thrown as for FileStream creation 
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A [PersonalStorage](../../com.aspose.email/personalstorage) object that represents the converted storage.
+### mboxToPst(String mboxFileName, String pstFileName, MboxToPstConversionOptions options) {#mboxToPst-java.lang.String-java.lang.String-com.aspose.email.MboxToPstConversionOptions-}
+```
+public static PersonalStorage mboxToPst(String mboxFileName, String pstFileName, MboxToPstConversionOptions options)
+```
+
+
+Converts an Mbox storage to PST.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mboxFileName | java.lang.String | Mbox file name. |
+| pstFileName | java.lang.String | PST file name. |
+| options | [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) | An [MboxToPstConversionOptions](../../com.aspose.email/mboxtopstconversionoptions) additional options when converting from Mbox to PST |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage) - 
 ### notify() {#notify--}
 ```
 public final native void notify()

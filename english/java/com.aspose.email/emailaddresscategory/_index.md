@@ -30,6 +30,7 @@ Represents category for an email address
 | [EMAIL_1_VALUE](#EMAIL-1-VALUE) | String value for 'Email1' category |
 | [EMAIL_2_VALUE](#EMAIL-2-VALUE) | String value for 'Email2' category |
 | [EMAIL_3_VALUE](#EMAIL-3-VALUE) | String value for 'Email3' category |
+| [EmailValue](#EmailValue) | String value for 'Email' category |
 | [HOME_VALUE](#HOME-VALUE) | String value for 'Home' category |
 | [WORK_VALUE](#WORK-VALUE) | String value for 'Work' category |
 ## Methods
@@ -41,6 +42,7 @@ Represents category for an email address
 | [getClass()](#getClass--) |  |
 | [getCustom()](#getCustom--) | Custom category |
 | [getDescription()](#getDescription--) | Gets description for the 'Custom' category of a email address |
+| [getEmail()](#getEmail--) | Email category. |
 | [getEmail1()](#getEmail1--) | Email1 category. |
 | [getEmail2()](#getEmail2--) | Email2 category. |
 | [getEmail3()](#getEmail3--) | Email3 category. |
@@ -100,6 +102,14 @@ public static final String EMAIL_3_VALUE
 
 
 String value for 'Email3' category
+
+### EmailValue {#EmailValue}
+```
+public static final String EmailValue
+```
+
+
+String value for 'Email' category
 
 ### HOME_VALUE {#HOME-VALUE}
 ```
@@ -177,6 +187,16 @@ Gets description for the 'Custom' category of a email address
 
 **Returns:**
 java.lang.String
+### getEmail() {#getEmail--}
+```
+public static EmailAddressCategory getEmail()
+```
+
+
+Email category. Used by MS Exchange server.
+
+**Returns:**
+[EmailAddressCategory](../../com.aspose.email/emailaddresscategory)
 ### getEmail1() {#getEmail1--}
 ```
 public static EmailAddressCategory getEmail1()

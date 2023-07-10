@@ -3,7 +3,7 @@ title: IMessageObjectPropertyContainer
 second_title: Aspose.Email for Java API Reference
 description: Defines an interface for container which contains  entries.
 type: docs
-weight: 751
+weight: 754
 url: /java/com.aspose.email/imessageobjectpropertycontainer/
 ---
 ```

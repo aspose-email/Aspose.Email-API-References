@@ -3,7 +3,7 @@ title: UpdateSettings
 second_title: Aspose.Email for Java API Reference
 description: Update settings
 type: docs
-weight: 685
+weight: 688
 url: /java/com.aspose.email/updatesettings/
 ---
 

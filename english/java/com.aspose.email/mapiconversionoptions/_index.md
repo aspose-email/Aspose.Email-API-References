@@ -35,6 +35,7 @@ This class allows the user to specify additional options when converting from Ma
 | [getPreserveOriginalAddresses()](#getPreserveOriginalAddresses--) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [getPreserveOriginalDates()](#getPreserveOriginalDates--) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
 | [getPreserveSignature()](#getPreserveSignature--) | Set to true, if signature is to be preserved. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while converting. |
 | [getUnicodeFormat()](#getUnicodeFormat--) | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
 | [getUseBodyCompression()](#getUseBodyCompression--) | Set to true, if need RTF body compression. |
 | [hashCode()](#hashCode--) |  |
@@ -48,6 +49,7 @@ This class allows the user to specify additional options when converting from Ma
 | [setPreserveOriginalAddresses(boolean value)](#setPreserveOriginalAddresses-boolean-) | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
 | [setPreserveOriginalDates(boolean value)](#setPreserveOriginalDates-boolean-) | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
 | [setPreserveSignature(boolean value)](#setPreserveSignature-boolean-) | Set to true, if signature is to be preserved. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while converting. |
 | [setUseBodyCompression(boolean value)](#setUseBodyCompression-boolean-) | Set to true, if need RTF body compression. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -190,6 +192,18 @@ public final boolean getPreserveSignature()
 
 
 Set to true, if signature is to be preserved.
+
+**Returns:**
+boolean
+### getRemoveSignature() {#getRemoveSignature--}
+```
+public final boolean getRemoveSignature()
+```
+
+
+Gets or sets a value indicating whether signature will be removed while converting.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Returns:**
 boolean
@@ -341,6 +355,21 @@ public final void setPreserveSignature(boolean value)
 
 
 Set to true, if signature is to be preserved.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
+```
+public final void setRemoveSignature(boolean value)
+```
+
+
+Gets or sets a value indicating whether signature will be removed while converting.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |
