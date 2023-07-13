@@ -3,7 +3,7 @@ title: ContactSaveFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 910
 url: /python-net/aspose.email.mapi/contactsaveformat/
 ---
 

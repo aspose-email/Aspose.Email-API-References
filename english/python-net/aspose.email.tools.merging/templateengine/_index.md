@@ -24,6 +24,7 @@ The TemplateEngine type exposes the following members:
 |unregister_routine(name)|  |
 |merge(source)|  |
 |reset()|  |
+|get_template_fields()|  |
 
 ### See Also
 

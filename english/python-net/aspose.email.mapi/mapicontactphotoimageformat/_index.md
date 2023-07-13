@@ -3,7 +3,7 @@ title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1030
 url: /python-net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 

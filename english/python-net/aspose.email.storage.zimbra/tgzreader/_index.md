@@ -16,6 +16,7 @@ The TgzReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |TgzReader(file_name)|Initializes a new instance of the TgzReader class|
+|TgzReader(stream)|Initializes a new instance of the TgzReader class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +26,7 @@ The TgzReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |export_to(path)|  |
+|get_total_items_count()|  |
 |read_next_message()|  |
 
 ### See Also

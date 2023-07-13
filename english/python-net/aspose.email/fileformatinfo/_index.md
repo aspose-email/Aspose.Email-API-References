@@ -9,7 +9,7 @@ url: /python-net/aspose.email/fileformatinfo/
 
 ## FileFormatInfo class
 
-Contains data returned by FileFormatUtil file format detection methods.
+
 
 The FileFormatInfo type exposes the following members:
 ## Properties

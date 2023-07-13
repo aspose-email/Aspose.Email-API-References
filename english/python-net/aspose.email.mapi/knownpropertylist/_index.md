@@ -20,6 +20,14 @@ The KnownPropertyList type exposes the following members:
 |OBJECT_URI|Contains object uri. <br/>            This property does not transmit via transport protocols.<br/>            Area: User-defined Aspose specified properties<br/>            Alternate names: ObjectUri|
 |G_DATA_CONTACT_VERSION|Contains GData contact version (ETag). <br/>            https://developers.google.com/contacts/v3/<br/>            https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning<br/>            This property does not transmit via transport protocols.<br/>            Area: User-defined Aspose specified properties|
 |G_DATA_PHOTO_VERSION|Contains GData photo version (ETag). <br/>            https://developers.google.com/contacts/v3/<br/>            https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning<br/>            This property does not transmit via transport protocols.<br/>            Area: User-defined Aspose specified properties|
+|ATTACHMENT_ORIGINAL_URL|The original URL of the attachment.|
+|ATTACHMENT_PROVIDER_ENDPOINT_URL|The URL of the attachment provider.|
+|ATTACHMENT_PROVIDER_TYPE|The type of the attachment provider.|
+|ATTACHMENT_PERMISSION_TYPE|The permission of the attachment.|
+|ATTACHMENT_THUMBNAIL_URL|The URL of the attachment thumbnail.|
+|ATTACHMENT_PREVIEW_URL|The URL of the attachment preview.|
+|ATTACHMENT_ORIGINAL_PERMISSION_TYPE|The original permission of the attachment.|
+|ATTACHMENT_IS_FOLDER|A value indicating whether the attachment points to a folder.|
 |ADDRESS_BOOK_PROVIDER_ARRAY_TYPE|Specifies the state of the electronic addresses of the contact and represents a set of bit flags. <br/>            Area: Contact Properties<br/>            Canonical name: PidLidAddressBookProviderArrayType<br/>            Alternate names: dispidABPArrayType|
 |ADDRESS_BOOK_PROVIDER_EMAIL_LIST|Specifies which electronic address properties are set on the Contact object.<br/>            Area: Contact Properties<br/>            Canonical name: PidLidAddressBookProviderEmailList<br/>            Alternate names: dispidABPEmailList|
 |ADDRESS_COUNTRY_CODE|Specifies the country code portion of the mailing address of the contact.<br/>            Area: Contact Properties<br/>            Canonical name: PidLidAddressCountryCode<br/>            Alternate names: dispidAddressCountryCode|

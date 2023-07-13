@@ -24,6 +24,7 @@ The VCardSaveOptions type exposes the following members:
 |save_format|Gets a save format|
 |version|Gets or sets a vCard version|
 |use_extensions|Gets or sets a value indicating whether the extended types can be used|
+|preferred_text_encoding|Gets or sets Encoding that will be used to save Contact.|
 |default|Gets default [VCardSaveOptions](/email/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/)|
 
 ### See Also

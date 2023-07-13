@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 540
 url: /python-net/aspose.email.mapi/mapimessage/
 ---
 
@@ -70,6 +70,7 @@ The MapiMessage type exposes the following members:
 |flags|Gets the message flags.|
 |read_receipt_requested|Gets or sets a value indicating whether the read receipt is requested.|
 |message_format|Gets the outlook message format.|
+|is_template|Determines whether the message is Outlook template (.oft).|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -83,6 +84,8 @@ The MapiMessage type exposes the following members:
 |get_property_string(tag)|  |
 |set_body_content(content, content_type)|  |
 |set_body_content(content, content_type, compression)|  |
+|decrypt()|  |
+|decrypt(certificate)|  |
 |load(file_name)|  |
 |load(stream)|  |
 |load(stream, options)|  |
@@ -119,7 +122,6 @@ The MapiMessage type exposes the following members:
 |set_body_rtf(content, compression)|  |
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
-|decrypt()|  |
 |remove_signature()|  |
 |from_file(path)|  |
 |from_stream(stream)|  |

@@ -18,6 +18,12 @@ The MboxMessageInfo type exposes the following members:
 |headers|Gets the collection of header fields|
 |delimiter_mark|Gets the message delimiter mark.|
 |entry_id|Gets the entry identifier.|
+|date|Gets the date of message|
+|from_address|Gets the from address|
+|subject|Gets the message subject.|
+|to|Gets the address collection that contains <br/>            the recipients of message|
+|cc|Gets the address collection <br/>            that contains CC recipients|
+|bcc|Gets the address collection <br/>            that contains BCC recipients of message|
 
 ### See Also
 

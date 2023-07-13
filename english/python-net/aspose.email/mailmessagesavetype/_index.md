@@ -20,6 +20,7 @@ The MailMessageSaveType type exposes the following members:
 |m_html_format|Gets the MHT.|
 |outlook_message_format|Gets the MSG.|
 |outlook_message_format_unicode|Gets the MSG.|
+|outlook_template_format|Gets the MSG.|
 |html_format|Gets the Html.|
 
 ### See Also

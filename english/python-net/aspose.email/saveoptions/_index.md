@@ -17,8 +17,10 @@ The SaveOptions type exposes the following members:
 | :- | :- |
 |mail_message_save_type|Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format.<br/>            The default value is Eml.|
 |default_eml|Gets options with default values for saving message to Eml format.|
+|default_emlx|Gets options with default values for saving message to Emlx format.|
 |default_msg|Gets options with default values for saving message to Msg(ASCII) format.|
 |default_msg_unicode|Gets options with default values for saving message to Msg(Unicode) format.|
+|default_oft|Gets options with default values for saving message to Outlook template (Oft) format.|
 |default_mhtml|Gets options with default values for saving message to Mhtml format.|
 |default_html|Gets options with default values for saving message to Html format.|
 ## Methods

@@ -3,7 +3,7 @@ title: FileFormatType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 4940
+weight: 4970
 url: /python-net/aspose.email/fileformattype/
 ---
 
@@ -28,6 +28,7 @@ Enumerates file format types.
 |OFT|Outlook MSG file format for message template.|
 |OLM|Outlook for Mac File Format.|
 |TGZ|TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data.|
+|NSF|The Notes Storage Facility (NSF) database file <br/>            is used by (IBM) Lotus Notes and Domino.|
 
 ### See Also
 

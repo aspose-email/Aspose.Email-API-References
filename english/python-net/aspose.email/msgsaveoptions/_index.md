@@ -21,8 +21,10 @@ The MsgSaveOptions type exposes the following members:
 | :- | :- |
 |mail_message_save_type|Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format.<br/>            The default value is Eml.|
 |default_eml|Gets options with default values for saving message to Eml format.|
+|default_emlx|Gets options with default values for saving message to Emlx format.|
 |default_msg|Gets options with default values for saving message to Msg(ASCII) format.|
 |default_msg_unicode|Gets options with default values for saving message to Msg(Unicode) format.|
+|default_oft|Gets options with default values for saving message to Outlook template (Oft) format.|
 |default_mhtml|Gets options with default values for saving message to Mhtml format.|
 |default_html|Gets options with default values for saving message to Html format.|
 |preserve_original_dates|Gets or sets a value indicating whether it is necessary to generate <br/>            new saving and modification dates when saving a message.<br/>            By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.|
