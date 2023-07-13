@@ -14,6 +14,27 @@ public class EmlLoadOptions extends LoadOptions
 ```
 
 Allows to specify additional options when loading MailMessage from Eml format.
+
+--------------------
+
+> The following example shows how to convert EML to MSG.
+> 
+> [Java]
+> 
+> ```
+> // Initialize EmlLoadOptions
+>  EmlLoadOptions emlLoadOptions = new EmlLoadOptions();
+>  emlLoadOptions.setPreserveTnefAttachments(true);
+>  emlLoadOptions.setPreserveEmbeddedMessageFormat(true);
+> 
+>  // Initialize MailMessage with EmlLoadOptions
+>  try (MailMessage message = MailMessage.load("TestEml.eml", emlLoadOptions)) {
+>  // Convert EML to MSG
+>  message.save("output.msg", SaveOptions.getDefaultMsg());
+>  }
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |
@@ -30,6 +51,7 @@ Allows to specify additional options when loading MailMessage from Eml format.
 | [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls TNEF attachment loading behaviour. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -37,6 +59,7 @@ Allows to specify additional options when loading MailMessage from Eml format.
 | [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls TNEF attachment loading behaviour. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,6 +155,18 @@ If a message contains a TNEF attachment (winmail.dat) and has the MIME type appl
 
 **Returns:**
 boolean
+### getRemoveSignature() {#getRemoveSignature--}
+```
+public final boolean getRemoveSignature()
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -212,6 +247,21 @@ Controls TNEF attachment loading behaviour. By default the value is false.
 --------------------
 
 If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
+```
+public final void setRemoveSignature(boolean value)
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

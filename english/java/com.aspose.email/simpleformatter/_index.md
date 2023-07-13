@@ -3,7 +3,7 @@ title: SimpleFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the default implementation of IFormatter interface.
 type: docs
-weight: 634
+weight: 637
 url: /java/com.aspose.email/simpleformatter/
 ---
 

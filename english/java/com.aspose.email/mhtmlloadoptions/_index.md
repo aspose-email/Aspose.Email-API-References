@@ -3,7 +3,7 @@ title: MhtmlLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Mhtml format.
 type: docs
-weight: 516
+weight: 518
 url: /java/com.aspose.email/mhtmlloadoptions/
 ---
 
@@ -30,6 +30,7 @@ Allows to specify additional options when loading MailMessage from Mhtml format.
 | [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -37,6 +38,7 @@ Allows to specify additional options when loading MailMessage from Mhtml format.
 | [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,6 +134,18 @@ If a message contains a TNEF attachment (winmail.dat) and has the MIME type appl
 
 **Returns:**
 boolean
+### getRemoveSignature() {#getRemoveSignature--}
+```
+public final boolean getRemoveSignature()
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -212,6 +226,21 @@ Controls loading TNEF attachment behaviour. By default the value is false.
 --------------------
 
 If a message contains a TNEF attachment (winmail.dat) and has the MIME type application/ms-tnef, then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
+```
+public final void setRemoveSignature(boolean value)
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

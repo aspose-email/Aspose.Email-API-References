@@ -3,7 +3,7 @@ title: HeaderList
 second_title: Aspose.Email for Java API Reference
 description: Colection with name of headers that are included in the DKIM signature.
 type: docs
-weight: 289
+weight: 290
 url: /java/com.aspose.email/headerlist/
 ---
 

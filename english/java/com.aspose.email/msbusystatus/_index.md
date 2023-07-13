@@ -3,7 +3,7 @@ title: MSBusyStatus
 second_title: Aspose.Email for Java API Reference
 description: Specifies the BUSY status of an appointment.
 type: docs
-weight: 361
+weight: 362
 url: /java/com.aspose.email/msbusystatus/
 ---
 

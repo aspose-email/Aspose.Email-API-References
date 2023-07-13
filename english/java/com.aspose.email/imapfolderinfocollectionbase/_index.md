@@ -3,7 +3,7 @@ title: ImapFolderInfoCollectionBase
 second_title: Aspose.Email for Java API Reference
 description: Provides a container for a collection of  objects
 type: docs
-weight: 309
+weight: 310
 url: /java/com.aspose.email/imapfolderinfocollectionbase/
 ---
 

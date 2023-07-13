@@ -3,7 +3,7 @@ title: PageSettingsAsync
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.BeginListMessagesByPage async method.
 type: docs
-weight: 553
+weight: 555
 url: /java/com.aspose.email/pagesettingsasync/
 ---
 

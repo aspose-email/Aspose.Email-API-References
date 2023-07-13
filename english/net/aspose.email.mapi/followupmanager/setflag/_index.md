@@ -6,17 +6,17 @@ type: docs
 weight: 120
 url: /net/aspose.email.mapi/followupmanager/setflag/
 ---
-## SetFlag(MapiMessage, string) {#setflag}
+## SetFlag(MapiMessageItemBase, string) {#setflag}
 
 Sets the follow-up flag for a message.
 
 ```csharp
-public static void SetFlag(MapiMessage message, string flagRequest)
+public static void SetFlag(MapiMessageItemBase message, string flagRequest)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag will be set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
 | flagRequest | String | A string indicating the requested action for an e-mail message. |
 
 ### Exceptions
@@ -28,25 +28,25 @@ public static void SetFlag(MapiMessage message, string flagRequest)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## SetFlag(MapiMessage, string, DateTime, DateTime) {#setflag_1}
+## SetFlag(MapiMessageItemBase, string, DateTime, DateTime) {#setflag_1}
 
 Sets the follow-up flag for a message.
 
 ```csharp
-public static void SetFlag(MapiMessage message, string flagRequest, DateTime startDate, 
+public static void SetFlag(MapiMessageItemBase message, string flagRequest, DateTime startDate, 
     DateTime dueDate)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag will be set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
 | flagRequest | String | A string indicating the requested action for an e-mail message. |
 | startDate | DateTime | The start date. |
 | dueDate | DateTime | The due date. |
@@ -60,7 +60,7 @@ public static void SetFlag(MapiMessage message, string flagRequest, DateTime sta
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

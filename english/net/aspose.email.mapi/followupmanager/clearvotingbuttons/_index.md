@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/clearvotingbuttons/
 Deletes the voting buttons.
 
 ```csharp
-public static void ClearVotingButtons(MapiMessage message)
+public static void ClearVotingButtons(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which the categories will be cleared. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the categories will be cleared. |
 
 ### Exceptions
 
@@ -26,7 +26,7 @@ public static void ClearVotingButtons(MapiMessage message)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

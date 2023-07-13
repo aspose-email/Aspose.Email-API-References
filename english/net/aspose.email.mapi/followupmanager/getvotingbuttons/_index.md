@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/getvotingbuttons/
 Get the available message voting buttons.
 
 ```csharp
-public static string[] GetVotingButtons(MapiMessage message)
+public static string[] GetVotingButtons(MapiMessageItemBase message)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which the buttons are added. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which the buttons are added. |
 
 ### Return Value
 
@@ -30,7 +30,7 @@ The list of added voting buttons.
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

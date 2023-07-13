@@ -32,6 +32,7 @@ The OlmStorage type exposes the following members:
 |from_stream(stream)|  |
 |get_folders()|  |
 |get_folder(name, ignore_case)|  |
+|get_total_items_count()|  |
 |enumerate_messages(folder)|  |
 
 ### See Also

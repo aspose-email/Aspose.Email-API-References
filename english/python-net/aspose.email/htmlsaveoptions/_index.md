@@ -21,8 +21,10 @@ The HtmlSaveOptions type exposes the following members:
 | :- | :- |
 |mail_message_save_type|  |
 |default_eml|  |
+|default_emlx|  |
 |default_msg|  |
 |default_msg_unicode|  |
+|default_oft|  |
 |default_mhtml|  |
 |default_html|  |
 |rendered_contact_fields|Defines groups of Contact fields which will be included in output mhtml.<br/>            Default value is ContactFieldsSet.AllExisting.|

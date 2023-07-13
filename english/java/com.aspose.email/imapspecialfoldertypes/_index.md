@@ -3,7 +3,7 @@ title: ImapSpecialFolderTypes
 second_title: Aspose.Email for Java API Reference
 description: Represents enumeration of special-use mailboxes More details see in RFC6154  http//tools.ietf.org/html/rfc6154
 type: docs
-weight: 330
+weight: 331
 url: /java/com.aspose.email/imapspecialfoldertypes/
 ---
 

@@ -3,7 +3,7 @@ title: Gender
 second_title: Aspose.Email for Java API Reference
 description: Enum defines gender of a person
 type: docs
-weight: 271
+weight: 272
 url: /java/com.aspose.email/gender/
 ---
 

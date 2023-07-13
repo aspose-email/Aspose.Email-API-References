@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for Java API Reference
 description: Represents time zone rule that indicate when to begin using the Standard/Daylight time.
 type: docs
-weight: 412
+weight: 413
 url: /java/com.aspose.email/mapicalendartimezonerule/
 ---
 

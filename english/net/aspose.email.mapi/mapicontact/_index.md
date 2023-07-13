@@ -77,7 +77,7 @@ public sealed class MapiContact : MapiMessageItemBase
 | [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort/)(long) | Gets the value of the property specified by tag as Short type. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the string value of the property specified by tag. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the string value of the property specified by tag. |
-| [GetUnderlyingMessage](../../aspose.email.mapi/mapicontact/getunderlyingmessage/)() | Get the MapiMessage that represent contact. |
+| [GetUnderlyingMessage](../../aspose.email.mapi/mapicontact/getunderlyingmessage/)() | Retrieves the underlying MapiMessage object. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Provides correctly removing property from all collections. |
 | [Save](../../aspose.email.mapi/mapicontact/save/#save)(Stream) | Saves this `MapiContact` into the given stream with vCard format. The supported vCard version is 2.1 |

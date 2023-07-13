@@ -3,7 +3,7 @@ title: Enum ProgressEventType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ProgressEventType enum. Type of progress event that occured
 type: docs
-weight: 19960
+weight: 19690
 url: /net/aspose.email/progresseventtype/
 ---
 ## ProgressEventType enumeration

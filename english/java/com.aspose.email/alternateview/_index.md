@@ -14,6 +14,41 @@ public class AlternateView extends AttachmentBase
 ```
 
 Represents the format to view a message.
+
+--------------------
+
+> The following example shows how to create and add AlternateView to MailMessage.
+> 
+> [Java]
+> 
+> ```
+> MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("AndrewIrwin@from.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("SusanMarc@to.com"));
+>  eml.setSubject("This is an email");
+> 
+>  // Create the plain text part It is viewable by those clients that don't support HTML
+>  AlternateView plainView = AlternateView.createAlternateViewFromString("This is my plain text content", null,
+>  "text/plain");
+> 
+>  // Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value.
+>  // The cid value will map to the Content-Id of a Linked resource. Thus <img src='cid:barcode'>
+>  // will map to a LinkedResource with a ContentId of 'barcode'.
+>  AlternateView htmlView = AlternateView.createAlternateViewFromString(
+>  "Here is an embedded image. <img src=cid:barcode>", null, "text/html");
+> 
+>  // Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+>  LinkedResource barcode = new LinkedResource("1.jpg", Image.JPEG);
+>  barcode.setContentId("barcode");
+> 
+>  eml.getLinkedResources().addItem(barcode);
+>  eml.getAlternateViews().addItem(plainView);
+>  eml.getAlternateViews().addItem(htmlView);
+> 
+>  eml.save("EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

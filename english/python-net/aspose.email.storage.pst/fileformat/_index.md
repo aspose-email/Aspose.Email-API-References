@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.email.storage.pst/fileformat/
 ---
 

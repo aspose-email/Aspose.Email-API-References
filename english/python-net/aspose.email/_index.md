@@ -37,7 +37,7 @@ the aspose.email namespace contains common classes of aspose.email.
 |[EmlxLoadOptions](/email/python-net/aspose.email/emlxloadoptions/)|Allows to specify additional options when loading MailMessage from Eml format.|
 |[ExchangeException](/email/python-net/aspose.email/exchangeexception/)|Thrown if there is a MS Exchange communication failure.|
 |[FileCorruptedException](/email/python-net/aspose.email/filecorruptedexception/)|Exception that is thrown during file reading,<br/>            when the file appears to be corrupted and impossible to read.|
-|[FileFormatInfo](/email/python-net/aspose.email/fileformatinfo/)|Contains data returned by FileFormatUtil file format detection methods.|
+|[FileFormatInfo](/email/python-net/aspose.email/fileformatinfo/)||
 |[FormatNotSupportedException](/email/python-net/aspose.email/formatnotsupportedexception/)|Exception that is thrown during document load, <br/>            when the document format is not <br/>            recognized or not supported by the component.|
 |[GlobalFormattingOptions](/email/python-net/aspose.email/globalformattingoptions/)|Class that allow to set some formatting options for all newly created instances of this options.|
 |[GoogleClientException](/email/python-net/aspose.email/googleclientexception/)|Represents errors that occur during ActiveSync protocol execution.|
@@ -59,7 +59,7 @@ the aspose.email namespace contains common classes of aspose.email.
 |[MailAddress](/email/python-net/aspose.email/mailaddress/)|Represents the address of a message.|
 |[MailAddressCollection](/email/python-net/aspose.email/mailaddresscollection/)|Represents a collection of [MailAddress](/email/python-net/aspose.email/mailaddress/) objects.|
 |[MailException](/email/python-net/aspose.email/mailexception/)|Represents the exception that is thrown when the mail message processing.|
-|[MailMessage](/email/python-net/aspose.email/mailmessage/)|Represents an e-mail message. It allows to access message properties, <br/>            ex. subject, body, sender and recipients addreses, etc.<br/>            Also it can be sent and delivered by means of supported mail protocols.|
+|[MailMessage](/email/python-net/aspose.email/mailmessage/)||
 |[MailMessageCollection](/email/python-net/aspose.email/mailmessagecollection/)|Represents a collection of|
 |[MailMessageSaveType](/email/python-net/aspose.email/mailmessagesavetype/)|Represents the mail message format.It can be in eml,msg or mhtml format.|
 |[MailboxInfo](/email/python-net/aspose.email/mailboxinfo/)|Represents identification information about message in a mailbox.|

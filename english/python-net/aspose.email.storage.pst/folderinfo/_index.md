@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.email.storage.pst/folderinfo/
 ---
 
@@ -33,6 +33,7 @@ The FolderInfo type exposes the following members:
 | :- | :- |
 |get_sub_folder(name)|  |
 |get_sub_folder(name, ignore_case)|  |
+|get_sub_folder(name, ignore_case, handle_path_separator)|  |
 |get_sub_folders()|  |
 |get_sub_folders(kind)|  |
 |get_sub_folders(query)|  |
@@ -46,6 +47,7 @@ The FolderInfo type exposes the following members:
 |add_sub_folder(name, create_hierarchy)|  |
 |add_sub_folder(name)|  |
 |add_sub_folder(name, container_class)|  |
+|add_sub_folder(name, creation_options)|  |
 |merge_with(source_folder)|  |
 |merge_with(source_folder, recursive_handler)|  |
 |change_messages(entry_id_collection, updated_properties)|  |

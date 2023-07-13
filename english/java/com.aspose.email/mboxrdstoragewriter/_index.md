@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 487
+weight: 489
 url: /java/com.aspose.email/mboxrdstoragewriter/
 ---
 

@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 486
+weight: 488
 url: /java/com.aspose.email/mboxrdstoragereader/
 ---
 

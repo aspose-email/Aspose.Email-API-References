@@ -3,7 +3,7 @@ title: LogLevel
 second_title: Aspose.Email for Java API Reference
 description: Defines available log levels.
 type: docs
-weight: 356
+weight: 357
 url: /java/com.aspose.email/loglevel/
 ---
 

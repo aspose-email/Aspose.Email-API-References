@@ -3,7 +3,7 @@ title: MboxStorageReader
 second_title: Aspose.Email for Java API Reference
 description: A base class for any mbox-based mail storage reader.
 type: docs
-weight: 483
+weight: 484
 url: /java/com.aspose.email/mboxstoragereader/
 ---
 

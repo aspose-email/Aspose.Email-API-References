@@ -3,7 +3,7 @@ title: MapiJournal.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiJournal method. Saves the specified file name
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email.mapi/mapijournal/save/
 ---
 ## Save(string) {#save_1}

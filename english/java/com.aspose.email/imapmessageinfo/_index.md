@@ -3,7 +3,7 @@ title: ImapMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents a Imap message object.
 type: docs
-weight: 315
+weight: 316
 url: /java/com.aspose.email/imapmessageinfo/
 ---
 

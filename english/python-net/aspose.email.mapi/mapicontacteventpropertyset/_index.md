@@ -3,7 +3,7 @@ title: MapiContactEventPropertySet
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 

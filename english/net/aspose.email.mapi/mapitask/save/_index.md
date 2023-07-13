@@ -3,7 +3,7 @@ title: MapiTask.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiTask method. Saves this MapiTask to the given stream using specified format
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.email.mapi/mapitask/save/
 ---
 ## Save(Stream, TaskSaveFormat) {#save}

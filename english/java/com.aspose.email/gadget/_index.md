@@ -3,7 +3,7 @@ title: Gadget
 second_title: Aspose.Email for Java API Reference
 description: A gadget that extends this event.
 type: docs
-weight: 270
+weight: 271
 url: /java/com.aspose.email/gadget/
 ---
 

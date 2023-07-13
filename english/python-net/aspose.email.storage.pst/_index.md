@@ -13,6 +13,7 @@ the aspose.email.storage.pst namespace contains classes for work with microsoft 
 ## Classes
 | Class | Description |
 | :- | :- |
+|[FolderCreationOptions](/email/python-net/aspose.email.storage.pst/foldercreationoptions/)|Represents the options for creating <br/>            a subfolder in the Outlook PST message store.<br/>            This class serves as a container for configuring <br/>            specific settings related to the creation of subfolders.|
 |[FolderInfo](/email/python-net/aspose.email.storage.pst/folderinfo/)|Represents information<br/>            about personal folder in PST.|
 |[FolderInfoCollection](/email/python-net/aspose.email.storage.pst/folderinfocollection/)|Represents collection of FolderInfo.|
 |[ItemMovedEventArgs](/email/python-net/aspose.email.storage.pst/itemmovedeventargs/)|Provides data for the|

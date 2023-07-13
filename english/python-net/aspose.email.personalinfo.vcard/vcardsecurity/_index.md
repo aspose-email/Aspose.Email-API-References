@@ -22,6 +22,7 @@ The VCardSecurity type exposes the following members:
 |key|Gets or sets a public key(or authentication certificate)|
 |access_class|Gets or sets an access class|
 |encoding|Gets or sets a ContentTransferEncoding|
+|type|Gets or sets type of public key.|
 ## Methods
 | Name | Description |
 | :- | :- |

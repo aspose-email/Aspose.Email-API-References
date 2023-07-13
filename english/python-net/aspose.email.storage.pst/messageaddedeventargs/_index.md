@@ -3,7 +3,7 @@ title: MessageAddedEventArgs
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 

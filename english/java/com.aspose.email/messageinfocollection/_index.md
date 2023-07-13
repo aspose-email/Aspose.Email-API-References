@@ -3,7 +3,7 @@ title: MessageInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of MessageInfo.
 type: docs
-weight: 495
+weight: 497
 url: /java/com.aspose.email/messageinfocollection/
 ---
 

@@ -259,6 +259,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [FileFormatVersion](../com.aspose.email/fileformatversion) | Represents version of file. |
 | [FindMessageTrackingReportOptions](../com.aspose.email/findmessagetrackingreportoptions) | Represents options for FindMessageTrackingReport operation |
 | [FlaggedForAction](../com.aspose.email/flaggedforaction) | Enumerates flagged for action |
+| [FolderCreationOptions](../com.aspose.email/foldercreationoptions) | Represents the options for creating a subfolder in the Outlook PST message store. |
 | [FolderInfo](../com.aspose.email/folderinfo) | Represents information about personal folder in PST. |
 | [FolderInfoCollection](../com.aspose.email/folderinfocollection) | Represents collection of FolderInfo. |
 | [FolderKind](../com.aspose.email/folderkind) | Represents the different kinds of pst folders. |
@@ -491,6 +492,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MboxMessageInfo](../com.aspose.email/mboxmessageinfo) | Represents an information about message in the MBOX storage. |
 | [MboxStorageReader](../com.aspose.email/mboxstoragereader) | A base class for any mbox-based mail storage reader. |
 | [MboxStorageWriter](../com.aspose.email/mboxstoragewriter) | A base class for any mbox-based mail storage writer. |
+| [MboxToPstConversionOptions](../com.aspose.email/mboxtopstconversionoptions) | This class allows the user to specify additional options when converting from Mbox to PST. |
 | [MboxoStorageReader](../com.aspose.email/mboxostoragereader) | Represents mboxo format storage reader, this format is being used by Eudora. |
 | [MboxrdStorageReader](../com.aspose.email/mboxrdstoragereader) | Represents mboxrd format storage reader, this format is being used by Thunderbird and other mail clients. |
 | [MboxrdStorageWriter](../com.aspose.email/mboxrdstoragewriter) | Represents mboxrd format storage writer, this format is being used by Thunderbird and other mail clients. |
@@ -635,6 +637,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SectionHeader](../com.aspose.email/sectionheader) | Represents the heading for the section |
 | [SectionHeaderType](../com.aspose.email/sectionheadertype) | Represents the type of heading for the section. |
 | [SectionValue](../com.aspose.email/sectionvalue) | Represents the content of the section. |
+| [SecureEmailManager](../com.aspose.email/secureemailmanager) | Class that provided methods for working with secure emails. |
 | [SecurityOptions](../com.aspose.email/securityoptions) | Security mode for a mail client |
 | [SendGridClient](../com.aspose.email/sendgridclient) | Represents the SendGrid client |
 | [SendGridClientOptions](../com.aspose.email/sendgridclientoptions) | Options to set the SendGridClient parameters. |
@@ -648,6 +651,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SimpleFormatter](../com.aspose.email/simpleformatter) | Represents the default implementation of IFormatter interface. |
 | [SimpleSeqSet](../com.aspose.email/simpleseqset) | Simple container for value to search. |
 | [SizeRange](../com.aspose.email/sizerange) | Represents the size range |
+| [SmimeResult](../com.aspose.email/smimeresult) | This class containing results of checking secure emails. |
 | [SmtpClient](../com.aspose.email/smtpclient) | Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP). |
 | [SmtpDeliveryMethod](../com.aspose.email/smtpdeliverymethod) | Smtp delivery method |
 | [SmtpException](../com.aspose.email/smtpexception) | Represents the exception that is thrown when the SmtpClient is not able to complete an operation. |

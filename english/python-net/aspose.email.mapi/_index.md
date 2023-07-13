@@ -45,6 +45,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiCalendarWeeklyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/)|Represents the weekly recurrence pattern of the mapi calendar|
 |[MapiCalendarYearlyAndMonthlyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/)|Represents the yearly and monthly recurrence pattern of the mapi calendar|
 |[MapiContact](/email/python-net/aspose.email.mapi/mapicontact/)|Represents outlook contact information|
+|[MapiContactAddress](/email/python-net/aspose.email.mapi/mapicontactaddress/)|Base abstract class for [MapiContactElectronicAddress](/email/python-net/aspose.email.mapi/mapicontactelectronicaddress/)  and [MapiContactPhysicalAddress](/email/python-net/aspose.email.mapi/mapicontactphysicaladdress/).|
 |[MapiContactCollection](/email/python-net/aspose.email.mapi/mapicontactcollection/)|Represents the collection of [MapiContact](/email/python-net/aspose.email.mapi/mapicontact/)|
 |[MapiContactElectronicAddress](/email/python-net/aspose.email.mapi/mapicontactelectronicaddress/)|Refers to the group of properties that <br/>            define the e-mail address or fax address for a contact.|
 |[MapiContactElectronicAddressPropertySet](/email/python-net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/)|Specify properties for up to three different <br/>            e-mail addresses (Email1, Email2, and Email3) <br/>            and three different fax addresses (Primary Fax, Business Fax, and Home Fax)|
@@ -56,6 +57,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiContactPhysicalAddress](/email/python-net/aspose.email.mapi/mapicontactphysicaladdress/)|Refers to the group of properties that <br/>            define physical address for a contact.|
 |[MapiContactPhysicalAddressPropertySet](/email/python-net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/)|Specify three physical addresses: <br/>            Home Address, Work Address, and Other Address.<br/>            One of the addresses can be marked as the Mailing Address|
 |[MapiContactProfessionalPropertySet](/email/python-net/aspose.email.mapi/mapicontactprofessionalpropertyset/)|Properties are used to store professional <br/>            details for the person represented by the contact|
+|[MapiContactPropertySet](/email/python-net/aspose.email.mapi/mapicontactpropertyset/)|Base class for all sets of MapiContact properties.|
 |[MapiContactSaveOptions](/email/python-net/aspose.email.mapi/mapicontactsaveoptions/)|Specifies the contact save options.|
 |[MapiContactTelephonePropertySet](/email/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/)|Specify optional telephone numbers <br/>            for the contact|
 |[MapiConversionOptions](/email/python-net/aspose.email.mapi/mapiconversionoptions/)|This class allows the user to specify additional options when converting from MailMessage to MapiMessage.|

@@ -6,17 +6,17 @@ type: docs
 weight: 130
 url: /net/aspose.email.mapi/followupmanager/setflagforrecipients/
 ---
-## SetFlagForRecipients(MapiMessage, string) {#setflagforrecipients}
+## SetFlagForRecipients(MapiMessageItemBase, string) {#setflagforrecipients}
 
 Sets the flag for a draft message to remind recipients to follow-up.
 
 ```csharp
-public static void SetFlagForRecipients(MapiMessage message, string flagRequest)
+public static void SetFlagForRecipients(MapiMessageItemBase message, string flagRequest)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag will be set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
 | flagRequest | String | A string indicating the requested action action for recipients of an e-mail message. |
 
 ### Exceptions
@@ -29,25 +29,25 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## SetFlagForRecipients(MapiMessage, string, DateTime) {#setflagforrecipients_1}
+## SetFlagForRecipients(MapiMessageItemBase, string, DateTime) {#setflagforrecipients_1}
 
 Sets the flag for a draft message to remind recipients to follow-up.
 
 ```csharp
-public static void SetFlagForRecipients(MapiMessage message, string flagRequest, 
+public static void SetFlagForRecipients(MapiMessageItemBase message, string flagRequest, 
     DateTime reminderTime)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The [`MapiMessage`](../../mapimessage/) in which a flag will be set. |
+| message | MapiMessageItemBase | The [`MapiMessageItemBase`](../../mapimessageitembase/) in which a flag will be set. |
 | flagRequest | String | A string indicating the requested action action for recipients of an e-mail message. |
 | reminderTime | DateTime | A date indicating the date and time at which the reminder should occur. |
 
@@ -61,7 +61,7 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest,
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

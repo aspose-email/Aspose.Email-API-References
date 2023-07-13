@@ -3,7 +3,7 @@ title: FormTarget
 second_title: Aspose.Email for Java API Reference
 description: Indicates where to display the form response after submitting the form.
 type: docs
-weight: 261
+weight: 262
 url: /java/com.aspose.email/formtarget/
 ---
 

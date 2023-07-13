@@ -3,7 +3,7 @@ title: MapiCalendarEventRecurrence
 second_title: Aspose.Email for Java API Reference
 description: Represents the recurrence properties of calendar object
 type: docs
-weight: 393
+weight: 394
 url: /java/com.aspose.email/mapicalendareventrecurrence/
 ---
 

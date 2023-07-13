@@ -3,7 +3,7 @@ title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Properties are used to store professional  details for the person represented by the contact
 type: docs
-weight: 429
+weight: 430
 url: /java/com.aspose.email/mapicontactprofessionalpropertyset/
 ---
 

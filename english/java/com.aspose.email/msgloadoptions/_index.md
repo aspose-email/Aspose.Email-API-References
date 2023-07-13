@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
-weight: 521
+weight: 523
 url: /java/com.aspose.email/msgloadoptions/
 ---
 
@@ -25,7 +25,6 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDecodeClearSignedContent()](#getDecodeClearSignedContent--) | Gets or sets a value indicating whether clear-signed message will be decoded. |
 | [getDecodeSignedContent()](#getDecodeSignedContent--) | Gets or sets a value indicating whether signed message will be decoded. |
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
@@ -34,11 +33,11 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while converting. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDecodeClearSignedContent(boolean value)](#setDecodeClearSignedContent-boolean-) | Gets or sets a value indicating whether clear-signed message will be decoded. |
 | [setDecodeSignedContent(boolean value)](#setDecodeSignedContent-boolean-) | Gets or sets a value indicating whether signed message will be decoded. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
@@ -46,6 +45,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while converting. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -84,18 +84,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDecodeClearSignedContent() {#getDecodeClearSignedContent--}
-```
-public final boolean getDecodeClearSignedContent()
-```
-
-
-Gets or sets a value indicating whether clear-signed message will be decoded.
-
-Value:  true  if clear-signed message will be decoded; otherwise,  false .
-
-**Returns:**
-boolean
 ### getDecodeSignedContent() {#getDecodeSignedContent--}
 ```
 public final boolean getDecodeSignedContent()
@@ -186,6 +174,18 @@ If a message contains a TNEF attachment (winmail.dat), then this property define
 
 **Returns:**
 boolean
+### getRemoveSignature() {#getRemoveSignature--}
+```
+public final boolean getRemoveSignature()
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
+
+**Returns:**
+boolean
 ### getTimeout() {#getTimeout--}
 ```
 public final int getTimeout()
@@ -221,21 +221,6 @@ public final native void notifyAll()
 
 
 
-
-### setDecodeClearSignedContent(boolean value) {#setDecodeClearSignedContent-boolean-}
-```
-public final void setDecodeClearSignedContent(boolean value)
-```
-
-
-Gets or sets a value indicating whether clear-signed message will be decoded.
-
-Value:  true  if clear-signed message will be decoded; otherwise,  false .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setDecodeSignedContent(boolean value) {#setDecodeSignedContent-boolean-}
 ```
@@ -332,6 +317,21 @@ Controls loading TNEF attachment behaviour. By default the value is false.
 --------------------
 
 If a message contains a TNEF attachment (winmail.dat), then this property defines whether files from TNEF will be decoded and extracted. The winmail.dat attachment remains as it is if the property value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
+```
+public final void setRemoveSignature(boolean value)
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

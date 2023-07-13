@@ -3,7 +3,7 @@ title: FolderKind
 second_title: Aspose.Email for Java API Reference
 description: Represents the different kinds of pst folders.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.email/folderkind/
 ---
 

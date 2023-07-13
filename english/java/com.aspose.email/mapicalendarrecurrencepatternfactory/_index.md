@@ -3,7 +3,7 @@ title: MapiCalendarRecurrencePatternFactory
 second_title: Aspose.Email for Java API Reference
 description: Represents the factory of MapiCalendarRecurrencePattern
 type: docs
-weight: 404
+weight: 405
 url: /java/com.aspose.email/mapicalendarrecurrencepatternfactory/
 ---
 

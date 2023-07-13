@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneFlags
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the individual bit flags that specify information about TimeZoneRule
 type: docs
-weight: 409
+weight: 410
 url: /java/com.aspose.email/mapicalendartimezoneflags/
 ---
 

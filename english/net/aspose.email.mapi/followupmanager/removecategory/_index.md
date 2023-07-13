@@ -11,12 +11,12 @@ url: /net/aspose.email.mapi/followupmanager/removecategory/
 Removes the category.
 
 ```csharp
-public static void RemoveCategory(MapiMessage message, string categoryName)
+public static void RemoveCategory(MapiMessageItemBase message, string categoryName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | MapiMessage | The message. |
+| message | MapiMessageItemBase | The message. |
 | categoryName | String | Name of the category. |
 
 ### Exceptions
@@ -28,7 +28,7 @@ public static void RemoveCategory(MapiMessage message, string categoryName)
 
 ### See Also
 
-* class [MapiMessage](../../mapimessage/)
+* class [MapiMessageItemBase](../../mapimessageitembase/)
 * class [FollowUpManager](../)
 * namespace [Aspose.Email.Mapi](../../followupmanager/)
 * assembly [Aspose.Email](../../../)

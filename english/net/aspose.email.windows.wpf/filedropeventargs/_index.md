@@ -3,7 +3,7 @@ title: Class FileDropEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.WPF.FileDropEventArgs class. Specialized version of EventArgs for FileDropPanel
 type: docs
-weight: 21050
+weight: 20810
 url: /net/aspose.email.windows.wpf/filedropeventargs/
 ---
 ## FileDropEventArgs class

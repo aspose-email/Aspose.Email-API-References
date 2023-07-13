@@ -28,6 +28,7 @@ The MsgLoadOptions type exposes the following members:
 |decode_signed_content|Gets or sets a value indicating whether signed message will be decoded.|
 |keep_original_email_addresses|Gets or sets a value indicating whether need keep original email address.|
 |preserve_rtf_content|Gets or sets a value indicating whether need keep rtf body in MailMessage.|
+|timeout|Limits the time in milliseconds of formatting message while converting.<br/>            Default value 3 sec.|
 
 ### See Also
 

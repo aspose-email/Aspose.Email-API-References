@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 710
 url: /python-net/aspose.email.mapi/mapitask/
 ---
 
@@ -55,6 +55,7 @@ The MapiTask type exposes the following members:
 |status|Gets or sets the status of the user's progress on the task.|
 |mode|Gets or sets the assignment status of the Task object.|
 |state|Gets or sets the current assignment <br/>            state of the Task object.|
+|priority|Gets or sets the current Priority of the Task object.|
 |acceptance_state|Gets or sets the acceptance state of the task.|
 |flags|Gets the indication flags of the Task object.|
 |reminder_time|Gets or sets the initial signal time for a reminder|

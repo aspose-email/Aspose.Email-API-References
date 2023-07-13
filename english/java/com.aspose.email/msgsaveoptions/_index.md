@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format.
 type: docs
-weight: 522
+weight: 524
 url: /java/com.aspose.email/msgsaveoptions/
 ---
 
@@ -14,6 +14,25 @@ public class MsgSaveOptions extends SaveOptions
 ```
 
 This class allows the user to specify additional settings when saving a MailMessage in the Msg(ASCII) and Msg(Unicode) format.
+
+--------------------
+
+> The following example shows how to save as MSG with preserved dates.
+> 
+> [Java]
+> 
+> ```
+> // Initialize and Load an existing EML file by specifying the MessageFormat
+>  MailMessage eml = MailMessage.load("Message.eml");
+> 
+>  // Save as msg with preserved dates
+>  MsgSaveOptions msgSaveOptions = new MsgSaveOptions(MailMessageSaveType.getOutlookMessageFormatUnicode())
+>  msgSaveOptions.setPreserveOriginalDates(true);
+> 
+>  eml.save("outTest_out.msg", msgSaveOptions);
+> ```
+
+--------------------
 ## Constructors
 
 | Constructor | Description |

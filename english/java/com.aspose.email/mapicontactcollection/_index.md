@@ -3,7 +3,7 @@ title: MapiContactCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 417
+weight: 418
 url: /java/com.aspose.email/mapicontactcollection/
 ---
 

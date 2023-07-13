@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 446
+weight: 447
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -60,6 +60,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [addCustomProperty(MapiProperty property, String stringNameId)](#addCustomProperty-com.aspose.email.MapiProperty-java.lang.String-) | Adds the custom property. |
 | [addCustomProperty(int type, byte[] data, String stringNameId)](#addCustomProperty-int-byte---java.lang.String-) | Adds the custom property. |
 | [checkBounced()](#checkBounced--) | Checks whether this message can be treated as a bounce message. |
+| [checkSignature()](#checkSignature--) | Checking signature exsisting MapiMessage. |
 | [close()](#close--) |  |
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [decrypt()](#decrypt--) | Decrypts this message |
@@ -295,6 +296,16 @@ Checks whether this message can be treated as a bounce message.
 
 **Returns:**
 [BounceResult](../../com.aspose.email/bounceresult) - Result of checking[BounceResult](../../com.aspose.email/bounceresult).
+### checkSignature() {#checkSignature--}
+```
+public final System.Security.Cryptography.X509Certificates.X509Certificate2[] checkSignature()
+```
+
+
+Checking signature exsisting MapiMessage.
+
+**Returns:**
+com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2[] - X.509 signers certificates
 ### close() {#close--}
 ```
 public void close()

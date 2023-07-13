@@ -24,7 +24,6 @@ Contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [ObjectIdentifier](../../../aspose.email/objectidentifier/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
@@ -51,7 +50,6 @@ Contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [ObjectIdentifier](../../../aspose.email/objectidentifier/)
 * enum [ExchangeListContactsOptions](../../exchangelistcontactsoptions/)
 * interface [IEWSClient](../)
@@ -78,7 +76,6 @@ Contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
@@ -104,7 +101,6 @@ Contact information
 
 ### See Also
 
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * enum [ExchangeListContactsOptions](../../exchangelistcontactsoptions/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)

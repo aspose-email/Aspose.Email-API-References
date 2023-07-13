@@ -3,7 +3,7 @@ title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify other additional contact information
 type: docs
-weight: 424
+weight: 425
 url: /java/com.aspose.email/mapicontactpersonalinfopropertyset/
 ---
 

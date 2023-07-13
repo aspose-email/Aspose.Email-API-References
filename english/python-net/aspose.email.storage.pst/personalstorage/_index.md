@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.email.storage.pst/personalstorage/
 ---
 

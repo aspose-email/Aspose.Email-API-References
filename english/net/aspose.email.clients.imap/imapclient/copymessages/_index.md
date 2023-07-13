@@ -6,6 +6,118 @@ type: docs
 weight: 510
 url: /net/aspose.email.clients.imap/imapclient/copymessages/
 ---
+## CopyMessages(IConnection, string, string, string) {#copymessages_4}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IConnection connection, string startUid, string endUid, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(string, string, string) {#copymessages_10}
+
+Copy messages
+
+```csharp
+public void CopyMessages(string startUid, string endUid, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IEnumerable&lt;int&gt;, string, bool) {#copymessages_8}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool commitDeletions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| folderName | String | Folder name where a message is to be moved |
+| commitDeletions | Boolean | Specifies whether deletions should be committed. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IConnection, IEnumerable&lt;int&gt;, string) {#copymessages_2}
+
+Copy the messaeg
+
+```csharp
+public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(IEnumerable&lt;int&gt;, string) {#copymessages_7}
+
+Copy messages
+
+```csharp
+public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CopyMessages(IConnection, IEnumerable&lt;string&gt;, string) {#copymessages_3}
 
 Copy messages
@@ -134,118 +246,6 @@ public void CopyMessages(int startSequence, int endSequence, string folderName)
 | --- | --- | --- |
 | startSequence | Int32 | The starting sequence number of a message list |
 | endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IConnection, string, string, string) {#copymessages_4}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IConnection connection, string startUid, string endUid, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| startUid | String | The starting UID of a message list |
-| endUid | String | The ending UID of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(string, string, string) {#copymessages_10}
-
-Copy messages
-
-```csharp
-public void CopyMessages(string startUid, string endUid, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startUid | String | The starting UID of a message list |
-| endUid | String | The ending UID of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IEnumerable&lt;int&gt;, string, bool) {#copymessages_8}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool commitDeletions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| folderName | String | Folder name where a message is to be moved |
-| commitDeletions | Boolean | Specifies whether deletions should be committed. |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IConnection, IEnumerable&lt;int&gt;, string) {#copymessages_2}
-
-Copy the messaeg
-
-```csharp
-public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IEnumerable&lt;int&gt;, string) {#copymessages_7}
-
-Copy messages
-
-```csharp
-public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | folderName | String | Folder name where a message is to be moved |
 
 ### See Also

@@ -20,7 +20,7 @@ The VCardExplanatoryInfo type exposes the following members:
 | Name | Description |
 | :- | :- |
 |note|Gets or sets a comments|
-|prod_id|Gets an id of product that created a vCard|
+|prod_id|Gets or sets an id of product that created a vCard|
 |revision|Gets or sets a revision time|
 |sort_string|Gets or sets a sort string|
 |sound|Gets or sets a sound|

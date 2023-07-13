@@ -1,11 +1,78 @@
 ---
 title: ImapClient.CommitDeletes
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Commit the deletions
+description: ImapClient method. Commit the deletions This method works only if server supports UIDPLUS extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 470
 url: /net/aspose.email.clients.imap/imapclient/commitdeletes/
 ---
+## CommitDeletes(IConnection, IEnumerable&lt;string&gt;) {#commitdeletes_3}
+
+Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | Set of unique identifiers for messages |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CommitDeletes(IConnection, string) {#commitdeletes_4}
+
+Commit the deletions
+
+```csharp
+public void CommitDeletes(IConnection connection, string uniqueId)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of a message |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CommitDeletes(IConnection, string, string) {#commitdeletes_5}
+
+Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void CommitDeletes(IConnection connection, string startUid, string endUid)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CommitDeletes(IConnection) {#commitdeletes_1}
 
 Commit the deletions
@@ -140,73 +207,6 @@ public void CommitDeletes(string startUid, string endUid)
 
 ### See Also
 
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CommitDeletes(IConnection, IEnumerable&lt;string&gt;) {#commitdeletes_3}
-
-Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | Set of unique identifiers for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CommitDeletes(IConnection, string) {#commitdeletes_4}
-
-Commit the deletions
-
-```csharp
-public void CommitDeletes(IConnection connection, string uniqueId)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The uid of a message |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CommitDeletes(IConnection, string, string) {#commitdeletes_5}
-
-Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void CommitDeletes(IConnection connection, string startUid, string endUid)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| startUid | String | The starting UID of a message list |
-| endUid | String | The ending UID of a message list |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

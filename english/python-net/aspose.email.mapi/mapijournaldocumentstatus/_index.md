@@ -3,7 +3,7 @@ title: MapiJournalDocumentStatus
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1070
 url: /python-net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 

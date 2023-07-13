@@ -3,7 +3,7 @@ title: RestoreSettings
 second_title: Aspose.Email for Java API Reference
 description: The settings for the IEWSClient.Restore method
 type: docs
-weight: 610
+weight: 612
 url: /java/com.aspose.email/restoresettings/
 ---
 

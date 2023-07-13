@@ -3,7 +3,7 @@ title: MapiCalendar.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar method. Saves calendar object to the file with specified format using te default save options
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.email.mapi/mapicalendar/save/
 ---
 ## Save(string, MapiCalendarSaveOptions) {#save_5}

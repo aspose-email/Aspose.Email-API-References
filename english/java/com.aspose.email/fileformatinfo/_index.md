@@ -14,6 +14,19 @@ public class FileFormatInfo
 ```
 
 Contains data returned by FileFormatUtil file format detection methods.
+
+--------------------
+
+> The following example shows how to detect File Formats of Email Message.
+> 
+> [Java]
+> 
+> ```
+> FileFormatInfo info = FileFormatUtil.detectFileFormat("message.msg");
+>  System.out.println("The message format is: " + info.getFileFormatType());
+> ```
+
+--------------------
 ## Methods
 
 | Method | Description |

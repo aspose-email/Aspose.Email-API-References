@@ -3,7 +3,7 @@ title: Class MboxrdStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxrdStorageReader class. Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients
 type: docs
-weight: 20110
+weight: 19860
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class

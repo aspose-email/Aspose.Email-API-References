@@ -3,7 +3,7 @@ title: ImapClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to access and manipulate  messages by using the Internet Message Access Protocol IMAP.
 type: docs
-weight: 304
+weight: 305
 url: /java/com.aspose.email/imapclient/
 ---
 

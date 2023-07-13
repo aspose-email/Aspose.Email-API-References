@@ -3,7 +3,7 @@ title: MapiProperty
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 630
 url: /python-net/aspose.email.mapi/mapiproperty/
 ---
 

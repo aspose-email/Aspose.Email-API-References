@@ -3,7 +3,7 @@ title: MapiElectronicAddress
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 520
 url: /python-net/aspose.email.mapi/mapielectronicaddress/
 ---
 

@@ -3,7 +3,7 @@ title: MapiMessage.DestroyAttachments
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Destroies the attachments in the specified Outlook Message files. DestroyAttachments will ignore the attachment parsing
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.email.mapi/mapimessage/destroyattachments/
 ---
 ## MapiMessage.DestroyAttachments method

@@ -61,6 +61,7 @@ The ImapClient type exposes the following members:
 |connections_quantity|Gets or sets quantity of connections in multy-connection mode|
 |delimiter|Gets or sets delimiter of folders hierarhy.|
 |auto_commit|Indicates, whether commit operation are executed automatically <br/>            when folder is changed or before connection is closed.|
+|support_old_server|Indicates whether the old servers need to be supported when receiving messages.|
 |read_only|Gets or sets value which indicates if changes to the permanent state of the mailbox, including per-user state, are permitted.|
 |gm_ext_1_supported|Defines if Google X-GM-EXT-1 extension is supported|
 |thread_algorithms|Gets supported thread algorithms|

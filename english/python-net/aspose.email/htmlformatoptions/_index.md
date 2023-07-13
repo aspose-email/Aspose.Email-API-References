@@ -3,7 +3,7 @@ title: HtmlFormatOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 4980
 url: /python-net/aspose.email/htmlformatoptions/
 ---
 
@@ -23,7 +23,8 @@ Enumerates the Html format  options.
 |WRITE_COMPLETE_BCC_EMAIL_ADDRESS|Indicates that complete e-mail address should be written in 'Bcc' header.|
 |DISPLAY_AS_OUTLOOK|Indicates that From header will be displayed as in Outlook.|
 |RENDER_CALENDAR_EVENT|Indicates that text from calendar event should be written in output mhtml.|
-|RENDER_V_CARD_INFO|Indicates that text from VCard AlternativeView should be written in output mhtml.|
+|RENDER_V_CARD_INFO|Indicates that text from VCard AlternativeView should be written in output html.|
+|RENDER_TASK_FIELDS|Indicates that  the specific Task fields should be written in output html.|
 
 ### See Also
 

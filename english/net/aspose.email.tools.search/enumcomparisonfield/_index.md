@@ -3,7 +3,7 @@ title: Class EnumComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.EnumComparisonField class. Represents the enum search field
 type: docs
-weight: 20770
+weight: 20530
 url: /net/aspose.email.tools.search/enumcomparisonfield/
 ---
 ## EnumComparisonField class

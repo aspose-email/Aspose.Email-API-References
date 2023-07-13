@@ -3,7 +3,7 @@ title: MapiContact
 second_title: Aspose.Email for Java API Reference
 description: Represents outlook contact information
 type: docs
-weight: 415
+weight: 416
 url: /java/com.aspose.email/mapicontact/
 ---
 
@@ -75,7 +75,7 @@ Represents outlook contact information
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
 | [getTelephones()](#getTelephones--) | Specify telephone numbers for the contact |
-| [getUnderlyingMessage()](#getUnderlyingMessage--) | Get the MapiMessage that represent contact. |
+| [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
 | [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [notify()](#notify--) |  |
@@ -788,7 +788,7 @@ public final MapiMessage getUnderlyingMessage()
 ```
 
 
-Get the MapiMessage that represent contact.
+Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.

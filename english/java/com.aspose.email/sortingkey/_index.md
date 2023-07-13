@@ -3,7 +3,7 @@ title: SortingKey
 second_title: Aspose.Email for Java API Reference
 description: Sort criterias for SORT command  See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 648
+weight: 652
 url: /java/com.aspose.email/sortingkey/
 ---
 

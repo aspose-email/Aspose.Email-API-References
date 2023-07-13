@@ -3,7 +3,7 @@ title: MapiMessage.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Saves message as a file with additional options
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.email.mapi/mapimessage/save/
 ---
 ## Save(string, SaveOptions) {#save_3}

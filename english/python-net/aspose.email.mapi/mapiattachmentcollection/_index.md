@@ -22,6 +22,7 @@ The MapiAttachmentCollection type exposes the following members:
 | :- | :- |
 |add(name, msg)|  |
 |add(name, data)|  |
+|add(name, shared_link, url, provider_name)|  |
 |replace(index, name, msg)|  |
 
 ### See Also

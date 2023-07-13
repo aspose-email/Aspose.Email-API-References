@@ -3,7 +3,7 @@ title: MapiRecipientType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 1130
 url: /python-net/aspose.email.mapi/mapirecipienttype/
 ---
 

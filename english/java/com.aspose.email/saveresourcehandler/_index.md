@@ -3,7 +3,7 @@ title: SaveResourceHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the handler for HtmlSaveOptions.SaveResourceHandler
 type: docs
-weight: 616
+weight: 618
 url: /java/com.aspose.email/saveresourcehandler/
 ---
 

@@ -3,7 +3,7 @@ title: BodyContentType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 900
 url: /python-net/aspose.email.mapi/bodycontenttype/
 ---
 

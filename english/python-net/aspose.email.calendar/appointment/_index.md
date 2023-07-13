@@ -43,6 +43,7 @@ The Appointment type exposes the following members:
 |organizer|Gets or sets the organizer.|
 |recurrence|Gets or sets the recurrence pattern.|
 |sequence_id|Gets the sequence id.|
+|version|Gets the version of ICS/VCS file.|
 |flags|Gets or sets appointment flags.|
 |method_type|Gets or sets the iCalendar object method type associated <br/>            with the calendar object.|
 |reminders|Contains collection of AppointmentReminder [AppointmentReminder](/email/python-net/aspose.email.calendar/appointmentreminder/) objects.|
@@ -59,6 +60,9 @@ The Appointment type exposes the following members:
 |cancel_appointment(seq_id)|  |
 |update_appointment()|  |
 |update_appointment(seq_id)|  |
+|to_mail_message(action, seq_id)|  |
+|to_mail_message(action)|  |
+|to_mail_message()|  |
 |get_appointment_text()|  |
 |get_appointment_text(formatting_options)|  |
 |save(file_path)|  |
@@ -74,6 +78,7 @@ The Appointment type exposes the following members:
 |load(stream, options)|Loads [Appointment](/email/python-net/aspose.email.calendar/appointment/) from the file.<br/>            Supported file formats: iCalendar|
 |reset_time_zone()|  |
 |set_time_zone(tz_name)|  |
+|to_mapi_message()|  |
 |get_appointment_html()|  |
 
 ### See Also

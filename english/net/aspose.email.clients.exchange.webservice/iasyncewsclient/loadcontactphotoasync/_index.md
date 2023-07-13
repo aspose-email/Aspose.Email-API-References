@@ -21,7 +21,6 @@ public Task LoadContactPhotoAsync(ContactPhoto photo, CancellationToken cancella
 
 ### See Also
 
-* class [ContactPhoto](../../../aspose.email.personalinfo/contactphoto/)
 * interface [IAsyncEwsClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iasyncewsclient/)
 * assembly [Aspose.Email](../../../)

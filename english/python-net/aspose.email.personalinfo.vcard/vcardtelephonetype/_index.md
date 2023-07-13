@@ -29,6 +29,10 @@ Enumerates a vCard telephone types
 |VIDEO|A video-phone number|
 |PCS|A personal communication services telephone number|
 |MSG|A messaging service on the number|
+|RADIO|A radio-phone number|
+|MAIN|Main phone number|
+|ASSISTANT|An assistant phone number|
+|OTHER|Other phone number|
 
 ### See Also
 

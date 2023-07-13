@@ -6,6 +6,57 @@ type: docs
 weight: 480
 url: /net/aspose.email.clients.imap/imapclient/commitdeletesasync/
 ---
+## CommitDeletesAsync(IConnection) {#commitdeletesasync_1}
+
+Commit the deletions
+
+```csharp
+public Task CommitDeletesAsync(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CommitDeletesAsync(IConnection, int) {#commitdeletesasync_2}
+
+Commit the deletions
+
+```csharp
+public Task CommitDeletesAsync(IConnection connection, int sleep)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sleep | Int32 | Wait time complete the operation in milliseconds |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CommitDeletesAsync() {#commitdeletesasync}
 
 Commit the deletions
@@ -450,57 +501,6 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 | startUid | String | The starting UID of a message list |
 | endUid | String | The ending UID of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CommitDeletesAsync(IConnection) {#commitdeletesasync_1}
-
-Commit the deletions
-
-```csharp
-public Task CommitDeletesAsync(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CommitDeletesAsync(IConnection, int) {#commitdeletesasync_2}
-
-Commit the deletions
-
-```csharp
-public Task CommitDeletesAsync(IConnection connection, int sleep)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sleep | Int32 | Wait time complete the operation in milliseconds |
 
 ### Return Value
 

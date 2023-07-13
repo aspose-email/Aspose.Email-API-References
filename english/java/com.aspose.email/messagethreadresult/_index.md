@@ -3,7 +3,7 @@ title: MessageThreadResult
 second_title: Aspose.Email for Java API Reference
 description: Contains result for SORT ot THREAD methods See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 508
+weight: 510
 url: /java/com.aspose.email/messagethreadresult/
 ---
 

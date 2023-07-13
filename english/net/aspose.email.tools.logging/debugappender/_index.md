@@ -3,7 +3,7 @@ title: Class DebugAppender
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.DebugAppender class. Represents an appender is only enabled when debugging
 type: docs
-weight: 20520
+weight: 20280
 url: /net/aspose.email.tools.logging/debugappender/
 ---
 ## DebugAppender class

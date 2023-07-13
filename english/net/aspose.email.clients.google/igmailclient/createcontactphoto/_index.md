@@ -21,8 +21,6 @@ public ContactPhoto CreateContactPhoto(Contact contact, byte[] imageData)
 
 ### See Also
 
-* class [ContactPhoto](../../../aspose.email.personalinfo/contactphoto/)
-* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)

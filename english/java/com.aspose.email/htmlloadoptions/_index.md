@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Html format.
 type: docs
-weight: 293
+weight: 294
 url: /java/com.aspose.email/htmlloadoptions/
 ---
 
@@ -30,6 +30,7 @@ Allows to specify additional options when loading MailMessage from Html format.
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
+| [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -37,6 +38,7 @@ Allows to specify additional options when loading MailMessage from Html format.
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
+| [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [shouldAddPlainTextView()](#shouldAddPlainTextView--) | Specifies whether to add a text representation of the body or not. |
 | [shouldAddPlainTextView(boolean value)](#shouldAddPlainTextView-boolean-) | Specifies whether to add a text representation of the body or not. |
 | [toString()](#toString--) |  |
@@ -130,6 +132,18 @@ Generally, embedded messages have the same format (EML or MSG) as the underlying
 
 **Returns:**
 boolean
+### getRemoveSignature() {#getRemoveSignature--}
+```
+public final boolean getRemoveSignature()
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -206,6 +220,21 @@ Gets or sets a value indicating whether it is necessary to preserve format of em
 --------------------
 
 Generally, embedded messages have the same format (EML or MSG) as the underlying message. By default, when converting from EML to MSG and vice versa, embedded messages are also converted to the target format. Setting the property to true preserves the original format of embedded messages.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRemoveSignature(boolean value) {#setRemoveSignature-boolean-}
+```
+public final void setRemoveSignature(boolean value)
+```
+
+
+Gets or sets a value indicating whether signature will be removed while loading.
+
+Value:  true  if will be removed; otherwise,  false .
 
 **Parameters:**
 | Parameter | Type | Description |

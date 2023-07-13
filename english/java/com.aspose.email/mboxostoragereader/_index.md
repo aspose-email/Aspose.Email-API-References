@@ -3,7 +3,7 @@ title: MboxoStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxo format storage reader this format is being used by Eudora.
 type: docs
-weight: 485
+weight: 487
 url: /java/com.aspose.email/mboxostoragereader/
 ---
 

@@ -3,7 +3,7 @@ title: HeaderType
 second_title: Aspose.Email for Java API Reference
 description: Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages .
 type: docs
-weight: 290
+weight: 291
 url: /java/com.aspose.email/headertype/
 ---
 

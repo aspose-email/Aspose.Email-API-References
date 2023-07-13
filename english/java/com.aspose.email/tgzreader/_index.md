@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Aspose.Email for Java API Reference
 description: The mailbox items reader of Zimbra tgz storage.
 type: docs
-weight: 669
+weight: 673
 url: /java/com.aspose.email/tgzreader/
 ---
 
@@ -22,6 +22,7 @@ The mailbox items reader of Zimbra tgz storage.
 | Constructor | Description |
 | --- | --- |
 | [TgzReader(String fileName)](#TgzReader-java.lang.String-) | Initializes a new instance of the [TgzReader](../../com.aspose.email/tgzreader) class. |
+| [TgzReader(System.IO.Stream stream)](#TgzReader-com.aspose.ms.System.IO.Stream-) | Initializes a new instance of the [TgzReader](../../com.aspose.email/tgzreader) class. |
 ## Methods
 
 | Method | Description |
@@ -33,6 +34,7 @@ The mailbox items reader of Zimbra tgz storage.
 | [getClass()](#getClass--) |  |
 | [getCurrentDirectory()](#getCurrentDirectory--) | Gets the current directory name. |
 | [getCurrentMessage()](#getCurrentMessage--) | Gets the current message. |
+| [getTotalItemsCount()](#getTotalItemsCount--) | Gets the total count of items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -53,6 +55,19 @@ Initializes a new instance of the [TgzReader](../../com.aspose.email/tgzreader) 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The filename. |
+
+### TgzReader(System.IO.Stream stream) {#TgzReader-com.aspose.ms.System.IO.Stream-}
+```
+public TgzReader(System.IO.Stream stream)
+```
+
+
+Initializes a new instance of the [TgzReader](../../com.aspose.email/tgzreader) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | com.aspose.ms.System.IO.Stream | The stream. |
 
 ### close() {#close--}
 ```
@@ -132,6 +147,16 @@ Value: The [MailMessage](../../com.aspose.email/mailmessage).
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage)
+### getTotalItemsCount() {#getTotalItemsCount--}
+```
+public final int getTotalItemsCount()
+```
+
+
+Gets the total count of items.
+
+**Returns:**
+int - An integer representing the total count of items.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

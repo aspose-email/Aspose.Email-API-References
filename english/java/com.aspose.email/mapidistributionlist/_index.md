@@ -3,7 +3,7 @@ title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents the Personal Distribution List object.
 type: docs
-weight: 434
+weight: 435
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 
@@ -62,6 +62,7 @@ Represents the Personal Distribution List object.
 | [getSubject()](#getSubject--) | Gets or sets the subject of the message. |
 | [getSubjectPrefix()](#getSubjectPrefix--) | Gets a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. |
 | [getSupportedType()](#getSupportedType--) | Gets the supported item type. |
+| [getUnderlyingMessage()](#getUnderlyingMessage--) | Retrieves the underlying MapiMessage object. |
 | [hashCode()](#hashCode--) |  |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [notify()](#notify--) |  |
@@ -597,6 +598,16 @@ Value: The [MapiItemType](../../com.aspose.email/mapiitemtype).
 
 **Returns:**
 int
+### getUnderlyingMessage() {#getUnderlyingMessage--}
+```
+public final MapiMessage getUnderlyingMessage()
+```
+
+
+Retrieves the underlying MapiMessage object.
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

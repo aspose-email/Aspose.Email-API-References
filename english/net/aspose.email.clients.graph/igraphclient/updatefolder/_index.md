@@ -3,7 +3,7 @@ title: IGraphClient.UpdateFolder
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates folder
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email.clients.graph/igraphclient/updatefolder/
 ---
 ## IGraphClient.UpdateFolder method

@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingHandler
 second_title: Aspose.Email for Java API Reference
 description: Provides customization of rendering resources in html.
 type: docs
-weight: 605
+weight: 607
 url: /java/com.aspose.email/resourcehtmlrenderinghandler/
 ---
 

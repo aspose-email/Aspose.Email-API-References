@@ -3,7 +3,7 @@ title: GetUserSettingsResponse
 second_title: Aspose.Email for Java API Reference
 description: Represents the response to a GetUsersSettings call for an individual user.
 type: docs
-weight: 274
+weight: 275
 url: /java/com.aspose.email/getusersettingsresponse/
 ---
 

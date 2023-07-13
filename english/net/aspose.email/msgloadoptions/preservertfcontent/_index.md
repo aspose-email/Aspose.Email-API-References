@@ -3,7 +3,7 @@ title: MsgLoadOptions.PreserveRtfContent
 second_title: Aspose.Email for .NET API Reference
 description: MsgLoadOptions property. Gets or sets a value indicating whether need keep rtf body in MailMessage
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.email/msgloadoptions/preservertfcontent/
 ---
 ## MsgLoadOptions.PreserveRtfContent property

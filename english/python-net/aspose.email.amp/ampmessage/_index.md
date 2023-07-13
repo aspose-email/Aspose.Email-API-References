@@ -69,8 +69,15 @@ The AmpMessage type exposes the following members:
 |save(file_name)|  |
 |save(file_name, options)|  |
 |save(stream)|  |
+|attach_signature(certificate, detached)|  |
+|attach_signature(certificate)|  |
 |check_signature(file_name)|  |
 |check_signature(stream)|  |
+|check_signature()|  |
+|decrypt()|  |
+|decrypt(certificate)|  |
+|encrypt(certificate)|  |
+|encrypt(certificates)|  |
 |import_from_stream(stream)|  |
 |clone()|  |
 |recompose_tnef_content()|  |
@@ -80,7 +87,6 @@ The AmpMessage type exposes the following members:
 |add_alternate_view(view)|  |
 |add_attachment(attachment)|  |
 |remove_signature()|  |
-|decrypt()|  |
 |check_bounced()|  |
 |add_amp_component(component)|  |
 

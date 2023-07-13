@@ -21,8 +21,10 @@ The MhtSaveOptions type exposes the following members:
 | :- | :- |
 |mail_message_save_type|  |
 |default_eml|  |
+|default_emlx|  |
 |default_msg|  |
 |default_msg_unicode|  |
+|default_oft|  |
 |default_mhtml|  |
 |default_html|  |
 |rendered_contact_fields|Defines groups of Contact fields which will be included in output mhtml.<br/>            Default value is ContactFieldsSet.AllExisting.|
@@ -32,13 +34,14 @@ The MhtSaveOptions type exposes the following members:
 |before_headers_format|Before headers format.|
 |after_headers_format|After headers format.|
 |rendering_headers|Gets list of headers for rendering.|
-|timeout|Limits the time in milliseconds of formatting message while saving in Mht.<br/>            Default value 3 sek.|
+|timeout|Limits the time in milliseconds of formatting message while saving in Mht.<br/>            Default value 3 sec.|
 |mht_format_options|Defines additional options when saving in MHTML format.<br/>            Default value is MhtFormatOptions.WriteHeader | MhtFormatOptions.WriteOutlineAttachments.|
 |preserve_original_boundaries|Defines whether need keep original boundaries in mail message when saving or not.|
 |check_body_content_encoding|Defines whether need check message body content encoding when saving. By default the value is false.|
 |save_attachments|Gets or sets a value indicating whether to save attachments.|
 |preserve_original_date|Defines whether need keep original date in mail message when saving or not.<br/>            Default value is true.|
 |skip_inline_images|Defines whether skip references on images at saving in mhtml or not.<br/>            Default value is false.|
+|save_all_headers|Defines whether need to save all headers in output mhtml or not.<br/>            Default value is false.|
 |saved_headers|Gets list of headers which will be present in saved mhtml content.<br/>            Default value is empty list.|
 ## Methods
 | Name | Description |
