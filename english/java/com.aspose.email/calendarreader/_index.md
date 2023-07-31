@@ -28,8 +28,13 @@ Allows read the calendar with multi events to the Appointment object from a file
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of Vevent components. |
 | [getCurrent()](#getCurrent--) | Current read event. |
+| [getMethod()](#getMethod--) | Gets the iCalendar object method type associated with the calendar object. |
+| [getVersion()](#getVersion--) | Gets the Version of calendar. |
 | [hashCode()](#hashCode--) |  |
+| [isMultiEvents()](#isMultiEvents--) | Gets whether calendar contains multi events. |
+| [loadAsMultiple()](#loadAsMultiple--) | Loads a list of events from a calendar with multiple events. |
 | [nextEvent()](#nextEvent--) | Reads next Event from source and save it to the Current. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -116,6 +121,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public final int getCount()
+```
+
+
+Gets the number of Vevent components.
+
+**Returns:**
+int
 ### getCurrent() {#getCurrent--}
 ```
 public final Appointment getCurrent()
@@ -126,6 +141,26 @@ Current read event.
 
 **Returns:**
 [Appointment](../../com.aspose.email/appointment)
+### getMethod() {#getMethod--}
+```
+public final int getMethod()
+```
+
+
+Gets the iCalendar object method type associated with the calendar object.
+
+**Returns:**
+int
+### getVersion() {#getVersion--}
+```
+public final String getVersion()
+```
+
+
+Gets the Version of calendar.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -136,6 +171,26 @@ public native int hashCode()
 
 **Returns:**
 int
+### isMultiEvents() {#isMultiEvents--}
+```
+public final boolean isMultiEvents()
+```
+
+
+Gets whether calendar contains multi events.
+
+**Returns:**
+boolean
+### loadAsMultiple() {#loadAsMultiple--}
+```
+public final List<Appointment> loadAsMultiple()
+```
+
+
+Loads a list of events from a calendar with multiple events.
+
+**Returns:**
+java.util.List<com.aspose.email.Appointment> - 
 ### nextEvent() {#nextEvent--}
 ```
 public final boolean nextEvent()

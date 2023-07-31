@@ -3,7 +3,7 @@ title: UserConfiguration
 second_title: Aspose.Email for Java API Reference
 description: Represents user configuration
 type: docs
-weight: 693
+weight: 695
 url: /java/com.aspose.email/userconfiguration/
 ---
 
