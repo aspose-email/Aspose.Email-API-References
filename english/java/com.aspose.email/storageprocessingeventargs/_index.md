@@ -1,48 +1,43 @@
 ---
-title: VCardUrl
+title: StorageProcessingEventArgs
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard URL property
+description: Provides data for the  event
 type: docs
-weight: 724
-url: /java/com.aspose.email/vcardurl/
+weight: 658
+url: /java/com.aspose.email/storageprocessingeventargs/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, com.aspose.ms.System.EventArgs
 ```
-public final class VCardUrl
+public class StorageProcessingEventArgs extends System.EventArgs
 ```
 
-Represents a vCard URL property
-## Constructors
+Provides data for the [PersonalStorage.StorageProcessingDelegate](../../com.aspose.email/personalstorage\#StorageProcessingDelegate) event
+## Fields
 
-| Constructor | Description |
+| Field | Description |
 | --- | --- |
-| [VCardUrl()](#VCardUrl--) | Initializes a new instance of the [VCardUrl](../../com.aspose.email/vcardurl) class |
+| [Empty](#Empty) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getUrl()](#getUrl--) | Gets or sets a url |
-| [getUrlType()](#getUrlType--) | Gets or sets a url type |
+| [getFileName()](#getFileName--) | Gets the name of the pst file, that represents the chunk. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUrl(String value)](#setUrl-java.lang.String-) | Gets or sets a url |
-| [setUrlType(int value)](#setUrlType-int-) | Gets or sets a url type |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VCardUrl() {#VCardUrl--}
+### Empty {#Empty}
 ```
-public VCardUrl()
+public static final System.EventArgs Empty
 ```
 
-
-Initializes a new instance of the [VCardUrl](../../com.aspose.email/vcardurl) class
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,26 +64,18 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getUrl() {#getUrl--}
+### getFileName() {#getFileName--}
 ```
-public final String getUrl()
+public final String getFileName()
 ```
 
 
-Gets or sets a url
+Gets the name of the pst file, that represents the chunk.
+
+Value: The name of the file.
 
 **Returns:**
 java.lang.String
-### getUrlType() {#getUrlType--}
-```
-public final int getUrlType()
-```
-
-
-Gets or sets a url type
-
-**Returns:**
-int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -114,32 +101,6 @@ public final native void notifyAll()
 
 
 
-
-### setUrl(String value) {#setUrl-java.lang.String-}
-```
-public final void setUrl(String value)
-```
-
-
-Gets or sets a url
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### setUrlType(int value) {#setUrlType-int-}
-```
-public final void setUrlType(int value)
-```
-
-
-Gets or sets a url type
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### toString() {#toString--}
 ```

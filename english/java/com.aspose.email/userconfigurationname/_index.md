@@ -3,7 +3,7 @@ title: UserConfigurationName
 second_title: Aspose.Email for Java API Reference
 description: Represents user configuration name
 type: docs
-weight: 694
+weight: 696
 url: /java/com.aspose.email/userconfigurationname/
 ---
 

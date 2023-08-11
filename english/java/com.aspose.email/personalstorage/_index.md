@@ -28,6 +28,7 @@ Represents Personal Storage Table (.pst) file.
 | --- | --- |
 | [ItemMoved](#ItemMoved) | Occurs when an item is moved to the another folder. |
 | [StorageProcessed](#StorageProcessed) | Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged. |
+| [StorageProcessing](#StorageProcessing) | Occurs before the srorage is processed. |
 ## Methods
 
 | Method | Description |
@@ -44,6 +45,7 @@ Represents Personal Storage Table (.pst) file.
 | [create(String fileName, int version)](#create-java.lang.String-int-) | Creates the new PST file with the specified file name. |
 | [createPredefinedFolder(String name, int defaultFolder)](#createPredefinedFolder-java.lang.String-int-) | Creates the standard interpersonal message (IPM) folder. |
 | [createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)](#createPredefinedFolder-java.lang.String-int-boolean-) | Creates the standard interpersonal message (IPM) folder. |
+| [deleteItem(String entryId)](#deleteItem-java.lang.String-) | Deletes the item (folder or message) by it's entryId |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [enumerateMessages(String entryId)](#enumerateMessages-java.lang.String-) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [enumerateMessages(String entryId, int startIndex, int count)](#enumerateMessages-java.lang.String-int-int-) | Exposes the enumerator, which supports an iteration of messages in folder. |
@@ -90,7 +92,9 @@ Represents Personal Storage Table (.pst) file.
 | [saveMessageToFile(String entryId, String fileName)](#saveMessageToFile-java.lang.String-java.lang.String-) | saveMessageToFile. |
 | [saveMessageToStream(String entryId, OutputStream stream)](#saveMessageToStream-java.lang.String-java.io.OutputStream-) | Saves the message, with specified entryID, to a stream. |
 | [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-) | Splits the pst storage based on criteria. |
+| [splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path)](#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-java.lang.String-) | Splits the pst storage based on criteria. |
 | [splitInto(long chunkSize, String path)](#splitInto-long-java.lang.String-) | Splits the pst storage into less sized parts. |
+| [splitInto(long chunkSize, String partFileNamePrefix, String path)](#splitInto-long-java.lang.String-java.lang.String-) | Splits the pst storage into less sized parts. |
 | [toString()](#toString--) |  |
 | [tryToGetFolderById(String entryIdString, FolderInfo[] folder)](#tryToGetFolderById-java.lang.String-com.aspose.email.FolderInfo---) | Gets the folder associated with the specified entry ID. |
 | [tryToSaveMessage(String entryId, OutputStream stream)](#tryToSaveMessage-java.lang.String-java.io.OutputStream-) | Saves the message, with specified entryID, to a stream. |
@@ -125,6 +129,14 @@ public final Event<StorageProcessedEventHandler> StorageProcessed
 
 
 Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged.
+
+### StorageProcessing {#StorageProcessing}
+```
+public final Event<StorageProcessingEventHandler> StorageProcessing
+```
+
+
+Occurs before the srorage is processed. The event is raised before processing the next storage in merging or splitting operations.
 
 ### canWrite() {#canWrite--}
 ```
@@ -331,6 +343,19 @@ Creates the standard interpersonal message (IPM) folder.
 
 **Returns:**
 [FolderInfo](../../com.aspose.email/folderinfo) - A [FolderInfo](../../com.aspose.email/folderinfo) object that represents a standard IPM folder.
+### deleteItem(String entryId) {#deleteItem-java.lang.String-}
+```
+public final void deleteItem(String entryId)
+```
+
+
+Deletes the item (folder or message) by it's entryId
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String |  |
+
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -1002,6 +1027,21 @@ Splits the pst storage based on criteria.
 | criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The collection of [MailQuery](../../com.aspose.email/mailquery) that represents criteria of pst splitting. |
 | path | java.lang.String | The folder path where chunks will be created. |
 
+### splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path) {#splitInto-com.aspose.ms.System.Collections.Generic.IGenericList-com.aspose.email.MailQuery--java.lang.String-java.lang.String-}
+```
+public final void splitInto(System.Collections.Generic.IGenericList<MailQuery> criteria, String partFileNamePrefix, String path)
+```
+
+
+Splits the pst storage based on criteria.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| criteria | com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.MailQuery> | The collection of [MailQuery](../../com.aspose.email/mailquery) that represents criteria of pst splitting. |
+| partFileNamePrefix | java.lang.String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix. The pst file names are produced using the following template: \{prefix\}\_part\{number\}.pst - \{prefix\}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - \{number\}: The number of the chunk file. |
+| path | java.lang.String | The folder path where chunks will be created. |
+
 ### splitInto(long chunkSize, String path) {#splitInto-long-java.lang.String-}
 ```
 public final void splitInto(long chunkSize, String path)
@@ -1014,6 +1054,25 @@ Splits the pst storage into less sized parts.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | chunkSize | long | The approximate size of a chunk in bytes. |
+| path | java.lang.String | The folder path where chunks will be created. |
+
+### splitInto(long chunkSize, String partFileNamePrefix, String path) {#splitInto-long-java.lang.String-java.lang.String-}
+```
+public final void splitInto(long chunkSize, String partFileNamePrefix, String path)
+```
+
+
+Splits the pst storage into less sized parts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chunkSize | long | The approximate size of a chunk in bytes. |
+| partFileNamePrefix | java.lang.String | The prefix to be added to the filename of each part of pst. If provided, the prefix will be added to the beginning of each file name. If not provided (null or empty), the pst parts will be created without a prefix.
+
+--------------------
+
+The pst file names are produced using the following template: \{prefix\}\_part\{number\}.pst - \{prefix\}: The filename prefix provided by the partFileNamePrefix parameter. If not provided, this part will be omitted. - \{number\}: The number of the chunk file. |
 | path | java.lang.String | The folder path where chunks will be created. |
 
 ### toString() {#toString--}

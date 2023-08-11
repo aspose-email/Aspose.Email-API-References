@@ -3,7 +3,7 @@ title: IAsyncResultExt
 second_title: Aspose.Email for Java API Reference
 description: Represents the extended status of an asynchronous operation.
 type: docs
-weight: 738
+weight: 740
 url: /java/com.aspose.email/iasyncresultext/
 ---
 

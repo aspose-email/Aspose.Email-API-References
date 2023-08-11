@@ -1,29 +1,29 @@
 ---
-title: SyntaxValidatingEventHandler
+title: StorageProcessingEventHandler
 second_title: Aspose.Email for Java API Reference
-description: Represents the event handler for SyntaxValidatingEvent.
+description: Event handler for the StoragePreProcessing.
 type: docs
-weight: 665
-url: /java/com.aspose.email/syntaxvalidatingeventhandler/
+weight: 659
+url: /java/com.aspose.email/storageprocessingeventhandler/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Delegate, com.aspose.ms.System.MulticastDelegate
 ```
-public abstract class SyntaxValidatingEventHandler extends System.MulticastDelegate
+public abstract class StorageProcessingEventHandler extends System.MulticastDelegate
 ```
 
-Represents the event handler for SyntaxValidatingEvent.
+Event handler for the StoragePreProcessing. Occurs before the srorage is processed.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SyntaxValidatingEventHandler()](#SyntaxValidatingEventHandler--) |  |
+| [StorageProcessingEventHandler()](#StorageProcessingEventHandler--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [beginInvoke(Object sender, SyntaxValidatingEventArgs e, System.AsyncCallback callback, Object state)](#beginInvoke-java.lang.Object-com.aspose.email.SyntaxValidatingEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-) |  |
+| [beginInvoke(Object sender, StorageProcessingEventArgs e, System.AsyncCallback callback, Object state)](#beginInvoke-java.lang.Object-com.aspose.email.StorageProcessingEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-) |  |
 | [combine(System.Delegate arg0, System.Delegate arg1)](#combine-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-) |  |
 | [combine(System.Delegate[] arg0)](#combine-com.aspose.ms.System.Delegate...-) |  |
 | [endInvoke(System.IAsyncResult result)](#endInvoke-com.aspose.ms.System.IAsyncResult-) |  |
@@ -32,7 +32,7 @@ Represents the event handler for SyntaxValidatingEvent.
 | [getDelegateId()](#getDelegateId--) |  |
 | [getInvocationList()](#getInvocationList--) |  |
 | [hashCode()](#hashCode--) |  |
-| [invoke(Object sender, SyntaxValidatingEventArgs e)](#invoke-java.lang.Object-com.aspose.email.SyntaxValidatingEventArgs-) |  |
+| [invoke(Object sender, StorageProcessingEventArgs e)](#invoke-java.lang.Object-com.aspose.email.StorageProcessingEventArgs-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(System.Delegate arg0, System.Delegate arg1)](#op-Equality-com.aspose.ms.System.Delegate-com.aspose.ms.System.Delegate-) |  |
@@ -49,15 +49,15 @@ Represents the event handler for SyntaxValidatingEvent.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SyntaxValidatingEventHandler() {#SyntaxValidatingEventHandler--}
+### StorageProcessingEventHandler() {#StorageProcessingEventHandler--}
 ```
-public SyntaxValidatingEventHandler()
+public StorageProcessingEventHandler()
 ```
 
 
-### beginInvoke(Object sender, SyntaxValidatingEventArgs e, System.AsyncCallback callback, Object state) {#beginInvoke-java.lang.Object-com.aspose.email.SyntaxValidatingEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
+### beginInvoke(Object sender, StorageProcessingEventArgs e, System.AsyncCallback callback, Object state) {#beginInvoke-java.lang.Object-com.aspose.email.StorageProcessingEventArgs-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
-public final System.IAsyncResult beginInvoke(Object sender, SyntaxValidatingEventArgs e, System.AsyncCallback callback, Object state)
+public final System.IAsyncResult beginInvoke(Object sender, StorageProcessingEventArgs e, System.AsyncCallback callback, Object state)
 ```
 
 
@@ -67,7 +67,7 @@ public final System.IAsyncResult beginInvoke(Object sender, SyntaxValidatingEven
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object |  |
-| e | [SyntaxValidatingEventArgs](../../com.aspose.email/syntaxvalidatingeventargs) |  |
+| e | [StorageProcessingEventArgs](../../com.aspose.email/storageprocessingeventargs) |  |
 | callback | com.aspose.ms.System.AsyncCallback |  |
 | state | java.lang.Object |  |
 
@@ -172,9 +172,9 @@ public native int hashCode()
 
 **Returns:**
 int
-### invoke(Object sender, SyntaxValidatingEventArgs e) {#invoke-java.lang.Object-com.aspose.email.SyntaxValidatingEventArgs-}
+### invoke(Object sender, StorageProcessingEventArgs e) {#invoke-java.lang.Object-com.aspose.email.StorageProcessingEventArgs-}
 ```
-public abstract void invoke(Object sender, SyntaxValidatingEventArgs e)
+public abstract void invoke(Object sender, StorageProcessingEventArgs e)
 ```
 
 
@@ -184,7 +184,7 @@ public abstract void invoke(Object sender, SyntaxValidatingEventArgs e)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object |  |
-| e | [SyntaxValidatingEventArgs](../../com.aspose.email/syntaxvalidatingeventargs) |  |
+| e | [StorageProcessingEventArgs](../../com.aspose.email/storageprocessingeventargs) |  |
 
 ### notify() {#notify--}
 ```

@@ -669,6 +669,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [StandardIpmFolder](../com.aspose.email/standardipmfolder) | Represents a standard interpersonal message (IPM) folders. |
 | [StorageProcessedEventArgs](../com.aspose.email/storageprocessedeventargs) | Provides data for the [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event |
 | [StorageProcessedEventHandler](../com.aspose.email/storageprocessedeventhandler) | Represents the method that will handle an [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event. |
+| [StorageProcessingEventArgs](../com.aspose.email/storageprocessingeventargs) | Provides data for the [PersonalStorage.\#StorageProcessingDelegate](../com.aspose.email/personalstorage\#StorageProcessingDelegate) event |
+| [StorageProcessingEventHandler](../com.aspose.email/storageprocessingeventhandler) | Event handler for the StoragePreProcessing. |
 | [StringComparisonField](../com.aspose.email/stringcomparisonfield) | Represents the string search field. |
 | [SyncFolderResult](../com.aspose.email/syncfolderresult) | Result for SyncFolder operation |
 | [SyncFolderType](../com.aspose.email/syncfoldertype) | Folder synchronization types |

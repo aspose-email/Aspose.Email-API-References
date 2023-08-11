@@ -73,6 +73,7 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [fromFile(String path)](#fromFile-java.lang.String-) | Create an instance of MapiMessage from the specified file. |
 | [fromMailMessage(MailMessage message)](#fromMailMessage-com.aspose.email.MailMessage-) | Creates an instance of MapiMessage from the MailMessage. |
 | [fromMailMessage(MailMessage message, MapiConversionOptions options)](#fromMailMessage-com.aspose.email.MailMessage-com.aspose.email.MapiConversionOptions-) | Creates an instance of MapiMessage from the MailMessage. |
+| [fromMailMessage(InputStream stream)](#fromMailMessage-java.io.InputStream-) | Creates an instance of MapiMessage from the EML format data stream. |
 | [fromMailMessage(String fileName)](#fromMailMessage-java.lang.String-) | Creates an instance of MapiMessage from the MailMessage. |
 | [fromProperties(MapiPropertyCollection properties)](#fromProperties-com.aspose.email.MapiPropertyCollection-) | Creates an instance of MapiMessage from a collection of Mapi properties. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Create an instance of MapiMessage from the specified stream. |
@@ -477,6 +478,21 @@ Creates an instance of MapiMessage from the MailMessage.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - [MapiMessage](../../com.aspose.email/mapimessage) that represents Outlook message.
+### fromMailMessage(InputStream stream) {#fromMailMessage-java.io.InputStream-}
+```
+public static MapiMessage fromMailMessage(InputStream stream)
+```
+
+
+Creates an instance of MapiMessage from the EML format data stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream of data that represents an EML file. |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - Returns a MapiMessage instance which is loaded from the EML format data stream.
 ### fromMailMessage(String fileName) {#fromMailMessage-java.lang.String-}
 ```
 public static MapiMessage fromMailMessage(String fileName)

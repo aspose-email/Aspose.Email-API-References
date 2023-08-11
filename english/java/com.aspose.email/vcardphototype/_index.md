@@ -3,7 +3,7 @@ title: VCardPhotoType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates vCard photo type
 type: docs
-weight: 714
+weight: 716
 url: /java/com.aspose.email/vcardphototype/
 ---
 
