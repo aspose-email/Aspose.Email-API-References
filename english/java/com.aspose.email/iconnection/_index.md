@@ -3,7 +3,7 @@ title: IConnection
 second_title: Aspose.Email for Java API Reference
 description: IConnectionAdapter allows to manage connection to a server.
 type: docs
-weight: 743
+weight: 744
 url: /java/com.aspose.email/iconnection/
 ---
 

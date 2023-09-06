@@ -3,7 +3,7 @@ title: PidTagPropertyDescriptor
 second_title: Aspose.Email for Java API Reference
 description: Class contains property description information.
 type: docs
-weight: 567
+weight: 568
 url: /java/com.aspose.email/pidtagpropertydescriptor/
 ---
 

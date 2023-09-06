@@ -3,7 +3,7 @@ title: ValidationPolicy
 second_title: Aspose.Email for Java API Reference
 description: Presents the policy of validating email address.
 type: docs
-weight: 729
+weight: 730
 url: /java/com.aspose.email/validationpolicy/
 ---
 

@@ -3,7 +3,7 @@ title: MapiGuidConstants
 second_title: Aspose.Email for Java API Reference
 description: Contains several guid constants defined by MSG format specification.
 type: docs
-weight: 441
+weight: 442
 url: /java/com.aspose.email/mapiguidconstants/
 ---
 

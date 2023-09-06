@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 641
+weight: 642
 url: /java/com.aspose.email/smtpclient/
 ---
 
@@ -186,7 +186,6 @@ Allows applications to send messages by using the Simple Mail Transfer Protocol 
 | [setSocketsLayerVersion2(boolean value)](#setSocketsLayerVersion2-boolean-) | Sets value indicating whether Sockets Layer version 2 is used. |
 | [setSocketsLayerVersion2DisableSSLCertificateValidation(boolean value)](#setSocketsLayerVersion2DisableSSLCertificateValidation-boolean-) | Disable SSL certificate validation for Sockets Layer version 2 |
 | [setSocketsLayerVersion2SSLSocketFactory(SSLSocketFactory value)](#setSocketsLayerVersion2SSLSocketFactory-javax.net.ssl.SSLSocketFactory-) | Set SSL Socket Factory for Sockets Layer version 2 |
-| [setSucceededQueueSending(System.EventHandler<MailMessageEventArgs> handler)](#setSucceededQueueSending-com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--) | Adds or removes subscriber for notifications about succeeded sending operations in smtp queue |
 | [setSucceededSending(System.EventHandler<MailMessageEventArgs> handler)](#setSucceededSending-com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--) | Adds or removes subscriber for notifications about succeeded sending of mail messages. |
 | [setSupportedEncryption(int value)](#setSupportedEncryption-int-) | Defines the versions of SSL/TLS encryption protocols to be used. |
 | [setSupportedEncryptionUnsafe(int value)](#setSupportedEncryptionUnsafe-int-) | Defines the versions of SSL/TLS encryption protocols to be used. |
@@ -2469,19 +2468,6 @@ Set SSL Socket Factory for Sockets Layer version 2
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | javax.net.ssl.SSLSocketFactory |  |
-
-### setSucceededQueueSending(System.EventHandler<MailMessageEventArgs> handler) {#setSucceededQueueSending-com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--}
-```
-public void setSucceededQueueSending(System.EventHandler<MailMessageEventArgs> handler)
-```
-
-
-Adds or removes subscriber for notifications about succeeded sending operations in smtp queue
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| handler | com.aspose.ms.System.EventHandler<com.aspose.email.MailMessageEventArgs> |  |
 
 ### setSucceededSending(System.EventHandler<MailMessageEventArgs> handler) {#setSucceededSending-com.aspose.ms.System.EventHandler-com.aspose.email.MailMessageEventArgs--}
 ```

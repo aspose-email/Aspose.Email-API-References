@@ -27,14 +27,12 @@ This is an abstract base class for classes that allow the user to specify additi
 | [getClass()](#getClass--) |  |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
-| [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
-| [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [toString()](#toString--) |  |
@@ -85,16 +83,6 @@ Represents the mail message format.It can be in eml,msg or mhtml format. The def
 ### getPreferredTextEncoding() {#getPreferredTextEncoding--}
 ```
 public final Charset getPreferredTextEncoding()
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Returns:**
-java.nio.charset.Charset
-### getPrefferedTextEncoding() {#getPrefferedTextEncoding--}
-```
-public final Charset getPrefferedTextEncoding()
 ```
 
 
@@ -157,19 +145,6 @@ public final native void notifyAll()
 ### setPreferredTextEncoding(Charset value) {#setPreferredTextEncoding-java.nio.charset.Charset-}
 ```
 public final void setPreferredTextEncoding(Charset value)
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
-
-### setPrefferedTextEncoding(Charset value) {#setPrefferedTextEncoding-java.nio.charset.Charset-}
-```
-public final void setPrefferedTextEncoding(Charset value)
 ```
 
 

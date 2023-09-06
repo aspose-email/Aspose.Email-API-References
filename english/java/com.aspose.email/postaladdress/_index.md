@@ -3,7 +3,7 @@ title: PostalAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents a postal address.
 type: docs
-weight: 577
+weight: 578
 url: /java/com.aspose.email/postaladdress/
 ---
 
