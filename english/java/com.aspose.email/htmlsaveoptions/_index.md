@@ -40,7 +40,6 @@ Allows to specify additional options when saving MailMessage to Html format.
 | [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
 | [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
 | [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Default page header format. |
-| [getEmbedResources()](#getEmbedResources--) | Defines whether need embed resources in html content when saving or not. |
 | [getFormatTemplates()](#getFormatTemplates--) | Gets the format templates. |
 | [getHtmlFormatOptions()](#getHtmlFormatOptions--) | Gets or sets additional options when saving in HTML format. |
 | [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
@@ -48,7 +47,6 @@ Allows to specify additional options when saving MailMessage to Html format.
 | [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
 | [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Provides customization of rendering resources in html. |
 | [getResourceRenderingMode()](#getResourceRenderingMode--) | Provides set various modes of rendering resources in html. |
-| [getSaveResourceHandler()](#getSaveResourceHandler--) | This handler is called for saving all message attachments if EmbedResources is false. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -59,13 +57,11 @@ Allows to specify additional options when saving MailMessage to Html format.
 | [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
 | [setDefaultHeaderFormat(String value)](#setDefaultHeaderFormat-java.lang.String-) | Default header line format. |
 | [setDefaultPageHeaderFormat(String value)](#setDefaultPageHeaderFormat-java.lang.String-) | Default page header format. |
-| [setEmbedResources(boolean value)](#setEmbedResources-boolean-) | Defines whether need embed resources in html content when saving or not. |
 | [setHtmlFormatOptions(int value)](#setHtmlFormatOptions-int-) | Gets or sets additional options when saving in HTML format. |
 | [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Defines groups of Contact fields which will be included in output mhtml. |
 | [setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)](#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-) | Provides customization of rendering resources in html. |
 | [setResourceRenderingMode(int value)](#setResourceRenderingMode-int-) | Provides set various modes of rendering resources in html. |
-| [setSaveResourceHandler(SaveResourceHandler value)](#setSaveResourceHandler-com.aspose.email.SaveResourceHandler-) | This handler is called for saving all message attachments if EmbedResources is false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -272,16 +268,6 @@ Value: The styles to be injected into resulting html body.
 
 **Returns:**
 java.lang.String
-### getEmbedResources() {#getEmbedResources--}
-```
-public final boolean getEmbedResources()
-```
-
-
-Defines whether need embed resources in html content when saving or not. Default value is true.
-
-**Returns:**
-boolean
 ### getFormatTemplates() {#getFormatTemplates--}
 ```
 public final System.Collections.Specialized.StringDictionary getFormatTemplates()
@@ -354,16 +340,6 @@ Provides set various modes of rendering resources in html. Default value EmbedIn
 
 **Returns:**
 int
-### getSaveResourceHandler() {#getSaveResourceHandler--}
-```
-public final SaveResourceHandler getSaveResourceHandler()
-```
-
-
-This handler is called for saving all message attachments if EmbedResources is false.
-
-**Returns:**
-[SaveResourceHandler](../../com.aspose.email/saveresourcehandler)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -495,19 +471,6 @@ Value: The styles to be injected into resulting html body.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setEmbedResources(boolean value) {#setEmbedResources-boolean-}
-```
-public final void setEmbedResources(boolean value)
-```
-
-
-Defines whether need embed resources in html content when saving or not. Default value is true.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setHtmlFormatOptions(int value) {#setHtmlFormatOptions-int-}
 ```
 public final void setHtmlFormatOptions(int value)
@@ -572,19 +535,6 @@ Provides set various modes of rendering resources in html. Default value EmbedIn
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
-
-### setSaveResourceHandler(SaveResourceHandler value) {#setSaveResourceHandler-com.aspose.email.SaveResourceHandler-}
-```
-public final void setSaveResourceHandler(SaveResourceHandler value)
-```
-
-
-This handler is called for saving all message attachments if EmbedResources is false.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [SaveResourceHandler](../../com.aspose.email/saveresourcehandler) |  |
 
 ### toString() {#toString--}
 ```

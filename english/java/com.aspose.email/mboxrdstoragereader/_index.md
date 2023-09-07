@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 488
+weight: 489
 url: /java/com.aspose.email/mboxrdstoragereader/
 ---
 
@@ -18,9 +18,6 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 
 | Constructor | Description |
 | --- | --- |
-| [MboxrdStorageReader(InputStream stream, boolean leaveOpen)](#MboxrdStorageReader-java.io.InputStream-boolean-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
-| [MboxrdStorageReader(System.IO.Stream stream, boolean leaveOpen)](#MboxrdStorageReader-com.aspose.ms.System.IO.Stream-boolean-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
-| [MboxrdStorageReader(String fileName, boolean leaveOpen)](#MboxrdStorageReader-java.lang.String-boolean-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
 | [MboxrdStorageReader(InputStream stream, MboxLoadOptions options)](#MboxrdStorageReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
 | [MboxrdStorageReader(System.IO.Stream stream, MboxLoadOptions options)](#MboxrdStorageReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
 | [MboxrdStorageReader(String fileName, MboxLoadOptions options)](#MboxrdStorageReader-java.lang.String-com.aspose.email.MboxLoadOptions-) | Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class. |
@@ -29,11 +26,8 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 | Method | Description |
 | --- | --- |
 | [close()](#close--) |  |
-| [createReader(System.IO.Stream stream, boolean leaveOpen)](#createReader-com.aspose.ms.System.IO.Stream-boolean-) | Creates the instance of reader. |
 | [createReader(System.IO.Stream stream, MboxLoadOptions options)](#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
-| [createReader(InputStream stream, boolean leaveOpen)](#createReader-java.io.InputStream-boolean-) | Creates the instance of reader. |
 | [createReader(InputStream stream, MboxLoadOptions options)](#createReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
-| [createReader(String fileName, boolean leaveOpen)](#createReader-java.lang.String-boolean-) | Creates the instance of reader. |
 | [createReader(String fileName, MboxLoadOptions options)](#createReader-java.lang.String-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [enumerateMessageInfo()](#enumerateMessageInfo--) | Exposes the enumerator, which supports an iteration of messages in storage. |
@@ -56,48 +50,6 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MboxrdStorageReader(InputStream stream, boolean leaveOpen) {#MboxrdStorageReader-java.io.InputStream-boolean-}
-```
-public MboxrdStorageReader(InputStream stream, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-### MboxrdStorageReader(System.IO.Stream stream, boolean leaveOpen) {#MboxrdStorageReader-com.aspose.ms.System.IO.Stream-boolean-}
-```
-public MboxrdStorageReader(System.IO.Stream stream, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-### MboxrdStorageReader(String fileName, boolean leaveOpen) {#MboxrdStorageReader-java.lang.String-boolean-}
-```
-public MboxrdStorageReader(String fileName, boolean leaveOpen)
-```
-
-
-Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/mboxrdstoragereader) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Name of the file. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
 ### MboxrdStorageReader(InputStream stream, MboxLoadOptions options) {#MboxrdStorageReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-}
 ```
 public MboxrdStorageReader(InputStream stream, MboxLoadOptions options)
@@ -148,22 +100,6 @@ public void close()
 
 
 
-### createReader(System.IO.Stream stream, boolean leaveOpen) {#createReader-com.aspose.ms.System.IO.Stream-boolean-}
-```
-public static MboxStorageReader createReader(System.IO.Stream stream, boolean leaveOpen)
-```
-
-
-Creates the instance of reader.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-**Returns:**
-[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
 ### createReader(System.IO.Stream stream, MboxLoadOptions options) {#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-}
 ```
 public static MboxStorageReader createReader(System.IO.Stream stream, MboxLoadOptions options)
@@ -180,22 +116,6 @@ Creates the instance of reader.
 
 **Returns:**
 [MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
-### createReader(InputStream stream, boolean leaveOpen) {#createReader-java.io.InputStream-boolean-}
-```
-public static MboxStorageReader createReader(InputStream stream, boolean leaveOpen)
-```
-
-
-Creates the instance of reader.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream. |
-| leaveOpen | boolean | if set to  true  leaves the underlying stream open after disposing. |
-
-**Returns:**
-[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
 ### createReader(InputStream stream, MboxLoadOptions options) {#createReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-}
 ```
 public static MboxStorageReader createReader(InputStream stream, MboxLoadOptions options)
@@ -209,22 +129,6 @@ Creates the instance of reader.
 | --- | --- | --- |
 | stream | java.io.InputStream | The stream. |
 | options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
-
-**Returns:**
-[MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 
-### createReader(String fileName, boolean leaveOpen) {#createReader-java.lang.String-boolean-}
-```
-public static MboxStorageReader createReader(String fileName, boolean leaveOpen)
-```
-
-
-Creates the instance of reader.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String |  |
-| leaveOpen | boolean |  |
 
 **Returns:**
 [MboxStorageReader](../../com.aspose.email/mboxstoragereader) - 

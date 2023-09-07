@@ -3,7 +3,7 @@ title: Pop3ListFields
 second_title: Aspose.Email for Java API Reference
 description: Fields that may be retrieved from the server
 type: docs
-weight: 573
+weight: 574
 url: /java/com.aspose.email/pop3listfields/
 ---
 
@@ -18,7 +18,6 @@ Fields that may be retrieved from the server
 
 | Field | Description |
 | --- | --- |
-| [All](#All) | Includes SequenceNumber, UniqueId (if it's supported), Size, Headers |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 | [IdOnly](#IdOnly) | Includs UniqueId (if it's supported), SequenceNumber |
 | [Main](#Main) | Includes SequenceNumber, UniqueId (if it's supported), Size, Headers |
@@ -61,14 +60,6 @@ Fields that may be retrieved from the server
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### All {#All}
-```
-public static final int All
-```
-
-
-Includes SequenceNumber, UniqueId (if it's supported), Size, Headers
-
 ### EnumSeparatorCharArray {#EnumSeparatorCharArray}
 ```
 public static final char[] EnumSeparatorCharArray

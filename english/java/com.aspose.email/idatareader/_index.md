@@ -3,7 +3,7 @@ title: IDataReader
 second_title: Aspose.Email for Java API Reference
 description: IDataReader class
 type: docs
-weight: 299
+weight: 300
 url: /java/com.aspose.email/idatareader/
 ---
 

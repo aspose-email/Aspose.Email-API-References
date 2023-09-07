@@ -3,7 +3,7 @@ title: RulePredicateFlags
 second_title: Aspose.Email for Java API Reference
 description: Represents the RulePredicate flags
 type: docs
-weight: 614
+weight: 615
 url: /java/com.aspose.email/rulepredicateflags/
 ---
 

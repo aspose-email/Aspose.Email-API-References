@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when loading a PST storage.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.email/personalstorageloadoptions/
 ---
 

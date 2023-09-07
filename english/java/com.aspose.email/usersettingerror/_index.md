@@ -3,7 +3,7 @@ title: UserSettingError
 second_title: Aspose.Email for Java API Reference
 description: Represents an error from a GetUserSettings request.
 type: docs
-weight: 698
+weight: 699
 url: /java/com.aspose.email/usersettingerror/
 ---
 

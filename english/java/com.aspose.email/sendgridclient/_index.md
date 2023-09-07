@@ -3,7 +3,7 @@ title: SendGridClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the SendGrid client
 type: docs
-weight: 628
+weight: 629
 url: /java/com.aspose.email/sendgridclient/
 ---
 

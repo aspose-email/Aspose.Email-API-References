@@ -28,7 +28,6 @@ Allows to specify additional options when loading MailMessage from Html format.
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [getPathToResources()](#getPathToResources--) | Path to directory with resources files. |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
-| [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getRemoveSignature()](#getRemoveSignature--) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [hashCode()](#hashCode--) |  |
@@ -36,7 +35,6 @@ Allows to specify additional options when loading MailMessage from Html format.
 | [notifyAll()](#notifyAll--) |  |
 | [setPathToResources(String value)](#setPathToResources-java.lang.String-) | Path to directory with resources files. |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
-| [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setRemoveSignature(boolean value)](#setRemoveSignature-boolean-) | Gets or sets a value indicating whether signature will be removed while loading. |
 | [shouldAddPlainTextView()](#shouldAddPlainTextView--) | Specifies whether to add a text representation of the body or not. |
@@ -101,16 +99,6 @@ java.lang.String
 ### getPreferredTextEncoding() {#getPreferredTextEncoding--}
 ```
 public final Charset getPreferredTextEncoding()
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Returns:**
-java.nio.charset.Charset
-### getPrefferedTextEncoding() {#getPrefferedTextEncoding--}
-```
-public final Charset getPrefferedTextEncoding()
 ```
 
 
@@ -186,19 +174,6 @@ Path to directory with resources files.
 ### setPreferredTextEncoding(Charset value) {#setPreferredTextEncoding-java.nio.charset.Charset-}
 ```
 public final void setPreferredTextEncoding(Charset value)
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
-
-### setPrefferedTextEncoding(Charset value) {#setPrefferedTextEncoding-java.nio.charset.Charset-}
-```
-public final void setPrefferedTextEncoding(Charset value)
 ```
 
 

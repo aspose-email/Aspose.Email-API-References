@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
-weight: 523
+weight: 524
 url: /java/com.aspose.email/msgloadoptions/
 ---
 
@@ -29,7 +29,6 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
-| [getPrefferedTextEncoding()](#getPrefferedTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [getPreserveRtfContent()](#getPreserveRtfContent--) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [getPreserveTnefAttachments()](#getPreserveTnefAttachments--) | Controls loading TNEF attachment behaviour. |
@@ -41,7 +40,6 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [setDecodeSignedContent(boolean value)](#setDecodeSignedContent-boolean-) | Gets or sets a value indicating whether signed message will be decoded. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
-| [setPrefferedTextEncoding(Charset value)](#setPrefferedTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
 | [setPreserveTnefAttachments(boolean value)](#setPreserveTnefAttachments-boolean-) | Controls loading TNEF attachment behaviour. |
@@ -119,16 +117,6 @@ Represents the mail message format.It can be in eml,msg or mhtml format. The def
 ### getPreferredTextEncoding() {#getPreferredTextEncoding--}
 ```
 public final Charset getPreferredTextEncoding()
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Returns:**
-java.nio.charset.Charset
-### getPrefferedTextEncoding() {#getPrefferedTextEncoding--}
-```
-public final Charset getPrefferedTextEncoding()
 ```
 
 
@@ -253,19 +241,6 @@ Gets or sets a value indicating whether need keep original email address.
 ### setPreferredTextEncoding(Charset value) {#setPreferredTextEncoding-java.nio.charset.Charset-}
 ```
 public final void setPreferredTextEncoding(Charset value)
-```
-
-
-Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
-
-### setPrefferedTextEncoding(Charset value) {#setPrefferedTextEncoding-java.nio.charset.Charset-}
-```
-public final void setPrefferedTextEncoding(Charset value)
 ```
 
 

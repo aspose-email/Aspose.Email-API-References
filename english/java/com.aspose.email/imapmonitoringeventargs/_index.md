@@ -19,7 +19,6 @@ Class contains monitoring event data.
 | Constructor | Description |
 | --- | --- |
 | [ImapMonitoringEventArgs(String folderName, ImapMessageInfo[] newMessages, ImapMessageInfo[] deletedMessages)](#ImapMonitoringEventArgs-java.lang.String-com.aspose.email.ImapMessageInfo---com.aspose.email.ImapMessageInfo---) | Initializes a new instance of the [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) class |
-| [ImapMonitoringEventArgs(String folderName, Throwable error)](#ImapMonitoringEventArgs-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) class |
 ## Fields
 
 | Field | Description |
@@ -32,7 +31,6 @@ Class contains monitoring event data.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeletedMessages()](#getDeletedMessages--) | Gets deleted messages |
-| [getError()](#getError--) | Gets error of IMAP IDLE operation. |
 | [getFolderName()](#getFolderName--) | Gets specified folder for monitoring operation. |
 | [getNewMessages()](#getNewMessages--) | Gets new messages |
 | [hashCode()](#hashCode--) |  |
@@ -56,20 +54,6 @@ Initializes a new instance of the [ImapMonitoringEventArgs](../../com.aspose.ema
 | folderName | java.lang.String | specified folder for monitoring operation |
 | newMessages | [ImapMessageInfo\[\]](../../com.aspose.email/imapmessageinfo) | Contains information about new messages |
 | deletedMessages | [ImapMessageInfo\[\]](../../com.aspose.email/imapmessageinfo) | Contains information about deleted messages |
-
-### ImapMonitoringEventArgs(String folderName, Throwable error) {#ImapMonitoringEventArgs-java.lang.String-java.lang.Throwable-}
-```
-public ImapMonitoringEventArgs(String folderName, Throwable error)
-```
-
-
-Initializes a new instance of the [ImapMonitoringEventArgs](../../com.aspose.email/imapmonitoringeventargs) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | java.lang.String | specified folder for monitoring operation |
-| error | java.lang.Throwable | Error of IMAP IDLE operation |
 
 ### Empty {#Empty}
 ```
@@ -112,16 +96,6 @@ Gets deleted messages
 
 **Returns:**
 com.aspose.email.ImapMessageInfo[]
-### getError() {#getError--}
-```
-public final Throwable getError()
-```
-
-
-Gets error of IMAP IDLE operation.
-
-**Returns:**
-java.lang.Throwable
 ### getFolderName() {#getFolderName--}
 ```
 public final String getFolderName()
