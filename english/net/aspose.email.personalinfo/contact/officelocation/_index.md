@@ -3,7 +3,7 @@ title: Contact.OfficeLocation
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets office location
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.email.personalinfo/contact/officelocation/
 ---
 ## Contact.OfficeLocation property

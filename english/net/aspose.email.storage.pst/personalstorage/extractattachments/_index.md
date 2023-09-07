@@ -3,7 +3,7 @@ title: PersonalStorage.ExtractAttachments
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Extracts the attachments
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.email.storage.pst/personalstorage/extractattachments/
 ---
 ## ExtractAttachments(MessageInfo) {#extractattachments}

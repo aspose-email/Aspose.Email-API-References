@@ -3,7 +3,7 @@ title: PersonalStorage.MergeWith
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Merges the pst storage with one or more other pst files. Thus the combined files are sources
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.email.storage.pst/personalstorage/mergewith/
 ---
 ## MergeWith(string[]) {#mergewith_1}

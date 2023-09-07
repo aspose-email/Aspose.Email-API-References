@@ -12,7 +12,7 @@ Lists the messages.
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(
-    Pop3ListFields fields = Pop3ListFields.All, bool closeTransaction = false, 
+    Pop3ListFields fields = Pop3ListFields.Main, bool closeTransaction = false, 
     MailQuery query = null, IConnection connection = null, CancellationToken token = default)
 ```
 

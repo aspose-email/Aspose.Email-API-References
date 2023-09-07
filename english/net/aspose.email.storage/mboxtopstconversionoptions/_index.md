@@ -3,7 +3,7 @@ title: Class MboxToPstConversionOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.MboxToPstConversionOptions class. This class allows the user to specify additional options when converting from Mbox to PST
 type: docs
-weight: 19880
+weight: 20150
 url: /net/aspose.email.storage/mboxtopstconversionoptions/
 ---
 ## MboxToPstConversionOptions class

@@ -18,7 +18,7 @@ public class ImapMonitoringEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ImapMonitoringEventArgs](imapmonitoringeventargs/#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | Initializes a new instance of the `ImapMonitoringEventArgs` class |
+| [ImapMonitoringEventArgs](imapmonitoringeventargs/)(string, ImapMessageInfo[], ImapMessageInfo[]) | Initializes a new instance of the `ImapMonitoringEventArgs` class |
 
 ## Properties
 

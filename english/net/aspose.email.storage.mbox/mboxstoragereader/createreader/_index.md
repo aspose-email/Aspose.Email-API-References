@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxstoragereader/createreader/
 ---
-## CreateReader(string, MboxLoadOptions, CancellationToken) {#createreader_4}
+## CreateReader(string, MboxLoadOptions, CancellationToken) {#createreader_3}
 
 Creates the instance of reader.
 
@@ -94,7 +94,7 @@ public static MboxStorageReader CreateReader(Stream stream, MboxLoadOptions opti
 
 ---
 
-## CreateReader(string, MboxLoadOptions) {#createreader_3}
+## CreateReader(string, MboxLoadOptions) {#createreader_2}
 
 Creates the instance of reader.
 

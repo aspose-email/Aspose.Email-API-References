@@ -3,7 +3,7 @@ title: Contact.CustomerId
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a customer id
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.email.personalinfo/contact/customerid/
 ---
 ## Contact.CustomerId property

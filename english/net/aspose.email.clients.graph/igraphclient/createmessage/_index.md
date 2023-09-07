@@ -6,7 +6,7 @@ type: docs
 weight: 140
 url: /net/aspose.email.clients.graph/igraphclient/createmessage/
 ---
-## IGraphClient.CreateMessage method
+## CreateMessage(string, MapiMessage) {#createmessage_1}
 
 Creates message in specified folder
 
@@ -26,6 +26,28 @@ Created message
 ### See Also
 
 * class [MapiMessage](../../../aspose.email.mapi/mapimessage/)
+* interface [IGraphClient](../)
+* namespace [Aspose.Email.Clients.Graph](../../igraphclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CreateMessage(string, MailMessage) {#createmessage}
+
+Creates message in specified folder
+
+```csharp
+public MailMessage CreateMessage(string folderId, MailMessage message)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderId | String | Parent folder id |
+| message | MailMessage | MailMessage to be created |
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
 * interface [IGraphClient](../)
 * namespace [Aspose.Email.Clients.Graph](../../igraphclient/)
 * assembly [Aspose.Email](../../../)

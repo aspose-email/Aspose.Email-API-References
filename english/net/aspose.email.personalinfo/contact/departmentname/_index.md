@@ -3,7 +3,7 @@ title: Contact.DepartmentName
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a department name
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.email.personalinfo/contact/departmentname/
 ---
 ## Contact.DepartmentName property

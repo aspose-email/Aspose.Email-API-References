@@ -3,7 +3,7 @@ title: Contact.EmailAddresses
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets list of email addresses
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.email.personalinfo/contact/emailaddresses/
 ---
 ## Contact.EmailAddresses property

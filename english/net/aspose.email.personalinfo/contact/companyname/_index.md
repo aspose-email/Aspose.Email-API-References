@@ -3,7 +3,7 @@ title: Contact.CompanyName
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a company name
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.email.personalinfo/contact/companyname/
 ---
 ## Contact.CompanyName property

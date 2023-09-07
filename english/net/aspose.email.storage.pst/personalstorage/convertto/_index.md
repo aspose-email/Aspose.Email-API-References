@@ -3,7 +3,7 @@ title: PersonalStorage.ConvertTo
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Converts the current object to the specified format
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.storage.pst/personalstorage/convertto/
 ---
 ## PersonalStorage.ConvertTo method

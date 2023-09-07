@@ -3,7 +3,7 @@ title: Class FolderCreationOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderCreationOptions class. Represents the options for creating a subfolder in the Outlook PST message store. This class serves as a container for configuring specific settings related to the creation of subfolders
 type: docs
-weight: 19970
+weight: 20240
 url: /net/aspose.email.storage.pst/foldercreationoptions/
 ---
 ## FolderCreationOptions class

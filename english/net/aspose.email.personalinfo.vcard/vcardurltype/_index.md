@@ -3,7 +3,7 @@ title: Enum VCardUrlType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardUrlType enum. Enumerates url type
 type: docs
-weight: 19590
+weight: 19860
 url: /net/aspose.email.personalinfo.vcard/vcardurltype/
 ---
 ## VCardUrlType enumeration

@@ -3,7 +3,7 @@ title: PersonalStorage.Dispose
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.email.storage.pst/personalstorage/dispose/
 ---
 ## PersonalStorage.Dispose method

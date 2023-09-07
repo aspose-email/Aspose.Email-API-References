@@ -3,7 +3,7 @@ title: CalendarReader.Current
 second_title: Aspose.Email for .NET API Reference
 description: CalendarReader property. Current read event
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.calendar/calendarreader/current/
 ---
 ## CalendarReader.Current property

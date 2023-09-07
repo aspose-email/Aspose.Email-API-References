@@ -3,7 +3,7 @@ title: EmailAddressList.Clear
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Removes all items from the list
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.personalinfo/emailaddresslist/clear/
 ---
 ## EmailAddressList.Clear method

@@ -21,7 +21,6 @@ public enum Pop3ListFields
 | --- | --- | --- |
 | IdOnly | `0` | Includs UniqueId (if it's supported), SequenceNumber |
 | Main | `1` | Includes SequenceNumber, UniqueId (if it's supported), Size, Headers |
-| All | `1` | Includes SequenceNumber, UniqueId (if it's supported), Size, Headers |
 
 ### See Also
 

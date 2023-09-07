@@ -12,7 +12,7 @@ Gets the information for that message
 
 ```csharp
 public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, 
-    Pop3ListFields fields = Pop3ListFields.All, IConnection connection = null, 
+    Pop3ListFields fields = Pop3ListFields.Main, IConnection connection = null, 
     CancellationToken token = default)
 ```
 
@@ -44,7 +44,7 @@ Gets the information for that message
 
 ```csharp
 public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, 
-    Pop3ListFields fields = Pop3ListFields.All, IConnection connection = null, 
+    Pop3ListFields fields = Pop3ListFields.Main, IConnection connection = null, 
     CancellationToken token = default)
 ```
 

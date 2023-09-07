@@ -3,7 +3,7 @@ title: EmailAddressList.IsReadOnly
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList property. Gets a value indicating whether the list is readonly
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.personalinfo/emailaddresslist/isreadonly/
 ---
 ## EmailAddressList.IsReadOnly property

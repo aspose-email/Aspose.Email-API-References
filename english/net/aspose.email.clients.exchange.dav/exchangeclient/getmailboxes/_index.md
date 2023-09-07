@@ -16,10 +16,11 @@ public Contact[] GetMailboxes()
 
 ### Return Value
 
-An array of Contact objects.
+An array of [`Contact`](../../../aspose.email.personalinfo/contact/) objects.
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [ExchangeClient](../)
 * namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: Contact.Attachments
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets attachments collection
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.email.personalinfo/contact/attachments/
 ---
 ## Contact.Attachments property

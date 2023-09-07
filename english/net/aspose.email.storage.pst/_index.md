@@ -3,7 +3,7 @@ title: Aspose.Email.Storage.Pst
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Storage.Pst namespace contains classes for work with Microsoft Outlook PSTOST file format
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.email.storage.pst/
 ---
 The **Aspose.Email.Storage.Pst** namespace contains classes for work with Microsoft Outlook PST\OST file format.
@@ -28,6 +28,8 @@ The **Aspose.Email.Storage.Pst** namespace contains classes for work with Micros
 | [SaveResult](./saveresult/) | Represents the result of saving the retrieved item. |
 | [StorageProcessedEventArgs](./storageprocessedeventargs/) | Provides data for the [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event |
 | [StorageProcessedEventHandler](./storageprocessedeventhandler/) | Represents the method that will handle an [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event. |
+| [StorageProcessingEventArgs](./storageprocessingeventargs/) | Provides data for the [`StorageProcessing`](../aspose.email.storage.pst/personalstorage/storageprocessing/) event |
+| [StorageProcessingEventHandler](./storageprocessingeventhandler/) | Event handler for the StoragePreProcessing. Occurs before the srorage is processed. |
 ## Enumeration
 
 | Enumeration | Description |

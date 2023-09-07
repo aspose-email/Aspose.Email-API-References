@@ -3,7 +3,7 @@ title: Enum RestoreOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.RestoreOptions enum. Enumerates restore options
 type: docs
-weight: 20140
+weight: 20410
 url: /net/aspose.email.storage.pst/restoreoptions/
 ---
 ## RestoreOptions enumeration

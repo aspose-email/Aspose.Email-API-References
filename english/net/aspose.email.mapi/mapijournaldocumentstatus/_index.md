@@ -3,7 +3,7 @@ title: Enum MapiJournalDocumentStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiJournalDocumentStatus enum. Indicates the status of document
 type: docs
-weight: 18470
+weight: 18480
 url: /net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 ## MapiJournalDocumentStatus enumeration

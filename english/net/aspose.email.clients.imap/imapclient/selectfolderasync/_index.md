@@ -6,6 +6,32 @@ type: docs
 weight: 1130
 url: /net/aspose.email.clients.imap/imapclient/selectfolderasync/
 ---
+## SelectFolderAsync(string, bool?, CancellationToken) {#selectfolderasync_6}
+
+Selects the specified folder
+
+```csharp
+public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to be selected |
+| readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## SelectFolderAsync(IConnection, string) {#selectfolderasync}
 
 Selects the specified folder
@@ -175,32 +201,6 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderName | String | Folder to be selected |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## SelectFolderAsync(string, bool?, CancellationToken) {#selectfolderasync_6}
-
-Selects the specified folder
-
-```csharp
-public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | String | Folder to be selected |
-| readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value

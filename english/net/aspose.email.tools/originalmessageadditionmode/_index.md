@@ -3,7 +3,7 @@ title: Enum OriginalMessageAdditionMode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.OriginalMessageAdditionMode enum. Way to include the original message in response message
 type: docs
-weight: 20440
+weight: 20730
 url: /net/aspose.email.tools/originalmessageadditionmode/
 ---
 ## OriginalMessageAdditionMode enumeration

@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapimessage/frommailmessage/
 ---
-## FromMailMessage(string) {#frommailmessage_2}
+## FromMailMessage(string) {#frommailmessage_3}
 
 Creates an instance of MapiMessage from the MailMessage.
 
@@ -21,6 +21,30 @@ public static MapiMessage FromMailMessage(string fileName)
 ### Return Value
 
 Returns a MapiMessage instance which is loaded from the MailMessage.
+
+### See Also
+
+* class [MapiMessage](../)
+* namespace [Aspose.Email.Mapi](../../mapimessage/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## FromMailMessage(Stream) {#frommailmessage_2}
+
+Creates an instance of MapiMessage from the EML format data stream.
+
+```csharp
+public static MapiMessage FromMailMessage(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream of data that represents an EML file. |
+
+### Return Value
+
+Returns a MapiMessage instance which is loaded from the EML format data stream.
 
 ### See Also
 

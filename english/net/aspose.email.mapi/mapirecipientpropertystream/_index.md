@@ -3,7 +3,7 @@ title: Class MapiRecipientPropertyStream
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiRecipientPropertyStream class. Represents the property stream of recipient object
 type: docs
-weight: 18680
+weight: 18690
 url: /net/aspose.email.mapi/mapirecipientpropertystream/
 ---
 ## MapiRecipientPropertyStream class

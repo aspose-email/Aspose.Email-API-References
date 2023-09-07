@@ -3,7 +3,7 @@ title: EmailAddressCategory.Email3Value
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory field. String value for Email3 category
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.personalinfo/emailaddresscategory/email3value/
 ---
 ## EmailAddressCategory.Email3Value field

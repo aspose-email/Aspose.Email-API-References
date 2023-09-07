@@ -3,7 +3,7 @@ title: EmailAddressList.Item
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList property. Default email address for specified category
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.personalinfo/emailaddresslist/item/
 ---
 ## EmailAddressList indexer (1 of 2)

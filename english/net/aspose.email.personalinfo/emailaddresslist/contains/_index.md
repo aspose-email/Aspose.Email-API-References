@@ -3,7 +3,7 @@ title: EmailAddressList.Contains
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Determines whether the list contains a specific value
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.personalinfo/emailaddresslist/contains/
 ---
 ## EmailAddressList.Contains method

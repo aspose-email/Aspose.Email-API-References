@@ -3,7 +3,7 @@ title: Interface IMessageObjectPropertyContainer
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.IMessageObjectPropertyContainer interface. Defines an interface for container which contains MessageObjectProperty entries
 type: docs
-weight: 18820
+weight: 18830
 url: /net/aspose.email.mapi.msg/imessageobjectpropertycontainer/
 ---
 ## IMessageObjectPropertyContainer interface

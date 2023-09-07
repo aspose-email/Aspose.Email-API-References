@@ -3,7 +3,7 @@ title: EmailAddressCategory.Email1Value
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory field. String value for Email1 category
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.personalinfo/emailaddresscategory/email1value/
 ---
 ## EmailAddressCategory.Email1Value field

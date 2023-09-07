@@ -3,7 +3,7 @@ title: Class MailClientAgent
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.MailClientAgent class. Represents an email client agent
 type: docs
-weight: 20770
+weight: 21060
 url: /net/aspose.email.windows.forms/mailclientagent/
 ---
 ## MailClientAgent class

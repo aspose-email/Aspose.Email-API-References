@@ -3,7 +3,7 @@ title: EmailAddressList.Email3
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList property. Default email3 address
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.personalinfo/emailaddresslist/email3/
 ---
 ## EmailAddressList.Email3 property

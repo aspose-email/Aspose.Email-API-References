@@ -3,7 +3,7 @@ title: EmailAddressCategory.GetHashCode
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory method. GetHashCode returns a hash function for this object
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.personalinfo/emailaddresscategory/gethashcode/
 ---
 ## EmailAddressCategory.GetHashCode method

@@ -3,7 +3,7 @@ title: Contact.Surname
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a surname that is a part of a persons full name. Surname is also known as family name or last name
 type: docs
-weight: 390
+weight: 380
 url: /net/aspose.email.personalinfo/contact/surname/
 ---
 ## Contact.Surname property

@@ -20,10 +20,11 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ### Return Value
 
-An array of Contact objects.
+An array of [`Contact`](../../../aspose.email.personalinfo/contact/) objects.
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
@@ -55,6 +56,7 @@ Contacts that represents contacts information
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * enum [ExchangeListContactsOptions](../../exchangelistcontactsoptions/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)

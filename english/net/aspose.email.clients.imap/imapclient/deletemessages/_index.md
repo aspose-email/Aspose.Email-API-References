@@ -1,11 +1,130 @@
 ---
 title: ImapClient.DeleteMessages
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Marks a message with the specified sequence number as deleted
+description: ImapClient method. Marks a message with the specified unique identifier as deleted
 type: docs
 weight: 590
 url: /net/aspose.email.clients.imap/imapclient/deletemessages/
 ---
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_20}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence, 
+    bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    long modificationSequence, bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
 
 Marks a message with the specified sequence number as deleted
@@ -607,125 +726,6 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | connection | IConnection | Connection to a server |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_20}
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence, 
-    bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    long modificationSequence, bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
 ### See Also
 

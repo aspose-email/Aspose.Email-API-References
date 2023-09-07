@@ -3,7 +3,7 @@ title: Enum MapiTaskHistory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskHistory enum. Indicates the type of change that was last made to the Task object
 type: docs
-weight: 18740
+weight: 18750
 url: /net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration

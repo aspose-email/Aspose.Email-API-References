@@ -3,7 +3,7 @@ title: Contact.Profession
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a job position of a person in a company
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.email.personalinfo/contact/profession/
 ---
 ## Contact.Profession property

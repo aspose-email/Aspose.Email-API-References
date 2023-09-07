@@ -57,7 +57,7 @@ Returns appointment UID
 
 ---
 
-## CreateAppointment(MapiCalendar, string, bool) {#createappointment_4}
+## CreateAppointment(MapiCalendar, string, bool) {#createappointment_2}
 
 Creates appointment.
 

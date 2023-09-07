@@ -57,7 +57,7 @@ An uri of created message
 
 ---
 
-## AppendMessage(string, MapiMessage, bool) {#appendmessage_5}
+## AppendMessage(string, MapiMessage, bool) {#appendmessage_4}
 
 Uploads the mail message to the specified folder
 

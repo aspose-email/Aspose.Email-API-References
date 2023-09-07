@@ -3,7 +3,7 @@ title: Contact.JobTitle
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a job title
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.email.personalinfo/contact/jobtitle/
 ---
 ## Contact.JobTitle property

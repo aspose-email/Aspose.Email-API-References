@@ -3,7 +3,7 @@ title: Contact.Save
 second_title: Aspose.Email for .NET API Reference
 description: Contact method. Saves this MapiContact into the given stream with vCard format. The supported vCard version is 2.1
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.email.personalinfo/contact/save/
 ---
 ## Save(Stream) {#save}

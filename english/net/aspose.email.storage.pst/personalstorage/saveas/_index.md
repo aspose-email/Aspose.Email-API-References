@@ -3,7 +3,7 @@ title: PersonalStorage.SaveAs
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Saves the current object to a specified file format in a different file
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.email.storage.pst/personalstorage/saveas/
 ---
 ## SaveAs(string, FileFormat) {#saveas_1}

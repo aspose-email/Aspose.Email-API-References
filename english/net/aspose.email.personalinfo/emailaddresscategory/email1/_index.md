@@ -3,7 +3,7 @@ title: EmailAddressCategory.Email1
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory property. Email1 category. Used by MS Exchange server
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.personalinfo/emailaddresscategory/email1/
 ---
 ## EmailAddressCategory.Email1 property

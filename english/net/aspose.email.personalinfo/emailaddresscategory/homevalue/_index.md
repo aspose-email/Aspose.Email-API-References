@@ -3,7 +3,7 @@ title: EmailAddressCategory.HomeValue
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory field. String value for Home category
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.email.personalinfo/emailaddresscategory/homevalue/
 ---
 ## EmailAddressCategory.HomeValue field

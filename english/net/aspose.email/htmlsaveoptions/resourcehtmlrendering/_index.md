@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ResourceHtmlRendering
 second_title: Aspose.Email for .NET API Reference
 description: HtmlSaveOptions event. Provides customization of rendering resources in html
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.email/htmlsaveoptions/resourcehtmlrendering/
 ---
 ## HtmlSaveOptions.ResourceHtmlRendering event

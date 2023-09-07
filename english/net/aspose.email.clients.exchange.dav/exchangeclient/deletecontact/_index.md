@@ -20,6 +20,7 @@ public void DeleteContact(Contact contact)
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [ExchangeClient](../)
 * namespace [Aspose.Email.Clients.Exchange.Dav](../../exchangeclient/)
 * assembly [Aspose.Email](../../../)

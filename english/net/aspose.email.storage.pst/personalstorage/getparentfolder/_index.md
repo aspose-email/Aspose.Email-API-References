@@ -3,7 +3,7 @@ title: PersonalStorage.GetParentFolder
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Gets the parent folder of message
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.email.storage.pst/personalstorage/getparentfolder/
 ---
 ## GetParentFolder(string) {#getparentfolder_1}

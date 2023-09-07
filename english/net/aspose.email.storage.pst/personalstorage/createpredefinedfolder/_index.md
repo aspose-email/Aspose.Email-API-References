@@ -3,7 +3,7 @@ title: PersonalStorage.CreatePredefinedFolder
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Creates the standard interpersonal message IPM folder
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.storage.pst/personalstorage/createpredefinedfolder/
 ---
 ## CreatePredefinedFolder(string, StandardIpmFolder, bool) {#createpredefinedfolder_1}

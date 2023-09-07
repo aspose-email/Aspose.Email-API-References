@@ -37,7 +37,7 @@ A task uri
 
 ---
 
-## CreateTask(string, ExchangeTask) {#createtask_2}
+## CreateTask(string, ExchangeTask) {#createtask_1}
 
 Creates the given task in the specified folder.
 

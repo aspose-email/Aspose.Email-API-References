@@ -3,7 +3,7 @@ title: PersonalStorage.EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Exposes the enumerator which supports an iteration of messages in folder
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.email.storage.pst/personalstorage/enumeratemessages/
 ---
 ## EnumerateMessages(string) {#enumeratemessages}

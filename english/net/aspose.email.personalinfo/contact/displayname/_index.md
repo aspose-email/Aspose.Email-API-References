@@ -3,7 +3,7 @@ title: Contact.DisplayName
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a display name
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.email.personalinfo/contact/displayname/
 ---
 ## Contact.DisplayName property

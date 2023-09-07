@@ -3,7 +3,7 @@ title: Class MapiPropertyCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiPropertyCollection class. Represents the collection of MapiProperty items
 type: docs
-weight: 18610
+weight: 18620
 url: /net/aspose.email.mapi/mapipropertycollection/
 ---
 ## MapiPropertyCollection class

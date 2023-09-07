@@ -21,10 +21,11 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 
 ### Return Value
 
-An array of Contact that represents contact information
+An array of [`Contact`](../../../aspose.email.personalinfo/contact/) that represents contact information
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
@@ -47,10 +48,11 @@ public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfIt
 
 ### Return Value
 
-An array of Contact that represents contact information
+An array of [`Contact`](../../../aspose.email.personalinfo/contact/) that represents contact information
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * class [MailQuery](../../../aspose.email.tools.search/mailquery/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)

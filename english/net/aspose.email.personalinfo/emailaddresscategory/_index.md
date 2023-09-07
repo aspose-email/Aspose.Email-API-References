@@ -25,6 +25,7 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | Name | Description |
 | --- | --- |
 | static [Custom](../../aspose.email.personalinfo/emailaddresscategory/custom/) { get; } | Custom category |
+| static [Email](../../aspose.email.personalinfo/emailaddresscategory/email/) { get; } | Email category. Used by MS Exchange server. |
 | static [Email1](../../aspose.email.personalinfo/emailaddresscategory/email1/) { get; } | Email1 category. Used by MS Exchange server. |
 | static [Email2](../../aspose.email.personalinfo/emailaddresscategory/email2/) { get; } | Email2 category. Used by MS Exchange server. |
 | static [Email3](../../aspose.email.personalinfo/emailaddresscategory/email3/) { get; } | Email3 category. Used by MS Exchange server. |
@@ -52,6 +53,7 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value/) | String value for 'Email1' category |
 | const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value/) | String value for 'Email2' category |
 | const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value/) | String value for 'Email3' category |
+| const [EmailValue](../../aspose.email.personalinfo/emailaddresscategory/emailvalue/) | String value for 'Email' category |
 | const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue/) | String value for 'Home' category |
 | const [WorkValue](../../aspose.email.personalinfo/emailaddresscategory/workvalue/) | String value for 'Work' category |
 

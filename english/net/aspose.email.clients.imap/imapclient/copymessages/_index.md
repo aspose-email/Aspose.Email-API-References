@@ -1,11 +1,58 @@
 ---
 title: ImapClient.CopyMessages
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Copy messages
+description: ImapClient method. Copy the messaeg
 type: docs
 weight: 510
 url: /net/aspose.email.clients.imap/imapclient/copymessages/
 ---
+## CopyMessages(IConnection, int, int, string) {#copymessages}
+
+Copy the messaeg
+
+```csharp
+public void CopyMessages(IConnection connection, int startSequence, int endSequence, 
+    string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CopyMessages(int, int, string) {#copymessages_5}
+
+Copy messages
+
+```csharp
+public void CopyMessages(int startSequence, int endSequence, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| folderName | String | Folder name where a message is to be moved |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## CopyMessages(IConnection, string, string, string) {#copymessages_4}
 
 Copy messages
@@ -203,53 +250,6 @@ public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 ### See Also
 
 * class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(IConnection, int, int, string) {#copymessages}
-
-Copy the messaeg
-
-```csharp
-public void CopyMessages(IConnection connection, int startSequence, int endSequence, 
-    string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## CopyMessages(int, int, string) {#copymessages_5}
-
-Copy messages
-
-```csharp
-public void CopyMessages(int startSequence, int endSequence, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startSequence | Int32 | The starting sequence number of a message list |
-| endSequence | Int32 | The ending sequence number of a message list |
-| folderName | String | Folder name where a message is to be moved |
-
-### See Also
-
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: Contact.GovernmentIdNumber
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a government id number
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.email.personalinfo/contact/governmentidnumber/
 ---
 ## Contact.GovernmentIdNumber property

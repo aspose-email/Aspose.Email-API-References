@@ -3,7 +3,7 @@ title: Enum MapiSensitivity
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.MapiSensitivity enum. Contains a values that indicates the message sensitivity
 type: docs
-weight: 20040
+weight: 20310
 url: /net/aspose.email.storage.pst/mapisensitivity/
 ---
 ## MapiSensitivity enumeration

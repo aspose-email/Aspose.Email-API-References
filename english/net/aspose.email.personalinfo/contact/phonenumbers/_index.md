@@ -3,7 +3,7 @@ title: Contact.PhoneNumbers
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets list of phone numbers
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.email.personalinfo/contact/phonenumbers/
 ---
 ## Contact.PhoneNumbers property

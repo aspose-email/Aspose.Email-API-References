@@ -3,7 +3,7 @@ title: Contact.Initials
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets an initials
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.email.personalinfo/contact/initials/
 ---
 ## Contact.Initials property

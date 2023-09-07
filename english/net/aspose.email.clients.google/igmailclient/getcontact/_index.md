@@ -20,7 +20,7 @@ public Contact GetContact(string contactUri)
 
 ### Return Value
 
-Contact object, that represents a contact of gmail
+[`Contact`](../../../aspose.email.personalinfo/contact/) object, that represents a contact of gmail
 
 ### Exceptions
 
@@ -30,6 +30,7 @@ Contact object, that represents a contact of gmail
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)
@@ -38,7 +39,7 @@ Contact object, that represents a contact of gmail
 
 ## GetContact(Contact) {#getcontact}
 
-Contact to refreshContact object, that represents a contact of gmail when operation fails
+Contact to refresh[`Contact`](../../../aspose.email.personalinfo/contact/) object, that represents a contact of gmail when operation fails
 
 ```csharp
 public Contact GetContact(Contact contact)
@@ -46,6 +47,7 @@ public Contact GetContact(Contact contact)
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)

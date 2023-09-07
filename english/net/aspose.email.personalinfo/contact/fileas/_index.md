@@ -3,7 +3,7 @@ title: Contact.FileAs
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a name used for sorting
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.email.personalinfo/contact/fileas/
 ---
 ## Contact.FileAs property

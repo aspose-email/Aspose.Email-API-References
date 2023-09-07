@@ -1,32 +1,11 @@
 ---
 title: IEWSClient.CancelAppointment
 second_title: Aspose.Email for .NET API Reference
-description: IEWSClient method. Cancels an exiting meeting on an organizers calendar
+description: IEWSClient method. Cancels appointment
 type: docs
 weight: 410
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/cancelappointment/
 ---
-## CancelAppointment(string, string) {#cancelappointment_5}
-
-Cancels an exiting meeting on an organizers calendar
-
-```csharp
-public void CancelAppointment(string uniqueId, string folderUri)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | Unique identifier |
-| folderUri | String | An uri of appointments parent folder. |
-
-### See Also
-
-* interface [IEWSClient](../)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## CancelAppointment(MapiCalendar) {#cancelappointment_2}
 
 Cancels appointment.
@@ -124,6 +103,27 @@ public void CancelAppointment(string uniqueId)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uniqueId | String | Unique identifier |
+
+### See Also
+
+* interface [IEWSClient](../)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## CancelAppointment(string, string) {#cancelappointment_5}
+
+Cancels an exiting meeting on an organizers calendar
+
+```csharp
+public void CancelAppointment(string uniqueId, string folderUri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | Unique identifier |
+| folderUri | String | An uri of appointments parent folder. |
 
 ### See Also
 

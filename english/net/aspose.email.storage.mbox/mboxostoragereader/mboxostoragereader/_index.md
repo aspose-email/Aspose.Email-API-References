@@ -34,7 +34,7 @@ public MboxoStorageReader(Stream stream, MboxLoadOptions options)
 
 ---
 
-## MboxoStorageReader(string, MboxLoadOptions) {#constructor_2}
+## MboxoStorageReader(string, MboxLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`MboxrdStorageReader`](../../mboxrdstoragereader/) class.
 

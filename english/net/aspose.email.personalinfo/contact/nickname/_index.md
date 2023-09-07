@@ -3,7 +3,7 @@ title: Contact.Nickname
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a nickname of a person
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.email.personalinfo/contact/nickname/
 ---
 ## Contact.Nickname property

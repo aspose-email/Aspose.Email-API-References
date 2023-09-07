@@ -68,7 +68,9 @@ public sealed class MapiDistributionList : MapiMessageItemBase
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty/)(long) | Provides correctly removing property from all collections. |
 | [Save](../../aspose.email.mapi/mapidistributionlist/save/#save)(Stream) | Saves the specified stream. |
-| [Save](../../aspose.email.mapi/mapidistributionlist/save/#save_1)(string) | Saves the specified file name. |
+| [Save](../../aspose.email.mapi/mapidistributionlist/save/#save_2)(string) | Saves the specified file name. |
+| [Save](../../aspose.email.mapi/mapidistributionlist/save/#save_1)(Stream, MapiDistributionListSaveOptions) | Saves the specified stream. |
+| [Save](../../aspose.email.mapi/mapidistributionlist/save/#save_3)(string, MapiDistributionListSaveOptions) | Saves the specified file name. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType) | Sets the content of the body. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent/)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf/)(string, bool) | Gets or sets the RTF formatted message text. |

@@ -6,6 +6,184 @@ type: docs
 weight: 1000
 url: /net/aspose.email.clients.imap/imapclient/removemessageflags/
 ---
+## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_22}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_20}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_8}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
+    ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_6}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
+    ImapMessageFlags flags)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_23}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#removemessageflags_21}
+
+Removes the flags of the message
+
+```csharp
+public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
+
+### See Also
+
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_9}
 
 Removes the flags of the message
@@ -21,6 +199,12 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSe
 | uidSet | IEnumerable`1 | The set of set of UID for messages |
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
 
 ### See Also
 
@@ -47,6 +231,12 @@ public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequence
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | flags | ImapMessageFlags | The flags to be removed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
 
 ### See Also
 
@@ -545,148 +735,6 @@ public void RemoveMessageFlags(IConnection connection, int startSequence, int en
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_22}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_20}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflags_8}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
-    ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflags_6}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
-    ImapMessageFlags flags)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflags_23}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flags, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#removemessageflags_21}
-
-Removes the flags of the message
-
-```csharp
-public void RemoveMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| flags | ImapMessageFlags | The flags to be removed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
 * class [ImapMessageFlags](../../imapmessageflags/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)

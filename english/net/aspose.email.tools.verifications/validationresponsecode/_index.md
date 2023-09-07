@@ -3,7 +3,7 @@ title: Enum ValidationResponseCode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.ValidationResponseCode enum. Represents the response status of the mail validating process
 type: docs
-weight: 20680
+weight: 20970
 url: /net/aspose.email.tools.verifications/validationresponsecode/
 ---
 ## ValidationResponseCode enumeration
