@@ -69,7 +69,9 @@ Represents the Personal Distribution List object.
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the specified stream. |
+| [save(OutputStream stream, MapiDistributionListSaveOptions options)](#save-java.io.OutputStream-com.aspose.email.MapiDistributionListSaveOptions-) | Saves the specified stream. |
 | [save(String fileName)](#save-java.lang.String-) | Saves the specified file name. |
+| [save(String fileName, MapiDistributionListSaveOptions options)](#save-java.lang.String-com.aspose.email.MapiDistributionListSaveOptions-) | Saves the specified file name. |
 | [setBilling(String value)](#setBilling-java.lang.String-) | Contains the billing information associated with an item. |
 | [setBody(String value)](#setBody-java.lang.String-) | Gets the message text. |
 | [setBodyContent(String content, int contentType)](#setBodyContent-java.lang.String-int-) | Sets the content of the body. |
@@ -670,6 +672,20 @@ Saves the specified stream.
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream. |
 
+### save(OutputStream stream, MapiDistributionListSaveOptions options) {#save-java.io.OutputStream-com.aspose.email.MapiDistributionListSaveOptions-}
+```
+public final void save(OutputStream stream, MapiDistributionListSaveOptions options)
+```
+
+
+Saves the specified stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The stream. |
+| options | [MapiDistributionListSaveOptions](../../com.aspose.email/mapidistributionlistsaveoptions) | Additional options for saving DistributionList. |
+
 ### save(String fileName) {#save-java.lang.String-}
 ```
 public final void save(String fileName)
@@ -682,6 +698,20 @@ Saves the specified file name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
+
+### save(String fileName, MapiDistributionListSaveOptions options) {#save-java.lang.String-com.aspose.email.MapiDistributionListSaveOptions-}
+```
+public final void save(String fileName, MapiDistributionListSaveOptions options)
+```
+
+
+Saves the specified file name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Name of the file. |
+| options | [MapiDistributionListSaveOptions](../../com.aspose.email/mapidistributionlistsaveoptions) | Additional options for saving DistributionList. |
 
 ### setBilling(String value) {#setBilling-java.lang.String-}
 ```

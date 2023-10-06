@@ -3,7 +3,7 @@ title: EmailAddressCategory.op_Inequality
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory method. Determines whether the specified objects are not equal
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.email.personalinfo/emailaddresscategory/op_inequality/
 ---
 ## EmailAddressCategory Inequality operator

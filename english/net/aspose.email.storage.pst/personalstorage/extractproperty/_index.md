@@ -3,7 +3,7 @@ title: PersonalStorage.ExtractProperty
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Gets the specified property of item without extract the item fully
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.email.storage.pst/personalstorage/extractproperty/
 ---
 ## PersonalStorage.ExtractProperty method

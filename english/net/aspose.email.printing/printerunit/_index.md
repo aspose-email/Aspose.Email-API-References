@@ -3,7 +3,7 @@ title: Enum PrinterUnit
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Printing.PrinterUnit enum. Represents supported units for PageUnit
 type: docs
-weight: 19670
+weight: 19940
 url: /net/aspose.email.printing/printerunit/
 ---
 ## PrinterUnit enumeration

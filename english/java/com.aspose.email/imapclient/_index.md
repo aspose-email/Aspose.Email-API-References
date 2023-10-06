@@ -1495,10 +1495,8 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [setUsername(String value)](#setUsername-java.lang.String-) | Gets or sets the username. |
 | [sortMessageThreads(IConnection connection, SortConditions conditions)](#sortMessageThreads-com.aspose.email.IConnection-com.aspose.email.SortConditions-) | Get message threads. |
 | [sortMessageThreads(SortConditions conditions)](#sortMessageThreads-com.aspose.email.SortConditions-) | Get message threads. |
-| [startMonitoring(ImapMonitoringEventHandler callback)](#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-) | Starts monitoring of message changes for Inbox folder |
 | [startMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback)](#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-com.aspose.email.ImapMonitoringErrorEventHandler-) | Starts monitoring of message changes for "Inbox" folder. |
 | [startMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback, String folderName)](#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-com.aspose.email.ImapMonitoringErrorEventHandler-java.lang.String-) | Starts monitoring of message changes for specified folder. |
-| [startMonitoring(String folderName, ImapMonitoringEventHandler callback)](#startMonitoring-java.lang.String-com.aspose.email.ImapMonitoringEventHandler-) | Starts monitoring of message changes for specified folder |
 | [stopMonitoring()](#stopMonitoring--) | Stops any monitoring of changes. |
 | [stopMonitoring(String folderName)](#stopMonitoring-java.lang.String-) | Stops monitoring of message changes for specified folder. |
 | [subscribeFolder(IConnection connection, String folderName)](#subscribeFolder-com.aspose.email.IConnection-java.lang.String-) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
@@ -25706,19 +25704,6 @@ Get message threads.
 
 **Returns:**
 java.util.List<com.aspose.email.MessageThreadResult> - Message threads
-### startMonitoring(ImapMonitoringEventHandler callback) {#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-}
-```
-public final void startMonitoring(ImapMonitoringEventHandler callback)
-```
-
-
-Starts monitoring of message changes for Inbox folder
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| callback | [ImapMonitoringEventHandler](../../com.aspose.email/imapmonitoringeventhandler) | Specifies callback function for monitoring operation |
-
 ### startMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback) {#startMonitoring-com.aspose.email.ImapMonitoringEventHandler-com.aspose.email.ImapMonitoringErrorEventHandler-}
 ```
 public final void startMonitoring(ImapMonitoringEventHandler callback, ImapMonitoringErrorEventHandler errorCallback)
@@ -25747,20 +25732,6 @@ Starts monitoring of message changes for specified folder.
 | callback | [ImapMonitoringEventHandler](../../com.aspose.email/imapmonitoringeventhandler) | The callback function for monitoring operation. |
 | errorCallback | [ImapMonitoringErrorEventHandler](../../com.aspose.email/imapmonitoringerroreventhandler) | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using \#resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState).resumeMonitoring(ImapMonitoringEventHandler,ImapMonitoringErrorEventHandler,IImapMonitoringState) method. |
 | folderName | java.lang.String | The folder for monitoring operation. |
-
-### startMonitoring(String folderName, ImapMonitoringEventHandler callback) {#startMonitoring-java.lang.String-com.aspose.email.ImapMonitoringEventHandler-}
-```
-public final void startMonitoring(String folderName, ImapMonitoringEventHandler callback)
-```
-
-
-Starts monitoring of message changes for specified folder
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderName | java.lang.String | specified folder for monitoring operation |
-| callback | [ImapMonitoringEventHandler](../../com.aspose.email/imapmonitoringeventhandler) | Specifies callback function for monitoring operation |
 
 ### stopMonitoring() {#stopMonitoring--}
 ```

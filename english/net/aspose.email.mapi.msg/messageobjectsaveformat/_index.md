@@ -3,7 +3,7 @@ title: Enum MessageObjectSaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.MessageObjectSaveFormat enum. Represents available formats MessageObject could be saved to
 type: docs
-weight: 18950
+weight: 18960
 url: /net/aspose.email.mapi.msg/messageobjectsaveformat/
 ---
 ## MessageObjectSaveFormat enumeration

@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Email for Java API Reference
 description: Element of AmpAccordion.
 type: docs
-weight: 622
+weight: 623
 url: /java/com.aspose.email/section/
 ---
 

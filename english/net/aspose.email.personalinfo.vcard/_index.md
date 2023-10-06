@@ -3,7 +3,7 @@ title: Aspose.Email.PersonalInfo.VCard
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.PersonalInfo.VCard namespace contains classes for work with VCard file format
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.email.personalinfo.vcard/
 ---
 The **Aspose.Email.PersonalInfo.VCard** namespace contains classes for work with VCard file format.

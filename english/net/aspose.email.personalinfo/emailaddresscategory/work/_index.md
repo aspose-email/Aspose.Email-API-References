@@ -3,7 +3,7 @@ title: EmailAddressCategory.Work
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory property. Work category
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.personalinfo/emailaddresscategory/work/
 ---
 ## EmailAddressCategory.Work property

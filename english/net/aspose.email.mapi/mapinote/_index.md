@@ -3,7 +3,7 @@ title: Class MapiNote
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiNote class. Represents outlook Note object sticky note
 type: docs
-weight: 18570
+weight: 18580
 url: /net/aspose.email.mapi/mapinote/
 ---
 ## MapiNote class

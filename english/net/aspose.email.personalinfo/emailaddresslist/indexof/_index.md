@@ -3,7 +3,7 @@ title: EmailAddressList.IndexOf
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Determines the index of a specific item in the list
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.personalinfo/emailaddresslist/indexof/
 ---
 ## EmailAddressList.IndexOf method

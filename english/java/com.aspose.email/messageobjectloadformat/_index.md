@@ -3,7 +3,7 @@ title: MessageObjectLoadFormat
 second_title: Aspose.Email for Java API Reference
 description: Represents available formats  could be loaded from.
 type: docs
-weight: 503
+weight: 504
 url: /java/com.aspose.email/messageobjectloadformat/
 ---
 

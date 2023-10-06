@@ -51,7 +51,7 @@ public interface IEWSClient : IExchangeClientBase
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage/#appendmessage_1)(MapiMessage) | Uploads the mail message to the specified folder |
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage/#appendmessage_2)(MapiMessage, bool) | Uploads the mail message to the specified folder |
 | [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage/#appendmessage_3)(string, MailMessage) | Uploads the mail message to the specified folder |
-| [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage/#appendmessage_5)(string, MapiMessage, bool) | Uploads the mail message to the specified folder |
+| [AppendMessage](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessage/#appendmessage_4)(string, MapiMessage, bool) | Uploads the mail message to the specified folder |
 | [AppendMessages](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessages/#appendmessages_1)(IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the specified folder |
 | [AppendMessages](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessages/#appendmessages)(params MailMessage[]) | Uploads the mail message to the specified folder |
 | [AppendMessages](../../aspose.email.clients.exchange.webservice/iewsclient/appendmessages/#appendmessages_3)(string, IEnumerable&lt;MailMessage&gt;) | Uploads the mail messages to the specified folder |
@@ -80,10 +80,10 @@ public interface IEWSClient : IExchangeClientBase
 | [CopyItem](../../aspose.email.clients.exchange.webservice/iewsclient/copyitem/)(string, string) | Copies the item to specified folder |
 | [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment/#createappointment)(Appointment) | Creates appointment. |
 | [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment/#createappointment_1)(Appointment, string) | Creates appointment. |
-| [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment/#createappointment_4)(MapiCalendar, string, bool) | Creates appointment. |
+| [CreateAppointment](../../aspose.email.clients.exchange.webservice/iewsclient/createappointment/#createappointment_2)(MapiCalendar, string, bool) | Creates appointment. |
 | [CreateCalendarSharingInvitationMessage](../../aspose.email.clients.exchange.webservice/iewsclient/createcalendarsharinginvitationmessage/)(string) | Create calendar sharing invitation message. |
-| [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact/#createcontact_1)(Contact) | Creates a contact item in the Exchange store. |
-| [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact/#createcontact_3)(string, Contact) | Creates a contact item in the specified folder. |
+| [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact/#createcontact)(Contact) | Creates a contact item in the Exchange store. |
+| [CreateContact](../../aspose.email.clients.exchange.webservice/iewsclient/createcontact/#createcontact_1)(string, Contact) | Creates a contact item in the specified folder. |
 | [CreateDistributionList](../../aspose.email.clients.exchange.webservice/iewsclient/createdistributionlist/)(ExchangeDistributionList, MailAddressCollection) | Creates the private Distribution List. |
 | [CreateFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createfolder/#createfolder)(string) | Creates new folder in the root folder. |
 | [CreateFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createfolder/#createfolder_1)(string, ExchangeFolderType) | Creates new folder in the root folder. |
@@ -100,7 +100,7 @@ public interface IEWSClient : IExchangeClientBase
 | [CreatePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder/#createpublicfolder_1)(string, ExchangeFolderPermissionCollection, ExchangeFolderType) | Creates the specified public folder in the root public folder |
 | [CreatePublicFolder](../../aspose.email.clients.exchange.webservice/iewsclient/createpublicfolder/#createpublicfolder_2)(string, string, ExchangeFolderPermissionCollection) | Creates the specified public folder in the root public folder |
 | [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask/#createtask)(ExchangeTask) | Creates the given task in the default task folder. |
-| [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask/#createtask_2)(string, ExchangeTask) | Creates the given task in the specified folder. |
+| [CreateTask](../../aspose.email.clients.exchange.webservice/iewsclient/createtask/#createtask_1)(string, ExchangeTask) | Creates the given task in the specified folder. |
 | [CreateUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/createuserconfiguration/)(UserConfiguration) | Creates the specified user configuration |
 | [DelegateAccess](../../aspose.email.clients.exchange.webservice/iewsclient/delegateaccess/#delegateaccess)(ExchangeDelegateUser, string) | Delegates access on the specified mailbox to the specified user. |
 | [DelegateAccess](../../aspose.email.clients.exchange.webservice/iewsclient/delegateaccess/#delegateaccess_1)(ExchangeDelegateUserCollection, string) | Delegates access on the mailbox to the specified users. |

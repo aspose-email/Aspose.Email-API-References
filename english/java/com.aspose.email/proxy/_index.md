@@ -3,7 +3,7 @@ title: Proxy
 second_title: Aspose.Email for Java API Reference
 description: Base proxy client.
 type: docs
-weight: 584
+weight: 585
 url: /java/com.aspose.email/proxy/
 ---
 

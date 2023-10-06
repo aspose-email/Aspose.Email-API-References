@@ -3,7 +3,7 @@ title: Enum MapiPropertyFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.MapiPropertyFlags enum. Represents flags which can be set on a MAPI property
 type: docs
-weight: 18840
+weight: 18850
 url: /net/aspose.email.mapi.msg/mapipropertyflags/
 ---
 ## MapiPropertyFlags enumeration

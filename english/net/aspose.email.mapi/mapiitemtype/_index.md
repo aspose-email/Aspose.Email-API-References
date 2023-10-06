@@ -3,7 +3,7 @@ title: Enum MapiItemType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiItemType enum. Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the IMapiMessageItem interface
 type: docs
-weight: 18450
+weight: 18460
 url: /net/aspose.email.mapi/mapiitemtype/
 ---
 ## MapiItemType enumeration

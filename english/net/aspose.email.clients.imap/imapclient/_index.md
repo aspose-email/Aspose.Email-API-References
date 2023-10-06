@@ -1015,8 +1015,8 @@ public sealed class ImapClient : EmailClient, IAsyncImapClient
 | [SortMessageThreadsAsync](../../aspose.email.clients.imap/imapclient/sortmessagethreadsasync/#sortmessagethreadsasync)(IConnection, SortConditions) | Sort message threads. |
 | [SortMessageThreadsAsync](../../aspose.email.clients.imap/imapclient/sortmessagethreadsasync/#sortmessagethreadsasync_3)(SortConditions, CancellationToken) | Sort message threads. |
 | [SortMessageThreadsAsync](../../aspose.email.clients.imap/imapclient/sortmessagethreadsasync/#sortmessagethreadsasync_1)(IConnection, SortConditions, CancellationToken) | Sort message threads. |
-| [StartMonitoring](../../aspose.email.clients.imap/imapclient/startmonitoring/#startmonitoring_1)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
-| [StartMonitoringAsync](../../aspose.email.clients.imap/imapclient/startmonitoringasync/#startmonitoringasync_1)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
+| [StartMonitoring](../../aspose.email.clients.imap/imapclient/startmonitoring/)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
+| [StartMonitoringAsync](../../aspose.email.clients.imap/imapclient/startmonitoringasync/)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
 | [StopMonitoring](../../aspose.email.clients.imap/imapclient/stopmonitoring/#stopmonitoring)() | Stops any monitoring of changes. |
 | [StopMonitoring](../../aspose.email.clients.imap/imapclient/stopmonitoring/#stopmonitoring_1)(string) | Stops monitoring of message changes for specified folder. |
 | [StopMonitoringAsync](../../aspose.email.clients.imap/imapclient/stopmonitoringasync/#stopmonitoringasync)() | Stops any monitoring of changes. |

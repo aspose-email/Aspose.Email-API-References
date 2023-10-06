@@ -3,7 +3,7 @@ title: Class MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxStorageReader class. A base class for any mboxbased mail storage reader
 type: docs
-weight: 19830
+weight: 20100
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
@@ -26,9 +26,9 @@ public abstract class MboxStorageReader : IDisposable
 | Name | Description |
 | --- | --- |
 | static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader)(Stream, MboxLoadOptions) | Creates the instance of reader. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_3)(string, MboxLoadOptions) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_2)(string, MboxLoadOptions) | Creates the instance of reader. |
 | static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_4)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_3)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/#enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |

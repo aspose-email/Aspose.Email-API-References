@@ -3,7 +3,7 @@ title: EmailAddressList.Insert
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Inserts an item to the list at the specified index
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.email.personalinfo/emailaddresslist/insert/
 ---
 ## EmailAddressList.Insert method

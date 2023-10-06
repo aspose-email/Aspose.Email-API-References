@@ -3,7 +3,7 @@ title: MessageAddedEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the  event
 type: docs
-weight: 492
+weight: 493
 url: /java/com.aspose.email/messageaddedeventargs/
 ---
 

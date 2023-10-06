@@ -3,7 +3,7 @@ title: Contact.Prefix
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a prefix of a full name such like Mr.mister Dr.doctor and so on
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.email.personalinfo/contact/prefix/
 ---
 ## Contact.Prefix property

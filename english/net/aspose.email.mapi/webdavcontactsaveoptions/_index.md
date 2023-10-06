@@ -3,7 +3,7 @@ title: Class WebDavContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.WebDavContactSaveOptions class. Specifies the contact save options
 type: docs
-weight: 19070
+weight: 19080
 url: /net/aspose.email.mapi/webdavcontactsaveoptions/
 ---
 ## WebDavContactSaveOptions class

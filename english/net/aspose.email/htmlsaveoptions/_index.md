@@ -37,7 +37,6 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields/) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders/) { get; } | Gets list of headers for rendering. |
 | [ResourceRenderingMode](../../aspose.email/htmlsaveoptions/resourcerenderingmode/) { get; set; } | Provides set various modes of rendering resources in html. Default value EmbedIntoHtml. |
-| [SaveResourceHandler](../../aspose.email/htmlsaveoptions/saveresourcehandler/) { get; set; } | This handler is called for saving all message attachments if EmbedResources is false. |
 
 ## Events
 

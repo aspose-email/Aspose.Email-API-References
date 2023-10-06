@@ -3,7 +3,7 @@ title: Contact.Photo
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets an image of contact
 type: docs
-weight: 330
+weight: 320
 url: /net/aspose.email.personalinfo/contact/photo/
 ---
 ## Contact.Photo property

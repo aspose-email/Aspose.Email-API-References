@@ -3,7 +3,7 @@ title: TraversalFailureKind
 second_title: Aspose.Email for Java API Reference
 description: Represents the kind of failure that can occur when traversing a storage.
 type: docs
-weight: 686
+weight: 689
 url: /java/com.aspose.email/traversalfailurekind/
 ---
 

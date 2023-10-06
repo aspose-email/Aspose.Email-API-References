@@ -3,7 +3,7 @@ title: Class MapiMessageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessageReader class. Represents a reader that can read a Microsoft Outlook Message format document
 type: docs
-weight: 18540
+weight: 18550
 url: /net/aspose.email.mapi/mapimessagereader/
 ---
 ## MapiMessageReader class

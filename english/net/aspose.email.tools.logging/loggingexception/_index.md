@@ -3,7 +3,7 @@ title: Class LoggingException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.LoggingException class. The exception that is thrown when error is found in logging
 type: docs
-weight: 20380
+weight: 20670
 url: /net/aspose.email.tools.logging/loggingexception/
 ---
 ## LoggingException class

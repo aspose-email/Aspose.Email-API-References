@@ -3,7 +3,7 @@ title: VCardUrl
 second_title: Aspose.Email for Java API Reference
 description: Represents a vCard URL property
 type: docs
-weight: 722
+weight: 725
 url: /java/com.aspose.email/vcardurl/
 ---
 

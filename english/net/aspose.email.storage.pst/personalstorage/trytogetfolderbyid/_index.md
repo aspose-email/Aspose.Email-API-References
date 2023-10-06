@@ -3,7 +3,7 @@ title: PersonalStorage.TryToGetFolderById
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Gets the folder associated with the specified entry ID
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.email.storage.pst/personalstorage/trytogetfolderbyid/
 ---
 ## PersonalStorage.TryToGetFolderById method

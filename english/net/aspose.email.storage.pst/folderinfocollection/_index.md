@@ -3,7 +3,7 @@ title: Class FolderInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderInfoCollection class. Represents collection of FolderInfo
 type: docs
-weight: 19990
+weight: 20260
 url: /net/aspose.email.storage.pst/folderinfocollection/
 ---
 ## FolderInfoCollection class

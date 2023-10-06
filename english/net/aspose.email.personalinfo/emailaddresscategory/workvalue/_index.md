@@ -3,7 +3,7 @@ title: EmailAddressCategory.WorkValue
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory field. String value for Work category
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.email.personalinfo/emailaddresscategory/workvalue/
 ---
 ## EmailAddressCategory.WorkValue field

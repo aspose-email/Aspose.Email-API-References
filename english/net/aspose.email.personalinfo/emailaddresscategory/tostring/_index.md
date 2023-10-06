@@ -3,7 +3,7 @@ title: EmailAddressCategory.ToString
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory method. Returns a string that represents the current object
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.personalinfo/emailaddresscategory/tostring/
 ---
 ## EmailAddressCategory.ToString method

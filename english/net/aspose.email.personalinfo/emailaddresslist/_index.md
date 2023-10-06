@@ -25,6 +25,7 @@ public class EmailAddressList : IList<EmailAddress>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.email.personalinfo/emailaddresslist/count/) { get; } | Gets the number of elements contained in the ICollection. |
+| [Email](../../aspose.email.personalinfo/emailaddresslist/email/) { get; set; } | Default email3 address. |
 | [Email1](../../aspose.email.personalinfo/emailaddresslist/email1/) { get; set; } | Default email1 address. |
 | [Email2](../../aspose.email.personalinfo/emailaddresslist/email2/) { get; set; } | Default email2 address. |
 | [Email3](../../aspose.email.personalinfo/emailaddresslist/email3/) { get; set; } | Default email3 address. |

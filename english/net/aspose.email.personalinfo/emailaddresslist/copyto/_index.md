@@ -3,7 +3,7 @@ title: EmailAddressList.CopyTo
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Copies the elements to an array starting at a particular array index
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.personalinfo/emailaddresslist/copyto/
 ---
 ## EmailAddressList.CopyTo method

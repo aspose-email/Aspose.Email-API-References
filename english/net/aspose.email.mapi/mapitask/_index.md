@@ -3,7 +3,7 @@ title: Class MapiTask
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTask class. Represents the Outlook Task object
 type: docs
-weight: 18710
+weight: 18720
 url: /net/aspose.email.mapi/mapitask/
 ---
 ## MapiTask class

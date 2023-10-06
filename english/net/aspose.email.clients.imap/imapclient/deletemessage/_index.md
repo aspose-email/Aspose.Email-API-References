@@ -6,6 +6,28 @@ type: docs
 weight: 570
 url: /net/aspose.email.clients.imap/imapclient/deletemessage/
 ---
+## DeleteMessage(IConnection, int) {#deletemessage}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessage(IConnection connection, int sequenceNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | Sequence number of a message |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessage(IConnection, string) {#deletemessage_2}
 
 Marks a message with the specified sequence number as deleted
@@ -237,28 +259,6 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 | uniqueId | String | The uid of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, int) {#deletemessage}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessage(IConnection connection, int sequenceNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | Sequence number of a message |
 
 ### See Also
 

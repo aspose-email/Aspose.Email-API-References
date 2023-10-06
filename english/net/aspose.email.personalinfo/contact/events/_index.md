@@ -3,7 +3,7 @@ title: Contact.Events
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets list of events
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.email.personalinfo/contact/events/
 ---
 ## Contact.Events property

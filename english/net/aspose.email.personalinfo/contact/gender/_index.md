@@ -3,7 +3,7 @@ title: Contact.Gender
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets gender of a person
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.email.personalinfo/contact/gender/
 ---
 ## Contact.Gender property

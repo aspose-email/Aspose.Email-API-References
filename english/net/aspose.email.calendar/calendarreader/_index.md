@@ -27,12 +27,17 @@ public class CalendarReader
 
 | Name | Description |
 | --- | --- |
+| [Count](../../aspose.email.calendar/calendarreader/count/) { get; } | Gets the number of Vevent components. |
 | [Current](../../aspose.email.calendar/calendarreader/current/) { get; } | Current read event. |
+| [IsMultiEvents](../../aspose.email.calendar/calendarreader/ismultievents/) { get; } | Gets whether calendar contains multi events. |
+| [Method](../../aspose.email.calendar/calendarreader/method/) { get; } | Gets the iCalendar object method type associated with the calendar object. |
+| [Version](../../aspose.email.calendar/calendarreader/version/) { get; } | Gets the Version of calendar. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| [LoadAsMultiple](../../aspose.email.calendar/calendarreader/loadasmultiple/)() | Loads a list of events from a calendar with multiple events. |
 | [NextEvent](../../aspose.email.calendar/calendarreader/nextevent/)() | Reads next Event from source and save it to the Current. |
 
 ### See Also

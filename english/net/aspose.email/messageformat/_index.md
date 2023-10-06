@@ -3,7 +3,7 @@ title: Class MessageFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MessageFormat class. Represents the mail message format.It can be in emlmsg or mhtml format
 type: docs
-weight: 19090
+weight: 19100
 url: /net/aspose.email/messageformat/
 ---
 ## MessageFormat class

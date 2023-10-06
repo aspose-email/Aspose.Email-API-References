@@ -28,6 +28,7 @@ Contact information
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * enum [ExchangeListContactsOptions](../../exchangelistcontactsoptions/)
 * interface [IAsyncEwsClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iasyncewsclient/)

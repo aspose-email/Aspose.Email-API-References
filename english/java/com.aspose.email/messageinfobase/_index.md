@@ -3,7 +3,7 @@ title: MessageInfoBase
 second_title: Aspose.Email for Java API Reference
 description: The MessageInfo represents the E-Mail message info fetched from the mail server.
 type: docs
-weight: 496
+weight: 497
 url: /java/com.aspose.email/messageinfobase/
 ---
 

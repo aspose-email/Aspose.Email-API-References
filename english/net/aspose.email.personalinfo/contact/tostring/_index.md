@@ -3,7 +3,7 @@ title: Contact.ToString
 second_title: Aspose.Email for .NET API Reference
 description: Contact method. Returns a string that represents the current object
 type: docs
-weight: 420
+weight: 410
 url: /net/aspose.email.personalinfo/contact/tostring/
 ---
 ## Contact.ToString method

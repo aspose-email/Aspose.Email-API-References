@@ -3,7 +3,7 @@ title: IEWSClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange client.
 type: docs
-weight: 743
+weight: 746
 url: /java/com.aspose.email/iewsclient/
 ---
 
@@ -25,7 +25,6 @@ Represents the interface for Exchange client.
 | [appendMessage(MapiMessage mapiMessage)](#appendMessage-com.aspose.email.MapiMessage-) | Uploads the mail message to the specified folder |
 | [appendMessage(MapiMessage mapiMessage, boolean markAsSent)](#appendMessage-com.aspose.email.MapiMessage-boolean-) | Uploads the mail message to the specified folder |
 | [appendMessage(String folderUri, MailMessage message)](#appendMessage-java.lang.String-com.aspose.email.MailMessage-) | Uploads the mail message to the specified folder |
-| [appendMessage(String folderUri, MailMessage message, boolean markAsSent)](#appendMessage-java.lang.String-com.aspose.email.MailMessage-boolean-) | Uploads the mail message to the specified folder |
 | [appendMessage(String folder, MapiMessage mapiMessage, boolean markAsSent)](#appendMessage-java.lang.String-com.aspose.email.MapiMessage-boolean-) | Uploads the mail message to the specified folder |
 | [appendMessages(MailMessage[] messages)](#appendMessages-com.aspose.email.MailMessage...-) | Uploads the mail message to the specified folder |
 | [appendMessages(Iterable<MailMessage> messages)](#appendMessages-java.lang.Iterable-com.aspose.email.MailMessage--) | Uploads the mail message to the specified folder |
@@ -54,14 +53,10 @@ Represents the interface for Exchange client.
 | [copyItem(String itemUri, String destinationFolderUri)](#copyItem-java.lang.String-java.lang.String-) | Copies the item to specified folder |
 | [createAppointment(Appointment appointment)](#createAppointment-com.aspose.email.Appointment-) | Creates appointment. |
 | [createAppointment(Appointment appointment, String folderUri)](#createAppointment-com.aspose.email.Appointment-java.lang.String-) | Creates appointment. |
-| [createAppointment(MapiCalendar appointment)](#createAppointment-com.aspose.email.MapiCalendar-) | Creates appointment. |
-| [createAppointment(MapiCalendar appointment, String folderUri)](#createAppointment-com.aspose.email.MapiCalendar-java.lang.String-) | Creates appointment. |
 | [createAppointment(MapiCalendar appointment, String folderUri, boolean suppressInvitations)](#createAppointment-com.aspose.email.MapiCalendar-java.lang.String-boolean-) | Creates appointment. |
 | [createCalendarSharingInvitationMessage(String recipient)](#createCalendarSharingInvitationMessage-java.lang.String-) | Create calendar sharing invitation message. |
 | [createContact(Contact contact)](#createContact-com.aspose.email.Contact-) | Creates a contact item in the Exchange store. |
-| [createContact(MapiContact contact)](#createContact-com.aspose.email.MapiContact-) | Creates a contact item in the Exchange store. |
 | [createContact(String folderUri, Contact contact)](#createContact-java.lang.String-com.aspose.email.Contact-) | Creates a contact item in the specified folder. |
-| [createContact(String folderUri, MapiContact contact)](#createContact-java.lang.String-com.aspose.email.MapiContact-) | Creates a contact item in the specified folder. |
 | [createDistributionList(ExchangeDistributionList distributionList, MailAddressCollection members)](#createDistributionList-com.aspose.email.ExchangeDistributionList-com.aspose.email.MailAddressCollection-) | Creates the private Distribution List. |
 | [createFolder(String name)](#createFolder-java.lang.String-) | Creates new folder in the root folder. |
 | [createFolder(String name, int folderType)](#createFolder-java.lang.String-int-) | Creates new folder in the root folder. |
@@ -74,15 +69,11 @@ Represents the interface for Exchange client.
 | [createItem(MapiMessageItemBase item)](#createItem-com.aspose.email.MapiMessageItemBase-) | Creates the given item in the default item folder. |
 | [createItem(String folderUri, MapiMessageItemBase item)](#createItem-java.lang.String-com.aspose.email.MapiMessageItemBase-) | Creates the given item in the specified folder. |
 | [createItems(ExchangeStreamedItem[] items, String parentFolderUri)](#createItems-com.aspose.email.ExchangeStreamedItem---java.lang.String-) | Creates the specified items in the speciifed folder |
-| [createNote(MapiNote note)](#createNote-com.aspose.email.MapiNote-) | Creates the given note in the default note folder. |
-| [createNote(String folder, MapiNote note)](#createNote-java.lang.String-com.aspose.email.MapiNote-) | Creates the given note in the specified folder. |
 | [createPublicFolder(String name, ExchangeFolderPermissionCollection permissions)](#createPublicFolder-java.lang.String-com.aspose.email.ExchangeFolderPermissionCollection-) | Creates the specified public folder in the root public folder |
 | [createPublicFolder(String name, ExchangeFolderPermissionCollection permissions, int folderType)](#createPublicFolder-java.lang.String-com.aspose.email.ExchangeFolderPermissionCollection-int-) | Creates the specified public folder in the root public folder |
 | [createPublicFolder(String parentFolderUri, String name, ExchangeFolderPermissionCollection permissions)](#createPublicFolder-java.lang.String-java.lang.String-com.aspose.email.ExchangeFolderPermissionCollection-) | Creates the specified public folder in the root public folder |
 | [createTask(ExchangeTask task)](#createTask-com.aspose.email.ExchangeTask-) | Creates the given task in the default task folder. |
-| [createTask(MapiTask task)](#createTask-com.aspose.email.MapiTask-) | Creates the given task in the default task folder. |
 | [createTask(String folder, ExchangeTask task)](#createTask-java.lang.String-com.aspose.email.ExchangeTask-) | Creates the given task in the specified folder. |
-| [createTask(String folder, MapiTask task)](#createTask-java.lang.String-com.aspose.email.MapiTask-) | Creates the given task in the specified folder. |
 | [createUserConfiguration(UserConfiguration userConfiguration)](#createUserConfiguration-com.aspose.email.UserConfiguration-) | Creates the specified user configuration |
 | [delegateAccess(ExchangeDelegateUser delegateUser, String mailbox)](#delegateAccess-com.aspose.email.ExchangeDelegateUser-java.lang.String-) | Delegates access on the specified mailbox to the specified user. |
 | [delegateAccess(ExchangeDelegateUserCollection delegateUsers, String mailbox)](#delegateAccess-com.aspose.email.ExchangeDelegateUserCollection-java.lang.String-) | Delegates access on the mailbox to the specified users. |
@@ -455,23 +446,6 @@ Uploads the mail message to the specified folder
 | --- | --- | --- |
 | folderUri | java.lang.String | A folder URI to which message is uploaded |
 | message | [MailMessage](../../com.aspose.email/mailmessage) | A message to upload |
-
-**Returns:**
-java.lang.String - An uri of created message
-### appendMessage(String folderUri, MailMessage message, boolean markAsSent) {#appendMessage-java.lang.String-com.aspose.email.MailMessage-boolean-}
-```
-public abstract String appendMessage(String folderUri, MailMessage message, boolean markAsSent)
-```
-
-
-Uploads the mail message to the specified folder
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderUri | java.lang.String | A folder URI to which message is uploaded |
-| message | [MailMessage](../../com.aspose.email/mailmessage) | A message to upload |
-| markAsSent | boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
 **Returns:**
 java.lang.String - An uri of created message
@@ -885,37 +859,6 @@ Creates appointment.
 
 **Returns:**
 java.lang.String - Returns appointment UID
-### createAppointment(MapiCalendar appointment) {#createAppointment-com.aspose.email.MapiCalendar-}
-```
-public abstract String createAppointment(MapiCalendar appointment)
-```
-
-
-Creates appointment.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| appointment | [MapiCalendar](../../com.aspose.email/mapicalendar) | Calendar appointment. |
-
-**Returns:**
-java.lang.String - Returns appointment UID
-### createAppointment(MapiCalendar appointment, String folderUri) {#createAppointment-com.aspose.email.MapiCalendar-java.lang.String-}
-```
-public abstract String createAppointment(MapiCalendar appointment, String folderUri)
-```
-
-
-Creates appointment.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| appointment | [MapiCalendar](../../com.aspose.email/mapicalendar) | Calendar appointment. |
-| folderUri | java.lang.String | An uri of appointments parent folder. |
-
-**Returns:**
-java.lang.String - Returns PidLidGlobalObjectId as base64 string
 ### createAppointment(MapiCalendar appointment, String folderUri, boolean suppressInvitations) {#createAppointment-com.aspose.email.MapiCalendar-java.lang.String-boolean-}
 ```
 public abstract String createAppointment(MapiCalendar appointment, String folderUri, boolean suppressInvitations)
@@ -963,21 +906,6 @@ Creates a contact item in the Exchange store.
 
 **Returns:**
 java.lang.String - The contact Uri
-### createContact(MapiContact contact) {#createContact-com.aspose.email.MapiContact-}
-```
-public abstract String createContact(MapiContact contact)
-```
-
-
-Creates a contact item in the Exchange store.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| contact | [MapiContact](../../com.aspose.email/mapicontact) | Contact item |
-
-**Returns:**
-java.lang.String - The contact Uri
 ### createContact(String folderUri, Contact contact) {#createContact-java.lang.String-com.aspose.email.Contact-}
 ```
 public abstract String createContact(String folderUri, Contact contact)
@@ -991,22 +919,6 @@ Creates a contact item in the specified folder.
 | --- | --- | --- |
 | folderUri | java.lang.String | Folder uri |
 | contact | [Contact](../../com.aspose.email/contact) | Contact item |
-
-**Returns:**
-java.lang.String - The contact Uri
-### createContact(String folderUri, MapiContact contact) {#createContact-java.lang.String-com.aspose.email.MapiContact-}
-```
-public abstract String createContact(String folderUri, MapiContact contact)
-```
-
-
-Creates a contact item in the specified folder.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderUri | java.lang.String | Folder uri |
-| contact | [MapiContact](../../com.aspose.email/mapicontact) | Contact item |
 
 **Returns:**
 java.lang.String - The contact Uri
@@ -1199,37 +1111,6 @@ Creates the specified items in the speciifed folder
 
 **Returns:**
 com.aspose.email.ExchangeUploadItemResult[] - An array of [ExchangeUploadItemResult](../../com.aspose.email/exchangeuploaditemresult)
-### createNote(MapiNote note) {#createNote-com.aspose.email.MapiNote-}
-```
-public abstract String createNote(MapiNote note)
-```
-
-
-Creates the given note in the default note folder.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| note | [MapiNote](../../com.aspose.email/mapinote) | A note to create. |
-
-**Returns:**
-java.lang.String - Note uri.
-### createNote(String folder, MapiNote note) {#createNote-java.lang.String-com.aspose.email.MapiNote-}
-```
-public abstract String createNote(String folder, MapiNote note)
-```
-
-
-Creates the given note in the specified folder.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folder | java.lang.String | A folder where note should be created. |
-| note | [MapiNote](../../com.aspose.email/mapinote) | A note to create. |
-
-**Returns:**
-java.lang.String - Note uri.
 ### createPublicFolder(String name, ExchangeFolderPermissionCollection permissions) {#createPublicFolder-java.lang.String-com.aspose.email.ExchangeFolderPermissionCollection-}
 ```
 public abstract ExchangeFolderInfo createPublicFolder(String name, ExchangeFolderPermissionCollection permissions)
@@ -1295,21 +1176,6 @@ Creates the given task in the default task folder.
 
 **Returns:**
 java.lang.String - A task uri
-### createTask(MapiTask task) {#createTask-com.aspose.email.MapiTask-}
-```
-public abstract String createTask(MapiTask task)
-```
-
-
-Creates the given task in the default task folder.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| task | [MapiTask](../../com.aspose.email/mapitask) | A task to create. |
-
-**Returns:**
-java.lang.String
 ### createTask(String folder, ExchangeTask task) {#createTask-java.lang.String-com.aspose.email.ExchangeTask-}
 ```
 public abstract String createTask(String folder, ExchangeTask task)
@@ -1326,22 +1192,6 @@ Creates the given task in the specified folder.
 
 **Returns:**
 java.lang.String - A task uri
-### createTask(String folder, MapiTask task) {#createTask-java.lang.String-com.aspose.email.MapiTask-}
-```
-public abstract String createTask(String folder, MapiTask task)
-```
-
-
-Creates the given task in the specified folder.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folder | java.lang.String | A folder where task should be created. |
-| task | [MapiTask](../../com.aspose.email/mapitask) | A task to create. |
-
-**Returns:**
-java.lang.String
 ### createUserConfiguration(UserConfiguration userConfiguration) {#createUserConfiguration-com.aspose.email.UserConfiguration-}
 ```
 public abstract void createUserConfiguration(UserConfiguration userConfiguration)

@@ -24,6 +24,7 @@ Contacts that represent contact information
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IAsyncEwsClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iasyncewsclient/)
 * assembly [Aspose.Email](../../../)

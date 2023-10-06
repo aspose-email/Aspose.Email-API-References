@@ -3,7 +3,7 @@ title: Class MapiMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessage class. Represents an Outlook Message format document that can be parsed
 type: docs
-weight: 18490
+weight: 18500
 url: /net/aspose.email.mapi/mapimessage/
 ---
 ## MapiMessage class
@@ -82,7 +82,8 @@ public sealed class MapiMessage : MapiMessageItemBase
 | Name | Description |
 | --- | --- |
 | static [FromMailMessage](../../aspose.email.mapi/mapimessage/frommailmessage/#frommailmessage)(MailMessage) | Creates an instance of MapiMessage from the MailMessage. |
-| static [FromMailMessage](../../aspose.email.mapi/mapimessage/frommailmessage/#frommailmessage_2)(string) | Creates an instance of MapiMessage from the MailMessage. |
+| static [FromMailMessage](../../aspose.email.mapi/mapimessage/frommailmessage/#frommailmessage_2)(Stream) | Creates an instance of MapiMessage from the EML format data stream. |
+| static [FromMailMessage](../../aspose.email.mapi/mapimessage/frommailmessage/#frommailmessage_3)(string) | Creates an instance of MapiMessage from the MailMessage. |
 | static [FromMailMessage](../../aspose.email.mapi/mapimessage/frommailmessage/#frommailmessage_1)(MailMessage, MapiConversionOptions) | Creates an instance of MapiMessage from the MailMessage. |
 | static [FromProperties](../../aspose.email.mapi/mapimessage/fromproperties/)(MapiPropertyCollection) | Creates an instance of MapiMessage from a collection of Mapi properties. |
 | static [Load](../../aspose.email.mapi/mapimessage/load/#load)(Stream) | Loads message from stream. |
@@ -152,7 +153,7 @@ The following exmaple demonstrates how to read Outlook Message files.
 
 ```csharp
 //Open Outlook Message files
-MapiMessage msg = MapiMessage.FromFile(@"c:\outlookmessage.msg");
+MapiMessage msg = MapiMessage.Load(@"c:\outlookmessage.msg");
 
 /read subject
 onsole.WriteLine("Subject:" + msg.Subject);
@@ -175,7 +176,7 @@ oreach(MapiAttachment att in msg.Attachments)
 
 ```csharp
 'Open Outlook Message files 
-Dim msg As MapiMessage = MapiMessage.FromFile("c:\outlookmessage.msg") 
+Dim msg As MapiMessage = MapiMessage.Load("c:\outlookmessage.msg") 
 
 'read subject 
 Console.WriteLine("Subject:" + msg.Subject) 

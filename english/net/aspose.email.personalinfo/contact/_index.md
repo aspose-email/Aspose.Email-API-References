@@ -3,7 +3,7 @@ title: Class Contact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.Contact class. Represents contact information
 type: docs
-weight: 19360
+weight: 19370
 url: /net/aspose.email.personalinfo/contact/
 ---
 ## Contact class
@@ -67,10 +67,6 @@ public class Contact : IPreferredTextEncodingProvider
 
 | Name | Description |
 | --- | --- |
-| static [Load](../../aspose.email.personalinfo/contact/load/#load)(Stream) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load/#load_2)(string) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load/#load_1)(Stream, ContactLoadFormat) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load/#load_3)(string, ContactLoadFormat) | Loads contact data |
 | [Save](../../aspose.email.personalinfo/contact/save/#save)(Stream) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) into the given stream with vCard format. The supported vCard version is 2.1 |
 | [Save](../../aspose.email.personalinfo/contact/save/#save_3)(string) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) to the vCard file with a default options. The supported vCard version is 2.1 |
 | [Save](../../aspose.email.personalinfo/contact/save/#save_1)(Stream, ContactSaveFormat) | Saves this `Contact` to the given stream with a format using the default options. |

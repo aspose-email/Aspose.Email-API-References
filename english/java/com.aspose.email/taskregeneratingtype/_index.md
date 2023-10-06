@@ -3,7 +3,7 @@ title: TaskRegeneratingType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the types of regenerating pattern.
 type: docs
-weight: 668
+weight: 671
 url: /java/com.aspose.email/taskregeneratingtype/
 ---
 

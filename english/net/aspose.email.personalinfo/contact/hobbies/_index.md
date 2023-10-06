@@ -3,7 +3,7 @@ title: Contact.Hobbies
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets or sets a hobbies
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.email.personalinfo/contact/hobbies/
 ---
 ## Contact.Hobbies property

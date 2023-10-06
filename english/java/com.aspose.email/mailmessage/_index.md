@@ -95,7 +95,6 @@ Represents an e-mail message. It allows to access message properties, ex. subjec
 | [getFrom()](#getFrom--) | Gets or sets the from address |
 | [getHeaders()](#getHeaders--) | Gets headers collection of message |
 | [getHtmlBody()](#getHtmlBody--) | Gets or sets html body |
-| [getHtmlBodyText()](#getHtmlBodyText--) | Gets the message htmlbody as plain text. |
 | [getHtmlBodyText(boolean showUrl)](#getHtmlBodyText-boolean-) | Gets the message html body as plain text. |
 | [getHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)](#getHtmlBodyText-com.aspose.email.HyperlinkRenderingCallback-) | Gets the message htmlbody as plain text. |
 | [getItemId()](#getItemId--) | Represents identification information about message in a mailbox. |
@@ -813,16 +812,6 @@ public String getHtmlBody()
 
 
 Gets or sets html body
-
-**Returns:**
-java.lang.String
-### getHtmlBodyText() {#getHtmlBodyText--}
-```
-public final String getHtmlBodyText()
-```
-
-
-Gets the message htmlbody as plain text.
 
 **Returns:**
 java.lang.String

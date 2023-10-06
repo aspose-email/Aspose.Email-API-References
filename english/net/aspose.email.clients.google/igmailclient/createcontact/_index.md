@@ -24,6 +24,7 @@ Returns contact uri
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)
@@ -49,6 +50,7 @@ Returns contact uri
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IGmailClient](../)
 * namespace [Aspose.Email.Clients.Google](../../igmailclient/)
 * assembly [Aspose.Email](../../../)

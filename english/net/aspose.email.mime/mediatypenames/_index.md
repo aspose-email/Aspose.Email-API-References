@@ -3,7 +3,7 @@ title: Class MediaTypeNames
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mime.MediaTypeNames class. Specifies the media type names for an email message
 type: docs
-weight: 19210
+weight: 19220
 url: /net/aspose.email.mime/mediatypenames/
 ---
 ## MediaTypeNames class

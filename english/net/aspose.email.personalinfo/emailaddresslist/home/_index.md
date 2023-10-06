@@ -3,7 +3,7 @@ title: EmailAddressList.Home
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList property. Default home email address
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.personalinfo/emailaddresslist/home/
 ---
 ## EmailAddressList.Home property

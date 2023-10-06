@@ -3,7 +3,7 @@ title: Class PersonalStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PersonalStorage class. Represents Personal Storage Table .pst file
 type: docs
-weight: 20110
+weight: 20380
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
@@ -56,6 +56,7 @@ public class PersonalStorage : IDisposable
 | [ConvertTo](../../aspose.email.storage.pst/personalstorage/convertto/)(FileFormat) | Converts the current object to the specified format. |
 | [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder/#createpredefinedfolder)(string, StandardIpmFolder) | Creates the standard interpersonal message (IPM) folder. |
 | [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder/#createpredefinedfolder_1)(string, StandardIpmFolder, bool) | Creates the standard interpersonal message (IPM) folder. |
+| [DeleteItem](../../aspose.email.storage.pst/personalstorage/deleteitem/)(string) | Deletes the item (folder or message) by it's entryId |
 | [Dispose](../../aspose.email.storage.pst/personalstorage/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages/#enumeratemessages)(string) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [EnumerateMessages](../../aspose.email.storage.pst/personalstorage/enumeratemessages/#enumeratemessages_1)(string, int, int) | Exposes the enumerator, which supports an iteration of messages in folder. |
@@ -81,8 +82,10 @@ public class PersonalStorage : IDisposable
 | [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas/#saveas)(Stream, FileFormat) | Saves the current object to a specified file format in a stream. |
 | [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas/#saveas_1)(string, FileFormat) | Saves the current object to a specified file format in a different file. |
 | [SaveMessageToStream](../../aspose.email.storage.pst/personalstorage/savemessagetostream/)(string, Stream) | Saves the message, with specified entryID, to a stream. |
-| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto/#splitinto_1)(IList&lt;MailQuery&gt;, string) | Splits the pst storage based on criteria. |
+| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto/#splitinto_2)(IList&lt;MailQuery&gt;, string) | Splits the pst storage based on criteria. |
 | [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto/#splitinto)(long, string) | Splits the pst storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto/#splitinto_3)(IList&lt;MailQuery&gt;, string, string) | Splits the pst storage based on criteria. |
+| [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto/#splitinto_1)(long, string, string) | Splits the pst storage into less sized parts. |
 | [TryToGetFolderById](../../aspose.email.storage.pst/personalstorage/trytogetfolderbyid/)(string, out FolderInfo) | Gets the folder associated with the specified entry ID. |
 | [TryToSaveMessage](../../aspose.email.storage.pst/personalstorage/trytosavemessage/)(string, Stream) | Saves the message, with specified entryID, to a stream. |
 
@@ -92,6 +95,7 @@ public class PersonalStorage : IDisposable
 | --- | --- |
 | event [ItemMoved](../../aspose.email.storage.pst/personalstorage/itemmoved/) | Occurs when an item is moved to the another folder. |
 | event [StorageProcessed](../../aspose.email.storage.pst/personalstorage/storageprocessed/) | Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged. |
+| event [StorageProcessing](../../aspose.email.storage.pst/personalstorage/storageprocessing/) | Occurs before the srorage is processed. The event is raised before processing the next storage in merging or splitting operations. |
 
 ### See Also
 

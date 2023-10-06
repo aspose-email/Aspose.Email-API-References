@@ -6,7 +6,7 @@ type: docs
 weight: 360
 url: /net/aspose.email.clients.graph/igraphclient/send/
 ---
-## Send(string) {#send_2}
+## Send(string) {#send_3}
 
 Send a message in the draft folder. The draft message can be a new message draft, reply draft, reply-all draft, or a forward draft. The message is then saved in the Sent Items folder.
 
@@ -26,7 +26,7 @@ public void Send(string itemId)
 
 ---
 
-## Send(MapiMessage) {#send}
+## Send(MapiMessage) {#send_1}
 
 Sends email message
 
@@ -47,7 +47,7 @@ public void Send(MapiMessage message)
 
 ---
 
-## Send(MapiMessage, bool) {#send_1}
+## Send(MapiMessage, bool) {#send_2}
 
 Sends email message
 
@@ -63,6 +63,27 @@ public void Send(MapiMessage message, bool saveToSentItems)
 ### See Also
 
 * class [MapiMessage](../../../aspose.email.mapi/mapimessage/)
+* interface [IGraphClient](../)
+* namespace [Aspose.Email.Clients.Graph](../../igraphclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Send(MailMessage) {#send}
+
+Sends email message
+
+```csharp
+public void Send(MailMessage message)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | MailMessage | MailMessage[`MailMessage`](../../../aspose.email/mailmessage/) to send |
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
 * interface [IGraphClient](../)
 * namespace [Aspose.Email.Clients.Graph](../../igraphclient/)
 * assembly [Aspose.Email](../../../)

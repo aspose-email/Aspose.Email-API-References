@@ -3,7 +3,7 @@ title: MailSensitivity
 second_title: Aspose.Email for Java API Reference
 description: Specifies the sensitivity of a MailMessage.
 type: docs
-weight: 762
+weight: 765
 url: /java/com.aspose.email/mailsensitivity/
 ---
 

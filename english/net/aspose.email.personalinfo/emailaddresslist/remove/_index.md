@@ -3,7 +3,7 @@ title: EmailAddressList.Remove
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Removes the first occurrence of a specific object from the list
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.email.personalinfo/emailaddresslist/remove/
 ---
 ## EmailAddressList.Remove method

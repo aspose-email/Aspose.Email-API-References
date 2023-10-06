@@ -3,7 +3,7 @@ title: EmailAddressCategory.Equals
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory method. Determines whether the specified Object is equal to the current Object
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.personalinfo/emailaddresscategory/equals/
 ---
 ## Equals(object) {#equals_1}

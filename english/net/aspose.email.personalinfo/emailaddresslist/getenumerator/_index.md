@@ -3,7 +3,7 @@ title: EmailAddressList.GetEnumerator
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressList method. Returns an enumerator that iterates through a collection
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.personalinfo/emailaddresslist/getenumerator/
 ---
 ## EmailAddressList.GetEnumerator method

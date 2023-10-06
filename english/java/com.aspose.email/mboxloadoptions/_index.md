@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when loading a Mbox storage.
 type: docs
-weight: 482
+weight: 483
 url: /java/com.aspose.email/mboxloadoptions/
 ---
 

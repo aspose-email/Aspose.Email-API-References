@@ -594,6 +594,12 @@ public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 Task object, with delegate for this operation
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
+
 ### See Also
 
 * class [ImapMessageFlags](../../imapmessageflags/)
@@ -621,6 +627,12 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 ### Return Value
 
 Task object, with delegate for this operation
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
 
 ### See Also
 
@@ -651,6 +663,12 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 Task object, with delegate for this operation
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | UidSet should not be null or empty. |
+
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
@@ -680,6 +698,12 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 ### Return Value
 
 Task object, with delegate for this operation
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | SequenceSet should not be null or empty. |
 
 ### See Also
 

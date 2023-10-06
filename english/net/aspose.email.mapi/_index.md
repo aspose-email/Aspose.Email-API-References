@@ -61,6 +61,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiDistributionList](./mapidistributionlist/) | Represents the Personal Distribution List object. |
 | [MapiDistributionListMember](./mapidistributionlistmember/) | Represents the members of the personal distribution list. |
 | [MapiDistributionListMemberCollection](./mapidistributionlistmembercollection/) | Represents a collection of [`MapiDistributionListMember`](../aspose.email.mapi/mapidistributionlistmember/) objects. |
+| [MapiDistributionListSaveOptions](./mapidistributionlistsaveoptions/) | Specifies the DistributionList save options. |
 | [MapiElectronicAddress](./mapielectronicaddress/) | Refers to the group of properties that define the e-mail address or fax address. |
 | [MapiJournal](./mapijournal/) | Represents the Outlook Journal object. |
 | [MapiMessage](./mapimessage/) | Represents an Outlook Message format document that can be parsed. |

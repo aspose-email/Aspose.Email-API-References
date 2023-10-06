@@ -3,7 +3,7 @@ title: Contact.PhysicalAddresses
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Gets list of postal addresses
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.email.personalinfo/contact/physicaladdresses/
 ---
 ## Contact.PhysicalAddresses property

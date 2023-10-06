@@ -3,7 +3,7 @@ title: Interface IFileDropTargetControl
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.IFileDropTargetControl interface. Defines a interface for controls that can be target of drag and drop
 type: docs
-weight: 20760
+weight: 21050
 url: /net/aspose.email.windows.forms/ifiledroptargetcontrol/
 ---
 ## IFileDropTargetControl interface

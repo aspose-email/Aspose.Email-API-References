@@ -303,9 +303,9 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [HtmlSaveOptions](../com.aspose.email/htmlsaveoptions) | Allows to specify additional options when saving MailMessage to Html format. |
 | [HttpAuthenticationMethods](../com.aspose.email/httpauthenticationmethods) | The authentication methods supported by the HTTP proxy |
 | [HttpProxy](../com.aspose.email/httpproxy) | HTTP proxy client. |
+| [HttpUtility](../com.aspose.email/httputility) |  |
 | [ICommand](../com.aspose.email/icommand) | Defines a command. |
 | [IDataReader](../com.aspose.email/idatareader) | IDataReader class |
-| [IcsSaveOptions](../com.aspose.email/icssaveoptions) | Represents iCalendar save options |
 | [Identity](../com.aspose.email/identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. |
 | [IdentitySet](../com.aspose.email/identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. |
 | [ImapAttachmentInfo](../com.aspose.email/imapattachmentinfo) | Represents an attachment information. |
@@ -446,6 +446,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiDistributionListEntryIdType](../com.aspose.email/mapidistributionlistentryidtype) | Specifies the type of EntryID. |
 | [MapiDistributionListMember](../com.aspose.email/mapidistributionlistmember) | Represents the members of the personal distribution list. |
 | [MapiDistributionListMemberCollection](../com.aspose.email/mapidistributionlistmembercollection) | Represents a collection of [MapiDistributionListMember](../com.aspose.email/mapidistributionlistmember) objects. |
+| [MapiDistributionListSaveOptions](../com.aspose.email/mapidistributionlistsaveoptions) | Specifies the DistributionList save options. |
 | [MapiElectronicAddress](../com.aspose.email/mapielectronicaddress) | Refers to the group of properties that define the e-mail address or fax address. |
 | [MapiGuidConstants](../com.aspose.email/mapiguidconstants) | Contains several guid constants defined by MSG format specification. |
 | [MapiImportance](../com.aspose.email/mapiimportance) | Contains a values that indicates the message importance. |
@@ -669,6 +670,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [StandardIpmFolder](../com.aspose.email/standardipmfolder) | Represents a standard interpersonal message (IPM) folders. |
 | [StorageProcessedEventArgs](../com.aspose.email/storageprocessedeventargs) | Provides data for the [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event |
 | [StorageProcessedEventHandler](../com.aspose.email/storageprocessedeventhandler) | Represents the method that will handle an [PersonalStorage.\#StorageProcessedDelegate](../com.aspose.email/personalstorage\#StorageProcessedDelegate) event. |
+| [StorageProcessingEventArgs](../com.aspose.email/storageprocessingeventargs) | Provides data for the [PersonalStorage.\#StorageProcessingDelegate](../com.aspose.email/personalstorage\#StorageProcessingDelegate) event |
+| [StorageProcessingEventHandler](../com.aspose.email/storageprocessingeventhandler) | Event handler for the StoragePreProcessing. |
 | [StringComparisonField](../com.aspose.email/stringcomparisonfield) | Represents the string search field. |
 | [SyncFolderResult](../com.aspose.email/syncfolderresult) | Result for SyncFolder operation |
 | [SyncFolderType](../com.aspose.email/syncfoldertype) | Folder synchronization types |

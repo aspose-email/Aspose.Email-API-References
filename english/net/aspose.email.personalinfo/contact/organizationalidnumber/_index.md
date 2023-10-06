@@ -3,7 +3,7 @@ title: Contact.OrganizationalIdNumber
 second_title: Aspose.Email for .NET API Reference
 description: Contact property. Contains an identifier for the mail user used within the mail users organization
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.email.personalinfo/contact/organizationalidnumber/
 ---
 ## Contact.OrganizationalIdNumber property

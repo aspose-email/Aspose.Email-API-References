@@ -25,7 +25,6 @@ Represents the builder of search expression based on search filters that used by
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAppointment()](#getAppointment--) | Gets object with appointment properties to create query |
-| [getAttachmentName()](#getAttachmentName--) | Gets the field that allows to find items with a specified attachment name. |
 | [getBcc()](#getBcc--) | Gets the field that allows to find messages that contain the specified string in the envelope structure's BCC field. |
 | [getBody()](#getBody--) | Gets the field that allows to find messages that contain the specified string in the body of the message. |
 | [getCc()](#getCc--) | Gets the field that allows to find messages that contain the specified string in the envelope structure's CC field. |
@@ -87,16 +86,6 @@ Gets object with appointment properties to create query
 
 **Returns:**
 [AppointmentQueryBuilder](../../com.aspose.email/appointmentquerybuilder)
-### getAttachmentName() {#getAttachmentName--}
-```
-public final StringComparisonField getAttachmentName()
-```
-
-
-Gets the field that allows to find items with a specified attachment name.
-
-**Returns:**
-[StringComparisonField](../../com.aspose.email/stringcomparisonfield)
 ### getBcc() {#getBcc--}
 ```
 public final StringComparisonField getBcc()

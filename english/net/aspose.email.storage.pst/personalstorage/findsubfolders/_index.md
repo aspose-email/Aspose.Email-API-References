@@ -3,7 +3,7 @@ title: PersonalStorage.FindSubfolders
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.email.storage.pst/personalstorage/findsubfolders/
 ---
 ## PersonalStorage.FindSubfolders method

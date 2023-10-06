@@ -3,7 +3,7 @@ title: EmailAddressCategory.CustomValue
 second_title: Aspose.Email for .NET API Reference
 description: EmailAddressCategory field. String value for Custom category
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.personalinfo/emailaddresscategory/customvalue/
 ---
 ## EmailAddressCategory.CustomValue field

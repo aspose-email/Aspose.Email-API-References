@@ -3,7 +3,7 @@ title: Enum MapiTaskAcceptanceState
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskAcceptanceState enum. Indicates the acceptance state of the task
 type: docs
-weight: 18720
+weight: 18730
 url: /net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 ## MapiTaskAcceptanceState enumeration

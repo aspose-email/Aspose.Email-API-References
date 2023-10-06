@@ -6,7 +6,7 @@ type: docs
 weight: 480
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createcontact/
 ---
-## CreateContact(Contact) {#createcontact_1}
+## CreateContact(Contact) {#createcontact}
 
 Creates a contact item in the Exchange store.
 
@@ -24,13 +24,14 @@ The contact Uri
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## CreateContact(string, Contact) {#createcontact_3}
+## CreateContact(string, Contact) {#createcontact_1}
 
 Creates a contact item in the specified folder.
 
@@ -49,6 +50,7 @@ The contact Uri
 
 ### See Also
 
+* class [Contact](../../../aspose.email.personalinfo/contact/)
 * interface [IEWSClient](../)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient/)
 * assembly [Aspose.Email](../../../)

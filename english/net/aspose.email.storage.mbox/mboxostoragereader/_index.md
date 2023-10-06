@@ -3,7 +3,7 @@ title: Class MboxoStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxoStorageReader class. Represents mboxo format storage reader this format is being used by Eudora
 type: docs
-weight: 19850
+weight: 20120
 url: /net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class
@@ -19,7 +19,7 @@ public sealed class MboxoStorageReader : MboxStorageReader
 | Name | Description |
 | --- | --- |
 | [MboxoStorageReader](mboxostoragereader/#constructor)(Stream, MboxLoadOptions) | Initializes a new instance of the `MboxoStorageReader` class. |
-| [MboxoStorageReader](mboxostoragereader/#constructor_2)(string, MboxLoadOptions) | Initializes a new instance of the [`MboxrdStorageReader`](../mboxrdstoragereader/) class. |
+| [MboxoStorageReader](mboxostoragereader/#constructor_1)(string, MboxLoadOptions) | Initializes a new instance of the [`MboxrdStorageReader`](../mboxrdstoragereader/) class. |
 
 ## Properties
 

@@ -16,7 +16,7 @@ public static InboxRule CreateRuleMoveFrom(MailAddress from, string destinationF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | MailAddress | A EmailAddress of sender |
+| from | MailAddress | A [`EmailAddress`](../../../aspose.email.personalinfo/emailaddress/) of sender |
 | destinationFolderId | String | An id of folder in which messages will be moved |
 
 ### Return Value

@@ -3,7 +3,7 @@ title: Aspose.Email.Tools.Search
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Tools.Search namespace contains base classes that represent message search by criteria
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.email.tools.search/
 ---
 The **Aspose.Email.Tools.Search** namespace contains base classes that represent message search by criteria.

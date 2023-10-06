@@ -3,7 +3,7 @@ title: MessageObject
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook message object.
 type: docs
-weight: 500
+weight: 501
 url: /java/com.aspose.email/messageobject/
 ---
 

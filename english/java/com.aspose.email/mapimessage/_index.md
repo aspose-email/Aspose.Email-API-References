@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 447
+weight: 448
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -23,7 +23,7 @@ Represents an Outlook Message format document that can be parsed.
 > 
 > ```
 > //Open Outlook Message files
->   MapiMessage msg = MapiMessage.fromFile("outlookmessage.msg");
+>   MapiMessage msg = MapiMessage.load("outlookmessage.msg");
 > 
 >   //read subject
 >   System.out.print("Subject:" + msg.getSubject());
@@ -70,12 +70,11 @@ Instances of the MapiMessage class are used to represent Microsoft Outlook Messa
 | [destroyAttachments(String path)](#destroyAttachments-java.lang.String-) | Destroies the attachments in the specified Outlook Message files. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromFile(String path)](#fromFile-java.lang.String-) | Create an instance of MapiMessage from the specified file. |
 | [fromMailMessage(MailMessage message)](#fromMailMessage-com.aspose.email.MailMessage-) | Creates an instance of MapiMessage from the MailMessage. |
 | [fromMailMessage(MailMessage message, MapiConversionOptions options)](#fromMailMessage-com.aspose.email.MailMessage-com.aspose.email.MapiConversionOptions-) | Creates an instance of MapiMessage from the MailMessage. |
+| [fromMailMessage(InputStream stream)](#fromMailMessage-java.io.InputStream-) | Creates an instance of MapiMessage from the EML format data stream. |
 | [fromMailMessage(String fileName)](#fromMailMessage-java.lang.String-) | Creates an instance of MapiMessage from the MailMessage. |
 | [fromProperties(MapiPropertyCollection properties)](#fromProperties-com.aspose.email.MapiPropertyCollection-) | Creates an instance of MapiMessage from a collection of Mapi properties. |
-| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Create an instance of MapiMessage from the specified stream. |
 | [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
 | [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
 | [getBody()](#getBody--) | Gets the message text. |
@@ -431,21 +430,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromFile(String path) {#fromFile-java.lang.String-}
-```
-public static MapiMessage fromFile(String path)
-```
-
-
-Create an instance of MapiMessage from the specified file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | The name of the file to be loaded. |
-
-**Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - Returns a MapiMessage instance which is loaded from the specified file.
 ### fromMailMessage(MailMessage message) {#fromMailMessage-com.aspose.email.MailMessage-}
 ```
 public static MapiMessage fromMailMessage(MailMessage message)
@@ -477,6 +461,21 @@ Creates an instance of MapiMessage from the MailMessage.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - [MapiMessage](../../com.aspose.email/mapimessage) that represents Outlook message.
+### fromMailMessage(InputStream stream) {#fromMailMessage-java.io.InputStream-}
+```
+public static MapiMessage fromMailMessage(InputStream stream)
+```
+
+
+Creates an instance of MapiMessage from the EML format data stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream of data that represents an EML file. |
+
+**Returns:**
+[MapiMessage](../../com.aspose.email/mapimessage) - Returns a MapiMessage instance which is loaded from the EML format data stream.
 ### fromMailMessage(String fileName) {#fromMailMessage-java.lang.String-}
 ```
 public static MapiMessage fromMailMessage(String fileName)
@@ -507,21 +506,6 @@ Creates an instance of MapiMessage from a collection of Mapi properties.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - Returns a MapiMessage instance which is loaded from the specified properties.
-### fromStream(InputStream stream) {#fromStream-java.io.InputStream-}
-```
-public static MapiMessage fromStream(InputStream stream)
-```
-
-
-Create an instance of MapiMessage from the specified stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream to be loaded. |
-
-**Returns:**
-[MapiMessage](../../com.aspose.email/mapimessage) - Returns a MapiMessage instance which is loaded from the specified stream.
 ### getAttachments() {#getAttachments--}
 ```
 public final MapiAttachmentCollection getAttachments()

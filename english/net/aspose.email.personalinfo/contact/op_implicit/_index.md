@@ -3,7 +3,7 @@ title: Contact.op_Implicit
 second_title: Aspose.Email for .NET API Reference
 description: Contact method. Converts Contact to MapiContact object
 type: docs
-weight: 430
+weight: 420
 url: /net/aspose.email.personalinfo/contact/op_implicit/
 ---
 ## implicit operator {#op_implicit}

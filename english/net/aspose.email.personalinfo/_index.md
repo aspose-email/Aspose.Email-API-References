@@ -39,7 +39,6 @@ The **Aspose.Email.PersonalInfo** namespace contains classes that represents con
 
 | Enumeration | Description |
 | --- | --- |
-| [ContactLoadFormat](./contactloadformat/) | Enumerates contact load formats |
 | [FileAsMapping](./fileasmapping/) | Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change. Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
 | [Gender](./gender/) | Enum defines gender of a person |
 | [TextFormat](./textformat/) | Defines format of a text. |

@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern of yearly recurrence type.
 type: docs
-weight: 733
+weight: 736
 url: /java/com.aspose.email/yearlyrecurrencepattern/
 ---
 
