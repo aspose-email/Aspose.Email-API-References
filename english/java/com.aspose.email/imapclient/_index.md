@@ -1237,6 +1237,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [getConnectionCheckupPeriod()](#getConnectionCheckupPeriod--) | Period of connection checking up in milliseconds. |
 | [getConnectionState()](#getConnectionState--) | Gets the current state of the connection. |
 | [getConnectionsQuantity()](#getConnectionsQuantity--) | Gets or sets quantity of connections in multy-connection mode |
+| [getCredentialsEncoding()](#getCredentialsEncoding--) | Gets or sets Credentials Encoding |
 | [getCurrentConnection()](#getCurrentConnection--) | Gets current connection according to ConnectionAsgmtMode option |
 | [getCurrentFolder()](#getCurrentFolder--) | Gets the current folder |
 | [getDefaultFolder()](#getDefaultFolder--) | Default folder for ImapClients |
@@ -1449,6 +1450,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [setConnectionAsgmtMode(int value)](#setConnectionAsgmtMode-int-) | Gets or sets value which defines mode of connection allocation in multiple threads environment There are folowing connection types: - Main connection is connection created and disposed together with mail client.It can't be created or disposed manually. |
 | [setConnectionCheckupPeriod(int value)](#setConnectionCheckupPeriod-int-) | Period of connection checking up in milliseconds. |
 | [setConnectionsQuantity(int value)](#setConnectionsQuantity-int-) | Gets or sets quantity of connections in multy-connection mode |
+| [setCredentialsEncoding(String value)](#setCredentialsEncoding-java.lang.String-) | Gets or sets Credentials Encoding |
 | [setCurrentFolder(ImapFolderInfo value)](#setCurrentFolder-com.aspose.email.ImapFolderInfo-) | Gets the current folder |
 | [setDefaultFolder(String value)](#setDefaultFolder-java.lang.String-) | Default folder for ImapClients |
 | [setDelimiter(String value)](#setDelimiter-java.lang.String-) | Gets or sets delimiter of folders hierarhy. |
@@ -1474,6 +1476,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [setReadOnly(boolean value)](#setReadOnly-boolean-) | Gets or sets value which indicates if changes to the permanent state of the mailbox, including per-user state, are permitted. |
 | [setSaslIrSupported(boolean value)](#setSaslIrSupported-boolean-) | Gets information whether SASL Initial Client Response extension is supported See more: https://tools.ietf.org/html/rfc4959 |
 | [setSecurityOptions(int value)](#setSecurityOptions-int-) | Security mode for a mail client |
+| [setShowCredentialsInLog(boolean value)](#setShowCredentialsInLog-boolean-) | Sets value indicating whether Credentials should be displayed in the log. |
 | [setSocketsLayerVersion2(boolean value)](#setSocketsLayerVersion2-boolean-) | Sets value indicating whether Sockets Layer version 2 is used. |
 | [setSocketsLayerVersion2DisableSSLCertificateValidation(boolean value)](#setSocketsLayerVersion2DisableSSLCertificateValidation-boolean-) | Disable SSL certificate validation for Sockets Layer version 2 |
 | [setSocketsLayerVersion2SSLSocketFactory(SSLSocketFactory value)](#setSocketsLayerVersion2SSLSocketFactory-javax.net.ssl.SSLSocketFactory-) | Set SSL Socket Factory for Sockets Layer version 2 |
@@ -22069,6 +22072,16 @@ Gets or sets quantity of connections in multy-connection mode
 
 **Returns:**
 int
+### getCredentialsEncoding() {#getCredentialsEncoding--}
+```
+public final String getCredentialsEncoding()
+```
+
+
+Gets or sets Credentials Encoding
+
+**Returns:**
+java.lang.String
 ### getCurrentConnection() {#getCurrentConnection--}
 ```
 public IConnection getCurrentConnection()
@@ -25078,6 +25091,19 @@ Gets or sets quantity of connections in multy-connection mode
 | --- | --- | --- |
 | value | int |  |
 
+### setCredentialsEncoding(String value) {#setCredentialsEncoding-java.lang.String-}
+```
+public final void setCredentialsEncoding(String value)
+```
+
+
+Gets or sets Credentials Encoding
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setCurrentFolder(ImapFolderInfo value) {#setCurrentFolder-com.aspose.email.ImapFolderInfo-}
 ```
 public final void setCurrentFolder(ImapFolderInfo value)
@@ -25421,6 +25447,19 @@ Security mode for a mail client
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setShowCredentialsInLog(boolean value) {#setShowCredentialsInLog-boolean-}
+```
+public static void setShowCredentialsInLog(boolean value)
+```
+
+
+Sets value indicating whether Credentials should be displayed in the log. By default, is False.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | True if Credentials should be displayed in the log. |
 
 ### setSocketsLayerVersion2(boolean value) {#setSocketsLayerVersion2-boolean-}
 ```
