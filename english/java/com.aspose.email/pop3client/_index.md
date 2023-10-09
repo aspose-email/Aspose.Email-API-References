@@ -362,6 +362,7 @@ Allows applications to access and manipulate messages by using the Post Office P
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
 | [setProxy(Proxy value)](#setProxy-com.aspose.email.Proxy-) | Gets or sets proxy for the client |
 | [setSecurityOptions(int value)](#setSecurityOptions-int-) | Security mode for a mail client |
+| [setShowCredentialsInLog(boolean value)](#setShowCredentialsInLog-boolean-) | Sets value indicating whether Credentials should be displayed in the log. |
 | [setSocketsLayerVersion2(boolean value)](#setSocketsLayerVersion2-boolean-) | Sets value indicating whether Sockets Layer version 2 is used. |
 | [setSocketsLayerVersion2DisableSSLCertificateValidation(boolean value)](#setSocketsLayerVersion2DisableSSLCertificateValidation-boolean-) | Disable SSL certificate validation for Sockets Layer version 2 |
 | [setSocketsLayerVersion2SSLSocketFactory(SSLSocketFactory value)](#setSocketsLayerVersion2SSLSocketFactory-javax.net.ssl.SSLSocketFactory-) | Set SSL Socket Factory for Sockets Layer version 2 |
@@ -5595,6 +5596,19 @@ Security mode for a mail client
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setShowCredentialsInLog(boolean value) {#setShowCredentialsInLog-boolean-}
+```
+public static void setShowCredentialsInLog(boolean value)
+```
+
+
+Sets value indicating whether Credentials should be displayed in the log. By default, is False.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | True if Credentials should be displayed in the log. |
 
 ### setSocketsLayerVersion2(boolean value) {#setSocketsLayerVersion2-boolean-}
 ```
