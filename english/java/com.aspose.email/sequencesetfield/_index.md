@@ -3,7 +3,7 @@ title: SequenceSetField
 second_title: Aspose.Email for Java API Reference
 description: Defines set of values for selected field to search.
 type: docs
-weight: 635
+weight: 639
 url: /java/com.aspose.email/sequencesetfield/
 ---
 

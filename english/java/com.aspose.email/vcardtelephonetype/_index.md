@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates a vCard telephone types
 type: docs
-weight: 724
+weight: 728
 url: /java/com.aspose.email/vcardtelephonetype/
 ---
 

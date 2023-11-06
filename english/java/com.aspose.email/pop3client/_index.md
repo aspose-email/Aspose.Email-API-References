@@ -3,7 +3,7 @@ title: Pop3Client
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to access and manipulate  messages by using the Post Office Protocol Version 3 POP3.
 type: docs
-weight: 571
+weight: 575
 url: /java/com.aspose.email/pop3client/
 ---
 
@@ -379,6 +379,7 @@ Allows applications to access and manipulate messages by using the Post Office P
 | [toString()](#toString--) |  |
 | [undeleteMessages()](#undeleteMessages--) | Undeletes the messages. |
 | [undeleteMessages(IConnection connection)](#undeleteMessages-com.aspose.email.IConnection-) | Undeletes the messages. |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Executes credentials validation |
 | [validateCredentials(IConnection connection)](#validateCredentials-com.aspose.email.IConnection-) | Executes credentials validation |
 | [wait()](#wait--) |  |
@@ -5813,6 +5814,19 @@ Undeletes the messages. If any messages have been marked as deleted by the POP3 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | connection | [IConnection](../../com.aspose.email/iconnection) | Connection to a server |
+
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
 
 ### validateCredentials() {#validateCredentials--}
 ```

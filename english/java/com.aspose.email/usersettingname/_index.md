@@ -3,7 +3,7 @@ title: UserSettingName
 second_title: Aspose.Email for Java API Reference
 description: User settings that can be requested using GetUserSettings.
 type: docs
-weight: 700
+weight: 704
 url: /java/com.aspose.email/usersettingname/
 ---
 

@@ -89,6 +89,7 @@ Represents the client that creates server connection by using the host credentia
 | [setUsePipelining(PipeliningStatus value)](#setUsePipelining-com.aspose.email.PipeliningStatus-) | Gets or sets object which indicates whether the pipelining mode is enabled. |
 | [setUsername(String value)](#setUsername-java.lang.String-) | Gets or sets the username. |
 | [toString()](#toString--) |  |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Checks if the credentials are valid |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -889,6 +890,19 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
+
 ### validateCredentials() {#validateCredentials--}
 ```
 public abstract boolean validateCredentials()

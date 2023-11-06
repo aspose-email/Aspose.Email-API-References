@@ -3,7 +3,7 @@ title: ReplyBody
 second_title: Aspose.Email for Java API Reference
 description: Represents the OOF message response.
 type: docs
-weight: 605
+weight: 609
 url: /java/com.aspose.email/replybody/
 ---
 

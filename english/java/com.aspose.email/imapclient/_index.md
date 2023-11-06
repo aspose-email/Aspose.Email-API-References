@@ -1519,6 +1519,7 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [unselectFolder(IConnection connection, boolean doNotExpunge)](#unselectFolder-com.aspose.email.IConnection-boolean-) | Unselects folder which are currently selected. |
 | [unsubscribeFolder(IConnection connection, String folderName)](#unsubscribeFolder-com.aspose.email.IConnection-java.lang.String-) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
 | [unsubscribeFolder(String folderName)](#unsubscribeFolder-java.lang.String-) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Executes credentials validation |
 | [validateCredentials(IConnection connection)](#validateCredentials-com.aspose.email.IConnection-) | Executes credentials validation |
 | [wait()](#wait--) |  |
@@ -26016,6 +26017,19 @@ Sent the UNSUBSCRIBE command that removes the specified mailbox name from the se
 | Parameter | Type | Description |
 | --- | --- | --- |
 | folderName | java.lang.String | Name of the folder |
+
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
 
 ### validateCredentials() {#validateCredentials--}
 ```

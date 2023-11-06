@@ -3,7 +3,7 @@ title: StorageProcessingEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Event handler for the StoragePreProcessing.
 type: docs
-weight: 660
+weight: 664
 url: /java/com.aspose.email/storageprocessingeventhandler/
 ---
 

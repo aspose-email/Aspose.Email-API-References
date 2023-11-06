@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 642
+weight: 646
 url: /java/com.aspose.email/smtpclient/
 ---
 
@@ -200,6 +200,7 @@ Allows applications to send messages by using the Simple Mail Transfer Protocol 
 | [setUseTnef(boolean value)](#setUseTnef-boolean-) | Gets or sets a boolean value that controls whether the messages are sent in TNEF format. |
 | [setUsername(String value)](#setUsername-java.lang.String-) | Gets or sets the username. |
 | [toString()](#toString--) |  |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Executes credentials validation |
 | [validateCredentials(IConnection connection)](#validateCredentials-com.aspose.email.IConnection-) | Executes credentials validation |
 | [wait()](#wait--) |  |
@@ -2653,6 +2654,19 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
+
 ### validateCredentials() {#validateCredentials--}
 ```
 public boolean validateCredentials()

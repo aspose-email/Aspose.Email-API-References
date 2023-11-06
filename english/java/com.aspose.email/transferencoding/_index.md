@@ -3,7 +3,7 @@ title: TransferEncoding
 second_title: Aspose.Email for Java API Reference
 description: Specifies the Content-Transfer-Encoding header information.
 type: docs
-weight: 686
+weight: 690
 url: /java/com.aspose.email/transferencoding/
 ---
 
