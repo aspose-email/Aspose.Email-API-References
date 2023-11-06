@@ -80,6 +80,7 @@ Represents an e-mail message. It allows to access message properties, ex. subjec
 | [encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) |  |
 | [encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2[] certificates)](#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2---) | Encrypts this message |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
+| [getAlternateViewContent(String mediaType)](#getAlternateViewContent-java.lang.String-) | Gets the content as a string from the specified AlternateView. |
 | [getAlternateViews()](#getAlternateViews--) | Gets the collection of alternate views of message |
 | [getAttachments()](#getAttachments--) | Gets the collection of attachments of message |
 | [getBcc()](#getBcc--) | Gets or sets the address collection that contains the BCC recipients of message |
@@ -663,6 +664,21 @@ Determines whether the specified Object is equal to the current Object.
 
 **Returns:**
 boolean - Returns a boolean indicating if the passed in object obj is Equal to this.
+### getAlternateViewContent(String mediaType) {#getAlternateViewContent-java.lang.String-}
+```
+public final String getAlternateViewContent(String mediaType)
+```
+
+
+Gets the content as a string from the specified AlternateView.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mediaType | java.lang.String | MediaType of needed AlternateView. |
+
+**Returns:**
+java.lang.String - 
 ### getAlternateViews() {#getAlternateViews--}
 ```
 public AlternateViewCollection getAlternateViews()

@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Email for Java API Reference
 description: Time range during which calendar should be regarded as busy.
 type: docs
-weight: 587
+weight: 591
 url: /java/com.aspose.email/range/
 ---
 

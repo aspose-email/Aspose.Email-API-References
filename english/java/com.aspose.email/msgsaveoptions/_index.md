@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format.
 type: docs
-weight: 525
+weight: 527
 url: /java/com.aspose.email/msgsaveoptions/
 ---
 

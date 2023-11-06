@@ -33,6 +33,10 @@ A base class for any mbox-based mail storage reader.
 | [extractMessage(String id, EmlLoadOptions options)](#extractMessage-java.lang.String-com.aspose.email.EmlLoadOptions-) | Get the message from MBOX. |
 | [getClass()](#getClass--) |  |
 | [getCurrentDataSize()](#getCurrentDataSize--) | Gets the number of bytes that is read by ReadNextMessage method. |
+| [getEmlCopiedEventHandler()](#getEmlCopiedEventHandler--) | Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method. |
+| [getEmlCopyingEventHandler()](#getEmlCopyingEventHandler--) | Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method. |
+| [getMboxFileCreatedEventHandler()](#getMboxFileCreatedEventHandler--) | Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method. |
+| [getMboxFileFilledEventHandler()](#getMboxFileFilledEventHandler--) | Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method. |
 | [getTotalItemsCount()](#getTotalItemsCount--) | Returns the number of messages in a storage. |
 | [hashCode()](#hashCode--) |  |
 | [nextMessage()](#nextMessage--) | Gets the next message info. |
@@ -42,6 +46,12 @@ A base class for any mbox-based mail storage reader.
 | [readNextMessage(EmlLoadOptions options)](#readNextMessage-com.aspose.email.EmlLoadOptions-) | Reads the next message from underlying storage stream. |
 | [readNextMessage(String[] fromMarker)](#readNextMessage-java.lang.String---) | Reads the next message from underlying storage stream. |
 | [readNextMessage(String[] fromMarker, EmlLoadOptions options)](#readNextMessage-java.lang.String---com.aspose.email.EmlLoadOptions-) | Reads the next message from underlying storage stream. |
+| [setEmlCopiedEventHandler(MimeItemCopyEventHandler value)](#setEmlCopiedEventHandler-com.aspose.email.MimeItemCopyEventHandler-) | Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method. |
+| [setEmlCopyingEventHandler(MimeItemCopyEventHandler value)](#setEmlCopyingEventHandler-com.aspose.email.MimeItemCopyEventHandler-) | Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method. |
+| [setMboxFileCreatedEventHandler(NewStorageEventHandler value)](#setMboxFileCreatedEventHandler-com.aspose.email.NewStorageEventHandler-) | Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method. |
+| [setMboxFileFilledEventHandler(NewStorageEventHandler value)](#setMboxFileFilledEventHandler-com.aspose.email.NewStorageEventHandler-) | Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method. |
+| [splitInto(long chunkSize, String outputPath)](#splitInto-long-java.lang.String-) | Splits the mbox storage into less sized parts. |
+| [splitInto(long chunkSize, String outputPath, String partFileNamePrefix)](#splitInto-long-java.lang.String-java.lang.String-) | Splits the mbox storage into less sized parts. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -196,6 +206,46 @@ Gets the number of bytes that is read by ReadNextMessage method.
 
 **Returns:**
 long
+### getEmlCopiedEventHandler() {#getEmlCopiedEventHandler--}
+```
+public final MimeItemCopyEventHandler getEmlCopiedEventHandler()
+```
+
+
+Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Returns:**
+[MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler)
+### getEmlCopyingEventHandler() {#getEmlCopyingEventHandler--}
+```
+public final MimeItemCopyEventHandler getEmlCopyingEventHandler()
+```
+
+
+Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Returns:**
+[MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler)
+### getMboxFileCreatedEventHandler() {#getMboxFileCreatedEventHandler--}
+```
+public final NewStorageEventHandler getMboxFileCreatedEventHandler()
+```
+
+
+Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method.
+
+**Returns:**
+[NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler)
+### getMboxFileFilledEventHandler() {#getMboxFileFilledEventHandler--}
+```
+public final NewStorageEventHandler getMboxFileFilledEventHandler()
+```
+
+
+Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Returns:**
+[NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler)
 ### getTotalItemsCount() {#getTotalItemsCount--}
 ```
 public abstract int getTotalItemsCount()
@@ -298,6 +348,87 @@ Reads the next message from underlying storage stream.
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - A [MailMessage](../../com.aspose.email/mailmessage) object if it can be read or  **null**  if no more messages are available.
+### setEmlCopiedEventHandler(MimeItemCopyEventHandler value) {#setEmlCopiedEventHandler-com.aspose.email.MimeItemCopyEventHandler-}
+```
+public final void setEmlCopiedEventHandler(MimeItemCopyEventHandler value)
+```
+
+
+Event that occurs after successful copy of a [MailMessage](../../com.aspose.email/mailmessage) object within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler) |  |
+
+### setEmlCopyingEventHandler(MimeItemCopyEventHandler value) {#setEmlCopyingEventHandler-com.aspose.email.MimeItemCopyEventHandler-}
+```
+public final void setEmlCopyingEventHandler(MimeItemCopyEventHandler value)
+```
+
+
+Event that occurs before the [MailMessage](../../com.aspose.email/mailmessage) object copy process, within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MimeItemCopyEventHandler](../../com.aspose.email/mimeitemcopyeventhandler) |  |
+
+### setMboxFileCreatedEventHandler(NewStorageEventHandler value) {#setMboxFileCreatedEventHandler-com.aspose.email.NewStorageEventHandler-}
+```
+public final void setMboxFileCreatedEventHandler(NewStorageEventHandler value)
+```
+
+
+Event that occurs when a new MBOX file is created during the \#splitInto(long,String).splitInto(long,String) method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler) |  |
+
+### setMboxFileFilledEventHandler(NewStorageEventHandler value) {#setMboxFileFilledEventHandler-com.aspose.email.NewStorageEventHandler-}
+```
+public final void setMboxFileFilledEventHandler(NewStorageEventHandler value)
+```
+
+
+Event that occurs after filling an MBOX file with data within the \#splitInto(long,String).splitInto(long,String) method.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [NewStorageEventHandler](../../com.aspose.email/newstorageeventhandler) |  |
+
+### splitInto(long chunkSize, String outputPath) {#splitInto-long-java.lang.String-}
+```
+public final void splitInto(long chunkSize, String outputPath)
+```
+
+
+Splits the mbox storage into less sized parts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chunkSize | long | The approximate size of a chunk in bytes. |
+| outputPath | java.lang.String | The folder path where chunks will be created. |
+
+### splitInto(long chunkSize, String outputPath, String partFileNamePrefix) {#splitInto-long-java.lang.String-java.lang.String-}
+```
+public final void splitInto(long chunkSize, String outputPath, String partFileNamePrefix)
+```
+
+
+Splits the mbox storage into less sized parts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chunkSize | long | The approximate size of a chunk in bytes. |
+| outputPath | java.lang.String | The folder path where chunks will be created. |
+| partFileNamePrefix | java.lang.String |  |
+
 ### toString() {#toString--}
 ```
 public String toString()

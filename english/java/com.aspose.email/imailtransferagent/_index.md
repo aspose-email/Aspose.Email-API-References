@@ -3,7 +3,7 @@ title: IMailTransferAgent
 second_title: Aspose.Email for Java API Reference
 description: Provides the base interface for mail transfer agents.
 type: docs
-weight: 753
+weight: 757
 url: /java/com.aspose.email/imailtransferagent/
 ---
 

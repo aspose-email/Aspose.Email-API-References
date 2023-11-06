@@ -3,7 +3,7 @@ title: IExchangeClientBase
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for base Exchange clients.
 type: docs
-weight: 747
+weight: 751
 url: /java/com.aspose.email/iexchangeclientbase/
 ---
 

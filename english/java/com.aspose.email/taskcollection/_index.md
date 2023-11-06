@@ -3,7 +3,7 @@ title: TaskCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of Task objects.
 type: docs
-weight: 669
+weight: 673
 url: /java/com.aspose.email/taskcollection/
 ---
 

@@ -3,7 +3,7 @@ title: TemplateEngine
 second_title: Aspose.Email for Java API Reference
 description: This class uses specified template to construct E-Mail messages.
 type: docs
-weight: 673
+weight: 677
 url: /java/com.aspose.email/templateengine/
 ---
 

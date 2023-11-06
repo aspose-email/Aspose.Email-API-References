@@ -3,7 +3,7 @@ title: SyncFolderResult
 second_title: Aspose.Email for Java API Reference
 description: Result for SyncFolder operation
 type: docs
-weight: 662
+weight: 666
 url: /java/com.aspose.email/syncfolderresult/
 ---
 

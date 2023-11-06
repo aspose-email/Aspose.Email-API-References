@@ -533,6 +533,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MhtmlLoadOptions](../com.aspose.email/mhtmlloadoptions) | Allows to specify additional options when loading MailMessage from Mhtml format. |
 | [MimeException](../com.aspose.email/mimeexception) | Provides information about MIME errors |
 | [MimeHeader](../com.aspose.email/mimeheader) | Represents the mime header defined in RFC 2822. |
+| [MimeItemCopyEventArgs](../com.aspose.email/mimeitemcopyeventargs) | Represents event arguments related to a copying of a MailMessage object from one storage to another, either before the copy begins or after it is complete. |
+| [MimeItemCopyEventHandler](../com.aspose.email/mimeitemcopyeventhandler) | Represents a delegate for handling events related to the copying of Mime items, typically used in scenarios where a MailMessage object is copied from one storage to another. |
 | [ModificationSequenceField](../com.aspose.email/modificationsequencefield) | Defines set of values for selected field to search. |
 | [MonthlyRecurrencePattern](../com.aspose.email/monthlyrecurrencepattern) | Represents a recurrence pattern of monthly recurrence type. |
 | [MsgLoadOptions](../com.aspose.email/msgloadoptions) | Allows to specify additional options when loading MailMessage from Msg format. |
@@ -541,6 +543,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [NameValuePair](../com.aspose.email/namevaluepair) | An extended property. |
 | [NamedPropertyKind](../com.aspose.email/namedpropertykind) | Identifies [MessageObjectProperty](../com.aspose.email/messageobjectproperty) kind. |
 | [NetworkException](../com.aspose.email/networkexception) | Thrown if there is a network connection failure. |
+| [NewStorageEventArgs](../com.aspose.email/newstorageeventargs) | Represents arguments used in events that are raised after a new storage file is created or after it is processed. |
+| [NewStorageEventHandler](../com.aspose.email/newstorageeventhandler) | Represents a delegate for handling events that occur after a new storage file is created or processed. |
 | [NoteColor](../com.aspose.email/notecolor) | Specifies the suggested background color of the Note object |
 | [NoteSaveFormat](../com.aspose.email/notesaveformat) | Enumerates NoteSaveFormat |
 | [Notebook](../com.aspose.email/notebook) | https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 A OneNote notebook. |

@@ -3,7 +3,7 @@ title: ProgressEventHandlerInfo
 second_title: Aspose.Email for Java API Reference
 description: This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user.
 type: docs
-weight: 581
+weight: 585
 url: /java/com.aspose.email/progresseventhandlerinfo/
 ---
 
