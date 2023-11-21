@@ -22,6 +22,7 @@ Aspose.Email реализует ряд сетевых протоколов, на
 
 Это ссылки на полезные ресурсы:
 - [Справочник по Aspose.Email для .NET API](/email/ru/net/)
+- [Учебные пособия по Aspose.Email для .NET API](/tutorials/email/ru/net/)
 
 ## Aspose.Email для Java
 
@@ -35,6 +36,7 @@ Aspose.Email для Java — это Java API, который позволяет 
 
 Это ссылки на полезные ресурсы:
 - [Справочник по API Aspose.Email для Java](/email/java/)
+- [Учебные пособия по Aspose.Email для Java API](/tutorials/email/ru/java/)
 
 ## Aspose.Email для C++
 
