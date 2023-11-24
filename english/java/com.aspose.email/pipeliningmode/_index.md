@@ -3,7 +3,7 @@ title: PipeliningMode
 second_title: Aspose.Email for Java API Reference
 description: Defines how mail client supports the pipelining
 type: docs
-weight: 569
+weight: 573
 url: /java/com.aspose.email/pipeliningmode/
 ---
 

@@ -3,7 +3,7 @@ title: SmtpException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when the SmtpClient is not able to complete an operation.
 type: docs
-weight: 644
+weight: 648
 url: /java/com.aspose.email/smtpexception/
 ---
 

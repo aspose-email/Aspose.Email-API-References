@@ -3,7 +3,7 @@ title: ConversionProgressEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents signature for method that usually supplied by calling side and handles progress events.
 type: docs
-weight: 738
+weight: 742
 url: /java/com.aspose.email/conversionprogresseventhandler/
 ---
 ```

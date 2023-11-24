@@ -74,6 +74,7 @@ Represents the client that creates server connection by using the host credentia
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
 | [setProxy(Proxy value)](#setProxy-com.aspose.email.Proxy-) | Gets or sets proxy for the client |
 | [setSecurityOptions(int value)](#setSecurityOptions-int-) | Security mode for a mail client |
+| [setShowCredentialsInLog(boolean value)](#setShowCredentialsInLog-boolean-) | Sets value indicating whether Credentials should be displayed in the log. |
 | [setSocketsLayerVersion2(boolean value)](#setSocketsLayerVersion2-boolean-) | Sets value indicating whether Sockets Layer version 2 is used. |
 | [setSocketsLayerVersion2DisableSSLCertificateValidation(boolean value)](#setSocketsLayerVersion2DisableSSLCertificateValidation-boolean-) | Disable SSL certificate validation for Sockets Layer version 2 |
 | [setSocketsLayerVersion2SSLSocketFactory(SSLSocketFactory value)](#setSocketsLayerVersion2SSLSocketFactory-javax.net.ssl.SSLSocketFactory-) | Set SSL Socket Factory for Sockets Layer version 2 |
@@ -88,6 +89,7 @@ Represents the client that creates server connection by using the host credentia
 | [setUsePipelining(PipeliningStatus value)](#setUsePipelining-com.aspose.email.PipeliningStatus-) | Gets or sets object which indicates whether the pipelining mode is enabled. |
 | [setUsername(String value)](#setUsername-java.lang.String-) | Gets or sets the username. |
 | [toString()](#toString--) |  |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Checks if the credentials are valid |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -692,6 +694,19 @@ Security mode for a mail client
 | --- | --- | --- |
 | value | int |  |
 
+### setShowCredentialsInLog(boolean value) {#setShowCredentialsInLog-boolean-}
+```
+public static void setShowCredentialsInLog(boolean value)
+```
+
+
+Sets value indicating whether Credentials should be displayed in the log. By default, is False.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | True if Credentials should be displayed in the log. |
+
 ### setSocketsLayerVersion2(boolean value) {#setSocketsLayerVersion2-boolean-}
 ```
 public static void setSocketsLayerVersion2(boolean value)
@@ -875,6 +890,19 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
+
 ### validateCredentials() {#validateCredentials--}
 ```
 public abstract boolean validateCredentials()

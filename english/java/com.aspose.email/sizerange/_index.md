@@ -3,7 +3,7 @@ title: SizeRange
 second_title: Aspose.Email for Java API Reference
 description: Represents the size range
 type: docs
-weight: 640
+weight: 644
 url: /java/com.aspose.email/sizerange/
 ---
 

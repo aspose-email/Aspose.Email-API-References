@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 642
+weight: 646
 url: /java/com.aspose.email/smtpclient/
 ---
 
@@ -182,6 +182,7 @@ Allows applications to send messages by using the Simple Mail Transfer Protocol 
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
 | [setProxy(Proxy value)](#setProxy-com.aspose.email.Proxy-) | Gets or sets proxy for the client |
 | [setSecurityOptions(int value)](#setSecurityOptions-int-) | Security mode for a mail client |
+| [setShowCredentialsInLog(boolean value)](#setShowCredentialsInLog-boolean-) | Sets value indicating whether Credentials should be displayed in the log. |
 | [setSmtpQueueLocation(String value)](#setSmtpQueueLocation-java.lang.String-) | Gets or sets the directory where applications save mail messages to be processed by sending in SMTP queue. |
 | [setSocketsLayerVersion2(boolean value)](#setSocketsLayerVersion2-boolean-) | Sets value indicating whether Sockets Layer version 2 is used. |
 | [setSocketsLayerVersion2DisableSSLCertificateValidation(boolean value)](#setSocketsLayerVersion2DisableSSLCertificateValidation-boolean-) | Disable SSL certificate validation for Sockets Layer version 2 |
@@ -199,6 +200,7 @@ Allows applications to send messages by using the Simple Mail Transfer Protocol 
 | [setUseTnef(boolean value)](#setUseTnef-boolean-) | Gets or sets a boolean value that controls whether the messages are sent in TNEF format. |
 | [setUsername(String value)](#setUsername-java.lang.String-) | Gets or sets the username. |
 | [toString()](#toString--) |  |
+| [usePasswordQuotes(boolean value)](#usePasswordQuotes-boolean-) | Sets a value indicating whether Quotes should be used in login password syntax with special characters. |
 | [validateCredentials()](#validateCredentials--) | Executes credentials validation |
 | [validateCredentials(IConnection connection)](#validateCredentials-com.aspose.email.IConnection-) | Executes credentials validation |
 | [wait()](#wait--) |  |
@@ -2415,6 +2417,19 @@ Security mode for a mail client
 | --- | --- | --- |
 | value | int |  |
 
+### setShowCredentialsInLog(boolean value) {#setShowCredentialsInLog-boolean-}
+```
+public static void setShowCredentialsInLog(boolean value)
+```
+
+
+Sets value indicating whether Credentials should be displayed in the log. By default, is False.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | True if Credentials should be displayed in the log. |
+
 ### setSmtpQueueLocation(String value) {#setSmtpQueueLocation-java.lang.String-}
 ```
 public final void setSmtpQueueLocation(String value)
@@ -2639,6 +2654,19 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### usePasswordQuotes(boolean value) {#usePasswordQuotes-boolean-}
+```
+public static void usePasswordQuotes(boolean value)
+```
+
+
+Sets a value indicating whether Quotes should be used in login password syntax with special characters. By default, is True.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | False if Quotes should not be used in login password syntax. |
+
 ### validateCredentials() {#validateCredentials--}
 ```
 public boolean validateCredentials()

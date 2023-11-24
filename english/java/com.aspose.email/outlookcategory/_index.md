@@ -3,7 +3,7 @@ title: OutlookCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents a category by which a user can group Outlook items such as messages and events.
 type: docs
-weight: 552
+weight: 556
 url: /java/com.aspose.email/outlookcategory/
 ---
 

@@ -22,6 +22,7 @@ Aspose.Email 实现了许多网络协议，例如 SMTP、MIME、POP3、IMAP； �
 
 这些是指向有用资源的链接：
 - [Aspose.Email for .NET API 参考](/email/zh/net/)
+- [Aspose.Email for .NET API 教程](/tutorials/email/zh/net/)
 
 ## Aspose.Email for Java
 
@@ -35,6 +36,7 @@ Aspose.Email for Java 是一个 Java API，它使 Java 应用程序能够在不�
 
 这些是指向有用资源的链接：
 - [Aspose.Email for Java API 参考](/email/java/)
+- [Aspose.Email Java API 教程](/tutorials/email/zh/java/)
 
 ## Aspose.Email for C++
 
