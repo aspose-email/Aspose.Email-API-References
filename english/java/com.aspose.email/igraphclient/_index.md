@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange REST client.
 type: docs
-weight: 754
+weight: 759
 url: /java/com.aspose.email/igraphclient/
 ---
 

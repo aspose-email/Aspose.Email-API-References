@@ -3,7 +3,7 @@ title: Notebook
 second_title: Aspose.Email for Java API Reference
 description: https//docs.microsoft.com/en-us/graph/api/resources/notebookviewgraph-rest-1.0 A OneNote notebook.
 type: docs
-weight: 536
+weight: 540
 url: /java/com.aspose.email/notebook/
 ---
 

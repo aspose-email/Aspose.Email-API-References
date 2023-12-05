@@ -3,7 +3,7 @@ title: MimeHeader
 second_title: Aspose.Email for Java API Reference
 description: Represents the mime header defined in RFC 2822.
 type: docs
-weight: 521
+weight: 525
 url: /java/com.aspose.email/mimeheader/
 ---
 

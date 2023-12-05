@@ -77,6 +77,8 @@ Represents the MAPI property tags definition.
 | [PR_ATTACH_CONTENT_ID](#PR-ATTACH-CONTENT-ID) | Contains the content identification header of a MIME message attachment. |
 | [PR_ATTACH_CONTENT_ID_A](#PR-ATTACH-CONTENT-ID-A) | Contains the content identification header of a MIME message attachment. |
 | [PR_ATTACH_CONTENT_ID_W](#PR-ATTACH-CONTENT-ID-W) | Contains the content identification header of a MIME message attachment. |
+| [PR_ATTACH_CONTENT_LOCATION](#PR-ATTACH-CONTENT-LOCATION) |  |
+| [PR_ATTACH_CONTENT_LOCATION_W](#PR-ATTACH-CONTENT-LOCATION-W) |  |
 | [PR_ATTACH_DATA_BIN](#PR-ATTACH-DATA-BIN) | Constant `PR_ATTACH_DATA_BIN=0x37010102` |
 | [PR_ATTACH_DATA_OBJ](#PR-ATTACH-DATA-OBJ) | Constant `PR_ATTACH_DATA_OBJ=0x3701000D` |
 | [PR_ATTACH_ENCODING](#PR-ATTACH-ENCODING) | Constant `PR_ATTACH_ENCODING=0x37020102` |
@@ -2522,6 +2524,18 @@ Contains the content identification header of a MIME message attachment. This pr
 --------------------
 
 It can be used to distinguish between inline attachments such as signature images and normal attached files. If Attachment has this property, then it is an embedded image.
+
+### PR_ATTACH_CONTENT_LOCATION {#PR-ATTACH-CONTENT-LOCATION}
+```
+public static final long PR_ATTACH_CONTENT_LOCATION
+```
+
+
+### PR_ATTACH_CONTENT_LOCATION_W {#PR-ATTACH-CONTENT-LOCATION-W}
+```
+public static final long PR_ATTACH_CONTENT_LOCATION_W
+```
+
 
 ### PR_ATTACH_DATA_BIN {#PR-ATTACH-DATA-BIN}
 ```

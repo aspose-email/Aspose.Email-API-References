@@ -3,7 +3,7 @@ title: MhtTemplateName
 second_title: Aspose.Email for Java API Reference
 description: Defines well known names of headers for Mhtml formatting.
 type: docs
-weight: 518
+weight: 522
 url: /java/com.aspose.email/mhttemplatename/
 ---
 

@@ -3,7 +3,7 @@ title: NewStorageEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents a delegate for handling events that occur after a new storage file is created or processed.
 type: docs
-weight: 533
+weight: 537
 url: /java/com.aspose.email/newstorageeventhandler/
 ---
 
