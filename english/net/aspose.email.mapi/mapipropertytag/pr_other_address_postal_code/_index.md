@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OTHER_ADDRESS_POSTAL_CODE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15640
+weight: 15660
 url: /net/aspose.email.mapi/mapipropertytag/pr_other_address_postal_code/
 ---
 ## MapiPropertyTag.PR_OTHER_ADDRESS_POSTAL_CODE field

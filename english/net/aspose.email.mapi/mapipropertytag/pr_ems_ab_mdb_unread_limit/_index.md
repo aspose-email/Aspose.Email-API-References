@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MDB_UNREAD_LIMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7620
+weight: 7640
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_unread_limit/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MDB_UNREAD_LIMIT field

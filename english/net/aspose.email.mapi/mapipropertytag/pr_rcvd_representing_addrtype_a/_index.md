@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RCVD_REPRESENTING_ADDRTYPE_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17530
+weight: 17550
 url: /net/aspose.email.mapi/mapipropertytag/pr_rcvd_representing_addrtype_a/
 ---
 ## MapiPropertyTag.PR_RCVD_REPRESENTING_ADDRTYPE_A field

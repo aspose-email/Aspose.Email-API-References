@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EVENTS_ROOT_FOLDER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11370
+weight: 11390
 url: /net/aspose.email.mapi/mapipropertytag/pr_events_root_folder_entryid/
 ---
 ## MapiPropertyTag.PR_EVENTS_ROOT_FOLDER_ENTRYID field

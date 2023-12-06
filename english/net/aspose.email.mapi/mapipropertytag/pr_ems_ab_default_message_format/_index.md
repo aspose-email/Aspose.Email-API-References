@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DEFAULT_MESSAGE_FORMAT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4130
+weight: 4150
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_default_message_format/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DEFAULT_MESSAGE_FORMAT field

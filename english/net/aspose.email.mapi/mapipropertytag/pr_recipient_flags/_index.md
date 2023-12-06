@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RECIPIENT_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Specifies a bit field that describes the recipient status
 type: docs
-weight: 17810
+weight: 17830
 url: /net/aspose.email.mapi/mapipropertytag/pr_recipient_flags/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_FLAGS field

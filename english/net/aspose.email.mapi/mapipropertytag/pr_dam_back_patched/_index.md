@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DAM_BACK_PATCHED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2250
+weight: 2270
 url: /net/aspose.email.mapi/mapipropertytag/pr_dam_back_patched/
 ---
 ## MapiPropertyTag.PR_DAM_BACK_PATCHED field

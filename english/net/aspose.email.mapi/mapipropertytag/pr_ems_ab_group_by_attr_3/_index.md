@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_3
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6290
+weight: 6310
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_group_by_attr_3/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GROUP_BY_ATTR_3 field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CREATION_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2150
+weight: 2170
 url: /net/aspose.email.mapi/mapipropertytag/pr_creation_time/
 ---
 ## MapiPropertyTag.PR_CREATION_TIME field

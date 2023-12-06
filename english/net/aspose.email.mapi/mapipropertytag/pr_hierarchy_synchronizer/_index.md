@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HIERARCHY_SYNCHRONIZER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12140
+weight: 12160
 url: /net/aspose.email.mapi/mapipropertytag/pr_hierarchy_synchronizer/
 ---
 ## MapiPropertyTag.PR_HIERARCHY_SYNCHRONIZER field

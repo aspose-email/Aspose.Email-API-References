@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_MAILBOX_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16830
+weight: 16850
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_mailbox_w/
 ---
 ## MapiPropertyTag.PR_PROFILE_MAILBOX_W field

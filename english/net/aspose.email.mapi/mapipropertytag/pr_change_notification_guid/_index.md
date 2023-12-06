@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CHANGE_NOTIFICATION_GUID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1490
+weight: 1510
 url: /net/aspose.email.mapi/mapipropertytag/pr_change_notification_guid/
 ---
 ## MapiPropertyTag.PR_CHANGE_NOTIFICATION_GUID field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RULE_IDS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18770
+weight: 18790
 url: /net/aspose.email.mapi/mapipropertytag/pr_rule_ids/
 ---
 ## MapiPropertyTag.PR_RULE_IDS field

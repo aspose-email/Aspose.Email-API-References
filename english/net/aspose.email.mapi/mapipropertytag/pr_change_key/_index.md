@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CHANGE_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1480
+weight: 1500
 url: /net/aspose.email.mapi/mapipropertytag/pr_change_key/
 ---
 ## MapiPropertyTag.PR_CHANGE_KEY field

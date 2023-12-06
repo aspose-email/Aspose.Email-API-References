@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LOCALE_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13540
+weight: 13560
 url: /net/aspose.email.mapi/mapipropertytag/pr_locale_id/
 ---
 ## MapiPropertyTag.PR_LOCALE_ID field

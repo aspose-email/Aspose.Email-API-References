@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SUPERSEDES_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19850
+weight: 19870
 url: /net/aspose.email.mapi/mapipropertytag/pr_supersedes_w/
 ---
 ## MapiPropertyTag.PR_SUPERSEDES_W field

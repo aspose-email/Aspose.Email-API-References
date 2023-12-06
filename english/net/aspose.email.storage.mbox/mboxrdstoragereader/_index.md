@@ -3,7 +3,7 @@ title: Class MboxrdStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxrdStorageReader class. Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients
 type: docs
-weight: 20130
+weight: 20140
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -43,6 +43,17 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage/#readnextmessage_1)(EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage/#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage/#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string) | Splits the mbox storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, string) |  |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [EmlCopied](../../aspose.email.storage.mbox/mboxstoragereader/emlcopied/) | Event that occurs after successful copy of a [`MailMessage`](../../aspose.email/mailmessage/) object within the [`SplitInto`](../mboxstoragereader/splitinto/) method. |
+| event [EmlCopying](../../aspose.email.storage.mbox/mboxstoragereader/emlcopying/) | Event that occurs before the [`MailMessage`](../../aspose.email/mailmessage/) object copy process, within the [`SplitInto`](../mboxstoragereader/splitinto/) method. |
+| event [MboxFileCreated](../../aspose.email.storage.mbox/mboxstoragereader/mboxfilecreated/) | Event that occurs when a new MBOX file is created during the [`SplitInto`](../mboxstoragereader/splitinto/) method. |
+| event [MboxFileFilled](../../aspose.email.storage.mbox/mboxstoragereader/mboxfilefilled/) | Event that occurs after filling an MBOX file with data within the [`SplitInto`](../mboxstoragereader/splitinto/) method. |
 
 ### See Also
 

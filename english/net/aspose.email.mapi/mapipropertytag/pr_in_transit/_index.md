@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IN_TRANSIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13080
+weight: 13100
 url: /net/aspose.email.mapi/mapipropertytag/pr_in_transit/
 ---
 ## MapiPropertyTag.PR_IN_TRANSIT field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DISPLAY_NAME_PRINTABLE_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4310
+weight: 4330
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_display_name_printable_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DISPLAY_NAME_PRINTABLE_W field

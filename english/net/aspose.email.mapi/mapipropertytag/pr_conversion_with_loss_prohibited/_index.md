@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONVERSION_WITH_LOSS_PROHIBITED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2070
+weight: 2090
 url: /net/aspose.email.mapi/mapipropertytag/pr_conversion_with_loss_prohibited/
 ---
 ## MapiPropertyTag.PR_CONVERSION_WITH_LOSS_PROHIBITED field

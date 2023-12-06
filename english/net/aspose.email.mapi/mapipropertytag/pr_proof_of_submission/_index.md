@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROOF_OF_SUBMISSION
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17240
+weight: 17260
 url: /net/aspose.email.mapi/mapipropertytag/pr_proof_of_submission/
 ---
 ## MapiPropertyTag.PR_PROOF_OF_SUBMISSION field

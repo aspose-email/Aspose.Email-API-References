@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MAILBOX_OWNER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13640
+weight: 13660
 url: /net/aspose.email.mapi/mapipropertytag/pr_mailbox_owner_entryid/
 ---
 ## MapiPropertyTag.PR_MAILBOX_OWNER_ENTRYID field

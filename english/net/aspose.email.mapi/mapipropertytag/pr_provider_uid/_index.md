@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROVIDER_UID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17340
+weight: 17360
 url: /net/aspose.email.mapi/mapipropertytag/pr_provider_uid/
 ---
 ## MapiPropertyTag.PR_PROVIDER_UID field

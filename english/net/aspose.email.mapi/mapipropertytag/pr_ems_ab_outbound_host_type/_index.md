@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_OUTBOUND_HOST_TYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8630
+weight: 8650
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_outbound_host_type/
 ---
 ## MapiPropertyTag.PR_EMS_AB_OUTBOUND_HOST_TYPE field

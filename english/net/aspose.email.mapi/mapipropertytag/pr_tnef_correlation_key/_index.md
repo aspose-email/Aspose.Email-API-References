@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TNEF_CORRELATION_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20060
+weight: 20080
 url: /net/aspose.email.mapi/mapipropertytag/pr_tnef_correlation_key/
 ---
 ## MapiPropertyTag.PR_TNEF_CORRELATION_KEY field

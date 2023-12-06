@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_COMPUTER_NAME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3950
+weight: 3970
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_computer_name/
 ---
 ## MapiPropertyTag.PR_EMS_AB_COMPUTER_NAME field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14300
+weight: 14320
 url: /net/aspose.email.mapi/mapipropertytag/pr_newsgroup_root_folder_entryid/
 ---
 ## MapiPropertyTag.PR_NEWSGROUP_ROOT_FOLDER_ENTRYID field

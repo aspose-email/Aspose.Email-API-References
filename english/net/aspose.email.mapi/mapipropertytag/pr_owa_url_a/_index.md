@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OWA_URL_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15850
+weight: 15870
 url: /net/aspose.email.mapi/mapipropertytag/pr_owa_url_a/
 ---
 ## MapiPropertyTag.PR_OWA_URL_A field

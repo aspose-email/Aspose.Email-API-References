@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REGISTERED_MAIL_TYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18000
+weight: 18020
 url: /net/aspose.email.mapi/mapipropertytag/pr_registered_mail_type/
 ---
 ## MapiPropertyTag.PR_REGISTERED_MAIL_TYPE field

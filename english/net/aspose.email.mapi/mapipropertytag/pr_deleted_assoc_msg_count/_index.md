@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DELETED_ASSOC_MSG_COUNT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2390
+weight: 2410
 url: /net/aspose.email.mapi/mapipropertytag/pr_deleted_assoc_msg_count/
 ---
 ## MapiPropertyTag.PR_DELETED_ASSOC_MSG_COUNT field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_OFFLINE_INFO
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16950
+weight: 16970
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_offline_info/
 ---
 ## MapiPropertyTag.PR_PROFILE_OFFLINE_INFO field

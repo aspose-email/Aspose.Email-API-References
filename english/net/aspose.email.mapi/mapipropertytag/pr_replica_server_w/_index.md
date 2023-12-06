@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLICA_SERVER_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18160
+weight: 18180
 url: /net/aspose.email.mapi/mapipropertytag/pr_replica_server_w/
 ---
 ## MapiPropertyTag.PR_REPLICA_SERVER_W field

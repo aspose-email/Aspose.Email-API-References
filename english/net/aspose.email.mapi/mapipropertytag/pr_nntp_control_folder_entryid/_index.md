@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NNTP_CONTROL_FOLDER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14360
+weight: 14380
 url: /net/aspose.email.mapi/mapipropertytag/pr_nntp_control_folder_entryid/
 ---
 ## MapiPropertyTag.PR_NNTP_CONTROL_FOLDER_ENTRYID field

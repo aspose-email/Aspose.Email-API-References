@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SUBMIT_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19820
+weight: 19840
 url: /net/aspose.email.mapi/mapipropertytag/pr_submit_flags/
 ---
 ## MapiPropertyTag.PR_SUBMIT_FLAGS field

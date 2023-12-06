@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROOF_OF_DELIVERY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17220
+weight: 17240
 url: /net/aspose.email.mapi/mapipropertytag/pr_proof_of_delivery/
 ---
 ## MapiPropertyTag.PR_PROOF_OF_DELIVERY field

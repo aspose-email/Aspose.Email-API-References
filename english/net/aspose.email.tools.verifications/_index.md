@@ -17,6 +17,9 @@ The **Aspose.Email.Tools.Verifications** namespace contains classes that represe
 | [EmailValidator](./emailvalidator/) | EmailValidator class provides the capability to validate e-mail addresses. |
 | [MailServerValidatingEventArgs](./mailservervalidatingeventargs/) | Provides data for the MailServerValidatingEvent event. |
 | [MailServerValidatingEventHandler](./mailservervalidatingeventhandler/) | Represents the event handler for MailServerValidatingEvent. |
+| [MessageValidationError](./messagevalidationerror/) | Represents the message validation error information. |
+| [MessageValidationResult](./messagevalidationresult/) | Represents the result of message validation. |
+| [MessageValidator](./messagevalidator/) | The message validator. |
 | [SyntaxValidatingEventArgs](./syntaxvalidatingeventargs/) | Provides data for the SyntaxValidating event. |
 | [SyntaxValidatingEventHandler](./syntaxvalidatingeventhandler/) | Represents the event handler for SyntaxValidatingEvent. |
 | [ValidationResult](./validationresult/) | Present the result of the email validating process. |
@@ -24,6 +27,7 @@ The **Aspose.Email.Tools.Verifications** namespace contains classes that represe
 
 | Enumeration | Description |
 | --- | --- |
+| [MessageValidationErrorType](./messagevalidationerrortype/) | Enumerates the types of the message validation errors. |
 | [ValidationPolicy](./validationpolicy/) | Presents the policy of validating email address. |
 | [ValidationResponseCode](./validationresponsecode/) | Represents the response status of the mail validating process. |
 

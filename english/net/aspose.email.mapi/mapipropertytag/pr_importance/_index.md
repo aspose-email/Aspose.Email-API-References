@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IMPORTANCE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12540
+weight: 12560
 url: /net/aspose.email.mapi/mapipropertytag/pr_importance/
 ---
 ## MapiPropertyTag.PR_IMPORTANCE field

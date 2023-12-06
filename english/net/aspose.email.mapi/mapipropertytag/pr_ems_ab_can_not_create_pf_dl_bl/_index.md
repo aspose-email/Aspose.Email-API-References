@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3740
+weight: 3760
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_can_not_create_pf_dl_bl/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CAN_NOT_CREATE_PF_DL_BL field

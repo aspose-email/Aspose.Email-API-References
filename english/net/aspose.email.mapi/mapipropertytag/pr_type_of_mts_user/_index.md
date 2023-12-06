@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TYPE_OF_MTS_USER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20220
+weight: 20240
 url: /net/aspose.email.mapi/mapipropertytag/pr_type_of_mts_user/
 ---
 ## MapiPropertyTag.PR_TYPE_OF_MTS_USER field

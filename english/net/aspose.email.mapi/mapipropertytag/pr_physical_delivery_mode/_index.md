@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PHYSICAL_DELIVERY_MODE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16050
+weight: 16070
 url: /net/aspose.email.mapi/mapipropertytag/pr_physical_delivery_mode/
 ---
 ## MapiPropertyTag.PR_PHYSICAL_DELIVERY_MODE field

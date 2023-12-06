@@ -3,7 +3,7 @@ title: MailMessage.CheckSignature
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Checks the signature of the specified eml file
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.email/mailmessage/checksignature/
 ---
 ## CheckSignature(string) {#checksignature_1}

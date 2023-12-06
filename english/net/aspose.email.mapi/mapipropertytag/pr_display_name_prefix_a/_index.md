@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISPLAY_NAME_PREFIX_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2720
+weight: 2740
 url: /net/aspose.email.mapi/mapipropertytag/pr_display_name_prefix_a/
 ---
 ## MapiPropertyTag.PR_DISPLAY_NAME_PREFIX_A field

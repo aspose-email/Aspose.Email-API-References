@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTAINER_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1790
+weight: 1810
 url: /net/aspose.email.mapi/mapipropertytag/pr_container_flags/
 ---
 ## MapiPropertyTag.PR_CONTAINER_FLAGS field

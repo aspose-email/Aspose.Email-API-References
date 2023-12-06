@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ISDN_NUMBER_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13300
+weight: 13320
 url: /net/aspose.email.mapi/mapipropertytag/pr_isdn_number_w/
 ---
 ## MapiPropertyTag.PR_ISDN_NUMBER_W field

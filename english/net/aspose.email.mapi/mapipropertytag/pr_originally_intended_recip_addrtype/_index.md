@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14750
+weight: 14770
 url: /net/aspose.email.mapi/mapipropertytag/pr_originally_intended_recip_addrtype/
 ---
 ## MapiPropertyTag.PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE field

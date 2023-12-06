@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SERVICE_RESTART_MESSAGE_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10010
+weight: 10030
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_service_restart_message_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SERVICE_RESTART_MESSAGE_A field

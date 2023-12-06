@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_FOLLOWUP_TO_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12800
+weight: 12820
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_followup_to_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_FOLLOWUP_TO_A field

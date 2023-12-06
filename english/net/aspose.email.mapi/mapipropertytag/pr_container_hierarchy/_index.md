@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTAINER_HIERARCHY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1800
+weight: 1820
 url: /net/aspose.email.mapi/mapipropertytag/pr_container_hierarchy/
 ---
 ## MapiPropertyTag.PR_CONTAINER_HIERARCHY field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONVERSATION_INDEX_TRACKING
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2000
+weight: 2020
 url: /net/aspose.email.mapi/mapipropertytag/pr_conversation_index_tracking/
 ---
 ## MapiPropertyTag.PR_CONVERSATION_INDEX_TRACKING field

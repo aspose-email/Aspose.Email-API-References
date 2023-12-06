@@ -3,7 +3,7 @@ title: MapiConversionOptions.RemoveSignature
 second_title: Aspose.Email for .NET API Reference
 description: MapiConversionOptions property. Gets or sets a value indicating whether signature will be removed while converting
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.mapi/mapiconversionoptions/removesignature/
 ---
 ## MapiConversionOptions.RemoveSignature property

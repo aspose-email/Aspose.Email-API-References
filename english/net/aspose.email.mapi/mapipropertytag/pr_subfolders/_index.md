@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SUBFOLDERS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19730
+weight: 19750
 url: /net/aspose.email.mapi/mapipropertytag/pr_subfolders/
 ---
 ## MapiPropertyTag.PR_SUBFOLDERS field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PHYSICAL_FORWARDING_PROHIBITED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16090
+weight: 16110
 url: /net/aspose.email.mapi/mapipropertytag/pr_physical_forwarding_prohibited/
 ---
 ## MapiPropertyTag.PR_PHYSICAL_FORWARDING_PROHIBITED field

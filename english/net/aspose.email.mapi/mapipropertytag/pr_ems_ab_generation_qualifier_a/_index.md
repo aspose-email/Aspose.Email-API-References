@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_GENERATION_QUALIFIER_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6210
+weight: 6230
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_generation_qualifier_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GENERATION_QUALIFIER_A field

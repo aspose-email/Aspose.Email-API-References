@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DXA_IMPORT_NOW
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4670
+weight: 4690
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_import_now/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DXA_IMPORT_NOW field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_BODY_HTML_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Contains the HTMLencoded text body. UNICODE compilation
 type: docs
-weight: 1040
+weight: 1060
 url: /net/aspose.email.mapi/mapipropertytag/pr_body_html_w/
 ---
 ## MapiPropertyTag.PR_BODY_HTML_W field

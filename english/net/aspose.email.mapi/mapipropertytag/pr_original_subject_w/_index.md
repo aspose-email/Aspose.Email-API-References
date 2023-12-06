@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINAL_SUBJECT_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15340
+weight: 15360
 url: /net/aspose.email.mapi/mapipropertytag/pr_original_subject_w/
 ---
 ## MapiPropertyTag.PR_ORIGINAL_SUBJECT_W field

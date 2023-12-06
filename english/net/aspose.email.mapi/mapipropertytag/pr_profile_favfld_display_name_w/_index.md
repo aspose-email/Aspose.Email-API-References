@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_FAVFLD_DISPLAY_NAME_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16730
+weight: 16750
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_favfld_display_name_w/
 ---
 ## MapiPropertyTag.PR_PROFILE_FAVFLD_DISPLAY_NAME_W field

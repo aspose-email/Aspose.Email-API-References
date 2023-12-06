@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_FOLDER_PATHNAME_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6060
+weight: 6080
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_folder_pathname_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_FOLDER_PATHNAME_W field

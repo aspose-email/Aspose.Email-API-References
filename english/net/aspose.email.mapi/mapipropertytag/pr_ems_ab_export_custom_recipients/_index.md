@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_EXPORT_CUSTOM_RECIPIENTS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5470
+weight: 5490
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_export_custom_recipients/
 ---
 ## MapiPropertyTag.PR_EMS_AB_EXPORT_CUSTOM_RECIPIENTS field

@@ -87,6 +87,7 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/#encrypt)(X509Certificate2) | Encrypts this message |
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/#encrypt_1)(X509Certificate2[]) | Encrypts this message |
 | override [Equals](../../aspose.email/mailmessage/equals/)(object) | Determines whether the specified Object is equal to the current Object. |
+| [GetAlternateViewContent](../../aspose.email/mailmessage/getalternateviewcontent/)(string) | Gets the content as a string from the specified AlternateView. |
 | [GetEnumerator](../../aspose.email/mailmessage/getenumerator/)() | Returns an enumerator that iterates through a collection. |
 | override [GetHashCode](../../aspose.email/mailmessage/gethashcode/)() | Returns a hash code for object |
 | virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext/#gethtmlbodytext_1)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |
@@ -103,8 +104,6 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | override [ToString](../../aspose.email/mailmessage/tostring/)() | Returns a string that represents the current object. |
 | static [CheckSignature](../../aspose.email/mailmessage/checksignature/#checksignature)(Stream) | Checks the signature of the specified eml message. |
 | static [CheckSignature](../../aspose.email/mailmessage/checksignature/#checksignature_1)(string) | Checks the signature of the specified eml file. |
-| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage/#validatemessage)(Stream) | Validate eml message for corresponding to mime specification. |
-| static [ValidateMessage](../../aspose.email/mailmessage/validatemessage/#validatemessage_1)(string) | Validate eml message for corresponding to mime specification. |
 
 ### See Also
 

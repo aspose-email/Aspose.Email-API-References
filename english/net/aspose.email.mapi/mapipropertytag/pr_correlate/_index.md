@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CORRELATE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2090
+weight: 2110
 url: /net/aspose.email.mapi/mapipropertytag/pr_correlate/
 ---
 ## MapiPropertyTag.PR_CORRELATE field

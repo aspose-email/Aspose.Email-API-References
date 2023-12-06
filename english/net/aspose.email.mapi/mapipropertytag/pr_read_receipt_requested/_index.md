@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_READ_RECEIPT_REQUESTED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17640
+weight: 17660
 url: /net/aspose.email.mapi/mapipropertytag/pr_read_receipt_requested/
 ---
 ## MapiPropertyTag.PR_READ_RECEIPT_REQUESTED field

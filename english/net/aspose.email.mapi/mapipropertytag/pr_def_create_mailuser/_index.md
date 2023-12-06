@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DEF_CREATE_MAILUSER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2350
+weight: 2370
 url: /net/aspose.email.mapi/mapipropertytag/pr_def_create_mailuser/
 ---
 ## MapiPropertyTag.PR_DEF_CREATE_MAILUSER field

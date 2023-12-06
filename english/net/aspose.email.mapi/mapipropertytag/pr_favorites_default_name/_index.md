@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FAVORITES_DEFAULT_NAME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11480
+weight: 11500
 url: /net/aspose.email.mapi/mapipropertytag/pr_favorites_default_name/
 ---
 ## MapiPropertyTag.PR_FAVORITES_DEFAULT_NAME field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9670
+weight: 9690
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_responsible_local_dxa_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_RESPONSIBLE_LOCAL_DXA_W field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FOREIGN_REPORT_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11650
+weight: 11670
 url: /net/aspose.email.mapi/mapipropertytag/pr_foreign_report_id/
 ---
 ## MapiPropertyTag.PR_FOREIGN_REPORT_ID field

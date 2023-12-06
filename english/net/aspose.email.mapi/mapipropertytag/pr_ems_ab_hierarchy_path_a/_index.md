@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HIERARCHY_PATH_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6560
+weight: 6580
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_hierarchy_path_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HIERARCHY_PATH_A field

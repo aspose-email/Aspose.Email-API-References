@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORING_HOTSITE_POLL_UNITS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7890
+weight: 7910
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_hotsite_poll_units/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORING_HOTSITE_POLL_UNITS field

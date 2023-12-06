@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FAST_TRANSFER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11470
+weight: 11490
 url: /net/aspose.email.mapi/mapipropertytag/pr_fast_transfer/
 ---
 ## MapiPropertyTag.PR_FAST_TRANSFER field

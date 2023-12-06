@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CODE_PAGE_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1530
+weight: 1550
 url: /net/aspose.email.mapi/mapipropertytag/pr_code_page_id/
 ---
 ## MapiPropertyTag.PR_CODE_PAGE_ID field

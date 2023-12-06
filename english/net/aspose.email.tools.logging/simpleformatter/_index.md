@@ -3,7 +3,7 @@ title: Class SimpleFormatter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.SimpleFormatter class. Represents the default implementation of IFormatter interface
 type: docs
-weight: 20690
+weight: 20740
 url: /net/aspose.email.tools.logging/simpleformatter/
 ---
 ## SimpleFormatter class

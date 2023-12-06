@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DISABLE_DEFERRED_COMMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4270
+weight: 4290
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_disable_deferred_commit/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DISABLE_DEFERRED_COMMIT field

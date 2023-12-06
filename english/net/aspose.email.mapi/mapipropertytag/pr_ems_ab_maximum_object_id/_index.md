@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MAXIMUM_OBJECT_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7570
+weight: 7590
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_maximum_object_id/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MAXIMUM_OBJECT_ID field

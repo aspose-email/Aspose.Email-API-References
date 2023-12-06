@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TELETEX_TERMINAL_IDENTIFIER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10470
+weight: 10490
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_teletex_terminal_identifier/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TELETEX_TERMINAL_IDENTIFIER field

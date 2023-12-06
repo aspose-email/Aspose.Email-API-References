@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLICATION_SCHEDULE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18110
+weight: 18130
 url: /net/aspose.email.mapi/mapipropertytag/pr_replication_schedule/
 ---
 ## MapiPropertyTag.PR_REPLICATION_SCHEDULE field

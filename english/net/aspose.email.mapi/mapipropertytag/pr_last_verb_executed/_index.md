@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LAST_VERB_EXECUTED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Specifies the last verb executed for the message item to which it is related
 type: docs
-weight: 13510
+weight: 13530
 url: /net/aspose.email.mapi/mapipropertytag/pr_last_verb_executed/
 ---
 ## MapiPropertyTag.PR_LAST_VERB_EXECUTED field

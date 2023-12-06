@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_INCOMING_MSG_SIZE_LIMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7000
+weight: 7020
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_msg_size_limit/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INCOMING_MSG_SIZE_LIMIT field

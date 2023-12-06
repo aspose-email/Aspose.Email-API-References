@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_NNTP_PATH_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12930
+weight: 12950
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_nntp_path_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_NNTP_PATH_A field

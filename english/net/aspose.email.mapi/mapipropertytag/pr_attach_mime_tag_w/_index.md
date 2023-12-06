@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_MIME_TAG_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 740
+weight: 760
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_mime_tag_w/
 ---
 ## MapiPropertyTag.PR_ATTACH_MIME_TAG_W field

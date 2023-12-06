@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RECEIVE_FOLDER_SETTINGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17780
+weight: 17800
 url: /net/aspose.email.mapi/mapipropertytag/pr_receive_folder_settings/
 ---
 ## MapiPropertyTag.PR_RECEIVE_FOLDER_SETTINGS field

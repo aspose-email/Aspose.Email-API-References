@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_AUTHORIZED_USER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3420
+weight: 3440
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_user/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AUTHORIZED_USER field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CROSS_CERTIFICATE_PAIR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4120
+weight: 4140
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_cross_certificate_pair/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CROSS_CERTIFICATE_PAIR field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_AUTHORIZED_PASSWORD_CONFIRM
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3410
+weight: 3430
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_authorized_password_confirm/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AUTHORIZED_PASSWORD_CONFIRM field

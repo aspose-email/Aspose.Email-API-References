@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IPM_SENTMAIL_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13210
+weight: 13230
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_sentmail_entryid/
 ---
 ## MapiPropertyTag.PR_IPM_SENTMAIL_ENTRYID field

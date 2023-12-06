@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ROWID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18570
+weight: 18590
 url: /net/aspose.email.mapi/mapipropertytag/pr_rowid/
 ---
 ## MapiPropertyTag.PR_ROWID field

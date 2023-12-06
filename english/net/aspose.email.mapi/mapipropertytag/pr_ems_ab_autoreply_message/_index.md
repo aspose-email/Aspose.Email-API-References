@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_AUTOREPLY_MESSAGE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3480
+weight: 3500
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_autoreply_message/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AUTOREPLY_MESSAGE field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLY_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18260
+weight: 18280
 url: /net/aspose.email.mapi/mapipropertytag/pr_reply_time/
 ---
 ## MapiPropertyTag.PR_REPLY_TIME field

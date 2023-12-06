@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5410
+weight: 5430
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_encrypt_alg_selected_other_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ENCRYPT_ALG_SELECTED_OTHER_A field

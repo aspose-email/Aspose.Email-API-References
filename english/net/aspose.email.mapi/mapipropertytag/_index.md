@@ -78,6 +78,8 @@ public static class MapiPropertyTag
 | static readonly [PR_ATTACH_CONTENT_ID](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. |
 | static readonly [PR_ATTACH_CONTENT_ID_A](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_a/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. Non-UNICODE compilation. |
 | static readonly [PR_ATTACH_CONTENT_ID_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_id_w/) | Contains the content identification header of a MIME message attachment. This property is used for MHTML support. UNICODE compilation. |
+| static readonly [PR_ATTACH_CONTENT_LOCATION](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location/) |  |
+| static readonly [PR_ATTACH_CONTENT_LOCATION_W](../../aspose.email.mapi/mapipropertytag/pr_attach_content_location_w/) |  |
 | static readonly [PR_ATTACH_DATA_BIN](../../aspose.email.mapi/mapipropertytag/pr_attach_data_bin/) |  |
 | static readonly [PR_ATTACH_DATA_OBJ](../../aspose.email.mapi/mapipropertytag/pr_attach_data_obj/) |  |
 | static readonly [PR_ATTACH_ENCODING](../../aspose.email.mapi/mapipropertytag/pr_attach_encoding/) |  |

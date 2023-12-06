@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RULE_TRIGGER_HISTORY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18880
+weight: 18900
 url: /net/aspose.email.mapi/mapipropertytag/pr_rule_trigger_history/
 ---
 ## MapiPropertyTag.PR_RULE_TRIGGER_HISTORY field

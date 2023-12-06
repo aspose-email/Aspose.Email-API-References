@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LTP_ROW_VER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. LTP Row Ver
 type: docs
-weight: 13630
+weight: 13650
 url: /net/aspose.email.mapi/mapipropertytag/pr_ltp_row_ver/
 ---
 ## MapiPropertyTag.PR_LTP_ROW_VER field

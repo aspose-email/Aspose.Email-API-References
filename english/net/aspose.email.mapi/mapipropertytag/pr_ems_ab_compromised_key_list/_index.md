@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_COMPROMISED_KEY_LIST
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3940
+weight: 3960
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_compromised_key_list/
 ---
 ## MapiPropertyTag.PR_EMS_AB_COMPROMISED_KEY_LIST field

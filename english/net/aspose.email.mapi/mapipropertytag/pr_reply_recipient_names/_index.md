@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLY_RECIPIENT_NAMES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18190
+weight: 18210
 url: /net/aspose.email.mapi/mapipropertytag/pr_reply_recipient_names/
 ---
 ## MapiPropertyTag.PR_REPLY_RECIPIENT_NAMES field

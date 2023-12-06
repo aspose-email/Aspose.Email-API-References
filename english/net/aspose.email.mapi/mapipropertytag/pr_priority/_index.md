@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PRIORITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16480
+weight: 16500
 url: /net/aspose.email.mapi/mapipropertytag/pr_priority/
 ---
 ## MapiPropertyTag.PR_PRIORITY field

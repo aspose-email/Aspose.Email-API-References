@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PREVIEW_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16360
+weight: 16380
 url: /net/aspose.email.mapi/mapipropertytag/pr_preview_a/
 ---
 ## MapiPropertyTag.PR_PREVIEW_A field

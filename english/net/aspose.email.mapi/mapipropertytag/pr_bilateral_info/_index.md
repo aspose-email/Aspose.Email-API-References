@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_BILATERAL_INFO
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 970
+weight: 990
 url: /net/aspose.email.mapi/mapipropertytag/pr_bilateral_info/
 ---
 ## MapiPropertyTag.PR_BILATERAL_INFO field

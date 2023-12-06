@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_GATEWAY_PROXY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6180
+weight: 6200
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_proxy/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GATEWAY_PROXY field

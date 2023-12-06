@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PST_PATH
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17370
+weight: 17390
 url: /net/aspose.email.mapi/mapipropertytag/pr_pst_path/
 ---
 ## MapiPropertyTag.PR_PST_PATH field

@@ -3,7 +3,7 @@ title: MboxStorageReader.EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
 description: MboxStorageReader method. Exposes the enumerator which supports an iteration of messages in storage
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/
 ---
 ## EnumerateMessages() {#enumeratemessages}

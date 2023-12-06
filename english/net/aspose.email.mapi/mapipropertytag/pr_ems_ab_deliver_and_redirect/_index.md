@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DELIVER_AND_REDIRECT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4160
+weight: 4180
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_deliver_and_redirect/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DELIVER_AND_REDIRECT field

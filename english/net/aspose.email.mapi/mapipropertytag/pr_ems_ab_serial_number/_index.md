@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SERIAL_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9920
+weight: 9940
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_serial_number/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SERIAL_NUMBER field

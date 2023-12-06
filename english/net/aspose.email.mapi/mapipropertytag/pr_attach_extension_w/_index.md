@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_EXTENSION_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 600
+weight: 620
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_extension_w/
 ---
 ## MapiPropertyTag.PR_ATTACH_EXTENSION_W field

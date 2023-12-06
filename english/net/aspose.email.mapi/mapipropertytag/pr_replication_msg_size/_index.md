@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLICATION_MSG_SIZE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18100
+weight: 18120
 url: /net/aspose.email.mapi/mapipropertytag/pr_replication_msg_size/
 ---
 ## MapiPropertyTag.PR_REPLICATION_MSG_SIZE field

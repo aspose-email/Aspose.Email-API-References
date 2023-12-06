@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LANGUAGES_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13380
+weight: 13400
 url: /net/aspose.email.mapi/mapipropertytag/pr_languages_a/
 ---
 ## MapiPropertyTag.PR_LANGUAGES_A field

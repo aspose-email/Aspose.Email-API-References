@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_END_DATE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11350
+weight: 11370
 url: /net/aspose.email.mapi/mapipropertytag/pr_end_date/
 ---
 ## MapiPropertyTag.PR_END_DATE field

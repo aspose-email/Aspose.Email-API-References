@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PORT_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8960
+weight: 8980
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_port_number/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PORT_NUMBER field

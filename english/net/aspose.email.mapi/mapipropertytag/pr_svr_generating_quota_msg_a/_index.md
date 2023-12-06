@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SVR_GENERATING_QUOTA_MSG_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19930
+weight: 19950
 url: /net/aspose.email.mapi/mapipropertytag/pr_svr_generating_quota_msg_a/
 ---
 ## MapiPropertyTag.PR_SVR_GENERATING_QUOTA_MSG_A field

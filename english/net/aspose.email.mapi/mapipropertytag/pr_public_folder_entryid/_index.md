@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PUBLIC_FOLDER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17470
+weight: 17490
 url: /net/aspose.email.mapi/mapipropertytag/pr_public_folder_entryid/
 ---
 ## MapiPropertyTag.PR_PUBLIC_FOLDER_ENTRYID field

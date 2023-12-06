@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SMTP_ADDRESS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19430
+weight: 19450
 url: /net/aspose.email.mapi/mapipropertytag/pr_smtp_address/
 ---
 ## MapiPropertyTag.PR_SMTP_ADDRESS field

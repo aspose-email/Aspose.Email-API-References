@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4390
+weight: 4410
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_dl_mem_submit_perms_bl_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISCLOSE_RECIPIENTS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2590
+weight: 2610
 url: /net/aspose.email.mapi/mapipropertytag/pr_disclose_recipients/
 ---
 ## MapiPropertyTag.PR_DISCLOSE_RECIPIENTS field

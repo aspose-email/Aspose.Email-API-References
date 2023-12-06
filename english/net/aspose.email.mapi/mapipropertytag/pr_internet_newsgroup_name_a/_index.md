@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_NEWSGROUP_NAME_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12900
+weight: 12920
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_newsgroup_name_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_NEWSGROUP_NAME_A field

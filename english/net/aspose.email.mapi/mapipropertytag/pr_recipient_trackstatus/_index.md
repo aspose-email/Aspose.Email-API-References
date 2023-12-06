@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RECIPIENT_TRACKSTATUS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17900
+weight: 17920
 url: /net/aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_TRACKSTATUS field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RELATED_IPMS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18010
+weight: 18030
 url: /net/aspose.email.mapi/mapipropertytag/pr_related_ipms/
 ---
 ## MapiPropertyTag.PR_RELATED_IPMS field

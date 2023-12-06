@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINAL_SUBMIT_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15350
+weight: 15370
 url: /net/aspose.email.mapi/mapipropertytag/pr_original_submit_time/
 ---
 ## MapiPropertyTag.PR_ORIGINAL_SUBMIT_TIME field

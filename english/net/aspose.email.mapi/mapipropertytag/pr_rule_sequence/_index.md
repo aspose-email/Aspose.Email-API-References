@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RULE_SEQUENCE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18860
+weight: 18880
 url: /net/aspose.email.mapi/mapipropertytag/pr_rule_sequence/
 ---
 ## MapiPropertyTag.PR_RULE_SEQUENCE field

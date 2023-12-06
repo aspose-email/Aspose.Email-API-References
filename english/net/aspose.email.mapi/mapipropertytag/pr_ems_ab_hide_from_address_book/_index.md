@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HIDE_FROM_ADDRESS_BOOK
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6540
+weight: 6560
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_from_address_book/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HIDE_FROM_ADDRESS_BOOK field

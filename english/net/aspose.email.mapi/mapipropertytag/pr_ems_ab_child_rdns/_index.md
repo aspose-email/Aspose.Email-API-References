@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CHILD_RDNS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3880
+weight: 3900
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_child_rdns/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CHILD_RDNS field

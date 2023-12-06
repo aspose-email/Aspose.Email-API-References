@@ -3,7 +3,7 @@ title: Class DateComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.DateComparisonField class. Represents the date search field
 type: docs
-weight: 20790
+weight: 20840
 url: /net/aspose.email.tools.search/datecomparisonfield/
 ---
 ## DateComparisonField class

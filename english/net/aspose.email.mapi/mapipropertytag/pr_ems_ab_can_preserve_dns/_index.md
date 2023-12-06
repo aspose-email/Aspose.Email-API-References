@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CAN_PRESERVE_DNS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3780
+weight: 3800
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_can_preserve_dns/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CAN_PRESERVE_DNS field

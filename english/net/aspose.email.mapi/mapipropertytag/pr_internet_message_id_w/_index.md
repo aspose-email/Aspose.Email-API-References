@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_MESSAGE_ID_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12850
+weight: 12870
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_message_id_w/
 ---
 ## MapiPropertyTag.PR_INTERNET_MESSAGE_ID_W field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_EXPORT_CONTAINERS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5450
+weight: 5470
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_export_containers/
 ---
 ## MapiPropertyTag.PR_EMS_AB_EXPORT_CONTAINERS field

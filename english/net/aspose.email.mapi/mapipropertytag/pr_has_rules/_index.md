@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HAS_RULES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12080
+weight: 12100
 url: /net/aspose.email.mapi/mapipropertytag/pr_has_rules/
 ---
 ## MapiPropertyTag.PR_HAS_RULES field

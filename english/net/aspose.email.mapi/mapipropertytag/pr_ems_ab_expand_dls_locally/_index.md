@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_EXPAND_DLS_LOCALLY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5430
+weight: 5450
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_expand_dls_locally/
 ---
 ## MapiPropertyTag.PR_EMS_AB_EXPAND_DLS_LOCALLY field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_CHARSET_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12700
+weight: 12720
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_charset_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_CHARSET_A field

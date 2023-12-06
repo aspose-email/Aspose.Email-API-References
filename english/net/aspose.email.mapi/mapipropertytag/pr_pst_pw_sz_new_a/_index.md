@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PST_PW_SZ_NEW_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17410
+weight: 17430
 url: /net/aspose.email.mapi/mapipropertytag/pr_pst_pw_sz_new_a/
 ---
 ## MapiPropertyTag.PR_PST_PW_SZ_NEW_A field

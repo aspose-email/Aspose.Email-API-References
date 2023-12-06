@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HOME_ADDRESS_POST_OFFICE_BOX_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12320
+weight: 12340
 url: /net/aspose.email.mapi/mapipropertytag/pr_home_address_post_office_box_w/
 ---
 ## MapiPropertyTag.PR_HOME_ADDRESS_POST_OFFICE_BOX_W field

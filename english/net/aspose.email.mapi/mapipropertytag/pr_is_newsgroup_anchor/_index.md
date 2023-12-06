@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IS_NEWSGROUP_ANCHOR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13320
+weight: 13340
 url: /net/aspose.email.mapi/mapipropertytag/pr_is_newsgroup_anchor/
 ---
 ## MapiPropertyTag.PR_IS_NEWSGROUP_ANCHOR field

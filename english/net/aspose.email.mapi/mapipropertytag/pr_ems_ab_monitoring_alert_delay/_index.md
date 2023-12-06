@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORING_ALERT_DELAY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7790
+weight: 7810
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_alert_delay/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORING_ALERT_DELAY field

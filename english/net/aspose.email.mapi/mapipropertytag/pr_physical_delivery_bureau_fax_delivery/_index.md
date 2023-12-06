@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16040
+weight: 16060
 url: /net/aspose.email.mapi/mapipropertytag/pr_physical_delivery_bureau_fax_delivery/
 ---
 ## MapiPropertyTag.PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY field

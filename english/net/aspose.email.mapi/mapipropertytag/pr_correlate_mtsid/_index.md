@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CORRELATE_MTSID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2100
+weight: 2120
 url: /net/aspose.email.mapi/mapipropertytag/pr_correlate_mtsid/
 ---
 ## MapiPropertyTag.PR_CORRELATE_MTSID field

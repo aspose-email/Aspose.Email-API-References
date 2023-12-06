@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DOS_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4500
+weight: 4520
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_dos_entryid/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DOS_ENTRYID field

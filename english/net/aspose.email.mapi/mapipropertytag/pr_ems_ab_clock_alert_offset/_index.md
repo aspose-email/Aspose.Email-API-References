@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CLOCK_ALERT_OFFSET
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3900
+weight: 3920
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_offset/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CLOCK_ALERT_OFFSET field

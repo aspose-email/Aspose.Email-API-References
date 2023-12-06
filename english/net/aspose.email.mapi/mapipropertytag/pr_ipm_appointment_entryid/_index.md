@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IPM_APPOINTMENT_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Contains the EntryID of the Outlook Calendar folder
 type: docs
-weight: 13090
+weight: 13110
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_appointment_entryid/
 ---
 ## MapiPropertyTag.PR_IPM_APPOINTMENT_ENTRYID field

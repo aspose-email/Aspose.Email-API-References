@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HIDE_DL_MEMBERSHIP
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6530
+weight: 6550
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_hide_dl_membership/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HIDE_DL_MEMBERSHIP field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MDB_USE_DEFAULTS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7630
+weight: 7650
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_use_defaults/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MDB_USE_DEFAULTS field

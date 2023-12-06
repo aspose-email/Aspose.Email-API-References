@@ -6,6 +6,39 @@ type: docs
 weight: 1010
 url: /net/aspose.email.clients.imap/imapclient/removemessageflagsasync/
 ---
+## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_10}
+
+Removes the flags of the message
+
+```csharp
+public Task RemoveMessageFlagsAsync(IConnection connection, 
+    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## RemoveMessageFlagsAsync(IConnection, int, ImapMessageFlags) {#removemessageflagsasync}
 
 Removes the flags of the message
@@ -1631,39 +1664,6 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_10}
-
-Removes the flags of the message
-
-```csharp
-public Task RemoveMessageFlagsAsync(IConnection connection, 
-    IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapMessageInfo](../../imapmessageinfo/)
 * class [ImapMessageFlags](../../imapmessageflags/)
 * class [ImapClient](../)

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_ARTICLE_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12680
+weight: 12700
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_article_number/
 ---
 ## MapiPropertyTag.PR_INTERNET_ARTICLE_NUMBER field

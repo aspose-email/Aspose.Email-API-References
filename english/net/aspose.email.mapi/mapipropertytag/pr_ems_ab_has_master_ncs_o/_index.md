@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HAS_MASTER_NCS_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6460
+weight: 6480
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_has_master_ncs_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HAS_MASTER_NCS_O field

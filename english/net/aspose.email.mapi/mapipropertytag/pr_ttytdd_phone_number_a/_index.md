@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TTYTDD_PHONE_NUMBER_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20200
+weight: 20220
 url: /net/aspose.email.mapi/mapipropertytag/pr_ttytdd_phone_number_a/
 ---
 ## MapiPropertyTag.PR_TTYTDD_PHONE_NUMBER_A field

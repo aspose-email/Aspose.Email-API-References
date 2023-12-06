@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_OPEN_RETRY_INTERVAL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8560
+weight: 8580
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_open_retry_interval/
 ---
 ## MapiPropertyTag.PR_EMS_AB_OPEN_RETRY_INTERVAL field

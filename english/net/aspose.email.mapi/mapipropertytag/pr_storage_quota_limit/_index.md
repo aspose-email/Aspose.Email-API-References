@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_STORAGE_QUOTA_LIMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19620
+weight: 19640
 url: /net/aspose.email.mapi/mapipropertytag/pr_storage_quota_limit/
 ---
 ## MapiPropertyTag.PR_STORAGE_QUOTA_LIMIT field

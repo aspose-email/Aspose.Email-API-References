@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MTS_SUBJECT_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14200
+weight: 14220
 url: /net/aspose.email.mapi/mapipropertytag/pr_mts_subject_id/
 ---
 ## MapiPropertyTag.PR_MTS_SUBJECT_ID field

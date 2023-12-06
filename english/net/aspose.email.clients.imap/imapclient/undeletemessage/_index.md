@@ -6,28 +6,6 @@ type: docs
 weight: 1240
 url: /net/aspose.email.clients.imap/imapclient/undeletemessage/
 ---
-## UndeleteMessage(IConnection, int) {#undeletemessage}
-
-Marks a message with the specified sequence number as not deleted
-
-```csharp
-public void UndeleteMessage(IConnection connection, int sequenceNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceNumber | Int32 | The sequence number of the message |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## UndeleteMessage(IConnection, string) {#undeletemessage_2}
 
 Marks a message with the specified sequence number as not deleted.
@@ -172,6 +150,28 @@ public void UndeleteMessage(string uniqueId, long modificationSequence)
 
 ### See Also
 
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(IConnection, int) {#undeletemessage}
+
+Marks a message with the specified sequence number as not deleted
+
+```csharp
+public void UndeleteMessage(IConnection connection, int sequenceNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

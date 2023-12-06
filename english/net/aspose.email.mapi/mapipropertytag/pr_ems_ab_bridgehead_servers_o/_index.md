@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_BRIDGEHEAD_SERVERS_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3590
+weight: 3610
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_bridgehead_servers_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_BRIDGEHEAD_SERVERS_O field

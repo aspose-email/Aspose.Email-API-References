@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_VOICE_MAIL_USER_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11060
+weight: 11080
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_voice_mail_user_id/
 ---
 ## MapiPropertyTag.PR_EMS_AB_VOICE_MAIL_USER_ID field

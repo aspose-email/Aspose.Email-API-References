@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CREATION_VERSION
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2160
+weight: 2180
 url: /net/aspose.email.mapi/mapipropertytag/pr_creation_version/
 ---
 ## MapiPropertyTag.PR_CREATION_VERSION field

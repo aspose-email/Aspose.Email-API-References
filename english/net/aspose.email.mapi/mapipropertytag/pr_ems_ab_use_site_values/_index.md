@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_USE_SITE_VALUES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10760
+weight: 10780
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_use_site_values/
 ---
 ## MapiPropertyTag.PR_EMS_AB_USE_SITE_VALUES field

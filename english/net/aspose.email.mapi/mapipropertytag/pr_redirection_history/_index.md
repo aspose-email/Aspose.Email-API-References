@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REDIRECTION_HISTORY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17960
+weight: 17980
 url: /net/aspose.email.mapi/mapipropertytag/pr_redirection_history/
 ---
 ## MapiPropertyTag.PR_REDIRECTION_HISTORY field

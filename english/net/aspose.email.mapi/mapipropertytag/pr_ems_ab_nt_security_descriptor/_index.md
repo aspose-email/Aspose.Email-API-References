@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_NT_SECURITY_DESCRIPTOR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8300
+weight: 8320
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_nt_security_descriptor/
 ---
 ## MapiPropertyTag.PR_EMS_AB_NT_SECURITY_DESCRIPTOR field

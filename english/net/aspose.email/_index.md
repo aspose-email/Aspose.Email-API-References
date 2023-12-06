@@ -76,6 +76,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [ResourceHtmlRenderingEventArgs](./resourcehtmlrenderingeventargs/) | Represents additional parameters for ResourceHtmlRendering event. |
 | [SaveOptions](./saveoptions/) | This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage into a particular format. |
 | [SecureEmailManager](./secureemailmanager/) | Class that provided methods for working with secure emails. |
+| [SignatureOptions](./signatureoptions/) | This class allow the user to specify additional options when sign a message. |
 | [SmimeResult](./smimeresult/) | This class containing results of checking secure emails. |
 | [SmtpException](./smtpexception/) | Represents the exception that is thrown when the SmtpClient is not able to complete an operation. |
 | [SSPIException](./sspiexception/) | Represents errors that occur during SSPI execution. |

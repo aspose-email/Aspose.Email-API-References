@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_DISTRIBUTION_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12770
+weight: 12790
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_distribution_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_DISTRIBUTION_A field

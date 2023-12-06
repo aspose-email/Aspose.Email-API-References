@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_LOCAL_INITIAL_TURN
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7400
+weight: 7420
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_local_initial_turn/
 ---
 ## MapiPropertyTag.PR_EMS_AB_LOCAL_INITIAL_TURN field

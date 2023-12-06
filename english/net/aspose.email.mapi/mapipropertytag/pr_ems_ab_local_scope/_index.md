@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_LOCAL_SCOPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7410
+weight: 7430
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_local_scope/
 ---
 ## MapiPropertyTag.PR_EMS_AB_LOCAL_SCOPE field

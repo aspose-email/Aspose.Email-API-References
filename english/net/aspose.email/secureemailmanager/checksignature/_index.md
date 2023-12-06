@@ -3,7 +3,7 @@ title: SecureEmailManager.CheckSignature
 second_title: Aspose.Email for .NET API Reference
 description: SecureEmailManager method. Checking signature MapiMessage
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email/secureemailmanager/checksignature/
 ---
 ## CheckSignature(MapiMessage) {#checksignature_3}

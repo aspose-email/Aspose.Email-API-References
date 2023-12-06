@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROVIDER_DLL_NAME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17290
+weight: 17310
 url: /net/aspose.email.mapi/mapipropertytag/pr_provider_dll_name/
 ---
 ## MapiPropertyTag.PR_PROVIDER_DLL_NAME field

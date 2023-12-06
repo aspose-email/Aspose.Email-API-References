@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ACTIVATION_SCHEDULE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2890
+weight: 2910
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_activation_schedule/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ACTIVATION_SCHEDULE field

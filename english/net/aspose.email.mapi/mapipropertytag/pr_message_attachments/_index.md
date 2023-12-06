@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MESSAGE_ATTACHMENTS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13800
+weight: 13820
 url: /net/aspose.email.mapi/mapipropertytag/pr_message_attachments/
 ---
 ## MapiPropertyTag.PR_MESSAGE_ATTACHMENTS field

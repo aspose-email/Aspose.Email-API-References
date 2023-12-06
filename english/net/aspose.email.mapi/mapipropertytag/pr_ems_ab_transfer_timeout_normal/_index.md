@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10550
+weight: 10570
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_normal/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL field

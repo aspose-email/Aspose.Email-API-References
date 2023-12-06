@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROVIDER_SUBMIT_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17330
+weight: 17350
 url: /net/aspose.email.mapi/mapipropertytag/pr_provider_submit_time/
 ---
 ## MapiPropertyTag.PR_PROVIDER_SUBMIT_TIME field

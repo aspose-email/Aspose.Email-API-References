@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TELEX_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19980
+weight: 20000
 url: /net/aspose.email.mapi/mapipropertytag/pr_telex_number/
 ---
 ## MapiPropertyTag.PR_TELEX_NUMBER field

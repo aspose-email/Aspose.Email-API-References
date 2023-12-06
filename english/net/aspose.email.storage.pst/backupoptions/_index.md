@@ -3,7 +3,7 @@ title: Enum BackupOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.BackupOptions enum. Enumerates backup options
 type: docs
-weight: 20210
+weight: 20260
 url: /net/aspose.email.storage.pst/backupoptions/
 ---
 ## BackupOptions enumeration

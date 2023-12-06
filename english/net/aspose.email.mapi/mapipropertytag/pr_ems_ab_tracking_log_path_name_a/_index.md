@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TRACKING_LOG_PATH_NAME_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10510
+weight: 10530
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_tracking_log_path_name_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TRACKING_LOG_PATH_NAME_A field

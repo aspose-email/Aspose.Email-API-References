@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ADDRESS_SYNTAX
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2930
+weight: 2950
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_address_syntax/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ADDRESS_SYNTAX field

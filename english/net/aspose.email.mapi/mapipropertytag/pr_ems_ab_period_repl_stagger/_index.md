@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PERIOD_REPL_STAGGER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8810
+weight: 8830
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_period_repl_stagger/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PERIOD_REPL_STAGGER field

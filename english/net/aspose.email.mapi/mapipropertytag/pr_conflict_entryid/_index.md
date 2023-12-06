@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONFLICT_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1680
+weight: 1700
 url: /net/aspose.email.mapi/mapipropertytag/pr_conflict_entryid/
 ---
 ## MapiPropertyTag.PR_CONFLICT_ENTRYID field

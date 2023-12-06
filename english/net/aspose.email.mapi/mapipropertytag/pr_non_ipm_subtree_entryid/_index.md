@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NON_IPM_SUBTREE_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14400
+weight: 14420
 url: /net/aspose.email.mapi/mapipropertytag/pr_non_ipm_subtree_entryid/
 ---
 ## MapiPropertyTag.PR_NON_IPM_SUBTREE_ENTRYID field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_BIRTHDAY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 980
+weight: 1000
 url: /net/aspose.email.mapi/mapipropertytag/pr_birthday/
 ---
 ## MapiPropertyTag.PR_BIRTHDAY field

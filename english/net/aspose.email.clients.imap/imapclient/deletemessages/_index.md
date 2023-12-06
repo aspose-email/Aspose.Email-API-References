@@ -1,304 +1,11 @@
 ---
 title: ImapClient.DeleteMessages
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Marks a message with the specified unique identifier as deleted
+description: ImapClient method. Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 590
 url: /net/aspose.email.clients.imap/imapclient/deletemessages/
 ---
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_20}
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence, 
-    bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    long modificationSequence, bool commitNow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;int&gt;) {#deletemessages_22}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;string&gt;) {#deletemessages_24}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;int&gt;, long) {#deletemessages_7}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, long) {#deletemessages_10}
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;int&gt;, long) {#deletemessages_23}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;string&gt;, long) {#deletemessages_26}
-
-Marks a message with the specified unique identifier as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## DeleteMessages(IEnumerable&lt;string&gt;, bool) {#deletemessages_25}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
@@ -311,6 +18,12 @@ public void DeleteMessages(IEnumerable<string> uidSet, bool commitNow)
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
 
 ### See Also
 
@@ -333,6 +46,12 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, b
 | connection | IConnection | Connection to a server |
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
 
 ### See Also
 
@@ -357,6 +76,12 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
 ### See Also
 
 * class [ImapClient](../)
@@ -380,6 +105,12 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
 
 ### See Also
 
@@ -681,6 +412,12 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | connection | IConnection | Connection to a server |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
@@ -702,6 +439,12 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
 
 ### See Also
 
@@ -727,10 +470,387 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long) {#deletemessages_20}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence, 
+    bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    long modificationSequence, bool commitNow)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *messageInfoSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;int&gt;) {#deletemessages_22}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;string&gt;) {#deletemessages_24}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;, long) {#deletemessages_7}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, long) {#deletemessages_10}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;int&gt;, long) {#deletemessages_23}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;string&gt;, long) {#deletemessages_26}
+
+Marks a message with the specified unique identifier as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
+### See Also
+
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

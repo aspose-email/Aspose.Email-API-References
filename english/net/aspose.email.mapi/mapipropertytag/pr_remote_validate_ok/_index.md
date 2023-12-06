@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REMOTE_VALIDATE_OK
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18060
+weight: 18080
 url: /net/aspose.email.mapi/mapipropertytag/pr_remote_validate_ok/
 ---
 ## MapiPropertyTag.PR_REMOTE_VALIDATE_OK field

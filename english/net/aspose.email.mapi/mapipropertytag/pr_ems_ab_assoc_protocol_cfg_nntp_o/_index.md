@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3280
+weight: 3300
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_protocol_cfg_nntp_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O field

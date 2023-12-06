@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LONGTERM_ENTRYID_FROM_TABLE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13610
+weight: 13630
 url: /net/aspose.email.mapi/mapipropertytag/pr_longterm_entryid_from_table/
 ---
 ## MapiPropertyTag.PR_LONGTERM_ENTRYID_FROM_TABLE field

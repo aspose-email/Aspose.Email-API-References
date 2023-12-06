@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HOUSE_IDENTIFIER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6720
+weight: 6740
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_house_identifier/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HOUSE_IDENTIFIER field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OLDEST_DELETED_ON
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14660
+weight: 14680
 url: /net/aspose.email.mapi/mapipropertytag/pr_oldest_deleted_on/
 ---
 ## MapiPropertyTag.PR_OLDEST_DELETED_ON field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2920
+weight: 2940
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_address_entry_display_table_msdos/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS field

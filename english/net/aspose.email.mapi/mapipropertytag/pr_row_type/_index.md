@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ROW_TYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18580
+weight: 18600
 url: /net/aspose.email.mapi/mapipropertytag/pr_row_type/
 ---
 ## MapiPropertyTag.PR_ROW_TYPE field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DELTAY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2490
+weight: 2510
 url: /net/aspose.email.mapi/mapipropertytag/pr_deltay/
 ---
 ## MapiPropertyTag.PR_DELTAY field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DL_EXPANSION_PROHIBITED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2800
+weight: 2820
 url: /net/aspose.email.mapi/mapipropertytag/pr_dl_expansion_prohibited/
 ---
 ## MapiPropertyTag.PR_DL_EXPANSION_PROHIBITED field
