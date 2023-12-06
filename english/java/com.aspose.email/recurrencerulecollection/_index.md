@@ -3,7 +3,7 @@ title: RecurrenceRuleCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 597
+weight: 601
 url: /java/com.aspose.email/recurrencerulecollection/
 ---
 

@@ -3,7 +3,7 @@ title: IMultipleServicesTokenProvider
 second_title: Aspose.Email for Java API Reference
 description: Defines interface allowing to retrieve access token.
 type: docs
-weight: 762
+weight: 767
 url: /java/com.aspose.email/imultipleservicestokenprovider/
 ---
 

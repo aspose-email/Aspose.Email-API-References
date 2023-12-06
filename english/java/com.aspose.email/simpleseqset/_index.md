@@ -3,7 +3,7 @@ title: SimpleSeqSet
 second_title: Aspose.Email for Java API Reference
 description: Simple container for value to search.
 type: docs
-weight: 643
+weight: 648
 url: /java/com.aspose.email/simpleseqset/
 ---
 
