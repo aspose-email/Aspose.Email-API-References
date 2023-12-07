@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_UNRESOLVED_SERVER_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17150
+weight: 17170
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_unresolved_server_a/
 ---
 ## MapiPropertyTag.PR_PROFILE_UNRESOLVED_SERVER_A field

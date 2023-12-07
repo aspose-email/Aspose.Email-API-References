@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISCRETE_VALUES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2610
+weight: 2630
 url: /net/aspose.email.mapi/mapipropertytag/pr_discrete_values/
 ---
 ## MapiPropertyTag.PR_DISCRETE_VALUES field

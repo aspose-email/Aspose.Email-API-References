@@ -3,7 +3,7 @@ title: MailMessage.ToString
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Returns a string that represents the current object
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.email/mailmessage/tostring/
 ---
 ## MailMessage.ToString method

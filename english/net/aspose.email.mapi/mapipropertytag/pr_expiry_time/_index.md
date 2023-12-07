@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EXPIRY_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11430
+weight: 11450
 url: /net/aspose.email.mapi/mapipropertytag/pr_expiry_time/
 ---
 ## MapiPropertyTag.PR_EXPIRY_TIME field

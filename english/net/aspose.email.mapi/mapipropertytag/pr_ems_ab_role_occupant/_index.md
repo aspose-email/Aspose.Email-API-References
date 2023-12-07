@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ROLE_OCCUPANT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9730
+weight: 9750
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_role_occupant/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ROLE_OCCUPANT field

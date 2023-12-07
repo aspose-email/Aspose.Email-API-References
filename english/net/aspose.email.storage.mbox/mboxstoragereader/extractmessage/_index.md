@@ -3,7 +3,7 @@ title: MboxStorageReader.ExtractMessage
 second_title: Aspose.Email for .NET API Reference
 description: MboxStorageReader method. Get the message from MBOX
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.email.storage.mbox/mboxstoragereader/extractmessage/
 ---
 ## MboxStorageReader.ExtractMessage method

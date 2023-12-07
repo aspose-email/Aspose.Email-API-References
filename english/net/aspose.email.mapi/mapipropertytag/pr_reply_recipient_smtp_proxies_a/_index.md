@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLY_RECIPIENT_SMTP_PROXIES_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18230
+weight: 18250
 url: /net/aspose.email.mapi/mapipropertytag/pr_reply_recipient_smtp_proxies_a/
 ---
 ## MapiPropertyTag.PR_REPLY_RECIPIENT_SMTP_PROXIES_A field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_X400_DEFERRED_DELIVERY_CANCEL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20330
+weight: 20350
 url: /net/aspose.email.mapi/mapipropertytag/pr_x400_deferred_delivery_cancel/
 ---
 ## MapiPropertyTag.PR_X400_DEFERRED_DELIVERY_CANCEL field

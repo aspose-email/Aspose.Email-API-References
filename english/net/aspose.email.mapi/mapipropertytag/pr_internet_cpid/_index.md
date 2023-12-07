@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_CPID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12750
+weight: 12770
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_cpid/
 ---
 ## MapiPropertyTag.PR_INTERNET_CPID field

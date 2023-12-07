@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TRANSMITABLE_DISPLAY_NAME_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20110
+weight: 20130
 url: /net/aspose.email.mapi/mapipropertytag/pr_transmitable_display_name_a/
 ---
 ## MapiPropertyTag.PR_TRANSMITABLE_DISPLAY_NAME_A field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_TRANSPORT_NAME_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 850
+weight: 870
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_transport_name_a/
 ---
 ## MapiPropertyTag.PR_ATTACH_TRANSPORT_NAME_A field

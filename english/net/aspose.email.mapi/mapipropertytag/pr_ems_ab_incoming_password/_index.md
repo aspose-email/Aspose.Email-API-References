@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_INCOMING_PASSWORD
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7010
+weight: 7030
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_incoming_password/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INCOMING_PASSWORD field

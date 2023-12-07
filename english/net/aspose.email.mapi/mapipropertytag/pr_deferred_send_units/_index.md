@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DEFERRED_SEND_UNITS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2330
+weight: 2350
 url: /net/aspose.email.mapi/mapipropertytag/pr_deferred_send_units/
 ---
 ## MapiPropertyTag.PR_DEFERRED_SEND_UNITS field

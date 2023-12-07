@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_STORE_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19630
+weight: 19650
 url: /net/aspose.email.mapi/mapipropertytag/pr_store_entryid/
 ---
 ## MapiPropertyTag.PR_STORE_ENTRYID field

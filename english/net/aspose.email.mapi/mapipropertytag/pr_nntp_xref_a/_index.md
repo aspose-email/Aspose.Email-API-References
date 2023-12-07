@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NNTP_XREF_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14380
+weight: 14400
 url: /net/aspose.email.mapi/mapipropertytag/pr_nntp_xref_a/
 ---
 ## MapiPropertyTag.PR_NNTP_XREF_A field

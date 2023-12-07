@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ACCESS_CATEGORY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2880
+weight: 2900
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_access_category/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ACCESS_CATEGORY field

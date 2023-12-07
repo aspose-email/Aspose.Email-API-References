@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SECURITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18950
+weight: 18970
 url: /net/aspose.email.mapi/mapipropertytag/pr_security/
 ---
 ## MapiPropertyTag.PR_SECURITY field

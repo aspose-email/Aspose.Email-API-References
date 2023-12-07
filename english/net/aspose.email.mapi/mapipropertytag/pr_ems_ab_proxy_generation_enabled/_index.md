@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PROXY_GENERATION_ENABLED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9060
+weight: 9080
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_proxy_generation_enabled/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PROXY_GENERATION_ENABLED field

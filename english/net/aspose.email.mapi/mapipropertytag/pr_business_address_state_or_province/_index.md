@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1210
+weight: 1230
 url: /net/aspose.email.mapi/mapipropertytag/pr_business_address_state_or_province/
 ---
 ## MapiPropertyTag.PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE field

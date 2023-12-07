@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SCHEMA_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9820
+weight: 9840
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_schema_flags/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SCHEMA_FLAGS field

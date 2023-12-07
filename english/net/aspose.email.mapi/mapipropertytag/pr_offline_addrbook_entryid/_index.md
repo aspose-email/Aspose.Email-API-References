@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OFFLINE_ADDRBOOK_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14630
+weight: 14650
 url: /net/aspose.email.mapi/mapipropertytag/pr_offline_addrbook_entryid/
 ---
 ## MapiPropertyTag.PR_OFFLINE_ADDRBOOK_ENTRYID field

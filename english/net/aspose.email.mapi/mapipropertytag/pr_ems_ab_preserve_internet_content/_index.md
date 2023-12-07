@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PRESERVE_INTERNET_CONTENT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8990
+weight: 9010
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_preserve_internet_content/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PRESERVE_INTERNET_CONTENT field

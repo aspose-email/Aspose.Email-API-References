@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
-weight: 526
+weight: 530
 url: /java/com.aspose.email/msgloadoptions/
 ---
 

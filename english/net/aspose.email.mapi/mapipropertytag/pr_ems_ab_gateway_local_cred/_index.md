@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_GATEWAY_LOCAL_CRED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6120
+weight: 6140
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_cred/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GATEWAY_LOCAL_CRED field

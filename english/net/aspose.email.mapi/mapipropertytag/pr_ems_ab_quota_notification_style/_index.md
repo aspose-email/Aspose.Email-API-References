@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_QUOTA_NOTIFICATION_STYLE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9190
+weight: 9210
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_quota_notification_style/
 ---
 ## MapiPropertyTag.PR_EMS_AB_QUOTA_NOTIFICATION_STYLE field

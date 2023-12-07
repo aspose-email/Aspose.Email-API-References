@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EXTENDED_ACL_DATA
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11460
+weight: 11480
 url: /net/aspose.email.mapi/mapipropertytag/pr_extended_acl_data/
 ---
 ## MapiPropertyTag.PR_EXTENDED_ACL_DATA field

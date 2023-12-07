@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RTF_SYNC_BODY_TAG_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18650
+weight: 18670
 url: /net/aspose.email.mapi/mapipropertytag/pr_rtf_sync_body_tag_w/
 ---
 ## MapiPropertyTag.PR_RTF_SYNC_BODY_TAG_W field

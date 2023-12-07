@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_AUTHENTICATION_TO_USE_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3350
+weight: 3370
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_authentication_to_use_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AUTHENTICATION_TO_USE_W field

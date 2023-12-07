@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_AVAILABLE_AUTHORIZATION_PACKAGES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3540
+weight: 3560
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_available_authorization_packages/
 ---
 ## MapiPropertyTag.PR_EMS_AB_AVAILABLE_AUTHORIZATION_PACKAGES field

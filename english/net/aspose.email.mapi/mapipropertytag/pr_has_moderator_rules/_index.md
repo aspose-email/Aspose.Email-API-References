@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HAS_MODERATOR_RULES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12060
+weight: 12080
 url: /net/aspose.email.mapi/mapipropertytag/pr_has_moderator_rules/
 ---
 ## MapiPropertyTag.PR_HAS_MODERATOR_RULES field

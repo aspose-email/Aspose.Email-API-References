@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IPM_TASK_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Contains the EntryID of the Outlook Tasks folder
 type: docs
-weight: 13250
+weight: 13270
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_task_entryid/
 ---
 ## MapiPropertyTag.PR_IPM_TASK_ENTRYID field

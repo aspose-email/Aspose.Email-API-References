@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PROMO_EXPIRATION
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9030
+weight: 9050
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_promo_expiration/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PROMO_EXPIRATION field

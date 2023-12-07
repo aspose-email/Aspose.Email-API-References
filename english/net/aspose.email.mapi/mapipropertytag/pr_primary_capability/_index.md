@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PRIMARY_CAPABILITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16410
+weight: 16430
 url: /net/aspose.email.mapi/mapipropertytag/pr_primary_capability/
 ---
 ## MapiPropertyTag.PR_PRIMARY_CAPABILITY field

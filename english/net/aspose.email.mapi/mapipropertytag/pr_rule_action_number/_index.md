@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RULE_ACTION_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18710
+weight: 18730
 url: /net/aspose.email.mapi/mapipropertytag/pr_rule_action_number/
 ---
 ## MapiPropertyTag.PR_RULE_ACTION_NUMBER field

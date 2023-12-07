@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PERIOD_REP_SYNC_TIMES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8820
+weight: 8840
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_period_rep_sync_times/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PERIOD_REP_SYNC_TIMES field

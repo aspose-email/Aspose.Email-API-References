@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RECIPIENT_REASSIGNMENT_PROHIBITED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17880
+weight: 17900
 url: /net/aspose.email.mapi/mapipropertytag/pr_recipient_reassignment_prohibited/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_REASSIGNMENT_PROHIBITED field

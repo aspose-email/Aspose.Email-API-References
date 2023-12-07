@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SYNCHRONIZE_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19960
+weight: 19980
 url: /net/aspose.email.mapi/mapipropertytag/pr_synchronize_flags/
 ---
 ## MapiPropertyTag.PR_SYNCHRONIZE_FLAGS field

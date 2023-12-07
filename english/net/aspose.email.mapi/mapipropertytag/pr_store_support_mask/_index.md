@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_STORE_SUPPORT_MASK
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19690
+weight: 19710
 url: /net/aspose.email.mapi/mapipropertytag/pr_store_support_mask/
 ---
 ## MapiPropertyTag.PR_STORE_SUPPORT_MASK field

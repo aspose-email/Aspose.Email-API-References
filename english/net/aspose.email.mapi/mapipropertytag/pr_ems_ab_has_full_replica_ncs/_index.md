@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HAS_FULL_REPLICA_NCS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6430
+weight: 6450
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_has_full_replica_ncs/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HAS_FULL_REPLICA_NCS field

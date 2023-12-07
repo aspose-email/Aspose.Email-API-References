@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_NNTP_DISTRIBUTIONS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8230
+weight: 8250
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_distributions/
 ---
 ## MapiPropertyTag.PR_EMS_AB_NNTP_DISTRIBUTIONS field

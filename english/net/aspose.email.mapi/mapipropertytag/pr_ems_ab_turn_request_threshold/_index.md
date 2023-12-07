@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TURN_REQUEST_THRESHOLD
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10620
+weight: 10640
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_turn_request_threshold/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TURN_REQUEST_THRESHOLD field

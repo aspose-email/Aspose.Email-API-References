@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_POP_CONTENT_FORMAT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8930
+weight: 8950
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_pop_content_format/
 ---
 ## MapiPropertyTag.PR_EMS_AB_POP_CONTENT_FORMAT field

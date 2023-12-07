@@ -524,6 +524,10 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MessageTrackingReport](../com.aspose.email/messagetrackingreport) | Represents the information to be included in the report. |
 | [MessageTrackingReportInfo](../com.aspose.email/messagetrackingreportinfo) | Represents an information about the message that was found by using the FindMessageTrackingReport |
 | [MessageTrackingReportTemplate](../com.aspose.email/messagetrackingreporttemplate) | Enumerates the types of report to display. |
+| [MessageValidationError](../com.aspose.email/messagevalidationerror) | Represents the message validation error information. |
+| [MessageValidationErrorType](../com.aspose.email/messagevalidationerrortype) | Enumerates the types of the message validation errors. |
+| [MessageValidationResult](../com.aspose.email/messagevalidationresult) | Represents the result of message validation. |
+| [MessageValidator](../com.aspose.email/messagevalidator) | The message validator. |
 | [Metered](../com.aspose.email/metered) | Provides methods to set metered key. |
 | [MhtFormatOptions](../com.aspose.email/mhtformatoptions) | Enumerates the Mht format options |
 | [MhtSaveOptions](../com.aspose.email/mhtsaveoptions) | Allows to specify additional options when saving MailMessage to Mhtml format. |
@@ -653,6 +657,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SequenceSetField](../com.aspose.email/sequencesetfield) | Defines set of values for selected field to search. |
 | [ServerNotificationEventArgs](../com.aspose.email/servernotificationeventargs) | Contains event data for server notification. |
 | [ServicePointManager](../com.aspose.email/servicepointmanager) | Manages the collection of ServicePoint objects. |
+| [SignatureOptions](../com.aspose.email/signatureoptions) | This class allow the user to specify additional options when sign a message. |
 | [SimpleFormatter](../com.aspose.email/simpleformatter) | Represents the default implementation of IFormatter interface. |
 | [SimpleSeqSet](../com.aspose.email/simpleseqset) | Simple container for value to search. |
 | [SizeRange](../com.aspose.email/sizerange) | Represents the size range |

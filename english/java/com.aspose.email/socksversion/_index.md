@@ -3,7 +3,7 @@ title: SocksVersion
 second_title: Aspose.Email for Java API Reference
 description: Versions of the SOCKS protocol
 type: docs
-weight: 655
+weight: 660
 url: /java/com.aspose.email/socksversion/
 ---
 

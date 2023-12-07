@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_HEURISTICS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6520
+weight: 6540
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_heuristics/
 ---
 ## MapiPropertyTag.PR_EMS_AB_HEURISTICS field

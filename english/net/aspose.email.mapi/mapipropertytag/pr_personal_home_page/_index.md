@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PERSONAL_HOME_PAGE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16010
+weight: 16030
 url: /net/aspose.email.mapi/mapipropertytag/pr_personal_home_page/
 ---
 ## MapiPropertyTag.PR_PERSONAL_HOME_PAGE field

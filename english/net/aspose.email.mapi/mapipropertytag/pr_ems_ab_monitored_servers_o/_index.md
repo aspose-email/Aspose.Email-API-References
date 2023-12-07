@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORED_SERVERS_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7770
+weight: 7790
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitored_servers_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORED_SERVERS_O field

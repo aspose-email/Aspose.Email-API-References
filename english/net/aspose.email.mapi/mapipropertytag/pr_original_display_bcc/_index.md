@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINAL_DISPLAY_BCC
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14940
+weight: 14960
 url: /net/aspose.email.mapi/mapipropertytag/pr_original_display_bcc/
 ---
 ## MapiPropertyTag.PR_ORIGINAL_DISPLAY_BCC field

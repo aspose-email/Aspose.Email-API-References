@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORING_AVAILABILITY_STYLE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7810
+weight: 7830
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_availability_style/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORING_AVAILABILITY_STYLE field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_PER_RECIP_DIALOG_DISPLAY_TABLE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8870
+weight: 8890
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_per_recip_dialog_display_table/
 ---
 ## MapiPropertyTag.PR_EMS_AB_PER_RECIP_DIALOG_DISPLAY_TABLE field

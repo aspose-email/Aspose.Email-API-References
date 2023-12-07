@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_IMPORT_SENSITIVITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6870
+weight: 6890
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_import_sensitivity/
 ---
 ## MapiPropertyTag.PR_EMS_AB_IMPORT_SENSITIVITY field

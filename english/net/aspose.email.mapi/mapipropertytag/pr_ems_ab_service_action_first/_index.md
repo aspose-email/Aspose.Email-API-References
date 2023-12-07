@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SERVICE_ACTION_FIRST
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9960
+weight: 9980
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_service_action_first/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SERVICE_ACTION_FIRST field

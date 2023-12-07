@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DXA_OUT_TEMPLATE_MAP
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4820
+weight: 4840
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_out_template_map/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DXA_OUT_TEMPLATE_MAP field

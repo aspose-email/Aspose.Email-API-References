@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IPM_WASTEBASKET_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13270
+weight: 13290
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_wastebasket_search_key/
 ---
 ## MapiPropertyTag.PR_IPM_WASTEBASKET_SEARCH_KEY field

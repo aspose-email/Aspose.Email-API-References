@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HIERARCHY_SERVER_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12130
+weight: 12150
 url: /net/aspose.email.mapi/mapipropertytag/pr_hierarchy_server_w/
 ---
 ## MapiPropertyTag.PR_HIERARCHY_SERVER_W field

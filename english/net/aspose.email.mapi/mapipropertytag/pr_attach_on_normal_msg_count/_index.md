@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_ON_NORMAL_MSG_COUNT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_on_normal_msg_count/
 ---
 ## MapiPropertyTag.PR_ATTACH_ON_NORMAL_MSG_COUNT field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IDENTITY_DISPLAY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12470
+weight: 12490
 url: /net/aspose.email.mapi/mapipropertytag/pr_identity_display/
 ---
 ## MapiPropertyTag.PR_IDENTITY_DISPLAY field

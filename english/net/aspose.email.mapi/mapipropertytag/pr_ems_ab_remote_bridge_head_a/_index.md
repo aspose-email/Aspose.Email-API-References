@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_REMOTE_BRIDGE_HEAD_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9410
+weight: 9430
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_remote_bridge_head_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_REMOTE_BRIDGE_HEAD_A field

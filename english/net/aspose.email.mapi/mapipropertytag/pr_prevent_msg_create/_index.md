@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PREVENT_MSG_CREATE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16340
+weight: 16360
 url: /net/aspose.email.mapi/mapipropertytag/pr_prevent_msg_create/
 ---
 ## MapiPropertyTag.PR_PREVENT_MSG_CREATE field

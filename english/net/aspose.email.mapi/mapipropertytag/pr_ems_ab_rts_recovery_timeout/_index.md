@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_RTS_RECOVERY_TIMEOUT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9780
+weight: 9800
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_rts_recovery_timeout/
 ---
 ## MapiPropertyTag.PR_EMS_AB_RTS_RECOVERY_TIMEOUT field

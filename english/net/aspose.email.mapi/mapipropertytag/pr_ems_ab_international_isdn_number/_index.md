@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7070
+weight: 7090
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_international_isdn_number/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INTERNATIONAL_ISDN_NUMBER field

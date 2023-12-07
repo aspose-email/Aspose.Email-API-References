@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_OPEN_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16990
+weight: 17010
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_open_flags/
 ---
 ## MapiPropertyTag.PR_PROFILE_OPEN_FLAGS field

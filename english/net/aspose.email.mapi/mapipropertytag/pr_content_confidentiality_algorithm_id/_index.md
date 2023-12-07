@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1840
+weight: 1860
 url: /net/aspose.email.mapi/mapipropertytag/pr_content_confidentiality_algorithm_id/
 ---
 ## MapiPropertyTag.PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID field

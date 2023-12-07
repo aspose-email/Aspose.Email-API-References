@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_OFF_LINE_AB_CONTAINERS_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8450
+weight: 8470
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_off_line_ab_containers_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_OFF_LINE_AB_CONTAINERS_O field

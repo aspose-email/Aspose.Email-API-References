@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RADIO_TELEPHONE_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17490
+weight: 17510
 url: /net/aspose.email.mapi/mapipropertytag/pr_radio_telephone_number/
 ---
 ## MapiPropertyTag.PR_RADIO_TELEPHONE_NUMBER field

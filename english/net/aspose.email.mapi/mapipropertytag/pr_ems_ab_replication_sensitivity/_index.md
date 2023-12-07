@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_REPLICATION_SENSITIVITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9560
+weight: 9580
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_replication_sensitivity/
 ---
 ## MapiPropertyTag.PR_EMS_AB_REPLICATION_SENSITIVITY field

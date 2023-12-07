@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SENDER_SEARCH_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19070
+weight: 19090
 url: /net/aspose.email.mapi/mapipropertytag/pr_sender_search_key/
 ---
 ## MapiPropertyTag.PR_SENDER_SEARCH_KEY field

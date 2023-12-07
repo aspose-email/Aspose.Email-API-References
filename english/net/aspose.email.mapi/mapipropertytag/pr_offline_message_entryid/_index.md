@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OFFLINE_MESSAGE_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14650
+weight: 14670
 url: /net/aspose.email.mapi/mapipropertytag/pr_offline_message_entryid/
 ---
 ## MapiPropertyTag.PR_OFFLINE_MESSAGE_ENTRYID field

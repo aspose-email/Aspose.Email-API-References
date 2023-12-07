@@ -3,7 +3,7 @@ title: TaskSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates TaskSaveFormat
 type: docs
-weight: 676
+weight: 681
 url: /java/com.aspose.email/tasksaveformat/
 ---
 

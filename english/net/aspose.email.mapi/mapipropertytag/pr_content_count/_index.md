@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTENT_COUNT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1860
+weight: 1880
 url: /net/aspose.email.mapi/mapipropertytag/pr_content_count/
 ---
 ## MapiPropertyTag.PR_CONTENT_COUNT field

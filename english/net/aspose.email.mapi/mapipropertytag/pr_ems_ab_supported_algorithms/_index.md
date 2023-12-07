@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SUPPORTED_ALGORITHMS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10290
+weight: 10310
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_supported_algorithms/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SUPPORTED_ALGORITHMS field

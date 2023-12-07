@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DESTINATION_INDICATOR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4220
+weight: 4240
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_destination_indicator/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DESTINATION_INDICATOR field

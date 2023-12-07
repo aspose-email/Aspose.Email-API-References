@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISCARD_REASON
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2580
+weight: 2600
 url: /net/aspose.email.mapi/mapipropertytag/pr_discard_reason/
 ---
 ## MapiPropertyTag.PR_DISCARD_REASON field

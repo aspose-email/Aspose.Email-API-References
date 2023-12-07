@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORING_WARNING_UNITS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8010
+weight: 8030
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_warning_units/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORING_WARNING_UNITS field

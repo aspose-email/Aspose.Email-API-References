@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TRANSPORT_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20130
+weight: 20150
 url: /net/aspose.email.mapi/mapipropertytag/pr_transport_key/
 ---
 ## MapiPropertyTag.PR_TRANSPORT_KEY field

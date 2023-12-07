@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INITIALS_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12610
+weight: 12630
 url: /net/aspose.email.mapi/mapipropertytag/pr_initials_w/
 ---
 ## MapiPropertyTag.PR_INITIALS_W field

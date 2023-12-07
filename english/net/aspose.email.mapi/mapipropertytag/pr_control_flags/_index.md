@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTROL_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1950
+weight: 1970
 url: /net/aspose.email.mapi/mapipropertytag/pr_control_flags/
 ---
 ## MapiPropertyTag.PR_CONTROL_FLAGS field

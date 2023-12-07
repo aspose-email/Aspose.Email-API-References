@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_IS_MEMBER_OF_DL_T_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7140
+weight: 7160
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_is_member_of_dl_t_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_IS_MEMBER_OF_DL_T_W field

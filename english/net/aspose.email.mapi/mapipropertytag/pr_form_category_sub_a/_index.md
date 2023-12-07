@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FORM_CATEGORY_SUB_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11700
+weight: 11720
 url: /net/aspose.email.mapi/mapipropertytag/pr_form_category_sub_a/
 ---
 ## MapiPropertyTag.PR_FORM_CATEGORY_SUB_A field

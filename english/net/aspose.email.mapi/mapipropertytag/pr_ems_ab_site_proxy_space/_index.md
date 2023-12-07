@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SITE_PROXY_SPACE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10100
+weight: 10120
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_site_proxy_space/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SITE_PROXY_SPACE field

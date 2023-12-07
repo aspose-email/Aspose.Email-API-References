@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTENTS_SORT_ORDER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1820
+weight: 1840
 url: /net/aspose.email.mapi/mapipropertytag/pr_contents_sort_order/
 ---
 ## MapiPropertyTag.PR_CONTENTS_SORT_ORDER field

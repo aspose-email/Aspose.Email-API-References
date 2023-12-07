@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FOLDER_DESIGN_FLAGS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11580
+weight: 11600
 url: /net/aspose.email.mapi/mapipropertytag/pr_folder_design_flags/
 ---
 ## MapiPropertyTag.PR_FOLDER_DESIGN_FLAGS field

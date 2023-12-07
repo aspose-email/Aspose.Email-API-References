@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SENSITIVITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19130
+weight: 19150
 url: /net/aspose.email.mapi/mapipropertytag/pr_sensitivity/
 ---
 ## MapiPropertyTag.PR_SENSITIVITY field

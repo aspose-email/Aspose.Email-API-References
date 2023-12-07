@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SEND_RICH_INFO
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19120
+weight: 19140
 url: /net/aspose.email.mapi/mapipropertytag/pr_send_rich_info/
 ---
 ## MapiPropertyTag.PR_SEND_RICH_INFO field

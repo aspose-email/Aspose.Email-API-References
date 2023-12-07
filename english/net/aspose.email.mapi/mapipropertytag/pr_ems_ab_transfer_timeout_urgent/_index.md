@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TRANSFER_TIMEOUT_URGENT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10560
+weight: 10580
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_transfer_timeout_urgent/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TRANSFER_TIMEOUT_URGENT field

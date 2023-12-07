@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_TRANSPORT_EXPEDITED_DATA
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10580
+weight: 10600
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_transport_expedited_data/
 ---
 ## MapiPropertyTag.PR_EMS_AB_TRANSPORT_EXPEDITED_DATA field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ENABLE_COMPATIBILITY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5320
+weight: 5340
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_enable_compatibility/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ENABLE_COMPATIBILITY field

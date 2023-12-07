@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RECEIPT_TIME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17660
+weight: 17680
 url: /net/aspose.email.mapi/mapipropertytag/pr_receipt_time/
 ---
 ## MapiPropertyTag.PR_RECEIPT_TIME field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ROUTING_LIST
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9760
+weight: 9780
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_routing_list/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ROUTING_LIST field

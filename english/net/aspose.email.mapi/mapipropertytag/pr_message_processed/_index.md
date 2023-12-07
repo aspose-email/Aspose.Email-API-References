@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MESSAGE_PROCESSED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13910
+weight: 13930
 url: /net/aspose.email.mapi/mapipropertytag/pr_message_processed/
 ---
 ## MapiPropertyTag.PR_MESSAGE_PROCESSED field

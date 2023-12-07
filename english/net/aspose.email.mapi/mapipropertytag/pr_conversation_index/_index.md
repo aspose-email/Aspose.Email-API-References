@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONVERSATION_INDEX
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1990
+weight: 2010
 url: /net/aspose.email.mapi/mapipropertytag/pr_conversation_index/
 ---
 ## MapiPropertyTag.PR_CONVERSATION_INDEX field

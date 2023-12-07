@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PST_ENCRYPTION
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17350
+weight: 17370
 url: /net/aspose.email.mapi/mapipropertytag/pr_pst_encryption/
 ---
 ## MapiPropertyTag.PR_PST_ENCRYPTION field

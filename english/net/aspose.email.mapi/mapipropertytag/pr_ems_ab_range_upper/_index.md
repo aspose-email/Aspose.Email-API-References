@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_RANGE_UPPER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9210
+weight: 9230
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_range_upper/
 ---
 ## MapiPropertyTag.PR_EMS_AB_RANGE_UPPER field

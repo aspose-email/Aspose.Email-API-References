@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DELEGATED_BY_RULE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2360
+weight: 2380
 url: /net/aspose.email.mapi/mapipropertytag/pr_delegated_by_rule/
 ---
 ## MapiPropertyTag.PR_DELEGATED_BY_RULE field

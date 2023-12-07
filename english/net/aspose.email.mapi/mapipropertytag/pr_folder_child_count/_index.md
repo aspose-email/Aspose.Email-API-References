@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FOLDER_CHILD_COUNT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11570
+weight: 11590
 url: /net/aspose.email.mapi/mapipropertytag/pr_folder_child_count/
 ---
 ## MapiPropertyTag.PR_FOLDER_CHILD_COUNT field

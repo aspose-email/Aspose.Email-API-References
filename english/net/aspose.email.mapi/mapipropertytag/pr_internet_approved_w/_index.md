@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_APPROVED_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12670
+weight: 12690
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_approved_w/
 ---
 ## MapiPropertyTag.PR_INTERNET_APPROVED_W field

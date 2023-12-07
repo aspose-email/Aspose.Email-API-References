@@ -3,7 +3,7 @@ title: MonthlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern of monthly recurrence type.
 type: docs
-weight: 525
+weight: 529
 url: /java/com.aspose.email/monthlyrecurrencepattern/
 ---
 

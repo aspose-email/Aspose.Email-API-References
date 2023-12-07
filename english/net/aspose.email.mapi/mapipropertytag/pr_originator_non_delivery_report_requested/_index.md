@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15500
+weight: 15520
 url: /net/aspose.email.mapi/mapipropertytag/pr_originator_non_delivery_report_requested/
 ---
 ## MapiPropertyTag.PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED field

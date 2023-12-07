@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ASSOC_NT_ACCOUNT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3250
+weight: 3270
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_assoc_nt_account/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ASSOC_NT_ACCOUNT field

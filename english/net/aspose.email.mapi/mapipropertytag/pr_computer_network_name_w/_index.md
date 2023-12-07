@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_COMPUTER_NETWORK_NAME_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1670
+weight: 1690
 url: /net/aspose.email.mapi/mapipropertytag/pr_computer_network_name_w/
 ---
 ## MapiPropertyTag.PR_COMPUTER_NETWORK_NAME_W field

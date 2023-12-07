@@ -3,7 +3,7 @@ title: ObjectDisposedException
 second_title: Aspose.Email for Java API Reference
 description: Represents errors that occur when an operation canceled.
 type: docs
-weight: 546
+weight: 550
 url: /java/com.aspose.email/objectdisposedexception/
 ---
 

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINATOR_ADDR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15370
+weight: 15390
 url: /net/aspose.email.mapi/mapipropertytag/pr_originator_addr/
 ---
 ## MapiPropertyTag.PR_ORIGINATOR_ADDR field

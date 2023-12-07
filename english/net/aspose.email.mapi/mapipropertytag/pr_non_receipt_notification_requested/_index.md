@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14410
+weight: 14430
 url: /net/aspose.email.mapi/mapipropertytag/pr_non_receipt_notification_requested/
 ---
 ## MapiPropertyTag.PR_NON_RECEIPT_NOTIFICATION_REQUESTED field

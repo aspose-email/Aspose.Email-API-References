@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFESSION_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16500
+weight: 16520
 url: /net/aspose.email.mapi/mapipropertytag/pr_profession_a/
 ---
 ## MapiPropertyTag.PR_PROFESSION_A field

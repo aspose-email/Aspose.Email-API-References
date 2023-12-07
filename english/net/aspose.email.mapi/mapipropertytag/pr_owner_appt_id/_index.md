@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OWNER_APPT_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15870
+weight: 15890
 url: /net/aspose.email.mapi/mapipropertytag/pr_owner_appt_id/
 ---
 ## MapiPropertyTag.PR_OWNER_APPT_ID field

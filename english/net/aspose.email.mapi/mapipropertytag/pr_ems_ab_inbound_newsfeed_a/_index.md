@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_INBOUND_NEWSFEED_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6950
+weight: 6970
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_inbound_newsfeed_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INBOUND_NEWSFEED_A field

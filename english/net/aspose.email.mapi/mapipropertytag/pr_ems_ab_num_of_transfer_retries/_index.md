@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_NUM_OF_TRANSFER_RETRIES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8320
+weight: 8340
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_num_of_transfer_retries/
 ---
 ## MapiPropertyTag.PR_EMS_AB_NUM_OF_TRANSFER_RETRIES field

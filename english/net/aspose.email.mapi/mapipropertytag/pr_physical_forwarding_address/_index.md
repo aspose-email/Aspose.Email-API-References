@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PHYSICAL_FORWARDING_ADDRESS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16070
+weight: 16090
 url: /net/aspose.email.mapi/mapipropertytag/pr_physical_forwarding_address/
 ---
 ## MapiPropertyTag.PR_PHYSICAL_FORWARDING_ADDRESS field

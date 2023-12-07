@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_IPM_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13140
+weight: 13160
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_id/
 ---
 ## MapiPropertyTag.PR_IPM_ID field

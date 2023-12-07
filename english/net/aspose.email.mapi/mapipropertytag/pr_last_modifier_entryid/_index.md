@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_LAST_MODIFIER_ENTRYID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13470
+weight: 13490
 url: /net/aspose.email.mapi/mapipropertytag/pr_last_modifier_entryid/
 ---
 ## MapiPropertyTag.PR_LAST_MODIFIER_ENTRYID field

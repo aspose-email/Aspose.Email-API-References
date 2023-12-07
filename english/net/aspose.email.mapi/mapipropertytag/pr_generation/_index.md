@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_GENERATION
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11920
+weight: 11940
 url: /net/aspose.email.mapi/mapipropertytag/pr_generation/
 ---
 ## MapiPropertyTag.PR_GENERATION field

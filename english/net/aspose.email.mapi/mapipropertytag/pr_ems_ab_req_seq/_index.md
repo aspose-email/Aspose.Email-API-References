@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_REQ_SEQ
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9630
+weight: 9650
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_req_seq/
 ---
 ## MapiPropertyTag.PR_EMS_AB_REQ_SEQ field

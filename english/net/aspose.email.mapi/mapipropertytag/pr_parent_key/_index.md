@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PARENT_KEY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15990
+weight: 16010
 url: /net/aspose.email.mapi/mapipropertytag/pr_parent_key/
 ---
 ## MapiPropertyTag.PR_PARENT_KEY field

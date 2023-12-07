@@ -3,7 +3,7 @@ title: NewStorageEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Represents arguments used in events that are  raised after a new storage file is created or after it is processed.
 type: docs
-weight: 532
+weight: 536
 url: /java/com.aspose.email/newstorageeventargs/
 ---
 

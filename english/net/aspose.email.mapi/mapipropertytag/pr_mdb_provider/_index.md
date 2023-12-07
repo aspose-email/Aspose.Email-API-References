@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MDB_PROVIDER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13730
+weight: 13750
 url: /net/aspose.email.mapi/mapipropertytag/pr_mdb_provider/
 ---
 ## MapiPropertyTag.PR_MDB_PROVIDER field

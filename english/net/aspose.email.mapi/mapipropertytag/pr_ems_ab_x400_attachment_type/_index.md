@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_X400_ATTACHMENT_TYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11230
+weight: 11250
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_attachment_type/
 ---
 ## MapiPropertyTag.PR_EMS_AB_X400_ATTACHMENT_TYPE field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_RCVD_REPRESENTING_NAME_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17610
+weight: 17630
 url: /net/aspose.email.mapi/mapipropertytag/pr_rcvd_representing_name_w/
 ---
 ## MapiPropertyTag.PR_RCVD_REPRESENTING_NAME_W field

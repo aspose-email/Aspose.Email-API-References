@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_NNTP_CHARACTER_SET_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8190
+weight: 8210
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_nntp_character_set_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_NNTP_CHARACTER_SET_W field

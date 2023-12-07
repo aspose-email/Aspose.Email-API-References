@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SELECTABLE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18960
+weight: 18980
 url: /net/aspose.email.mapi/mapipropertytag/pr_selectable/
 ---
 ## MapiPropertyTag.PR_SELECTABLE field

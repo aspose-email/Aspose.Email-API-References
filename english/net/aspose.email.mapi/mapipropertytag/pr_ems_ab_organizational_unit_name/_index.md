@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ORGANIZATIONAL_UNIT_NAME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 8570
+weight: 8590
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_organizational_unit_name/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ORGANIZATIONAL_UNIT_NAME field

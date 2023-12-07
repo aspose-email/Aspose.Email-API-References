@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_ENCODING
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_encoding/
 ---
 ## MapiPropertyTag.PR_ATTACH_ENCODING field

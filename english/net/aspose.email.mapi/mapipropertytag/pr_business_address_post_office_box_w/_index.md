@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.email.mapi/mapipropertytag/pr_business_address_post_office_box_w/
 ---
 ## MapiPropertyTag.PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W field

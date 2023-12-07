@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MDB_OVER_QUOTA_LIMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7600
+weight: 7620
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_over_quota_limit/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MDB_OVER_QUOTA_LIMIT field

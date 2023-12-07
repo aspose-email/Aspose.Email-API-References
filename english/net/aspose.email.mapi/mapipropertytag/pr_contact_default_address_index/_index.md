@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTACT_DEFAULT_ADDRESS_INDEX
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1710
+weight: 1730
 url: /net/aspose.email.mapi/mapipropertytag/pr_contact_default_address_index/
 ---
 ## MapiPropertyTag.PR_CONTACT_DEFAULT_ADDRESS_INDEX field

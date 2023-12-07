@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MONITORING_CACHED_VIA_RPC_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7860
+weight: 7880
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_monitoring_cached_via_rpc_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MONITORING_CACHED_VIA_RPC_O field

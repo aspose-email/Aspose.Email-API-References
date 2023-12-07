@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGIN_CHECK
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15530
+weight: 15550
 url: /net/aspose.email.mapi/mapipropertytag/pr_origin_check/
 ---
 ## MapiPropertyTag.PR_ORIGIN_CHECK field

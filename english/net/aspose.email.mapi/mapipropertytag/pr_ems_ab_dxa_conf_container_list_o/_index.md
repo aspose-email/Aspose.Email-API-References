@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_DXA_CONF_CONTAINER_LIST_O
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4580
+weight: 4600
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_dxa_conf_container_list_o/
 ---
 ## MapiPropertyTag.PR_EMS_AB_DXA_CONF_CONTAINER_LIST_O field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_REFERRAL_LIST
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 9380
+weight: 9400
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_referral_list/
 ---
 ## MapiPropertyTag.PR_EMS_AB_REFERRAL_LIST field

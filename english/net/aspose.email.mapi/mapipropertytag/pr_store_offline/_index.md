@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_STORE_OFFLINE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19640
+weight: 19660
 url: /net/aspose.email.mapi/mapipropertytag/pr_store_offline/
 ---
 ## MapiPropertyTag.PR_STORE_OFFLINE field

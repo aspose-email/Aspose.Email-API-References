@@ -6,6 +6,32 @@ type: docs
 weight: 790
 url: /net/aspose.email.clients.imap/imapclient/getquotarootasync/
 ---
+## GetQuotaRootAsync(string, CancellationToken) {#getquotarootasync_3}
+
+Gets quota root information for mailbox
+
+```csharp
+public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailboxName | String | mailbox name |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapQuotaRoot](../../imapquotaroot/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## GetQuotaRootAsync(IConnection, string) {#getquotarootasync}
 
 Gets quota root information for mailbox
@@ -81,32 +107,6 @@ Task object, with delegate for this operation
 
 * class [ImapQuotaRoot](../../imapquotaroot/)
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## GetQuotaRootAsync(string, CancellationToken) {#getquotarootasync_3}
-
-Gets quota root information for mailbox
-
-```csharp
-public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mailboxName | String | mailbox name |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapQuotaRoot](../../imapquotaroot/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

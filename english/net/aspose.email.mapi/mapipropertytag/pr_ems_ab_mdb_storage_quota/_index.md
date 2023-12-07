@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MDB_STORAGE_QUOTA
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7610
+weight: 7630
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_mdb_storage_quota/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MDB_STORAGE_QUOTA field

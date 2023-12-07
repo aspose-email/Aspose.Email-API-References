@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SEND_INTERNET_ENCODING
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19110
+weight: 19130
 url: /net/aspose.email.mapi/mapipropertytag/pr_send_internet_encoding/
 ---
 ## MapiPropertyTag.PR_SEND_INTERNET_ENCODING field

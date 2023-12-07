@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SENT_REPRESENTING_ADDRTYPE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19150
+weight: 19170
 url: /net/aspose.email.mapi/mapipropertytag/pr_sent_representing_addrtype/
 ---
 ## MapiPropertyTag.PR_SENT_REPRESENTING_ADDRTYPE field

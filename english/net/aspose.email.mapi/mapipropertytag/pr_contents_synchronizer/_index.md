@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTENTS_SYNCHRONIZER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1830
+weight: 1850
 url: /net/aspose.email.mapi/mapipropertytag/pr_contents_synchronizer/
 ---
 ## MapiPropertyTag.PR_CONTENTS_SYNCHRONIZER field

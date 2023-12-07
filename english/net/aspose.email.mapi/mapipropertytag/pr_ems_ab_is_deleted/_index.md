@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_IS_DELETED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7090
+weight: 7110
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_is_deleted/
 ---
 ## MapiPropertyTag.PR_EMS_AB_IS_DELETED field

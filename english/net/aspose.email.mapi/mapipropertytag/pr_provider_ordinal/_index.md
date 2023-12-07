@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROVIDER_ORDINAL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17320
+weight: 17340
 url: /net/aspose.email.mapi/mapipropertytag/pr_provider_ordinal/
 ---
 ## MapiPropertyTag.PR_PROVIDER_ORDINAL field

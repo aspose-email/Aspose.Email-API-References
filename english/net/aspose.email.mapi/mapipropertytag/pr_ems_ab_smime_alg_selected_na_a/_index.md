@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_SMIME_ALG_SELECTED_NA_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10140
+weight: 10160
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_smime_alg_selected_na_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_SMIME_ALG_SELECTED_NA_A field

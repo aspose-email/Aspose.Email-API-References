@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CONTROL_MSG_RULES
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 4060
+weight: 4080
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_control_msg_rules/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CONTROL_MSG_RULES field

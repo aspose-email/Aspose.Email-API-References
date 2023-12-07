@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ATTACH_LONG_FILENAME
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.email.mapi/mapipropertytag/pr_attach_long_filename/
 ---
 ## MapiPropertyTag.PR_ATTACH_LONG_FILENAME field

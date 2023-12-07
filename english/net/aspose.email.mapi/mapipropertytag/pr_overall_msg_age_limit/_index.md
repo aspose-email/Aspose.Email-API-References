@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OVERALL_MSG_AGE_LIMIT
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15830
+weight: 15850
 url: /net/aspose.email.mapi/mapipropertytag/pr_overall_msg_age_limit/
 ---
 ## MapiPropertyTag.PR_OVERALL_MSG_AGE_LIMIT field

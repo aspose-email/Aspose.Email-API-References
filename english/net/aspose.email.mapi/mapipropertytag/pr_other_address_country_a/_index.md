@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_OTHER_ADDRESS_COUNTRY_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15620
+weight: 15640
 url: /net/aspose.email.mapi/mapipropertytag/pr_other_address_country_a/
 ---
 ## MapiPropertyTag.PR_OTHER_ADDRESS_COUNTRY_A field

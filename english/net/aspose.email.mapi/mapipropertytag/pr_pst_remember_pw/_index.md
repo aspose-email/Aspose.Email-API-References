@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PST_REMEMBER_PW
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 17460
+weight: 17480
 url: /net/aspose.email.mapi/mapipropertytag/pr_pst_remember_pw/
 ---
 ## MapiPropertyTag.PR_PST_REMEMBER_PW field

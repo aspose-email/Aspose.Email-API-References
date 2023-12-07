@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_TRANSPORT_MESSAGE_HEADERS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 20140
+weight: 20160
 url: /net/aspose.email.mapi/mapipropertytag/pr_transport_message_headers/
 ---
 ## MapiPropertyTag.PR_TRANSPORT_MESSAGE_HEADERS field

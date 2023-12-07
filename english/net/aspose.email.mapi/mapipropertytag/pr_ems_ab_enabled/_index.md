@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ENABLED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5280
+weight: 5300
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ENABLED field

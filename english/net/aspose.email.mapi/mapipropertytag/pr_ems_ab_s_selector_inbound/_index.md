@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_S_SELECTOR_INBOUND
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 10370
+weight: 10390
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_s_selector_inbound/
 ---
 ## MapiPropertyTag.PR_EMS_AB_S_SELECTOR_INBOUND field

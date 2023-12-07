@@ -6,35 +6,6 @@ type: docs
 weight: 690
 url: /net/aspose.email.clients.imap/imapclient/fetchmessagesasync/
 ---
-## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_3}
-
-Fetches the messages asynchronously
-
-```csharp
-public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
-    IEnumerable<string> uids, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uids | IEnumerable`1 | The sequence numbers of the messages |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## FetchMessagesAsync(IEnumerable&lt;int&gt;) {#fetchmessagesasync_4}
 
 Fetches the messages asynchronously
@@ -207,6 +178,35 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_3}
+
+Fetches the messages asynchronously
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
+    IEnumerable<string> uids, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uids | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value

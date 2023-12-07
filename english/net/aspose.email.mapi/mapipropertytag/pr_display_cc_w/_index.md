@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISPLAY_CC_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2680
+weight: 2700
 url: /net/aspose.email.mapi/mapipropertytag/pr_display_cc_w/
 ---
 ## MapiPropertyTag.PR_DISPLAY_CC_W field

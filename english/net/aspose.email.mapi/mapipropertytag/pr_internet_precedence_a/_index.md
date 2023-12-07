@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_PRECEDENCE_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12990
+weight: 13010
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_precedence_a/
 ---
 ## MapiPropertyTag.PR_INTERNET_PRECEDENCE_A field

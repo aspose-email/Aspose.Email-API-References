@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SWAPPED_TODO_DATA
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. Maintains a second set of property values that do not affect the flagged state of the Message object
 type: docs
-weight: 19950
+weight: 19970
 url: /net/aspose.email.mapi/mapipropertytag/pr_swapped_todo_data/
 ---
 ## MapiPropertyTag.PR_SWAPPED_TODO_DATA field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_BINDING_ORDER_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16640
+weight: 16660
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_binding_order_a/
 ---
 ## MapiPropertyTag.PR_PROFILE_BINDING_ORDER_A field

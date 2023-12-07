@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_HOME_FAX_NUMBER
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12390
+weight: 12410
 url: /net/aspose.email.mapi/mapipropertytag/pr_home_fax_number/
 ---
 ## MapiPropertyTag.PR_HOME_FAX_NUMBER field

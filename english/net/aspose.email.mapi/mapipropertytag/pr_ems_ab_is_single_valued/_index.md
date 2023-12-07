@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_IS_SINGLE_VALUED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7150
+weight: 7170
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_is_single_valued/
 ---
 ## MapiPropertyTag.PR_EMS_AB_IS_SINGLE_VALUED field

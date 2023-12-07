@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_SERVICE_EXTRA_UIDS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19370
+weight: 19390
 url: /net/aspose.email.mapi/mapipropertytag/pr_service_extra_uids/
 ---
 ## MapiPropertyTag.PR_SERVICE_EXTRA_UIDS field

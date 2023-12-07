@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_FORWARDING_ADDRESS_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6100
+weight: 6120
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_forwarding_address_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_FORWARDING_ADDRESS_W field

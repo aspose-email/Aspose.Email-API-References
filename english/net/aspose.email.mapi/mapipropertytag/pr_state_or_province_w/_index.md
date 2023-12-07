@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_STATE_OR_PROVINCE_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 19550
+weight: 19570
 url: /net/aspose.email.mapi/mapipropertytag/pr_state_or_province_w/
 ---
 ## MapiPropertyTag.PR_STATE_OR_PROVINCE_W field

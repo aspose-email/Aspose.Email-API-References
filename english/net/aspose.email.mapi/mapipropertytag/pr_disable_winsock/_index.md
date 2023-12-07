@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DISABLE_WINSOCK
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.email.mapi/mapipropertytag/pr_disable_winsock/
 ---
 ## MapiPropertyTag.PR_DISABLE_WINSOCK field

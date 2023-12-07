@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONVERSATION_TOPIC_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2030
+weight: 2050
 url: /net/aspose.email.mapi/mapipropertytag/pr_conversation_topic_a/
 ---
 ## MapiPropertyTag.PR_CONVERSATION_TOPIC_A field

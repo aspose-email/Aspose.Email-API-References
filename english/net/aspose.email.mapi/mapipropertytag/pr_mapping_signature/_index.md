@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MAPPING_SIGNATURE
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13720
+weight: 13740
 url: /net/aspose.email.mapi/mapipropertytag/pr_mapping_signature/
 ---
 ## MapiPropertyTag.PR_MAPPING_SIGNATURE field

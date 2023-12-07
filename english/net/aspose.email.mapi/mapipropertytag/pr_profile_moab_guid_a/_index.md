@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_PROFILE_MOAB_GUID_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 16880
+weight: 16900
 url: /net/aspose.email.mapi/mapipropertytag/pr_profile_moab_guid_a/
 ---
 ## MapiPropertyTag.PR_PROFILE_MOAB_GUID_A field

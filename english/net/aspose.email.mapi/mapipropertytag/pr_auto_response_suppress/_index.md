@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_AUTO_RESPONSE_SUPPRESS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 930
+weight: 950
 url: /net/aspose.email.mapi/mapipropertytag/pr_auto_response_suppress/
 ---
 ## MapiPropertyTag.PR_AUTO_RESPONSE_SUPPRESS field

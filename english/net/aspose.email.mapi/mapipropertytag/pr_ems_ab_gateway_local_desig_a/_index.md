@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_GATEWAY_LOCAL_DESIG_A
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 6160
+weight: 6180
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_gateway_local_desig_a/
 ---
 ## MapiPropertyTag.PR_EMS_AB_GATEWAY_LOCAL_DESIG_A field

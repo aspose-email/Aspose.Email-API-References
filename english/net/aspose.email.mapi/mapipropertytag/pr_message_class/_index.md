@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_MESSAGE_CLASS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 13820
+weight: 13840
 url: /net/aspose.email.mapi/mapipropertytag/pr_message_class/
 ---
 ## MapiPropertyTag.PR_MESSAGE_CLASS field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CAR_TELEPHONE_NUMBER_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1420
+weight: 1440
 url: /net/aspose.email.mapi/mapipropertytag/pr_car_telephone_number_w/
 ---
 ## MapiPropertyTag.PR_CAR_TELEPHONE_NUMBER_W field

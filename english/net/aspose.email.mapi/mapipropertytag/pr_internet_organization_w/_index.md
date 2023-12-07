@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_INTERNET_ORGANIZATION_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 12970
+weight: 12990
 url: /net/aspose.email.mapi/mapipropertytag/pr_internet_organization_w/
 ---
 ## MapiPropertyTag.PR_INTERNET_ORGANIZATION_W field

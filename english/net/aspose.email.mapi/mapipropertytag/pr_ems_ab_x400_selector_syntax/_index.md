@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_X400_SELECTOR_SYNTAX
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11240
+weight: 11260
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_x400_selector_syntax/
 ---
 ## MapiPropertyTag.PR_EMS_AB_X400_SELECTOR_SYNTAX field

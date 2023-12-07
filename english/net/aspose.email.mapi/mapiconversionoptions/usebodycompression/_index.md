@@ -3,7 +3,7 @@ title: MapiConversionOptions.UseBodyCompression
 second_title: Aspose.Email for .NET API Reference
 description: MapiConversionOptions property. Set to true if need RTF body compression
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.mapi/mapiconversionoptions/usebodycompression/
 ---
 ## MapiConversionOptions.UseBodyCompression property

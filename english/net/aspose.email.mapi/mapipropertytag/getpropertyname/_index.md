@@ -3,7 +3,7 @@ title: MapiPropertyTag.GetPropertyName
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag method. Gets the name of the property
 type: docs
-weight: 20370
+weight: 20390
 url: /net/aspose.email.mapi/mapipropertytag/getpropertyname/
 ---
 ## MapiPropertyTag.GetPropertyName method

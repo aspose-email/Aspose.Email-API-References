@@ -83,6 +83,7 @@ public class AmpMessage : MailMessage
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/)(X509Certificate2) | Encrypts this message |
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/)(X509Certificate2[]) | Encrypts this message |
 | override [Equals](../../aspose.email/mailmessage/equals/)(object) | Determines whether the specified Object is equal to the current Object. |
+| [GetAlternateViewContent](../../aspose.email/mailmessage/getalternateviewcontent/)(string) | Gets the content as a string from the specified AlternateView. |
 | [GetEnumerator](../../aspose.email/mailmessage/getenumerator/)() | Returns an enumerator that iterates through a collection. |
 | override [GetHashCode](../../aspose.email/mailmessage/gethashcode/)() | Returns a hash code for object |
 | virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext/)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |

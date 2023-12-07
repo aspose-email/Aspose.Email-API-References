@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_REPLICATION_ALWAYS_INTERVAL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 18080
+weight: 18100
 url: /net/aspose.email.mapi/mapipropertytag/pr_replication_always_interval/
 ---
 ## MapiPropertyTag.PR_REPLICATION_ALWAYS_INTERVAL field

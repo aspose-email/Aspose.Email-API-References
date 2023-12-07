@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_FOLDER_ASSOCIATED_CONTENTS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11560
+weight: 11580
 url: /net/aspose.email.mapi/mapipropertytag/pr_folder_associated_contents/
 ---
 ## MapiPropertyTag.PR_FOLDER_ASSOCIATED_CONTENTS field

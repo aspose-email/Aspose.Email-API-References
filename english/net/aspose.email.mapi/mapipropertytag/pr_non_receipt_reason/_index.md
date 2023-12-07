@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NON_RECEIPT_REASON
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14420
+weight: 14440
 url: /net/aspose.email.mapi/mapipropertytag/pr_non_receipt_reason/
 ---
 ## MapiPropertyTag.PR_NON_RECEIPT_REASON field

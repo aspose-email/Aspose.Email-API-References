@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_ENABLED_PROTOCOLS
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 5300
+weight: 5320
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_enabled_protocols/
 ---
 ## MapiPropertyTag.PR_EMS_AB_ENABLED_PROTOCOLS field

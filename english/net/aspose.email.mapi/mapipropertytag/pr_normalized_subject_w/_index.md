@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_NORMALIZED_SUBJECT_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 14450
+weight: 14470
 url: /net/aspose.email.mapi/mapipropertytag/pr_normalized_subject_w/
 ---
 ## MapiPropertyTag.PR_NORMALIZED_SUBJECT_W field

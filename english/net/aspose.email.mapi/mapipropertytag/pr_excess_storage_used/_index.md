@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EXCESS_STORAGE_USED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 11410
+weight: 11430
 url: /net/aspose.email.mapi/mapipropertytag/pr_excess_storage_used/
 ---
 ## MapiPropertyTag.PR_EXCESS_STORAGE_USED field

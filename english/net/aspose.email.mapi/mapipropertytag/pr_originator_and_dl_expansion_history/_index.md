@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 15430
+weight: 15450
 url: /net/aspose.email.mapi/mapipropertytag/pr_originator_and_dl_expansion_history/
 ---
 ## MapiPropertyTag.PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY field

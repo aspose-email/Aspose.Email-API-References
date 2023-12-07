@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_DEF_CREATE_DL
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 2340
+weight: 2360
 url: /net/aspose.email.mapi/mapipropertytag/pr_def_create_dl/
 ---
 ## MapiPropertyTag.PR_DEF_CREATE_DL field

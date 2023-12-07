@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_INVOCATION_ID
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7080
+weight: 7100
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_invocation_id/
 ---
 ## MapiPropertyTag.PR_EMS_AB_INVOCATION_ID field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_CONTENT_RETURN_REQUESTED
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 1920
+weight: 1940
 url: /net/aspose.email.mapi/mapipropertytag/pr_content_return_requested/
 ---
 ## MapiPropertyTag.PR_CONTENT_RETURN_REQUESTED field

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CERTIFICATE_REVOCATION_LIST
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3810
+weight: 3830
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_certificate_revocation_list/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CERTIFICATE_REVOCATION_LIST field

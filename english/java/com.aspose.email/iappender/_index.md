@@ -3,7 +3,7 @@ title: IAppender
 second_title: Aspose.Email for Java API Reference
 description: Implement this interface for your own strategies for printing log entries.
 type: docs
-weight: 744
+weight: 749
 url: /java/com.aspose.email/iappender/
 ---
 ```

@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_MODERATOR_W
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 7730
+weight: 7750
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_moderator_w/
 ---
 ## MapiPropertyTag.PR_EMS_AB_MODERATOR_W field

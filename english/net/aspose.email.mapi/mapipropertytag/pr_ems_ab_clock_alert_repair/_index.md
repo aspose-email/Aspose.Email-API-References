@@ -3,7 +3,7 @@ title: MapiPropertyTag.PR_EMS_AB_CLOCK_ALERT_REPAIR
 second_title: Aspose.Email for .NET API Reference
 description: MapiPropertyTag field. 
 type: docs
-weight: 3910
+weight: 3930
 url: /net/aspose.email.mapi/mapipropertytag/pr_ems_ab_clock_alert_repair/
 ---
 ## MapiPropertyTag.PR_EMS_AB_CLOCK_ALERT_REPAIR field
