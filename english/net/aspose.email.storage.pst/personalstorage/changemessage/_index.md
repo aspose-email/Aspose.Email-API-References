@@ -26,6 +26,10 @@ public void ChangeMessage(string entryId, MapiPropertyCollection updatedProperti
 | NotImplementedException | The ANSI file version editing is not implemented. |
 | InvalidOperationException | The PST is open for reading only. or The entryId is incorrect. |
 | ArgumentNullException | entryIdCollection;The collection of entry ids cannot be null. or updatedProperties;The collection of properties cannot be null. |
+| InvalidOperationException | Thrown when attempting to modify a PST file that is open for reading only. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| ArgumentNullException | Thrown when entry id is null. |
+| NotImplementedException | Thrown when property collection is null. |
 
 ### See Also
 

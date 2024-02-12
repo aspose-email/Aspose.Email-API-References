@@ -18,6 +18,12 @@ public void ChangePassword(string password)
 | --- | --- | --- |
 | password | String | The string that represents the password. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+
 ### See Also
 
 * class [MessageStore](../)

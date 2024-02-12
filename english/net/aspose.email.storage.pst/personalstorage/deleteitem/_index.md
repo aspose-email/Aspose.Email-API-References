@@ -18,6 +18,14 @@ public void DeleteItem(string entryId)
 | --- | --- | --- |
 | entryId | String |  |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | throws, if a PST file version is ANSI. |
+| ArgumentNullException | throws, if entryId is null. |
+| InvalidOperationException | throws, when trying to delete the root folder |
+
 ### See Also
 
 * class [PersonalStorage](../)

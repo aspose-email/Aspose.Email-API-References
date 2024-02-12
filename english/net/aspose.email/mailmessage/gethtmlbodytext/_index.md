@@ -20,7 +20,7 @@ public virtual string GetHtmlBodyText(bool showUrl)
 
 ## Examples
 
-The following example shows how to get an email message’s HTML body as plain text.
+The following example shows how to get an email message�s HTML body as plain text.
 
 [C#]
 

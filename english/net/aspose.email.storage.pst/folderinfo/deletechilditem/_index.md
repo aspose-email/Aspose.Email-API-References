@@ -25,6 +25,7 @@ public void DeleteChildItem(byte[] entryId)
 | ArgumentNullException | throws, if entryId is null. |
 | InvalidOperationException | throws, if the item doesn't belong to the folder or the item can't be deleted or entryID has the incorrect value. |
 | InvalidOperationException | throws, if a PST is open for reading only. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
 
 ## Remarks
 

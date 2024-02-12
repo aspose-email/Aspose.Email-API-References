@@ -18,6 +18,12 @@ public void AddMessages(IEnumerable<MapiMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | An IEnumerator representing the enumerator, which supports iteration over a collection of [`MapiMessage`](../../../aspose.email.mapi/mapimessage/). |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+
 ### See Also
 
 * class [MapiMessage](../../../aspose.email.mapi/mapimessage/)

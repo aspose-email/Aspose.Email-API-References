@@ -25,6 +25,12 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 
 A [`FolderInfo`](../../folderinfo/) object that represents a standard IPM folder.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | throws, if a PST file version is ANSI. |
+
 ### See Also
 
 * class [FolderInfo](../../folderinfo/)
@@ -51,6 +57,15 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 ### Return Value
 
 A [`FolderInfo`](../../folderinfo/) object that represents a standard IPM folder.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when attempting to modify a PST file that is open for reading only. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| InvalidOperationException | Thrown when standard folder already exists. |
+| NotImplementedException | Thrown when attempting to edit the OST file format. |
 
 ### See Also
 
