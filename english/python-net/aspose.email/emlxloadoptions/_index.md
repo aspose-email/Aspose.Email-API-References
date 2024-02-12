@@ -19,10 +19,10 @@ The EmlxLoadOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|preffered_text_encoding|Gets or sets preferred encoding for message.<br/>            Forcibly sets the preferred encoding for message subject and body.<br/>            The default value is null.|
 |preferred_text_encoding|Gets or sets preferred encoding for message.<br/>            Forcibly sets the preferred encoding for message subject and body.<br/>            The default value is null.|
 |message_format|Represents the mail message format.It can be in eml,msg or mhtml format.<br/>            The default value is Eml.|
 |preserve_embedded_message_format|Gets or sets a value indicating whether it is necessary to preserve format of <br/>            embedded message at loading. By default the value is false.|
+|remove_signature|Gets or sets a value indicating whether signature will be removed while loading.|
 
 ### See Also
 

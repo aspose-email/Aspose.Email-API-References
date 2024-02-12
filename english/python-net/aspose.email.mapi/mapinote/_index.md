@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 620
 url: /python-net/aspose.email.mapi/mapinote/
 ---
 
@@ -78,6 +78,7 @@ The MapiNote type exposes the following members:
 |set_body_rtf(content, compression)|  |
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
+|get_underlying_message()|  |
 
 ### See Also
 

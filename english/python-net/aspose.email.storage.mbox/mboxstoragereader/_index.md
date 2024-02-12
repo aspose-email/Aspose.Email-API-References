@@ -20,12 +20,12 @@ The MboxStorageReader type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_reader(stream, leave_open)|  |
 |create_reader(stream, options)|  |
-|create_reader(file_name, leave_open)|  |
 |create_reader(file_name, options)|  |
 |enumerate_messages()|  |
 |enumerate_messages(options)|  |
+|split_into(chunk_size, output_path)|  |
+|split_into(chunk_size, output_path, part_file_name_prefix)|  |
 |read_next_message()|  |
 |read_next_message(from_marker)|  |
 |read_next_message(options)|  |

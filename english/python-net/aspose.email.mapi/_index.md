@@ -64,6 +64,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiDistributionList](/email/python-net/aspose.email.mapi/mapidistributionlist/)|Represents the Personal Distribution List object.|
 |[MapiDistributionListMember](/email/python-net/aspose.email.mapi/mapidistributionlistmember/)|Represents the members of the personal distribution list.|
 |[MapiDistributionListMemberCollection](/email/python-net/aspose.email.mapi/mapidistributionlistmembercollection/)|Represents a collection of [MapiDistributionListMember](/email/python-net/aspose.email.mapi/mapidistributionlistmember/) objects.|
+|[MapiDistributionListSaveOptions](/email/python-net/aspose.email.mapi/mapidistributionlistsaveoptions/)|Specifies the DistributionList save options.|
 |[MapiElectronicAddress](/email/python-net/aspose.email.mapi/mapielectronicaddress/)|Refers to the group of properties that <br/>            define the e-mail address or fax address.|
 |[MapiJournal](/email/python-net/aspose.email.mapi/mapijournal/)|Represents the Outlook Journal object.|
 |[MapiMessage](/email/python-net/aspose.email.mapi/mapimessage/)|Represents an Outlook Message format document that can be parsed.|

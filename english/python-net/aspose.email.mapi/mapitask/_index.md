@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.email.mapi/mapitask/
 ---
 
@@ -95,6 +95,7 @@ The MapiTask type exposes the following members:
 |set_body_rtf(content, compression)|  |
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
+|get_underlying_message()|  |
 
 ### See Also
 

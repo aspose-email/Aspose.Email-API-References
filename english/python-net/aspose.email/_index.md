@@ -77,6 +77,9 @@ the aspose.email namespace contains common classes of aspose.email.
 |[ResourceHtmlRenderingEventArgs](/email/python-net/aspose.email/resourcehtmlrenderingeventargs/)|Represents additional parameters for ResourceHtmlRendering event.|
 |[SSPIException](/email/python-net/aspose.email/sspiexception/)|Represents errors that occur during SSPI execution.|
 |[SaveOptions](/email/python-net/aspose.email/saveoptions/)|This is an abstract base class for classes that allow the user to specify additional options when saving a MailMessage<br/>            into a particular format.|
+|[SecureEmailManager](/email/python-net/aspose.email/secureemailmanager/)|Class that provided methods for working with secure emails.|
+|[SignatureOptions](/email/python-net/aspose.email/signatureoptions/)|This class allow the user to specify additional options when sign a message.|
+|[SmimeResult](/email/python-net/aspose.email/smimeresult/)|This class containing results of checking secure emails.|
 |[SmtpException](/email/python-net/aspose.email/smtpexception/)|Represents the exception that is thrown when the SmtpClient is not able to complete an operation.|
 |[TimeoutException](/email/python-net/aspose.email/timeoutexception/)|Represents the exception that is thrown when the time for operation has expired.|
 |[TnefLoadOptions](/email/python-net/aspose.email/tnefloadoptions/)|Allows to specify additional options when loading MailMessage from Tnef format.|

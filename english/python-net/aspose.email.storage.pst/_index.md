@@ -26,6 +26,7 @@ the aspose.email.storage.pst namespace contains classes for work with microsoft 
 |[PersonalStorageQueryBuilder](/email/python-net/aspose.email.storage.pst/personalstoragequerybuilder/)|Represents the builder of search expression<br/>            that used by pst.|
 |[SaveResult](/email/python-net/aspose.email.storage.pst/saveresult/)|Represents the result of saving the retrieved item.|
 |[StorageProcessedEventArgs](/email/python-net/aspose.email.storage.pst/storageprocessedeventargs/)|Provides data for the|
+|[StorageProcessingEventArgs](/email/python-net/aspose.email.storage.pst/storageprocessingeventargs/)|Provides data for the|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

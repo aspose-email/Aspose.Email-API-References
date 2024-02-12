@@ -3,7 +3,7 @@ title: AppointmentAction
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 320
 url: /python-net/aspose.email.calendar/appointmentaction/
 ---
 

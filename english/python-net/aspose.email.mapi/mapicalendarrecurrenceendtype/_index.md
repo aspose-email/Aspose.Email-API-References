@@ -3,7 +3,7 @@ title: MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 

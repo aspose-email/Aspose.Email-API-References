@@ -23,6 +23,9 @@ The MailStorageConverter type exposes the following members:
 |mbox_to_pst(mboxrd_data_stream, pst_file_name)|  |
 |mbox_to_pst(mbox_file_name, pst_data_stream)|  |
 |mbox_to_pst(mboxrd_data_stream, pst_data_stream)|  |
+|mbox_to_pst(mbox_file_name, pst_file_name, options)|  |
+|mbox_to_pst(mboxrd_data_stream, pst_data_stream, options)|  |
+|mbox_to_pst(mbox_storage_reader, pst, pst_folder_name, options)|  |
 
 ### See Also
 

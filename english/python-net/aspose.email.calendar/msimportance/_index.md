@@ -3,7 +3,7 @@ title: MSImportance
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 400
 url: /python-net/aspose.email.calendar/msimportance/
 ---
 

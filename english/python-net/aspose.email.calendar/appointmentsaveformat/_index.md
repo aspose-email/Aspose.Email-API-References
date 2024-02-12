@@ -3,7 +3,7 @@ title: AppointmentSaveFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 360
 url: /python-net/aspose.email.calendar/appointmentsaveformat/
 ---
 

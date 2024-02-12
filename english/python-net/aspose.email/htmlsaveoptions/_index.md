@@ -34,10 +34,10 @@ The HtmlSaveOptions type exposes the following members:
 |before_headers_format|Before headers format.|
 |after_headers_format|After headers format.|
 |rendering_headers|Gets list of headers for rendering.|
-|embed_resources|Defines whether need embed resources in html content when saving or not.<br/>            Default value is true.|
 |html_format_options|Gets or sets additional options when saving in HTML format.<br/>            Default value is HtmlFormatOptions.None.|
 |check_body_content_encoding|Defines whether need check message body content encoding when saving. By default the value is false.|
 |resource_rendering_mode|Provides set various modes of rendering resources in html.<br/>            Default value EmbedIntoHtml.|
+|use_relative_path_to_resources|Default value is false.|
 ## Methods
 | Name | Description |
 | :- | :- |

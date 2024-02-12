@@ -3,7 +3,7 @@ title: PidNamePropertyDescriptor
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 760
 url: /python-net/aspose.email.mapi/pidnamepropertydescriptor/
 ---
 

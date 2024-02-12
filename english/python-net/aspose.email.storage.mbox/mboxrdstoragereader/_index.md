@@ -15,8 +15,6 @@ The MboxrdStorageReader type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MboxrdStorageReader(stream, leave_open)|Initializes a new instance of the MboxrdStorageReader class|
-|MboxrdStorageReader(file_name, leave_open)|Initializes a new instance of the MboxrdStorageReader class|
 |MboxrdStorageReader(stream, options)|Initializes a new instance of the MboxrdStorageReader class|
 |MboxrdStorageReader(file_name, options)|Initializes a new instance of the MboxrdStorageReader class|
 ## Properties
@@ -27,12 +25,12 @@ The MboxrdStorageReader type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_reader(stream, leave_open)|  |
 |create_reader(stream, options)|  |
-|create_reader(file_name, leave_open)|  |
 |create_reader(file_name, options)|  |
 |enumerate_messages()|  |
 |enumerate_messages(options)|  |
+|split_into(chunk_size, output_path)|  |
+|split_into(chunk_size, output_path, part_file_name_prefix)|  |
 |read_next_message(from_marker)|  |
 |read_next_message(options)|  |
 |read_next_message(from_marker, options)|  |

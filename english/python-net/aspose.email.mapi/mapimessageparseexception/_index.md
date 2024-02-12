@@ -3,7 +3,7 @@ title: MapiMessageParseException
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 570
 url: /python-net/aspose.email.mapi/mapimessageparseexception/
 ---
 

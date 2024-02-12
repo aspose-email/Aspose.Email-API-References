@@ -55,8 +55,11 @@ The PersonalStorage type exposes the following members:
 |merge_with(source_streams)|  |
 |split_into(chunk_size, path)|  |
 |split_into(criteria, path)|  |
+|split_into(chunk_size, part_file_name_prefix, path)|  |
+|split_into(criteria, part_file_name_prefix, path)|  |
 |convert_to(format)|  |
 |extract_property(entry_id, tag)|  |
+|delete_item(entry_id)|  |
 |save_message_to_stream(entry_id, stream)|  |
 |try_to_save_message(entry_id, stream)|  |
 |try_to_get_folder_by_id(entry_id_string, folder)|  |

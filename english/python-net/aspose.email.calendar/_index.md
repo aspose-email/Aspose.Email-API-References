@@ -24,7 +24,6 @@ the aspose.email.calendar namespace contains classes for work with calendar.
 |[AppointmentSaveOptions](/email/python-net/aspose.email.calendar/appointmentsaveoptions/)|Represents base appointment save options|
 |[CalendarReader](/email/python-net/aspose.email.calendar/calendarreader/)|Allows read the calendar with multi events to the Appointment object from a file or stream.|
 |[CalendarWriter](/email/python-net/aspose.email.calendar/calendarwriter/)|Allows write the set of Events in one ics file or stream.|
-|[IcsSaveOptions](/email/python-net/aspose.email.calendar/icssaveoptions/)|Represents iCalendar save options|
 |[ReminderAttachment](/email/python-net/aspose.email.calendar/reminderattachment/)|Provides the capability to associate a document object with an alarm.|
 |[ReminderAttachmentCollection](/email/python-net/aspose.email.calendar/reminderattachmentcollection/)|Contains collection of ReminderAttachment [ReminderAttachment](/email/python-net/aspose.email.calendar/reminderattachment/)objects.|
 |[ReminderAttendee](/email/python-net/aspose.email.calendar/reminderattendee/)|Defines an "Attendee" within a alarm.|

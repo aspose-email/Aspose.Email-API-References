@@ -22,8 +22,10 @@ The MapiConversionOptions type exposes the following members:
 | :- | :- |
 |format|Represents outlook message format.|
 |preserve_signature|Set to true, if signature is to be preserved.|
+|remove_signature|Gets or sets a value indicating whether signature will be removed while converting.|
 |use_body_compression|Set to true, if need RTF body compression.|
 |preserve_original_dates|Gets or sets a value indicating whether it is necessary to generate <br/>            new saving and modification dates when converting a message.|
+|preserve_empty_dates|Gets or sets a value indicating whether it is necessary to generate <br/>            new saving and modification dates when converting a message.|
 |preserve_original_addresses|Gets or sets a value indicating whether it is necessary to keep <br/>            original value of mail addresses (without validation).|
 |preserve_embedded_message_format|Gets or sets a value indicating whether it is necessary to preserve EML format of <br/>            embedded message at converting to MapiMessage. By default the value is false.|
 |ascii_format|Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False).|
