@@ -23,9 +23,14 @@ The CalendarReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |current|Current read event.|
+|version|Gets the Version of calendar.|
+|count|Gets the number of Vevent components.|
+|is_multi_events|Gets whether calendar contains multi events.|
+|method|Gets the iCalendar object method type associated with the calendar object.|
 ## Methods
 | Name | Description |
 | :- | :- |
+|load_as_multiple()|  |
 |next_event()|  |
 
 ### See Also

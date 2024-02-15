@@ -3,7 +3,7 @@ title: AppointmentClass
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /python-net/aspose.email.calendar/appointmentclass/
 ---
 

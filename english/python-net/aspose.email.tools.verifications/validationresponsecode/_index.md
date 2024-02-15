@@ -3,7 +3,7 @@ title: ValidationResponseCode
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 110
 url: /python-net/aspose.email.tools.verifications/validationresponsecode/
 ---
 

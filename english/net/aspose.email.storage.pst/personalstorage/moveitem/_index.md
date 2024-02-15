@@ -19,6 +19,14 @@ public void MoveItem(MessageInfo message, FolderInfo newFolder)
 | message | MessageInfo | The message to move. |
 | newFolder | FolderInfo | The new folder for the message. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when message is null. |
+| ArgumentNullException | Thrown when new folder is null. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+
 ### See Also
 
 * class [MessageInfo](../../messageinfo/)
@@ -41,6 +49,17 @@ public void MoveItem(FolderInfo folder, FolderInfo newFolder)
 | --- | --- | --- |
 | folder | FolderInfo | The folder to move. |
 | newFolder | FolderInfo | The new parent folder. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when message is null. |
+| ArgumentNullException | Thrown when new folder is null. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| InvalidOperationException | Thrown when there is an attempt to move the root folder, which is not a valid operation because a root folder should maintain its position in the hierarchy. |
+| InvalidOperationException | Thrown when there is an attempt to move a folder into itself. |
+| InvalidOperationException | Thrown when there is an attempt to move a folder into one of its own subfolders. |
 
 ### See Also
 

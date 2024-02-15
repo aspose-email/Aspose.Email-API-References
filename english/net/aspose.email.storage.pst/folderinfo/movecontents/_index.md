@@ -18,6 +18,13 @@ public void MoveContents(FolderInfo newFolder)
 | --- | --- | --- |
 | newFolder | FolderInfo | The new folder. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+| ArgumentNullException | Thrown when new folder is null. |
+
 ### See Also
 
 * class [FolderInfo](../)

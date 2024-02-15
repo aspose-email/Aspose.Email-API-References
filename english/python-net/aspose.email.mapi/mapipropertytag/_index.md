@@ -3,7 +3,7 @@ title: MapiPropertyTag
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.email.mapi/mapipropertytag/
 ---
 
@@ -63,6 +63,8 @@ The MapiPropertyTag type exposes the following members:
 |ASSISTANT_TELEPHONE_NUMBER_W|  |
 |ASSOC_CONTENT_COUNT|  |
 |ATTACH_ADDITIONAL_INFO|  |
+|ATTACH_CONTENT_LOCATION|  |
+|ATTACH_CONTENT_LOCATION_W|  |
 |ATTACH_DATA_BIN|  |
 |ATTACH_DATA_OBJ|  |
 |ATTACH_ENCODING|  |

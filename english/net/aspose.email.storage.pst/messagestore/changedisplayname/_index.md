@@ -18,6 +18,13 @@ public void ChangeDisplayName(string newName)
 | --- | --- | --- |
 | newName | String | The new display name of message store. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when the display name of the message store is provided as null or empty. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+
 ### See Also
 
 * class [MessageStore](../)

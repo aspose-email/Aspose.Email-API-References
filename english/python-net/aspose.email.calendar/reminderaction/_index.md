@@ -3,7 +3,7 @@ title: ReminderAction
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 420
 url: /python-net/aspose.email.calendar/reminderaction/
 ---
 

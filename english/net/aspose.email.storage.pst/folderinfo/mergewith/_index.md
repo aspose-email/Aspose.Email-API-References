@@ -23,6 +23,7 @@ public void MergeWith(FolderInfo sourceFolder)
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Throws when the source folder is located in the same pst. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
 
 ### See Also
 
@@ -50,6 +51,7 @@ public void MergeWith(FolderInfo sourceFolder, bool recursiveHandler)
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Throws when the source folder is located in the same pst. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
 
 ### See Also
 

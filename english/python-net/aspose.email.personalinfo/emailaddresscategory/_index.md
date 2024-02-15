@@ -25,6 +25,7 @@ The EmailAddressCategory type exposes the following members:
 |email1|Email1 category. Used by MS Exchange server.|
 |email2|Email2 category. Used by MS Exchange server.|
 |email3|Email3 category. Used by MS Exchange server.|
+|email|Email category. Used by MS Exchange server.|
 |value|Gets category of a email address|
 |description|Gets description for the 'Custom' category of a email address|
 |HOME_VALUE|String value for 'Home' category|
@@ -33,6 +34,7 @@ The EmailAddressCategory type exposes the following members:
 |EMAIL_1_VALUE|String value for 'Email1' category|
 |EMAIL_2_VALUE|String value for 'Email2' category|
 |EMAIL_3_VALUE|String value for 'Email3' category|
+|EMAIL_VALUE|String value for 'Email' category|
 ## Methods
 | Name | Description |
 | :- | :- |

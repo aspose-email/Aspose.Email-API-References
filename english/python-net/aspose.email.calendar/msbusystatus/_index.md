@@ -3,7 +3,7 @@ title: MSBusyStatus
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 390
 url: /python-net/aspose.email.calendar/msbusystatus/
 ---
 

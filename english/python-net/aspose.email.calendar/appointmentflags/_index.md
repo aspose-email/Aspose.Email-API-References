@@ -3,7 +3,7 @@ title: AppointmentFlags
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 340
 url: /python-net/aspose.email.calendar/appointmentflags/
 ---
 

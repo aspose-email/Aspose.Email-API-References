@@ -58,7 +58,9 @@ The MapiDistributionList type exposes the following members:
 |set_body_content(content, content_type)|  |
 |set_body_content(content, content_type, compression)|  |
 |save(file_name)|  |
+|save(file_name, options)|  |
 |save(stream)|  |
+|save(stream, options)|  |
 |get_property(pd)|  |
 |try_get_property_data(tag)|  |
 |get_property_bytes(tag)|  |
@@ -74,6 +76,7 @@ The MapiDistributionList type exposes the following members:
 |set_body_rtf(content, compression)|  |
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
+|get_underlying_message()|  |
 
 ### See Also
 

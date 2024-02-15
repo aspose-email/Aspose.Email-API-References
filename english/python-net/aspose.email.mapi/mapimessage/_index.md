@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.email.mapi/mapimessage/
 ---
 
@@ -91,6 +91,7 @@ The MapiMessage type exposes the following members:
 |load(stream, options)|  |
 |load(file_name, options)|  |
 |from_mail_message(file_name)|  |
+|from_mail_message(stream)|  |
 |from_mail_message(message)|  |
 |from_mail_message(message, options)|  |
 |load_from_tnef(stream)|  |
@@ -123,8 +124,7 @@ The MapiMessage type exposes the following members:
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
 |remove_signature()|  |
-|from_file(path)|  |
-|from_stream(stream)|  |
+|check_signature()|  |
 |from_properties(properties)|  |
 |remove_attachments(path)|  |
 |destroy_attachments(path)|  |

@@ -3,7 +3,7 @@ title: MapiJournal
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 540
 url: /python-net/aspose.email.mapi/mapijournal/
 ---
 
@@ -79,6 +79,7 @@ The MapiJournal type exposes the following members:
 |set_body_rtf(content, compression)|  |
 |set_message_flags(flags)|  |
 |remove_property(tag)|  |
+|get_underlying_message()|  |
 
 ### See Also
 

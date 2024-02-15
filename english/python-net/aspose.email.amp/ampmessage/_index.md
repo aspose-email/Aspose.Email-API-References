@@ -41,7 +41,6 @@ The AmpMessage type exposes the following members:
 |headers|Gets headers collection of message|
 |html_body|Gets or sets html body|
 |body|Gets or sets the plain text representation of message's body.<br/>            If the text/plain part is present in a message, the propery returns its text data.<br/>            Otherwise, property returns the text content of the HtmlBody property without html markup.|
-|html_body_text|Gets the message htmlbody as plain text.|
 |body_encoding|Gets or sets encoding of body|
 |is_body_html|Gets or sets a value indicating <br/>            whether the message body is in Html|
 |is_signed|Gets a value indicating whether the message is signed.|
@@ -78,6 +77,7 @@ The AmpMessage type exposes the following members:
 |decrypt(certificate)|  |
 |encrypt(certificate)|  |
 |encrypt(certificates)|  |
+|get_alternate_view_content(media_type)|  |
 |import_from_stream(stream)|  |
 |clone()|  |
 |recompose_tnef_content()|  |

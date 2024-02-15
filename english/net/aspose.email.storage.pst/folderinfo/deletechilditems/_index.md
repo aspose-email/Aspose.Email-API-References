@@ -22,9 +22,9 @@ public void DeleteChildItems(IEnumerable<string> entryIdCollection)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | The ANSI file version editing is not implemented. |
 | InvalidOperationException | The PST is open for reading only. or The item, to be deleted, doesn't belong to this folder. or The search folder cannot be deleted. or The \Deleted Items\ folder cannot be deleted. or The entryId is incorrect. |
 | ArgumentNullException | entryId;The entryId cannot be null. |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
 
 ### See Also
 

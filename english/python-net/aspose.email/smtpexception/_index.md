@@ -3,7 +3,7 @@ title: SmtpException
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 700
 url: /python-net/aspose.email/smtpexception/
 ---
 

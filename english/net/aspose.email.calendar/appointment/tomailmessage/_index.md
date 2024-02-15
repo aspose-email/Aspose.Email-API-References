@@ -1,14 +1,14 @@
 ---
 title: Appointment.ToMailMessage
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Ñonverts ICalendar item .ics to MIME .eml message
+description: Appointment method. onverts ICalendar item .ics to MIME .eml message
 type: docs
 weight: 380
 url: /net/aspose.email.calendar/appointment/tomailmessage/
 ---
 ## ToMailMessage(AppointmentAction, int) {#tomailmessage_2}
 
-Ñonverts ICalendar item (.ics) to MIME (.eml) message.
+�onverts ICalendar item (.ics) to MIME (.eml) message.
 
 ```csharp
 public MailMessage ToMailMessage(AppointmentAction action, int seqId)
@@ -31,7 +31,7 @@ public MailMessage ToMailMessage(AppointmentAction action, int seqId)
 
 ## ToMailMessage(AppointmentAction) {#tomailmessage_1}
 
-Ñonverts ICalendar item (.ics) to MIME (.eml) message.
+�onverts ICalendar item (.ics) to MIME (.eml) message.
 
 ```csharp
 public MailMessage ToMailMessage(AppointmentAction action)
@@ -53,7 +53,7 @@ public MailMessage ToMailMessage(AppointmentAction action)
 
 ## ToMailMessage() {#tomailmessage}
 
-Ñonverts ICalendar item (.ics) to MIME (.eml) message.
+�onverts ICalendar item (.ics) to MIME (.eml) message.
 
 ```csharp
 public MailMessage ToMailMessage()

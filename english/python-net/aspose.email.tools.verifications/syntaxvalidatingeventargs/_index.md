@@ -3,7 +3,7 @@ title: SyntaxValidatingEventArgs
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /python-net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
 ---
 

@@ -3,7 +3,7 @@ title: AppointmentStatus
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 370
 url: /python-net/aspose.email.calendar/appointmentstatus/
 ---
 

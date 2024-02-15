@@ -37,7 +37,7 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields/) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders/) { get; } | Gets list of headers for rendering. |
 | [ResourceRenderingMode](../../aspose.email/htmlsaveoptions/resourcerenderingmode/) { get; set; } | Provides set various modes of rendering resources in html. Default value EmbedIntoHtml. |
-| [UseRelativePathToResources](../../aspose.email/htmlsaveoptions/userelativepathtoresources/) { get; set; } | If true then resources will be saved in folder htmlFileName.files in the same folder that html file and the relative path to resources will be added in html content , otherwise absolute path from ResourceHtmlRenderingEventArgs.PathToResourceFile property will be used for saving resources and adding to html. It make sense if ResourceRenderingMode is ResourceRenderingMode.SaveToFile. Default value is false. |
+| [UseRelativePathToResources](../../aspose.email/htmlsaveoptions/userelativepathtoresources/) { get; set; } | Default value is false. |
 
 ## Events
 

@@ -1,14 +1,14 @@
 ---
 title: Appointment.ToMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: Appointment method. Ñonverts ICalendar item .ics to MAPI .msg message
+description: Appointment method. onverts ICalendar item .ics to MAPI .msg message
 type: docs
 weight: 390
 url: /net/aspose.email.calendar/appointment/tomapimessage/
 ---
 ## Appointment.ToMapiMessage method
 
-Ñonverts ICalendar item (.ics) to MAPI (.msg) message.
+�onverts ICalendar item (.ics) to MAPI (.msg) message.
 
 ```csharp
 public MapiMessage ToMapiMessage()

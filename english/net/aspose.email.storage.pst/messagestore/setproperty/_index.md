@@ -18,6 +18,12 @@ public void SetProperty(MapiProperty property)
 | --- | --- | --- |
 | property | MapiProperty | The property. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotImplementedException | Thrown when attempting to edit the ANSI file version. |
+
 ### See Also
 
 * class [MapiProperty](../../../aspose.email.mapi/mapiproperty/)

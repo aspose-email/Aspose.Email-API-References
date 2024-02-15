@@ -24,6 +24,7 @@ The EmailAddressList type exposes the following members:
 |email1|Default email1 address.|
 |email2|Default email2 address.|
 |email3|Default email3 address.|
+|email|Default email3 address.|
 |sync_root|Gets an object that can be used to synchronize access to the list.|
 
 ### See Also

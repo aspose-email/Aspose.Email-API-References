@@ -3,7 +3,7 @@ title: ReminderTrigger
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 170
 url: /python-net/aspose.email.calendar/remindertrigger/
 ---
 

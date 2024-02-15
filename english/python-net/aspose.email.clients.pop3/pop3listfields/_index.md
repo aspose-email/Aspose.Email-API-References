@@ -16,7 +16,6 @@ Fields that may be retrieved from the server
 | :- | :- |
 |ID_ONLY|Includs UniqueId (if it's supported), SequenceNumber|
 |MAIN|Includes SequenceNumber, UniqueId (if it's supported), Size, Headers|
-|ALL|Includes SequenceNumber, UniqueId (if it's supported), Size, Headers|
 
 ### See Also
 

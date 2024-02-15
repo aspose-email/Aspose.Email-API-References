@@ -30,11 +30,16 @@ The IGraphClient type exposes the following members:
 |create_folder(parent_folder_id, folder_name)|  |
 |list_messages(id)|  |
 |list_messages(id, page, query)|  |
+|create_message(folder_id, message)|  |
+|create_message(folder_id, message)|  |
+|update_message(message)|  |
+|update_message(message, update_settings)|  |
 |update_message(message)|  |
 |update_message(message, update_settings)|  |
 |send(item_id)|  |
 |send(message)|  |
 |send(message, save_to_sent_items)|  |
+|send(message)|  |
 |create_or_update_override(sender, classify_as)|  |
 |create_or_update_override(classification_override)|  |
 |delete(id)|  |
@@ -47,7 +52,7 @@ The IGraphClient type exposes the following members:
 |delete_attachment(id)|  |
 |list_attachments(id)|  |
 |fetch_message(id)|  |
-|create_message(folder_id, message)|  |
+|send_as_mime(message)|  |
 |copy_message(new_parent_id, item_id)|  |
 |move_message(new_parent_id, item_id)|  |
 |set_read(item_id)|  |
