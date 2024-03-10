@@ -530,7 +530,7 @@ Contains the billing information associated with an item.
 java.lang.String
 ### getBody() {#getBody--}
 ```
-public final String getBody()
+public String getBody()
 ```
 
 
@@ -1581,7 +1581,7 @@ Contains the billing information associated with an item.
 
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
-public final void setBody(String value)
+public void setBody(String value)
 ```
 
 

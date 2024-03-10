@@ -3,7 +3,7 @@ title: VCardSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard save options
 type: docs
-weight: 727
+weight: 728
 url: /java/com.aspose.email/vcardsaveoptions/
 ---
 

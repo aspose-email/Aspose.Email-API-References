@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Email for Java API Reference
 description: The resource in Microsoft Graph that youre referencing.
 type: docs
-weight: 618
+weight: 619
 url: /java/com.aspose.email/resourcetype/
 ---
 

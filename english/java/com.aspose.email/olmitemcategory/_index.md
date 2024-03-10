@@ -1,42 +1,42 @@
 ---
-title: SignatureOptions
+title: OlmItemCategory
 second_title: Aspose.Email for Java API Reference
-description: This class allow the user to specify additional options when sign a message.
+description: Represents an Outlook item category.
 type: docs
-weight: 647
-url: /java/com.aspose.email/signatureoptions/
+weight: 554
+url: /java/com.aspose.email/olmitemcategory/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class SignatureOptions
+public class OlmItemCategory
 ```
 
-This class allow the user to specify additional options when sign a message.
+Represents an Outlook item category.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SignatureOptions()](#SignatureOptions--) |  |
+| [OlmItemCategory()](#OlmItemCategory--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDetached()](#getDetached--) | If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| [getColor()](#getColor--) | Gets or sets the color associated with the category. |
+| [getName()](#getName--) | Gets or sets the name of the category. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDetached(boolean value)](#setDetached-boolean-) | If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SignatureOptions() {#SignatureOptions--}
+### OlmItemCategory() {#OlmItemCategory--}
 ```
-public SignatureOptions()
+public OlmItemCategory()
 ```
 
 
@@ -65,16 +65,26 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDetached() {#getDetached--}
+### getColor() {#getColor--}
 ```
-public final boolean getDetached()
+public final String getColor()
 ```
 
 
-If detached is true, the signature is detached.If detached is false(the default), the signature is not detached.
+Gets or sets the color associated with the category.
 
 **Returns:**
-boolean
+java.lang.String
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+Gets or sets the name of the category.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,19 +111,6 @@ public final native void notifyAll()
 
 
 
-### setDetached(boolean value) {#setDetached-boolean-}
-```
-public final void setDetached(boolean value)
-```
-
-
-If detached is true, the signature is detached.If detached is false(the default), the signature is not detached.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### toString() {#toString--}
 ```
 public String toString()
@@ -123,7 +120,7 @@ public String toString()
 
 
 **Returns:**
-java.lang.String
+java.lang.String - 
 ### wait() {#wait--}
 ```
 public final void wait()
