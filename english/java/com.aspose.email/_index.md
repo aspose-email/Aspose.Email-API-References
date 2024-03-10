@@ -565,6 +565,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ObjectIdentifier](../com.aspose.email/objectidentifier) | Contains object identification information |
 | [OleDocumentFormat](../com.aspose.email/oledocumentformat) | Represents the format for OLE document. |
 | [OlmFolder](../com.aspose.email/olmfolder) | Represents folder information in OLM storage. |
+| [OlmItemCategory](../com.aspose.email/olmitemcategory) | Represents an Outlook item category. |
 | [OlmMessageInfo](../com.aspose.email/olmmessageinfo) | Represents an information about message in the OLM storage. |
 | [OlmStorage](../com.aspose.email/olmstorage) | Represents Outlook for Mac storage (.OLM) file. |
 | [OnenoteOperation](../com.aspose.email/onenoteoperation) | The status of certain long-running OneNote operations. |
