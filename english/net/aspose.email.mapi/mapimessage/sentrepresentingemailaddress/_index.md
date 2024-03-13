@@ -3,7 +3,7 @@ title: MapiMessage.SentRepresentingEmailAddress
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets or sets the email address for the messaging user represented by the sender
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.email.mapi/mapimessage/sentrepresentingemailaddress/
 ---
 ## MapiMessage.SentRepresentingEmailAddress property

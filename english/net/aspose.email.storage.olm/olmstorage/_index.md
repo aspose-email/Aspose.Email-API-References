@@ -3,7 +3,7 @@ title: Class OlmStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Olm.OlmStorage class. Represents Outlook for Mac storage .OLM file
 type: docs
-weight: 20250
+weight: 20260
 url: /net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class
@@ -38,6 +38,7 @@ public class OlmStorage : IDisposable
 | [EnumerateMessages](../../aspose.email.storage.olm/olmstorage/enumeratemessages/)(OlmFolder) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage/#extractmapimessage)(OlmMessageInfo) | Get the message from OLM storage. |
 | [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage/#extractmapimessage_1)(string) | Get the message from OLM. |
+| [GetCategories](../../aspose.email.storage.olm/olmstorage/getcategories/)() | Gets the supported item categories. |
 | [GetFolder](../../aspose.email.storage.olm/olmstorage/getfolder/)(string, bool) | Gets the folder by name. |
 | [GetFolders](../../aspose.email.storage.olm/olmstorage/getfolders/)() | Gets collection of folders. |
 | [GetTotalItemsCount](../../aspose.email.storage.olm/olmstorage/gettotalitemscount/)() | Gets the total items count. Returns the total number of message items contained in the OLM. |

@@ -3,7 +3,7 @@ title: MapiMessage.InternetMessageId
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets the message id of the message
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.email.mapi/mapimessage/internetmessageid/
 ---
 ## MapiMessage.InternetMessageId property

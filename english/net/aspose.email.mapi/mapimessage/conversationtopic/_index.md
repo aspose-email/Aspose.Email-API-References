@@ -3,7 +3,7 @@ title: MapiMessage.ConversationTopic
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets the topic of the first message in a conversation thread
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.email.mapi/mapimessage/conversationtopic/
 ---
 ## MapiMessage.ConversationTopic property

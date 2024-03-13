@@ -3,7 +3,7 @@ title: MapiMessage.ReplyTo
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets or sets the reply to names
 type: docs
-weight: 240
+weight: 230
 url: /net/aspose.email.mapi/mapimessage/replyto/
 ---
 ## MapiMessage.ReplyTo property

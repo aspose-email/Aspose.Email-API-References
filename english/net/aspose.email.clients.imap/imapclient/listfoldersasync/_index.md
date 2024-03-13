@@ -6,6 +6,132 @@ type: docs
 weight: 850
 url: /net/aspose.email.clients.imap/imapclient/listfoldersasync/
 ---
+## ListFoldersAsync(IConnection) {#listfoldersasync_1}
+
+Gets the list of folders in the mailbox
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListFoldersAsync(IConnection, string) {#listfoldersasync_4}
+
+Gets the list of subfolders in the specified folder
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, string parentFolder)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| parentFolder | String | Name of the folder |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListFoldersAsync(IConnection, bool) {#listfoldersasync_2}
+
+Gets the list of folders in the mailbox
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, bool loadFullInfo)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListFoldersAsync() {#listfoldersasync}
+
+Gets the list of folders in the mailbox
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync()
+```
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListFoldersAsync(string) {#listfoldersasync_13}
+
+Gets the list of subfolders in the specified folder
+
+```csharp
+public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolder | String | Name of the folder |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListFoldersAsync(bool) {#listfoldersasync_11}
 
 Gets the list of folders in the mailbox
@@ -432,132 +558,6 @@ Task object, with delegate for this operation
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
 * enum [ListFoldersOptions](../../listfoldersoptions/)
 * enum [ListFoldersReturnOptions](../../listfoldersreturnoptions/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync(IConnection) {#listfoldersasync_1}
-
-Gets the list of folders in the mailbox
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync(IConnection, string) {#listfoldersasync_4}
-
-Gets the list of subfolders in the specified folder
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, string parentFolder)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| parentFolder | String | Name of the folder |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync(IConnection, bool) {#listfoldersasync_2}
-
-Gets the list of folders in the mailbox
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, bool loadFullInfo)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync() {#listfoldersasync}
-
-Gets the list of folders in the mailbox
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync()
-```
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListFoldersAsync(string) {#listfoldersasync_13}
-
-Gets the list of subfolders in the specified folder
-
-```csharp
-public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentFolder | String | Name of the folder |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapFolderInfoCollection](../../imapfolderinfocollection/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

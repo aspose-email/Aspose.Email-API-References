@@ -3,7 +3,7 @@ title: Class MessageValidator
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.MessageValidator class. The message validator
 type: docs
-weight: 21020
+weight: 21030
 url: /net/aspose.email.tools.verifications/messagevalidator/
 ---
 ## MessageValidator class

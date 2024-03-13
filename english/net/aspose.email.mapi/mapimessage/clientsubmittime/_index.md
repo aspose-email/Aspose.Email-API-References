@@ -3,7 +3,7 @@ title: MapiMessage.ClientSubmitTime
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets or sets the date and time the message sender submitted a message
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.email.mapi/mapimessage/clientsubmittime/
 ---
 ## MapiMessage.ClientSubmitTime property

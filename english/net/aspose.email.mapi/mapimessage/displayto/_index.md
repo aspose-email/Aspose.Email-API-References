@@ -3,7 +3,7 @@ title: MapiMessage.DisplayTo
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets a list of the display names of the primary To message recipients separated by semicolons 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.email.mapi/mapimessage/displayto/
 ---
 ## MapiMessage.DisplayTo property

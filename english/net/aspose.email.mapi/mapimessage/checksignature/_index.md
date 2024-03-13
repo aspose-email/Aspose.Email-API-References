@@ -3,7 +3,7 @@ title: MapiMessage.CheckSignature
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Checking signature exsisting MapiMessage
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.email.mapi/mapimessage/checksignature/
 ---
 ## MapiMessage.CheckSignature method

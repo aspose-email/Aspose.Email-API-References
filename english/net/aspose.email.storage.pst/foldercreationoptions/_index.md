@@ -3,7 +3,7 @@ title: Class FolderCreationOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderCreationOptions class. Represents the options for creating a subfolder in the Outlook PST message store. This class serves as a container for configuring specific settings related to the creation of subfolders
 type: docs
-weight: 20290
+weight: 20300
 url: /net/aspose.email.storage.pst/foldercreationoptions/
 ---
 ## FolderCreationOptions class
@@ -29,6 +29,7 @@ public class FolderCreationOptions
 | [AllowNameCaseDifference](../../aspose.email.storage.pst/foldercreationoptions/allownamecasedifference/) { get; set; } | Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names. |
 | [ContainerClass](../../aspose.email.storage.pst/foldercreationoptions/containerclass/) { get; set; } | Gets or sets the container class for the new subfolder. |
 | [CreateHierarchy](../../aspose.email.storage.pst/foldercreationoptions/createhierarchy/) { get; set; } | Gets or sets a value indicating whether to create the hierarchy of parent folders. |
+| [EnforceContainerClassMatching](../../aspose.email.storage.pst/foldercreationoptions/enforcecontainerclassmatching/) { get; set; } | Gets or sets a value indicating whether to enforce container class checking. |
 
 ### See Also
 

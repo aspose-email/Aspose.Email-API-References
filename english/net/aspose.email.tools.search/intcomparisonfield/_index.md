@@ -3,7 +3,7 @@ title: Class IntComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.IntComparisonField class. Represents the integer search field
 type: docs
-weight: 20880
+weight: 20890
 url: /net/aspose.email.tools.search/intcomparisonfield/
 ---
 ## IntComparisonField class
