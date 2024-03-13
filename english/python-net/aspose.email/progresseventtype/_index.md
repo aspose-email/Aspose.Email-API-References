@@ -3,7 +3,7 @@ title: ProgressEventType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5130
+weight: 5140
 url: /python-net/aspose.email/progresseventtype/
 ---
 

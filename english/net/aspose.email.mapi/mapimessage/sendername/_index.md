@@ -3,7 +3,7 @@ title: MapiMessage.SenderName
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets or sets the message senders display name
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.email.mapi/mapimessage/sendername/
 ---
 ## MapiMessage.SenderName property

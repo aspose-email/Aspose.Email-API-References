@@ -3,7 +3,7 @@ title: OlmStorage.GetFolder
 second_title: Aspose.Email for .NET API Reference
 description: OlmStorage method. Gets the folder by name
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.storage.olm/olmstorage/getfolder/
 ---
 ## OlmStorage.GetFolder method

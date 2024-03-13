@@ -3,7 +3,7 @@ title: MapiMessage.DeliveryTime
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets or sets the date and time a message was delivered
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.email.mapi/mapimessage/deliverytime/
 ---
 ## MapiMessage.DeliveryTime property

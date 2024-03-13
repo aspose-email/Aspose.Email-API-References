@@ -29,7 +29,7 @@ public sealed class MapiMessage : MapiMessageItemBase
 | --- | --- |
 | [Attachments](../../aspose.email.mapi/mapimessageitembase/attachments/) { get; } | Gets the attachments in the message. |
 | [Billing](../../aspose.email.mapi/mapimessageitembase/billing/) { get; set; } | Contains the billing information associated with an item. |
-| [Body](../../aspose.email.mapi/mapimessage/body/) { get; set; } | Gets the message text. |
+| [Body](../../aspose.email.mapi/mapimessageitembase/body/) { get; set; } | Gets the message text. |
 | [BodyHtml](../../aspose.email.mapi/mapimessageitembase/bodyhtml/) { get; } | Gets the [`BodyRtf`](../mapimessageitembase/bodyrtf/) of the message converted to HTML, if present, otherwise an empty string. |
 | [BodyRtf](../../aspose.email.mapi/mapimessageitembase/bodyrtf/) { get; set; } | Gets or sets the RTF formatted message text. |
 | [BodyType](../../aspose.email.mapi/mapimessageitembase/bodytype/) { get; } | Gets the type of the body. |

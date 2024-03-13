@@ -3,7 +3,7 @@ title: OlmStorage.Load
 second_title: Aspose.Email for .NET API Reference
 description: OlmStorage method. Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.storage.olm/olmstorage/load/
 ---
 ## Load(Stream) {#load}

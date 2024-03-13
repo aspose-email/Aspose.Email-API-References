@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.email.storage.olm/olmstorage/
 ---
 
@@ -32,6 +32,7 @@ The OlmStorage type exposes the following members:
 |from_stream(stream)|  |
 |get_folders()|  |
 |get_folder(name, ignore_case)|  |
+|get_categories()|  |
 |get_total_items_count()|  |
 |enumerate_messages(folder)|  |
 

@@ -3,7 +3,7 @@ title: OlmStorage.GetTotalItemsCount
 second_title: Aspose.Email for .NET API Reference
 description: OlmStorage method. Gets the total items count. Returns the total number of message items contained in the OLM
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.storage.olm/olmstorage/gettotalitemscount/
 ---
 ## OlmStorage.GetTotalItemsCount method

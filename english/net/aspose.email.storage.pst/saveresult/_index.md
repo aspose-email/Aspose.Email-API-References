@@ -3,7 +3,7 @@ title: Class SaveResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.SaveResult class. Represents the result of saving the retrieved item
 type: docs
-weight: 20470
+weight: 20480
 url: /net/aspose.email.storage.pst/saveresult/
 ---
 ## SaveResult class

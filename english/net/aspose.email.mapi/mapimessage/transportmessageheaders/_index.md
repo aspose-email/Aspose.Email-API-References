@@ -3,7 +3,7 @@ title: MapiMessage.TransportMessageHeaders
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets the transportspecific message envelope information
 type: docs
-weight: 330
+weight: 320
 url: /net/aspose.email.mapi/mapimessage/transportmessageheaders/
 ---
 ## MapiMessage.TransportMessageHeaders property

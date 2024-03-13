@@ -1,11 +1,76 @@
 ---
 title: ImapClient.ListMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Gets the list of messages in the specified folder
+description: ImapClient method. Gets the list of messages in the current folder
 type: docs
 weight: 890
 url: /net/aspose.email.clients.imap/imapclient/listmessagesasync/
 ---
+## ListMessagesAsync(IConnection, int) {#listmessagesasync_8}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
+    int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(int) {#listmessagesasync_27}
+
+Gets the list of messages in the current folder.
+
+```csharp
+public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
+
+### See Also
+
+* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## ListMessagesAsync(IConnection, string, long, bool, IEnumerable&lt;string&gt;, CancellationToken) {#listmessagesasync_18}
 
 Gets the list of messages in the specified folder
@@ -1130,71 +1195,6 @@ Collection of ImapMessageInfo objects.
 
 * class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
 * class [MailQuery](../../../aspose.email.tools.search/mailquery/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(IConnection, int) {#listmessagesasync_8}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection, 
-    int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessagesAsync(int) {#listmessagesasync_27}
-
-Gets the list of messages in the current folder.
-
-```csharp
-public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| maxNumberOfMessages | Int32 | Maximum number of messages. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages* is negative. |
-
-### See Also
-
-* class [ImapMessageInfoCollection](../../imapmessageinfocollection/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

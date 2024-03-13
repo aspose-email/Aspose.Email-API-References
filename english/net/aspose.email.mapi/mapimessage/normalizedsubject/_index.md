@@ -3,7 +3,7 @@ title: MapiMessage.NormalizedSubject
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets normalized subject of the message
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.email.mapi/mapimessage/normalizedsubject/
 ---
 ## MapiMessage.NormalizedSubject property

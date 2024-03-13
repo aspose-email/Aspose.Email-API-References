@@ -3,7 +3,7 @@ title: MapiMessage.Clone
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage method. Creates a new object that is a copy of the current instance
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.email.mapi/mapimessage/clone/
 ---
 ## MapiMessage.Clone method

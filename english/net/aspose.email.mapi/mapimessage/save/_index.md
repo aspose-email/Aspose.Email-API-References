@@ -1,11 +1,51 @@
 ---
 title: MapiMessage.Save
 second_title: Aspose.Email for .NET API Reference
-description: MapiMessage method. Saves message as a file with additional options
+description: MapiMessage method. Saves to the specified file as Msg
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.email.mapi/mapimessage/save/
 ---
+## Save(string) {#save_2}
+
+Saves to the specified file as Msg.
+
+```csharp
+public void Save(string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Name of the file. |
+
+### See Also
+
+* class [MapiMessage](../)
+* namespace [Aspose.Email.Mapi](../../mapimessage/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(Stream) {#save}
+
+Saves to the specified stream as Msg.
+
+```csharp
+public void Save(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream. |
+
+### See Also
+
+* class [MapiMessage](../)
+* namespace [Aspose.Email.Mapi](../../mapimessage/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## Save(string, SaveOptions) {#save_3}
 
 Saves message as a file with additional options.
@@ -44,46 +84,6 @@ public void Save(Stream stream, SaveOptions options)
 ### See Also
 
 * class [SaveOptions](../../../aspose.email/saveoptions/)
-* class [MapiMessage](../)
-* namespace [Aspose.Email.Mapi](../../mapimessage/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Save(string) {#save_2}
-
-Saves to the specified file as Msg.
-
-```csharp
-public void Save(string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | String | Name of the file. |
-
-### See Also
-
-* class [MapiMessage](../)
-* namespace [Aspose.Email.Mapi](../../mapimessage/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Save(Stream) {#save}
-
-Saves to the specified stream as Msg.
-
-```csharp
-public void Save(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The stream. |
-
-### See Also
-
 * class [MapiMessage](../)
 * namespace [Aspose.Email.Mapi](../../mapimessage/)
 * assembly [Aspose.Email](../../../)

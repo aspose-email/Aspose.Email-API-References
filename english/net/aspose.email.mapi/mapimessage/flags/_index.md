@@ -3,7 +3,7 @@ title: MapiMessage.Flags
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets the message flags
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.email.mapi/mapimessage/flags/
 ---
 ## MapiMessage.Flags property

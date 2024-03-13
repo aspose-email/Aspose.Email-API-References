@@ -3,7 +3,7 @@ title: MapiMessage.DisplayName
 second_title: Aspose.Email for .NET API Reference
 description: MapiMessage property. Gets the display name for the message
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.email.mapi/mapimessage/displayname/
 ---
 ## MapiMessage.DisplayName property
