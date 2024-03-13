@@ -23,6 +23,7 @@ The FolderCreationOptions type exposes the following members:
 | :- | :- |
 |create_hierarchy|Gets or sets a value indicating whether to create the hierarchy of parent folders.|
 |allow_name_case_difference|Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names.|
+|enforce_container_class_matching|Gets or sets a value indicating whether to enforce container class checking.|
 |container_class|Gets or sets the container class for the new subfolder.|
 
 ### See Also

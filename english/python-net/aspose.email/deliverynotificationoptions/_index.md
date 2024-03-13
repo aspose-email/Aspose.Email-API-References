@@ -3,7 +3,7 @@ title: DeliveryNotificationOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5040
+weight: 5050
 url: /python-net/aspose.email/deliverynotificationoptions/
 ---
 
