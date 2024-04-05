@@ -398,6 +398,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiCalendarAttendees](../com.aspose.email/mapicalendarattendees) | Represents the mapi calendar attendees |
 | [MapiCalendarBusyStatus](../com.aspose.email/mapicalendarbusystatus) | Enumerates the mapi calendar possible busy status |
 | [MapiCalendarClientIntent](../com.aspose.email/mapicalendarclientintent) | Enumerates the actions the user can taken on the Meeting object |
+| [MapiCalendarCollection](../com.aspose.email/mapicalendarcollection) | Represents the collection of [MapiCalendar](../com.aspose.email/mapicalendar) |
 | [MapiCalendarDailyRecurrencePattern](../com.aspose.email/mapicalendardailyrecurrencepattern) | Represents the daily recurrence pattern of the mapi calendar |
 | [MapiCalendarDayOfWeek](../com.aspose.email/mapicalendardayofweek) | Enumerates the days of week of the mapi calendar recurrence pattern |
 | [MapiCalendarEventRecurrence](../com.aspose.email/mapicalendareventrecurrence) | Represents the recurrence properties of calendar object |
@@ -565,6 +566,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ObjectIdentifier](../com.aspose.email/objectidentifier) | Contains object identification information |
 | [OleDocumentFormat](../com.aspose.email/oledocumentformat) | Represents the format for OLE document. |
 | [OlmFolder](../com.aspose.email/olmfolder) | Represents folder information in OLM storage. |
+| [OlmItemCategory](../com.aspose.email/olmitemcategory) | Represents an Outlook item category. |
 | [OlmMessageInfo](../com.aspose.email/olmmessageinfo) | Represents an information about message in the OLM storage. |
 | [OlmStorage](../com.aspose.email/olmstorage) | Represents Outlook for Mac storage (.OLM) file. |
 | [OnenoteOperation](../com.aspose.email/onenoteoperation) | The status of certain long-running OneNote operations. |
