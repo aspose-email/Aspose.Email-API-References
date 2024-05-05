@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Personal Storage Table .pst file.
 type: docs
-weight: 567
+weight: 569
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -43,6 +43,7 @@ Represents Personal Storage Table (.pst) file.
 | [create(OutputStream stream, int version, boolean leaveStreamOpen)](#create-java.io.OutputStream-int-boolean-) | Creates the PST in a stream. |
 | [create(OutputStream stream, int blockSize, int version)](#create-java.io.OutputStream-int-int-) | Creates the PST in a stream. |
 | [create(String fileName, int version)](#create-java.lang.String-int-) | Creates the new PST file with the specified file name. |
+| [create(SeekableByteChannel channel, int version)](#create-java.nio.channels.SeekableByteChannel-int-) | Creates the PST in a java.nio.channels. |
 | [createPredefinedFolder(String name, int defaultFolder)](#createPredefinedFolder-java.lang.String-int-) | Creates the standard interpersonal message (IPM) folder. |
 | [createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)](#createPredefinedFolder-java.lang.String-int-boolean-) | Creates the standard interpersonal message (IPM) folder. |
 | [deleteItem(String entryId)](#deleteItem-java.lang.String-) | Deletes the item (folder or message) by it's entryId |
@@ -302,6 +303,26 @@ Creates the new PST file with the specified file name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The full name of the file. |
+| version | int | The PST file version.
+
+--------------------
+
+Note, only Unicode file version creation is supported now. |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
+### create(SeekableByteChannel channel, int version) {#create-java.nio.channels.SeekableByteChannel-int-}
+```
+public static PersonalStorage create(SeekableByteChannel channel, int version)
+```
+
+
+Creates the PST in a java.nio.channels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| channel | java.nio.channels.SeekableByteChannel | The java.nio.channel in which PST is created. |
 | version | int | The PST file version.
 
 --------------------

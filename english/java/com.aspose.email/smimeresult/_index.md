@@ -3,7 +3,7 @@ title: SmimeResult
 second_title: Aspose.Email for Java API Reference
 description: This class containing results of checking secure emails.
 type: docs
-weight: 650
+weight: 652
 url: /java/com.aspose.email/smimeresult/
 ---
 
