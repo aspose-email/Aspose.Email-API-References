@@ -3,7 +3,7 @@ title: CompressionType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1580
+weight: 1600
 url: /python-net/aspose.email.clients/compressiontype/
 ---
 

@@ -16,6 +16,7 @@ The ContactSaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |save_format|Gets a save format|
+|version|Gets or sets a vCard version<br/>            This property is meaningful if ContactSaveFormat is set to VCard.|
 
 ### See Also
 

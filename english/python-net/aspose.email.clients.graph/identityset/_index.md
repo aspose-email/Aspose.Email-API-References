@@ -3,7 +3,7 @@ title: IdentitySet
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.email.clients.graph/identityset/
 ---
 

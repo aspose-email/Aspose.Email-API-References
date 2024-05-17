@@ -3,7 +3,7 @@ title: MapiCalendarBusyStatus
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 940
 url: /python-net/aspose.email.mapi/mapicalendarbusystatus/
 ---
 

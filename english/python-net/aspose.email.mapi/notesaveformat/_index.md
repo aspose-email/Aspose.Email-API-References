@@ -3,7 +3,7 @@ title: NoteSaveFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1240
+weight: 1250
 url: /python-net/aspose.email.mapi/notesaveformat/
 ---
 

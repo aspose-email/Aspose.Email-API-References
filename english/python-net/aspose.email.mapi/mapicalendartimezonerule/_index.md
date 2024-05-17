@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.email.mapi/mapicalendartimezonerule/
 ---
 

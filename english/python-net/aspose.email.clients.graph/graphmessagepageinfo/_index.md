@@ -3,7 +3,7 @@ title: GraphMessagePageInfo
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /python-net/aspose.email.clients.graph/graphmessagepageinfo/
 ---
 

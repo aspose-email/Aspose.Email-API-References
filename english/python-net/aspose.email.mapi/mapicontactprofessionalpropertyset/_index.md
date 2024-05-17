@@ -3,7 +3,7 @@ title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 

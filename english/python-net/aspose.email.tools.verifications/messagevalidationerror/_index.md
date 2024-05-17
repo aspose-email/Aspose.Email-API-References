@@ -17,6 +17,7 @@ The MessageValidationError type exposes the following members:
 | :- | :- |
 |error_type|Gets a type of error.|
 |description|Gets an error description.|
+|line_number|Gets a number of line where error was found.|
 
 ### See Also
 

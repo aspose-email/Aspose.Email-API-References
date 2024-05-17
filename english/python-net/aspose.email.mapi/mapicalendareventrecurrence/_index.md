@@ -3,7 +3,7 @@ title: MapiCalendarEventRecurrence
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.email.mapi/mapicalendareventrecurrence/
 ---
 

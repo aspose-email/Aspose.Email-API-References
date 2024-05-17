@@ -28,6 +28,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiAttachmentPropertyStream](/email/python-net/aspose.email.mapi/mapiattachmentpropertystream/)|Represents the property stream of attachment object.|
 |[MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/)|Represents the mapi calendar object|
 |[MapiCalendarAttendees](/email/python-net/aspose.email.mapi/mapicalendarattendees/)|Represents the mapi calendar attendees|
+|[MapiCalendarCollection](/email/python-net/aspose.email.mapi/mapicalendarcollection/)|Represents the collection of [MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/)|
 |[MapiCalendarDailyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendardailyrecurrencepattern/)|Represents the daily recurrence pattern of the mapi calendar|
 |[MapiCalendarEventRecurrence](/email/python-net/aspose.email.mapi/mapicalendareventrecurrence/)|Represents the recurrence properties of calendar object|
 |[MapiCalendarExceptionInfo](/email/python-net/aspose.email.mapi/mapicalendarexceptioninfo/)|An exception specifies changes to an instance of a recurring series.|

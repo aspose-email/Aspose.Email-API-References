@@ -15,6 +15,8 @@ the aspose.email.clients.graph namespace provides classes for access<br/>       
 | :- | :- |
 |[BaseRestObject](/email/python-net/aspose.email.clients.graph/baserestobject/)|Represents functionality for base object.|
 |[Bucket](/email/python-net/aspose.email.clients.graph/bucket/)|https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0<br/>            The plannerBucket resource represents a bucket (or "custom column") for tasks in a plan in Office 365. <br/>            It is contained in a plannerPlan and can have a collection of plannerTasks.|
+|[CalendarInfo](/email/python-net/aspose.email.clients.graph/calendarinfo/)|Represents information about calendar.|
+|[CalendarInfoCollection](/email/python-net/aspose.email.clients.graph/calendarinfocollection/)|Represents collection of GraphCalendarInfo.|
 |[ClassificationOverride](/email/python-net/aspose.email.clients.graph/classificationoverride/)|Represents a user's override for how incoming messages from a specific sender should always be classified as.|
 |[FolderInfo](/email/python-net/aspose.email.clients.graph/folderinfo/)|Represents information about personal folder.|
 |[FolderInfoCollection](/email/python-net/aspose.email.clients.graph/folderinfocollection/)|Represents collection of GraphFolderInfo.|
@@ -38,7 +40,10 @@ the aspose.email.clients.graph namespace provides classes for access<br/>       
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
+|[CalendarColor](/email/python-net/aspose.email.clients.graph/calendarcolor/)|Enumerates the color theme to distinguish the calendar from other calendars in a UI. The property values are: auto, lightBlue, lightGreen, lightOrange, lightGray, lightYellow, lightTeal, lightPink, lightBrown, lightRed, maxColor.|
+|[CalendarRoleType](/email/python-net/aspose.email.clients.graph/calendarroletype/)|Represent sharing or delegating permission levels for the calendar.|
 |[CategoryPreset](/email/python-net/aspose.email.clients.graph/categorypreset/)|A pre-set color enumeration that characterizes a categories, and that is mapped to one of 25 predefined colors. <br/>            Note The possible values for color are pre-set constants such as None, preset0 and preset1.<br/>            Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in.|
 |[ClassificationType](/email/python-net/aspose.email.clients.graph/classificationtype/)|https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0<br/>            https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0<br/>            Specifies how incoming messages from a specific sender should always be classified as.|
+|[OnlineMeetingProvider](/email/python-net/aspose.email.clients.graph/onlinemeetingprovider/)|The default online meeting provider for meetings sent from this calendar. Possible values are: unknown, skypeForBusiness, skypeForConsumer, teamsForBusiness.|
 |[ResourceType](/email/python-net/aspose.email.clients.graph/resourcetype/)|The resource in Microsoft Graph that you're referencing.|
 |[UserRole](/email/python-net/aspose.email.clients.graph/userrole/)|OneNote user role|

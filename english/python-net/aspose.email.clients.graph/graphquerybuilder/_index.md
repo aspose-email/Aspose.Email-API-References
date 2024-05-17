@@ -3,7 +3,7 @@ title: GraphQueryBuilder
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /python-net/aspose.email.clients.graph/graphquerybuilder/
 ---
 

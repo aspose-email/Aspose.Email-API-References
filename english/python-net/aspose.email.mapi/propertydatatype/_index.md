@@ -3,7 +3,7 @@ title: PropertyDataType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1270
 url: /python-net/aspose.email.mapi/propertydatatype/
 ---
 

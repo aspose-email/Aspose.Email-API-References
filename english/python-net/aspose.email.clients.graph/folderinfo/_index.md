@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.email.clients.graph/folderinfo/
 ---
 

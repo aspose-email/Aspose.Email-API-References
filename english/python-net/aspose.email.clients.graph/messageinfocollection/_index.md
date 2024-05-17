@@ -3,7 +3,7 @@ title: MessageInfoCollection
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.email.clients.graph/messageinfocollection/
 ---
 
