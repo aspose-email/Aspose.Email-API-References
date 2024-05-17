@@ -3,7 +3,7 @@ title: Class OlmStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Olm.OlmStorage class. Represents Outlook for Mac storage .OLM file
 type: docs
-weight: 20260
+weight: 20320
 url: /net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class

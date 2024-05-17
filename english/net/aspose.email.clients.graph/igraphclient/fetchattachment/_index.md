@@ -3,7 +3,7 @@ title: IGraphClient.FetchAttachment
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets attachment for specified id
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.email.clients.graph/igraphclient/fetchattachment/
 ---
 ## IGraphClient.FetchAttachment method

@@ -14,12 +14,6 @@ Represents functionality for base object.
 public abstract class BaseRestObject
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [BaseRestObject](baserestobject/)(MapiPropertyCollection, PropertyDescriptor[]) | Initializes a new instance of the [`FolderInfo`](../folderinfo/) class. |
-
 ## Properties
 
 | Name | Description |

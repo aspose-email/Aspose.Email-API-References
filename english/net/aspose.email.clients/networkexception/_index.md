@@ -3,7 +3,7 @@ title: Class NetworkException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.NetworkException class. Thrown if there is a network connection failure
 type: docs
-weight: 16790
+weight: 16840
 url: /net/aspose.email.clients/networkexception/
 ---
 ## NetworkException class

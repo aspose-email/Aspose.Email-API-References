@@ -3,7 +3,7 @@ title: Enum SocksVersion
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.SocksVersion enum. Versions of the SOCKS protocol
 type: docs
-weight: 17110
+weight: 17160
 url: /net/aspose.email.clients/socksversion/
 ---
 ## SocksVersion enumeration

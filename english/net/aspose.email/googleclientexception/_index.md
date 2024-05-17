@@ -3,7 +3,7 @@ title: Class GoogleClientException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.GoogleClientException class. Represents errors that occur during ActiveSync protocol execution
 type: docs
-weight: 17500
+weight: 17550
 url: /net/aspose.email/googleclientexception/
 ---
 ## GoogleClientException class

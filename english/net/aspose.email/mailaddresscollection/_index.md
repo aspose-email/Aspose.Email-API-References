@@ -3,7 +3,7 @@ title: Class MailAddressCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailAddressCollection class. Represents a collection of MailAddress objects
 type: docs
-weight: 17690
+weight: 17740
 url: /net/aspose.email/mailaddresscollection/
 ---
 ## MailAddressCollection class

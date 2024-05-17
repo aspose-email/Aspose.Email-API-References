@@ -3,7 +3,7 @@ title: Class MapiMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessage class. Represents an Outlook Message format document that can be parsed
 type: docs
-weight: 18500
+weight: 18560
 url: /net/aspose.email.mapi/mapimessage/
 ---
 ## MapiMessage class

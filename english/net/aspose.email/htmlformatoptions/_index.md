@@ -3,7 +3,7 @@ title: Enum HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HtmlFormatOptions enum. Enumerates the Html format options
 type: docs
-weight: 17530
+weight: 17580
 url: /net/aspose.email/htmlformatoptions/
 ---
 ## HtmlFormatOptions enumeration

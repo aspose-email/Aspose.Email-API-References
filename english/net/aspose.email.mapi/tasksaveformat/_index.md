@@ -3,7 +3,7 @@ title: Enum TaskSaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.TaskSaveFormat enum. Enumerates TaskSaveFormat
 type: docs
-weight: 19070
+weight: 19130
 url: /net/aspose.email.mapi/tasksaveformat/
 ---
 ## TaskSaveFormat enumeration

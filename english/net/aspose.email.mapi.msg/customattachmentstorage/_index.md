@@ -3,7 +3,7 @@ title: Class CustomAttachmentStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.CustomAttachmentStorage class. Represents custom attachment storage
 type: docs
-weight: 18820
+weight: 18880
 url: /net/aspose.email.mapi.msg/customattachmentstorage/
 ---
 ## CustomAttachmentStorage class

@@ -3,7 +3,7 @@ title: IGraphClient.CreateMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates message in specified folder
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.email.clients.graph/igraphclient/createmessage/
 ---
 ## CreateMessage(string, MapiMessage) {#createmessage_1}

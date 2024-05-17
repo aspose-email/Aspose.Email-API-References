@@ -3,7 +3,7 @@ title: Interface IAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.IAttachment interface. Represents a common attachment interface
 type: docs
-weight: 17570
+weight: 17620
 url: /net/aspose.email/iattachment/
 ---
 ## IAttachment interface

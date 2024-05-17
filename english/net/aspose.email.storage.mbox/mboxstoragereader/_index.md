@@ -3,7 +3,7 @@ title: Class MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxStorageReader class. A base class for any mboxbased mail storage reader
 type: docs
-weight: 20110
+weight: 20170
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
@@ -40,8 +40,10 @@ public abstract class MboxStorageReader : IDisposable
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage/#readnextmessage_1)(EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage/#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage/#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto)(long, string) | Splits the mbox storage into less sized parts. |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_1)(long, string, string) |  |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_2)(long, string) | Splits the mbox storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_1)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_3)(long, string, string) |  |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 
 ## Events
 

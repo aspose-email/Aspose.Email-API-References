@@ -3,7 +3,7 @@ title: Class EventCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.EventCategory class. Represents category for an event
 type: docs
-weight: 19430
+weight: 19490
 url: /net/aspose.email.personalinfo/eventcategory/
 ---
 ## EventCategory class

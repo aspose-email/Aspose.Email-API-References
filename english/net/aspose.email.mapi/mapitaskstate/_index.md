@@ -3,7 +3,7 @@ title: Enum MapiTaskState
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskState enum. Indicates the assignment state of the Task object
 type: docs
-weight: 18790
+weight: 18850
 url: /net/aspose.email.mapi/mapitaskstate/
 ---
 ## MapiTaskState enumeration

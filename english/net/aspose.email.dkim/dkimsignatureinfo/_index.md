@@ -3,7 +3,7 @@ title: Class DKIMSignatureInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.DKIM.DKIMSignatureInfo class. Represents DKIM signature information
 type: docs
-weight: 17220
+weight: 17270
 url: /net/aspose.email.dkim/dkimsignatureinfo/
 ---
 ## DKIMSignatureInfo class

@@ -6,84 +6,6 @@ type: docs
 weight: 1110
 url: /net/aspose.email.clients.imap/imapclient/savemessageasync/
 ---
-## SaveMessageAsync(string, Stream, CancellationToken) {#savemessageasync_13}
-
-Downloads the message with the specified sequence number and writes its data into a supplied stream
-
-```csharp
-public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| resultStream | Stream | Stream that will receive the message |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## SaveMessageAsync(string, string, CancellationToken) {#savemessageasync_15}
-
-Downloads the message with the specified sequence number and writes its data into a local file
-
-```csharp
-public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| fileName | String | The path of the local file. This cannot be a directory |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## SaveMessageAsync(int, string, CancellationToken) {#savemessageasync_11}
-
-Downloads the message with the specified sequence number and writes its data into a local file
-
-```csharp
-public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of the message |
-| fileName | String | The path of the local file. This cannot be a directory |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## SaveMessageAsync(IConnection, int, Stream) {#savemessageasync}
 
 Downloads the message with the specified sequence number and writes its data into a supplied stream
@@ -420,6 +342,84 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream, Cancellati
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 | resultStream | Stream | Stream that will receive the message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(string, Stream, CancellationToken) {#savemessageasync_13}
+
+Downloads the message with the specified sequence number and writes its data into a supplied stream
+
+```csharp
+public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| resultStream | Stream | Stream that will receive the message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(string, string, CancellationToken) {#savemessageasync_15}
+
+Downloads the message with the specified sequence number and writes its data into a local file
+
+```csharp
+public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| fileName | String | The path of the local file. This cannot be a directory |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SaveMessageAsync(int, string, CancellationToken) {#savemessageasync_11}
+
+Downloads the message with the specified sequence number and writes its data into a local file
+
+```csharp
+public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| fileName | String | The path of the local file. This cannot be a directory |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value

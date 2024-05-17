@@ -3,7 +3,7 @@ title: Class SecureEmailManager
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.SecureEmailManager class. Class that provided methods for working with secure emails
 type: docs
-weight: 20020
+weight: 20080
 url: /net/aspose.email/secureemailmanager/
 ---
 ## SecureEmailManager class

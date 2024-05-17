@@ -25,6 +25,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiAttachmentPropertyStream](./mapiattachmentpropertystream/) | Represents the property stream of attachment object. |
 | [MapiCalendar](./mapicalendar/) | Represents the mapi calendar object |
 | [MapiCalendarAttendees](./mapicalendarattendees/) | Represents the mapi calendar attendees |
+| [MapiCalendarCollection](./mapicalendarcollection/) | Represents the collection of [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) |
 | [MapiCalendarDailyRecurrencePattern](./mapicalendardailyrecurrencepattern/) | Represents the daily recurrence pattern of the mapi calendar |
 | [MapiCalendarEventRecurrence](./mapicalendareventrecurrence/) | Represents the recurrence properties of calendar object |
 | [MapiCalendarExceptionInfo](./mapicalendarexceptioninfo/) | An exception specifies changes to an instance of a recurring series. |

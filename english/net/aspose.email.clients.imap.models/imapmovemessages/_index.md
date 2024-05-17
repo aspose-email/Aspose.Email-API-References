@@ -3,7 +3,7 @@ title: Class ImapMoveMessages
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapMoveMessages class. MoveMessagesAsync method parameter set
 type: docs
-weight: 16600
+weight: 16650
 url: /net/aspose.email.clients.imap.models/imapmovemessages/
 ---
 ## ImapMoveMessages class

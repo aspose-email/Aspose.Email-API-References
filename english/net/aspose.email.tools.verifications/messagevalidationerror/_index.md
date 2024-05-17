@@ -3,7 +3,7 @@ title: Class MessageValidationError
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.MessageValidationError class. Represents the message validation error information
 type: docs
-weight: 21000
+weight: 21060
 url: /net/aspose.email.tools.verifications/messagevalidationerror/
 ---
 ## MessageValidationError class
@@ -20,6 +20,7 @@ public sealed class MessageValidationError
 | --- | --- |
 | [Description](../../aspose.email.tools.verifications/messagevalidationerror/description/) { get; } | Gets an error description. |
 | [ErrorType](../../aspose.email.tools.verifications/messagevalidationerror/errortype/) { get; } | Gets a type of error. |
+| [LineNumber](../../aspose.email.tools.verifications/messagevalidationerror/linenumber/) { get; } | Gets a number of line where error was found. |
 
 ### See Also
 

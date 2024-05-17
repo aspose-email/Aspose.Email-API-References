@@ -3,7 +3,7 @@ title: Enum CanonicalizationType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.DKIM.CanonicalizationType enum. Represents DKIM canonicalization
 type: docs
-weight: 17200
+weight: 17250
 url: /net/aspose.email.dkim/canonicalizationtype/
 ---
 ## CanonicalizationType enumeration

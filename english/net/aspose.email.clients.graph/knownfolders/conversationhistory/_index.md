@@ -3,7 +3,7 @@ title: KnownFolders.ConversationHistory
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The folder where Skype saves IM conversations if Skype is configured to do so
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.email.clients.graph/knownfolders/conversationhistory/
 ---
 ## KnownFolders.ConversationHistory field

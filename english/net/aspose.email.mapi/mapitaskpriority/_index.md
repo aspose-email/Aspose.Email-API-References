@@ -3,7 +3,7 @@ title: Enum MapiTaskPriority
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskPriority enum. Represents the priority on the task
 type: docs
-weight: 18780
+weight: 18840
 url: /net/aspose.email.mapi/mapitaskpriority/
 ---
 ## MapiTaskPriority enumeration

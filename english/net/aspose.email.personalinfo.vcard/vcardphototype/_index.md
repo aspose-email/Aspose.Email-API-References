@@ -3,7 +3,7 @@ title: Enum VCardPhotoType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardPhotoType enum. Enumerates vCard photo type
 type: docs
-weight: 19760
+weight: 19820
 url: /net/aspose.email.personalinfo.vcard/vcardphototype/
 ---
 ## VCardPhotoType enumeration

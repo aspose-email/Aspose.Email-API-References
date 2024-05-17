@@ -3,7 +3,7 @@ title: KnownFolders.MailFolders
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. Mail folders root
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.email.clients.graph/knownfolders/mailfolders/
 ---
 ## KnownFolders.MailFolders field

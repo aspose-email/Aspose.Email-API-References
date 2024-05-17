@@ -3,7 +3,7 @@ title: Class MapiMessageParseException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessageParseException class. This exception is thrown when errors occur in parsing MapiMessage
 type: docs
-weight: 18530
+weight: 18590
 url: /net/aspose.email.mapi/mapimessageparseexception/
 ---
 ## MapiMessageParseException class

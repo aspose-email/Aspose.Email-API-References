@@ -3,7 +3,7 @@ title: Class SmtpSend
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.Models.SmtpSend class. SendAsync method parameter set
 type: docs
-weight: 17010
+weight: 17060
 url: /net/aspose.email.clients.smtp.models/smtpsend/
 ---
 ## SmtpSend class

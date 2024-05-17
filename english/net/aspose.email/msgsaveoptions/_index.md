@@ -3,7 +3,7 @@ title: Class MsgSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MsgSaveOptions class. This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format
 type: docs
-weight: 19310
+weight: 19370
 url: /net/aspose.email/msgsaveoptions/
 ---
 ## MsgSaveOptions class

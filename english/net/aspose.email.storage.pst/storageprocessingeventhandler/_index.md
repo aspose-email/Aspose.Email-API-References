@@ -3,7 +3,7 @@ title: Delegate StorageProcessingEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Event handler for the StoragePreProcessing. Occurs before the srorage is processed
 type: docs
-weight: 20540
+weight: 20600
 url: /net/aspose.email.storage.pst/storageprocessingeventhandler/
 ---
 ## StorageProcessingEventHandler delegate

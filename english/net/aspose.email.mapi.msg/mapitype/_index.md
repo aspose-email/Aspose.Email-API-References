@@ -3,7 +3,7 @@ title: Enum MapiType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.MapiType enum. Contains possible MAPI property types which can be stored with message object
 type: docs
-weight: 18860
+weight: 18920
 url: /net/aspose.email.mapi.msg/mapitype/
 ---
 ## MapiType enumeration

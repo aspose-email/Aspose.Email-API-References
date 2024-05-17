@@ -3,7 +3,7 @@ title: Class LoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.LoadOptions class. This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format
 type: docs
-weight: 17670
+weight: 17720
 url: /net/aspose.email/loadoptions/
 ---
 ## LoadOptions class

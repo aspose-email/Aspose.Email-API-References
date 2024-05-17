@@ -3,7 +3,7 @@ title: Enum MapiCalendarRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarRecurrencePatternType enum. Enumerates the mapi calendar recurrence pattern types
 type: docs
-weight: 18100
+weight: 18160
 url: /net/aspose.email.mapi/mapicalendarrecurrencepatterntype/
 ---
 ## MapiCalendarRecurrencePatternType enumeration

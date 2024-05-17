@@ -3,7 +3,7 @@ title: Interface IAsyncResultExt
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.IAsyncResultExt interface. Represents the extended status of an asynchronous operation
 type: docs
-weight: 16130
+weight: 16180
 url: /net/aspose.email.clients/iasyncresultext/
 ---
 ## IAsyncResultExt interface

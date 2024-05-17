@@ -3,7 +3,7 @@ title: Enum MapiRecipientTrackStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiRecipientTrackStatus enum. Represents the response status returned by the attendee
 type: docs
-weight: 18700
+weight: 18760
 url: /net/aspose.email.mapi/mapirecipienttrackstatus/
 ---
 ## MapiRecipientTrackStatus enumeration

@@ -3,7 +3,7 @@ title: KnownFolders.Outbox
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The outbox folder
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.email.clients.graph/knownfolders/outbox/
 ---
 ## KnownFolders.Outbox field

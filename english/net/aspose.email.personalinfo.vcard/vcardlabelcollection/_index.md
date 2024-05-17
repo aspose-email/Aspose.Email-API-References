@@ -3,7 +3,7 @@ title: Class VCardLabelCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardLabelCollection class. Represents a collection of VCardLabel
 type: docs
-weight: 19730
+weight: 19790
 url: /net/aspose.email.personalinfo.vcard/vcardlabelcollection/
 ---
 ## VCardLabelCollection class

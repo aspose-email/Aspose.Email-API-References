@@ -3,7 +3,7 @@ title: Class ImapIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapIdentificationInfo class. Represents classcontainer with identification information to exchange between mail client and server. Please read more rfc2971 https//tools.ietf.org/html/rfc2971
 type: docs
-weight: 16320
+weight: 16370
 url: /net/aspose.email.clients.imap/imapidentificationinfo/
 ---
 ## ImapIdentificationInfo class

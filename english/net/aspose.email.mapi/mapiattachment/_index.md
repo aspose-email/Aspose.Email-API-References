@@ -3,7 +3,7 @@ title: Class MapiAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiAttachment class. Represents the attachment in the Email message
 type: docs
-weight: 17890
+weight: 17940
 url: /net/aspose.email.mapi/mapiattachment/
 ---
 ## MapiAttachment class

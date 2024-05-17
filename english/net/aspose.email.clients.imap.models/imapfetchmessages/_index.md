@@ -3,7 +3,7 @@ title: Class ImapFetchMessages
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapFetchMessages class. FetchMessagesAsync method parameter set
 type: docs
-weight: 16570
+weight: 16620
 url: /net/aspose.email.clients.imap.models/imapfetchmessages/
 ---
 ## ImapFetchMessages class

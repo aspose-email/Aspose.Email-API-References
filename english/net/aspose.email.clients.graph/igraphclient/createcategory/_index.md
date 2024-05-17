@@ -3,7 +3,7 @@ title: IGraphClient.CreateCategory
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates an OutlookCategory object in the users master list of categories
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.clients.graph/igraphclient/createcategory/
 ---
 ## IGraphClient.CreateCategory method

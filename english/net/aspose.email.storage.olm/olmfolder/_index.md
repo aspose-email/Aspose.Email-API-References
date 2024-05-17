@@ -3,7 +3,7 @@ title: Class OlmFolder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Olm.OlmFolder class. Represents folder information in OLM storage
 type: docs
-weight: 20230
+weight: 20290
 url: /net/aspose.email.storage.olm/olmfolder/
 ---
 ## OlmFolder class

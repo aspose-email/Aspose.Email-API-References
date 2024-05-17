@@ -3,7 +3,7 @@ title: IGraphClient.Send
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Send a message in the draft folder. The draft message can be a new message draft reply draft replyall draft or a forward draft. The message is then saved in the Sent Items folder
 type: docs
-weight: 360
+weight: 430
 url: /net/aspose.email.clients.graph/igraphclient/send/
 ---
 ## Send(string) {#send_3}

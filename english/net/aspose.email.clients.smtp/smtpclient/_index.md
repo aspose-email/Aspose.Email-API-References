@@ -3,7 +3,7 @@ title: Class SmtpClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpClient class. Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP
 type: docs
-weight: 17030
+weight: 17080
 url: /net/aspose.email.clients.smtp/smtpclient/
 ---
 ## SmtpClient class

@@ -3,7 +3,7 @@ title: KnownFolders.Inbox
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The inbox folder
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.email.clients.graph/knownfolders/inbox/
 ---
 ## KnownFolders.Inbox field

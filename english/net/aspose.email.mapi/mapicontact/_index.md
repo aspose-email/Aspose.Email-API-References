@@ -3,7 +3,7 @@ title: Class MapiContact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContact class. Represents outlook contact information
 type: docs
-weight: 18200
+weight: 18260
 url: /net/aspose.email.mapi/mapicontact/
 ---
 ## MapiContact class

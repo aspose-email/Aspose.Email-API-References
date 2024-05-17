@@ -3,7 +3,7 @@ title: Class IdentitySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.IdentitySet class. https//docs.microsoft.com/enus/graph/api/resources/identitysetviewgraphrest1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item such as created by or last modified by
 type: docs
-weight: 15970
+weight: 16010
 url: /net/aspose.email.clients.graph/identityset/
 ---
 ## IdentitySet class

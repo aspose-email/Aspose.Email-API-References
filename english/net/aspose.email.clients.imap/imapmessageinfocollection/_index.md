@@ -3,7 +3,7 @@ title: Class ImapMessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapMessageInfoCollection class. Provides a container for a collection of ImapMessageInfo objects
 type: docs
-weight: 16380
+weight: 16430
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/
 ---
 ## ImapMessageInfoCollection class

@@ -3,7 +3,7 @@ title: Enum SocksAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.SocksAuthenticationMethods enum. The authentication methods supported by the SOCKS protocol
 type: docs
-weight: 17090
+weight: 17140
 url: /net/aspose.email.clients/socksauthenticationmethods/
 ---
 ## SocksAuthenticationMethods enumeration

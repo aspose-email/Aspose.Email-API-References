@@ -3,7 +3,7 @@ title: Enum MapiPropertyType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiPropertyType enum. Represents the data type of MapiProperty data
 type: docs
-weight: 18660
+weight: 18720
 url: /net/aspose.email.mapi/mapipropertytype/
 ---
 ## MapiPropertyType enumeration
