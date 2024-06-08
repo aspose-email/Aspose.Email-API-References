@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents Outlook for Mac storage .OLM file.
 type: docs
-weight: 555
+weight: 557
 url: /java/com.aspose.email/olmstorage/
 ---
 
@@ -36,6 +36,7 @@ Represents Outlook for Mac storage (.OLM) file.
 | [extractMapiMessage(String id)](#extractMapiMessage-java.lang.String-) | Get the message from OLM. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | Load OLM storage from file. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load OLM from stream. |
+| [getCategories()](#getCategories--) | Gets the supported item categories. |
 | [getClass()](#getClass--) |  |
 | [getFolder(String name, boolean ignoreCase)](#getFolder-java.lang.String-boolean-) | Gets the folder by name. |
 | [getFolderHierarchy()](#getFolderHierarchy--) | Gets the folder hierarchy. |
@@ -195,6 +196,16 @@ Load OLM from stream.
 
 **Returns:**
 [OlmStorage](../../com.aspose.email/olmstorage) - An OlmStorage object that represents the current OLM storage.
+### getCategories() {#getCategories--}
+```
+public final List<OlmItemCategory> getCategories()
+```
+
+
+Gets the supported item categories.
+
+**Returns:**
+java.util.List<com.aspose.email.OlmItemCategory> - A list of [OlmItemCategory](../../com.aspose.email/olmitemcategory) objects.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

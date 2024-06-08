@@ -3,7 +3,7 @@ title: MessageInfoType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the message types.
 type: docs
-weight: 499
+weight: 500
 url: /java/com.aspose.email/messageinfotype/
 ---
 
