@@ -3,7 +3,7 @@ title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents the Personal Distribution List object.
 type: docs
-weight: 435
+weight: 436
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 
@@ -28,6 +28,8 @@ Represents the Personal Distribution List object.
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromVCF(InputStream stream)](#fromVCF-java.io.InputStream-) | Loads MapiDistributionList from VCF stream. |
+| [fromVCF(String filePath)](#fromVCF-java.lang.String-) | Loads MapiDistributionList from VCF file. |
 | [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
 | [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
 | [getBody()](#getBody--) | Gets the message text. |
@@ -170,6 +172,36 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromVCF(InputStream stream) {#fromVCF-java.io.InputStream-}
+```
+public static MapiDistributionList fromVCF(InputStream stream)
+```
+
+
+Loads MapiDistributionList from VCF stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Stream in the VCF format. |
+
+**Returns:**
+[MapiDistributionList](../../com.aspose.email/mapidistributionlist) - The result MapiDistributionList.
+### fromVCF(String filePath) {#fromVCF-java.lang.String-}
+```
+public static MapiDistributionList fromVCF(String filePath)
+```
+
+
+Loads MapiDistributionList from VCF file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to the VCF file. |
+
+**Returns:**
+[MapiDistributionList](../../com.aspose.email/mapidistributionlist) - The result MapiDistributionList.
 ### getAttachments() {#getAttachments--}
 ```
 public final MapiAttachmentCollection getAttachments()
