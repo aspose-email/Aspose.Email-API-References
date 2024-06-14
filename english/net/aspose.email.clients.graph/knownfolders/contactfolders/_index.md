@@ -1,14 +1,14 @@
 ---
 title: KnownFolders.ContactFolders
 second_title: Aspose.Email for .NET API Reference
-description: KnownFolders field. Mail folders root
+description: KnownFolders field. For contacts contained in the child folder of a contactFolder
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.clients.graph/knownfolders/contactfolders/
 ---
 ## KnownFolders.ContactFolders field
 
-Mail folders root
+For contacts contained in the child folder of a contactFolder.
 
 ```csharp
 public static readonly string ContactFolders;

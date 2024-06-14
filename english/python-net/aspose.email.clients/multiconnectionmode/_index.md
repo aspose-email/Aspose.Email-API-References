@@ -3,7 +3,7 @@ title: MultiConnectionMode
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 1640
 url: /python-net/aspose.email.clients/multiconnectionmode/
 ---
 

@@ -3,7 +3,7 @@ title: Enum FileFormatType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.FileFormatType enum. Enumerates file format types
 type: docs
-weight: 17470
+weight: 17520
 url: /net/aspose.email/fileformattype/
 ---
 ## FileFormatType enumeration

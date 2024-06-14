@@ -3,7 +3,7 @@ title: Class PemReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.DKIM.PemReader class. PEM format reader
 type: docs
-weight: 17240
+weight: 17290
 url: /net/aspose.email.dkim/pemreader/
 ---
 ## PemReader class

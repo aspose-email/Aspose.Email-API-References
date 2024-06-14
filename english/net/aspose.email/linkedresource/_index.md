@@ -3,7 +3,7 @@ title: Class LinkedResource
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.LinkedResource class. Represents an embedded resource in a message
 type: docs
-weight: 17640
+weight: 17690
 url: /net/aspose.email/linkedresource/
 ---
 ## LinkedResource class

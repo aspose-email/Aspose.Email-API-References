@@ -3,7 +3,7 @@ title: MapiTaskAcceptanceState
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 

@@ -3,7 +3,7 @@ title: MapiDistributionListSaveOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.email.mapi/mapidistributionlistsaveoptions/
 ---
 
@@ -20,6 +20,7 @@ The MapiDistributionListSaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |save_format|Gets a save format|
+|version|Gets or sets a vCard version<br/>            This property is meaningful if ContactSaveFormat is set to VCard.|
 |default|Gets the default options.|
 
 ### See Also

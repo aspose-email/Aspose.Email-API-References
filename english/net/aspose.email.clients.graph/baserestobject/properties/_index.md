@@ -3,7 +3,7 @@ title: BaseRestObject.Properties
 second_title: Aspose.Email for .NET API Reference
 description: BaseRestObject property. Gets the mapi properties
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.email.clients.graph/baserestobject/properties/
 ---
 ## BaseRestObject.Properties property

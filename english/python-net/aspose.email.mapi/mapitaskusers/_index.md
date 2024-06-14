@@ -3,7 +3,7 @@ title: MapiTaskUsers
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 740
 url: /python-net/aspose.email.mapi/mapitaskusers/
 ---
 

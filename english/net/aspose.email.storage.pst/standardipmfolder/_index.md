@@ -3,7 +3,7 @@ title: Enum StandardIpmFolder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.StandardIpmFolder enum. Represents a standard interpersonal message IPM folders
 type: docs
-weight: 20500
+weight: 20560
 url: /net/aspose.email.storage.pst/standardipmfolder/
 ---
 ## StandardIpmFolder enumeration

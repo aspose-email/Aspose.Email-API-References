@@ -3,7 +3,7 @@ title: Enum MapiRecipientType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiRecipientType enum. Represent the PR_RECIPIENT_TYPE property which contains the recipient type for a message recipient
 type: docs
-weight: 18710
+weight: 18770
 url: /net/aspose.email.mapi/mapirecipienttype/
 ---
 ## MapiRecipientType enumeration

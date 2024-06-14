@@ -3,7 +3,7 @@ title: Class MboxoStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxoStorageReader class. Represents mboxo format storage reader this format is being used by Eudora
 type: docs
-weight: 20130
+weight: 20190
 url: /net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class
@@ -44,7 +44,9 @@ public sealed class MboxoStorageReader : MboxStorageReader
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage/#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage/#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string) | Splits the mbox storage into less sized parts. |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, string) |  |
+| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 
 ## Events
 

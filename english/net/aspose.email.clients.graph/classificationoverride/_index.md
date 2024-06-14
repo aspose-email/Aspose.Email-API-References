@@ -3,7 +3,7 @@ title: Class ClassificationOverride
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.ClassificationOverride class. Represents a users override for how incoming messages from a specific sender should always be classified as
 type: docs
-weight: 15880
+weight: 15920
 url: /net/aspose.email.clients.graph/classificationoverride/
 ---
 ## ClassificationOverride class

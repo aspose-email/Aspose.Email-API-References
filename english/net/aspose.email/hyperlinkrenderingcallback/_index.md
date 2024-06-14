@@ -3,7 +3,7 @@ title: Delegate HyperlinkRenderingCallback
 second_title: Aspose.Email for .NET API Reference
 description: Provides possibility to handle rendering of hyperlink in custom style
 type: docs
-weight: 17560
+weight: 17610
 url: /net/aspose.email/hyperlinkrenderingcallback/
 ---
 ## HyperlinkRenderingCallback delegate

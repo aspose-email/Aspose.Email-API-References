@@ -3,7 +3,7 @@ title: ConnectionState
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1600
+weight: 1620
 url: /python-net/aspose.email.clients/connectionstate/
 ---
 

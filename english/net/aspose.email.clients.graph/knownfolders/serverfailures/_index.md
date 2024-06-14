@@ -3,7 +3,7 @@ title: KnownFolders.ServerFailures
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The folder that contains items that exist on the server but could not be synchronized to the local client
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.email.clients.graph/knownfolders/serverfailures/
 ---
 ## KnownFolders.ServerFailures field

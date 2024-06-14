@@ -3,7 +3,7 @@ title: KnownFolders.SearchFolders
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The parent folder for all search folders defined in the users mailbox
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.email.clients.graph/knownfolders/searchfolders/
 ---
 ## KnownFolders.SearchFolders field

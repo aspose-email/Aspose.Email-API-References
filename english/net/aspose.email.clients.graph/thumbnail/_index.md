@@ -3,7 +3,7 @@ title: Class Thumbnail
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.Thumbnail class. https//docs.microsoft.com/enus/graph/api/resources/thumbnailviewgraphrest1.0 The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation
 type: docs
-weight: 16070
+weight: 16120
 url: /net/aspose.email.clients.graph/thumbnail/
 ---
 ## Thumbnail class

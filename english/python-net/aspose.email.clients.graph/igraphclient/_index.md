@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /python-net/aspose.email.clients.graph/igraphclient/
 ---
 
@@ -30,6 +30,8 @@ The IGraphClient type exposes the following members:
 |create_folder(parent_folder_id, folder_name)|  |
 |list_messages(id)|  |
 |list_messages(id, page, query)|  |
+|update_calendar_item(mapi_calendar)|  |
+|update_calendar_item(mapi_calendar, update_settings)|  |
 |create_message(folder_id, message)|  |
 |create_message(folder_id, message)|  |
 |update_message(message)|  |
@@ -47,11 +49,18 @@ The IGraphClient type exposes the following members:
 |update_folder(folder_info)|  |
 |copy_folder(new_parent_id, item_id)|  |
 |move_folder(new_parent_id, item_id)|  |
+|list_contacts(id)|  |
+|list_calendar_items(id)|  |
+|fetch_calendar_item(id)|  |
+|create_calendar_item(cal_id, mapi_calendar)|  |
+|fetch_contact(id)|  |
 |create_attachment(parent_id, attachment)|  |
 |fetch_attachment(id)|  |
 |delete_attachment(id)|  |
 |list_attachments(id)|  |
 |fetch_message(id)|  |
+|create_contact(folder_id, contact)|  |
+|update_contact(contact)|  |
 |send_as_mime(message)|  |
 |copy_message(new_parent_id, item_id)|  |
 |move_message(new_parent_id, item_id)|  |
@@ -67,6 +76,7 @@ The IGraphClient type exposes the following members:
 |list_notebooks()|  |
 |copy_notebook(item_id, group_id, rename_as)|  |
 |get_one_note_operation_status(operation_id)|  |
+|list_calendars()|  |
 
 ### See Also
 

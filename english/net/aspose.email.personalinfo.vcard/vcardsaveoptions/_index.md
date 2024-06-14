@@ -3,7 +3,7 @@ title: Class VCardSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardSaveOptions class. Represents vCard save options
 type: docs
-weight: 19770
+weight: 19830
 url: /net/aspose.email.personalinfo.vcard/vcardsaveoptions/
 ---
 ## VCardSaveOptions class
@@ -30,7 +30,7 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 | [PreferredTextEncoding](../../aspose.email.personalinfo.vcard/vcardsaveoptions/preferredtextencoding/) { get; set; } | Gets or sets Encoding that will be used to save Contact. |
 | [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat/) { get; } | Gets a save format |
 | [UseExtensions](../../aspose.email.personalinfo.vcard/vcardsaveoptions/useextensions/) { get; set; } | Gets or sets a value indicating whether the extended types can be used |
-| [Version](../../aspose.email.personalinfo.vcard/vcardsaveoptions/version/) { get; set; } | Gets or sets a vCard version |
+| [Version](../../aspose.email.mapi/contactsaveoptions/version/) { get; set; } | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 
 ### See Also
 

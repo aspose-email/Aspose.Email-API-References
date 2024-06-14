@@ -3,7 +3,7 @@ title: KnownFolders.MsgFolderRoot
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The Top of Information Store folder. This folder is the parent folder for folders that are displayed in normal mail clients such as the inbox
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.email.clients.graph/knownfolders/msgfolderroot/
 ---
 ## KnownFolders.MsgFolderRoot field

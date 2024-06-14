@@ -3,7 +3,7 @@ title: Notebook
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.email.clients.graph/notebook/
 ---
 

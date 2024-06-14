@@ -3,7 +3,7 @@ title: IGraphClient.FetchMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets message in specified id
 type: docs
-weight: 220
+weight: 260
 url: /net/aspose.email.clients.graph/igraphclient/fetchmessage/
 ---
 ## IGraphClient.FetchMessage method

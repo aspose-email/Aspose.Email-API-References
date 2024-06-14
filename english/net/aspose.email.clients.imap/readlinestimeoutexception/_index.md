@@ -3,7 +3,7 @@ title: Class ReadLinesTimeoutException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ReadLinesTimeoutException class. Represents the exception that is thrown when a response from server can not be read within the specified time
 type: docs
-weight: 16660
+weight: 16710
 url: /net/aspose.email.clients.imap/readlinestimeoutexception/
 ---
 ## ReadLinesTimeoutException class

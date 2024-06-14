@@ -3,7 +3,7 @@ title: Class Notebook
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.Notebook class. https//docs.microsoft.com/enus/graph/api/resources/notebookviewgraphrest1.0 A OneNote notebook
 type: docs
-weight: 16010
+weight: 16050
 url: /net/aspose.email.clients.graph/notebook/
 ---
 ## Notebook class

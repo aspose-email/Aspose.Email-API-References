@@ -3,7 +3,7 @@ title: Enum Pop3ListFields
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Pop3ListFields enum. Fields that may be retrieved from the server
 type: docs
-weight: 16900
+weight: 16950
 url: /net/aspose.email.clients.pop3/pop3listfields/
 ---
 ## Pop3ListFields enumeration

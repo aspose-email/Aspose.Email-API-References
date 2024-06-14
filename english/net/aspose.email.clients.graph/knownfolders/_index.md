@@ -3,7 +3,7 @@ title: Class KnownFolders
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.KnownFolders class. Wellknown folders
 type: docs
-weight: 15980
+weight: 16020
 url: /net/aspose.email.clients.graph/knownfolders/
 ---
 ## KnownFolders class
@@ -25,9 +25,11 @@ public class KnownFolders
 | Name | Description |
 | --- | --- |
 | static readonly [Archive](../../aspose.email.clients.graph/knownfolders/archive/) | The archive folder messages are sent to when using the One_Click Archive feature in Outlook clients that support it. Note: this is not the same as the Archive Mailbox feature of Exchange online. |
+| static readonly [Calendars](../../aspose.email.clients.graph/knownfolders/calendars/) | Calendar group. |
 | static readonly [Clutter](../../aspose.email.clients.graph/knownfolders/clutter/) | The clutter folder low-priority messages are moved to when using the Clutter feature. |
 | static readonly [Conflicts](../../aspose.email.clients.graph/knownfolders/conflicts/) | The folder that contains conflicting items in the mailbox. |
-| static readonly [ContactFolders](../../aspose.email.clients.graph/knownfolders/contactfolders/) | Mail folders root |
+| static readonly [ContactFolders](../../aspose.email.clients.graph/knownfolders/contactfolders/) | For contacts contained in the child folder of a contactFolder. |
+| static readonly [Contacts](../../aspose.email.clients.graph/knownfolders/contacts/) | Default Contacts folder. |
 | static readonly [ConversationHistory](../../aspose.email.clients.graph/knownfolders/conversationhistory/) | The folder where Skype saves IM conversations (if Skype is configured to do so). |
 | static readonly [DeletedItems](../../aspose.email.clients.graph/knownfolders/deleteditems/) | The folder items are moved to when they are deleted. |
 | static readonly [Drafts](../../aspose.email.clients.graph/knownfolders/drafts/) | The folder that contains unsent messages. |

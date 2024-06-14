@@ -3,7 +3,7 @@ title: Class MapiMessageItemBase
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessageItemBase class. Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients
 type: docs
-weight: 18520
+weight: 18580
 url: /net/aspose.email.mapi/mapimessageitembase/
 ---
 ## MapiMessageItemBase class

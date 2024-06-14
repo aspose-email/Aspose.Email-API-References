@@ -3,7 +3,7 @@ title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.email.mapi/mapicalendarexceptioninfo/
 ---
 

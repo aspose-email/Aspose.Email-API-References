@@ -3,7 +3,7 @@ title: Enum FileAsMapping
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.FileAsMapping enum. Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change. Coincides MSOXPROPS revision 16.2 from 7/31/2014
 type: docs
-weight: 19450
+weight: 19510
 url: /net/aspose.email.personalinfo/fileasmapping/
 ---
 ## FileAsMapping enumeration

@@ -3,7 +3,7 @@ title: Enum EmlValidationErrorType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.EmlValidationErrorType enum. Enumerates the types of the eml validation errors
 type: docs
-weight: 17310
+weight: 17360
 url: /net/aspose.email/emlvalidationerrortype/
 ---
 ## EmlValidationErrorType enumeration

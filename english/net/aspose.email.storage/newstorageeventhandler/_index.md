@@ -3,7 +3,7 @@ title: Delegate NewStorageEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents a delegate for handling events that occur after a new storage file is created or processed
 type: docs
-weight: 20200
+weight: 20260
 url: /net/aspose.email.storage/newstorageeventhandler/
 ---
 ## NewStorageEventHandler delegate

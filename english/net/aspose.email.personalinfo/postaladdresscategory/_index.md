@@ -3,7 +3,7 @@ title: Class PostalAddressCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.PostalAddressCategory class. Represents category for a postal address
 type: docs
-weight: 19540
+weight: 19600
 url: /net/aspose.email.personalinfo/postaladdresscategory/
 ---
 ## PostalAddressCategory class

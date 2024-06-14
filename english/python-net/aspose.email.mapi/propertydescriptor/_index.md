@@ -3,7 +3,7 @@ title: PropertyDescriptor
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 780
+weight: 790
 url: /python-net/aspose.email.mapi/propertydescriptor/
 ---
 

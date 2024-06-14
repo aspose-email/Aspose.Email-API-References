@@ -3,7 +3,7 @@ title: KnownFolders.Conflicts
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The folder that contains conflicting items in the mailbox
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.clients.graph/knownfolders/conflicts/
 ---
 ## KnownFolders.Conflicts field

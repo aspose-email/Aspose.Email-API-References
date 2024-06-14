@@ -3,7 +3,7 @@ title: Class MapiContactEventPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactEventPropertySet class. Specify events associated with a contact
 type: docs
-weight: 18250
+weight: 18310
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet class

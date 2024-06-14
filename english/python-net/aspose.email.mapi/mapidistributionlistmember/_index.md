@@ -3,7 +3,7 @@ title: MapiDistributionListMember
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 510
 url: /python-net/aspose.email.mapi/mapidistributionlistmember/
 ---
 

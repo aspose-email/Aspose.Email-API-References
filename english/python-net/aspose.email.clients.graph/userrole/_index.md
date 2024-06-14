@@ -3,7 +3,7 @@ title: UserRole
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 310
 url: /python-net/aspose.email.clients.graph/userrole/
 ---
 

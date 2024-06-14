@@ -6,6 +6,88 @@ type: docs
 weight: 590
 url: /net/aspose.email.clients.imap/imapclient/deletemessages/
 ---
+## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## DeleteMessages(IEnumerable&lt;int&gt;) {#deletemessages_22}
+
+Marks a message with the specified sequence number as deleted
+
+```csharp
+public void DeleteMessages(IEnumerable<int> sequenceSet)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
+
+### See Also
+
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessages(IEnumerable&lt;string&gt;) {#deletemessages_24}
 
 Marks a message with the specified sequence number as deleted
@@ -769,88 +851,6 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;int&gt;) {#deletemessages_6}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IConnection, IEnumerable&lt;string&gt;) {#deletemessages_8}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uidSet | IEnumerable`1 | The set of UID for messages |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *uidSet* is null or empty. |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessages(IEnumerable&lt;int&gt;) {#deletemessages_22}
-
-Marks a message with the specified sequence number as deleted
-
-```csharp
-public void DeleteMessages(IEnumerable<int> sequenceSet)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception/) | If *sequenceSet* is null or empty. |
-
-### See Also
-
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

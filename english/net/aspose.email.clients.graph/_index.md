@@ -14,6 +14,8 @@ The **Aspose.Email.Clients.Graph** namespace provides classes for access to acce
 | --- | --- |
 | [BaseRestObject](./baserestobject/) | Represents functionality for base object. |
 | [Bucket](./bucket/) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 The plannerBucket resource represents a bucket (or "custom column") for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks. |
+| [CalendarInfo](./calendarinfo/) | Represents information about calendar. |
+| [CalendarInfoCollection](./calendarinfocollection/) | Represents collection of GraphCalendarInfo. |
 | [ClassificationOverride](./classificationoverride/) | Represents a user's override for how incoming messages from a specific sender should always be classified as. |
 | [FolderInfo](./folderinfo/) | Represents information about personal folder. |
 | [FolderInfoCollection](./folderinfocollection/) | Represents collection of GraphFolderInfo. |
@@ -42,8 +44,11 @@ The **Aspose.Email.Clients.Graph** namespace provides classes for access to acce
 
 | Enumeration | Description |
 | --- | --- |
+| [CalendarColor](./calendarcolor/) | Enumerates the color theme to distinguish the calendar from other calendars in a UI. The property values are: auto, lightBlue, lightGreen, lightOrange, lightGray, lightYellow, lightTeal, lightPink, lightBrown, lightRed, maxColor. |
+| [CalendarRoleType](./calendarroletype/) | Represent sharing or delegating permission levels for the calendar. |
 | [CategoryPreset](./categorypreset/) | A pre-set color enumeration that characterizes a categories, and that is mapped to one of 25 predefined colors. Note The possible values for color are pre-set constants such as None, preset0 and preset1. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
 | [ClassificationType](./classificationtype/) | https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0 Specifies how incoming messages from a specific sender should always be classified as. |
+| [OnlineMeetingProvider](./onlinemeetingprovider/) | The default online meeting provider for meetings sent from this calendar. Possible values are: unknown, skypeForBusiness, skypeForConsumer, teamsForBusiness. |
 | [ResourceType](./resourcetype/) | The resource in Microsoft Graph that you're referencing. |
 | [UserRole](./userrole/) | OneNote user role |
 

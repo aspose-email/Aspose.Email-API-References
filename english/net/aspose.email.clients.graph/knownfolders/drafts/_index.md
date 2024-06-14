@@ -3,7 +3,7 @@ title: KnownFolders.Drafts
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The folder that contains unsent messages
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.email.clients.graph/knownfolders/drafts/
 ---
 ## KnownFolders.Drafts field

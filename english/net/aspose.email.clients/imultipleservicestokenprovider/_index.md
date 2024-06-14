@@ -3,7 +3,7 @@ title: Interface IMultipleServicesTokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.IMultipleServicesTokenProvider interface. Defines interface allowing to retrieve access token
 type: docs
-weight: 16170
+weight: 16220
 url: /net/aspose.email.clients/imultipleservicestokenprovider/
 ---
 ## IMultipleServicesTokenProvider interface

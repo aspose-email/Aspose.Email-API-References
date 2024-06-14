@@ -3,7 +3,7 @@ title: Class PageSettingsAsync
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.PageSettingsAsync class. The settings for the ImapClient.BeginListMessagesByPage async method
 type: docs
-weight: 16640
+weight: 16690
 url: /net/aspose.email.clients.imap/pagesettingsasync/
 ---
 ## PageSettingsAsync class

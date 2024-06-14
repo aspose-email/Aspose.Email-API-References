@@ -3,7 +3,7 @@ title: Interface IGraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.IGraphClient interface. Represents the interface for Exchange REST client
 type: docs
-weight: 15950
+weight: 15990
 url: /net/aspose.email.clients.graph/igraphclient/
 ---
 ## IGraphClient interface
@@ -34,7 +34,9 @@ public interface IGraphClient : IDisposable
 | [CopyMessage](../../aspose.email.clients.graph/igraphclient/copymessage/)(string, string) | Copy a Message to another mailfolder. |
 | [CopyNotebook](../../aspose.email.clients.graph/igraphclient/copynotebook/)(string, string, string) | Copies a notebook to the Notebooks folder in the destination Documents library. The folder is created if it doesn't exist. For Copy operations, you follow an asynchronous calling pattern: First call the Copy action, and then poll the operation endpoint for the result. Permissions One of the following permissions is required to call this API. Delegated(work or school account) Notes.Create, Notes.ReadWrite, Notes.ReadWrite.All Delegated(personal Microsoft account) Notes.Create, Notes.ReadWrite Application Notes.ReadWrite.All |
 | [CreateAttachment](../../aspose.email.clients.graph/igraphclient/createattachment/)(string, MapiAttachment) | Creates new attachment for specified item |
+| [CreateCalendarItem](../../aspose.email.clients.graph/igraphclient/createcalendaritem/)(string, MapiCalendar) | Creates MapiCalendar in specified calendar |
 | [CreateCategory](../../aspose.email.clients.graph/igraphclient/createcategory/)(string, CategoryPreset) | Creates an [`OutlookCategory`](../outlookcategory/) object in the user's master list of categories. |
+| [CreateContact](../../aspose.email.clients.graph/igraphclient/createcontact/)(string, MapiContact) | Creates contact in specified folder |
 | [CreateFolder](../../aspose.email.clients.graph/igraphclient/createfolder/#createfolder)(string) | Create new folder. |
 | [CreateFolder](../../aspose.email.clients.graph/igraphclient/createfolder/#createfolder_1)(string, string) | Create new folder. |
 | [CreateMessage](../../aspose.email.clients.graph/igraphclient/createmessage/#createmessage)(string, MailMessage) | Creates message in specified folder |
@@ -46,14 +48,19 @@ public interface IGraphClient : IDisposable
 | [Delete](../../aspose.email.clients.graph/igraphclient/delete/)(string) | Delete object. |
 | [DeleteAttachment](../../aspose.email.clients.graph/igraphclient/deleteattachment/)(string) | Removes attachment |
 | [FetchAttachment](../../aspose.email.clients.graph/igraphclient/fetchattachment/)(string) | Gets attachment for specified id |
+| [FetchCalendarItem](../../aspose.email.clients.graph/igraphclient/fetchcalendaritem/)(string) | Gets MapiCalendar for specified id |
 | [FetchCategory](../../aspose.email.clients.graph/igraphclient/fetchcategory/)(string) | Get the properties and relationships of the specified outlookCategory object. |
+| [FetchContact](../../aspose.email.clients.graph/igraphclient/fetchcontact/)(string) | Gets MapiContact for specified id |
 | [FetchMessage](../../aspose.email.clients.graph/igraphclient/fetchmessage/)(string) | Gets message in specified id |
 | [FetchNotebook](../../aspose.email.clients.graph/igraphclient/fetchnotebook/)(string) | Retrieve the properties and relationships of a notebook object. Permissions One of the following permissions is required to call this API. Delegated (work or school account) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All Delegated (personal Microsoft account) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All |
 | [FetchRule](../../aspose.email.clients.graph/igraphclient/fetchrule/)(string) | Get the properties and relationships of a message rule object. Permissions One of the following permissions is required to call this API.To learn more, including how to choose permissions, see Permissions. Delegated (work or school account) MailboxSettings.Read Delegated (personal Microsoft account) MailboxSettings.Read Application MailboxSettings.Read |
 | [GetFolder](../../aspose.email.clients.graph/igraphclient/getfolder/)(string) | Gets folder by an id. |
 | [GetOneNoteOperationStatus](../../aspose.email.clients.graph/igraphclient/getonenoteoperationstatus/)(string) | Get the status of a long-running OneNote operation. This applies to operations that return the Operation-Location header in the response, such as CopyNotebook, CopyToNotebook, CopyToSectionGroup, and CopyToSection. You can poll the Operation-Location endpoint until the status property returns completed or failed. If the status is completed, the resourceLocation property contains the resource endpoint URI. If the status is failed, the error and @api.diagnostics properties provide error information. |
 | [ListAttachments](../../aspose.email.clients.graph/igraphclient/listattachments/)(string) | List Attachments from the parent message. |
+| [ListCalendarItems](../../aspose.email.clients.graph/igraphclient/listcalendaritems/)(string) | List MapiCalendar from the calendar. |
+| [ListCalendars](../../aspose.email.clients.graph/igraphclient/listcalendars/)() |  |
 | [ListCategories](../../aspose.email.clients.graph/igraphclient/listcategories/)() | Get all the categories that have been defined for the user. |
+| [ListContacts](../../aspose.email.clients.graph/igraphclient/listcontacts/)(string) | List MapiContact from the parent folder. |
 | [ListFolders](../../aspose.email.clients.graph/igraphclient/listfolders/#listfolders)() | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [ListFolders](../../aspose.email.clients.graph/igraphclient/listfolders/#listfolders_1)(string) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [ListMessages](../../aspose.email.clients.graph/igraphclient/listmessages/#listmessages_1)(string) | List MessageInfo from the parent folder. |
@@ -69,7 +76,10 @@ public interface IGraphClient : IDisposable
 | [Send](../../aspose.email.clients.graph/igraphclient/send/#send_2)(MapiMessage, bool) | Sends email message |
 | [SendAsMime](../../aspose.email.clients.graph/igraphclient/sendasmime/)(MapiMessage) | Sends email message using MIME format |
 | [SetRead](../../aspose.email.clients.graph/igraphclient/setread/)(string) | Mark message as read |
+| [UpdateCalendarItem](../../aspose.email.clients.graph/igraphclient/updatecalendaritem/#updatecalendaritem)(MapiCalendar) | Updates MapiCalendar |
+| [UpdateCalendarItem](../../aspose.email.clients.graph/igraphclient/updatecalendaritem/#updatecalendaritem_1)(MapiCalendar, UpdateSettings) | Updates appointment |
 | [UpdateCategory](../../aspose.email.clients.graph/igraphclient/updatecategory/)(OutlookCategory) | Updates pre-set color constant for specified category |
+| [UpdateContact](../../aspose.email.clients.graph/igraphclient/updatecontact/)(MapiContact) | Updates contact |
 | [UpdateFolder](../../aspose.email.clients.graph/igraphclient/updatefolder/)(FolderInfo) | Updates folder. |
 | [UpdateMessage](../../aspose.email.clients.graph/igraphclient/updatemessage/#updatemessage)(MailMessage) | Updates message |
 | [UpdateMessage](../../aspose.email.clients.graph/igraphclient/updatemessage/#updatemessage_2)(MapiMessage) | Updates message |

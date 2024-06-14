@@ -3,7 +3,7 @@ title: Class PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.PidLidPropertyDescriptor class. Class contains property description information
 type: docs
-weight: 19020
+weight: 19080
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor class

@@ -3,7 +3,7 @@ title: KnownFolders.Junkemail
 second_title: Aspose.Email for .NET API Reference
 description: KnownFolders field. The junk email folder
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.email.clients.graph/knownfolders/junkemail/
 ---
 ## KnownFolders.Junkemail field

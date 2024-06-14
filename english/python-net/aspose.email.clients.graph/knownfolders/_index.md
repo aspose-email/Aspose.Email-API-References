@@ -3,7 +3,7 @@ title: KnownFolders
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 140
 url: /python-net/aspose.email.clients.graph/knownfolders/
 ---
 
@@ -19,7 +19,9 @@ The KnownFolders type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|CONTACT_FOLDERS|Mail folders root|
+|CALENDARS|Calendar group.|
+|CONTACTS|Default Contacts folder.|
+|CONTACT_FOLDERS|For contacts contained in the child folder of a contactFolder.|
 |MAIL_FOLDERS|Mail folders root|
 |ARCHIVE|The archive folder messages are sent to when using the One_Click Archive feature in Outlook clients that support it. <br/>            Note: this is not the same as the Archive Mailbox feature of Exchange online.|
 |CLUTTER|The clutter folder low-priority messages are moved to when using the Clutter feature.|
