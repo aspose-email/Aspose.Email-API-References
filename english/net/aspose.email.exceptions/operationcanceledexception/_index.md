@@ -3,7 +3,7 @@ title: Class OperationCanceledException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Exceptions.OperationCanceledException class. Represents errors that occur when an operation canceled
 type: docs
-weight: 17440
+weight: 17490
 url: /net/aspose.email.exceptions/operationcanceledexception/
 ---
 ## OperationCanceledException class

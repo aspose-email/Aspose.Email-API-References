@@ -3,7 +3,7 @@ title: IGraphClient.ListCalendarItems
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List MapiCalendar from the calendar
 type: docs
-weight: 320
+weight: 370
 url: /net/aspose.email.clients.graph/igraphclient/listcalendaritems/
 ---
 ## IGraphClient.ListCalendarItems method

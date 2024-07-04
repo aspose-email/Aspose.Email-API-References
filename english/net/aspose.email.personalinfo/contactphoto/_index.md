@@ -3,7 +3,7 @@ title: Class ContactPhoto
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.ContactPhoto class. Represents contact photo
 type: docs
-weight: 19440
+weight: 19500
 url: /net/aspose.email.personalinfo/contactphoto/
 ---
 ## ContactPhoto class

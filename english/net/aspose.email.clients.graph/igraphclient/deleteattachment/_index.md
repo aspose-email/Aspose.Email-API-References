@@ -3,7 +3,7 @@ title: IGraphClient.DeleteAttachment
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Removes attachment
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.email.clients.graph/igraphclient/deleteattachment/
 ---
 ## IGraphClient.DeleteAttachment method

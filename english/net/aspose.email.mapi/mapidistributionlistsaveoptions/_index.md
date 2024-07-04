@@ -3,7 +3,7 @@ title: Class MapiDistributionListSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiDistributionListSaveOptions class. Specifies the DistributionList save options
 type: docs
-weight: 18500
+weight: 18550
 url: /net/aspose.email.mapi/mapidistributionlistsaveoptions/
 ---
 ## MapiDistributionListSaveOptions class

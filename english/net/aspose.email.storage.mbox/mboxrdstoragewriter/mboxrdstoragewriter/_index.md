@@ -6,18 +6,18 @@ type: docs
 weight: 10
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/mboxrdstoragewriter/
 ---
-## MboxrdStorageWriter(Stream, bool) {#constructor}
+## MboxrdStorageWriter(Stream, MboxSaveOptions) {#constructor}
 
 Initializes a new instance of the [`MboxrdStorageWriter`](../) class.
 
 ```csharp
-public MboxrdStorageWriter(Stream stream, bool leaveOpen)
+public MboxrdStorageWriter(Stream stream, MboxSaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream. |
-| leaveOpen | Boolean | if set to `true` leaves the underlying stream open after disposing. |
+| options | MboxSaveOptions | Additional options [`MboxSaveOptions`](../../mboxsaveoptions/) |
 
 ### Exceptions
 
@@ -27,24 +27,25 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 
 ### See Also
 
+* class [MboxSaveOptions](../../mboxsaveoptions/)
 * class [MboxrdStorageWriter](../)
 * namespace [Aspose.Email.Storage.Mbox](../../mboxrdstoragewriter/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## MboxrdStorageWriter(string, bool) {#constructor_1}
+## MboxrdStorageWriter(string, MboxSaveOptions) {#constructor_2}
 
 Initializes a new instance of the [`MboxrdStorageWriter`](../) class.
 
 ```csharp
-public MboxrdStorageWriter(string fileName, bool leaveOpen)
+public MboxrdStorageWriter(string fileName, MboxSaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | Name of the file. |
-| leaveOpen | Boolean | if set to `true` leaves the underlying stream open after disposing. |
+| options | MboxSaveOptions | Additional options [`MboxSaveOptions`](../../mboxsaveoptions/) |
 
 ### Exceptions
 
@@ -54,6 +55,7 @@ public MboxrdStorageWriter(string fileName, bool leaveOpen)
 
 ### See Also
 
+* class [MboxSaveOptions](../../mboxsaveoptions/)
 * class [MboxrdStorageWriter](../)
 * namespace [Aspose.Email.Storage.Mbox](../../mboxrdstoragewriter/)
 * assembly [Aspose.Email](../../../)

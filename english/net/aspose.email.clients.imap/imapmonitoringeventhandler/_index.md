@@ -3,7 +3,7 @@ title: Delegate ImapMonitoringEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the method that will handle an imap monitoring event
 type: docs
-weight: 16470
+weight: 16520
 url: /net/aspose.email.clients.imap/imapmonitoringeventhandler/
 ---
 ## ImapMonitoringEventHandler delegate

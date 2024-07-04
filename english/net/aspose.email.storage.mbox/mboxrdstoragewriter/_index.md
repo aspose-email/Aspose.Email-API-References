@@ -3,7 +3,7 @@ title: Class MboxrdStorageWriter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxrdStorageWriter class. Represents mboxrd format storage writer this format is being used by Thunderbird and other mail clients
 type: docs
-weight: 20210
+weight: 20280
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class
@@ -18,8 +18,8 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 
 | Name | Description |
 | --- | --- |
-| [MboxrdStorageWriter](mboxrdstoragewriter/#constructor)(Stream, bool) | Initializes a new instance of the `MboxrdStorageWriter` class. |
-| [MboxrdStorageWriter](mboxrdstoragewriter/#constructor_1)(string, bool) | Initializes a new instance of the `MboxrdStorageWriter` class. |
+| [MboxrdStorageWriter](mboxrdstoragewriter/#constructor)(Stream, MboxSaveOptions) | Initializes a new instance of the `MboxrdStorageWriter` class. |
+| [MboxrdStorageWriter](mboxrdstoragewriter/#constructor_2)(string, MboxSaveOptions) | Initializes a new instance of the `MboxrdStorageWriter` class. |
 
 ## Properties
 

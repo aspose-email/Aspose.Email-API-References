@@ -3,7 +3,7 @@ title: Class PageSettings
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.PageSettings class. The settings for the ImapClient.ListMessagesByPage method
 type: docs
-weight: 16680
+weight: 16730
 url: /net/aspose.email.clients.imap/pagesettings/
 ---
 ## PageSettings class

@@ -18,6 +18,32 @@ public MapiMessage GetUnderlyingMessage()
 
 The [`MapiMessage`](../../mapimessage/) object.
 
+## Examples
+
+Retrieves the underlying MAPI message from a MapiCalendar object and prints out its message class.
+
+[C#]
+
+```csharp
+// Retrieve the underlying MAPI message from the MapiCalendar object
+MapiMessage msg = mapiCalendar.GetUnderlyingMessage();
+   
+// Print out the message class of the MAPI message
+// Will output "IPM.Appointment"
+Console.WriteLine(msg.MessageClass);
+```
+
+[Visual Basic]
+
+```csharp
+' Retrieve the underlying MAPI message from the MapiCalendar object
+Dim msg As MapiMessage = mapiCalendar.GetUnderlyingMessage()
+
+' Print out the message class of the MAPI message
+' Will output "IPM.Appointment"
+Console.WriteLine(msg.MessageClass)
+```
+
 ### See Also
 
 * class [MapiMessage](../../mapimessage/)

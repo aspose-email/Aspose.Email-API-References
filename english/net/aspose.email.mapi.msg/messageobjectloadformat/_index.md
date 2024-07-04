@@ -3,7 +3,7 @@ title: Enum MessageObjectLoadFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.MessageObjectLoadFormat enum. Represents available formats MessageObject could be loaded from
 type: docs
-weight: 18960
+weight: 19020
 url: /net/aspose.email.mapi.msg/messageobjectloadformat/
 ---
 ## MessageObjectLoadFormat enumeration

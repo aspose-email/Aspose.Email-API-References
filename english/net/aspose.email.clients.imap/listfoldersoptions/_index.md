@@ -3,7 +3,7 @@ title: Enum ListFoldersOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ListFoldersOptions enum. The folder list selection options Please note this options are supported in case if server supports RFC 5258 IMAP LIST Command Extensions See more details in https//tools.ietf.org/html/rfc5258
 type: docs
-weight: 16560
+weight: 16610
 url: /net/aspose.email.clients.imap/listfoldersoptions/
 ---
 ## ListFoldersOptions enumeration

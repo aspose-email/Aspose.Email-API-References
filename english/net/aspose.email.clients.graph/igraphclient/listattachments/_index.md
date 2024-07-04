@@ -3,7 +3,7 @@ title: IGraphClient.ListAttachments
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List Attachments from the parent message
 type: docs
-weight: 310
+weight: 360
 url: /net/aspose.email.clients.graph/igraphclient/listattachments/
 ---
 ## IGraphClient.ListAttachments method

@@ -3,7 +3,7 @@ title: Interface IConnection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.IConnection interface. IConnectionAdapter allows to manage connection to a server
 type: docs
-weight: 16210
+weight: 16240
 url: /net/aspose.email.clients/iconnection/
 ---
 ## IConnection interface

@@ -32,6 +32,8 @@ The **Aspose.Email.Clients.Graph** namespace provides classes for access to acce
 | [NotebookLinks](./notebooklinks/) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Links for opening a OneNote notebook. |
 | [OnenoteOperation](./onenoteoperation/) | The status of certain long-running OneNote operations. |
 | [OutlookCategory](./outlookcategory/) | Represents a category by which a user can group Outlook items such as messages and events. The user defines categories in a master list, and can apply one or more of these user-defined categories to an item. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0 |
+| [TaskListInfo](./tasklistinfo/) | Represents information about TaskList. |
+| [TaskListInfoCollection](./tasklistinfocollection/) | Represents collection of TaskListInfo. |
 | [Thumbnail](./thumbnail/) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation. |
 | [ThumbnailSet](./thumbnailset/) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem. |
 | [UpdateSettings](./updatesettings/) | Update settings |
@@ -51,5 +53,6 @@ The **Aspose.Email.Clients.Graph** namespace provides classes for access to acce
 | [OnlineMeetingProvider](./onlinemeetingprovider/) | The default online meeting provider for meetings sent from this calendar. Possible values are: unknown, skypeForBusiness, skypeForConsumer, teamsForBusiness. |
 | [ResourceType](./resourcetype/) | The resource in Microsoft Graph that you're referencing. |
 | [UserRole](./userrole/) | OneNote user role |
+| [WellknownTaskListName](./wellknowntasklistname/) | Property indicating the list name if the given list is a well-known list. Possible values are: none, defaultList, flaggedEmails, unknownFutureValue. |
 
 

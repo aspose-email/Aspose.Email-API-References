@@ -3,7 +3,7 @@ title: Class MsgSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MsgSaveOptions class. This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format
 type: docs
-weight: 19370
+weight: 19430
 url: /net/aspose.email/msgsaveoptions/
 ---
 ## MsgSaveOptions class
@@ -26,7 +26,7 @@ public class MsgSaveOptions : SaveOptions
 | --- | --- |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
-| [PreserveOriginalDates](../../aspose.email/msgsaveoptions/preserveoriginaldates/) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now. |
+| [PreserveOriginalDates](../../aspose.email/msgsaveoptions/preserveoriginaldates/) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now. |
 
 ## Examples
 

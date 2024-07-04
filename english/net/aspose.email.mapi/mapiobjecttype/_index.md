@@ -3,7 +3,7 @@ title: Enum MapiObjectType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiObjectType enum. Represents the mapi object type
 type: docs
-weight: 18660
+weight: 18710
 url: /net/aspose.email.mapi/mapiobjecttype/
 ---
 ## MapiObjectType enumeration

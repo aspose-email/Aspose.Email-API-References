@@ -3,7 +3,7 @@ title: Enum NoteSaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.NoteSaveFormat enum. Enumerates NoteSaveFormat
 type: docs
-weight: 19050
+weight: 19110
 url: /net/aspose.email.mapi/notesaveformat/
 ---
 ## NoteSaveFormat enumeration

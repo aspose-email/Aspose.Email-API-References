@@ -12,6 +12,8 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 
 | Class | Description |
 | --- | --- |
+| [AppendMessagesFromFileResult](./appendmessagesfromfileresult/) | Contains result of operation with messages |
+| [AppendMessagesFromMessageObjectResult](./appendmessagesfrommessageobjectresult/) | Contains result of operation with messages |
 | [AppendMessagesResult](./appendmessagesresult/) | Contains result of operation with messages |
 | [BackupSettings](./backupsettings/) | Class contains options for backup operation |
 | [BaseSearchConditions](./basesearchconditions/) | Provides base class for the search conditions. |

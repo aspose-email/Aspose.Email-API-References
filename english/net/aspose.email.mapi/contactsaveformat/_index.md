@@ -3,7 +3,7 @@ title: Enum ContactSaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.ContactSaveFormat enum. Enumerates contact save formats
 type: docs
-weight: 17830
+weight: 17880
 url: /net/aspose.email.mapi/contactsaveformat/
 ---
 ## ContactSaveFormat enumeration

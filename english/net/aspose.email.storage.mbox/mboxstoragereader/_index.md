@@ -1,14 +1,14 @@
 ---
 title: Class MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Mbox.MboxStorageReader class. A base class for any mboxbased mail storage reader
+description: Aspose.Email.Storage.Mbox.MboxStorageReader class. Represents an MBOX file and provides methods for reading and extracting messages. The MBOX file format is used for storing a collection of email messages
 type: docs
-weight: 20170
+weight: 20240
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
 
-A base class for any mbox-based mail storage reader.
+Represents an MBOX file and provides methods for reading and extracting messages. The MBOX file format is used for storing a collection of email messages.
 
 ```csharp
 public abstract class MboxStorageReader : IDisposable
@@ -53,6 +53,51 @@ public abstract class MboxStorageReader : IDisposable
 | event [EmlCopying](../../aspose.email.storage.mbox/mboxstoragereader/emlcopying/) | Event that occurs before the [`MailMessage`](../../aspose.email/mailmessage/) object copy process, within the [`SplitInto`](./splitinto/) method. |
 | event [MboxFileCreated](../../aspose.email.storage.mbox/mboxstoragereader/mboxfilecreated/) | Event that occurs when a new MBOX file is created during the [`SplitInto`](./splitinto/) method. |
 | event [MboxFileFilled](../../aspose.email.storage.mbox/mboxstoragereader/mboxfilefilled/) | Event that occurs after filling an MBOX file with data within the [`SplitInto`](./splitinto/) method. |
+
+## Examples
+
+The following code provided is intended for processing email messages stored in an MBOX file using the MboxStorageReader class.
+
+[C#]
+
+```csharp
+// Create an instance of the MboxStorageReader using the factory method 'CreateReader'.
+var mbox = MboxStorageReader.CreateReader("storage.mbox", new MboxLoadOptions());
+
+// Iterate through each message info object in the mbox storage.
+foreach (var mboxMessageInfo in mbox.EnumerateMessageInfo())
+{
+    Console.WriteLine($"Subject: {mboxMessageInfo.Subject}");
+    Console.WriteLine($"From: {mboxMessageInfo.From}");
+    Console.WriteLine($"To: {mboxMessageInfo.To}");
+
+    // Extract the full MIME message object from the MBOX storage using the message's unique entry ID.
+    var eml = mbox.ExtractMessage(mboxMessageInfo.EntryId, new EmlLoadOptions());
+    
+    // Save the extracted MIME message as an .eml file.
+    eml.Save($"{eml.Subject}.eml");
+}
+```
+
+[Visual Basic]
+
+```csharp
+' Create an instance of the MboxStorageReader using the factory method 'CreateReader'.
+Dim mbox As MboxStorageReader = MboxStorageReader.CreateReader("storage.mbox", New MboxLoadOptions())
+
+' Iterate through each message info object in the mbox storage.
+For Each mboxMessageInfo As var In mbox.EnumerateMessageInfo()
+    Console.WriteLine($"Subject: {mboxMessageInfo.Subject}")
+    Console.WriteLine($"From: {mboxMessageInfo.From}")
+    Console.WriteLine($"To: {mboxMessageInfo.To}")
+
+    ' Extract the full MIME message object from the MBOX storage using the message's unique entry ID.
+    Dim eml As var = mbox.ExtractMessage(mboxMessageInfo.EntryId, New EmlLoadOptions())
+
+    ' Save the extracted MIME message as an .eml file.
+    eml.Save($"{eml.Subject}.eml")
+Next
+```
 
 ### See Also
 

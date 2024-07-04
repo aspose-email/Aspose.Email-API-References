@@ -3,7 +3,7 @@ title: IGraphClient.MoveMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Move a message to another mailfolder
 type: docs
-weight: 420
+weight: 490
 url: /net/aspose.email.clients.graph/igraphclient/movemessage/
 ---
 ## IGraphClient.MoveMessage method

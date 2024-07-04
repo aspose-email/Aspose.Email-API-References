@@ -3,7 +3,7 @@ title: Class SimpleSeqSet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.SimpleSeqSet class. Simple container for value to search
 type: docs
-weight: 16760
+weight: 16810
 url: /net/aspose.email.clients.imap/simpleseqset/
 ---
 ## SimpleSeqSet class

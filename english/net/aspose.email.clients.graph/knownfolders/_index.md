@@ -45,6 +45,7 @@ public class KnownFolders
 | static readonly [SentItems](../../aspose.email.clients.graph/knownfolders/sentitems/) | The sent items folder. |
 | static readonly [ServerFailures](../../aspose.email.clients.graph/knownfolders/serverfailures/) | The folder that contains items that exist on the server but could not be synchronized to the local client. |
 | static readonly [SyncIssues](../../aspose.email.clients.graph/knownfolders/syncissues/) | The folder that contains synchronization logs created by Outlook. |
+| static readonly [TodoTasks](../../aspose.email.clients.graph/knownfolders/todotasks/) | TodoTasks group. |
 
 ### See Also
 

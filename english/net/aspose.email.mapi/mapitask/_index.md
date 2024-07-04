@@ -1,14 +1,14 @@
 ---
 title: Class MapiTask
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiTask class. Represents the Outlook Task object
+description: Aspose.Email.Mapi.MapiTask class. Represents a MAPI task item
 type: docs
-weight: 18780
+weight: 18830
 url: /net/aspose.email.mapi/mapitask/
 ---
 ## MapiTask class
 
-Represents the Outlook Task object.
+Represents a MAPI task item.
 
 ```csharp
 public class MapiTask : MapiMessageItemBase
@@ -104,6 +104,47 @@ public class MapiTask : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling task information from MAPI properties. It provides a more intuitive interface for accessing and manipulating task data within the MAPI message.
+
+## Examples
+
+The following example demonstrates how to get a `MapiTask` object from a [`MapiMessage`](../mapimessage/).
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("task.msg");
+
+// Check if the loaded message is a supported task type
+if (msg.SupportedType == MapiItemType.Task)
+{
+    // Convert the MAPI message to a MapiTask object
+    var mapiTask = (MapiTask)msg.ToMapiMessageItem();
+    
+    // Display some task info
+    Console.WriteLine(mapiTask.Subject);
+    Console.WriteLine(mapiTask.DueDate);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("task.msg")
+
+' Check if the loaded message is a supported task type
+If msg.SupportedType = MapiItemType.Task Then
+    ' Convert the MAPI message to a MapiTask object
+    Dim mapiTask = DirectCast(msg.ToMapiMessageItem(), MapiTask)
+    
+    ' Display some task info
+    Console.WriteLine(mapiTask.Subject)
+    Console.WriteLine(mapiTask.DueDate)
+End If
+```
 
 ### See Also
 

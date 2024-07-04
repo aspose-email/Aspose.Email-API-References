@@ -3,7 +3,7 @@ title: Enum ListFoldersReturnOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ListFoldersReturnOptions enum. Return options for ListFolders operation Please note this options are supported in case if server supports RFC 5258 IMAP LIST Command Extensions See more details in https//tools.ietf.org/html/rfc5258
 type: docs
-weight: 16570
+weight: 16620
 url: /net/aspose.email.clients.imap/listfoldersreturnoptions/
 ---
 ## ListFoldersReturnOptions enumeration

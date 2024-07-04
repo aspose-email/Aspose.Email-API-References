@@ -3,7 +3,7 @@ title: Class MapiCalendarTimeZone
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarTimeZone class. Represents the mapi calendar time zone information
 type: docs
-weight: 18190
+weight: 18240
 url: /net/aspose.email.mapi/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone class

@@ -3,7 +3,7 @@ title: Class ImapMessageFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapMessageFlags class. Represents the flags associated with the message
 type: docs
-weight: 16410
+weight: 16460
 url: /net/aspose.email.clients.imap/imapmessageflags/
 ---
 ## ImapMessageFlags class

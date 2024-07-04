@@ -3,7 +3,7 @@ title: Class HeaderType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HeaderType class. Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages 
 type: docs
-weight: 17560
+weight: 17610
 url: /net/aspose.email/headertype/
 ---
 ## HeaderType class
