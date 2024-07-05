@@ -3,7 +3,7 @@ title: Enum MultiConnectionMode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.MultiConnectionMode enum. Enumerate modes which indicates how client has to use multiple connections for heavy loaded operations
 type: docs
-weight: 16820
+weight: 16870
 url: /net/aspose.email.clients/multiconnectionmode/
 ---
 ## MultiConnectionMode enumeration

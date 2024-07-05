@@ -3,7 +3,7 @@ title: Enum MapiTaskOwnership
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskOwnership enum. Indicates the role of the current user relative to the Task object
 type: docs
-weight: 18830
+weight: 18890
 url: /net/aspose.email.mapi/mapitaskownership/
 ---
 ## MapiTaskOwnership enumeration

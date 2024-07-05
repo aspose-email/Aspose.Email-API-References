@@ -3,7 +3,7 @@ title: Class MapiContactPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactPropertySet class. Base class for all sets of MapiContact properties
 type: docs
-weight: 18410
+weight: 18460
 url: /net/aspose.email.mapi/mapicontactpropertyset/
 ---
 ## MapiContactPropertySet class

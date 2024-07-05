@@ -132,7 +132,7 @@ public SmtpClient(string host, int port, SecurityOptions securityOptions)
 
 ---
 
-## SmtpClient(string, string, string) {#constructor_14}
+## SmtpClient(string, string, string) {#constructor_15}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -154,7 +154,7 @@ public SmtpClient(string host, string username, string password)
 
 ---
 
-## SmtpClient(string, string, string, SecurityOptions) {#constructor_15}
+## SmtpClient(string, string, string, SecurityOptions) {#constructor_16}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -227,7 +227,7 @@ public SmtpClient(string host, int port, string username, string password,
 
 ---
 
-## SmtpClient(string, string, string, bool) {#constructor_16}
+## SmtpClient(string, string, string, bool) {#constructor_17}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -250,7 +250,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth)
 
 ---
 
-## SmtpClient(string, string, string, bool, SecurityOptions) {#constructor_17}
+## SmtpClient(string, string, string, bool, SecurityOptions) {#constructor_18}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -327,7 +327,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## SmtpClient(string, string, ITokenProvider) {#constructor_12}
+## SmtpClient(string, string, ITokenProvider) {#constructor_13}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -350,7 +350,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider)
 
 ---
 
-## SmtpClient(string, string, ITokenProvider, SecurityOptions) {#constructor_13}
+## SmtpClient(string, string, ITokenProvider, SecurityOptions) {#constructor_14}
 
 Initializes a new instance of the [`SmtpClient`](../) class.
 
@@ -421,6 +421,31 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 
 * interface [ITokenProvider](../../../aspose.email.clients/itokenprovider/)
 * enum [SecurityOptions](../../../aspose.email.clients/securityoptions/)
+* class [SmtpClient](../)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SmtpClient(string, int, string, string, RemoteCertificateValidationCallback) {#constructor_12}
+
+Initializes a new instance of the [`SmtpClient`](../) class
+
+```csharp
+public SmtpClient(string host, int port, string username, string password, 
+    RemoteCertificateValidationCallback userCertificateValidationCallback)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| host | String | The host name |
+| port | Int32 | The portnumber |
+| username | String | The user name |
+| password | String | The password |
+| userCertificateValidationCallback | RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
+
+### See Also
+
 * class [SmtpClient](../)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient/)
 * assembly [Aspose.Email](../../../)

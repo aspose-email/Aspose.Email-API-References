@@ -3,7 +3,7 @@ title: Interface IMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.IMessage interface. Represents a common message interface
 type: docs
-weight: 17640
+weight: 17690
 url: /net/aspose.email/imessage/
 ---
 ## IMessage interface

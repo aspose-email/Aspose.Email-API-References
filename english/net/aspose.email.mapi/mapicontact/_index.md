@@ -1,14 +1,14 @@
 ---
 title: Class MapiContact
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContact class. Represents outlook contact information
+description: Aspose.Email.Mapi.MapiContact class. Represents a MAPI contact item
 type: docs
-weight: 18260
+weight: 18310
 url: /net/aspose.email.mapi/mapicontact/
 ---
 ## MapiContact class
 
-Represents outlook contact information
+Represents a MAPI contact item.
 
 ```csharp
 public sealed class MapiContact : MapiMessageItemBase
@@ -100,6 +100,47 @@ public sealed class MapiContact : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling contact information from MAPI properties. It provides a more intuitive interface for accessing and manipulating contact data within the MAPI message.
+
+## Examples
+
+The following exmaple demonstrates how to get MapiContact object from MapiMessage.
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("contact.msg");
+
+// Check if the loaded message is a supported contact type
+if (msg.SupportedType == MapiItemType.Contact)
+{
+    // Convert the MAPI message to a MapiContact object
+    var mapiContact = (MapiContact)msg.ToMapiMessageItem();
+    
+    // Display some contact info
+    Console.WriteLine(mapiContact.NameInfo.DisplayName);
+    Console.WriteLine(mapiContact.ElectronicAddresses.Email1.EmailAddress);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("contact.msg")
+
+' Check if the loaded message is a supported contact type
+If msg.SupportedType = MapiItemType.Contact Then
+    ' Convert the MAPI message to a MapiContact object
+    Dim mapiContact = DirectCast(msg.ToMapiMessageItem(), MapiContact)
+    
+    ' Display some contact info
+    Console.WriteLine(mapiContact.NameInfo.DisplayName)
+    Console.WriteLine(mapiContact.ElectronicAddresses.Email1.EmailAddress)
+End If
+```
 
 ### See Also
 

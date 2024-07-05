@@ -3,7 +3,7 @@ title: Enum MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarRecurrenceEndType enum. Enumerates the ending type for the recurrence
 type: docs
-weight: 18120
+weight: 18170
 url: /net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 ## MapiCalendarRecurrenceEndType enumeration

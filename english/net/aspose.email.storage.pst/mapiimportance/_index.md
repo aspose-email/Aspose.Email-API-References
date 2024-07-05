@@ -3,7 +3,7 @@ title: Enum MapiImportance
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.MapiImportance enum. Contains a values that indicates the message importance
 type: docs
-weight: 20420
+weight: 20490
 url: /net/aspose.email.storage.pst/mapiimportance/
 ---
 ## MapiImportance enumeration

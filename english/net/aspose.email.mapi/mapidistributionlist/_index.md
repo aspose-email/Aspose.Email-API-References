@@ -1,14 +1,14 @@
 ---
 title: Class MapiDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiDistributionList class. Represents the Personal Distribution List object
+description: Aspose.Email.Mapi.MapiDistributionList class. Represents a MAPI distribution list item
 type: docs
-weight: 18450
+weight: 18500
 url: /net/aspose.email.mapi/mapidistributionlist/
 ---
 ## MapiDistributionList class
 
-Represents the Personal Distribution List object.
+Represents a MAPI distribution list item.
 
 ```csharp
 public sealed class MapiDistributionList : MapiMessageItemBase
@@ -54,6 +54,8 @@ public sealed class MapiDistributionList : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
+| static [FromVCF](../../aspose.email.mapi/mapidistributionlist/fromvcf/#fromvcf)(Stream) | Loads MapiDistributionList from VCF stream. |
+| static [FromVCF](../../aspose.email.mapi/mapidistributionlist/fromvcf/#fromvcf_1)(string) | Loads MapiDistributionList from VCF file. |
 | virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of the property specified by tag as Boolean type. |
@@ -85,6 +87,47 @@ public sealed class MapiDistributionList : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling distribution list information from MAPI properties. It provides a more intuitive interface for accessing and manipulating distribution list data within the MAPI message.
+
+## Examples
+
+The following example demonstrates how to get a `MapiDistributionList` object from a [`MapiMessage`](../mapimessage/).
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("distributionList.msg");
+
+// Check if the loaded message is a supported distribution list type
+if (msg.SupportedType == MapiItemType.DistList)
+{
+    // Convert the MAPI message to a MapiDistributionList object
+    var mapiDistributionList = (MapiDistributionList)msg.ToMapiMessageItem();
+    
+    // Display some distribution list info
+    Console.WriteLine(mapiDistributionList.DisplayName);
+    Console.WriteLine(mapiDistributionList.Members.Count);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("distributionList.msg")
+
+' Check if the loaded message is a supported distribution list type
+If msg.SupportedType = MapiItemType.DistList Then
+    ' Convert the MAPI message to a MapiDistributionList object
+    Dim mapiDistributionList = DirectCast(msg.ToMapiMessageItem(), MapiDistributionList)
+    
+    ' Display some distribution list info
+    Console.WriteLine(mapiDistributionList.DisplayName)
+    Console.WriteLine(mapiDistributionList.Members.Count)
+End If
+```
 
 ### See Also
 

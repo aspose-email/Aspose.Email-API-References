@@ -3,7 +3,7 @@ title: Class MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactPhysicalAddressPropertySet class. Specify three physical addresses Home Address Work Address and Other Address. One of the addresses can be marked as the Mailing Address
 type: docs
-weight: 18390
+weight: 18440
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet class

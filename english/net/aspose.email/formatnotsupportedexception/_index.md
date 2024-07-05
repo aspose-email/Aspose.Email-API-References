@@ -3,7 +3,7 @@ title: Class FormatNotSupportedException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.FormatNotSupportedException class. Exception that is thrown during document load when the document format is not recognized or not supported by the component
 type: docs
-weight: 17530
+weight: 17580
 url: /net/aspose.email/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException class

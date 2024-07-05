@@ -3,7 +3,7 @@ title: Class TokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.TokenProvider class. Class TokenProvider allows to retrieve access token for mail services
 type: docs
-weight: 17170
+weight: 17220
 url: /net/aspose.email.clients/tokenprovider/
 ---
 ## TokenProvider class

@@ -3,7 +3,7 @@ title: Enum SmtpKnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpKnownAuthenticationType enum. 
 type: docs
-weight: 17120
+weight: 17170
 url: /net/aspose.email.clients.smtp/smtpknownauthenticationtype/
 ---
 ## SmtpKnownAuthenticationType enumeration

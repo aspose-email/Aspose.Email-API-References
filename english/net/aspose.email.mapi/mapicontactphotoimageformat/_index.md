@@ -3,7 +3,7 @@ title: Enum MapiContactPhotoImageFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactPhotoImageFormat enum. Enumerates MapiContact photo image format
 type: docs
-weight: 18370
+weight: 18420
 url: /net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 ## MapiContactPhotoImageFormat enumeration

@@ -3,7 +3,7 @@ title: Class MapiDistributionListMemberCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiDistributionListMemberCollection class. Represents a collection of MapiDistributionListMember objects
 type: docs
-weight: 18490
+weight: 18540
 url: /net/aspose.email.mapi/mapidistributionlistmembercollection/
 ---
 ## MapiDistributionListMemberCollection class
@@ -18,7 +18,7 @@ public sealed class MapiDistributionListMemberCollection : List<MapiDistribution
 
 | Name | Description |
 | --- | --- |
-| [MapiDistributionListMemberCollection](mapidistributionlistmembercollection/)() | The default constructor. |
+| [MapiDistributionListMemberCollection](mapidistributionlistmembercollection/)() | Initializes a new instance of the `MapiDistributionListMemberCollection` class. |
 
 ### See Also
 

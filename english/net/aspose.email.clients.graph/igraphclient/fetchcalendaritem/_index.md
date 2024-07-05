@@ -3,7 +3,7 @@ title: IGraphClient.FetchCalendarItem
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets MapiCalendar for specified id
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.email.clients.graph/igraphclient/fetchcalendaritem/
 ---
 ## IGraphClient.FetchCalendarItem method

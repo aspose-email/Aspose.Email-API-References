@@ -19,12 +19,9 @@ public MapiDistributionListMember(string displayName, string emailAddress)
 | displayName | String | The display name. |
 | emailAddress | String | The email address. |
 
-### Exceptions
+## Remarks
 
-| exception | condition |
-| --- | --- |
-| ArgumentException | If *displayName* is null or empty. |
-| ArgumentException | If *emailAddress* is null or empty. |
+If *displayName* is null or empty this element will not be displayed when you open this DistributionList in Outlook.
 
 ### See Also
 

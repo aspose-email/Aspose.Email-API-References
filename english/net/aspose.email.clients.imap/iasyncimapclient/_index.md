@@ -3,7 +3,7 @@ title: Interface IAsyncImapClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.IAsyncImapClient interface. Allows applications to access and manipulate messages by using the Internet Message Access Protocol IMAP
 type: docs
-weight: 16290
+weight: 16340
 url: /net/aspose.email.clients.imap/iasyncimapclient/
 ---
 ## IAsyncImapClient interface

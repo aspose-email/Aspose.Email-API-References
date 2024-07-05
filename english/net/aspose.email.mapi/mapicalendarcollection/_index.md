@@ -3,7 +3,7 @@ title: Class MapiCalendarCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarCollection class. Represents the collection of MapiCalendar
 type: docs
-weight: 18010
+weight: 18060
 url: /net/aspose.email.mapi/mapicalendarcollection/
 ---
 ## MapiCalendarCollection class

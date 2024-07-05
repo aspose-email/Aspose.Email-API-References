@@ -3,7 +3,7 @@ title: Class BackupSettings
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.BackupSettings class. Class contains options for backup operation
 type: docs
-weight: 16250
+weight: 16300
 url: /net/aspose.email.clients.imap/backupsettings/
 ---
 ## BackupSettings class

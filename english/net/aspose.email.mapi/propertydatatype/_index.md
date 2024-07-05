@@ -3,7 +3,7 @@ title: Enum PropertyDataType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.PropertyDataType enum. MSOXCDATA Data Structures
 type: docs
-weight: 19110
+weight: 19170
 url: /net/aspose.email.mapi/propertydatatype/
 ---
 ## PropertyDataType enumeration

@@ -1,14 +1,14 @@
 ---
 title: Class PersonalStorage
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Storage.Pst.PersonalStorage class. Represents Personal Storage Table .pst file
+description: Aspose.Email.Storage.Pst.PersonalStorage class. Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook
 type: docs
-weight: 20500
+weight: 20570
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
 
-Represents Personal Storage Table (.pst) file.
+Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook.
 
 ```csharp
 public class PersonalStorage : IDisposable
@@ -66,6 +66,9 @@ public class PersonalStorage : IDisposable
 | [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage/#extractmessage)(MessageInfo) | Get the message from PST. |
 | [ExtractMessage](../../aspose.email.storage.pst/personalstorage/extractmessage/#extractmessage_2)(string) | Get the message from PST. |
 | [ExtractProperty](../../aspose.email.storage.pst/personalstorage/extractproperty/)(byte[], long) | Gets the specified property of item, without extract the item fully. |
+| [ExtractRecipients](../../aspose.email.storage.pst/personalstorage/extractrecipients/#extractrecipients)(MessageInfo) | Extracts the recipients. |
+| [ExtractRecipients](../../aspose.email.storage.pst/personalstorage/extractrecipients/#extractrecipients_1)(string) | Extracts the recipients. |
+| [FindAndExtractSoftDeletedItems](../../aspose.email.storage.pst/personalstorage/findandextractsoftdeleteditems/)() | Finds and extracts soft-deleted messages from the PST. |
 | [FindMessages](../../aspose.email.storage.pst/personalstorage/findmessages/)(string) | Finds the identifiers of messages for for the current folder. It might be useful in case of reading corrupted pst when the GetContents and EnumerateMessages methods could throw an exception. |
 | [FindSubfolders](../../aspose.email.storage.pst/personalstorage/findsubfolders/)(string) | Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception. |
 | [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid/#getfolderbyid)(byte[]) | Gets the personal folder from PST. |
@@ -96,6 +99,87 @@ public class PersonalStorage : IDisposable
 | event [ItemMoved](../../aspose.email.storage.pst/personalstorage/itemmoved/) | Occurs when an item is moved to the another folder. |
 | event [StorageProcessed](../../aspose.email.storage.pst/personalstorage/storageprocessed/) | Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged. |
 | event [StorageProcessing](../../aspose.email.storage.pst/personalstorage/storageprocessing/) | Occurs before the srorage is processed. The event is raised before processing the next storage in merging or splitting operations. |
+
+## Remarks
+
+The PersonalStorage class encapsulates methods for creating, opening, and working with the contents of PST files including emails, appointments, contacts, tasks, and other personal information.
+
+## Examples
+
+This code serves as a way to browse and extract messages from a PST file, printing metadata about each folder and message, extract and saving the actual messages as .msg files.
+
+[C#]
+
+```csharp
+// Open the PST file by creating an instance of PersonalStorage
+using (var pst = PersonalStorage.FromFile("storage.pst"))
+{
+    // Retrieve the total number of items in the PST file
+    var totalItemsCount = pst.Store.GetTotalItemsCount();
+    
+    // Write the total items count to the console
+    Console.WriteLine($"Total items count: {totalItemsCount}");
+
+    // Iterate through each subfolder within the root folder of the PST
+    foreach (var folderInfo in pst.RootFolder.GetSubFolders())
+    {
+        // Write the display name of the folder to the console
+        Console.WriteLine($"Folder: {folderInfo.DisplayName}");
+        // Write the total number of items in the folder to the console
+        Console.WriteLine($"Total items: {folderInfo.ContentCount}");
+        // Write the count of unread items in the folder to the console
+        Console.WriteLine($"Total unread items: {folderInfo.ContentUnreadCount}");
+
+        // Enumerate through each message in the current folder
+        foreach (var messageInfo in folderInfo.EnumerateMessages())
+        {
+            // Write the subject of the message to the console
+            Console.WriteLine($"Subject: {messageInfo.Subject}");
+            
+            // Extract the full message object from the messageInfo
+            var msg = pst.ExtractMessage(messageInfo);
+            
+            // Save the message as a .msg file, using its subject as the filename
+            msg.Save($"{msg.Subject}.msg");
+        }
+    }
+}
+```
+
+[Visual Basic]
+
+```csharp
+' Open the PST file by creating an instance of PersonalStorage
+Using pst As PersonalStorage = PersonalStorage.FromFile("storage.pst")
+    ' Retrieve the total number of items in the PST file
+    Dim totalItemsCount As Integer = pst.Store.GetTotalItemsCount()
+    
+    ' Write the total items count to the console
+    Console.WriteLine($"Total items count: {totalItemsCount}")
+
+    ' Iterate through each subfolder within the root folder of the PST
+    For Each folderInfo In pst.RootFolder.GetSubFolders()
+        ' Write the display name of the folder to the console
+        Console.WriteLine($"Folder: {folderInfo.DisplayName}")
+        ' Write the total number of items in the folder to the console
+        Console.WriteLine($"Total items: {folderInfo.ContentCount}")
+        ' Write the count of unread items in the folder to the console
+        Console.WriteLine($"Total unread items: {folderInfo.ContentUnreadCount}")
+
+        ' Enumerate through each message in the current folder
+        For Each messageInfo In folderInfo.EnumerateMessages()
+            ' Write the subject of the message to the console
+            Console.WriteLine($"Subject: {messageInfo.Subject}")
+            
+            ' Extract the full message object from the messageInfo
+            Dim msg As MailItem = pst.ExtractMessage(messageInfo)
+            
+            ' Save the message as a .msg file, using its subject as the filename
+            msg.Save($"{msg.Subject}.msg")
+        Next
+    Next
+End Using
+```
 
 ### See Also
 

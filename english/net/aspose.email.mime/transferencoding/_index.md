@@ -3,7 +3,7 @@ title: Enum TransferEncoding
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mime.TransferEncoding enum. Specifies the ContentTransferEncoding header information
 type: docs
-weight: 19350
+weight: 19410
 url: /net/aspose.email.mime/transferencoding/
 ---
 ## TransferEncoding enumeration

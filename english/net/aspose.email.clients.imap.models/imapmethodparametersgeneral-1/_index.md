@@ -3,7 +3,7 @@ title: Class ImapMethodParametersGeneralT
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapMethodParametersGeneral1T class. IAsyncImapClient method general parameters
 type: docs
-weight: 16640
+weight: 16690
 url: /net/aspose.email.clients.imap.models/imapmethodparametersgeneral-1/
 ---
 ## ImapMethodParametersGeneral&lt;T&gt; class

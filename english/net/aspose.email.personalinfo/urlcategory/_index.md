@@ -3,7 +3,7 @@ title: Class UrlCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.UrlCategory class. Represents category for a URL
 type: docs
-weight: 19640
+weight: 19700
 url: /net/aspose.email.personalinfo/urlcategory/
 ---
 ## UrlCategory class

@@ -18,6 +18,10 @@ public string DisplayName { get; set; }
 
 The display name.
 
+## Remarks
+
+If DisplayName value is null or empty this element will not be displayed when you open this DistributionList in Outlook.
+
 ### See Also
 
 * class [MapiDistributionListMember](../)

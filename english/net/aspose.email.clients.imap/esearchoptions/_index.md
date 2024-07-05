@@ -3,7 +3,7 @@ title: Class ESearchOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ESearchOptions class. ESEARCH Result Options This method works only if server supports ESEARCH extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
-weight: 16270
+weight: 16320
 url: /net/aspose.email.clients.imap/esearchoptions/
 ---
 ## ESearchOptions class

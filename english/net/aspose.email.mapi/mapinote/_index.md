@@ -1,14 +1,14 @@
 ---
 title: Class MapiNote
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiNote class. Represents outlook Note object sticky note
+description: Aspose.Email.Mapi.MapiNote class. Represents a MAPI note sticky note item
 type: docs
-weight: 18640
+weight: 18690
 url: /net/aspose.email.mapi/mapinote/
 ---
 ## MapiNote class
 
-Represents outlook Note object ("sticky note")
+Represents a MAPI note ("sticky note") item.
 
 ```csharp
 public sealed class MapiNote : MapiMessageItemBase
@@ -87,6 +87,47 @@ public sealed class MapiNote : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling note information from MAPI properties. It provides a more intuitive interface for accessing and manipulating note data within the MAPI message.
+
+## Examples
+
+The following example demonstrates how to get a `MapiNote` object from a [`MapiMessage`](../mapimessage/).
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("note.msg");
+
+// Check if the loaded message is a supported note type
+if (msg.SupportedType == MapiItemType.Note)
+{
+    // Convert the MAPI message to a MapiNote object
+    var mapiNote = (MapiNote)msg.ToMapiMessageItem();
+    
+    // Display some note info
+    Console.WriteLine(mapiNote.Color);
+    Console.WriteLine(mapiNote.Body);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("note.msg")
+
+' Check if the loaded message is a supported note type
+If msg.SupportedType = MapiItemType.Note Then
+    ' Convert the MAPI message to a MapiNote object
+    Dim mapiNote = DirectCast(msg.ToMapiMessageItem(), MapiNote)
+    
+    ' Display some note info
+    Console.WriteLine(mapiNote.Color)
+    Console.WriteLine(mapiNote.Body)
+End If
+```
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Interface IPreferredTextEncodingProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.IPreferredTextEncodingProvider interface. Defines a interface for objects that can define PreferredTextEncoding
 type: docs
-weight: 17660
+weight: 17710
 url: /net/aspose.email/ipreferredtextencodingprovider/
 ---
 ## IPreferredTextEncodingProvider interface

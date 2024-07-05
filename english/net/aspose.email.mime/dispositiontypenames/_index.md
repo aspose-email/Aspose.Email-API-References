@@ -3,7 +3,7 @@ title: Class DispositionTypeNames
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mime.DispositionTypeNames class. Represents the disposition type names
 type: docs
-weight: 19260
+weight: 19320
 url: /net/aspose.email.mime/dispositiontypenames/
 ---
 ## DispositionTypeNames class

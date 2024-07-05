@@ -20,10 +20,10 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [KnownPropertyList](./knownpropertylist/) | The read-only Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation (MS-OXPROPS). Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
 | [KnownPropertySets](./knownpropertysets/) | [MS-OXCDATA]: Commonly Used Property Sets |
 | [MailConversionOptions](./mailconversionoptions/) | Specify additional options when converting from MapiMessage to MailMessage. |
-| [MapiAttachment](./mapiattachment/) | Represents the attachment in the E-mail message. |
+| [MapiAttachment](./mapiattachment/) |  |
 | [MapiAttachmentCollection](./mapiattachmentcollection/) | Represents a collection of MapiAttachment objects. |
 | [MapiAttachmentPropertyStream](./mapiattachmentpropertystream/) | Represents the property stream of attachment object. |
-| [MapiCalendar](./mapicalendar/) | Represents the mapi calendar object |
+| [MapiCalendar](./mapicalendar/) | Represents a MAPI calendar item. |
 | [MapiCalendarAttendees](./mapicalendarattendees/) | Represents the mapi calendar attendees |
 | [MapiCalendarCollection](./mapicalendarcollection/) | Represents the collection of [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) |
 | [MapiCalendarDailyRecurrencePattern](./mapicalendardailyrecurrencepattern/) | Represents the daily recurrence pattern of the mapi calendar |
@@ -42,7 +42,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiCalendarTimeZoneRule](./mapicalendartimezonerule/) | Represents time zone rule that indicate when to begin using the Standard/Daylight time. |
 | [MapiCalendarWeeklyRecurrencePattern](./mapicalendarweeklyrecurrencepattern/) | Represents the weekly recurrence pattern of the mapi calendar |
 | [MapiCalendarYearlyAndMonthlyRecurrencePattern](./mapicalendaryearlyandmonthlyrecurrencepattern/) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
-| [MapiContact](./mapicontact/) | Represents outlook contact information |
+| [MapiContact](./mapicontact/) | Represents a MAPI contact item. |
 | [MapiContactAddress](./mapicontactaddress/) | Base abstract class for [`MapiContactElectronicAddress`](../aspose.email.mapi/mapicontactelectronicaddress/) and [`MapiContactPhysicalAddress`](../aspose.email.mapi/mapicontactphysicaladdress/). |
 | [MapiContactCollection](./mapicontactcollection/) | Represents the collection of [`MapiContact`](../aspose.email.mapi/mapicontact/) |
 | [MapiContactElectronicAddress](./mapicontactelectronicaddress/) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
@@ -59,12 +59,12 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiContactSaveOptions](./mapicontactsaveoptions/) | Specifies the contact save options. |
 | [MapiContactTelephonePropertySet](./mapicontacttelephonepropertyset/) | Specify optional telephone numbers for the contact |
 | [MapiConversionOptions](./mapiconversionoptions/) | This class allows the user to specify additional options when converting from MailMessage to MapiMessage. |
-| [MapiDistributionList](./mapidistributionlist/) | Represents the Personal Distribution List object. |
+| [MapiDistributionList](./mapidistributionlist/) | Represents a MAPI distribution list item. |
 | [MapiDistributionListMember](./mapidistributionlistmember/) | Represents the members of the personal distribution list. |
 | [MapiDistributionListMemberCollection](./mapidistributionlistmembercollection/) | Represents a collection of [`MapiDistributionListMember`](../aspose.email.mapi/mapidistributionlistmember/) objects. |
 | [MapiDistributionListSaveOptions](./mapidistributionlistsaveoptions/) | Specifies the DistributionList save options. |
 | [MapiElectronicAddress](./mapielectronicaddress/) | Refers to the group of properties that define the e-mail address or fax address. |
-| [MapiJournal](./mapijournal/) | Represents the Outlook Journal object. |
+| [MapiJournal](./mapijournal/) | Represents a MAPI journal item. |
 | [MapiMessage](./mapimessage/) | Represents an Outlook Message format document that can be parsed. |
 | [MapiMessageItemBase](./mapimessageitembase/) | Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties, attachments, recipients. |
 | [MapiMessageParseException](./mapimessageparseexception/) | This exception is thrown when errors occur in parsing MapiMessage. |
@@ -72,7 +72,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiMessageReader](./mapimessagereader/) | Represents a reader that can read a Microsoft Outlook Message format document. |
 | [MapiNamedProperty](./mapinamedproperty/) | Represents the data type of Named Property. |
 | [MapiNamedPropertyMappingStorage](./mapinamedpropertymappingstorage/) | Represents the named property mapping |
-| [MapiNote](./mapinote/) | Represents outlook Note object ("sticky note") |
+| [MapiNote](./mapinote/) | Represents a MAPI note ("sticky note") item. |
 | [MapiObjectProperty](./mapiobjectproperty/) | Represents a Custom object included in Outlook Message documents. |
 | [MapiProperty](./mapiproperty/) | Represents the mapi property. |
 | [MapiPropertyCollection](./mapipropertycollection/) | Represents the collection of MapiProperty items. |
@@ -82,7 +82,8 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiRecipient](./mapirecipient/) | Represents the recipient information in the Microsoft Outlook Message. |
 | [MapiRecipientCollection](./mapirecipientcollection/) | Represents a collection of MapiRecipient objects. |
 | [MapiRecipientPropertyStream](./mapirecipientpropertystream/) | Represents the property stream of recipient object. |
-| [MapiTask](./mapitask/) | Represents the Outlook Task object. |
+| [MapiTask](./mapitask/) | Represents a MAPI task item. |
+| [MapiTaskCollection](./mapitaskcollection/) | Represents the collection of [`MapiTask`](../aspose.email.mapi/mapitask/) |
 | [MapiTaskUsers](./mapitaskusers/) | Represents information about task users. |
 | [OleDocumentFormat](./oledocumentformat/) | Represents the format for OLE document. |
 | [PidLidPropertyDescriptor](./pidlidpropertydescriptor/) | Class contains property description information. |

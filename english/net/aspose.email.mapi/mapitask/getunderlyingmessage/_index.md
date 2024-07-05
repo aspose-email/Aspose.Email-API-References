@@ -18,6 +18,32 @@ public MapiMessage GetUnderlyingMessage()
 
 The [`MapiMessage`](../../mapimessage/) object.
 
+## Examples
+
+Retrieves the underlying MAPI message from a MapiTask object and prints out its message class.
+
+[C#]
+
+```csharp
+// Retrieve the underlying MAPI message from the MapiTask object
+MapiMessage msg = mapiTask.GetUnderlyingMessage();
+   
+// Print out the message class of the MAPI message
+// Will output "IPM.Task"
+Console.WriteLine(msg.MessageClass);
+```
+
+[Visual Basic]
+
+```csharp
+' Retrieve the underlying MAPI message from the MapiTask object
+Dim msg As MapiMessage = mapiTask.GetUnderlyingMessage()
+
+' Print out the message class of the MAPI message
+' Will output "IPM.Task"
+Console.WriteLine(msg.MessageClass)
+```
+
 ### See Also
 
 * class [MapiMessage](../../mapimessage/)

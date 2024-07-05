@@ -1,14 +1,14 @@
 ---
 title: Class MapiJournal
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiJournal class. Represents the Outlook Journal object
+description: Aspose.Email.Mapi.MapiJournal class. Represents a MAPI journal item
 type: docs
-weight: 18530
+weight: 18580
 url: /net/aspose.email.mapi/mapijournal/
 ---
 ## MapiJournal class
 
-Represents the Outlook Journal object.
+Represents a MAPI journal item.
 
 ```csharp
 public sealed class MapiJournal : MapiMessageItemBase
@@ -88,6 +88,47 @@ public sealed class MapiJournal : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling journal information from MAPI properties. It provides a more intuitive interface for accessing and manipulating journal data within the MAPI message.
+
+## Examples
+
+The following example demonstrates how to get a `MapiJournal` object from a [`MapiMessage`](../mapimessage/).
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("journal.msg");
+
+// Check if the loaded message is a supported journal type
+if (msg.SupportedType == MapiItemType.Journal)
+{
+    // Convert the MAPI message to a MapiJournal object
+    var mapiJournal = (MapiJournal)msg.ToMapiMessageItem();
+    
+    // Display some journal info
+    Console.WriteLine(mapiJournal.StartTime);
+    Console.WriteLine(mapiJournal.Description);           
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("journal.msg")
+
+' Check if the loaded message is a supported journal type
+If msg.SupportedType = MapiItemType.Journal Then
+    ' Convert the MAPI message to a MapiJournal object
+    Dim mapiJournal = DirectCast(msg.ToMapiMessageItem(), MapiJournal)
+    
+    ' Display some journal info
+    Console.WriteLine(mapiJournal.StartTime)
+    Console.WriteLine(mapiJournal.Description)
+End If
+```
 
 ### See Also
 

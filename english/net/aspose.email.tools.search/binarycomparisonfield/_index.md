@@ -3,7 +3,7 @@ title: Class BinaryComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.BinaryComparisonField class. Represents the binary search field
 type: docs
-weight: 20880
+weight: 20960
 url: /net/aspose.email.tools.search/binarycomparisonfield/
 ---
 ## BinaryComparisonField class

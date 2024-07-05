@@ -3,7 +3,7 @@ title: Class FileDataObjectCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.FileDataObjectCollection class. Represents the collection for FileDataObject
 type: docs
-weight: 21160
+weight: 21240
 url: /net/aspose.email.windows.forms/filedataobjectcollection/
 ---
 ## FileDataObjectCollection class

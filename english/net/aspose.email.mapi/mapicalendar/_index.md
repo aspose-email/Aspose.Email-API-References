@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendar
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendar class. Represents the mapi calendar object
+description: Aspose.Email.Mapi.MapiCalendar class. Represents a MAPI calendar item
 type: docs
-weight: 17970
+weight: 18020
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class
 
-Represents the mapi calendar object
+Represents a MAPI calendar item.
 
 ```csharp
 public sealed class MapiCalendar : MapiMessageItemBase
@@ -105,6 +105,47 @@ public sealed class MapiCalendar : MapiMessageItemBase
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, int) | Try to get a property data as string with specified tag and code page. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring/)(long, ref string, int) | Gets the value of the specified property as String type. A return value indicates whether the operation succeeded. |
+
+## Remarks
+
+This class serves as a wrapper for [`MapiMessage`](../mapimessage/) to simplify the process of handling calendar information from MAPI properties. It provides a more intuitive interface for accessing and manipulating calendar data within the MAPI message.
+
+## Examples
+
+The following example demonstrates how to get a `MapiCalendar` object from a [`MapiMessage`](../mapimessage/).
+
+[C#]
+
+```csharp
+var msg = MapiMessage.Load("calendar.msg");
+
+// Check if the loaded message is a supported calendar type
+if (msg.SupportedType == MapiItemType.Calendar)
+{
+    // Convert the MAPI message to a MapiCalendar object
+    var mapiCalendar = (MapiCalendar)msg.ToMapiMessageItem();
+    
+    // Display some calendar info
+    Console.WriteLine(mapiCalendar.Subject);
+    Console.WriteLine(mapiCalendar.StartDate);
+}
+```
+
+[Visual Basic]
+
+```csharp
+Dim msg = MapiMessage.Load("calendar.msg")
+
+' Check if the loaded message is a supported calendar type
+If msg.SupportedType = MapiItemType.Calendar Then
+    ' Convert the MAPI message to a MapiCalendar object
+    Dim mapiCalendar = DirectCast(msg.ToMapiMessageItem(), MapiCalendar)
+    
+    ' Display some calendar info
+    Console.WriteLine(mapiCalendar.Subject)
+    Console.WriteLine(mapiCalendar.StartDate)
+End If
+```
 
 ### See Also
 

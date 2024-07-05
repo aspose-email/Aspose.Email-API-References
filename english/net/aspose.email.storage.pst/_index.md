@@ -22,9 +22,10 @@ The **Aspose.Email.Storage.Pst** namespace contains classes for work with Micros
 | [MessageInfo](./messageinfo/) | Represents information about message in PST. |
 | [MessageInfoCollection](./messageinfocollection/) | Represents the collection of MessageInfo. |
 | [MessageStore](./messagestore/) | Message store is the root of the PST, which is the rough equivalent of the top of a Mailbox. |
-| [PersonalStorage](./personalstorage/) | Represents Personal Storage Table (.pst) file. |
+| [PersonalStorage](./personalstorage/) | Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions/) | Specifies additional options when loading a PST storage. |
 | [PersonalStorageQueryBuilder](./personalstoragequerybuilder/) | Represents the builder of search expression that used by pst. |
+| [RestoredItemEntry](./restoreditementry/) | Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in. |
 | [SaveResult](./saveresult/) | Represents the result of saving the retrieved item. |
 | [StorageProcessedEventArgs](./storageprocessedeventargs/) | Provides data for the [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event |
 | [StorageProcessedEventHandler](./storageprocessedeventhandler/) | Represents the method that will handle an [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event. |

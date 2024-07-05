@@ -3,7 +3,7 @@ title: PersonalStorage.FindMessages
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Finds the identifiers of messages for for the current folder. It might be useful in case of reading corrupted pst when the GetContents and EnumerateMessages methods could throw an exception
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.email.storage.pst/personalstorage/findmessages/
 ---
 ## PersonalStorage.FindMessages method

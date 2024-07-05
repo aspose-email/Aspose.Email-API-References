@@ -15,6 +15,6 @@ The **Aspose.Email.Storage.Olm** namespace contains classes for work with Micros
 | [OlmFolder](./olmfolder/) | Represents folder information in OLM storage. |
 | [OlmItemCategory](./olmitemcategory/) | Represents an Outlook item category. |
 | [OlmMessageInfo](./olmmessageinfo/) | Represents an information about message in the OLM storage. |
-| [OlmStorage](./olmstorage/) | Represents Outlook for Mac storage (.OLM) file. |
+| [OlmStorage](./olmstorage/) | Represents an Outlook for Mac (.OLM) storage file and provides functionality to access and manipulate the data within the file such as emails, contacts, calendars, tasks, and notes. |
 
 

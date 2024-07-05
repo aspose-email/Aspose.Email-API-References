@@ -3,7 +3,7 @@ title: Class Pop3Exception
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Pop3Exception class. Represents the exception that is thrown when the Pop3Client is not able to complete an operation
 type: docs
-weight: 19950
+weight: 20010
 url: /net/aspose.email/pop3exception/
 ---
 ## Pop3Exception class

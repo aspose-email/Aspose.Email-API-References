@@ -3,7 +3,7 @@ title: Enum FolderKind
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderKind enum. Represents the different kinds of pst folders
 type: docs
-weight: 20390
+weight: 20460
 url: /net/aspose.email.storage.pst/folderkind/
 ---
 ## FolderKind enumeration

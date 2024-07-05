@@ -3,7 +3,7 @@ title: Class ReplyMessageBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.ReplyMessageBuilder class. Provides creation and formatting the replying messages
 type: docs
-weight: 20860
+weight: 20940
 url: /net/aspose.email.tools/replymessagebuilder/
 ---
 ## ReplyMessageBuilder class
