@@ -3,7 +3,7 @@ title: DomainValidatingEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the event handler for DomainValidatingEvent.
 type: docs
-weight: 160
+weight: 162
 url: /java/com.aspose.email/domainvalidatingeventhandler/
 ---
 

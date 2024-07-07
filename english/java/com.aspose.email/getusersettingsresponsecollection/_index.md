@@ -3,7 +3,7 @@ title: GetUserSettingsResponseCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of responses to GetUserSettings
 type: docs
-weight: 276
+weight: 278
 url: /java/com.aspose.email/getusersettingsresponsecollection/
 ---
 

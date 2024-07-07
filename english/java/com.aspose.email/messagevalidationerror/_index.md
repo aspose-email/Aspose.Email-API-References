@@ -3,7 +3,7 @@ title: MessageValidationError
 second_title: Aspose.Email for Java API Reference
 description: Represents the message validation error information.
 type: docs
-weight: 515
+weight: 520
 url: /java/com.aspose.email/messagevalidationerror/
 ---
 
@@ -22,6 +22,7 @@ Represents the message validation error information.
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | Gets an error description. |
 | [getErrorType()](#getErrorType--) | Gets a type of error. |
+| [getLineNumber()](#getLineNumber--) | Gets a number of line where error was found. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -74,6 +75,16 @@ Gets a type of error.
 
 **Returns:**
 int
+### getLineNumber() {#getLineNumber--}
+```
+public final Integer getLineNumber()
+```
+
+
+Gets a number of line where error was found.
+
+**Returns:**
+java.lang.Integer
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
-weight: 530
+weight: 535
 url: /java/com.aspose.email/msgloadoptions/
 ---
 
@@ -27,6 +27,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [getClass()](#getClass--) |  |
 | [getDecodeSignedContent()](#getDecodeSignedContent--) | Gets or sets a value indicating whether signed message will be decoded. |
 | [getKeepOriginalEmailAddresses()](#getKeepOriginalEmailAddresses--) | Gets or sets a value indicating whether need keep original email address. |
+| [getLeaveOpen()](#getLeaveOpen--) | Gets or sets a value indicating whether to keep the underlying stream open after load. |
 | [getMessageFormat()](#getMessageFormat--) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets preferred encoding for message. |
 | [getPreserveEmbeddedMessageFormat()](#getPreserveEmbeddedMessageFormat--) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
@@ -39,6 +40,7 @@ Allows to specify additional options when loading MailMessage from Msg format.
 | [notifyAll()](#notifyAll--) |  |
 | [setDecodeSignedContent(boolean value)](#setDecodeSignedContent-boolean-) | Gets or sets a value indicating whether signed message will be decoded. |
 | [setKeepOriginalEmailAddresses(boolean value)](#setKeepOriginalEmailAddresses-boolean-) | Gets or sets a value indicating whether need keep original email address. |
+| [setLeaveOpen(boolean value)](#setLeaveOpen-boolean-) | Gets or sets a value indicating whether to keep the underlying stream open after load. |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets preferred encoding for message. |
 | [setPreserveEmbeddedMessageFormat(boolean value)](#setPreserveEmbeddedMessageFormat-boolean-) | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading. |
 | [setPreserveRtfContent(boolean value)](#setPreserveRtfContent-boolean-) | Gets or sets a value indicating whether need keep rtf body in MailMessage. |
@@ -101,6 +103,16 @@ public final boolean getKeepOriginalEmailAddresses()
 
 
 Gets or sets a value indicating whether need keep original email address.
+
+**Returns:**
+boolean
+### getLeaveOpen() {#getLeaveOpen--}
+```
+public final boolean getLeaveOpen()
+```
+
+
+Gets or sets a value indicating whether to keep the underlying stream open after load. Default value is false.
 
 **Returns:**
 boolean
@@ -232,6 +244,19 @@ public final void setKeepOriginalEmailAddresses(boolean value)
 
 
 Gets or sets a value indicating whether need keep original email address.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setLeaveOpen(boolean value) {#setLeaveOpen-boolean-}
+```
+public final void setLeaveOpen(boolean value)
+```
+
+
+Gets or sets a value indicating whether to keep the underlying stream open after load. Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

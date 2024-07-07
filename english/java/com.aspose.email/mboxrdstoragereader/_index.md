@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 489
+weight: 494
 url: /java/com.aspose.email/mboxrdstoragereader/
 ---
 
@@ -25,6 +25,7 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 
 | Method | Description |
 | --- | --- |
+| [cancel()](#cancel--) | This method is used to interrupt a split operation if splitInto is running asynchronously. |
 | [close()](#close--) |  |
 | [createReader(System.IO.Stream stream, MboxLoadOptions options)](#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [createReader(InputStream stream, MboxLoadOptions options)](#createReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
@@ -101,6 +102,14 @@ Initializes a new instance of the [MboxrdStorageReader](../../com.aspose.email/m
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file. |
 | options | [MboxLoadOptions](../../com.aspose.email/mboxloadoptions) | additional options when loading a Mbox storage[MboxLoadOptions](../../com.aspose.email/mboxloadoptions). |
+
+### cancel() {#cancel--}
+```
+public final void cancel()
+```
+
+
+This method is used to interrupt a split operation if splitInto is running asynchronously.
 
 ### close() {#close--}
 ```

@@ -3,7 +3,7 @@ title: DeliveryServiceClientFactory
 second_title: Aspose.Email for Java API Reference
 description: Represents the to create DeliveryServiceClient
 type: docs
-weight: 155
+weight: 157
 url: /java/com.aspose.email/deliveryserviceclientfactory/
 ---
 

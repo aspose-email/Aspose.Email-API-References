@@ -3,7 +3,7 @@ title: SmtpFailedRecipientException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception which arises when the specified recipient is wrong
 type: docs
-weight: 654
+weight: 661
 url: /java/com.aspose.email/smtpfailedrecipientexception/
 ---
 

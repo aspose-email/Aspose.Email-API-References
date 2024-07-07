@@ -3,7 +3,7 @@ title: BinaryComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the binary search field.
 type: docs
-weight: 81
+weight: 83
 url: /java/com.aspose.email/binarycomparisonfield/
 ---
 

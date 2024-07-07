@@ -1,9 +1,9 @@
 ---
 title: MapiAttachment
 second_title: Aspose.Email for Java API Reference
-description: Represents the attachment in the E-mail message.
+description: Represents a message attachment.
 type: docs
-weight: 385
+weight: 387
 url: /java/com.aspose.email/mapiattachment/
 ---
 
@@ -13,7 +13,52 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public class MapiAttachment extends MapiPropertyContainer
 ```
 
-Represents the attachment in the E-mail message.
+Represents a message attachment.
+
+This class encapsulates an attachment, providing methods to access and manipulate its properties.
+
+Example:
+
+```
+// This code example loads a message from a file and iterates over each attachment.
+ // If an attachment is inline, it prints its display name.
+ // If not, it checks if the attachment is an embedded message.
+ // If so, it saves the attachment to a memory stream.
+ // If not, it saves to a specified path.
+
+ // Load the MAPI message from the specified file
+ MapiMessage msg = MapiMessage.load("source.msg");
+
+ // Iterate over each attachment in the MAPI message
+ for (MapiAttachment mapiAttachment : msg.getAttachments()) {
+     // Check if the attachment is inline
+     if (mapiAttachment.isInline()) {
+         // If inline, print its display name
+         System.out.println("Inline: " + mapiAttachment.getDisplayName());
+     } else {
+         // If not inline
+         // Check if the attachment contains an embedded message
+         if (mapiAttachment.getObjectData() != null && mapiAttachment.getObjectData().isOutlookMessage()) {
+             // If it's an embedded message
+             // Save the attachment to a memory stream
+             try (ByteArrayOutputStream ms = new ByteArrayOutputStream()) {
+                 mapiAttachment.save(ms);
+                 byte[] bytes = ms.toByteArray();
+                 try (ByteArrayInputStream msInput = new ByteArrayInputStream(bytes)) {
+                     // Load the embedded message from the memory stream
+                     MapiMessage embeddedMessage = MapiMessage.load(msInput);
+                 }
+             } catch (IOException e) {
+                 e.printStackTrace();
+             }
+         } else {
+             // If it's not an embedded message
+             // Save the attachment to the specified path
+             mapiAttachment.save(Paths.get(path, mapiAttachment.getLongFileName()).toString());
+         }
+     }
+ }
+```
 ## Methods
 
 | Method | Description |

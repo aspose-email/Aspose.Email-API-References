@@ -3,7 +3,7 @@ title: ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for Java API Reference
 description: Represents the search criteria that are used to match several message properties in the mailbox.
 type: docs
-weight: 185
+weight: 187
 url: /java/com.aspose.email/exchangeadvancedsyntaxmailquery/
 ---
 

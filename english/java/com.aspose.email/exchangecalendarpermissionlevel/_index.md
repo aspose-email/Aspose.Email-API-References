@@ -3,7 +3,7 @@ title: ExchangeCalendarPermissionLevel
 second_title: Aspose.Email for Java API Reference
 description: Specifies the permission level that a user has on a calendar folder.
 type: docs
-weight: 193
+weight: 195
 url: /java/com.aspose.email/exchangecalendarpermissionlevel/
 ---
 

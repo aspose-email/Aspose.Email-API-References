@@ -3,7 +3,7 @@ title: EndType
 second_title: Aspose.Email for Java API Reference
 description: Specifies how the recurrence rule ends.
 type: docs
-weight: 178
+weight: 180
 url: /java/com.aspose.email/endtype/
 ---
 

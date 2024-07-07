@@ -3,7 +3,7 @@ title: EmailClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the client that creates server connection by using the host credentials.
 type: docs
-weight: 168
+weight: 170
 url: /java/com.aspose.email/emailclient/
 ---
 

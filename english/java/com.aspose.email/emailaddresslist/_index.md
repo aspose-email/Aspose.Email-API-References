@@ -3,7 +3,7 @@ title: EmailAddressList
 second_title: Aspose.Email for Java API Reference
 description: List of email addresses for a contact
 type: docs
-weight: 167
+weight: 169
 url: /java/com.aspose.email/emailaddresslist/
 ---
 

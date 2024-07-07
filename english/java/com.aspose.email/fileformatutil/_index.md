@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Email for Java API Reference
 description: Provides utility methods to detect file type.
 type: docs
-weight: 250
+weight: 252
 url: /java/com.aspose.email/fileformatutil/
 ---
 

@@ -3,7 +3,7 @@ title: ByDay
 second_title: Aspose.Email for Java API Reference
 description: Represents Nth occurrence or all occurrences of the specified day of the week.
 type: docs
-weight: 86
+weight: 88
 url: /java/com.aspose.email/byday/
 ---
 

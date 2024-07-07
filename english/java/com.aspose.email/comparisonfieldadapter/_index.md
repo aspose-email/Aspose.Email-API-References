@@ -3,7 +3,7 @@ title: ComparisonFieldAdapter
 second_title: Aspose.Email for Java API Reference
 description: Implements adapter for using  according to their type
 type: docs
-weight: 110
+weight: 112
 url: /java/com.aspose.email/comparisonfieldadapter/
 ---
 

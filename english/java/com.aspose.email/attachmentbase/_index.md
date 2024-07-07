@@ -3,7 +3,7 @@ title: AttachmentBase
 second_title: Aspose.Email for Java API Reference
 description: Base class for mail attachment.
 type: docs
-weight: 65
+weight: 67
 url: /java/com.aspose.email/attachmentbase/
 ---
 

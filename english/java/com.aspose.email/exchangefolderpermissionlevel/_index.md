@@ -3,7 +3,7 @@ title: ExchangeFolderPermissionLevel
 second_title: Aspose.Email for Java API Reference
 description: Specifies the permission level that a user has on a folder.
 type: docs
-weight: 212
+weight: 214
 url: /java/com.aspose.email/exchangefolderpermissionlevel/
 ---
 

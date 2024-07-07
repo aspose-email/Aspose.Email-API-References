@@ -1,9 +1,9 @@
 ---
 title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
-description: Represents Personal Storage Table .pst file.
+description: Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook.
 type: docs
-weight: 567
+weight: 573
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -16,7 +16,48 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public class PersonalStorage implements System.IDisposable, Closeable
 ```
 
-Represents Personal Storage Table (.pst) file.
+Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook.
+
+The PersonalStorage class encapsulates methods for creating, opening, and working with the contents of PST files including emails, appointments, contacts, tasks, and other personal information.
+
+Example:
+
+```
+
+ // Open the PST file by creating an instance of PersonalStorage
+ try (PersonalStorage pst = PersonalStorage.fromFile("storage.pst")) {
+     // Retrieve the total number of items in the PST file
+     int totalItemsCount = pst.getStore().getTotalItemsCount();
+
+     // Write the total items count to the console
+     System.out.println("Total items count: " + totalItemsCount);
+
+     // Iterate through each subfolder within the root folder of the PST
+     for (FolderInfo folderInfo : pst.getRootFolder().getSubFolders()) {
+         // Write the display name of the folder to the console
+         System.out.println("Folder: " + folderInfo.getDisplayName());
+         // Write the total number of items in the folder to the console
+         System.out.println("Total items: " + folderInfo.getContentCount());
+         // Write the count of unread items in the folder to the console
+         System.out.println("Total unread items: " + folderInfo.getContentUnreadCount());
+
+         // Enumerate through each message in the current folder
+         for (MessageInfo messageInfo : folderInfo.enumerateMessages()) {
+             // Write the subject of the message to the console
+             System.out.println("Subject: " + messageInfo.getSubject());
+
+             // Extract the full message object from the messageInfo
+             MapiMessage msg = pst.extractMessage(messageInfo);
+
+             // Save the message as a .msg file, using its subject as the filename
+             msg.save(msg.getSubject() + ".msg");
+         }
+     }
+ } catch (Exception e) {
+     e.printStackTrace();
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -43,6 +84,7 @@ Represents Personal Storage Table (.pst) file.
 | [create(OutputStream stream, int version, boolean leaveStreamOpen)](#create-java.io.OutputStream-int-boolean-) | Creates the PST in a stream. |
 | [create(OutputStream stream, int blockSize, int version)](#create-java.io.OutputStream-int-int-) | Creates the PST in a stream. |
 | [create(String fileName, int version)](#create-java.lang.String-int-) | Creates the new PST file with the specified file name. |
+| [create(SeekableByteChannel channel, int version)](#create-java.nio.channels.SeekableByteChannel-int-) | Creates the PST in a java.nio.channels. |
 | [createPredefinedFolder(String name, int defaultFolder)](#createPredefinedFolder-java.lang.String-int-) | Creates the standard interpersonal message (IPM) folder. |
 | [createPredefinedFolder(String name, int defaultFolder, boolean createHierarchy)](#createPredefinedFolder-java.lang.String-int-boolean-) | Creates the standard interpersonal message (IPM) folder. |
 | [deleteItem(String entryId)](#deleteItem-java.lang.String-) | Deletes the item (folder or message) by it's entryId |
@@ -56,6 +98,9 @@ Represents Personal Storage Table (.pst) file.
 | [extractMessage(MessageInfo messageInfo)](#extractMessage-com.aspose.email.MessageInfo-) | Get the message from PST. |
 | [extractMessage(String entryId)](#extractMessage-java.lang.String-) | Get the message from PST. |
 | [extractProperty(byte[] entryId, long tag)](#extractProperty-byte---long-) | Gets the specified property of item, without extract the item fully. |
+| [extractRecipients(MessageInfo messageInfo)](#extractRecipients-com.aspose.email.MessageInfo-) | Extracts the recipients. |
+| [extractRecipients(String entryId)](#extractRecipients-java.lang.String-) | Extracts the recipients. |
+| [findAndExtractSoftDeletedItems()](#findAndExtractSoftDeletedItems--) | Finds and extracts soft-deleted messages from the PST. |
 | [findMessages(String parentEntryId)](#findMessages-java.lang.String-) | Finds the identifiers of messages for for the current folder. |
 | [findSubfolders(String parentEntryId)](#findSubfolders-java.lang.String-) | Finds the identifiers of subfolders for for the current folder. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | Load PST from file. |
@@ -310,6 +355,26 @@ Note, only Unicode file version creation is supported now. |
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
+### create(SeekableByteChannel channel, int version) {#create-java.nio.channels.SeekableByteChannel-int-}
+```
+public static PersonalStorage create(SeekableByteChannel channel, int version)
+```
+
+
+Creates the PST in a java.nio.channels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| channel | java.nio.channels.SeekableByteChannel | The java.nio.channel in which PST is created. |
+| version | int | The PST file version.
+
+--------------------
+
+Note, only Unicode file version creation is supported now. |
+
+**Returns:**
+[PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the new PST.
 ### createPredefinedFolder(String name, int defaultFolder) {#createPredefinedFolder-java.lang.String-int-}
 ```
 public final FolderInfo createPredefinedFolder(String name, int defaultFolder)
@@ -506,6 +571,46 @@ If a property is not found, null is returned. |
 
 **Returns:**
 [MapiProperty](../../com.aspose.email/mapiproperty) - The MapiProperty.
+### extractRecipients(MessageInfo messageInfo) {#extractRecipients-com.aspose.email.MessageInfo-}
+```
+public final MapiRecipientCollection extractRecipients(MessageInfo messageInfo)
+```
+
+
+Extracts the recipients.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfo | [MessageInfo](../../com.aspose.email/messageinfo) | The message information. |
+
+**Returns:**
+[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) that represents the collection of recipients.
+### extractRecipients(String entryId) {#extractRecipients-java.lang.String-}
+```
+public final MapiRecipientCollection extractRecipients(String entryId)
+```
+
+
+Extracts the recipients.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| entryId | java.lang.String | The message entryId. |
+
+**Returns:**
+[MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) - The [MapiRecipientCollection](../../com.aspose.email/mapirecipientcollection) that represents the collection of recipients.
+### findAndExtractSoftDeletedItems() {#findAndExtractSoftDeletedItems--}
+```
+public final System.Collections.Generic.IGenericList<RestoredItemEntry> findAndExtractSoftDeletedItems()
+```
+
+
+Finds and extracts soft-deleted messages from the PST.
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.RestoredItemEntry> - A list of [RestoredItemEntry](../../com.aspose.email/restoreditementry) objects, each containing a soft-deleted message and the folder Id it was originally located in.
 ### findMessages(String parentEntryId) {#findMessages-java.lang.String-}
 ```
 public final System.Collections.Generic.IGenericList<String> findMessages(String parentEntryId)

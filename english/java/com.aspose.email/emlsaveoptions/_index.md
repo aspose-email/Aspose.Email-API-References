@@ -3,7 +3,7 @@ title: EmlSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Eml and Emlx format.
 type: docs
-weight: 171
+weight: 173
 url: /java/com.aspose.email/emlsaveoptions/
 ---
 

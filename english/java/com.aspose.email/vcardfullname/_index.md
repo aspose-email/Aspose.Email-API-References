@@ -3,7 +3,7 @@ title: VCardFullName
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard contact full name N property
 type: docs
-weight: 719
+weight: 726
 url: /java/com.aspose.email/vcardfullname/
 ---
 
@@ -38,7 +38,7 @@ Represents vCard contact full name (N property)
 | [setHonorificPostfixes(String value)](#setHonorificPostfixes-java.lang.String-) | Gets or sets a honorific postfixes |
 | [setHonorificPrefixes(String value)](#setHonorificPrefixes-java.lang.String-) | Gets or sets a honorific prefixes |
 | [setMiddleName(String value)](#setMiddleName-java.lang.String-) | Gets or sets a middle name |
-| [toString()](#toString--) |  |
+| [toString()](#toString--) | Returns a string that represents the current object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -222,10 +222,10 @@ public String toString()
 ```
 
 
-
+Returns a string that represents the current object.
 
 **Returns:**
-java.lang.String
+java.lang.String - A string that represents the current object.
 ### wait() {#wait--}
 ```
 public final void wait()

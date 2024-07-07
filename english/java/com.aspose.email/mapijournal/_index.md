@@ -1,9 +1,9 @@
 ---
 title: MapiJournal
 second_title: Aspose.Email for Java API Reference
-description: Represents the Outlook Journal object.
+description: Represents a MAPI journal item.
 type: docs
-weight: 445
+weight: 448
 url: /java/com.aspose.email/mapijournal/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public final class MapiJournal extends MapiMessageItemBase
 ```
 
-Represents the Outlook Journal object.
+Represents a MAPI journal item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling journal information from MAPI properties. It provides a more intuitive interface for accessing and manipulating journal data within the MAPI message.
+
+Example:
+
+```
+
+ // Load the MAPI message from a file
+ MapiMessage msg = MapiMessage.load("journal.msg");
+
+ // Check if the loaded message is a supported journal type
+ if (msg.getSupportedType() == MapiItemType.Journal) {
+     // Convert the MAPI message to a MapiJournal object
+     MapiJournal mapiJournal = (MapiJournal) msg.toMapiMessageItem();
+
+     // Display some journal info
+     System.out.println(mapiJournal.getStartTime());
+     System.out.println(mapiJournal.getDescription());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -676,6 +697,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiJournal object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiJournal object
+ MapiMessage msg = mapiJournal.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.Activity"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

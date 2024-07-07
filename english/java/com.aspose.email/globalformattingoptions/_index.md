@@ -3,7 +3,7 @@ title: GlobalFormattingOptions
 second_title: Aspose.Email for Java API Reference
 description: Class that allow to set some formatting options for all newly created instances of this options.
 type: docs
-weight: 277
+weight: 279
 url: /java/com.aspose.email/globalformattingoptions/
 ---
 

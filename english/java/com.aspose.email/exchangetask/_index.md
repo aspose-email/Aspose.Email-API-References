@@ -3,7 +3,7 @@ title: ExchangeTask
 second_title: Aspose.Email for Java API Reference
 description: Represents the exchange task information.
 type: docs
-weight: 227
+weight: 229
 url: /java/com.aspose.email/exchangetask/
 ---
 

@@ -3,7 +3,7 @@ title: GetMailTipsOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents options for GetMailTips
 type: docs
-weight: 273
+weight: 275
 url: /java/com.aspose.email/getmailtipsoptions/
 ---
 

@@ -3,7 +3,7 @@ title: MapiDistributionListMemberCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 439
+weight: 442
 url: /java/com.aspose.email/mapidistributionlistmembercollection/
 ---
 
@@ -18,7 +18,7 @@ Represents a collection of [MapiDistributionListMember](../../com.aspose.email/m
 
 | Constructor | Description |
 | --- | --- |
-| [MapiDistributionListMemberCollection()](#MapiDistributionListMemberCollection--) |  |
+| [MapiDistributionListMemberCollection()](#MapiDistributionListMemberCollection--) | Initializes a new instance of the [MapiDistributionListMemberCollection](../../com.aspose.email/mapidistributionlistmembercollection) class. |
 ## Methods
 
 | Method | Description |
@@ -114,6 +114,8 @@ Represents a collection of [MapiDistributionListMember](../../com.aspose.email/m
 public MapiDistributionListMemberCollection()
 ```
 
+
+Initializes a new instance of the [MapiDistributionListMemberCollection](../../com.aspose.email/mapidistributionlistmembercollection) class.
 
 ### <T>fromJava(List<T> arg0) {#-T-fromJava-java.util.List-T--}
 ```

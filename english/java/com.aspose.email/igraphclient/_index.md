@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange REST client.
 type: docs
-weight: 759
+weight: 766
 url: /java/com.aspose.email/igraphclient/
 ---
 
@@ -25,6 +25,7 @@ Represents the interface for Exchange REST client.
 | [createCategory(String displayName, int preset)](#createCategory-java.lang.String-int-) | Creates an [OutlookCategory](../../com.aspose.email/outlookcategory) object in the user's master list of categories. |
 | [createFolder(String folderName)](#createFolder-java.lang.String-) | Create new folder. |
 | [createFolder(String parentFolderId, String folderName)](#createFolder-java.lang.String-java.lang.String-) | Create new folder. |
+| [createMessage(String folderId, MailMessage message)](#createMessage-java.lang.String-com.aspose.email.MailMessage-) | Creates message in specified folder |
 | [createMessage(String folderId, MapiMessage message)](#createMessage-java.lang.String-com.aspose.email.MapiMessage-) | Creates message in specified folder |
 | [createNotebook(Notebook notebook)](#createNotebook-com.aspose.email.Notebook-) | Create a new OneNote notebook. |
 | [createOrUpdateOverride(ClassificationOverride classificationOverride)](#createOrUpdateOverride-com.aspose.email.ClassificationOverride-) | Create an override for a sender identified by an SMTP address. |
@@ -60,6 +61,7 @@ Represents the interface for Exchange REST client.
 | [listRulesInternal()](#listRulesInternal--) |  |
 | [moveFolder(String newParentId, String itemId)](#moveFolder-java.lang.String-java.lang.String-) | Move a mailfolder and its contents to another mailfolder. |
 | [moveMessage(String newParentId, String itemId)](#moveMessage-java.lang.String-java.lang.String-) | Move a message to another mailfolder. |
+| [send(MailMessage message)](#send-com.aspose.email.MailMessage-) | Sends email message using MIME format |
 | [send(MapiMessage message)](#send-com.aspose.email.MapiMessage-) | Sends email message |
 | [send(MapiMessage message, boolean saveToSentItems)](#send-com.aspose.email.MapiMessage-boolean-) | Sends email message |
 | [send(String itemId)](#send-java.lang.String-) | Send a message in the draft folder. |
@@ -190,6 +192,22 @@ Create new folder.
 
 **Returns:**
 [GraphFolderInfo](../../com.aspose.email/graphfolderinfo) - Returns folder for specified id
+### createMessage(String folderId, MailMessage message) {#createMessage-java.lang.String-com.aspose.email.MailMessage-}
+```
+public abstract MailMessage createMessage(String folderId, MailMessage message)
+```
+
+
+Creates message in specified folder
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderId | java.lang.String | Parent folder id |
+| message | [MailMessage](../../com.aspose.email/mailmessage) | Mime message to be created |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - Created message
 ### createMessage(String folderId, MapiMessage message) {#createMessage-java.lang.String-com.aspose.email.MapiMessage-}
 ```
 public abstract MapiMessage createMessage(String folderId, MapiMessage message)
@@ -642,6 +660,19 @@ Move a message to another mailfolder.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - Moved folder
+### send(MailMessage message) {#send-com.aspose.email.MailMessage-}
+```
+public abstract void send(MailMessage message)
+```
+
+
+Sends email message using MIME format
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | [MailMessage](../../com.aspose.email/mailmessage) | Mime message to send |
+
 ### send(MapiMessage message) {#send-com.aspose.email.MapiMessage-}
 ```
 public abstract void send(MapiMessage message)

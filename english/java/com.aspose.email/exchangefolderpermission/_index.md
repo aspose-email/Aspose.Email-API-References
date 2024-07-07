@@ -3,7 +3,7 @@ title: ExchangeFolderPermission
 second_title: Aspose.Email for Java API Reference
 description: Represents a permission on a folder.
 type: docs
-weight: 209
+weight: 211
 url: /java/com.aspose.email/exchangefolderpermission/
 ---
 

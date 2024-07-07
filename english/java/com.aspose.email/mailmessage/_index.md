@@ -3,7 +3,7 @@ title: MailMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an e-mail message.
 type: docs
-weight: 369
+weight: 371
 url: /java/com.aspose.email/mailmessage/
 ---
 

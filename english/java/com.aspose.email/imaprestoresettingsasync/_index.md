@@ -3,7 +3,7 @@ title: ImapRestoreSettingsAsync
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.Restore async method.
 type: docs
-weight: 330
+weight: 332
 url: /java/com.aspose.email/imaprestoresettingsasync/
 ---
 

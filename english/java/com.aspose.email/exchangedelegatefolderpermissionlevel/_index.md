@@ -3,7 +3,7 @@ title: ExchangeDelegateFolderPermissionLevel
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the permissions levels which a delegate user can have on folder
 type: docs
-weight: 199
+weight: 201
 url: /java/com.aspose.email/exchangedelegatefolderpermissionlevel/
 ---
 

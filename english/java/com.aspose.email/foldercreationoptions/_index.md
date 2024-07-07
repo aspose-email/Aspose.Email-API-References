@@ -3,7 +3,7 @@ title: FolderCreationOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents the options for creating  a subfolder in the Outlook PST message store.
 type: docs
-weight: 254
+weight: 256
 url: /java/com.aspose.email/foldercreationoptions/
 ---
 
@@ -30,12 +30,14 @@ Represents the options for creating a subfolder in the Outlook PST message store
 | [getClass()](#getClass--) |  |
 | [getContainerClass()](#getContainerClass--) | Gets or sets the container class for the new subfolder. |
 | [getCreateHierarchy()](#getCreateHierarchy--) | Gets or sets a value indicating whether to create the hierarchy of parent folders. |
+| [getEnforceContainerClassMatching()](#getEnforceContainerClassMatching--) | Gets or sets a value indicating whether to enforce container class checking. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAllowNameCaseDifference(boolean value)](#setAllowNameCaseDifference-boolean-) | Gets or sets a value indicating whether to allow a difference in name casing when comparing folder names. |
 | [setContainerClass(String value)](#setContainerClass-java.lang.String-) | Gets or sets the container class for the new subfolder. |
 | [setCreateHierarchy(boolean value)](#setCreateHierarchy-boolean-) | Gets or sets a value indicating whether to create the hierarchy of parent folders. |
+| [setEnforceContainerClassMatching(boolean value)](#setEnforceContainerClassMatching-boolean-) | Gets or sets a value indicating whether to enforce container class checking. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -148,6 +150,22 @@ When specifying the subfolder path, use the backslash (\\) as the separator betw
 
 **Returns:**
 boolean
+### getEnforceContainerClassMatching() {#getEnforceContainerClassMatching--}
+```
+public final boolean getEnforceContainerClassMatching()
+```
+
+
+Gets or sets a value indicating whether to enforce container class checking.
+
+Value: True if container class checking should be enforced; otherwise, false. Default is false.
+
+--------------------
+
+Specifies whether to enforce checking the container class of the folder being added against the container class of the parent folder. If set to true, an exception will be thrown if the container classes do not match.
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,6 +241,25 @@ Value:  true  if the hierarchy of parent folders should be created. In this case
 --------------------
 
 When specifying the subfolder path, use the backslash (\\) as the separator between folder names. For example, "parent1\\parent2\\subfolder".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setEnforceContainerClassMatching(boolean value) {#setEnforceContainerClassMatching-boolean-}
+```
+public final void setEnforceContainerClassMatching(boolean value)
+```
+
+
+Gets or sets a value indicating whether to enforce container class checking.
+
+Value: True if container class checking should be enforced; otherwise, false. Default is false.
+
+--------------------
+
+Specifies whether to enforce checking the container class of the folder being added against the container class of the parent folder. If set to true, an exception will be thrown if the container classes do not match.
 
 **Parameters:**
 | Parameter | Type | Description |

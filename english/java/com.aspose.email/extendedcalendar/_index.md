@@ -3,7 +3,7 @@ title: ExtendedCalendar
 second_title: Aspose.Email for Java API Reference
 description: A set of extended metadata such as a colors for a single calendar.
 type: docs
-weight: 236
+weight: 238
 url: /java/com.aspose.email/extendedcalendar/
 ---
 

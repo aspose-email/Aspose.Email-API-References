@@ -3,7 +3,7 @@ title: DispositionTypeNames
 second_title: Aspose.Email for Java API Reference
 description: Represents the disposition type names.
 type: docs
-weight: 158
+weight: 160
 url: /java/com.aspose.email/dispositiontypenames/
 ---
 

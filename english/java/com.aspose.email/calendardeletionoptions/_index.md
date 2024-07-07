@@ -3,7 +3,7 @@ title: CalendarDeletionOptions
 second_title: Aspose.Email for Java API Reference
 description: Defines parameters for item deletion
 type: docs
-weight: 92
+weight: 94
 url: /java/com.aspose.email/calendardeletionoptions/
 ---
 

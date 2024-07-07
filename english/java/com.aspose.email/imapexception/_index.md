@@ -3,7 +3,7 @@ title: ImapException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when the ImapClient is not able to complete an operation.
 type: docs
-weight: 307
+weight: 309
 url: /java/com.aspose.email/imapexception/
 ---
 

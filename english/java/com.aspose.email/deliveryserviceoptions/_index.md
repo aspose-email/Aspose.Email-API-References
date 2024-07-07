@@ -3,7 +3,7 @@ title: DeliveryServiceOptions
 second_title: Aspose.Email for Java API Reference
 description: Options to set the DeliveryServiceClient parameters.
 type: docs
-weight: 156
+weight: 158
 url: /java/com.aspose.email/deliveryserviceoptions/
 ---
 

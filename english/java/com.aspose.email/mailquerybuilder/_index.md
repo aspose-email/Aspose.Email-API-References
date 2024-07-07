@@ -3,7 +3,7 @@ title: MailQueryBuilder
 second_title: Aspose.Email for Java API Reference
 description: Represents the builder of search expression.
 type: docs
-weight: 374
+weight: 376
 url: /java/com.aspose.email/mailquerybuilder/
 ---
 

@@ -3,7 +3,7 @@ title: EventList
 second_title: Aspose.Email for Java API Reference
 description: List of events for a contact
 type: docs
-weight: 182
+weight: 184
 url: /java/com.aspose.email/eventlist/
 ---
 

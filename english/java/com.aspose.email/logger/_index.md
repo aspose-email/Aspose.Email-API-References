@@ -3,7 +3,7 @@ title: Logger
 second_title: Aspose.Email for Java API Reference
 description: Provides the logging functionality.
 type: docs
-weight: 358
+weight: 360
 url: /java/com.aspose.email/logger/
 ---
 

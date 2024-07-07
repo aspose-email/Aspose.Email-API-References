@@ -3,7 +3,7 @@ title: AssociatedPersonCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents category for a persons
 type: docs
-weight: 60
+weight: 62
 url: /java/com.aspose.email/associatedpersoncategory/
 ---
 

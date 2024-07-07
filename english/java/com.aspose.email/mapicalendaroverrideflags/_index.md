@@ -3,7 +3,7 @@ title: MapiCalendarOverrideFlags
 second_title: Aspose.Email for Java API Reference
 description: Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series.
 type: docs
-weight: 400
+weight: 403
 url: /java/com.aspose.email/mapicalendaroverrideflags/
 ---
 

@@ -3,7 +3,7 @@ title: AppointmentMethodType
 second_title: Aspose.Email for Java API Reference
 description: Defines the iCalendar object method type associated with the calendar object.
 type: docs
-weight: 39
+weight: 41
 url: /java/com.aspose.email/appointmentmethodtype/
 ---
 

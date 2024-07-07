@@ -3,7 +3,7 @@ title: DataColumnCollection
 second_title: Aspose.Email for Java API Reference
 description: DataColumnCollection class.
 type: docs
-weight: 136
+weight: 138
 url: /java/com.aspose.email/datacolumncollection/
 ---
 

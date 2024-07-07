@@ -3,7 +3,7 @@ title: MailMessageSaveType
 second_title: Aspose.Email for Java API Reference
 description: Represents the mail message format.It can be in emlmsg or mhtml format.
 type: docs
-weight: 372
+weight: 374
 url: /java/com.aspose.email/mailmessagesavetype/
 ---
 

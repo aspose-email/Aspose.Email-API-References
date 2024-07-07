@@ -3,7 +3,7 @@ title: CompressionType
 second_title: Aspose.Email for Java API Reference
 description: Compression types which are used by mail protocols
 type: docs
-weight: 111
+weight: 113
 url: /java/com.aspose.email/compressiontype/
 ---
 

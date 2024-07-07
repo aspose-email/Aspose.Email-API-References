@@ -3,7 +3,7 @@ title: LinkedResource
 second_title: Aspose.Email for Java API Reference
 description: Represents an embedded resource in a message.
 type: docs
-weight: 349
+weight: 351
 url: /java/com.aspose.email/linkedresource/
 ---
 

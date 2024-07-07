@@ -3,7 +3,7 @@ title: CalendarReader
 second_title: Aspose.Email for Java API Reference
 description: Allows read the calendar with multi events to the Appointment object from a file or stream.
 type: docs
-weight: 95
+weight: 97
 url: /java/com.aspose.email/calendarreader/
 ---
 

@@ -3,7 +3,7 @@ title: ElementProcessingException
 second_title: Aspose.Email for Java API Reference
 description: The exception that is thrown when one of many elements failed with exception.
 type: docs
-weight: 164
+weight: 166
 url: /java/com.aspose.email/elementprocessingexception/
 ---
 

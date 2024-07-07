@@ -3,7 +3,7 @@ title: MapiObjectType
 second_title: Aspose.Email for Java API Reference
 description: Represents the mapi object type.
 type: docs
-weight: 458
+weight: 461
 url: /java/com.aspose.email/mapiobjecttype/
 ---
 

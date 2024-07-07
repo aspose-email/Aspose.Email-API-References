@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents information about personal folder in PST.
 type: docs
-weight: 255
+weight: 257
 url: /java/com.aspose.email/folderinfo/
 ---
 

@@ -3,7 +3,7 @@ title: ConferenceProperties
 second_title: Aspose.Email for Java API Reference
 description: Conferencing properties for this calendar.
 type: docs
-weight: 112
+weight: 114
 url: /java/com.aspose.email/conferenceproperties/
 ---
 

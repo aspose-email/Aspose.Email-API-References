@@ -3,7 +3,7 @@ title: CalendarRecurrence
 second_title: Aspose.Email for Java API Reference
 description: The main class represents an iCalendar recurrence.
 type: docs
-weight: 96
+weight: 98
 url: /java/com.aspose.email/calendarrecurrence/
 ---
 

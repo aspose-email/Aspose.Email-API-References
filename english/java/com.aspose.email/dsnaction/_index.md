@@ -3,7 +3,7 @@ title: DSNAction
 second_title: Aspose.Email for Java API Reference
 description: Indicates the action performed by the Reporting-MTA as a result of its attempt to deliver the message.
 type: docs
-weight: 133
+weight: 135
 url: /java/com.aspose.email/dsnaction/
 ---
 

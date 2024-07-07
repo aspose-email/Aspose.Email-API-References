@@ -3,7 +3,7 @@ title: AppointmentSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates AppointmentSaveFormat
 type: docs
-weight: 45
+weight: 47
 url: /java/com.aspose.email/appointmentsaveformat/
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
-description: Represents the Personal Distribution List object.
+description: Represents a MAPI distribution list item.
 type: docs
-weight: 435
+weight: 438
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public final class MapiDistributionList extends MapiMessageItemBase
 ```
 
-Represents the Personal Distribution List object.
+Represents a MAPI distribution list item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling distribution list information from MAPI properties. It provides a more intuitive interface for accessing and manipulating distribution list data within the MAPI message.
+
+Example:
+
+```
+
+ // Load the MAPI message from a file
+ MapiMessage msg = MapiMessage.load("distributionList.msg");
+
+ // Check if the loaded message is a supported distribution list type
+ if (msg.getSupportedType() == MapiItemType.DistList) {
+     // Convert the MAPI message to a MapiDistributionList object
+     MapiDistributionList mapiDistributionList = (MapiDistributionList) msg.toMapiMessageItem();
+
+     // Display some distribution list info
+     System.out.println(mapiDistributionList.getDisplayName());
+     System.out.println(mapiDistributionList.getMembers().size());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -28,6 +49,8 @@ Represents the Personal Distribution List object.
 | [createMapiNode(String key)](#createMapiNode-java.lang.String-) | Creates the mapi node. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromVCF(InputStream stream)](#fromVCF-java.io.InputStream-) | Loads MapiDistributionList from VCF stream. |
+| [fromVCF(String filePath)](#fromVCF-java.lang.String-) | Loads MapiDistributionList from VCF file. |
 | [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
 | [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
 | [getBody()](#getBody--) | Gets the message text. |
@@ -170,6 +193,36 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromVCF(InputStream stream) {#fromVCF-java.io.InputStream-}
+```
+public static MapiDistributionList fromVCF(InputStream stream)
+```
+
+
+Loads MapiDistributionList from VCF stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Stream in the VCF format. |
+
+**Returns:**
+[MapiDistributionList](../../com.aspose.email/mapidistributionlist) - The result MapiDistributionList.
+### fromVCF(String filePath) {#fromVCF-java.lang.String-}
+```
+public static MapiDistributionList fromVCF(String filePath)
+```
+
+
+Loads MapiDistributionList from VCF file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to the VCF file. |
+
+**Returns:**
+[MapiDistributionList](../../com.aspose.email/mapidistributionlist) - The result MapiDistributionList.
 ### getAttachments() {#getAttachments--}
 ```
 public final MapiAttachmentCollection getAttachments()
@@ -610,6 +663,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiDistributionList object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiDistributionList object
+ MapiMessage msg = mapiDistributionList.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.DistList"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

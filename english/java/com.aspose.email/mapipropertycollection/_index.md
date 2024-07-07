@@ -3,7 +3,7 @@ title: MapiPropertyCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of MapiProperty items.
 type: docs
-weight: 460
+weight: 463
 url: /java/com.aspose.email/mapipropertycollection/
 ---
 

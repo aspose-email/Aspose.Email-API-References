@@ -3,7 +3,7 @@ title: FreebusyCalendarInfo
 second_title: Aspose.Email for Java API Reference
 description: Defines list of free/busy information for specified calendar.
 type: docs
-weight: 266
+weight: 268
 url: /java/com.aspose.email/freebusycalendarinfo/
 ---
 

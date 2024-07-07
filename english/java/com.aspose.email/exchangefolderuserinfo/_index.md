@@ -3,7 +3,7 @@ title: ExchangeFolderUserInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents a user who has folder access permissions
 type: docs
-weight: 215
+weight: 217
 url: /java/com.aspose.email/exchangefolderuserinfo/
 ---
 

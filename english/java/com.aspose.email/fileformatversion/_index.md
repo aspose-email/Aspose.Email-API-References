@@ -3,7 +3,7 @@ title: FileFormatVersion
 second_title: Aspose.Email for Java API Reference
 description: Represents version of file.
 type: docs
-weight: 251
+weight: 253
 url: /java/com.aspose.email/fileformatversion/
 ---
 

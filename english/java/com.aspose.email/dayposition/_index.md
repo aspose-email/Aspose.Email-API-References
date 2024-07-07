@@ -3,7 +3,7 @@ title: DayPosition
 second_title: Aspose.Email for Java API Reference
 description: Day positions typically found in a month.
 type: docs
-weight: 148
+weight: 150
 url: /java/com.aspose.email/dayposition/
 ---
 

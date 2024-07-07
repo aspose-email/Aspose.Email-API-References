@@ -3,7 +3,7 @@ title: MapiDistributionListSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies the DistributionList save options.
 type: docs
-weight: 440
+weight: 443
 url: /java/com.aspose.email/mapidistributionlistsaveoptions/
 ---
 
@@ -27,9 +27,11 @@ Specifies the DistributionList save options.
 | [getClass()](#getClass--) |  |
 | [getDefault()](#getDefault--) | Gets the default options. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
+| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -94,6 +96,16 @@ Gets a save format
 
 **Returns:**
 int
+### getVersion() {#getVersion--}
+```
+public final int getVersion()
+```
+
+
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -119,6 +131,19 @@ public final native void notifyAll()
 
 
 
+
+### setVersion(int value) {#setVersion-int-}
+```
+public final void setVersion(int value)
+```
+
+
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

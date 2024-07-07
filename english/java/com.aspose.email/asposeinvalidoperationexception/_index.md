@@ -3,7 +3,7 @@ title: AsposeInvalidOperationException
 second_title: Aspose.Email for Java API Reference
 description: Exception class for denoting an object was in a state that made calling a method illegal.
 type: docs
-weight: 57
+weight: 59
 url: /java/com.aspose.email/asposeinvalidoperationexception/
 ---
 

@@ -3,7 +3,7 @@ title: MailException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when the mail message processing.
 type: docs
-weight: 368
+weight: 370
 url: /java/com.aspose.email/mailexception/
 ---
 

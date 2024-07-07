@@ -3,7 +3,7 @@ title: ContactSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents the base contact save options
 type: docs
-weight: 124
+weight: 126
 url: /java/com.aspose.email/contactsaveoptions/
 ---
 
@@ -21,9 +21,11 @@ Represents the base contact save options
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
+| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,6 +65,16 @@ Gets a save format
 
 **Returns:**
 int
+### getVersion() {#getVersion--}
+```
+public final int getVersion()
+```
+
+
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -88,6 +100,19 @@ public final native void notifyAll()
 
 
 
+
+### setVersion(int value) {#setVersion-int-}
+```
+public final void setVersion(int value)
+```
+
+
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

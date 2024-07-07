@@ -3,7 +3,7 @@ title: EventTypes
 second_title: Aspose.Email for Java API Reference
 description: Specifies event type
 type: docs
-weight: 183
+weight: 185
 url: /java/com.aspose.email/eventtypes/
 ---
 

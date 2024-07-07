@@ -3,7 +3,7 @@ title: MapiContactElectronicAddressPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify properties for up to three different  e-mail addresses Email1 Email2 and Email3  and three different fax addresses Primary Fax Business Fax and Home Fax
 type: docs
-weight: 420
+weight: 423
 url: /java/com.aspose.email/mapicontactelectronicaddresspropertyset/
 ---
 

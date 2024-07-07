@@ -3,7 +3,7 @@ title: BodyContentType
 second_title: Aspose.Email for Java API Reference
 description: The content type of message body.
 type: docs
-weight: 82
+weight: 84
 url: /java/com.aspose.email/bodycontenttype/
 ---
 

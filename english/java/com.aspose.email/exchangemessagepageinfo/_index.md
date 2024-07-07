@@ -3,7 +3,7 @@ title: ExchangeMessagePageInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 223
+weight: 225
 url: /java/com.aspose.email/exchangemessagepageinfo/
 ---
 

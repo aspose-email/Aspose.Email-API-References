@@ -3,7 +3,7 @@ title: HeadersFormattingOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
 type: docs
-weight: 292
+weight: 294
 url: /java/com.aspose.email/headersformattingoptions/
 ---
 

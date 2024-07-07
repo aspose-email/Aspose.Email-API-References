@@ -3,7 +3,7 @@ title: AttachmentPermissionType
 second_title: Aspose.Email for Java API Reference
 description: The permission type data associated with a web reference attachment.
 type: docs
-weight: 67
+weight: 69
 url: /java/com.aspose.email/attachmentpermissiontype/
 ---
 

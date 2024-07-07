@@ -3,7 +3,7 @@ title: CallInformation
 second_title: Aspose.Email for Java API Reference
 description: Phone call information
 type: docs
-weight: 99
+weight: 101
 url: /java/com.aspose.email/callinformation/
 ---
 

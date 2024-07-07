@@ -3,7 +3,7 @@ title: AsyncCommandResults
 second_title: Aspose.Email for Java API Reference
 description: The result of asynchronous command.
 type: docs
-weight: 63
+weight: 65
 url: /java/com.aspose.email/asynccommandresults/
 ---
 

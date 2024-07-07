@@ -3,7 +3,7 @@ title: BackupOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates backup options
 type: docs
-weight: 75
+weight: 77
 url: /java/com.aspose.email/backupoptions/
 ---
 

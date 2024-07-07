@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Email for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 348
+weight: 350
 url: /java/com.aspose.email/license/
 ---
 

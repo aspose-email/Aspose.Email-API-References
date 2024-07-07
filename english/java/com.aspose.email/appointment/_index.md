@@ -3,7 +3,7 @@ title: Appointment
 second_title: Aspose.Email for Java API Reference
 description: Represents a calendar to an e-mail.
 type: docs
-weight: 31
+weight: 33
 url: /java/com.aspose.email/appointment/
 ---
 

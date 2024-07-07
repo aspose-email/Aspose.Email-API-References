@@ -3,7 +3,7 @@ title: AppointmentCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of Appointment objects.
 type: docs
-weight: 34
+weight: 36
 url: /java/com.aspose.email/appointmentcollection/
 ---
 

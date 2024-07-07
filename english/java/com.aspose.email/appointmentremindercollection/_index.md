@@ -3,7 +3,7 @@ title: AppointmentReminderCollection
 second_title: Aspose.Email for Java API Reference
 description: Contains collection of AppointmentReminder objects.
 type: docs
-weight: 44
+weight: 46
 url: /java/com.aspose.email/appointmentremindercollection/
 ---
 

@@ -3,7 +3,7 @@ title: ConnectionAsgmtType
 second_title: Aspose.Email for Java API Reference
 description: Defines algorithm of connection allocation in multiple threads environment
 type: docs
-weight: 113
+weight: 115
 url: /java/com.aspose.email/connectionasgmttype/
 ---
 

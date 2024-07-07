@@ -3,7 +3,7 @@ title: ExchangeDelegateOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates delegation options
 type: docs
-weight: 200
+weight: 202
 url: /java/com.aspose.email/exchangedelegateoptions/
 ---
 

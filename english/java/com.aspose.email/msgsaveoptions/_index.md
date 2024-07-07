@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional settings when saving a MailMessage in the MsgASCII and MsgUnicode format.
 type: docs
-weight: 531
+weight: 536
 url: /java/com.aspose.email/msgsaveoptions/
 ---
 
@@ -218,7 +218,7 @@ public final boolean getPreserveOriginalDates()
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.
+Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
 
 **Returns:**
 boolean
@@ -300,7 +300,7 @@ public final void setPreserveOriginalDates(boolean value)
 ```
 
 
-Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.
+Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message. By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.
 
 **Parameters:**
 | Parameter | Type | Description |

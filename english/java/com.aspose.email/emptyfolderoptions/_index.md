@@ -3,7 +3,7 @@ title: EmptyFolderOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the empty folder options
 type: docs
-weight: 176
+weight: 178
 url: /java/com.aspose.email/emptyfolderoptions/
 ---
 

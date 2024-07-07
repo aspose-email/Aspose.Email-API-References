@@ -3,7 +3,7 @@ title: SecurityOptions
 second_title: Aspose.Email for Java API Reference
 description: Security mode for a mail client
 type: docs
-weight: 636
+weight: 643
 url: /java/com.aspose.email/securityoptions/
 ---
 

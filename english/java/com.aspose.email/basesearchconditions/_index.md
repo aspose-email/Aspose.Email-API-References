@@ -3,7 +3,7 @@ title: BaseSearchConditions
 second_title: Aspose.Email for Java API Reference
 description: Provides base class for the search conditions.
 type: docs
-weight: 79
+weight: 81
 url: /java/com.aspose.email/basesearchconditions/
 ---
 

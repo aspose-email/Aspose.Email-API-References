@@ -3,7 +3,7 @@ title: GoogleClientException
 second_title: Aspose.Email for Java API Reference
 description: Represents errors that occur during ActiveSync protocol execution.
 type: docs
-weight: 279
+weight: 281
 url: /java/com.aspose.email/googleclientexception/
 ---
 

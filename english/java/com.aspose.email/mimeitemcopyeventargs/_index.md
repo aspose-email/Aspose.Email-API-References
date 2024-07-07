@@ -3,7 +3,7 @@ title: MimeItemCopyEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Represents event arguments related to a copying of a MailMessage object  from one storage to another either before the copy begins or after it is complete.
 type: docs
-weight: 526
+weight: 531
 url: /java/com.aspose.email/mimeitemcopyeventargs/
 ---
 

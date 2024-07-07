@@ -3,7 +3,7 @@ title: MailMessageCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of  objects.
 type: docs
-weight: 370
+weight: 372
 url: /java/com.aspose.email/mailmessagecollection/
 ---
 

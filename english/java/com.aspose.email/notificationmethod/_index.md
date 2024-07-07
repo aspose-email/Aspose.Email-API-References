@@ -3,7 +3,7 @@ title: NotificationMethod
 second_title: Aspose.Email for Java API Reference
 description: The method used by this notification.
 type: docs
-weight: 544
+weight: 549
 url: /java/com.aspose.email/notificationmethod/
 ---
 

@@ -3,7 +3,7 @@ title: CustomerEvent
 second_title: Aspose.Email for Java API Reference
 description: Represents an event.
 type: docs
-weight: 130
+weight: 132
 url: /java/com.aspose.email/customerevent/
 ---
 
