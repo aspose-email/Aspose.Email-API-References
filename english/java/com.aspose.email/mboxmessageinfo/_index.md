@@ -3,7 +3,7 @@ title: MboxMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an information about message in the MBOX storage.
 type: docs
-weight: 484
+weight: 488
 url: /java/com.aspose.email/mboxmessageinfo/
 ---
 

@@ -3,7 +3,7 @@ title: EmailAddress
 second_title: Aspose.Email for Java API Reference
 description: Represents an email address
 type: docs
-weight: 165
+weight: 167
 url: /java/com.aspose.email/emailaddress/
 ---
 

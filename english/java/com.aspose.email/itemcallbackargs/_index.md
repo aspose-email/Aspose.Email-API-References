@@ -3,7 +3,7 @@ title: ItemCallbackArgs
 second_title: Aspose.Email for Java API Reference
 description: ItemCallbackArgs contains item being processed.
 type: docs
-weight: 340
+weight: 342
 url: /java/com.aspose.email/itemcallbackargs/
 ---
 

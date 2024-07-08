@@ -3,7 +3,7 @@ title: MailServerValidatingEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents the event handler for MailServerValidatingEvent.
 type: docs
-weight: 376
+weight: 378
 url: /java/com.aspose.email/mailservervalidatingeventhandler/
 ---
 

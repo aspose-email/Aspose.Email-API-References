@@ -3,7 +3,7 @@ title: ExchangeFolderUserType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the distinguished user accounts
 type: docs
-weight: 216
+weight: 218
 url: /java/com.aspose.email/exchangefolderusertype/
 ---
 

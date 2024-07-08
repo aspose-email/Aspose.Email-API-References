@@ -3,7 +3,7 @@ title: ImapPageInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 325
+weight: 327
 url: /java/com.aspose.email/imappageinfo/
 ---
 

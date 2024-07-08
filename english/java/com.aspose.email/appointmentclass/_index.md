@@ -3,7 +3,7 @@ title: AppointmentClass
 second_title: Aspose.Email for Java API Reference
 description: Defines the access classification for the appointment.
 type: docs
-weight: 33
+weight: 35
 url: /java/com.aspose.email/appointmentclass/
 ---
 

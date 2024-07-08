@@ -3,7 +3,7 @@ title: MessageObjectSaveFormat
 second_title: Aspose.Email for Java API Reference
 description: Represents available formats  could be saved to.
 type: docs
-weight: 509
+weight: 514
 url: /java/com.aspose.email/messageobjectsaveformat/
 ---
 

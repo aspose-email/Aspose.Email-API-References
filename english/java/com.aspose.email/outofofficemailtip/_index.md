@@ -3,7 +3,7 @@ title: OutOfOfficeMailTip
 second_title: Aspose.Email for Java API Reference
 description: Represents OOF mail tip
 type: docs
-weight: 559
+weight: 565
 url: /java/com.aspose.email/outofofficemailtip/
 ---
 

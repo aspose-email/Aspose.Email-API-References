@@ -3,7 +3,7 @@ title: ExchangeUserBusyness
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the user free/busy statuses
 type: docs
-weight: 232
+weight: 234
 url: /java/com.aspose.email/exchangeuserbusyness/
 ---
 

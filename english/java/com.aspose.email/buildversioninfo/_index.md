@@ -3,7 +3,7 @@ title: BuildVersionInfo
 second_title: Aspose.Email for Java API Reference
 description: Provides information about the current product name and version.
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.email/buildversioninfo/
 ---
 

@@ -3,7 +3,7 @@ title: ExtendedPropertiesComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Defines dictionary with pairs of property descriptors and comparison field to search by extended properties
 type: docs
-weight: 237
+weight: 239
 url: /java/com.aspose.email/extendedpropertiescomparisonfield/
 ---
 

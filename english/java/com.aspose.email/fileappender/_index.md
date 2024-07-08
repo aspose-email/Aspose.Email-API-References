@@ -3,7 +3,7 @@ title: FileAppender
 second_title: Aspose.Email for Java API Reference
 description: Reprensents a file appender.
 type: docs
-weight: 243
+weight: 245
 url: /java/com.aspose.email/fileappender/
 ---
 

@@ -3,7 +3,7 @@ title: ExchangeDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents a Distribution List properties
 type: docs
-weight: 204
+weight: 206
 url: /java/com.aspose.email/exchangedistributionlist/
 ---
 

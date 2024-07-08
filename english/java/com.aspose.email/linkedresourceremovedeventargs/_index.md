@@ -3,7 +3,7 @@ title: LinkedResourceRemovedEventArgs
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 351
+weight: 353
 url: /java/com.aspose.email/linkedresourceremovedeventargs/
 ---
 

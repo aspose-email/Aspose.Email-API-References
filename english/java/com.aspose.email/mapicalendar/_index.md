@@ -1,9 +1,9 @@
 ---
 title: MapiCalendar
 second_title: Aspose.Email for Java API Reference
-description: Represents the mapi calendar object
+description: Represents a MAPI calendar item.
 type: docs
-weight: 388
+weight: 390
 url: /java/com.aspose.email/mapicalendar/
 ---
 
@@ -13,7 +13,27 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public final class MapiCalendar extends MapiMessageItemBase
 ```
 
-Represents the mapi calendar object
+Represents a MAPI calendar item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling calendar information from MAPI properties. It provides a more intuitive interface for accessing and manipulating calendar data within the MAPI message.
+
+Example:
+
+```
+// The following example demonstrates how to get a [MapiCalendar](../../com.aspose.email/mapicalendar) object from a [MapiMessage](../../com.aspose.email/mapimessage).
+
+ MapiMessage msg = MapiMessage.load("calendar.msg");
+
+ // Check if the loaded message is a supported calendar type
+ if (msg.getSupportedType() == MapiItemType.Calendar) {
+     // Convert the MAPI message to a MapiCalendar object
+     MapiCalendar mapiCalendar = (MapiCalendar) msg.toMapiMessageItem();
+
+     // Display some calendar info
+     System.out.println(mapiCalendar.getSubject());
+     System.out.println(mapiCalendar.getStartDate());
+ }
+```
 ## Constructors
 
 | Constructor | Description |
@@ -834,6 +854,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiCalendar object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiCalendar object
+ MapiMessage msg = mapiCalendar.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.Appointment"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

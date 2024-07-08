@@ -3,7 +3,7 @@ title: ExchangeCalendarPermissionReadAccess
 second_title: Aspose.Email for Java API Reference
 description: Sspecifies whether a user has permission to read items in a folder.
 type: docs
-weight: 194
+weight: 196
 url: /java/com.aspose.email/exchangecalendarpermissionreadaccess/
 ---
 

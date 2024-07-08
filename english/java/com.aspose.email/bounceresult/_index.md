@@ -3,7 +3,7 @@ title: BounceResult
 second_title: Aspose.Email for Java API Reference
 description: Represents result of the message examination as a bounce message.
 type: docs
-weight: 84
+weight: 86
 url: /java/com.aspose.email/bounceresult/
 ---
 

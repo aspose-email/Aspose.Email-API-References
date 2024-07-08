@@ -3,7 +3,7 @@ title: DateRange
 second_title: Aspose.Email for Java API Reference
 description: Represents the date range
 type: docs
-weight: 145
+weight: 147
 url: /java/com.aspose.email/daterange/
 ---
 

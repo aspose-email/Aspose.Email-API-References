@@ -3,7 +3,7 @@ title: ExchangeFolderInfo
 second_title: Aspose.Email for Java API Reference
 description: Provides information about an MS Exchange folder.
 type: docs
-weight: 206
+weight: 208
 url: /java/com.aspose.email/exchangefolderinfo/
 ---
 

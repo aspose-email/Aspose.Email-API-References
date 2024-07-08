@@ -3,7 +3,7 @@ title: OperationCanceledException
 second_title: Aspose.Email for Java API Reference
 description: Represents errors that occur when an operation canceled.
 type: docs
-weight: 557
+weight: 563
 url: /java/com.aspose.email/operationcanceledexception/
 ---
 

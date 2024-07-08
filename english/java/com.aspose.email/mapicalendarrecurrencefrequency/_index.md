@@ -3,7 +3,7 @@ title: MapiCalendarRecurrenceFrequency
 second_title: Aspose.Email for Java API Reference
 description: Enumerates mapi calendar recurrence frequency
 type: docs
-weight: 403
+weight: 406
 url: /java/com.aspose.email/mapicalendarrecurrencefrequency/
 ---
 

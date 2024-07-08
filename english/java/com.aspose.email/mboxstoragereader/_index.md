@@ -1,9 +1,9 @@
 ---
 title: MboxStorageReader
 second_title: Aspose.Email for Java API Reference
-description: A base class for any mbox-based mail storage reader.
+description: Represents an MBOX file and provides methods for reading and extracting messages.
 type: docs
-weight: 485
+weight: 490
 url: /java/com.aspose.email/mboxstoragereader/
 ---
 
@@ -16,11 +16,34 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public abstract class MboxStorageReader implements System.IDisposable, Closeable
 ```
 
-A base class for any mbox-based mail storage reader.
+Represents an MBOX file and provides methods for reading and extracting messages. The MBOX file format is used for storing a collection of email messages.
+
+Example:
+
+```
+
+ // Create an instance of the MboxStorageReader using the factory method 'createReader'.
+ MboxStorageReader mbox = MboxStorageReader.createReader("storage.mbox", new MboxLoadOptions());
+
+ // Iterate through each message info object in the mbox storage.
+ for (MboxMessageInfo mboxMessageInfo : mbox.enumerateMessageInfo()) {
+     System.out.println("Subject: " + mboxMessageInfo.getSubject());
+     System.out.println("From: " + mboxMessageInfo.getFrom());
+     System.out.println("To: " + mboxMessageInfo.getTo());
+
+     // Extract the full MIME message object from the MBOX storage using the message's unique entry ID.
+     MailMessage eml = mbox.extractMessage(mboxMessageInfo.getEntryId(), new EmlLoadOptions());
+
+     // Save the extracted MIME message as an .eml file.
+     eml.save(eml.getSubject() + ".eml");
+ }
+ 
+```
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [cancel()](#cancel--) | This method is used to interrupt a split operation if splitInto is running asynchronously. |
 | [close()](#close--) |  |
 | [createReader(System.IO.Stream stream, MboxLoadOptions options)](#createReader-com.aspose.ms.System.IO.Stream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [createReader(InputStream stream, MboxLoadOptions options)](#createReader-java.io.InputStream-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
@@ -56,6 +79,14 @@ A base class for any mbox-based mail storage reader.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### cancel() {#cancel--}
+```
+public final void cancel()
+```
+
+
+This method is used to interrupt a split operation if splitInto is running asynchronously.
+
 ### close() {#close--}
 ```
 public void close()

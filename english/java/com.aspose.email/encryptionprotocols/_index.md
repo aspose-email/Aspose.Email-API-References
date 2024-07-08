@@ -3,7 +3,7 @@ title: EncryptionProtocols
 second_title: Aspose.Email for Java API Reference
 description: Defines the possible versions of encryption protocols.
 type: docs
-weight: 177
+weight: 179
 url: /java/com.aspose.email/encryptionprotocols/
 ---
 

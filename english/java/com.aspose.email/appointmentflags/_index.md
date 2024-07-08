@@ -3,7 +3,7 @@ title: AppointmentFlags
 second_title: Aspose.Email for Java API Reference
 description: Enumerates appointment flags.
 type: docs
-weight: 35
+weight: 37
 url: /java/com.aspose.email/appointmentflags/
 ---
 

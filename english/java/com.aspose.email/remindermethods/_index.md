@@ -3,7 +3,7 @@ title: ReminderMethods
 second_title: Aspose.Email for Java API Reference
 description: The method used by this reminder.
 type: docs
-weight: 609
+weight: 615
 url: /java/com.aspose.email/remindermethods/
 ---
 

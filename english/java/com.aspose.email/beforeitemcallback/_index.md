@@ -3,7 +3,7 @@ title: BeforeItemCallback
 second_title: Aspose.Email for Java API Reference
 description: BeforeItemCallback is called before the next item is processed the type of which depends on the task being performed.
 type: docs
-weight: 80
+weight: 82
 url: /java/com.aspose.email/beforeitemcallback/
 ---
 

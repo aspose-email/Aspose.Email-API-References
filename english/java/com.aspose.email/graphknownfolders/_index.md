@@ -3,7 +3,7 @@ title: GraphKnownFolders
 second_title: Aspose.Email for Java API Reference
 description: Well-known folders
 type: docs
-weight: 284
+weight: 286
 url: /java/com.aspose.email/graphknownfolders/
 ---
 

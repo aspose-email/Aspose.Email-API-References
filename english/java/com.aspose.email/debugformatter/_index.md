@@ -3,7 +3,7 @@ title: DebugFormatter
 second_title: Aspose.Email for Java API Reference
 description: Represents the class for formatting log entry messages.
 type: docs
-weight: 150
+weight: 152
 url: /java/com.aspose.email/debugformatter/
 ---
 

@@ -3,7 +3,7 @@ title: AppointmentStatus
 second_title: Aspose.Email for Java API Reference
 description: Defines the overall status or confirmation for the appointment.
 type: docs
-weight: 47
+weight: 49
 url: /java/com.aspose.email/appointmentstatus/
 ---
 

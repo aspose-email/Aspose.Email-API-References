@@ -3,7 +3,7 @@ title: ExchangeAdvancedSyntaxQueryBuilder
 second_title: Aspose.Email for Java API Reference
 description: Represents the builder of search expression based on the Advanced Query Syntax AQS that used by Exchange protocol.
 type: docs
-weight: 186
+weight: 188
 url: /java/com.aspose.email/exchangeadvancedsyntaxquerybuilder/
 ---
 

@@ -3,7 +3,7 @@ title: ExchangeFolderPageInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 208
+weight: 210
 url: /java/com.aspose.email/exchangefolderpageinfo/
 ---
 

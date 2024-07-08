@@ -3,7 +3,7 @@ title: CategoryPreset
 second_title: Aspose.Email for Java API Reference
 description: A pre-set color enumeration that characterizes a categories and that is mapped to one of 25 predefined colors.
 type: docs
-weight: 102
+weight: 104
 url: /java/com.aspose.email/categorypreset/
 ---
 

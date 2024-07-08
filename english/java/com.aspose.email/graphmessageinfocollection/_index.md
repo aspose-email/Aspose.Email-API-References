@@ -3,7 +3,7 @@ title: GraphMessageInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents collection of GraphMessageInfo.
 type: docs
-weight: 286
+weight: 288
 url: /java/com.aspose.email/graphmessageinfocollection/
 ---
 

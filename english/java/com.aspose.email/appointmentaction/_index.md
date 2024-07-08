@@ -3,7 +3,7 @@ title: AppointmentAction
 second_title: Aspose.Email for Java API Reference
 description: Enumerates appointments methods
 type: docs
-weight: 32
+weight: 34
 url: /java/com.aspose.email/appointmentaction/
 ---
 

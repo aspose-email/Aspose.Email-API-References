@@ -3,7 +3,7 @@ title: AutodiscoverService
 second_title: Aspose.Email for Java API Reference
 description: Represents a binding to the Exchange Autodiscover Service.
 type: docs
-weight: 73
+weight: 75
 url: /java/com.aspose.email/autodiscoverservice/
 ---
 

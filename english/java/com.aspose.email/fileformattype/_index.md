@@ -3,7 +3,7 @@ title: FileFormatType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates file format types.
 type: docs
-weight: 249
+weight: 251
 url: /java/com.aspose.email/fileformattype/
 ---
 

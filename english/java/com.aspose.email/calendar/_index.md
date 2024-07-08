@@ -3,7 +3,7 @@ title: Calendar
 second_title: Aspose.Email for Java API Reference
 description: A set of metadata such as a description for a single calendar.
 type: docs
-weight: 90
+weight: 92
 url: /java/com.aspose.email/calendar/
 ---
 

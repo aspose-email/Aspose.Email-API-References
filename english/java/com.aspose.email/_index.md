@@ -33,6 +33,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [AmpImage](../com.aspose.email/ampimage) |  |
 | [AmpMessage](../com.aspose.email/ampmessage) | Message which allows senders to include AMP components inside emails. |
 | [AmpTimeago](../com.aspose.email/amptimeago) | Provides fuzzy timestamps by formatting dates as "X time ago" |
+| [AppendMessagesFromFileResult](../com.aspose.email/appendmessagesfromfileresult) | Contains result of operation with messages |
+| [AppendMessagesFromMessageObjectResult](../com.aspose.email/appendmessagesfrommessageobjectresult) | Contains result of operation with messages |
 | [AppendMessagesResult](../com.aspose.email/appendmessagesresult) | Contains result of operation with messages |
 | [Appender](../com.aspose.email/appender) | Represents the base class for Appender. |
 | [AppenderCollection](../com.aspose.email/appendercollection) | Represents the collecton for Appender objects. |
@@ -391,13 +393,14 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MailgunClient](../com.aspose.email/mailgunclient) | Represents the Mailgun client |
 | [MailgunClientOptions](../com.aspose.email/mailgunclientoptions) | Options to set the MailgunClient parameters. |
 | [MailgunRegion](../com.aspose.email/mailgunregion) | Represents the Mailgun Region |
-| [MapiAttachment](../com.aspose.email/mapiattachment) | Represents the attachment in the E-mail message. |
+| [MapiAttachment](../com.aspose.email/mapiattachment) | Represents a message attachment. |
 | [MapiAttachmentCollection](../com.aspose.email/mapiattachmentcollection) | Represents a collection of MapiAttachment objects. |
 | [MapiAttachmentPropertyStream](../com.aspose.email/mapiattachmentpropertystream) | Represents the property stream of attachment object. |
-| [MapiCalendar](../com.aspose.email/mapicalendar) | Represents the mapi calendar object |
+| [MapiCalendar](../com.aspose.email/mapicalendar) | Represents a MAPI calendar item. |
 | [MapiCalendarAttendees](../com.aspose.email/mapicalendarattendees) | Represents the mapi calendar attendees |
 | [MapiCalendarBusyStatus](../com.aspose.email/mapicalendarbusystatus) | Enumerates the mapi calendar possible busy status |
 | [MapiCalendarClientIntent](../com.aspose.email/mapicalendarclientintent) | Enumerates the actions the user can taken on the Meeting object |
+| [MapiCalendarCollection](../com.aspose.email/mapicalendarcollection) | Represents the collection of [MapiCalendar](../com.aspose.email/mapicalendar) |
 | [MapiCalendarDailyRecurrencePattern](../com.aspose.email/mapicalendardailyrecurrencepattern) | Represents the daily recurrence pattern of the mapi calendar |
 | [MapiCalendarDayOfWeek](../com.aspose.email/mapicalendardayofweek) | Enumerates the days of week of the mapi calendar recurrence pattern |
 | [MapiCalendarEventRecurrence](../com.aspose.email/mapicalendareventrecurrence) | Represents the recurrence properties of calendar object |
@@ -422,7 +425,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiCalendarTimeZoneRule](../com.aspose.email/mapicalendartimezonerule) | Represents time zone rule that indicate when to begin using the Standard/Daylight time. |
 | [MapiCalendarWeeklyRecurrencePattern](../com.aspose.email/mapicalendarweeklyrecurrencepattern) | Represents the weekly recurrence pattern of the mapi calendar |
 | [MapiCalendarYearlyAndMonthlyRecurrencePattern](../com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
-| [MapiContact](../com.aspose.email/mapicontact) | Represents outlook contact information |
+| [MapiContact](../com.aspose.email/mapicontact) | Represents a MAPI contact item. |
 | [MapiContactAddress](../com.aspose.email/mapicontactaddress) | Base abstract class for [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) and [MapiContactPhysicalAddress](../com.aspose.email/mapicontactphysicaladdress). |
 | [MapiContactCollection](../com.aspose.email/mapicontactcollection) | Represents the collection of [MapiContact](../com.aspose.email/mapicontact) |
 | [MapiContactElectronicAddress](../com.aspose.email/mapicontactelectronicaddress) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
@@ -441,7 +444,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiContactSaveOptions](../com.aspose.email/mapicontactsaveoptions) | Specifies the contact save options. |
 | [MapiContactTelephonePropertySet](../com.aspose.email/mapicontacttelephonepropertyset) | Specify optional telephone numbers for the contact |
 | [MapiConversionOptions](../com.aspose.email/mapiconversionoptions) | This class allows the user to specify additional options when converting from MailMessage to MapiMessage. |
-| [MapiDistributionList](../com.aspose.email/mapidistributionlist) | Represents the Personal Distribution List object. |
+| [MapiDistributionList](../com.aspose.email/mapidistributionlist) | Represents a MAPI distribution list item. |
 | [MapiDistributionListContactAddressType](../com.aspose.email/mapidistributionlistcontactaddresstype) | Represents the address type of a personal distribution list member. |
 | [MapiDistributionListEntryIdType](../com.aspose.email/mapidistributionlistentryidtype) | Specifies the type of EntryID. |
 | [MapiDistributionListMember](../com.aspose.email/mapidistributionlistmember) | Represents the members of the personal distribution list. |
@@ -451,7 +454,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiGuidConstants](../com.aspose.email/mapiguidconstants) | Contains several guid constants defined by MSG format specification. |
 | [MapiImportance](../com.aspose.email/mapiimportance) | Contains a values that indicates the message importance. |
 | [MapiItemType](../com.aspose.email/mapiitemtype) | Represents a MAPI item type that can be explicitly converted into an object of the corresponding class derived from the [IMapiMessageItem](../com.aspose.email/imapimessageitem) interface. |
-| [MapiJournal](../com.aspose.email/mapijournal) | Represents the Outlook Journal object. |
+| [MapiJournal](../com.aspose.email/mapijournal) | Represents a MAPI journal item. |
 | [MapiJournalDocumentStatus](../com.aspose.email/mapijournaldocumentstatus) | Indicates the status of document. |
 | [MapiJournalFlags](../com.aspose.email/mapijournalflags) | Contains metadata about the Journal object. |
 | [MapiMessage](../com.aspose.email/mapimessage) | Represents an Outlook Message format document that can be parsed. |
@@ -462,7 +465,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiMessageReader](../com.aspose.email/mapimessagereader) | Represents a reader that can read a Microsoft Outlook Message format document. |
 | [MapiNamedProperty](../com.aspose.email/mapinamedproperty) | Represents the data type of Named Property. |
 | [MapiNamedPropertyMappingStorage](../com.aspose.email/mapinamedpropertymappingstorage) | Represents the named property mapping |
-| [MapiNote](../com.aspose.email/mapinote) | Represents outlook Note object ("sticky note") |
+| [MapiNote](../com.aspose.email/mapinote) | Represents a MAPI note ("sticky note") item. |
 | [MapiObjectProperty](../com.aspose.email/mapiobjectproperty) | Represents a Custom object included in Outlook Message documents. |
 | [MapiObjectType](../com.aspose.email/mapiobjecttype) | Represents the mapi object type. |
 | [MapiProperty](../com.aspose.email/mapiproperty) | Represents the mapi property. |
@@ -478,8 +481,9 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiRecipientTrackStatus](../com.aspose.email/mapirecipienttrackstatus) | Represents the response status returned by the attendee. |
 | [MapiRecipientType](../com.aspose.email/mapirecipienttype) | Represent the PR\_RECIPIENT\_TYPE property which contains the recipient type for a message recipient. |
 | [MapiSensitivity](../com.aspose.email/mapisensitivity) | Contains a values that indicates the message sensitivity. |
-| [MapiTask](../com.aspose.email/mapitask) | Represents the Outlook Task object. |
+| [MapiTask](../com.aspose.email/mapitask) | Represents a MAPI task item. |
 | [MapiTaskAcceptanceState](../com.aspose.email/mapitaskacceptancestate) | Indicates the acceptance state of the task. |
+| [MapiTaskCollection](../com.aspose.email/mapitaskcollection) | Represents the collection of [MapiTask](../com.aspose.email/mapitask) |
 | [MapiTaskFlags](../com.aspose.email/mapitaskflags) | Contains indication flags of the Task object. |
 | [MapiTaskHistory](../com.aspose.email/mapitaskhistory) | Indicates the type of change that was last made to the Task object. |
 | [MapiTaskMode](../com.aspose.email/mapitaskmode) | Represents the assignment statuses of the task object. |
@@ -491,7 +495,8 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [MapiType](../com.aspose.email/mapitype) | Contains possible MAPI property types which can be stored with message object. |
 | [MboxLoadOptions](../com.aspose.email/mboxloadoptions) | Specifies additional options when loading a Mbox storage. |
 | [MboxMessageInfo](../com.aspose.email/mboxmessageinfo) | Represents an information about message in the MBOX storage. |
-| [MboxStorageReader](../com.aspose.email/mboxstoragereader) | A base class for any mbox-based mail storage reader. |
+| [MboxSaveOptions](../com.aspose.email/mboxsaveoptions) | Specifies additional options when save a Mbox storage. |
+| [MboxStorageReader](../com.aspose.email/mboxstoragereader) | Represents an MBOX file and provides methods for reading and extracting messages. |
 | [MboxStorageWriter](../com.aspose.email/mboxstoragewriter) | A base class for any mbox-based mail storage writer. |
 | [MboxToPstConversionOptions](../com.aspose.email/mboxtopstconversionoptions) | This class allows the user to specify additional options when converting from Mbox to PST. |
 | [MboxoStorageReader](../com.aspose.email/mboxostoragereader) | Represents mboxo format storage reader, this format is being used by Eudora. |
@@ -565,8 +570,9 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ObjectIdentifier](../com.aspose.email/objectidentifier) | Contains object identification information |
 | [OleDocumentFormat](../com.aspose.email/oledocumentformat) | Represents the format for OLE document. |
 | [OlmFolder](../com.aspose.email/olmfolder) | Represents folder information in OLM storage. |
+| [OlmItemCategory](../com.aspose.email/olmitemcategory) | Represents an Outlook item category. |
 | [OlmMessageInfo](../com.aspose.email/olmmessageinfo) | Represents an information about message in the OLM storage. |
-| [OlmStorage](../com.aspose.email/olmstorage) | Represents Outlook for Mac storage (.OLM) file. |
+| [OlmStorage](../com.aspose.email/olmstorage) | Represents an Outlook for Mac (.OLM) storage file and provides functionality to access and manipulate the data within the file such as emails, contacts, calendars, tasks, and notes. |
 | [OnenoteOperation](../com.aspose.email/onenoteoperation) | The status of certain long-running OneNote operations. |
 | [OperationCanceledException](../com.aspose.email/operationcanceledexception) | Represents errors that occur when an operation canceled. |
 | [OriginalMessageAdditionMode](../com.aspose.email/originalmessageadditionmode) | Way to include the original message in response message. |
@@ -578,7 +584,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [PageSettingsAsync](../com.aspose.email/pagesettingsasync) | The settings for the ImapClient.BeginListMessagesByPage async method. |
 | [ParticipationStatus](../com.aspose.email/participationstatus) | Identifies the participation status for the calendar user. |
 | [PemReader](../com.aspose.email/pemreader) | PEM format reader. |
-| [PersonalStorage](../com.aspose.email/personalstorage) | Represents Personal Storage Table (.pst) file. |
+| [PersonalStorage](../com.aspose.email/personalstorage) | Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook. |
 | [PersonalStorageLoadOptions](../com.aspose.email/personalstorageloadoptions) | Specifies additional options when loading a PST storage. |
 | [PersonalStorageQueryBuilder](../com.aspose.email/personalstoragequerybuilder) | Represents the builder of search expression that used by pst. |
 | [PhoneCallState](../com.aspose.email/phonecallstate) | Phone call statuses. |
@@ -633,6 +639,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [ResponseMessageBuilder](../com.aspose.email/responsemessagebuilder) | Provides creation and formatting the forwarding and replying messages. |
 | [RestoreOptions](../com.aspose.email/restoreoptions) | Enumerates restore options |
 | [RestoreSettings](../com.aspose.email/restoresettings) | The settings for the IEWSClient.Restore method |
+| [RestoredItemEntry](../com.aspose.email/restoreditementry) | Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in. |
 | [RuleActions](../com.aspose.email/ruleactions) | Represents the set of actions that are available to a rule. |
 | [RulePredicateFlags](../com.aspose.email/rulepredicateflags) | Represents the RulePredicate flags |
 | [RulePredicates](../com.aspose.email/rulepredicates) | Represents rule predicate |

@@ -3,7 +3,7 @@ title: FetchTimeoutException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when a message can not be read within the specified time.
 type: docs
-weight: 241
+weight: 243
 url: /java/com.aspose.email/fetchtimeoutexception/
 ---
 

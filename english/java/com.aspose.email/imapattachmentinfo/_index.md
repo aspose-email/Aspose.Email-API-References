@@ -3,7 +3,7 @@ title: ImapAttachmentInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents an attachment information.
 type: docs
-weight: 303
+weight: 305
 url: /java/com.aspose.email/imapattachmentinfo/
 ---
 

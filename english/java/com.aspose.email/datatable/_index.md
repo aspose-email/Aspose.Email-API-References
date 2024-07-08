@@ -3,7 +3,7 @@ title: DataTable
 second_title: Aspose.Email for Java API Reference
 description: DataTable class.
 type: docs
-weight: 141
+weight: 143
 url: /java/com.aspose.email/datatable/
 ---
 

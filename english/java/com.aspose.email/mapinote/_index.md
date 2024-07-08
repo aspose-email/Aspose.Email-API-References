@@ -1,9 +1,9 @@
 ---
 title: MapiNote
 second_title: Aspose.Email for Java API Reference
-description: Represents outlook Note object sticky note
+description: Represents a MAPI note sticky note item.
 type: docs
-weight: 456
+weight: 459
 url: /java/com.aspose.email/mapinote/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public final class MapiNote extends MapiMessageItemBase
 ```
 
-Represents outlook Note object ("sticky note")
+Represents a MAPI note ("sticky note") item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling note information from MAPI properties. It provides a more intuitive interface for accessing and manipulating note data within the MAPI message.
+
+Example:
+
+```
+
+ // Load the MAPI message from a file
+ MapiMessage msg = MapiMessage.load("note.msg");
+
+ // Check if the loaded message is a supported note type
+ if (msg.getSupportedType() == MapiItemType.Note) {
+     // Convert the MAPI message to a MapiNote object
+     MapiNote mapiNote = (MapiNote) msg.toMapiMessageItem();
+
+     // Display some note info
+     System.out.println(mapiNote.getColor());
+     System.out.println(mapiNote.getBody());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -623,6 +644,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiNote object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiNote object
+ MapiMessage msg = mapiNote.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.StickyNote"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### getWidth() {#getWidth--}
 ```
 public final int getWidth()

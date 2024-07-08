@@ -3,7 +3,7 @@ title: AppointmentTransparency
 second_title: Aspose.Email for Java API Reference
 description: Specifies whether or not this appointment is intended to be visible in availability searches.
 type: docs
-weight: 48
+weight: 50
 url: /java/com.aspose.email/appointmenttransparency/
 ---
 

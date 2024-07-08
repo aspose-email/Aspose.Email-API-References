@@ -3,7 +3,7 @@ title: BoolComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the boolean search field.
 type: docs
-weight: 83
+weight: 85
 url: /java/com.aspose.email/boolcomparisonfield/
 ---
 

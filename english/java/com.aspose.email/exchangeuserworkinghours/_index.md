@@ -3,7 +3,7 @@ title: ExchangeUserWorkingHours
 second_title: Aspose.Email for Java API Reference
 description: Represents the user working hours.
 type: docs
-weight: 233
+weight: 235
 url: /java/com.aspose.email/exchangeuserworkinghours/
 ---
 

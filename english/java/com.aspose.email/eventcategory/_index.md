@@ -3,7 +3,7 @@ title: EventCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents category for an event
 type: docs
-weight: 181
+weight: 183
 url: /java/com.aspose.email/eventcategory/
 ---
 

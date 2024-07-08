@@ -3,7 +3,7 @@ title: TimeoutException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when the time for operation has expired.
 type: docs
-weight: 689
+weight: 696
 url: /java/com.aspose.email/timeoutexception/
 ---
 

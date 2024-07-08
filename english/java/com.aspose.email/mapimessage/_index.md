@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 448
+weight: 451
 url: /java/com.aspose.email/mapimessage/
 ---
 
@@ -530,7 +530,7 @@ Contains the billing information associated with an item.
 java.lang.String
 ### getBody() {#getBody--}
 ```
-public final String getBody()
+public String getBody()
 ```
 
 
@@ -1581,7 +1581,7 @@ Contains the billing information associated with an item.
 
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
-public final void setBody(String value)
+public void setBody(String value)
 ```
 
 

@@ -3,7 +3,7 @@ title: ImapMonitoringEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Class contains monitoring event data.
 type: docs
-weight: 321
+weight: 323
 url: /java/com.aspose.email/imapmonitoringeventargs/
 ---
 

@@ -3,7 +3,7 @@ title: PipeliningStatus
 second_title: Aspose.Email for Java API Reference
 description: Defines pipelining status for mail client.
 type: docs
-weight: 578
+weight: 584
 url: /java/com.aspose.email/pipeliningstatus/
 ---
 

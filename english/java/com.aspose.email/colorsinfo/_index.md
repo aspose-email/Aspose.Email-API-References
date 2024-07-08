@@ -3,7 +3,7 @@ title: ColorsInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains colors definition for calendars and events
 type: docs
-weight: 107
+weight: 109
 url: /java/com.aspose.email/colorsinfo/
 ---
 

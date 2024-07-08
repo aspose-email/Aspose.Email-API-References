@@ -3,7 +3,7 @@ title: AutodiscoverRedirectionUrlValidationCallback
 second_title: Aspose.Email for Java API Reference
 description: Defines a delegate that is used by the AutodiscoverService to ask whether a redirectionUrl can be used.
 type: docs
-weight: 70
+weight: 72
 url: /java/com.aspose.email/autodiscoverredirectionurlvalidationcallback/
 ---
 

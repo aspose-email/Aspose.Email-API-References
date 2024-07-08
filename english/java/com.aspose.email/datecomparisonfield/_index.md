@@ -3,7 +3,7 @@ title: DateComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the date search field.
 type: docs
-weight: 143
+weight: 145
 url: /java/com.aspose.email/datecomparisonfield/
 ---
 

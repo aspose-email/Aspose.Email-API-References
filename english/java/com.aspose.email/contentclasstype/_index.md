@@ -3,7 +3,7 @@ title: ContentClassType
 second_title: Aspose.Email for Java API Reference
 description: Represents the content class of item.
 type: docs
-weight: 125
+weight: 127
 url: /java/com.aspose.email/contentclasstype/
 ---
 

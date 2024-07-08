@@ -3,7 +3,7 @@ title: AssociatedPersonsList
 second_title: Aspose.Email for Java API Reference
 description: List of associated persons for a contact
 type: docs
-weight: 61
+weight: 63
 url: /java/com.aspose.email/associatedpersonslist/
 ---
 

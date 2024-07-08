@@ -3,7 +3,7 @@ title: MessageFormat
 second_title: Aspose.Email for Java API Reference
 description: Represents the mail message format.It can be in emlmsg or mhtml format.
 type: docs
-weight: 495
+weight: 500
 url: /java/com.aspose.email/messageformat/
 ---
 

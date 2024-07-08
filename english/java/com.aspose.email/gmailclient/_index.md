@@ -3,7 +3,7 @@ title: GmailClient
 second_title: Aspose.Email for Java API Reference
 description: Base class for Gmail client
 type: docs
-weight: 278
+weight: 280
 url: /java/com.aspose.email/gmailclient/
 ---
 

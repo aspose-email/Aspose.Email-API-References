@@ -3,7 +3,7 @@ title: FindMessageTrackingReportOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents options for FindMessageTrackingReport operation
 type: docs
-weight: 252
+weight: 254
 url: /java/com.aspose.email/findmessagetrackingreportoptions/
 ---
 

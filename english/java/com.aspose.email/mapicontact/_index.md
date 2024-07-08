@@ -1,9 +1,9 @@
 ---
 title: MapiContact
 second_title: Aspose.Email for Java API Reference
-description: Represents outlook contact information
+description: Represents a MAPI contact item.
 type: docs
-weight: 416
+weight: 419
 url: /java/com.aspose.email/mapicontact/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public final class MapiContact extends MapiMessageItemBase
 ```
 
-Represents outlook contact information
+Represents a MAPI contact item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling contact information from MAPI properties. It provides a more intuitive interface for accessing and manipulating contact data within the MAPI message.
+
+Example:
+
+```
+
+ // Load the MAPI message from a file
+ MapiMessage msg = MapiMessage.load("contact.msg");
+
+ // Check if the loaded message is a supported contact type
+ if (msg.getSupportedType() == MapiItemType.Contact) {
+     // Convert the MAPI message to a MapiContact object
+     MapiContact mapiContact = (MapiContact) msg.toMapiMessageItem();
+
+     // Display some contact info
+     System.out.println(mapiContact.getNameInfo().getDisplayName());
+     System.out.println(mapiContact.getElectronicAddresses().getEmail1().getEmailAddress());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -46,7 +67,7 @@ Represents outlook contact information
 | [getCompanies()](#getCompanies--) | Contains the names of the companies that are associated with an item. |
 | [getElectronicAddresses()](#getElectronicAddresses--) | Specify properties for up to three different e-mail addresses and three different fax addresses |
 | [getEvents()](#getEvents--) | Specify events associated with a contact |
-| [getItemId()](#getItemId--) | Uses to specify the server id of the contact EWS only |
+| [getItemId()](#getItemId--) | The item id, uses with a server |
 | [getMessageClass()](#getMessageClass--) | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. |
 | [getMileage()](#getMileage--) | Contains the mileage information that is associated with an item. |
 | [getNameInfo()](#getNameInfo--) | The properties are used to specify the name of the person represented by the contact |
@@ -422,11 +443,11 @@ Specify events associated with a contact
 [MapiContactEventPropertySet](../../com.aspose.email/mapicontacteventpropertyset)
 ### getItemId() {#getItemId--}
 ```
-public final String getItemId()
+public String getItemId()
 ```
 
 
-Uses to specify the server id of the contact EWS only
+The item id, uses with a server
 
 **Returns:**
 java.lang.String
@@ -792,6 +813,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiContact object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiContact object
+ MapiMessage msg = mapiContact.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.Contact"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

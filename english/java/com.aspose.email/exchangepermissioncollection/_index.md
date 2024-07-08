@@ -3,7 +3,7 @@ title: ExchangePermissionCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 224
+weight: 226
 url: /java/com.aspose.email/exchangepermissioncollection/
 ---
 

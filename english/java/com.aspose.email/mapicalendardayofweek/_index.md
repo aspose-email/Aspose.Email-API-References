@@ -3,7 +3,7 @@ title: MapiCalendarDayOfWeek
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the days of week of the mapi calendar recurrence pattern
 type: docs
-weight: 393
+weight: 396
 url: /java/com.aspose.email/mapicalendardayofweek/
 ---
 

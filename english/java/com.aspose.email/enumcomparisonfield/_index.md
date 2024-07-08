@@ -3,7 +3,7 @@ title: EnumComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the enum search field.
 type: docs
-weight: 179
+weight: 181
 url: /java/com.aspose.email/enumcomparisonfield/
 ---
 

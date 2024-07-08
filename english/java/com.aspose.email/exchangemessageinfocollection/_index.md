@@ -3,7 +3,7 @@ title: ExchangeMessageInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of ExchangeMessageInfo objects.
 type: docs
-weight: 222
+weight: 224
 url: /java/com.aspose.email/exchangemessageinfocollection/
 ---
 

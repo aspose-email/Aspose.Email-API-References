@@ -3,7 +3,7 @@ title: ExchangeClient
 second_title: Aspose.Email for Java API Reference
 description: The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
 type: docs
-weight: 195
+weight: 197
 url: /java/com.aspose.email/exchangeclient/
 ---
 

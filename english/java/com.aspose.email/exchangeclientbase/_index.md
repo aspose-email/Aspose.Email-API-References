@@ -3,7 +3,7 @@ title: ExchangeClientBase
 second_title: Aspose.Email for Java API Reference
 description: Provides the abstract base class to MS Exchange Server access.
 type: docs
-weight: 196
+weight: 198
 url: /java/com.aspose.email/exchangeclientbase/
 ---
 

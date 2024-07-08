@@ -3,7 +3,7 @@ title: ImapKnownAuthenticationType
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 312
+weight: 314
 url: /java/com.aspose.email/imapknownauthenticationtype/
 ---
 
