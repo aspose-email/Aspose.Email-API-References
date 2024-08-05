@@ -3,7 +3,7 @@ title: VCardPhoto
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard photo property
 type: docs
-weight: 732
+weight: 733
 url: /java/com.aspose.email/vcardphoto/
 ---
 

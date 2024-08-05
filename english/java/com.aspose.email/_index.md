@@ -668,6 +668,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [SimpleFormatter](../com.aspose.email/simpleformatter) | Represents the default implementation of IFormatter interface. |
 | [SimpleSeqSet](../com.aspose.email/simpleseqset) | Simple container for value to search. |
 | [SizeRange](../com.aspose.email/sizerange) | Represents the size range |
+| [SmimeKey](../com.aspose.email/smimekey) | A wrapper around a PrivateKey and a chain of X509Certificate used to sign or decrypt a MIME message. |
 | [SmimeResult](../com.aspose.email/smimeresult) | This class containing results of checking secure emails. |
 | [SmtpClient](../com.aspose.email/smtpclient) | Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP). |
 | [SmtpDeliveryMethod](../com.aspose.email/smtpdeliverymethod) | Smtp delivery method |
