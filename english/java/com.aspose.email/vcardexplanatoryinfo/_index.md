@@ -3,7 +3,7 @@ title: VCardExplanatoryInfo
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard explanatory properties
 type: docs
-weight: 725
+weight: 726
 url: /java/com.aspose.email/vcardexplanatoryinfo/
 ---
 

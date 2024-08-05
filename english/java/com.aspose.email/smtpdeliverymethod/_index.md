@@ -3,7 +3,7 @@ title: SmtpDeliveryMethod
 second_title: Aspose.Email for Java API Reference
 description: Smtp delivery method
 type: docs
-weight: 659
+weight: 660
 url: /java/com.aspose.email/smtpdeliverymethod/
 ---
 

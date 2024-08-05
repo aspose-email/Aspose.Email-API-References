@@ -23,16 +23,14 @@ Class that provided methods for working with secure emails.
 
 | Method | Description |
 | --- | --- |
-| [attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#attachSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Creates a copy of the specified MailMessage and adds a digital signature to it. |
-| [attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options)](#attachSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MailMessage and adds a digital signature to it. |
-| [attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
-| [attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
+| [attachSignature(MailMessage msg, SmimeKey key)](#attachSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-) | Creates a copy of the specified MailMessage and adds a digital signature to it. |
+| [attachSignature(MailMessage msg, SmimeKey key, SignatureOptions options)](#attachSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MailMessage and adds a digital signature to it. |
+| [attachSignature(MapiMessage msg, SmimeKey key)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
+| [attachSignature(MapiMessage msg, SmimeKey key, SignatureOptions options)](#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-) | Creates a copy of the specified MapiMessage and adds a digital signature to it. |
 | [checkSignature(MailMessage msg)](#checkSignature-com.aspose.email.MailMessage-) | Checking signature MailMessage. |
-| [checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt)](#checkSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Checking signature MailMessage. |
-| [checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store)](#checkSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store-) | Checking signature MailMessage. |
+| [checkSignature(MailMessage msg, SmimeKey key)](#checkSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-) | Checking signature MailMessage. |
 | [checkSignature(MapiMessage msg)](#checkSignature-com.aspose.email.MapiMessage-) | Checking signature MapiMessage. |
-| [checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt)](#checkSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Checking signature MapiMessage. |
-| [checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store)](#checkSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store-) | Checking signature MapiMessage. |
+| [checkSignature(MapiMessage msg, SmimeKey key)](#checkSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-) | Checking signature MapiMessage. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,9 +46,9 @@ public SecureEmailManager()
 ```
 
 
-### attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#attachSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### attachSignature(MailMessage msg, SmimeKey key) {#attachSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-}
 ```
-public MailMessage attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+public MailMessage attachSignature(MailMessage msg, SmimeKey key)
 ```
 
 
@@ -60,13 +58,13 @@ Creates a copy of the specified MailMessage and adds a digital signature to it.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MailMessage](../../com.aspose.email/mailmessage) | Source MailMessage. |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | X.509 certificate. |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - Signed MailMessage
-### attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options) {#attachSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.email.SignatureOptions-}
+### attachSignature(MailMessage msg, SmimeKey key, SignatureOptions options) {#attachSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-}
 ```
-public MailMessage attachSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options)
+public MailMessage attachSignature(MailMessage msg, SmimeKey key, SignatureOptions options)
 ```
 
 
@@ -76,14 +74,14 @@ Creates a copy of the specified MailMessage and adds a digital signature to it.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MailMessage](../../com.aspose.email/mailmessage) | Source MailMessage. |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | X.509 certificate. |
 | options | [SignatureOptions](../../com.aspose.email/signatureoptions) | Additional options [SignatureOptions](../../com.aspose.email/signatureoptions) |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - Signed MailMessage
-### attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#attachSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### attachSignature(MapiMessage msg, SmimeKey key) {#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-}
 ```
-public MapiMessage attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+public MapiMessage attachSignature(MapiMessage msg, SmimeKey key)
 ```
 
 
@@ -93,13 +91,13 @@ Creates a copy of the specified MapiMessage and adds a digital signature to it.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MapiMessage](../../com.aspose.email/mapimessage) | Source MapiMessage. |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | X.509 certificate. |
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - Signed MapiMessage
-### attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options) {#attachSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.email.SignatureOptions-}
+### attachSignature(MapiMessage msg, SmimeKey key, SignatureOptions options) {#attachSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-com.aspose.email.SignatureOptions-}
 ```
-public MapiMessage attachSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, SignatureOptions options)
+public MapiMessage attachSignature(MapiMessage msg, SmimeKey key, SignatureOptions options)
 ```
 
 
@@ -109,7 +107,7 @@ Creates a copy of the specified MapiMessage and adds a digital signature to it.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MapiMessage](../../com.aspose.email/mapimessage) | Source MapiMessage. |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | X.509 certificate. |
 | options | [SignatureOptions](../../com.aspose.email/signatureoptions) | Additional options [SignatureOptions](../../com.aspose.email/signatureoptions) |
 
 **Returns:**
@@ -129,25 +127,9 @@ Checking signature MailMessage.
 
 **Returns:**
 [SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
-### checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt) {#checkSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### checkSignature(MailMessage msg, SmimeKey key) {#checkSignature-com.aspose.email.MailMessage-com.aspose.email.SmimeKey-}
 ```
-public final SmimeResult checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt)
-```
-
-
-Checking signature MailMessage.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| msg | [MailMessage](../../com.aspose.email/mailmessage) | The MailMessage to check. |
-| certificateForDecrypt | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | The certificate to decrypt the MailMessage if it is encrypted. |
-
-**Returns:**
-[SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
-### checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store) {#checkSignature-com.aspose.email.MailMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store-}
-```
-public final SmimeResult checkSignature(MailMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store)
+public final SmimeResult checkSignature(MailMessage msg, SmimeKey key)
 ```
 
 
@@ -157,8 +139,7 @@ Checking signature MailMessage.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MailMessage](../../com.aspose.email/mailmessage) | The MailMessage to check. |
-| certificateForDecrypt | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | The certificate to decrypt the MailMessage if it is encrypted. |
-| store | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store | Store to look up encryption certificates, if null then X509Store(StoreLocation.CurrentUser) is used. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) |  |
 
 **Returns:**
 [SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
@@ -177,25 +158,9 @@ Checking signature MapiMessage.
 
 **Returns:**
 [SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
-### checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt) {#checkSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### checkSignature(MapiMessage msg, SmimeKey key) {#checkSignature-com.aspose.email.MapiMessage-com.aspose.email.SmimeKey-}
 ```
-public final SmimeResult checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt)
-```
-
-
-Checking signature MapiMessage.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| msg | [MapiMessage](../../com.aspose.email/mapimessage) | The MapiMessage to check. |
-| certificateForDecrypt | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | The certificate to decrypt the MapiMessage if it is encrypted. |
-
-**Returns:**
-[SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)
-### checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store) {#checkSignature-com.aspose.email.MapiMessage-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store-}
-```
-public final SmimeResult checkSignature(MapiMessage msg, System.Security.Cryptography.X509Certificates.X509Certificate2 certificateForDecrypt, System.Security.Cryptography.X509Certificates.X509Store store)
+public final SmimeResult checkSignature(MapiMessage msg, SmimeKey key)
 ```
 
 
@@ -205,8 +170,7 @@ Checking signature MapiMessage.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | msg | [MapiMessage](../../com.aspose.email/mapimessage) | The MapiMessage to check. |
-| certificateForDecrypt | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | The certificate to decrypt the MapiMessage if it is encrypted. |
-| store | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Store | Store to look up encryption certificates, if null then X509Store(StoreLocation.CurrentUser) is used. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) |  |
 
 **Returns:**
 [SmimeResult](../../com.aspose.email/smimeresult) - Result of checking[SmimeResult](../../com.aspose.email/smimeresult)

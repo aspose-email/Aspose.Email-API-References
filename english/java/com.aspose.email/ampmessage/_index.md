@@ -26,10 +26,11 @@ Message which allows senders to include AMP components inside emails.
 | [addAlternateView(AlternateView view)](#addAlternateView-com.aspose.email.AlternateView-) | Add an alternate view to message |
 | [addAmpComponent(AmpComponent component)](#addAmpComponent-com.aspose.email.AmpComponent-) | Add Amp component to this message. |
 | [addAttachment(Attachment attachment)](#addAttachment-com.aspose.email.Attachment-) | Add an attachment to message |
+| [attachDetachedSignature(SmimeKey key)](#attachDetachedSignature-com.aspose.email.SmimeKey-) | Creates a signed message. |
 | [attachSignature(byte[] certificateRawData, String certificatePassword)](#attachSignature-byte---java.lang.String-) | Creates a signed message. |
 | [attachSignature(byte[] certificateRawData, String certificatePassword, boolean detached)](#attachSignature-byte---java.lang.String-boolean-) | Creates a signed message. |
-| [attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) | Creates a signed message. |
-| [attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached)](#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-boolean-) | Creates a signed message. |
+| [attachSignature(SmimeKey key)](#attachSignature-com.aspose.email.SmimeKey-) | Creates a signed message. |
+| [attachSignature(SmimeKey key, boolean detached)](#attachSignature-com.aspose.email.SmimeKey-boolean-) | Creates a signed message. |
 | [checkBounced()](#checkBounced--) | Checks whether this message can be treated as a bounce message. |
 | [checkSignature()](#checkSignature--) | Checking signature exsisting MailMessage. |
 | [checkSignature(InputStream stream)](#checkSignature-java.io.InputStream-) | Checks the signature of the specified eml message. |
@@ -37,15 +38,14 @@ Message which allows senders to include AMP components inside emails.
 | [checkSignatureCert()](#checkSignatureCert--) | Checking signature exsisting MailMessage. |
 | [close()](#close--) |  |
 | [createReadReceipt(String from, String bodyText)](#createReadReceipt-java.lang.String-java.lang.String-) | Creates the read receipt. |
-| [dKIMSign(System.Security.Cryptography.RSACryptoServiceProvider rsa, DKIMSignatureInfo signatureInfo)](#dKIMSign-com.aspose.ms.System.Security.Cryptography.RSACryptoServiceProvider-com.aspose.email.DKIMSignatureInfo-) | Signs this message using DKIM (DomainKeys Identified Mail) signature. |
+| [dKIMSign(PrivateKey rsa, DKIMSignatureInfo signatureInfo)](#dKIMSign-java.security.PrivateKey-com.aspose.email.DKIMSignatureInfo-) | Signs this message using DKIM (DomainKeys Identified Mail) signature. |
 | [decrypt()](#decrypt--) | Decrypts this message |
 | [decrypt(byte[] certificateRawData, String certificatePassword)](#decrypt-byte---java.lang.String-) | Decrypts this message |
-| [decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) |  |
+| [decrypt(SmimeKey key)](#decrypt-com.aspose.email.SmimeKey-) | Decrypts this message |
 | [deepClone()](#deepClone--) | Clones this instance |
 | [dispose()](#dispose--) | Releases all resources used by the MailMessage |
-| [encrypt(byte[] certificateRawData, String certificatePassword)](#encrypt-byte---java.lang.String-) | Encrypts this message |
-| [encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)](#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-) |  |
-| [encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2[] certificates)](#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2---) | Encrypts this message |
+| [encrypt(byte[] certificateRawData, String certificatePassword)](#encrypt-byte---java.lang.String-) | Encrypts this message. |
+| [encrypt(SmimeKey key)](#encrypt-com.aspose.email.SmimeKey-) | Encrypts this message. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified Object is equal to the current Object. |
 | [getAlternateViewContent(String mediaType)](#getAlternateViewContent-java.lang.String-) | Gets the content as a string from the specified AlternateView. |
 | [getAlternateViews()](#getAlternateViews--) | Gets the collection of alternate views of message |
@@ -215,6 +215,45 @@ Add an attachment to message
 | --- | --- | --- |
 | attachment | [Attachment](../../com.aspose.email/attachment) | Attachment for adding |
 
+### attachDetachedSignature(SmimeKey key) {#attachDetachedSignature-com.aspose.email.SmimeKey-}
+```
+public MailMessage attachDetachedSignature(SmimeKey key)
+```
+
+
+Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
+
+--------------------
+
+> The following example shows how to attach a Certificate with AttachSignature Method.
+> 
+> [Java]
+> 
+> ```
+> ```
+> 
+>  MailMessage msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE",
+>      "body:Test Body of signed message by AE");
+>  MailMessage signed = msg.attachDetachedSignature(key);
+>  // load PFX file
+>  SmimeKey key = SmimeKey.loadPFX(pfxPath, "key".toCharArray());
+>  // load SmimeKey from private key string
+>  SmimeKey key = SmimeKey.loadPrivateKey(keyPath);
+>  // create SmimeKey from private key and X509 certificates
+>  SmimeKey key = new SmimeKey(privateKey, x509Certificate1, x509Certificate2);
+>  
+> ```
+> ```
+
+--------------------
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with private key. |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - The signed MailMessage.
 ### attachSignature(byte[] certificateRawData, String certificatePassword) {#attachSignature-byte---java.lang.String-}
 ```
 public MailMessage attachSignature(byte[] certificateRawData, String certificatePassword)
@@ -262,9 +301,9 @@ Creates a signed message. Creates a read-only copy of the specified MailMessage 
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - The signed MailMessage.
-### attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### attachSignature(SmimeKey key) {#attachSignature-com.aspose.email.SmimeKey-}
 ```
-public MailMessage attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+public MailMessage attachSignature(SmimeKey key)
 ```
 
 
@@ -277,11 +316,19 @@ Creates a signed message. Creates a read-only copy of the specified MailMessage 
 > [Java]
 > 
 > ```
-> String privateCertFile = "MartinCertificate.pfx";
->  X509Certificate2 privateCert = new X509Certificate2(privateCertFile, "anothertestaccount");
+> ```
+> 
 >  MailMessage msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE",
 >      "body:Test Body of signed message by AE");
->  MailMessage signed = msg.attachSignature(privateCert, true);
+>  MailMessage signed = msg.attachSignature(key);
+>  // load PFX file
+>  SmimeKey key = SmimeKey.loadPFX(pfxPath, "key".toCharArray());
+>  // load SmimeKey from private key string
+>  SmimeKey key = SmimeKey.loadPrivateKey(keyPath);
+>  // create SmimeKey from private key and X509 certificates
+>  SmimeKey key = new SmimeKey(privateKey, x509Certificate1, x509Certificate2);
+>  
+> ```
 > ```
 
 --------------------
@@ -289,26 +336,53 @@ Creates a signed message. Creates a read-only copy of the specified MailMessage 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with private key. |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - The signed MailMessage.
-### attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached) {#attachSignature-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-boolean-}
+### attachSignature(SmimeKey key, boolean detached) {#attachSignature-com.aspose.email.SmimeKey-boolean-}
 ```
-public MailMessage attachSignature(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, boolean detached)
+public MailMessage attachSignature(SmimeKey key, boolean detached)
 ```
 
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
+--------------------
+
+> The following example shows how to attach a Certificate with AttachSignature Method.
+> 
+> [Java]
+> 
+> ```
+> ```
+> 
+>  MailMessage msg = new MailMessage("user@domain.com", "receiver@domain.com", "subject:Signed message only by AE",
+>      "body:Test Body of signed message by AE");
+>  // create signed mail with detached signature
+>  MailMessage signedDetached = msg.attachSignature(key, true);
+>  // create signed mail with attached signature
+>  MailMessage signedAttached = msg.attachSignature(key, false);
+>  // load PFX file
+>  SmimeKey key = SmimeKey.loadPFX(pfxPath, "key".toCharArray());
+>  // load SmimeKey from private key string
+>  SmimeKey key = SmimeKey.loadPrivateKey(keyPath);
+>  // create SmimeKey from private key and X509 certificates
+>  SmimeKey key = new SmimeKey(privateKey, x509Certificate1, x509Certificate2);
+>  
+> ```
+> ```
+
+--------------------
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 | X.509 certificate. |
-| detached | boolean | .If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with private key. |
+| detached | boolean | .If detached is true, the signature is detached. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - 
+[MailMessage](../../com.aspose.email/mailmessage) - The signed MailMessage.
 ### checkBounced() {#checkBounced--}
 ```
 public BounceResult checkBounced()
@@ -361,14 +435,14 @@ Checks the signature of the specified eml file.
 boolean -  True  if signature is valid; otherwise,  false .
 ### checkSignatureCert() {#checkSignatureCert--}
 ```
-public System.Security.Cryptography.X509Certificates.X509Certificate2[] checkSignatureCert()
+public List<X509Certificate> checkSignatureCert()
 ```
 
 
 Checking signature exsisting MailMessage.
 
 **Returns:**
-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2[] - X.509 signers certificates
+java.util.List<java.security.cert.X509Certificate> - X.509 signers certificates
 ### close() {#close--}
 ```
 public void close()
@@ -393,9 +467,9 @@ Creates the read receipt.
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - A newly created [MailMessage](../../com.aspose.email/mailmessage) that represents the read receipt.
-### dKIMSign(System.Security.Cryptography.RSACryptoServiceProvider rsa, DKIMSignatureInfo signatureInfo) {#dKIMSign-com.aspose.ms.System.Security.Cryptography.RSACryptoServiceProvider-com.aspose.email.DKIMSignatureInfo-}
+### dKIMSign(PrivateKey rsa, DKIMSignatureInfo signatureInfo) {#dKIMSign-java.security.PrivateKey-com.aspose.email.DKIMSignatureInfo-}
 ```
-public MailMessage dKIMSign(System.Security.Cryptography.RSACryptoServiceProvider rsa, DKIMSignatureInfo signatureInfo)
+public MailMessage dKIMSign(PrivateKey rsa, DKIMSignatureInfo signatureInfo)
 ```
 
 
@@ -428,7 +502,7 @@ Signs this message using DKIM (DomainKeys Identified Mail) signature.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rsa | com.aspose.ms.System.Security.Cryptography.RSACryptoServiceProvider | RSA class containing private key used for signing. |
+| rsa | java.security.PrivateKey | RSA class containing private key used for signing. |
 | signatureInfo | [DKIMSignatureInfo](../../com.aspose.email/dkimsignatureinfo) | DKIM signature information. |
 
 **Returns:**
@@ -443,10 +517,6 @@ Decrypts this message
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - Decrypted E-mail message
-
---------------------
-
-Method searches the current user and computer My stores for the appropriate certificate and private key.
 ### decrypt(byte[] certificateRawData, String certificatePassword) {#decrypt-byte---java.lang.String-}
 ```
 public MailMessage decrypt(byte[] certificateRawData, String certificatePassword)
@@ -458,26 +528,58 @@ Decrypts this message
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificateRawData | byte[] | System.Security.Cryptography.X509Certificates.X509Certificate2 |
+| certificateRawData | byte[] | X509 certificate to decrypt message |
 | certificatePassword | java.lang.String | The password required to access the X.509 certificate data |
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - E-mail message
-### decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#decrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
+### decrypt(SmimeKey key) {#decrypt-com.aspose.email.SmimeKey-}
 ```
-public MailMessage decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
+public MailMessage decrypt(SmimeKey key)
 ```
 
 
+Decrypts this message
 
+--------------------
+
+> The following example shows how to encrypt messages.
+> 
+> [Java]
+> 
+> ```
+> ```
+> 
+>  // Create a message
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("atneostthaecrcount@gmail.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("atneostthaecrcount@gmail.com"));
+>  eml.setSubject("Test subject");
+>  eml.setBody("Test Body");
+> 
+>  // load PFX file
+>  SmimeKey key = SmimeKey.loadPFX(pfxPath, "key".toCharArray());
+>  // load SmimeKey from private key string
+>  SmimeKey key = SmimeKey.loadPrivateKey(keyPath);
+>  // create SmimeKey from private key and X509 certificates
+>  SmimeKey key = new SmimeKey(privateKey, x509Certificate1, x509Certificate2);
+> 
+>  // Decrypt the message
+>  MailMessage eml = eml.decrypt(key);
+>  System.out.println(encryptedEml.isEncrypted() ? "It's encrypted" : "It's NOT encrypted");
+>  
+> ```
+> ```
+
+--------------------
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 |  |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with the private key |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
+[MailMessage](../../com.aspose.email/mailmessage) - Decrypted E-mail message
 ### deepClone() {#deepClone--}
 ```
 public MailMessage deepClone()
@@ -502,69 +604,16 @@ public MailMessage encrypt(byte[] certificateRawData, String certificatePassword
 ```
 
 
-Encrypts this message
+Encrypts this message.
 
 --------------------
 
-> The following example shows how to encrypt Messages.
+> The following example shows how to encrypt messages.
 > 
 > [Java]
 > 
 > ```
-> // Create a message
->  MailMessage eml = new MailMessage();
->  eml.setFrom(MailAddress.to_MailAddress("atneostthaecrcount@gmail.com"));
->  eml.setTo(MailAddressCollection.to_MailAddressCollection("atneostthaecrcount@gmail.com"));
->  eml.setSubject("Test subject");
->  eml.setBody("Test Body");
-> 
->  // Encrypt the message
->  MailMessage encryptedEml = eml.encrypt(certData, certPass);
->  System.out.println(encryptedEml.isEncrypted() ? "Its encrypted" : "Its NOT encrypted");
 > ```
-
---------------------
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| certificateRawData | byte[] | X509 certificate to encrypt message |
-| certificatePassword | java.lang.String |  |
-
-**Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message
-### encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate) {#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2-}
-```
-public MailMessage encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| certificate | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2 |  |
-
-**Returns:**
-[MailMessage](../../com.aspose.email/mailmessage)
-### encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2[] certificates) {#encrypt-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2---}
-```
-public MailMessage encrypt(System.Security.Cryptography.X509Certificates.X509Certificate2[] certificates)
-```
-
-
-Encrypts this message
-
---------------------
-
-> The following example shows how to encrypt Messages.
-> 
-> [Java]
-> 
-> ```
-> String publicCertFile = "MartinCertificate.cer";
->  X509Certificate2 publicCert = new X509Certificate2(publicCertFile);
 > 
 >  // Create a message
 >  MailMessage eml = new MailMessage();
@@ -574,8 +623,10 @@ Encrypts this message
 >  eml.setBody("Test Body");
 > 
 >  // Encrypt the message
->  MailMessage encryptedEml = eml.encrypt(publicCert);
->  System.out.println(encryptedEml.isEncrypted() ? "Its encrypted" : "Its NOT encrypted");
+>  MailMessage encryptedEml = eml.encrypt(certData, certPass);
+>  System.out.println(encryptedEml.isEncrypted() ? "It's encrypted" : "It's NOT encrypted");
+>  
+> ```
 > ```
 
 --------------------
@@ -583,10 +634,58 @@ Encrypts this message
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificates | com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2[] | Array with X509 certificates to encrypt message |
+| certificateRawData | byte[] | X509 certificate to encrypt the message. |
+| certificatePassword | java.lang.String | Password for the X509 certificate. |
 
 **Returns:**
-[MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message
+[MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message.
+### encrypt(SmimeKey key) {#encrypt-com.aspose.email.SmimeKey-}
+```
+public MailMessage encrypt(SmimeKey key)
+```
+
+
+Encrypts this message.
+
+--------------------
+
+> The following example shows how to encrypt messages.
+> 
+> [Java]
+> 
+> ```
+> ```
+> 
+>  // Create a message
+>  MailMessage eml = new MailMessage();
+>  eml.setFrom(MailAddress.to_MailAddress("atneostthaecrcount@gmail.com"));
+>  eml.setTo(MailAddressCollection.to_MailAddressCollection("atneostthaecrcount@gmail.com"));
+>  eml.setSubject("Test subject");
+>  eml.setBody("Test Body");
+> 
+>  // load PFX file
+>  SmimeKey key = SmimeKey.loadPFX(pfxPath, "key".toCharArray());
+>  // load SmimeKey from certificate string
+>  SmimeKey key = SmimeKey.loadCertificate(crtPath);
+>  // create SmimeKey from private key and X509 certificates
+>  SmimeKey key = new SmimeKey(privateKey, x509Certificate1, x509Certificate2);
+> 
+>  // Encrypt the message
+>  MailMessage encryptedEml = eml.encrypt(key);
+>  System.out.println(encryptedEml.isEncrypted() ? "It's encrypted" : "It's NOT encrypted");
+>  
+> ```
+> ```
+
+--------------------
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | [SmimeKey](../../com.aspose.email/smimekey) | SmimeKey with the public certificate. |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - Encrypted email message.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
