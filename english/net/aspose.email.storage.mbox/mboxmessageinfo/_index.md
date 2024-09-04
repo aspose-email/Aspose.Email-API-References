@@ -3,7 +3,7 @@ title: Class MboxMessageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxMessageInfo class. Represents an information about message in the MBOX storage
 type: docs
-weight: 20220
+weight: 20230
 url: /net/aspose.email.storage.mbox/mboxmessageinfo/
 ---
 ## MboxMessageInfo class

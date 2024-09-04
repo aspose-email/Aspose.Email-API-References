@@ -3,7 +3,7 @@ title: Class ReferenceAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ReferenceAttachment class. This class represents a reference attachment
 type: docs
-weight: 20090
+weight: 20100
 url: /net/aspose.email/referenceattachment/
 ---
 ## ReferenceAttachment class

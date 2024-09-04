@@ -3,7 +3,7 @@ title: Enum MessageValidationErrorType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.MessageValidationErrorType enum. Enumerates the types of the message validation errors
 type: docs
-weight: 21150
+weight: 21160
 url: /net/aspose.email.tools.verifications/messagevalidationerrortype/
 ---
 ## MessageValidationErrorType enumeration

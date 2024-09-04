@@ -3,7 +3,7 @@ title: Class SmimeResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.SmimeResult class. This class containing results of checking secure emails
 type: docs
-weight: 20160
+weight: 20170
 url: /net/aspose.email/smimeresult/
 ---
 ## SmimeResult class

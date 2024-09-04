@@ -3,7 +3,7 @@ title: Class VCardTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardTelephoneNumber class. Represents a vCard telephone number
 type: docs
-weight: 19930
+weight: 19940
 url: /net/aspose.email.personalinfo.vcard/vcardtelephonenumber/
 ---
 ## VCardTelephoneNumber class

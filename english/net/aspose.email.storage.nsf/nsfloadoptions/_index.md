@@ -3,7 +3,7 @@ title: Class NsfLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Nsf.NsfLoadOptions class. Specifies additional options when loading a NSF storage
 type: docs
-weight: 20350
+weight: 20360
 url: /net/aspose.email.storage.nsf/nsfloadoptions/
 ---
 ## NsfLoadOptions class
