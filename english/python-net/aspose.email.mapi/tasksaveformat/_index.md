@@ -3,7 +3,7 @@ title: TaskSaveFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.email.mapi/tasksaveformat/
 ---
 

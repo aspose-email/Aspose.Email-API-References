@@ -3,7 +3,7 @@ title: SortConditions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 390
 url: /python-net/aspose.email.clients.imap/sortconditions/
 ---
 

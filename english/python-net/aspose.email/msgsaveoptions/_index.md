@@ -27,7 +27,7 @@ The MsgSaveOptions type exposes the following members:
 |default_oft|Gets options with default values for saving message to Outlook template (Oft) format.|
 |default_mhtml|Gets options with default values for saving message to Mhtml format.|
 |default_html|Gets options with default values for saving message to Html format.|
-|preserve_original_dates|Gets or sets a value indicating whether it is necessary to generate <br/>            new saving and modification dates when saving a message.<br/>            By default the value is false, meaning the creation and modification dates will be set to DateTime.Now.|
+|preserve_original_dates|Gets or sets a value indicating whether it is necessary to generate <br/>            new saving and modification dates when saving a message.<br/>            By default the value is true, meaning the creation and modification dates will be not set to DateTime.Now.|
 |preserve_signature|Set to true, if signature is to be preserved.|
 |save_as_template|Set to true, if need to be saved as Outlook File Template(OFT format).|
 ## Methods

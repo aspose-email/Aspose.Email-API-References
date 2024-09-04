@@ -9,7 +9,7 @@ url: /python-net/aspose.email.storage.pst/personalstorage/
 
 ## PersonalStorage class
 
-Represents Personal Storage Table (.pst) file.
+Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook.
 
 The PersonalStorage type exposes the following members:
 ## Properties
@@ -43,6 +43,8 @@ The PersonalStorage type exposes the following members:
 |enumerate_messages(entry_id, start_index, count)|  |
 |extract_attachments(message_info)|  |
 |extract_attachments(entry_id)|  |
+|extract_recipients(message_info)|  |
+|extract_recipients(entry_id)|  |
 |get_folder_by_id(entry_id)|  |
 |get_folder_by_id(entry_id_string)|  |
 |get_parent_folder(entry_id_string)|  |
@@ -65,6 +67,7 @@ The PersonalStorage type exposes the following members:
 |try_to_get_folder_by_id(entry_id_string, folder)|  |
 |find_subfolders(parent_entry_id)|  |
 |find_messages(parent_entry_id)|  |
+|find_and_extract_soft_deleted_items()|  |
 |get_predefined_folder(default_folder)|  |
 |change_message(entry_id, updated_properties)|  |
 

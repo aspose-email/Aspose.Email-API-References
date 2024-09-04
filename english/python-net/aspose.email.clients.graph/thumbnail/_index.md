@@ -3,7 +3,7 @@ title: Thumbnail
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 240
 url: /python-net/aspose.email.clients.graph/thumbnail/
 ---
 

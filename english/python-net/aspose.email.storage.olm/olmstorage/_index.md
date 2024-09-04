@@ -9,7 +9,7 @@ url: /python-net/aspose.email.storage.olm/olmstorage/
 
 ## OlmStorage class
 
-Represents Outlook for Mac storage (.OLM) file.
+Represents an Outlook for Mac (.OLM) storage file and provides functionality<br/>            to access and manipulate the data within the file such as emails, contacts,<br/>            calendars, tasks, and notes.
 
 The OlmStorage type exposes the following members:
 ## Constructors

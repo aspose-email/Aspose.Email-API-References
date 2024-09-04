@@ -3,7 +3,7 @@ title: AppendMessagesResult
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /python-net/aspose.email.clients.imap/appendmessagesresult/
 ---
 
@@ -12,10 +12,6 @@ url: /python-net/aspose.email.clients.imap/appendmessagesresult/
 Contains result of operation with messages
 
 The AppendMessagesResult type exposes the following members:
-## Constructors
-| Name | Description |
-| :- | :- |
-|AppendMessagesResult()|Initializes a new instance of the AppendMessagesResult class|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -3,7 +3,7 @@ title: CalendarRoleType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.email.clients.graph/calendarroletype/
 ---
 

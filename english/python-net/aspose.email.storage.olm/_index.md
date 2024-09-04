@@ -16,4 +16,4 @@ the aspose.email.storage.olm namespace contains classes for work with microsoft 
 |[OlmFolder](/email/python-net/aspose.email.storage.olm/olmfolder/)|Represents folder information<br/>            in OLM storage.|
 |[OlmItemCategory](/email/python-net/aspose.email.storage.olm/olmitemcategory/)|Represents an Outlook item category.|
 |[OlmMessageInfo](/email/python-net/aspose.email.storage.olm/olmmessageinfo/)|Represents an information<br/>            about message in the OLM storage.|
-|[OlmStorage](/email/python-net/aspose.email.storage.olm/olmstorage/)|Represents Outlook for Mac storage (.OLM) file.|
+|[OlmStorage](/email/python-net/aspose.email.storage.olm/olmstorage/)|Represents an Outlook for Mac (.OLM) storage file and provides functionality<br/>            to access and manipulate the data within the file such as emails, contacts,<br/>            calendars, tasks, and notes.|

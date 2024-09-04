@@ -15,7 +15,8 @@ the aspose.email.storage.mbox namespace contains classes for work with mbox form
 | :- | :- |
 |[MboxLoadOptions](/email/python-net/aspose.email.storage.mbox/mboxloadoptions/)|Specifies additional options when loading a Mbox storage.|
 |[MboxMessageInfo](/email/python-net/aspose.email.storage.mbox/mboxmessageinfo/)|Represents an information<br/>            about message in the MBOX storage.|
-|[MboxStorageReader](/email/python-net/aspose.email.storage.mbox/mboxstoragereader/)|A base class for any mbox-based mail storage reader.|
+|[MboxSaveOptions](/email/python-net/aspose.email.storage.mbox/mboxsaveoptions/)|Specifies additional options when save a Mbox storage.|
+|[MboxStorageReader](/email/python-net/aspose.email.storage.mbox/mboxstoragereader/)|Represents an MBOX file and provides methods for reading and extracting messages.<br/>            The MBOX file format is used for storing a collection of email messages.|
 |[MboxStorageWriter](/email/python-net/aspose.email.storage.mbox/mboxstoragewriter/)|A base class for any mbox-based mail storage writer.|
 |[MboxoStorageReader](/email/python-net/aspose.email.storage.mbox/mboxostoragereader/)|Represents mboxo format storage reader, this format is being used by Eudora.|
 |[MboxrdStorageReader](/email/python-net/aspose.email.storage.mbox/mboxrdstoragereader/)|Represents mboxrd format storage reader, this format is being used by Thunderbird and other mail clients.|

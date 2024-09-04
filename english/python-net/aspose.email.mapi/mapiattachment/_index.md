@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapiattachment/
 
 ## MapiAttachment class
 
-Represents the attachment in the E-mail message.
+
 
 The MapiAttachment type exposes the following members:
 ## Properties

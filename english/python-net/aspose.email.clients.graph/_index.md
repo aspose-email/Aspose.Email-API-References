@@ -34,6 +34,8 @@ the aspose.email.clients.graph namespace provides classes for access<br/>       
 |[NotebookLinks](/email/python-net/aspose.email.clients.graph/notebooklinks/)|https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0<br/>            Links for opening a OneNote notebook.|
 |[OnenoteOperation](/email/python-net/aspose.email.clients.graph/onenoteoperation/)|The status of certain long-running OneNote operations.|
 |[OutlookCategory](/email/python-net/aspose.email.clients.graph/outlookcategory/)|Represents a category by which a user can group Outlook items such as messages and events. <br/>            The user defines categories in a master list, and can apply one or more of these user-defined categories to an item.<br/>            https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0|
+|[TaskListInfo](/email/python-net/aspose.email.clients.graph/tasklistinfo/)|Represents information about TaskList.|
+|[TaskListInfoCollection](/email/python-net/aspose.email.clients.graph/tasklistinfocollection/)|Represents collection of TaskListInfo.|
 |[Thumbnail](/email/python-net/aspose.email.clients.graph/thumbnail/)|https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0<br/>            The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation.|
 |[ThumbnailSet](/email/python-net/aspose.email.clients.graph/thumbnailset/)|https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0<br/>            The ThumbnailSet resource is a keyed collection of thumbnail resources. <br/>            It is used to represent a set of thumbnails associated with a DriveItem.|
 |[UpdateSettings](/email/python-net/aspose.email.clients.graph/updatesettings/)|Update settings|
@@ -47,3 +49,4 @@ the aspose.email.clients.graph namespace provides classes for access<br/>       
 |[OnlineMeetingProvider](/email/python-net/aspose.email.clients.graph/onlinemeetingprovider/)|The default online meeting provider for meetings sent from this calendar. Possible values are: unknown, skypeForBusiness, skypeForConsumer, teamsForBusiness.|
 |[ResourceType](/email/python-net/aspose.email.clients.graph/resourcetype/)|The resource in Microsoft Graph that you're referencing.|
 |[UserRole](/email/python-net/aspose.email.clients.graph/userrole/)|OneNote user role|
+|[WellknownTaskListName](/email/python-net/aspose.email.clients.graph/wellknowntasklistname/)|Property indicating the list name if the given list is a well-known list. Possible values are: none, defaultList, flaggedEmails, unknownFutureValue.|

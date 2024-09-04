@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapijournal/
 
 ## MapiJournal class
 
-Represents the Outlook Journal object.
+Represents a MAPI journal item.
 
 The MapiJournal type exposes the following members:
 ## Constructors

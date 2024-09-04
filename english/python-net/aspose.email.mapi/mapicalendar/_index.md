@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapicalendar/
 
 ## MapiCalendar class
 
-Represents the mapi calendar object
+Represents a MAPI calendar item.
 
 The MapiCalendar type exposes the following members:
 ## Constructors

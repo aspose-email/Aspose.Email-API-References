@@ -3,7 +3,7 @@ title: SequenceSetField
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 370
 url: /python-net/aspose.email.clients.imap/sequencesetfield/
 ---
 

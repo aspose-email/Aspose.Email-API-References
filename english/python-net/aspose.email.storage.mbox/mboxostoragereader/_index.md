@@ -3,7 +3,7 @@ title: MboxoStorageReader
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 

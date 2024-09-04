@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapicontact/
 
 ## MapiContact class
 
-Represents outlook contact information
+Represents a MAPI contact item.
 
 The MapiContact type exposes the following members:
 ## Constructors
