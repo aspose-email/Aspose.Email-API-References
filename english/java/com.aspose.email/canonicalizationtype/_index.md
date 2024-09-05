@@ -3,7 +3,7 @@ title: CanonicalizationType
 second_title: Aspose.Email for Java API Reference
 description: Represents DKIM canonicalization.
 type: docs
-weight: 100
+weight: 102
 url: /java/com.aspose.email/canonicalizationtype/
 ---
 

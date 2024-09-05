@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Aspose.Email for Java API Reference
 description: Static manager that controls the creation of loggers.
 type: docs
-weight: 359
+weight: 361
 url: /java/com.aspose.email/loggermanager/
 ---
 

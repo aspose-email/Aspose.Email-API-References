@@ -3,7 +3,7 @@ title: MailTips
 second_title: Aspose.Email for Java API Reference
 description: Represents values for the Mail Tips
 type: docs
-weight: 378
+weight: 380
 url: /java/com.aspose.email/mailtips/
 ---
 

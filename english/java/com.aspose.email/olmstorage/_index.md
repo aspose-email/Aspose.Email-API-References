@@ -1,9 +1,9 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for Java API Reference
-description: Represents Outlook for Mac storage .OLM file.
+description: Represents an Outlook for Mac .OLM storage file and provides functionality to access and manipulate the data within the file such as emails contacts calendars tasks and notes.
 type: docs
-weight: 555
+weight: 561
 url: /java/com.aspose.email/olmstorage/
 ---
 
@@ -16,7 +16,42 @@ com.aspose.ms.System.IDisposable, java.io.Closeable
 public class OlmStorage implements System.IDisposable, Closeable
 ```
 
-Represents Outlook for Mac storage (.OLM) file.
+Represents an Outlook for Mac (.OLM) storage file and provides functionality to access and manipulate the data within the file such as emails, contacts, calendars, tasks, and notes.
+
+The OlmStorage class allows users to read from and interact with the contents of .OLM files typically used by Microsoft Outlook for Mac. This class handles the various data types stored within an .OLM file by providing methods to enumerate and extract information.
+
+Example:
+
+```
+
+ try (OlmStorage olm = OlmStorage.fromFile("storage.olm")) {
+     // Retrieve the total number of items in the OLM storage.
+     int totalItemsCount = olm.getTotalItemsCount();
+     System.out.println("Total items count: " + totalItemsCount);
+
+     // Iterate through each folder in the OLM storage.
+     for (OlmFolder olmFolder : olm.getFolders()) {
+         // Print the name of the currently iterated folder and the count of messages it contains.
+         System.out.println("Folder: " + olmFolder.getName());
+         System.out.println("Total items: " + olmFolder.getMessageCount());
+
+         // Iterate through each message in the current folder.
+         for (OlmMessageInfo messageInfo : olmFolder.enumerateMessages()) {
+             // Print the subject of the current message to the console.
+             System.out.println("Subject: " + messageInfo.getSubject());
+
+             // Extract the full message object from the OLM storage.
+             MapiMessage msg = olm.extractMapiMessage(messageInfo);
+
+             // Save the extracted message as a .msg file.
+             msg.save(msg.getSubject() + ".msg");
+         }
+     }
+ } catch (Exception e) {
+     e.printStackTrace();
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -36,6 +71,7 @@ Represents Outlook for Mac storage (.OLM) file.
 | [extractMapiMessage(String id)](#extractMapiMessage-java.lang.String-) | Get the message from OLM. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | Load OLM storage from file. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load OLM from stream. |
+| [getCategories()](#getCategories--) | Gets the supported item categories. |
 | [getClass()](#getClass--) |  |
 | [getFolder(String name, boolean ignoreCase)](#getFolder-java.lang.String-boolean-) | Gets the folder by name. |
 | [getFolderHierarchy()](#getFolderHierarchy--) | Gets the folder hierarchy. |
@@ -195,6 +231,16 @@ Load OLM from stream.
 
 **Returns:**
 [OlmStorage](../../com.aspose.email/olmstorage) - An OlmStorage object that represents the current OLM storage.
+### getCategories() {#getCategories--}
+```
+public final List<OlmItemCategory> getCategories()
+```
+
+
+Gets the supported item categories.
+
+**Returns:**
+java.util.List<com.aspose.email.OlmItemCategory> - A list of [OlmItemCategory](../../com.aspose.email/olmitemcategory) objects.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

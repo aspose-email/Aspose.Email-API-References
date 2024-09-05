@@ -3,7 +3,7 @@ title: ListFoldersOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 540
 url: /python-net/aspose.email.clients.imap/listfoldersoptions/
 ---
 

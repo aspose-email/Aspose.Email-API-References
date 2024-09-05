@@ -44,6 +44,8 @@ The IGraphClient type exposes the following members:
 |send(message)|  |
 |create_or_update_override(sender, classify_as)|  |
 |create_or_update_override(classification_override)|  |
+|update_task(task)|  |
+|update_task(task, update_settings)|  |
 |delete(id)|  |
 |get_folder(id)|  |
 |update_folder(folder_info)|  |
@@ -77,6 +79,14 @@ The IGraphClient type exposes the following members:
 |copy_notebook(item_id, group_id, rename_as)|  |
 |get_one_note_operation_status(operation_id)|  |
 |list_calendars()|  |
+|list_task_lists()|  |
+|get_task_list(id)|  |
+|create_task_list(task_list)|  |
+|update_task_list(task_list)|  |
+|delete_task_list(id)|  |
+|list_tasks(id)|  |
+|fetch_task(id)|  |
+|create_task(task, task_list_uri)|  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: FreebusyGroupInfo
 second_title: Aspose.Email for Java API Reference
 description: Specifies list of calendars that are members of the groups.
 type: docs
-weight: 267
+weight: 269
 url: /java/com.aspose.email/freebusygroupinfo/
 ---
 

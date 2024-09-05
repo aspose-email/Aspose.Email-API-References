@@ -3,7 +3,7 @@ title: ErrorDetails
 second_title: Aspose.Email for Java API Reference
 description: Error informnation
 type: docs
-weight: 180
+weight: 182
 url: /java/com.aspose.email/errordetails/
 ---
 

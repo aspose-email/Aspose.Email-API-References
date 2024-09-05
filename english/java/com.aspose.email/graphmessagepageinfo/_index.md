@@ -3,7 +3,7 @@ title: GraphMessagePageInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 287
+weight: 289
 url: /java/com.aspose.email/graphmessagepageinfo/
 ---
 

@@ -3,7 +3,7 @@ title: DebugAppender
 second_title: Aspose.Email for Java API Reference
 description: Represents an appender is only enabled when debugging.
 type: docs
-weight: 149
+weight: 151
 url: /java/com.aspose.email/debugappender/
 ---
 

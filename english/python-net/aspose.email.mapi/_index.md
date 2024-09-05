@@ -23,10 +23,10 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[KnownPropertyList](/email/python-net/aspose.email.mapi/knownpropertylist/)|The read-only Master Property List provides implementers with a single source of information about all the properties <br/>            that are described by the specifications that comprise the Exchange Server Protocols documentation (MS-OXPROPS).<br/>            Coincides MS-OXPROPS revision 16.2 from 7/31/2014|
 |[KnownPropertySets](/email/python-net/aspose.email.mapi/knownpropertysets/)|[MS-OXCDATA]: Commonly Used Property Sets|
 |[MailConversionOptions](/email/python-net/aspose.email.mapi/mailconversionoptions/)|Specify additional options when converting from MapiMessage to MailMessage.|
-|[MapiAttachment](/email/python-net/aspose.email.mapi/mapiattachment/)|Represents the attachment in the E-mail message.|
+|[MapiAttachment](/email/python-net/aspose.email.mapi/mapiattachment/)||
 |[MapiAttachmentCollection](/email/python-net/aspose.email.mapi/mapiattachmentcollection/)|Represents a collection of MapiAttachment objects.|
 |[MapiAttachmentPropertyStream](/email/python-net/aspose.email.mapi/mapiattachmentpropertystream/)|Represents the property stream of attachment object.|
-|[MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/)|Represents the mapi calendar object|
+|[MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/)|Represents a MAPI calendar item.|
 |[MapiCalendarAttendees](/email/python-net/aspose.email.mapi/mapicalendarattendees/)|Represents the mapi calendar attendees|
 |[MapiCalendarCollection](/email/python-net/aspose.email.mapi/mapicalendarcollection/)|Represents the collection of [MapiCalendar](/email/python-net/aspose.email.mapi/mapicalendar/)|
 |[MapiCalendarDailyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendardailyrecurrencepattern/)|Represents the daily recurrence pattern of the mapi calendar|
@@ -45,7 +45,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiCalendarTimeZoneRule](/email/python-net/aspose.email.mapi/mapicalendartimezonerule/)|Represents time zone rule that indicate when to begin using the Standard/Daylight time.|
 |[MapiCalendarWeeklyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/)|Represents the weekly recurrence pattern of the mapi calendar|
 |[MapiCalendarYearlyAndMonthlyRecurrencePattern](/email/python-net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/)|Represents the yearly and monthly recurrence pattern of the mapi calendar|
-|[MapiContact](/email/python-net/aspose.email.mapi/mapicontact/)|Represents outlook contact information|
+|[MapiContact](/email/python-net/aspose.email.mapi/mapicontact/)|Represents a MAPI contact item.|
 |[MapiContactAddress](/email/python-net/aspose.email.mapi/mapicontactaddress/)|Base abstract class for [MapiContactElectronicAddress](/email/python-net/aspose.email.mapi/mapicontactelectronicaddress/)  and [MapiContactPhysicalAddress](/email/python-net/aspose.email.mapi/mapicontactphysicaladdress/).|
 |[MapiContactCollection](/email/python-net/aspose.email.mapi/mapicontactcollection/)|Represents the collection of [MapiContact](/email/python-net/aspose.email.mapi/mapicontact/)|
 |[MapiContactElectronicAddress](/email/python-net/aspose.email.mapi/mapicontactelectronicaddress/)|Refers to the group of properties that <br/>            define the e-mail address or fax address for a contact.|
@@ -62,12 +62,12 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiContactSaveOptions](/email/python-net/aspose.email.mapi/mapicontactsaveoptions/)|Specifies the contact save options.|
 |[MapiContactTelephonePropertySet](/email/python-net/aspose.email.mapi/mapicontacttelephonepropertyset/)|Specify optional telephone numbers <br/>            for the contact|
 |[MapiConversionOptions](/email/python-net/aspose.email.mapi/mapiconversionoptions/)|This class allows the user to specify additional options when converting from MailMessage to MapiMessage.|
-|[MapiDistributionList](/email/python-net/aspose.email.mapi/mapidistributionlist/)|Represents the Personal Distribution List object.|
+|[MapiDistributionList](/email/python-net/aspose.email.mapi/mapidistributionlist/)|Represents a MAPI distribution list item.|
 |[MapiDistributionListMember](/email/python-net/aspose.email.mapi/mapidistributionlistmember/)|Represents the members of the personal distribution list.|
 |[MapiDistributionListMemberCollection](/email/python-net/aspose.email.mapi/mapidistributionlistmembercollection/)|Represents a collection of [MapiDistributionListMember](/email/python-net/aspose.email.mapi/mapidistributionlistmember/) objects.|
 |[MapiDistributionListSaveOptions](/email/python-net/aspose.email.mapi/mapidistributionlistsaveoptions/)|Specifies the DistributionList save options.|
 |[MapiElectronicAddress](/email/python-net/aspose.email.mapi/mapielectronicaddress/)|Refers to the group of properties that <br/>            define the e-mail address or fax address.|
-|[MapiJournal](/email/python-net/aspose.email.mapi/mapijournal/)|Represents the Outlook Journal object.|
+|[MapiJournal](/email/python-net/aspose.email.mapi/mapijournal/)|Represents a MAPI journal item.|
 |[MapiMessage](/email/python-net/aspose.email.mapi/mapimessage/)|Represents an Outlook Message format document that can be parsed.|
 |[MapiMessageItemBase](/email/python-net/aspose.email.mapi/mapimessageitembase/)|Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties, attachments, recipients.|
 |[MapiMessageParseException](/email/python-net/aspose.email.mapi/mapimessageparseexception/)|This exception is thrown when errors occur in parsing MapiMessage.|
@@ -75,7 +75,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiMessageReader](/email/python-net/aspose.email.mapi/mapimessagereader/)|Represents a reader that can read a Microsoft Outlook Message format document.|
 |[MapiNamedProperty](/email/python-net/aspose.email.mapi/mapinamedproperty/)|Represents the data type of Named Property.|
 |[MapiNamedPropertyMappingStorage](/email/python-net/aspose.email.mapi/mapinamedpropertymappingstorage/)|Represents the named property mapping|
-|[MapiNote](/email/python-net/aspose.email.mapi/mapinote/)|Represents outlook Note object ("sticky note")|
+|[MapiNote](/email/python-net/aspose.email.mapi/mapinote/)|Represents a MAPI note ("sticky note") item.|
 |[MapiObjectProperty](/email/python-net/aspose.email.mapi/mapiobjectproperty/)|Represents a Custom object included in Outlook Message documents.|
 |[MapiProperty](/email/python-net/aspose.email.mapi/mapiproperty/)|Represents the mapi property.|
 |[MapiPropertyCollection](/email/python-net/aspose.email.mapi/mapipropertycollection/)|Represents the collection of MapiProperty items.|
@@ -85,7 +85,8 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[MapiRecipient](/email/python-net/aspose.email.mapi/mapirecipient/)|Represents the recipient information in the Microsoft Outlook Message.|
 |[MapiRecipientCollection](/email/python-net/aspose.email.mapi/mapirecipientcollection/)|Represents a collection of MapiRecipient objects.|
 |[MapiRecipientPropertyStream](/email/python-net/aspose.email.mapi/mapirecipientpropertystream/)|Represents the property stream of recipient object.|
-|[MapiTask](/email/python-net/aspose.email.mapi/mapitask/)|Represents the Outlook Task object.|
+|[MapiTask](/email/python-net/aspose.email.mapi/mapitask/)|Represents a MAPI task item.|
+|[MapiTaskCollection](/email/python-net/aspose.email.mapi/mapitaskcollection/)|Represents the collection of [MapiTask](/email/python-net/aspose.email.mapi/mapitask/)|
 |[MapiTaskUsers](/email/python-net/aspose.email.mapi/mapitaskusers/)|Represents information about task users.|
 |[OleDocumentFormat](/email/python-net/aspose.email.mapi/oledocumentformat/)|Represents the format for OLE document.|
 |[PidLidPropertyDescriptor](/email/python-net/aspose.email.mapi/pidlidpropertydescriptor/)|Class contains property description information.|

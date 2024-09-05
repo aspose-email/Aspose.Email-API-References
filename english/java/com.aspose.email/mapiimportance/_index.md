@@ -3,7 +3,7 @@ title: MapiImportance
 second_title: Aspose.Email for Java API Reference
 description: Contains a values that  indicates the message importance.
 type: docs
-weight: 443
+weight: 446
 url: /java/com.aspose.email/mapiimportance/
 ---
 

@@ -3,7 +3,7 @@ title: VCardSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard save options
 type: docs
-weight: 727
+weight: 735
 url: /java/com.aspose.email/vcardsaveoptions/
 ---
 
@@ -31,13 +31,13 @@ Represents vCard save options
 | [getPreferredTextEncoding()](#getPreferredTextEncoding--) | Gets or sets Encoding that will be used to save Contact. |
 | [getSaveFormat()](#getSaveFormat--) | Gets a save format |
 | [getUseExtensions()](#getUseExtensions--) | Gets or sets a value indicating whether the extended types can be used |
-| [getVersion()](#getVersion--) | Gets or sets a vCard version |
+| [getVersion()](#getVersion--) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setPreferredTextEncoding(Charset value)](#setPreferredTextEncoding-java.nio.charset.Charset-) | Gets or sets Encoding that will be used to save Contact. |
 | [setUseExtensions(boolean value)](#setUseExtensions-boolean-) | Gets or sets a value indicating whether the extended types can be used |
-| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version |
+| [setVersion(int value)](#setVersion-int-) | Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -148,7 +148,7 @@ public final int getVersion()
 ```
 
 
-Gets or sets a vCard version
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
 
 **Returns:**
 int
@@ -210,7 +210,7 @@ public final void setVersion(int value)
 ```
 
 
-Gets or sets a vCard version
+Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard.
 
 **Parameters:**
 | Parameter | Type | Description |

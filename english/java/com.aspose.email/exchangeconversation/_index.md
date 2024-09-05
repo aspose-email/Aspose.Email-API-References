@@ -3,7 +3,7 @@ title: ExchangeConversation
 second_title: Aspose.Email for Java API Reference
 description: Represents a single conversation.
 type: docs
-weight: 197
+weight: 199
 url: /java/com.aspose.email/exchangeconversation/
 ---
 

@@ -3,7 +3,7 @@ title: ImapMessageInfoCollection
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /python-net/aspose.email.clients.imap/imapmessageinfocollection/
 ---
 

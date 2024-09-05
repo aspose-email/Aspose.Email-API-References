@@ -3,7 +3,7 @@ title: CalendarItemCreateOrDeleteOperation
 second_title: Aspose.Email for Java API Reference
 description: Represents options for create and delete operations
 type: docs
-weight: 93
+weight: 95
 url: /java/com.aspose.email/calendaritemcreateordeleteoperation/
 ---
 

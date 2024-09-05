@@ -19,6 +19,7 @@ The KnownFolders type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
+|TODO_TASKS|TodoTasks group.|
 |CALENDARS|Calendar group.|
 |CONTACTS|Default Contacts folder.|
 |CONTACT_FOLDERS|For contacts contained in the child folder of a contactFolder.|

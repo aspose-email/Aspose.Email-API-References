@@ -3,7 +3,7 @@ title: BaseDataObject
 second_title: Aspose.Email for Java API Reference
 description: Base class for google data objects.
 type: docs
-weight: 77
+weight: 79
 url: /java/com.aspose.email/basedataobject/
 ---
 

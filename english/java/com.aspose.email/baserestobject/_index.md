@@ -3,7 +3,7 @@ title: BaseRestObject
 second_title: Aspose.Email for Java API Reference
 description: Represents functionality for base object.
 type: docs
-weight: 78
+weight: 80
 url: /java/com.aspose.email/baserestobject/
 ---
 

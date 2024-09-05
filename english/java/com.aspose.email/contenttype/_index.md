@@ -3,7 +3,7 @@ title: ContentType
 second_title: Aspose.Email for Java API Reference
 description: Represents a Content-Type header.
 type: docs
-weight: 127
+weight: 129
 url: /java/com.aspose.email/contenttype/
 ---
 

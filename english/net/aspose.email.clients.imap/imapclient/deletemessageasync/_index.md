@@ -1,11 +1,41 @@
 ---
 title: ImapClient.DeleteMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Marks a message with the specified sequence number as deleted
+description: ImapClient method. Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 580
 url: /net/aspose.email.clients.imap/imapclient/deletemessageasync/
 ---
+## DeleteMessageAsync(IConnection, string, long, bool, CancellationToken) {#deletemessageasync_9}
+
+Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
+
+```csharp
+public Task DeleteMessageAsync(IConnection connection, string uniqueId, long modificationSequence, 
+    bool commitNow, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessageAsync(IConnection, int) {#deletemessageasync}
 
 Marks a message with the specified sequence number as deleted
@@ -610,36 +640,6 @@ Task object, with delegate for this operation
 
 ### See Also
 
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## DeleteMessageAsync(IConnection, string, long, bool, CancellationToken) {#deletemessageasync_9}
-
-Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
-
-```csharp
-public Task DeleteMessageAsync(IConnection connection, string uniqueId, long modificationSequence, 
-    bool commitNow, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The uid of the message |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-| commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

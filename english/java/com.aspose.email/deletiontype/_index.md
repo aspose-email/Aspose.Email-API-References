@@ -3,7 +3,7 @@ title: DeletionType
 second_title: Aspose.Email for Java API Reference
 description: Type of deletion
 type: docs
-weight: 153
+weight: 155
 url: /java/com.aspose.email/deletiontype/
 ---
 

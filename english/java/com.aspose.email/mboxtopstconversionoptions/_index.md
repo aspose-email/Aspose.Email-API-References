@@ -3,7 +3,7 @@ title: MboxToPstConversionOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allows the user to specify additional options when converting from Mbox to PST.
 type: docs
-weight: 487
+weight: 492
 url: /java/com.aspose.email/mboxtopstconversionoptions/
 ---
 

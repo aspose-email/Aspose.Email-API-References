@@ -3,7 +3,7 @@ title: DataRow
 second_title: Aspose.Email for Java API Reference
 description: DataRow class.
 type: docs
-weight: 139
+weight: 141
 url: /java/com.aspose.email/datarow/
 ---
 

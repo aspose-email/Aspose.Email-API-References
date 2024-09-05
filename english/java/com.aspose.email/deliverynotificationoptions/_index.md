@@ -3,7 +3,7 @@ title: DeliveryNotificationOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies delivery notifications.
 type: docs
-weight: 154
+weight: 156
 url: /java/com.aspose.email/deliverynotificationoptions/
 ---
 

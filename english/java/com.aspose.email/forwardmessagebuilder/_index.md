@@ -3,7 +3,7 @@ title: ForwardMessageBuilder
 second_title: Aspose.Email for Java API Reference
 description: Provides creation and formatting the forwarding messages.
 type: docs
-weight: 265
+weight: 267
 url: /java/com.aspose.email/forwardmessagebuilder/
 ---
 

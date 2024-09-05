@@ -3,7 +3,7 @@ title: ImapCommandResult
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the imap command results.
 type: docs
-weight: 306
+weight: 308
 url: /java/com.aspose.email/imapcommandresult/
 ---
 

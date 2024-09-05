@@ -3,7 +3,7 @@ title: FailedMailMessageEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the MessageSending and MessageSent events.
 type: docs
-weight: 238
+weight: 240
 url: /java/com.aspose.email/failedmailmessageeventargs/
 ---
 

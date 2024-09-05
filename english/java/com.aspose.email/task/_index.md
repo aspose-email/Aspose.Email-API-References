@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Email for Java API Reference
 description: Represents the exchange task information.
 type: docs
-weight: 677
+weight: 685
 url: /java/com.aspose.email/task/
 ---
 

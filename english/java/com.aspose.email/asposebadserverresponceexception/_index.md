@@ -3,7 +3,7 @@ title: AsposeBadServerResponceException
 second_title: Aspose.Email for Java API Reference
 description: Represents errors that occur during server operation execution.
 type: docs
-weight: 53
+weight: 55
 url: /java/com.aspose.email/asposebadserverresponceexception/
 ---
 

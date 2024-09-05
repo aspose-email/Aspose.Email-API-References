@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 521
+weight: 526
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: PemReader
 second_title: Aspose.Email for Java API Reference
 description: PEM format reader.
 type: docs
-weight: 566
+weight: 572
 url: /java/com.aspose.email/pemreader/
 ---
 
@@ -25,8 +25,8 @@ PEM format reader.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getPrivateKey(InputStream pem)](#getPrivateKey-java.io.InputStream-) | Reads private key from stream. |
-| [getPrivateKey(String path)](#getPrivateKey-java.lang.String-) | Reads private key from PEM file. |
+| [getPrivateKey(InputStream pem)](#getPrivateKey-java.io.InputStream-) | Reads private key from stream |
+| [getPrivateKey(String pemFile)](#getPrivateKey-java.lang.String-) | Reads private key from PEM file |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -67,34 +67,34 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getPrivateKey(InputStream pem) {#getPrivateKey-java.io.InputStream-}
 ```
-public static System.Security.Cryptography.RSACryptoServiceProvider getPrivateKey(InputStream pem)
+public static PrivateKey getPrivateKey(InputStream pem)
 ```
 
 
-Reads private key from stream.
+Reads private key from stream
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pem | java.io.InputStream | Stream to read from. |
+| pem | java.io.InputStream | Stream to read from |
 
 **Returns:**
-com.aspose.ms.System.Security.Cryptography.RSACryptoServiceProvider - Certificate that was read.
-### getPrivateKey(String path) {#getPrivateKey-java.lang.String-}
+java.security.PrivateKey - Certificate that was read
+### getPrivateKey(String pemFile) {#getPrivateKey-java.lang.String-}
 ```
-public static System.Security.Cryptography.RSACryptoServiceProvider getPrivateKey(String path)
+public static PrivateKey getPrivateKey(String pemFile)
 ```
 
 
-Reads private key from PEM file.
+Reads private key from PEM file
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Path to file to read from. |
+| pemFile | java.lang.String | path to file to read from |
 
 **Returns:**
-com.aspose.ms.System.Security.Cryptography.RSACryptoServiceProvider - Certificate that was read.
+java.security.PrivateKey - Certificate that was read
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

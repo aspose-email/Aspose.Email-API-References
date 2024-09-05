@@ -21,9 +21,10 @@ the aspose.email.storage.pst namespace contains classes for work with microsoft 
 |[MessageInfo](/email/python-net/aspose.email.storage.pst/messageinfo/)|Represents information<br/>            about message in PST.|
 |[MessageInfoCollection](/email/python-net/aspose.email.storage.pst/messageinfocollection/)|Represents the collection of MessageInfo.|
 |[MessageStore](/email/python-net/aspose.email.storage.pst/messagestore/)|Message store is the root of the PST, <br/>            which is the rough equivalent of the top of a Mailbox.|
-|[PersonalStorage](/email/python-net/aspose.email.storage.pst/personalstorage/)|Represents Personal Storage Table (.pst) file.|
+|[PersonalStorage](/email/python-net/aspose.email.storage.pst/personalstorage/)|Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook.|
 |[PersonalStorageLoadOptions](/email/python-net/aspose.email.storage.pst/personalstorageloadoptions/)|Specifies additional options when loading a PST storage.|
 |[PersonalStorageQueryBuilder](/email/python-net/aspose.email.storage.pst/personalstoragequerybuilder/)|Represents the builder of search expression<br/>            that used by pst.|
+|[RestoredItemEntry](/email/python-net/aspose.email.storage.pst/restoreditementry/)|Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in.|
 |[SaveResult](/email/python-net/aspose.email.storage.pst/saveresult/)|Represents the result of saving the retrieved item.|
 |[StorageProcessedEventArgs](/email/python-net/aspose.email.storage.pst/storageprocessedeventargs/)|Provides data for the|
 |[StorageProcessingEventArgs](/email/python-net/aspose.email.storage.pst/storageprocessingeventargs/)|Provides data for the|

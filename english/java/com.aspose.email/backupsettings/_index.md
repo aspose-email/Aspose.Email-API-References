@@ -3,7 +3,7 @@ title: BackupSettings
 second_title: Aspose.Email for Java API Reference
 description: Class contains options for backup operation
 type: docs
-weight: 76
+weight: 78
 url: /java/com.aspose.email/backupsettings/
 ---
 

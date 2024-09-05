@@ -15,7 +15,7 @@ The MapiDistributionListMemberCollection type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|MapiDistributionListMemberCollection()|Initializes a new instance of the MapiDistributionListMemberCollection class|
+|MapiDistributionListMemberCollection()|Initializes a new instance of the [MapiDistributionListMemberCollection](/email/python-net/aspose.email.mapi/mapidistributionlistmembercollection/) class.|
 
 ### See Also
 

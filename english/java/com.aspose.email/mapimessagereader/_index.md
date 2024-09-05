@@ -3,7 +3,7 @@ title: MapiMessageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents a reader that can read a Microsoft Outlook Message format document.
 type: docs
-weight: 453
+weight: 456
 url: /java/com.aspose.email/mapimessagereader/
 ---
 

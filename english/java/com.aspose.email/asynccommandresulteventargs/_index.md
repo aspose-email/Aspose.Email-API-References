@@ -3,7 +3,7 @@ title: AsyncCommandResultEventArgs
 second_title: Aspose.Email for Java API Reference
 description: is containing event data.
 type: docs
-weight: 62
+weight: 64
 url: /java/com.aspose.email/asynccommandresulteventargs/
 ---
 

@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapinote/
 
 ## MapiNote class
 
-Represents outlook Note object ("sticky note")
+Represents a MAPI note ("sticky note") item.
 
 The MapiNote type exposes the following members:
 ## Constructors

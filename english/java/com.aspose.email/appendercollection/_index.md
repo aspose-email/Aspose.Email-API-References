@@ -3,7 +3,7 @@ title: AppenderCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collecton for Appender objects.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.email/appendercollection/
 ---
 

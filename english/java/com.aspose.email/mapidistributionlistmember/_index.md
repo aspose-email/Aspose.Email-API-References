@@ -3,7 +3,7 @@ title: MapiDistributionListMember
 second_title: Aspose.Email for Java API Reference
 description: Represents the members of the personal distribution list.
 type: docs
-weight: 438
+weight: 441
 url: /java/com.aspose.email/mapidistributionlistmember/
 ---
 
@@ -56,7 +56,11 @@ Initializes a new instance of the [MapiDistributionListMember](../../com.aspose.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | displayName | java.lang.String | The display name. |
-| emailAddress | java.lang.String | The email address. |
+| emailAddress | java.lang.String | The email address.
+
+--------------------
+
+If  displayName  is null or empty this element will not be displayed when you open this DistributionList in Outlook. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -116,6 +120,10 @@ public final String getDisplayName()
 Gets or sets the recipient's display name.
 
 Value: The display name.
+
+--------------------
+
+If DisplayName value is null or empty this element will not be displayed when you open this DistributionList in Outlook.
 
 **Returns:**
 java.lang.String
@@ -220,6 +228,10 @@ public final void setDisplayName(String value)
 Gets or sets the recipient's display name.
 
 Value: The display name.
+
+--------------------
+
+If DisplayName value is null or empty this element will not be displayed when you open this DistributionList in Outlook.
 
 **Parameters:**
 | Parameter | Type | Description |

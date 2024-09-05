@@ -3,7 +3,7 @@ title: UnifiedMessagingConfiguration
 second_title: Aspose.Email for Java API Reference
 description: Unified messaging configuration
 type: docs
-weight: 699
+weight: 707
 url: /java/com.aspose.email/unifiedmessagingconfiguration/
 ---
 

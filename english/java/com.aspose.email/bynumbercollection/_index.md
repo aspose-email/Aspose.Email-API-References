@@ -3,7 +3,7 @@ title: ByNumberCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a set of months weeks days hours minutes or seconds in a recurrence rule.
 type: docs
-weight: 88
+weight: 90
 url: /java/com.aspose.email/bynumbercollection/
 ---
 

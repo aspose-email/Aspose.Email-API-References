@@ -3,7 +3,7 @@ title: CommandStatus
 second_title: Aspose.Email for Java API Reference
 description: Indicates the result of an operation.
 type: docs
-weight: 108
+weight: 110
 url: /java/com.aspose.email/commandstatus/
 ---
 

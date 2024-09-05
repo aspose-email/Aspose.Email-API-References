@@ -3,7 +3,7 @@ title: CalendarMonth
 second_title: Aspose.Email for Java API Reference
 description: Represents a calendar month.
 type: docs
-weight: 94
+weight: 96
 url: /java/com.aspose.email/calendarmonth/
 ---
 

@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 
@@ -17,6 +17,8 @@ The MboxrdStorageWriter type exposes the following members:
 | :- | :- |
 |MboxrdStorageWriter(stream, leave_open)|Initializes a new instance of the MboxrdStorageWriter class|
 |MboxrdStorageWriter(file_name, leave_open)|Initializes a new instance of the MboxrdStorageWriter class|
+|MboxrdStorageWriter(stream, options)|Initializes a new instance of the MboxrdStorageWriter class|
+|MboxrdStorageWriter(file_name, options)|Initializes a new instance of the MboxrdStorageWriter class|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -24,6 +24,7 @@ The **Aspose.Email.PersonalInfo.VCard** namespace contains classes for work with
 | [VCardIdentificationInfo](./vcardidentificationinfo/) | Represents vCard identification information |
 | [VCardLabel](./vcardlabel/) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
 | [VCardLabelCollection](./vcardlabelcollection/) | Represents a collection of VCardLabel |
+| [VCardLoadOptions](./vcardloadoptions/) | This is class that allow the user to specify additional options when loading a VCardContact. |
 | [VCardOrganization](./vcardorganization/) | Represents vCard organization properties |
 | [VCardPhoto](./vcardphoto/) | Represents vCard photo property |
 | [VCardSaveOptions](./vcardsaveoptions/) | Represents vCard save options |

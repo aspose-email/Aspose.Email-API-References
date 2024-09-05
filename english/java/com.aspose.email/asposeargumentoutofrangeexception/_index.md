@@ -3,7 +3,7 @@ title: AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for Java API Reference
 description: The exception that is thrown when one of the arguments provided to a method is out of range.
 type: docs
-weight: 52
+weight: 54
 url: /java/com.aspose.email/asposeargumentoutofrangeexception/
 ---
 

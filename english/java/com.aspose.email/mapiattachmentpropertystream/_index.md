@@ -3,7 +3,7 @@ title: MapiAttachmentPropertyStream
 second_title: Aspose.Email for Java API Reference
 description: Represents the property stream of attachment object.
 type: docs
-weight: 387
+weight: 389
 url: /java/com.aspose.email/mapiattachmentpropertystream/
 ---
 

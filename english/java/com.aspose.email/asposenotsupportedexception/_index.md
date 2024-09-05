@@ -3,7 +3,7 @@ title: AsposeNotSupportedException
 second_title: Aspose.Email for Java API Reference
 description: The exception that is thrown when an invoked method or parameter is not supported  or when there is an attempt to read seek or write to a stream that does not support the invoked functionality.
 type: docs
-weight: 58
+weight: 60
 url: /java/com.aspose.email/asposenotsupportedexception/
 ---
 

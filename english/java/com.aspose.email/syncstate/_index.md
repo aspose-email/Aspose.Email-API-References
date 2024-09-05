@@ -3,7 +3,7 @@ title: SyncState
 second_title: Aspose.Email for Java API Reference
 description: Synchronization object for folder synchronization operation.
 type: docs
-weight: 673
+weight: 681
 url: /java/com.aspose.email/syncstate/
 ---
 

@@ -13,6 +13,8 @@ the aspose.email.clients.imap namespace provides classes to access <br/>        
 ## Classes
 | Class | Description |
 | :- | :- |
+|[AppendMessagesFromFileResult](/email/python-net/aspose.email.clients.imap/appendmessagesfromfileresult/)|Contains result of operation with messages|
+|[AppendMessagesFromMessageObjectResult](/email/python-net/aspose.email.clients.imap/appendmessagesfrommessageobjectresult/)|Contains result of operation with messages|
 |[AppendMessagesResult](/email/python-net/aspose.email.clients.imap/appendmessagesresult/)|Contains result of operation with messages|
 |[BackupSettings](/email/python-net/aspose.email.clients.imap/backupsettings/)|Class contains options for backup operation|
 |[BaseSearchConditions](/email/python-net/aspose.email.clients.imap/basesearchconditions/)|Provides base class for the search conditions.|

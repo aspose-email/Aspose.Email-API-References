@@ -3,7 +3,7 @@ title: AppointmentMsgSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents iCalendar save options
 type: docs
-weight: 40
+weight: 42
 url: /java/com.aspose.email/appointmentmsgsaveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: ImapRestoreSettings
 second_title: Aspose.Email for Java API Reference
 description: The settings for the ImapClient.Restore method
 type: docs
-weight: 329
+weight: 331
 url: /java/com.aspose.email/imaprestoresettings/
 ---
 

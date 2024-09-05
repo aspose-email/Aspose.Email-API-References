@@ -3,7 +3,7 @@ title: AutodiscoverErrorCode
 second_title: Aspose.Email for Java API Reference
 description: Defines the error codes that can be returned by the Autodiscover service.
 type: docs
-weight: 69
+weight: 71
 url: /java/com.aspose.email/autodiscovererrorcode/
 ---
 

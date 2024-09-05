@@ -3,7 +3,7 @@ title: DeleteTaskOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates delete task options.
 type: docs
-weight: 151
+weight: 153
 url: /java/com.aspose.email/deletetaskoptions/
 ---
 

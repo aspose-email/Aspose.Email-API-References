@@ -3,13 +3,13 @@ title: MboxStorageReader
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 
 ## MboxStorageReader class
 
-A base class for any mbox-based mail storage reader.
+Represents an MBOX file and provides methods for reading and extracting messages.<br/>            The MBOX file format is used for storing a collection of email messages.
 
 The MboxStorageReader type exposes the following members:
 ## Properties

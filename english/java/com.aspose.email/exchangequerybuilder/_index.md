@@ -3,7 +3,7 @@ title: ExchangeQueryBuilder
 second_title: Aspose.Email for Java API Reference
 description: Represents the builder of search expression based on search filters that used by Exchange protocol.
 type: docs
-weight: 225
+weight: 227
 url: /java/com.aspose.email/exchangequerybuilder/
 ---
 

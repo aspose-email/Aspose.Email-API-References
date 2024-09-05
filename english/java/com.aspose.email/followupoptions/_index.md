@@ -3,7 +3,7 @@ title: FollowUpOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents options for using follow-up flags and reminders in a message.
 type: docs
-weight: 259
+weight: 261
 url: /java/com.aspose.email/followupoptions/
 ---
 

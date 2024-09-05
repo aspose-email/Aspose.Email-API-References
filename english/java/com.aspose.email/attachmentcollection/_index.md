@@ -3,7 +3,7 @@ title: AttachmentCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of e-mail message attachments.
 type: docs
-weight: 66
+weight: 68
 url: /java/com.aspose.email/attachmentcollection/
 ---
 

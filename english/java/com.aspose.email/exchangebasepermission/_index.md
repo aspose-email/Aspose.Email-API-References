@@ -3,7 +3,7 @@ title: ExchangeBasePermission
 second_title: Aspose.Email for Java API Reference
 description: Provides abstract base class for permissions to folders on Exchange Server.
 type: docs
-weight: 189
+weight: 191
 url: /java/com.aspose.email/exchangebasepermission/
 ---
 

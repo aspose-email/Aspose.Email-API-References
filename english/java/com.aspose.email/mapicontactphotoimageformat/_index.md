@@ -3,7 +3,7 @@ title: MapiContactPhotoImageFormat
 second_title: Aspose.Email for Java API Reference
 description: Enumerates MapiContact photo image format.
 type: docs
-weight: 427
+weight: 430
 url: /java/com.aspose.email/mapicontactphotoimageformat/
 ---
 

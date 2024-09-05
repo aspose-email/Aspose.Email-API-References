@@ -3,7 +3,7 @@ title: AppointmentFormattingOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents the appointment formatting options.
 type: docs
-weight: 36
+weight: 38
 url: /java/com.aspose.email/appointmentformattingoptions/
 ---
 

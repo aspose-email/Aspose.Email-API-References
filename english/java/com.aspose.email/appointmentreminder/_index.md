@@ -3,7 +3,7 @@ title: AppointmentReminder
 second_title: Aspose.Email for Java API Reference
 description: Provides a grouping of component properties that define an alarm.
 type: docs
-weight: 43
+weight: 45
 url: /java/com.aspose.email/appointmentreminder/
 ---
 

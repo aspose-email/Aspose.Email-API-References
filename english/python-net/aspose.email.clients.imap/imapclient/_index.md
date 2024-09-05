@@ -3,7 +3,7 @@ title: ImapClient
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /python-net/aspose.email.clients.imap/imapclient/
 ---
 

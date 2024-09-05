@@ -3,7 +3,7 @@ title: RestoreSettings
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 340
 url: /python-net/aspose.email.clients.imap/restoresettings/
 ---
 

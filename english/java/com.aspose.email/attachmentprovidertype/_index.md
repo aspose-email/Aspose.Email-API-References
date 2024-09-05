@@ -3,7 +3,7 @@ title: AttachmentProviderType
 second_title: Aspose.Email for Java API Reference
 description: The type of web service manipulating the attachment.
 type: docs
-weight: 68
+weight: 70
 url: /java/com.aspose.email/attachmentprovidertype/
 ---
 

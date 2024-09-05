@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapitask/
 
 ## MapiTask class
 
-Represents the Outlook Task object.
+Represents a MAPI task item.
 
 The MapiTask type exposes the following members:
 ## Constructors

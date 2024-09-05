@@ -3,7 +3,7 @@ title: MailgunClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the Mailgun client
 type: docs
-weight: 382
+weight: 384
 url: /java/com.aspose.email/mailgunclient/
 ---
 

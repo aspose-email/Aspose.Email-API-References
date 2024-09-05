@@ -3,7 +3,7 @@ title: LoggingException
 second_title: Aspose.Email for Java API Reference
 description: The exception that is thrown when error is found in logging.
 type: docs
-weight: 360
+weight: 362
 url: /java/com.aspose.email/loggingexception/
 ---
 

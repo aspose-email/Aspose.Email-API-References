@@ -3,7 +3,7 @@ title: MapiSensitivity
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.email.storage.pst/mapisensitivity/
 ---
 

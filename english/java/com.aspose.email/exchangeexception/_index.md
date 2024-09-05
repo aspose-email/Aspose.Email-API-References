@@ -3,7 +3,7 @@ title: ExchangeException
 second_title: Aspose.Email for Java API Reference
 description: Thrown if there is a MS Exchange communication failure.
 type: docs
-weight: 205
+weight: 207
 url: /java/com.aspose.email/exchangeexception/
 ---
 

@@ -3,7 +3,7 @@ title: ExchangeDelegatePermissions
 second_title: Aspose.Email for Java API Reference
 description: Represents the folder permissions for the delegate user
 type: docs
-weight: 201
+weight: 203
 url: /java/com.aspose.email/exchangedelegatepermissions/
 ---
 

@@ -3,7 +3,7 @@ title: FileAccessViolationException
 second_title: Aspose.Email for Java API Reference
 description: This exception wile be thrown when the file open and locked by another caller.
 type: docs
-weight: 242
+weight: 244
 url: /java/com.aspose.email/fileaccessviolationexception/
 ---
 

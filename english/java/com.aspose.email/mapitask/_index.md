@@ -1,9 +1,9 @@
 ---
 title: MapiTask
 second_title: Aspose.Email for Java API Reference
-description: Represents the Outlook Task object.
+description: Represents a MAPI task item.
 type: docs
-weight: 472
+weight: 475
 url: /java/com.aspose.email/mapitask/
 ---
 
@@ -13,7 +13,28 @@ java.lang.Object, [com.aspose.email.MapiPropertyContainer](../../com.aspose.emai
 public class MapiTask extends MapiMessageItemBase
 ```
 
-Represents the Outlook Task object.
+Represents a MAPI task item.
+
+This class serves as a wrapper for [MapiMessage](../../com.aspose.email/mapimessage) to simplify the process of handling task information from MAPI properties. It provides a more intuitive interface for accessing and manipulating task data within the MAPI message.
+
+Example:
+
+```
+
+ // Load the MAPI message from a file
+ MapiMessage msg = MapiMessage.load("task.msg");
+
+ // Check if the loaded message is a supported task type
+ if (msg.getSupportedType() == MapiItemType.Task) {
+     // Convert the MAPI message to a MapiTask object
+     MapiTask mapiTask = (MapiTask) msg.toMapiMessageItem();
+
+     // Display some task info
+     System.out.println(mapiTask.getSubject());
+     System.out.println(mapiTask.getDueDate());
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -866,6 +887,19 @@ Retrieves the underlying MapiMessage object.
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - The [MapiMessage](../../com.aspose.email/mapimessage) object.
+
+Retrieves the underlying MAPI message from a MapiTask object and prints out its message class.
+
+```
+
+ // Retrieve the underlying MAPI message from the MapiTask object
+ MapiMessage msg = mapiTask.getUnderlyingMessage();
+
+ // Print out the message class of the MAPI message
+ // Will output "IPM.Task"
+ System.out.println(msg.getMessageClass());
+ 
+```
 ### getUsers() {#getUsers--}
 ```
 public final MapiTaskUsers getUsers()

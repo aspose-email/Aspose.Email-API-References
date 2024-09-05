@@ -3,7 +3,7 @@ title: ExchangeUploadItemResult
 second_title: Aspose.Email for Java API Reference
 description: Represents a result of updating or creating a streamed item
 type: docs
-weight: 229
+weight: 231
 url: /java/com.aspose.email/exchangeuploaditemresult/
 ---
 

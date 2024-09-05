@@ -3,7 +3,7 @@ title: ExchangeVersion
 second_title: Aspose.Email for Java API Reference
 description: Exchange server versions
 type: docs
-weight: 235
+weight: 237
 url: /java/com.aspose.email/exchangeversion/
 ---
 

@@ -3,7 +3,7 @@ title: INamedPropertyTagProvider
 second_title: Aspose.Email for Java API Reference
 description: Interface of named mapi property tag provider.
 type: docs
-weight: 768
+weight: 776
 url: /java/com.aspose.email/inamedpropertytagprovider/
 ---
 ```

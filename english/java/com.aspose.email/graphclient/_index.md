@@ -3,7 +3,7 @@ title: GraphClient
 second_title: Aspose.Email for Java API Reference
 description: Provides access to MS Exchange Server Office365 by using REST API.
 type: docs
-weight: 281
+weight: 283
 url: /java/com.aspose.email/graphclient/
 ---
 

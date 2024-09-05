@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Html format.
 type: docs
-weight: 295
+weight: 297
 url: /java/com.aspose.email/htmlsaveoptions/
 ---
 
@@ -47,7 +47,7 @@ Allows to specify additional options when saving MailMessage to Html format.
 | [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
 | [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Provides customization of rendering resources in html. |
 | [getResourceRenderingMode()](#getResourceRenderingMode--) | Provides set various modes of rendering resources in html. |
-| [getUseRelativePathToResources()](#getUseRelativePathToResources--) | If true then resources will be saved in folder htmlFileName.files in the same folder that html file and the relative path to resources will be added in html content , otherwise absolute path from ResourceHtmlRenderingEventArgs.PathToResourceFile property will be used for saving resources and adding to html. |
+| [getUseRelativePathToResources()](#getUseRelativePathToResources--) | Default value is false. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -63,7 +63,7 @@ Allows to specify additional options when saving MailMessage to Html format.
 | [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Defines groups of Contact fields which will be included in output mhtml. |
 | [setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)](#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-) | Provides customization of rendering resources in html. |
 | [setResourceRenderingMode(int value)](#setResourceRenderingMode-int-) | Provides set various modes of rendering resources in html. |
-| [setUseRelativePathToResources(boolean value)](#setUseRelativePathToResources-boolean-) | If true then resources will be saved in folder htmlFileName.files in the same folder that html file and the relative path to resources will be added in html content , otherwise absolute path from ResourceHtmlRenderingEventArgs.PathToResourceFile property will be used for saving resources and adding to html. |
+| [setUseRelativePathToResources(boolean value)](#setUseRelativePathToResources-boolean-) | Default value is false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -348,7 +348,7 @@ public final boolean getUseRelativePathToResources()
 ```
 
 
-If true then resources will be saved in folder htmlFileName.files in the same folder that html file and the relative path to resources will be added in html content , otherwise absolute path from ResourceHtmlRenderingEventArgs.PathToResourceFile property will be used for saving resources and adding to html. It make sense if ResourceRenderingMode is ResourceRenderingMode.SaveToFile. Default value is false.
+Default value is false.
 
 **Returns:**
 boolean
@@ -554,7 +554,7 @@ public final void setUseRelativePathToResources(boolean value)
 ```
 
 
-If true then resources will be saved in folder htmlFileName.files in the same folder that html file and the relative path to resources will be added in html content , otherwise absolute path from ResourceHtmlRenderingEventArgs.PathToResourceFile property will be used for saving resources and adding to html. It make sense if ResourceRenderingMode is ResourceRenderingMode.SaveToFile. Default value is false.
+Default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: CurrentThreadSettings
 second_title: Aspose.Email for Java API Reference
 description: Auxiliary class that allows to define default Locale for current thread
 type: docs
-weight: 128
+weight: 130
 url: /java/com.aspose.email/currentthreadsettings/
 ---
 

@@ -3,7 +3,7 @@ title: EmlxLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when loading MailMessage from Eml format.
 type: docs
-weight: 175
+weight: 177
 url: /java/com.aspose.email/emlxloadoptions/
 ---
 

@@ -3,7 +3,7 @@ title: FlaggedForAction
 second_title: Aspose.Email for Java API Reference
 description: Enumerates flagged for action
 type: docs
-weight: 253
+weight: 255
 url: /java/com.aspose.email/flaggedforaction/
 ---
 

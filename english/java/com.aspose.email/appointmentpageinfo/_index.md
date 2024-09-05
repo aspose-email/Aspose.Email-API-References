@@ -3,7 +3,7 @@ title: AppointmentPageInfo
 second_title: Aspose.Email for Java API Reference
 description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 41
+weight: 43
 url: /java/com.aspose.email/appointmentpageinfo/
 ---
 

@@ -3,7 +3,7 @@ title: SmimeResult
 second_title: Aspose.Email for Java API Reference
 description: This class containing results of checking secure emails.
 type: docs
-weight: 650
+weight: 658
 url: /java/com.aspose.email/smimeresult/
 ---
 
@@ -58,14 +58,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getEncryptionCertificates() {#getEncryptionCertificates--}
 ```
-public final System.Security.Cryptography.X509Certificates.X509Certificate2Collection getEncryptionCertificates()
+public final List<X509Certificate> getEncryptionCertificates()
 ```
 
 
 Gets the collection of certificates with which the email was encrypted.
 
 **Returns:**
-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+java.util.List<java.security.cert.X509Certificate>
 ### getError() {#getError--}
 ```
 public final RuntimeException getError()
@@ -78,14 +78,14 @@ Gets error which was thrown while checking.
 java.lang.RuntimeException
 ### getSigningCertificates() {#getSigningCertificates--}
 ```
-public final System.Security.Cryptography.X509Certificates.X509Certificate2Collection getSigningCertificates()
+public final List<X509Certificate> getSigningCertificates()
 ```
 
 
 Gets the collection of certificates with which the email was signed.
 
 **Returns:**
-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate2Collection
+java.util.List<java.security.cert.X509Certificate>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

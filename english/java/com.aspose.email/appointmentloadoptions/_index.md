@@ -3,7 +3,7 @@ title: AppointmentLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents appointment load options
 type: docs
-weight: 38
+weight: 40
 url: /java/com.aspose.email/appointmentloadoptions/
 ---
 

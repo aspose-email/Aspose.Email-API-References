@@ -3,7 +3,7 @@ title: ExchangeMessageInfo
 second_title: Aspose.Email for Java API Reference
 description: The ExchangeMessageInfo represents the E-Mail message info fetched from the Exchange Store.
 type: docs
-weight: 221
+weight: 223
 url: /java/com.aspose.email/exchangemessageinfo/
 ---
 

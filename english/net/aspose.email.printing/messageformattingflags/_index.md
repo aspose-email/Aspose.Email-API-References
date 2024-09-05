@@ -3,7 +3,7 @@ title: Enum MessageFormattingFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Printing.MessageFormattingFlags enum. Represents possible options that can be set during the message formatting process for various outputs
 type: docs
-weight: 20040
+weight: 20050
 url: /net/aspose.email.printing/messageformattingflags/
 ---
 ## MessageFormattingFlags enumeration

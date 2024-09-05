@@ -3,7 +3,7 @@ title: PageSettingsAsync
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 320
 url: /python-net/aspose.email.clients.imap/pagesettingsasync/
 ---
 

@@ -3,7 +3,7 @@ title: FileAsMapping
 second_title: Aspose.Email for Java API Reference
 description: Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change.
 type: docs
-weight: 244
+weight: 246
 url: /java/com.aspose.email/fileasmapping/
 ---
 

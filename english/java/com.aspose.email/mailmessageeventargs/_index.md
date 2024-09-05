@@ -3,7 +3,7 @@ title: MailMessageEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Provides data for the MessageSending and MessageSent events.
 type: docs
-weight: 371
+weight: 373
 url: /java/com.aspose.email/mailmessageeventargs/
 ---
 

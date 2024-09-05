@@ -3,7 +3,7 @@ title: DailyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern of daily recurrence type.
 type: docs
-weight: 134
+weight: 136
 url: /java/com.aspose.email/dailyrecurrencepattern/
 ---
 

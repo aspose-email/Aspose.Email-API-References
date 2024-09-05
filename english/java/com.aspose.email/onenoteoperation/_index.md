@@ -3,7 +3,7 @@ title: OnenoteOperation
 second_title: Aspose.Email for Java API Reference
 description: The status of certain long-running OneNote operations.
 type: docs
-weight: 556
+weight: 562
 url: /java/com.aspose.email/onenoteoperation/
 ---
 

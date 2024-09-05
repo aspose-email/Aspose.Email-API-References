@@ -3,7 +3,7 @@ title: CustomAttachmentStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents custom attachment storage.
 type: docs
-weight: 129
+weight: 131
 url: /java/com.aspose.email/customattachmentstorage/
 ---
 

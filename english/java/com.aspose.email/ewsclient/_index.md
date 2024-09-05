@@ -3,7 +3,7 @@ title: EWSClient
 second_title: Aspose.Email for Java API Reference
 description: Provides access to MS Exchange Server by using Exchange Web Services EWS.
 type: docs
-weight: 163
+weight: 165
 url: /java/com.aspose.email/ewsclient/
 ---
 

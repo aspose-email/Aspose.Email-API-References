@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/
 ---
-## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_5}
+## LoadAsMultiple(string, Encoding, CancellationToken) {#loadasmultiple_7}
 
 Loads list of contacts from multi contact stream.
 
@@ -33,7 +33,7 @@ List of contacs
 
 ---
 
-## LoadAsMultiple(Stream, Encoding, CancellationToken) {#loadasmultiple_2}
+## LoadAsMultiple(Stream, Encoding, CancellationToken) {#loadasmultiple_3}
 
 Loads list of contacts from multi contact stream.
 
@@ -84,32 +84,40 @@ List of contacs
 
 ---
 
-## LoadAsMultiple(Stream, Encoding) {#loadasmultiple_1}
+## LoadAsMultiple(Stream, VCardLoadOptions) {#loadasmultiple_1}
 
 Loads list of contacts from multi contact stream.
 
 ```csharp
-public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding)
+public static List<VCardContact> LoadAsMultiple(Stream stream, VCardLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | Source stream |
-| encoding | Encoding | Stream data encoding,if null then UTF8 will be used. |
+| options | VCardLoadOptions | Additional options when loading a VCardContact |
 
 ### Return Value
 
-List of contacs
+List of contacts
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Throws if stream is null |
+| NotSupportedException | Throws if the stream is not readable |
 
 ### See Also
 
+* class [VCardLoadOptions](../../vcardloadoptions/)
 * class [VCardContact](../)
 * namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## LoadAsMultiple(string) {#loadasmultiple_3}
+## LoadAsMultiple(string) {#loadasmultiple_4}
 
 Loads list of contacts from multi contact file.
 
@@ -121,6 +129,10 @@ public static List<VCardContact> LoadAsMultiple(string filePath)
 | --- | --- | --- |
 | filePath | String | Source file |
 
+### Return Value
+
+List of contacts
+
 ### See Also
 
 * class [VCardContact](../)
@@ -129,21 +141,30 @@ public static List<VCardContact> LoadAsMultiple(string filePath)
 
 ---
 
-## LoadAsMultiple(string, Encoding) {#loadasmultiple_4}
-
-Loads list of contacts from multi contact file.
+## LoadAsMultiple(string, VCardLoadOptions) {#loadasmultiple_5}
 
 ```csharp
-public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encoding)
+public static List<VCardContact> LoadAsMultiple(string filePath, VCardLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | Source file |
-| encoding | Encoding | File data encoding,if null then UTF8 will be used. |
+| options | VCardLoadOptions | Additional options when loading a VCardContact |
+
+### Return Value
+
+List of contacts
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Throws if filePath is null or empty |
 
 ### See Also
 
+* class [VCardLoadOptions](../../vcardloadoptions/)
 * class [VCardContact](../)
 * namespace [Aspose.Email.PersonalInfo.VCard](../../vcardcontact/)
 * assembly [Aspose.Email](../../../)

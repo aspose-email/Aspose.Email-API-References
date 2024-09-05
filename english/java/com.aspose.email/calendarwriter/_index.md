@@ -3,7 +3,7 @@ title: CalendarWriter
 second_title: Aspose.Email for Java API Reference
 description: Allows write the set of Events in one ics file or stream.
 type: docs
-weight: 98
+weight: 100
 url: /java/com.aspose.email/calendarwriter/
 ---
 

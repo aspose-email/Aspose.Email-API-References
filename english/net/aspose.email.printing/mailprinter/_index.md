@@ -3,7 +3,7 @@ title: Class MailPrinter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Printing.MailPrinter class. Represents a printer for mail messages
 type: docs
-weight: 20030
+weight: 20040
 url: /net/aspose.email.printing/mailprinter/
 ---
 ## MailPrinter class

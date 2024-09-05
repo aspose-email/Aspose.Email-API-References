@@ -3,7 +3,7 @@ title: UpdateTaskOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates update task options.
 type: docs
-weight: 701
+weight: 709
 url: /java/com.aspose.email/updatetaskoptions/
 ---
 

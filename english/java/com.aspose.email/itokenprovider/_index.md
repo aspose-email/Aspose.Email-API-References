@@ -3,7 +3,7 @@ title: ITokenProvider
 second_title: Aspose.Email for Java API Reference
 description: Defines interface allowing to retrieve access token.
 type: docs
-weight: 770
+weight: 778
 url: /java/com.aspose.email/itokenprovider/
 ---
 

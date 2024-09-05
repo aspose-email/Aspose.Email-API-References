@@ -3,7 +3,7 @@ title: ImapCommandResult
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 480
 url: /python-net/aspose.email.clients.imap/imapcommandresult/
 ---
 

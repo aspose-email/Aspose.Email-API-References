@@ -3,7 +3,7 @@ title: DoubleComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the double search field.
 type: docs
-weight: 161
+weight: 163
 url: /java/com.aspose.email/doublecomparisonfield/
 ---
 

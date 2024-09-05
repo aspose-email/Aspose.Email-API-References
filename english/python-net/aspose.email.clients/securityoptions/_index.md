@@ -3,7 +3,7 @@ title: SecurityOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1660
+weight: 1700
 url: /python-net/aspose.email.clients/securityoptions/
 ---
 

@@ -3,7 +3,7 @@ title: Class PersonalStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PersonalStorage class. Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook
 type: docs
-weight: 20570
+weight: 20580
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class

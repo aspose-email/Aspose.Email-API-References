@@ -3,7 +3,7 @@ title: AssociatedPerson
 second_title: Aspose.Email for Java API Reference
 description: Describes organization which is associated with a person.
 type: docs
-weight: 59
+weight: 61
 url: /java/com.aspose.email/associatedperson/
 ---
 

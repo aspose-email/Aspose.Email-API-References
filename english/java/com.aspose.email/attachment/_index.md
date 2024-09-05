@@ -3,7 +3,7 @@ title: Attachment
 second_title: Aspose.Email for Java API Reference
 description: Represents an e-mail attachment.
 type: docs
-weight: 64
+weight: 66
 url: /java/com.aspose.email/attachment/
 ---
 

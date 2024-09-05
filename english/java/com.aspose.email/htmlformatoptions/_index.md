@@ -3,7 +3,7 @@ title: HtmlFormatOptions
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the Html format  options.
 type: docs
-weight: 293
+weight: 295
 url: /java/com.aspose.email/htmlformatoptions/
 ---
 

@@ -3,7 +3,7 @@ title: AutodiscoverResponseCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of responses to a call to the Autodiscover service.
 type: docs
-weight: 72
+weight: 74
 url: /java/com.aspose.email/autodiscoverresponsecollection/
 ---
 

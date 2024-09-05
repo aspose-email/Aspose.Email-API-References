@@ -9,7 +9,7 @@ url: /python-net/aspose.email.mapi/mapidistributionlist/
 
 ## MapiDistributionList class
 
-Represents the Personal Distribution List object.
+Represents a MAPI distribution list item.
 
 The MapiDistributionList type exposes the following members:
 ## Constructors
@@ -61,6 +61,8 @@ The MapiDistributionList type exposes the following members:
 |save(file_name, options)|  |
 |save(stream)|  |
 |save(stream, options)|  |
+|from_vcf(file_path)|  |
+|from_vcf(stream)|  |
 |get_property(pd)|  |
 |try_get_property_data(tag)|  |
 |get_property_bytes(tag)|  |

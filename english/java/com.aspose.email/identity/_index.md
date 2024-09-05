@@ -3,7 +3,7 @@ title: Identity
 second_title: Aspose.Email for Java API Reference
 description: https//docs.microsoft.com/en-us/graph/api/resources/identityviewgraph-rest-1.0 The Identity resource represents an identity of an actor.
 type: docs
-weight: 301
+weight: 303
 url: /java/com.aspose.email/identity/
 ---
 

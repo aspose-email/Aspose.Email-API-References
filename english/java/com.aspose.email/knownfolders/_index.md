@@ -3,7 +3,7 @@ title: KnownFolders
 second_title: Aspose.Email for Java API Reference
 description: Specifies the known Exchange server folders.
 type: docs
-weight: 344
+weight: 346
 url: /java/com.aspose.email/knownfolders/
 ---
 

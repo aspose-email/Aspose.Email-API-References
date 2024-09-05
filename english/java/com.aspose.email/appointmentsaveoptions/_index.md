@@ -3,7 +3,7 @@ title: AppointmentSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents base appointment save options
 type: docs
-weight: 46
+weight: 48
 url: /java/com.aspose.email/appointmentsaveoptions/
 ---
 
