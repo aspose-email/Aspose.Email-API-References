@@ -745,6 +745,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [VCardIdentificationInfo](../com.aspose.email/vcardidentificationinfo) | Represents vCard identification information |
 | [VCardLabel](../com.aspose.email/vcardlabel) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
 | [VCardLabelCollection](../com.aspose.email/vcardlabelcollection) | Represents a collection of VCardLabel |
+| [VCardLoadOptions](../com.aspose.email/vcardloadoptions) | This is class that allow the user to specify additional options when loading a VCardContact. |
 | [VCardOrganization](../com.aspose.email/vcardorganization) | Represents vCard organization properties |
 | [VCardPhoto](../com.aspose.email/vcardphoto) | Represents vCard photo property |
 | [VCardPhotoType](../com.aspose.email/vcardphototype) | Enumerates vCard photo type |

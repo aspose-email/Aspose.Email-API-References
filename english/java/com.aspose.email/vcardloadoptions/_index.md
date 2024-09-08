@@ -1,48 +1,44 @@
 ---
-title: VCardUrl
+title: VCardLoadOptions
 second_title: Aspose.Email for Java API Reference
-description: Represents a vCard URL property
+description: This is class that allow the user to specify additional options when loading a VCardContact.
 type: docs
-weight: 743
-url: /java/com.aspose.email/vcardurl/
+weight: 732
+url: /java/com.aspose.email/vcardloadoptions/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class VCardUrl
+public class VCardLoadOptions
 ```
 
-Represents a vCard URL property
+This is class that allow the user to specify additional options when loading a VCardContact.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [VCardUrl()](#VCardUrl--) | Initializes a new instance of the [VCardUrl](../../com.aspose.email/vcardurl) class |
+| [VCardLoadOptions()](#VCardLoadOptions--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getUrl()](#getUrl--) | Gets or sets a url |
-| [getUrlType()](#getUrlType--) | Gets or sets a url type |
+| [getPreferredEncoding()](#getPreferredEncoding--) | File encoding. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUrl(String value)](#setUrl-java.lang.String-) | Gets or sets a url |
-| [setUrlType(int value)](#setUrlType-int-) | Gets or sets a url type |
+| [setPreferredEncoding(Charset value)](#setPreferredEncoding-java.nio.charset.Charset-) | File encoding. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VCardUrl() {#VCardUrl--}
+### VCardLoadOptions() {#VCardLoadOptions--}
 ```
-public VCardUrl()
+public VCardLoadOptions()
 ```
 
-
-Initializes a new instance of the [VCardUrl](../../com.aspose.email/vcardurl) class
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,26 +65,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getUrl() {#getUrl--}
+### getPreferredEncoding() {#getPreferredEncoding--}
 ```
-public final String getUrl()
+public final Charset getPreferredEncoding()
 ```
 
 
-Gets or sets a url
+File encoding.
 
 **Returns:**
-java.lang.String
-### getUrlType() {#getUrlType--}
-```
-public final int getUrlType()
-```
-
-
-Gets or sets a url type
-
-**Returns:**
-int
+java.nio.charset.Charset
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -115,31 +101,18 @@ public final native void notifyAll()
 
 
 
-### setUrl(String value) {#setUrl-java.lang.String-}
+### setPreferredEncoding(Charset value) {#setPreferredEncoding-java.nio.charset.Charset-}
 ```
-public final void setUrl(String value)
+public final void setPreferredEncoding(Charset value)
 ```
 
 
-Gets or sets a url
+File encoding.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
-
-### setUrlType(int value) {#setUrlType-int-}
-```
-public final void setUrlType(int value)
-```
-
-
-Gets or sets a url type
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
+| value | java.nio.charset.Charset |  |
 
 ### toString() {#toString--}
 ```
