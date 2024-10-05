@@ -3,7 +3,7 @@ title: Pop3KnownAuthenticationType
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 587
+weight: 588
 url: /java/com.aspose.email/pop3knownauthenticationtype/
 ---
 

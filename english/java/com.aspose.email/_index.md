@@ -578,6 +578,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [OriginalMessageAdditionMode](../com.aspose.email/originalmessageadditionmode) | Way to include the original message in response message. |
 | [OutOfOfficeMailTip](../com.aspose.email/outofofficemailtip) | Represents OOF mail tip |
 | [OutlookCategory](../com.aspose.email/outlookcategory) | Represents a category by which a user can group Outlook items such as messages and events. |
+| [OutlookCategoryColor](../com.aspose.email/outlookcategorycolor) | Represents the category colors used in Outlook. |
 | [OutlookMessageFormat](../com.aspose.email/outlookmessageformat) | Represents outlook message format. |
 | [PageInfo](../com.aspose.email/pageinfo) | Contains information about retrieved page when paging methods are used. |
 | [PageSettings](../com.aspose.email/pagesettings) | The settings for the ImapClient.ListMessagesByPage method |
@@ -611,6 +612,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [PropertyDataType](../com.aspose.email/propertydatatype) | [MS-OXCDATA]: Data Structures |
 | [PropertyDescriptor](../com.aspose.email/propertydescriptor) | Class contains property description information. |
 | [Proxy](../com.aspose.email/proxy) | Base proxy client. |
+| [PstItemCategory](../com.aspose.email/pstitemcategory) | Represents a category for PST items with a name and associated color. |
 | [QueryField](../com.aspose.email/queryfield) | Base class for query fields. |
 | [Range](../com.aspose.email/range) | Time range during which calendar should be regarded as busy. |
 | [RangeSeqSet](../com.aspose.email/rangeseqset) | Container with range of values to search. |
@@ -745,6 +747,7 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [VCardIdentificationInfo](../com.aspose.email/vcardidentificationinfo) | Represents vCard identification information |
 | [VCardLabel](../com.aspose.email/vcardlabel) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
 | [VCardLabelCollection](../com.aspose.email/vcardlabelcollection) | Represents a collection of VCardLabel |
+| [VCardLoadOptions](../com.aspose.email/vcardloadoptions) | This is class that allow the user to specify additional options when loading a VCardContact. |
 | [VCardOrganization](../com.aspose.email/vcardorganization) | Represents vCard organization properties |
 | [VCardPhoto](../com.aspose.email/vcardphoto) | Represents vCard photo property |
 | [VCardPhotoType](../com.aspose.email/vcardphototype) | Enumerates vCard photo type |

@@ -3,7 +3,7 @@ title: PhoneNumberList
 second_title: Aspose.Email for Java API Reference
 description: List of phone numbers for a contact.
 type: docs
-weight: 579
+weight: 580
 url: /java/com.aspose.email/phonenumberlist/
 ---
 

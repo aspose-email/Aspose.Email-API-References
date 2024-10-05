@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook.
 type: docs
-weight: 573
+weight: 574
 url: /java/com.aspose.email/personalstorage/
 ---
 
@@ -112,6 +112,7 @@ Example:
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Load PST from stream. |
 | [fromStream(InputStream stream, boolean writable)](#fromStream-java.io.InputStream-boolean-) | Load PST from stream. |
 | [fromStream(InputStream stream, PersonalStorageLoadOptions loadOptions)](#fromStream-java.io.InputStream-com.aspose.email.PersonalStorageLoadOptions-) | Load PST from stream. |
+| [getCategories()](#getCategories--) | Retrieves a list of PST item categories, each containing a name and associated color. |
 | [getClass()](#getClass--) |  |
 | [getFolderById(byte[] entryId)](#getFolderById-byte---) | Gets the personal folder from PST. |
 | [getFolderById(String entryIdString)](#getFolderById-java.lang.String-) | Gets the personal folder from PST. |
@@ -794,6 +795,16 @@ Load PST from stream.
 
 **Returns:**
 [PersonalStorage](../../com.aspose.email/personalstorage) - A PersonalStorage object that represents the current PST.
+### getCategories() {#getCategories--}
+```
+public final List<PstItemCategory> getCategories()
+```
+
+
+Retrieves a list of PST item categories, each containing a name and associated color.
+
+**Returns:**
+java.util.List<com.aspose.email.PstItemCategory> - A  List\{PstItemCategory\}  containing all the available categories. The list will be non-empty if there is at least one item in the store that has the category assigned to it. If no categories are found or an error occurs, the list may be empty.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: VCardFullName
 second_title: Aspose.Email for Java API Reference
 description: Represents vCard contact full name N property
 type: docs
-weight: 727
+weight: 729
 url: /java/com.aspose.email/vcardfullname/
 ---
 

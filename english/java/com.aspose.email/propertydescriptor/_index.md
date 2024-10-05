@@ -3,7 +3,7 @@ title: PropertyDescriptor
 second_title: Aspose.Email for Java API Reference
 description: Class contains property description information.
 type: docs
-weight: 598
+weight: 599
 url: /java/com.aspose.email/propertydescriptor/
 ---
 
