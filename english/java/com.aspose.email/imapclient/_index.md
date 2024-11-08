@@ -27,8 +27,6 @@ Allows applications to access and manipulate messages by using the Internet Mess
 | [ImapClient(String host, String username, String password, int securityOptions)](#ImapClient-java.lang.String-java.lang.String-java.lang.String-int-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
 | [ImapClient(String host, int port, String username, String password)](#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
 | [ImapClient(String host, int port, String username, String password, int securityOptions)](#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-int-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
-| [ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback)](#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
-| [ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions)](#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-int-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
 | [ImapClient(String host, String username, String authInfo, boolean useOAuth)](#ImapClient-java.lang.String-java.lang.String-java.lang.String-boolean-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
 | [ImapClient(String host, String username, String authInfo, boolean useOAuth, int securityOptions)](#ImapClient-java.lang.String-java.lang.String-java.lang.String-boolean-int-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
 | [ImapClient(String host, int port, String username, String authInfo, boolean useOAuth)](#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-boolean-) | Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class |
@@ -1651,41 +1649,6 @@ Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient
 | port | int | The port number |
 | username | java.lang.String | The user name |
 | password | java.lang.String | The password |
-| securityOptions | int | Security mode for a mail client |
-
-### ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback) {#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-}
-```
-public ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback)
-```
-
-
-Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| host | java.lang.String | The host name |
-| port | int | The portnumber |
-| username | java.lang.String | The user name |
-| password | java.lang.String | The password |
-| userCertificateValidationCallback | com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
-
-### ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions) {#ImapClient-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-int-}
-```
-public ImapClient(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions)
-```
-
-
-Initializes a new instance of the [ImapClient](../../com.aspose.email/imapclient) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| host | java.lang.String | The host name |
-| port | int | The portnumber |
-| username | java.lang.String | The user name |
-| password | java.lang.String | The password |
-| userCertificateValidationCallback | com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
 | securityOptions | int | Security mode for a mail client |
 
 ### ImapClient(String host, String username, String authInfo, boolean useOAuth) {#ImapClient-java.lang.String-java.lang.String-java.lang.String-boolean-}

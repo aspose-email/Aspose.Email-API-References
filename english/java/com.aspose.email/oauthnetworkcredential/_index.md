@@ -32,7 +32,7 @@ Represents the NetworkCredential for OAuth authentication.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAccessToken()](#getAccessToken--) | Gets OAuth 2.0 access token. |
 | [getClass()](#getClass--) |  |
-| [getCredential(System.Uri arg0, String arg1)](#getCredential-com.aspose.ms.System.Uri-java.lang.String-) |  |
+| [getCredential(System.Uri uri, String authType)](#getCredential-com.aspose.ms.System.Uri-java.lang.String-) |  |
 | [getCredential(String host, int port, String authenticationType)](#getCredential-java.lang.String-int-java.lang.String-) | \{@inheritDoc\} |
 | [getDomain()](#getDomain--) |  |
 | [getPassword()](#getPassword--) |  |
@@ -41,9 +41,9 @@ Represents the NetworkCredential for OAuth authentication.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDomain(String arg0)](#setDomain-java.lang.String-) |  |
-| [setPassword(String arg0)](#setPassword-java.lang.String-) |  |
-| [setUserName(String arg0)](#setUserName-java.lang.String-) |  |
+| [setDomain(String value)](#setDomain-java.lang.String-) |  |
+| [setPassword(String value)](#setPassword-java.lang.String-) |  |
+| [setUserName(String value)](#setUserName-java.lang.String-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -137,9 +137,9 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCredential(System.Uri arg0, String arg1) {#getCredential-com.aspose.ms.System.Uri-java.lang.String-}
+### getCredential(System.Uri uri, String authType) {#getCredential-com.aspose.ms.System.Uri-java.lang.String-}
 ```
-public System.Net.NetworkCredential getCredential(System.Uri arg0, String arg1)
+public System.Net.NetworkCredential getCredential(System.Uri uri, String authType)
 ```
 
 
@@ -148,8 +148,8 @@ public System.Net.NetworkCredential getCredential(System.Uri arg0, String arg1)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | com.aspose.ms.System.Uri |  |
-| arg1 | java.lang.String |  |
+| uri | com.aspose.ms.System.Uri |  |
+| authType | java.lang.String |  |
 
 **Returns:**
 com.aspose.ms.System.Net.NetworkCredential
@@ -236,22 +236,9 @@ public final native void notifyAll()
 
 
 
-### setDomain(String arg0) {#setDomain-java.lang.String-}
+### setDomain(String value) {#setDomain-java.lang.String-}
 ```
-public void setDomain(String arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.String |  |
-
-### setPassword(String arg0) {#setPassword-java.lang.String-}
-```
-public void setPassword(String arg0)
+public void setDomain(String value)
 ```
 
 
@@ -260,11 +247,11 @@ public void setPassword(String arg0)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | java.lang.String |  |
+| value | java.lang.String |  |
 
-### setUserName(String arg0) {#setUserName-java.lang.String-}
+### setPassword(String value) {#setPassword-java.lang.String-}
 ```
-public void setUserName(String arg0)
+public void setPassword(String value)
 ```
 
 
@@ -273,7 +260,20 @@ public void setUserName(String arg0)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | java.lang.String |  |
+| value | java.lang.String |  |
+
+### setUserName(String value) {#setUserName-java.lang.String-}
+```
+public void setUserName(String value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

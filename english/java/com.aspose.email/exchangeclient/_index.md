@@ -53,7 +53,6 @@ The ExchangeClient class allows applications to manage E-Mail box in Microsoft E
 | [getClass()](#getClass--) |  |
 | [getClientCertificate()](#getClientCertificate--) | Gets or sets the client certificate. |
 | [getContacts(String folderUri)](#getContacts-java.lang.String-) | Lists contacts located in the specified folder on server |
-| [getCookieContainer()](#getCookieContainer--) | Gets or sets the cookie container. |
 | [getCredentials()](#getCredentials--) | Gets or sets the credentials |
 | [getEncoding()](#getEncoding--) | Gets or sets the encoding. |
 | [getFolderInfo(String folderUri)](#getFolderInfo-java.lang.String-) | Gets the folder information. |
@@ -111,7 +110,6 @@ The ExchangeClient class allows applications to manage E-Mail box in Microsoft E
 | [send(MailMessage message)](#send-com.aspose.email.MailMessage-) | Sends the mail message. |
 | [setClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate value)](#setClientCertificate-com.aspose.ms.System.Security.Cryptography.X509Certificates.X509Certificate-) | Gets or sets the client certificate. |
 | [setCommonLogFileName(String value)](#setCommonLogFileName-java.lang.String-) | Sets log file name for all sessions. |
-| [setCookieContainer(System.Net.CookieContainer value)](#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-) | Gets or sets the cookie container. |
 | [setCredentials(System.Net.ICredentials value)](#setCredentials-com.aspose.ms.System.Net.ICredentials-) | Gets or sets the credentials |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Gets or sets the encoding. |
 | [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | Indicates whether to keep alive. |
@@ -505,18 +503,6 @@ Lists contacts located in the specified folder on server
 
 **Returns:**
 com.aspose.email.Contact[] - An array of read [Contact](../../com.aspose.email/contact) that represents contact information
-### getCookieContainer() {#getCookieContainer--}
-```
-public final System.Net.CookieContainer getCookieContainer()
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Returns:**
-com.aspose.ms.System.Net.CookieContainer
 ### getCredentials() {#getCredentials--}
 ```
 public System.Net.ICredentials getCredentials()
@@ -1273,21 +1259,6 @@ Sets log file name for all sessions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The log file name. |
-
-### setCookieContainer(System.Net.CookieContainer value) {#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-}
-```
-public final void setCookieContainer(System.Net.CookieContainer value)
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Net.CookieContainer |  |
 
 ### setCredentials(System.Net.ICredentials value) {#setCredentials-com.aspose.ms.System.Net.ICredentials-}
 ```
