@@ -3,7 +3,7 @@ title: VCardVersion
 second_title: Aspose.Email for Java API Reference
 description: Enumerates vCard version
 type: docs
-weight: 746
+weight: 752
 url: /java/com.aspose.email/vcardversion/
 ---
 

@@ -3,7 +3,7 @@ title: ThreadSearchConditions
 second_title: Aspose.Email for Java API Reference
 description: Provides the search conditions to retrieve email thread.
 type: docs
-weight: 694
+weight: 698
 url: /java/com.aspose.email/threadsearchconditions/
 ---
 

@@ -3,7 +3,7 @@ title: RestoredItemEntry
 second_title: Aspose.Email for Java API Reference
 description: Represents an entry for a soft-deleted item in the PST file containing the message and the folder Id it was in.
 type: docs
-weight: 628
+weight: 632
 url: /java/com.aspose.email/restoreditementry/
 ---
 

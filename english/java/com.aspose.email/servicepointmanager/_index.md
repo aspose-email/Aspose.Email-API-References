@@ -3,7 +3,7 @@ title: ServicePointManager
 second_title: Aspose.Email for Java API Reference
 description: Manages the collection of ServicePoint objects.
 type: docs
-weight: 652
+weight: 656
 url: /java/com.aspose.email/servicepointmanager/
 ---
 
@@ -29,6 +29,7 @@ Manages the collection of ServicePoint objects.
 | [getExpect100Continue()](#getExpect100Continue--) | Gets or sets a Boolean value that determines whether 100-Continue behavior is used. |
 | [getMaxServicePointIdleTime()](#getMaxServicePointIdleTime--) | Gets or sets the maximum idle time of a ServicePoint object. |
 | [getMaxServicePoints()](#getMaxServicePoints--) | Gets or sets the maximum number of ServicePoint objects to maintain at any time. |
+| [getSecurityProtocol()](#getSecurityProtocol--) |  |
 | [getUseNagleAlgorithm()](#getUseNagleAlgorithm--) | Determines whether the Nagle algorithm is used by the service points managed by this ServicePointManager object. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -37,6 +38,7 @@ Manages the collection of ServicePoint objects.
 | [setExpect100Continue(boolean value)](#setExpect100Continue-boolean-) | Gets or sets a Boolean value that determines whether 100-Continue behavior is used. |
 | [setMaxServicePointIdleTime(int value)](#setMaxServicePointIdleTime-int-) | Gets or sets the maximum idle time of a ServicePoint object. |
 | [setMaxServicePoints(int value)](#setMaxServicePoints-int-) | Gets or sets the maximum number of ServicePoint objects to maintain at any time. |
+| [setSecurityProtocol(int value)](#setSecurityProtocol-int-) |  |
 | [setTcpKeepAlive(boolean enabled, int keepAliveTime, int keepAliveInterval)](#setTcpKeepAlive-boolean-int-int-) | Enables or disables the keep-alive option on a TCP connection. |
 | [setUseNagleAlgorithm(boolean value)](#setUseNagleAlgorithm-boolean-) | Determines whether the Nagle algorithm is used by the service points managed by this ServicePointManager object. |
 | [toString()](#toString--) |  |
@@ -111,6 +113,16 @@ public static int getMaxServicePoints()
 
 
 Gets or sets the maximum number of ServicePoint objects to maintain at any time.
+
+**Returns:**
+int
+### getSecurityProtocol() {#getSecurityProtocol--}
+```
+public static int getSecurityProtocol()
+```
+
+
+
 
 **Returns:**
 int
@@ -196,6 +208,19 @@ public static void setMaxServicePoints(int value)
 
 
 Gets or sets the maximum number of ServicePoint objects to maintain at any time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSecurityProtocol(int value) {#setSecurityProtocol-int-}
+```
+public static void setSecurityProtocol(int value)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

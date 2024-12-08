@@ -3,7 +3,7 @@ title: SortConditions
 second_title: Aspose.Email for Java API Reference
 description: Provides the search conditions for the SORT extension.
 type: docs
-weight: 669
+weight: 673
 url: /java/com.aspose.email/sortconditions/
 ---
 

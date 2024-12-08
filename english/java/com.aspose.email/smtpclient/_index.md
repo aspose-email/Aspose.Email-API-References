@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 659
+weight: 663
 url: /java/com.aspose.email/smtpclient/
 ---
 
@@ -177,6 +177,7 @@ Allows applications to send messages by using the Simple Mail Transfer Protocol 
 | [setHelloMessage(String value)](#setHelloMessage-java.lang.String-) | Gets or sets a HELO/EHLO string. |
 | [setHost(String value)](#setHost-java.lang.String-) | Gets or sets the host name. |
 | [setLogFileName(String value)](#setLogFileName-java.lang.String-) | Gets or sets log file name |
+| [setLogFileName(String value, boolean showDebugLog)](#setLogFileName-java.lang.String-boolean-) | Gets or sets log file name |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Gets or sets the password. |
 | [setPickupDirectoryLocation(String value)](#setPickupDirectoryLocation-java.lang.String-) | Gets or sets the directory where applications save mail messages to be processed by the local SMTP server. |
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
@@ -2344,7 +2345,21 @@ Gets or sets log file name
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | Log file name |
+
+### setLogFileName(String value, boolean showDebugLog) {#setLogFileName-java.lang.String-boolean-}
+```
+public final void setLogFileName(String value, boolean showDebugLog)
+```
+
+
+Gets or sets log file name
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Log file name |
+| showDebugLog | boolean | Indicates whether debug log should be shown |
 
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```

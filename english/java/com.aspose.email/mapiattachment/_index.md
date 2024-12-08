@@ -91,6 +91,7 @@ Example:
 | [getSubStorages()](#getSubStorages--) | Gets the sub storages. |
 | [hashCode()](#hashCode--) |  |
 | [isInline()](#isInline--) | Gets a value indicating whether the attachment is inline or regular. |
+| [isReference()](#isReference--) | Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email. |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -472,6 +473,28 @@ public boolean isInline()
 
 
 Gets a value indicating whether the attachment is inline or regular. If inline returns true, otherwise false.
+
+**Returns:**
+boolean
+### isReference() {#isReference--}
+```
+public final boolean isReference()
+```
+
+
+Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email.
+
+Value:  true  if the attachment is stored as a reference; otherwise,  false .
+
+--------------------
+
+This property determines if the attachment is referenced by its file path or a web link based on the  PidTagAttachMethod  MAPI property. The following values indicate a reference-based attachment:
+
+ *   0x00000002  -  afByReference : The attachment is identified by a fully qualified file path, accessible to recipients with shared access to the file server.
+ *   0x00000004  -  afByReferenceOnly : The attachment is identified solely by its fully qualified file path.
+ *   0x00000007  -  afByWebReference : The attachment is identified by a web link, with the  PidNameAttachmentProviderType  specifying the web service API handling the attachment.
+
+If the attachment does not match these criteria, this property returns  false .
 
 **Returns:**
 boolean

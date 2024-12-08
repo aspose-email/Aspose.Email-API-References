@@ -3,7 +3,7 @@ title: TokenProvider
 second_title: Aspose.Email for Java API Reference
 description: Class TokenProvider allows to retrieve access token for mail services.
 type: docs
-weight: 700
+weight: 704
 url: /java/com.aspose.email/tokenprovider/
 ---
 

@@ -3,7 +3,7 @@ title: IMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents a common message interface
 type: docs
-weight: 772
+weight: 778
 url: /java/com.aspose.email/imessage/
 ---
 ```

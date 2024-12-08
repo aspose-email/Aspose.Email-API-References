@@ -32,6 +32,7 @@ Provides the ability to set and handle follow-up Outlook flags and categories. S
 | [getCategories(MapiMessageItemBase message)](#getCategories-com.aspose.email.MapiMessageItemBase-) | Get the available message categories. |
 | [getClass()](#getClass--) |  |
 | [getOptions(MapiMessageItemBase message)](#getOptions-com.aspose.email.MapiMessageItemBase-) | Gets the follow-up options of a message. |
+| [getReactions(MapiMessageItemBase message)](#getReactions-com.aspose.email.MapiMessageItemBase-) | Get the available message reactions. |
 | [getVotingButtons(MapiMessageItemBase message)](#getVotingButtons-com.aspose.email.MapiMessageItemBase-) | Get the available message voting buttons. |
 | [getVotingButtonsArray(MapiMessageItemBase message)](#getVotingButtonsArray-com.aspose.email.MapiMessageItemBase-) | Get the available message voting buttons. |
 | [hashCode()](#hashCode--) |  |
@@ -177,6 +178,21 @@ Gets the follow-up options of a message.
 
 **Returns:**
 [FollowUpOptions](../../com.aspose.email/followupoptions) - The [FollowUpOptions](../../com.aspose.email/followupoptions) that represents options for using follow-up flags, reminders, category and voting buttons.
+### getReactions(MapiMessageItemBase message) {#getReactions-com.aspose.email.MapiMessageItemBase-}
+```
+public static System.Collections.Generic.IGenericList<UserReaction> getReactions(MapiMessageItemBase message)
+```
+
+
+Get the available message reactions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) | The [MapiMessageItemBase](../../com.aspose.email/mapimessageitembase) in which the categories are added. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericList<com.aspose.email.UserReaction> - The list of added reactions
 ### getVotingButtons(MapiMessageItemBase message) {#getVotingButtons-com.aspose.email.MapiMessageItemBase-}
 ```
 public static System.Collections.IList getVotingButtons(MapiMessageItemBase message)

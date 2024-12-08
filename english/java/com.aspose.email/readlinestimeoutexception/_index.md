@@ -3,7 +3,7 @@ title: ReadLinesTimeoutException
 second_title: Aspose.Email for Java API Reference
 description: Represents the exception that is thrown when a response from server can not be read within the specified time.
 type: docs
-weight: 603
+weight: 606
 url: /java/com.aspose.email/readlinestimeoutexception/
 ---
 

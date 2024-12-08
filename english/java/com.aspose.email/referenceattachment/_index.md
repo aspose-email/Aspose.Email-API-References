@@ -3,7 +3,7 @@ title: ReferenceAttachment
 second_title: Aspose.Email for Java API Reference
 description: This class represents a reference attachment
 type: docs
-weight: 608
+weight: 611
 url: /java/com.aspose.email/referenceattachment/
 ---
 

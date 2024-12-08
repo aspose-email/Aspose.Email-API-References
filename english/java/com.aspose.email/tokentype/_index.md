@@ -3,7 +3,7 @@ title: TokenType
 second_title: Aspose.Email for Java API Reference
 description: Defines OAuth token types
 type: docs
-weight: 701
+weight: 705
 url: /java/com.aspose.email/tokentype/
 ---
 
