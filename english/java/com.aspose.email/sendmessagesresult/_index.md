@@ -3,7 +3,7 @@ title: SendMessagesResult
 second_title: Aspose.Email for Java API Reference
 description: Contains result of operation with messages
 type: docs
-weight: 646
+weight: 650
 url: /java/com.aspose.email/sendmessagesresult/
 ---
 

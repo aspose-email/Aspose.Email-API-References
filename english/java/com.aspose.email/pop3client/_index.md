@@ -3,7 +3,7 @@ title: Pop3Client
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to access and manipulate  messages by using the Post Office Protocol Version 3 POP3.
 type: docs
-weight: 585
+weight: 586
 url: /java/com.aspose.email/pop3client/
 ---
 
@@ -29,8 +29,6 @@ Allows applications to access and manipulate messages by using the Post Office P
 | [Pop3Client(String host, int port, String username, String password, int securityOptions)](#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-int-) | Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class |
 | [Pop3Client(String host, int port, String username, String authInfo, boolean useOAuth, int securityOptions)](#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-boolean-int-) | Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class |
 | [Pop3Client(String host, int port, String username, ITokenProvider tokenProvider, int securityOptions)](#Pop3Client-java.lang.String-int-java.lang.String-com.aspose.email.ITokenProvider-int-) | Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class |
-| [Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback)](#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-) | Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class |
-| [Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions)](#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-int-) | Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class |
 ## Methods
 
 | Method | Description |
@@ -358,6 +356,7 @@ Allows applications to access and manipulate messages by using the Post Office P
 | [setGreetingTimeout(int value)](#setGreetingTimeout-int-) | Gets or sets the greeting timeout that is used when establishing a connection. |
 | [setHost(String value)](#setHost-java.lang.String-) | Gets or sets the host name. |
 | [setLogFileName(String value)](#setLogFileName-java.lang.String-) | Gets or sets log file name |
+| [setLogFileName(String value, boolean showDebugLog)](#setLogFileName-java.lang.String-boolean-) | Gets or sets log file name |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Gets or sets the password. |
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
 | [setProxy(Proxy value)](#setProxy-com.aspose.email.Proxy-) | Gets or sets proxy for the client |
@@ -546,41 +545,6 @@ Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client
 | port | int | The port number |
 | username | java.lang.String | The user name |
 | tokenProvider | [ITokenProvider](../../com.aspose.email/itokenprovider) | TokenProvider allowing to retrieve access token. |
-| securityOptions | int | Security mode for a mail client |
-
-### Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback) {#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-}
-```
-public Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback)
-```
-
-
-Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| host | java.lang.String | The host name |
-| port | int | The port number |
-| username | java.lang.String | The username |
-| password | java.lang.String | The password |
-| userCertificateValidationCallback | com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
-
-### Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions) {#Pop3Client-java.lang.String-int-java.lang.String-java.lang.String-com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback-int-}
-```
-public Pop3Client(String host, int port, String username, String password, System.Net.Security.RemoteCertificateValidationCallback userCertificateValidationCallback, int securityOptions)
-```
-
-
-Initializes a new instance of the [Pop3Client](../../com.aspose.email/pop3client) class
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| host | java.lang.String | The host name |
-| port | int | The port number |
-| username | java.lang.String | The username |
-| password | java.lang.String | The password |
-| userCertificateValidationCallback | com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback | System.Net.Security.RemoteCertificateValidationCallback |
 | securityOptions | int | Security mode for a mail client |
 
 ### beginCommitDeletes() {#beginCommitDeletes--}
@@ -5540,7 +5504,21 @@ Gets or sets log file name
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | Log file name |
+
+### setLogFileName(String value, boolean showDebugLog) {#setLogFileName-java.lang.String-boolean-}
+```
+public final void setLogFileName(String value, boolean showDebugLog)
+```
+
+
+Gets or sets log file name
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Log file name |
+| showDebugLog | boolean | Indicates whether debug log should be shown |
 
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```

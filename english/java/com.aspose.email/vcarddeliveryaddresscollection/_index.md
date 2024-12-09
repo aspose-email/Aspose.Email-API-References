@@ -3,7 +3,7 @@ title: VCardDeliveryAddressCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of VCardDeliveryAddresses
 type: docs
-weight: 721
+weight: 726
 url: /java/com.aspose.email/vcarddeliveryaddresscollection/
 ---
 

@@ -3,7 +3,7 @@ title: SecureEmailManager
 second_title: Aspose.Email for Java API Reference
 description: Class that provided methods for working with secure emails.
 type: docs
-weight: 642
+weight: 646
 url: /java/com.aspose.email/secureemailmanager/
 ---
 

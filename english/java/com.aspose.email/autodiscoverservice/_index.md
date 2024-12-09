@@ -38,7 +38,6 @@ Represents a binding to the Exchange Autodiscover Service.
 | [getClass()](#getClass--) |  |
 | [getClientRequestId()](#getClientRequestId--) | Gets or sets the request id for the request. |
 | [getConnectionGroupName()](#getConnectionGroupName--) | Gets or sets the name of the connection group for the request. |
-| [getCookieContainer()](#getCookieContainer--) | Gets or sets the cookie container. |
 | [getCredentials()](#getCredentials--) | Gets or sets the credentials used to authenticate with the Exchange Web Services. |
 | [getDomain()](#getDomain--) | Gets or sets the domain this service is bound to. |
 | [getEnableScpLookup()](#getEnableScpLookup--) | Gets or sets a value indicating whether the AutodiscoverService should perform SCP (ServiceConnectionPoint) record lookup when determining the Autodiscover service URL. |
@@ -67,7 +66,6 @@ Represents a binding to the Exchange Autodiscover Service.
 | [setAcceptGzipEncoding(boolean value)](#setAcceptGzipEncoding-boolean-) | Gets or sets a value indicating whether GZip compression encoding should be accepted. |
 | [setClientRequestId(String value)](#setClientRequestId-java.lang.String-) | Gets or sets the request id for the request. |
 | [setConnectionGroupName(String value)](#setConnectionGroupName-java.lang.String-) | Gets or sets the name of the connection group for the request. |
-| [setCookieContainer(System.Net.CookieContainer value)](#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-) | Gets or sets the cookie container. |
 | [setCredentials(System.Net.ICredentials value)](#setCredentials-com.aspose.ms.System.Net.ICredentials-) | Gets or sets the credentials used to authenticate with the Exchange Web Services. |
 | [setDomain(String value)](#setDomain-java.lang.String-) | Gets or sets the domain this service is bound to. |
 | [setEnableScpLookup(boolean value)](#setEnableScpLookup-boolean-) | Gets or sets a value indicating whether the AutodiscoverService should perform SCP (ServiceConnectionPoint) record lookup when determining the Autodiscover service URL. |
@@ -227,18 +225,6 @@ Gets or sets the name of the connection group for the request.
 
 **Returns:**
 java.lang.String
-### getCookieContainer() {#getCookieContainer--}
-```
-public final System.Net.CookieContainer getCookieContainer()
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Returns:**
-com.aspose.ms.System.Net.CookieContainer
 ### getCredentials() {#getCredentials--}
 ```
 public final System.Net.ICredentials getCredentials()
@@ -553,21 +539,6 @@ Gets or sets the name of the connection group for the request.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setCookieContainer(System.Net.CookieContainer value) {#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-}
-```
-public final void setCookieContainer(System.Net.CookieContainer value)
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Net.CookieContainer |  |
 
 ### setCredentials(System.Net.ICredentials value) {#setCredentials-com.aspose.ms.System.Net.ICredentials-}
 ```

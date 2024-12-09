@@ -3,7 +3,7 @@ title: PhoneCallState
 second_title: Aspose.Email for Java API Reference
 description: Phone call statuses.
 type: docs
-weight: 576
+weight: 577
 url: /java/com.aspose.email/phonecallstate/
 ---
 

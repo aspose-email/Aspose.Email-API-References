@@ -3,7 +3,7 @@ title: VCardContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a vCard contact
 type: docs
-weight: 719
+weight: 724
 url: /java/com.aspose.email/vcardcontact/
 ---
 
@@ -45,8 +45,10 @@ Represents a vCard contact
 | [load(String filePath)](#load-java.lang.String-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [load(String filePath, Charset encoding)](#load-java.lang.String-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [loadAsMultiple(InputStream stream)](#loadAsMultiple-java.io.InputStream-) | Loads list of contacts from multi contact stream. |
+| [loadAsMultiple(InputStream stream, VCardLoadOptions options)](#loadAsMultiple-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Loads list of contacts from multi contact stream. |
 | [loadAsMultiple(InputStream stream, Charset encoding)](#loadAsMultiple-java.io.InputStream-java.nio.charset.Charset-) | Loads list of contacts from multi contact stream. |
 | [loadAsMultiple(String filePath)](#loadAsMultiple-java.lang.String-) | Loads list of contacts from multi contact file. |
+| [loadAsMultiple(String filePath, VCardLoadOptions options)](#loadAsMultiple-java.lang.String-com.aspose.email.VCardLoadOptions-) |  |
 | [loadAsMultiple(String filePath, Charset encoding)](#loadAsMultiple-java.lang.String-java.nio.charset.Charset-) | Loads list of contacts from multi contact file. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -342,6 +344,22 @@ Loads list of contacts from multi contact stream.
 
 **Returns:**
 java.util.List<com.aspose.email.VCardContact> - List of contacs
+### loadAsMultiple(InputStream stream, VCardLoadOptions options) {#loadAsMultiple-java.io.InputStream-com.aspose.email.VCardLoadOptions-}
+```
+public static List<VCardContact> loadAsMultiple(InputStream stream, VCardLoadOptions options)
+```
+
+
+Loads list of contacts from multi contact stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Source stream |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+
+**Returns:**
+java.util.List<com.aspose.email.VCardContact> - List of contacts
 ### loadAsMultiple(InputStream stream, Charset encoding) {#loadAsMultiple-java.io.InputStream-java.nio.charset.Charset-}
 ```
 public static List<VCardContact> loadAsMultiple(InputStream stream, Charset encoding)
@@ -357,7 +375,7 @@ Loads list of contacts from multi contact stream.
 | encoding | java.nio.charset.Charset | Stream data encoding,if null then UTF8 will be used. |
 
 **Returns:**
-java.util.List<com.aspose.email.VCardContact> - List of contacs
+java.util.List<com.aspose.email.VCardContact> - List of contacts
 ### loadAsMultiple(String filePath) {#loadAsMultiple-java.lang.String-}
 ```
 public static List<VCardContact> loadAsMultiple(String filePath)
@@ -372,7 +390,23 @@ Loads list of contacts from multi contact file.
 | filePath | java.lang.String | Source file |
 
 **Returns:**
-java.util.List<com.aspose.email.VCardContact> - 
+java.util.List<com.aspose.email.VCardContact> - List of contacts
+### loadAsMultiple(String filePath, VCardLoadOptions options) {#loadAsMultiple-java.lang.String-com.aspose.email.VCardLoadOptions-}
+```
+public static List<VCardContact> loadAsMultiple(String filePath, VCardLoadOptions options)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Source file |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+
+**Returns:**
+java.util.List<com.aspose.email.VCardContact> - List of contacts
 ### loadAsMultiple(String filePath, Charset encoding) {#loadAsMultiple-java.lang.String-java.nio.charset.Charset-}
 ```
 public static List<VCardContact> loadAsMultiple(String filePath, Charset encoding)
@@ -388,7 +422,7 @@ Loads list of contacts from multi contact file.
 | encoding | java.nio.charset.Charset | File data encoding,if null then UTF8 will be used. |
 
 **Returns:**
-java.util.List<com.aspose.email.VCardContact> - 
+java.util.List<com.aspose.email.VCardContact> - List of contacts
 ### notify() {#notify--}
 ```
 public final native void notify()

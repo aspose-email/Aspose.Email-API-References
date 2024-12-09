@@ -70,6 +70,7 @@ Represents the client that creates server connection by using the host credentia
 | [setGreetingTimeout(int value)](#setGreetingTimeout-int-) | Gets or sets the greeting timeout that is used when establishing a connection. |
 | [setHost(String value)](#setHost-java.lang.String-) | Gets or sets the host name. |
 | [setLogFileName(String value)](#setLogFileName-java.lang.String-) | Gets or sets log file name |
+| [setLogFileName(String value, boolean showDebugLog)](#setLogFileName-java.lang.String-boolean-) | Gets or sets log file name |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Gets or sets the password. |
 | [setPort(int value)](#setPort-int-) | Gets or sets the port. |
 | [setProxy(Proxy value)](#setProxy-com.aspose.email.Proxy-) | Gets or sets proxy for the client |
@@ -636,7 +637,21 @@ Gets or sets log file name
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | Log file name |
+
+### setLogFileName(String value, boolean showDebugLog) {#setLogFileName-java.lang.String-boolean-}
+```
+public final void setLogFileName(String value, boolean showDebugLog)
+```
+
+
+Gets or sets log file name
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Log file name |
+| showDebugLog | boolean | Indicates whether debug log should be shown |
 
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
