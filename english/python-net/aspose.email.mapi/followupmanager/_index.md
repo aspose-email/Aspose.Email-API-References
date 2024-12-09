@@ -25,6 +25,7 @@ The FollowUpManager type exposes the following members:
 |remove_category(message, category_name)|  |
 |clear_categories(message)|  |
 |get_categories(message)|  |
+|get_reactions(message)|  |
 |add_voting_button(message, display_name)|  |
 |clear_voting_buttons(message)|  |
 |remove_voting_button(message, display_name)|  |

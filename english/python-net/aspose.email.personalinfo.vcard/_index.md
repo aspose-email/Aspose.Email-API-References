@@ -25,6 +25,7 @@ the aspose.email.personalinfo.vcard namespace contains classes for work with vca
 |[VCardIdentificationInfo](/email/python-net/aspose.email.personalinfo.vcard/vcardidentificationinfo/)|Represents vCard identification information|
 |[VCardLabel](/email/python-net/aspose.email.personalinfo.vcard/vcardlabel/)|To specify the formatted text corresponding to delivery address of the object the vCard represents.|
 |[VCardLabelCollection](/email/python-net/aspose.email.personalinfo.vcard/vcardlabelcollection/)|Represents a collection of VCardLabel|
+|[VCardLoadOptions](/email/python-net/aspose.email.personalinfo.vcard/vcardloadoptions/)|This is class that allow the user to specify additional options when loading a VCardContact.|
 |[VCardOrganization](/email/python-net/aspose.email.personalinfo.vcard/vcardorganization/)|Represents vCard organization properties|
 |[VCardPhoto](/email/python-net/aspose.email.personalinfo.vcard/vcardphoto/)|Represents vCard photo property|
 |[VCardSaveOptions](/email/python-net/aspose.email.personalinfo.vcard/vcardsaveoptions/)|Represents vCard save options|

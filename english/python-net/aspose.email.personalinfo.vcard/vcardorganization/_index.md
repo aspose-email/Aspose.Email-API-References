@@ -3,7 +3,7 @@ title: VCardOrganization
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.email.personalinfo.vcard/vcardorganization/
 ---
 

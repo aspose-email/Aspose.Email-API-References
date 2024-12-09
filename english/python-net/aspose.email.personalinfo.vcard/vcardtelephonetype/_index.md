@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.email.personalinfo.vcard/vcardtelephonetype/
 ---
 

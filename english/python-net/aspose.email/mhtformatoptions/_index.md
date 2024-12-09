@@ -3,7 +3,7 @@ title: MhtFormatOptions
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 5250
 url: /python-net/aspose.email/mhtformatoptions/
 ---
 

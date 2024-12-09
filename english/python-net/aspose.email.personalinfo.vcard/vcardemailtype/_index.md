@@ -3,7 +3,7 @@ title: VCardEmailType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.email.personalinfo.vcard/vcardemailtype/
 ---
 

@@ -69,6 +69,7 @@ The PersonalStorage type exposes the following members:
 |find_messages(parent_entry_id)|  |
 |find_and_extract_soft_deleted_items()|  |
 |get_predefined_folder(default_folder)|  |
+|get_categories()|  |
 |change_message(entry_id, updated_properties)|  |
 
 ### See Also
