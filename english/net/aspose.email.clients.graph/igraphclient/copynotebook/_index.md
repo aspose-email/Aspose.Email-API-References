@@ -3,7 +3,7 @@ title: IGraphClient.CopyNotebook
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Copies a notebook to the Notebooks folder in the destination Documents library. The folder is created if it doesnt exist. For Copy operations you follow an asynchronous calling pattern First call the Copy action and then poll the operation endpoint for the result. Permissions One of the following permissions is required to call this API. Delegatedwork or school account Notes.Create Notes.ReadWrite Notes.ReadWrite.All Delegatedpersonal Microsoft account Notes.Create Notes.ReadWrite Application Notes.ReadWrite.All
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.clients.graph/igraphclient/copynotebook/
 ---
 ## IGraphClient.CopyNotebook method

@@ -3,7 +3,7 @@ title: Delegate TraversalExceptionsCallback
 second_title: Aspose.Email for .NET API Reference
 description: Represents the callback method that handles the exceptions during storage traversal
 type: docs
-weight: 17510
+weight: 17520
 url: /net/aspose.email.exceptions/traversalexceptionscallback/
 ---
 ## TraversalExceptionsCallback delegate

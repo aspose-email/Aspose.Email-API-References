@@ -3,7 +3,7 @@ title: Class ComparisonFieldAdapter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ComparisonFieldAdapter class. Implements adapter for using ComparisonField according to their type
 type: docs
-weight: 3120
+weight: 3130
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/
 ---
 ## ComparisonFieldAdapter class

@@ -3,7 +3,7 @@ title: Delegate AutodiscoverRedirectionUrlValidationCallback
 second_title: Aspose.Email for .NET API Reference
 description: Defines a delegate that is used by the AutodiscoverService to ask whether a redirectionUrl can be used
 type: docs
-weight: 3060
+weight: 3070
 url: /net/aspose.email.clients.exchange/autodiscoverredirectionurlvalidationcallback/
 ---
 ## AutodiscoverRedirectionUrlValidationCallback delegate

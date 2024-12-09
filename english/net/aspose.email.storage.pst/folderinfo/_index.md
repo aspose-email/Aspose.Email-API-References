@@ -3,7 +3,7 @@ title: Class FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderInfo class. Represents information about personal folder in PST
 type: docs
-weight: 20450
+weight: 20490
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -56,7 +56,10 @@ public sealed class FolderInfo
 | [EnumerateFolders](../../aspose.email.storage.pst/folderinfo/enumeratefolders/#enumeratefolders_1)(FolderKind) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
 | [EnumerateMapiMessages](../../aspose.email.storage.pst/folderinfo/enumeratemapimessages/)() | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [EnumerateMessageObjects](../../aspose.email.storage.pst/folderinfo/enumeratemessageobjects/)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/#enumeratemessages)() | Retrieves [`MessageInfo`](../messageinfo/) objects from the folder. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/#enumeratemessages_2)(MailQuery) | Retrieves a collection of [`MessageInfo`](../messageinfo/) objects that match the specified query. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/#enumeratemessages_1)(MessageKind) | Retrieves a collection of [`MessageInfo`](../messageinfo/) objects of the specified kind. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/#enumeratemessages_3)(int, int) | Retrieves a collection of [`MessageInfo`](../messageinfo/) objects starting from a specific index and limited to a specified count. |
 | [EnumerateMessagesEntryId](../../aspose.email.storage.pst/folderinfo/enumeratemessagesentryid/)() | Enumerates the entryID of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents)() | Get collection of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_3)(bool) | Get collection of messages. |

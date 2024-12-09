@@ -3,7 +3,7 @@ title: IGraphClient.ListCategories
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Get all the categories that have been defined for the user
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email.clients.graph/igraphclient/listcategories/
 ---
 ## IGraphClient.ListCategories method

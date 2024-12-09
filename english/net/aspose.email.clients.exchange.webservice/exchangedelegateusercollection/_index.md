@@ -3,7 +3,7 @@ title: Class ExchangeDelegateUserCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeDelegateUserCollection class. Represents the collection of ExchangeDelegateUser
 type: docs
-weight: 3800
+weight: 3810
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateusercollection/
 ---
 ## ExchangeDelegateUserCollection class

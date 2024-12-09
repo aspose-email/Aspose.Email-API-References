@@ -3,7 +3,7 @@ title: Class MapiAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiAttachment class. 
 type: docs
-weight: 17990
+weight: 18000
 url: /net/aspose.email.mapi/mapiattachment/
 ---
 ## MapiAttachment class
@@ -23,6 +23,7 @@ public class MapiAttachment : MapiPropertyContainer
 | [Extension](../../aspose.email.mapi/mapiattachment/extension/) { get; } | Gets a filename extension that indicates the document type of an attachment. |
 | [FileName](../../aspose.email.mapi/mapiattachment/filename/) { get; } | Gets an attachment's base filename and extension, excluding path. |
 | virtual [IsInline](../../aspose.email.mapi/mapiattachment/isinline/) { get; } | Gets a value indicating whether the attachment is inline or regular. If inline returns true, otherwise false. |
+| [IsReference](../../aspose.email.mapi/mapiattachment/isreference/) { get; } | Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email. |
 | virtual [ItemId](../../aspose.email.mapi/mapiattachment/itemid/) { get; } | The item id, uses with a server |
 | [LongFileName](../../aspose.email.mapi/mapiattachment/longfilename/) { get; } | Gets an attachment's long filename and extension, excluding path. |
 | [MimeTag](../../aspose.email.mapi/mapiattachment/mimetag/) { get; } | Gets formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment. |

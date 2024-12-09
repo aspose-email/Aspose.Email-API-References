@@ -3,7 +3,7 @@ title: Class NewStorageEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.NewStorageEventArgs class. Represents arguments used in events that are raised after a new storage file is created or after it is processed
 type: docs
-weight: 20330
+weight: 20370
 url: /net/aspose.email.storage/newstorageeventargs/
 ---
 ## NewStorageEventArgs class

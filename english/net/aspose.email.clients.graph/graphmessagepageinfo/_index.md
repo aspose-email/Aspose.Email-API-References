@@ -3,7 +3,7 @@ title: Class GraphMessagePageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.GraphMessagePageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 15970
+weight: 15980
 url: /net/aspose.email.clients.graph/graphmessagepageinfo/
 ---
 ## GraphMessagePageInfo class

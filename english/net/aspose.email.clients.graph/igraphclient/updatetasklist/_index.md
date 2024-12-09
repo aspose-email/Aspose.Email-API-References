@@ -3,7 +3,7 @@ title: IGraphClient.UpdateTaskList
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates TaskList
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.email.clients.graph/igraphclient/updatetasklist/
 ---
 ## IGraphClient.UpdateTaskList method

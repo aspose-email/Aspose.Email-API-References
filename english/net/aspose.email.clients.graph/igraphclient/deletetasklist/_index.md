@@ -3,7 +3,7 @@ title: IGraphClient.DeleteTaskList
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Delete TaskList
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.email.clients.graph/igraphclient/deletetasklist/
 ---
 ## IGraphClient.DeleteTaskList method

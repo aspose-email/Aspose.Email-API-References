@@ -3,7 +3,7 @@ title: Class ExchangeClientBase
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeClientBase class. Provides the abstract base class to MS Exchange Server access
 type: docs
-weight: 3240
+weight: 3250
 url: /net/aspose.email.clients.exchange/exchangeclientbase/
 ---
 ## ExchangeClientBase class

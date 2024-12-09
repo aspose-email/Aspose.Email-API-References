@@ -3,7 +3,7 @@ title: SendGridClient.Send
 second_title: Aspose.Email for .NET API Reference
 description: SendGridClient method. Sends email synchronously
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/send/
 ---
 ## SendGridClient.Send method

@@ -3,7 +3,7 @@ title: FollowUpManager.GetVotingButtons
 second_title: Aspose.Email for .NET API Reference
 description: FollowUpManager method. Get the available message voting buttons
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.email.mapi/followupmanager/getvotingbuttons/
 ---
 ## FollowUpManager.GetVotingButtons method

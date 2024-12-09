@@ -3,7 +3,7 @@ title: Class OAuthNetworkCredential
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.OAuthNetworkCredential class. Represents the NetworkCredential for OAuth authentication
 type: docs
-weight: 16900
+weight: 16910
 url: /net/aspose.email.clients/oauthnetworkcredential/
 ---
 ## OAuthNetworkCredential class

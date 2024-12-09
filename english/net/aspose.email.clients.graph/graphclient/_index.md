@@ -3,7 +3,7 @@ title: Class GraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.GraphClient class. Provides access to MS Exchange Server Office365 by using REST API
 type: docs
-weight: 15960
+weight: 15970
 url: /net/aspose.email.clients.graph/graphclient/
 ---
 ## GraphClient class
@@ -18,6 +18,7 @@ public abstract class GraphClient : IDisposable
 
 | Name | Description |
 | --- | --- |
+| virtual [EndPoint](../../aspose.email.clients.graph/graphclient/endpoint/) { get; set; } | Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com". |
 | virtual [MultipleServicesTokenProvider](../../aspose.email.clients.graph/graphclient/multipleservicestokenprovider/) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
 | virtual [Proxy](../../aspose.email.clients.graph/graphclient/proxy/) { get; set; } | Gets or sets data to proxy access to Exchange server. |
 | virtual [Resource](../../aspose.email.clients.graph/graphclient/resource/) { get; set; } | Gets or sets resource type. |

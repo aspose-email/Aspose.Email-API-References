@@ -3,7 +3,7 @@ title: MapiAttachment.ObjectData
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets an attachment object typically accessed through the OLE IStorage interface
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.mapi/mapiattachment/objectdata/
 ---
 ## MapiAttachment.ObjectData property

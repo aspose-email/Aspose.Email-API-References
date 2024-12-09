@@ -3,7 +3,7 @@ title: Enum ExchangeConversationFlagStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeConversationFlagStatus enum. Enumerates the flag status for conversation
 type: docs
-weight: 3750
+weight: 3760
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversationflagstatus/
 ---
 ## ExchangeConversationFlagStatus enumeration

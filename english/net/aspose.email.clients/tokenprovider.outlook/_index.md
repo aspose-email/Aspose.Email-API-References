@@ -3,7 +3,7 @@ title: Class TokenProvider.Outlook
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.TokenProviderOutlook class. Provides an instance of the TokenProvider for Outlook mail server
 type: docs
-weight: 17240
+weight: 17250
 url: /net/aspose.email.clients/tokenprovider.outlook/
 ---
 ## TokenProvider.Outlook class

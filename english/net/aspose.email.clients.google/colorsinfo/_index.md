@@ -3,7 +3,7 @@ title: Class ColorsInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ColorsInfo class. Contains colors definition for calendars and events
 type: docs
-weight: 15660
+weight: 15670
 url: /net/aspose.email.clients.google/colorsinfo/
 ---
 ## ColorsInfo class

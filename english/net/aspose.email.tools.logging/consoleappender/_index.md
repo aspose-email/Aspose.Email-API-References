@@ -3,7 +3,7 @@ title: Class ConsoleAppender
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.ConsoleAppender class. Represents an appender for console output
 type: docs
-weight: 20770
+weight: 20830
 url: /net/aspose.email.tools.logging/consoleappender/
 ---
 ## ConsoleAppender class

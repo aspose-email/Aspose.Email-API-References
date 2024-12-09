@@ -3,7 +3,7 @@ title: Class ReplyBody
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ReplyBody class. Represents the OOF message response
 type: docs
-weight: 4120
+weight: 4130
 url: /net/aspose.email.clients.exchange.webservice/replybody/
 ---
 ## ReplyBody class

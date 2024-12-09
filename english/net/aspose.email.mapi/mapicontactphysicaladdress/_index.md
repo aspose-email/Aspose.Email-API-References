@@ -3,7 +3,7 @@ title: Class MapiContactPhysicalAddress
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactPhysicalAddress class. Refers to the group of properties that define physical address for a contact
 type: docs
-weight: 18430
+weight: 18440
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/
 ---
 ## MapiContactPhysicalAddress class

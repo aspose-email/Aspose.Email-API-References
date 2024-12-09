@@ -3,7 +3,7 @@ title: Enum UserSettingName
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.UserSettingName enum. User settings that can be requested using GetUserSettings
 type: docs
-weight: 3600
+weight: 3610
 url: /net/aspose.email.clients.exchange/usersettingname/
 ---
 ## UserSettingName enumeration

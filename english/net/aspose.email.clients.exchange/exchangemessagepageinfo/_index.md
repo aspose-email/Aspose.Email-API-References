@@ -3,7 +3,7 @@ title: Class ExchangeMessagePageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeMessagePageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 3420
+weight: 3430
 url: /net/aspose.email.clients.exchange/exchangemessagepageinfo/
 ---
 ## ExchangeMessagePageInfo class

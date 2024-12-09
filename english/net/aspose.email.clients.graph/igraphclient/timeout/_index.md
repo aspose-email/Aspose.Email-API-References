@@ -3,7 +3,7 @@ title: IGraphClient.Timeout
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient property. Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100000 milliseconds 100 seconds
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.clients.graph/igraphclient/timeout/
 ---
 ## IGraphClient.Timeout property

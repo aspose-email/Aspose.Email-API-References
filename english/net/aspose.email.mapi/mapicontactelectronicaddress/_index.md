@@ -3,7 +3,7 @@ title: Class MapiContactElectronicAddress
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactElectronicAddress class. Refers to the group of properties that define the email address or fax address for a contact
 type: docs
-weight: 18340
+weight: 18350
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress class

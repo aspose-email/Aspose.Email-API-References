@@ -3,7 +3,7 @@ title: IGraphClient.CreateContact
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates contact in specified folder
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.clients.graph/igraphclient/createcontact/
 ---
 ## IGraphClient.CreateContact method

@@ -3,7 +3,7 @@ title: MailgunClient.Dispose
 second_title: Aspose.Email for .NET API Reference
 description: MailgunClient method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/dispose/
 ---
 ## MailgunClient.Dispose method

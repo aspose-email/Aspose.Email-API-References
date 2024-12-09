@@ -3,7 +3,7 @@ title: Class UnifiedMessagingConfiguration
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.UnifiedMessagingConfiguration class. Unified messaging configuration
 type: docs
-weight: 15540
+weight: 15550
 url: /net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/
 ---
 ## UnifiedMessagingConfiguration class

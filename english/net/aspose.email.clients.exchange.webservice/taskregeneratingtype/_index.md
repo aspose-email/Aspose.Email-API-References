@@ -3,7 +3,7 @@ title: Enum TaskRegeneratingType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.TaskRegeneratingType enum. Enumerates the types of regenerating pattern
 type: docs
-weight: 15530
+weight: 15540
 url: /net/aspose.email.clients.exchange.webservice/taskregeneratingtype/
 ---
 ## TaskRegeneratingType enumeration

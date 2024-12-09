@@ -6,60 +6,6 @@ type: docs
 weight: 870
 url: /net/aspose.email.clients.imap/imapclient/listmessageasync/
 ---
-## ListMessageAsync(string, CancellationToken) {#listmessageasync_15}
-
-Gets information about a message.
-
-```csharp
-public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ListMessageAsync(string, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_14}
-
-Gets information about a message.
-
-```csharp
-public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, 
-    IEnumerable<string> messageExtraFields, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique Id of the message |
-| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## ListMessageAsync(IConnection, int, IEnumerable&lt;string&gt;) {#listmessageasync_1}
 
 Gets information about a message.
@@ -442,6 +388,60 @@ Task object, with delegate for this operation
 
 * class [ImapMessageInfo](../../imapmessageinfo/)
 * interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessageAsync(string, CancellationToken) {#listmessageasync_15}
+
+Gets information about a message.
+
+```csharp
+public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessageAsync(string, IEnumerable&lt;string&gt;, CancellationToken) {#listmessageasync_14}
+
+Gets information about a message.
+
+```csharp
+public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, 
+    IEnumerable<string> messageExtraFields, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique Id of the message |
+| messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

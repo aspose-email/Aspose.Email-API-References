@@ -3,7 +3,7 @@ title: FollowUpManager.RemoveCategory
 second_title: Aspose.Email for .NET API Reference
 description: FollowUpManager method. Removes the category
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.mapi/followupmanager/removecategory/
 ---
 ## FollowUpManager.RemoveCategory method

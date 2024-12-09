@@ -3,7 +3,7 @@ title: Enum PhoneCallState
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.PhoneCallState enum. Phone call statuses
 type: docs
-weight: 4100
+weight: 4110
 url: /net/aspose.email.clients.exchange.webservice/phonecallstate/
 ---
 ## PhoneCallState enumeration

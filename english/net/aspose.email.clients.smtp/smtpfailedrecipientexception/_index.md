@@ -3,7 +3,7 @@ title: Class SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpFailedRecipientException class. Represents the exception which arises when the specified recipient is wrong
 type: docs
-weight: 17150
+weight: 17160
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientexception/
 ---
 ## SmtpFailedRecipientException class

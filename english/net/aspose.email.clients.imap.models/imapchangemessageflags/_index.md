@@ -3,7 +3,7 @@ title: Class ImapChangeMessageFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapChangeMessageFlags class. AddMessageFlagsAsync ChangeMessageFlagsAsync RemoveMessageFlagsAsync methods parameter set
 type: docs
-weight: 16640
+weight: 16650
 url: /net/aspose.email.clients.imap.models/imapchangemessageflags/
 ---
 ## ImapChangeMessageFlags class

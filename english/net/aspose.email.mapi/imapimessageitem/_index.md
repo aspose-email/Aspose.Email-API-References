@@ -3,7 +3,7 @@ title: Interface IMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.IMapiMessageItem interface. Base interface for all message items in Outlook
 type: docs
-weight: 17930
+weight: 17940
 url: /net/aspose.email.mapi/imapimessageitem/
 ---
 ## IMapiMessageItem interface

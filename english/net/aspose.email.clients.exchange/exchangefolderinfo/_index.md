@@ -3,7 +3,7 @@ title: Class ExchangeFolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderInfo class. Provides information about an MS Exchange folder
 type: docs
-weight: 3260
+weight: 3270
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/
 ---
 ## ExchangeFolderInfo class

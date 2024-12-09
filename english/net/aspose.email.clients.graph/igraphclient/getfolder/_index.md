@@ -3,7 +3,7 @@ title: IGraphClient.GetFolder
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets folder by an id
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.email.clients.graph/igraphclient/getfolder/
 ---
 ## IGraphClient.GetFolder method

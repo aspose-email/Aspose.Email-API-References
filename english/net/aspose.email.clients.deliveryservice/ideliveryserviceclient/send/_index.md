@@ -3,7 +3,7 @@ title: IDeliveryServiceClient.Send
 second_title: Aspose.Email for .NET API Reference
 description: IDeliveryServiceClient method. Sends email synchronously
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.clients.deliveryservice/ideliveryserviceclient/send/
 ---
 ## IDeliveryServiceClient.Send method

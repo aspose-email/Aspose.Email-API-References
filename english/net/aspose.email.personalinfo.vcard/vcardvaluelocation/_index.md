@@ -3,7 +3,7 @@ title: Enum VCardValueLocation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardValueLocation enum. Enumerates the vCard property parameter ValueLocation
 type: docs
-weight: 20000
+weight: 20040
 url: /net/aspose.email.personalinfo.vcard/vcardvaluelocation/
 ---
 ## VCardValueLocation enumeration

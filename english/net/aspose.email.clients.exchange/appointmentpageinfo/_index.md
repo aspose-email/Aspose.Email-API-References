@@ -3,7 +3,7 @@ title: Class AppointmentPageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.AppointmentPageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 3030
+weight: 3040
 url: /net/aspose.email.clients.exchange/appointmentpageinfo/
 ---
 ## AppointmentPageInfo class

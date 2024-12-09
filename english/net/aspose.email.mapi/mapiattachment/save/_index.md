@@ -3,7 +3,7 @@ title: MapiAttachment.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment method. Save attachment content
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapiattachment/save/
 ---
 ## Save(string) {#save_1}

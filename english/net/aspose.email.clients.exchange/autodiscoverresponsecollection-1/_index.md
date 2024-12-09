@@ -3,7 +3,7 @@ title: Class AutodiscoverResponseCollectionTResponse
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.AutodiscoverResponseCollection1TResponse class. Represents a collection of responses to a call to the Autodiscover service
 type: docs
-weight: 3080
+weight: 3090
 url: /net/aspose.email.clients.exchange/autodiscoverresponsecollection-1/
 ---
 ## AutodiscoverResponseCollection&lt;TResponse&gt; class

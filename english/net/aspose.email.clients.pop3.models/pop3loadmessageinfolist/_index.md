@@ -3,7 +3,7 @@ title: Class Pop3LoadMessageInfoList
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Models.Pop3LoadMessageInfoList class. LoadMessageInfoListAsync method parameter set
 type: docs
-weight: 16960
+weight: 16970
 url: /net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/
 ---
 ## Pop3LoadMessageInfoList class

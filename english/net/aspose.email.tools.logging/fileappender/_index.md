@@ -3,7 +3,7 @@ title: Class FileAppender
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.FileAppender class. Reprensents a file appender
 type: docs
-weight: 20800
+weight: 20860
 url: /net/aspose.email.tools.logging/fileappender/
 ---
 ## FileAppender class

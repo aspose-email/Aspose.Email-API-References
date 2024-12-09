@@ -3,7 +3,7 @@ title: IGraphClient.CreateAttachment
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates new attachment for specified item
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.clients.graph/igraphclient/createattachment/
 ---
 ## IGraphClient.CreateAttachment method

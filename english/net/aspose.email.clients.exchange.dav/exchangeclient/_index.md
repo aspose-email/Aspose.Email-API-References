@@ -3,7 +3,7 @@ title: Class ExchangeClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.Dav.ExchangeClient class. The ExchangeClient class allows applications to manage EMail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol
 type: docs
-weight: 3150
+weight: 3160
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/
 ---
 ## ExchangeClient class

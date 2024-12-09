@@ -3,7 +3,7 @@ title: Class MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxStorageReader class. Represents an MBOX file and provides methods for reading and extracting messages. The MBOX file format is used for storing a collection of email messages
 type: docs
-weight: 20250
+weight: 20290
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class

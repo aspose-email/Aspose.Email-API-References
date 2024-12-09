@@ -14,6 +14,12 @@ Represents contract for DeliveryServiceClient
 public interface IDeliveryServiceClient : IDisposable
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [EndPoint](../../aspose.email.clients.deliveryservice/ideliveryserviceclient/endpoint/) { get; set; } | Gets or sets DeliveryService endpoint. If not specified, the default is https://api.mailgun.net for MailGunClient and https://api.sendgrid.com for SendGridClient. |
+
 ## Methods
 
 | Name | Description |

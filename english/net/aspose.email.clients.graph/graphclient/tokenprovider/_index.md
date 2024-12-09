@@ -3,7 +3,7 @@ title: GraphClient.TokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: GraphClient property. Gets or sets an object allows to retrieve OAuth access token
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.clients.graph/graphclient/tokenprovider/
 ---
 ## GraphClient.TokenProvider property

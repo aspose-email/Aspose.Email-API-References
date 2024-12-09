@@ -3,7 +3,7 @@ title: IGraphClient.ListContacts
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List MapiContact from the parent folder
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.email.clients.graph/igraphclient/listcontacts/
 ---
 ## IGraphClient.ListContacts method

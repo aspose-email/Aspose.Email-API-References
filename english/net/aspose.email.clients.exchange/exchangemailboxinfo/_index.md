@@ -3,7 +3,7 @@ title: Class ExchangeMailboxInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeMailboxInfo class. Represents the mail box information of an exchange server
 type: docs
-weight: 3380
+weight: 3390
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/
 ---
 ## ExchangeMailboxInfo class

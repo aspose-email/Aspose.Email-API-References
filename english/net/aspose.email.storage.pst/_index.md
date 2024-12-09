@@ -25,6 +25,7 @@ The **Aspose.Email.Storage.Pst** namespace contains classes for work with Micros
 | [PersonalStorage](./personalstorage/) | Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook. |
 | [PersonalStorageLoadOptions](./personalstorageloadoptions/) | Specifies additional options when loading a PST storage. |
 | [PersonalStorageQueryBuilder](./personalstoragequerybuilder/) | Represents the builder of search expression that used by pst. |
+| [PstItemCategory](./pstitemcategory/) | Represents a category for PST items with a name and associated color. |
 | [RestoredItemEntry](./restoreditementry/) | Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in. |
 | [SaveResult](./saveresult/) | Represents the result of saving the retrieved item. |
 | [StorageProcessedEventArgs](./storageprocessedeventargs/) | Provides data for the [`StorageProcessed`](../aspose.email.storage.pst/personalstorage/storageprocessed/) event |
@@ -42,6 +43,7 @@ The **Aspose.Email.Storage.Pst** namespace contains classes for work with Micros
 | [MapiImportance](./mapiimportance/) | Contains a values that indicates the message importance. |
 | [MapiSensitivity](./mapisensitivity/) | Contains a values that indicates the message sensitivity. |
 | [MessageKind](./messagekind/) | Represents the different kinds of messages in pst. |
+| [OutlookCategoryColor](./outlookcategorycolor/) | Represents the category colors used in Outlook. |
 | [RestoreOptions](./restoreoptions/) | Enumerates restore options |
 | [SaveStatus](./savestatus/) | Represents the status of saving the retrieved message. |
 | [StandardIpmFolder](./standardipmfolder/) | Represents a standard interpersonal message (IPM) folders. |

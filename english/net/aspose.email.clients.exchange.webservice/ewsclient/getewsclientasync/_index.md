@@ -12,7 +12,8 @@ Initializes a new instance of the [`EWSClient`](../) based class
 
 ```csharp
 public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICredentials credentials, 
-    WebProxy proxy = null, CancellationToken cancellationToken = default)
+    WebProxy proxy = null, CancellationToken cancellationToken = default, 
+    Dictionary<string, string> headers = null)
 ```
 
 | Parameter | Type | Description |
@@ -21,6 +22,7 @@ public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICreden
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 | cancellationToken | CancellationToken | The cancellation token |
+| headers | Dictionary`2 | Additional headers for client. |
 
 ### Return Value
 

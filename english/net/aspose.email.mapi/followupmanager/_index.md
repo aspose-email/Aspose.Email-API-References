@@ -3,7 +3,7 @@ title: Class FollowUpManager
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.FollowUpManager class. Provides the ability to set and handle followup Outlook flags and categories. Supports the features to add and remove a flag in MapiMessage and mark it as completed as well
 type: docs
-weight: 17910
+weight: 17920
 url: /net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class
@@ -25,6 +25,7 @@ public static class FollowUpManager
 | static [ClearVotingButtons](../../aspose.email.mapi/followupmanager/clearvotingbuttons/)(MapiMessageItemBase) | Deletes the voting buttons. |
 | static [GetCategories](../../aspose.email.mapi/followupmanager/getcategories/)(MapiMessageItemBase) | Get the available message categories. |
 | static [GetOptions](../../aspose.email.mapi/followupmanager/getoptions/)(MapiMessageItemBase) | Gets the follow-up options of a message. |
+| static [GetReactions](../../aspose.email.mapi/followupmanager/getreactions/)(MapiMessageItemBase) | Get the available message reactions. |
 | static [GetVotingButtons](../../aspose.email.mapi/followupmanager/getvotingbuttons/)(MapiMessageItemBase) | Get the available message voting buttons. |
 | static [MarkAsCompleted](../../aspose.email.mapi/followupmanager/markascompleted/)(MapiMessageItemBase) | Marks the flagged message as completed. |
 | static [RemoveCategory](../../aspose.email.mapi/followupmanager/removecategory/)(MapiMessageItemBase, string) | Removes the category. |

@@ -3,7 +3,7 @@ title: Class ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeAdvancedSyntaxMailQuery class. Represents the search criteria that are used to match several message properties in the mailbox. Implements an Advanced Query Syntax AQS search that is used by EWS. AQS described at https//docs.microsoft.com/exchange/clientdeveloper/exchangewebservices/howtoperformanaqssearchbyusingewsinexchange
 type: docs
-weight: 3160
+weight: 3170
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery class

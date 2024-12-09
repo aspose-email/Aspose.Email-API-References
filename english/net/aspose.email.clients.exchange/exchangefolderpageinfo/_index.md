@@ -3,7 +3,7 @@ title: Class ExchangeFolderPageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderPageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 3280
+weight: 3290
 url: /net/aspose.email.clients.exchange/exchangefolderpageinfo/
 ---
 ## ExchangeFolderPageInfo class

@@ -3,7 +3,7 @@ title: Class ExchangeCalendarEvent
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeCalendarEvent class. Represents the event in the users calendar
 type: docs
-weight: 3720
+weight: 3730
 url: /net/aspose.email.clients.exchange.webservice/exchangecalendarevent/
 ---
 ## ExchangeCalendarEvent class

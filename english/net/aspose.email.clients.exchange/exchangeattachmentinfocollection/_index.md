@@ -3,7 +3,7 @@ title: Class ExchangeAttachmentInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeAttachmentInfoCollection class. Represents the collection of ExchangeAttachmentInfo
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfocollection/
 ---
 ## ExchangeAttachmentInfoCollection class

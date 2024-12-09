@@ -3,7 +3,7 @@ title: Class MhtTemplateName
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MhtTemplateName class. Defines well known names of headers for Mhtml formatting
 type: docs
-weight: 19260
+weight: 19300
 url: /net/aspose.email/mhttemplatename/
 ---
 ## MhtTemplateName class

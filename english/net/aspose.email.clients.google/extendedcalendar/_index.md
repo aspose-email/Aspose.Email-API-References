@@ -3,7 +3,7 @@ title: Class ExtendedCalendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ExtendedCalendar class. A set of extended metadata such as a colors for a single calendar
 type: docs
-weight: 15700
+weight: 15710
 url: /net/aspose.email.clients.google/extendedcalendar/
 ---
 ## ExtendedCalendar class

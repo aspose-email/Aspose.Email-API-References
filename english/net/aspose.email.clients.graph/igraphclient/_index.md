@@ -3,7 +3,7 @@ title: Interface IGraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.IGraphClient interface. Represents the interface for Exchange REST client
 type: docs
-weight: 15990
+weight: 16000
 url: /net/aspose.email.clients.graph/igraphclient/
 ---
 ## IGraphClient interface
@@ -18,6 +18,7 @@ public interface IGraphClient : IDisposable
 
 | Name | Description |
 | --- | --- |
+| [EndPoint](../../aspose.email.clients.graph/igraphclient/endpoint/) { get; set; } | Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com". |
 | [MultipleServicesTokenProvider](../../aspose.email.clients.graph/igraphclient/multipleservicestokenprovider/) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
 | [Proxy](../../aspose.email.clients.graph/igraphclient/proxy/) { get; set; } | Gets or sets data to proxy access to Exchange server. |
 | [Resource](../../aspose.email.clients.graph/igraphclient/resource/) { get; set; } | Gets or sets resource type. |

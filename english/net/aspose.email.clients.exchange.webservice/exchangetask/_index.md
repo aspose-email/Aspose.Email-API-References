@@ -3,7 +3,7 @@ title: Class ExchangeTask
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeTask class. Represents the exchange task information
 type: docs
-weight: 3830
+weight: 3840
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/
 ---
 ## ExchangeTask class

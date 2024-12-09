@@ -3,7 +3,7 @@ title: Enum ExchangeFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderPermissionLevel enum. Specifies the permission level that a user has on a folder
 type: docs
-weight: 3320
+weight: 3330
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionlevel/
 ---
 ## ExchangeFolderPermissionLevel enumeration

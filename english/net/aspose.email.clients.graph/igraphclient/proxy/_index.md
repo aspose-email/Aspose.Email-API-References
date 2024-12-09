@@ -3,7 +3,7 @@ title: IGraphClient.Proxy
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient property. Gets or sets data to proxy access to Exchange server
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.graph/igraphclient/proxy/
 ---
 ## IGraphClient.Proxy property

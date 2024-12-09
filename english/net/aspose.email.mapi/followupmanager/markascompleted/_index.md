@@ -3,7 +3,7 @@ title: FollowUpManager.MarkAsCompleted
 second_title: Aspose.Email for .NET API Reference
 description: FollowUpManager method. Marks the flagged message as completed
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email.mapi/followupmanager/markascompleted/
 ---
 ## FollowUpManager.MarkAsCompleted method

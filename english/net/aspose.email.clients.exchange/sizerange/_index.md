@@ -3,7 +3,7 @@ title: Class SizeRange
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.SizeRange class. Represents the size range
 type: docs
-weight: 3580
+weight: 3590
 url: /net/aspose.email.clients.exchange/sizerange/
 ---
 ## SizeRange class

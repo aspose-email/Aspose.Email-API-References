@@ -3,7 +3,7 @@ title: IGraphClient.Delete
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Delete object
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.email.clients.graph/igraphclient/delete/
 ---
 ## IGraphClient.Delete method

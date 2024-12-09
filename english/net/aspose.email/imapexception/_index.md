@@ -3,7 +3,7 @@ title: Class ImapException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ImapException class. Represents the exception that is thrown when the ImapClient is not able to complete an operation
 type: docs
-weight: 17720
+weight: 17730
 url: /net/aspose.email/imapexception/
 ---
 ## ImapException class

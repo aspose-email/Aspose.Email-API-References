@@ -3,7 +3,7 @@ title: IGraphClient.MultipleServicesTokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient property. Gets or sets an object allows to retrieve OAuth access token
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.clients.graph/igraphclient/multipleservicestokenprovider/
 ---
 ## IGraphClient.MultipleServicesTokenProvider property

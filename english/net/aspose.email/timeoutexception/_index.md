@@ -3,7 +3,7 @@ title: Class TimeoutException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.TimeoutException class. Represents the exception that is thrown when the time for operation has expired
 type: docs
-weight: 20710
+weight: 20770
 url: /net/aspose.email/timeoutexception/
 ---
 ## TimeoutException class

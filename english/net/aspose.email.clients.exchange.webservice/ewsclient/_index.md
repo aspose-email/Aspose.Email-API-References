@@ -3,7 +3,7 @@ title: Class EWSClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.EWSClient class. Provides access to MS Exchange Server by using Exchange Web Services EWS
 type: docs
-weight: 3680
+weight: 3690
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/
 ---
 ## EWSClient class
@@ -30,15 +30,17 @@ public abstract class EWSClient : ExchangeClientBase
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.email.clients.exchange/exchangeclientbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_2)(string, ICredentials) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_3)(string, ICredentials, WebProxy) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_4)(string, string, string) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_1)(ExchangeVersion, string, ICredentials, WebProxy) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_6)(string, string, string, string) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_5)(string, string, string, WebProxy) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_7)(string, string, string, string, WebProxy) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_3)(string, ICredentials) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_4)(string, ICredentials, WebProxy) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_6)(string, string, string) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_2)(ExchangeVersion, string, ICredentials, WebProxy) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_5)(string, ICredentials, WebProxy, Dictionary&lt;string, string&gt;) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_8)(string, string, string, string) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_7)(string, string, string, WebProxy) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_9)(string, string, string, string, WebProxy) | Initializes a new instance of the `EWSClient` based class |
 | static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient)(ExchangeVersion, bool, string, string, ICredentials, WebProxy) | Initializes a new instance of the `EWSClient` based class |
-| static [GetEwsClientAsync](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/)(string, ICredentials, WebProxy, CancellationToken) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEWSClient](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclient/#getewsclient_1)(ExchangeVersion, bool, string, string, ICredentials, WebProxy, Dictionary&lt;string, string&gt;) | Initializes a new instance of the `EWSClient` based class |
+| static [GetEwsClientAsync](../../aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/)(string, ICredentials, WebProxy, CancellationToken, Dictionary&lt;string, string&gt;) | Initializes a new instance of the `EWSClient` based class |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Enum SortingKey
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.SortingKey enum. Sort criterias for SORT command See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16830
+weight: 16840
 url: /net/aspose.email.clients.imap/sortingkey/
 ---
 ## SortingKey enumeration

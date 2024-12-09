@@ -3,7 +3,7 @@ title: IGraphClient.SetRead
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Mark message as read
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.email.clients.graph/igraphclient/setread/
 ---
 ## IGraphClient.SetRead method

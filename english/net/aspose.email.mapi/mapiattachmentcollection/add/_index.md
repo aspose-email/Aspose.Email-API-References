@@ -34,7 +34,7 @@ public void Add(string name, MapiMessage msg)
 
 ---
 
-## Add(string, byte[]) {#add_3}
+## Add(string, byte[]) {#add_4}
 
 Adds the new attachment.
 
@@ -62,90 +62,70 @@ public void Add(string name, byte[] data)
 
 ---
 
-## Add(string, string, string, string) {#add_4}
+## Add(string, ReferenceAttachmentOptions) {#add_3}
 
-Adds the reference attachment.
+Adds a reference attachment to the collection using the specified name and configuration options.
 
 ```csharp
-public void Add(string name, string sharedLink, string url, string providerName)
+public void Add(string name, ReferenceAttachmentOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of attachment. |
-| sharedLink | String | A fully qualified shared link to the attachment provided by web service manipulating the attachment. |
-| url | String | A file location. |
-| providerName | String | A name of reference attachment provider. |
+| name | String | The name of the attachment to display in the message. |
+| options | ReferenceAttachmentOptions | An instance of [`ReferenceAttachmentOptions`](../../referenceattachmentoptions/) containing the configuration details for the reference attachment, such as the shared link, URL, and provider name. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | throws if attachment name is null or empty. |
-| ArgumentNullException | throws if attachment shared link is null or empty. |
+| ArgumentNullException | Thrown if *options* is `null`. |
 
 ## Remarks
 
-A reference attachment is a type of attachment that includes a link or a reference to a file or item, rather than including the file or item itself in the email message. When the recipients of the email click on the reference attachment, they will be able to access the linked file if they have the appropriate permissions to do so. By using a reference attachment, you can send a smaller email message and ensure that everyone has access to the most up-to-date version of the file or item.
+This method adds a reference attachment to the message and applies additional properties based on the provided [`ReferenceAttachmentOptions`](../../referenceattachmentoptions/) object. The additional properties include permission type, original permission type, folder indicator, provider endpoint URL, preview URL, and thumbnail URL.
 
 ## Examples
 
-This example demonstrates how to add a reference attachment to a message.
+The following example demonstrates how to use this method in C#:
 
 [C#]
 
 ```csharp
-// Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
-// Instead of attaching the document directly to the email message,
-// you can create a reference attachment that links to the file on the Google Drive.
-
-// Create a message
-var msg = new MapiMessage("from@domain.com", "to@domain.com", "Outlook message file",
-    "This message is created by Aspose.Email", OutlookMessageFormat.Unicode);
-
-// Add reference attachment
-msg.Attachments.Add("Document.pdf",
+var options = new ReferenceAttachmentOptions(
     "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
     "https://drive.google.com/drive/my-drive",
-    "GoogleDrive");
-//Also, you can set additional attachment properties
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit);
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, 0);
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentIsFolder, false);
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "");
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentPreviewUrl, "");
-msg.Attachments[0].SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "");
-// Finally save the message
-msg.Save(@"my.msg");
+    "GoogleDrive"
+)
+{
+    PermissionType = AttachmentPermissionType.AnyoneCanEdit,
+    OriginalPermissionType = 0,
+    IsFolder = false
+};
+
+msg.Attachments.Add("Document.pdf", options);
 ```
+
+The following example demonstrates how to use this method in Visual Basic:
 
 [Visual Basic]
 
 ```csharp
-' Let's say you want to send an email message that includes a link to a Document.pdf file stored on a Google Drive.
-' Instead of attaching the document directly to the email message,
-' you can create a reference attachment that links to the file on the Google Drive.
+Dim options As New ReferenceAttachmentOptions(
+    "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
+    "https://drive.google.com/drive/my-drive",
+    "GoogleDrive"
+)
+options.PermissionType = AttachmentPermissionType.AnyoneCanEdit
+options.OriginalPermissionType = 0
+options.IsFolder = False
 
-' Create a message
-Dim msg As New MapiMessage("from@domain.com", "to@domain.com", "Outlook message file", "This message is created by Aspose.Email", OutlookMessageFormat.Unicode)
-
-' Add reference attachment
-msg.Attachments.Add("Document.pdf", "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/", "https://drive.google.com/drive/my-drive", "GoogleDrive")
-
-' Also, you can set additional attachment properties
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPermissionType, AttachmentPermissionType.AnyoneCanEdit)
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentOriginalPermissionType, AttachmentPermissionType.None)
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentIsFolder, False)
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentProviderEndpointUrl, "")
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentPreviewUrl, "")
-msg.Attachments(0).SetProperty(KnownPropertyList.AttachmentThumbnailUrl, "")
-
-' Finally save the message
-msg.Save("my.msg")
+msg.Attachments.Add("Document.pdf", options)
 ```
 
 ### See Also
 
+* class [ReferenceAttachmentOptions](../../referenceattachmentoptions/)
 * class [MapiAttachmentCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapiattachmentcollection/)
 * assembly [Aspose.Email](../../../)

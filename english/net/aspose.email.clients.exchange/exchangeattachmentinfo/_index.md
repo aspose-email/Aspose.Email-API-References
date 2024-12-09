@@ -3,7 +3,7 @@ title: Class ExchangeAttachmentInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeAttachmentInfo class. Represents an attachment information transmitted over exchange protocols
 type: docs
-weight: 3180
+weight: 3190
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfo/
 ---
 ## ExchangeAttachmentInfo class

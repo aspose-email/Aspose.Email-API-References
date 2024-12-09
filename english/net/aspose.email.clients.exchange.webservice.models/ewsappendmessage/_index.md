@@ -3,7 +3,7 @@ title: Class EwsAppendMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.Models.EwsAppendMessage class. Represents AppendMessagesAsync parameters
 type: docs
-weight: 4040
+weight: 4050
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/
 ---
 ## EwsAppendMessage class
