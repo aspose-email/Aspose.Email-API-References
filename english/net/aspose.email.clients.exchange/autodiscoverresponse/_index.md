@@ -3,7 +3,7 @@ title: Class AutodiscoverResponse
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.AutodiscoverResponse class. Represents the base class for all responses returned by the Autodiscover service
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.email.clients.exchange/autodiscoverresponse/
 ---
 ## AutodiscoverResponse class

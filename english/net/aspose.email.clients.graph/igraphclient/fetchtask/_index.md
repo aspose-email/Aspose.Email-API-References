@@ -3,7 +3,7 @@ title: IGraphClient.FetchTask
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets MapiTask for specified id
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.email.clients.graph/igraphclient/fetchtask/
 ---
 ## IGraphClient.FetchTask method

@@ -3,7 +3,7 @@ title: FollowUpManager.RemoveVotingButton
 second_title: Aspose.Email for .NET API Reference
 description: FollowUpManager method. Removes the voting button
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.mapi/followupmanager/removevotingbutton/
 ---
 ## FollowUpManager.RemoveVotingButton method

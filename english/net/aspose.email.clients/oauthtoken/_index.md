@@ -3,7 +3,7 @@ title: Class OAuthToken
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.OAuthToken class. Contains OAuth token data such like token value token type expiration date
 type: docs
-weight: 16910
+weight: 16920
 url: /net/aspose.email.clients/oauthtoken/
 ---
 ## OAuthToken class

@@ -1,14 +1,14 @@
 ---
 title: SendGridClientOptions.SandBoxMode
 second_title: Aspose.Email for .NET API Reference
-description: SendGridClientOptions property. Set the sandbox mode setting
+description: SendGridClientOptions property. Gets or sets the sandbox mode setting
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/sandboxmode/
 ---
 ## SendGridClientOptions.SandBoxMode property
 
-Set the sandbox mode setting.
+Gets or sets the sandbox mode setting.
 
 ```csharp
 public bool SandBoxMode { get; set; }

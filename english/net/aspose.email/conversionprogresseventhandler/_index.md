@@ -3,7 +3,7 @@ title: Delegate ConversionProgressEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents signature for method that usually supplied by calling side and handles progress events
 type: docs
-weight: 17290
+weight: 17300
 url: /net/aspose.email/conversionprogresseventhandler/
 ---
 ## ConversionProgressEventHandler delegate

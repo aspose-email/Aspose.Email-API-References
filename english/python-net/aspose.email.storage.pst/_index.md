@@ -24,6 +24,7 @@ the aspose.email.storage.pst namespace contains classes for work with microsoft 
 |[PersonalStorage](/email/python-net/aspose.email.storage.pst/personalstorage/)|Provides functionality to access and manipulate the PST (Personal Storage Table) files used by Microsoft Outlook.|
 |[PersonalStorageLoadOptions](/email/python-net/aspose.email.storage.pst/personalstorageloadoptions/)|Specifies additional options when loading a PST storage.|
 |[PersonalStorageQueryBuilder](/email/python-net/aspose.email.storage.pst/personalstoragequerybuilder/)|Represents the builder of search expression<br/>            that used by pst.|
+|[PstItemCategory](/email/python-net/aspose.email.storage.pst/pstitemcategory/)|Represents a category for PST items with a name and associated color.|
 |[RestoredItemEntry](/email/python-net/aspose.email.storage.pst/restoreditementry/)|Represents an entry for a soft-deleted item in the PST file, containing the message and the folder Id it was in.|
 |[SaveResult](/email/python-net/aspose.email.storage.pst/saveresult/)|Represents the result of saving the retrieved item.|
 |[StorageProcessedEventArgs](/email/python-net/aspose.email.storage.pst/storageprocessedeventargs/)|Provides data for the|
@@ -38,6 +39,7 @@ the aspose.email.storage.pst namespace contains classes for work with microsoft 
 |[MapiImportance](/email/python-net/aspose.email.storage.pst/mapiimportance/)|Contains a values that <br/>            indicates the message importance.|
 |[MapiSensitivity](/email/python-net/aspose.email.storage.pst/mapisensitivity/)|Contains a values that <br/>            indicates the message sensitivity.|
 |[MessageKind](/email/python-net/aspose.email.storage.pst/messagekind/)|Represents the different kinds of messages in pst.|
+|[OutlookCategoryColor](/email/python-net/aspose.email.storage.pst/outlookcategorycolor/)|Represents the category colors used in Outlook.|
 |[RestoreOptions](/email/python-net/aspose.email.storage.pst/restoreoptions/)|Enumerates restore options|
 |[SaveStatus](/email/python-net/aspose.email.storage.pst/savestatus/)|Represents the status of saving the retrieved message.|
 |[StandardIpmFolder](/email/python-net/aspose.email.storage.pst/standardipmfolder/)|Represents a standard interpersonal message (IPM) folders.|

@@ -3,7 +3,7 @@ title: Class Range
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Range class. Time range during which calendar should be regarded as busy
 type: docs
-weight: 15820
+weight: 15830
 url: /net/aspose.email.clients.google/range/
 ---
 ## Range class

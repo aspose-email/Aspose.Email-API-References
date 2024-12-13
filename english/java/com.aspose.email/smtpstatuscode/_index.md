@@ -3,7 +3,7 @@ title: SmtpStatusCode
 second_title: Aspose.Email for Java API Reference
 description: Smtp status codes
 type: docs
-weight: 665
+weight: 669
 url: /java/com.aspose.email/smtpstatuscode/
 ---
 

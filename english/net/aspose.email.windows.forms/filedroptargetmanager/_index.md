@@ -3,7 +3,7 @@ title: Class FileDropTargetManager
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.FileDropTargetManager class. Represents the manager class for file drop target
 type: docs
-weight: 21280
+weight: 21340
 url: /net/aspose.email.windows.forms/filedroptargetmanager/
 ---
 ## FileDropTargetManager class

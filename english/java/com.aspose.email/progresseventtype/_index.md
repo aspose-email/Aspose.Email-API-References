@@ -3,7 +3,7 @@ title: ProgressEventType
 second_title: Aspose.Email for Java API Reference
 description: Type of progress event that occured.
 type: docs
-weight: 596
+weight: 597
 url: /java/com.aspose.email/progresseventtype/
 ---
 

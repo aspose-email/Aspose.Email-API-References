@@ -3,7 +3,7 @@ title: VCardSecurity
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.email.personalinfo.vcard/vcardsecurity/
 ---
 

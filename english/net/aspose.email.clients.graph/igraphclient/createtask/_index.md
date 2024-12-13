@@ -3,7 +3,7 @@ title: IGraphClient.CreateTask
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates Task in specified folder
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.email.clients.graph/igraphclient/createtask/
 ---
 ## IGraphClient.CreateTask method

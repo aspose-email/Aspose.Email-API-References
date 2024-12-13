@@ -3,7 +3,7 @@ title: IGraphClient.CreateNotebook
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Create a new OneNote notebook. Permissions One of the following permissions is required to call this API. Delegated work or school account Notes.Create Notes.ReadWrite Notes.ReadWrite.All Delegated personal Microsoft account Notes.Create Notes.ReadWrite Application Notes.ReadWrite.All
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.email.clients.graph/igraphclient/createnotebook/
 ---
 ## IGraphClient.CreateNotebook method

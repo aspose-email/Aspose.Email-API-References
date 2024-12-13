@@ -20,6 +20,12 @@ public class MailgunClient : IDeliveryServiceClient
 | --- | --- |
 | [MailgunClient](mailgunclient/)(string, string, MailgunRegion) | Initializes a new instance of the `MailgunClient` class |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [EndPoint](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/endpoint/) { get; set; } | Gets or sets MailgunClient endpoint. If not specified, the default is "https://api.mailgun.net". |
+
 ## Methods
 
 | Name | Description |

@@ -3,7 +3,7 @@ title: Class ExchangeUserAvailability
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeUserAvailability class. Represents user availability information
 type: docs
-weight: 3860
+weight: 3870
 url: /net/aspose.email.clients.exchange.webservice/exchangeuseravailability/
 ---
 ## ExchangeUserAvailability class

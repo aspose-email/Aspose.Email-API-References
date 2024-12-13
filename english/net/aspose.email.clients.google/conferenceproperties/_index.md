@@ -3,7 +3,7 @@ title: Class ConferenceProperties
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ConferenceProperties class. Conferencing properties for this calendar
 type: docs
-weight: 15670
+weight: 15680
 url: /net/aspose.email.clients.google/conferenceproperties/
 ---
 ## ConferenceProperties class

@@ -41,8 +41,10 @@ The VCardContact type exposes the following members:
 |is_multi_contacts(stream)|  |
 |load_as_multiple(stream)|  |
 |load_as_multiple(stream, encoding)|  |
+|load_as_multiple(stream, options)|  |
 |load_as_multiple(file_path)|  |
 |load_as_multiple(file_path, encoding)|  |
+|load_as_multiple(file_path, options)|  |
 |save(file_path)|  |
 |save(file_path, save_format)|  |
 |save(file_path, save_options)|  |

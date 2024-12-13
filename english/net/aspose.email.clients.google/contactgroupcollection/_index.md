@@ -3,7 +3,7 @@ title: Class ContactGroupCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ContactGroupCollection class. Represents collection of GmailContactGroup objects
 type: docs
-weight: 15680
+weight: 15690
 url: /net/aspose.email.clients.google/contactgroupcollection/
 ---
 ## ContactGroupCollection class

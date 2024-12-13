@@ -3,7 +3,7 @@ title: IGraphClient.CreateTaskList
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates new TaskList
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.clients.graph/igraphclient/createtasklist/
 ---
 ## IGraphClient.CreateTaskList method

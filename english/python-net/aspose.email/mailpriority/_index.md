@@ -3,7 +3,7 @@ title: MailPriority
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5200
+weight: 5230
 url: /python-net/aspose.email/mailpriority/
 ---
 

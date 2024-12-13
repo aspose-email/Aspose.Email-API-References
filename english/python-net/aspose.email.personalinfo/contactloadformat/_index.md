@@ -3,7 +3,7 @@ title: ContactLoadFormat
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.email.personalinfo/contactloadformat/
 ---
 

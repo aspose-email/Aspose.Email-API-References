@@ -3,7 +3,7 @@ title: MailgunClient.Send
 second_title: Aspose.Email for .NET API Reference
 description: MailgunClient method. Sends email synchronously
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/send/
 ---
 ## MailgunClient.Send method

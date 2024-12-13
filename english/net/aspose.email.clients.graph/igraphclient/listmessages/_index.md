@@ -3,7 +3,7 @@ title: IGraphClient.ListMessages
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List MessageInfo from the parent folder
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.email.clients.graph/igraphclient/listmessages/
 ---
 ## ListMessages(string) {#listmessages_1}

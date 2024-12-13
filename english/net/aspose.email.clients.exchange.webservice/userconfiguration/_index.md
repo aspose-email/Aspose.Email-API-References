@@ -3,7 +3,7 @@ title: Class UserConfiguration
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.UserConfiguration class. Represents user configuration
 type: docs
-weight: 15560
+weight: 15570
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/
 ---
 ## UserConfiguration class

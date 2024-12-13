@@ -3,7 +3,7 @@ title: Enum MapiJournalFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiJournalFlags enum. Contains metadata about the Journal object. Must be either zero or the following values
 type: docs
-weight: 18600
+weight: 18610
 url: /net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration

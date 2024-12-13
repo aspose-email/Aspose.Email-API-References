@@ -3,7 +3,7 @@ title: Delegate MailStorageConverter.MailHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents the method that will handle an event that occurs after successfully reading a message from the Mbox and before adding it to Pst
 type: docs
-weight: 20200
+weight: 20240
 url: /net/aspose.email.storage/mailstorageconverter.mailhandler/
 ---
 ## MailStorageConverter.MailHandler delegate

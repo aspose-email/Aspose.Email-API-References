@@ -3,7 +3,7 @@ title: Enum MapiCalendarClientIntent
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarClientIntent enum. Enumerates the actions the user can taken on the Meeting object
 type: docs
-weight: 18050
+weight: 18060
 url: /net/aspose.email.mapi/mapicalendarclientintent/
 ---
 ## MapiCalendarClientIntent enumeration

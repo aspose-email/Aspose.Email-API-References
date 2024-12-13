@@ -3,7 +3,7 @@ title: Class MapiCalendarIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarIcsSaveOptions class. 
 type: docs
-weight: 18110
+weight: 18120
 url: /net/aspose.email.mapi/mapicalendaricssaveoptions/
 ---
 ## MapiCalendarIcsSaveOptions class

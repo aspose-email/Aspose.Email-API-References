@@ -3,7 +3,7 @@ title: QueryField
 second_title: Aspose.Email for Java API Reference
 description: Base class for query fields.
 type: docs
-weight: 600
+weight: 602
 url: /java/com.aspose.email/queryfield/
 ---
 

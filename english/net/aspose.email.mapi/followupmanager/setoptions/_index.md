@@ -3,7 +3,7 @@ title: FollowUpManager.SetOptions
 second_title: Aspose.Email for .NET API Reference
 description: FollowUpManager method. Sets the additional followup options for a message
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.mapi/followupmanager/setoptions/
 ---
 ## FollowUpManager.SetOptions method

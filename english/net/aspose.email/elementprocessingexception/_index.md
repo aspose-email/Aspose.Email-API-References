@@ -3,7 +3,7 @@ title: Class ElementProcessingException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ElementProcessingException class. The exception that is thrown when one of many elements failed with exception
 type: docs
-weight: 17360
+weight: 17370
 url: /net/aspose.email/elementprocessingexception/
 ---
 ## ElementProcessingException class

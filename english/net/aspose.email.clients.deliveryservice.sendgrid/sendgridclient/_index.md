@@ -18,7 +18,13 @@ public class SendGridClient : IDeliveryServiceClient
 
 | Name | Description |
 | --- | --- |
-| [SendGridClient](sendgridclient/)(string, bool) | Initializes a new instance of the `SendGridClient` class |
+| [SendGridClient](sendgridclient/)(string, bool, SendGridRegion) | Initializes a new instance of the `SendGridClient` class |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [EndPoint](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclient/endpoint/) { get; set; } | Gets or sets SendGridClient endpoint. If not specified, the default is "https://api.sendgrid.com". |
 
 ## Methods
 

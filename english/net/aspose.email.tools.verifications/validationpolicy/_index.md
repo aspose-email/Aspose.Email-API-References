@@ -3,7 +3,7 @@ title: Enum ValidationPolicy
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Verifications.ValidationPolicy enum. Presents the policy of validating email address
 type: docs
-weight: 21210
+weight: 21270
 url: /net/aspose.email.tools.verifications/validationpolicy/
 ---
 ## ValidationPolicy enumeration

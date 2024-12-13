@@ -3,7 +3,7 @@ title: Enum MessageTrackingReportTemplate
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.MessageTrackingReportTemplate enum. Enumerates the types of report to display
 type: docs
-weight: 4030
+weight: 4040
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreporttemplate/
 ---
 ## MessageTrackingReportTemplate enumeration

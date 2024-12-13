@@ -3,7 +3,7 @@ title: Class EwsArchiveItems
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.Models.EwsArchiveItems class. ArchiveItemsAsync method parameters
 type: docs
-weight: 4050
+weight: 4060
 url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/
 ---
 ## EwsArchiveItems class

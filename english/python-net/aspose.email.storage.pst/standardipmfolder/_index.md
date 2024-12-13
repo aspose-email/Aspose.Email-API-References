@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.email.storage.pst/standardipmfolder/
 ---
 

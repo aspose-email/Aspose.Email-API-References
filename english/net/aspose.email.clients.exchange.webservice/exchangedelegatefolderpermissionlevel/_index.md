@@ -3,7 +3,7 @@ title: Enum ExchangeDelegateFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeDelegateFolderPermissionLevel enum. Enumerates the permissions levels which a delegate user can have on folder
 type: docs
-weight: 3760
+weight: 3770
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatefolderpermissionlevel/
 ---
 ## ExchangeDelegateFolderPermissionLevel enumeration

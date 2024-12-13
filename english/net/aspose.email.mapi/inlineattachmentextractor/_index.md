@@ -3,7 +3,7 @@ title: Class InlineAttachmentExtractor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.InlineAttachmentExtractor class. Provides ability to extract files from MSO packages. Can be used to process oledata.mso and similar files typically attached to messages created using Outlook
 type: docs
-weight: 17950
+weight: 17960
 url: /net/aspose.email.mapi/inlineattachmentextractor/
 ---
 ## InlineAttachmentExtractor class

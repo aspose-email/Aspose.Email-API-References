@@ -3,7 +3,7 @@ title: Class ExchangeStreamedItem
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeStreamedItem class. Represents the item received in ExportItems response
 type: docs
-weight: 3820
+weight: 3830
 url: /net/aspose.email.clients.exchange.webservice/exchangestreameditem/
 ---
 ## ExchangeStreamedItem class

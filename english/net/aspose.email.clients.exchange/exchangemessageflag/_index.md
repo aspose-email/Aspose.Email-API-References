@@ -3,7 +3,7 @@ title: Enum ExchangeMessageFlag
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeMessageFlag enum. Represents a flags of message
 type: docs
-weight: 3390
+weight: 3400
 url: /net/aspose.email.clients.exchange/exchangemessageflag/
 ---
 ## ExchangeMessageFlag enumeration

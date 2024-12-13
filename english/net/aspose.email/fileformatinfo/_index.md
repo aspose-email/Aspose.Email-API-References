@@ -3,7 +3,7 @@ title: Class FileFormatInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.FileFormatInfo class. 
 type: docs
-weight: 17560
+weight: 17570
 url: /net/aspose.email/fileformatinfo/
 ---
 ## FileFormatInfo class

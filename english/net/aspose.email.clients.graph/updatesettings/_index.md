@@ -3,7 +3,7 @@ title: Class UpdateSettings
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.UpdateSettings class. Update settings
 type: docs
-weight: 16160
+weight: 16170
 url: /net/aspose.email.clients.graph/updatesettings/
 ---
 ## UpdateSettings class

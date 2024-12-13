@@ -3,7 +3,7 @@ title: Enum RecipientType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Windows.Forms.RecipientType enum. Specifies the type of recipient
 type: docs
-weight: 21340
+weight: 21400
 url: /net/aspose.email.windows.forms/recipienttype/
 ---
 ## RecipientType enumeration

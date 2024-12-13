@@ -3,7 +3,7 @@ title: Class PersonalStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PersonalStorage class. Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook
 type: docs
-weight: 20580
+weight: 20630
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
@@ -71,6 +71,7 @@ public class PersonalStorage : IDisposable
 | [FindAndExtractSoftDeletedItems](../../aspose.email.storage.pst/personalstorage/findandextractsoftdeleteditems/)() | Finds and extracts soft-deleted messages from the PST. |
 | [FindMessages](../../aspose.email.storage.pst/personalstorage/findmessages/)(string) | Finds the identifiers of messages for for the current folder. It might be useful in case of reading corrupted pst when the GetContents and EnumerateMessages methods could throw an exception. |
 | [FindSubfolders](../../aspose.email.storage.pst/personalstorage/findsubfolders/)(string) | Finds the identifiers of subfolders for for the current folder. It might be useful in case of reading corrupted pst when the GetSubfolders and EnumerateFolders methods could throw an exception. |
+| [GetCategories](../../aspose.email.storage.pst/personalstorage/getcategories/)() | Retrieves a list of PST item categories, each containing a name and associated color. |
 | [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid/#getfolderbyid)(byte[]) | Gets the personal folder from PST. |
 | [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid/#getfolderbyid_1)(string) | Gets the personal folder from PST. |
 | [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder/#getparentfolder)(byte[]) | Gets the parent folder of message. |

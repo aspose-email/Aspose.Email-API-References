@@ -3,7 +3,7 @@ title: Class SignatureOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.SignatureOptions class. This class allow the user to specify additional options when sign a message
 type: docs
-weight: 20160
+weight: 20200
 url: /net/aspose.email/signatureoptions/
 ---
 ## SignatureOptions class

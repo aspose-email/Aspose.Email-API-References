@@ -3,7 +3,7 @@ title: Class NameValuePair
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.NameValuePair class. An extended property
 type: docs
-weight: 16880
+weight: 16890
 url: /net/aspose.email.clients/namevaluepair/
 ---
 ## NameValuePair class

@@ -3,7 +3,7 @@ title: Class FollowUpOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.FollowUpOptions class. Represents options for using followup flags and reminders in a message
 type: docs
-weight: 17920
+weight: 17930
 url: /net/aspose.email.mapi/followupoptions/
 ---
 ## FollowUpOptions class

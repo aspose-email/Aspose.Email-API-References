@@ -3,7 +3,7 @@ title: IGraphClient.FetchCategory
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Get the properties and relationships of the specified outlookCategory object
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.email.clients.graph/igraphclient/fetchcategory/
 ---
 ## IGraphClient.FetchCategory method

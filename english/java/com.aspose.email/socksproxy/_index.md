@@ -3,7 +3,7 @@ title: SocksProxy
 second_title: Aspose.Email for Java API Reference
 description: SOCKS proxy client.
 type: docs
-weight: 667
+weight: 671
 url: /java/com.aspose.email/socksproxy/
 ---
 

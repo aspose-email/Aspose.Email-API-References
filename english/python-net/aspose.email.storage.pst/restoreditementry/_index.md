@@ -3,7 +3,7 @@ title: RestoredItemEntry
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.email.storage.pst/restoreditementry/
 ---
 

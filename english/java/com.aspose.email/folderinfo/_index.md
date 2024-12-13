@@ -47,7 +47,10 @@ Represents information about personal folder in PST.
 | [enumerateFolders(int kind)](#enumerateFolders-int-) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
 | [enumerateMapiMessages()](#enumerateMapiMessages--) | Exposes the enumerator, which supports an iteration of messages in folder. |
 | [enumerateMessageObjects()](#enumerateMessageObjects--) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [enumerateMessages()](#enumerateMessages--) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [enumerateMessages()](#enumerateMessages--) | Retrieves [MessageInfo](../../com.aspose.email/messageinfo) objects from the folder. |
+| [enumerateMessages(MailQuery mailQuery)](#enumerateMessages-com.aspose.email.MailQuery-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects that match the specified query. |
+| [enumerateMessages(int kind)](#enumerateMessages-int-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind. |
+| [enumerateMessages(int startIndex, int count)](#enumerateMessages-int-int-) | Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting from a specific index and limited to a specified count. |
 | [enumerateMessagesEntryId()](#enumerateMessagesEntryId--) | Enumerates the entryID of messages. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -374,10 +377,72 @@ public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerat
 ```
 
 
-Exposes the enumerator, which supports an iteration of messages in folder.
+Retrieves [MessageInfo](../../com.aspose.email/messageinfo) objects from the folder.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in folder.
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of all [MessageInfo](../../com.aspose.email/messageinfo) objects in the folder, excluding folder associated information (FAI) items.
+
+--------------------
+
+Use this method to iterate through all messages in the folder without applying any filters or limits. Folder associated information (FAI) items, such as hidden metadata or configuration items, are not included in the returned collection.
+### enumerateMessages(MailQuery mailQuery) {#enumerateMessages-com.aspose.email.MailQuery-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(MailQuery mailQuery)
+```
+
+
+Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects that match the specified query.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailQuery | [MailQuery](../../com.aspose.email/mailquery) | The query criteria used to filter messages.
+
+--------------------
+
+Use this method to retrieve messages that satisfy specific conditions, such as sender, subject, or date range, as defined by the  mailQuery . |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects matching the query.
+### enumerateMessages(int kind) {#enumerateMessages-int-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(int kind)
+```
+
+
+Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| kind | int | The type of items to retrieve, such as normal messages or folder associated information items.
+
+--------------------
+
+Use this method to filter items based on their type, such as distinguishing between messages or Folder Associated Information items. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects of the specified kind.
+### enumerateMessages(int startIndex, int count) {#enumerateMessages-int-int-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MessageInfo> enumerateMessages(int startIndex, int count)
+```
+
+
+Retrieves a collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting from a specific index and limited to a specified count.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | int | The zero-based index of the first message to retrieve. |
+| count | int | The maximum number of messages to retrieve. If set to  -1 , retrieves all messages starting from the specified  startIndex .
+
+--------------------
+
+Use this method to fetch a subset of messages from the folder, which is useful for paginated retrieval or scenarios requiring controlled message processing. When  count  is set to  -1 , all messages from  startIndex  to the end of the folder are returned. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MessageInfo> - An enumerable collection of [MessageInfo](../../com.aspose.email/messageinfo) objects starting at the specified index.
 ### enumerateMessagesEntryId() {#enumerateMessagesEntryId--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<String> enumerateMessagesEntryId()

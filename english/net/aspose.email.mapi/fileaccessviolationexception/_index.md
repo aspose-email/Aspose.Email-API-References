@@ -3,7 +3,7 @@ title: Class FileAccessViolationException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.FileAccessViolationException class. This exception wile be thrown when the file open and locked by another caller
 type: docs
-weight: 17900
+weight: 17910
 url: /net/aspose.email.mapi/fileaccessviolationexception/
 ---
 ## FileAccessViolationException class

@@ -3,7 +3,7 @@ title: Class MapiJournal
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiJournal class. Represents a MAPI journal item
 type: docs
-weight: 18580
+weight: 18590
 url: /net/aspose.email.mapi/mapijournal/
 ---
 ## MapiJournal class

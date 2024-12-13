@@ -3,7 +3,7 @@ title: Pop3MessageInfoCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the information of a mail message from Pop3 server.
 type: docs
-weight: 591
+weight: 592
 url: /java/com.aspose.email/pop3messageinfocollection/
 ---
 

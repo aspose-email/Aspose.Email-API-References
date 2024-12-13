@@ -3,7 +3,7 @@ title: SendGridClient.Dispose
 second_title: Aspose.Email for .NET API Reference
 description: SendGridClient method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/dispose/
 ---
 ## SendGridClient.Dispose method

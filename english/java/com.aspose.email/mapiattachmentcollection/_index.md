@@ -32,6 +32,8 @@ Represents a collection of MapiAttachment objects.
 | [add(int arg0, T arg1)](#add-int-T-) |  |
 | [add(String name, byte[] data)](#add-java.lang.String-byte---) | Adds the new attachment. |
 | [add(String name, MapiMessage msg)](#add-java.lang.String-com.aspose.email.MapiMessage-) | Adds the new attachment as embedded message. |
+| [add(String name, ReferenceAttachmentOptions options)](#add-java.lang.String-com.aspose.email.ReferenceAttachmentOptions-) | Adds a reference attachment to the collection using the specified name and configuration options. |
+| [add(String name, InputStream data)](#add-java.lang.String-java.io.InputStream-) | Adds the new attachment. |
 | [add(String name, String sharedLink, String url, String providerName)](#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Adds the reference attachment. |
 | [addAll(int arg0, Collection<? extends T> arg1)](#addAll-int-java.util.Collection---extends-T--) |  |
 | [addAll(Collection<? extends T> arg0)](#addAll-java.util.Collection---extends-T--) |  |
@@ -256,6 +258,70 @@ Adds the new attachment as embedded message.
 | name | java.lang.String | The name of attachment. |
 | msg | [MapiMessage](../../com.aspose.email/mapimessage) | The [MapiMessage](../../com.aspose.email/mapimessage) that represents the attached message. |
 
+### add(String name, ReferenceAttachmentOptions options) {#add-java.lang.String-com.aspose.email.ReferenceAttachmentOptions-}
+```
+public final void add(String name, ReferenceAttachmentOptions options)
+```
+
+
+Adds a reference attachment to the collection using the specified name and configuration options.
+
+--------------------
+
+> ```
+> The following example demonstrates how to use this method in C#:
+>   [C#]
+>   
+>   var options = new ReferenceAttachmentOptions(
+>       "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
+>       "https://drive.google.com/drive/my-drive",
+>       "GoogleDrive"
+>   )
+>   {
+>       PermissionType = AttachmentPermissionType.AnyoneCanEdit,
+>       OriginalPermissionType = 0,
+>       IsFolder = false
+>   };
+>   msg.Attachments.Add("Document.pdf", options);
+>   
+>   The following example demonstrates how to use this method in Visual Basic:
+>   [Visual Basic]
+>   
+>   Dim options As New ReferenceAttachmentOptions(
+>       "https://drive.google.com/file/d/1HJ-M3F2qq1oRrTZ2GZhUdErJNy2CT3DF/",
+>       "https://drive.google.com/drive/my-drive",
+>       "GoogleDrive"
+>   )
+>   options.PermissionType = AttachmentPermissionType.AnyoneCanEdit
+>   options.OriginalPermissionType = 0
+>   options.IsFolder = False
+>   msg.Attachments.Add("Document.pdf", options)
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the attachment to display in the message. |
+| options | [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) | An instance of [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) containing the configuration details for the reference attachment, such as the shared link, URL, and provider name.
+
+--------------------
+
+This method adds a reference attachment to the message and applies additional properties based on the provided [ReferenceAttachmentOptions](../../com.aspose.email/referenceattachmentoptions) object. The additional properties include permission type, original permission type, folder indicator, provider endpoint URL, preview URL, and thumbnail URL. |
+
+### add(String name, InputStream data) {#add-java.lang.String-java.io.InputStream-}
+```
+public final void add(String name, InputStream data)
+```
+
+
+Adds the new attachment.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of attachment. |
+| data | java.io.InputStream | The attachment data. |
+
 ### add(String name, String sharedLink, String url, String providerName) {#add-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public final void add(String name, String sharedLink, String url, String providerName)
@@ -323,7 +389,11 @@ Adds the reference attachment.
 
 --------------------
 
-A reference attachment is a type of attachment that includes a link or a reference to a file or item, rather than including the file or item itself in the email message. When the recipients of the email click on the reference attachment, they will be able to access the linked file if they have the appropriate permissions to do so. By using a reference attachment, you can send a smaller email message and ensure that everyone has access to the most up-to-date version of the file or item. |
+A reference attachment is a type of attachment that includes a link or a reference to a file or item, rather than including the file or item itself in the email message. When the recipients of the email click on the reference attachment, they will be able to access the linked file if they have the appropriate permissions to do so. By using a reference attachment, you can send a smaller email message and ensure that everyone has access to the most up-to-date version of the file or item.
+
+--------------------
+
+This method is  **obsolete** . Use \#add(String,ReferenceAttachmentOptions).add(String,ReferenceAttachmentOptions) instead for better configurability and ease of use. |
 
 ### addAll(int arg0, Collection<? extends T> arg1) {#addAll-int-java.util.Collection---extends-T--}
 ```

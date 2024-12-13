@@ -3,7 +3,7 @@ title: Class PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.PidTagPropertyDescriptor class. Class contains property description information
 type: docs
-weight: 19160
+weight: 19170
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/
 ---
 ## PidTagPropertyDescriptor class

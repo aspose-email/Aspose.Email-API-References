@@ -90,6 +90,8 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [PidNamePropertyDescriptor](./pidnamepropertydescriptor/) | Class contains property description information. |
 | [PidTagPropertyDescriptor](./pidtagpropertydescriptor/) | Class contains property description information. |
 | [PropertyDescriptor](./propertydescriptor/) | Class contains property description information. |
+| [ReferenceAttachmentOptions](./referenceattachmentoptions/) | Represents configuration options for adding a reference attachment to a MAPI message. |
+| [UserReaction](./userreaction/) | Represents a user's reaction. |
 | [WebDavContactSaveOptions](./webdavcontactsaveoptions/) | Specifies the contact save options. |
 ## Interfaces
 
@@ -137,6 +139,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [NoteSaveFormat](./notesaveformat/) | Enumerates NoteSaveFormat |
 | [OutlookMessageFormat](./outlookmessageformat/) | Represents outlook message format. |
 | [PropertyDataType](./propertydatatype/) | [MS-OXCDATA]: Data Structures |
+| [ReactionType](./reactiontype/) | Specifies the type of reaction a user can have on a message. |
 | [TaskSaveFormat](./tasksaveformat/) | Enumerates TaskSaveFormat |
 
 

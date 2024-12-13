@@ -3,7 +3,7 @@ title: Class MessageTrackingReport
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.MessageTrackingReport class. Represents the information to be included in the report
 type: docs
-weight: 4010
+weight: 4020
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreport/
 ---
 ## MessageTrackingReport class

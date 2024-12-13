@@ -3,7 +3,7 @@ title: Class Calendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Calendar class. A set of metadata such as a description for a single calendar
 type: docs
-weight: 15640
+weight: 15650
 url: /net/aspose.email.clients.google/calendar/
 ---
 ## Calendar class

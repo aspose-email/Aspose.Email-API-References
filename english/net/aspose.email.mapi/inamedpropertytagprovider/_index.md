@@ -3,7 +3,7 @@ title: Interface INamedPropertyTagProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.INamedPropertyTagProvider interface. Interface of named mapi property tag provider
 type: docs
-weight: 17940
+weight: 17950
 url: /net/aspose.email.mapi/inamedpropertytagprovider/
 ---
 ## INamedPropertyTagProvider interface

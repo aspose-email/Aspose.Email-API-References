@@ -93,6 +93,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[PidNamePropertyDescriptor](/email/python-net/aspose.email.mapi/pidnamepropertydescriptor/)|Class contains property description information.|
 |[PidTagPropertyDescriptor](/email/python-net/aspose.email.mapi/pidtagpropertydescriptor/)|Class contains property description information.|
 |[PropertyDescriptor](/email/python-net/aspose.email.mapi/propertydescriptor/)|Class contains property description information.|
+|[UserReaction](/email/python-net/aspose.email.mapi/userreaction/)|Represents a user's reaction.|
 |[WebDavContactSaveOptions](/email/python-net/aspose.email.mapi/webdavcontactsaveoptions/)|Specifies the contact save options.|
 ## Enumerations
 | Enumeration | Description |
@@ -133,4 +134,5 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[NoteSaveFormat](/email/python-net/aspose.email.mapi/notesaveformat/)|Enumerates NoteSaveFormat|
 |[OutlookMessageFormat](/email/python-net/aspose.email.mapi/outlookmessageformat/)|Represents outlook message format.|
 |[PropertyDataType](/email/python-net/aspose.email.mapi/propertydatatype/)|[MS-OXCDATA]: Data Structures|
+|[ReactionType](/email/python-net/aspose.email.mapi/reactiontype/)|Specifies the type of reaction a user can have on a message.|
 |[TaskSaveFormat](/email/python-net/aspose.email.mapi/tasksaveformat/)|Enumerates TaskSaveFormat|

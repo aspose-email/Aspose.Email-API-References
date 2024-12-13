@@ -28,7 +28,6 @@ Represents an abstract binding to an Autodiscover Service.
 | [getClass()](#getClass--) |  |
 | [getClientRequestId()](#getClientRequestId--) | Gets or sets the request id for the request. |
 | [getConnectionGroupName()](#getConnectionGroupName--) | Gets or sets the name of the connection group for the request. |
-| [getCookieContainer()](#getCookieContainer--) | Gets or sets the cookie container. |
 | [getCredentials()](#getCredentials--) | Gets or sets the credentials used to authenticate with the Exchange Web Services. |
 | [getHttpHeaders()](#getHttpHeaders--) | Gets a collection of HTTP headers that will be sent with each request to EWS. |
 | [getHttpResponseHeaders()](#getHttpResponseHeaders--) | Gets a collection of HTTP headers from the last response. |
@@ -50,7 +49,6 @@ Represents an abstract binding to an Autodiscover Service.
 | [setAcceptGzipEncoding(boolean value)](#setAcceptGzipEncoding-boolean-) | Gets or sets a value indicating whether GZip compression encoding should be accepted. |
 | [setClientRequestId(String value)](#setClientRequestId-java.lang.String-) | Gets or sets the request id for the request. |
 | [setConnectionGroupName(String value)](#setConnectionGroupName-java.lang.String-) | Gets or sets the name of the connection group for the request. |
-| [setCookieContainer(System.Net.CookieContainer value)](#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-) | Gets or sets the cookie container. |
 | [setCredentials(System.Net.ICredentials value)](#setCredentials-com.aspose.ms.System.Net.ICredentials-) | Gets or sets the credentials used to authenticate with the Exchange Web Services. |
 | [setKeepAlive(boolean value)](#setKeepAlive-boolean-) | Gets or sets if the request to the internet resource should contain a Connection HTTP header with the value Keep-alive |
 | [setLogFileName(String value)](#setLogFileName-java.lang.String-) | Gets or sets log file name |
@@ -131,18 +129,6 @@ Gets or sets the name of the connection group for the request.
 
 **Returns:**
 java.lang.String
-### getCookieContainer() {#getCookieContainer--}
-```
-public final System.Net.CookieContainer getCookieContainer()
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Returns:**
-com.aspose.ms.System.Net.CookieContainer
 ### getCredentials() {#getCredentials--}
 ```
 public final System.Net.ICredentials getCredentials()
@@ -365,21 +351,6 @@ Gets or sets the name of the connection group for the request.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setCookieContainer(System.Net.CookieContainer value) {#setCookieContainer-com.aspose.ms.System.Net.CookieContainer-}
-```
-public final void setCookieContainer(System.Net.CookieContainer value)
-```
-
-
-Gets or sets the cookie container.
-
-Value: The cookie container.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Net.CookieContainer |  |
 
 ### setCredentials(System.Net.ICredentials value) {#setCredentials-com.aspose.ms.System.Net.ICredentials-}
 ```

@@ -14,5 +14,10 @@ The **Aspose.Email.Clients.DeliveryService.SendGrid** namespace provides classes
 | --- | --- |
 | [SendGridClient](./sendgridclient/) | Represents the SendGrid client |
 | [SendGridClientOptions](./sendgridclientoptions/) | Options to set the SendGridClient parameters. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [SendGridRegion](./sendgridregion/) | Represents the SendGrid Region |
 
 

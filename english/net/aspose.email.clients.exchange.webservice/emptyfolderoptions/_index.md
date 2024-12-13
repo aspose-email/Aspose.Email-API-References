@@ -3,7 +3,7 @@ title: Enum EmptyFolderOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.EmptyFolderOptions enum. Enumerates the empty folder options
 type: docs
-weight: 3690
+weight: 3700
 url: /net/aspose.email.clients.exchange.webservice/emptyfolderoptions/
 ---
 ## EmptyFolderOptions enumeration

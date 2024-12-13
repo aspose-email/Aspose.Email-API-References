@@ -3,7 +3,7 @@ title: MapiCalendarClientIntent
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 970
 url: /python-net/aspose.email.mapi/mapicalendarclientintent/
 ---
 

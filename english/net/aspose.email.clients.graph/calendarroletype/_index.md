@@ -3,7 +3,7 @@ title: Enum CalendarRoleType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.CalendarRoleType enum. Represent sharing or delegating permission levels for the calendar
 type: docs
-weight: 15900
+weight: 15910
 url: /net/aspose.email.clients.graph/calendarroletype/
 ---
 ## CalendarRoleType enumeration

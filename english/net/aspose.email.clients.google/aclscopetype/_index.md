@@ -3,7 +3,7 @@ title: Enum AclScopeType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.AclScopeType enum. The type of the ACL scope
 type: docs
-weight: 15610
+weight: 15620
 url: /net/aspose.email.clients.google/aclscopetype/
 ---
 ## AclScopeType enumeration

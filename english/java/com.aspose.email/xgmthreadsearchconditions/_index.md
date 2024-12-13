@@ -3,7 +3,7 @@ title: XGMThreadSearchConditions
 second_title: Aspose.Email for Java API Reference
 description: Provides the search conditions to retrieve email thread.
 type: docs
-weight: 752
+weight: 758
 url: /java/com.aspose.email/xgmthreadsearchconditions/
 ---
 

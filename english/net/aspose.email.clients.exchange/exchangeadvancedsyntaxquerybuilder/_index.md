@@ -3,7 +3,7 @@ title: Class ExchangeAdvancedSyntaxQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeAdvancedSyntaxQueryBuilder class. Represents the builder of search expression based on the Advanced Query Syntax AQS that used by Exchange protocol. AQS is an alternative to search filters for expressing search criteria
 type: docs
-weight: 3170
+weight: 3180
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/
 ---
 ## ExchangeAdvancedSyntaxQueryBuilder class

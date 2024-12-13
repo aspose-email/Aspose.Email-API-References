@@ -3,7 +3,7 @@ title: Class RestoreSettings
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.RestoreSettings class. The settings for the ImapClient.Restore method
 type: docs
-weight: 16770
+weight: 16780
 url: /net/aspose.email.clients.imap/restoresettings/
 ---
 ## RestoreSettings class

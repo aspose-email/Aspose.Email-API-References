@@ -3,7 +3,7 @@ title: MapiCalendarOverrideFlags
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 980
+weight: 990
 url: /python-net/aspose.email.mapi/mapicalendaroverrideflags/
 ---
 
