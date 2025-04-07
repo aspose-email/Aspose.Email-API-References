@@ -3,7 +3,7 @@ title: Enum VCardTelephoneType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardTelephoneType enum. Enumerates a vCard telephone types
 type: docs
-weight: 20000
+weight: 20050
 url: /net/aspose.email.personalinfo.vcard/vcardtelephonetype/
 ---
 ## VCardTelephoneType enumeration

@@ -3,7 +3,7 @@ title: Class VCardLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardLoadOptions class. This is class that allow the user to specify additional options when loading a VCardContact
 type: docs
-weight: 19900
+weight: 19950
 url: /net/aspose.email.personalinfo.vcard/vcardloadoptions/
 ---
 ## VCardLoadOptions class

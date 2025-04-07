@@ -3,7 +3,7 @@ title: Enum UserRole
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.UserRole enum. OneNote user role
 type: docs
-weight: 16180
+weight: 16230
 url: /net/aspose.email.clients.graph/userrole/
 ---
 ## UserRole enumeration

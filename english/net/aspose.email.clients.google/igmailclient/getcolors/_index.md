@@ -3,7 +3,7 @@ title: IGmailClient.GetColors
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets color information
 type: docs
-weight: 170
+weight: 220
 url: /net/aspose.email.clients.google/igmailclient/getcolors/
 ---
 ## IGmailClient.GetColors method

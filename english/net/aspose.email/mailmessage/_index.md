@@ -3,7 +3,7 @@ title: Class MailMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailMessage class. 
 type: docs
-weight: 17820
+weight: 17870
 url: /net/aspose.email/mailmessage/
 ---
 ## MailMessage class

@@ -3,7 +3,7 @@ title: IGmailClient.CreateAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates an appointment
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.clients.google/igmailclient/createappointment/
 ---
 ## IGmailClient.CreateAppointment method

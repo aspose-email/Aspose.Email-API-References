@@ -3,7 +3,7 @@ title: Class MailException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailException class. Represents the exception that is thrown when the mail message processing
 type: docs
-weight: 17810
+weight: 17860
 url: /net/aspose.email/mailexception/
 ---
 ## MailException class

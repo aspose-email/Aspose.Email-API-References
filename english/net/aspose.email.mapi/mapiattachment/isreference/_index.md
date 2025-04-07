@@ -3,7 +3,7 @@ title: MapiAttachment.IsReference
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.mapi/mapiattachment/isreference/
 ---
 ## MapiAttachment.IsReference property

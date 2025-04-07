@@ -3,7 +3,7 @@ title: Class MapiAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiAttachment class. 
 type: docs
-weight: 18000
+weight: 18050
 url: /net/aspose.email.mapi/mapiattachment/
 ---
 ## MapiAttachment class
@@ -37,6 +37,8 @@ public class MapiAttachment : MapiPropertyContainer
 
 | Name | Description |
 | --- | --- |
+| static [LoadFromTnef](../../aspose.email.mapi/mapiattachment/loadfromtnef/#loadfromtnef)(Stream) | Load MapiAttachment from stream with tnef content. |
+| static [LoadFromTnef](../../aspose.email.mapi/mapiattachment/loadfromtnef/#loadfromtnef_1)(string) | Load MapiAttachment from file with tnef content. |
 | override [GetProperty](../../aspose.email.mapi/mapiattachment/getproperty/)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of the property specified by tag as Boolean type. |
 | [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes/)(long) | Gets the string value of the property specified by tag. |
@@ -50,6 +52,8 @@ public class MapiAttachment : MapiPropertyContainer
 | [RemoveProperty](../../aspose.email.mapi/mapiattachment/removeproperty/)(long) | Provides correctly removing property from all collections. |
 | [Save](../../aspose.email.mapi/mapiattachment/save/#save)(Stream) | Save attachment content. |
 | [Save](../../aspose.email.mapi/mapiattachment/save/#save_1)(string) | Save attachment content. |
+| [SaveToTnef](../../aspose.email.mapi/mapiattachment/savetotnef/#savetotnef)(Stream) | Save attachment to tnef content. |
+| [SaveToTnef](../../aspose.email.mapi/mapiattachment/savetotnef/#savetotnef_1)(string) | Save attachment to tnef content. |
 | override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty/#setproperty)(MapiProperty) | Sets the property. |
 | override [SetProperty](../../aspose.email.mapi/mapiattachment/setproperty/#setproperty_1)(PropertyDescriptor, object) | Sets MAPI property. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Try to get the property data with specified tag key. |

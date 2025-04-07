@@ -3,7 +3,7 @@ title: Enum MailSensitivity
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailSensitivity enum. Specifies the sensitivity of a MailMessage
 type: docs
-weight: 17860
+weight: 17910
 url: /net/aspose.email/mailsensitivity/
 ---
 ## MailSensitivity enumeration

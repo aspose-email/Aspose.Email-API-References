@@ -3,7 +3,7 @@ title: Class StringComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.StringComparisonField class. Represents the string search field
 type: docs
-weight: 21150
+weight: 21200
 url: /net/aspose.email.tools.search/stringcomparisonfield/
 ---
 ## StringComparisonField class

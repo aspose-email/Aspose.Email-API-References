@@ -3,7 +3,7 @@ title: IGmailClient.MoveAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Moves an appointment to another calendar
 type: docs
-weight: 290
+weight: 370
 url: /net/aspose.email.clients.google/igmailclient/moveappointment/
 ---
 ## MoveAppointment(string, string, string) {#moveappointment}

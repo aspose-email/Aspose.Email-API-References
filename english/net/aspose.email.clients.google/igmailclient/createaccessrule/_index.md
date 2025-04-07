@@ -3,7 +3,7 @@ title: IGmailClient.CreateAccessRule
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates access rule
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.google/igmailclient/createaccessrule/
 ---
 ## IGmailClient.CreateAccessRule method

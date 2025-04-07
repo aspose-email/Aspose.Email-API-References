@@ -3,7 +3,7 @@ title: Interface IGraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.IGraphClient interface. Represents the interface for Exchange REST client
 type: docs
-weight: 16000
+weight: 16050
 url: /net/aspose.email.clients.graph/igraphclient/
 ---
 ## IGraphClient interface

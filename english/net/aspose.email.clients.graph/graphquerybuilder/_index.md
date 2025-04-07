@@ -3,7 +3,7 @@ title: Class GraphQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.GraphQueryBuilder class. Represents the builder of search expression based on search filters that used by MS Graph protocol
 type: docs
-weight: 15990
+weight: 16040
 url: /net/aspose.email.clients.graph/graphquerybuilder/
 ---
 ## GraphQueryBuilder class

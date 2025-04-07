@@ -3,7 +3,7 @@ title: IGmailClient.UpdateContactPhoto
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates or updates contact photo
 type: docs
-weight: 340
+weight: 430
 url: /net/aspose.email.clients.google/igmailclient/updatecontactphoto/
 ---
 ## IGmailClient.UpdateContactPhoto method

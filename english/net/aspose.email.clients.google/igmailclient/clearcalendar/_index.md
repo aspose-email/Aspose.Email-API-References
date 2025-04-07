@@ -3,7 +3,7 @@ title: IGmailClient.ClearCalendar
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Clears a calendar
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.clients.google/igmailclient/clearcalendar/
 ---
 ## IGmailClient.ClearCalendar method

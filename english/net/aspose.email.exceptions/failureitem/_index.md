@@ -3,7 +3,7 @@ title: Enum FailureItem
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Exceptions.FailureItem enum. Indicates the item type that retrieval failed during the traversal
 type: docs
-weight: 17470
+weight: 17520
 url: /net/aspose.email.exceptions/failureitem/
 ---
 ## FailureItem enumeration

@@ -3,7 +3,7 @@ title: Enum MailPriority
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailPriority enum. Represents the mail priopity
 type: docs
-weight: 17850
+weight: 17900
 url: /net/aspose.email/mailpriority/
 ---
 ## MailPriority enumeration

@@ -3,7 +3,7 @@ title: IGmailClient.DeleteAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Deletes an appointment
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.email.clients.google/igmailclient/deleteappointment/
 ---
 ## IGmailClient.DeleteAppointment method

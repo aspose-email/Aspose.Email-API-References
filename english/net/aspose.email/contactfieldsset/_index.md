@@ -3,7 +3,7 @@ title: Enum ContactFieldsSet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ContactFieldsSet enum. Enumerates the groups of Contact fields that will be included in resultant mhtml file
 type: docs
-weight: 17290
+weight: 17340
 url: /net/aspose.email/contactfieldsset/
 ---
 ## ContactFieldsSet enumeration

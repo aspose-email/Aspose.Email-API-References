@@ -3,7 +3,7 @@ title: Class VCardLabel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardLabel class. To specify the formatted text corresponding to delivery address of the object the vCard represents
 type: docs
-weight: 19880
+weight: 19930
 url: /net/aspose.email.personalinfo.vcard/vcardlabel/
 ---
 ## VCardLabel class

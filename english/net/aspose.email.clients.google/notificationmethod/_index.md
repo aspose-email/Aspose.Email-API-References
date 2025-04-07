@@ -3,7 +3,7 @@ title: Enum NotificationMethod
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.NotificationMethod enum. The method used by this notification
 type: docs
-weight: 15810
+weight: 15850
 url: /net/aspose.email.clients.google/notificationmethod/
 ---
 ## NotificationMethod enumeration

@@ -3,7 +3,7 @@ title: MapiAttachment.BinaryData
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets or sets binary attachment data
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.mapi/mapiattachment/binarydata/
 ---
 ## MapiAttachment.BinaryData property

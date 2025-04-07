@@ -3,7 +3,7 @@ title: Class ImapDeleteMessages
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapDeleteMessages class. DeleteMessagesAsync parameter set
 type: docs
-weight: 16670
+weight: 16720
 url: /net/aspose.email.clients.imap.models/imapdeletemessages/
 ---
 ## ImapDeleteMessages class

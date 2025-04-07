@@ -3,7 +3,7 @@ title: IGmailClient.GetAllGroups
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches all contact groups
 type: docs
-weight: 160
+weight: 210
 url: /net/aspose.email.clients.google/igmailclient/getallgroups/
 ---
 ## IGmailClient.GetAllGroups method

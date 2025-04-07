@@ -3,7 +3,7 @@ title: IGmailClient.GetSetting
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets settings by the name
 type: docs
-weight: 220
+weight: 280
 url: /net/aspose.email.clients.google/igmailclient/getsetting/
 ---
 ## IGmailClient.GetSetting method

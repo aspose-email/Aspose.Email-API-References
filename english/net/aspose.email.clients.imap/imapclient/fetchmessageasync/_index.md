@@ -6,6 +6,89 @@ type: docs
 weight: 670
 url: /net/aspose.email.clients.imap/imapclient/fetchmessageasync/
 ---
+## FetchMessageAsync(int, bool, CancellationToken) {#fetchmessageasync_8}
+
+Fetches the message
+
+```csharp
+public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of message |
+| ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## FetchMessageAsync(IConnection, string, CancellationToken) {#fetchmessageasync_5}
+
+Fetches the message
+
+```csharp
+public Task<MailMessage> FetchMessageAsync(IConnection connection, string uniqueId, 
+    CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The unique id of message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## FetchMessageAsync(string, CancellationToken) {#fetchmessageasync_11}
+
+Fetches the message
+
+```csharp
+public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken token)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The unique id of message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* class [MailMessage](../../../aspose.email/mailmessage/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## FetchMessageAsync(IConnection, int) {#fetchmessageasync}
 
 Fetches the message
@@ -235,89 +318,6 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FetchMessageAsync(int, bool, CancellationToken) {#fetchmessageasync_8}
-
-Fetches the message
-
-```csharp
-public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttachment, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sequenceNumber | Int32 | The sequence number of message |
-| ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FetchMessageAsync(IConnection, string, CancellationToken) {#fetchmessageasync_5}
-
-Fetches the message
-
-```csharp
-public Task<MailMessage> FetchMessageAsync(IConnection connection, string uniqueId, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| uniqueId | String | The unique id of message |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* class [MailMessage](../../../aspose.email/mailmessage/)
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FetchMessageAsync(string, CancellationToken) {#fetchmessageasync_11}
-
-Fetches the message
-
-```csharp
-public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | The unique id of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
 ### Return Value

@@ -3,7 +3,7 @@ title: Class Reminders
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Reminders class. Information about the events reminders for the authenticated user
 type: docs
-weight: 15850
+weight: 15890
 url: /net/aspose.email.clients.google/reminders/
 ---
 ## Reminders class

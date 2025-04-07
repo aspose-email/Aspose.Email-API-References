@@ -3,7 +3,7 @@ title: Class PstItemCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PstItemCategory class. Represents a category for PST items with a name and associated color
 type: docs
-weight: 20660
+weight: 20710
 url: /net/aspose.email.storage.pst/pstitemcategory/
 ---
 ## PstItemCategory class

@@ -3,7 +3,7 @@ title: Class EmlValidationError
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.EmlValidationError class. Represents the eml validation error information
 type: docs
-weight: 17400
+weight: 17450
 url: /net/aspose.email/emlvalidationerror/
 ---
 ## EmlValidationError class

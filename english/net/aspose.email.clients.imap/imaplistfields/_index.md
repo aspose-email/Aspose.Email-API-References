@@ -3,7 +3,7 @@ title: Enum ImapListFields
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapListFields enum. Fields that may be retrieved from the server
 type: docs
-weight: 16450
+weight: 16500
 url: /net/aspose.email.clients.imap/imaplistfields/
 ---
 ## ImapListFields enumeration

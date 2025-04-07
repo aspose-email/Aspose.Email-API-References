@@ -3,7 +3,7 @@ title: Delegate MimeItemCopyEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: Represents a delegate for handling events related to the copying of Mime items typically used in scenarios where a MailMessage object is copied from one storage to another
 type: docs
-weight: 20360
+weight: 20410
 url: /net/aspose.email.storage/mimeitemcopyeventhandler/
 ---
 ## MimeItemCopyEventHandler delegate

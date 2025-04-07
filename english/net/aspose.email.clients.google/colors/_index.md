@@ -3,7 +3,7 @@ title: Class Colors
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Colors class. Set of colors for calendar object
 type: docs
-weight: 15660
+weight: 15670
 url: /net/aspose.email.clients.google/colors/
 ---
 ## Colors class

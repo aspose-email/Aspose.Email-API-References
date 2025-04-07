@@ -3,7 +3,7 @@ title: Class Pop3SaveMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Models.Pop3SaveMessage class. The SaveMessageAsync parameter set
 type: docs
-weight: 16980
+weight: 17030
 url: /net/aspose.email.clients.pop3.models/pop3savemessage/
 ---
 ## Pop3SaveMessage class

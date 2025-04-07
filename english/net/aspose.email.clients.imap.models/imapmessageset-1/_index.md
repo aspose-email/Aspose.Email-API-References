@@ -3,7 +3,7 @@ title: Class ImapMessageSetT
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapMessageSet1T class. Represents the message set
 type: docs
-weight: 16690
+weight: 16740
 url: /net/aspose.email.clients.imap.models/imapmessageset-1/
 ---
 ## ImapMessageSet&lt;T&gt; class

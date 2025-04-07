@@ -3,7 +3,7 @@ title: Class MapiContactProfessionalPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactProfessionalPropertySet class. Properties are used to store professional details for the person represented by the contact
 type: docs
-weight: 18460
+weight: 18510
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet class

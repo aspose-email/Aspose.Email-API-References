@@ -3,7 +3,7 @@ title: Enum MapiCalendarBusyStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarBusyStatus enum. Enumerates the mapi calendar possible busy status
 type: docs
-weight: 18050
+weight: 18100
 url: /net/aspose.email.mapi/mapicalendarbusystatus/
 ---
 ## MapiCalendarBusyStatus enumeration

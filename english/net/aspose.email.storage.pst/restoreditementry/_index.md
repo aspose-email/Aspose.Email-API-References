@@ -3,7 +3,7 @@ title: Class RestoredItemEntry
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.RestoredItemEntry class. Represents an entry for a softdeleted item in the PST file containing the message and the folder Id it was in
 type: docs
-weight: 20680
+weight: 20730
 url: /net/aspose.email.storage.pst/restoreditementry/
 ---
 ## RestoredItemEntry class

@@ -3,7 +3,7 @@ title: Class ImapClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapClient class. Allows applications to access and manipulate messages by using the Internet Message Access Protocol IMAP
 type: docs
-weight: 16390
+weight: 16440
 url: /net/aspose.email.clients.imap/imapclient/
 ---
 ## ImapClient class

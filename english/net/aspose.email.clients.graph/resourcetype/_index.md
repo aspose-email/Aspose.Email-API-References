@@ -3,7 +3,7 @@ title: Enum ResourceType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.ResourceType enum. The resource in Microsoft Graph that youre referencing
 type: docs
-weight: 16120
+weight: 16170
 url: /net/aspose.email.clients.graph/resourcetype/
 ---
 ## ResourceType enumeration

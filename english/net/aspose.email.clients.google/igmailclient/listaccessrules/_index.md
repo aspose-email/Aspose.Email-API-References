@@ -3,7 +3,7 @@ title: IGmailClient.ListAccessRules
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets list of access rules
 type: docs
-weight: 250
+weight: 310
 url: /net/aspose.email.clients.google/igmailclient/listaccessrules/
 ---
 ## IGmailClient.ListAccessRules method

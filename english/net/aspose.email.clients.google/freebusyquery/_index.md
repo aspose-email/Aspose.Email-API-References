@@ -3,7 +3,7 @@ title: Class FreebusyQuery
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.FreebusyQuery class. Request free/busy information for a set of calendars
 type: docs
-weight: 15740
+weight: 15770
 url: /net/aspose.email.clients.google/freebusyquery/
 ---
 ## FreebusyQuery class

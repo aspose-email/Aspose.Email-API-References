@@ -3,7 +3,7 @@ title: Enum NoteColor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.NoteColor enum. Specifies the suggested background color of the Note object
 type: docs
-weight: 19110
+weight: 19160
 url: /net/aspose.email.mapi/notecolor/
 ---
 ## NoteColor enumeration

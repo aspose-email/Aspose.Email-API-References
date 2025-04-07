@@ -3,7 +3,7 @@ title: IGmailClient.FetchAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches appointment by identifier
 type: docs
-weight: 130
+weight: 170
 url: /net/aspose.email.clients.google/igmailclient/fetchappointment/
 ---
 ## IGmailClient.FetchAppointment method

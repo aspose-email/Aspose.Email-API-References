@@ -3,7 +3,7 @@ title: Enum ParticipationStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ParticipationStatus enum. Identifies the participation status for the calendar user
 type: docs
-weight: 19490
+weight: 19540
 url: /net/aspose.email/participationstatus/
 ---
 ## ParticipationStatus enumeration

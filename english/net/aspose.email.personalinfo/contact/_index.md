@@ -3,7 +3,7 @@ title: Class Contact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.Contact class. Represents contact information
 type: docs
-weight: 19530
+weight: 19580
 url: /net/aspose.email.personalinfo/contact/
 ---
 ## Contact class

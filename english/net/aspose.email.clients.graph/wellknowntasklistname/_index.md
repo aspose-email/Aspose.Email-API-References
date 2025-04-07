@@ -3,7 +3,7 @@ title: Enum WellknownTaskListName
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.WellknownTaskListName enum. Property indicating the list name if the given list is a wellknown list. Possible values are none defaultList flaggedEmails unknownFutureValue
 type: docs
-weight: 16190
+weight: 16240
 url: /net/aspose.email.clients.graph/wellknowntasklistname/
 ---
 ## WellknownTaskListName enumeration

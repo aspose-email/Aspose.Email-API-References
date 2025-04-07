@@ -3,7 +3,7 @@ title: Class ImapQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapQueryBuilder class. Represents the builder of search expression that used by IMAP protocol
 type: docs
-weight: 16570
+weight: 16620
 url: /net/aspose.email.clients.imap/imapquerybuilder/
 ---
 ## ImapQueryBuilder class

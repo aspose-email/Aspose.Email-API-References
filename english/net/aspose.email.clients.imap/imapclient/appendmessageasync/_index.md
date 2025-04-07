@@ -1,38 +1,11 @@
 ---
 title: ImapClient.AppendMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Uploads the mail message to the current folder If current folder hasnt been specified default folder is used
+description: ImapClient method. Uploads the mail message to the specified folder
 type: docs
 weight: 380
 url: /net/aspose.email.clients.imap/imapclient/appendmessageasync/
 ---
-## AppendMessageAsync(IConnection, MailMessage) {#appendmessageasync}
-
-Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
-
-```csharp
-public Task<string> AppendMessageAsync(IConnection connection, MailMessage message)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| message | MailMessage | Mail message to be upload |
-
-### Return Value
-
-Task object, with delegate for this operation
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [MailMessage](../../../aspose.email/mailmessage/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## AppendMessageAsync(IConnection, string, MailMessage) {#appendmessageasync_3}
 
 Uploads the mail message to the specified folder
@@ -430,6 +403,33 @@ Task object, with delegate for this operation
 
 ### See Also
 
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## AppendMessageAsync(IConnection, MailMessage) {#appendmessageasync}
+
+Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
+
+```csharp
+public Task<string> AppendMessageAsync(IConnection connection, MailMessage message)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| message | MailMessage | Mail message to be upload |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [MailMessage](../../../aspose.email/mailmessage/)
 * class [ImapClient](../)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient/)
 * assembly [Aspose.Email](../../../)

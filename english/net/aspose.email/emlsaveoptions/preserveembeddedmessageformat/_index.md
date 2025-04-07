@@ -3,7 +3,7 @@ title: EmlSaveOptions.PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
 description: EmlSaveOptions property. Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email/emlsaveoptions/preserveembeddedmessageformat/
 ---
 ## EmlSaveOptions.PreserveEmbeddedMessageFormat property

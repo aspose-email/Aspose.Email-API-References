@@ -3,7 +3,7 @@ title: IGmailClient.FetchAccessRule
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches access rule
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.email.clients.google/igmailclient/fetchaccessrule/
 ---
 ## IGmailClient.FetchAccessRule method

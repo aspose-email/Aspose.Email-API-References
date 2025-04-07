@@ -3,7 +3,7 @@ title: Class MapiObjectProperty
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiObjectProperty class. Represents a Custom object included in Outlook Message documents
 type: docs
-weight: 18710
+weight: 18760
 url: /net/aspose.email.mapi/mapiobjectproperty/
 ---
 ## MapiObjectProperty class

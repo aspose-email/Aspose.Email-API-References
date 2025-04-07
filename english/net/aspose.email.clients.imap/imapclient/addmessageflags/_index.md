@@ -1,11 +1,63 @@
 ---
 title: ImapClient.AddMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: ImapClient method. Adds the flags to the message
+description: ImapClient method. Adds the flags of the message
 type: docs
 weight: 350
 url: /net/aspose.email.clients.imap/imapclient/addmessageflags/
 ---
+## AddMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_19}
+
+Adds the flags of the message
+
+```csharp
+public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, 
+    long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## AddMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_5}
+
+Adds the flags of the message
+
+```csharp
+public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
+    ImapMessageFlags flags, long modificationSequence)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+### See Also
+
+* interface [IConnection](../../../aspose.email.clients/iconnection/)
+* class [ImapMessageInfo](../../imapmessageinfo/)
+* class [ImapMessageFlags](../../imapmessageflags/)
+* class [ImapClient](../)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
+* assembly [Aspose.Email](../../../)
+
+---
+
 ## AddMessageFlags(IConnection, int, ImapMessageFlags) {#addmessageflags}
 
 Adds the flags to the message
@@ -629,58 +681,6 @@ public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo>
 | connection | IConnection | Connection to a server |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | flags | ImapMessageFlags | The flags to be changed |
-
-### See Also
-
-* interface [IConnection](../../../aspose.email.clients/iconnection/)
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## AddMessageFlags(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_19}
-
-Adds the flags of the message
-
-```csharp
-public void AddMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, 
-    long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
-
-### See Also
-
-* class [ImapMessageInfo](../../imapmessageinfo/)
-* class [ImapMessageFlags](../../imapmessageflags/)
-* class [ImapClient](../)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## AddMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#addmessageflags_5}
-
-Adds the flags of the message
-
-```csharp
-public void AddMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
-    ImapMessageFlags flags, long modificationSequence)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
-| flags | ImapMessageFlags | The flags to be changed |
-| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
 ### See Also
 

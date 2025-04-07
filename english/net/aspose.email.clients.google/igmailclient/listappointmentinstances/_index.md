@@ -3,7 +3,7 @@ title: IGmailClient.ListAppointmentInstances
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets list of an appointment instances for calendar
 type: docs
-weight: 260
+weight: 320
 url: /net/aspose.email.clients.google/igmailclient/listappointmentinstances/
 ---
 ## IGmailClient.ListAppointmentInstances method
