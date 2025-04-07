@@ -3,7 +3,7 @@ title: IGmailClient
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 230
 url: /python-net/aspose.email.clients.google/igmailclient/
 ---
 
@@ -35,6 +35,10 @@ The IGmailClient type exposes the following members:
 |get_photo(photo_uri)|  |
 |create_contact(contact)|  |
 |create_contact(contact, email_address)|  |
+|append_message(msg)|  |
+|append_message(msg, label_name)|  |
+|delete_message(id, move_to_trash)|  |
+|delete_message(id)|  |
 |fetch_calendar(calendar_id)|  |
 |delete_calendar(calendar_id)|  |
 |clear_calendar(calendar_id)|  |
@@ -61,6 +65,13 @@ The IGmailClient type exposes the following members:
 |delete_contact_photo(contact_photo)|  |
 |update_contact_photo(contact_photo)|  |
 |create_contact_photo(contact, image_data)|  |
+|list_messages()|  |
+|fetch_message(id)|  |
+|send_message(msg)|  |
+|list_filters()|  |
+|create_filter(filter)|  |
+|delete_filter(id)|  |
+|get_filter(id)|  |
 |refresh_token()|  |
 
 ### See Also

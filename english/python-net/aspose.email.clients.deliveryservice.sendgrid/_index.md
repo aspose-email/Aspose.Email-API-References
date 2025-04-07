@@ -15,3 +15,7 @@ the aspose.email.clients.deliveryservice.sendgrid namespace provides<br/>       
 | :- | :- |
 |[SendGridClient](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/)|Represents the SendGrid client|
 |[SendGridClientOptions](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/)|Options to set the SendGridClient parameters.|
+## Enumerations
+| Enumeration | Description |
+| :- | :- |
+|[SendGridRegion](/email/python-net/aspose.email.clients.deliveryservice.sendgrid/sendgridregion/)|Represents the SendGrid Region|

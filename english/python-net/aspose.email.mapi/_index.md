@@ -93,6 +93,7 @@ the aspose.email.mapi namespace contains classes that represent outlook messages
 |[PidNamePropertyDescriptor](/email/python-net/aspose.email.mapi/pidnamepropertydescriptor/)|Class contains property description information.|
 |[PidTagPropertyDescriptor](/email/python-net/aspose.email.mapi/pidtagpropertydescriptor/)|Class contains property description information.|
 |[PropertyDescriptor](/email/python-net/aspose.email.mapi/propertydescriptor/)|Class contains property description information.|
+|[ReferenceAttachmentOptions](/email/python-net/aspose.email.mapi/referenceattachmentoptions/)|Represents configuration options for adding a reference attachment to a MAPI message.|
 |[UserReaction](/email/python-net/aspose.email.mapi/userreaction/)|Represents a user's reaction.|
 |[WebDavContactSaveOptions](/email/python-net/aspose.email.mapi/webdavcontactsaveoptions/)|Specifies the contact save options.|
 ## Enumerations

@@ -31,6 +31,7 @@ The EmlSaveOptions type exposes the following members:
 |preserve_signed_content|Gets or sets a value indicating whether it is necessary to save signed message<br/>            without changes of content to provide correctly structure of digital sign.<br/>            By default the value is false.|
 |check_body_content_encoding|Defines whether need check message body content encoding when saving. By default the value is false.|
 |preserve_embedded_message_format|Gets or sets a value indicating whether it is necessary to preserve MSG format of <br/>            embedded message at converting to MailMessage. By default the value is false.|
+|boundaries_template|Gets or sets the boundary template for the message.<br/>            Default value is null.|
 ## Methods
 | Name | Description |
 | :- | :- |

@@ -3,7 +3,7 @@ title: FreebusyQuery
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 160
 url: /python-net/aspose.email.clients.google/freebusyquery/
 ---
 

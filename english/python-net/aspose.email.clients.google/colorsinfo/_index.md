@@ -3,7 +3,7 @@ title: ColorsInfo
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.email.clients.google/colorsinfo/
 ---
 

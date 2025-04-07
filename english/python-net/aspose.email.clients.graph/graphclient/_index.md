@@ -20,6 +20,7 @@ The GraphClient type exposes the following members:
 |token_provider|Gets or sets an object allows to retrieve OAuth access token.|
 |tenant_id|Gets or sets tenant identifier|
 |resource_id|Gets or sets resource id.<br/>            For instance for users it may be user principal name (UPN) or user id|
+|end_point|Gets or sets Microsoft Graph REST API endpoint.<br/>            If not specified, the default is "https://graph.microsoft.com".|
 |resource|Gets or sets resource type.|
 ## Methods
 | Name | Description |

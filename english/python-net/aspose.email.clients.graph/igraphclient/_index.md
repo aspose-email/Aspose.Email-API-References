@@ -20,6 +20,7 @@ The IGraphClient type exposes the following members:
 |timeout|Gets or sets the number of milliseconds to wait before the operation times out.<br/>            The default value is 100,000 milliseconds (100 seconds).|
 |tenant_id|Gets or sets tenant identifier|
 |resource_id|Gets or sets resource id.<br/>            For instance for users it may be user principal name (UPN) or user id|
+|end_point|Gets or sets Microsoft Graph REST API endpoint.<br/>            If not specified, the default is "https://graph.microsoft.com".|
 |resource|Gets or sets resource type.|
 ## Methods
 | Name | Description |
