@@ -3,7 +3,7 @@ title: Enum MapiTaskFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskFlags enum. Contains indication flags of the Task object
 type: docs
-weight: 18870
+weight: 18920
 url: /net/aspose.email.mapi/mapitaskflags/
 ---
 ## MapiTaskFlags enumeration

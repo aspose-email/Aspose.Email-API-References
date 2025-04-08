@@ -3,7 +3,7 @@ title: Class ContentDisposition
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mime.ContentDisposition class. Represents a ContentDisposition header
 type: docs
-weight: 19340
+weight: 19390
 url: /net/aspose.email.mime/contentdisposition/
 ---
 ## ContentDisposition class

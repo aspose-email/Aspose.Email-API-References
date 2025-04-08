@@ -3,7 +3,7 @@ title: Enum MapiCalendarDayOfWeek
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarDayOfWeek enum. Enumerates the days of week of the mapi calendar recurrence pattern
 type: docs
-weight: 18090
+weight: 18140
 url: /net/aspose.email.mapi/mapicalendardayofweek/
 ---
 ## MapiCalendarDayOfWeek enumeration

@@ -3,7 +3,7 @@ title: EmlSaveOptions.CheckBodyContentEncoding
 second_title: Aspose.Email for .NET API Reference
 description: EmlSaveOptions property. Defines whether need check message body content encoding when saving. By default the value is false
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email/emlsaveoptions/checkbodycontentencoding/
 ---
 ## EmlSaveOptions.CheckBodyContentEncoding property

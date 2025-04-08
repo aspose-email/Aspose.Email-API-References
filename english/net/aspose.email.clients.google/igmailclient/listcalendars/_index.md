@@ -3,7 +3,7 @@ title: IGmailClient.ListCalendars
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets array of calendars
 type: docs
-weight: 280
+weight: 340
 url: /net/aspose.email.clients.google/igmailclient/listcalendars/
 ---
 ## ListCalendars() {#listcalendars}

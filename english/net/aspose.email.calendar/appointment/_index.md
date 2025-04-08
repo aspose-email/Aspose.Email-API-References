@@ -72,7 +72,8 @@ public class Appointment
 | [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext/#getappointmenttext)() | Gets the calendar text. |
 | [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext/#getappointmenttext_1)(AppointmentFormattingOptions) | Gets the calendar text. |
 | [RequestApointment](../../aspose.email.calendar/appointment/requestapointment/#requestapointment)() | Requests the apointment. |
-| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment/#requestapointment_1)(int) | Requests the apointment. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment/#requestapointment_1)(AppointmentMethodType) | Requests the apointment. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment/#requestapointment_2)(int) | Requests the apointment. |
 | [ResetTimeZone](../../aspose.email.calendar/appointment/resettimezone/)() | Set local time zone |
 | [Save](../../aspose.email.calendar/appointment/save/#save)(Stream) | Saves appointment to the file with iCalendar format using te default save options |
 | [Save](../../aspose.email.calendar/appointment/save/#save_3)(string) | Saves appointment to the file with iCalendar format using te default save options |

@@ -3,7 +3,7 @@ title: Class KnownPropertyList
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.KnownPropertyList class. The readonly Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation MSOXPROPS. Coincides MSOXPROPS revision 16.2 from 7/31/2014
 type: docs
-weight: 17970
+weight: 18020
 url: /net/aspose.email.mapi/knownpropertylist/
 ---
 ## KnownPropertyList class

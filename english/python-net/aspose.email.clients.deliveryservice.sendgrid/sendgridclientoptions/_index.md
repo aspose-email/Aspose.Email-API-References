@@ -20,7 +20,8 @@ The SendGridClientOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |api_key|Private API key|
-|sand_box_mode|Set the sandbox mode setting.|
+|sand_box_mode|Gets or sets the sandbox mode setting.|
+|region|Gets or sets the SendGrid Region.|
 
 ### See Also
 

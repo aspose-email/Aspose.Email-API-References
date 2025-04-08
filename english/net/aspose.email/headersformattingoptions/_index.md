@@ -3,7 +3,7 @@ title: Class HeadersFormattingOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HeadersFormattingOptions class. Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format
 type: docs
-weight: 17630
+weight: 17680
 url: /net/aspose.email/headersformattingoptions/
 ---
 ## HeadersFormattingOptions class
@@ -34,6 +34,13 @@ public abstract class HeadersFormattingOptions : SaveOptions
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
 | [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields/) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders/) { get; } | Gets list of headers for rendering. |
+| [Timeout](../../aspose.email/headersformattingoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec. |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: EmlSaveOptions.PreserveSignedContent
 second_title: Aspose.Email for .NET API Reference
 description: EmlSaveOptions property. Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email/emlsaveoptions/preservesignedcontent/
 ---
 ## EmlSaveOptions.PreserveSignedContent property

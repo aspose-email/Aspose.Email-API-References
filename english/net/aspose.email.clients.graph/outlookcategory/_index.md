@@ -3,7 +3,7 @@ title: Class OutlookCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.OutlookCategory class. Represents a category by which a user can group Outlook items such as messages and events. The user defines categories in a master list and can apply one or more of these userdefined categories to an item. https//docs.microsoft.com/enus/graph/api/resources/outlookcategoryviewgraphrest1.0
 type: docs
-weight: 16110
+weight: 16160
 url: /net/aspose.email.clients.graph/outlookcategory/
 ---
 ## OutlookCategory class

@@ -3,7 +3,7 @@ title: EmlSaveOptions.FileCompatibilityMode
 second_title: Aspose.Email for .NET API Reference
 description: EmlSaveOptions property. Defines inner conversionsthat are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email/emlsaveoptions/filecompatibilitymode/
 ---
 ## EmlSaveOptions.FileCompatibilityMode property

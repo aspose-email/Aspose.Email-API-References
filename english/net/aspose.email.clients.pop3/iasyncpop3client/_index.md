@@ -3,7 +3,7 @@ title: Interface IAsyncPop3Client
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.IAsyncPop3Client interface. Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 POP3
 type: docs
-weight: 16960
+weight: 17010
 url: /net/aspose.email.clients.pop3/iasyncpop3client/
 ---
 ## IAsyncPop3Client interface

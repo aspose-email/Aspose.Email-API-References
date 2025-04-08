@@ -3,7 +3,7 @@ title: Class CalendarInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.CalendarInfo class. Represents information about calendar
 type: docs
-weight: 15890
+weight: 15940
 url: /net/aspose.email.clients.graph/calendarinfo/
 ---
 ## CalendarInfo class

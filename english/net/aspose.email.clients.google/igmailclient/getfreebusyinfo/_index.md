@@ -3,7 +3,7 @@ title: IGmailClient.GetFreebusyInfo
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets free/busy information
 type: docs
-weight: 200
+weight: 260
 url: /net/aspose.email.clients.google/igmailclient/getfreebusyinfo/
 ---
 ## IGmailClient.GetFreebusyInfo method

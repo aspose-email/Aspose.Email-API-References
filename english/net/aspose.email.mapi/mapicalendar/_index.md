@@ -3,7 +3,7 @@ title: Class MapiCalendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendar class. Represents a MAPI calendar item
 type: docs
-weight: 18030
+weight: 18080
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class
@@ -97,6 +97,7 @@ public sealed class MapiCalendar : MapiMessageItemBase
 | [SetMessageFlags](../../aspose.email.mapi/mapimessageitembase/setmessageflags/)(MapiMessageFlags) | Sets the message flags. |
 | virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty/)(MapiProperty) | Sets the property. |
 | override [SetProperty](../../aspose.email.mapi/mapimessageitembase/setproperty/)(PropertyDescriptor, object) | Sets MAPI property. |
+| [SetStateForced](../../aspose.email.mapi/mapicalendar/setstateforced/)(MapiCalendarState) | Sets the state of the calendar object, overriding any default behavior. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata/)(long) | Try to get the property data with specified tag key. |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime/)(long, ref DateTime) | Gets the value of the specified property as DateTime type. A return value indicates whether the operation succeeded. |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/)(long, ref int) | Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded. |

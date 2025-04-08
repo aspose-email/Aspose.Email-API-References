@@ -3,7 +3,7 @@ title: IGmailClient.UpdateCalendar
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Updates a calendar
 type: docs
-weight: 320
+weight: 410
 url: /net/aspose.email.clients.google/igmailclient/updatecalendar/
 ---
 ## UpdateCalendar(Calendar) {#updatecalendar}

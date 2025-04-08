@@ -3,7 +3,7 @@ title: Enum SmtpDeliveryMethod
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpDeliveryMethod enum. Smtp delivery method
 type: docs
-weight: 17150
+weight: 17200
 url: /net/aspose.email.clients.smtp/smtpdeliverymethod/
 ---
 ## SmtpDeliveryMethod enumeration

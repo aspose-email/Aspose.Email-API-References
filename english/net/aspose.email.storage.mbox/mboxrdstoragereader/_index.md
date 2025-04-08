@@ -3,7 +3,7 @@ title: Class MboxrdStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxrdStorageReader class. Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients
 type: docs
-weight: 20320
+weight: 20370
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -34,8 +34,14 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/)() | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/)(MailQuery) | Enumerates the message information that matches the specified query. |
+| [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/)(int, int) | Enumerates a specified number of message information entries, starting from the given index. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)(EmlLoadOptions) | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)(MailQuery) | Enumerates the mail messages that match the specified query. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)(EmlLoadOptions, MailQuery) | Enumerates the mail messages that match the specified query, using the provided load options. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)(int, int) | Enumerates a specified number of mail messages, starting from the given index. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages/)(EmlLoadOptions, int, int) | Enumerates a specified number of mail messages, starting from the given index, using the provided load options. |
 | [ExtractMessage](../../aspose.email.storage.mbox/mboxstoragereader/extractmessage/)(string, EmlLoadOptions) | Get the message from MBOX. |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxrdstoragereader/gettotalitemscount/)() | Returns the number of messages in a storage. |
 | override [NextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/nextmessage/)() | Gets the next message info. |

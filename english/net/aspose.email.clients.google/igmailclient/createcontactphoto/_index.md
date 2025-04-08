@@ -3,7 +3,7 @@ title: IGmailClient.CreateContactPhoto
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates contact photo
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.clients.google/igmailclient/createcontactphoto/
 ---
 ## IGmailClient.CreateContactPhoto method

@@ -3,7 +3,7 @@ title: IBaseGmailClient
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 220
 url: /python-net/aspose.email.clients.google/ibasegmailclient/
 ---
 

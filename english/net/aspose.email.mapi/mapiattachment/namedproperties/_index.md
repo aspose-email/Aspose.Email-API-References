@@ -3,7 +3,7 @@ title: MapiAttachment.NamedProperties
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets the named properties of message
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email.mapi/mapiattachment/namedproperties/
 ---
 ## MapiAttachment.NamedProperties property

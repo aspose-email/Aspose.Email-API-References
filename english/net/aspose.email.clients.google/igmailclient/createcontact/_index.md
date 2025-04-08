@@ -3,7 +3,7 @@ title: IGmailClient.CreateContact
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates contact for specified email
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.clients.google/igmailclient/createcontact/
 ---
 ## CreateContact(Contact) {#createcontact}

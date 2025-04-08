@@ -3,7 +3,7 @@ title: IGmailClient.GetContact
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches contact
 type: docs
-weight: 180
+weight: 230
 url: /net/aspose.email.clients.google/igmailclient/getcontact/
 ---
 ## GetContact(string) {#getcontact_1}

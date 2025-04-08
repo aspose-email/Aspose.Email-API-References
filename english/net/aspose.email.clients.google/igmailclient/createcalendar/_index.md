@@ -3,7 +3,7 @@ title: IGmailClient.CreateCalendar
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Creates a calendar
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.clients.google/igmailclient/createcalendar/
 ---
 ## CreateCalendar(Calendar) {#createcalendar}

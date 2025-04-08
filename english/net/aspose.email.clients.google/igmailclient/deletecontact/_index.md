@@ -3,7 +3,7 @@ title: IGmailClient.DeleteContact
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Deletes specified contact
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.email.clients.google/igmailclient/deletecontact/
 ---
 ## IGmailClient.DeleteContact method

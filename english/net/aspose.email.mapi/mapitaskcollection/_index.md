@@ -3,7 +3,7 @@ title: Class MapiTaskCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskCollection class. Represents the collection of MapiTask
 type: docs
-weight: 18860
+weight: 18910
 url: /net/aspose.email.mapi/mapitaskcollection/
 ---
 ## MapiTaskCollection class

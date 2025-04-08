@@ -3,7 +3,7 @@ title: ContactFieldsSet
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5170
+weight: 5220
 url: /python-net/aspose.email/contactfieldsset/
 ---
 

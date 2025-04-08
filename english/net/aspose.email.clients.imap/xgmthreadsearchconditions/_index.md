@@ -3,7 +3,7 @@ title: Class XGMThreadSearchConditions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.XGMThreadSearchConditions class. Provides the search conditions to retrieve email thread. Compatibles with XGMEXT1 IMAP extension described at https//developers.google.com/gmail/imap/imapextensionschecking_for_the_presence_of_extensions
 type: docs
-weight: 16860
+weight: 16910
 url: /net/aspose.email.clients.imap/xgmthreadsearchconditions/
 ---
 ## XGMThreadSearchConditions class

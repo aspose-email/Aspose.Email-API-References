@@ -3,7 +3,7 @@ title: IGmailClient.GetAllContacts
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches all contacts
 type: docs
-weight: 150
+weight: 200
 url: /net/aspose.email.clients.google/igmailclient/getallcontacts/
 ---
 ## IGmailClient.GetAllContacts method

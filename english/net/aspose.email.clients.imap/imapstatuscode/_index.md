@@ -3,7 +3,7 @@ title: Enum ImapStatusCode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapStatusCode enum. Represents the status responses
 type: docs
-weight: 16610
+weight: 16660
 url: /net/aspose.email.clients.imap/imapstatuscode/
 ---
 ## ImapStatusCode enumeration

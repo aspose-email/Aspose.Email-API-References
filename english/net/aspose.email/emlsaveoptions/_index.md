@@ -3,7 +3,7 @@ title: Class EmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.EmlSaveOptions class. Allows to specify additional options when saving MailMessage to Eml and Emlx format
 type: docs
-weight: 17390
+weight: 17440
 url: /net/aspose.email/emlsaveoptions/
 ---
 ## EmlSaveOptions class
@@ -24,6 +24,7 @@ public class EmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
+| [BoundariesTemplate](../../aspose.email/emlsaveoptions/boundariestemplate/) { get; set; } | Gets or sets the boundary template for the message. Default value is null. |
 | [CheckBodyContentEncoding](../../aspose.email/emlsaveoptions/checkbodycontentencoding/) { get; set; } | Defines whether need check message body content encoding when saving. By default the value is false. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [FileCompatibilityMode](../../aspose.email/emlsaveoptions/filecompatibilitymode/) { get; set; } | Defines inner conversions,that are necessarily to be done when saving a message. The default value is FileCompatibilityMode.None. |

@@ -3,7 +3,7 @@ title: MapiAttachment.DisplayName
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets the display name of the ole object in an attachment
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.mapi/mapiattachment/displayname/
 ---
 ## MapiAttachment.DisplayName property

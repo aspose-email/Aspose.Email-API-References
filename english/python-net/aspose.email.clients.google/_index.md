@@ -15,20 +15,24 @@ the aspose.email.clients.google namespace provides classes for access to google 
 | :- | :- |
 |[AccessControlRule](/email/python-net/aspose.email.clients.google/accesscontrolrule/)|Access control rule.|
 |[AclScope](/email/python-net/aspose.email.clients.google/aclscope/)|The scope of the access rule.|
+|[Action](/email/python-net/aspose.email.clients.google/action/)|A set of actions to perform on a message.|
 |[BaseDataObject](/email/python-net/aspose.email.clients.google/basedataobject/)|Base class for google data objects.|
 |[Calendar](/email/python-net/aspose.email.clients.google/calendar/)|A set of metadata, such as a description, for a single calendar.|
 |[Colors](/email/python-net/aspose.email.clients.google/colors/)|Set of colors for calendar object|
 |[ColorsInfo](/email/python-net/aspose.email.clients.google/colorsinfo/)|Contains colors definition for calendars and events|
 |[ConferenceProperties](/email/python-net/aspose.email.clients.google/conferenceproperties/)|Conferencing properties for this calendar.|
 |[ContactGroupCollection](/email/python-net/aspose.email.clients.google/contactgroupcollection/)|Represents collection of GmailContactGroup objects|
+|[Criteria](/email/python-net/aspose.email.clients.google/criteria/)|Message matching criteria.|
 |[ErrorDetails](/email/python-net/aspose.email.clients.google/errordetails/)|Error informnation|
 |[ExtendedCalendar](/email/python-net/aspose.email.clients.google/extendedcalendar/)|A set of extended metadata, such as a colors, for a single calendar.|
+|[Filter](/email/python-net/aspose.email.clients.google/filter/)|Resource definition for Gmail filters. Filters apply to specific messages instead of an entire email thread.|
 |[FreebusyCalendarInfo](/email/python-net/aspose.email.clients.google/freebusycalendarinfo/)|Defines list of free/busy information for specified calendar.|
 |[FreebusyGroupInfo](/email/python-net/aspose.email.clients.google/freebusygroupinfo/)|Specifies list of calendars that are members of the groups.|
 |[FreebusyQuery](/email/python-net/aspose.email.clients.google/freebusyquery/)|Request free/busy information for a set of calendars.|
 |[FreebusyResponse](/email/python-net/aspose.email.clients.google/freebusyresponse/)|Freebusy response|
 |[Gadget](/email/python-net/aspose.email.clients.google/gadget/)|A gadget that extends this event.|
 |[GmailClient](/email/python-net/aspose.email.clients.google/gmailclient/)|Base class for Gmail client|
+|[GmailMessageInfo](/email/python-net/aspose.email.clients.google/gmailmessageinfo/)|The message resource representation that contains only an id and a threadId.|
 |[GoogleContactGroup](/email/python-net/aspose.email.clients.google/googlecontactgroup/)|Represents a group <br/>            which owns the contact|
 |[IBaseGmailClient](/email/python-net/aspose.email.clients.google/ibasegmailclient/)|Interface for base class of Gmail client|
 |[IGmailClient](/email/python-net/aspose.email.clients.google/igmailclient/)|Represents the interface for Gmail client|
@@ -43,3 +47,4 @@ the aspose.email.clients.google namespace provides classes for access to google 
 |[NotificationMethod](/email/python-net/aspose.email.clients.google/notificationmethod/)|The method used by this notification.|
 |[NotificationType](/email/python-net/aspose.email.clients.google/notificationtype/)|The type of notification.|
 |[ReminderMethods](/email/python-net/aspose.email.clients.google/remindermethods/)|The method used by this reminder.|
+|[SizeComparison](/email/python-net/aspose.email.clients.google/sizecomparison/)|Determines how the size field should be compared to the message size.|

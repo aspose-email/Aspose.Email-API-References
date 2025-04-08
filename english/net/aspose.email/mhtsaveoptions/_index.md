@@ -3,7 +3,7 @@ title: Class MhtSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MhtSaveOptions class. Allows to specify additional options when saving MailMessage to Mhtml format
 type: docs
-weight: 19290
+weight: 19340
 url: /net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class
@@ -42,13 +42,13 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [SaveAttachments](../../aspose.email/mhtsaveoptions/saveattachments/) { get; set; } | Gets or sets a value indicating whether to save attachments. |
 | [SavedHeaders](../../aspose.email/mhtsaveoptions/savedheaders/) { get; } | Gets list of headers which will be present in saved mhtml content. Default value is empty list. |
 | [SkipInlineImages](../../aspose.email/mhtsaveoptions/skipinlineimages/) { get; set; } | Defines whether skip references on images at saving in mhtml or not. Default value is false. |
-| [Timeout](../../aspose.email/mhtsaveoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec. |
+| [Timeout](../../aspose.email/headersformattingoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec. |
 
 ## Events
 
 | Name | Description |
 | --- | --- |
-| event [TimeoutReached](../../aspose.email/mhtsaveoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
+| event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
 ## Examples
 

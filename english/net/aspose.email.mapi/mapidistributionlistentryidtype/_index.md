@@ -3,7 +3,7 @@ title: Enum MapiDistributionListEntryIdType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiDistributionListEntryIdType enum. Specifies the type of EntryID
 type: docs
-weight: 18530
+weight: 18580
 url: /net/aspose.email.mapi/mapidistributionlistentryidtype/
 ---
 ## MapiDistributionListEntryIdType enumeration

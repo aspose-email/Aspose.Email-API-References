@@ -3,7 +3,7 @@ title: Enum NamedPropertyKind
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.NamedPropertyKind enum. Identifies MessageObjectProperty kind
 type: docs
-weight: 19100
+weight: 19150
 url: /net/aspose.email.mapi.msg/namedpropertykind/
 ---
 ## NamedPropertyKind enumeration

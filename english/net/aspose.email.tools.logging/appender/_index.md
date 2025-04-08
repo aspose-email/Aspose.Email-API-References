@@ -3,7 +3,7 @@ title: Class Appender
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.Appender class. Represents the base class for Appender
 type: docs
-weight: 20810
+weight: 20860
 url: /net/aspose.email.tools.logging/appender/
 ---
 ## Appender class

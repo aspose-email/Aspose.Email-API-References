@@ -3,7 +3,7 @@ title: Class HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HtmlSaveOptions class. Allows to specify additional options when saving MailMessage to Html format
 type: docs
-weight: 17660
+weight: 17710
 url: /net/aspose.email/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -37,6 +37,7 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields/) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders/) { get; } | Gets list of headers for rendering. |
 | [ResourceRenderingMode](../../aspose.email/htmlsaveoptions/resourcerenderingmode/) { get; set; } | Provides set various modes of rendering resources in html. Default value EmbedIntoHtml. |
+| [Timeout](../../aspose.email/headersformattingoptions/timeout/) { get; set; } | Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec. |
 | [UseRelativePathToResources](../../aspose.email/htmlsaveoptions/userelativepathtoresources/) { get; set; } | Default value is false. |
 
 ## Events
@@ -44,6 +45,7 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | Name | Description |
 | --- | --- |
 | event [ResourceHtmlRendering](../../aspose.email/htmlsaveoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
+| event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
 ### See Also
 

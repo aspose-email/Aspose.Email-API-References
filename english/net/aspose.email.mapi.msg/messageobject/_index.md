@@ -3,7 +3,7 @@ title: Class MessageObject
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.Msg.MessageObject class. Represents an Outlook message object. Evaluation limits only 1 attachment and 1 recipient are read when message is being loaded watermark will be added when the message is being saved
 type: docs
-weight: 19000
+weight: 19050
 url: /net/aspose.email.mapi.msg/messageobject/
 ---
 ## MessageObject class

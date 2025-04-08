@@ -3,7 +3,7 @@ title: Class ImapMessageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapMessageInfo class. Represents a Imap message object
 type: docs
-weight: 16480
+weight: 16530
 url: /net/aspose.email.clients.imap/imapmessageinfo/
 ---
 ## ImapMessageInfo class

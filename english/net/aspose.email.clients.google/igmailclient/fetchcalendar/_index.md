@@ -3,7 +3,7 @@ title: IGmailClient.FetchCalendar
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Fetches calendar by identifier
 type: docs
-weight: 140
+weight: 180
 url: /net/aspose.email.clients.google/igmailclient/fetchcalendar/
 ---
 ## IGmailClient.FetchCalendar method

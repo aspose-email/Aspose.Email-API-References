@@ -3,7 +3,7 @@ title: AttachmentProviderType
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 5160
+weight: 5210
 url: /python-net/aspose.email/attachmentprovidertype/
 ---
 

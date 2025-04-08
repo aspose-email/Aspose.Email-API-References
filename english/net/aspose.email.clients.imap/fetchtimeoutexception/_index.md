@@ -3,7 +3,7 @@ title: Class FetchTimeoutException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.FetchTimeoutException class. Represents the exception that is thrown when a message can not be read within the specified time
 type: docs
-weight: 16340
+weight: 16390
 url: /net/aspose.email.clients.imap/fetchtimeoutexception/
 ---
 ## FetchTimeoutException class

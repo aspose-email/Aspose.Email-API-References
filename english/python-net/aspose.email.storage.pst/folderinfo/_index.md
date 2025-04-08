@@ -44,6 +44,10 @@ The FolderInfo type exposes the following members:
 |get_contents(start_index, count)|  |
 |enumerate_folders()|  |
 |enumerate_folders(kind)|  |
+|enumerate_messages()|  |
+|enumerate_messages(mail_query)|  |
+|enumerate_messages(kind)|  |
+|enumerate_messages(start_index, count)|  |
 |add_sub_folder(name, create_hierarchy)|  |
 |add_sub_folder(name)|  |
 |add_sub_folder(name, container_class)|  |
@@ -52,7 +56,6 @@ The FolderInfo type exposes the following members:
 |merge_with(source_folder, recursive_handler)|  |
 |change_messages(entry_id_collection, updated_properties)|  |
 |change_messages(updated_properties)|  |
-|enumerate_messages()|  |
 |enumerate_message_objects()|  |
 |enumerate_mapi_messages()|  |
 |enumerate_messages_entry_id()|  |

@@ -3,7 +3,7 @@ title: MapiAttachment.RemoveProperty
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment method. Provides correctly removing property from all collections
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapiattachment/removeproperty/
 ---
 ## MapiAttachment.RemoveProperty method

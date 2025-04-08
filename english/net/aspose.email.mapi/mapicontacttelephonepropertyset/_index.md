@@ -3,7 +3,7 @@ title: Class MapiContactTelephonePropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactTelephonePropertySet class. Specify optional telephone numbers for the contact
 type: docs
-weight: 18490
+weight: 18540
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet class

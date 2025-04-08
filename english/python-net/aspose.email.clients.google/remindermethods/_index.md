@@ -3,7 +3,7 @@ title: ReminderMethods
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 310
 url: /python-net/aspose.email.clients.google/remindermethods/
 ---
 

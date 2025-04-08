@@ -3,7 +3,7 @@ title: IGmailClient.UpdateContact
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Updates contact
 type: docs
-weight: 330
+weight: 420
 url: /net/aspose.email.clients.google/igmailclient/updatecontact/
 ---
 ## IGmailClient.UpdateContact method

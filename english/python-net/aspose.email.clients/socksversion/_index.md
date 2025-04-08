@@ -3,7 +3,7 @@ title: SocksVersion
 second_title: Aspose.Email for Python via .NET API Reference
 description: 
 type: docs
-weight: 1720
+weight: 1760
 url: /python-net/aspose.email.clients/socksversion/
 ---
 

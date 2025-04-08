@@ -3,7 +3,7 @@ title: IGmailClient.DeleteCalendar
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Deletes a calendar
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.email.clients.google/igmailclient/deletecalendar/
 ---
 ## IGmailClient.DeleteCalendar method

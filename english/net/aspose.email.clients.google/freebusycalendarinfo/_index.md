@@ -3,7 +3,7 @@ title: Class FreebusyCalendarInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.FreebusyCalendarInfo class. Defines list of free/busy information for specified calendar
 type: docs
-weight: 15720
+weight: 15750
 url: /net/aspose.email.clients.google/freebusycalendarinfo/
 ---
 ## FreebusyCalendarInfo class

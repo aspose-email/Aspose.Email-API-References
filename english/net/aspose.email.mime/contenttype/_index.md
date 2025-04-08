@@ -3,7 +3,7 @@ title: Class ContentType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mime.ContentType class. Represents a ContentType header
 type: docs
-weight: 19350
+weight: 19400
 url: /net/aspose.email.mime/contenttype/
 ---
 ## ContentType class

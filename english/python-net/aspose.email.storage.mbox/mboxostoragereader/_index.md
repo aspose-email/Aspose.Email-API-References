@@ -28,14 +28,20 @@ The MboxoStorageReader type exposes the following members:
 |create_reader(stream, options)|  |
 |create_reader(file_name, options)|  |
 |enumerate_messages()|  |
+|enumerate_messages(query)|  |
+|enumerate_messages(start_index, count)|  |
 |enumerate_messages(options)|  |
+|enumerate_messages(options, query)|  |
+|enumerate_messages(options, start_index, count)|  |
+|enumerate_message_info()|  |
+|enumerate_message_info(query)|  |
+|enumerate_message_info(start_index, count)|  |
 |split_into(chunk_size, output_path)|  |
 |split_into(chunk_size, output_path, part_file_name_prefix)|  |
 |read_next_message(from_marker, options)|  |
 |read_next_message()|  |
 |read_next_message(from_marker)|  |
 |read_next_message(options)|  |
-|enumerate_message_info()|  |
 |extract_message(id, options)|  |
 |next_message()|  |
 |get_total_items_count()|  |
