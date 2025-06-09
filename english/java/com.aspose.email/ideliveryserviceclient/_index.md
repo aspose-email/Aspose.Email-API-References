@@ -3,7 +3,7 @@ title: IDeliveryServiceClient
 second_title: Aspose.Email for Java API Reference
 description: Represents contract for DeliveryServiceClient
 type: docs
-weight: 768
+weight: 776
 url: /java/com.aspose.email/ideliveryserviceclient/
 ---
 

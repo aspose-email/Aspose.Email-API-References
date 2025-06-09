@@ -3,7 +3,7 @@ title: OutlookMessageFormat
 second_title: Aspose.Email for Java API Reference
 description: Represents outlook message format.
 type: docs
-weight: 568
+weight: 579
 url: /java/com.aspose.email/outlookmessageformat/
 ---
 

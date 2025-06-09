@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook Message format document that can be parsed.
 type: docs
-weight: 451
+weight: 466
 url: /java/com.aspose.email/mapimessage/
 ---
 

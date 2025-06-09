@@ -1,16 +1,16 @@
 ---
-title: UserRole
+title: GraphUserRole
 second_title: Aspose.Email for Java API Reference
 description: OneNote user role
 type: docs
-weight: 720
-url: /java/com.aspose.email/userrole/
+weight: 305
+url: /java/com.aspose.email/graphuserrole/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```
-public final class UserRole extends System.Enum
+public final class GraphUserRole extends System.Enum
 ```
 
 OneNote user role
@@ -33,6 +33,7 @@ OneNote user role
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [format(System.Type arg0, Object arg1, String arg2)](#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-) |  |
 | [format(Class<?> arg0, long arg1, String arg2)](#format-java.lang.Class----long-java.lang.String-) |  |
+| [fromString(String userRole)](#fromString-java.lang.String-) |  |
 | [getClass()](#getClass--) |  |
 | [getName(System.Type arg0, Object arg1)](#getName-com.aspose.ms.System.Type-java.lang.Object-) |  |
 | [getName(Class<?> arg0, long arg1)](#getName-java.lang.Class----long-) |  |
@@ -59,6 +60,7 @@ OneNote user role
 | [toObject(System.Type arg0, Object arg1)](#toObject-com.aspose.ms.System.Type-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
 | [toString(Class<?> arg0, long arg1)](#toString-java.lang.Class----long-) |  |
+| [toString(long userRole)](#toString-long-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -185,6 +187,21 @@ public static String format(Class<?> arg0, long arg1, String arg2)
 
 **Returns:**
 java.lang.String
+### fromString(String userRole) {#fromString-java.lang.String-}
+```
+public static long fromString(String userRole)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userRole | java.lang.String |  |
+
+**Returns:**
+long
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -546,6 +563,21 @@ public static String toString(Class<?> arg0, long arg1)
 | --- | --- | --- |
 | arg0 | java.lang.Class<?> |  |
 | arg1 | long |  |
+
+**Returns:**
+java.lang.String
+### toString(long userRole) {#toString-long-}
+```
+public static String toString(long userRole)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userRole | long |  |
 
 **Returns:**
 java.lang.String

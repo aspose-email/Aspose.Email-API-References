@@ -3,7 +3,7 @@ title: MapiDistributionListSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies the DistributionList save options.
 type: docs
-weight: 443
+weight: 458
 url: /java/com.aspose.email/mapidistributionlistsaveoptions/
 ---
 

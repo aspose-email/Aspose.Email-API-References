@@ -3,7 +3,7 @@ title: MapiDistributionList
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI distribution list item.
 type: docs
-weight: 438
+weight: 453
 url: /java/com.aspose.email/mapidistributionlist/
 ---
 

@@ -3,7 +3,7 @@ title: OAuthToken
 second_title: Aspose.Email for Java API Reference
 description: Contains OAuth token data such like token value token type expiration date.
 type: docs
-weight: 554
+weight: 566
 url: /java/com.aspose.email/oauthtoken/
 ---
 

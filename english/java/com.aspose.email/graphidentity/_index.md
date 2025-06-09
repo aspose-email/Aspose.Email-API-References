@@ -1,24 +1,27 @@
 ---
-title: Identity
+title: GraphIdentity
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/identityviewgraph-rest-1.0 The Identity resource represents an identity of an actor.
+description: ... The Identity resource represents an identity of an actor.
 type: docs
-weight: 303
-url: /java/com.aspose.email/identity/
+weight: 289
+url: /java/com.aspose.email/graphidentity/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class Identity
+public class GraphIdentity
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application.
+[...][] The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Identity()](#Identity--) |  |
+| [GraphIdentity()](#GraphIdentity--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,14 +36,14 @@ https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.
 | [notifyAll()](#notifyAll--) |  |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | The identity's display name. |
 | [setId(String value)](#setId-java.lang.String-) | Unique identifier for the identity. |
-| [setThumbnails(ThumbnailSet value)](#setThumbnails-com.aspose.email.ThumbnailSet-) | The ThumbnailSet resource is a keyed collection of thumbnail resources. |
+| [setThumbnails(GraphThumbnailSet value)](#setThumbnails-com.aspose.email.GraphThumbnailSet-) | The ThumbnailSet resource is a keyed collection of thumbnail resources. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Identity() {#Identity--}
+### GraphIdentity() {#GraphIdentity--}
 ```
-public Identity()
+public GraphIdentity()
 ```
 
 
@@ -91,14 +94,14 @@ Unique identifier for the identity.
 java.lang.String
 ### getThumbnails() {#getThumbnails--}
 ```
-public final ThumbnailSet getThumbnails()
+public final GraphThumbnailSet getThumbnails()
 ```
 
 
 The ThumbnailSet resource is a keyed collection of thumbnail resources.
 
 **Returns:**
-[ThumbnailSet](../../com.aspose.email/thumbnailset)
+[GraphThumbnailSet](../../com.aspose.email/graphthumbnailset)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,9 +154,9 @@ Unique identifier for the identity.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setThumbnails(ThumbnailSet value) {#setThumbnails-com.aspose.email.ThumbnailSet-}
+### setThumbnails(GraphThumbnailSet value) {#setThumbnails-com.aspose.email.GraphThumbnailSet-}
 ```
-public final void setThumbnails(ThumbnailSet value)
+public final void setThumbnails(GraphThumbnailSet value)
 ```
 
 
@@ -162,7 +165,7 @@ The ThumbnailSet resource is a keyed collection of thumbnail resources.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ThumbnailSet](../../com.aspose.email/thumbnailset) |  |
+| value | [GraphThumbnailSet](../../com.aspose.email/graphthumbnailset) |  |
 
 ### toString() {#toString--}
 ```

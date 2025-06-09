@@ -100,6 +100,7 @@ Represents a calendar to an e-mail.
 | [notifyAll()](#notifyAll--) |  |
 | [requestApointment()](#requestApointment--) | Requests the apointment. |
 | [requestApointment(int seqId)](#requestApointment-int-) | Requests the apointment. |
+| [requestApointmentByMethodType(int methodType)](#requestApointmentByMethodType-int-) | Requests the appointment. |
 | [resetTimeZone()](#resetTimeZone--) | Set local time zone |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves appointment to the file with iCalendar format using te default save options |
 | [save(OutputStream stream, AppointmentSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.email.AppointmentSaveOptions-) | Saves appointment to the stream with specified save options |
@@ -752,6 +753,21 @@ Requests the apointment.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | seqId | int | The sequence id. |
+
+**Returns:**
+[AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.
+### requestApointmentByMethodType(int methodType) {#requestApointmentByMethodType-int-}
+```
+public final AlternateView requestApointmentByMethodType(int methodType)
+```
+
+
+Requests the appointment.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| methodType | int | The method type. |
 
 **Returns:**
 [AlternateView](../../com.aspose.email/alternateview) - AlternateView[AlternateView](../../com.aspose.email/alternateview) that represents the format to view an email message.

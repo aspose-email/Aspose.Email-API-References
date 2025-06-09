@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for Java API Reference
 description: Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP.
 type: docs
-weight: 663
+weight: 674
 url: /java/com.aspose.email/smtpclient/
 ---
 

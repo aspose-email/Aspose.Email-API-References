@@ -3,7 +3,7 @@ title: MapiMessageItemBase
 second_title: Aspose.Email for Java API Reference
 description: Represents the base class for all MapiMessageItem classes and keeps common collections of mapi properties attachments recipients.
 type: docs
-weight: 453
+weight: 468
 url: /java/com.aspose.email/mapimessageitembase/
 ---
 

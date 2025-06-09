@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook for Mac .OLM storage file and provides functionality to access and manipulate the data within the file such as emails contacts calendars tasks and notes.
 type: docs
-weight: 561
+weight: 573
 url: /java/com.aspose.email/olmstorage/
 ---
 

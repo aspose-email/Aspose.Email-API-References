@@ -3,7 +3,7 @@ title: InstantMessengerList
 second_title: Aspose.Email for Java API Reference
 description: List of instant messenger addresses for a contact.
 type: docs
-weight: 340
+weight: 355
 url: /java/com.aspose.email/instantmessengerlist/
 ---
 

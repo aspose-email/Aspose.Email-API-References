@@ -1,24 +1,27 @@
 ---
-title: NotebookLinks
+title: GraphNotebookLinks
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/notebooklinksviewgraph-rest-1.0 Links for opening a OneNote notebook.
+description: ... Links for opening a OneNote notebook.
 type: docs
-weight: 547
-url: /java/com.aspose.email/notebooklinks/
+weight: 297
+url: /java/com.aspose.email/graphnotebooklinks/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class NotebookLinks
+public class GraphNotebookLinks
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Links for opening a OneNote notebook.
+[...][] Links for opening a OneNote notebook.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [NotebookLinks()](#NotebookLinks--) |  |
+| [GraphNotebookLinks()](#GraphNotebookLinks--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,9 +39,9 @@ https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-re
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### NotebookLinks() {#NotebookLinks--}
+### GraphNotebookLinks() {#GraphNotebookLinks--}
 ```
-public NotebookLinks()
+public GraphNotebookLinks()
 ```
 
 

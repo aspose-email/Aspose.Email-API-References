@@ -3,7 +3,7 @@ title: MimeException
 second_title: Aspose.Email for Java API Reference
 description: Provides information about MIME errors
 type: docs
-weight: 529
+weight: 544
 url: /java/com.aspose.email/mimeexception/
 ---
 

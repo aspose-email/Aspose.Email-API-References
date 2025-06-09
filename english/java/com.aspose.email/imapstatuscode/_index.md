@@ -3,7 +3,7 @@ title: ImapStatusCode
 second_title: Aspose.Email for Java API Reference
 description: Represents the status responses.
 type: docs
-weight: 334
+weight: 349
 url: /java/com.aspose.email/imapstatuscode/
 ---
 

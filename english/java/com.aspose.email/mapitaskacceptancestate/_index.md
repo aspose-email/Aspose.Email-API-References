@@ -3,7 +3,7 @@ title: MapiTaskAcceptanceState
 second_title: Aspose.Email for Java API Reference
 description: Indicates the acceptance state of the task.
 type: docs
-weight: 476
+weight: 491
 url: /java/com.aspose.email/mapitaskacceptancestate/
 ---
 

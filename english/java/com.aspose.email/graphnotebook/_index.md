@@ -1,29 +1,33 @@
 ---
-title: Notebook
+title: GraphNotebook
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/notebookviewgraph-rest-1.0 A OneNote notebook.
+description: ... A OneNote notebook.
 type: docs
-weight: 545
-url: /java/com.aspose.email/notebook/
+weight: 295
+url: /java/com.aspose.email/graphnotebook/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class Notebook
+public class GraphNotebook
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 A OneNote notebook.
+[...][] A OneNote notebook.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Notebook()](#Notebook--) |  |
+| [GraphNotebook()](#GraphNotebook--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromJsonArray(JSONObject jsonValue, int resource, String resourceId)](#fromJsonArray-com.aspose.json.JSONObject-int-java.lang.String-) |  |
 | [getClass()](#getClass--) |  |
 | [getCreatedBy()](#getCreatedBy--) | Identity of the user, device, and application which created the item. |
 | [getCreatedDateTime()](#getCreatedDateTime--) | The date and time when the notebook was created. |
@@ -37,27 +41,19 @@ https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.
 | [getSelf()](#getSelf--) | The endpoint where you can get details about the notebook. |
 | [getUserRole()](#getUserRole--) | Possible values are: Owner, Contributor, Reader, None. |
 | [hashCode()](#hashCode--) |  |
-| [isCreatedDateTimeSpecified()](#isCreatedDateTimeSpecified--) | Indicates whether CreatedDateTime property is specified. |
 | [isDefault()](#isDefault--) | Indicates whether this is the user's default notebook. |
-| [isDefaultSpecified()](#isDefaultSpecified--) | Indicates whether IsDefault property is specified. |
-| [isLastModifiedDateTimeSpecified()](#isLastModifiedDateTimeSpecified--) | Indicates whether LastModifiedDateTime property is specified. |
 | [isShared()](#isShared--) | Indicates whether the notebook is shared. |
-| [isSharedSpecified()](#isSharedSpecified--) | Indicates whether IsShared property is specified. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCreatedDateTimeSpecified(boolean value)](#setCreatedDateTimeSpecified-boolean-) | Indicates whether CreatedDateTime property is specified. |
-| [setDefaultSpecified(boolean value)](#setDefaultSpecified-boolean-) | Indicates whether IsDefault property is specified. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | The name of the notebook. |
-| [setLastModifiedDateTimeSpecified(boolean value)](#setLastModifiedDateTimeSpecified-boolean-) | Indicates whether LastModifiedDateTime property is specified. |
-| [setLinks(NotebookLinks value)](#setLinks-com.aspose.email.NotebookLinks-) | Links for opening the notebook. |
-| [setSharedSpecified(boolean value)](#setSharedSpecified-boolean-) | Indicates whether IsShared property is specified. |
+| [setLinks(GraphNotebookLinks value)](#setLinks-com.aspose.email.GraphNotebookLinks-) | Links for opening the notebook. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Notebook() {#Notebook--}
+### GraphNotebook() {#GraphNotebook--}
 ```
-public Notebook()
+public GraphNotebook()
 ```
 
 
@@ -76,6 +72,23 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromJsonArray(JSONObject jsonValue, int resource, String resourceId) {#fromJsonArray-com.aspose.json.JSONObject-int-java.lang.String-}
+```
+public static GraphNotebookCollection fromJsonArray(JSONObject jsonValue, int resource, String resourceId)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonValue | com.aspose.json.JSONObject |  |
+| resource | int |  |
+| resourceId | java.lang.String |  |
+
+**Returns:**
+[GraphNotebookCollection](../../com.aspose.email/graphnotebookcollection)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -88,14 +101,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCreatedBy() {#getCreatedBy--}
 ```
-public final IdentitySet getCreatedBy()
+public final GraphIdentitySet getCreatedBy()
 ```
 
 
 Identity of the user, device, and application which created the item. Read-only.
 
 **Returns:**
-[IdentitySet](../../com.aspose.email/identityset)
+[GraphIdentitySet](../../com.aspose.email/graphidentityset)
 ### getCreatedDateTime() {#getCreatedDateTime--}
 ```
 public final System.DateTimeOffset getCreatedDateTime()
@@ -128,14 +141,14 @@ The unique identifier of the notebook. Read-only.
 java.lang.String
 ### getLastModifiedBy() {#getLastModifiedBy--}
 ```
-public final IdentitySet getLastModifiedBy()
+public final GraphIdentitySet getLastModifiedBy()
 ```
 
 
 Identity of the user, device, and application which created the item. Read-only.
 
 **Returns:**
-[IdentitySet](../../com.aspose.email/identityset)
+[GraphIdentitySet](../../com.aspose.email/graphidentityset)
 ### getLastModifiedDateTime() {#getLastModifiedDateTime--}
 ```
 public final System.DateTimeOffset getLastModifiedDateTime()
@@ -148,14 +161,14 @@ The date and time when the notebook was last modified. The timestamp represents 
 com.aspose.ms.System.DateTimeOffset
 ### getLinks() {#getLinks--}
 ```
-public final NotebookLinks getLinks()
+public final GraphNotebookLinks getLinks()
 ```
 
 
 Links for opening the notebook. The oneNoteClientURL link opens the notebook in the OneNote native client if it's installed. The oneNoteWebURL link opens the notebook in OneNote on the web.
 
 **Returns:**
-[NotebookLinks](../../com.aspose.email/notebooklinks)
+[GraphNotebookLinks](../../com.aspose.email/graphnotebooklinks)
 ### getSectionGroupsUrl() {#getSectionGroupsUrl--}
 ```
 public final String getSectionGroupsUrl()
@@ -206,66 +219,26 @@ public native int hashCode()
 
 **Returns:**
 int
-### isCreatedDateTimeSpecified() {#isCreatedDateTimeSpecified--}
-```
-public final boolean isCreatedDateTimeSpecified()
-```
-
-
-Indicates whether CreatedDateTime property is specified.
-
-**Returns:**
-boolean
 ### isDefault() {#isDefault--}
 ```
-public final boolean isDefault()
+public final Boolean isDefault()
 ```
 
 
 Indicates whether this is the user's default notebook. Read-only.
 
 **Returns:**
-boolean
-### isDefaultSpecified() {#isDefaultSpecified--}
-```
-public final boolean isDefaultSpecified()
-```
-
-
-Indicates whether IsDefault property is specified.
-
-**Returns:**
-boolean
-### isLastModifiedDateTimeSpecified() {#isLastModifiedDateTimeSpecified--}
-```
-public final boolean isLastModifiedDateTimeSpecified()
-```
-
-
-Indicates whether LastModifiedDateTime property is specified.
-
-**Returns:**
-boolean
+java.lang.Boolean
 ### isShared() {#isShared--}
 ```
-public final System.Nullable<Boolean> isShared()
+public final Boolean isShared()
 ```
 
 
 Indicates whether the notebook is shared. If true, the contents of the notebook can be seen by people other than the owner. Read-only.
 
 **Returns:**
-com.aspose.ms.System.Nullable<java.lang.Boolean>
-### isSharedSpecified() {#isSharedSpecified--}
-```
-public final boolean isSharedSpecified()
-```
-
-
-Indicates whether IsShared property is specified.
-
-**Returns:**
-boolean
+java.lang.Boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -282,32 +255,6 @@ public final native void notifyAll()
 
 
 
-### setCreatedDateTimeSpecified(boolean value) {#setCreatedDateTimeSpecified-boolean-}
-```
-public final void setCreatedDateTimeSpecified(boolean value)
-```
-
-
-Indicates whether CreatedDateTime property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setDefaultSpecified(boolean value) {#setDefaultSpecified-boolean-}
-```
-public final void setDefaultSpecified(boolean value)
-```
-
-
-Indicates whether IsDefault property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
 public final void setDisplayName(String value)
@@ -321,22 +268,9 @@ The name of the notebook.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setLastModifiedDateTimeSpecified(boolean value) {#setLastModifiedDateTimeSpecified-boolean-}
+### setLinks(GraphNotebookLinks value) {#setLinks-com.aspose.email.GraphNotebookLinks-}
 ```
-public final void setLastModifiedDateTimeSpecified(boolean value)
-```
-
-
-Indicates whether LastModifiedDateTime property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setLinks(NotebookLinks value) {#setLinks-com.aspose.email.NotebookLinks-}
-```
-public final void setLinks(NotebookLinks value)
+public final void setLinks(GraphNotebookLinks value)
 ```
 
 
@@ -345,20 +279,7 @@ Links for opening the notebook. The oneNoteClientURL link opens the notebook in 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [NotebookLinks](../../com.aspose.email/notebooklinks) |  |
-
-### setSharedSpecified(boolean value) {#setSharedSpecified-boolean-}
-```
-public final void setSharedSpecified(boolean value)
-```
-
-
-Indicates whether IsShared property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
+| value | [GraphNotebookLinks](../../com.aspose.email/graphnotebooklinks) |  |
 
 ### toString() {#toString--}
 ```

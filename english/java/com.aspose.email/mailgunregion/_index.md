@@ -3,7 +3,7 @@ title: MailgunRegion
 second_title: Aspose.Email for Java API Reference
 description: Represents the Mailgun Region
 type: docs
-weight: 386
+weight: 401
 url: /java/com.aspose.email/mailgunregion/
 ---
 

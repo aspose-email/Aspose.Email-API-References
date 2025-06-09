@@ -3,7 +3,7 @@ title: MapiJournal
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI journal item.
 type: docs
-weight: 448
+weight: 463
 url: /java/com.aspose.email/mapijournal/
 ---
 

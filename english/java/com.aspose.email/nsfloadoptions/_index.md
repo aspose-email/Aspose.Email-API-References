@@ -3,7 +3,7 @@ title: NsfLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: Specifies additional options when loading a NSF storage.
 type: docs
-weight: 551
+weight: 563
 url: /java/com.aspose.email/nsfloadoptions/
 ---
 

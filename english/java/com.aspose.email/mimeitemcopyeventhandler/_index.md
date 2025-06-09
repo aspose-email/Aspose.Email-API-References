@@ -3,7 +3,7 @@ title: MimeItemCopyEventHandler
 second_title: Aspose.Email for Java API Reference
 description: Represents a delegate for handling events related to the copying of Mime items typically used in scenarios where a MailMessage object is copied from one storage to another.
 type: docs
-weight: 532
+weight: 547
 url: /java/com.aspose.email/mimeitemcopyeventhandler/
 ---
 

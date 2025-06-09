@@ -3,7 +3,7 @@ title: ReferenceAttachmentOptions
 second_title: Aspose.Email for Java API Reference
 description: Represents configuration options for adding a reference attachment to a MAPI message.
 type: docs
-weight: 612
+weight: 623
 url: /java/com.aspose.email/referenceattachmentoptions/
 ---
 

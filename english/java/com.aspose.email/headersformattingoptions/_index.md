@@ -3,7 +3,7 @@ title: HeadersFormattingOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
 type: docs
-weight: 294
+weight: 310
 url: /java/com.aspose.email/headersformattingoptions/
 ---
 
@@ -39,10 +39,14 @@ Allows to specify headers formatting options when saving MailMessage to Mhtml or
 | [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
 | [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
 | [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Default page header format. |
+| [getExtractHTMLBodyResourcesAsAttachments()](#getExtractHTMLBodyResourcesAsAttachments--) | Defines whether extract HTML body resources as attachments or not. |
 | [getFormatTemplates()](#getFormatTemplates--) | Gets the format templates. |
 | [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [getRenderedContactFields()](#getRenderedContactFields--) | Defines groups of Contact fields which will be included in output mhtml. |
 | [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
+| [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Provides customization of rendering resources in html. |
+| [getTimeout()](#getTimeout--) | Limits the time in milliseconds of formatting message while saving in Mht. |
+| [getTimeoutReachedHandler()](#getTimeoutReachedHandler--) | Raised if timed out while saving to Mhtml. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -52,8 +56,12 @@ Allows to specify headers formatting options when saving MailMessage to Mhtml or
 | [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
 | [setDefaultHeaderFormat(String value)](#setDefaultHeaderFormat-java.lang.String-) | Default header line format. |
 | [setDefaultPageHeaderFormat(String value)](#setDefaultPageHeaderFormat-java.lang.String-) | Default page header format. |
+| [setExtractHTMLBodyResourcesAsAttachments(boolean value)](#setExtractHTMLBodyResourcesAsAttachments-boolean-) | Defines whether extract HTML body resources as attachments or not. |
 | [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Defines groups of Contact fields which will be included in output mhtml. |
+| [setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)](#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-) | Provides customization of rendering resources in html. |
+| [setTimeout(int value)](#setTimeout-int-) | Limits the time in milliseconds of formatting message while saving in Mht. |
+| [setTimeoutReachedHandler(TimeoutReachedHandler value)](#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-) | Raised if timed out while saving to Mhtml. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -246,6 +254,16 @@ Value: The styles to be injected into resulting html body.
 
 **Returns:**
 java.lang.String
+### getExtractHTMLBodyResourcesAsAttachments() {#getExtractHTMLBodyResourcesAsAttachments--}
+```
+public final boolean getExtractHTMLBodyResourcesAsAttachments()
+```
+
+
+Defines whether extract HTML body resources as attachments or not. Default value is false.
+
+**Returns:**
+boolean
 ### getFormatTemplates() {#getFormatTemplates--}
 ```
 public final System.Collections.Specialized.StringDictionary getFormatTemplates()
@@ -288,6 +306,36 @@ Gets list of headers for rendering.
 
 **Returns:**
 java.util.List<java.lang.String>
+### getResourceHtmlRenderingHandler() {#getResourceHtmlRenderingHandler--}
+```
+public final ResourceHtmlRenderingHandler getResourceHtmlRenderingHandler()
+```
+
+
+Provides customization of rendering resources in html.
+
+**Returns:**
+[ResourceHtmlRenderingHandler](../../com.aspose.email/resourcehtmlrenderinghandler)
+### getTimeout() {#getTimeout--}
+```
+public final int getTimeout()
+```
+
+
+Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec.
+
+**Returns:**
+int
+### getTimeoutReachedHandler() {#getTimeoutReachedHandler--}
+```
+public final TimeoutReachedHandler getTimeoutReachedHandler()
+```
+
+
+Raised if timed out while saving to Mhtml.
+
+**Returns:**
+[TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -402,6 +450,19 @@ Value: The styles to be injected into resulting html body.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setExtractHTMLBodyResourcesAsAttachments(boolean value) {#setExtractHTMLBodyResourcesAsAttachments-boolean-}
+```
+public final void setExtractHTMLBodyResourcesAsAttachments(boolean value)
+```
+
+
+Defines whether extract HTML body resources as attachments or not. Default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setMailMessageSaveType(MailMessageSaveType value) {#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-}
 ```
 public final void setMailMessageSaveType(MailMessageSaveType value)
@@ -427,6 +488,45 @@ Defines groups of Contact fields which will be included in output mhtml. Default
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value) {#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-}
+```
+public final void setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)
+```
+
+
+Provides customization of rendering resources in html.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ResourceHtmlRenderingHandler](../../com.aspose.email/resourcehtmlrenderinghandler) |  |
+
+### setTimeout(int value) {#setTimeout-int-}
+```
+public final void setTimeout(int value)
+```
+
+
+Limits the time in milliseconds of formatting message while saving in Mht. Default value 3 sec.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setTimeoutReachedHandler(TimeoutReachedHandler value) {#setTimeoutReachedHandler-com.aspose.email.TimeoutReachedHandler-}
+```
+public final void setTimeoutReachedHandler(TimeoutReachedHandler value)
+```
+
+
+Raised if timed out while saving to Mhtml.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeoutReachedHandler](../../com.aspose.email/timeoutreachedhandler) |  |
 
 ### toString() {#toString--}
 ```

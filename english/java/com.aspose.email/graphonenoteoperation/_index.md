@@ -1,16 +1,16 @@
 ---
-title: OnenoteOperation
+title: GraphOnenoteOperation
 second_title: Aspose.Email for Java API Reference
 description: The status of certain long-running OneNote operations.
 type: docs
-weight: 562
-url: /java/com.aspose.email/onenoteoperation/
+weight: 298
+url: /java/com.aspose.email/graphonenoteoperation/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class OnenoteOperation
+public class GraphOnenoteOperation
 ```
 
 The status of certain long-running OneNote operations.
@@ -18,7 +18,7 @@ The status of certain long-running OneNote operations.
 
 | Constructor | Description |
 | --- | --- |
-| [OnenoteOperation()](#OnenoteOperation--) |  |
+| [GraphOnenoteOperation()](#GraphOnenoteOperation--) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +34,15 @@ The status of certain long-running OneNote operations.
 | [getResourceLocation()](#getResourceLocation--) | The resource URI for the object. |
 | [getStatus()](#getStatus--) | The current status of the operation: notstarted, running, completed, failed |
 | [hashCode()](#hashCode--) |  |
-| [isCreatedDateTimeSpecified()](#isCreatedDateTimeSpecified--) | Indicates whether CreatedDateTime property is specified. |
-| [isLastActionDateTimeSpecified()](#isLastActionDateTimeSpecified--) | Indicates whether LastActionDateTime property is specified. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### OnenoteOperation() {#OnenoteOperation--}
+### GraphOnenoteOperation() {#GraphOnenoteOperation--}
 ```
-public OnenoteOperation()
+public GraphOnenoteOperation()
 ```
 
 
@@ -163,26 +161,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isCreatedDateTimeSpecified() {#isCreatedDateTimeSpecified--}
-```
-public final boolean isCreatedDateTimeSpecified()
-```
-
-
-Indicates whether CreatedDateTime property is specified.
-
-**Returns:**
-boolean
-### isLastActionDateTimeSpecified() {#isLastActionDateTimeSpecified--}
-```
-public final boolean isLastActionDateTimeSpecified()
-```
-
-
-Indicates whether LastActionDateTime property is specified.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()

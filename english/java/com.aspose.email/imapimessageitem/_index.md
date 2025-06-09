@@ -3,7 +3,7 @@ title: IMapiMessageItem
 second_title: Aspose.Email for Java API Reference
 description: Base interface for all message items  in Outlook
 type: docs
-weight: 777
+weight: 785
 url: /java/com.aspose.email/imapimessageitem/
 ---
 ```

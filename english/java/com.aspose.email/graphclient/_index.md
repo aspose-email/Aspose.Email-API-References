@@ -3,7 +3,7 @@ title: GraphClient
 second_title: Aspose.Email for Java API Reference
 description: Provides access to MS Exchange Server Office365 by using REST API.
 type: docs
-weight: 283
+weight: 286
 url: /java/com.aspose.email/graphclient/
 ---
 
@@ -29,7 +29,7 @@ Provides access to MS Exchange Server (Office365) by using REST API.
 | [getClient(IMultipleServicesTokenProvider tokenProvider, String tenantId)](#getClient-com.aspose.email.IMultipleServicesTokenProvider-java.lang.String-) | Initializes a new instance of the [GraphClient](../../com.aspose.email/graphclient) based class |
 | [getClient(ITokenProvider tokenProvider)](#getClient-com.aspose.email.ITokenProvider-) | Initializes a new instance of the [GraphClient](../../com.aspose.email/graphclient) based class |
 | [getClient(ITokenProvider tokenProvider, String tenantId)](#getClient-com.aspose.email.ITokenProvider-java.lang.String-) | Initializes a new instance of the [GraphClient](../../com.aspose.email/graphclient) based class |
-| [getEndpoint()](#getEndpoint--) | Gets or sets Endpoint URL. |
+| [getEndpoint()](#getEndpoint--) | Gets or sets Microsoft Graph REST API endpoint. |
 | [getMultipleServicesTokenProvider()](#getMultipleServicesTokenProvider--) | Gets or sets an object allows to retrieve OAuth access token. |
 | [getProxy()](#getProxy--) | Gets or sets data to proxy access to Exchange server. |
 | [getResource()](#getResource--) | Gets or sets resource type. |
@@ -40,7 +40,7 @@ Provides access to MS Exchange Server (Office365) by using REST API.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEndpoint(String value)](#setEndpoint-java.lang.String-) | Gets or sets Endpoint URL. |
+| [setEndpoint(String value)](#setEndpoint-java.lang.String-) | Gets or sets Microsoft Graph REST API endpoint. |
 | [setMultipleServicesTokenProvider(IMultipleServicesTokenProvider value)](#setMultipleServicesTokenProvider-com.aspose.email.IMultipleServicesTokenProvider-) | Gets or sets an object allows to retrieve OAuth access token. |
 | [setProxy(System.Net.IWebProxy value)](#setProxy-com.aspose.ms.System.Net.IWebProxy-) | Gets or sets data to proxy access to Exchange server. |
 | [setResource(int value)](#setResource-int-) | Gets or sets resource type. |
@@ -161,7 +161,7 @@ public String getEndpoint()
 ```
 
 
-Gets or sets Endpoint URL.
+Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com".
 
 **Returns:**
 java.lang.String
@@ -267,7 +267,7 @@ public void setEndpoint(String value)
 ```
 
 
-Gets or sets Endpoint URL.
+Gets or sets Microsoft Graph REST API endpoint. If not specified, the default is "https://graph.microsoft.com".
 
 **Parameters:**
 | Parameter | Type | Description |
