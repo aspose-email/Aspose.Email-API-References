@@ -3,7 +3,7 @@ title: MSIntendedStatus
 second_title: Aspose.Email for Java API Reference
 description: Specifies the INTENDED status of an appointment.
 type: docs
-weight: 366
+weight: 381
 url: /java/com.aspose.email/msintendedstatus/
 ---
 

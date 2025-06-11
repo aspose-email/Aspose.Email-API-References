@@ -3,7 +3,7 @@ title: SocksAuthenticationMethods
 second_title: Aspose.Email for Java API Reference
 description: The authentication methods supported by the SOCKS protocol
 type: docs
-weight: 670
+weight: 681
 url: /java/com.aspose.email/socksauthenticationmethods/
 ---
 

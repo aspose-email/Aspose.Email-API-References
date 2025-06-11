@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for Java API Reference
 description: Allows to specify additional options when saving MailMessage to Mhtml format.
 type: docs
-weight: 526
+weight: 541
 url: /java/com.aspose.email/mhtsaveoptions/
 ---
 
@@ -53,6 +53,7 @@ Allows to specify additional options when saving MailMessage to Mhtml format.
 | [getDefaultMsgUnicode()](#getDefaultMsgUnicode--) | Gets options with default values for saving message to Msg(Unicode) format. |
 | [getDefaultOft()](#getDefaultOft--) | Gets options with default values for saving message to Outlook template (Oft) format. |
 | [getDefaultPageHeaderFormat()](#getDefaultPageHeaderFormat--) | Default page header format. |
+| [getExtractHTMLBodyResourcesAsAttachments()](#getExtractHTMLBodyResourcesAsAttachments--) | Defines whether extract HTML body resources as attachments or not. |
 | [getFormatTemplates()](#getFormatTemplates--) | Gets the format templates. |
 | [getMailMessageSaveType()](#getMailMessageSaveType--) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [getMhtFormatOptions()](#getMhtFormatOptions--) | Defines additional options when saving in MHTML format. |
@@ -60,6 +61,7 @@ Allows to specify additional options when saving MailMessage to Mhtml format.
 | [getPreserveOriginalDate()](#getPreserveOriginalDate--) | Defines whether need keep original date in mail message when saving or not. |
 | [getRenderedContactFields()](#getRenderedContactFields--) | Defines groups of Contact fields which will be included in output mhtml. |
 | [getRenderingHeaders()](#getRenderingHeaders--) | Gets list of headers for rendering. |
+| [getResourceHtmlRenderingHandler()](#getResourceHtmlRenderingHandler--) | Provides customization of rendering resources in html. |
 | [getSaveAllHeaders()](#getSaveAllHeaders--) | Defines whether need to save all headers in output mhtml or not. |
 | [getSaveAttachments()](#getSaveAttachments--) | Gets or sets a value indicating whether to save attachments. |
 | [getSavedHeaders()](#getSavedHeaders--) | Gets list of headers which will be present in saved mhtml content. |
@@ -76,11 +78,13 @@ Allows to specify additional options when saving MailMessage to Mhtml format.
 | [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
 | [setDefaultHeaderFormat(String value)](#setDefaultHeaderFormat-java.lang.String-) | Default header line format. |
 | [setDefaultPageHeaderFormat(String value)](#setDefaultPageHeaderFormat-java.lang.String-) | Default page header format. |
+| [setExtractHTMLBodyResourcesAsAttachments(boolean value)](#setExtractHTMLBodyResourcesAsAttachments-boolean-) | Defines whether extract HTML body resources as attachments or not. |
 | [setMailMessageSaveType(MailMessageSaveType value)](#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-) | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. |
 | [setMhtFormatOptions(int value)](#setMhtFormatOptions-int-) | Defines additional options when saving in MHTML format. |
 | [setPreserveOriginalBoundaries(boolean value)](#setPreserveOriginalBoundaries-boolean-) | Defines whether need keep original boundaries in mail message when saving or not. |
 | [setPreserveOriginalDate(boolean value)](#setPreserveOriginalDate-boolean-) | Defines whether need keep original date in mail message when saving or not. |
 | [setRenderedContactFields(int value)](#setRenderedContactFields-int-) | Defines groups of Contact fields which will be included in output mhtml. |
+| [setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)](#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-) | Provides customization of rendering resources in html. |
 | [setSaveAllHeaders(boolean value)](#setSaveAllHeaders-boolean-) | Defines whether need to save all headers in output mhtml or not. |
 | [setSaveAttachments(boolean value)](#setSaveAttachments-boolean-) | Gets or sets a value indicating whether to save attachments. |
 | [setSkipInlineImages(boolean value)](#setSkipInlineImages-boolean-) | Defines whether skip references on images at saving in mhtml or not. |
@@ -292,6 +296,16 @@ Value: The styles to be injected into resulting html body.
 
 **Returns:**
 java.lang.String
+### getExtractHTMLBodyResourcesAsAttachments() {#getExtractHTMLBodyResourcesAsAttachments--}
+```
+public final boolean getExtractHTMLBodyResourcesAsAttachments()
+```
+
+
+Defines whether extract HTML body resources as attachments or not. Default value is false.
+
+**Returns:**
+boolean
 ### getFormatTemplates() {#getFormatTemplates--}
 ```
 public final System.Collections.Specialized.StringDictionary getFormatTemplates()
@@ -364,6 +378,16 @@ Gets list of headers for rendering.
 
 **Returns:**
 java.util.List<java.lang.String>
+### getResourceHtmlRenderingHandler() {#getResourceHtmlRenderingHandler--}
+```
+public final ResourceHtmlRenderingHandler getResourceHtmlRenderingHandler()
+```
+
+
+Provides customization of rendering resources in html.
+
+**Returns:**
+[ResourceHtmlRenderingHandler](../../com.aspose.email/resourcehtmlrenderinghandler)
 ### getSaveAllHeaders() {#getSaveAllHeaders--}
 ```
 public final boolean getSaveAllHeaders()
@@ -557,6 +581,19 @@ Value: The styles to be injected into resulting html body.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setExtractHTMLBodyResourcesAsAttachments(boolean value) {#setExtractHTMLBodyResourcesAsAttachments-boolean-}
+```
+public final void setExtractHTMLBodyResourcesAsAttachments(boolean value)
+```
+
+
+Defines whether extract HTML body resources as attachments or not. Default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setMailMessageSaveType(MailMessageSaveType value) {#setMailMessageSaveType-com.aspose.email.MailMessageSaveType-}
 ```
 public final void setMailMessageSaveType(MailMessageSaveType value)
@@ -621,6 +658,19 @@ Defines groups of Contact fields which will be included in output mhtml. Default
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value) {#setResourceHtmlRenderingHandler-com.aspose.email.ResourceHtmlRenderingHandler-}
+```
+public final void setResourceHtmlRenderingHandler(ResourceHtmlRenderingHandler value)
+```
+
+
+Provides customization of rendering resources in html.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ResourceHtmlRenderingHandler](../../com.aspose.email/resourcehtmlrenderinghandler) |  |
 
 ### setSaveAllHeaders(boolean value) {#setSaveAllHeaders-boolean-}
 ```

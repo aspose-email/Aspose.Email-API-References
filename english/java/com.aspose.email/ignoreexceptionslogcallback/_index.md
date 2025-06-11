@@ -3,7 +3,7 @@ title: IgnoreExceptionsLogCallback
 second_title: Aspose.Email for Java API Reference
 description: Ignored Exceptions Log callback.
 type: docs
-weight: 786
+weight: 794
 url: /java/com.aspose.email/ignoreexceptionslogcallback/
 ---
 ```

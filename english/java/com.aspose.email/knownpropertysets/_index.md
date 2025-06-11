@@ -3,7 +3,7 @@ title: KnownPropertySets
 second_title: Aspose.Email for Java API Reference
 description: MS-OXCDATA Commonly Used Property Sets
 type: docs
-weight: 348
+weight: 363
 url: /java/com.aspose.email/knownpropertysets/
 ---
 

@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Aspose.Email for Java API Reference
 description: Represents the Int64 search field.
 type: docs
-weight: 363
+weight: 378
 url: /java/com.aspose.email/longcomparisonfield/
 ---
 

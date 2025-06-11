@@ -3,7 +3,7 @@ title: MapiAttachment
 second_title: Aspose.Email for Java API Reference
 description: Represents a message attachment.
 type: docs
-weight: 387
+weight: 402
 url: /java/com.aspose.email/mapiattachment/
 ---
 
@@ -93,11 +93,15 @@ Example:
 | [isInline()](#isInline--) | Gets a value indicating whether the attachment is inline or regular. |
 | [isReference()](#isReference--) | Gets a value indicating whether the attachment is stored as a reference rather than being embedded in the email. |
 | [isStoreUnicodeOk()](#isStoreUnicodeOk--) | Determines if string properties are Unicode encoded or not. |
+| [loadFromTnef(InputStream stream)](#loadFromTnef-java.io.InputStream-) | Load MapiAttachment from stream with tnef content. |
+| [loadFromTnef(String fileName)](#loadFromTnef-java.lang.String-) | Load MapiAttachment from file with tnef content. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(long tag)](#removeProperty-long-) | Provides correctly removing property from all collections. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Save attachment content. |
 | [save(String filename)](#save-java.lang.String-) | Save attachment content. |
+| [saveToTnef(OutputStream stream)](#saveToTnef-java.io.OutputStream-) | Save attachment to tnef content. |
+| [saveToTnef(String filename)](#saveToTnef-java.lang.String-) | Save attachment to tnef content. |
 | [setBinaryData(byte[] value)](#setBinaryData-byte---) | Gets or sets binary attachment data. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Gets the display name of the ole object in an attachment. |
 | [setProperty(MapiProperty value)](#setProperty-com.aspose.email.MapiProperty-) | Sets the property. |
@@ -508,6 +512,36 @@ Determines if string properties are Unicode encoded or not.
 
 **Returns:**
 boolean - True, if string properties are Unicode encoded.
+### loadFromTnef(InputStream stream) {#loadFromTnef-java.io.InputStream-}
+```
+public static MapiAttachment loadFromTnef(InputStream stream)
+```
+
+
+Load MapiAttachment from stream with tnef content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Source stream |
+
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - MapiAttachment
+### loadFromTnef(String fileName) {#loadFromTnef-java.lang.String-}
+```
+public static MapiAttachment loadFromTnef(String fileName)
+```
+
+
+Load MapiAttachment from file with tnef content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Source file path. |
+
+**Returns:**
+[MapiAttachment](../../com.aspose.email/mapiattachment) - MapiAttachment
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -557,6 +591,32 @@ public final void save(String filename)
 
 
 Save attachment content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | java.lang.String | The file name to save. |
+
+### saveToTnef(OutputStream stream) {#saveToTnef-java.io.OutputStream-}
+```
+public final void saveToTnef(OutputStream stream)
+```
+
+
+Save attachment to tnef content.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | The stream to save. |
+
+### saveToTnef(String filename) {#saveToTnef-java.lang.String-}
+```
+public final void saveToTnef(String filename)
+```
+
+
+Save attachment to tnef content.
 
 **Parameters:**
 | Parameter | Type | Description |

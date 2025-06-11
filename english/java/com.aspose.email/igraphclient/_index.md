@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for Java API Reference
 description: Represents the interface for Exchange REST client.
 type: docs
-weight: 773
+weight: 781
 url: /java/com.aspose.email/igraphclient/
 ---
 
@@ -22,35 +22,49 @@ Represents the interface for Exchange REST client.
 | [copyMessage(String newParentId, String itemId)](#copyMessage-java.lang.String-java.lang.String-) | Copy a Message to another mailfolder. |
 | [copyNotebook(String itemId, String groupId, String renameAs)](#copyNotebook-java.lang.String-java.lang.String-java.lang.String-) | Copies a notebook to the Notebooks folder in the destination Documents library. |
 | [createAttachment(String parentId, MapiAttachment attachment)](#createAttachment-java.lang.String-com.aspose.email.MapiAttachment-) | Creates new attachment for specified item |
+| [createCalendar(String name)](#createCalendar-java.lang.String-) | Creates new Calendar. |
+| [createCalendarItem(String calId, MapiCalendar mapiCalendar)](#createCalendarItem-java.lang.String-com.aspose.email.MapiCalendar-) | Creates MapiCalendar in specified calendar |
 | [createCategory(String displayName, int preset)](#createCategory-java.lang.String-int-) | Creates an [OutlookCategory](../../com.aspose.email/outlookcategory) object in the user's master list of categories. |
+| [createContact(String folderId, MapiContact contact)](#createContact-java.lang.String-com.aspose.email.MapiContact-) | Creates contact in specified folder |
 | [createFolder(String folderName)](#createFolder-java.lang.String-) | Create new folder. |
 | [createFolder(String parentFolderId, String folderName)](#createFolder-java.lang.String-java.lang.String-) | Create new folder. |
 | [createMessage(String folderId, MailMessage message)](#createMessage-java.lang.String-com.aspose.email.MailMessage-) | Creates message in specified folder |
 | [createMessage(String folderId, MapiMessage message)](#createMessage-java.lang.String-com.aspose.email.MapiMessage-) | Creates message in specified folder |
-| [createNotebook(Notebook notebook)](#createNotebook-com.aspose.email.Notebook-) | Create a new OneNote notebook. |
+| [createNotebook(GraphNotebook notebook)](#createNotebook-com.aspose.email.GraphNotebook-) | Create a new OneNote notebook. |
 | [createOrUpdateOverride(ClassificationOverride classificationOverride)](#createOrUpdateOverride-com.aspose.email.ClassificationOverride-) | Create an override for a sender identified by an SMTP address. |
 | [createOrUpdateOverride(MailAddress sender, int classifyAs)](#createOrUpdateOverride-com.aspose.email.MailAddress-int-) | Create an override for a sender identified by an SMTP address. |
 | [createRule(InboxRule rule)](#createRule-com.aspose.email.InboxRule-) | Create a message rule by specifying a set of conditions and actions. |
+| [createTask(MapiTask task, String taskListUri)](#createTask-com.aspose.email.MapiTask-java.lang.String-) | Creates Task in specified folder |
+| [createTaskList(GraphTaskListInfo taskList)](#createTaskList-com.aspose.email.GraphTaskListInfo-) | Creates new TaskList. |
 | [delete(String id)](#delete-java.lang.String-) | Delete object. |
 | [deleteAttachment(String id)](#deleteAttachment-java.lang.String-) | Removes attachment |
+| [deleteTaskList(String id)](#deleteTaskList-java.lang.String-) | Delete TaskList. |
 | [fetchAttachment(String id)](#fetchAttachment-java.lang.String-) | Gets attachment for specified id |
+| [fetchCalendarItem(String id)](#fetchCalendarItem-java.lang.String-) | Gets MapiCalendar for specified id |
 | [fetchCategory(String itemId)](#fetchCategory-java.lang.String-) | Get the properties and relationships of the specified outlookCategory object. |
+| [fetchContact(String id)](#fetchContact-java.lang.String-) | Gets MapiContact for specified id |
 | [fetchMessage(String id)](#fetchMessage-java.lang.String-) | Gets message in specified id |
 | [fetchNotebook(String itemId)](#fetchNotebook-java.lang.String-) | Retrieve the properties and relationships of a notebook object. |
 | [fetchRule(String itemId)](#fetchRule-java.lang.String-) | Get the properties and relationships of a message rule object. |
+| [fetchTask(String id)](#fetchTask-java.lang.String-) | Gets MapiTask for specified id |
 | [getEndpoint()](#getEndpoint--) | Gets or sets Endpoint URL. |
 | [getFolder(String id)](#getFolder-java.lang.String-) | Gets folder by an id. |
 | [getMultipleServicesTokenProvider()](#getMultipleServicesTokenProvider--) | Gets or sets an object allows to retrieve OAuth access token. |
 | [getOneNoteOperationStatus(String operationId)](#getOneNoteOperationStatus-java.lang.String-) | Get the status of a long-running OneNote operation. |
 | [getResource()](#getResource--) | Gets or sets resource type. |
 | [getResourceId()](#getResourceId--) | Gets or sets resource id. |
+| [getTaskList(String id)](#getTaskList-java.lang.String-) | Gets TaskList by an id. |
 | [getTenantId()](#getTenantId--) | Gets or sets tenant identifier |
 | [getTimeout()](#getTimeout--) | Gets or sets the number of milliseconds to wait before the operation times out. |
 | [getTokenProvider()](#getTokenProvider--) | Gets or sets an object allows to retrieve OAuth access token. |
 | [listAttachments(String id)](#listAttachments-java.lang.String-) | List Attachments from the parent message. |
+| [listCalendarItems(String id)](#listCalendarItems-java.lang.String-) | List MapiCalendar from the calendar. |
+| [listCalendars()](#listCalendars--) | List CalendarInfo items. |
 | [listCategories()](#listCategories--) | Get all the categories that have been defined for the user. |
 | [listCategoriesInternal()](#listCategoriesInternal--) |  |
-| [listFolders()](#listFolders--) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
+| [listContactFolders()](#listContactFolders--) | Get a collection of child folders under the root contact folder. |
+| [listContacts(String id)](#listContacts-java.lang.String-) | List MapiContact from the parent folder. |
+| [listFolders()](#listFolders--) | List folders from the root folder. |
 | [listFolders(String id)](#listFolders-java.lang.String-) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [listMessages(String id)](#listMessages-java.lang.String-) | List GraphMessageInfo from the parent folder. |
 | [listMessages(String id, PageInfo page, MailQuery query)](#listMessages-java.lang.String-com.aspose.email.PageInfo-com.aspose.email.MailQuery-) | List GraphMessageInfo from the parent folder. |
@@ -59,6 +73,8 @@ Represents the interface for Exchange REST client.
 | [listOverridesInternal()](#listOverridesInternal--) |  |
 | [listRules()](#listRules--) | Get all the messageRule objects defined for the user's Inbox. |
 | [listRulesInternal()](#listRulesInternal--) |  |
+| [listTaskLists()](#listTaskLists--) | List TaskList items. |
+| [listTasks(String id)](#listTasks-java.lang.String-) | List MapiTask from the parent TaskList. |
 | [moveFolder(String newParentId, String itemId)](#moveFolder-java.lang.String-java.lang.String-) | Move a mailfolder and its contents to another mailfolder. |
 | [moveMessage(String newParentId, String itemId)](#moveMessage-java.lang.String-java.lang.String-) | Move a message to another mailfolder. |
 | [send(MailMessage message)](#send-com.aspose.email.MailMessage-) | Sends email message using MIME format |
@@ -74,12 +90,20 @@ Represents the interface for Exchange REST client.
 | [setTenantId(String value)](#setTenantId-java.lang.String-) | Gets or sets tenant identifier |
 | [setTimeout(int value)](#setTimeout-int-) | Gets or sets the number of milliseconds to wait before the operation times out. |
 | [setTokenProvider(ITokenProvider value)](#setTokenProvider-com.aspose.email.ITokenProvider-) | Gets or sets an object allows to retrieve OAuth access token. |
+| [updateCalendarItem(MapiCalendar mapiCalendar)](#updateCalendarItem-com.aspose.email.MapiCalendar-) | Updates MapiCalendar |
+| [updateCalendarItem(MapiCalendar mapiCalendar, UpdateSettings updateSettings)](#updateCalendarItem-com.aspose.email.MapiCalendar-com.aspose.email.UpdateSettings-) | Updates appointment |
 | [updateCategory(OutlookCategory category)](#updateCategory-com.aspose.email.OutlookCategory-) | Updates pre-set color constant for specified category |
+| [updateContact(MapiContact contact)](#updateContact-com.aspose.email.MapiContact-) | Updates contact |
 | [updateFolder(GraphFolderInfo folderInfo)](#updateFolder-com.aspose.email.GraphFolderInfo-) | Updates folder. |
+| [updateMessage(MailMessage message)](#updateMessage-com.aspose.email.MailMessage-) | Updates message |
+| [updateMessage(MailMessage message, UpdateSettings updateSettings)](#updateMessage-com.aspose.email.MailMessage-com.aspose.email.UpdateSettings-) | Updates message |
 | [updateMessage(MapiMessage message)](#updateMessage-com.aspose.email.MapiMessage-) | Updates message |
 | [updateMessage(MapiMessage message, UpdateSettings updateSettings)](#updateMessage-com.aspose.email.MapiMessage-com.aspose.email.UpdateSettings-) | Updates message |
 | [updateOverride(ClassificationOverride classificationOverride)](#updateOverride-com.aspose.email.ClassificationOverride-) | Change the classifyAs field of an override as specified. |
 | [updateRule(InboxRule rule)](#updateRule-com.aspose.email.InboxRule-) | Change writable properties on a messageRule object and save the changes. |
+| [updateTask(MapiTask task)](#updateTask-com.aspose.email.MapiTask-) | Updates Task |
+| [updateTask(MapiTask task, UpdateSettings updateSettings)](#updateTask-com.aspose.email.MapiTask-com.aspose.email.UpdateSettings-) | Updates Task |
+| [updateTaskList(GraphTaskListInfo taskList)](#updateTaskList-com.aspose.email.GraphTaskListInfo-) | Updates TaskList. |
 ### copyFolder(String newParentId, String itemId) {#copyFolder-java.lang.String-java.lang.String-}
 ```
 public abstract GraphFolderInfo copyFolder(String newParentId, String itemId)
@@ -145,6 +169,37 @@ Creates new attachment for specified item
 
 **Returns:**
 [MapiAttachment](../../com.aspose.email/mapiattachment) - Returns created attachment
+### createCalendar(String name) {#createCalendar-java.lang.String-}
+```
+public abstract GraphCalendarInfo createCalendar(String name)
+```
+
+
+Creates new Calendar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | New Calendar name |
+
+**Returns:**
+[GraphCalendarInfo](../../com.aspose.email/graphcalendarinfo) - Returns CalendarInfo [GraphCalendarInfo](../../com.aspose.email/graphcalendarinfo)
+### createCalendarItem(String calId, MapiCalendar mapiCalendar) {#createCalendarItem-java.lang.String-com.aspose.email.MapiCalendar-}
+```
+public abstract MapiCalendar createCalendarItem(String calId, MapiCalendar mapiCalendar)
+```
+
+
+Creates MapiCalendar in specified calendar
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calId | java.lang.String | Calendar id |
+| mapiCalendar | [MapiCalendar](../../com.aspose.email/mapicalendar) | MapiCalendar to be created |
+
+**Returns:**
+[MapiCalendar](../../com.aspose.email/mapicalendar) - Created MapiCalendar
 ### createCategory(String displayName, int preset) {#createCategory-java.lang.String-int-}
 ```
 public abstract OutlookCategory createCategory(String displayName, int preset)
@@ -161,6 +216,22 @@ Creates an [OutlookCategory](../../com.aspose.email/outlookcategory) object in t
 
 **Returns:**
 [OutlookCategory](../../com.aspose.email/outlookcategory) - Category by which a user can group Outlook items such as messages and events
+### createContact(String folderId, MapiContact contact) {#createContact-java.lang.String-com.aspose.email.MapiContact-}
+```
+public abstract MapiContact createContact(String folderId, MapiContact contact)
+```
+
+
+Creates contact in specified folder
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderId | java.lang.String | Parent folder id |
+| contact | [MapiContact](../../com.aspose.email/mapicontact) | MapiContact to be created |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - Created contact
 ### createFolder(String folderName) {#createFolder-java.lang.String-}
 ```
 public abstract GraphFolderInfo createFolder(String folderName)
@@ -224,9 +295,9 @@ Creates message in specified folder
 
 **Returns:**
 [MapiMessage](../../com.aspose.email/mapimessage) - Created message
-### createNotebook(Notebook notebook) {#createNotebook-com.aspose.email.Notebook-}
+### createNotebook(GraphNotebook notebook) {#createNotebook-com.aspose.email.GraphNotebook-}
 ```
-public abstract Notebook createNotebook(Notebook notebook)
+public abstract GraphNotebook createNotebook(GraphNotebook notebook)
 ```
 
 
@@ -235,10 +306,10 @@ Create a new OneNote notebook. Permissions One of the following permissions is r
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| notebook | [Notebook](../../com.aspose.email/notebook) | Notebook to be created |
+| notebook | [GraphNotebook](../../com.aspose.email/graphnotebook) | Notebook to be created |
 
 **Returns:**
-[Notebook](../../com.aspose.email/notebook) - Created notebook
+[GraphNotebook](../../com.aspose.email/graphnotebook) - Created notebook
 ### createOrUpdateOverride(ClassificationOverride classificationOverride) {#createOrUpdateOverride-com.aspose.email.ClassificationOverride-}
 ```
 public abstract ClassificationOverride createOrUpdateOverride(ClassificationOverride classificationOverride)
@@ -285,6 +356,37 @@ Create a message rule by specifying a set of conditions and actions. Outlook car
 
 **Returns:**
 [InboxRule](../../com.aspose.email/inboxrule) - Created rule
+### createTask(MapiTask task, String taskListUri) {#createTask-com.aspose.email.MapiTask-java.lang.String-}
+```
+public abstract MapiTask createTask(MapiTask task, String taskListUri)
+```
+
+
+Creates Task in specified folder
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| task | [MapiTask](../../com.aspose.email/mapitask) | MapiTask to be created |
+| taskListUri | java.lang.String | Parent TaskList uri |
+
+**Returns:**
+[MapiTask](../../com.aspose.email/mapitask) - Created MapiTask
+### createTaskList(GraphTaskListInfo taskList) {#createTaskList-com.aspose.email.GraphTaskListInfo-}
+```
+public abstract GraphTaskListInfo createTaskList(GraphTaskListInfo taskList)
+```
+
+
+Creates new TaskList.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| taskList | [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) | New TaskList [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) |
+
+**Returns:**
+[GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) - Returns created TaskListInfo
 ### delete(String id) {#delete-java.lang.String-}
 ```
 public abstract void delete(String id)
@@ -311,6 +413,19 @@ Removes attachment
 | --- | --- | --- |
 | id | java.lang.String | Attachment id to delete |
 
+### deleteTaskList(String id) {#deleteTaskList-java.lang.String-}
+```
+public abstract void deleteTaskList(String id)
+```
+
+
+Delete TaskList.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | TaskList id to delete |
+
 ### fetchAttachment(String id) {#fetchAttachment-java.lang.String-}
 ```
 public abstract MapiAttachment fetchAttachment(String id)
@@ -326,6 +441,21 @@ Gets attachment for specified id
 
 **Returns:**
 [MapiAttachment](../../com.aspose.email/mapiattachment) - Returns attachment
+### fetchCalendarItem(String id) {#fetchCalendarItem-java.lang.String-}
+```
+public abstract MapiCalendar fetchCalendarItem(String id)
+```
+
+
+Gets MapiCalendar for specified id
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | MapiCalendar id |
+
+**Returns:**
+[MapiCalendar](../../com.aspose.email/mapicalendar) - Returns MapiCalendar
 ### fetchCategory(String itemId) {#fetchCategory-java.lang.String-}
 ```
 public abstract OutlookCategory fetchCategory(String itemId)
@@ -341,6 +471,21 @@ Get the properties and relationships of the specified outlookCategory object.
 
 **Returns:**
 [OutlookCategory](../../com.aspose.email/outlookcategory) - Category specified by id
+### fetchContact(String id) {#fetchContact-java.lang.String-}
+```
+public abstract MapiContact fetchContact(String id)
+```
+
+
+Gets MapiContact for specified id
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Contact id |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - Returns MapiContact
 ### fetchMessage(String id) {#fetchMessage-java.lang.String-}
 ```
 public abstract MapiMessage fetchMessage(String id)
@@ -358,7 +503,7 @@ Gets message in specified id
 [MapiMessage](../../com.aspose.email/mapimessage) - Mapi message
 ### fetchNotebook(String itemId) {#fetchNotebook-java.lang.String-}
 ```
-public abstract Notebook fetchNotebook(String itemId)
+public abstract GraphNotebook fetchNotebook(String itemId)
 ```
 
 
@@ -370,7 +515,7 @@ Retrieve the properties and relationships of a notebook object. Permissions One 
 | itemId | java.lang.String | Item id |
 
 **Returns:**
-[Notebook](../../com.aspose.email/notebook) - Notebook object
+[GraphNotebook](../../com.aspose.email/graphnotebook) - Notebook object
 ### fetchRule(String itemId) {#fetchRule-java.lang.String-}
 ```
 public abstract InboxRule fetchRule(String itemId)
@@ -386,6 +531,21 @@ Get the properties and relationships of a message rule object. Permissions One o
 
 **Returns:**
 [InboxRule](../../com.aspose.email/inboxrule) - Inbox rule
+### fetchTask(String id) {#fetchTask-java.lang.String-}
+```
+public abstract MapiTask fetchTask(String id)
+```
+
+
+Gets MapiTask for specified id
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | MapiTask id |
+
+**Returns:**
+[MapiTask](../../com.aspose.email/mapitask) - Returns MapiTask
 ### getEndpoint() {#getEndpoint--}
 ```
 public abstract String getEndpoint()
@@ -423,7 +583,7 @@ Gets or sets an object allows to retrieve OAuth access token.
 [IMultipleServicesTokenProvider](../../com.aspose.email/imultipleservicestokenprovider)
 ### getOneNoteOperationStatus(String operationId) {#getOneNoteOperationStatus-java.lang.String-}
 ```
-public abstract OnenoteOperation getOneNoteOperationStatus(String operationId)
+public abstract GraphOnenoteOperation getOneNoteOperationStatus(String operationId)
 ```
 
 
@@ -435,7 +595,7 @@ Get the status of a long-running OneNote operation. This applies to operations t
 | operationId | java.lang.String | Operation id |
 
 **Returns:**
-[OnenoteOperation](../../com.aspose.email/onenoteoperation) - 
+[GraphOnenoteOperation](../../com.aspose.email/graphonenoteoperation) - 
 ### getResource() {#getResource--}
 ```
 public abstract int getResource()
@@ -456,6 +616,21 @@ Gets or sets resource id. For instance for users it may be user principal name (
 
 **Returns:**
 java.lang.String
+### getTaskList(String id) {#getTaskList-java.lang.String-}
+```
+public abstract GraphTaskListInfo getTaskList(String id)
+```
+
+
+Gets TaskList by an id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | TaskList id |
+
+**Returns:**
+[GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) - Returns TaskListInfo for specified id
 ### getTenantId() {#getTenantId--}
 ```
 public abstract String getTenantId()
@@ -501,6 +676,31 @@ List Attachments from the parent message.
 
 **Returns:**
 [MapiAttachmentCollection](../../com.aspose.email/mapiattachmentcollection) - Returns list of attachments of a message
+### listCalendarItems(String id) {#listCalendarItems-java.lang.String-}
+```
+public abstract MapiCalendarCollection listCalendarItems(String id)
+```
+
+
+List MapiCalendar from the calendar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Calendar id |
+
+**Returns:**
+[MapiCalendarCollection](../../com.aspose.email/mapicalendarcollection) - Returns list of MapiCalendar
+### listCalendars() {#listCalendars--}
+```
+public abstract GraphCalendarInfoCollection listCalendars()
+```
+
+
+List CalendarInfo items.
+
+**Returns:**
+[GraphCalendarInfoCollection](../../com.aspose.email/graphcalendarinfocollection) - Returns list of CalendarInfo [GraphCalendarInfo](../../com.aspose.email/graphcalendarinfo)
 ### listCategories() {#listCategories--}
 ```
 public abstract List<OutlookCategory> listCategories()
@@ -521,13 +721,38 @@ public abstract System.Collections.Generic.List<OutlookCategory> listCategoriesI
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List<com.aspose.email.OutlookCategory>
+### listContactFolders() {#listContactFolders--}
+```
+public abstract GraphFolderInfoCollection listContactFolders()
+```
+
+
+Get a collection of child folders under the root contact folder.
+
+**Returns:**
+[GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - RReturns list of subfolders of the root contact folder
+### listContacts(String id) {#listContacts-java.lang.String-}
+```
+public abstract MapiContactCollection listContacts(String id)
+```
+
+
+List MapiContact from the parent folder.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent folder id |
+
+**Returns:**
+[MapiContactCollection](../../com.aspose.email/mapicontactcollection) - Returns list of MapiContact of the folder
 ### listFolders() {#listFolders--}
 ```
 public abstract GraphFolderInfoCollection listFolders()
 ```
 
 
-List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox.
+List folders from the root folder.
 
 **Returns:**
 [GraphFolderInfoCollection](../../com.aspose.email/graphfolderinfocollection) - Returns list of subfolders of the root folder
@@ -580,14 +805,14 @@ List GraphMessageInfo from the parent folder. The [GraphKnownFolders](../../com.
 [GraphMessagePageInfo](../../com.aspose.email/graphmessagepageinfo) - Returns list of GraphMessageInfo of the folder
 ### listNotebooks() {#listNotebooks--}
 ```
-public abstract NotebookCollection listNotebooks()
+public abstract GraphNotebookCollection listNotebooks()
 ```
 
 
 Retrieve a list of notebook objects. Permissions One of the following permissions is required to call this API. Delegated (work or school account) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All Delegated (personal Microsoft account) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All
 
 **Returns:**
-[NotebookCollection](../../com.aspose.email/notebookcollection) - List of notebooks
+[GraphNotebookCollection](../../com.aspose.email/graphnotebookcollection) - List of notebooks
 ### listOverrides() {#listOverrides--}
 ```
 public abstract List<ClassificationOverride> listOverrides()
@@ -628,6 +853,31 @@ public abstract System.Collections.Generic.List<InboxRule> listRulesInternal()
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.List<com.aspose.email.InboxRule>
+### listTaskLists() {#listTaskLists--}
+```
+public abstract GraphTaskListInfoCollection listTaskLists()
+```
+
+
+List TaskList items.
+
+**Returns:**
+[GraphTaskListInfoCollection](../../com.aspose.email/graphtasklistinfocollection) - Returns list of TaskList [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo)
+### listTasks(String id) {#listTasks-java.lang.String-}
+```
+public abstract MapiTaskCollection listTasks(String id)
+```
+
+
+List MapiTask from the parent TaskList.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Parent TaskList id |
+
+**Returns:**
+[MapiTaskCollection](../../com.aspose.email/mapitaskcollection) - Returns list of MapiTask of the TaskList
 ### moveFolder(String newParentId, String itemId) {#moveFolder-java.lang.String-java.lang.String-}
 ```
 public abstract GraphFolderInfo moveFolder(String newParentId, String itemId)
@@ -830,6 +1080,37 @@ Gets or sets an object allows to retrieve OAuth access token.
 | --- | --- | --- |
 | value | [ITokenProvider](../../com.aspose.email/itokenprovider) |  |
 
+### updateCalendarItem(MapiCalendar mapiCalendar) {#updateCalendarItem-com.aspose.email.MapiCalendar-}
+```
+public abstract MapiCalendar updateCalendarItem(MapiCalendar mapiCalendar)
+```
+
+
+Updates MapiCalendar
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mapiCalendar | [MapiCalendar](../../com.aspose.email/mapicalendar) | MapiCalendar to be updated |
+
+**Returns:**
+[MapiCalendar](../../com.aspose.email/mapicalendar) - Updated MapiCalendar
+### updateCalendarItem(MapiCalendar mapiCalendar, UpdateSettings updateSettings) {#updateCalendarItem-com.aspose.email.MapiCalendar-com.aspose.email.UpdateSettings-}
+```
+public abstract MapiCalendar updateCalendarItem(MapiCalendar mapiCalendar, UpdateSettings updateSettings)
+```
+
+
+Updates appointment
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mapiCalendar | [MapiCalendar](../../com.aspose.email/mapicalendar) | MapiCalendar to be updated |
+| updateSettings | [UpdateSettings](../../com.aspose.email/updatesettings) | Update settings |
+
+**Returns:**
+[MapiCalendar](../../com.aspose.email/mapicalendar) - Updated MapiCalendar
 ### updateCategory(OutlookCategory category) {#updateCategory-com.aspose.email.OutlookCategory-}
 ```
 public abstract OutlookCategory updateCategory(OutlookCategory category)
@@ -845,6 +1126,21 @@ Updates pre-set color constant for specified category
 
 **Returns:**
 [OutlookCategory](../../com.aspose.email/outlookcategory) - Category by which a user can group Outlook items such as messages and events
+### updateContact(MapiContact contact) {#updateContact-com.aspose.email.MapiContact-}
+```
+public abstract MapiContact updateContact(MapiContact contact)
+```
+
+
+Updates contact
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| contact | [MapiContact](../../com.aspose.email/mapicontact) | MapiContact to be updated |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - Updated contact
 ### updateFolder(GraphFolderInfo folderInfo) {#updateFolder-com.aspose.email.GraphFolderInfo-}
 ```
 public abstract GraphFolderInfo updateFolder(GraphFolderInfo folderInfo)
@@ -860,6 +1156,37 @@ Updates folder.
 
 **Returns:**
 [GraphFolderInfo](../../com.aspose.email/graphfolderinfo) - Returns updated folder
+### updateMessage(MailMessage message) {#updateMessage-com.aspose.email.MailMessage-}
+```
+public abstract MailMessage updateMessage(MailMessage message)
+```
+
+
+Updates message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | [MailMessage](../../com.aspose.email/mailmessage) | MailMessage to be updated |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - Updated message
+### updateMessage(MailMessage message, UpdateSettings updateSettings) {#updateMessage-com.aspose.email.MailMessage-com.aspose.email.UpdateSettings-}
+```
+public abstract MailMessage updateMessage(MailMessage message, UpdateSettings updateSettings)
+```
+
+
+Updates message
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | [MailMessage](../../com.aspose.email/mailmessage) | MailMessage to be updated |
+| updateSettings | [UpdateSettings](../../com.aspose.email/updatesettings) | Update settings |
+
+**Returns:**
+[MailMessage](../../com.aspose.email/mailmessage) - Updated message
 ### updateMessage(MapiMessage message) {#updateMessage-com.aspose.email.MapiMessage-}
 ```
 public abstract MapiMessage updateMessage(MapiMessage message)
@@ -921,3 +1248,49 @@ Change writable properties on a messageRule object and save the changes. Permiss
 
 **Returns:**
 [InboxRule](../../com.aspose.email/inboxrule) - Updated rule
+### updateTask(MapiTask task) {#updateTask-com.aspose.email.MapiTask-}
+```
+public abstract MapiTask updateTask(MapiTask task)
+```
+
+
+Updates Task
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| task | [MapiTask](../../com.aspose.email/mapitask) | MapiTask to be updated |
+
+**Returns:**
+[MapiTask](../../com.aspose.email/mapitask) - Updated MapiTask
+### updateTask(MapiTask task, UpdateSettings updateSettings) {#updateTask-com.aspose.email.MapiTask-com.aspose.email.UpdateSettings-}
+```
+public abstract MapiTask updateTask(MapiTask task, UpdateSettings updateSettings)
+```
+
+
+Updates Task
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| task | [MapiTask](../../com.aspose.email/mapitask) | MapiTask to be updated |
+| updateSettings | [UpdateSettings](../../com.aspose.email/updatesettings) | Update settings |
+
+**Returns:**
+[MapiTask](../../com.aspose.email/mapitask) - Updated MapiTask
+### updateTaskList(GraphTaskListInfo taskList) {#updateTaskList-com.aspose.email.GraphTaskListInfo-}
+```
+public abstract GraphTaskListInfo updateTaskList(GraphTaskListInfo taskList)
+```
+
+
+Updates TaskList.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| taskList | [GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) | TaskListInfo to update |
+
+**Returns:**
+[GraphTaskListInfo](../../com.aspose.email/graphtasklistinfo) - Returns updated TaskListInfo

@@ -1,24 +1,27 @@
 ---
-title: IdentitySet
+title: GraphIdentitySet
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources.
+description: ... The IdentitySet resource is a keyed collection of identity resources.
 type: docs
-weight: 304
-url: /java/com.aspose.email/identityset/
+weight: 290
+url: /java/com.aspose.email/graphidentityset/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class IdentitySet
+public class GraphIdentitySet
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by.
+[...][] The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [IdentitySet()](#IdentitySet--) |  |
+| [GraphIdentitySet()](#GraphIdentitySet--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,16 +34,16 @@ https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setApplication(Identity value)](#setApplication-com.aspose.email.Identity-) | Optional.The application associated with this action. |
-| [setDevice(Identity value)](#setDevice-com.aspose.email.Identity-) | Optional.The device associated with this action. |
-| [setUser(Identity value)](#setUser-com.aspose.email.Identity-) | Optional.The user associated with this action. |
+| [setApplication(GraphIdentity value)](#setApplication-com.aspose.email.GraphIdentity-) | Optional.The application associated with this action. |
+| [setDevice(GraphIdentity value)](#setDevice-com.aspose.email.GraphIdentity-) | Optional.The device associated with this action. |
+| [setUser(GraphIdentity value)](#setUser-com.aspose.email.GraphIdentity-) | Optional.The user associated with this action. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### IdentitySet() {#IdentitySet--}
+### GraphIdentitySet() {#GraphIdentitySet--}
 ```
-public IdentitySet()
+public GraphIdentitySet()
 ```
 
 
@@ -61,14 +64,14 @@ public boolean equals(Object arg0)
 boolean
 ### getApplication() {#getApplication--}
 ```
-public final Identity getApplication()
+public final GraphIdentity getApplication()
 ```
 
 
 Optional.The application associated with this action.
 
 **Returns:**
-[Identity](../../com.aspose.email/identity)
+[GraphIdentity](../../com.aspose.email/graphidentity)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -81,24 +84,24 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getDevice() {#getDevice--}
 ```
-public final Identity getDevice()
+public final GraphIdentity getDevice()
 ```
 
 
 Optional.The device associated with this action.
 
 **Returns:**
-[Identity](../../com.aspose.email/identity)
+[GraphIdentity](../../com.aspose.email/graphidentity)
 ### getUser() {#getUser--}
 ```
-public final Identity getUser()
+public final GraphIdentity getUser()
 ```
 
 
 Optional.The user associated with this action.
 
 **Returns:**
-[Identity](../../com.aspose.email/identity)
+[GraphIdentity](../../com.aspose.email/graphidentity)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -125,9 +128,9 @@ public final native void notifyAll()
 
 
 
-### setApplication(Identity value) {#setApplication-com.aspose.email.Identity-}
+### setApplication(GraphIdentity value) {#setApplication-com.aspose.email.GraphIdentity-}
 ```
-public final void setApplication(Identity value)
+public final void setApplication(GraphIdentity value)
 ```
 
 
@@ -136,11 +139,11 @@ Optional.The application associated with this action.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Identity](../../com.aspose.email/identity) |  |
+| value | [GraphIdentity](../../com.aspose.email/graphidentity) |  |
 
-### setDevice(Identity value) {#setDevice-com.aspose.email.Identity-}
+### setDevice(GraphIdentity value) {#setDevice-com.aspose.email.GraphIdentity-}
 ```
-public final void setDevice(Identity value)
+public final void setDevice(GraphIdentity value)
 ```
 
 
@@ -149,11 +152,11 @@ Optional.The device associated with this action.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Identity](../../com.aspose.email/identity) |  |
+| value | [GraphIdentity](../../com.aspose.email/graphidentity) |  |
 
-### setUser(Identity value) {#setUser-com.aspose.email.Identity-}
+### setUser(GraphIdentity value) {#setUser-com.aspose.email.GraphIdentity-}
 ```
-public final void setUser(Identity value)
+public final void setUser(GraphIdentity value)
 ```
 
 
@@ -162,7 +165,7 @@ Optional.The user associated with this action.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Identity](../../com.aspose.email/identity) |  |
+| value | [GraphIdentity](../../com.aspose.email/graphidentity) |  |
 
 ### toString() {#toString--}
 ```

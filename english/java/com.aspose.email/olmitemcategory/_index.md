@@ -3,7 +3,7 @@ title: OlmItemCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents an Outlook item category.
 type: docs
-weight: 559
+weight: 571
 url: /java/com.aspose.email/olmitemcategory/
 ---
 

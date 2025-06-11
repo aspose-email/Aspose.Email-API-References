@@ -3,7 +3,7 @@ title: MapiTaskCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 477
+weight: 492
 url: /java/com.aspose.email/mapitaskcollection/
 ---
 

@@ -3,7 +3,7 @@ title: IAttachment
 second_title: Aspose.Email for Java API Reference
 description: Represents a common attachment interface
 type: docs
-weight: 765
+weight: 773
 url: /java/com.aspose.email/iattachment/
 ---
 ```

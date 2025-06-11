@@ -1,24 +1,27 @@
 ---
-title: Thumbnail
+title: GraphThumbnail
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailviewgraph-rest-1.0 The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation.
+description: ... The thumbnail resource type represents a thumbnail for an image video document or any item that has a bitmap representation.
 type: docs
-weight: 699
-url: /java/com.aspose.email/thumbnail/
+weight: 303
+url: /java/com.aspose.email/graphthumbnail/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class Thumbnail
+public class GraphThumbnail
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation.
+[...][] The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Thumbnail()](#Thumbnail--) |  |
+| [GraphThumbnail()](#GraphThumbnail--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,24 +34,20 @@ https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1
 | [getUrl()](#getUrl--) | The URL used to fetch the thumbnail content. |
 | [getWidth()](#getWidth--) | The width of the thumbnail, in pixels. |
 | [hashCode()](#hashCode--) |  |
-| [isHeightSpecified()](#isHeightSpecified--) | Indicates whether Height property is specified. |
-| [isWidthSpecified()](#isWidthSpecified--) | Indicates whether Width property is specified. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setContent(String value)](#setContent-java.lang.String-) | The content stream for the thumbnail. |
 | [setHeight(int value)](#setHeight-int-) | The height of the thumbnail, in pixels. |
-| [setHeightSpecified(boolean value)](#setHeightSpecified-boolean-) | Indicates whether Height property is specified. |
 | [setSourceItemId(String value)](#setSourceItemId-java.lang.String-) | The unique identifier of the item that provided the thumbnail.This is only available when a folder thumbnail is requested. |
 | [setUrl(String value)](#setUrl-java.lang.String-) | The URL used to fetch the thumbnail content. |
 | [setWidth(int value)](#setWidth-int-) | The width of the thumbnail, in pixels. |
-| [setWidthSpecified(boolean value)](#setWidthSpecified-boolean-) | Indicates whether Width property is specified. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Thumbnail() {#Thumbnail--}
+### GraphThumbnail() {#GraphThumbnail--}
 ```
-public Thumbnail()
+public GraphThumbnail()
 ```
 
 
@@ -89,14 +88,14 @@ The content stream for the thumbnail.
 java.lang.String
 ### getHeight() {#getHeight--}
 ```
-public final int getHeight()
+public final Integer getHeight()
 ```
 
 
 The height of the thumbnail, in pixels.
 
 **Returns:**
-int
+java.lang.Integer
 ### getSourceItemId() {#getSourceItemId--}
 ```
 public final String getSourceItemId()
@@ -119,14 +118,14 @@ The URL used to fetch the thumbnail content.
 java.lang.String
 ### getWidth() {#getWidth--}
 ```
-public final int getWidth()
+public final Integer getWidth()
 ```
 
 
 The width of the thumbnail, in pixels.
 
 **Returns:**
-int
+java.lang.Integer
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,26 +136,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isHeightSpecified() {#isHeightSpecified--}
-```
-public final boolean isHeightSpecified()
-```
-
-
-Indicates whether Height property is specified.
-
-**Returns:**
-boolean
-### isWidthSpecified() {#isWidthSpecified--}
-```
-public final boolean isWidthSpecified()
-```
-
-
-Indicates whether Width property is specified.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -199,19 +178,6 @@ The height of the thumbnail, in pixels.
 | --- | --- | --- |
 | value | int |  |
 
-### setHeightSpecified(boolean value) {#setHeightSpecified-boolean-}
-```
-public final void setHeightSpecified(boolean value)
-```
-
-
-Indicates whether Height property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setSourceItemId(String value) {#setSourceItemId-java.lang.String-}
 ```
 public final void setSourceItemId(String value)
@@ -250,19 +216,6 @@ The width of the thumbnail, in pixels.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
-
-### setWidthSpecified(boolean value) {#setWidthSpecified-boolean-}
-```
-public final void setWidthSpecified(boolean value)
-```
-
-
-Indicates whether Width property is specified.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### toString() {#toString--}
 ```

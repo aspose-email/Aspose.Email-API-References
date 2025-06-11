@@ -41,6 +41,8 @@ Allows to specify additional options when saving MailMessage to Eml and Emlx for
 | --- | --- |
 | [createSaveOptions(MailMessageSaveType saveType)](#createSaveOptions-com.aspose.email.MailMessageSaveType-) | Creates a save options object of a class suitable for the specified save type. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBoundariesTemplate()](#getBoundariesTemplate--) | Gets or sets the boundary template for the message.
+Default value is null. |
 | [getCheckBodyContentEncoding()](#getCheckBodyContentEncoding--) | Defines whether need check message body content encoding when saving. |
 | [getClass()](#getClass--) |  |
 | [getCustomProgressHandler()](#getCustomProgressHandler--) | Represents method that usually supplied by calling side and handles progress events. |
@@ -58,6 +60,8 @@ Allows to specify additional options when saving MailMessage to Eml and Emlx for
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBoundariesTemplate(String value)](#setBoundariesTemplate-java.lang.String-) | Gets or sets the boundary template for the message.
+Default value is null. |
 | [setCheckBodyContentEncoding(boolean value)](#setCheckBodyContentEncoding-boolean-) | Defines whether need check message body content encoding when saving. |
 | [setCustomProgressHandler(ConversionProgressEventHandler value)](#setCustomProgressHandler-com.aspose.email.ConversionProgressEventHandler-) | Represents method that usually supplied by calling side and handles progress events. |
 | [setFileCompatibilityMode(int value)](#setFileCompatibilityMode-int-) | Defines inner conversions,that are necessarily to be done when saving a message. |
@@ -111,6 +115,22 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBoundariesTemplate() {#getBoundariesTemplate--}
+```
+public final String getBoundariesTemplate()
+```
+
+
+Gets or sets the boundary template for the message.
+Default value is null.
+
+The '\{\#\}' wildcard is used for the boundary number placeholder.
+The '\{guid\}' wildcard is used for the boundary GUID placeholder.
+
+example: boundary--\{\#\}-\{guid\}
+
+**Returns:**
+java.lang.String
 ### getCheckBodyContentEncoding() {#getCheckBodyContentEncoding--}
 ```
 public final boolean getCheckBodyContentEncoding()
@@ -288,6 +308,25 @@ public final native void notifyAll()
 
 
 
+
+### setBoundariesTemplate(String value) {#setBoundariesTemplate-java.lang.String-}
+```
+public final void setBoundariesTemplate(String value)
+```
+
+
+Gets or sets the boundary template for the message.
+Default value is null.
+
+The '\{\#\}' wildcard is used for the boundary number placeholder.
+The '\{guid\}' wildcard is used for the boundary GUID placeholder.
+
+example: boundary--\{\#\}-\{guid\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setCheckBodyContentEncoding(boolean value) {#setCheckBodyContentEncoding-boolean-}
 ```

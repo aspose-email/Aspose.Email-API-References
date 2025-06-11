@@ -3,7 +3,7 @@ title: VCardContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a vCard contact
 type: docs
-weight: 724
+weight: 732
 url: /java/com.aspose.email/vcardcontact/
 ---
 
@@ -41,8 +41,10 @@ Represents a vCard contact
 | [isMultiContacts(InputStream stream)](#isMultiContacts-java.io.InputStream-) | Checks whether source stream contains multi contacts. |
 | [isMultiContacts(String filePath)](#isMultiContacts-java.lang.String-) | Checks whether source file contains multi contacts. |
 | [load(InputStream stream)](#load-java.io.InputStream-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
+| [load(InputStream stream, VCardLoadOptions options)](#load-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
 | [load(InputStream stream, Charset encoding)](#load-java.io.InputStream-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. |
 | [load(String filePath)](#load-java.lang.String-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| [load(String filePath, VCardLoadOptions options)](#load-java.lang.String-com.aspose.email.VCardLoadOptions-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [load(String filePath, Charset encoding)](#load-java.lang.String-java.nio.charset.Charset-) | Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [loadAsMultiple(InputStream stream)](#loadAsMultiple-java.io.InputStream-) | Loads list of contacts from multi contact stream. |
 | [loadAsMultiple(InputStream stream, VCardLoadOptions options)](#loadAsMultiple-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Loads list of contacts from multi contact stream. |
@@ -282,6 +284,22 @@ Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified str
 
 **Returns:**
 [VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
+### load(InputStream stream, VCardLoadOptions options) {#load-java.io.InputStream-com.aspose.email.VCardLoadOptions-}
+```
+public static VCardContact load(InputStream stream, VCardLoadOptions options)
+```
+
+
+Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream to read from |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+
+**Returns:**
+[VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
 ### load(InputStream stream, Charset encoding) {#load-java.io.InputStream-java.nio.charset.Charset-}
 ```
 public static VCardContact load(InputStream stream, Charset encoding)
@@ -313,6 +331,22 @@ Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCa
 
 **Returns:**
 [VCardContact](../../com.aspose.email/vcardcontact) - A read [VCardContact](../../com.aspose.email/vcardcontact)
+### load(String filePath, VCardLoadOptions options) {#load-java.lang.String-com.aspose.email.VCardLoadOptions-}
+```
+public static VCardContact load(String filePath, VCardLoadOptions options)
+```
+
+
+Reads [VCardContact](../../com.aspose.email/vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Source file |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+
+**Returns:**
+[VCardContact](../../com.aspose.email/vcardcontact) - List of contacts
 ### load(String filePath, Charset encoding) {#load-java.lang.String-java.nio.charset.Charset-}
 ```
 public static VCardContact load(String filePath, Charset encoding)

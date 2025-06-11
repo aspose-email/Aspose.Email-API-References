@@ -3,7 +3,7 @@ title: MapiContactEventPropertySet
 second_title: Aspose.Email for Java API Reference
 description: Specify events associated with a contact
 type: docs
-weight: 424
+weight: 439
 url: /java/com.aspose.email/mapicontacteventpropertyset/
 ---
 

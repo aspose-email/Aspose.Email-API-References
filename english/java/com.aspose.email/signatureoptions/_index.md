@@ -3,7 +3,7 @@ title: SignatureOptions
 second_title: Aspose.Email for Java API Reference
 description: This class allow the user to specify additional options when sign a message.
 type: docs
-weight: 657
+weight: 668
 url: /java/com.aspose.email/signatureoptions/
 ---
 

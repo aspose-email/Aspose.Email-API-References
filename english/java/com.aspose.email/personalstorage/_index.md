@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for Java API Reference
 description: Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook.
 type: docs
-weight: 574
+weight: 585
 url: /java/com.aspose.email/personalstorage/
 ---
 

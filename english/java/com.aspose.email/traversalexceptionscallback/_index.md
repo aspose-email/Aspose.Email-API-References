@@ -3,7 +3,7 @@ title: TraversalExceptionsCallback
 second_title: Aspose.Email for Java API Reference
 description: Represents the callback method that handles the exceptions during storage traversal.
 type: docs
-weight: 709
+weight: 718
 url: /java/com.aspose.email/traversalexceptionscallback/
 ---
 

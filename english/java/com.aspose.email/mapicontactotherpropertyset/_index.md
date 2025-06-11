@@ -3,7 +3,7 @@ title: MapiContactOtherPropertySet
 second_title: Aspose.Email for Java API Reference
 description: The properties are used to specify additional properies of contact.
 type: docs
-weight: 427
+weight: 442
 url: /java/com.aspose.email/mapicontactotherpropertyset/
 ---
 

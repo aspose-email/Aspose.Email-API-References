@@ -3,7 +3,7 @@ title: LayoutType
 second_title: Aspose.Email for Java API Reference
 description: The layout attribute gives you easy per-element control over how your element should render on screen.
 type: docs
-weight: 349
+weight: 364
 url: /java/com.aspose.email/layouttype/
 ---
 

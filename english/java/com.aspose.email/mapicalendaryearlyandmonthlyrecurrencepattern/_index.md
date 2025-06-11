@@ -3,7 +3,7 @@ title: MapiCalendarYearlyAndMonthlyRecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents the yearly and monthly recurrence pattern of the mapi calendar
 type: docs
-weight: 418
+weight: 433
 url: /java/com.aspose.email/mapicalendaryearlyandmonthlyrecurrencepattern/
 ---
 

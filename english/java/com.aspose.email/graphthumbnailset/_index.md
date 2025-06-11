@@ -1,24 +1,27 @@
 ---
-title: ThumbnailSet
+title: GraphThumbnailSet
 second_title: Aspose.Email for Java API Reference
-description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailsetviewgraph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources.
+description: ... The ThumbnailSet resource is a keyed collection of thumbnail resources.
 type: docs
-weight: 700
-url: /java/com.aspose.email/thumbnailset/
+weight: 304
+url: /java/com.aspose.email/graphthumbnailset/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class ThumbnailSet
+public class GraphThumbnailSet
 ```
 
-https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem.
+[...][] The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem.
+
+
+[...]: https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ThumbnailSet()](#ThumbnailSet--) |  |
+| [GraphThumbnailSet()](#GraphThumbnailSet--) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +37,17 @@ https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-res
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setId(String value)](#setId-java.lang.String-) | The id within the item.Read-only. |
-| [setLarge(Thumbnail value)](#setLarge-com.aspose.email.Thumbnail-) | A 1920x1920 scaled thumbnail. |
-| [setMedium(Thumbnail value)](#setMedium-com.aspose.email.Thumbnail-) | A 176x176 scaled thumbnail. |
-| [setSmall(Thumbnail value)](#setSmall-com.aspose.email.Thumbnail-) | A 48x48 cropped thumbnail. |
-| [setSource(Thumbnail value)](#setSource-com.aspose.email.Thumbnail-) | A custom thumbnail image or the original image used to generate other thumbnails. |
+| [setLarge(GraphThumbnail value)](#setLarge-com.aspose.email.GraphThumbnail-) | A 1920x1920 scaled thumbnail. |
+| [setMedium(GraphThumbnail value)](#setMedium-com.aspose.email.GraphThumbnail-) | A 176x176 scaled thumbnail. |
+| [setSmall(GraphThumbnail value)](#setSmall-com.aspose.email.GraphThumbnail-) | A 48x48 cropped thumbnail. |
+| [setSource(GraphThumbnail value)](#setSource-com.aspose.email.GraphThumbnail-) | A custom thumbnail image or the original image used to generate other thumbnails. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ThumbnailSet() {#ThumbnailSet--}
+### GraphThumbnailSet() {#GraphThumbnailSet--}
 ```
-public ThumbnailSet()
+public GraphThumbnailSet()
 ```
 
 
@@ -85,44 +88,44 @@ The id within the item.Read-only.
 java.lang.String
 ### getLarge() {#getLarge--}
 ```
-public final Thumbnail getLarge()
+public final GraphThumbnail getLarge()
 ```
 
 
 A 1920x1920 scaled thumbnail.
 
 **Returns:**
-[Thumbnail](../../com.aspose.email/thumbnail)
+[GraphThumbnail](../../com.aspose.email/graphthumbnail)
 ### getMedium() {#getMedium--}
 ```
-public final Thumbnail getMedium()
+public final GraphThumbnail getMedium()
 ```
 
 
 A 176x176 scaled thumbnail.
 
 **Returns:**
-[Thumbnail](../../com.aspose.email/thumbnail)
+[GraphThumbnail](../../com.aspose.email/graphthumbnail)
 ### getSmall() {#getSmall--}
 ```
-public final Thumbnail getSmall()
+public final GraphThumbnail getSmall()
 ```
 
 
 A 48x48 cropped thumbnail.
 
 **Returns:**
-[Thumbnail](../../com.aspose.email/thumbnail)
+[GraphThumbnail](../../com.aspose.email/graphthumbnail)
 ### getSource() {#getSource--}
 ```
-public final Thumbnail getSource()
+public final GraphThumbnail getSource()
 ```
 
 
 A custom thumbnail image or the original image used to generate other thumbnails.
 
 **Returns:**
-[Thumbnail](../../com.aspose.email/thumbnail)
+[GraphThumbnail](../../com.aspose.email/graphthumbnail)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -162,9 +165,9 @@ The id within the item.Read-only.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setLarge(Thumbnail value) {#setLarge-com.aspose.email.Thumbnail-}
+### setLarge(GraphThumbnail value) {#setLarge-com.aspose.email.GraphThumbnail-}
 ```
-public final void setLarge(Thumbnail value)
+public final void setLarge(GraphThumbnail value)
 ```
 
 
@@ -173,11 +176,11 @@ A 1920x1920 scaled thumbnail.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Thumbnail](../../com.aspose.email/thumbnail) |  |
+| value | [GraphThumbnail](../../com.aspose.email/graphthumbnail) |  |
 
-### setMedium(Thumbnail value) {#setMedium-com.aspose.email.Thumbnail-}
+### setMedium(GraphThumbnail value) {#setMedium-com.aspose.email.GraphThumbnail-}
 ```
-public final void setMedium(Thumbnail value)
+public final void setMedium(GraphThumbnail value)
 ```
 
 
@@ -186,11 +189,11 @@ A 176x176 scaled thumbnail.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Thumbnail](../../com.aspose.email/thumbnail) |  |
+| value | [GraphThumbnail](../../com.aspose.email/graphthumbnail) |  |
 
-### setSmall(Thumbnail value) {#setSmall-com.aspose.email.Thumbnail-}
+### setSmall(GraphThumbnail value) {#setSmall-com.aspose.email.GraphThumbnail-}
 ```
-public final void setSmall(Thumbnail value)
+public final void setSmall(GraphThumbnail value)
 ```
 
 
@@ -199,11 +202,11 @@ A 48x48 cropped thumbnail.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Thumbnail](../../com.aspose.email/thumbnail) |  |
+| value | [GraphThumbnail](../../com.aspose.email/graphthumbnail) |  |
 
-### setSource(Thumbnail value) {#setSource-com.aspose.email.Thumbnail-}
+### setSource(GraphThumbnail value) {#setSource-com.aspose.email.GraphThumbnail-}
 ```
-public final void setSource(Thumbnail value)
+public final void setSource(GraphThumbnail value)
 ```
 
 
@@ -212,7 +215,7 @@ A custom thumbnail image or the original image used to generate other thumbnails
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Thumbnail](../../com.aspose.email/thumbnail) |  |
+| value | [GraphThumbnail](../../com.aspose.email/graphthumbnail) |  |
 
 ### toString() {#toString--}
 ```

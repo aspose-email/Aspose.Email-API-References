@@ -3,7 +3,7 @@ title: HttpUtility
 second_title: Aspose.Email for Java API Reference
 description: 
 type: docs
-weight: 300
+weight: 317
 url: /java/com.aspose.email/httputility/
 ---
 

@@ -3,7 +3,7 @@ title: RecurrencePattern
 second_title: Aspose.Email for Java API Reference
 description: Represents a recurrence pattern.
 type: docs
-weight: 608
+weight: 619
 url: /java/com.aspose.email/recurrencepattern/
 ---
 

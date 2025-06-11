@@ -3,7 +3,7 @@ title: VCardTelephoneNumberCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of VCardTelephoneNumbers
 type: docs
-weight: 746
+weight: 754
 url: /java/com.aspose.email/vcardtelephonenumbercollection/
 ---
 

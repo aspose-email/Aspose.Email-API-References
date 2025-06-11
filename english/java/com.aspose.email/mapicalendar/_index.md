@@ -3,7 +3,7 @@ title: MapiCalendar
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI calendar item.
 type: docs
-weight: 390
+weight: 405
 url: /java/com.aspose.email/mapicalendar/
 ---
 
@@ -145,6 +145,7 @@ Example:
 | [setSequence(int value)](#setSequence-int-) | Gets or sets the sequence number |
 | [setStartDate(Date value)](#setStartDate-java.util.Date-) | Gets or sets the start date and time of the event. |
 | [setStartDateTimeZone(MapiCalendarTimeZone value)](#setStartDateTimeZone-com.aspose.email.MapiCalendarTimeZone-) | Gets or sets time zone information that indicates the time zone of the StartDate property |
+| [setStateForced(int state)](#setStateForced-int-) | Sets the state of the calendar object, overriding any default behavior. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Gets or sets the subject of the message. |
 | [setUid(String value)](#setUid-java.lang.String-) | Gets the unique identifier |
 | [toString()](#toString--) |  |
@@ -1469,6 +1470,23 @@ Gets or sets time zone information that indicates the time zone of the StartDate
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MapiCalendarTimeZone](../../com.aspose.email/mapicalendartimezone) |  |
+
+### setStateForced(int state) {#setStateForced-int-}
+```
+public final void setStateForced(int state)
+```
+
+
+Sets the state of the calendar object, overriding any default behavior.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| state | int | The new state to apply to the calendar object.
+
+--------------------
+
+By default, when a meeting is created, its state is [MapiCalendarState.Meeting](../../com.aspose.email/mapicalendarstate\#Meeting). When the meeting is received in a recipient's inbox, it changes to [MapiCalendarState.Received](../../com.aspose.email/mapicalendarstate\#Received) and its message class is set to "IPM.Schedule.Meeting.Request". Using this method to set the state to [MapiCalendarState.Received](../../com.aspose.email/mapicalendarstate\#Received) manually may prevent the item from being sent to other recipients correctly. However, it allows the organizer information to be visible in the saved MSG file. |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```

@@ -3,7 +3,7 @@ title: GraphKnownFolders
 second_title: Aspose.Email for Java API Reference
 description: Well-known folders
 type: docs
-weight: 286
+weight: 291
 url: /java/com.aspose.email/graphknownfolders/
 ---
 
@@ -24,9 +24,11 @@ Well-known folders
 | Field | Description |
 | --- | --- |
 | [Archive](#Archive) | The archive folder messages are sent to when using the One\_Click Archive feature in Outlook clients that support it. |
+| [Calendars](#Calendars) | Default Contacts folder. |
 | [Clutter](#Clutter) | The clutter folder low-priority messages are moved to when using the Clutter feature. |
 | [Conflicts](#Conflicts) | The folder that contains conflicting items in the mailbox. |
 | [ContactFolders](#ContactFolders) | Mail folders root |
+| [Contacts](#Contacts) | Default Contacts folder. |
 | [ConversationHistory](#ConversationHistory) | The folder where Skype saves IM conversations (if Skype is configured to do so). |
 | [DeletedItems](#DeletedItems) | The folder items are moved to when they are deleted. |
 | [Drafts](#Drafts) | The folder that contains unsent messages. |
@@ -42,6 +44,7 @@ Well-known folders
 | [SentItems](#SentItems) | The sent items folder. |
 | [ServerFailures](#ServerFailures) | The folder that contains items that exist on the server but could not be synchronized to the local client. |
 | [SyncIssues](#SyncIssues) | The folder that contains synchronization logs created by Outlook. |
+| [TodoTasks](#TodoTasks) | Default Contacts folder. |
 ## Methods
 
 | Method | Description |
@@ -69,6 +72,14 @@ public static final String Archive
 
 The archive folder messages are sent to when using the One\_Click Archive feature in Outlook clients that support it. Note: this is not the same as the Archive Mailbox feature of Exchange online.
 
+### Calendars {#Calendars}
+```
+public static final String Calendars
+```
+
+
+Default Contacts folder.
+
 ### Clutter {#Clutter}
 ```
 public static final String Clutter
@@ -92,6 +103,14 @@ public static final String ContactFolders
 
 
 Mail folders root
+
+### Contacts {#Contacts}
+```
+public static final String Contacts
+```
+
+
+Default Contacts folder.
 
 ### ConversationHistory {#ConversationHistory}
 ```
@@ -212,6 +231,14 @@ public static final String SyncIssues
 
 
 The folder that contains synchronization logs created by Outlook.
+
+### TodoTasks {#TodoTasks}
+```
+public static final String TodoTasks
+```
+
+
+Default Contacts folder.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

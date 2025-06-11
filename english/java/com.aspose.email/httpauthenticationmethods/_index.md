@@ -3,7 +3,7 @@ title: HttpAuthenticationMethods
 second_title: Aspose.Email for Java API Reference
 description: The authentication methods supported by the HTTP proxy
 type: docs
-weight: 298
+weight: 315
 url: /java/com.aspose.email/httpauthenticationmethods/
 ---
 

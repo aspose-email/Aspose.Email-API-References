@@ -3,7 +3,7 @@ title: PstItemCategory
 second_title: Aspose.Email for Java API Reference
 description: Represents a category for PST items with a name and associated color.
 type: docs
-weight: 601
+weight: 612
 url: /java/com.aspose.email/pstitemcategory/
 ---
 

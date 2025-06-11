@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI task item.
 type: docs
-weight: 475
+weight: 490
 url: /java/com.aspose.email/mapitask/
 ---
 

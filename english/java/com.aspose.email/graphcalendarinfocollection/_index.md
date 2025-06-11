@@ -1,24 +1,24 @@
 ---
-title: NotebookCollection
+title: GraphCalendarInfoCollection
 second_title: Aspose.Email for Java API Reference
-description: Represents collection of Notebook.
+description: Represents collection of GraphCalendarInfo.
 type: docs
-weight: 546
-url: /java/com.aspose.email/notebookcollection/
+weight: 285
+url: /java/com.aspose.email/graphcalendarinfocollection/
 ---
 
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.Collections.Generic.List
 ```
-public final class NotebookCollection extends System.Collections.Generic.List<Notebook>
+public final class GraphCalendarInfoCollection extends System.Collections.Generic.List<GraphCalendarInfo>
 ```
 
-Represents collection of Notebook.
+Represents collection of GraphCalendarInfo.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [NotebookCollection()](#NotebookCollection--) |  |
+| [GraphCalendarInfoCollection()](#GraphCalendarInfoCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -109,9 +109,9 @@ Represents collection of Notebook.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### NotebookCollection() {#NotebookCollection--}
+### GraphCalendarInfoCollection() {#GraphCalendarInfoCollection--}
 ```
-public NotebookCollection()
+public GraphCalendarInfoCollection()
 ```
 
 
