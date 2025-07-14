@@ -24,7 +24,7 @@ Aspose.Email for .NET API Reference contains examples, code snippets, and API do
 
 These are links to useful resources:
 - [Aspose.Email for .NET API Reference](/email/net/)
-- [Aspose.Email for .NET API Tutorials](/tutorials/email/net/)
+- [Aspose.Email for .NET API Tutorials](https://tutorials.aspose.com/email/net/)
 
 ## Aspose.Email for Java
 
@@ -40,7 +40,7 @@ Aspose.Email for Java API Reference contains examples, code snippets, and API do
 
 These are links to useful resources:
 - [Aspose.Email for Java API Reference](/email/java/)
-- [Aspose.Email for Java API Tutorials](/tutorials/email/java/)
+- [Aspose.Email for Java API Tutorials](https://tutorials.aspose.com/email/java/)
 
 ## Aspose.Email for C++
 
