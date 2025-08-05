@@ -3,7 +3,7 @@ title: Enum OperationResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.OperationResult enum. Types of operation result
 type: docs
-weight: 2690
+weight: 1240
 url: /net/aspose.email.clients.activity/operationresult/
 ---
 ## OperationResult enumeration

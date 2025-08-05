@@ -3,7 +3,7 @@ title: Enum DetectionType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.DetectionType enum. The type of detection
 type: docs
-weight: 2440
+weight: 990
 url: /net/aspose.email.clients.activity/detectiontype/
 ---
 ## DetectionType enumeration

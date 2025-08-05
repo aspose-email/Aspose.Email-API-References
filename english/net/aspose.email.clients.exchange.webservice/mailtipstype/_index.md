@@ -3,7 +3,7 @@ title: Enum MailTipsType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.MailTipsType enum. Enumerates the types of mail tips
 type: docs
-weight: 4010
+weight: 2560
 url: /net/aspose.email.clients.exchange.webservice/mailtipstype/
 ---
 ## MailTipsType enumeration

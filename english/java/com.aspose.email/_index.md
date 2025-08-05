@@ -288,28 +288,43 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [GmailClient](../com.aspose.email/gmailclient) | Base class for Gmail client |
 | [GoogleClientException](../com.aspose.email/googleclientexception) | Represents errors that occur during ActiveSync protocol execution. |
 | [GoogleContactGroup](../com.aspose.email/googlecontactgroup) | Represents a group which owns the contact |
+| [GraphCalendarColor](../com.aspose.email/graphcalendarcolor) | Enumerates the color theme to distinguish the calendar from other calendars in a UI. |
+| [GraphCalendarInfo](../com.aspose.email/graphcalendarinfo) | Represents information about calendar. |
+| [GraphCalendarInfoCollection](../com.aspose.email/graphcalendarinfocollection) | Represents collection of GraphCalendarInfo. |
 | [GraphClient](../com.aspose.email/graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
 | [GraphFolderInfo](../com.aspose.email/graphfolderinfo) | Represents information about personal folder. |
 | [GraphFolderInfoCollection](../com.aspose.email/graphfolderinfocollection) | Represents collection of GraphFolderInfo. |
+| [GraphIdentity](../com.aspose.email/graphidentity) | [...][] The Identity resource represents an identity of an actor.[...]: https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 |
+| [GraphIdentitySet](../com.aspose.email/graphidentityset) | [...][] The IdentitySet resource is a keyed collection of identity resources.[...]: https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 |
 | [GraphKnownFolders](../com.aspose.email/graphknownfolders) | Well-known folders |
 | [GraphMessageInfo](../com.aspose.email/graphmessageinfo) | The MessageInfo represents the server item info fetched from the Graph service. |
 | [GraphMessageInfoCollection](../com.aspose.email/graphmessageinfocollection) | Represents collection of GraphMessageInfo. |
 | [GraphMessagePageInfo](../com.aspose.email/graphmessagepageinfo) | Contains information about retrieved page when paging methods are used. |
+| [GraphNotebook](../com.aspose.email/graphnotebook) | [...][] A OneNote notebook.[...]: https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 |
+| [GraphNotebookCollection](../com.aspose.email/graphnotebookcollection) | Represents collection of Notebook. |
+| [GraphNotebookLinks](../com.aspose.email/graphnotebooklinks) | [...][] Links for opening a OneNote notebook.[...]: https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 |
+| [GraphOnenoteOperation](../com.aspose.email/graphonenoteoperation) | The status of certain long-running OneNote operations. |
+| [GraphOnlineMeetingProvider](../com.aspose.email/graphonlinemeetingprovider) | The default online meeting provider for meetings sent from this calendar. |
 | [GraphQueryBuilder](../com.aspose.email/graphquerybuilder) | Represents the builder of search expression based on search filters that used by MS Graph protocol. |
+| [GraphTaskListInfo](../com.aspose.email/graphtasklistinfo) | Represents information about TaskList. |
+| [GraphTaskListInfoCollection](../com.aspose.email/graphtasklistinfocollection) | Represents collection of TaskListInfo. |
+| [GraphThumbnail](../com.aspose.email/graphthumbnail) | [...][] The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation.[...]: https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 |
+| [GraphThumbnailSet](../com.aspose.email/graphthumbnailset) | [...][] The ThumbnailSet resource is a keyed collection of thumbnail resources.[...]: https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 |
+| [GraphUserRole](../com.aspose.email/graphuserrole) | OneNote user role |
+| [GraphWellknownTaskListName](../com.aspose.email/graphwellknowntasklistname) | Property indicating the list name if the given list is a well-known list. |
 | [HeaderCollection](../com.aspose.email/headercollection) | Defines the collection of header fields |
 | [HeaderList](../com.aspose.email/headerlist) | Colection with name of headers that are included in the DKIM signature. |
 | [HeaderType](../com.aspose.email/headertype) | Represents the Internet standards and RFCs define header fields which may occur on Internet Mail Messages . |
 | [HeadersFormattingOptions](../com.aspose.email/headersformattingoptions) | Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format. |
 | [HtmlFormatOptions](../com.aspose.email/htmlformatoptions) | Enumerates the Html format options. |
 | [HtmlLoadOptions](../com.aspose.email/htmlloadoptions) | Allows to specify additional options when loading MailMessage from Html format. |
+| [HtmlResourceAttachmentResolver](../com.aspose.email/htmlresourceattachmentresolver) |  |
 | [HtmlSaveOptions](../com.aspose.email/htmlsaveoptions) | Allows to specify additional options when saving MailMessage to Html format. |
 | [HttpAuthenticationMethods](../com.aspose.email/httpauthenticationmethods) | The authentication methods supported by the HTTP proxy |
 | [HttpProxy](../com.aspose.email/httpproxy) | HTTP proxy client. |
 | [HttpUtility](../com.aspose.email/httputility) |  |
 | [ICommand](../com.aspose.email/icommand) | Defines a command. |
 | [IDataReader](../com.aspose.email/idatareader) | IDataReader class |
-| [Identity](../com.aspose.email/identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. |
-| [IdentitySet](../com.aspose.email/identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. |
 | [ImapAttachmentInfo](../com.aspose.email/imapattachmentinfo) | Represents an attachment information. |
 | [ImapAttachmentInfoCollection](../com.aspose.email/imapattachmentinfocollection) | Represents the collection of [ImapAttachmentInfo](../com.aspose.email/imapattachmentinfo) |
 | [ImapClient](../com.aspose.email/imapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
@@ -556,9 +571,6 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [NewStorageEventHandler](../com.aspose.email/newstorageeventhandler) | Represents a delegate for handling events that occur after a new storage file is created or processed. |
 | [NoteColor](../com.aspose.email/notecolor) | Specifies the suggested background color of the Note object |
 | [NoteSaveFormat](../com.aspose.email/notesaveformat) | Enumerates NoteSaveFormat |
-| [Notebook](../com.aspose.email/notebook) | https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 A OneNote notebook. |
-| [NotebookCollection](../com.aspose.email/notebookcollection) | Represents collection of Notebook. |
-| [NotebookLinks](../com.aspose.email/notebooklinks) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Links for opening a OneNote notebook. |
 | [NotesStorageFacility](../com.aspose.email/notesstoragefacility) | The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino to store different kind of objects like e-mail, appointments and documents, but also application forms and views. |
 | [NotificationMethod](../com.aspose.email/notificationmethod) | The method used by this notification. |
 | [NotificationType](../com.aspose.email/notificationtype) | The type of notification. |
@@ -573,7 +585,6 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [OlmItemCategory](../com.aspose.email/olmitemcategory) | Represents an Outlook item category. |
 | [OlmMessageInfo](../com.aspose.email/olmmessageinfo) | Represents an information about message in the OLM storage. |
 | [OlmStorage](../com.aspose.email/olmstorage) | Represents an Outlook for Mac (.OLM) storage file and provides functionality to access and manipulate the data within the file such as emails, contacts, calendars, tasks, and notes. |
-| [OnenoteOperation](../com.aspose.email/onenoteoperation) | The status of certain long-running OneNote operations. |
 | [OperationCanceledException](../com.aspose.email/operationcanceledexception) | Represents errors that occur when an operation canceled. |
 | [OriginalMessageAdditionMode](../com.aspose.email/originalmessageadditionmode) | Way to include the original message in response message. |
 | [OutOfOfficeMailTip](../com.aspose.email/outofofficemailtip) | Represents OOF mail tip |
@@ -710,8 +721,6 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [TextFormat](../com.aspose.email/textformat) | Defines format of a text. |
 | [TgzReader](../com.aspose.email/tgzreader) | The mailbox items reader of Zimbra tgz storage. |
 | [ThreadSearchConditions](../com.aspose.email/threadsearchconditions) | Provides the search conditions to retrieve email thread. |
-| [Thumbnail](../com.aspose.email/thumbnail) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation. |
-| [ThumbnailSet](../com.aspose.email/thumbnailset) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. |
 | [TimeoutException](../com.aspose.email/timeoutexception) | Represents the exception that is thrown when the time for operation has expired. |
 | [TimeoutReachedHandler](../com.aspose.email/timeoutreachedhandler) | Raised if timed out while saving. |
 | [TnefLoadOptions](../com.aspose.email/tnefloadoptions) | Allows to specify additional options when loading MailMessage from Tnef format. |
@@ -733,7 +742,6 @@ Contains Java API classes that enables to read and write Microsoft Outlook® docu
 | [UserConfiguration](../com.aspose.email/userconfiguration) | Represents user configuration |
 | [UserConfigurationName](../com.aspose.email/userconfigurationname) | Represents user configuration name |
 | [UserReaction](../com.aspose.email/userreaction) | Represents a user's reaction. |
-| [UserRole](../com.aspose.email/userrole) | OneNote user role |
 | [UserSettingError](../com.aspose.email/usersettingerror) | Represents an error from a GetUserSettings request. |
 | [UserSettingName](../com.aspose.email/usersettingname) | User settings that can be requested using GetUserSettings. |
 | [VCardAgent](../com.aspose.email/vcardagent) | Represents a vCard Agent property |

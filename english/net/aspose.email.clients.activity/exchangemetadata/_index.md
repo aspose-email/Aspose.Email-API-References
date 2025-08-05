@@ -3,7 +3,7 @@ title: Class ExchangeMetadata
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeMetadata class. Exchange metadata in DLP events
 type: docs
-weight: 2540
+weight: 1090
 url: /net/aspose.email.clients.activity/exchangemetadata/
 ---
 ## ExchangeMetadata class

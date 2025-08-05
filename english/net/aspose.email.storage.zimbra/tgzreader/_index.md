@@ -3,7 +3,7 @@ title: Class TgzReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Zimbra.TgzReader class. The mailbox items reader of Zimbra tgz storage
 type: docs
-weight: 20810
+weight: 19280
 url: /net/aspose.email.storage.zimbra/tgzreader/
 ---
 ## TgzReader class
@@ -34,6 +34,7 @@ public class TgzReader : IDisposable
 | --- | --- |
 | [Dispose](../../aspose.email.storage.zimbra/tgzreader/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExportTo](../../aspose.email.storage.zimbra/tgzreader/exportto/)(string) | Save messages and directory structure using given path. |
+| [ExportToAsync](../../aspose.email.storage.zimbra/tgzreader/exporttoasync/)(string, CancellationToken) | Save messages and directory structure using given path. |
 | [GetTotalItemsCount](../../aspose.email.storage.zimbra/tgzreader/gettotalitemscount/)() | Gets the total count of items. |
 | [ReadNextMessage](../../aspose.email.storage.zimbra/tgzreader/readnextmessage/)() | Reads the next message. |
 

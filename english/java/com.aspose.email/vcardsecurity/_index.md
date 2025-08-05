@@ -3,7 +3,7 @@ title: VCardSecurity
 second_title: Aspose.Email for Java API Reference
 description: Represents a vCard security properties
 type: docs
-weight: 742
+weight: 750
 url: /java/com.aspose.email/vcardsecurity/
 ---
 

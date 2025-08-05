@@ -3,7 +3,7 @@ title: Class SectionValue
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.SectionValue class. Represents the content of the section
 type: docs
-weight: 240
+weight: 220
 url: /net/aspose.email.amp/sectionvalue/
 ---
 ## SectionValue class

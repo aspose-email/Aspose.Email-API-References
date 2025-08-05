@@ -3,7 +3,7 @@ title: MessageObjectProperty
 second_title: Aspose.Email for Java API Reference
 description: Represents a property on a .
 type: docs
-weight: 511
+weight: 526
 url: /java/com.aspose.email/messageobjectproperty/
 ---
 

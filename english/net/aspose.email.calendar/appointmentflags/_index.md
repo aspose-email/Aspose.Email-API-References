@@ -3,7 +3,7 @@ title: Enum AppointmentFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentFlags enum. Enumerates appointment flags
 type: docs
-weight: 470
+weight: 450
 url: /net/aspose.email.calendar/appointmentflags/
 ---
 ## AppointmentFlags enumeration

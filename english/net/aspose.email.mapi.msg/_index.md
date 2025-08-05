@@ -3,7 +3,7 @@ title: Aspose.Email.Mapi.Msg
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Mapi.Msg provides classes that represent an alternative implementation of the Outlook MSG format
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.email.mapi.msg/
 ---
 The **Aspose.Email.Mapi.Msg** provides classes that represent an alternative implementation of the Outlook MSG format.

@@ -3,14 +3,14 @@ title: Class MailMessage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailMessage class. 
 type: docs
-weight: 17870
+weight: 16390
 url: /net/aspose.email/mailmessage/
 ---
 ## MailMessage class
 
 ```csharp
 public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage, 
-    IPreferredTextEncodingProvider, ISerializable
+    IPreferredTextEncodingProvider
 ```
 
 ## Constructors
@@ -83,7 +83,6 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | virtual [Decrypt](../../aspose.email/mailmessage/decrypt/#decrypt)() | Decrypts this message |
 | virtual [Decrypt](../../aspose.email/mailmessage/decrypt/#decrypt_1)(X509Certificate2) | Decrypts this message |
 | [Dispose](../../aspose.email/mailmessage/dispose/)() | Releases all resources used by the MailMessage |
-| virtual [DKIMSign](../../aspose.email/mailmessage/dkimsign/)(RSACryptoServiceProvider, DKIMSignatureInfo) | Signs this message using DKIM (DomainKeys Identified Mail) signature. |
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/#encrypt)(X509Certificate2) | Encrypts this message |
 | virtual [Encrypt](../../aspose.email/mailmessage/encrypt/#encrypt_1)(X509Certificate2[]) | Encrypts this message |
 | override [Equals](../../aspose.email/mailmessage/equals/)(object) | Determines whether the specified Object is equal to the current Object. |
@@ -92,7 +91,6 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | override [GetHashCode](../../aspose.email/mailmessage/gethashcode/)() | Returns a hash code for object |
 | virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext/#gethtmlbodytext_1)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |
 | virtual [GetHtmlBodyText](../../aspose.email/mailmessage/gethtmlbodytext/#gethtmlbodytext)(HyperlinkRenderingCallback) | Gets the message htmlbody as plain text. |
-| virtual [GetObjectData](../../aspose.email/mailmessage/getobjectdata/)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
 | virtual [Import](../../aspose.email/mailmessage/import/)(Stream) | Imports message from stream |
 | [RecomposeTnefContent](../../aspose.email/mailmessage/recomposetnefcontent/)() | Composes the TNEF content. Note, that tnef attachment is composed if a message initially contained TNEF and was loaded without FileCompatibilityMode.PreserveTnefAttachments flag, That is this method doesn't create tnef message out of the regular one. |
 | virtual [RemoveSignature](../../aspose.email/mailmessage/removesignature/)() | Remove signature |

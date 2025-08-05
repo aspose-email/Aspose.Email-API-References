@@ -3,7 +3,7 @@ title: Class FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderInfo class. Represents information about personal folder in PST
 type: docs
-weight: 20540
+weight: 19010
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -62,10 +62,11 @@ public sealed class FolderInfo
 | [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages/#enumeratemessages_3)(int, int) | Retrieves a collection of [`MessageInfo`](../messageinfo/) objects starting from a specific index and limited to a specified count. |
 | [EnumerateMessagesEntryId](../../aspose.email.storage.pst/folderinfo/enumeratemessagesentryid/)() | Enumerates the entryID of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents)() | Get collection of messages. |
-| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_3)(bool) | Get collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_4)(bool) | Get collection of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_2)(MailQuery) | Get collection of messages. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_1)(MessageKind) | Get collection of messages. |
-| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_4)(int, int) | Gets the collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_5)(int, int) | Gets the collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents/#getcontents_3)(MailQuery, int, int) | Gets the collection of messages. |
 | [GetPredefinedType](../../aspose.email.storage.pst/folderinfo/getpredefinedtype/)(bool) | Gets the type of predefined folder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder/#getsubfolder)(string) | Get subfolder. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder/#getsubfolder_1)(string, bool) | Gets the subfolder. |
@@ -75,6 +76,8 @@ public sealed class FolderInfo
 | [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders/#getsubfolders_2)(MailQuery) | Gets collection of subfolders. |
 | [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith/#mergewith)(FolderInfo) | Merges the folder with the folder from another pst. |
 | [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith/#mergewith_1)(FolderInfo, bool) | Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories. |
+| [MergeWithAsync](../../aspose.email.storage.pst/folderinfo/mergewithasync/#mergewithasync_1)(FolderInfo, CancellationToken) | Merges the folder with the folder from another pst. |
+| [MergeWithAsync](../../aspose.email.storage.pst/folderinfo/mergewithasync/#mergewithasync)(FolderInfo, bool, CancellationToken) | Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories. |
 | [MoveContents](../../aspose.email.storage.pst/folderinfo/movecontents/)(FolderInfo) | Moves the contents to a new folder. |
 | [MoveSubfolders](../../aspose.email.storage.pst/folderinfo/movesubfolders/)(FolderInfo) | Moves the subfolders to a new parent folder. |
 | [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath/)() | Retrieves the full path of folder within the PST file. |

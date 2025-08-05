@@ -3,7 +3,7 @@ title: Enum DataCenterSecurityEventType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.DataCenterSecurityEventType enum. Types of dmdlet event in lock box
 type: docs
-weight: 2430
+weight: 980
 url: /net/aspose.email.clients.activity/datacentersecurityeventtype/
 ---
 ## DataCenterSecurityEventType enumeration

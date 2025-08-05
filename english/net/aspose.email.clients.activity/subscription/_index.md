@@ -3,7 +3,7 @@ title: Class Subscription
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Subscription class. Object contains information about subscription together with the associated webhook
 type: docs
-weight: 2780
+weight: 1330
 url: /net/aspose.email.clients.activity/subscription/
 ---
 ## Subscription class

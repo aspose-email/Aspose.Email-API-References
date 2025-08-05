@@ -3,7 +3,7 @@ title: Enum FileVerdict
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.FileVerdict enum. The file malware verdict
 type: docs
-weight: 2560
+weight: 1110
 url: /net/aspose.email.clients.activity/fileverdict/
 ---
 ## FileVerdict enumeration

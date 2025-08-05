@@ -3,7 +3,7 @@ title: MapiCalendarAttendees
 second_title: Aspose.Email for Java API Reference
 description: Represents the mapi calendar attendees
 type: docs
-weight: 391
+weight: 406
 url: /java/com.aspose.email/mapicalendarattendees/
 ---
 

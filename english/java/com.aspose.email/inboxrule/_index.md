@@ -3,7 +3,7 @@ title: InboxRule
 second_title: Aspose.Email for Java API Reference
 description: Represents a inbox rule
 type: docs
-weight: 336
+weight: 351
 url: /java/com.aspose.email/inboxrule/
 ---
 

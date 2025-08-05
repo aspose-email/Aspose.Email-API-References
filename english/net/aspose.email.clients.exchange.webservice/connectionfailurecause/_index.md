@@ -3,7 +3,7 @@ title: Enum ConnectionFailureCause
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ConnectionFailureCause enum. Connection failure cause
 type: docs
-weight: 3650
+weight: 2200
 url: /net/aspose.email.clients.exchange.webservice/connectionfailurecause/
 ---
 ## ConnectionFailureCause enumeration

@@ -3,7 +3,7 @@ title: MapiCalendarBusyStatus
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the mapi calendar possible busy status
 type: docs
-weight: 392
+weight: 407
 url: /java/com.aspose.email/mapicalendarbusystatus/
 ---
 

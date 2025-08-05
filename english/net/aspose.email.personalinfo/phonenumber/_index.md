@@ -3,7 +3,7 @@ title: Class PhoneNumber
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.PhoneNumber class. Represents a phone number
 type: docs
-weight: 19710
+weight: 18230
 url: /net/aspose.email.personalinfo/phonenumber/
 ---
 ## PhoneNumber class

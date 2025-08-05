@@ -3,7 +3,7 @@ title: Class Criteria
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Criteria class. Message matching criteria
 type: docs
-weight: 15710
+weight: 14260
 url: /net/aspose.email.clients.google/criteria/
 ---
 ## Criteria class

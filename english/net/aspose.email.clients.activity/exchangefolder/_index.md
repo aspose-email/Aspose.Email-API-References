@@ -3,7 +3,7 @@ title: Class ExchangeFolder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeFolder class. Exchange folder
 type: docs
-weight: 2490
+weight: 1040
 url: /net/aspose.email.clients.activity/exchangefolder/
 ---
 ## ExchangeFolder class

@@ -3,7 +3,7 @@ title: Class DeliveryServiceResponseT
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.DeliveryServiceResponse1T class. Represents the DeliveryService client response
 type: docs
-weight: 2950
+weight: 1500
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/
 ---
 ## DeliveryServiceResponse&lt;T&gt; class

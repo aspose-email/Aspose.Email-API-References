@@ -3,7 +3,7 @@ title: Enum ConnectionAsgmtType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.ConnectionAsgmtType enum. Defines algorithm of connection allocation in multiple threads environment
 type: docs
-weight: 2910
+weight: 1460
 url: /net/aspose.email.clients/connectionasgmttype/
 ---
 ## ConnectionAsgmtType enumeration

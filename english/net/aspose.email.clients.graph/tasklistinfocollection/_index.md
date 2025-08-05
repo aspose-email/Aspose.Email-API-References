@@ -3,7 +3,7 @@ title: Class TaskListInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.TaskListInfoCollection class. Represents collection of TaskListInfo
 type: docs
-weight: 16190
+weight: 14740
 url: /net/aspose.email.clients.graph/tasklistinfocollection/
 ---
 ## TaskListInfoCollection class

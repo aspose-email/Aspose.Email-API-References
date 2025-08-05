@@ -3,7 +3,7 @@ title: ImapQuotaRoot
 second_title: Aspose.Email for Java API Reference
 description: Contains information about quota root for mailbox resource.
 type: docs
-weight: 330
+weight: 345
 url: /java/com.aspose.email/imapquotaroot/
 ---
 

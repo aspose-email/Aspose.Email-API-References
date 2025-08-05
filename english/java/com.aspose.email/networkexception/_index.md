@@ -3,7 +3,7 @@ title: NetworkException
 second_title: Aspose.Email for Java API Reference
 description: Thrown if there is a network connection failure.
 type: docs
-weight: 540
+weight: 555
 url: /java/com.aspose.email/networkexception/
 ---
 

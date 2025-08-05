@@ -3,7 +3,7 @@ title: Class MapiCalendarDailyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarDailyRecurrencePattern class. Represents the daily recurrence pattern of the mapi calendar
 type: docs
-weight: 18130
+weight: 16650
 url: /net/aspose.email.mapi/mapicalendardailyrecurrencepattern/
 ---
 ## MapiCalendarDailyRecurrencePattern class

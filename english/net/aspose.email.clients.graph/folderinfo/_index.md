@@ -3,7 +3,7 @@ title: Class FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.FolderInfo class. Represents information about personal folder
 type: docs
-weight: 16000
+weight: 14550
 url: /net/aspose.email.clients.graph/folderinfo/
 ---
 ## FolderInfo class

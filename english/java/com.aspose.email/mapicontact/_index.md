@@ -3,7 +3,7 @@ title: MapiContact
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI contact item.
 type: docs
-weight: 419
+weight: 434
 url: /java/com.aspose.email/mapicontact/
 ---
 
@@ -52,8 +52,10 @@ Example:
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromVCard(InputStream stream)](#fromVCard-java.io.InputStream-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
+| [fromVCard(InputStream stream, VCardLoadOptions options)](#fromVCard-java.io.InputStream-com.aspose.email.VCardLoadOptions-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
 | [fromVCard(InputStream stream, Charset encoding)](#fromVCard-java.io.InputStream-java.nio.charset.Charset-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. |
 | [fromVCard(String filePath)](#fromVCard-java.lang.String-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| [fromVCard(String filePath, VCardLoadOptions options)](#fromVCard-java.lang.String-com.aspose.email.VCardLoadOptions-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [fromVCard(String filePath, Charset encoding)](#fromVCard-java.lang.String-java.nio.charset.Charset-) | Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [getAttachments()](#getAttachments--) | Gets the attachments in the message. |
 | [getBilling()](#getBilling--) | Contains the billing information associated with an item. |
@@ -260,6 +262,22 @@ Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified strea
 
 **Returns:**
 [MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+### fromVCard(InputStream stream, VCardLoadOptions options) {#fromVCard-java.io.InputStream-com.aspose.email.VCardLoadOptions-}
+```
+public static MapiContact fromVCard(InputStream stream, VCardLoadOptions options)
+```
+
+
+Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream to read from |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
 ### fromVCard(InputStream stream, Charset encoding) {#fromVCard-java.io.InputStream-java.nio.charset.Charset-}
 ```
 public static MapiContact fromVCard(InputStream stream, Charset encoding)
@@ -288,6 +306,22 @@ Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | java.lang.String | A file name to read from |
+
+**Returns:**
+[MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)
+### fromVCard(String filePath, VCardLoadOptions options) {#fromVCard-java.lang.String-com.aspose.email.VCardLoadOptions-}
+```
+public static MapiContact fromVCard(String filePath, VCardLoadOptions options)
+```
+
+
+Reads [MapiContact](../../com.aspose.email/mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | A file name to read from |
+| options | [VCardLoadOptions](../../com.aspose.email/vcardloadoptions) | Additional options when loading a VCardContact |
 
 **Returns:**
 [MapiContact](../../com.aspose.email/mapicontact) - A read [MapiContact](../../com.aspose.email/mapicontact)

@@ -3,7 +3,7 @@ title: Metered.GetConsumptionQuantity
 second_title: Aspose.Email for .NET API Reference
 description: Metered method. Gets consumption file size
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.email/metered/getconsumptionquantity/
 ---
 ## Metered.GetConsumptionQuantity method

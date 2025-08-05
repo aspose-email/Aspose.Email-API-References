@@ -3,7 +3,7 @@ title: MessageValidationError
 second_title: Aspose.Email for Java API Reference
 description: Represents the message validation error information.
 type: docs
-weight: 520
+weight: 535
 url: /java/com.aspose.email/messagevalidationerror/
 ---
 

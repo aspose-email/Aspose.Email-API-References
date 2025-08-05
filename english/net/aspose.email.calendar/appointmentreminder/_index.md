@@ -3,7 +3,7 @@ title: Class AppointmentReminder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentReminder class. Provides a grouping of component properties that define an alarm
 type: docs
-weight: 530
+weight: 510
 url: /net/aspose.email.calendar/appointmentreminder/
 ---
 ## AppointmentReminder class

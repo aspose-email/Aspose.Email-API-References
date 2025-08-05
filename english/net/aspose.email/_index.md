@@ -12,8 +12,6 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 
 | Class | Description |
 | --- | --- |
-| [ActiveSyncException](./activesyncexception/) | Represents errors that occur during ActiveSync protocol execution. |
-| [ActiveSyncNotSupportedException](./activesyncnotsupportedexception/) | Represents errors that occur during ActiveSync protocol execution. |
 | [AlternateView](./alternateview/) | Represents the format to view a message. |
 | [AlternateViewCollection](./alternateviewcollection/) | Represents a collection of AlternateView objects. |
 | [AlternateViewRemovedEventArgs](./alternateviewremovedeventargs/) | Provides data for the AlternateViewRemoved event. |

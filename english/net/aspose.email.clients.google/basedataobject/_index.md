@@ -3,7 +3,7 @@ title: Class BaseDataObject
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.BaseDataObject class. Base class for google data objects
 type: docs
-weight: 15650
+weight: 14200
 url: /net/aspose.email.clients.google/basedataobject/
 ---
 ## BaseDataObject class

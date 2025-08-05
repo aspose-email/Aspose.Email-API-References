@@ -3,7 +3,7 @@ title: Class Task
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Task class. Represents the exchange task information
 type: docs
-weight: 900
+weight: 880
 url: /net/aspose.email.calendar/task/
 ---
 ## Task class

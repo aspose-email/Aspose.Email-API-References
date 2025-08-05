@@ -3,7 +3,7 @@ title: Class AmpForm
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpForm class. The ampform extension allows you to create forms to submit input fields in an AMP document
 type: docs
-weight: 120
+weight: 100
 url: /net/aspose.email.amp/ampform/
 ---
 ## AmpForm class

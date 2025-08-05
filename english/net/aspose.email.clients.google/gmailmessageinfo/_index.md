@@ -3,7 +3,7 @@ title: Class GmailMessageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.GmailMessageInfo class. The message resource representation that contains only an id and a threadId
 type: docs
-weight: 15810
+weight: 14360
 url: /net/aspose.email.clients.google/gmailmessageinfo/
 ---
 ## GmailMessageInfo class

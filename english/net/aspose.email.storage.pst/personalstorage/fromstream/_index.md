@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/personalstorage/fromstream/
 ---
-## FromStream(Stream, bool) {#fromstream_3}
+## FromStream(Stream, bool) {#fromstream_2}
 
 Load PST from stream.
 
@@ -79,81 +79,6 @@ By default, the pst will support writing.
 
 ### See Also
 
-* class [PersonalStorage](../)
-* namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FromStream(Stream, CancellationToken) {#fromstream_5}
-
-Load PST from file.
-
-```csharp
-public static PersonalStorage FromStream(Stream stream, CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-A PersonalStorage object that represents the current PST.
-
-## Remarks
-
-By default, the pst will support writing.
-
-### See Also
-
-* class [PersonalStorage](../)
-* namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FromStream(Stream, bool, CancellationToken) {#fromstream_4}
-
-```csharp
-public static PersonalStorage FromStream(Stream stream, bool writable, CancellationToken token)
-```
-
-### See Also
-
-* class [PersonalStorage](../)
-* namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
-* assembly [Aspose.Email](../../../)
-
----
-
-## FromStream(Stream, PersonalStorageLoadOptions, CancellationToken) {#fromstream_2}
-
-Load PST from file.
-
-```csharp
-public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptions loadOptions, 
-    CancellationToken token)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The System.IO.Stream. |
-| loadOptions | PersonalStorageLoadOptions | The load options. |
-| token | CancellationToken | Propagates notification that operations should be canceled. |
-
-### Return Value
-
-A PersonalStorage object that represents the current PST.
-
-## Remarks
-
-By default, the pst will support writing.
-
-### See Also
-
-* class [PersonalStorageLoadOptions](../../personalstorageloadoptions/)
 * class [PersonalStorage](../)
 * namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
 * assembly [Aspose.Email](../../../)

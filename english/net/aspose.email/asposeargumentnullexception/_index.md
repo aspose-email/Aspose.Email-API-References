@@ -3,7 +3,7 @@ title: Class AsposeArgumentNullException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeArgumentNullException class. The ArgumentException is thrown when an argument is null when it shouldnt be
 type: docs
-weight: 270
+weight: 250
 url: /net/aspose.email/asposeargumentnullexception/
 ---
 ## AsposeArgumentNullException class

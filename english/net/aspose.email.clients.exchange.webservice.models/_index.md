@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Exchange.WebService.Models
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.email.clients.exchange.webservice.models/
 ---
 

@@ -3,7 +3,7 @@ title: Class ExchangeBasePermission
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeBasePermission class. Provides abstract base class for permissions to folders on Exchange Server
 type: docs
-weight: 3210
+weight: 1760
 url: /net/aspose.email.clients.exchange/exchangebasepermission/
 ---
 ## ExchangeBasePermission class

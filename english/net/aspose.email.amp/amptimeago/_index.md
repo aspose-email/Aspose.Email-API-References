@@ -3,7 +3,7 @@ title: Class AmpTimeago
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpTimeago class. Provides fuzzy timestamps by formatting dates as X time ago
 type: docs
-weight: 150
+weight: 130
 url: /net/aspose.email.amp/amptimeago/
 ---
 ## AmpTimeago class

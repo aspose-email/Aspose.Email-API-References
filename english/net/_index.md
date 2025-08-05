@@ -38,6 +38,7 @@ is_root: true
 | [Aspose.Email.Common.Delegate](./aspose.email.common.delegate) | The **Aspose.Email.Common.Delegate** namespace provides common delegate types. |
 | [Aspose.Email.DKIM](./aspose.email.dkim) | The **Aspose.Email.Mail.DKIM** namespace provides classes for work with DKIM signature. |
 | [Aspose.Email.Exceptions](./aspose.email.exceptions) | The **Aspose.Email.Exceptions** namespace provides exception classes as well as classes for exception handling. |
+| [Aspose.Email.LowCode](./aspose.email.lowcode/) | **The Aspose.Email.LowCode** namespace provides simplified, low-code methods for converting emails to various formats. |
 | [Aspose.Email.Mapi](./aspose.email.mapi) | The **Aspose.Email.Mapi** namespace contains classes that represent Outlook messages, contacts, appointments and classes for work with Microsoft Outlook PST\OST file format. |
 | [Aspose.Email.Mapi.Msg](./aspose.email.mapi.msg) | The **Aspose.Email.Mapi.Msg** provides classes that represent an alternative implementation of the Outlook MSG format. |
 | [Aspose.Email.Mime](./aspose.email.mime) | The **Aspose.Email.Mime** namespace provides classes that extend the format of email. |

@@ -3,7 +3,7 @@ title: Class ModificationSequenceField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ModificationSequenceField class. Defines set of values for selected field to search
 type: docs
-weight: 16780
+weight: 15330
 url: /net/aspose.email.clients.imap/modificationsequencefield/
 ---
 ## ModificationSequenceField class

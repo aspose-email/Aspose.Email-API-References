@@ -3,7 +3,7 @@ title: Class AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeArgumentOutOfRangeException class. The exception that is thrown when one of the arguments provided to a method is out of range
 type: docs
-weight: 280
+weight: 260
 url: /net/aspose.email/asposeargumentoutofrangeexception/
 ---
 ## AsposeArgumentOutOfRangeException class

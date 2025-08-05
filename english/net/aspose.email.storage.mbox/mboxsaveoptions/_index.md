@@ -3,7 +3,7 @@ title: Class MboxSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxSaveOptions class. Specifies additional options when save a Mbox storage
 type: docs
-weight: 20330
+weight: 18800
 url: /net/aspose.email.storage.mbox/mboxsaveoptions/
 ---
 ## MboxSaveOptions class

@@ -3,7 +3,7 @@ title: MailTipsType
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the types of mail tips
 type: docs
-weight: 381
+weight: 396
 url: /java/com.aspose.email/mailtipstype/
 ---
 

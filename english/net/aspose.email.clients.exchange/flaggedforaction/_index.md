@@ -3,7 +3,7 @@ title: Enum FlaggedForAction
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.FlaggedForAction enum. Enumerates flagged for action
 type: docs
-weight: 3470
+weight: 2020
 url: /net/aspose.email.clients.exchange/flaggedforaction/
 ---
 ## FlaggedForAction enumeration

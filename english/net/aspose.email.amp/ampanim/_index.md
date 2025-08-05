@@ -3,7 +3,7 @@ title: Class AmpAnim
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpAnim class. A runtimemanaged animated image typically a GIF
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.email.amp/ampanim/
 ---
 ## AmpAnim class

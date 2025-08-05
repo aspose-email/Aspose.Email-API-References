@@ -3,7 +3,7 @@ title: MultiConnectionMode
 second_title: Aspose.Email for Java API Reference
 description: Enumerate modes which indicates how client has to use multiple connections for heavy loaded operations.
 type: docs
-weight: 537
+weight: 552
 url: /java/com.aspose.email/multiconnectionmode/
 ---
 

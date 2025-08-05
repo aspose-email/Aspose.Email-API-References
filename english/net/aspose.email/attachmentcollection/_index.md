@@ -3,7 +3,7 @@ title: Class AttachmentCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AttachmentCollection class. Represents a collection of email message attachments
 type: docs
-weight: 370
+weight: 350
 url: /net/aspose.email/attachmentcollection/
 ---
 ## AttachmentCollection class

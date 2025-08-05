@@ -3,7 +3,7 @@ title: Enum EndType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.EndType enum. Specifies how the recurrence rule ends
 type: docs
-weight: 730
+weight: 710
 url: /net/aspose.email.calendar.recurrences/endtype/
 ---
 ## EndType enumeration

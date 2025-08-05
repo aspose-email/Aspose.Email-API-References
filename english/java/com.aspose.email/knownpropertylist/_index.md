@@ -3,7 +3,7 @@ title: KnownPropertyList
 second_title: Aspose.Email for Java API Reference
 description: The read-only Master Property List provides implementers with a single source of information about all the properties  that are described by the specifications that comprise the Exchange Server Protocols documentation MS-OXPROPS.
 type: docs
-weight: 347
+weight: 362
 url: /java/com.aspose.email/knownpropertylist/
 ---
 

@@ -3,7 +3,7 @@ title: Class AmpAccordion
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpAccordion class. A UI element that facilitates showing/hiding different sections
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.email.amp/ampaccordion/
 ---
 ## AmpAccordion class

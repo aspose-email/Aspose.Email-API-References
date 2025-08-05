@@ -3,7 +3,7 @@ title: IGraphClient.UpdateCategory
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates preset color constant for specified category
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.email.clients.graph/igraphclient/updatecategory/
 ---
 ## IGraphClient.UpdateCategory method

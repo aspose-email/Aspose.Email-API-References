@@ -3,7 +3,7 @@ title: Class GraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.GraphClient class. Provides access to MS Exchange Server Office365 by using REST API
 type: docs
-weight: 16020
+weight: 14570
 url: /net/aspose.email.clients.graph/graphclient/
 ---
 ## GraphClient class

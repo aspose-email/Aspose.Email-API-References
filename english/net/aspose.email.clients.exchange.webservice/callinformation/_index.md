@@ -3,7 +3,7 @@ title: Class CallInformation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.CallInformation class. Phone call information
 type: docs
-weight: 3640
+weight: 2190
 url: /net/aspose.email.clients.exchange.webservice/callinformation/
 ---
 ## CallInformation class

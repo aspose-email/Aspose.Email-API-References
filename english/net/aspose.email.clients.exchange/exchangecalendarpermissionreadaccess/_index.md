@@ -3,7 +3,7 @@ title: Enum ExchangeCalendarPermissionReadAccess
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeCalendarPermissionReadAccess enum. Sspecifies whether a user has permission to read items in a folder
 type: docs
-weight: 3240
+weight: 1790
 url: /net/aspose.email.clients.exchange/exchangecalendarpermissionreadaccess/
 ---
 ## ExchangeCalendarPermissionReadAccess enumeration

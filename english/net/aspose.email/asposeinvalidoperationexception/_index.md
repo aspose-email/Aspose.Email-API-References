@@ -3,7 +3,7 @@ title: Class AsposeInvalidOperationException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeInvalidOperationException class. Exception class for denoting an object was in a state that made calling a method illegal
 type: docs
-weight: 330
+weight: 310
 url: /net/aspose.email/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException class

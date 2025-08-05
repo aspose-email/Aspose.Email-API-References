@@ -3,7 +3,7 @@ title: Enum AutodiscoverErrorCode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.AutodiscoverErrorCode enum. Defines the error codes that can be returned by the Autodiscover service
 type: docs
-weight: 3060
+weight: 1610
 url: /net/aspose.email.clients.exchange/autodiscovererrorcode/
 ---
 ## AutodiscoverErrorCode enumeration

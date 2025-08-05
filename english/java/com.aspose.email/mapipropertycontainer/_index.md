@@ -3,7 +3,7 @@ title: MapiPropertyContainer
 second_title: Aspose.Email for Java API Reference
 description: Represents the base class for      .
 type: docs
-weight: 464
+weight: 479
 url: /java/com.aspose.email/mapipropertycontainer/
 ---
 

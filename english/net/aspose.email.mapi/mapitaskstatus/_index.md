@@ -3,7 +3,7 @@ title: Enum MapiTaskStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiTaskStatus enum. Represents the statuses of the users progress on the task
 type: docs
-weight: 18980
+weight: 17500
 url: /net/aspose.email.mapi/mapitaskstatus/
 ---
 ## MapiTaskStatus enumeration

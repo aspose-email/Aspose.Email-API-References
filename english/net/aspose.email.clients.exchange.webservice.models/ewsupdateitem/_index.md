@@ -3,7 +3,7 @@ title: Class EwsUpdateItem
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.Models.EwsUpdateItem class. Represents UpdateItemAsync method parameters
 type: docs
-weight: 4090
+weight: 2640
 url: /net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/
 ---
 ## EwsUpdateItem class

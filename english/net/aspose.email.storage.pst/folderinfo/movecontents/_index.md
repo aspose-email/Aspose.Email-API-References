@@ -3,7 +3,7 @@ title: FolderInfo.MoveContents
 second_title: Aspose.Email for .NET API Reference
 description: FolderInfo method. Moves the contents to a new folder
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.email.storage.pst/folderinfo/movecontents/
 ---
 ## FolderInfo.MoveContents method

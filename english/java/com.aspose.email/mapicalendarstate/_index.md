@@ -3,7 +3,7 @@ title: MapiCalendarState
 second_title: Aspose.Email for Java API Reference
 description: Enumerates the appointment state
 type: docs
-weight: 411
+weight: 426
 url: /java/com.aspose.email/mapicalendarstate/
 ---
 

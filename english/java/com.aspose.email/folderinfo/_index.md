@@ -63,6 +63,8 @@ Method is used to display brief message information [MessageInfo](../../com.aspo
 Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
 | [getContents(MailQuery query)](#getContents-com.aspose.email.MailQuery-) | Get collection of messages.
 Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
+| [getContents(MailQuery query, int startIndex, int count)](#getContents-com.aspose.email.MailQuery-int-int-) | Get collection of messages.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
 | [getContents(int kind)](#getContents-int-) | Get collection of messages.
 Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. |
 | [getContents(int startIndex, int count)](#getContents-int-int-) | Gets the collection of messages.
@@ -554,6 +556,24 @@ Method is used to display brief message information [MessageInfo](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
+
+**Returns:**
+[MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.
+### getContents(MailQuery query, int startIndex, int count) {#getContents-com.aspose.email.MailQuery-int-int-}
+```
+public final MessageInfoCollection getContents(MailQuery query, int startIndex, int count)
+```
+
+
+Get collection of messages.
+Method is used to display brief message information [MessageInfo](../../com.aspose.email/messageinfo) like subject, sender, recipients. In terms of performance, this is the most suitable option for obtaining primary information about messages. To extract complete message data, the [PersonalStorage.extractMessage(MessageInfo)](../../com.aspose.email/personalstorage\#extractMessage-MessageInfo-) method is provided.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | [MailQuery](../../com.aspose.email/mailquery) | [MailQuery](../../com.aspose.email/mailquery) that represents search query. |
+| startIndex | int | The start message index. |
+| count | int | The number of messages that will be retrieved. |
 
 **Returns:**
 [MessageInfoCollection](../../com.aspose.email/messageinfocollection) - Collection of MessageInfo.

@@ -3,7 +3,7 @@ title: NameValuePair
 second_title: Aspose.Email for Java API Reference
 description: An extended property.
 type: docs
-weight: 538
+weight: 553
 url: /java/com.aspose.email/namevaluepair/
 ---
 

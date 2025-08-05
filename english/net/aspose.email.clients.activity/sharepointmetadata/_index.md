@@ -3,7 +3,7 @@ title: Class SharePointMetadata
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.SharePointMetadata class. Describes metadata about the document in SharePoint or OneDrive for Business that contained the sensitive information
 type: docs
-weight: 2770
+weight: 1320
 url: /net/aspose.email.clients.activity/sharepointmetadata/
 ---
 ## SharePointMetadata class

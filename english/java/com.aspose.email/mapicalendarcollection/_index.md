@@ -3,7 +3,7 @@ title: MapiCalendarCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents the collection of
 type: docs
-weight: 394
+weight: 409
 url: /java/com.aspose.email/mapicalendarcollection/
 ---
 

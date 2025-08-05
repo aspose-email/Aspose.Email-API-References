@@ -3,7 +3,7 @@ title: Class Notification
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Notification class. Object contains an aggregation of actions and events harvested from multiple servers across multiple datacenters
 type: docs
-weight: 2640
+weight: 1190
 url: /net/aspose.email.clients.activity/notification/
 ---
 ## Notification class

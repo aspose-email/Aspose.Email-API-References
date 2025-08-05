@@ -3,7 +3,7 @@ title: MapiAttachmentCollection
 second_title: Aspose.Email for Java API Reference
 description: Represents a collection of MapiAttachment objects.
 type: docs
-weight: 388
+weight: 403
 url: /java/com.aspose.email/mapiattachmentcollection/
 ---
 

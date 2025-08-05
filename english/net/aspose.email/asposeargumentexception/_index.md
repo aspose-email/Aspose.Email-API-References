@@ -3,7 +3,7 @@ title: Class AsposeArgumentException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeArgumentException class. The exception that is thrown when one of the arguments provided to a method is not valid
 type: docs
-weight: 260
+weight: 240
 url: /net/aspose.email/asposeargumentexception/
 ---
 ## AsposeArgumentException class

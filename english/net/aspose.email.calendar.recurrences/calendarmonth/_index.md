@@ -3,7 +3,7 @@ title: Enum CalendarMonth
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.CalendarMonth enum. Represents a calendar month
 type: docs
-weight: 680
+weight: 660
 url: /net/aspose.email.calendar.recurrences/calendarmonth/
 ---
 ## CalendarMonth enumeration

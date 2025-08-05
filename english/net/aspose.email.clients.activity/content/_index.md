@@ -3,7 +3,7 @@ title: Class Content
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Content class. Object contains an aggregation of actions and events harvested from multiple servers across multiple datacenters
 type: docs
-weight: 2400
+weight: 950
 url: /net/aspose.email.clients.activity/content/
 ---
 ## Content class

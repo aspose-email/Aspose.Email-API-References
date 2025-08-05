@@ -3,7 +3,7 @@ title: Class MailgunClientOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.Mailgun.MailgunClientOptions class. Options to set the MailgunClient parameters
 type: docs
-weight: 2980
+weight: 1530
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/
 ---
 ## MailgunClientOptions class

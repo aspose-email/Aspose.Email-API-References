@@ -3,7 +3,7 @@ title: MailMessage.Save
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Save message as a file
 type: docs
-weight: 570
+weight: 550
 url: /net/aspose.email/mailmessage/save/
 ---
 ## Save(string) {#save_2}

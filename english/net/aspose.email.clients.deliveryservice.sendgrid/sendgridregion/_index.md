@@ -3,7 +3,7 @@ title: Enum SendGridRegion
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.SendGrid.SendGridRegion enum. Represents the SendGrid Region
 type: docs
-weight: 3020
+weight: 1570
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridregion/
 ---
 ## SendGridRegion enumeration

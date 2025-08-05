@@ -3,7 +3,7 @@ title: Interface IExchangeClientBase
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.IExchangeClientBase interface. Represents the interface for base Exchange clients
 type: docs
-weight: 3500
+weight: 2050
 url: /net/aspose.email.clients.exchange/iexchangeclientbase/
 ---
 ## IExchangeClientBase interface

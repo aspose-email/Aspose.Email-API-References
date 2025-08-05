@@ -3,7 +3,7 @@ title: Class ByNumberCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.ByNumberCollection class. Represents a set of months weeks days hours minutes or seconds in a recurrence rule
 type: docs
-weight: 660
+weight: 640
 url: /net/aspose.email.calendar.recurrences/bynumbercollection/
 ---
 ## ByNumberCollection class

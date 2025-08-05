@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Smtp
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Smtp namespace provides classes for sending messages by using the Simple Mail Transfer Protocol SMTP
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.email.clients.smtp/
 ---
 The **Aspose.Email.Clients.Smtp** namespace provides classes for sending messages by using the Simple Mail Transfer Protocol (SMTP).

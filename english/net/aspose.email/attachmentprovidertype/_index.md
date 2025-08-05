@@ -3,7 +3,7 @@ title: Enum AttachmentProviderType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AttachmentProviderType enum. The type of web service manipulating the attachment
 type: docs
-weight: 390
+weight: 370
 url: /net/aspose.email/attachmentprovidertype/
 ---
 ## AttachmentProviderType enumeration

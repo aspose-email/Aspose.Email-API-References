@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingEventArgs.PathToResourceFile
 second_title: Aspose.Email for .NET API Reference
 description: ResourceHtmlRenderingEventArgs property. Path to resource file
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email/resourcehtmlrenderingeventargs/pathtoresourcefile/
 ---
 ## ResourceHtmlRenderingEventArgs.PathToResourceFile property

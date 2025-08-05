@@ -3,7 +3,7 @@ title: Class HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HtmlSaveOptions class. Allows to specify additional options when saving MailMessage to Html format
 type: docs
-weight: 17710
+weight: 16200
 url: /net/aspose.email/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -31,6 +31,7 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat/) { get; set; } | Default header line format. |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat/) { get; set; } | Default page header format. |
+| [ExtractHTMLBodyResourcesAsAttachments](../../aspose.email/headersformattingoptions/extracthtmlbodyresourcesasattachments/) { get; set; } | Defines whether extract HTML body resources as attachments or not. Default value is false. |
 | [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates/) { get; } | Gets the format templates. |
 | [HtmlFormatOptions](../../aspose.email/htmlsaveoptions/htmlformatoptions/) { get; set; } | Gets or sets additional options when saving in HTML format. Default value is HtmlFormatOptions.None. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
@@ -44,7 +45,7 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 
 | Name | Description |
 | --- | --- |
-| event [ResourceHtmlRendering](../../aspose.email/htmlsaveoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
+| event [ResourceHtmlRendering](../../aspose.email/headersformattingoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
 | event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
 ### See Also

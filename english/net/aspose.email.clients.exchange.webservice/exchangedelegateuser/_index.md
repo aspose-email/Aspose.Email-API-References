@@ -3,7 +3,7 @@ title: Class ExchangeDelegateUser
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeDelegateUser class. Represents a user who is granted access to the principal mailbox
 type: docs
-weight: 3800
+weight: 2350
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateuser/
 ---
 ## ExchangeDelegateUser class

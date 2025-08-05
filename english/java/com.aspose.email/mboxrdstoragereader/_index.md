@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for Java API Reference
 description: Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients.
 type: docs
-weight: 494
+weight: 509
 url: /java/com.aspose.email/mboxrdstoragereader/
 ---
 
@@ -32,8 +32,14 @@ Represents mboxrd format storage reader, this format is being used by Thunderbir
 | [createReader(String fileName, MboxLoadOptions options)](#createReader-java.lang.String-com.aspose.email.MboxLoadOptions-) | Creates the instance of reader. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [enumerateMessageInfo()](#enumerateMessageInfo--) | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [enumerateMessageInfo(MailQuery query)](#enumerateMessageInfo-com.aspose.email.MailQuery-) | Enumerates the message information that matches the specified query. |
+| [enumerateMessageInfo(int startIndex, int count)](#enumerateMessageInfo-int-int-) | Enumerates a specified number of message information entries, starting from the given index. |
 | [enumerateMessages()](#enumerateMessages--) | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [enumerateMessages(EmlLoadOptions options)](#enumerateMessages-com.aspose.email.EmlLoadOptions-) | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [enumerateMessages(EmlLoadOptions options, MailQuery query)](#enumerateMessages-com.aspose.email.EmlLoadOptions-com.aspose.email.MailQuery-) | Enumerates the mail messages that match the specified query, using the provided load options. |
+| [enumerateMessages(EmlLoadOptions options, int startIndex, int count)](#enumerateMessages-com.aspose.email.EmlLoadOptions-int-int-) | Enumerates a specified number of mail messages, starting from the given index, using the provided load options. |
+| [enumerateMessages(MailQuery query)](#enumerateMessages-com.aspose.email.MailQuery-) | Enumerates the mail messages that match the specified query. |
+| [enumerateMessages(int startIndex, int count)](#enumerateMessages-int-int-) | Enumerates a specified number of mail messages, starting from the given index. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [extractMessage(String id, EmlLoadOptions options)](#extractMessage-java.lang.String-com.aspose.email.EmlLoadOptions-) | Get the message from MBOX. |
 | [getClass()](#getClass--) |  |
@@ -185,6 +191,37 @@ Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+### enumerateMessageInfo(MailQuery query) {#enumerateMessageInfo-com.aspose.email.MailQuery-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MboxMessageInfo> enumerateMessageInfo(MailQuery query)
+```
+
+
+Enumerates the message information that matches the specified query.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The [MailQuery](../../com.aspose.email/mailquery) used to filter messages. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> - An enumerable collection of [MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) instances that match the specified query. The collection may be empty if no messages match.
+### enumerateMessageInfo(int startIndex, int count) {#enumerateMessageInfo-int-int-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MboxMessageInfo> enumerateMessageInfo(int startIndex, int count)
+```
+
+
+Enumerates a specified number of message information entries, starting from the given index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| count | int | The maximum number of message information entries to retrieve. If set to -1, all messages from the start index will be read. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MboxMessageInfo> - An enumerable collection of [MboxMessageInfo](../../com.aspose.email/mboxmessageinfo) instances starting from the specified index. The collection may be empty if there are no messages in the specified range.
 ### enumerateMessages() {#enumerateMessages--}
 ```
 public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages()
@@ -210,6 +247,70 @@ Exposes the enumerator, which supports an iteration of messages in storage.
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> -  System.Collections.Generic.IEnumerableltTgt , that represents an enumerator that iterates through a messages in storage.
+### enumerateMessages(EmlLoadOptions options, MailQuery query) {#enumerateMessages-com.aspose.email.EmlLoadOptions-com.aspose.email.MailQuery-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(EmlLoadOptions options, MailQuery query)
+```
+
+
+Enumerates the mail messages that match the specified query, using the provided load options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | The [EmlLoadOptions](../../com.aspose.email/emlloadoptions) specifying how EML should be read. |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The [MailQuery](../../com.aspose.email/mailquery) used to filter messages. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - An enumerable collection of [MailMessage](../../com.aspose.email/mailmessage) instances that match the specified query. The collection may be empty if no messages match.
+### enumerateMessages(EmlLoadOptions options, int startIndex, int count) {#enumerateMessages-com.aspose.email.EmlLoadOptions-int-int-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(EmlLoadOptions options, int startIndex, int count)
+```
+
+
+Enumerates a specified number of mail messages, starting from the given index, using the provided load options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [EmlLoadOptions](../../com.aspose.email/emlloadoptions) | The [EmlLoadOptions](../../com.aspose.email/emlloadoptions) specifying how EML files should be loaded. |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - An enumerable collection of [MailMessage](../../com.aspose.email/mailmessage) instances starting from the specified index. The collection may be empty if there are no messages in the specified range.
+### enumerateMessages(MailQuery query) {#enumerateMessages-com.aspose.email.MailQuery-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(MailQuery query)
+```
+
+
+Enumerates the mail messages that match the specified query.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | [MailQuery](../../com.aspose.email/mailquery) | The [MailQuery](../../com.aspose.email/mailquery) used to filter messages. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - An enumerable collection of [MailMessage](../../com.aspose.email/mailmessage) instances that match the specified query. The collection may be empty if no messages match.
+### enumerateMessages(int startIndex, int count) {#enumerateMessages-int-int-}
+```
+public final System.Collections.Generic.IGenericEnumerable<MailMessage> enumerateMessages(int startIndex, int count)
+```
+
+
+Enumerates a specified number of mail messages, starting from the given index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | int | The zero-based index of the first message to retrieve. If  startIndex  is greater than or equal to the total number of items, an ArgumentOutOfRangeException is thrown. |
+| count | int | The maximum number of messages to retrieve. If set to -1, all messages from the start index will be read. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.email.MailMessage> - An enumerable collection of [MailMessage](../../com.aspose.email/mailmessage) instances starting from the specified index. The collection may be empty if there are no messages in the specified range.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

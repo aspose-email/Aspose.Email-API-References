@@ -3,7 +3,7 @@ title: Enum SensitivityChoices
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.SensitivityChoices enum. Enumerates the sensitivity level types that are available for an item
 type: docs
-weight: 3580
+weight: 2130
 url: /net/aspose.email.clients.exchange/sensitivitychoices/
 ---
 ## SensitivityChoices enumeration

@@ -3,7 +3,7 @@ title: IGraphClient.SendAsMime
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Sends email message using MIME format
 type: docs
-weight: 520
+weight: 540
 url: /net/aspose.email.clients.graph/igraphclient/sendasmime/
 ---
 ## IGraphClient.SendAsMime method

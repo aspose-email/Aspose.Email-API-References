@@ -3,7 +3,7 @@ title: MailMessage.SetHtmlBody
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Sets html body
 type: docs
-weight: 580
+weight: 560
 url: /net/aspose.email/mailmessage/sethtmlbody/
 ---
 ## MailMessage.SetHtmlBody method

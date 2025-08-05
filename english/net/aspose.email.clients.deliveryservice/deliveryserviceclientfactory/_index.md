@@ -3,7 +3,7 @@ title: Class DeliveryServiceClientFactory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.DeliveryServiceClientFactory class. Represents the to create DeliveryServiceClient
 type: docs
-weight: 2930
+weight: 1480
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/
 ---
 ## DeliveryServiceClientFactory class

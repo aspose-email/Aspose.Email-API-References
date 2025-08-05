@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Exchange.WebService
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Exchange.WebService namespace provides access to MS Exchange Server by using Exchange Web Services EWS
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.email.clients.exchange.webservice/
 ---
 The **Aspose.Email.Clients.Exchange.WebService** namespace provides access to MS Exchange Server by using Exchange Web Services (EWS).

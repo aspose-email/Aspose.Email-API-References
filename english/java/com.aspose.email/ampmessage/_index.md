@@ -103,6 +103,9 @@ Message which allows senders to include AMP components inside emails.
 | [notifyAll()](#notifyAll--) |  |
 | [recomposeTnefContent()](#recomposeTnefContent--) | Composes the TNEF content. |
 | [removeSignature()](#removeSignature--) | Remove signature |
+| [resetBoundaryTemplate(String boundaryTemplate)](#resetBoundaryTemplate-java.lang.String-) | Sets the boundary template for the message.
+Sets the boundary number to 0.
+Default value is null. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Save message as a stream |
 | [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.email.SaveOptions-) | Save message as a stream |
 | [save(String fileName)](#save-java.lang.String-) | Save message as a file |
@@ -1356,6 +1359,26 @@ Remove signature
 
 **Returns:**
 [MailMessage](../../com.aspose.email/mailmessage) - E-mail message
+### resetBoundaryTemplate(String boundaryTemplate) {#resetBoundaryTemplate-java.lang.String-}
+```
+public static void resetBoundaryTemplate(String boundaryTemplate)
+```
+
+
+Sets the boundary template for the message.
+Sets the boundary number to 0.
+Default value is null.
+
+The '\{\#\}' wildcard is used for the boundary number placeholder.
+The '\{guid\}' wildcard is used for the boundary GUID placeholder.
+
+example: boundary--\{\#\}-\{guid\}
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| boundaryTemplate | java.lang.String |  |
+
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
 public void save(OutputStream stream)

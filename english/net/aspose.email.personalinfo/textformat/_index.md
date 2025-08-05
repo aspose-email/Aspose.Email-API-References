@@ -3,7 +3,7 @@ title: Enum TextFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.TextFormat enum. Defines format of a text
 type: docs
-weight: 19770
+weight: 18290
 url: /net/aspose.email.personalinfo/textformat/
 ---
 ## TextFormat enumeration

@@ -3,7 +3,7 @@ title: Class ExchangeException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ExchangeException class. Thrown if there is a MS Exchange communication failure
 type: docs
-weight: 17590
+weight: 16080
 url: /net/aspose.email/exchangeexception/
 ---
 ## ExchangeException class

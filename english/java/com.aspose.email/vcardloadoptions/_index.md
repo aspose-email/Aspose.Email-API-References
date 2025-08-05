@@ -3,7 +3,7 @@ title: VCardLoadOptions
 second_title: Aspose.Email for Java API Reference
 description: This is class that allow the user to specify additional options when loading a VCardContact.
 type: docs
-weight: 737
+weight: 745
 url: /java/com.aspose.email/vcardloadoptions/
 ---
 

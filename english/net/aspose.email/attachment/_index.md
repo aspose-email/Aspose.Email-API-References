@@ -3,7 +3,7 @@ title: Class Attachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Attachment class. Represents an email attachment
 type: docs
-weight: 350
+weight: 330
 url: /net/aspose.email/attachment/
 ---
 ## Attachment class
@@ -41,6 +41,7 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | [NameEncoding](../../aspose.email/attachment/nameencoding/) { get; set; } | Gets or sets an encoding of attachment name |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding/) { get; set; } | Gets or sets a preferred text encoding |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
+| [UniqueId](../../aspose.email/attachment/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 
 ## Methods
 

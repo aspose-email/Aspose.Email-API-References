@@ -3,7 +3,7 @@ title: ResourceHtmlRenderingEventArgs
 second_title: Aspose.Email for Java API Reference
 description: Represents additional parameters for ResourceHtmlRendering event.
 type: docs
-weight: 625
+weight: 636
 url: /java/com.aspose.email/resourcehtmlrenderingeventargs/
 ---
 
@@ -31,12 +31,16 @@ Represents additional parameters for ResourceHtmlRendering event.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaption()](#getCaption--) | Caprion for resource. |
 | [getClass()](#getClass--) |  |
+| [getException()](#getException--) | Rendering exception. |
 | [getPathToResourceFile()](#getPathToResourceFile--) | Path to resource file. |
+| [getResourceStream()](#getResourceStream--) | Stream with resource. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCaption(String value)](#setCaption-java.lang.String-) | Caprion for resource. |
+| [setException(Exception value)](#setException-java.lang.Exception-) | Rendering exception. |
 | [setPathToResourceFile(String value)](#setPathToResourceFile-java.lang.String-) | Path to resource file. |
+| [setResourceStream(InputStream value)](#setResourceStream-java.io.InputStream-) | Stream with resource. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,6 +92,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getException() {#getException--}
+```
+public final Exception getException()
+```
+
+
+Rendering exception.
+
+**Returns:**
+java.lang.Exception
 ### getPathToResourceFile() {#getPathToResourceFile--}
 ```
 public final String getPathToResourceFile()
@@ -98,6 +112,16 @@ Path to resource file.
 
 **Returns:**
 java.lang.String
+### getResourceStream() {#getResourceStream--}
+```
+public final InputStream getResourceStream()
+```
+
+
+Stream with resource. If ResourceRenderingMode is EmbedIntoHtml then this stream will be embedded into the output html, for other types of ResourceRenderingMode this property has no effect.
+
+**Returns:**
+java.io.InputStream
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,6 +161,19 @@ Caprion for resource.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setException(Exception value) {#setException-java.lang.Exception-}
+```
+public final void setException(Exception value)
+```
+
+
+Rendering exception.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Exception |  |
+
 ### setPathToResourceFile(String value) {#setPathToResourceFile-java.lang.String-}
 ```
 public final void setPathToResourceFile(String value)
@@ -149,6 +186,19 @@ Path to resource file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setResourceStream(InputStream value) {#setResourceStream-java.io.InputStream-}
+```
+public final void setResourceStream(InputStream value)
+```
+
+
+Stream with resource. If ResourceRenderingMode is EmbedIntoHtml then this stream will be embedded into the output html, for other types of ResourceRenderingMode this property has no effect.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.io.InputStream |  |
 
 ### toString() {#toString--}
 ```

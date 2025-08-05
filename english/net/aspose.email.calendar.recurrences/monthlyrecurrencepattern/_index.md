@@ -3,7 +3,7 @@ title: Class MonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.MonthlyRecurrencePattern class. Represents a recurrence pattern of monthly recurrence type
 type: docs
-weight: 750
+weight: 730
 url: /net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern class

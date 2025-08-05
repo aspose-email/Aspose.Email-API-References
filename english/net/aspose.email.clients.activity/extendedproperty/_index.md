@@ -3,7 +3,7 @@ title: Class ExtendedProperty
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExtendedProperty class. Extended properties for the setting being changed. Each property will have a Name and Value
 type: docs
-weight: 2550
+weight: 1100
 url: /net/aspose.email.clients.activity/extendedproperty/
 ---
 ## ExtendedProperty class

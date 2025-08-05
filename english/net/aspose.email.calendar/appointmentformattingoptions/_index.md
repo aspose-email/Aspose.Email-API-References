@@ -3,7 +3,7 @@ title: Class AppointmentFormattingOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentFormattingOptions class. Represents the appointment formatting options
 type: docs
-weight: 480
+weight: 460
 url: /net/aspose.email.calendar/appointmentformattingoptions/
 ---
 ## AppointmentFormattingOptions class

@@ -3,7 +3,7 @@ title: Class AppointmentLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentLoadOptions class. Represents appointment load options
 type: docs
-weight: 500
+weight: 480
 url: /net/aspose.email.calendar/appointmentloadoptions/
 ---
 ## AppointmentLoadOptions class

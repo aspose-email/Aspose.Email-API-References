@@ -3,7 +3,7 @@ title: Aspose.Email.Mime
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Mime namespace provides classes that extend the format of email
 type: docs
-weight: 330
+weight: 320
 url: /net/aspose.email.mime/
 ---
 The **Aspose.Email.Mime** namespace provides classes that extend the format of email.

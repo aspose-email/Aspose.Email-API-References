@@ -3,7 +3,7 @@ title: Enum MSImportance
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.MSImportance enum. Specifies the importance of an appointment
 type: docs
-weight: 620
+weight: 600
 url: /net/aspose.email.calendar/msimportance/
 ---
 ## MSImportance enumeration

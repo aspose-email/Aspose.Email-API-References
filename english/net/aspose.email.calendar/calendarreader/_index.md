@@ -3,7 +3,7 @@ title: Class CalendarReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.CalendarReader class. Allows read the calendar with multi events to the Appointment object from a file or stream
 type: docs
-weight: 590
+weight: 570
 url: /net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class

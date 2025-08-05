@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for Java API Reference
 description: Represents a MAPI note sticky note item.
 type: docs
-weight: 459
+weight: 474
 url: /java/com.aspose.email/mapinote/
 ---
 

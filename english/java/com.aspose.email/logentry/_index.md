@@ -3,7 +3,7 @@ title: LogEntry
 second_title: Aspose.Email for Java API Reference
 description: Represents a log message.
 type: docs
-weight: 358
+weight: 373
 url: /java/com.aspose.email/logentry/
 ---
 

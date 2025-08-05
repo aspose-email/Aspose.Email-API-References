@@ -3,7 +3,7 @@ title: Class AmpImage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpImage class. 
 type: docs
-weight: 130
+weight: 110
 url: /net/aspose.email.amp/ampimage/
 ---
 ## AmpImage class

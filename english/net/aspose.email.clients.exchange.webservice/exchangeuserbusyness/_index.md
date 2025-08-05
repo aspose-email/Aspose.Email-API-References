@@ -3,7 +3,7 @@ title: Enum ExchangeUserBusyness
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeUserBusyness enum. Enumerates the user free/busy statuses
 type: docs
-weight: 3890
+weight: 2440
 url: /net/aspose.email.clients.exchange.webservice/exchangeuserbusyness/
 ---
 ## ExchangeUserBusyness enumeration

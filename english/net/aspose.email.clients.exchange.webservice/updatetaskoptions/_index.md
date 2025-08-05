@@ -3,7 +3,7 @@ title: Enum UpdateTaskOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.UpdateTaskOptions enum. Enumerates update task options
 type: docs
-weight: 15560
+weight: 14110
 url: /net/aspose.email.clients.exchange.webservice/updatetaskoptions/
 ---
 ## UpdateTaskOptions enumeration

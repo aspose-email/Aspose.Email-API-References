@@ -3,7 +3,7 @@ title: TaskListInfo.WellknownName
 second_title: Aspose.Email for .NET API Reference
 description: TaskListInfo property. Property indicating the list name if the given list is a wellknown list. Possible values are none defaultList flaggedEmails unknownFutureValue
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.clients.graph/tasklistinfo/wellknownname/
 ---
 ## TaskListInfo.WellknownName property

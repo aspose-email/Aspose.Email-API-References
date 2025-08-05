@@ -3,7 +3,7 @@ title: Class FormField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.FormField class. Describe one field of form
 type: docs
-weight: 170
+weight: 150
 url: /net/aspose.email.amp/formfield/
 ---
 ## FormField class

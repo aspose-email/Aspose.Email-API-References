@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Imap
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Imap namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol IMAP
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.email.clients.imap/
 ---
 The **Aspose.Email.Clients.Imap** namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol (IMAP).
@@ -43,7 +43,6 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 | [PageSettings](./pagesettings/) | The settings for the ImapClient.ListMessagesByPage method |
 | [PageSettingsAsync](./pagesettingsasync/) | The settings for the ImapClient.BeginListMessagesByPage async method. |
 | [RangeSeqSet](./rangeseqset/) | Container with range of values to search. |
-| [ReadLinesTimeoutException](./readlinestimeoutexception/) | Represents the exception that is thrown when a response from server can not be read within the specified time. |
 | [RestoreSettings](./restoresettings/) | The settings for the ImapClient.Restore method |
 | [RestoreSettingsAsync](./restoresettingsasync/) | The settings for the ImapClient.Restore async method. |
 | [SequenceSetBaseValue](./sequencesetbasevalue/) | Base class for different containers for values to search. |

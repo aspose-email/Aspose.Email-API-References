@@ -3,7 +3,7 @@ title: Class AsposeBadServerResponceException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeBadServerResponceException class. Represents errors that occur during server operation execution
 type: docs
-weight: 290
+weight: 270
 url: /net/aspose.email/asposebadserverresponceexception/
 ---
 ## AsposeBadServerResponceException class

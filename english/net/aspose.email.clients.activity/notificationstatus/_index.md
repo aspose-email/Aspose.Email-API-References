@@ -3,7 +3,7 @@ title: Enum NotificationStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.NotificationStatus enum. 
 type: docs
-weight: 2650
+weight: 1200
 url: /net/aspose.email.clients.activity/notificationstatus/
 ---
 ## NotificationStatus enumeration

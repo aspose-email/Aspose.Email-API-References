@@ -3,7 +3,7 @@ title: Enum AppointmentAction
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentAction enum. Enumerates appointments methods
 type: docs
-weight: 440
+weight: 420
 url: /net/aspose.email.calendar/appointmentaction/
 ---
 ## AppointmentAction enumeration

@@ -3,7 +3,7 @@ title: Enum CarouselType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.CarouselType enum. Specifies the display type for the carousel items
 type: docs
-weight: 160
+weight: 140
 url: /net/aspose.email.amp/carouseltype/
 ---
 ## CarouselType enumeration

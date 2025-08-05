@@ -3,7 +3,7 @@ title: IGraphClient.UpdateContact
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates contact
 type: docs
-weight: 560
+weight: 580
 url: /net/aspose.email.clients.graph/igraphclient/updatecontact/
 ---
 ## IGraphClient.UpdateContact method

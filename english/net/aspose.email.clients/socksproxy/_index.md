@@ -3,7 +3,7 @@ title: Class SocksProxy
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.SocksProxy class. SOCKS proxy client. Supported versions of the protocol are SOCKS4 and SOCKS5
 type: docs
-weight: 17260
+weight: 15800
 url: /net/aspose.email.clients/socksproxy/
 ---
 ## SocksProxy class

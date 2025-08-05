@@ -3,7 +3,7 @@ title: SequenceSetBaseValue
 second_title: Aspose.Email for Java API Reference
 description: Base class for different containers for values to search.
 type: docs
-weight: 653
+weight: 664
 url: /java/com.aspose.email/sequencesetbasevalue/
 ---
 

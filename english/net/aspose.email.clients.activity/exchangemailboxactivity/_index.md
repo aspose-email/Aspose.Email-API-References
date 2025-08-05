@@ -3,7 +3,7 @@ title: Class ExchangeMailboxActivity
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeMailboxActivity class. Extends the Common schema with the properties specific to all Exchange mailbox audit data
 type: docs
-weight: 2510
+weight: 1060
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/
 ---
 ## ExchangeMailboxActivity class

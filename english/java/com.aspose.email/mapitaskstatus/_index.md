@@ -3,7 +3,7 @@ title: MapiTaskStatus
 second_title: Aspose.Email for Java API Reference
 description: Represents the statuses of the users progress on the task.
 type: docs
-weight: 484
+weight: 499
 url: /java/com.aspose.email/mapitaskstatus/
 ---
 

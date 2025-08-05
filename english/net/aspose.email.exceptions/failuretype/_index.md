@@ -3,7 +3,7 @@ title: Enum FailureType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Exceptions.FailureType enum. Indicates the failure type
 type: docs
-weight: 17530
+weight: 16020
 url: /net/aspose.email.exceptions/failuretype/
 ---
 ## FailureType enumeration

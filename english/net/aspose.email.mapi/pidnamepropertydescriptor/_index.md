@@ -3,7 +3,7 @@ title: Class PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.PidNamePropertyDescriptor class. Class contains property description information
 type: docs
-weight: 19210
+weight: 17730
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor class

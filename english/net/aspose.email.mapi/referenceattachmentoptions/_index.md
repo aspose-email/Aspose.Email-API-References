@@ -3,7 +3,7 @@ title: Class ReferenceAttachmentOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.ReferenceAttachmentOptions class. Represents configuration options for adding a reference attachment to a MAPI message
 type: docs
-weight: 19260
+weight: 17780
 url: /net/aspose.email.mapi/referenceattachmentoptions/
 ---
 ## ReferenceAttachmentOptions class

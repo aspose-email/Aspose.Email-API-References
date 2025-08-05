@@ -3,7 +3,7 @@ title: Class RestoreSettings
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.RestoreSettings class. The settings for the IEWSClient.Restore method
 type: docs
-weight: 4140
+weight: 2690
 url: /net/aspose.email.clients.exchange.webservice/restoresettings/
 ---
 ## RestoreSettings class

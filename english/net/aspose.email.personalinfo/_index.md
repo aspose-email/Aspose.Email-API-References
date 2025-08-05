@@ -3,7 +3,7 @@ title: Aspose.Email.PersonalInfo
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.PersonalInfo namespace contains classes that represents contact information
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.email.personalinfo/
 ---
 The **Aspose.Email.PersonalInfo** namespace contains classes that represents contact information.

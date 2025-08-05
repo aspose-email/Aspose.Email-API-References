@@ -3,7 +3,7 @@ title: Enum AppointmentTransparency
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentTransparency enum. Specifies whether or not this appointment is intended to be visible in availability searches
 type: docs
-weight: 580
+weight: 560
 url: /net/aspose.email.calendar/appointmenttransparency/
 ---
 ## AppointmentTransparency enumeration

@@ -3,7 +3,7 @@ title: IGraphClient.ListTasks
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List MapiTask from the parent TaskList
 type: docs
-weight: 480
+weight: 500
 url: /net/aspose.email.clients.graph/igraphclient/listtasks/
 ---
 ## IGraphClient.ListTasks method

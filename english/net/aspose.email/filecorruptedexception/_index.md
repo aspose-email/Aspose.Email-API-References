@@ -3,7 +3,7 @@ title: Class FileCorruptedException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.FileCorruptedException class. Exception that is thrown during file reading when the file appears to be corrupted and impossible to read
 type: docs
-weight: 17610
+weight: 16100
 url: /net/aspose.email/filecorruptedexception/
 ---
 ## FileCorruptedException class

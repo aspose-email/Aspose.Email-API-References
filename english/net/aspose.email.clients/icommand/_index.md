@@ -3,7 +3,7 @@ title: Interface ICommand
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.ICommand interface. Defines a command
 type: docs
-weight: 16290
+weight: 14840
 url: /net/aspose.email.clients/icommand/
 ---
 ## ICommand interface

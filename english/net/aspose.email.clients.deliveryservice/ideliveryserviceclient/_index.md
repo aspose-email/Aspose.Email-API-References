@@ -3,7 +3,7 @@ title: Interface IDeliveryServiceClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.IDeliveryServiceClient interface. Represents contract for DeliveryServiceClient
 type: docs
-weight: 2960
+weight: 1510
 url: /net/aspose.email.clients.deliveryservice/ideliveryserviceclient/
 ---
 ## IDeliveryServiceClient interface

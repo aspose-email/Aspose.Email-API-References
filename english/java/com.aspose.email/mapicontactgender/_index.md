@@ -3,7 +3,7 @@ title: MapiContactGender
 second_title: Aspose.Email for Java API Reference
 description: Gender of the contact
 type: docs
-weight: 425
+weight: 440
 url: /java/com.aspose.email/mapicontactgender/
 ---
 

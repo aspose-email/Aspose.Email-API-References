@@ -3,7 +3,7 @@ title: Class ExchangeMailboxAuditActivity
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeMailboxAuditActivity class. 
 type: docs
-weight: 2520
+weight: 1070
 url: /net/aspose.email.clients.activity/exchangemailboxauditactivity/
 ---
 ## ExchangeMailboxAuditActivity class

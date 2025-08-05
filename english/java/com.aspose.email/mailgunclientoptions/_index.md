@@ -3,7 +3,7 @@ title: MailgunClientOptions
 second_title: Aspose.Email for Java API Reference
 description: Options to set the MailgunClient parameters.
 type: docs
-weight: 385
+weight: 400
 url: /java/com.aspose.email/mailgunclientoptions/
 ---
 

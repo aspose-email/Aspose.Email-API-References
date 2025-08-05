@@ -3,7 +3,7 @@ title: HeadersFormattingOptions.RenderingHeaders
 second_title: Aspose.Email for .NET API Reference
 description: HeadersFormattingOptions property. Gets list of headers for rendering
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email/headersformattingoptions/renderingheaders/
 ---
 ## HeadersFormattingOptions.RenderingHeaders property
