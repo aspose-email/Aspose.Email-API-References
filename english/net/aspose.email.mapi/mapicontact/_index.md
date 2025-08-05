@@ -3,7 +3,7 @@ title: Class MapiContact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContact class. Represents a MAPI contact item
 type: docs
-weight: 18370
+weight: 16890
 url: /net/aspose.email.mapi/mapicontact/
 ---
 ## MapiContact class
@@ -64,9 +64,9 @@ public sealed class MapiContact : MapiMessageItemBase
 | Name | Description |
 | --- | --- |
 | static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard)(Stream) | Reads `MapiContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_2)(string) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_1)(Stream, Encoding) | Reads `MapiContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_3)(string, Encoding) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_3)(string) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_1)(Stream, VCardLoadOptions) | Reads `MapiContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [FromVCard](../../aspose.email.mapi/mapicontact/fromvcard/#fromvcard_4)(string, VCardLoadOptions) | Reads `MapiContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty/)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean/)(long) | Gets the value of the property specified by tag as Boolean type. |

@@ -3,7 +3,7 @@ title: Enum SubscriptionStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.SubscriptionStatus enum. Subscription status
 type: docs
-weight: 2790
+weight: 1340
 url: /net/aspose.email.clients.activity/subscriptionstatus/
 ---
 ## SubscriptionStatus enumeration

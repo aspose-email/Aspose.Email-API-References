@@ -3,7 +3,7 @@ title: Enum WebhookStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.WebhookStatus enum. Webhook status
 type: docs
-weight: 2830
+weight: 1380
 url: /net/aspose.email.clients.activity/webhookstatus/
 ---
 ## WebhookStatus enumeration

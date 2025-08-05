@@ -3,7 +3,7 @@ title: Class ExchangeFolderPermission
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderPermission class. Represents a permission on a folder
 type: docs
-weight: 3300
+weight: 1850
 url: /net/aspose.email.clients.exchange/exchangefolderpermission/
 ---
 ## ExchangeFolderPermission class

@@ -3,7 +3,7 @@ title: Interface ITokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.ITokenProvider interface. Defines interface allowing to retrieve access token
 type: docs
-weight: 16320
+weight: 14870
 url: /net/aspose.email.clients/itokenprovider/
 ---
 ## ITokenProvider interface

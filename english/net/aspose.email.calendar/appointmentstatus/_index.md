@@ -3,7 +3,7 @@ title: Enum AppointmentStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentStatus enum. Defines the overall status or confirmation for the appointment
 type: docs
-weight: 570
+weight: 550
 url: /net/aspose.email.calendar/appointmentstatus/
 ---
 ## AppointmentStatus enumeration

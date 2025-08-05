@@ -3,7 +3,7 @@ title: Class ExchangeFolderInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderInfoCollection class. Represents a collection of ExchangeMessageInfo objects
 type: docs
-weight: 3280
+weight: 1830
 url: /net/aspose.email.clients.exchange/exchangefolderinfocollection/
 ---
 ## ExchangeFolderInfoCollection class

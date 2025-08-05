@@ -3,7 +3,7 @@ title: MailMessage.GetAlternateViewContent
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Gets the content as a string from the specified AlternateView
 type: docs
-weight: 490
+weight: 480
 url: /net/aspose.email/mailmessage/getalternateviewcontent/
 ---
 ## MailMessage.GetAlternateViewContent method

@@ -3,7 +3,7 @@ title: Class EwsFetchItems
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.Models.EwsFetchItems class. Represents FetchItemsAsync parameters
 type: docs
-weight: 4070
+weight: 2620
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/
 ---
 ## EwsFetchItems class

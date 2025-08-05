@@ -3,7 +3,7 @@ title: Class MapiProperty
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiProperty class. Represents the mapi property
 type: docs
-weight: 18780
+weight: 17300
 url: /net/aspose.email.mapi/mapiproperty/
 ---
 ## MapiProperty class

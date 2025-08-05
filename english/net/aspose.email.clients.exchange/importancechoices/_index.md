@@ -3,7 +3,7 @@ title: Enum ImportanceChoices
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ImportanceChoices enum. Enumerates the levels of importance for an item
 type: docs
-weight: 3510
+weight: 2060
 url: /net/aspose.email.clients.exchange/importancechoices/
 ---
 ## ImportanceChoices enumeration

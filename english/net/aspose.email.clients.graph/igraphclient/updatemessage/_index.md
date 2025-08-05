@@ -3,7 +3,7 @@ title: IGraphClient.UpdateMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates message
 type: docs
-weight: 580
+weight: 600
 url: /net/aspose.email.clients.graph/igraphclient/updatemessage/
 ---
 ## UpdateMessage(MapiMessage) {#updatemessage_2}

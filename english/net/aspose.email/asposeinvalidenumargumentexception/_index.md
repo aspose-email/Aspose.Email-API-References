@@ -3,7 +3,7 @@ title: Class AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeInvalidEnumArgumentException class. Base exceptioon type for Aspose.Email Represents errors that occur during application execution
 type: docs
-weight: 320
+weight: 300
 url: /net/aspose.email/asposeinvalidenumargumentexception/
 ---
 ## AsposeInvalidEnumArgumentException class

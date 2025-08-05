@@ -3,7 +3,7 @@ title: Class ReminderAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.ReminderAttachment class. Provides the capability to associate a document object with an alarm
 type: docs
-weight: 820
+weight: 800
 url: /net/aspose.email.calendar/reminderattachment/
 ---
 ## ReminderAttachment class

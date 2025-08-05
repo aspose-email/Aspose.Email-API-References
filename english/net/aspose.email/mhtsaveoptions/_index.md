@@ -3,7 +3,7 @@ title: Class MhtSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MhtSaveOptions class. Allows to specify additional options when saving MailMessage to Mhtml format
 type: docs
-weight: 19340
+weight: 17860
 url: /net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class
@@ -31,6 +31,7 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler/) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat/) { get; set; } | Default header line format. |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat/) { get; set; } | Default page header format. |
+| [ExtractHTMLBodyResourcesAsAttachments](../../aspose.email/headersformattingoptions/extracthtmlbodyresourcesasattachments/) { get; set; } | Defines whether extract HTML body resources as attachments or not. Default value is false. |
 | [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates/) { get; } | Gets the format templates. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
 | [MhtFormatOptions](../../aspose.email/mhtsaveoptions/mhtformatoptions/) { get; set; } | Defines additional options when saving in MHTML format. Default value is MhtFormatOptions.WriteHeader &#x7C; MhtFormatOptions.WriteOutlineAttachments. |
@@ -48,6 +49,7 @@ public class MhtSaveOptions : HeadersFormattingOptions
 
 | Name | Description |
 | --- | --- |
+| event [ResourceHtmlRendering](../../aspose.email/headersformattingoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
 | event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
 
 ## Examples

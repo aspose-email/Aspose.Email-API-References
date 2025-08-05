@@ -3,7 +3,7 @@ title: Aspose.Email.Mapi
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Mapi namespace contains classes that represent Outlook messages contacts appointments and classes for work with Microsoft Outlook PSTOST file format
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.email.mapi/
 ---
 The **Aspose.Email.Mapi** namespace contains classes that represent Outlook messages, contacts, appointments and classes for work with Microsoft Outlook PST\OST file format.

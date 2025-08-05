@@ -3,7 +3,7 @@ title: Class CalendarWriter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.CalendarWriter class. Allows write the set of Events in one ics file or stream
 type: docs
-weight: 600
+weight: 580
 url: /net/aspose.email.calendar/calendarwriter/
 ---
 ## CalendarWriter class

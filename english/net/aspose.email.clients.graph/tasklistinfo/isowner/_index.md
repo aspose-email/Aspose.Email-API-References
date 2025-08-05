@@ -3,7 +3,7 @@ title: TaskListInfo.IsOwner
 second_title: Aspose.Email for .NET API Reference
 description: TaskListInfo property. True if the user is owner of the given task list
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.clients.graph/tasklistinfo/isowner/
 ---
 ## TaskListInfo.IsOwner property

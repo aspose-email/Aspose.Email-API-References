@@ -3,7 +3,7 @@ title: Class EmailClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.EmailClient class. Represents the client that creates server connection by using the host credentials
 type: docs
-weight: 3030
+weight: 1580
 url: /net/aspose.email.clients/emailclient/
 ---
 ## EmailClient class

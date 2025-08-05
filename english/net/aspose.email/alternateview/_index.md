@@ -3,7 +3,7 @@ title: Class AlternateView
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AlternateView class. Represents the format to view a message
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.email/alternateview/
 ---
 ## AlternateView class

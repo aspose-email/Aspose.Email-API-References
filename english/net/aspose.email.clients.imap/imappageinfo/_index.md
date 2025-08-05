@@ -3,7 +3,7 @@ title: Class ImapPageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapPageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 16610
+weight: 15160
 url: /net/aspose.email.clients.imap/imappageinfo/
 ---
 ## ImapPageInfo class

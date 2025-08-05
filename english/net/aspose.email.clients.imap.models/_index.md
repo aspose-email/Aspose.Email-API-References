@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Imap.Models
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.email.clients.imap.models/
 ---
 

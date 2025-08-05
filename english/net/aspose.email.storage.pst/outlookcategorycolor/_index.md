@@ -3,7 +3,7 @@ title: Enum OutlookCategoryColor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.OutlookCategoryColor enum. Represents the category colors used in Outlook
 type: docs
-weight: 20670
+weight: 19140
 url: /net/aspose.email.storage.pst/outlookcategorycolor/
 ---
 ## OutlookCategoryColor enumeration

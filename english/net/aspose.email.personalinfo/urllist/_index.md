@@ -3,7 +3,7 @@ title: Class UrlList
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.UrlList class. List of urls for contact
 type: docs
-weight: 19800
+weight: 18320
 url: /net/aspose.email.personalinfo/urllist/
 ---
 ## UrlList class

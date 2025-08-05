@@ -3,7 +3,7 @@ title: Enum SectionHeaderType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.SectionHeaderType enum. Represents the type of heading for the section
 type: docs
-weight: 230
+weight: 210
 url: /net/aspose.email.amp/sectionheadertype/
 ---
 ## SectionHeaderType enumeration

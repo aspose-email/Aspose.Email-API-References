@@ -3,7 +3,7 @@ title: Class MessageTrackingReportInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.MessageTrackingReportInfo class. Represents an information about the message that was found by using the FindMessageTrackingReport
 type: docs
-weight: 4030
+weight: 2580
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/
 ---
 ## MessageTrackingReportInfo class

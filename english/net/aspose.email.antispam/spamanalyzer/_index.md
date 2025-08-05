@@ -3,7 +3,7 @@ title: Class SpamAnalyzer
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AntiSpam.SpamAnalyzer class. Class which allows applications to detect spam emails with selflearning Bayesian filter
 type: docs
-weight: 250
+weight: 230
 url: /net/aspose.email.antispam/spamanalyzer/
 ---
 ## SpamAnalyzer class

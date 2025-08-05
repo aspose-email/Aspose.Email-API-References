@@ -3,7 +3,7 @@ title: Class GmailClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.GmailClient class. Base class for Gmail client
 type: docs
-weight: 15800
+weight: 14350
 url: /net/aspose.email.clients.google/gmailclient/
 ---
 ## GmailClient class

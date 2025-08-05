@@ -3,7 +3,7 @@ title: Enum AppointmentMethodType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentMethodType enum. Defines the iCalendar object method type associated with the calendar object
 type: docs
-weight: 510
+weight: 490
 url: /net/aspose.email.calendar/appointmentmethodtype/
 ---
 ## AppointmentMethodType enumeration

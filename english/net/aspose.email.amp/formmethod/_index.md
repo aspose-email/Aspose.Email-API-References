@@ -3,7 +3,7 @@ title: Enum FormMethod
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.FormMethod enum. The method tells the server about the request method
 type: docs
-weight: 180
+weight: 160
 url: /net/aspose.email.amp/formmethod/
 ---
 ## FormMethod enumeration

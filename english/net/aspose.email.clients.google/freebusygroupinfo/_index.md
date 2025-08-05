@@ -3,7 +3,7 @@ title: Class FreebusyGroupInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.FreebusyGroupInfo class. Specifies list of calendars that are members of the groups
 type: docs
-weight: 15760
+weight: 14310
 url: /net/aspose.email.clients.google/freebusygroupinfo/
 ---
 ## FreebusyGroupInfo class

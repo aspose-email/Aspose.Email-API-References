@@ -3,7 +3,7 @@ title: MailMessage.Equals
 second_title: Aspose.Email for .NET API Reference
 description: MailMessage method. Determines whether the specified Object is equal to the current Object
 type: docs
-weight: 480
+weight: 470
 url: /net/aspose.email/mailmessage/equals/
 ---
 ## MailMessage.Equals method

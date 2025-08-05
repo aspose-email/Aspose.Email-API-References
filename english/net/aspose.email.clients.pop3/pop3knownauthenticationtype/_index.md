@@ -3,7 +3,7 @@ title: Enum Pop3KnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Pop3KnownAuthenticationType enum. 
 type: docs
-weight: 17050
+weight: 15590
 url: /net/aspose.email.clients.pop3/pop3knownauthenticationtype/
 ---
 ## Pop3KnownAuthenticationType enumeration

@@ -3,7 +3,7 @@ title: Class SyncFolderResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.SyncFolderResult class. Result for SyncFolder operation
 type: docs
-weight: 15500
+weight: 14050
 url: /net/aspose.email.clients.exchange.webservice/syncfolderresult/
 ---
 ## SyncFolderResult class

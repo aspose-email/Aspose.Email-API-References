@@ -3,7 +3,7 @@ title: Enum MSBusyStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.MSBusyStatus enum. Specifies the BUSY status of an appointment
 type: docs
-weight: 610
+weight: 590
 url: /net/aspose.email.calendar/msbusystatus/
 ---
 ## MSBusyStatus enumeration

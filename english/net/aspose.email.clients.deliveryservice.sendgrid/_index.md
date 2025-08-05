@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.DeliveryService.SendGrid
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.DeliveryService.SendGrid namespace provides classes implements the client for SendGrid email delivery service
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.email.clients.deliveryservice.sendgrid/
 ---
 The **Aspose.Email.Clients.DeliveryService.SendGrid** namespace provides classes implements the client for SendGrid email delivery service.

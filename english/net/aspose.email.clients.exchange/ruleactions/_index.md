@@ -3,7 +3,7 @@ title: Class RuleActions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.RuleActions class. Represents the set of actions that are available to a rule
 type: docs
-weight: 3540
+weight: 2090
 url: /net/aspose.email.clients.exchange/ruleactions/
 ---
 ## RuleActions class

@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Exchange.Dav
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Exchange.Dav namespace provides classes for access by using WebDav Exchange Store Protocol
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.email.clients.exchange.dav/
 ---
 The **Aspose.Email.Clients.Exchange.Dav** namespace provides classes for access by using WebDav Exchange Store Protocol.

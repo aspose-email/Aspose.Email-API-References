@@ -3,7 +3,7 @@ title: Class RecipientTrackingEvent
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.RecipientTrackingEvent class. Represents details for a specific event in the tracking report
 type: docs
-weight: 4120
+weight: 2670
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/
 ---
 ## RecipientTrackingEvent class

@@ -3,7 +3,7 @@ title: Class GlobalFormattingOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.GlobalFormattingOptions class. Class that allow to set some formatting options for all newly created instances of this options
 type: docs
-weight: 17650
+weight: 16140
 url: /net/aspose.email/globalformattingoptions/
 ---
 ## GlobalFormattingOptions class

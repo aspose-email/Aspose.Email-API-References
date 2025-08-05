@@ -3,7 +3,7 @@ title: Class VCardSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardSaveOptions class. Represents vCard save options
 type: docs
-weight: 19990
+weight: 18510
 url: /net/aspose.email.personalinfo.vcard/vcardsaveoptions/
 ---
 ## VCardSaveOptions class

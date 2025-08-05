@@ -3,7 +3,7 @@ title: EmailValidator.Validate
 second_title: Aspose.Email for .NET API Reference
 description: EmailValidator method. Validating the email address
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.email.tools.verifications/emailvalidator/validate/
 ---
 ## Validate(string, ValidationPolicy, out ValidationResult) {#validate}

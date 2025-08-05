@@ -3,7 +3,7 @@ title: Class AppendMessagesFromMessageObjectResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.AppendMessagesFromMessageObjectResult class. Contains result of operation with messages
 type: docs
-weight: 16340
+weight: 14890
 url: /net/aspose.email.clients.imap/appendmessagesfrommessageobjectresult/
 ---
 ## AppendMessagesFromMessageObjectResult class

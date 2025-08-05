@@ -3,7 +3,7 @@ title: Enum AttachmentPermissionType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AttachmentPermissionType enum. The permission type data associated with a web reference attachment
 type: docs
-weight: 380
+weight: 360
 url: /net/aspose.email/attachmentpermissiontype/
 ---
 ## AttachmentPermissionType enumeration

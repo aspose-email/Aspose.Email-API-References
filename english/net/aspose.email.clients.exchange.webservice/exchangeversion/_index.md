@@ -3,7 +3,7 @@ title: Enum ExchangeVersion
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeVersion enum. Exchange server versions
 type: docs
-weight: 3920
+weight: 2470
 url: /net/aspose.email.clients.exchange.webservice/exchangeversion/
 ---
 ## ExchangeVersion enumeration

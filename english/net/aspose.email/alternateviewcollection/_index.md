@@ -3,7 +3,7 @@ title: Class AlternateViewCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AlternateViewCollection class. Represents a collection of AlternateView objects
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.email/alternateviewcollection/
 ---
 ## AlternateViewCollection class

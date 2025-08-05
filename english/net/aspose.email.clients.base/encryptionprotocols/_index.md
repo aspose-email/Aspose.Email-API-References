@@ -3,7 +3,7 @@ title: Enum EncryptionProtocols
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Base.EncryptionProtocols enum. Defines the possible versions of encryption protocols
 type: docs
-weight: 2870
+weight: 1420
 url: /net/aspose.email.clients.base/encryptionprotocols/
 ---
 ## EncryptionProtocols enumeration

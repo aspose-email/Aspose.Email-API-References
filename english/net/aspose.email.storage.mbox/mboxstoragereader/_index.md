@@ -3,7 +3,7 @@ title: Class MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxStorageReader class. Represents an MBOX file and provides methods for reading and extracting messages. The MBOX file format is used for storing a collection of email messages
 type: docs
-weight: 20340
+weight: 18810
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
@@ -26,9 +26,7 @@ public abstract class MboxStorageReader : IDisposable
 | Name | Description |
 | --- | --- |
 | static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader)(Stream, MboxLoadOptions) | Creates the instance of reader. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_2)(string, MboxLoadOptions) | Creates the instance of reader. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_3)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader/#createreader_1)(string, MboxLoadOptions) | Creates the instance of reader. |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/#enumeratemessageinfo)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 | [EnumerateMessageInfo](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessageinfo/#enumeratemessageinfo_1)(MailQuery) | Enumerates the message information that matches the specified query. |
@@ -47,9 +45,11 @@ public abstract class MboxStorageReader : IDisposable
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage/#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
 | abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage/#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_2)(long, string) | Splits the mbox storage into less sized parts. |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_1)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto_3)(long, string, string) |  |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/#splitinto)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| [SplitIntoAsync](../../aspose.email.storage.mbox/mboxstoragereader/splitintoasync/#splitintoasync_1)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| [SplitIntoAsync](../../aspose.email.storage.mbox/mboxstoragereader/splitintoasync/#splitintoasync)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| static [CreateReaderAsync](../../aspose.email.storage.mbox/mboxstoragereader/createreaderasync/#createreaderasync)(Stream, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
+| static [CreateReaderAsync](../../aspose.email.storage.mbox/mboxstoragereader/createreaderasync/#createreaderasync_1)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
 
 ## Events
 

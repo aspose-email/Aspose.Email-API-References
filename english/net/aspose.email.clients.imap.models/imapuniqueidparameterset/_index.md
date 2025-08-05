@@ -3,7 +3,7 @@ title: Class ImapUniqueIdParameterSet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.Models.ImapUniqueIdParameterSet class. The IAsyncImapClient method parameter set with the set of message unique identifiers
 type: docs
-weight: 16770
+weight: 15320
 url: /net/aspose.email.clients.imap.models/imapuniqueidparameterset/
 ---
 ## ImapUniqueIdParameterSet class

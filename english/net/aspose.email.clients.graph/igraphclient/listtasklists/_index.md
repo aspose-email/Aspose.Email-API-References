@@ -3,7 +3,7 @@ title: IGraphClient.ListTaskLists
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. List TaskList items
 type: docs
-weight: 470
+weight: 490
 url: /net/aspose.email.clients.graph/igraphclient/listtasklists/
 ---
 ## IGraphClient.ListTaskLists method

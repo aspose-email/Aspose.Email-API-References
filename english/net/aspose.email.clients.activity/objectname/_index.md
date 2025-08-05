@@ -3,7 +3,7 @@ title: Class ObjectName
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ObjectName class. Contains name for object in the data feed identified by guids
 type: docs
-weight: 2680
+weight: 1230
 url: /net/aspose.email.clients.activity/objectname/
 ---
 ## ObjectName class

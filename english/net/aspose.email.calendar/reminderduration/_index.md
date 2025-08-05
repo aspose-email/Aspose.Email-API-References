@@ -3,7 +3,7 @@ title: Class ReminderDuration
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.ReminderDuration class. Used to identify properties that contain a duration of time
 type: docs
-weight: 860
+weight: 840
 url: /net/aspose.email.calendar/reminderduration/
 ---
 ## ReminderDuration class

@@ -3,7 +3,7 @@ title: Class AmpFitText
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpFitText class. Expands or shrinks its font size to fit the content within the space given to it
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.email.amp/ampfittext/
 ---
 ## AmpFitText class

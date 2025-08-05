@@ -6,7 +6,7 @@ type: docs
 weight: 280
 url: /net/aspose.email.storage.pst/folderinfo/getcontents/
 ---
-## GetContents(bool) {#getcontents_3}
+## GetContents(bool) {#getcontents_4}
 
 Get collection of messages.
 
@@ -104,7 +104,46 @@ Collection of MessageInfo.
 
 ---
 
-## GetContents(int, int) {#getcontents_4}
+## GetContents(MailQuery, int, int) {#getcontents_3}
+
+Gets the collection of messages.
+
+```csharp
+public MessageInfoCollection GetContents(MailQuery query, int startIndex, int count)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery/) that represents search query. |
+| startIndex | Int32 | The start message index. |
+| count | Int32 | The number of messages that will be retrieved. |
+
+### Return Value
+
+Collection of MessageInfo.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | throws, if startIndex less than 0. |
+| ArgumentOutOfRangeException | throws, if startIndex more or equal to total message count that folder contains. |
+
+## Remarks
+
+If "count" param is less than 0 or more than remained message count then remained message count will be returned.
+
+### See Also
+
+* class [MessageInfoCollection](../../messageinfocollection/)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [FolderInfo](../)
+* namespace [Aspose.Email.Storage.Pst](../../folderinfo/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## GetContents(int, int) {#getcontents_5}
 
 Gets the collection of messages.
 

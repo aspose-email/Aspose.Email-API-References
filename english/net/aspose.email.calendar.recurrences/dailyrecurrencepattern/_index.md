@@ -3,7 +3,7 @@ title: Class DailyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.DailyRecurrencePattern class. Represents a recurrence pattern of daily recurrence type
 type: docs
-weight: 700
+weight: 680
 url: /net/aspose.email.calendar.recurrences/dailyrecurrencepattern/
 ---
 ## DailyRecurrencePattern class

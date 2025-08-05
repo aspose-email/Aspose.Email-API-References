@@ -3,7 +3,7 @@ title: Enum TIPMethod
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.TIPMethod enum. Defines the iTIP iCalendar TransportIndependent Interoperability Protocol methods associated with an object
 type: docs
-weight: 890
+weight: 870
 url: /net/aspose.email.calendar/tipmethod/
 ---
 ## TIPMethod enumeration

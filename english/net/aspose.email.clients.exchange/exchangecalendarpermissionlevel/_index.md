@@ -3,7 +3,7 @@ title: Enum ExchangeCalendarPermissionLevel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeCalendarPermissionLevel enum. Specifies the permission level that a user has on a calendar folder
 type: docs
-weight: 3230
+weight: 1780
 url: /net/aspose.email.clients.exchange/exchangecalendarpermissionlevel/
 ---
 ## ExchangeCalendarPermissionLevel enumeration

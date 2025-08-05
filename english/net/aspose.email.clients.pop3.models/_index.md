@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Pop3.Models
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.email.clients.pop3.models/
 ---
 

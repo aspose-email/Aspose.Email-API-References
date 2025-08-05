@@ -3,7 +3,7 @@ title: Enum AsyncCommandResults
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.AsyncCommandResults enum. The result of asynchronous command
 type: docs
-weight: 2860
+weight: 1410
 url: /net/aspose.email.clients/asynccommandresults/
 ---
 ## AsyncCommandResults enumeration

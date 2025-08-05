@@ -3,7 +3,7 @@ title: Enum ConnectionState
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.ConnectionState enum. Describes the current state of the connection
 type: docs
-weight: 2920
+weight: 1470
 url: /net/aspose.email.clients/connectionstate/
 ---
 ## ConnectionState enumeration

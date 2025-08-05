@@ -3,7 +3,7 @@ title: Enum LayoutType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.LayoutType enum. The layout attribute gives you easy perelement control over how your element should render on screen
 type: docs
-weight: 200
+weight: 180
 url: /net/aspose.email.amp/layouttype/
 ---
 ## LayoutType enumeration

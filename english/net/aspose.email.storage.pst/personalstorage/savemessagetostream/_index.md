@@ -3,7 +3,7 @@ title: PersonalStorage.SaveMessageToStream
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Saves the message with specified entryID to a stream
 type: docs
-weight: 340
+weight: 360
 url: /net/aspose.email.storage.pst/personalstorage/savemessagetostream/
 ---
 ## PersonalStorage.SaveMessageToStream method

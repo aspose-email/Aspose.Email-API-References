@@ -3,7 +3,7 @@ title: Class ExchangeFolderUserInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderUserInfo class. Represents a user who has folder access permissions
 type: docs
-weight: 3360
+weight: 1910
 url: /net/aspose.email.clients.exchange/exchangefolderuserinfo/
 ---
 ## ExchangeFolderUserInfo class

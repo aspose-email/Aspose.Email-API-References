@@ -3,7 +3,7 @@ title: Class AsposeInvalidDataException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeInvalidDataException class. The exception that is thrown when one of the arguments provided to a method is not valid
 type: docs
-weight: 310
+weight: 290
 url: /net/aspose.email/asposeinvaliddataexception/
 ---
 ## AsposeInvalidDataException class

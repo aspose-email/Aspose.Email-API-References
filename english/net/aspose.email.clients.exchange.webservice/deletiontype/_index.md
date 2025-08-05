@@ -3,7 +3,7 @@ title: Enum DeletionType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.DeletionType enum. Type of deletion
 type: docs
-weight: 3680
+weight: 2230
 url: /net/aspose.email.clients.exchange.webservice/deletiontype/
 ---
 ## DeletionType enumeration

@@ -3,7 +3,7 @@ title: Class CalendarRecurrence
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.CalendarRecurrence class. The main class represents an iCalendar recurrence
 type: docs
-weight: 690
+weight: 670
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/
 ---
 ## CalendarRecurrence class

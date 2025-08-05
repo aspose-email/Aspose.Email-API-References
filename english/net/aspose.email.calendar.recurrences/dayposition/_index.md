@@ -3,7 +3,7 @@ title: Enum DayPosition
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.DayPosition enum. Day positions typically found in a month
 type: docs
-weight: 720
+weight: 700
 url: /net/aspose.email.calendar.recurrences/dayposition/
 ---
 ## DayPosition enumeration

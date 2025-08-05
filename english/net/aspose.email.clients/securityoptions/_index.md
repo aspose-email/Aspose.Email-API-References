@@ -3,7 +3,7 @@ title: Enum SecurityOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.SecurityOptions enum. Security mode for a mail client
 type: docs
-weight: 17110
+weight: 15650
 url: /net/aspose.email.clients/securityoptions/
 ---
 ## SecurityOptions enumeration

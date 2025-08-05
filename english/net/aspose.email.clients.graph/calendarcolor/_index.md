@@ -3,7 +3,7 @@ title: Enum CalendarColor
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.CalendarColor enum. Enumerates the color theme to distinguish the calendar from other calendars in a UI. The property values are auto lightBlue lightGreen lightOrange lightGray lightYellow lightTeal lightPink lightBrown lightRed maxColor
 type: docs
-weight: 15930
+weight: 14480
 url: /net/aspose.email.clients.graph/calendarcolor/
 ---
 ## CalendarColor enumeration

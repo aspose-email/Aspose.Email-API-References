@@ -3,7 +3,7 @@ title: Class Record
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Record class. Audit log record
 type: docs
-weight: 2720
+weight: 1270
 url: /net/aspose.email.clients.activity/record/
 ---
 ## Record class

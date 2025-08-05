@@ -3,7 +3,7 @@ title: IGraphClient.UpdateTask
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates Task
 type: docs
-weight: 610
+weight: 630
 url: /net/aspose.email.clients.graph/igraphclient/updatetask/
 ---
 ## UpdateTask(MapiTask) {#updatetask}

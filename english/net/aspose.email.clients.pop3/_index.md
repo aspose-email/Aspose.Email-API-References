@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Pop3
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Pop3 namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 POP3
 type: docs
-weight: 240
+weight: 230
 url: /net/aspose.email.clients.pop3/
 ---
 The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 (POP3).

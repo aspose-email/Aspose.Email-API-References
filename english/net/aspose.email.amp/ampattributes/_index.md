@@ -3,7 +3,7 @@ title: Class AmpAttributes
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpAttributes class. Represents attributes used by the ampcomponents
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.email.amp/ampattributes/
 ---
 ## AmpAttributes class

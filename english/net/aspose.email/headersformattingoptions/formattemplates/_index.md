@@ -3,7 +3,7 @@ title: HeadersFormattingOptions.FormatTemplates
 second_title: Aspose.Email for .NET API Reference
 description: HeadersFormattingOptions property. Gets the format templates
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email/headersformattingoptions/formattemplates/
 ---
 ## HeadersFormattingOptions.FormatTemplates property

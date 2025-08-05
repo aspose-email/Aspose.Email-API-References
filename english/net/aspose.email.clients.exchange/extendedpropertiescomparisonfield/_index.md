@@ -3,7 +3,7 @@ title: Class ExtendedPropertiesComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExtendedPropertiesComparisonField class. Defines dictionary with pairs of property descriptors and comparison field to search by extended properties
 type: docs
-weight: 3460
+weight: 2010
 url: /net/aspose.email.clients.exchange/extendedpropertiescomparisonfield/
 ---
 ## ExtendedPropertiesComparisonField class

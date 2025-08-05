@@ -3,7 +3,7 @@ title: Class ExchangeAdminActivity
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeAdminActivity class. Extends the Common schema with the properties specific to all Exchange admin audit data
 type: docs
-weight: 2480
+weight: 1030
 url: /net/aspose.email.clients.activity/exchangeadminactivity/
 ---
 ## ExchangeAdminActivity class

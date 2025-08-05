@@ -3,7 +3,7 @@ title: Class AppointmentSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentSaveOptions class. Represents base appointment save options
 type: docs
-weight: 560
+weight: 540
 url: /net/aspose.email.calendar/appointmentsaveoptions/
 ---
 ## AppointmentSaveOptions class

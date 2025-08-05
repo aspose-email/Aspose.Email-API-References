@@ -3,7 +3,7 @@ title: Class SyncState
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.SyncState class. Synchronization object for folder synchronization operation
 type: docs
-weight: 15520
+weight: 14070
 url: /net/aspose.email.clients.exchange.webservice/syncstate/
 ---
 ## SyncState class

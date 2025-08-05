@@ -3,7 +3,7 @@ title: Enum IdentityType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.IdentityType enum. Identity types
 type: docs
-weight: 2580
+weight: 1130
 url: /net/aspose.email.clients.activity/identitytype/
 ---
 ## IdentityType enumeration

@@ -3,7 +3,7 @@ title: Class UserReaction
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.UserReaction class. Represents a users reaction
 type: docs
-weight: 19280
+weight: 17800
 url: /net/aspose.email.mapi/userreaction/
 ---
 ## UserReaction class

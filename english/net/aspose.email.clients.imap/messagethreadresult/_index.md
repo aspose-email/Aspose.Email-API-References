@@ -3,7 +3,7 @@ title: Class MessageThreadResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.MessageThreadResult class. Contains result for SORT ot THREAD methods See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16690
+weight: 15240
 url: /net/aspose.email.clients.imap/messagethreadresult/
 ---
 ## MessageThreadResult class

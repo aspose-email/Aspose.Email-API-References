@@ -3,7 +3,7 @@ title: Enum ExchangeListContactsOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeListContactsOptions enum. Enumerates the list contacts options
 type: docs
-weight: 3820
+weight: 2370
 url: /net/aspose.email.clients.exchange.webservice/exchangelistcontactsoptions/
 ---
 ## ExchangeListContactsOptions enumeration

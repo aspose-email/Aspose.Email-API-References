@@ -3,7 +3,7 @@ title: Class PageInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.PageInfo class. Contains information about retrieved page when paging methods are used
 type: docs
-weight: 16980
+weight: 15520
 url: /net/aspose.email.clients/pageinfo/
 ---
 ## PageInfo class

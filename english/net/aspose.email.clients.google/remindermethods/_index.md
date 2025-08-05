@@ -3,7 +3,7 @@ title: Enum ReminderMethods
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ReminderMethods enum. The method used by this reminder
 type: docs
-weight: 15880
+weight: 14430
 url: /net/aspose.email.clients.google/remindermethods/
 ---
 ## ReminderMethods enumeration

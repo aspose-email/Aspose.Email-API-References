@@ -3,7 +3,7 @@ title: Enum MSIntendedStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.MSIntendedStatus enum. Specifies the INTENDED status of an appointment
 type: docs
-weight: 630
+weight: 610
 url: /net/aspose.email.calendar/msintendedstatus/
 ---
 ## MSIntendedStatus enumeration

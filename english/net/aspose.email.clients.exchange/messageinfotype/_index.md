@@ -3,7 +3,7 @@ title: Enum MessageInfoType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.MessageInfoType enum. Enumerates the message types
 type: docs
-weight: 3530
+weight: 2080
 url: /net/aspose.email.clients.exchange/messageinfotype/
 ---
 ## MessageInfoType enumeration

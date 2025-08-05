@@ -3,7 +3,7 @@ title: Class ReminderAttendee
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.ReminderAttendee class. Defines an Attendee within a alarm
 type: docs
-weight: 840
+weight: 820
 url: /net/aspose.email.calendar/reminderattendee/
 ---
 ## ReminderAttendee class

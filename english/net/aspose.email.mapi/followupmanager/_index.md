@@ -3,7 +3,7 @@ title: Class FollowUpManager
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.FollowUpManager class. Provides the ability to set and handle followup Outlook flags and categories. Supports the features to add and remove a flag in MapiMessage and mark it as completed as well
 type: docs
-weight: 17970
+weight: 16490
 url: /net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class

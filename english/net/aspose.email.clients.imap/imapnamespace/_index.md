@@ -3,7 +3,7 @@ title: Class ImapNamespace
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapNamespace class. Represents IMAP namespace More details https//tools.ietf.org/html/rfc2342
 type: docs
-weight: 16590
+weight: 15140
 url: /net/aspose.email.clients.imap/imapnamespace/
 ---
 ## ImapNamespace class

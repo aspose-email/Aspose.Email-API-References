@@ -3,7 +3,7 @@ title: Class TaskRegeneratingPattern
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.TaskRegeneratingPattern class. Represents the regenerating recurrence pattern that specifies how many days weeks months or years after the completion of the current task the next occurrence will be due
 type: docs
-weight: 15530
+weight: 14080
 url: /net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern class

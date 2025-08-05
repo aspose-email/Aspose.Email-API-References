@@ -3,7 +3,7 @@ title: Class ByDayCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.ByDayCollection class. Represents a collection of ByDay objects
 type: docs
-weight: 650
+weight: 630
 url: /net/aspose.email.calendar.recurrences/bydaycollection/
 ---
 ## ByDayCollection class

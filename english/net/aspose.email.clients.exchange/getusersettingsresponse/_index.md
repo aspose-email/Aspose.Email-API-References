@@ -3,7 +3,7 @@ title: Class GetUserSettingsResponse
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.GetUserSettingsResponse class. Represents the response to a GetUsersSettings call for an individual user
 type: docs
-weight: 3480
+weight: 2030
 url: /net/aspose.email.clients.exchange/getusersettingsresponse/
 ---
 ## GetUserSettingsResponse class

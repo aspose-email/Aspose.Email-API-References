@@ -3,7 +3,7 @@ title: Class BoolComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.BoolComparisonField class. Represents the boolean search field
 type: docs
-weight: 21090
+weight: 19560
 url: /net/aspose.email.tools.search/boolcomparisonfield/
 ---
 ## BoolComparisonField class

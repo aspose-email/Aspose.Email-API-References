@@ -3,7 +3,7 @@ title: Class ExchangeUploadItemResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeUploadItemResult class. Represents a result of updating or creating a streamed item
 type: docs
-weight: 3860
+weight: 2410
 url: /net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/
 ---
 ## ExchangeUploadItemResult class

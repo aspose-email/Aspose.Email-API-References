@@ -3,7 +3,7 @@ title: Class CalendarDeletionOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.CalendarDeletionOptions class. Defines parameters for item deletion
 type: docs
-weight: 3620
+weight: 2170
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/
 ---
 ## CalendarDeletionOptions class

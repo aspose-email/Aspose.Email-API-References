@@ -3,7 +3,7 @@ title: Class ContentInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ContentInfo class. Object contains brief information of an aggregation of actions and events harvested from multiple servers across multiple datacenters
 type: docs
-weight: 2410
+weight: 960
 url: /net/aspose.email.clients.activity/contentinfo/
 ---
 ## ContentInfo class

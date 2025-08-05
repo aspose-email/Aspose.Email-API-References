@@ -3,7 +3,7 @@ title: Enum HttpAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.HttpAuthenticationMethods enum. The authentication methods supported by the HTTP proxy
 type: docs
-weight: 16250
+weight: 14800
 url: /net/aspose.email.clients/httpauthenticationmethods/
 ---
 ## HttpAuthenticationMethods enumeration

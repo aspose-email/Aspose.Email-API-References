@@ -3,7 +3,7 @@ title: Enum HtmlFormatOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.HtmlFormatOptions enum. Enumerates the Html format options
 type: docs
-weight: 17690
+weight: 16180
 url: /net/aspose.email/htmlformatoptions/
 ---
 ## HtmlFormatOptions enumeration
@@ -30,6 +30,7 @@ public enum HtmlFormatOptions
 | RenderCalendarEvent | `80` | Indicates that text from calendar event should be written in output mhtml. |
 | RenderVCardInfo | `100` | Indicates that text from VCard AlternativeView should be written in output html. |
 | RenderTaskFields | `200` | Indicates that the specific Task fields should be written in output html. |
+| PrintFormat | `400` | Indicates that the HTML body should be created in a format suitable for printing. |
 
 ### See Also
 

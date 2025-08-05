@@ -3,7 +3,7 @@ title: Class ByDay
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.ByDay class. Represents Nth occurrence or all occurrences of the specified day of the week
 type: docs
-weight: 640
+weight: 620
 url: /net/aspose.email.calendar.recurrences/byday/
 ---
 ## ByDay class

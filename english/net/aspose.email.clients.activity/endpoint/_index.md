@@ -3,7 +3,7 @@ title: Enum Endpoint
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Endpoint enum. Types of Sway client endpoint for the triggered event
 type: docs
-weight: 2460
+weight: 1010
 url: /net/aspose.email.clients.activity/endpoint/
 ---
 ## Endpoint enumeration

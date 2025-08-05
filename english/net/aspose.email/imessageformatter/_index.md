@@ -3,7 +3,7 @@ title: Interface IMessageFormatter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.IMessageFormatter interface. Provides a mechanism for retrieving an object to Message formatting
 type: docs
-weight: 17760
+weight: 16250
 url: /net/aspose.email/imessageformatter/
 ---
 ## IMessageFormatter interface

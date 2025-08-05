@@ -3,7 +3,7 @@ title: Class ExchangeItem
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ExchangeItem class. Exchange item
 type: docs
-weight: 2500
+weight: 1050
 url: /net/aspose.email.clients.activity/exchangeitem/
 ---
 ## ExchangeItem class

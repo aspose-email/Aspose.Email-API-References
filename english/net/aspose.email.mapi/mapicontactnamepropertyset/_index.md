@@ -3,7 +3,7 @@ title: Class MapiContactNamePropertySet
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactNamePropertySet class. The properties are used to specify the name of the person represented by the contact
 type: docs
-weight: 18440
+weight: 16960
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/
 ---
 ## MapiContactNamePropertySet class

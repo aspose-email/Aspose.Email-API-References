@@ -3,7 +3,7 @@ title: Class Action
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Action class. A set of actions to perform on a message
 type: docs
-weight: 15630
+weight: 14180
 url: /net/aspose.email.clients.google/action/
 ---
 ## Action class

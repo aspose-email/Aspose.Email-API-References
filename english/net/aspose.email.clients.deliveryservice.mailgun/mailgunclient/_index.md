@@ -3,7 +3,7 @@ title: Class MailgunClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.DeliveryService.Mailgun.MailgunClient class. Represents the Mailgun client
 type: docs
-weight: 2970
+weight: 1520
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/
 ---
 ## MailgunClient class

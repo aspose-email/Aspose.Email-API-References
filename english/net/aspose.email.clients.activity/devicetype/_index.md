@@ -3,7 +3,7 @@ title: Enum DeviceType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.DeviceType enum. Device types used to access Sway for the triggered event
 type: docs
-weight: 2450
+weight: 1000
 url: /net/aspose.email.clients.activity/devicetype/
 ---
 ## DeviceType enumeration

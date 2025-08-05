@@ -3,7 +3,7 @@ title: Enum ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ResourceRenderingMode enum. Provides set various modes of rendering resources in html
 type: docs
-weight: 20210
+weight: 18680
 url: /net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration

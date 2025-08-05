@@ -3,7 +3,7 @@ title: Interface IGmailClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.IGmailClient interface. Represents the interface for Gmail client
 type: docs
-weight: 15840
+weight: 14390
 url: /net/aspose.email.clients.google/igmailclient/
 ---
 ## IGmailClient interface

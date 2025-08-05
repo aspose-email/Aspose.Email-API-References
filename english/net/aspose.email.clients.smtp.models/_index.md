@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Smtp.Models
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.email.clients.smtp.models/
 ---
 

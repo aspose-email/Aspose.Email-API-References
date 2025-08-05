@@ -3,7 +3,7 @@ title: Enum ReminderAction
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.ReminderAction enum. Defines the action to be invoked when an alarm is triggered
 type: docs
-weight: 810
+weight: 790
 url: /net/aspose.email.calendar/reminderaction/
 ---
 ## ReminderAction enumeration

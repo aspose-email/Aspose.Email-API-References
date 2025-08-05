@@ -3,7 +3,7 @@ title: Enum ExchangeTaskStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeTaskStatus enum. Enumerates the task statuses
 type: docs
-weight: 3850
+weight: 2400
 url: /net/aspose.email.clients.exchange.webservice/exchangetaskstatus/
 ---
 ## ExchangeTaskStatus enumeration

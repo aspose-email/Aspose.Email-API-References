@@ -3,7 +3,7 @@ title: Class Pop3MessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Pop3MessageInfoCollection class. Represents the information of a mail message from Pop3 server
 type: docs
-weight: 17090
+weight: 15630
 url: /net/aspose.email.clients.pop3/pop3messageinfocollection/
 ---
 ## Pop3MessageInfoCollection class

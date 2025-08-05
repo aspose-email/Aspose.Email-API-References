@@ -3,7 +3,7 @@ title: Class ObjectDisposedException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Exceptions.ObjectDisposedException class. Represents errors that occur when an operation canceled
 type: docs
-weight: 17540
+weight: 16030
 url: /net/aspose.email.exceptions/objectdisposedexception/
 ---
 ## ObjectDisposedException class

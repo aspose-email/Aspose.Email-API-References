@@ -3,7 +3,7 @@ title: Class Pop3Client
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Pop3.Pop3Client class. Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 POP3
 type: docs
-weight: 17040
+weight: 15580
 url: /net/aspose.email.clients.pop3/pop3client/
 ---
 ## Pop3Client class

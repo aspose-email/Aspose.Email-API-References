@@ -3,7 +3,7 @@ title: Enum AppointmentClass
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.AppointmentClass enum. Defines the access classification for the appointment
 type: docs
-weight: 450
+weight: 430
 url: /net/aspose.email.calendar/appointmentclass/
 ---
 ## AppointmentClass enumeration

@@ -3,7 +3,7 @@ title: Class KnownPropertySets
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.KnownPropertySets class. MSOXCDATA Commonly Used Property Sets
 type: docs
-weight: 18030
+weight: 16550
 url: /net/aspose.email.mapi/knownpropertysets/
 ---
 ## KnownPropertySets class

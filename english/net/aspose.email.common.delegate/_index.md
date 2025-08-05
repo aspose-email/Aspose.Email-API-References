@@ -3,7 +3,7 @@ title: Aspose.Email.Common.Delegate
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Common.Delegate namespace provides common delegate types
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.email.common.delegate/
 ---
 The **Aspose.Email.Common.Delegate** namespace provides common delegate types.

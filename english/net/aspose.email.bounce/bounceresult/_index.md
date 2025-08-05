@@ -3,7 +3,7 @@ title: Class BounceResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Bounce.BounceResult class. Represents result of the message examination as a bounce message
 type: docs
-weight: 400
+weight: 380
 url: /net/aspose.email.bounce/bounceresult/
 ---
 ## BounceResult class

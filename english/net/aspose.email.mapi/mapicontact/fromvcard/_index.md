@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontact/fromvcard/
 ---
-## FromVCard(string) {#fromvcard_2}
+## FromVCard(string) {#fromvcard_3}
 
 Reads [`MapiContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -36,18 +36,18 @@ A read [`MapiContact`](../)
 
 ---
 
-## FromVCard(string, Encoding) {#fromvcard_3}
+## FromVCard(string, VCardLoadOptions) {#fromvcard_4}
 
 Reads [`MapiContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
 ```csharp
-public static MapiContact FromVCard(string filePath, Encoding encoding)
+public static MapiContact FromVCard(string filePath, VCardLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePath | String | A file name to read from |
-| encoding | Encoding | File data encoding |
+| options | VCardLoadOptions | Additional options when loading a VCardContact |
 
 ### Return Value
 
@@ -61,6 +61,7 @@ A read [`MapiContact`](../)
 
 ### See Also
 
+* class [VCardLoadOptions](../../../aspose.email.personalinfo.vcard/vcardloadoptions/)
 * class [MapiContact](../)
 * namespace [Aspose.Email.Mapi](../../mapicontact/)
 * assembly [Aspose.Email](../../../)
@@ -98,18 +99,18 @@ A read [`MapiContact`](../)
 
 ---
 
-## FromVCard(Stream, Encoding) {#fromvcard_1}
+## FromVCard(Stream, VCardLoadOptions) {#fromvcard_1}
 
 Reads [`MapiContact`](../) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
 ```csharp
-public static MapiContact FromVCard(Stream stream, Encoding encoding)
+public static MapiContact FromVCard(Stream stream, VCardLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | A stream to read from |
-| encoding | Encoding | Stream data encoding |
+| options | VCardLoadOptions | Additional options when loading a VCardContact |
 
 ### Return Value
 
@@ -124,6 +125,7 @@ A read [`MapiContact`](../)
 
 ### See Also
 
+* class [VCardLoadOptions](../../../aspose.email.personalinfo.vcard/vcardloadoptions/)
 * class [MapiContact](../)
 * namespace [Aspose.Email.Mapi](../../mapicontact/)
 * assembly [Aspose.Email](../../../)

@@ -3,7 +3,7 @@ title: Class VCardDeliveryAddressCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardDeliveryAddressCollection class. Represents a collection of VCardDeliveryAddresses
 type: docs
-weight: 19840
+weight: 18360
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddresscollection/
 ---
 ## VCardDeliveryAddressCollection class

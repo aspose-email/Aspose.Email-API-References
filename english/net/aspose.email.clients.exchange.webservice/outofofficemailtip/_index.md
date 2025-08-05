@@ -3,7 +3,7 @@ title: Class OutOfOfficeMailTip
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.OutOfOfficeMailTip class. Represents OOF mail tip
 type: docs
-weight: 4100
+weight: 2650
 url: /net/aspose.email.clients.exchange.webservice/outofofficemailtip/
 ---
 ## OutOfOfficeMailTip class

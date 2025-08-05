@@ -3,7 +3,7 @@ title: Class Section
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.Section class. Element of AmpAccordion
 type: docs
-weight: 210
+weight: 190
 url: /net/aspose.email.amp/section/
 ---
 ## Section class

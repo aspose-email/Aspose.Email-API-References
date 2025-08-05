@@ -3,7 +3,7 @@ title: Enum CredentialType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.CredentialType enum. Credential types
 type: docs
-weight: 2420
+weight: 970
 url: /net/aspose.email.clients.activity/credentialtype/
 ---
 ## CredentialType enumeration

@@ -3,7 +3,7 @@ title: Class MapiCalendarEventRecurrence
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarEventRecurrence class. Represents the recurrence properties of calendar object
 type: docs
-weight: 18150
+weight: 16670
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/
 ---
 ## MapiCalendarEventRecurrence class

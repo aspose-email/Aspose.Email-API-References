@@ -3,7 +3,7 @@ title: Enum NotificationType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.NotificationType enum. The type of notification
 type: docs
-weight: 15860
+weight: 14410
 url: /net/aspose.email.clients.google/notificationtype/
 ---
 ## NotificationType enumeration

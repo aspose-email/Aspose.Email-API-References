@@ -3,7 +3,7 @@ title: Class ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.ReminderTrigger class. Specifies when an alarm will trigger
 type: docs
-weight: 880
+weight: 860
 url: /net/aspose.email.calendar/remindertrigger/
 ---
 ## ReminderTrigger class

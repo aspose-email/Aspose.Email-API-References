@@ -3,7 +3,7 @@ title: Class AsposeNotSupportedException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeNotSupportedException class. The exception that is thrown when an invoked method or parameter is not supported or when there is an attempt to read seek or write to a stream that does not support the invoked functionality
 type: docs
-weight: 340
+weight: 320
 url: /net/aspose.email/asposenotsupportedexception/
 ---
 ## AsposeNotSupportedException class

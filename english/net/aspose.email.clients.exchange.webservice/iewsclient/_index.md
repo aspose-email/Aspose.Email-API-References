@@ -3,7 +3,7 @@ title: Interface IEWSClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.IEWSClient interface. Represents the interface for Exchange client
 type: docs
-weight: 3970
+weight: 2520
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/
 ---
 ## IEWSClient interface

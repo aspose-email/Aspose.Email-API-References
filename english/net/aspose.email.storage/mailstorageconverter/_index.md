@@ -3,7 +3,7 @@ title: Class MailStorageConverter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.MailStorageConverter class. Mail storage converter provides services for storage conversion operations
 type: docs
-weight: 20280
+weight: 18750
 url: /net/aspose.email.storage/mailstorageconverter/
 ---
 ## MailStorageConverter class

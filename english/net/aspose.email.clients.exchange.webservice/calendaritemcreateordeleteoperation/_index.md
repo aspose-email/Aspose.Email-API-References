@@ -3,7 +3,7 @@ title: Enum CalendarItemCreateOrDeleteOperation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.CalendarItemCreateOrDeleteOperation enum. Represents options for create and delete operations
 type: docs
-weight: 3630
+weight: 2180
 url: /net/aspose.email.clients.exchange.webservice/calendaritemcreateordeleteoperation/
 ---
 ## CalendarItemCreateOrDeleteOperation enumeration

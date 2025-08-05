@@ -3,7 +3,7 @@ title: Class MboxrdStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Mbox.MboxrdStorageReader class. Represents mboxrd format storage reader this format is being used by Thunderbird and other mail clients
 type: docs
-weight: 20370
+weight: 18840
 url: /net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -50,9 +50,9 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage/#readnextmessage_2)(out string) | Reads the next message from underlying storage stream. |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage/#readnextmessage_3)(out string, EmlLoadOptions) | Reads the next message from underlying storage stream. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string) | Splits the mbox storage into less sized parts. |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 | [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, string) |  |
-| [SplitInto](../../aspose.email.storage.mbox/mboxstoragereader/splitinto/)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| [SplitIntoAsync](../../aspose.email.storage.mbox/mboxstoragereader/splitintoasync/)(long, string, CancellationToken) | Splits the mbox storage into less sized parts. |
+| [SplitIntoAsync](../../aspose.email.storage.mbox/mboxstoragereader/splitintoasync/)(long, string, string, CancellationToken) | Splits the mbox storage into less sized parts. |
 
 ## Events
 

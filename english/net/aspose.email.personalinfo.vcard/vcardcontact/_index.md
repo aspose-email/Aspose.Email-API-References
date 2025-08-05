@@ -3,7 +3,7 @@ title: Class VCardContact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardContact class. Represents a vCard contact
 type: docs
-weight: 19820
+weight: 18340
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/
 ---
 ## VCardContact class
@@ -42,13 +42,9 @@ public sealed class VCardContact
 | Name | Description |
 | --- | --- |
 | static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load)(Stream) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_4)(string) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_3)(Stream, CancellationToken) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_1)(Stream, Encoding) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_7)(string, CancellationToken) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_5)(string, Encoding) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_2)(Stream, Encoding, CancellationToken) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
-| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_6)(string, Encoding, CancellationToken) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_3)(string) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_1)(Stream, VCardLoadOptions) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [Load](../../aspose.email.personalinfo.vcard/vcardcontact/load/#load_4)(string, VCardLoadOptions) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 | [Save](../../aspose.email.personalinfo.vcard/vcardcontact/save/#save)(Stream) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) into the given stream with vCard format. The supported vCard version is 2.1 |
 | [Save](../../aspose.email.personalinfo.vcard/vcardcontact/save/#save_3)(string) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) to the vCard file with a default options. The supported vCard version is 2.1 |
 | [Save](../../aspose.email.personalinfo.vcard/vcardcontact/save/#save_1)(Stream, ContactSaveFormat) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact/) to the given stream with a format using the default options. The supported save format is vCard |
@@ -58,11 +54,15 @@ public sealed class VCardContact
 | static [IsMultiContacts](../../aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/#ismulticontacts)(Stream) | Checks whether source stream contains multi contacts. |
 | static [IsMultiContacts](../../aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/#ismulticontacts_1)(string) | Checks whether source file contains multi contacts. |
 | static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple)(Stream) | Loads list of contacts from multi contact stream. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_4)(string) | Loads list of contacts from multi contact file. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_3)(string) | Loads list of contacts from multi contact file. |
 | static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_1)(Stream, VCardLoadOptions) | Loads list of contacts from multi contact stream. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_5)(string, VCardLoadOptions) |  |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_3)(Stream, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
-| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_7)(string, Encoding, CancellationToken) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultiple](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultiple/#loadasmultiple_4)(string, VCardLoadOptions) |  |
+| static [LoadAsMultipleAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultipleasync/#loadasmultipleasync)(Stream, VCardLoadOptions, CancellationToken) | Loads list of contacts from multi contact stream. |
+| static [LoadAsMultipleAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasmultipleasync/#loadasmultipleasync_1)(string, VCardLoadOptions, CancellationToken) | Loads list of contacts from multi contact stream. |
+| static [LoadAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasync/#loadasync_1)(Stream, CancellationToken) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [LoadAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasync/#loadasync_3)(string, CancellationToken) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
+| static [LoadAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasync/#loadasync)(Stream, VCardLoadOptions, CancellationToken) | Reads `VCardContact` from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0 |
+| static [LoadAsync](../../aspose.email.personalinfo.vcard/vcardcontact/loadasync/#loadasync_2)(string, VCardLoadOptions, CancellationToken) | Reads `VCardContact` from the specified vCard file The supported vCard versions are 2.1 and 3.0 |
 
 ### See Also
 

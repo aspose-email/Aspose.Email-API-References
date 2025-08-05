@@ -3,7 +3,7 @@ title: Class AmpCarousel
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Amp.AmpCarousel class. Component allows displaying multiple similar pieces of content along a horizontal axis
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.email.amp/ampcarousel/
 ---
 ## AmpCarousel class

@@ -3,7 +3,7 @@ title: Class SmtpClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpClient class. Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP
 type: docs
-weight: 17190
+weight: 15730
 url: /net/aspose.email.clients.smtp/smtpclient/
 ---
 ## SmtpClient class
@@ -19,24 +19,23 @@ public sealed class SmtpClient : EmailClient, IAsyncSmtpClient, IMailTransferAge
 | Name | Description |
 | --- | --- |
 | [SmtpClient](smtpclient/#constructor)() | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_1)(Configuration) | Initializes a new instance of the `SmtpClient` class by using configuration file settings. |
-| [SmtpClient](smtpclient/#constructor_2)(string) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_4)(string, int) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_3)(string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_5)(string, int, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_13)(string, string, ITokenProvider) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_15)(string, string, string) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_6)(string, int, string, ITokenProvider) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_8)(string, int, string, string) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_14)(string, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_17)(string, string, string, bool) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_16)(string, string, string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_7)(string, int, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_10)(string, int, string, string, bool) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_12)(string, int, string, string, RemoteCertificateValidationCallback) | Initializes a new instance of the `SmtpClient` class |
-| [SmtpClient](smtpclient/#constructor_9)(string, int, string, string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_18)(string, string, string, bool, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
-| [SmtpClient](smtpclient/#constructor_11)(string, int, string, string, bool, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_1)(string) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_3)(string, int) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_2)(string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_4)(string, int, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_12)(string, string, ITokenProvider) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_14)(string, string, string) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_5)(string, int, string, ITokenProvider) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_7)(string, int, string, string) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_13)(string, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_16)(string, string, string, bool) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_15)(string, string, string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_6)(string, int, string, ITokenProvider, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_9)(string, int, string, string, bool) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_11)(string, int, string, string, RemoteCertificateValidationCallback) | Initializes a new instance of the `SmtpClient` class |
+| [SmtpClient](smtpclient/#constructor_8)(string, int, string, string, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_17)(string, string, string, bool, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
+| [SmtpClient](smtpclient/#constructor_10)(string, int, string, string, bool, SecurityOptions) | Initializes a new instance of the `SmtpClient` class. |
 
 ## Properties
 

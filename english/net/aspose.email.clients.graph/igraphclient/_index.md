@@ -3,7 +3,7 @@ title: Interface IGraphClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.IGraphClient interface. Represents the interface for Exchange REST client
 type: docs
-weight: 16050
+weight: 14600
 url: /net/aspose.email.clients.graph/igraphclient/
 ---
 ## IGraphClient interface
@@ -59,6 +59,7 @@ public interface IGraphClient : IDisposable
 | [FetchNotebook](../../aspose.email.clients.graph/igraphclient/fetchnotebook/)(string) | Retrieve the properties and relationships of a notebook object. Permissions One of the following permissions is required to call this API. Delegated (work or school account) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All Delegated (personal Microsoft account) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All |
 | [FetchRule](../../aspose.email.clients.graph/igraphclient/fetchrule/)(string) | Get the properties and relationships of a message rule object. Permissions One of the following permissions is required to call this API.To learn more, including how to choose permissions, see Permissions. Delegated (work or school account) MailboxSettings.Read Delegated (personal Microsoft account) MailboxSettings.Read Application MailboxSettings.Read |
 | [FetchTask](../../aspose.email.clients.graph/igraphclient/fetchtask/)(string) | Gets MapiTask for specified id |
+| [GetContactFolder](../../aspose.email.clients.graph/igraphclient/getcontactfolder/)() | Gets main contact folder. This method requires that at least one contact exists in the main contacts folder, otherwise it will return null. https://learn.microsoft.com/en-us/answers/questions/854621/how-to-get-folder-id-of-default-contacts-folder-wh |
 | [GetFolder](../../aspose.email.clients.graph/igraphclient/getfolder/)(string) | Gets folder by an id. |
 | [GetOneNoteOperationStatus](../../aspose.email.clients.graph/igraphclient/getonenoteoperationstatus/)(string) | Get the status of a long-running OneNote operation. This applies to operations that return the Operation-Location header in the response, such as CopyNotebook, CopyToNotebook, CopyToSectionGroup, and CopyToSection. You can poll the Operation-Location endpoint until the status property returns completed or failed. If the status is completed, the resourceLocation property contains the resource endpoint URI. If the status is failed, the error and @api.diagnostics properties provide error information. |
 | [GetTaskList](../../aspose.email.clients.graph/igraphclient/gettasklist/)(string) | Gets TaskList by an id. |
@@ -66,6 +67,7 @@ public interface IGraphClient : IDisposable
 | [ListCalendarItems](../../aspose.email.clients.graph/igraphclient/listcalendaritems/)(string) | List MapiCalendar from the calendar. |
 | [ListCalendars](../../aspose.email.clients.graph/igraphclient/listcalendars/)() | List CalendarInfo items. |
 | [ListCategories](../../aspose.email.clients.graph/igraphclient/listcategories/)() | Get all the categories that have been defined for the user. |
+| [ListContactFolders](../../aspose.email.clients.graph/igraphclient/listcontactfolders/)() | Get a collection of child folders under the root contact folder. |
 | [ListContacts](../../aspose.email.clients.graph/igraphclient/listcontacts/)(string) | List MapiContact from the parent folder. |
 | [ListFolders](../../aspose.email.clients.graph/igraphclient/listfolders/#listfolders)() | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |
 | [ListFolders](../../aspose.email.clients.graph/igraphclient/listfolders/#listfolders_1)(string) | List folders from the parent folder for folders that are displayed in normal mail clients, such as the inbox. |

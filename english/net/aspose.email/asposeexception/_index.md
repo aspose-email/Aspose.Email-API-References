@@ -3,7 +3,7 @@ title: Class AsposeException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.AsposeException class. Base exception type for Aspose.Email Represents errors that occur during application execution
 type: docs
-weight: 300
+weight: 280
 url: /net/aspose.email/asposeexception/
 ---
 ## AsposeException class

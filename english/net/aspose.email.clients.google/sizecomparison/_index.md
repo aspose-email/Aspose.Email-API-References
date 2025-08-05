@@ -3,7 +3,7 @@ title: Enum SizeComparison
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.SizeComparison enum. Determines how the size field should be compared to the message size
 type: docs
-weight: 15900
+weight: 14450
 url: /net/aspose.email.clients.google/sizecomparison/
 ---
 ## SizeComparison enumeration

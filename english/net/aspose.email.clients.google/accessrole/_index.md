@@ -3,7 +3,7 @@ title: Enum AccessRole
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.AccessRole enum. The effective access role that the authenticated user has on the calendar
 type: docs
-weight: 15600
+weight: 14150
 url: /net/aspose.email.clients.google/accessrole/
 ---
 ## AccessRole enumeration

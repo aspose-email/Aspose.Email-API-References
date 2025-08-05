@@ -3,7 +3,7 @@ title: Class ReferenceAttachment
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.ReferenceAttachment class. This class represents a reference attachment
 type: docs
-weight: 20190
+weight: 18660
 url: /net/aspose.email/referenceattachment/
 ---
 ## ReferenceAttachment class
@@ -40,6 +40,7 @@ public class ReferenceAttachment : Attachment
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding/) { get; set; } | Gets or sets a preferred text encoding |
 | [ProviderType](../../aspose.email/referenceattachment/providertype/) { get; set; } | Specifies the provider type. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
+| [UniqueId](../../aspose.email/attachment/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 | [Uri](../../aspose.email/referenceattachment/uri/) { get; set; } | Specifies the Url of the provider endpoint. |
 
 ## Methods

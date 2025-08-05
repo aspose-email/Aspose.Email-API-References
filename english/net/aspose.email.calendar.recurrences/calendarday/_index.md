@@ -3,7 +3,7 @@ title: Enum CalendarDay
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Calendar.Recurrences.CalendarDay enum. Represents the day of the week
 type: docs
-weight: 670
+weight: 650
 url: /net/aspose.email.calendar.recurrences/calendarday/
 ---
 ## CalendarDay enumeration
