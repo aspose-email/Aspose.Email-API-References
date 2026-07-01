@@ -63,7 +63,7 @@ List of contacts
 
 ---
 
-## LoadAsMultiple(string) {#loadasmultiple_3}
+## LoadAsMultiple(string) {#loadasmultiple_2}
 
 Loads list of contacts from multi contact file.
 
@@ -87,7 +87,7 @@ List of contacts
 
 ---
 
-## LoadAsMultiple(string, VCardLoadOptions) {#loadasmultiple_4}
+## LoadAsMultiple(string, VCardLoadOptions) {#loadasmultiple_3}
 
 ```csharp
 public static List<VCardContact> LoadAsMultiple(string filePath, VCardLoadOptions options)

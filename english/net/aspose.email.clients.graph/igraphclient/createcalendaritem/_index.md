@@ -3,7 +3,7 @@ title: IGraphClient.CreateCalendarItem
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Creates MapiCalendar in specified calendar
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.clients.graph/igraphclient/createcalendaritem/
 ---
 ## IGraphClient.CreateCalendarItem method

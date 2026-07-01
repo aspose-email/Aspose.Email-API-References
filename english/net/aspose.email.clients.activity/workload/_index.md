@@ -3,7 +3,7 @@ title: Enum Workload
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.Workload enum. The Office 365 service where the activity occurred
 type: docs
-weight: 1390
+weight: 1430
 url: /net/aspose.email.clients.activity/workload/
 ---
 ## Workload enumeration

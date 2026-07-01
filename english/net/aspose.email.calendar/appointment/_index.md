@@ -44,8 +44,10 @@ public class Appointment
 | [MicrosoftBusyStatus](../../aspose.email.calendar/appointment/microsoftbusystatus/) { get; set; } | Specifies the BUSY status of an appointment. |
 | [MicrosoftImportance](../../aspose.email.calendar/appointment/microsoftimportance/) { get; set; } | Specifies the importance of an appointment. |
 | [MicrosoftIntendedStatus](../../aspose.email.calendar/appointment/microsoftintendedstatus/) { get; set; } | Specifies the INTENDED status of an appointment. |
+| [MSProperties](../../aspose.email.calendar/appointment/msproperties/) { get; } | Gets extended MS properties of an appointment. |
 | [OptionalAttendees](../../aspose.email.calendar/appointment/optionalattendees/) { get; } | Gets the optional attendees. |
 | [Organizer](../../aspose.email.calendar/appointment/organizer/) { get; set; } | Gets or sets the organizer. |
+| [ProductId](../../aspose.email.calendar/appointment/productid/) { get; set; } | Gets or sets the id of product that created this appointment. |
 | [Recurrence](../../aspose.email.calendar/appointment/recurrence/) { get; set; } | Gets or sets the recurrence pattern. |
 | [Reminders](../../aspose.email.calendar/appointment/reminders/) { get; } | Contains collection of AppointmentReminder [`AppointmentReminder`](../appointmentreminder/) objects. |
 | [SequenceId](../../aspose.email.calendar/appointment/sequenceid/) { get; } | Gets the sequence id. |

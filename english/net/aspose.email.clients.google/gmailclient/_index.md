@@ -3,7 +3,7 @@ title: Class GmailClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.GmailClient class. Base class for Gmail client
 type: docs
-weight: 14350
+weight: 14390
 url: /net/aspose.email.clients.google/gmailclient/
 ---
 ## GmailClient class
@@ -34,6 +34,10 @@ public abstract class GmailClient : IBaseGmailClient
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance/#getinstance)(string, IWebProxy, string) | Gets instance of Gmail client |
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance/#getinstance_3)(string, string, string, string) | Gets instance of Gmail client |
 | static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance/#getinstance_2)(string, string, string, IWebProxy, string) | Gets instance of Gmail client |
+| static [GetInstanceAsync](../../aspose.email.clients.google/gmailclient/getinstanceasync/#getinstanceasync_1)(string, string) | Gets instance of Gmail client for asynchronous operation. |
+| static [GetInstanceAsync](../../aspose.email.clients.google/gmailclient/getinstanceasync/#getinstanceasync)(string, IWebProxy, string) | Gets instance of Gmail client for asynchronous operation. |
+| static [GetInstanceAsync](../../aspose.email.clients.google/gmailclient/getinstanceasync/#getinstanceasync_3)(string, string, string, string) | Gets instance of Gmail client for asynchronous operation. |
+| static [GetInstanceAsync](../../aspose.email.clients.google/gmailclient/getinstanceasync/#getinstanceasync_2)(string, string, string, IWebProxy, string) | Gets instance of Gmail client for asynchronous operation. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Enum RecordType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.RecordType enum. Audit record types
 type: docs
-weight: 1280
+weight: 1320
 url: /net/aspose.email.clients.activity/recordtype/
 ---
 ## RecordType enumeration

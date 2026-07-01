@@ -1,14 +1,14 @@
 ---
 title: Class SmtpClient
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Clients.Smtp.SmtpClient class. Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP
+description: Aspose.Email.Clients.Smtp.SmtpClient class. Represents an SMTP Simple Mail Transfer Protocol client that sends email messages to the specified SMTP server
 type: docs
-weight: 15730
+weight: 15830
 url: /net/aspose.email.clients.smtp/smtpclient/
 ---
 ## SmtpClient class
 
-Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP).
+Represents an SMTP (Simple Mail Transfer Protocol) client that sends email messages to the specified SMTP server.
 
 ```csharp
 public sealed class SmtpClient : EmailClient, IAsyncSmtpClient, IMailTransferAgent
@@ -156,6 +156,64 @@ public sealed class SmtpClient : EmailClient, IAsyncSmtpClient, IMailTransferAge
 | event [FailedSending](../../aspose.email.clients.smtp/smtpclient/failedsending/) | Adds or removes subscriber for notifications about failed sending operations in smtp queue |
 | event [OnConnect](../../aspose.email.clients/emailclient/onconnect/) | The OnConnect event occurs when the clent establishes connection. |
 | event [SucceededSending](../../aspose.email.clients.smtp/smtpclient/succeededsending/) | Adds or removes subscriber for notifications about succeeded sending of mail messages. Please note, notifications will be invoked from other threads, so you should to implement thread safe event handler. Also note that this event is common to the mail client instance, in case if the client is running in multi-connection mode, messages from all connections will be processed through this event. So the customer has to analyze in his code message from events to understand which message relates to which operation. |
+
+## Remarks
+
+The `SmtpClient` class allows sending and forwarding email messages using various settings. The message can include plain text or HTML body, and it supports sending to multiple recipients.
+
+## Examples
+
+This example demonstrates how to create an instance of `SmtpClient` to send an email with an HTML body.
+
+[C#]
+
+```csharp
+// Create an instance of SmtpClient and configure settings
+var client = new SmtpClient
+{
+    Host = "mail.server.com",
+    Username = "username",
+    Password = "password",
+    Port = 587,
+    SecurityOptions = SecurityOptions.SSLExplicit
+};
+
+// Create a new MailMessage instance
+var eml = new MailMessage
+{
+    From = "from@domain.com",
+    To = "to1@domain.com, to2@domain.com",
+    Subject = "New message",
+    HtmlBody = @"&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;&lt;p&gt;This is a new message created by Aspose.Email.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+};
+
+// Send the message using the SmtpClient
+client.Send(eml);
+```
+
+[Visual Basic]
+
+```csharp
+' Create an instance of SmtpClient and configure settings
+Dim client As New SmtpClient With {
+    .Host = "mail.server.com",
+    .Username = "username",
+    .Password = "password",
+    .Port = 587,
+    .SecurityOptions = SecurityOptions.SSLExplicit
+}
+
+' Create a new MailMessage instance
+Dim eml As New MailMessage With {
+    .From = "from@domain.com",
+    .To = "to1@domain.com, to2@domain.com",
+    .Subject = "New message",
+    .HtmlBody = @"&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;This is a new message created by Aspose.Email.&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;"
+}
+
+' Send the message using the SmtpClient
+client.Send(eml)
+```
 
 ### See Also
 

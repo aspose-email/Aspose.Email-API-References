@@ -3,7 +3,7 @@ title: Appointment.Save
 second_title: Aspose.Email for .NET API Reference
 description: Appointment method. Saves appointment to the file with iCalendar format using te default save options
 type: docs
-weight: 360
+weight: 380
 url: /net/aspose.email.calendar/appointment/save/
 ---
 ## Save(string) {#save_3}

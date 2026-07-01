@@ -3,7 +3,7 @@ title: Appointment.StartTimeZone
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Start time zone
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.email.calendar/appointment/starttimezone/
 ---
 ## Appointment.StartTimeZone property

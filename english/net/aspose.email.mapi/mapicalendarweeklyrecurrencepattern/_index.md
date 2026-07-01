@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarWeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarWeeklyRecurrencePattern class. Represents the weekly recurrence pattern of the mapi calendar
+description: Aspose.Email.Mapi.MapiCalendarWeeklyRecurrencePattern class. Represents a weekly recurrence pattern for MAPI calendar items allowing events to repeat on specific days of the week at regular weekly intervals. This class provides properties to configure the recurrence interval and the specific days of the week when the event occurs
 type: docs
-weight: 16870
+weight: 16970
 url: /net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/
 ---
 ## MapiCalendarWeeklyRecurrencePattern class
 
-Represents the weekly recurrence pattern of the mapi calendar
+Represents a weekly recurrence pattern for MAPI calendar items, allowing events to repeat on specific days of the week at regular weekly intervals. This class provides properties to configure the recurrence interval and the specific days of the week when the event occurs.
 
 ```csharp
 public sealed class MapiCalendarWeeklyRecurrencePattern : MapiCalendarRecurrencePattern
@@ -38,6 +38,10 @@ public sealed class MapiCalendarWeeklyRecurrencePattern : MapiCalendarRecurrence
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+
+## Remarks
+
+Use this pattern for calendar events that recur every N weeks on specific days (e.g., "every 2 weeks on Monday, Wednesday, and Friday"). The [`Period`](./period/) property controls the interval in weeks, while [`DayOfWeek`](./dayofweek/) specifies which days of the week the event occurs. This pattern is used in [`MapiCalendar`](../mapicalendar/) to configure recurring weekly meeting schedules.
 
 ### See Also
 

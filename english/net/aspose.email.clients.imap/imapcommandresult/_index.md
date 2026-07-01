@@ -3,7 +3,7 @@ title: Enum ImapCommandResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapCommandResult enum. Enumerates the imap command results
 type: docs
-weight: 15000
+weight: 15100
 url: /net/aspose.email.clients.imap/imapcommandresult/
 ---
 ## ImapCommandResult enumeration

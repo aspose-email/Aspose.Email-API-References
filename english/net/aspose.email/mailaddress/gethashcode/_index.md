@@ -3,7 +3,7 @@ title: MailAddress.GetHashCode
 second_title: Aspose.Email for .NET API Reference
 description: MailAddress method. Returns a hash code for this instance
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email/mailaddress/gethashcode/
 ---
 ## MailAddress.GetHashCode method

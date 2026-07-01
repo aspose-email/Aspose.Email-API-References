@@ -3,7 +3,7 @@ title: Enum MapiCalendarTimeZoneFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendarTimeZoneFlags enum. Enumerates the individual bit flags that specify information about TimeZoneRule
 type: docs
-weight: 16830
+weight: 16930
 url: /net/aspose.email.mapi/mapicalendartimezoneflags/
 ---
 ## MapiCalendarTimeZoneFlags enumeration

@@ -3,7 +3,7 @@ title: Enum ImapNamespaceType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapNamespaceType enum. Represents IMAP namespace type More details https//tools.ietf.org/html/rfc2342
 type: docs
-weight: 15150
+weight: 15250
 url: /net/aspose.email.clients.imap/imapnamespacetype/
 ---
 ## ImapNamespaceType enumeration

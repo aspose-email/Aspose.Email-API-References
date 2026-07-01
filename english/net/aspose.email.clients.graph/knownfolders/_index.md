@@ -3,7 +3,7 @@ title: Class KnownFolders
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.KnownFolders class. Wellknown folders
 type: docs
-weight: 14630
+weight: 14720
 url: /net/aspose.email.clients.graph/knownfolders/
 ---
 ## KnownFolders class

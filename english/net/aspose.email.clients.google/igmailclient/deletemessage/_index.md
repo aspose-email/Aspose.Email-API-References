@@ -3,7 +3,7 @@ title: IGmailClient.DeleteMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Moves the specified message to the trash if moveToTrash true or permanently deletes if false
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.clients.google/igmailclient/deletemessage/
 ---
 ## DeleteMessage(string, bool) {#deletemessage_1}

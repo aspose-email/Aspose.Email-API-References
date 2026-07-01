@@ -3,7 +3,7 @@ title: IGmailClient.DeleteFilter
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Immediately and permanently deletes the specified filter
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.clients.google/igmailclient/deletefilter/
 ---
 ## IGmailClient.DeleteFilter method

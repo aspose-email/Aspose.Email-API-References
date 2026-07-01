@@ -3,7 +3,7 @@ title: PersonalStorage.Load
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Load PST from file. This method is used when a PersonalStorage object is created using the constructor
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.email.storage.pst/personalstorage/load/
 ---
 ## Load(string) {#load_1}

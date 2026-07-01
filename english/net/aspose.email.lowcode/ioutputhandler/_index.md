@@ -3,7 +3,7 @@ title: Interface IOutputHandler
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.LowCode.IOutputHandler interface. Defines an interface for handling output streams by name. Implementations may write to files memory or other destinations
 type: docs
-weight: 16350
+weight: 16450
 url: /net/aspose.email.lowcode/ioutputhandler/
 ---
 ## IOutputHandler interface

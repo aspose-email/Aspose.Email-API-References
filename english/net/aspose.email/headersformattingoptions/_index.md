@@ -1,14 +1,14 @@
 ---
 title: Class HeadersFormattingOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.HeadersFormattingOptions class. Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format
+description: Aspose.Email.HeadersFormattingOptions class. Serves as the abstract base class for formatspecific options when saving MailMessage to HTMLbased formats MHTML HTML. This class provides configuration properties for controlling header formatting CSS styles timeout settings and resource rendering behavior
 type: docs
-weight: 16170
+weight: 16270
 url: /net/aspose.email/headersformattingoptions/
 ---
 ## HeadersFormattingOptions class
 
-Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
+Serves as the abstract base class for format-specific options when saving [`MailMessage`](../mailmessage/) to HTML-based formats (MHTML, HTML). This class provides configuration properties for controlling header formatting, CSS styles, timeout settings, and resource rendering behavior.
 
 ```csharp
 public abstract class HeadersFormattingOptions : SaveOptions
@@ -43,6 +43,10 @@ public abstract class HeadersFormattingOptions : SaveOptions
 | --- | --- |
 | event [ResourceHtmlRendering](../../aspose.email/headersformattingoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
 | event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
+
+## Remarks
+
+This class is designed to be inherited by concrete format-specific classes like [`HtmlSaveOptions`](../htmlsaveoptions/) and [`MhtSaveOptions`](../mhtsaveoptions/). Do not instantiate this class directly. Use the format-specific subclasses to access format-specific saving options. The class provides extensive customization for email header presentation, CSS styling, and resource extraction behavior.
 
 ### See Also
 

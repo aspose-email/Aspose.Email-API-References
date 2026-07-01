@@ -3,7 +3,7 @@ title: Interface IAsyncSmtpClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.IAsyncSmtpClient interface. Allows applications to send messages by using the Simple Mail Transfer Protocol SMTP
 type: docs
-weight: 15670
+weight: 15770
 url: /net/aspose.email.clients.smtp/iasyncsmtpclient/
 ---
 ## IAsyncSmtpClient interface

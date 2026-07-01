@@ -3,7 +3,7 @@ title: Enum LogonType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.LogonType enum. Audit logon types
 type: docs
-weight: 1160
+weight: 1200
 url: /net/aspose.email.clients.activity/logontype/
 ---
 ## LogonType enumeration

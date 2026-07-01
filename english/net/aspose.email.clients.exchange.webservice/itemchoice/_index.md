@@ -3,7 +3,7 @@ title: Enum ItemChoice
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ItemChoice enum. Specifies property type which should be used for Exchange impersonation
 type: docs
-weight: 2530
+weight: 2570
 url: /net/aspose.email.clients.exchange.webservice/itemchoice/
 ---
 ## ItemChoice enumeration

@@ -3,7 +3,7 @@ title: Class ExchangeTask
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeTask class. Represents the exchange task information
 type: docs
-weight: 2390
+weight: 2430
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/
 ---
 ## ExchangeTask class
@@ -32,7 +32,9 @@ public sealed class ExchangeTask : Task
 | [Companies](../../aspose.email.clients.exchange.webservice/exchangetask/companies/) { get; set; } | Gets or sets a collection of companies that are associated with a task. |
 | [CompletionDate](../../aspose.email.clients.exchange.webservice/exchangetask/completiondate/) { get; set; } | Gets or sets the date when the user completed work on the task. |
 | [DueDate](../../aspose.email.calendar/task/duedate/) { get; set; } | Gets or sets the date by which the user expects work on the task to be complete. |
+| [HtmlBody](../../aspose.email.calendar/task/htmlbody/) { get; set; } | Gets or sets a task html body. |
 | [IsBodyHtml](../../aspose.email.clients.exchange.webservice/exchangetask/isbodyhtml/) { get; set; } | Gets or sets a value indicating whether the task body is html-formatted. |
+| [Location](../../aspose.email.calendar/task/location/) { get; set; } | Gets or sets the location. |
 | [Method](../../aspose.email.calendar/task/method/) { get; set; } | Gets or sets iTIP methods associated with an task. |
 | [Mileage](../../aspose.email.clients.exchange.webservice/exchangetask/mileage/) { get; set; } | Gets or sets a mileage for a task. |
 | [Organizer](../../aspose.email.calendar/task/organizer/) { get; set; } | Gets or sets the organizer. |
@@ -43,7 +45,7 @@ public sealed class ExchangeTask : Task
 | [ReminderDate](../../aspose.email.clients.exchange.webservice/exchangetask/reminderdate/) { get; set; } | Gets or sets a task reminder date. |
 | [SequenceId](../../aspose.email.calendar/task/sequenceid/) { get; set; } | Gets or sets the sequence id. |
 | [StartDate](../../aspose.email.calendar/task/startdate/) { get; set; } | Gets or sets a start date of task. |
-| [Status](../../aspose.email.clients.exchange.webservice/exchangetask/status/) { get; set; } | Gets or sets a task status. |
+| [Status](../../aspose.email.clients.exchange.webservice/exchangetask/status/) { get; set; } | Gets or sets a task status. (2 properties) |
 | [Subject](../../aspose.email.calendar/task/subject/) { get; set; } | Gets or sets a task subject. |
 | [TotalWork](../../aspose.email.clients.exchange.webservice/exchangetask/totalwork/) { get; set; } | Gets or sets a total amount of work that the user expects to work on a task. |
 | [UniqueId](../../aspose.email.calendar/task/uniqueid/) { get; set; } | Gets or sets unique identifier |
@@ -57,8 +59,10 @@ public sealed class ExchangeTask : Task
 | [Request](../../aspose.email.calendar/task/request/)() | Requests the object. |
 | virtual [Save](../../aspose.email.calendar/task/save/)(Stream) | Saves current object to the given stream using MSG format. |
 | virtual [Save](../../aspose.email.calendar/task/save/)(string) | Saves current object into file using MSG format. |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save/#save_1)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save/#save_3)(string, TaskSaveFormat) | Saves current object into file using specified format. |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save/#save_2)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
+| virtual [Save](../../aspose.email.calendar/task/save/)(Stream, TaskSaveOptions) | Saves current object to the given stream using specified options. |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save/#save_5)(string, TaskSaveFormat) | Saves current object into file using specified format. |
+| virtual [Save](../../aspose.email.calendar/task/save/)(string, TaskSaveOptions) | Saves current object into file using specified options. |
 
 ### See Also
 

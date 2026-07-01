@@ -1,14 +1,14 @@
 ---
 title: Class EmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.EmlLoadOptions class. Allows to specify additional options when loading MailMessage from Eml format
+description: Aspose.Email.EmlLoadOptions class. Provides options for controlling how MailMessage instances are loaded from EML format. This class allows you to customize the loading behavior for specific EML features such as TNEF attachment handling and embedded message preservation
 type: docs
-weight: 15920
+weight: 16020
 url: /net/aspose.email/emlloadoptions/
 ---
 ## EmlLoadOptions class
 
-Allows to specify additional options when loading MailMessage from Eml format.
+Provides options for controlling how [`MailMessage`](../mailmessage/) instances are loaded from EML format. This class allows you to customize the loading behavior for specific EML features such as TNEF attachment handling and embedded message preservation.
 
 ```csharp
 public class EmlLoadOptions : LoadOptions
@@ -30,6 +30,10 @@ public class EmlLoadOptions : LoadOptions
 | [PreserveTnefAttachments](../../aspose.email/emlloadoptions/preservetnefattachments/) { get; set; } | Controls TNEF attachment loading behaviour. By default the value is false. |
 | [RemoveSignature](../../aspose.email/loadoptions/removesignature/) { get; set; } | Gets or sets a value indicating whether signature will be removed while loading. |
 
+## Remarks
+
+Use this class with [`Load`](../mailmessage/load/) to specify custom loading options. Inherits from [`LoadOptions`](../loadoptions/) and adds EML-specific configuration through properties like [`PreserveTnefAttachments`](./preservetnefattachments/).
+
 ## Examples
 
 The following example shows how to convert EML to MSG.
@@ -37,7 +41,7 @@ The following example shows how to convert EML to MSG.
 [C#]
 
 ```csharp
-// Initialize EmlLoadOptions  
+// Initialize EmlLoadOptions
 var emlLoadOptions = new EmlLoadOptions()
        {
                PreserveTnefAttachments = true,
@@ -55,8 +59,8 @@ using (MailMessage message = MailMessage.Load("TestEml.eml", emlLoadOptions))
 [Visual Basic]
 
 ```csharp
-' Initialize EmlLoadOptions  
-Dim emlLoadOptions = New EmlLoadOptions() With 
+' Initialize EmlLoadOptions
+Dim emlLoadOptions = New EmlLoadOptions() With
 {
              .PreserveTnefAttachments = True,
              .PreserveEmbeddedMessageFormat = True

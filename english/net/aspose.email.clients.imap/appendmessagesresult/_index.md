@@ -3,7 +3,7 @@ title: Class AppendMessagesResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.AppendMessagesResult class. Contains result of operation with messages
 type: docs
-weight: 14900
+weight: 15000
 url: /net/aspose.email.clients.imap/appendmessagesresult/
 ---
 ## AppendMessagesResult class

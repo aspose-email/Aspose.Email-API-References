@@ -1,14 +1,14 @@
 ---
 title: Class PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.PidTagPropertyDescriptor class. Class contains property description information
+description: Aspose.Email.Mapi.PidTagPropertyDescriptor class. Contains descriptive information about a MAPI tagged property. This class provides properties and functionality for working with properties identified by a 16bit property ID and 16bit property type typically used for standard MAPI properties
 type: docs
-weight: 17740
+weight: 17840
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/
 ---
 ## PidTagPropertyDescriptor class
 
-Class contains property description information.
+Contains descriptive information about a MAPI tagged property. This class provides properties and functionality for working with properties identified by a 16-bit property ID and 16-bit property type, typically used for standard MAPI properties.
 
 ```csharp
 public class PidTagPropertyDescriptor : PropertyDescriptor
@@ -46,6 +46,10 @@ public class PidTagPropertyDescriptor : PropertyDescriptor
 | [operator ==](../../aspose.email.mapi/pidtagpropertydescriptor/op_equality/) | Determines whether the specified objects are equal to each another. |
 | [explicit operator](../../aspose.email.mapi/pidtagpropertydescriptor/op_explicit/) | Converts tag value to tagged property |
 | [operator !=](../../aspose.email.mapi/pidtagpropertydescriptor/op_inequality/) | Determines whether the specified objects are not equal to each another. |
+
+## Remarks
+
+This class extends [`PropertyDescriptor`](../propertydescriptor/) and is specifically designed for tagged properties in MAPI, where the property ID is in the range 0x0001-0x7FFF. Property IDs in the range 0x8000-0x8FFF are reserved for named properties. Use [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor/) for working with named properties. The class provides access to the property ID, data type, and full 32-bit tag value.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Class ExtendedCalendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.ExtendedCalendar class. A set of extended metadata such as a colors for a single calendar
 type: docs
-weight: 14280
+weight: 14320
 url: /net/aspose.email.clients.google/extendedcalendar/
 ---
 ## ExtendedCalendar class
@@ -34,6 +34,7 @@ public class ExtendedCalendar : Calendar
 | virtual [BackgroundColor](../../aspose.email.clients.google/extendedcalendar/backgroundcolor/) { get; set; } | The main color of the calendar in the format '#0088aa'. This property supersedes the index-based colorId property. |
 | virtual [ColorId](../../aspose.email.clients.google/extendedcalendar/colorid/) { get; set; } | The color of the calendar. This is an ID referring to an entry in the "calendar" section of the colors definition (see the "colors" endpoint). |
 | virtual [ConferenceProperties](../../aspose.email.clients.google/calendar/conferenceproperties/) { get; } | Gets conferencing properties for this calendar. |
+| virtual [DataOwner](../../aspose.email.clients.google/calendar/dataowner/) { get; set; } | The email of the owner of the calendar. |
 | virtual [DefaultReminders](../../aspose.email.clients.google/extendedcalendar/defaultreminders/) { get; set; } | The default reminders that the authenticated user has for this calendar. |
 | virtual [Description](../../aspose.email.clients.google/calendar/description/) { get; set; } | Description of the calendar. |
 | virtual [ETag](../../aspose.email.clients.google/basedataobject/etag/) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |

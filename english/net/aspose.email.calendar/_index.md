@@ -15,14 +15,14 @@ The **Aspose.Email.Calendar** namespace contains classes for work with calendar.
 | [Appointment](./appointment/) | Represents a calendar to an e-mail. |
 | [AppointmentCollection](./appointmentcollection/) | Represents a collection of Appointment objects. |
 | [AppointmentFormattingOptions](./appointmentformattingoptions/) | Represents the appointment formatting options. |
-| [AppointmentIcsSaveOptions](./appointmenticssaveoptions/) | Represents iCalendar save options |
-| [AppointmentLoadOptions](./appointmentloadoptions/) | Represents appointment load options |
-| [AppointmentMsgSaveOptions](./appointmentmsgsaveoptions/) | Represents iCalendar save options |
+| [AppointmentIcsSaveOptions](./appointmenticssaveoptions/) | Represents options for saving an appointment or meeting to an ICS (iCalendar) file. |
+| [AppointmentLoadOptions](./appointmentloadoptions/) | Represents options for loading an appointment from an ICS (iCalendar) file. |
+| [AppointmentMsgSaveOptions](./appointmentmsgsaveoptions/) | Represents options for saving an appointment or calendar event to a message format. |
 | [AppointmentReminder](./appointmentreminder/) | Provides a grouping of component properties that define an alarm. |
 | [AppointmentReminderCollection](./appointmentremindercollection/) | Contains collection of AppointmentReminder [`AppointmentReminder`](../aspose.email.calendar/appointmentreminder/)objects. |
 | [AppointmentSaveOptions](./appointmentsaveoptions/) | Represents base appointment save options |
-| [CalendarReader](./calendarreader/) | Allows read the calendar with multi events to the Appointment object from a file or stream. |
-| [CalendarWriter](./calendarwriter/) | Allows write the set of Events in one ics file or stream. |
+| [CalendarReader](./calendarreader/) | Provides functionality to read and extract events from an ICS (iCalendar) file. |
+| [CalendarWriter](./calendarwriter/) |  |
 | [ReminderAttachment](./reminderattachment/) | Provides the capability to associate a document object with an alarm. |
 | [ReminderAttachmentCollection](./reminderattachmentcollection/) | Contains collection of ReminderAttachment [`ReminderAttachment`](../aspose.email.calendar/reminderattachment/)objects. |
 | [ReminderAttendee](./reminderattendee/) | Defines an "Attendee" within a alarm. |
@@ -31,6 +31,9 @@ The **Aspose.Email.Calendar** namespace contains classes for work with calendar.
 | [ReminderTrigger](./remindertrigger/) | Specifies when an alarm will trigger. |
 | [Task](./task/) | Represents the exchange task information. |
 | [TaskCollection](./taskcollection/) | Represents a collection of Task objects. |
+| [TaskIcsSaveOptions](./taskicssaveoptions/) | Represents task to iCalendar save options |
+| [TaskMsgSaveOptions](./taskmsgsaveoptions/) | Represents task to MSG save options |
+| [TaskSaveOptions](./tasksaveoptions/) | Represents base task save options |
 ## Enumeration
 
 | Enumeration | Description |
@@ -47,6 +50,7 @@ The **Aspose.Email.Calendar** namespace contains classes for work with calendar.
 | [MSIntendedStatus](./msintendedstatus/) | Specifies the INTENDED status of an appointment. |
 | [ReminderAction](./reminderaction/) | Defines the action to be invoked when an alarm is triggered. |
 | [ReminderRelated](./reminderrelated/) | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [TaskStatus](./taskstatus/) | Represents the statuses of the user's progress on the task. |
 | [TIPMethod](./tipmethod/) | Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) methods associated with an object. |
 
 

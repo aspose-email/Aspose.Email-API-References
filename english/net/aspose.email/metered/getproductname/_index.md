@@ -3,7 +3,7 @@ title: Metered.GetProductName
 second_title: Aspose.Email for .NET API Reference
 description: Metered method. 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email/metered/getproductname/
 ---
 ## Metered.GetProductName method

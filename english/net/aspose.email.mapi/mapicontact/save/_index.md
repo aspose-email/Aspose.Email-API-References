@@ -3,7 +3,7 @@ title: MapiContact.Save
 second_title: Aspose.Email for .NET API Reference
 description: MapiContact method. Saves this MapiContact to the vCard file with a default options. The supported vCard version is 2.1
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.mapi/mapicontact/save/
 ---
 ## Save(string) {#save_3}

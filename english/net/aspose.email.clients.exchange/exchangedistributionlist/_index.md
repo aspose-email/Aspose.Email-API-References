@@ -3,7 +3,7 @@ title: Class ExchangeDistributionList
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeDistributionList class. Represents a Distribution List properties
 type: docs
-weight: 1810
+weight: 1850
 url: /net/aspose.email.clients.exchange/exchangedistributionlist/
 ---
 ## ExchangeDistributionList class

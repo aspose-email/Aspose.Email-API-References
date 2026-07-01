@@ -3,7 +3,7 @@ title: Class ServerNotificationEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ServerNotificationEventArgs class. Contains event data for server notification
 type: docs
-weight: 14040
+weight: 14080
 url: /net/aspose.email.clients.exchange.webservice/servernotificationeventargs/
 ---
 ## ServerNotificationEventArgs class

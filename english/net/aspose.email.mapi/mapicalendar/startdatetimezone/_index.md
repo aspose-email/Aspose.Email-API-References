@@ -3,7 +3,7 @@ title: MapiCalendar.StartDateTimeZone
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar property. Gets or sets time zone information that indicates the time zone of the StartDate property
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.email.mapi/mapicalendar/startdatetimezone/
 ---
 ## MapiCalendar.StartDateTimeZone property

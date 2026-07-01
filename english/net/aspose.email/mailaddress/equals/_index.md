@@ -3,7 +3,7 @@ title: MailAddress.Equals
 second_title: Aspose.Email for .NET API Reference
 description: MailAddress method. Determines whether the specified Object is equal to this instance
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.email/mailaddress/equals/
 ---
 ## MailAddress.Equals method

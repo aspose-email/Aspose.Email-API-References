@@ -3,7 +3,7 @@ title: Delegate BindIPEndPointHandler
 second_title: Aspose.Email for .NET API Reference
 description: Use the BindIPEndPointHandler if you need to use a specific local endpoint
 type: docs
-weight: 1430
+weight: 1470
 url: /net/aspose.email.clients/bindipendpointhandler/
 ---
 ## BindIPEndPointHandler delegate

@@ -1,14 +1,14 @@
 ---
 title: Class AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AlternateView class. Represents the format to view a message
+description: Aspose.Email.AlternateView class. Represents an alternative format view of an email message such as plain text or HTML versions. This class allows you to provide multiple content representations for email clients with different capabilities. Alternate views can include linked resources embedded images files and support content encoding and transfer encoding configuration
 type: docs
 weight: 10
 url: /net/aspose.email/alternateview/
 ---
 ## AlternateView class
 
-Represents the format to view a message.
+Represents an alternative format view of an email message, such as plain text or HTML versions. This class allows you to provide multiple content representations for email clients with different capabilities. Alternate views can include linked resources (embedded images, files) and support content encoding and transfer encoding configuration.
 
 ```csharp
 public class AlternateView : AttachmentBase
@@ -36,6 +36,7 @@ public class AlternateView : AttachmentBase
 | virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
 | [LinkedResources](../../aspose.email/alternateview/linkedresources/) { get; } | Gets the set of embedded resources referred to by this alternate view. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 
 ## Methods
 
@@ -48,6 +49,10 @@ public class AlternateView : AttachmentBase
 | [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
+
+## Remarks
+
+Use [`CreateAlternateViewFromString`](./createalternateviewfromstring/) to create alternate views from string content. Add alternate views to [`AlternateViews`](../mailmessage/alternateviews/) to include them in the message.
 
 ## Examples
 

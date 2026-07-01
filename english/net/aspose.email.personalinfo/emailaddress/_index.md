@@ -3,7 +3,7 @@ title: Class EmailAddress
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.EmailAddress class. Represents an email address
 type: docs
-weight: 18130
+weight: 18230
 url: /net/aspose.email.personalinfo/emailaddress/
 ---
 ## EmailAddress class
@@ -38,6 +38,7 @@ public class EmailAddress : MailAddress, IComparable<EmailAddress>, IEquatable<E
 | [Prefered](../../aspose.email.personalinfo/emailaddress/prefered/) { get; set; } | Gets or sets a value which defines whether email address is preferred. |
 | [RoutingType](../../aspose.email.personalinfo/emailaddress/routingtype/) { get; set; } | Gets or sets a routing type for an email |
 | [User](../../aspose.email/mailaddress/user/) { get; } | Gets the username. |
+| [X500Address](../../aspose.email/mailaddress/x500address/) { get; } | Gets the email address in Exchange format, if it exists. |
 
 ## Methods
 

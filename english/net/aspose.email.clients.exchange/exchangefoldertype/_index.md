@@ -3,7 +3,7 @@ title: Enum ExchangeFolderType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderType enum. Enumerates the distinguished folder types. This values also contained in PidTagContainerClass property
 type: docs
-weight: 1900
+weight: 1940
 url: /net/aspose.email.clients.exchange/exchangefoldertype/
 ---
 ## ExchangeFolderType enumeration

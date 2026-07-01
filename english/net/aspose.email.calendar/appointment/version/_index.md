@@ -3,7 +3,7 @@ title: Appointment.Version
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Gets the version of ICS/VCS file
 type: docs
-weight: 300
+weight: 320
 url: /net/aspose.email.calendar/appointment/version/
 ---
 ## Appointment.Version property

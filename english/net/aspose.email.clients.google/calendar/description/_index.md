@@ -3,7 +3,7 @@ title: Calendar.Description
 second_title: Aspose.Email for .NET API Reference
 description: Calendar property. Description of the calendar
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.clients.google/calendar/description/
 ---
 ## Calendar.Description property

@@ -3,7 +3,7 @@ title: Enum SwayAuditOperation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.SwayAuditOperation enum. Sway audit operation
 type: docs
-weight: 1350
+weight: 1390
 url: /net/aspose.email.clients.activity/swayauditoperation/
 ---
 ## SwayAuditOperation enumeration

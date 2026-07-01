@@ -3,7 +3,7 @@ title: MapiCalendar.ReminderSet
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar property. Gets or sets a value indicating whether a reminder is set on the object
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapicalendar/reminderset/
 ---
 ## MapiCalendar.ReminderSet property

@@ -3,7 +3,7 @@ title: PersonalStorage.DeleteItem
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Deletes the item folder or message by its entryId
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.storage.pst/personalstorage/deleteitem/
 ---
 ## PersonalStorage.DeleteItem method

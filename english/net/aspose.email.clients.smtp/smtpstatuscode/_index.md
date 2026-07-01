@@ -3,7 +3,7 @@ title: Enum SmtpStatusCode
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.SmtpStatusCode enum. Smtp status codes
 type: docs
-weight: 15780
+weight: 15880
 url: /net/aspose.email.clients.smtp/smtpstatuscode/
 ---
 ## SmtpStatusCode enumeration

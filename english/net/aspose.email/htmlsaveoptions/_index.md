@@ -1,14 +1,14 @@
 ---
 title: Class HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.HtmlSaveOptions class. Allows to specify additional options when saving MailMessage to Html format
+description: Aspose.Email.HtmlSaveOptions class. Provides options for controlling how MailMessage instances are saved to HTML format. This class allows you to customize HTML output formatting resource rendering modes and encoding behavior when converting email messages to HTML files
 type: docs
-weight: 16200
+weight: 16300
 url: /net/aspose.email/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
 
-Allows to specify additional options when saving MailMessage to Html format.
+Provides options for controlling how [`MailMessage`](../mailmessage/) instances are saved to HTML format. This class allows you to customize HTML output formatting, resource rendering modes, and encoding behavior when converting email messages to HTML files.
 
 ```csharp
 public class HtmlSaveOptions : HeadersFormattingOptions
@@ -47,6 +47,10 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | --- | --- |
 | event [ResourceHtmlRendering](../../aspose.email/headersformattingoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
 | event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
+
+## Remarks
+
+Use this class with [`Save`](../mailmessage/save/) to save messages in HTML format. The [`HtmlFormatOptions`](./htmlformatoptions/) property controls HTML formatting options, while [`ResourceRenderingMode`](./resourcerenderingmode/) determines how embedded resources (images, attachments) are handled - either embedded directly in HTML or saved as separate files.
 
 ### See Also
 

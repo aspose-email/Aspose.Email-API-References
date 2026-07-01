@@ -3,7 +3,7 @@ title: ContactSaveOptions.Version
 second_title: Aspose.Email for .NET API Reference
 description: ContactSaveOptions property. Gets or sets a vCard version This property is meaningful if ContactSaveFormat is set to VCard
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.mapi/contactsaveoptions/version/
 ---
 ## ContactSaveOptions.Version property

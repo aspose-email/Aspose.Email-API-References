@@ -3,7 +3,7 @@ title: IGmailClient.FetchMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets the specified message
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.email.clients.google/igmailclient/fetchmessage/
 ---
 ## IGmailClient.FetchMessage method

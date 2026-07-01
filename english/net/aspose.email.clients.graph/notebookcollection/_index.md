@@ -3,7 +3,7 @@ title: Class NotebookCollection
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.NotebookCollection class. Represents collection of Notebook
 type: docs
-weight: 14670
+weight: 14760
 url: /net/aspose.email.clients.graph/notebookcollection/
 ---
 ## NotebookCollection class

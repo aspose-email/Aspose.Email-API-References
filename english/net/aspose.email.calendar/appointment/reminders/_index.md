@@ -3,7 +3,7 @@ title: Appointment.Reminders
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Contains collection of AppointmentReminder AppointmentReminder objects
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.email.calendar/appointment/reminders/
 ---
 ## Appointment.Reminders property

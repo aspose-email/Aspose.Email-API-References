@@ -3,7 +3,7 @@ title: Enum VCardPhotoType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardPhotoType enum. Enumerates vCard photo type
 type: docs
-weight: 18500
+weight: 18610
 url: /net/aspose.email.personalinfo.vcard/vcardphototype/
 ---
 ## VCardPhotoType enumeration
@@ -34,6 +34,7 @@ public enum VCardPhotoType
 | MPEG2 | `13` | MPEG v.2 format |
 | AVI | `14` | Intel avi format |
 | QTIME | `15` | Apple quickTime format |
+| PNG | `16` | Portable network graphics format |
 
 ### See Also
 

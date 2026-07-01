@@ -3,7 +3,7 @@ title: MapiCalendarSaveOptions.SaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendarSaveOptions property. Gets a save format
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/saveformat/
 ---
 ## MapiCalendarSaveOptions.SaveFormat property

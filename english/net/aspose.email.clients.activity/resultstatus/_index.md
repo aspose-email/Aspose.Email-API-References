@@ -3,7 +3,7 @@ title: Enum ResultStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ResultStatus enum. Indicates statuses of logged operation
 type: docs
-weight: 1290
+weight: 1330
 url: /net/aspose.email.clients.activity/resultstatus/
 ---
 ## ResultStatus enumeration

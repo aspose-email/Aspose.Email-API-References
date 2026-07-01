@@ -3,7 +3,7 @@ title: PersonalStorage.MoveItem
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Moves a specified message to a new folder within the current pst
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.email.storage.pst/personalstorage/moveitem/
 ---
 ## MoveItem(MessageInfo, FolderInfo) {#moveitem_1}

@@ -3,7 +3,7 @@ title: FolderInfo.UpdateMessage
 second_title: Aspose.Email for .NET API Reference
 description: FolderInfo method. Updates the message in folder
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email.storage.pst/folderinfo/updatemessage/
 ---
 ## FolderInfo.UpdateMessage method

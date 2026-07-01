@@ -3,7 +3,7 @@ title: Class Converter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.LowCode.Converter class. Provides functionality to convert email messages between various formats such as EML MSG HTML MHT and MHTML
 type: docs
-weight: 16330
+weight: 16430
 url: /net/aspose.email.lowcode/converter/
 ---
 ## Converter class

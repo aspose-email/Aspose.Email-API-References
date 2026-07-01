@@ -3,7 +3,7 @@ title: Enum ExchangeFolderUserType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderUserType enum. Enumerates the distinguished user accounts
 type: docs
-weight: 1920
+weight: 1960
 url: /net/aspose.email.clients.exchange/exchangefolderusertype/
 ---
 ## ExchangeFolderUserType enumeration

@@ -3,7 +3,7 @@ title: Metered.IsMeteredLicensed
 second_title: Aspose.Email for .NET API Reference
 description: Metered method. Check whether metered is licensed
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email/metered/ismeteredlicensed/
 ---
 ## Metered.IsMeteredLicensed method

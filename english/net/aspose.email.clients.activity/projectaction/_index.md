@@ -3,7 +3,7 @@ title: Enum ProjectAction
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ProjectAction enum. Project action
 type: docs
-weight: 1250
+weight: 1290
 url: /net/aspose.email.clients.activity/projectaction/
 ---
 ## ProjectAction enumeration

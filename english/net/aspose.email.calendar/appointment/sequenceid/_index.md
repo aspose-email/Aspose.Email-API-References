@@ -3,7 +3,7 @@ title: Appointment.SequenceId
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Gets the sequence id
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.email.calendar/appointment/sequenceid/
 ---
 ## Appointment.SequenceId property

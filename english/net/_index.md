@@ -51,6 +51,7 @@ is_root: true
 | [Aspose.Email.Storage.Olm](./aspose.email.storage.olm) | The **Aspose.Email.Storage.Olm** namespace contains classes for work with Microsoft Outlook OLM file format. |
 | [Aspose.Email.Storage.Pst](./aspose.email.storage.pst) | The **Aspose.Email.Storage.Pst** namespace contains classes for work with Microsoft Outlook PST\OST file format. |
 | [Aspose.Email.Storage.Zimbra](./aspose.email.storage.zimbra) | The **Aspose.Email.Storage.Zimbra** namespace contains classes for work with Zimbra storage. |
+| [Aspose.Email.Storage.Zimbra.TgzBackup](./aspose.email.storage.zimbra.tgzbackup/) | The **Storage.Zimbra.TgzBackup** namespace provides functionality for creating Zimbra-compatible TGZ backup archives from collections of EML email files. |
 | [Aspose.Email.Tools](./aspose.email.tools) | The **Aspose.Email.Tools** namespace contains auxiliary classes for email message handling. |
 | [Aspose.Email.Tools.Logging](./aspose.email.tools.logging) | The **Aspose.Email.Tools.Logging** namespace contains classes that represent the logging functionality. |
 | [Aspose.Email.Tools.Merging](./aspose.email.tools.merging) | The **Aspose.Email.Tools.Merging** namespace contains classes for construct email messages by usung templates. |

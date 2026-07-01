@@ -3,7 +3,7 @@ title: Enum VCardVersion
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardVersion enum. Enumerates vCard version
 type: docs
-weight: 18620
+weight: 18730
 url: /net/aspose.email.personalinfo.vcard/vcardversion/
 ---
 ## VCardVersion enumeration
@@ -20,6 +20,7 @@ public enum VCardVersion
 | --- | --- | --- |
 | V21 | `0` | vCard version 2.1 (default) |
 | V30 | `1` | vCard version 3.0 |
+| V40 | `2` | vCard version 4.0 |
 
 ### See Also
 

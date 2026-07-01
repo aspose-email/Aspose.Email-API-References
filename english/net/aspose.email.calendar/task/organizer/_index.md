@@ -3,7 +3,7 @@ title: Task.Organizer
 second_title: Aspose.Email for .NET API Reference
 description: Task property. Gets or sets the organizer
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.email.calendar/task/organizer/
 ---
 ## Task.Organizer property

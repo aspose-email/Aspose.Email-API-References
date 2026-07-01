@@ -12,47 +12,47 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 
 | Class | Description |
 | --- | --- |
-| [ContactSaveOptions](./contactsaveoptions/) | Represents the base contact save options |
+| [ContactSaveOptions](./contactsaveoptions/) | Serves as the abstract base class for contact save options when saving contact objects to various formats. This class provides common configuration properties such as save format and vCard version for contact serialization. |
 | [FileAccessViolationException](./fileaccessviolationexception/) | This exception wile be thrown when the file open and locked by another caller. |
-| [FollowUpManager](./followupmanager/) | Provides the ability to set and handle follow-up Outlook flags and categories. Supports the features to add and remove a flag in [`MapiMessage`](../aspose.email.mapi/mapimessage/), and mark it as completed as well. |
-| [FollowUpOptions](./followupoptions/) | Represents options for using follow-up flags and reminders in a message. |
+| [FollowUpManager](./followupmanager/) | Provides methods for managing Outlook follow-up flags, categories, and voting options on MAPI messages. This static class enables setting and removing follow-up flags, managing categories (keywords), setting due dates and reminders, and configuring voting buttons on [`MapiMessageItemBase`](../aspose.email.mapi/mapimessageitembase/) objects. |
+| [FollowUpOptions](./followupoptions/) | Represents configuration options for follow-up flags, reminders, categories, and voting buttons in Outlook messages. This class encapsulates all the properties needed to set follow-up behavior on [`MapiMessage`](../aspose.email.mapi/mapimessage/) objects through the [`FollowUpManager`](../aspose.email.mapi/followupmanager/) class. |
 | [InlineAttachmentExtractor](./inlineattachmentextractor/) | Provides ability to extract files from MSO packages. Can be used to process "oledata.mso" and similar files typically attached to messages created using Outlook. |
 | [KnownPropertyList](./knownpropertylist/) | The read-only Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation (MS-OXPROPS). Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
 | [KnownPropertySets](./knownpropertysets/) | [MS-OXCDATA]: Commonly Used Property Sets |
-| [MailConversionOptions](./mailconversionoptions/) | Specify additional options when converting from MapiMessage to MailMessage. |
+| [MailConversionOptions](./mailconversionoptions/) | Provides options for controlling how [`MapiMessage`](../aspose.email.mapi/mapimessage/) instances are converted to [`MailMessage`](../aspose.email/mailmessage/) objects. This class allows you to customize the conversion behavior for TNEF handling, embedded message format preservation, RTF content, and email address management. |
 | [MapiAttachment](./mapiattachment/) |  |
-| [MapiAttachmentCollection](./mapiattachmentcollection/) | Represents a collection of MapiAttachment objects. |
+| [MapiAttachmentCollection](./mapiattachmentcollection/) | Represents a strongly-typed collection of [`MapiAttachment`](../aspose.email.mapi/mapiattachment/) objects that belong to a MAPI message or item. This collection class provides methods for adding, removing, and managing attachments in Outlook messages, including support for embedded messages and file attachments. |
 | [MapiAttachmentPropertyStream](./mapiattachmentpropertystream/) | Represents the property stream of attachment object. |
 | [MapiCalendar](./mapicalendar/) | Represents a MAPI calendar item. |
-| [MapiCalendarAttendees](./mapicalendarattendees/) | Represents the mapi calendar attendees |
-| [MapiCalendarCollection](./mapicalendarcollection/) | Represents the collection of [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) |
-| [MapiCalendarDailyRecurrencePattern](./mapicalendardailyrecurrencepattern/) | Represents the daily recurrence pattern of the mapi calendar |
-| [MapiCalendarEventRecurrence](./mapicalendareventrecurrence/) | Represents the recurrence properties of calendar object |
+| [MapiCalendarAttendees](./mapicalendarattendees/) | Represents the attendees and related properties for a MAPI calendar item (meeting request, appointment). This class manages recipient information for calendar events, including required and optional attendees, unsendable recipients, and meeting-specific options like proposal restrictions. |
+| [MapiCalendarCollection](./mapicalendarcollection/) | Represents a strongly-typed collection of [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) objects for managing multiple calendar items in a single collection. This class provides standard collection operations while maintaining type safety for MAPI calendar entries. |
+| [MapiCalendarDailyRecurrencePattern](./mapicalendardailyrecurrencepattern/) | Represents a daily recurrence pattern for MAPI calendar items, allowing you to define how recurring meetings or events repeat on a daily basis. This class provides properties to configure the recurrence interval and specific days of the week for weekly-based daily patterns. |
+| [MapiCalendarEventRecurrence](./mapicalendareventrecurrence/) | Represents the recurrence properties of a calendar object, including the recurrence pattern, time zone information, and the date range of recurrence. This class encapsulates all the data needed to define how recurring calendar events repeat over time. |
 | [MapiCalendarExceptionInfo](./mapicalendarexceptioninfo/) | An exception specifies changes to an instance of a recurring series. |
-| [MapiCalendarIcsSaveOptions](./mapicalendaricssaveoptions/) |  |
-| [MapiCalendarMonthlyNthRecurrencePattern](./mapicalendarmonthlynthrecurrencepattern/) | Represents the monthly nth recurrence pattern of the mapi calendar |
-| [MapiCalendarMonthlyRecurrencePattern](./mapicalendarmonthlyrecurrencepattern/) | Represents the monthly recurrence pattern of the mapi calendar |
-| [MapiCalendarMsgSaveOptions](./mapicalendarmsgsaveoptions/) |  |
-| [MapiCalendarRecurrencePattern](./mapicalendarrecurrencepattern/) | Represents the mapi recurrence pattern |
+| [MapiCalendarIcsSaveOptions](./mapicalendaricssaveoptions/) | Provides options for controlling how [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) instances are saved to iCalendar (ICS) format. This class extends [`MapiCalendarSaveOptions`](../aspose.email.mapi/mapicalendarsaveoptions/) and adds iCalendar-specific configuration options for date/time handling and product identification. |
+| [MapiCalendarMonthlyNthRecurrencePattern](./mapicalendarmonthlynthrecurrencepattern/) | Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week (e.g., "the 2nd Monday of each month"). This class inherits from [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/) and provides the base functionality for monthly recurrence patterns in MAPI calendar items. |
+| [MapiCalendarMonthlyRecurrencePattern](./mapicalendarmonthlyrecurrencepattern/) | Represents a monthly recurrence pattern for MAPI calendar items, allowing events to repeat on a specific day of each month. This class inherits from [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/) and provides the base functionality for monthly recurrence patterns in MAPI calendar items. |
+| [MapiCalendarMsgSaveOptions](./mapicalendarmsgsaveoptions/) | Provides options for controlling how [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) instances are saved to Outlook MSG format. This class extends [`MapiCalendarSaveOptions`](../aspose.email.mapi/mapicalendarsaveoptions/) and is specifically designed for saving calendar items in the native Outlook message format. |
+| [MapiCalendarRecurrencePattern](./mapicalendarrecurrencepattern/) | Serves as the abstract base class for all MAPI calendar recurrence patterns. This class provides common properties and functionality for defining how calendar events repeat over time, including frequency, date ranges, occurrence counts, and exception handling. |
 | [MapiCalendarRecurrencePatternFactory](./mapicalendarrecurrencepatternfactory/) | Represents the factory of MapiCalendarRecurrencePattern |
-| [MapiCalendarSaveOptions](./mapicalendarsaveoptions/) |  |
+| [MapiCalendarSaveOptions](./mapicalendarsaveoptions/) | Serves as the abstract base class for format-specific options when saving [`MapiCalendar`](../aspose.email.mapi/mapicalendar/) objects to various formats (ICS, MSG). This class provides common configuration properties such as save format and factory methods for creating format-specific save options. |
 | [MapiCalendarTimeZone](./mapicalendartimezone/) | Represents the mapi calendar time zone information |
 | [MapiCalendarTimeZoneInfo](./mapicalendartimezoneinfo/) | Represents the mapi calendar time zone rule |
 | [MapiCalendarTimeZoneInfoCollection](./mapicalendartimezoneinfocollection/) | Represents a collection of MapiCalendarTimeZoneInfo |
 | [MapiCalendarTimeZoneRule](./mapicalendartimezonerule/) | Represents time zone rule that indicate when to begin using the Standard/Daylight time. |
-| [MapiCalendarWeeklyRecurrencePattern](./mapicalendarweeklyrecurrencepattern/) | Represents the weekly recurrence pattern of the mapi calendar |
-| [MapiCalendarYearlyAndMonthlyRecurrencePattern](./mapicalendaryearlyandmonthlyrecurrencepattern/) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
+| [MapiCalendarWeeklyRecurrencePattern](./mapicalendarweeklyrecurrencepattern/) | Represents a weekly recurrence pattern for MAPI calendar items, allowing events to repeat on specific days of the week at regular weekly intervals. This class provides properties to configure the recurrence interval and the specific days of the week when the event occurs. |
+| [MapiCalendarYearlyAndMonthlyRecurrencePattern](./mapicalendaryearlyandmonthlyrecurrencepattern/) | Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items. This abstract class provides common properties and functionality for patterns that can recur either monthly (on a specific day) or yearly (on a specific day of a specific month). |
 | [MapiContact](./mapicontact/) | Represents a MAPI contact item. |
-| [MapiContactAddress](./mapicontactaddress/) | Base abstract class for [`MapiContactElectronicAddress`](../aspose.email.mapi/mapicontactelectronicaddress/) and [`MapiContactPhysicalAddress`](../aspose.email.mapi/mapicontactphysicaladdress/). |
-| [MapiContactCollection](./mapicontactcollection/) | Represents the collection of [`MapiContact`](../aspose.email.mapi/mapicontact/) |
-| [MapiContactElectronicAddress](./mapicontactelectronicaddress/) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
+| [MapiContactAddress](./mapicontactaddress/) | Serves as the abstract base class for contact address types in MAPI contact items. This class provides common functionality for managing electronic addresses ([`MapiContactElectronicAddress`](../aspose.email.mapi/mapicontactelectronicaddress/)) and physical addresses ([`MapiContactPhysicalAddress`](../aspose.email.mapi/mapicontactphysicaladdress/)) through shared property access methods. |
+| [MapiContactCollection](./mapicontactcollection/) | Represents a strongly-typed collection of [`MapiContact`](../aspose.email.mapi/mapicontact/) objects for managing multiple contacts in a single collection. This class provides standard collection operations while maintaining type safety for MAPI contact entries. |
+| [MapiContactElectronicAddress](./mapicontactelectronicaddress/) | Represents a group of properties that define an electronic address (email or fax) for a contact. This class provides functionality for managing contact email addresses and fax numbers through properties such as display name, address type, email address, and fax number. |
 | [MapiContactElectronicAddressPropertySet](./mapicontactelectronicaddresspropertyset/) | Specify properties for up to three different e-mail addresses (Email1, Email2, and Email3) and three different fax addresses (Primary Fax, Business Fax, and Home Fax) |
 | [MapiContactEventPropertySet](./mapicontacteventpropertyset/) | Specify events associated with a contact |
 | [MapiContactNamePropertySet](./mapicontactnamepropertyset/) | The properties are used to specify the name of the person represented by the contact |
 | [MapiContactOtherPropertySet](./mapicontactotherpropertyset/) | The properties are used to specify additional properies of contact. |
 | [MapiContactPersonalInfoPropertySet](./mapicontactpersonalinfopropertyset/) | Specify other additional contact information |
 | [MapiContactPhoto](./mapicontactphoto/) | Contains data and type of contact's photo. |
-| [MapiContactPhysicalAddress](./mapicontactphysicaladdress/) | Refers to the group of properties that define physical address for a contact. |
+| [MapiContactPhysicalAddress](./mapicontactphysicaladdress/) | Represents a group of properties that define a physical address for a contact. This class provides functionality for managing contact physical addresses through properties such as street, city, state, postal code, country, and mail address flags. |
 | [MapiContactPhysicalAddressPropertySet](./mapicontactphysicaladdresspropertyset/) | Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address |
 | [MapiContactProfessionalPropertySet](./mapicontactprofessionalpropertyset/) | Properties are used to store professional details for the person represented by the contact |
 | [MapiContactPropertySet](./mapicontactpropertyset/) | Base class for all sets of MapiContact properties. |
@@ -86,9 +86,9 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiTaskCollection](./mapitaskcollection/) | Represents the collection of [`MapiTask`](../aspose.email.mapi/mapitask/) |
 | [MapiTaskUsers](./mapitaskusers/) | Represents information about task users. |
 | [OleDocumentFormat](./oledocumentformat/) | Represents the format for OLE document. |
-| [PidLidPropertyDescriptor](./pidlidpropertydescriptor/) | Class contains property description information. |
-| [PidNamePropertyDescriptor](./pidnamepropertydescriptor/) | Class contains property description information. |
-| [PidTagPropertyDescriptor](./pidtagpropertydescriptor/) | Class contains property description information. |
+| [PidLidPropertyDescriptor](./pidlidpropertydescriptor/) | Contains descriptive information about a MAPI named property. This class provides properties and functionality for working with properties identified by a 32-bit long ID (LID) combined with a property set GUID, typically used for custom or non-standard MAPI properties. |
+| [PidNamePropertyDescriptor](./pidnamepropertydescriptor/) | Contains descriptive information about a MAPI named property identified by a string name. This class provides properties and functionality for working with properties identified by a string name combined with a property set GUID, typically used for custom or non-standard MAPI properties with string-based identifiers. |
+| [PidTagPropertyDescriptor](./pidtagpropertydescriptor/) | Contains descriptive information about a MAPI tagged property. This class provides properties and functionality for working with properties identified by a 16-bit property ID and 16-bit property type, typically used for standard MAPI properties. |
 | [PropertyDescriptor](./propertydescriptor/) | Class contains property description information. |
 | [ReferenceAttachmentOptions](./referenceattachmentoptions/) | Represents configuration options for adding a reference attachment to a MAPI message. |
 | [UserReaction](./userreaction/) | Represents a user's reaction. |
@@ -97,22 +97,22 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 
 | Interface | Description |
 | --- | --- |
-| [IMapiMessageItem](./imapimessageitem/) | Base interface for all message items in Outlook |
+| [IMapiMessageItem](./imapimessageitem/) | Defines the base interface for all Outlook message item types including messages, appointments, tasks, contacts, and notes. This interface provides common properties for accessing message class, item type, body content, and subject across different Outlook item types. |
 | [INamedPropertyTagProvider](./inamedpropertytagprovider/) | Interface of named mapi property tag provider. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [BodyContentType](./bodycontenttype/) | The content type of message body. |
+| [BodyContentType](./bodycontenttype/) | Specifies the content type format of a message body in MAPI messages. |
 | [ContactSaveFormat](./contactsaveformat/) | Enumerates contact save formats |
 | [MapiCalendarBusyStatus](./mapicalendarbusystatus/) | Enumerates the mapi calendar possible busy status |
 | [MapiCalendarClientIntent](./mapicalendarclientintent/) | Enumerates the actions the user can taken on the Meeting object |
 | [MapiCalendarDayOfWeek](./mapicalendardayofweek/) | Enumerates the days of week of the mapi calendar recurrence pattern |
 | [MapiCalendarOverrideFlags](./mapicalendaroverrideflags/) | Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series. |
-| [MapiCalendarRecurrenceCalendarType](./mapicalendarrecurrencecalendartype/) | Enumerated the calendar type of the mapi recurrence |
+| [MapiCalendarRecurrenceCalendarType](./mapicalendarrecurrencecalendartype/) | Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian, Hijri, Hebrew, lunar, and various regional calendars used around the world. |
 | [MapiCalendarRecurrenceEndType](./mapicalendarrecurrenceendtype/) | Enumerates the ending type for the recurrence. |
 | [MapiCalendarRecurrenceFrequency](./mapicalendarrecurrencefrequency/) | Enumerates mapi calendar recurrence frequency |
-| [MapiCalendarRecurrencePatternType](./mapicalendarrecurrencepatterntype/) | Enumerates the mapi calendar recurrence pattern types |
+| [MapiCalendarRecurrencePatternType](./mapicalendarrecurrencepatterntype/) | Specifies the type of recurrence pattern for MAPI calendar items. |
 | [MapiCalendarState](./mapicalendarstate/) | Enumerates the appointment state |
 | [MapiCalendarTimeZoneFlags](./mapicalendartimezoneflags/) | Enumerates the individual bit flags that specify information about TimeZoneRule |
 | [MapiContactGender](./mapicontactgender/) | Gender of the contact |

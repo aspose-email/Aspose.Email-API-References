@@ -3,7 +3,7 @@ title: Enum CompressionType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.CompressionType enum. Compression types which are used by mail protocols
 type: docs
-weight: 1450
+weight: 1490
 url: /net/aspose.email.clients/compressiontype/
 ---
 ## CompressionType enumeration

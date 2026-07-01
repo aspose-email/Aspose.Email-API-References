@@ -3,7 +3,7 @@ title: Class RestoreSettingsAsync
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.RestoreSettingsAsync class. The settings for the ImapClient.Restore async method
 type: docs
-weight: 15380
+weight: 15480
 url: /net/aspose.email.clients.imap/restoresettingsasync/
 ---
 ## RestoreSettingsAsync class

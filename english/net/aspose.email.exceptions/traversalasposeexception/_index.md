@@ -3,7 +3,7 @@ title: Class TraversalAsposeException
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Exceptions.TraversalAsposeException class. Represents the exception that can occur when traversing a storage
 type: docs
-weight: 16050
+weight: 16150
 url: /net/aspose.email.exceptions/traversalasposeexception/
 ---
 ## TraversalAsposeException class

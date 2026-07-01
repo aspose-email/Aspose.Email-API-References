@@ -3,7 +3,7 @@ title: Interface IAsyncTokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.IAsyncTokenProvider interface. Defines interface allowing to retrieve access token asynchronously
 type: docs
-weight: 14830
+weight: 14930
 url: /net/aspose.email.clients/iasynctokenprovider/
 ---
 ## IAsyncTokenProvider interface

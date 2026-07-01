@@ -3,7 +3,7 @@ title: MapiContact.Telephones
 second_title: Aspose.Email for .NET API Reference
 description: MapiContact property. Specify telephone numbers for the contact
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.email.mapi/mapicontact/telephones/
 ---
 ## MapiContact.Telephones property

@@ -3,7 +3,7 @@ title: Class VCardFullName
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardFullName class. Represents vCard contact full name N property
 type: docs
-weight: 18420
+weight: 18520
 url: /net/aspose.email.personalinfo.vcard/vcardfullname/
 ---
 ## VCardFullName class
@@ -11,7 +11,7 @@ url: /net/aspose.email.personalinfo.vcard/vcardfullname/
 Represents vCard contact full name (N property)
 
 ```csharp
-public sealed class VCardFullName
+public sealed class VCardFullName : VCardHeaderInfo
 ```
 
 ## Constructors
@@ -29,6 +29,8 @@ public sealed class VCardFullName
 | [HonorificPostfixes](../../aspose.email.personalinfo.vcard/vcardfullname/honorificpostfixes/) { get; set; } | Gets or sets a honorific postfixes |
 | [HonorificPrefixes](../../aspose.email.personalinfo.vcard/vcardfullname/honorificprefixes/) { get; set; } | Gets or sets a honorific prefixes |
 | [MiddleName](../../aspose.email.personalinfo.vcard/vcardfullname/middlename/) { get; set; } | Gets or sets a middle name |
+| [Parameters](../../aspose.email.personalinfo.vcard/vcardheaderinfo/parameters/) { get; } | Gets or sets a property parameters |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardheaderinfo/valuelocation/) { get; set; } | Gets or sets a value location |
 
 ## Methods
 
@@ -38,6 +40,7 @@ public sealed class VCardFullName
 
 ### See Also
 
+* class [VCardHeaderInfo](../vcardheaderinfo/)
 * namespace [Aspose.Email.PersonalInfo.VCard](../../aspose.email.personalinfo.vcard/)
 * assembly [Aspose.Email](../../)
 

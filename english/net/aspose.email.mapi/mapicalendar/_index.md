@@ -3,7 +3,7 @@ title: Class MapiCalendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiCalendar class. Represents a MAPI calendar item
 type: docs
-weight: 16600
+weight: 16700
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class
@@ -51,6 +51,7 @@ public sealed class MapiCalendar : MapiMessageItemBase
 | [NamedProperties](../../aspose.email.mapi/mapimessageitembase/namedproperties/) { get; } | Gets the named properties of message. |
 | [NamedPropertyMapping](../../aspose.email.mapi/mapimessageitembase/namedpropertymapping/) { get; } | Gets the named property mapping. |
 | [Organizer](../../aspose.email.mapi/mapicalendar/organizer/) { get; set; } | Gets or sets the organizer. |
+| [ProductId](../../aspose.email.mapi/mapicalendar/productid/) { get; set; } | Gets or sets the id of product that created this appointment. |
 | virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets the collection of properties. |
 | [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream. |
 | [Recipients](../../aspose.email.mapi/mapimessageitembase/recipients/) { get; set; } | Gets the recipients of the message. |

@@ -3,7 +3,7 @@ title: PersonalStorage.FindAndExtractSoftDeletedItems
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Finds and extracts softdeleted messages from the PST
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.email.storage.pst/personalstorage/findandextractsoftdeleteditems/
 ---
 ## PersonalStorage.FindAndExtractSoftDeletedItems method

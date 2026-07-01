@@ -34,7 +34,7 @@ public MboxrdStorageWriter(Stream stream, MboxSaveOptions options)
 
 ---
 
-## MboxrdStorageWriter(string, MboxSaveOptions) {#constructor_2}
+## MboxrdStorageWriter(string, MboxSaveOptions) {#constructor_1}
 
 Initializes a new instance of the [`MboxrdStorageWriter`](../) class.
 
