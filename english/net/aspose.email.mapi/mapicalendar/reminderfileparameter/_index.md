@@ -3,7 +3,7 @@ title: MapiCalendar.ReminderFileParameter
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar property. Specifies the full path of the sound that a client SHOULD play when the reminder becomes overdue
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.mapi/mapicalendar/reminderfileparameter/
 ---
 ## MapiCalendar.ReminderFileParameter property

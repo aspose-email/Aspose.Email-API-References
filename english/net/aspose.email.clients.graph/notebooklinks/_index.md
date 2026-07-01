@@ -3,7 +3,7 @@ title: Class NotebookLinks
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Graph.NotebookLinks class. https//docs.microsoft.com/enus/graph/api/resources/notebooklinksviewgraphrest1.0 Links for opening a OneNote notebook
 type: docs
-weight: 14680
+weight: 14770
 url: /net/aspose.email.clients.graph/notebooklinks/
 ---
 ## NotebookLinks class

@@ -3,7 +3,7 @@ title: Class EwsFindPeople
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.Models.EwsFindPeople class. Represents the FindPeopleAsync parameters
 type: docs
-weight: 2630
+weight: 2670
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/
 ---
 ## EwsFindPeople class

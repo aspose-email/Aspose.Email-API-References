@@ -3,7 +3,7 @@ title: Class OlmItemCategory
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Olm.OlmItemCategory class. Represents an Outlook item category
 type: docs
-weight: 18940
+weight: 19050
 url: /net/aspose.email.storage.olm/olmitemcategory/
 ---
 ## OlmItemCategory class

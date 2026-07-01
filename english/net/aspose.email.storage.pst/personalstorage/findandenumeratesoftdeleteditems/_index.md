@@ -3,7 +3,7 @@ title: PersonalStorage.FindAndEnumerateSoftDeletedItems
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Finds and enumerates all softdeleted items
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.email.storage.pst/personalstorage/findandenumeratesoftdeleteditems/
 ---
 ## PersonalStorage.FindAndEnumerateSoftDeletedItems method

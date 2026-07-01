@@ -3,7 +3,7 @@ title: Class ImapMonitoringEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapMonitoringEventArgs class. Class contains monitoring event data
 type: docs
-weight: 15120
+weight: 15220
 url: /net/aspose.email.clients.imap/imapmonitoringeventargs/
 ---
 ## ImapMonitoringEventArgs class

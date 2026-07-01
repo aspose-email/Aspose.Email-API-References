@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarMonthlyNthRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarMonthlyNthRecurrencePattern class. Represents the monthly nth recurrence pattern of the mapi calendar
+description: Aspose.Email.Mapi.MapiCalendarMonthlyNthRecurrencePattern class. Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week e.g. the 2nd Monday of each month. This class inherits from MapiCalendarYearlyAndMonthlyRecurrencePattern and provides the base functionality for monthly recurrence patterns in MAPI calendar items
 type: docs
-weight: 16700
+weight: 16800
 url: /net/aspose.email.mapi/mapicalendarmonthlynthrecurrencepattern/
 ---
 ## MapiCalendarMonthlyNthRecurrencePattern class
 
-Represents the monthly nth recurrence pattern of the mapi calendar
+Represents a monthly recurrence pattern that occurs on the Nth occurrence of specific days of the week (e.g., "the 2nd Monday of each month"). This class inherits from [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../mapicalendaryearlyandmonthlyrecurrencepattern/) and provides the base functionality for monthly recurrence patterns in MAPI calendar items.
 
 ```csharp
 public sealed class MapiCalendarMonthlyNthRecurrencePattern : 
@@ -41,6 +41,10 @@ public sealed class MapiCalendarMonthlyNthRecurrencePattern :
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+
+## Remarks
+
+Use this pattern for calendar events that recur on specific weekly occurrences within a month, such as "the first Friday" or "the last Tuesday". The recurrence behavior is defined by properties inherited from the base class, including !:MapiCalendarRecurrencePattern.DayOfWeek and !:MapiCalendarRecurrencePattern.DayOfWeekIndex. This pattern is used in [`MapiCalendar`](../mapicalendar/) to configure recurring monthly meeting schedules.
 
 ### See Also
 

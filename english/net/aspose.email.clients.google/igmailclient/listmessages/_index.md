@@ -3,7 +3,7 @@ title: IGmailClient.ListMessages
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Lists the messages in the users mailbox
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.email.clients.google/igmailclient/listmessages/
 ---
 ## IGmailClient.ListMessages method

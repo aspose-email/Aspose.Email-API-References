@@ -3,7 +3,7 @@ title: Appointment.UniqueId
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.email.calendar/appointment/uniqueid/
 ---
 ## Appointment.UniqueId property

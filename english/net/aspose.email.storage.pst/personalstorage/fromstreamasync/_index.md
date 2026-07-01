@@ -3,7 +3,7 @@ title: PersonalStorage.FromStreamAsync
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Load PST from file
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.email.storage.pst/personalstorage/fromstreamasync/
 ---
 ## FromStreamAsync(Stream, CancellationToken) {#fromstreamasync_2}

@@ -1,14 +1,14 @@
 ---
 title: Class AttachmentBase
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.AttachmentBase class. Base class for mail attachment
+description: Aspose.Email.AttachmentBase class. Provides the base class for mail attachments and inline views. This abstract class supplies core functionality for managing attachment content MIME parts content identifiers and resource disposal
 type: docs
 weight: 340
 url: /net/aspose.email/attachmentbase/
 ---
 ## AttachmentBase class
 
-Base class for mail attachment.
+Provides the base class for mail attachments and inline views. This abstract class supplies core functionality for managing attachment content, MIME parts, content identifiers, and resource disposal.
 
 ```csharp
 public abstract class AttachmentBase : IDisposable
@@ -23,6 +23,7 @@ public abstract class AttachmentBase : IDisposable
 | [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the type of the content. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 
 ## Methods
 

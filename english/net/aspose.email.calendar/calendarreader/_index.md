@@ -1,14 +1,14 @@
 ---
 title: Class CalendarReader
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Calendar.CalendarReader class. Allows read the calendar with multi events to the Appointment object from a file or stream
+description: Aspose.Email.Calendar.CalendarReader class. Provides functionality to read and extract events from an ICS iCalendar file
 type: docs
 weight: 570
 url: /net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class
 
-Allows read the calendar with multi events to the Appointment object from a file or stream.
+Provides functionality to read and extract events from an ICS (iCalendar) file.
 
 ```csharp
 public class CalendarReader
@@ -39,6 +39,51 @@ public class CalendarReader
 | --- | --- |
 | [LoadAsMultiple](../../aspose.email.calendar/calendarreader/loadasmultiple/)() | Loads a list of events from a calendar with multiple events. |
 | [NextEvent](../../aspose.email.calendar/calendarreader/nextevent/)() | Reads next Event from source and save it to the Current. |
+
+## Remarks
+
+The `CalendarReader` class allows sequential reading of events from an iCalendar (.ics) file. It is designed to parse and access event details such as appointments, meetings, and other calendar items.
+
+## Examples
+
+This example demonstrates how to read multiple events from an ICS file and store them in a list of [`Appointment`](../appointment/) objects.
+
+[C#]
+
+```csharp
+// Create a list to hold the appointments
+var appointments = new List<Appointment>();
+
+// Initialize CalendarReader with the ICS file path
+var reader = new CalendarReader("US-Holidays.ics");
+
+// Iterate through the events in the ICS file
+while (reader.NextEvent())
+{
+    // Add the current event to the appointments list
+    appointments.Add(reader.Current);
+}
+
+// Working with the appointments...
+```
+
+[Visual Basic]
+
+```csharp
+' Create a list to hold the appointments
+Dim appointments As New List(Of Appointment)
+
+' Initialize CalendarReader with the ICS file path
+Dim reader As New CalendarReader("US-Holidays.ics")
+
+' Iterate through the events in the ICS file
+While reader.NextEvent()
+    ' Add the current event to the appointments list
+    appointments.Add(reader.Current)
+End While
+
+' Working with the appointments...
+```
 
 ### See Also
 

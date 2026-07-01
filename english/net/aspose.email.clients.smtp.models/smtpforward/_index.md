@@ -3,7 +3,7 @@ title: Class SmtpForward
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Smtp.Models.SmtpForward class. The ForwardAsync arguments
 type: docs
-weight: 15700
+weight: 15800
 url: /net/aspose.email.clients.smtp.models/smtpforward/
 ---
 ## SmtpForward class

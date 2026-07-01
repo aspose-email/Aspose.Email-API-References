@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarRecurrencePattern class. Represents the mapi recurrence pattern
+description: Aspose.Email.Mapi.MapiCalendarRecurrencePattern class. Serves as the abstract base class for all MAPI calendar recurrence patterns. This class provides common properties and functionality for defining how calendar events repeat over time including frequency date ranges occurrence counts and exception handling
 type: docs
-weight: 16770
+weight: 16870
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/
 ---
 ## MapiCalendarRecurrencePattern class
 
-Represents the mapi recurrence pattern
+Serves as the abstract base class for all MAPI calendar recurrence patterns. This class provides common properties and functionality for defining how calendar events repeat over time, including frequency, date ranges, occurrence counts, and exception handling.
 
 ```csharp
 public abstract class MapiCalendarRecurrencePattern
@@ -31,6 +31,10 @@ public abstract class MapiCalendarRecurrencePattern
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+
+## Remarks
+
+This abstract class is designed to be inherited by concrete recurrence pattern implementations such as [`MapiCalendarDailyRecurrencePattern`](../mapicalendardailyrecurrencepattern/), [`MapiCalendarWeeklyRecurrencePattern`](../mapicalendarweeklyrecurrencepattern/), [`MapiCalendarMonthlyNthRecurrencePattern`](../mapicalendarmonthlynthrecurrencepattern/), and !:MapiCalendarYearlyRecurrencePattern. Do not instantiate this class directly. Use the concrete pattern classes to define specific recurrence behaviors for [`MapiCalendar`](../mapicalendar/) items.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Enum ImapKnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Imap.ImapKnownAuthenticationType enum. 
 type: docs
-weight: 15040
+weight: 15140
 url: /net/aspose.email.clients.imap/imapknownauthenticationtype/
 ---
 ## ImapKnownAuthenticationType enumeration

@@ -3,7 +3,7 @@ title: PersonalStorage.SplitIntoAsync
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Splits the pst storage into less sized parts
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.email.storage.pst/personalstorage/splitintoasync/
 ---
 ## SplitIntoAsync(long, string, CancellationToken) {#splitintoasync_1}

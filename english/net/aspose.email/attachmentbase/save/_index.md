@@ -3,7 +3,7 @@ title: AttachmentBase.Save
 second_title: Aspose.Email for .NET API Reference
 description: AttachmentBase method. Saves the specified stream
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email/attachmentbase/save/
 ---
 ## Save(Stream) {#save}

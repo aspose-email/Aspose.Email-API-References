@@ -3,7 +3,7 @@ title: IGraphClient.GetTaskList
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Gets TaskList by an id
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email.clients.graph/igraphclient/gettasklist/
 ---
 ## IGraphClient.GetTaskList method

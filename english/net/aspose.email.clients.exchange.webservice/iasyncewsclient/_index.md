@@ -3,7 +3,7 @@ title: Interface IAsyncEwsClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.IAsyncEwsClient interface. Represents the async interface for Exchange client
 type: docs
-weight: 2510
+weight: 2550
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/
 ---
 ## IAsyncEwsClient interface

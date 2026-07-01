@@ -3,7 +3,7 @@ title: Class AclScope
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.AclScope class. The scope of the access rule
 type: docs
-weight: 14160
+weight: 14200
 url: /net/aspose.email.clients.google/aclscope/
 ---
 ## AclScope class

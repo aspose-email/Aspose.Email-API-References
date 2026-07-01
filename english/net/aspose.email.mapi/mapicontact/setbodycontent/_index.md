@@ -3,7 +3,7 @@ title: MapiContact.SetBodyContent
 second_title: Aspose.Email for .NET API Reference
 description: MapiContact method. Sets the content of the body
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.mapi/mapicontact/setbodycontent/
 ---
 ## MapiContact.SetBodyContent method

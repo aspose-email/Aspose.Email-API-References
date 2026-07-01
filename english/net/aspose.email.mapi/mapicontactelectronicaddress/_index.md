@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactElectronicAddress
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactElectronicAddress class. Refers to the group of properties that define the email address or fax address for a contact
+description: Aspose.Email.Mapi.MapiContactElectronicAddress class. Represents a group of properties that define an electronic address email or fax for a contact. This class provides functionality for managing contact email addresses and fax numbers through properties such as display name address type email address and fax number
 type: docs
-weight: 16920
+weight: 17020
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress class
 
-Refers to the group of properties that define the e-mail address or fax address for a contact.
+Represents a group of properties that define an electronic address (email or fax) for a contact. This class provides functionality for managing contact email addresses and fax numbers through properties such as display name, address type, email address, and fax number.
 
 ```csharp
 public sealed class MapiContactElectronicAddress : MapiContactAddress
@@ -42,6 +42,10 @@ public sealed class MapiContactElectronicAddress : MapiContactAddress
 | override [GetHashCode](../../aspose.email.mapi/mapicontactelectronicaddress/gethashcode/)() |  |
 | override [ToString](../../aspose.email.mapi/mapicontactelectronicaddress/tostring/)() | Returns a string that represents the current object. |
 | [implicit operator](../../aspose.email.mapi/mapicontactelectronicaddress/op_implicit/) | Performs an implicit conversion from String to `MapiContactElectronicAddress`. |
+
+## Remarks
+
+Use this class to manage electronic addresses in [`MapiContact`](../mapicontact/) items. The class supports both email addresses and fax numbers, with properties like [`DisplayName`](./displayname/), [`AddressType`](./addresstype/), [`EmailAddress`](./emailaddress/), and [`FaxNumber`](./faxnumber/). It also supports implicit conversion from string for convenient email address assignment.
 
 ### See Also
 

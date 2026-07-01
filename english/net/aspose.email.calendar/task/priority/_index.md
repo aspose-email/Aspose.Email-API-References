@@ -3,7 +3,7 @@ title: Task.Priority
 second_title: Aspose.Email for .NET API Reference
 description: Task property. Gets or sets a task priority
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.email.calendar/task/priority/
 ---
 ## Task.Priority property

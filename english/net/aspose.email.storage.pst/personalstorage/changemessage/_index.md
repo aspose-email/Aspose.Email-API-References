@@ -3,7 +3,7 @@ title: PersonalStorage.ChangeMessage
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Changes the message properties
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.storage.pst/personalstorage/changemessage/
 ---
 ## PersonalStorage.ChangeMessage method

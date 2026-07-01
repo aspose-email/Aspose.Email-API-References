@@ -3,7 +3,7 @@ title: Appointment.StartDate
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Gets or sets the start date
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.email.calendar/appointment/startdate/
 ---
 ## Appointment.StartDate property

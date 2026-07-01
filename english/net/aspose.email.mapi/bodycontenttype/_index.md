@@ -1,14 +1,14 @@
 ---
 title: Enum BodyContentType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.BodyContentType enum. The content type of message body
+description: Aspose.Email.Mapi.BodyContentType enum. Specifies the content type format of a message body in MAPI messages
 type: docs
-weight: 16450
+weight: 16550
 url: /net/aspose.email.mapi/bodycontenttype/
 ---
 ## BodyContentType enumeration
 
-The content type of message body.
+Specifies the content type format of a message body in MAPI messages.
 
 ```csharp
 public enum BodyContentType
@@ -21,6 +21,10 @@ public enum BodyContentType
 | PlainText | `0` | The plain text. |
 | Html | `1` | The html type. |
 | Rtf | `2` | The rtf type. |
+
+## Remarks
+
+This enumeration is used to indicate the formatting of message body content in [`MapiMessage`](../mapimessage/) and related MAPI classes. The body content can be plain text, HTML, or RTF (Rich Text Format).
 
 ### See Also
 

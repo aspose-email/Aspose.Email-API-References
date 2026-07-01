@@ -3,7 +3,7 @@ title: Enum RulePredicateFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.RulePredicateFlags enum. Represents the RulePredicate flags
 type: docs
-weight: 2100
+weight: 2140
 url: /net/aspose.email.clients.exchange/rulepredicateflags/
 ---
 ## RulePredicateFlags enumeration

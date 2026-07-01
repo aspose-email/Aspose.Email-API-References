@@ -3,7 +3,7 @@ title: Class ExchangeConversation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeConversation class. Represents a single conversation
 type: docs
-weight: 2300
+weight: 2340
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/
 ---
 ## ExchangeConversation class

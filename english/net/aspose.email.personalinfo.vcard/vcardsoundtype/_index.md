@@ -3,7 +3,7 @@ title: Enum VCardSoundType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardSoundType enum. Enumerates a cVard sound types
 type: docs
-weight: 18540
+weight: 18650
 url: /net/aspose.email.personalinfo.vcard/vcardsoundtype/
 ---
 ## VCardSoundType enumeration

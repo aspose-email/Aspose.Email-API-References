@@ -3,7 +3,7 @@ title: Enum EventTypes
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.EventTypes enum. Specifies event type
 type: docs
-weight: 2260
+weight: 2300
 url: /net/aspose.email.clients.exchange.webservice/eventtypes/
 ---
 ## EventTypes enumeration

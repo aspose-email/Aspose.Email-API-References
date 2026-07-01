@@ -3,7 +3,7 @@ title: Appointment.Summary
 second_title: Aspose.Email for .NET API Reference
 description: Appointment property. Gets or sets the summary
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.email.calendar/appointment/summary/
 ---
 ## Appointment.Summary property

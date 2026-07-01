@@ -3,7 +3,7 @@ title: Enum DeliveryNotificationOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.DeliveryNotificationOptions enum. Specifies delivery notifications
 type: docs
-weight: 15900
+weight: 16000
 url: /net/aspose.email/deliverynotificationoptions/
 ---
 ## DeliveryNotificationOptions enumeration

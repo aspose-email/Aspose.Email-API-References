@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarMonthlyRecurrencePattern class. Represents the monthly recurrence pattern of the mapi calendar
+description: Aspose.Email.Mapi.MapiCalendarMonthlyRecurrencePattern class. Represents a monthly recurrence pattern for MAPI calendar items allowing events to repeat on a specific day of each month. This class inherits from MapiCalendarYearlyAndMonthlyRecurrencePattern and provides the base functionality for monthly recurrence patterns in MAPI calendar items
 type: docs
-weight: 16710
+weight: 16810
 url: /net/aspose.email.mapi/mapicalendarmonthlyrecurrencepattern/
 ---
 ## MapiCalendarMonthlyRecurrencePattern class
 
-Represents the monthly recurrence pattern of the mapi calendar
+Represents a monthly recurrence pattern for MAPI calendar items, allowing events to repeat on a specific day of each month. This class inherits from [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../mapicalendaryearlyandmonthlyrecurrencepattern/) and provides the base functionality for monthly recurrence patterns in MAPI calendar items.
 
 ```csharp
 public class MapiCalendarMonthlyRecurrencePattern : MapiCalendarYearlyAndMonthlyRecurrencePattern
@@ -40,6 +40,10 @@ public class MapiCalendarMonthlyRecurrencePattern : MapiCalendarYearlyAndMonthly
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+
+## Remarks
+
+Use this pattern for calendar events that recur on a specific day number each month (e.g., "the 15th of every month"). The recurrence behavior is controlled by properties inherited from the base class, particularly [`Period`](../mapicalendarrecurrencepattern/period/), which specifies the interval in months between occurrences. This pattern is used in [`MapiCalendar`](../mapicalendar/) to configure recurring monthly meeting schedules.
 
 ### See Also
 

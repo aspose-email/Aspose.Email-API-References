@@ -3,7 +3,7 @@ title: Class Calendar
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Calendar class. A set of metadata such as a description for a single calendar
 type: docs
-weight: 14210
+weight: 14250
 url: /net/aspose.email.clients.google/calendar/
 ---
 ## Calendar class
@@ -30,6 +30,7 @@ public class Calendar : BaseDataObject
 | Name | Description |
 | --- | --- |
 | virtual [ConferenceProperties](../../aspose.email.clients.google/calendar/conferenceproperties/) { get; } | Gets conferencing properties for this calendar. |
+| virtual [DataOwner](../../aspose.email.clients.google/calendar/dataowner/) { get; set; } | The email of the owner of the calendar. |
 | virtual [Description](../../aspose.email.clients.google/calendar/description/) { get; set; } | Description of the calendar. |
 | virtual [ETag](../../aspose.email.clients.google/basedataobject/etag/) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |
 | virtual [Id](../../aspose.email.clients.google/basedataobject/id/) { get; set; } | Identifier of the resource. |

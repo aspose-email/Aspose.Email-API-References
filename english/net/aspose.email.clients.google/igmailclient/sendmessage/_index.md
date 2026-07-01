@@ -3,7 +3,7 @@ title: IGmailClient.SendMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Sends the specified message to the recipients in the To Cc and Bcc headers
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.email.clients.google/igmailclient/sendmessage/
 ---
 ## IGmailClient.SendMessage method

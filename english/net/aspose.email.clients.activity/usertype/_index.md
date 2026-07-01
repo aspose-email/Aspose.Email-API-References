@@ -3,7 +3,7 @@ title: Enum UserType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.UserType enum. User types
 type: docs
-weight: 1360
+weight: 1400
 url: /net/aspose.email.clients.activity/usertype/
 ---
 ## UserType enumeration

@@ -3,7 +3,7 @@ title: Class FolderOutputHandler
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.LowCode.FolderOutputHandler class. An implementation of IOutputHandler that writes output streams to files in a specified folder
 type: docs
-weight: 16340
+weight: 16440
 url: /net/aspose.email.lowcode/folderoutputhandler/
 ---
 ## FolderOutputHandler class

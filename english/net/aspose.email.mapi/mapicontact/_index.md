@@ -3,7 +3,7 @@ title: Class MapiContact
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContact class. Represents a MAPI contact item
 type: docs
-weight: 16890
+weight: 16990
 url: /net/aspose.email.mapi/mapicontact/
 ---
 ## MapiContact class
@@ -48,6 +48,7 @@ public sealed class MapiContact : MapiMessageItemBase
 | [PersonalInfo](../../aspose.email.mapi/mapicontact/personalinfo/) { get; set; } | Specify other additional contact information |
 | [Photo](../../aspose.email.mapi/mapicontact/photo/) { get; set; } | Contains contact photo[`MapiContactPhoto`](../mapicontactphoto/). |
 | [PhysicalAddresses](../../aspose.email.mapi/mapicontact/physicaladdresses/) { get; set; } | Specify three physical addresses: Home Address, Work Address, and Other Address. One of the addresses can be marked as the Mailing Address |
+| [ProductId](../../aspose.email.mapi/mapicontact/productid/) { get; set; } | Gets or sets the id of product that created this contact. |
 | [ProfessionalInfo](../../aspose.email.mapi/mapicontact/professionalinfo/) { get; set; } | Properties are used to store professional details for the person represented by the contact |
 | virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties/) { get; } | Gets the collection of properties. |
 | [PropertyStream](../../aspose.email.mapi/mapimessageitembase/propertystream/) { get; } | Gets the property stream. |

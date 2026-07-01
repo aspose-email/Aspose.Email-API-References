@@ -3,7 +3,7 @@ title: Calendar.Location
 second_title: Aspose.Email for .NET API Reference
 description: Calendar property. Geographic location of the calendar as freeform text
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.clients.google/calendar/location/
 ---
 ## Calendar.Location property

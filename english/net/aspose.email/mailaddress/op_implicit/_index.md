@@ -3,7 +3,7 @@ title: MailAddress.op_Implicit
 second_title: Aspose.Email for .NET API Reference
 description: MailAddress method. Performs an implicit conversion from String to MailAddress
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email/mailaddress/op_implicit/
 ---
 ## implicit operator {#op_implicit_1}

@@ -3,7 +3,7 @@ title: Class Metered
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Metered class. Provides methods to set metered key
 type: docs
-weight: 17840
+weight: 17940
 url: /net/aspose.email/metered/
 ---
 ## Metered class
@@ -30,6 +30,7 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
+| [GetBillingStatus](../../aspose.email/metered/getbillingstatus/)() | Check the status of the Billing API. |
 | [GetProductName](../../aspose.email/metered/getproductname/)() |  |
 | [SetMeteredKey](../../aspose.email/metered/setmeteredkey/)(string, string) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](../../aspose.email/metered/getconsumptioncredit/)() | Gets consumption credit |

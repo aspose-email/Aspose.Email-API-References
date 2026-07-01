@@ -3,7 +3,7 @@ title: IGraphClient.UpdateCalendarItem
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Updates MapiCalendar
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.email.clients.graph/igraphclient/updatecalendaritem/
 ---
 ## UpdateCalendarItem(MapiCalendar) {#updatecalendaritem}

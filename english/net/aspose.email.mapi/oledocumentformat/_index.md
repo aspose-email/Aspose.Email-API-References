@@ -3,7 +3,7 @@ title: Class OleDocumentFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.OleDocumentFormat class. Represents the format for OLE document
 type: docs
-weight: 17700
+weight: 17800
 url: /net/aspose.email.mapi/oledocumentformat/
 ---
 ## OleDocumentFormat class

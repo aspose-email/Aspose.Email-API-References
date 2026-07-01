@@ -3,7 +3,7 @@ title: MapiCalendarSaveOptions.DefaultMsg
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendarSaveOptions property. Gets the default Msg save options
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.mapi/mapicalendarsaveoptions/defaultmsg/
 ---
 ## MapiCalendarSaveOptions.DefaultMsg property

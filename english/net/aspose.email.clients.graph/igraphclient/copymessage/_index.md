@@ -3,7 +3,7 @@ title: IGraphClient.CopyMessage
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Copy a Message to another mailfolder
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.clients.graph/igraphclient/copymessage/
 ---
 ## IGraphClient.CopyMessage method

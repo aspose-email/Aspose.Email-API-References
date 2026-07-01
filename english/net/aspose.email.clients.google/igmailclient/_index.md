@@ -3,7 +3,7 @@ title: Interface IGmailClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.IGmailClient interface. Represents the interface for Gmail client
 type: docs
-weight: 14390
+weight: 14430
 url: /net/aspose.email.clients.google/igmailclient/
 ---
 ## IGmailClient interface
@@ -34,6 +34,7 @@ public interface IGmailClient : IBaseGmailClient
 | [DeleteCalendar](../../aspose.email.clients.google/igmailclient/deletecalendar/)(string) | Deletes a calendar. |
 | [DeleteContact](../../aspose.email.clients.google/igmailclient/deletecontact/)(string) | Deletes specified contact |
 | [DeleteContactPhoto](../../aspose.email.clients.google/igmailclient/deletecontactphoto/)(ContactPhoto) | Deletes contact photo |
+| [DeleteExtCalendar](../../aspose.email.clients.google/igmailclient/deleteextcalendar/)(string) | Deletes a extended calendar. |
 | [DeleteFilter](../../aspose.email.clients.google/igmailclient/deletefilter/)(string) | Immediately and permanently deletes the specified filter. |
 | [DeleteMessage](../../aspose.email.clients.google/igmailclient/deletemessage/#deletemessage)(string) | Immediately and permanently deletes the specified message. This operation cannot be undone. Prefer overriding method DeleteMessage with parameter moveToTrash instead. |
 | [DeleteMessage](../../aspose.email.clients.google/igmailclient/deletemessage/#deletemessage_1)(string, bool) | Moves the specified message to the trash if moveToTrash true, or permanently deletes if false. |

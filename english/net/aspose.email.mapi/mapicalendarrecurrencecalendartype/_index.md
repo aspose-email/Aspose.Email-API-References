@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarRecurrenceCalendarType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarRecurrenceCalendarType enum. Enumerated the calendar type of the mapi recurrence
+description: Aspose.Email.Mapi.MapiCalendarRecurrenceCalendarType enum. Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian Hijri Hebrew lunar and various regional calendars used around the world
 type: docs
-weight: 16740
+weight: 16840
 url: /net/aspose.email.mapi/mapicalendarrecurrencecalendartype/
 ---
 ## MapiCalendarRecurrenceCalendarType enumeration
 
-Enumerated the calendar type of the mapi recurrence
+Specifies the calendar type used for MAPI calendar recurrence patterns. This enumeration supports multiple calendar systems including Gregorian, Hijri, Hebrew, lunar, and various regional calendars used around the world.
 
 ```csharp
 public enum MapiCalendarRecurrenceCalendarType
@@ -39,6 +39,10 @@ public enum MapiCalendarRecurrenceCalendarType
 | CAL_LUNAR_ROKUYOU | `19` | Lunar Rokuyou calendar |
 | CAL_LUNAR_KOREAN | `20` | Korean lunar calendar |
 | CAL_UMALQURA | `23` | Um Al Qura calendar |
+
+## Remarks
+
+This enumeration defines the calendar system that should be used when calculating recurring calendar events. The Default value uses the Gregorian calendar, but can be overridden to use other calendar systems such as Hijri (Islamic), Hebrew, Chinese lunar, Japanese Emperor Era, or various other regional calendars. The calendar type is used in conjunction with [`MapiCalendarRecurrencePatternType`](../mapicalendarrecurrencepatterntype/) to determine the recurrence behavior for [`MapiCalendar`](../mapicalendar/) items.
 
 ### See Also
 

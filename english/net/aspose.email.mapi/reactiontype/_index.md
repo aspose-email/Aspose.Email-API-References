@@ -3,7 +3,7 @@ title: Enum ReactionType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.ReactionType enum. Specifies the type of reaction a user can have on a message
 type: docs
-weight: 17770
+weight: 17870
 url: /net/aspose.email.mapi/reactiontype/
 ---
 ## ReactionType enumeration

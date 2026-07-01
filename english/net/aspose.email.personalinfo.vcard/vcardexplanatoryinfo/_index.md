@@ -3,7 +3,7 @@ title: Class VCardExplanatoryInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardExplanatoryInfo class. Represents vCard explanatory properties
 type: docs
-weight: 18410
+weight: 18510
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/
 ---
 ## VCardExplanatoryInfo class

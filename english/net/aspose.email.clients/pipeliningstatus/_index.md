@@ -3,7 +3,7 @@ title: Class PipeliningStatus
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.PipeliningStatus class. Defines pipelining status for mail client
 type: docs
-weight: 15540
+weight: 15640
 url: /net/aspose.email.clients/pipeliningstatus/
 ---
 ## PipeliningStatus class

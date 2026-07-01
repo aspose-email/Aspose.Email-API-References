@@ -41,6 +41,7 @@ The **Aspose.Email.Clients.Google** namespace provides classes for access to Goo
 | --- | --- |
 | [IBaseGmailClient](./ibasegmailclient/) | Interface for base class of Gmail client |
 | [IGmailClient](./igmailclient/) | Represents the interface for Gmail client |
+| [IGmailClientAsync](./igmailclientasync/) | Represents the interface with asynchronous operations for Gmail client. |
 ## Enumeration
 
 | Enumeration | Description |

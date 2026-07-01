@@ -1,14 +1,14 @@
 ---
 title: Class PidNamePropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.PidNamePropertyDescriptor class. Class contains property description information
+description: Aspose.Email.Mapi.PidNamePropertyDescriptor class. Contains descriptive information about a MAPI named property identified by a string name. This class provides properties and functionality for working with properties identified by a string name combined with a property set GUID typically used for custom or nonstandard MAPI properties with stringbased identifiers
 type: docs
-weight: 17730
+weight: 17830
 url: /net/aspose.email.mapi/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor class
 
-Class contains property description information.
+Contains descriptive information about a MAPI named property identified by a string name. This class provides properties and functionality for working with properties identified by a string name combined with a property set GUID, typically used for custom or non-standard MAPI properties with string-based identifiers.
 
 ```csharp
 public class PidNamePropertyDescriptor : PropertyDescriptor
@@ -41,6 +41,10 @@ public class PidNamePropertyDescriptor : PropertyDescriptor
 | override [ToString](../../aspose.email.mapi/pidnamepropertydescriptor/tostring/)() | Returns a string that represents the property description. |
 | [operator ==](../../aspose.email.mapi/pidnamepropertydescriptor/op_equality/) | Determines whether the specified objects are equal to each another. |
 | [operator !=](../../aspose.email.mapi/pidnamepropertydescriptor/op_inequality/) | Determines whether the specified objects are not equal to each another. |
+
+## Remarks
+
+This class extends [`PropertyDescriptor`](../propertydescriptor/) and is specifically designed for named properties in MAPI that use string names instead of numeric IDs. Properties are identified by a combination of a string name and a GUID property set (e.g., "Keywords" in PSETID.Address). Use [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor/) for standard tagged properties and [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor/) for named properties with numeric long IDs. The class provides access to the property name, property set GUID, and data type.
 
 ### See Also
 

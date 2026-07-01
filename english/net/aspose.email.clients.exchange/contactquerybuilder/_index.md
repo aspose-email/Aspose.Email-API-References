@@ -3,7 +3,7 @@ title: Class ContactQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ContactQueryBuilder class. Represents the builder of search expression that used by Exchange protocol
 type: docs
-weight: 1690
+weight: 1730
 url: /net/aspose.email.clients.exchange/contactquerybuilder/
 ---
 ## ContactQueryBuilder class

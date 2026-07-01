@@ -3,7 +3,7 @@ title: IGmailClient.ImportAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Imports appointment to calendar
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.email.clients.google/igmailclient/importappointment/
 ---
 ## IGmailClient.ImportAppointment method

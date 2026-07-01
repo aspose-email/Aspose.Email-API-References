@@ -3,7 +3,7 @@ title: Enum MapiMessageFlags
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiMessageFlags enum. MapiMessageFlags
 type: docs
-weight: 17200
+weight: 17300
 url: /net/aspose.email.mapi/mapimessageflags/
 ---
 ## MapiMessageFlags enumeration

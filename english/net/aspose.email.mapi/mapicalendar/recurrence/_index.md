@@ -3,7 +3,7 @@ title: MapiCalendar.Recurrence
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar property. Gets or sets the recurrence properties
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.mapi/mapicalendar/recurrence/
 ---
 ## MapiCalendar.Recurrence property

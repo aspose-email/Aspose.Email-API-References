@@ -3,7 +3,7 @@ title: PersonalStorage.GetCategories
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Retrieves a list of PST item categories each containing a name and associated color
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.email.storage.pst/personalstorage/getcategories/
 ---
 ## PersonalStorage.GetCategories method

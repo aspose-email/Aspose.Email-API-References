@@ -3,7 +3,7 @@ title: IGmailClient.GetFilter
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Gets a filter
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.email.clients.google/igmailclient/getfilter/
 ---
 ## IGmailClient.GetFilter method

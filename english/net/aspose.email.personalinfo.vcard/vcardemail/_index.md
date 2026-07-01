@@ -3,7 +3,7 @@ title: Class VCardEmail
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.PersonalInfo.VCard.VCardEmail class. Represents vCard email
 type: docs
-weight: 18380
+weight: 18480
 url: /net/aspose.email.personalinfo.vcard/vcardemail/
 ---
 ## VCardEmail class
@@ -11,7 +11,7 @@ url: /net/aspose.email.personalinfo.vcard/vcardemail/
 Represents vCard email
 
 ```csharp
-public sealed class VCardEmail
+public sealed class VCardEmail : VCardHeaderInfo
 ```
 
 ## Constructors
@@ -26,9 +26,12 @@ public sealed class VCardEmail
 | --- | --- |
 | [EmailAddress](../../aspose.email.personalinfo.vcard/vcardemail/emailaddress/) { get; set; } | Gets or sets an email address |
 | [EmailType](../../aspose.email.personalinfo.vcard/vcardemail/emailtype/) { get; set; } | Gets or sets an email address type |
+| [Parameters](../../aspose.email.personalinfo.vcard/vcardheaderinfo/parameters/) { get; } | Gets or sets a property parameters |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardheaderinfo/valuelocation/) { get; set; } | Gets or sets a value location |
 
 ### See Also
 
+* class [VCardHeaderInfo](../vcardheaderinfo/)
 * namespace [Aspose.Email.PersonalInfo.VCard](../../aspose.email.personalinfo.vcard/)
 * assembly [Aspose.Email](../../)
 

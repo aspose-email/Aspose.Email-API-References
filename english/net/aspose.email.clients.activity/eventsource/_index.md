@@ -3,7 +3,7 @@ title: Enum EventSource
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.EventSource enum. Audit event sources
 type: docs
-weight: 1020
+weight: 1060
 url: /net/aspose.email.clients.activity/eventsource/
 ---
 ## EventSource enumeration

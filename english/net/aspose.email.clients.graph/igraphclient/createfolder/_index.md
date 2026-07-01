@@ -3,7 +3,7 @@ title: IGraphClient.CreateFolder
 second_title: Aspose.Email for .NET API Reference
 description: IGraphClient method. Create new folder
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.clients.graph/igraphclient/createfolder/
 ---
 ## CreateFolder(string) {#createfolder}

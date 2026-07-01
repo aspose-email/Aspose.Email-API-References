@@ -3,7 +3,7 @@ title: Enum AuthenticationMethod
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.AuthenticationMethod enum. Authentication methods
 type: docs
-weight: 940
+weight: 980
 url: /net/aspose.email.clients.activity/authenticationmethod/
 ---
 ## AuthenticationMethod enumeration

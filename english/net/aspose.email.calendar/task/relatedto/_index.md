@@ -3,7 +3,7 @@ title: Task.RelatedTo
 second_title: Aspose.Email for .NET API Reference
 description: Task property. Gets or sets a related UID
 type: docs
-weight: 100
+weight: 130
 url: /net/aspose.email.calendar/task/relatedto/
 ---
 ## Task.RelatedTo property

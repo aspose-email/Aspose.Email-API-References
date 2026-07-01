@@ -1,14 +1,14 @@
 ---
 title: Class MapiContactPhysicalAddress
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiContactPhysicalAddress class. Refers to the group of properties that define physical address for a contact
+description: Aspose.Email.Mapi.MapiContactPhysicalAddress class. Represents a group of properties that define a physical address for a contact. This class provides functionality for managing contact physical addresses through properties such as street city state postal code country and mail address flags
 type: docs
-weight: 17010
+weight: 17110
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/
 ---
 ## MapiContactPhysicalAddress class
 
-Refers to the group of properties that define physical address for a contact.
+Represents a group of properties that define a physical address for a contact. This class provides functionality for managing contact physical addresses through properties such as street, city, state, postal code, country, and mail address flags.
 
 ```csharp
 public sealed class MapiContactPhysicalAddress : MapiContactAddress
@@ -33,6 +33,10 @@ public sealed class MapiContactPhysicalAddress : MapiContactAddress
 | [PostOfficeBox](../../aspose.email.mapi/mapicontactphysicaladdress/postofficebox/) { get; set; } | Gets or sets the post office box |
 | [StateOrProvince](../../aspose.email.mapi/mapicontactphysicaladdress/stateorprovince/) { get; set; } | Specifies the state or province portion of the contact's address |
 | [Street](../../aspose.email.mapi/mapicontactphysicaladdress/street/) { get; set; } | Specifies the street portion of the contact's address |
+
+## Remarks
+
+Use this class to manage physical addresses in [`MapiContact`](../mapicontact/) items. The class supports multiple address types (home, work, other) and includes properties like [`Street`](./street/), [`City`](./city/), [`StateOrProvince`](./stateorprovince/), [`PostalCode`](./postalcode/), [`Country`](./country/), and [`IsMailingAddress`](./ismailingaddress/) to fully define a physical address.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Class Filter
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.Filter class. Resource definition for Gmail filters. Filters apply to specific messages instead of an entire email thread
 type: docs
-weight: 14290
+weight: 14330
 url: /net/aspose.email.clients.google/filter/
 ---
 ## Filter class

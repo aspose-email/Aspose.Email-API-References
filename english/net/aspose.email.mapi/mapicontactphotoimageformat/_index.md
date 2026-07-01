@@ -3,7 +3,7 @@ title: Enum MapiContactPhotoImageFormat
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Mapi.MapiContactPhotoImageFormat enum. Enumerates MapiContact photo image format
 type: docs
-weight: 17000
+weight: 17100
 url: /net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 ## MapiContactPhotoImageFormat enumeration
@@ -24,6 +24,7 @@ public enum MapiContactPhotoImageFormat
 | Wmf | `2` | MS windows metafile. |
 | Bmp | `3` | MS windows bitmap. |
 | Tiff | `4` | Tagged image file format. |
+| Png | `5` | Portable network graphics format. |
 
 ### See Also
 

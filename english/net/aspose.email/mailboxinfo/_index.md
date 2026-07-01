@@ -3,7 +3,7 @@ title: Class MailboxInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.MailboxInfo class. Represents identification information about message in a mailbox
 type: docs
-weight: 16440
+weight: 16540
 url: /net/aspose.email/mailboxinfo/
 ---
 ## MailboxInfo class

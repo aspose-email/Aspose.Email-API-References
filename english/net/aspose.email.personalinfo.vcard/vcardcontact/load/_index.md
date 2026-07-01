@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/load/
 ---
-## Load(string) {#load_3}
+## Load(string) {#load_2}
 
 Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -36,7 +36,7 @@ A read [`VCardContact`](../)
 
 ---
 
-## Load(string, VCardLoadOptions) {#load_4}
+## Load(string, VCardLoadOptions) {#load_3}
 
 Reads [`VCardContact`](../) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 

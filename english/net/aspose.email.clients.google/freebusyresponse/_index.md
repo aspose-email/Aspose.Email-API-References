@@ -3,7 +3,7 @@ title: Class FreebusyResponse
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.FreebusyResponse class. Freebusy response
 type: docs
-weight: 14330
+weight: 14370
 url: /net/aspose.email.clients.google/freebusyresponse/
 ---
 ## FreebusyResponse class

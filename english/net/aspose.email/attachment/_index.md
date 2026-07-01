@@ -1,14 +1,14 @@
 ---
 title: Class Attachment
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Attachment class. Represents an email attachment
+description: Aspose.Email.Attachment class. Represents an email attachment that can be added to a MailMessage. This class provides functionality for managing attachment content name content type encoding and content disposition. It supports various attachment types including regular files embedded messages message/rfc822 and TNEF formatted messages
 type: docs
 weight: 330
 url: /net/aspose.email/attachment/
 ---
 ## Attachment class
 
-Represents an e-mail attachment.
+Represents an email attachment that can be added to a [`MailMessage`](../mailmessage/). This class provides functionality for managing attachment content, name, content type, encoding, and content disposition. It supports various attachment types including regular files, embedded messages (message/rfc822), and TNEF formatted messages.
 
 ```csharp
 public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingProvider
@@ -41,7 +41,7 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | [NameEncoding](../../aspose.email/attachment/nameencoding/) { get; set; } | Gets or sets an encoding of attachment name |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding/) { get; set; } | Gets or sets a preferred text encoding |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
-| [UniqueId](../../aspose.email/attachment/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 
 ## Methods
 
@@ -53,6 +53,10 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
+
+## Remarks
+
+Use [`CreateAttachmentFromString`](./createattachmentfromstring/) to create attachments from string content. Add attachments to [`Attachments`](../mailmessage/attachments/) to include them in the message.
 
 ## Examples
 

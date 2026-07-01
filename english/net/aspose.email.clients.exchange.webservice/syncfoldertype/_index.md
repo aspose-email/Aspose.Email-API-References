@@ -3,7 +3,7 @@ title: Enum SyncFolderType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.SyncFolderType enum. Folder synchronization types
 type: docs
-weight: 14060
+weight: 14100
 url: /net/aspose.email.clients.exchange.webservice/syncfoldertype/
 ---
 ## SyncFolderType enumeration

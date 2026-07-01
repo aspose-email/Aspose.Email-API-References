@@ -21,6 +21,7 @@ The **Aspose.Email.PersonalInfo.VCard** namespace contains classes for work with
 | [VCardExplanatoryInfo](./vcardexplanatoryinfo/) | Represents vCard explanatory properties |
 | [VCardFullName](./vcardfullname/) | Represents vCard contact full name (N property) |
 | [VCardGeo](./vcardgeo/) | Represents a global positioning of vCard contact |
+| [VCardHeaderInfo](./vcardheaderinfo/) | Represents the base class for VCard properties |
 | [VCardIdentificationInfo](./vcardidentificationinfo/) | Represents vCard identification information |
 | [VCardLabel](./vcardlabel/) | To specify the formatted text corresponding to delivery address of the object the vCard represents. |
 | [VCardLabelCollection](./vcardlabelcollection/) | Represents a collection of VCardLabel |

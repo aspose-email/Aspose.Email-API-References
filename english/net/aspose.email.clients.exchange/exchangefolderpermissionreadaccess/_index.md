@@ -3,7 +3,7 @@ title: Enum ExchangeFolderPermissionReadAccess
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.ExchangeFolderPermissionReadAccess enum. Sspecifies whether a user has permission to read items in a folder
 type: docs
-weight: 1890
+weight: 1930
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionreadaccess/
 ---
 ## ExchangeFolderPermissionReadAccess enumeration

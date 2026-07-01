@@ -3,7 +3,7 @@ title: Class PersonalStorage
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.PersonalStorage class. Provides functionality to access and manipulate the PST Personal Storage Table files used by Microsoft Outlook
 type: docs
-weight: 19150
+weight: 19260
 url: /net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
@@ -43,6 +43,10 @@ public class PersonalStorage : IDisposable
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream/#fromstream)(Stream) | Load PST from stream. |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream/#fromstream_2)(Stream, bool) | Load PST from stream. |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream/#fromstream_1)(Stream, PersonalStorageLoadOptions) | Load PST from stream. |
+| [AddAttachmentToMessage](../../aspose.email.storage.pst/personalstorage/addattachmenttomessage/#addattachmenttomessage)(MessageInfo, string) | Adds an attachment to the specified message using the file located at the provided path. |
+| [AddAttachmentToMessage](../../aspose.email.storage.pst/personalstorage/addattachmenttomessage/#addattachmenttomessage_2)(string, string) | Adds an attachment to the message identified by the specified entry ID using the file located at the provided path. |
+| [AddAttachmentToMessage](../../aspose.email.storage.pst/personalstorage/addattachmenttomessage/#addattachmenttomessage_1)(MessageInfo, string, Stream) | Adds an attachment to the specified message using the provided stream as attachment content. |
+| [AddAttachmentToMessage](../../aspose.email.storage.pst/personalstorage/addattachmenttomessage/#addattachmenttomessage_3)(string, string, Stream) | Adds an attachment to the message identified by the specified entry ID using the provided stream. |
 | [ChangeMessage](../../aspose.email.storage.pst/personalstorage/changemessage/)(string, MapiPropertyCollection) | Changes the message properties. |
 | [ConvertTo](../../aspose.email.storage.pst/personalstorage/convertto/)(FileFormat) | Converts the current object to the specified format. |
 | [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder/#createpredefinedfolder)(string, StandardIpmFolder) | Creates the standard interpersonal message (IPM) folder. |

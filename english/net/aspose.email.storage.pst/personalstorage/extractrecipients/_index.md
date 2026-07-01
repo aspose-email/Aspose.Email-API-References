@@ -3,7 +3,7 @@ title: PersonalStorage.ExtractRecipients
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Extracts the recipients
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.email.storage.pst/personalstorage/extractrecipients/
 ---
 ## ExtractRecipients(MessageInfo) {#extractrecipients}

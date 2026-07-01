@@ -3,7 +3,7 @@ title: Task.Method
 second_title: Aspose.Email for .NET API Reference
 description: Task property. Gets or sets iTIP methods associated with an task
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.email.calendar/task/method/
 ---
 ## Task.Method property

@@ -1,14 +1,14 @@
 ---
 title: Enum MapiCalendarRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarRecurrencePatternType enum. Enumerates the mapi calendar recurrence pattern types
+description: Aspose.Email.Mapi.MapiCalendarRecurrencePatternType enum. Specifies the type of recurrence pattern for MAPI calendar items
 type: docs
-weight: 16790
+weight: 16890
 url: /net/aspose.email.mapi/mapicalendarrecurrencepatterntype/
 ---
 ## MapiCalendarRecurrencePatternType enumeration
 
-Enumerates the mapi calendar recurrence pattern types
+Specifies the type of recurrence pattern for MAPI calendar items.
 
 ```csharp
 public enum MapiCalendarRecurrencePatternType
@@ -26,6 +26,10 @@ public enum MapiCalendarRecurrencePatternType
 | HjMonth | `10` | The event has a monthly recurrence in the Hijri calendar |
 | HjMonthNth | `11` | The event has an every nth month pattern in the Hijri calendar. |
 | HjMonthEnd | `12` | The event has a month end recurrence in the Hijri calendar. |
+
+## Remarks
+
+This enumeration defines the various recurrence pattern types supported by MAPI calendar items, including daily, weekly, monthly, and yearly patterns. Some patterns support both Gregorian and Hijri calendar systems (e.g., HjMonth for Hijri monthly recurrence). The pattern type determines which properties are meaningful in the corresponding [`MapiCalendarRecurrencePattern`](../mapicalendarrecurrencepattern/) implementation.
 
 ### See Also
 

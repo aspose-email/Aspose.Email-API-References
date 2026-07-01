@@ -1,14 +1,14 @@
 ---
 title: Class MapiCalendarYearlyAndMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiCalendarYearlyAndMonthlyRecurrencePattern class. Represents the yearly and monthly recurrence pattern of the mapi calendar
+description: Aspose.Email.Mapi.MapiCalendarYearlyAndMonthlyRecurrencePattern class. Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items. This abstract class provides common properties and functionality for patterns that can recur either monthly on a specific day or yearly on a specific day of a specific month
 type: docs
-weight: 16880
+weight: 16980
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/
 ---
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern class
 
-Represents the yearly and monthly recurrence pattern of the mapi calendar
+Represents the base class for yearly and monthly recurrence patterns in MAPI calendar items. This abstract class provides common properties and functionality for patterns that can recur either monthly (on a specific day) or yearly (on a specific day of a specific month).
 
 ```csharp
 public class MapiCalendarYearlyAndMonthlyRecurrencePattern : MapiCalendarRecurrencePattern
@@ -40,6 +40,78 @@ public class MapiCalendarYearlyAndMonthlyRecurrencePattern : MapiCalendarRecurre
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag/) { get; set; } | Defines whether pattern is sliding or not. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate/) { get; set; } | Gets or sets the start date of an item recurrence pattern. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/) { get; set; } | Gets or sets the first day of the calendar week. |
+
+## Remarks
+
+This class is designed to be inherited by concrete pattern implementations such as [`MapiCalendarMonthlyRecurrencePattern`](../mapicalendarmonthlyrecurrencepattern/) and !:MapiCalendarYearlyRecurrencePattern. Do not instantiate this class directly. Use the concrete pattern classes to define specific recurrence behaviors. The [`Period`](./period/) property determines whether the pattern is monthly or yearly based on whether it's divisible by 12. The [`Day`](./day/) property specifies the day of the month, and [`DayOfWeek`](./dayofweek/) with [`Position`](./position/) define weekly occurrences within a month.
+
+## Examples
+
+The following example shows how to create a yearly recurrence pattern for a MAPI calendar item.
+
+[C#]
+
+```csharp
+// Create a MapiCalendar
+var calendar = new MapiCalendar(
+    "Team Meeting",
+    DateTime.Now,
+    DateTime.Now.AddHours(2),
+    " organizer@company.com",
+    "attendee@company.com");
+
+// Create a yearly recurrence pattern (repeats every year on January 15th)
+var yearlyPattern = new MapiCalendarYearlyAndMonthlyRecurrencePattern()
+{
+    Period = 12,  // 12 months = 1 year
+    Day = 15,     // 15th day of the month
+    StartDate = DateTime.Now,
+    EndDate = DateTime.Now.AddYears(5),
+    Frequency = MapiCalendarRecurrenceFrequency.Yearly,
+    PatternType = MapiCalendarRecurrencePatternType.Month,
+    CalendarType = MapiCalendarRecurrenceCalendarType.CAL_GREGORIAN_US
+};
+
+// Set the recurrence pattern
+calendar.Recurrence = new MapiCalendarEventRecurrence()
+{
+    RecurrencePattern = yearlyPattern
+};
+
+// Save the calendar item
+calendar.Save("yearly_meeting.msg", SaveOptions.DefaultMsgUnicode);
+```
+
+[Visual Basic]
+
+```csharp
+' Create a MapiCalendar
+Dim calendar As New MapiCalendar(
+    "Team Meeting",
+    DateTime.Now,
+    DateTime.Now.AddHours(2),
+    "organizer@company.com",
+    "attendee@company.com")
+
+' Create a yearly recurrence pattern (repeats every year on January 15th)
+Dim yearlyPattern As New MapiCalendarYearlyAndMonthlyRecurrencePattern() With {
+    .Period = 12,  ' 12 months = 1 year
+    .Day = 15,     ' 15th day of the month
+    .StartDate = DateTime.Now,
+    .EndDate = DateTime.Now.AddYears(5),
+    .Frequency = MapiCalendarRecurrenceFrequency.Yearly,
+    .PatternType = MapiCalendarRecurrencePatternType.Month,
+    .CalendarType = MapiCalendarRecurrenceCalendarType.CAL_GREGORIAN_US
+}
+
+' Set the recurrence pattern
+calendar.Recurrence = New MapiCalendarEventRecurrence() With {
+    .RecurrencePattern = yearlyPattern
+}
+
+' Save the calendar item
+calendar.Save("yearly_meeting.msg", SaveOptions.DefaultMsgUnicode)
+```
 
 ### See Also
 

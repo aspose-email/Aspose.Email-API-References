@@ -3,7 +3,7 @@ title: Enum AllowedConferenceSolutionTypes
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Google.AllowedConferenceSolutionTypes enum. The types of conference solutions that are supported for this calendar
 type: docs
-weight: 14190
+weight: 14230
 url: /net/aspose.email.clients.google/allowedconferencesolutiontypes/
 ---
 ## AllowedConferenceSolutionTypes enumeration

@@ -3,7 +3,7 @@ title: Class FolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Pst.FolderInfo class. Represents information about personal folder in PST
 type: docs
-weight: 19010
+weight: 19120
 url: /net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -81,6 +81,7 @@ public sealed class FolderInfo
 | [MoveContents](../../aspose.email.storage.pst/folderinfo/movecontents/)(FolderInfo) | Moves the contents to a new folder. |
 | [MoveSubfolders](../../aspose.email.storage.pst/folderinfo/movesubfolders/)(FolderInfo) | Moves the subfolders to a new parent folder. |
 | [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath/)() | Retrieves the full path of folder within the PST file. |
+| [SetReadStatus](../../aspose.email.storage.pst/folderinfo/setreadstatus/)(IList&lt;string&gt;, bool) | Sets or clears the `Read` status for the specified messages in a PST file. |
 | [UpdateMessage](../../aspose.email.storage.pst/folderinfo/updatemessage/)(string, MapiMessageItemBase) | Updates the message in folder. |
 
 ## Events

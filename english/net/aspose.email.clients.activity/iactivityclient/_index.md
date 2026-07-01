@@ -3,7 +3,7 @@ title: Interface IActivityClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.IActivityClient interface. Represents the interface for Exchange REST client
 type: docs
-weight: 1120
+weight: 1160
 url: /net/aspose.email.clients.activity/iactivityclient/
 ---
 ## IActivityClient interface

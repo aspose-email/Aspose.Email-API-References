@@ -1,14 +1,14 @@
 ---
 title: Class PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.PidLidPropertyDescriptor class. Class contains property description information
+description: Aspose.Email.Mapi.PidLidPropertyDescriptor class. Contains descriptive information about a MAPI named property. This class provides properties and functionality for working with properties identified by a 32bit long ID LID combined with a property set GUID typically used for custom or nonstandard MAPI properties
 type: docs
-weight: 17720
+weight: 17820
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor class
 
-Class contains property description information.
+Contains descriptive information about a MAPI named property. This class provides properties and functionality for working with properties identified by a 32-bit long ID (LID) combined with a property set GUID, typically used for custom or non-standard MAPI properties.
 
 ```csharp
 public class PidLidPropertyDescriptor : PropertyDescriptor
@@ -43,6 +43,10 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 | override [ToString](../../aspose.email.mapi/pidlidpropertydescriptor/tostring/)() | Returns a string that represents the property description. |
 | [operator ==](../../aspose.email.mapi/pidlidpropertydescriptor/op_equality/) | Determines whether the specified objects are equal to each another. |
 | [operator !=](../../aspose.email.mapi/pidlidpropertydescriptor/op_inequality/) | Determines whether the specified objects are not equal to each another. |
+
+## Remarks
+
+This class extends [`PropertyDescriptor`](../propertydescriptor/) and is specifically designed for named properties in MAPI, which are identified by a combination of a 32-bit long ID and a GUID property set (e.g., PSETID.Address, PSETID.Appointment). Use [`PidTagPropertyDescriptor`](../pidtagpropertydescriptor/) for working with standard tagged properties. The class provides access to the long ID, property set GUID, and data type.
 
 ### See Also
 

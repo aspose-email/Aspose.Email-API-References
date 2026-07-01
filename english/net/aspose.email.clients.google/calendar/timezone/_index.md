@@ -3,7 +3,7 @@ title: Calendar.TimeZone
 second_title: Aspose.Email for .NET API Reference
 description: Calendar property. The time zone of the calendar
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.clients.google/calendar/timezone/
 ---
 ## Calendar.TimeZone property

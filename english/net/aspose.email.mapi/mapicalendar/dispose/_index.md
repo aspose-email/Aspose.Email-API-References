@@ -3,7 +3,7 @@ title: MapiCalendar.Dispose
 second_title: Aspose.Email for .NET API Reference
 description: MapiCalendar method. Releases all resources
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.email.mapi/mapicalendar/dispose/
 ---
 ## MapiCalendar.Dispose method

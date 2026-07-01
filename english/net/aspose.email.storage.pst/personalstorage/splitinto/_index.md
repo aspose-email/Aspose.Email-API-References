@@ -1,39 +1,11 @@
 ---
 title: PersonalStorage.SplitInto
 second_title: Aspose.Email for .NET API Reference
-description: PersonalStorage method. Splits the pst storage into less sized parts
+description: PersonalStorage method. Splits the pst storage based on criteria
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email.storage.pst/personalstorage/splitinto/
 ---
-## SplitInto(long, string) {#splitinto}
-
-Splits the pst storage into less sized parts.
-
-```csharp
-public void SplitInto(long chunkSize, string path)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| chunkSize | Int64 | The approximate size of a chunk in bytes. |
-| path | String | The folder path where chunks will be created. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | Throws when the path parameter is null or empty. |
-| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
-
-### See Also
-
-* class [PersonalStorage](../)
-* namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
-* assembly [Aspose.Email](../../../)
-
----
-
 ## SplitInto(IList&lt;MailQuery&gt;, string) {#splitinto_2}
 
 Splits the pst storage based on criteria.
@@ -122,6 +94,34 @@ The pst file names are produced using the following template: {prefix}_part{numb
 ### See Also
 
 * class [MailQuery](../../../aspose.email.tools.search/mailquery/)
+* class [PersonalStorage](../)
+* namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SplitInto(long, string) {#splitinto}
+
+Splits the pst storage into less sized parts.
+
+```csharp
+public void SplitInto(long chunkSize, string path)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chunkSize | Int64 | The approximate size of a chunk in bytes. |
+| path | String | The folder path where chunks will be created. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Throws when the path parameter is null or empty. |
+| ArgumentException | Throws when the chunk size is less then the minimum size of pst file. |
+
+### See Also
+
 * class [PersonalStorage](../)
 * namespace [Aspose.Email.Storage.Pst](../../personalstorage/)
 * assembly [Aspose.Email](../../../)

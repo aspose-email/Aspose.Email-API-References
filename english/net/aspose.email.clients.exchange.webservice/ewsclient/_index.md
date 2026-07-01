@@ -3,7 +3,7 @@ title: Class EWSClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.EWSClient class. Provides access to MS Exchange Server by using Exchange Web Services EWS
 type: docs
-weight: 2240
+weight: 2280
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/
 ---
 ## EWSClient class

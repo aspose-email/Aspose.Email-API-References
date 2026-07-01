@@ -3,7 +3,7 @@ title: Enum SharePointAuditOperation
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.SharePointAuditOperation enum. SharePoint audit operations
 type: docs
-weight: 1310
+weight: 1350
 url: /net/aspose.email.clients.activity/sharepointauditoperation/
 ---
 ## SharePointAuditOperation enumeration

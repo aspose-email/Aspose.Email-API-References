@@ -1,14 +1,14 @@
 ---
 title: Class EmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.EmlSaveOptions class. Allows to specify additional options when saving MailMessage to Eml and Emlx format
+description: Aspose.Email.EmlSaveOptions class. Provides options for controlling how MailMessage instances are saved to EML and EMLX format. This class allows you to customize the saving behavior for features such as embedded message format preservation TNEF handling signed message integrity and boundary template configuration
 type: docs
-weight: 15930
+weight: 16030
 url: /net/aspose.email/emlsaveoptions/
 ---
 ## EmlSaveOptions class
 
-Allows to specify additional options when saving MailMessage to Eml and Emlx format.
+Provides options for controlling how [`MailMessage`](../mailmessage/) instances are saved to EML and EMLX format. This class allows you to customize the saving behavior for features such as embedded message format preservation, TNEF handling, signed message integrity, and boundary template configuration.
 
 ```csharp
 public class EmlSaveOptions : SaveOptions
@@ -31,6 +31,10 @@ public class EmlSaveOptions : SaveOptions
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype/) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
 | [PreserveEmbeddedMessageFormat](../../aspose.email/emlsaveoptions/preserveembeddedmessageformat/) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve MSG format of embedded message at converting to MailMessage. By default the value is false. |
 | [PreserveSignedContent](../../aspose.email/emlsaveoptions/preservesignedcontent/) { get; set; } | Gets or sets a value indicating whether it is necessary to save signed message without changes of content to provide correctly structure of digital sign. By default the value is false. |
+
+## Remarks
+
+Use this class with [`Save`](../mailmessage/save/) to specify custom save options. Inherits from [`SaveOptions`](../saveoptions/) and adds EML/EMLX-specific configuration through properties like [`PreserveEmbeddedMessageFormat`](./preserveembeddedmessageformat/), [`PreserveSignedContent`](./preservesignedcontent/), and [`BoundariesTemplate`](./boundariestemplate/).
 
 ## Examples
 

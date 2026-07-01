@@ -3,7 +3,7 @@ title: Class ExchangeDelegatePermissions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Exchange.WebService.ExchangeDelegatePermissions class. Represents the folder permissions for the delegate user
 type: docs
-weight: 2340
+weight: 2380
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/
 ---
 ## ExchangeDelegatePermissions class

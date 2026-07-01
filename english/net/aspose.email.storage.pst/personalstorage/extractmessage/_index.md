@@ -3,7 +3,7 @@ title: PersonalStorage.ExtractMessage
 second_title: Aspose.Email for .NET API Reference
 description: PersonalStorage method. Get the message from PST
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.email.storage.pst/personalstorage/extractmessage/
 ---
 ## ExtractMessage(MessageInfo) {#extractmessage}

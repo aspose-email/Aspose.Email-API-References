@@ -1,14 +1,14 @@
 ---
 title: Class MhtSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.MhtSaveOptions class. Allows to specify additional options when saving MailMessage to Mhtml format
+description: Aspose.Email.MhtSaveOptions class. Provides options for controlling how MailMessage instances are saved to MHTML format. This class allows you to customize MHTML output formatting attachment handling header preservation and resource rendering behavior when converting email messages to MHTML MIME HTML files
 type: docs
-weight: 17860
+weight: 17960
 url: /net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class
 
-Allows to specify additional options when saving MailMessage to Mhtml format.
+Provides options for controlling how [`MailMessage`](../mailmessage/) instances are saved to MHTML format. This class allows you to customize MHTML output formatting, attachment handling, header preservation, and resource rendering behavior when converting email messages to MHTML (MIME HTML) files.
 
 ```csharp
 public class MhtSaveOptions : HeadersFormattingOptions
@@ -51,6 +51,10 @@ public class MhtSaveOptions : HeadersFormattingOptions
 | --- | --- |
 | event [ResourceHtmlRendering](../../aspose.email/headersformattingoptions/resourcehtmlrendering/) | Provides customization of rendering resources in html. |
 | event [TimeoutReached](../../aspose.email/headersformattingoptions/timeoutreached/) | Raised if timed out while saving to Mhtml. |
+
+## Remarks
+
+Use this class with [`Save`](../mailmessage/save/) to save messages in MHTML format. MHTML is a web page archive format that combines HTML content and embedded resources into a single file. The [`MhtFormatOptions`](./mhtformatoptions/) property controls formatting options, [`SaveAttachments`](./saveattachments/) determines whether attachments are included, and [`SavedHeaders`](./savedheaders/) allows you to specify custom headers to include in the output.
 
 ## Examples
 

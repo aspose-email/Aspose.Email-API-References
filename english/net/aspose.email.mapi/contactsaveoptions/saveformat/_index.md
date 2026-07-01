@@ -3,7 +3,7 @@ title: ContactSaveOptions.SaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: ContactSaveOptions property. Gets a save format
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.email.mapi/contactsaveoptions/saveformat/
 ---
 ## ContactSaveOptions.SaveFormat property

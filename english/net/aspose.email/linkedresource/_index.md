@@ -1,14 +1,14 @@
 ---
 title: Class LinkedResource
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.LinkedResource class. Represents an embedded resource in a message
+description: Aspose.Email.LinkedResource class. Represents an embedded resource such as an image or file that can be referenced by an AlternateView in an email message. Linked resources are typically used to embed images fonts or other assets directly into HTML email content using ContentID references
 type: docs
-weight: 16290
+weight: 16390
 url: /net/aspose.email/linkedresource/
 ---
 ## LinkedResource class
 
-Represents an embedded resource in a message.
+Represents an embedded resource (such as an image or file) that can be referenced by an [`AlternateView`](../alternateview/) in an email message. Linked resources are typically used to embed images, fonts, or other assets directly into HTML email content using Content-ID references.
 
 ```csharp
 public class LinkedResource : AttachmentBase
@@ -36,6 +36,7 @@ public class LinkedResource : AttachmentBase
 | [ContentType](../../aspose.email/attachmentbase/contenttype/) { get; set; } | Gets or sets the type of the content. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers/) { get; } | Gets headers collection of attachment. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding/) { get; set; } | Gets or sets the transfer encoding. |
+| [UniqueId](../../aspose.email/attachmentbase/uniqueid/) { get; } | Gets or sets a unique identifier for the attachment that will be constant for each application run. |
 
 ## Methods
 
@@ -47,6 +48,10 @@ public class LinkedResource : AttachmentBase
 | [Dispose](../../aspose.email/attachmentbase/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save/)(string) | Saves the specified file name. |
+
+## Remarks
+
+Linked resources are added to [`LinkedResources`](../mailmessage/linkedresources/) and referenced in HTML content using the 'cid:' prefix (e.g., &lt;img src='cid:resourceId'&gt;). They differ from regular [`Attachment`](../attachment/) objects in that they are embedded within the message body rather than appearing as downloadable attachments.
 
 ## Examples
 

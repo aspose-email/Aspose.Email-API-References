@@ -3,7 +3,7 @@ title: Enum ItemType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ItemType enum. Audit item types
 type: docs
-weight: 1140
+weight: 1180
 url: /net/aspose.email.clients.activity/itemtype/
 ---
 ## ItemType enumeration

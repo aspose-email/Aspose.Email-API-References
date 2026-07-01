@@ -3,7 +3,7 @@ title: Task.Body
 second_title: Aspose.Email for .NET API Reference
 description: Task property. Gets or sets a task body
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.calendar/task/body/
 ---
 ## Task.Body property

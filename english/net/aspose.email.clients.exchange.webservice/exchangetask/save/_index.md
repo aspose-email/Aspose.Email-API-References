@@ -6,7 +6,7 @@ type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/save/
 ---
-## Save(Stream, TaskSaveFormat) {#save_1}
+## Save(Stream, TaskSaveFormat) {#save_2}
 
 Saves current object to the given stream using specified format.
 
@@ -28,7 +28,7 @@ public override void Save(Stream stream, TaskSaveFormat saveFormat)
 
 ---
 
-## Save(string, TaskSaveFormat) {#save_3}
+## Save(string, TaskSaveFormat) {#save_5}
 
 Saves current object into file using specified format.
 

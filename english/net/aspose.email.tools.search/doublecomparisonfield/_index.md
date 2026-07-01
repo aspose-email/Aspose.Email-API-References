@@ -3,7 +3,7 @@ title: Class DoubleComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.DoubleComparisonField class. Represents the double search field
 type: docs
-weight: 19600
+weight: 19730
 url: /net/aspose.email.tools.search/doublecomparisonfield/
 ---
 ## DoubleComparisonField class

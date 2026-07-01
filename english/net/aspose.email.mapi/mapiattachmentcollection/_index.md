@@ -1,14 +1,14 @@
 ---
 title: Class MapiAttachmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.Mapi.MapiAttachmentCollection class. Represents a collection of MapiAttachment objects
+description: Aspose.Email.Mapi.MapiAttachmentCollection class. Represents a stronglytyped collection of MapiAttachment objects that belong to a MAPI message or item. This collection class provides methods for adding removing and managing attachments in Outlook messages including support for embedded messages and file attachments
 type: docs
-weight: 16580
+weight: 16680
 url: /net/aspose.email.mapi/mapiattachmentcollection/
 ---
 ## MapiAttachmentCollection class
 
-Represents a collection of MapiAttachment objects.
+Represents a strongly-typed collection of [`MapiAttachment`](../mapiattachment/) objects that belong to a MAPI message or item. This collection class provides methods for adding, removing, and managing attachments in Outlook messages, including support for embedded messages and file attachments.
 
 ```csharp
 public class MapiAttachmentCollection : List<MapiAttachment>
@@ -34,6 +34,10 @@ public class MapiAttachmentCollection : List<MapiAttachment>
 | [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove/#remove)(MapiAttachment) | Removes the first occurrence of a specific object from the MapiAttachmentCollection. |
 | [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat/#removeat)(int) | Removes the element at the specified index of the MapiAttachmentCollection. |
 | [Replace](../../aspose.email.mapi/mapiattachmentcollection/replace/)(int, string, MapiMessage) | Replaces an element at the specified index. |
+
+## Remarks
+
+This collection is returned by the [`Attachments`](../mapimessageitembase/attachments/) property. Use the [`Add`](./add/) method to add embedded messages as attachments, and [`Add`](./add/) to add file-based attachments. The collection supports standard List operations like Add, Remove, and Count.
 
 ### See Also
 

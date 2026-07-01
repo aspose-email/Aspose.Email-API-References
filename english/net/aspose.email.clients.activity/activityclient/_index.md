@@ -3,7 +3,7 @@ title: Class ActivityClient
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Clients.Activity.ActivityClient class. Provides access to MS Exchange Server Office365 by using REST API
 type: docs
-weight: 910
+weight: 950
 url: /net/aspose.email.clients.activity/activityclient/
 ---
 ## ActivityClient class

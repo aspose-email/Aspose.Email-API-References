@@ -3,7 +3,7 @@ title: IGmailClient.UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
 description: IGmailClient method. Updates an appointment
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.email.clients.google/igmailclient/updateappointment/
 ---
 ## IGmailClient.UpdateAppointment method
