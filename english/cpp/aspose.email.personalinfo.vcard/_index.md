@@ -1,0 +1,56 @@
+---
+title: "Aspose::Email::PersonalInfo::VCard namespace"
+linktitle: "Aspose::Email::PersonalInfo::VCard"
+articleTitle: "Aspose::Email::PersonalInfo::VCard"
+second_title: "Aspose.Email for C++"
+description: "The Aspose::Email::PersonalInfo::VCard namespace provides classes and enums for creating, parsing, and managing vCard contact data."
+type: docs
+weight: 10
+url: /cpp/aspose.email.personalinfo.vcard/
+---
+
+## Aspose::Email::PersonalInfo::VCard namespace
+
+This namespace groups the core vCard components such as VCardContact, VCardEmail, VCardDeliveryAddress, and related collections, enabling developers to handle personal information in vCard format. Use these types to read, modify, and generate vCard files within Aspose.Email for C++.
+
+
+## Classes
+
+| Name | Description |
+| --- | --- |
+| [VCardAgent](./vcardagent/) | Represents a vCard Agent property |
+| [VCardContact](./vcardcontact/) | Represents a vCard contact |
+| [VCardDeliveryAddress](./vcarddeliveryaddress/) | Represents a vCard delivery address |
+| [VCardDeliveryAddressCollection](./vcarddeliveryaddresscollection/) | Represents a collection of VCardDeliveryAddresses |
+| [VCardEmail](./vcardemail/) | Represents vCard email |
+| [VCardEmailCollection](./vcardemailcollection/) | Represents a collection of VCardEmails |
+| [VCardExplanatoryInfo](./vcardexplanatoryinfo/) | Represents vCard explanatory properties |
+| [VCardFullName](./vcardfullname/) | Represents vCard contact full name (N property) |
+| [VCardGeo](./vcardgeo/) | Represents a global positioning of vCard contact |
+| [VCardIdentificationInfo](./vcardidentificationinfo/) | Represents vCard identification information |
+| [VCardLabel](./vcardlabel/) | To specify the formatted text corresponding to delivery address of the object th |
+| [VCardLabelCollection](./vcardlabelcollection/) | Represents a collection of VCardLabel |
+| [VCardLoadOptions](./vcardloadoptions/) | This is class that allow the user to specify additional options when loading a V |
+| [VCardOrganization](./vcardorganization/) | Represents vCard organization properties |
+| [VCardPhoto](./vcardphoto/) | Represents vCard photo property |
+| [VCardSaveOptions](./vcardsaveoptions/) | Represents vCard save options |
+| [VCardSecurity](./vcardsecurity/) | Represents a vCard security properties |
+| [VCardSound](./vcardsound/) | Represents a vCard sound property |
+| [VCardTelephoneNumber](./vcardtelephonenumber/) | Represents a vCard telephone number |
+| [VCardTelephoneNumberCollection](./vcardtelephonenumbercollection/) | Represents a collection of VCardTelephoneNumbers |
+| [VCardUrl](./vcardurl/) | Represents a vCard URL property |
+| [VCardUrlCollection](./vcardurlcollection/) | Represents a collection of VCardUrls |
+
+## Enumerations
+
+| Name | Description |
+| --- | --- |
+| [VCardDeliveryAddressType](./vcarddeliveryaddresstype/) | Enumerates a vCard delivery address types |
+| [VCardEmailType](./vcardemailtype/) | Enumerates vCard email types |
+| [VCardPhotoType](./vcardphototype/) | Enumerates vCard photo type |
+| [VCardSoundType](./vcardsoundtype/) | Enumerates a cVard sound types |
+| [VCardTelephoneType](./vcardtelephonetype/) | Enumerates a vCard telephone types |
+| [VCardUrlType](./vcardurltype/) | Enumerates url type |
+| [VCardValueLocation](./vcardvaluelocation/) | Enumerates the vCard property parameter ValueLocation. |
+| [VCardVersion](./vcardversion/) | Enumerates vCard version |
+

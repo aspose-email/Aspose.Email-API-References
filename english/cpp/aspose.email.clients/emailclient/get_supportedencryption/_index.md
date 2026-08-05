@@ -1,0 +1,21 @@
+---
+title: "Aspose::Email::Clients::EmailClient::get_SupportedEncryption method"
+linktitle: "get_SupportedEncryption"
+articleTitle: "get_SupportedEncryption"
+second_title: "Aspose.Email for C++"
+description: "Defines the versions of SSL/TLS encryption protocols to be used."
+type: docs
+weight: 260
+url: /cpp/aspose.email.clients/emailclient/get_supportedencryption/
+---
+
+## get_SupportedEncryption {#get_supportedencryption}
+
+Defines the versions of SSL/TLS encryption protocols to be used. PLEASE PAY YOUR ATTENTION, you may set only those versions of protocol, which are supported by .net framework. IF SOME VERSIONS OF PROTOCOL ARE NOT SUPPORTED BY YOUR CURRENT VERSION OF .NET FRAMEWORK, THEY WILL BE IGNORED AND SKIPPED. IT MAY LEAD TO DOWNGRADE TLS SECURITY LEVEL. IN THIS CASE EXCEPTION WON'T BE GENERATED!!! Please, see EncryptionProtocols documentation for more details. Please use SetSupportedEncryptionUnsafe method if you want to set the encryption protocols without any compatibility checks. Default value is: Tls | Tls11 | Tls12 | Tls13 (in case if your current version of .net framework supports these versions of TLS)
+
+**Returns:** virtual Base::EncryptionProtocols Aspose::Email::Clients::
+
+```cpp
+get_SupportedEncryption()
+```
+

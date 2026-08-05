@@ -1,0 +1,19 @@
+---
+title: "Aspose::Email::Mapi::MapiPropertyTag::PR_PARENT_DISPLAY_W method"
+linktitle: "PR_PARENT_DISPLAY_W"
+articleTitle: "PR_PARENT_DISPLAY_W"
+second_title: "Aspose.Email for C++"
+description: "PR_PARENT_DISPLAY_W of MapiPropertyTag."
+type: docs
+weight: 16000
+url: /cpp/aspose.email.mapi/mapipropertytag/pr_parent_display_w/
+---
+
+## PR_PARENT_DISPLAY_W {#pr_parent_display_w}
+
+**Returns:** int64_t Aspose::Email::Mapi::
+
+```cpp
+PR_PARENT_DISPLAY_W()
+```
+

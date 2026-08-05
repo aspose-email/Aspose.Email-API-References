@@ -1,0 +1,26 @@
+---
+title: "Aspose::Email::PersonalInfo::AssociatedPersonsList::idx_set method"
+linktitle: "idx_set"
+articleTitle: "idx_set"
+second_title: "Aspose.Email for C++"
+description: "Sets the element at the specified index."
+type: docs
+weight: 250
+url: /cpp/aspose.email.personalinfo/associatedpersonslist/idx_set/
+---
+
+## idx_set {#idx_set}
+
+Sets the element at the specified index.
+
+**Returns:** void Aspose::Email::PersonalInfo::
+
+```cpp
+idx_set(int32_t index, System::SharedPtr < AssociatedPerson > value)
+```
+
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the element to get or set. |
+| value | The element at the specified index. |
+

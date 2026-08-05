@@ -1,0 +1,25 @@
+---
+title: "Aspose::Email::PersonalInfo::AssociatedPersonsList::RemoveAt method"
+linktitle: "RemoveAt"
+articleTitle: "RemoveAt"
+second_title: "Aspose.Email for C++"
+description: "Removes the list item at the specified index."
+type: docs
+weight: 290
+url: /cpp/aspose.email.personalinfo/associatedpersonslist/removeat/
+---
+
+## RemoveAt {#removeat}
+
+Removes the list item at the specified index.
+
+**Returns:** void Aspose::Email::PersonalInfo::
+
+```cpp
+RemoveAt(int32_t index)
+```
+
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the item to remove. |
+
