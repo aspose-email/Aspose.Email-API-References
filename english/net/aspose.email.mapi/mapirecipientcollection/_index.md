@@ -24,9 +24,9 @@ public class MapiRecipientCollection : Collection<MapiRecipient>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add)(MapiRecipient) | Adds an object to the end of the Collection. |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add_2)(string, string, MapiRecipientType) | Adds the new recipient. |
-| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add_3)(string, string, string, MapiRecipientType) | Adds the new recipient. |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add_2)(MapiRecipient) | Adds an object to the end of the Collection. |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add)(string, string, MapiRecipientType) | Adds the new recipient. |
+| [Add](../../aspose.email.mapi/mapirecipientcollection/add/#add_1)(string, string, string, MapiRecipientType) | Adds the new recipient. |
 | [Insert](../../aspose.email.mapi/mapirecipientcollection/insert/#insert)(int, MapiRecipient) | Inserts an element into the Collection at the specified index. |
 
 ### See Also

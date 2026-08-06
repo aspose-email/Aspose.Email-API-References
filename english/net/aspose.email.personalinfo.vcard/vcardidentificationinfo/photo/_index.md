@@ -3,7 +3,7 @@ title: VCardIdentificationInfo.Photo
 second_title: Aspose.Email for .NET API Reference
 description: VCardIdentificationInfo property. Gets or sets a contacts photo
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/photo/
 ---
 ## VCardIdentificationInfo.Photo property

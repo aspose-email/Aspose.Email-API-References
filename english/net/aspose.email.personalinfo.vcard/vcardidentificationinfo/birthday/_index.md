@@ -3,7 +3,7 @@ title: VCardIdentificationInfo.Birthday
 second_title: Aspose.Email for .NET API Reference
 description: VCardIdentificationInfo property. Gets or sets a contacts bithday
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/birthday/
 ---
 ## VCardIdentificationInfo.Birthday property

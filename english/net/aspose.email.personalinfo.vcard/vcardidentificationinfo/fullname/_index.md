@@ -3,7 +3,7 @@ title: VCardIdentificationInfo.FullName
 second_title: Aspose.Email for .NET API Reference
 description: VCardIdentificationInfo property. Gets or sets a contacts full name
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/fullname/
 ---
 ## VCardIdentificationInfo.FullName property

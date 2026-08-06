@@ -24,6 +24,7 @@ public sealed class VCardIdentificationInfo
 
 | Name | Description |
 | --- | --- |
+| [Anniversary](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/anniversary/) { get; set; } | Gets or sets a contact's anniversary |
 | [Birthday](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/birthday/) { get; set; } | Gets or sets a contact's bithday |
 | [DisplayName](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/displayname/) { get; set; } | Gets or sets a contact's display(formatted) name |
 | [FullName](../../aspose.email.personalinfo.vcard/vcardidentificationinfo/fullname/) { get; set; } | Gets or sets a contact's full name |

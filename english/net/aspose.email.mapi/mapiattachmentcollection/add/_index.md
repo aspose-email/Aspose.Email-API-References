@@ -6,18 +6,22 @@ type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiattachmentcollection/add/
 ---
-## Add(string, MapiMessage) {#add_2}
+## Add(string, MapiMessage) {#add}
 
 Adds the new attachment as embedded message.
 
 ```csharp
-public void Add(string name, MapiMessage msg)
+public MapiAttachment Add(string name, MapiMessage msg)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | The name of attachment. |
 | msg | MapiMessage | The [`MapiMessage`](../../mapimessage/) that represents the attached message. |
+
+### Return Value
+
+Newly created attachment[`MapiAttachment`](../../mapiattachment/)
 
 ### Exceptions
 
@@ -27,6 +31,7 @@ public void Add(string name, MapiMessage msg)
 
 ### See Also
 
+* class [MapiAttachment](../../mapiattachment/)
 * class [MapiMessage](../../mapimessage/)
 * class [MapiAttachmentCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapiattachmentcollection/)
@@ -34,18 +39,22 @@ public void Add(string name, MapiMessage msg)
 
 ---
 
-## Add(string, byte[]) {#add_4}
+## Add(string, byte[]) {#add_2}
 
 Adds the new attachment.
 
 ```csharp
-public void Add(string name, byte[] data)
+public MapiAttachment Add(string name, byte[] data)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | The name of attachment. |
 | data | Byte[] | The attachment data. |
+
+### Return Value
+
+Newly created attachment[`MapiAttachment`](../../mapiattachment/)
 
 ### Exceptions
 
@@ -56,24 +65,29 @@ public void Add(string name, byte[] data)
 
 ### See Also
 
+* class [MapiAttachment](../../mapiattachment/)
 * class [MapiAttachmentCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapiattachmentcollection/)
 * assembly [Aspose.Email](../../../)
 
 ---
 
-## Add(string, ReferenceAttachmentOptions) {#add_3}
+## Add(string, ReferenceAttachmentOptions) {#add_1}
 
 Adds a reference attachment to the collection using the specified name and configuration options.
 
 ```csharp
-public void Add(string name, ReferenceAttachmentOptions options)
+public MapiAttachment Add(string name, ReferenceAttachmentOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | The name of the attachment to display in the message. |
 | options | ReferenceAttachmentOptions | An instance of [`ReferenceAttachmentOptions`](../../referenceattachmentoptions/) containing the configuration details for the reference attachment, such as the shared link, URL, and provider name. |
+
+### Return Value
+
+Newly created attachment[`MapiAttachment`](../../mapiattachment/)
 
 ### Exceptions
 
@@ -125,6 +139,7 @@ msg.Attachments.Add("Document.pdf", options)
 
 ### See Also
 
+* class [MapiAttachment](../../mapiattachment/)
 * class [ReferenceAttachmentOptions](../../referenceattachmentoptions/)
 * class [MapiAttachmentCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapiattachmentcollection/)
@@ -132,7 +147,7 @@ msg.Attachments.Add("Document.pdf", options)
 
 ---
 
-## Add(MapiAttachment) {#add}
+## Add(MapiAttachment) {#add_3}
 
 Adds an object to the end of the Collection.
 

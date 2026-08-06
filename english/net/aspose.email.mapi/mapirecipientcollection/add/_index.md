@@ -6,12 +6,12 @@ type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapirecipientcollection/add/
 ---
-## Add(string, string, MapiRecipientType) {#add_2}
+## Add(string, string, MapiRecipientType) {#add}
 
 Adds the new recipient.
 
 ```csharp
-public void Add(string address, string displayName, MapiRecipientType recipientType)
+public MapiRecipient Add(string address, string displayName, MapiRecipientType recipientType)
 ```
 
 | Parameter | Type | Description |
@@ -19,6 +19,10 @@ public void Add(string address, string displayName, MapiRecipientType recipientT
 | address | String | The mail address of recipient. |
 | displayName | String | The display name of recipient. |
 | recipientType | MapiRecipientType | Type of the recipient. |
+
+### Return Value
+
+Newly created recipient[`MapiRecipient`](../../mapirecipient/)
 
 ### Exceptions
 
@@ -33,6 +37,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ### See Also
 
+* class [MapiRecipient](../../mapirecipient/)
 * enum [MapiRecipientType](../../mapirecipienttype/)
 * class [MapiRecipientCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapirecipientcollection/)
@@ -40,12 +45,12 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ---
 
-## Add(string, string, string, MapiRecipientType) {#add_3}
+## Add(string, string, string, MapiRecipientType) {#add_1}
 
 Adds the new recipient.
 
 ```csharp
-public void Add(string address, string addressType, string displayName, 
+public MapiRecipient Add(string address, string addressType, string displayName, 
     MapiRecipientType recipientType)
 ```
 
@@ -56,6 +61,10 @@ public void Add(string address, string addressType, string displayName,
 | displayName | String | The display name of recipient. |
 | recipientType | MapiRecipientType | Type of the recipient. |
 
+### Return Value
+
+Newly created recipient[`MapiRecipient`](../../mapirecipient/)
+
 ### Exceptions
 
 | exception | condition |
@@ -69,6 +78,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ### See Also
 
+* class [MapiRecipient](../../mapirecipient/)
 * enum [MapiRecipientType](../../mapirecipienttype/)
 * class [MapiRecipientCollection](../)
 * namespace [Aspose.Email.Mapi](../../mapirecipientcollection/)
@@ -76,7 +86,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ---
 
-## Add(MapiRecipient) {#add}
+## Add(MapiRecipient) {#add_2}
 
 Adds an object to the end of the Collection.
 
