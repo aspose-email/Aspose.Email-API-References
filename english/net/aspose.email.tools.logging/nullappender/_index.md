@@ -3,7 +3,7 @@ title: Class NullAppender
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Logging.NullAppender class. Represents a donothing appender
 type: docs
-weight: 19600
+weight: 19610
 url: /net/aspose.email.tools.logging/nullappender/
 ---
 ## NullAppender class

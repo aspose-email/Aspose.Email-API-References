@@ -3,7 +3,7 @@ title: MapiAttachment.FileName
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets an attachments base filename and extension excluding path
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapiattachment/filename/
 ---
 ## MapiAttachment.FileName property

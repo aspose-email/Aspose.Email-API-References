@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Storage namespace contains classes for work with mail storages such as pst/ost and mbox
+description: Convert mail storages between formats and copy messages from one storage to another
 type: docs
 weight: 350
 url: /net/aspose.email.storage/
 ---
-The **Aspose.Email.Storage** namespace contains classes for work with mail storages, such as pst/ost and mbox.
+Convert mail storages between formats and copy messages from one storage to another.
 
 ## Classes
 

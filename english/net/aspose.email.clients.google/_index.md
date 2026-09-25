@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Google
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.Google namespace provides classes for access to Google account
+description: Access Gmail messages Google Contacts and Google Calendar through Google APIs
 type: docs
 weight: 190
 url: /net/aspose.email.clients.google/
 ---
-The **Aspose.Email.Clients.Google** namespace provides classes for access to Google account.
+Access Gmail messages, Google Contacts and Google Calendar through Google APIs.
 
 ## Classes
 

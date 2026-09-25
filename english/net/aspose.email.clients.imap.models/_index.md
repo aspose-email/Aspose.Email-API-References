@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Imap.Models
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Option objects that finetune how IMAP client methods behave
 type: docs
 weight: 220
 url: /net/aspose.email.clients.imap.models/
 ---
-
+Option objects that fine-tune how IMAP client methods behave.
 
 ## Classes
 

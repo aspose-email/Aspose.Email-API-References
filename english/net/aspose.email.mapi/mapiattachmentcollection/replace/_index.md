@@ -3,7 +3,7 @@ title: MapiAttachmentCollection.Replace
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachmentCollection method. Replaces an element at the specified index
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.mapi/mapiattachmentcollection/replace/
 ---
 ## MapiAttachmentCollection.Replace method

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Olm
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Storage.Olm namespace contains classes for work with Microsoft Outlook OLM file format
+description: Browse folders and read items from Outlook for Mac OLM archives
 type: docs
 weight: 380
 url: /net/aspose.email.storage.olm/
 ---
-The **Aspose.Email.Storage.Olm** namespace contains classes for work with Microsoft Outlook OLM file format.
+Browse folders and read items from Outlook for Mac (OLM) archives.
 
 ## Classes
 

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Graph
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.Graph namespace provides classes for access to access to Microsoft 365 services by using REST API
+description: Access Microsoft 365 mail calendars contacts and notebooks through the Microsoft Graph REST API
 type: docs
 weight: 200
 url: /net/aspose.email.clients.graph/
 ---
-The **Aspose.Email.Clients.Graph** namespace provides classes for access to access to Microsoft 365 services by using REST API.
+Access Microsoft 365 mail, calendars, contacts and notebooks through the Microsoft Graph REST API.
 
 ## Classes
 

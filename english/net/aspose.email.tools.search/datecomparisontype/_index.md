@@ -3,7 +3,7 @@ title: Enum DateComparisonType
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Tools.Search.DateComparisonType enum. Specifies a type of comparison
 type: docs
-weight: 19720
+weight: 19730
 url: /net/aspose.email.tools.search/datecomparisontype/
 ---
 ## DateComparisonType enumeration

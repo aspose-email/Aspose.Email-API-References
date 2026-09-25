@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Common.Delegate
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Common.Delegate namespace provides common delegate types
+description: Callbacks for observing and controlling the processing of individual items during bulk operations
 type: docs
 weight: 270
 url: /net/aspose.email.common.delegate/
 ---
-The **Aspose.Email.Common.Delegate** namespace provides common delegate types.
+Callbacks for observing and controlling the processing of individual items during bulk operations.
 
 ## Classes
 

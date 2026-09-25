@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Verifications
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Tools.Verifications namespace contains classes that represent the message validating functionality
+description: Validate email addresses and messages with syntax domain and mailserver checks
 type: docs
 weight: 460
 url: /net/aspose.email.tools.verifications/
 ---
-The **Aspose.Email.Tools.Verifications** namespace contains classes that represent the message validating functionality.
+Validate email addresses and messages with syntax, domain and mail-server checks.
 
 ## Classes
 

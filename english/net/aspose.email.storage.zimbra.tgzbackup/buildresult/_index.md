@@ -3,7 +3,7 @@ title: Class BuildResult
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Zimbra.TgzBackup.BuildResult class. Represents the outcome of a single Build run
 type: docs
-weight: 19390
+weight: 19400
 url: /net/aspose.email.storage.zimbra.tgzbackup/buildresult/
 ---
 ## BuildResult class

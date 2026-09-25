@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Pst
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Storage.Pst namespace contains classes for work with Microsoft Outlook PSTOST file format
+description: Create read search and modify folders messages and attachments in Outlook PSTOST files
 type: docs
 weight: 390
 url: /net/aspose.email.storage.pst/
 ---
-The **Aspose.Email.Storage.Pst** namespace contains classes for work with Microsoft Outlook PST\OST file format.
+Create, read, search and modify folders, messages and attachments in Outlook PST/OST files.
 
 ## Classes
 

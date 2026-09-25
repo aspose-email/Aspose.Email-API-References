@@ -3,7 +3,7 @@ title: MapiAttachment.SaveToTnef
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment method. Save attachment to tnef content
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.email.mapi/mapiattachment/savetotnef/
 ---
 ## SaveToTnef(string) {#savetotnef_1}

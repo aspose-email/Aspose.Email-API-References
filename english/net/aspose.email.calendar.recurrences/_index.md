@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Calendar.Recurrences
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Calendar.Recurrences namespace contains classes for work with calendar recurrence patterns
+description: Define and expand recurrence rules  daily weekly monthly and yearly  for repeating appointments
 type: docs
 weight: 60
 url: /net/aspose.email.calendar.recurrences/
 ---
-The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work with calendar recurrence patterns.
+Define and expand recurrence rules - daily, weekly, monthly and yearly - for repeating appointments.
 
 ## Classes
 

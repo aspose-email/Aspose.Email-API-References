@@ -24,6 +24,8 @@ public class MsgLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [DeferAttachmentContent](../../aspose.email/msgloadoptions/deferattachmentcontent/) { get; set; } | Gets or sets a value indicating whether attachment content is read on demand instead of being loaded into memory while the message is being loaded. The default value is false. |
+| [DeferralThreshold](../../aspose.email/msgloadoptions/deferralthreshold/) { get; set; } | Gets or sets the minimum content size, in bytes, for which [`DeferAttachmentContent`](./deferattachmentcontent/) applies. Smaller attachments are always loaded eagerly. The default value is 4096. |
 | [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses/) { get; set; } | Gets or sets a value indicating whether need keep original email address. |
 | [MessageFormat](../../aspose.email/loadoptions/messageformat/) { get; } | Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml. |
 | [PreferredTextEncoding](../../aspose.email/loadoptions/preferredtextencoding/) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |

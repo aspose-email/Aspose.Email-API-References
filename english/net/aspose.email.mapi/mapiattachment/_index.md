@@ -19,6 +19,7 @@ public class MapiAttachment : MapiPropertyContainer
 | [BinaryData](../../aspose.email.mapi/mapiattachment/binarydata/) { get; set; } | Gets or sets binary attachment data. |
 | virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage/) { get; } | Gets the code page. |
 | [Content](../../aspose.email.mapi/mapiattachment/content/) { get; } | Gets the content. |
+| [ContentLength](../../aspose.email.mapi/mapiattachment/contentlength/) { get; } | Gets the length of the attachment content in bytes. |
 | [DisplayName](../../aspose.email.mapi/mapiattachment/displayname/) { get; set; } | Gets the display name of the ole object in an attachment. |
 | [Extension](../../aspose.email.mapi/mapiattachment/extension/) { get; } | Gets a filename extension that indicates the document type of an attachment. |
 | [FileName](../../aspose.email.mapi/mapiattachment/filename/) { get; } | Gets an attachment's base filename and extension, excluding path. |
@@ -49,6 +50,7 @@ public class MapiAttachment : MapiPropertyContainer
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long) | Gets the string value of the property specified by tag. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring/)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok/)() | Determines if string properties are Unicode encoded or not. |
+| [OpenRead](../../aspose.email.mapi/mapiattachment/openread/)() | Opens the attachment content for reading. |
 | [RemoveProperty](../../aspose.email.mapi/mapiattachment/removeproperty/)(long) | Provides correctly removing property from all collections. |
 | [Save](../../aspose.email.mapi/mapiattachment/save/#save)(Stream) | Save attachment content. |
 | [Save](../../aspose.email.mapi/mapiattachment/save/#save_1)(string) | Save attachment content. |

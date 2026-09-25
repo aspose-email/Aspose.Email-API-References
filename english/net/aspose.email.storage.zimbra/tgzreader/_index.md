@@ -3,7 +3,7 @@ title: Class TgzReader
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Zimbra.TgzReader class. The mailbox items reader of Zimbra tgz storage
 type: docs
-weight: 19410
+weight: 19420
 url: /net/aspose.email.storage.zimbra/tgzreader/
 ---
 ## TgzReader class
@@ -35,7 +35,10 @@ public class TgzReader : IDisposable
 | [Dispose](../../aspose.email.storage.zimbra/tgzreader/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExportTo](../../aspose.email.storage.zimbra/tgzreader/exportto/)(string) | Save messages and directory structure using given path. |
 | [ExportToAsync](../../aspose.email.storage.zimbra/tgzreader/exporttoasync/)(string, CancellationToken) | Save messages and directory structure using given path. |
+| [GetItemsCount](../../aspose.email.storage.zimbra/tgzreader/getitemscount/)(ItemType) | Returns the number of items by type. |
+| [GetItemsCountAsync](../../aspose.email.storage.zimbra/tgzreader/getitemscountasync/)(ItemType, CancellationToken) | Returns the number of items by type. |
 | [GetTotalItemsCount](../../aspose.email.storage.zimbra/tgzreader/gettotalitemscount/)() | Gets the total count of items. |
+| [GetTotalItemsCountAsync](../../aspose.email.storage.zimbra/tgzreader/gettotalitemscountasync/)(CancellationToken) | Gets the total count of items. |
 | [ReadNextMessage](../../aspose.email.storage.zimbra/tgzreader/readnextmessage/)() | Reads the next message. |
 
 ### See Also

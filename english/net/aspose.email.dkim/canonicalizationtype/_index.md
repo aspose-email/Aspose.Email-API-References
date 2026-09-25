@@ -1,14 +1,14 @@
 ---
 title: Enum CanonicalizationType
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.DKIM.CanonicalizationType enum. Represents DKIM canonicalization
+description: Aspose.Email.DKIM.CanonicalizationType enum. Normalization applied to the headers and body before they are hashed for a DKIM signature
 type: docs
 weight: 17360
 url: /net/aspose.email.dkim/canonicalizationtype/
 ---
 ## CanonicalizationType enumeration
 
-Represents DKIM canonicalization.
+Normalization applied to the headers and body before they are hashed for a DKIM signature.
 
 ```csharp
 public enum CanonicalizationType
@@ -18,8 +18,8 @@ public enum CanonicalizationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Simple | `0` | Simple canonicalization (almost no changes to the headers or body are allowed). |
-| Relaxed | `1` | Relaxed canonicalization (minor changes, like additional spaces, are allowed). |
+| Simple | `0` | Almost nothing may change in transit, so any reformatting of the headers or body breaks the signature. |
+| Relaxed | `1` | Minor reformatting is tolerated, so extra spaces or refolded headers do not break the signature. |
 
 ### See Also
 

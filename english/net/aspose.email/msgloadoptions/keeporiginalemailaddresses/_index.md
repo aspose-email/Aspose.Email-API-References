@@ -3,7 +3,7 @@ title: MsgLoadOptions.KeepOriginalEmailAddresses
 second_title: Aspose.Email for .NET API Reference
 description: MsgLoadOptions property. Gets or sets a value indicating whether need keep original email address
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.email/msgloadoptions/keeporiginalemailaddresses/
 ---
 ## MsgLoadOptions.KeepOriginalEmailAddresses property

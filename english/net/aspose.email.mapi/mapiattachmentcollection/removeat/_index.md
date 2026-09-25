@@ -3,7 +3,7 @@ title: MapiAttachmentCollection.RemoveAt
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachmentCollection method. Removes the element at the specified index of the MapiAttachmentCollection
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.mapi/mapiattachmentcollection/removeat/
 ---
 ## MapiAttachmentCollection.RemoveAt method

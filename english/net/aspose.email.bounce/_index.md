@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Bounce
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Bounce namespace provides classes for bounce messages handling
+description: Recognize bounced undelivered messages and extract the failure reason and the original recipient
 type: docs
 weight: 40
 url: /net/aspose.email.bounce/
 ---
-The **Aspose.Email.Bounce** namespace provides classes for bounce messages handling.
+Recognize bounced (undelivered) messages and extract the failure reason and the original recipient.
 
 ## Classes
 

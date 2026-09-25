@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Imap
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.Imap namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol IMAP
+description: Read search flag copy and move messages on an IMAP server
 type: docs
 weight: 210
 url: /net/aspose.email.clients.imap/
 ---
-The **Aspose.Email.Clients.Imap** namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol (IMAP).
+Read, search, flag, copy and move messages on an IMAP server.
 
 ## Classes
 

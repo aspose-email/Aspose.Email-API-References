@@ -3,7 +3,7 @@ title: Class TnefLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.TnefLoadOptions class. Provides options for controlling how MailMessage instances are loaded from TNEF Transport Neutral Encapsulation Format format. This class is used primarily for handling Microsoft Outlook TNEF attachments winmail.dat that may contain rich text formatting and embedded objects
 type: docs
-weight: 19430
+weight: 19440
 url: /net/aspose.email/tnefloadoptions/
 ---
 ## TnefLoadOptions class

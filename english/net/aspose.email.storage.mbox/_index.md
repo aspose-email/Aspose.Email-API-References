@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Mbox
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Storage.Mbox namespace contains classes for work with mbox format
+description: Read and write Mbox archives used by Thunderbird and other mail clients
 type: docs
 weight: 360
 url: /net/aspose.email.storage.mbox/
 ---
-The **Aspose.Email.Storage.Mbox** namespace contains classes for work with mbox format.
+Read and write Mbox archives used by Thunderbird and other mail clients.
 
 ## Classes
 

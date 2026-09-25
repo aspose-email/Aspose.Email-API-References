@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.DeliveryService
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.DeliveryService namespace contains general types to implementing delivery service clients
+description: Common contracts and factory for sending mail through thirdparty delivery services
 type: docs
 weight: 100
 url: /net/aspose.email.clients.deliveryservice/
 ---
-The **Aspose.Email.Clients.DeliveryService** namespace contains general types to implementing delivery service clients.
+Common contracts and factory for sending mail through third-party delivery services.
 
 ## Classes
 

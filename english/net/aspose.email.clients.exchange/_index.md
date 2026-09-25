@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Exchange
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.Exchange namespace provides classes for Microsoft Exchange Server access
+description: Shared types for connecting to Microsoft Exchange Server mailboxes
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange/
 ---
-The **Aspose.Email.Clients.Exchange** namespace provides classes for Microsoft Exchange Server access.
+Shared types for connecting to Microsoft Exchange Server mailboxes.
 
 ## Classes
 

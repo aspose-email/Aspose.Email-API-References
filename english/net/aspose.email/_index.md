@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email namespace contains common classes of Aspose.Email
+description: Core API for creating loading converting and saving email messages in EML MSG MHTML and HTML formats. Start here
 type: docs
 weight: 10
 url: /net/aspose.email/
 ---
-The **Aspose.Email** namespace contains common classes of Aspose.Email.
+Core API for creating, loading, converting and saving email messages in EML, MSG, MHTML and HTML formats. Start here.
 
 ## Classes
 

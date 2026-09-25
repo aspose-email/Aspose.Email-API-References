@@ -3,7 +3,7 @@ title: MapiAttachment.PropertyStream
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets the property stream
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.email.mapi/mapiattachment/propertystream/
 ---
 ## MapiAttachment.PropertyStream property

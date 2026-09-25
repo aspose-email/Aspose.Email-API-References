@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Calendar
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Calendar namespace contains classes for work with calendar
+description: Create read and save appointments tasks and reminders in iCalendar ICS format
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/
 ---
-The **Aspose.Email.Calendar** namespace contains classes for work with calendar.
+Create, read and save appointments, tasks and reminders in iCalendar (ICS) format.
 
 ## Classes
 

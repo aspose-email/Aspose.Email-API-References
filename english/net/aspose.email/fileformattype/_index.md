@@ -33,6 +33,7 @@ public enum FileFormatType
 | Olm | `12` | Outlook for Mac File Format. |
 | Tgz | `13` | TAR archive file format. Zimbra mail client utilizes TGZ to export mailbox data. |
 | Nsf | `14` | The Notes Storage Facility (NSF) database file is used by (IBM) Lotus Notes and Domino. |
+| RfcMessage | `15` | This includes messages in other text formats, consisting of headers and optionally a message body if a specific protocol could not be determined. |
 
 ### See Also
 

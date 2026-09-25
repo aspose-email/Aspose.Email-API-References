@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Pop3.Models
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Option objects that finetune how POP3 client methods behave
 type: docs
 weight: 240
 url: /net/aspose.email.clients.pop3.models/
 ---
-
+Option objects that fine-tune how POP3 client methods behave.
 
 ## Classes
 

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients namespace provides classes to access messages by using mail protocols
+description: Types shared by all mail clients such as credentials OAuth tokens proxy and connection settings
 type: docs
 weight: 70
 url: /net/aspose.email.clients/
 ---
-The **Aspose.Email.Clients** namespace provides classes to access messages by using mail protocols.
+Types shared by all mail clients, such as credentials, OAuth tokens, proxy and connection settings.
 
 ## Classes
 

@@ -3,7 +3,7 @@ title: MapiAttachment.Extension
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets a filename extension that indicates the document type of an attachment
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.email.mapi/mapiattachment/extension/
 ---
 ## MapiAttachment.Extension property

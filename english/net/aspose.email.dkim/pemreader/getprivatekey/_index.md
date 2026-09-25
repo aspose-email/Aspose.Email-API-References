@@ -1,14 +1,14 @@
 ---
 title: PemReader.GetPrivateKey
 second_title: Aspose.Email for .NET API Reference
-description: PemReader method. Reads private key from stream
+description: PemReader method. Reads an RSA private key from a PEMencoded stream
 type: docs
 weight: 10
 url: /net/aspose.email.dkim/pemreader/getprivatekey/
 ---
 ## GetPrivateKey(Stream) {#getprivatekey}
 
-Reads private key from stream.
+Reads an RSA private key from a PEM-encoded stream.
 
 ```csharp
 public static RSACryptoServiceProvider GetPrivateKey(Stream pem)
@@ -16,11 +16,17 @@ public static RSACryptoServiceProvider GetPrivateKey(Stream pem)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pem | Stream | Stream to read from. |
+| pem | Stream | Stream with the PEM-encoded private key, in PKCS#1 or PKCS#8 format. |
 
 ### Return Value
 
-Certificate that was read.
+An RSA provider initialized with the private key.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| FormatException | The stream does not contain a supported PEM private key. |
 
 ### See Also
 
@@ -32,7 +38,7 @@ Certificate that was read.
 
 ## GetPrivateKey(string) {#getprivatekey_1}
 
-Reads private key from PEM file.
+Reads an RSA private key from a PEM file.
 
 ```csharp
 public static RSACryptoServiceProvider GetPrivateKey(string path)
@@ -40,11 +46,17 @@ public static RSACryptoServiceProvider GetPrivateKey(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to file to read from. |
+| path | String | Path to the PEM file with the private key. |
 
 ### Return Value
 
-Certificate that was read.
+An RSA provider initialized with the private key.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| FormatException | The file does not contain a supported PEM private key. |
 
 ### See Also
 

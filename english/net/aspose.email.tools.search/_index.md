@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Search
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Tools.Search namespace contains base classes that represent message search by criteria
+description: Compose search queries to find messages by subject date sender flags and other criteria
 type: docs
 weight: 450
 url: /net/aspose.email.tools.search/
 ---
-The **Aspose.Email.Tools.Search** namespace contains base classes that represent message search by criteria.
+Compose search queries to find messages by subject, date, sender, flags and other criteria.
 
 ## Classes
 

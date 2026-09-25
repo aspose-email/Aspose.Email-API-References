@@ -3,7 +3,7 @@ title: MapiAttachment.GetProperty
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment method. Gets MAPI property by property descriptor
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.mapi/mapiattachment/getproperty/
 ---
 ## MapiAttachment.GetProperty method

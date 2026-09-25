@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.DeliveryService.Mailgun
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.DeliveryService.Mailgun namespace provides classes implements the client for Mailgun email delivery service
+description: Send messages through the Mailgun email delivery service
 type: docs
 weight: 110
 url: /net/aspose.email.clients.deliveryservice.mailgun/
 ---
-The **Aspose.Email.Clients.DeliveryService.Mailgun** namespace provides classes implements the client for Mailgun email delivery service.
+Send messages through the Mailgun email delivery service.
 
 ## Classes
 

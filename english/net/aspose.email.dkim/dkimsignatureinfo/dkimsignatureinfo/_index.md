@@ -1,14 +1,14 @@
 ---
 title: DKIMSignatureInfo.DKIMSignatureInfo
 second_title: Aspose.Email for .NET API Reference
-description: DKIMSignatureInfo constructor. Creates new instance of DKIMSignatureInfo
+description: DKIMSignatureInfo constructor. Initializes a new instance of the DKIMSignatureInfo class with the DNS selector and domain of the public key
 type: docs
 weight: 10
 url: /net/aspose.email.dkim/dkimsignatureinfo/dkimsignatureinfo/
 ---
 ## DKIMSignatureInfo constructor
 
-Creates new instance of DKIMSignatureInfo.
+Initializes a new instance of the `DKIMSignatureInfo` class with the DNS selector and domain of the public key.
 
 ```csharp
 public DKIMSignatureInfo(string publicKeyDnsSelector, string publicKeyDnsDomain)
@@ -16,8 +16,8 @@ public DKIMSignatureInfo(string publicKeyDnsSelector, string publicKeyDnsDomain)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| publicKeyDnsSelector | String | DNS public key domain selector. |
-| publicKeyDnsDomain | String | DNS public key domain. |
+| publicKeyDnsSelector | String | Selector that tells verifiers which public key of the domain to use (the s= tag). |
+| publicKeyDnsDomain | String | Domain whose DNS TXT records publish the public key (the d= tag). |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MapiAttachment.SubStorages
 second_title: Aspose.Email for .NET API Reference
 description: MapiAttachment property. Gets the sub storages
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.mapi/mapiattachment/substorages/
 ---
 ## MapiAttachment.SubStorages property

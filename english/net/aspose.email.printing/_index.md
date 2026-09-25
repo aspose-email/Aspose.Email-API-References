@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Printing
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Printing namespace contains classes that represent the message printing functionality
+description: Print email messages and control page layout and formatting of the printed output
 type: docs
 weight: 360
 url: /net/aspose.email.printing/
 ---
-The **Aspose.Email.Printing** namespace contains classes that represent the message printing functionality.
+Print email messages and control page layout and formatting of the printed output.
 
 ## Classes
 

@@ -11,53 +11,53 @@ is_root: true
 
 | Namespace | Description |
 | --- | --- |
-| [Aspose.Email](./aspose.email) | The **Aspose.Email** namespace contains common classes of Aspose.Email. |
-| [Aspose.Email.Amp](./aspose.email.amp) | The **Aspose.Email.Amp** namespace provides classes for handling messages with AMP HTML body. |
-| [Aspose.Email.AntiSpam](./aspose.email.antispam) | The **Aspose.Email.AntiSpam** namespace provides classes that represent self-learning filter to detect spam e-mails. |
-| [Aspose.Email.Bounce](./aspose.email.bounce) | The **Aspose.Email.Bounce** namespace provides classes for bounce messages handling. |
-| [Aspose.Email.Calendar](./aspose.email.calendar) | The **Aspose.Email.Calendar** namespace contains classes for work with calendar. |
-| [Aspose.Email.Calendar.Recurrences](./aspose.email.calendar.recurrences) | The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work with calendar recurrence patterns. |
-| [Aspose.Email.Clients](./aspose.email.clients) | The **Aspose.Email.Clients** namespace provides classes to access messages by using mail protocols. |
-| [Aspose.Email.Clients.Activity](./aspose.email.clients.activity) | The **Aspose.Email.Clients.Activity** namespace provides classes that implement the Office 365 Management Activity API. |
-| [Aspose.Email.Clients.Base](./aspose.email.clients.base) | The **Aspose.Email.Clients.Base** namespace contains the basic types used by email client implementations. |
-| [Aspose.Email.Clients.DeliveryService](./aspose.email.clients.deliveryservice) | The **Aspose.Email.Clients.DeliveryService** namespace contains general types to implementing delivery service clients. |
-| [Aspose.Email.Clients.DeliveryService.Mailgun](./aspose.email.clients.deliveryservice.mailgun) | The **Aspose.Email.Clients.DeliveryService.Mailgun** namespace provides classes implements the client for Mailgun email delivery service. |
-| [Aspose.Email.Clients.DeliveryService.SendGrid](./aspose.email.clients.deliveryservice.sendgrid) | The **Aspose.Email.Clients.DeliveryService.SendGrid** namespace provides classes implements the client for SendGrid email delivery service. |
-| [Aspose.Email.Clients.Exchange](./aspose.email.clients.exchange) | The **Aspose.Email.Clients.Exchange** namespace provides classes for Microsoft Exchange Server access. |
-| [Aspose.Email.Clients.Exchange.Dav](./aspose.email.clients.exchange.dav) | The **Aspose.Email.Clients.Exchange.Dav** namespace provides classes for access by using WebDav Exchange Store Protocol. |
-| [Aspose.Email.Clients.Exchange.WebService](./aspose.email.clients.exchange.webservice) | The **Aspose.Email.Clients.Exchange.WebService** namespace provides access to MS Exchange Server by using Exchange Web Services (EWS). |
-| [Aspose.Email.Clients.Exchange.WebService.Models](./aspose.email.clients.exchange.webservice.models) | The **Aspose.Email.Clients.Exchange.WebService.Models** namespace provides classes to configure the EWS client's methods behavior. |
-| [Aspose.Email.Clients.Google](./aspose.email.clients.google) | The **Aspose.Email.Clients.Google** namespace provides classes for access to Google account. |
-| [Aspose.Email.Clients.Graph](./aspose.email.clients.graph) | The **Aspose.Email.Clients.Graph** namespace provides classes for access to access to Microsoft 365 services by using REST API. |
-| [Aspose.Email.Clients.Imap](./aspose.email.clients.imap) | The **Aspose.Email.Clients.Imap** namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
-| [Aspose.Email.Clients.Imap.Models](./aspose.email.clients.imap.models) | The **Aspose.Email.Clients.Exchange.Imap.Models** namespace provides classes to configure the IMAP client's methods behavior. |
-| [Aspose.Email.Clients.Pop3](./aspose.email.clients.pop3) | The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 (POP3). |
-| [Aspose.Email.Clients.Pop3.Models](./aspose.email.clients.pop3.models) | The **Aspose.Email.Clients.Exchange.POP3.Models** namespace provides classes to configure the POP3 client's methods behavior. |
-| [Aspose.Email.Clients.Smtp](./aspose.email.clients.smtp) | The **Aspose.Email.Clients.Smtp** namespace provides classes for sending messages by using the Simple Mail Transfer Protocol (SMTP). |
-| [Aspose.Email.Clients.Smtp.Models](./aspose.email.clients.smtp.models) | The **Aspose.Email.Clients.Exchange.SMTP.Models** namespace provides classes to configure the SMTP client's methods behavior. |
-| [Aspose.Email.Common.Delegate](./aspose.email.common.delegate) | The **Aspose.Email.Common.Delegate** namespace provides common delegate types. |
-| [Aspose.Email.DKIM](./aspose.email.dkim) | The **Aspose.Email.Mail.DKIM** namespace provides classes for work with DKIM signature. |
-| [Aspose.Email.Exceptions](./aspose.email.exceptions) | The **Aspose.Email.Exceptions** namespace provides exception classes as well as classes for exception handling. |
-| [Aspose.Email.LowCode](./aspose.email.lowcode/) | **The Aspose.Email.LowCode** namespace provides simplified, low-code methods for converting emails to various formats. |
-| [Aspose.Email.Mapi](./aspose.email.mapi) | The **Aspose.Email.Mapi** namespace contains classes that represent Outlook messages, contacts, appointments and classes for work with Microsoft Outlook PST\OST file format. |
-| [Aspose.Email.Mapi.Msg](./aspose.email.mapi.msg) | The **Aspose.Email.Mapi.Msg** provides classes that represent an alternative implementation of the Outlook MSG format. |
-| [Aspose.Email.Mime](./aspose.email.mime) | The **Aspose.Email.Mime** namespace provides classes that extend the format of email. |
-| [Aspose.Email.PersonalInfo](./aspose.email.personalinfo) | The **Aspose.Email.PersonalInfo** namespace contains classes that represents contact information. |
-| [Aspose.Email.PersonalInfo.VCard](./aspose.email.personalinfo.vcard) | The **Aspose.Email.PersonalInfo.VCard** namespace contains classes for work with VCard file format. |
-| [Aspose.Email.Printing](./aspose.email.printing) | The **Aspose.Email.Printing** namespace contains classes that represent the message printing functionality. |
-| [Aspose.Email.Storage](./aspose.email.storage) | The **Aspose.Email.Storage** namespace contains classes for work with mail storages, such as pst/ost and mbox. |
-| [Aspose.Email.Storage.Mbox](./aspose.email.storage.mbox) | The **Aspose.Email.Storage.Mbox** namespace contains classes for work with mbox format. |
-| [Aspose.Email.Storage.Nsf](./aspose.email.storage.nsf) | The **Aspose.Email.Storage.Nsf** namespace contains classes for work with NSF format. |
-| [Aspose.Email.Storage.Olm](./aspose.email.storage.olm) | The **Aspose.Email.Storage.Olm** namespace contains classes for work with Microsoft Outlook OLM file format. |
-| [Aspose.Email.Storage.Pst](./aspose.email.storage.pst) | The **Aspose.Email.Storage.Pst** namespace contains classes for work with Microsoft Outlook PST\OST file format. |
-| [Aspose.Email.Storage.Zimbra](./aspose.email.storage.zimbra) | The **Aspose.Email.Storage.Zimbra** namespace contains classes for work with Zimbra storage. |
-| [Aspose.Email.Storage.Zimbra.TgzBackup](./aspose.email.storage.zimbra.tgzbackup/) | The **Storage.Zimbra.TgzBackup** namespace provides functionality for creating Zimbra-compatible TGZ backup archives from collections of EML email files. |
-| [Aspose.Email.Tools](./aspose.email.tools) | The **Aspose.Email.Tools** namespace contains auxiliary classes for email message handling. |
-| [Aspose.Email.Tools.Logging](./aspose.email.tools.logging) | The **Aspose.Email.Tools.Logging** namespace contains classes that represent the logging functionality. |
-| [Aspose.Email.Tools.Merging](./aspose.email.tools.merging) | The **Aspose.Email.Tools.Merging** namespace contains classes for construct email messages by usung templates. |
-| [Aspose.Email.Tools.Search](./aspose.email.tools.search) | The **Aspose.Email.Tools.Search** namespace contains base classes that represent message search by criteria. |
-| [Aspose.Email.Tools.Verifications](./aspose.email.tools.verifications) | The **Aspose.Email.Tools.Verifications** namespace contains classes that represent the message validating functionality. |
-| [Aspose.Email.Windows.Forms](./aspose.email.windows.forms) | The **Aspose.Email.Windows.Forms** namespace contains classes that provide ability to handle files dragged from Outlook. |
-| [Aspose.Email.Windows.WPF](./aspose.email.windows.wpf) | The **Aspose.Email.Windows.WPF** namespace contains classes that provide ability to handle files dragged from Outlook. |
+| [Aspose.Email](./aspose.email) | Core API for creating, loading, converting and saving email messages in EML, MSG, MHTML and HTML formats. Start here. |
+| [Aspose.Email.Amp](./aspose.email.amp) | Build interactive AMP HTML emails with carousels, forms, accordions and other dynamic components. |
+| [Aspose.Email.AntiSpam](./aspose.email.antispam) | Detect spam with a self-learning Bayesian filter that you train on your own messages. |
+| [Aspose.Email.Bounce](./aspose.email.bounce) | Recognize bounced (undelivered) messages and extract the failure reason and the original recipient. |
+| [Aspose.Email.Calendar](./aspose.email.calendar) | Create, read and save appointments, tasks and reminders in iCalendar (ICS) format. |
+| [Aspose.Email.Calendar.Recurrences](./aspose.email.calendar.recurrences) | Define and expand recurrence rules - daily, weekly, monthly and yearly - for repeating appointments. |
+| [Aspose.Email.Clients](./aspose.email.clients) | Types shared by all mail clients, such as credentials, OAuth tokens, proxy and connection settings. |
+| [Aspose.Email.Clients.Activity](./aspose.email.clients.activity) | Retrieve Office 365 audit logs of mailbox, admin and URL-click activity through the Management Activity API. |
+| [Aspose.Email.Clients.Base](./aspose.email.clients.base) | Low-level options common to mail clients, such as the TLS/SSL encryption protocols to use. |
+| [Aspose.Email.Clients.DeliveryService](./aspose.email.clients.deliveryservice) | Common contracts and factory for sending mail through third-party delivery services. |
+| [Aspose.Email.Clients.DeliveryService.Mailgun](./aspose.email.clients.deliveryservice.mailgun) | Send messages through the Mailgun email delivery service. |
+| [Aspose.Email.Clients.DeliveryService.SendGrid](./aspose.email.clients.deliveryservice.sendgrid) | Send messages through the SendGrid email delivery service. |
+| [Aspose.Email.Clients.Exchange](./aspose.email.clients.exchange) | Shared types for connecting to Microsoft Exchange Server mailboxes. |
+| [Aspose.Email.Clients.Exchange.Dav](./aspose.email.clients.exchange.dav) | Access legacy Exchange Server versions (2003/2007) over the WebDAV store protocol. |
+| [Aspose.Email.Clients.Exchange.WebService](./aspose.email.clients.exchange.webservice) | Work with mailboxes, folders, messages, appointments and contacts on Exchange 2007 and later over EWS. |
+| [Aspose.Email.Clients.Exchange.WebService.Models](./aspose.email.clients.exchange.webservice.models) | Option objects that fine-tune how EWS client methods behave. |
+| [Aspose.Email.Clients.Google](./aspose.email.clients.google) | Access Gmail messages, Google Contacts and Google Calendar through Google APIs. |
+| [Aspose.Email.Clients.Graph](./aspose.email.clients.graph) | Access Microsoft 365 mail, calendars, contacts and notebooks through the Microsoft Graph REST API. |
+| [Aspose.Email.Clients.Imap](./aspose.email.clients.imap) | Read, search, flag, copy and move messages on an IMAP server. |
+| [Aspose.Email.Clients.Imap.Models](./aspose.email.clients.imap.models) | Option objects that fine-tune how IMAP client methods behave. |
+| [Aspose.Email.Clients.Pop3](./aspose.email.clients.pop3) | Download and delete messages from a mailbox over POP3. |
+| [Aspose.Email.Clients.Pop3.Models](./aspose.email.clients.pop3.models) | Option objects that fine-tune how POP3 client methods behave. |
+| [Aspose.Email.Clients.Smtp](./aspose.email.clients.smtp) | Send single and bulk messages over SMTP with authentication and TLS support. |
+| [Aspose.Email.Clients.Smtp.Models](./aspose.email.clients.smtp.models) | Option objects that fine-tune how SMTP client methods behave. |
+| [Aspose.Email.Common.Delegate](./aspose.email.common.delegate) | Callbacks for observing and controlling the processing of individual items during bulk operations. |
+| [Aspose.Email.DKIM](./aspose.email.dkim) | Sign outgoing messages with a DKIM signature so recipients can verify the sender. |
+| [Aspose.Email.Exceptions](./aspose.email.exceptions) | Exception types raised by the library and helpers for handling them. |
+| [Aspose.Email.LowCode](./aspose.email.lowcode/) | Convert emails between formats in a single call, with no message objects to build. |
+| [Aspose.Email.Mapi](./aspose.email.mapi) | Work with Outlook items - messages, contacts, appointments, tasks and notes - and their MAPI properties. |
+| [Aspose.Email.Mapi.Msg](./aspose.email.mapi.msg) | Low-level access to the raw MSG file structure and its property streams. |
+| [Aspose.Email.Mime](./aspose.email.mime) | MIME building blocks - headers, content types and transfer encodings - for fine-grained control over message structure. |
+| [Aspose.Email.PersonalInfo](./aspose.email.personalinfo) | Contact data model covering names, phone numbers, postal and email addresses, messengers and events. |
+| [Aspose.Email.PersonalInfo.VCard](./aspose.email.personalinfo.vcard) | Read and write contacts in vCard (VCF) format. |
+| [Aspose.Email.Printing](./aspose.email.printing) | Print email messages and control page layout and formatting of the printed output. |
+| [Aspose.Email.Storage](./aspose.email.storage) | Convert mail storages between formats and copy messages from one storage to another. |
+| [Aspose.Email.Storage.Mbox](./aspose.email.storage.mbox) | Read and write Mbox archives used by Thunderbird and other mail clients. |
+| [Aspose.Email.Storage.Nsf](./aspose.email.storage.nsf) | Extract messages and attachments from HCL (IBM) Notes NSF databases. |
+| [Aspose.Email.Storage.Olm](./aspose.email.storage.olm) | Browse folders and read items from Outlook for Mac (OLM) archives. |
+| [Aspose.Email.Storage.Pst](./aspose.email.storage.pst) | Create, read, search and modify folders, messages and attachments in Outlook PST/OST files. |
+| [Aspose.Email.Storage.Zimbra](./aspose.email.storage.zimbra) | Read mail, contacts and calendar items from Zimbra TGZ export archives. |
+| [Aspose.Email.Storage.Zimbra.TgzBackup](./aspose.email.storage.zimbra.tgzbackup/) | Build Zimbra-compatible TGZ backup archives from a set of EML files. |
+| [Aspose.Email.Tools](./aspose.email.tools) | Helpers for detecting a file's format and for building reply and forward messages. |
+| [Aspose.Email.Tools.Logging](./aspose.email.tools.logging) | Log client and protocol operations to a file, console or debug output for troubleshooting. |
+| [Aspose.Email.Tools.Merging](./aspose.email.tools.merging) | Produce personalized messages from a template and a data source (mail merge). |
+| [Aspose.Email.Tools.Search](./aspose.email.tools.search) | Compose search queries to find messages by subject, date, sender, flags and other criteria. |
+| [Aspose.Email.Tools.Verifications](./aspose.email.tools.verifications) | Validate email addresses and messages with syntax, domain and mail-server checks. |
+| [Aspose.Email.Windows.Forms](./aspose.email.windows.forms) | Accept messages and attachments dragged from Outlook into a Windows Forms application. |
+| [Aspose.Email.Windows.WPF](./aspose.email.windows.wpf) | Accept messages and attachments dragged from Outlook into a WPF application. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

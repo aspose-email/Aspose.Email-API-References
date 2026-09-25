@@ -3,7 +3,7 @@ title: MsgLoadOptions.TimeoutReached
 second_title: Aspose.Email for .NET API Reference
 description: MsgLoadOptions event. Raised if timed out while converting to MailMessage
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.email/msgloadoptions/timeoutreached/
 ---
 ## MsgLoadOptions.TimeoutReached event

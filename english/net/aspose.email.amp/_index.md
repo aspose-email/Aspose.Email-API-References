@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Amp
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Amp namespace provides classes for handling messages with AMP HTML body
+description: Build interactive AMP HTML emails with carousels forms accordions and other dynamic components
 type: docs
 weight: 20
 url: /net/aspose.email.amp/
 ---
-The **Aspose.Email.Amp** namespace provides classes for handling messages with AMP HTML body.
+Build interactive AMP HTML emails with carousels, forms, accordions and other dynamic components.
 
 ## Classes
 

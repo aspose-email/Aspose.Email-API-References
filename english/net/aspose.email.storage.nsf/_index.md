@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Nsf
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Storage.Nsf namespace contains classes for work with NSF format
+description: Extract messages and attachments from HCL IBM Notes NSF databases
 type: docs
 weight: 370
 url: /net/aspose.email.storage.nsf/
 ---
-The **Aspose.Email.Storage.Nsf** namespace contains classes for work with NSF format.
+Extract messages and attachments from HCL (IBM) Notes NSF databases.
 
 ## Classes
 

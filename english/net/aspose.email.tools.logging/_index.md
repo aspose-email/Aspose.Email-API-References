@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Logging
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Tools.Logging namespace contains classes that represent the logging functionality
+description: Log client and protocol operations to a file console or debug output for troubleshooting
 type: docs
 weight: 430
 url: /net/aspose.email.tools.logging/
 ---
-The **Aspose.Email.Tools.Logging** namespace contains classes that represent the logging functionality.
+Log client and protocol operations to a file, console or debug output for troubleshooting.
 
 ## Classes
 

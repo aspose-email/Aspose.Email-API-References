@@ -1,14 +1,14 @@
 ---
 title: DKIMSignatureInfo.Selector
 second_title: Aspose.Email for .NET API Reference
-description: DKIMSignatureInfo property. Gets or sets public key DNS selector s
+description: DKIMSignatureInfo property. Gets or sets the selector that tells verifiers which public key of the domain to use the s tag
 type: docs
 weight: 70
 url: /net/aspose.email.dkim/dkimsignatureinfo/selector/
 ---
 ## DKIMSignatureInfo.Selector property
 
-Gets or sets public key DNS selector (s=).
+Gets or sets the selector that tells verifiers which public key of the domain to use (the s= tag).
 
 ```csharp
 public string Selector { get; set; }

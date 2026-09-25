@@ -1,14 +1,14 @@
 ---
 title: Enum DKIMHashAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: Aspose.Email.DKIM.DKIMHashAlgorithm enum. Represents DKIM hash algorithm
+description: Aspose.Email.DKIM.DKIMHashAlgorithm enum. Algorithm used to sign the hash of a message
 type: docs
 weight: 17370
 url: /net/aspose.email.dkim/dkimhashalgorithm/
 ---
 ## DKIMHashAlgorithm enumeration
 
-Represents DKIM hash algorithm.
+Algorithm used to sign the hash of a message.
 
 ```csharp
 public enum DKIMHashAlgorithm
@@ -18,8 +18,8 @@ public enum DKIMHashAlgorithm
 
 | Name | Value | Description |
 | --- | --- | --- |
-| RSASha1 | `0` | RSA-SHA1 hash algorithm. |
-| RSASha256 | `1` | RSA-SHA256 hash algorithm. |
+| RSASha1 | `0` | RSA with SHA-1. Kept for older verifiers; prefer `RSASha256`. |
+| RSASha256 | `1` | RSA with SHA-256. Recommended for new signatures. |
 
 ### See Also
 

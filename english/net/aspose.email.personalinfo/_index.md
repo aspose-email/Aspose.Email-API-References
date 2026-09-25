@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.PersonalInfo
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.PersonalInfo namespace contains classes that represents contact information
+description: Contact data model covering names phone numbers postal and email addresses messengers and events
 type: docs
 weight: 330
 url: /net/aspose.email.personalinfo/
 ---
-The **Aspose.Email.PersonalInfo** namespace contains classes that represents contact information.
+Contact data model covering names, phone numbers, postal and email addresses, messengers and events.
 
 ## Classes
 

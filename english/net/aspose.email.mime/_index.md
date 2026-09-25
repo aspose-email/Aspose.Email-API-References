@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Mime
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Mime namespace provides classes that extend the format of email
+description: MIME building blocks  headers content types and transfer encodings  for finegrained control over message structure
 type: docs
 weight: 320
 url: /net/aspose.email.mime/
 ---
-The **Aspose.Email.Mime** namespace provides classes that extend the format of email.
+MIME building blocks - headers, content types and transfer encodings - for fine-grained control over message structure.
 
 ## Classes
 

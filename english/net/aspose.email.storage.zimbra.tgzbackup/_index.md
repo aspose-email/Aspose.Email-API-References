@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Zimbra.TgzBackup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Build Zimbracompatible TGZ backup archives from a set of EML files
 type: docs
 weight: 410
 url: /net/aspose.email.storage.zimbra.tgzbackup/
 ---
-
+Build Zimbra-compatible TGZ backup archives from a set of EML files.
 
 ## Classes
 

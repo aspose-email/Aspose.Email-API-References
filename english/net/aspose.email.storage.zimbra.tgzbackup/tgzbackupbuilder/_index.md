@@ -3,7 +3,7 @@ title: Class TgzBackupBuilder
 second_title: Aspose.Email for .NET API Reference
 description: Aspose.Email.Storage.Zimbra.TgzBackup.TgzBackupBuilder class. Scans a directory tree of EML files and writes them into a GZipcompressed TAR archive in the format required by Zimbras mailbox import tool zmmailbox importMailbox
 type: docs
-weight: 19400
+weight: 19410
 url: /net/aspose.email.storage.zimbra.tgzbackup/tgzbackupbuilder/
 ---
 ## TgzBackupBuilder class

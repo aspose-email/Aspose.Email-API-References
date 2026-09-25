@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Tools namespace contains auxiliary classes for email message handling
+description: Helpers for detecting a file's format and for building reply and forward messages
 type: docs
 weight: 420
 url: /net/aspose.email.tools/
 ---
-The **Aspose.Email.Tools** namespace contains auxiliary classes for email message handling.
+Helpers for detecting a file's format and for building reply and forward messages.
 
 ## Classes
 

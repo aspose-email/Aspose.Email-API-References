@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Activity
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Clients.Activity namespace provides classes that implement the Office 365 Management Activity API
+description: Retrieve Office 365 audit logs of mailbox admin and URLclick activity through the Management Activity API
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/
 ---
-The **Aspose.Email.Clients.Activity** namespace provides classes that implement the Office 365 Management Activity API.
+Retrieve Office 365 audit logs of mailbox, admin and URL-click activity through the Management Activity API.
 
 ## Classes
 

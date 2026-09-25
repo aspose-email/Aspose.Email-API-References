@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Merging
 second_title: Aspose.Email for .NET API Reference
-description: The Aspose.Email.Tools.Merging namespace contains classes for construct email messages by usung templates
+description: Produce personalized messages from a template and a data source mail merge
 type: docs
 weight: 440
 url: /net/aspose.email.tools.merging/
 ---
-The **Aspose.Email.Tools.Merging** namespace contains classes for construct email messages by usung templates.
+Produce personalized messages from a template and a data source (mail merge).
 
 ## Classes
 
